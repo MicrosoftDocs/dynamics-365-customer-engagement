@@ -68,53 +68,50 @@ For example, if a technician responds 'Yes' to the inspection question **Is a fo
 
 ### Create a flow
 
-1. Sign in to [https://flow.microsoft.com](https://flow.microsoft.com) and choose your environment.
-1. Select **New flow** > **Automated cloud flow**.
+1. Sign in to [Power Automate](https://make.powerautomate.com) and choose your environment.
+1. Select **My flows**. Then, select **New flow** > **Automated cloud flow**.
 1. Name the flow and select **Skip**.
-
-<!--- Stopped here. Can't validate Trigger step. Didn't see When a record is created or updated. --->
 
 ### Create a trigger
 
+Create a trigger for the flow based on the **Work Order Service Task** table. Technicians view and respond to inspections from this table.
+
 1. Select **Add a trigger**.
-1. Search for "Dynamics 365" and choose the trigger as **When a record is created or updated**.
+1. Search for "Dataverse" and select **When a row is added, modified, or deleted**.
+   :::image type="content" source="./media/inspections-workflow-trigger.png" alt-text="Screenshot of a list of Dataverse triggers in Power Automate.":::
+1. Choose **Work Order Service Tasks** for the **Table Name**.
+   :::image type="content" source="./media/inspections-workflow-step1.png" alt-text="Screenshot of the flow for when a row is added, modified, or deleted in Power Automate.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of triggers in Power Automate.](./media/inspections-workflow-trigger.png)
- 
-This flow relates to the **Work Order Service Task** entity because technicians view and respond to inspections from this entity. Choose **Work Order Service Tasks** for the **Entity Name**. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the flow for when a record is created or updated.](./media/inspections-workflow-step1.png)
- 
 ### Fetch the response from the database
 
-Next, we need to retrieve the inspection responses.
+Retrieve the inspection responses.
 
-Add a step using the **Get record** action in "Dynamics 365." 
+1. Add a step.
+1. Search for "Dataverse" and select **Get a row by ID** action.
+1. Select **Inspection Responses** for the table to enter **Inspection Response ID** in the row ID because this field has the ID of the inspection response record.
 
-Choose **Inspection Responses** as the entity to get and **Inspection Response ID** in the item identifier because this field has the ID of the inspection response record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Power Automate showing the get record part of a flow showing inspection responses in the item identifier field.](./media/inspections-workflow-fetch-inspection-response.png)
- 
 ### Extract the JSON
 
-Add an **Initialize Variable** action to retrieve the response from **ResponseJsonContent** field.
+Retrieve the response from the **ResponseJsonContent** field.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Power Automate flow, showing the "retrieve the encoded response json" part of the flow.](./media/inspections-workflow-get-JSON-content.png)
- 
+1. Add a step.
+1. Search for and select **Initialize variable** action.
+1. Enter **responsejson** for the name and select **string** for the type.
+1. For the value, enter **/** > **Insert dynamic content** and search for and select **ResponseJsonContent**.
+   :::image type="content" source="./media/inspections-workflow-get-JSON-content.png" alt-text="Screenshot of a Power Automate flow, showing the retrieve the encoded response json part of the flow.":::
+
 ### Decode the response
 
-Now we need to convert the response's JSON into a usable format.
+Convert the response's JSON into a usable format.
 
-Add an **Initialize Variable** action to url decode and base 64 decode the response JSON:
+1. Add a step.
+1. Search for and select **Initialize variable** action.
+1. Enter **decodedResponse** for the name and select **string** for the type.
+1. For the value, enter **/** > **Insert expression** and enter the following:
 
-```decodeUriComponent(decodeBase64(variables('responseJson')))```
+   ```decodeUriComponent(decodeBase64(variables('responseJson')))```
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the Decode the json part of the Power Automate flow.](./media/inspections-workflow-decode-JSON.png)
+   :::image type="content" source="./media/inspections-workflow-decode-JSON.png" alt-text="Screenshot showing the Decode the json part of the Power Automate flow.":::
 
 ### Update the schema
 
@@ -133,12 +130,15 @@ In our example, the schema is:
 }
 ```
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Parse JSON section of the Power Automate flow, showing the schema field populated with the previous snippet.](./media/inspections-workflow-update-schema.png)
+1. Add a step.
+1. Search for and select **Parse JSON** action.
+1. Copy the schema.
 
-If you're having trouble generating the schema, you can select the **Generate from sample** option and enter the name and sample answer of your inspection question and response.
+   :::image type="content" source="./media/inspections-workflow-update-schema.png" alt-text="Screenshot of the Parse JSON section of the Power Automate flow, showing the schema field populated with the previous snippet.":::
 
-In our example, we can enter:
+1. If you're having trouble generating the schema, you can select the **Use sample payload to generate schema** option and enter the name and sample answer of your inspection question and response.
+
+In our example, enter:
 
 ```{"Followup":"Yes"}```
 
