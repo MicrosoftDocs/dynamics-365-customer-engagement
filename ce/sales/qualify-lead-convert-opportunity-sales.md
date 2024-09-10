@@ -41,8 +41,8 @@ After you identify the time frame, budget, and purchase process for a lead, qual
 2. In the list of leads, open the lead you want to qualify. Want to qualify multiple leads at once? See [Qualify leads in bulk](#qualify-leads-in-bulk).
 
 3. (Optional) In the **Qualify** section of the process bar, specify the following information:
-    - If the lead is from an existing account or contact, select them in the **Existing Contact** and **Existing Account** fields. This step is optional because you can create or use an existing account and contact in the next step, depending on how your administrator has configured the lead qualification experience.
-    - Specify the other details such as purchase timeframe and estimated budget.
+    - If the lead is from an existing account or contact, select it in the **Existing Contact** and **Existing Account** fields. This step is optional because you can create or use an existing account and contact in the next step, depending on how your administrator has configured the lead qualification experience.
+    - Specify the other details such as purchase time frame and estimated budget.
 
 4. On the command bar, select **Qualify**.
 
@@ -58,6 +58,9 @@ After you identify the time frame, budget, and purchase process for a lead, qual
 ### New experience
 
 As part of the [new lead qualification experience](define-lead-qualification-experience.md#difference-between-new-lead-qualification-experience-and-legacy-experience), your admin can customize several aspects of the lead qualification process.
+
+
+
 
 #### Record creation
 
