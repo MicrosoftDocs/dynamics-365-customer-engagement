@@ -52,7 +52,7 @@ To configure and enable focused view as default for custom and other entities, f
 
 1. In the app, select the **Settings** icon, and then select **Advanced Settings**.  
    > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 1. On the navigation bar, select **Settings** > **Customization** > **Customizations** > **Customize the System**.  
 1. In the solution explorer, under **Components**, expand Entities, and then select an entity. For example, Invoice.  
 1. On the **Controls** tab, select **Add Control**.  

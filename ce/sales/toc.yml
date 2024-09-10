@@ -101,6 +101,8 @@
                   href: import-data.md
             - name: Enable and administer Sales Insights features
               href: intro-admin-guide-sales-insights.md
+            - name: Advanced settings in the new experience
+              href: advanced-settings-new-experience.md
         - name: Installation FAQs
           href: faq-installation.md
         - name: Customize your sales app
