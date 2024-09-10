@@ -50,7 +50,9 @@ The legacy experience only lets you choose whether to automatically create accou
 
    You'll see the following options:
 
-    - **Try the new lead qualification experience**: Turn on this setting to use the new lead qualification experience. This setting lets you define the following experiences: 
+    - **Try the new lead qualification experience**: Turn on this setting to use the new lead qualification experience.
+    
+      This setting lets you define the following experiences: 
         
         - [Define the record creation experience for each record type](#define-the-record-creation-experience-for-each-record-type)
         - [Customize opportunity creation experience for qualified leads](#customize-opportunity-creation-experience-for-qualified-leads)
