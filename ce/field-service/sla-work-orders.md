@@ -16,7 +16,7 @@ Dynamics 365 Field Service builds on the [Service Level Agreement (SLA) function
 
 SLAs help organizations ensure work orders get the right level of attention in a timely manner.
 
-For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 3 hours from the time a work order is created. The organization wants a warning status displayed after 90 minutes and to use the SLA timer during the scheduling process.
+For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 3 hours from the time a work order is created. The organization wants a warning status displayed after 90 minutes.
 
 To use SLAs for work orders, you enable the SLA setting, set up key performance indicators (KPIs), and then associate the SLAs to the work orders.
 
@@ -59,7 +59,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
     :::image type="content" source="media/work-order-sla-items.png" alt-text="Screenshot of SLA Item showing a warning after 1.5 hours and failure after 3 hours.":::
 1. Select **Save & Close**. Then, select **Activate**.
 
-<!--- Where does this fit in?
+<!--- I don't see what this setting does. Jason didn't mention it in the walkthrough.
 
 ## Add SLA KPIs to Field Service
 
@@ -87,7 +87,5 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 ## Schedule a work order to meet an SLA  
 
 [Create a work order](create-work-order.md) in Field Service and select the SLA. Once a work order is associated with an SLA, the **Time From Promised** and **Time To Promised** fields appear on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields.
-
-Pausing an SLA timer on the work order updates **Time From Promised** and **Time To Promised** fields when resumed.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
