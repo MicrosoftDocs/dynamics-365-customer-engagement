@@ -49,7 +49,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
         }    
 
      ```
-Learn more at [customize the rich text editor control](/powerapps-docs/maker/model-driven-apps/rich-text-editor-control#customize-the-rich-text-editor-control).<br>
+Learn more at [customize the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#customize-the-rich-text-editor-control).<br>
 1. Save and publish the form.
 
 ## Next steps
