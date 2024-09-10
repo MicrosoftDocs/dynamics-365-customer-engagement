@@ -138,15 +138,9 @@ Multiple IoT alerts might be created for the same IoT device for the same issue.
 
    :::image type="content" source="media/cfs-iot-alert-parent-diagram.png" alt-text="Screenshot of related IoT alerts in Field Service.":::
 
-You can also use AI to suggest which IoT alerts are higher priority based on historical data, such as which IoT alerts were converted to work orders. Learn more: [IoT alert AI suggestions](iot-alerts-ai-based-suggestions.md).
+## IoT alerts parenting
 
-## Configure parent IoT alert settings
-
-When an IoT alert is created in Connected Field Service, aggregation rules determine if the alert should be parented under another existing alert. The alert might be for a device or asset that already has an open alert. With autoparenting, you can avoid overrunning the alert list with too many alerts for the same issue.
-
-Configure which fields should be used to decide if an alert should be parented.
-
-1. In Dynamics 365 Field Service, select the **Settings** area.
+When an IoT alert is created in Connected Field Service, aggregation rules decide if the alert should be parented under another existing alert since the alert might be for a device or asset that already has an open alert. With autoparenting, you can avoid overrunning the alert list with many alerts for the same issue.
 
 1. Under **IoT**, select **Settings** > **Alert Aggregation Rules**.
 

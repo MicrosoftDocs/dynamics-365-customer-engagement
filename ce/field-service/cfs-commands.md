@@ -64,6 +64,5 @@ If you use the [IoT deployment template for Azure IoT Hub](installation-setup-io
 ## Next steps
 
 - [Create IoT alerts and convert IoT alerts into work orders](cfs-iot-alerts.md)
-- [AI suggestions for IoT alerts](iot-alerts-ai-based-suggestions.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

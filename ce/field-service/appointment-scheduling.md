@@ -49,7 +49,10 @@ Appointments that are marked *Private* in Outlook and synced to Dynamics 365 won
 
 ### Customize appointment colors on the schedule board
 
-The schedule board uses colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** of each **StatusCode** will change the appointment colors that show on the schedule board.  
+The schedule board uses colors defined in [Dataverse appointment](/dynamics365/customer-engagement/web-api/appointment) metadata. Customizing the **Color** of each **StatusCode** will change the appointment colors that show on the schedule board. 
+
+> [!NOTE]  
+> Customizing appointment tooltips on the Schedule Board is not supported. 
 
 ### Hide canceled appointments on the schedule board
 
