@@ -100,7 +100,7 @@ The **Company Name** column is included in the out-of-the-box lead views, but it
 
 ### Why can't I delete out-of-the-box field mappings between lead and opportunity?
  
-Starting in March 2024, the ability to delete any out-of-the-box field mappings was removed. If you deleted the field mapping between lead and opportunity prior to March 2024, the map would have been restored in the next update. If you want to override an out-of-the-box field map, you can create a post-operation plugin on opportunity create that checks whether the `originatingleadid` field is populated and update the fields targeted in out-of-the-box field maps as per your business requirements.
+As of March 2024, the ability to delete any out-of-the-box field mappings was removed. If you deleted the field mapping between lead and opportunity prior to March 2024, the map would have been restored in the next update. If you want to override an out-of-the-box field map, you can create a post-operation plugin on opportunity create that checks whether the `originatingleadid` field is populated and update the fields targeted in out-of-the-box field maps as per your business requirements.
 
 
 ## FAQs about lead scoring
