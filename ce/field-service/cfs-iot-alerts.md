@@ -168,4 +168,6 @@ To make the five-minute rule longer or shorter, modify the workflow "debounce" p
 
 To completely turn off the autoparent feature, disable the workflow or flow depending on whether your organization uses enhanced background processing controlled through Field Service settings. For more information, go to [Use Enhanced Background Processing](/dynamics365/field-service/configure-default-settings#other-settings).
 
+:::image type="content" source="media/iot-alert-parenting-4.png" alt-text="Power Apps showing IoT Parent Alerts with turning off highlighted.":::
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
