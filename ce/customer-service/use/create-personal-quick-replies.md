@@ -1,6 +1,6 @@
 ---
 title: "Create personal quick replies in the agent app | MicrosoftDocs"
-description: "Learn to create personal quick replies, also called predefined messages, in the Contact Center workspace and the Customer Service workspace."
+description: "Learn to create personal quick replies, also called predefined messages, in the Contact Center workspace or the Customer Service workspace."
 ms.date: 09/10/2024
 ms.topic: article
 author: neeranelli
@@ -22,7 +22,7 @@ As an agent, you can use the personalization menu that's accessible through the 
 
 You can create, edit, and delete the personal quick replies you own. The quick replies that you create are available on the **Personal** tab in the **Quick replies** panel of the conversation window.
 
-1. Sign in to the Contact Center workspace and the Customer Service workspace apps, and on the home page, select the plus sign ![plus sign.](../media/plus-sign.png) on the application tab.
+1. Sign in to the Contact Center workspace or the Customer Service workspace apps, and on the home page, select the plus sign ![plus sign.](../media/plus-sign.png) on the application tab.
    > ![Personalization menu.](../media/personalization-menu.png "Personalization menu")
 
 2. Select **Personalization**.
