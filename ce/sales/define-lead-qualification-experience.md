@@ -50,10 +50,8 @@ The legacy experience only lets you choose whether to automatically create accou
 
    You'll see the following options:
 
-    - **Try the new lead qualification experience**: Turn on this setting to use the new lead qualification experience.
-    
-      This setting lets you define the following experiences: 
-        
+    - **Try the new lead qualification experience**: Turn on this setting to use the new lead qualification experience. This setting lets you define the following experiences: 
+        >
         - [Define the record creation experience for each record type](#define-the-record-creation-experience-for-each-record-type)
         - [Customize opportunity creation experience for qualified leads](#customize-opportunity-creation-experience-for-qualified-leads)
         - [Enable lead summarization](#summarize-the-lead-after-its-qualified)
@@ -77,11 +75,6 @@ When you turn on the new [Lead qualification experience](#how-to-customize-the-l
 - Select **Automatic** if you want the system to create the record automatically. Sellers can review the records that will be created automatically.
 
 In either case, if there's a matching record in the system, the duplicate detection rules are applied to prevent the creation of duplicate records. Sellers can choose to use the existing record or create a new one. For more information about rules used to identify duplicates, see [Manage duplicate leads](manage-duplicate-leads.md).
-
-
-
-
-
  
 ### Customize opportunity creation experience for qualified leads
 
@@ -112,6 +105,8 @@ If you aren't using the Sales Hub app, you can define the lead qualification exp
 2. Select **Settings** > **Administration** > **System Settings**.
 3. Select the **Sales** tab.
 4. Under **Qualify lead experience**, set **Create Account, Contact, and Opportunity records by default upon qualifying a lead** to **Yes** to automatically create account, contact, and opportunity records when a lead is qualified. Set it to **No** to allow salespeople to choose which records to create when a lead is qualified. 
+
+
 
 ## Field mappings to other entities
 
