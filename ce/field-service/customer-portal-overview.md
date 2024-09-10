@@ -29,12 +29,12 @@ Email notifications keep the customer up to date about the status of the booking
 
 ## Get started with self-schedule capabilities
 
-Before inviting your customer to self-schedule service appointments, review the following articles that help you get started and set up.
+Before inviting your customer to self-schedule service appointments, review the following articles to assist with the setup process.
 
 1. [Create and configure the Field Service portal](create-configure-customer-portal.md).
 1. [Set up notifications for the Field Service portal](customer-portal-notification-settings.md).
-1. If you want customers to see information about their technician location and arrival time, see [Track a technician](customer-portal-technician-tracking.md).
-1. To make sure customers can use a home page, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md).
+1. If you want customers to see information about their technician's location and arrival time, see [Track a technician](customer-portal-technician-tracking.md).
+1. To ensure customers can use a home page, enable self-scheduling in Field Service. [Enable customers to self-schedule service appointments (preview)](customer-portal-self-scheduling.md).
 
 ## Known limitations
 

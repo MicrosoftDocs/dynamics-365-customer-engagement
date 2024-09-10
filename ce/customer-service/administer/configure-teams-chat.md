@@ -1,10 +1,15 @@
 ---
-title: "Configure Microsoft Teams chats in Customer Service | Microsoft Docs"
-description: "Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service."
-ms.date: 11/01/2023
+title: Configure Microsoft Teams chats in Customer Service
+description: Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service.
+ms.date: 09/06/2024
 author: lalexms
 ms.author: laalexan
 ms.topic: article
+ms.reviewer: laalexan
+search.audienceType: 
+  - admin
+  - customizer
+  - enduser
 ---
 
 # Configure Microsoft Teams chat in Customer Service
@@ -98,7 +103,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-collaboration-and-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
-If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles, see [Agent experience profiles](add-profile-default.md).
+If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles, go to [Agent experience profiles](add-profile-default.md).
 
 To enable Teams chat settings for a custom multisession user, complete the following steps:
 
@@ -128,7 +133,7 @@ After you enable Teams chats, you can connect the chats to different record type
 1. In **Embedded chat using Teams**, select **Manage**.
    
 1. Under **Connect chats to Dynamics 365 records**, select the record type you want to configure.<br>
-   If you want to add a record type, see [Add record types](#add-record-types)
+   If you want to add a record type, go to [Add record types](#add-record-types)
     
 1. Select **Save**.
 
@@ -151,13 +156,13 @@ To add a record type to connect chats to in Dynamics 365 records:
 For any view selected, keep in mind the following details:
 
  - The first five fields of any view are used as the context card details (in addition to a connection to the record).
- - If a field isn't supported, it's skipped and the display includes the first four fields that are supported. You're able to see from the configuration experience that the specific field isn't supported.
+ - If a field isn't supported, it's skipped and the display includes the first four fields that are supported. You can review from the configuration experience that the specific field isn't supported.
  
    > [!div class="mx-imgBorder"] 
    > ![View for supported fields and message for an unsupported field.](../media/teams-chat-unsupported-field-type.png "View for supported fields and message for unsupported field")
     
- - Because the data fields are static, field-level permissions aren't checked for collaborators. Therefore, if the agent has the field-level permissions to view data fields, collaborators can also see those fields.
-- If you don't select a view for the Case record type, agents see the default, out-of-box **Case introduction message** view.
+ - Because the data fields are static, field-level permissions aren't checked for collaborators. Therefore, if the agent has the field-level permissions to view data fields, collaborators can also review those fields.
+- If you don't select a view for the **Case record** type, the default, out-of-box **Case introduction message** view is set for agents.
 
    > [!div class="mx-imgBorder"] 
    > ![Default case introduction message view.](../media/teams-chat-case-intro-message-view.png "Default case introduction message view")
@@ -252,7 +257,7 @@ As an admin, you can enable users to view and easily join chats that are connect
 
 The ability for users to join existing chats related to cases is especially useful for the following scenarios:
 
-- **Case transfers**: If an agent onboards to a case that another agent previously handled, they can join existing connected chats to better understand the context of the case. They can see the steps the previous agent took, and then continue to collaborate with their relevant colleagues.
+- **Case transfers**: If an agent onboards to a case that another agent previously handled, they can join existing connected chats to better understand the context of the case. They can review the steps the previous agent took, and then continue to collaborate with their relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
 **To turn on or off the join chat capability for a record type**:
@@ -314,9 +319,9 @@ Automatic event updates can’t fully render inline images in rich text fields.
 
 ## Configure the ability for agents to view Teams chats on a connected record’s timeline (preview)
 
-You can configure the ability to sync data from Teams to Dataverse so that agents can see chat entries in the timeline when they start a connected chat or connect an existing chat to a record. Agents see the chat appear as a new activity on the timeline. It shows details about who connected the chat and when they connected, as well as the last person to send a message in the chat and the time they sent it.
+You can configure the ability to sync data from Teams to Dataverse so that agents can review chat entries in the timeline when they start a connected chat or connect an existing chat to a record. The chat appears as a new activity on the timeline. It shows details about who connected the chat and when they connected, as well as the last person to send a message in the chat and the time they sent it.
 
-Additionally, if the agent assigned to the record changes, the new agent (who might not have participated in the original chat), can see the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to see the full chat exchange.
+Additionally, if the agent assigned to the record changes, the new agent (who might not have participated in the original chat), can review the chat on the timeline. If the Join chat setting is turned on, the new agent can directly join the chat (and be added as a chat participant) to review the full chat exchange.
 
 ### Prerequisites
 
