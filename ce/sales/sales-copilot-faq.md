@@ -48,7 +48,7 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 ## In which regions is Copilot in Dynamics 365 Sales available?
 
-For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=copilotproductreport).
+For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
 ## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
 
