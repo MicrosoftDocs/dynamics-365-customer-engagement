@@ -20,7 +20,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 
 ## Install the voice channel
 
-1. Perform the steps outlined in [Set up Omnichannel for Customer Service](../implement/omnichannel-provision-license.md#set-up-omnichannel).
+1. Perform the steps outlined in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 
 1. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** checkbox.
 

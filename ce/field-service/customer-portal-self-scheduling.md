@@ -24,9 +24,9 @@ The portal requires users to create a portal profile before they can sign in and
 
 1. Open the link you received in the invite.
 
-   :::image type="content" source="media/SS-Portal-Login.svg" alt-text="The Field Service customer portal sign-in screen.":::
+   :::image type="content" source="media/SS-Portal-Login.svg" alt-text="Screenshot of the Field Service customer portal sign-in screen.":::
 
-1. Select the **Redeem invitation** tab and use the code you received in email.
+1. Select the **Redeem invitation** tab and use the code you received in the email.
 1. Create your profile for the portal.
 1. Optionally, select **Manage external authentication** to sign in with other identity providers.
 1. Save the profile and sign in to the self-service scheduling portal.
@@ -44,7 +44,7 @@ The portal requires users to create a portal profile before they can sign in and
 
 ## Modify an appointment
 
-You can change an appointment in the portal by choosing a new date and time, or canceling it.
+You can change an appointment in the portal by choosing a new date and time or canceling it.
 
 1. Sign in to the portal and select **Modify** on an existing appointment.
 1. Choose a new date and time, and save your changes.
@@ -61,7 +61,7 @@ If [technician tracking is turned on](customer-portal-technician-tracking.md), t
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the customer portal showing active technician details.](./media/TMT-Desktop-Traveling.png)
 
-If multiple appointments are set to traveling, only one appears in the **Active appointment**. The other active appointments are listed in the **Upcoming appointments** section, but you can select **View Live Map**.
+If multiple appointments are set to travel, only one appears in the **Active appointment**. The other active appointments are listed in the **Upcoming appointments** section, but you can select **View Live Map**.
 
 > [!div class="mx-imgBorder"]
 > ![Active appointments in the customer experience portal.](./media/homepage-homepage-with-1-booking-in-travelling-state-which-has-link-to-tmt.jpg)
@@ -75,14 +75,14 @@ Appointments set to **In Progress** appear in the **Upcoming appointments** sect
 
 ### Scheduled
 
-Scheduled appointments show in the **Upcoming appointments** section. You can change or cancel scheduled appointments.
+Scheduled appointments are shown in the **Upcoming appointments** section. You can change or cancel scheduled appointments.
 
 > [!div class="mx-imgBorder"]
 > ![List of upcoming scheduled appointments in the customer experience portal.](./media/homepage-homepage-with-upcoming-bookings.jpg)
 
 ### Canceled or completed
 
-Canceled and completed appointments move to the **Past appointments** tab. [Optional surveys](create-configure-customer-portal.md) to send feedback show on completed appointments.
+Canceled and completed appointments move to the **Past appointments** tab. [Optional surveys](create-configure-customer-portal.md) to send feedback displays on completed appointments.
 
 > [!div class="mx-imgBorder"]
 > ![List of past appointments in the customer experience portal, showing the option to send feedback.](./media/homepage-past-bookings-with-send-feedback-option-for-completed-bookings.jpg)
@@ -101,7 +101,7 @@ Before customers can use the Field Service portal, make sure you [configured the
 
 ### Receive a new self-scheduling invite for contacts that were deleted and added again
 
-A contact with a matching email only receives the portal invite once, even if the contact is deleted and readded to the system. To resent in invite:
+A contact with a matching email only receives the portal invite once, even if the contact is deleted and readded to the system. To resend an invite:
 
 1. Sign in to the [Power Platform admin center](https://admin.powerplatform.com) and select your organization's environment.
 1. Select **Power Apps** and then select **Portal Management**.
