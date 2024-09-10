@@ -1,7 +1,7 @@
 ---
 title: Learn how search works for knowledge management
 description: Use knowledge article search mechanisms.
-ms.date: 04/18/2022
+ms.date: 09/04/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,16 +17,16 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help you with solutions to the most common customer issues so that you can assist customers quickly. This topic describes how various search methods work in a knowledge base and how you can view accurate search results based on the keywords or operators that you use to search the knowledge base.
+Setting up a comprehensive knowledge base is the key to increased customer satisfaction and improved productivity. A knowledge base is created to help you with solutions to the most common customer issues so that you can assist customers quickly. This article describes how various search methods work in a knowledge base and how you can view accurate search results based on the keywords or operators that you use to search the knowledge base.
 
-Dataverse search is enabled by default in all production environments, except those using their own encryption key. For more information, go to [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search). When Dataverse search is enabled, knowledge management search control uses Dataverse search to search for knowledge articles. For more information, go to [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). If Dataverse search isn't enabled, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. For more information, go to [Full-text search](/sql/relational-databases/search/full-text-search).
+Dataverse search is enabled by default in all production environments, except those using their own encryption key. Learn more in [Enable Dataverse search](/power-platform/admin/configure-relevance-search-organization#enable-dataverse-search). When Dataverse search is enabled, knowledge management search control uses Dataverse search to search for knowledge articles. Learn more in [What is Dataverse search?](/power-platform/admin/configure-relevance-search-organization). If Dataverse search isn't enabled, the search mechanism switches to full-text search, which lets you run full-text queries against character-based data in SQL Server tables. Learn more in [Full-text search](/sql/relational-databases/search/full-text-search).
 
-Depending on the configurations made in Dataverse search through the Quick Find view columns list, you can view the information provided in search results, such as keywords, description, attachments, or article number. More information: [Prerequisites](search-knowledge-articles-csh.md#prerequisites) 
+Depending on the configurations made in Dataverse search through the Quick Find view columns list, you can view the information provided in search results, such as keywords, description, attachments, or article number. Learn more in [Prerequisites](search-knowledge-articles-csh.md#prerequisites).
 
 
 ## How search works
 
-By default, the search mode is "any", which means that the search results will include articles that contain any of the search keywords you entered. However, if you have Dataverse search enabled along with the **Knowledge search logic** option in **Settings**, the search mode will be set to "all". This means that the search results will return records that contain all the search keywords you entered. More information: [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
+By default, the search mode is "any", which means that the search results will include articles that contain any of the search keywords you entered. However, if you have Dataverse search enabled along with the **Knowledge search logic** option in **Settings**, the search mode will be set to "all". This means that the search results will return records that contain all the search keywords you entered. Learn more in [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
 
 However, irrespective of your search settings, you can use the following search methods to search for your knowledge articles.
 
@@ -75,10 +75,10 @@ Use double quotation marks around a keyword to search for an exact match. For ex
 
 ### Related information
 
-[Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)
-[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)
-[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)
-[Set up a search provider](../administer/set-up-search-providers.md)
+[Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)  
+[Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
+[Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  
+[Set up a search provider](../administer/set-up-search-providers.md)  
 [Add a knowledge article subgrid to a form](../administer/add-knowledge-base-search-control-forms.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
