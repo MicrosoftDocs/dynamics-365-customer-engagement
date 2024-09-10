@@ -16,6 +16,9 @@ Field service organizations always have work coming in that needs to be schedule
 
 When using Dynamics 365 Field Service v8.8.43.51 and Universal Resource Scheduling v3.12.46.21 to schedule work, the `msdyn_SearchResourceAvailability` API can be used to retrieve all the eligible resources for the job, to allow for efficient scheduling of the work. At the time of writing, v3 is the latest version of msdyn_SearchResourceAvailability and supports web API calls. 
 
+> [!Note]
+> Using the latest version of the API is highly recommended as older versions may use deprecated authentication methods.
+
 ## Input parameters
 
 | Name | Type | Description | Required | Default
@@ -43,6 +46,7 @@ The settings entity is not an entity that exists in the Dataverse; however, it's
 | SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection represents one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources will be returned for onsite requirements.
 | MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | Resource Availability Retrieval Limit from schedulable entity definition
+| ConsiderOutlookSchedules | Boolean | Set this to _True_ if schedules from Outlook should be considered. Only available in versions 3.1.0 and later | No | False
 
 ### Resource specification entity
 
