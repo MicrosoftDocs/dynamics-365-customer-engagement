@@ -6,7 +6,9 @@ ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Configure SMS provider
