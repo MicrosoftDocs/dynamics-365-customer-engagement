@@ -11,7 +11,7 @@ ms.author: v-slaik
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The report issues feature in the Contact Center workspace and the Customer Service workspace apps allow you to capture a diagnostic report of the issues and share it with Microsoft.
+The report issues feature in the Contact Center workspace and the Customer Service workspace apps allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
 > The report issues feature is not supported in the Contact Center workspace and the Customer Service workspace on Unified Service Desk.
