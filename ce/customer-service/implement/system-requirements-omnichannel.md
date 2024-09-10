@@ -59,11 +59,9 @@ The customer-facing live chat widget that you display on your portal supports th
 - **macOS and iOS:** Safari
 - **Android:** Chromium-based browser such as Microsoft Edge and Google Chrome
 
-## Provision Omnichannel for Customer Service
+## Provision channels
 
-To enable the Omnichannel for Customer Service app in your org, see [Provision Omnichannel for Customer Service](omnichannel-provision-license.md).
-
-To upgrade Omnichannel for Customer Service, see [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md).
+To enable channels in your org, see [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 
 > [!NOTE]
 >

@@ -44,7 +44,7 @@ When the analysis job finishes running, the system opens the overview page.
 
 :::image type="content" source="media/troubleshoot-solution-health-fs-rules-analysis.svg" alt-text="Screenshot of a complete analysis job overview.":::
 
-In the analysis job, each rule shows a **Return Status** indicating whether the rule passed, failed, or has a configuration error. If a rule fails, a **Severity** provides how severe the problem is.
+In the analysis job, each rule shows a **Return Status** indicating whether the rule passed, failed, or has a configuration error. If a rule fails, a **Severity** indicates how severe the problem is.
 
 | Rule return status | Recommendation|
 | --- | --- |  
@@ -110,7 +110,7 @@ Select the analysis result, review the agreement, and select **Resolve**.
 
 ### Notes and limitations
 
-- The rule validates for agreements having an end date in last 90 days.
+- The rule validates for agreements having an end date in the last 90 days.
 - The rule considers the top 5,000 agreements with an active system status and end date in the past.
 - The rule validates only agreements having Agreement booking setups and Agreement booking dates.
 
@@ -139,15 +139,15 @@ Severity: High
 
 ### What it checks
 
-For all work order forms, this rule checks if the number of subgrid controls or lookup controls exceed the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
+For all work order forms, this rule checks whether the number of subgrid controls or lookup controls exceed the limit, which might affect performance. The limit is 4 subgrids or 20 lookups. This rule triggers a notification to system administrators stating which forms have too many subgrid controls or lookup controls.
 
-A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. For example, the work order product subgrid control on the work order form that is included in Field Service out-of-the-box.
+A [subgrid control](/powerapps/developer/model-driven-apps/clientapi/reference/grids) is a table in the form that lists records of another table. For example, the work order product subgrid control on the work order form that is included in Field Service out of the box.
 
 A lookup control is a field on the form that searches the records of another table and allows you to select one or more records to populate the field.
 
 ### Why it fails
 
-This rule fails if the default tab (the first tab) of any work order form has more than either 4 subgrids controls or 20 lookup controls. The number of controls on the default tab of the form impacts load performance.
+This rule fails if the default tab (the first tab) of any work order form has more than either 4 subgrid controls or 20 lookup controls. The number of controls on the default tab of the form impacts load performance.
 
 ### How to fix
 
@@ -165,19 +165,19 @@ This rule checks if the required level of a system-required field on the Work Or
 
 ### Why it fails
 
-This rule fails if the required level of a system-required field in the out-of-box Field Service Work Order or Agreement form is modified.
+This rule fails if the required level of a system-required field in the out-of-the-box Field Service Work Order or Agreement form is modified.
 
 ### How to fix
 
-1. In Power Apps, select **Tables** > **All** and search for Work order or Agreement.
+1. In Power Apps, select **Tables** > **All** and search for Work Order or Agreement.
 1. Select the table.
 1. Under **Schema**, select **Columns**. Find and select the field listed in the analysis.
-1. In the **Edit column** pane, changed **Required** to 'Business Required' and save.
+1. In the **Edit column** pane, change **Required** to 'Business Required' and save.
 
 > [!Note]
 > This rule is implemented for the out-of-the-box required field on the Work Order and Agreement forms only.
 
-### Checks For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
+## Checks For Revision mismatch on Agreement Booking Dates with Agreement Booking Setups
 
 Severity: High
 
@@ -243,7 +243,7 @@ This rule detects whether there are customizations to any option set in Field Se
 
 ### Why it fails
 
-This rule fails if there are any customizations on any of the default Field Service options sets. Additions to the option sets don't count as failures, only modifications to the options within the option sets.
+This rule fails if there are any customizations on any of the default Field Service option sets. Additions to the option sets don't count as failures, only modifications to the options within the option sets.
 
 ### How to fix
 
@@ -394,7 +394,7 @@ This rule fails because Field Service code expects the execution context paramet
 
 ### How to fix
 
-1. In Power Apps, select **Tables** > **All** and search for Work order or Agreement.
+1. In Power Apps, select **Tables** > **All** and search for Work Order or Agreement.
 1. Select the table.
 1. Under **Data experiences**, select **Forms**.
 1. Select the **Events** tab.
@@ -415,7 +415,7 @@ This rule fails if a Field Service upgrade was started but not successfully comp
 
 ### How to fix
 
-Restart the Field Service upgrade. Once the upgrade succeeds, this rule returns a pass. If the upgrade fails again, contact support.
+Restart the Field Service upgrade. Once the upgrade succeeds, this rule repeats a pass. If the upgrade fails again, contact support.
 
 ## Latitude and Longitude values on account record
 
@@ -599,6 +599,6 @@ Retrigger the workflow. Refer to general documentation or contact support.
 
 ## Next steps
 
-- [Dynamics 365 Field Service troubleshooting](/troubleshoot/dynamics-365/field-service/welcome-field-service)
+[Dynamics 365 Field Service troubleshooting](/troubleshoot/dynamics-365/field-service/welcome-field-service)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
