@@ -40,7 +40,7 @@ Use the following question names to create preconversation questions. To know ho
 | Incident | Question context key: CaseNumber <br> Attribute logical name: `ticketnumber` |Single line |
 
 > [!Note]
-> If you'd like other fields to be recognized for phone number lookup, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
+> If you'd like other fields to be modified or to be recognized for phone number lookup, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
 
 ## Use the setContextProvider API method
 
