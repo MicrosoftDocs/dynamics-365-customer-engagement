@@ -40,7 +40,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 ## Prerequisites
 
-- Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/en-US/availability-reports/?report=copilotproductreport).
+- Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 - Verify whether your region has an Azure OpenAI Service endpoint. If not, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
 
 ## Turn Copilot features on or off in Sales Hub
