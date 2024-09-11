@@ -18,7 +18,7 @@ Device categories help you organize devices.
 
 You can also manage devices by categorizing them. For example, you can categorize devices by the commands they support, the type of device, or by devices that break down more often.  
   
-### Create a new IoT device category
+## Create a new IoT device category
   
 1. From the main menu, go to **Settings** > **Device Categories**.  
   
@@ -32,9 +32,9 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 6. Open the IoT device category record that you created.  
   
-7. In the **Devices** section, select **Add IoT Device record, and then add a device to the category.  
+7. In the **Devices** section, select **Add IoT Device record**, and then add a device to the category.  
   
-### Add devices to an existing category  
+## Add devices to an existing category  
   
 1. From the main menu, go to **Internet of Things** > **Registered Devices**.  
   
@@ -56,18 +56,18 @@ By default, you can view the last 20 readings. You can change the default settin
   
 ## Remotely send commands to a registered device
 
- When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
+When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
   
 
 > [!NOTE]
 >  When you receive multiple alerts from the same device, the alerts will be listed in hierarchical order. You can change the grouping by changing the IoT - Parent IoT Alerts workflow.
 
-### View a device's registration history  
+## View a device's registration history  
   
 1. From the main menu, go to **IoT Devices**.  
   
 2. Select an IoT device record to open it.  
   
-3. In the category field, use the search button to find and to add the device to a category.  
+3. In the category field, use the search button to find and add the device to a category.  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
