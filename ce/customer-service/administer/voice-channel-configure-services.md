@@ -57,7 +57,7 @@ To enable call recording and SMS services, you must first configure your applica
     - **Resource**: Select the resource.
     - **System Topic Name**: This field is automatically populated with the system topic name you created. However, if you see multiple values, select the specific system topic name from the list.
     - **Filter to Event Types**: You can filter events for call recording, incoming calls, or SMS services.
-        - To filter event types for recording services, select **Recording File Status Updated** in the list.
+        - To filter event types for calling services, select **Incoming Call** in the list.
      
      - **Endpoint Type**: Select **Web Hook** in the list.
      - **Endpoint**: Select **Select an endpoint**, and then enter the incoming call, webhook endpoint from the Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** to get the following webhook endpoints:
