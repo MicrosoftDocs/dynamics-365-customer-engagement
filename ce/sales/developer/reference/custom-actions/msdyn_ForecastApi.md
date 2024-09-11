@@ -22,7 +22,6 @@ As a developer, read this reference documentation to use the `msdyn_ForecastApi`
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
 
-
 ## Parameters
 
 |Parameter name| Required| Description|
@@ -216,13 +215,15 @@ Content-Type: application/json
     	\"SortingOrder\":\"DSC\",
     	\"PageSize\":1,
     	\"PageNo\":1
+      \"GetParticipatingRecordsFetchXml\":true,
+      \"ParticipatingRecordsViewId\":\"bf649add-6c30-ea11-a813-000d3a5475f7\"
     }"
 }
 ```
 |Parameter|Type|Description|
 |------|------|------|
 |`WebApiName`|String|Name of the API|
-|`RequestJson`|JSON object|Consists of<br />`ForecastPeriodId`: Unique identifier of the forecast period<br />`ForecastConfigurationId`: Unique identifier of the forecast configuration<br />`SortingAttribute`: The attribute based on which you want to do Sorting in the paging<br />`SortingOrder`: ASC for ascending order DSC for descending order<br />`PageSize`: Number of records you want to retrieve in a single page<br />`PageNo`: Which page records you want to fetch for.|
+|`RequestJson`|JSON object|Consists of<br />`ForecastPeriodId`: Unique identifier of the forecast period<br />`ForecastConfigurationId`: Unique identifier of the forecast configuration<br />`SortingAttribute`: The attribute based on which you want to do Sorting in the paging<br />`SortingOrder`: ASC for ascending order DSC for descending order<br />`PageSize`: Number of records you want to retrieve in a single page<br />`PageNo`: Which page records you want to fetch for.<br />`GetParticipatingRecordsFetchXml`: Flag indicating whether participating records fetch XML is needed in the response.<br />`ParticipatingRecordsViewId`: This is needed when `GetParticipatingRecordsFetchXml` is true. This is a saved query (view) ID using which the participating records fetch XML is generated. |
 
 Given below is the sample JSON for `RequestJson` object.
 
@@ -236,7 +237,7 @@ Given below is the sample JSON for `RequestJson` object.
     	\"SortingOrder\":\"DSC\",
     	\"PageSize\":1,
     	\"PageNo\":1
-    	
+      \"GetParticipatingRecordsFetchXml\":false  
     }"
 } 
 ```
@@ -252,6 +253,7 @@ Given below is the sample JSON for `RequestJson` object.
           "ForecastConfigurationId": "04323a04-da7f-ea11-a811-000d3a37bb2c",
             ...],
       "HasMorePages": false,
+      "ParticipatingRecordsFetchXml": “”,
       "Code": 200,
       "Message": "OK"
    }
@@ -423,13 +425,13 @@ Content-Type: application/json
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-|ForecastConfigurationId | GUID  | Forecast configuration ID |
-| ForecastPeriodId       | GUID  | Forecast Period ID |
-| HierarchyRecordId      | GUID  | The record ID for which the underlying record should be retrieved. Example, Kenny Smith.|
-| ForecastInstanceId     | GUID  | Forecast instance ID |
-| ForecastConfigurationColumnId | GUID  | ID of the forecast column that needs to be retrieved. Forecast columns can be best case, pipeline, won, lost, and so on. Only one column ID can be specified per request. To retrieve more columns, send a request for each column.|
-| RecordViewId           | GUID  | Record view ID of the underlying records. Learn more about getting the view ID in [savedquery EntityType](/power-apps/developer/data-platform/webapi/reference/savedquery)  |
-| IsRolledUpNodeRequested| Boolean | Specifies whether to return the values for the rolled up node (group) or individual node. If set to true, all the records under the group node is returned. If set to false, just the individual's record is returned. |
+| ForecastConfigurationId | GUID | Forecast configuration ID |
+| ForecastPeriodId | GUID | Forecast Period ID |
+| HierarchyRecordId | GUID | The record ID in Dataverse for which the underlying record should be retrieved. For example, the system user ID in the case of an Org Chart Forecast, or the territory ID in the case of a Territory Forecast. |
+| ForecastInstanceId | GUID | Forecast instance ID |
+| ForecastConfigurationColumnId | GUID | ID of the forecast column that needs to be retrieved. For example, when you want to fetch only the participating records for the **Best Case** column of your forecast, enter the column ID of the **Best Case** column. You enter only one column ID for each request. To retrieve more columns, you send a request for each column. Skip this parameter if you want to fetch XML for all columns of the forecast. You get the column ID from the **Forecast Configuration** definition. |
+| RecordViewId | GUID | Record view ID of the underlying records. Learn more about getting the view ID in [savedquery EntityType](/power-apps/developer/data-platform/webapi/reference/savedquery) |
+| IsRolledUpNodeRequested | Boolean | Specifies whether to return the values for the rolled up node (group) or individual node. If set to true, all the records under the group node is returned. If set to false, just the individual's record is returned. |
 
 #### Response
 
@@ -445,7 +447,7 @@ Content-Type: application/json
 
 #### Return value
 
-A fetchxml query that returns the underlying records in a forecast.
+A fetch XML query that returns the underlying records in a forecast.
 
 ## Related information
 
