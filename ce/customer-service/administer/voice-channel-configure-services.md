@@ -18,8 +18,8 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You need to be an owner of the [App registration](#get-event-grid-app-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions. 
-> - You can set only one webhook endpoint at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must perform the procedure thrice to set a webhook endpoint for each service.
+> - You must be an owner of the [App registration](#get-event-grid-app-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions. 
+> - You can set only one webhook endpoint at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must repeat the procedure to set the webhook endpoint for each of these services.
 > - You must create a new event subscription for each event type. Don't update an existing event subscription by changing the event type.
 > - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs, go to [Get application and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
 
