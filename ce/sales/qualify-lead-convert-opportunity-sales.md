@@ -59,9 +59,6 @@ After you identify the time frame, budget, and purchase process for a lead, qual
 
 As part of the [new lead qualification experience](define-lead-qualification-experience.md#difference-between-new-lead-qualification-experience-and-legacy-experience), your admin can customize several aspects of the lead qualification process.
 
-
-
-
 #### Record creation
 
 - If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You see a **Processing** message while the records are being created. After the records are created, the opportunity record opens.
