@@ -40,7 +40,7 @@ Use the following question names to create preconversation questions. To know ho
 | Incident | Question context key: CaseNumber <br> Attribute logical name: `ticketnumber` |Single line |
 
 > [!Note]
-> If you'd like to modify the [FetchXML](power-apps/developer/data-platform/fetchxml/reference/) to use other fields for phone number lookup or or add other conditions, see [Enable fields for identifying customers]([/dynamics365/contact-center/extend/enable-fields-identify-customers](https://learn.microsoft.com/en-us/dynamics365/contact-center/extend/enable-fields-identify-customers)). For additional help, contact [Microsoft Support](https://dynamics.microsoft.com/support/).
+> If you'd like to modify the [FetchXML](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/fetchxml/reference/) to use other fields for phone number lookup or or add other conditions, see [Enable fields for identifying customers](https://learn.microsoft.com/en-us/dynamics365/contact-center/extend/enable-fields-identify-customers).
 
 ## Use the setContextProvider API method
 
