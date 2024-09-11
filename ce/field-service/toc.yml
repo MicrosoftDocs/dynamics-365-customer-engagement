@@ -80,6 +80,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Service level agreements
+      href: sla-work-orders.md
     - name: Use Dataverse search
       href: search-dataverse-tables.md
     - name: Customer asset validation
