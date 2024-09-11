@@ -214,9 +214,9 @@ Content-Type: application/json
     	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
     	\"SortingOrder\":\"DSC\",
     	\"PageSize\":1,
-    	\"PageNo\":1
-      \"GetParticipatingRecordsFetchXml\":true,
-      \"ParticipatingRecordsViewId\":\"bf649add-6c30-ea11-a813-000d3a5475f7\"
+    	\"PageNo\":1,
+        \"GetParticipatingRecordsFetchXml\":true,
+        \"ParticipatingRecordsViewId\":\"bf649add-6c30-ea11-a813-000d3a5475f7\"
     }"
 }
 ```
@@ -236,8 +236,8 @@ Given below is the sample JSON for `RequestJson` object.
     	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
     	\"SortingOrder\":\"DSC\",
     	\"PageSize\":1,
-    	\"PageNo\":1
-      \"GetParticipatingRecordsFetchXml\":false  
+    	\"PageNo\":1,
+        \"GetParticipatingRecordsFetchXml\":false  
     }"
 } 
 ```
@@ -253,7 +253,7 @@ Given below is the sample JSON for `RequestJson` object.
           "ForecastConfigurationId": "04323a04-da7f-ea11-a811-000d3a37bb2c",
             ...],
       "HasMorePages": false,
-      "ParticipatingRecordsFetchXml": “”,
+      "ParticipatingRecordsFetchXml": "",
       "Code": 200,
       "Message": "OK"
    }
