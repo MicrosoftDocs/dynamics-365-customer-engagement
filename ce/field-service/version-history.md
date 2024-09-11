@@ -36,11 +36,11 @@ For information about older versions, see [Version history archive](version-hist
 
 - Drip scheduling is now deprecated, and the setting has been removed.
 - DOD region is now correctly determined by region helper.
-- Work Order form no longer shows as (new) when disable pricing setting is turned on.
--  New planner integration feature added! Find the feature toggle in settings.
-- D365 Field Service Mobile: Fixed a bug which caused inspection response text to overlap for some question types when exported to PDF.
-- D365 Field Service Mobile: Fixed a bug which would prevent inspections PDF from generating when JSON expression is invalid.
-- D365 Field Service Mobile: Fixed a bug which prevented some images from rendering in exported PDF.
+- Work order form no longer shows as (new) when disable pricing setting is turned on.
+- New planner integration feature added! Find the feature toggle in settings.
+- Field Service Mobile: Fixed a bug which caused inspection response text to overlap for some question types when exported to PDF.
+- Field Service Mobile: Fixed a bug which prevents inspections PDF from generating when a JSON expression is invalid.
+- Field Service Mobile: Fixed a bug which prevented some images from rendering in the exported inspection PDF.
 
 
 
