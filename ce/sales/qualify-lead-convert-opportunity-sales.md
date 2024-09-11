@@ -20,6 +20,10 @@ searchScope:
   - Sales
 ---
 
+
+<!-- question from editor: In line 88, is @uick correct or a typo? -->
+
+
 # Qualify and convert leads to opportunity
 
 After you identify the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify the lead to keep a record of the sales process.
@@ -67,7 +71,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 - If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the following screenshot:
 
-   :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify side pane when record creation is set to automatic for contact and account, and manual for opportunity.":::
+   :::image type="content" source="media/qualify-lead-dialog-box-mix.png" alt-text="Screenshot of the Qualify lead side pane when record creation is set to automatic for contact and account, and manual for opportunity.":::
 
    In this example, account and contact records aren't editable. If you need to change the account or contact details, close the side pane, edit the details in the Lead form, and then select **Qualify**.
 
@@ -97,7 +101,7 @@ Select **Finish** to open the primary opportunity record and select **X** at the
 
 ### Legacy experience
 
-- If your admin has enabled automatic creation, an account, contact, and opportunity records are automatically created when the lead is qualified.
+- If your admin has enabled automatic creation, account, contact, and opportunity records are automatically created when the lead is qualified.
 
 - If your admin has disabled automatic creation, you're prompted to choose the records to create when the lead is qualified (account, contact, or opportunity).
     
@@ -131,9 +135,9 @@ To disqualify, select the lead, and on the command bar, select  **Disqualify**.
 
 ## Typical next steps  
 
- ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](create-edit-opportunity-sales.md)  
+![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Create or edit an opportunity](create-edit-opportunity-sales.md)  
   
- ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md) 
+![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md) 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
