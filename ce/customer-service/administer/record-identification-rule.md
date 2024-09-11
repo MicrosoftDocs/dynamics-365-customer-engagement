@@ -40,7 +40,7 @@ Use the following question names to create preconversation questions. To know ho
 | Incident | Question context key: CaseNumber <br> Attribute logical name: `ticketnumber` |Single line |
 
 > [!Note]
-> If you'd like to modify the [FetchXML](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/fetchxml/reference/) to use other fields for phone number lookup or or add other conditions, see [Enable fields for identifying customers](https://learn.microsoft.com/en-us/dynamics365/contact-center/extend/enable-fields-identify-customers).
+> If you'd like other fields to be recognized for phone number lookup, perform the steps in [Enable fields for identifying customers](/dynamics365/contact-center/extend/enable-fields-identify-customers).
 
 ## Use the setContextProvider API method
 
@@ -69,5 +69,6 @@ For information about creating context variables for Azure and Copilot Studio bo
 [Configure a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Configure Azure bot](configure-bot-azure.md)  
 [Context variables for bots](context-variables-for-bot.md)  
+[FetchXML reference](/power-apps/developer/data-platform/fetchxml/reference/)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
