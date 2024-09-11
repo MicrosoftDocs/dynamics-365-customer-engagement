@@ -16,8 +16,6 @@ In general, access to IoT tables should mimic access to the customer asset table
 
 ## Prerequisites
 
-- Field Service v8.3+
-
 - Dynamics 365 system administrator access
 
 - General knowledge of Field Service security roles. For more information, go to [Set up users and security roles](users-licenses-permissions.md).

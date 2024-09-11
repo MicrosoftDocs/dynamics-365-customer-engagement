@@ -50,7 +50,7 @@ A one-to-many (1:many) relationship exists between the `IoT Provider` table and 
 
 ### IoT Device table
 
-A 1:many relationships exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
+A 1:many relationship exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
 
 - **Account** identifies the customer account in Field Service that has an association with the device.
 - **Category** is the device category.
