@@ -68,7 +68,7 @@ You can configure the auto-close duration of a conversation in Power Apps by per
 3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
 
 > [!NOTE]
-> Ensure that you have the Write privileges to edit the table. Learn more at [Security roles and privileges - Power Platform](security-roles.md).
+> Make sure that you have write privileges to edit the table. Learn more at [security roles and privileges - Power Platform](security-roles.md).
 
 ### Close conversations using API
 
