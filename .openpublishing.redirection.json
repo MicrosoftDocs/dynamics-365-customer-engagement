@@ -21,6 +21,21 @@
       "redirect_document_id": "false"
    },
    {
+     "source_path": "ce/field-service/analytics-predictive-work-duration.md",
+     "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+     "redirect_document_id": "false"
+  },
+  {
+    "source_path": "ce/field-service/configure-incident-types.md#use-ai-to-get-incident-type-suggestions",
+    "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+    "redirect_document_id": "false"
+  },
+  {
+    "source_path": "ce/field-service/iot-alerts-ai-based-suggestions.md",
+    "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+    "redirect_document_id": "false"
+  },
+   {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-web-api.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
       "redirect_document_id": "false"
@@ -168,6 +183,11 @@
     {
       "source_path": "ce/sales/license-checker-rules.md",
       "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-copilot-data-movement.md",
+      "redirect_url": "/dynamics365/sales/enable-setup-copilot.md",
       "redirect_document_id": "false"
     },
     {
@@ -33005,6 +33025,71 @@
     {
       "source_path": "ce/customer-service/administer/configure-google-business-messages-channel.md",
       "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/configure-customer-service-analytics-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/configure-customer-service-analytics-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/customer-service-analytics.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/customer-service-analytics",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/intro-dynamics-365-omnichannel-insights-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/intro-dynamics-365-omnichannel-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/configure-historical-sentiment-dashboard-supervisor.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/configure-historical-sentiment-dashboard-supervisor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/omnichannel-insights-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/omnichannel-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/configure-intraday-dashboard-supervisor.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/configure-intraday-dashboard-supervisor",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/intro-intraday-insights-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/intro-intraday-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/intraday-insights-dashboard.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/intraday-insights-dashboard",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/intraday-agents-insights.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/intraday-agents-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/intraday-conversation-insights.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/intraday-conversation-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/customize-kpis-intraday-insights.md",
+      "redirect_url": "/previous-versions/dynamics365/customer-service/implement/customize-kpis-intraday-insights",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocgooglebusinessmessagesagentaccount.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/overview-entity-ref",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md",
+      "redirect_url": "/dynamics365/customer-service/develop/reference/entities/overview-entity-ref",
       "redirect_document_id": false
     }
   ]

@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 08/20/2024
+ms.date: 08/30/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -77,6 +77,9 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
         - The **Competitor insights** section displays the competitors associated with the opportunity along with the strengths and weaknesses of the competitors.  
 
         The information is displayed in these sections are based on the fields configured by the administrator for generating summaries. More information: [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md).
+
+>[!NOTE]
+>To understand the default attributes used to generate summaries in Copilot in Dynamics 365 Sales, see [opportunity summary default attributes](understand-copilot-summaries.md#opportunity-summary).
 
 ### View opportunity summary widget
 

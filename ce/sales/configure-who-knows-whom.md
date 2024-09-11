@@ -2,11 +2,13 @@
 title: Configure who knows whom
 description: Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts.
 ms.date: 07/25/2024
-ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Configure who knows whom
