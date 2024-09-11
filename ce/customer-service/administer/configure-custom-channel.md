@@ -1,7 +1,7 @@
 ---
 title: Configure custom messaging channels 
 description: Learn what a custom channel is and how to configure it or bring your own channel.
-ms.date: 07/11/2024
+ms.date: 08/23/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -21,8 +21,8 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 - Bring in the channels your customers already use so that you can engage with them in familiar ways.
 - Integrate line-of-business or in-house channels that are specific to your organization.
-- Easily configure the administrator experience in the Customer Service admin center.
-- Create a single, unified agent experience in the Omnichannel for Customer Service app.
+- Easily configure the administrator experience in the admin center.
+- Create a single, unified agent experience.
 
 ## Prerequisites
 
@@ -33,7 +33,8 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ## Configure a custom messaging channel
 
-1. In the Customer Service admin center, under **Customer support**, select **Channels**. In **Accounts**, for **Messaging accounts**, select **Manage**.
+1. In the site map of Contact Center admin center or Customer Service admin center, go to **Customer support**, and then select **Channels**. 
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
@@ -67,7 +68,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ### Configure workstream and routing rules
 
-1. In Omnichannel for Customer Service, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
+1. In the admin center app, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
 
 1. Select the workstream that you created for the custom channel.
 

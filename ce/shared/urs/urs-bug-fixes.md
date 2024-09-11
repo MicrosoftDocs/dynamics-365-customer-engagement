@@ -9,12 +9,12 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | TBD | 09/13/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |   [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | 09/06/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |    [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | TBD | 09/20/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* |[3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | 09/13/2024 |
-| | *USG* |   [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | 09/06/2024 |
-|**Station 4** |*Europe* | [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722) |  [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)   | 09/06/2024 |
-|**Station 5** |  *North America*|  [3.12.136.61](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213661) | [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)   | 09/06/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)   | 09/06/2024 |
+| | *USG* |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | TBD | 09/20/2024 |
+|**Station 4** |*Europe* | [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | 09/20/2024 | 
+|**Station 5** |  *North America*| [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)|  [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)  | 09/13/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)|  [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)  | 09/13/2024 |
 | | *Dedicated Scale Groups* | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)   | 09/13/2024 |
 
 >[!NOTE]
