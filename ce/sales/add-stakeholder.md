@@ -65,7 +65,7 @@ If multiple users and teams from your organization are working on an opportunity
 
 1. In the **Summary** tab, scroll down to the **Sales team** section.
 
-1. Select **More commands for Connection** and then Select **New Connection**.
+1. Select **More commands for Connection** and then select **New Connection**.
 
 1. In the **Lookup Records** pane, browse and select **Users**, and then select **Add**.
 
@@ -88,7 +88,7 @@ Add the organizations that are competing with you for the opportunity as competi
 
 1. In the **Summary** tab, scroll down to the **Competitors** section.
 
-1. Select **More commands for Competitor** and then Select **Add Existing Competitor**.
+1. Select **More commands for Competitor** and then select **Add Existing Competitor**.
 
 1. In the **Lookup Records** pane, browse and select **Competitors**, and then select **Add**.
 
