@@ -77,7 +77,7 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 
 ### Related information
 
-[Best practices to use the Contact Center workspace or the Customer Service workspace apps](../administer/best-practices.md)
-
+[Use Contact Center workspace](/dynamics365/contact-center/use/ccw-overview)
+[Get started with Customer Service workspace](../implement/csw-overview?tabs=customerserviceadmincenter.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
