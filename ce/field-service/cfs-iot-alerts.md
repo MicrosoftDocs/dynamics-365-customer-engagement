@@ -33,7 +33,7 @@ As IoT device information flows into Azure IoT Hub, you can create rules that di
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Microsoft Azure showing Connected Field Service IoT alert stream analytics.](./media/cfs-iot-alert-stream-analytics1.png)
 
-You can find and edit these criteria in **Stream Analytics** in your resource group.
+You can find and edit these criteria in **Azure Stream Analytics** in your resource group.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Microsoft Azure showing the appropriate resource group and stream analytics job.](./media/cfs-iot-alert-stream-analytics.png)
@@ -93,7 +93,7 @@ Now you can send a test command by using the sample simulator. For example, sele
 > [!Note]
 > **Not using Azure IoT Hub?** Creating IoT alerts in Field Service based on IoT messages in your custom IoT provider is supported. For more information, see this article: [Extensible IoT data sources for Connected Field Service](cfs-custom-iot-provider.md) 
 
-After the rule is created in Azure Stream Analytics, the logic app will create IoT alerts based on the rule criteria. 
+After the rule is created in Stream Analytics, the logic app will create IoT alerts based on the rule criteria. 
 
 
 > [!div class="mx-imgBorder"]
@@ -113,13 +113,10 @@ The IoT alert form shows more details and the **Alert Data** section shows the d
 
 ## Convert an IoT alert to a work order
 
-
-
-
 Use the business process flow to take action against the IoT alert.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of an IoT alert in Field Servive highlighting the business process flow.](./media/cfs-iot-alert-bpf.png)
+> ![Screenshot of an IoT alert in Field Service highlighting the business process flow.](./media/cfs-iot-alert-bpf.png)
 
 Create a case related to the IoT alert to investigate remotely.
 
@@ -176,4 +173,4 @@ To completely turn off the autoparent feature, disable the workflow or flow depe
 
 ![Power Apps, showing a list of processes with attention to the "IoT - Flow - Parent IoT Alerts" process.](media/iot-alert-parenting-4.png)
 
-![Field Service, showing a list of process with attention to "IoT - Parent IoT Alerts."](media/iot-alert-parenting-5.png)
+![Field Service, showing a list of processes with attention to "IoT - Parent IoT Alerts."](media/iot-alert-parenting-5.png)
