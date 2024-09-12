@@ -91,7 +91,7 @@ Now you can send a test command by using the sample simulator. For example, sele
 > ![Screenshot of the IoT alert simulator.](./media/cfs-iot-alert-simulator3.png)
 
 > [!Note]
-> **Not using Azure IoT Hub?** Creating IoT alerts in Field Service based on IoT messages in your custom IoT provider is supported. For more information, see this article: [Extensible IoT data sources for Connected Field Service](cfs-custom-iot-provider.md) 
+> **Not using Azure IoT Hub?** Creating IoT alerts in Field Service based on IoT messages in your custom IoT provider is supported. Learn more in [Use custom IoT providers](cfs-custom-iot-provider.md). 
 
 After the rule is created in Stream Analytics, the logic app will create IoT alerts based on the rule criteria. 
 
