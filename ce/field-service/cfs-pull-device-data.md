@@ -21,7 +21,7 @@ For an additional walkthrough, check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKuF]
 
-## Prerequisites
+## Prerequisite
 
 [Register your IoT Devices](cfs-register-devices.md) before you can pull the latest data into Field Service.
 
