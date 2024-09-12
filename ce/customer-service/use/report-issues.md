@@ -78,6 +78,6 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 ### Related information
 
 [Use Contact Center workspace](/dynamics365/contact-center/use/ccw-overview)
-[Get started with Customer Service workspace](/implement/csw-overview.md)
+[Get started with Customer Service workspace](../implement/csw-overview.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
