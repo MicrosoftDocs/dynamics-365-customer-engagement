@@ -75,7 +75,7 @@ Make sure your IoT devices are related to the device category. You can add all I
 
 ## View summary tiles on the mobile app
 
-Summary tiles and device readings are viewable on the Dynamics 365 Field Service mobile app when connected to the internet. Find more information in [Work with IoT data on the mobile app](mobile/iot-mobile.md#view-summary-tiles-and-device-readings).
+Summary tiles and device readings are viewable on the Dynamics 365 Field Service mobile app when connected to the internet. Find more information in [View summary tiles and device readings](mobile/iot-mobile.md#view-summary-tiles-and-device-readings).
 
 ## Configuration considerations
 
