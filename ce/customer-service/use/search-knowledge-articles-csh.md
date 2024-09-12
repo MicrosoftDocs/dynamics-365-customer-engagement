@@ -58,6 +58,16 @@ If a keyword you enter matches content in the knowledge base, the matching words
 
 If style tags are visible in an article's content summary, it means that style tags were used to format the article. Consider offering feedback to the article's author to use inline CSS styling instead.
 
+## Search the 
+
+Preview mode opens in a tab. Applicable to multisession application only. You will see a Preview icon, which opens the article in a preview mode.
+
+Switch the toggle to yes, open in preview. If no, it will open in form.
+
+search and press enter, it opens a grid. from grid, the option will follow the setting.
+
+Note: If you have overwritten the OpenRecordItem command for the knowledge article, and if the xxx option is enabled, the knowledge article will open with whatever customizations you have provided. If you haven't enabled the preview option, the knowledge article will open in the knowledge form format.
+
 ## Search the knowledge base directly in Customer Service Hub
 
 You can search the knowledge base directly, without viewing a case or conversation first, in Customer Service Hub.
