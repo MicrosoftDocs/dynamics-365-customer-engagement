@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 04/01/2024
+ms.date: 09/12/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -58,17 +58,16 @@ If a keyword you enter matches content in the knowledge base, the matching words
 
 If style tags are visible in an article's content summary, it means that style tags were used to format the article. Consider offering feedback to the article's author to use inline CSS styling instead.
 
-## Search the 
+## Search the knowledge base in Customer Service workspace
 
-Preview mode opens in a tab. Applicable to multisession application only. You will see a Preview icon, which opens the article in a preview mode.
+You can view knowledge article previews from global search, without having to open the article in the knowledge authoring form, thereby saving your time. Your administrator must enable this option for you. Learn more in [Set up knowledge management](/administer/set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management).
 
-Switch the toggle to yes, open in preview. If no, it will open in form.
+When the global search knowledge configuration option is enabled, you can search and select either the article link, or the article Preview icon, or select your article from the grid view, to view your article in a preview mode. The selected knowledge article opens in a tab. 
 
-search and press enter, it opens a grid. from grid, the option will follow the setting.
+> [!NOTE]
+> If you have overwritten the **OpenRecordItem** command for the knowledge article, and if the global search knowledge configuration option is enabled, the knowledge article format follows the customizations that you have provided. If you haven't enabled the preview option, the knowledge article opens in the knowledge authoring form.
 
-Note: If you have overwritten the OpenRecordItem command for the knowledge article, and if the xxx option is enabled, the knowledge article will open with whatever customizations you have provided. If you haven't enabled the preview option, the knowledge article will open in the knowledge form format.
-
-## Search the knowledge base directly in Customer Service Hub
+## Search the knowledge base in Customer Service Hub
 
 You can search the knowledge base directly, without viewing a case or conversation first, in Customer Service Hub.
 
