@@ -60,7 +60,7 @@ If style tags are visible in an article's content summary, it means that style t
 
 ## Search the knowledge base in Customer Service workspace
 
-You can view knowledge article previews from global search, without having to open the article in the knowledge authoring form, thereby saving your time. Your administrator must enable this option for you. Learn more in [Set up knowledge management](/administer/set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management).
+You can view knowledge article previews from global search, without having to open the article in the knowledge authoring form, thereby saving your time. Your administrator must enable this option for you. Learn more in [Set up knowledge management](/administer/set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management.md).
 
 When the global search knowledge configuration option is enabled, you can search and select either the article link, or the article Preview icon, or select your article from the grid view, to view your article in a preview mode. The selected knowledge article opens in a tab. 
 
