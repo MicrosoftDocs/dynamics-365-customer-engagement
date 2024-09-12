@@ -38,15 +38,15 @@ You can find and edit these criteria in **Stream Analytics** in your resource gr
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Microsoft Azure showing the appropriate resource group and stream analytics job.](./media/cfs-iot-alert-stream-analytics.png)
 
-Go to **Query** in the left pane, then select **IoTStream**. 
+Go to **Query** in the left pane, and then select **IoTStream**. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the query and IoT stream options in the menu.](./media/cfs-iot-alert-stream-analytics2.png)
 
 With reference to the callouts in the previous image:
 
-- **(1)**: the bottom pane shows all incoming IoT messages from the connected device. 
-- **(2)**: the top pane shows the JSON that creates IoT alerts from IoT messages.
+- **(1)**: The bottom pane shows all incoming IoT messages from the connected device. 
+- **(2)**: The top pane shows the JSON that creates IoT alerts from IoT messages.
 
 ### Trigger IoT alerts with the simulator
 
@@ -118,7 +118,7 @@ Use the business process flow to take action against the IoT alert.
 > [!div class="mx-imgBorder"]
 > ![Screenshot of an IoT alert in Field Servive highlighting the business process flow.](./media/cfs-iot-alert-bpf.png)
 
-Create a case related the IoT alert to investigate remotely.
+Create a case related to the IoT alert to investigate remotely.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT alert, showing the create step in the business process flow.](./media/cfs-iot-alert-next-stage.png)
