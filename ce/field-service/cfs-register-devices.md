@@ -88,9 +88,6 @@ Back in Azure IoT Hub, we now see the IoT device we created in Field Service, wi
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Azure IoT Hub, showing the new device in the list of devices.](./media/cfs-register-device-fs-new-register-iothub.png)
 
-
-
-
 ## Connect to asset
 
 After we've created the IoT device record, we'll need to associate it with a new or existing customer asset. For instance: in our example, we have a new IoT device sensor that has been installed in an air conditioning unit.
@@ -110,8 +107,7 @@ Once the IoT device has been associated with the asset, a new section will appea
 > [!Note]
 >
 > - Multiple IoT devices can be associated with a single customer asset. On the asset, go to **Related** > **Connections** to associate additional IoT devices.
-> - When you're associating a device with an asset, you can set a primary device ID for the asset. If you associate multiple devices with the asset, the primary device ID for the asset won't be displayed in the form; however, a device ID link'll still exist in the background. Also, the first or the oldest device that's associated with the asset will be the primary device ID for the asset. If you delete the link to the primary device ID, then the next oldest-connected device ID will be set as the primary ID.
-
+> - When you're associating a device with an asset, you can set a primary device ID for the asset. If you associate multiple devices with the asset, the primary device ID for the asset won't be displayed in the form; however, a device ID link will still exist in the background. Also, the first or the oldest device that's associated with the asset will be the primary device ID for the asset. If you delete the link to the primary device ID, then the next oldest connected device ID will be set as the primary ID.
 
 ## Registration error
 
@@ -121,10 +117,10 @@ This error may occur if Dynamics 365 is not connected to Azure or if Azure is of
 
 ## Additional notes
 
-- Use the **Check IoT Setup** ribbon button to check for information about the IoT setup such as, is IoT deployed, are there any devices in the environment. Manually doing this refresh may display more CFS ribbon items.
+Use the **Check IoT Setup** ribbon button to check for information about the IoT setup, such as if IoT is deployed or if any devices are in the environment. Manually doing this refresh may display more Connected Field Service ribbon items.
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of a the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
+> [!div class="mx-imgBorder"]
+> ![Screenshot of the "Check IoT Setup" option in the top ribbon.](./media/cfs-device-check-setup.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
