@@ -77,7 +77,5 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 
 ### Related information
 
-[Best practices to use Omnichannel for Customer Service](../administer/best-practices.md)
-
-
+[Best practices to use Omnichannel for Customer Service](../administer/best-practices.md)  
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
