@@ -1,6 +1,6 @@
 ---
 title: "Summary tiles in Connected Field Service | MicrosoftDocs"
-description: Learn about summary tiles in Connected Field Service for Dynamics 365 Field Service
+description: Learn about summary tiles in Connected Field Service for Dynamics 365 Field Service.
 ms.date: 01/05/2021
 ms.subservice: connected-field-service
 ms.topic: conceptual
@@ -13,7 +13,9 @@ author: vhorvathms
 Summary tiles give a numeric overview of important metrics related to IoT devices. For example, users can see an average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles are visible on IoT devices, Iot alerts, and customer asset records.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Boiler 2022 IOT device summary tiles displaying the Avg Temperature, Avg Humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
+> ![Screenshot of the Boiler 2022 IoT device summary tiles displaying the average temperature and humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
+
+
 
 ## Prerequisites
 
