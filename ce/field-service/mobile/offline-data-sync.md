@@ -1,7 +1,7 @@
 ---
 title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
-ms.date: 08/28/2024
+ms.date: 09/13/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -22,7 +22,11 @@ A sync is initiated only when the app is active and the device is connected to t
 
 Dependencies that are based on selected relationships and custom filters that include related tables are analyzed during each sync request. A sync interval for a table might not be respected if a related table has a lower sync interval.
 
-Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network.
+## Sync settings and online mode (preview)
+
+Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings-preview) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network.
+
+Admins can also [activate online mode](/power-apps/mobile/offline-sync-icon#online-mode-preview) to have devices load data from the server as long as there's network connection. Users can change back to offline mode when the network connection is lost to seamlessly continue their work.
 
 ## Sync conflicts
 
