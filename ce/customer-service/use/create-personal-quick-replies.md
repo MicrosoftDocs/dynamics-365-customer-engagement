@@ -4,7 +4,7 @@ description: Learn to create personal quick replies, also called predefined mess
 ms.date: 09/10/2024
 ms.topic: article
 author: neeranelli
-ms.author: v-slaik
+ms.author: nenellim
 search.audienceType: 
   - admin
   - customizer
