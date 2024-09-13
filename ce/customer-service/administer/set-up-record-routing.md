@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 08/07/2024
+ms.date: 09/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -21,10 +21,10 @@ You can configure unified routing for records in the Customer Service admin cent
 
 ## Prerequisites
 
-- To set up record routing for Customer Service, unified routing must be enabled in your environment. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md)
-- To route records, you must enable the record for routing using records channel configuration. Learn more in [Records routing](enable-entities-for-queues.md)
+- To set up record routing for Customer Service, unified routing must be enabled in your environment. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md).
+- To route records, you must enable the record for routing using records channel configuration. Learn more in [Records routing](enable-entities-for-queues.md).
 - You must have the System Administrator role to configure record routing.
-- You must have users configured as bookable resource. Learn more in [Set up the user as a bookable resource](users-user-profiles.md)
+- You must have users configured as bookable resource. Learn more in [Set up the user as a bookable resource](users-user-profiles.md).
 
 ## Configure unified routing for records
 
@@ -100,7 +100,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
    - **Capacity**: Select one of the following options:
      - **Unit based**: Enter value if your organization has configured unit-based capacity.
-     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. Learn more in [Create and manage capacity profiles](capacity-profiles.md) 
+     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. Learn more in [Create and manage capacity profiles](capacity-profiles.md). 
 
    - **Allowed presences**: Select the presences in which agents will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
 

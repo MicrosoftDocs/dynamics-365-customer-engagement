@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 08/16/2024
+ms.date: 09/13/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
