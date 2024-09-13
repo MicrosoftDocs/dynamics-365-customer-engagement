@@ -46,7 +46,7 @@ For information about older versions, see [Version history archive](version-hist
 
 ## 3.4.0.1262
 
-This release, available as of Septembert 13, 2024, has updates improving performance.
+This release, available as of September 13, 2024, has updates improving performance.
 
 ## 3.4.0.1165
 
