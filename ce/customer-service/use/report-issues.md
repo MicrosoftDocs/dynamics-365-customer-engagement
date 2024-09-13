@@ -51,7 +51,7 @@ The diagnostic report doesn't contain any of your personal information and conta
 |CRM version|crmVersion|
 |Tenant Id|TenantId|
 
-If you, as an agent or supervisor, are in a session with a customer, and capture the report, then with the details mentioned in the preceding table, the following global context and conversation context details are also copied.
+When you are in a session with a customer as an agent or supervisor and capture the report, the following global and conversation context details are also copied.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
