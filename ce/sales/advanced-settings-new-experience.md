@@ -1,20 +1,20 @@
 ---
-title: Advanced settings in the new experience
+title: Advanced settings in the new experience (preview)
 description: Learn about advanced settings in the new experience. 
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 08/22/2024
+ms.date: 09/13/2024
 ms.custom: bap-template
 ---
 
-# Advanced settings in the new experience
+# Advanced settings in the new experience (preview)
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]  
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 
 
