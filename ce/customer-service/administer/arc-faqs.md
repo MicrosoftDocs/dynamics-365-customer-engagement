@@ -74,13 +74,17 @@ Multiple cases can get created from a single email because of various reasons. P
 
 The following section provides answers to questions about migrated rule or flows in modern automatic record creation.
 
-### Why do I see two flows in Power Automate when I have an active modern or migrated ARC rule with only one rule item?
+### How many flows should I see in Power Automate when I have an active modern or migrated ARC rule, with or without a rule item?
 
-- If you have an active rule with rule items, you see two flows, one with the name **ARC | rule name**, and another with the name **ARC: rule item name**. These flows are automatically turned on whenever you activate a rule. The ARC rule works only when these two flows are turned on.
+Active rule with rule item:
+
+If you have an active rule with rule items, you see two flows, one with the name **ARC | rule name**, and another with the name **ARC: rule item name**. These flows are automatically turned on whenever you activate a rule. The ARC rule works only when these two flows are turned on.
 
 For any inactive ARC rule, you see only one flow with the name **ARC: rule item name**. You don't see **ARC | rule name**, as this flow is created during rule activation. Even if you do see duplicate flows with the name **ARC | rule name** for the same rule, it won't cause any rule item issues. Even though they have the same name, only one of these flows is associated with the ARC rule, and only that flow is invoked during run time.
 
-- If you have an active rule, two flows aren't created. Instead, when the rule is created and a rule item is created, you see one flow only with the name **ARC: rule item name**. This flow is automatically turned on whenever you activate a rule. It's not required to turn on two flows.
+Active rule without rule item:
+
+If you have an active rule, two flows aren't created. Instead, when the rule is created and a rule item is created, you see one flow only with the name **ARC: rule item name**. This flow is automatically turned on whenever you activate a rule. It's not required to turn on two flows.
 
 When your ARC rule is inactive, you still see the flow in your list of flows, however it's turned off. Whenever you activate the rule, the flow gets turned on automatically.
 
