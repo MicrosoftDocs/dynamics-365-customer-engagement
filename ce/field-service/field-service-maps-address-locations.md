@@ -68,11 +68,11 @@ For more information, see [Enable geospatial features in your environment](/powe
 
 ## Location tracking
 
-Frontline workers often travel to various locations throughout their work day, and it's helpful for schedulers to know where frontline workers are at any given time. Frontline workers using the Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a frontline worker's location history. For more information, see [location tracking](mobile-powerapp-location-auditing.md).
+Frontline workers often travel to various locations throughout their work day, and it's helpful for schedulers to know where frontline workers are at any given time. Frontline workers using the Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board, and also audit a list showing a frontline worker's location history. For more information, see [location tracking](mobile/track-technician-location.md).
 
 ## Geofencing
 
-A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions a person or an equipped vehicle crosses a geofence. For more information, see [Geofencing](mobile-powerapp-geofence.md).
+A geofence is a virtual perimeter around a specific location. Geofencing allows users to draw zones around places of work, customer sites, and secure areas. You can configure the system to trigger various actions a person or an equipped vehicle crosses a geofence. For more information, see [Geofencing](mobile/configure-geofencing.md).
 
 ## Use custom Bing Maps API key
 

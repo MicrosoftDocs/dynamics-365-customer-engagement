@@ -1,6 +1,6 @@
 ---
-title: "Customer agreements overview"
-description: Learn about customer agreements in Dynamics 365 Field Service
+title: Customer agreements overview
+description: Learn about customer agreements in Dynamics 365 Field Service.
 ms.date: 08/19/2024
 ms.topic: how-to
 author: jasonccohen
@@ -20,7 +20,7 @@ Here are a few different ways agreements can be configured and used. The agreeme
 - Multiple work orders each year to inspect multiple assets at a customer location.
 - Quarterly invoices to bill customers for predefined products and services.
 
-An agreement is intended to be executed at a single location represented by the service account. Work at multiple locations should be configured with multiple agreements.
+An agreement is intended to be executed at a single location represented by the service account. Work at different locations should be configured with multiple agreements.
 
 ## Multiple incidents vs multiple recurrences
 
@@ -34,25 +34,25 @@ When deciding whether to add multiple incidents or multiple recurrences, conside
 
 - How do you track assets? Some organizations prefer each work order to relate to a single customer asset. This way they know the time spent on a work order correlates to time spent servicing an asset, which helps with reporting. If so, you might choose to have multiple recurrences each creating one work order with a single incident related to a single asset.
 
-## Agreement work orders schedule automatically with Resource Scheduling Optimization
+## Resource Scheduling Optimization automatically schedules work orders
 
 [Resource Scheduling Optimization automatically schedules work orders](rso-overview.md) to optimize working hours and travel time, including work orders generated from agreements. If you want to use Resource Scheduling Optimization to schedule agreement work orders, there are many options such as:
 
-- Have the agreement auto generate work orders and ensure the generated work order is included in the Resource Scheduling Optimization scope.
+- Have the agreement auto-generate work orders and ensure the generated work order is included in the Resource Scheduling Optimization scope.
 
-- Have the agreement auto generate and book work orders and ensure the preferred resource is enabled for Resource Scheduling Optimization. The booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure the agreement booking remains scheduled to that resource, time slot, or both.
+- Have the agreement auto-generate and book work orders and ensure the preferred resource is enabled for Resource Scheduling Optimization. The booking status of the related booking can be optimized. You can use schedule lock options on the booking to ensure the agreement booking remains scheduled to that resource, time slot, or both.
 
 - Create a specific Resource Scheduling Optimization schedule and scope that only considers work orders generated from agreements. You can set specific cadences and priorities for when agreement work order bookings are optimized.
 
 ## Invoices and entitlements with agreements
 
-When deciding to use agreement invoices, you can create a new agreement to generate invoices, or add invoices to an existing service agreement. If the agreement invoices relate to scheduled maintenance, then we recommend having the agreement-generated work orders and the agreement-generated invoices as part of the same agreement.
+When deciding to use agreement invoices, you can create a new agreement to generate invoices or add invoices to an existing service agreement. If the agreement invoices relate to scheduled maintenance, then we recommend having the agreement-generated work orders and the agreement-generated invoices as part of the same agreement.
 
 Even if you have an agreement generating invoices, agreement work orders still create invoices upon completion and **Close-Posted** status. If only the agreement invoices represent what should be billed to the customer, create a process to disregard or mitigate the work order invoices. For example, deactivate those invoices or use price lists and entitlements to ensure the work order subtotal and work order invoice is $0.
 
 Entitlements are applied to work order pricing based on multiple factors such as service account, incident type, and customer asset categories. Typically, you create specific incident types for specific customers outlining custom work. For example, if a custom agreement incident type is added to a work order that makes the products and services $0 by discounting them 100%, apply an entitlement.
 
-For more information, see [Entitlements for work orders in Dynamics 365 Field Service](work-order-entitlements.md).
+For more information, go to [Entitlements for work orders in Dynamics 365 Field Service](work-order-entitlements.md).
 
 ## Quotes and sales
 
@@ -60,9 +60,9 @@ In scenarios where you want to use agreements solely for invoice generation and 
 
 Agreements work seamlessly with the Dynamics 365 Sales Lead > Opportunity > Quote > Order process. To set up:
   
-- Categorize a lead as a service-maintenance lead
-- Add opportunity lines with service-based lines
-- Create quote lines as service-based lines and add a quote booking setup
+- Categorize a lead as a service-maintenance lead.
+- Add opportunity lines with service-based lines.
+- Create quote lines as service-based lines and add a quote booking setup.
 
 ## Next steps
 

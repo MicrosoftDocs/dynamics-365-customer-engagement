@@ -8,6 +8,9 @@ ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)

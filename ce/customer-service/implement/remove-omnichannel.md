@@ -17,6 +17,8 @@ ms.custom: bap-template
 You can remove Omnichannel for Customer Service and disable all channels for a Dynamics 365 Customer Service organization.
 
 > [!NOTE]
+> 
+> You'll be able to use the [admin center experience](/dynamics365/contact-center/implement/provision-channels#set-up-channels) to turn off channels enabled in your environment after it's available in your region. Once the new experience is available, you can only view existing environments and channels in the Power Platform admin center. <br>
 > Omnichannel for Customer Service is automatically removed if you do any of the following:
 >
 > - Delete the Dynamics 365 CRM instance from the Dynamics 365 admin center.
