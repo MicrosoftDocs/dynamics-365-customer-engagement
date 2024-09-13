@@ -1,6 +1,6 @@
 ---
 title: Create personal quick replies in the agent app
-description: "Learn to create personal quick replies, also called predefined messages, in the Contact Center workspace or the Customer Service workspace."
+description: Learn to create personal quick replies, also called predefined messages, in Contact Center workspace or Customer Service workspace.
 ms.date: 09/10/2024
 ms.topic: article
 author: neeranelli
