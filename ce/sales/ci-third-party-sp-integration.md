@@ -2,7 +2,6 @@
 title: Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
 description: Learn how to configure third-party dialers and Dynamics 365 to get conversation intelligence for calls made or received from third-party dialers.
 ms.date: 08/29/2024
-ms.custom: bap-template
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: lavanyakr01
