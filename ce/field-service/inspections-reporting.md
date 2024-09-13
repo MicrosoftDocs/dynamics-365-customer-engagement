@@ -1,7 +1,7 @@
 ---
 title: Run reports on inspection responses
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service.
-ms.date: 08/28/2024
+ms.date: 09/13/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -88,7 +88,7 @@ Retrieve the inspection responses.
 
 1. Add a step.
 1. Search for "Dataverse" and select **Get a row by ID** action.
-1. Select **Inspection Responses** for the table to enter **Inspection Response ID** in the row ID because this field has the ID of the inspection response record.
+1. Select **Inspection Responses** for the table and enter **Inspection Response ID** in the row ID because this field has the ID of the inspection response record.
 
 ### Extract the JSON
 
@@ -96,7 +96,7 @@ Retrieve the response from the **ResponseJsonContent** field.
 
 1. Add a step.
 1. Search for and select **Initialize variable** action.
-1. Enter **responsejson** for the name and select **string** for the type.
+1. Enter **responsejson** for the name and select **String** for the type.
 1. For the value, enter **/** > **Insert dynamic content** and search for and select **ResponseJsonContent**.
    :::image type="content" source="./media/inspections-workflow-get-JSON-content.png" alt-text="Screenshot of a Power Automate flow, showing the retrieve the encoded response json part of the flow.":::
 
@@ -106,7 +106,7 @@ Convert the response's JSON into a usable format.
 
 1. Add a step.
 1. Search for and select **Initialize variable** action.
-1. Enter **decodedResponse** for the name and select **string** for the type.
+1. Enter **decodedResponse** for the name and select **String** for the type.
 1. For the value, enter **/** > **Insert expression** and enter the following:
 
    ```decodeUriComponent(decodeBase64(variables('responseJson')))```
@@ -132,31 +132,34 @@ In our example, the schema is:
 
 1. Add a step.
 1. Search for and select **Parse JSON** action.
-1. Copy the schema.
+1. Copy and paste the schema.
 
    :::image type="content" source="./media/inspections-workflow-update-schema.png" alt-text="Screenshot of the Parse JSON section of the Power Automate flow, showing the schema field populated with the previous snippet.":::
 
 1. If you're having trouble generating the schema, you can select the **Use sample payload to generate schema** option and enter the name and sample answer of your inspection question and response.
 
-In our example, enter:
+1. In this example, enter:
 
-```{"Followup":"Yes"}```
+   ```{"Followup":"Yes"}```
 
-"Follow-up" comes from the inspection question's name value, as seen in the following screenshot:
+   "Follow-up" comes from the inspection question's name value:
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of an inspection in Field Service, showing the name field.](./media/inspections-workflow-schema-name.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of an inspection in Field Service, showing the name field.](./media/inspections-workflow-schema-name.png)
 
 ### Condition-based action
 
-Next we add a condition and action based on the response to the inspection question.
+Add a condition and action based on the response to the inspection question.
 
-In this example, we create a **Work Order Service Task** with another **Service Task Type** in the same work order when the "Follow-up" inspection question has "Yes" as the answer.
+1. Add a step.
+1. Search for and select **Condition** action.
+1. Select **Body Followup**, **is equal to**, and **Yes**.
+1. Create a new record if yes. In this example, create a **Work Order Service Task** with another **Service Task Type** in the same work order when the "Follow-up" inspection question has "Yes" as the answer.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate flow, showing a condition step where the followup field is equal to yes.](./media/inspections-workflow-if-condition-yes.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the Power Automate flow, showing a condition step where the followup field is equal to yes.](./media/inspections-workflow-if-condition-yes.png)
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the Power Automate flow, showing the "if yes" condition set to trigger a new record creation.](./media/inspections-workflow-then-create-WOST.png)
+   > [!div class="mx-imgBorder"]
+   > ![Screenshot of the Power Automate flow, showing the "if yes" condition set to trigger a new record creation.](./media/inspections-workflow-then-create-WOST.png)
 
-Save and test your flow.
+1. Save and test your flow.
