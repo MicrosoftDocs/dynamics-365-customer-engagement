@@ -91,5 +91,5 @@ To see appointments in Teams, enable mailbox record integration by following the
 1. Refresh the record until you see **Success** for the status. Then you can create an appointment with a Teams meeting and it'll be added to the Teams calendar.
 
    
-### See also
+### Related information
 [Use Microsoft Teams Meeting integration in Customer Service](../use/use-teams-meetings.md)

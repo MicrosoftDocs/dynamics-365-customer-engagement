@@ -191,7 +191,7 @@ The **Bot metrics by hour** drill-down view provides more granular insight into 
 > ![Screenshot of bot hourly detail drill-down view.](../media/bot-hourly-drill-down.png "Bot hourly detail view") 
 
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

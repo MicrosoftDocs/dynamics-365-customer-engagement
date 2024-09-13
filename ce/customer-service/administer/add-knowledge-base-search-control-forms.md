@@ -204,7 +204,7 @@ You can use the knowledge search control either on the app side pane or embed it
 
 
 
-### See also
+### Related information
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](../use/customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  

@@ -241,7 +241,7 @@ As an administrator, you need to customize the notification template to show the
 
 #### Step 3: Save the changes
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  

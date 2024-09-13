@@ -100,7 +100,7 @@ The following flowchart explains how automatic record creation rules work to cre
         
           - Select **Save and Publish**.
 
-## See also
+## Related information
 
 [How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
 

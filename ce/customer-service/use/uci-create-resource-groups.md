@@ -89,7 +89,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
    ![Edit Resource Group.](../media/uci-change-resource.png "Edit the resources in your Resource Group")
    
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

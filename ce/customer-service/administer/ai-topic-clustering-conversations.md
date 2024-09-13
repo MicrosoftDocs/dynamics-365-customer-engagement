@@ -60,7 +60,7 @@ The topics capability in the Omnichannel historical analytics reports comes with
 - Simplified Chinese
 - Spanish
 
-### See also
+### Related information
 
 [Omnichannel Conversation Dashboard](../use/oc-conversation-dashboard.md)  
 [Topics Dashboard](../use/oc-conversation-topics-dashboard.md)  

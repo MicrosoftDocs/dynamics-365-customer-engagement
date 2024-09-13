@@ -573,7 +573,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 
 
-### See also
+### Related information
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  

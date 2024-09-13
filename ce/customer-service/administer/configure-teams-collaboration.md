@@ -83,7 +83,7 @@ The AI suggestions feature is supported in the following languages:
 1. Optionally, set the toggle for **Enable Confidential Labels** to **Yes** to create private Teams messages and add sensitivity or confidentiality labels in enhanced Microsoft Teams integration.
 
 
-### See also
+### Related information
 
 [Collaborate with AI-suggested contacts in Microsoft Teams chat](../use/use-ai-suggested-contacts-teams.md)  
 [Overview of Customer Service workspace](../implement/csw-overview.md)  

@@ -49,7 +49,7 @@ In the target organization, perform the following steps:
 2. [Migrate intake rules](migrate-config-data-for-records.md#migrate-configuration-for-intake-rules-for-record-routing)  
 3. [Migrate workstreams](migrate-config-data-for-records.md#migrate-configuration-for-record-workstreams)  
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  

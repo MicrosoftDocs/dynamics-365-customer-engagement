@@ -114,6 +114,6 @@ Any updates to the following columns aren't supported:
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
 
-### See also
+### Related information
 
 [Conversation columns](../develop/reference/entities/msdyn_ocliveworkitem.md)  

@@ -75,7 +75,7 @@ Legend:
 You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 
-### See also
+### Related information
 
 [Case management in multisession apps](../use/enh-casemgmt-csw.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)

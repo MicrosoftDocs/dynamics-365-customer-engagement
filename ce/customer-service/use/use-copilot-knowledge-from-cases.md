@@ -37,7 +37,7 @@ Use the following steps to generate a knowledge draft while you are resolving a 
 
     :::image type="content" source="../media/screenshot-of-propose-knowledge-draft-from-case.png" alt-text="A screenshot of knowledge from case proposed by Copilot.":::
 
-### See also
+### Related information
 
 [Enable Copilot to suggest knowledge from cases](../administer/enable-copilot-suggest-knowledge-from-cases.md)  
 [Use Copilot to summarize cases and conversations](copilot-use-summary.md)  

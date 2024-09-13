@@ -146,7 +146,7 @@ If you set **End call** or **End conversation** as an overflow action, you can e
 
 [Learn more about customizing automated messages](configure-automated-message.md#customize-automated-messages-at-the-channel-level).
 
-### See also
+### Related information
 
 [Configure voicemail](voice-channel-voicemail.md)  
 [Configure direct callback](voice-channel-direct-callback.md)  

@@ -19,7 +19,7 @@ The sample shows how automatic record creation rules for Dynamics 365 Customer S
 
 Detailed instructions on how to run the sample and its functionality can be found in the [README.md file](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/automatic-record-creation/RemoveUnreferencedQueues/README.md).
 
-### See Also
+### Related information
 
 [Write a plug-in](/power-apps/developer/data-platform/write-plug-in?tabs=pluginbase)
 

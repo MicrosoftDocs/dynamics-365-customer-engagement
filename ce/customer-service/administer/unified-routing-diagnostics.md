@@ -143,7 +143,7 @@ The following stages are available:
 
 For known issues in diagnostics, see [Known issues in Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
-### See also
+### Related information
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
 [Assignment methods for Queues](assignment-methods.md) 

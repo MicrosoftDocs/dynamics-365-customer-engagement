@@ -127,7 +127,7 @@ When you create a new case and specify a customer or an account, or open a case 
 - **Recent Cases**: Displays the recent cases that are linked to the customer or account. More information: [Configure components to display customer details and recent records](../administer/add-display-components-to-case-form.md).
 
 
-### See also
+### Related information
 
 [Enable enhanced case forms for multisession apps](../administer/case-enh-config.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)<br>

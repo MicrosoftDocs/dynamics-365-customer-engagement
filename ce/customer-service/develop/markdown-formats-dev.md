@@ -47,7 +47,7 @@ For outbound messages, the Markdown text will be received in the [Activity](/azu
 [Configure custom messaging channel](../administer/configure-custom-channel.md)  
 
 
-### See also
+### Related information
 
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 [Enable formatted messages](../administer/enable-formatted-messages.md)  

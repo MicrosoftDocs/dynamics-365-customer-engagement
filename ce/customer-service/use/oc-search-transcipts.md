@@ -28,7 +28,7 @@ You can now view the details in the **Transcript** section.
 > [!NOTE]
 > Users with the System Administrator role can access conversations that are handled by other agents.
 
-### See also
+### Related information
 
 [Configure relevance search for chat transcript](../administer/relevance-search-chat-transcript.md)
 

@@ -84,7 +84,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 > - You can add only those users who are configured for unified routing.
 > - After you add agents to a queue, they must refresh their dashboards after 20 minutes to be able to make calls.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

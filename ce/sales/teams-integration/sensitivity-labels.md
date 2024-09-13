@@ -1,7 +1,7 @@
 ---
 title: "Protect content with sensitivity labels in Microsoft Teams | MicrosoftDocs"
 description: "Users can collaborate with others both inside and outside your organization. Learn how to use sensitivity labels to protect your content in Microsoft Teams."
-ms.date: 08/26/2022
+ms.date: 08/16/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -29,8 +29,7 @@ Users in your organization collaborate with others both inside and outside the o
 
 Microsoft Teams integration with Dynamics 365 customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) allows you to create teams with sensitivity labels and make the teams private so that only the owner of each team can add other members.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the sensitivity labels drop-down while creating a team](media/teams-enter-team-name-5.png)
+:::image type="content" source="media/teams-enter-team-name-5.png" alt-text="Screenshot of the sensitivity labels drop-down while creating a team.":::
 
 ## Prerequisites
 
@@ -44,15 +43,15 @@ The following prerequisites are required before you can turn on sensitivity labe
 Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Enable linking of Dynamics 365 records to Teams channels](enable-record-linking.md).
 
 > [!NOTE]
-  > If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.
+> If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.
 
 **To turn on sensitivity labels:**
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)
+
+    :::image type="content" source="media/app-settings-menu.png" alt-text="Screenshot of the App settings option in change area.":::
 
     > [!Note]
     > 
@@ -70,7 +69,7 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
 
 3. Turn on the **Turn on Confidential Labels** toggle.
 
-    ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels.png)  
+    :::image type="content" source="media/enable-sensitivity-labels.png" alt-text="Screenshot of the Enable Confidential Labels option highlighted."::: 
 
 4. Select **Save**. 
     

@@ -1729,7 +1729,7 @@ Same as msdyn_copilottranscriptdata table [msdyn_msdyn_copilottranscript_msdyn_c
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### See also
+### Related information
 
 [Enable Copilot features in Customer Service (preview)](../../../administer/configure-copilot-features.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

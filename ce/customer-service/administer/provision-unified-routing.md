@@ -41,9 +41,9 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 If the provisioning fails, go to [Dynamics 365 Customer Service and Dynamics 365 Contact Center troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service) or contact Microsoft Support to help resolve the issue.
 
-### Provision unified routing in Customer Service with Omnichannel for Customer Service
+### Provision unified routing in Customer Service with omnichannel application
 
-When Omnichannel for Customer Service is available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
+When the omnichannel capabilities are available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
 
   "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
 
@@ -51,8 +51,6 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
   "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 
-> [!NOTE]
-> **Unified Routing** also appears in the site map if you install or upgrade Omnichannel for Customer Service.
 
 ### Next steps
 
@@ -63,4 +61,4 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
 [Provide consent to access data](../implement/data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  

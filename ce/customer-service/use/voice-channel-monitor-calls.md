@@ -1,20 +1,19 @@
 ---
-title: "Monitor calls in the voice channel in Omnichannel for Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to monitor calls in the voice channel for Omnichannel for Customer Service."
+title: Monitor calls in the voice channel in Omnichannel for Dynamics 365 Customer Service
+description: Learn how to monitor calls in the voice channel for Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
-ms.date: 11/02/2021
+ms.reviewer: laalexan
+ms.date: 09/09/2024
 ms.topic: article
 
 ---
 
 # Monitor calls
 
-
-
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, as well as step into conversations when additional support is needed.
+As a supervisor, it's useful to be able to monitor the calls between your agents and their customers without interrupting them to help identify which calls need attention. You can monitor the conversations without being seen as a participant by the agent or customer, and step into conversations when more support is needed.
 
 ## Prerequisites
 
@@ -42,14 +41,14 @@ As a supervisor, you can privately consult with an agent by sending them message
 
 ## Join a conversation (also known as barge)
 
-If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent can see that you have joined.
+If needed, you can select **Join call** to enter the conversation and speak with the agent, customer, or chat with the agent privately. When you join a conversation, the agent is notified that you joined.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of conversation barge.](../media/voice-channel-join-call.png)
 
 By joining a conversation, you have access to call controls that allow you to capture details about the conversation, pause the conversation if needed, and engage with the agent and customer as needed.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](../administer/voice-channel.md)  
 [Provision and set up the voice channel](../administer/voice-channel-install.md)  

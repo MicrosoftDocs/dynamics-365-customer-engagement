@@ -53,7 +53,7 @@ You can schedule a business closure in the Customer Service admin center or Cust
   
 1.  To save this business closure, select **OK**.  
   
-### See also  
+### Related information  
  [Set work hours for the resources](../administer/resources-service-scheduling.md#set-work-hours-for-the-resources) </br>
  [Set up a holiday schedule](../administer/set-up-holiday-schedule.md)   </br>
  [Create a customer service schedule and define the work hours](../administer/create-customer-service-schedule-define-work-hours.md)

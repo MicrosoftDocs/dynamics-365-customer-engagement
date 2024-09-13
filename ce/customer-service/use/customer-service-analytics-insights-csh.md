@@ -68,7 +68,7 @@ The following tables are used for Customer Service historical analytics:
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or aren't using out-of-the-box entities.
 
-### See also
+### Related information
 
 [Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)    
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](../administer/configure-customer-service-analytics-insights-csh.md)   

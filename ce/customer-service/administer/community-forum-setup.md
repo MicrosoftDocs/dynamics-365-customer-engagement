@@ -65,7 +65,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
      > [!div class="mx-imgBorder"] 
      > ![Add a forum quick link.](../media/community-forum-quick-link.png)
     
-### See also
+### Related information
 
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>

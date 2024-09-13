@@ -2,7 +2,7 @@
 title: "Dynamics 365 Customer Engagement (on-premises) reporting requirements | Microsoft Docs"
 description: Understand the requirements for running reports in Dynamics 365
 ms.custom: ""
-ms.date: 07/29/2024
+ms.date: 08/13/2024
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -81,6 +81,8 @@ author: Mattp123
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements
@@ -154,6 +156,8 @@ author: Mattp123
   
 ### Supported operating systems
 
+One of the following Windows versions:
+- Windows 11
 - Windows 10
 
 ### Additional software requirements

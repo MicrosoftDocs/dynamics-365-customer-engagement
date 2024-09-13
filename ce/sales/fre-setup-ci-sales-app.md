@@ -95,15 +95,14 @@ Configure the settings to specify where your call recording data is stored, the 
 
     - In the **Automated summaries** section, leave **Enable call summary** selected to let your sellers view the notes after their calls. [Learn more about the call summary page](view-and-understand-call-summary-sales-app.md).
 
-    - In the **My languages** section, add the languages your sellers use during their calls with customers to ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
-
-    :::image type="content" source="media/ci-admin-conversation-trackers.png" alt-text="Screenshot of business settings.":::
-
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
 
 1. (Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org. [Learn more about enabling new and upcoming features](#enable-new-and-upcoming-features).
 
-1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
+1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.
+
+> [!NOTE]
+> Conversation intelligence supports several languages. Sellers can choose their conversation language in the dialer after starting the call. For more information, see [Make and receive Teams calls in Dynamics 365](call-using-microsoft-teams.md)
 
 ## Enable new and upcoming features
 

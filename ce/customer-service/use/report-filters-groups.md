@@ -39,6 +39,6 @@ When you set one or more filters on a report, the filters are applied to the ent
 
 [Manage report bookmarks](manage-bookmarks.md)
 
-### See also
+### Related information
 
 [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md)

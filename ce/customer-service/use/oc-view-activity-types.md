@@ -56,7 +56,7 @@ The session activity type displays information about a individual session in a c
 
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
-### See also
+### Related information
 
 [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [View customer information on Active Conversation form](oc-customer-summary.md)  

@@ -46,7 +46,7 @@ As a supervisor, you can access and view diagnostic reports of work items that h
 2. On the **Routing diagnostics** page, select the item for which you want to view the report.
 
 
-### See also
+### Related information
 
 [Diagnostics for unified routing](../administer/unified-routing-diagnostics.md)  
 [Overview of unified routing](../administer/overview-unified-routing.md)  

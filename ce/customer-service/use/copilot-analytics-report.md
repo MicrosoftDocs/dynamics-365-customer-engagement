@@ -78,7 +78,7 @@ The Copilot report displays the following metrics.
 
 You can view the [transcripts of interactions](../develop/download-copilot-transcript-data.md) between agents and Copilot.
 
-### See also
+### Related information
 
 [Use copilot features](use-copilot-features.md)  
 [Configure copilot](../administer/configure-copilot-features.md)  

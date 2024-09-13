@@ -26,7 +26,7 @@ You can use the following templates:
 - [Application tab templates](application-tab-templates.md)
 - [Notification templates](notification-templates.md)
  
-### See also
+### Related information
 
 [Associate templates with workstreams](associate-templates.md)  
 [Understand and create workstream](create-workstreams.md)  

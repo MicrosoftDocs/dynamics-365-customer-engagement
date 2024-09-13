@@ -68,7 +68,7 @@ You can also add new music files to use them in calls as hold and wait music.
 1. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
 1. When you've finished configuring the settings, select **Confirm**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 

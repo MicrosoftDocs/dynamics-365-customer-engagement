@@ -4,56 +4,37 @@ description: This article points to articles that describe the new and changed f
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 07/03/2024
+ms.date: 09/09/2024
 ms.custom: bap-template 
 ms.topic: whats-new 
 ---
 
 # What's new or changed in Dynamics 365 Sales
 
-Wondering about upcoming and recently released capabilities in Dynamics 365 Sales? [Check out the release planner site](https://experience.dynamics.com/releaseplans/?app=sales). 
+In an effort to provide continuous value to our customers, we release new capabilities and updates to Dynamics 365 Sales every month. The releases are deployed across different regions in a phased manner. Learn more about the release schedule in [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).
 
-This article summarizes early access, public preview, and general availability features that were released in the last three months. The monthly release sections contain only those features that were deployed in all regions in that month. For example, if your Dynamics 365 org is in Canada, you'll receive the feature updates a few weeks earlier than the orgs in North America but the monthly release section will list that feature only after it's deployed in North America. For more information about the release schedule, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales#latest-version-availability).  
+## Check out the latest features
 
-## June 2024 release
+Check out the following links to learn more about the released and upcoming features in Dynamics 365 Sales and plan your updates accordingly:
 
-| Feature area | Feature | Description | Resources | Turned on | Availability |
-|---|---|---|---|---|---|
-| Copilot | Enhancements to opportunity summary | Opportunity summary is enhanced to include additional insights, along with the ability to add the opportunity summary widget to the **Opportunity** form. | [Documentation](copilot-get-information.md#summarize-an-opportunity) | By admin | GA |
+- [Released features](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=new)
+- [Features coming soon](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=coming-soon).
+- [Planned features](https://releaseplans.microsoft.com/en-US/?app=Sales&group=date&status=planned)
 
-## May 2024 release
+## Check your app version
 
-| Feature area | Feature | Description | Resources | Turned on | Availability |
-|---|---|---|---|---|---|
-| Copilot | Content recommendations | Use Copilot to get content recommendations from SharePoint | [Documentation](copilot-get-doc-suggestions.md) | By default | GA |
-| Copilot | SharePoint Q&A | Use Copilot to get answers to your questions from documents stored in SharePoint. | [Documentation](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents) | By default | GA |
-| Copilot | Natural language chat for data-related questions| Ask Copilot questions related to sales data in natural language.  | [Documentation](use-sales-copilot.md#chat-with-copilot-in-NL) | By default | GA |
-| Copilot | Natural language chat for sales contextual questions | Ask Copilot questions related to sales-specific terminology in natural language | [Documentation](use-sales-copilot.md#chat-with-copilot-in-NL) | By default | GA |
-| Copilot | Meeting preparation notes | Use Copilot to prepare for your meetings.| [Documentation](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) | By default | GA |
-| Copilot | Proposal summary | Ask Copilot to summarize a proposal or document associated with a record. | [Documentation](copilot-get-information.md#copilot-doc-summarization) | By admin | Public preview |
-| Copilot | Account summary | Use Copilot to summarize an account. | [Documentation](copilot-get-information.md#summarize-an-account) | By admin | Public preview |
+To check your app version, go to **Settings** > **About**, and then look for the **Server version** number.
 
-## April 2024 release
+## Opt in to preview features
 
-| Feature area | Feature | Description | Resources | Turned on | Availability |
-|---|---|---|---|---|---|
-| Copilot | Default on | Copilot is turned on by default for organizations that have provided consent for data movement and those that don't require a consent. | [Documentation](enable-setup-copilot.md) | By default | GA |
-| Copilot | Immersive experience for Copilot | View Copilot in a full screen, immersive view, in addition to the side pane. | [Documentation](use-sales-copilot.md#open-copilot-immersive) | By Admin | Public preview |
-| Forecasting | Out-of-the-box forecasting | Explore forecasting with zero configuration using the out-of-the-box forecasting | [Documentation](view-forecasts.md#out-of-the-box-forecast) | For all users | GA |
-| Seller experience | New look with refreshed styling | Experience the new look by default as it’ll be auto-enabled. | None | For all users | GA |
-| Sequences | Assign multiple sequences to multiple sellers or team for a record | Assign multiple sellers to work on different sequences simultaneously for a record. This allows sellers or team to collaborate effectively to close deals. | [Documentation](connect-a-sequence-to-records.md#connect-multiple-sequences-to-record) | For all users  | GA |
-| Sequences | Plan and perform assigned tasks while previewing the sequence steps. | You can preview the sequence steps within the context of a specific entity record, enabling you to plan and execute tasks effectively. |  [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | For all users | GA |
-| Sequences | Plan and perform assigned tasks while previewing the sequence steps. | You can preview the sequence steps within the context of a specific entity record, enabling you to plan and execute tasks effectively. |  [Documentation](understand-the-up-next-widget.md#preview-a-sequence) | For all users | GA |
-| Focused view | Focused view is available as default for lead entity | The key capabilities that users access in the grid layout are now brought into focused view, with the option to set the focused view as default for the lead entity. |  [Documentation](set-focused-view-as-default.md) | By admin | GA |
+Preview features are features that aren't complete, but are made available on a "preview" basis so customers can get early access and provide feedback. If you'd like to try out these features, you can enable the feature that you're interested in. Learn more about how to [opt in to preview features](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature).
 
-## Get the latest version
+## Opt in to early access updates
 
-New customers automatically get the latest version. If you're an existing partner or customer, check your email for notifications about updates.
-
-For the latest available version in your region, see [Released versions of Dynamics 365 Sales Enterprise](/dynamics365/released-versions/dynamics365sales).
+If you'd like to try out the latest features before they're released to all customers, you can opt in to early access updates. Learn more about how to [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates#how-to-get-early-access-updates).
 
 ## Related information
 
 - [2024 release wave 1](/dynamics365/release-plan/2024wave1/sales/dynamics365-sales/planned-features)  
-- [2023 release wave 2](/dynamics365/release-plan/2023wave2/sales/dynamics365-sales/planned-features)
+- [2024 release wave 2](/dynamics365/release-plan/2024wave2/sales/dynamics365-sales/planned-features)
 

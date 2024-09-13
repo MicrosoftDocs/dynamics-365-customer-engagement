@@ -1,7 +1,7 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
 description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
-ms.date: 07/16/2024
+ms.date: 08/26/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -52,15 +52,13 @@ You can use Microsoft Teams to call a customer directly from the dialer, a recor
 
 1. Open a record. In this example, we're opening a contact record.
 
-    In the **Business Phone** field, a phone number has been associated with the contact **Anthony Pruitt**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Open a contact record.](media/teams-dialer-contact-record.png "Open a contact record")
+    In the **Business Phone** field, a phone number has been associated with the contact **Jim Glynn**.
 
 1. Select ![Phone icon.](media/phone-icon.png "Phone icon") corresponding to the phone number. The call is established.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select the phone icon to make call.](media/teams-dialer-make-call.png "Select the phone icon to make call")
+1. Select your conversation language from the language drop-down. Selecting the approrpirate language ensures accurate transcription, keyword tracking, analysis, insights, and KPIs.
+   :::image type="content" source="media/teams-dialer-make-call.png" alt-text="Screenshot of Teams dialer with language drop-down highlighted":::
+
 
 1. (Optional) Select the ellipses (three-dots menu) in the dialer screen to change your microphone and speaker settings.
 

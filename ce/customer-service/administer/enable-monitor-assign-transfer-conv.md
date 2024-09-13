@@ -27,7 +27,7 @@ As an administrator, you can enable your supervisors to take specific actions on
 
 3. To disable any of the settings, set the corresponding toggle to **No**.
 
-### See also
+### Related information
 
 [Monitor, assign, transfer, and close conversations](../use/monitor-conversations.md)  
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  

@@ -345,7 +345,7 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
 
   ![Create New Facility/Equipment.](../media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
-### See also
+### Related information
 
 
 [Create and design forms for Customer Service Hub](../administer/create-design-forms-customer-service-hub.md)  
