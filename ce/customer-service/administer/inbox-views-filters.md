@@ -1,7 +1,7 @@
 ---
 title: Inbox out of box views and filters
 description: Learn about the inbox views and filters that are available out of the box.
-ms.date: 09/11/2024
+ms.date: 09/13/2024
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
@@ -37,8 +37,8 @@ The following tables contain details about the views and filters that are availa
 | Conversation | Resolved | The status field of the conversation is set to **Closed**. | <ul><li>**Status Reason** is set to **Closed**.</li></ul> |
 | Email | Emails sent to me | The user is a recipient of the email by being listed on of the following fields: **To**, **Cc**, or **Bcc**. | <ul><li>The user is listed in the **Activity Party Types** for the **To**, **Cc**, or **Bcc** field.</li></ul> |
 | Email | Emails assigned to me | The **Owner** or **Worked by** field of the record is set to the current user. | <ul><li>The **Owner** field is equal to the current user, or the **Worked by** field is equal to the current user.</li></ul> |
-| Email | Emails in my team(s) | The **Owner** field of the record is set to a team that the user is a member of. | <ul><li>The **Owner** field is equal to a team that the current user is a member of.</li></ul> |
-| Email | Emails in my queue(s) | The record is added to a private queue that the user is a member of. | <ul><li>The record is added to a private queue that the user is a member of.</li><li>The **Status** of the queue that the record is part of is active.</li><li>The **Worked by** field isn't set.</li><li>The **Owner** field of the record isn't set as the current user.</li></ul> |
+| Email | Emails in my team | The **Owner** field of the record is set to a team that the user is a member of. | <ul><li>The **Owner** field is equal to a team that the current user is a member of.</li></ul> |
+| Email | Emails in my queue | The record is added to a private queue that the user is a member of. | <ul><li>The record is added to a private queue that the user is a member of.</li><li>The **Status** of the queue that the record is part of is active.</li><li>The **Worked by** field isn't set.</li><li>The **Owner** field of the record isn't set as the current user.</li></ul> |
 | Email | Emails in a shared mailbox | The admin specifies an email address that can be used to show emails sent to that address. | <ul><li>Emails that are sent using the **To** field for the specified email address. Doesn't apply to the **Cc** or **Bcc** fields.</li></ul> |
 | Voicemail | Assigned | The **Owner** or **Worked by** field of the record is set to the current user, and the **Status Reason** field is set to **Active**. |<ul><li>The **Owner** or **Worked by** field is equal to the current user.</li><li>The record's **Status Reason** is set to **Open**.</li></ui> |
 | Voicemail | Unassigned | The **Owner** field isn't set to current user, and the **Worked by** field isn't set. |<ul><li>The **Owner** field isn't equal to the current user.</li><li>The **Worked by** field isn't set.</li><li>The record's **Status Reason** is set to **Open**.
