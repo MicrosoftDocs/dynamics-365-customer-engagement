@@ -69,6 +69,6 @@ For information about creating context variables for Azure and Copilot Studio bo
 [Configure a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Configure Azure bot](configure-bot-azure.md)  
 [Context variables for bots](context-variables-for-bot.md)  
-[FetchXML reference](/power-apps/developer/data-platform/fetchxml/reference/)
+[FetchXML reference](/power-apps/developer/data-platform/fetchxml/reference)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
