@@ -111,10 +111,10 @@ If you're migrating from the existing voice stack to the enhanced voice stack, u
 
 > [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
-## Get Event Grid app and tenant IDs from the Azure portal
+## Get Event Grid app and tenant IDs from the Power Apps portal
 
 > [!NOTE]
-> Use this method only when you have issues with getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the Event Grid App ID box and the Directory (tenant) ID to fill the Event Grid Tenant ID box.
+> Use this method only when you have issues with getting the IDs from the Power Apps Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the Event Grid App ID box and the Directory (tenant) ID to fill the Event Grid Tenant ID box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
