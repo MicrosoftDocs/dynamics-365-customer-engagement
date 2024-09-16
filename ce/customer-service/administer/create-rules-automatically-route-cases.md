@@ -141,23 +141,13 @@ Perform the following steps to manually apply the rule to any existing or manual
 > - If you’re importing bulk records, and don’t want the routing rules to be applied to the cases that you’re importing, add a column **Route Case** to the spreadsheet used for importing the records, and add the value **No** for all the cases that you don’t want to route.
 > - Cases can be created and routed programmatically. If you want to override this behavior, set the value for the RouteCase attribute to "No".
 
-## Things to consider during export and import of routing rules
+## Things to consider
 
 - Routing rules are solution-aware entities. You can export routing rules from one environment to another by using the solution import export tool. However, rules are mapped to a queue, user, or team that's not solution-aware data. Therefore, after exporting the data, you’ll need to edit mappings of each rule item to correspond to the queue, user, or team in the target environment.
 
-- Before every import, deactivate the routing rule and remove the active layer on the routing rule. Activate the routing rule after the solution is successfully imported into the [target environment](/power-apps/maker/data-platform/solution-layers#view-the-solution-layers-for-a-component). 
+- Before an import or upgrade of the solution, deactivate the routing rule and remove the active layer on the routing rule. Activate the routing rule after the solution is successfully imported into the [target environment](/power-apps/maker/data-platform/solution-layers#view-the-solution-layers-for-a-component) or upgraded. 
 
 - Don't activate the workflow linked to the routing rule directly using **Advanced Find**. When you activate the routing rule, the workflow is activated.
-
-## Recommendation to upgrade solution
-
-Perform the following steps before you upgrade a solution:
-
-1. Deactivate the routing rulesets which are brought through the previous version of the solution. The state of routing rulesets changes to draft.
-
-2. Upgrade your solution as required.
-
-3. After the successful upgrade of the solution, activate the routing rulesets as required.
 
 ### Related information
 
