@@ -27,7 +27,7 @@ Register a new IoT device in Connected Field Service and associate it with the c
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4GEjn]
 
-## Prerequisites
+## Prerequisite
 
 Connected Field Service is connected to Azure IoT Hub or another custom IoT provider.
 

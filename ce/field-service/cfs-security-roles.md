@@ -20,7 +20,7 @@ In general, access to IoT tables should mimic access to the customer asset table
 
 - General knowledge of Field Service security roles. For more information, go to [Set up users and security roles](users-licenses-permissions.md).
 
-> [!Note]
+> [!NOTE]
 > We recommend you make copies of the Field Service security roles and assign the copied security roles to users. This prevents product updates from overwriting your custom security configurations. To copy a security role, go to [Copy a security role](/power-platform/admin/database-security).
 
 ## Add IoT security to administrator security role
@@ -40,7 +40,7 @@ With fully enabled IoT administrator permissions, Field Service administrators s
 - Assign
 - Share
 
-See the following screenshot for reference.
+The following screenshot provides reference.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the IoT tables that Field Service administrators should have access to.](media/cfs-security-role-administrator.png)

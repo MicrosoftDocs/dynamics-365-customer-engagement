@@ -13,11 +13,11 @@ author: vhorvathms
 Summary tiles give a numeric overview of important metrics related to Internet of Things (IoT) devices. For example, users can see an average of recent device readings or the number of work orders generated from an IoT alert. Summary tiles are visible on IoT devices, Iot alerts, and customer asset records. Summary tile calculations respect security roles. The summary information changes based on what the signed-in user has access to.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of the Boiler 2022 IOT device summary tiles displaying the Avg Temperature, Avg Humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
+> ![Screenshot of the Boiler 2022 IoT device summary tiles displaying the average temperature and humidity, New Alerts, and New Work Orders.](./media/cfs-device-readings-history.png)
 
-## Prerequisites
+## Prerequisite
 
-- Field Service version 8.8.2+
+Field Service version 8.8.2+
 
 ## View the default summary tiles
 
