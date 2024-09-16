@@ -55,7 +55,7 @@ By default, you can view the last 20 readings. You can change the default settin
   
 ## Remotely send commands to a registered device
 
- When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
+When a device isn’t working properly, the system receives an alert. To troubleshoot the issue remotely, you can send a command by choosing a registered device or by using an existing IoT alert.  
   
 > [!NOTE]
 > When you receive multiple alerts from the same device, the alerts are listed in hierarchical order. You can change the grouping by changing the IoT - Parent IoT Alerts workflow.

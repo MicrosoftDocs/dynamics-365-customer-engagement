@@ -163,6 +163,7 @@ To make the five-minute rule longer or shorter, modify the workflow "debounce" p
 1. Search for and open **IoT - Parent Iot Alerts**.
 
    :::image type="content" source="media/iot-alert-parenting-3.png" alt-text="Power Apps showing IoT Parent Alerts with view properties highlighted.":::
+
 1. Select **View properties**.
 1. Change the value based on the number of seconds you want for the debounce period. Then, select **Save and Close**.
 
