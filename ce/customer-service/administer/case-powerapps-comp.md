@@ -31,4 +31,4 @@ The table below shows all the PowerApps components, along with other details, wh
 
 ### Related information
 
-[Add components to a form](power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form.md).
+[Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
