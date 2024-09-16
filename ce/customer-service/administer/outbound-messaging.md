@@ -24,7 +24,7 @@ As an administrator, you can do the following tasks:
 
 ## Prerequisites
 
-- [Provision the channel](../implement/omnichannel-provision-license.md) that you want to use in your environment.
+- [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) that you want to use in your environment.
 - Configure the SMS channel using [Twilio](Configure-sms-channel-twilio.md), [TeleSign](configure-sms-channel.md), or [Azure Communication Services](configure-sms-channel-acs.md) to send outbound messages through SMS.
 - [Configure the WhatsApp channel by using a Twilio account](configure-whatsapp-channel.md) to send outbound messages through WhatsApp.
 - You must have a Power Automate account.

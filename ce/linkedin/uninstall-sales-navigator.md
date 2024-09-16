@@ -33,7 +33,7 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
      1. Select **Forms** and open the form that has the LinkedIn controls.
      1. Go to **LinkedIn Sales Navigator** section and remove the LinkedIn controls that are bound to form controls.  
        1. Open bound fields (Last Name, Company Name) of LinkedIn Member, Account, and InMail Profile.  
-       2. On the **Field Properties** dialog box, go to the **Control** tab and remove the control binding.  
+       1. On the **Field Properties** dialog box, go to the **Control** tab and remove the control binding.  
          :::image type="content" source="media/remove-linkedin-controls-field-properties.png" alt-text="Screenshot of selecting and removing the field bounds.":::  
      1. After removing the LinkedIn Member, Account, and InMail profile binding, select the **LinkedIn Sales Navigator** section, and then select **Remove**.  
          :::image type="content" source="media/remove-linkedin-controls-form.png" alt-text="Screenshot of selecting the section to remove.":::  
@@ -47,5 +47,3 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)  
 [Disable LinkedIn Sales Navigator](disable-sales-navigator.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

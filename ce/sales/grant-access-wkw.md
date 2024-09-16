@@ -27,6 +27,8 @@ The who knows whom widget appears for all users who can open the Sales Insights 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 
 1. In the Sales Hub app, select **Settings** in the upper-right corner, and then select **Advanced Settings**.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 1. On the **Business Management** page, select **Settings** > **System** > **Security**.
 1. Select **Security Roles**.
 1. Select the security role that you want to grant access to.
@@ -43,3 +45,4 @@ The who knows whom widget appears for all users who can open the Sales Insights 
 ## Related information
 
 [View who knows whom](who-knows-whom.md#view-who-knows-whom)
+
