@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 09/03/2024
+ms.date: 09/16/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -20,7 +20,7 @@ When you type a question in the Copilot pane, we pass the relevant data to Azure
 
 ## Does Copilot have abuse monitoring and human review?
 
-No. Our Azure OpenAI resources have opted out of [abuse monitoring and human review](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. We use other techniques to monitor and filter out abusive content at runtime.
+No. Our Azure OpenAI resources have opted out of [abuse monitoring and human review](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. Learn more about this aspect in [Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy).
 
 ## What data is included in the requests?
 
