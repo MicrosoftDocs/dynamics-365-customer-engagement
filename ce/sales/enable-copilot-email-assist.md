@@ -19,7 +19,7 @@ The Copilot for email assist feature helps sellers to generate content for email
 
 > [!NOTE]
 > - Copilot email assist is supported only for lead and opportunity records through the Dynamics 365 email. For more information about email experience, see [Understand the email experience](/power-apps/user/view-create-email).
-> - Copilot email assist doesn’t require Microsoft Copilot for Sales license.
+> - Copilot email assist doesn’t require Microsoft 365 Copilot for Sales license.
 
 ## License and role requirements
 

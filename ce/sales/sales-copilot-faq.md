@@ -50,9 +50,9 @@ No. We don't use any customer data to train Azure OpenAI or any other language m
 
 For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
-## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
+## What's the difference between Microsoft 365 Copilot for Sales and Copilot in Dynamics 365 Sales?
 
-Microsoft Copilot for Sales is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction). 
+Copilot for Sales is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Copilot for Sales](/microsoft-sales-copilot/introduction). 
 
 Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and generate meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
 
@@ -98,9 +98,9 @@ To enable or disable Copilot for email in Dynamics 365 Sales, see [Turn Copilot 
 
 No, you can't enable this feature for specific team members. It's a global setting that applies to all users in your organization.  
 
-### Is this the same as Microsoft Copilot for Sales in Outlook? How is it different?  
+### Is this the same as Copilot for Sales in Outlook? How is it different?  
 
-No, there's no difference between Copilot in Dynamics 365 Sales and Microsoft Copilot for Sales in Outlook. Both features offer the same functionality. However, the interface for Copilot in Dynamics 365 Sales is accessible within the Dynamics 365 Sales apps and may have a version that is slightly older than the one in Outlook.
+No, there's no difference between Copilot in Dynamics 365 Sales and Copilot for Sales in Outlook. Both features offer the same functionality. However, the interface for Copilot in Dynamics 365 Sales is accessible within the Dynamics 365 Sales apps and may have a version that is slightly older than the one in Outlook.
 
 ### What entities are supported for Copilot for emails?
 
