@@ -1,10 +1,11 @@
 ---
-title: "Apply SLAs | MicrosoftDocs"
-description: "Learn how to apply service-level agreements in Dynamics 365 Customer Service."
-ms.date: 07/18/2023
+title: Apply SLAs
+description: Learn how to apply service-level agreements in Dynamics 365 Customer Service.
+ms.date: 08/23/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -27,11 +28,11 @@ The SLA is reapplied whenever there's an update on an entity record and the upda
 
 When the SLA is reapplied, all the items of that SLA are evaluated based on the updated record fields. The failure or warning actions of the matching SLA Item are initiated if the time has exceeded. This happens even if the failure or warning actions were already initiated before the record was updated.
 
-In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the **Applicable When** and **Success Criteria** won't be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. More information: [Enable SLA recalculation](enable-sla-recalculation.md)
+In Unified Interface, by default, when the SLA moves to a terminal status (non-compliant or succeeded), the **Applicable When** and **Success Criteria** won't be evaluated again on the SLA. If you want the SLA to be reevaluated, you can enable the reevaluation setting in the service configuration settings. Learn more in [Enable SLA recalculation](enable-sla-recalculation.md).
 
 When an Unified Interface SLA is reevaluated, a new SLAKPIInstance gets created and the previous instance gets cancelled. This isn't applicable to legacy SLAs.
 
-During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab) 
+During maintenance activities or when you're importing records and you don't want the SLAs to be applied, you can disable SLAs for your organization. A system administrator can disable SLAs from the **System Settings** dialog box. Learn more in [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab). 
 
 > [!NOTE]
 >
@@ -41,9 +42,9 @@ During maintenance activities or when you're importing records and you don't wan
 
 You can automatically apply SLAs to records based on your business logic by using workflows, Power Automate flows, or custom plug-ins. For example, if your customers are spread across different countries or regions, you can have multiple SLAs with different business hours and holiday schedules. You can set up business logic to apply SLAs on case records based on the customer's country or region, to make sure that the SLA time calculation is done correctly.  
 
-To create workflows so that SLAs will be automatically applied, talk to your customer service managers, administrator, or customizer. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of using workflow processes](../../customerengagement/on-premises/customize/workflow-processes.md)
+To create workflows so that SLAs will be automatically applied, talk to your customer service managers, administrator, or customizer. Learn more in [Overview of using workflow processes](../../customerengagement/on-premises/customize/workflow-processes.md).
 
-You can also use the Power Automate flow portal to update the SLA. Currently the flow expects a GUID of the SLA record. More information: [Create your first flow](/power-automate/getting-started#create-your-first-flow)
+You can also use the Power Automate flow portal to update the SLA. Currently the flow expects a GUID of the SLA record. Learn more in [Create your first flow](/power-automate/getting-started#create-your-first-flow).
 
 If you choose to write a custom plug-in for the SLA-enabled entity, you can update the SLA ID in the pre-update plugin of the entity. For example, for case, the code in plug-in would look like:
 
@@ -51,7 +52,7 @@ If you choose to write a custom plug-in for the SLA-enabled entity, you can upda
 
 ## Apply SLAs through entitlements
 
-You can create entitlements to define support terms. More information: [Associate entitlements to cases](create-entitlement-define-support-terms-customer.md#associate-entitlements-to-cases)
+You can create entitlements to define support terms. Learn more in [Associate entitlements to cases](create-entitlement-define-support-terms-customer.md#associate-entitlements-to-cases).
 
 ## Apply SLAs manually
 
@@ -73,7 +74,7 @@ You can apply a default SLA in the Customer Service admin center app by performi
 
 For a Case entity, set an SLA as the default if you want it to apply to all cases that don't have an SLA applied through an entitlement. This is useful when a customer wants an SLA but doesn't have an entitlement. For all other entities that are enabled for SLA, you can set one default SLA.
 
-To set an SLA as the default, see [Set a default SLA](#set-a-default-sla).  
+To set an SLA as the default, go to [Set a default SLA](#set-a-default-sla).  
 
 > [!NOTE]
 > If you deactivate a default SLA, you must activate it again before resetting it as the default.  
@@ -85,10 +86,10 @@ The service representative who is working on a case can see the SLA details righ
 
 | Case form with a standard SLA applied |  Case form with an enhanced SLA applied |
 |-------------------------------------|--------------------------------------|
-| Only the failure time is tracked and saved on the case record.<br /><br /> You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add a timer control to the case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md) | When an enhanced SLA is applied to a case, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that case. In the **Enhanced SLA Details** section of the case record, you'll see a timer and the SLA KPI Instances for the case with their status, failure times, and warning times.<br /><br /> When a service rep puts a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time during which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default, but your system customizer can add these fields for you. The on-hold time is the time during which the case was set to a status that you defined as an On-Hold status in the **System Settings** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)<br /><br /> When the service representative resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn't violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case has been on hold<br /><br /> If the service representative puts the case on hold after the warning time, the warning time isn't updated when the case is resumed. |
+| Only the failure time is tracked and saved on the case record.<br /><br /> You can ask your system administrator or customizer to add a timer to the case form. The timer shows the time remaining to meet the SLA or the time elapsed since the SLA failed. Learn more in [Add a timer control to the case form to track time against an SLA](add-timer-control-case-form-track-time-against-sla.md) | When an enhanced SLA is applied to a case, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that case. In the **Enhanced SLA Details** section of the case record, you'll see a timer and the SLA KPI Instances for the case with their status, failure times, and warning times.<br /><br /> When a service rep puts a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time during which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default, but your system customizer can add these fields for you. The on-hold time is the time during which the case was set to a status that you defined as an On-Hold status in the **System Settings** dialog box. Learn more in [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)<br /><br /> When the service representative resumes a case, the status of the SLA KPI Instance record is updated. The following details are updated in the record if the SLA isn't violated:<br /><br /> -   Failure time<br />-   Warning time<br />-   Total time the case has been on hold<br /><br /> If the service representative puts the case on hold after the warning time, the warning time isn't updated when the case is resumed. |
 
 > [!NOTE]
-> - To track SLAs for entities other than Case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
+> - To track SLAs for entities other than Case, ask your system administrator or customizer to add an enhanced SLA timer on the entity forms. Learn more in [Add a timer to forms to track time against enhanced SLAs](add-timer-forms-track-time-against-enhanced-sla.md)
 > - If you delete a custom field from an entity associated to an SLA, then you must also delete the custom field from the related entities of the SLA, such as SLA items and action flows.
 
 ### Related information

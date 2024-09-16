@@ -34,10 +34,6 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
 
 2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Settings menu screenshot, session details is under the general category.](media/sessionid-uci-step-2.png)
-   > ![Session details screenshot, session id is in the middle of the page.](media/sessionid-uci-step-3.png)
-
 ### Get the session ID from the sign in screen
 
 On the sign in screen, select the clipboard icon and then select **Copy session ID**.

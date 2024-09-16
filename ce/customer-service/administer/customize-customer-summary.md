@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 07/01/2024
+ms.date: 08/22/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
@@ -18,13 +18,14 @@ You can customize the following for the **Active Conversation** page:
 - Add or remove custom controls
 - Add a web resource or iFrame to the form
 - Customize the layout
-- Add custom fields if the **Customise active conversation form** in Customer Service admin center is enabled.
+- Add custom fields if the **Customize active conversation form** in Customer Service admin center is enabled.
 - Embed canvas apps
 
 > [!NOTE]
 > - For a conversation entity, you can't add custom forms.<br>
 > - We recommend that you don't:
 >   - Change the Conversation form or the order in which it's displayed, as it's the default form.
+>   - Modify the default three-column layout for the **Active Conversation** form.
 >   - Modify the out-of-the-box JavaScript handlers and web resource used in the Active Conversation form.
 >   - Remove the form initiator control from the **Search customer** and **Search issue** lookup controls.
 
@@ -54,7 +55,7 @@ This form section displays the recent cases that relate to the customer. You can
 
 ## Customize the labels for customer, account, and case on the conversation form
 
-You can customize the labels for customer, account, and case that appear on the conversation form so that they are relevant to your business needs. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose will reflect in all occurrences where that name exists.
+You can customize the labels for customer, account, and case that appear on the conversation form so that they're relevant to your business needs. These customizations are applicable to labels such as **Search customer**, **New customer**, **Search issue**, and **New case**. When you update a label, the updated name that you choose reflects in all occurrences where that name exists.
 
 :::image type="content" source="../media/customize-entity-labels-mini.png" alt-text="Screenshot of the active conversation form" lightbox="../media/customize-entity-labels.png":::
 
@@ -74,9 +75,9 @@ To customize labels on the conversation form:
 
 1. Select the link in the URL field. A dialog opens and displays the contents of the resource file.
 
-   1. Copy and paste the contents into a text editor, and then update the text for the value tag of the labels you want to change with a label of your choice . For example, for **Customer**, update the text in value with "Client". This will replace the "Customer" label with "Client" on the **Active Conversation** form.
+   1. Copy and paste the contents into a text editor, and then update the text for the value tag of the labels you want to change with a label of your choice. For example, for **Customer**, update the text in value with "Client". This action replaces the "Customer" label with "Client" on the **Active Conversation** form.
    
-   1. Similarly, for the **Issue** tag, update the text in value* with "Ticket". This will replace the "Issue" label with "Ticket" on the **Active Conversation** form.
+   1. Similarly, for the **Issue** tag, update the text in value* with "Ticket". This action replaces the "Issue" label with "Ticket" on the **Active Conversation** form.
 
     The sample tags with the new values are as follows.
 

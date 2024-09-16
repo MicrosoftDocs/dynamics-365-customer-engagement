@@ -15,7 +15,7 @@ In focused view, sellers can view and manage their CRM records and their associa
 
 > [!NOTE]
 >
-> Focused view is not available for the **Activities** entity.
+> Focused view is not available for the **Activities** and **Queue** entities.
 
 Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure as default for other entities](#configure-as-default-for-other-entities).
 

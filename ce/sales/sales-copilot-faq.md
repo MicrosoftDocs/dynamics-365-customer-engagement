@@ -40,24 +40,15 @@ All data continues to be handled according to [Microsoft privacy guidelines](/co
 
 ## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure OpenAI endpoints are only available in specific regions. For a list of regions where Azure OpenAI endpoints are available, see [this article](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
+Currently, the Azure OpenAI endpoints are only available in specific regions. For a list of regions where Azure OpenAI endpoints are available, see [this article](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
 
 ## Do you use my company data to train any of the models?
 
 No. We don't use any customer data to train Azure OpenAI or any other language models.
 
-## Is Copilot in Dynamics 365 Sales available in all regions?
+## In which regions is Copilot in Dynamics 365 Sales available?
 
-No, Copilot in Dynamics 365 Sales is not available in the following regions, even if Azure OpenAI endpoints are available in those regions:
-
-- South Africa (ZAF)
-- Norway (NOR)
-- Korea (KOR)
-- Singapore (SGP)
-- United Arab Emirates (UAE)
-- Government Community Cloud (GCC)
-- Department of Defence (DoD)
-- China
+For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
 ## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
 

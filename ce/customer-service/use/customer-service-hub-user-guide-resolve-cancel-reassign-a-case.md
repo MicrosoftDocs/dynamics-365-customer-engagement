@@ -99,13 +99,16 @@ Customer Service provides you with the ability to resolve, cancel, and reassign 
 
 ## Reassign a case
 
- If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
+> [!IMPORTANT]
+> When [unified routing](../administer/overview-unified-routing.md) is enabled, use the save and route option to reassign a case or work item.
+
+If you don’t have enough information to resolve a case, or if you think another member in your team has expertise on the subject, you can assign the case to another user or team.  
 
 1. In the list of cases, select the case that you want to reassign, and on the command bar, select **Assign**.  
 
 2. In the **Assign to Team or User** dialog box, in the **Assign To** field, select **User or Team**, and then in the **User or team** field, select who you want to assign the case to.  
 
-3. Select **Assign**.  
+3. Select **Assign**. 
 
 ## Case resolution history
 

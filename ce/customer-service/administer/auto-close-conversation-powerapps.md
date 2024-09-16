@@ -55,7 +55,7 @@ For example, when you set **Auto-close after inactivity** to 5 minutes, the conv
 > [!NOTE]
 > The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
 
-To learn more, see [Create a workstream](create-workstreams.md).
+Learn more at [Create a workstream](create-workstreams.md).
 
 ### Close conversations using Power Apps
 
@@ -66,6 +66,9 @@ You can configure the auto-close duration of a conversation in Power Apps by per
 2. Select **Tables**, and then select **Channel State Configuration** table.
 
 3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
+
+> [!NOTE]
+> Make sure that you have write privileges to edit the table. Learn more at [security roles and privileges - Power Platform](security-roles.md).
 
 ### Close conversations using API
 
