@@ -29,8 +29,6 @@ The table below shows all the PowerApps components, along with other details, wh
 | 5 | **case handling time widget** | Displays the case handling time widget on a case form.| Available for all entities.| Applicable | [Configure case handling time widget to case forms](add-case-handling-time.md)| |
 
 
-You can add these default components to forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
-
-
 ### Related information
 
+[Add components to a form](power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form.md).
