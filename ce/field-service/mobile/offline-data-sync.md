@@ -24,9 +24,9 @@ Dependencies that are based on selected relationships and custom filters that in
 
 ## Sync settings and online mode (preview)
 
-Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings-preview) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network.
+Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings-preview) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network. These settings can help save mobile device bandwidth and battery life when technicians work in areas with regularly poor cellular connectivity. 
 
-Admins can also [activate online mode](/power-apps/mobile/offline-sync-icon#online-mode-preview) to have devices load data from the server as long as there's network connection. Users can change back to offline mode when the network connection is lost to seamlessly continue their work.
+Admins can also [activate online mode](/power-apps/mobile/offline-sync-icon#online-mode-preview) for the Offline First application. This setting provides Frontline Workers with the option to switch from Offline mode to Online mode, allowing them to view live Dataverse data outside the parameters of their Offline profile configuration. While in this mode, the application will continue to sync data and be ready for the user to change back to offline mode if network is lost.  
 
 ## Sync conflicts
 
