@@ -76,7 +76,7 @@ Here's a short video to help you understand how Dynamics 365 Sales Professional 
 
 ### Microsoft 365 Copilot for Sales
 
-Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft Copilot for Microsoft 365. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft Copilot for Microsoft 365 to activate Copilot for Sales. 
+Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft 365 Copilot. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft 365 Copilot to activate Copilot for Sales. 
 
 For more information about the Copilot for Sales licensing options for Dynamics 365 Sales customers, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
 
