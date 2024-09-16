@@ -36,7 +36,7 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
 
-- **Microsoft 365 Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Copilot for Sales](#microsoft-copilot-for-sales). 
+- **Microsoft 365 Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Copilot for Sales](#microsoft-365-copilot-for-sales). 
 
 ### Dynamics 365 Sales Premium
 
