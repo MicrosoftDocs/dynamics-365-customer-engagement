@@ -74,24 +74,32 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 ## Create a queue
 
 1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+
+![queue-page](/ce/customer-service/media/queue-page.png)
     
-1. On the **Queues** page, select **Manage** for **Basic queues**.
+2. On the **Queues** page, select **Manage** for **Basic queues**.
+
+
+![select-basic-queues](/ce/customer-service/media/select-basic-queues.png)
   
-1. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
+3. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
-1. Enter the following information in the **Summary** tab:
+4. Enter the following information in the **Summary** tab:
    - In the **SUMMARY** section, do the following:  
       - **Name**: Enter the name of the queue.  
       - **Type**: Select whether the queue is a private or public queue. 
           If you’re creating a private queue, you’ll need to add members to this queue manually. In the **Members** section, select **Add** to add members to the queue. Only these members will be able to work on the items in this queue.  
       - **Incoming Email**: Enter the email address that'll receive all messages sent to the queue.  
       - **Description**: Enter a description.
+
+      ![queue-summary-tab](/ce/customer-service/media/queue-summary-tab.png)
+
   
    - In the **EMAIL SETTINGS** section, you can do the following:
       - Select a value in the **Convert Incoming Email To Activities** dropdown list to set the type of messages that you want to track as activities.
       - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. More information: [Add a default signature for a queue](add-signature-template-queue.md)
   
-1. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
+5. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
     - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
 
@@ -119,6 +127,9 @@ To optimize agent efficiency, you can set up custom views that contain a filtere
     - **Route queue item**: Set a default view that'll appear for the agents when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
 
 1. Save and close.
+
+![queue-routing-dialogs](/ce/customer-service/media/queue-routing-dialogs.png)
+
 
 At runtime, your agents will see the views that you have set for them.
 
@@ -198,3 +209,6 @@ To assign items in the queue to agents, select **Assign** after selecting one or
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+
+
+[def]: image/queue-page
