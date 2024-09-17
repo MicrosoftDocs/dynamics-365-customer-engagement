@@ -18,18 +18,24 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/13/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/20/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/13/2024 |
-| | *USG* |   [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | TBD |09/20/2024 |
-|**Station 4** |*Europe* | [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.20](/dynamics365/field-service/version-history#8812420) |09/20/2024 |
-|**Station 5** | *North America*|  [8.8.122.17](/dynamics365/field-service/version-history#8812217) |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  |09/13/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.122.17](/dynamics365/field-service/version-history#8812217) |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  |09/13/2024 |
-| | *Dedicated Scale Groups* |  [8.8.121.25](/dynamics365/field-service/version-history#8812125) |   [8.8.122.17](/dynamics365/field-service/version-history#8812217) |09/13/2024 |
+|**Station 1** |  *First Release*| [8.8.125.14](/dynamics365/field-service/version-history#8812514)  | TBD |09/27/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.124.20](/dynamics365/field-service/version-history#8812420)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |09/20/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.124.21](/dynamics365/field-service/version-history#8812421)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |09/27/2024 |
+| | *USG* |   [8.8.124.21](/dynamics365/field-service/version-history#8812421)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |09/20/2024 |
+|**Station 4** |*Europe* | [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.21](/dynamics365/field-service/version-history#8812421) |09/20/2024 |
+|**Station 5** | *North America*| [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.21](/dynamics365/field-service/version-history#8812421) |09/27/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |  [8.8.122.17](/dynamics365/field-service/version-history#8812217) |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  |09/20/2024 |
+| | *Dedicated Scale Groups* |  [8.8.122.17](/dynamics365/field-service/version-history#8812217) |   [8.8.123.11](/dynamics365/field-service/version-history#8812311)  |09/20/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.125.14
+
+(Includes Universal Resource Scheduling version [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011) and Resource Scheduling controls version 1.2.79.242513)
+
+- Remote assist in teams announcement modal on get started page 
 
 ## 8.8.124.20
 (Includes Universal Resource Scheduling version [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) and Resource Scheduling controls version 1.2.78.242404)
