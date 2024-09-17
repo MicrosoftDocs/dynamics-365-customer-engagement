@@ -20,7 +20,7 @@ This guide provides the steps required for getting up and running with Connected
   
 - An active Azure subscription with appropriate privileges. For more information, refer to [article on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md).
   
-- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download the Power BI Template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
+- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download the Power BI template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
 <a name="bkmk_install"></a>
 
@@ -118,7 +118,7 @@ Set up Power BI accounts and open the sample .pbix report.
 1. Open the device, alert, or asset form.  
   
     > [!IMPORTANT]
-    >  The device that's related to any of the open forms must have a device ID and be registered. Otherwise, the PowerBI section is hidden.
+    >  The device that's related to any of the open forms must have a device ID and be registered. Otherwise, the Power BI section is hidden.
 
 1. For the first instance, you must specify the tile you want pinned. After that, the tile loads when you go to the page.
 
@@ -248,7 +248,7 @@ The default IoT dashboard provides data on registered devices and alerts. [!INCL
 
 ## Privacy notice
 
-By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources, listed in this section, deploy. Your Dynamics 365 for Customer Engagement instance sends data, such as commands and registrations, to Azure to enable IoT–enabled scenarios that register devices and then sends and receives commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality, and then navigate to the Azure portal to manage any related Azure services that you don't need. 
+By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources, listed in this section, deploy. Your Dynamics 365 Customer Engagement instance sends data, such as commands and registrations, to Azure to enable IoT–enabled scenarios that register devices and then sends and receives commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality, and then navigate to the Azure portal to manage any related Azure services that you don't need. 
 
 Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections. 
 
@@ -256,15 +256,15 @@ For more information about Azure service offerings, refer to the [Microsoft Azur
 
 [Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues) 
 
-This offering provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it's queued here. 
+This offering provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 Customer Engagement, or a command is sent from Dynamics 365 Customer Engagement to the IoT hub, it's queued here. 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/) 
 
-This offering provides an orchestration service that uses a Dynamics 365 for Customer Engagement connector and a Queue connector. Dynamics 365 for Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 for Customer Engagement and Queue connectors are used for polling the queue. 
+This offering provides an orchestration service that uses a Dynamics 365 Customer Engagement connector and a Queue connector. Dynamics 365 Customer Engagement connectors are used to construct entities that are specific to Dynamics 365 Customer Engagement and Queue connectors are used for polling the queue. 
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/) 
 
-This offering provides a fully managed, real-time event processing engine that helps to unlock deep insights from data. Stream Analytics makes it easy to set up real-time analytic computations on data streaming from devices, sensors, web sites, social media, applications, infrastructure systems, and more. It's functioning as a funnel to send selective IoT alerts to Dynamics 365 for Customer Engagement. 
+This offering provides a fully managed, real-time event processing engine that helps to unlock deep insights from data. Stream Analytics makes it easy to set up real-time analytic computations on data streaming from devices, sensors, web sites, social media, applications, infrastructure systems, and more. It's functioning as a funnel to send selective IoT alerts to Dynamics 365 Customer Engagement. 
 
 [IoT Hub](https://azure.microsoft.com/services/iot-hub/) 
 
@@ -276,7 +276,7 @@ This offering is a test web app to emulate the device that is sending commands o
 
 [Azure SQL Database](https://azure.microsoft.com/services/sql-database/)
 
-Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by PowerBI to show the status of devices in Dynamics 365 for Customer Engagement. 
+Connected Customer Service uses SQL Azure to store device heartbeat messages for later use by Power BI to show the status of devices in Dynamics 365 Customer Engagement. 
 
 [Azure Blob Storage](https://azure.microsoft.com/services/storage/) 
 
