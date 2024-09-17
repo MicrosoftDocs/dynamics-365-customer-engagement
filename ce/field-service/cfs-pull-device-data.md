@@ -4,9 +4,6 @@ description: Learn how to pull in device data in Connected Field Service for Dyn
 ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
 ---
@@ -19,7 +16,7 @@ Check out the following video.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKuF]
 
-## Prerequisites
+## Prerequisite
 
 - [Register your IoT Devices](cfs-register-devices.md).
 
