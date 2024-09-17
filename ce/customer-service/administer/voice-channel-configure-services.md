@@ -105,9 +105,9 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes. 
 
-## Reconnect Azure Resource from existing voice stack to the enhanced voice stack
+## Reconnect Azure resource from existing voice stack to the enhanced voice stack
 
-If you're migrating from the existing voice stack to the enhanced voice stack, use the following video to help ensure that your Event Grid is properly configured for incoming calls and recording.
+If you're migrating from the existing voice stack to the enhanced voice stack, use the following video to make sure that your Event Grid is properly configured for incoming calls and recording.
 
 > [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
