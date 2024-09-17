@@ -23,7 +23,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
      > [!div class="mx-imgBorder"] 
      > ![Create a new Community forum.](../media/community-create-new-forum.png)
 
-1.	Type a **Name**, then select the **Forum Settings** and **Website Settings** you want to apply to the forum. Settings are managed by your administrator.
+1.	Type a **Name**, then select the **Forum Settings** and **Website Settings** you want to apply to the forum. Your administrator manages these settings.
    
      > [!div class="mx-imgBorder"] 
      > ![Select forum and website settings.](../media/community-new-forum-details.png)
@@ -79,10 +79,10 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 1.	Go to the **Quick Links** tab to define links that show to end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
 
 1.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:<br>
-    - **Display Label**: Refers to how the link will be displayed in the portal.<br>
+    - **Display Label**: Refers to how the link is displayed in the portal.<br>
     - **URL**: The webpage URL.<br>
     - **Description**: An optional field where you can provide additional information to describe this link to users.<br>
-    - **Group label**: An optional field where you can specify the name of the group under which the link will be listed.
+    - **Group label**: An optional field where you can specify the name of the group under which the link is listed.
 
   	 > [!div class="mx-imgBorder"] 
      > ![Add a forum quick link.](../media/community-forum-quick-link.png)
