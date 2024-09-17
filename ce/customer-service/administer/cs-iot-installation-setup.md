@@ -18,7 +18,7 @@ This guide provides the steps required for getting up and running with Connected
    
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Customer Service – Dispatcher (to access Dynamics 365).  
   
-- An active Azure subscription with appropriate privileges. For more infomration, refer to [article on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md).
+- An active Azure subscription with appropriate privileges. For more information, refer to [article on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md).
   
 - Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download the Power BI Template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
   
@@ -132,7 +132,7 @@ Set up Power BI accounts and open the sample .pbix report.
 
 1. Save the tile.
  
-The configuration window closes, and the Power BI section reloads with the pinned tile. The tile is filtered to the device ID of the current entity. The next time you load any of the device, alert, or asset forms, the Power BI section autmotically loads the tile, filtered to the current entity device ID if there's a device ID and the device has been registered.
+The configuration window closes, and the Power BI section reloads with the pinned tile. The tile is filtered to the device ID of the current entity. The next time you load any of the device, alert, or asset forms, the Power BI section automatically loads the tile, filtered to the current entity device ID if there's a device ID and the device is registered.
 
 
 ## Categorize devices  
@@ -141,7 +141,7 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 ### Create a new IoT device category  
   
-1. In the site map of Customer Service admin center, in **Operations**, select **Miscellaneous**.
+1. In the site map of Customer Service admin center, go to **Operations**, and then select **Miscellaneous**.
 
 1. In the **Device Categories** section, select **Manage**. The **Active IoT Device Categories** view displays. You can switch between various system views using the dropdown list.  
 
@@ -159,7 +159,7 @@ You can also manage devices by categorizing them. For example, you can categoriz
   
 1. On the main menu, select **Internet of Things** > **Registered Devices**.  
   
-1. Select an IoT device record to open it.  
+1. Open an IoT device record by selecting it.  
   
 1. In the **Category** field, use the search button to find and add the device to a category.  
   
@@ -248,15 +248,15 @@ The default IoT dashboard provides data on registered devices and alerts. [!INCL
 
 ## Privacy notice
 
-By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources (listed in this section) are deployed and your Dynamics 365 for Customer Engagement instance sends data (such as commands and registrations) to Azure to enable IoT–enabled scenarios that register devices and then send and receive commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality and then navigate to the Azure portal to manage any related Azure services that are no longer needed. 
+By installing Connected Customer Service for Dynamics 365, when you provide your Azure subscription information, the required Azure resources, listed in this section, deploy. Your Dynamics 365 for Customer Engagement instance sends data, such as commands and registrations, to Azure to enable IoT–enabled scenarios that register devices and then sends and receives commands to the registered devices. An administrator can uninstall Connected Customer Service to remove the functionality, and then navigate to the Azure portal to manage any related Azure services that you don't need. 
 
 Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections. 
 
-For more information about additional Azure service offerings, refer to the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/). 
+For more information about Azure service offerings, refer to the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/). 
 
 [Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues) 
 
-This offering provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it will be queued here. 
+This offering provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it's queued here. 
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/) 
 
@@ -264,11 +264,11 @@ This offering provides an orchestration service that uses a Dynamics 365 for Cus
 
 [Stream analytics](https://azure.microsoft.com/services/stream-analytics/) 
 
-This offering provides a fully managed, real-time event processing engine that helps to unlock deep insights from data. Stream Analytics makes it easy to set up real-time analytic computations on data streaming from devices, sensors, web sites, social media, applications, infrastructure systems, and more. It is functioning as a funnel to send selective IoT alerts to Dynamics 365 for Customer Engagement. 
+This offering provides a fully managed, real-time event processing engine that helps to unlock deep insights from data. Stream Analytics makes it easy to set up real-time analytic computations on data streaming from devices, sensors, web sites, social media, applications, infrastructure systems, and more. It's functioning as a funnel to send selective IoT alerts to Dynamics 365 for Customer Engagement. 
 
 [IoT Hub](https://azure.microsoft.com/services/iot-hub/) 
 
-Connected Customer Services uses the IoT Hub to manage the state of registered devices and assets. In addition, the IoT Hub sends commands and notifications to connected devices—and tracks message delivery with acknowledgement receipts. Device messages are sent in a durable way to accommodate intermittently connected devices. 
+Connected Customer Services uses the IoT Hub to manage the state of registered devices and assets. In addition, the IoT Hub sends commands and notifications to connected devices—and tracks message delivery with acknowledgment receipts. Device messages are sent in a durable way to accommodate intermittently connected devices. 
 
 Simulator
 
