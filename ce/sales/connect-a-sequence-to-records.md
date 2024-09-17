@@ -22,7 +22,7 @@ Also, you can connect multiple sequences to a record. More information: [Connect
 ## Connect multiple sequences to record
 
 To improve the customer engagement and collaboration when multiple team members work on a record, you can connect multiple sequences to that record. This helps in closing deals faster, and bringing better business results.  
-As a sales manager or seller, you can connect multiple sequences to a record manually. Select the **Connect sequence** option on the record page, the **Connect *record* to sequence** dialog opens and connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
+As a sales manager or seller, you can connect multiple sequences to a record manually. Select the **Connect sequence** option on the record page. In the **Connect *record* to sequence** dialog box, connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
 More information: [Through the record type grid view](#through-the-record-type-grid-view). 
 
 >[!NOTE]
