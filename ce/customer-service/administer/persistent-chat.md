@@ -1,7 +1,7 @@
 ---
 title: Configure persistent chat
 description: Use this article to understand how persistent chat works and how you can configure it in Dynamics 365 Contact Center.
-ms.date: 06/14/2024
+ms.date: 09/17/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -22,13 +22,13 @@ The primary differences between live chat and persistent chat are as follows:
 
 | Feature                       | Persistent chat                   | Live chat
 |------------------------------------------|-----------------------------------|------------------------------|
-|Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer's messages during the operating hours.|Outside of operating hours, customers might not be able to chat with live agents.
+|Agent availability outside of operation hours|Allows customers to reach out to agents outside of working hours. If no agents are available, the conversation will remain open and the agent will receive the customer messages during the operating hours.|Outside of operating hours, customers might not be able to chat with live agents.
 |Ending conversations|Customers can't end conversations from their side. Only agents can do it. |Both customers and agents can end the conversation by closing the chat.|
 |Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because a customer doesn't need to wait for an agent. |In live chat, the customer receives system messages about wait time. These messages can be overwritten in the **Settings** tab.
 
 ## How persistent chat works
 
-From the start of a conversation until the agent explicitly ends it, agents and customers will be able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage, by selecting the ✖ button. Chats in a waiting stage do not take up agent capacity. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
+From the start of a conversation until the agent explicitly ends it, agents and customers are able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, agents can attend to other conversations by moving their current conversation into a waiting stage, by selecting the ✖ button. Chats in a waiting stage do not take up agent capacity. When the customer comes back to the chat, the agent is notified and the conversation can be picked up and resolved.
 
 ## Prerequisites
 
@@ -40,9 +40,20 @@ In admin center, select the **Make chats persistent** checkbox when you create t
 
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
+### Assign work items automatically for returning conversations
+
+If away or offline presence isn't configured in the allowed presences setting of the persistent chat workstream, a returning conversation might not be assigned to the same agent even if the **Keep same agent for entire conversation** toggle is set to **Yes**.
+
+To make sure that the same agent is assigned to the persistent chat even when the agent is away or offline, do the following steps:
+
+1. Create a notification template that's based on the **Chat - incoming authenticated - default** template.
+1. Make sure that **Auto-assign work items** toggle is set to **Yes**, and save the notification template with an intuitive name such as **Chat-agent-affinity-autoassign**.
+1. In the persistent chat workstream settings, go to **Advanced settings**, and in **Agent notification**, for **Returning Conversation** select the template that you created.
+
+
 ### Related information
 
 [Configure a chat widget](add-chat-widget.md)  
-[Create and manage workstreams](create-workstreams.md)  
+[Manage notification templates](notification-templates.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

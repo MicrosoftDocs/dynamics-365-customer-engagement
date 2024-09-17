@@ -3,7 +3,7 @@ title: Associate templates with workstreams
 description: Learn how to associate the different templates with workstreams that will be used for incoming conversations.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/29/2024
+ms.date: 09/17/2024
 ms.topic: article
 ---
 
@@ -29,6 +29,7 @@ After you create a workstream, you can modify the default templates that are att
     - Consult
     - Transfer
     - Supervisor assign
+    - Returning Conversation (available for persistent chat workstreams only)
 
 1. Select **Save and close**.
 

@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams.
-ms.date: 07/01/2024
+ms.date: 09/17/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -154,7 +154,7 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-The agent affinity feature ensures that work items are assigned to the agents based on their work history. Agent affinity ensures that conversations are automatically reassigned to the same agent, irrespective of the agent's capacity and presence.
+The agent affinity feature ensures that work items are assigned to the agents based on their work history. Agent affinity ensures that conversations are automatically reassigned to the same agent, irrespective of the agent's capacity and presence. However, the automatic assignment is based on the agent notification template settings.
 
 The feature is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same agent who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the agent. This helps save the effort to reorient the agent or set the context about the customer issue again. 
 
