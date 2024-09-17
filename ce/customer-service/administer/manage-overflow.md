@@ -167,7 +167,7 @@ The conditions and actions available for the channels are as follows.
 |---------|-----------|-------|
 |Voice|Waiting time in queue exceeds|Direct callback <br>Transfer to a different queue<br>Transfer to an external number<br>Voicemail|
 |Messaging|Waiting time in queue exceeds|End conversation<br>Transfer to a different queue|
-|Record|Waiting time in queue exceeds|End conversation|
+|Record|Waiting time in queue exceeds|Transfer to a different queue|
 
 ### Things to keep in mind
 
