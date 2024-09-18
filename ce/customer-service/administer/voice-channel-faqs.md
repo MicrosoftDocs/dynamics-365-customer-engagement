@@ -74,7 +74,7 @@ Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to
 
 ### Does Omnichannel Voice work with Citrix Virtual Machines?
 
-No, the Citrix Virtual Machine is not supported with the Omnichannel Voice channel.
+No, the Citrix Virtual Machines are not supported with the Omnichannel Voice channel.
 
 ### Does the voice channel tie in with Azure Communication Services or is it an entirely different technology?
 
