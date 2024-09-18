@@ -63,7 +63,7 @@ A control message is of no visual value and indicates an event like agent joined
     "from": null
 },
 ```
-A system message is a special type of message that's shown to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
+A system message is a special type of message displayed to the customer regarding events during the conversations. For example, when an agent joins, when an agent disconnects, and when a new agent joins.
 
 ```http
 {
@@ -132,9 +132,9 @@ Text messages exchanged during the chat between agent and customer appear as fol
 },
 ```
 
-As seen in the preceding code, messages sent by the customer have a display name "Customer" in case of an unidentified customer or their actual name if they're known to Omnichannel for Customer Service.
+As seen in the preceding code, messages sent by the customer have a display name of "Customer" if they're an unidentified customer, or their actual name if they're known to Omnichannel for Customer Service.
 
-For the message that's sent by an agent to a customer, there are tags denoting that it's a “public” message sent by the agent. If the tags contain “private”, then they're internal messages exchanged between two agents and are not visible to the customer.
+For messages the agent send to a customer, there are tags that denote that it's a "public" message. Messages marked with "private" in the tags are messages exchanged between two agents and aren't visible to the customer.
 
 ```http
 {
