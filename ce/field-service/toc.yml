@@ -563,6 +563,8 @@ items:
           href: finance-operations-integration-setup.md
         - name: Create a work order
           href: finance-operations-integration-create-wo.md
+    - name: Microsoft Planner
+      href: planner-sync.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
