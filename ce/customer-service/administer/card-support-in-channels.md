@@ -76,6 +76,8 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Custom messaging (Telegram)    | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif |
 | Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 
+Learn more about the supported file types and the size limit for file attachments in [Enable file attachments](enable-file-attachments.md) and how to configure the file attachments in [Configure file attachment capability](configure-file-attachment.md).
+
 > [!NOTE]
 >
 > - For Microsoft Teams, when a customer sends an emoji from the Teams client, the agent receives a PNG image. When an agent sends a GIF image (outbound), the customer will receive a PNG image.
