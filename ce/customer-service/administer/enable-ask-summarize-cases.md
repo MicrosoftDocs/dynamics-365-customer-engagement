@@ -1,7 +1,7 @@
 ---
 title: Enable Customer Service plugin for ask to summarize cases (preview)
 description: Learn how to enable ask to summarize cases and ask about case data features so that agents can use them in Copilot.
-author: neeraneli
+author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
