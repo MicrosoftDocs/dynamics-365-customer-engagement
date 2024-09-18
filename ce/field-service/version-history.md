@@ -35,20 +35,18 @@ For information about older versions, see [Version history archive](version-hist
 
 (Includes Universal Resource Scheduling version [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011) and Resource Scheduling controls version 1.2.79.242513)
 
-- Remote assist in teams announcement modal on get started page 
+- Added Remote Assist in Teams announcement to Get Started page. 
 
 ## 8.8.124.20
 (Includes Universal Resource Scheduling version [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) and Resource Scheduling controls version 1.2.78.242404)
 
 - Drip scheduling is now deprecated, and the setting has been removed.
-- DOD region is now correctly determined by region helper.
+- DoD region is now correctly determined by region helper.
 - Work order form no longer shows as (new) when disable pricing setting is turned on.
 - New planner integration feature added! Find the feature toggle in settings.
 - Field Service Mobile: Fixed a bug which caused inspection response text to overlap for some question types when exported to PDF.
 - Field Service Mobile: Fixed a bug which prevents inspections PDF from generating when a JSON expression is invalid.
 - Field Service Mobile: Fixed a bug which prevented some images from rendering in the exported inspection PDF.
-
-
 
 ## 8.8.126.9 (2024 wave 2 early access, update 1)
 (Includes Universal Resource Scheduling version [3.12.141.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121416---2024-wave-2-early-access-update1) and Resource Scheduling controls version 1.2.80.242331).
