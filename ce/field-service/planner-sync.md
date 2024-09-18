@@ -7,7 +7,9 @@ ms.author: jacoh
 author: jasonccohen
 ---
 
-# Synchronize Microsoft Planner with Field Service
+# Synchronize Microsoft Planner with Field Service (Preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 The Dynamics 365 Field Service and Microsoft Planner sync combines work orders and tasks in a single task management application. This feature simplifies task tracking by automatically creating corresponding tasks in Planner for each work order in Field Service. It allows frontline teams to stay organized and responsive, helping businesses achieve greater operational efficiency.
 
@@ -18,6 +20,8 @@ The Dynamics 365 Field Service and Microsoft Planner sync combines work orders a
 - **Better organization**: Work orders can be categorized into different buckets in Planner, which reflect the type of work being done, helping teams manage and prioritize tasks effectively.
 
 - **Scalability**: The integration supports multiple business units and environments, allowing for flexible setup across large organizations.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Set up the integration
 
@@ -74,3 +78,5 @@ If your organization uses Microsoft Teams, it is beneficial to [create a new tea
 - Each team can map to multiple business units but one business unit can't map to multiple teams. Consider mapping a different team with different members.
 
 <!--not sure I get the last point-->
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
