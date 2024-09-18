@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 04/19/2024
+ms.date: 09/18/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -25,11 +25,12 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 
 ## Prerequisites
 
-Make sure that your administrator has turned on the Copilot features.
+- Make sure that your administrator has turned on the Copilot features.
+- To use the ask to summarize cases feature, enable "Copilot for questions and emails".
 
 ## Ask a question 
 
-When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information.
+When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information. Copilot quickly retrieves information, generates summaries for cases, and gets required details about case data, all within the same interface.
 
 ### Draft questions
 
@@ -37,12 +38,29 @@ You can ask free-form questions just as you'd ask your colleague or supervisor w
 
  :::image type="content" source="../media/copilot-ask-question-mini.png" alt-text="Screenshot of the Ask a question tab in Copilot." lightbox="../media/copilot-ask-question.png":::
 
-
 With Copilot, you can take the following actions:
 
 - **Ask a direct question**: Copilot shows the most relevant answer from the knowledge sources your organization has made available.
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
+- **Ask to summarize cases** (preview): Copilot can generate case summaries directly within the ask-a-question side pane. This allows you to access case summaries without disrupting your current workflow. You can speed up on case ramp-ups, transfers, and wrap-ups. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description. You can make requests like, "Write case summary." or "Write case summary for CAS-01001-V1X2B3."
+- **Ask about case data** (preview): Copilot enables you to access and use case data effectively, resulting in improved case management. You can ask questions about your case data to manage case workload in a better way.
+
+You can make the following types of requests:
+
+- Get details on the high-priority cases for a specified date range.
+- Show all high-priority cases.
+- Show active escalated cases.
+- Show cases that are due soon.
+- Show cases due the next day.
+- Show active cases that agents own.
+- Show my active cases.
+- Get the case details.
+- Get the case resolution details for a case.
+- Show cases for owner {owner name}.
+- Show case history.
+
+Copilot understands natural language queries, allowing you to easily obtain information about your case data, including cases you have access to view, regardless of assignment.
 
 ### Use auto-prompts
 
