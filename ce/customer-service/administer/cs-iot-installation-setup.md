@@ -9,7 +9,7 @@ ms.author: laalexan
 
 # Installation and setup - Connected Customer Service for IoT Hub
 
-This guide provides the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set-up.
+This guide provides the steps required for getting up and running with Connected Customer Service (CCS) for IoT Hub. If you're looking for information about CCS for IoT Central, be sure to visit our tutorial on getting set up.
 
 ## Prerequisites  
  Before you install Connected Customer Service, make sure you have the following required items:  
@@ -18,9 +18,9 @@ This guide provides the steps required for getting up and running with Connected
    
 - An IoT – Administrator role in the IoT solution (to access IoT entities and IoT functionality), plus another role, like Customer Service – Dispatcher (to access Dynamics 365).  
   
-- An active Azure subscription with appropriate privileges. For more information, refer to [article on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md).
+- An active Azure subscription with appropriate privileges. Learn more in [article on Azure prerequisites](cs-iot-azure-subscription-prerequisites.md).
   
-- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Download the Power BI template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix)  
+- Microsoft Power BI PRO and the sample report template. Learn more in [Download the Power BI template for Connected Customer Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix).  
   
 <a name="bkmk_install"></a>
 
@@ -63,7 +63,7 @@ Connected Customer Service is included with Dynamics 365 Customer Service. Creat
   
 1. In the **Resource Group**, select the IoT hub, and then in **General**, select **Shared access policies** to get the host name and primary key.  
   
-1. Make sure **Connection status**  is marked as **Connected** and then close the dialog box.  
+1. Make sure **Connection status**  is marked as **Connected** and then close the dialog.  
 
 Now you can send a test command by using the sample simulator. For example, select the temperature, and then increase it to above 70 degrees.  
   
@@ -105,7 +105,7 @@ Set up Power BI accounts and open the sample .pbix report.
   
 1. Once you publish, Power BI Desktop provides a link and message that instructs you to open the report and provide credentials.  
   
-1. Once the report is open, a notification to edit your credentials displays.  
+1. Once the report is open, a notification to edit your credentials appears.  
   
 1. To allow Power BI to access your database, enter the SQL server admin user name and password.  
   
@@ -124,7 +124,7 @@ Set up Power BI accounts and open the sample .pbix report.
 
     1. Select the **Add** button.
 
-    1. A configuration window displays. Sign in if prompted.
+    1. A configuration window appears. Sign in if prompted.
 
     1. Pick your dashboard and tile.
 
@@ -173,7 +173,7 @@ By default, you can view the last 20 readings. You can change the default settin
   
 1. To view a device reading, on the main menu, select **Customer Service** > **Devices**.  
   
-1. Choose a device from the list and open the record. Refer to the **Connect Device Readings** section to view the device readings.  
+1. Select a device from the list and open the record. Refer to the **Connect Device Readings** section to view the device readings.  
   
 <a name="bkmk_remotely"></a>   
 
@@ -225,14 +225,14 @@ When a device isn’t working properly, the system receives an alert. To trouble
 
 ## Create business process flows to automatically handle incoming IoT alerts
 
-When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue isn't resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create a business process flow](../../customerengagement/on-premises/customize/create-business-process-flow.md)
+When you receive an alert from a device, your service team can manually monitor the alerts and troubleshoot the issue remotely. If the issue isn't resolved by sending a remote command, the service rep can create a case or work order and dispatch a field tech. The provided business process flow guides you through the process of manually responding to IoT alerts. Learn more in [Create a business process flow](../../customerengagement/on-premises/customize/create-business-process-flow.md)
 
  
 <a name="bkmk_IOTDashboard"></a>
 
 ## View the IoT dashboard
 
-The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create or customize dashboards](../../customerengagement/on-premises/customize/create-edit-dashboards.md)
+The default IoT dashboard provides data on registered devices and alerts. Learn more in [Create or customize dashboards](../../customerengagement/on-premises/customize/create-edit-dashboards.md).
 
 1. From the main menu, select **Customer Service** or **Internet of Things**.
 
@@ -252,7 +252,7 @@ By installing Connected Customer Service for Dynamics 365, when you provide your
 
 Azure components and services that are involved with Connected Customer Service functionality are detailed in the following sections. 
 
-For more information about Azure service offerings, refer to the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/). 
+For more information about Azure service offerings, go to [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/). 
 
 [Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues) 
 
