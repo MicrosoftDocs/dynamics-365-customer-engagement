@@ -106,10 +106,6 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
 </ResourceDictionary>  
 ```  
   
- This will be the customization outcome:  
-  
- ![Custom app name in the login screen.](../unified-service-desk/media/usd-loginscreencustomization.png "Custom app name in the login screen")  
-  
 ### Change the application name and appearance of splash screen  
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
   

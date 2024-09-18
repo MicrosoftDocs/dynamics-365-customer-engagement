@@ -16,9 +16,7 @@ A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../
 1. In **Solution Explorer**, right-click the solution and select **Import**.  
   
 2. In the import dialog box, enter the Common Data platform server name and your credentials.  
-  
-   ![Screenshot of import from dialog box.](../unified-service-desk/media/usd-import.PNG "Screenshot of import from dialog box")  
-  
+    
 3. If there’s more than one organization, select the **Display list of available organizations** check box and click **Login**.  
   
 4. Select your organization from the list.  
