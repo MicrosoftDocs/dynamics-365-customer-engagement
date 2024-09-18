@@ -15,7 +15,7 @@ ms.custom:
 
 # Create a Community forum
 
-In Customer Service Community, a forum is a container of ideas and the entity where security boundaries are applied. The user who creates a forum automatically becomes the owner and can assign community roles and membership in the forum, as well as other metadata, like categories and groups.
+In Customer Service Community, a forum is a container of ideas and the entity where security boundaries are applied. The user who creates a forum automatically becomes the owner and can assign community roles and membership in the forum, as well as other metadata, such as categories and groups.
 
 ## Create a forum
 
@@ -38,7 +38,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
   	 > [!div class="mx-imgBorder"] 
      > ![Quick create details for a category.](../media/community-quick-create-category.png)
     
-1.	To add more categories, repeat steps 3 and 4 in this procedure.
+1.	To add more categories, repeat steps 3 and 4.
 
 1.	When you're finished, select **Save and Close**.
 
@@ -46,7 +46,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
 
 1.	Type a group name, and then select **Save**.
 
-1.	To add more groups, repeat steps 7 and 8 in this procedure.
+1.	To add more groups, repeat steps 7 and 8.
 
 1.	Go to the **Membership** tab to add members to your forums. You're already added as owner. The **Membership** tab is where you add forum owners and moderators.
 
@@ -76,7 +76,7 @@ In Customer Service Community, a forum is a container of ideas and the entity wh
     - **External Authenticated Users**: Select the access level for non-internal authenticated users.
     - **Anonymous Users**: Select the access level for non-authenticated users.
 
-1.	Go to the **Quick Links** tab to define links that show to end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
+1.	Go to the **Quick Links** tab to define links that appear for end-users in the forum. You can choose whether to include quick links that the admin added to the portal home page.
 
 1.	To add a forum **Quick Link**, select **+ New Quick Link**, and then enter the following values:<br>
     - **Display Label**: Refers to how the link is displayed in the portal.<br>
