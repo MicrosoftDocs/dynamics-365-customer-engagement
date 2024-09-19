@@ -36,6 +36,7 @@ The following prerequisites must be set for the Microsoft Teams users:
     1. Sign in to the Azure portal and go to **Microsoft Entra ID**.
     1. Select **Manage** > **Users**
     1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
+    
       > [!NOTE]
       > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
 
