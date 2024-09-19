@@ -1,7 +1,7 @@
 ---
 title: FAQ about natural language chat in Copilot 
 description: Get answers to frequently asked questions about the natural language chat capability in Copilot in Dynamics 365 Sales.
-ms.date: 12/01/2023
+ms.date: 09/19/2024
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap
@@ -97,3 +97,13 @@ The system doesn’t provide any setting or customization to the end user to twe
 - Use the record picker “/” to select the exact record.
 - Avoid asking for personal information and information for which you don’t have access to, based on your company permission settings. We honor the data permission setting of your company.
 - Have realistic expectations - While copilot can generate impressive responses, it's important to remember that it's not human. It may not always understand context perfectly or provide entirely accurate information.
+
+### Which languages are supported for natural language chat?  
+
+We're constantly working to add more languages to Copilot. View the list of supported languages in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+
+
+## Related information
+
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
+[Copilot in Dynamics 365 Sales overview](copilot-overview.md)  

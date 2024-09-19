@@ -1,7 +1,7 @@
 ---
 title: FAQ about summarization in Copilot
 description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which quickly summarizes important lead and opportunity information in an easy-to-consume format.
-ms.date: 05/14/2024
+ms.date: 09/19/2024
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap
@@ -119,8 +119,13 @@ To ensure effective and responsible use of the summarization feature, it's impor
 
 - Make sure that the fields configured for opportunity and lead summarization are relevant to your sellers and align with their business needs to realize the maximum benefits of the feature.
 
+## Which languages are supported by the summarization feature?
+
+We're constantly working to add more languages to Copilot. View the list of supported languages in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+
 ## Related information
 
-[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
+[Copilot in Dynamics 365 Sales overview](copilot-overview.md)  
+[Get information from Copilot](copilot-get-information.md)  
 
-[!INCLUDE [footer-include](../includes/footer-banner.md)]
