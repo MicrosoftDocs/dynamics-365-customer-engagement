@@ -101,6 +101,8 @@
                   href: import-data.md
             - name: Enable and administer Sales Insights features
               href: intro-admin-guide-sales-insights.md
+            - name: Advanced settings in the new experience (preview)
+              href: advanced-settings-new-experience.md
         - name: Installation FAQs
           href: faq-installation.md
         - name: Customize your sales app
@@ -185,8 +187,6 @@
           href: copilot-sharepoint-config.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
-        - name: Copilot data movement across geographies
-          href: sales-copilot-data-movement.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
     - name: Overview of focused view
@@ -765,6 +765,8 @@
               href: copilot-ask-questions.md
             - name: Get content recommendations and answers from SharePoint
               href: copilot-get-doc-suggestions.md
+            - name: Default attributes used in Copilot summaries
+              href: understand-copilot-summaries.md
         - name: Compose and send email messages using Copilot
           href: compose-send-email-copilot.md
         - name: View and copy email summary

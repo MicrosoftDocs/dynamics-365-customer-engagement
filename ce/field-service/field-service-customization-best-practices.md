@@ -129,6 +129,6 @@ To monitor the health of your environment, regularly [run the Solution Health Hu
 
 ## Mobile app performance considerations
 
-Customizing the mobile app can affect performance. Learn more in [Performance considerations when customizing the mobile app](improve-mobile-performance.md).
+Customizing the mobile app can affect performance. Learn more in [Performance considerations when customizing the mobile app](mobile/improve-mobile-performance.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -118,7 +118,9 @@ You can configure routing rule conditions for the social channels, such as Faceb
   - Province
   - Country
 
-- **WhatsApp**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a pre-filled message that automatically appears in the text field of a customer chat.
+- **WhatsApp(Twilio)**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a prefilled message that automatically appears in the text field of a customer chat.
+
+- **WhatsApp(Azure Communication Services)**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number**, **Customer First Message**, and **Azure Communication Services WhatsApp channel ID** attributes. The **Customer First Message** attribute lets you create a prefilled message that automatically appears in the text field of a customer chat.
 
 - **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:  
 

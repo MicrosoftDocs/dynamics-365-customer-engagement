@@ -19,7 +19,7 @@ Configure inbound calling to set up the voice channel in Dynamics 365. You can e
 
 Ensure that the following prerequisites are met:
 
-- Voice channel is provisioned. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
+- Voice channel is provisioned. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
@@ -62,8 +62,8 @@ To configure the voice channel, you'll need to associate the workstream with a p
 
 4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
-   - Notify position in queue
-   - Notify average wait time
+   - Notify position in queue [Notify position in queue](show-queue.md)
+   - Notify average wait time [Notify average wait time](average-wait-time.md)
 
 5. Turn on the **Channel operating hours** toggle, and select an operating hour record. More information: [Configure operating hours for your business](create-operating-hours.md)
 
@@ -122,7 +122,7 @@ You see the following transfer and consult options:
 
 ## Create queues for voice channels
 
-In Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item requirements and matching them with the agent's capabilities using round robin routing. More information: [Overview of unified routing](overview-unified-routing.md)
+In Dynamics 365 Contact Center or Dynamics 365 Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item requirements and matching them with the agent's capabilities using round robin routing. More information: [Overview of unified routing](overview-unified-routing.md)
 
 In this section, we'll cover information on how to create a queue for the voice channel and routing rules to evaluate conditions and assign work items.
 

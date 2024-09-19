@@ -122,7 +122,7 @@ Alternatively, your inspection service task can be added to the work order via a
 
 ## Perform inspections on mobile
 
-Technicians can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile-power-app-overview.md), even in offline mode. Inactive inspections and their related work order service tasks aren't available in offline mode.
+You can view and complete inspections on the [Dynamics 365 Field Service mobile app](mobile/overview.md).
 
 1. Sign in and go to the assigned work order.
 
