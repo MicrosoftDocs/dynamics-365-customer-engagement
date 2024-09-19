@@ -44,7 +44,7 @@ Use the following input and output parameters for the Search Resource Availabili
 | MustChooseFromResources |List&#60;Guid&#62; | No | Evaluate and select results from resources in this list. |
 | RequiredResources |List&#60;Guid&#62; | No | Evaluate all resources, filter the results based on this list. In general, use MustChooseFromResources instead for improved performance. |
 | IgnoreTimeSlots | Boolean | No | Specifies if the returned time slots should be ignored. When true, list of time slots returned is empty. It's false by default. |
-| ConsiderAppointments | Boolean | Set to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings are set. Appointments with busy or completed statuses are considered as unavailable for scheduling operations. |
+| ConsiderAppointments | Boolean | No | Set to True for search resource availability API to respect existing Dataverse appointments as bookings on the resource, provided the organization and resource level settings are set. Appointments with busy or completed statuses are considered as unavailable for scheduling operations. |
 
 ### Output
 
