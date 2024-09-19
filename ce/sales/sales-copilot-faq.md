@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 09/16/2024
+ms.date: 09/19/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -134,9 +134,9 @@ Currently, you can't use your own templates with Copilot for email.
 
 Yes. You can provide inputs to adjust the length or tone of the email being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
 
-### What languages are supported by Copilot for email?  
+### Which languages are supported by Copilot for email?  
 
-Currently, only English is supported.
+We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ### Can I regenerate the system suggested draft?  
 
@@ -169,3 +169,9 @@ For information about the privacy policy or transparency, see [FAQ for Copilot d
 ### Does Copilot automatically send emails on my behalf?
 
 No. Copilot doesn't send the email automatically on your behalf. You have to review and send the email.
+
+## Related information
+
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
+[Copilot in Dynamics 365 Sales overview](copilot-overview.md)  
+[Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)
