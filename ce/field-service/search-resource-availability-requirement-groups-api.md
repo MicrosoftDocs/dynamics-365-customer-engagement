@@ -154,4 +154,4 @@ Use the following input and output parameters for the Create Requirement Group B
 
 Returns `HandlerExecuted` that is of Boolean type.
 
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
