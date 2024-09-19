@@ -63,9 +63,6 @@ In this tutorial, we demonstrate how to build a simple *Hello World!* communicat
 
 1. To publish the sample widget you just created, follow the steps in [Publish sample app to Azure](sample-softphone-integration.md#bkmk_PublishToAzure). You might also want to read this Azure tutorial on how to create and publish an ASP.NET web app in Azure: [Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework).
     Once the wizard has published the app on Azure, it provides a site URL that you can use to access your hosted web app.<br />
-
-    ![See Site URL of published web app.](../../media/cif-helloworld-site-url.PNG "See Site URL of published web app")<br />
-
     When you select the site URL, it opens the same web app that we saw earlier while debugging our web app in Visual Studio.
 
 2. To configure the widget in your Dynamics 365 instance, follow the steps described here: [Configure sample app in Dynamics 365](sample-softphone-integration.md#bkmk_Configure).
