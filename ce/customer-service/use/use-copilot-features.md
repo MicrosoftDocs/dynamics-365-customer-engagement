@@ -43,7 +43,7 @@ With Copilot, you can take the following actions:
 - **Ask a direct question**: Copilot shows the most relevant answer from the knowledge sources that your organization has provided.
 - **Ask follow-up turn by turn questions**: If Copilot's response isn't immediately useful, you can ask follow-up questions and guide Copilot in a natural, conversational way.
 - **Ask Copilot to attempt a better response**: Copilot can also rephrase responses based on more guidance such as, "Can you summarize your response?" or "Can you attempt a response providing details for each of the steps you mentioned?"
-- **Ask to summarize cases** (preview): Copilot can generate case summaries directly within the Ask a question tab. You can access case summaries without disrupting your current workflow. You can also speed up on case ramp-ups, transfers, and wrap-ups. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description. You can make requests like, "Write case summary." or "Write case summary for CAS-01001-V1X2B3."
+- **Ask to summarize cases** (preview): Copilot generates case summaries directly within the Ask a question tab, allowing you to access them without disrupting your current workflow. The case summary includes key information such as the case title, customer, priority, case type, and description.
 - **Ask about case data** (preview): Copilot enables you to access and use case data effectively, resulting in improved case management. You can ask questions about your case data to manage case workload in a better way.
 
 You can make the following types of requests:
@@ -59,8 +59,6 @@ You can make the following types of requests:
 - Get the case resolution details for a case.
 - Show cases for owner {owner name}.
 - Show case history.
-
-Copilot understands natural language queries, allowing you to easily obtain information about your case data, including cases you have access to view, regardless of assignment.
 
 ### Use auto prompts
 
