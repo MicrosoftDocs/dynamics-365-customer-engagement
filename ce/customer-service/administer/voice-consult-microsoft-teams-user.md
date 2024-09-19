@@ -37,8 +37,8 @@ The following prerequisites must be set for the Microsoft Teams users:
     1. Select **Manage** > **Users**
     1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
     
-      > [!NOTE]
-      > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
+    > [!NOTE]
+    > When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
 
 - **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Microsoft Entra ID for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
 
