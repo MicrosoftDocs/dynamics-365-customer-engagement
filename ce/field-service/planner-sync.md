@@ -62,8 +62,6 @@ If your organization uses Microsoft Teams, it is beneficial to [create a new tea
 
 ## View work orders in Planner
 
-<!-- screenshot?-->
-
 1. [Create a work oder](create-work-order.md) in Field Service, set the corresponding work order type and save it.
 
 1. [Sign in to Planner](https://support.microsoft.com/office/sign-in-to-microsoft-planner-fe43c972-5a95-4071-86d4-423a64a3b21e) to find the synced work order will in the appropriate bucket based on the work order type.
@@ -75,8 +73,5 @@ If your organization uses Microsoft Teams, it is beneficial to [create a new tea
 
 - Planner supports up to 2,400 active tasks and 9,000 tasks in total. Make sure you mark work orders as completed when done. When you reach 9,000 tasks in total, consider cleaning up tasks in Planner.
 - The system allows up to 50 work order types as buckets in Planner. Consolidate work order types to avoid reaching this limit.
-- Each team can map to multiple business units but one business unit can't map to multiple teams. Consider mapping a different team with different members.
-
-<!--not sure I get the last point-->
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]
