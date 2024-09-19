@@ -100,7 +100,7 @@ The system doesn’t provide any setting or customization to the end user to twe
 
 ### Which languages are supported for natural language chat?  
 
-We're constantly working to add more languages to Copilot. View the list of supported languages in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 
 ## Related information

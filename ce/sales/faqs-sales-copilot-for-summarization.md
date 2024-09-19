@@ -121,7 +121,7 @@ To ensure effective and responsible use of the summarization feature, it's impor
 
 ## Which languages are supported by the summarization feature?
 
-We're constantly working to add more languages to Copilot. View the list of supported languages in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
+We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## Related information
 
