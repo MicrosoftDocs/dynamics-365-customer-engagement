@@ -1,16 +1,16 @@
 ---
-title: Enable Customer Service plugin for ask to summarize cases (preview)
-description: Learn how to enable ask to summarize cases and ask about case data features so that agents can use them in Copilot.
+title: Enable case summaries through ask a question (preview)
+description: Learn how to enable Copilot to summarize cases and provide case data through the ask a question feature so that agents can use them to expedite cases.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 09/18/2024
+ms.date: 09/19/2024
 ms.custom: bap-template
 ---
 
-# Enable Customer Service plugin for ask to summarize cases (preview)
+# Enable case summaries through ask a question (preview)
 
 Copilot can now generate case summaries in the ask a question side pane, enabling agents to view case summaries without losing context of what they are working on, thereby accelerating case ramp-ups, transfers, and wrap-ups. Agents can also use Copilot to obtain information about case data.
 
@@ -23,7 +23,7 @@ Copilot can now generate case summaries in the ask a question side pane, enablin
 - System Administrator role is assigned.
 
 
-## Enable ask to summarize cases
+## Enable case summaries
 
 1. In Customer Service admin center, go to **Productivity** under **Agent experience**, and select **Manage** for **Copilot for questions and emails**.
 1. On the **Copilot for questions and emails** page, select **Ask a question**.
@@ -40,4 +40,6 @@ Copilot can now generate case summaries in the ask a question side pane, enablin
 ### Related information
 
 [Use Cppilot features](../use/use-copilot-features.md)  
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)  
 

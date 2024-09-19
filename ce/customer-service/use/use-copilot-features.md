@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to solve customer issues
 description: Learn about how you can use Copilot in Microsoft Dynamics 365 to enhance your productivity when you work on customer service requests.
-ms.date: 09/18/2024
+ms.date: 09/19/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -26,7 +26,7 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 ## Prerequisites
 
 - Make sure that your administrator has turned on the Copilot features.
-- To use the ask to summarize cases feature, enable "Copilot for questions and emails".
+- To use the summarize cases feature, [case summaries through ask a question](../administer/enable-ask-summarize-cases.md) (preview) is enabled.
 
 ## Ask a question 
 
@@ -129,4 +129,4 @@ Select the one-click response generation button at the lower-right corner of the
 [Understand Copilot language support](copilot-language-support.md)  
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
-[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)  
