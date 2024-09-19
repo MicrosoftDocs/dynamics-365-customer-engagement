@@ -30,9 +30,9 @@ Copilot can now generate case summaries in the "ask a question" side pane. Agent
 1. Save and close.
 1. On the **Productivity** page, select **Manage** for **Plugins for generative AI (Preview)**.
 1. Select Customer Service (preview), and select **Turn on**.
-1. On the Manage user access menu, select one of the following user access types, and select **Next**.
+1. On the **Manage user access** menu, select one of the following user access types, and select **Next**.
     - All agents who have Copilot
-    - Specific user roles 
+    - Specific user roles: Agents with the roles that you select are granted access to the feature.
 1. On the **Define inputs(optional)** page, select the checkboxes according to your business requirements and select **Next**.
 1. If you'd like to save the plugin data, select the checkbox on the **Step 4 of 4** page.
 1. Select **Turn on plugin**.
