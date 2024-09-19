@@ -1,6 +1,6 @@
 ---
 title: Enable case summaries through ask a question (preview)
-description: Learn how to enable Copilot to summarize cases and provide case data through the ask a question feature so that agents can use them to expedite cases.
+description: Learn how to enable Copilot to summarize cases and provide case data through the "ask a question" feature. Agents can use this information to expedite cases.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enable case summaries through ask a question (preview)
 
-Copilot can now generate case summaries in the ask a question side pane, enabling agents to view case summaries without losing context of what they are working on, thereby accelerating case ramp-ups, transfers, and wrap-ups. Agents can also use Copilot to obtain information about case data.
+Copilot can now generate case summaries in the "ask a question" side pane. Agents can view case summaries without losing context of what they're working on, and accelerate case ramp-ups, transfers, and wrap-ups. Agents can also use Copilot to obtain information about case data.
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -39,7 +39,7 @@ Copilot can now generate case summaries in the ask a question side pane, enablin
 
 ### Related information
 
-[Use Cppilot features](../use/use-copilot-features.md)  
+[Use Copilot features](../use/use-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)  
 
