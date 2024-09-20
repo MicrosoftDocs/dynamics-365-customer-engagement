@@ -77,12 +77,12 @@ The following section provides answers to questions about migrated rule or flows
 ### How many flows should I see in Power Automate when I have an active modern or migrated ARC rule, with or without a rule item?
 
 Active rule with rule item:
-If you activate a rule, you'll see one active rule with the name **ARC: rule item name**. The Power Automate flows turn on automatically whenever you activate a rule. If you see that your rule is activated, navigate to the Power Automate flow page to confirm that the flow is turned on, as the ARC rule works only when these two flows are turned on.
+If you activate a rule, you'll see one active rule with the name **ARC: rule item name**. The Power Automate flows turn on automatically whenever you activate a rule. If you see that your rule is activated, navigate to the Power Automate flow page to confirm that the flow is turned on, as the ARC rule works only when this flow is turned on.
  
 Inactive Rule with rule item:
 For any inactive ARC rule, you'll also see one flow only with the name **ARC: rule item name**, but the flow is turned off automatically. This is the only flow that is associated with the ARC rule and invoked during run time.
  
-Active/inactive rule without rule item (no-op):
+Active/inactive rule without rule item:
 ARC won't run if you don't have a rule item. You won't see any flows related to this rule. You may choose to not have any conditions associated with the rule item. For ARC to run, you'll need to deactivate the rule and create a rule item without any conditions, which creates a flow. 
 
 ### What does the flow ARC | rule name do, and can I customize it?
