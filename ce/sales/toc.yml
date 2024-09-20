@@ -585,7 +585,7 @@
                   href: custom-sms-custom-api.md
                 - name: Define the custom channel
                   href: custom-define-sms-definition.md
-            - name: Edit phone numbers
+            - name: Manage phone numbers for SMS
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md

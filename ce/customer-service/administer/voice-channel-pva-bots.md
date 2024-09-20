@@ -82,8 +82,6 @@ More information:
 
       1. Copy the **Application ID** to the clipboard.
 
-        ![Copy the application ID.](../media/copy-app-id.png)
-
    1. Return to Copilot Studio, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
 
     :::image type="content" source="../media/pva-omnichannel-bot-configuration.png" alt-text="Copilot Studio bot for Omnichannel for Customer Service":::
