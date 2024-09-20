@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 09/13/2024
+ms.date: 09/20/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -77,16 +77,13 @@ The following section provides answers to questions about migrated rule or flows
 ### How many flows should I see in Power Automate when I have an active modern or migrated ARC rule, with or without a rule item?
 
 Active rule with rule item:
-
-If you have an active rule with rule items, you see two flows, one with the name **ARC | rule name**, and another with the name **ARC: rule item name**. These flows are automatically turned on whenever you activate a rule. The ARC rule works only when these two flows are turned on.
-
-For any inactive ARC rule, you see only one flow with the name **ARC: rule item name**. You don't see **ARC | rule name**, as this flow is created during rule activation. Even if you do see duplicate flows with the name **ARC | rule name** for the same rule, it won't cause any rule item issues. Even though they have the same name, only one of these flows is associated with the ARC rule, and only that flow is invoked during run time.
-
-Active rule without rule item:
-
-If you have an active rule, two flows aren't created. Instead, when the rule is created and a rule item is created, you see one flow only with the name **ARC: rule item name**. This flow is automatically turned on whenever you activate a rule. It's not required to turn on two flows.
-
-When your ARC rule is inactive, you still see the flow in your list of flows, however it's turned off. Whenever you activate the rule, the flow gets turned on automatically.
+If you activate a rule, you'll see one active rule with the name **ARC: rule item name**. The Power Automate flows turn on automatically whenever you activate a rule. If you see that your rule is activated, navigate to the Power Automate flow page to confirm that the flow is turned on, as the ARC rule works only when these two flows are turned on.
+ 
+Inactive Rule with rule item:
+For any inactive ARC rule, you'll also see one flow only with the name **ARC: rule item name**, but the flow is turned off automatically. This is the only flow that is associated with the ARC rule and invoked during run time.
+ 
+Active/inactive rule without rule item (no-op):
+ARC won't run if you don't have a rule item. You won't see any flows related to this rule. You may choose to not have any conditions associated with the rule item. For ARC to run, you'll need to deactivate the rule and create a rule item without any conditions, which creates a flow. 
 
 ### What does the flow ARC | rule name do, and can I customize it?
 
