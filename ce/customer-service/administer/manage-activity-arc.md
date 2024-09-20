@@ -50,7 +50,7 @@ In Customer Service admin center, **Customer support** > **Overview** > **Case s
    - Skipped
 
 > [!NOTE]
-> To reprocess queue items that didn't succeed, evaluate issues, go to **All Activities**, select the activity you want to run, and then select **Add To Queue**. Learn more in [Manage automatic record creation and update rule from a queue form](automatically-create-update-records.md#manage-automatic-record-creation-and-update-rule-from-a-queue-form).
+> To reprocess queue items that didn't succeed, go to **All Activities**, select the activity you want to run, and then select **Add To Queue**. Learn more in [Manage automatic record creation and update rule from a queue form](automatically-create-update-records.md#manage-automatic-record-creation-and-update-rule-from-a-queue-form).
 
 ## Related information
 
