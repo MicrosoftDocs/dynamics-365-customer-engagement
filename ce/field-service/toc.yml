@@ -288,6 +288,8 @@ items:
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
+      - name: Search resource availability for requirement groups API
+        href: search-resource-availability-requirement-groups-api.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
