@@ -1,13 +1,10 @@
 ---
 title: Service level agreements (SLAs) for work orders
 description: Learn how to set up service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
-ms.date: 09/06/2024
+ms.date: 09/20/2024
 ms.topic: how-to
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: lmasieri
-ms.author: lmasieri
+author: jasconccohen
+ms.author: jacoh
 ---
 
 # Service level agreements (SLA) for work orders
@@ -22,7 +19,6 @@ To use SLAs for work orders, you enable the SLA setting, set up key performance 
 
 ## Prerequisites
 
-- Field Service v8.3+
 - Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/administer/define-service-level-agreements.md)
 
 ## Enable SLA functionality for Field Service
@@ -58,17 +54,6 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
     :::image type="content" source="media/work-order-sla-items.png" alt-text="Screenshot of SLA Item showing a warning after 1.5 hours and failure after 3 hours.":::
 1. Select **Save & Close**. Then, select **Activate**.
-
-<!--- I don't see what this setting does. Jason didn't mention it in the walkthrough.
-
-## Add SLA KPIs to Field Service
-
-1. In Field Service change, to the **Settings** area. In the **General** section, select **Field Service Settings**.
-
-1. Go to the **Field Service SLA Configuration** tab to select the **SLA KPI Instance** for Field Service. By default, there's an SLA related to work order arrival times.
-
-   SLA KPI instances help track how often your organization meets SLAs by establishing a relationship between the SLA and work order tables. An SLA can have multiple SLA KPI Instances. If more than one SLA KPI matches for a work order, the one that was first created applies with priority.
- --->
 
 ## Add the SLA to the work order form
 
