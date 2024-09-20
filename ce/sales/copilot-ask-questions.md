@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 07/02/2024
+ms.date: 09/20/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -49,21 +49,20 @@ Copilot can help you stay on top of your pipeline by showing you a list of accou
 
 Copilot can help you catch up on any updates to your account, lead, or opportunity records in the last seven days or since you last signed in.
 
-The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
-
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's changed for *record type***, and select **Enter**.
 
     - When a record is opened, Copilot displays the list of recent changes to it.
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
+    
+    > [!NOTE]
+    > The **What's changed for *record type*** prompt is displayed only if your administrator has [turned on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [granted you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
 
 1. To get the list of changes to a specific account, lead, or opportunity, type **/** and then start typing the name of the account, lead, or opportunity.
 
     :::image type="content" source="media/copilot-lead-catchup.png" alt-text="Screenshot of a lead catch up in the Copilot chat pane.":::
 
 1. To learn more about the updated information or activity, select **Know more in audit history**.
-
-    :::image type="content" source="media/copilot-lead-catchup-audit-history.png" alt-text="Screenshot of a lead's audit history.":::
 
 ### Would you like to view recent changes to different fields?
 
