@@ -1,7 +1,7 @@
 ---
 title: Provision unified routing in Customer Service
 description: Learn how to provision unified routing in Customer Service.
-ms.date: 06/21/2024
+ms.date: 09/13/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case information is applicable only to Customer Service.
 
-Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing is not enabled if only Customer Service is installed.
+Perform the steps mentioned in this topic to provision unified routing in Customer Service. By default, unified routing isn't enabled if only Customer Service is installed.
 
 ## Prerequisites
 
@@ -33,32 +33,17 @@ With the Customer Service Enterprise license, you'll get unified routing for tab
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Routing**. The **Routing** page appears.
    
-1. Select **Manage** for **Turn on Unified Routing for Records**.
+1. In **Manage unified routing**, select **Manage**.
 
-1. If consent is already provided by the tenant administrator, go to **Step 5**.
+1. On the **Manage unified routing** page, switch the toggle to **Yes** for **Unified routing**.
 
-    If consent to access is not provided by the tenant administrator, in the **Unified routing** section, the following message with a link to the consent page will be displayed:
+1. Select **Save**. A message that unified routing provisioning is in process appears.
 
-      "Unified routing requires application permissions. A tenant administrator must provide consent before it can be turned on. Provide consent."
+If the provisioning fails, go to [Dynamics 365 Customer Service and Dynamics 365 Contact Center troubleshooting](/troubleshoot/dynamics-365/customer-service/welcome-customer-service) or contact Microsoft Support to help resolve the issue.
 
-1. Select **Provide consent**. The following consent form is displayed on a new tab.
+### Provision unified routing in Customer Service with omnichannel application
 
-    > [!div class=mx-imgBorder]
-    > ![Consent to allow access to data.](../media/data-consent.png "Consent to allow access to data")
-
-    For information on consent, see [Consent to access data to provision Omnichannel for Customer Service](../implement/data-access-consent.md)
-
-1. Select **Consent on behalf of your organization**, and select **Accept**.
-
-1. After access is granted, you can close the page to return to the **Service Configuration Settings** page.
-
-1. Set the toggle to **Yes** for **Turn on unified routing**. A message that unified routing is being provisioned appears.
-
-After unified routing is provisioned, **Unified routing successfully provisioned** message appears on top of the toggle key.
-
-### Provision unified routing in Customer Service with Omnichannel for Customer Service
-
-When Omnichannel for Customer Service is available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
+When the omnichannel capabilities are available but not deployed, in the **Service Configuration Settings** page, the following message will appear:
 
   "Some required services need to be installed before unified routing can be turned on. Please contact Microsoft Support."
 
@@ -66,8 +51,6 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
   "Before unified routing can be turned on, Omnichannel needs to be updated. Please contact Microsoft Support."
 
-> [!NOTE]
-> **Unified Routing** also appears in the site map if you install or upgrade Omnichannel for Customer Service.
 
 ### Next steps
 
@@ -78,4 +61,4 @@ When Omnichannel for Customer Service doesn't have the required solutions, the f
 
 [Provide consent to access data](../implement/data-access-consent.md)  
 [Set up record routing](set-up-record-routing.md)  
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  

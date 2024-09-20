@@ -390,6 +390,8 @@
           href: voice-channel-connect-new-resource.md
         - name: 'Advanced: Connect using an existing Azure resource'
           href: voice-channel-connect-existing-resource.md
+        - name: Set up incoming calls, call recording, and SMS services
+          href: voice-channel-configure-services.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
@@ -632,6 +634,8 @@
           href: copilot-enable-help-pane.md
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
+      - name: Enable case summaries through ask a question (preview)
+        href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: enable-copilot-plugins-for-generative-ai.md
       - name: Enable Copilot to create knowledge from cases
