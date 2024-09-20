@@ -53,9 +53,10 @@ Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane). Open 
 
 The opportunity summary is displayed as shown in the following image:
 
-    :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
+:::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
 
 The opportunity summary includes the following information:
+
 - **Basic information**: The basic information of the opportunity includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
 - **Key information**: The key information includes details on how long the account is associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress of the most recent opportunity, contact name of the account with the most opportunities, and other AI-generated information.  
 - **Product, quote, and competitor insights**:
