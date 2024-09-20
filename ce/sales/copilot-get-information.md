@@ -132,7 +132,7 @@ After you select a lead, Copilot suggests other records that might be associated
 1. To update the lead record with the suggested values, select **Update all**.
 
 <a name="copilot-doc-summarization"></a>
-## Summarize proposals associated with a record
+## Summarize proposals or sales documents
 
 You might often have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
@@ -140,15 +140,19 @@ You might often have documents such as proposals and contracts associated with y
 >- Your administrator must have [set up customer engagement apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online), for this feature to work.
 >- Currently, Copilot can summarize only PDF and Word documents.
 
-1. Open a record, such as an opportunity, lead, account, or contact, that has documents associated with it.
+1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 
-1. In the Copilot side pane, enter the prompt **Summarize document /** and then enter the name of the document you want summarized.
-
-   A minimum of three characters is required to start the search. You can search by the file name. For example,
-    - Enter **Summarize document /contract** to get a list of documents that has **contract** in the file name.
-    - Enter **Summarize document /pdf** to get a list of documents that has **pdf** in the file name or extension.
+1. (Optional) Open a record to summarize a document associated with it. 
+1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize file** and then type "/" to search for a document. You can also type **Summarize file /** or **Summarize document /**.
+   A list of recent documents is displayed. If you haven't opened a record, Copilot lists the top 10 documents you've recently worked with. 
+   You can search for the document you want to summarize. A minimum of three characters is required to start the search. You can search by the file name. For example,
+    - Enter **Summarize file /contract** to get a list of documents that has **contract** in the file name.
+    - Enter **Summarize file /pdf** to get a list of documents that has **pdf** in the file name or extension.
 
    Depending on the size of the document, it might take a few seconds to summarize the document.
+
+> [!NOTE]
+> Copilot in Dynamics 365 Sales can summarize only sales documents such as proposals, contracts, and other sales-related documents. If you select a document that isn't a sales document, Copilot declines to summarize it.
 
 
 ## Show the latest news about an account
