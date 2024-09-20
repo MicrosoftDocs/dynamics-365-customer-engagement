@@ -1,7 +1,7 @@
 ---
 title: "View and manage the opportunities pipeline through sales forecasting (Dynamics 365 Sales) | MicrosoftDocs"
 description: "View and manage the opportunities pipeline through sales forecasting in Dynamics 365 Sales."
-ms.date: 09/18/2024
+ms.date: 09/20/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -41,7 +41,7 @@ To understand which opportunities are affecting forecast values, select one of t
 > [!NOTE]
 > Underlying opportunities won't be displayed for **Quota** and simple column types, because no opportunities contribute to calculating their values; you manually upload these values through an Excel workbook.
 
-The opportunities you see in the table depends on the role assigned to you in the hierarchy that was used to configure the forecast.
+The opportunities you see in the table depend on the role assigned to you in the hierarchy that was used to configure the forecast.
 
 For example, Alyce Durham is a manager and Nicolas Frizzell reports to Alyce. Nicolas can see only their own underlying opportunities, while Alyce can their own and Nicolas's underlying opportunities.
 
@@ -159,7 +159,7 @@ Kenny Smith is a Vice President of the sales organization at Contoso Inc and hea
 
 3.	Select **Show as Kanban**. 
 
-    The table view changes into a kanban view and the order of columns are displayed based on the order that's defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
+    The table view changes into a kanban view and the order of columns is displayed based on the order that's defined in the option set in the application. All the underlying opportunities are displayed as cards in their respective forecast categories. Each card displays attributes that you can edit. In this example, the opportunity name, **Owner**, **Est. Revenue**, and **Est. Close Date** are displayed.
 
     :::image type="content" source="media/forecast-view-underlying-opportunities-kanban.png" alt-text="View forecast underlying opportunities in a kanban view" lightbox="media/forecast-view-underlying-opportunities-kanban.png":::
 
