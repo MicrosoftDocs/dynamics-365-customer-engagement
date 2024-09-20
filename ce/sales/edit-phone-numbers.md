@@ -1,5 +1,5 @@
 ---
-title: Manage phone numbers 
+title: Manage phone numbers for SMS
 description: Edit phone numbers by assigning or removing users who are no longer working in your organization or moved to a different team.
 ms.date: 09/20/2024
 ms.topic: how-to
@@ -9,11 +9,11 @@ ms.reviewer: udag
 ms.custom: bap-template
 ---
 
-# Manage phone numbers
+# Manage phone numbers for SMS
 
 Manage phone numbers to assign them to new users or to remove users who are no longer working in your organization or have moved to a different team.  
 
-## How to edit the phone numbers
+## How to manage the phone numbers
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App Settings** > **SMS providers**.  
 1. Select the SMS provider.  
