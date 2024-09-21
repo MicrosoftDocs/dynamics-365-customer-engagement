@@ -114,7 +114,7 @@ Every booking status change creates a booking timestamp to keep track of the upd
 
 #### In Progress
 
-- Updates **Actual Arrival Time** with the date and time when a technician changes booking status on the mobile app.
+- Updates **Actual Arrival Time** with the date and time when a technician changes booking status to *In Progess* on the mobile app. When updated from web, the arrival time isn't automatically updated.
 - Updates **First Arrived On (Work Order)** field on the related work order with the **Actual Arrival Time** of the booking. Editing **Actual Arrival Time** also updates the **First Arrived On** value.
 - Updates **Actual Travel Duration**, calculated as the total time during which the booking status is **Traveling**.
 

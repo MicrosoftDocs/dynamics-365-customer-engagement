@@ -1,7 +1,7 @@
 ---
 title: Work with invalid email addresses (preview)
 description: View and work with invalid email addresses for leads and contacts in Microsoft Dynamics 365 Sales.
-ms.date: 09/17/2024
+ms.date: 09/20/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -19,15 +19,11 @@ As you enter the email address in the primary email field, the validation proces
 
 Email address validation looks for the following errors:
 
-- **Incorrect syntax**: An address that doesn't contain both a username and an email domain
-
-- **Disposable domain**: An address that contains a known disposable or temporary email domain
-
-- **Test or spam email addresses**: An address that contains known indicators of a test or spam address in the email header or metadata, IP address, HTML code of the email, and email content and formatting
-
-- **Expired email addresses**: An email account that has expired and can no longer receive or send email
-
-- **Emails that bounce back**: An address that can't receive a message for any reason
+- **Incorrect syntax**: An address that doesn't contain both a username and an email domain.  
+- **Disposable domain**: An address that contains a known disposable or temporary email domain.  
+- **Test or spam email addresses**: An address that contains known indicators of a test or spam address in the email header or metadata, IP address, HTML code of the email, and email content and formatting.  
+- **Expired email addresses**: An email account that has expired and can no longer receive or send email.  
+- **Emails that bounce back**: An address that can't receive a message for any reason.  
 
 ## License and role requirements
 
@@ -44,26 +40,20 @@ Ask your administrator to turn on email validation for your organization. More i
 
 You can view invalid email addresses on primary record or sales insights forms, work list items, and the **Up next** widget in sales accelerator. A red envelope icon indicates an invalid email address.
 
-### View invalid email addresses on primary entity and sales insights forms
+- **Primary entity and sales insights forms**:  
+    Open a lead or contact record, and choose the primary record or sales insights form. In the following screenshot, a lead record has an invalid email address.  
+    :::image type="content" source="media/lead-email-validation-primary-entity-form.png" alt-text="Screenshot showing an invalid email address in the primary lead entity form.":::
 
-Open a lead or contact record, and choose the primary record or sales insights form. In the following screenshot, a lead record has an invalid email address.
-
-:::image type="content" source="media/lead-email-validation-primary-entity-form.png" alt-text="Screenshot showing an invalid email address in the primary lead entity form.":::
-
-### View invalid email addresses on the Up next widget and work list items
-
-Go to a record in sales accelerator with email as the current activity.
-
-:::image type="content" source="media/lead-email-validation-worklist-upnext-wedget.png" alt-text="Screenshot showing an invalid email address in the work list item and Up next widget.":::
+- **Up next widget and work list items**:  
+    Go to a record in sales accelerator with email as the current activity.  
+    :::image type="content" source="media/lead-email-validation-worklist-upnext-wedget.png" alt-text="Screenshot showing an invalid email address in the work list item and Up next widget.":::
 
 ## Send an email to an invalid address
 
 You can send a message to an email address that's marked as invalid. When you select the option to send email, a notification tells you the reason the email was marked as invalid. You can perform the following tasks in the notification:
 
-- If you know the email address is valid, select **Mark valid**. The address is marked as valid and the alert is removed. Compose and send the email.
-
-- If you don't know the email address is valid but you still want to send an email, select **Compose anyway**. Compose and send the email.
-
+- If you know the email address is valid, select **Mark valid**. The address is marked as valid and the alert is removed. Compose and send the email.  
+- If you don't know the email address is valid but you still want to send an email, select **Compose anyway**. Compose and send the email.  
     :::image type="content" source="media/lead-email-validation-send-email-notification-message.png" alt-text="Screenshot of the notification that appears when you send email to an invalid address.":::
 
 You can also send email to an invalid address by creating a manual email activity in the timeline.  

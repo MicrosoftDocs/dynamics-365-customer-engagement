@@ -57,8 +57,7 @@ Depending on the license you have, select one of the following tabs for more inf
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-1. From the Sales Hub app, select the **Settings** &gt; **Advanced settings** &gt; **Customization** &gt; **Customizations** &gt; **Customize the System**.  
-1. Follow the instructions in [Create a business process flow](/power-automate/create-business-process-flow?context=/dynamics365/context/sales-context) to create or customize a business process flow.  
+Follow the instructions in [Create a business process flow](/power-automate/create-business-process-flow?context=/dynamics365/context/sales-context) to create or customize a business process flow.  
 
 # [Sales Professional](#tab/SP)
 
@@ -94,3 +93,4 @@ To edit a business process flow:
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -42,7 +42,7 @@ To migrate the messaging workstreams, you can use the Unified Routing Migration 
 
 ### Can I manage my workstreams in the Omnichannel Administration app post migration?
 
- No. Although you see the migrated workstreams in the old admin app as well, we recommend that you manage the migrated workstreams in the Customer Service admin center app.
+No. Although you see the migrated workstreams in the old admin app as well, we recommend that you manage the migrated workstreams in the Customer Service admin center app.
 
 ### What are the implications when I start the migration process for the workstreams?
 
@@ -60,7 +60,7 @@ If you need further help, contact Microsoft Support.
 
 ### Can I create workstreams for routing records in the Omnichannel Administration app after upgrading Omnichannel for Customer Service to 2021 release wave 1?
 
- No. After upgrade, you'll no longer be able to create workstreams for routing records because they won't work as expected. We recommend that you start using the Customer Service admin center app to create and manage routing of records.
+No. After upgrade, you'll no longer be able to create workstreams for routing records because they won't work as expected. We recommend that you start using the Customer Service admin center app to create and manage routing of records.
 
 ### Will unified routing support activity routing?
 
@@ -76,15 +76,15 @@ Verify whether you have [configured an intake rule](set-up-record-routing.md#con
 
 ### Can I route any record type by using basic routing?
 
- No. Basic routing can be used for cases only. To route any record type, use unified routing.
+No. Basic routing can be used for cases only. To route any record type, use unified routing.
 
 ### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
- No. There's no priority among queues. However, you can prioritize records within a queue.
+No. There's no priority among queues. However, you can prioritize records within a queue.
 
 ### Can I pause the assignment of a case?
 
- No. It's not possible to pause the assignment of a case.
+No. It's not possible to pause the assignment of a case.
 
 ### Can agents pick work items of records to which they don't have permissions?
 
@@ -122,6 +122,10 @@ The unassigned work item remains in the queue until you manually assign it to an
 No, you can't configure a mailbox for advanced queues. If you want to use or manage queue mailboxes, we recommend that you use basic queues only.
 
 ## Work item assignment
+
+### Why does the queue have unassigned work items?
+
+For work items to be assigned automatically, the queue must be a private queue with at least one agent.
 
 ### Can I increase the limit on assignment offer of work items to agents?
 
