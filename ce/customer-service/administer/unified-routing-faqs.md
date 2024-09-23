@@ -1,11 +1,11 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 06/13/2024
+ms.date: 09/24/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -80,7 +80,7 @@ No. Basic routing can be used for cases only. To route any record type, use unif
 
 ### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
-No. There's no priority among queues. However, you can prioritize records within a queue.
+Yes, you can use **Group Number** to prioritize queues. Queues are ordered from highest to lowest priority when work items are assigned. This means that a smaller group number has a higher priority than a bigger number.
 
 ### Can I pause the assignment of a case?
 
