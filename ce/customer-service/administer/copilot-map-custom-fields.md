@@ -18,7 +18,7 @@ ms.custom:
 
 You can modify the source case fields that Copilot uses to generate summaries or draft emails, thereby improving the context and accuracy of the results. You can also select a custom field that Copilot should use to generate responses.
 
-## Modify the fields used to generate case summaries
+## Fields used to generate case summaries
 
 Copilot uses the following fields to generate case summaries. At least one of the fields among the first seven must remain enabled.
 
@@ -39,6 +39,8 @@ Copilot uses the following fields to generate case summaries. At least one of th
 - Agents must have the `prvReadProduct` privilege to generate a summary that contains the **Product** field.
 - You can set Case Notes to a custom entity that is related to the **Case** table.
 - You can't modify the **Email Content**  and **Conversation Summary** values that Copilot uses to generate case summaries. 
+
+## Modify the fields used to generate case summaries
 
 In Customer Service admin center, perform the following steps to map your preferred fields:
 
