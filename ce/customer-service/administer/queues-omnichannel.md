@@ -51,7 +51,7 @@ Assign a group number that helps you prioritize assignment of work. Queues are o
     2. In the **Create a queue** dialog, enter the following details:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
-       - **Group number**: A number to organize the queue.
+       - **Group number**: A number to prioritize the queue.
     3. Select **Create**. The queue that you created is displayed.
 
        > [!div class=mx-imgBorder]
