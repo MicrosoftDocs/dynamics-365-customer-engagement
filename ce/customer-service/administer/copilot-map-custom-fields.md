@@ -1,13 +1,12 @@
 ---
 title: Manage fields Copilot uses for case summaries
-
 description: Learn how to modify the default attributes that Copilot uses to generate more accurate summaries. 
 author: gandhamm 
 ms.author: mgandham 
-ms.reviewer: shujoshi 
+ms.reviewer: mgandham 
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/08/2024
+ms.date: 09/23/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -41,12 +40,13 @@ In Customer Service admin center, perform the following steps to map your prefer
     - **Operations** > **Insights** > **Summaries**
 1. In **Summaries**, for **Case summaries**, select **Manage Data Attributes**. The **Data Attributes** pane shows the attributes that Copilot uses to generate a summary.
 1. Complete the following steps.
-    1. Select the attributes that Copilot uses to generate case summaries. Copilot considers only the selected fields when it's generating a summary.
+    1. Select the attributes that Copilot uses to generate case summaries. Copilot considers the selected fields only when it's generating a summary.
       > [!NOTE]
       > - You can set **Case Notes** to a custom entity that is related to the **Case** table.
       > - Ensure that the Customer Service Representative or any custom role has Read permissions configured for the related entities. Otherwise, Copilot won't be able to generate a summary.
       > - Make sure your agents have `prvReadProduct` privilege to generate a summary that contains the **Product** field.
       > - You can't modify the **Email Content**  and **Conversation Summary** values that Copilot uses to generate case summaries.
+      > - At least one field among the first seven fields that are listed in the preceding section must remain enabled.
    1. To change the default attributes, select a different source table and column. For the **Customer** attribute, for example, you might select **Account** as the source table and **Account Name** as the column. When Copilot generates a summary, it uses the value in the **Account Name** column of the **Account** table as the customer contact instead of **Case** and **Contact**.
    1. Select **Save and Close**.
 1. Select **Save**.
