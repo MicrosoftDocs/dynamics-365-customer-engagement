@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 09/12/2024
+ms.date: 09/24/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -63,6 +63,8 @@ If style tags are visible in an article's content summary, it means that style t
 You can view knowledge article previews from global search, without having to open the article in the knowledge authoring form, thereby saving your time. Your administrator must enable this option for you. Learn more in [Set up knowledge management](/administer/set-up-knowledge-management-embedded-knowledge-search#set-up-knowledge-management.md).
 
 When the global search knowledge configuration option is enabled, you can search and select either the article link, or the article Preview icon, or select your article from the grid view, to view your article in a preview mode. The selected knowledge article opens in a tab. 
+
+:::image type="content" source="../media/csw_global-preview.png" alt-text="Screenshot that shows the preview icon in the agent experience":::
 
 > [!NOTE]
 > If you have overwritten the **OpenRecordItem** command for the knowledge article, and if the global search knowledge configuration option is enabled, the knowledge article format follows the customizations that you have provided. If you haven't enabled the preview option, the knowledge article opens in the knowledge authoring form.
