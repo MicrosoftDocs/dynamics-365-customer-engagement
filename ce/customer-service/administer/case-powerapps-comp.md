@@ -1,6 +1,6 @@
 ---
-title: Adding PowerApps components in Customer Service workspace 
-description: Learn about adding the applicable PowerApps components to Case Management forms.
+title: Add Power Apps components in Customer Service workspace 
+description: Learn about adding the applicable Power Appss components to Case Management forms.
 author: gandhamm 
 ms.author: v-slaik
 ms.reviewer: neeranelli 
@@ -9,16 +9,13 @@ ms.date: 09/12/2024
 ms.custom: bap-template 
 ---
 
-# Adding PowerApp components to Case Management forms
+# Add Power Apps components to Case Management forms
 
-You can use a collection of PowerApp components to customize your case management forms and add the additional functionalities that agents can use when handling cases in the Customer Service workspace.
-
-> [!NOTE]
-> The functionality of a PowerApps component is applicable to the availability of that feature in your Customer Service workspace app.
+You can use a collection of Power Apps components to customize your case management forms and add the additional functionalities that agents can use when handling cases in the Customer Service workspace.
 
 To view and use the default components available on the enhanced full case form, see [Enable enhanced case forms for multisession apps](case-enh-config.md).
 
-The table below shows all the PowerApps components, along with other details, which are available for customizing your forms in the Customer Service workspace.
+The table below shows all the Power Apps components, along with other details, which are available for customizing your forms in the Customer Service workspace.
 
 |Number|Component   | Description   | Entity   |  Additional actions| Additional information|
 |------ |----------|-----------|----------|-----------|
