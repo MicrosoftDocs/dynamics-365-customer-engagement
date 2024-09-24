@@ -634,6 +634,8 @@
           href: copilot-enable-help-pane.md
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
+      - name: Enable case summaries through ask a question (preview)
+        href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: enable-copilot-plugins-for-generative-ai.md
       - name: Enable Copilot to create knowledge from cases
