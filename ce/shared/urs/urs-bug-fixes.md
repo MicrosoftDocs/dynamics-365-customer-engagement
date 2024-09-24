@@ -8,19 +8,48 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) | TBD | 08/30/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |  [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722) | [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)  | 08/23/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)   | 08/23/2024 |
-| | *USG* |   [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722) | [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)  | 08/23/2024 |
-|**Station 4** |*Europe* | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)   | 08/30/2024 |
-|**Station 5** |  *North America*|  [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | 08/23/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | 08/23/2024 |
-| | *Dedicated Scale Groups* | [3.12.135.24](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213524) | [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) | 08/30/2024 |
+|**Station 1** |  *First Release*| [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011) | TBD | 09/27/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |    [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)  | 09/20/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* |[3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)  | 09/27/2024 |
+| | *USG* |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)  | 09/20/2024 |
+|**Station 4** |*Europe* | [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | 09/20/2024 | 
+|**Station 5** |  *North America*|  [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) |  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962)  | 09/27/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)|  [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)   | 09/20/2024 |
+| | *Dedicated Scale Groups* |  [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722)|  [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839)  | 09/20/2024 |
 
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.140.11
+
+**Resource Scheduling Controls:** 1.2.79.242513
+
+**Dataverse:** 4.0.130.11
+
+- Organizational Units are now displayed in alphabetical order in the schedule board filter panel.
+- Improved handling of mismatched distance units in Schedule Assistant.
+- Fixed a bug that was causing the Crew Allocation Tool to crash when Derive Capacity from group members was checked.
+- Fixed a bug that was preventing some additional capacity rows to not expand on the Schedule Board.
+  
+## 3.12.139.62
+
+**Resource Scheduling Controls:** 1.2.78.242404
+
+**Dataverse:** 4.0.129.62
+
+- Fixed a bug that was causing an error when deselecting resources in the booking panel.
+- Fixed a bug that was causing Schedule Board zoom setting not to cache when set to 0.
+- Sorting by rating value is now cached and included in saved default filters on Schedule Board tabs.
+
+## 3.12.141.6 - 2024 Wave 2 Early Access update 2
+
+**Resource Scheduling Controls:** 1.2.80.242331
+
+**Dataverse:** 4.0.131.6
+
+- No updates were made to Universal Resource Scheduling in this release.
 
 ## 3.12.138.39
 
@@ -43,6 +72,7 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.127.22
 
 - Removed toggle for a feature that is not yet active.
+- Various security enhancements.
 
 ## 3.12.141.2 - 2024 Wave 2 Early Access
 
@@ -67,6 +97,15 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed bug that was impacting the actual booked time slot when allow overlapping bookings is selected.
 
 
+## 3.12.136.61
+
+**Resource Scheduling Controls:** 1.2.75.241931
+
+**Dataverse:**  4.0.126.59
+
+- Removed toggle for a feature that is not yet active.
+- Various security enhancements.
+  
 ## 3.12.136.53
 
 **Resource Scheduling Controls:** 1.2.75.241931

@@ -390,6 +390,8 @@
           href: voice-channel-connect-new-resource.md
         - name: 'Advanced: Connect using an existing Azure resource'
           href: voice-channel-connect-existing-resource.md
+        - name: Set up incoming calls, call recording, and SMS services
+          href: voice-channel-configure-services.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
@@ -524,7 +526,9 @@
           href: configure-facebook-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a WhatsApp channel
+        - name: Configure a WhatsApp channel through Azure Communication Services (preview)
+          href: /dynamics365/contact-center/administer/configure-whatsapp-acs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
+        - name: Configure a WhatsApp channel through Twilio
           href: configure-whatsapp-channel.md
         - name: Configure a WeChat channel
           href: configure-wechat-channel.md
@@ -630,6 +634,8 @@
           href: copilot-enable-help-pane.md
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
+      - name: Enable case summaries through ask a question (preview)
+        href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: enable-copilot-plugins-for-generative-ai.md
       - name: Enable Copilot to create knowledge from cases

@@ -35,7 +35,8 @@ The social profiles are supported for the following channels.
 | Facebook           | Yes                                                                 | User name |
 | LINE               | Yes                                                                 | Display name |
 | WeChat             | Yes                                                                 | Visitor |
-| WhatsApp           | Yes                                                                 | Phone number |
+| WhatsApp with Twilio          | Yes                                                                 | Phone number |
+| WhatsApp through Azure Communication Services          | Yes                                                                 | Phone number |
 | Custom messaging (Telegram) | Yes                                                        | User name |
 
 ## View social profiles

@@ -184,7 +184,7 @@ additionalContent:
     items:
         # Card
         
-        - title: Microsoft Copilot for Sales
+        - title: Microsoft 365 Copilot for Sales
           summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
         - title: Customer Insights

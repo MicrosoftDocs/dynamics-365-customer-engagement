@@ -1,7 +1,7 @@
 ---
-title: "Sign in to Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Use this topic to understand how to sign in to Omnichannel for Customer Service app."
-ms.date: 07/01/2019
+title: Sign in to Omnichannel for Customer Service app
+description: Use this topic to understand how to sign in to Omnichannel for Customer Service app.
+ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,6 +10,10 @@ ms.author: nenellim
 # Sign in to Omnichannel for Customer Service
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+> [!IMPORTANT]
+> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-will-be-removed-in-june-2024).
+
 
 ## Sign in to Omnichannel for Customer Service
 
