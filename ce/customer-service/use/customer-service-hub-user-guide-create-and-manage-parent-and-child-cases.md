@@ -50,7 +50,7 @@ You can set a parent-child relationship between cases where you can set one case
 3. On the command bar, select **Associate Child Cases**. The **Set Parent Child Relationship** dialog box appears.
 4. In the list, select the case that you want to set as parent, and then select **Set**.  
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)

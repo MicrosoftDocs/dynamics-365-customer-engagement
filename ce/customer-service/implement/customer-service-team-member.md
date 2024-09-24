@@ -85,7 +85,7 @@ In the Customer Service Team Member app, you can perform the following tasks:
 
 12. If you want to close a case after it has been resolved, you can select the case on the **Active Cases created by me** page and click **Close Case**. Alternatively, you can close the case on the **My Case** page.
 
-### See also
+### Related information
 
 [Dynamics 365 Team Members license](/dynamics365/get-started/team-members-license)  
 

@@ -52,7 +52,7 @@ Perform the following steps to enable the incoming conversations to be assigned 
 
 5. Select **Save**.
 
-### See also
+### Related information
 
 [Manage notification templates](notification-templates.md)  
 [View notifications](../use/oc-notifications.md)  

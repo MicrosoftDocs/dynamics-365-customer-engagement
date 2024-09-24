@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: Update work orders with the help of Copilot in Dynamics 365 Field Service.
-ms.date: 06/05/2023
+ms.date: 08/16/2024
 ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker
@@ -29,7 +29,7 @@ The work order update feature adheres to [responsible AI guidelines](faqs-work-o
 
 - You must [update your environment](update-field-service.md) at least to the latest 2023 wave 2 build.
 
-- You [enabled the new mobile experience](mobile-powerapp-newux-overview.md).
+- You [enabled the new mobile experience](mobile/set-up-field-service-mobile.md).
 
 ## Enable Copilot to update work order
 

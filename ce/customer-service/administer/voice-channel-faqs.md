@@ -165,7 +165,7 @@ No, overflow settings aren't applicable to fallback queues. The settings are ign
 
 Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  

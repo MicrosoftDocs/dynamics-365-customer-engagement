@@ -10,7 +10,7 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e97477d2-5509-9f5e-76e0-e0039b2e72c8
 author: nhelgren
-ms.author: kabala
+ms.author: jdaly
 topic-status: Drafting
 search.audienceType: 
   - developer

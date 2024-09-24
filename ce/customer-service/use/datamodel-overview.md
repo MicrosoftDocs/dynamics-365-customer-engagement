@@ -97,7 +97,7 @@ You can choose to specify the same workspace for both historical and real-time a
 > [!NOTE]
 > Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
 
-## See also
+## Related information
 [Dataverse entities used in historical and real-time analytics](dataverse-entities.md#dataverse-entities-used-in-historical-and-real-time-analytics)  
 [Customize data models of historical and real-time analytics reports](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports)  
 [Customize visual display](customize-reports.md#customize-visual-display)

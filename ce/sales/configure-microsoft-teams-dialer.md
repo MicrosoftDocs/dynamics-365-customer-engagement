@@ -159,7 +159,7 @@ Additionally, you must grant the following permissions to your users:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Microsoft Teams integration](../teams-integration/teams-integration.md)  
 [Call using Microsoft Teams](call-using-microsoft-teams.md)  

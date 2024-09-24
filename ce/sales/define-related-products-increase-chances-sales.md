@@ -77,7 +77,7 @@ A related product could be an accessory, cross-sell, substitute, or up-sell. For
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Create a product family](create-product-family.md)
 
 

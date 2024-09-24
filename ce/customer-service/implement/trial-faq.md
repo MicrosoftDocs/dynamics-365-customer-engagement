@@ -99,7 +99,7 @@ For the list of geographical regions supported in Omnichannel for Customer Servi
 
 For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
 
-### See also
+### Related information
 
 [Try Customer Service](try-customer-service.md)  
 [Overview of Customer Service workspace](csw-overview.md)  

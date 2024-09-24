@@ -109,7 +109,7 @@ Escalation rules allow you to create rules for the bot to escalate the queries t
 
 You understand that your data may be transmitted and shared with external systems, and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the bot, which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-### See also
+### Related information
 
 [Overview of bots](overview-bots.md)   
 [Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  

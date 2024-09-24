@@ -1,10 +1,10 @@
 ---
 title: Use Teams mobile to annotate in a user's environment (preview)
 description: Use Microsoft Teams mobile to annotate in a Dynamics 365 Field Service environment.
-author:  annitachow
+author:  prashantyvr
 ms.date: 04/16/2024
 ms.topic: how-to
-ms.author: anchow
+ms.author: prashan
 ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---

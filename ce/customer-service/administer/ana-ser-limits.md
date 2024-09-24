@@ -40,6 +40,6 @@ For information on the service protection limits for AI suggestions, see [Enable
 
 If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
-## See also
+## Related information
 
 [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights)

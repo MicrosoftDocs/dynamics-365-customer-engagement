@@ -41,7 +41,7 @@ A high-level overview of unified routing with email records is as follows.
 > [!NOTE]
 > You must ensure that the agent capacity is released after the agent completes their work on the email record. More information: [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Enable unified routing](provision-unified-routing.md)  

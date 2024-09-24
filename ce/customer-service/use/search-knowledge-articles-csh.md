@@ -250,7 +250,7 @@ In Customer Service workspace or Contact Center workspace, you can view recently
 
 In Customer Service Hub, select the standalone search to see the recently accessed knowledge articles across cases. You can review and use the search results across similar cases without searching for any keywords.
 
-### See also
+### Related information
 
 [Configure knowledge management](../administer/set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management)
 

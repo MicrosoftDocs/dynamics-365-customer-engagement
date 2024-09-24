@@ -2,11 +2,13 @@
 title: Configure relationship analytics and health
 description: Configure relationship analytics to help sales teams monitor customer relationship health and risks in Dynamics 365 Sales.
 ms.date: 07/25/2024
-ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Configure relationship analytics and health
@@ -76,7 +78,7 @@ For more information about how to view the analytics, see [Use relationship anal
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md)  

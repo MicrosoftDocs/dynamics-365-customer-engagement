@@ -40,7 +40,7 @@ When the prediction fails, an alert icon is displayed corresponding to the **Pre
 > [!div class="mx-imgBorder"]
 > ![Erroneous prediction model](media/predictive-forecasting-erroneous-model-creation.png "Erroneous prediction model")
 
-### See also
+## Related information
 
 [Premium forecasting](configure-premium-forecasting.md)
 

@@ -39,7 +39,7 @@ A *campaign* in Dynamics 365 is designed to accomplish a specific result, such a
 |Tables|Use the campaign (`Campaign`) entity, the campaign activity (`CampaignActivity`) entity and the campaign response (`CampaignResponse`) entity to distribute a campaign.|Use the bulk operation (quick campaign) (`BulkOperation`) entity and the bulk operation log (quick campaign log) (`BulkOperationLog`) entity to distribute a quick campaign.|  
 |Distribute Activities|Use the <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest> message to distribute a campaign activity (`CampaignActivity`) to the members of a marketing list.|Use the <xref:Microsoft.Crm.Sdk.Messages.PropagateByExpressionRequest> message to distribute an activity, such as email or fax, to the accounts, contacts, or leads selected by the query.<br /><br /> Use the <xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest> message to distribute an activity, such as email or fax, to the members of a marketing list.|  
   
-### See also  
+## Related information  
 
  [BulkOperation Table](entities/bulkoperation.md)    
  [Campaign Table](entities/campaign.md)   

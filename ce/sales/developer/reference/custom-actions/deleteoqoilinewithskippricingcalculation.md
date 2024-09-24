@@ -52,7 +52,7 @@ var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQO
 
 ```
 
-### See also
+## Related information
 
 [msdyn_ForecastApi](msdyn_ForecastApi.md)
 

@@ -20,6 +20,6 @@ To enhance the user experience and promote easy readability, use the data tags m
 
 The suggested actions feature is now supported in Microsoft Teams with other asynchronous chat channels.
 
-### See also
+### Related information
 
 [Integrate Copilot Studio bot](../administer/configure-bot-virtual-agent.md)  

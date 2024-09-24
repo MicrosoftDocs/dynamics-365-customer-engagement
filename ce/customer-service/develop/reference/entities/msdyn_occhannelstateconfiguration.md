@@ -620,7 +620,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_occhannelconfiguration Entity [msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid](msdyn_occhannelconfiguration.md#BKMK_msdyn_msdyn_occhannelconfiguration_msdyn_occhannelstateconfiguration_occhannelconfigurationid) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

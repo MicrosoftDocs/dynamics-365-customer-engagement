@@ -173,7 +173,7 @@ The filter is hidden from your list.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure sales accelerator settings for sellers to personalize](customize-sales-accelerator-sellers.md)  
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)   

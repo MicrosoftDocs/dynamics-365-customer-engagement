@@ -69,6 +69,6 @@ Perform the following steps:
 
    :::image type="content" source="../media/edit-grid-type-assoc-mini.png" alt-text="Add an alternate grid control" lightbox="../media/edit-grid-type-assoc.png":::
 
-## See also
+## Related information
 
 [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview)  

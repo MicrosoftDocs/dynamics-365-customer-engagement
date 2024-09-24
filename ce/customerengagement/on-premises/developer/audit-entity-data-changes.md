@@ -12,7 +12,7 @@ applies_to:
 helpviewer_keywords:
   - auditing entity data changes in Microsoft Dynamics CRM, introduction
 author: Bluebear7
-ms.author: munzinge
+ms.author: jdaly
 search.audienceType:
   - developer
 ---
@@ -29,7 +29,7 @@ Organizations often need to be in compliance with various regulations to ensure 
 
 ## Configure entities and attributes for auditing
 
-There are three levels where auditing can be configured: organization, entity, and attribute. The organization level is the highest level, followed by the entity level, and finally the attribute level. For attribute auditing to take place, auditing must be enabled at the attribute, entity, and organization levels. For entity auditing to take place, auditing must be enabled at the entity and organization levels. To learn more, see [Configure Entities and Attributes for Auditing](/powerapps/developer/common-data-service/configure-entities-attributes-auditing) in the Dataverse documentation.
+There are three levels where auditing can be configured: organization, entity, and attribute. The organization level is the highest level, followed by the entity level, and finally the attribute level. For attribute auditing to take place, auditing must be enabled at the attribute, entity, and organization levels. For entity auditing to take place, auditing must be enabled at the entity and organization levels. To learn more, see [Configure Entities and Attributes for Auditing](/power-platform/admin/manage-dataverse-auditing) in the Dataverse documentation.
 
 ## Retrieve and delete history of audited data changes
 

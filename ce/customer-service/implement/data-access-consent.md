@@ -103,7 +103,7 @@ These four principals don't interact with each other. 
 
 The “Omnichannel for Customer Service” application. This app has Dataverse permissions that are used to read data from Dataverse and write data to Dataverse for Omnichannel service for the unified routing capability of classification and assignment.
 
-### See also
+### Related information
 
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)  

@@ -65,7 +65,7 @@ Perform the following steps to enable auto-generated summary for Microsoft Teams
 :::image type="content" source="../media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings for Teams conversations.":::
 
 
-### See also
+### Related information
 
 [View and share an AI-generated conversation summary in Teams](../use/cs-ai-generated-summary.md)<br>
 [Overview of Customer Service workspace](../implement/csw-overview.md)  

@@ -20,7 +20,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 
 ## Install the voice channel
 
-1. Perform the steps outlined in [Set up Omnichannel for Customer Service](../implement/omnichannel-provision-license.md#set-up-omnichannel).
+1. Perform the steps outlined in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 
 1. In the **Voice** section, set the **Add voice** toggle to **Yes** to enable the voice channel. Ensure that you select the **Voice and SMS Terms** checkbox.
 
@@ -34,7 +34,7 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Voice 
 > The voice channel supports a maximum call duration of two hours, after which the call is disconnected. As a workaround, we recommend that you activate the callback feature.
 
 
-### See also
+### Related information
 
 [System requirements for using the voice channel](../implement/system-requirements-omnichannel.md)  
 [Set up inbound calling](../voice-channel-route-queues.md)  

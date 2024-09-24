@@ -31,7 +31,7 @@ To protect an agent's privacy, you can configure your chat widget to display eit
 
 1. Select **Save**.
 
-### See also
+### Related information
 
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>
 [Configure file attachment capability](configure-file-attachment.md)<br>

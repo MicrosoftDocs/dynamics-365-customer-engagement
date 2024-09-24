@@ -176,7 +176,7 @@ For more such customization examples, see [Override save, update, and load event
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)

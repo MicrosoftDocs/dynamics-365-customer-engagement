@@ -21,7 +21,7 @@ You can import phone numbers that you purchased or acquired earlier via Azure Co
 
    After you perform the sync, all the phone numbers that were acquired previously are listed on the **Phone numbers** page with the numbers that have been acquired in Omnichannel for Customer Service.
 
-### See also
+### Related information
  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [Connect to Azure Communication Services](voice-channel-acs-resource.md)  

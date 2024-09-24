@@ -261,6 +261,6 @@ Make sure you've set your status as **Available** in Twilio and place a call to 
 Once you answer the call and start recording, navigate to the **Transcript** tab to view real-time transcription and then view call insights in the **Call Summary** page after the call ends.
 
 
-### See also
+## Related information
 
 [View and understand the call summary page](view-and-understand-call-summary-sales-app.md)

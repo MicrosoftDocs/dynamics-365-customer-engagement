@@ -82,8 +82,6 @@ More information:
 
       1. Copy the **Application ID** to the clipboard.
 
-        ![Copy the application ID.](../media/copy-app-id.png)
-
    1. Return to Copilot Studio, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
 
     :::image type="content" source="../media/pva-omnichannel-bot-configuration.png" alt-text="Copilot Studio bot for Omnichannel for Customer Service":::
@@ -93,7 +91,7 @@ More information:
 > [!IMPORTANT]  
 > In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Configure context variables](context-variables-for-bot.md)  

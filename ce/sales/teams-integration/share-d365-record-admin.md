@@ -58,15 +58,13 @@ It's important to become familiar with the feature to understand the nuances of 
 
 2. [Access and sign in to the Dynamics 365 app for Teams](access-d365-app.md#access-the-dynamics-365-app)
 
-3. [Set up the Dynamics 365 app for Teams](access-d365-app.md#set-up-the-dynamics-365-app) 
+3. [Share a record in a Teams chat and channel by pasting its URL](share-dynamics-records-in-teams.md#share-a-record-through-url)
 
-4. [Share a record in a Teams chat and channel by pasting its URL](share-dynamics-records-in-teams.md#share-a-record-through-url)
+4. [Share a Dynamics 365 record through search](share-dynamics-records-in-teams.md#share-a-dynamics-365-record-through-search)
 
-5. [Share a Dynamics 365 record through search](share-dynamics-records-in-teams.md#share-a-dynamics-365-record-through-search)
+5. [View and update record details](view-update-dynamics-records.md)
 
-6. [View and update record details](view-update-dynamics-records.md)
-
-7. [Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)
+6. [Add chat messages to Dynamics 365 as notes or tasks](add-chat-d365.md)
 
 
 ## How is the information displayed in the interactive card?
@@ -146,8 +144,6 @@ After you create a custom policy and assign it to users, you must encourage your
 
 :::image type="content" source="media/sign-in-msg.png" alt-text="Sign in to Dynamics 365 app":::
 
-For information on how to sign in to the Dynamics 365 app, see [Sign in and set up the Dynamics 365 app for Teams](access-d365-app.md#set-up-the-dynamics-365-app).
-
 ## Disable autoinstall of Dynamics 365 app for Teams
 
 The installation of the Dynamics 365 app can be disabled from Power Platform admin center or Microsoft Teams admin center.
@@ -176,6 +172,6 @@ Microsoft Teams admin center allows you to disable the autoinstallation of the D
 
     :::image type="content" source="media/auto-install-d365-teams-admin.png" alt-text="Disbale auto-install from Teams admin center":::
 
-### See also
+## Related information
 
 [Share and update Dynamics 365 records within Microsoft Teams conversations](share-d365-record-overview.md)   

@@ -196,7 +196,7 @@ The email will be sent to all the recipients you specify. You can verify that th
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and manage sequences](create-manage-sequences.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  

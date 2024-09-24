@@ -114,7 +114,7 @@ Let us take the preceding example to learn how to resolve the error.
 
 5. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
 
-## See also
+## Related information
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 

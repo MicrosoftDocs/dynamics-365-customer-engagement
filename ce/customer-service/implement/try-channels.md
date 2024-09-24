@@ -1,6 +1,6 @@
 ---
-title: Try channels in Omnichannel for Customer Service
-description: Learn how you can try channels in Omnichannel for Customer Service to connect and engage with your customers in real time.
+title: Try channels
+description: Learn how you can try channels in Customer Service to connect and engage with your customers in real time.
 ms.date: 11/28/2023
 ms.topic: how-to
 author: neeranelli
@@ -10,17 +10,17 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Try channels in Omnichannel for Customer Service
+# Try channels 
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Channels, like Live Chat, voice, and SMS, are engagement channels that let your agents connect with customers in real time and provide quick personalized help.
 
-You can perform the following steps to try channels in Omnichannel for Customer Service:
+You can perform the following steps to try channels in Customer Service:
 
 1. Sign up for a free 30-day trial of channels through Microsoft 365 admin center.
 
-1. Provision Omnichannel for Customer Service.
+1. [Provision channels](#provision-channels-in-your-organization).
 
 
 ## Channels trial through Microsoft 365 admin center
@@ -75,11 +75,10 @@ For information about the Digital Messaging license, pricing, and prerequisites,
 
 ## Provision channels in your organization
 
-Perform the tasks in [Provision Omnichannel for Customer Service](omnichannel-provision-license.md) to set up Omnichannel for Customer Service and enable Chat, SMS, social, and voice channels in your organization.
+Perform the tasks in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) to enable Chat, SMS, social, and voice channels in your organization.
 
-After a channel is enabled in your organization, you can sign in to the Dynamics 365 organization and select the Customer Service admin center app to start configuring the channel. 
 
-See the following articles to configure channels in Omnichannel for Customer Service:
+To configure the following channels, perform the steps provided in:
 
 - [Configure the chat channel](../administer/set-up-chat-widget.md)
 - [Configure the SMS channel](../administer/configure-sms-channel.md)
@@ -103,9 +102,9 @@ If you already have a subscription of Dynamics 365 Customer Service Enterprise o
 
 To view videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
-[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Configure a chat channel](../administer/set-up-chat-widget.md)  
 [Configure an SMS channel](../administer/configure-sms-channel.md)  
 [Configure a Facebook channel](../administer/configure-facebook-channel.md)  

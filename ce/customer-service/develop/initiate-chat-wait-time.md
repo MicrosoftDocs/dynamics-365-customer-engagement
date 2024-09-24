@@ -55,7 +55,7 @@ To use a custom chat button instead of the out-of-the-box chat button, add the a
 
 `<script id="Microsoft_Omnichannel_LCWidget" src="<valid-src>" data-app-id="<valid-app-id>" data-org-id="<valid-org-id>" data-org-url="<valid-org-url>" data-hide-chat-button="true"></script>`  
 
-### See also
+### Related information
 
 [startChat](reference/methods/startchat.md)  
 [JavaScript API reference for Live Chat SDK](omnichannel-reference.md)  

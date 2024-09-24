@@ -81,7 +81,7 @@ The email control is added to the email address field. Ensure that the email val
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable email validation](enable-email-validation.md)  
 [Work with invalid email addresses](work-invalid-email-addresses.md)

@@ -90,7 +90,7 @@ The following code snippet includes a sample command definition to close the quo
 ```
 
 
-### See also
+## Related information
 
 - [Customize commands and the ribbon](/power-apps/developer/model-driven-apps/customize-commands-ribbon)
 - [Export ribbon definitions](/power-apps/developer/model-driven-apps/export-ribbon-definitions)

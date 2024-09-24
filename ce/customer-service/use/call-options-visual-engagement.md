@@ -128,7 +128,7 @@ When you enter a screen sharing session, you can:
 
 The customer experience will vary depending upon the co-browse or screen share provider selected by your administrator.
 
-## See also
+## Related information
 
 [Add a chat widget](../administer/add-chat-widget.md)
 

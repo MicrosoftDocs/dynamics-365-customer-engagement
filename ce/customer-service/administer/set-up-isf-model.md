@@ -120,7 +120,7 @@ Perform the following steps to upload the data for training your model:
 5. Optionally, you can select **Refresh** to see the updated status of the data upload.
 6. Perform steps 5 through 8 in [Create skill finder models](#create-skill-finder-models) to approve, train, and publish your model.
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  

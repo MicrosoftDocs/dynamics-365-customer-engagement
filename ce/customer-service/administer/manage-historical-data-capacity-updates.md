@@ -20,6 +20,6 @@ The history of updates to your agents' capacity profiles is stored in [Dataver
 > [!CAUTION]
 > Deleted data can't be recovered. We recommend that you verify the data isn't required before you delete it.
 
-### See also
+### Related information
 
 [Manage capacity profiles](capacity-profiles.md)  

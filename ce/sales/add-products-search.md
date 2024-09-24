@@ -1,7 +1,7 @@
 ---
 title: How the search works on Add Products dialog
 description: Learn how the search works on the Add Products dialog while adding products to an opportunity, quote, order, or invoice.
-ms.date: 08/09/2023
+ms.date: 09/05/2024
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +20,7 @@ When you search for a product in the enhanced Add Products dialog while adding p
 - Both parts are displayed separately and are ordered alphabetically by the **Product Name** field. 
 
 
-## See also
+## Related information
 
 - [Find and add multiple products to quotes, orders, or invoices](add-products-qoi-enhanced.md)  
 - [Find and add multiple products to an opportunity](add-products-enhanced-experience.md)

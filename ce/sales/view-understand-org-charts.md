@@ -85,7 +85,7 @@ The note is added to the contact with information about the author and the time 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Organization charts](organization-charts.md)  
 [Manage org charts](manage-org-charts.md)

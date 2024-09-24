@@ -51,7 +51,7 @@ When you go to **Sales** > **LinkedIn Lead Gen** > **Sync Status**, you'll find 
 
 If you want to synchronize the LinkedIn data retroactively after migrating to a newly created Dynamics 365 organization, you can trigger an optional, on-demand sync of all data from [!include[LinkedIn](../includes/pn-linkedin.md)] by selecting **Reset Synchronization**. This will pull all lead data from LinkedIn again. We don't recommend this action if you already have a working synchronization set up because the matching will fail for all leads that were matched earlier. Additionally, it can take a long time to complete as it's syncing all leads again and thus shouldn't be used frequently.  
 
-### See also
+## Related information
 
 [How to sync LinkedIn leads by using Dynamics 365 Connector for LinkedIn Lead Gen Forms](sync-linkedin-leads.md)  
 [Install Dynamics 365 Connector for LinkedIn Lead Gen Forms from AppSource](install-linkedin-connector.md)

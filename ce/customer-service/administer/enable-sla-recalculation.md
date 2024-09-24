@@ -39,7 +39,7 @@ You can enable the recalculation of SLAs that reach the terminal status in the C
     :::image type="content" source="../media/sla-recalculate.png" alt-text="Enable recalculate SLA on reaching terminal status.":::
 
 
-### See also
+### Related information
 
 [Define service-level agreements](define-service-level-agreements.md)  
 [Apply SLAs](apply-slas.md#apply-slas) 

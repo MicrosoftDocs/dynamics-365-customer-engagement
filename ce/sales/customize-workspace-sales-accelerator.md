@@ -264,7 +264,7 @@ The work list in the sales accelerator helps sellers to prioritize their time an
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Configure the sales accelerator](enable-configure-sales-accelerator.md)  

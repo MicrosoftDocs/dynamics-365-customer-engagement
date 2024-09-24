@@ -45,7 +45,7 @@ The rules that you can run in the agent app are specific to your permissions.
 1. Select **Download Report**. The report details are available in a text file that you can share with the administrator.
 1. Optionally, run the rule again after the administrator resolves the issue to make sure that no further issues are present.
 
-### See also
+### Related information
 
 [View the communication panel for conversations](oc-conversation-control.md)  
 [Get started with Customer Service workspace](../implement/csw-overview.md)  

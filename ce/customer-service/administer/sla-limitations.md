@@ -1,7 +1,7 @@
 ---
 title: SLA limitations
 description: Learn the limitations of service-level agreements in Dynamics 365 Customer Service.
-ms.date: 10/12/2023
+ms.date: 09/04/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,7 +22,7 @@ The following limitations apply to SLAs created in Unified Interface apps:
 - The **Applicable When** and **Success Conditions** don't work as expected if they're configured for related entities.
 
     - The **Applicable When** conditions, if defined on the related entity, work only the first time the conditions are met, and the KPI instance is set to **In Progress**. After that, any update to the related entity won't cancel the existing KPI instance if the conditions of the same SLA item are false. The update doesn't create a new KPI instance if there's a change in the SLA item.
-    - The **Success Conditions** defined on the related entity will never be true and the KPI instance once set to **In Progress** will never succeed, even if conditions are met. It continues to be in **In Progress**, **Nearing NonCompliance**, or **Noncompliant** status.
+    - The **Success Conditions** defined on the related entity won't ever be true and the KPI instance once set to **In Progress** won't succeed, even if conditions are met. It continues to be in **In Progress**, **Nearing NonCompliance**, or **Noncompliant** status.
 
     To use related entities, you can add the related attribute values to the parent entity.
     
@@ -36,7 +36,7 @@ The following limitations apply to SLAs created in Unified Interface apps:
 - You can’t manually update SLA time.
 - If you're migrating more than 1000 SLAs, they might not pass the premigration checkup that processes all legacy SLAs. You can use the **&flags=FCB.SkipPreMigrationCheckUp=true** flag in the URL to skip the premigration checkup. To access the URL, go to **Miscellaneous** **>** **ARC and SLA migration** in the Customer Service admin center site map.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

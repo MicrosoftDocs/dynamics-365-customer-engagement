@@ -1,7 +1,7 @@
 ---
-title: "Manage cases with case grids | MicrosoftDocs"
-description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 07/03/2023
+title: Manage cases with case grids 
+description: Learn how to work with case grids and increase agent productivity.
+ms.date: 08/01/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -24,11 +24,11 @@ To be able to view the modernized case grids, your administrator must enable the
 
 > [!NOTE]
 > - If your administrator has enabled early access features, you'll see the following by default:
->     - The **Enhanced Active Cases** view with additional fields such as, **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**. 
+>     - The **Enhanced Active Cases** view with additional fields, **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**. 
 >     - Color coded icons for **Priority** and the **Origin** channels, avatars for **Owner** appear in all the case views.
 > - Enabling the **Enhanced Active Cases** view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
 
-   :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
+>    :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
 
 The following table explains the enhancements to the **Enhanced Active Cases** view columns when you enable the **Power Apps grid control**, compared with other grids, such as the **Read Only Grid**.
 
@@ -78,7 +78,7 @@ You can also add columns to your existing views. For example, if you want to add
 1.	Select **Last Interaction**, and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
 1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.
 
-### See also
+### Related information
 
 [Enable case grids](../administer/enable-case-grids.md)
 [Enable entities for service-level agreements](../administer/enable-entities-service-level-agreements.md)  

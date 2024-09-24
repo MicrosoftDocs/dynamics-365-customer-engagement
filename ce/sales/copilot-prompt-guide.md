@@ -33,7 +33,7 @@ The prompt guide in Copilot in Dynamics 365 Sales provides predefined prompts th
 | **Stay ahead** > **Show emails that need follow up** | Get a list of emails that you haven't replied to. | [Show emails that need followup](copilot-stay-ahead.md#display-unanswered-emails) |
 | **Stay ahead** > **Give me all the opportunities that i have not contacted in the last 20 days** | Lists opportunities that have not been contacted or followed up within the last 20 days. | Prompt in natural language. For a list of sample prompts in natural language, see questions related to [sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data) and [sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology) |
 
-## See also
+## Related information
 
 - [Copilot in Dynamics 365 Sales overview](copilot-overview.md)
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)

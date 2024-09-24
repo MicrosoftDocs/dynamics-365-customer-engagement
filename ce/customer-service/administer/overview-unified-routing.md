@@ -63,7 +63,7 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 > [!NOTE]
 > Unified routing is not supported in Unified Service Desk.
 
-### See also
+### Related information
 
 [How routing and assignment works](set-up-routing-process.md)  
 [Create workstreams for unified routing](create-workstreams.md)  

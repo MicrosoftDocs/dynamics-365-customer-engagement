@@ -53,7 +53,7 @@ If you add, edit, or delete notes in the side panel, your changes are synced wit
 1. In the **Notes** section, hover over the note, and then select :::image type="icon" source="./media/tmi-delete-icon.png" border="false":::.
 1. In the confirmation message, select **Delete**.
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

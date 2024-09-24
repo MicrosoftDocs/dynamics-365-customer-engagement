@@ -1,7 +1,7 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels.
-ms.date: 07/01/2024
+ms.date: 08/30/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
@@ -36,7 +36,7 @@ The markdown element for adaptive cards is partially supported across all chat c
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-The Apple Messages for Business, Google's Business Messages, SMS, WhatsApp, and WeChat social channels don't support any cards listed in the preceding table.
+The Apple Messages for Business, SMS, WhatsApp, and WeChat social channels don't support any cards listed in the preceding table.
 
 For more information, see the following article: [Send and Receive Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
 
@@ -52,7 +52,6 @@ Suggested actions are supported fully with the exception that some channels migh
 | Microsoft Teams                | No                              |
 | Apple Messages for Business    | No                              |
 | Facebook                       | Yes                             |
-| Google's Business Messages     | No                              |
 | LINE                           | Yes                             |
 | WeChat                         | No                              |
 | WhatsApp                       | No                              |
@@ -69,10 +68,10 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Microsoft Teams      | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx  | 
 | Apple Messages for Business | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF.<br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .caf, .pkpass, .usdz |
 | Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
-| Google's Business Messages | Image | Image has preview. Audio, video, document only receive a link.<br><br> Allowed file extentions: .jpg, .jpeg, .png, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 | LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif | 
 | WeChat               | Image, Audio, and Video                        | Image, Audio, and Video <br><br> Allowed file extensions: .jpg, .jpeg, .png, .amr, .mp4 |
-| WhatsApp             | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
+| WhatsApp (Twilio)            | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
+| WhatsApp (Azure Communication Services)         | Image, Audio, Video, pdf, and GIF   <br><br> Allowed file extensions: .xls,.pdf, .docx, .gif, .wav, .mp3, .ogg, .mp4, .avi, .txt, .webp. and.jpg                | Image files <br><br> Allowed file extensions: .jpg, .png |
 | SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF   <br><br> Allowed file extensions: .jpg, .jpeg, .gif, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .csv |
 | Custom messaging (Telegram)    | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif |
 | Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
@@ -92,10 +91,10 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Microsoft Teams    | Yes. Emoji in PNG format                                            |
 | Apple Messages for Business | Yes. Emoji in text like “😀”                              |
 | Facebook           | Yes. Emoji in text like “😀”                                       |
-| Google's Business Messages | Yes. Emoji in text like “😀”                               |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
 | WeChat             | Yes. When an emoji is sent, the recipient sees characters like :-) |
-| WhatsApp           | Not supported.                                                      |
+| WhatsApp (Twilio)           | Not supported.                                                      |
+| WhatsApp  (Azure Communication Services)       | Yes. Emoji in text like “😀”                                                       |
 | SMS (Twilio)       | Yes. Emoji in text like “😀”                                       |
 | Custom messaging (Telegram) | Yes. Emoji in text like “😀”                              |
 | Custom messaging (Direct Line) | Yes. Emoji in text like “😀”                           |
@@ -110,10 +109,9 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Microsoft Teams    | Not supported.                                                      |
 | Apple Messages for Business | Not supported.                                             |
 | Facebook           | Yes, as a PNG image.                                                |
-| Google's Business Messages | Not supported.                                              |
 | LINE               | Not supported. Recipient sees "Sticker" text.                       |
 | WeChat             | Not supported. Recipient sees "Unsupported message" text.           |
-| WhatsApp           | Not supported.                                                      |
+| WhatsApp (Twilio and Azure Communication Sevices)           | Not supported.                                                      |
 | Custom messaging (Telegram) | Not supported.                                             |
 | Custom messaging (Direct Line) | Yes, as sticker image.                                  |
 
@@ -126,23 +124,25 @@ Agents can use basic formatting capabilities in their outbound messages across b
 
 The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, Telegram, and custom channels that use Direct Line.
 
-| Style                | Live chat  | Microsoft Teams | Facebook | Google's Messages for Business | WhatsApp | Custom messaging (Telegram)| Custom messaging (Direct Line) |
-|----------------------| ---------- | -------------   | -------- |------------------------------- |---------|------------------          |------------------------------  |
-| bold                 | ✔          | ✔              | ✔        |✔                               |✔       | ✔                          | ✔                             |
-| italics              | ✔          | ✔              | ✔        |✔                               |✔       | ✔                          | ✔                             |
-| strikethrough        | ✔          | ✔              | ✔        |✖                               |✔       | ✔                          | ✔                             |
-| blockquote           | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
-| monospace            | ✔          | ✔              | ✔        |✖                               |✔       | ✔                          | ✔                             |
-| hyperlink with text  | ✔          | ✔              | ✖        |✖                               |✖       | ✔                          | ✔                             |
-| hyperlink            | ✔          | ✔              | ✔        |✔                               |✔       | ✔                          | ✔                             |
-| new line             | ✔          | ✔              | ✔        |✖                               |✔       | ✔                          | ✔                             |
-| headers              | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
-| numbered list        | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
-| unordered list       | ✔          | ✔              | ✖        |✖                               |✖       | ✖                          | ✔                             |
+| Style                | Live chat  | Microsoft Teams | Facebook  | WhatsApp (Twilio) | WhatsApp (Azure Communication Services)| Custom messaging (Telegram)| Custom messaging (Direct Line) |
+|----------------------| ---------- | -------------   | -------- |---------|------------------          |------------------------------  |
+| bold                 | ✔          | ✔              | ✔        |✔       |✔       | ✔                          | ✔                             |
+| italics              | ✔          | ✔              | ✔        |✔       |✔       | ✔                          | ✔                             |
+| strikethrough        | ✔          | ✔              | ✔        |✔       |✔       | ✔                          | ✔                             |
+| blockquote           | ✔          | ✔              | ✖        |✖       |✖       | ✖                          | ✔                             |
+| monospace            | ✔          | ✔              | ✔        |✔       |✖       | ✔                          | ✔                             |
+| hyperlink with text  | ✔          | ✔              | ✖        |✖       |✖       | ✔                          | ✔                             |
+| hyperlink            | ✔          | ✔              | ✔        |✔       |✖       | ✔                          | ✔                             |
+| new line             | ✔          | ✔              | ✔        |✔       | ✖       |✔                          | ✔                             |
+| headers              | ✔          | ✔              | ✖        |✖       |✖       | ✖                          | ✔                             |
+| numbered list        | ✔          | ✔              | ✖        |✖       | ✖       |✖                          | ✔                             |
+| unordered list       | ✔          | ✔              | ✖        |✖       |✖       | ✖                          | ✔                             |
 
 > [!NOTE]
 > - Apple Messages for Business, WeChat, and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
+> - [Rich messages](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages) are not supported in WhatsApp channel through Azure Communication Services.
+
 
 
 ## Next steps
@@ -150,7 +150,7 @@ The following table lists the text styles supported by Microsoft Teams, Facebook
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Configure custom messaging channel](configure-custom-channel.md)  
 
-### See also
+### Related information
 
 [Overview of channels](../use/channels.md)  
 [Enable file attachments](enable-file-attachments.md)  

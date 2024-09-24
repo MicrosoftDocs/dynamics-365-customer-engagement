@@ -250,8 +250,6 @@
           href: sms-telesign-twilio.md
         - name: Use Facebook channel
           href: facebook.md
-        - name: Use Google's Business Messages channel
-          href: google-business-messages.md
         - name: Use WhatsApp channel
           href: whatsapp.md
         - name: Use Microsoft Teams channel

@@ -90,7 +90,7 @@ Here are the actions you can take on the products in the Products grid:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Create or edit a quote](../sales-enterprise/create-edit-quote-sales.md)  
  [Create or edit an order](../sales-enterprise/create-edit-order-sales.md)  
  [Create or edit an invoice](../sales-enterprise/create-edit-invoice-sales.md)  

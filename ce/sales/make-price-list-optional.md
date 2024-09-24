@@ -50,6 +50,8 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 # [Sales Professional](#tab/SP)
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+     > [!NOTE]
+     > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     The Business Management settings page opens in a new browser tab.
 
@@ -66,9 +68,10 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 [Add products to an opportunity](add-products-opportunity.md)  
 [Add products to a quote, order, or invoice](add-product-quote-order-invoice.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

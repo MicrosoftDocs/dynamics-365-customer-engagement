@@ -110,7 +110,7 @@ After a forecast is activated, you can use the msdyn_ForecastApi custom action t
 > [!div class="nextstepaction"] 
 > [Previous step: Configure advanced settings](forecast-configure-advanced-settings.md)
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [msdyn_ForecastApi](../sales-enterprise/developer/reference/custom-actions/msdyn_ForecastApi.md)

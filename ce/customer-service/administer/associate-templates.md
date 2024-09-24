@@ -32,7 +32,7 @@ After you create a workstream, you can modify the default templates that are att
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

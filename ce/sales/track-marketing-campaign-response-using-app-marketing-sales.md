@@ -56,7 +56,7 @@ Set the **Create campaign responses for incoming email** option to **Yes** on th
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also
+## Related information
 
 [System Settings dialog box - Marketing tab](/power-platform/admin/system-settings-dialog-box-marketing-tab)   
 [Get started with in-app marketing](get-started-app-marketing-sales.md)   

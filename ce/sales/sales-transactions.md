@@ -49,7 +49,7 @@ The **Use Current Pricing** price comes directly from the product catalog. If yo
 
 **Prices Locked** locks the price for a product in an open order or invoice. Even if the price changes in the product catalog, that order or invoice remains at the agreed price.
 
-### See also
+## Related information
 
 [Create or edit quotes](create-edit-quote-sales.md)  
 [Create or edit orders](create-edit-order-sales.md)  

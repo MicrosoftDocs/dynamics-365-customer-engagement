@@ -26,17 +26,17 @@ To do this, install the Dynamics 365 for phones or tablets mobile app on your iO
   
 ## Supported devices for the mobile app
 
-  
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|----------------|
-|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)     
-|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
-                
+|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)  |   
+|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    | 
+
  
 ## Supported device for Microsoft Dynamics 365 (Preview) 
+
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|----------------|
-|       [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)       | 10 |     1 GB (4 GB recommended)     
+|       [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)       | 10 |     1 GB (4 GB recommended)   |  
 
   
   
@@ -57,9 +57,9 @@ For full functionality and optimized experience, we strongly recommend that you 
   
 |                              Platform                              |   Versions    | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|------------------------------------|
-|       Apple iPad      | iOS 14 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
-|     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |                                  |
-| Windows tablet or PC |      10       |     1366 x 768 resolution (720p)
+|       Apple iPad      | iOS 14 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |           
+|     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |         
+| Windows tablet or PC |      10       |     1366 x 768 resolution (720p) |
         
 
   

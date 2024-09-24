@@ -172,7 +172,7 @@ This event contains data in the payload to explain the source of the message.
 window.addEventListener("lcw:onMessageReceived", function handleWidgetMessageReceivedEvent(payload){ // Handle the live chat widget message sent event });
 ```
 
-### See also
+### Related information
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  

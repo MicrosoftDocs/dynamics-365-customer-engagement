@@ -1,7 +1,7 @@
 ---
 title: How Connected Field Service with IoT Hub works
-description: Learn about the architecture and data flow of Connected Field Service with IoT Hub, a solution that combines Azure IoT and Dynamics 365 Field Service to help you provide proactive and predictive maintenance of your equipment.
-ms.date: 06/21/2023
+description: Learn about the architecture and data flow of Connected Field Service with IoT Hub, a solution that combines Azure IoT and Dynamics 365 Field Service.
+ms.date: 08/08/2024
 ms.subservice: connected-field-service
 ms.author: vhorvath
 author: vhorvathms
@@ -15,11 +15,11 @@ ms.custom:
 
 # How Connected Field Service with IoT Hub works
 
-Connected Field Service with IoT Hub is a solution that integrates [Azure IoT](/azure/iot) and Dynamics 365 Field Service. It lets you monitor and manage your Internet-connected devices and equipment (the Internet of Things, or IoT) from the cloud. You can also automate the creation of work orders and dispatch technicians when a device needs service.
+Connected Field Service with IoT Hub is a solution that integrates [Azure Internet of Things (IoT)](/azure/iot) and Dynamics 365 Field Service. It lets you monitor and manage your Internet-connected devices and equipment from the cloud. You can also automate the creation of work orders and dispatch technicians when a device needs service.
 
-In this article, you'll learn how Connected Field Service works. You'll see the main components and how they communicate with each other. You'll also see how the data flows from the devices to the cloud and back.
+This article explains how Connected Field Service works including how the main components communicate with each other and how the data flows between the devices and the cloud.
 
-In the sections that follow, *data* refers to information that's sent from an IoT device to the cloud. *Devices** and *sensors* refer to Internet-connected things that take measurements, like thermometers, gyroscopes, and pressure readers. An *asset* is a piece of equipment that can have one or more sensors connected to it.
+In this article, *data* refers to information that an IoT device sends to the cloud. *Devices* and *sensors* refer to Internet-connected things that take measurements, like thermometers, gyroscopes, and pressure readers. An *asset* is a piece of equipment that can have one or more sensors connected to it.
 
 ## Architecture overview
 
@@ -27,7 +27,7 @@ The following diagram shows the main components of Connected Field Service with 
 
 :::image type="content" source="media/cfs-iothub-architecture.png" alt-text="Diagram illustrating the components of Connected Field Service with IoT Hub and the connections between them.":::
 
-Here's a summary of what each component does:
+The main components include:
 
 - **IoT Devices & Edge**: Internet-connected sensors on equipment send data to IoT Hub over a network. A single asset can have multiple sensors for different measurements. An *Edge device* can be used to organize and broker data from multiple sensors and assets. However, telemetry data on IoT Edge modules can't be split.
 
@@ -63,7 +63,7 @@ The following diagram shows how data flows between the Azure IoT Hub and Connect
 
  [Download the data flow diagram](https://download.microsoft.com/download/3/A/7/3A744B76-3E04-49F5-A30B-938400CEB73E/AzureIoTCfsDataFlowDiagram.jpg).
 
-The data flow diagram helps you understand how Connected Field Service works in different scenarios. For example, you can see how a device sends data to IoT Hub, how IoT Hub detects a fault and sends an IoT alert to Dynamics 365, and how Dynamics 365 creates a case and a work order for the fault.
+The data flow diagram helps you understand how Connected Field Service works in different scenarios. For example, you can see how a device sends data to IoT Hub, how IoT Hub detects a fault and sends an IoT alert to Dynamics 365. It also shows how Dynamics 365 creates a case and a work order for the fault.
 
 ## Next steps
 
