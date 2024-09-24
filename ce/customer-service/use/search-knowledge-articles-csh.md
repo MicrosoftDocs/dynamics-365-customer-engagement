@@ -64,7 +64,7 @@ You can view knowledge article previews from global search, without having to op
 
 When the global search knowledge configuration option is enabled, you can search and select either the article link, or the article Preview icon, or select your article from the grid view, to view your article in a preview mode. The selected knowledge article opens in a tab. 
 
-:::image type="content" source="../media/csw_global-preview.png" alt-text="Screenshot that shows the preview icon in the agent experience":::
+:::image type="content" source="../media/csw_global-preview.png" alt-text="Screenshot that shows the preview icon in the agent experience.":::
 
 > [!NOTE]
 > If you have overwritten the **OpenRecordItem** command for the knowledge article, and if the global search knowledge configuration option is enabled, the knowledge article format follows the customizations that you have provided. If you haven't enabled the preview option, the knowledge article opens in the knowledge authoring form.
