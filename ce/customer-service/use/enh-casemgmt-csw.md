@@ -73,7 +73,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
-   If your administrator has [opted in](/power-platform/admin/opt-in-early-access-updates) to the early access features, on the Case for Multisession experience form, which is the default case form for Customer Service workspace, you can do the following: 
+   On the Case for Multisession experience form, which is the default case form for Customer Service workspace, you can do the following: 
 
    - See color coded **Case Status** fields and **Priority** icons.
    - Add notes without saving the case.
@@ -81,18 +81,9 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due or overdue on the current date. Select a link to view the activities in the **Due Activities** view.
    - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to and the **Worked by** field
 
-   > [!IMPORTANT]
-   > This is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
-
-
    :::image type="content" source="../media/case-multisession-app-mini.png" alt-text="Screenshot of the multisession app" lightbox="../media/case-multisession-app.png":::
 
-   If your administrator hasn't opted in for early access, you'll see the following when you create a new case in the **Case** page. The following image shows the default main form.
-
-   :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
-
  ---
-
 
 ## View an existing case by using the enhanced full case form
 

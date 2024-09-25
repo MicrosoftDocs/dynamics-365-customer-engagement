@@ -16,6 +16,7 @@ Enable the enhanced **Quick case form** and **Full case form**  options so that 
 > [!NOTE]
 > The enhanced case creation experience is available only in the Customer Service workspace app.
 
+
 Watch this video to understand enhanced case form and how to set it up.
 
 > [!VIDEO https://www.youtube.com/embed/u9uLwhuv1SA]
@@ -42,9 +43,9 @@ To enable the enhanced case forms, follow these steps:
 > -  The **Enhanced case form** option is available in the form selector by default as an early access feature. Use this option to navigate from the enhanced case form to any other form. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). If you haven't opted in, ensure that the **ShowInFormSelector** is set to **True** through FormXML to see the **Enhanced case form** option.
 >     - The [enhanced case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form) displays customer details and recent cases on the customer details pane. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You need to close it manually. 
 
-## Case for multisession experience
+## View and use default components available on enhanced full case form
 
-If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early access features, the **Case for multisession experience** form, which is the default case form for Customer Service workspace, has the following components enabled by default: 
+The following components are available by default in the enhanced full case form. You can use these components to customize other forms. The **Case for multisession experience** form, which is the default case form for Customer Service workspace, also has the following components enabled by default: 
 
    - **OptionSet Wrapper**
    - **Queue Item Control**
@@ -54,9 +55,7 @@ If you [opt in](/power-platform/admin/opt-in-early-access-updates) to the early 
 
 You can learn more about how these components are displayed on the **Case for multisession experience** form realtime in [Default main case form: Case](../use/enh-casemgmt-csw.md#create-a-case-from-the-main-case-form) section.
 
-## View and use default components available on enhanced full case form
-
-The following components are available by default in the enhanced full case form. You can use these components to customize other forms. When you add the components to a form, the runtime experience is as follows:
+When you add the components to a form, the runtime experience is as follows:
 
  :::image type="content" source="../media/runtime-exp-mini.png" alt-text="screenshot for enhanced full case form " lightbox="../media/runtime-exp.png":::
 
