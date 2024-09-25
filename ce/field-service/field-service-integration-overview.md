@@ -1,7 +1,7 @@
 ---
 title: Overview of Field Service integrations
 description: Learn how to integrate Dynamics 365 Field Service with your other business apps to streamline information management and field operations.
-ms.date: 03/12/2024
+ms.date: 09/25/2024
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -14,6 +14,10 @@ Microsoft Dynamics 365 Field Service integrates with your other business apps to
 ## Integrate with Microsoft 365 Outlook and Teams
 
 With Microsoft 365 integrations for Field Service, frontline workers and managers can create, view, and manage work orders in Outlook and Teams. As an organization, you can use the capabilities of Field Service using Microsoft Outlook or Microsoft Teams or both. [Learn more about Microsoft 365 integrations for Field Service](flw-overview.md).
+
+## Integrate bookings with Outlook calendars
+
+Dynamics 365 Field Service frontline workers can have all their appointments, company meetings,  personal events and bookings in one calendar. [Learn more about Integrate bookings with Outlook calendars](outlook-booking-integration.md).
 
 ## Integrate with Dynamics 365 Business Central
 
