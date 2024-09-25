@@ -72,9 +72,9 @@ Yes, you can.
 
 Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 
-### Does voice channel work with Citrix Virtual Machines?
+### Does voice channel work with Citrix virtual machines?
 
-No, the Citrix Virtual Machines are not supported with the voice channel.
+No, the Citrix virtual machines are not supported with the voice channel.
 
 ### Does the voice channel tie in with Azure Communication Services or is it an entirely different technology?
 
