@@ -19,7 +19,7 @@ To enable this feature, an administrator must set up the integration. The appoin
 1. Select **Environments** and select your environment.
 1. Select **Settings** > **Email** > **Server profiles**.
 1. Verify the Microsoft Exchange Online server profile is **Active** and the **Authentication Type** is set to Server-to-Server Authentication.
-1. Go back to Email and select Mailboxes.
+1. Go back to Email and select **Mailboxes**.
 1. Edit each user and perform the following steps.
 
    :::image type="content" source="media/ppac-mailbox-edit.png" alt-text="Screenshot of editing a mailbox through Power Platform admin center.":::
