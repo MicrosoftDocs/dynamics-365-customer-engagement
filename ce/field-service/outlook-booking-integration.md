@@ -9,7 +9,7 @@ ms.author: jasonshotts
 
 # Integrate bookings with Outlook calendars
 
-Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created in Field Service syncs with the worker’s mailbox so they show up as appointments in Outlook. Synching occurs every 10 minutes. Appointments set up in Outlook don't appear in Field Service.
+Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created in Field Service synchronize with the worker’s mailbox, so they show up as appointments in Outlook. Synchronizing occurs every 10 minutes. Appointments set up in Outlook don't appear in Field Service.
 
 To enable this feature, an administrator must set up the integration. The appointment appears in the Outlook calendar shortly after the worker is booked. The appointment includes: the work order date, time window, work order number, and location.
 
