@@ -42,4 +42,4 @@ Agents can communicate with customers on the phone to resolve issues using the v
 
 ## Best practices
 
-- Ensure that the agents using the Azure Virtual Desktop have the latest version of the multimedia redirection extension installed on their browsers. If they fon't have the latest version, agents will see error messages whenever they are in a call.
+- Ensure that the agents using the Azure Virtual Desktop have the latest version of the multimedia redirection extension installed on their browsers. If they don't have the latest version, agents will see error messages whenever they are in a call.
