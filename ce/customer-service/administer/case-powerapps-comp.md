@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 You can use a collection of Power Apps components to customize your case management forms and add the additional functionalities that agents can use when handling cases in the Customer Service workspace.
 
-To view and use the default components available on the enhanced full case form, such as [Associated Grid Control](add-associated-grid-control.md) and [Attachment Control](add-attachment-control.md), see [Enable enhanced case forms for multisession apps](case-enh-config.md). You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
+To view and use the default components available on the enhanced full case form, such as the [Associated Grid Control](add-associated-grid-control.md) and the [Attachment Control](add-attachment-control.md), see [Enable enhanced case forms for multisession apps](case-enh-config.md). You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 The table below shows all the Power Apps components, along with other details, which are available for customizing your forms in the Customer Service workspace.
 
