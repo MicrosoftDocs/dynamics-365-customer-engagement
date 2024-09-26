@@ -24,8 +24,6 @@ If you want to configure the sign-in experience, such as by prepopulating values
 
 2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog, provide authentication details to connect to your Dataverse server.
 
-   ![Unified Service Desk client sign-in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
-
    - For Dataverse, select **Microsoft 365**.  
 
    - For Dynamics 365 Customer Engagement (on-premises) deployments, select **On-premises**, and then select from the following **Authentication Sources**.

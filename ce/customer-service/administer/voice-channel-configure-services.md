@@ -18,10 +18,10 @@ To enable call recording and SMS services, you must first configure your applica
 
 > [!IMPORTANT]
 >
-> - You must be an owner of the [App registration](#get-event-grid-app-and-tenant-ids-from-the-azure-portal) to create Event Grid subscriptions. 
+> - You must be an owner of the [App registration](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal) to create Event Grid subscriptions. 
 > - You can set only one webhook endpoint at a time using the following procedure. To enable incoming calls, SMS, and call recording services, you must repeat the procedure to set the webhook endpoint for each of these services.
 > - You must create a new event subscription for each event type. Don't update an existing event subscription by changing the event type.
-> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs, go to [Get application and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
+> - When you connect your event subscription, you must use the same application (client) ID and tenant (directory) ID for the app registration as you did when you first connected to your Azure resource. To get the event grid app and tenant IDs, go to [Get application and tenant IDs from the Power Apps portal](#get-event-grid-app-and-tenant-ids-from-the-power-apps-portal).
 
 ## Create an Event Grid system topic
 
@@ -65,7 +65,7 @@ To enable call recording and SMS services, you must first configure your applica
       
           :::image type="content" source="../media/event-grid-subscription-incoming-call.png" alt-text="Incoming call webhook endpoint " lightbox="../media/event-grid-subscription-incoming-call.png":::
 
-1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication** checkbox, and then enter the following details. For information about these values, see [Get application and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication** checkbox, and then enter the following details. Learn more about these values in the **Get application and tenant IDs from the Power Apps portal** section in this article.
 
    - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
    - **Microsoft Entra Application ID or URI**: Enter the application (client) ID of your Azure resource.
@@ -84,7 +84,7 @@ To enable call recording and SMS services, you must first configure your applica
 
    :::image type="content" source="../media/event-grid-subscription-recording-webhook-endpoint.png" alt-text="Event Grid subscription recording webhook endpoint" lightbox="../media/event-grid-subscription-recording-webhook-endpoint.png":::
 
-1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to [Get Event Grid app and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to the **Get Event Grid app and tenant IDs from the Power Apps portal** section.
     - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
     - **Microsoft Entra Application ID or URL**: Enter the application (client) ID of your Azure resource.
   
@@ -94,10 +94,10 @@ To enable call recording and SMS services, you must first configure your applica
 
 ## Set up SMS webhook
 
-1. Follow the steps in [Set up the Incoming Calls webhook](#set-up-the-incoming-calls-webhook), but in the filter to event type, select **SMS Received and SMS Delivery Report Received** in the list.
+1. Follow the steps in the **Set up the Incoming Calls webhook** section, but in the filter to event type, select **SMS Received and SMS Delivery Report Received** in the list.
 1. For **Endpoint Type**, select **Web Hook** in the list.
-1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Customer Service admin center or Contact Center admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
-1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to [Get Event Grid app and tenant IDs from the Azure portal](#get-event-grid-app-and-tenant-ids-from-the-azure-portal).
+1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Contact Center admin center or Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
+1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to **Get Event Grid app and tenant IDs from the Power Apps portal** section.
     - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
     - **Microsoft Entra Application ID or URL**: Enter the application (client) ID of your Azure resource.
   
@@ -105,16 +105,16 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes. 
 
-## Reconnect Azure Resource from existing voice stack to the enhanced voice stack
+## Reconnect Azure resource from existing voice stack to the enhanced voice stack
 
-If you're migrating from the existing voice stack to the enhanced voice stack, use the following video to help ensure that your Event Grid is properly configured for incoming calls and recording.
+If you're migrating from the existing voice stack to the enhanced voice stack, use the following video to make sure that your Event Grid is properly configured for incoming calls and recording.
 
 > [!VIDEO https://www.youtube.com/embed/la2vgEqGshU]
 
-## Get Event Grid app and tenant IDs from the Azure portal
+## Get Event Grid app and tenant IDs from the Power Apps portal
 
 > [!NOTE]
-> Use this method only when you have issues with getting the IDs from the Azure Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the Event Grid App ID box and the Directory (tenant) ID to fill the Event Grid Tenant ID box.
+> Use this method only when you have issues with getting the IDs from the Power Apps Portal. To get the IDs from the Azure Portal, search for "app registrations" and find the registration for your connected Azure Communication Services resource. Copy the Application (client) ID to fill the Event Grid App ID box and the Directory (tenant) ID to fill the Event Grid Tenant ID box.
 
 1. Open the [Power Apps portal](https://make.powerapps.com) and select your environment.
 
