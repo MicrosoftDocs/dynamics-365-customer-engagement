@@ -18,7 +18,7 @@ Disabling the integration will stop showing the Sales Navigator controls.
 
 1. Turn off the **Sales navigator integration** toggle.
 
-    :::image type="content" source="../sales/media/disable-linkedin-sales-navigator.png" alt-text="Screenshot of disabling LinkedIn Sales Navigator.":::
+    :::image type="content" source="../media/disable-linkedin-sales-navigator.png" alt-text="Screenshot of disabling LinkedIn Sales Navigator.":::
 
 1. Select **Save**.
 
@@ -26,5 +26,3 @@ Disabling the integration will stop showing the Sales Navigator controls.
 
 [Install and enable LinkedIn Sales Navigator](install-sales-navigator.md)  
 [Uninstall LinkedIn Sales Navigator](uninstall-sales-navigator.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
