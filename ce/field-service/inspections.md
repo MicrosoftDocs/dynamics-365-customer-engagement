@@ -135,7 +135,9 @@ You can view and complete inspections on the [Dynamics 365 Field Service mobile 
 
 1. If needed, upload files, take pictures, or upload pictures from the phone's camera roll. When uploading a file or image, select the caption icon to add a comment. File attachments are limited to 3 MB per file, unless an administrator changes the limit. Inspections with a large number of files take time to load.
 
-1. Select **Save**. Then, select **Mark Complete** or set **Complete %** to 100.
+1. Select **Save**. Make sure you save the inspection before setting the service task to complete to avoid a business process error.
+
+1. Select **Mark Complete** or set **Complete %** to 100.
 
 1. Enter a **Result** to report on the overall inspection:
 
