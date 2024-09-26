@@ -16,6 +16,8 @@ Use the *Search Resource Availability for Requirement Group API* and the *Create
 
 You pass the details of a requirement group in your API calls and retrieve a list of available resources and their open time slots. This list is helpful for self-scheduling scenarios where a user wants to view the availability of resources, or for portal scheduling scenarios where a customer wants to view resource availability from a website or app.
 
+At the time of writing, v1 is the latest version of msdyn_SearchResourceAvailabilityForRequirementGroup and supports web API calls.
+
 ## Search Resource Availability for Requirement Group API
 
 Use the following input and output parameters for the Search Resource Availability for Requirement Group (**msdyn_SearchResourceAvailabilityForRequirementGroup**) API.
