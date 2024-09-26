@@ -52,9 +52,9 @@ The message **The rule doesn't have any conditions applicable to the record** ap
 
 Microsoft Exchange conversations are used to identify emails that are part of a conversation.
 
-**Resolution**: Microsoft Exchange groups related emails and assigns a conversation id to them. This helps identify all the email replies sent to a tracked email.
+**Resolution**: Microsoft Exchange groups related emails and assigns a conversation ID to them. This helps identify all the email replies sent to a tracked email.
 
-If you use the correlation option to track and group related email conversations, ARC won't create a case for the email replies, when an active case connected to the tracked emails already exists.
+If you use the correlation option to track and group related email conversations, ARC won't create a case for the email replies when an active case connected to the tracked emails already exists.
 
 Learn more at [Manage email tracking settings](/power-platform/admin/settings-email-tracking).
 
@@ -64,7 +64,7 @@ Multiple cases can get created from a single email because of various reasons. P
 
 1. Enable the activity monitor options: **Ready for Power Automate / Workflow** and **Skipped**. Learn more at [Manage activity monitor to review and track rules](automatically-create-update-records.md#manage-activity-monitor-to-review-and-track-rules).
 1. Send a new email to reproduce the issue.
-1. You should see new activity monitor records in the grid for the new test email. Multiple activity monitor records for the email indicate that there are multiple queue items created for the same email that triggered the ARC rule. You can also view which rule got triggered on each activity monitor row. The activity monitor records with the **Ready for Power Automate** state indicate that they have reached the flow and are likely to create a case in each of them. If you see the described behavior, perform the next step.
+   You should see new activity monitor records in the grid for the new test email. Multiple activity monitor records for the email indicate that there are multiple queue items created for the same email that triggered the ARC rule. You can also view which rule was triggered on each activity monitor row. The activity monitor records with the **Ready for Power Automate** state indicate that they reached the flow and are likely to create a case in each of them. If you see the described behavior, perform the next step.
 1. Perform the following steps to identify where the duplicate queue items are from:
     1. Rule item flow definition, to verify if the child flow adds the email to queue. Duplicate queue items can be created because of various reasons, such as a flow step calling **AddToQueue** bound action, queue item creation, another custom flow that the ARC flow calls from within, or a post operation plugin of an action performed within ARC flow, such as case creation.
     1. Email background processes, to verify if there are any custom workflows. You can do this during live debugging, where successful background processes get cleaned up. If you don't see any background processes for an email received, it doesn’t necessarily mean that there are no custom runs.
@@ -77,13 +77,13 @@ The following section provides answers to questions about migrated rule or flows
 ### How many flows should I see in Power Automate when I have an active modern or migrated ARC rule, with or without a rule item?
 
 Active rule with rule item:
-If you activate a rule, you'll see one active rule with the name **ARC: rule item name**. The Power Automate flows turn on automatically whenever you activate a rule. If you see that your rule is activated, navigate to the Power Automate flow page to confirm that the flow is turned on, as the ARC rule works only when this flow is turned on.
+If you activate a rule, you see one active rule with the name **ARC: rule item name**. The Power Automate flows turn on automatically whenever you activate a rule. If you see that your rule is activated, navigate to the Power Automate flow page to confirm that the flow is turned on, as the ARC rule works only when this flow is turned on.
  
 Inactive Rule with rule item:
-For any inactive ARC rule, you'll also see one flow only with the name **ARC: rule item name**, but the flow is turned off automatically. This is the only flow that is associated with the ARC rule and invoked during run time.
+For any inactive ARC rule, you also see one flow only with the name **ARC: rule item name**, but the flow is turned off automatically. This flow is the only one that's associated with the ARC rule and invoked during run time.
  
-Active/inactive rule without rule item:
-ARC won't run if you don't have a rule item. You won't see any flows related to this rule. You may choose to not have any conditions associated with the rule item. For ARC to run, you'll need to deactivate the rule and create a rule item without any conditions, which creates a flow. 
+Active or inactive rule without rule item:
+ARC won't run if you don't have a rule item. You won't see any flows related to this rule. You can choose to not have any conditions associated with the rule item. For ARC to run, you must deactivate the rule and create a rule item without any conditions, which creates a flow. 
 
 ### What does the flow ARC | rule name do, and can I customize it?
 
