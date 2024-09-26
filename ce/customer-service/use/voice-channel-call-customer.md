@@ -65,7 +65,7 @@ When the call connects, you see the customer details on the conversation page. B
 > If you need more trial minutes or phone numbers, we recommend that you file a request with Microsoft Support.
 
 ## Next steps
-[Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)    
+[Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience)    
 
 
 ### Related information

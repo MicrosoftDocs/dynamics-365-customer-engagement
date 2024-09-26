@@ -14,7 +14,7 @@ ms.author: mgandham
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
+To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Transfer calls
 
