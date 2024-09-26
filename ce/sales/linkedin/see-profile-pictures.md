@@ -15,7 +15,7 @@ For leads and contacts that are matched to a LinkedIn member profile, the system
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    :::image type="content" source="../sales/media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings link in the site map.":::
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings link in the site map.":::
 
     The **Business Management settings** page opens in a new browser tab.
 

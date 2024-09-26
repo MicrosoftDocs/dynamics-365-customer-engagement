@@ -19,8 +19,8 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
 **To uninstall LinkedIn Sales Navigator**
 
-1. In your app, select **Settings** :::image type="icon" source="../sales/media/settings-icon.png" border="false":::, and then select **Advanced Settings**.  
-   :::image type="content" source="../sales/media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
+1. In your app, select **Settings** :::image type="icon" source="../media/settings-icon.png" border="false":::, and then select **Advanced Settings**.  
+   :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 
 2. Go to **Settings** > **Customizations** > **Solutions**.
 3. On the **Solutions** page in Power Apps, select **All** and then search for the **LinkedInSalesNavigatorControlsForUnifiedClient** solution and select it.
