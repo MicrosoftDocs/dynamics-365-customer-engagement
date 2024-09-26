@@ -95,7 +95,7 @@ The maximum file size of a recording can be 512 MB. The data storage cost with t
 ### Related information
 
 [Overview of the voice channel](voice-channel.md)  
-[Agent experience: View call recordings and transcripts](../use/voice-channel-agent-experience.md)  
+[Agent experience: View call recordings and transcripts](/dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)    
 [Enable call recording and SMS services](voice-channel-configure-services.md)
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
 [Delete call recordings](voice-channel-delete-calls.md)
