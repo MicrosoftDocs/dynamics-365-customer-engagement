@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection:
-ms.date: 09/20/2024
+ms.date: 09/26/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
