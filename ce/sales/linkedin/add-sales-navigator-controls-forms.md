@@ -14,33 +14,33 @@ search.audienceType:
 
 # Add LinkedIn Sales Navigator controls to forms
 
-[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator controls are custom controls that you can add to forms in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] to show information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] member profile or company profile.
+[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator controls are custom controls that you can add to forms in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)] to show information about a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] member profile or company profile.
 
 > [!NOTE]
 > For Dynamics 365 Sales Professional, the lead and contact forms must be treated as custom forms and add the controls to these forms.
 
 ## Prerequisites
 
-- You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)].  
-- To test the controls, you need to be a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator seat holder.
+- You have Customizer or System Administrator security role in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)].  
+- To test the controls, you need to be a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator seat holder.
 
 ## Add Sales Navigator controls to a form
 
-You can add the Sales Navigator controls on any form or table of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name.
+You can add the Sales Navigator controls on any form or table of a Unified Interface app in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)] that contains a field for last name, primary contact, or account name.
 
-There are different types of [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] controls which are added automatically when you use the latest version of the out-of-box integrations:
+There are different types of [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] controls which are added automatically when you use the latest version of the out-of-box integrations:
 
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile)**: Shows the member profile of a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] contact using a specific lead or contact name.
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Lead Lookup Control**: Shows member profile information using the name of the primary contact related to the record.
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Account (company profile)**: Shows information about a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] company profile using a specific account name.
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Account Lookup Control**: Shows company profile information using the account name related to the record.
-- **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] InMail Control**: Shows a form where you can send an InMail message to another LinkedIn member.
+- **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator Lead (member profile)**: Shows the member profile of a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] contact using a specific lead or contact name.
+- **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Lead Lookup Control**: Shows member profile information using the name of the primary contact related to the record.
+- **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator Account (company profile)**: Shows information about a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] company profile using a specific account name.
+- **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Account Lookup Control**: Shows company profile information using the account name related to the record.
+- **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] InMail Control**: Shows a form where you can send an InMail message to another LinkedIn member.
 
-The Sales Navigator controls can be added by modifying a field on a form in [!INCLUDE[pn-dynamics-365](../includes/pn-dynamics-365.md)]. Modify the following fields according to the control type. Optionally, you can add multiple fields to match the control to make the matches more relevant. Keep in mind that this requires all fields to match before a member profile or company profile is suggested. If no match, or in rare cases a wrong match is found, you can use the search interface to find the right profile.
+The Sales Navigator controls can be added by modifying a field on a form in [!INCLUDE[pn-dynamics-365](../../includes/pn-dynamics-365.md)]. Modify the following fields according to the control type. Optionally, you can add multiple fields to match the control to make the matches more relevant. Keep in mind that this requires all fields to match before a member profile or company profile is suggested. If no match, or in rare cases a wrong match is found, you can use the search interface to find the right profile.
 
 ## Add a member profile to a Lead form
 
-This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way on other entities where the controls aren't added by default.
+This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way on other entities where the controls aren't added by default.
 
 1. From your sales app, select the **Settings** icon and then select **Advanced Settings**.
 1. Go to **Settings** > **Customizations**.  
@@ -67,10 +67,10 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 
 6. In the **Field Properties** window, switch to the **Controls** tab and select **Add control**.  
 
-7. Select the **[!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] Sales Navigator member profile** control and select **Add**.  
+7. Select the **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator member profile** control and select **Add**.  
    :::image type="content" source="media/add-control-to-form.png" alt-text="Screenshot of click path to add a Sales Navigator control.":::
 
-8. Now you need to configure the Sales Navigator control. In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../includes/pn-linkedin.md)] control.  
+8. Now you need to configure the Sales Navigator control. In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] control.  
    :::image type="content" source="media/configure-sales-navigator-control.png" alt-text="Screenshot of configuring properties of a Sales Navigator control.":::
    
    > [!TIP]
@@ -100,5 +100,3 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../includ
 [Overview for LinkedIn Sales Navigator solutions](integrate-sales-navigator.md)  
 [Install and configure LinkedIn Sales Navigator Controls](install-sales-navigator.md)  
 [Work with Sales Navigator controls on forms](view-sales-navigator-forms.md)
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

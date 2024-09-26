@@ -19,19 +19,19 @@ topic-status: Drafting
 
 # Create matching strategy to update existing LinkedIn leads
 
-When a new lead is synced from [!include[LinkedIn](../includes/pn-linkedin.md)], the system can either update an existing lead record if the person is already known, or create a new lead if it’s the first contact with this person. New [!include[LinkedIn](../includes/pn-linkedin.md)] leads appear as **[!include[LinkedIn](../includes/pn-linkedin.md)] Form Submissions** in Dynamics 365 apps. The information in [!include[LinkedIn](../includes/pn-linkedin.md)] form submissions consists of the answers given by [!include[LinkedIn](../includes/pn-linkedin.md)] members when they submitted the forms.  
-A matching strategy maps the fields of a [!include[LinkedIn](../includes/pn-linkedin.md)] form submission to the record fields for a lead. By default, a matching strategy based on a lead’s email address is activated.  
-A matching strategy applies to all [!include[LinkedIn](../includes/pn-linkedin.md)] leads in the same Dynamics 365 instance. If a matching strategy contains more than one [field mapping](configure-matching-strategy.md#edit-the-linkedin-field-mapping), all mappings must match before an existing lead record is updated. We recommend maintaining simple matching strategies&mdash;for example, strategies based only on phone number or email address.  
+When a new lead is synced from [!include[LinkedIn](../../includes/pn-linkedin.md)], the system can either update an existing lead record if the person is already known, or create a new lead if it’s the first contact with this person. New [!include[LinkedIn](../../includes/pn-linkedin.md)] leads appear as **[!include[LinkedIn](../../includes/pn-linkedin.md)] Form Submissions** in Dynamics 365 apps. The information in [!include[LinkedIn](../../includes/pn-linkedin.md)] form submissions consists of the answers given by [!include[LinkedIn](../../includes/pn-linkedin.md)] members when they submitted the forms.  
+A matching strategy maps the fields of a [!include[LinkedIn](../../includes/pn-linkedin.md)] form submission to the record fields for a lead. By default, a matching strategy based on a lead’s email address is activated.  
+A matching strategy applies to all [!include[LinkedIn](../../includes/pn-linkedin.md)] leads in the same Dynamics 365 instance. If a matching strategy contains more than one [field mapping](configure-matching-strategy.md#edit-the-linkedin-field-mapping), all mappings must match before an existing lead record is updated. We recommend maintaining simple matching strategies&mdash;for example, strategies based only on phone number or email address.  
 
-To match existing leads in Dynamics 365 Sales with new [!include[LinkedIn](../includes/pn-linkedin.md)] form submission answers, users who have at least the **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role can define a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy in the Dynamics 365 Sales settings.
+To match existing leads in Dynamics 365 Sales with new [!include[LinkedIn](../../includes/pn-linkedin.md)] form submission answers, users who have at least the **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role can define a [!include[LinkedIn](../../includes/pn-linkedin.md)] lead matching strategy in the Dynamics 365 Sales settings.
 
 > [!NOTE]
 > - If only a subset of the fields match, by default the system won't create a new lead from the form submission.  
-> - To create new leads when the matching strategy fails, a system administrator or customizer can edit the **[!include[LinkedIn](../includes/pn-linkedin.md)] LeadGen Integration Configurations** entity and change the value for the **On Match fail** attribute from the default value **Ignore** to **Create new lead**. 
-> - For quick access to this custom entity, consider [adding it to the site map](../customerengagement/on-premises/customize/create-site-map-app.md).
+> - To create new leads when the matching strategy fails, a system administrator or customizer can edit the **[!include[LinkedIn](../../includes/pn-linkedin.md)] LeadGen Integration Configurations** entity and change the value for the **On Match fail** attribute from the default value **Ignore** to **Create new lead**. 
+> - For quick access to this custom entity, consider [adding it to the site map](../../customerengagement/on-premises/customize/create-site-map-app.md).
 
-You need a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role to manage lead matching strategies.  
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [TechNet: Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+You need a **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen Forms Connector Administrator** security role to manage lead matching strategies.  
+[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [TechNet: Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
 
 ![Manage lead matching strategies.](media/Manage-lead-matching-strategies.png "Manage lead matching strategies")
 
@@ -43,19 +43,19 @@ You need a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Con
 
 4. List of active lead mapping fields
 
-## Create a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
+## Create a [!include[LinkedIn](../../includes/pn-linkedin.md)] lead matching strategy
 
-1. Go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
+1. Go to **Settings** > **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 
 2. To create the matching strategy, select **New** ![New.](media/Add-icon.png "New"), enter a **Name**, and then select **Save**.
 
-3. To add a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../includes/pn-linkedin.md)] member field.
+3. To add a [!include[LinkedIn](../../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../../includes/pn-linkedin.md)] member field.
 
-4. Select the **[!include[LinkedIn](../includes/pn-linkedin.md)] Field Mapping** record to add it to this matching strategy.
+4. Select the **[!include[LinkedIn](../../includes/pn-linkedin.md)] Field Mapping** record to add it to this matching strategy.
 
-## Activate a different [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
+## Activate a different [!include[LinkedIn](../../includes/pn-linkedin.md)] lead matching strategy
 
-1. Go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
+1. Go to **Settings** > **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 
 2. In the list, select the matching strategy that you want to activate.
 
@@ -66,19 +66,19 @@ If another matching strategy is active, it will become deactivated.
 > [!TIP]
 > It’s a good practice to maintain a single strategy and update it if needed. However, you can maintain multiple matching strategies, but keep in mind that only one can be activated at a time.
 
-## Edit a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
+## Edit a [!include[LinkedIn](../../includes/pn-linkedin.md)] lead matching strategy
 
-1. Go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
+1. Go to **Settings** > **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 
 2. In the list, select the matching strategy that you want to edit.
 
-3. To add an additional [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../includes/pn-linkedin.md)] member field.
+3. To add an additional [!include[LinkedIn](../../includes/pn-linkedin.md)] field mapping record, select **Add** ![Add](media/Add-icon.png "Add") and enter the name of the [!include[LinkedIn](../../includes/pn-linkedin.md)] member field.
 
-4. To remove a [!include[LinkedIn](../includes/pn-linkedin.md)] field mapping record, select **Delete**![Delete.](media/Delete-icon.png "Delete").
+4. To remove a [!include[LinkedIn](../../includes/pn-linkedin.md)] field mapping record, select **Delete**![Delete.](media/Delete-icon.png "Delete").
 
-## Delete a [!include[LinkedIn](../includes/pn-linkedin.md)] lead matching strategy
+## Delete a [!include[LinkedIn](../../includes/pn-linkedin.md)] lead matching strategy
 
-1. Go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
+1. Go to **Settings** > **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen** > **Lead Matching Strategies**.
 
 2. Select the check box for the lead matching strategy you want to delete.
 
@@ -89,9 +89,9 @@ If another matching strategy is active, it will become deactivated.
 
 ## Edit the LinkedIn field mapping
 
-By default, Dynamics 365 Sales maps fields from [!include[LinkedIn](../includes/pn-linkedin.md)] leads to corresponding fields of a lead record. As a system administrator or customizer, you can change the field mapping or create new mappings to support fields from custom questions on [!include[LinkedIn](../includes/pn-linkedin.md)] lead gen forms. 
+By default, Dynamics 365 Sales maps fields from [!include[LinkedIn](../../includes/pn-linkedin.md)] leads to corresponding fields of a lead record. As a system administrator or customizer, you can change the field mapping or create new mappings to support fields from custom questions on [!include[LinkedIn](../../includes/pn-linkedin.md)] lead gen forms. 
 
-1. Go to **Settings** > **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen** > **Lead Field Mappings**.
+1. Go to **Settings** > **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen** > **Lead Field Mappings**.
 
 2. Select the field mapping that you want to change and select **Edit**.
 
