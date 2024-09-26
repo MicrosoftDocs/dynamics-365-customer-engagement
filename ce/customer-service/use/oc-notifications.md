@@ -85,7 +85,7 @@ Based on your organization's configurations, you can't reject conversations. The
 
 ## Incoming voice call notifications
 
-You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md).
+You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)    .
 
 ## Incoming chat notifications
 

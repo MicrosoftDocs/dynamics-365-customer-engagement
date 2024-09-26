@@ -39,8 +39,6 @@ For example, time taken for the **Browser Navigation** operation under the categ
 ![Select a operation from the list of operations.](../media/operation-navigation.PNG "Select a operation from the list of operations")
 
 3. Select the correlation ID from the list.<br>
-![Select a correlation ID from the list.](../media/operation-navigation-correlationid.PNG "Select a correlation ID from the list")
-
 The report displays the Performance timeline graph and Performance details table.
 
 ![Performance timeline graph.](../media/performance-timeline-graph.PNG "Performance timeline graph")
