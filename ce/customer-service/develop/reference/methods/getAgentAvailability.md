@@ -36,7 +36,7 @@ None
 |`EndTimeOfNextOperatingHour`          | DateTime    | The time (UTC) when operating hours end for the queue if it's outside operating hours. During operating hours, a value of 01-01-0001 is returned.|
 | `nexttransitiontime`        | DateTime      | The time (UTC) when the queue is operational again if it's outside operating hours. The time when the queue is not operational is displayed during operating hours.|
 |`positionInQueue`         | Number      | The position in queue for a customer waiting behind other customers in the same queue​. |
-| `isAgentAvailable`       | Boolean     | Displays: <br> - TRUE if there's a bot attached to the workstream or if there's a bot available in the queue​.<br> - FALSE if bots aren't available to take requests. |
+| `isAgentAvailable`       | Boolean     | Displays: <br> - TRUE if agents in the queue are currently available to take requests based on configured routing and assignment rules for workstream or there's a bot attached to the workstream or if there's a bot available in the queue​.<br> - FALSE if agents aren't available to take requests or if workstream bots aren't available to take requests. |
 | `averageWaitTime`        | Number      | Average wait time in minutes for customers in the target queue based on past 48-hour data.|
 
 ## Example
