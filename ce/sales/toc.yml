@@ -293,7 +293,7 @@
         - name: Sync LinkedIn leads
           items:
             - name: Sync LinkedIn leads
-              href: linkedin/sync-leads-from-linkedin.md
+              href: linkedin/sync-linkedin-leads.md
             - name: Install the LinkedIn Lead Gen solution
               href: linkedin/install-linkedin-connector.md
             - name: Create matching strategy to update existing LinkedIn leads
@@ -311,7 +311,7 @@
             - name: Uninstall LinkedIn Sales Navigator
               href: linkedin/uninstall-sales-navigator.md
             - name: Add Sales Navigator controls to forms
-              href: add-sales-navigator-controls-forms.md
+              href: linkedin/add-sales-navigator-controls-forms.md
             - name: Troubleshooting LinkedIn integration errors
               href: linkedin/ts-linkedin-integration.md
             - name: LinkedIn integration FAQs
@@ -928,7 +928,7 @@
         - name: Sync LinkedIn leads
           items:
             - name: Sync LinkedIn leads
-              href: linkedin/sync-leads-from-linkedin.md
+              href: linkedin/sync-linkedin-leads.md
             - name: Review and analyze leads
               href: linkedin/review-leads.md  
         - name: Integrate LinkedIn Sales Navigator

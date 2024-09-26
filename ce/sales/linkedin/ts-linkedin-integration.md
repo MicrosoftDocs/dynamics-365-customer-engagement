@@ -167,4 +167,4 @@ Follow these steps:
  
 ## Related information
 
-[Dynamics 365 Sales troubleshooting guide](../sales-enterprise/troubleshooting.md)
+[Dynamics 365 Sales troubleshooting guide](../troubleshooting.md)
