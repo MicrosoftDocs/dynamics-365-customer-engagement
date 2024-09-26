@@ -290,8 +290,32 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
-        - name: Integrate LinkedIn Sales Navigator solutions
-          href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
+        - name: Sync LinkedIn leads
+          items:
+            - name: Sync LinkedIn leads
+              href: linkedin/sync-leads-from-linkedin.md
+            - name: Install the LinkedIn Lead Gen solution
+              href: linkedin/install-linkedin-connector.md
+            - name: Create matching strategy to update existing LinkedIn leads
+              href: linkedin/configure-matching-strategy.md
+            - name: Connect Dynamics 365 Connector with LinkedIn
+              href: linkedin/connect-dynamics-365-linkedin.md
+        - name: Integrate LinkedIn Sales Navigator
+          items: 
+            - name: Integrate LinkedIn Sales Navigator
+              href: linkedin/integrate-sales-navigator.md
+            - name: Install and enable LinkedIn Sales Navigator
+              href: linkedin/install-sales-navigator.md
+            - name: Disable LinkedIn Sales Navigator
+              href: linkedin/disable-sales-navigator.md
+            - name: Uninstall LinkedIn Sales Navigator
+              href: linkedin/uninstall-sales-navigator.md
+            - name: Add Sales Navigator controls to forms
+              href: add-sales-navigator-controls-forms.md
+            - name: Troubleshooting LinkedIn integration errors
+              href: linkedin/ts-linkedin-integration.md
+            - name: LinkedIn integration FAQs
+              href: linkedin/faqs-linkedin.md
         - name: Predictive lead scoring
           items:
             - name: Configure predictive lead scoring
@@ -901,6 +925,26 @@
           href: re-open-lead-sales.md
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
+        - name: Sync LinkedIn leads
+          items:
+            - name: Sync LinkedIn leads
+              href: linkedin/sync-leads-from-linkedin.md
+            - name: Review and analyze leads
+              href: linkedin/review-leads.md  
+        - name: Integrate LinkedIn Sales Navigator
+          items: 
+          - name: Integrate LinkedIn Sales Navigator
+            href: linkedin/integrate-sales-navigator.md
+          - name: See profile pictures
+            href: linkedin/see-profile-pictures.md
+          - name: Data validation capability
+            href: linkedin/data-validation.md
+          - name: View Sales Navigator controls on forms
+            href: linkedin/view-sales-navigator-forms.md
+          - name: Troubleshooting LinkedIn integration errors
+            href: linkedin/ts-linkedin-integration.md
+          - name: LinkedIn integration FAQs
+            href: linkedin/faqs-linkedin.md
         - name: Lead management FAQs
           href: faq-lead.md          
     - name: Opportunity management

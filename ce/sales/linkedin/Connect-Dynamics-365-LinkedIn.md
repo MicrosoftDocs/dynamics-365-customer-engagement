@@ -1,8 +1,8 @@
 ---
-title: "Authorize Dynamics 365 apps to use LinkedIn account data"
-description: "Before you can sync leads to your organization, follow these steps to authorize the Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data."
-ms.date: 04/02/2018
-ms.topic: article
+title: Connect Dynamics 365 Connector with LinkedIn
+description: Before you can sync leads to your organization, follow these steps to authorize the Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data.
+ms.date: 09/25/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.custom: 
@@ -18,9 +18,10 @@ ms.assetid: 4140669d-2155-4f43-a4fc-253b67e42f7d
 topic-status: Drafting
 ---
 
-# Authorize Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data
+# Connect Dynamics 365 Connector with LinkedIn
 
-Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] campaign accounts to a Dynamics 365 organization, a [!include[LinkedIn](../includes/pn-linkedin.md)] member with access to [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in Dynamics 365 apps. This user requires at least a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.  
+Connect your Dynamics 365 organization with LinkedIn to sync leads from LinkedIn Campaign Manager to Dynamics 365 Sales. Before we can sync leads from [!include[LinkedIn](../includes/pn-linkedin.md)] campaign accounts to a Dynamics 365 organization, a [!include[LinkedIn](../includes/pn-linkedin.md)] member with access to [!include[LinkedIn](../includes/pn-linkedin.md)] Campaign Manager is required to authorize their [!include[LinkedIn](../includes/pn-linkedin.md)] accounts in Dynamics 365 apps.  
+You must have at least a **[!include[LinkedIn](../includes/pn-linkedin.md)] Lead Gen Forms Connector Salesperson** security role.  
 
 ## Authorize Dynamics 365 apps to sync data from LinkedIn Campaign Manager
 
