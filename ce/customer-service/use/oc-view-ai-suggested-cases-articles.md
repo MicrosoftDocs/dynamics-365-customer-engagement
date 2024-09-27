@@ -75,7 +75,7 @@ If no cases match, then the card displays an appropriate message, such as "No su
 
 [Enable AI-suggested cases and knowledge articles](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Smart assist suggestions using bot user](oc-smart-assist.md)  
-[Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)    
+[Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
