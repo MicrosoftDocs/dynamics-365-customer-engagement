@@ -1,10 +1,13 @@
 ---
 title: Route records automatically using custom flow
 description: Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Omnichannel for Customer Service.
-ms.date: 03/21/2024
+ms.date: 09/27/2024
 ms.topic: how-to
-author: "neeranelli"
+author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.collection:
+ms.custom: bap-template
 ---
 
 # Route records automatically using custom flow
@@ -24,14 +27,14 @@ To enable automatic routing of records:
 
 1. Sign in to Power Automate and select the environment for which you want to create the flow.
 
-2. Select **My flows** on the site map, then select **New flow**. Under the **Build your own from blank** option, select **Automated cloud flow**.
+1. Select **My flows** on the site map, then select **New flow**. Under the **Build your own from blank** option, select **Automated cloud flow**.
     The **Build an automated cloud flow** dialog box appears.
 
-3. Select **Skip**. A list of all connectors and triggers is displayed.
+1. Select **Skip**. A list of all connectors and triggers is displayed.
 
-4. Select **Microsoft Dataverse**. In the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
+1. Select **Microsoft Dataverse**. In the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
 
-5. Specify the following values for the **Change type**, **Table name**, and **Scope** fields.
+1. Specify the following values for the **Change type**, **Table name**, and **Scope** fields.
  
     - **Change type**: Create
  
@@ -39,15 +42,15 @@ To enable automatic routing of records:
 
     - **Scope**: Organization
 
-6. Select **New step**. The **Choose an operation** dialog appears.
+1. Select **New step**. The **Choose an operation** dialog appears.
 
-7. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog appears.
+1. Select **Perform an unbound action** from the **Actions** list. The **Perform an unbound action** dialog appears.
 
-8. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
+1. Enter **msdyn_ApplyRoutingRuleEntityRecord** in the **Action Name** field as a custom value.
 
-9. In the **Target** field, enter the entity collection name and unique identifier of the record as follows:
+1. In the **Target** field, select the entity collection name and unique identifier of the record as a parameter as follows.
 
-    `<entity collection name>(unique identifier of the entity)`, such as **emails(Email Message)**
+    `<entity collection name>(<unique_identifier_of_the_entity>)`, such as **emails(`<EmailMessage>`)**
 
     To get the entity collection name for a particular entity:
     1. Open your browser and go to `https://<org_name>/api/data/v9.0/EntityDefinitions(LogicalName='<entityname>')`.
@@ -56,7 +59,7 @@ To enable automatic routing of records:
     For example: `"LogicalCollectionName":"emails"`.<br>
     Here, `emails` is the entity collection name.
 
-10. Select **Save**.
+1. Select **Save**.
 
 Now, based on the flow that is defined, whenever a record, in this example, an email, is created, the flow applies the **msdyn_ApplyRoutingRuleEntityRecord** action to the record. Similarly, you can create a custom flow based on your business scenarios. 
 
