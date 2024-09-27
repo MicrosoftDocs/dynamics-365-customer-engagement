@@ -16,7 +16,6 @@ ms.author: mgandham
 > - Listen for the **lcw:ready** event raised by a live chat before calling the live chat SDK methods. The live chat methods should be invoked after the **lcw:ready** event is raised. You can listen for this event by adding your own event listener on the window object.
 > - This method can be called multiple times from the client side when customer input changes. The client side cache is refreshed every 2 minutes or when the customer context parameters change.
 > - This method can be called 100 times per minute per organization only. If you've exceeded the limit, you'll see the http 429 response status code that indicates that you've sent too many requests in a specified amount of time.
-> - The API must be used within workstreams and queues without a bot to return human agent availability correctly.
 
 ## Syntax
 
