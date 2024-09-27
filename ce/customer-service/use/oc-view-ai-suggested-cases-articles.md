@@ -23,8 +23,8 @@ ms.collection: bap-ai-copilot
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers.
 
 The AI-suggestions for similar cases and knowledge articles are powered by a set of pretrained natural language understanding models that help you find relevant knowledge articles or similar cases quickly, based on the context of ongoing conversations that you're handling. Your administrator can enable AI-suggested similar cases and knowledge articles through a single click. These suggestions are displayed in real time based on the conversation context.
-> [!div class=mx-imgBorder]
-> ![An example of AI-based suggestions.](../media/ai-based-suggestions-oc.png "AI-based suggestions")
+
+:::image type="content" source="../media/ai-based-suggestions-oc.png" alt-text="A screenshot of an example of AI-based suggestions.":::
 
 If the productivity pane has been enabled for you, the smart assist cards appear on the productivity pane when you're interacting with a customer in an ongoing conversation. By default, the productivity pane is enabled out of the box.
 
@@ -53,8 +53,7 @@ When you're on a call with a customer and want to share knowledge articles for t
 
 When you're interacting with a customer in an ongoing conversation, up to three top similar cases that match the conversation context are displayed in the **Smart assist** pane. The suggestions are dynamically refreshed based on the conversation context.
 
-> [!div class=mx-imgBorder]
-> ![AI-suggested similar cases.](../media/ai-suggested-similar-cases.png "AI-suggested similar cases")
+:::image type="content" source="../media/ai-suggested-similar-cases.png" alt-text="Screenshot of AI-suggested similar cases.":::
 
 The following table lists the components of the smart assist card for AI-suggested similar cases.
 

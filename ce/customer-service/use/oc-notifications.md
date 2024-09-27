@@ -55,7 +55,7 @@ If you select the notification message body and not a button, the app is made ac
 
 The wait time that's configured by your administrator applies to the desktop notification but doesn't display on it.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. More information: [Manage notification templates and settings](../administer/notification-templates.md)
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. Learn more at [Manage notification templates and settings](../administer/notification-templates.md).
 
 > [!NOTE]
 > The desktop notification theme is based on the Windows operating system theme and settings.
