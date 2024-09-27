@@ -1,7 +1,7 @@
 ---
-title: "Release history (Unified Service Desk)| MicrosoftDocs"
-description: "Find information about all the documentation updates made in various versions of Unified Service Desk."
-ms.date: 06/27/2024
+title: Release history (Unified Service Desk)
+description: Find information about all the documentation updates made in various versions of Unified Service Desk.
+ms.date: 09/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -30,6 +30,10 @@ The list provides an overview of documentation updates made in this release of U
 |[Add parameters using Edge WebView2 Process](edge-webview2-process.md#add-parameters-using-edge-webview2-process) |Added information about how to add parameters using **Edge WebView2 Process**. |
 |[Debug Edge WebView2 Process](edge-webview2-process.md#debug-edge-webview2-process) |Added information about how to access and debug all the **Edge WebView2 Process** instances running in a desktop locally and remotely.
  
+
+## Release history for Unified Service Desk 4.2.0.71, September 2024
+
+This release includes an upgrade to the XRM tooling connector package to the 9.1.1.65 version. There are no content-specific changes in this release.
 
 ## Release history for Unified Service Desk 4.2.0.51, January 2023
 
