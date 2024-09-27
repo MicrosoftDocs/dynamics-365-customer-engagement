@@ -28,9 +28,9 @@ To enable automatic routing of records:
 1. Sign in to Power Automate and select the environment for which you want to create the flow.
 
 1. Select **My flows** on the site map, then select **New flow**. Under the **Build your own from blank** option, select **Automated cloud flow**.
-    The **Build an automated cloud flow** dialog box appears.
+    The **Build an automated cloud flow** dialog appears.
 
-1. Select **Skip**. A list of all connectors and triggers is displayed.
+1. Select **Skip**. A list of all connectors and triggers appears.
 
 1. Select **Microsoft Dataverse**. In the corresponding list of triggers that appears, select **When a row is added, modified or deleted**.
 
