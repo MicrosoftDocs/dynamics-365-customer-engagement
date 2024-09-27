@@ -19,11 +19,14 @@ ms.collection: get-started
 The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. Key features include:
 
 - The **Enhanced Active Cases** view is available by default with additional fields such as **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**.
-- Color coded icons for **Priority** and the **Origin** channels, avatars for Owner appear in all the case views.
+- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for Owner appear in all the case views.
 
 ## Columns on the Enhanced Active Cases view
 
 The **Enhanced Active Cases** view displays the following fields:
+
+> [!NOTE]
+> - Enabling the **Enhanced Active Cases** view as the default view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
 
 >    :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
 

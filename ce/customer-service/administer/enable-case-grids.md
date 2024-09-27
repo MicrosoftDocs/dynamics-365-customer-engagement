@@ -22,12 +22,14 @@ Increase your agent's productivity by providing quick access to information, suc
 
 The following are some of the key features of the modernized case grids:
 
-- The **Enhanced Active Cases** view is enabled by default for the **Case** entity, with a predefined set of columns that enable agent to:
-    - View icons for **Priority** and the **Origin** channel.
+- The **Enhanced Active Cases** view is available for the **Case** entity with a predefined set of columns that enable agent to:
+    - View icons for **Priority**, **Case status**, and the **Origin** channel.
     -	View avatars for the assigned **Owner**.
     - View key data, such as **Case Age**, **Next SLA**, **Is escalated** and **Last Interaction**, by default.
     - Perform inline edits and update data for columns. For example, agents can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when agents move to the next row. However, edit actions aren't enabled by default. To allow agents to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
-- Color coded icons for **Priority** and the **Origin** channels, avatars for **Owner** appear in all the case views.
+- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views.
+ > [!NOTE]
+ > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 - The ability to use quick navigation to respond to the latest interaction.
 
 ## Enable inline edits and color coded case status fields
@@ -42,9 +44,7 @@ To enable inline edits on columns, do the following:
 1. On the **Case** page, in the **Controls** section, select **Power Apps grid control**.
 1. In the **Property** section in **Enable editing**, select **Edit**. The **Configure property Enable Editing** dialog appears.
 1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
-1. Set **Enable OptionSet colors** to **Yes** to display color coded case status fields.
-     > [!NOTE]
-     > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
+
 1. Select **Save**, and then select **Publish**.
 
 ## Add columns to the case grid
