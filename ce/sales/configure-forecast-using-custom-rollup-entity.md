@@ -1,7 +1,7 @@
 ---
 title: Configure a forecast using custom rollup entity 
 description: Configure a forecast using custom rollup entity in Dynamics 365 Sales.
-ms.date: 08/30/2023
+ms.date: 09/27/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -87,7 +87,7 @@ Let's configure this forecast.
 4.	In the **Layout** section, choose the option set entity from the rollup entity or from its related entities. For this data model, the forecast categories exist in the Opportunity entity. Select the **Opportunity (Opportunity)** option set entity from **Related Entities**.
 
     > [!div class="mx-imgBorder"]
-    > ![Select the Opportunity entity from related entities.](media/forecast-ce-select-opportunity-entity.png "Select the Opportunity entity from related entities")
+    > ![Select the Opportunity entity from related entities.](media/forecast-ce-select-opportunity(opportunity)-entity.png "Select the Opportunity entity from related entities")
 
     a. In the **Opportunity (Opportunity)** entity, the **Forecast category** option set is selected and automatically configured.
 
