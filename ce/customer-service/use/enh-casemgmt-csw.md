@@ -73,7 +73,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
-   On the Case for Multisession experience form, which is the default case form for Customer Service workspace, you can do the following: 
+   On the **Case for Multisession experience** form, which is the default case form for Customer Service workspace, you can do the following: 
 
    - See color coded **Case Status** fields and **Priority** icons.
    - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator has configured the attachment control.
