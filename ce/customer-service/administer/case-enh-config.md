@@ -43,14 +43,13 @@ Watch this video to understand enhanced case form and how to set it up.
 
 ## View default components available on enhanced full case form
 
-The following components are available by default in the enhanced full case form. You can use these components to customize other forms. 
+The following image displays the run time experience of the components that  are available by default in the enhanced full case form. You can use these components to customize other forms. 
 
 > [!NOTE]
-> In the **Case for multisession experience** form, which is the default case form for Customer Service workspace, **OptionSet Wrapper**, **Queue Item Control**, **Due open activities control**, and **Attachment Control** components are enabled by default. 
+> - In the **Case for multisession experience** form, which is the default case form for Customer Service workspace, **OptionSet Wrapper**, **Queue Item Control**, **Due open activities control**, and **Attachment Control** components are enabled by default.
+> - You can learn more about how these components are displayed on the **Case for multisession experience** form realtime in [Default main case form: Case](../use/enh-casemgmt-csw.md#create-a-case-from-the-main-case-form) section.
 
-You can learn more about how these components are displayed on the **Case for multisession experience** form realtime in [Default main case form: Case](../use/enh-casemgmt-csw.md#create-a-case-from-the-main-case-form) section.
 
-When you add the components to a form, the runtime experience is as follows:
 
  :::image type="content" source="../media/runtime-exp-mini.png" alt-text="screenshot for enhanced full case form " lightbox="../media/runtime-exp.png":::
 
@@ -63,7 +62,7 @@ Legend:
 | 3| **OptionSet Wrapper** | Displays the selected option set values as color-coded options on the form. For example, if you add **Priority** on a case, the application displays color-coded priority icons. If you add **Case Status**, color-coded status options are displayed.| Available for all entities. You can add this component to choices or option set field types but not to non editable fields or fields that don't support option set type, such as single line of text. | Specify the required option set in **Table Column**.| 
 | 4 | **Queue Item Control** |  Displays the current queue a record belongs to and the **Worked by** field. You can edit the **Worked by** and save the changes.| Available for queue enabled entities. | Specify a value in **Table Column**.| |
 |5 | **Due open activities control** |  Displays the activities that are due today or are overdue. | Available for all entities.| **Table** must be set to **Activities**.|[Use the Due open activities control to customize forms](add-due-open-activities.md) |
-| | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entity only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. Learn more in [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)| |
+|  | **Notes Control** | Allows you to take notes on a form before saving a record. The rich text editor tool is enabled by default.| Available for case entity only.| - Set the **Table Column** in the component to **Pre Create Notes Id**. <br> - To configure advanced rich text configurations, specify the **Rich text editor configuration URL**. Learn more in [Create and use advanced configuration for the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#create-and-use-advanced-configuration-for-the-rich-text-editor-control)| |
 
 
 You can add these default components to other forms and customize them. Learn more in [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
