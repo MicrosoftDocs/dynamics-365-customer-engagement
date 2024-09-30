@@ -82,10 +82,9 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 ## Waiting
 
 > [!NOTE]
-> Waiting state applies to asynchronous and persistent chats only, and not live chats.
+> Waiting state applies to asynchronous and persistent chats only, and not live chats or voice calls.
 
-A conversation in waiting doesn't consume agent capacity.When an agent closes the session by selecting the close icon but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the agent has asked for more information from the customer who is yet to respond back and the agent closes the communication panel without ending the conversation. The conversation is
-reassigned to an agent after the customer responds.
+A conversation in waiting doesn't consume agent capacity.When an agent closes the session by selecting the close icon but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the agent has asked for more information from the customer who is yet to respond back and the agent closes the communication panel without ending the conversation. The conversation is reassigned to an agent after the customer responds.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
