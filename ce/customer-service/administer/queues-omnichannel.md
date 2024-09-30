@@ -49,7 +49,7 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
     1. In the **Create a queue** dialog, enter the following details:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
-       - **Group number**: A number to [prioritize the queue](#configure-cross-queue-prioritization).
+       - **Group number**: A number to [prioritize the queue](#configure-queue-prioritization).
     1. Select **Create**. The queue that you created is displayed.
 
        :::image type="content" source="../media/queue-summary-ur.png" alt-text="A screenshot of an advanced queue in admin center.":::
