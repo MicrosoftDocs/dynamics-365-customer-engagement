@@ -21,7 +21,7 @@ This article contains the FAQs that you as an administrator, supervisor, or agen
 
 You must have the Customer Service Enterprise license. [See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
 
-### What will happen to my current workstreams after unified routing is installed?
+### What happens to my current workstreams after unified routing is installed?
 
 For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For routing records, you can configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
 
@@ -88,7 +88,7 @@ No. It's not possible to pause the assignment of a case.
 
 ### Can agents pick work items of records to which they don't have permissions?
 
-Yes, agents can pick the work item even if they don't have permission to access the record. However, they can't view the details and the conversation will be closed. For more information, see the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings).
+Yes, agents can pick the work item even if they don't have permission to access the record. However, they can't view the details and the conversation is closed. For more information, refer to the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings).
 
 ### Can supervisors assign work items pertaining to inaccessible records?
 
@@ -105,7 +105,7 @@ Yes, you can export a configuration with unified routing content for the record 
 
 Yes. It's possible to reassign a case to another queue. On the case form, select **Save and route** to reassign the work item from one queue to another queue.
 
-### Why am I not able to see the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
+### Why can't I view the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
 
 A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
 
@@ -133,7 +133,7 @@ Yes, you can update the limit. More information: [How the limit on offering a wo
 
 ### Does unified routing offer the same conversation when agent declines it or after the notification times out?
 
-The declined conversation isn't offered to the agent anymore and agent is removed from priority but can be offered other conversations. However, if they are the only eligible agents, the system offers the same conversation up to three times or the configured limit.
+The declined conversation isn't offered to the agent anymore and agent is removed from priority but can be offered other conversations. However, if they're the only eligible agents, the system offers the same conversation up to three times or the configured limit.
 
 ## Route to least-active agent
 
@@ -151,11 +151,11 @@ If the last capacity release time is the same for two matching agents, then assi
 
 ### How does routing to the least active agent work when a new agent signs in?
 
-When a new agent signs in to the Customer Service workspace app, their "last capacity release time" won't be available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item to them.
+When a new agent signs in to the Customer Service workspace app, their "last capacity release time" isn't available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item to them.
 
 ## Intelligent skill finder
 
-### Will intelligent skill finder be available in all geographical regions?
+### Is intelligent skill finder available in all geographical regions?
 
 Intelligent skill finder requires AI Builder to create and train the machine learning model. If AI Builder isn't available in the customer region where unified routing is, the customer gets a generic error when trying to set up the model.
 
@@ -180,7 +180,7 @@ If two of the agents match one each of the required capacity profiles and the th
 
 Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It was deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
 
-### What is the alternative to routing diagnostics once it's deprecated?
+### What is the alternative to routing diagnostics once it deprecates?
 
 Customers can use Azure Application Insights, which is our one-stop solution to get a comprehensive view of end-to-end conversation diagnostics.
 
@@ -198,7 +198,7 @@ To enable application insights, you need to set up a connection of your Dynamics
 
 ### Do I need to purchase any add-on to use application insights?
 
-A pay-as-you-go pricing model is associated with Azure Monitor. The Application Insights tool in Azure Monitor helps you monitor the availability, performance, and usage of your D365. Azure Monitor charges you for the features you use. When you set up Application Insights for ingestion, retention, and export of data, Azure Monitor charges you based on this use. More information: [Pricing](/power-platform/admin/conversation-diagnostics-application-insights#pricing)
+A pay-as-you-go pricing model is associated with Azure Monitor. The Application Insights tool in Azure Monitor helps you monitor the availability, performance, and usage of your Dynamics 365 apps. Azure Monitor charges you for the features you use. When you set up Application Insights for ingestion, retention, and export of data, Azure Monitor charges you based on this use. More information: [Pricing](/power-platform/admin/conversation-diagnostics-application-insights#pricing)
 
 ### Can all my users access application insights? How do I give access for everybody?
 
