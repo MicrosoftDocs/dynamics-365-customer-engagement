@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: neeranelli 
 ms.topic: how-to 
-ms.date: 08/02/2024
+ms.date: 09/30/2024
 ms.custom: bap-template 
 ---
 
@@ -50,7 +50,6 @@ The following components are available by default in the enhanced full case form
    - **OptionSet Wrapper**
    - **Queue Item Control**
    - **Due open activities control**
-   - **Enable to author a note before saving the form**: The checkbox in the **Notes** section in the **Timeline** control is enabled by default allowing agents to add notes without having to save the form.
    - **Attachment Control**: Displays the attachments that are linked to the case by default. If you want agents to upload attachments and do other actions, perform the steps in [Use attachment control](add-attachment-control.md)
 
 You can learn more about how these components are displayed on the **Case for multisession experience** form realtime in [Default main case form: Case](../use/enh-casemgmt-csw.md#create-a-case-from-the-main-case-form) section.

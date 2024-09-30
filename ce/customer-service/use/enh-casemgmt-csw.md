@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham 
 ms.reviewer: neeranelli
 ms.topic: conceptual
-ms.date: 08/02/2024 
+ms.date: 09/30/2024 
 ms.custom: bap-template 
 ---
 
@@ -76,7 +76,6 @@ Depending on the settings that are enabled for you, either the enhanced full cas
    On the Case for Multisession experience form, which is the default case form for Customer Service workspace, you can do the following: 
 
    - See color coded **Case Status** fields and **Priority** icons.
-   - Add notes without saving the case.
    - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator has configured the attachment control.
    - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due or overdue on the current date. Select a link to view the activities in the **Due Activities** view.
    - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to and the **Worked by** field
