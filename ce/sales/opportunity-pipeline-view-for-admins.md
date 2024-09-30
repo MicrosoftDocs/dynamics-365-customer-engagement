@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to 
-ms.date: 07/25/2024
+ms.date: 09/30/2024
 ms.custom: bap-template 
 ---
 
@@ -65,7 +65,15 @@ Do one of the following depending on your license:
 - If you have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=9f1002bf-ce2d-ed11-9db1-0022480a772e&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
   
     :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png":::
-  
+
+### Permissions required for opportunity pipeline view
+
+Permissions to access the pipeline view and the settings page are controlled by the **dealmanagersettings** and **dealmanageraccess** entities. The permissions are granted to the following security roles by default:
+
+- The read privileges to dealmanagersettings and dealmanageraccess entity is granted to all security roles which are customizable on publish or on first load from the opportunity pipeline view settings page.
+
+- The sales-related security roles such as salesperson, sales manager, and vice president of sales get the read privileges to dealmanagersettings and dealmanageraccess entities by default.
+
 ## Set the default form for side panel
 
 When sellers open an opportunity from the pipeline view, the side panel displays the opportunity details in the Sales Insights form. You can change the default form to the main opportunity form or a custom form for your organization. For example, you can create a custom form specifically for the side panel and set that as default. Sellers can switch to a different form if they prefer and their selection will be remembered and set as a default for them.  
