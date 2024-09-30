@@ -26,7 +26,7 @@ The modernized case grids help you increase your productivity by providing quick
 The **Enhanced Active Cases** view displays the following fields:
 
 > [!NOTE]
-> - Enabling the **Enhanced Active Cases** view as the default view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
+> - Enabling the **Enhanced Active Cases** view as the default view alters the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
 
 >    :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
 
