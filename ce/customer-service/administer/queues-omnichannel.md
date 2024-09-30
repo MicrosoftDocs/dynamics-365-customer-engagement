@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 09/24/2024
+ms.date: 09/30/2024
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -37,7 +37,7 @@ To simplify the routing experience for administrators and supervisors, queues ar
 
 The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection are based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues are shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a record queue.
 
-Assign a group number that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller group number over a queue with a larger group number. For example, if you need to prioritize conversations over cases and vice versa, you can assign group numbers to the corresponding queues accordingly.
+Assign a group number that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller group number over a queue with a larger group number. For example, if you need to prioritize conversations over cases, you can assign group numbers to the corresponding queues accordingly. For the queues that handle conversations, you can assign a group number 1 and for the queues that handle cases, you can assign 2 as the group number. Similarly, you can prioritize one type of work over another. Assign group number 1 to the queue with premium customer chats for higher priority and group  number 2 to the queue that handles general customer questions to give it lower priority.
 
 ## Create a queue for unified routing
 
