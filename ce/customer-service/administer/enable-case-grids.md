@@ -28,8 +28,8 @@ The following are some of the key features of the modernized case grids:
     - View key data, such as **Case Age**, **Next SLA**, **Is escalated** and **Last Interaction**, by default.
     - Perform inline edits and update data for columns. For example, agents can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when agents move to the next row. However, edit actions aren't enabled by default. To allow agents to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
 - Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views.
- > [!NOTE]
- > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
+  > [!NOTE]
+  > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 - The ability to use quick navigation to respond to the latest interaction.
 
 ## Enable inline edits and color coded case status fields
@@ -53,11 +53,11 @@ To enable inline edits on columns, do the following:
 
 1. Select **Solutions**. The **Solutions** page appears.
 1. On the **Solutions** page, select **Default Solution**.
-1. On the left pane on the **Default Solution** page, select **Tables**, and then select **Case**.
+1. On the left pane of the **Default Solution** page, select **Tables**, and then select **Case**.
 1. On the **Case** page, select **Views**.
 1. Select the case type that you want to update, for example, **All Cases**.
 1. On the **View** page, select **+ View** column.
-1. In the **View column** dialog, search for the column that you want to add&mdash;for example, the **Last Interaction** column. The **Last Interaction** column now appears on the **View** page.
+1. In the **View column** dialog, search for the column that you want to add, for example, the **Last Interaction** column. The **Last Interaction** column now appears on the **View** page.
 1. Select **Save**, and then select **Publish**.
 
 ## Add new icons for Origin and Priority Columns
@@ -85,7 +85,7 @@ If you want to revert to the legacy grids, perform the following steps:
 1. Select **Switch to classic**.
 1. Select **Entities** > **Case**.
 1. On the **Case** page, in the **Controls** section, select **Web**,**Phone**, or **Tablet** for **Read-only Grid (default)** or delete **Power Apps grid control**.
-1. Select Save and then Publish.
+1. Select **Save and Publish**.
 
 ### Related information
 
