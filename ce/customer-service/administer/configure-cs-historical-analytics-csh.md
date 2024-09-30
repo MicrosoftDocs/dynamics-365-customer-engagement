@@ -1,5 +1,5 @@
 ---
-title: "Manage historical analytics reports in Customer Service | MicrosoftDocs"
+title: Manage historical analytics reports in Customer Service
 description: Learn how to configure Customer Service historical analytics reports in Omnichannel for Customer Service.
 ms.date: 09/30/2024
 ms.topic: article
@@ -67,9 +67,9 @@ Use the Customer Service admin center app to enable or disable the reports. The 
 
 Customer Service historical analytics must be enabled and you must opt in to the Copilot help pane and Copilot summaries to turn on analytics for Copilot.
 
-1. In the Customer Service admin center, go to Insights, and on the page that appears, select **Manage** for **Customer Service historical analytics**.
+1. In the Customer Service admin center, go to **Insights**, and on the page that appears, select **Manage** for **Copilot analytics**.
 
-1. On the **Customer Service historical analytics** page, select the **Add historical analytics for Copilot** checkbox, and then save the changes.
+1. On the **Copilot analytics** page, select the **Add historical analytics for Copilot** checkbox, and then save the changes.
 
 The command bar displays a message that your reports are being provisioned and it might take up to 24 hours for the process to complete.
 
