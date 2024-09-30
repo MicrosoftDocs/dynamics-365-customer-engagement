@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 04/05/2024
+ms.date: 08/22/2024
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -15,7 +15,6 @@ ms.custom:
 # Responsible AI FAQ for Copilot in Customer Service
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 This FAQ article helps answer the questions around the responsible use of AI in copilot features in Customer Service.
 
@@ -105,7 +104,11 @@ Copilot enforces the role-based access (RBAC) controls defined and adheres to al
 
 Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data is not shared and is not fed back into public models.
 
-### See also
+### What are the language limitations for summaries that Copilot generates from cases and conversations?
+
+Many languages are supported in Copilot-generated summaries from cases and conversations. The quality of these summaries is expected to be the highest in English, while in the other languages, the quality is expected to improve over time.
+
+### Related information
 
 [Use copilot features](../use/use-copilot-features.md)  
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  

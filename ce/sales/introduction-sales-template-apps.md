@@ -54,7 +54,7 @@ As a sales enablement manager, use this template app to perform the following ta
 > [!NOTE]
 > Contact your system administrator if you experience configuration errors or if you're unable to view the dashboards.
 
-### See also
+## Related information
 
 [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)<br>
 [Customize Power BI template apps for Dynamics 365 Sales](customize-template-apps.md)

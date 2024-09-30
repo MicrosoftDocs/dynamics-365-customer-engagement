@@ -29,9 +29,7 @@ Depending on the license you have, select one of the following tabs to know on h
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-1. From the Sales Hub app, select the **Settings** icon (:::image type="content" source="media/settings-icon.png" alt-text="Settings icon":::), and then **Advanced settings**. 
-
-2. Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.
+Follow the instructions in [Use Word templates to create standardized documents](/power-platform/admin/using-word-templates-dynamics-365?context=/dynamics365/context/sales-context) to create a word template.
 
 # [Sales Professional](#tab/SP)
 
@@ -113,7 +111,7 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Export sales records to PDF](create-quote-pdf.md)
 - [Enable automatic generation of quote and invoice documents in Sales Professional](enable-automatic-generation-quotes-invoices.md)
@@ -121,3 +119,4 @@ An administrator can use the **Advanced Settings** page to upload the Word templ
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -18,7 +18,7 @@ ms.custom:
 # View diagnostics for unified routing
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as on May 09, 2024, and will be removed on August 01, 2024. For more information, see [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated as on May 09, 2024, and will be removed on October 15, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Unified routing helps you assign a work item to the best suited agent or queue to handle it, based on the agent skills and the entities that are related to the work item. Routing diagnostics gives a granular view of each of the routed records to help you understand and diagnose issues that occur in the classification and assignment of work items.
 
@@ -143,7 +143,7 @@ The following stages are available:
 
 For known issues in diagnostics, see [Known issues in Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2165393).
 
-### See also
+### Related information
 
 [Overview of skill based routing](overview-skill-work-distribution.md)  
 [Assignment methods for Queues](assignment-methods.md) 

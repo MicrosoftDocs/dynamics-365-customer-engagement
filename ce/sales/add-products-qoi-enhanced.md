@@ -145,7 +145,7 @@ Remove products if you've selected them inadvertently or they're no longer relev
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add Products dialog box](customize-add-products-dialog-box.md)

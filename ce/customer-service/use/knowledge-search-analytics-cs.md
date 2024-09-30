@@ -88,7 +88,7 @@ Use the Timezone option available in the reports to view the  time information a
 
 :::image type="content" source="../media/knowledge-analytics-timezone.png" alt-text="Screenshot shows Timezone view in reports":::
 
-### See also
+### Related information
 
 [Configure knowledge search insights](../administer/enable-knowledge-search-insights.md)  
 [Search for knowledge articles](search-knowledge-articles-csh.md)  

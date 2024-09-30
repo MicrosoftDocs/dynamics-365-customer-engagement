@@ -167,7 +167,7 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 
 You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](associate-templates.md)
 
-### See also
+### Related information
 
 [Configure persistent chat](persistent-chat.md)  
 [Set up record routing](set-up-record-routing.md)  

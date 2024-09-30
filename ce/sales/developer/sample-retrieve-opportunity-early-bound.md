@@ -27,7 +27,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
 ## Example  
  [!code-csharp[BusinessManagement#RetrieveOpportunity](../../snippets/csharp/CRMV8/businessmanagement/cs/retrieveopportunity.cs#retrieveopportunity)]  
   
-### See also  
+## Related information  
     
  [Opportunity Tables](opportunity-entities.md)   
  [Sample: Convert an Opportunity to a Quote (Early Bound)](sample-convert-opportunity-quote-early-bound.md)

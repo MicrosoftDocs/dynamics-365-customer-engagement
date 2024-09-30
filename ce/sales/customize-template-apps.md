@@ -61,7 +61,7 @@ Before you customize the template app, read the information here and perform eac
 
 It might take several minutes for the queries to be updated.
 
-### See also
+## Related information
 
 [Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)<br>
 [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)

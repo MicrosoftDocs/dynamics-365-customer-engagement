@@ -1,11 +1,11 @@
 ---
 title: Deprecations in Dynamics 365 Customer Service
-description: Use this topic to get information about features that are deprecated in Dynamics 365 Customer Service.
+description: Use this article to get information about features that are deprecated in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 07/31/2024
+ms.date: 08/07/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -28,7 +28,7 @@ The following channels will be deprecated and removed in Omnichannel for Custome
 - Telegram custom messaging
 - Kik custom messaging
 
-After October 8, 2025, the above channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
+After October 8, 2024, the channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
 ## Google's Business Messages channel is deprecated and removed as of July 2024
 
@@ -36,9 +36,9 @@ The channel for Google's Business Messages in Omnichannel for Customer Service i
 
 Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
-## Diagnostics in unified routing is deprecated and will be removed in August 2024
+## Diagnostics in unified routing is deprecated and will be removed in October 2024
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024, and will be removed on August 01, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024, and will be removed on October 15, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 

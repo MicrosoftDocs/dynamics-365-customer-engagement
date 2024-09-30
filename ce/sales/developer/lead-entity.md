@@ -32,7 +32,7 @@ A link is maintained between the lead and any accounts and contacts. You can cre
   
 When you enter a lead into Dynamics 365 Sales, you can use the process (workflow) engine to automatically route it to a specific user or team based on rules that are defined by the business unit or channel partner. Upon qualification, the lead is either converted to an opportunity or is inactivated, but retained to allow for accurate business reporting, for example, analysis of the effectiveness of different lead sources. For more information, see [Business process flows](/power-automate/business-process-flows-overview).  
   
-### See also  
+## Related information  
  [Lead Table](entities/lead.md)   
  [Sample: Qualify a Lead](sample-qualify-lead.md)   
  [Sales Tables](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   

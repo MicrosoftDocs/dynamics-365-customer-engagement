@@ -37,7 +37,7 @@ If you are reading this document on your mobile device, you can install the app 
 
     ![Install the app on Android.](media/android-install-app.png "Install the app on Android")
 
-### See also
+## Related information
 
 [Configure mobile apps with Microsoft Intune](configure-app-intune.md)<br>
 [Set up the Microsoft Authenticator app as your verification method](https://support.microsoft.com/en-us/account-billing/set-up-the-microsoft-authenticator-app-as-your-verification-method-33452159-6af9-438f-8f82-63ce94cf3d29)

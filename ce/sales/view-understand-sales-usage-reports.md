@@ -137,6 +137,6 @@ The following table describes the summary charts that are displayed in the repor
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable sales usage reports](enable-sales-usage-reports.md)

@@ -152,7 +152,7 @@ The following metrics are available on the card.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]  
 
-### See also
+## Related information
 
 [Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant)  
 [Create custom insight cards](create-insight-cards-flow.md)  

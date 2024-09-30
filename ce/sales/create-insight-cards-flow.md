@@ -138,7 +138,7 @@ Use the **REST** option to invoke REST API.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]  
 
-### See also
+## Related information
 
 [Configure and manage insight cards for the premium assistant](configure-assistant.md#premium-assistant)  
 [Edit insight cards](edit-insight-cards.md)  

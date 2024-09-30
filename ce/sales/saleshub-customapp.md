@@ -71,7 +71,7 @@ You can't automatically revert changes to the Sales Hub app. You have to manuall
 
 For example, let's say you've removed an entry (such as Cases) from the site map and you want to add it back. You have to manually add the entry to the sitemap. For more information, see [Customize the app](manage-app.md#customize-the-app).
 
-### See also
+## Related information
 
 - [Use the Sales Hub app to access Dynamics 365 Sales features](intro-saleshub.md)
 - [Build your first model-driven app](/power-apps/maker/model-driven-apps/build-first-model-driven-app)

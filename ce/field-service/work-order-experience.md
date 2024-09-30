@@ -92,7 +92,7 @@ The **Booking** card contains different information, depending on the work order
 
 - **Scheduled**: View the technician's contact information, the time and duration of the appointment, and the expected travel time.  You can start a phone call or email using the default client set in your browser. The **Message** link opens Microsoft Teams. You can change the booking's status and rebook it if needed.
 
-- **Completed**: View a summary of the work, including the resolution and the number of products and services the technician used. If the work order isn't posted, you can review the information and then post it or [print a service report](mobile-powerapp-reporting.md). If the work order has been posted, you can print the service report and view or print the invoice.
+- **Completed**: View a summary of the work, including the resolution and the number of products and services the technician used. If the work order isn't posted, you can review the information and then post it or [print a service report](mobile/create-service-report.md). If the work order has been posted, you can print the service report and view or print the invoice.
 
 #### Contacts card
 

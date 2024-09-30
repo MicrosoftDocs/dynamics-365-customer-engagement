@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
-ms.date: 08/11/2023
+ms.date: 09/20/2024
 ms.custom:
 - bap-template
 - ai-gen-docs-bap
@@ -37,50 +37,38 @@ You can assign only active records to segments. For example, when a lead is qual
 
 Your organization can have up to 250 active segments at one time. A segment can have any number of assignment rules, but only 10 rules can be active at one time. If you need more, contact Microsoft Support.
 
-1. Sign in to your Sales Hub app.
-
-1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
-
-1. Under **Sales accelerator**, select **Work assignment**.
-
-1. Select a **Record type**.
-
+1. Sign in to your Sales Hub app.  
+1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.  
+1. Under **Sales accelerator**, select **Work assignment**.  
+1. Select a **Record type**.  
     The lead and opportunity record types are available by default. The list also includes other record types that are selected in the [sales accelerator configuration](enable-configure-sales-accelerator.md#choose-content-and-layout).
 
-1. Select **+ New segment**.
-
-1. Enter a **Name** and, optionally, a **Description** of the segment.
-
-1. Enter the segment's **Priority**.
-
-    The priority determines which segment records are assigned to when they meet the criteria for more than one. The segment with the highest priority takes precedence. By default, the priority is initially set to the priority of the last segment that was created. The default, out-of-the-box segment always has the lowest priority.
-
+1. Select **+ New segment**.  
+1. Enter a **Name** and, optionally, a **Description** of the segment.  
+1. Enter the segment's **Priority**.  
+    The priority determines which segment records are assigned to when they meet the criteria for more than one. The segment with the highest priority takes precedence. By default, the priority is initially set to the priority of the last segment that was created. The default, out-of-the-box segment always has the lowest priority.  
     Set a priority for every segment. You can change the priority of a segment at any time.
 
-1. Select **Next** to open the segment condition builder page.
+1. Select **Next** to open the segment condition builder page.  
 
     :::image type="content" source="media/wa-segment-condition-builder-home-page.png" alt-text="Screenshot of the segment condition builder page.":::
 
     On this page, define the conditions that are used to evaluate records for assignment to the segment. You can add up to 10 conditions in a segment, including conditions that are based on groups and related entities. If you need more, contact Microsoft Support. [Read our recommendations for adding conditions](#recommendations-for-adding-conditions).
 
-1. Select **Add**, and then use the following options to build the conditions of the segment:
-
+1. Select **Add**, and then use the following options to build the conditions of the segment:  
     - **Add row**: Add a condition. Select an attribute, an operator, and a value; for example, *Created by* *Equals* *John Thomas*.
 
       :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::
 
         Add more conditions as needed, for a total of 10, to further filter the records that should be assigned to the segment.
 
-    - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.
-
-    - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.
+    - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, leads must meet all the conditions in the group. If you select **Or**, leads can meet any condition in the group.  
+    - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
 
       :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
-1. (Optional) When you've finished defining the conditions, select **Simulate results** to view a list of records that satisfy the conditions.
-
-    These results are simulated. They might not reflect the actual records that the segment can be applied to.
-
+1. (Optional) When you've finished defining the conditions, select **Simulate results** to view a list of records that satisfy the conditions.  
+    These results are simulated. They might not reflect the actual records that the segment can be applied to.  
 1. Select **Save**, and then select **Activate**.
 
 > [!NOTE]
@@ -103,6 +91,6 @@ A segment can have up to 10 conditions at one time. To optimize the performance 
 - [Connect segments to sequences](wa-connect-a-segment-to-sequence.md).
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md).
 
-### See also
+## Related information
 
 - [Edit segments](wa-edit-a-segment.md)

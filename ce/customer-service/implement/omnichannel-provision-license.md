@@ -12,6 +12,7 @@ ms.collection:
 
 # Provision Omnichannel for Customer Service
 
+
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
@@ -45,12 +46,12 @@ You can provision the following channels in Omnichannel for Customer Service:
 
 - Set up the prerequisites mentioned in the system requirements. More information: [Prerequisites](../implement/system-requirements-omnichannel.md#prerequisites).
 
-- Ensure that the provisioning user has the following permissions:
-  - Microsoft 365 Global admin role. More information: [Assign admin roles to user in Microsoft Office 365](/microsoft-365/admin/add-users/assign-admin-roles)
-  - Dynamics 365 System Administrator role on the root business unit for your organization. More information: [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units)
-  - Read-Write access in the Client Access License Information (CAL). More information: [Create a Read-Write user account in Power Platform](/power-platform/admin/create-users#create-a-read-write-user-account)
+- Make sure that the provisioning user has the Dynamics 365 System Administrator role on the root business unit for your organization. Learn more at [Assign security roles to a user in Power Platform](/power-platform/admin/assign-security-roles) and [Create or edit business units](/power-platform/admin/create-edit-business-units).
 
 ## Set up Omnichannel for Customer Service<a name="set-up-omnichannel"> </a>
+
+> [!NOTE]
+> You'll be able to use the [admin center experience to provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) after it's available in your region. Once the new experience is available, you can only view existing environments and channels in the Power Platform admin center.
 
 1. In [Power Platform admin center](https://admin.powerplatform.microsoft.com/), on the **Environments** page, select the environment in which you want to set up Omnichannel for Customer Service.
 
@@ -159,7 +160,7 @@ After the Omnichannel for Customer Service application is successfully provision
 
 [Instance is not available to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel)
 
-### See also
+### Related information
 
 [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)  
 [Create workstreams](../administer/create-workstreams.md)  

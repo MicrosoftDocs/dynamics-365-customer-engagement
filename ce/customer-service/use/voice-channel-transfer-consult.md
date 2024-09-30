@@ -14,7 +14,7 @@ ms.author: mgandham
 
 You can transfer calls or consult with other agents or supervisors to collaborate with them on questions that you might have when you're on a call with a customer. 
 
-To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](voice-channel-agent-experience.md).
+To familiarize yourself with the call controls, see [Understand how to use the agent dashboard and call controls](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Transfer calls
 
@@ -121,7 +121,7 @@ When you initiate a consult, the following actions occur:
     
     The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
 
-### See also
+### Related information
 
 [Overview of the voice channel](../administer/voice-channel.md)  
 [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)  

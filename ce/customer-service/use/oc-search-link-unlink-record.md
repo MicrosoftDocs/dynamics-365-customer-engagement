@@ -95,7 +95,7 @@ To unlink a record, select **Close** next to the customer name in the customer (
 > [!div class=mx-imgBorder]
 > ![Blank customer section after unlinking the record.](../media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
 
-### See also
+### Related information
 
 - [Understand conversation states](oc-conversation-state.md)
 - [View customer information on Active Conversation form](oc-customer-summary.md)

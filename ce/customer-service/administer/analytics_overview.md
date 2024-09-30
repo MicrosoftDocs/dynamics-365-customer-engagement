@@ -49,6 +49,6 @@ Here are the customizations that you can utilize.
   - [Manage Bookmarks for Reports](../use/manage-bookmarks.md#manage-bookmarks-for-reports): Utilize bookmarks to save the filters you set, allowing for easy viewing of specific data each time you open the report.
 - [Utilize Omnichannel for Customer Service Metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics): Perform a quantitative assessment of the data displayed on the Omnichannel for Customer Service dashboards. Use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
 
-## See Also
+## Related information
 
 [Configure analytics and insights dashboards](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards)

@@ -57,14 +57,17 @@ You can have multiple conversations open on multiple browsers and view the conve
 
 For example, when you select an active work item or monitor a conversation, it opens on the same browser. All other browsers remain as-is.
 
-When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed.
+When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed. 
 
-For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
+
+For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers. If you want to join the conversation in another browser, you must close the session in the current browser and open the conversation in the other browser.
 
 > [!NOTE]
-> Ensure that you close the persistent chat sessions in all the windows when you have the same chat open in multiple windows. Otherwise, one window will allow you to send messages even after you've selected **End** to end the chat in the other chat window.
+> - Ensure that you close the persistent chat sessions in all the windows where you have the same chat open. Else, other windows will still allow you to send messages even after you've selected **End** to end the chat in one chat window.
+> - When you accept a voice conversation, from different tabs or windows, your capacity may be impacted. To join a voice conversation in a new browser, you must close the session in the current browser and open it on a new browser.
 
-### See also
+
+### Related information
 
 [Create a record](oc-create-record.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  

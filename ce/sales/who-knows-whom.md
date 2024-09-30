@@ -6,7 +6,10 @@ ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - references_regions
+
 ---
 
 # Use who knows whom to connect with leads and contacts  
@@ -66,7 +69,7 @@ You can opt out if you don't want Dynamics 365 to collect and analyze your Excha
 
 4. Turn off **Include my data in Dynamics 365 applications**.
 
-### See also
+## Related information
 
 [Configure who knows whom](configure-who-knows-whom.md)
 

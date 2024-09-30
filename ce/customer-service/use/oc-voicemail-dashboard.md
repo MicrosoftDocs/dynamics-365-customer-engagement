@@ -32,7 +32,7 @@ The charts display the following metrics.
 | Voicemail by queue | The number of voicemails by queue.|
 | Voicemail by agent | The number of voicemails assigned to an agent.|
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

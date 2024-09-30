@@ -103,7 +103,7 @@ You can create an order that is based on your communication with a customer inst
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Print quote, invoice, or other records](print-records.md)
 [Sales transactions in Dynamics 365 Sales](sales-transactions.md)

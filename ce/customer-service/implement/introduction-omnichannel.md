@@ -75,7 +75,7 @@ The following image shows the inbox case view:
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Prerequisites and system requirements](system-requirements-omnichannel.md)  
 [Assign roles and enable users for Omnichannel for Customer Service](add-users-assign-roles.md)  

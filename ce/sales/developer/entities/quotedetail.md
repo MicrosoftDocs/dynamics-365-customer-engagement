@@ -1713,7 +1713,7 @@ See the [quotedetail_parentref_quotedetail](quotedetail.md#BKMK_quotedetail_pare
 
 See the [quote_details](quote.md#BKMK_quote_details) one-to-many relationship for the [quote](quote.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

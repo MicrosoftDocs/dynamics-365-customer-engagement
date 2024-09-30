@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations for th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 09/28/2023
+ms.date: 08/01/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -36,6 +36,9 @@ The following table lists the global region, URL, and general and trial availabi
 
 ## Local cloud deployments
 
+> [!IMPORTANT]
+> The local hosting capabilities for the voice channel in India and Japan will be deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
+
 If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
 |Geographic location | URL| General availability | Availability in Customer Service trial|
@@ -44,8 +47,6 @@ If you need your data to stay within a region, the following table lists the loc
 |United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
 |Canada **<sup>1 </sup>** |crm3.dynamics.com |Available | To be announced  |
 |Switzerland **<sup>1</sup>** |crm17.dynamics.com  | Available | To be announced|
-|India **<sup>1</sup>** | crm8.dynamics.com | Available | To be announced|
-|Japan **<sup>1, 2</sup>** | To be announced  | In preview| To be announced|
 |South America |To be announced | To be announced|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
@@ -92,7 +93,7 @@ The voice channel in Omnichannel for Customer Service doesn't support emergency 
 
 [Provision voice channel](voice-channel-install.md)  
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  

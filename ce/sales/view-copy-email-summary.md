@@ -51,6 +51,6 @@ The summary provides the highlights of the email conversations. To view the emai
 
 Copy the email summary to clipboard and save it in a desired location for future references such as notes in records. To copy the email summary, in the **Summary of this email** section, select the **Copy** icon (:::image type="content" source="media/copy-clipboard.png" alt-text="Screenshot of the copy icon.":::).  
 
-### See also
+## Related information
 
 [Compose and send email messages using Copilot](compose-send-email-copilot.md)

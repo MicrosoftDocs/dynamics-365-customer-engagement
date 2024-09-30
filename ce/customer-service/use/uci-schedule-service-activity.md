@@ -58,7 +58,7 @@ Before beginning to create a service activity, make sure you have the Scheduler 
 
    The service activity appears as a color block on the Service calendar. 
 
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)  
 [Create or edit a service](uci-create-edit-service.md)  

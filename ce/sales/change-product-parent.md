@@ -53,7 +53,7 @@ When you change the parent of a product, inherited properties from the previous 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Set up products (Sales and Sales Hub)](create-product-sales.md)  
 [Set up a product family (Sales and Sales Hub)](create-product-family.md)   

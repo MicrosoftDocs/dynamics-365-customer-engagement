@@ -1,7 +1,7 @@
 ---
 title: Data validation capabilities of LinkedIn Sales Navigator
 description: Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records.
-ms.date: 03/08/2024
+ms.date: 09/06/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -29,7 +29,7 @@ To ensure timely updates if a matched contact changes the company, the following
 
 - You must have a Microsoft Relationship Sales solution Plus license. To learn more, see the **Dynamics 365 Sales** section from the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
-- The data validation settings are turned on in **Settings** > **Business Management** > **Sales Navigator Integration Settings**. When the data validation feature is turned on for the first time, you'll get updates about the company change status for the past two years. Afterwards, the updates come are sent to the system on daily basis, every 24 hours.
+- The data validation settings are turned on in **Settings** > **Business Management** > **LinkedIn sales navigator**. When the data validation feature is turned on for the first time, you get updates about the company change status for the past two years. Afterwards, the updates come are sent to the system on daily basis, every 24 hours.
 
 ## Access the data validation capabilities Dynamics 365 Sales
 
@@ -47,21 +47,23 @@ There are several ways to find out if a contact's company has changed.
 
 To update the org chart for a specific contact, perform the following steps in the **Verify Contact Details** pane.
 
-![Side pane to verify contact details.](media/sales-navigator-side-pane.png)
+:::image type="content" source="media/sales-navigator-side-pane.png" alt-text="Screenshot of side pane to verify contact details.":::
 
 1. In Dynamics 365 Sales, open the **Verify Contact Details** pane as described in the section above.
 
-2. Under the LinkedIn Sales Navigator widget, search for the new account of this contact using the **Change Account** field.
+1. Under the **LinkedIn Sales Navigator** widget, search for the new account of this contact using the **Change Account** field.
 
-3. Select **Update contact** to change the company information of the contact.
+1. Select **Update contact** to change the company information of the contact.
 
-## Ignore the contact details
+## Ignore the proposed update to a contact
 
-To ignore a proposed update of an org chart, select **Ignore**  in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you'll be notified again. 
+>[!NOTE]
+>Your administrator must enable the **Personnel and employment changes** setting in the **Sales Navigator Integration Settings** to ignore a contact's company change. To know more about the setting, see [Enable LinkedIn Sales Navigator](install-sales-navigator.md#enable-linkedin-sales-navigator).  
 
-### See also
+To ignore a proposed update of an org chart, select **Ignore Update** in the **Verify Contact Details** pane. This option ignores only the current update. If the contact has changes in the future, you are notified again.  
+
+When your administrator enables the **Hide employment notification** setting in the **Sales Navigator Integration Settings**, selecting **Ignore Updates** ignore all current and future updates for the contact.  
+
+## Related information
 
 [Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -92,7 +92,7 @@ When you create a quick campaign activity, an activity is created for each membe
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Get started with in-app marketing](get-started-app-marketing-sales.md)   
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   

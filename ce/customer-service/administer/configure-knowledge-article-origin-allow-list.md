@@ -50,7 +50,7 @@ You can configure the origins allowlist in the Customer Service admin center or 
 
 To remove a domain, select **Close** next to the domain name.
 
-## See also
+## Related information
 
 [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)  
 [Search knowledge articles](../use/search-knowledge-articles-csh.md#search-knowledge-articles)  

@@ -173,7 +173,7 @@ You can use one of the following ways to connect a sequence to a record:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Manage your sequences](manage-sequences-seller.md)  

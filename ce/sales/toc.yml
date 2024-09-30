@@ -22,7 +22,7 @@
       href: create-quote-pdf.md
     - name: View and manage records in focused view
       href: focused-view.md
-    - name: Enable focused view and set it as default
+    - name: Configure focused view
       href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
@@ -101,6 +101,8 @@
                   href: import-data.md
             - name: Enable and administer Sales Insights features
               href: intro-admin-guide-sales-insights.md
+            - name: Advanced settings in the new experience (preview)
+              href: advanced-settings-new-experience.md
         - name: Installation FAQs
           href: faq-installation.md
         - name: Customize your sales app
@@ -177,16 +179,20 @@
           href: copilot-overview.md
         - name: Turn on and set up Copilot in Dynamics 365 Sales
           href: enable-setup-copilot.md
+        - name: Configure fields for summary and recent changes
+          href: copilot-configure-summary-fields.md
+        - name: Configure fields for what's new
+          href: copilot-configure-whatsnew-field.md
+        - name: Configure Copilot to use SharePoint sites
+          href: copilot-sharepoint-config.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
-        - name: Copilot data movement across geographies
-          href: sales-copilot-data-movement.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
-        - name: Configure focused view as default
+        - name: Configure focused view
           href: set-focused-view-as-default.md
         - name: Enable focused view for all records
           href: enable-focused-view.md
@@ -274,7 +280,7 @@
       items:
         - name: Lead management overview
           href: lead-management-overview.md
-        - name: Define lead qualification experience
+        - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
@@ -579,7 +585,7 @@
                   href: custom-sms-custom-api.md
                 - name: Define the custom channel
                   href: custom-define-sms-definition.md
-            - name: Edit phone numbers
+            - name: Manage phone numbers for SMS
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
@@ -759,6 +765,8 @@
               href: copilot-ask-questions.md
             - name: Get content recommendations and answers from SharePoint
               href: copilot-get-doc-suggestions.md
+            - name: Default attributes used in Copilot summaries
+              href: understand-copilot-summaries.md
         - name: Compose and send email messages using Copilot
           href: compose-send-email-copilot.md
         - name: View and copy email summary

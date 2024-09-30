@@ -111,7 +111,7 @@ After you complete these steps, your organization will be effectively upgraded t
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Dynamics 365 Licensing Update](/dynamics365/licensing/update)
 

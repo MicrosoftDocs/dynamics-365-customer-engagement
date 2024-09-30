@@ -1,7 +1,7 @@
 ---
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
-ms.date: 11/10/2023
+ms.date: 08/12/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -45,7 +45,7 @@ See the following table for the availability of the channels in the supported ge
 | United Arab Emirates (UAE) | ✔ |
 | United Kingdom | ✔ |
 
-<sup>1</sup> The Apple Messages for Business, Google's Business Messages, and Microsoft Teams channels aren't available in GCC.
+<sup>1</sup> The Apple Messages for Business, Whatsapp through Azure Communication Services, and Microsoft Teams channels aren't available in GCC.
 
 ## Language availability
 
@@ -73,7 +73,7 @@ The product user interface (UI) is available in the following languages.
 
 To know the languages that are supported in analytics, see [Multilingual sentiment](../administer/enable-sentiment-analysis.md#multilingual-sentiment).
 
-### See also
+### Related information
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [Introduction to channels in Omnichannel for Customer Service](../use/channels.md)  

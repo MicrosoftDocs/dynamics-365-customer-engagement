@@ -57,6 +57,6 @@ Make sure that you have the System Administrator or System Customizer security r
     **Relationship Name** automatically appears in the format: (Target Record Type)_ (Entity Name)_ (Field Name). For example, slakpiinstance_new_widget_Custom_Field_KPI.
 1.	Select **Save and close**, and then select **Publish All Customizations**.
 
-## See Also
+## Related information
 
 [Enable entities for service level agreements](enable-entities-service-level-agreements.md#enable-entities-for-service-level-agreements)

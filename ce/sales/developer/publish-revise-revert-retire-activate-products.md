@@ -119,7 +119,7 @@ RevertProductResponse reverted = (RevertProductResponse)_serviceProxy.Execute(re
 > [!NOTE]
 >  You can’t activate a retired product family or a retired bundle record.  
   
-### See also  
+## Related information  
  [Manage Product Pricing](product-pricing-methods.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog tables](product-catalog-entities.md)

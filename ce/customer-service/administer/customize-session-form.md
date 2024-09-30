@@ -25,7 +25,7 @@ As a system customizer, you might want to customize the session forms to suit yo
 6.  Select **Save** and select **Publish**.
 
 
-### See also
+### Related information
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Active Conversation form](customize-customer-summary.md)  

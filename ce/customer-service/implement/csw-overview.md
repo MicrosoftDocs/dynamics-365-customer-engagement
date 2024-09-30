@@ -150,7 +150,7 @@ You can enable the legacy layout in one of the following ways:
 
 ### Training resources
 
-Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180). The training covers the following topics:
+Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180). This training provides an overview of the following topics:
 
   * Get familiar with sessions, tabs, and productivity tools.
   * How to create agent experience profiles, templates, agent scripts and macros.
@@ -160,7 +160,7 @@ Download the [Customer Service workspace in a day training](https://go.microsoft
 
 [Migrate from Unified Service Desk to Customer Service workspace](../../unified-service-desk/admin/migrate-to-csw.md). The Unified Service Desk to Customer Service workspace Migration Playbook helps you plan and execute the transition from Unified Service Desk to Customer Service workspace.
 
-### See also
+### Related information
 
 [Work with cases in Customer Service Hub](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Overview of the productivity pane](../use/csw-productivity-pane.md)  

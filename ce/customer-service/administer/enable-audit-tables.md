@@ -140,6 +140,6 @@ The following table lists the activities that can appear in Customer Service aud
 
 [Learn more about the Microsoft Purview audit log, data retention policies, and capabilities](/purview/audit-solutions-overview).
 
-### See also
+### Related information
 
 [Audit New Search](/purview/audit-new-search)

@@ -179,7 +179,7 @@ Let's configure this forecast.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)

@@ -2182,7 +2182,7 @@ See the [metric_goal](metric.md#BKMK_metric_goal) one-to-many relationship for t
 
 See the [Goal_RollupError_Goal](goal.md#BKMK_Goal_RollupError_Goal) one-to-many relationship for the [goal](goal.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

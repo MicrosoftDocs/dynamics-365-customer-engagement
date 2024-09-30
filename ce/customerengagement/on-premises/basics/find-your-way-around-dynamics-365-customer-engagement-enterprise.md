@@ -169,7 +169,7 @@ If there is only one notification, you'll see a single line. If there are multip
 
 With Unified Interface for Customer Engagement (on-premises), navigation in app works the same as model-driven apps. Review the articles below to learn about basic navigation for a specific app.
 
-- [Find your way around the Sales Hub app](/dynamics365/sales-enterprise/user-guide-learn-basics.md)
+- [Find your way around the Sales Hub app](/dynamics365/sales/intro-saleshub)
 
 - [Find your way around the Customer Service Hub app](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-the-site-map-navigation)
 

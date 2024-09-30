@@ -127,7 +127,7 @@ Select the **Availability** tab and then select **Aggregated view** to view the 
 
 :::image type="content" source="../media/agent-custom-presence-drill-down.png" alt-text="Screenshot shows a drill-down view of an agent custom presence":::
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

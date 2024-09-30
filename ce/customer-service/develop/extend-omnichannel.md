@@ -47,7 +47,7 @@ You can integrate your line-of-business (in-house), social, and other messaging 
 
 Direct Line allows custom channels to be brought into Omnichannel for Customer Service by using the Microsoft Bot Framework. To bring in a custom channel, you can set up a Direct Line connection through the Azure Bot Service (which will incur Azure charges), and then bring that Direct Line bot into Omnichannel for Customer Service. More information: [Configure a custom messaging channel](../administer/configure-custom-channel.md)
 
-### See also
+### Related information
 
 [Bring your own custom messaging channel: Direct Line bot](../develop/bring-your-own-channel.md)  
 [Connect a bot to Direct Line](/azure/bot-service/bot-service-channel-connect-directline)  

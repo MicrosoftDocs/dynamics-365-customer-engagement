@@ -23,10 +23,7 @@ The LINE channel gives you an incredible opportunity to capitalize on the social
 
 ## Prerequisites
 
-Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
-
-> [!NOTE]
-> To enable the LINE channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](../implement/upgrade-omnichannel.md).
+The prerequisites to configure the LINE channel in Contact Center admin center or Customer Service admin center are as follows:
 
 1.	Create a [LINE](https://line.me/en/) handle.
 2.	Create a LINE channel in the LINE Developers console. More information: [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
@@ -40,7 +37,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 **To configure the LINE channel**
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
@@ -108,7 +105,7 @@ By enabling this feature, your data will be shared with LINE and flow outside of
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
 
-### See also
+### Related information
 
 [Understand and create workstreams](create-workstreams.md)  
 [Configure automated messages](configure-automated-message.md)  

@@ -1,7 +1,7 @@
 ---
 title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
-ms.date: 06/10/2024
+ms.date: 08/01/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -10,8 +10,6 @@ ms.author: jacoh
 # Create products or services for work orders
 
 Dynamics 365 Field Service uses the Dynamics 365 [product catalog](../sales-enterprise/set-up-product-catalog-walkthrough.md) and [price lists](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) for on-site service. Field technicians can use the same products for work orders that salespeople use for opportunities, quotes, and orders.
-
-With the product entity, you can create products and services to add to work orders.
 
 - **Product** is an item a field technician might record while completing a work order for which the client might be billed. Products can be physical items, like a battery or a part, or might be nonphysical components, like an oil change or an estimate. Both physical and nonphysical products are measured and sold in quantity of units. Many physical items are tracked as inventory. Nonphysical items aren't tracked as inventory.
 
@@ -30,7 +28,7 @@ In this article, learn how to create products and services, add them to work ord
 
 1. In the **General** section, select **Products**.
 
-1. Select **Add Product** to create a new product. Field Service doesn't support **Product Bundles**.
+1. Select **Add Product** to create a new product.
 
 1. Provide a **Name** and a **ProductID**.
 
@@ -110,17 +108,15 @@ After [creating a work order](create-work-order.md), you can add products and se
 
 ## Use products and services
 
-Work order products and services appear on work order forms in the mobile app, regardless if they are created individually or in bulk as part of a work order incident type.
-
 Work order products and services aren't required. Field technicians can edit the quantity or add new items from the product catalog. Administrators use [security roles and field security profiles](users-licenses-permissions.md) to specify what users can edit, create, and delete.
 
 On a work order product record, field technicians set the **Line Status** of a work order product to **Used**. They also enter a **Quantity**, which represents how many units were used and a **Quantity To Bill**.
 
-For inventory items, enter the warehouse it comes from to update the inventory. The system defaults to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
+For inventory items, technicians enter the warehouse it comes from to update the inventory. The system defaults to the warehouse value on the **Bookable Resource** associated with the user who creates the work order product record.
 
-You can mark noninventory item as used along with a quantity for reporting.
+For noninventory items, technicians can mark the item as used and a quantity for reporting purposes.
 
-When using a work order service, set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
+On a work order service record, technicians set the **Line Status** to **Used** and enter a **Duration** and **Duration to Bill**.
 
 As products and services are used, the subtotal based on price and quantity to bill is calculated on the work order.
 
@@ -148,12 +144,5 @@ In Field Service, review the following settings and change them if needed.
 
    - **Restrict** to prevent using a work order product when inventory in the specified warehouse is 0.
    - **Confirm** to display a warning message when there's an attempt to use a work order product and inventory is 0. This setting is helpful for situations where inventory levels are inaccurate or managed in an outside system.
-
-### Known issues
-
-- Permission error when creating a new product from **Field Service** > **Settings** > **Products** > **Add Product**.
-- Permission error when adding product-based line items to opportunities.
-
-  **Fix**: Add read privileges the user's security role for the following entities: *Property*, *Property Association*, *Property Instance*, and *Properties Option Set Item*.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

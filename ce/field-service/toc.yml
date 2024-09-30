@@ -71,11 +71,17 @@ items:
     - name: Work order types
       href: create-work-order-types.md
     - name: Work order templates (incident types)
-      href: configure-incident-types.md
+      items:
+        - name: Incident type overview
+          href: incident-type-overview.md
+        - name: Create incident types
+          href: configure-incident-types.md
     - name: Service task types
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Service level agreements
+      href: sla-work-orders.md
     - name: Use Dataverse search
       href: search-dataverse-tables.md
     - name: Customer asset validation
@@ -97,18 +103,26 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Copilot side pane
-      href: copilot-side-pane.md
-    - name: Work order recap with Copilot
-      href: work-order-recap.md
-    - name: Work order update
-      href: work-order-update.md
-    - name: Work order creation in Outlook with Copilot
-      href: flw-outlook.md#create-a-work-order-with-copilot
-    - name: Draft email response with Copilot
-      href: flw-outlook.md#draft-an-email-response-with-copilot
-    - name: Microsoft Copilot for Field Service work orders
-      href: flw-m365-chat.md
+    - name: Use Copilot in the web app
+      items:
+        - name: Side pane chat
+          href: copilot-side-pane.md
+        - name: Work order summary
+          href: work-order-recap.md
+    - name: Use Copilot in the mobile app
+      items:
+        - name: Work order summary
+          href: work-order-recap.md
+        - name: Work order update
+          href: work-order-update.md
+    - name: Use Copilot in the Microsoft 365 integration
+      items:
+        - name: Work order creation in Outlook
+          href: flw-outlook.md#create-a-work-order-with-copilot
+        - name: Draft email response in Outlook
+          href: flw-outlook.md#draft-an-email-response-with-copilot
+        - name: Chat with Microsoft Copilot for Field Service
+          href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -127,6 +141,8 @@ items:
 
 - name: Inspections
   items:
+    - name: Inspections overview
+      href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
     - name: Advanced inspection options
@@ -274,6 +290,8 @@ items:
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
+      - name: Search resource availability for requirement groups API
+        href: search-resource-availability-requirement-groups-api.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -300,73 +318,80 @@ items:
 - name: Mobile app
   items:
     - name: Overview
-      href: mobile-power-app-overview.md
-    - name: New mobile UX (preview)
-      href: mobile-powerapp-newux-overview.md
-    - name: Install and setup
-      href: mobile-power-app-get-started.md
-    - name: Offline capabilities
+      href: mobile/overview.md
+    - name: Admin guide
       items:
-      - name: Offline data synchronization
-        href: mobile-power-app-system-offline-sync.md
-      - name: Set up the mobile offline profile
-        href: mobile-power-app-system-offline-setup.md
-      - name: Best practices and limitations
-        href: mobile-power-app-system-offline.md
+      - name: Set up the mobile app
+        href: mobile/set-up-field-service-mobile.md
+      - name: Mobile offline profile
+        items:
+        - name: Set up the mobile offline profile
+          href: mobile/set-up-offline-profile.md
+        - name: Configure offline sync
+          href: mobile/offline-data-sync.md
+        - name: Best practices and limitations
+          href: mobile/best-practices-limitations-offline-profile.md
+      - name: Configure barcode scanning
+        href: mobile/scan-barcode.md
+      - name: Enable push notifications
+        href: mobile/enable-push-notifications.md
+      - name: Track and audit location data
+        href: mobile/track-technician-location.md
+      - name: Configure geofencing
+        href: mobile/configure-geofencing.md
+      - name: Manage apps with Intune
+        href: mobile/app-management-intune.md
+      - name: Work with IoT signals
+        href: mobile/iot-mobile.md
+
     - name: Use the mobile app
       items:
-      - name: Download and get started
-        href: download-get-started-mobile-app.md
-      - name: Get work done
-        href: get-work-done-mobile-app.md
-      - name: Work offline
-        href: work-offline-mobile-app.md
-      - name: Access related applications
-        href: access-related-apps-mobile-app.md
-      href: mobile-power-app-use.md
-    - name: Booking maps
-      href: mobile-powerapp-booking-maps.md
-    - name: Barcode scanning and global search
-      href: mobile-power-app-system-barcode-scanning.md
-    - name: Push notifications
-      href: mobile-power-app-push-notifications.md
-    - name: Location tracking, sharing, and auditing
-      href: mobile-powerapp-location-auditing.md
-    - name: Geofencing
-      href: mobile-powerapp-geofence.md
-    - name: Technician service reports
-      href: mobile-powerapp-reporting.md
-    - name: Intune mobile app management
-      href: mobile-power-app-intune.md
-    - name: Mobile app for Windows 10+
-      href: mobile-powerapp-windows.md
-    - name: Use Microsoft Power Platform
-      href: mobile-power-utilize-platform.md
-    - name: IoT signals on mobile
-      href: cfs-mobile-powerapp.md
+      - name: Download the mobile app
+        href: mobile/download-mobile-app.md
+      - name: Use the Unified Interface app
+        items:  
+        - name: Get work done
+          href: mobile/get-work-done-mobile-app.md
+        - name: Work offline
+          href: mobile/work-offline.md
+        - name: Access related applications
+          href: mobile/access-related-apps.md
+        - name: View booking maps
+          href: mobile/booking-maps.md
+        - name: Create service reports
+          href: mobile/create-service-report.md
+        - name: Optimize image upload
+          href: mobile/optimize-image-size.md
+      - name: Use the new experience
+        href: mobile/do-work-newux.md
+
     - name: Customize the mobile app
       items:
-        - name: Customize the navigation and views
-          href: mobile-power-app-configure.md
-        - name: Customize calendar columns
-          href: mobile-powerapp-customize-booking-calendar.md
-        - name: Deep link
-          href: mobile-powerapp-deeplink.md
-        - name: Workflows and scripts
-          href: mobile-power-app-workflows.md
-        - name: Edit the Booking and Work Order form (Form Component Control)
-          href: mobile-powerapp-booking-work-order-form.md
+        - name: Customize with Power Apps
+          href: mobile/power-apps-customization.md 
+        - name: Change the navigation and views
+          href: mobile/customize-navigation-views.md
+        - name: Change the booking calendar
+          href: mobile/customize-booking-calendar.md
+        - name: Link to the mobile app
+          href: mobile/deeplink-mobile.md
+        - name: Create workflows and scripts
+          href: mobile/automate-business-processes.md
+        - name: Change the booking and work order form
+          href: mobile/change-work-order-booking-form.md
         - name: Add a custom app module to the mobile app
-          href: mobile-powerapp-copy-app-module.md
-        - name: Performance considerations for mobile customizations
-          href: improve-mobile-performance.md
+          href: mobile/custom-app-module-mobile.md
+        - name: Optimize performance for mobile customizations
+          href: mobile/improve-mobile-performance.md
 
     - name: Get help
-      href: mobile-get-help.md
+      href: mobile/get-help.md
 
 - name: Agreements and preventive maintenance
   items:
-    - name: Agreements
+    - name: Agreements overview
+      href: agreements-overview.md
+    - name: Set up agreements
       href: set-up-customer-agreements.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
@@ -406,8 +431,6 @@ items:
       href: rso-optimization-summary-report.md
     - name: Admin report
       href: rso-admin-report.md
-    - name: Predictive work duration (Preview)
-      href: analytics-predictive-work-duration.md
 
 - name: Field Service Portal
   items:
@@ -459,9 +482,6 @@ items:
         items:
         - name: Set up IoT alerts
           href: cfs-iot-alerts.md
-        - name: Use AI for IoT alerts
-          href: iot-alerts-ai-based-suggestions.md
-
         - name: IoT - Parent IoT alerts workflow
           href: iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services
@@ -582,11 +602,11 @@ items:
   - name: Troubleshooting articles
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: FAQ about the Field Service mobile app
-    href: mobile-power-app-faq.yml
+    href: mobile/mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: New Field Service mobile experience (preview) troubleshooting
-    href: troubleshooting-mobile-newux.md
+    href: mobile/troubleshooting-mobile-newux.md
 
 - name: Responsible AI
   items:
@@ -596,7 +616,7 @@ items:
       href: faqs-wo-flw-copilot.md
     - name: FAQ about Outlook draft email responses
       href: faqs-flm-copilot-email.md
-    - name: FAQ about work order recap
+    - name: FAQ about work order summary
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md

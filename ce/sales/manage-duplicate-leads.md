@@ -150,6 +150,6 @@ The lead is detached from the actual lead's duplicate list. However, if the deta
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable duplicate lead detection](enable-duplicate-lead-detection.md)

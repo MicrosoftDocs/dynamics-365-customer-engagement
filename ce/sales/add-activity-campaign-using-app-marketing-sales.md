@@ -1,7 +1,7 @@
 ---
 title: Add activity to campaign in in-app marketing
 description: Learn how to create, distribute, and assign planning and campaign activities to a marketing campaign to make it successful.
-ms.date: 06/20/2024
+ms.date: 08/29/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -147,7 +147,7 @@ To close the campaign activity:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
+## Related information  
  [Get started with in-app marketing](get-started-app-marketing-sales.md)   
  [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
  [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   

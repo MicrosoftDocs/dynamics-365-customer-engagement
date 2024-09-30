@@ -22,7 +22,7 @@ search.audienceType:
   - admin
   - customizer
   - enduser
-  ms.topic: conceptual
+ms.topic: conceptual
 ---
 # Dynamics 365 for Outlook User Guide
 

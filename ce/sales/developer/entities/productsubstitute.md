@@ -664,7 +664,7 @@ See the [product_ProductSubstitute_substitutedproductid](product.md#BKMK_product
 
 See the [product_ProductSubstitute_productid](product.md#BKMK_product_ProductSubstitute_productid) one-to-many relationship for the [product](product.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

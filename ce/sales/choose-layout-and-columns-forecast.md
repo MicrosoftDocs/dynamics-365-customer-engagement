@@ -189,7 +189,7 @@ When you select column **Type** as **Hierarchy related**, the column helps you p
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)<br>

@@ -660,7 +660,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_ocsystemmessage Entity [msdyn_ocsystemmessage_msdyn_oclocalizationdata](msdyn_ocsystemmessage.md#BKMK_msdyn_ocsystemmessage_msdyn_oclocalizationdata) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

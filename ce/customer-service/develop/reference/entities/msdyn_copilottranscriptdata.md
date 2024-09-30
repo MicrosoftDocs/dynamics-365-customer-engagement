@@ -698,7 +698,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_copilottranscript Table [msdyn_msdyn_copilottranscript_msdyn_copilottranscriptdata_copilottranscriptid](msdyn_copilottranscript.md#BKMK_msdyn_msdyn_copilottranscript_msdyn_copilottranscriptdata_copilottranscriptid) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Enable Copilot features in Customer Service (preview)](../../../administer/configure-copilot-features.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

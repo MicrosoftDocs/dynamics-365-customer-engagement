@@ -86,7 +86,7 @@ Perform the steps in [Set the form order](/power-apps/maker/model-driven-apps/as
 1. Compare the components with the Customer Service workspace app site map, and add or remove components as needed.
 1. Select **Save and Publish**.
 
-### See also
+### Related information
 
 [Omnichannel for Customer Service app deprecation and migration FAQ](migrate-oc-faq.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)<br>

@@ -105,7 +105,7 @@ These questions are first answered using the data stored in Dataverse, which is 
 
 You can also access some of these question from the Prompt guide that appears when you select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the Copilot side pane or Copilot page.
 
-### See also
+## Related information
 
 - [Get information from Copilot](copilot-get-information.md)
 - [Ask Copilot about recent changes to your sales records](copilot-ask-questions.md)

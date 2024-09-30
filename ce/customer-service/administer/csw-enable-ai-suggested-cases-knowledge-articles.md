@@ -164,7 +164,7 @@ The service protection limits for AI suggestions are defined in the following ta
 | AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 omnichannel conversations, where agents can get AI-suggested knowledge articles and similar cases in real time.|
 ||||
 
-### See also
+### Related information
 
 [View AI-suggested similar cases and knowledge articles for active cases](../use/csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](../use/oc-view-ai-suggested-cases-articles.md)  

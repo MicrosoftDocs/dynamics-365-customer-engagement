@@ -94,7 +94,7 @@ Products that you create are visible to all users in your organization.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also  
+## Related information  
  [Set up a product catalog](set-up-product-catalog-walkthrough.md)  
  [Manage sales literature](create-sales-literature.md)<br>
  [Change the parent of a product (reparenting)](change-product-parent.md)  

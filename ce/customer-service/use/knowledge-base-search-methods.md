@@ -65,7 +65,7 @@ For content access level to work with relevance search, you must perform the fol
 When performing a search on the portal, you might encounter an error while opening an article and also see the error message, "Update your origins allowlist if any iframe in the article doesn't work or displays error." This might be because the link types used in the article aren't a part of the origins allowlist. You must contact your administrator to update your origins allowlist. More information: [Configure the origins allowlist for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md)
 
 
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  

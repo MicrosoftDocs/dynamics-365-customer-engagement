@@ -19,7 +19,7 @@ This event is triggered when the customer engaged on the chat widget maximizes t
 window.addEventListener("lcw:onMaximize", function handleWidgetMaximizeEvent(){ // Handle the live chat widget maximize event }); 
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

@@ -107,7 +107,7 @@ The following screenshot shows enhanced relationship analytics for an opportunit
 
 For more information about the legends in the screenshot, see [Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
 
-### See also
+## Related information
 
 [Configure relationship analytics](configure-relationship-analytics.md)  
 [Sales Insights and privacy](embedded-intelligence-privacy.md)  

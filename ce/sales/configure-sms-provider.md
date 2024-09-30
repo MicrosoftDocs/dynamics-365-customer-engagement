@@ -6,7 +6,9 @@ ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Configure SMS provider
@@ -227,7 +229,7 @@ Once you agree to the *Voice and text message terms* and select your country or 
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
 
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)   
 [Edit phone numbers](edit-phone-numbers.md)

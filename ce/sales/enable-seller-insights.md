@@ -37,7 +37,7 @@ The seller insights feature provides intelligent insights about customers, so th
 
 By default, the feature is enabled for all users in your organization, and insights are displayed for records. To learn how to restrict access to selected users in your organization, go to [Manage access to view insights](manage-access-view-insights.md).
 
-### See also
+## Related information
 
 [Get intelligent insights to improve sales](seller-insights-intro.md)  
 [Manage access to view insights](manage-access-view-insights.md)

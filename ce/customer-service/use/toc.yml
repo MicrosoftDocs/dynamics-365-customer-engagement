@@ -179,9 +179,9 @@
         - name: Call a customer
           href: voice-channel-call-customer.md
         - name: Use call controls and the agent desktop for voice
-          href: voice-channel-agent-experience.md
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: How to avoid call disconnection
-          href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
         - name: Manage voicemails
           href: manage-voicemails.md
         - name: Transfer calls and consult with other users
@@ -250,8 +250,6 @@
           href: sms-telesign-twilio.md
         - name: Use Facebook channel
           href: facebook.md
-        - name: Use Google's Business Messages channel
-          href: google-business-messages.md
         - name: Use WhatsApp channel
           href: whatsapp.md
         - name: Use Microsoft Teams channel

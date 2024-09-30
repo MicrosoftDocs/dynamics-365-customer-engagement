@@ -34,7 +34,7 @@ You can delete sequences that your organization no longer needs, and they'll be 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)     
 [Create and activate a sequence](create-and-activate-a-sequence.md)

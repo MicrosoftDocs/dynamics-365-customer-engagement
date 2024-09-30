@@ -219,7 +219,7 @@ Now that you've added the forms to the table entities, you can customize how the
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
 

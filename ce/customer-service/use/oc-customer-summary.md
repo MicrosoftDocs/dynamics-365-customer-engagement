@@ -188,7 +188,7 @@ The **Linked records** field shows the record that's linked to the conversation.
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down.](../media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
-### See also
+### Related information
 
 [Search for and share knowledge articles](../oc-search-knowledge-articles.md)  
 [View communication panel](oc-conversation-control.md)  

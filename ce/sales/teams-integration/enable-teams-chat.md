@@ -140,7 +140,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a connected chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permissions to view it.  
 
-### See also
+## Related information
 
 [Use Microsoft Teams chat in Sales Hub](using-teams-chat-in-dynamics.md)  
  

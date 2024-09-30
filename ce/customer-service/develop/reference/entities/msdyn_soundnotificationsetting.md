@@ -972,7 +972,7 @@ See businessunit Entity [business_unit_msdyn_soundnotificationsetting](#BKMK_bus
 
 See msdyn_soundfile Entity [msdyn_soundnotificationsetting_linksoundf](msdyn_soundfile.md#BKMK_msdyn_soundnotificationsetting_linksoundf) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

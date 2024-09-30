@@ -121,7 +121,7 @@ The home page is displayed as shown in the following example screen:
 > [!div class="mx-imgBorder"]
 > ![Sales mobile app home page.](media/sa-home-page.png "Sales mobile app home page") 
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)
 

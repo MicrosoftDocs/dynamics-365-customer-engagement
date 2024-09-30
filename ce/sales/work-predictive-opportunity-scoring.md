@@ -113,7 +113,7 @@ The following screenshot illustrates the reason and tooltip for the time spent i
 :::image type="content" source="media/time-spent-in-stage.png" alt-text="Screenshot of predictive score widget with time spent in stage insight and tooltip":::
 
 
-### See also
+## Related information
 
 [Configure predictive opportunity scoring](configure-predictive-opportunity-scoring.md)  
 
