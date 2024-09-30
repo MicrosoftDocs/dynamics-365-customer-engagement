@@ -72,7 +72,7 @@ After you configure knowledge management on your app, you must also set up the v
       b. In the **Feedback** section, set the **Enable feedback** toggle to **Yes**. Learn more in [Submit ratings and feedback for knowledge articles](../use/submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles).
       1. In the **Authoring language** section, set the **Enable default authoring language** for your users to **Yes**.
 
-      * If you want to select a default knowledge authoring language for your organization, then select the **Organization's UI language** option.
+      * If you want to select a default knowledge authoring language for your organization, select the **Organization's UI language** option.
       * If you want to use the organizations's UI language as the default knowledge authoring language, select the **Other language** option, and then select a language from the **Language** dropdown.
       * If you also want to allow users to set their default knowledge authoring language, set the **Allow users to set default knowledge authoring language** toggle to **Yes**. Learn more in [Configure a default knowledge article authoring language for your organization](../use/set-knowledge-article-authoring-language.md#configure-a-default-knowledge-article-authoring-language-for-your-organization).
 
@@ -84,14 +84,14 @@ After you configure knowledge management on your app, you must also set up the v
       - **Set search mode as all**:  [Set up knowledge search logic](#set-up-knowledge-search-logic)
       - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
 
-      e. In the **Global search knowledge configuration** section, switch the **Enable Kb preview mode from global search option** to **Yes**, if you want your agents to view knowledge articles in the preview control when they search from global search.
+      e. If you want your service representatives to be able to view knowledge articles in the preview control when they search from global search, in the **Global search knowledge configuration** section, switch the **Enable Kb preview mode from global search option** to **Yes**.
       
   1. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. Learn more in [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
-  1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow agents to save the search filters relevant to their areas, set the **Allow agent to personalize** toggle to **Yes**.
+  1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow service representatives to save the search filters relevant to their areas, set the **Allow agent to personalize** toggle to **Yes**.
   1. In the **Portals** section, select **Manage**. The **Portals** page appears.
       1. In the **Support portal connection** section, do the following to share knowledge articles as URLs:
           *  Set the **Use an external portal** toggle to **Yes** to integrate an external portal to publish knowledge articles.
-          * **URL Format**: Type the portal URL to use to create external (public-facing) portal links for knowledge articles, which the service agents can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
+          * **URL Format**: Type the portal URL to use to create external (public-facing) portal links for knowledge articles, which the service representatives can share with the customers. The external URL is created in the following format: https://support portal URL/kb/{kbnum}. The placeholder, "{kbnum}", is replaced by an actual knowledge article number.
       1.    In the **Sync knowledge article attachments to portal** section, set the **Sync attachments to the portal** toggle to **Yes**. Learn more in [Update knowledge article attachments for portal](#update-knowledge-article-attachments-for-portal).
   1. Optionally, in the **Article templates** section, select **Manage**. The **Article Templates System Views** page appears. You can create templates to help knowledge authors use consistent language and messaging. Learn more in [Create templates for articles](/power-platform/admin/create-templates-articles).
   1. Optionally, in the **Search providers** section, select **Manage**. The **Search providers System Views** page appears. You can use search providers to federate the search of files, documents, or articles from data sources outside of your current Dynamics 365 organization. Learn more in [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers).
@@ -122,7 +122,7 @@ After you configure knowledge management on your app, you must also set up the v
 
 ## Configure knowledge base article URLs
 
-Knowledge articles can be configured with their portal URLs, and then agents can copy and share the URL links.
+Knowledge articles can be configured with their portal URLs, and then service representatives can copy and share the URL links.
 
 > [!NOTE]
 > Before you can configure knowledge articles with their own URLs, you must create a portal using your domain name. Learn more about creating a portal at [Create a portal in an environment containing customer engagement apps](/powerapps/maker/portals/create-dynamics-portal).
@@ -157,7 +157,7 @@ You can enable knowledge authors to get suggested keywords and description based
 
 ## Set up knowledge search logic
 
-If you have Dataverse search enabled, you can apply knowledge search logic for your knowledge articles to help agents find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results show articles that have either "Contoso" or "Coffee", as seen in the following example:
+If you have Dataverse search enabled, you can apply knowledge search logic for your knowledge articles to help service representatives find only the articles they need. By default, knowledge search works by the `searchMode=any` logic, which brings up articles that match any of the keywords used in your search. If you search for Contoso Coffee, the search results show articles that have either "Contoso" or "Coffee", as seen in the following example:
 
 - Article 1: Contoso machine repair
 - Article 2: Coffee powder quality
@@ -183,7 +183,7 @@ Learn more in [Search across table data using Dataverse search](/power-platform/
 
 ## Enable the suggest-as-you-type option
 
-You can help agents improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as agents type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword.
+You can help service representatives improve their productivity by setting the **Enable suggest as you type** toggle to **Yes**. This feature provides suggestions on the most relevant records as service representatives type keywords in the search box. The search phrase is matched against the title of the article, and the matching results appear in a flyout menu. The matched text is highlighted to show the presence of the keyword.
 
 When an agent selects the record, the system displays the article inline on the knowledge search control embedded on a form, on an application tab in Customer Service workspace, and as an inline view in the independent knowledge search control. Learn more in [Use suggest-as-you-type](../use/search-knowledge-articles-csh.md#save-time-searching-with-suggest-as-you-type).
 
@@ -196,7 +196,7 @@ When an agent selects the record, the system displays the article inline on the 
 
 ## Show recently accessed knowledge articles for cases
 
-Knowledge search shows the recently accessed results for keyword searches made by agents across different cases without initiating any search. This feature helps agents directly review and use the articles across similar cases without searching for the keyword again.
+Knowledge search shows the recently accessed results for keyword searches made by service representatives across different cases without initiating any search. This feature helps service representatives directly review and use the articles across similar cases without searching for the keyword again.
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**.
 2. On the **Knowledge** page, in the **General settings** section, select **Manage**. The **General settings** page appears.
