@@ -27,11 +27,11 @@ For messaging channels, use the migration utility to migrate the workstream and 
 
 ### What are the implications when migration is in progress?
 
-There's no downtime involved when you're migrating the workstreams, but it's recommended that you perform the migration during low load or off hours.
+There's no downtime involved when you're migrating the workstreams, but we recommend that you perform the migration during low load or off hours.
 
 ### Why do I see workstreams that I didn't create in Omnichannel Administration?
 
-These workstreams were created either in the Customer Service admin center or Customer Service Hub app. In the Omnichannel Administration app, you see all the workstreams irrespective of the app that has been used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
+These workstreams were created either in the Customer Service admin center or Customer Service Hub app. In the Omnichannel Administration app, you see all the workstreams irrespective of the app that was used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
 
 ### How do I migrate my configurations from the Omnichannel Administration app to the Customer Service admin center app?
 
@@ -62,9 +62,9 @@ If you need further help, contact Microsoft Support.
 
 No. After upgrade, you'll no longer be able to create workstreams for routing records because they won't work as expected. We recommend that you start using the Customer Service admin center app to create and manage routing of records.
 
-### Will unified routing support activity routing?
+### Does unified routing support activity routing?
 
-Yes, unified routing supports routing activities, including email.
+Yes. Unified routing supports routing activities, including email.
 
 ### What happens to my existing queues after I migrate to unified routing?
 
@@ -72,7 +72,7 @@ The existing queues are automatically migrated to unified routing.
 
 ### Why aren't the records being routed after unified routing is enabled?
 
-Verify whether you have [configured an intake rule](set-up-record-routing.md#configure-intake-rules) and mapped it to a basic routing rule that's active.
+Verify whether you [configured an intake rule](set-up-record-routing.md#configure-intake-rules) and mapped it to a basic routing rule that's active.
 
 ### Can I route any record type by using basic routing?
 
@@ -161,7 +161,7 @@ Intelligent skill finder requires AI Builder to create and train the machine lea
 
 ### Can I use intelligent skill finder with email activities?
 
-Yes, intelligent skill finder can be enabled for any entity that is enabled for routing by using any text-based field. For email body skill finder, an additional step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
+Yes. Intelligent skill finder can be enabled for any entity that's enabled for routing by using any text-based field. For email body skill finder, another step is required because email body (description) includes HTML tags that can impact the machine learning model. You extract the text from HTML, copy it into another text field, and then configure the machine learning model against the new field.
 
 ### How do I make sure that the right skills are attached to the work items when the machine learning-based model is in use?
 
@@ -178,7 +178,7 @@ If two of the agents match one each of the required capacity profiles and the th
 
 ### What is diagnostics for unified routing and why is it being deprecated?
 
-Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It has been deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
+Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It was deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
 
 ### What is the alternative to routing diagnostics once it's deprecated?
 
@@ -186,7 +186,7 @@ Customers can use Azure Application Insights, which is our one-stop solution to 
 
 ### Do I need to perform any migration steps to start using Application Insights?
 
- No. Application Insights is a separate tool where diagnostics can be queried specific to your business requirements. After you enable it, data events are available in application insights data storage and you can query the data to get the details.
+No. Application Insights is a separate tool where diagnostics can be queried specific to your business requirements. After you enable it, data events are available in application insights data storage and you can query the data to get the details.
 
 ### How do I enable application insights?
 
@@ -206,11 +206,11 @@ Application Insights is meant for developer, support, and admin personas. Users 
 
 ### Not everyone in my organization can write queries. How do they use application insights?	
 
-We provide sample queries for common questions that customers seek answers to. These would be available within the blade in Application Insights for you to run or modify to suit your question.
+We provide sample queries for common questions that customers seek answers to. These samples would be available within the blade in Application Insights for you to run or modify to suit your question.
 
 ### Data that I'm looking for isn't available in Application Insights. How do I raise a request for more data events?
 
-We will iteratively add more data events for diagnostics. Follow the documentation for more updates.
+We'll iteratively add more data events for diagnostics. Follow the documentation for more updates.
 
 ### Related information
 
