@@ -204,7 +204,7 @@ When agents receive a work item through automatic assignment, they generally hav
 - If the agent is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
 - If all other eligible agents also decline.
 
-If the agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. The agents can still manually “Pick” the work item.
+If the agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. The agents can still manually pick the work item.
 
 For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
