@@ -131,6 +131,10 @@ For work items to be assigned automatically, the queue must be a private queue w
 
 Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent)
 
+### Does unified routing offer the same conversation when agent declines it or after the notification times out?
+
+The declined conversation isn't offered to the agent anymore and agent is removed from priority but can be offered other conversations. However, if they are the only eligible agents, the system offers the same conversation up to three times or the configured limit.
+
 ## Route to least-active agent
 
 ### For which channel is the routing to least-active agent feature available?
@@ -140,7 +144,6 @@ The feature is available for the voice channel only.
 ### Does the agent sign-in time affect the calculation of the least active agent? 
 
 The agent’s "last capacity release time for a voice call" is the only parameter used by the least-active assignment method. The agent sign-in times don't affect the capacity release time. 
-
 
 ### How is a tie-breaker scenario resolved if two or more agents have the same capacity release time?
 
