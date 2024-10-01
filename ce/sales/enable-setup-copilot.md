@@ -20,7 +20,7 @@ ms.custom:
 
 <a name="default-setting-copilot"></a>
 
-Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
+Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
 
 - Orgs in [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). 
 - Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features) and set the [release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app to **Monthly release channel**.
