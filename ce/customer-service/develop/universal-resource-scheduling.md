@@ -1,10 +1,11 @@
 ---
-title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Dynamics 365 Customer Service | Microsoft Docs
-description: See how you can effectively search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
-ms.date: 9/9/2022
+title: Search resource availability and create bookings for requirement groups in Universal Resource Scheduling
+description: Learn how to search resource availability and create bookings for requirement groups in Universal Resource Scheduling in Customer Service Hub.
+ms.date: 9/9/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -69,13 +70,13 @@ Use the following input and output parameters for the Search Resource Availabili
 |         |Effort (Double)                       |The effort/capacity.|
 |         |IsDuplicate (Boolean)                 |A Boolean value indicating if the time slot is a duplicate.|
 |         |Resource(OutputResource)<br><br>OutputResource<br><ul><li>Resource (BookableResource)<br><li>TotalAvailableTime (Double)<br></ul> |The Resource entity as explained in this article. |
-|         |Location(OutputTimeSlotLocation)<br><br>OutputTimeSlotLocation:<br><ul><li>WorkLocation (Enum):<br><ul><li>Onsite (0)<br><li>Facility (1)<br><li>Location agnostic (2)</ul><br><li>LocationSourceSlot (Enum):<br><ul><li>Common (1)<br><li>Custom GPS entity (2)<br><li>Mobile audit (3)</ul> |The entity contains details about the location of a time slot. For more information, see TimeSlotLocation in this article. |
-|         |TimeGroup(TimeSlotTimeGroup)<br><br>OutputTimeSlotTimeGroup:<br><ul><li>TimeGroupId (Guid)<br><li>TimeGroupDetail (EntityReference)<br><li>TimeGroupDetailStartTime (DateTime)<br><li>TimeGroupDetailEndTime (DateTime)</ul>  |The entity contains details about a time group. For more information, see TimeSlotTimeGroup in this article. |
+|         |Location(OutputTimeSlotLocation)<br><br>OutputTimeSlotLocation:<br><ul><li>WorkLocation (Enum):<br><ul><li>Onsite (0)<br><li>Facility (1)<br><li>Location agnostic (2)</ul><br><li>LocationSourceSlot (Enum):<br><ul><li>Common (1)<br><li>Custom GPS entity (2)<br><li>Mobile audit (3)</ul> |The entity contains details about the location of a time slot. For more information, refer to TimeSlotLocation in this article. |
+|         |TimeGroup(TimeSlotTimeGroup)<br><br>OutputTimeSlotTimeGroup:<br><ul><li>TimeGroupId (Guid)<br><li>TimeGroupDetail (EntityReference)<br><li>TimeGroupDetailStartTime (DateTime)<br><li>TimeGroupDetailEndTime (DateTime)</ul>  |The entity contains details about a time group. For more information, Refer to TimeSlotTimeGroup in this article. |
 |         |AvailableIntervals (`List<<Guide>OutputTimeSlot>`)|A collection of available intervals.|
 |Resources (List&#60;OutputResource&#62;)  |Resource (EntityReference)|An entity reference to the bookable resource.|
 |         |BusinessUnit (EntityReference) |An entity reference to the bookable resource group.|
 |         |OrganizationalUnit (EntityReference) |An entity reference to the organizational unit.|
-|         |ResourceType (Int)                 |The resource type. See the resourcetype attribute on the BookableResource entity for possible values.|
+|         |ResourceType (Int)                 |The resource type. Refer to the resourcetype attribute on the BookableResource entity for possible values.|
 |         |PoolId (Guid)                      |The ID of the pool that the resource is a member of during the time slot.|
 |         |CrewId (Guid)                      |The ID of the crew that the resource is a member of during the time slot.|
 |         |Email (String)                     |The resource’s email address.|
@@ -253,13 +254,11 @@ To execute this search against your organization, you need to download the [samp
 
 ![Open the browser developer tools.](../media/ur-scheduling-9.PNG)
 
-  We can see that there are multiple sets of time slots that are returned with each set, corresponding to a matching available resource that's mapped to the underlying requirement of the requirement group.   
+  There are multiple sets of time slots that are returned with each set, corresponding to a matching available resource that's mapped to the underlying requirement of the requirement group.   
 
   After the time slot Sets are returned by the API, you can display them on your custom web portal, app, or a Power App (model/canvas).    
 
-5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the resource assignments (Requirement guid, Resource guid) and the Requirement Group, as shown in the following example.    
-
-![Update web resource to pass resource assignments.](../media/ur-scheduling-10-new.PNG)
+5. After you choose a specific time slot set, update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the resource assignments (Requirement guid, Resource guid) and the Requirement Group.   
 
 > [!IMPORTANT]
 > Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
@@ -270,7 +269,7 @@ To execute this search against your organization, you need to download the [samp
 
 ![Invoke a call to the Booking API.](../media/ur-scheduling-12.png)
 
-7. Open the browser's developer tools by using the F12 function key. Here, you see that the handler executed value is set to true, indicating that the bookings were created successfully.    
+7. Open the browser's developer tools by using the F12 function key. Here, the handler executed value is set to true, indicating that the bookings were created successfully.    
 
 ![Handler executed value set to True.](../media/ur-scheduling-13.png)
 
@@ -284,7 +283,7 @@ Other possible scenarios that might use these APIs are:  
 - Build a custom web app or a Dynamics 365 portal to provide appointment scheduling for users. The app shows available time slots for the service or product being offered by using multiresource requirements (requirement groups).
 - Build a Power Apps canvas app to support self-scheduling scenarios for line-of-business apps.    
 
-See the [Additional resources](#bkmk_seealso) section for links to more help resources.
+For more information, refer to the [Additional resources](#bkmk_seealso) section.
 
 ### Sample code
 
@@ -573,7 +572,7 @@ response.Dump();
 |[Documentation for resource scheduling](/dynamics365/customer-engagement/common-scheduler/schedule-anything-with-universal-resource-scheduling)| Get started with using Universal Resource Scheduling.| 
 |[Learning path for resource scheduling](/training/paths/universal-resource-scheduling/)| Learn how to use Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service|
 |[Dynamics 365 application ideas](https://experience.dynamics.com/ideas/categories/list/?category=a2fa5aca-3f2d-e811-813c-e0071b6ad011&forum=bee3d862-df65-e811-a95d-000d3a1be7ad)| Use this portal to contribute product feedback and ideas for resource scheduling. |
-|[Community forum](../administer/community-overview.md)| Use the community forum to ask questions, find answers, and see upcoming events. |
+|[Community forum](../administer/community-overview.md)| Use the community forum to ask questions, find answers, and learn about upcoming events. |
 |[Dynamics 365 blog](https://cloudblogs.microsoft.com/dynamics365/?s=Resource+Scheduling)| Read the Dynamics 365 blog for release notes and posts from the product team.   |
 
 

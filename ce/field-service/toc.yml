@@ -80,6 +80,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Service level agreements
+      href: sla-work-orders.md
     - name: Use Dataverse search
       href: search-dataverse-tables.md
     - name: Customer asset validation
@@ -288,6 +290,8 @@ items:
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
+      - name: Search resource availability for requirement groups API
+        href: search-resource-availability-requirement-groups-api.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -427,8 +431,6 @@ items:
       href: rso-optimization-summary-report.md
     - name: Admin report
       href: rso-admin-report.md
-    - name: Predictive work duration (Preview)
-      href: analytics-predictive-work-duration.md
 
 - name: Field Service Portal
   items:
@@ -480,9 +482,6 @@ items:
         items:
         - name: Set up IoT alerts
           href: cfs-iot-alerts.md
-        - name: Use AI for IoT alerts
-          href: iot-alerts-ai-based-suggestions.md
-
         - name: IoT - Parent IoT alerts workflow
           href: iot-parent-iot-alerts-workflow.md
       - name: Extend standard components or add Azure services

@@ -1,6 +1,6 @@
 ---
 title: Configure an SMS channel for Telesign
-description: Get instructions for configuring an SMS channel for Telesign in Omnichannel for Customer Service.
+description: Get instructions for configuring an SMS channel for Telesign.
 ms.date: 07/11/2024
 ms.topic: how-to
 author: neeranelli
@@ -23,11 +23,11 @@ Agents can view incoming SMS requests on their dashboard and respond accordingly
 
 The tasks to add SMS support for Telesign are as follows:
 
-1. Enable SMS channel in your Dynamics 365 organization.
+1. Enable SMS channel in the Customer Service admin center or Contact Center admin center application.
 
 2. Register with Telesign and get your customer ID and API key, and purchase a phone number.
 
-3. Add SMS support through Omnichannel for Customer Service.
+3. Add SMS support.
 
 > [!NOTE]
 >
@@ -41,24 +41,24 @@ Verify that you have permissions on the secure columns. More information: [Confi
 
 ## Enable SMS channel in your Dynamics 365 organization
 
-You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization as a part of provisioning Omnichannel for Customer Service, go to [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md).
+You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization, go to [provision channels](/dynamics365/contact-center/implement/provision-channels).
 
 
 ## Sign up for Telesign account
 
-An SMS channel can be enabled within Omnichannel for Customer Service by integrating with Telesign. This integration uses public APIs of Telesign for sending and receiving text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
+You can integrate an SMS channel in Customer Service with Telesign. This integration uses public APIs of Telesign to send and receive text messages. You must sign up for a TeleSign account to enable an SMS channel in your organization.
 
-1. Go to [Telesign](https://go.microsoft.com/fwlink/p/?linkid=2127719) to sign up for a self-service account, and upgrade to standard or enterprise account for a complete integration with Omnichannel for Customer Service. If you expect to send high volumes of SMS traffic, such as more than 100,000 messages per month, contact [Telesign support](mailto:support@telesign.com) to request an invoiced enterprise account.
+1. Go to [Telesign](https://go.microsoft.com/fwlink/p/?linkid=2127719) to sign up for a self-service account, and upgrade to standard or enterprise account for a complete integration. If you expect to send high volumes of SMS traffic, such as more than 100,000 messages per month, contact [Telesign support](mailto:support@telesign.com) to request an invoiced enterprise account.
 
 2. Purchase support phone numbers through your Telesign account.
 
-3. Get the customer ID and API key from your Telesign account. You need to provide the ID and key while setting up the SMS channel in Omnichannel for Customer Service.
+3. Get the customer ID and API key from your Telesign account. You need to provide the ID and key while setting up the SMS channel in  the admin app.
 
 4. You receive a callback URL that must be sent to [Telesign support](mailto:support@telesign.com). This callback URL is specific to your organization and is available when you add SMS support for your organization. When you send an email to TeleSign support, include the callback URL, your customer ID, and enter the subject line as **Omnichannel for Customer Service callback URL update request**.
 
 ## Add SMS support
 
-1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Customer support**, select **Channels**.
     
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
    
@@ -112,15 +112,15 @@ An SMS channel can be enabled within Omnichannel for Customer Service by integra
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Flow of data between Omnichannel for Customer Service SMS channel and Telesign
+## Flow of data between the SMS channel and Telesign
 
 ### Incoming text messages
 
-For an incoming text message sent by a customer to the support phone number, the system first sends the message to the Telesign service. Telesign then pushes the message to Omnichannel for Customer Service using the callback URL. After this action, the message gets routed and associated to either a new or an existing conversation by Omnichannel for Customer Service.
+For an incoming text message sent by a customer to the support phone number, the system first sends the message to the Telesign service. Telesign then pushes the message to Customer Service using the callback URL. After this action, the message gets routed and associated to either a new or an existing conversation by the application.
 
 ### Outgoing text messages
 
-For an outgoing message sent by an agent from within Dynamics 365, the message is first sent to the Telesign service and then Telesign sends it to the customer. In addition to the text message, Omnichannel for Customer Service uses the APIs provided by Telesign to send the customer's phone number, support phone number (Telesign SenderID), and the TeleSign account information (CustomerID and the API Key) to the Telesign service.
+For an outgoing message sent by an agent, the message is first sent to the Telesign service and then Telesign sends it to the customer. In addition to the text message, the application uses the APIs provided by Telesign to send the customer's phone number, support phone number (Telesign SenderID), and the TeleSign account information (CustomerID and the API Key) to the Telesign service.
 
 ### TeleSign API Key Validation
 
@@ -128,7 +128,7 @@ When you validate the API key while setting up the SMS channel, a call is made t
 
 ### Related information
 
-[Channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of channels](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)  
 [Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  

@@ -13,16 +13,13 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using Omnichannel for Customer Service.
+Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using the omnichannel capabilities in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
 ## Prerequisites
 
 Make sure that the following prerequisites are met:
 
-- Microsoft Teams is installed in your environment. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
-
-  > [!NOTE]
-  > To enable the Microsoft Teams channel in an existing Omnichannel for Customer Service environment, you must upgrade to the latest version of Omnichannel for Customer Service. More information: [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md)
+- Microsoft Teams is installed in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)
 
 - An app is created and configured in **Teams** > **Developer Portal**:
 
@@ -36,15 +33,13 @@ Make sure that the following prerequisites are met:
 
    1. If you chose to create a new app in step 2, give it a **Name**, and then select **Add**.
 
-   1. In the **Application (client) ID** field, enter the bot ID from omnichannel, and then fill in the required fields.
+   1. In the **Application (client) ID** field, enter the bot ID from the omnichannel application, and then fill in the required fields.
       > [!NOTE]
       > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
 
-       :::image type="content" source="../media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
-
    1. Select **App features** under **Configure** section, and then select **bot**.
 
-   1. Enter the bot ID from omnichannel, and then select **Save**.
+   1. Enter the bot ID from the omnichannel application, and then select **Save**.
 
    1. Select **Publish**.
 
@@ -58,7 +53,7 @@ Make sure that the following prerequisites are met:
 
 ## Configure a Microsoft Teams channel<a name="configureinoac"></a>
 
-1. In the site map of Customer Service admin center, in **Customer support**, select **Channels**.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**.
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
@@ -108,7 +103,7 @@ Make sure that the following prerequisites are met:
 
 1. In the Teams app, select the ellipses (...) and then select **Developer Portal**. The **Developer Portal** page appears.
 
-1. On the **Apps** tab,  select the app that you configured for Omnichannel for Customer Service.
+1. On the **Apps** tab,  select the app that you configured.
 
 1. Select **App features** under **Configure**.
 
@@ -122,7 +117,7 @@ Make sure that the following prerequisites are met:
 
 ### Related information
 
-[Channels in Omnichannel for Customer Service](../use/channels.md)  
+[Overview of chanels](../use/channels.md)  
 [Configure automated messages](configure-automated-message.md)  
 [Use Microsoft Teams channel](../use/teams-channel.md)  
 [Delete a configured channel](delete-channel.md)  

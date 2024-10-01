@@ -390,6 +390,8 @@
           href: voice-channel-connect-new-resource.md
         - name: 'Advanced: Connect using an existing Azure resource'
           href: voice-channel-connect-existing-resource.md
+        - name: Set up incoming calls, call recording, and SMS services
+          href: voice-channel-configure-services.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
@@ -404,6 +406,8 @@
         href: voice-channel-outbound-calling.md
       - name: Enable agents to search for contacts and open records from outbound dialer (preview)
         href: add-outbound-dialer-settings.md  
+      - name: Use Azure Virtual Desktop to access voice channel
+        href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml       
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
       - name: Integrate Nuance Gatekeeper (preview)
@@ -632,6 +636,8 @@
           href: copilot-enable-help-pane.md
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
+      - name: Enable case summaries through ask a question (preview)
+        href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: enable-copilot-plugins-for-generative-ai.md
       - name: Enable Copilot to create knowledge from cases
