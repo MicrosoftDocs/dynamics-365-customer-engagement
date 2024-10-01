@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 07/31/2024
+ms.date: 10/01/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -18,10 +18,12 @@ ms.custom:
 
 # Turn on and set up Copilot in Dynamics 365 Sales
 
+<a name="default-setting-copilot"></a>
+
 Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
 
 - Orgs in [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). 
-- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
+- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features) and set the [release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app to **Monthly release channel**.
 
 For all the other orgs, an admin must provide consent in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for turning Copilot on or off, providing consent for data movement, and configuring Copilot for your business.
 
@@ -49,40 +51,26 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 1. Under **General Settings**, select **Copilot**.
 
-1. In the **Set up Copilot in Dynamics 365 Sales** page, select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
-
-1. If your org is in a region where Azure Open AI Service endpoint isn't available but you didn't provide the consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
-
-1. Under **All Dynamics 365 Sales apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All Dynamics 365 Sales apps** and then select **On** only for the Sales Hub app.  
-
-    :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the new settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
-
-    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform admin turned Copilot on for your org but your Power Apps admin turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps. 
-
-    <a name="default-setting-copilot"></a>
-
-    The **Default** setting has the following behavior:
-    
-    - For orgs in North America, Copilot Chat is turned on for all Dynamics 365 Sales apps (with lead and opportunity tables). Copilot for email is turned on only if you had opted in for early access.
-
-    - For orgs in other regions, Copilot is turned on for all Dynamics 365 Sales apps that meet the following conditions:
-
-        - Consent for data movement is provided for the org.
-
-        - The [release channel](/power-apps/maker/model-driven-apps/channel-change) for the app is set to **Monthly release channel**.
-
-        - For Copilot for email, you had [opted in for preview features](copilot-preview-features.md).
-    
-    - For apps that don't meet the above conditions, the **Default** setting turns Copilot off.
+     :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the  settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
 
 1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.
 
     - Audit history is required for Copilot to display recent changes to leads and opportunities.
-    - If you configure Copilot to [show recent changes from tables other than leads and opportunities](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
+    - If you configure Copilot to [show recent changes from fields in tables other than leads and opportunities](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually. 
+1. Select **Turn dataverse search on** to enable Copilot to search for records in Dataverse. 
+
+1. If your org is in a region where Azure Open AI Service endpoint isn't available but you didn't provide the consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+
+1. Under **All apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All apps** and then select **On** only for the Sales Hub app under **Individual apps** > **Sales Hub**.
+
+    The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform admin turned Copilot on for your org but your Power Apps admin turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps.
+
+    The **Default** setting applies the [default behavior](#default-setting-copilot) explained at the beginning of this article.
+1. Select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
+1. Turn on **Email (preview)** to get the [Copilot email experience](compose-send-email-copilot.md). This option is enabled only after you turn on the **Try our newest preview features before they're rolled out to everyone** option.
+1. (Optional) Under **Individual apps**, select the setting for each sales app if you want to override the global setting.
 
 1. Select **Save**.
-
-    The Welcome to Copilot pane opens in the right side pane with a quick tour.
 
 ## Add the Copilot page site map entry to custom sales app
 
