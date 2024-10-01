@@ -94,7 +94,7 @@ Complete the following steps for the channel in which you want to create custom 
 | Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the agent instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to an agent.| Customer |
 
 > [!NOTE]
-    > For information about the languages supported by automated system messages for localization, see [Geographical availability for Dynamics 365](https://releaseplans.microsoft.com/en-us/availability-reports/?report=languagegeoreport).
+> For information about the languages supported by automated system messages for localization, see [Geographical availability for Dynamics 365](https://releaseplans.microsoft.com/en-us/availability-reports/?report=languagegeoreport).
 
 ## Best practices for using automated messages
 
