@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 10/01/2024
+ms.date: 09/30/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
