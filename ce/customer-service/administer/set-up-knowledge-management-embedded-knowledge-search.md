@@ -84,7 +84,7 @@ After you configure knowledge management on your app, you must also set up the v
       - **Set search mode as all**:  [Set up knowledge search logic](#set-up-knowledge-search-logic)
       - [Show recently accessed knowledge articles for cases](#show-recently-accessed-knowledge-articles-for-cases)
 
-      e. If you want your service representatives to be able to view knowledge articles in the preview control when they search from global search, in the **Global search knowledge configuration** section, switch the **Enable Kb preview mode from global search option** to **Yes**.
+      e. If you want your service representatives to be able to view knowledge articles in the preview control when they search from global search, in the **Global search knowledge configuration** section, switch the **Enable Kb preview mode from global search option** toggle to **Yes**.
       
   1. Optionally, in the **Categories** section, select **Manage**. The **Categories System Views** page appears. You can create and manage a logical structure of categories for your records. Learn more in [Create and manage categories](create-manage-categories.md#create-and-manage-categories).
   1. In the **Filters** section, set the **Enable search filters** toggle to **Yes**. If you want to allow service representatives to save the search filters relevant to their areas, set the **Allow agent to personalize** toggle to **Yes**.
