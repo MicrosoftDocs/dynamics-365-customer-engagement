@@ -1,7 +1,7 @@
 ---
 title: Activate and upload data for a forecast
 description: Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
-ms.date: 09/01/2023
+ms.date: 10/01/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
