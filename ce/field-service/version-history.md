@@ -35,17 +35,16 @@ For information about older versions, see [Version history archive](version-hist
 
 (Includes Universal Resource Scheduling version [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) and Resource Scheduling controls version 1.2.81.242685)
 
- - This release includes all updates from the W2 early access updates.
+- This release includes all updates from the 2024 release wave 2 early access updates.
 - Fixed an issue preventing time entry approvals when they had a custom type.
-- Fixed an issue causing the msdyn_quantity field to be cleared on work order product when changing it's status several 
-  times without saving.
-- The Copilot summary command is now hidden on the Work Order form when the recap control is visible on the form.
-- What's new modal now includes Remote assist in teams.
-- IOT device insights control is deprecated, with a note now showing in product.
+- Fixed an issue causing the msdyn_quantity field to be cleared on work order product when changing its status several times without saving.
+- The Copilot summary command is now hidden on the work order form when the summary control is visible on the form.
+- What's New modal now includes Remote Assist in Microsoft Teams.
+- IoT device insights control is deprecated. A note now shows in the app.
 - Inspections: Fixed a bug which caused Date Time questions to be visually marked as required when not required.
 - Inspections: Fixed a bug which was causing Inspection export to PDF to contain overlapping text.
 - Inspections: Fixed a bug which was preventing Inspection PDF generation in some instances.
-- D365 Field Service Mobile: Fixed various accessibility bugs.
+- Field Service Mobile: Fixed various accessibility bugs.
 
 ## 8.8.125.15
 
