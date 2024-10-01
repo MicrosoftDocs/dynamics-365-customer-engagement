@@ -1,7 +1,7 @@
 ---
 title: Use custom IoT providers
 description: Integrate custom IoT solutions with Field Service through the IoT provider feature, which allows users to interact with IoT-enabled devices from any vendor.
-ms.date: 06/21/2023
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: conceptual
 ms.author: vhorvath
@@ -19,7 +19,7 @@ The Dynamics 365 Field Service IoT provider feature allows seamless integration 
 
 In Field Service, the [out-of-box deployment experience integrates with Azure IoT Hub](installation-setup-iothub.md). Developers, partners, and independent software vendors (ISVs) can build custom IoT solutions on this framework and even publish them in the [Microsoft AppSource marketplace](https://appsource.microsoft.com/).
 
-In this article, you'll learn about the IoT provider data model and get an overview of the connection methods you can use.
+This article describes the IoT provider data model and provides an overview of the connection methods you can use.
 
 ## Prerequisites
 
@@ -41,7 +41,7 @@ The `IoT Provider` table identifies your organization's IoT providers and the [a
 
 ### IoT Provider Instance table
 
-A 1:many relationship exists between the `IoT Provider` table and the `IoT Provider Instance` table. For example, if your organization is connected to two different Azure IoT Hubs, you have one IoT provider record for Azure IoT Hub and two IoT provider instance records, one for each of your IoT Hubs. You can view the list of IoT provider instances in Field Service **Settings** > **IoT** > **Providers**.
+A one-to-many (1:many) relationship exists between the `IoT Provider` table and the `IoT Provider Instance` table. For example, if your organization is connected to two different Azure IoT Hubs, you have one IoT provider record for Azure IoT Hub and two IoT provider instance records, one for each of your IoT Hubs. You can view the list of IoT provider instances in Field Service **Settings** > **IoT** > **Providers**.
 
 :::image type="content" source="media/cfs-iot-hub-provider-instance.png" alt-text="Screenshot of an IoT provider instance record.":::
 
@@ -52,7 +52,7 @@ A 1:many relationship exists between the `IoT Provider` table and the `IoT Provi
 
 A 1:many relationship exists between the `IoT Provider Instance` table and the `IoT Device` table, which maps each device to an IoT provider instance.
 
-- **Account** identifies the customer account in Field Service that's associated with the device.
+- **Account** identifies the customer account in Field Service that has an association with the device.
 - **Category** is the device category.
 - **Time Zone** is the time zone in which the device is located.
 - **Device Id** is used to register the device with the IoT provider.
@@ -67,7 +67,7 @@ Connection methods for custom IoT solutions come with both advantages and risks.
 | [Dataverse API](/power-apps/developer/data-platform/overview) | - Allows direct communication between Connected Field Service and external services.<br/>- Robust protocol for building software applications. | <br/>- External services must be able to integrate with APIs.<br/>- Requires strong understanding of Connected Field Service API capabilities. |
 | Webhooks | Sends real-time updates to an external service when specific actions are taken in Connected Field Service. | External service needs to be able to receive and process webhook messages. |
 | Connectors | Provides a seamless integration experience and acts as a bridge between Connected Field Service and the external service. | Requires more robust technical knowledge and development resources. |
-| Custom code | Highly tailored and effective integration. | Requires high level of technical expertise; may involve more risk than other methods. |
+| Custom code | Highly tailored and effective integration. | Requires high level of technical expertise; it might involve more risk than other methods. |
 
 Commonly used development tools to build custom solutions for Connected Field Service:
 
@@ -79,7 +79,7 @@ Commonly used development tools to build custom solutions for Connected Field Se
 
 - **Microsoft Visual Studio** is a popular integrated development environment that supports a wide range of programming languages and frameworks, including .NET, JavaScript, and Python.
 
-- **JavaScript** is a widely used programming language that's often used with other tools and frameworks, such as Node.js and React.
+- **JavaScript** is a widely used programming language commonly used with other tools and frameworks, such as Node.js and React.
 
 - **REST APIs** provide a standardized way for applications to communicate with each other over the web. Connected Field Service provides many REST APIs that can be used to integrate with external services and build custom solutions.
 

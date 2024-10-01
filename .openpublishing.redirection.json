@@ -21,6 +21,21 @@
       "redirect_document_id": "false"
    },
    {
+     "source_path": "ce/field-service/analytics-predictive-work-duration.md",
+     "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+     "redirect_document_id": "false"
+  },
+  {
+    "source_path": "ce/field-service/configure-incident-types.md#use-ai-to-get-incident-type-suggestions",
+    "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+    "redirect_document_id": "false"
+  },
+  {
+    "source_path": "ce/field-service/iot-alerts-ai-based-suggestions.md",
+    "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+    "redirect_document_id": "false"
+  },
+   {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-web-api.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
       "redirect_document_id": "false"
@@ -168,6 +183,11 @@
     {
       "source_path": "ce/sales/license-checker-rules.md",
       "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/sales-copilot-data-movement.md",
+      "redirect_url": "/dynamics365/sales/enable-setup-copilot",
       "redirect_document_id": "false"
     },
     {
@@ -28163,6 +28183,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/use/voice-channel-agent-experience.md",
+      "redirect_url": "/dynamics365/contact-center/use/voice-channel-agent-experience",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/customer-service/configure-copilot-features.md",
       "redirect_url": "administer/configure-copilot-features",
       "redirect_document_id": false
@@ -33071,6 +33096,22 @@
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/entities/overview-entity-ref",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "ce/customer-service/implement/omnichannel-provision-license.md",
+      "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/remove-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/provision-channels#turn-off-channels",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/customer-service/implement/upgrade-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
+      "redirect_document_id": false
+    },  
+
   ]
 }

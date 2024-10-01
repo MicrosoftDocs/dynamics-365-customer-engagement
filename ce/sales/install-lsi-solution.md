@@ -68,6 +68,8 @@ To verify that the installation is complete, perform the steps in the following 
 ## Validate the installation
 
 1. In your app, select **Settings**, and then select **Advanced Settings**.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Go to **Settings** > **Customizations** > **Solutions**.
 
@@ -79,6 +81,8 @@ To verify that the installation is complete, perform the steps in the following 
 ## Uninstall the solution
 
 1. In your app, select **Settings**, and then select **Advanced Settings**.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Go to **Settings** > **Customizations** > **Solutions**.
 
@@ -94,3 +98,4 @@ The solution is removed from your organization.
 
 [Understand the LinkedIn Sales Insights tab](understand-lsi-accounts-form.md)  
 [LinkedIn Sales Insights for Dynamics 365 Sales - Installation Guide](https://www.linkedin.com/help/sales-navigator/answer/a419445)
+

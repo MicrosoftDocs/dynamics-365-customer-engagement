@@ -23,10 +23,7 @@ The LINE channel gives you an incredible opportunity to capitalize on the social
 
 ## Prerequisites
 
-Following are the prerequisites before configuring the LINE channel in Omnichannel for Customer Service.
-
-> [!NOTE]
-> To enable the LINE channel in an existing Omnichannel for Customer Service environment, you must [upgrade to the latest version of Omnichannel for Customer Service](../implement/upgrade-omnichannel.md).
+The prerequisites to configure the LINE channel in Contact Center admin center or Customer Service admin center are as follows:
 
 1.	Create a [LINE](https://line.me/en/) handle.
 2.	Create a LINE channel in the LINE Developers console. More information: [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
@@ -40,7 +37,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 **To configure the LINE channel**
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
