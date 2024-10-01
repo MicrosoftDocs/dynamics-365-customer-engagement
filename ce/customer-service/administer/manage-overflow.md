@@ -3,7 +3,7 @@ title: Handle queue overflow
 description: Learn how to set up overflow conditions and actions for your Dynamics 365 Customer Service voice, chat, and messaging channels when there are more items in the queue than your team can handle.
 author: neeranelli
 ms.author: nenellim
-ms.date: 09/02/2024
+ms.date: 10/05/2024
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -165,17 +165,13 @@ The conditions and actions available for the channels are as follows.
 
 | Channel | Condition | Action |
 |---------|-----------|-------|
-|Voice|Waiting time in queue exceeds|Direct callback <br>Transfer to a different queue<br>Transfer to an external number<br>Voicemail|
-|Messaging|Waiting time in queue exceeds|End conversation<br>Transfer to a different queue|
 |Record|Waiting time in queue exceeds|Transfer to a different queue|
 
 ### Things to keep in mind
 
-You can configure the following wait times:
+You can configure the following wait time for the records channel:
 
-- Voice channel: 1 minute to 60 minutes
-- Messaging channels: 1 minute to 2 days
-- Record routing: 3 minutes to 2 days
+- Records channel: 3 minutes to 2 days
 
 If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
 
