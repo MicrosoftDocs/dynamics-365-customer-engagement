@@ -26,12 +26,11 @@ For information about older versions, see [Version history archive](../../field-
 
 **Resource Scheduling Controls:** 1.2.81.242685
 
-- This release includes all updates from the W2 early access updates.
-- The relevant account for underlying bookings can now be seen on SB aggregate booking by turning on a new feature. 
-- Keywords in requirement search box on the SB are now cached when switching between tabs.
+- This release includes all updates from the 2024 release wave 2 early access updates.
+- The relevant account for underlying bookings can now be seen on the schedule board aggregate booking by turning on a new feature. 
+- Keywords in requirement search box on the schedule board are now cached when switching between tabs.
 - Turning on focus mode no longer maximizes the browser.
-- Fixed a bug that was causing Schedule Assistant to ignore fulfillment preferences on the initial load. 
-- Various improvements to the Bryntum React update preview.
+- Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load. 
 
 ## 3.12.140.11
 
