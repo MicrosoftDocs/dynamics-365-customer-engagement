@@ -180,7 +180,7 @@ If two of the agents match one each of the required capacity profiles and the th
 
 Routing diagnostics lend visibility into how routing decisions are made for work items in contact centers. It was deprecated with a better alternative of Azure Application Insights for end-to-end conversation diagnostics.
 
-### What is the alternative to routing diagnostics once it deprecates?
+### What is the alternative to routing diagnostics after it's deprecated?
 
 Customers can use Azure Application Insights, which is our one-stop solution to get a comprehensive view of end-to-end conversation diagnostics.
 
