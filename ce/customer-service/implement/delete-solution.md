@@ -1,7 +1,7 @@
 ---
 title: Uninstall solutions in Omnichannel for Customer Service
 description: Perform the steps mentioned in this article to remove solutions in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 09/30/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 
 ## Prerequisite
 
-You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
+You must have removed [Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels#turn-off-channels).
 
 > [!IMPORTANT]
 > Some solutions are shared across apps, and you shouldn't remove them unless you intend to uninstall those apps too; skip those solutions if they are required.
