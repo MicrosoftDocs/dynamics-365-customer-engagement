@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 09/30/2024
+ms.date: 10/01/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -109,9 +109,9 @@ Yes. It's possible to reassign a case to another queue. On the case form, select
 
 A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
 
-### Can I access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace?
+### Can I access Omnichannel Ongoing Conversations Dashboard in Customer Service workspace?
 
-Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
+Yes, you can access Omnichannel Ongoing Conversations Dashboard in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
 
 ### How are unassigned work items in a queue handled if no matching agent is found?
 
