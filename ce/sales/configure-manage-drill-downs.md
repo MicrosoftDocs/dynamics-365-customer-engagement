@@ -1,7 +1,7 @@
 ---
 title: "Configure and manage drill-down entities for a forecast"
 description: "Configure drill-down entities to help sellers understand what values are constituting their forecast projections."
-ms.date: 03/14/2023
+ms.date: 10/01/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
