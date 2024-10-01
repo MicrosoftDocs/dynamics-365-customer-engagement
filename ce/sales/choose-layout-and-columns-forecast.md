@@ -1,7 +1,7 @@
 ---
 title: Configure columns and layouts in forecast grid
 description: Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
-ms.date: 09/25/2024
+ms.date: 10/01/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -54,23 +54,20 @@ To define the layout, select an option set and then add the rollup columns accor
 
 2.	Choose an option set entity from the rollup entity or from its related entities. The selected entity consists of option sets that are necessary to add columns to the forecast. In this example, the **Opportunity** option set entity is selected from **Related Entities**. The list shows only the option sets defined on the opportunity entity.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select opportunity entity from related entities.](media/forecast-ce-select-opportunity-entity.png "Select opportunity entity from related entities")
+    :::image type="content" source="media/forecast-ce-select-opportunity-entity.png" alt-text="Select opportunity entity from related entities":::
 
 3.	Choose an option set and then select **Choose selected**. In this example, **Forecast category** option set is selected. The option set values are added as columns for you to configure.
 
     > [!TIP]
     > We recommend you use the out-of-the-box **Forecast category** option set for column configuration. After choosing this option, select **Auto-configure** in the dialog box that asks if you want to auto-populate the configuration parameters. This saves time by automatically populating columns according to best practices. The option to auto-configure columns are available only for **Opportunity** and **Opportunity product** rollup entities.
 
-    > [!div class="mx-imgBorder"]
-    > ![Choose option set for forecast.](media/forecast-layout-column-choose-option-set.png "Choose an option set for the forecast")
+    :::image type="content" source="media/forecast-layout-column-choose-option-set.png" alt-text="Choose an option set for the forecast":::
 
     By default, a **Quota** column of type **Simple** is added to the forecast. To begin tracking against targets, you must manually upload an Excel workbook that contains quota values to the forecast. To learn more, see [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 
     After the rollup columns are added to the forecast, you can use **More options** to rearrange or remove the columns that you don't need.
 
-    > [!div class="mx-imgBorder"]
-    > ![Rollup columns are added to the forecast.](media/forecast-layout-column-selected-columns-added.png "rollup columns are added to the forecast")
+    :::image type="content" source="media/forecast-layout-column-selected-columns-added.png" alt-text="rollup columns are added to the forecast":::
 
 <a name="configure-columns"> </a>      
 ## Configure columns
@@ -83,8 +80,7 @@ In the **Layout** step of the forecast configuration, you can configure each col
 
 1.	To configure each column, select the gear icon ![Gear icon.](media/gear-icon.png "Gear icon") and the column configuration section opens. In this example, the **Pipeline** column is selected.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select configuration option for a column.](media/forecast-layout-column-configuration-selection-opens.png "Select a configuration option for a column")
+    :::image type="content" source="media/forecast-layout-column-configuration-selection-opens.png" alt-text="new image":::
 
     On the column configuration page, the **Name** field specifies the display name of the column. The **Unique name** field is auto-populated based on the display name you've specified and supports only English characters. If you use non-English characters in the **Name** field, the **Unique name** field isn't auto-populated. You must manually enter a unique name in English for such columns.  
 
