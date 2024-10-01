@@ -109,10 +109,6 @@ Yes. It's possible to reassign a case to another queue. On the case form, select
 
 A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
 
-### Can I access Omnichannel Ongoing Conversations Dashboard in Customer Service workspace?
-
-Yes, you can access Omnichannel Ongoing Conversations Dashboard in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
-
 ### How are unassigned work items in a queue handled if no matching agent is found?
 
 The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
