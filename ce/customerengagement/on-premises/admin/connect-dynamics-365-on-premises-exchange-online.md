@@ -49,7 +49,7 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
 
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
-- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you're evaluating server-based authentication, you can use a self-signed certificate.
+- An x509 digital certificate issued by a trusted certificate authority is used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you're evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.
 - Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate. More information: [Grant the Asynchronous Processing Service service account read access to the certificate](#grant-the-asynchronous-processing-service-service-account-read-access-to-the-certificate)
 
@@ -134,9 +134,9 @@ Error: Failed Authentication. This error can be returned when the certificate us
     |Auto Discover Server Location     |  Prepopulated with the Exchange Online URL. Select **Yes** (recommended), if you want to use the auto discover service to determine the server location. If you set this to **No**, you must specify the email server location manually.       |
     |Incoming Server Location and Outgoing Server Location     |  If you select **No** in **Auto Discover Server Location**, enter a URL for **Incoming Server Location** and **Outgoing Server Location**.       |
     |**Additional Settings**   |         |
-    |Process Email From    | Select a date and time. Email received after the date and time will be processed by server-side synchronization for all mailboxes associated with this profile. If you set a value less than the current date, the change will be applied to all newly associated mailboxes and their earlier processed emails will be pulled.        |
+    |Process Email From    | Select a date and time. Email received after the date and time is processed by server-side synchronization for all mailboxes associated with this profile. If you set a value less than the current date, the change is applied to all newly associated mailboxes and their earlier processed emails are pulled.        |
     |Minimum Polling Intervals in Minutes    | Type the minimum polling interval, in minutes, for mailboxes that are associated with this email server profile. The polling interval determines how often server-side synchronization polls your mailboxes for new email messages.          |
-    |Move Failed Emails to Undeliverable Folder    | To move the undelivered email to the Undeliverable folder, select **Yes**. If there’s an error in tracking email messages in Dynamics 365 as email activities, and if this option is set to **Yes**, the email message will be moved to the Undeliverable folder.         |
+    |Move Failed Emails to Undeliverable Folder    | To move the undelivered email to the Undeliverable folder, select **Yes**. If there’s an error in tracking email messages in Dynamics 365 as email activities, and if this option is set to **Yes**, the email message is moved to the Undeliverable folder.         |
 
 4. Select **Save**.
 5. Select **Test Connection** and review the results. To diagnose issues, see the following section.
@@ -162,7 +162,7 @@ Set server-side synchronization to be the default configuration method.
     > [!NOTE]
     > If your users primarily use Dynamics 365 for Outlook on their desktop computers, Microsoft Dynamics 365 for Outlook might be a better choice.
 
-    If you leave the Email processing form unapproved user and queues at the default values (selected), you'll need to approve emails and queues for user mailboxes as directed below in Approve Email.
+    If you leave the Email processing form unapproved user and queues at the default values (selected), you need to approve emails and queues for user mailboxes as directed below in Approve Email.
 
     ![Exchange Server profile.](media/system-settings-exchange-profile.png)
 
