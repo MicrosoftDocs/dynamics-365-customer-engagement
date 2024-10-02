@@ -148,5 +148,5 @@ After updating a View to change data in the Agenda or List experience, the chang
 
 ### Resolution
 
-The application will cache changes for up to 24 hours. To see those changes, the user would need to wait, or sign out and back into the application. 
+The application will cache changes for up to 8 hours. To see those changes, the user would need to wait, or sign out and back into the application. 
 
