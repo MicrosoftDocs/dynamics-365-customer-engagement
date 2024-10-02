@@ -64,7 +64,7 @@ $CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFi
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
- 3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure SSS and the customer relationship management app with the certificate from the previous step.
+ 3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
     
     Make sure to [add](/entra/identity-platform/quickstart-configure-app-access-web-apis) and grant the following API permissions to the new app:
 
