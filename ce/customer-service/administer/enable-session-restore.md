@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-By default, when a browser is refreshed or reconnected in the Customer Service workspace app, only the home page reloads. Service representatives must manually reopen all their sessions and application tabs. This includes calls, cases, chats, messages, and more. Common reasons a browser might close include browser memory issues, microphone or headset problems, network instability, or accidental browser closures.
+By default, when a browser is refreshed or reconnected in the Customer Service workspace app, only the home page reloads. Service representatives must manually reopen all their sessions and application tabs, including calls, cases, chats, messages, and more. Common reasons a browser might close include browser memory issues, microphone or headset problems, network instability, or accidental browser closures.
 
 As an administrator, you can enable session restore, which automatically restores sessions when the browser refreshes. Session restore ensures that service representatives can promptly resume their work without having to manually reconstruct their workspaces. Key entities, such as cases, accounts, and their associated application tabs are reopened, and focus restores to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated.
 
@@ -23,7 +23,7 @@ Keep in mind the following functionalities before you enable the session restore
 
 - The order of session tabs might change.
 - When there are multiple browser sessions or tabs, the system restores only the latest updated browser tab or session.
-- Cross-browser restoration, such as from Edge to Chrome, isn't supported.
+- Cross-browser restoration, such as from Microsoft Edge to Google Chrome, isn't supported.
 - While the productivity pane state and focus are restored, the system doesn't restore the state of the productivity tools.
 - The system restores chats, calls, and other conversations after presence is reestablished. There's a slight delay when compared to other sessions.
 
