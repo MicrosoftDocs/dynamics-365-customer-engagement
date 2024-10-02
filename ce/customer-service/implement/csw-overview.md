@@ -1,6 +1,6 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
-description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
+description: Overview of Customer Service workspace for Dynamics 365 Customer Service.
 ms.date: 10/02/2024
 ms.topic: overview
 author: gandhamm
@@ -18,7 +18,7 @@ ms.collection: get-started
 
 Dynamics 365 Customer Service workspace helps agents increase productivity with a browser-like, tabbed experience. Agents can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace.
 
-The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
+The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, which helps boost agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
 For more information about licensing and system requirements, refer to [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
 
@@ -55,7 +55,7 @@ Customer Service workspace allows agents to work on multiple sessions at a time 
 
 ### Session restore (preview)
 
-If your administrator has turned on session restore, key entities in Customer Service workspace reload automatically if your browser refreshes. Without session restore, when a browser refreshes or reconnects, Customer Service workspace only reloads the home page. 
+If your administrator turned on session restore, key entities in Customer Service workspace reload automatically if your browser refreshes. Without session restore, when a browser refreshes or reconnects, Customer Service workspace reloads only the home page. 
 
 Session restore automatically restores cases, accounts, and their associated application tabs without requiring you to manually reopen them. Focus is restored to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated. 
 
@@ -64,7 +64,7 @@ For more information, refer to [Enable session restore to automatically reopen s
 
 ### Use the Inbox
 
-If your administrator has turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
+If your administrator turned on the inbox for your profile, you can select the **Inbox** tab to view all the cases, conversations, and activities that are assigned to you. Use the inbox to work on high-velocity tasks. You can also promote inbox sessions to regular sessions when you need more time to resolve a case or complete a conversation.
 
 The asynchronous channels available in the conversation inbox are: 
 - SMS
@@ -107,7 +107,7 @@ Here are a few things to note when you use Customer Service workspace in your or
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
 - Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../develop/reference/methods/createTab.md)
 - You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../develop/microsoft-apm.md) 
-- The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
+- The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You can't navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
 
 ### Limitations
 
@@ -115,7 +115,7 @@ The following limitations apply to Customer Service workspace:
 - When you switch between tabs or sessions:
   - Subgrid controls don't retain the filter or sort conditions.
   - Web resources, form components, custom pages, and third-party websites don't retain the state of the page.
-  - When changing the status record in a tab, the corresponding record open in a grid or subgrid of another tab doesn't refresh automatically.
+  - When you change the status record in a tab, the corresponding record that's open in a grid or subgrid of another tab doesn't refresh automatically.
 - Customer Service workspace isn't supported in mobile devices, Unified Service Desk, Microsoft Teams, and with Dynamics 365 Customer Engagement (on-premises).
 
 ## Deprecated Customer Service workspace layout
