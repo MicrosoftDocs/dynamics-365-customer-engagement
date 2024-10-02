@@ -69,9 +69,10 @@ Invoke-Expression -command $CertificateScriptWithCommand
     Make sure to [add](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-configure-app-access-web-apis) 
     and grant below API permissions to the new app. 
     Create a client secrete for this new app [modify the app registration to create a client secret](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately)
-
+    
+      :::image type="content" source="media/SSS_Image1.png" alt-text="Upload the deployment profile.":::
      
-4. In the powershell session from step 2 invoke below **ConfigureCrmServerSideSync** command                     
+5. In the powershell session from step 2 invoke below **ConfigureCrmServerSideSync** command                     
     [Download](/github.com/microsoft/PowerApps-amples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the Script and replace the existing 
     script if the ConfigureCrmServerSideSync.ps1                                                                     
 
