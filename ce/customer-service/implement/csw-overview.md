@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of the Customer Service workspace application for Dynamics 365 Customer Service.
-ms.date: 07/29/2024
+ms.date: 10/02/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -52,6 +52,20 @@ Customer Service workspace allows agents to work on multiple sessions at a time 
 | Open a record from a form lookup | Record opens in a new tab in the focused session |
 | Open a view from the Sitemap | View opens in a new tab in the focused session |
 | Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
+
+### Session restore (preview)
+
+Traditionally, when a browser is refreshed or reconnected, the Customer Service workspace app only reloads the home experience. This requires service representatives to manually reopen all their sessions and application tabs. This includes calls, cases, chats, messages, and more. The reasons for such disruptions range from browser memory issues, microphone or headset problems, network instability, to accidental browser closures.
+
+The session restore experience aims to address these challenges by automatically restoring sessions. Key entities, such as cases, accounts, and their associated application tabs, are reopened, and focus is restored to the last session or application tab in view. Once the presence is loaded, conversations, including calls and chats, are reinstated. Session restore ensures that service representatives can promptly resume their work without having to manually reconstruct their workspaces.
+
+There are a few nuances to the session restore feature. The order of session tabs may change, and only the latest updated browser tab or session will be restored in scenarios involving multiple browser sessions or tabs. Cross-browser restoration, such as from Edge to Chrome, isn't supported. Additionally, while the productivity pane state and focus are restored, the state of the productivity tools isn't restored. Chats, calls, and other session types are restored after presence is reestablished, with a slight delay when compared to other sessions.
+
+#### Enable session restore
+
+1. In Customer Service admin center, select the **Miscellaneous** section of the site map, and then select **Manage** under the **New and upcoming features** section.
+2. Select the **Session restore** check box.
+
 
 ### Use the Inbox
 
