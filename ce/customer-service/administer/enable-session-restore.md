@@ -26,7 +26,7 @@ Keep in mind the following considerations before you enable the session restore 
 - Cross-browser restoration, such as from Microsoft Edge to Google Chrome, isn't supported.
 - While the productivity pane state and focus are restored, the system doesn't restore the state of the productivity tools.
 - The system restores chats, calls, and other conversations after presence is reestablished. There's a slight delay when compared to other sessions.
-- Sessions that are initiated by third-party providers via Channel Integration Framework aren't restored.
+- Sessions that are initiated by third-party providers via Dynamics 365 Channel Integration Framework aren't restored.
 
 ## Enable session restore for service representatives
 
