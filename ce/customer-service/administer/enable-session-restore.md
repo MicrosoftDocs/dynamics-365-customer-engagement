@@ -1,5 +1,5 @@
 ---
-title: Enable session restore to automatically reload browser sessions and tabs (preview)
+title: Enable session restore to automatically reopen browser sessions and tabs (preview)
 description: Learn how to enable session restore to automatically reload sessions and tabs in Customer Service workspace.
 author: lalexms 
 ms.author: laalexan
@@ -9,7 +9,7 @@ ms.date: 10/02/2024
 ms.custom: bap-template 
 ---
 
-# Enable session restore for automtically reload browser sessions (preview)
+# Enable session restore to automatically reopen browser sessions (preview)
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -33,7 +33,7 @@ Keep in mind the following functionalities before you enable the session restore
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Miscellaneous**.
 1. Select **Manage** in **New and upcoming features**.
-1. Select the **Session restore** check box, and then select **Save**.
+1. Select the **Session restore (preview)** check box, and then select **Save**.
 
 ### Related information
 [Overview of Customer Service workspace](..implement/csw-overview.md)  
