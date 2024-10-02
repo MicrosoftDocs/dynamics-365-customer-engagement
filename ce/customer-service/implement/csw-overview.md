@@ -59,7 +59,7 @@ If your administrator has turned on session restore, key entities in Customer Se
 
 Session restore automatically restores cases, accounts, and their associated application tabs without requiring you to manually reopen them. Focus is restored to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated. 
 
-For more information, refer to [Enable session restore to automatically reopen browser sessions (preview)](../administer/enable-session-restore.md).
+For more information, refer to [Enable session restore to automatically reopen sessions and tabs (preview)](../administer/enable-session-restore.md).
 
 
 ### Use the Inbox
@@ -120,7 +120,7 @@ The following limitations apply to Customer Service workspace:
 
 ## Deprecated Customer Service workspace layout
 
-The legacy layout has been deprecated and will be removed in October 2023.
+The legacy layout is deprecated and was removed in October 2023.
 
 :::image type="content" source="../media/csw-overview-mini.png" alt-text="Screenshot of the default Customer Service workspace, with items labeled according to the legend in the table" lightbox="../media/csw-overview.png":::
 
