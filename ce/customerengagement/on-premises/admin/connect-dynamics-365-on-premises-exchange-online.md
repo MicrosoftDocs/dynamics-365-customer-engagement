@@ -1,18 +1,18 @@
 ---
-title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
-description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
-ms.custom: ""
-ms.date: "08/30/2023"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)
+description: Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online.
+ms.custom: 
+ms.date: 10/02/2024
+ms.reviewer: sericks
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 (on-premises)
 ms.assetid: 5622050b-a0e8-40ca-9ed5-fc082d5212a8
 caps.latest.revision: 61
-ms.author: matp
-author: Mattp123
+ms.author: rahulmital 
+author: rahulmital
 ---
 # Connect Customer Engagement (on-premises) to Exchange Online
 
@@ -64,11 +64,15 @@ $CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFi
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
- 3. [Setup new Entra Id App](https://learn.microsoft.com/en-us/graph/auth-register-app-v2) to configure SSS and the CRM 
-    APP with the certificate from previous step. 
-    Make sure to [add](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-configure-app-access-web-apis) 
-    and grant below API permissions to the new app. 
-    Create a client secrete for this new app [modify the app registration to create a client secret](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately)
+ 3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure SSS and the customer relationship management app with the certificate from the previous step.
+    
+    Make sure to [add](/entra/identity-platform/quickstart-configure-app-access-web-apis) and grant the following API permissions to the new app:
+
+    - Application.ReadWrite.All
+    - Orgaization.Read.All
+    - User.Read
+    
+    Create a client secrete for this new app and [modify the app registration to create a client secret](/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately).
     
       :::image type="content" source="media/SSS_Image1.png" alt-text="Upload the deployment profile.":::
      
