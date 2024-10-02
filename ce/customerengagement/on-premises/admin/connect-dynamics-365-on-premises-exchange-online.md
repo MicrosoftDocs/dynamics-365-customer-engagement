@@ -59,10 +59,10 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it's C:\Program Files\Microsoft Dynamics CRM\Tools).
 
-```powershell
-$CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
-Invoke-Expression -command $CertificateScriptWithCommand
-```
+    ```powershell
+    $CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
+    Invoke-Expression -command $CertificateScriptWithCommand
+    ```
 
  3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
     
