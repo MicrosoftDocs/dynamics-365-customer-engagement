@@ -20,7 +20,7 @@ Dynamics 365 Customer Service workspace helps agents increase productivity with 
 
 The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, see [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
+For more information about licensing and system requirements, refer to [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
 
 **Set up Omnichannel in Customer Service workspace** 
 
@@ -55,16 +55,11 @@ Customer Service workspace allows agents to work on multiple sessions at a time 
 
 ### Session restore (preview)
 
-Traditionally, when a browser is refreshed or reconnected, the Customer Service workspace app only reloads the home experience. This requires service representatives to manually reopen all their sessions and application tabs. This includes calls, cases, chats, messages, and more. The reasons for such disruptions range from browser memory issues, microphone or headset problems, network instability, to accidental browser closures.
+If your administrator has turned on session restore, key entities in Customer Service workspace reload automatically if your browser refreshes. Without session restore, when a browser refreshes or reconnects, Customer Service workspace only reloads the home page. 
 
-The session restore experience aims to address these challenges by automatically restoring sessions. Key entities, such as cases, accounts, and their associated application tabs, are reopened, and focus is restored to the last session or application tab in view. Once the presence is loaded, conversations, including calls and chats, are reinstated. Session restore ensures that service representatives can promptly resume their work without having to manually reconstruct their workspaces.
+Session restore automatically restores cases, accounts, and their associated application tabs without requiring you to manually reopen them. Focus is restored to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated. 
 
-There are a few nuances to the session restore feature. The order of session tabs may change, and only the latest updated browser tab or session will be restored in scenarios involving multiple browser sessions or tabs. Cross-browser restoration, such as from Edge to Chrome, isn't supported. Additionally, while the productivity pane state and focus are restored, the state of the productivity tools isn't restored. Chats, calls, and other session types are restored after presence is reestablished, with a slight delay when compared to other sessions.
-
-#### Enable session restore
-
-1. In Customer Service admin center, select the **Miscellaneous** section of the site map, and then select **Manage** under the **New and upcoming features** section.
-2. Select the **Session restore** check box.
+For more information, refer to [Enable session restore to automatically reopen browser sessions (preview)]{../administer/enable-session-restore.md).
 
 
 ### Use the Inbox
@@ -80,13 +75,13 @@ The asynchronous channels available in the conversation inbox are:
 - WhatsApp
 - Microsoft Teams
 
-More information: [Configure the inbox view](../administer/configure-inbox.md)
+For more information, refer to [Configure the inbox view](../administer/configure-inbox.md).
 
 ### Use the productivity pane with Smart Assist
 
-When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you are working on. You'll also see agent scripts that guide you through a consistent series of steps with potentially automated actions through macros.
+When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you're working on. There are also customer service representative scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
-More information: [Productivity pane](../use/../use/csw-productivity-pane.md)
+For more information, refer to [Productivity pane](../use/../use/csw-productivity-pane.md).
 
 ## Work with cases, activities, knowledge articles, and email templates
 
@@ -100,7 +95,7 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-More information: [Agent experience profiles](../administer/overview.md)
+For more information, refer to [Agent experience profiles](../administer/overview.md).
 
 ## Considerations
 
