@@ -64,66 +64,26 @@ $CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFi
 Invoke-Expression -command $CertificateScriptWithCommand
 ```
 
-3. Prepare the Windows PowerShell session.
+ 3. [Setup new Entra Id App](https://learn.microsoft.com/en-us/graph/auth-register-app-v2) to configure SSS and the CRM 
+    APP with the certificate from previous step. 
+    Make sure to [add](https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-configure-app-access-web-apis) 
+    and grant below API permissions to the new app. 
+    Create a client secrete for this new app [modify the app registration to create a client secret](https://learn.microsoft.com/en-us/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately)
 
-   The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the Windows PowerShell session. For more information about these cmdlets, see [Windows PowerShell Core Cmdlets](/powershell/module/Microsoft.PowerShell.Core).
+     
+4. In the powershell session from step 2 invoke below **ConfigureCrmServerSideSync** command                     
+    [Download](/github.com/microsoft/PowerApps-amples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the Script and replace the existing 
+    script if the ConfigureCrmServerSideSync.ps1                                                                     
 
-```powershell
-Enable-PSRemoting -force
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-Install-Module MSOnline
-Install-Module MSOnlineExt
-Import-Module MSOnline -force
-Import-Module MSOnlineExt -force
-```
+   Script present in the current powershell session directory from above is different than the script in the download 
+  link :
 
-4. Connect to Office 365.
+     $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -privateKeyPassword (ConvertTo- 
+     SecureString 'personal_certfile_password' -AsPlainText -Force) -pfxFilePath c:\Personalcertfile.pfx -organizationName 
+     organization_name -microsoftEntraIdTenantIdOrDomainName microsoft_entraid_tenantid_or_domain_name -ClientID 
+     app_id_from_step3 -ClientSecret -client_secret" 
+     Invoke-Expression -command $ConfigureCrmServerSideSyncWithCommand 
 
-   When you run the Connect-MsolService command, you must provide a valid Microsoft account that has Office 365 Global Administrator membership for the Exchange Online license that is required.
-   For detailed information about each of the Azure Active Directory PowerShell commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)).
-
-```powershell
-$msolcred = get-credential
-connect-msolservice -credential $msolcred
-```
-
-5. Set the certificate.
-
-```powershell
-$Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
-$Certificate.Import("c:\Personalcertfile.cer")
-$CERCertificateBin = $Certificate.GetRawCertData()
-$CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
-```
-
-6. Set the Azure Active Directory Service Principal Name (SPN) in Exchange Online.
-
-   Replace *.contoso.com with the domain name where Microsoft Dynamics 365 Server is located.
-
-```powershell
-$RootDomain = "*.contoso.com"
-$CRMAppId = "00000007-0000-0000-c000-000000000000" 
-New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
-$CRM = Get-MsolServicePrincipal -AppPrincipalId $CRMAppId
-$ServicePrincipalName = $CRM.ServicePrincipalNames
-$ServicePrincipalName.Remove("$CRMAppId/$RootDomain")
-$ServicePrincipalName.Add("$CRMAppId/$RootDomain")
-Set-MsolServicePrincipal -AppPrincipalId $CRMAppId -ServicePrincipalNames $ServicePrincipalName
-```
-
-7. Configure the Microsoft Dynamics 365 Server for server-based authentication with Exchange.
-
-```powershell
-Add-PSSnapin Microsoft.Crm.PowerShell 
-$setting = New-Object "Microsoft.Xrm.Sdk.Deployment.ConfigurationEntity"
-$setting.LogicalName = "ServerSettings"
-$setting.Attributes = New-Object "Microsoft.Xrm.Sdk.Deployment.AttributeCollection"
-$attribute1 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerPrincipalId", "00000001-0000-0000-c000-000000000000")
-$setting.Attributes.Add($attribute1)
-$attribute2 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerMetadataUrl", "https://accounts.accesscontrol.windows.net/metadata/json/1")
-$setting.Attributes.Add($attribute2)
-Set-CrmAdvancedSetting -Entity $setting
-```
 
 > [!IMPORTANT]
 > For customers using Exchange Online with Government Community Cloud (GCC) High for US government environments, the **S2SDefaultAuthorizationServerMetadataUrl** in the PowerShell script must be changed to *https://login.microsoftonline.us/metadata/json/1*.
