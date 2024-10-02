@@ -26,12 +26,13 @@ Keep in mind the following functionalities before you enable the session restore
 - Cross-browser restoration, such as from Microsoft Edge to Google Chrome, isn't supported.
 - While the productivity pane state and focus are restored, the system doesn't restore the state of the productivity tools.
 - The system restores chats, calls, and other conversations after presence is reestablished. There's a slight delay when compared to other sessions.
+- Sessions that are initiated by third-party providers via Channel Integration Framework aren't restored.
 
 ## Enable session restore for service representatives
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Miscellaneous**.
 1. Select **Manage** in **New and upcoming features**.
-1. Select the **Session restore (preview)** check box, and then select **Save**.
+1. Select the **Session restore** check box, and then select **Save**.
 
 ### Related information
 [Overview of Customer Service workspace](../implement/csw-overview.md)  
