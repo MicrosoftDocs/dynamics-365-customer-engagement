@@ -26,13 +26,13 @@ This article describes how to configure server-based authentication between Dyna
 
 ## Permissions required
 
-Microsoft Dynamics 365:
-- System Administrator security role.
+### Microsoft Dynamics 365
+- You must be assigned to the System Administrator security role.
 - If you're using a self-signed certificate for evaluation purposes, you must have local Administrators group membership on the computer where Microsoft Dynamics 365 Server is running.
 - The account that you use to sign in to the CRM deployment servers must have full local administrator rights.
 
-Exchange Online:
-- Office 365 Global Administrators membership. This is required for administrative-level access to the Office 365 subscription and to run the Microsoft AzurePowerShell cmdlets.
+### Exchange Online
+- You must have Office 365 Global Administrators membership. This is required for administrative-level access to the Office 365 subscription and to run the Microsoft AzurePowerShell cmdlets.
 
     > [!IMPORTANT]
     > In this deployment, the Dynamics 365 administrator can approve mailboxes.
