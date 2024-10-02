@@ -24,18 +24,18 @@ For more information about licensing and system requirements, refer to [Customer
 
 **Set up Omnichannel in Customer Service workspace** 
 
-With the Dynamics 365 Customer Service Digital Messaging add-on, the agent who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Customer Service workspace app. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+With the Dynamics 365 Customer Service Digital Messaging add-on, the service representatives who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Customer Service workspace app. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
 
 :::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace":::
 
 ## Customer Service workspace sessions and tabs
 
-Customer Service workspace allows agents to work on multiple sessions at a time in a single app while keeping the work organized.
-- Agents can work on up to nine sessions and within a session, they can open up to 10 tabs.
--  A new session starts when an agent opens a case from the **Home** session or accepts an incoming conversation.
--  If the agent opens the customer record from a session, a new tab opens in the same session. 
-- Agents can select the hamburger icon to access the site map. 
-- When an agent opens a page from the site map, the page loads in the current focused session.
+Customer Service workspace allows service representatives to work on multiple sessions at a time in a single app while keeping the work organized.
+- Service representatives can work on up to nine sessions and within a session, they can open up to 10 tabs.
+- A new session starts when a service representative opens a case from the **Home** session or accepts an incoming conversation.
+- If the service representative opens the customer record from a session, a new tab opens in the same session. 
+- Service representatives can select the hamburger icon to access the site map. 
+- When a service representative opens a page from the site map, the page loads in the current focused session.
 
 ### Navigate sessions and tabs
 
@@ -162,7 +162,7 @@ You can enable the legacy layout in one of the following ways:
 Download the [Customer Service workspace in a day training](https://go.microsoft.com/fwlink/?linkid=2241180). This training provides an overview of the following topics:
 
   * Get familiar with sessions, tabs, and productivity tools.
-  * How to create agent experience profiles, templates, agent scripts and macros.
+  * How to create agent experience profiles, templates, service representative scripts, and macros.
   * How to assign agent experience profile based on security roles.
   * How to move agent experience profiles via solutions.
   * How to use multisession APIs (Microsoft.Apm).
