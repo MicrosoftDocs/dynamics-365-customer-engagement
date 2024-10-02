@@ -17,9 +17,9 @@ By default, when a browser is refreshed or reconnected in the Customer Service w
 
 As an administrator, you can enable session restore, which automatically restores sessions when the browser refreshes. Session restore ensures that service representatives can promptly resume their work without having to manually reconstruct their workspaces. Key entities, such as cases, accounts, and their associated application tabs are reopened, and focus restores to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated.
 
-## Session restore functionality
+## Session restore considerations
 
-Keep in mind the following functionalities before you enable the session restore feature. 
+Keep in mind the following considerations before you enable the session restore feature. 
 
 - The order of session tabs might change.
 - When there are multiple browser sessions or tabs, the system restores only the latest updated browser tab or session.
@@ -31,7 +31,7 @@ Keep in mind the following functionalities before you enable the session restore
 ## Enable session restore for service representatives
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Miscellaneous**.
-1. Select **Manage** in **New and upcoming features**.
+1. In **New and upcoming features**, select **Manage**.
 1. Select the **Session restore** check box, and then select **Save**.
 
 ### Related information
