@@ -9,7 +9,7 @@ ms.date: 10/02/2024
 ms.custom: bap-template 
 ---
 
-# Enable session restore to automatically reopen browser sessions (preview)
+# Enable session restore to automatically reopen sessions and tabs (preview)
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -25,7 +25,7 @@ Keep in mind the following functionalities before you enable the session restore
 - When there are multiple browser sessions or tabs, the system restores only the latest updated browser tab or session.
 - Cross-browser restoration, such as from Edge to Chrome, isn't supported.
 - While the productivity pane state and focus are restored, the system doesn't restore the state of the productivity tools.
-- The system restore Chats, calls, and other session types after presence is reestablished, with a slight delay when compared to other sessions.
+- The system restores chats, calls, and other conversations after presence is reestablished. There's a slight delay when compared to other sessions.
 
 ## Enable session restore for service representatives
 
