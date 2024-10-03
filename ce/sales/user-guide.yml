@@ -89,6 +89,8 @@ landingContent:
             url: /powerapps/user/enhanced-email
           - text: Understand organization charts 
             url: organization-charts.md
+          - text: Work with Outlook
+            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
 
 # Card 
   - title: Increase sales
@@ -187,14 +189,6 @@ landingContent:
             url: sales-mobile/use-sales-mobile-app.md
           - text: Learn the basics 
             url: sales-mobile/learn-basics-mobile-app.md
-
-# Card 
-  - title: Work with Outlook
-    linkLists:
-       - linkListType: how-to-guide
-         links:
-          - text: Dynamics 365 App for Outlook User Guide 
-            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
 
 # Card 
   - title: Get better sales intelligence

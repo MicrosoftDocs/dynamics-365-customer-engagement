@@ -720,8 +720,6 @@
               href: linkedin/uninstall-sales-navigator.md
             - name: Add Sales Navigator controls to forms
               href: linkedin/add-sales-navigator-controls-forms.md
-            - name: Troubleshooting LinkedIn integration errors
-              href: linkedin/ts-linkedin-integration.md
             - name: LinkedIn integration FAQs
               href: linkedin/faqs-linkedin.md
         - name: LinkedIn Sales Insights
@@ -1139,8 +1137,6 @@
               href: linkedin/data-validation.md
             - name: View Sales Navigator controls on forms
               href: linkedin/view-sales-navigator-forms.md
-            - name: Troubleshooting LinkedIn integration errors
-              href: linkedin/ts-linkedin-integration.md
             - name: LinkedIn integration FAQs
               href: linkedin/faqs-linkedin.md
         - name: LinkedIn Sales Insights
