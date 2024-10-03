@@ -41,24 +41,48 @@ For the records channel,
 
 For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
+## How unified routing prioritizes assignments
+
+Unified routing prioritizes work within individual queues and across queues. Prioritization within a queue can be of the following types:
+
+- First-in-first-out: Is the default prioritization logic applicable for the out-of-box assignment methods.
+- Custom prioritization: Is defined with a [custom assignment method](configure-assignment-rules.md) and no prioritization ruleset.
+
+The oldest conversation or work in the queue is assigned first. In the case of asynchronous messaging channels like persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, and it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer's conversation is prioritized only after the customers who are waiting from Thursday morning.
+  
+When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case,
+- if all the queues with the same queue priority have default first-in-first-out ordering, the oldest item across all these queues is assigned first.
+- If the queues with the same queue priority have custom prioritization rules, then the queues with the same priority are ordered alphabetically based on the queue names to determine the highest priority work.
+
+If you have configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
+
+For example, lets look at a setup with the following four queues, all with queue priority "1":
+
+VIP Support, Premium Support, Order Support, and Invoice Enquires queues.
+
+The VIP Support and Premium Support queues use the default first-in-first-out prioritization and Order Support and Invoice Enquiries queues have custom prioritization rules. For a support representative subscribed to all four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Enquiries queue is assigned next followed by the Order Support queue. 
+
+> [!NOTE]
+> We recommend that you assign distinct queue priorities to queues with custom prioritization rules to provide a clear prioritization. Also, the queues with same prioritization rules are considered to be distinct. Work is sorted based on the queue name. 
+
 ## Types of assignment methods
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. The work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
+- **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
 
-  If you want to use skill-based routing and,
+  If you want to use skill-based routing, the "exact match" and "closest match" options are available.
 
-  - Set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
+  - IF you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
 
-  - Set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
   > [!NOTE]
   > When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no agents who match the assignment criteria.
 
-- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized as mentioned at [How unified routing prioritizes assignments](#how-unified-routing-prioritizes-assignments).
 
   The ordering for round robin assignment is maintained queue wise. Some agents can be a part of multiple queues. Therefore, depending on the agent's last assignment timestamp in a queue, the agents might be assigned back-to-back or concurrent work items but from different queues.
 
@@ -106,7 +130,7 @@ The assignment cycle starts with one of the following triggers:
 
 ## How prioritization rulesets work
 
-A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions are put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sorts the bucket by the **Order by** attribute until all rules are evaluated.
+A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket within the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions are put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sorts the bucket by the **Order by** attribute until all rules are evaluated.
 
 You can create one prioritization ruleset only per queue.
 
