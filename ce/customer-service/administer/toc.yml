@@ -612,6 +612,8 @@
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
+      - name: Enable session restore to automatically reopen sessions and tabs (preview)
+        href: enable-session-restore.md
     - name: Copilot in Customer Service
       items:
       - name: Manage Copilot features in Customer Service

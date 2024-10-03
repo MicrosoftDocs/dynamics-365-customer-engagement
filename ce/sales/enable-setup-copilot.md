@@ -23,7 +23,8 @@ ms.custom:
 Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
 
 - Orgs in [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). 
-- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features) and set the [release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app to **Monthly release channel**.
+
+- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features) and set the [release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app to **Monthly release channel**.
 
 For all the other orgs, an admin must provide consent in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for turning Copilot on or off, providing consent for data movement, and configuring Copilot for your business.
 
@@ -43,7 +44,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 ## Prerequisites
 
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
-- Verify whether your region has an Azure OpenAI Service endpoint. If not, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
+- Verify whether your region has an Azure OpenAI Service endpoint. If not, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. [Learn more about data movement and regions involved with copilots](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
 
 ## Turn Copilot features on or off in Sales Hub
 
@@ -55,11 +56,10 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 
      :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the  settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.svg":::  
 
-1. Select **Turn audit on** to turn on audit history for the lead and opportunity tables. If auditing is already turned on for the lead and opportunity tables or globally, the **Turn audit on** option isn't displayed.
+1. Select **Turn audit on** to turn on audit history for the lead, opportunity, and account tables. If auditing is already turned on for these tables or globally, the **Turn audit on** option isn't displayed.
 
-    - Audit history is required for Copilot to display recent changes to leads and opportunities.
-    - If you configure Copilot to [show recent changes from fields in tables other than leads and opportunities](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually. 
-1. Select **Turn dataverse search on** to enable Copilot to search for records in Dataverse. 
+    - Audit history is required for Copilot to display recent changes to leads, opportunities, and accounts.
+    - If you configure Copilot to [show recent changes from tables other than lead, opportunity, and account tables](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
 1. If your org is in a region where Azure Open AI Service endpoint isn't available but you didn't provide the consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
@@ -90,5 +90,5 @@ Add the Copilot page to your site map by following the instructions in [add site
 ## Related information
 
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
-- [Copilot data movement](sales-copilot-data-movement.md)  
+- [Copilot data movement](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features)  
 - [FAQs about Copilot in Dynamics 365 Sales](sales-copilot-faq.md)
