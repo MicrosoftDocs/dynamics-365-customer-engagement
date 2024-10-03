@@ -25,7 +25,7 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 ## How auto assignment works
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
+The auto assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
 Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that aren't assigned to agents because of unavailability of agents or right skill match wasn't found are routed back to the queue.
 
@@ -36,8 +36,8 @@ When eligible agents aren't found for the work items, the assignment cycle keeps
 For digital messaging and voice, the default block size is 100 work items of top priority.
 
 For the records channel,
-- The number of work items prioritized per queue are 10,000 
-- The number of work items processed for assignment are 2,000 by default
+- The work items prioritized per queue are 10,000 
+- The work items processed for assignment are 2,000 by default
 
 For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
@@ -48,7 +48,7 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 - First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment methods](configure-assignment-rules.md) that have no prioritization rules.
 - Custom prioritization that can be defined with a custom assignment method.
 
-The oldest conversation or work item in the queue is assigned first. In the case of asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
+The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the same customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
 
 When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
 - If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
@@ -59,9 +59,9 @@ If you have configured queues based on both out-of-the-box assignment methods an
 For example, lets look at a setup with the following four queues, all with group number defined as 1:
 
 - **VIP Support and Premium Support**: Default first-in-first-out prioritization
-- **Order Support and Invoice Enquires**: Custom prioritization rules
+- **Order Support and Invoice Inquiries**: Custom prioritization rules
 
-For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Enquiries queue is assigned next followed by the Order Support queue. 
+For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
 > [!NOTE]
 > We recommend that you assign distinct queue priorities to queues with custom prioritization rules to provide a clear prioritization. Even if the queues have the same prioritization rules, they're considered to be distinct.
@@ -125,7 +125,7 @@ The assignment cycle starts with one of the following triggers:
 
 - Arrival of a new work item in the queue.
 - Change to agent presence.
-- Updates to agent capacity: If capacity is updated at runtime then change in capacity triggers assignment. If capacity is updated manually, the change doesn't trigger assignment. 
+- Updates to agent capacity: If capacity is updated at runtime, then change in capacity triggers assignment. If capacity is updated manually, the change doesn't trigger assignment. 
 - Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
 
