@@ -17,7 +17,7 @@ Dynamics 365 Channel Integration Framework 2.0 is available with Customer Servic
 More information:
 
 - [Customer Service workspace](../../../customer-service/implement/csw-overview.md)
-- [Provision Omnichannel for Customer Service](../../../customer-service/implement/omnichannel-provision-license.md).
+- [Provision Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels).
 
 ## Prerequisites
 
