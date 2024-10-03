@@ -29,13 +29,18 @@ When there is an updated version of the app, you will receive a notification.
 
 ### Privileges required to run the app
 
-> [!IMPORTANT]
->  You won't be able to use this app if you don't have the correct privileges. Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md). If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+You won't be able to use this app if you don't have the correct privileges.
+
+- Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md). - If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
 ## Install the app from your device’s app store
- Choose the download link for your device:
-|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **[!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] app**<br /><br />[![Download app from the Apple App Store](../mobile-app/media/mobile-istore-button.png "Download app from the Apple App Store.")](https://go.microsoft.com/fwlink/p/?LinkID=519213)<br /><br /> [![Get the app on Google Play](../mobile-app/media/mobile-google-play-button.png "Get the app on Google Play.")](https://go.microsoft.com/fwlink/p/?LinkID=519214) | **[!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] app**<br /><br />[![Download app from the Apple App Store](../mobile-app/media/mobile-istore-button.png "Download app from the Apple App Store.")](https://go.microsoft.com/fwlink/p/?LinkID=313645)<br /><br /> [![Get the app on Google Play](../mobile-app/media/mobile-google-play-button.png "Get the app on Google Play.")](https://go.microsoft.com/fwlink/p/?LinkID=392774) |
+
+Install the app from your device's app store.
+
+- [Download app from the Apple app store](https://go.microsoft.com/fwlink/p/?LinkID=519213)
+- [Get the app on Google Play](https://go.microsoft.com/fwlink/p/?LinkID=519214)
+- [Download app from the Apple App Store](https://go.microsoft.com/fwlink/p/?LinkID=313645)
+- [Get the app on Google Play](https://go.microsoft.com/fwlink/p/?LinkID=392774)
 
 
 
