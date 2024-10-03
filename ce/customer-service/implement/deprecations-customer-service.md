@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 08/07/2024
+ms.date: 09/30/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -116,7 +116,7 @@ If your organization requires features that rely on legacy APIs, the product tea
 
 ## Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
-The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality is replaced with [entitlements](../administer/create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](/power-platform/important-changes-coming#legacy-web-client-is-deprecated) will not be available after Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, go to [Strategy for migrating from contracts to entitlements](../administer/contract-to-entitlement-migration.md).
+The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. This functionality is replaced with [entitlements](../administer/create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](/power-platform/important-changes-coming#legacy-web-client-is-deprecated) was removed as on December 1, 2020. We recommend that you migrate your contracts to entitlements by using the [Strategy for migrating from contracts to entitlements](../administer/contract-to-entitlement-migration.md).
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
