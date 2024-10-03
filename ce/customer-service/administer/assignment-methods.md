@@ -45,10 +45,10 @@ For more information, see [best practices to manage queues](unified-routing-best
 
 Unified routing prioritizes work within individual queues and across queues. Prioritization within a queue can be of the following types:
 
-- First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment method](configure-assignment-rules.md) that have no prioritization rules.
-- Custom prioritization that can be defined with a [custom assignment method](configure-assignment-rules.md).
+- First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment methods](configure-assignment-rules.md) that have no prioritization rules.
+- Custom prioritization that can be defined with a custom assignment method.
 
-The oldest conversation or work in the queue is assigned first. In the case of asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
+The oldest conversation or work item in the queue is assigned first. In the case of asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
 
 When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
 - If all the queues with the same queue priority have default first-in-first-out ordering, the oldest item across all these queues is assigned first.
@@ -58,10 +58,10 @@ If you have configured queues based on both out-of-the-box assignment methods an
 
 For example, lets look at a setup with the following four queues, all with group number defined as 1:
 
-- VIP Support and Premium Support: Default first-in-first-out prioritization
-- Order Support and Invoice Enquires: Custom prioritization rules
+- **VIP Support and Premium Support**: Default first-in-first-out prioritization
+- **Order Support and Invoice Enquires**: Custom prioritization rules
 
-For a support representative subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Enquiries queue is assigned next followed by the Order Support queue. 
+For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Enquiries queue is assigned next followed by the Order Support queue. 
 
 > [!NOTE]
 > We recommend that you assign distinct queue priorities to queues with custom prioritization rules to provide a clear prioritization. Even if the queues have the same prioritization rules, they're considered to be distinct.
@@ -83,7 +83,7 @@ The following assignment methods are available out of the box:
   > [!NOTE]
   > When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no agents who match the assignment criteria.
 
-- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized as mentioned at [How unified routing prioritizes assignments](#how-unified-routing-prioritizes-assignments).
+- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized as mentioned at [How unified routing prioritizes work items](#how-unified-routing-prioritizes-work-items).
 
   The ordering for round robin assignment is maintained queue wise. Some agents can be a part of multiple queues. Therefore, depending on the agent's last assignment timestamp in a queue, the agents might be assigned back-to-back or concurrent work items but from different queues.
 
