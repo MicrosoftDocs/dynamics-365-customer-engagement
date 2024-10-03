@@ -21,7 +21,7 @@ ms.custom:
 Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
 
 - Orgs in [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). 
-- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
+- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features).
 
 For all the other orgs, an admin must provide consent in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for turning Copilot on or off, providing consent for data movement, and configuring Copilot for your business.
 
@@ -41,7 +41,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 ## Prerequisites
 
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
-- Verify whether your region has an Azure OpenAI Service endpoint. If not, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. For more information, see [Copilot data movement](sales-copilot-data-movement.md).
+- Verify whether your region has an Azure OpenAI Service endpoint. If not, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. [Learn more about data movement and regions involved with copilots](geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
 
 ## Turn Copilot features on or off in Sales Hub
 
@@ -120,5 +120,5 @@ To add the opportunity summary widget to custom forms, follow these steps:
 ## Related information
 
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
-- [Copilot data movement](sales-copilot-data-movement.md)  
+- [Copilot data movement](geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features)  
 - [FAQs about Copilot in Dynamics 365 Sales](sales-copilot-faq.md)
