@@ -23,11 +23,11 @@ contributors:
 
 # What's supported
 
-Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps.
+Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps to run Dynamics 365 Customer Engagement (on-premises) apps.
 
-To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
+To do this, install the the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
   
-## Supported devices for the mobile app
+## Supported devices for the mobile apps
 
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|----------------|
