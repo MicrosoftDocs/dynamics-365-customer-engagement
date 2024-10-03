@@ -18,30 +18,30 @@ search.audienceType:
   - customizer
   - enduser
 ---
-# Install Dynamics 365 for phones and tablets app (on-premises)
+# Install Dynamics 365 for phones and tablets apps (on-premises)
 
-[!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] are apps that you install on your mobile device. Once you install the app and sign-in, you’ll automatically have access to all the apps you need for your role.
+[!INCLUDE[pn_dyn-365_phones](../includes/pn-dyn-365-phones.md)] and [!INCLUDE [pn-dyn-365-tablets](../includes/pn-dyn-365-tablets.md)] are apps that you install on your mobile device. Once you install the apps and sign-in, you’ll automatically have access to all the apps you need for your role.
 
-When there is an updated version of the app, you will receive a notification. 
+When there is an updated version of the apps, you will receive a notification. 
 
 ### Is your mobile device supported?
  If you’re not sure if your device is supported, [check the list of supported devices](../mobile-app/support-phones-tablets.md)
 
-### Privileges required to run the app
+### Privileges required to run the apps
 
-You won't be able to use this app if you don't have the correct privileges.
+You won't be able to use these apps if you don't have the correct privileges.
 
-- Your system administrator can configure privileges for you: [Find your Dynamics 365 apps administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md). - If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
+- Your system administrator can configure privileges for you. Learn more in [Find your Dynamics 365 apps administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md).
+- If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
 ## Install the app from your device’s app store
 
-Install the app from your device's app store.
+Install the apps from your device's app store.
 
-- [Download app from the Apple app store](https://go.microsoft.com/fwlink/p/?LinkID=519213)
-- [Get the app on Google Play](https://go.microsoft.com/fwlink/p/?LinkID=519214)
-- [Download app from the Apple App Store](https://go.microsoft.com/fwlink/p/?LinkID=313645)
-- [Get the app on Google Play](https://go.microsoft.com/fwlink/p/?LinkID=392774)
-
+- [Download Dynamics 365 for phones from the Apple app store](https://go.microsoft.com/fwlink/p/?LinkID=519213)
+- [Get Dynamics 365 for Phones on Google Play](https://go.microsoft.com/fwlink/p/?LinkID=519214)
+- [Download Dynamics 365 for Tablets from the Apple App Store](https://go.microsoft.com/fwlink/p/?LinkID=313645)
+- [Get Dynamics 365 for Tablets on Google Play](https://go.microsoft.com/fwlink/p/?LinkID=392774)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
