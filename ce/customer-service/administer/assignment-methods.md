@@ -51,8 +51,8 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 The oldest conversation or work item in the queue is assigned first. In the case of asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
 
 When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
-- If all the queues with the same queue priority have default first-in-first-out ordering, the oldest item across all these queues is assigned first.
-- If the queues with the same queue priority have custom prioritization rules, then these queues are ordered alphabetically based on the queue names to determine the highest priority work. 
+- If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
+- If they have custom prioritization rules, then the queues are ordered alphabetically based on the queue names to determine the highest priority work. 
 
 If you have configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
 
