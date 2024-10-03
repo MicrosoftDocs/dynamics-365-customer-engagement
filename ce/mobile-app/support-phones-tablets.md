@@ -30,16 +30,7 @@ To do this, install the Dynamics 365 for phones or tablets mobile app on your iO
 |--------------------------------------------------------------------|---------------|----------------|
 |       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)  |   
 |     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    | 
-
  
-## Supported device for Microsoft Dynamics 365 (Preview) 
-
-|                              Platform                              |   Versions    | RAM (minimum)  | 
-|--------------------------------------------------------------------|---------------|----------------|
-|       [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)       | 10 |     1 GB (4 GB recommended)   |  
-
-  
-  
 ## Install the app 
 
 To install the app see, [Install the app from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
@@ -154,23 +145,6 @@ When the application first loads after installation, it will determine the devic
 1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there is no limitations.
 2. Is there additional requirements for customizations? </br> No, there isn't anything additional for customizations.
 3. How does the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
-
-
-
-## Deprecated and unsupported platforms
-
-- Effective April 2021, the old [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
-  > [!NOTE]
-  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](./windows-mobile-app.md). 
-
-- As of April 1, 2021, the mobile app will no longer support iOS 11, Android 6 and Android 7.0. The minimum Android version will be 7.1.1 and the minimum iOS version will be 12.4.9.
-
-- As of December 1, 2019, the mobile app will no longer support iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
-
-- As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
-
-- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing).
 
   
 ### See also  

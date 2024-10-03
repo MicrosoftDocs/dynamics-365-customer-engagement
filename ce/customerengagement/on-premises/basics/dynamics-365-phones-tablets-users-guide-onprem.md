@@ -27,11 +27,9 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run D
 
 > [!NOTE]
 > There are separate mobile apps for:
->   - Dynamics 365 for phones and tablets app to run your customer engagement apps in Dynamics 365 (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing): [Dynamics 365 for phones and tablets](../../../mobile-app/user-guide-mobile-app.md)
 >   - Power Apps mobile: [Run model-driven apps and canvas apps on Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile)
 >   - Dynamics 365 Field Service: [Field Service mobile app](../../../field-service/field-service-mobile-app-user-guide.md)
 >   - Finance and Operations applications: [Finance and Operations mobile app](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-app-home-page) 
-
 
     
 ## Install the app from your device’s app store  
@@ -41,14 +39,9 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run D
 
 Sign in using your web address for the Dynamics 365 app and user name and password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
-1. On the sign-in screen, select **Sign in with a web address instead**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Enter user name and password address.](media/userandpassword.png "Enter your user name and password"). 
-
-2. Enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in.](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
-3. Enter your user name and password.
-4. From the list of apps that you have access to, select the app that you want to use.
+1. On the sign-in screen, enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in.](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+2. Enter your user name and password.
+3. From the list of apps that you have access to, select the app that you want to use.
 
    > [!div class="mx-imgBorder"] 
    > ![Select an app that you want to use.](media/navwebsignin.png "Select an app to use"). 
