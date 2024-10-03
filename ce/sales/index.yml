@@ -83,8 +83,6 @@ additionalContent:
         text: Configure Teams chat
       - url: /power-platform/admin/connect-exchange-online
         text: Connect to Exchange Online
-      - url: /power-platform/admin/enable-onedrive-for-business
-        text: Enable OneDrive for Business
       - url: connect-with-sharepoint.md
         text: Integrate with Sharepoint
       - url: linkedin/integrate-sales-navigator.md

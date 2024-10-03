@@ -109,6 +109,18 @@ landingContent:
             url: ../sales-enterprise/close-opportunity-won-lost-sales.md
 
 # Card 
+  - title: LinkedIn integrations
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Integrate LinkedIn Sales Navigator 
+            url: linkedin/integrate-sales-navigator.md
+          - text: Data validation capabilities of LinkedIn Sales Navigator
+            url: linkedin/data-validation.md
+          - text: Understand LinkedIn Sales Insights
+            url: understand-lsi-accounts-form.md
+
+# Card 
   - title: Create and work with collateral
     linkLists:
        - linkListType: how-to-guide
