@@ -1,9 +1,9 @@
 ---
-title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
-description: About support for Dynamics 365 for phones and tablets
+title: Support for Dynamics 365 for phones and Dynamics 365 for tablets 
+description: Learn about support for Dynamics 365 for phones and tablets.
 ms.custom:
-ms.date: 12/10/2021
-ms.reviewer:
+ms.date: 10/03/2024
+ms.reviewer: sericks
 ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
@@ -17,7 +17,10 @@ search.audienceType:
   - admin
   - customizer
   - enduser
+contributors:
+- manuelmillot
 ---
+
 # What's supported
 
 Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps.
