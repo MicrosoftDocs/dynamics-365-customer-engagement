@@ -25,7 +25,7 @@ contributors:
 
 Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps to run Dynamics 365 Customer Engagement (on-premises) apps.
 
-To do this, install the the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
+To do this, install the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
   
 ## Supported devices for the mobile apps
 
@@ -34,9 +34,9 @@ To do this, install the the Dynamics 365 for phones and Dynamics 365 for tablets
 |       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)  |   
 |     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    | 
  
-## Install the app 
+## Install the apps 
 
-To install the app see, [Install the app from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
+To install the apps, go to [Install the apps from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
 
 
 ## Supported tablets to run customer engagement apps in a web browser 
