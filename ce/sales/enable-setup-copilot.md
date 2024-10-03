@@ -47,6 +47,8 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 
 ## Turn Copilot features on or off in Sales Hub
 
+Turning on Copilot features turns on the chat and embedded Copilot experiences in the Sales apps.
+
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
 1. Under **General Settings**, select **Copilot**.
@@ -68,8 +70,6 @@ For more information about the licensing requirements for Copilot in Dynamics 36
     The **Default** setting applies the [default behavior](#default-setting-copilot) explained at the beginning of this article.
 1. Select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 1. Turn on **Email (preview)** to get the [Copilot email experience](compose-send-email-copilot.md). This option is enabled only after you turn on the **Try our newest preview features before they're rolled out to everyone** option.
-1. (Optional) Under **Individual apps**, select the setting for each sales app if you want to override the global setting.
-
 1. Select **Save**.
 
 ## Add the Copilot page site map entry to custom sales app
@@ -79,24 +79,6 @@ When you create a custom model-driven app, you can choose a default solution to 
 Add the Copilot page to your site map by following the instructions in [add site map entry to your custom app](add-custom-site-map.md) and enter or paste the following URL:
 
 `/main.aspx?&pagetype=control&controlName=PowerApps.Copilot`
-
-## Add the opportunity summary widget to custom forms
-
-To add the opportunity summary widget to custom forms, follow these steps:
-
-1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).
-1. From the site map, select **Tables** and open the table.
-1. From the Data experience section, select **Forms**.
-1. Open your custom form for which you want to add the opportunity summary widget.
-1. On the command bar, select **Component** and then add the **1-column section** component to the form as a placeholder for the widget.
-1. From the **Component** site map, select Display and then add the **Record summary** to the newly added column.  
-
-    The opportunity summary widget is added to the form.
-
-    >[!NOTE]
-    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.  
-
-1. Save and publish the form.
 
 ## Next steps
 

@@ -49,7 +49,7 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Record summarization gives you a quick summary of your opportunity, lead, and account records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
@@ -57,6 +57,13 @@ Learn more:
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
 - [Summarize a lead](copilot-get-information.md#summarize-a-lead)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
+
+## Embedded experiences
+
+Apart from Copilot's chat and email interface, you can also use Copilot's embedded experiences in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
+
+- [Embedded opportunity summary in the opportunity form](copilot-get-information#view-opportunity-summary-widget).
+-  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales#lead-summary).
 
 ### Recent changes
 

@@ -87,7 +87,7 @@ By default, when you open an opportunity, the opportunity summary widget is disp
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of a Copilot opportunity summary widget.":::
 
-If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to enable it. More information: [Add the opportunity summary widget to custom forms](enable-setup-copilot.md#add-the-opportunity-summary-widget-to-custom-forms)
+If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to [enable it](copilot-configure-summary-fields.md#add-the-opportunity-summary-widget-to-custom-forms). 
 
 ## Summarize a lead
 
@@ -98,6 +98,8 @@ If you don't see the opportunity summary widget in the **Opportunity** form, con
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Summarize**.
 
 1. To get a list of changes for a specific lead, type **/** after the prompt, and then start typing the name of the lead.
+
+The lead summary is also available as an embedded experience after you qualify a lead. [Learn more about the embedded lead summary](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ## Would you like to view a summary of different fields?
 
