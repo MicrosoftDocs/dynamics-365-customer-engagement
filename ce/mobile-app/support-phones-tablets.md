@@ -25,7 +25,7 @@ contributors:
 
 Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps to run Dynamics 365 Customer Engagement (on-premises) apps.
 
-To do this, install the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
+Install the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
   
 ## Supported devices for the mobile apps
 
@@ -53,7 +53,7 @@ For full functionality and optimized experience, we strongly recommend that you 
 | Windows tablet or PC |      10       |     1366 x 768 resolution (720p) |
         
 
-Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
+Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features aren't available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
@@ -79,7 +79,7 @@ For more information about web browser support, see [Web application requirement
 
 ## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
 
-When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
+When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language is selected based on your personal options or the base language in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). If a language isn't supported, Engish is used. 
 
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   
@@ -141,9 +141,9 @@ When the application first loads after installation, it will determine the devic
 
 ### FAQs about supported languages
 
-1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there is no limitations.
-2. Is there additional requirements for customizations? </br> No, there isn't anything additional for customizations.
-3. How does the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
+1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there are no limitations.
+2. Are there extra requirements for customizations? </br> No, there aren't extra requirements.
+3. How do the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
 
   
 ### See also  
