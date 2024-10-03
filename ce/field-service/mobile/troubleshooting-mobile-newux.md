@@ -139,3 +139,14 @@ Dashboards configured in the navigation aren't supported. Selecting a dashboard 
 ### Resolution
 
 Remove dashboards from the navigation until it's officially supported.
+
+## The new experience doesn’t reflect configuration changes to Agenda and Lists right away
+
+### Symptoms
+
+After updating a View to change data in the Agenda or List experience, the changes are not reflected on the users device right away.
+
+### Resolution
+
+The application will cache changes for up to 8 hours. To see those changes, the user would need to wait, or sign out and back into the application. 
+
