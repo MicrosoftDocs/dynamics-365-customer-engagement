@@ -69,7 +69,9 @@ Customer Service historical analytics must be enabled and you must opt in to the
 
 1. In the Customer Service admin center, go to **Insights**, and on the page that appears, select **Manage** for **Copilot analytics**.
 
-1. On the **Copilot analytics** page, select the **Add historical analytics for Copilot** checkbox, and then save the changes.
+1. On the **Copilot analytics** page, select the **Enable Copilot analytics** checkbox, and then save the changes.
+
+You may also select the checkboxes for additional options to add interactions on cases, emails, and conversations.
 
 The command bar displays a message that your reports are being provisioned and it might take up to 24 hours for the process to complete.
 
