@@ -1,5 +1,5 @@
 ---
-title: View copilot analytics report
+title: Use Copilot analytics report
 description: Learn how to view and understand Copilot metrics in Microsoft Dynamics 365 Customer Service.
 ms.date: 07/01/2024
 ms.topic: conceptual
@@ -10,7 +10,7 @@ ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---
 
-# View copilot analytics report
+# Use Copilot analytics report
 
 Copilot in Dynamics 365 Customer Service helps agents to complete tasks related to conversations, cases, and email more easily. With the Copilot analytics dashboard, supervisors and customer service managers can identify the impact that Copilot has across their customer service operations.
 

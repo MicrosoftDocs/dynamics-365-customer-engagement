@@ -63,18 +63,6 @@ Use the Customer Service admin center app to enable or disable the reports. The 
 
 1. Select **Save and Close**.
 
-## Enable historical analytics for Copilot
-
-Customer Service historical analytics must be enabled and you must opt in to the Copilot help pane and Copilot summaries to turn on analytics for Copilot.
-
-1. In the Customer Service admin center, go to **Insights**, and on the page that appears, select **Manage** for **Copilot analytics**.
-
-1. On the **Copilot analytics** page, select the **Enable Copilot analytics** checkbox, and then save the changes.
-
-You may also select the checkboxes for additional options to add interactions on cases, emails, and conversations.
-
-The command bar displays a message that your reports are being provisioned and it might take up to 24 hours for the process to complete.
-
 ## View Customer Service historical analytics reports
 
 If you customized the Customer Service workspace app, you must complete the following steps to be able to view the reports.
@@ -100,8 +88,7 @@ If you customized the Customer Service workspace app, you must complete the foll
 [Introduction to Customer Service analytics and insights](../implement/introduction-customer-service-analytics.md)  
 [Dashboard overview](../use/customer-service-analytics-insights-csh.md)  
 [Knowledge search analytics](../use/knowledge-search-analytics-cs.md)  
-[Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)  
-[View copilot analytics report](../use/copilot-analytics-report.md)  
+[Historical analytics for unified routing in Customer Service](../use/cs-historical-analytics-unified-routing.md)   
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
