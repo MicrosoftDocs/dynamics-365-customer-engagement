@@ -31,12 +31,12 @@ Install the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on 
 
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|----------------|
-|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)  |   
-|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    | 
+|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-apps-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)  |   
+|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-apps-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    | 
  
 ## Install the apps 
 
-To install the apps, go to [Install the apps from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
+To install the apps, go to [Install the apps from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-apps-from-your-devices-app-store).
 
 
 ## Supported tablets to run customer engagement apps in a web browser 
