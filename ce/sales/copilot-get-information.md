@@ -87,7 +87,7 @@ By default, when you open an opportunity, the opportunity summary widget is disp
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of a Copilot opportunity summary widget.":::
 
-If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to [enable it](copilot-configure-summary-fields.md#add-the-opportunity-summary-widget-to-custom-forms). 
+If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to [enable it](copilot-configure-summary-fields.md#admin-opportunity-summary-widget). 
 
 ## Summarize a lead
 
