@@ -39,7 +39,7 @@ Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run D
 
 Sign in using your web address for the Dynamics 365 app and user name and password. If you need help with your sign-in information, contact your Dynamics 365 administrator. 
 
-1. On the sign-in screen, enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in.](media/signinarrow.png "Dynamics 365  for phones and tablets Preview sign-in"). 
+1. On the sign-in screen, enter the URL for your web address for the Dynamics 365 app that you use, and then select ![Sign in.](media/signinarrow.png "Dynamics 365 for phones and tablets Preview sign-in"). 
 2. Enter your user name and password.
 3. From the list of apps that you have access to, select the app that you want to use.
 

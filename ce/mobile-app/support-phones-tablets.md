@@ -20,9 +20,9 @@ search.audienceType:
 ---
 # What's supported
 
-Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)), built on Microsoft Dataverse on your mobile device. 
+Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile app to run Dynamics 365 Customer Engagement (on-premises) apps.
 
-To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], or Windows 10 devices. 
+To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)]. 
   
 ## Supported devices for the mobile app
 
@@ -40,9 +40,6 @@ To install the app see, [Install the app from your device’s app store](./insta
 
 For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can  use the web browser on your tablet to run your apps as long as your device has sufficiently high screen resolution.
 
-> [!IMPORTANT]
-> You can't use the browser on your mobile phone to run your customer engagement apps is not supported on phones; you must use the Dynamics 365 for mobile app.
-
 
 ## Supported tablets to use the web browser
   
@@ -53,7 +50,6 @@ For full functionality and optimized experience, we strongly recommend that you 
 | Windows tablet or PC |      10       |     1366 x 768 resolution (720p) |
         
 
-  
 Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
