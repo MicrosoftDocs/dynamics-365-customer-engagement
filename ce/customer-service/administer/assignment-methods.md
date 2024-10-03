@@ -48,7 +48,7 @@ Unified routing prioritizes work within individual queues and across queues. Pri
 - First-in-first-out: Is the default prioritization logic applicable for the out-of-box assignment methods.
 - Custom prioritization: Is defined with a [custom assignment method](configure-assignment-rules.md) and no prioritization ruleset.
 
-The oldest conversation or work in the queue is assigned first. In the case of asynchronous messaging channels like persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, and it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer's conversation is prioritized only after the customers who are waiting from Thursday morning.
+The oldest conversation or work in the queue is assigned first. In the case of asynchronous messaging channels like persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
   
 When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case,
 - if all the queues with the same queue priority have default first-in-first-out ordering, the oldest item across all these queues is assigned first.
@@ -56,11 +56,12 @@ When customer service representatives are subscribed to multiple queues, you can
 
 If you have configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
 
-For example, lets look at a setup with the following four queues, all with queue priority "1":
+For example, lets look at a setup with the following four queues, all with queue priority defined as 1:
 
-VIP Support, Premium Support, Order Support, and Invoice Enquires queues.
+- VIP Support and Premium Support: Default first-in-first-out prioritization
+- Order Support and Invoice Enquires: Custom prioritization rules
 
-The VIP Support and Premium Support queues use the default first-in-first-out prioritization and Order Support and Invoice Enquiries queues have custom prioritization rules. For a support representative subscribed to all four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Enquiries queue is assigned next followed by the Order Support queue. 
+For a support representative subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Enquiries queue is assigned next followed by the Order Support queue. 
 
 > [!NOTE]
 > We recommend that you assign distinct queue priorities to queues with custom prioritization rules to provide a clear prioritization. Also, the queues with same prioritization rules are considered to be distinct. Work is sorted based on the queue name. 
