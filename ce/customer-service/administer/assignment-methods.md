@@ -45,11 +45,11 @@ For more information, see [best practices to manage queues](unified-routing-best
 
 Unified routing prioritizes work within individual queues and across queues. Prioritization within a queue can be of the following types:
 
-- First-in-first-out: Is the default prioritization logic applicable for the out-of-box assignment methods.
-- Custom prioritization: Is defined with a [custom assignment method](configure-assignment-rules.md) and no prioritization ruleset.
+- First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment method](configure-assignment-rules.md) that have no prioritization rules.
+- Custom prioritization is defined with a [custom assignment method](configure-assignment-rules.md).
 
 The oldest conversation or work in the queue is assigned first. In the case of asynchronous messaging channels like persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
-  
+
 When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case,
 - if all the queues with the same queue priority have default first-in-first-out ordering, the oldest item across all these queues is assigned first.
 - If the queues with the same queue priority have custom prioritization rules, then the queues with the same priority are ordered alphabetically based on the queue names to determine the highest priority work.
