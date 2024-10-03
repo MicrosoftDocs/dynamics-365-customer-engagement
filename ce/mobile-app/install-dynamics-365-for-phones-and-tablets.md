@@ -34,7 +34,7 @@ You can't use these apps if you don't have the correct privileges.
 - Your system administrator can configure privileges for you. Learn more in [Find your Dynamics 365 apps administrator or support person](../customerengagement/on-premises/basics/find-administrator-support.md).
 - If you're an administrator, [learn how to set privileges](../mobile-app/set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md).  
 
-## Install the app from your device’s app store
+## Install the apps from your device’s app store
 
 Install the apps from your device's app store.
 
