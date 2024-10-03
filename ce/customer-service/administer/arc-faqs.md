@@ -87,7 +87,7 @@ ARC doesn't run if you don't have a rule item. You don't see any flows related t
 
 ### Why do I still see flow ARC| rule name, and can I customize it?
 
-If your rule has been active since June 2024, you'll see this flow, however this flow is no longer used.  If you deactivate and then activate this flow, you'll no longer see it.  
+If your rule has been active since June 2024, you'll see this flow, however this flow is no longer used in run time.  If you deactivate and then activate this flow, you'll no longer see it.  
 
 ### I see that the ARC flow trigger is on the email update filtering on importsequencenumber attribute. Is it the reason that cases aren't being created for some emails?
 
