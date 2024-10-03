@@ -120,5 +120,5 @@ To add the opportunity summary widget to custom forms, follow these steps:
 ## Related information
 
 - [Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
-- [Copilot data movement](geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features)  
+- [Copilot data movement](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features)  
 - [FAQs about Copilot in Dynamics 365 Sales](sales-copilot-faq.md)
