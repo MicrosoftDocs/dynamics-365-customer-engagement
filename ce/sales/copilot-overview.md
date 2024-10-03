@@ -62,8 +62,8 @@ Learn more:
 
 Apart from Copilot's chat and email interface, you can also use Copilot's embedded experiences in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
 
-- [Embedded opportunity summary in the opportunity form](copilot-get-information#view-opportunity-summary-widget).
--  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales#lead-summary).
+- [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-opportunity-summary-widget).
+-  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Recent changes
 
