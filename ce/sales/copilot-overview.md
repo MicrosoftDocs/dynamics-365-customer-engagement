@@ -49,7 +49,7 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
 
 Learn more:
 
@@ -60,7 +60,7 @@ Learn more:
 
 ### Recent changes
 
-To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
 
 Learn more:
 

@@ -86,17 +86,17 @@ Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane). Open 
 
 Copilot generates the summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](copilot-configure-summary-fields.md).
 
-Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
+Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 15** fields that are most relevant for your business.
 
 ### Enrich leads with related information
 
 Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn, and Bing, such as:
 
-- Possible contacts, based on the lead name, phone number, email address, and company name
+- Possible contacts based on the lead's email address.
 
-- The latest news about the account, curated by Bing
+- The latest news about the account, curated by Bing.
 
-- Suggested LinkedIn profiles for the contact, if you have the LinkedIn Sales Navigator license
+- Suggested LinkedIn profiles for the contact, if you have the LinkedIn Sales Navigator license.
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
 

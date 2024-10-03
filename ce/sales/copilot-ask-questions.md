@@ -68,7 +68,7 @@ Copilot can help you catch up on any updates to your account, lead, or opportuni
 
 Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you might want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](copilot-configure-summary-fields.md).
 
-Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
 
 ## Related information
 

@@ -38,9 +38,9 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. Select **Add fields**.
 
-1. Select at least four fields, up to a maximum of 10.
+1. Select at least four fields, up to a maximum of 15.
 
-    The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
+    The **Save** button is disabled if you select fewer than 4 or more than 15 fields. If you added more than 15 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
