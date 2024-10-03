@@ -24,7 +24,7 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 Copilot can provide a list of open opportunities assigned to you, sorted by the estimated close date.
 
-[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
+[Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Get info** > **Show my pipeline**, and select **Enter**.
 
 ## Summarize an account
 
@@ -34,7 +34,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 > - This feature is available only if your administrator has [opted in to early access updates](/power-platform/admin/opt-in-early-access-updates).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize account**.
+1. Select **View Prompts** above the Copilot chat box, select **Get info** > **Summarize account**.
 1. From the list of accounts, hover over the account you want to summarize and select **Summarize**.  
 
     >[!NOTE]
@@ -58,7 +58,7 @@ Copilot can provide a list of open opportunities assigned to you, sorted by the 
 ## Summarize an opportunity
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize opportunity**.
+1. Select **View Prompts** above the Copilot chat box, select **Get info** > **Summarize opportunity**.
 1. From the list of opportunities, hover over the opportunity you want to summarize and select **Summarize**. 
 
     >[!NOTE]
@@ -92,7 +92,7 @@ If you don't see the opportunity summary widget in the **Opportunity** form, con
 ## Summarize a lead
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize lead** and then select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Get info** > **Summarize lead** and then select **Enter**.
 
     - When a record is opened, Copilot summarizes it.
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Summarize**.
@@ -159,7 +159,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
+1. Select **View Prompts** above the Copilot chat box, select **Get info** > **Get latest news for account**, and select Enter.
 
     - If you have a record open, Copilot lists the news articles related to that account.
     - If you're in the grid view, Copilot lists news articles for the top 10 accounts you work with, sorted by the revenue associated with them.

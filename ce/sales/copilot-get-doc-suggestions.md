@@ -37,7 +37,7 @@ As a salesperson, you need to be aware of the latest product and account-related
 
 To get content recommendations, use one of the following methods in the Copilot chat window:
 
-- Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the chat window, select **Get info** > **Show related files**, and enter the record name.
+- Select **View Prompts** above the Copilot chat box,  in the chat window, select **Get info** > **Show related files**, and enter the record name.
 
 - Use natural language chat. For example, you can ask Copilot, **Show me the product-related files** or **Get files related to this** or **Display documents for the *opportunity name***.
 
@@ -76,7 +76,7 @@ As a seller, you might have to refer to documents such as contracts, technical d
 
 **To get answers from SharePoint documents**
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot) and select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::).
+1. [Open Copilot](use-sales-copilot.md#open-copilot) and select **View Prompts** above the Copilot chat box.
 
 1. Select **Get info** > **Get info from SharePoint about** and type in your question.
 

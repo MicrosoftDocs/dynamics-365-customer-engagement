@@ -25,7 +25,7 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 Use this prompt to get a list of sales records that were recently updated.  
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and then select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's new with my sales records**, and then select **Enter**.
 
     :::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
 
@@ -43,7 +43,7 @@ Hover over a record in the list and select **Get updates** to view all changes t
 
 Copilot can help you stay on top of your pipeline by showing you a list of accounts, leads, and opportunities that were assigned to you in the last 15 days.
 
-[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
+[Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
 
 ## Get recent changes
 
@@ -52,7 +52,7 @@ Copilot can help you catch up on any updates to your account, lead, or opportuni
 The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's changed for *record type***, and select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's changed for *record type***, and select **Enter**.
 
     - When a record is opened, Copilot displays the list of recent changes to it.
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
