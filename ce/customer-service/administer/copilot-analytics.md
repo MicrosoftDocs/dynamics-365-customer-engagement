@@ -10,7 +10,7 @@ ms.date: 10/03/2024
 ms.custom: bap-template
 ---
 
-## Manage Copilot analytics
+# Manage Copilot analytics
 
 You must opt in to the Copilot help pane and Copilot summaries to turn on analytics for Copilot.
 

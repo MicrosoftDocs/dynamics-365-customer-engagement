@@ -82,4 +82,4 @@ You can view the [transcripts of interactions](../develop/download-copilot-trans
 
 [Use copilot features](use-copilot-features.md)  
 [Configure copilot](../administer/configure-copilot-features.md)  
-[Enable historical analytics for Copilot](../administer/configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-copilot)
+[Manage Copilot analytics](../administer/copilot-analytics.md)
