@@ -64,7 +64,7 @@ For example, lets look at a setup with the following four queues, all with group
 For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
 > [!NOTE]
-> We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization rules, they're considered to be distinct.
+> We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
 
 ## Types of assignment methods
 
