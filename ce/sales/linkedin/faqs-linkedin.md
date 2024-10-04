@@ -116,4 +116,4 @@ If you've properly configured CRM sync and activity writeback, the activity will
 
 ## Related information
 
-[Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+[Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](integrate-sales-navigator.md)

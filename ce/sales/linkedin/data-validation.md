@@ -66,4 +66,4 @@ When your administrator enables the **Hide employment notification** setting in 
 
 ## Related information
 
-[Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+[Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](integrate-sales-navigator.md)

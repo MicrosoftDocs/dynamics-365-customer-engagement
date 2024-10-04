@@ -89,7 +89,7 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
     :::image type="content" source="media/verify-solution-installation.png" alt-text="Screenshot of LinkedIn sales navigator related solutions installed.":::
 
     >[!NOTE]
-    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution is not available in the list, follow the steps in [the LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](ts-linkedin-integration.md#solution-missing-configure-lsn) section.
+    >If the **LinkedInSalesNavigatorControlsForUnifiedClient** solution is not available in the list, follow the steps as described in the [LinkedInSalesNavigatorControlsForUnifiedClient solution is not available in the organization to configure LinkedIn Sales Navigator](/troubleshoot/dynamics-365/sales/lisn-unable-upgrade-lisn-solution) section.
 
 After the installation is complete, [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator).  
 
