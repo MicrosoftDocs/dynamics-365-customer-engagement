@@ -75,12 +75,14 @@ By default, when you open an opportunity, the opportunity summary widget is disp
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of a Copilot opportunity summary widget.":::
 
-If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to enable it. More information: [Add the opportunity summary widget to custom forms](enable-setup-copilot.md#add-the-opportunity-summary-widget-to-custom-forms)
+If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to [enable it](copilot-configure-summary-fields.md#admin-opportunity-summary-widget). 
 
 ## Summarize a lead
 
 Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane). Open a lead and have Copilot automatically summarize it for you. Alternatively, you can type **Summarize lead /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific lead.
 
+
+The lead summary is also available as an embedded experience after you qualify a lead. [Learn more about the embedded lead summary](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ## Would you like to view a summary of different fields?
 

@@ -17,7 +17,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 
 ## Prerequisites
 
-- Purchase and install the voice channel for Dynamics 365 Customer Service. For more information, refer to [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md) and [Install voice channel](voice-channel-install.md)
+- Purchase and install the voice channel for Dynamics 365 Customer Service. For more information, refer to [Provision Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels) and [Install voice channel](voice-channel-install.md)
 
 - Connect to Azure Communication Services. For more information, refer to [Connect to Azure Communication Services](voice-channel-acs-resource.md)
   

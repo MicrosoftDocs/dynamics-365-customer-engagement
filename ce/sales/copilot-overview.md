@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 09/03/2024
+ms.date: 10/03/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -49,7 +49,7 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
+Record summarization gives you a quick summary of your opportunity, lead, and account records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
@@ -57,6 +57,13 @@ Learn more:
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
 - [Summarize a lead](copilot-get-information.md#summarize-a-lead)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
+
+## Embedded experiences
+
+Apart from Copilot's chat and email experiences, you can also use Copilot's embedded experience in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
+
+- [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-opportunity-summary-widget).
+-  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Recent changes
 
