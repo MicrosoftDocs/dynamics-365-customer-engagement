@@ -37,7 +37,7 @@ As a salesperson, you need to be aware of the latest product and account-related
 
 To get content recommendations, use one of the following methods in the Copilot chat window:
 
-- Select **View Prompts** above the Copilot chat box,  in the chat window, select **Get info** > **Show related files**, and enter the record name.
+- Select **View Prompts** above the Copilot chat box, select **Get info** > **Show related files**, and enter the record name.
 
 - Use natural language chat. For example, you can ask Copilot, **Show me the product-related files** or **Get files related to this** or **Display documents for the *opportunity name***.
 

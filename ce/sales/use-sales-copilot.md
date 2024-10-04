@@ -67,7 +67,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 2. Do one of the following:
     - Enter your questions in [natural language](#chat-with-copilot-in-NL).
-    - Select a prompt from the suggestion list or Select **View Prompts** above the Copilot chat box,  to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md).
+    - Select a prompt from the suggestion list or Select **View Prompts** above the Copilot chat box to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md).
 
     :::image type="content" source="media/copilot-immersive.png" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
