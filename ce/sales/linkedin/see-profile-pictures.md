@@ -26,7 +26,7 @@ For leads and contacts that are matched to a LinkedIn member profile, the system
 
 To enable the display of profile image in the contact or lead form, you must enable **Sales Navigator CRM sync** in the LinkedIn Sales Navigator settings. For more information how to enable CRM sync, see [Integration between Sales Navigator and your CRM](https://www.linkedin.com/help/sales-navigator/answer/82207/integration-between-sales-navigator-and-your-crm-overview).  
 
-If you are unable to see the profile picture in custom forms, perform the steps as defined in the [Unable to view photos on custom contact and lead forms](ts-linkedin-integration.md#unable-to-view-photos-on-custom-contact-and-lead-forms-in-unified-interface) section.  
+If you are unable to see the profile picture in custom forms, perform the steps as defined in the [Unable to view photos on custom contact and lead forms](/troubleshoot/dynamics-365/sales/lisn-unable-view-photos-custom-contact-lead-forms) section.  
 
 > [!NOTE]
 >
