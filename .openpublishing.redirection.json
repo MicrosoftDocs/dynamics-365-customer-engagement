@@ -1,5 +1,10 @@
 {
   "redirections": [
+     {
+           "source_path": "ce/mobile-app/secure-manage-phones-tablets.md",
+           "redirect_url": "/power-apps/mobile/intune",
+           "redirect_document_id": "false"
+        },
     {
            "source_path": "ce/mobile-app/migration.md",
            "redirect_url": "/power-apps/mobile/use-custom-model-driven-app-on-mobile",
