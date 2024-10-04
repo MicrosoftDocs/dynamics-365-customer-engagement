@@ -24,7 +24,7 @@ Use Copilot to get information about your pipeline, summarize your opportunities
 
 Copilot can provide a list of open opportunities assigned to you, sorted by the estimated close date.
 
-[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Show my pipeline**, and select **Enter**.
+[Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Get info** > **Show my pipeline**, and select **Enter**.
 
 ## Summarize an account
 
@@ -80,7 +80,6 @@ If you don't see the opportunity summary widget in the **Opportunity** form, con
 ## Summarize a lead
 
 Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane). Open a lead and have Copilot automatically summarize it for you. Alternatively, you can type **Summarize lead /** from anywhere in the app or from the [Copilot full-screen view](use-sales-copilot.md#open-copilot-immersive) to ask Copilot to summarize a specific lead.
-
 
 The lead summary is also available as an embedded experience after you qualify a lead. [Learn more about the embedded lead summary](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
@@ -144,7 +143,7 @@ As always when you're working with AI-sourced content, read articles thoroughly 
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Get latest news for account**, and select Enter.
+1. Select **View Prompts** above the Copilot chat box, select **Get info** > **Get latest news for account**, and select Enter.
 
     - If you have a record open, Copilot lists the news articles related to that account.
     - If you're in the grid view, Copilot lists news articles for the top 10 accounts you work with, sorted by the revenue associated with them.
