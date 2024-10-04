@@ -23,7 +23,7 @@ contributors:
 
 # Overview of Dynamics 365 for phones and tablets (on-premises)
 
-The Dynamics 365 for phones and Dynamics 365 for tablets mobile apps can only be used to connect to Microsoft Dynamics 365 Customer Engagement (on-premises). Download the mobile apps and sign-in to run the same apps that you use in a web browser on your mobile device. Learn more in [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](dynamics-365-phones-tablets-users-guide-onprem).
+The Dynamics 365 for phones and Dynamics 365 for tablets mobile apps can only be used to connect to Microsoft Dynamics 365 Customer Engagement (on-premises). Download the mobile apps and sign-in to run the same apps that you use in a web browser on your mobile device. Learn more in [Use Dynamics 365 for phones and tablets to run Dynamics 365 Customer Engagement (on-premises) apps](/dynamics365/customerengagement/on-premises/basics/dynamics-365-phones-tablets-users-guide-onprem).
 
 To learn more about Dynamics 365, go to [What is Dynamics 365?](https://dynamics.microsoft.com/what-is-dynamics365/).
 
