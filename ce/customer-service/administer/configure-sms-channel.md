@@ -41,7 +41,7 @@ Verify that you have permissions on the secure columns. More information: [Confi
 
 ## Enable SMS channel in your Dynamics 365 organization
 
-You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization, go to [provision channels](../implement/omnichannel-provision-license.md).
+You can enable the SMS channel from the Dynamics 365 admin center. For steps on enabling SMS in your organization, go to [provision channels](/dynamics365/contact-center/implement/provision-channels).
 
 
 ## Sign up for Telesign account

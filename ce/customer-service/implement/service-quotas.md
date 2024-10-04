@@ -69,5 +69,5 @@ Load tests often generate synthetic traffic that targets specific endpoints or u
 
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)  
-[Provision channels](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)
