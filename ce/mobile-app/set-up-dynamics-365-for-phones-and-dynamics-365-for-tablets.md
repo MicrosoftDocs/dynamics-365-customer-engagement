@@ -1,8 +1,8 @@
 ---
-title: "Set up Dynamics 365 for phones and tablets | MicrosoftDocs"
+title: Set up Dynamics 365 for phones and tablets 
 description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
-ms.date: 12/12/2022
+ms.date: 10/03/2024
 ms.reviewer:
 ms.service: d365ce-op
 ms.topic: overview
@@ -28,7 +28,7 @@ Your users can access their data stored in Microsoft Dataverse while they're out
   
 ### Required privileges  
 
-Microsoft Dataverse uses security privileges to provide access to Dynamics 365 for phones and tablets app and [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
+Microsoft Dataverse uses security privileges to provide access to [Power Apps mobile](/powerapps/mobile/run-powerapps-on-mobile). The privilege is pre-configured for Sales roles, but not other security roles, so you may want to add to other roles for your teams.
  
  The app should be shared for the security role that user has been assigned.
   
@@ -81,7 +81,7 @@ In addition, particularly if you have created a custom security role, validate t
 > To see a model-driven app in the list of apps on your mobile app, you need to have a [predefined security role](/power-platform/admin/database-security#predefined-security-roles) in the environment that the app is in. If a predefined security role is assigned to a user using a Dataverse team, you need to use an Azure Active Directory (AAD) group team. Users will not see model-driven apps if a predefined security role is assigned using a Dataverse owner team.
 
 ### Required services
-This list identifies all services to which Dynamics 365 for Phones and Tablets talks and their usages. Your network must **not** block these services.
+This list identifies all services to which Power Apps mobile talks and their usages. Your network must **not** block these services.
 
 | Domain(s) | Protocols | Uses |
 | --- | --- | --- |
