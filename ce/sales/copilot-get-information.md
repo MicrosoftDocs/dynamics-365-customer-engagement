@@ -126,10 +126,17 @@ You might often have documents such as proposals and contracts associated with y
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 
-1. (Optional) Open a record to summarize a document associated with it. 
+1. (Optional) Open a record to summarize a document associated with it.
 1. Select **View Prompts** above the Copilot chat box, select **Get info** > **Summarize file** and then type "/" to search for a document. You can also type **Summarize file /** or **Summarize document /**.
-   A list of recent documents related to the record is displayed. If you haven't opened a record, Copilot lists the top 15 documents you recently opened in SharePoint.  
-   You can search for the document you want to summarize by typing the filename, extension, or keywords in the document. A minimum of three characters is required to start the search. For example,
+    If you opened a record, a list of documents attached to the **Files** tab of the record is displayed. Otherwise, Copilot lists the top 15 documents you recently opened in SharePoint. 
+
+1. Search for the document you want to summarize by typing the filename, extension, or keywords in the document. A minimum of three characters is required to start the search.
+
+   The search operation starts with the documents in the list first and then searches for documents that meet the following criteria: 
+    - Documents in the SharePoint folders configured by your administrator.
+    - Documents that you have access to.
+    
+    For example,
     - Enter **Summarize file /contract** to get a list of documents that has **contract** in the file name or content of the document.
     - Enter **Summarize file /pdf** to get a list of documents that has **pdf** in the file name, extension, or content of the document.
 
