@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 08/30/2024
+ms.date: 10/07/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -103,7 +103,7 @@ If you don't see the opportunity summary widget in the **Opportunity** form, con
 
 Copilot generates the summary from a set of predefined fields. Other fields might be more important to you, however. For example, estimated revenue, close date, contact, pipeline stage, and proposed solution might be the first things you look for in an opportunity. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](copilot-configure-summary-fields.md).
 
-Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 10** fields that are most relevant for your business.
+Keep in mind that the summary fields are configured at the organization level. Make sure that your entire sales team agrees on the **top 15** fields that are most relevant for your business.
 
 ### Enrich leads with related information
 
@@ -137,22 +137,22 @@ After you select a lead, Copilot suggests other records that might be associated
 You might often have documents such as proposals and contracts associated with your records. Copilot can summarize the content of these documents and help you understand the key points. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
 
 > [!NOTE]
->- Your administrator must have [set up customer engagement apps to use SharePoint Online](/power-platform/admin/set-up-dynamics-365-online-to-use-sharepoint-online), for this feature to work.
 >- Currently, Copilot can summarize only PDF and Word documents.
+>- Your administrator can [configure the SharePoint location](copilot-sharepoint-config.md) where the documents are stored. Otherwise, Copilot searches all the SharePoint folders that you have access to.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 
 1. (Optional) Open a record to summarize a document associated with it. 
 1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Get info** > **Summarize file** and then type "/" to search for a document. You can also type **Summarize file /** or **Summarize document /**.
-   A list of recent documents is displayed. If you haven't opened a record, Copilot lists the top 10 documents you've recently worked with. 
-   You can search for the document you want to summarize. A minimum of three characters is required to start the search. You can search by the file name. For example,
-    - Enter **Summarize file /contract** to get a list of documents that has **contract** in the file name.
-    - Enter **Summarize file /pdf** to get a list of documents that has **pdf** in the file name or extension.
+   A list of recent documents is displayed. If you haven't opened a record, Copilot lists the top 15 documents you recently opened in SharePoint.  
+   You can search for the document you want to summarize by typing the filename, extension, or keywords in the document. A minimum of three characters is required to start the search. For example,
+    - Enter **Summarize file /contract** to get a list of documents that has **contract** in the file name or content of the document.
+    - Enter **Summarize file /pdf** to get a list of documents that has **pdf** in the file name, extension, or content of the document.
 
    Depending on the size of the document, it might take a few seconds to summarize the document.
 
 > [!NOTE]
-> Copilot in Dynamics 365 Sales can summarize only sales documents such as proposals, contracts, and other sales-related documents. If you select a document that isn't a sales document, Copilot declines to summarize it.
+> Copilot in Dynamics 365 Sales can summarize only sales documents such as proposals, contracts, and other sales-related documents. If you select a document that isn't a sales document, Copilot declines to summarize it. [How does Copilot determine if a document is a sales document?](sales-copilot-faq.md#how-does-copilot-determine-if-a-document-is-a-sales-document).
 
 
 ## Show the latest news about an account

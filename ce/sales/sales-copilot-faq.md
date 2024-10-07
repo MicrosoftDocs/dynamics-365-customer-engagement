@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 09/19/2024
+ms.date: 10/07/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -81,6 +81,10 @@ Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solution and is deployed to all Dynamics 365 Sales environments, irrespective of whether Copilot in Dynamics 365 Sales is enabled or not. The bot is used to authenticate and authorize Copilot only when Copilot in Dynamics 365 Sales is enabled. If you've disabled Copilot in Dynamics 365 Sales, the bot remains dormant on your environment. The bot will be updated automatically. It can't be deleted or disabled either. [Learn more about Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
 A related app, Sales Copilot Power Virtual Agents Bot, is also created for your tenant in Azure for authentication and authorization purposes. The app will be renewed when it's nearing expiration. We recommend that you don't delete or disable the app.
+
+## How does Copilot determine if a document is a sales document?
+
+Copilot determines whether a document is a sales document or not based on the content length, document type, and use of sales-specific keywords such as procurement, proposal, tender, supply, requirements, specifications, buy, sell, order, agreement, customer, and so on. Documents with fewer than 30 words or those that don't contain sales-related keywords are classified as non-sales document.
 
 ## Copilot for emails
 
