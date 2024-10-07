@@ -24,15 +24,15 @@ These frequently asked questions (FAQ) are intended to help you understand the i
 
 Summarization is an AI-powered feature of Copilot in Dynamics 365 Sales that provides sellers with a quick summary of important information about their sales records in an easy-to-consume format. Through this feature, Copilot can summarize:
 
-- Leads and opportunities
-- Proposals and other documents associated with the sales records
+- Leads, opportunities, and accounts.
+- Proposals and other sales documents in SharePoint.
 - Summarize answers from SharePoint documents for questions asked in natural language
 
 Copilot uses large language models and natural language processing to analyze and condense information in Dynamics 365.
 
 ## What can summarization do?
 
-Summarization helps sellers stay on top of their leads and opportunities, get a quick gist of documents associated with sales records, answer questions, and efficiently prepare for meetings in a way that makes them more productive.
+Summarization helps sellers stay on top of their leads, opportunities, and account, get a quick gist of documents associated with sales records, answer questions, and efficiently prepare for meetings in a way that makes them more productive.
 
 A **lead summary** is generated from a set of predefined fields in the lead table. By default, the lead summary includes the following information:
 
@@ -45,17 +45,27 @@ A **lead summary** is generated from a set of predefined fields in the lead tabl
 - Insights from the lead's parent account&mdash;primary contact and annual revenue
 - Insights about the competitor for the lead&mdash;competitor's name and strength 
 
-An administrator can [configure other fields to generate the summary from](./enable-setup-copilot.md).
+An administrator can [configure other fields to generate the summary from](copilot-configure-summary-fields.md).
 
 An **opportunity summary** is generated from a set of predefined fields in the opportunity table. By default, the opportunity summary includes the following information:
 
-- The estimated revenue and estimated close date of the opportunity
-- The customer's requirements and proposed solution
-- Products added to the opportunity
-- Insights from the related account and contact&mdash;annual revenue, primary contact and their job title
-- Insights about the competitor for the lead&mdash;competitor's name and strength
+- **Basic information**: The basic information of the opportunity includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
+- **Key information**: The key information includes details on how long the account is associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress of the most recent opportunity, contact name of the account with the most opportunities, and other AI-generated information.  
+- **Product, quote, and competitor insights**:
+  - The **Product insights** section All the products associated with the opportunity are displayed along with the budget and estimated revenue.  
+  - The **Quote insights** section displays the number of quotes that are shared with the opportunity along with the date of the most recent quote.  
+  - The **Competitor insights** section displays the competitors associated with the opportunity along with the strengths and weaknesses of the competitors.  
 
-An administrator can [configure other fields to generate the summary from](./enable-setup-copilot.md).
+An administrator can [configure other fields to generate the summary from](copilot-configure-summary-fields.md).
+
+An account summary is generated from a set of predefined fields in the account table. By default, the account summary includes the following information:
+
+- **Basic information**: The basic information of the account includes annual revenue, number of employees, country/region, and parent account. If this information is available in the respective fields of the account record, it's displayed in the summary; otherwise, the field isn't displayed.
+- **Key information**: The key information includes details on how long the account is associated with your organization, its domain, the total value of closed opportunities, the most recently closed opportunity, most recent activity, and other AI-generated information.  
+- **Related leads, opportunities, and cases**: All the open leads, opportunities, and cases that are associated with the account are displayed. Listed records are the ones that you have read access to. A maximum of 10 records are displayed for each section. 
+    Select the section to view the details of the associated records. To summarize a specific lead, opportunity, or case, hover over the record and select **Summarize**. For cases to display, your organization must have the Dynamics 365 Customer Service app enabled.
+
+An administrator can [configure other fields to generate the summary from](copilot-configure-summary-fields.md).
 
 Users can invoke the **SharePoint question and answer** capability from the Copilot chat.
 
@@ -67,7 +77,9 @@ Users can invoke the **SharePoint question and answer** capability from the Copi
 
 The **meeting preparation** feature helps sellers prepare for meetings easily and efficiently. It detects upcoming meetings in the next 24 hours on the seller's calendar. For each meeting, it summarizes the three most recent notes and the most recent email associated with the stakeholder's timeline, providing sellers with valuable insights and key points to drive productive discussions. They can quickly grasp the context and important points and engage with stakeholders more effectively and confidently.
 
-A proposal summary is generated from the documents associated with the sales records in Dynamics 365 Sales. By default, a summary for a proposal includes the following information:  
+A **document or file summary** is generated from a sales document in SharePoint. The summary helps sellers quickly understand the key points and important details in the document. For example, you can ask Copilot to summarize a proposal document to understand the budget, authority (decision maker), need, and timeline (BANT) of the opportunity.
+
+By default, a summary for a proposal includes the following information:  
 
 - The organization that issued the proposals
 
