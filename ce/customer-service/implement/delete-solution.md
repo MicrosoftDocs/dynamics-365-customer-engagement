@@ -33,7 +33,9 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. On the **Solutions** page, select each solution from the following list, and then select **Delete** to remove them one at a time.
+4. On the **Solutions** page, go to the **Managed** tab.
+
+5. In the **Managed** tab, select each solution from the following list, and then select **Delete** to remove them one at a time.
 
     | Order |	Solution name	                                | Note	|
     |-------|-------------------------------------------------- |-------|
@@ -67,9 +69,6 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
     |	28	|	 `ScenariosAndChannels`	                        |		|
     |	30	|	 `OmnichannelIntelligence` 	                    |		|
     |	31	|	 `OmnichannelConfiguration`                    	|		|
-
-
-5. 
 
 6. Select **OK** on the confirmation message that prompts you to uninstall the managed solution.
 
