@@ -1,5 +1,20 @@
 {
   "redirections": [
+     {
+           "source_path": "ce/mobile-app/secure-manage-phones-tablets.md",
+           "redirect_url": "/power-apps/mobile/intune",
+           "redirect_document_id": "false"
+        },
+    {
+           "source_path": "ce/mobile-app/migration.md",
+           "redirect_url": "/power-apps/mobile/use-custom-model-driven-app-on-mobile",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "ce/mobile-app/user-guide-mobile-app.md",
+           "redirect_url": "/dynamics365/mobile-app/overview",
+           "redirect_document_id": "false"
+        },
     {
       "source_path": "ce/field-service/rso-administration.md",
       "redirect_url": "/dynamics365/field-service/rso-deployment",
@@ -33096,6 +33111,22 @@
       "source_path": "ce/customer-service/develop/reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md",
       "redirect_url": "/dynamics365/customer-service/develop/reference/entities/overview-entity-ref",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "ce/customer-service/implement/omnichannel-provision-license.md",
+      "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/remove-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/provision-channels#turn-off-channels",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/customer-service/implement/upgrade-omnichannel.md",
+      "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
+      "redirect_document_id": false
+    },  
+
   ]
 }
