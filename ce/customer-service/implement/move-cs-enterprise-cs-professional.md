@@ -35,9 +35,6 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 2. Select multiple users, and then select **Manage product licenses**. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Assign licenses to multiple users.](../media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
-
 3. Select **Replace** to unassign existing licenses and assign new ones.
 
 4. Select the license for your Dynamics 365 Customer Service Professional plan.

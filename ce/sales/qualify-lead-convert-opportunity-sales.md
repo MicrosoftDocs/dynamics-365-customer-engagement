@@ -89,7 +89,7 @@ If your admin has enabled multiple opportunities creation, you can create up to 
 
 #### Lead summary
 
-If your admin has enabled lead summarization, you'll see an AI-generated summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record and the lead record. 
+If your admin has [enabled lead summarization](define-lead-qualification-experience.md#summarize-the-lead-after-its-qualified), you'll see an AI-generated summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record and the lead record. 
 
 ![Screenshot of the Lead qualified page that appears after the lead is qualified.](media/lead-qualify-finish-page.png "Screenshot of the Lead qualified page that appears after the lead is qualified.")
 

@@ -258,9 +258,7 @@ To execute this search against your organization, you need to download the [samp
 
   After the time slot Sets are returned by the API, you can display them on your custom web portal, app, or a Power App (model/canvas).    
 
-5. After you choose a specific time slot set (Set number 1 in this example), update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the resource assignments (Requirement guid, Resource guid) and the Requirement Group, as shown in the following example.    
-
-![Update web resource to pass resource assignments.](../media/ur-scheduling-10-new.PNG)
+5. After you choose a specific time slot set, update your new_msdyn_CreateRequirementGroupBookingsSample.js web resource in your org to pass the resource assignments (Requirement guid, Resource guid) and the Requirement Group.   
 
 > [!IMPORTANT]
 > Find the complete sample code here: [Create Requirement Group](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/service-scheduling/search-resource-availability-create-bookings).
