@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 06/14/2024
+ms.date: 10/03/2024
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -37,8 +37,6 @@ To simplify the routing experience for administrators and supervisors, queues ar
 
 The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection are based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues are shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a record queue.
 
-Assign a group number that helps you organize your queues in the list view. The group number doesn't affect the priority of the queue or incoming conversations.
-
 ## Create a queue for unified routing
 
 1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
@@ -48,14 +46,14 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. On the **Queues** page, do the following steps:
 
     1. Select **New**.
-    2. In the **Create a queue** dialog, enter the following details:
+    1. In the **Create a queue** dialog, enter the following details:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
-       - **Group number**: A number to organize the queue.
-    3. Select **Create**. The queue that you created is displayed.
+       - **Group number**: A number to [prioritize the queue](#configure-queue-prioritization).
+    1. Select **Create**. The queue that you created is displayed.
 
-       > [!div class=mx-imgBorder]
-       > ![Queue in admin center.](../media/queue-summary-ur.png "Queue in admin center")
+       :::image type="content" source="../media/queue-summary-ur.png" alt-text="A screenshot of an advanced queue in admin center.":::
+
 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
@@ -72,6 +70,10 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
 
 1. Select **Save and close**. The operating hour record that you selected is configured for the queue.
+
+## Configure queue prioritization
+
+You can assign a group number to the queue that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller group number over a queue with a larger group number. For example, if you need to prioritize conversations over cases, you can assign group numbers to the corresponding queues accordingly. For the queues that handle conversations, you can assign a group number 1 and for the queues that handle cases, you can assign 2 as the group number. Similarly, you can prioritize one type of work over another. Assign group number 1 to the queue with premium customer chats for higher priority and group number 2 to the queue that handles general customer questions to give it lower priority. Learn more at [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
 
 ### Manage queues for unified routing
 
