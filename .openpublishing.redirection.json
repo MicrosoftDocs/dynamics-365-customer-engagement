@@ -1,5 +1,20 @@
 {
   "redirections": [
+     {
+           "source_path": "ce/mobile-app/secure-manage-phones-tablets.md",
+           "redirect_url": "/power-apps/mobile/intune",
+           "redirect_document_id": "false"
+        },
+    {
+           "source_path": "ce/mobile-app/migration.md",
+           "redirect_url": "/power-apps/mobile/use-custom-model-driven-app-on-mobile",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "ce/mobile-app/user-guide-mobile-app.md",
+           "redirect_url": "/dynamics365/mobile-app/overview",
+           "redirect_document_id": "false"
+        },
     {
       "source_path": "ce/field-service/rso-administration.md",
       "redirect_url": "/dynamics365/field-service/rso-deployment",

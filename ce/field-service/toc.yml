@@ -605,7 +605,7 @@ items:
     href: mobile/mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
-  - name: New Field Service mobile experience (preview) troubleshooting
+  - name: New Field Service mobile experience troubleshooting
     href: mobile/troubleshooting-mobile-newux.md
 
 - name: Responsible AI
