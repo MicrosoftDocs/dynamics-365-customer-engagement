@@ -48,6 +48,8 @@ To open the navigation menu, select **More** at the bottom of the screen.
 
 Views are optimized for the mobile app and provide frontline workers with the information they require to find the records they need. More information: [Understand model-driven app views](/power-apps/maker/model-driven-apps/create-edit-views)
 
+:::image type="content" source="../media/newux-view-portrait.png" alt-text="Screenshot of a mobile view in portrait.":::
+
 Sitemap elements that don't link to a view, such as dashboards or custom pages, render in classic Unified Interface.
 
 ## Work on a booking from agenda view
