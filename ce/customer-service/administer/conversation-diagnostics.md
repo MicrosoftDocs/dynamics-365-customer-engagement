@@ -28,7 +28,7 @@ The user must be a Power Platform administrator or System Administrator.
 
 ## Pricing
 
-The conversation diagnostics data is stored in Azure Application Insights database. Azure Application Insights is an extension of Azure Monitor and charges for data ingested. The two log ingestion plans are Basic and Analytic logs. Learn more about the pricing for your business requirements at [Azure Monitor pricing](https://azure.microsoft.com/en-us/pricing/details/monitor/#pricing).
+The conversation diagnostics data is stored in Azure Application Insights database. Azure Application Insights is an extension of Azure Monitor and charges for data ingested. The two log ingestion plans are Basic and Analytic logs. Learn more about the pricing for your business requirements at [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/#pricing).
 
 he following table lists the analysis of the average data consumption in Application Insights - 
  
