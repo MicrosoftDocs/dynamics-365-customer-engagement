@@ -216,7 +216,7 @@ The same widget persists the chat as you cross different pages or websites.
 ### If published to any external websites, does the live chat widget meet the Web Content Accessibility Guidelines?
 
 Yes, the live chat widget meets Microsoft accessibility standards, which include the Web Content Accessibility Guidelines (WCAG). 
-Learn more about Microsoft's accessibility policies in the [Trust Center](https://www.microsoft.com/en-us/trust-center/compliance/accessibility).
+Learn more about Microsoft accessibility policies in the [Trust Center](https://www.microsoft.com/en-us/trust-center/compliance/accessibility).
 
 ## Routing and work distribution
 
