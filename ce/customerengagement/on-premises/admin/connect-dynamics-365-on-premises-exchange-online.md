@@ -79,7 +79,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
      
 5. In the powershell session from step 2, invoke below **ConfigureCrmServerSideSync** command.                     
 
-    [Download](/github.com/microsoft/PowerApps-amples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
+    [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 
      $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -privateKeyPassword (ConvertTo- 
      SecureString 'personal_certfile_password' -AsPlainText -Force) -pfxFilePath c:\Personalcertfile.pfx -organizationName 

@@ -33,7 +33,9 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. On the **Solutions** page, select each solution from the following list, and then select **Delete** to remove them one at a time.
+4. On the **Solutions** page, go to the **Managed** tab.
+
+5. In the **Managed** tab, select each solution from the following list, and then select **Delete** to remove them one at a time.
 
     | Order |	Solution name	                                | Note	|
     |-------|-------------------------------------------------- |-------|
@@ -68,8 +70,7 @@ You must have removed [Omnichannel for Customer Service](/dynamics365/contact-ce
     |	30	|	 `OmnichannelIntelligence` 	                    |		|
     |	31	|	 `OmnichannelConfiguration`                    	|		|
 
-
-5. Select **OK** on the confirmation message that prompts you to uninstall the managed solution.
+6. Select **OK** on the confirmation message that prompts you to uninstall the managed solution.
 
 ## Uninstall Omnichannel historical analytics solutions
 
@@ -89,9 +90,11 @@ When you upgrade Omnichannel for Customer Service to the latest release, certain
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. On the **Solutions** page, select the **OmnichannelCustomerServiceHub** solution, and then select **Delete**.
+4. On the **Solutions** page, go to the **Managed** tab.
 
-5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
+5. In the **Managed** tab, select the **OmnichannelCustomerServiceHub** solution, and then select **Delete**.
+
+6. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
 
     > [!div class=mx-imgBorder]
     > ![Delete Omnichannel Solution.](../media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")

@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 07/02/2024
+ms.date: 09/20/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -25,7 +25,7 @@ Ask Copilot to update you on the latest changes to your sales records, get a lis
 Use this prompt to get a list of sales records that were recently updated.  
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's new with my sales records**, and then select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's new with my sales records**, and then select **Enter**.
 
     :::image type="content" source="media/whats-new-with-myrecords.png" alt-text="Screenshot of the Copilot response for What's new with my sales records.":::
 
@@ -43,19 +43,20 @@ Hover over a record in the list and select **Get updates** to view all changes t
 
 Copilot can help you stay on top of your pipeline by showing you a list of accounts, leads, and opportunities that were assigned to you in the last 15 days.
 
-[Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
+[Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
 
 ## Get recent changes
 
 Copilot can help you catch up on any updates to your account, lead, or opportunity records in the last seven days or since you last signed in.
 
-The list of recent changes is taken from the audit history of the record. If the list of changes doesn't appear, ask your administrator to [turn on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [grant you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
-
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's changed for *record type***, and select **Enter**.
+1. Select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's changed for *record type***, and select **Enter**.
 
     - When a record is opened, Copilot displays the list of recent changes to it.
     - When in grid view, Copilot lists the records for which you have read access. Hover over a record and select **Get updates**.
+    
+    > [!NOTE]
+    > The **What's changed for *record type*** prompt is displayed only if your administrator has [turned on auditing](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub) and [granted you access to the audit history](copilot-configure-summary-fields.md#grant-audit-access-to-your-sellers).
 
 1. To get the list of changes to a specific account, lead, or opportunity, type **/** and then start typing the name of the account, lead, or opportunity.
 
@@ -63,13 +64,11 @@ The list of recent changes is taken from the audit history of the record. If the
 
 1. To learn more about the updated information or activity, select **Know more in audit history**.
 
-    :::image type="content" source="media/copilot-lead-catchup-audit-history.png" alt-text="Screenshot of a lead's audit history.":::
-
 ### Would you like to view recent changes to different fields?
 
 Copilot summarizes the last 10 updates to the record from the audit history, for the fields configured by your administrator. However, you might want to stay updated on changes to other fields that matter more to you. Work with your Dynamics 365 Sales administrator to [add those fields to the configuration](copilot-configure-summary-fields.md).
 
-Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Keep in mind that these fields are set at the organization level. Make sure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
 
 ## Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Configure fields for generating summaries and recent changes
 description: Learn how to configure fields for generating summaries and recent changes list in Copilot for leads, opportunities, and accounts.
-ms.date: 08/02/2024
+ms.date: 10/04/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -32,20 +32,20 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
 1. To choose fields for generating summaries, select the **Summary** tab. To choose fields for generating the recent changes list, select the **Recent changes** tab.
 
-    The recent changes list is generated from the audit history. If the **Recent changes** tab isn't available, it means that auditing is turned off globally or for the table you selected (leads or opportunities). Select **Turn audit on** in the notification bar to turn on audit history for all the tables in the **Recent changes** tab.
+    The recent changes list is generated from the audit history. If the **Recent changes** tab isn't available, it means that auditing is turned off globally or for the table you selected (leads, opportunities, or accounts). Select **Turn audit on** in the notification bar to turn on audit history for all the tables in the **Recent changes** tab.
 
     :::image type="content" source="media/turn-audit-on.svg" alt-text="Screenshot of the Recent changes tab when auditing isn't turned on for any of the tables in the Recent changes tab.":::
 
 1. Select **Add fields**.
 
-1. Select at least four fields, up to a maximum of 10.
+1. Select at least four fields, up to a maximum of 15 for summaries and 10 for recent changes. You can add fields from the current table or related tables.
 
-    The **Save** button is disabled if you select fewer than 4 or more than 10 fields. If you added more than 10 fields, clear the checkbox, or select fields that you don't need and select **Delete**.
+    The **Save** button is disabled if you select fewer or more than the allowed number of fields. If you added more than the allowed number of fields, clear the checkbox, or select fields that you don't need and select **Delete**.
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
-1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the opportunity summary widget within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
-    To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](enable-setup-copilot.md#add-the-opportunity-summary-widget-to-custom-forms).
+1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the [opportunity summary widget](copilot-get-information.md#view-opportunity-summary-widget) within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
+    To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
 
 1. For **Opportunities** and **Accounts** only. To customize the sections to display in the summary, select **Customize related info**.  
 
@@ -74,6 +74,24 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
         1. Select **Save**.
 
 1. Save your changes.
+
+## Add the opportunity summary widget to custom forms
+
+The opportunity summary widget includes an AI-generated summary of the opportunity record. This widget is available in the opportunity form by default. If you have a custom form, you can add the opportunity summary widget to it.
+
+1. Sign in to the [Power Apps maker portal](https://make.powerapps.com).
+1. From the site map, select **Tables** and open the table.
+1. From the Data experience section, select **Forms**.
+1. Open your custom form for which you want to add the opportunity summary widget.
+1. On the command bar, select **Component** and then add the **1-column section** component to the form as a placeholder for the widget.
+1. From the **Component** site map, select Display and then add the **Record summary** to the newly added column.  
+
+    The opportunity summary widget is added to the form.
+
+    >[!NOTE]
+    >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.  
+
+1. Save and publish the form.
 
 ## Grant audit access to your sellers
 
