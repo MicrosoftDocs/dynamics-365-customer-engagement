@@ -18,7 +18,7 @@ To turn on analytics for Copilot, you must opt in to the Copilot help pane and C
 
 1. On the **Copilot analytics** page, select the **Enable Copilot analytics** checkbox, and then save the changes.
 
-You can also select the checkboxes for additional options to add interactions on cases, emails, and conversations.
+You can also select the checkboxes for more options to add interactions on cases, emails, and conversations.
 
 The command bar displays a message that your reports are being provisioned. It might take up to 24 hours for the process to complete.
 
