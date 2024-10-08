@@ -64,7 +64,7 @@ For example, lets look at a setup with the following four queues, all with group
 For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
 > [!NOTE]
-> We recommend that you assign distinct queue priorities to queues with custom prioritization rules to provide a clear prioritization. Even if the queues have the same prioritization rules, they're considered to be distinct.
+> We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
 
 ## Types of assignment methods
 
@@ -74,7 +74,7 @@ The following assignment methods are available out of the box:
 
   If you want to use skill-based routing, the "exact match" and "closest match" options are available.
 
-  - IF you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
+  - If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
 
   - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
