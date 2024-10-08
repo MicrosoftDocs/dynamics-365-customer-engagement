@@ -55,8 +55,8 @@ To create and assign an app protection policy for the Dynamics 365 Sales mobile 
 Managed apps are apps that your company support can set up to help protect company data that you can access in that app. When you access company data in a managed app on your device, you may notice that the app works a little differently than what you expect. For example, you might not be able to copy and paste protected company data, or you might not be able to save that data to certain locations.
 
 To understand how your end users can use the Dynamics 365 Sales mobile app on their device, review the steps provided in the following articles:
-- [Use managed apps on your iOS device](/mem/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Use managed apps on your Android device](/mem/intune-user-help/use-managed-apps-on-your-device-android)
+- [Use managed apps on your iOS device](/mem/intune/fundamentals/manage-apps)
+- [Use managed apps on your Android device](/mem/intune/fundamentals/manage-apps)
 
 ## Related information
 
