@@ -298,8 +298,6 @@
           href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
-        - name: View analytics for Copilot impact
-          href: copilot-analytics-report.md
         - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
           href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
@@ -352,6 +350,8 @@
             href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge management analytics
           href: knowledge-search-analytics-cs.md
+        - name: Use Copilot analytics
+          href: copilot-analytics-report.md
         - name: Monitor conversations
           items: 
             - name: Monitor, assign, transfer, and forcibly end conversations
