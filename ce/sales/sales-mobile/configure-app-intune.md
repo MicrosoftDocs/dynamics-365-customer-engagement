@@ -24,7 +24,7 @@ The Microsoft Dynamics 365 Sales mobile app allows you to get access to your imp
 
 ## General mobile device management configuration
 
-This article assumes that Intune is configured properly and you have devices enrolled with Intune. The article is not meant as a full configuration guide for Microsoft Intune. For more information on Intune, see [What is Intune?](/mem/intune/introduction-intune/).
+This article assumes that Intune is configured properly and you have devices enrolled with Intune. The article is not meant as a full configuration guide for Microsoft Intune. For more information on Intune, see [What is Intune?](/mem/intune/fundamentals/what-is-intune).
 
 Microsoft Intune can co-exist with Mobile Device Management (MDM) within Microsoft 365. If you're using MDM, the device will show as enrolled with MDM, but is available to manage in Intune.
 
@@ -55,10 +55,10 @@ To create and assign an app protection policy for the Dynamics 365 Sales mobile 
 Managed apps are apps that your company support can set up to help protect company data that you can access in that app. When you access company data in a managed app on your device, you may notice that the app works a little differently than what you expect. For example, you might not be able to copy and paste protected company data, or you might not be able to save that data to certain locations.
 
 To understand how your end users can use the Dynamics 365 Sales mobile app on their device, review the steps provided in the following articles:
-- [Use managed apps on your iOS device](/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
-- [Use managed apps on your Android device](/intune-user-help/use-managed-apps-on-your-device-android)
+- [Use managed apps on your iOS device](/mem/intune-user-help/use-managed-apps-on-your-device-ios#how-do-i-get-managed-apps)
+- [Use managed apps on your Android device](/mem/intune-user-help/use-managed-apps-on-your-device-android)
 
 ## Related information
 
-[How to create and assign app protection policies](/mem/intune/app-protection-policies) 
+[How to create and assign app protection policies](/mem/intune/apps/app-protection-policies) 
 
