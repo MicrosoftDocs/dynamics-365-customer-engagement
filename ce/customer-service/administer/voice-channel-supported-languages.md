@@ -71,7 +71,7 @@ See the information in the following table to know about the supported languages
 | Divehi | `dv` |x|x|x|x|x|x|x|
 | Dutch - Belgium | `nl-BE` |✔|x|✔|✔|x|x|x|
 | Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
-| English - Australia | `en-AU` |✔|x|✔|✔|x|x|x|
+| English - Australia | `en-AU` |✔|✔|✔|✔|x|x|x|
 | English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
 | English - Ghana | `en-GH` |x|x|✔|✔|x|x|x|
 | English - Hong Kong SAR | `en-HK` |x|x|✔|✔|x|x|x|
@@ -84,13 +84,13 @@ See the information in the following table to know about the supported languages
 | English - Singapore | `en-SG` |x|x|✔|✔|x|x|x|
 | English - South Africa | `en-SA` |x|x|✔|✔|x|x|x|
 | English - Tanzania | `en-TZ` |x|x|✔|✔|x|x|x|
-| English - United Kingdom | `en-GB` |✔|x|✔|✔|x|x|x|
+| English - United Kingdom | `en-GB` |✔|✔|✔|✔|x|x|x|
 | English - United States | `en-US` |✔|✔|✔|✔|✔|✔|✔|
 | Estonian - Estonia | `et-EE` |✔|x|✔|✔|✔|x|✔|
 | Fijian | `fj` |x|x|x|x|x|x|x|
 | Filipino | `fil-PH` |x|x|x|✔|x|x|x|
 | Finnish | `fi-FI` |✔|✔|✔|✔|✔|x|✔|
-| French - Canada | `fr-CA` |✔|x|✔|✔|x|x|x|
+| French - Canada | `fr-CA` |✔|✔|✔|✔|x|x|x|
 | French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
 | French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
 | Galician | `gl-ES` |x|x|x|x|x|x|✔|
@@ -175,7 +175,7 @@ See the information in the following table to know about the supported languages
 | Spanish - Spain | `es-ES` |✔|✔|✔|✔|✔|✔|✔|
 | Spanish - Venezuela| `es-VE` |x|x|✔|✔|x|x|x|
 | Spanish - Uruguay| `es-UY` |x|x|✔|✔|x|x|x|
-| Spanish - US| `es-US` |✔|x|✔|✔|x|x|x|
+| Spanish - US| `es-US` |✔|✔|✔|✔|x|x|x|
 | Sudanese - Indonesia | `su-ID` |x|x|x|x|x|x|x|
 | Swahili - Kenya| `sw-KE` |x|x|✔|✔|x|x|x|
 | Swahili - Tanzania| `sw-TZ` |x|x|x|x|x|x|x|
