@@ -704,6 +704,8 @@
           href: oc-historical-analytics-reports.md
         - name: Manage Knowledge analytics
           href: enable-knowledge-search-insights.md
+        - name: Manage Copilot analytics
+          href: copilot-analytics.md
       - name: Customize data models of historical and real-time analytics reports
         href: model-customize-reports.md
       - name: Configure forecasting
