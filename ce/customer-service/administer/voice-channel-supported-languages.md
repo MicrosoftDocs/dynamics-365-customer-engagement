@@ -62,7 +62,7 @@ See the information in the following table to know about the supported languages
 | Catalan | `ca` |✔|x|✔|✔|✔|x|✔|
 | Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
 | Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|x|✔|✔|✔|x|✔|
-| Chinese - Taiwan - Traditional | `zh-TW` |✔|✔|✔|✔|✔|x|✔|
+| Chinese - Taiwan - Traditional | `zh-TW` |x|x|✔|✔|✔|x|✔|
 | Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
 | Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|
 | Czech - Czech Republic | `cs-CZ` |✔|✔|✔|✔|✔|x|✔|
