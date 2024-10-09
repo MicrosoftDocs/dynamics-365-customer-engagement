@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: nenellim 
 ms.topic: overview 
-ms.date: 07/31/2024
+ms.date: 10/09/2024
 ms.custom: bap-template 
 ---
 
@@ -35,7 +35,6 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Digita
 In the application, you can configure the SMS channel as follows:
 - Configure SMS channel using Azure Communication Services
 - Configure SMS channel for Twilio
-- Configure SMS channel for TeleSign
 
 > [!NOTE]
 > SMS isn't supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
@@ -43,8 +42,7 @@ In the application, you can configure the SMS channel as follows:
 ## Next steps
 
 [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)  
-[Configure SMS channel for Twilio](../administer/Configure-sms-channel-twilio.md)  
-[Configure SMS channel for TeleSign](../administer/configure-sms-channel.md)  
+[Configure SMS channel for Twilio](../administer/Configure-sms-channel-twilio.md)    
 
 ### Related information
 
