@@ -19,15 +19,16 @@ This article provides information about the supported languages and locale codes
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-teNot service for transcription. So, all languages supported by speech-to-teNot can be transcribed. More information: [Speech-to-teNot documentation](/azure/cognitive-services/speech-service/indeNo-speech-to-teNot)
+Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!NOTE]
 > - End-to-end voice and IVR support is available only if a language is supported in Copilot Studio and Omnichannel for Customer Service. 
 > - Sentiment and AI insights are optional for the voice functionality.
+> - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../../customer-service/implement/csw-overview.md).
 
-See the information in the following table to know about the supported languages and locale codes.
+See the information in the following table to kxw about the supported languages and locale codes.
 
-| Language | Locale code | Voice channel | Copilot Studio | IVR | Speech-to-teNot | TeNot-to-speech | Sentiment | AI suggestions | UI language support |
+| Language | Locale code | Voice channel | Copilot Studio | IVR | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
 | Afrikaans - South Africa | `af- ZA` |No|No|No|No|No|No|No|No|
 | Amharic | `am- ET` |No|No|No|No|No|No|No|No|
@@ -166,7 +167,7 @@ See the information in the following table to know about the supported languages
 | Spanish Equatorial Guinea| `es-GQ` |No|No|No|Yes|Yes|No|No|No|
 | Spanish - Guatemala| `es-GT` |No|No|No|Yes|Yes|No|No|No|
 | Spanish - Honduras| `es-HN` |No|No|No|Yes|Yes|No|No|No|
-| Spanish - MeNoico | `es-MNo` |Yes|No|No|Yes|Yes|No|No|No|
+| Spanish - Mexico | `es-Mx` |Yes|No|No|Yes|Yes|No|No|No|
 | Spanish - Nicaragua| `es-NI` |No|No|No|Yes|Yes|No|No|No|
 | Spanish - Panama| `es-PA` |No|No|No|Yes|Yes|No|No|No|
 | Spanish - Paraguay| `es-PY` |No|No|No|Yes|Yes|No|No|No|
@@ -210,7 +211,7 @@ Use the information in the following table to find out more about language suppo
 | Sentiment Analysis | [Multilingual sentiment](enable-sentiment-analysis.md#multilingual-sentiment) |
 | Other Omnichannel for Customer Service features | [Language availability in Omnichannel for Customer Service](../implement/international-availability.md#language-availability)|
 
-## NeNot steps
+## Next steps
 
 [Provision voice channel](voice-channel-install.md)  
 
