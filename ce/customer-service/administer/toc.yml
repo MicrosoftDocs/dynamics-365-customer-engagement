@@ -516,8 +516,6 @@
         items:
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
-        - name: Configure an SMS channel for TeleSign
-          href: configure-sms-channel.md
         - name: Configure an SMS channel for Twilio
           href: configure-sms-channel-twilio.md
       - name: Set up social channels
@@ -532,8 +530,6 @@
           href: /dynamics365/contact-center/administer/configure-whatsapp-acs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
         - name: Configure a WhatsApp channel through Twilio
           href: configure-whatsapp-channel.md
-        - name: Configure a WeChat channel
-          href: configure-wechat-channel.md
         - name: Social channel setup FAQs
           items:
           - name: FAQ for Facebook channel setup
