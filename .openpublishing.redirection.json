@@ -33127,6 +33127,26 @@
       "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
       "redirect_document_id": false
     },  
-
+    {
+      "source_path": "ce/customer-service/administer/configure-sms-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "ce/customer-service/administer/configure-wechat-channel",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/sms-telesign-twilio.md",
+      "redirect_url": "/dynamics365/customer-service/use/sms-twilio.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/wechat-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels.md",
+      "redirect_document_id": false
+    },
+    
   ]
 }
