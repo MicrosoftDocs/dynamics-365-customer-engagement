@@ -67,7 +67,7 @@ We recommend that you don't open Omnichannel for Customer Service in multiple br
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
 
-If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you entered some data on the model-driven forms where autosave is enabled, they are saved into model-driven apps.
+If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you entered some data on the model-driven forms where AutoSave is enabled, they're saved into model-driven apps.
 
 Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
 
@@ -128,11 +128,11 @@ If you're using multiple fields for automated record identification, they must a
 
 ### What do I do if the instance I want isn't available when I provision Omnichannel for Customer Service?
 
-if you have instances in more than one region and provision Omnichannel for Customer Service without selecting the correct region, you might not be able to find the instance you're looking for. For more information, go to [Instance unavailable to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
+If you have instances in more than one region and provision Omnichannel for Customer Service without selecting the correct region, you might not be able to find the instance you're looking for. For more information, go to [Instance unavailable to select on the provisioning application](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/instance-unavailable-provision-omnichannel).
 
 ### What do I do if I get an error when provisioning Omnichannel for Customer Service?
 
-If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Omnichannel for Customer Service, it might be caused by signing in on the child business unit rather than the root, or because you are missing read permissions. For more information, go to ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors).
+If you get an error that says, "Unable to perform the requested operation..." or "Request validation failed" when provisioning Omnichannel for Customer Service, it might be caused by signing in on the child business unit rather than the root, or because you're missing read permissions. For more information, go to ["Unable to perform the requested operation..." or "Request validation failed" error when provisioning Omnichannel](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/omnichannel-provision-fail-errors).
 
 ### What do I do if my dashboards (Omnichannel Agent Dashboard, Omnichannel Conversation Dashboard, Tier 1 Dashboard, Tier 2 Dashboard) aren’t showing up?
 
@@ -193,7 +193,7 @@ The dataset refresh interval for Intraday and Chat Insights reports depends on y
 
 ### Why am I not able to access more than 100 agents while using filters in Omnichannel Ongoing Conversations dashboard?
 
-By default, the application only displays 100 agents at any given time while filtering the conversation on the **Omnichannel Ongoing Conversations** dashboard. The list of 100 agents is displayed alphabetically. For example, you have 200 agents in your organization, and 100 agents have names that start with the letters A through D, the application only displays these agents. The rest of the agents with names that start with letters E through Z are not listed.
+By default, the application only displays 100 agents at any given time while filtering the conversation on the **Omnichannel Ongoing Conversations** dashboard. The list of 100 agents is displayed alphabetically. For example, you have 200 agents in your organization, and 100 agents have names that start with the letters A through D, the application only displays these agents. The rest of the agents with names that start with letters E through Z aren't listed.
 
 ### What controls are in place to limit the exposure of agent performance KPIs within my organization?
 
