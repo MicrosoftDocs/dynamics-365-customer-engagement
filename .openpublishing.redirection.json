@@ -33133,7 +33133,7 @@
       "redirect_document_id": false
     }, 
     {
-      "source_path": "ce/customer-service/administer/configure-wechat-channel",
+      "source_path": "ce/customer-service/administer/configure-wechat-channel.md",
       "redirect_url": "/dynamics365/customer-service/use/channels",
       "redirect_document_id": false
     },
