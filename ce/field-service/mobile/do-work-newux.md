@@ -90,3 +90,7 @@ In the new mobile user experience, app users can tap the user icon to access the
 - **Language**: Set the language for the mobile app.
 - **Map**: Define the behavior of the app when getting directions to a customer site and choose the default map provider.
 - **Apps**: If a user has access to multiple Field Service mobile app modules, they can choose which app module to load. They can also access app module settings to [turn on optimized image upload](optimize-image-size.md) or get debugging information.
+- 
+> [!NOTE]
+> - The new mobile UX will cache changes made to metadata for up to 8 hours. To see changes more quickly the user would need to sign-out and sign back into the application
+> - The new mobile UX will use the devices default time and location, while the Forms hosted on UCI will use CRM time zone. If there is a miss-match between the device and CRM, the user will be prompted to update to match CRM with the device. If a language pack used on the device is not enabled in CRM, the result may have a mixed-language experience.
