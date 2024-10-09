@@ -26,7 +26,7 @@ tags: MigrationHO
 > [!NOTE]
 > - Unified Service Desk doesn't support the Customer Service workspace app.  
 > - The [Try the new look](/power-apps/user/modern-fluent-design#whats-included-with-the-new-look) setting that allows for a modern and refreshed look is available in Unified Service Desk 4.2 only.
-> - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../../customer-service/implement/implement/csw-overview.md).
+> - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../customer-service/implement/csw-overview.md).
 
 <a name="UII"></a>   
 
