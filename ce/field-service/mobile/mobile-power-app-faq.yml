@@ -55,6 +55,8 @@ sections:
       - question: Why is only one Booking Status available while in Offline Mode?
         answer: |
           The most common reason Booking Status values may not be available in Offline mode is if the Booking Status table is not included within the Mobile Offline Profile.  Please check your offline profile and include all records from the “Booking Status” table and republish.
+      - question: 
+  
   - name: Sign in
     questions:     
 
@@ -86,6 +88,11 @@ sections:
             4. Check that the [App Module in D365 CRM](/mobile/custom-app-module-mobile#make-the-custom-app-module-available-in-the-mobile-app) is set to have the Primary Player of "Field Service (Dynamics 365)" 
           
             If completing these steps doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+
+        - question: After logging into the mobile application why don't I see, "Show Non-Production Apps" toggle?
+        answer: | This toggle is only shown when users have access to non-production organizations. Check access for the user in the desired non-production organization(s) and login to the application again.
+        
+        
         - question: Can external guest users access the Field Service mobile app?  
           answer: |
            Yes, frontline workers [enabled as Microsoft Entra B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
@@ -149,6 +156,12 @@ sections:
          After modifying my *Work Order Product* form, why can I no longer save updates while in Offline mode?
         answer: |
          While working with customized forms, there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on Work Order Product is the Work Order field. This field must be present to save and pass all client-side validation while running offline.
+
+      - question: | Why aren't Booking status time calculations (updates to Start, Arrival, and End Times) working?
+        answer: | There are two common reasons that out of the box time and travel calculations are not updated on the mobile application.
+        1. If using a custom app module, OOTB business logic is not maintained. See [Add a custom app module to the Field Service mobile app](/mobile/custom-app-module-mobile#make-the-custom-app-module-available-in-the-mobile-app)
+        2. If a requied time field, such as Start or End time has been removed from the Booking form, the logic which runs to update these fields will throw an error and travel calculations will not be executed.
+    
          
   - name: Other
     questions:       
