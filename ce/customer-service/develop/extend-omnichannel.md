@@ -37,7 +37,7 @@ The following table shows the SKUs that correspond with each experience.
 
 ### Telephony
 
-You can integrate a third-party telephony system. For example, in a contact center, you can bring the soft phone provider of your choice directly into the agent experience. This telephony integration ensures that incoming and outgoing voice calls are handled in a single agent experience, and all the necessary data is passed between the telephony system and Dynamics 365.
+You can integrate a third-party telephony system. For example, in a contact center, you can bring the soft phone provider of your choice directly into the agent experience. This telephony integration ensures that the system handles incoming and outgoing voice calls in a single agent experience, and it passes all the necessary data between the telephony system and Dynamics 365.
 
 Dynamics 365 Channel Integration Framework 2.0 provides APIs to integrate your telephony channel with multisession web experiences (Omnichannel for Dynamics 365 Customer Service). These APIs allow the telephony channel to show notifications for an incoming conversation with relevant information, start new sessions for conversations, and open application tabs as needed. More information: [Dynamics 365 Channel Integration Framework 2.0](../../channel-integration-framework/v2/administer/overview-channel-integration-framework.md)
 
