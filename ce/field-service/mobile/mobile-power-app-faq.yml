@@ -123,7 +123,7 @@ sections:
   - name: Entities, forms, views, and fields 
     questions:
           
-      - question: |
+      - question: 
           Why doesn't the bookable resource booking form show work order details like customer, service, and notes?
         answer: |
           Sometimes you might not see the correct booking form. You might see a screen resembling the following image.
@@ -136,7 +136,7 @@ sections:
 
           To solve this issue, sign in to the mobile app as a user who has the **Field Service - Resource** security role. Also make sure that the right form (the mobile-optimized booking and work order form) is associated with the booking entity in the app designer.
 
-      - question: |
+      - question: 
           How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
         answer: |
           To enable auto-expanding fields:
@@ -147,17 +147,17 @@ sections:
           
           Note: When you use the legacy form designer, there's a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
 
-      - question: |
+      - question: 
          When working in the mobile application, why do users sometimes see “Validations have been restarted in the background…”?
         answer: |
          This error hints at a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events. More Information is found in [Troubleshooting Guide](https://learn.microsoft.com/en-us/troubleshoot/dynamics-365/field-service/mobile-app/validation-restarted-background)
 
-      - question: |
+      - question: 
          After modifying my *Work Order Product* form, why can I no longer save updates while in Offline mode?
         answer: |
          While working with customized forms, there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on Work Order Product is the Work Order field. This field must be present to save and pass all client-side validation while running offline.
 
-      - question: | Why aren't Booking status time calculations (updates to Start, Arrival, and End Times) working?
+      - question:  Why aren't Booking status time calculations (updates to Start, Arrival, and End Times) working?
         answer: | There are two common reasons that out of the box time and travel calculations are not updated on the mobile application.
         1. If using a custom app module, OOTB business logic is not maintained. See [Add a custom app module to the Field Service mobile app](/mobile/custom-app-module-mobile#make-the-custom-app-module-available-in-the-mobile-app)
         2. If a requied time field, such as Start or End time has been removed from the Booking form, the logic which runs to update these fields will throw an error and travel calculations will not be executed.
@@ -166,7 +166,7 @@ sections:
   - name: Other
     questions:       
 
-     - question: |
+     - question: 
         How do I view feedback from users of the Field Service Mobile application in my organization?
        answer: | 
         In the mobile application, users can submit feedback from the left navigation. Admins can view that feedback via the [Microsoft Admin Center](https://admin.microsoft.com) by navigating to **Health** > **Product feedback**. Feedback comes from the "Dynamics 365 Field Service Mobile" app. [Learn about Microsoft feedback for your organization](/microsoft-365/admin/misc/feedback-user-control).
