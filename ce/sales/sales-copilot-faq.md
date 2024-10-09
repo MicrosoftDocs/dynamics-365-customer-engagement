@@ -28,7 +28,6 @@ The data included in the requests varies based on the type of request made. For 
 
 ## Is any of my data stored outside of Dynamics 365?
 
-No, we don't save any of your data in any new data store. You can read more about the [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy).
 
 No, we don't save any of your data in any new data store. Learn more about [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy). When you use Copilot in Dynamics 365 Sales for account news, Copilot sends the account name to Bing. For information on how Bing handles this data, see [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and [Microsoft Privacy Statement](https://www.microsoft.com/privacy/privacystatement).
 
