@@ -44,6 +44,8 @@ Before you set up the offline profile, consider these important guidelines:
 
 Keep these limitations in mind when you set up the offline profile:
 
+- [Field Mapping](power-apps/maker/data-platform/map-entity-fields) is not supported in Offline mode. 
+
 - Records that are created on the device in offline mode and don't meet filter conditions aren't synced until they meet the conditions.
 
 - Make sure that commands or capabilities that are set up for Internet connectivity call the correct APIs: `Xrm.WebApi.online`.
@@ -59,6 +61,8 @@ Keep these limitations in mind when you set up the offline profile:
 - Access to knowledge articles isn't available in offline mode.
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-capabilities#limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
+
+- "Export to PDF" command bar option is not available while the application is enabled for offline mode.  Additional command bar options may be hidden while in offline mode, or without device connectivity. See [Ribbon and Command Bar Button is Hidden](/power-apps/create-and-use-apps/ribbon-issues-button-hidden)
 
 ## Next steps
 
