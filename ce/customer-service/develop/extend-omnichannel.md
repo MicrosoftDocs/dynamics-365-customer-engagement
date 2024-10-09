@@ -27,11 +27,11 @@ The following table shows the SKUs that correspond with each experience.
 |---------------------------------------------------------------------|------------|------------|------------|
 | Telephony (via third-party providers)          | Yes | Yes | Yes |
 | Web chat  | - | Yes | Yes |
-| Social channels, including Facebook Messenger, WeChat, Teams, SMS, and WhatsApp  | - | - | Yes |
+| Social channels, including Facebook Messenger, Teams, SMS, and WhatsApp  | - | - | Yes |
 | Custom chat and messaging channels via Direct Line  | - | - | Yes |
 
 > [!NOTE]
-> [SMS](../administer/configure-sms-channel.md) and [WhatsApp](../administer/configure-whatsapp-channel.md) require additional third-party subscriptions.
+> [SMS](../use/sms-channel-overview.md) requires additional third-party subscriptions.
 
 ## Embed other tools in Omnichannel for Customer Service
 
