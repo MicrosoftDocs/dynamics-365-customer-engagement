@@ -1,26 +1,18 @@
 ---
-title: Share information through knowledge articles
-description: Learn about knowledge management and knowledge articles in Dynamics 365 Field Service.
-ms.date: 05/07/2024
+title: Create knowledge articles
+description: Learn how to create, link, and publish knowledge articles in Dynamics 365 Field Service.
+ms.date: 10/09/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.custom: bap-template
 ---
 
-# Share information through knowledge articles
+# Create knowledge articles
 
-When technicians in the field work on assigned jobs, they need access to relevant information to solve the problems they encounter.
+Write a knowledge article to share information with technicians. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles
 
-Knowledge management in Dynamics 365 Field Service associates relevant knowledge articles with work orders, incidents, products, and customer assets.
-
-Access to knowledge articles help improve the fix rate and guide technicians through procedures.
-
-## Create knowledge articles
-
-Write a knowledge article to share information with technicians.
-
-For more information on knowledge articles, see:
+For more information on knowledge articles, go to:
 
 - [Create and manage knowledge articles](../customer-service/use/customer-service-hub-user-guide-knowledge-article.md)
 - [Create templates for knowledge articles](../customer-service/use/create-templates-knowledge-article.md)
@@ -29,7 +21,17 @@ For more information on knowledge articles, see:
 :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles** and select **New** or **New From Template**.
+ 
+1. On the **Content** tab, **Article Content** section, fill in the following details:  
+  
+   - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
+  
+   - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
 
+   - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
+   
+1. In the **CONTENT** section, add the content for your knowledge article.  
+  
 1. Add text, pictures, and videos to the knowledge article.
 
 1. **Save and publish** the knowledge article.
