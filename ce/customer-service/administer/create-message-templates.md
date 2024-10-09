@@ -56,7 +56,6 @@ Message templates enable the one-time creation of reusable messages that can be 
 ## Related information
 
 [Configure outbound messaging](outbound-messaging.md) <br />
-[Configure an SMS channel for TeleSign](configure-sms-channel.md) <br />
 [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md) <br />
 [Configure a WhatsApp a channel through Twilio](configure-whatsapp-channel.md) 
 
