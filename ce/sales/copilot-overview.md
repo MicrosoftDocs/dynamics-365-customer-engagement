@@ -106,6 +106,8 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). 
 
-You can filter the report by product name, region, and language to know whether a Copilot feature is available in your specific region and language or the list of Copilot features available in your preferred region and language. The following screenshot illustrates the Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
+You can filter the report by product name, region, and language to know whether a Copilot feature is available in your specific region and language or the list of Copilot features available in your preferred region and language. The following screenshot illustrates Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
 
+:::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied.":::
 
+The **Release Wave** column indicates the release wave in which the support is available.
