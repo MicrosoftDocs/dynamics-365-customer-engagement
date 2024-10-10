@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 10/03/2024
+ms.date: 09/03/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -58,16 +58,9 @@ Learn more:
 - [Summarize a lead](copilot-get-information.md#summarize-a-lead)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
 
-## Embedded experiences
-
-Apart from Copilot's chat and email experiences, you can also use Copilot's embedded experience in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
-
-- [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-opportunity-summary-widget).
--  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
-
 ### Recent changes
 
-To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
+To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
@@ -111,15 +104,15 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 ## Region availability and languages supported
 
-Copilot in Dynamics 365 Sales is available in vregions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](#how-to-use-the-copilot-international-availability-report).
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](#how-to-use-the-copilot-international-availability-report).
 
 Copilot takes into account the [user's preferred UI language](/dynamics365/project-operations/environment/language-localization) and localizes responses based on that. Depending on the user's preferred UI language, org language, and languages supported for a specific Copilot feature, the responses are localized accordingly. The following table summarizes the expected behavior in different scenarios:
 
-| Base Language of the org | Preferred UI Language of the user | Expected Behavior                                                                 |
+| Base language of the org | Preferred UI language of the user | Expected behavior                                                                 |
 |--------------------------|-----------------------------------|-----------------------------------------------------------------------------------|
 | English                  | English                           | Output in English                                                                 |
-| English or non-English   | One of the supported non-English languages | Output in the non-English language                                                |
-| English or non-English   | An unsupported language     | Not a supported scenario and the output is unpredictable. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
+| English or non-English   | One of the supported non-English languages | Output in the preferred UI language of the user.                                                |
+| English or non-English   | An unsupported language     | Output is unpredictable as the language is supported. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
 
 We are continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
 
