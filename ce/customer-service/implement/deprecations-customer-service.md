@@ -29,7 +29,7 @@ Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Des
 
 ## WeChat, SMS (Telesign), Telegram custom messaging, and Kik custom messaging channels are deprecated and removed
 
-The following channels are deprecated and and were removed in Omnichannel for Customer Service on October 8, 2024:
+The following channels are deprecated and were removed in Omnichannel for Customer Service on October 8, 2024:
 
 - WeChat
 - SMS (Telesign)
