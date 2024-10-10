@@ -44,7 +44,7 @@ Before you set up the offline profile, consider these important guidelines:
 
 Keep these limitations in mind when you set up the offline profile:
 
-- [Field Mapping](power-apps/maker/data-platform/map-entity-fields) is not supported in offline mode.
+- [Field Mapping](/power-apps/maker/data-platform/map-entity-fields) is not supported in offline mode.
 
 - Records that are created on the device in offline mode and don't meet filter conditions aren't synced until they meet the conditions.
 
@@ -62,7 +62,7 @@ Keep these limitations in mind when you set up the offline profile:
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-capabilities#limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
-- The **Export to PDF** option is not available while the application is in offline mode. Additional options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
+- The **Export to PDF** option is not available while the application is in offline mode. Additional options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
 
 ## Next steps
 

@@ -84,7 +84,7 @@ sections:
             1. Select the menu icon in the upper-left corner, and set **Show non-production apps** to **Yes**. The list shows production apps by default, and you might be using a trial or sandbox app. 
             2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service mobile app. If you're using a custom security role, ensure role has access to the app module. 
             3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
-            4. Check that the [app module in Dynamics 365](/mobile/custom-app-module-mobile#make-the-custom-app-module-available-in-the-mobile-app) has the **Primary Player** set as *Field Service (Dynamics 365)*. 
+            4. Check that the [app module in Dynamics 365](custom-app-module-mobile#make-the-custom-app-module-available-in-the-mobile-app) has the **Primary Player** set as *Field Service (Dynamics 365)*. 
           
             If completing these steps doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
 
@@ -160,7 +160,7 @@ sections:
       - question:  Why aren't booking status time calculations (updates to Start, Arrival, and End Times) working?
         answer: |
          There are two common reasons that out of the box time and travel calculations are not updated on the mobile application.
-         1. If using a custom app module, default business logic is not maintained. See [Add a custom app module to the Field Service mobile app](/mobile/custom-app-module-mobile#make-the-custom-app-module-available-in-the-mobile-app).
+         1. If using a custom app module, default business logic is not maintained. See [Add a custom app module to the Field Service mobile app](custom-app-module-mobile.md#make-the-custom-app-module-available-in-the-mobile-app).
          2. If a required time field, such as start or end time has been removed from the booking form, the logic to update these fields won't run properly.
     
          
