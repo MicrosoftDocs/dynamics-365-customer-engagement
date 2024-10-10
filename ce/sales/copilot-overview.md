@@ -119,7 +119,7 @@ Copilot takes into account the [user's preferred UI language](/dynamics365/proje
 |--------------------------|-----------------------------------|-----------------------------------------------------------------------------------|
 | English                  | English                           | Output in English                                                                 |
 | English or non-English   | One of the supported non-English languages | Output in the preferred UI language of the user.                                                |
-| English or non-English   | An unsupported language     | Output is unpredictable as the language is supported. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
+| English or non-English   | An unsupported language     | Output is unpredictable as the language is unsupported. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
 
 We are continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
 
