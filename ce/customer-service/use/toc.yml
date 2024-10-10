@@ -249,15 +249,13 @@
         - name: Overview of SMS channels
           href: sms-channel-overview.md
         - name: Use SMS channel
-          href: sms-telesign-twilio.md
+          href: sms-twilio.md
         - name: Use Facebook channel
           href: facebook.md
         - name: Use WhatsApp channel
           href: whatsapp.md
         - name: Use Microsoft Teams channel
           href: teams-channel.md
-        - name: Use WeChat channel
-          href: wechat-channel.md
         - name: View social profiles
           href: supported-channels-social-profiles.md  
       - name: Agent productivity tools
