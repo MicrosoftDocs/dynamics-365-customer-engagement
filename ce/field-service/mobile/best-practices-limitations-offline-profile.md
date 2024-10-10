@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 08/28/2024
+ms.date: 10/10/2024
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -44,7 +44,7 @@ Before you set up the offline profile, consider these important guidelines:
 
 Keep these limitations in mind when you set up the offline profile:
 
-- [Field Mapping](power-apps/maker/data-platform/map-entity-fields) is not supported in Offline mode. 
+- [Field Mapping](power-apps/maker/data-platform/map-entity-fields) is not supported in offline mode.
 
 - Records that are created on the device in offline mode and don't meet filter conditions aren't synced until they meet the conditions.
 
@@ -62,7 +62,7 @@ Keep these limitations in mind when you set up the offline profile:
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-capabilities#limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
-- "Export to PDF" command bar option is not available while the application is enabled for offline mode.  Additional command bar options may be hidden while in offline mode, or without device connectivity. See [Ribbon and Command Bar Button is Hidden](/power-apps/create-and-use-apps/ribbon-issues-button-hidden)
+- The **Export to PDF** option is not available while the application is in offline mode. Additional options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
 
 ## Next steps
 
