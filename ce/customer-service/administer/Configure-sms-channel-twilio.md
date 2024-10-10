@@ -124,7 +124,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Delete a configured channel](delete-channel.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
-[Configure SMS channel using TeleSign](configure-sms-channel.md)	
 [SMS FAQ](faqs.md#sms)  
 
 
