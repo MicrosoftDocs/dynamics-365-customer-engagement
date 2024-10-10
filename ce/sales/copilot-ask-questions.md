@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 07/02/2024
+ms.date: 10/10/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -41,7 +41,10 @@ Hover over a record in the list and select **Get updates** to view all changes t
 
 ## What's newly assigned to me
 
-Copilot can help you stay on top of your pipeline by showing you a list of accounts, leads, and opportunities that were assigned to you in the last 15 days.
+Copilot can help you stay on top of your assignments by listing the accounts, leads, and opportunities that meet the following conditions:
+
+- Records that were created and assigned to you in the last 15 days.
+- Records that don't have any activity (emails, calls, or appointments) so far.
 
 [Open Copilot](use-sales-copilot.md#open-copilot), select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::), select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
 

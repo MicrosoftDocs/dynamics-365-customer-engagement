@@ -104,10 +104,25 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 ## Region availability and languages supported
 
-Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). 
+Copilot in Dynamics 365 Sales is available in vregions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](#how-to-use-the-copilot-international-availability-report).
 
-You can filter the report by product name, region, and language to know whether a Copilot feature is available in your specific region and language. Alternatively, you can use the report to get a list of Copilot features available in your preferred region and language. The following screenshot illustrates Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
+Copilot takes into account the [user's preferred UI language](/dynamics365/project-operations/environment/language-localization) and localizes responses based on that. Depending on the user's preferred UI language, org language, and languages supported for a specific Copilot feature, the responses are localized accordingly. The following table summarizes the expected behavior in different scenarios:
+
+| Base Language of the org | Preferred UI Language of the user | Expected Behavior                                                                 |
+|--------------------------|-----------------------------------|-----------------------------------------------------------------------------------|
+| English                  | English                           | Output in English                                                                 |
+| English or non-English   | One of the supported non-English languages | Output in the non-English language                                                |
+| English or non-English   | An unsupported language     | Not a supported scenario and the output is unpredictable. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
+
+We are continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
+
+### How to use the Copilot international availability report
+
+The [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport) includes information about the availability of Copilot in Dynamics 365 Sales features in different regions and languages.
+
+You can filter the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport) by product name, region, and language to know whether a Copilot feature is available in your specific region and language. Alternatively, you can use the report to get a list of Copilot features available in your region and preferred language. The following screenshot illustrates Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
 
 :::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
 
 The **Release Wave** column indicates the release wave in which the support is available.
+
