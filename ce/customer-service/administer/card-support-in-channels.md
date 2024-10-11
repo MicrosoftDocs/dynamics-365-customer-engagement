@@ -83,28 +83,28 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 | Channel            | Emoji behavior                                                      |
 |--------------------|---------------------------------------------------------------------|
-| Microsoft Teams    | Yes. Emoji in PNG format                                            |
-| Apple Messages for Business | Yes. Emoji in text like “😀”                              |
-| Facebook           | Yes. Emoji in text like “😀”                                       |
+| Microsoft Teams    | Yes. Emoji in PNG format.                                            |
+| Apple Messages for Business | Yes. Emoji in text, like "😀".                             |
+| Facebook           | Yes. Emoji in text, like "😀".                                     |
 | LINE               | Yes. When an emoji is sent, the recipient sees a sticker.           |
-| WhatsApp (Twilio)           | Not supported.                                                      |
-| WhatsApp  (Azure Communication Services)       | Yes. Emoji in text like “😀”                                                       |
-| SMS (Twilio)       | Yes. Emoji in text like “😀”                                       |
-| Custom messaging (Direct Line) | Yes. Emoji in text like “😀”                           |
+| WhatsApp (Twilio)           | Not supported.                                             |
+| WhatsApp  (Azure Communication Services)       | Yes. Emoji in text, like "😀".          |
+| SMS (Twilio)       | Yes. Emoji in text, like "😀".                                      |
+| Custom messaging (Direct Line) | Yes. Emoji in text, like "😀".                          |
 
 > [!NOTE]
 > The custom channels that use Direct Line support emojis, but it's up to the client to implement them. 
 
 ## Support for stickers
 
-| Channel            | Sticker behavior                                                    |
-|--------------------|---------------------------------------------------------------------|
-| Microsoft Teams    | Not supported.                                                      |
-| Apple Messages for Business | Not supported.                                             |
-| Facebook           | Yes, as a PNG image.                                                |
-| LINE               | Not supported. Recipient sees "Sticker" text.                       |
-| WhatsApp (Twilio and Azure Communication Sevices)           | Not supported.             |                                         |
-| Custom messaging (Direct Line) | Yes, as sticker image.                                  |
+| Channel            | Sticker behavior   
+|--------------------|---------------------|
+| Microsoft Teams    | Not supported.  |
+| Apple Messages for Business | Not supported.  |
+| Facebook           | Yes, as a PNG image.     |
+| LINE               | Not supported. Recipient sees "Sticker" text.       |
+| WhatsApp (Twilio and Azure Communication Services)           | Not supported.       | 
+| Custom messaging (Direct Line) | Yes, as sticker image.     |
 
 > [!NOTE]
 > The custom channels that use Direct Line support stickers, but it's up to the client to implement them.
