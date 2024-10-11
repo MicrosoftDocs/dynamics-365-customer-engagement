@@ -3,7 +3,7 @@ title: "Limitations when customizing Dynamics 365 App for Outlook (Dynamics 365 
 ms.custom: 
 ms.date: 05/20/2021
 description: When customizing the app you make run into these limitations.
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started

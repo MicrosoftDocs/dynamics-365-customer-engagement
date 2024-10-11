@@ -3,7 +3,7 @@ title: "Customize the track regarding contact card in Dynamics 365 App for Outlo
 ms.custom:
 description: How to modify the App for Outlook Contact Card form.
 ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

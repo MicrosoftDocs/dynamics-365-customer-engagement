@@ -3,7 +3,7 @@ title: "Insert sales literature or a knowledge base article to email message usi
 description: How to insert sales literature or a knowledge base article in an email
 ms.custom: 
 ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
