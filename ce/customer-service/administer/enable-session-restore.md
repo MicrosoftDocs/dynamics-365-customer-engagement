@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 10/02/2024 
+ms.date: 10/11/2024 
 ms.custom: bap-template 
 ---
 
@@ -21,6 +21,7 @@ As an administrator, you can enable session restore, which automatically restore
 
 Keep in mind the following considerations before you enable the session restore feature. 
 
+- When there are multiple browser sessions or tabs, the system won't restore the session properly for channel-specific sessions, such as chat, voice, and so forth.
 - The order of session tabs might change.
 - When there are multiple browser sessions or tabs, the system restores only the latest updated browser tab or session.
 - Cross-browser restoration, such as from Microsoft Edge to Google Chrome, isn't supported.
