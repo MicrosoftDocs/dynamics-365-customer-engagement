@@ -12,29 +12,23 @@ ms.custom: bap-template
 
 Write a knowledge article to share information with technicians. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles
 
-For more information on knowledge articles, go to:
-
-- [Create and manage knowledge articles](../customer-service/use/customer-service-hub-user-guide-knowledge-article.md)
-- [Create templates for knowledge articles](../customer-service/use/create-templates-knowledge-article.md)
-- [Set up a search provider](../customer-service/administer/set-up-search-providers.md)
-
-:::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
-
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles** and select **New** or **New From Template**.
- 
+   :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
+
 1. On the **Content** tab, **Article Content** section, fill in the following details:  
   
    - **Title**: Type a descriptive title that communicates the subject and purpose of the article in a concise manner.  
-  
-   - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas. 
-
+   - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas.
    - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
-   
-1. In the **CONTENT** section, add the content for your knowledge article.  
-  
-1. Add text, pictures, and videos to the knowledge article.
 
-1. **Save and publish** the knowledge article.
+1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [Designer](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
+
+1. **Save** the knowledge article.
+1. Determine the next step:
+
+   - If you want someone to review the article for accuracy before making it available to others, select **Status Reason** and select **Needs review**. You can **Assign** it to the reviewer or **Share** the link with a group of reviewers.
+   - If the article is ready for use, publish the article.
+   - If you have more changes for the article, select **Save & Close**.
 
 ## Link knowledge articles to related entities
 
