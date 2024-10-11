@@ -3,7 +3,7 @@ title: "Link and track an email or appointment to a specific row in your app (Dy
 ms.custom: 
 description: Use set regarding in Dynamics 365 App for Outlook to link an email message or meeting to a specific row in your Dynamics 365 app.
 ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
