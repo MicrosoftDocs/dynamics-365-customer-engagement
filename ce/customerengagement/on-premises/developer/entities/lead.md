@@ -224,7 +224,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Type the city for the primary address.|
-|DisplayName|City|
+|DisplayName|Address 1: City|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -240,7 +240,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Type the country or region for the primary address.|
-|DisplayName|Country/Region|
+|DisplayName|Address 1: Country/Region|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|

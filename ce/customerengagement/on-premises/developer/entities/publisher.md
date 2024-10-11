@@ -138,7 +138,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|City name for address 1.|
-|DisplayName|City|
+|DisplayName|Address 1: City|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
@@ -154,7 +154,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|Country/region name for address 1.|
-|DisplayName|Country/Region|
+|DisplayName|Address 1: Country/Region|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|True|
