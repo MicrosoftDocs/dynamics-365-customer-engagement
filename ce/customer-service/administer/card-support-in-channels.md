@@ -113,21 +113,21 @@ You can enable file attachments on the **General settings** tab of a channel so 
 
 Agents can use basic formatting capabilities in their outbound messages across both asynchronous and live chat channels. However, for your agents to send and receive formatted messages, you must [enable formatted messages](enable-formatted-messages.md).
 
-The following table lists the text styles supported by Microsoft Teams, Facebook, WhatsApp, and custom channels that use Direct Line.
+The following table list the text styles that are supported by Microsoft Teams, Facebook, WhatsApp, and custom channels that use Direct Line.
 
 | Style                | Live chat  | Microsoft Teams | Facebook  | WhatsApp (Twilio) | WhatsApp (Azure Communication Services)| Custom messaging (Direct Line) |
 |----------------------| ---------- | -------------   | -------- |---------|------------------|
-| bold                 | ✔          | ✔              | ✔        |✔       |✔                             | ✔                             |
-| italics              | ✔          | ✔              | ✔        |✔       |✔                             | ✔                             |
-| strikethrough        | ✔          | ✔              | ✔        |✔       |✔                             | ✔                             |
-| blockquote           | ✔          | ✔              | ✖        |✖       |✖                             | ✔                             |
-| monospace            | ✔          | ✔              | ✔        |✔       |✖                             | ✔                             |
-| hyperlink with text  | ✔          | ✔              | ✖        |✖       |✖                             | ✔                             |
-| hyperlink            | ✔          | ✔              | ✔        |✔       |✖                             | ✔                             |
-| new line             | ✔          | ✔              | ✔        |✔       | ✖                            | ✔                             |
-| headers              | ✔          | ✔              | ✖        |✖       |✖                             | ✔                             |
-| numbered list        | ✔          | ✔              | ✖        |✖       | ✖                            | ✔                             |
-| unordered list       | ✔          | ✔              | ✖        |✖       |✖                             | ✔                             |
+| bold                 | Yes          | Yes              | Yes        | Yes       | Yes                 | Yes                             |
+| italics              | Yes          | Yes              | Yes        | Yes       | Yes                 | Yes                             |
+| strikethrough        | Yes          | Yes              | Yes        | Yes       | Yes                 | Yes                             |
+| blockquote           | Yes          | Yes              | No         | No        | No                  | Yes                             |
+| monospace            | Yes          | Yes              | Yes        | Yes       | No                  | Yes                             |
+| hyperlink with text  | Yes          | Yes              | No         | No        | No                  | Yes                             |
+| hyperlink            | Yes          | Yes              | Yes        | Yes       | No                  | Yes                             |
+| new line             | Yes          | Yes              | Yes        | Yes       | No                  | Yes                             |
+| headers              | Yes          | Yes              | No         | No        | No                  | Yes                             |
+| numbered list        | Yes          | Yes              | No         | No        | No                  | Yes                             |
+| unordered list       | Yes          | Yes              | No         | No        | No                  | Yes                             |
 
 > [!NOTE]
 > - Apple Messages for Business and SMS channels don't support formatted messages.
