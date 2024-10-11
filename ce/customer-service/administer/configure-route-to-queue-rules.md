@@ -46,7 +46,7 @@ When you configure this feature, the system picks a queue from the available lis
 
 1. In **Conditions**, define the set of conditions. If you're creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
 
-1. In **Route to queues**, select the queue to which the work items is routed if the conditions are met.
+1. In **Route to queues**, select the queue to which the work items are routed if the conditions are met.
 
 1. To configure percent allocation, select **Add queue** and do the following:
 
