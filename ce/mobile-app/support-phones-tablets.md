@@ -3,7 +3,7 @@ title: Support for Dynamics 365 for phones and Dynamics 365 for tablets
 description: Learn about support for Dynamics 365 for phones and tablets.
 ms.custom:
 ms.date: 10/03/2024
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
@@ -11,8 +11,8 @@ ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 136
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer

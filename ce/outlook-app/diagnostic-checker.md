@@ -3,14 +3,14 @@ title: "Check for issues using the Outlook Checker for Dynamics 365 App for Outl
 description: How to run the Outlook Checker to run a diagnostic check. 
 ms.custom: 
 ms.date: 06/27/2023
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd5100-b4ed-4959-9acb-cd0a1dbbb6d6
 caps.latest.revision: 1
-author: sericks007
+author: sidhartg
 ms.author: sericks
 search.audienceType: 
   - admin
