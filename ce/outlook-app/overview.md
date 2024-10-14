@@ -3,7 +3,7 @@ title: "Dynamics 365 App for Outlook Overview (Dynamics 365 apps) | MicrosoftDoc
 ms.custom: 
 description: Dynamics 365 App for Outlook Overview.
 ms.date: 12/14/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: overview

@@ -3,7 +3,7 @@ title: "Deploy Microsoft Dynamics 365 for Outlook by using Group Policy | Micros
 description: Learn how to use Group Policy to deploy Microsoft Dynamics 365 for Outlook installations to a userbase.
 ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,7 +12,7 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: 9e0b3f19-c041-4cab-a620-339f0d1d8674
 caps.latest.revision: 35
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin
