@@ -45,7 +45,7 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, you must complete the following prerequisites:
 
-- Your organization must have the Microsoft Fabric Capacity for all report users to access the report.
+- Your organization must have the Microsoft Fabric Capacity for all report users to access the reports. Learn more in [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview).
 - Your organization must have the Power BI Premium per user license for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model.
 
 - Enable insights features in Customer Service:
