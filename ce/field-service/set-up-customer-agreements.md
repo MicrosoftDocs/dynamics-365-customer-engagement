@@ -142,7 +142,7 @@ After your organization's process for manager review and customer acceptance, th
 
    :::image type="content" source="media/agreement-active-booking-dates.svg" alt-text="Screenshot of the agreement booking setup, showing the booking dates.":::
 
-Initially, each generated **Booking Date** has a status of *Active*. As time approaches the booking dates, work orders are generated based on the **Generate Work Orders Days in Advance** field. The booking date status changes to **Processed** and a lookup to the generated work order appears.
+Initially, each generated **Booking Date** has a status of *Active*. As time approaches the booking dates, work orders are generated based on the **Generate Work Orders Days in Advance** field. The booking date status changes to *Processed* and a lookup to the generated work order appears.
 
 If you set **Auto Generate Work Orders** to **No**, you can manually generate work orders for each booking date. For unique business cases where you must generate a work order earlier than defined, you can generate one manually. Open a booking date and select **Generate Work Order**.
 
