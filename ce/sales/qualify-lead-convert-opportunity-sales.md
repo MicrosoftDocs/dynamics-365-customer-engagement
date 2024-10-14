@@ -1,5 +1,5 @@
 ---
-title: Qualify and convert leads to opportunity
+title: Qualify and convert a lead to opportunity
 description: Qualify leads in the Sales app to create corresponding accounts and opportunities, and disqualify leads when they don't turn into an opportunity.
 ms.date: 08/12/2024
 ms.topic: how-to
@@ -20,7 +20,7 @@ searchScope:
   - Sales
 ---
 
-# Qualify and convert leads to opportunity
+# Qualify and convert a lead to opportunity
 
 After you identify the timeframe, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify the lead to keep a record of the sales process.
 
@@ -63,7 +63,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 - If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You see a **Processing** message while the records are being created. After the records are created, the opportunity record opens.
 
-- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record.
+- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record. For the account record, the **Create new** option is only available when the Company name is filled out in the lead record.
 
 - If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the following screenshot:
 
