@@ -56,10 +56,8 @@ If you chose the full copy option, it can take up to an hour for the data to app
     - [Configure a LINE channel](../administer/configure-line-channel.md)
     - [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md)
     - [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
-    - [Configure a WeChat channel](../administer/configure-wechat-channel.md)
     - [Configure a custom channel](../develop/bring-your-own-channel.md)
     - [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)
-    - [Configure an SMS channel for TeleSign](../administer/configure-sms-channel.md)
     - [Configure an SMS channel for Twilio](../administer/configure-sms-channel-twilio.md)
 
 ## Configure Copilot Studio bots in the target environment

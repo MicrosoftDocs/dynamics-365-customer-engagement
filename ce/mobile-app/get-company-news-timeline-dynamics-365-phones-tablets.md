@@ -3,7 +3,7 @@ title: "Company News Timeline for Dynamics 365 for phones and tablets | Microsof
 description: Learn about Company News Timeline for Dynamics 365 for phones and tablets
 ms.custom: dyn365-mobile-app
 ms.date: 09/10/2020
-ms.reviewer: 
+ms.reviewer: smurkute 
 ms.service: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -11,8 +11,8 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 8acc32c3-9948-403d-9fe0-df7589a32149
 caps.latest.revision: 8
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType: 
   - admin
   - customizer
