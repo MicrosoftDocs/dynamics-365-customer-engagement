@@ -3,7 +3,7 @@ title: "Track your Outlook contacts using App for Outlook (Dynamics 365 apps) | 
 description: Track your Outlook contacts using App for Outlook.
 ms.custom: 
 ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

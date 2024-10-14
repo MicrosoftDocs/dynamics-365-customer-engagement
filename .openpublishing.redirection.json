@@ -1,5 +1,20 @@
 {
   "redirections": [
+     {
+           "source_path": "ce/mobile-app/secure-manage-phones-tablets.md",
+           "redirect_url": "/power-apps/mobile/intune",
+           "redirect_document_id": "false"
+        },
+    {
+           "source_path": "ce/mobile-app/migration.md",
+           "redirect_url": "/power-apps/mobile/use-custom-model-driven-app-on-mobile",
+           "redirect_document_id": "false"
+        },
+        {
+           "source_path": "ce/mobile-app/user-guide-mobile-app.md",
+           "redirect_url": "/dynamics365/mobile-app/overview",
+           "redirect_document_id": "false"
+        },
     {
       "source_path": "ce/linkedin/add-sales-navigator-controls-forms.md",
       "redirect_url": "/dynamics365/sales/linkedin/add-sales-navigator-controls-forms",
@@ -33187,6 +33202,26 @@
       "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
       "redirect_document_id": false
     },  
-
+    {
+      "source_path": "ce/customer-service/administer/configure-sms-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "ce/customer-service/administer/configure-wechat-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/sms-telesign-twilio.md",
+      "redirect_url": "/dynamics365/customer-service/use/sms-twilio.md",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/wechat-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels.md",
+      "redirect_document_id": false
+    },
+    
   ]
 }

@@ -6,23 +6,13 @@
     href: support-phones-tablets.md
   - name: Set up mobile app
     href: set-up-dynamics-365-for-phones-and-dynamics-365-for-tablets.md
-  - name: Manage and secure devices
-    href: secure-manage-phones-tablets.md
 - name: Install the mobile app
   items:
   - name: Install Dynamics 365 for phones and tablets
     href: install-dynamics-365-for-phones-and-tablets.md
-  - name: Migrate to the Power Apps mobile app
-    href: migration.md
-- name: User Guide
-  items:
-  - name: Basic navigation in Dynamics 365 for phones and tablets
-    href: user-guide-mobile-app.md
 - name: Troubleshoot
   items:
   - name: Get session ID and logs to help troubleshoot your issue
     href: logs-session-id.md
   - name: Common issues and resolutions
     href: troubleshooting-things-know-about-phones-tablets.md
-- name: Older version (8.x)
-  href: /previous-versions/dynamicscrm-2016/mobile-app/v8/about-this-content
