@@ -21,14 +21,15 @@ Write a knowledge article to share information with technicians. Add images and 
    - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas.
    - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
 
-1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [Designer](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
+1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [text editor](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
 
 1. **Save** the knowledge article.
 1. Determine the next step:
-
-   - If you want someone to review the article for accuracy before making it available to others, select **Status Reason** and select **Needs review**. You can **Assign** it to the reviewer or **Share** the link with a group of reviewers.
-   - If the article is ready for use, publish the article.
-   - If you have more changes for the article, select **Save & Close**.
+    - Mark it for review: Select **Status Reason** and select **Needs review**. You can **Assign** it to the reviewer or **Share** the link with a group of reviewers.
+    - [Translate the article](field-service-km-translate.md).
+    - [Publish the article](field-service-km-publish.md).
+    - [Link the article to an entity](#link-knowledge-articles-to-related-entities)
+    - **Save & Close**.
 
 ## Link knowledge articles to related entities
 
@@ -36,7 +37,7 @@ Create relationships between knowledge articles and other records, like incident
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
 
-1. Select an article. On the **Summary** tab, in the **Related Information** section, select the target entity for the relationship.
+1. Select an article. On the **Summary** tab, in the **Related Information** section, select the target entity icon for the relationship. For example, customer asset.
 
 1. Select the vertical ellipsis &vellip; and choose **Add Existing Customer Asset**.
 
