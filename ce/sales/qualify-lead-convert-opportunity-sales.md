@@ -65,7 +65,7 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 - If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record. 
   > [!NOTE]
-  > For the account record, the **Create new** option is only available when the **Company name** is filled out in the lead record.
+  > For the account record, the **Create new** option is only available when the **Company name** is filled in the lead record.
 
 - If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the following screenshot:
 
