@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 06/21/2024
+ms.date: 10/14/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -29,7 +29,9 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
 ## Prerequisites
 
-To edit analytics reports, users must have the **Analytics Report Author** role. [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
+To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
+
+You don't require a Power BI license to edit the out-of-the-box Power BI reports in Dynamics 365.
 
 ## Customize the display of analytics reports
 
