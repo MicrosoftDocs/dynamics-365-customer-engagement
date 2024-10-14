@@ -13,9 +13,9 @@ Customer agreements contain predefined details to generate work orders and invoi
 To use agreements, perform the following steps:  
 
 1. Create the **Agreement** where you define high-level details such as the customer, date range, and price list.
-1. Create an **Agreement Booking Setup** where you define how often work orders should be created for the agreement, along with basic details of the eventual work orders like **Work Order Type**.
-1. Add **Agreement Incidents**, **Products**, **Services**, and **Service Tasks** to define the specific details of the work performed in each generated work order. 
-1. **Activate** the agreement and **Agreement Booking Dates** are created along with work orders as the dates approach.
+1. To automatically generate work orders, create an **Agreement Booking Setup** (ABS) where you define how often work orders should be created (the *Booking Recurrence*) for the agreement, along with basic details of the eventual work orders like **Work Order Type**. Alternatively, if you would like to generate invoices for this agreement, create an **Agreement Invoice Setup** (AIS) where you define the *Invoice Recurrence* and other details for the invoices to be generated. You can also create an ABS and an AIS on the same agreement.
+1. On ABS, you can add **Agreement Incidents**, **Products**, **Services**, and **Service Tasks** to define the specific details of the work performed in each generated work order. On AIS, add **Invoice Products** to be included on each generated invoice.
+1. **Activate** the agreement and **Agreement Booking Dates** are created along with work orders as the dates approach. Based on your recurrence pattern on your ABS and how many months in advance you are set to generate Agreement Booking Dates (ABD), you can see some ABDs being generated. Initially, these ABDs have a status of Active. Similarly, based on your recurrence pattern on your AIS and how many months in advance you generate Agreement Invoice Dates (AID), you might see some AIDs being generated. Initially, these AIDs would have an Invoice Status of Scheduled. As their respective dates approach, and based on your settings, each ABD will generate a work order, and each AID an invoice.
 
 This article covers two scenarios to show how agreements can generate work orders and invoices.
 
@@ -142,7 +142,7 @@ After your organization's process for manager review and customer acceptance, th
 
    :::image type="content" source="media/agreement-active-booking-dates.svg" alt-text="Screenshot of the agreement booking setup, showing the booking dates.":::
 
-As time approaches the booking dates, work orders are generated based on the **Generate Work Orders Days in Advance** field. The booking date status changes to **Processed** and a lookup to the generated work order appears.
+Initially, each generated **Booking Date** has a status of *Active*. As time approaches the booking dates, work orders are generated based on the **Generate Work Orders Days in Advance** field. The booking date status changes to **Processed** and a lookup to the generated work order appears.
 
 If you set **Auto Generate Work Orders** to **No**, you can manually generate work orders for each booking date. For unique business cases where you must generate a work order earlier than defined, you can generate one manually. Open a booking date and select **Generate Work Order**.
 
@@ -211,7 +211,7 @@ In this example, quarterly invoices are added to the existing agreement.
 
 Because this agreement is already active, the invoice dates generate after a short time but not immediately. If you added an agreement invoice setup to a new agreement or an existing one that has an **Estimate** status, then activate the agreement.
 
-To view the invoice dates, select **Related** > **Invoice Dates**.
+To view the invoice dates, select **Related** > **Invoice Dates**. Initially, all generated invoice dates have an **Invoice status** of *Scheduled*. Once they each generate the invoice, their status changes to *Processed*.
 
 :::image type="content" source="media/agreement-invoice-dates-generated.svg" alt-text="Screenshot of the agreement invoice setup, showing a list of invoice dates.":::
 
