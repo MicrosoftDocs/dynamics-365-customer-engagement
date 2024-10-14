@@ -31,7 +31,7 @@ Create an inspection that can be reused and added to multiple work orders. We do
 
 1. In Field Service, change to the **Settings** area.
 
-1. Go to **Work Orders** > **Inspection Templates** and select **New**.
+1. Go to **Work Orders** > **Inspection Templates** and select **New**. To create an inspection from an existing PDF or image with the help of Copilot in Field Service, see [Create inspections with Copilot](inspections-copilot.md).
 
    :::image type="content" source="./media/inspections-create.png" alt-text="Screenshot of a new inspection template.":::
 
