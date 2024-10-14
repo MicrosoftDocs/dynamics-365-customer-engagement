@@ -76,8 +76,11 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
     Create a client secrete for this new app and [modify the app registration to create a client secret](/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately).
     
       :::image type="content" source="media/SSS_Image1.png" alt-text="Upload the deployment profile.":::
+
+    > [!NOTE]
+    > The new App configred above is only needed for the setup and the new API permissions / the app can be removed once all the setup steps are completed. 
      
-5. In the powershell session from step 2, invoke below **ConfigureCrmServerSideSync** command.                     
+4. In the powershell session from step 2, invoke below **ConfigureCrmServerSideSync** command.                     
 
     [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 
