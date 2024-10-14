@@ -26,7 +26,7 @@ Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-tex
 > - Sentiment and AI insights are optional for the voice functionality.
 > - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../../customer-service/implement/csw-overview.md).
 
-See the information in the following table to kxw about the supported languages and locale codes.
+See the information in the following table to know about the supported languages and locale codes.
 
 | Language | Locale code | Voice channel | Copilot Studio | IVR | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
@@ -60,10 +60,10 @@ See the information in the following table to kxw about the supported languages 
 | Bosnian (Latin) | `bs` |No|No|No|No|No|No|No|No|
 | Bulgarian | `bg-BGC UI` |Yes|No|No|Yes|Yes|Yes|No|Yes|
 | Burmese - Myanmar| `my-MM` |No|No|No|No|No|No|No|No|
-| Catalan | `ca` |Yes|No|No|Yes|Yes|Yes|Yes|No|Yes|
-| Chinese - China - Mandarin| `zh-CN` |Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Catalan | `ca` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Chinese - China - Mandarin| `zh-CN` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
 | Chinese - Hong Kong SAR - Cantonese | `zh-HK` |Yes|No|No|Yes|Yes|Yes|No|Yes|
-| Chinese - Taiwan - Traditional | `zh-TW` |No|No|No|Yes|Yes|Yes|No|Yes|
+| Chinese - Taiwan - Traditional | `zh-TW` |Yes|No|No|Yes|Yes|Yes|No|Yes|
 | Chinese - Literary | `lzh` |No|No|No|No|No|No|No|No|
 | Croatian - Croatia | `hr-HR` |Yes|No|No|Yes|Yes|Yes|No|Yes|
 | Czech - Czech Republic | `cs-CZ` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
@@ -120,7 +120,7 @@ See the information in the following table to kxw about the supported languages 
 | Khmer - Cambodia | `km-KH` |No|No|No|No|No|No|No|No|
 | Klingon | `tlh-` |No|No|No|No|No|No|No|No|
 | Klingon (plqaD) | `tlh-Piqd` |No|No|No|No|No|No|No|No|
-| Korean - Korea | `ko-KR` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Korean - Korea | `ko-KR` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 | Kurdish (Central) | `ku` |No|No|No|No|No|No|No|No|
 | Kurdish (Northern) | `kmr` |No|No|No|No|No|No|No|No|
 | Kyrgyz | `ky` |No|No|No|No|No|No|No|No|
