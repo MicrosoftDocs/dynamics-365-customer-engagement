@@ -22,6 +22,14 @@ Digital transformation is real. Across every industry vertical, companies are re
 >[!NOTE]
 >The LinkedIn Sales Navigator solution is also available for Dynamics 365 Sales Professional.
 
+## Licensing requirements
+
+You need one of the following licenses to use the LinkedIn Sales Navigator solutions with Dynamics 365 Sales:
+
+- [Microsoft Relationship Sales subscription](https://dynamics.microsoft.com/sales/relationship-sales/) for Dynamics 365. Microsoft Relationship Sales (MRS) solution includes Dynamics Sales Enterprise and [LinkedIn Sales Navigator Advanced](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license.  
+
+- If you don't have MRS Solution or MRS Solution plus for LinkedIn Sales Navigator license, you need to sign up your team for [LinkedIn Sales Navigator Advanced](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) or [LinkedIn Sales Navigator Advanced Plus](https://business.linkedin.com/sales-solutions/sales-navigator-customer-hub/resources/crm) license.
+
 ## Unified Interface apps: Sales Navigator Controls for Unified Interface 
 
 Two flavors of [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator controls are available and [can be placed on any desktop Unified Interface application form](add-sales-navigator-controls-forms.md). You can configure your forms to show more than one control at the same time.  
