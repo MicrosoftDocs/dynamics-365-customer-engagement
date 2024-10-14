@@ -25,7 +25,7 @@ Dynamics 365 Customer Service provides out-of-the-box analytics reports that hel
 - Add new pivots and pages; for example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in Customer Service workspace. You can't customize unified routing and knowledge analytics reports.
+You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in Customer Service workspace or the Contact Center workspace. You can't customize unified routing and knowledge analytics reports.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ You don't require a Power BI license to edit the out-of-the-box Power BI reports
 
 ## Customize the display of analytics reports
 
-1. In Customer Service workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
+1. In Customer Service workspace or Contact Center workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
 
 1. Select **Edit report** to open the embedded Power BI editor.
 
