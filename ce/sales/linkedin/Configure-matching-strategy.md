@@ -1,7 +1,7 @@
 ---
 title: Create matching strategy to update existing LinkedIn leads
 description: Learn how to update existing LinkedIn leads with new form submission answers by creating, activating, editing, or deleting a lead matching strategy.
-ms.date: 09/25/2024
+ms.date: 10/14/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

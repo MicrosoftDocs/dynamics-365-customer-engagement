@@ -1,7 +1,7 @@
 ---
 title: Sync LinkedIn leads
 description: Learn how to set up the Dynamics 365 Connector for LinkedIn Lead Gen Forms to sync leads from sponsored LinkedIn campaigns to your Dynamics 365 apps.
-ms.date: 09/25/2024
+ms.date: 10/14/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr

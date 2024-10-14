@@ -1,7 +1,7 @@
 ---
 title: Install Dynamics 365 Connector for LinkedIn Lead Gen Forms
 description: Learn about the prerequisites and how you can install the LinkedIn Connector for your Dynamics 365 organization.
-ms.date: 09/25/2024
+ms.date: 10/14/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

@@ -1,7 +1,7 @@
 ---
 title: Connect Dynamics 365 Connector with LinkedIn
 description: Before you can sync leads to your organization, follow these steps to authorize the Dynamics 365 Connector for LinkedIn Lead Gen Forms to use LinkedIn data.
-ms.date: 09/25/2024
+ms.date: 10/14/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr

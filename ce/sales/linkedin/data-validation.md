@@ -1,7 +1,7 @@
 ---
 title: Data validation capabilities of LinkedIn Sales Navigator
 description: Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records.
-ms.date: 09/06/2024
+ms.date: 10/14/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
