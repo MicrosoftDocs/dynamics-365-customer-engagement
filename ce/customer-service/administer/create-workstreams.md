@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams.
-ms.date: 09/17/2024
+ms.date: 10/14/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -152,11 +152,11 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-The agent affinity feature ensures that work items are assigned to the agents based on their work history. Agent affinity ensures that conversations are automatically reassigned to the same agent, irrespective of the agent's capacity and presence. However, the automatic assignment is also based on the agent notification template settings.
+The agent affinity feature makes sure that work items are assigned to the agents based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same agent who handled the conversation previously, irrespective of the agent's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the agent affinity setting is overridden.
 
 The feature is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same agent who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the agent. This helps save the effort to reorient the agent or set the context about the customer issue again. 
 
-However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same agent. The agent can, however, choose to reject the assigned conversation via the notification pane.
+However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same agent. The agent can choose to reject the assigned conversation via the notification pane.
 
 > [!Note]
 > Agent affinity is applicable only for push type of work distribution.
