@@ -3,7 +3,7 @@ title: "Get session ID and logs to help troubleshoot your issue | MicrosoftDocs"
 ms.custom:
 description: Get logs and session ID to help troubleshoot your issue.
 ms.date: 06/05/2023
-ms.reviewer:
+ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
@@ -11,8 +11,8 @@ ms.topic: error-reference
 applies_to: Dynamics 365 apps
 ms.assetid: 55e7ba56-2f18-4eaf-8282-70cd639887f8
 caps.latest.revision: 1
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer

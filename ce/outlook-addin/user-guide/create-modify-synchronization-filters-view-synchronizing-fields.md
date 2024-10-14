@@ -3,7 +3,7 @@ title: "Create or modify synchronization filters or view synchronizing fields | 
 description: Learn how to create or modify synchronization filters or view synchronizing fields for Microsoft Dynamics 365 apps.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 1bb593b6-4795-4bed-8a5f-cf9e0c598262
 caps.latest.revision: 21
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin

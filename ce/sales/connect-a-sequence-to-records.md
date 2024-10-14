@@ -1,7 +1,7 @@
 ---
 title: Connect a sequence to records
 description: Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales.
-ms.date: 07/19/2024
+ms.date: 09/17/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -22,16 +22,8 @@ Also, you can connect multiple sequences to a record. More information: [Connect
 ## Connect multiple sequences to record
 
 To improve the customer engagement and collaboration when multiple team members work on a record, you can connect multiple sequences to that record. This helps in closing deals faster, and bringing better business results.  
-
-As a sales manager or seller, you can connect multiple sequences to a record in the following ways:
-
-- **Manually connect sequences**: By using the **Connect sequence** option on the record page, you can open the **Connect *record* to sequence** dialog and connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
-
-    More information: [Through the record type grid view](#through-the-record-type-grid-view). 
-
-- **Automatically connect sequences**: By using [segments](wa-connect-a-segment-to-sequence.md), you can connect the required sequences to a record. Segments allow you to define criteria for a group of records that qualify for a sequence. For example, you can create a segment for all the opportunities that have a high probability of closing in the next quarter. You can then associate a sequence to that segment, so that whenever a record meets the criteria, it automatically connects to the sequence. Also, you can associate multiple sequences to a segment, as long as there's no conflict in the sequence ownership. If there's a conflict, you can use the priority of segments to determine which sequence gets connected to the record.  
-
-  More information: [Create and activate a segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment).
+As a sales manager or seller, you can connect multiple sequences to a record manually. Select the **Connect sequence** option on the record page. In the **Connect *record* to sequence** dialog box, connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
+More information: [Through the record type grid view](#through-the-record-type-grid-view). 
 
 >[!NOTE]
 >When a segment is connected to the same sequence more than once for the same record and assigned to the same seller, the Up next widget displays duplicate activities.  

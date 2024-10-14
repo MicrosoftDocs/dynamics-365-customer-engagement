@@ -80,6 +80,8 @@ items:
       href: set-up-service-task-types.md
     - name: Agreement sub-statuses
       href: set-up-agreement-sub-statuses.md
+    - name: Service level agreements
+      href: sla-work-orders.md
     - name: Use Dataverse search
       href: search-dataverse-tables.md
     - name: Customer asset validation
@@ -288,6 +290,8 @@ items:
         href: schedule-assistant-advanced-filters.md
       - name: Search resource availability API
         href: search-resource-availability-api.md
+      - name: Search resource availability for requirement groups API
+        href: search-resource-availability-requirement-groups-api.md
   - name: Administration and configuration
     items:
       - name: Enable an entity for scheduling
@@ -601,7 +605,7 @@ items:
     href: mobile/mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
-  - name: New Field Service mobile experience (preview) troubleshooting
+  - name: New Field Service mobile experience troubleshooting
     href: mobile/troubleshooting-mobile-newux.md
 
 - name: Responsible AI

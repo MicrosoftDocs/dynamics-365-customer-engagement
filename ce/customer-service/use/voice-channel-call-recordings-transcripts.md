@@ -80,6 +80,6 @@ The **Sessions** tab displays details about the number of voice calls between th
 
 ### Related information
 
-[Agent experience of voice calls and agent dashboard](voice-channel-agent-experience.md)  
+[Agent experience of voice calls and agent dashboard](/dynamics365/contact-center/use/voice-channel-agent-experience)    
 [Call a customer](voice-channel-call-customer.md)  
 [View and understand call summary page in the Sales Hub app](../../sales/view-and-understand-call-summary-sales-app.md)  

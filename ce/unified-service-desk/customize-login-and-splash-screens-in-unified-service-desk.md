@@ -1,6 +1,6 @@
 ---
-title: "Customize login and splash screens in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to customize the branding of login and splash screens in Unified Service Desk by modifying XAML styles."
+title: "Customize sign in and splash screens in Unified Service Desk | MicrosoftDocs"
+description: "Learn how to customize the branding of sign in and splash screens in Unified Service Desk by modifying XAML styles."
 ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
@@ -75,13 +75,13 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
 3. If you haven't changed setter property values under a XAML style, remove the style block from the Notepad file.  
   
-    For example, if you just changed setter properties for `SplashAppNameStyle`, remove the other styles to prevent the settings under those styles being applied to your client application. See examples later in this topic.  
+    For example, if you just changed setter properties for `SplashAppNameStyle`, remove the other styles to prevent the settings under those styles being applied to your client application. See examples later in this article.  
   
 4. Save the file as "CustomerSplashStyles.xaml".  
   
 5. Copy the "CustomerSplashStyles.xaml" to the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client directory, typically "C:\Program Files\Microsoft Dynamics CRM USD\USD". You must have system administrator privileges to copy the file to the client directory.  
   
-6. If you are running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, restart it for the changes to take effect.  
+6. If you're running the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client, restart it for the changes to take effect.  
   
 <a name="Examples"></a>   
 ## Customization examples  
@@ -105,10 +105,6 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
   
 </ResourceDictionary>  
 ```  
-  
- This will be the customization outcome:  
-  
- ![Custom app name in the login screen.](../unified-service-desk/media/usd-loginscreencustomization.png "Custom app name in the login screen")  
   
 ### Change the application name and appearance of splash screen  
  Update the contents of the `CustomerSplashStyles.xaml` file to the following:  
@@ -140,7 +136,7 @@ You can customize the branding of [!INCLUDE[pn_unified_service_desk](../includes
 </ResourceDictionary>  
 ```  
   
- This will be the customization outcome:  
+ This is the customization outcome:  
   
  ![Custom splash screen.](../unified-service-desk/media/usd-customsplashscreen.png "Custom splash screen")  
   

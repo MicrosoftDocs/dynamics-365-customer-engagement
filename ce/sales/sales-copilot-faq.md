@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 09/16/2024
+ms.date: 10/04/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -28,7 +28,8 @@ The data included in the requests varies based on the type of request made. For 
 
 ## Is any of my data stored outside of Dynamics 365?
 
-No, we don't save any of your data in any new data store. You can read more about the [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy).
+
+No, we don't save any of your data in any new data store. Learn more about [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy). When you use Copilot in Dynamics 365 Sales for account news, Copilot sends the account name to Bing. For information on how Bing handles this data, see [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and [Microsoft Privacy Statement](https://www.microsoft.com/privacy/privacystatement).
 
 ## How does Copilot encrypt data?
 
@@ -58,7 +59,7 @@ Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 
-Copilot matches leads with contacts based on the lead name, phone number, email address, and company name. The matches are ordered based on the similarity of values in these fields. If you want Copilot to use other fields for matching, you can work with your administrator to [configure the Dataverse search fields](/power-platform/admin/configure-relevance-search-organization). 
+Copilot matches a lead with contacts only based on the lead's email address. The matches are ordered based last updated date of the contact record. You can't customize the matching fields.
 
 > [!NOTE]
 > The fields configured by your administrator will be used for all global search operations (Search box in the top navigation bar) in Dynamics 365.
@@ -134,9 +135,9 @@ Currently, you can't use your own templates with Copilot for email.
 
 Yes. You can provide inputs to adjust the length or tone of the email being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
 
-### What languages are supported by Copilot for email?  
+### Which languages are supported by Copilot for email?  
 
-Currently, only English is supported.
+We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ### Can I regenerate the system suggested draft?  
 
@@ -169,3 +170,9 @@ For information about the privacy policy or transparency, see [FAQ for Copilot d
 ### Does Copilot automatically send emails on my behalf?
 
 No. Copilot doesn't send the email automatically on your behalf. You have to review and send the email.
+
+## Related information
+
+[Use Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
+[Copilot in Dynamics 365 Sales overview](copilot-overview.md)  
+[Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)

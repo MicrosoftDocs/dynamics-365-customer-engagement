@@ -45,10 +45,6 @@ The **Favorites and Recently Used** sections provide quick access to your record
 - To pin an item as a favorite, from the list of **Recently Used** items, tap the pin. This will pin and move the item to favorites.
 
   ![Favorites and Recent items.](../media/Favs_3.png "Favorites and Recent items")
-  
-## Guide to use the mobile app 
-
-For more information on how to use the Dynamics 365 Customer Service mobile app, see [Basic navigation on Dynamics 365 for phones and tablets](../../mobile-app/user-guide-mobile-app.md).
 
 ### Related information  
  [Customer Service Hub user's guide](user-guide-customer-service-hub.md)

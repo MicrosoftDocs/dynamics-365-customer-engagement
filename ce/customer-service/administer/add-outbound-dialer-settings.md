@@ -1,5 +1,5 @@
 ---
-title: Enable agents to search for contacts and open records from outbound dialer (preview)
+title: Enable agents to search for contacts and open records from outbound dialer
 description: Enable agents to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
 author: gandhamm
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Enable agents to search for contacts and open records from outbound dialer (preview)
+# Enable agents to search for contacts and open records from outbound dialer 
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 

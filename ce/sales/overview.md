@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 02/07/2024
+ms.date: 10/04/2024
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -64,7 +64,7 @@ With your Dynamics 365 Sales Enterprise license, you can take advantage of Sales
 
 ### Microsoft Relationship Sales
 
-Microsoft Relationship Sales helps sales professionals build the relationships they need to harness the power of relationship selling. This license includes Sales Enterprise and LinkedIn Sales Navigator Advanced Plus. [Learn more about LinkedIn Sales Navigator](/linkedin/sales/).
+Microsoft Relationship Sales helps sales professionals build the relationships they need to harness the power of relationship selling. This license includes Sales Enterprise and LinkedIn Sales Navigator Advanced Plus. With this license, you can integrate [LinkedIn Sales Navigator with Dynamics 365 Sales](linkedin/integrate-sales-navigator.md) to get insights about your customers and [LinkedIn Sales Insights](understand-lsi-accounts-form.md) to import lead-related data from LinkedIn.  
 
 ### Dynamics 365 Sales Professional
 

@@ -37,8 +37,6 @@ Make sure that the following prerequisites are met:
       > [!NOTE]
       > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
 
-       :::image type="content" source="../media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
-
    1. Select **App features** under **Configure** section, and then select **bot**.
 
    1. Enter the bot ID from the omnichannel application, and then select **Save**.

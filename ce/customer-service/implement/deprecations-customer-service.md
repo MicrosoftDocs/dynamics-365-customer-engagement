@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 08/07/2024
+ms.date: 10/09/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -19,23 +19,6 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## WeChat, SMS (Telesign), Telegram custom messaging, and Kik custom messaging channels will be deprecated and removed in October 2024
-
-The following channels will be deprecated and removed in Omnichannel for Customer Service on October 8, 2024:
-
-- WeChat
-- SMS (Telesign)
-- Telegram custom messaging
-- Kik custom messaging
-
-After October 8, 2024, the channels will no longer be accessible for you or your customers in your Omnichannel for Customer Service environment. Alternative channel integration options are available. Contact Microsoft Support if you need help. 
-
-## Google's Business Messages channel is deprecated and removed as of July 2024
-
-The channel for Google's Business Messages in Omnichannel for Customer Service is deprecated and removed. Google previously announced that it would discontinue Business Messages on July 31, 2024.
-
-Alternative channel integration options are available. Contact Microsoft Support if you need help. 
-
 ## Diagnostics in unified routing is deprecated and will be removed in October 2024
 
 The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024, and will be removed on October 15, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
@@ -43,6 +26,23 @@ The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unifi
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
 Effective April 4, 2024, Omnichannel for Customer Service on Unified Service Desk is deprecated. Support is available until April 2025. The app will be removed from all environments by October 2025.
+
+## WeChat, SMS (Telesign), Telegram custom messaging, and Kik custom messaging channels are deprecated and removed
+
+The following channels are deprecated and were removed in Omnichannel for Customer Service on October 8, 2024:
+
+- WeChat
+- SMS (Telesign)
+- Telegram custom messaging
+- Kik custom messaging
+
+Alternative channel integration options are available. Contact Microsoft Support if you need help. 
+
+## Google's Business Messages channel is deprecated and removed
+
+The channel for Google's Business Messages in Omnichannel for Customer Service is deprecated and removed. Google previously announced that it would discontinue Business Messages on July 31, 2024.
+
+Alternative channel integration options are available. Contact Microsoft Support if you need help. 
 
 ## Microsoft Power BI template reports for Customer Service Analytics and Omnichannel Insights are deprecated
 
@@ -80,7 +80,7 @@ The setContextProvider method for authenticated chat is deprecated and no longer
 
 ## Support for some knowledge management entities is deprecated <a name="deprecatedkmentities"></a>
 
-The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier aren't supported as of October 1, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. More information: [Work with knowledge articles](../administer/work-knowledge-articles.md)
+The KbArticle, KbArticleComment, and KbArticleTemplate knowledge management entities that were deprecated earlier aren't supported as of October 1, 2021. We recommend that you use the newer KnowledgeArticle entity (introduced in CRM Online 2016 Update and Dynamics 365) for knowledge management in Dynamics 365. For more information, go to [Work with knowledge articles](../administer/work-knowledge-articles.md)
 
 ## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
  
@@ -110,17 +110,17 @@ Existing service scheduling users are provided with advanced notice for a time-b
 
 There are two approaches to migrate to the scheduling experience:
 
-Follow the guidance in the [Service Scheduling Guide](../administer/basics-service-service-scheduling.md) to set up the new scheduling experience for an existing Dynamics 365 Customer Service organization.
+To set up the new scheduling experience for an existing Dynamics 365 Customer Service organization, follow the guidance in the [Service Scheduling Guide](../administer/basics-service-service-scheduling.md). 
 
 If your organization requires features that rely on legacy APIs, the product team is offering an incremental migration option and will update your organization to the Unified Interface experience and continue to allow the use of the legacy APIs. This approach is available as of 2020 release wave 2 with Early Access in August 2020.
 
 ## Contracts, Contract Line Items, and Contract Templates entities are deprecated
 
-The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. They'll be removed in a future major release of Dynamics 365. This functionality is replaced with [entitlements](../administer/create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](/power-platform/important-changes-coming#legacy-web-client-is-deprecated) will not be available after Tuesday, December 1, 2020, and you must migrate to Unified Interface by this date. We recommend that you migrate your contracts to entitlements at the earliest to avoid any loss in functionality. For information on the migration strategy, go to [Strategy for migrating from contracts to entitlements](../administer/contract-to-entitlement-migration.md).
+The Contracts, Contract Line Items, and Contract Templates entities are deprecated and aren't supported as of April 1, 2022. This functionality is replaced with [entitlements](../administer/create-entitlement-define-support-terms-customer.md) in Unified Interface. The [web client](/power-platform/important-changes-coming#legacy-web-client-is-deprecated) was removed as on December 1, 2020. We recommend that you migrate your contracts to entitlements by using the [Strategy for migrating from contracts to entitlements](../administer/contract-to-entitlement-migration.md).
 
 ## Standard SLAs in Dynamics 365 Customer Service are deprecated
 
-Standard service-level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. Learn more at [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8)).
+Standard service-level agreements (SLA Type field is set to Standard) are deprecated and will be removed in a future major release. Standard SLAs are replaced by enhanced SLAs. For more information, go to [Enhanced service level agreements](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn887187(v=crm.8)).
 
 ## Customer Service Insights standalone app is deprecated
 

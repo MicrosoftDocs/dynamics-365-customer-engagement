@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot in Dynamics 365 Sales
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, answer questions, and so on. 
-ms.date: 07/05/2024
+ms.date: 10/03/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -19,7 +19,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Ask questions of Copilot in Dynamics 365 Sales 
+# Ask questions of Copilot in Dynamics 365 Sales
 
 Copilot is an AI assistant that helps you be more productive and efficient in your daily work in Dynamics 365 Sales apps. Copilot can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, and enrich your leads with information from other sources.
 
@@ -48,7 +48,8 @@ Open the Copilot side pane when you want to get quick insights about a record or
 
 1. Do one of the following:
     - Enter your questions in [natural language](#chat-with-copilot-in-NL).
-    - Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md).
+    - Select a prompt from the suggestion list or select **View Prompts** above the Copilot chat box,  to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md).
+    :::image type="content" source="media/view-prompts.png" alt-text="Screenshot for the Prompt guide from the side pane.":::
 
 <a name=open-copilot-immersive></a>
 
@@ -66,13 +67,9 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 2. Do one of the following:
     - Enter your questions in [natural language](#chat-with-copilot-in-NL).
-    - Select a prompt from the suggestion list or select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md). 
+    - Select a prompt from the suggestion list or Select **View Prompts** above the Copilot chat box to get a list of suggested requests, or *prompts*, that Copilot can help you with. [Learn more about predefined prompts](copilot-prompt-guide.md).
 
-    :::image type="content" source="media/copilot-immersive.svg" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
-
-    The following screenshot is an example of how the Copilot full-screen view displays the opportunity pipeline view:
-
-    :::image type="content" source="media\copilot-immersive-pipeline-view.svg" alt-text="Screenshot of the Copilot page showing an opportunity pipeline in a full-screen view.":::
+    :::image type="content" source="media/copilot-immersive.png" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
 <a name=chat-with-copilot-in-NL></a>
 
@@ -103,7 +100,7 @@ For a list of sample questions, see [Questions with sales-specific terminology](
 
 These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
-You can also access some of these question from the Prompt guide that appears when you select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the Copilot side pane or Copilot page.
+You can also access some of these question from the Prompt guide that appears when you select **View Prompts** above the chat box in the Copilot side pane or Copilot page.
 
 ## Related information
 
