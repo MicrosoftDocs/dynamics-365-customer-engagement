@@ -18,14 +18,14 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Dynamics 365 Customer Service provides out-of-the-box analytics reports that help you visualize key performance indicators (KPIs) and trends for standard contact center workflows. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
+Visualize key performance indicators (KPIs) and trends for standard contact center workflows through the out-of-the-box analytics reports. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
 
 - Reveal out-of-the-box metrics that may be more relevant to your organization.
 - Modify how the data is displayed; for example, change a tabular view to a graphic that displays the trend over time.
 - Add new pivots and pages; for example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in Customer Service workspace or the Contact Center workspace. You can't customize unified routing and knowledge analytics reports.
+You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace or the Contact Center workspace. You can't customize unified routing and knowledge analytics reports.
 
 ## Prerequisites
 
