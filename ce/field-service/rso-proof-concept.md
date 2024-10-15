@@ -60,6 +60,9 @@ To work, Resource Scheduling Optimization needs at least [one territory](set-up-
 
 [Set up bookable resources](set-up-bookable-resources.md) for the purposes of this POC. When you work with real data, it's easier to drill into specific use cases. In addition, this approach limits the related data that is required for resources, such as work hours, resource territories, or characteristics.
 
+> [!TIP]
+> A location agnostic resource can only have bookings for which the *Resource Requirement* is also set to location agnostic. Resource Scheduling Optimization treats that resource like a remote worker who only gets scheduled for work that doesn't involve travel. Alternatively, you can [Enable a resource to travel outside working hours](rso-travel-outside-working-hours.md#enable-a-resource-for-scheduling-outside-of-working-hours) to work around this constraint.
+
 Relate resources to contacts to ensure that they are separate from the service accounts. Be sure to set the correct time zone on the resource, because the time zone that is set affects the work hours. In the bookable resource record, on the **Resource Scheduling Optimization** tab, set the **Optimize Schedule** option to *Yes* to enable the resource for Resource Scheduling Optimization.
 
 ### Characteristics
