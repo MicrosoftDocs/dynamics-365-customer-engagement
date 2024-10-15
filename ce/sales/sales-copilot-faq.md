@@ -24,7 +24,7 @@ No. Our Azure OpenAI resources have opted out of [abuse monitoring and human rev
 
 ## How can I disable Copilot in Dynamics 365 Sales?
 
-Only an administrator can enable or disable Copilot in Dynamics 365 Sales. For more information, see [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
+Only an administrator can disable Copilot in Dynamics 365 Sales. For more information, see [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
 
 ## What data is included in the requests?
 
