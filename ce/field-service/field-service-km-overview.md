@@ -20,22 +20,17 @@ Access to knowledge articles help improve the fix rate, guide technicians throug
 
 - Create formatted knowledge articles in the Designer text editor and include text, pictures, and videos.
 - Create knowledge articles from a template that includes prepopulated fields.
-- Review knowledge articles for accuracy before they are published.
-- Publish articles once they are approved or at a later date.
+- Review knowledge articles for accuracy before they're published.
+- Publish articles once they're approved or at a later date. Knowledge articles aren't available to technicians until they're published.
 - Manage article versions to keep your articles up to date.
 - Create translations.
 - Track and analyze knowledge article statistics.
 
-Technicians can search and link knowledge articles to work orders, incidents, products, and customer assets. They can rate and provide feedback about the knowledge articles.
+Dispatchers and technicians can search and link knowledge articles to work orders, incidents, products, and customer assets. They can rate and provide feedback about the knowledge articles.
 
-## Knowledge article lifecycle
+## Next steps
 
-The following path depicts a typical lifecycle for a knowledge article. If your organization doesn't require review and approval, you can go directly to publish.
+- [Create a knowledge article](field-service-knowledge-management.md)
+- [Create a template for a knowledge article](field-service-km-template.md)
 
-- Create a knowledge article
-- Mark the article for review
-- Reviewer rejects or approves the article
-- Update the article
-- Mark the article for translation
-- Publish the article
-- Create a new version to update the article
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

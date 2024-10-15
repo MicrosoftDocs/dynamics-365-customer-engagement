@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Create knowledge articles
 
-Write a knowledge article to share information with technicians. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles
+Write a knowledge article to share information with technicians. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles.
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles** and select **New** or **New From Template**.
    :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
@@ -33,7 +33,7 @@ Write a knowledge article to share information with technicians. Add images and 
 
 ## Link knowledge articles to related entities
 
-Create relationships between knowledge articles and other records, like incident types, products, or customer assets. When any of these records are added to a work order, the system automatically links the related knowledge articles.
+Create relationships between knowledge articles and other records, like incident types, products, or customer assets. When any of these records are added to a work order, the system automatically links the related knowledge articles. This example uses a customer asset.
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
 
@@ -45,10 +45,32 @@ Create relationships between knowledge articles and other records, like incident
 
 1. Choose which record in the target entity to link to the article.
 
-1. Select **Save & Close**
+1. Select **Save & Close**.
 
-> [!TIP]
-> You can also link knowledge articles without configured relationship to incidents, assets, or products. On a target record, go to the **Linked Articles** tab and select **New Linked Article**.
+## Link related entities to knowledge articles
+
+You can also link knowledge articles without configured relationship to incidents, assets, or products. On a related entity, go to the **Linked Articles** section and select **Add Existing Knowledge Article**. Search for the specific article.
+
+| Entity  | Tab with Linked Articles section |
+| --------| ---------------------------- |
+| Customer asset | Summary |
+| Incident type | Details |
+| Product | Additional Details |
+
+### Search for knowledge articles
+
+:::image type="content" source="../media/knowledge-article-search.png" alt-text="Screenshot that shows a search for a knowledge article.":::
+
+1. Filters the list of results
+1. Sorts the list of results
+1. Search box
+1. Unlinks the article
+1. Marks the article as a favorite
+1. Confirmation that the record is linked
+1. Rating
+1. The number of times the article is viewed
+1. Links the article
+1. The article ID
 
 ## Link a knowledge article to a work order
 
