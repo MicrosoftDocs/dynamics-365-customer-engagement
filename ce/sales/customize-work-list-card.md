@@ -1,7 +1,7 @@
 ---
 title: Customize the appearance of work items in sales accelerator
 description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
-ms.date: 09/15/2023
+ms.date: 10/15/2024
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -123,6 +123,9 @@ The procedure to customize work items is the same for both administrators and ot
 1. Select **Save**.
 
 ## Default work item appearance
+
+> [!NOTE]
+> When you select the **Reset to default** option, the card customizations are reset to the configurations defined in admin mode. To know about admin mode, see [setp 5 in Turn on customizations](#turn-on-customizations).  
 
 By default, the work item appearance is set to the following values:
 
