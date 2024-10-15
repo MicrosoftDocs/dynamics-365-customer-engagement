@@ -19,6 +19,10 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
+
+Effective February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. More information: [Migrate from Customer Service Hub to Customer Service workspace](../administer/migrate-csh-to-csw.md)
+
 ## Diagnostics in unified routing is deprecated and will be removed in October 2024
 
 The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024, and will be removed on October 15, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
