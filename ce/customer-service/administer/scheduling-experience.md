@@ -1,11 +1,11 @@
 ---
 title: Set up the Service Scheduling experience
-description: Learn about how to set up the Service Scheduling experience in Dynamics 365 Customer Service
+description: Learn how to set up the Service Scheduling experience in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
-ms.date: 07/31/2024
+ms.date: 10/15/2024
 ms.custom:
 - bap-template
 - evergreen 
@@ -38,7 +38,7 @@ How you set up service scheduling differs, based on the following scenarios:
 
 - For new or existing organizations, where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-- For existing organizations, where the Core Service Scheduling solution is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
+- For existing organizations, where the Core Service Scheduling solution is already installed, further updates happen automatically.
 
 ### Related information
 
