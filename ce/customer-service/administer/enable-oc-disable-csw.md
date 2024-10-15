@@ -5,13 +5,13 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 06/27/2023
+ms.date: 10/15/2024
 ms.custom: bap-template
 ---
 
 # Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app
 
-With the [previously announced deprecation](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-will-be-removed-in-june-2024) of the Omnichannel for Customer Service agent-facing app, the app is now hidden in environments. By default, Customer Service workspace is shown to the following user profiles:
+By default, Customer Service workspace is shown to the following user profiles:
 
 - Omnichannel Agent
 - Omnichannel Supervisor
@@ -40,7 +40,7 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 1. On the **Manage Roles - Customer Service workspace** right-side pane, deselect the roles you don't want the Customer Service workspace app to be visible to.
 
-   :::image type="content" source="../media/deactivate-csw-app.png" alt-text="Remove the Omnichannel for Custmoer Service app from roles":::
+   :::image type="content" source="../media/deactivate-csw-app.png" alt-text="Remove the Omnichannel for Customer Service app from roles":::
 
 1. Select **Save**.
 
