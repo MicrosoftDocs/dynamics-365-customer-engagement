@@ -125,7 +125,7 @@ The procedure to customize work items is the same for both administrators and ot
 ## Default work item appearance
 
 > [!NOTE]
-> When you select the **Reset to default** option, the card customizations are reset to the configurations defined in admin mode. To know about admin mode, see [setp 5 in Turn on customizations](#turn-on-customizations).  
+> When you select the **Reset to default** option, the card customizations are reset to the configurations defined in admin mode. To know about admin mode, see [step 5 in Turn on customizations](#turn-on-customizations).  
 
 By default, the work item appearance is set to the following values:
 
