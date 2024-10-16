@@ -1,7 +1,7 @@
 ---
 title: Configure product catalog settings
 description: Configure settings to change seller experience when selecting products from catalog.
-ms.date: 10/17/2023
+ms.date: 10/16/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
