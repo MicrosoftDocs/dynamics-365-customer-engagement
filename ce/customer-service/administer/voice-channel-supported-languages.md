@@ -22,9 +22,7 @@ This article provides information about the supported languages and locale codes
 Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!NOTE]
-> - End-to-end voice and IVR support is available only if a language is supported in the Voice Channel and Copilot Studio.
-> - Sentiment and AI insights are optional for the voice functionality.
-> - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../../customer-service/implement/csw-overview.md).
+> Sentiment and AI insights are optional for the voice functionality.
 
 See the information in the following table to know about the supported languages and locale codes.
 
