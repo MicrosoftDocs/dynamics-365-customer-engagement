@@ -1,7 +1,7 @@
 ---
 title: Create knowledge articles
-description: Learn how to create, link, and publish knowledge articles in Dynamics 365 Field Service.
-ms.date: 10/09/2024
+description: Learn how to create, review, and publish knowledge articles in Dynamics 365 Field Service.
+ms.date: 10/16/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -11,6 +11,10 @@ ms.custom: bap-template
 # Create knowledge articles
 
 Write a knowledge article to share information with technicians. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles.
+
+After creating a knowledge article, you can have the article reviewed or schedule it for publication. An article isn't available to dispatchers and technicians until the article is published.
+
+## Create a knowledge article
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles** and select **New** or **New From Template**.
    :::image type="content" source="media/knowledge-article-new.png" alt-text="Screenshot of a list of knowledge articles in Field Service with callouts on controls.":::
@@ -24,74 +28,41 @@ Write a knowledge article to share information with technicians. Add images and 
 1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [text editor](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
 
 1. **Save** the knowledge article.
-1. Determine the next step:
-    - Mark it for review: Select **Status Reason** and select **Needs review**. You can **Assign** it to the reviewer or **Share** the link with a group of reviewers.
-    - [Translate the article](field-service-km-translate.md).
-    - [Publish the article](field-service-km-publish.md).
-    - [Link the article to an entity](#link-knowledge-articles-to-related-entities)
-    - **Save & Close**.
 
-## Link knowledge articles to related entities
+## Review knowledge articles
 
-Create relationships between knowledge articles and other records, like incident types, products, or customer assets. When any of these records are added to a work order, the system automatically links the related knowledge articles. This example uses a customer asset.
+To ensure that the content you create is accurate, have someone review it. You can mark an article for review or directly assign it to a specific person or queue.
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
+1. Open the article.
+1. Change the **Status Reason** to **Needs review**.
+   :::image type="content" source="media/knowledge-article-review.png" alt-text="Screenshot of a knowledge article in Field Service highlighting Status Reason.":::
 
-1. Select an article. On the **Summary** tab, in the **Related Information** section, select the target entity icon for the relationship. For example, customer asset.
+1. Reviewers can change the **Status Reason** to **In review** when reviewing the article.
+1. Reviewers work with the author to update the article.
+1. When the reviewer is satisfied with the article, on the command bar, select the vertical ellipsis &vellip; > **Approve**.
 
-1. Select the vertical ellipsis &vellip; and choose **Add Existing Customer Asset**.
+## Publish knowledge articles
 
-   :::image type="content" source="media/knowledge-article-associate-asset.jpg" alt-text="Screenshot of a Field Service knowledge article, showing the related information.":::
+After the content in the article is complete, publish the article to make it available to your technicians. You can publish the article immediately or schedule it for a later time.
 
-1. Choose which record in the target entity to link to the article.
+1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
+1. Open the article.
+1. On the command bar, select the vertical ellipsis &vellip; > **Publish**.
+   :::image type="content" source="media/knowledge-article-publish.png" alt-text="Screenshot of a Field Service knowledge article, showing the Publish pane.":::
 
-1. Select **Save & Close**.
+1. Enter the following information:
+   - **Publish**: Select whether you want to publish the knowledge article now or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.
+   - **Published Status**: Select what status the article should be in after it's published. By default, **Published** is selected.
+   - **Expiration Date**: Select a date and time when you want the published article to expire, if any. Expired articles are no longer available in searches. If you set an expiration date, select the state and status the knowledge article should be set to after it expires.
+   - **Publish Approved related translations with Article**: Select **Yes** if you want to publish all related translated articles with the article.
 
-## Link related entities to knowledge articles
-
-You can also link knowledge articles without configured relationship to incidents, assets, or products. On a related entity, go to the **Linked Articles** section and select **Add Existing Knowledge Article**. Search for the specific article.
-
-| Entity  | Tab with Linked Articles section |
-| --------| ---------------------------- |
-| Customer asset | Summary |
-| Incident type | Details |
-| Product | Additional Details |
-
-### Search for knowledge articles
-
-:::image type="content" source="../media/knowledge-article-search.png" alt-text="Screenshot that shows a search for a knowledge article.":::
-
-1. Filters the list of results
-1. Sorts the list of results
-1. Search box
-1. Unlinks the article
-1. Marks the article as a favorite
-1. Confirmation that the record is linked
-1. Rating
-1. The number of times the article is viewed
-1. Links the article
-1. The article ID
-
-## Link a knowledge article to a work order
-
-1. In Field Service, go to **Service** > **Work Orders**.
-
-1. Select the work order and then select the **Reference** tab.
-
-1. To add an existing knowledge article to the work order:
-
-   - Select **Add existing article** and search for the specific article.
-   - Select the link icon for the article and then select **Done**. The article appears on the Work order's Reference tab.
-
-1. To add a new knowledge article to the work order:
-
-   - Select **New article** and create the knowledge article.
-   - Select **Save & Close**. The article is created and appears on the Work order's Reference tab.
-
-:::image type="content" source="media/knowledge-article-associate-wo.svg" alt-text="Screenshot of a Field Service work order, showing the related knowledge article.":::
+1. Select **Publish**. The **Status Reason** changes to **Published**.
 
 ## Next steps
 
+- [Translate the article](field-service-km-translate.md).
+- [Link the article to an entity](#link-knowledge-articles-to-related-entities).
 - [Create a work order](create-work-order.md)
 - [Create work order templates with incident types](configure-incident-types.md)
 
