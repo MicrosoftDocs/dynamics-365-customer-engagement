@@ -12,9 +12,9 @@ For information about older versions, see [Version history archive](../../field-
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |    [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | TBD | 10/25/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | TBD | 11/01/2024 |
 | | *USG* |  [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | TBD | 10/25/2024 |
-|**Station 4** |*Europe* |   [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011) | TBD | 10/11/2024 |
-|**Station 5** |  *North America*|  [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)  | 10/11/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)  | 10/11/2024 |
+|**Station 4** |*Europe* |   [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | TBD | 11/08/2024 |
+|**Station 5** |  *North America*|   [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)|  [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421)  | 10/18/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)|  [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421)  | 10/25/2024 |
 | | *Dedicated Scale Groups* | [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) | [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011)  | 10/18/2024 |
 >[!NOTE]
 >
@@ -32,7 +32,10 @@ For information about older versions, see [Version history archive](../../field-
 - The relevant account for underlying bookings can now be seen on the schedule board aggregate booking by turning on a new feature. 
 - Keywords in requirement search box on the schedule board are now cached when switching between tabs.
 - Turning on focus mode no longer maximizes the browser.
-- Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load. 
+- Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load.
+- Fixed a bug that was impacting time labels on Specify Pattern when changing time zones.
+- Schedule Assistant is now using Bryntum in production environments.
+
 
 ## 3.12.140.11
 
