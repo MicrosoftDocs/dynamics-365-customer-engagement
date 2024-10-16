@@ -62,7 +62,7 @@ After the content in the article is complete, publish the article to make it ava
 ## Next steps
 
 - [Translate the article](field-service-km-translate.md).
-- [Link the article to an entity](#link-knowledge-articles-to-related-entities).
+- [Link the article to an entity](field-service-km-link.md).
 - [Create a work order](create-work-order.md)
 - [Create work order templates with incident types](configure-incident-types.md)
 

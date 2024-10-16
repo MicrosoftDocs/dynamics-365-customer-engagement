@@ -1,5 +1,5 @@
 ---
-title: Link and unlink knowledge articles
+title: Link knowledge articles
 description: Learn how to link and unlink knowledge articles to records in Dynamics 365 Field Service.
 ms.date: 10/16/2024
 ms.topic: how-to
@@ -8,7 +8,7 @@ ms.author: jasonshotts
 ms.custom: bap-template
 ---
 
-# Link and unlink knowledge articles
+# Link knowledge articles
 
 You can associate and dissociate a knowledge article with a record.
 
@@ -40,7 +40,7 @@ You can also link knowledge articles without configured relationship to incident
 
 ### Search for knowledge articles
 
-:::image type="content" source="/media/knowledge-article-search.png" alt-text="Screenshot that shows a search for a knowledge article.":::
+:::image type="content" source="media/knowledge-article-search.png" alt-text="Screenshot that shows a search for a knowledge article.":::
 
 1. Filters the list of results
 1. Sorts the list of results

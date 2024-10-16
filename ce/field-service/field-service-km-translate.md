@@ -26,7 +26,7 @@ You can set languages that are supported by your Dynamics 365 instance.
 1. Select **Create**.  
 1. Enter your translated text in the appropriate fields.
 1. Select **Save & Close**.
-1. When your translation is ready for publish, go to [Publish knowledge articles](field-service-km-publish.md)
+1. When your translation is ready for publish, go to [Publish knowledge articles](field-service-knowledge-management.md#publish-knowledge-articles).
 
 ## Manage article translations  
 
