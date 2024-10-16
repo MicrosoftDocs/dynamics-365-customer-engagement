@@ -39,11 +39,11 @@ The following table lists the components in Customer Service Hub that you need t
 
 | Category | Component to configure in Customer Service workspace |
 |----------|-------------------------------------|
-| Dashboards | 1. Select **+New** > **Dashboard**, and then select **Next**.<br> 2. Select the missing dashboard you want to include in the Customer Service workspace app. |
-| Views | 1. Select the table with missing views on the left side. For example, **Accounts view**. <br> 2. On the right side, select the views that aren't in the app yet, and then select **+Add** to include them in the Customer Service workspace app. |
-| Forms | 1. Select the table with missing forms on the left side. For example, **Cases form**.<br> 2. On the right side, select the forms that aren't in the app yet, and then select **+Add** to include them in the Customer Service workspace app. |
-| Business Process Flow | 1. In the left sidebar, select **Automation**.<br> 2. Select the business process flows that aren't in the app, and then select **+Add** to include them in the Customer Service workspace app sitemap. |
-| Links | 1. Select **+New** > **URL**, and then select **Next**.<br> 2. Add the links you want to include in the Customer Service workspace app sitemap. |
+| Dashboards | 1. Select **New** > **Dashboard**, and then select **Next**.<br> 2. Select the missing dashboard you want to include in the Customer Service workspace app. |
+| Views | 1. Select the table with missing views on the left side. For example, **Accounts view**. <br> 2. On the right side, select the views that aren't in the app yet, and then select **Add** to include them in the Customer Service workspace app. |
+| Forms | 1. Select the table with missing forms on the left side. For example, **Cases form**.<br> 2. On the right side, select the forms that aren't in the app yet, and then select **Add** to include them in the Customer Service workspace app. |
+| Business Process Flow | 1. In the left sidebar, select **Automation**.<br> 2. Select the business process flows that aren't in the app, and then select **Add** to include them in the Customer Service workspace app sitemap. |
+| Links | 1. Select **New** > **URL**, and then select **Next**.<br> 2. Add the links you want to include in the Customer Service workspace app sitemap. |
 
 ## Add pages in Customer Service workspace
 
