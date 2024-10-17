@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 09/19/2024
+ms.date: 10/15/2024
 ---
 
 # Copilot in Dynamics 365 Sales FAQs
@@ -22,13 +22,18 @@ When you type a question in the Copilot pane, we pass the relevant data to Azure
 
 No. Our Azure OpenAI resources have opted out of [abuse monitoring and human review](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. Learn more about this aspect in [Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy).
 
+## How can I disable Copilot in Dynamics 365 Sales?
+
+Only an administrator can disable Copilot in Dynamics 365 Sales. For more information, see [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
+
 ## What data is included in the requests?
 
 The data included in the requests varies based on the type of request made. For example, when you attempt to summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure OpenAI endpoint to generate a summary.
 
 ## Is any of my data stored outside of Dynamics 365?
 
-No, we don't save any of your data in any new data store. You can read more about the [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy).
+
+No, we don't save any of your data in any new data store. Learn more about [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy). When you use Copilot in Dynamics 365 Sales for account news, Copilot sends the account name to Bing. For information on how Bing handles this data, see [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and [Microsoft Privacy Statement](https://www.microsoft.com/privacy/privacystatement).
 
 ## How does Copilot encrypt data?
 
@@ -58,7 +63,7 @@ Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 
-Copilot matches leads with contacts based on the lead name, phone number, email address, and company name. The matches are ordered based on the similarity of values in these fields. If you want Copilot to use other fields for matching, you can work with your administrator to [configure the Dataverse search fields](/power-platform/admin/configure-relevance-search-organization). 
+Copilot matches a lead with contacts only based on the lead's email address. The matches are ordered based last updated date of the contact record. You can't customize the matching fields.
 
 > [!NOTE]
 > The fields configured by your administrator will be used for all global search operations (Search box in the top navigation bar) in Dynamics 365.
@@ -90,7 +95,7 @@ The following frequently asked questions are related to Copilot for emails.
 
 This feature is available only for organizations in North America with early access to Copilot in 2024 release wave 1. If you're in a different region, you must enable the Copilot preview feature to use. More information: [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).  
 
-### How I enable or disable this feature?
+### How can I enable or disable the Copilot for email feature?
 
 To enable or disable Copilot for email in Dynamics 365 Sales, see [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
 

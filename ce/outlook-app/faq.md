@@ -3,7 +3,7 @@ title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for O
 ms.custom: 
 description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
 ms.date: 05/28/2024
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

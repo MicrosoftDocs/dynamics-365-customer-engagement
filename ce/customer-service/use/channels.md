@@ -6,14 +6,13 @@ ms.author: nenellim
 ms.reviewer:
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/12/2024
+ms.date: 10/09/2024
 ms.custom: bap-template
 ---
 
 # Overview of channels
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels isn't only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
 
@@ -63,7 +62,6 @@ To address customer issues, you can configure and use the voice channel. More in
 If you want to help your customers using SMS, you can use the following SMS channels:
 
 - [SMS through Azure Communication Services](../administer/configure-sms-channel-acs.md)
-- [SMS through TeleSign](../administer/configure-sms-channel.md)
 - [SMS through Twilio](../administer/Configure-sms-channel-twilio.md)
 
 ## Social channels
@@ -73,7 +71,6 @@ If you want to help your customers using social media, you can use the following
 - [Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)
 - [Facebook](../administer/configure-facebook-channel.md)
 - [WhatsApp through Twilio](../administer/configure-whatsapp-channel.md)
-- [WeChat](../administer/configure-wechat-channel.md)
 - [LINE](../administer/configure-line-channel.md)
 
 ## Custom messaging channel

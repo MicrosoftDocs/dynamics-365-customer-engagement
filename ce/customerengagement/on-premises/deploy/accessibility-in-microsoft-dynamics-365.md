@@ -42,7 +42,7 @@ Administrators and users who have administrative responsibilities typically use 
 |[!INCLUDE [pn-microsoft-edge](../includes/pn-microsoft-edge.md)]  |[Accessibility ](/microsoft-edge/accessibility)|  
 |[!INCLUDE[tn_Mozilla_Firefox](../includes/tn-mozilla-firefox.md)]|[Accessibility features in Firefox](https://support.mozilla.org/kb/accessibility-features-firefox-make-firefox-and-we)|  
 |[!INCLUDE[tn_Apple_Safari](../includes/tn-apple-safari.md)]|[Safari](https://www.apple.com/safari/)|  
-|[!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]|[Accessibility Technical Documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)|  
+|[!INCLUDE[tn_Google_Chrome](../includes/tn-google-chrome.md)]|[Accessibility Technical Documentation](https://www.chromium.org/developers/design-documents/accessibility/)|  
   
 ## See Also  
  [Microsoft Accessibility Resource Center](https://www.microsoft.com/enable/centers/)  

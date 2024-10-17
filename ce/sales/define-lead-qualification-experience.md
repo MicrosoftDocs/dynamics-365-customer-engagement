@@ -124,7 +124,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 |--------------------|--------------------------|-----------------------------|-----------------------------|
 | Company            | companyname              | Account name                | name                        |
 | Website            | websiteurl               | Website                     | websiteurl                  |
-| Business Phone     | telephone1               | Phone                       | address1_telephone1         |
+| Business Phone     | telephone1               | Business Phone              | address1_telephone1         |
 | Street 1           | address1_line1           | Address 1: Street 1         | address1_line1              |
 | Street 2           | address1_line2           | Address 1: Street 2         | address1_line2              |
 | Street 3           | address1_line3           | Address 1: Street 3         | address1_line3              |
