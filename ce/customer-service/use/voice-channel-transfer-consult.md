@@ -56,13 +56,13 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
      ### [Enhanced voice](#tab/enhancedvoicestack)
 
 
-     When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. You don't have to select the transfer button next to the secondary agent to complete the transfer. To make sure that the secondary agent answers the call, you can use the **Consult** option to collaborate with the secondary agent before transferring the call. <br>
+     When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. There is no extra button press required to leave the call. To make sure that the secondary agent answers the call, you can use the **Consult** option to collaborate with the secondary agent before transferring the call. <br>
      
      The customer hears a transfer message and the following actions occur based on the **Use bridged transfers** setting:<br>
      **Enabled**<br>
      - Customer hears hold music.
      - The original call continues. 
-     -  If the external user doesn't accept the call, customers will hear a system message before the call ends.
+     - If the external user doesn't accept the call, customers will hear a system message before the call ends.
      - Post call survey is sent to the customer if the external user or Teams user ends the call.
      
      **Disabled**<br>
@@ -75,7 +75,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
       If you selected the external PSTN number or Teams to transfer the call, you can talk to the secondary agent who picks up the call, while the customer is on hold. To complete the call transfer, you must select the transfer button next to the secondary agent name in the call window. The secondary agent is now the primary agent and you're removed from the call. However, the secondary agent is disconnected from the call if you as the primary agent don't complete the transfer within eight minutes.
      
     > [!NOTE]
-    > The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
+    > The call recording and transcript of the conversation with the Teams user after transfer is saved in the application for reporting and compliance.
 
 
 ## Use consult to collaborate with other agents or supervisors
@@ -105,21 +105,19 @@ When you initiate a consult, the following actions occur:
 3. Based on your requirement, perform one of the following steps.
 
     - **Consult with an internal agent or supervisor**: Select **Agent**. You can either have a call or chat with an internal agent or supervisor. Select the conversation channel and then search for the agent you'd like to consult with.<br>
-    - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
-       - If the consult is with an external participant (PSTN or Teams through PSTN), select **Transfer** next to the external phone number in the call window. After the call is transferred, the secondary agent becomes the primary agent. 
-       - If the consult is with an internal agent or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the agent or supervisor in the consult. 
-       - After the call is transferred, the primary agent becomes the consulting agent and can leave the call without ending the call. The consulting agent becomes the primary agent. If the primary agent leaves the call, the call ends for the customer.
-       -  If your administrator hasn't enabled **Use bridged transfers**, the external user receives a new call request. The customer hears a message that they're being transferred and then the ring sound. You won't be on the new call.
 
    - **Consult with external PSTN number**: Select the **Number Pad**. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. 
-    By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation. <br>
-    To make the consultation public, select **Hold** to put the call on hold. When the secondary agent joins the conversation, remove the customer from hold to continue the consultation.<br>
+    By default, the consultation is private, the customer is on hold while the primary agent speaks with the new participant. You can also have a public consultation, where the customer is actively involved in the conversation by taking them off hold. <br>
 
    - **Consult with Teams user**: Select **Teams** and use the search option to search for and select the Microsoft Teams user you'd like to consult with.  See: [Enable voice consult with Microsoft Teams users](../administer/voice-consult-microsoft-teams-user.md)<br>
         > [!div class="mx-imgBorder"]
         > ![Screenshot of Teams consult](../media/oc-consult-teams.png)<br>
+
+   - **Consult, then transfer**: The primary agent who initiated the consult can transfer the call to any participant involved in the consult. To transfer a conversation to the consulting agent in the conversation, perform the following steps:
+       - If the consult is with an external participant (PSTN or Teams user), select **Transfer** next to the external phone number or Teams user name at the top of the call window. If your administrator hasn't enabled **Use bridged transfers**, the external user receives a new call request from the customer, and the customer hears a message that they're being transferred, then the ringing sound.  If your administrator has enabled **Use bridged transfers**, the current call will continue between the external user and the customer, and the original agent will be dropped from the call.
+       - If the consult is with an internal agent or a supervisor, select **Transfer** on the call controls. The application displays the **Agent** tab with the agent or supervisor in the consult. 
     
-    The call recording and transcript of the conversation with the Teams user is saved in the application for reporting and compliance.
+    The call recording and transcript of the conversation with the Teams user during consult is saved in the application for reporting and compliance.
 
 ### Related information
 
