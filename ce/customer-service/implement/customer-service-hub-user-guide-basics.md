@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 03/20/2023
+ms.date: 10/28/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
