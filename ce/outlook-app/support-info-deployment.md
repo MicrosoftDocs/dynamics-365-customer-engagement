@@ -3,7 +3,7 @@ title: "System requirements, limits, and configuration values for Dynamics 365 A
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
 ms.date: 05/14/2024
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started

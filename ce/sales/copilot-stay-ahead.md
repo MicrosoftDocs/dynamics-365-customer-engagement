@@ -54,7 +54,7 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
 Copilot can help make sure that you don't miss important emails by reminding you of messages that need a reply.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
-1. Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) and select **Stay ahead** >  **Show emails that need follow up**.
+1. Select **View Prompts** above the Copilot chat box,  and select **Stay ahead** >  **Show emails that need follow up**.
 
     - If you have a record open, Copilot lists unanswered emails related to the record.
     - If you're in the grid view, Copilot lists all your unanswered emails.

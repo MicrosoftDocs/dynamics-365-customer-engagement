@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Manage the Field Service mobile app with Intune
 
-Mobile application management enables administrators to apply and enforce policies on mobile apps. One mobile application management option is [Microsoft Intune](/intune/apps/app-management). It offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including the Dynamics 365 Field Service mobile app.
+Mobile application management enables administrators to apply and enforce policies on mobile apps. One mobile application management option is [Microsoft Intune](/mem/intune/apps/app-management). It offers a suite of features that lets you publish, push, configure, secure, monitor, and update mobile apps - including the Dynamics 365 Field Service mobile app.
 
 Mobile application management is important to field service organizations whose technicians use the mobile apps because they frequently travel to multiple locations, and protecting sensitive company data is critical. Many organizations have a bring-your-own-device policy, which means the Field Service mobile app needs management among many different kinds of devices and apps for personal use.
 
@@ -23,7 +23,7 @@ With an Intune-enabled Field Service mobile app, IT administrators can:
 
 ## Get started
 
-Intune is a separate Microsoft service that isn't included with Field Service. Refer to the documentation on [What is Microsoft Intune app management?](/intune/apps/app-management) and [Adding and assigning an app with Intune](/intune/apps/quickstart-add-assign-app) to get started.
+Intune is a separate Microsoft service that isn't included with Field Service. Refer to the documentation on [What is Microsoft Intune app management?](/mem/intune/apps/app-management) and [Adding and assigning an app with Intune](/mem/intune/apps/quickstart-add-assign-app) to get started.
 
 A configuration can be set up through the [Device Management portal](https://devicemanagement.microsoft.com/). Each supported platform (iOS, Android, and Windows) requires a separate configuration.
 

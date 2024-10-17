@@ -3,7 +3,7 @@ title: "Supported features (Dynamics 365 apps) | MicrosoftDocs"
 description: Supported features using App for Outlook on Outlook desktop client, Outlook Web Access, and a mobile device.
 ms.custom: 
 ms.date: 02/11/2022
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

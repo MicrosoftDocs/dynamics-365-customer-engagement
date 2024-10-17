@@ -99,13 +99,11 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 
 Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
 
-- [Create workstreams](../administer/create-workstreams.md)  
+- [Create workstreams](../administer/create-workstreams.md)
 - [Authentication settings](../administer/create-chat-auth-settings.md)
 - [Azure Communication Services](../administer/voice-channel-manage-phone-numbers.md)
 - [Geographical location providers](../administer/geo-location-provider.md)
 - [Payment profiles for Apple Messages for Business channel](../administer/configure-payment-profiles.md)
-- SMS channels through [TeleSign](../administer/configure-sms-channel.md) and [Twilio](../administer/Configure-sms-channel-twilio.md)
-- [WeChat channel](../administer/configure-wechat-channel.md)
 - [WhatsApp channel](../administer/configure-whatsapp-channel.md)
 
 The secure columns can be identified by the information icon that's present for the column.
@@ -123,7 +121,6 @@ The entities and their secret attributes are as follows. For more information on
 | msdyn_ocsmssettingsecret  | msdyn_secureapikey |
 | msdyn_octwitterapplication  | msdyn_securetwitterconsumersecret <br> msdyn_securetwitterconsumerkey  |
 | msdyn_octwitterhandlesecret  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
-| msdyn_ocwechatchannelconfig | msdyn_secureapplicationsecret <br> msdyn_securetoken <br> msdyn_secureencodingaeskey   |
 | msdyn_ocwhatsappchannelaccount | msdyn_secureauthenticationtoken |
 
 **Manage permissions on secret attributes**
