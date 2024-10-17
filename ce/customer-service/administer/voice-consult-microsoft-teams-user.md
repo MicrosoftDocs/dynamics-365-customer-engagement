@@ -54,7 +54,7 @@ If you've updated to the enhanced voice experience, you can enable your agents t
 Calling services are charged on a per minute per participant basis at 0.004 per participant per minute and is less than the Public Switched Telephone Network (PSTN) charges of $0.013 per participant per minute.
 
 > [!NOTE]
-> Agents can transfer or consult with Microsoft Teams users only if the users are logged in to the Teams desktop application.
+> Agents can transfer or consult with Microsoft Teams users only on certain clients.  Please see [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients) for more details.
 
 To allow the agents to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** setting in the voice channel section of the voice workstream.
 
