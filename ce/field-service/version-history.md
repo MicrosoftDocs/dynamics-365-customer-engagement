@@ -20,12 +20,12 @@ For information about older versions, see [Version history archive](version-hist
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | TBD |10/18/2024 |
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | TBD |10/25/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.125.15](/dynamics365/field-service/version-history#8812515) | [8.8.127.75](/dynamics365/field-service/version-history#8812775) |10/04/2024 |
-| | *USG* |   [8.8.125.15](/dynamics365/field-service/version-history#8812515)  | [8.8.127.75](/dynamics365/field-service/version-history#8812775) |10/04/2024 |
-|**Station 4** |*Europe* |  [8.8.124.21](/dynamics365/field-service/version-history#8812421)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |10/04/2024 |
-|**Station 5** | *North America*|  [8.8.124.21](/dynamics365/field-service/version-history#8812421)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |10/11/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.124.21](/dynamics365/field-service/version-history#8812421)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |10/11/2024 |
-| | *Dedicated Scale Groups* |  [8.8.123.11](/dynamics365/field-service/version-history#8812311)  | [8.8.124.21](/dynamics365/field-service/version-history#8812421) |10/04/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | TBD |11/01/2024 |
+| | *USG* |  [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | TBD | 10/25/2024 |
+|**Station 4** |*Europe* | [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | TBD | 11/08/2024 |
+|**Station 5** | *North America*|  [8.8.125.15](/dynamics365/field-service/version-history#8812515)  | [8.8.127.75](/dynamics365/field-service/version-history#8812775) |10/18/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China*  |[8.8.125.15](/dynamics365/field-service/version-history#8812515)  | [8.8.127.75](/dynamics365/field-service/version-history#8812775) |10/25/2024 |
+| | *Dedicated Scale Groups* |  [8.8.124.21](/dynamics365/field-service/version-history#8812421)  | [8.8.125.15](/dynamics365/field-service/version-history#8812515) |10/18/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
@@ -88,6 +88,7 @@ This release is a hotfix on Field Service version [8.8.124.20](/dynamics365/fiel
 - Field Service Mobile: Fixed bug that ensures control info and close icon clicks function properly within the Copilot Summary control.
 - Field Service Mobile: Fixed a bug so that a Follow Up Work Order which is created in offline mode can be successfully modified and saved without error.
 - Field Service Mobile: Fixed a bug which caused an intermittent OnLoad script error after changing Booking Status.
+- Fixed a bug affecting RMA product pricing. The unit amount for an RMA product is determined first from the associated work order product, then the price list if no WOP is linked, then the product record's list price.
 
 
 ## 8.8.122.17

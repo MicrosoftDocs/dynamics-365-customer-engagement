@@ -3,7 +3,7 @@ title: "Install Microsoft Dynamics 365 for Outlook using a command prompt | Micr
 description: Learn how to install Microsoft Dynamics 365 for Outlook by using a command line prompt. A sample XML configuration file for installation is included.
 ms.custom:
 ms.date: 03/06/2017
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -12,7 +12,7 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: 0e35546e-766b-4f5a-aead-0e8219ecb7f2
 caps.latest.revision: 47
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin

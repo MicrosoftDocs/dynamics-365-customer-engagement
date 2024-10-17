@@ -3,7 +3,7 @@ title: "Set up Dynamics 365 for Outlook administrators | MicrosoftDocs"
 description: Learn how to install and deploy Dynamics 365 for Outlook to make it easier for a team to work with Dynamics 365 apps data in the Outlook environment.
 ms.custom: 
 ms.date: 12/11/2020
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 04a2332e-0fc4-4487-8136-e48e01b63055
 caps.latest.revision: 38
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin

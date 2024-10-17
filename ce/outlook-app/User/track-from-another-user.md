@@ -3,7 +3,7 @@ title: "Track appointments from another person in your organization (Dynamics 36
 ms.custom: 
 description: Track appointments from another person in your organization.
 ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article

@@ -2,7 +2,7 @@
 title: "Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: 
 ms.date: 08/06/2020
-ms.reviewer: 
+ms.reviewer: smurkute 
 description: Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook.
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,7 +16,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 893ce442-3fb7-48dd-9440-6fb5f169d064
 caps.latest.revision: 52
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin
