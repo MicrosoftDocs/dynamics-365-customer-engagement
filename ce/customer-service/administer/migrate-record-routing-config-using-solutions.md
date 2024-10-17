@@ -1,6 +1,6 @@
 ---
 title: Migrate configurations for record routing using solutions
-description: Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
+description: Learn how to migrate configuration data for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
 author: mjfjesus
 ms.author: marcoje
 ms.reviewer: nenellim
@@ -16,17 +16,17 @@ ms.custom: bap-template
 
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for record routing.
 
-For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
+For information on how to use solutions or the Configuration Migration tool, go to [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
 ## Prerequisites
 
 The following prerequisites must be met:
 
 - Make sure that the user who performs the channel configuration migration has the following privileges:
-  - To export solutions from the source environment
-  - To import solutions to the destination environment
-  - Read permission on all tables migrated from the source environment using Configuration Migration tool.
-  - Full permission on all tables migrated to the destination environment using Configuration Migration tool.
+  - To export solutions from the source environment.
+  - To import solutions to the destination environment.
+  - Read permission on all tables migrated from the source environment using the Configuration Migration tool.
+  - Full permission on all tables migrated to the destination environment using the Configuration Migration tool.
 - In the source environment, if any table or column refers to the following, then make sure that they exist in the target environment before you proceed with the migration:
   - Custom tables (entities)
   - Columns (attributes)
@@ -38,15 +38,15 @@ The following prerequisites must be met:
 
 You must perform the steps in the order they're listed to migrate your configuration data successfully:
 
-1. Migrate configuration for session templates and notification templates
-1. Migrate configuration for skill-based routing rulesets
-1. Migrate configuration for new capacity profiles
-1. Migrate configuration for queues
-1. Migrate configuration for intake rules and  workstreams
+1. Migrate configuration for session templates and notification templates.
+1. Migrate configuration for skill-based routing rulesets.
+1. Migrate configuration for new capacity profiles.
+1. Migrate configuration for queues.
+1. Migrate configuration for intake rules and  workstreams.
 
 ## Migrate configuration for session templates and notification templates
 
-If the following components are available in your setup,add them to a solution, then export and import the solution into the target environment:
+If the following components are available in your setup, add them to a solution, then export and import the solution into the target environment:
 
 1. Add the following components to a solution and export it from the source environment:
    - Agent Script (msdyn_productivityagentscripts)
@@ -60,7 +60,7 @@ If the following components are available in your setup,add them to a solution, 
 
 1. Import the solution into the target environment.
 
-For more information on solutions see [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
+For more information on solutions go to [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
 
 ## Migrate configuration for skill-based routing rulesets
 
@@ -74,7 +74,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
    - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
 
     > [!IMPORTANT]
-    > For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
+    > For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice-value in the target environment, or use a solution to migrate it from the source environment, if necessary.
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
@@ -92,15 +92,15 @@ For sample schema to get all the required records, see [Sample schema for skill-
 
 If you configured new capacity profiles in your setup, perform the steps to migrate the corresponding configuration.
 
-For sample schema to get all the required records, see [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
+For sample schema to get all the required records, go to [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
 
 > [!TIP]
 > After you migrate a new capacity profile using the Configuration Migration tool, migrate the updates using solutions.
 
-1. Use the Configuration Migration tool to create the schema and export data in source environment for capacity profiles configuration.
+1. Use the Configuration Migration tool to create the schema and export data in the source environment for capacity profile configuration.
    - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
    - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use the source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
@@ -114,10 +114,10 @@ For sample schema to get all the required records, see [Sample schema for capaci
 
 ## Migrate configuration for queues
 
-Use the Configuration Migration tool to create the schema and export data from the source environment for the queues configuration.
+Use the Configuration Migration tool to create the schema and export data from the source environment for the queue configuration.
    - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
    - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
-   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
+   - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use the source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
    - Configure import settings: For the **Decision contract** table, ensure that you select the **Do not update existing records** checkbox.
 
 If you're using the out-of-the-box assignment methods for queues, such as highest capacity and round robin, skip the following entities:
@@ -131,7 +131,7 @@ The assignment rulesets must be available in the system before the Configuration
 >
 > - For every import of queue records, you must create new queue records or update existing queue records. Don't mix the actions in the same data import.
 > - When all records in the data.xml of the queue table are for creation, make sure that the following line is present in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`, and the corresponding data will also have the field for msdyn_queuetype.
-> - When all records in the data.xml of queue table are for update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`, and the corresponding data also won't have that field for msdyn_queuetype.
+> - When all records in the data.xml of queue table are for an update, ensure that you remove the following line in the schema.xml: `<field displayname="Queue type" name="msdyn_queuetype" type="optionsetvalue" customfield="true"/>`, and the corresponding data also won't have that field for msdyn_queuetype.
 > - When the queue that you want to migrate has an overflow condition set, then you must export and import the decision ruleset first. The migration sequence should look as follows:
 >   - Decision contract
 >   - Decision ruleset
@@ -194,7 +194,7 @@ Perform the following steps to export and import the rulesets:
 > [!NOTE]
 > Set the Calendar Item associated with the Operating Hour table correctly after you import the Operating Hour table into the target environment.
 
-For sample schema to get all the required records, see [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
+For sample schema to get all the required records, go to [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
 ### Step 2: Export and import rulesets with selection criteria defined
 
@@ -786,13 +786,13 @@ Use the following steps to migrate intake rules and record workstreams from the 
 1. Create a solution to export configurations from the source environment for record routing workstreams.
 1. Add the required records to the solution using the **Add existing button** in the command bar.
 1. Select the **Work Stream (msdyn_liveworkstream)** table. Related records from the following tables are automatically added to the solution:
-   - Capacity Profile (msdyn_capacityprofile) – new records must be migrated using Configuration Migration tool
-   - Master entity routing configuration (msdyn_masterentityroutingconfiguration)
-   - Decision contract (msdyn_decisioncontract) – for both intake rules and record workstreams
-   - Decision rule set (msdyn_decisionruleset) – for both intake rules and record workstreams
-   - Routing configuration (msdyn_routingconfiguration)
-   - Routing configuration step (msdyn_routingconfigurationstep)
-   - Operating Hour (msdyn_operatinghour)
+   - Capacity Profile (msdyn_capacityprofile)—new records must be migrated using the Configuration Migration tool.
+   - Master entity routing configuration (msdyn_masterentityroutingconfiguration).
+   - Decision contract (msdyn_decisioncontract)—for both intake rules and record workstreams.
+   - Decision rule set (msdyn_decisionruleset)—for both intake rules and record workstreams.
+   - Routing configuration (msdyn_routingconfiguration).
+   - Routing configuration step (msdyn_routingconfigurationstep).
+   - Operating Hour (msdyn_operatinghour).
 
 ## Next steps
 
