@@ -71,7 +71,7 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF   <br><br> Allowed file extensions: .jpg, .jpeg, .gif, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .csv |
 | Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 
-Learn more about the supported file types and the size limit for file attachments in [Enable file attachments](enable-file-attachments.md) and how to configure the file attachments in [Configure file attachment capability](configure-file-attachment.md).
+All file types are supported for live chat, provided they are within the file size limit and out of the blocked file extensions. You can restrict specific file types by configuring it in the settings. Learn more at [Configure file attachment capability](configure-file-attachment.md).
 
 > [!NOTE]
 >
