@@ -40,17 +40,7 @@ You can use the Customer Service workspace app.
 
 ## I'm an existing enterprise customer and still need to use Customer Service Hub. How do I enable it?
 
-If you're an existing customer and need to set up Customer Service Hub in your enterprise environment for testing purposes, complete the following steps:
-
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
-
-1. Select **Environment** on the top navigation bar. The **Select environment** pane is displayed.
-
-1. Search for your environment, and then select it.
-
-1. On the site map, select **Apps**, and then select the ellipsis next to **Customer Service Hub**.
-
-1. Select **Activate**. Customer Service Hub then becomes visible on your environment's apps page.
+If you're an existing customer and need to set up Customer Service Hub in your enterprise environment for testing purposes, complete the steps in [Enable the Customer Service Hub app](../implement/customer-service-hub-user-guide-basics.md#enable-the-customer-service-hub-app).
 
 ## What's the best way to get familiar with Customer Service workspace?
 
