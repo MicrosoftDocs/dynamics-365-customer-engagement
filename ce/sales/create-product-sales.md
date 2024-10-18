@@ -1,7 +1,7 @@
 ---
 title: Create a product
 description: Use products in Dynamics 365 Sales to define the products or services that your organization offers.
-ms.date: 10/17/2023
+ms.date: 10/18/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -47,8 +47,7 @@ Products that you create are visible to all users in your organization.
   
 1. To create an independent product, select **Add Product**. The following scree
 
-    > [!div class="mx-imgBorder"]
-    > ![List of products.](media/products-grid.png "Products grid") 
+    :::image type="content" source="media/products-grid.png" alt-text="new ":::
   
 4. Fill in your information:  
   
