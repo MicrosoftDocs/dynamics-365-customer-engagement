@@ -22,182 +22,181 @@ This article provides information about the supported languages and locale codes
 Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
 
 > [!NOTE]
-> - End-to-end voice and IVR support is available only if a language is supported in Copilot Studio and Omnichannel for Customer Service. 
-> - Sentiment and AI insights are optional for the voice functionality.
+> Sentiment and AI insights are optional for the voice functionality.
 
 See the information in the following table to know about the supported languages and locale codes.
 
-| Language | Locale code | Voice channel | Copilot Studio | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
+| Language | Locale code | Voice channel | Copilot Studio | IVR | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
-| Afrikaans - South Africa | `af- ZA` |x|x|x|x|x|x|x|
-| Amharic | `am- ET` |x|x|x|x|x|x|x|
-| Arabic - Algeria| `ar-DZ` |x|x|✔|✔|x|x|x|
-| Arabic - Bahrain| `ar-BH` |x|x|✔|✔|x|x|x|
-| Arabic - Egypt| `ar-EG` |x|x|✔|✔|x|x|x|
-| Arabic - Iraq| `ar-IQ` |x|x|✔|✔|x|x|x|
-| Arabic - Israel| `ar-IL` |x|x|✔|x|x|x|x|
-| Arabic - Jordan| `ar-JO` |x|x|✔|✔|x|x|x|
-| Arabic - Kuwait| `ar-KW` |x|x|✔|✔|x|x|x|
-| Arabic - Lebanon| `ar-LB` |x|x|✔|x|x|x|x|
-| Arabic - Libya| `ar-LY` |x|x|✔|✔|x|x|x|
-| Arabic - Morocco| `ar-MA` |x|x|✔|✔|x|x|x|
-| Arabic - Oman | `ar-OM` |x|x|✔|x|x|x|x|
-| Arabic - Palestinian Authority| `ar-PS` |x|x|✔|x|x|x|x|
-| Arabic - Qatar| `ar-QA` |x|x|✔|✔|x|x|x|
-| Arabic - Saudi Arabia| `ar-SA` |✔|x|✔|✔|✔|✔|✔|
-| Arabic - Syria| `ar- SY` |x|x|✔|✔|x|x|x|
-| Arabic - Tunisia| `ar-TN` |x|x|✔|✔|x|x|x|
-| Arabic - United Arab Emirates| `ar-AE` |x|x|✔|✔|x|x|x|
-| Arabic - Yemen| `ar-YE` |x|x|✔|✔|x|x|x|
-| Armenian | `hy` |x|x|x|x|x|x|x|
-| Assamese | `as` |x|x|x|x|x|x|x|
-| Azerbaijani | `az` |x|x|x|x|x|x|x|
-| Bangla - Bangladesh| `bn-BD` |x|x|x|x|x|x|x|
-| Bashkir | `ba` |x|x|x|x|x|x|x|
-| Basque| `eu-ES` |x|x|x|x|x|x|✔|
-| Bengali - India| `bn-IN` |x|x|x|x|x|x|x|
-| Bosnian (Latin) | `bs` |x|x|x|x|x|x|x|
-| Bulgarian | `bg-BGC UI` |✔|x|✔|✔|✔|x|✔|
-| Burmese - Myanmar| `my-MM` |x|x|x|x|x|x|x|
-| Catalan | `ca` |✔|x|✔|✔|✔|x|✔|
-| Chinese - China - Mandarin| `zh-CN` |✔|✔|✔|✔|✔|x|✔|
-| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |✔|x|✔|✔|✔|x|✔|
-| Chinese - Taiwan - Traditional | `zh-TW` |✔|✔|✔|✔|✔|x|✔|
-| Chinese - Literary | `lzh` |x|x|x|x|x|x|x|
-| Croatian - Croatia | `hr-HR` |✔|x|✔|✔|✔|x|✔|
-| Czech - Czech Republic | `cs-CZ` |✔|✔|✔|✔|✔|x|✔|
-| Danish - Denmark | `da-DK` |✔|✔|✔|✔|✔|x|✔|
-| Dari | `prs` |x|x|x|x|x|x|x|
-| Divehi | `dv` |x|x|x|x|x|x|x|
-| Dutch - Belgium | `nl-BE` |✔|x|✔|✔|x|x|x|
-| Dutch - Netherlands | `nl-NL` |✔|✔|✔|✔|✔|✔|✔|
-| English - Australia | `en-AU` |✔|✔|✔|✔|x|x|x|
-| English - Canada | `en-CA` |x|x|✔|✔|x|x|x|
-| English - Ghana | `en-GH` |x|x|✔|✔|x|x|x|
-| English - Hong Kong SAR | `en-HK` |x|x|✔|✔|x|x|x|
-| English - India | `en-IN` |x|x|✔|✔|x|x|x|
-| English - Ireland | `en-IE` |x|x|✔|✔|x|x|x|
-| English - Kenya | `en-KE` |x|x|✔|✔|x|x|x|
-| English - Nigeria | `en-NG` |x|x|✔|✔|x|x|x|
-| English - New Zealand | `en-NZ` |✔|x|✔|✔|x|x|x|
-| English - Philippines | `en-PH` |x|x|✔|✔|x|x|x|
-| English - Singapore | `en-SG` |x|x|✔|✔|x|x|x|
-| English - South Africa | `en-SA` |x|x|✔|✔|x|x|x|
-| English - Tanzania | `en-TZ` |x|x|✔|✔|x|x|x|
-| English - United Kingdom | `en-GB` |✔|✔|✔|✔|x|x|x|
-| English - United States | `en-US` |✔|✔|✔|✔|✔|✔|✔|
-| Estonian - Estonia | `et-EE` |✔|x|✔|✔|✔|x|✔|
-| Fijian | `fj` |x|x|x|x|x|x|x|
-| Filipino | `fil-PH` |x|x|x|✔|x|x|x|
-| Finnish | `fi-FI` |✔|✔|✔|✔|✔|x|✔|
-| French - Canada | `fr-CA` |✔|✔|✔|✔|x|x|x|
-| French - France | `fr-FR` |✔|✔|✔|✔|✔|✔|✔|
-| French - Switzerland| `fr-CH` |x|x|✔|✔|x|x|x|
-| Galician | `gl-ES` |x|x|x|x|x|x|✔|
-| Georgian | `ka` |x|x|x|x|x|x|x|
-| German - Austria| `de-AT` |x|x|✔|✔|x|x|x|
-| German - Germany | `de-DE` |✔|✔|✔|✔|✔|✔|✔|
-| German - Switzerland | `de-CH` |x|x|✔|✔|x|x|x|
-| Greek - Greece| `el-GR` |✔|✔|✔|✔|✔|x|✔|
-| Gujarati - India | `gu-IN` |x|x|✔|✔|x|x|x|
-| Haitian Creole | `ht` |x|x|x|x|x|x|x|
-| Hebrew - Israel | `he-IL` |✔|x|✔|✔|✔|x|✔|
-| Hindi - India | `hi-IN` |✔|✔|✔|✔|✔|x|✔|
-| Hmong Daw | `mww` |x|x|x|x|x|x|x|
-| Hungarian - Hungary | `hu-HU` |✔|x|✔|✔|✔|x|✔|
-| Icelandic - Iceland| `is-IS` |x|x|x|x|x|x|x|
-| Indonesian - Indonesia | `id-ID` |✔|✔|✔|✔|✔|x|✔|
-| Inuinnaqtun | `ikt` |x|x|x|x|x|x|x|
-| Inuktitut | `iu` |x|x|x|x|x|x|x|
-| Inuktitut - Latin | `iu-Latn` |x|x|x|x|x|x|x|
-| Irish - Ireland | `ga-IE` |x|x|✔|✔|x|x|x|
-| Italian - Italy| `it -IT` |✔|✔|✔|✔|✔|✔|✔|
-| Japanese - Japan | `ja-JP` |✔|✔|✔|✔|✔|✔|✔|
-| Javanese - Indonesia | `jv-ID` |x|x|x|x|x|x|x| 
-| Kannada - India | `kn-IN` |x|x|✔|✔|x|x|x|
-| Kazakh - Kazakhstan | `kk-KZ` |x|x|x|x|x|x|✔|
-| Khmer - Cambodia | `km-KH` |x|x|x|x|x|x|x|
-| Klingon | `tlh-` |x|x|x|x|x|x|x|
-| Klingon (plqaD) | `tlh-Piqd` |x|x|x|x|x|x|x|
-| Korean - Korea | `ko-KR` |✔|✔|✔|✔|✔|x|✔|
-| Kurdish (Central) | `ku` |x|x|x|x|x|x|x|
-| Kurdish (Northern) | `kmr` |x|x|x|x|x|x|x|
-| Kyrgyz | `ky` |x|x|x|x|x|x|x|
-| Lao - Laos | `lo-LA` |x|x|x|x|x|x|x|
-| Latvian - Latvia | `lv-LV` |✔|x|✔|✔|✔|x|✔|
-| Lithuanian - Lithuania | `lt-LT` |✔|x|✔|✔|✔|x|✔|
-| Macedonian - Republic of North Macedonia | `mk-MK` |x|x|x|x|x|x|x|
-| Malagasy | `mg` |x|x|x|x|x|x|x|
-| Malay - Malaysia | `ms-MY` |✔|x|✔|✔|✔|x|✔|
-| Malayalam - India | `ml-IN` |x|x|x|x|x|x|x|
-| Maltese - Malta | `mt-MT` |x|x|✔|✔|x|x|x|
-| Maori | `mi` |x|x|x|x|x|x|x|
-| Marathi - India | `mr-IN` |x|x|✔|✔|x|x|x|
-| Mongolian - Cyrillic | `mn-Cyrl` |x|x|x|x|x|x|x|
-| Mongolian - Traditional | `mn-Mong` |x|x|x|x|x|x|x|
-| Nepali | `ne` |x|x|x|x|x|x|x|
-|Norwegian Bokmal - Norway| `nb-NO` |✔|✔|✔|✔|✔|x|✔|
-| Odia | `or` |x|x|x|x|x|x|x|
-| Pashto - Afghanistan | `ps-AF` |x|x|x|x|x|x|x|
-| Persian - Iran | `fa-IR` |x|x|x|x|x|x|x|
-| Polish - Poland | `pl-PL` |✔|✔|✔|✔|✔|x|✔|
-| Portuguese - Brazil | `pt-BR` |✔|✔|✔|✔|✔|x|✔|
-| Portuguese - Portugal | `pt-PT` |✔|x|✔|✔|x|x|x|
-| Punjabi | `pa` |x|x|x|x|x|x|x|
-| Queretaro Otomi | `otq` |x|x|x|x|x|x|x|
-| Romanian - Romania | `ro-RO` |✔|x|✔|✔|✔|x|✔|
-| Russian - Russia | `ru-RU` |✔|✔|✔|✔|✔|x|✔|
-| Samoan | `sm` |x|x|x|x|x|x|x|
-| Serbian (Cyrillic) - Serbia | `sr-Cyrl-CS` or sr-RS |x|x|x|x|✔|x|✔|
-| Serbian (Latin) - Serbia | `sr-Latn-CS` |x|x|x|x|✔|x|✔|
-| Sinhala - Sri Lanka | `si-LK` |x|x|x|x|x|x|x|
-| Slovak - Slovakia | `sk-SK` |✔|x|✔|✔|✔|x|✔|
-| Slovenian - Slovenia| `sl-SL` |✔|x|✔|✔|✔|x|✔|
-| Somali - Somalia | `so-SO` |x|x|x|x|x|x|x|
-| Spanish - Argentina | `es-AR` |x|x|✔|✔|x|x|x|
-| Spanish - Bolivia| `es-BO` |x|x|✔|✔|x|x|x|
-| Spanish - Chile | `es-CL` |x|x|✔|✔|x|x|x|
-| Spanish - Colombia | `es-CO` |x|x|✔|✔|x|x|x|
-| Spanish - Costa Rica| `es-CR` |x|x|✔|✔|x|x|x|
-| Spanish - Cuba| `es-CU` |x|x|✔|✔|x|x|x|
-| Spanish - Dominican Republic| `es-DO` |x|x|✔|✔|x|x|x|
-| Spanish - Ecuador| `es-EC` |x|x|✔|✔|x|x|x|
-| Spanish - El Salvador| `es-SV` |x|x|✔|✔|x|x|x|
-| Spanish Equatorial Guinea| `es-GQ` |x|x|✔|✔|x|x|x|
-| Spanish - Guatemala| `es-GT` |x|x|✔|✔|x|x|x|
-| Spanish - Honduras| `es-HN` |x|x|✔|✔|x|x|x|
-| Spanish - Mexico | `es-MX` |✔|x|✔|✔|x|x|x|
-| Spanish - Nicaragua| `es-NI` |x|x|✔|✔|x|x|x|
-| Spanish - Panama| `es-PA` |x|x|✔|✔|x|x|x|
-| Spanish - Paraguay| `es-PY` |x|x|✔|✔|x|x|x|
-| Spanish - Peru| `es-PE` |x|x|✔|✔|x|x|x|
-| Spanish - Puerto Rico| `es-PR` |x|x|✔|✔|x|x|x|
-| Spanish - Spain | `es-ES` |✔|✔|✔|✔|✔|✔|✔|
-| Spanish - Venezuela| `es-VE` |x|x|✔|✔|x|x|x|
-| Spanish - Uruguay| `es-UY` |x|x|✔|✔|x|x|x|
-| Spanish - US| `es-US` |✔|✔|✔|✔|x|x|x|
-| Sudanese - Indonesia | `su-ID` |x|x|x|x|x|x|x|
-| Swahili - Kenya| `sw-KE` |x|x|✔|✔|x|x|x|
-| Swahili - Tanzania| `sw-TZ` |x|x|x|x|x|x|x|
-| Swedish - Sweden | `sv-SE` |✔|✔|✔|✔|✔|x|✔|
-| Tahitian | `ty` |x|x|x|x|x|x|x|
-| Tamil - India | `ta-IN` |x|x|✔|✔|x|x|x|
-| Tatar | `tt` |x|x|x|x|x|x|x|
-| Telugu - India | `te-IN` |x|x|✔|✔|x|x|x|
-| Thai - Thailand | `th-TH` |✔|✔|✔|✔|✔|x|✔|
-| Tibetan | `bo` |x|x|x|x|x|x|x|
-| Tigrinya | `ti` |x|x|x|x|x|x|x|
-| Tongan | `to` |x|x|x|x|x|x|x|
-| Turkish - Türkiye | `tr-TR` |✔|✔|✔|✔|✔|x|✔|
-| Ukrainian - Ukraine | `uk-UA` |x|x|x|x|✔|x|✔|
-| Upper Sorbian | `hsb` |x|x|x|x|x|x|x|
-| Urdu - India | `ur-IN` |x|x|x|x|x|x|x|
-| Uyghur | `ug` |x|x|x|x|x|x|x|
-| Uzbek - Uzbekistan | `uz-UZ` |x|x|x|x|x|x|x|
-| Vietnamese - Vietnam | `vi-VN` |✔|x|✔|✔|✔|x|✔|
-| Welsh - United Kingdom | `cy-GB` |x|x|x|x|x|x|x|
-| Yucatec Maya | `yua` |x|x|x|x|x|x|x|
-| Zulu - South Africa| `zu-ZA` |x|x|x|x|x|x|x|
+| Afrikaans - South Africa | `af- ZA` |No|No|No|No|No|No|No|No|
+| Amharic | `am- ET` |No|No|No|No|No|No|No|No|
+| Arabic - Algeria| `ar-DZ` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Bahrain| `ar-BH` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Egypt| `ar-EG` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Iraq| `ar-IQ` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Israel| `ar-IL` |No|No|No|Yes|No|No|No|No|
+| Arabic - Jordan| `ar-JO` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Kuwait| `ar-KW` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Lebanon| `ar-LB` |No|No|No|Yes|No|No|No|No|
+| Arabic - Libya| `ar-LY` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Morocco| `ar-MA` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Oman | `ar-OM` |No|No|No|Yes|No|No|No|No|
+| Arabic - Palestinian Authority| `ar-PS` |No|No|No|Yes|No|No|No|No|
+| Arabic - Qatar| `ar-QA` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Saudi Arabia| `ar-SA` |Yes|No|No|Yes|Yes|Yes|Yes|Yes|
+| Arabic - Syria| `ar- SY` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Tunisia| `ar-TN` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - United Arab Emirates| `ar-AE` |No|No|No|Yes|Yes|No|No|No|
+| Arabic - Yemen| `ar-YE` |No|No|No|Yes|Yes|No|No|No|
+| Armenian | `hy` |No|No|No|No|No|No|No|No|
+| Assamese | `as` |No|No|No|No|No|No|No|No|
+| Azerbaijani | `az` |No|No|No|No|No|No|No|No|
+| Bangla - Bangladesh| `bn-BD` |No|No|No|No|No|No|No|No|
+| Bashkir | `ba` |No|No|No|No|No|No|No|No|
+| Basque| `eu-ES` |No|No|No|No|No|No|No|Yes|
+| Bengali - India| `bn-IN` |No|No|No|No|No|No|No|No|
+| Bosnian (Latin) | `bs` |No|No|No|No|No|No|No|No|
+| Bulgarian | `bg-BGC UI` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Burmese - Myanmar| `my-MM` |No|No|No|No|No|No|No|No|
+| Catalan | `ca` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Chinese - China - Mandarin| `zh-CN` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Chinese - Hong Kong SAR - Cantonese | `zh-HK` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Chinese - Taiwan - Traditional | `zh-TW` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Chinese - Literary | `lzh` |No|No|No|No|No|No|No|No|
+| Croatian - Croatia | `hr-HR` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Czech - Czech Republic | `cs-CZ` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Danish - Denmark | `da-DK` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Dari | `prs` |No|No|No|No|No|No|No|No|
+| Divehi | `dv` |No|No|No|No|No|No|No|No|
+| Dutch - Belgium | `nl-BE` |Yes|No|No|Yes|Yes|No|No|No|
+| Dutch - Netherlands | `nl-NL` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| English - Australia | `en-AU` |Yes|Yes|Yes|Yes|Yes|No|No|No|
+| English - Canada | `en-CA` |No|No|No|Yes|Yes|No|No|No|
+| English - Ghana | `en-GH` |No|No|No|Yes|Yes|No|No|No|
+| English - Hong Kong SAR | `en-HK` |No|No|No|Yes|Yes|No|No|No|
+| English - India | `en-IN` |No|No|No|Yes|Yes|No|No|No|
+| English - Ireland | `en-IE` |No|No|No|Yes|Yes|No|No|No|
+| English - Kenya | `en-KE` |No|No|No|Yes|Yes|No|No|No|
+| English - Nigeria | `en-NG` |No|No|No|Yes|Yes|No|No|No|
+| English - New Zealand | `en-NZ` |Yes|No|No|Yes|Yes|No|No|No|
+| English - Philippines | `en-PH` |No|No|No|Yes|Yes|No|No|No|
+| English - Singapore | `en-SG` |No|No|No|Yes|Yes|No|No|No|
+| English - South Africa | `en-SA` |No|No|No|Yes|Yes|No|No|No|
+| English - Tanzania | `en-TZ` |No|No|No|Yes|Yes|No|No|No|
+| English - United Kingdom | `en-GB` |Yes|Yes|Yes|Yes|Yes|No|No|No|
+| English - United States | `en-US` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| Estonian - Estonia | `et-EE` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Fijian | `fj` |No|No|No|No|No|No|No|No|
+| Filipino | `fil-PH` |No|No|No|No|Yes|No|No|No|
+| Finnish | `fi-FI` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| French - Canada | `fr-CA` |Yes|Yes|Yes|Yes|Yes|No|No|No|
+| French - France | `fr-FR` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| French - Switzerland| `fr-CH` |No|No|No|Yes|Yes|No|No|No|
+| Galician | `gl-ES` |No|No|No|No|No|No|No|Yes|
+| Georgian | `ka` |No|No|No|No|No|No|No|No|
+| German - Austria| `de-AT` |No|No|No|Yes|Yes|No|No|No|
+| German - Germany | `de-DE` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| German - Switzerland | `de-CH` |No|No|No|Yes|Yes|No|No|No|
+| Greek - Greece| `el-GR` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Gujarati - India | `gu-IN` |No|No|No|Yes|Yes|No|No|No|
+| Haitian Creole | `ht` |No|No|No|No|No|No|No|No|
+| Hebrew - Israel | `he-IL` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Hindi - India | `hi-IN` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Hmong Daw | `mww` |No|No|No|No|No|No|No|No|
+| Hungarian - Hungary | `hu-HU` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Icelandic - Iceland| `is-IS` |No|No|No|No|No|No|No|No|
+| Indonesian - Indonesia | `id-ID` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Inuinnaqtun | `ikt` |No|No|No|No|No|No|No|No|
+| Inuktitut | `iu` |No|No|No|No|No|No|No|No|
+| Inuktitut - Latin | `iu-Latn` |No|No|No|No|No|No|No|No|
+| Irish - Ireland | `ga-IE` |No|No|No|Yes|Yes|No|No|No|
+| Italian - Italy| `it -IT` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| Japanese - Japan | `ja-JP` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| Javanese - Indonesia | `jv-ID` |No|No|No|No|No|No|No|No| 
+| Kannada - India | `kn-IN` |No|No|No|Yes|Yes|No|No|No|
+| Kazakh - Kazakhstan | `kk-KZ` |No|No|No|No|No|No|No|Yes|
+| Khmer - Cambodia | `km-KH` |No|No|No|No|No|No|No|No|
+| Klingon | `tlh-` |No|No|No|No|No|No|No|No|
+| Klingon (plqaD) | `tlh-Piqd` |No|No|No|No|No|No|No|No|
+| Korean - Korea | `ko-KR` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| Kurdish (Central) | `ku` |No|No|No|No|No|No|No|No|
+| Kurdish (Northern) | `kmr` |No|No|No|No|No|No|No|No|
+| Kyrgyz | `ky` |No|No|No|No|No|No|No|No|
+| Lao - Laos | `lo-LA` |No|No|No|No|No|No|No|No|
+| Latvian - Latvia | `lv-LV` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Lithuanian - Lithuania | `lt-LT` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Macedonian - Republic of North Macedonia | `mk-MK` |No|No|No|No|No|No|No|No|
+| Malagasy | `mg` |No|No|No|No|No|No|No|No|
+| Malay - Malaysia | `ms-MY` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Malayalam - India | `ml-IN` |No|No|No|No|No|No|No|No|
+| Maltese - Malta | `mt-MT` |No|No|No|Yes|Yes|No|No|No|
+| Maori | `mi` |No|No|No|No|No|No|No|No|
+| Marathi - India | `mr-IN` |No|No|No|Yes|Yes|No|No|No|
+| Mongolian - Cyrillic | `mn-Cyrl` |No|No|No|No|No|No|No|No|
+| Mongolian - Traditional | `mn-Mong` |No|No|No|No|No|No|No|No|
+| Nepali | `ne` |No|No|No|No|No|No|No|No|
+|Norwegian Bokmal - Norway| `nb-NO` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Odia | `or` |No|No|No|No|No|No|No|No|
+| Pashto - Afghanistan | `ps-AF` |No|No|No|No|No|No|No|No|
+| Persian - Iran | `fa-IR` |No|No|No|No|No|No|No|No|
+| Polish - Poland | `pl-PL` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Portuguese - Brazil | `pt-BR` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Portuguese - Portugal | `pt-PT` |Yes|No|No|Yes|Yes|No|No|No|
+| Punjabi | `pa` |No|No|No|No|No|No|No|No|
+| Queretaro Otomi | `otq` |No|No|No|No|No|No|No|No|
+| Romanian - Romania | `ro-RO` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Russian - Russia | `ru-RU` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Samoan | `sm` |No|No|No|No|No|No|No|No|
+| Serbian (Cyrillic) - Serbia | `sr-Cyrl-CS` or sr-RS |No|No|No|No|No|Yes|No|Yes|
+| Serbian (Latin) - Serbia | `sr-Latn-CS` |No|No|No|No|No|Yes|No|Yes|
+| Sinhala - Sri Lanka | `si-LK` |No|No|No|No|No|No|No|No|
+| Slovak - Slovakia | `sk-SK` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Slovenian - Slovenia| `sl-SL` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Somali - Somalia | `so-SO` |No|No|No|No|No|No|No|No|
+| Spanish - Argentina | `es-AR` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Bolivia| `es-BO` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Chile | `es-CL` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Colombia | `es-CO` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Costa Rica| `es-CR` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Cuba| `es-CU` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Dominican Republic| `es-DO` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Ecuador| `es-EC` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - El Salvador| `es-SV` |No|No|No|Yes|Yes|No|No|No|
+| Spanish Equatorial Guinea| `es-GQ` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Guatemala| `es-GT` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Honduras| `es-HN` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Mexico | `es-Mx` |Yes|No|No|Yes|Yes|No|No|No|
+| Spanish - Nicaragua| `es-NI` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Panama| `es-PA` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Paraguay| `es-PY` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Peru| `es-PE` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Puerto Rico| `es-PR` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Spain | `es-ES` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
+| Spanish - Venezuela| `es-VE` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - Uruguay| `es-UY` |No|No|No|Yes|Yes|No|No|No|
+| Spanish - US| `es-US` |Yes|Yes|Yes|Yes|Yes|No|No|No|
+| Sudanese - Indonesia | `su-ID` |No|No|No|No|No|No|No|No|
+| Swahili - Kenya| `sw-KE` |No|No|No|Yes|Yes|No|No|No|
+| Swahili - Tanzania| `sw-TZ` |No|No|No|No|No|No|No|No|
+| Swedish - Sweden | `sv-SE` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Tahitian | `ty` |No|No|No|No|No|No|No|No|
+| Tamil - India | `ta-IN` |No|No|No|Yes|Yes|No|No|No|
+| Tatar | `tt` |No|No|No|No|No|No|No|No|
+| Telugu - India | `te-IN` |No|No|No|Yes|Yes|No|No|No|
+| Thai - Thailand | `th-TH` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Tibetan | `bo` |No|No|No|No|No|No|No|No|
+| Tigrinya | `ti` |No|No|No|No|No|No|No|No|
+| Tongan | `to` |No|No|No|No|No|No|No|No|
+| Turkish - Türkiye | `tr-TR` |Yes|Yes|Yes|Yes|Yes|Yes|No|Yes|
+| Ukrainian - Ukraine | `uk-UA` |No|No|No|No|No|Yes|No|Yes|
+| Upper Sorbian | `hsb` |No|No|No|No|No|No|No|No|
+| Urdu - India | `ur-IN` |No|No|No|No|No|No|No|No|
+| Uyghur | `ug` |No|No|No|No|No|No|No|No|
+| Uzbek - Uzbekistan | `uz-UZ` |No|No|No|No|No|No|No|No|
+| Vietnamese - Vietnam | `vi-VN` |Yes|No|No|Yes|Yes|Yes|No|Yes|
+| Welsh - United Kingdom | `cy-GB` |No|No|No|No|No|No|No|No|
+| Yucatec Maya | `yua` |No|No|No|No|No|No|No|No|
+| Zulu - South Africa| `zu-ZA` |No|No|No|No|No|No|No|No|
 
 Use the information in the following table to find out more about language support for voice-related features.
 
