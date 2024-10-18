@@ -36,9 +36,9 @@ You can set up service scheduling from the Power Platform admin center.
 
 How you set up service scheduling differs, based on the following scenarios:
 
-- For new or existing organizations, where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
+- For new or existing organizations where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-- For existing organizations, where the Core Service Scheduling solution is already installed, further updates happen automatically.
+- For existing organizations where the Core Service Scheduling solution is already installed, further updates happen automatically.
 
 ### Related information
 
