@@ -25,30 +25,27 @@ After creating a knowledge article, you can have the article reviewed or schedul
    - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas.
    - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
 
-1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [text editor](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
+1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [ Designer text editor](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
 
-1. **Save** the knowledge article.
+1. Select **Save**.
 
-## Review knowledge articles
+## Review a knowledge article
 
 To ensure that the content you create is accurate, have someone review it. You can mark an article for review or directly assign it to a specific person or queue.
 
-1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
 1. Open the article.
 1. Change the **Status Reason** to **Needs review**.
    :::image type="content" source="media/knowledge-article-review.png" alt-text="Screenshot of a knowledge article in Field Service highlighting Status Reason.":::
 
 1. Reviewers can change the **Status Reason** to **In review** when reviewing the article.
-1. Reviewers work with the author to update the article.
-1. When the reviewer is satisfied with the article, on the command bar, select the vertical ellipsis &vellip; > **Approve**.
+1. When the reviewer is satisfied with the article, on the command bar, select the **More commands** (**&vellip;**) > **Approve**.
 
-## Publish knowledge articles
+## Publish a knowledge article
 
 After the content in the article is complete, publish the article to make it available to your technicians. You can publish the article immediately or schedule it for a later time.
 
-1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
 1. Open the article.
-1. On the command bar, select the vertical ellipsis &vellip; > **Publish**.
+1. On the command bar, select the **More commands** (**&vellip;**) > **Publish**.
    :::image type="content" source="media/knowledge-article-publish.png" alt-text="Screenshot of a Field Service knowledge article, showing the Publish pane.":::
 
 1. Enter the following information:
@@ -59,10 +56,22 @@ After the content in the article is complete, publish the article to make it ava
 
 1. Select **Publish**. The **Status Reason** changes to **Published**.
 
+## Update a published knowledge article
+
+In some cases you might want to update a published knowledge article without creating a major or minor version. For example, to fix grammatical errors or make minor updates based on feedback. Those with a Publish privilege can update a published article.
+
+1. Open the published article you want to edit.
+
+1. Make the necessary changes.
+
+1. On the command bar, select **Update**.  
+  
+1. Close the article.  
+  
 ## Next steps
 
-- [Translate the article](field-service-km-translate.md).
-- [Link the article to an entity](field-service-km-link.md).
+- [Translate the article](field-service-km-translate.md)
+- [Link the article to an entity](field-service-km-link.md)
 - [Create a work order](create-work-order.md)
 - [Create work order templates with incident types](configure-incident-types.md)
 

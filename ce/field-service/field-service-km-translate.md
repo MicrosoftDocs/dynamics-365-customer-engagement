@@ -18,7 +18,7 @@ You can set languages that are supported by your Dynamics 365 instance.
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
 1. Open the article.
-1. On the command bar, select the vertical ellipsis &vellip; > **Translate**.
+1. On the command bar, select the **More commands** (**&vellip;**) > **Translate**.
 1. Select the article you want to translate, and from the command bar, select **Translate**.  
 1. Enter the following information:
    - **Pick a language**: Search for and select the language you want.  

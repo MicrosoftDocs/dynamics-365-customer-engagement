@@ -1,6 +1,6 @@
 ---
-title: Manage article versions
-description: Learn how to manage new versions of knowledge articles in Dynamics 365 Field Service. 
+title: Submit feedback on knowledge articles
+description: Learn how to submit feedback on knowledge articles in Dynamics 365 Field Service. 
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to

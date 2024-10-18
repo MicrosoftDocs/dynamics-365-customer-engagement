@@ -10,13 +10,13 @@ ms.custom: bap-template
 
 # Create a knowledge article template
 
-Knowledge article templates help knowledge authors simplify the process of creating knowledge articles. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure.
+Knowledge article templates help knowledge authors simplify the process of creating knowledge articles. Templates also help authors maintain consistency in branding, language, and structure.
 
 When an author chooses a template to create an article, certain fields in the template are prepopulated with values, allowing the author to focus on the main content of the article.
 
 ## Create a template
 
-You can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields are prepopulated when the author creates the article using the template, reducing the effort to fill in these fields.
+You can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject.
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge article templates** and select **New**.
 1. Choose a language and select **OK**.
