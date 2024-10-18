@@ -29,9 +29,9 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
 ## Prerequisites
 
-To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
+- To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
 
-You don't require a Power BI license to edit the out-of-the-box Power BI reports in Dynamics 365.
+- You don't require a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in the Customer Service workspace or the Contact Center workspace.
 
 ## Customize the display of analytics reports
 
@@ -53,7 +53,9 @@ You don't require a Power BI license to edit the out-of-the-box Power BI reports
 
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 
-After you publish the report, all customizations become visible to all users in your organization.
+> [!NOTE]
+> - After you publish the report, all customizations become visible to all users in your organization.
+> - You can also build your reports using the out-of-the-box data model. Learn more in [Overview of data model customization](datamodel-overview.md).
 
 To revert all your changes to the original report settings, select **Edit report** > **Checkout default report** > **Reset**.
 
