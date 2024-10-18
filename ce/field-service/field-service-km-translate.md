@@ -14,7 +14,7 @@ Your knowledge article must reach your customers irrespective of their market or
 
 ## Select a language for your knowledge article translation
 
-You can set languages that are supported by your Dynamics 365 instance.
+You can set languages that your Dynamics 365 instance supports.
 
 1. In Field Service, go to **Settings** > **Knowledge management** > **Knowledge articles**.
 1. Open the article.
@@ -26,7 +26,7 @@ You can set languages that are supported by your Dynamics 365 instance.
 1. Select **Create**.  
 1. Enter your translated text in the appropriate fields.
 1. Select **Save & Close**.
-1. When your translation is ready for publish, go to [Publish knowledge articles](field-service-knowledge-management.md#publish-knowledge-articles).
+1. When your translation is ready for publish, go to [Publish a knowledge article](field-service-knowledge-management.md#publish-a-knowledge-article).
 
 ## Manage article translations  
 

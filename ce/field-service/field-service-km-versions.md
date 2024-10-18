@@ -10,9 +10,9 @@ ms.custom: bap-template
 
 # Manage article versions
 
-Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. An example of a major version is when your documentation changes to detail a new feature or functionality, while a minor version might be a change to the user interface with no change to functionality.  
+Article versioning helps you manage updates to your knowledge articles without disrupting the live or published articles. By creating major and minor versions of a knowledge article, you can keep your articles up to date with the latest information while keeping track of changes throughout the lifecycle of your products and services. If your article has extensive changes or is based on a new feature, you might want to create a major version. If the aritlce is small changes or isn't based on a change to functionality, you might want to create a minor version.  
   
-This capability helps you to keep accurate records of the features your organization provides and go back to previous versions if you need to.
+Versioning helps you to keep accurate records of the features your organization provides and lets you go back to previous versions if you need to.
 
 ## Create a new version
   
@@ -25,11 +25,11 @@ This capability helps you to keep accurate records of the features your organiza
     > [!NOTE]
     > You won’t be able to make any changes to the **Major Version Number**, **Minor Version Number**, **Language**, or **Article Public Number** fields when creating a new major or minor version of an article.  
   
-1. After you have reviewed the article, make any changes that you want to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
+1. Make changes to the new version. You can update the article title, content, keywords, and description to reflect any changes to your products, features, or services.  
   
 ## Review and publish your new version  
 
-When you're done making changes, you can push the new version of your article through your standard article workflow. When you're finished reviewing and are ready to publish, on the command bar, select the **More commands** (**&vellip;**) > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. Learn more: [Publish knowledge articles](field-service-knowledge-management.md#publish-knowledge-articles).
+When you're done making changes, you can push the new version of your article through your standard article workflow. When you're finished reviewing and are ready to publish, on the command bar, select the **More commands** (**&vellip;**) > **Publish**, and then choose how and when you want to publish your new version. You can publish your new version immediately, schedule it to publish at a future date, or leave it as a draft to manually publish later. Learn more: [Publish knowledge articles](field-service-knowledge-management.md#publish-a-knowledge-article).
   
 ## Manage article versions
 

@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Create knowledge articles
 
-Write a knowledge article to share information with technicians. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles.
+Write a knowledge article to share information with technicians. Add images and videos to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles.
 
 After creating a knowledge article, you can have the article reviewed or schedule it for publication. An article isn't available to dispatchers and technicians until the article is published.
 
@@ -58,7 +58,7 @@ After the content in the article is complete, publish the article to make it ava
 
 ## Update a published knowledge article
 
-In some cases you might want to update a published knowledge article without creating a major or minor version. For example, to fix grammatical errors or make minor updates based on feedback. Those with a Publish privilege can update a published article.
+You might want to update a published knowledge article without creating a major or minor version. For example, to fix grammatical errors or make minor updates based on feedback. Users with a *Publish* privilege can update a published article.
 
 1. Open the published article you want to edit.
 
