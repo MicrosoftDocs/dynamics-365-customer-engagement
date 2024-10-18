@@ -47,7 +47,7 @@ Products that you create are visible to all users in your organization.
   
 1. To create an independent product, select **Add Product**. The following scree
 
-    :::image type="content" source="media/products-grid.png" alt-text="new ":::
+    :::image type="content" source="media/products-grid.png" alt-text="products-grid":::
   
 4. Fill in your information:  
   
