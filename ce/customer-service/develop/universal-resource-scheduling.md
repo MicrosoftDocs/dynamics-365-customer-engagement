@@ -350,7 +350,7 @@ The following sample code shows how to implement `msdyn_SearchResourceAvailabili
             EntityCollection resourceAssignment = new EntityCollection(); 
             var entity = new Entity(); 
             entity["RequirementId"] = Guid.Parse("df4260ee-180d-eb11-a822-000d3aaf102a"); 
-            entity["ResourceId"] = Guid.Parse("268e3d0d-5e0c-eb11-a822-000d3aaf102a"); 
+            entity["ResourceId"] = Guid.Parse("a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1"); 
             entity["BookingStatusId"] = Guid.Parse("10de5842-cf5e-4092-9006-d0aa9f9c1f74"); 
             resourceAssignment.Entities.Add(entity); 
             req["ResourceAssignments"] = resourceAssignment; 

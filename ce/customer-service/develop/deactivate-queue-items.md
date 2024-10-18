@@ -34,7 +34,7 @@ For information about how you can modify the sample code to suit your environmen
         AuthType = OAuth;
         UserName = {userName};
         Password = {password};
-        AppId = 51f81489-12ee-4a9e-aaae-a2591f45987d;
+        AppId = 00001111-aaaa-2222-bbbb-3333cccc4444;
         RedirectUri = app://58145B91-0C36-4500-8554-080854F2AC97;
         LoginPrompt=Auto;
         RequireNewInstance = True";

@@ -31,9 +31,9 @@ The Conversation Conductor handles the audio stream required to support biometri
 
 1. Create service principals in the Azure tenant by using the following PowerShell commands:
    - `Connect-AzAccount -SubscriptionId "<SubscriptionID>”`
-   - `New-AzADServicePrincipal -ApplicationId "c880d6fb-5c66-49ef-9cf5-e53e31900be5" -DisplayName "Conversation Conductor"`
+   - `New-AzADServicePrincipal -ApplicationId "00001111-aaaa-2222-bbbb-3333cccc4444" -DisplayName "Conversation Conductor"`
 
-1. Provide contributor access to the Conversation Conductor so it can answer calls on the Azure Communication Services resource. (Application id: c880d6fb-5c66-49ef-9cf5-e53e31900be5).
+1. Provide contributor access to the Conversation Conductor so it can answer calls on the Azure Communication Services resource. (Application id: 00001111-aaaa-2222-bbbb-3333cccc4444).
 
 1. Go to **Communication Service** > **Select the specific ACS resource** > **Access Control** > **Add role** assignment, and then select **Conversation Conductor** app in **Contributor**.
 
@@ -45,11 +45,11 @@ Create a new Omnichannel Service Principal account to configure new Event Grid s
 
 1. Create the Service Principal for Omnichannel for Customer Service.
     - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
-    - `New-AzADServicePrincipal -ApplicationId "a950df6d-e658-48fc-b494-ec69d8d9731b" -DisplayName "Omnichannel EventGrid Writer App"`.
+    - `New-AzADServicePrincipal -ApplicationId "11112222-bbbb-3333-cccc-4444dddd5555" -DisplayName "Omnichannel EventGrid Writer App"`.
 
 1. Provide access to the Omnichannel Event Grid Writer with the permission to configure Event Grid subscriptions on the Azure Communication Services resource.
    - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
-   - `New-AzRoleAssignment -ApplicationId "a950df6d-e658-48fc-b494-ec69d8d9731b" -RoleDefinitionName "EventGrid EventSubscription Contributor" -Scope "<ACSResourceId>"`.
+   - `New-AzRoleAssignment -ApplicationId "11112222-bbbb-3333-cccc-4444dddd5555" -RoleDefinitionName "EventGrid EventSubscription Contributor" -Scope "<ACSResourceId>"`.
 
 ### Related information
 

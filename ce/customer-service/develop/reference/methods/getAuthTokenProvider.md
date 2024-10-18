@@ -34,7 +34,7 @@ Returns the currently set authentication token provider, if any. If there is no 
 
 ```JavaScript
 let payloadToEncrypt = {
-    "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",
+    "sub" : "aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb",
     "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\"}",
     "iat" : 1542622071,
     "iss" : "contosohelp.com",

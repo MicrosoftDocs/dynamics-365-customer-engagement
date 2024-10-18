@@ -59,7 +59,7 @@ Creates a new session passing the incident as entity name, incident Id as entity
 
 ```JavaScript
 x=new Map();
-x.set("parametersStr", '[["entityName", "incident"], ["entityId", "fac04293-1ab0-eb11-8236-000d3a5c49ed"]]');
+x.set("parametersStr", '[["entityName", "incident"], ["entityId", "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"]]');
 Microsoft.Apm.createSession({templateName: "case_entity_session_default_template", sessionContext: x});
 ```
 
@@ -67,7 +67,7 @@ Microsoft.Apm.createSession({templateName: "case_entity_session_default_template
 
 ```JavaScript
 x=new Map(); 
-x.set("parametersStr", '[["entityName", "incident"], ["entityId", "0e0e6c4f-cbb6-eb11-8236-000d3a5ab8b9"]]'); 
+x.set("parametersStr", '[["entityName", "incident"], ["entityId", "11bb11bb-cc22-dd33-ee44-55ff55ff55ff"]]'); 
 Microsoft.Apm.createSession({templateName: "case_entity_session_default_template", sessionContext: x, isFocused: false}); 
 ```
 
