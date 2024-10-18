@@ -35,7 +35,7 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
 - To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
 
-- You don't require a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in the Customer Service workspace or the Contact Center workspace.
+- You don't need a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in the Customer Service workspace or the Contact Center workspace.
 
 ## Customize the display of analytics reports
 
@@ -60,9 +60,9 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 To revert all your changes to the original report settings, select **Edit report** > **Checkout default report** > **Reset**.
 
    > [!IMPORTANT]
-   > If you select **Reset**, any customizations that you've made are permanently removed.
+   > If you select **Reset**, any customizations that you made are permanently removed.
 
-To continue editing the report after you've published it, select **Resume editing**.
+To continue editing the report after you publish it, select **Resume editing**.
 
 > [!NOTE]
 > Don't add more than 20 metrics or tiles to a report because it affects the report's performance. If you need more metrics, consider creating more pages and provide links to the extra pages from the existing pages.
@@ -77,7 +77,7 @@ You can use facts and dimensions to visualize data according to your organizatio
 
 ### Future data model updates
 
-If you've customized your reports and Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+If you customize your reports and then Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
 ### Related information
 
