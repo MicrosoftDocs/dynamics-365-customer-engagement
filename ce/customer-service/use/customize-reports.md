@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 10/14/2024
+ms.date: 10/18/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -26,6 +26,10 @@ Visualize key performance indicators (KPIs) and trends for standard contact cent
 - Rearrange out-of-the-box report layouts and change themes.
 
 You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace or the Contact Center workspace. You can't customize unified routing and knowledge analytics reports.
+
+> [!NOTE]
+> - After you customize and publish a report, all customizations become visible to all users in your organization.
+> - You can also build new reports and new metrics using the out-of-the-box data model. Learn more in [Overview of data model customization](datamodel-overview.md).
 
 ## Prerequisites
 
@@ -53,14 +57,10 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 
-> [!NOTE]
-> - After you publish the report, all customizations become visible to all users in your organization.
-> - You can also build your reports using the out-of-the-box data model. Learn more in [Overview of data model customization](datamodel-overview.md).
-
 To revert all your changes to the original report settings, select **Edit report** > **Checkout default report** > **Reset**.
 
    > [!IMPORTANT]
-   > If you select **Reset**, any customizations you've made are permanently removed.
+   > If you select **Reset**, any customizations that you've made are permanently removed.
 
 To continue editing the report after you've published it, select **Resume editing**.
 
