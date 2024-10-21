@@ -35,6 +35,13 @@ For information about older versions, see [Version history archive](version-hist
 
 (Includes Universal Resource Scheduling version [3.12.143.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214336) and Resource Scheduling controls version 1.2.82.242904)
 
+-	Fixed a bug that caused bookings unable to be edited until a refresh is performed after editing.
+-	Fixed a bug that caused stale booking suggestions to be presented when navigating between unscheduled work orders.
+-	Improved solution import handling of booking setup metadata in the Field Service Analytics Common solution.
+-	Parent business unit (BU) is no longer required if it is the root BU in FS forms. Backend logic will block creating or 
+  updating a non-root business unit without a parent business unit.
+
+
 ## 8.8.127.75
 
 (Includes Universal Resource Scheduling version [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) and Resource Scheduling controls version 1.2.81.242685)
