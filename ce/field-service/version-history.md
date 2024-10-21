@@ -18,7 +18,7 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.128.30](/dynamics365/field-service/version-history#8812830)  | TBD |10/18/2024 |
+|**Station 1** |  *First Release*| [8.8.128.30](/dynamics365/field-service/version-history#8812830)  | TBD |11/01/2024 |
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | [8.8.128.30](/dynamics365/field-service/version-history#8812830) |10/25/2024 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | [8.8.128.30](/dynamics365/field-service/version-history#8812830) |11/01/2024 |
 | | *USG* |  [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | [8.8.128.30](/dynamics365/field-service/version-history#8812830) | 10/25/2024 |
