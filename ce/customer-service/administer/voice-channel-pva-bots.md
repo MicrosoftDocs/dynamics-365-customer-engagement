@@ -90,6 +90,9 @@ More information:
 
 > [!IMPORTANT]  
 > In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
+>
+> > [!IMPORTANT]
+> > The telephony channel does not support authentication. Please ensure that the bot authetnication is disabled if you're using the bot for voice.
 
 ### Related information
 
