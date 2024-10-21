@@ -33214,14 +33214,19 @@
     },
     {
       "source_path": "ce/customer-service/use/sms-telesign-twilio.md",
-      "redirect_url": "/dynamics365/customer-service/use/sms-twilio.md",
+      "redirect_url": "/dynamics365/customer-service/use/sms-twilio",
       "redirect_document_id": false
     },
     {
       "source_path": "ce/customer-service/use/wechat-channel.md",
-      "redirect_url": "/dynamics365/customer-service/use/channels.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
       "redirect_document_id": false
     },
+    {
+      "source_path": "ce/customer-service/develop/universal-resource-scheduling.md",
+      "redirect_url": "/dynamics365/customer-service/administer/basics-service-service-scheduling",
+      "redirect_document_id": false
+    }
     
   ]
 }
