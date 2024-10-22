@@ -49,10 +49,10 @@ An administrator can [configure other fields to generate the summary from](copil
 
 An **opportunity summary** is generated from a set of predefined fields in the opportunity table. By default, the opportunity summary includes the following information:
 
-- **Basic information**: The basic information of the opportunity includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
-- **Key information**: The key information includes details on how long the account is associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress of the most recent opportunity, contact name of the account with the most opportunities, and other AI-generated information.  
+- **Basic information**: The basic information section includes estimated revenue, estimated close date, key contact of the opportunity, and account name. If this information is available in the respective fields of the opportunity record, it's displayed in the summary; otherwise, the field isn't displayed.
+- **Key information**: The key information section includes details on how long the account is associated with your organization, the total value of closed opportunities, the most recently closed opportunity, progress of the most recent opportunity, contact name of the account with the most opportunities, and other AI-generated information.  
 - **Product, quote, and competitor insights**:
-  - The **Product insights** section All the products associated with the opportunity are displayed along with the budget and estimated revenue.  
+  - The **Product insights** section displays all the products associated with the opportunity, along with the budget and estimated revenue.  
   - The **Quote insights** section displays the number of quotes that are shared with the opportunity along with the date of the most recent quote.  
   - The **Competitor insights** section displays the competitors associated with the opportunity along with the strengths and weaknesses of the competitors.  
 
