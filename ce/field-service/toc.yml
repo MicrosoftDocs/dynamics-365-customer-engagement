@@ -425,6 +425,8 @@ items:
       href: field-service-knowledge-management.md
     - name: Link and unlink knowledge articles
       href: field-service-km-link.md
+    - name: Search for knowledge articles
+      href: field-service-km-search.md
     - name: Translate knowledge articles
       href: field-service-km-translate.md
     - name: Manage versions

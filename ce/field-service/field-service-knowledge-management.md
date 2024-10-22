@@ -25,7 +25,7 @@ After creating a knowledge article, you can have the article reviewed or schedul
    - **Keywords**: Type or select keywords for the article. These keywords are used to search the knowledge base for articles. Separate keywords with commas.
    - **Description**: Type or select a short description of the article. The description appears in the search results and is used for search engine optimization.
 
-1. In the **CONTENT** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [ Designer text editor](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
+1. In the **Content** section, add the content for your knowledge article. Add text, pictures, and videos to the knowledge article. Learn more about the [ Designer text editor](/dynamics365/customer-service/use/customer-service-hub-user-guide-knowledge-article#designer).
 
 1. Select **Save**.
 
