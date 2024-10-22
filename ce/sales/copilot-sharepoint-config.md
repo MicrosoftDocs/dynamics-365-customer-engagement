@@ -1,7 +1,7 @@
 ---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to use specific SharePoint locations to get content recommendations and answers from SharePoint.
-ms.date: 08/05/2024
+ms.date: 10/22/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Configure Copilot to use specific SharePoint folders
 
-Sales organizations often store product-related documents, such as product brochures, pricing, sales pitch, and specifications in SharePoint. By configuring SharePoint locations, you can help sellers get relevant [content recommendations and answers](copilot-get-doc-suggestions.md) from the documents stored in specific folders. If you don't configure any SharePoint location, Copilot searches all the SharePoint folders that the user has access to.
+Sales organizations often store product- and sales-related documents, such as product brochures, pricing, sales pitch, and specifications in SharePoint. By configuring SharePoint locations, you can help sellers get relevant [content recommendations, answers](copilot-get-doc-suggestions.md), and [document summaries](copilot-get-information.md#summarize-proposals-or-sales-documents) of the documents stored in specific folders. If you don't configure any SharePoint location, Copilot searches all the SharePoint folders that the user has access to.
 
 ## Prerequisite
 
@@ -32,4 +32,9 @@ Copy the Path URL of the SharePoint folders that you want to configure for Copil
 1. Select **+ Configure SharePoint locations**.
 1. In the **Configure SharePoint locations** dialog box, specify the name and **Path** URL of the SharePoint folder that you want to use with Copilot. You can add multiple SharePoint folders.
 
-  Copilot searches the content in the specified SharePoint folders to provide content recommendations and answers. The results displayed in Copilot are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location. 
+  Copilot searches the content in the specified SharePoint folders to provide content recommendations, answers, and document summaries. The results displayed in Copilot are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
+
+## Related topics
+
+- [Get content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md)
+- [Summarize proposals or sales documents](copilot-get-information.md#summarize-proposals-or-sales-documents)
