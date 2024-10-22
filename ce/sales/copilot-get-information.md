@@ -122,7 +122,7 @@ You might often have documents such as proposals and contracts associated with y
 
 > [!NOTE]
 >- Currently, Copilot can summarize only PDF and Word documents.
->- Your administrator can [configure the SharePoint location](copilot-sharepoint-config.md) where the documents are stored. Otherwise, Copilot searches all the SharePoint folders that you have access to.
+>- Your administrator can [configure the SharePoint location](copilot-sharepoint-config.md) where your sales documents stored. Otherwise, Copilot searches all the SharePoint folders that you have access to.
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).  
 
