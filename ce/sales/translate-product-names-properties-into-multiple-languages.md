@@ -62,16 +62,18 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+2. Go to **Settings** > **Advanced Settings**.
+
+3. Select **Data Management**.
   
-2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
+4. Select **Import Field Translations**.  
   
-3. Select **Import Field Translations**.  
+5. In the **Field Translation Import Jobs** page, on the Action toolbar, select **Import Field Translations**.  
   
-4. In the **Field Translation Import Jobs** page, on the Action toolbar, select **Import Field Translations**.  
+6. In the **Import Translated Text** dialog box, select **Browse**, and select the file that you've received from your translation agency.  
   
-5. In the **Import Translated Text** dialog box, select **Browse**, and select the file that you've received from your translation agency.  
-  
-6. Select **Import**.  
+7. Select **Import**.  
   
     This starts the import job. You can check the status to see if the import has succeeded or failed.  
   
