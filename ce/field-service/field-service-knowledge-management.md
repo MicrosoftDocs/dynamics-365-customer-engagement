@@ -10,9 +10,7 @@ ms.custom: bap-template
 
 # Create knowledge articles
 
-Write a knowledge article to share information with technicians. Add images and videos to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles.
-
-After creating a knowledge article, you can have the article reviewed or schedule it for publication. An article isn't available to dispatchers and technicians until the article is published.
+Write a knowledge article to share information with technicians. Add images and videos to explain things better and make the articles engaging. After creating a knowledge article, you can have the article reviewed or schedule it for publication. An article isn't available to dispatchers and technicians until the article is published.
 
 ## Create a knowledge article
 
@@ -34,7 +32,7 @@ After creating a knowledge article, you can have the article reviewed or schedul
 To ensure that the content you create is accurate, have someone review it. You can mark an article for review or directly assign it to a specific person or queue.
 
 1. Open the article.
-1. Change the **Status Reason** to **Needs review**.
+1. Change the **Status Reason** to **Needs review**. Optionally, you can **Assign** the article to the reviewer.
    :::image type="content" source="media/knowledge-article-review.png" alt-text="Screenshot of a knowledge article in Field Service highlighting Status Reason.":::
 
 1. Reviewers can change the **Status Reason** to **In review** when reviewing the article.

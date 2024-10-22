@@ -423,7 +423,7 @@ items:
       href: field-service-km-overview.md
     - name: Create knowledge articles
       href: field-service-knowledge-management.md
-    - name: Link and unlink knowledge articles
+    - name: Link knowledge articles
       href: field-service-km-link.md
     - name: Search for knowledge articles
       href: field-service-km-search.md

@@ -38,6 +38,7 @@ You can link knowledge articles without a configured relationship to incidents, 
    - For Product, select the **Additional Details** tab.
 1. Select **Add Existing Knowledge Article** and [search for the specific article](field-service-km-search.md).
 1. Select the **Link** icon for the article. The icon changes and **Linked to Customer Asset** appears. To unlink, select the icon.
+
    :::image type="content" source="media/knowledge-article-link-unlink.png" alt-text="Screenshot of a knowledge article search, showing the link icon.":::
 
 1. Add other articles or select **Done**.

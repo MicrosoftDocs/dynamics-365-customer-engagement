@@ -18,6 +18,8 @@ Access to knowledge articles help improve the fix rate, guide technicians throug
 
 ## Features of knowledge management
 
+Administrators and dispatchers can create and manage knowledge articles and track their statistics.
+
 - [Create formatted knowledge articles](field-service-knowledge-management.md#create-a-knowledge-article) in the Designer text editor and include text, pictures, and videos.
 - Create knowledge articles from a [template](field-service-km-template.md) that includes prepopulated fields.
 - [Review knowledge articles](field-service-knowledge-management.md#review-a-knowledge-article) for accuracy before they're published.
