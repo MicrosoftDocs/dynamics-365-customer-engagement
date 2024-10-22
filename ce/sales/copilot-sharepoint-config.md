@@ -1,7 +1,7 @@
 ---
 title: Configure Copilot to use specific SharePoint folders
 description: Learn how to configure Copilot to use specific SharePoint locations to get content recommendations and answers from SharePoint.
-ms.date: 08/05/2024
+ms.date: 10/22/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 # Configure Copilot to use specific SharePoint folders
 
-Sales organizations often store product-related documents, such as product brochures, pricing, sales pitch, and specifications in SharePoint. By configuring SharePoint locations, you can help sellers get relevant [content recommendations and answers](copilot-get-doc-suggestions.md) from the documents stored in specific folders. If you don't configure any SharePoint location, Copilot searches all the SharePoint folders that the user has access to.
+Sales organizations often store product- and sales-related documents, such as product brochures, pricing, sales pitch, and specifications in SharePoint. By configuring SharePoint locations, you can help sellers get relevant [content recommendations, answers](copilot-get-doc-suggestions.md), and [document summaries](copilot-get-information.md#summarize-proposals-or-sales-documents) of the documents stored in specific folders. If you don't configure any SharePoint location, Copilot searches all the SharePoint folders that the user has access to.
 
 ## Prerequisite
 
