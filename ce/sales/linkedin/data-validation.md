@@ -1,7 +1,7 @@
 ---
 title: Data validation capabilities of LinkedIn Sales Navigator
 description: Learn how to access and use the data validation capabilities of LinkedIn Sales Navigator. The solution uses LinkedIn information to validate contact records.
-ms.date: 09/06/2024
+ms.date: 10/14/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -66,4 +66,4 @@ When your administrator enables the **Hide employment notification** setting in 
 
 ## Related information
 
-[Troubleshooting LinkedIn integration errors](ts-linkedin-integration.md)
+[Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](integrate-sales-navigator.md)

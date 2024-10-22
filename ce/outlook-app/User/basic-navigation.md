@@ -3,14 +3,14 @@ title: "Basic navigation in App for Outlook (Dynamics 365 apps) | MicrosoftDocs"
 description: How to navigate App for Outlook
 ms.custom: 
 ms.date: 10/12/2023
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
