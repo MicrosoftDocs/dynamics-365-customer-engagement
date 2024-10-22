@@ -41,9 +41,9 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 ## Add the Note entity 
 
-1. Sign in to `https://<org>.dynamics.com/apps`.
+1. In your Dynamics 365 instance, go to the published apps page.
 
-2. Select **More Options** (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
+2. Select an app, and then select **More Options** (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
 
 3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 
