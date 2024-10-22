@@ -7,11 +7,15 @@ author:
 ms.author: 
 ---
 
-# Create inspections with Copilot
+# Create inspections with Copilot (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Service organizations often have numerous procedures, forms, and checklists stored in various formats like paper or PDF files. With Copilot in Field Service, makers can quickly digitize these documents and integrate them into Field Service work orders.
 
 Copilot converts the uploaded documents into draft inspection templates that can be edited and published for technicians to fill in when completing work order tasks in the Field Services mobile app.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Create a new inspection template with Copilot
 
