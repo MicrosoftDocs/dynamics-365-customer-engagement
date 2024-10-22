@@ -32,4 +32,9 @@ Copy the Path URL of the SharePoint folders that you want to configure for Copil
 1. Select **+ Configure SharePoint locations**.
 1. In the **Configure SharePoint locations** dialog box, specify the name and **Path** URL of the SharePoint folder that you want to use with Copilot. You can add multiple SharePoint folders.
 
-  Copilot searches the content in the specified SharePoint folders to provide content recommendations and answers. The results displayed in Copilot are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location. 
+  Copilot searches the content in the specified SharePoint folders to provide content recommendations, answers, and document summaries. The results displayed in Copilot are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
+
+## Related topics
+
+- [Get content recommendations and answers from SharePoint](copilot-get-doc-suggestions.md)
+- [Summarize proposals or sales documents](copilot-get-information.md#summarize-proposals-or-sales-documents)
