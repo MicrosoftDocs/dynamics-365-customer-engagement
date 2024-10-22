@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 07/16/2024
+ms.date: 10/22/2024
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -35,12 +35,10 @@ For information about older versions, see [Version history archive](version-hist
 
 (Includes Universal Resource Scheduling version [3.12.143.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214336) and Resource Scheduling controls version 1.2.82.242904)
 
--	Fixed a bug that caused bookings unable to be edited until a refresh is performed after editing.
--	Fixed a bug that caused stale booking suggestions to be presented when navigating between unscheduled work orders.
--	Improved solution import handling of booking setup metadata in the Field Service Analytics Common solution.
--	Parent business unit (BU) is no longer required if it is the root BU in FS forms. Backend logic will block creating or 
-  updating a non-root business unit without a parent business unit.
-
+- Fixed a bug that made bookings unable to edit until a the browser was refreshed.
+- Fixed a bug that caused stale booking suggestions to be presented when navigating between unscheduled work orders.
+- Improved solution import handling of booking setup metadata in the Field Service Analytics Common solution.
+- Parent business unit (BU) is no longer required if it's the root BU in Field Service forms.
 
 ## 8.8.127.75
 
