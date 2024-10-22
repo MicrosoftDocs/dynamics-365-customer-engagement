@@ -1,7 +1,7 @@
 ---
 title: "Configure relevance search for transcripts | MicrosoftDocs"
 description: "Learn how to configure relevance search for chat transcripts so agents can search in Dynamics 365 Contact Center."
-ms.date: 07/01/2024
+ms.date: 10/22/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
