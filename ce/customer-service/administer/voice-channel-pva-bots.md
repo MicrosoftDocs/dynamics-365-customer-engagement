@@ -43,7 +43,7 @@ The following prerequisites must be met for the Copilot Studio bot:
 1. On the **Add Bot** pane, select a bot from the **Name** box. 
 
    > [!NOTE]
-   > Bots that you create in Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. Classic bots aren't supported in the enhanced voice experience. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
+   > Bots that you create in Contact Center admin center or Customer Service admin center work with enhanced voice workstreams only. Classic bots aren't supported in the enhanced voice experience. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
 
    :::image type="content" source="../media/add-bot.png" alt-text="Select a bot.":::
 
@@ -56,7 +56,7 @@ More information:
 - [Author template topics in Copilot Studio](/power-virtual-agents/authoring-template-topics)
 
 
-### Configure handoff from Copilot Studio to Contact Center
+### Configure handoff from Copilot Studio to contact center
 
 1. In Copilot Studio, open the bot that you've configured to integrate with Dynamics 365.
 
@@ -89,10 +89,8 @@ More information:
    1. Optionally, you can view the bot details in Omnichannel for Customer Service.
 
 > [!IMPORTANT]  
-> In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
->
-> > [!IMPORTANT]
-> > The telephony channel does not support authentication. Please ensure that the bot authetnication is disabled if you're using the bot for voice.
+> - In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
+> - The telephony channel doesn't support authentication. Make sure that the bot authentication is disabled if you're using the bot for voice.
 
 ### Related information
 
