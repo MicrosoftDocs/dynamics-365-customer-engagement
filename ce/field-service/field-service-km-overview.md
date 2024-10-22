@@ -26,7 +26,7 @@ Access to knowledge articles help improve the fix rate, guide technicians throug
 - [Create translations](field-service-km-translate.md).
 - [Track and analyze](field-service-km-analyze.md) knowledge article statistics.
 
-Dispatchers and technicians can [search](field-service-km-link.md#search-for-knowledge-articles) and [link](field-service-km-link.md) knowledge articles to work orders, incidents, products, and customer assets. They can [rate and provide feedback](field-service-km-ratings-feedback.md) about the knowledge articles.
+Dispatchers and technicians can [search](field-service-km-search.md) and [link](field-service-km-link.md) knowledge articles to work orders, incidents, products, and customer assets. They can [rate and provide feedback](field-service-km-ratings-feedback.md) about the knowledge articles.
 
 ## Next steps
 

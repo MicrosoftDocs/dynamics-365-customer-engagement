@@ -8,7 +8,7 @@ ms.author: jasonshotts
 ms.custom: bap-template
 ---
 
-# Link and unlink knowledge articles
+# Link knowledge articles
 
 You can associate and dissociate a knowledge article with a record.
 
