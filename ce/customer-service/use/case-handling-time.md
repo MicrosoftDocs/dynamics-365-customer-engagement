@@ -53,20 +53,21 @@ The application tracks your time automatically when you focus on a specific case
    | The Case form is in the background when you perform actions such as selecting queue item details or the **Resolve case** dialog.     | The timer continues to run.                        |
    | You create a new case and don't log time manually on the case or for activities. | Total time displayed is 0 sec. The total time is updated after the first update interval set by your administrator. Select refresh to manually update the time. |
    | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned off.| The total time is 0 sec and is updated after the first update interval. The automatic timer displays 0 sec. Select **Refresh** to manually update the time.|
-   | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned on.| The total time is 0 sec and is updated after the first update interval. The automatic timer starts tracking time real-time. Select refresh to manually update the total time.  |
+   | You create a new case and don't log time manually on the case or for activities. The **My Time** toggle is turned on.| The total time is 0 sec and is updated after the first update interval. The automatic timer starts tracking time real-time. Select **Refresh** to manually update the total time.  |
    
   > [!NOTE]
-  > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Customer Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 min, and you close the browser after 20 min, the app logs only 15 min. It might not capture the remaining 5 min, because the database wasn't updated in that time. 
+  > The app updates the database with the tracked time at regular intervals based on your administrator's configuration. If you refresh or close the browser in Customer Service workspace or Customer Service Hub, the app records the time for the last completed interval, but might not record the time from the ongoing interval. For example, if the update interval is set to 15 min, and you close the browser after 20 min, the app logs only 15 min. It might not capture the remaining 5 min, because the database wasn't updated in that time.
 
 - In Customer Service Hub, as long as the case is in focus, the timer runs. If you close or refresh the browser, navigate to a different entity or case form, the timer stops.
 
 ### Time logs  
+
 - Show the total time that agents log manually on the case.
 - Based on your administrator's configurations, you can select the **Add** icon to log your time directly on the case. This can be the time that you spend working on the case outside the application such as researching offline, collaborating with other agents or subject matter experts, or any other activity that contributes to resolving a customer's issue.
 
-### Activities  
-The total time spent on the activities linked to the case. If there are multiple activities linked to the case, each activity's time (calculated from duration attribute) contributes to the total Activities time.
+### Activities
 
+The total time spent on the activities linked to the case. If there are multiple activities linked to the case, each activity's time (calculated from duration attribute) contributes to the total Activities time.
 
 ### View history
   
