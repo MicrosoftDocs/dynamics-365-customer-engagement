@@ -87,6 +87,10 @@ Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solutio
 
 A related app, Sales Copilot Power Virtual Agents Bot, is also created for your tenant in Azure for authentication and authorization purposes. The app will be renewed when it's nearing expiration. We recommend that you don't delete or disable the app.
 
+## How does Copilot determine if a document is a sales document?
+
+Copilot determines whether a document is a sales document or not based on the content length, document type, and use of sales-specific keywords. Keywords such as procurement, proposal, tender, supply, requirements, specifications, buy, sell, order, agreement, customer, and any variation of these terms are considered sales-specific keywords. Documents with fewer than 30 words or those that don't contain sales-specific keywords are classified as non-sales document.
+
 ## Copilot for emails
 
 The following frequently asked questions are related to Copilot for emails.
