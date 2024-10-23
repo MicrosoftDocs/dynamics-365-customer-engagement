@@ -85,7 +85,7 @@ The following options are available only when you select **Seller** for Opportun
 - Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to five opportunities from a lead. 
 
   > [!NOTE]
-  > If your sellers are using a custom app, add the **Opportunity qualify lead Form** component to the app. Otherwise, sellers will neither be able to edit the default opportunity nor create new opportunities in the Qualify lead side pane.
+  > If your sellers are using a custom app, add the **Opportunity qualify lead Form** component to the app. Otherwise, sellers can neither edit the default opportunity nor create new opportunities in the **Qualify lead** side pane.
  
 ### Summarize the lead after it's qualified
 
