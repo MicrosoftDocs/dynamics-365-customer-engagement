@@ -1,10 +1,9 @@
 ---
 title: Transfer calls and consult with users
 description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls.
-ms.date: 10/23/2024
-ms.topic: how-to
-ms.custom: bap-template
-ms.collection:
+ms.date: 04/12/2024
+ms.service: dynamics-365-customer-service
+ms.topic: article
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
