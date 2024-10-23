@@ -70,7 +70,7 @@ An administrator can [configure other fields to generate the summary from](copil
 Users can invoke the **SharePoint question and answer** capability from the Copilot chat.
 
 - Keywords detected from user’s question are passed to SharePoint to find documents containing the keywords.  
-- The snippets from the top documents are then passed to Open AI to summarize and generate a response that corresponds to the input question.  
+- The snippets from the top documents are then passed to Azure Open AI to summarize and generate a response that corresponds to the input question.  
 
 > [!NOTE]
 > User’s permission to the files is honoured before generating the response.
