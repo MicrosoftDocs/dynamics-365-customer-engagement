@@ -10,7 +10,9 @@ ms.custom: bap-template
 
 # Search for a knowledge article
 
-Dispatchers and technicians can search and view knowledge articles to help answer questions about work orders. Dispatchers can save favorite articles to attach them to work orders, customer assets, incident types, or products. If an administrator [set up external search providers](/dynamics365/customer-service/administer/set-up-search-providers#set-up-external-search-providers), dispatchers and technicians can search for files, documents, and articles from sources outside your Dynamics 365 organization.
+Dispatchers and technicians can search and view knowledge articles to help answer questions about work orders. Dispatchers can save favorite articles to attach them to work orders, customer assets, incident types, or products.
+
+If an administrator [set up external search providers](/dynamics365/customer-service/administer/set-up-search-providers#set-up-external-search-providers), dispatchers and technicians can search for files, documents, and articles from sources outside your Dynamics 365 organization.
 
 ## Search knowledge articles
 
