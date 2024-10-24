@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service (preview)
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 06/14/2024
+ms.date: 10/24/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -34,8 +34,6 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 - You must have a paid Field Service environment. The work order summary feature isn't available in trial environments.
 
-- You must [update your environment](update-field-service.md) at least to the latest Early Access build for 2023 wave 2.
-
 ## How summaries are generated
 
 When you generate a summary, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary.
@@ -62,7 +60,7 @@ The summary focuses on the most relevant information based on the work order's l
 
 - **Completed**, **Posted**, and **Canceled**: The core information in all summaries includes a recap of costs and prices and, for completed and posted work orders, invoice details.
 
-## About summary configuration (preview)
+## Summary configuration (preview)
 
 Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs.
 
@@ -89,13 +87,11 @@ To revert to the default summary provided by Field Service, disable the **Conf
 
 ## Generate a summary in the web app
 
-Open a [work order form (preview)](work-order-experience.md) or a booking record.
+Open a [work order form](work-order-experience.md) or a booking record.
 
 - To generate a summary, select **Generate** in the **Copilot** control.
 
 - To refresh the summary, select **Regenerate** in the **Copilot** control.
-
-Use the like/dislike buttons in the **Copilot** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful or not and why.
 
 ## Add the summary control to a form
 
@@ -110,22 +106,12 @@ By default the work order summary is included on the out-of-the-box [work order 
 1. In the side pane, under **Display options**, enable **Hide label**.
 1. **Save and publish** the form and publish the app module.
 
-## Enable the control
+## Enable summaries on mobile for Unified Interface
 
 After configuring the summary control, enable it. It's enabled by default for the web app and and admin has to enable it for the mobile app.
 
-Mobile:
-
 1. In the Field Service Mobile app module, change to the **Settings** area and go to the **Features** page.
 1. In the Preview section, enable **Copilot Recap for Mobile (Unified Interface)**.
-
-Web app:
-
-1. In the Field Service app module, change to the **Settings** area.
-
-1. Go to **Field Service Settings**.
-
-1. In the **General** section, turn on **Copilot for work order**.
 
 ## Enable summaries in the new mobile user experience
 
