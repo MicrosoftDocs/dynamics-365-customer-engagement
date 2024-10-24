@@ -40,7 +40,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 When you generate a summary, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary.
 
-By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#configure-the-summary) to meet their business needs.
+By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#how-to-configure-the-summary) to meet their business needs.
 
 The default summary includes the following data fields from work orders and related records:  
 
@@ -86,11 +86,6 @@ To revert to the default summary provided by Field Service, disable the **Conf
 > - To generate configured summaries, users need read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
 > - The optimization used in the generation of default summaries, where there may be different details depending on work order status, is not applied to administrator-configured summaries.
 > - In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. This reinitializes the out-of-the-box summary configuration and populates the list. Then, navigate back to **Summary Configuration**.
-
-
-
-
-
 
 ## Generate a summary in the web app
 

@@ -59,7 +59,7 @@ Every customer of your company usually has its own account record. It lists thei
 
 ## Configure the work order summary
 
-Define the fields that Copilot uses to generate a summary of a work order. Learn more: [Configure the work order summary](work-order-recap.md#configure-the-summary).
+Define the fields that Copilot uses to generate a summary of a work order. Learn more: [Configure the work order summary](work-order-recap.md#how-to-configure-the-summary).
 
 ## Create a work order
 
