@@ -1,7 +1,7 @@
 ---
 title: Get started
 description: Learn how to get started with Dynamics 365 Field Service.
-ms.date: 05/10/2024
+ms.date: 10/24/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: overview
@@ -56,6 +56,10 @@ Set up at least a dispatcher and a frontline worker. Dispatchers manage work ord
 Every customer of your company usually has its own account record. It lists their location, contact information, billing information, and numerous related details. Field Service represents individuals working for your customer as contacts. You can create relationships between contacts and accounts to ensure you get in touch with the right person.
 
 [Create an account](accounts.md) that represents one of your customers.
+
+## Configure the work order summary
+
+Define the fields that Copilot uses to generate a summary of a work order. Learn more: [Configure the work order summary](work-order-recap.md#configure-the-summary).
 
 ## Create a work order
 
