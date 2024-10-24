@@ -76,7 +76,7 @@ Work orders describe the work that a technician needs to perform at a customer l
 
    > ![Screenshot of schedule board.](media/work-order-process-2.png)
 
-3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. Copilot supports technicians with quick summaries of each work order to save time on the job. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. Copilot supports technicians with quick summaries of each work order and supports them by updating work orders to save time on the job. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
 
     After the technician completes the work, they mark the work order as complete or as requiring a follow-up; the dispatcher can then see this change on the schedule board.
 
