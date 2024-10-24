@@ -1,8 +1,8 @@
 ---
 title: Disconnect from Azure Communication Services resources
 description: Learn how you can disconnect an Azure Communication Services resource.
-ms.date: 01/10/2024
-ms.service: dynamics-365-customerservice
+ms.date: 08/29/2024
+ms.service: dynamics-365-customer-service
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,10 +29,10 @@ To permanently release or remove one or more phone numbers from your organizatio
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
 1. Select **Manage** for **Phone numbers**.
 1. Select **Advanced** on the menu. The **Manage Azure Communication Services** dialog opens.
-1. Select **Disconnect** for **Disconnect from Azure**. A dialog that asks you to confirm the disconnection is displayed.
+1. Select **Disconnect** for **Disconnect from Azure**. A dialog that asks you to confirm the disconnection displays.
 1. Select **Disconnect** again.
    Any phone numbers associated with the resource are no longer displayed on the **Phone numbers** page.
-1. Delete and clean up the event grid subscriptions you've created as a part of [enabling call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services) to avoid errors.
+1. To avoid errors, delete and clean up the Event Grid subscriptions you created as a part of [enabling call recording and SMS services](voice-channel-configure-services.md).
 
 ### Related information
 

@@ -3,7 +3,7 @@ title: "Configure synchronization for appointments, contacts, and tasks | Micros
 ms.custom:
 description: Configure synchronization for appointments, contacts, and tasks
 ms.date: 1/27/2022
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -12,7 +12,7 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: 7b6ace06-0cc2-4a04-a2bd-5d229acb6a00
 caps.latest.revision: 21
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin
