@@ -1,7 +1,7 @@
 ---
 title: Overview of Dynamics 365 Field Service (contains video)
 description: Learn about Dynamics 365 Field Service and its features.
-ms.date: 05/22/2024
+ms.date: 10/24/2024
 ms.topic: overview
 ms.custom: bap-template
 author: jshotts
@@ -10,7 +10,7 @@ ms.author: jasonshotts
 
 # Overview of Dynamics 365 Field Service
 
-The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues.
+The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues. With Copilot in Field Service, users can access the latest AI models in various areas of the application. These AI-based features are rapidly evolving and help users be more productive.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1kIXq]
 
@@ -42,6 +42,7 @@ Field service capabilities include:
 - **Scheduling and dispatch tools** to manage resources and equipment needed for customer service, visualize onsite appointments, and optimize service schedules with efficient routing and resource skill matching.
 - **Communication tools** to enhance collaboration between customer service agents, dispatchers, field technicians, customers, and other stakeholders.
 - **An easy-to-use mobile application** that guides technicians through schedule changes and service work.
+- **Copilot in Field Service** features are integrated in the application. Copilot generates summaries of work orders in a customizable format and answers natural language questions about your data in a side pane of the web app.
 - **Asset management** capabilities to keep track of customer equipment and service history.
 - **Preventive maintenance** by automatically generating recurring maintenance appointments for equipment.
 - **Inventory, purchasing, and returns capabilities** to manage truck stock, purchase order requests and fulfillment, and product returns.
@@ -63,7 +64,7 @@ The Field Service application provides tools for these key roles on your service
 
 Work orders describe the work that a technician needs to perform at a customer location. In the Field Service application, a typical work order lifecycle looks like this:
 
-1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required.
+1. Work orders generate from service cases, sales orders, emails, phone calls, service agreements, web portals, or Internet of Things (IoT) data and then display in Field Service. Work orders are typically grouped by geographical territory and lines of business. Work order details consist of a checklist of tasks, parts to use, labor to bill to the customer, and skills required. Copilot in Field Service can generate a customizable summary the detailed work order.
 
    Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
 
@@ -75,7 +76,7 @@ Work orders describe the work that a technician needs to perform at a customer l
 
    > ![Screenshot of schedule board.](media/work-order-process-2.png)
 
-3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
+3. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. Copilot supports technicians with quick summaries of each work order to save time on the job. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
 
     After the technician completes the work, they mark the work order as complete or as requiring a follow-up; the dispatcher can then see this change on the schedule board.
 
