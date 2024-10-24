@@ -44,6 +44,15 @@ The new lead qualification experience allows for customization of the lead quali
 
 If multiple opportunities creation is enabled by your admin, you can create additional opportunities by selecting **+New Opportunity** on the Qualify lead side pane. Note that the records aren't created until you select **Qualify**. 
 
+## Why can't I edit or create multiple opportunities for a lead in the new lead qualification experience?
+
+The **New Opportunity** button is disabled in the following scenarios:
+
+- Your admin has disabled the creation of multiple opportunities for a single lead.
+- You're using a custom app that doesn't have the Opportunity qualify lead form.
+
+For more information, see [Customize opportunity creation experience for qualified leads](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
+
 ### Why can't I edit the account and contact records in the Qualify lead side pane?
 
 If your admin has set account and contact records to be created automatically, these records aren't editable in the Qualify lead side pane. To make changes, you need to close the side pane, edit the details in the Lead form, and then select **Qualify** again. 
