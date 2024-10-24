@@ -141,8 +141,8 @@ Add a drill-down entity to group and drill-down forecast projections by an entit
         
         :::image type="content" source="media/forecast-drill-down-account-field-selection.png" alt-text="Account field manual selection":::
 
-    > [!NOTE]
-    > You can select the amount field for multiple forecast columns at the same time by hovering your cursor to the left of the columns and selecting the radio buttons that appear to make a selection. Then, a drop-down list will display with the option to **Choose amount field to be applied to all selected forecast columns**.
+        > [!NOTE]
+        > You can select the amount field for multiple forecast columns at the same time by hovering your cursor to the left of the columns and selecting the radio buttons that appear to make a selection. Then, a drop-down list will display with the option to **Choose amount field to be applied to all selected forecast columns**.
     
         :::image type="content" source="media/forecast-drill-down-account-field-multiple-selection.png" alt-text="Apply same account field to multiple columns":::
        
