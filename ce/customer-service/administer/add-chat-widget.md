@@ -32,7 +32,7 @@ To add a chat widget, configure a workstream that defines how chat conversations
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name:** Select a value from the list.
    > [!NOTE]
-   > - You can customize the chat widget appearance using data tags. Learn more at [Customize live chat widgets using data tags](../develop/customize-chat-widget.md).
+   > You can customize the chat widget appearance using data tags. Learn more at [Customize live chat widgets using data tags](../develop/customize-chat-widget.md).
 
 1. Switch the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
