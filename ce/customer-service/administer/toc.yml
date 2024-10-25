@@ -636,6 +636,8 @@
           href: copilot-email-enable.md
       - name: Enable case summaries through ask a question (preview)
         href: enable-ask-summarize-cases.md
+      - name: Enable proactive prompts in ask a question 
+        href: proactive prompts.md
       - name: Enable Copilot plugins for generative AI (preview)
         href: enable-copilot-plugins-for-generative-ai.md
       - name: Enable Copilot to create knowledge from cases

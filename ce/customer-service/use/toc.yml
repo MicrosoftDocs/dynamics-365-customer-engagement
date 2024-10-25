@@ -286,6 +286,8 @@
           href: copilot-use-summary.md#summarize-conversations
         - name: Ask a question 
           href: use-copilot-features.md#ask-a-question
+        - name: Use proactive prompts in ask a question
+          href: use-proactive-prompting.md
         - name: Draft a chat response (preview)
           href: use-copilot-features.md
         - name: Write an email with Copilot
