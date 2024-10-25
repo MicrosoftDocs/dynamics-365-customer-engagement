@@ -173,12 +173,12 @@ You can configure the following wait time for the records channel:
 
 - Records channel: 3 minutes to 2 days
 
-If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
-
 The "wait time in queue" condition is evaluated in any of the following scenarios:
 - Work item is routed to a queue via the route to queue rules.
 - Work item is transferred by an agent or supervisor to the queue.
 - Work item overflows from another queue.
+
+If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
 
 ## Edit automated messages for overflow actions
 
