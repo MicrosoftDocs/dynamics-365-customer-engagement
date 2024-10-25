@@ -5,6 +5,7 @@ ms.date: 09/25/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
+ms.custom: ignite-2024
 ---
 
 # Add inspections to work orders
