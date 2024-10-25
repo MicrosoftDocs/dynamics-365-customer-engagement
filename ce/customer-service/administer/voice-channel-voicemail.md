@@ -105,11 +105,7 @@ The voicemail record is set up for routing out of the box. Voicemails are catego
 
 ### Individual voicemails
 
-Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
-
-> [!NOTE]
-> For voicemail to work for them, an agent must have logged in to omnichannel and have presence loaded, at least once. 
-> For voicemail to work if an agent is logged in and presence is offline, the agent will have to decline the call notification. 
+Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for agents, they must be signed in to the Contact Center workspace or Customer Service workspace app and presence loaded, at least once. If the agent is signed in and presence is offline, the agent must decline the call notification. 
 
 - The workstream routes the voicemail to the individual voicemail queue.
 - By default, the individual voicemail queue has no agents.
