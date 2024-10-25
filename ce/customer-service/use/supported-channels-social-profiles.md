@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 08/12/2024
+ms.date: 10/11/2024
 ms.custom: bap-template 
 ---
 
@@ -34,10 +34,8 @@ The social profiles are supported for the following channels.
 | Apple Messages for Business | Yes                                                        | Visitor     |
 | Facebook           | Yes                                                                 | User name |
 | LINE               | Yes                                                                 | Display name |
-| WeChat             | Yes                                                                 | Visitor |
 | WhatsApp with Twilio          | Yes                                                                 | Phone number |
 | WhatsApp through Azure Communication Services          | Yes                                                                 | Phone number |
-| Custom messaging (Telegram) | Yes                                                        | User name |
 
 ## View social profiles
 

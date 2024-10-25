@@ -4,14 +4,14 @@ description: Use this article to know about the supported cloud locations for th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 08/01/2024
+ms.date: 10/22/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ---
 
 # Supported cloud locations for voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -37,7 +37,7 @@ The following table lists the global region, URL, and general and trial availabi
 ## Local cloud deployments
 
 > [!IMPORTANT]
-> The local hosting capabilities for the voice channel in India and Japan will be deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
+> The local hosting capabilities for the voice channel in Switzerland will be deprecated on October 31, 2024. In India and Japan, the local hosting capability was deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
 
 If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 
@@ -46,7 +46,6 @@ If you need your data to stay within a region, the following table lists the loc
 |Australia| crm6.dynamics.com |Available |Available|
 |United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
 |Canada **<sup>1 </sup>** |crm3.dynamics.com |Available | To be announced  |
-|Switzerland **<sup>1</sup>** |crm17.dynamics.com  | Available | To be announced|
 |South America |To be announced | To be announced|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|

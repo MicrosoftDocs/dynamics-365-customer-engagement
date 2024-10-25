@@ -1,7 +1,7 @@
 ---
 title: Configure route-to-queue rules
 description: Follow the steps in this article to configure a route-to-queue ruleset for a workstream in unified routing.
-ms.date: 08/12/2024
+ms.date: 10/11/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -46,7 +46,7 @@ When you configure this feature, the system picks a queue from the available lis
 
 1. In **Conditions**, define the set of conditions. If you're creating rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes.
 
-1. In **Route to queues**, select the queue to which the work items is routed if the conditions are met.
+1. In **Route to queues**, select the queue to which the work items are routed if the conditions are met.
 
 1. To configure percent allocation, select **Add queue** and do the following:
 
@@ -109,14 +109,6 @@ You can configure routing rule conditions for the social channels, such as Faceb
   - Locale
 
 - **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
-
-- **WeChat**: Use the **WeChat Engagement Context** entity to set conditions on the following attributes:
-
-  - Customer name
-  - Gender
-  - City
-  - Province
-  - Country
 
 - **WhatsApp(Twilio)**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a prefilled message that automatically appears in the text field of a customer chat.
 

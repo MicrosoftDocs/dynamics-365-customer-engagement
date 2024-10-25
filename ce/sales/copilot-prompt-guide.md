@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.collection: get-started 
-ms.date: 07/03/2024
+ms.date: 10/04/2024
 ms.custom: bap-template
 ---
 
@@ -18,7 +18,6 @@ The prompt guide in Copilot in Dynamics 365 Sales provides predefined prompts th
 | Prompt | Description | More information |
 |--------|-------------|------------------|
 | **Get info** > **Show my pipeline** | Displays the pipeline view of your open opportunities, along with the list of opportunities in your pipeline. The opportunities are ordered by the estimated close date. | [Show my pipeline](copilot-get-information.md#show-my-pipeline) |
-| **Get info** > **Summarize account**, **Summarize lead**, or **Summarize opportunity** | Displays the summary of a given account, lead, or opportunity. | [Summarize account, lead, or opportunity](copilot-get-information.md) |
 | **Get info** > **Get related files** | Displays files related to the record you specify from SharePoint. | [Get related files](copilot-get-doc-suggestions.md) |
 | **Get info** > **Get info from SharePoint about** | Displays answers to your questions from the documents stored in SharePoint. | [Get info from SharePoint](copilot-get-doc-suggestions.md) |
 | **Get info** > **Which account generates the most revenue** | Displays a list of accounts that have generated the most revenue in the last 12 months. | Prompt in natural language. For a list of sample prompts in natural language, see questions related to [sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data) and [sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology) |

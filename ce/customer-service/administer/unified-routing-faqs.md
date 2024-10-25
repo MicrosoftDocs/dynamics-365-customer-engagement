@@ -5,7 +5,7 @@ ms.date: 09/30/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -80,7 +80,7 @@ No. Basic routing can be used for cases only. To route any record type, use unif
 
 ### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
 
-No. There's no priority among queues. However, you can prioritize records within a queue.
+Yes, you can use **Group Number** to prioritize queues. Queues are ordered from highest to lowest priority when work items are assigned. This means that a smaller group number has a higher priority than a bigger queue number. For example, a queue with group number 1 is prioritized over another queue whose group number is 2. Learn more at [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
 
 ### Can I pause the assignment of a case?
 
@@ -108,10 +108,6 @@ Yes. It's possible to reassign a case to another queue. On the case form, select
 ### Why can't I view the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
 
 A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
-
-### Can I access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace?
-
-Yes, you can access Omnichannel Ongoing Conversations Dashboard and Omnichannel Intraday Insights in Customer Service workspace if you have the Chat for Dynamics 365 Customer Service or Digital Messaging for Dynamics 365 Customer Service license.
 
 ### How are unassigned work items in a queue handled if no matching agent is found?
 
