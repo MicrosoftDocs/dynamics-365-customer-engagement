@@ -16,7 +16,7 @@ ms.custom:
 
 When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the agent who's best suited to work on it. But what happens if all the agents who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
-A queue's overflow handling options can trigger either before or after a work item is queued.
+A queue's overflow handling options can trigger actions either before or after a work item is queued.
 
 [Before](#handle-overflow-before-a-work-item-is-queued):
 
@@ -76,7 +76,7 @@ The following table lists the conditions and actions that are available for each
 
 1. Under **Overflow handling**, select **Add condition-action pair**.
 
-1. In the **Overflow handling** page, to the right of **Before work items are queued**, select **Add condition-action pair**.
+1. In the **Overflow handling** page, in **Before work items are queued**, select **Add condition-action pair**.
 
 1. In the **Condition** dropdown list, select the condition that you want to set for the queue. The available conditions depend on the channel type.
 
@@ -149,7 +149,7 @@ When a work item is in a queue and the wait is long, the system can reroute it t
 
 1. In **Overflow handling**, select **Edit**.
 
-1. To the right of **When work items are queued**, select **Add condition-action pair**.
+1. In **When work items are queued**, select **Add condition-action pair**.
 
 1. Select the **Waiting time in queue exceeds** condition.
 
