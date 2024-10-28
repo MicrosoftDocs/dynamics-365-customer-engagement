@@ -25,15 +25,15 @@ You use the Microsoft 365 admin center to [create user accounts](/power-platform
 
 To create user accounts for users within your organizations, add them individually or in bulk.
 
-For more information, see [Add users](/microsoft-365/admin/add-users/add-users).
+For more information, go to [Add users](/microsoft-365/admin/add-users/add-users).
 
 ### B2B collaboration users
 
 For scenarios, where you want to add a contractor or vendor to your Field Service applications, create a B2B collaboration user. Collaboration users are managed in the Microsoft Entra admin center.
 
-For more information, see [Add Microsoft Entra B2B collaboration users](/entra/external-id/add-users-administrator).
+For more information, go to [Add Microsoft Entra B2B collaboration users](/entra/external-id/add-users-administrator).
 
-If you run into issues when configuring external users, see [Troubleshooting B2B collaboration](/entra/external-id/troubleshoot).
+If you run into issues when configuring external users, go to [Troubleshooting B2B collaboration](/entra/external-id/troubleshoot).
 
 ## Assign licenses
 
@@ -44,20 +44,20 @@ Assign the users on of the following available licenses:
 - Dynamics 365 Field Service
 - Dynamics 365 Field Service Contractor
 
-For more information, see [Assign licenses](/power-platform/admin/assign-licenses)
+For more information, go to [Assign licenses](/power-platform/admin/assign-licenses)
 
 ## Add users to an environment
 
 Before licensed users can access the application, you need to add them to the environment that hosts the app. You can add specific users to an environment with a couple of steps.
 
-For more information, see [Add users to an environment](/power-platform/admin/add-users-to-environment).
+For more information, go to [Add users to an environment](/power-platform/admin/add-users-to-environment).
 Alternatively, you can [use security groups to manage access to environments](/power-platform/admin/control-user-access).
 
 ## Assign security roles
 
 Now that users have a license and access to the environment, they need a security role to get the right privileges for the application.
 
-For more information, see [Assign security roles to a user](/power-platform/admin/assign-security-roles). To assign a security role to multiple users, consider managing them as a [team in Dataverse](/power-platform/admin/manage-teams).
+For more information, go to [Assign security roles to a user](/power-platform/admin/assign-security-roles). To assign a security role to multiple users, consider managing them as a [team in Dataverse](/power-platform/admin/manage-teams).
 
 Choose one of the [predefined Field Service security roles](security-permissions.md#field-service-security-roles) or [create custom security roles for your business case](/power-platform/admin/create-edit-security-role).
 
