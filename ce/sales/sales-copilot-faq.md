@@ -22,7 +22,7 @@ When you type a question in the Copilot pane, we pass the relevant data to Azure
 
 No. Our Azure OpenAI resources have opted out of monitoring for abuse, by humans or automated processing. Learn more in [How can customers get an exemption from abuse monitoring and human review?](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This policy helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. Learn more in [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy).
 
-## How can I turn off Copilot in Dynamics 365 Sales?
+## How can I disable Copilot in Dynamics 365 Sales?
 
 Only an administrator can turn off Copilot in Dynamics 365 Sales. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
 
