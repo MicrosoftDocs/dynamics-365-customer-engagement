@@ -36,7 +36,6 @@ Copy the Path URL of the SharePoint folders that you want to configure for Copil
 1. Select **+ Configure SharePoint locations**.
 
 
-    :::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of a folder details pane in SharePoint, with the information icon and Path field highlighted.":::
 
 1. In the Configure SharePoint locations dialog, enter a name to identify the folder, paste the folder URL in the **SharePoint URL** field, and then select **Add more** to add more folders.
 
