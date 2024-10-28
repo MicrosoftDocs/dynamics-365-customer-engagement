@@ -1,7 +1,7 @@
 ---
 title: Create a product
 description: Use products in Dynamics 365 Sales to define the products or services that your organization offers.
-ms.date: 10/18/2024
+ms.date: 10/28/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -39,9 +39,9 @@ Products that you create are visible to all users in your organization.
  
     -  If you're using the Sales Hub app, 
         1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
-        1. In the **Product Catalog** area, select **Families and Products**. 
+        1. In the **Product Catalog** area, select **Families and products**. 
    - If you're using the Sales Professional app,
-       - Select **Price List** from the site map.  
+       - Select **Price Lists** from the site map.  
   
 3. (Applicable for Sales Premium and Sales Enterprise) To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](create-product-family.md)  
   
@@ -76,7 +76,7 @@ Products that you create are visible to all users in your organization.
 6. If you're creating this product under a family, the product will inherit the properties from its parent family. To change a product's property, in the **Product Properties** section, open the property by selecting the name, and selecting **Override**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use properties to describe a product](use-properties-describe-product.md)  
   
 
-7. To add product relationships, select the **Related** tab, and then select **Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](define-related-products-increase-chances-sales.md)  
+7. To add product relationships, select the **Related** tab, and then select **Product Relationships**. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define related products to increase chances of sales](define-related-products-increase-chances-sales.md)  
 
 8. To see all the products that are associated with this product in a bundle, select the **Related** tab, and select **Product Bundles**. 
   

@@ -1,7 +1,7 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 Sales."
-ms.date: 10/22/2024
+ms.date: 10/28/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,7 +34,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
 
 2. Go to **Settings** > **Advanced Settings**.
 
-3. Select **Data Management**.
+3. Select **Settings** > **System** > **Data Management**.
   
 4. Select **Export Field Translations**.  
   
@@ -65,7 +65,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
 
 2. Go to **Settings** > **Advanced Settings**.
 
-3. Select **Data Management**.
+3. Select **Settings** > **System** > **Data Management**.
   
 4. Select **Import Field Translations**.  
   
@@ -77,7 +77,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
     This starts the import job. You can check the status to see if the import has succeeded or failed.  
   
-   After you've imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language does not exist, the results will be shown in the user's base language.  
+   After you've imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language doesn't exist, the results will be shown in the user's base language.  
   
 <a name="bkmk_LanguageSelection"></a>   
 ## Selection of language in different scenarios  
@@ -85,7 +85,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
 -   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user's preferred language (user interface language) is used if present. Otherwise, the base language is used.  
   
--   When a record is created or updated, duplicates are detected from the localizable fields (attributes) that are in the base language. Creating or updating a localizable field is not applicable in a non-base language.  
+-   When a record is created or updated, duplicates are detected from the localizable fields (attributes) that are in the base language. Creating or updating a localizable field isn't applicable in a non-base language.  
   
 -   During data import,  
   
@@ -95,7 +95,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
 -   When you run duplicate detection in the base language, only the base language is used in conditional clauses.  
   
--   When you run duplicate detection job in the preferred language, label in the preferred language is used first. When preferred language is not available, it uses the base language.  
+-   When you run duplicate detection job in the preferred language, label in the preferred language is used first. When preferred language isn't available, it uses the base language.  
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
