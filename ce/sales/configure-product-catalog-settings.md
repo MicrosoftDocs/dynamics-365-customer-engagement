@@ -1,6 +1,7 @@
 ---
 title: Configure product catalog settings
 description: Configure settings to change seller experience when selecting products from catalog.
+ms.date: 10/28/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,7 +32,9 @@ To allow a security role to create products, you must assign the **Create** perm
 
 **To configure the product catalog settings**
 
+1. In the Sales Hub app, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**.
 
+2. Under **Product Catalog**, select **Product Catalog Settings**.
 
 3. On the **Product catalog settings** page, set the appropriate values as described in the following table, and then save the changes.
 
@@ -39,8 +42,7 @@ To allow a security role to create products, you must assign the **Create** perm
 
 | **Setting** | **Description** |
 |-------------------------|-------------------------|
-| **Adding products** | Turn on this option to enable the enhanced **Add products** dialog box that sellers can use to efficiently search, compare, and select products while they're creating an opportunity, quote, invoice, or order. </br> When you turn on this option, you'll see additional customization options you can use to customize the information you need in the **Add products** dialog box. You can either add more columns to the dialog box or add more information to the **Product** column. More information: [Preview: Customize the Add products dialog box](customize-add-products-dialog-box.md). |
-| **Create products in active state** | Turn on this option to set the products to the `active` state upon creation. This option applies only to products that don't have a parent product family. To create products in the `draft` state, turn this option off. |
+| **Enhanced experience for adding products** | Turn on this option to enable the enhanced **Add products** dialog box that sellers can use to efficiently search, compare, and select products while they're creating an opportunity, quote, invoice, or order. </br> When you turn on this option, you'll see additional customization options you can use to customize the information you need in the **Add products** dialog box. You can either add more columns to the dialog box or add more information to the **Product** column. More information: [Preview: Customize the Add products dialog box](customize-add-products-dialog-box.md). |
 | **Create product in active state** | Turn on this option to set the products to the `active` state upon creation. This option applies only to products that don't have a parent product family. To create products in the `draft` state, turn this option off. |
 | **Allow selection of default pricelist** | Turn on this option if you want the default price list to be selected for an opportunity based on the inbuilt rule (that is, using the default price lists that have been defined for territories). Otherwise, turn this option off. |
 | **System pricing calculation** | Turn on this option to use the system pricing engine to calculate prices for opportunities, quotes, orders, and invoices. Turn the option off to use custom pricing. More information: [Use custom pricing for products](developer/use-custom-pricing-products.md)  |
