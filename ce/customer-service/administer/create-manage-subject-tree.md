@@ -73,9 +73,7 @@ You can select **Open old subject management page** to use the older experience.
 
 ### Related information
 
-[Configure Customer Service](configure-cs.md)   
 [Overview of case management](overview-cases.md)   
-
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
