@@ -114,7 +114,7 @@ Your records might have sales documents, such as proposals and contracts, associ
 
 Copilot can summarize only PDF and Word files that it determines are related to sales based on their content length, document type, and use of sales-specific keywords. Learn more in [How does Copilot determine if a document is a sales document?](sales-copilot-faq.md#how-does-copilot-determine-if-a-document-is-a-sales-document).
 
-Copilot searches all the SharePoint folders that you have access to unless your administrator tells it where to find your sales documents. Learn more in [Configure Copilot to use specific SharePoint folders](copilot-sharepoint-config.md).
+Copilot searches all the SharePoint folders that you have access to unless your administrator [configures Copilot to use specific SharePoint folders](copilot-sharepoint-config.md).
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 
