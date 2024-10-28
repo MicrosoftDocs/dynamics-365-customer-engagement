@@ -606,7 +606,7 @@ items:
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: New Field Service mobile experience troubleshooting
-    href: mobile/troubleshooting-mobile-newux.md
+    href: /troubleshoot/dynamics-365/field-service/welcome-field-service
 
 - name: Responsible AI
   items:
