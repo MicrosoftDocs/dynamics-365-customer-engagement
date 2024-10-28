@@ -64,7 +64,7 @@ Copilot in Dynamics 365 Sales refers to the AI assistant that's integrated with 
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 
-Copilot matches a lead with contacts based on the lead's email address only. You can't customize the matching fields.
+Copilot matches a lead with contacts based on the lead's email address only. The matches are ordered based on the last updated date of the contact record. You can't customize the matching fields. 
 
 ## Are there any applications where Copilot in Dynamics 365 Sales can't be used?
 
