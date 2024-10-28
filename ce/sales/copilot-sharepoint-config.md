@@ -26,7 +26,6 @@ Copy the Path URL of the SharePoint folders that you want to configure for Copil
 
 ## Configure SharePoint folders
 
-1. Open SharePoint and the Sales Hub app in separate browser tabs.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
