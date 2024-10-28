@@ -1,6 +1,6 @@
 ---
 title: Migrate configurations for record routing using solutions
-description: Learn to migrate configuration data pertaining for routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
+description: Learn to migrate configuration data pertaining to routing, capacity profiles, queues, intake rules, and workstreams in Customer Service using solutions.
 author: mjfjesus
 ms.author: marcoje
 ms.reviewer: nenellim
@@ -46,7 +46,7 @@ You must perform the steps in the order they're listed to migrate your configura
 
 ## Migrate configuration for session templates and notification templates
 
-If the following components are available in your setup,add them to a solution, then export and import the solution into the target environment:
+If the following components are available in your setup, add them to a solution, then export and import the solution into the target environment:
 
 1. Add the following components to a solution and export it from the source environment:
    - Agent Script (msdyn_productivityagentscripts)
