@@ -18,6 +18,12 @@ Sales organizations often store documents that are related to products and sales
 
 The results that Copilot returns are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
 
+## Prerequisite
+
+Copy the Path URL of the SharePoint folders that you want to configure for Copilot to use. Open the folder in SharePoint and select the information icon to copy the **Path** URL as shown in the following image.
+
+:::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of the details pane in SharePoint with information icon and Path fields highlighted.":::
+
 ## Configure SharePoint folders
 
 1. Open SharePoint and the Sales Hub app in separate browser tabs.
