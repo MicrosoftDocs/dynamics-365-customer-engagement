@@ -39,7 +39,6 @@ Copy the Path URL of the SharePoint folders that you want to configure for Copil
 
 1. In the Configure SharePoint locations dialog, enter a name to identify the folder, paste the folder URL in the **SharePoint URL** field, and then select **Add more** to add more folders.
 
-1. Repeat steps 6 and 7 for each SharePoint folder that you want Copilot to use.
 
 1. When you're done, save your changes.
 
