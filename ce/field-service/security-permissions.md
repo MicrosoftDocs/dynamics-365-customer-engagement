@@ -1,17 +1,17 @@
 ---
-title: Security roles and field-level security profiles
-description: Learn how security roles and field-level security profiles affect users in Dynamics 365 Field Service.
-ms.date: 10/23/2024
+title: Security roles and column-level security profiles
+description: Learn how security roles and column-level security profiles affect users in Dynamics 365 Field Service.
+ms.date: 10/28/2024
 ms.topic: conceptual
 ms.author: jacoh
 author: jasonccohen
 ---
 
-# Security roles and field-level security profiles
+# Security roles and column-level security profiles
 
-Security roles help control who can access restricted or sensitive data and resources. Security roles define how different users access different types of records. Learn more: [Security roles and privileges](/power-platform/admin/security-roles-privileges).
+Security roles define how different users access different types of records. Record-level permissions are granted at the table level. The Field Service security roles define permissions for tables used in the application. Learn more: [Security roles and privileges](/power-platform/admin/security-roles-privileges). All Field Service users must have a security role.
 
-The Field Service security roles define permissions for tables used in the app. Some tables might have column or field-level security enabled for certain columns. In this case, the user must have field-level permissions and a security role. For example, a user can have access account table but the revenue column is locked. If the user needs to update the revenue column, they need permission set up for that column. Learn more: [Column-level security to control access](/power-platform/admin/field-level-security).
+If you have certain columns associated with a table that contain data that is more sensitive than the other columns, use column-level security to control access to specific columns. For example, a user can have access to the account table but the revenue column is locked. If the user needs to update the revenue column, they need permission set up for that column. Therefore, the user needs a security role and column-level permissions to access the column. Learn more: [Column-level security to control access](/power-platform/admin/field-level-security).
 
 ## Field Service security roles
 
@@ -27,7 +27,7 @@ There are several user roles that the Field Service application introduces.
 
 - **IoT - Administrator**: Registers IoT devices, connects IoT data with the Field Service application, and manages business processes based on IoT alerts.
 
-- **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information, see [setting up security roles for Connected Field Service](cfs-security-roles.md).
+- **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information, go to [setting up security roles for Connected Field Service](cfs-security-roles.md).
 
 Most organizations have several resources, some dispatchers, and few administrators. For example, a plumbing company has 20 plumbers with vehicles and equipment. There are three dispatchers who assign work to the plumbers, and one administrator who maintains the system so everyone is productive.
 

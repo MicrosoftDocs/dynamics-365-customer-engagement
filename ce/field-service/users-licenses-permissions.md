@@ -1,7 +1,7 @@
 ---
 title: Set up users, licenses, and security roles
 description: Learn how to set up Field Service users and security roles in Dynamics 365 Field Service.
-ms.date: 10/23/2024
+ms.date: 10/28/2024
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -15,6 +15,7 @@ Field service management requires several individuals with different roles to co
 
 - You need [admin permissions](/microsoft-365/admin/admin-overview/admin-overview?view=o365-worldwide&preserve-view=true) for Microsoft 365.
 - Your organization [owns Field Service licenses](buy-fs.md). To try Field Service, [start a free trial](https://dynamics.microsoft.com/get-started/free-trial/?appname=fieldservice).
+- You have knowledge of [security roles and column-level security profiles](security-permissions.md) and how they affect users.
 
 ## Create user accounts
 
