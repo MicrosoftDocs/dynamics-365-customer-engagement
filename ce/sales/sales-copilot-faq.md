@@ -159,7 +159,7 @@ To share your feedback, use the thumbs up or down buttons in the **Email (previe
 
 To share your ideas and suggestions, use the **Connect and share** icon at the top-right corner of the Sales Hub app.
 
-### What feature enhancements are coming?
+### What feature enhancements are coming up?
 
 If your administrator turned on preview features, you can view a list of feature enhancements that are coming soon. Learn more in [Copilot preview features](copilot-preview-features.md#copilot-preview-features).
 
