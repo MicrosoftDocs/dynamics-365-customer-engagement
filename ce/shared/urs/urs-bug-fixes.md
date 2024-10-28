@@ -1,4 +1,4 @@
-
+  
 ## Release schedule
 
 When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. The table shows estimates for when the next release will become available in the region of your environment.
@@ -27,7 +27,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.133.47
 
-- Fixed bug that was misdirecting some users to the wrong version of the schedule board.
+- Fixed bug that was redirecting some users to the wrong version of the schedule board.
 
 ## 3.12.143.36
 
@@ -35,11 +35,10 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.133.37
 
-- Fixed a bug that was causing booking previews in schedule assistant to render on top of the settings panel and legend
-- An error is now displayed when trying to set "Derive Capacity from Group Members" on resources that are not pools
-- Fixed a bug that was causing estimated arrival times to be set even when there were no changes
-- Fixed a bug that was sometimes causing the wrong requirement to be booked when using schedule assistant on work orders 
-  with multiple requirements.
+- Fixed a bug that was causing booking previews in schedule assistant to render on top of the settings panel and legend.
+- We now show an error when users try to derive capacity from group members on resources that are not pools.
+- Fixed a bug that was causing estimated arrival times to be set even when there were no changes.
+- Fixed a bug that was sometimes causing the wrong requirement to be booked when using schedule assistant on work orders with multiple requirements.
 
 ## 3.12.142.5
 
