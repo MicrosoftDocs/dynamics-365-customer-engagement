@@ -35,7 +35,6 @@ Copy the Path URL of the SharePoint folders that you want to configure for Copil
 
 1. Select **+ Configure SharePoint locations**.
 
-1. In SharePoint, open a folder that you want Copilot to use, select the information icon to open the details pane, and then select the copy icon next to **Path** to copy the folder URL.
 
     :::image type="content" source="media/sharepoint-path.png" alt-text="Screenshot of a folder details pane in SharePoint, with the information icon and Path field highlighted.":::
 
