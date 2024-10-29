@@ -1,7 +1,7 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 Sales."
-ms.date: 10/28/2024
+ms.date: 10/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,7 +32,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Advanced Settings**.
+2. Select **Settings** > **Advanced Settings**.
 
 3. Select **Settings** > **System** > **Data Management**.
   
@@ -63,17 +63,17 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Go to **Settings** > **Advanced Settings**.
+2. Select **Settings** > **Advanced Settings**.
 
 3. Select **Settings** > **System** > **Data Management**.
   
 4. Select **Import Field Translations**.  
   
-5. In the **Field Translation Import Jobs** page, on the Action toolbar, select **Import Field Translations**.  
+5. In the **Field Translation Import Jobs** page, on the action toolbar, select **Import Field Translations**.  
   
-6. In the **Import Translated Text** dialog box, select **Browse**, and select the file that you've received from your translation agency.  
+6. In the **Import Translated Text** dialog box, select **Choose file**, and select the file that you've received from your translation agency.  
   
-7. Select **Import**.  
+7. Select **OK**.  
   
     This starts the import job. You can check the status to see if the import has succeeded or failed.  
   
