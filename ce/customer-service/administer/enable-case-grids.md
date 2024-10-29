@@ -49,7 +49,7 @@ To enable inline edits on columns, do the following:
 
 ### Manage option set colors
 
-We recommend that you choose colors that keep the text readable if you are customizing the color of option set values. If you don't want the option sets to display colors on the case grid, set the **Enable OptionSet colors** property of the **Power Apps grid control** to **No (Enum)**.
+We recommend that you choose colors that keep the text readable if you are customizing the color of option set values. Colors that you've set for custom columns of type OptionSet are also automatically displayed on the case grid. If you don't want the option sets to display colors on the case grid, set the **Enable OptionSet colors** property of the **Power Apps grid control** to **No (Enum)**.
 
 
 ## Add columns to the case grid
