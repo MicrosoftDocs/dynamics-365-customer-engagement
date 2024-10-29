@@ -32,7 +32,7 @@ The following are some of the key features of the modernized case grids:
   > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 - The ability to use quick navigation to respond to the latest interaction.
 
-## Enable inline edits and color coded case status fields
+## Enable inline edits 
 
 To enable inline edits on columns, do the following:
 
@@ -46,6 +46,11 @@ To enable inline edits on columns, do the following:
 1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
 
 1. Select **Save**, and then select **Publish**.
+
+### Manage option set colors
+
+We recommend that you choose colors that keep the text readable if you are customizing the color of option set values. If you don't want the option sets to display colors on the case grid, set the **Enable OptionSet colors** property of the **Power Apps grid control** to **No (Enum)**.
+
 
 ## Add columns to the case grid
 
