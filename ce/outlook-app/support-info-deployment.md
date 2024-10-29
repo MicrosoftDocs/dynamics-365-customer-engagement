@@ -9,8 +9,8 @@ ms.tgt_pltfrm:
 ms.topic: get-started
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
