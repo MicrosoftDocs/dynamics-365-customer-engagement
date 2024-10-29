@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 10/15/2024
+ms.date: 10/29/2024
 ms.custom: bap-template
 ---
 
@@ -46,4 +46,4 @@ If you don't want the Customer Service workspace app to be visible for any of th
 
 ## Next steps
 
-For migration information, go to [Migrate from Omnichannel for Customer Service to Customer Service workspace](migrate-oc-to-csw.md)
+For migration information, go to [Migrate from removed or deprecated apps](migrate-to-csw.md).
