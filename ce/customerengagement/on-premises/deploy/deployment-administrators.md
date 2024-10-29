@@ -33,7 +33,7 @@ To run [!INCLUDE[pn_deploymentmanager](../includes/pn-deploymentmanager.md)], yo
 
 After a user is added as a deployment administrator, the member of the Deployment Administrators group might receive a message similar to one of the following when executing a deployment administrative task, such as importing an organization database.
 
-Failed to install CustomControlsCoreException: Microsoft.Crm.CrmException: The user Id(s) [00aa00aa-bb11-cc22-dd33-44ee44ee44ee] is invalid.
+Failed to install CustomControlsCoreException: Microsoft.Crm.CrmException: The user Id(s) [00000000-0000-0000-0000-000000000000] is invalid.
 
 or 
 
