@@ -41,7 +41,7 @@ You can create or edit a subject in the Customer Service admin center app.
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the Visibility toggle if you want the subject to be available for the agent.
+    - Switch on the **Visibility** toggle if you want the subject to be available for the agent.
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 
