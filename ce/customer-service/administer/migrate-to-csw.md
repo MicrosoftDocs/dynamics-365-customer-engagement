@@ -14,8 +14,8 @@ ms.custom: bap-template
 
 This article contains information about how to migrate to Customer Service workspace from the following two apps:
 
-- [Omnichannel for Customer Service agent-facing app](migrate-to-csw.md#migrate-from-the-omnichannel-for-customer-service-agent-facing-app-to-customer-service-workspace)
-- [Customer Service Hub](migrate-to-csw.md#migrate-t0-customer-service-workspace-from-customer-service-hub)
+- [Omnichannel for Customer Service agent-facing app](migrate-to-csw.md#migrate-to-customer-service-workspace=from-the-omnichannel-for-customer-service-agent-facing-app)
+- [Customer Service Hub](migrate-to-csw.md#migrate-to-customer-service-workspace-from-customer-service-hub)
 
 ## Prerequisites
 
@@ -23,7 +23,7 @@ To make configuration changes to Customer Service workspace, you must have one o
 - System Administrator
 - System Customizer
 
-## Migrate from the Omnichannel for Customer Service agent-facing app to Customer Service workspace
+## Migrate to Customer Service workspace from the Omnichannel for Customer Service agent-facing app
 
 The Omnichannel for Customer Service agent-facing app was deprecated on April 1, 2023. This section walks through the steps on how to migrate from Omnichannel for Customer Service to Customer Service workspace.
 
