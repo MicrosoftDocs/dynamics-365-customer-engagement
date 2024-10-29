@@ -10,7 +10,7 @@ ms.date: 10/29/2024
 ms.custom: bap-template 
 ---
 
-## Ask a question 
+# Ask a question 
 
 When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information. Copilot quickly retrieves information, generates summaries for cases, and gets required details about case data, all within the same interface.
 
@@ -110,4 +110,5 @@ To rate the usefulness of Copilot's responses, select the thumbs-up or thumbs-do
 
 ## Related information
 
-[Enable proactive prompts](../administer/proactive-prompts.md)
+[Enable features in Copilot pane](../administer/copilot-enable-help-pane.md)
+

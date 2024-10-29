@@ -283,7 +283,7 @@
         - name: Summarize conversations
           href: copilot-use-summary.md#summarize-conversations
         - name: Ask a question 
-          href: use-ask-question.md
+          href: use-ask-a-question.md
         - name: Draft a chat response (preview)
           href: use-copilot-features.md
         - name: Write an email with Copilot
