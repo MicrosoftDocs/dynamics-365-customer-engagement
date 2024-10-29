@@ -12,14 +12,14 @@ ms.custom: bap-template
 
 # Ask a question 
 
-When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without your having to search for the information. Copilot quickly retrieves information, generates summaries for cases, and gets required details about case data, all within the same interface.
+When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without you having to search for the information. Copilot quickly retrieves information, generates summaries for cases, and gets required details about case data, all within the same interface.
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
 ## Prerequisites
 
-- You must have the Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics.
+- You must have the Dynamics 365 Customer Service Enterprise license for summarize cases, ask a question, draft emails, and copilot analytics.
 
 - Make sure that your administrator has turned on the Copilot features.
 
