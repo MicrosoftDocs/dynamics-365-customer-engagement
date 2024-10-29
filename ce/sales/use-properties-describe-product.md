@@ -1,7 +1,7 @@
 ---
 title: "Use properties to describe a product (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Simplify product management and classification by adding product properties in Dynamics 365 Sales."
-ms.date: 10/18/2024
+ms.date: 10/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -46,7 +46,7 @@ Adding well-defined properties to products cuts down on the time spent by your a
 
     :::image type="content" source="media/add-new-properties.png" alt-text="Add new properties to a product family":::
 
-4. In the **Property** form, on the **Summary** tab, enter the name of the property, and set other fields, as required.
+4. In the **New Property** form, on the **Summary** tab, enter the name of the property, and set other fields, as required.
 
    > [!NOTE]
    > You can hide a property by setting **Hidden** to **Yes**. When you hide a property, you block the child families or products from inheriting that property. 
