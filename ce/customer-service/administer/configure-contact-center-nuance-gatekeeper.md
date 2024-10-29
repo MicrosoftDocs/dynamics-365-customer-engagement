@@ -45,7 +45,7 @@ Create a new Omnichannel Service Principal account to configure new Event Grid s
 
 1. Create the Service Principal for Omnichannel for Customer Service.
     - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
-    - `New-AzADServicePrincipal -ApplicationId "11112222-bbbb-3333-cccc-4444dddd5555" -DisplayName "Omnichannel EventGrid Writer App"`.
+    - `New-AzADServicePrincipal -ApplicationId "a950df6d-e658-48fc-b494-ec69d8d9731b" -DisplayName "Omnichannel EventGrid Writer App"`.
 
 1. Provide access to the Omnichannel Event Grid Writer with the permission to configure Event Grid subscriptions on the Azure Communication Services resource.
    - `Connect-AzAccount -SubscriptionId "<SubscriptionId>”`.
