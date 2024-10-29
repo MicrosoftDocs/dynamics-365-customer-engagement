@@ -10,7 +10,7 @@ ms.date: 08/25/2023
 ms.custom: bap-template
 ---
 
-# Migrate to Customer Service workspace from removed or deprecated apps
+# Migrate to Customer Service workspace from deprecated or removed apps
 
 This article contains information about how to migrate to Customer Service workspace from the following two apps:
 
