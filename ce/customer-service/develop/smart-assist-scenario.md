@@ -105,7 +105,7 @@ This custom action enables you to open any entity record.
                              "CustomAction": "OpenForm",
                              "CustomParameters": {
                                            "entityName": "incident",
-                                           "entityId": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee",
+                                           "entityId": "c3356c37-bba6-4067-b1a1-8c66e1c203a1",
                                            "data": {}
                              }
               }
