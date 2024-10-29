@@ -104,7 +104,7 @@ For sample schema to get all the required records, go to [Sample schema for capa
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
-    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li>Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li><li>Name (msdyn_name)</li><li>Reset Duration(msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`<fetch>` <br>  `  <entity name="msdyn_capacityprofile">` <br>`    <filter type="and">`<br>`      <condition attribute="ismanaged" operator="eq" value="0" />`<br>`    </filter>`<br>`  </entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`  <entity name="msdyn_capacityprofile">`<br>`    <filter type="and">`<br>`      <condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `    </filter>`<br> `  </entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `  <entity name="msdyn_capacityprofile">`<br> `    <filter type="and">` <br> `      <condition attribute="msdyn_capacityprofileid" operator="in">`<br>`        <value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `        <value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`      </condition>`<br>`    </filter>`<br>`  </entity>`<br>`</fetch>` |
+    |Capacity Profile (msdyn_capacityprofile)     | <ul><li>Block Assignment (msdyn_blockassignment)</li><li>Capacity Profile (msdyn_capacityprofileid)</li><li>Default Max Units (msdyn_defaultmaxunits)</li><li>Name (msdyn_name)</li><li>Reset Duration (msdyn_resetduration)</li><li>Unique Name (msdyn_uniquename)</li></ul> | **Sample 1: For all capacity profile records**<br>`<fetch>` <br>  `  <entity name="msdyn_capacityprofile">` <br>`    <filter type="and">`<br>`      <condition attribute="ismanaged" operator="eq" value="0" />`<br>`    </filter>`<br>`  </entity>`<br>  `</fetch>`<br><br> **Sample 2: For a single capacity profile record** <br> `<fetch>` <br>`  <entity name="msdyn_capacityprofile">`<br>`    <filter type="and">`<br>`      <condition attribute="msdyn_capacityprofileid" operator="eq" uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile" value="{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}" />`<br> `    </filter>`<br> `  </entity>`<br> `</fetch>` <br><br> **Sample 3: For multiple capacity profile records** <br> `<fetch>`<br> `  <entity name="msdyn_capacityprofile">`<br> `    <filter type="and">` <br> `      <condition attribute="msdyn_capacityprofileid" operator="in">`<br>`        <value uiname="Demo Capacity Profile 1" uitype="msdyn_capacityprofile">{F57CFE3C-14BD-D53E-F423-A1E7F9749DFB}</value>`<br> `        <value uiname="Demo Capacity Profile 2" uitype="msdyn_capacityprofile">{D0B8ABFB-4A9F-0B1F-6FF4-8003E29A623C}</value>`<br>`      </condition>`<br>`    </filter>`<br>`  </entity>`<br>`</fetch>` |
 
 1. Generate the schema and save it.
 
@@ -197,10 +197,6 @@ Perform the following steps to export and import the rulesets:
 
 For sample schema to get all the required records, go to [Sample schema for record queues step 1](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%201.xml).
 
-
-
-
-
 ### Step 2: Export and import rulesets with selection criteria defined
 
 The following table summarizes the entities and corresponding FetchXML samples.
@@ -214,9 +210,9 @@ Perform the following steps to export and import the rulesets:
 
 1. Generate the schema and save it.
 
-2. Export the data and generate the compressed (zip) file.
+2. Export the data and generate the compressed (.zip) file.
 
-3. Extract the zip file, open the data.xml file present in the extracted folder, and do the following:
+3. Extract the .zip file, open the data.xml file present in the extracted folder, and do the following:
 
    - In the source and target environments, run the following OData API call and note the GUID of `msdyn_decisioncontractid`.
 
@@ -234,7 +230,7 @@ Perform the following steps to export and import the rulesets:
 
 5. Use the Configuration Migration tool, select the option to import data, and then select the compressed file.
 
-For sample schema to get all the required records, see [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
+For sample schema to get all the required records, go to [Sample schema for record queues step 2](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20unified%20routing%20record%20queues%20step%202.xml).
 
 ### FetchXML for queues
 
@@ -791,7 +787,7 @@ Use the following steps to migrate intake rules and record workstreams from the 
 1. Create a solution to export configurations from the source environment for record routing workstreams.
 1. Add the required records to the solution using the **Add existing button** in the command bar.
 1. Select the **Work Stream (msdyn_liveworkstream)** table. Related records from the following tables are automatically added to the solution:
-   - Capacity Profile (msdyn_capacityprofile) – new records must be migrated using Configuration Migration tool
+   - Capacity Profile (msdyn_capacityprofile) – new records must be migrated using the Configuration Migration tool
    - Master entity routing configuration (msdyn_masterentityroutingconfiguration)
    - Decision contract (msdyn_decisioncontract) – for both intake rules and record workstreams
    - Decision rule set (msdyn_decisionruleset) – for both intake rules and record workstreams
