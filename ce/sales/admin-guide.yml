@@ -98,6 +98,18 @@ landingContent:
             url: move-sales-enterprise-sales-professional.md
 
 # Card 
+  - title: LinkedIn integration
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Install and enable LinkedIn Sales Navigator
+            url: linkedin/install-sales-navigator.md
+          - text: Uninstall LinkedIn Sales Navigator
+            url: linkedin/uninstall-sales-navigator.md
+          - text: Install LinkedIn Sales Insights
+            url: install-lsi-solution.md
+
+# Card 
   - title: Goal management
     linkLists:
        - linkListType: how-to-guide

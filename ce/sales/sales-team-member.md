@@ -1,7 +1,7 @@
 ---
 title: Sales Team Member app for users with Team Member license
 description: Learn about the Team Member license entitlements and the new Sales Team Member app.
-ms.date: 07/22/2024
+ms.date: 10/15/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -9,7 +9,7 @@ ms.reviewer: lavanyakr
 ---
 # Sales Team Member app for users with Team Member license
 
-The Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. You can buy the Team Member license either [through Microsoft 365](buy-dynamics-365-sales.md#buy-dynamics-365-sales-through-microsoft-365) or [from an authorized Microsoft Partner](buy-dynamics-365-sales.md#buy-dynamics-365-sales-from-an-authorized-microsoft-partner).
+The Sales Team Member app is designed for the lightweight sales scenarios where users don't need the full capabilities of an enterprise application. You can buy the Team Member license either [through Microsoft 365](buy-dynamics-365-sales.md#buy-dynamics-365-sales-through-microsoft-365) or [from an authorized Microsoft Partner](buy-dynamics-365-sales.md#buy-dynamics-365-sales-from-an-authorized-microsoft-partner). The pricing details are available in Microsoft 365 admin center or from your Microsoft Partner. 
 
 ## Sales Team Member app installation and access
 
