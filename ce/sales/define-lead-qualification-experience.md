@@ -82,8 +82,11 @@ The following options are available only when you select **Seller** for Opportun
 
 - Under **Modify opportunity form**, select **Add or remove fields** to customize the opportunity form that opens when a lead is qualified. The Quick create form opens in Power Apps for editing. You can add or remove fields, change the order of fields, or change the properties of fields. For more information, see [Add, move, configure, or delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
-- Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to five opportunities from a lead.
+- Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to five opportunities from a lead. 
 
+  > [!NOTE]
+  > If your sellers are using a custom app, add the **Opportunity qualify lead Form** component to the app. Otherwise, sellers can neither edit the default opportunity nor create new opportunities in the **Qualify lead** side pane.
+ 
 ### Summarize the lead after it's qualified
 
 When you turn on the [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can choose to let Copilot summarize the lead after it's qualified. Select the checkbox under the **Lead qualification details** section. 
