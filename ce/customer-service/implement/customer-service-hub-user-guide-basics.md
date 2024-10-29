@@ -1,7 +1,7 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 10/28/2024
+ms.date: 10/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -13,7 +13,7 @@ ms.author: laalexan
 
 With the [previous announcement](../implement/deprecations-customer-service.md#customer-service-hub-app-to-be-removed-for-new-organizations-with-enterprise-licenses-in-february-2025) that the Customer Service Hub service representative-facing app would be removed for new organizations with Enterprise licenses, the app is now hidden in these environments. By default, Customer Service workspace is shown to the Customer Service representative profile.
 
-If your business still requires the Customer Service Hub app, use the steps in this section to enable it. For migration information, go to [Migrate from Customer Service Hub to Customer Service workspace](../administer/migrate-csh-to-csw.md).
+If your business still requires the Customer Service Hub app, use the steps in this section to enable it. For migration information, go to [Migrate from Customer Service Hub to Customer Service workspace](../administer/migrate-to-csw.md).
 
 1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
 
