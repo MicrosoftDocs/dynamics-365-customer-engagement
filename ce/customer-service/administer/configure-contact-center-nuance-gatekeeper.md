@@ -31,7 +31,7 @@ The Conversation Conductor handles the audio stream required to support biometri
 
 1. Create service principals in the Azure tenant by using the following PowerShell commands:
    - `Connect-AzAccount -SubscriptionId "<SubscriptionID>”`
-   - `New-AzADServicePrincipal -ApplicationId "00001111-aaaa-2222-bbbb-3333cccc4444" -DisplayName "Conversation Conductor"`
+   - `New-AzADServicePrincipal -ApplicationId "c880d6fb-5c66-49ef-9cf5-e53e31900be5" -DisplayName "Conversation Conductor"`
 
 1. Provide contributor access to the Conversation Conductor so it can answer calls on the Azure Communication Services resource. (Application id: c880d6fb-5c66-49ef-9cf5-e53e31900be5).
 
