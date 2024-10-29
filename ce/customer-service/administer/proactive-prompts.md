@@ -34,4 +34,4 @@ Make sure that you have met the following prerequisites:
 
 ## Related information
 
-[Use proactive prompting in ask a question](../use/use-proactive-prompting.md)
+
