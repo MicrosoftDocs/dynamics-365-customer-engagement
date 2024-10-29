@@ -33,7 +33,7 @@ The Conversation Conductor handles the audio stream required to support biometri
    - `Connect-AzAccount -SubscriptionId "<SubscriptionID>”`
    - `New-AzADServicePrincipal -ApplicationId "00001111-aaaa-2222-bbbb-3333cccc4444" -DisplayName "Conversation Conductor"`
 
-1. Provide contributor access to the Conversation Conductor so it can answer calls on the Azure Communication Services resource. (Application id: 00001111-aaaa-2222-bbbb-3333cccc4444).
+1. Provide contributor access to the Conversation Conductor so it can answer calls on the Azure Communication Services resource. (Application id: c880d6fb-5c66-49ef-9cf5-e53e31900be5).
 
 1. Go to **Communication Service** > **Select the specific ACS resource** > **Access Control** > **Add role** assignment, and then select **Conversation Conductor** app in **Contributor**.
 
