@@ -16,17 +16,17 @@ ms.custom: bap-template
 
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for record routing.
 
-For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
+For information on how to use solutions or the Configuration Migration tool, go to [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
 ## Prerequisites
 
 The following prerequisites must be met:
 
 - Make sure that the user who performs the channel configuration migration has the following privileges:
-  - To export solutions from the source environment
-  - To import solutions to the destination environment
-  - Read permission on all tables migrated from the source environment using Configuration Migration tool.
-  - Full permission on all tables migrated to the destination environment using Configuration Migration tool.
+  - To export solutions from the source environment.
+  - To import solutions to the destination environment.
+  - Read permission on all tables migrated from the source environment using the Configuration Migration tool.
+  - Full permission on all tables migrated to the destination environment using the Configuration Migration tool.
 - In the source environment, if any table or column refers to the following, then make sure that they exist in the target environment before you proceed with the migration:
   - Custom tables (entities)
   - Columns (attributes)
@@ -42,7 +42,7 @@ You must perform the steps in the order they're listed to migrate your configura
 1. Migrate configuration for skill-based routing rulesets
 1. Migrate configuration for new capacity profiles
 1. Migrate configuration for queues
-1. Migrate configuration for intake rules and  workstreams
+1. Migrate configuration for intake rules and workstreams
 
 ## Migrate configuration for session templates and notification templates
 
@@ -60,13 +60,13 @@ If the following components are available in your setup, add them to a solution,
 
 1. Import the solution into the target environment.
 
-For more information on solutions see [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
+For more information on solutions, go to [Solutions in Power Apps](/power-apps/maker/data-platform/solutions-overview).
 
 ## Migrate configuration for skill-based routing rulesets
 
 If skill-based routing rulesets are used in your setup, perform the steps to migrate the corresponding configuration.
 
-For sample schema to get all the required records, see [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
+For sample schema to get all the required records, go to [Sample schema for skill-based routing configuration](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20skill-based%20routing.xml).
 
 1. Use the Configuration Migration tool to create the schema and export data from the source environment (organization) for skill-based routing configuration.
   
@@ -74,7 +74,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
    - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns if necessary.
 
     > [!IMPORTANT]
-    > For **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
+    > For the **Characteristic** table, you must manually create **bookableresourcecharacteristictype** Global choice value in the target environment, or use a solution to migrate it from the source environment, if necessary.
 
     |Entity display name (Logical name)  |Attribute display name (Logical name)  |Use FetchXML to filter records  |
     |---------|---------|---------|
@@ -84,7 +84,7 @@ For sample schema to get all the required records, see [Sample schema for skill-
 
 1. Generate the schema and save it.
 
-1. Export the data and generate the compressed (zip) file.
+1. Export the data and generate the compressed (.zip) file.
 
 1. Use the Configuration Migration tool and select the option to import data into the target environment using the compressed file.
 
@@ -92,10 +92,14 @@ For sample schema to get all the required records, see [Sample schema for skill-
 
 If you configured new capacity profiles in your setup, perform the steps to migrate the corresponding configuration.
 
-For sample schema to get all the required records, see [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
+For sample schema to get all the required records, go to [Sample schema for capacity profiles](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/unified-routing-sample-schemas/Sample%20schema%20for%20capacity%20profiles.xml).
 
 > [!TIP]
 > After you migrate a new capacity profile using the Configuration Migration tool, migrate the updates using solutions.
+
+
+
+
 
 1. Use the Configuration Migration tool to create the schema and export data in source environment for capacity profiles configuration.
    - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
