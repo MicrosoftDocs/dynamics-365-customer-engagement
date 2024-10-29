@@ -30,13 +30,13 @@ Copilot is an AI-powered tool that revolutionizes the agent experience in Dynami
 |-----------------------|---------|
 | **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
 
-## Draft a response
+## Draft a chat response
 
 Use Copilot to draft chat responses when you're in a conversation with a customer.
 
 :::image type="content" source="../media/copilot-responses.png" alt-text="Screenshot of Copilot suggested responses for conversations.":::
 
-### Generate a response
+### Generate a chat response
 
 Select the one-click response generation button at the lower-right corner of the Conversation control panel and at the lower-left corner of the Copilot pane. Copilot analyzes the context of the conversation and the latest customer question or message, and drafts a response to send directly to the customer. You don't need to manually type the question.
 
