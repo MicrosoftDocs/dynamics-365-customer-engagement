@@ -16,7 +16,8 @@ Proactive prompting enables agents to discover and prompt Copilot effortlessly, 
 
 ## Prerequisites
 
-Make sure the following prerequisites exist:
+Make sure that you have met the following prerequisites:
+
 - [Copilot features are enabled](configure-copilot-features.md)
 - Knowledge management is enabled.
 - System Administrator role is assigned.
