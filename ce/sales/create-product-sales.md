@@ -1,7 +1,7 @@
 ---
 title: Create a product
 description: Use products in Dynamics 365 Sales to define the products or services that your organization offers.
-ms.date: 10/28/2024
+ms.date: 10/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -51,9 +51,9 @@ Products that you create are visible to all users in your organization.
   
 4. Fill in your information:  
   
-   - **Name** 
+   - **Name**: Enter the name of the product.
 
-   - **Product ID**
+   - **Product ID**: Enter the product ID.
 
    -	**Parent**: Select a new parent for this product. More information: [Change the parent of a product (reparenting)](change-product-parent.md)
 
