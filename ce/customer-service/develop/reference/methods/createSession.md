@@ -67,7 +67,7 @@ Microsoft.Apm.createSession({templateName: "case_entity_session_default_template
 
 ```JavaScript
 x=new Map(); 
-x.set("parametersStr", '[["entityName", "incident"], ["entityId", "11bb11bb-cc22-dd33-ee44-55ff55ff55ff"]]'); 
+x.set("parametersStr", '[["entityName", "incident"], ["entityId", "0e0e6c4f-cbb6-eb11-8236-000d3a5ab8b9"]]'); 
 Microsoft.Apm.createSession({templateName: "case_entity_session_default_template", sessionContext: x, isFocused: false}); 
 ```
 
