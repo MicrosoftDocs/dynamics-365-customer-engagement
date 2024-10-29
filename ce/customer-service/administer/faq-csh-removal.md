@@ -1,7 +1,7 @@
 ---
 title: Customer Service Hub app removal and migration FAQ
 description: Learn about frequently asked questions about the Customer Service Hub app removal and migration to Customer Service workspace.
-ms.date: 10/15/2024
+ms.date: 10/29/2024
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
@@ -47,6 +47,6 @@ If you're an existing customer and need to set up Customer Service Hub in your e
 For information about familiarizing with Customer Service workspace, refer to [Customer Service workspace in a day](https://www.microsoft.com/download/confirmation.aspx?id=105315).
 
 ### Related information
-[Migrate from Customer Service Hub to Customer Service workspace](migrate-csh-to-csw.md)  
+[Migrate to Customer Service workspace from removed or deprecated apps](migrate-to-csw.md)  
 [Get started with Customer Service workspace](../implement/csw-overview.md)  
 [Overview of the productivity pane](../use/csw-productivity-pane.md)
