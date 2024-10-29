@@ -33222,11 +33222,6 @@
       "redirect_url": "/dynamics365/customer-service/use/channels.md",
       "redirect_document_id": false
     },
-    {
-      "source_path": "ce/customer-service/administer/migrate-oc-to-csw.md",
-      "redirect_url": "/dynamics365/customer-service/administer/migrate-to-csw.md",
-      "redirect_document_id": false
-    }
     
   ]
 }
