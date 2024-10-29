@@ -27,7 +27,7 @@ When you sign in to any of the Customer Service agent apps, Copilot opens in the
 - You can use Copilot to get summaries of multiple cases side by side, helping you decide which case to work on first, based on priority and customer needs.
 - When you pick your case or a new conversation to work on, the context of Copilot switches to the particular case and suggests new prompts automatically, without you having to type one. Copilot gathers relevant information and provides you with the information, thereby increasing your efficiency in resolving customer issues.
 
-:::image type="content" source="../media/proactive-prompting.png" alt-text="Screenshot shows options in proactive prompting.":::
+    :::image type="content" source="../media/proactive-prompting.png" alt-text="Screenshot shows options in proactive prompting.":::
 
 ## Related information
 
