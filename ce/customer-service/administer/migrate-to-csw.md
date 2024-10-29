@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 This article contains information about how to migrate to Customer Service workspace from the following two apps:
 
-- [Omnichannel for Customer Service agent-facing app](migrate-to-csw.md#migrate-to-customer-service-workspace=from-the-omnichannel-for-customer-service-agent-facing-app)
+- [Omnichannel for Customer Service agent-facing app](migrate-to-csw.md#migrate-to-customer-service-workspace-from-the-omnichannel-for-customer-service-agent-facing-app)
 - [Customer Service Hub](migrate-to-csw.md#migrate-to-customer-service-workspace-from-customer-service-hub)
 
 ## Prerequisites
