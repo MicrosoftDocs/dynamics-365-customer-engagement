@@ -131,7 +131,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
      "context": {
        "chatId": "21b27e83-299d-a639-3e4a-8dcd6332e184",
        "sessionId": "session-id-2",
-       "entityId": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee",
+       "entityId": "56d56813-04f5-ed11-8849-000d3a35dbfc",
        "entityName": "knowledgearticle"
      }
    } 
