@@ -276,8 +276,6 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
-        - name: Use Copilot to solve customer issues 
-          href: use-copilot-features.md
         - name: Use Copilot to summarize cases and conversations
           href: copilot-use-summary.md
         - name: Summarize cases
@@ -285,9 +283,7 @@
         - name: Summarize conversations
           href: copilot-use-summary.md#summarize-conversations
         - name: Ask a question 
-          href: use-copilot-features.md#ask-a-question
-        - name: Use proactive prompts in ask a question
-          href: use-proactive-prompting.md
+          href: use-ask-question.md
         - name: Draft a chat response (preview)
           href: use-copilot-features.md
         - name: Write an email with Copilot
