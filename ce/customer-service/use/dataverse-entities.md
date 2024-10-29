@@ -31,6 +31,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - msdyn_conversationtopic_conversation
 - msdyn_ocliveworkitem
 - msdyn_ocliveworkitemsentiment
+- msdyn_statuschangereason
+- msdyn_statuschangereasonname
 - msdyn_ocsession
 - msdyn_ocsessionsentiment
 - msdyn_sessionparticipant
@@ -72,6 +74,8 @@ The article describes the Dataverse entities used in historical and real-time an
 - systemuser
 - msdyn_liveworkstream
 - msdyn_ocliveworkitem
+- msdyn_statuschangereason
+- msdyn_statuschangereasonname
 - msdyn_agentstatushistory
 - msdyn_ocsession
 - msdyn_sessionparticipant

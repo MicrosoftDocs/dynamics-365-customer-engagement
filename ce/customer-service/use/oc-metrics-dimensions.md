@@ -73,7 +73,12 @@ This dimension represents the current state of a customer interaction. The follo
 - **Active**: Either the conversation has had an agent assigned and is awaiting acceptance, or an agent is in contact with the customer.
 - **Waiting**: The conversation is currently awaiting either a customer response or an agent response. This option applies to asynchronous conversation modes, such as messages.
 - **Wrap-up**: The agent is performing post–customer interaction activities such as adding notes or updates to the case after the end of a customer conversation.
-- **Closed**: The conversation is currently closed.
+- **Closed**: The conversation is currently closed. The following metrics are a measure of the conversations grouped by call closure reason.
+
+    - Ghost Conversation: Conversations which are connected to an agent but there was no interaction from customer after the conversation was connected. 
+    - Ghost Conversations Rate: Percentage of engaged conversations which are connected to an agent but there was no interaction from customer. 
+    - Conversation disconnect rate: Percentage of conversations that were ended by customer before an agent ended the conversation.
+    - Disconnect reason: Represents the reason behind a customer disconnect. For chats, it represents if the customer closed the widget, ended the conversation, or if there was a system disconnect. For voice, it represents if the customer ended the call or if the call got disconnected due to connection issues.
 
 ### Queue name
 
