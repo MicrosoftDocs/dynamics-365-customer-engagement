@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 10/15/2024
+ms.date: 10/29/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -22,7 +22,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
 
-Effective February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. More information: [Migrate from Customer Service Hub to Customer Service workspace](../administer/migrate-csh-to-csw.md)
+Effective February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. More information: [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md)
 
 ## Diagnostics in unified routing is deprecated
 
@@ -75,9 +75,9 @@ Also, as of October 2022, the Omnichannel admin center and the service managemen
 
 Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
-## Omnichannel for Customer Service agent-facing app is deprecated and will be removed in June 2024
+## Omnichannel for Customer Service agent-facing app is deprecated and removed as of June 2024
 
-Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. More information: [Migrate from Omnichannel for Customer Service to Customer Service workspace](../administer/migrate-oc-to-csw.md)
+Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. More information: [Migrate to Customer Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md)
 
 ## setContextProvider method for authenticated chat is deprecated
 
