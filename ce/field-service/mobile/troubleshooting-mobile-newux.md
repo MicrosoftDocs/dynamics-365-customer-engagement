@@ -139,3 +139,4 @@ Dashboards configured in the navigation aren't supported. Selecting a dashboard 
 ### Resolution
 
 Remove dashboards from the navigation until it's officially supported.
+

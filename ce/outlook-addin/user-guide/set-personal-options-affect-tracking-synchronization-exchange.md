@@ -3,7 +3,7 @@ title: "Set personal options that affect tracking and synchronization between Dy
 description: Learn how to set personal options that affect tracking and synchronization between Dynamics 365 apps and Microsoft Outlook or Microsoft Exchange.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 4a0cb9d0-0192-4330-81d6-322c717a9d82
 caps.latest.revision: 28
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin
