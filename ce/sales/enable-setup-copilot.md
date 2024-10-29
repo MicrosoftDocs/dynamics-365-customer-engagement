@@ -30,7 +30,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
 > [!IMPORTANT]
 >- If you had previously turned Copilot off, it remains turned off. 
->- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
+>- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used)
 
 ## License and role requirements
 
