@@ -30,7 +30,7 @@ A Boolean value of true if a new session can be created; otherwise, false.
 if  (Microsoft.Apm.canCreateSession()) {
 //checks if maximum allowed of sessions has been reached
 x=new Map();
-x.set("parametersStr", '[["entityName", "incident"], ["entityId", "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"]]');
+x.set("parametersStr", '[["entityName", "incident"], ["entityId", "fac04293-1ab0-eb11-8236-000d3a5c49ed"]]');
 Microsoft.Apm.createSession({templateName: "case_entity_session_default_template", sessionContext: x});
 }
 ```
