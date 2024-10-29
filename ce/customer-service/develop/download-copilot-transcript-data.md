@@ -118,7 +118,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
          "isActivityError": false,
          "sources": [
            {
-             "id": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee",
+             "id": "56d56813-04f5-ed11-8849-000d3a35dbfc",
              "title": "Booking Travel",
              "source": "internal_kb"
            }
