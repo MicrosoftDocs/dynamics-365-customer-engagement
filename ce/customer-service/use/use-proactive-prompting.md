@@ -16,7 +16,7 @@ As agents leveraging Copilot, there is often no visibility into how to frame a q
 
 ## Prerequisites
 
-Make sure that your administrator has turned on the Copilot features.
+Make sure that your administrator has [turned on the Copilot features](../administer/configure-copilot-features.md).
 
 ## How to use proactive prompts in Copilot
 
