@@ -25,7 +25,7 @@ The following channels only are supported:
 
 System Administrator role.
 
-## Configure the rules per workstream
+## Configure the timeout rules per workstream
 
 You can configure rules to perform the following actions:
 
@@ -51,7 +51,7 @@ You can configure rules to perform the following actions:
         :::image type="content" source="../media/timeout-rule-action.png" alt-text="Screenshot of timeout rule action settings.":::
 
    - **Autoclose conversation**: Closes the conversation automatically based on the duration that's set for the channel.   
-1. Select **Done**. The rule that you created is listed on the **Timeout rules** page.1. 
+1. Select **Done**. The rule that you created is listed on the **Timeout rules** page. 
 1. You can then set a priority for the rules by entering a value. If two conditions are same, then priority determines the timeout rule to run. The workstream rules are independent of each other and follow the priority of their workstream order.
 
 ## Manage rules
