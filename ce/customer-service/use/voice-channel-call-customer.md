@@ -24,6 +24,7 @@ To test your microphone and speaker, do the following steps:
 
 1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
 1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.
+1. Set the **Secondary Ringer** section, select the device to be used devices to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear.
 1. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds.
     -  **Test microphone**: The microphone starts recording your voice. The recording automatically stops after 15 seconds and is played back to you.
@@ -32,21 +33,20 @@ To test your microphone and speaker, do the following steps:
        - The **Communication Panel** displays the device settings and the **End call** button. 
        - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
 
+
 ## Make a call using the outbound dialer
 
 1. In Customer Service workspace or Contact Center workspace, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:<br>
-      > [!NOTE]
-      > - Searching for a contact by name and opening records from the **Recents** are preview features.
-      > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
      - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
        > [!NOTE]
        > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
      - View and call from the most recently dialed called numbers. By default, the last 20 calls that you’ve received or made are displayed.
      - You can select the customer's name in **Recents** to view the customer's account or contact details in a new session.
-     - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call.
+     - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call. 
+     - Select **Set default** in the profile dropdown to set an outbound profile as the default profile for all your calls.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
      - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
