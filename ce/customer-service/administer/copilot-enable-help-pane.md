@@ -43,9 +43,9 @@ Proactive prompting enables agents to discover and prompt Copilot effortlessly, 
 
 1.	Go to **Agent Experience** > **Productivity** >, and select **Manage** for **Copilot for questions and emails**.
 1.	On the **Copilot for questions and emails** page, select **Ask a question**.
-1. On the **Manage prompt settings** page and select the following as required:
-    - Suggested prompts
-    - Proactive insights
+1. On the **Manage prompt settings** page, select the following as required:
+    - **Suggested prompts**
+    - **Proactive insights**
 3.	In the **Configure prompts** section, select **Add new prompt** to add the prompts that you would like to use.
 4.	Select **Save and close**.
 
