@@ -808,10 +808,10 @@
         href: cs-iot-security-roles.md
     - name: Migration solutions
       items:
-      - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      - name: Migrate from removed or deprecated apps to Customer Service workspace
         items:
-        - name: Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
-          href: migrate-oc-to-csw.md
+        - name: Migrate from deprecated or removed apps to Customer Service workspace
+          href: migrate-to-csw.md
         - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
           href: enable-oc-disable-csw.md
       - name: Migrate configuration data for records channel using solutions
@@ -862,6 +862,8 @@
             href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
+          - name: FAQ on migration from Customer Service Hub to Customer Service workspace
+            href: faq-csh-removal.md
           - name: FAQ on migration from Omnichannel for Customer Service app
             href: migrate-oc-faq.md
           - name: FAQ on Migration tool for automatic record creation rules and SLAs
