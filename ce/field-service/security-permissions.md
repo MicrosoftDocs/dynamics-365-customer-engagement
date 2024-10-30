@@ -13,6 +13,8 @@ Security roles define how different users access different types of records. Rec
 
 If you have certain columns associated with a table that contain data that is more sensitive than the other columns, use column-level security to control access to specific columns. For example, a user can have access to the account table but the revenue column is locked. If the user needs to update the revenue column, they need permission set up for that column. Therefore, the user needs a security role and column-level permissions to access the column. Learn more: [Column-level security to control access](/power-platform/admin/field-level-security).
 
+:::image type="content" source="media/security-profile-diagram.png" alt-text="Diagram showing user access with a security role and column-level security.":::
+
 ## Field Service security roles
 
 There are several user roles that the Field Service application introduces.
