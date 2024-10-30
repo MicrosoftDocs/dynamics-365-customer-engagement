@@ -1,7 +1,7 @@
 ---
 title: Use Power Apps to configure the Field Service mobile app
 description: Review a set of helpful links that point to Power Apps documentation for customization scenarios of the mobile app.
-ms.date: 08/28/2024
+ms.date: 10/30/2024
 ms.topic: reference
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -17,7 +17,7 @@ Because the Dynamics 365 Field Service mobile app is built on Power Platform, ad
 | --- | --- |
 | Model-driven apps | [Model-driven apps developer documentation](/powerapps/developer/model-driven-apps/) |
 | Views | 	- [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer)</br> - [Customize entity views](/powerapps/developer/model-driven-apps/customize-entity-views)
-| Custom iframe integration | 	[Use IFRAME and web resource controls on a form](/powerapps/developer/model-driven-apps/use-iframe-and-web-resource-controls-on-a-form) | 
+| Custom iframe integration | 	[Use IFRAME and web resource controls on a form](/powerapps/developer/model-driven-apps/use-iframe-and-web-resource-controls-on-a-form). Don't use embedded IFRAMEs that require cookie-based authentication. | 
 | Custom HTML pages | 	[Webpage (HTML) web resources](/powerapps/developer/model-driven-apps/webpage-html-web-resources) 
 | Commands on forms and views	 |  - [Command bar or ribbon presentation](/powerapps/developer/model-driven-apps/command-bar-ribbon-presentation)</br> - [Define ribbon actions](/powerapps/developer/model-driven-apps/define-ribbon-actions)</br> -[Define ribbon display rules](/powerapps/developer/model-driven-apps/define-ribbon-display-rules)
 | Event Handling (On Save, On Load, etc.) | 	[Events in forms and grids in model-driven apps](/powerapps/developer/model-driven-apps/clientapi/events-forms-grids) | 
