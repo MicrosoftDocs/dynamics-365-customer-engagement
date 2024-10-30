@@ -84,6 +84,24 @@ Forcibly close a conversation by closing the work item. When you select **Force 
 
 The participants receive a notification that a supervisor ended their conversation.
 
+## Assign, transfer, monitor, or force close converations in customized reports
+
+For customized reports, created through [data model customization](use-datamodel.md), here's how you can perform the actions.
+
+1. In Customer Service workspace, go to **Customized reports**, and then go to the Ongoing conversations report.
+1. Select the conversation that needs to be updated.
+ 
+    When the **Agent Name** doesn't exist, the following options are enabled.
+    1. **Assign**: You can assign an agent by queue for the conversation.
+    1. **Force close**: Force close the conversation if required.
+    
+    When the **Agent Name** exists, the following options are enabled.
+    1. **Transfer**: You can transfer the conversation from one agent to another in the same queue.
+    1. **Monitor**: You can open the conversation dialog to monitor the chat.
+    1. **Force close**: Force close the conversation if required.
+  
+After you assign or transfer conversations, refresh the report manually to view the latest status.
+
 ### Related information
 
 [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
