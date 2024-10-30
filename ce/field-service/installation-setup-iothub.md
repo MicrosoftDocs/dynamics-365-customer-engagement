@@ -1,7 +1,7 @@
 ---
 title: Install and configure Connected Field Service for Azure IoT Hub
 description: Learn how to install and configure Dynamics 365 Connected Field Service for Azure IoT Hub.
-ms.date: 05/08/2023
+ms.date: 10/28/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -78,7 +78,7 @@ Make sure the deployment is complete before you proceed.
 
 1. Select **Save**.
 
-You now need to update the settings for the new provider instance.
+Update the settings for the new provider instance.
 
 1. In the **Settings** area, select **IoT Settings** > **IoT Provider Settings**.
 
