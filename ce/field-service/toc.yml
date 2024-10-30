@@ -107,18 +107,14 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Use Copilot in the web app
+    - name: Use Copilot in the web and mobile app
       items:
         - name: Side pane chat
           href: copilot-side-pane.md
         - name: Work order summary
           href: work-order-recap.md
-    - name: Use Copilot in the mobile app
-      items:
-        - name: Work order summary
-          href: work-order-recap.md
         - name: Work order update
-          href: work-order-update.md
+          href: work-order-update.md 
     - name: Use Copilot in the Microsoft 365 integration
       items:
         - name: Work order creation in Outlook

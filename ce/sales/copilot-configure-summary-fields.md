@@ -44,7 +44,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
-1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the [opportunity summary widget](copilot-get-information.md#view-opportunity-summary-widget) within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
+1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the [opportunity summary widget](copilot-get-information.md#view-the-opportunity-summary-widget) within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
     To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
 
 1. For **Opportunities** and **Accounts** only. To customize the sections to display in the summary, select **Customize related info**.  
