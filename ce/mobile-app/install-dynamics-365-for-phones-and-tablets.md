@@ -3,7 +3,7 @@ title: Install Dynamics 365 for phones and tablets app (on-premises)
 ms.custom:
 description: How to install Dynamics 365 for phones and tablets.
 ms.date: 10/03/2024
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
@@ -11,8 +11,8 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 6818238b-1645-4710-a193-0015acb04196
 caps.latest.revision: 97
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer

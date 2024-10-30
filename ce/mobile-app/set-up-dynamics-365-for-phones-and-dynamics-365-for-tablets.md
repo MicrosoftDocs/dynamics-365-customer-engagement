@@ -3,11 +3,11 @@ title: Set up Dynamics 365 for phones and tablets
 description: How to set up Dynamics 365 for phones and tablets
 ms.custom:
 ms.date: 10/03/2024
-ms.reviewer:
+ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.topic: overview
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer

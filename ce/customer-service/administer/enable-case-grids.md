@@ -27,12 +27,13 @@ The following are some of the key features of the modernized case grids:
     -	View avatars for the assigned **Owner**.
     - View key data, such as **Case Age**, **Next SLA**, **Is escalated** and **Last Interaction**, by default.
     - Perform inline edits and update data for columns. For example, agents can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when agents move to the next row. However, edit actions aren't enabled by default. To allow agents to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
-- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views.
+- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views. 
+- Colors that you've set for custom columns of type **OptionSet** are also automatically displayed on the case grid.
   > [!NOTE]
   > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 - The ability to use quick navigation to respond to the latest interaction.
 
-## Enable inline edits and color coded case status fields
+## Enable inline edits 
 
 To enable inline edits on columns, do the following:
 
@@ -46,6 +47,11 @@ To enable inline edits on columns, do the following:
 1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
 
 1. Select **Save**, and then select **Publish**.
+
+### Manage option set colors
+
+We recommend that you choose colors that keep the text readable if you are customizing the color of option set values. Colors that you've set for custom columns of type OptionSet are also automatically displayed on the case grid. If you don't want the option sets to display colors on the case grid, set the **Enable OptionSet colors** property of the **Power Apps grid control** to **No (Enum)**.
+
 
 ## Add columns to the case grid
 

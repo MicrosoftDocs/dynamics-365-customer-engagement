@@ -3,7 +3,7 @@ title: "View the fields that are synchronized between Dynamics 365 apps and Dyna
 description: Learn how to view the fields that are synchronized between Dynamics 365 apps and Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 2c5b04cc-25b5-42bc-8004-0f3c87c8516f
 caps.latest.revision: 20
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin

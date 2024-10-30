@@ -3,7 +3,7 @@ title: "Overview of tracking records in Dynamics 365 for Outlook | MicrosoftDocs
 description: Learn how to use Dynamics 365 for Outlook to track email message, contact, task, and appointment records.
 ms.custom:
 ms.date: 01/11/2016
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: f29b60ce-dd9c-4777-9c95-4df8765d0302
 caps.latest.revision: 55
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin
