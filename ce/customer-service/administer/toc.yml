@@ -590,6 +590,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Configure timeout rules
+        href: configure-timeout-rules.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
