@@ -17,17 +17,17 @@ ms.custom: bap-template
 
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for channels.
 
-For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
+For information on how to use solutions or the Configuration Migration tool, go to [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
 ## Prerequisites
 
 The following prerequisites must be met:
 
 - Make sure that the user who performs the channel configuration migration has the following privileges:
-  - To export solutions from the source environment
-  - To import solutions to the destination environment
-  - Read permission on all tables migrated from the source environment using Configuration Migration tool.
-  - Full permission on all tables migrated to the destination environment using Configuration Migration tool.
+  - To export solutions from the source environment.
+  - To import solutions to the destination environment.
+  - Read permission on all tables migrated from the source environment using the Configuration Migration tool.
+  - Full permission on all tables migrated to the destination environment using the Configuration Migration tool.
 - In the source environment, if any table or column refers to the following, then make sure that they exist in the target environment before you proceed with the migration:
   - Custom tables (entities)
   - Columns (attributes)
@@ -59,14 +59,14 @@ If skill-based routing rulesets are used in your channel routing setup, perform 
 
 ## Migrate configuration for new capacity profiles
 
-If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).  Make sure to adjust any filtering FetchXML appropriately for all channels.
+If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering FetchXML appropriately for all channels.
 
 > [!TIP]
-> After you migrate a new capacity profile using Configuration Migration tool, updates can be migrated using solutions.
+> After you migrate a new capacity profile using the Configuration Migration tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
-For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues).  Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
+For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
 
 ## Migrate configuration for channel workstreams and channel settings
 
@@ -87,7 +87,11 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
     |Microsoft Teams|Work stream (msdyn_liveworkstream)|
     |Custom channel|Work stream (msdyn_liveworkstream)|
 
-3. Select the records from channel definition table for each channel and add them to the solution. Related records from the following tables are automatically added to the solution:
+3. Select the records from the channel definition table for each channel and add them to the solution. Related records from the following tables are automatically added to the solution:
+
+
+
+
 
     |Channel  |Tables automatically added to solution  |
     |---------|----------------------------------------|
