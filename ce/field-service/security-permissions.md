@@ -17,9 +17,11 @@ If you have certain columns associated with a table that contain data that is mo
 
 ## Field Service security roles
 
-There are several user roles that the Field Service application introduces.
+The Field Service application introduces several user roles:
 
-- **Field Service - Resource**:  Designed for frontline workers who carry out work orders for customers onsite and track their work in the Field Service mobile application. This role only lets frontline workers view and update information on work orders that are assigned to them.
+
+
+- **Field Service - Resource**: Designed for frontline workers who carry out work orders for customers onsite and track their work in the Field Service mobile application. This role only lets frontline workers view and update information on work orders that are assigned to them.
 
 - **Field Service - Dispatcher**: Enables users who are responsible for scheduling jobs and assigning work orders to frontline workers.
 
@@ -29,7 +31,7 @@ There are several user roles that the Field Service application introduces.
 
 - **IoT - Administrator**: Registers IoT devices, connects IoT data with the Field Service application, and manages business processes based on IoT alerts.
 
-- **IoT - Endpoint User** is used by Microsoft to connect Dynamics 365 to IoT systems. For more information, go to [setting up security roles for Connected Field Service](cfs-security-roles.md).
+- **IoT - Endpoint User**: Used by Microsoft to connect Dynamics 365 to IoT systems. For more information, go to [setting up security roles for Connected Field Service](cfs-security-roles.md).
 
 Most organizations have several resources, some dispatchers, and few administrators. For example, a plumbing company has 20 plumbers with vehicles and equipment. There are three dispatchers who assign work to the plumbers, and one administrator who maintains the system so everyone is productive.
 
