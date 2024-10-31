@@ -9,7 +9,6 @@ ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
-
 # Migrate configurations for channels using solutions
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
@@ -59,7 +58,7 @@ If skill-based routing rulesets are used in your channel routing setup, perform 
 
 ## Migrate configuration for new capacity profiles
 
-If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering FetchXML appropriately for all channels.
+If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Migrate configuration for new capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering FetchXML appropriately for all channels.
 
 > [!TIP]
 > After you migrate a new capacity profile using the Configuration Migration tool, updates can be migrated using solutions.
