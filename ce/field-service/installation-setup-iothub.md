@@ -31,8 +31,6 @@ Follow the steps in this article to set up Connected Field Service for use with 
 
 - You have an active [Azure subscription](cfs-azure-subscription.md) with privileges to create resources and services.
 
-- You have [created an app registration](/azure/active-directory/develop/quickstart-register-app) for Azure Time Series Insights in the Azure portal and have the Application (client) ID and the Object ID. [Add a Client Secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) and record the value. You need these values multiple times in this procedure.
-
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 
 ## Deploy Connected Field Service and Azure resources from an ARM template
