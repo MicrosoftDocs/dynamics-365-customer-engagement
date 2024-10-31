@@ -295,13 +295,6 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 
 ### FetchXML for channel localizations<a name="CLAll"></a>
 
-
-
-
-
-
-
-
 ```XML
 <fetch>
 	<entity name="msdyn_oclocalizationdata">
