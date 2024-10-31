@@ -67,7 +67,11 @@ To enable the consult and transfer experience through VOIP, perform the followin
     ```powershell
     Set-CSPhoneNumberAssignment –Identity [user email address] -EnterpriseVoiceEnabled $true
     ```
--  The [Teams and Azure Communication Services federation](/powershell/module/teams/set-csteamsacsfederationconfiguration) for a Teams tenant must be enabled and the Azure Communication Services resources that can connect to Teams is specified. Perform the following steps:
+-  [External Access Policy](/azure/communication-services/concepts/interop/enable-interoperability-teams#4-enable-tenant-policy) must be enabled.  Run the following Powershell command to enable External Access:
+    ```powershell
+    Set-CsExternalAccessPolicy -Identity Global -EnableAcsFederationAccess $true
+    ```
+-  The [Teams and Azure Communication Services federation](/azure/communication-services/concepts/interop/enable-interoperability-teams#enable-interoperability-in-your-teams-tenant) for a Teams tenant must be enabled and the Azure Communication Services resources that can connect to Teams is specified. Perform the following steps:
 Get the [immutable resource ID](/azure/communication-services/concepts/troubleshooting-info#getting-immutable-resource-id) of the Azure Communications Service resource, and then run the following PowerShell cmdlets on your computer.
 - Run `Get-module *teams*` to verify if the Microsoft Teams is installed. If it isn't installed, perform the following steps:
     - `Install-Module -Name MicrosoftTeams`
