@@ -17,8 +17,8 @@ To view and use the default components available on the enhanced full case form,
 
 The table below shows all the Power Apps components, along with other details, which are available for customizing your forms in the Customer Service workspace.
 
-| Number| Component  | Description   | Entity   |  Additional actions| Additional information|
-|------ |----------|-----------|----------|-----------|
+| Number | Component | Description | Entity | Additional actions | Additional information |
+|------|----------|-----------|----------|-----------|------------|
 | 1|**Status reason transitions** | Add this component to case forms for the agents to enter and update case status during runtime. | Available for all entities.| Applicable. | [Define status reason transitions for case management](define-status-reason-transitions-case-management.md)|
 | 2| **Customer 360** | Adding this component to a case form helps agent to see the customer details for a case. | Available for all entities. | Applicable. | [Customer 360](add-display-components-to-case-form.md)| 
 | 3| **Recent records** |  Adding this component to a case form allows agents to access the related customer records for a case. | Available for all entities. | Not applicable. | [Customer 360](add-display-components-to-case-form.md) |
