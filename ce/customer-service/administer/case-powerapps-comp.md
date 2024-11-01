@@ -15,12 +15,10 @@ You can use a collection of Power Apps components to customize your case managem
 
 To view and use the default components available on the enhanced full case form, such as the [Associated Grid Control](add-associated-grid-control.md) and the [Attachment Control](add-attachment-control.md), see [Enable enhanced case forms for multisession apps](case-enh-config.md). You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
-You can use the following Power Apps components that are available for customizing your forms in the Customer Service workspace.
-
-Legend:
+The following table shows Power Apps components, along with details, that are available for customizing your forms in the Customer Service workspace.
 
 | Number|Component | Description | Entity | Additional actions | Additional information|
-| ------|----------| ----------- | ------ | ---------- | ------------ |
+| ------|----------| ----------- | ------ | ------------------  | ------------ |
 | 1|**Status reason transitions** | Add this component to case forms for the agents to enter and update case status during runtime. | Available for all entities.| Applicable. | [Define status reason transitions for case management](define-status-reason-transitions-case-management.md)|
 | 2|**Customer 360** | Adding this component to a case form helps agent to see the customer details for a case. | Available for all entities. | Applicable. | [Customer 360](add-display-components-to-case-form.md)| 
 | 3|**Recent records** |  Adding this component to a case form allows agents to access the related customer records for a case. | Available for all entities. | Not applicable. | [Customer 360](add-display-components-to-case-form.md) |
