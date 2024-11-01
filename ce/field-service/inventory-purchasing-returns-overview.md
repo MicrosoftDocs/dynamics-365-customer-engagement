@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory, purchasing, and returns
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service.
-ms.date: 07/01/2024
+ms.date: 11/01/2024
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -45,7 +45,7 @@ For each product in the warehouse, the system tracks the following information:
 
 - **Quantity Available**: The number of units that remain to be sold.
 - **Quantity Allocated**: The number of units that are currently listed on work orders as allocated work order products.
-- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. Basically, this field represents unsold units.
+- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. Basically, this field represents units still physically present in your warehouse, even if they're already committed to work.
 - **Quantity on Order**: The number of units that are currently listed on purchase orders, but that haven't been received and added to inventory. Basically, this field represents units that are on the way.
 
 > [!NOTE]
