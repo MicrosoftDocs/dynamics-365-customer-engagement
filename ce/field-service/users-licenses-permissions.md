@@ -9,7 +9,7 @@ author: jasonccohen
 
 # Set up users, licenses, and security roles
 
-Field service management requires several individuals with different roles to complete a work order. Every individual that needs access to the Dynamics 365 Field Service application needs a user account, a Field Service license, and the right level of permissions. This article helps you set up users, assign licenses, and define permissions for licensed users.
+Field service management requires several individuals with different roles to complete a work order. Every individual who needs access to the Dynamics 365 Field Service application needs a user account, a Field Service license, and the right level of permissions. This article helps you set up users, assign licenses, and define permissions for licensed users.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ For more information, go to [Add users](/microsoft-365/admin/add-users/add-users
 
 ### B2B collaboration users
 
-For scenarios, where you want to add a contractor or vendor to your Field Service applications, create a B2B collaboration user. Collaboration users are managed in the Microsoft Entra admin center.
+For scenarios where you want to add a contractor or vendor to your Field Service applications, create a B2B collaboration user. Collaboration users are managed in the Microsoft Entra admin center.
 
 For more information, go to [Add Microsoft Entra B2B collaboration users](/entra/external-id/add-users-administrator).
 
@@ -37,20 +37,21 @@ If you run into issues when configuring external users, go to [Troubleshooting B
 
 ## Assign licenses
 
-With user accounts in place, assign the users a Field Service license. Users need a license assigned to access the Field Service application. There are [two types of licenses available](buy-fs.md).
+With user accounts in place, assign the users a Field Service license. Users need an assigned license to access the Field Service application. [Two types of licenses are available.](buy-fs.md)
 
-Assign the users on of the following available licenses:
+Assign the users one of the following available licenses:
 
 - Dynamics 365 Field Service
 - Dynamics 365 Field Service Contractor
 
-For more information, go to [Assign licenses](/power-platform/admin/assign-licenses)
+For more information, go to [Assign licenses](/power-platform/admin/assign-licenses).
 
 ## Add users to an environment
 
 Before licensed users can access the application, you need to add them to the environment that hosts the app. You can add specific users to an environment with a couple of steps.
 
 For more information, go to [Add users to an environment](/power-platform/admin/add-users-to-environment).
+
 Alternatively, you can [use security groups to manage access to environments](/power-platform/admin/control-user-access).
 
 ## Assign security roles
