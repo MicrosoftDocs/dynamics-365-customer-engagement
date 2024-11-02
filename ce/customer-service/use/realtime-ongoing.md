@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/31/2024
+ms.date: 11/02/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -86,9 +86,9 @@ The participants receive a notification that a supervisor ended their conversati
 
 ## Assign, transfer, monitor, or force close converations in customized reports
 
-To be able to perform the actions on your customized reports, you need to make sure that you do the following:
+To be able to perform the actions on your customized reports, you must complete the following prerequisites:
 
-- Enable all the steps in [data model customization](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports), including step 4 [Step 4: Embed customized reports back to Dynamics 365](../administer/model-customize-reports.md#step-4-embed-customized-reports-back-to-dynamics-365).
+- Enable all of the customizations in [data model customization](../administer/model-customize-reports.md#customize-data-models-of-historical-and-real-time-analytics-reports), including step 4 [Step 4: Embed customized reports back to Dynamics 365](../administer/model-customize-reports.md#step-4-embed-customized-reports-back-to-dynamics-365).
 - Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
 - Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
 
@@ -98,14 +98,14 @@ To be able to perform the actions on your customized reports, you need to make s
  
     When the **Agent Name** doesn't exist, the following options are enabled.
     1. **Assign**: You can assign an agent by queue for the conversation.
-    1. **Force close**: Force close the conversation if required.
+    1. **Force close**: You can force close the conversation if required.
     
     When the **Agent Name** exists, the following options are enabled.
     1. **Transfer**: You can transfer the conversation from one agent to another in the same queue.
     1. **Monitor**: You can open the conversation dialog to monitor the chat.
-    1. **Force close**: Force close the conversation if required.
+    1. **Force close**: You can force close the conversation if required.
   
-After you assign or transfer conversations, refresh the report manually to view the latest status.
+After you assign or transfer conversations, manually refresh the report to view the latest status.
 
 ### Related information
 
