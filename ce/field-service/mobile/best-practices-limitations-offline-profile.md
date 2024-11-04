@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 10/10/2024
+ms.date: 11/04/2024
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -52,7 +52,7 @@ Keep these limitations in mind when you set up the offline profile:
 
 - Tables that support offline use are part of the default **Field Service Mobile - Offline Profile**. You can add tables to the offline profile, but some, such as Purchase Order, Agreements, RTV, and RMA, can't be used offline. If you add these tables and run the app offline, users might get errors.
 
-- The **Field Service Mobile - Offline Profile** can have a maximum of 15 linked tables, including downstream tables. For example, if Table A has a relationship with Tables B, C, and D and Table B has a relationship with Tables F, G, and H, then Table A has six relationships: B, C, D, F, G, and H.
+- The **Field Service Mobile - Offline Profile** can have a maximum of 15 linked tables, including downstream tables. For example, if Table A has a relationship with Tables B, C, and D and Table B has a relationship with Tables F, G, and H, then Table A has six relationships: B, C, D, F, G, and H. Add Table J with a relationship to table K and no relationship with any other table, then the total number of linked tables is seven. [Learn more about profile filter limitations](/power-apps/mobile/offline-limitations#profile-filters-limitations).
 
 - Inventory validation doesn't run without network connectivity.
 
@@ -60,7 +60,7 @@ Keep these limitations in mind when you set up the offline profile:
 
 - Access to knowledge articles isn't available in offline mode.
 
-- [Web resources are partially supported in offline mode](/power-apps/mobile/offline-capabilities#limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
+- [Web resources are partially supported in offline mode](/power-apps/mobile/offline-limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
 - The **Export to PDF** option is not available while the application is in offline mode. Additional options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
 
