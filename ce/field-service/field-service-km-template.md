@@ -22,7 +22,7 @@ You can create knowledge article templates by defining the necessary fields such
 1. Choose a language and select **OK**.
 1. Enter a name and owner.
 1. Under **Article Data**, enter the values for the required fields that you want to prepopulate when the template is selected.
-1. Under **Content**, define a structure to use in any knowledge article that’s created based on this template.
+1. Under **Content**, establish a structure to be used for any knowledge article created from this template.
    :::image type="content" source="media/knowledge-article-template.png" alt-text="Screenshot of a Field Service knowledge article template":::
 1. Select **Save & Close**.
 

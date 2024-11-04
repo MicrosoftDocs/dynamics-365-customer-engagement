@@ -421,8 +421,6 @@ items:
   items: 
     - name: Overview
       href: field-service-km-overview.md
-    - name: Add the Knowledge Base Search control
-      href: field-service-km-search-control.md
     - name: Create knowledge articles
       href: field-service-knowledge-management.md
     - name: Link knowledge articles
