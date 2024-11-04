@@ -92,22 +92,20 @@ To be able to perform the actions on your customized reports, you must complete 
 - Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
 - Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
 
-
-1. In Customer Service workspace, go to **Customized reports**, and then go to the Ongoing conversations report.
-1. Select the conversation that needs to be updated.
+In the Customer Service workspace, go to **Customized reports**>**Ongoing conversations** report, and then select the conversation that needs to be updated.
  
-    When the **Agent Name** doesn't exist, the following options are enabled.
-    1. **Assign**: You can assign an agent by queue for the conversation.
-    1. **Force close**: You can force close the conversation if required.
-    :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
+  When the **Agent Name** doesn't exist, the following options are enabled.
+  - **Assign**: You can assign an agent by queue for the conversation.
+  - **Force close**: You can force close the conversation if required.
+  :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
     
-    When the **Agent Name** exists, the following options are enabled.
-    1. **Transfer**: You can transfer the conversation from one agent to another in the same queue.
-    1. **Monitor**: You can open the conversation dialog to monitor the chat.
-    1. **Force close**: You can force close the conversation if required.
+  When the **Agent Name** exists, the following options are enabled.
+  - **Transfer**: You can transfer the conversation from one agent to another in the same queue.
+  - **Monitor**: You can open the conversation dialog to monitor the chat.
+  - **Force close**: You can force close the conversation if required.
     :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
 
-However, depending on the conversation states, some might not be actions that are enabled. Refer to the following table for details.
+Refer to the following table to see the actions that are enabled, depending on the various conversation states.
 
 
 |Type |Conversation state  |Assign  |Transfer  |Monitor| Force close
