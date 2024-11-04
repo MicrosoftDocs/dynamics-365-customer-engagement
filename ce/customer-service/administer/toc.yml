@@ -629,9 +629,9 @@
         - name: Enable features in Copilot pane
           href: copilot-enable-help-pane.md
         - name: Enable ask a question
-          href: copilot-enable-help-pane.md
+          href: copilot-enable-help-pane.md#enable-ask-a-question
         - name: Enable draft a response (preview)
-          href: copilot-enable-help-pane.md
+          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
       - name: Enable case summaries through ask a question (preview)
