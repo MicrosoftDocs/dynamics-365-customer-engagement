@@ -1,5 +1,5 @@
 ---
-title: Work order summary with Copilot in Field Service (preview)
+title: Work order summary with Copilot in Field Service
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
 ms.date: 06/14/2024
 ms.topic: how-to
@@ -14,11 +14,7 @@ ms.custom:
 ms.collection: bap-ai-copilot 
 ---
 
-# Summarize records with Copilot in Field Service (preview)
-
-[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
-
-[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+# Summarize records with Copilot in Field Service
 
 The AI-generated work order and booking recap in Dynamics 365 Field Service provides a summary of a record and its related data. It helps service managers, dispatchers, and frontline workers quickly understand the context and the next steps. The recap summarizes the record's history, future actions, arrival times, work criticality, required parts, and other contextual information.
 
@@ -62,7 +58,7 @@ The summary focuses on the most relevant information based on the work order's l
 
 - **Completed**, **Posted**, and **Canceled**: The core information in all summaries includes a recap of costs and prices and, for completed and posted work orders, invoice details.
 
-## Summary configuration (preview)
+## Summary configuration
 
 Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries isn't applied to administrator-configured summaries.
 
@@ -89,7 +85,7 @@ To use the default summary provided by Field Service, disable the **Configure su
 
 ## Generate a summary in the web app
 
-Open a [work order form (preview)](work-order-experience.md) or a booking record.
+Open a [work order form](work-order-experience.md) or a booking record.
 
 - To generate a summary, select **Generate** in the **Copilot** control.
 
@@ -110,7 +106,7 @@ When the feature is enabled, the Copilot control is added to the **Bookable Reso
 The work order summary control can be configured only on the **Bookable Resource Booking** and **Work Order** forms. Follow these steps to add the control:
 
 1. In the Field Service Mobile app module, change to the **Settings** area and go to the **Features** page.
-1. In the Preview section, enable **Copilot Recap for Mobile (Unified Interface)**.
+1. Enable **Copilot Recap for Mobile (Unified Interface)**.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Select your environment.
 1. Go to **Apps** and select the **Field Service Mobile** app module.
@@ -126,6 +122,6 @@ The summary feature is available for the new user experience in the Field Servic
 
 ### See also
 
-- [FAQ about work order summary with Copilot (preview)](faqs-work-order-recap.md)
-- [New work order experience (preview)](work-order-experience.md)
+- [FAQ about work order summary with Copilot](faqs-work-order-recap.md)
+- [New work order experience](work-order-experience.md)
 - [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)
