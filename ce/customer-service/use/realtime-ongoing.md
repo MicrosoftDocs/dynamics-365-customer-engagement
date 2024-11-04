@@ -110,10 +110,10 @@ Refer to the following table to see the actions that are enabled, depending on t
 
 |Type |Conversation state  |Assign  |Transfer  |Monitor| Force close
 |---------|---------|---------|---------|-----|----|
-|Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled|Available |
-|Record   |  Open       | Assign to agent        |   Transfer to agent      | Not enabled|Available |
-|Record   |   Active      |      Assign to agent   |    Transfer to agent     |Not enabled | Available|
-|Record    | Wrap-up        | Not enabled        | Not enabled        |Available |Available |
+|Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled| Enabled|
+|Record   |  Open       | Assign to agent        |   Transfer to agent      | Not enabled|Enabled|
+|Record   |   Active      |      Assign to agent   |    Transfer to agent     |Not enabled | Enabled|
+|Record    | Wrap-up        | Not enabled        | Not enabled        |Enabled |Enabled |
 
   
 After you assign or transfer conversations, manually refresh the report to view the latest status.
