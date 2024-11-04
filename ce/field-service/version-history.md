@@ -18,10 +18,10 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.128.30](/dynamics365/field-service/version-history#8812830)  | TBD |11/01/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.128.214](/dynamics365/field-service/version-history#88128214)  | TBD |11/08/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) |11/01/2024 |
-| | *USG* |   [8.8.128.214](/dynamics365/field-service/version-history#88128214)  | TBD |11/08/2024 |
+|**Station 1** |  *First Release*| [8.8.129.173](/dynamics365/field-service/version-history#88129173)  | TBD |11/15/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.128.214](/dynamics365/field-service/version-history#88128214)  | [8.8.129.173](/dynamics365/field-service/version-history#88129173)  |11/08/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.128.214](/dynamics365/field-service/version-history#88128214)  |  [8.8.129.173](/dynamics365/field-service/version-history#88129173) |11/15/2024 |
+| | *USG* |    [8.8.128.214](/dynamics365/field-service/version-history#88128214)  | [8.8.129.173](/dynamics365/field-service/version-history#88129173)  |11/08/2024 |
 |**Station 4** |*Europe* | [8.8.127.75](/dynamics365/field-service/version-history#8812775)  |[8.8.128.214](/dynamics365/field-service/version-history#88128214)| 11/08/2024 |
 |**Station 5** | *North America*| [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) | 11/15/2024 |
 |**Station 6** |*Government Community Cloud, DoD, China* | [8.8.127.141](/dynamics365/field-service/version-history#88127141)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) | 11/15/2024  |
@@ -31,13 +31,20 @@ For information about older versions, see [Version history archive](version-hist
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.129.173
+
+(Includes Universal Resource Scheduling version [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) and Resource Scheduling controls version 1.2.83.243052)
+
+- Work order status will now correctly change to scheduled when creating a booking and the work order's msdyn_statuscompletesworkorder field set to false.
+- Fixed an issue where currencies were not being applied correctly to work order not-to-exceed records with work order updates.
+
 ## 8.8.128.214
 
-This release is a hotfix on Field Service version [8.8.128.30](/dynamics365/field-service/version-history#8812830)
+This release is a hotfix on Field Service version [8.8.128.130](/dynamics365/field-service/version-history#88128130)
 
 (Includes Universal Resource Scheduling version [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) and Resource Scheduling controls version 1.2.82.242904)
 
-## 8.8.128.30
+## 8.8.128.130
 
 (Includes Universal Resource Scheduling version [3.12.143.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214336) and Resource Scheduling controls version 1.2.82.242904)
 
@@ -46,8 +53,8 @@ This release is a hotfix on Field Service version [8.8.128.30](/dynamics365/fiel
 - Improved solution import handling of booking setup metadata in the Field Service Analytics Common solution.
 - Parent business unit (BU) is no longer required if it's the root BU in Field Service forms.
 
-## 8.8.127.41
-This release is a hotfix on Field Service version [8.8.127.41](/dynamics365/field-service/version-history#8812741)
+## 8.8.127.141
+This release is a hotfix on Field Service version [8.8.127.75](/dynamics365/field-service/version-history#8812775)
 
 (Includes Universal Resource Scheduling version [3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425) and Resource Scheduling controls version 1.2.81.242685)
 
