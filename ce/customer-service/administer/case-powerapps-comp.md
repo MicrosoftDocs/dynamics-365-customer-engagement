@@ -11,11 +11,11 @@ ms.custom: bap-template
 
 # Add Power Apps components to Case Management forms
 
-You can use a collection of Power Apps components to customize your case management forms and add the additional functionalities that agents can use when handling cases in the Customer Service workspace.
+You can use a collection of Power Apps components to customize your case management forms and you can add the additional functionalities that the agents can use when handling cases in the Customer Service workspace. Adding these additional components to the case forms enhances the agents' productivity, by enabling them to work cases effectively, view and track open activities and keeping a track of the time spent on each case.
 
-To view and use the default components available on the enhanced full case form, such as the [Associated Grid Control](add-associated-grid-control.md) and the [Attachment Control](add-attachment-control.md), see [Enable enhanced case forms for multisession apps](case-enh-config.md). You can add these default components to other forms and customize them. More information: [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
+To view and use the default components available on the enhanced full case form, such as the [Associated Grid Control](add-associated-grid-control.md) and the [Attachment Control](add-attachment-control.md), see [Enable enhanced case forms for multisession apps](case-enh-config.md). 
 
-The following table shows Power Apps components, along with details, that are available for customizing your forms in the Customer Service workspace.
+The following table shows Power Apps components, along with details, which are available for customizing your forms in the Customer Service workspace.
 
 |Number |Component |Description |Entity |Additional actions |Additional information|
 |-------|----------|------------|-------|-------------------|----------------------|
@@ -26,6 +26,9 @@ The following table shows Power Apps components, along with details, that are av
 |5 |**Redirect** |Adding this component to a case form redirects the agents to a specific tab to close the open activities for a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
 |6 |**Due open activities control** |This component helps agents see the activities that are either due today or overdue. |Available for all entities. |Applicable. |[Use the Due open activities control to customize forms](add-due-open-activities.md)|
 |7 |**Modernized case grids** |Add this component on a case form for the agents to get quick access to case information, such as the last customer interaction, case age, and the next SLA breach. |Available for all entities. |Applicable. |[Enable case grids](enable-case-grids.md)|
+
+
+You can add these default components to other forms and customize them. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 
 ### Related information
