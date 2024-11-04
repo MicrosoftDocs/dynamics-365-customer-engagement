@@ -92,7 +92,7 @@ To be able to perform the actions on your customized reports, you must complete 
 - Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
 - Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
 
-In the Customer Service workspace, go to **Customized reports**>**Ongoing conversations** report, and then select the conversation that needs to be updated.
+In Customer Service workspace, go to **Customized reports**>**Ongoing conversations** report, and then select the conversation that needs to be updated.
  
   When the **Agent Name** doesn't exist, the following options are enabled.
   - **Assign**: You can assign an agent by queue for the conversation.
@@ -112,7 +112,7 @@ Refer to the following table to see the actions that are enabled, depending on t
 |---------|---------|---------|---------|-----|----|
 |Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled|Available |
 |Record   |  Open       | Assign to agent        |   Transfer to agent      | Not enabled|Available |
-|Record   |   Active      |      Assign to agent   |    transfer to agent     |Not enabled | Available|
+|Record   |   Active      |      Assign to agent   |    Transfer to agent     |Not enabled | Available|
 |Record    | Wrap-up        | Not enabled        | Not enabled        |Available |Available |
 
   
