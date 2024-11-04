@@ -288,6 +288,8 @@
         href: customer-service-hub-user-guide-email-admin.md
       - name: Customize the email experience
         href: customer-service-hub-user-guide-email-font-admin.md
+      - name: Add Power Apps components to Case Management forms
+        href: case-powerapps-comp.md
       - name: Configure the enhanced insert email template dialog
         href: /power-apps/user/customize-insert-email-template?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure the enhanced email template editor page
