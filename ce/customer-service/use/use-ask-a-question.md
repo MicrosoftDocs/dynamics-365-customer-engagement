@@ -17,11 +17,16 @@ When you sign in to any of the Customer Service agent apps, Copilot opens in the
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
+## License requirements
+
+| Requirement type | You must have |  
+|-----------------------|---------|
+| **License** | <ul><li>Dynamics 365 Customer Service Enterprise for summarize cases, ask a question, draft emails, and copilot analytics</li><li>Customer Service add-in (Chat, Digital Messaging, or Voice) for draft a chat response and summarize conversations</li></ul> |
+
 ## Prerequisites
 
-- You must have the Dynamics 365 Customer Service Enterprise license for summarize cases, ask a question, draft emails, and copilot analytics.
-
 - Make sure that your administrator has turned on the Copilot features.
+- To use the summarize cases feature, [case summaries through ask a question](../administer/enable-ask-summarize-cases.md) (preview) is enabled.
 
 
 ### Draft questions
