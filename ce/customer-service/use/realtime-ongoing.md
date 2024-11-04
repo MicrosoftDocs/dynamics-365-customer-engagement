@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/02/2024
+ms.date: 11/04/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -99,11 +99,24 @@ To be able to perform the actions on your customized reports, you must complete 
     When the **Agent Name** doesn't exist, the following options are enabled.
     1. **Assign**: You can assign an agent by queue for the conversation.
     1. **Force close**: You can force close the conversation if required.
+    :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
     
     When the **Agent Name** exists, the following options are enabled.
     1. **Transfer**: You can transfer the conversation from one agent to another in the same queue.
     1. **Monitor**: You can open the conversation dialog to monitor the chat.
     1. **Force close**: You can force close the conversation if required.
+    :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
+
+However, depending on the conversation states, some might not be actions that are enabled. Refer to the following table for details.
+
+
+|Type |Conversation state  |Assign  |Transfer  |Monitor| Force close
+|---------|---------|---------|---------|-----|----|
+|Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled|Available |
+|Record   |  Open       | Assign to agent        |   Transfer to agent      | Not enabled|Available |
+|Record   |   Active      |      Assign to agent   |    transfer to agent     |Not enabled | Available|
+|Record    | Wrap-up        | Not enabled        | Not enabled        |Available |Available |
+
   
 After you assign or transfer conversations, manually refresh the report to view the latest status.
 
