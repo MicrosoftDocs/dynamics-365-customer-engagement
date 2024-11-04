@@ -44,6 +44,8 @@ This release is a hotfix on Field Service version [8.8.128.130](/dynamics365/fie
 
 (Includes Universal Resource Scheduling version [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) and Resource Scheduling controls version 1.2.82.242904)
 
+- Reverted validation on time entries with custom types. Using time entries with custom types is not supported and although we reverted this validation, we urge customers to not use custom types.
+
 ## 8.8.128.130
 
 (Includes Universal Resource Scheduling version [3.12.143.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214336) and Resource Scheduling controls version 1.2.82.242904)
@@ -58,12 +60,14 @@ This release is a hotfix on Field Service version [8.8.127.75](/dynamics365/fiel
 
 (Includes Universal Resource Scheduling version [3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425) and Resource Scheduling controls version 1.2.81.242685)
 
+- Reverted validation on time entries with custom types. Using time entries with custom types is not supported and although we reverted this validation, we urge customers to not use custom types.
+
 ## 8.8.127.75
 
 (Includes Universal Resource Scheduling version [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) and Resource Scheduling controls version 1.2.81.242685)
 
 - This release includes all updates from the 2024 release wave 2 early access updates.
-- Fixed an issue preventing time entry approvals when they had a custom type.
+- Introduced validation to prevent creation and edits of time entries with custom types.
 - Fixed an issue causing the msdyn_quantity field to be cleared on work order product when changing its status several times without saving.
 - The Copilot summary command is now hidden on the work order form when the summary control is visible on the form.
 - What's New modal now includes Remote Assist in Microsoft Teams.
