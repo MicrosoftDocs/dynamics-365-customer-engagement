@@ -37,7 +37,7 @@ Perform the following steps to enable the Copilot features in Customer Service a
 
 Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal knowledge base sources.
 
-### Enable proactive prompts in ask a question
+## Enable proactive prompts in ask a question
 
 Proactive prompting enables agents to discover and prompt Copilot effortlessly, without the need for manual typing. This saves the agent’s time and improves the quality of their overall experience.
 
