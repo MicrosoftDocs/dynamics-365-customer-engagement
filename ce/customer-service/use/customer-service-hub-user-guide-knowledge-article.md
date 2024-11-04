@@ -139,7 +139,7 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 
 ## Use the rich text editor to create knowledge articles and emails
 
-Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the application. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
+Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the application. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables. Learn more in [Add the rich text editor control to a model-driven app](/power-apps/maker/model-driven-apps/rich-text-editor-control).
 
 The **Content** editor panel consists of three tabs:
 
