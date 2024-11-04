@@ -44,13 +44,13 @@ Before you set up the offline profile, consider these important guidelines:
 
 Keep these limitations in mind when you set up the offline profile:
 
-- [Field Mapping](/power-apps/maker/data-platform/map-entity-fields) is not supported in offline mode.
+- [Field Mapping](/power-apps/maker/data-platform/map-entity-fields) isn't supported in offline mode.
 
 - Records that are created on the device in offline mode and don't meet filter conditions aren't synced until they meet the conditions.
 
 - Make sure that commands or capabilities that are set up for Internet connectivity call the correct APIs: `Xrm.WebApi.online`.
 
-- Tables that support offline use are part of the default **Field Service Mobile - Offline Profile**. You can add tables to the offline profile, but some, such as Purchase Order, Agreements, RTV, and RMA, can't be used offline. If you add these tables and run the app offline, users might get errors.
+- Tables that support offline use are part of the default **Field Service Mobile - Offline Profile**. You can add tables to the offline profile, but some, such as Purchase Order, Agreements, return to vendor (RTV), and return merchandise authorization (RMA), can't be used offline. If you add these tables and run the app offline, users might get errors.
 
 - The **Field Service Mobile - Offline Profile** can have a maximum of 15 linked tables, including downstream tables. For example, if Table A has a relationship with Tables B, C, and D and Table B has a relationship with Tables F, G, and H, then Table A has six relationships: B, C, D, F, G, and H. Add Table J with a relationship to table K and no relationship with any other table, then the total number of linked tables is seven. [Learn more about profile filter limitations](/power-apps/mobile/offline-limitations#profile-filters-limitations).
 
@@ -62,7 +62,7 @@ Keep these limitations in mind when you set up the offline profile:
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
-- The **Export to PDF** option is not available while the application is in offline mode. Additional options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
+- The **Export to PDF** option isn't available while the application is in offline mode. Other options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
 
 ## Next steps
 
