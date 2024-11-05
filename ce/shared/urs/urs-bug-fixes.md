@@ -8,18 +8,25 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.143.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214336) | TBD | 11/01/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |     [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | TBD | 11/08/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346)  | 11/01/2024 |
-| | *USG* |  [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | TBD | 11/08/2024 |
+|**Station 1** |  *First Release*| [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | TBD | 11/15/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |     [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | 11/08/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* |[3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | 11/22/2024 |
+| | *USG* | [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | 11/08/2024 |
 |**Station 4** |*Europe* |   [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346)  | 11/08/2024 |
 |**Station 5** |  *North America*|   [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | 11/15/2024 |
-|**Station 6** | *Government Community Cloud, DoD, China*  |[3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425)|  [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | 11/22/2024 |
-|**Station 6** | *Dedicated Scale Groups* |[3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425)|  [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | 11/29/2024 |
+|**Station 6** | *Government Community Cloud, DoD, China*  |  [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) | [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | 11/15/2024 |
+|**Station 6** | *Dedicated Scale Groups* |[3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425)|  [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | 11/22/2024 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+
+## 3.12.144.84
+
+**Resource Scheduling Controls:** 1.2.83.243052
+
+**Dataverse:** 4.0.134.84
 
 ## 3.12.143.46
 
