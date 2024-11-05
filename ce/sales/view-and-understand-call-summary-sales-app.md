@@ -46,7 +46,7 @@ If one or more opportunities are associated with the call, select the **Related 
 
 The call summary page includes the following sections:
 
-- [Overview, notes, action items, and highlights](#overview-notes-action-items-and-highlights)
+- [Overview, notes, action items, mentions, and highlights](#overview-notes-action-items-mentions-and-highlights)
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)
 
