@@ -78,7 +78,7 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
       :::image type="content" source="media/SSS_Image1.png" alt-text="Upload the deployment profile.":::
 
     > [!NOTE]
-    > The new app, configred above, is only needed for the setup and the new API permissions. The app can be removed once all the setup steps are completed. 
+    > The new app, configred above, is only needed for setup and new API permissions. The app can be removed once all the setup steps are completed. 
      
 4. In the PowerShell session from step 2, invoke the **ConfigureCrmServerSideSync** command.                     
 
