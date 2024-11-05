@@ -88,7 +88,7 @@ Your administrator must [enable the **Call categorization (preview)**](fre-setup
 #### Notes tab
 
 > [!NOTE]
-> Starting June 2024, the **Action items** tab is removed and the **Notes** tab is enhanced to include action items. However, unlike the **Action items** tab, the **Notes** tab doesn't have the option to create tasks, calls, or emails directly from the action items. We're in the process of updating the screenshots to reflect this change.
+> Starting June 2024, the **Action items** tab is removed and the **Notes** tab is enhanced to include action items. However, unlike the **Action items** tab, the **Notes** tab doesn't have the option to create tasks, calls, or emails directly from the action items. 
 
 The **Notes** tab helps reduce the time it takes you to summarize the call by offering intelligent suggestions, including action items, commitments, call minutes, and next steps. Writing a personalized summary of the call helps you to focus on the customer's need, quickly review key points, and understand the next course of action. You can share the summary with stakeholders through email.
 
