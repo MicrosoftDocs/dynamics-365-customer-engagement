@@ -1,7 +1,7 @@
 ---
 title: View and understand the call summary page
 description: Use the call summary to get a high-level view of how a conversation with a customer went, action items, keywords, the call timeline, and a transcript in the Dynamics 365 Sales Hub app.
-ms.date: 03/05/2024
+ms.date: 11/05/2024
 ms.topic: how-to
 ms.custom: bap-template
 ms.service: dynamics-365-sales
@@ -50,7 +50,7 @@ The call summary page includes the following sections:
 - [Call transcript and translation](#call-transcript-and-translation)  
 - [Call playback timeline and segmentation](#call-playback-timeline-and-segmentation)
 
-### Overview, notes, action items, and highlights
+### Overview, notes, action items, mentions, and highlights
 
 This section is where you'll find key insights generated from conversation intelligence.
 
@@ -87,6 +87,9 @@ Your administrator must [enable the **Call categorization (preview)**](fre-setup
 
 #### Notes tab
 
+> [!NOTE]
+> Starting June 2024, the **Action items** tab is removed and the **Notes** tab is enhanced to include action items. However, unlike the **Action items** tab, the **Notes** tab doesn't have the option to create tasks, calls, or emails directly from the action items. We're in the process of updating the screenshots to reflect this change.
+
 The **Notes** tab helps reduce the time it takes you to summarize the call by offering intelligent suggestions, including action items, commitments, call minutes, and next steps. Writing a personalized summary of the call helps you to focus on the customer's need, quickly review key points, and understand the next course of action. You can share the summary with stakeholders through email.
 
 :::image type="content" source="media/ci-summary-call-summary-sales-app.png" alt-text="Screenshot of the Notes tab of the call summary page.":::
@@ -113,84 +116,6 @@ The **Notes** tab helps reduce the time it takes you to summarize the call by of
 
 1. Paste the notes in the body of an email.
 
-
-#### Action items tab
-
-> [!NOTE]
-> Starting June 2024, the **Action items** tab is removed and the **Notes** tab is enhanced to include action items. However, unlike the **Action items** tab, the **Notes** tab doesn't have the option to create tasks, calls, or emails directly from the action items.
-
-The **Action items** tab displays a list of actions mentioned during the call&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, the call transcript is highlighted and a pointer on the playback indicates when it was mentioned. Actionable items include **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
-
-##### Set up a call
-
-If a call is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a call is displayed.
-
-:::image type="content" source="media/ci-action-item-setup-call.png" alt-text="Screenshot of a New call suggestion in the Action items tab of the call summary page.":::
-
-1. Enter the following details:
-
-   - **Subject**: Summarize what the call is about.
-   - **From**: Select the name of the seller who will call the customer.
-   - **To**: Select the name of the customer to call.
-   - **Set date**: Select the date and time at which the seller must make the call.
-   - **Regarding**: Select a record from an entity&mdash;such as opportunity, lead, contact, or account&mdash;that provides relevant information about the call.
-
-1. Select one of the following actions:
-
-   - Select **Create** to create the call activity.
-   - Expand **Create** and then select **Create and Edit** to enter more details before saving the call activity.
-   - Select **Create task** if you think this action item would be better handled as a task than a call.
-
-You can view the call activity under the activities of the attached record entity and on the seller's activity list. After you create the call activity, select the call under **See call** and the call activity will open in a new browser tab.
-
-##### Create a task
-
-If something the seller commits to do is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to create a task is displayed.
-
-1. Enter the following details:
-
-   - **Subject**: Summarize what's involved in the task.
-   - **Owner**: Select the owner of the task.
-   - **Date and time**: Select a date by which the owner must complete the task.
-   - **Regarding**: Select a record from an entity&mdash;such as an opportunity, lead, contact, or account&mdash;that provides relevant information about the task.
-
-1. Select one of the following actions:
-
-   - Select **Create** to create the task activity.
-   - Expand **Create** and then select **Create and Edit** to enter more details before saving the task activity.
-
-You can view the task activity under the activities of the attached record entity and on the owner's activity list. After you create the task activity, select the task under **See task** and the task activity will open in a new browser tab.
-
-##### Send an email  
-
-If email is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to send an email is displayed.
-
-1. Enter the following details:
-
-   - **Subject**: Summarize what the email is about.
-   - **From**: By default, the name of the seller who participated in the call is selected, but you can select another sender if needed.
-   - **To**: Select the contacts to send the email to.
-
-1. Select one of the following actions:
-
-   - Select **Open email** to create the email.
-   - Expand **Open email** and then select **Create task** if you think this action item would be better handled as a task than an email.
-
-##### Set up a meeting
-
-If a meeting is mentioned in the transcript, the transcript is highlighted in blue and a suggestion to set up a meeting is displayed.
-
-1. Enter the following details:
-
-   - **Subject**: Summarize the reason for the meeting.
-   - **Owner**: By default, the name of the seller who participated in the call is selected, but you can select another owner if needed.
-   - **To**: Select the contacts to meet with.
-   - **Date and time**: Select the date and time of the meeting.
-
-1. Select one of the following actions:
-
-   - Select **Open calendar** to open your default calendar and create the meeting invitation.
-   - Expand **Open calendar** and then select **Create task** if you think this action item would be better handled as a task than a meeting.
 
 #### Mentions tab
 
