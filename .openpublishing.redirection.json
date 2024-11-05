@@ -33243,7 +33243,7 @@
       "redirect_document_id": false
     },
     {
-      "source_path": "cce/customer-service/administer/nuance-enroll-customer.md",
+      "source_path": "ce/customer-service/administer/nuance-enroll-customer.md",
       "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
       "redirect_document_id": false
     }
