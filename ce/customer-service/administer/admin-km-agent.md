@@ -69,8 +69,53 @@ To set the default compliance state of articles created by Customer Knowledge Ma
 
 Articles with the Non Compliant can't be published.  
 
+## How do I control whether created articles are auto-published?
 
+You can control whether articles created by Customer Knowledge Management Agent are automatically published and who can use these auto-published articles. Note that the default compliance state of created articles must be compliant to auto-publish.  
 
-## Next steps
+To set the auto-publishing of articles created by Customer Knowledge Management Agent, on the **Knowledge Harvesting (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
+
+- Select **Internal target audiences**, if you want articles to only be available to your agents and Copilot internally. 
+- Select **Internal and external target audiences**, if you want these articles to be published to external portals.   
+
+## How do I setup the optional agent review draft experience?  
+
+If you’re not configuring Customer Knowledge Management Agent to automatically publish articles, you can optionally configure a lightweight agent review experience where customer support agents can review (and if configured) publish articles.
+
+To enable this lightweight agent editor, 
+
+1. Configure Customer Knowledge Management Agent to NOT automatically publish articles.
+1. Ensure your agents have permission to edit articles (for editing and publishing).
+1. Make sure your cases have Timeline and Timeline Highlights enabled.
+
+Agents can see whether they have knowledge to review by opening a resolved case, navigating to the timeline highlights, and clicking on the suggested next action to review the autonomously drafted article.
+
+## How do I get analytics on Customer Knowledge Management Agent? 
+
+You can get analytics reports on Customer Knowledge Management Agent as well as collect analytics data for your own custom reporting.  
+
+## How do I enable out of the box analytics reports? 
+
+If you have knowledge analytics enabled and you enable real-time or historical creation, you will get Customer Knowledge Management Agent insights reports.  
+
+## How do I enable interaction data for my own reporting? 
+
+To enable collection of interaction data for your own reporting:  
+
+1. On the **Knowledge Harvesting (preview)** page, **User experience data** section, select the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option.
+
+## How do agents work with Customer Knowledge Management Agent agent review experience? 
+
+If your administrator has configured it, you can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.  
+
+1. For a resolved case, go to the case timeline.
+1. Expand the timeline highlights.
+1. Select the **Suggested actions** tab.
+1. Select **Review draft**.
+1. In the **Review knowledge draft (preview)** dialog that opens, you can review and edit the article and make any rich text edits you’d like.
+1. Optionally, you can use Copilot to make changes to the article automatically by typing what you want in **Revise with instructions.** and then selecting **Re-generate**. For example, you could instruct it to make the content more concise, and then select **Re-generate**
+1. Once done, you can Select **Mark as reviewed**. Or, if you have the permissions, you can select **Split** and publish the article.  
+
+## Related links
 
 
