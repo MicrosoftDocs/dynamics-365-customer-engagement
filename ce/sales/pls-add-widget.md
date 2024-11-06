@@ -29,7 +29,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 1. Sign in to the [Power Apps portal](https://make.powerapps.com/) and select an environment.
 
-1. Select **Data** > **Tables**.
+1. Select  **Tables**.
 
 1. Open the **Lead** table, select the **Forms** tab, and then select a main form to add the widget to.
 
