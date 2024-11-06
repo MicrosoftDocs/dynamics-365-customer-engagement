@@ -45,9 +45,9 @@ Products that you create are visible to all users in your organization.
   
 3. (Applicable for Sales Premium and Sales Enterprise) To create a child product to an existing product family, select the family in the list, and then on the command bar, select **Add Product**. The selected family becomes the parent family of the new product you're creating. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create a product family](create-product-family.md)  
   
-1. To create an independent product, select **Add Product**. The following scree
+1. To create an independent product, select **Add Product**.
 
-    :::image type="content" source="media/products-grid.png" alt-text="products-grid":::
+    :::image type="content" source="media/products-grid.png" alt-text="Screenshot showing all products, families,and bundles.":::
   
 4. Fill in your information:  
   
