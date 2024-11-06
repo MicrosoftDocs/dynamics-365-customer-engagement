@@ -1,7 +1,7 @@
 ---
 title: Add the lead scoring widget to a form
 description: Learn how to display the predictive lead scoring widget on your custom forms in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 11/06/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -49,7 +49,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
     :::image type="content" source="media/power-select-predictive-score-widget.png" alt-text="Screenshot of selecting the Predictive score widget to display in the placeholder column.":::
 
-1. In the **Edit predictive score** window, select **Done**.
+1. In the **Add Predictive score** window, select **Done**.
 
     The predictive score widget is added to the form, as shown in the following image:
 
