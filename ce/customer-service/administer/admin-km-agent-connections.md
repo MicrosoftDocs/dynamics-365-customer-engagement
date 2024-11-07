@@ -12,9 +12,9 @@ ms.custom: bap-template
 
 # Configure Microsoft Copilot Studio and Dataverse Connections
 
-This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvest flow. 
+This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvesting flow. 
 
-## Set connection references for knowledge harvest flow
+## Set connection references for knowledge harvesting flow
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objetcs** > **Connection References**.
