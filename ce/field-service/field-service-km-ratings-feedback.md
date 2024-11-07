@@ -18,4 +18,4 @@ When you open an article, you can select either the **Thumbs up** or the **Thumb
 
 The value beside the **Thumbs up** icon doesn't represent an article's total number of likes. The number that you see might range from 0 to 1 and can include decimals such as 0.75. This rating is indicative of the value beside the **Thumbs up** icon, which indicates the average rating of the article based on the feedback and the number of ratings received.
 
-:::image type="content" source="media/knowledge-article-give-feedback.png" alt-text="Screenshot of an article with the article rating, views, and provide feedback.":::
+:::image type="content" source="media/knowledge-article-give-feedback.png" alt-text="Screenshot of an article showing the rating, view count, and feedback options.":::
