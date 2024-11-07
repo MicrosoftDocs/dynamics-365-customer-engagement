@@ -586,8 +586,6 @@ items:
       href: field-service-customizations.md
     - name: Best practices
       href: field-service-customization-best-practices.md
-    - name: Use the Migration Configuration tool
-      href: migrate-summary-configuration.md
     - name: Customize columns (fields)
       href: field-service-customize-columns-fields.md
     - name: Customize forms
