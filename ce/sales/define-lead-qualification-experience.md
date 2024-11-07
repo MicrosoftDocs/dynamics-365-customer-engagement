@@ -82,8 +82,11 @@ The following options are available only when you select **Seller** for Opportun
 
 - Under **Modify opportunity form**, select **Add or remove fields** to customize the opportunity form that opens when a lead is qualified. The Quick create form opens in Power Apps for editing. You can add or remove fields, change the order of fields, or change the properties of fields. For more information, see [Add, move, configure, or delete columns on a form](/power-apps/maker/model-driven-apps/add-move-or-delete-fields-on-form).
 
-- Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to five opportunities from a lead.
+- Select **Let seller create up to 5 opportunities from a newly qualified lead** to allow sellers to create multiple opportunities when a lead is qualified. This option is useful when a lead is associated with multiple deals. Sellers can create up to five opportunities from a lead. 
 
+  > [!NOTE]
+  > If your sellers are using a custom app, add the **Opportunity qualify lead Form** component to the app. Otherwise, sellers can neither edit the default opportunity nor create new opportunities in the **Qualify lead** side pane.
+ 
 ### Summarize the lead after it's qualified
 
 When you turn on the [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can choose to let Copilot summarize the lead after it's qualified. Select the checkbox under the **Lead qualification details** section. 
@@ -124,7 +127,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 |--------------------|--------------------------|-----------------------------|-----------------------------|
 | Company            | companyname              | Account name                | name                        |
 | Website            | websiteurl               | Website                     | websiteurl                  |
-| Business Phone     | telephone1               | Phone                       | address1_telephone1         |
+| Business Phone     | telephone1               | Business Phone              | address1_telephone1         |
 | Street 1           | address1_line1           | Address 1: Street 1         | address1_line1              |
 | Street 2           | address1_line2           | Address 1: Street 2         | address1_line2              |
 | Street 3           | address1_line3           | Address 1: Street 3         | address1_line3              |

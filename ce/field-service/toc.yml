@@ -52,8 +52,12 @@ items:
   items:
     - name: Field Service settings
       href: configure-default-settings.md
-    - name: Set up users and security roles
-      href: users-licenses-permissions.md
+    - name: Users and security roles
+      items:
+        - name: Set up users and security roles
+          href: users-licenses-permissions.md
+        - name: Security roles and column-level security profiles
+          href: security-permissions.md
     - name: Territories
       href: set-up-territories.md
     - name: Location and map settings
@@ -101,18 +105,14 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Use Copilot in the web app
+    - name: Use Copilot in the web and mobile app
       items:
         - name: Side pane chat
           href: copilot-side-pane.md
         - name: Work order summary
           href: work-order-recap.md
-    - name: Use Copilot in the mobile app
-      items:
-        - name: Work order summary
-          href: work-order-recap.md
         - name: Work order update
-          href: work-order-update.md
+          href: work-order-update.md 
     - name: Use Copilot in the Microsoft 365 integration
       items:
         - name: Work order creation in Outlook
@@ -586,6 +586,8 @@ items:
           href: finance-operations-integration-setup.md
         - name: Create a work order
           href: finance-operations-integration-create-wo.md
+    - name: Microsoft Planner
+      href: planner-sync.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
@@ -624,7 +626,7 @@ items:
     href: mobile/mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
-  - name: New Field Service mobile experience (preview) troubleshooting
+  - name: New Field Service mobile experience troubleshooting
     href: mobile/troubleshooting-mobile-newux.md
 
 - name: Responsible AI

@@ -64,7 +64,7 @@ Copilot is an AI assistant that helps you find information related to your sales
 
 1. Select the Copilot icon :::image type="icon" source="media/copilot-icon.svg" border="false"::: in the top-right corner of the screen to open the Copilot side pane.
 
-1. Select the sparkle icon :::image type="icon" source="media/sparkle-icon.png" border="false"::: to view the prompts you can use.
+1. Select **View Prompts** above the Copilot chat box to view the prompts you can use.
      For example, select **Get info** > **Summarize opportunity**, type "/", and then select the name of an opportunity. Copilot will summarize the key details of the opportunity for you.
 
      :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::
