@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 When technicians in the field work on assigned jobs, they need access to relevant information to solve the problems they encounter.
 
-In Dynamics 365 Field Service knowledge management links relevant knowledge articles to work orders, incidents, products, and customer assets. Examples of knowledge articles include instructions, troubleshooting guides, maintenance procedures, and helpful tips.
+Knowledge management in Dynamics 365 Field Service links relevant knowledge articles to work orders, incidents, products, and customer assets. Examples of knowledge articles include instructions, troubleshooting guides, maintenance procedures, and helpful tips.
 
 Access to knowledge articles helps improve the fix rate, by providing technicians with guidance on procedures, troubleshooting, and solutions which in turn increases their productivity.
 

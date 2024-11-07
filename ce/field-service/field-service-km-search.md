@@ -16,20 +16,20 @@ If an administrator [set up external search providers](/dynamics365/customer-ser
 
 ## Search knowledge articles
 
-When [linking a knowledge article](field-service-km-link.md#link-knowledge-articles-to-related-entities) to a work order, customer asset, incident type, or product, you have several options to help you find the articles you want to link.
+When [linking a knowledge article](field-service-km-link.md#link-knowledge-articles-to-related-entities) to a work order, customer asset, incident type, or product, you have several options to help find the articles you want to link.
 
 :::image type="content" source="media/knowledge-article-search.png" alt-text="Screenshot that shows a search for a knowledge article.":::
 
-1. Filters the list of results
-1. Sorts the list of results
-1. Search box
-1. Unlinks the article
-1. Marks the article as a favorite
-1. Confirmation that the record is linked
+1. Filters the list of results.
+1. Sorts the list of results.
+1. Search box.
+1. Unlinks the article.
+1. Marks the article as a favorite.
+1. Confirmation that the record is linked.
 1. Rating
-1. The number of times the article is viewed
-1. Links the article
-1. The article ID
+1. The number of times the article is viewed.
+1. Links the article.
+1. The article ID.
 
 ## Search using favorites
 
