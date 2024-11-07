@@ -1,5 +1,5 @@
 ---
-title: Enable customer knowledge management agent
+title: Manage knowledge harvesting (Preview)
 description: 
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,9 @@ ms.date: 11/06/2024
 ms.custom: bap-template
 ---
 
-# Enable Customer Knowledge Management Agent
+# Manage knowledge harvesting (Preview)
+
+[!INCLUDE preview-banner]
 
 Customer knowledge management agent lets you autonomously turn cases and case-related conversations, emails, and notes, into knowledge articles that can support your contact center operations. 
 
@@ -19,15 +21,19 @@ Customer knowledge management agent lets you autonomously turn cases and case-re
 - You are using the out-of-the-box case entities.
 - You have configured [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 - You’ve enabled Dynamics 365 Knowledge Base to be indexed by Copilot 
-- You’ve configured Microsoft Copilot Studio and DV Connections to support the Customer Knowledge Management Agent.
+- You’ve [configured Microsoft Copilot Studio and Dataverse Connections](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections) to support the customer knowledge management agent.
 
+## Enable knowledge harvesting (Preview)
+
+In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Knowledge Harvesting (preview)**, and then select **Manage**. The **Knowledge Harvesting (preview)** page appears.
+
+Select the from the following options as required for knowledge harvesting.
 
 ## Enable real-time knowledge creation
 
-Real-time creation triggers when an agent resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics Knowledge Base. If an article is needed, it will create the article using the case content.  
+Real-time creation triggers when an agent resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics Knowledge Base. If an article is needed, the customer knowledge management agent will create the article using the case content.  
 
-1. In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Customer Knowledge Management Agent**, and then select **Manage**. The **Knowledge Harvesting (preview)** page appears.
-1. In the **Real-time creation** section, select the **Let Copilot use information from current case to create knowledge articles** option.
+1. In the **Real-time creation** section of the **Knowledge Harvesting (preview)** page, select the **Let Copilot use information from current case to create knowledge articles** option.
 
 ## How do I control which cases real-time creation should create articles from 
 
@@ -47,21 +53,21 @@ You can map which record types and data fields are used for each element. You ca
 1. Select**Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent** settings page.
 
-## How do I enable historical knowledge creation
+## Enable historical knowledge creation
 
 Historical creation is triggered by the administrator. Historical creation looks at all the cases that meet the conditions specified, determines if new articles are needed by comparing the content of the cases with the existing Dynamics 365 Knowledge Base. If a new article is needed, it will create new articles using the content of one or more historical cases that meet the conditions configured.  
 
-1. On the **Knowledge Harvesting (preview)** page, **Creation from historial cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
+1. On the **Knowledge Harvesting (preview)** page, **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
 1. Select **Manage rules** to configure the conditions for the harvest.
 1. On the Default rule dialog, enter a rule name, condition name, and then add your conditions to filter historical articles.
 1. Select **Save**.
 1. Select **Save** on the **Customer Knowledge Management Agent** settings page.
-1. Select **Start** on the **Creation from historial cases** section. 
+1. Select **Start** on the **Creation from historical cases** section. 
 Once you create start, you see that the creation is in progress. You can see the creation process log by selecting **View creation process log** link.
 
 Creation from historical cases is a long-running process. The process can create articles from a maximum of 100,000 cases. The process will run in daily batches batch until 100,000 cases have been processed. 
 
-## How do I set the default compliance state of created articles?
+## Set the default compliance state of created articles
 
 You can control the default compliance state of articles created by Customer Knowledge Management Agent. For example, if you would like to have a business process to have knowledge reviewers ensure articles are compliant, you can set the default state of articles to pending, and request that reviewers set them to compliant before publishing.  
 
@@ -69,7 +75,7 @@ To set the default compliance state of articles created by Customer Knowledge Ma
 
 Articles with the Non Compliant can't be published.  
 
-## How do I control whether created articles are auto-published?
+## Auto publish articles
 
 You can control whether articles created by Customer Knowledge Management Agent are automatically published and who can use these auto-published articles. Note that the default compliance state of created articles must be compliant to auto-publish.  
 
@@ -90,21 +96,7 @@ To enable this lightweight agent editor,
 
 Agents can see whether they have knowledge to review by opening a resolved case, navigating to the timeline highlights, and clicking on the suggested next action to review the autonomously drafted article.
 
-## How do I get analytics on Customer Knowledge Management Agent? 
-
-You can get analytics reports on Customer Knowledge Management Agent as well as collect analytics data for your own custom reporting.  
-
-## How do I enable out of the box analytics reports? 
-
-If you have knowledge analytics enabled and you enable real-time or historical creation, you will get Customer Knowledge Management Agent insights reports.  
-
-## How do I enable interaction data for my own reporting? 
-
-To enable collection of interaction data for your own reporting:  
-
-1. On the **Knowledge Harvesting (preview)** page, **User experience data** section, select the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option.
-
-## How do agents work with Customer Knowledge Management Agent agent review experience? 
+## Review knowledge articles created by the customer knowledge management agent
 
 If your administrator has configured it, you can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.  
 
@@ -117,5 +109,9 @@ If your administrator has configured it, you can review knowledge articles creat
 1. Once done, you can Select **Mark as reviewed**. Or, if you have the permissions, you can select **Split** and publish the article.  
 
 ## Related links
+
+[Configure Microsoft Copilot Studio and Dataverse Connections](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections)
+
+
 
 
