@@ -22,13 +22,16 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
     - **Microsoft Dataverse CSKnowledgeHarvestV2**
     - **Microsoft Copilot Studio CSKnowledgeHarvestV2**
  
-     You can either select an existing connection if present or create a new one by selecting **New connection**. This takes you to Power Automate.
+     You can either select an existing connection if present or create a new one by selecting **New connection**.
 
-1. To create a new Dataverse connection, select **Connections**, search for **Dataverse**, and then select **Microsoft Dataverse**.
+To create a new Dataverse connection:
+1. Select **Connections**, and search for **Dataverse**. 
+1. Select **Add** besides **Microsoft Dataverse**, and then select **Create**.
  
-1. To create a Microsoft Coilot Studio connection, search for **Microsoft Copilot Studio** and then select **Microsoft Copilot Studio (preview)**.
+To create a Microsoft Coilot Studio connection:
+1. Search for **Microsoft Copilot Studio** and then select **Microsoft Copilot Studio (preview)**.
 
-## Turn on the Power Automate flow
+### Turn on the Power Automate flow
 
 1. Go back to [make.powerapps.com](https://make.powerapps.com), and then select **Flows**.
 1. From the **Cloud flows** tab, select **Knowledge Harvest Trigger Flow V2** flow.
@@ -37,10 +40,13 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
 ## Publish the Microsoft Copilot Studio bot
 
 1. Go to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), and select your environment.
-1. Select **Copilots** and search for **CSKnowledgeHarvestV2**.
-1. Select the **CSKnowledgeHarvestV2** bot and then select **Publish**.
- 
-## Next steps
+1. Select **Agents**.
+1. Search for and select  **CSKnowledgeHarvestV2**.
+1. Select **Publish**.
 
-[Enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent)
+Once done, you can go to the Customer Service admin center, and enable knowledge harvesting. Learn more in [Enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent)
+ 
+## Related information
+
+[Overview of cloud flows](/power-automate/overview-cloud)
 
