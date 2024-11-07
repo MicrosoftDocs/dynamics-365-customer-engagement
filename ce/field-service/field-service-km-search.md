@@ -1,7 +1,7 @@
 ---
 title: Search for a knowledge article
 description: Learn how to search for knowledge articles in Dynamics 365 Field Service.
-ms.date: 10/21/2024
+ms.date: 11/07/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts

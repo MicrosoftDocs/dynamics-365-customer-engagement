@@ -1,7 +1,7 @@
 ---
 title: Link knowledge articles
 description: Learn how to link and unlink knowledge articles to records in Dynamics 365 Field Service.
-ms.date: 10/16/2024
+ms.date: 11/07/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts

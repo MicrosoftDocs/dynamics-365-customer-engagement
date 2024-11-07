@@ -4,7 +4,7 @@ description: Learn how to translate knowledge articles in Dynamics 365 Field Ser
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
-ms.date: 10/14/2024
+ms.date: 11/07/2024
 ms.custom: bap-template
 ---
 

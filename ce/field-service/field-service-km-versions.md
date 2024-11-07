@@ -4,7 +4,7 @@ description: Learn how to manage new versions of knowledge articles in Dynamics 
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
-ms.date: 10/15/2024
+ms.date: 11/07/2024
 ms.custom: bap-template
 ---
 

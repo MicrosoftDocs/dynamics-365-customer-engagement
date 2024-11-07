@@ -1,7 +1,7 @@
 ---
 title: Create a knowledge article template
 description: Learn how to create a template for knowledge management articles in Dynamics 365 Field Service.
-ms.date: 10/09/2024
+ms.date: 11/07/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
