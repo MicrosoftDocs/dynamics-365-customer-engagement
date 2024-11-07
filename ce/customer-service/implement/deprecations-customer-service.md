@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated
 
-Starting October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and will no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
+Starting October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and will no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
 
 ## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
 
