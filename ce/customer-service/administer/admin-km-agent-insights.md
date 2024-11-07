@@ -12,7 +12,13 @@ ms.custom: bap-template
 
 ## Enable knowledge insights for customer Knowledge management agent 
 
-You can get analytics reports on Customer Knowledge Management Agent as well as collect analytics data for your own custom reporting.
+You can get analytics reports on Customer Knowledge Management Agent as well as collect analytics data for your own custom reporting. 
+
+Benefits of knowledge insights
+
+- Actionable insights help customers identify improvement areas, enhancing the overall knowledge repository quality to optimize Copilot performance.
+- Confident self-service article publishing, and greater resource control reduce support and content management costs.
+- Understanding the performance of Copilot-drafted content can boost customer confidence in transitioning to fully autonomous harvesting.
 
 ## Prerequisites
 
