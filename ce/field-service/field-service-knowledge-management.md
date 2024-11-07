@@ -48,8 +48,8 @@ After the content in the article is complete, publish the article to make it ava
 
 1. Enter the following information:
    - **Publish**: Select whether you want to publish the knowledge article now or in the future. To publish the article in the future, in the **Publish On** field, select a date and time.
-   - **Published Status**: Select what status the article should be in after it's published. By default, **Published** is selected.
-   - **Expiration Date**: Select a date and time when you want the published article to expire, if any. Expired articles are no longer available in searches. If you set an expiration date, select the state and status the knowledge article should be set to after it expires.
+   - **Published Status**: Select the status the article will hold once published. By default, **Published** is selected.
+   - **Expiration Date**: Select a date and time for when you want the published article to expire, if any. Expired articles are no longer available in searches. If you set an expiration date, select the state and status the knowledge article should be set to after it expires.
    - **Publish Approved related translations with Article**: Select **Yes** if you want to publish all related translated articles with the article.
 
 1. Select **Publish**. The **Status Reason** changes to **Published**.
