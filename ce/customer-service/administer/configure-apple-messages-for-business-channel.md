@@ -14,7 +14,7 @@ ms.reviewer: shujoshi
 
 Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
-Apple Messages for Business supports rich messaging experiences, allowing customers and agents to converse through convenient and engaging interactions. Learn more at [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business)
+Apple Messages for Business supports rich messaging experiences, allowing customers and agents to converse through convenient and engaging interactions. Learn more at [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business).
 
 ## Prerequisites
 
@@ -43,7 +43,6 @@ Before you configure the Apple Messages for Business channel in Contact Center a
 
 
 ## Configure an Apple Messages for Business channel instance
-
 
 1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer Support**.
 
