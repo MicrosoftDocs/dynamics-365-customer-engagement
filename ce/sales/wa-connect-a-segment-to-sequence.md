@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 10/12/2023
+ms.date: 11/08/2024
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
@@ -19,7 +19,8 @@ After you [create and activate a segment](./create-and-activate-a-segment.md), c
 
 You can connect segments to sequences in your work assignment settings or using the [sequence designer](view-sequence-details-connected-records.md).
 
-[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+> [!NOTE]
+> The application runs rules every two minutes, so there might be a delay in a record being added to a sequence after it meets the segment criteria.  
 
 ## License and role requirements
 

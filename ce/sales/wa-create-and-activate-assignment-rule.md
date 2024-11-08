@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 06/05/2024
+ms.date: 11/08/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,6 +18,9 @@ ms.custom:
 Assignment rules automatically route new leads, opportunities, and insights to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. Sales managers spend less time and effort in manual assignment, leads, opportunities, and insights don't go overlooked, and assignments are balanced among your salespeople.
 
 A rule considers only the records that are created or updated after it's activated. When a lead, opportunity, or seller insight record is created, assignment rules are applied in the order they're listed, starting from the top. If the record satisfies the conditions that are defined for a rule, that rule is applied to the record and no following rules are considered. By default, rules are listed in the order they were created, with the most recently created one at the bottom. However, you can [change the order of your assignment rules](./wa-edit-assignment-rule.md) at any time.
+
+> [!NOTE]
+> The application runs rules every two minutes, so there might be a delay between when a record is created or updated and when it's assigned.  
 
 Watch this brief video to learn more about assignment rules in sales accelerator:
 

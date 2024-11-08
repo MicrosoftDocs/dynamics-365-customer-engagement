@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 09/20/2024
+ms.date: 11/08/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -19,7 +19,8 @@ Assignment rules can assign new leads, opportunities, and insights to your selle
 
 This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability). You can also [set their availability yourself](./wa-manage-seller-availability.md#set-your-sellers-availability-yourself).
 
-[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
+> [!NOTE]
+> Seller capacity is calculated based on configured rules for leads and opportunities. When a rule is configured for only one entity type (lead or opportunity), the application considers capacity only for that entity for the seller. However, when rules are configured for both lead and opportunity, the application considers capacity for both entity types for the seller. This ensures that seller capacity aligns with the specific types of records each seller manages, based on their active configurations.
 
 ## License and role requirements
 
