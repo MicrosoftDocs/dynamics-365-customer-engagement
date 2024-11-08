@@ -1,7 +1,7 @@
 ---
-title: Synchronize Microsoft Planner with Field Service
+title: Synchronize Microsoft Planner with Field Service (Preview)
 description: Learn how to sync work orders from Field Service with Microsoft Planner.
-ms.date: 09/20/2024
+ms.date: 11/08/2024
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -58,6 +58,8 @@ If your organization uses Microsoft Teams, it is beneficial to [create a new tea
 
 1. On the **Features** tab, in the **Planner Task (Preview)** section, turn on the **Planner Task Synchronization** feature.
 
+   :::image type="content" source="media/planner-sync-setting.png" alt-text="Field Service Settings option to enable planner sync.":::
+
 1. Select **Save** to apply the changes.
 
 ## View work orders in Planner
@@ -65,6 +67,8 @@ If your organization uses Microsoft Teams, it is beneficial to [create a new tea
 1. [Create a work oder](create-work-order.md) in Field Service, set the corresponding work order type and save it.
 
 1. [Sign in to Planner](https://support.microsoft.com/office/sign-in-to-microsoft-planner-fe43c972-5a95-4071-86d4-423a64a3b21e) to find the synced work order will in the appropriate bucket based on the work order type.
+
+:::image type="content" source="media/planner-board.png" alt-text="Screenshot of a board in Planner with work order type buckets.":::
 
 > [!TIP]
 > To update or complete the work order, select the link in the Planner task to navigate back to the full work order in Field Service. Direct updates in Planner for work order-related tasks aren't supported.
