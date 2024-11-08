@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Manage knowledge harvesting (Preview)
 
-[!INCLUDE preview-banner]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Customer knowledge management agent lets you autonomously turn cases and case-related conversations, emails, and notes, into knowledge articles that can support your contact center operations. 
 
@@ -33,6 +33,7 @@ Select from the following options as required for knowledge harvesting.
 
 Real-time creation is triggered when an customer service representative resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics knowledge base. If an article is needed, the customer knowledge management agent creates the article using the case content.  
 
+1. In Customer Service admin center, go to **Agent experrience** > **Knowledge**. The **Knowledge Harvesting (preview)** page appears.
 1. In the **Real-time creation** section of the **Knowledge Harvesting (preview)** page, select the **Let Copilot use information from current case to create knowledge articles** option.
 
 ## How do I control which cases real-time creation should create articles from 
