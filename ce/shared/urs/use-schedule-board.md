@@ -119,6 +119,10 @@ You can move a booking to a resource on the current schedule board tab, or chang
 
 Right-click the booking on th schedule board and select **Move to**. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. To assign the booking to a resource that doesn't show on this schedule board, select the filter icon in the resource field and change the filter from **Resources on this tab** to **All resources**. Select **Update** to apply the changes.
 
+## Change Time Granularity
+
+You can change the time granularity of the schedule board either by adjusting the slider on the bottom right or by using browser zooming keyboard shortcuts (e.g. ctrl+scroll or pinching a trackpad).
+
 ## Create a new schedule board tab
 
 To create a new schedule board tab, select **New schedule board tab** (+) in the tab list on the schedule board.
