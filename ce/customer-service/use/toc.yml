@@ -344,8 +344,10 @@
             href: oc-voicemail-dashboard.md          
           - name: Unified routing dashboard
             href: oc-historical-analytics-unified-routing.md
-        - name: Use knowledge management analytics
+        - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
+        - name: Use knowledge insights for customer knowledge management agent
+          href: admin-km-agent-insights.md
         - name: Use Copilot analytics
           href: copilot-analytics-report.md
         - name: Monitor conversations

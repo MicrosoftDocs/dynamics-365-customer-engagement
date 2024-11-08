@@ -83,7 +83,7 @@ If you're creating an alternate key for a Knowledge article entity, include the 
 
 ## Knowledge article analytics in Customer Service workspace or Contact Center workspace
 
-The **Knowledge analytics** dashboard consists of the **Article insights** and **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base.
+The **Knowledge analytics** dashboard consists of the **Article insights** and **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base. Learn more in [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).
 
 ## Next steps
 

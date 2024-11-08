@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 11/06/2024
+ms.date: 11/08/2024
 ms.custom: bap-template
 ---
 
@@ -20,18 +20,18 @@ Customer knowledge management agent lets you autonomously turn cases and case-re
 - You have Pay-As-You-Go set up in Power Platform Admin Center.
 - You are using the out-of-the-box case entities.
 - You have configured [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
-- You’ve enabled Dynamics 365 Knowledge Base to be indexed by Copilot 
+- You’ve enabled Dynamics 365 Knowledge Base to be indexed by Copilot. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
 - You’ve [configured Microsoft Copilot Studio and Dataverse Connections](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections) to support the customer knowledge management agent.
 
 ## Enable knowledge harvesting (Preview)
 
 In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Knowledge Harvesting (preview)**, and then select **Manage**. The **Knowledge Harvesting (preview)** page appears.
 
-Select the from the following options as required for knowledge harvesting.
+Select from the following options as required for knowledge harvesting.
 
 ## Enable real-time knowledge creation
 
-Real-time creation triggers when an agent resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics Knowledge Base. If an article is needed, the customer knowledge management agent will create the article using the case content.  
+Real-time creation is triggered when an customer service representative resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics knowledge base. If an article is needed, the customer knowledge management agent creates the article using the case content.  
 
 1. In the **Real-time creation** section of the **Knowledge Harvesting (preview)** page, select the **Let Copilot use information from current case to create knowledge articles** option.
 

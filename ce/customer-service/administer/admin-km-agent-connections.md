@@ -1,16 +1,18 @@
 ---
-title: Configure Microsoft Copilot Studio and Dataverse connections
+title: Configure Microsoft Copilot Studio and Dataverse connections (Preview)
 description: Learn how to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvest flow.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/07/2024
+ms.date: 11/08/2024
 ms.custom: bap-template
 ---
 
-# Configure Microsoft Copilot Studio and Dataverse Connections
+# Configure Microsoft Copilot Studio and Dataverse Connections (Preview)
+
+[!INCLUDE preview-banner]
 
 This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvesting flow. 
 
