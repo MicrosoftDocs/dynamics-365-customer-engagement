@@ -23,7 +23,7 @@ Customer knowledge management agent lets you autonomously turn cases and case-re
 - You’ve enabled Dynamics 365 Knowledge Base to be indexed by Copilot. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
 - You’ve [configured Microsoft Copilot Studio and Dataverse Connections (Preview)](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections-preview) to support the customer knowledge management agent.
 
-## Enable knowledge harvesting (Preview)
+## Enable knowledge harvesting
 
 In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Knowledge Harvesting (preview)**, and then select **Manage**. The **Knowledge Harvesting (preview)** page appears.
 
