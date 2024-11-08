@@ -644,6 +644,8 @@ items:
 
 - name: More resources
   items:
+    - name: Implementation guidance
+      href: /dynamics365/guidance/resources/fs-index
     - name: Video library
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Community forum
