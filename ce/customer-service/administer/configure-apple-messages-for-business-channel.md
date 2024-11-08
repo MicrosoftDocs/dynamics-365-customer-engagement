@@ -20,7 +20,7 @@ Apple Messages for Business supports rich messaging experiences, allowing custom
 
 Before you configure the Apple Messages for Business channel in Contact Center admin center or Customer Service admin center, ensure that the following prerequisites are met:
 
-1. You must complete an onboarding process with Microsoft and Apple. Contact Microsoft support to get started.
+1. You must complete an [onboarding process](https://go.microsoft.com/fwlink/?linkid=2296920) with Microsoft and Apple. Contact Microsoft support to get started.
 1. Register your business with Apple Business Register. Learn more at [Apple Business Register](https://register.apple.com/)
 1. Enable Messages for Business and create a Messages for Business account for your brand. Learn more at [Apple Messages for Business Accounts Introduction](https://register.apple.com/resources/messages/messaging-documentation/)
 1. Configure the Messaging Service Provider (MSP) using the URL provided for your geo region in the following table.
