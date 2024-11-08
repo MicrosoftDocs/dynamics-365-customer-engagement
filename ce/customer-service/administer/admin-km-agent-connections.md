@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Configure Microsoft Copilot Studio and Dataverse Connections (Preview)
 
-[!INCLUDE preview-banner]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvesting flow. 
 
@@ -24,7 +24,7 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
     - **Microsoft Dataverse CSKnowledgeHarvestV2**
     - **Microsoft Copilot Studio CSKnowledgeHarvestV2**
  
-     You can either select an existing connection if present or create a new one by selecting **New connection**.
+You can either select an existing connection if present or create a new one by selecting **New connection**.
 
 To create a new Dataverse connection:
 1. Select **Connections**, and search for **Dataverse**. 
@@ -35,7 +35,7 @@ To create a Microsoft Coilot Studio connection:
 
 ### Turn on the Power Automate flow
 
-1. Go back to [make.powerapps.com](https://make.powerapps.com), and then select **Flows**.
+1. Go to [make.powerapps.com](https://make.powerapps.com), and then select **Flows**.
 1. From the **Cloud flows** tab, select **Knowledge Harvest Trigger Flow V2** flow.
  
 
@@ -43,10 +43,10 @@ To create a Microsoft Coilot Studio connection:
 
 1. Go to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), and select your environment.
 1. Select **Agents**.
-1. Search for and select  **CSKnowledgeHarvestV2**.
+1. Search for and select **CSKnowledgeHarvestV2**.
 1. Select **Publish**.
 
-Once done, you can go to the Customer Service admin center, and enable knowledge harvesting. Learn more in [Enable Customer Knowledge Management Agent](admin-km-agent.md#enable-customer-knowledge-management-agent)
+Once done, go to the Customer Service admin center and enable knowledge harvesting. Learn more in [Manage knowledge harvesting (Preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
  
 ## Related information
 

@@ -21,7 +21,7 @@ Customer knowledge management agent lets you autonomously turn cases and case-re
 - You are using the out-of-the-box case entities.
 - You have configured [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 - You’ve enabled Dynamics 365 Knowledge Base to be indexed by Copilot. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
-- You’ve [configured Microsoft Copilot Studio and Dataverse Connections](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections) to support the customer knowledge management agent.
+- You’ve [configured Microsoft Copilot Studio and Dataverse Connections (Preview)](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections-preview) to support the customer knowledge management agent.
 
 ## Enable knowledge harvesting (Preview)
 
@@ -36,7 +36,7 @@ Real-time creation is triggered when an customer service representative resolves
 1. In Customer Service admin center, go to **Agent experrience** > **Knowledge**. The **Knowledge Harvesting (preview)** page appears.
 1. In the **Real-time creation** section of the **Knowledge Harvesting (preview)** page, select the **Let Copilot use information from current case to create knowledge articles** option.
 
-## How do I control which cases real-time creation should create articles from 
+### Control which cases real-time creation should create articles from 
 
 You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you may limit this process to cases owned by a certain user, or any other fields on the case.  
 
@@ -45,7 +45,7 @@ You can create multiple rules to control which conditions must be met for a reso
 1. In the **New knowledge creation rules** dialog, enter a rule name, condition name, and then add your conditions.
 1. Close the **New knowledge creation rules** dialog and select **Save** on the **Customer Knowledge Management Agent** settings page.
 
-## How do I control which case attributes are used to create knowledge articles in real-time  
+### Control which case attributes are used to create knowledge articles in real-time  
 
 Customer knowledge management agent uses Case Title, Case Description, Product, Subject, Email Content, Conversation Summary, and Case Notes. You can remap all except Email Content and Conversation summaries to your own record types and data fields.  
  
@@ -56,7 +56,7 @@ You can map which record types and data fields are used for each element. You ca
 
 ## Enable historical knowledge creation
 
-Historical creation is triggered by the administrator. Historical creation looks at all the cases that meet the conditions specified, determines if new articles are needed by comparing the content of the cases with the existing Dynamics 365 Knowledge Base. If a new article is needed, it will create new articles using the content of one or more historical cases that meet the conditions configured.  
+Historical creation is triggered by the administrator. Historical creation looks at all the cases that meet the conditions specified, determines if new articles are needed by comparing the content of the cases with the existing Dynamics 365 knowledge base. If a new article is needed, it creates new articles using the content of one or more historical cases that meet the conditions configured.  
 
 1. On the **Knowledge Harvesting (preview)** page, **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
 1. Select **Manage rules** to configure the conditions for the harvest.
@@ -70,48 +70,47 @@ Creation from historical cases is a long-running process. The process can create
 
 ## Set the default compliance state of created articles
 
-You can control the default compliance state of articles created by Customer Knowledge Management Agent. For example, if you would like to have a business process to have knowledge reviewers ensure articles are compliant, you can set the default state of articles to pending, and request that reviewers set them to compliant before publishing.  
+You can control the default compliance state of articles created by customer knowledge management agent. For example, if you would like to have a business process to have knowledge reviewers ensure articles are compliant, you can set the default state of articles to pending, and request that reviewers set them to compliant before publishing.  
 
-To set the default compliance state of articles created by Customer Knowledge Management Agent, on the **Knowledge Harvesting (preview)** page, **Compliance** section, select your default compliance state from the options.
+To set the default compliance state of articles created by customer knowledge management agent, on the **Knowledge Harvesting (preview)** page, **Compliance** section, select your default compliance state from the options.
 
-Articles with the Non Compliant can't be published.  
+Articles with the Non Compliant status can't be published.  
 
 ## Auto publish articles
 
-You can control whether articles created by Customer Knowledge Management Agent are automatically published and who can use these auto-published articles. Note that the default compliance state of created articles must be compliant to auto-publish.  
+You can control whether articles created by customer knowledge management agent are automatically published and who can use these auto-published articles. Note that the default compliance state of created articles must be compliant to auto-publish.  
 
-To set the auto-publishing of articles created by Customer Knowledge Management Agent, on the **Knowledge Harvesting (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
+To set the auto-publishing of articles created by customer knowledge management agent, on the **Knowledge Harvesting (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
 
-- Select **Internal target audiences**, if you want articles to only be available to your agents and Copilot internally. 
+- Select **Internal target audiences**, if you want articles to only be available to your customer service representatives and Copilot internally. 
 - Select **Internal and external target audiences**, if you want these articles to be published to external portals.   
 
-## How do I setup the optional agent review draft experience?  
+## Setup the optional agent review draft experience
 
-If you’re not configuring Customer Knowledge Management Agent to automatically publish articles, you can optionally configure a lightweight agent review experience where customer support agents can review (and if configured) publish articles.
+If you’re not configuring customer knowledge management agent to automatically publish articles, you can optionally configure a lightweight agent review experience where customer service representatives can review (and if configured) publish articles.
 
-To enable this lightweight agent editor, 
+To enable this lightweight agent editor: 
 
-1. Configure Customer Knowledge Management Agent to NOT automatically publish articles.
-1. Ensure your agents have permission to edit articles (for editing and publishing).
-1. Make sure your cases have Timeline and Timeline Highlights enabled.
+- Configure customer knowledge management agent to not automatically publish articles.
+- Ensure your customer service representatives have permission to edit articles (for editing and publishing).
+- Make sure your cases have Timeline and Timeline Highlights enabled.
 
-Agents can see whether they have knowledge to review by opening a resolved case, navigating to the timeline highlights, and clicking on the suggested next action to review the autonomously drafted article.
+Customer service representatives can see whether they have knowledge articles to review by opening a resolved case, navigating to the timeline highlights, and selecting the suggested next action to review the autonomously drafted article.
 
 ## Review knowledge articles created by the customer knowledge management agent
 
-If your administrator has configured it, you can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.  
+If your administrator has configured it, you can review knowledge articles created by the customer knowledge management agent. When you resolve a case, the customer knowledge management agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.  
 
-1. For a resolved case, go to the case timeline.
-1. Expand the timeline highlights.
+1. For a resolved case, go to the case timeline, and expand the Timeline highlights.
 1. Select the **Suggested actions** tab.
 1. Select **Review draft**.
 1. In the **Review knowledge draft (preview)** dialog that opens, you can review and edit the article and make any rich text edits you’d like.
 1. Optionally, you can use Copilot to make changes to the article automatically by typing what you want in **Revise with instructions.** and then selecting **Re-generate**. For example, you could instruct it to make the content more concise, and then select **Re-generate**
-1. Once done, you can Select **Mark as reviewed**. Or, if you have the permissions, you can select **Split** and publish the article.  
+1. Once done, you can select **Mark as reviewed**. Or, if you have the permissions, you can select **Split** and publish the article.  
 
 ## Related links
 
-[Configure Microsoft Copilot Studio and Dataverse Connections](admin-km-agent-connections.md#configure-microsoft-copilot-studio-and-dataverse-connections)
+[Use knowledge insights for customer knowledge management agent (Preview)](../use/admin-km-agent-insights.md#use-knowledge-insights-for-customer-knowledge-management-agent-preview)
 
 
 
