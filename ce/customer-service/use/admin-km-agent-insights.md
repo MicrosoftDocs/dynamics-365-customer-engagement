@@ -34,7 +34,7 @@ Supervisors and content managers can view the **Overall performance dashboard** 
 
 :::image type="content" source="../media/overall-performance.png" alt-text="Screenshot of the overall performance dashboard for knowledge harvesting":::
 
-## Metrics in Article insights dashboard
+## Metrics in Overall performance dashboard
 
 The Overall Performance dashboard represents the following metrics.
 
