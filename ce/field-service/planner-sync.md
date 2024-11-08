@@ -17,7 +17,7 @@ The Dynamics 365 Field Service and Microsoft Planner sync combines work orders a
 
 - **Increased efficiency**: Task management becomes more seamless, reducing the need to switch between platforms to track the progress of work orders.
 
-- **Better organization**: Work orders can be categorized into different buckets in Planner, which reflect the type of work being done, helping teams manage and prioritize tasks effectively.
+- **Better organization**: Work orders can be categorized into different buckets in Planner. Buckets represent the type of work being done, helping teams manage and prioritize tasks effectively.
 
 - **Scalability**: The integration supports multiple business units and environments, allowing for flexible setup across large organizations.
 
@@ -31,7 +31,7 @@ The Dynamics 365 Field Service and Microsoft Planner sync combines work orders a
 
 ### Step 1: Set up Microsoft Teams (optional)
 
-If your organization uses Microsoft Teams, it is beneficial to [create a new team](https://support.microsoft.com/office/create-a-team-from-scratch-in-microsoft-teams-174adf5f-846b-4780-b765-de1a0a737e2b) that corresponds to the work order sync. This automatically creates an associated Entra ID group, which will be used later in the integration.
+If your organization uses Microsoft Teams, it's beneficial to [create a new team](https://support.microsoft.com/office/create-a-team-from-scratch-in-microsoft-teams-174adf5f-846b-4780-b765-de1a0a737e2b) that corresponds to the work order sync. It automatically creates an associated Microsoft Entra ID group, which is required for in the integration.
 
 ### Step 2: Create a Microsoft Dataverse team
 
@@ -64,9 +64,9 @@ If your organization uses Microsoft Teams, it is beneficial to [create a new tea
 
 ## View work orders in Planner
 
-1. [Create a work oder](create-work-order.md) in Field Service, set the corresponding work order type and save it.
+1. [Create a work order](create-work-order.md) in Field Service, set the corresponding work order type and save it.
 
-1. [Sign in to Planner](https://support.microsoft.com/office/sign-in-to-microsoft-planner-fe43c972-5a95-4071-86d4-423a64a3b21e) to find the synced work order will in the appropriate bucket based on the work order type.
+1. [Sign in to Planner](https://support.microsoft.com/office/sign-in-to-microsoft-planner-fe43c972-5a95-4071-86d4-423a64a3b21e) to find the synced work order in a bucket based on the work order type.
 
 :::image type="content" source="media/planner-board.png" alt-text="Screenshot of a board in Planner with work order type buckets.":::
 
