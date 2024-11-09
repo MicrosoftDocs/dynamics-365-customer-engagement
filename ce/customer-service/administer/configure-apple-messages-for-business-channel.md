@@ -17,7 +17,7 @@ Many customers use the Apple Messages app for their daily communication needs. T
 Apple Messages for Business supports rich messaging experiences, allowing customers and agents to converse through convenient and engaging interactions. Learn more at [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business).
 
 > [!IMPORTANT]
-> Before you proceed with the steps in this article, you must complete an [onboarding process](https://go.microsoft.com/fwlink/?linkid=2296920) with Microsoft and Apple. Contact Microsoft support to get started.
+> Apple requires you to complete a mandatory [onboarding process](https://go.microsoft.com/fwlink/?linkid=2296920) before you can proceed with configuring the Apple Messages for Business channel. To get started, contact Microsoft support.
 
 ## Prerequisites
 
