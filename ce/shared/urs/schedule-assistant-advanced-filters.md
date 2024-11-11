@@ -11,7 +11,7 @@ The schedule assistant will use the location of the technician's mobile device w
 
 The mobile device sends location information from the last sync to a defined threshold in the past. Define the time threshold in the [**Geo Location Expires After X Minutes** setting for scheduling parameters](../../field-service/scheduling-parameters-settings.md#geo-data).
 
-See the article on [geofencing](../../field-service/geofencing.md) to learn how to set up location auditing and sharing.
+See the article on [geofencing](../../field-service/mobile/configure-geofencing.md) to learn how to set up location auditing and sharing.
 
 ## Ignore travel time
 

@@ -96,8 +96,6 @@ items:
       href: work-order-not-to-exceed.md
     - name: Create work order resolutions
       href: work-order-resolutions.md
-    - name: Knowledge articles
-      href: field-service-knowledge-management.md
     - name: License compliance
       items: 
         - name: License compliance overview
@@ -136,8 +134,6 @@ items:
       href: create-work-order.md
     - name: Work order customization considerations
       href: work-order-customization.md
-    - name: Send work order completion surveys
-      href: work-order-surveys.md
 
 - name: Inspections
   items:
@@ -419,6 +415,27 @@ items:
     - name: Manual inventory journals
       href: manual-inventory-journals.md
 
+- name: Knowledge articles
+  items: 
+    - name: Overview
+      href: field-service-km-overview.md
+    - name: Create knowledge articles
+      href: field-service-knowledge-management.md
+    - name: Link knowledge articles
+      href: field-service-km-link.md
+    - name: Search for knowledge articles
+      href: field-service-km-search.md
+    - name: Translate knowledge articles
+      href: field-service-km-translate.md
+    - name: Manage versions
+      href: field-service-km-versions.md
+    - name: Create templates for knowledge articles
+      href: field-service-km-template.md
+    - name: Analyze knowledge articles
+      href: field-service-km-analyze.md
+    - name: Submit feedback on knowledge articles
+      href: field-service-km-ratings-feedback.md
+ 
 - name: Reports
   items:
     - name: Reports overview
@@ -627,6 +644,8 @@ items:
 
 - name: More resources
   items:
+    - name: Implementation guidance
+      href: /dynamics365/guidance/resources/fs-index
     - name: Video library
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Community forum
