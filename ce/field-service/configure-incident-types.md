@@ -68,12 +68,13 @@ Create incident types from the incident types form.
 
 1. Add related records:
 
-   - [Link knowledge articles](field-service-km-link.md#link-related-entities-to-knowledge-articles)
    - [Add incident type products](#add-incident-type-products)
    - [Add incident type services](#add-incident-type-services)
    - [Add incident type service tasks](#add-incident-type-service-tasks)
    - [Add incident type characteristics](#add-incident-type-characteristics)
    - [Add incident type resolutions](#add-incident-type-resolutions)
+
+1. Optionally, [link knowledge articles to the product](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
 
 ### Add incident type products
 
