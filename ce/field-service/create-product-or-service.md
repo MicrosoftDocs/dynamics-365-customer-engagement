@@ -59,6 +59,8 @@ In this article, learn how to create products and services, add them to work ord
 
 1. In the **Product Details** section, enter a **Default Price list**. Select **Save**.
 
+1. Optionally, [link knowledge articles to the product](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
+
 ## Add products and services to a price list
 
 You can add products and services as price list items to the [price list](../sales-enterprise/create-price-lists-price-list-items-define-pricing-products.md) of your choice.
