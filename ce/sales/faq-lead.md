@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 07/17/2024
+ms.date: 11/11/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -35,10 +35,13 @@ Select **Leads** in the sitemap, and then select the **Closed Leads** view to fi
 
 When salespeople work on a lead, they use notes to store key information on the things they've researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information isn't lost.
 
-
 ### What is the difference between the new and old lead qualification experiences?
 
 The new lead qualification experience allows for customization of the lead qualification process, including automatic or manual creation of account, contact, and opportunity records, or a combination of both. It also allows for the creation of multiple opportunities for a single lead, and the ability to summarize the lead after it's qualified. The legacy experience only allows for automatic creation of the records.
+
+## What if I had previously defined the lead qualification experience?
+
+The new lead qualification experience is turned on by default irrespective of whether you had previously defined the lead qualification experience or not. However, the experience you had previously defined is retained. For example, if you had previously turned on **Auto-create records for newly qualified leads** in the legacy experience, record creation is set to **Automatic** in the new experience. Otherwise, record creation is set to **Manual** in the new experience. Learn more about [how to customize the lead qualification experience](define-lead-qualification-experience.md).
 
 ### How can I create multiple opportunities for a single lead?
 
