@@ -84,7 +84,7 @@ Forcibly close a conversation by closing the work item. When you select **Force 
 
 The participants receive a notification that a supervisor ended their conversation.
 
-## Assign, transfer, monitor, or force close converations in customized reports
+## Assign, transfer, monitor, or force close conversations in customized reports
 
 To be able to perform the actions on your customized reports, you must complete the following prerequisites:
 
