@@ -74,7 +74,7 @@ Create incident types from the incident types form.
    - [Add incident type characteristics](#add-incident-type-characteristics)
    - [Add incident type resolutions](#add-incident-type-resolutions)
 
-1. Optionally, [link knowledge articles to the product](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
+1. Optionally, [link knowledge articles](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
 
 ### Add incident type products
 
