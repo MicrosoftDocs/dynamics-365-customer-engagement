@@ -52,8 +52,12 @@ items:
   items:
     - name: Field Service settings
       href: configure-default-settings.md
-    - name: Set up users and security roles
-      href: users-licenses-permissions.md
+    - name: Users and security roles
+      items:
+        - name: Set up users and security roles
+          href: users-licenses-permissions.md
+        - name: Security roles and column-level security profiles
+          href: security-permissions.md
     - name: Territories
       href: set-up-territories.md
     - name: Location and map settings
@@ -92,8 +96,6 @@ items:
       href: work-order-not-to-exceed.md
     - name: Create work order resolutions
       href: work-order-resolutions.md
-    - name: Knowledge articles
-      href: field-service-knowledge-management.md
     - name: License compliance
       items: 
         - name: License compliance overview
@@ -103,18 +105,14 @@ items:
 
 - name: Copilot in Field Service
   items:
-    - name: Use Copilot in the web app
+    - name: Use Copilot in the web and mobile app
       items:
         - name: Side pane chat
           href: copilot-side-pane.md
         - name: Work order summary
           href: work-order-recap.md
-    - name: Use Copilot in the mobile app
-      items:
-        - name: Work order summary
-          href: work-order-recap.md
         - name: Work order update
-          href: work-order-update.md
+          href: work-order-update.md 
     - name: Use Copilot in the Microsoft 365 integration
       items:
         - name: Work order creation in Outlook
@@ -136,8 +134,6 @@ items:
       href: create-work-order.md
     - name: Work order customization considerations
       href: work-order-customization.md
-    - name: Send work order completion surveys
-      href: work-order-surveys.md
 
 - name: Inspections
   items:
@@ -419,6 +415,27 @@ items:
     - name: Manual inventory journals
       href: manual-inventory-journals.md
 
+- name: Knowledge articles
+  items: 
+    - name: Overview
+      href: field-service-km-overview.md
+    - name: Create knowledge articles
+      href: field-service-knowledge-management.md
+    - name: Link knowledge articles
+      href: field-service-km-link.md
+    - name: Search for knowledge articles
+      href: field-service-km-search.md
+    - name: Translate knowledge articles
+      href: field-service-km-translate.md
+    - name: Manage versions
+      href: field-service-km-versions.md
+    - name: Create templates for knowledge articles
+      href: field-service-km-template.md
+    - name: Analyze knowledge articles
+      href: field-service-km-analyze.md
+    - name: Submit feedback on knowledge articles
+      href: field-service-km-ratings-feedback.md
+ 
 - name: Reports
   items:
     - name: Reports overview
@@ -569,6 +586,8 @@ items:
           href: finance-operations-integration-create-wo.md
     - name: Integrate bookings with Outlook calendars
       href: outlook-booking-integration.md
+    - name: Microsoft Planner
+      href: planner-sync.md
     - name: Dynamics 365 Supply Chain Management
       href: supply-chain-field-service-integration.md
     - name: Dynamics 365 Remote Assist
@@ -607,7 +626,7 @@ items:
     href: mobile/mobile-power-app-faq.yml
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
-  - name: New Field Service mobile experience (preview) troubleshooting
+  - name: New Field Service mobile experience troubleshooting
     href: mobile/troubleshooting-mobile-newux.md
 
 - name: Responsible AI
@@ -627,6 +646,8 @@ items:
 
 - name: More resources
   items:
+    - name: Implementation guidance
+      href: /dynamics365/guidance/resources/fs-index
     - name: Video library
       href: https://www.youtube.com/channel/UC7Rd031NCJZekAkNU2bb8Kg/
     - name: Community forum

@@ -2,13 +2,13 @@
 title: "Use Outlook with Dynamics 365 apps | MicrosoftDocs"
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.assetid: a3aece21-7cbd-418f-ab0e-a59c8bc8d350
 caps.latest.revision: 6
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 robots: noindex,nofollow
 search.audienceType: 

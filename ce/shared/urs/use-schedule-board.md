@@ -39,7 +39,7 @@ Set the time frame that shows on the board. Use the arrows to move between time 
 
 ### Book
 
-Book a requirement manually. Select a requirement and a resource, start date/time, end date/time, booking status, and booking method.
+Book a requirement manually. Select a requirement and a resource, start date/time, end date/time, booking status, and booking method. Manual bookings don't validate constraints like availability, characteristics, or location. Use the schedule assistant if you want the system to honor constraints of a booking.
 
 ### Move bookings
 

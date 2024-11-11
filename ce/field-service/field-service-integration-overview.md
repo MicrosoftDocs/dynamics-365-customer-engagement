@@ -46,3 +46,7 @@ With Teams integration, frontline workers can chat with team members in the cont
 ## Integrate with SAP
 
 Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect your work order scheduling system to your ERP system and Dataverse. Microsoft offers guidance for integrating Field Service with the SAP Planned Maintenance and SAP Industry-Specific Utility (IS-U) modules. [Learn more about integrating Field Service and SAP](field-service-sap-integration.md).
+
+## Integrate with Microsoft Planner
+
+Combine Field Service work orders and Microsoft Planner tasks in a single task management application. Simplify task tracking by automatically creating corresponding tasks in Planner for each work order. [Learn more about synchronizing Field Service with Planner](planner-sync.md).

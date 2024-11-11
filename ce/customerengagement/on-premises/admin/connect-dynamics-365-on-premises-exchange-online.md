@@ -1,18 +1,18 @@
 ---
-title: "Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)"
-description: "Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online."
-ms.custom: ""
-ms.date: "08/30/2023"
-ms.reviewer: ""
-ms.suite: ""
-ms.tgt_pltfrm: ""
-ms.topic: "article"
+title: Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)
+description: Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online.
+ms.custom: 
+ms.date: 10/02/2024
+ms.reviewer: sericks
+ms.suite: 
+ms.tgt_pltfrm: 
+ms.topic: article
 applies_to: 
-  - "Dynamics 365 (on-premises)"
+  - Dynamics 365 (on-premises)
 ms.assetid: 5622050b-a0e8-40ca-9ed5-fc082d5212a8
 caps.latest.revision: 61
-ms.author: matp
-author: Mattp123
+ms.author: rahulmital 
+author: rahulmital
 ---
 # Connect Customer Engagement (on-premises) to Exchange Online
 
@@ -26,16 +26,16 @@ This article describes how to configure server-based authentication between Dyna
 
 ## Permissions required
 
-Microsoft Dynamics 365
-- System Administrator security role.
+### Microsoft Dynamics 365
+- You must be assigned to the System Administrator security role.
 - If you're using a self-signed certificate for evaluation purposes, you must have local Administrators group membership on the computer where Microsoft Dynamics 365 Server is running.
 - The account that you use to sign in to the CRM deployment servers must have full local administrator rights.
 
-Exchange Online
-- Office 365 Global Administrators membership. This is required for administrative-level access to the Office 365 subscription and to run the Microsoft AzurePowerShell cmdlets.
+### Exchange Online
+- You must have Office 365 Global Administrators membership. This is required for administrative-level access to the Office 365 subscription and to run the Microsoft AzurePowerShell cmdlets.
 
-> [!IMPORTANT]
-> In this deployment, the Dynamics 365 administrator can approve mailboxes.
+    > [!IMPORTANT]
+    > In this deployment, the Dynamics 365 administrator can approve mailboxes.
 
 ## Set up server-based authentication with Microsoft Dynamics 365 and Exchange Online
 
@@ -47,8 +47,9 @@ Follow the steps in the order provided to set up Dynamics 365 (on-premises) with
 ### Verify prerequisites
 
 Before you configure Dynamics 365 (on-premises) and Exchange Online for server-based authentication, the following prerequisites must be met:
+
 - Microsoft Dynamics 365 Hybrid Connector. The Microsoft Dynamics 365 Hybrid Connector is a free connector that lets you use server-based authentication with Microsoft Dynamics 365 (on-premises) and Exchange Online. More information: [Microsoft Dynamics 365 Hybrid Connector](https://signup.microsoft.com/Signup?OfferId=2d11d538-945d-48c6-b609-a5ce54ce7b18&pc=76ac7a4d-8346-4419-959c-d3896e89b3c9)
-- An x509 digital certificate issued by a trusted certificate authority that will be used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you're evaluating server-based authentication, you can use a self-signed certificate.
+- An x509 digital certificate issued by a trusted certificate authority is used to authenticate between Dynamics 365 (on-premises) and Exchange Online. The certificate should have a [KeySpec value](/windows-server/identity/ad-fs/technical-reference/ad-fs-and-keyspec-property) of 1. If you're evaluating server-based authentication, you can use a self-signed certificate.
 - Verify that all servers that run the Asynchronous Processing Service have the certificate that is used for Server-to-Server authentication.
 - Verify that the account that runs the Asynchronous Processing Service has read access to private keys of the certificate. More information: [Grant the Asynchronous Processing Service service account read access to the certificate](#grant-the-asynchronous-processing-service-service-account-read-access-to-the-certificate)
 
@@ -59,71 +60,32 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 
    Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it's C:\Program Files\Microsoft Dynamics CRM\Tools).
 
-```powershell
-$CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
-Invoke-Expression -command $CertificateScriptWithCommand
-```
+    ```powershell
+    $CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
+    Invoke-Expression -command $CertificateScriptWithCommand
+    ```
 
-3. Prepare the Windows PowerShell session.
+ 3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
+    
+    Make sure to [add](/entra/identity-platform/quickstart-configure-app-access-web-apis) and grant the following API permissions to the new app:
 
-   The following cmdlets enable the computer to receive remote commands and add Office 365 modules to the Windows PowerShell session. For more information about these cmdlets, see [Windows PowerShell Core Cmdlets](/powershell/module/Microsoft.PowerShell.Core).
+    - Application.ReadWrite.All
+    - Orgaization.Read.All
+    - User.Read
+    
+    Create a client secrete for this new app and [modify the app registration to create a client secret](/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately).
+    
+      :::image type="content" source="media/SSS_Image1.png" alt-text="Upload the deployment profile.":::
+     
+5. In the powershell session from step 2, invoke below **ConfigureCrmServerSideSync** command.                     
 
-```powershell
-Enable-PSRemoting -force
-[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
-Install-Module MSOnline
-Install-Module MSOnlineExt
-Import-Module MSOnline -force
-Import-Module MSOnlineExt -force
-```
+    [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 
-4. Connect to Office 365.
-
-   When you run the Connect-MsolService command, you must provide a valid Microsoft account that has Office 365 Global Administrator membership for the Exchange Online license that is required.
-   For detailed information about each of the Azure Active Directory PowerShell commands listed here, see [MSDN: Manage Azure AD using Windows PowerShell](/previous-versions/azure/jj151815(v=azure.100)).
-
-```powershell
-$msolcred = get-credential
-connect-msolservice -credential $msolcred
-```
-
-5. Set the certificate.
-
-```powershell
-$Certificate = New-Object System.Security.Cryptography.X509Certificates.X509Certificate2
-$Certificate.Import("c:\Personalcertfile.cer")
-$CERCertificateBin = $Certificate.GetRawCertData()
-$CredentialValue = [System.Convert]::ToBase64String($CERCertificateBin)
-```
-
-6. Set the Azure Active Directory Service Principal Name (SPN) in Exchange Online.
-
-   Replace *.contoso.com with the domain name where Microsoft Dynamics 365 Server is located.
-
-```powershell
-$RootDomain = "*.contoso.com"
-$CRMAppId = "00000007-0000-0000-c000-000000000000" 
-New-MsolServicePrincipalCredential -AppPrincipalId $CRMAppId -Type asymmetric -Usage Verify -Value $CredentialValue
-$CRM = Get-MsolServicePrincipal -AppPrincipalId $CRMAppId
-$ServicePrincipalName = $CRM.ServicePrincipalNames
-$ServicePrincipalName.Remove("$CRMAppId/$RootDomain")
-$ServicePrincipalName.Add("$CRMAppId/$RootDomain")
-Set-MsolServicePrincipal -AppPrincipalId $CRMAppId -ServicePrincipalNames $ServicePrincipalName
-```
-
-7. Configure the Microsoft Dynamics 365 Server for server-based authentication with Exchange.
-
-```powershell
-Add-PSSnapin Microsoft.Crm.PowerShell 
-$setting = New-Object "Microsoft.Xrm.Sdk.Deployment.ConfigurationEntity"
-$setting.LogicalName = "ServerSettings"
-$setting.Attributes = New-Object "Microsoft.Xrm.Sdk.Deployment.AttributeCollection"
-$attribute1 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerPrincipalId", "00000001-0000-0000-c000-000000000000")
-$setting.Attributes.Add($attribute1)
-$attribute2 = New-Object "System.Collections.Generic.KeyValuePair[String, Object]" ("S2SDefaultAuthorizationServerMetadataUrl", "https://accounts.accesscontrol.windows.net/metadata/json/1")
-$setting.Attributes.Add($attribute2)
-Set-CrmAdvancedSetting -Entity $setting
-```
+     $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -privateKeyPassword (ConvertTo- 
+     SecureString 'personal_certfile_password' -AsPlainText -Force) -pfxFilePath c:\Personalcertfile.pfx -organizationName 
+     organization_name -microsoftEntraIdTenantIdOrDomainName microsoft_entraid_tenantid_or_domain_name -ClientID 
+     app_id_from_step3 -ClientSecret -client_secret" 
+     Invoke-Expression -command $ConfigureCrmServerSideSyncWithCommand 
 
 > [!IMPORTANT]
 > For customers using Exchange Online with Government Community Cloud (GCC) High for US government environments, the **S2SDefaultAuthorizationServerMetadataUrl** in the PowerShell script must be changed to *https://login.microsoftonline.us/metadata/json/1*.
@@ -132,26 +94,26 @@ Set-CrmAdvancedSetting -Entity $setting
 
 1. In the Azure Active Directory module for Windows PowerShell shell, run the following commands.
 
-```powershell
-$CRMContextId = (Get-MsolCompanyInformation).ObjectID
-$CRMContextId
-```
+    ```powershell
+    $CRMContextId = (Get-MsolCompanyInformation).ObjectID
+    $CRMContextId
+    ```
 
 2. Copy the GUID that is displayed to the clipboard.
 
 3. Update S2STenantId for the organization by running these commands, where OrganizationName is the unique name of the organization and ExchangeOnlineTenantId is the TenantId retrieved in the prior step. 
 
-```powershell
-$organizationName = "OrganizationName"
-$CRMContextId = "ExchangeOnlineTenantId"
-$orgInfo = Get-CrmOrganization -Name $organizationName
-$ID = $orgInfo.id 
-
-    if($ID)
-        {
-          Set-CrmAdvancedSetting -ID $orgInfo.ID -configurationEntityName "Organization" -setting "S2STenantId" -value $CRMContextId
-        }
-```
+    ```powershell
+    $organizationName = "OrganizationName"
+    $CRMContextId = "ExchangeOnlineTenantId"
+    $orgInfo = Get-CrmOrganization -Name $organizationName
+    $ID = $orgInfo.id 
+    
+        if($ID)
+            {
+              Set-CrmAdvancedSetting -ID $orgInfo.ID -configurationEntityName "Organization" -setting "S2STenantId" -value $CRMContextId
+            }
+    ```
 
 ### Error received during enable server-based authentication wizard
 Error: Failed Authentication. This error can be returned when the certificate used for server-to-server authentication is missing or invalid. To resolve, update or install the certificate and try again.
@@ -161,21 +123,20 @@ Error: Failed Authentication. This error can be returned when the certificate us
 2. Select **New** > **Exchange Online (Hybrid)**.
 3. For an Exchange email server profile, specify the following details.
 
-
-|Fields  |Description  |
-|---------|---------|
-|Name     | Specify a meaningful name for the profile.        |
-|Description     | Type a short description about the objective of the email server profile.        |
-|Server Type     | Prepopulated with Exchange Online (Hybrid).        |
-|Owner     | Prepopulated with the name of the owner of the email server profile.        |
-|Use Default Tenant ID      |  If you've used the PowerShell commands above to set the Exchange Online tenant ID (recommended), select **Yes** to use that ID. If you set this to **No**, you must specify the Exchange Online tenant ID manually (not recommended!).       |
-|Exchange Online Tenant ID     | If you've used the PowerShell commands above to set the Exchange Online tenant ID (recommended), the ID is prepopulated in this field.        |
-|Auto Discover Server Location     |  Prepopulated with the Exchange Online URL. Select **Yes** (recommended), if you want to use the auto discover service to determine the server location. If you set this to **No**, you must specify the email server location manually.       |
-|Incoming Server Location and Outgoing Server Location     |  If you select **No** in **Auto Discover Server Location**, enter a URL for **Incoming Server Location** and **Outgoing Server Location**.       |
-|**Additional Settings**   |         |
-|Process Email From    | Select a date and time. Email received after the date and time will be processed by server-side synchronization for all mailboxes associated with this profile. If you set a value less than the current date, the change will be applied to all newly associated mailboxes and their earlier processed emails will be pulled.        |
-|Minimum Polling Intervals in Minutes    | Type the minimum polling interval, in minutes, for mailboxes that are associated with this email server profile. The polling interval determines how often server-side synchronization polls your mailboxes for new email messages.          |
-|Move Failed Emails to Undeliverable Folder    | To move the undelivered email to the Undeliverable folder, select **Yes**. If there’s an error in tracking email messages in Dynamics 365 as email activities, and if this option is set to **Yes**, the email message will be moved to the Undeliverable folder.         |
+    |Fields  |Description  |
+    |---------|---------|
+    |Name     | Specify a meaningful name for the profile.        |
+    |Description     | Type a short description about the objective of the email server profile.        |
+    |Server Type     | Prepopulated with Exchange Online (Hybrid).        |
+    |Owner     | Prepopulated with the name of the owner of the email server profile.        |
+    |Use Default Tenant ID      |  If you've used the PowerShell commands above to set the Exchange Online tenant ID (recommended), select **Yes** to use that ID. If you set this to **No**, you must specify the Exchange Online tenant ID manually (not recommended!).       |
+    |Exchange Online Tenant ID     | If you've used the PowerShell commands above to set the Exchange Online tenant ID (recommended), the ID is prepopulated in this field.        |
+    |Auto Discover Server Location     |  Prepopulated with the Exchange Online URL. Select **Yes** (recommended), if you want to use the auto discover service to determine the server location. If you set this to **No**, you must specify the email server location manually.       |
+    |Incoming Server Location and Outgoing Server Location     |  If you select **No** in **Auto Discover Server Location**, enter a URL for **Incoming Server Location** and **Outgoing Server Location**.       |
+    |**Additional Settings**   |         |
+    |Process Email From    | Select a date and time. Email received after the date and time is processed by server-side synchronization for all mailboxes associated with this profile. If you set a value less than the current date, the change is applied to all newly associated mailboxes and their earlier processed emails are pulled.        |
+    |Minimum Polling Intervals in Minutes    | Type the minimum polling interval, in minutes, for mailboxes that are associated with this email server profile. The polling interval determines how often server-side synchronization polls your mailboxes for new email messages.          |
+    |Move Failed Emails to Undeliverable Folder    | To move the undelivered email to the Undeliverable folder, select **Yes**. If there’s an error in tracking email messages in Dynamics 365 as email activities, and if this option is set to **Yes**, the email message is moved to the Undeliverable folder.         |
 
 4. Select **Save**.
 5. Select **Test Connection** and review the results. To diagnose issues, see the following section.
@@ -192,17 +153,18 @@ Set server-side synchronization to be the default configuration method.
 
 1. Go to **Settings** > **Email Configuration** > **Email Configuration Settings**.
 2. Set the processing and synchronization fields as follows:
-  - **Server Profile**: The profile you created in the above section.
-  - **Incoming Email**: Server-Side Synchronization or Email Router
-  - **Outgoing Email**: Server-Side Synchronization or Email Router
-  - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router
+   
+    - **Server Profile**: The profile you created in the above section.
+    - **Incoming Email**: Server-Side Synchronization or Email Router
+    - **Outgoing Email**: Server-Side Synchronization or Email Router
+    - **Appointments, Contacts, and Tasks**: Server-Side Synchronization or Email Router
 
-  > [!NOTE]
-  > If your users primarily use Dynamics 365 for Outlook on their desktop computers, Microsoft Dynamics 365 for Outlook might be a better choice.
+    > [!NOTE]
+    > If your users primarily use Dynamics 365 for Outlook on their desktop computers, Microsoft Dynamics 365 for Outlook might be a better choice.
 
-  If you leave the Email processing form unapproved user and queues at the default values (selected), you'll need to approve emails and queues for user mailboxes as directed below in Approve Email.
+    If you leave the Email processing form unapproved user and queues at the default values (selected), you need to approve emails and queues for user mailboxes as directed below in Approve Email.
 
-  ![Exchange Server profile.](media/system-settings-exchange-profile.png)
+    ![Exchange Server profile.](media/system-settings-exchange-profile.png)
 
 3. Select **OK**.
  
@@ -225,8 +187,8 @@ Select one of the following methods:
 5. Set **Incoming** and **OutgoingEmail** to **Server-Side Synchronization** or **Email Router**.
 6. Set **Appointments**, **Contacts**, and **Tasks** to **Server-Side Synchronization**.
 
-> [!NOTE]
-> If your users primarily use Dynamics 365 for Outlook on their desktop computers, Microsoft Dynamics 365 for Outlook might be a better choice.
+    > [!NOTE]
+    > If your users primarily use Dynamics 365 for Outlook on their desktop computers, Microsoft Dynamics 365 for Outlook might be a better choice.
 
 7. Select **Change**.
  
@@ -251,7 +213,6 @@ The result of the email configuration test is displayed in the **Incoming Email 
 > [!TIP]
 > If you’re unable to synchronize contacts, appointments, and tasks for a mailbox, you may want to select the **Sync items with Exchange from this Dynamics 365 org only, even if Exchange was set to sync with a different org** check box. [Read more about this check box](../admin/when-would-want-use-check-box.md).
 
-
 ## Test email configuration for all mailboxes associated with an email server profile
 
 1. Go to **Settings** > **Email Configuration** > **Email Server Profiles**.
@@ -275,8 +236,7 @@ This procedure explains how to grant the Asynchronous Processing Service service
 1. Select **Add**, search for and select the service account the Asynchronous Processing Service runs under, **Allow Read** permission, and then select **OK**.
 1. Restart the **Microsoft Dynamics CRM Asynchronous Processing Service** and the **Microsoft Dynamics CRM Asynchronous Processing Service (maintenance)** services.
 
-## See also
-
+## Related information
 [Server-side synchronization](../admin/server-side-synchronization.md) </br>
 [Troubleshooting and monitoring server-side synchronization](../admin/troubleshooting-monitoring-server-side-synchronization.md)
 
