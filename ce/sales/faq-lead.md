@@ -41,7 +41,7 @@ The new lead qualification experience allows for customization of the lead quali
 
 ## What if I had previously defined the lead qualification experience?
 
-The new lead qualification experience is turned on by default irrespective of whether you had previously defined the lead qualification experience or not. However, the experience you had previously defined is retained. For example, if you had previously turned on **Auto-create records for newly qualified leads** in the legacy experience, record creation is set to **Automatic** in the new experience. Otherwise, record creation is set to **Manual** in the new experience. Learn more about [how to customize the lead qualification experience](define-lead-qualification-experience.md).
+The new lead qualification experience is turned on by default irrespective of whether you had previously defined the lead qualification experience or not. However, the experience you had previously defined is retained. For example, if you had previously turned on **Auto-create records for newly qualified leads** in the legacy experience, record creation is set to **Automatic** in the new experience. Otherwise, record creation is set to **Seller** in the new experience. Learn more about [how to customize the lead qualification experience](define-lead-qualification-experience.md).
 
 ### How can I create multiple opportunities for a single lead?
 
