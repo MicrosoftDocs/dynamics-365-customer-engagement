@@ -88,4 +88,12 @@ To control changes and keep your offline profiles in sync, your organization mig
 
 1. Import the managed solution into the new environment.
 
+## Best practices for offline mode
+
+Our team recently published a series of blog posts with additional details around using the offline profiles in the Field Service mobile app, including best practices and advanced scenarios.
+
+- [Best Practices for Offline Mode in the Field Service mobile app – Part 1](https://www.microsoft.com/en-us/dynamics-365/blog/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/)
+- [Best Practices for Offline Mode in the Field Service mobile app – Part 2](https://www.microsoft.com/en-us/dynamics-365/blog/administrator/2023/11/08/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-2/)
+- [Best Practices for Offline Mode in the Field Service mobile app – Part 3](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2023/11/10/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-3/)
+
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]
