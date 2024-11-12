@@ -1,6 +1,7 @@
 ---
 title: "Create or edit goals | MicrosoftDocs"
 description: "Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals."
+ms.date: 11/12/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
