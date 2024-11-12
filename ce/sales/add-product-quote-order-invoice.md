@@ -1,7 +1,7 @@
 ---
 title: "Add products to quotes, orders, or invoices (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Include details about the products that your customer is interested in purchasing in your quote, order, or invoice in Dynamics 365 Sales."
-ms.date: 05/10/2022
+ms.date: 11/12/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -43,7 +43,7 @@ The process for adding a product to a quote record is the same as adding a produ
     - To add products from an opportunity, select the **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Get products** and select the opportunity.  
        Products from the selected opportunity are added to the quote.
   
-    - To find and add products manually, select **Add product**.
+    - To find and add products manually, select **Add products**.
 
         1. In the **Quick Create: Quote Product form**, do the following: 
     
@@ -74,7 +74,7 @@ The process for adding a product to a quote record is the same as adding a produ
     
             - **Tax**. If required, enter the appropriate tax amount. 
     
-    4. To save this product, and add more products, select **Save and New**.
+    4. To save this product, and add more products, select **Save and Create New**.
 
 The **Products** grid shows all the products that are associated with the quote. After you add a product, you can change the unit, price, quantity, and discount of the product inline in the **Products** grid. For a write-in product, you can also change the price of the product in addition to the quantity and discount. 
 
