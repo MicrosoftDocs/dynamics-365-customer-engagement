@@ -143,7 +143,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 When a work item is in a queue and the wait is long, the system can reroute it to another queue that has agents available.
 
-1. In the Customer Service admin center site map, select **Customer support** > **Queues**.
+1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
