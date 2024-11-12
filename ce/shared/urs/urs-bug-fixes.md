@@ -27,8 +27,9 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.83.243052
 
 **Dataverse:** 4.0.134.84
-- The framework underlying the schedule board has been updated, which brings reduces load times by up to 68%, and adds top requested usability improvements such as Days of the week, Day line and the ability to reorder tabs per user. For more information, refer to [The next chapter for the Schedule Board: Enhanced Usability and Performance  - Microsoft Dynamics 365 Blog](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2024/10/31/the-next-chapter-for-the-schedule-board-enhanced-usability-and-performance/)
-Note: Unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. Additionally, the updated schedule board is not available to Resource Scheduling Optimization (RSO) due to underlying limitations, therefore customers with orgs running RSO can continue using the existing Schedule board until further notice.  
+
+- The framework underlying the schedule board has been updated, which reduces load times significantly and introduces usability improvements such a day line or tab reordering. For more information, see [The next chapter for the Schedule Board: Enhanced Usability and Performance](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2024/10/31/the-next-chapter-for-the-schedule-board-enhanced-usability-and-performance/).
+  Unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. Additionally, the updated schedule board is not available in the Resource Scheduling Optimization add-in due to underlying limitations.  
 
 ## 3.12.143.46
 
