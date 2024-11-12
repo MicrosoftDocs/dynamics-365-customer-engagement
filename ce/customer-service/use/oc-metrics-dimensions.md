@@ -123,7 +123,7 @@ This dimension represents the name of the channel.
 
 ### Consult
 
-This metric represents the agent participation **consult** mode. The related metrics aren't available by default. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
+This metric represents the agent participation **consult** mode. The related metrics aren't available by default. You can use these metrics to customize the visual display of your reports. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
 #### Related metrics
 
