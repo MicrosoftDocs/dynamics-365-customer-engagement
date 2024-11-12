@@ -76,7 +76,8 @@ For information about older versions, see [Version history archive](../../field-
 - Turning on focus mode no longer maximizes the browser.
 - Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load.
 - Fixed a bug that was impacting time labels on Specify Pattern when changing time zones.
-- Schedule Assistant is now using Bryntum in production environments.
+- Schedule Assistant is now using the updated schedule board. The framework underlying the schedule board has been updated, which reduces load times significantly and introduces usability improvements such a day line or tab reordering. For more information, see [The next chapter for the Schedule Board: Enhanced Usability and Performance](https://www.microsoft.com/en-us/dynamics-365/blog/it-professional/2024/10/31/the-next-chapter-for-the-schedule-board-enhanced-usability-and-performance/).
+  Unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. Additionally, the updated schedule board is not available in the Resource Scheduling Optimization add-in due to underlying limitations.  
 
 
 ## 3.12.140.11
