@@ -29,7 +29,7 @@ Turn off scheduling for a previously enabled entity.
 
 1. In the **Enabled Entities** section, double-click the entity you want to disable.
 
-   :::image type="content" source="../../field-service/media/enablescheduling-wizard.png" alt-text="Screenshot of scheduling settings showing the Enable Resource Scheduling for Entities option.":::
+   :::image type="content" source="../../field-service/media/enablescheduling-wizard.png" alt-text="Screenshot of the Enable Scheduling Wizard for Entities.":::
 
 1. A new tab with the booking setup metadata for the selected entity opens. Select **Deactivate** in the command bar and confirm the deactivation.
 
