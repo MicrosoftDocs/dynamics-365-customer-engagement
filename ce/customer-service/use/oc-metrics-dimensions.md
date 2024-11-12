@@ -63,7 +63,7 @@ This dimension represents the name of the capacity profile.
 
 This dimension applies only to voice conversations. It indicates whether the customer or an agent in the contact center initiated the conversation.
 
-If a contact center agent initiates the conversation (and the customer receives it), it's considered outbound. If the customer initiates the conversation (and the contact center receives it), it's considered inbound.
+If a contact center agent initiates the conversation (and the customer receives it), the system considers it outbound. If the customer initiates the conversation (and the contact center receives it), the system considers it inbound.
 
 ### Conversation status
 
@@ -195,7 +195,7 @@ For information about metrics that are related to how quickly an agent accepts a
 
 This metric is a measure of the time that human agents spend actively helping customers and resolving their issues. If multiple agents handle a conversation, the time that all the agents spend is aggregated. This metric also includes time that agents spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other agents spend consulting with agents who are assigned to work on customer conversations.
 
-An agent is considered actively working on a conversation if they have the conversation open in the Customer Service workspace app. If an agent is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the agent spends on the conversation on an open tab counts toward that conversation's handle time.
+An agent is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If an agent is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the agent spends on the conversation on an open tab counts toward that conversation's handle time.
 
 A long average handle time might indicate that agents are taking too long to resolve customer issues, and that they need more training or support to help them work better. In addition, a long average handle time might suggest that customers aren't receiving the level of service or support that they need to resolve their issues. Therefore, it might lead to customer dissatisfaction.
 
@@ -243,7 +243,7 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to respond to handle overflow. Abandoned conversations can lead to customer dissatisfaction because of a lack of assistance from the contact center. A high abandonment rate might require further investigation into operational metrics such as agent availability and queue distribution.
 
-If a bot or IVR handles the customer before it escalates the request to a human agent, this metric is calculated as the number of conversations that were abandoned while customers were waiting for a human agent after the bot escalated the request. If a conversation is abandoned before a bot can be assigned, the conversation is considered abandoned.
+If a bot or IVR handles the customer before it escalates the request to a human agent, this metric is calculated as the number of conversations that were abandoned while customers were waiting for a human agent after the bot escalated the request. If a conversation is abandoned before a bot can be assigned, the system considers the conversation abandoned.
 
 If the customer reaches a human agent queue directly, this metric is calculated as the number of incoming conversations that were abandoned.
 
@@ -257,7 +257,7 @@ The conversation direction is *Incoming*. The channels that the conversation cam
 
 ### Active conversations awaiting agent acceptance
 
-This metric is a count of conversation requests from customers that have had agents assigned but that are currently waiting for an agent to accept them and join the conversation. The conversations revert to an *Open* state if the agent rejects or responds to the request.
+This metric is a count of conversation requests from customers where agents are assigned but that are currently waiting for an agent to accept and join the conversation. The conversations revert to an *Open* state if the agent rejects or responds to the request.
 
 ### Active conversations with agent acceptance
 
@@ -341,7 +341,7 @@ This metric is a measure of the time, in seconds, that a customer spends waiting
 
 ### Active sessions
 
-This metric is a count of sessions that are currently in progress. A session is considered active if no agent has yet been assigned to it, it's awaiting agent acceptance, or agents are actively helping customers.
+This metric is a count of sessions that are currently in progress. The system considers a session active if no agent has yet been assigned to it, it's awaiting agent acceptance, or agents are actively helping customers.
 
 ### Closed sessions
 
@@ -353,7 +353,7 @@ This metric is a measure of the total number of sessions that were presented to 
 
 ### Is handled by external participant
 
-A customer request might be handled by multiple agents, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that agents outside Dynamics 365 Customer Service handled.
+Multiple agents might handle a customer request, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that agents outside Dynamics 365 Customer Service handled.
 
 #### Related metrics
 
@@ -368,13 +368,13 @@ This metric is a measure of the total number of agents who were involved in help
 
 Whereas speed to answer provides insights into how quickly an agent was connected with a customer, first response time provides insights into how quickly the agent responded to the customer. First response time is a measure of the time that customers spend waiting for a first response from a human agent. The time is adjusted based on operating hours. The calculation is based on the time between the point when a customer initiates a conversation (or, in the case of a bot-escalated conversation, the point when the bot escalates it) and the point when the agent accepts the request and responds to the customer. For messaging conversations, this time represents how soon the agent sent the first response to customer.
 
-Average first response time is calculated by dividing the total first response time across all engaged conversations by the number of engaged conversations.
+The system calculates average first response time by dividing the total first response time across all engaged conversations by the number of engaged conversations.
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
 ### Average agent response time
 
-Agent response time is a measure of the average time that customers who sent a message must wait to get a response from a human agent. The time is adjusted based on operating hours. Average agent response time is calculated by dividing the total response time by the number of exchanges between customers and agents across all engaged conversations. A longer response time indicates that more time passes between messages as customers wait for an agent to respond and provide updates. A longer response time negatively affects the customer experience.
+Agent response time is a measure of the average time that customers who sent a message must wait to get a response from a human agent. The time is adjusted based on operating hours. The system calculates average agent response time by dividing the total response time by the number of exchanges between customers and agents across all engaged conversations. A longer response time indicates that more time passes between messages as customers wait for an agent to respond and provide updates. A longer response time negatively affects the customer experience.
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
