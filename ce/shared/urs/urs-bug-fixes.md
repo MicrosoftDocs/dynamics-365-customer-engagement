@@ -28,13 +28,13 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.134.84
 
-- Fixed a bug that was causing some field options to be improperly populated when using schedule assistant's booking panel
-- The Find Availability button is no longer visible when a requirement is deselected and is visible when a requirement group is selected
-- Fixed a problem where the requirement panel's active tab was not always being cached
-- Improved schedule assistant's handling of custom entities
+- Fixed a bug that was causing some field options to be improperly populated when using schedule assistant's booking panel.
+- The Find Availability button is no longer visible when a requirement is deselected and is visible when a requirement group is selected.
+- Fixed a bug where the requirement panel's active tab was not always being cached.
+- Improved schedule assistant's handling of custom entities.
 - Fixed bugs impacting filtering and pagination on the requirement panel of the schedule board.
 - Fixed a bug that was causing some users to be unable to set a booking status on a work order in schedule assistant. 
-- Fixed a bug where specify pattern was changing the date some requirement details when editing a time window start.
+- Fixed a bug where Specify Pattern was changing the date of some requirement details when editing a time window start.
 
 
 ## 3.12.143.46
