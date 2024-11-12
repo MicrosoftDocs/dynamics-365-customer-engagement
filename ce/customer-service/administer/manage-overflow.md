@@ -153,7 +153,7 @@ When a work item is in a queue and the wait is long, the system can reroute it t
 
 1. Select the **Waiting time in queue exceeds** condition.
 
-1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows. If and more than 20 work items are overflowing in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
+1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows. If more than 20 work items are overflowing in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
 
 1. [Select overflow condition-action pairs for queued work items](#overflow-condition-and-actions-when-work-items-are-queued).
 
