@@ -59,5 +59,5 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 
 ## Related information
 
-[How do I add Copilot to custom apps? ](https://youtu.be/uaM0oapTGd4)
+[How do I add Copilot to custom apps? ](https://youtu.be/uaM0oapTGd4)  
 [How do I add Copilot case summaries to a custom form](https://youtu.be/wuC_kujfCI8)
