@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
-ms.date: 07/01/2024
+ms.date: 11/12/2024
 ms.custom: bap-template
 ---
 
@@ -121,11 +121,13 @@ This dimension represents the name of the channel.
 
 ## Metrics
 
-### Average consult time
+### Consult
 
-This metric represents the average time agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
+This metric represents the agent participation **consult** mode. The related metrics aren't available by defualt. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
 #### Related metrics
+
+- **Average consult time**: The average time agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
 - **Consult acceptance rate**: The rate at which agents accept consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
 
