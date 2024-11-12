@@ -163,7 +163,7 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 
 #### Related metrics
 
-- **Average conversation first wait time**: This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were served.
+- **Average conversation first wait time**: This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of served customers.
 - **Longest wait time**: This metric is a measure of the longest first wait time among incoming conversations that an agent hasn't yet accepted.
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting agent assistance, or conversations where an agent is assigned but are waiting for the agent to accept.
 
@@ -171,7 +171,7 @@ For information about metrics that are related to the time that customers wait i
 
 ### Average speed to answer
 
-This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total wait time for customers who are waiting in the queue (after their issue is escalated from a bot to a human agent) by the total number of customers who were served. Average speed to answer reflects the efficiency and availability of the agents. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
+This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total wait time for customers who are waiting in the queue (after their issue is escalated from a bot to a human agent) by the total number of served customers. Average speed to answer reflects the efficiency and availability of the agents. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
 
 If a bot or IVR handles the customer before it escalates the issue to a human agent, the calculation is based on the time between the point when the bot or IVR escalates the incoming conversation to a human agent and the point when the agent accepts the conversation.
 
