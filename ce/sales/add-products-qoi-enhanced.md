@@ -1,7 +1,7 @@
 ---
 title: Enhanced experience for Adding products to quotes, orders, or invoices
 description: Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise.
-ms.date: 05/17/2022
+ms.date: 11/12/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -118,7 +118,7 @@ If you've created a quote from an opportunity, the products added to the opportu
 
 7. Repeat steps 3 through 6 for each product you want to add.
 
-8. When you're done, select **Save to quote**.
+8. When you're done, select **Save to Quote**.
 
 ## Remove products from a quote, order, or invoice
 
