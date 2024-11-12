@@ -1,7 +1,7 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 04/16/2024
+ms.date: 11/12/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -53,7 +53,7 @@ The feature supports:
 
 ## What are the supported geographies and languages?
 
-This feature is available in English (United States, Great Britain, Australia, Canada, and India).
+[Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 
