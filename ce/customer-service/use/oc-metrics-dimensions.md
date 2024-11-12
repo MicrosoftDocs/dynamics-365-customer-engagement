@@ -53,7 +53,7 @@ Skills that have been assigned to agents.
 
 ### Proficiency
 
-Agent's proficiency level for assigned skills.
+An agent's proficiency level for assigned skills.
 
 ### Capacity profile name
 
@@ -70,7 +70,7 @@ If a contact center agent initiates the conversation (and the customer receives 
 This dimension represents the current state of a customer interaction. The following status values are available:
 
 - **Open**: The conversation is currently awaiting agent assignment.
-- **Active**: Either the conversation has had an agent assigned and is awaiting acceptance, or an agent is in contact with the customer.
+- **Active**: Either the conversation has an agent assigned and is awaiting acceptance, or an agent is in contact with the customer.
 - **Waiting**: The conversation is currently awaiting either a customer response or an agent response. This option applies to asynchronous conversation modes, such as messages.
 - **Wrap-up**: The agent is performing post–customer interaction activities such as adding notes or updates to the case after the end of a customer conversation.
 - **Closed**: The conversation is currently closed.
@@ -127,29 +127,29 @@ This metric represents the agent participation **consult** mode. The related met
 
 #### Related metrics
 
-- **Average consult time**: The average time agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
+- **Average consult time**: The average time that agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
-- **Consult acceptance rate**: Total number of sessions that were accepted by agent over all the sessions requested for consult from the agent.
+- **Consult acceptance rate**: The total number of sessions that were accepted by agent over all the sessions requested for consult from the agent.
 
-- **Consult not acceptance rate**: Total number of sessions that didn't have acceptance by agent over all the sessions requested for consult from the agent. This includes timed out and rejected requests.  
+- **Consult not acceptance rate**: The total number of sessions that didn't have acceptance by the agent over all the sessions requested for consult from the agent. This includes timed out and rejected requests.  
 
-- **Consult rejection rate**: Total number of sessions that were rejected by agent over all the sessions requested for consult from the agent.
+- **Consult rejection rate**: The total number of sessions that were rejected by the agent over all the sessions requested for consult from the agent.
 
-- **Consults requested**: Total number of sessions that were requested for consultation.
+- **Consults requested**: The total number of sessions that were requested for consultation.
 
-- **Consult requests accepted**: Total number of sessions that were requested for consultation and accepted by agent.
+- **Consult requests accepted**: The total number of sessions that were requested for consultation and accepted by the agent.
 
-- **Consult requests not accepted**: Total number of sessions that were requested for consultation and had no acceptance from agent.
+- **Consult requests not accepted**: The total number of sessions that were requested for consultation and had no acceptance from the agent.
 
-- **Consult requests rejected**: Total number of sessions that were requested for consult but were rejected by the agent. 
+- **Consult requests rejected**: The total number of sessions that were requested for consult but were rejected by the agent. 
 
-- **Consult requests timed out**: Total number of sessions that were requested for consult from the agent but resulted in a timeout as the agent failed to respond.
+- **Consult requests timed out**: The total number of sessions that were requested for consult from the agent but resulted in a timeout because the agent failed to respond.
 
-- **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for omnichannel real-time out-of-the-box dashboard.
+- **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for the omnichannel real-time out-of-the-box dashboard.
 
-- **Consult sessions**: Total number of sessions that are under consult. Available only for omnichannel historical out-of-the-box dashboard.
+- **Consult sessions**: The total number of sessions that are under consult. Available only for the omnichannel historical out-of-the-box dashboard.
 
-- **Consult timed out rate**: Total number of sessions that resulted in timeout over all the sessions requested for consult from the agent.
+- **Consult timed out rate**: The total number of sessions that resulted in timeout over all the sessions requested for consult from the agent.
 
 ### Conversation first wait time
 
@@ -167,7 +167,7 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 - **Longest wait time**: This metric is a measure of the longest first wait time among incoming conversations that an agent hasn't yet accepted.
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting agent assistance, or conversations that have had an agent assigned but are awaiting agent acceptance.
 
-For information about metrics that are related to the time that customers wait in individual queues if they are transferred from one agent to another, go to the [Session wait time](#session-wait-time) section.
+For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one agent to another, go to the [Session wait time](#session-wait-time) section.
 
 ### Average speed to answer
 
@@ -195,7 +195,7 @@ For information about metrics that are related to how quickly an agent accepts a
 
 This metric is a measure of the time that human agents spend actively helping customers and resolving their issues. If multiple agents handle a conversation, the time that all the agents spend is aggregated. This metric also includes time that agents spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other agents spend consulting with agents who are assigned to work on customer conversations.
 
-An agent is considered actively working on a conversation if they have the conversation open in the Customer Service Workspace app. If an agent is handling multiple conversations, including conversations that they are currently wrapping up, only the time that the agent spends on the conversation on an open tab is counted toward that conversation's handle time.
+An agent is considered actively working on a conversation if they have the conversation open in the Customer Service workspace app. If an agent is handling multiple conversations, including conversations that they are currently wrapping up, only the time that the agent spends on the conversation on an open tab is counted toward that conversation's handle time.
 
 A long average handle time might indicate that agents are taking too long to resolve customer issues, and that they need more training or support to help them work better. In addition, a long average handle time might suggest that customers aren't receiving the level of service or support that they need to resolve their issues. Therefore, it might lead to customer dissatisfaction.
 
