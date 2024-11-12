@@ -27,6 +27,8 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.83.243052
 
 **Dataverse:** 4.0.134.84
+- The Schedule Board is now using the updated react schedule board in production environments. *Note: The updated react schedule board is not available to RSO due to underlying limitations, therefore customers with orgs running RSO can continue using the existing Schedule board until further notice.
+
 
 ## 3.12.143.46
 
@@ -67,7 +69,7 @@ For information about older versions, see [Version history archive](../../field-
 - Turning on focus mode no longer maximizes the browser.
 - Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load.
 - Fixed a bug that was impacting time labels on Specify Pattern when changing time zones.
-- Schedule Assistant is now using Bryntum in production environments.
+- Schedule Assistant is now using react in production environments. *Note: The updated react schedule board is not available to RSO due to underlying limitations, therefore customers with orgs running RSO can continue using the existing Schedule board until further notice.
 
 
 ## 3.12.140.11
