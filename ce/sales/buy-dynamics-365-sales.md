@@ -1,6 +1,6 @@
 ---
 title: Buy Dynamics 365 Sales
-description: Discover the different Dynamics 365 Sales licenses available and how to purchase them. Includes Sales Professional, Sales Enterprise, Sales Premium, and Microsoft Relationship Sales.****
+description: Discover the different Dynamics 365 Sales licenses available and how to purchase them. Includes Sales Professional, Sales Enterprise, Sales Premium, and Microsoft Relationship Sales.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
