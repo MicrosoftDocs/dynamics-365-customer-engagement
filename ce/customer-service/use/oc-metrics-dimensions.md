@@ -29,9 +29,9 @@ Fact tables are larger than dimension tables because numerous events, such as in
 
 ## Understand the workflow
 
-Here is a brief description of the workflow.
+Here's a brief description of the workflow.
 
-When a customer raises a request through a channel such as voice, messaging, or chat, a conversation is created. A conversation represents an entire end-to-end interaction with a customer. A conversation can also be created when an agent calls a customer. A conversation typically originates in a workstream on a specific channel. It's then routed to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
+When a customer raises a request through a channel such as voice, messaging, or chat, a conversation is created. A conversation represents an entire end-to-end interaction with a customer. A conversation can also be created when an agent calls a customer. A conversation typically originates in a workstream on a specific channel. It then routes to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
 
 A conversation can end during a single session, or it can extend to multiple sessions. A session is created when the system identifies an agent to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or an agent might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and agent performance. Examples include the number of requests that landed in a queue, the number of requests that agents rejected, and agent handle time.
 
@@ -49,7 +49,7 @@ For information about how you can use these metrics to customize the visual disp
 
 ### Skills
 
-Skills that have been assigned to agents.
+Skills assigned to agents.
 
 ### Proficiency
 
@@ -81,7 +81,7 @@ This dimension represents the name of the queue.
 
 ### Agent presence
 
-This dimension represents the statuses that are available for agents. The out-of-box options include *Online*, *Away*, *Busy*, *Offline*, and *Do Not Disturb*. The status options that are available to you depend on your organization's configuration and include any other custom presence statuses that have been configured for your organization.
+This dimension represents the statuses that are available for agents. The out-of-box options include *Online*, *Away*, *Busy*, *Offline*, and *Do Not Disturb*. The status options that are available to you depend on your organization's configuration and include any other custom presence statuses configured for your organization.
 
 ### Date hour
 
@@ -91,9 +91,9 @@ This dimension represents the hour of the day in 24-hour format.
 
 The following time-based filter options are available on real-time dashboards:
 
-- **Today**: View all conversations that have begun since 12 AM in the selected time zone, in any state or province.
-- **Last 24 hours**: View all conversations that have begun in the last 24 hours, in any state or province.
-- **Include open conversations beyond 24 hours**: View all conversations that have begun in the last 24 hours, in any state or province. In addition, view all conversations that have begun in the last three days and that are still open.
+- **Today**: View all conversations that started since 12 AM in the selected time zone, in any state or province.
+- **Last 24 hours**: View all conversations that started in the last 24 hours, in any state or province.
+- **Include open conversations beyond 24 hours**: View all conversations that started in the last 24 hours, in any state or province. In addition, view all conversations that started in the last three days and that are still open.
 
 ### Time zone
 
@@ -129,11 +129,11 @@ This metric represents the agent participation **consult** mode. The related met
 
 - **Average consult time**: The average time that agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
-- **Consult acceptance rate**: The total number of sessions that were accepted by agent over all the sessions requested for consult from the agent.
+- **Consult acceptance rate**: The total number of sessions accepted by agent over all the sessions requested for consult from the agent.
 
-- **Consult not acceptance rate**: The total number of sessions that didn't have acceptance by the agent over all the sessions requested for consult from the agent. This includes timed out and rejected requests.  
+- **Consult not acceptance rate**: The total number of sessions that didn't have acceptance by the agent over all the sessions requested for consult from the agent. This number includes timed out and rejected requests.  
 
-- **Consult rejection rate**: The total number of sessions that were rejected by the agent over all the sessions requested for consult from the agent.
+- **Consult rejection rate**: The total number of sessions that the agent rejected over all the sessions requested for consult from the agent.
 
 - **Consults requested**: The total number of sessions that were requested for consultation.
 
@@ -141,7 +141,7 @@ This metric represents the agent participation **consult** mode. The related met
 
 - **Consult requests not accepted**: The total number of sessions that were requested for consultation and had no acceptance from the agent.
 
-- **Consult requests rejected**: The total number of sessions that were requested for consult but were rejected by the agent. 
+- **Consult requests rejected**: The total number of sessions that were requested for consult but the agent rejected. 
 
 - **Consult requests timed out**: The total number of sessions that were requested for consult from the agent but resulted in a timeout because the agent failed to respond.
 
@@ -165,13 +165,13 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 
 - **Average conversation first wait time**: This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of customers who were served.
 - **Longest wait time**: This metric is a measure of the longest first wait time among incoming conversations that an agent hasn't yet accepted.
-- **Conversations in queue**: This metric is a count of customer requests that are currently awaiting agent assistance, or conversations that have had an agent assigned but are awaiting agent acceptance.
+- **Conversations in queue**: This metric is a count of customer requests that are currently awaiting agent assistance, or conversations where an agent is assigned but are waiting for the agent to accept.
 
 For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one agent to another, go to the [Session wait time](#session-wait-time) section.
 
 ### Average speed to answer
 
-This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total wait time for customers who are waiting in the queue (after their issue has been escalated from a bot to a human agent) by the total number of customers who were served. Average speed to answer reflects the efficiency and availability of the agents. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
+This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total wait time for customers who are waiting in the queue (after their issue is escalated from a bot to a human agent) by the total number of customers who were served. Average speed to answer reflects the efficiency and availability of the agents. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
 
 If a bot or IVR handles the customer before it escalates the issue to a human agent, the calculation is based on the time between the point when the bot or IVR escalates the incoming conversation to a human agent and the point when the agent accepts the conversation.
 
@@ -195,7 +195,7 @@ For information about metrics that are related to how quickly an agent accepts a
 
 This metric is a measure of the time that human agents spend actively helping customers and resolving their issues. If multiple agents handle a conversation, the time that all the agents spend is aggregated. This metric also includes time that agents spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other agents spend consulting with agents who are assigned to work on customer conversations.
 
-An agent is considered actively working on a conversation if they have the conversation open in the Customer Service workspace app. If an agent is handling multiple conversations, including conversations that they are currently wrapping up, only the time that the agent spends on the conversation on an open tab is counted toward that conversation's handle time.
+An agent is considered actively working on a conversation if they have the conversation open in the Customer Service workspace app. If an agent is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the agent spends on the conversation on an open tab counts toward that conversation's handle time.
 
 A long average handle time might indicate that agents are taking too long to resolve customer issues, and that they need more training or support to help them work better. In addition, a long average handle time might suggest that customers aren't receiving the level of service or support that they need to resolve their issues. Therefore, it might lead to customer dissatisfaction.
 
@@ -261,7 +261,7 @@ This metric is a count of conversation requests from customers that have had age
 
 ### Active conversations with agent acceptance
 
-This metric is a count of conversations where an agent has been assigned and is actively in contact with the customer. Supervisors can monitor these conversations, track sentiment to ensure customer satisfaction, and intervene as needed.
+This metric is a count of conversations where an agent is assigned and is actively in contact with the customer. Supervisors can monitor these conversations, track sentiment to ensure customer satisfaction, and intervene as needed.
 
 ### Waiting conversations
 
@@ -277,7 +277,7 @@ This metric is a measure of the total number of customer conversations. For more
 
 ### Incoming conversation
 
-This metric is a measure of the total number of conversation requests that were initiated by customers across all channels and received by the contact center. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a measure of the total number of conversation requests that customers initiated across all channels and received by the contact center. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
 ### Sentiment
 
@@ -297,13 +297,13 @@ This metric is a measure of the current sentiment of the customer. It's powered 
 
 ### Is handled by external participant (session)
 
-A customer request might be handled by multiple agents, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that agents outside Dynamics 365 Customer Service handled. It indicates the sessions that were assigned to and handled by external agents only.
+Multiple agents might handle a customer request, including a combination of internal contact center agents and external agents. For example, your contact center can engage external agents through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that agents outside Dynamics 365 Customer Service handled. It indicates the sessions that were assigned to and handled by external agents only.
 
 For information about metrics that are related to consultations with external agents, go to the [Is handled by external participant (session)](#is-handled-by-external-participant-session) section.
 
 ### Session transfer rate
 
-This metric is a measure of the rate at which agents transfer work that is assigned to them, or the rate at which supervisors transfer work in the queue that they monitor from one agent to another or to another queue. It's calculated by dividing the total number of sessions that were transferred by the total number of sessions that were handled.
+This metric is a measure of the rate at which agents transfer work that is assigned to them, or the rate at which supervisors transfer work in the queue that they monitor from one agent to another or to another queue. It's calculated by dividing the total number of transferred sessions by the total number of handled sessions.
 
 #### Related metrics
 
@@ -312,7 +312,7 @@ This metric is a measure of the rate at which agents transfer work that is assig
 
 ### Session rejection rate
 
-This metric is a measure of the rate at which agents reject work that is assigned to them. It's calculated by dividing the total number of sessions that agents rejected by the total number of sessions that were assigned to them.
+This metric is a measure of the rate at which agents reject work that is assigned to them. It's calculated by dividing the total number of sessions that agents rejected by the total number of sessions assigned to them.
 
 #### Related metrics
 
@@ -374,7 +374,7 @@ The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
 ### Average agent response time
 
-Agent response time is a measure of the average time that customers who have sent a message must wait to get a response from a human agent. The time is adjusted based on operating hours. Average agent response time is calculated by dividing the total response time by the number of exchanges between customers and agents across all engaged conversations. A longer response time indicates that more time passes between messages as customers wait for an agent to respond and provide updates. A longer response time negatively affects the customer experience.
+Agent response time is a measure of the average time that customers who sent a message must wait to get a response from a human agent. The time is adjusted based on operating hours. Average agent response time is calculated by dividing the total response time by the number of exchanges between customers and agents across all engaged conversations. A longer response time indicates that more time passes between messages as customers wait for an agent to respond and provide updates. A longer response time negatively affects the customer experience.
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
