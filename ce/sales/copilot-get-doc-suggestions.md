@@ -23,7 +23,7 @@ Copilot can recommend documents related to the products and accounts in your sal
 
 > [!NOTE]
 >- If your admin has [configured Copilot to use specific SharePoint folders](copilot-sharepoint-config.md), Copilot searches for documents only in those folders. If not, Copilot searches all the SharePoint folders that you have access to.
->- To get answers from knowledge sources other than SharePoint, your admin must [configure other knowledge sources for Copilot](copilot-sharepoint-config.md).
+>- To get answers from knowledge sources other than SharePoint, your admin must configure other knowledge sources for Copilot. Learn more in [placeholder]().
 
 ## Prerequisites
 

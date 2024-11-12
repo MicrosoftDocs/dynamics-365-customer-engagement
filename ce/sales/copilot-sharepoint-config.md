@@ -18,7 +18,7 @@ Sales organizations often store documents that are related to products and sales
 
 The results that Copilot returns are based on the permissions that users have in SharePoint. If a user doesn't have access to a SharePoint folder, Copilot doesn't show results from that location.
 
-To configure knowledge sources other than SharePoint, see [Configure knowledge sources for Copilot]().
+To configure knowledge sources other than SharePoint, see [Placeholder]().
 
 ## Prerequisite
 

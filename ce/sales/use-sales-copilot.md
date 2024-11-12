@@ -96,7 +96,7 @@ For more such questions, see [Questions about sales data](faqs-sales-copilot-nat
   - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
   
-For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology, reach out to your Dynamics 365 admin to [add those terms to the glossary]. The glossary helps Copilot understand the context of your questions better.
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology, reach out to your Dynamics 365 admin to add those terms to the glossary. The glossary helps Copilot understand the context of your questions better. Learn more in [placeholder].
 
 These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
