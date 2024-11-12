@@ -1,7 +1,7 @@
 ---
 title: Install and configure Connected Field Service for Azure IoT Hub
 description: Learn how to install and configure Dynamics 365 Connected Field Service for Azure IoT Hub.
-ms.date: 05/08/2023
+ms.date: 10/31/2024
 ms.subservice: connected-field-service
 ms.topic: how-to
 ms.author: vhorvath
@@ -21,7 +21,7 @@ Follow the steps in this article to set up Connected Field Service for use with 
 - [Step 6: Start the Azure Stream Analytics jobs](#start-the-azure-stream-analytics-jobs)
 
 > [!IMPORTANT]
-> The device readings chart relies on Azure Time Series Insights, which was initially planned for retirement in March 2025. However, the service will now be retired on July 7, 2024, and the chart will no longer be available after this date. Learn more: [Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer).
+> The device readings chart is no longer available. It relied on Azure Time Series Insights, which was retired on July 7, 2024. Learn more: [Migrate from Time Series Insights](/azure/time-series-insights/migration-to-fabric).
 
 ## Prerequisites
 
@@ -30,8 +30,6 @@ Follow the steps in this article to set up Connected Field Service for use with 
 - You have the System Administrator and IoT Administrator security roles.
 
 - You have an active [Azure subscription](cfs-azure-subscription.md) with privileges to create resources and services.
-
-- You have [created an app registration](/azure/active-directory/develop/quickstart-register-app) for Azure Time Series Insights in the Azure portal and have the Application (client) ID and the Object ID. [Add a Client Secret](/azure/active-directory/develop/quickstart-register-app#add-a-client-secret) and record the value. You need these values multiple times in this procedure.
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 
@@ -78,7 +76,7 @@ Make sure the deployment is complete before you proceed.
 
 1. Select **Save**.
 
-You now need to update the settings for the new provider instance.
+Update the settings for the new provider instance.
 
 1. In the **Settings** area, select **IoT Settings** > **IoT Provider Settings**.
 
@@ -108,7 +106,7 @@ For this step, you need to know the hostname for the [Service Bus Namespace](/az
 
     If you have access to multiple Dynamics 365 organizations, select the name of the org you want to work with.
 
-Now you need to update the IoT Message service endpoint.
+Update the IoT Message service endpoint.
 
 1. After you're connected to the organization, find and select the **IoT Message** Service Endpoint.
 
@@ -142,7 +140,7 @@ Now you need to update the IoT Message service endpoint.
 
 1. Sign in with the Dynamics 365 credentials that you use to sign in to your Connected Field Service environment.
 
-    They may be different from the credentials you use to sign in to the Azure portal.
+    They might be different from the credentials you use to sign in to the Azure portal.
 
 1. Select **Save**.
 
@@ -176,7 +174,7 @@ To use the rule, upload the `devicerules.json` file. You must reproduce the exac
 
 1. Select each Stream Analytics job and from the **Overview** tab, select **Start**.
 
-Congratulations! You're now ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
+You're ready to pass data between Azure IoT Hub and Dynamics 365 to use Connected Field Service.
 
 ## Next steps
 

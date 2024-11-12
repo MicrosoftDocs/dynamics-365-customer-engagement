@@ -1,7 +1,7 @@
 ---
 title: Location auditing for the mobile app
 description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
-ms.date: 08/28/2024
+ms.date: 10/25/2024
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -14,7 +14,7 @@ Field technicians often travel to various locations throughout their workday, an
 
 Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board and see their location history.
 
-For a guided walkthrough, check out the following video.
+For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer the the written documentation for accurate feature descriptions and requirements.
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mZ]
 
@@ -50,7 +50,7 @@ You can configure how far back in time a geolocation is valid. This is important
 
 ## Ask users to allow Field Service mobile to access their location
 
-The app prompts users to allow location access after signing in to the app. The app requests several permissions that are needed to update the location consistently. Revoking the listed permissions can decrease performance or lead to outdated location information.
+The app prompts users to allow location access after signing in to the app. The app requests permissions for precise location that are required to update the location consistently. Revoking the listed permissions or not allowing them in the first place will keep the location tracking disabled. To change the permissions retroactively, open the app permissions settings on your mobile device and allow the permissions listed below.
 
 ## [iOS app](#tab/iOS)
 
@@ -63,8 +63,6 @@ To have location tracking work properly, complete all the following steps when p
 1. In the Field Service mobile app, select **Start location tracking** or **Update settings**.
 1. Select **Precise Location** and then **Allow all the time** to ensure the app uses the accurate location.
 1. Set **Battery optimization** to **Don't optimize** to allow the Field Service app to update the location consistently.
-1. Allow the Field Service app to set **Alarms and reminders**. The app uses this permission to ensure it only tracks the location during specified work hours, which are [defined in the bookable resource record](../set-up-bookable-resources.md#add-work-hours).
-1. Allow access to your **Physical activity** information. This setting helps optimize battery life by reducing the number of location updates while not moving.
 
 ## [Windows app](#tab/Windows)
 
