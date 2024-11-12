@@ -56,3 +56,8 @@ You can enable the Copilot features for custom apps in your organization. Perfor
 ### Next steps
 
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)
+
+## Related information
+
+[How do I add Copilot to custom apps? ](https://youtu.be/uaM0oapTGd4)
+[How do I add Copilot case summaries to a custom form](https://youtu.be/wuC_kujfCI8)
