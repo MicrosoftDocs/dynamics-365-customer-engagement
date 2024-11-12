@@ -103,7 +103,7 @@ Copilot enforces the role-based access (RBAC) controls defined and adheres to al
 
 ## How does Copilot determine whether content is offensive or harmful?
 
-opilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. You can learn more at [Harm categories in Azure AI Content Safety](azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
+Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. You can learn more at [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 
