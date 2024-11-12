@@ -27,6 +27,9 @@ For information about older versions, see [Version history archive](../../field-
 **Resource Scheduling Controls:** 1.2.83.243052
 
 **Dataverse:** 4.0.134.84
+- The framework underlying the schedule board has been updated, which brings reduces load times by up to 68%, and adds top requested usability improvements such as Days of the week, Day line and the ability to reorder tabs per user. For more information, refer to The next chapter for the Schedule Board: Enhanced Usability and Performance  - Microsoft Dynamics 365 Blog
+        *Note: The updated schedule board is not available to RSO due to underlying limitations, therefore customers with orgs running RSO can continue using the existing Schedule board until further notice.
+        **Note: unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. 
 
 ## 3.12.143.46
 
@@ -67,7 +70,9 @@ For information about older versions, see [Version history archive](../../field-
 - Turning on focus mode no longer maximizes the browser.
 - Fixed a bug that was causing the schedule Assistant to ignore fulfillment preferences on the initial load.
 - Fixed a bug that was impacting time labels on Specify Pattern when changing time zones.
-- Schedule Assistant is now using Bryntum in production environments.
+- Schedule Assistant is now using the updated schedule board. The framework underlying the schedule board has been updated, which brings reduces load times by up to 68%, and adds top requested usability improvements such as Days of the week, Day line and the ability to reorder tabs per user. For more information, refer to The next chapter for the Schedule Board: Enhanced Usability and Performance  - Microsoft Dynamics 365 Blog
+        *Note: The updated react schedule board is not available to RSO due to underlying limitations, therefore customers with orgs running RSO can continue using the existing Schedule board until further notice.
+        **Note: unsupported customizations to the schedule board, such as DOM manipulations, may be impacted or stop working. 
 
 
 ## 3.12.140.11
