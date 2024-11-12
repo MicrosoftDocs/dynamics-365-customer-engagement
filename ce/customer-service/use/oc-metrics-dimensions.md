@@ -123,13 +123,13 @@ This dimension represents the name of the channel.
 
 ### Consult
 
-This metric represents the agent participation **consult** mode. The related metrics aren't available by defualt. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
+This metric represents the agent participation **consult** mode. The related metrics aren't available by default. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
 #### Related metrics
 
 - **Average consult time**: The average time agents spend helping other agents on consult requests. It's calculated by dividing the total time spent by agents on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
-- **Consult acceptance rate**: The rate at which agents accept consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
+- **Consult acceptance rate**: Total number of sessions that were accepted by agent over all the sessions requested for consult from the agent.
 
 - **Consult not acceptance rate**: Total number of sessions that didn't have acceptance divided by all the sessions requested for consult for the agent. 
 
@@ -137,7 +137,7 @@ This metric represents the agent participation **consult** mode. The related met
 
 - **Consults requested**: The total number of consult requests sent to agents.
 
-- **Consult requests accepted**: The total number of consult requests accepted by the agents.
+- **Consult requests accepted**: Total number of sessions that were requested for consultation and accepted by agent.
 
 - **Consult requests not accepted**: The total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
 
