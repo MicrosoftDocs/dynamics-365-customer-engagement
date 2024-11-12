@@ -127,17 +127,29 @@ This metric represents the average time agents spend helping other agents on con
 
 #### Related metrics
 
-- **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats.
-
-### Consult requests accepted
-
-This metric represents the total number of consult requests  accepted by the agents.
-
-#### Related metrics
-
 - **Consult acceptance rate**: The rate at which agents accept consult requests. It's calculated by dividing the total number of consult requests that were accepted by the total number of agents.
+
+- **Consult not acceptance rate**: Total number of sessions that dint have acceptance divided by all the sessions requested for consult for the agent 
+
+- **Consult rejection rate**: Total number of sessions rejected by agents over all sessions assigned to them for consult.
+
 - **Consults requested**: The total number of consult requests sent to agents.
-- **Consult requested not accepted**: The total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
+
+- **Consult requests accepted**: This metric represents the total number of consult requests  accepted by the agents.
+
+- **Consult requests not accepted**: The total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
+
+- **Consult requests rejected**: Total number of sessions that were requested for consult but were rejected by the agent 
+
+- **Consult requests timed out**: Total number of sessions that were requested for consult from the agent but the agent failed to respond that resulted in a timeout.
+
+- **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for real-time out-of-the-box dashboard.
+
+- **Consult timed out rate**: Total number of sessions that resulted in timeout over all the sessions requested for consult from the agent 
+
+
+
+
 
 ### Conversation first wait time
 
