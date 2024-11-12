@@ -131,19 +131,19 @@ This metric represents the agent participation **consult** mode. The related met
 
 - **Consult acceptance rate**: Total number of sessions that were accepted by agent over all the sessions requested for consult from the agent.
 
-- **Consult not acceptance rate**: Total number of sessions that didn't have acceptance divided by all the sessions requested for consult for the agent. 
+- **Consult not acceptance rate**: Total number of sessions that didn't have acceptance by agent over all the sessions requested for consult from the agent. This includes timed out and rejected requests.  
 
-- **Consult rejection rate**: Total number of sessions rejected by agents over all sessions assigned to them for consult.
+- **Consult rejection rate**: Total number of sessions that were rejected by agent over all the sessions requested for consult from the agent.
 
-- **Consults requested**: The total number of consult requests sent to agents.
+- **Consults requested**: Total number of sessions that were requested for consultation.
 
 - **Consult requests accepted**: Total number of sessions that were requested for consultation and accepted by agent.
 
-- **Consult requests not accepted**: The total number of consult requests that weren't accepted by the agents. This includes rejected and timed-out requests.
+- **Consult requests not accepted**: Total number of sessions that were requested for consultation and had no acceptance from agent.
 
-- **Consult requests rejected**: The total number of sessions that were requested for consult but were rejected by the agent. 
+- **Consult requests rejected**: Total number of sessions that were requested for consult but were rejected by the agent. 
 
-- **Consult requests timed out**: The total number of sessions that were requested for consult from the agent but resulted in a timeout as the agent failed to respond.
+- **Consult requests timed out**: Total number of sessions that were requested for consult from the agent but resulted in a timeout as the agent failed to respond.
 
 - **Consult time**: The time taken by agents to help other agents on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for omnichannel real-time out-of-the-box dashboard.
 
