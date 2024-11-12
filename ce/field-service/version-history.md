@@ -35,7 +35,7 @@ For information about older versions, see [Version history archive](version-hist
 
 This release is a hotfix on Field Service version [8.8.129.173](/dynamics365/field-service/version-history#88129177)
 
-- Fixed an issue in the versioning of FS Copilot controls that was causing errors in work order summary generation.
+- Fixed an issue that was causing errors in work order summary generation.
 
 ## 8.8.129.173
 
