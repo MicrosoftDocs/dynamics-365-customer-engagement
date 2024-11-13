@@ -141,6 +141,8 @@ items:
       href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
+    - name: Create inspection templates with Copilot
+      href: inspections-copilot.md
     - name: Advanced inspection options
       href: inspections-advanced.md
     - name: Run reports on inspections
