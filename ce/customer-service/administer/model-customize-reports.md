@@ -151,7 +151,7 @@ The dropdown list is populated with the reports in the workspace configured on S
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
-You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-converations-in-customized-reports) on model customized reports.
+You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-conversations-in-customized-reports) on model customized reports.
 
 ## Enable automatic page refresh for reports
 

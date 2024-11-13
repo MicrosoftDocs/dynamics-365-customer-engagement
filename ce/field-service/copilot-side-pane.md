@@ -1,7 +1,7 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 06/07/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
