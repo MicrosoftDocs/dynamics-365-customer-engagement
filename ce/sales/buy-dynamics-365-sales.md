@@ -34,7 +34,7 @@ You can buy one of the following licenses depending on your organization's needs
 ## Buy Dynamics 365 Sales directly
 
 1. Open the [Dynamics 365 Sales pricing page](https://www.microsoft.com/dynamics-365/products/sales/pricing#pricing).
-   You can find the pricing details for each license, including Sales Professional, Sales Enterprise, Sales Premium, and Microsoft Relationship Sales.
+   You can find the pricing details for each license, including Sales Professional, Sales Enterprise, and Sales Premium.
 
 1. Select **Buy now** or **Contact us** to start the purchase process. Some licenses might require you to contact a Microsoft representative to complete the purchase.
 1. After you complete the purchase process, open the [Microsoft 365 admin center](https://admin.microsoft.com/) to assign the licenses to your users. [Learn more](/office365/admin/subscriptions-and-billing/assign-licenses-to-users).
