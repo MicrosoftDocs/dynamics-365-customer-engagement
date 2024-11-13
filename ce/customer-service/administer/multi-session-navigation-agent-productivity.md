@@ -28,7 +28,7 @@ To configure the multisession navigation feature within your Dynamics 365 Custom
 | Permission | A system administrator role or equivalent to modify the custom model driven app. |
 | Model-driven app | A customized model-driven app |
 
-Learn more about Customer Service workspace system requirements at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md)
+Learn more about Customer Service workspace system requirements at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
 
 > [!NOTE]
 > The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more about the Customer Service workspace at [Get started with Customer Service workspace](../implement/csw-overview.md)
