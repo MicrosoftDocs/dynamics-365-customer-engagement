@@ -53,3 +53,8 @@ Perform the following steps to enable the multisession navigation feature in the
 5. A popup screen appears. Review the custom support app information and select **Confirm**.
 
 You can now go to your custom model-driven app and validate the features.
+
+### Related information
+
+([Build your first model-driven app](https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/build-first-model-driven-app))
+
