@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 11/08/2024
+ms.date: 11/22/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,9 +18,6 @@ ms.custom:
 Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, capacity, and personal or organizational attributes.
 
 This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability). You can also [set their availability yourself](./wa-manage-seller-availability.md#set-your-sellers-availability-yourself).
-
-> [!NOTE]
-> Seller capacity is calculated based on configured rules for leads and opportunities. When a rule is configured for only one entity type (lead or opportunity), the application considers capacity only for that entity for the seller. However, when rules are configured for both lead and opportunity, the application considers capacity for both entity types for the seller. This ensures that seller capacity aligns with the specific types of records each seller manages, based on their active configurations.
 
 ## License and role requirements
 
@@ -101,6 +98,8 @@ You can assign attributes and capacity to sellers one at a time or in groups.
 1. (Optional) If the list of sellers is long, [use filters to focus on the ones you want](#shortlist-sellers-using-search-and-advanced-filters).  
 1. Continue to set attributes and capacity for [individual sellers](#set-attributes-and-capacity-for-individual-sellers) or for [groups of sellers](#set-attributes-and-capacity-for-groups-of-sellers).
 
+To understand how seller capacity is calculated while assigning records, see [How seller capacity is calculated](wa-create-and-activate-assignment-rule.md#how-seller-capacity-is-calculated).
+
 ### Set attributes and capacity for individual sellers
 
 1. Select the seller's name in the **Sellers for assignment** list.  
@@ -155,6 +154,10 @@ Your filters last only as long as you're signed in to Sales Hub. You can't save 
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
     [Learn more about creating filters with grouped and nested conditions](/powerapps/maker/model-driven-apps/create-edit-view-filters).  
 1. After you define all the filter criteria, select **Apply**.
+
+## Set seller availability
+
+You can configure your sellers' work hours through the CRM calendar. For more information, see [Set work hours in work assignment settings](wa-manage-seller-availability.md#set-work-hours-in-work-assignment-settings).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
