@@ -30,7 +30,7 @@ For all the other orgs, an admin must provide consent in the Power Platform admi
 
 > [!IMPORTANT]
 >- If you had previously turned Copilot off, it remains turned off. 
->- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#which-applications-are-in-the-exclusion-list-for-copilot-in-dynamics-365-sales).
+>- Throughout this article, the term sales apps refers to apps that have lead and opportunity tables and are not part of the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used)
 
 ## License and role requirements
 
@@ -44,7 +44,9 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 ## Prerequisites
 
 - Verify whether your org is in a region where Copilot in Dynamics 365 Sales is available. For a list of regions where Copilot is available, see the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
-- Verify whether your region has an Azure OpenAI Service endpoint. If not, you must provide consent for data movement across regions to use Copilot in Dynamics 365 Sales. [Learn more about data movement and regions involved with copilots](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
+- Verify whether your [region has an Azure OpenAI Service endpoint](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). If not, you must provide the following [consent in the Power Platform admin center](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features):
+  - Consent for data movement across regions to use Copilot in Dynamics 365 Sales.  
+  - Consent for Copilot to use Bing search so that your sellers can get the latest news about their accounts.
 
 ## Turn Copilot features on or off in Sales Hub
 

@@ -19,6 +19,9 @@ applies_to:
 
 # Install Dynamics 365 Connector for LinkedIn Lead Gen Forms
 
+> [!NOTE]
+> LinkedIn lead generation capabilities will be removed on December 2, 2024. 
+
 To enable the synchronization of lead data from [!include[LinkedIn](../../includes/pn-linkedin.md)] to Dynamics 365 apps, a system administrator needs to install the connector from [Microsoft AppSource](https://go.microsoft.com/fwlink/p/?linkid=850928).
 
 > [!IMPORTANT]
