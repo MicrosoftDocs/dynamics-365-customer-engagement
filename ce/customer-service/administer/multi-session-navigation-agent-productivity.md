@@ -27,3 +27,29 @@ To configure the multisession navigation feature within your Dynamics 365 Custom
 | Hardware | <ul><li>RAM: A minimum of 4 GB</li><li>Latency: Not more than 150 milliseconds</li><li>Throughput: A minimum of 4 Mbps</li></ul> |
 | Permission | A system administrator role or equivalent to modify the custom model driven app. |
 | Model-driven app | A customized model-driven app |
+
+Learn more about Customer Service workspace system requirements at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md)
+
+> [!NOTE]
+> The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more about the Customer Service workspace at [Get started with Customer Service workspace](../implement/csw-overview.md)
+
+## Enable multisession navigation
+
+Perform the following steps to enable the multisession navigation feature in the Customer Service workspace.
+
+1. In the site map of Customer Service admin center, go to **Workspaces**. 
+
+2. Select **Manage** in **Productivity settings for model-driven apps**.
+
+3. Select the custom model-driven app you want to use and select **Edit**.
+
+:::image type="content" source="../media/custom-model-driven-app.png" alt-text="Select your custom model-driven app in Workspaces":::
+
+> [!NOTE]
+> A model driven app with the lock icon indicates that it is part of a managed solution and cannot be edited.
+
+4. Select both **Productivity tools** and **Multisession navigation** features, and then select **Save**.
+
+5. A popup screen appears. Review the custom support app information and select **Confirm**.
+
+You can now go to your custom model-driven app and validate the features.
