@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # Add Power Apps components to Case Management forms
 
-You can use a collection of Power Apps components to customize your case management forms and you can add the additional functionalities that the agents can use when handling cases in the Customer Service workspace. Adding these additional components to the case forms enhances the agents' productivity, by enabling them to work cases effectively, view and track open activities and keeping a track of the time spent on each case.
+You can use a collection of Power Apps components to customize your case management forms and you can add additional functionalities that the agents can use when handling cases in the Customer Service workspace. Adding additional components to the case forms helps the agents to view and track open activities, and keep a track of the time spent on each case. This enhances agent productivity by enabling them to work cases effectively.
 
-To view and use the default components available on the enhanced full case form, such as the [Associated Grid Control](add-associated-grid-control.md) and the [Attachment Control](add-attachment-control.md), see [Enable enhanced case forms for multisession apps](case-enh-config.md). 
+You can use default components, such as the **Associated Grid Control** and the **Attachment Control**, available on the enhanced full case forms. Learn more about the default components at [Enable enhanced case forms for multisession apps](case-enh-config.md). 
 
 The following table shows Power Apps components, along with details, which are available for customizing your forms in the Customer Service workspace.
 
@@ -28,7 +28,7 @@ The following table shows Power Apps components, along with details, which are a
 |7 |**Modernized case grids** |Add this component on a case form for the agents to get quick access to case information, such as the last customer interaction, case age, and the next SLA breach. |Available for all entities. |Applicable. |[Enable case grids](enable-case-grids.md)|
 
 
-You can add these default components to other forms and customize them. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
+You can add the default components to other forms and customize them. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 
 ### Related information
