@@ -24,7 +24,7 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
 ## Set connection references for customer knowledge management agent flow
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
-1. Go to **Solutions** > **Default Solution** > **Objetcs** > **Connection References**.
+1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
 1. Search for the following connection references:
     - **Microsoft Dataverse CSKnowledgeHarvestV2**
     - **Microsoft Copilot Studio CSKnowledgeHarvestV2**
@@ -35,7 +35,7 @@ To create a new Dataverse connection:
 1. Select **Connections**, and search for **Dataverse**. 
 1. Select **Add** besides **Microsoft Dataverse**, and then select **Create**.
  
-To create a Microsoft Coilot Studio connection:
+To create a Microsoft Copilot Studio connection:
 1. Search for **Microsoft Copilot Studio** and then select **Microsoft Copilot Studio (preview)**.
 
 ### Turn on the Power Automate flow
