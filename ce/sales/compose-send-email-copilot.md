@@ -101,4 +101,4 @@ After you’ve generated the suggested content, you can refine the results furth
 ## Related information
 
 - [Copilot overview](copilot-overview.md)
-- [Emails with Copilot](https://youtu.be/Fen0_DfihCE)  
+- [Emails with Copilot (video)](https://youtu.be/Fen0_DfihCE)  

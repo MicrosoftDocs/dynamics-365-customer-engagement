@@ -49,4 +49,4 @@ For Copilot to automatically generate a conversation summary for a live conversa
 
 [Use Copilot to summarize cases and conversations](../use/copilot-use-summary.md)<br>
 [Enable features in Copilot pane](copilot-enable-help-pane.md)<br>
-[Enabling Copilot Case and Conversation Summaries](https://youtu.be/phWFS0UqHUQ)
+[Enabling Copilot Case and Conversation Summaries (video)](https://youtu.be/phWFS0UqHUQ)

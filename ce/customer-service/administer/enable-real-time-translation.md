@@ -53,6 +53,6 @@ If you're using **Azure Translation Services** as the translation provider, you 
 
 [Add a web resource for real-time translation](../develop/add-web-resource-real-time-translation.md)  
 [Real-time language translation of conversations for agents and customers](../use/oc-real-time-translation.md)  
-[How do I enable real-time chat translation?](https://youtu.be/PHWj7zfdUcc)
+[How do I enable real-time chat translation? (video)](https://youtu.be/PHWj7zfdUcc)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

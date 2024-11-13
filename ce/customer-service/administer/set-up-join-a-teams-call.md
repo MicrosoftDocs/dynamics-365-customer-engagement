@@ -49,4 +49,4 @@ If you want to complete the configuration for custom agent profiles, start with 
 [Configure Teams ](../use/oc-customer-summary.md) <br>
 [Use Join a Teams call](../use/join-a-teams-call.md) <br>
 [Configure Teams chat in Customer Service](configure-teams-chat.md) <br>
-[How do I allow agents to create a Teams call in a chat session](https://youtu.be/6Qymx9b0wyk)
+[How do I allow agents to create a Teams call in a chat session (video)](https://youtu.be/6Qymx9b0wyk)
