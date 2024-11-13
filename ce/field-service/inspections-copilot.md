@@ -1,11 +1,12 @@
 ---
 title: Create inspections with Copilot
 description: Learn how to create inspections from existing documents with Copilot in Dynamics 365 Field Service.
-ms.date: 10/14/2024
+ms.date: 11/14/2024
 ms.topic: how-to
-author: alvinv
-ms.author: alvinv
+author: alwinv
+ms.author: alwinv
 ms.custom: ignite-2024
+ms.collection: bap-ai-copilot
 ---
 
 # Create inspections with Copilot (preview)
@@ -26,7 +27,7 @@ Copilot converts the uploaded documents into draft inspection templates that can
 
 1. Choose if you want to **Create from images** or **Create from PDF**.
 
-[Screenshot](tbd.md)
+   :::image type="content" source="media/inspection-create-copilot.png" alt-text="Screenshot of the Create with Copilot option for Field Service inspections.":::
 
 1. Select the image or PDF file to upload. Copilot then converts this file to a draft inspection.
 
@@ -36,6 +37,6 @@ Copilot converts the uploaded documents into draft inspection templates that can
 
 Similar to manually created inspections, technicians can now complete the surveys when completing a job.
 
-## Responsible AI 
+## Responsible AI
 
-[Link](faqs-inspection-designer.md)
+For more information, see [FAQ about creating inspection templates with Copilot in Field Service (preview)](faqs-inspection-designer.md).

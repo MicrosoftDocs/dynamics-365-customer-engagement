@@ -3,8 +3,8 @@ title: FAQ about creating inspection templates with Copilot in Field Service (pr
 description: Get answers to common questions about the AI technology used to create inspection templates with Copilot, details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 ms.date: 11/13/2024
 ms.topic: how-to
-author: alvinv
-ms.author: alvinv
+author: alwinv
+ms.author: alwinv
 ms.custom: 
   - responsible-ai-faqs
   - ignite-2024
