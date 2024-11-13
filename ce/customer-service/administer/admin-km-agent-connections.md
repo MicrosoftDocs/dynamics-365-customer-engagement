@@ -1,22 +1,27 @@
 ---
 title: Configure Microsoft Copilot Studio and Dataverse connections (Preview)
-description: Learn how to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvest flow.
+description: Learn how to configure Microsoft Copilot Studio and Dataverse connections for the customer knowledge management agent flow.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/08/2024
+ms.date: 11/13/2024
 ms.custom: bap-template
 ---
 
 # Configure Microsoft Copilot Studio and Dataverse Connections (Preview)
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+[This article is prerelease documentation and is subject to change.]
 
-This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the knowledge harvesting flow. 
+This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the customer knowledge management agent flow. 
 
-## Set connection references for knowledge harvesting flow
+> [!IMPORTANT]
+>
+> - This is a preview feature.
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
+## Set connection references for customer knowledge management agent flow
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objetcs** > **Connection References**.
@@ -46,7 +51,7 @@ To create a Microsoft Coilot Studio connection:
 1. Search for and select **CSKnowledgeHarvestV2**.
 1. Select **Publish**.
 
-Once done, go to the Customer Service admin center and enable knowledge harvesting. Learn more in [Manage knowledge harvesting (Preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
+Once done, go to the Customer Service admin center and enable customer knowledge management agent. Learn more in [Manage customer knowledge management agent (Preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
  
 ## Related information
 
