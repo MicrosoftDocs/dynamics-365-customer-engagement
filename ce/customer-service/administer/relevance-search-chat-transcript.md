@@ -24,13 +24,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 1. Sign in to Dynamics 365.
 
-2. Select **Settings** > **Advanced Settings**. The **Power Platform Environment Settings** window appears.
-
-3. Under **Customization** in the left menu, select **Solutions**. The **Power Apps** window appears.
-
-4. Select **Settings** > **Advanced Settings**. The **Dynamics 365 Business Management** window appears.
-
-5. Select **Settings** > **Customizations** > **Customize the System**. The **Solution: Default Solution - Microsoft Dynamics 365** window appears.
+2. Select **Settings** > **Customizations** > **Customize the System**. The **Solution: Default Solution - Microsoft Dynamics 365** window appears.
 
 3. Under **Components**, select **Entities**.
 
