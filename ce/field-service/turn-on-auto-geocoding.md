@@ -3,7 +3,7 @@ title: Enable automatic address geocoding
 description: Learn how to enable auto geocoding to generate coordinates for addresses in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 05/23/2024
+ms.date: 11/04/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -23,7 +23,7 @@ To use geocoding or location services, you need to enable on maps. For more info
   
 1. Open the **Field Service** app.
 
-1. Change to the **Settings** area and go to **Administration**, and then choose **Field Service Settings**.  
+1. Change to the **Settings** area and then choose **Field Service Settings**.  
   
 1. In **Other** tab, set **Auto Geo Code Addresses** to **Yes**.  
 

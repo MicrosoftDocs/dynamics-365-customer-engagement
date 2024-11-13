@@ -1,7 +1,7 @@
 ---
 title: Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: Learn how to set up the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 03/18/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 author: KishorIoT
 ms.author: nandab
