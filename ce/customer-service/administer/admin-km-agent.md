@@ -10,7 +10,7 @@ ms.date: 11/08/2024
 ms.custom: bap-template
 ---
 
-# Manage customer knowledge management agent (Preview)
+# Manage customer knowledge management agent (preview)
 
 [This article is prerelease documentation and is subject to change.]
 

@@ -10,7 +10,7 @@ ms.date: 11/13/2024
 ms.custom: bap-template
 ---
 
-# Configure Microsoft Copilot Studio and Dataverse Connections (Preview)
+# Configure Microsoft Copilot Studio and Dataverse connections (preview)
 
 [This article is prerelease documentation and is subject to change.]
 
