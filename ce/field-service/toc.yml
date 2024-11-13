@@ -622,6 +622,8 @@ items:
       href: faqs-work-order-update.md
     - name: FAQ about Field Service Plugin for Microsoft Copilot
       href: faqs-m365-chat.md
+    - name: FAQ about inspection templates with Copilot
+      href: faqs-inspection-designer.md
 
 - name: More resources
   items:
