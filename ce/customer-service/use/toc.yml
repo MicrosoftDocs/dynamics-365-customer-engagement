@@ -346,7 +346,7 @@
             href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
-        - name: Use knowledge insights for customer knowledge management agent
+        - name: Use knowledge insights for customer knowledge management agent (preview)
           href: admin-km-agent-insights.md
         - name: Use Copilot analytics
           href: copilot-analytics-report.md

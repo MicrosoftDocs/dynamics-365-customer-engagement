@@ -340,11 +340,11 @@
         href: /power-platform/admin/create-templates-articles
       - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
         href: integrate-KM-with-PVA.md
-      - name: Manage knowledge harvesting (Preview)
+      - name: Manage knowledge harvesting (preview)
         items:
-        - name: Configure Microsoft Copilot Studio and Dataverse Connections (Preview)
+        - name: Configure Microsoft Copilot Studio and Dataverse Connections (preview)
           href: admin-km-agent-connections.md
-        - name: Enable knowledge harvesting with customer knowledge management agent (Preview)
+        - name: Enable customer knowledge management agent (preview)
           href: admin-km-agent.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
