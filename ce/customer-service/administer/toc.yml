@@ -399,7 +399,7 @@
         - name: Disconnect from Azure Communication Services
           href: voice-channel-disconnect-from-acs.md
       - name: Migrate workstreams to support voice-enabled Copilots
-        href: migrate-voice-workstream.md    
+        href: migrate-voice-workstream.md
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
@@ -409,19 +409,9 @@
       - name: Enable agents to search for contacts and open records from outbound dialer 
         href: add-outbound-dialer-settings.md  
       - name: Use Azure Virtual Desktop to access voice channel
-        href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml       
+        href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
-      - name: Integrate Nuance Gatekeeper (preview)
-        items:
-        - name: Overview of Nuance Gatekeeper Integration
-          href: nuance-gatekeeper-introduction.md
-        - name: Configure contact center for Nuance Gatekeeper
-          href: configure-contact-center-nuance-gatekeeper.md
-        - name: Add authentication setting for Nuance Gatekeeper
-          href: configure-gatekeeper-authentication.md
-        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
-          href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls

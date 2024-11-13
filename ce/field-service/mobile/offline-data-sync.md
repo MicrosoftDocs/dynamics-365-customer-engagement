@@ -1,7 +1,7 @@
 ---
 title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
-ms.date: 09/13/2024
+ms.date: 11/04/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -68,6 +68,14 @@ If the app detects a weak or no network connection, the message "Network or Serv
 
 - The app boots into offline mode before it detects the network's availability.
 - The app's network check gets no response or the response takes too long.
+
+## Analyze telemetry for offline synchronization
+
+Data related to offline synchronization events can be used to evaluate the health and performance of the offline sync.
+
+You can set up an [Application Insights](/azure/azure-monitor/app/app-insights-overview) environment to receive telemetry on diagnostics and performance. You can enable or disable the telemetry feed at any time.
+
+For detailed information about the data you can get, see [Telemetry events for mobile app synchronization and actions](/power-platform/admin/telemetry-events-mobile).
 
 ## Data removal from the mobile device
 
