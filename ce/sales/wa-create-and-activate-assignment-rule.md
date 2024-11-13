@@ -129,8 +129,10 @@ Assignment rules run in the order they're listed. By default, they're listed in 
 ## How seller capacity is calculated
 
 The available capacity of a seller is calculated by subtracting the consumed capacity (total number of active records assigned) from the maximum capacity (total number of records that can be assigned). The consumed capacity is based on the total number of active records owned, as determined by the assignment rules configured for the entity (leads, opportunities, or insights). For example, if assignment rules apply only to leads, the user’s consumed capacity will be calculated solely from active lead records owned.  
-The available capacity is calculated as follows:
+
+The available capacity is calculated as follows:  
 *Available capacity* = *Maximum capacity* - *Consumed capacity*  
+
 For example, Alex has a maximum capacity of 50 records, and has already consumed 30 records. The available capacity for Alex is 20 records.  
 
 ## Consideration
