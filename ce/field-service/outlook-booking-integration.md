@@ -1,5 +1,5 @@
 ---
-title: Integrate bookings with Outlook calendars
+title: Integrate bookings with Outlook calendars (preview)
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
 ms.date: 11/14/2024
 ms.topic: how-to
@@ -7,9 +7,13 @@ author: jshotts
 ms.author: jasonshotts
 ---
 
-# Integrate bookings with Outlook calendars
+# Integrate bookings with Outlook calendars (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
 
 Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created in Field Service synchronize with the worker’s mailbox, so they show up as appointments in Outlook. Synchronization occurs every 15 minutes.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 The synchronization of bookings into Outlook works only one way. Appointments set up in Outlook don't appear in Field Service.
 
