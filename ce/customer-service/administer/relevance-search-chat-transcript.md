@@ -43,7 +43,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 1. In your Dynamics 365 instance, go to the **Published Apps** page.
 
-2. Select an app, and then select the ellipsis (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
+2. Select an app, select the ellipsis (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** page opens in a new browser tab.
 
 3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 
