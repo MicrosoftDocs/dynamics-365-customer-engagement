@@ -3,7 +3,7 @@ title: "Common issues and resolutions for Dynamics 365 for phones and tablets | 
 ms.custom:
 description: Troubleshoot and issues to know about Dynamics 365 for phones and tablets.
 ms.date: 04/20/2023
-ms.reviewer:
+ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
@@ -11,8 +11,8 @@ ms.topic: error-reference
 applies_to: Dynamics 365 apps
 ms.assetid: 55e7ba52-2f18-4eaf-8281-70cd639887f8
 caps.latest.revision: 33
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer

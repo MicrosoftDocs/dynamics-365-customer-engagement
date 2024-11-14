@@ -96,7 +96,7 @@ https://CRMServer_Name/Org_Name/cs/dialog/rundialog.aspx?DialogId=DialogID&Entit
 
 - _EntityObjectId_ is the GUID of the primary entity record.  
   A sample URL to start a dialog:  
-  `https://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=41D1884E-B4B6-DF11-BF5E-00155DB05986`  
+  `https://crmserver/AdventureWorksCycle/cs/dialog/rundialog.aspx?DialogId=9F53D2D8-AC54-46A6-A190-F23DE6677C65&EntityName=contact&ObjectId=aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb`  
      
 
 ### See also

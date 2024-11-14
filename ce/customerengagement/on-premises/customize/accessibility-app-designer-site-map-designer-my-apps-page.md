@@ -101,7 +101,7 @@ App designer and site map designer
 
 -   [Safari accessibility features](https://www.apple.com/accessibility/)  
 
--   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
+-   [Google Chrome accessibility technical documentation](https://www.chromium.org/developers/design-documents/accessibility/)
 
 ## See also
 

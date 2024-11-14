@@ -23,7 +23,6 @@ Ensure that the following prerequisites are met:
 - Unified routing is enabled. More information: [Provision unified routing](provision-unified-routing.md)
 - Acquire a phone number. See: [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
-
 ## Set up a voice workstream
 
 > [!IMPORTANT]
@@ -127,6 +126,9 @@ You see the following transfer and consult options:
      - Customers can send DTMF inputs to external numbers. 
      - The recording and transcription is stopped.
      - Post conversation call survey isn't sent to the customer.
+
+> [!NOTE]
+> If you are a Direct Routing customer, when the **Use bridged transfers** checkbox isn't selected you need to configure your Session Border Controller to accept a "REFER-TO: sip.pstnhub.microsoft.com", and convert it to an INVITE that's sent back to sip.pstnhub.microsoft.com for the transfer to complete. Learn more at [Call Transfer](/azure/communication-services/concepts/telephony/direct-routing-sip-specification#call-transfer).
    
 ### [Existing voice](#tab/existingvoice)
 

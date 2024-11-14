@@ -1,6 +1,6 @@
 ---
 title: Create message templates
-description: Learn how to create message templates in Omnichannel for Customer Service.
+description: Learn how to create message templates for reusable messages in Omnichannel for Customer Service.
 ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
@@ -30,7 +30,7 @@ Message templates enable the one-time creation of reusable messages that can be 
     - **Default language:** Select a language.
     - **Default text:** Enter the default text for the message.
 
-1. Select **Save**. After saving the template, the **Message template** panel appears.
+1. Select **Save**. After you save the template, the **Message template** panel appears.
 
 1. Select **New message** and create a message using localized text in each language that you want to support.
 
@@ -42,11 +42,11 @@ Message templates enable the one-time creation of reusable messages that can be 
     | Slug | Description |
     |-----------------|-----------------------------|
     | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
-    | {LastName{Customer}}| The last name of the customer.|
+    | {LastName{Customer}}| The family name of the customer.|
     | {NickName{Customer}}| The nickname for the customer.|
     | {FullName{Agent}}| The full name of the agent who is assigned to the conversation.|
     | {FirstName{Agent}}| The first name of the agent.|
-    | {LastName{Agent}}| The last name of the agent.|
+    | {LastName{Agent}}| The family name of the agent.|
     | {Nickname{Agent}}| The nickname for the agent.|
 
       For more information, see [Slugs](automation-dictionary-keys.md#slugs).
@@ -56,7 +56,6 @@ Message templates enable the one-time creation of reusable messages that can be 
 ## Related information
 
 [Configure outbound messaging](outbound-messaging.md) <br />
-[Configure an SMS channel for TeleSign](configure-sms-channel.md) <br />
 [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md) <br />
 [Configure a WhatsApp a channel through Twilio](configure-whatsapp-channel.md) 
 

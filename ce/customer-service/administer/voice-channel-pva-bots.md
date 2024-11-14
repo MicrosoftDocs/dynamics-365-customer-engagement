@@ -46,13 +46,55 @@ You can then specify how the bot should handle failure conditions and set up the
 
 In the voice channel, you can configure the following features for the IVR bots:
 
-- Specify how the bot should handle calls when the customer can't reach the bot or when there's a system failure during an IVR conversation. Learn more in [Handle bot connectivity issues](bot-connectivity-issues.md).
-- Set up your IVR bot to [handle multiple languages](configure-multilingual-agents.md).
+   > [!NOTE]
+   > Bots that you create in Contact Center admin center or Customer Service admin center work with enhanced voice workstreams only. Classic bots aren't supported in the enhanced voice experience. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
 
 ## Automatically end conversations
 
 For a voice conversation, the bot supports a maximum call duration of an hour. The call is disconnected if it isn’t closed or escalated to an external phone number. This limit isn’t applicable once the call is transferred to an external phone number.
 
+   :::image type="content" source="../media/bot-in-workstream.png" alt-text="Sample bot details.":::
+
+More information:
+
+- [Author template topics in Copilot Studio](/power-virtual-agents/authoring-template-topics)
+
+
+### Configure handoff from Copilot Studio to contact center
+
+1. In Copilot Studio, open the bot that you've configured to integrate with Dynamics 365.
+
+1. Go to **Manage** and select **Agent transfers**.
+
+1. In the **Agent transfers** section, select **Omnichannel**, and on the Omnichannel panel that appears, do the following:
+
+   1. Select **Enable**. One of the following messages appears:
+   
+     - That Omnichannel is enabled is displayed at the top of the page.
+     - If you're using Application Lifecycle Management (ALM), you might see the following message: "We can't determine if omnichannel integration is enabled for the environment". For more information, see [Bots with ALM](/power-virtual-agents/configuration-hand-off-omnichannel#bots-with-alm).
+   1. Turn on the **Enable voice** toggle.
+   
+   1. Select **See how to register a new Application ID**, and follow the instructions to register an application identifier.
+
+      1. Select **App Registration**.
+      
+      1. Select **New registration**.
+
+      1. Enter the name of your bot, and then select **Register**.
+
+        ![Register the bot in Azure.](../media/register-application-azure.png)
+
+      1. Copy the **Application ID** to the clipboard.
+
+   1. Return to Copilot Studio, paste the copied ID in the **Application ID** field, and then select **Add your bot**. After the bot is added, a message is displayed and the bot is listed.
+
+    :::image type="content" source="../media/pva-omnichannel-bot-configuration.png" alt-text="Copilot Studio bot for Omnichannel for Customer Service":::
+
+   1. Optionally, you can view the bot details in Omnichannel for Customer Service.
+
+> [!IMPORTANT]  
+> - In voice, we don't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](configure-bot-virtual-agent.md) for the call to end in Omnichannel for Customer Service.
+> - The telephony channel doesn't support authentication. Make sure that the bot authentication is disabled if you're using the bot for voice.
 
 ### Related information
 
