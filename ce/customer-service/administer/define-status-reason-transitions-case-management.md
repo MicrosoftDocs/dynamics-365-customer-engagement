@@ -1,7 +1,7 @@
 ---
-title: Define status reason transitions for case management (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Add status reason, status reason transitions to manage cases
 description: Understand how to define status reason transitions for case management in Customer Service.
-ms.date: 12/21/2023
+ms.date: 11/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Define status reason transitions for case management
+# Add status reason, status reason transitions to manage cases
 
 If you’re in charge of incident management for an organization, it’s important to provide a model for agents to enter and update case status. In Dynamics 365 Customer Service, there are two fields in the Case table that provide information about case status: the **Status** field and the **Status Reason** field. The **Status** field for the **Case** entity has three possible values: **Active**, **Resolved**, or **Canceled**. The **Status Reason** field stores a reason for a specific status value. For example, for a case with an **Active** status, a status reason could be **In Progress**, **On Hold**, **Waiting for Details**, or **Researching**.  
 
@@ -23,7 +23,7 @@ If you’re in charge of incident management for an organization, it’s importa
   
 [!INCLUDE[proc_permissions_system_admin_and_customizer](../../includes/proc-permissions-system-admin-and-customizer.md)]  
 
-## Add status reason transitions
+## Add status reason
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
 1. Select **Tables** and then select **Case**.
@@ -33,6 +33,12 @@ If you’re in charge of incident management for an organization, it’s importa
 1. Select **Save**.
 
    :::image type="content" source="../media/powerapps-case-resol-add-value.png" alt-text="Screenshot displaying powerapps configuration":::
+
+
+## Add status reason transition
+
+Status reason transitions enable you to define what the status reason value can be changed to for each status reason. You can define status reason transitions in Power Apps. Learn more in [Define status reason transitions with Power Apps](/power-apps/maker/data-platform/define-status-reason-transitions#edit-status-reason-transitions).
+
 
 ### Related information
 

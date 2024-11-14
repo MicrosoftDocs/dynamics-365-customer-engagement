@@ -53,7 +53,7 @@ OData-Version: 4.0
 {
   "CRMRecord": {
     "@odata.type": "Microsoft.Dynamics.CRM.contact",
-    "contactid": "bf1b1e9a-6e28-e811-a94e-000d3a365e68"
+    "contactid": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
   }
 }  
 ```
@@ -69,7 +69,7 @@ OData-Version: 4.0
 
 {
   "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_RetrieveKPIValuesForGDPRResponse",
-   "Response": {\"EntityId\": \"bf1b1e9a-6e28-e811-a94e-000d3a365e68\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
+   "Response": {\"EntityId\": \"00aa00aa-bb11-cc22-dd33-44ee44ee44ee\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
 }
 ```
 
