@@ -1,5 +1,5 @@
 ---
-title: Add status reason, status reason transition for case management
+title: Add status reason, status reason transitions to manage cases
 description: Understand how to define status reason transitions for case management in Customer Service.
 ms.date: 11/14/2024
 ms.topic: article
@@ -13,7 +13,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Add status reason, status reason transition to manage cases
+# Add status reason, status reason transitions to manage cases
 
 If you’re in charge of incident management for an organization, it’s important to provide a model for agents to enter and update case status. In Dynamics 365 Customer Service, there are two fields in the Case table that provide information about case status: the **Status** field and the **Status Reason** field. The **Status** field for the **Case** entity has three possible values: **Active**, **Resolved**, or **Canceled**. The **Status Reason** field stores a reason for a specific status value. For example, for a case with an **Active** status, a status reason could be **In Progress**, **On Hold**, **Waiting for Details**, or **Researching**.  
 
