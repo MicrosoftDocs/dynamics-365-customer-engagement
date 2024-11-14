@@ -2,7 +2,6 @@
 title: Disconnect from Azure Communication Services resources
 description: Learn how you can disconnect an Azure Communication Services resource.
 ms.date: 08/29/2024
-ms.service: dynamics-365-customer-service
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
