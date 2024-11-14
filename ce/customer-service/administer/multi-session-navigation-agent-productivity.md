@@ -56,5 +56,5 @@ You can now validate the features in your custom model-driven app.
 
 ### Related information
 
-[Build your first model-driven app ([powerapps-docs/maker/model-driven-apps/build-first-model-driven-app.md](https://github.com/MicrosoftDocs/powerapps-docs/blob/main/powerapps-docs/maker/model-driven-apps/build-first-model-driven-app.md))
+[Build your first model-driven app](/power-apps/maker/model-driven-apps/build-first-model-driven-app)
 
