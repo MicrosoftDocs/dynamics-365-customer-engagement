@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Set up IVR bots in the voice channel
 
-[!INCLUDE[cc-feature-availability-embedded-yes](../includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 To route customer calls to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call. Copilot Studio makes it easy to author IVR bots, and you can use the same bots for other channels, like chat and voice.
 
@@ -30,7 +30,7 @@ Learn about the supported languages and locales in which the IVR capabilities ar
 
 ## Prerequisites
 
-Perform the steps in [Integrate a Copilot Studio bot](configure-ivr-agent.md). We recommend that you perform the steps in the specified order:
+Perform the steps in [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md). We recommend that you perform the steps in the specified order:
 
 1. [Acquire phone numbers](/dynamics365/customer-service/administer/voice-channel-manage-phone-numbers) or set up [bring your own carrier](/dynamics365/customer-service/administer/voice-channel-bring-your-own-number) phone numbers.
 1. Create a workstream and configure the corresponding routing rules for the workstream.
@@ -43,8 +43,8 @@ You can then specify how the bot should handle failure conditions and set up the
 
 In the voice channel, you can configure the following features for the IVR bots:
 
-- Specify how the bot should handle calls when the customer can't reach the bot or when there's a system failure during an IVR conversation. Learn more in [Handle bot connectivity issues](bot-connectivity-issues.md).
-- Set up your IVR bot to [handle multiple languages](configure-multilingual-agents.md).
+- Specify how the bot should handle calls when the customer can't reach the bot or when there's a system failure during an IVR conversation. Learn more in [Handle bot connectivity issues](/dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
+- Set up your IVR bot to [handle multiple languages](/dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
 
 ## Automatically end conversations
 
