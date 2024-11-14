@@ -9,7 +9,7 @@ ms.date: 11/14/2024
 ms.custom: bap-template 
 ---
 
-# Configure a custom record summary for service representatives
+# Configure custom record summaries for service representatives
 
 The custom record summary feature introduces AI-generated summaries for any custom record type in Dynamics 365 Customer Service. Custom record summaries can help your service representatives quickly gain insight into important records, such as custom case record types or other out-of-the-box record types, like account and contact information. Summaries also help improve service representative response times with their customers by providing them with an easily accessed, quick synopsis of an account.
 
