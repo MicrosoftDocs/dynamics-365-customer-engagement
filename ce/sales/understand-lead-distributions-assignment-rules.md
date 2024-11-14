@@ -1,7 +1,7 @@
 ---
 title: Understand record distribution in assignment rules
 description: Learn how lead, opportunity, and insight round robin and load balancing distribution works in Dynamics 365 Sales assignment rules.
-ms.date: 06/05/2024
+ms.date: 11/22/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -39,7 +39,7 @@ Let's look at some scenarios to understand round robin distribution.
 
 **Scenario1** 
 
-A lead comes into the system at 1:33 PM. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
+A lead comes into the system at 11:20 PM. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
 
 | Seller | Last assigned a lead |
 |--------|----------------------|
@@ -49,14 +49,14 @@ A lead comes into the system at 1:33 PM. Based on the selection criteria that ar
 
 Miriam's last assignment is earlier than Sanjay's and Susana's. She's been waiting longest, so the lead is assigned to her and her last assignment time is updated.
 
-Another lead comes into the system at 1:50 PM. This time, only Miriam and Sanjay have the required attributes to work on it:
+Another lead comes into the system at 1:50 PM. This time, only Miriam and Susan have the required attributes (Lead) to work on it. However, you might have noticed that only Sanjay can be assigned the record. So, you assigned the lead to Sanjay, manually. The new order of assignment looks like this:
 
-| Seller | Last assigned a lead |
-|--------|----------------------|
-| Miriam | 1:33 PM |
-| Sanjay | 10:31 AM |
+| Seller | Last assigned a lead | Entity type | Assignment source | Next assignment order when only lead rules configured | Next assignment order when Lead and opportunity rules are configured |
+|--------|----------------------|-------------|-------------------|-------------------------------------------------------|-----------------------------------------------------------------|
+| Miriam | 11:20 PM | Lead | Manual | Sanjay, Susana, Miriam | Sanjay, Susana, Miriam |
+| Sanjay | 1:50 AM | Opportunity | Manual | Sanjay, Susana, Miriam | Susana, Miriam, Sanjay |
+| Susana | 11:17 AM | Lead | Assignment rule engine | Sanjay, Miriam, Susana | Miriam, Sanjay, Susana |
 
-But this time, Sanjay has been waiting longer than Miriam. Sanjay gets the lead.
 
 **Scenario 2**
 
