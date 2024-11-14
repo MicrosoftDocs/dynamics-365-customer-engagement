@@ -102,6 +102,28 @@ These questions are first answered using the data stored in Dataverse, which is 
 
 You can also access some of these question from the Prompt guide that appears when you select **View Prompts** above the chat box in the Copilot side pane or Copilot page.
 
+## Enhance Natural language chat (Public Preview) 
+You can enhance your Copilot chat by adding a glossary to make it more personalized and useful. Define your own acronyms, guide Copilot to use custom fields, clarify ownership, and more! 
+### Add Glossary for Copilot in side pane 
+By providing extra information for the AI to understand and interpret the information in the tables, you increase the likelihood of the AI to recognize your customized requests, and return responses based on the information provided to the AI: 
+1. Navigate to copilotstudio.microsoft.com (Note: Please make sure you are selecting the right environment) 
+1. Open **Sales Copilot Power Virtual Agents Bot** under agent section 
+1. Select **SalesSpecificQnA** under knowledge section 
+1. Select **Glossary** section 
+1. Enter the term and description and click **Next** 
+1. Click **Save**
+
+[Add glossary](media/Natural_chat_Glossary.png "Add glossary")
+
+### Sample term and description
+| Scenarios  | Term  | Description |
+|-----------------------|---------|-----------------------|
+| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table |
+| **Custom ownership** (Specify your ownership instead of using the record owner id) | activity owner  | activity owner is identified by 'PartyId' column in 'ActivityParty' table.  |
+| **Custom field** (Use a custom field instead of the OOB system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
+| **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | ‘overdue task’ refers to ‘state code’ column with value ‘open’ in ‘task’ table and ‘scheduled end date’ column in ‘task’ table with value less than today.  |
+
+
 ## Related information
 
 - [Get information from Copilot](copilot-get-information.md)
