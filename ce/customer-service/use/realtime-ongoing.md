@@ -4,9 +4,9 @@ description: Understand the Ongoing conversation report in Omnichannel real-time
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
-ms.topic: conceptual
+ms.topic: Soumyasd27
 ms.collection:
-ms.date: 11/04/2024
+ms.date: 11/14/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -23,7 +23,8 @@ The **Ongoing conversation** report shows ongoing conversations from the last 24
 
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
-Digital messaging, chat, and voice channels only are supported. Record routing isn't supported.
+> [!NOTE]
+> Digital messaging, chat, and voice channels only are supported. Record routing isn't supported.
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -31,30 +32,44 @@ Digital messaging, chat, and voice channels only are supported. Record routing i
 
 You can perform different actions, such as assign or transfer a conversation, as described in the following sections.
 
-## Assign conversations
+## Assign or transfer conversations
 
-Assign an incoming or unassigned conversation filtered by either a queue or an agent, after reviewing the skill set and capacity profile of agents.
+Supervisors can view agent skills and proficiency, availability, and available capacity which will enable you to effectively manage and allocate resources. Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
+
+|Type  |Conversation state  |Assign |Transfer |
+|---------|---------|---------|---------|
+|Record     |     Open     | Assign to queue        |     Not enabled    |
+|Record   |      Open   | Assign to agent        |     Transfer to agent    |
+|Record     |     Active    |   Assign to agent       |    Transfer to agent     |
+|Record     |   Wrap-up      |      Not enabled     |      Not enabled     |
+
+### Assign conversations
 
 1. In the Contact Center workspace or Customer Service workspace app, go to the dashboard view selector, and then select the **Ongoing Conversations** report.
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
 
-1. In the **Assign conversations** dialog, select **Agent**, or **Queue**. If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
-If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
+1. In the **Assign conversations** dialog, select **Agent**, or **Queue**. If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed. You can select agent skills and proficiency, availability, and available capacity.
+
+    :::image type="content" source="../media/realtime-agent-skill-prof.png" alt-text="Screenshot of assign conversation dialog, find an agent option":::
+
+    If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
+
+      :::image type="content" source="../media/realtime-agent-queue.png" alt-text="Screenshot of assing conversation dialog, find a queue option":::
 
 1. Select **Assign**.
 
 ## Transfer conversations
 
-Transfer an ongoing conversation from one agent to another after reviewing the skill set and capacity profile of an agent.
+Once a conversation has been assigned to an agent, it will be in the **Active** state. You can select the conversation and transfer. 
 
-1. From the dashboard view selector, select the **Ongoing Conversations** report.
-
-1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**.
+1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**. 
 
 1. In the **Transfer conversations** dialog, select an agent from the list of agents that appears.
 
-      A list of agents belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
+    A list of agents belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
+
+      :::image type="content" source="../media/realtime-agent-transfer.png" alt-text="Screenshot of agent transfer dialog.":::  
 
 1. Select **Transfer**. The selected conversation is transferred to the agent.
 
