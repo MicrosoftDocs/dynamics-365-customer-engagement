@@ -58,7 +58,7 @@ To configure the voice channel, you'll need to associate the workstream with a p
     > - Only those numbers are displayed that have inbound calls enabled and are not already associated with any other workstream. Use the steps in [Acquire a phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) if you want to configure a new number.    
     > - The voice channel supports anonymous inbound calls on those numbers only that are configured via Azure Communication Services direct routing.
 
-3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](voice-channel-multi-language-contact-center.md)
+3. On the **Language** page, select **Add primary language** and perform the steps to configure the primary language. More information: [Allow customers to choose a language](#add-a-phone-number-to-the-workstream-and-configure-language-settings).
 
 4. On the **Behaviors** tab, turn on the **Customer wait time** toggle, and select the following options:
 
@@ -79,6 +79,24 @@ The phone number is associated with the workstream.
 
 :::image type="content" source="../media/voice-workstream-configured.png" alt-text="Configured workstream for voice":::
 
+## Add a phone number to the workstream and configure language settings
+
+1. In the Customer Service admin center or Contact Center admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
+
+1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
+
+1. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add more languages to this voice channel, and each language has its own settings.
+   The **Primary language** is the first language the bot uses to greet the customer. Your organization can have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+
+1. Select the type of hold and wait music you want the customer to hear.
+
+1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot.
+
+   > [!IMPORTANT]
+   > Make sure that you select a neural voice because standard voice will be deprecated on August 31, 2024. For existing voice workstreams, you must update to neural voice before July 2024. If you don't update, Microsoft Dynamics 365 team will migrate the settings for you by end of July, 2024. More information: [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
+1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey bot after the agent hangs up.
+
+1. After you finish configuring the settings, select **Confirm**.
 
 ## Transfer calls to external numbers and Teams users
 

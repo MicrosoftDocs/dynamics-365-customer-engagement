@@ -344,6 +344,8 @@
             href: agent-dashboard.md
           - name: Omnichannel Bot dashboard
             href: oc-bot-dashboard.md  
+          - name: Omnichannel Bot dashboard
+            href: /dynamics365/contact-center/use/oc-bot-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml 
           - name: Omnichannel Conversation topic dashboard
             href: oc-conversation-topics-dashboard.md
           - name: Omnichannel Voicemail dashboard
@@ -388,6 +390,8 @@
             href: datamapping-realtime.md
           - name: Dataverse entities used in historical and real-time analytics
             href: dataverse-entities.md
+          - name: Customize the bot dashboard
+            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling

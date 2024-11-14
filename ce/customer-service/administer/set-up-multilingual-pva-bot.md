@@ -133,46 +133,10 @@ For example, you can create a bot with the following details:
 
 1. Select **Publish**.
 
-## Configure the greeting topic
+## Finish set up in Copilot Studio
 
-1. In Copilot Studio, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
-
-1. Select **Add node** (+), and then select **Redirect to another topic**.
-
-1. Select the greeter dialog that you created, which is, **PVA greeter dialog** in our example.
-
-1. Save the **Greeting** topic.
-
-<a name="configure-transfer-to-agent-using-the-escalate-topic"></a>
-
-## Configure the transfer to agent node by using the escalate topic
-
-1. In Copilot Studio, open the **Escalate** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
-
-1. Select **Add node** (+), select **End the conversation**, and then select **Transfer to agent**.
-
-1. Optionally, in **Private message to agent**, enter the following to fetch the preferred language of the customer.
-
-   `Customer preferred language is {x} bot.va_CustomerLocale`
-
-1. Save the topic.
-
-1. In the site map under **Manage**, select **Channels**, and then select **Microsoft Teams** on the **Channels** page.
-
-1. Publish the bot with the latest content.
-
-1. In the site map under **Manage**, select **Agent transfers**, and then select **Omnichannel** on the **Agent transfers** page.
-
-1. On the Omnichannel pane, configure the following settings:
-    - **Enable voice**: Set to **Yes**.
-    - **See the environment this bot is connected to**: Select the environment in which the bot will be used.
-    - **Application ID**: Enter the application ID that was generated when you registered the app in Azure.
-  
-1. Select **Add your bot**.
-
-1. After the bot is connected, select **View details in Omnichannel**. The Customer Service admin center or Contact Center admin center page opens on a new tab and displays the details of the bot.
-
-1. Note the bot user information that you'll need for further configuration steps.
+1. Configure the [greeting topic](/microsoft-copilot-studio/configure-bot-greeting#create-a-new-user-topic) and the [escalate topic](/microsoft-copilot-studio/advanced-hand-off).
+1. [Configure handoff to Dynamics 365 Customer Service](/microsoft-copilot-studio/configuration-hand-off-omnichannel).
 
 ## Configure workstreams and queues
 
