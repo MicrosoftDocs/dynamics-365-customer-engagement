@@ -79,3 +79,5 @@ If synchronization is disabled, synchronized records aren’t deleted. New recor
 
 - Only updates to the booking in Field Service are reflected in Outlook. If only the work order is updated in Field Service, Outlook isn’t updated.
 - Users can be set up to sync with only one environment at a time.
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
