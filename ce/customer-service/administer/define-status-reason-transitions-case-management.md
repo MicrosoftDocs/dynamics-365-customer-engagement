@@ -37,7 +37,7 @@ If you’re in charge of incident management for an organization, it’s importa
 
 ## Add status reason transition
 
-Status reason transitions enable you to define what the status reason value can be changed to for each status reason. You can define status reason transitions in Power Apps. Learn more in [Define status reason transitions with Power Apps](/powerapps-docs/maker/data-platform/define-status-reason-transitions).
+Status reason transitions enable you to define what the status reason value can be changed to for each status reason. You can define status reason transitions in Power Apps. Learn more in [Define status reason transitions with Power Apps](/power-apps/maker/data-platform/define-status-reason-transitions#edit-status-reason-transitions).
 
 
 ### Related information
