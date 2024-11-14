@@ -1,7 +1,7 @@
 ---
 title: Supported regions and languages for analytics and insights
 description: Learn about region availability and the languages supported for analytics and insights.
-ms.date: 11/13/2024
+ms.date: 11/15/2024
 ms.topic: conceptual
 author: Soumyasd27
 ms.author: sdas
@@ -56,14 +56,12 @@ The following table lists the region availability of analytics and insights.
 | Knowledge Base keywords suggestion| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Unified routing analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Omnichannel real time analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Data model customization for historical and real-time reports| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 Yes: Available  
 No: Not available
 
 <sup>**1**</sup> By default, the Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
-
-> [!NOTE]
-> Data model customization isn't supported on GCC as of now.
 
 ## Language support for AI-based analytics and insights in Customer Service
 
