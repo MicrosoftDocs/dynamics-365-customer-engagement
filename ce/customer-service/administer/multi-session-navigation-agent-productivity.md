@@ -33,6 +33,29 @@ Learn more about Customer Service workspace system requirements at [System requi
 > [!NOTE]
 > The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more about the Customer Service workspace at [Get started with Customer Service workspace](../implement/csw-overview.md)
 
+
+## Application lifecycle management
+
+The multisession navigation feature is aligned with application lifecycle management. You can enable this feature in a custom model driven app in your development environment, package the app, and then import to a testing or production environment without the need to re-apply the settings. 
+
+To summarize this:
+- You can enable this feature in a model driven app within an unmanaged solution.
+- You can't enable this feature in a model driven app within a managed solution.
+- This feature is not supported in model driven apps installed by default, such as Sales Hub.
+
+Perform the following steps to add the multisession and productivity tools for your customized model-driven app.
+
+1. Create a custom model-driven app from a solution in your development environment. Learn more in [Build your first model-driven app](/power-apps/maker/model-driven-apps/build-first-model-driven-app).
+
+2. Use the Customer Service admin center to enable the multisession and productivity tools for your customized model-driven app.
+
+3. In the app, validate the changes and test your customization. The productivity tools settings will be applied to your user account based on your organization's Agent Experience Profile settings. Learn more in [Agent experience profiles](./overview.md).
+
+4. Export the solution from the development environment that contains the model-driven app and the corresponding sitemap. The multisession navigation settings are included in the app module by default. Learn more in [Export solutions](/power-apps/maker/data-platform/export-solutions).
+
+5. Import the solution in your testing environment, validate the changes and test your customizations. Learn more in [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions)
+
+
 ## Enable multisession navigation
 
 Perform the following steps to enable the multisession navigation feature in the Customer Service workspace.
