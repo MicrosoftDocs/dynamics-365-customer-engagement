@@ -24,7 +24,7 @@ The **Ongoing conversation** report shows ongoing conversations from the last 24
 This report provides a holistic view of the conversations in real time. It includes details about subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 > [!NOTE]
-> Digital messaging, chat, and voice channels only are supported. Record routing isn't supported.
+> Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
 
@@ -49,7 +49,7 @@ You can view agent skills and proficiency, availability, and available capacity 
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
 
-1. In the **Assign conversations** dialog, select **Find an agent**, or **Find a queue**. If you select **Find an agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
+1. In the **Assign conversations** dialog, select **Find an agent** or **Find a queue**. If you select **Find an agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
 
     :::image type="content" source="../media/realtime-agent-skill-prof.png" alt-text="Screenshot of assign conversation dialog, find an agent option":::
 
@@ -61,7 +61,7 @@ You can view agent skills and proficiency, availability, and available capacity 
 
 ### Transfer conversations
 
-Once a conversation has been assigned to an agent, it will be in the **Active** state. You can select the conversation and transfer. 
+Once a conversation has been assigned to an agent, it's in the **Active** state. You can select the conversation and transfer it. 
 
 1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**. 
 
@@ -70,16 +70,16 @@ Once a conversation has been assigned to an agent, it will be in the **Active** 
 
       :::image type="content" source="../media/realtime-agent-transfer.png" alt-text="Screenshot of agent transfer dialog.":::  
 
-1. Select **Transfer**. The selected conversation is transferred to the agent.
+1. Select **Transfer**. The system transfers the selected conversation to the agent.
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message indicating that monitoring has begun. This action is applicable to active conversations that were accepted by the agent, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring has begun. This action is applicable to active conversations that were accepted by the agent, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
 
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your agents are currently handling appears.
 
-1. Select a conversation that you want to monitor, and select **Monitor**. The conversation page opens.
+1. Select a conversation that you want to monitor, and then select **Monitor**. The conversation page opens.
 
 1. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
@@ -88,7 +88,7 @@ Listen to an ongoing conversation. When you select **Monitor**, you receive a me
 ## Force close conversations
 
 > [!CAUTION]
-> We recommend that you use the Force close option cautiously.
+> We recommend that you use the **Force close** option cautiously.
 
 Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. 
 
@@ -106,7 +106,7 @@ To be able to perform the actions on your customized reports, you must complete 
 - Create reports using [the out-of-the-box data model in your custom reports](use-datamodel.md#use-the-out-of-the-box-data-model-in-your-custom-reports).
 - Make sure appropriate roles exist for viewing and embedding reports. Learn more in [Configure analytics and insights dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards).
 
-In Customer Service workspace, go to **Customized reports**>**Ongoing conversations** report, and then select the conversation that needs to be updated.
+In Customer Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
  
   When the **Agent Name** doesn't exist, the following options are enabled.
   - **Assign**: You can assign an agent by queue for the conversation.
