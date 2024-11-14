@@ -34,7 +34,7 @@ You can perform different actions, such as assign or transfer a conversation, as
 
 ## Assign or transfer conversations
 
-Supervisors can view agent skills and proficiency, availability, and available capacity which will enable you to effectively manage and allocate resources. Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
+You can view agent skills and proficiency, availability, and available capacity which will enable you to effectively manage and allocate resources. Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
 
 |Type  |Conversation state  |Assign |Transfer |
 |---------|---------|---------|---------|
@@ -49,24 +49,23 @@ Supervisors can view agent skills and proficiency, availability, and available c
 
 1. Select a conversation in an **Open** state, and then select **Assign**.
 
-1. In the **Assign conversations** dialog, select **Agent**, or **Queue**. If you select **Agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed. You can select agent skills and proficiency, availability, and available capacity.
+1. In the **Assign conversations** dialog, select **Find an agent**, or **Find a queue**. If you select **Find an agent**, only those agents whose presence matches with one of the allowed presence values in the workstream configuration are displayed.
 
     :::image type="content" source="../media/realtime-agent-skill-prof.png" alt-text="Screenshot of assign conversation dialog, find an agent option":::
 
-    If you select **Queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
+    If you select **Find a queue**, all other queues&mdash;except the one to which the conversation is currently assigned&mdash;are displayed.
 
       :::image type="content" source="../media/realtime-agent-queue.png" alt-text="Screenshot of assing conversation dialog, find a queue option":::
 
 1. Select **Assign**.
 
-## Transfer conversations
+### Transfer conversations
 
 Once a conversation has been assigned to an agent, it will be in the **Active** state. You can select the conversation and transfer. 
 
 1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**. 
 
-1. In the **Transfer conversations** dialog, select an agent from the list of agents that appears.
-
+1. In the **Transfer conversation** dialog, select an agent from the list of agents that appears. 
     A list of agents belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
 
       :::image type="content" source="../media/realtime-agent-transfer.png" alt-text="Screenshot of agent transfer dialog.":::  
