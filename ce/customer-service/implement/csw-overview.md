@@ -37,6 +37,10 @@ Customer Service workspace allows service representatives to work on multiple se
 - Service representatives can select the hamburger icon to access the site map. 
 - When a service representative opens a page from the site map, the page loads in the current focused session.
 
+> [!NOTE]
+> - Entity records and entity views accessed as **anchor** tabs are included in the **Recent** list in the Customer Service workspace SiteMap. 
+  - Entity records and entity views accessed as **additional** tabs in a session will not appear in the list of recent.
+
 ### Navigate sessions and tabs
 
  The following table gives an overview of the multisession navigation:
