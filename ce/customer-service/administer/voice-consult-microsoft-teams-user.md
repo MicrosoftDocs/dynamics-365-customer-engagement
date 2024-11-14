@@ -63,7 +63,7 @@ To enable the consult and transfer experience through VOIP, perform the followin
    - Azure Communication Services: [Firewall configuration](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration)
    - Microsoft Teams: [Skype for Business Online and Microsoft Teams](/microsoft-365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams)
 - The Teams users who are added to calls must have [Teams Phone System Licenses](/microsoftteams/setting-up-your-phone-system) assigned.
--  Enterprise Voice must be enabled. Run the following Powershell command to enable Enterprise Voice:
+-  Enterprise Voice must be enabled. Run the following Powershell command to enable Enterprise Voice.
     ```powershell
     Set-CSPhoneNumberAssignment –Identity [user email address] -EnterpriseVoiceEnabled $true
     ```
@@ -77,10 +77,10 @@ Get the [immutable resource ID](/azure/communication-services/concepts/troublesh
     - `Install-Module -Name MicrosoftTeams`
     - `Update-Module MicrosoftTeams`
 - Connect to Microsoft Teams and run `Connect-MicrosoftTeams`. This command opens a login window. The user must login with their Microsoft Teams admin account.
-- Get Microsoft Teams Azure Communication Services allow list:
-    - Run `Get-CsTeamsAcsFederationConfiguration` and note the existing Azure Communication Services resource IDs in the allow list. These are existing ACS resource IDs for orgs that were enabled for Teams Azure Communications Service federation.
+- Get Microsoft Teams Azure Communication Services allow list.
+    - Run `Get-CsTeamsAcsFederationConfiguration` and note the existing Azure Communication Services resource IDs in the allow list. These are existing Azure Communication Services resource IDs for orgs that were enabled for Teams Azure Communications Service federation.
     - Add current Azure Communications Service resource ID to these existing resource IDs when you run the `Set-CsTeamsAcsFederationConfiguration` command in the next step.
- - Set Teams Azure Communications Service allow list: 
+ - Set Teams Azure Communications Service allow list.
      - Run `$allowlist = @('<UPDATED_ACS_RESOURCE_IDs>') Set-CsTeamsAcsFederationConfiguration -EnableAcsUsers $True -AllowedAcsResources $allowlist`
 
 ### Related information
