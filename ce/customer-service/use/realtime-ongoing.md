@@ -3,8 +3,8 @@ title: View and understand the Ongoing conversation report in Omnichannel real-t
 description: Understand the Ongoing conversation report in Omnichannel real-time analytics to view conversations, active agents, and customer sentiment.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
-ms.topic: Soumyasd27
+ms.reviewer: Soumyasd27
+ms.topic: conceptual
 ms.collection:
 ms.date: 11/14/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
