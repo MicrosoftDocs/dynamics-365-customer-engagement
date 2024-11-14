@@ -54,7 +54,7 @@ Another lead comes into the system at 1:50 PM. This time, only Miriam and Susan 
 | Seller | Last assigned a lead | Entity type | Assignment source | Next assignment order when only lead rules configured | Next assignment order when Lead and opportunity rules are configured |
 |--------|----------------------|-------------|-------------------|-------------------------------------------------------|-----------------------------------------------------------------|
 | Miriam | 11:20 PM | Lead | Manual | Sanjay, Susana, Miriam | Sanjay, Susana, Miriam |
-| Sanjay | 1:50 AM | Opportunity | Manual | Sanjay, Susana, Miriam | Susana, Miriam, Sanjay |
+| Sanjay | 1:50 PM | Opportunity | Manual | Sanjay, Susana, Miriam | Susana, Miriam, Sanjay |
 | Susana | 11:17 AM | Lead | Assignment rule engine | Sanjay, Miriam, Susana | Miriam, Sanjay, Susana |
 
 
