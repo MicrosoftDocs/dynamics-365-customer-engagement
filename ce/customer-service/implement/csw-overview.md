@@ -39,7 +39,7 @@ Customer Service workspace allows service representatives to work on multiple se
 
 > [!NOTE]
 > - Entity records and entity views accessed as **anchor** tabs are included in the **Recent** list in the Customer Service workspace SiteMap. 
-  - Entity records and entity views accessed as **additional** tabs in a session will not appear in the list of recent.
+> - Entity records and entity views accessed as **additional** tabs in a session will not appear in the list of recent.
 
 ### Navigate sessions and tabs
 
