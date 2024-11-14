@@ -34,7 +34,7 @@ You can perform different actions, such as assign or transfer a conversation, as
 
 ## Assign or transfer conversations
 
-You can view agent skills and proficiency, availability, and available capacity which will enable you to effectively manage and allocate resources. Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
+You can view agent skills and proficiency, availability, and available capacity, which helps you to effectively manage and allocate resources. Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
 
 |Type  |Conversation state  |Assign |Transfer |
 |---------|---------|---------|---------|
@@ -61,7 +61,7 @@ You can view agent skills and proficiency, availability, and available capacity 
 
 ### Transfer conversations
 
-Once a conversation has been assigned to an agent, it's in the **Active** state. You can select the conversation and transfer it. 
+Once a conversation is assigned to an agent, it's in the **Active** state. You can select the conversation and transfer it. 
 
 1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**. 
 
@@ -74,7 +74,7 @@ Once a conversation has been assigned to an agent, it's in the **Active** state.
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring has begun. This action is applicable to active conversations that were accepted by the agent, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action is applicable to active conversations that the agent accepted, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
 
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your agents are currently handling appears.
@@ -110,7 +110,7 @@ In Customer Service workspace, go to **Customized reports** > **Ongoing conversa
  
   When the **Agent Name** doesn't exist, the following options are enabled.
   - **Assign**: You can assign an agent by queue for the conversation.
-  - **Force close**: You can force close the conversation if required.
+  - **Force close**: You can force close the conversation if necessary.
   :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
     
   When the **Agent Name** exists, the following options are enabled.
