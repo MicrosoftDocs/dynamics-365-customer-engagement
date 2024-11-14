@@ -56,7 +56,7 @@ You can manage Customer Service workspace in the Customer Service admin center a
 
 ### How do I move my Omnichannel for Customer Service app configurations to the Customer Service workspace app?
 
-To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the [migration guide](migrate-oc-to-csw.md).
+To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the [migration guide](migrate-to-csw.md).
 
 ### Can I continue to use the Omnichannel for Customer Service app?
 

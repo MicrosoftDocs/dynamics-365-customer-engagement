@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/28/2024
+ms.date: 11/12/2024
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -11,7 +11,6 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/26/2023
   - bap-template
-ms.collection: bap-ai-copilot 
 ---
 
 # Work with the mobile app (Unified Interface)

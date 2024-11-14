@@ -1,7 +1,7 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 04/16/2024
+ms.date: 11/12/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -17,7 +17,7 @@ This FAQ answers questions about the AI impact of the Dynamics 365 Field Service
 
 ## What is Dynamics 365 Field Service Plugin for Microsoft Copilot?
 
-Dynamics 365 Field Service Plugin for Microsoft Copilot uses the power of Microsoft 365 Copilot as your AI assistant. A [Copilot for Microsoft 365 license](/microsoft-365-copilot/extensibility/overview-business-applications#get-copilot-for-microsoft-365-licenses-and-enable-plugins) enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
+Dynamics 365 Field Service Plugin for Microsoft Copilot uses the power of Microsoft 365 Copilot as your AI assistant. A [Copilot for Microsoft 365 license](/microsoft-365-copilot/extensibility/overview-business-applications#get-copilot-for-microsoft-365-licenses-and-enable-plugins) is required. The plugin enables authorized users to engage in a natural-language conversation about work orders with Field Service in Microsoft Teams.  
 
 ## What are the feature’s capabilities?
 
@@ -53,7 +53,7 @@ The feature supports:
 
 ## What are the supported geographies and languages?
 
-This feature is available in English (United States, Great Britain, Australia, Canada, and India).
+[Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

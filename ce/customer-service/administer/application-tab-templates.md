@@ -194,6 +194,7 @@ The following parameters are available for custom pages.
 | `name` | Unique name of the custom page  | Yes | String <br>  | `new_mycustompage` <br> |
 | `recordId` | GUID of the entity record | No | String <br><br>Slugs <br><br><br><br>OData<br><br><br><br>| `00aa00aa-bb11-cc22-dd33-44ee44ee44ee`<br><br> `{caseId}` <br><br> `{anchor.incidentid}`<br><br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`<br><br><br> |
 
+
 ### Out-of-the-box application tab templates
 
 The following out-of-the-box application tab templates are available.
@@ -207,7 +208,7 @@ The following out-of-the-box application tab templates are available.
 | Omnichannel Intraday Insights       | Displays a Power BI report in the tab.         | Control  |
 | Quick Reply Preview                 | Displays a quick reply in the tab.             | Control  |
 | Rich Message Preview                | Displays a rich message in the tab.            | Control |
-| Search                              | Displays the Omnichannel search page in the tab. | Control |
+| Search (deprecated)                 | Displays the Omnichannel search page in the tab. (deprecated) | Control |
 
 ### Related information
 

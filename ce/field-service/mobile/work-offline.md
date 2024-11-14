@@ -18,7 +18,7 @@ Downloading the offline data can take some time. You can check the download prog
 Administrators [define which data is available offline](set-up-offline-profile.md) and [how often the app looks for changes on the server](offline-data-sync.md).
 
 > [!NOTE]
-> The new mobile experience doesn't support working offline.
+> The [new mobile experience](do-work-newux.md) doesn't support working offline.
 
 ## Next steps
 

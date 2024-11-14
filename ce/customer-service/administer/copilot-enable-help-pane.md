@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 04/29/2024
+ms.date: 11/04/2024
 ms.custom: bap-template 
 ---
 
@@ -36,6 +36,18 @@ Perform the following steps to enable the Copilot features in Customer Service a
 ## Enable ask a question
 
 Select **Make Copilot available to agents** in the **Copilot help pane** page of Customer Service admin center. The **Ask a question** tab on the **Copilot help pane** appears when agents sign in to Customer Service workspace. Agents can ask questions conversationally, and Copilot answers the questions based on the internal knowledge base sources.
+
+## Enable proactive prompts in ask a question
+
+Proactive prompting enables agents to discover and prompt Copilot effortlessly, without the need for manual typing. This saves the agent’s time and improves the quality of their overall experience.
+
+1.	Go to **Agent Experience** > **Productivity** >, and select **Manage** for **Copilot for questions and emails**.
+1.	On the **Copilot for questions and emails** page, select **Ask a question**.
+1. On the **Manage prompt settings** page, select the following as required:
+    - **Suggested prompts**
+    - **Proactive insights**
+3.	In the **Configure prompts** section, select **Add new prompt** to add the prompts that you would like to use.
+4.	Select **Save and close**.
 
 ## Enable draft a response (preview)
 
