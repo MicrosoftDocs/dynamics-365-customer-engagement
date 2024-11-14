@@ -32,7 +32,7 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 **Install the app**
 
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with Customer Engagement (on-premises) system administrator or delegated admin security roles.  
+1. Sign in with the Customer Engagement (on-premises) system administrator or a delegated admin security role.  
   
 2. Select **Admin centers** > **Dynamics 365**.  
 

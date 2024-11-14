@@ -1,7 +1,7 @@
 ---
 title: Understand the predictive opportunity scoring configuration page
 description: Learn about the various sections in the predictive opportunity scoring configuration page in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 11/06/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
