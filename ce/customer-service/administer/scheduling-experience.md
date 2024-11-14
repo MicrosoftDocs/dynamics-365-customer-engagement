@@ -16,7 +16,9 @@ ms.custom:
 You can set up service scheduling from the Power Platform admin center.
 
 > [!NOTE]
-> Scheduling in Customer Service Hub is a [customer-driven update](#set-up-scenarios). You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
+> - Scheduling in Custome rService Hub is a platform-driven update. However, 
+
+> - Scheduling in Customer Service Hub is a [customer-driven update](#set-up-scenarios). You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
 
 ## Prerequisites
 
