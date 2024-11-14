@@ -161,7 +161,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  ### Customize bot dashboard
 
-For Copilot Studio bots, you can edit the report to add the additional metrics and filters to the bot. To customize the bot dashboard, see [customize visual display](customize-agent-dashboard.md). 
+For Copilot Studio bots, you can edit the report to add the additional metrics and filters to the bot. To customize the bot dashboard, see [customize visual display](dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
 
 
 ## [Dashboard for all bots ](#tab/allbots)

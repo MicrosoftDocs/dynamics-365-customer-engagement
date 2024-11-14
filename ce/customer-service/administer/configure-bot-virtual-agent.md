@@ -68,7 +68,7 @@ In Copilot Studio, you can add the following capabilities to your bot to finish 
 
 - Add knowledge sources to your bot to help it answer customer questions. Learn more in [Add knowledge sources to your bot](/microsoft-copilot-studio/knowledge-copilot-studio).
 - Configure multilingual bots to support multiple languages. Learn more in [Configure multilingual bots](/microsoft-copilot-studio/multilingual).
--  IVR capabilities that are specific to voice-enabled bots such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR bots](voice-channel-agents.md).
+-  IVR capabilities that are specific to voice-enabled bots such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR bots](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
 ## Add a bot to a workstream
@@ -145,7 +145,7 @@ You understand that your data may be transmitted and shared with external system
 
 ## Next steps
 
-[Bot transfer scenarios](transfer-to-agents.md) 
+[Bot transfer scenarios](dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml) 
 
 ### Related information
 

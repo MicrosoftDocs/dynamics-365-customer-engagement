@@ -169,5 +169,5 @@ For example, ensure the following settings:
 
 ### Related information
 
-[Set up a multilingual contact center](voice-channel-multi-language-contact-center.md)  
+[Set up a multilingual contact center](/dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)  
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
