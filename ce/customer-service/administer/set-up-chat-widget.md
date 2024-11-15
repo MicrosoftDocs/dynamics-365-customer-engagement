@@ -44,7 +44,7 @@ A few examples of data collected by the live chat widget are as follows.
 
 | Data | Example value |
 |---------------|------------------------|
-| OrganizationId | 8e9071c2-4415-47aa-b1cb-693631e7fafb |
+| OrganizationId | 00aa00aa-bb11-cc22-dd33-44ee44ee44ee |
 | Chat Widget Version | prod |
 | BrowserName | Edge |
 | OSName | Windows |

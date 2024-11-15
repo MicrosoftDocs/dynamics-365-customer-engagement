@@ -170,7 +170,7 @@
       items:
       - name: Overview of case management
         href: overview-cases.md
-      - name: Define status reason transitions for case management
+      - name: Add status reason, status reason transitions to manage cases
         href: define-status-reason-transitions-case-management.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
