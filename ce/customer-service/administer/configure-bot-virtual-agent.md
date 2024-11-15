@@ -26,7 +26,7 @@ The following capabilities are available for the bot conversations:
 
 - Seamlessly integrate your bot with all channels without needing to add channel-specific code in the bot.
 - Configure interactive voice response (IVR) capabilities for voice-enabled bots.
-- Transfer bot conversations to human agents, and include the full context of the conversation.
+- Configure contextual transfers to human agents.
 - Analyze the bot transcript that's available in Microsoft Dataverse after the conversation is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
 - Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
