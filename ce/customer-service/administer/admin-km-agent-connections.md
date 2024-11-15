@@ -26,8 +26,8 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
 1. Search for the following connection references:
-    - **Microsoft Dataverse CSKnowledgeHarvestV2**
-    - **Microsoft Copilot Studio CSKnowledgeHarvestV2**
+    - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
+    - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
  
 You can either select an existing connection if present or create a new one by selecting **New connection**.
 
