@@ -38,10 +38,9 @@ When a conversation is escalated from a bot to a representative, the representat
 ## Prerequisites
 
 You must have:
-
-    - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
-    - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
-    - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles?context=/dynamics365/contact-center/context/implement-context)
+ - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
+ - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
+ - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles?context=/dynamics365/contact-center/context/implement-context)
 
 ## Create a Copilot Studio bot
 
@@ -140,7 +139,7 @@ You understand that your data might be transmitted and shared with external syst
 
 ## Next steps
 
-[Bot transfer scenarios](dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml) 
+[Bot transfer scenarios](/dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml) 
 
 ### Related information
 
