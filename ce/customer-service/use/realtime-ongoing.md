@@ -63,7 +63,7 @@ You can view agent skills and proficiency, availability, and available capacity,
 
 Once a conversation is assigned to an agent, it's in the **Active** state. You can select the conversation and transfer it. 
 
-1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**. 
+1. Select a conversation in the **Active** state, and then select **Transfer**. 
 
 1. In the **Transfer conversation** dialog, select an agent from the list of agents that appears. 
     A list of agents belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
