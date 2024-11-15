@@ -92,7 +92,7 @@ The phone number is associated with the workstream.
 1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot.
 
    > [!IMPORTANT]
-   > Make sure that you select a neural voice because standard voice will be deprecated on August 31, 2024. For existing voice workstreams, you must update to neural voice before July 2024. If you don't update, Microsoft Dynamics 365 team will migrate the settings for you by end of July, 2024. More information: [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
+   > Make sure that you select a neural voice because standard voice is deprecated as on August 31, 2024. For existing voice workstreams, Microsoft Dynamics 365 team would have migrated the settings for you automatically by end of July, 2024. More information: [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
 1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey bot after the agent hangs up.
 
 1. After you finish configuring the settings, select **Confirm**.
