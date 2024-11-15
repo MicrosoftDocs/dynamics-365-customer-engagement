@@ -133,3 +133,8 @@ You can filter the [Copilot international availability report](https://releasepl
 
 The **Release Wave** column indicates the release wave in which the support is available.
 
+
+
+## Related information
+
+[Supercharge seller productivity (video)](https://youtu.be/1Lgodu6A2ZM)
