@@ -1,20 +1,20 @@
 ---
-title: Configure Microsoft Copilot Studio and Dataverse connections (Preview)
-description: Learn how to configure Microsoft Copilot Studio and Dataverse connections for the customer knowledge management agent flow.
+title: Configure connection references for customer knowledge management agent flow (preview)
+description: Learn how to configure connection references for customer knowledge management agent flow.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/13/2024
+ms.date: 11/15/2024
 ms.custom: bap-template
 ---
 
-# Configure Microsoft Copilot Studio and Dataverse connections (preview)
+# Configure connection references for customer knowledge management agent flow (preview)
 
 [This article is prerelease documentation and is subject to change.]
 
-This article provides instructions to configure Microsoft Copilot Studio and Dataverse connections for the customer knowledge management agent flow. 
+This article provides instructions to configure connection references for the customer knowledge management agent flow. 
 
 > [!IMPORTANT]
 >
@@ -28,27 +28,21 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
 1. Search for the following connection references:
     - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
     - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
+    1. To create a connection for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, in the **Edit** dialog, select **Connection** > **New connection**. 
+    1. Search for **Microsoft Dataverse** and select **Add**.
+    1. For **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**, search for **Microsoft Copilot Studio (Preview)** and select **Add*8.
  
-You can either select an existing connection or create a new one by selecting **New connection**.
+## Turn on the Power Automate flow
 
-To create a new Dataverse connection:
-1. Select **Connections**, and search for **Dataverse**. 
-1. Select **Add** besides **Microsoft Dataverse**, and then select **Create**.
- 
-To create a Microsoft Copilot Studio connection:
-1. Search for **Microsoft Copilot Studio** and then select **Microsoft Copilot Studio (preview)**.
-
-### Turn on the Power Automate flow
-
-1. Go to [make.powerapps.com](https://make.powerapps.com), and then select **Flows**.
+1. Go to **Flows**.
 1. From the **Cloud flows** tab, select **Knowledge Harvest Trigger Flow V2** flow.
+1. Select **Turn on**.
  
-
 ## Publish the Microsoft Copilot Studio bot
 
 1. Go to [Microsoft Copilot Studio](https://copilotstudio.microsoft.com), and select your environment.
 1. Select **Agents**.
-1. Search for and select **CSKnowledgeHarvestV2**.
+1. Search for and select **CustomerServiceKnowledgeHarvest**.
 1. Select **Publish**.
 
 Once done, go to the Customer Service admin center and enable customer knowledge management agent. Learn more in [Manage customer knowledge management agent (Preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
