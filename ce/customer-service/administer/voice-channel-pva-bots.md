@@ -1,5 +1,5 @@
 ---
-title: Set up Copilot Studio IVR bots
+title: Set up IVR bots in the voice channel using Copilot Studio
 description: Learn about how to add a Copilot Studio bot to use in the voice channel.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.collection:
 ms.custom: bap-template
 ---
 
-# Set up IVR bots in the voice channel
+# Set up IVR bots in the voice channel using Copilot Studio
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -26,7 +26,7 @@ The following voice capabilities are available for the Copilot Studio bots:
 
 ## Supported languages and locale codes
 
-Learn about the supported languages and locales in which the IVR capabilities are supported in [Supported languages and locale codes](/dynamics365/customer-service/administer/voice-channel-supported-languages?context=/dynamics365/contact-center/context/administer-context).
+Learn about the supported languages and locales for IVR capabilities in in [Supported languages and locale codes](/dynamics365/customer-service/administer/voice-channel-supported-languages?context=/dynamics365/contact-center/context/administer-context).
 
 ## Prerequisites
 
@@ -48,8 +48,7 @@ In the voice channel, you can configure the following features for the IVR bots:
 
 ## Automatically end conversations
 
-For a voice conversation, the bot supports a maximum call duration of an hour. The call is disconnected if it isn’t closed or escalated to an external phone number. This limit isn’t applicable once the call is transferred to an external phone number.
-
+The duration of a bot-handled voice call can be one hour only. The call is disconnected if it doesn't end or escalated. The limit isn't applicable after the call is transferred to an agent or an external number.
 
 ### Related information
 
