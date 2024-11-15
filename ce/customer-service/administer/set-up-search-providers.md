@@ -92,7 +92,5 @@ For more information about agent search experience, go to [Search across externa
 
 [Search for knowledge articles in the Customer Service Hub](../use/search-knowledge-articles-csh.md)
 
-[How to set up external search providers for your KB articles (video)](https://youtu.be/EottLc4MgmY)
-
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
