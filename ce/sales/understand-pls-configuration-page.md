@@ -1,7 +1,7 @@
 ---
 title: Understand the predictive lead scoring configuration page
 description: Learn about the various sections in the predictive lead scoring configuration page in Dynamics 365 Sales.
-ms.date: 11/05/2024
+ms.date: 11/15/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -59,8 +59,8 @@ This section shows information about the model's status and performance.
 | Attributes used | The number of attributes that were used to train the model out of the total number of attributes available. If you're not satisfied with the outcome of the trained model, you can select **Retrain with recommended fields** to retrain the model with the standard (out-of-the-box) attributes. **Edited** appears next to the number if the attributes were custom-selected. |
 | Model performance | The model's accuracy and projected performance are based on the data available and selected to train the model.<br>**Note**: The range of the accuracy score is defined based on the area under the curve (AUC) metric.<br>- **Ready to publish** indicates the model's accuracy is above the range, and you can expect the model will perform well.<br>- **OK to publish** indicates the model accuracy is within range, and you can expect the model might perform reasonably well.<br>- **Not ready to publish** indicates the model's accuracy is below the range, and you can expect the model will perform poorly. |
 | Business process flow | The business process flow that's applied on the leads that are scored by this model. |
-| Filter column and filter values | Which column and which values correspond to the leads that this specific model should score when you have multiple models. |
 | State option set | The option set that's used to qualify and disqualify leads in this model. |
+|Training with leads from the past 2 years | The model is being trained using leads created in the past 2 years. |
 | Retrain automatically | Sets the model to be [automatically retrained](pls-edit-and-retrain-model.md#automatic-retraining) every 15 days. |
 | Most influential fields | The top five attributes that most affect the outcome of the prediction accuracy score. |
 
