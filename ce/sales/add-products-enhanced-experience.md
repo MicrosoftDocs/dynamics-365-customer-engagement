@@ -76,7 +76,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 5. In the **Products** grid, select **Add products**.
 
-   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
+   :::image type="content" source="media/enhancedAddProductsDialog.png" alt-text="Screenshot of the enhanced Add products dialog box.":::
 
    > [!NOTE]
    > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see the form interface instead of the Add products dialog, contact your system administrator to enable the experience.
@@ -130,7 +130,7 @@ no longer relevant for the opportunity. You can remove products in two circumsta
 
 1. Open the opportunity, go to the **Products** tab.
 
-2. Select the products that you want to remove, and then select **Delete opportunity Line**.
+2. Select the products that you want to remove, and then select **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Delete opportunity Line**.
     The selected products will be removed from the opportunity after you confirm the deletion.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

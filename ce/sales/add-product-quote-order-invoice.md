@@ -43,13 +43,13 @@ The process for adding a product to a quote record is the same as adding a produ
     - To add products from an opportunity, select the **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Get products** and select the opportunity.  
        Products from the selected opportunity are added to the quote.
   
-    - To find and add products manually, select **Add products**.
+    - To find and add products manually, select **Add product**.
 
-        1. In the **Quick Create: Quote Product form**, do the following: 
+        1. In the **Quick Create: Quote Product** form, do the following: 
     
-        1.	In the **Select Product** drop-down list, select whether you want to add an existing product or create a new one:
+        1.	In the **Select Product** toggle, select whether you want to add an existing product or create a new one:
     
-            - In the **Existing Product** field, select **Lookup** to search for and add a product. Also, select a unit of measurement for the product.
+            - To add an existing product, select **Existing**. In the **Existing Product** field, search for and add a product. Also, select a unit of measurement for the product.
     
               > [!NOTE]
               > - When a price list is selected for the opportunity, the products listed in the **Existing Product** field are filtered by the price list. This means that only the product associated with the selected price list are shown in this field. In this case, the default view is set to **Products in Parent Price List** view. You can't set a custom view as the default view. Even if you do, the Products lookup will automatically set it back to **Products in Parent Price List** view.
@@ -85,7 +85,7 @@ Here are the actions you can take on the products in the Products grid:
 |Edit properties of a product  |Select a product, and on the command bar, select **Edit**. You can change details such as the price, quantity, or discount of the added products. <br/> You can also open the quote product, order product, or invoice product record, and view or change the properties of the product inline on the **Product Properties** tab. |
 |Delete a product associated with the quote |Select the product, and on the command bar, select the **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Delete Quote Product**. |
 |View products within a bundle | Select the **Chevron** icon ![Chevron icon.](media/chevron-icon.png "Chevron icon") for the product bundle. You’ll see all the products that are included in the bundle. |
-|See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See and add related products for cross-selling or upselling or to select an accessory or substitute product | Select a product, and on the command bar, select the **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Suggestions**. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
 |See specific records together by moving a record up or down in the grid | Select a record, and on the command bar, use the **Move Up** or **Move Down** button. |
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
