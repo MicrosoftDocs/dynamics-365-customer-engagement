@@ -41,7 +41,7 @@ Let's look at some scenarios to understand round robin distribution.
 
 A lead comes into the system at 11:20 PM. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
 
-| Seller | Last assigned a lead |
+| Seller | Last assigned record |
 |--------|----------------------|
 | Miriam | 10:02 AM |
 | Sanjay | 10:31 AM |
@@ -51,19 +51,20 @@ Miriam's last assignment is earlier than Sanjay's and Susana's. She's been waiti
 
 An opportunity comes into the system at 1:50 PM. This time, you manually assigned the opportunity to Susana. Then a lead came into the system at 2:30 PM. Based on the selection criteria that are defined in the assignment rule, it's assigned to Sanjay. The order looks like this:  
 
-| Seller | Last assigned a lead | Entity type | Assignment source | Next assignment order when only lead rules configured | Next assignment order when Lead and opportunity rules are configured |
+> [!NOTE]
+> When a record is assigned manually, the order of assignment changes from the last assignment for the configured assignment rule associated with that entity type. However, the order of assignment doesn't change for assignment rules associated with other entity types.
+
+| Seller | Last assigned record | Entity type | Assignment source | Next assignment order when only lead rules configured | Next assignment order when Lead and opportunity rules are configured |
 |--------|----------------------|-------------|-------------------|-------------------------------------------------------|----------------------------------------------------------------------|
 | Miriam | 11:20 PM | Lead | Assignment rule engine | Sanjay, Susana, Miriam | Sanjay, Susana, Miriam |
 | Susana | 1:50 PM | Opportunity | Manual | Sanjay, Susana, Miriam | Sanjay, Miriam, Susana |
-| Sanjay | 2:30 PM | Lead | Assignment rule engine | Susana, Miriam, Sanjay | Susana, Miriam, Sanjay |
+| Sanjay | 2:30 PM | Lead | Assignment rule engine | Susana, Miriam, Sanjay | Miriam, Susana, Sanjay |
 
 A new lead comes into the system at 3:00 PM. You manually assigned it to Miriam. The new order of assignment looks like this:  
 
-| Seller | Last assigned a lead | Entity type | Assignment source | Next assignment order when only lead rules configured | Next assignment order when Lead and opportunity rules are configured |
+| Seller | Last assigned record | Entity type | Assignment source | Next assignment order when only lead rules configured | Next assignment order when Lead and opportunity rules are configured |
 |--------|----------------------|-------------|-------------------|-------------------------------------------------------|----------------------------------------------------------------------|
 | Miriam | 3:00 PM | Lead | Manual | Susana, Sanjay, Miriam | Susana, Sanjay, Miriam |
-| Susana | 1:50 PM | Opportunity | Manual | Sanjay, Susana, Miriam | Sanjay, Miriam, Susana |
-| Sanjay | 2:30 PM | Lead | Assignment rule engine | Susana, Miriam, Sanjay | Susana, Miriam, Sanjay |
 
 **Scenario 2**
 
