@@ -89,7 +89,7 @@ After you've configured your bot and added it to a workstream, you can configure
 
 ## Add a bot to a queue
 
-You can add a bot to the queue so that the bot can receive conversations from the queue. Learn more in [create and manage queues for unified routing](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context).
+You can add a bot to the queue so that the bot can receive conversations in the queue. Learn more in [create and manage queues for unified routing](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context).
 
 
 ## Automatically close a conversation
