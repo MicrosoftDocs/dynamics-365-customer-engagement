@@ -306,6 +306,8 @@
             href: realtime-summary-dashboard.md
           - name: Voice report
             href: realtime-voice-dashboard.md
+          - name: Bot dashboard
+            href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml             
           - name: Agents report
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
@@ -338,8 +340,6 @@
             href: agent-dashboard.md
           - name: Omnichannel Bot dashboard
             href: oc-bot-dashboard.md  
-          - name: Omnichannel Bot dashboard
-            href: /dynamics365/contact-center/use/oc-bot-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml 
           - name: Omnichannel Conversation topic dashboard
             href: oc-conversation-topics-dashboard.md
           - name: Omnichannel Voicemail dashboard
