@@ -422,8 +422,6 @@
         href: cs-voice-historical-analytics.md
       - name: Configure Copilot Studio bots for voice
         href: voice-channel-pva-bots.md
-      - name: Handle bot connectivity issues
-        href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
       - name: Configure multilingual IVR bots
         href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: View voice calls usage
