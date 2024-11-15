@@ -32,7 +32,7 @@ The following capabilities are available for the bot conversations:
 - Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use the historical dashboards to get insights into the effectiveness of the bots through metrics, such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 
-When a conversation is escalated from a bot to a representative, the representative can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
+When a bot escalates the conversation to a representative, the representative can see the transcript of the bot conversation and get complete context while engaging with the customer. Learn more at [Enable a bot to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
 
 
 ## Prerequisites
