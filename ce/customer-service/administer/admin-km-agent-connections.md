@@ -29,7 +29,7 @@ This article provides instructions to configure Microsoft Copilot Studio and Dat
     - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
     - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
  
-You can either select an existing connection if present or create a new one by selecting **New connection**.
+You can either select an existing connection or create a new one by selecting **New connection**.
 
 To create a new Dataverse connection:
 1. Select **Connections**, and search for **Dataverse**. 
