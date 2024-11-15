@@ -14,6 +14,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/03/2023
+  - ignite-2024
 ---
 
 # Turn on and set up Copilot in Dynamics 365 Sales
