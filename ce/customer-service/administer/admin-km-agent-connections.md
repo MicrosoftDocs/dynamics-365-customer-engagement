@@ -14,7 +14,12 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-This article provides instructions to configure connection references for the customer knowledge management agent flow. 
+This article provides instructions to configure connection references for the customer knowledge management agent flow. You will need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
+
+- **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
+- **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
+
+Learn more in [Add connection references to a solution](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
 
 > [!IMPORTANT]
 >
@@ -28,9 +33,11 @@ This article provides instructions to configure connection references for the cu
 1. Search for the following connection references:
     - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
     - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
-    1. To create a connection for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, in the **Edit** dialog, select **Connection** > **New connection**. 
-    1. Search for **Microsoft Dataverse** and select **Add**.
-    1. For **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**, search for **Microsoft Copilot Studio (Preview)** and select **Add*8.
+1. To create a connection for **Microsoft Dataverse CustomerServiceKnowledgeHarvest**:
+    1. In the **Edit** dialog, select **Connection** > **New connection**. 
+    1. Search for **Microsoft Dataverse** and select **Create**.
+    1. Go back to the **Edit** dialog of **Microsoft Dataverse CustomerServiceKnowledgeHarvest**, search for the new connection and save it.
+1. Perform the same steps to create a connection for **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**, with **Microsoft Copilot Studio (Preview)**.
  
 ## Turn on the Power Automate flow
 
