@@ -74,6 +74,34 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 1. Turn on **Email (preview)** to get the [Copilot email experience](compose-send-email-copilot.md). This option is enabled only after you turn on the **Try our newest preview features before they're rolled out to everyone** option.
 1. Select **Save**.
 
+<a name="add-glossary"></a>
+## Train Copilot to understand your business terms (preview)
+
+You can train Copilot in Dynamics 365 Sales to understand your business terms by adding a glossary. The glossary helps Copilot understand your business terms and their context, and respond to your requests more accurately. For example, if you have a custom field called **custom revenue** in the **opportunity** table, you can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table.
+
+> [!NOTE]
+> The glossary feature is currently available only in English.
+
+**To add glossary terms:**
+
+1. Open [Copilot Studio](copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
+
+1. Open **Sales Copilot Power Virtual Agents Bot** under **Agent** section.
+1. Select **SalesSpecificQnA** under **Knowledge** section.
+       :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
+1. Select the **Glossary** section and enter the term and description and click **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
+1. Select **Save** after you have added all the terms.
+   The updated glossary terms are available after 15 minutes in the Copilot chat experience in Dynamics 365 Sales.
+
+### Sample term and description
+
+| Scenarios  | Term  | Description |
+|-----------------------|---------|-----------------------|
+| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table |
+| **Custom ownership** (Specify your ownership instead of using the record owner id) | activity owner  | activity owner is identified by 'PartyId' column in 'ActivityParty' table.  |
+| **Custom field** (Use a custom field instead of the OOB system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
+| **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | ‘overdue task’ refers to ‘state code’ column with value ‘open’ in ‘task’ table and ‘scheduled end date’ column in ‘task’ table with value less than today.  |
+
 ## Add the Copilot page site map entry to custom sales app
 
 When you create a custom model-driven app, you can choose a default solution to create a site map for it. However, you can choose solutions that are based on table forms only. The full-screen Copilot page is based on a URL custom control and doesn't appear in the list of solutions. You must add it to the site map manually.  
