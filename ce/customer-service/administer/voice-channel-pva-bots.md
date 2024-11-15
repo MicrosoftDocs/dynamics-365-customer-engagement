@@ -43,7 +43,6 @@ You can then specify how the bot should handle failure conditions and set up the
 
 In the voice channel, you can configure the following features for the IVR bots:
 
-- Specify how the bot should handle calls when the customer can't reach the bot or when there's a system failure during an IVR conversation. Learn more in [Handle bot connectivity issues](/dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
 - Set up your IVR bot to [handle multiple languages](/dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml).
 
 ## Automatically end conversations
