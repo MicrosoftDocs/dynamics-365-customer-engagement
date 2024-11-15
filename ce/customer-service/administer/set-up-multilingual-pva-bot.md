@@ -40,7 +40,7 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 ## Prerequisites
 
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
-- Your bot must be registered in the Azure app registration page. Note the application ID. More information: [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
+- Your bot must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
 
 ## Create a bot in Copilot Studio
 
@@ -54,7 +54,7 @@ For example, you can create a bot with the following details:
 
 ## Create a topic in Bot Framework Composer
 
-1. In Copilot Studio, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. For more information on how to navigate the Bot Framework Composer, see: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
+1. In Copilot Studio, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. Learn more about how to navigate the Bot Framework Composer in: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
 
 1. Select **Open**, and on the **Import your bot to new project** dialog that appears, enter the following details:
 
@@ -75,7 +75,7 @@ For example, you can create a bot with the following details:
       `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="en-US-AriaNeural"><lang xml:lang="en-US">Hello ${virtualagent.msdyn_CustomerName}. Welcome to contoso customer support.</lang></voice></speak>`
 
       > [!NOTE]
-      > The ${virtualagent.msdyn_CustomerName} variable provides the customer name for authenticated customers only through record identification. More information: [Identify customers automatically](record-identification-rule.md)
+      > The ${virtualagent.msdyn_CustomerName} variable provides the customer name for authenticated customers only through record identification. Learn more in [Identify customers automatically](record-identification-rule.md)
 
    1. Select the **Add** (+) node in **BeginDialog**, point to **Ask a question**, and then select **Multi-choice**.
 
@@ -113,7 +113,7 @@ For example, you can create a bot with the following details:
       The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
       > [!NOTE]
-      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
+      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. Learn more in [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
 
    1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 

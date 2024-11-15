@@ -14,11 +14,11 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-To route customer calls to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call. Copilot Studio makes it easy to author IVR bots, and you can use the same bots for other channels, like chat and voice.
+To route customer calls to the best department, diagnose issues, collect information, and give recommendations, conversational IVR bots speak to customers when they call. Copilot Studio makes it easy to author Interactive Voice Response (IVR) bots, and you can use the same bots for other channels, like chat and voice.
 
 The following voice capabilities are available for the Copilot Studio bots:
 
-- Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without using a prompt script, and Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot can detect when customers have stopped speaking by using silence detection and respond accordingly.
+- Collect customer input through speech or [Dual-Tone Multi-Frequency (DTMF)](/microsoft-copilot-studio/voice-dtmf). Customers can talk without using a prompt script, and Copilot understands their commands or questions. Customers can also enter data by pressing keys on their phone keypad. The Copilot bot detects when customers stop speaking using silence detection and responds accordingly.
 - Adjust the voice output by using [speech synthesis markup language (SSML)](/microsoft-copilot-studio/voice-configuration#format-speech-synthesis-with-ssml). You can change the tone, pitch, and speed of the voice that interacts with customers.
 - You can also upload your audio files to use in the bot. For example, you can upload a custom greeting or a message that plays when the bot can't understand the customer's request. Learn more in [Play secure audio file from Copilot Studio](/dynamics365/guidance/resources/copilot-studio-play-audio-file).
 - Enable [barge-in](/microsoft-copilot-studio/voice-configuration#enable-barge-in) to let customers interrupt Copilot at any time. You can also use long-running operation messages to let customers know that the voice-enabled Copilot is working on their request.
@@ -26,7 +26,7 @@ The following voice capabilities are available for the Copilot Studio bots:
 
 ## Supported languages and locale codes
 
-Learn about the supported languages and locales for IVR capabilities in in [Supported languages and locale codes](/dynamics365/customer-service/administer/voice-channel-supported-languages?context=/dynamics365/contact-center/context/administer-context).
+Learn about the supported languages and locales for IVR capabilities in [Supported languages and locale codes](/dynamics365/customer-service/administer/voice-channel-supported-languages?context=/dynamics365/contact-center/context/administer-context).
 
 ## Prerequisites
 
