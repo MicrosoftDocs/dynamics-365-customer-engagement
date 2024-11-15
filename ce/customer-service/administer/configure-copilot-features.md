@@ -143,3 +143,4 @@ More information: [Security roles and privileges](/power-platform/admin/security
 [Use Copilot features](../use/use-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot in Customer Service](faq-copilot-features.md)  
+[Enabling Copilot for Customer Service Agents (video)](https://youtu.be/17nOn3mhfjU)  
