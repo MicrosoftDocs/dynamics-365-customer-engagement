@@ -22,7 +22,7 @@ ms.custom: bap-template
 
 Use bots to simulate human-like conversations for routine activities so that you can let your agents focus on high-value interactions. You can use Microsoft Copilot Studio to create bots that can interact with customers in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
-When you integrate a Copilot Studio bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
+The following capabilities are available for the bot conversations:
 
 - Seamlessly integrate your bot with all channels without needing to add channel-specific code in the bot.
 - Configure interactive voice response (IVR) capabilities for voice-enabled bots.
