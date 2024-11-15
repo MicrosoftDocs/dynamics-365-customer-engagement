@@ -60,7 +60,7 @@ This section shows information about the model's status and performance.
 | Model performance | The model's accuracy and projected performance are based on the data available and selected to train the model.<br>**Note**: The range of the accuracy score is defined based on the area under the curve (AUC) metric.<br>- **Ready to publish** indicates the model's accuracy is above the range, and you can expect the model will perform well.<br>- **OK to publish** indicates the model accuracy is within range, and you can expect the model might perform reasonably well.<br>- **Not ready to publish** indicates the model's accuracy is below the range, and you can expect the model will perform poorly. |
 | Business process flow | The business process flow that's applied on the leads that are scored by this model. |
 | State option set | The option set that's used to qualify and disqualify leads in this model. |
-|Training with leads from the past 2 years | The model is being trained using leads created in the past 2 years. |
+|Training with leads from the past | The model is trained using leads created in the past 2 years. |
 | Retrain automatically | Sets the model to be [automatically retrained](pls-edit-and-retrain-model.md#automatic-retraining) every 15 days. |
 | Most influential fields | The top five attributes that most affect the outcome of the prediction accuracy score. |
 

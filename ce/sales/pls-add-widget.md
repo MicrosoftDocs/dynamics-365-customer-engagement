@@ -31,11 +31,11 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
 1. Search for and select your organization's environment.
 
-2. In the site map, select **Tables**, and then select the Lead table.
+2. In the site map, select **Tables**, and then select the `Lead` table.
 
 3. In the **Data experiences** section, select **Forms**.
 
-1. Open the **Lead**, and then select a main form to add the widget to.
+1. Select a main form to add the widget to.
 
     > [!NOTE]
     > If the table to which you want to add the widget isn't listed, in the upper-right corner of the page, change the filter to **All**.
