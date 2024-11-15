@@ -1,4 +1,4 @@
-﻿---
+---
 title: Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
 description: Learn how to configure third-party dialers and Dynamics 365 to get conversation intelligence for calls made or received from third-party dialers.
 ms.date: 08/29/2024
@@ -56,7 +56,7 @@ The following diagram illustrates how the integration works:
 
 2. Get the token to run the Conversation Intelligence APIs using the app created in the previous section:
 
-    ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=f448d7e5-e313-4f90-a3eb-5dbb3277e4b3/.default' -d 'client_secret=<your app secret>'```
+    ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=00001111-aaaa-2222-bbbb-3333cccc4444/.default' -d 'client_secret=<your app secret>'```
 
    The `scope` parameter specifies the application ID of the Conversation intelligence app. Don't change this value.
 
