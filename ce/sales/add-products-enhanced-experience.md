@@ -130,7 +130,7 @@ no longer relevant for the opportunity. You can remove products in two circumsta
 
 1. Open the opportunity, go to the **Products** tab.
 
-2. Select the products that you want to remove, and then select **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Delete opportunity Line**.
+2. Select the products that you want to remove, and then select **Delete opportunity Line**.
     The selected products will be removed from the opportunity after you confirm the deletion.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
