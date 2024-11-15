@@ -143,4 +143,4 @@ The following data security and privacy considerations apply for Teams chat func
 ## Related information
 
 [Use Microsoft Teams chat in Sales Hub](using-teams-chat-in-dynamics.md)  
-[How to enhance sales productivity on deals using Dynamics 365 and Teams (video)](https://youtu.be/cLulSxWepMQ) 
+ 
