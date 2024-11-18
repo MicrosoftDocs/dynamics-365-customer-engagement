@@ -213,6 +213,11 @@ The widget can show on any portal you want. You can copy the HTML script tag any
 
 The same widget persists the chat as you cross different pages or websites.
 
+### Does the live chat widget meet the Web Content Accessibility Guidelines to publish to external websites?
+
+Yes, the live chat widget meets Microsoft Accessibility Standards, which include the Web Content Accessibility Guidelines (WCAG). 
+Learn more about Microsoft accessibility policies in the [Trust Center](https://www.microsoft.com/en-us/trust-center/compliance/accessibility).
+
 ## Routing and work distribution
 
 ### Can I route chats based on custom variables that we pass through code on my portal?

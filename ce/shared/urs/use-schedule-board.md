@@ -39,7 +39,7 @@ Set the time frame that shows on the board. Use the arrows to move between time 
 
 ### Book
 
-Book a requirement manually. Select a requirement and a resource, start date/time, end date/time, booking status, and booking method.
+Book a requirement manually. Select a requirement and a resource, start date/time, end date/time, booking status, and booking method. Manual bookings don't validate constraints like availability, characteristics, or location. Use the schedule assistant if you want the system to honor constraints of a booking.
 
 ### Move bookings
 
@@ -118,6 +118,10 @@ The schedule assistant lists available and matching resources that you can book 
 You can move a booking to a resource on the current schedule board tab, or change the start date/time, or both
 
 Right-click the booking on th schedule board and select **Move to**. Reassign the booking to any resource on the current schedule board tab, or change the start date and the start time of the booking. To assign the booking to a resource that doesn't show on this schedule board, select the filter icon in the resource field and change the filter from **Resources on this tab** to **All resources**. Select **Update** to apply the changes.
+
+## Change Time Granularity
+
+You can change the time granularity of the schedule board either by adjusting the slider on the bottom right or by using browser zooming keyboard shortcuts (e.g. ctrl+scroll or pinching a trackpad).
 
 ## Create a new schedule board tab
 
