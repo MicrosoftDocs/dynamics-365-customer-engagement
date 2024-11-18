@@ -133,7 +133,9 @@ The available capacity of a seller is calculated by subtracting the consumed cap
 The available capacity is calculated as follows:  
 *Available capacity* = *Maximum capacity* - *Consumed capacity*  
 
-For example, Alex has a maximum capacity of 50 records, and has already consumed 30 records. The available capacity for Alex is 20 records.  
+For example, assignment rules are configured only for the lead entity. Alex has a maximum capacity of 50 records. He's already assigned to 20 lead records and 10 opportunity records. As the assignment rules are not configured for opportunity entity, the available capacity is calculated as follows:
+
+Available capacity = 50 - 20 (leads) = 30 records.
 
 ## Consideration
 
