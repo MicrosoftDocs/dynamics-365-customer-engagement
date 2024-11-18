@@ -1,6 +1,6 @@
 ---
-title: Enhance Copilot responses with knowledge from additional sources 
-description: 
+title: Enable knowledge sources from Microsoft Copilot Studio 
+description: Learn how to enable knowledge sources from Microsoft Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -10,11 +10,11 @@ ms.date: 11/18/2024
 ms.custom: bap-template
 ---
 
-# Enhance Knowledge in Copilot Studio
+# Enable knowledge sources from Microsoft Copilot Studio
 
 The performance of Copilot is highly correlated to the quality of knowledge it can access. This feature enables customers to integrate with various knowledge management platforms without having to ingest the content into the Dynamics 365 knowledge base. The expanded knowledge coverage improves Copilot response quality, thereby the agents' experience and productivity.
 
-This will enable agents to get enhanced Copilot results powered by content from knowledge sources beyond the Dynamics 365 knowledge base. 
+This will enable customer service representatives to get enhanced Copilot results powered by content from knowledge sources beyond the Dynamics 365 knowledge base. 
 
 ## Prerequisites
 
@@ -24,9 +24,9 @@ Make sure you have met the following prerequisites.
 
 - A license for Copilot Studio is available. 
 
-- Copilot in Customer Service is enabled. 
+- [Copilot in Customer Service is enabled](configure-copilot-features.md#manage-copilot-features-in-customer-service). 
 
-## Enable Knowledge Hub in the Customer Service admin center
+## Enable knowledge sources configured in Copilot Studio
  
 1. In the Customer Service admin center, go to **Productivity** > **Copilot for questions and emails** > **Manage**. 
 1. In the **Knowledge sources** section, select the **Use knowledge sources configured in Copilot Studio (preview)** option. This takes you to Microsoft Copilot Studio. 
