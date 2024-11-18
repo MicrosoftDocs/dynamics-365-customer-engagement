@@ -10,7 +10,7 @@ ms.date: 11/18/2024
 ms.custom: bap-template
 ---
 
-# Enhance Copilot responses with knowledge from additional sources
+# Enhance Knowledge in Copilot Studio
 
 Unifying knowledge from multiple sources enhances customers’ experience and empowers our Copilots to provide accurate and helpful responses across. Knowledge Hub integration in Microsoft Copilot Studio and Dynamics 365 Customer Service will now enable admins to configure knowledge management platforms beyond the Dynamics 365 knowledge base and streamline the relevance and usefulness of Copilot responses. 
 
@@ -37,13 +37,17 @@ Make sure you have met he following prerequisites.
 1. Select the **Knowledge hub** link. This takes you to MS Copilot Studio. 
 1. In Copilot Studio, go to **Copilot in Dynamics 365 Customer Service**.
 1. On the **Knowledge** page, select **Add knowledge**.
-1. Select from the following knowledge sources:
+1. Select one from the following knowledge sources:
     1. Public website
     1. Files
-    1. SharePoint
+    1. SharePoint 
     1. Dataverse
     1. Graph connectors
     1.  
+
+> [!NOTE]
+> - You must enable the SharePoint (private preview) to be able to see it. 
+Federated knowledge source doesn't work.
 
 ## Next steps
 
