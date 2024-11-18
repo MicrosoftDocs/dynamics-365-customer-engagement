@@ -76,6 +76,7 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 1. Select **Save**.
 
 <a name="add-glossary"></a>
+
 ## Train Copilot to understand your business terms (preview)
 
 You can train Copilot in Dynamics 365 Sales to understand your business terms by adding a glossary. The glossary helps Copilot understand your business terms and their context, and respond to your requests more accurately. For example, if you have a custom field called **custom revenue** in the **opportunity** table, you can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table.
@@ -98,9 +99,9 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms by
 
 | Scenarios  | Term  | Description |
 |-----------------------|---------|-----------------------|
-| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table |
+| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table. |
 | **Custom ownership** (Specify your ownership instead of using the record owner id) | activity owner  | activity owner is identified by 'PartyId' column in 'ActivityParty' table.  |
-| **Custom field** (Use a custom field instead of the OOB system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
+| **Custom field** (Use a custom field instead of the out-of-the-box system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
 | **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | ‘overdue task’ refers to ‘state code’ column with value ‘open’ in ‘task’ table and ‘scheduled end date’ column in ‘task’ table with value less than today.  |
 
 ## Add the Copilot page site map entry to custom sales app
