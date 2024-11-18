@@ -1,7 +1,7 @@
 ---
 title: Understand record distribution in assignment rules
 description: Learn how lead, opportunity, and insight round robin and load balancing distribution works in Dynamics 365 Sales assignment rules.
-ms.date: 11/22/2024
+ms.date: 11/18/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
