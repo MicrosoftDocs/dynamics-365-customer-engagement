@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 10/12/2023
+ms.date: 11/18/2024
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
@@ -19,13 +19,11 @@ After you [create and activate a segment](./create-and-activate-a-segment.md), c
 
 You can connect segments to sequences in your work assignment settings or using the [sequence designer](view-sequence-details-connected-records.md).
 
-[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
 ## License and role requirements
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
+| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
 | **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Prerequisites
@@ -52,6 +50,13 @@ You can connect segments to sequences in your work assignment settings or using 
 If none of the sequences listed seems appropriate, [create a sequence](create-and-activate-a-sequence.md) to connect to the segment.
 
 If you want to connect a different sequence to the segment, disconnect the current sequence first.
+
+## Considerations
+
+Remember the following when connecting segments to sequences:
+
+- The application runs on a pooling mechanism and retrieved records are processed at regular intervals. So, there might be a delay in a record being added to a sequence after it meets the segment criteria.  
+- Records are segmented only if there is at least one active segment connected to a sequence or an active segment with an active assignment rule.  
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
