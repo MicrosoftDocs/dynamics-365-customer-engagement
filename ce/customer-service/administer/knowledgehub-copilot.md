@@ -29,8 +29,8 @@ Make sure you have met the following prerequisites.
 ## Enable Knowledge Hub in the Customer Service admin center
  
 1. In the Customer Service admin center, go to **Productivity** > **Copilot for questions and emails** > **Manage**. 
-1. In the **Knowledge sources** section, select the **Use knowledge sources configured in Copilot Studio (preview)** option. This takes you to MS Copilot Studio. 
-1. In Copilot Studio, go to **Copilot in Dynamics 365 Customer Service**.
+1. In the **Knowledge sources** section, select the **Use knowledge sources configured in Copilot Studio (preview)** option. This takes you to Microsoft Copilot Studio. 
+1. In Microsoft Copilot Studio, go to **Copilot in Dynamics 365 Customer Service**.
 1. On the **Knowledge** page, select **Add knowledge**.
 1. Select from the following knowledge sources:
     1. [Public website](/microsoft-copilot-studio/knowledge-add-public-website)
