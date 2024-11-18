@@ -3,7 +3,7 @@ title: Handle queue overflow
 description: Learn how to set up overflow conditions and actions for your Dynamics 365 Customer Service voice, chat, and messaging channels when there are more items in the queue than your team can handle.
 author: neeranelli
 ms.author: nenellim
-ms.date: 10/25/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -143,7 +143,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 When a work item is in a queue and the wait is long, the system can reroute it to another queue that has agents available.
 
-1. In the Customer Service admin center site map, select **Customer support** > **Queues**.
+1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
@@ -153,7 +153,7 @@ When a work item is in a queue and the wait is long, the system can reroute it t
 
 1. Select the **Waiting time in queue exceeds** condition.
 
-1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows.
+1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows. If more than 20 work items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
 
 1. [Select overflow condition-action pairs for queued work items](#overflow-condition-and-actions-when-work-items-are-queued).
 
