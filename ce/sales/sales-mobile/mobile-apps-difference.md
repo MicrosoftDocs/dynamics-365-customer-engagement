@@ -10,9 +10,9 @@ ms.reviewer: shjais
 
 # Difference between Dynamics 365 Sales mobile app and Dynamics 365 for phones and tablets app
 
-This article describes the differences between the Dynamics 365 Sales mobile app and the Dynamics 365 for phones and tablets app. The Dynamics 365 Sales mobile app is designed to help salespeople stay connected and productive while on the go. The app provides a modern and intuitive user experience that is optimized for mobile devices. The Dynamics 365 for phones and tablets app is a legacy app that lets you access the Sales Hub or Sales Professional app on your mobile devices.
+This article describes the differences between the Dynamics 365 Sales mobile app and the Dynamics 365 for phones and tablets app. The Dynamics 365 Sales mobile app is designed to help salespeople stay connected and productive while on the go. The app provides a modern and intuitive user experience that is optimized for mobile devices. 
 
-To access the sales apps on your computer, [use the Sales Hub app](../intro-saleshub.md).
+The Dynamics 365 for phones and tablets app is a legacy app that lets you access the Sales Hub or Sales Professional app on your mobile devices. 
 
 The following table provides a comparison of the capabilities and features of the two mobile apps.
 
