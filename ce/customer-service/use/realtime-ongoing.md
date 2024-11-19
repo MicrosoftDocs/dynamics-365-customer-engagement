@@ -39,8 +39,8 @@ You can view agent skills and proficiency, availability, and available capacity,
 |Type  |Conversation state  |Assign |Transfer |
 |---------|---------|---------|---------|
 |Record     |     Open     | Assign to queue        |     Not enabled    |
-|Record   |      Open   | Assign to agent        |     Transfer to agent    |
-|Record     |     Active    |   Assign to agent       |    Transfer to agent     |
+|Record   |      Open   | Assign to agent        |     Not enabled    |
+|Record     |     Active    |   Not enabled       |    Transfer to agent     |
 |Record     |   Wrap-up      |      Not enabled     |      Not enabled     |
 
 ### Assign conversations
