@@ -22,10 +22,10 @@ We recommended creating pools that use the same resource type. If you want to cr
 
 1. On the **Scheduling** tab, choose a **Start Location** and **End Location**. Choose **Organizational Unit Address** to represent a physical location where the pool works, or **Location Agnostic** for a pool of resources work remotely.
   
-  > [!NOTE]
-  > Don't choose the *Resource address* option.
+   > [!NOTE]
+   > Don't choose the *Resource address* option.
 
-1. Choose an option for **Derive Capacity From Group Members**:
+1. Choose an option for **Derive Capacity From Group Members** and then select **Save**.
    - **Yes**: Capacity of the pool resource is recalculated based on its member's work hour calendars. Pool capacity changes when adding or removing pool members.
    - **No**: The system sets the capacity of the pool but you can change it. Adding and removing pool members won't change the capacity.
 
@@ -40,7 +40,7 @@ Add members to a pool through the bookable resource group entity.
 
 1. On a resource pool record, go to **Related** > **Resource's Children**.
 
-1. Select **Add New Bookable Resource Group** and enter a **Name** for the resource. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools cannot be made a child of a pool.
+1. Select **New Bookable Resource Group** and enter a **Name** for the resource. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools cannot be made a child of a pool.
 
 ## Book a pool with the schedule assistant
 
