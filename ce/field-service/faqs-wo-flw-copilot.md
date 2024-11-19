@@ -1,7 +1,7 @@
 ---
 title: FAQ about work order creation using Copilot in Field Service for Outlook
 description:  Get answers to common questions about the AI technology used in Dynamics 365 Field Service for Outlook, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 08/08/2024
+ms.date: 11/12/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -40,7 +40,7 @@ This feature was evaluated using both conventional performance testing and metho
 
 ## What are the supported geographies and languages?
 
-For more information, go to [Copilot International Availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+[Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

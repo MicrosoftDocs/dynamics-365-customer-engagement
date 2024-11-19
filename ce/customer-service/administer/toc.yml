@@ -170,7 +170,7 @@
       items:
       - name: Overview of case management
         href: overview-cases.md
-      - name: Define status reason transitions for case management
+      - name: Add status reason, status reason transitions to manage cases
         href: define-status-reason-transitions-case-management.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
@@ -397,7 +397,7 @@
         - name: Disconnect from Azure Communication Services
           href: voice-channel-disconnect-from-acs.md
       - name: Migrate workstreams to support voice-enabled Copilots
-        href: migrate-voice-workstream.md    
+        href: migrate-voice-workstream.md
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
@@ -407,19 +407,9 @@
       - name: Enable agents to search for contacts and open records from outbound dialer 
         href: add-outbound-dialer-settings.md  
       - name: Use Azure Virtual Desktop to access voice channel
-        href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml       
+        href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
-      - name: Integrate Nuance Gatekeeper (preview)
-        items:
-        - name: Overview of Nuance Gatekeeper Integration
-          href: nuance-gatekeeper-introduction.md
-        - name: Configure contact center for Nuance Gatekeeper
-          href: configure-contact-center-nuance-gatekeeper.md
-        - name: Add authentication setting for Nuance Gatekeeper
-          href: configure-gatekeeper-authentication.md
-        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
-          href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
@@ -432,6 +422,8 @@
         href: cs-voice-historical-analytics.md
       - name: Configure Copilot Studio bots for voice
         href: voice-channel-pva-bots.md
+      - name: Configure multilingual IVR bots
+        href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Configure post-call survey
@@ -448,10 +440,8 @@
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilingual bot
+      - name: Use bot framework composer to set up a multilingual bot for voice channel
         href: set-up-multilingual-pva-bot.md
-      - name: Set up a multilingual contact center
-        href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
       - name: Integrate Nuance Cloud IVR bot
@@ -629,9 +619,9 @@
         - name: Enable features in Copilot pane
           href: copilot-enable-help-pane.md
         - name: Enable ask a question
-          href: copilot-enable-help-pane.md
+          href: copilot-enable-help-pane.md#enable-ask-a-question
         - name: Enable draft a response (preview)
-          href: copilot-enable-help-pane.md
+          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
         - name: Enable Copilot to draft emails 
           href: copilot-email-enable.md
       - name: Enable case summaries through ask a question (preview)
@@ -664,16 +654,18 @@
         href: configure-bot-best-practices.md
       - name: Manage your bots
         href: manage-your-bots.md
-      - name: Configure context variables for bots
-        href: context-variables-for-bot.md
+      - name: Integrate a Copilot Studio bot
+        href: configure-bot-virtual-agent.md
+      - name: Transfer conversations from customer service representatives to agents
+        href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure Azure bots
         items:
         - name: Bot sessions and licensing
           href: bot-session-licensing.md
         - name: Integrate an Azure bot
-          href: configure-bot-azure.md         
-      - name: Integrate a Copilot Studio bot
-        href: configure-bot-virtual-agent.md
+          href: configure-bot-azure.md   
+      - name: Configure context variables for bots
+        href: context-variables-for-bot.md      
     - name: Analytics dashboards and insights
       items:
       - name: Use and customize analytics and insights
@@ -808,10 +800,10 @@
         href: cs-iot-security-roles.md
     - name: Migration solutions
       items:
-      - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      - name: Migrate from removed or deprecated apps to Customer Service workspace
         items:
-        - name: Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
-          href: migrate-oc-to-csw.md
+        - name: Migrate from deprecated or removed apps to Customer Service workspace
+          href: migrate-to-csw.md
         - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
           href: enable-oc-disable-csw.md
       - name: Migrate configuration data for records channel using solutions
@@ -862,6 +854,8 @@
             href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
+          - name: FAQ on migration from Customer Service Hub to Customer Service workspace
+            href: faq-csh-removal.md
           - name: FAQ on migration from Omnichannel for Customer Service app
             href: migrate-oc-faq.md
           - name: FAQ on Migration tool for automatic record creation rules and SLAs
