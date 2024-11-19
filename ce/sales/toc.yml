@@ -1173,6 +1173,8 @@
               href: use-sales-hub-on-dynamics-365-mobile.md
             - name: Actions supported in online and offline mode
               href: Features-in-mobile-offline.md
+            - name: Sales mobile app vs Dynamics 365 for phones and tablets app
+              href: mobile-apps-difference.md
 
 - name: Developer guide
   items:
