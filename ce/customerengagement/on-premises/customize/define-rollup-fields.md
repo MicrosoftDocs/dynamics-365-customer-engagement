@@ -143,7 +143,12 @@ Let’s take a look at several  rollup field scenarios. We’ll aggregate data f
  The following example shows how to calculate an average estimated revenue from related opportunities over a hierarchy of accounts. An average estimated revenue can be seen at each level in the hierarchy.  
   
  ![Average estimated revenue.](../customize/media/cust-rollup-enhancements-avg-over-hierarchy.png "Average estimated revenue")  
-  
+
+### Currency Rollup Field Calculation
+Currency Rollup Field value is calculated based on the following formula:
+    Sum Rollup Field's Value on SourceEntity = (Sum of CurrencyBaseFieldValues on RelatedEntity) * (ExchangeRate on SourceEntity)
+where **ExchangeRate** refers to the record-level exchange rate at the time the record was created or any currency field on the record was updated.
+
 <a name="BKMK_considerations"></a>   
 ## Rollup field considerations  
  You should be aware of certain conditions and restrictions when working with rollup fields:  
