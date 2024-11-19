@@ -79,7 +79,7 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 
 ## Train Copilot to understand your business terms (preview)
 
-You can train Copilot in Dynamics 365 Sales to understand your business terms by adding a glossary. The glossary helps Copilot understand your business terms and their context, and respond to your requests more accurately. For example, if you have a custom field called **custom revenue** in the **opportunity** table, you can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table. 
+You can train Copilot in Dynamics 365 Sales to understand your business terms. Use glossary to map your business terms to columns in your tables so that sellers can seamlessly ask Copilot questions using your business terms. Let's say that you have a custom field called **custom revenue** in the **opportunity** table that stores the estimated revenue for an opportunity. You can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table.
 
 > [!NOTE]
 > The glossary feature is currently available only in English.
@@ -92,9 +92,9 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms by
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 
-1. Select **Agents** > **Sales Copilot Power Virtual Agents Bot** under **Agent**.
+1. Select **Agents** > **Sales Copilot Power Virtual Agents Bot**.
 1. Select **SalesSpecificQnA** under **Knowledge** section.
-1. Select the **Glossary** section and enter the term and description and click **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
+1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
    :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
 1. Select **Save** after you have added all the terms.
    The updated glossary terms are available after 15 minutes in the Copilot chat experience in Dynamics 365 Sales.
