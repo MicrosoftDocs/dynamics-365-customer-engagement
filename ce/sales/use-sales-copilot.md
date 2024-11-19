@@ -11,6 +11,7 @@ ms.custom:
  - ai-gen-desc
  - ai-seo-date:10/04/2023
  - bap-template
+ - ignite-2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -88,7 +89,7 @@ You can use the following types of questions:
 
 For more such questions, see [Questions about sales data](faqs-sales-copilot-natural-language.md#questions-about-sales-data).
 
-- **Questions with sales-specific terminology:** Questions that are based on terms specific to Sales organizations. Questions around the following topics are supported:
+- **Questions with sales-specific terminology:** Questions that are based on terms specific to Sales organizations. By default, questions around the following topics are supported:
 
   - **Conversion rates**. For example, what is my lead conversion rate for the last quarter?
 
@@ -96,7 +97,7 @@ For more such questions, see [Questions about sales data](faqs-sales-copilot-nat
   - **Pipeline with filters**. For example, show my pipeline with deals closing in next 30 days.
   - **Deal sizes and values**. For example, display open deals with deal size greater than 10000.
   
-For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology)
+For a list of sample questions, see [Questions with sales-specific terminology](faqs-sales-copilot-natural-language.md#questions-with-sales-specific-terminology). If your organization uses a different sales terminology or uses custom fields, reach out to your Dynamics 365 admin to [add those terms to the glossary](enable-setup-copilot.md#add-glossary). The glossary helps Copilot understand the context of your questions better.
 
 These questions are first answered using the data stored in Dataverse, which is the underlying data platform for Dynamics 365 Sales. If the answer isn't available in Dataverse, Copilot displays a follow-up prompt to search for the answer in SharePoint.  
 
