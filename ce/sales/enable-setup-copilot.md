@@ -81,7 +81,8 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 
 You can train Copilot in Dynamics 365 Sales to understand your business terms by adding a glossary. The glossary helps Copilot understand your business terms and their context, and respond to your requests more accurately. For example, if you have a custom field called **custom revenue** in the **opportunity** table, you can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table. 
 
-The glossary feature is currently available only in English.
+> [!NOTE]
+> The glossary feature is currently available only in English.
 
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
