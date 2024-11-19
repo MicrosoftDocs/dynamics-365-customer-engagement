@@ -22,8 +22,7 @@ ai-usage: ai-assisted
 Copilot can recommend documents related to the products and accounts in your sales records. You can also ask questions about the products and get answers from the documents stored in SharePoint. 
 
 > [!NOTE]
->- If your admin has [configured Copilot to use specific SharePoint folders](copilot-sharepoint-config.md), Copilot searches for documents only in those folders. If not, Copilot searches all the SharePoint folders that you have access to.
->- To get answers from knowledge sources other than SharePoint, your admin must configure other knowledge sources for Copilot. Learn more in [placeholder]().
+> If your admin has [configured Copilot to use specific SharePoint folders](copilot-sharepoint-config.md), Copilot searches for documents only in those folders. If not, Copilot searches all the SharePoint folders that you have access to.
 
 ## Prerequisites
 
