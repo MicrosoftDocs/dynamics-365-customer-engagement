@@ -30,12 +30,12 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed a bug that was breaking links in appointment tooltip headers.
 - Fixed a bug that was causing non-working hours visibility issues when viewing a group resource's membership on the schedule board.
 - Various bug fixes surrounding the visibility of the Find Availability button.
-- Updated durations in the Schedule Assistant filter panel are now respected when creating a booking. 
-- Improved selection behavior of clicking slots on the schedule board. 
-- Requirement panel no longer crashes when no tabs are set up.
-- Fixed a bug that was impacting the booking methods presented on the Booking Panel.
+- Updated durations in the Schedule Assistant filter pane are now respected when creating a booking. 
+- Improved selection behavior of choosing slots on the schedule board. 
+- Requirement pane no longer crashes when no tabs are set up.
+- Fixed a bug that was impacting the booking methods presented on the booking pane.
 - Improved warning logic when moving an appointment on the schedule board.
-- Fixed time zones incongruencies on the new requirement panel in Specify Pattern.
+- Fixed time zones issues on the new requirement panel in Specify Pattern.
 
 
 ## 3.12.144.84
