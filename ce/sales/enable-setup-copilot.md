@@ -88,7 +88,7 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms by
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 
-1. Open **Sales Copilot Power Virtual Agents Bot** under **Agent** section.
+1. Select **Agents** > **Sales Copilot Power Virtual Agents Bot** under **Agent**.
 1. Select **SalesSpecificQnA** under **Knowledge** section.
 1. Select the **Glossary** section and enter the term and description and click **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
    :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
