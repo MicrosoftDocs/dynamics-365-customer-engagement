@@ -1,7 +1,7 @@
 ---
 title: Activate and upload data for a forecast
 description: Activate a forecast, and download the spreadsheet template to populate quotas and simple columns data. Then, upload the spreadsheet to the forecast.
-ms.date: 10/01/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -80,7 +80,8 @@ Now that you've completed the required configurations for the forecast, use the 
     - ***Column* (Parent)** tab: This tab shows anyone who has direct reports in the selected hierarchy. A manager or parent territory has at least one direct report. Enter the values you want, and when the workbook is uploaded, the values will be shown under their respective columns in the forecast grid for managers or parent territories (a level above individuals).
 
     > [!IMPORTANT]
-    > Don't change the **Record Id** values in the workbook. If they're changed, the forecast will display inaccurate values.
+    >- Don't change the **Record Id** values in the workbook. If they're changed, the forecast will display inaccurate values.
+    >- Ensure to specify any monetary value, such as quotas, in the base currency of your organization. Though the workbook doesn't indicate the currency, the values you specify are uploaded as-is in the base currency.
 
 5. Save and close the workbook.
 
