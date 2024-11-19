@@ -1,7 +1,7 @@
 ---
 title: "Delete a family, product, or bundle | MicrosoftDocs"
 description: "To stop selling a product, delete it. If you delete a parent family, its child products, families, and bundles are also deleted."
-ms.date: 02/28/2023
+ms.date: 11/19/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -30,18 +30,17 @@ To stop selling a product, bundle, or family, delete it. If you delete a parent 
  
     -  If you're using the Sales Hub app, 
         1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
-        1. In the **Product Catalog** area, select **Families and Products**. 
+        1. In the **Product Catalog** area, select **Families and products**. 
    - If you're using the Sales Professional app,
        - Select **Products** from the site map.  
   
 3. Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
 
-   > [!div class="mx-imgBorder"]
-   > ![Delete a product.](media/delete-product.png "Delete a product")
+   :::image type="Delete a product" source="media/delete-product.png" alt-text="Delete a product":::
 
 4. In the **Confirm Deletion** dialog box, select **Delete**.
 
-   ![Confirm deletion.](media/confirm-deletion.png "Confirm deletion")
+   :::image type="Confirm deletion" source="media/confirm-deletion.png" alt-text="Confirm deletion":::
    
 >[!NOTE]
 >Products or bundles can't be deleted if they are associated with an existing quote, order, or invoice.  
