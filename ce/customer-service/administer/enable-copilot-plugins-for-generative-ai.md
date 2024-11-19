@@ -91,8 +91,8 @@ Use the custom connector to create a connector plugin for non-Microsoft solution
    1. In **Responses**, select **Don't summarize plugin responses** if you don't want Copilot to interpret the answers and instead present the entire response that's available in the plugin.
    1. Select **Next** and on the **Save plugin data in Dynamics 365** screen, select **Save this plugin's data in Dynamics 365 Copilot transcript**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. Learn more at [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md).
 
-    > [!IMPORTANT]
-    > Irrespective of whether you select the checkbox, Copilot Studio saves all the plugin data as part of agent conversation transcripts. Microsoft doesn't have access to this information.
+      > [!IMPORTANT]
+      > Irrespective of whether you select the checkbox, Copilot Studio saves all the plugin data as part of agent conversation transcripts. Microsoft doesn't have access to this information.
 
    1. Select **Turn on plugin**.
 1. Select **Publish changes** on the alert message at the top of the page, and select **Confirm** on the confirmation dialog that appears. It can take up to 15 minutes for the changes to publish.
