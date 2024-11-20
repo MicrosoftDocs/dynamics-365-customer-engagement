@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-The effectiveness of Copilot is closely linked to the quality of the knowledge base. To create and sustain high-quality knowledge, supervisors rely on valuable insights. Analysing how the articles are created, where they are in the review and publish workflow, whether they're used in copilot responses, and if the customer service representatives find them useful in their day-to-day work provide actionable insights to supervisors. Actionable insights help supervisors identify improvement areas, enhancing the overall knowledge repository quality to optimize Copilot performance.
+The effectiveness of Copilot is closely linked to the quality of the knowledge base. To create and sustain high-quality knowledge, supervisors rely on valuable insights. Analysing how the articles are created, where they are in the review and publish workflow, whether they're used in copilot responses, and if the customer service representative (service representative) finds them useful in their day-to-day work provide actionable insights to supervisors. Actionable insights help supervisors identify improvement areas, enhancing the overall knowledge repository quality to optimize Copilot performance.
 
 > [!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Supervisors and content managers can view the **Overall performance dashboard** 
 
 - Confident self-service article publishing, and greater resource control reduce support and content management costs.
 - Understanding the performance of Copilot-drafted content can ensure transitioning to fully autonomous harvesting.
-- Customer service representatives can provide feedback through a five-star rating approach with suggested prompts. This helps the system and the content managers identify and act on low quality articles more efficiently.
+- Service representatives can provide feedback through a five-star rating approach with suggested prompts. This helps the system and the content managers identify and act on low quality articles more efficiently.
 
 ## Prerequisites
 
@@ -48,10 +48,10 @@ The Overall Performance dashboard represents the following metrics.
 |---------|---------|
 |Total articles published    |    The sum of knowledge articles published by Copilot or manually.     |
 |Articles by status   |  A pie-chart that shows all knowledge articles broken down by article status. It shows the number of articles in various states  that were either created by Copilot or manually.  |
-|Average quality score| The average feedback rating from customer service representatives on the quality of knowledge articles, indicated through thumbs up or thumbs down.|
+|Average quality score| The average feedback rating from service representatives on the quality of knowledge articles, indicated through thumbs up or thumbs down.|
 |Articles to revise| The amount of knowledge articles with a quality score less than or equal to two, over a specified period of time.|
 |Usage by copilot|The number of times a knowledge article is referenced when agents chat with Copilot, and whether those articles were created by Copilot or manually.|
-|Quality score trend|The performance of knowledge articles based on customer service representatives feedback over time, that shows copilot created articles versus articles created manually.|
+|Quality score trend|The performance of knowledge articles based on service representatives feedback over time, that shows copilot created articles versus articles created manually.|
 
 ## Related information
 

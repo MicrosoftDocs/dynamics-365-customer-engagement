@@ -31,7 +31,7 @@ Select from the following options as required for customer knowledge management 
 
 ## Enable real-time knowledge creation
 
-Real-time creation is triggered when an customer service representative resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics knowledge base. If an article is needed, the customer knowledge management agent creates the article using the case content.  
+Real-time creation is triggered when an customer service representative (service representative) resolves a case. It determines whether a new knowledge article is needed by comparing the content of the case with the existing knowledge articles in Dynamics knowledge base. If an article is needed, the customer knowledge management agent creates the article using the case content.  
 
 1. In Customer Service admin center, go to **Agent experrience** > **Knowledge**. The **Customer knowledge management agent (preview)** page appears.
 1. In the **Real-time creation** section of the **Customer knowledge management agent (preview)** page, select the **Let Copilot use information from current case to create knowledge articles** option.
@@ -87,21 +87,21 @@ You can control whether articles created by customer knowledge management agent 
 
 To set the auto-publishing of articles created by customer knowledge management agent, on the **Customer knowledge management agent (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
 
-- Select **Internal target audiences**, if you want articles to be available to your customer service representatives and Copilot internally. 
+- Select **Internal target audiences**, if you want articles to be available to your service representatives and Copilot internally. 
 - Select **Internal and external target audiences**, if you want these articles to be published to external portals.   
 
 ## Setup the optional agent review draft experience
 
-If you’re not configuring customer knowledge management agent to automatically publish articles, you can optionally configure an agent review experience where customer service representatives can review (and if configured) publish articles.
+If you’re not configuring customer knowledge management agent to automatically publish articles, you can optionally configure an agent review experience where service representatives can review (and if configured) publish articles.
 
 To enable this agent editor: 
 
 - Configure customer knowledge management agent to not automatically publish articles.
 - Enbale in-app notifications for agents to be notified when their cases are considered for publishing.
-- Ensure your customer service representatives have permission to edit articles.
+- Ensure your service representatives have permission to edit articles.
 - Make sure your cases have Timeline and Timeline highlights enabled.
 
-Customer service representatives can see whether they have knowledge articles to review by opening a resolved case, navigating to the timeline highlights, and selecting the suggested next action to review the autonomously drafted article.
+Service representatives can see whether they have knowledge articles to review by opening a resolved case, navigating to the timeline highlights, and selecting the suggested next action to review the autonomously drafted article.
 
 ## Review knowledge articles created by the customer knowledge management agent
 
