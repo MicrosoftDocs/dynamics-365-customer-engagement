@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Add Power Apps components to Case Management forms
 
-You can use a collection of Power Apps components to customize your case management forms and you can add additional functionalities that the agents can use when handling cases in the Customer Service workspace. Adding additional components to the case forms helps the agents to view and track open activities, and keep a track of the time spent on each case. This enhances agent productivity by enabling them to work cases effectively.
+You can use a collection of Power Apps components to customize your case management forms and add additional functionalities that the agents can use when handling cases in the Customer Service workspace. Using additional components to the case forms helps the agents to view and track open activities, and keep a track of the time spent on each case. This enhances agent productivity by enabling them to work cases effectively.
 
 You can use default components, such as the **Associated Grid Control** and the **Attachment Control**, available on the enhanced full case forms. Learn more about the default components at [Enable enhanced case forms for multisession apps](case-enh-config.md). 
 
