@@ -4,7 +4,7 @@ description: Learn about adding the applicable Power Appss components to Case Ma
 author: gandhamm 
 ms.author: v-slaik
 ms.reviewer: neeranelli 
-ms.topic: how-to 
+ms.topic: Conceptual 
 ms.date: 09/12/2024
 ms.custom: bap-template 
 ---
