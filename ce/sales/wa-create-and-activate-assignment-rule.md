@@ -62,9 +62,9 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
 1. Select **+ Add**, and then use the following options to build the conditions of the rule:
 
-    - **Add row**: Add a condition. Select an attribute, an operator, and a value; for example, *Created by* *Equals* *John Thomas*.
+    - **Add row**: Add a condition. Select an attribute, an operator, and a value; for example, *Created by* *Equals* *June Smith*.
 
-      :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals John Thomas.":::
+      :::image type="content" source="media/sa-segment-condition-add-row.png" alt-text="Screenshot that shows a condition row that filters for leads where the value of the Created By attribute equals a specific name.":::
 
     - **Add group**: Add a group of conditions to filter records using multiple attributes that are combined by **And** or **Or**. If you select **And**, records must meet all the conditions in the group. If you select **Or**, records can meet any condition in the group.
 
@@ -100,7 +100,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
 ### Select how records should be distributed
 
-If you assign the records to a sales team, this section isn't shown because the rule doesn't distribute them to individual sellers. Instead, the team members effectively distribute the records among themselves. To understand how seller capacity is calculated, see [How seller capacity is calculated](#how-seller-capacity-is-calculated).
+If you assign the records to a sales team, this section isn't shown because the rule doesn't distribute them to individual sellers. Instead, the team members effectively distribute the records among themselves. [Learn how seller capacity is calculated](#how-seller-capacity-is-calculated).
 
 >[!NOTE]
 >The **Distribute *record type* by** section is available only for seller-related assignments.  
@@ -128,18 +128,15 @@ Assignment rules run in the order they're listed. By default, they're listed in 
 
 ## How seller capacity is calculated
 
-The available capacity of a seller is calculated by subtracting the consumed capacity (total number of active records assigned) from the maximum capacity (total number of records that can be assigned). The consumed capacity is based on the total number of active records owned, as determined by the assignment rules configured for the entity (leads, opportunities, or insights). For example, if assignment rules apply only to leads, the user’s consumed capacity will be calculated solely from active lead records owned.  
+A seller's available capacity is calculated by subtracting their consumed capacity (the total number of active records assigned to them) from their maximum capacity (the total number of records that can be assigned to them). The consumed capacity is based on the total number of active records they own, as determined by the assignment rules that are configured for the entity (leads, opportunities, or insights). For example, if assignment rules apply only to leads, the seller's consumed capacity is calculated solely from the active lead records they own.  
 
-The available capacity is calculated as follows:  
-*Available capacity* = *Maximum capacity* - *Consumed capacity*  
+The available capacity is calculated as follows: *Available capacity* = *Maximum capacity* - *Consumed capacity*  
 
-For example, assignment rules are configured only for the lead entity. Alex has a maximum capacity of 50 records. He's already assigned to 20 lead records and 10 opportunity records. As the assignment rules are not configured for opportunity entity, the available capacity is calculated as follows:
-
-Available capacity = 50 - 20 (leads) = 30 records.
+Let's say that assignment rules are configured only for the lead entity. Alex has a maximum capacity of 50 records. He's already assigned 20 lead records and 10 opportunity records. The assignment rules aren't configured for opportunities, so Alex's available capacity is 50 (maximum records) - 20 (assigned leads), or 30 records.
 
 ## Consideration
 
-The application runs on a pooling mechanism by processing the retrieved records at regular intervals. So, there might be a delay in assigning a record to a seller after it meets the conditions of the assignment rule when the record is added or updated.
+The application runs on a pooling mechanism and retrieved records are processed at regular intervals. There might be a delay between when a record is added or updated and meets the conditions of the assignment rule and when it's assigned to a seller.
 
 ### Recommendations for adding conditions to assignment rules
 

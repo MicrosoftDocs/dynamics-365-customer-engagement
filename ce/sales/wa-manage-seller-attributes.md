@@ -1,6 +1,6 @@
 ---
 title: Set seller attributes and capacity
-description: Configure seller attributes and capacity in Dynamics 365 Sales to assign records automatically based on your sellers' language, location, skills, and workload.
+description: Learn  how to configure seller attributes and capacity in Dynamics 365 Sales to assign records automatically based on your sellers' language, location, skills, and workload.
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -98,7 +98,7 @@ You can assign attributes and capacity to sellers one at a time or in groups.
 1. (Optional) If the list of sellers is long, [use filters to focus on the ones you want](#shortlist-sellers-using-search-and-advanced-filters).  
 1. Continue to set attributes and capacity for [individual sellers](#set-attributes-and-capacity-for-individual-sellers) or for [groups of sellers](#set-attributes-and-capacity-for-groups-of-sellers).
 
-To understand how seller capacity is calculated while assigning records, see [How seller capacity is calculated](wa-create-and-activate-assignment-rule.md#how-seller-capacity-is-calculated).
+[Learn how seller capacity is calculated](wa-create-and-activate-assignment-rule.md#how-seller-capacity-is-calculated).
 
 ### Set attributes and capacity for individual sellers
 
@@ -157,7 +157,7 @@ Your filters last only as long as you're signed in to Sales Hub. You can't save 
 
 ## Set seller availability
 
-You can configure your sellers' work hours through the CRM calendar. For more information, see [Set work hours in work assignment settings](wa-manage-seller-availability.md#set-work-hours-in-work-assignment-settings).
+You can configure your sellers' work hours through the CRM calendar. [Learn how to set work hours in work assignment settings](wa-manage-seller-availability.md#set-work-hours-in-work-assignment-settings).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
