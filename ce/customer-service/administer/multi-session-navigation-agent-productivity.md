@@ -18,17 +18,7 @@ This application uses artificial intelligence in productivity tools like Co-pilo
 
 ## Prerequisites
 
-To configure the multisession navigation feature within your Dynamics 365 Customer Service workspace, make sure that the following prerequisites are met.
-
-| **Area** | **Requirements** |
-|----------|------------------|
-| Licensing | An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. |
-| Web Browsers | <ul><li>Microsoft Edge is recommended; version 110.0.0000.00 or later</li><li>Google Chrome (latest)</li></ul> |
-| Hardware | <ul><li>RAM: A minimum of 4 GB</li><li>Latency: Not more than 150 milliseconds</li><li>Throughput: A minimum of 4 Mbps</li></ul> |
-| Permission | A system administrator role or equivalent to modify the custom model driven app. |
-| Model-driven app | A customized model-driven app |
-
-Learn more about Customer Service workspace system requirements at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
+To configure the multisession navigation feature within your Dynamics 365 Customer Service workspace, make sure that the you follow the Customer Service workspace system requirements. Learn more about Customer Service workspace system requirements at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
 
 > [!NOTE]
 > The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more about the Customer Service workspace at [Get started with Customer Service workspace](../implement/csw-overview.md)
