@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 06/05/2024
+ms.date: 11/18/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -72,13 +72,13 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
       :::image type="content" source="media/sa-segment-condition-add-related-entity.png" alt-text="Screenshot that shows a condition added for a related entity.":::
 
-1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider *record type* created in the last**. Select the number of hours within which the rule will consider the created records for assignment.
+1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider *record type* created in the last**. Select the number of hours within which the rule considers the created records for assignment.
 
     If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#reasons-records-might-be-left-unassigned) is set to *Seller not assigned as record is older than the set timeframe*.
 
-### Select sellers or a sales team to assign
+### Select sellers, sales teams, or queues to assign
 
-1. In section 3, **Assign these *record type* to sellers or a team**, select one of the following options in the list:
+1. In section 3, **Assign these *record type* to seller, team, or queue**, select one of the following options in the list:
 
     - **Any seller**: Assign records to any seller who is available and has the capacity.
 
@@ -100,7 +100,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
 ### Select how records should be distributed
 
-If you assign the records to a sales team, this section isn't shown because the rule doesn't distribute them to individual sellers. Instead, the team members effectively distribute the records among themselves.
+If you assign the records to a sales team, this section isn't shown because the rule doesn't distribute them to individual sellers. Instead, the team members effectively distribute the records among themselves. To understand how seller capacity is calculated, see [How seller capacity is calculated](#how-seller-capacity-is-calculated).
 
 >[!NOTE]
 >The **Distribute *record type* by** section is available only for seller-related assignments.  
@@ -125,6 +125,21 @@ If you assign the records to a sales team, this section isn't shown because the 
 1. Select **Save** to create and activate the rule.
 
 Assignment rules run in the order they're listed. By default, they're listed in ascending order by creation date, with the newest rule at the bottom.
+
+## How seller capacity is calculated
+
+The available capacity of a seller is calculated by subtracting the consumed capacity (total number of active records assigned) from the maximum capacity (total number of records that can be assigned). The consumed capacity is based on the total number of active records owned, as determined by the assignment rules configured for the entity (leads, opportunities, or insights). For example, if assignment rules apply only to leads, the user’s consumed capacity will be calculated solely from active lead records owned.  
+
+The available capacity is calculated as follows:  
+*Available capacity* = *Maximum capacity* - *Consumed capacity*  
+
+For example, assignment rules are configured only for the lead entity. Alex has a maximum capacity of 50 records. He's already assigned to 20 lead records and 10 opportunity records. As the assignment rules are not configured for opportunity entity, the available capacity is calculated as follows:
+
+Available capacity = 50 - 20 (leads) = 30 records.
+
+## Consideration
+
+The application runs on a pooling mechanism by processing the retrieved records at regular intervals. So, there might be a delay in assigning a record to a seller after it meets the conditions of the assignment rule when the record is added or updated.
 
 ### Recommendations for adding conditions to assignment rules
 
