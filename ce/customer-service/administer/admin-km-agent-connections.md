@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 11/15/2024
+ms.date: 11/20/2024
 ms.custom: bap-template
 ---
 
@@ -52,7 +52,7 @@ Learn more in [Add connection references to a solution](/power-apps/maker/data-p
 1. Search for and select **CustomerServiceKnowledgeHarvest**.
 1. Select **Publish**.
 
-Once done, go to the Customer Service admin center and enable customer knowledge management agent. Learn more in [Manage customer knowledge management agent (Preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
+Once done, go to the Customer Service admin center and enable customer knowledge management agent. Learn more in [Manage customer knowledge management agent (preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
  
 ## Related information
 
