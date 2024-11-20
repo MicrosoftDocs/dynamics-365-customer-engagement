@@ -53,10 +53,10 @@ If you want to connect a different sequence to the segment, disconnect the curre
 
 ## Considerations
 
-Remember the following when connecting segments to sequences:
+Keep the following considerations in mind when you're connecting segments to sequences:
 
-- The application runs on a pooling mechanism and retrieved records are processed at regular intervals. So, there might be a delay in a record being added to a sequence after it meets the segment criteria.  
-- Records are segmented only if there is at least one active segment connected to a sequence or an active segment with an active assignment rule.  
+- The application runs on a pooling mechanism and retrieved records are processed at regular intervals. There might be a delay between when a record meets the segment criteria and when it's added to a sequence.  
+- Records are segmented only if at least one active segment is connected to a sequence or at least one active segment has an active assignment rule.  
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
