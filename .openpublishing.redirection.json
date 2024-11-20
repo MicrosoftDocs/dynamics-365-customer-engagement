@@ -25923,6 +25923,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/customer-service/administer/voice-channel-multi-language-contact-center.md",
+      "redirect_url": "/contact-center/administer/configure-multilingual-bots",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customer-service/troubleshoot-sla-issues.md",
       "redirect_url": "/troubleshoot/dynamics-365/customer-service/welcome-customer-service",
       "redirect_document_id": "false"
