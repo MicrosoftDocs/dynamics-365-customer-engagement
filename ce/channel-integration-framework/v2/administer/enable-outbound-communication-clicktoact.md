@@ -4,7 +4,7 @@ description: "Learn to enable outbound communication (ClickToAct) in Dynamics 36
 author: gandhamm 
 ms.author: mgandham
 ms.topic: article
-ms.date: 03/12/2024
+ms.date: 11/21/2024
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
