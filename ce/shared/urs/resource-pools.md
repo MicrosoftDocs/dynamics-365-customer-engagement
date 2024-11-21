@@ -42,6 +42,8 @@ Add members to a pool through the bookable resource group entity.
 
 1. Select **New Bookable Resource Group** and enter a **Name** for the resource. Choose a **Child Resource** and set a date range for the pool membership. Crews and other pools cannot be made a child of a pool.
 
+1. Select **Save**. Add other pool members as needed.
+
 ## Book a pool with the schedule assistant
 
 1. Select **Book** on a requirement form to open the schedule assistant.
@@ -55,11 +57,11 @@ Add members to a pool through the bookable resource group entity.
 
 ## Manage a pool on the schedule board
 
-On the **Schedule Board**, open the **Filters** pane and set the **Resource Types** filter to *Pool*.
+1. On the **Schedule Board**, open the **Filters** pane. Set the **Resource Types** filter to *Pool* and select **Apply**.
 
-Select **Save as default** to set the default view for the selected schedule board tab.
+1. To set pool as the default view for the selected schedule board tab, select the ellipsis (**&hellip;**) and then **Save as default**.
 
-Right-click the resource pool and select **View Group Members** to see the pool and pool members.
+1. Right-click the resource pool and select **View Group Members** to see the pool and pool members.
 
 ### Assign pool bookings
 

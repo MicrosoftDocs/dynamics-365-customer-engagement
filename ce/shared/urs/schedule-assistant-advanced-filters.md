@@ -23,7 +23,7 @@ Ignores the requirement duration when determining if a resource has enough time 
 
 ## Ignore proposed bookings
 
-Ignores bookings with a **Proposed** booking status and the time slot as available.
+Ignores bookings with a **Proposed** booking status and shows the time slot as available.
 
 Some organizations use the proposed status for bookings until their customer confirms the schedule. Dispatchers could use those time slots to expedite committed work.
 
