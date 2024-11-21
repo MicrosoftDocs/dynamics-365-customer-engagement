@@ -54,8 +54,8 @@ When the status of a record is **Needs attention** specifying that the record is
 
     :::image type="content" source="media/sa-ar-view-record-status-details.png" alt-text="Screenshot of the lead record status details pane."::: 
 
-    The **Error details** section provides information about the error that caused the record to be left unassigned. Copy the error code for for further analysis
-    The **Status reason** section provides information about the reason the record was left unassigned. Depending on the status reason, you can take necessary actions to resolve the issue.
+    - The **Error details** section provides information about the error that caused the record to be left unassigned. Copy the error code for for further analysis.  
+    - The **Status reason** section provides information about the reason the record was left unassigned. Depending on the status reason, you can take necessary actions to resolve the issue. For more information about the status reasons and resolution, see [Understand the status reason of unprocessed records](#understand-the-status-reason-of-unprocessed-records).
 
 ## Understand the status reason of unprocessed records
 
@@ -78,7 +78,27 @@ A record can remain unprocessed due to several reasons depending on the state. A
 | Couldn't find eligible queue | No eligible queue was found to assign the record for the configured assignment rule. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records) for queues. Update the conditions in the assignment rule accordingly and [run the assignment rules](#run-assignment-rules) again. |
 | Rules won't run for this segment | The record was previously part of a segment but was moved to a different segment where the option to run assignment rules when a record is moved is disabled. | Enable the option to run assignment rules when a record is moved under the **Previously segmented leads** section in the [**Segment properties** pane](wa-edit-a-segment.md#edit-a-segment). [Run the assignment rules](#run-assignment-rules) again. |
 | D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically. | The **Error details** section provides detailed information on why the issue has occurred. Provide the necessary security role permissions to the sellers and [run the assignment rules](#run-assignment-rules) again. |
- 
+
+### Segment errors
+
+| Status reason | Description | Resolution |
+|---------------|-------------|------------|
+
+
+
+
+
+
+### Sequence errors
+
+| Status reason | Description | Resolution |
+|---------------|-------------|------------|
+
+
+
+
+
+
 ## Reasons records might be left unassigned
 
 - No assignment rule for this record's segment: The segment the record is connected to doesn't match an active assignment rule. Assign it manually, or create a rule that will assign it, and any future records like it, automatically, and [run the assignment rules](#run-assignment-rules) again.  
@@ -126,8 +146,6 @@ To delete the schedule, select the trashcan icon.
 ## Assign records manually
 
 If you don't have an assignment rule for a lead or opportunity, you can assign it to a salesperson or sales team yourself.
-
-1. [View unassigned records](#view-unassigned-records).
 
 1. Select one or more records to assign to the same salesperson or team, and then select **Assign**.
 
