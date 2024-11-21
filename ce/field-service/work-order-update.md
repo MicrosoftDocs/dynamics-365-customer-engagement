@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: Update work orders with the help of Copilot in Dynamics 365 Field Service.
-ms.date: 08/16/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker

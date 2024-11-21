@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 05/08/2024
+ms.date: 11/12/2024
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab

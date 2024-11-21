@@ -52,8 +52,8 @@ The required storage size depends on the [mobile offline profile](work-offline.m
 
 | Requirement  | OS Version  | CPU Benchmark Score   | RAM   | Storage   |
 | ------------ | ------------ | ------------ | ------------ | ------------ |
-| Recommended  | Previous three versions   | 900+   | 8 GB   | 64+ GB|
-| Minimum  | Latest version  | 400+   | 4 GB   | 64 GB|
+| Recommended  | Latest version  | 900+   | 8 GB   | 64+ GB|
+| Minimum  |  Previous three versions   | 400+   | 4 GB   | 64 GB|
 
 [Get the Android app.](https://aka.ms/fsmobile-google)
 

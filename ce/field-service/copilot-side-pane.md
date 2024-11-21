@@ -1,17 +1,18 @@
 ---
 title: Use Copilot in the Dynamics 365 Field Service web application
 description: Learn how to use Copilot to summarize records, catch up on recent changes, and prepare for onsite jobs.
-ms.date: 06/07/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ms.reviewer: mhart
 ms.collection: bap-ai-copilot
+ms.custom: ignite-2024
 ---
 
 # Use Copilot in the Dynamics 365 Field Service web application
 
-Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to interact with Copilot in natural language.
+Copilot is a next-generation AI assistant that helps you be more productive and efficient in your daily work the Dynamics 365 Field Service web app. Copilot can summarize information about your work order and service accounts, help you catch up on recent changes to your records, prepare for onsite visits, and answer questions about related information. It has a chat interface that dispatchers and technicians can use to interact with Copilot in natural language. Copilot comes with the Dynamics 365 Field Service web app, no other license required.
 
 ## Prerequisites
 
@@ -27,7 +28,11 @@ Select the icon again to minimize the copilot pane.
 
 ## Chat with Copilot
 
-Use predefined prompts to get the most out of Copilot. The following list provides a quick reference to predefined prompts.
+You can ask Copilot questions in natural language about the data and information stored in the system. When you start a new chat session in the copilot pane, you find a couple of example scenarios to get started quickly.
+
+:::image type="content" source="media/copilot-side-pane-prompt-guide.png" alt-text="Screenshot of the copilot pane with prompt suggestions and callouts.":::
+
+Alternatively, you can select **View Prompts** in the side pane to see a library of predefined prompts that get copilot to work for you quickly. For example:
 
 - List work orders for {service account name}.
 - Who is booked for work order {work order number}?
