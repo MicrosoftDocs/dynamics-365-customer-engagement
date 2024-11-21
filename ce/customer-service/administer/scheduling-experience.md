@@ -13,9 +13,9 @@ ms.custom:
 
 # Set up Service Scheduling
 
-Scheduling in Customer Service Hub is a platform-driven update. Learn more in [Set up scenarios](#set-up-scenarios).
+Service Scheduling is a platform-driven update. Learn more in [Set up scenarios](#set-up-scenarios). However, if the update is delayed or fails, you can go to the Power Platform admin center to find the latest version available for Core service scheduling and update your instance. 
 
-However, if the update gets delayed or fails, you can go to the Power Platform admin center to find the latest version available for Core service scheduling and update your instance. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
+You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
 
 ## Prerequisites
 
