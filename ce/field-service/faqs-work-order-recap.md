@@ -1,7 +1,7 @@
 ---
 title: FAQ about work order summary with Copilot and summary configuration (preview)
 description: Get answers to common questions about how the AI-powered work order summary feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
-ms.date: 04/18/2024
+ms.date: 11/05/2024
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
@@ -48,7 +48,7 @@ An administrator can tailor the summary that Copilot creates to only include spe
 
 ## How was the feature tested and what metrics are used to measure its performance?
 
-We tested the feature using English (en-us).
+We tested the feature in English. For detailed information on the supported languages, [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 We checked the accuracy and performance of the summary based on the data from the work order. The summary quality depends on the quality of the data in the system. If the data is incomplete or incorrect, the summary might reflect that.
 

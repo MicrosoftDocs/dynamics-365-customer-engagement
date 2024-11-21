@@ -1,7 +1,7 @@
 ---
 title: Create products or services for work orders
 description: Learn how to create products or services for work orders in Dynamics 365 Field Service.
-ms.date: 08/01/2024
+ms.date: 11/11/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -58,6 +58,8 @@ In this article, learn how to create products and services, add them to work ord
 1. Select **Save** to apply your changes.
 
 1. In the **Product Details** section, enter a **Default Price list**. Select **Save**.
+
+1. Optionally, [link knowledge articles](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
 
 ## Add products and services to a price list
 

@@ -3,7 +3,7 @@ title: "Track Outlook contacts in Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn how to track contacts using a manual process in Microsoft Dynamics 365 for Outlook to keep personal contacts separate from Customer Engagement contacts.
 ms.custom:
 ms.date: 01/11/2016
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: ce639d6e-1cad-4db0-9c46-640af2020c40
 caps.latest.revision: 47
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin

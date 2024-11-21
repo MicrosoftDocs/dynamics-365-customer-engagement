@@ -86,7 +86,7 @@ You can also author plugin actions in Copilot Studio to use certified connectors
 
 ## Next steps
 
-Use [Use targeted phrases in Copilot to get responses from plugins (preview)](../use/use-copilot-features.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview) in the Copilot help pane to see how the plugin works.
+[Use targeted phrases in Copilot to get responses from plugins (preview)](../use/use-ask-a-question.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview)
 
 ### Related information
 

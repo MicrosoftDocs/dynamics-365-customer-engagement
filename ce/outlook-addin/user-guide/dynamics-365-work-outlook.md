@@ -3,7 +3,7 @@ title: "Do your Dynamics 365 apps work in Outlook using Dynamics 365 for Outlook
 description: Learn about working with the Customer Engagement functionality of Dynamics 365 inside of Microsoft Outlook.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 110d4104-3f01-40ca-8247-ec7f42287560
 caps.latest.revision: 36
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin
