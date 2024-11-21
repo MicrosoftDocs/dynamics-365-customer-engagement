@@ -44,6 +44,10 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.134.84
 
+"We've encountered issues with the updated schedule board that we recently released. As a result, we are temporarily disabling the updated board to address these issues before reenabling. We are fully committed to delivering this update and will communicate our plans to roll it out once the issues have been resolved.
+In the meantime, the board will revert back to its prior functionality. If you have manually installed Universal Resource Scheduling solution version 3.12.144.84, we will remotely disable the updated board to its predecessor, with no further action required on your end. If you are on any other prior version of the Universal Resource Scheduling solution, there will be no change to your schedule board.
+Thank you for your understanding and continued support."
+
 - Fixed a bug that was causing some field options to be improperly populated when using schedule assistant's booking panel.
 - The Find Availability button is no longer visible when a requirement is deselected and is visible when a requirement group is selected.
 - Fixed a bug where the requirement panel's active tab was not always being cached.
