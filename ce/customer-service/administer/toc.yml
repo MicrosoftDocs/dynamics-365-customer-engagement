@@ -580,6 +580,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Enable multisession navigation with customized model-driven apps
+        href: multi-session-navigation-agent-productivity.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
