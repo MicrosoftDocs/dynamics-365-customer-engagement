@@ -140,11 +140,6 @@ You can view and improve the performance of individual topics associated with a 
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
 
-1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Copilot Studio bot. You can modify both the topic name and trigger phrases, and for trigger phrases, you can add more.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Copilot Studio bot edit page.](../media/oc-pva-edit.png "Edit page") 
-
 ## Dashboard for all bots 
 
 The **bot** dashboard summarizes the KPIs for all the bots integrated with the application for the specified time period and percent change over a period. The application displays this view only if your administrator has disabled the **Add historical analytics for bots** checkbox in Customer Service admin center. You can filter these areas by duration, channel, queue, or agent.
