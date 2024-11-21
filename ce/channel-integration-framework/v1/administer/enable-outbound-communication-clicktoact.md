@@ -16,6 +16,7 @@ ms.custom:
 > Minimum versions required to use this feature without any customizations.
 > -	Platform version: 9.1.0000.15343
 > -	Dynamics 365 Channel Integration Framework 1.0: 9.1.0.412.
+> - ClickToAct event isn't supported in the focused view of Dynamics 365 Sales.
 
 ## Enable outbound communication for your channel
 
