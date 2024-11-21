@@ -154,16 +154,8 @@ Based on your administrator's configuration of the **Add historical analytics fo
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
 
-<<<<<<< HEAD
-## Dashboard for all bots 
-=======
- 1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Copilot Studio bot. You can modify both the topic name and trigger phrases, and for trigger phrases, you can add more.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Copilot Studio bot edit page.](../media/oc-pva-edit.png "Edit page") 
 
  ### Customize bot dashboard
->>>>>>> ea6810aeaaf21d5cae719bd8416673ac66ac1544
 
 For Copilot Studio bots, you can edit the report to add the additional metrics and filters to the bot. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
 
