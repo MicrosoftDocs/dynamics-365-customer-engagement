@@ -13,7 +13,7 @@ The default value is the following code snippet:
 
 To edit the HTML that controls the booking template:
 
-1. [Open the schedule board settings](../urs/schedule-board-tab-settings.md#board-settings).
+1. [Open the schedule board settings](../../field-service/schedule-board-tab-settings#board-settings).
 
 1. Select **Schedule Types** and select the entity for which you want to change the booking template.
    - If you open the settings from a schedule board tab, you change the settings for that tab only.

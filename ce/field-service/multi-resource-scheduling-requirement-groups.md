@@ -1,7 +1,7 @@
 ---
 title: Schedule work with multiple requirements using requirement groups
 description: Learn about multi-resource scheduling with requirement groups in Dynamics 365 Field Service.
-ms.date: 10/18/2023
+ms.date: 11/21/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: mkelleher-msft
