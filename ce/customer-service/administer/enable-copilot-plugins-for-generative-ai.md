@@ -33,12 +33,12 @@ Make sure the following prerequisites exist:
 
 With prompt plugins, you can connect Copilot to Dataverse, and let your agents securely access data.
 
-1. To create a prompt plugin, see [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts).
+1. Use the steps in [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts) to create a prompt plugin.
 
    > [!NOTE]
    > Make sure that the prompt description is unique for Copilot to identify the right plugin at runtime.
 
-1. To turn on the plugin in the admin app, see [Configure settings](#configure-settings-for-the-custom-connector-and-prompt-plugins).
+1. Use the steps in **Configure settings for the prompt plugin** to turn on the plugin in the admin app.
 
     > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nA86]
 
@@ -66,9 +66,10 @@ With prompt plugins, you can connect Copilot to Dataverse, and let your agents s
 
 Use the custom connector to create a connector plugin for non-Microsoft solutions like order management. Copilot can then access the relevant data, such as the order details for an order ID that the agent provides.
 
-1. To create a custom connector in Power Automate, see [custom connector](/connectors/custom-connectors/define-blank).
-1. To configure the plugin action, see [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action).
-1. To turn on the plugin in the admin app, see the **Configure settings for the custom connector** section in this article.
+Use the following information:
+1. [Custom connector](/connectors/custom-connectors/define-blank) to create a custom connector in Power Automate.
+1. [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action) to configure the plugin action.
+1. The **Configure settings for the custom connector** section in this article to turn on the plugin in the admin app.
 
    > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1niOE]
 
