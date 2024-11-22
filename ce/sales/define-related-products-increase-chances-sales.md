@@ -54,11 +54,11 @@ A related product could be an accessory, cross-sell, substitute, or up-sell. For
 
 6. In the **New Product Relationship** form, enter the following details: 
 
-   - **Related Product**. Select a product that you want to add as a related product to the existing product record you're working on. 
+   - **Related Product**: Select a product that you want to add as a related product to the existing product record you're working on. 
     
-   - **Sales Relation Type**. Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product. 
+   - **Sales Relation Type**: Select whether you want to add the product as an up-sell, cross-sell, accessory, or substitute product. 
     
-   - **Direction**. Select whether the relationship between the products will be uni-directional or bi-directional. When you select Uni-Directional, the product that you select in Related Product will be shown as a recommendation for the existing product but not vice-versa. 
+   - **Direction**: Select whether the relationship between the products will be uni-directional or bi-directional. When you select Uni-Directional, the product that you select in Related Product will be shown as a recommendation for the existing product but not vice-versa. 
 
 7. Select **Save** or **Save & Close**. 
 

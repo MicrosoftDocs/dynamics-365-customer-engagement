@@ -37,7 +37,7 @@ When you're creating a new product, family or bundle, save time by cloning an ex
    - If you're using the Sales Professional app,
        - Select **Products** from the site map.  
   
-3. Select a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
+3. Select or open a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
 
     :::image type="List of products with Clone button" source="media/clone-product.png" alt-text="List of products with Clone button":::
 

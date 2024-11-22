@@ -34,7 +34,7 @@ To stop selling a product, bundle, or family, delete it. If you delete a parent 
    - If you're using the Sales Professional app,
        - Select **Products** from the site map.  
   
-3. Select a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
+3. Select or open a product family, product, or bundle record you want to delete, and on the command bar, select **Delete**.  
 
    :::image type="Delete a product" source="media/delete-product.png" alt-text="Delete a product":::
 
