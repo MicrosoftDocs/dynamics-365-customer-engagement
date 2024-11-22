@@ -77,50 +77,33 @@ A record can remain unprocessed due to several reasons depending on the state. A
 | Multiple eligible queues found | Multiple eligible queues were identified to assign the record for the configured assignment rule. | Update the conditions for identifying eligible teams to ensure only one team qualifies or update the distribution algorithm to assign to any one team at random. |
 | Couldn't find eligible queue | No eligible queue was found to assign the record for the configured assignment rule. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records) for queues. Update the conditions in the assignment rule accordingly and [run the assignment rules](#run-assignment-rules) again. |
 | Rules won't run for this segment | The record was previously part of a segment but was moved to a different segment where the option to run assignment rules when a record is moved is disabled. | Enable the option to run assignment rules when a record is moved under the **Previously segmented leads** section in the [**Segment properties** pane](wa-edit-a-segment.md#edit-a-segment). [Run the assignment rules](#run-assignment-rules) again. |
-| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically. | The **Error details** section provides detailed information on why the issue has occurred. Provide the necessary security role permissions to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically to the assignment rule. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Segment errors
 
 | Status reason | Description | Resolution |
 |---------------|-------------|------------|
-
-
-
-
-
+| Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and run the assignment rules [run the assignment rules](#run-assignment-rules) again. |
+| No matching segments | The record doesn't match any active segments. | Verify that the record meets the conditions defined in the segment and the segment is active. If the record doesn't meet the conditions, [update the conditions in the segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically to the segment. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Sequence errors
 
 | Status reason | Description | Resolution |
 |---------------|-------------|------------|
-
-
-
-
-
-
-## Reasons records might be left unassigned
-
-- No assignment rule for this record's segment: The segment the record is connected to doesn't match an active assignment rule. Assign it manually, or create a rule that will assign it, and any future records like it, automatically, and [run the assignment rules](#run-assignment-rules) again.  
-- Seller lacks security role privileges: A seller met the assignment criteria but isn't able to be assigned automatically. Make sure your sellers are in the proper security roles and you included all the necessary security roles in your work assignment settings, and [run the assignment rules](#run-assignment-rules) again.  
-
+| Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and run the assignment rules [run the assignment rules](#run-assignment-rules) again. |
+| Seller doesn't have necessary permissions | A seller met the sequence criteria but isn't able to be assigned automatically. | Go to the **Error details** section to view detailed information on why the error occurred. Provide at least read access to the record type to the seller and [run the assignment rules](#run-assignment-rules) again. |
+| Sequence is either deleted or inactive | The record that is trying to connect to sequence is either deleted or inactive for this segment. | Ensure that there's a connected active sequence for this segment. If the sequence is deleted or inactive, [create a new sequence](wa-create-and-activate-a-sequence.md#create-and-activate-a-sequence) and connect it to the segment. [Run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically to the sequence. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ## Run assignment rules
 
-After you address the [reasons the records were left unassigned](#reasons-records-might-be-left-unassigned), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
+After you address the [reasons for the error for records were left unassigned](#understand-the-status-reason-of-unprocessed-records), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
 
-1. Sign in to your Dynamics 365 Sales Hub app.
-
-1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
-
-1. Under **Sales accelerator**, select **Work assignment**.
-
-1. Select a **Record type** to view segments of that type.
-
-1. Select or open a segment that has unassigned records, and then select **Segment properties**.
-
-1. Under **Run assignment rules for unassigned *record type***, select **Run now**.
-
+1. Under **Sales accelerator**, select **Work assignment**.  
+1. Select a **Record type** to view segments of that type.  
+1. Select or open a segment that has unassigned records, and then select **Segment properties**.  
+1. Under **Run assignment rules for unassigned *record type***, select **Run now**.  
     To run the rules later, select **+ Schedule run**, and then select a **Start date**, the days of the week on which the schedule should run, and up to two times it should run on those days. When you're finished, select **Save schedule**.
 
     :::image type="content" source="media/sa-ar-run-reassignment-schedule-configuration-side-pane.png" alt-text="Screenshot of the Schedule run pane.":::
@@ -151,17 +134,13 @@ If you don't have an assignment rule for a lead or opportunity, you can assign i
 
     :::image type="content" source="media/sa-ar-assign-unassigned-records-select-records.png" alt-text="Screenshot of an unassigned record selected, with the Assign button highlighted.":::
 
-1. Select a seller. To assign the record to a team instead, select the **Teams** tab, and then select a sales team. [Learn more about sales teams and assignment rules](manage-sales-teams.md).
-
-    To limit your selection to sellers who can be assigned by a rule, turn on **Show eligible sellers**.
-
-1. Select **Assign**.
-
+1. Select a seller. To assign the record to a team instead, select the **Teams** tab, and then select a sales team. [Learn more about sales teams and assignment rules](manage-sales-teams.md).  
+    To limit your selection to sellers who can be assigned by a rule, turn on **Show eligible sellers**.  
+1. Select **Assign**.  
 The record is assigned to the seller or team and the list refreshes to remove the record.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ## Related information
 
-- [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
-
+[Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
