@@ -1,12 +1,12 @@
 ---
 title: Ask a question
 description: Learn how to use the Ask a question feature in Copilot within Customer Service agent apps to enhance efficiency.
-author: Soumyasd27
-ms.author: sdas
-ms.reviewer: Soumyasd27
+author: mgandham
+ms.author: gandhamm
+ms.reviewer: 
 ms.topic: conceptual 
 ms.collection:
-ms.date: 11/14/2024
+ms.date: 11/22/2024
 ms.custom: bap-template 
 ---
 
