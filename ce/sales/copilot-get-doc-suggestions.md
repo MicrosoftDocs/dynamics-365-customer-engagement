@@ -30,6 +30,7 @@ Copilot can recommend documents related to the products and accounts in your sal
 - You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders or sites, Copilot displays relevant documents from only those folders or sites.
 
 <a name="copilot-content-recommendation"></a>
+
 ## Get content recommendations from SharePoint
  
 As a salesperson, you need to be aware of the latest product and account-related information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to your sales records.
@@ -69,6 +70,7 @@ The **Show related files** prompt lists the files that meet the following criter
 
 
 <a name="copilot-content-qa"></a>
+
 ## Get answers from SharePoint documents
 
 As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you. 
