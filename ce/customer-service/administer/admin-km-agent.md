@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 11/20/2024
+ms.date: 11/22/2024
 ms.custom: bap-template
 ---
 
@@ -17,13 +17,16 @@ ms.custom: bap-template
 Customer knowledge management agent lets you autonomously turn cases and case-related conversations, emails, and notes into knowledge articles that can support your contact center operations. 
 
 ## Prerequisites
-- You have Pay-As-You-Go set up in Power Platform admin center.
+- 
 - You are using the out-of-the-box case entities.
 - You have configured [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 - You’ve enabled Dynamics 365 knowledge base to be indexed by Copilot. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
 - You’ve [configured connection references for customer knowledge management agent flow (preview)](admin-km-agent-connections.md#configure-connection-references-for-customer-knowledge-management-agent-flow-preview).
 
 ## Enable customer knowledge management agent
+
+> [!NOTE]
+> By enabling this feature, you understand that your organization may be billed for its use in the future.
 
 In Customer Service admin center, go to **Agent experience** > **Knowledge** > **Customer knowledge management agent (preview)**, and then select **Manage**. The **Customer knowledge management agent (preview)** page appears.
 
