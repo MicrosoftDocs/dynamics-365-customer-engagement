@@ -33,18 +33,19 @@ Make sure the following prerequisites exist:
 
 With prompt plugins, you can connect Copilot to Dataverse, and let your agents securely access data.
 
-1. Use the steps in [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts) to create a prompt plugin.
+Use the following information:
+1. [Generate content or extract insights with AI Builder prompts](/microsoft-copilot-studio/copilot-ai-plugins#generate-content-or-extract-insights-with-ai-builder-prompts) to create a prompt plugin.
 
    > [!NOTE]
    > Make sure that the prompt description is unique for Copilot to identify the right plugin at runtime.
 
-1. Use the steps in **Configure settings for the prompt plugin** to turn on the plugin in the admin app.
+1. The **Configure settings for the prompt plugin** section in this article to turn on the plugin in the admin app.
 
     > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nA86]
 
 ### Configure settings for the prompt plugin
 
-1. In the Customer Service admin center site map, do one of the following steps to access the plugins:
+1. In the site map of Customer Service admin center, do one of the following steps to access the plugins:
    - Select **Productivity** > **Plugins for generative AI (Preview)** under **Agent experience**.
    - Select **Insights** > **Plugins for generative AI (Preview)** under **Operations**. 
 1. Select **Manage**.
@@ -54,7 +55,7 @@ With prompt plugins, you can connect Copilot to Dataverse, and let your agents s
       - **Specific user roles**: Select the roles in the list.
    1. Select **Next**, and on the **Define inputs(optional)** screen, define the input to improve the answers that Copilot generates.
    1. In **Responses**, select **Don't summarize plugin responses** if you don't want Copilot to interpret the answers and instead present the entire response that's available in the plugin.
-1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. Learn more at [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md).
+1. Select **Next** and on the **Plugin data** screen, select **Store this plugin's data**. The data is stored in your Dataverse database as part of your agent interactions with Copilot as chat transcripts. Learn more in [Copilot transcripts and interaction data](../develop/download-copilot-transcript-data.md).
 
     > [!IMPORTANT]
     > Irrespective of whether you select the checkbox, Copilot Studio saves all the plugin data as part of agent conversation transcripts. Microsoft doesn't have access to this information.
@@ -75,7 +76,7 @@ Use the following information:
 
 ### Configure settings for the custom connector
 
-1. In the Customer Service admin center site map, do one of the following steps to access the plugins:
+1. In the site map of Customer Service admin center, do one of the following steps to access the plugins:
    - Select **Productivity** > **Plugins for generative AI (Preview)** under **Agent experience**.
    - Select **Insights** > **Plugins for generative AI (Preview)** under **Operations**. 
 1. Select **Manage**.
