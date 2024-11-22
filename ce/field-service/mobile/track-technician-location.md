@@ -14,7 +14,7 @@ Field technicians often travel to various locations throughout their workday, an
 
 Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board and see their location history.
 
-For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer the the written documentation for accurate feature descriptions and requirements.
+For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer to the written documentation for accurate feature descriptions and requirements.
 >
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mZ]
 
