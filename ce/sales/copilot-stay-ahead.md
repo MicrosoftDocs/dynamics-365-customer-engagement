@@ -20,6 +20,8 @@ ms.collection: bap-ai-copilot
 
 Stay ahead of your work by asking Copilot to help you prepare for meetings and catch up on emails that need your attention. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to stay ahead with Copilot. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
+<a name="copilot-meeting-prep"></a>
+
 ## Prepare for upcoming sales appointments
 
 If you have meetings scheduled on your Outlook calendar in the next seven days, Copilot can help you prepare for them.  
@@ -48,6 +50,8 @@ If you have meetings scheduled on your Outlook calendar in the next seven days, 
     :::image type="content" source="media/copilot-prepare-for-meetings.svg" alt-text="Screenshot of Copilot's notes for an upcoming meeting.":::
 
 1. (Optional) To view the meeting in Outlook, select **Open Meeting**. 15 minutes before the start time, the option changes to join teams meeting. You can join the meeting directly by selecting this option.  
+
+<a name="copilot-email-reminder"></a>
 
 ## Display unanswered emails
 
