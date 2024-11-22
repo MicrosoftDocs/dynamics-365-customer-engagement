@@ -36,6 +36,9 @@ The maximum user session timeout of 24 hours is removed. This means that a user 
 > - Minimum Session Length: 60 minutes
 > - How long before session expires before showing timeout warning: 20 minutes
 
+> [!IMPORTANT]
+> When claims based authentication or IFD are enabled, and CRM session timeout is not enabled, Session Timeout Warning and Timeouts are calculated based on ADFS relying party trust values for TokenLifetime (by default 60 minutes). Once Custom Session Timeouts are enabled, this will override ADFS TokenLifeTime values and sessions will start respecting CRM session timeout values instead.
+
 ## Inactivity timeout
 
 By default, Customer Engagement (on-premises) does not enforce an inactivity session timeout.  A user can remain logged in the application until the session timeout expires.  You can change this behavior.
