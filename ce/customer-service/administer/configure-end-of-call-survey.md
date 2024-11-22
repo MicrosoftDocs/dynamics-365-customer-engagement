@@ -1,5 +1,5 @@
 ---
-title:  Enable voice call experiences
+title:  Enable feedback on voice call quality
 description: Learn how to configure agent call quality feedback and automatically remove a customer from hold.
 author: gandhamm
 ms.author: mgandham
@@ -9,7 +9,7 @@ ms.date: 06/14/2024
 ms.custom: bap-template 
 ---
 
-# Enable voice call experiences
+# Enable feedback on voice call quality
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 

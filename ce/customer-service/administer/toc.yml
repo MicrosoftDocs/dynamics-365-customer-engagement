@@ -426,14 +426,10 @@
         href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: View voice calls usage
         href: voice-channel-usage.md
-      - name: Configure post-call survey
-        href: voice-channel-survey.md
       - name: Block spam numbers
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Enable voice call experiences
-        href: configure-end-of-call-survey.md
       - name: Delete call recordings
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
@@ -548,8 +544,6 @@
         href: manage-context-variables.md
       - name: Configure pre-conversation surveys
         href: configure-pre-chat-survey.md
-      - name: Configure post-conversation surveys
-        href: configure-post-conversation-survey.md
       - name: Identify customers automatically
         href: record-identification-rule.md
       - name: Close conversations automatically
@@ -666,6 +660,16 @@
           href: configure-bot-azure.md   
       - name: Configure context variables for bots
         href: context-variables-for-bot.md      
+    - Feedback surveys
+      items:
+      - name: Configure feedback surveys using Copilot Studio (preview)
+        href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Enable feedback on voice call quality
+        href: configure-end-of-call-survey.md
+      - name: Configure post-call survey
+        href: voice-channel-survey.md
+      - name: Configure post-conversation surveys using Customer Voice
+        href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
       items:
       - name: Use and customize analytics and insights
