@@ -20,7 +20,7 @@ Booking alerts are often created through automation - either a flow, plugin or t
 
 1. Select **Save & Close**.
 
-You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. For more information, see [schedule board tab settings](schedule-board-tab-settings.md#other-settings).
+You can edit the fields inside a booking alert by editing the **Booking Alert Template** in the schedule board tab settings. For more information, see [schedule board tab settings](/dynamics365/field-service/schedule-board-tab-settings#other-settings).
 
 ## View the booking alert
 
