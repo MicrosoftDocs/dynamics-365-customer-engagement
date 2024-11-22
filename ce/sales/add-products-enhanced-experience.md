@@ -76,7 +76,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 5. In the **Products** grid, select **Add products**.
 
-   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
+   :::image type="content" source="media/enhancedAddProductsDialog.png" alt-text="Screenshot of the enhanced Add products dialog box.":::
 
    > [!NOTE]
    > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see the form interface instead of the Add products dialog, contact your system administrator to enable the experience.
