@@ -42,7 +42,7 @@ View assigned records to reassign them to different sellers or teams. Also, yo g
 
 ## View record status details
 
-When the status of a record is **Needs attention** specifying that the record is not connected to a segment, assignment rule, or sequence due to some error. View the details of the reason, go to  the record's status details pane. The pane provides information about the record such as, topic, owner, created on date, and error details depending on the record type. Depending on the error details and status reason, you can take necessary actions to resolve the issue.
+When a record's status is set to **Needs attention**, it specifies that the record is not connected to a segment, assignment rule, or sequence due to an error. To view the details of the issue, open the record's status details pane. The pane provides information about the record such as, topic, owner, created on date, and error details depending on the record type. Depending on the error details and status reason, you can take [necessary actions to resolve the issue](#understand-the-status-reason-of-unprocessed-records).
 
 1. In the **Processed** tab, select a record that needs attention.  
 
