@@ -12,7 +12,7 @@ ms.custom:
 
 # Enable an entity for resource scheduling
 
-Enabling an entity for scheduling allows customer service representatives to schedule the requirements related to that entity to the matching resources.
+You can enable an entity for scheduling so that customer service representatives can schedule its resource requirements.
 
 ## Prerequisites
 
