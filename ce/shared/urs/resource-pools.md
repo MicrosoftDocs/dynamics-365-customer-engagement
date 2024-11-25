@@ -70,21 +70,14 @@ Pool resources don't show as available in the schedule assistant if the pool is 
 
 ### Assign pool bookings
 
-Assign specific resources to a requirement booked to a pool.
+Assign specific resources to a requirement booked to a pool. Bookings assigned to pool member resources during non-working hours count against the capacity of the pool resource twice.
 
 There are three ways to change a booking assignment:
 
 1. **Manually drag and drop**: Select and drag a booking from the resource pool and drag it to one of the pool members.
 
-1. **Substitution**: Right-click a booking in the resource pool, select **Substitute Resource** and choose a pool member.
+1. **Substitution**: Right-click a booking in the resource pool, select **Book Substitute** and choose a pool member.
 
 1. **Rebook**: Right-click a pool booking and select **Rebook**. Edit the filter criteria to no longer search for pools, but to search for Contact, User, and Account type resources.
 
 The duration resets to the default booking duration. Edit the end time to match the original duration. Then, cancel the original pool booking.
-
-## Additional notes
-
-- **Location of Pool Members**: If a resource is the child of a pool through a bookable resource groups (bookableresourcegroup) record, the location of the child resource is taken from the pool. Additionally, if a resource pool is related to a facility or facility pool resource through bookable resource association (msdyn_bookableresourceassociation), the location is taken from the facility or facility pool.
-
-- Bookings assigned to pool member resources during non-working hours count against the capacity of the pool resource twice.
-

@@ -29,5 +29,5 @@ Some organizations use the proposed status for bookings until their customer con
 
 ## Allow overlapping
 
-Shows bookings that with the **Allow Overlap** field set to **Yes** on the bookable resource booking form.
+Shows bookings with the **Allow Overlap** field set to **Yes** on the bookable resource booking form.
 

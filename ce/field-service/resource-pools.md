@@ -1,7 +1,7 @@
 ---
 title: Schedule requirements to a resource pool
 description: Learn about resource pool scheduling for Dynamics 365 Field Service.
-ms.date: 11/21/2024
+ms.date: 11/26/2024
 ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan

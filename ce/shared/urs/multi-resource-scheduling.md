@@ -37,7 +37,7 @@ Requirement groups bundle requirements commonly scheduled together. For example,
 
 ## Book a requirement group
 
-Open a requirement group and select **Book** to launch the schedule assistant and get available resources that can fulfill the requirement group. By default, it recommends options that require the fewest resources first. You can also sort by **Earliest Time First** in the left pane.
+Open a requirement group and select **Book** to launch the schedule assistant and get available resources that can fulfill the requirement group. By default, it recommends options that require the fewest resources first. Book the selected resource or resources. Then save and close the requirement group.
 
 Booking an option for multiple requirements creates multiple bookings.
 

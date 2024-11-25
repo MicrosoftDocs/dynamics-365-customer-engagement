@@ -29,7 +29,7 @@ For example, a heating and cooling company wants to group air-conditioning insta
 
 ### Associate fulfillment preference to a requirement or requirement group
 
-Open a requirement and go to the **Schedule** tab to choose the **Fulfillment Preference**. For a requirement groups, you can choose it in the **Fulfillment Preference** column.
+Open a requirement and go to the **Scheduling** tab to choose the **Fulfillment Preference**. For a requirement group, you can choose it in the **Fulfillment Preference** column.
 
 ### Book a requirement
 
