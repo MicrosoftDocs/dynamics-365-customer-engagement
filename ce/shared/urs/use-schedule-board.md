@@ -35,7 +35,7 @@ Switch between hourly, daily, weekly, and monthly view on the board. Choose the 
 
 ### Date range
 
-Set the time frame that shows on the board. Use the arrows to move between time frames.
+Set the time frame that shows on the board. Use the arrows to move between time frames. Note that weeks are considered to start on Sundays.
 
 ### Book
 
