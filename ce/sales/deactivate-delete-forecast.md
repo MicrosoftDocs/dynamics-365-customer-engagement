@@ -77,7 +77,7 @@ You can permanently delete a forecast that is in the active, inactive, or draft 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)   
 [Configure forecasts in your organization](configure-forecast.md)

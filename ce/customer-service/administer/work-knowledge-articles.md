@@ -1,7 +1,7 @@
 ---
 title: Work with knowledge articles
 description: This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.
-ms.date: 03/05/2021
+ms.date: 07/01/2024
 author: Soumyasd27
 ms.author: sdas
 ms.topic: article
@@ -18,7 +18,9 @@ searchScope:
 
 # Work with knowledge articles
 
-The new knowledge experience in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+The new knowledge experience enables you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
     
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Deprecated knowledge entities** at the end of this topic. 
@@ -191,7 +193,7 @@ Use the following for help with migration:
 > - Always run a test environment before using in production.  
 > - Check the license and readme before you use the tool.   
 
-## See also
+## Related information
 
 - [Knowledge Base Entities](../../customerengagement/on-premises/developer/knowledge-management-entities.md)
 - [KnowledgeArticle Entity](../../customerengagement/on-premises/developer/entities/knowledgearticle.md)

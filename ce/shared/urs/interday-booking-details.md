@@ -1,8 +1,8 @@
-The schedule board supports directly displaying the service account field of parent schedulable entity when viewing booking details on an aggregated view such as daily, weekly, or monthly. When enabled, this off-by-default hidden app setting respects security settings such as field security on the account-related fields.
+The schedule board supports directly displaying the service account field of parent schedulable entity when viewing booking details on an aggregated view such as daily, weekly, or monthly. When enabled, this  app setting respects security settings such as field security on the account-related fields.
 
-This feature is controlled by the *msdyn_EnableInterdayAccountName* global setting. You can enable it with browser console commands.  
+This feature is controlled by the *msdyn_EnableInterdayAccountName* global setting. You can enable it with a toggle on the Scheduling Parameters form or by using browser console commands.  
 
-## Enable or disable account names on interday booking details
+## Enable or disable account names on interday booking details with browser console commands
 
 1. Open the schedule board in the browser. 
 1. Launch the developer tools of your browser and open the console.

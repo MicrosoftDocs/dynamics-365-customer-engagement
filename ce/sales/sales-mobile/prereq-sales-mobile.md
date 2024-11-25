@@ -41,7 +41,7 @@ As an administrator, you can further refine the experience with the following cu
 - [Create custom push notifications](create-push-notification.md)  
 - [Configure tables for quick creation of records and activities](configure-quick-create.md)
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)  

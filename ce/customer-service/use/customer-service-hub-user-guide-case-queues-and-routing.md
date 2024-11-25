@@ -59,7 +59,7 @@ To know more about queues, see [Work with queues](work-with-queues.md).
     > [!IMPORTANT]
     >  The **Save & Route** button is available only on active cases.  
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  

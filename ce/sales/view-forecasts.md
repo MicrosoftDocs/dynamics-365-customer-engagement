@@ -148,7 +148,7 @@ With the forecast grid, you can do the following tasks:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [Configure a forecast](configure-forecast.md)  

@@ -73,7 +73,7 @@ CrmServiceClient crmSvc = new CrmServiceClient(ConfigurationManager.ConnectionSt
 > [!NOTE]
 > When using the `OAuth` authentication type for development and prototyping purposes, we have provided the following AppId or ClientId and Redirect URI for use in OAuth Flows. We use these in all our code samples.
 >
-> Sample AppId or ClientId = 51f81489-12ee-4a9e-aaae-a2591f45987d<br/>
+> Sample AppId or ClientId = 00001111-aaaa-2222-bbbb-3333cccc4444<br/>
 > Sample RedirectUri = app://58145B91-0C36-4500-8554-080854F2AC97
 >
 > For production use, you should create an AppId or ClientId that is specific to your tenant in the Azure Management portal.
@@ -115,7 +115,7 @@ Create a new connection using a UserID or Password via oAuth.
   Username=jsmith;
   Password=passcode;
   Url=https://contoso:8080/Test;
-  AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+  AppId=00001111-aaaa-2222-bbbb-3333cccc4444;
   RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
   TokenCacheStorePath=c:\MyTokenCache;
   LoginPrompt=Auto"/>  
@@ -136,7 +136,7 @@ Create a new connection using the current logged in user via oAuth.
   Username=jsmith;
   Integrated Security=true;
   Url=https://contoso:8080/Test;
-  AppId=51f81489-12ee-4a9e-aaae-a2591f45987d;
+  AppId=00001111-aaaa-2222-bbbb-3333cccc4444;
   RedirectUri=app://58145B91-0C36-4500-8554-080854F2AC97;
   TokenCacheStorePath=c:\MyTokenCache;
   LoginPrompt=Auto"/>  

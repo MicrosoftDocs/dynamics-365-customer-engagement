@@ -71,7 +71,7 @@ This section contains a link to sign out from the mobile app.
 
 - **Sign out**: Sign out from the app.
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)

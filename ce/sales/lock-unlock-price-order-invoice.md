@@ -1,7 +1,7 @@
 ---
 title: Lock or unlock the price for an order or invoice
 description: Enable or disable price updates for finalized orders or invoices in Sales Hub, ensuring control over pricing changes.
-ms.date: 04/22/2024
+ms.date: 07/26/2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -23,7 +23,7 @@ ms.custom:
 ---
 # Lock or unlock the price for an order or invoice (Sales Hub) 
 
-After you've finalized an order or invoice for a specific price, you can lock the price to prevent it from being updated when the price list is updated. Conversely, you can enable current pricing to update the price on the order or invoice when the price list is updated.
+After you've finalized an order or invoice for a specific price, you can lock the price to prevent it from being updated when the price list is updated. Conversely, you can enable current pricing to update the price on the order or invoice when the price list is updated. Your administrator can set the [default behavior for price locking](faq-product-price-list.md#how-do-i-change-the-default-value-for-prices-locked) in the system settings.
 
 ## License and role requirements
 
@@ -55,7 +55,7 @@ After you've finalized an order or invoice for a specific price, you can lock th
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create or edit orders](create-edit-order-sales.md)  
 [Create or edit invoices](create-edit-invoice-sales.md)

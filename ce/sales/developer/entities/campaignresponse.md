@@ -1983,7 +1983,7 @@ See the [CampaignResponse_OrderCloses](orderclose.md#BKMK_CampaignResponse_Order
 
 See the [CampaignResponse_QuoteCloses](quoteclose.md#BKMK_CampaignResponse_QuoteCloses) one-to-many relationship for the [quoteclose](quoteclose.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

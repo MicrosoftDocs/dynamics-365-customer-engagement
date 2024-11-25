@@ -1,23 +1,23 @@
 ---
-title: Copy an environment that includes Omnichannel for Customer Service
-description: Follow these steps to create a copy of a Dynamics 365 environment that includes Omnichannel for Customer Service and its integrations.
+title: Copy an environment that includes omnichannel environment
+description: Follow these steps to create a copy of a Dynamics 365 environment that includes omnichannel capabilities.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: 
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/01/2024
+ms.date: 08/12/2024
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
 
-# Copy an environment that includes Omnichannel for Customer Service
+# Copy an environment that includes omnichannel environment
 
-Omnichannel for Customer Service lets you integrate with external services and channels like WhatsApp, Twilio, and Azure Communication Services. The integration parameters are stored in Dataverse tables. To create a copy of a Dynamics 365 Customer Service environment that contains Omnichannel for Customer Service, you can use the standard copy feature of model-driven apps. The integration parameters are copied to the new environment. However, you need to perform some additional steps to make sure that the copied environment works correctly. For example, if you have digital messaging channels, you need to delete and configure them again.
+Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Customer Service let you integrate external services and channels such as WhatsApp, Twilio, and Azure Communication Services. The integration parameters are stored in Dataverse tables. To create a copy of an environment that contains omnichannel capabilities, you can use the standard copy feature of model-driven apps. The integration parameters are copied to the new environment. However, you need to perform some additional steps to make sure that the copied environment works correctly. For example, if you have digital messaging channels, you need to delete and configure them again.
 
 ## Prerequisites
 
-- [Omnichannel for Customer Service is configured in both the source and the target environment](omnichannel-provision-license.md).
+- [Omnichannel for Customer Service is configured in both the source and the target environment](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 - Both the source and the target environment have the same set of channels enabled.
 - [If you use unified routing, it's turned on in both the source and the target environment](../administer/provision-unified-routing.md).
 
@@ -30,7 +30,7 @@ Omnichannel for Customer Service lets you integrate with external services and c
 
 ## Configure the target environment after copying from the source
 
-If you chose the full copy option, it can take up to an hour for Omnichannel for Customer Service data to appear in the target environment.
+If you chose the full copy option, it can take up to an hour for the data to appear in the target environment.
 
 1. [Review and update the users, role mappings, and capacity profiles](../administer/users-user-profiles.md) in the target environment.
 
@@ -55,12 +55,9 @@ If you chose the full copy option, it can take up to an hour for Omnichannel for
     - [Configure a new Facebook channel](../administer/configure-facebook-channel.md)
     - [Configure a LINE channel](../administer/configure-line-channel.md)
     - [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md)
-    - [Configure a Google's Business Messages channel](../administer/configure-google-business-messages-channel.md)
     - [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
-    - [Configure a WeChat channel](../administer/configure-wechat-channel.md)
     - [Configure a custom channel](../develop/bring-your-own-channel.md)
     - [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)
-    - [Configure an SMS channel for TeleSign](../administer/configure-sms-channel.md)
     - [Configure an SMS channel for Twilio](../administer/configure-sms-channel-twilio.md)
 
 ## Configure Copilot Studio bots in the target environment
@@ -72,13 +69,13 @@ If you chose the full copy option, it can take up to an hour for Omnichannel for
 1. Update the workstreams to use the new bot.
 
 > [!NOTE]
-> To use the same Copilot Studio bot in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect Omnichannel for Customer Service. If you reconnect the bot to another environment, it will break the source environment.
+> To use the same Copilot Studio bot in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect the application. If you reconnect the bot to another environment, it will break the source environment.
 
 ## Configure Azure bots in the target environment
 
 1. Delete any Azure bots in all workstreams and the environment.
 
-1. Reconnect the bot following the steps in [Configure the Bot user in the Omnichannel for Customer Service environment](../administer/configure-bot-azure.md#integrate-azure-bots-with-omnichannel-for-customer-service).
+1. Reconnect the bot following the steps in [Configure the Bot user](../administer/configure-bot-azure.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
 ## Configure real-time and historical analytics
 
@@ -86,6 +83,6 @@ If you chose the full copy option, it can take up to an hour for Omnichannel for
 
 1. To make sure that [historical analytics reports](../administer/oc-historical-analytics-reports.md) reflect information in the target environment, on the historical analytics page in the Customer Service admin center, turn off **Enable Omnichannel historical analytics report**, and then turn it back on.
 
-### See also
+### Related information
 
 - [Export and import app configuration data](export-import-omnichannel-data.md)

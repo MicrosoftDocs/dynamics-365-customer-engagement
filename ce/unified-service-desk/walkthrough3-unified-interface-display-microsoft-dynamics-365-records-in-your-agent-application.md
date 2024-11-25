@@ -1,14 +1,16 @@
 ---
 title: "Walkthrough 3: Display model-driven app records for Unified Interface apps | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying model-driven app records for Unified Interface apps. "
-ms.date: 06/25/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
+ms.custom: evergreen
 ---
+
 
 # Walkthrough 3: Display model-driven apps (Unified Interface apps) records in your agent application
 

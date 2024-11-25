@@ -5,13 +5,15 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/01/2024
+ms.date: 06/14/2024
 ms.custom: bap-template 
 ---
 
 # Enable voice call experiences
 
-Use the **Voice call experiences** page in Customer Service admin center to configure the following features:
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+Use the **Voice call experiences** page in Customer Service admin center or Contact Center admin center to configure the following features:
 
 - [Configure agent call quality feedback survey](#configure-agent-call-quality-feedback-survey)
 - [Disable taking a customer off hold automatically](#disable-taking-a-customer-off-hold-automatically)
@@ -24,7 +26,7 @@ Agents can rate and provide feedback on their voice calling experience after the
 
 Perform the following steps to enable agent call quality surveys:
 
-1. In Customer Service admin center, select **Workspaces** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
+1. In Customer Service admin center or Contact Center admin center, select **Workspaces** and then select **Voice call experiences**. You can enable the survey from **Voice settings** in voice workstreams. 
 3. Switch the **Agent call quality survey** toggle to **On**.
 4. Specify the frequency at which the survey should be presented to the agent. Optionally, you can also switch the **Set survey duration** toggle to **On** and specify the duration during which the survey must appear for the agent.
 
@@ -53,9 +55,9 @@ ACSCallSurvey
 ## Disable taking a customer off hold automatically
 
 When you transfer a call to another agent, the customer is automatically put on hold. The customer is removed from hold automatically when the secondary agent accepts the transferred call. To disable this behavior, and manually take the customer off hold, perform the following steps:
-- In Customer Service admin center, select **Workspaces** and then select **Voice call experiences**.
+- In Customer Service admin center or Contact Center admin center, select **Workspaces** and then select **Voice call experiences**.
 - Turn off the **Un-hold customer after agent transfer is accepted** toggle. 
 
 ## Next steps
 
-[Share feedback on call quality](../use/voice-channel-agent-experience.md#share-feedback-on-call-quality)
+[Share feedback on call quality](/dynamics365/contact-center/use/voice-channel-agent-experience#share-feedback-on-call-quality)  

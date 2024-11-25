@@ -1,7 +1,7 @@
 ---
 title: Sequence creation and activation in the sales accelerator
 description: Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales.
-ms.date: 09/08/2023
+ms.date: 06/17/2024
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -71,7 +71,7 @@ Also, sellers can create and activate sequences for themselves and use the seque
 
 Now, you can assign the sequence to users and then activate. 
 
-## Automatically assign sequence to users or a team
+## Assign different sequences to users or teams
 
 You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
 
@@ -126,7 +126,7 @@ On the sequence home page, you can do the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)     
 [Add steps to sequence](steps-sequence.md)  

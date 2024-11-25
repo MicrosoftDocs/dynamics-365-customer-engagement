@@ -260,7 +260,7 @@ The following image shows how the call recording KPIs are displayed.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)  

@@ -1,7 +1,7 @@
 ---
 title: "Manage applications in Omnichannel for Customer Service app | MicrosoftDocs"
 description: "Learn how to manage applications using the application tab panel in Omnichannel for Customer Service app."
-ms.date: 08/03/2020
+ms.date: 07/02/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,9 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The horizontal bar below the navigation bar is called the application tab panel. Every customer session has at least one application that is not closable; it is called an **anchor** tab. In the following image, **Omnichannel Agent Dashboard** is the anchor tab.
+
+Based on your administrator's settings, you can customize the anchor tab title to be the same as the session tab title. More information: [Apply session title to anchor tab](../administer/session-templates.md#create-a-session-template)
+
 
 The application tab has a **+** icon. If you select the icon, a menu  appears that lists the out-of-the-box and custom entities. Also, you can access any third-party line-of-business applications that are extended within the Omnichannel for Customer Service app. Select the option from the list to open it in the application tab.
 
@@ -55,7 +58,7 @@ The title of the application tab is the name of the entity. For example, dashboa
 > [!div class=mx-imgBorder]
 > ![App tab title.](../media/oceh-app-tab-title.png "App tab title")
 
-### See also
+### Related information
 
 [Create personal quick replies](create-personal-quick-replies.md)  
 [View agent dashboard and conversations (work items)](oc-agent-dashboard.md)  

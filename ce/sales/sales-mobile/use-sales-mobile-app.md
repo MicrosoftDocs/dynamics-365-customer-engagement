@@ -1,7 +1,7 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 03/31/2023
+ms.date: 06/13/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -121,7 +121,7 @@ The home page is displayed as shown in the following example screen:
 > [!div class="mx-imgBorder"]
 > ![Sales mobile app home page.](media/sa-home-page.png "Sales mobile app home page") 
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)
 

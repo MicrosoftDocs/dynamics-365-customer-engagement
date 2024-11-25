@@ -49,7 +49,7 @@ If you want to make advanced configurations for Teams collaboration, select **Go
 
 3. Select **Apply**.
 
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)     

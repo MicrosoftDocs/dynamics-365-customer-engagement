@@ -1,6 +1,6 @@
 ---
 title: Configure automated messages
-description: Perform the steps mentioned in the article to configure automated messages in Omnichannel for Customer Service.
+description: Perform the steps mentioned in the article to configure automated messages in your contact center.
 ms.date: 04/18/2024
 author: lalexms
 ms.author: laalexan
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure automated messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and agent-facing messages at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
@@ -20,27 +20,13 @@ As an administrator, you can also overwrite or deactivate the preconfigured, out
 
 You can view a list of all agent and customer-facing automated messages in your Omnichannel for Customer Service environment.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-     1. In the **Automated messages** section, select **Manage**.
-
-     The **Automated messages** page is displayed.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-    
-     1. In the site map, select **Customer Settings** in **Advanced settings**. The **Customer settings** page appears.
-     2. In the **Automated messages** section, select **Manage**.
-
-      The **Automated messages** page is displayed.
+1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1. In the **Automated messages** section, select **Manage**. The **Automated messages** page is displayed.
 
     > [!div class=mx-imgBorder]
     > ![Display all automated messages.](../media/automated-messages-list.png "Display all automated messages")
-2. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
+
+1. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
 
 ## Customize automated messages at the channel level
 
@@ -69,7 +55,7 @@ You can customize automated messages at the channel instance level. For example,
 
 ### Add custom automated messages
 
-Complete the following steps for the channel in which you want to create custom automated messages in the Customer Service admin center or Omnichannel admin center (deprecated) app:
+Complete the following steps for the channel in which you want to create custom automated messages in the Customer Service admin center app:
 
 1. Go to the workstream, and edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
@@ -107,6 +93,10 @@ Complete the following steps for the channel in which you want to create custom 
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.| Customer |
 | Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the agent instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to an agent.| Customer |
 
+> [!NOTE]
+> The supported locale is mentioned in the out-of-the-box system messages that you can see in Contact Center admin center or Customer Service admin center.
+
+
 ## Best practices for using automated messages
 
 Use the following best practices when you configure automated messages for the voice channel:
@@ -123,7 +113,7 @@ Use the following best practices when you configure automated messages for the v
 
 [Add a chat widget](add-chat-widget.md)  
 
-### See also
+### Related information
 [Channels](../use/channels.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -46,7 +46,7 @@ Xrm.WebApi.retrieveMultipleRecords(entityName, "").then((result) => {
 });
 ```
 
-## See also
+## Related information
 
 [View and understand Ongoing Conversations dashboard](../use/ongoing-conversations-dashboard.md)
 

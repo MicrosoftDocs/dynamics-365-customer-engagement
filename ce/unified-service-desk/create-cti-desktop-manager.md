@@ -1,15 +1,14 @@
 ---
 title: "Create a CTI Desktop Manager | MicrosoftDocs"
 description: "Learn about the CTI Desktop Manager component and its objects. Also, understand how to raise search requests to access call data."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Create a CTI Desktop Manager in Unified Service Desk
 

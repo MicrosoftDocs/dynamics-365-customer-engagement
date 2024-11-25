@@ -61,7 +61,7 @@ Service scheduling is available in the Customer Service workspace app.
      > ![Schedule board in Customer Service workspace.](../media/csw-schedule-board-urs.png)
 
 
-### See also
+### Related information
 
 [Create or edit a service](uci-create-edit-service.md)  
 [Add facilities and equipment](uci-add-facilities-equipment.md)  

@@ -8,8 +8,6 @@ ms.author: laalexan
 ---
 # Display custom context in Conversation summary
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 The data type of the context variables is a JSON object with two properties&mdash;`isDisplayable` and `Value`. The JSON object has the following schema.
@@ -44,7 +42,7 @@ The `isDisplayable` property, when set to `true`, will display the context varia
 ![Display context keys.](../media/context-variable-display.png "Display context keys")
 
 
-### See also
+### Related information
 
 [Send custom context](send-context-starting-chat.md)<br />
 [setContextProvider](reference/methods/setContextProvider.md)

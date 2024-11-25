@@ -1,6 +1,6 @@
 ---
 title: Associate templates with workstreams
-description: Learn how to associate the different templates with workstreams that will be used for incoming conversations in Customer Service.
+description: Learn how to associate the different templates with workstreams that will be used for incoming conversations.
 author: neeranelli
 ms.author: nenellim
 ms.date: 02/29/2024
@@ -9,17 +9,17 @@ ms.topic: article
 
 # Associate templates with workstreams
 
-The session, notification, and application tab templates that you create need to be associated with a workstream, so that the Omnichannel system uses the corresponding templates for an incoming conversation.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+The session, notification, and application tab templates that you create need to be associated with a workstream, so that the omnichannel system uses the corresponding templates for an incoming conversation.
 
 After an agent accepts the conversation request, a session starts for which the session template is used. In the session, certain application tabs are required such as dashboard, knowledge article search, and case pages. These application tabs are configured using the application tab templates and are associated with a session.
 
 ## Associate or modify templates with workstreams 
 
-After you create a workstream, you can modify the default templates that are attached to the workstream, from either the Customer Service admin center or Omnichannel admin center (deprecated) app.
+After you create a workstream, you can modify the default templates that are attached to the workstream.
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-1. In the Customer Service admin center or Omnichannel admin center site map, select **Workstreams**.
+1. In the Customer Service admin center site map, select **Workstreams**.
 1. Select the workstream for which you want to modify the template, and expand the **Show advanced settings** section.
 1. Select **Edit** beside **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list.
 1. Select **Save and close**.
@@ -30,9 +30,9 @@ After you create a workstream, you can modify the default templates that are att
     - Transfer
     - Supervisor assign
 
-5. Select **Save and close**.
+1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

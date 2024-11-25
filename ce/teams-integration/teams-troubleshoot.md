@@ -1,7 +1,7 @@
 ---
 title: "Troubleshoot Microsoft Teams integration with Dynamics 365 app"
 description: "Find information about error messages might you receive when integrating Microsoft Teams with customer engagement apps, and possible resolutions."
-ms.date: 02/08/2024
+ms.date: 08/05/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 apps
@@ -273,6 +273,25 @@ The Dynamics 365 app isn't supported on mobile devices.
 ### Rich text fields in adaptive cards aren't displayed correctly
 
 Rich text fields aren't supported in adaptive cards and won't render correctly in Microsoft Teams. You can modify a field's format to rich text to format text using HTML, but it will not be displayed correctly in Teams. Teams doesn't support rich text formatting on fields in adaptive cards.
+
+### Limitations of Dynamics 365 app in Microsoft Teams
+
+Due to recent security changes in the Power Apps framework, which hosts Teams apps, the Dynamics 365 app in Teams has the following limitations:
+
+- Loss of state
+    - If you are working in an app and switch to another Teams experience, such as a chat or a channel, your previous state will be lost when you return to the app, and the app will be reloaded.
+- File download
+    - File access is supported only in the web browser and not in the native Teams client.
+- Device capabilities 
+    - If your app depends on native device capabilities to take pictures, record videos, or scan barcodes, you will not be able to perform these actions while running the app on Teams. 
+- Loss of functionality due to third-party cookies being blocked
+    - The Rich Text Editor control will not load, affecting experiences such as email and signature editing, as well as forms that utilize the rich text editor.
+    - PCF controls that load external resources (HTML/JS) will not work. Also, some client calls that access `window.*` will be broken.
+    - App functionality that is configured to use an HTML web resource will not work.
+- Export to PDF
+    - Export to PDF functionality is not supported.
+- Enhanced email for timeline
+    - Enhanced email for timeline functionality is not supported.
 
 
 

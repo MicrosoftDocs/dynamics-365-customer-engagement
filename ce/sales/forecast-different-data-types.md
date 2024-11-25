@@ -1,7 +1,7 @@
 ---
 title: "Forecast with multiple data type columns"
 description: "Configure a forecast with columns of different data types."
-ms.date: 03/21/2023
+ms.date: 10/01/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -11,8 +11,7 @@ ms.reviewer: lavanyakr
 
 In a forecast grid, you can have multiple columns with different data types&mdash;such as currency and quantity&mdash;displayed in a single view. For example, in a product-based forecast, you can display the **Best case** column values as a quantity (the decimal value of the volume of products sold) and as currency simultaneously.
 
-> [!div class="mx-imgBorder"]
-> ![Best case currency and quantity columns.](media/forecast-quantity-bestcase-column.png "Best case currency and quantity columns")
+:::image type="content" source="media/forecast-quantity-bestcase-column.png" alt-text="Best case currency and quantity columns":::
 
 For more information about configuring columns and data types, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
 
@@ -50,28 +49,23 @@ Let's say you want to view the **Best case** forecast category's total amount, d
 
 After you've completed the other configuration steps as required and are activating the forecast, an error message is displayed at the top of the **Activate forecast** configuration page. 
 
-> [!div class="mx-imgBorder"]
-> ![Multiple data type error.](media/forecast-publish-multiple-data-type-error.png "Multiple data type error")
+:::image type="content" source="media/forecast-publish-multiple-data-type-error.png" alt-text="Multiple data type error":::
 
 Select **Fix issue**. The following **Layout warnings** pane is displayed, where you can select a primary data type.
 
-> [!div class="mx-imgBorder"]
-> ![Layout warnings pane.](media/forecast-publish-layout-warnings-pane.png "Layout warnings pane") 
+:::image type="content" source="media/forecast-publish-layout-warnings-pane.png" alt-text="new image":::
 
 - If you select the primary data type as **Quantity**, the forecast chooses the **Best case products sold** column to display in the Kanban view, deal flows, and trend charts. This is because the **Best case products sold** column is the only column that has a quantity (in this case, decimal) data type. You can proceed with activating the forecast after you select the primary data type. The Kanban view in the following image displays only one lane with a single quantity-based column.
 
-    > [!div class="mx-imgBorder"]
-    > ![Example of the primary data type selected as quantity.](media/forecast-primary-datat-quanity-bestcase.png "Example of the primary data type selected as quantity")
+    :::image type="content" source="media/forecast-primary-datat-quanity-bestcase.png" alt-text="Example of the primary data type selected as quantity":::
     
 - If you select the primary data type as **Currency**, you must choose between **Best case** and **Best case discount** columns to display in the Kanban view, deal flows, and trend charts. This is because both these columns have **Currency** as the data type and share the same selector (**Best case**). Select the appropriate column, and then select **Save**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select the primary data type as currency and choose a column.](media/forecast-data-type-select-currency-choose-column.png "Select the primary data type as currency and choose a column") 
+    :::image type="content" source="media/forecast-data-type-select-currency-choose-column.png" alt-text="Select the primary data type as currency and choose a column":::
 
     In this forecast, the **Best case** column is selected to be displayed in the Kanban view, though the **Best case discount** column is of the same selector and data type. The quantity-type column **Best case products sold** is of the same selector and is displayed in the forecast grid, but not in the Kanban view.
 
-    > [!div class="mx-imgBorder"]
-    > ![Example of selecting the primary data type as currency.](media/forecast-primary-data-currency-bestcase.png "Example of selecting the primary data type as currency")
+    :::image type="content" source="media/forecast-primary-data-currency-bestcase.png" alt-text="Example of selecting the primary data type as currency":::
 
 <a name=different-fc-different-data-type></a>
 **Example 2: Create a currency column and a quantity column with two different forecast categories**
@@ -107,14 +101,13 @@ You can view the details of the primary data type and the selected column (among
 
 6. Select **View settings**. A **Layout warnings** pane is displayed on the right side of the page.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select view settings and view layout warnings pane.](media/forecast-view-settings-layout-warnings-pane.png "Select view settings and view layout warnings pane") 
+    :::image type="content" source="media/forecast-view-settings-layout-warnings-pane.png" alt-text="Select view settings and view layout warnings pane":::
 
     You can view the selected primary data type and column to display in the Kanban view, deal flows, and trend charts.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md)  
 [Choose layout and columns](choose-layout-and-columns-forecast.md)

@@ -45,7 +45,7 @@ For Copilot to automatically generate a conversation summary for a live conversa
    - **On demand, by selecting a button to summarize the conversation**: Generate a summary at any point in the conversation, whenever the agent selects the copilot **Summarize conversation** in the conversation panel.
    - Select [**Manage format**](customize-copilot-conv-summary.md) to  the change the format in which the conversation summary is displayed to agents.
 
-### See also
+### Related information
 
 [Use Copilot to summarize cases and conversations](../use/copilot-use-summary.md)<br>
 [Enable features in Copilot pane](copilot-enable-help-pane.md)

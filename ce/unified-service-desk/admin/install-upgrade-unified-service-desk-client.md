@@ -1,15 +1,13 @@
 ---
 title: "Install the Unified Service Desk client | MicrosoftDocs"
 description: "Learn how to install and upgrade Unified Service Desk client using the Setup Wizard and using the command line."
-ms.date: 05/26/2023
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 

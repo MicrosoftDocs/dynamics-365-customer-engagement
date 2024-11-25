@@ -52,6 +52,6 @@ If your organization has configured multiple forecasts, save your users time and
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [View a forecast](view-forecasts.md)

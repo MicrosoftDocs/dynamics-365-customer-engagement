@@ -55,6 +55,6 @@ The following Microsoft support and community resources are also available, wher
 - [Microsoft Dynamics 365 Blog](https://cloudblogs.microsoft.com/dynamics365/?source=dynamicsaxscm)
 - [Dynamics 365 Community](https://community.dynamics.com/)
 - [Dynamics 365 Sales ideas portal](https://experience.dynamics.com/ideas/categories/?forum=3d83d841-984b-ea11-a812-000d3a579c39&forumName=Dynamics%20365%20Sales)
-- [Dynamics 365 support](https://dynamics-int.microsoft.com/support/)
+- [Dynamics 365 Customer Engagement apps support](https://admin.powerplatform.microsoft.com/support)
 
 

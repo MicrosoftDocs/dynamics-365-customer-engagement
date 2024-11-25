@@ -45,7 +45,7 @@ There are two types of views in Dynamics 365 Sales:
 
 - **Personal views**
 
-     Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user, you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view.
+     Personal views are created by individual users. They are visible only to that user or to other users they choose to share their personal views with. As a user, you can create a new personal view based on a system or public view. You can't create a system or public view based on a personal view. [Learn more about sharing personal views](/powerapps/user/grid-filters-advanced#manage-and-share-personal-views).
 
 ## Create a system view
 
@@ -54,7 +54,7 @@ Depending on the license you have, select one of the following tabs for more inf
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
-2. Follow the instructions in [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer?context=/dynamics365/context/sales-context) to create views.
+2. Follow the instructions in [Create and edit public or system model-driven app views](/power-apps/maker/model-driven-apps/create-or-edit-model-driven-app-view?context=/dynamics365/context/sales-context) to create or customize system views.
 
 # [Sales Professional](#tab/SP)
 
@@ -215,9 +215,10 @@ More information:
 - [Apply filters](/powerapps/user/grid-filters-advanced#filter-editor)
 - [Create a personal view](/powerapps/user/grid-filters-advanced#create-personal-views)
 
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize forms](customize-forms.md)  
 [Customize business process flows](customize-business-process-flows.md)

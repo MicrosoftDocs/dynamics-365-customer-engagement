@@ -27,7 +27,7 @@ This sample code is for Dynamics 365 Sales. [Download the business management sa
 ## Example  
  [!code-csharp[BusinessManagement#ConvertOpportunityToQuote](../../snippets/csharp/CRMV8/businessmanagement/cs/convertopportunitytoquote.cs#convertopportunitytoquote)]  
   
-### See also  
+## Related information  
     
  [Opportunity Tables](opportunity-entities.md)   
  <xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>

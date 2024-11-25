@@ -69,16 +69,12 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) have a number of capabi
   
 -   [RSSBus SSIS task for Microsoft Dynamics CRM](https://www.arcesb.com/)  
   
--   [Team4 SSIS Connector for Microsoft CRM](https://www.team4.com/ssismicrosoftcrm/index.html)  
-  
 -   [PragmaticWorks TaskFactory SSIS Source/Destination for Dynamics CRM](https://pragmaticworks.com/Products/Task-Factory/Features/DynamicsCRMSource.aspx)  
   
 <a name="BKMK_ETL"></a>   
 ## ETL tools  
   
 -   [Scribe Insight and Scribe Online with adapter for Microsoft Dynamics CRM](https://www.scribesoft.com/microsoft-dynamics-crm.asp)  
-  
--   [Productivity tools from Informatica](https://community.informatica.com/community/search.jspa?peopleEnabled=true&userID=&containerType=14&container=2002&spotlight=true&resultTypes=solution&q=dynamics+CRM)  
   
 ### See also  
  [Report Authoring Extension (with SQL Server Data Tools support)](https://www.microsoft.com/download/details.aspx?id=45013) <br />

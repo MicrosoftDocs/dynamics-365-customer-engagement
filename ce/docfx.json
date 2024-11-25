@@ -2,6 +2,26 @@
   "build": {
     "content": [
       {
+        "group": "ce-all",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "customerengagement/on-premises/**",
+          "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
         "group": "op-all",
         "files": [
           "customerengagement/on-premises/**/*.md",
@@ -28,28 +48,31 @@
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
-      },
+      }
+    ],
+    "resource": [
       {
+        "group": "ce-all",
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.html",
+          "**/*.htm",
+          "**/*.txt",
+          "**/*.ico"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "customerengagement/on-premises/**",
           "unified-service-desk/**",
+          "customerengagement/on-premises/**",
           "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "**/_themes.pdf/**"
         ]
-      }
-    ],
-    "resource": [
+      },
       {
         "group": "op-all",
         "files": [
@@ -84,27 +107,6 @@
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg",
-          "**/*.html",
-          "**/*.htm",
-          "**/*.txt",
-          "**/*.ico"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/shared/**",
-          "unified-service-desk/**",
-          "customerengagement/on-premises/**",
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
@@ -148,14 +150,14 @@
         ]
       },
       "ms.service": {
-        "mobile-app/**.*": "dynamics-365-cross-app",
+        "mobile-app/**.*": "d365ce-op",
         "legal/**.*": "dynamics-365-cross-app",
-        "outlook-addin/**.*": "dynamics-365-cross-app",
-        "outlook-app/**.*": "dynamics-365-cross-app",
-        "app-profile-manager/**.*": "dynamics-365-customerservice",
-        "channel-integration-framework/**.*": "dynamics-365-customerservice",
-        "customer-service/**.*": "dynamics-365-customerservice",
-        "unified-service-desk/**.*": "dynamics-365-customerservice",
+        "outlook-addin/**.*": "d365ce-op",
+        "outlook-app/**.*": "dynamics-365-outlook-app",
+        "app-profile-manager/**.*": "dynamics-365-customer-service",
+        "channel-integration-framework/**.*": "dynamics-365-customer-service",
+        "customer-service/**.*": "dynamics-365-customer-service",
+        "unified-service-desk/**.*": "dynamics-365-customer-service",
         "common-scheduler/**.*": "dynamics-365-field-service",
         "field-service/**.*": "dynamics-365-field-service",
         "linkedin/**.*": "dynamics-365-linkedinconnector",
@@ -168,6 +170,12 @@
         "customerengagement/**.*": "d365ce-op"
       },
       "ms.prod": {
+      },
+      "ms.date": {
+        "unified-service-desk/**.*": "06/27/2024"
+      },
+      "ms.custom": {
+        "unified-service-desk/**.*": "evergreen"
       },
       "ms.subservice": {
         "channel-integration-framework/**.*": "channel-integration-framework",
@@ -334,6 +342,9 @@
     "template": [],
     "dest": "customer-engagement",
     "groups": {
+      "ce-all": {
+        "dest": "ce-all"
+      },
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-4"

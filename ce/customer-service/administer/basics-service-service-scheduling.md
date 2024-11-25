@@ -1,10 +1,13 @@
 ---
-title: Overview of Service Scheduling and Scheduling experience in Dynamics 365 Customer Service
-description: This article provides information on the basics of service and service scheduling in Dynamics 365 Customer Service.
-ms.date: 05/07/2024
-author: lalexms
-ms.author: laalexan
-ms.topic: overview
+title: Overview of Service Scheduling
+description: This article provides an overview of service scheduling, detailing how to optimally schedule resources for improved service quality and efficiency.
+ms.date: 07/30/2024
+author: Soumyasd27
+ms.author: sdas
+ms.topic: conceptual
+ms.custom: 
+- bap-template
+- evergreen
 ---
 
 # Overview of Service Scheduling
@@ -83,64 +86,9 @@ Let's see how Contoso accomplishes the task:
 
    ![schedule-board.](../media/schedule-board-csh.png)  
 
-## Understand scheduling entities
-
-Scheduling entities are grouped under the following logical groups:
-
-**Scheduling**
-
-- **Resources** </br>
-   Anything that needs to be scheduled can be termed as **Resources**. This can be personnel, crews, service centers, company assets (equipment), accounts, or contacts. 
-
-  [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and set up bookable resources](resources-service-scheduling.md)
-
-- **Facilities/Equipment**  </br>
-   Facilities and equipment are resources you'd use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. 
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add facilities and equipment to schedule service](add-facilities-equipment-ss-csh.md)
-
-- **Resource Categories** </br>
-   With Resource categories,  you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment. 
- 
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and manage resource categories](resource-categories-service-scheduling.md)
-
-- **Services**  </br>
-   To make scheduling services quick and easy, it's helpful to predefine the specifics of the services you'd provide to customers. 
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create or edit a service](create-edit-service-csh.md)
-
-- **Service Activities** </br>
-   Create a service activity by finding the next time resources are available for a service. 
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Schedule a service activity](../use/schedule-service-activity-csh.md)
-
-- **Fulfillment Preferences** </br>
-    Choose and customize how to display schedule assistant results, like with neat hourly appointments or morning and afternoon time windows.
-
-    [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Fulfillment preferences](../../common-scheduler/fulfillment-preferences.md)
-
-**Tools**
-
-- **Schedule Board** </br>
-   The Dynamics 365 Customer Service schedule board provides an overview of resource availability and bookings you can make. 
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Use the schedule board to configure service activity](../use/use-schedule-board-configure-service-activity.md)
-
-**Settings**
-
-- **Organizational Units** </br>
-   Your company organizes its business by geography, function, or other areas. You can create organizational units that reflect your business. 
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and manage organizational units](create-org-units-cs-scheduling.md)
-
-- **Business Closure** </br>
-   Prevent scheduling resources on holidays and other non-working days by defining business closures. 
-
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set when your business is closed](../use/set-when-business-closed-csh.md)
-
-
-### See also    
+### Related information    
     
+[Understand scheduling entities](scheduling.entities.md#understand-scheduling-entities)  
 [Set up the Service Scheduling experience](scheduling-experience.md)  
 [Access scheduling in the Customer Service Hub and Customer Service workspace](access-scheduling.md)  
 [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md)  

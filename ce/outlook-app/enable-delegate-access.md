@@ -3,15 +3,15 @@ title: "Set up delegate access for Dynamics 365 App for Outlook  (Dynamics 365 a
 ms.custom: 
 description: Set up delegate access for Dynamics 365 App for Outlook. 
 ms.date: 05/20/2021
-ms.reviewer: jimholtz
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
@@ -28,7 +28,7 @@ Set up delegate access to allow someone to track information in your Dynamics 36
 - Exchange Online and Microsoft Outlook C2R (Click-to-Run) build 16.0.12130.20272 or later. To check which channel you need to be on for this version, see [Update history for Microsoft 365 Apps](/officeupdates/update-history-office365-proplus-by-date). 
 - Configure delegate access in Microsoft Outlook. At a minimum, a delegated user must have at least **Editor** permission on the delegated mailbox.  For more information, see [Allow someone else to manage your mail and calendar](https://support.office.com/article/allow-someone-else-to-manage-your-mail-and-calendar-41c40c04-3bd1-4d22-963a-28eafec25926). <br> Note, if you run into issues, see [Users can't view the Outlook Delegates page in Microsoft 365](/exchange/troubleshoot/outlook-issues/cannot-view-outlook-delegates-page).
 - Both manager and delegate user must have Dynamics 365 App for Outlook. For more information, see [Deploy Dynamics 365 App for Outlook](deploy-dynamics-365-app-for-outlook.md). 
-- Make sure this Skype URL is allowlisted: [https://config.edge.skype.com](https://config.edge.skype.com/). Otherwise, Outlook C2R will not allow delegate access to work with shared calendars. For more information, see [Microsoft 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). 
+- Make sure this Skype URL is allowlisted: `https://config.edge.skype.com`. Otherwise, Outlook C2R will not allow delegate access to work with shared calendars. For more information, see [Microsoft 365 URLs and IP address ranges](/office365/enterprise/urls-and-ip-address-ranges#skype-for-business-online-and-microsoft-teams). 
 
 
 ## Enable delegate access
@@ -38,7 +38,7 @@ To enable delegate access, you need to enable the **OrgDBOrgSettings** in your o
 
 You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releases/) to edit **OrgDBOrgSettings TrackAppointmentsFromNonOrganizer** and **DelegateAccessEnabled**.
 
-1.	Sign in as an admin to Dynamics 365 at [https://home.dynamics.com](https://home.dynamics.com).
+1.	Sign in as an admin to Dynamics 365 at [https://www.microsoft365.com/apps](https://www.microsoft365.com/apps).
 2.	On the home page, go to [**Settings** > **Advanced Settings**](/power-platform/admin/admin-settings#app-settings).
 
     > [!div class="mx-imgBorder"] 
@@ -63,7 +63,7 @@ You can also use [this tool](https://github.com/seanmcne/OrgDbOrgSettings/releas
 > [!IMPORTANT]
 > Things to verify before enabling delegate access in App for Outlook:
 > - Delegate access is set up correctly in Outlook and that the delegated user has at least **Editor** permissions on the delegated mailbox.
-> - The Skype URL (https://config.edge.skype.com/) is allowlisted.
+> - The Skype URL `https://config.edge.skype.com/` is allowlisted.
 > - The delegated user has the correct Outlook version.
 > - The organization settings are configured properly.
 > - After the organization settings are configured, App for Outlook is redeployed for all users.

@@ -1,7 +1,7 @@
 ---
 title: Create entitlements to define support terms
 description: Define customer support terms by creating entitlements in Customer Service, specifying support hours/cases, product, contacts and more.
-ms.date: 10/12/2023
+ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,36 +22,17 @@ ms.custom:
 
 Define what kind of support your customers are eligible for by creating entitlements in Dynamics 365 Customer Service. With entitlements, you specify the support term based on number of hours or number of cases. The customer’s support level can vary based on the product or service that the customer has purchased. Customers who’ve purchased different products can be entitled to different support levels. This information helps the customer support agents verify what the customers are eligible for and create cases for them accordingly.  
 
-> [!NOTE]
-> With the latest release of Dynamics 365 Customer Service app, entitlements in service management are available in the Customer Service Hub. We recommend that you create and manage entitlements using the new experience.
-  
 ## Create an entitlement
 
-You can create an entitlement in the Customer Service admin center or Customer Service Hub app.
+You can create an entitlement in the Customer Service admin center app.
   
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)] You can check your security permissions by following the steps in [View your user profile](../../customerengagement/on-premises/basics/view-your-user-profile.md).
 
-2. Go to one of the apps, and perform the following steps.
+1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the **Entitlements** section, select **Manage**.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+   The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  
 
-    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
-    1.  In the **Entitlements** section, select **Manage**.                                                                         
-        
-        The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.  
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, go to **Service Management**.
-    1. From the list of entity records, select **Entitlements** in **Service Terms**.                                                              
-       
-       The **All Entitlements** view is displayed. You can switch between various system views using the drop-down list.
-
-   > [!NOTE]
-   > In the Customer Service app, [!INCLUDE[proc_settings_service_management](../../includes/proc-settings-service-management.md)] and [!INCLUDE[proc_click_or_tap_entitlements](../../includes/proc-click-or-tap-entitlements.md)]
-  
 3. To create an entitlement from a template, select **New** > **From Template**. In the **Select Template** dialog box, select the entitlement template, and select **Select**.  
   
    To create an entitlement from scratch, select **New** > **Blank Entitlement**.
@@ -186,7 +167,7 @@ If the entitlement is no longer valid, you can cancel it. To cancel an active or
 
 To renew a canceled or expired entitlement, open the entitlement, and then on the command bar, select **Renew**. A new entitlement will be created, and its status is set to "Draft", while the canceled or expired entitlement will remain as is. The start date of the new entitlement will be set to the current date and the end date will be set to the current date plus the number of days between the end date and start date. The data in other fields is copied as is from the old entitlement.
 
-### See also  
+### Related information  
 
  [Set up entitlements quickly with templates](set-up-entitlements-templates.md)  
 

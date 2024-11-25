@@ -9,10 +9,6 @@ ms.author: mgandham
 
 # Enable third-party cobrowse and screen sharing
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-## Introduction
-
 Cobrowse and screen sharing are escalation channels in the Chat channel of Microsoft Dynamics 365. A cobrowse or screen sharing escalation channel allows your organization’s agents to start a cobrowse or screen sharing session with customers. With cobrowse, agents can see and interact with a customer’s web browser. With screen sharing, agents can see and interact with the customer’s current screen. Customers get an extra option to connect to an agent who can efficiently troubleshoot issues in real time.
 
 Cobrowse and screen sharing can be enabled in the chat channel by integrating with third-party solutions. Extensibility is provided to enable any providers to onboard their cobrowse and screen sharing solution to Omnichannel for Customer Service.
@@ -238,7 +234,6 @@ The following are links for publishing the application to AppSource:
 
 [Onboarding guide](/azure/marketplace/cloud-partner-portal/business-applications-isv-program) 
 
-[ISV Studio](https://aka.ms/isvstudio)
 
 [Overview Guide PDF](https://aka.ms/bizappsisvprogram) 
 

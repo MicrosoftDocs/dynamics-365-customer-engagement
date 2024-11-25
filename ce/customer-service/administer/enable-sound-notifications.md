@@ -7,11 +7,12 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.custom: bap-template
+ms.collection:
 ---
 
 # Enable sound notifications for conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows agents to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
@@ -23,24 +24,15 @@ Make sure the browsers used by agents allow sounds to be played. In Microsoft Ed
 
 When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Workspaces** in **Agent experience**.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
-     1. In the site map, select **Workspaces** in **Agent experience**.
-     2. On the **Workspaces** page, select **Manage** for **Notification templates**.
+1. On the **Omnichannel Configuration - Notifications** page, select **Sound notification settings**.
 
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
+1. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
 
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Notification templates**.
-
-2. On the **Omnichannel Configuration - Notifications** page, select **Sound notification settings**.
-
-3. Set the toggle to **Yes** for **Enable sound notifications**. The **Sound settings** area is displayed.
-
-4. Customize the notification settings for the required channels. The following settings are for Microsoft Teams:
+1. Customize the notification settings for the required channels. The following settings are for Microsoft Teams:
 
    - **Play Sound:** Set the toggle to **Yes**.
    - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till the agent responds.
@@ -51,15 +43,15 @@ When you enable sound settings, the options to personalize settings are availabl
   
   - **Reset to default settings:** When you customize any setting, the button is enabled for you to reset to the out-of-the-box settings.
 
-5. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channe
+1. In the **Incoming messages for open sessions** section, customize the options for sound notifications for messages in open sessions, such as live chat or a social channe
 
     > ![Sound notification settings for open sessions.](../media/sound-notification-open-session.png "Sound notification settings for open sessions")
 
-6. Select **Save.**
+1. Select **Save.**
 
-### See also
+### Related information
 
-[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
+[Get started with Contact Center admin center](../implement/cs-admin-center.md)  
 [Personalize notifications](../use/oc-personalize-sound-notifications.md)  
 
 

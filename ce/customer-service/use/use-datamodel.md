@@ -6,11 +6,16 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/12/2023
+ms.date: 07/05/2024
 ms.custom: bap-template
 ---
 
 # Use the out-of-the-box data model in your custom reports
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 This articles describes how you can create a new report that leverages the out-of-the-box data model. You can also extend this report and add new metrics based on the available data within the Dynamics 365 Customer Service dataset.
 

@@ -1,11 +1,11 @@
 ---
 title: Assignment methods for queues
-description: Learn about the different assignment methods for queues in Customer Service and Omnichannel for Customer Service and how you can use them in unified routing.
-ms.date: 03/21/2024
+description: Learn about the different assignment methods for queues and how you can use them in unified routing.
+ms.date: 10/03/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 searchScope:
@@ -19,11 +19,13 @@ searchScope:
 
 # Assignment methods in unified routing
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 Use assignment methods to determine how to assign work items. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 
 ## How auto assignment works
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
+The auto assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
 Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that aren't assigned to agents because of unavailability of agents or right skill match wasn't found are routed back to the queue.
 
@@ -34,32 +36,54 @@ When eligible agents aren't found for the work items, the assignment cycle keeps
 For digital messaging and voice, the default block size is 100 work items of top priority.
 
 For the records channel,
-- The number of work items prioritized per queue are 10,000 
-- The number of work items processed for assignment are 2,000 by default
-
-> [!NOTE]
-> Cross-queue prioritization isn't available in unified routing.
+- The work items prioritized per queue are 10,000 
+- The work items processed for assignment are 2,000 by default
 
 For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
+
+## How unified routing prioritizes work items
+
+Unified routing prioritizes work within individual queues and across queues. Prioritization within a queue can be of the following types:
+
+- First-in-first-out is the default prioritization logic applicable for the out-of-box assignment methods and [custom assignment methods](configure-assignment-rules.md) that have no prioritization rules.
+- Custom prioritization that can be defined with a custom assignment method.
+
+The oldest conversation or work item in the queue is assigned first. For asynchronous messaging channels such as persistent chat, WhatsApp, and Facebook, the oldest conversation is determined based on the last interaction time. For example, if the first contact on WhatsApp for a customer is on Monday, and the initial problem is resolved by Tuesday but the conversation isn't closed, it goes into the [waiting state](../use/oc-conversation-state.md). If the same customer comes back on Thursday afternoon with a new question while new customers are waiting in the queue since Thursday morning, the returning customer is prioritized only after the customers who are waiting since Thursday morning.
+
+When customer service representatives are subscribed to multiple queues, you can use the [group number](queues-omnichannel.md#configure-queue-prioritization) field of the queue to prioritize work across queues. Work from the higher priority queues is assigned first over lower priority queues. Queues can also be given the same priority. In such a case:
+- If they have the default first-in-first-out ordering, the oldest item across all these queues is assigned first.
+- If they have custom prioritization rules, then the queues are ordered alphabetically based on the queue names to determine the highest priority work. 
+
+If you have configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
+
+For example, lets look at a setup with the following four queues, all with group number defined as 1:
+
+- **VIP Support and Premium Support**: Default first-in-first-out prioritization
+- **Order Support and Invoice Inquiries**: Custom prioritization rules
+
+For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
+
+> [!NOTE]
+> We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
 
 ## Types of assignment methods
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. The work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
+- **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of the agents whose highest capacity is the same.
 
-  If you want to use skill-based routing and,
+  If you want to use skill-based routing, the "exact match" and "closest match" options are available.
 
-  - Set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
+  - If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
 
-  - Set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
-> [!NOTE]
-> When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no agents who match the assignment criteria.
+  > [!NOTE]
+  > When you modify a rating model, the ongoing conversations or open work items that have skills with the rating model continue to have the existing rating. Sometimes, this might result in no agents who match the assignment criteria.
 
-- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized in the first-in, first-out manner—that is, the work item that was created first is assigned first.
+- **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized as mentioned at [How unified routing prioritizes work items](#how-unified-routing-prioritizes-work-items).
 
   The ordering for round robin assignment is maintained queue wise. Some agents can be a part of multiple queues. Therefore, depending on the agent's last assignment timestamp in a queue, the agents might be assigned back-to-back or concurrent work items but from different queues.
 
@@ -101,13 +125,13 @@ The assignment cycle starts with one of the following triggers:
 
 - Arrival of a new work item in the queue.
 - Change to agent presence.
-- Updates to agent capacity.
+- Updates to agent capacity: If capacity is updated at runtime, then change in capacity triggers assignment. If capacity is updated manually, the change doesn't trigger assignment. 
 - Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
 
 ## How prioritization rulesets work
 
-A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket in the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions are put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sorts the bucket by the **Order by** attribute until all rules are evaluated.
+A prioritization ruleset is an ordered list of prioritization rules. Every prioritization rule represents a priority bucket within the queue. In a prioritization rule, you can specify a set of conditions and order by attributes. During evaluation, the prioritization rules are run in the order they're listed. For the first prioritization rule, the work items in the queue that match its conditions are put in the same priority bucket. In the priority bucket, the items are further sorted by the order specified in the prioritization rule. The second rule runs on the rest of the items in the queue, to identify the next priority bucket, and sorts the bucket by the **Order by** attribute until all rules are evaluated.
 
 You can create one prioritization ruleset only per queue.
 
@@ -130,7 +154,7 @@ Some important points about prioritization rules are as follows:
 - By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item is assigned first.
 - In normal scenarios, when a sufficient number of agents are available to take up the work items, the processing period is a couple of seconds only. The agents are assigned work items in the priority order. However, if work items pile up because of fewer eligible agents, and then an agent becomes available during the processing period, the agent is offered the next work item according to the priority order. This strategy might create a perception that the highest priority item wasn't assigned; especially after some top-priority items are attempted for assignment and yet remain in the queue.
 - The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
-- Prioritization rules are skipped for affinity work items and such work items is assigned before other work items in the queue. For information about affinity, go to [Agent affinity](create-workstreams.md#agent-affinity).
+- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. For information about affinity, go to [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
 
@@ -198,7 +222,11 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 
 ### Limits on offering a work item repeatedly to an agent
 
-When agents are offered a work item through automatic assignment, they typically can accept or decline. Both [rejection](enable-agent-reject-notifications.md) and [time out](manage-missed-notifications.md) of the notification is considered as a decline. An agent who declines the same work item thrice won't be considered for further auto assignment for the specific work item. The system tries to offer the declined work item to other agents in the queue if they're eligible.
+When agents receive a work item through automatic assignment, they generally have the option to accept or decline it. Both [rejection](enable-agent-reject-notifications.md) and [allowing the notification to time out](manage-missed-notifications.md) are considered as declining the work item. If an agent declines a work item by either method, their priority for that conversation is reduced during the next assignment attempt. The agent might be reconsidered for the same work item up to three times or the specified limit in following scenarios:
+- If the agent is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
+- If all other eligible agents also decline.
+
+If the agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. The agents can still manually pick the work item.
 
 For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
@@ -217,7 +245,7 @@ You can update the OData call as follows to modify the limit.
 
 `var data = { "msdyn_number_of_declines_allowed": 3 } // update the record Xrm.WebApi.updateRecord("msdyn_omnichannelconfiguration", "d4d91600-6f21-467b-81fe-6757a2791fa1", data).then( function success(result) { console.log("Omnichannel Configuration updated"); // perform operations on record update }, function (error) { console.log(error.message); // handle error conditions } );`
 
-### See also
+### Related information
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  

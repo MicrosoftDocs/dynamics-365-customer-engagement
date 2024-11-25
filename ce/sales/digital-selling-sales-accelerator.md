@@ -121,7 +121,7 @@ If you want to turn off the sales accelerator, you can do it from the advanced s
 
 By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, go to [Add the Up next widget to a custom form](add-upnext-widget-form.md) For information about using the **Up next** widget, go to [Connect with customers through a record or the Up next widget](connect-with-customers.md).
 
-### See also
+## Related information
 
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)  
 [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)  

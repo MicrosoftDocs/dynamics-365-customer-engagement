@@ -71,7 +71,7 @@ Before you enable auto capture, perform the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)  
 [Auto capture FAQs](faqs-sales-insights.md#auto-capture)  

@@ -717,7 +717,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See the [msdyn_attributeparent](msdyn_attribute.md#BKMK_msdyn_attributeparent) one-to-many relationship for the [msdyn_attribute](msdyn_attribute.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

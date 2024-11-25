@@ -158,9 +158,9 @@ After enabling claims-based authentication, the next step is to add and configur
 Grant-AdfsApplicationPermission -ClientRoleIdentifier "<ClientRoleIdentifier>" -ServerRoleIdentifier <ServerroleIdentified>  
 ```  
   
-1.  ClientRoleIdentifier :  the ClientId of your Adfsclient. For example: e8ab36af-d4be-4833-a38b-4d6cf1cfd525  
+1.  ClientRoleIdentifier :  the ClientId of your Adfsclient. For example: 00001111-aaaa-2222-bbbb-3333cccc4444  
   
-2.  ServerroleIdentified :  the Identifier of your relying party. For example: https://adventureworkscycle3.crm.crmifd.com/  
+2.  ServerroleIdentified :  the Identifier of your relying party. For example: `https://adventureworkscycle3.crm.crmifd.com/`  
   
  For more information, see [Grant-AdfsApplicationPermission](/powershell/module/adfs/grant-adfsapplicationpermission).  
   

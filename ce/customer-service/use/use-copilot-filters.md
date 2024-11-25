@@ -44,7 +44,7 @@ Once you set a filter, the following actions are applicable:
 - The filter is saved. You don't have to set the filter each time you sign in. 
 
 
-### See also
+### Related information
 
 [Enable features in Copilot pane](../administer/copilot-enable-help-pane.md)
 

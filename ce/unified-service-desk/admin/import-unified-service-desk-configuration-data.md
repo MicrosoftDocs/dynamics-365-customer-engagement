@@ -1,15 +1,13 @@
 ---
 title: "About configuration data | MicrosoftDocs"
 description: "Learn how you can import the Unified Service Desk configuration into a target instance using the Configuration Migration tool or via the custom package."
-ms.date: 10/29/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 # About configuration data

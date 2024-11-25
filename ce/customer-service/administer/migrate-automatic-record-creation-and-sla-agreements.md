@@ -1,7 +1,7 @@
 ---
 title: Migrate automatic record creation rules and service-level agreements
 description: Learn how to migrate automatic record creation rules and SLAs from legacy to Unified Interface.
-ms.date: 05/08/2024
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -69,21 +69,11 @@ The migration progress is indicated on the page as follows; the colored circle i
 
 ## Access the migration tool
 
-1. Go to one of the admin apps and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-     1. In the site map, select **Miscellaneous** in **Operations**. The **Miscellaneous** page appears.
-     1. In the **ARC and SLA migration** section, select **Manage**.
-     
-        :::image type="content" source="../media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
-     
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+1. In the site map of Customer Service admin center, select **Miscellaneous** in **Operations**. The **Miscellaneous** page appears.
 
-      [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-     1. In the site map, select **Service Management** in **Change area**.
-     1. Under **Data Management**, select **ARC & SLA Migration**.
+1. In the **ARC and SLA migration** section, select **Manage**.
+     
+    :::image type="content" source="../media/csac-arcsla-mig.png" alt-text="Migration tool location on Customer Service admin center":::
    
 ## Migration Summary
 
@@ -278,7 +268,7 @@ By default, the status of a successfully migrated rule displays as **Migrated**.
 
 If you have many rules and items to migrate and want to perform the migration in batches or want to attempt to migrate the unsuccessfully migrated rules and items again, you can rerun the migration tool. If you need to migrate a successfully migrated rule or item again, make sure you delete the migrated rule in Customer Service Hub, and then run the migration process.
 
-1. Select **ARC & SLA Migration tool** in the left pane in **Service Management**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that you didn't attempt to migrate.
+1. Select **ARC & SLA Migration** in the left pane in **Miscellaneous**. The **Summary** page displays the status of the previous migration. In the **Pending** column, the number indicates the rules and items that are pending migration. These include failed rules, partially or incomplete migrated rules, and rules that you didn't attempt to migrate.
  
     ![Rerun migration tool.](../media/rerun-migration.png "Rerun migration tool")
 
@@ -290,7 +280,7 @@ In the **Premigration checkup** state, the tool reviews only those rules that we
 
 ![Premigration check.](../media/premigration-check-rerun-migration.png "Premigration check")
 
-### See also
+### Related information
 
 [Migration tool FAQs](migrate-tool-faqs.md)  
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  

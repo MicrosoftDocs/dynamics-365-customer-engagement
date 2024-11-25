@@ -1,9 +1,9 @@
 ---
-title: Introduction to the voice channel in Omnichannel for Customer Service
+title: Introduction to the voice channel
 description: Enable agents to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 05/31/2024
+ms.date: 07/01/2024
 ms.topic: overview
 ms.custom:
   - ai-gen-docs-bap
@@ -13,7 +13,8 @@ ms.custom:
 
 # Introduction to the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 > [!NOTE]
@@ -23,7 +24,7 @@ ms.custom:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost agent productivity. Omnichannel for Customer Service also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
+Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost agent productivity. The application also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
 ## Why choose the voice channel
 
@@ -35,7 +36,7 @@ The voice channel is built, owned, and operated completely by Microsoft. It's an
 
 ### Built alongside existing omnichannel capabilities with a common data framework
 
-The voice channel in Dynamics 365 Customer Service is another channel to engage customers with Chat, SMS, and social media, ensuring consistent, personalized, and connected support across all channels of engagement. As an example, agents can escalate web chat conversations to voice and video calls. As another example, routing a voice call to an agent is completed with unified routing, the same way an incoming chat message is assigned to an agent. The voice channel works well with other features like a Copilot Studio bot, as they share the same platform. The process to create and deploy a conversational interactive voice response (IVR) bot is the same as the process to create and deploy a chat bot.
+The voice channel allows customers to with Chat, SMS, and social media, ensuring consistent, personalized, and connected support across all channels of engagement. As an example, agents can escalate web chat conversations to voice and video calls. As another example, routing a voice call to an agent is completed with unified routing, the same way an incoming chat message is assigned to an agent. The voice channel works well with other features like a Copilot Studio bot, as they share the same platform. The process to create and deploy a conversational interactive voice response (IVR) bot is the same as the process to create and deploy a chat bot.
 
 Beyond workflows and processes, the voice channel benefits from a common data framework with the other channels, allowing organizations to better understand each customer's journey whether the customer sent a chat, made a phone call, or used social channels. This means the solution provides a single view of the customer that empowers agents to provide personalized service across all channels, and true omnichannel analytics and insights for agents and supervisors alike.
 
@@ -59,13 +60,13 @@ Take a look at some of the key capabilities that makes the voice channel great f
 | Supervisor  | <ul><li>Consulting and transferring</li><li>Monitoring and barging</li><li>Ability to record and manage phone calls</li><li>Operations management through supervisor dashboards</li></ul> |
 | Customer   | <ul><li>Post-call survey</li><li>Queue position and wait time announcements</li><li>Music on hold and wait</li></ul> |
 
-### See also
+### Related information
 
 [Install the voice channel](voice-channel-install.md)  
 [Supported cloud locations, languages, and locale codes ](voice-channel-region-availability.md)  
 [International availability of Omnichannel for Customer Service](../implement/international-availability.md)  
 [System requirements](../implement/system-requirements-omnichannel.md)  
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [FAQ about the voice channel in Omnichannel for Customer Service](voice-channel-faqs.md)  
 [Blog: New voice channel streamlines omnichannel customer experiences](https://cloudblogs.microsoft.com/dynamics365/bdm/2020/09/23/new-voice-channel-streamlines-omnichannel-customer-experiences/)  
 

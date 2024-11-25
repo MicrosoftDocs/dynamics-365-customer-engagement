@@ -157,7 +157,7 @@ The `c1Language` parameter in resolved JavaScript object represents a Locale ID 
 
 ![initializeNewConversation error message.](../../../media/initializeconversation-api-error.png "initializeNewConversation error message")
 
-### See also
+### Related information
 
 [Add a web resource for real-time translation](../../../develop/add-web-resource-real-time-translation.md)  
 

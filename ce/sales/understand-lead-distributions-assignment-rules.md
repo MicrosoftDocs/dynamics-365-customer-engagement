@@ -1,7 +1,7 @@
 ---
 title: Understand record distribution in assignment rules
 description: Learn how lead, opportunity, and insight round robin and load balancing distribution works in Dynamics 365 Sales assignment rules.
-ms.date: 06/05/2024
+ms.date: 11/18/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -30,56 +30,60 @@ It's important to understand both the differences between them and how other cri
 
 ## Round robin distribution
 
-Round robin assignment distributes a new or updated record fairly among the sellers who meet the rule's criteria. It gives the record to the seller who's waited the longest for a new lead, opportunity, or insight, including records that were assigned manually or by an add-in.
-
-> [!NOTE]
-> The order of sellers assignment using round robin algorithm is stored at org-level and not at rule-level.
+Round robin assignment distributes a new or updated record fairly among the sellers who meet the rule's criteria. It gives the record to the seller who's waited the longest for a new lead, opportunity, or insight, including records that were assigned manually or by an add-in. The order of round robin distribution is stored at the organization level, not at the rule level.
 
 Let's look at some scenarios to understand round robin distribution.
 
-**Scenario1** 
+### Scenario 1
 
-A lead comes into the system at 1:33 PM. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
+A lead comes into the system at 11:20 PM. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
 
-| Seller | Last assigned a lead |
+| Seller | Last assigned record |
 |--------|----------------------|
 | Miriam | 10:02 AM |
 | Sanjay | 10:31 AM |
 | Susana | 11:17 AM |
 
-Miriam's last assignment is earlier than Sanjay's and Susana's. She's been waiting longest, so the lead is assigned to her and her last assignment time is updated.
+Miriam's last assignment is earlier than Sanjay's and Susana's. Miriam has been waiting longest, so the lead is assigned to her.
 
-Another lead comes into the system at 1:50 PM. This time, only Miriam and Sanjay have the required attributes to work on it:
+An opportunity comes into the system at 1:50 PM, and a sales manager manually assigns it to Susana. When a record is assigned manually, the order of assignment changes from the last assignment for the rule that's associated with that record type. However, the order of assignment doesn't change for assignment rules that are associated with other entity types.
 
-| Seller | Last assigned a lead |
-|--------|----------------------|
-| Miriam | 1:33 PM |
-| Sanjay | 10:31 AM |
+Another lead comes into the system at 2:30 PM. The assignment rule assigns it to Sanjay. The order now looks like this:  
 
-But this time, Sanjay has been waiting longer than Miriam. Sanjay gets the lead.
+| Seller | Last assigned record | Entity type | Assignment source | Next assignment order when only lead rules are configured | Next assignment order when lead and opportunity rules are configured |
+|--------|----------------------|-------------|-------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
+| Miriam | 11:20 PM | Lead | Assignment rule engine | Sanjay, Susana, Miriam | Sanjay, Susana, Miriam |
+| Susana | 1:50 PM | Opportunity | Manual | Sanjay, Susana, Miriam | Sanjay, Miriam, Susana |
+| Sanjay | 2:30 PM | Lead | Assignment rule engine | Susana, Miriam, Sanjay | Miriam, Susana, Sanjay |
 
-**Scenario 2**
+A new lead comes into the system at 3:00 PM. A sales manager manually assigns it to Miriam. The new order of assignment looks like this:  
 
-Assume that you have three sellers&mdash;Miriam, Sanjay, and Susana. A set of rules is created for assigning records to them. The initial order is Miriam, Sanjay, and Susana.  
+| Seller | Last assigned record | Entity type | Assignment source | Next assignment order when only lead rules are configured | Next assignment order when lead and opportunity rules are configured |
+|--------|----------------------|-------------|-------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
+| Miriam | 3:00 PM | Lead | Manual | Susana, Sanjay, Miriam | Susana, Sanjay, Miriam |
 
-- Rule 1 assigns an incoming lead 1 to Miriam. The new order becomes Sanjay, Susana, and Miriam.
-- Rule 2 assigns the next incoming lead 2 to Sanjay. The order is now Susana, Miriam, and Sanjay.
-- Rule 3 assigns lead 3 to Susana. The final order becomes Miriam, Sanjay, and Susana.
-- Now, a new lead comes in to the application&mdash;Rule 1 assigns the lead 4 to Miriam.
+### Scenario 2
 
-However, you might have noticed that only Rule 1 is assigning the record to Miriam twice consecutively. This is because the order of assigning records is stored at the org-level and not at the rule-level.
+A set of rules is created for assigning records to three sellers, Miriam, Sanjay, and Susana, in that order.  
 
-**Scenario 3**
+- Rule 1 assigns an incoming lead to Miriam. The new order becomes Sanjay, Susana, Miriam.
+- Rule 2 assigns the next incoming lead to Sanjay. The order is now Susana, Miriam, Sanjay.
+- Rule 3 assigns the next lead to Susana. The order is now Miriam, Sanjay, Susana.
+- Rule 1 assigns the next lead to Miriam.
 
-Assume that you have two sellers&mdash;Miriam and Sanjay. A rule is created for assigning records to them. The initial order is Miriam and Sanjay.
+Only Rule 1 assigns the record to Miriam twice consecutively. This is because the order of assigning records is stored at the organization level, not at the rule level.
 
-Now, if Lead 1 is generated by Miriam, she automatically becomes its owner. As a result, when the rule is executed, the lead is assigned to Sanjay as Miriam is already the owner and part of the distribution list. The new assignment order changes to Miriam and Sanjay.
+### Scenario 3
 
-This is because whenever a seller creates a new record, they're automatically included in the distribution list. This affects the order of assignment for future records.
+A rule is created for assigning records to two sellers, Miriam and Sanjay, in that order.
+
+Miriam generates a lead and automatically becomes its owner. When the rule is executed, the lead is assigned to Sanjay, not Miriam, and the assignment order is now Miriam and Sanjay.
+
+Why? When a seller creates a record, they become its owner and are automatically included in the distribution list. This affects the order in which future records are assigned.
 
 ## Load balancing distribution
 
-Load balancing assignment finds the sellers who meet the rule's criteria and gives the record to the one who can take on more work. This method makes sure that all salespeople have a fair share of work and reduces uneven workloads.
+Load balancing assignment also distributes a new or updated record fairly among the sellers who meet the rule's criteria. It gives the record to the seller who can take on more work. This method makes sure that all salespeople have a fair share of work and reduces uneven workloads.
 
 Let's look at an example to understand load balancing distribution.
 
@@ -93,7 +97,7 @@ A lead comes into the system. Based on the selection criteria that are defined i
 
 Susana can handle more work right now than Miriam or Sanjay. Susana gets the lead, and her available capacity is now 14.
 
-Continuing with this example, let's assume that Miriam, Sanjay, and Susana can all potentially work on the next few incoming leads.
+Let's assume that Miriam, Sanjay, and Susana can all potentially work on the next few incoming leads.
 
 Two new leads come into the system. Susana still has the most available capacity, so the leads are assigned to her. Afterward, their available capacity looks like this:
 
@@ -132,7 +136,7 @@ A new lead comes into the system. Based on the selection criteria that are defin
 | David | 3:02 PM | 1 |
 | Miriam | 2:35 PM | &ndash;2 |
 
-With round robin distribution alone, Miriam would get the lead because she's been waiting longer for an assignment than the others. However, you told the rule to **Assign leads based on seller capacity**, and Miriam's available capacity right now is &ndash;2. Sanjay has been waiting next longest, but his available capacity is 0. The lead goes to Susana.
+With round robin distribution alone, Miriam, who's been waiting longer for an assignment than the others, would get the lead. However, you told the rule to **Assign leads based on seller capacity**, and Miriam's available capacity right now is &ndash;2. Sanjay has been waiting next longest, but Sanjay's available capacity is 0. The lead goes to Susana.
 
 If no seller who met the criteria had available capacity greater than zero, the lead would be left unassigned.
 
@@ -150,7 +154,7 @@ Let's look at an example to understand how sellers' work schedules affect the as
 
 In your assignment rules, you prioritize round robin distribution and set a time limit of 48 hours.
 
-A new lead comes into the system on a Friday evening from an inquiry form on your website. Several sellers meet the criteria of an assignment rule, but none of them are working now. Next, the rule considers matching sellers who are available within the next 24 hours. That day is Saturday. Ordinarily, Sanjay would be working, but his calendar says he's on vacation. No other sellers are available, so the rule looks at the next 24 hours. No one is working on Sunday either. The rule has reached the limit of 48 hours, so the lead is left unassigned. If the time limit had been 60 hours, the lead would have been assigned to the first seller who was available on Monday morning.
+A new lead comes into the system on a Friday evening from an inquiry form on your website. Several sellers meet the criteria of an assignment rule, but none of them are working now. Next, the rule considers matching sellers who are available within the next 24 hours. That day is Saturday. Ordinarily, Sanjay would be working, but Sanjay's calendar says he's on vacation. No other sellers are available, so the rule looks at the next 24 hours. No one is working on Sunday either. The rule has reached the limit of 48 hours, so the lead is left unassigned. If the time limit had been 60 hours, the lead would have been assigned to the first seller who was available on Monday morning.
 
 ### Examples
 
@@ -193,7 +197,7 @@ Again, the rule matched the following sellers:
 
 Again, Vivek and Sal are available first. This time, Vivek has the higher capacity, so the rule distributes the lead to him.
 
-The next leads to come in are assigned to Vivek until his capacity falls below Sal's. Following leads go to Sal until his capacity falls below Vivek's, and so on, until the availability of the matched sellers changes. In this scenario, the sellers' capacity isn't a consideration. Vivek's and Sal's capacity can fall below zero as long as they're available before the others.
+The next leads to come in are assigned to Vivek until Vivek's capacity falls below Sal's. Following leads go to Sal until Sal's capacity falls below Vivek's, and so on, until the availability of the matched sellers changes. In this scenario, the sellers' capacity isn't a consideration. Vivek's and Sal's capacity can fall below zero as long as they're available before the others.
 
 #### Example 3: Load balancing, consider seller availability *and* capacity
 
@@ -233,7 +237,7 @@ With capacity no longer a consideration, the rule considers who's been waiting f
 
 The rule assigns the lead to Maya. The next leads to come in are assigned to Burt, then to Maya, and so on, until the availability of the matched sellers changes.
 
-### See also
+## Related information
 
 - [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
 - [Set capacity for sellers](manage-sales-teams.md#set-capacity-for-sellers)

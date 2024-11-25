@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/01/2023
+ms.date: 10/01/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -51,7 +51,7 @@ The following table describes the templates available for scheduling forecasts.
 \*The 4-4-5/4-5-4/5-4-4 and 3-3-3-4/3-3-4-3/3-4-3-3/4-3-3-3 calendars have only 364 days (7 days &times; 52 weeks). You'll need to add a fifty-third week every five or six years, which might make year-on-year comparison difficult. Instead, you can add an extra week to a specific quarter or month each year. Select the **Custom** calender template from the **Scheduling format** list. Then, specify the start date and end date of the week.
 
 
-### See also
+## Related information
 
 - [Define forecast properties and scheduling](define-general-properties-scheduling-forecast.md)  
 - [Manage forecast periods](manage-forecast-periods.md)  

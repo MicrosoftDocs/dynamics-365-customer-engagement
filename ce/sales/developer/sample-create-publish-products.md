@@ -468,7 +468,7 @@ namespace Microsoft.Crm.Sdk.Samples
 }  
 ```  
   
-### See also  
+## Related information  
  [Create and manage product families, products, and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
  [Product catalog tables](product-catalog-entities.md)

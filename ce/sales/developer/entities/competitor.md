@@ -1731,7 +1731,7 @@ IntersectEntityName: competitorproduct<br />
 
 See the [competitorsalesliterature_association](salesliterature.md#BKMK_competitorsalesliterature_association) many-to-many relationship for the [salesliterature](salesliterature.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

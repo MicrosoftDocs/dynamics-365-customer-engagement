@@ -1,7 +1,7 @@
 ---
 title: Work with queues
 description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 05/15/2024
+ms.date: 07/01/2024
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
@@ -51,7 +51,7 @@ Use the view list and queue list to filter and find items in queues.
    - Your presence will be updated. If you have further capacity left, your presence will be set to **Busy**. If you have no capacity left, your presence will be set to **Do not disturb**.
 
    > [!NOTE]
-   > Remove the items from the queue can't be set for work items in an advanced queue.
+   > Remove the items from the queue can't be set for work items in an advanced queue. Advanced queues are used in unified routing to which work items are routed through workstreams.
 
 ## Release an item or case that you’re working on  
   
@@ -127,7 +127,7 @@ The table lists the views with their descriptions.
 
 You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
 
-### See also
+### Related information
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)  
 

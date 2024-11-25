@@ -766,7 +766,7 @@ See the [lk_leadtoopportunitysalesprocess_opportunityid](opportunity.md#BKMK_lk_
 
 See the [lk_leadtoopportunitysalesprocess_leadid](lead.md#BKMK_lk_leadtoopportunitysalesprocess_leadid) one-to-many relationship for the [lead](lead.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

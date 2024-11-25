@@ -11,6 +11,8 @@ ms.custom: bap-template
 
 # Configure macros to improve agent productivity
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 
 Macros are a set of sequential actions that a user performs. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
@@ -99,7 +101,7 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 
 - **Additional tabs**: Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record ID as follows: 
  
-    `${Session.CurrentTab.entityId}` : 0e8642d7-c2ae-ea11-a812-000d3a1b14a2 
+    `${Session.CurrentTab.entityId}` : 00aa00aa-bb11-cc22-dd33-44ee44ee44ee 
     `${Session.CurrentTab.entityName}` : account 
   With the entity ID, you can retrieve other values in the record through the following oData query `${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
 
@@ -109,7 +111,7 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 [Use omnichannel connector to create macros](macros-omnichannel-action.md)    
 [Flow connector](macro-flow-connector.md)  
     
-### See also
+### Related information
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
 [Agent scripts](agent-scripts.md)  

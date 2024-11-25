@@ -1,7 +1,7 @@
 ---
-title: "Monitor real-time customer sentiment | MicrosoftDocs"
-description: "This topic provides information on how to monitor real-time customer sentiment and analyze customer satisfaction levels."
-ms.date: 07/01/2020
+title: Monitor real-time customer sentiment 
+description: This topic provides information on how to monitor real-time customer sentiment and analyze customer satisfaction levels.
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -9,9 +9,9 @@ ms.author: laalexan
 
 # Monitor real-time customer sentiment
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-As an agent, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In Omnichannel for Customer Service, you can see the customer's satisfaction levels instantly while you communicate with the customer.
+As an agent, when you interact with your customers, you want to know the sentiments they're experiencing in real time. Analysis of the customer's satisfaction level helps you understand how serious the problem is and develop a course of action to solve it. In the application you can see the customer's satisfaction levels instantly while you communicate with the customer.
 
 ## View real-time customer sentiment
 
@@ -63,7 +63,7 @@ To learn more, see [multi-language sentiment](../administer/enable-sentiment-ana
 [Real-time sentiment analysis in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114615)  
 To view more videos on Omnichannel for Customer Service, see [Videos](videos.md).  
 
-### See also
+### Related information
 
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  
 [Enable sentiment analysis](../administer/enable-sentiment-analysis.md)  
