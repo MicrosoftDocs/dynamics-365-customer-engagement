@@ -62,16 +62,14 @@ Teams integration with Dynamics 365 isn't available for Government GCC environme
 
 2. Search for the **Website** app and add it.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Add the Website app.](media/add-website.png "Add the Website app")
+    :::image type="content" source="media/add-website.png" alt-text="Screenshot of adding the Website app.":::
   
     > [!NOTE]
     > If you don't see the **Website** app in Teams, ask your administrator to enable this option through the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/about-the-admin-center).
 
 3. Enter a name for the tab and the URL for your Dynamics 365 app and then select **Save**.
 
-    > [!div class="mx-imgBorder"] 
-    > ![Enter name and url for the tab.](media/add-webiste-2.png "Add the Website app")
+    :::image type="content" source="media/add-webiste-2.png" alt-text="Screenshot of entering the name and URL for the tab in the Website app.":::
 
 
 ### See also  
