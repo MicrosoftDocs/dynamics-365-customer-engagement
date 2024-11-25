@@ -21,7 +21,10 @@ By default, a new schedule board tab is visible only to the user who creates it,
 
 The schedule board saves tabs as records in the *Schedule Board Settings* entity.
 
-Go to **Settings** > **Advanced Settings** and select **Advanced Find**. In the pop-up window, look for the **Schedule Board Settings** table and select **Results**.
+First, open the advanced find tool using the following URL template:
+`https://[OrgUrl]/main.aspx?pagetype=AdvancedFind`
+
+Look for the **Schedule Board Settings** table and select **Results**.
 
 :::image type="content" source="../../field-service/media/advanced-find-legacy-web-client.png" alt-text="Screenshot of the advanced find pop-up in the legacy web client settings.":::
 
@@ -36,3 +39,7 @@ Add users or teams to share the schedule board with. They see the schedule board
 
 > [!NOTE]
 >  Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, use the instructions in this article, selecting **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
+
+> [!TIP]
+> You can also directly access a schedule board settings record by finidng the relevant ID with the OData API by using the following template: `[OrgUrl]/api/data/v9.2/msdyn_scheduleboardsettings`
+> With that, users can construct a direct URL with the following format and share as above: `[OrgUrl]//main.aspx?pagetype=entityrecord&etn=msdyn_scheduleboardsetting&id=[yourSettingId]`
