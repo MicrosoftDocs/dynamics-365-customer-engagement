@@ -113,11 +113,8 @@ Out of the box, users with the Customer Service Representative role only can use
 - prvReadmsdyn_copilotagentpreference
 - prvCreatemsdyn_copilotagentpreference
 - prvWritemsdyn_copilotagentpreference
-- prvReadmsdyn_appcopilotconfiguration
-- prvReadmsdyn_agentcopilotsetting
 - prvReadmsdyn_aimodel
-- prvReadmsdyn_aitemplate
-- prvReadmsdyn_copilotsummarizationsetting 
+- prvReadmsdyn_aitemplate 
 - prvReadmsdyn_conversationinsight
 - prvWritemsdyn_copilottranscriptdata 
 - prvAppendTomsdyn_copilottranscriptdata  
@@ -141,7 +138,7 @@ More information: [Security roles and privileges](/power-platform/admin/security
 [Enable Copilot help pane](copilot-enable-help-pane.md)  
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
 
-### See also
+### Related information
  
 [Use Copilot features](../use/use-copilot-features.md)  
 [Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)  

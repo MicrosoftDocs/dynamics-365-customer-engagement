@@ -72,7 +72,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 To install the Sales Enterprise solution on a Power Platform environment with Dynamics 365 apps enabled:
 
-1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin, Global admin, or Power Platform admin).
+1.	Sign in to the Power Platform admin center at [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) as an admin (Dynamics 365 admin or Power Platform admin).
 
 2. In the navigation pane, select **Environments**. 
 
@@ -111,7 +111,7 @@ After you complete these steps, your organization will be effectively upgraded t
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Dynamics 365 Licensing Update](/dynamics365/licensing/update)
 

@@ -965,7 +965,7 @@ See the [msdyn_opportunity_msdyn_salesroutingrun_targetobject](opportunity.md#BK
 
 See the [msdyn_msdyn_segment_msdyn_salesroutingrun_segment](msdyn_segment.md#BKMK_msdyn_msdyn_segment_msdyn_salesroutingrun_segment) one-to-many relationship for the [msdyn_segment](msdyn_segment.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

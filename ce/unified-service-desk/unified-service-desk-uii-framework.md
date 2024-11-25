@@ -1,15 +1,14 @@
 ---
 title: "Unified Service Desk and the UII framework | MicrosoftDocs"
 description: "Learn about the basic concepts related to User Interface Integration (UII) framework and components required for extending Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Unified Service Desk and the UII framework
 [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] is developed using the [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] framework. [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] provides a development framework for building integrated agent applications that provide unified access to customer information across different systems and aggregate different modes of customer interactions or channels. This section provides you information about the UII concepts and components that are required for extending the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] beyond its core capabilities. If you’re interested in learning in-depth about the UII framework, [download](https://go.microsoft.com/fwlink/?linkid=519179) the UII SDK, and read the UII documentation.  

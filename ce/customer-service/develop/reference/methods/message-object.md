@@ -11,8 +11,6 @@ ms.reviewer:
 
 # Retrieve and format rich messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[pva-rebrand](../../../../includes/cc-pva-rebrand.md)]
 
 Because the Copilot Studio and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method to the conversation. You must process the rich message payload before sending it to the conversation, else the method will send the desired rich object payload in plain `String` format.
@@ -151,7 +149,7 @@ Microsoft.Omnichannel.sendMessageToConversation(websiteRichLinkJSON, false);
 copy(websiteRichLinkJSON);
 ```
 
-### See also
+### Related information
 
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

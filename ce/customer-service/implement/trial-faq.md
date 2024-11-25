@@ -40,6 +40,10 @@ The following limitations apply for the trial:
 
 ## Customer Service-specific questions
 
+### Which languages do the Copilot Studio copilots support in the trial version?
+
+In the trial version, the Copilot Studio copilots are available in the English language only.
+
 ### What features are available in the trial?
 
 The environment you receive in trial is a fully functional, Power Platform environment with the following out-of-the-box capabilities:
@@ -95,7 +99,7 @@ For the list of geographical regions supported in Omnichannel for Customer Servi
 
 For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
 
-### See also
+### Related information
 
 [Try Customer Service](try-customer-service.md)  
 [Overview of Customer Service workspace](csw-overview.md)  

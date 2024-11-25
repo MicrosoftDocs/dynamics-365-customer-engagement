@@ -112,7 +112,7 @@ The following reminder insight cards are supported:
 
 To learn more about insight cards, go to [Insight cards reference](/dynamics365/ai/sales/action-cards-reference).  
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)

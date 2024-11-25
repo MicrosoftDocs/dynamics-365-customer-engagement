@@ -1,7 +1,7 @@
 ---
 title: Overview of the Dynamics 365 Sales mobile app
 description: Learn about the Dynamics 365 Sales mobile app
-ms.date: 06/13/2024
+ms.date: 11/20/2024
 ms.topic: overview
 author: sbmjais
 ms.author: shjais
@@ -12,8 +12,8 @@ ms.reviewer: shjais
 
 Mobile apps help sellers build great customer relationships, stay up-to-date with important information, and respond to their customers faster. The Microsoft Dynamics 365 Sales mobile app is optimized for core field seller scenarios to help sellers make use of the time that they spend on the road while traveling to meet customers. It helps sellers with the right data anywhere, anytime, and lets them log and share information quickly.
 
-> [!NOTE]
-> The Dynamics 365 Sales mobile app doesn't work in Sovereign cloud and Microsoft Dynamics 365 Customer Engagement (on-premises).
+> [!IMPORTANT]
+> The Dynamics 365 Sales mobile app doesn't work in China, Government/Sovereign cloud, and Microsoft Dynamics 365 Customer Engagement (on-premises).
 
 In contrast to the Dynamics 365 for phones and tablets app, which is a model-driven app that you use to open any customer engagement app like Sales Hub or Customer Service Hub on mobile, the Dynamics 365 Sales mobile app is specifically designed for core sales scenarios while still supporting model-driven configurations. 
 
@@ -48,7 +48,7 @@ The Dynamics 365 Sales mobile app can be installed on [iOS](install-mobile-app.m
 |Lightweight record and activity forms|Supported|Not supported|
 
 
-### See also
+## Related information
 
 [Prerequisites for the Dynamics 365 Sales mobile app](prereq-sales-mobile.md)   
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)

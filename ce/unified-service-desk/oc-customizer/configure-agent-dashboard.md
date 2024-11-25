@@ -1,12 +1,14 @@
 ---
 title: "Configure Omnichannel Agent Dashboard for agents | MicrosoftDocs"
 description: "Learn how to configure Omnichannel Agent Dashboard for agents using Omnichannel for Customer Service."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Configure Omnichannel Agent Dashboard for agents overview
 

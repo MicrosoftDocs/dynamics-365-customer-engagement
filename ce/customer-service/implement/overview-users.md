@@ -23,7 +23,7 @@ See [Assign a security role to a user](/power-platform/admin/assign-security-rol
 
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 
-### See also
+### Related information
 
 [Manage capacity profiles](../administer/capacity-profiles.md)  
 [Role persona mapping](../administer/role-persona-mapping.md)  

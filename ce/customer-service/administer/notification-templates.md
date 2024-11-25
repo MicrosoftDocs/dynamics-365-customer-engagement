@@ -14,17 +14,19 @@ ms.custom:
 
 # Manage notification settings and templates
 
-When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification will disappear, and accept and reject buttons. Each organization has varied business requirements and wants the notifications to show relevant information to the agents.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+When a notification is sent to an agent, it displays certain information, such as the customer from who the conversation request is coming, the timeout period after which the notification disappears, and accept and reject buttons. 
 
 As an administrator, system integrator, or partner, you can use the out-of-the-box templates for notifications or create your own. A notification template is a combination of notification-related, reusable information. The template is used to configure what information needs to be displayed to the agents and supervisors for an incoming conversation, escalation, transfer, or consult.
 
 ## Desktop notifications
 
-For optimal functioning of desktop notifications, make sure that you are using the latest supported browsers as specified in the [system requirements](../implement/system-requirements-omnichannel.md).
+For optimal functioning of desktop notifications, make sure that you're using the latest supported browsers as specified in the [system requirements](../implement/system-requirements-omnichannel.md).
 
 Desktop notifications help ensure that agents won't miss any conversation requests. Based on your configuration, agents can receive notification alerts on their desktop always or when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. Some scenarios where the app isn't in focus might include:
 
-- The agent has minimized the app.
+- The agent minimizes the app.
 - The agent is working in another browser window.
 - The agent is working on another tab of the browser.
 - The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
@@ -55,11 +57,11 @@ Also, as an administrator, you can set the browser notification permission by us
  > [!div class=mx-imgBorder]
  > ![Allow desktop notifications.](../media/allow-desktop-notification.png "Allow desktop notifications")
 
-To ensure that agents receive the notifications, we recommend you enable the follwing settings:
+To ensure that agents, receive the notifications, we recommend you enable the following settings:
 
 - [Notification settings in Windows](https://support.microsoft.com/en-us/windows/change-notification-settings-in-windows-8942c744-6198-fe56-4639-34320cf9444e) is set to On.
 - [Notifications for your Dynamics 365 instance website](https://support.microsoft.com/en-us/microsoft-edge/manage-website-notifications-in-microsoft-edge-0c555609-5bf2-479d-a59d-fb30a0b80b2b) are set to on.
-- Do Not disturb in your Windows setting is set to Off.
+- Don't disturb in your Windows setting is set to Off.
 - Enable the service worker in the developer console.
     > [!div class=mx-imgBorder]
  > ![Enable service worker.](../../app-profile-manager/media/service-worker-enable.png "Screenshot that indicates how to enable service worker")
@@ -94,13 +96,13 @@ The application supports the following slugs.
 | `{entityRoutingLogicalName}` | Name of the entity if the notification is for entity records. |
 | `{customerEntityName}` | Name of the entity (contact or account entity) if the customer is authenticated. |
 | `{customerRecordId}` | GUID of the entity (contact or account entity) if the customer is authenticated. |
-|`{<name of the pre-chat survey question>}` | All the pre-chat survey questions that are configured for a work stream can be used as the slug. The format is same as the question. |
+|`{<name of the pre-chat survey question>}` | All the prechat survey questions that are configured for a work stream can be used as the slug. The format is same as the question. |
 
 ## Manage templates
 
 ### Out-of-the-box notification templates
 
- For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details are not available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on the notifications behavior and what the notifications display for agents, see [notifications for agents](../use/oc-notifications.md).
+ For the supported channels, Customer Service provides you with out-of-the-box notification templates that you can use in your environment. When you attach the out-of-the-box notification template, the default settings are used in the notifications. For customers whose record exists in Dynamics 365, the settings in the authenticated template for notifications are used. If the customer details aren't available in Dynamics 365, the settings in the unauthenticated template are used for displaying the notifications. For information on the notifications behavior and what the notifications display for agents, see [notifications for agents](../use/oc-notifications.md).
 
 
 The out-of-the-box templates are as follows.
@@ -140,11 +142,11 @@ The out-of-the-box templates are as follows.
     | General | Icon | Select web resource path to add an icon. | /webresources/msdyn_chat_icon_zfp.svg <br><br> **Note:** <br>- This is the default value. You can change the icon as your requirement. <br> - If you enable the **Show desktop notifications** option, and if you use svg icon format, then the svg icon won't be shown in the desktop notifications.  |
     | General |Show timeout| Yes |Set **Yes** to show the timer in the notification, or **No** to hide the timer in the notification for the agents. <br><br> **Note:** <br> - Irrespective of whether you set **Yes** or **No** to show or to hide the timeout value for the agent, the timer runs, and after the timeout duration, the notification disappears. <br> - **Yes** is the default value for the templates when you get the latest release of Omnichannel for Customer Service. <br> - When you upgrade from previous to the latest release of Omnichannel for Customer Service, then existing notification templates will show no value for this field in the user interface. However, the notification templates consider the values as **Yes**, and display the timer to the users at the runtime.<br> - If you enable the **Show desktop notifications** option, then the timer won't be shown in the desktop notifications. |
     | General | Countdown (seconds) |Provide a duration in seconds; after this duration elapses, the notification disappears. | 120. <br><br> **Note:** This is the default value. You can change the duration as per your requirement.|
-   | General|Auto-assign work items| Set to **Yes** to automatically assign the incoming conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
-   | General|Auto-accept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for an agent to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
+   | General|Autoassign work items| Set to **Yes** to automatically assign the incoming conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
+   | General|Autoaccept voice/chat calls | This option is displayed only if **Auto-assign work items** is enabled. Set to **Yes** for an agent to automatically accept a conversation.| The default value is **No**. <br> **Note:** This setting is in preview. <br> More information: [Enable automatic acceptance of conversations](enable-auto-assign-conversations.md).|
    | General | Accept Button | Specify a text for the accept button. This text appears for the agents to accept a conversation request. | The default value is **Accept** that changes to **Open** when the **Auto-assign work items** value is **Yes**. You can change the text as per your requirement. |
    | General | Reject Button | Set the toggle to yes if you want to show the reject button to agents. <br> After you set the toggle to **Yes**, the default label for the button appears. | Reject <br><br> **Note:** This is the default value. You can change the text as per your requirement. The **Reject Button** is disabled when the **Auto-assign work items** value is **Yes**. |
-   | General | Show desktop notifications | Specify **Always** to show notifications always or **When app is in background** to show notifications only if the Customer Service workspace or Omnichannel for Customer Service is not in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../use/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
+   | General | Show desktop notifications | Specify **Always** to show notifications always or **When app is in background** to show notifications only if the Customer Service workspace or Omnichannel for Customer Service isn't in focus. | When app is in background <br><br> **Note:** <br> The default value is Never. <br> To learn more, see [Desktop notifications](#desktop-notifications) and [Receive notifications when app is in background](../use/oc-notifications.md#receive-notifications-when-the-app-is-in-the-background). |
 
     > [!div class=mx-imgBorder] 
     > ![Create notification template.](../media/notification-template-default-entity.png "Create notification template")
@@ -153,7 +155,7 @@ The out-of-the-box templates are as follows.
 
 1. Select **Add Existing Notification Field** in the **Notification Fields** section. The **Lookup Records** pane appears.
 
-1. Select the search icon in the **Look for Records** box. If no records are available, you will see a message: **No records found. Create a new record.**.
+1. Select the search icon in the **Look for Records** box. If no records are available, a message appears that there are no records found and to create a new record.
 
 1. Select **New** to create a notification field. A confirm dialog box appears, asking whether you want to leave the page. Select **OK**.
 
@@ -161,7 +163,7 @@ The out-of-the-box templates are as follows.
 
     | Tab | Name | Value, description | Example |
     |---------|--------------------|-----------------------------------------------|--------------------|    
-    | General | Name | Specify the name for the notification. This name won't be visible to the agents at the runtime. | Name of the customer |
+    | General | Name | Specify the name for the notification. This name isn't visible to the agents at the runtime. | Name of the customer |
     | General | Field header | Provide a name to the field header. This appears in the notification that agents see at the runtime. | Name |
     | General | Value | Provide a slug value that appears against **Field header** in the notification. <br><br> To learn more, see [Slug for notification field header](#slugs-for-notification-field-header). |{customerName} |
 
@@ -178,7 +180,7 @@ The out-of-the-box templates are as follows.
 
 1. Select **Save**.
 
-After saving the notification, sign in to the Omnichannel for Customer Service app as an agent, and you can view the notification as per your configuration when a work item is routed.
+After you save the notification, sign in to the agent app, and you can view the notification per your configuration when a work item is routed.
 
 To learn more, see [View notification](../use/oc-notifications.md).
 
@@ -191,7 +193,7 @@ As an administrator, you can edit the value of a notification field header in th
 
 2. Select a notification field you want to edit and then select the record to edit it.
 
-3. Select the save icon in the grid.
+3. Select **Save**.
 
 ### Customize a notification
 
@@ -217,12 +219,15 @@ As an administrator, you need to customize the notification template to show the
 | General | Icon |The default value is **/webresources/msdyn_chat_icon_zfp.svg**. |
 | General |Show timeout| No |
 | General | Timeout (seconds) | The default value is **120**. |
-|General| Auto-assign work items | The default setting is **No**. |
+|General| Autoassign work items | The default setting is **No**. |
 | General | Accept Button | The default value is **Accept**.|
 | General | Reject Button | The default value is **No**. When you set the toggle to **Yes**, the **Reject** label appears.|
 | General | Show desktop notifications | The default setting is **Never**. Set to **When app is in background**. |
 
 #### Step 2: Create the notification fields with the following values
+
+> [!NOTE]  
+> You can configure up to four notification fields only.
 
 | Name | Field header | Value |
 |---------|--------------------|-----------------------------------------------|--------------------|    
@@ -236,7 +241,7 @@ As an administrator, you need to customize the notification template to show the
 
 #### Step 3: Save the changes
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage session templates](session-templates.md)  

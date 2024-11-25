@@ -1,15 +1,14 @@
 ---
 title: "Popup Notification (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "Learn to use the Popup Notification hosted control type to display notifications in Unified Service Desk. "
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # Popup Notification (Hosted Control)

@@ -12,7 +12,7 @@ ms.collection:
 
 # Configure reconnection to a previous chat session
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
 When customers are disconnected in the middle of a conversation&mdash;for reasons that can range from restarting their system while troubleshooting to network disruption&mdash;they can reconnect to the same agent, if you enabled the settings for reconnection. The options to reconnect to the same agent help save time and effort, and improve customer satisfaction.
@@ -63,7 +63,7 @@ You can enable the reconnection options in the chat widget either while setting 
    :::image type="content" source="../media/reconnect-previous-chat.png" alt-text="Reconnect to previous chat":::
     
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)  
 [Create a work stream](../work-streams-introduction.md)  

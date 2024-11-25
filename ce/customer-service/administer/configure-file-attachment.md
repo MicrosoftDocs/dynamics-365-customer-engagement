@@ -11,6 +11,9 @@ ms.custom: bap-template
 
 # Configure file attachment capability
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
 As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent.
 
 Customers must use the **Attach** icon to send files. The drag-and-drop operation isn't supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
@@ -20,7 +23,7 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 > [!NOTE]
 > In Unified Service Desk, if you sign in as an agent and want to attach a file while conversing with a customer, ensure that you select the required file type first and then attach the required file.
 
-1. Sign in to Customer Service admin center.
+1. Sign in to Customer Service admin center or Contact Center admin center.
 
 1. In Customer support, go to **Channels** > **Chat**.
 
@@ -74,7 +77,7 @@ If a customer tries to attach an unsupported file type, a file larger than the a
 
 :::image type="content" source="../media/file-attach-error.png" alt-text="Screenshot of message that appears when customers upload malicious files using chat.":::
 
-### See also
+### Related information
 
 [Enable file attachments](enable-file-attachments.md) </br>
 [Add a chat widget](add-chat-widget.md) <br>

@@ -32,7 +32,7 @@ For a guided walkthrough, see the following video.
 Before you begin, make sure you have the following set-up:
 
 - [A Dynamics 365 Field Service subscription](buy-fs.md).
-- [Dynamics 365 Field Service mobile app installed](mobile-power-app-get-started.md).
+- [Dynamics 365 Field Service mobile app installed](mobile/set-up-field-service-mobile.md).
 - [Dynamics 365 Remote Assist mobile app installed](/dynamics365/mixed-reality/remote-assist/deploy-remote-assist#download-and-install-the-app).
 - At least two bookable resources with resource type *User*. One for the technician (frontline worker) and another for the remote collaborator. Both users need a Field Service license, which gives them access to Remote Assist too. For more information about setting up users and assigning licenses, see [Set up users and security roles](view-user-accounts-security-roles.md).
 

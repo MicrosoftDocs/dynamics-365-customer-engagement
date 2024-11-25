@@ -15,7 +15,7 @@ search.audienceType:
 
 # Enable the transcription experience for messaging channels
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 As an administrator, you can enable live transcription and recording of conversations, which allows agents and supervisors to view transcripts of customer conversations. The transcriptions include sentiment analysis data and can be searched through.
 
@@ -27,7 +27,7 @@ As an administrator, you can enable live transcription and recording of conversa
 > [!NOTE]
 > The transcript feature is generally available; however, in some environments, you might see a preview tag or banner in the interface. Any preview annotations for this feature can safely be ignored.
 
-1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
 
 1. On the **Productivity** page, select **Manage** for **Transcript**.
 
@@ -37,9 +37,9 @@ As an administrator, you can enable live transcription and recording of conversa
 
 ## View the transcripts
 
-You can view the conversation transcriptions in the Customer Service admin center and Customer Service workspace apps.
+You can view the conversation transcriptions in the Customer Service admin center, Contact Center admin center, Contact Center workspace, and Customer Service workspace apps.
 
-1. In the Customer Service admin center site map, select **User management**, and then select **Manage** for **Users**.
+1. In the admin center site map, select **User management**, and then select **Manage** for **Users**.
 2. Select the user whose conversations you want to view.
 3. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 4. Select **Closed conversations** from the dashboard dropdown menu.
@@ -48,7 +48,7 @@ You can view the conversation transcriptions in the Customer Service admin cente
    > [!div class="mx-imgBorder"]
    > ![Screenshot of closed conversation list.](../media/voice-channel-conversations-list.png)
 
-To view transcripts in Customer Service workspace, do the following:
+To view transcripts in Customer Service workspace or Contact Center workspace apps, do the following:
 
 1. Open the app and then switch to the **Omnichannel Agent Dashboard** view. The completed chat conversations are displayed in the **Closed work items** column.
 1. Do one of the following:<br>
@@ -59,7 +59,7 @@ To view transcripts in Customer Service workspace, do the following:
 > [!NOTE]
 > As an administrator, only you have access to the conversations that are handled by other agents.
 
-### See also
+### Related information
 
 [Configure chat](../administer/add-chat-widget.md)  
 [View communication panel](../use/oc-conversation-control.md)

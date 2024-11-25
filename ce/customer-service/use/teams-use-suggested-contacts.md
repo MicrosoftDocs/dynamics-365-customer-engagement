@@ -1,7 +1,7 @@
 ---
-title: "Use suggested contacts in Teams chats in Customer Service | Microsoft Docs"
-description: "Learn how to use suggested contacts with Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/03/2022
+title: Use suggested contacts in Teams chats 
+description: Learn how to use suggested contacts with Teams chat functionality.
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -16,7 +16,13 @@ ms.custom:
 
 # Use suggested contacts to collaborate with the right coworkers
 
-The Teams chat embedded in Dynamics 365 Customer Service Hub, Customer Service workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> Case is applicable to Customer Service only.
+
+
+The Teams chat embedded in Customer Service Hub, Customer Service workspace, Contact Center workspace, or custom apps can help you more quickly find the right coworkers to collaborate with. This collaboration can help you more quickly resolve customer issues.
 
 To use suggested contacts, your administrator must enable the feature. For the case record type, there are two types of suggestions: AI and rules-based. Other record types enabled for connected chats may only have rules-based suggestions.
 -  AI: Suggestions based on cases that were resolved by other agents. More information: [Collaborate with AI-suggested contacts in Microsoft Teams](/dynamics365/customer-service/use-ai-suggested-contacts-teams)
@@ -35,10 +41,10 @@ To use suggested contacts, your administrator must enable the feature. For the c
    :::image type="content" source="../media/teams-suggested-contacts.png" alt-text="Suggested contacts view in Teams.":::
    
 
-### See also
+### Related information
 
-[Configure Teams chat in Customer Service](../administer/configure-teams-chat.md)<br>
-[Use Teams chat in Customer Service](use-teams-chat.md)<br>
+[Configure Teams chat ](../administer/configure-teams-chat.md)<br>
+[Use Teams chat ](use-teams-chat.md)<br>
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]  
  

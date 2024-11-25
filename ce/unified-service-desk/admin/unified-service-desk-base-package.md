@@ -1,15 +1,13 @@
 ---
 title: "Unified Service Desk Base package | MicrosoftDocs"
 description: "Learn about the Base sample application that's part of Unified Service Desk, its components, and how you can use it."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 # Base sample application package
 

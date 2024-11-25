@@ -41,7 +41,7 @@ On the **Forecast configurations** page, select one of the following templates:
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)
 

@@ -75,7 +75,7 @@ In Customer Service admin center, go to **Copilot help pane** and perform the st
 
 [Write an email with Copilot](../use/use-copilot-email.md)
 
-### See also
+### Related information
 
 [Understand Copilot language support](../use/copilot-language-support.md)  
 [Manage copilot features in Customer Service](../administer/configure-copilot-features.md)   

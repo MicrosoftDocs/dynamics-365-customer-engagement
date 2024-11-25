@@ -1,11 +1,11 @@
 ---
-title: Enable agents to search for contacts and open records from outbound dialer (preview)
+title: Enable agents to search for contacts and open records from outbound dialer
 description: Enable agents to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
 author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 04/01/2024
+ms.date: 07/01/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -14,11 +14,13 @@ ms.custom:
   - ai-gen-desc
 ---
 
-# Enable agents to search for contacts and open records from outbound dialer (preview)
+# Enable agents to search for contacts and open records from outbound dialer 
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 In the outbound dialer, agents can search for customers by name. Agents can also select and open a customer's record from the recently dialed number list.
 

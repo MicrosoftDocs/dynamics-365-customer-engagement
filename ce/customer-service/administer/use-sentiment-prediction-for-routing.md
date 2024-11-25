@@ -9,18 +9,7 @@ ms.author: nenellim
 
 # Use sentiment prediction-based model in work classification (preview)
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to agents.
 
@@ -37,6 +26,10 @@ The sentiment prediction uses the following seven-point scale that allows organi
 - Very negative
 
 The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider agent chat strings.
+
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Enable sentiment prediction
 
@@ -117,7 +110,7 @@ You can view how the sentiment prediction model was used to route a work item.
 
 All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. More information: [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support)
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [How to set up unified routing](set-up-routing-process.md)  

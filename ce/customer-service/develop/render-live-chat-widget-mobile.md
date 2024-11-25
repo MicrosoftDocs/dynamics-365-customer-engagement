@@ -16,7 +16,6 @@ ms.custom:
 
 # Customize live chat widgets for mobile apps
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
@@ -91,7 +90,7 @@ chatWebView.evaluateJavascript(
 
 When the chat is closed, the live chat widget triggers the [lcw:closeChat](reference/events/lcw-closechat.md) event. You can listen for this event, and perform any post-chat steps if required.
 
-### See also
+### Related information
 
 [Live chat SDK reference](omnichannel-reference.md)  
 [Develop custom live chat widgets](develop-live-chat-widget.md)  

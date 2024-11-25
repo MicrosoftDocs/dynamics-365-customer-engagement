@@ -1,15 +1,14 @@
 ---
 title: "WinDDA in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the Windows data-driven adapter (WinDDA) and its binding elements to access HTML-based applications in Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # WinDDA
 [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)] data-driven adapter (WinDDA) is used to interact with Windows-based applications. The key technology used in the data-driven adapter is Microsoft Active Accessibility (MSAA), with some functionality covered through Win32 function calls. The MSAA API allows you to automate the user interface. An application can use this API to make its interface more accessible to users with accessibility issues. Although modifying a user interface (UI) to make it more accessible to users is the primary intent of the API, it can also be used for [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)] integration. Windows generates accessibility proxy objects for Windows controls that don’t explicitly provide their own MSAA support. The use of proxy objects provides an alternative to the more common approach of controlling an application through Windows API calls. It also allows you to control any application type (beyond Win32) that exposes its user interface through MSAA.  

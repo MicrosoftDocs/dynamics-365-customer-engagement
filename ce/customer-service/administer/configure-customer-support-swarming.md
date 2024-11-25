@@ -10,6 +10,8 @@ ms.reviewer: shujoshi
 
 # Configure customer support swarming for complex cases
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
 >
@@ -329,6 +331,6 @@ To set up swarm privileges for agents, perform the following steps.
 
 1. Set the **Swarming** toggle to **On**. 
 
-### See also
+### Related information
 
 [Use customer support swarming](../use/use-customer-support-swarming.md)

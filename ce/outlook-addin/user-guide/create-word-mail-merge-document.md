@@ -3,7 +3,7 @@ title: "Create a Microsoft Word mail-merge document with Dynamics 365 for Outloo
 description: Learn how to use Microsoft Dynamics 365 for Outlook with Office Word to create documents that display Dynamics 365 for Customer Engagement data.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: de3bac06-c80f-40f8-bf8f-6e0735e8350e
 caps.latest.revision: 36
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer

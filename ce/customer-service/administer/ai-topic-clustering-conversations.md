@@ -12,6 +12,9 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 
 The AI-driven technology empowers informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
@@ -38,7 +41,7 @@ The Summary and Model run summary views provide key information about how the to
 
 AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
-1. In Customer Service admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
+1. In Customer Service admin center or Contact Center admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for conversation** page, enable the toggle.
 
 > [!NOTE]
@@ -57,7 +60,7 @@ The topics capability in the Omnichannel historical analytics reports comes with
 - Simplified Chinese
 - Spanish
 
-### See also
+### Related information
 
 [Omnichannel Conversation Dashboard](../use/oc-conversation-dashboard.md)  
 [Topics Dashboard](../use/oc-conversation-topics-dashboard.md)  

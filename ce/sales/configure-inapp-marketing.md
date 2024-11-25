@@ -1,12 +1,14 @@
 ---
 title: Configure in-app marketing settings
-description: Configure in-app marketing settings to define various aspects of campaigning.
-ms.date: 01/25/2023
+description: Learn how to configure in-app marketing settings to define various aspects of campaigning, including creating campaign responses automatically.
+ms.date: 06/20/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -59,7 +61,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
-### See also  
+## Related information  
 
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
 [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
@@ -68,4 +70,5 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
 [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)  
     
+
 

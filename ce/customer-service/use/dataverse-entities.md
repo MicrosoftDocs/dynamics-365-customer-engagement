@@ -12,6 +12,11 @@ ms.custom: bap-template
 
 # Dataverse entities used in historical and real-time analytics
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 The article describes the Dataverse entities used in historical and real-time analytics.
 
 ## Entities used in historical analytics

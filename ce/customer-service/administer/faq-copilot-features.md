@@ -60,7 +60,7 @@ Yes. Copilot supports knowledge articles published in the supported languages. S
 - Revisit your copilot knowledge sources before you enable Copilot.
 - Restrict access to sources from which you don't want your copilot responses to be generated.
 
-### See also
+### Related information
 
 [Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
 [FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)  

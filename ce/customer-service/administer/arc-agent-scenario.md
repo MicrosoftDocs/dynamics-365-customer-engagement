@@ -99,7 +99,7 @@ An incoming email from a customer might get converted to multiple cases. When an
 
 1. Select **Publish** to save your changes.
 
-## See also
+## Related information
 
 [Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 

@@ -193,7 +193,7 @@ Follow these steps:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Personalize sales accelerator](personalize-sales-accelerator.md)
 

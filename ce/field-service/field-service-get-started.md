@@ -1,7 +1,7 @@
 ---
 title: Get started
 description: Learn how to get started with Dynamics 365 Field Service.
-ms.date: 05/10/2024
+ms.date: 10/24/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: overview
@@ -57,6 +57,10 @@ Every customer of your company usually has its own account record. It lists thei
 
 [Create an account](accounts.md) that represents one of your customers.
 
+## Configure the work order summary
+
+Define the fields that Copilot uses to generate a summary of a work order. Learn more: [Configure the work order summary](work-order-recap.md#how-to-configure-the-summary).
+
 ## Create a work order
 
 [Work orders contain all the information for a service request](create-work-order.md) that originates from a customer. It outlines the work to be done, typically at the customer's location or at the location of an asset or equipment. To quickly create a work order, go to the Get Started page and select **Create** in the work order section and enter relevant details.
@@ -78,7 +82,7 @@ Find your work order in the requirement pane. Drag it to a free time slot in the
 
 Frontline workers use the mobile experience on their phone or tablet.
 
-[Download and install the mobile app](mobile-power-app-get-started.md) and sign in as the technician to whom the work order is assigned.
+[Download and install the mobile app](mobile/set-up-field-service-mobile.md) and sign in as the technician to whom the work order is assigned.
 
 The **Booking** tab shows the work order you scheduled to the frontline worker. Update the status of the booking and related details to indicate completion of the work order.
 

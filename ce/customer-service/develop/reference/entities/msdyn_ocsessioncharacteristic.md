@@ -678,7 +678,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_ocliveworkitemcharacteristic Entity [msdyn_msdyn_ocliveworkitemcharacteristic_msdyn_ocsessioncharacteristic_ocliveworkitemcharacteristic](msdyn_ocliveworkitemcharacteristic.md#BKMK_msdyn_msdyn_ocliveworkitemcharacteristic_msdyn_ocsessioncharacteristic_ocliveworkitemcharacteristic) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

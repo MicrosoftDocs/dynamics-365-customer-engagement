@@ -4,12 +4,14 @@ description: Overview of the agent experience profiles.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 04/23/2024
+ms.date: 07/01/2024
 ms.topic: overview
 ms.custom: bap-template
 ---
 
 # Agent experience profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps.
 With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
@@ -36,7 +38,7 @@ Thereafter, users with the required agent or supervisor role can see and use the
 
 You can create and manage agent experience profiles in the [Customer Service admin center app](create-agent-experience-profile.md).
 
-### See also
+### Related information
 [Create and use agent experience profiles](create-agent-experience-profile.md)    
 [System requirements](../implement/customer-service-workspace-system-requirements.md)  
 

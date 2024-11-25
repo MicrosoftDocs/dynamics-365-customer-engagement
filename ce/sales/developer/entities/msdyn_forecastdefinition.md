@@ -954,7 +954,7 @@ See the [msdyn_metric_msdyn_forecastdefinition_metricid](metric.md#BKMK_msdyn_me
 
 See the [msdyn_goalrollupquery_msdyn_forecastdefinition_rollupquery](goalrollupquery.md#BKMK_msdyn_goalrollupquery_msdyn_forecastdefinition_rollupquery) one-to-many relationship for the [goalrollupquery](goalrollupquery.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

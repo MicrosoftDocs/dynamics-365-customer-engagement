@@ -1,7 +1,7 @@
 ---
 title: Enable calendar export and import with SLAs
 description: Enable the export or import of a calendar with its corresponding SLAs from the Customer Service admin center or Customer Service Hub app.
-ms.date: 02/14/2024
+ms.date: 06/21/2024
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -25,21 +25,12 @@ You can replicate the SLA settings in another environment by exporting the solut
 
 ## Export or import a calendar with SLAs
 
-You can enable the export or import of a calendar either from the Customer Service admin center or Customer Service Hub app.
+You can enable the export or import of a calendar from the Customer Service admin center app.
 
-1. Go to one of the apps and perform the following steps:
+1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
 
-    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
-    1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - In the site map, go to **Service Management** and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
-   
 1. On the **Service Configuration Settings** page, go to the **Calendar Export and Import** section and set the **Enable calendar export and import** toggle to **Yes**. By default, the option is set to **No**.
 1. Select **Save**.
 
@@ -58,7 +49,7 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution is successfully upgraded, activate the SLAs as required.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

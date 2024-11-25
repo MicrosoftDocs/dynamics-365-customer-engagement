@@ -321,7 +321,7 @@ You need to debug and find out if the custom action is present in the system wit
 ## FAQ
 For more information about custom time calculation of SLA KPIs, go to [FAQ about custom time calculation of SLA KPIs](faqs-custom-time-sla-kpis.md#).
 
-### See also
+### Related information
 
 [Define service-level agreements](define-service-level-agreements.md)
  

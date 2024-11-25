@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 05/08/2023
+ms.date: 09/20/2024
 ms.custom: bap-template
 ---
 
@@ -26,7 +26,7 @@ To view sequence insights, open an active sequence. The sequence is shown as a S
 
 By default, the data covers the entire time the sequence has been active. You can filter it to show a specific duration; for example, the last seven days. Select **All data** in the upper-right corner of the page, and then select a duration.
 
-:::image type="content" source="media/si-insights-phone-call.png" alt-text="Screenshot of a sequence flow diagram with insights for a phone call step." lightbox="media/si-insights-phone-call-exp.png":::<!-- EDITOR'S NOTE: Please highlight "All data" in the screenshot IAW our [screenshot guidelines](/bacx/screenshots-for-bap?branch=main) -->
+:::image type="content" source="media/si-insights-phone-call.png" alt-text="Screenshot of a sequence flow diagram with insights for a phone call step." lightbox="media/si-insights-phone-call-exp.png":::
 
 To get insights on how sellers are executing a step, select it in the diagram.
 
@@ -46,7 +46,7 @@ Other steps display a detailed analysis, with the following insights shown for e
 
 Analytics aren't available for condition steps.
 
-### See also
+## Related information
 
 [Create and connect sequences for yourself](create-sequence-seller.md)  
 [View and understand sales acceleration reporting](understand-sales-acceleration-reporting.md)  

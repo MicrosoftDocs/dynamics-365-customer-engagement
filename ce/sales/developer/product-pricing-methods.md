@@ -35,7 +35,7 @@ Dynamics 365 Sales uses the `ProductPriceLevel.PricingMethodCode` column to dete
   
  To set the values for the `ProductPriceLevel.PricingMethodCode` column and the other product price level table columns, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method, passing an instance of the `ProductPriceLevel` class. To set the values for the product columns, use the methods in the `Product` class.  
   
-### See Also  
+## Related information  
  [ProductPriceLevel Table](entities/productpricelevel.md)   
  [Product Table](entities/product.md)   
  [Product Catalog Tables](product-catalog-entities.md)

@@ -1,11 +1,11 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 06/02/2024
+ms.date: 09/30/2024
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
-author: AnilMur
-ms.author: anilmur
+author: DaPisani
+ms.author: dapisani
 ---
 
 # Resource Scheduling Optimization version history
@@ -43,6 +43,19 @@ For information about older versions, see [Version history archive](version-hist
 >[!NOTE]
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.4.0.1262
+
+This release, available as of September 13, 2024, has updates improving performance.  
+_Request Name_ in table _Optimization Requests_ now saved as date and time of request in UTC
+
+## 3.4.0.1165
+
+This release, available as of August 6, 2024, has updates improving reliability and performance.
+
+## 3.4.0.1144
+
+This release, available as of July 15, 2024, has miscellaneous service updates and logging improvements.
 
 ## 3.4.0.1040
 

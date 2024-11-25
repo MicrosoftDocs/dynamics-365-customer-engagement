@@ -1,7 +1,7 @@
 ---
 title: Uninstall solutions in Omnichannel for Customer Service
 description: Perform the steps mentioned in this article to remove solutions in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 09/30/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ When you uninstall Omnichannel for Customer Service from your organization, the 
 
 ## Prerequisite
 
-You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
+You must have removed [Omnichannel for Customer Service](/dynamics365/contact-center/implement/provision-channels#turn-off-channels).
 
 > [!IMPORTANT]
 > Some solutions are shared across apps, and you shouldn't remove them unless you intend to uninstall those apps too; skip those solutions if they are required.
@@ -33,7 +33,9 @@ You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. On the **Solutions** page, select each solution from the following list, and then select **Delete** to remove them one at a time.
+4. On the **Solutions** page, go to the **Managed** tab.
+
+5. In the **Managed** tab, select each solution from the following list, and then select **Delete** to remove them one at a time.
 
     | Order |	Solution name	                                | Note	|
     |-------|-------------------------------------------------- |-------|
@@ -68,8 +70,7 @@ You must have removed [Omnichannel for Customer Service](remove-omnichannel.md).
     |	30	|	 `OmnichannelIntelligence` 	                    |		|
     |	31	|	 `OmnichannelConfiguration`                    	|		|
 
-
-5. Select **OK** on the confirmation message that prompts you to uninstall the managed solution.
+6. Select **OK** on the confirmation message that prompts you to uninstall the managed solution.
 
 ## Uninstall Omnichannel historical analytics solutions
 
@@ -89,9 +90,11 @@ When you upgrade Omnichannel for Customer Service to the latest release, certain
 
 3. Go to Dynamics 365 **Settings** > **Solutions**.
 
-4. On the **Solutions** page, select the **OmnichannelCustomerServiceHub** solution, and then select **Delete**.
+4. On the **Solutions** page, go to the **Managed** tab.
 
-5. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
+5. In the **Managed** tab, select the **OmnichannelCustomerServiceHub** solution, and then select **Delete**.
+
+6. A confirmation message appears that prompts you to uninstall the managed solution. Select **OK**. 
 
     > [!div class=mx-imgBorder]
     > ![Delete Omnichannel Solution.](../media/oceh-admin-delete-solution.png "Delete Omnichannel Solution")
@@ -112,7 +115,7 @@ Do the following steps to remove the Customer Service Hub solution from your org
 
 5. Select **Save** to save the record.
 
-### See also
+### Related information
 
 [Upgrade Omnichannel for Customer Service](upgrade-omnichannel.md)  
 [Omnichannel for Customer Service on Unified Service Desk](../../unified-service-desk/oc-usd/omnichannel-customer-service-unified-service-desk.md)  

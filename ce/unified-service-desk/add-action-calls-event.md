@@ -1,15 +1,14 @@
 ---
 title: "Add action calls to an event | MicrosoftDocs"
 description: "Learn how to add multiple action calls to an event and specify the order in which they must be run."
-ms.date: 12/31/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Add action calls to an event
 You can add multiple action calls to an event so that they are run in the order that is defined in the **Order** field of the event definition. To do so:  

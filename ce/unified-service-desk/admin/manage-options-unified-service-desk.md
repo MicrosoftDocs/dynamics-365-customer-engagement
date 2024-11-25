@@ -1,15 +1,13 @@
 ---
 title: "Manage global options for Unified Service Desk | MicrosoftDocs"
 description: "Learn how to use the Options setting to manage global name or value pairs used by Unified Service Desk components."
-ms.date: 05/30/2023
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 
 # Manage global settings or options in Unified Service Desk

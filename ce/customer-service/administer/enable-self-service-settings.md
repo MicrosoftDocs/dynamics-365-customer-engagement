@@ -16,7 +16,7 @@ ms.custom:
 
 # Enable self-service settings for customer actions in a conversation summary
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
 
 The self-service feature displays information about the recent actions that a customer performs before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
@@ -24,11 +24,11 @@ The data about the recent actions is stored in an entity for the conversation th
 
 Enabling the self-service feature is a two-step process as follows:
 1. Add a code snippet in the self-service portal that is configured for your organization. For the sample code and to learn more, see [Pass self service history as context](../develop/reference/methods/setContextProvider.md#pass-customers-self-service-as-context).
-2. Update the settings in the Customer Service admin center app.
+2. Update the settings in the Customer Service admin center or Contact Center admin center app.
 
 ## Enable self service
 
-You can enable the self service feature in the Customer Service admin center app.
+You can enable the self service feature in the Customer Service admin center or Contact center admin center app.
 
 1. Add the code snippet in the customer self-service portal.
 
@@ -43,7 +43,7 @@ You can enable the self service feature in the Customer Service admin center app
  
 1. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 
-### See also
+### Related information
 
 [Self service](../use/oc-customer-summary.md#view-self-service)
 

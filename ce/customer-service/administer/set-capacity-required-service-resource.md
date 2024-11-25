@@ -85,7 +85,7 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 11. Click **Save & Close**.  
   
-### See also  
+### Related information  
  [Create or edit a selection rule](create-simple-selection-rule.md)
 
 

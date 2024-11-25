@@ -1,7 +1,7 @@
 ---
-title: "Set up branding and theming in Dynamics 365 Sales | MicrosoftDocs"
-description: "Use themes in Dynamics 365 Sales to change the color scheme of your app to match your organization's branding guidelines."
-ms.date: 11/18/2021
+title: Set up branding and theming
+description: Learn how to create a custom look and feel for your app by making changes to the default colors and visual elements provided in your system.
+ms.date: 06/19/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,9 +12,10 @@ ms.custom:
 
 # Set up branding and theming
 
-You can create a custom look and feel (a theme), for your app by making changes to the default colors and visual elements provided in the uncustomized system. For example, you can create your personal product branding by adding a company logo and providing table-specific coloring. The theme colors are applied globally throughout the application.
+You can create a custom look and feel (a theme), for your app by making changes to the default colors and visual elements provided in your system. For example, you can create your personal product branding by adding a company logo and providing table-specific coloring. The theme colors are applied globally throughout the application.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -25,7 +26,9 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
-You can apply or create a theme in the Sales Hub app by selecting the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings** > **Customizations** > **Theme**. For more information on how to apply and create a new theme, go to [Use a theme to create a custom look for your app](/powerapps/maker/model-driven-apps/create-themes-organization-branding).
+You can apply or create a theme in the Sales Hub app by selecting the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings** > **Customizations** > **Theme**. For more information on how to create a theme, apply an existing one, or update the logo, go to [Use a theme to create a custom look for your app](/powerapps/maker/model-driven-apps/create-themes-organization-branding).
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 # [Sales Professional](#tab/salespro)
 
@@ -86,8 +89,9 @@ The Dynamics 365 Sales app comes with three default themes that you can use. You
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Admin settings overview](admin-settings-overview.md)  
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

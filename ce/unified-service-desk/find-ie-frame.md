@@ -1,15 +1,14 @@
 ---
 title: "FindIEFrame in Unified Service Desk | MicrosoftDocs"
 description: "The topic describes the attributes of <FindIEFrame> that searches for an application by its caption and selects a DOM of the window or a specific frame within a window."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # FindIEFrame in Unified Service Desk
 `<FindIEFrame>` tag searches for an application by its caption and selects a `DOM` of the window or a specific frame within a window. An example is a pop-up window. This tag can explore the pop-up window regardless of how it stands in relation to the hosted web application. This topic describes the attributes of `<FindIEFrame>`  

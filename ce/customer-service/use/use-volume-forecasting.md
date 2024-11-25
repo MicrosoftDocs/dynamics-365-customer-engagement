@@ -17,6 +17,11 @@ ms.custom:
 
 # Forecast case and conversation volumes, and agents for conversations
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
+
 This article describes how to navigate the forecast reports in Customer Service so that you can successfully meet the staffing demands of your organization.
 
 > [!IMPORTANT]
@@ -144,7 +149,7 @@ You can export the report data by selecting **Export** on the command bar.
 
 :::image type="content" source="../media/forecast-export-data.png" alt-text="View of the Forecast report Export data menu item.":::
 
-### See also
+### Related information
 
 [Configure case forecasting](../administer/configure-volume-forecasting.md)  
 [Configure agent forecasting for conversation](../administer/configure-agent-forecasting-conversation.md)  

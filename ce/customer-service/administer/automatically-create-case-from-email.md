@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
 ms.collection:
-ms.date: 09/28/2023
+ms.date: 06/21/2024
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -33,11 +33,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
    
 ## Create cases automatically using rules
 
-1. Go to **Settings** > **Service Management**.
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-1. Select **Automatic Case Creation Rules**.  
+1. In the site map of Customer Service admin center, go to **Case Settings** > **Automatic record creation and update rules** > **Manage**.
 
 1. To create a new case creation rule, select **New**.  
 
@@ -47,16 +43,16 @@ Reduce the need for manually creating cases from incoming emails and increase th
 
 1. Type or modify information in the fields.  
 
-   - **Name**: Type the name of the queue the rule is defined for.  
+   - **Rule name**: Type the name of the queue the rule is defined for.  
 
-   - **Source Type**: Select **Email** to indicate that cases will be created automatically from email messages.  
+   - **Activity type to monitor**: Select **Email** to indicate that cases will be created automatically from email messages.  
 
-   - **Queue**: Select the queue that the rule applies to. For example, if you want to convert email messages and then send them to the Support queue, select that queue here.  
+   - **Queue to monitor**: Select the queue that the rule applies to. For example, if you want to convert email messages and then send them to the Support queue, select that queue here.  
 
      > [!NOTE]
      >  You can associate only one rule per source type to a specific queue. If you’re creating a rule to convert an email to a case, make sure you specify an email address for this queue.  Otherwise, automatic case creation for email won’t work. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create and manage queues](set-up-queues-manage-activities-cases.md)
 
-1. In the **Specify Conditions for Case Creation** section, select the conditions for creating the case automatically. You can add multiple conditions here and arrange them in the desired order. The conditions are considered in the same order. Only one item that has conditions matching the incoming email is applied.  
+1. In the **conditions to evaluate and actions to take** section, select the conditions for creating the case automatically. You can add multiple conditions here and arrange them in the desired order. The conditions are considered in the same order. Only one item that has conditions matching the incoming email is applied.  
 
    #### Specify conditions for email to case creation  
 
@@ -127,7 +123,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 ## Manage automatic case creation from a queue form  
  You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and then on the command bar, select **Email to Case Settings**.  
 
-### See also  
+### Related information  
 [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)    </br>
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
 

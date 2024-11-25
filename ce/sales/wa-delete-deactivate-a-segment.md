@@ -49,7 +49,7 @@ Sometimes, you might want to get rid of segments that are no longer relevant or 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate segments](create-and-activate-a-segment.md)
 

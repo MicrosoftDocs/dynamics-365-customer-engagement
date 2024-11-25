@@ -102,7 +102,7 @@ The following cards are available under **Insights**.
 | <a name="TodaysTopRecords"></a>**Today's Top Records**<br />![Insight card for top records today](media/ActionCard_TopRecords.png "Insight card for top records today") | Standard |**Description**:<br> The system analyzes all of the Sales records that are related to you and lists the records that you are most likely to be working with today based on your recent activities and date information (such as a due date or appointment) in each record.<br>**Features**:<br> Shows a thumbnail image and a summary of each found record.<br>Click to view the full record. |
 | <a name="UpcomingFlight"></a>**Upcoming Flight** <br />  ![flight](media/ActionCard_Flight.png "Insight card for upcoming flight") | Standard | **Description**: <br>This card is generated when your Exchange inbox includes an email message that contains a flight confirmation. The system then matches the flight dates to upcoming meetings and finds other information related to the location that you are flying to, such as other nearby customers.<br>**Note**: This card doesn't show live or updated flight information, just information from the flight confirmation email message that triggered the card.<br>**Features**: <br>Flight company and flight number, with a link to the flight record.<br>Departure and arrival times, with airport codes.<br>Related meeting record, with link. Up to three meetings may be listed here.<br>List of customer offices near the destination airport, with links. <br>**Actions**:<br>Open Email |
 
-### See also
+## Related information
 
 [Use the assistant to guide customer communications](use-assistant-guide-customer-communications.md)  
 [Turn on or off the insight cards](turn-on-off-insight-cards.md)

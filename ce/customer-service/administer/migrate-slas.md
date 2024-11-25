@@ -37,7 +37,7 @@ To understand how you can migrate service-level agreements, see [Migrate automat
 
 For queries about migration, see [Migration tool FAQ](migrate-tool-faqs.md#migration-tool-faq).
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

@@ -121,7 +121,7 @@ To configure the sales accelerator, go to [First-run setup](#first-run-set-up).
 
 By default, the **Up next** widget is displayed on the **Default Main** and **Sales Insight** forms. To add the **Up next** widget to other forms, follow the process specified in [How do I add the Up next widget to an entity form?](faq-sales-accelerator.md)
 
-[Learn more about how to add sales accelerator to the site map in your custom app](faq-sales-accelerator.md#how-to-add-sales-accelerator-to-the-site-map-in-your-custom-app).
+[Learn more about how to add sales accelerator to the site map in your custom app](faq-sales-accelerator.md#how-do-i-add-the-sales-accelerator-site-map-to-my-custom-app).
 
 ## Add sales accelerator site map entry to custom app
 
@@ -137,7 +137,7 @@ Use the following URLs to add the sale accelerator site map to your custom app a
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)     
 [Create and manage sequences](create-manage-sequences.md)     

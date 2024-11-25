@@ -12,21 +12,21 @@ ms.custom: bap-template
 
 # Create and manage operating hours
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues.
 
 The operating hour schedules cater to the following scenarios:
 
-- Display the non-availability of customer support on public holidays that are otherwise operating hours.
-- Accommodate change of calendar timings for daylight saving time twice an year for timezones that have implemented the daylight saving time.
+- Display the nonavailability of customer support on public holidays that are otherwise operating hours.
+- Accommodate change of calendar timings for daylight saving time twice a year for timezones that implemented the daylight saving time.
 - Set up separate schedules for agents, bots, and queues to cater to different business scenarios and product lines seamlessly for any channel.
 - Define schedules to transition customer queues from bots to agents.
-- Customize the display and other settings of the chat widget during non-business hours.
+- Customize the display and other settings of the chat widget during nonbusiness hours.
 
-After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) to be displayed to customers, when customers interact through a channel during non-business hours, they will see the messages that you've set. For example, customers can be shown an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they'll receive responses that you've set.
+After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) for your customers, when customers interact through a channel during nonbusiness hours, they see or hear the messages that you set. For example, you can display an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they receive responses that you set.
 
-In the Customer Service admin center app, after you've created an operating hour record, you can do the following steps, depending on your requirement:
+In the Customer Service admin center or Contact Center admin center app, after you create an operating hour record, you can do the following steps, depending on your requirement:
 
 - **Queues:** Configure the operating hour on the main page of the queue.
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
@@ -36,7 +36,7 @@ When operating hours are in effect, work items during non-business hours are han
 
 ## Create a record to define operating hours
 
-You can define operating hours in Customer Service admin center.
+You can define operating hours in Customer Service admin center or Contact Center admin center.
 
 1. In the site map of the admin center, select **Calendars** in **Operations**. The **Calendar** page appears.
 1. In the **Operating Hours** section, select **Manage**.
@@ -109,7 +109,7 @@ Do the following to specify operating hours for a chat widget:
 
 ## Add operating hours to a queue
 
-You can add operating hours to a queue that can later be configured for a social channel. If operation hours aren't configured, the queues will be available round the clock.
+You can add operating hours to a queue that can later be configured for a social channel. If operation hours aren't configured, the queues are available round the clock.
 
 Do the following to specify operating hours for a queue:
 
@@ -120,7 +120,7 @@ Do the following to specify operating hours for a queue:
 
 1. On the **Operation hours** tab, select **Set operation hours**.
 
-1. In the **Set operation hours** page, search and select the operating hour record that you want to specify.
+1. In the **Set operation hours** page, search, and select the operating hour record that you want to specify.
 
 1. Save the changes.
 
@@ -128,12 +128,12 @@ Do the following to specify operating hours for a queue:
 
 You can't migrate the Calendar entity by using the export and import options and need to set up the work hours manually.
 
-### See also
+### Related information
 
 [Manage overflow of queues](manage-overflow.md)  
 [Automated messages](configure-automated-message.md)  
 [Add a chat widget](add-chat-widget.md)  
-[Configure a pre-chat survey](configure-pre-chat-survey.md)  
+[Configure a preconversation survey](configure-pre-chat-survey.md)  
 [Create quick replies](create-quick-replies.md)  
 [Create chat authentication settings](create-chat-auth-settings.md)  
 [Embed chat widget in Power Apps portals](embed-chat-widget-portal.md)  

@@ -12,8 +12,6 @@ ms.subservice: resource-scheduling-optimization
 
 The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service automatically schedules jobs to the resources that are best equipped to complete them. For example, schedule work orders for field technicians or cases for customer service reps. While the [schedule board](./work-with-schedule-board.md#book) and the [schedule assistant](./schedule-assistant.md) help schedule a single job, this add-in can schedule multiple jobs at once. It maximizes resource use and minimizes travel time. Resource Scheduling Optimization considers the requirements of the job and the unique attributes of the resources.
 
-:::image type="content" source="media/rso-optimized-schedule-board-routes.png" alt-text="Screenshot of Resource Scheduling Optimization and the schedule board.":::
-
 Resource Scheduling Optimization is a paid add-in to Dynamics 365 Field Service and is built on top of the entities of the [Universal Resource Scheduling solution](../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
 ## Get to know the key benefits
@@ -57,6 +55,10 @@ Here's how it works:
 1. Choose which resources can be considered for the jobs. Each resource has different attributes like location, role, type, and skills.
 
 1. Run Resource Scheduling Optimization on a predefined schedule, or triggered by a workflow. After the system completes the optimization, dispatchers can [use the schedule board](../common-scheduler/schedule-board-utilization.md) to make changes as needed.
+
+## Get periodic updates
+
+Microsoft releases new versions of Resource Scheduling Optimization periodically. The [version history](./field-service-version-history-resource-scheduling-optimization.md#release-schedule) lists changes and updates. Some releases are rolled out to all stations on a set schedule. However, you can [selectively deploy a release](./rso-deployment.md#manage-the-resource-scheduling-optimization-instance) in your environment.
 
 ## Next steps
 

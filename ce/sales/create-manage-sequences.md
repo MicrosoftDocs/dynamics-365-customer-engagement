@@ -61,7 +61,7 @@ Before you start, be sure you that the sales accelerator feature is configured i
 </td></tr>
 </table>   
 
-### See also
+## Related information
 
 [Configure the sales accelerator](enable-configure-sales-accelerator.md)  
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)

@@ -96,7 +96,7 @@ Select the **Filter** button on the work list command bar, and then select the f
 
 You can also create custom filters for insights. For more information, go to [Custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Get intelligent insights to improve sales](seller-insights-intro.md)

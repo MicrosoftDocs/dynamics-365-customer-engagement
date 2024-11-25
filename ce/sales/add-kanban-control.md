@@ -1,8 +1,9 @@
 ---
-title: Add the Kanban control to Opportunity or Activity tables
-description: Learn how to add the Kanban control to the Opportunity or Activity entity so that sellers manage their opportunities or activities effectively.
-ms.date: 06/18/2024
-ms.topic: article
+title: Add Kanban control to entities to opportunities or activities
+description: Add the Kanban control to create Kanban views that help sellers to manage their opportunities or activities effectively.
+ms.date: 11/25/2024
+ms.topic: how-to
+ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
@@ -21,10 +22,9 @@ Add the Kanban control to create Kanban views that help sellers to manage their 
 ## License and role requirements
 
 | Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+|------------------|---------------|
+| **License**      | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Add the Kanban controls
 
@@ -35,7 +35,7 @@ Kanban views help salespeople to manage their opportunities and activities effec
 > - The Kanban control is supported only on the main grid. It isn't currently supported on subgrids.
 > - The Kanban control is not supported in the **Dynamics 365 for Phones** mobile app.
 
-To add the control:
+### Add the control using the new experience
 
 1. In your sales app, select the **Settings** icon, and then select **Advanced Settings**.
 
@@ -70,16 +70,18 @@ To add the control:
 
 9. To publish the changes you've made, select **Save and Publish**.
 
-## Add the Kanban control using the legacy web client
+### Add the Kanban control using the legacy web client
 
 If you haven't turned on the new experience, you can add the Kanban control using the legacy web client.
 
 1. In your sales app, select the **Settings** icon, and then select **Advanced Settings**.
+1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 
     The **Business Management settings** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 
@@ -89,17 +91,17 @@ If you haven't turned on the new experience, you can add the Kanban control usin
 
 5. Go to the **Controls** tab and select **Add Control**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Read-only Grid control selected as default.](media/read-only-grid-control.png "Read-only Grid control selected as default")
+    :::image type="content" source="media/read-only-grid-control.png" alt-text="Screenshot of Read-only Grid control selected as default.":::
 
 6. In the **Add Control** dialog box, select **Kanban** and then select **Add**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Add Control dialog box.](media/add-control-dialog-box.png "Add Control dialog box")
+    :::image type="content" source="media/add-control-dialog-box.png" alt-text="Screenshot of Add Control dialog box.":::
 
     The Kanban control is added to the list of controls.
 
-7. The Read-only grid is the default option, so when users select **Opportunities** from the site map, they see a read-only grid of opportunities. To make the Kanban view the default view instead, select the radio button for the Kanban control for the corresponding options.  
+7. The Read-only grid is the default option, so when users select **Opportunities** from the site map, they see a read-only grid of opportunities. To make the Kanban view the default view instead, select the radio button for the Kanban control for the corresponding options.
+
+    :::image type="content" source="media/make-kanban-view-default.png" alt-text="Screenshot of making the Kanban view the default view.":::
 
 8. Select **Save** to save your changes.
 
@@ -113,18 +115,16 @@ There are a few customization restrictions that you should be aware of:
 - It isn't possible to have a role-based Kanban view.
 - The Activity Kanban view is only available for the Status field. You can't configure the Activity Kanban view for an option set field other than 'Status'.
 - For Opportunity Kanban view:
+  - While you can customize the out-of-the-box 'Opportunity Sales Process' business process flow, you can't customize the Kanban view to use a business process flow other than the Opportunity Sales Process.
+  - The Status-based Opportunity Kanban view is only available for the Status field. You can't configure this Kanban view for an option set field other than 'Status'.
+  - In the Opportunity Kanban view, aggregation is supported only for the Estimated Revenue field of the Opportunity entity. You can't configure the Kanban view to have aggregation done on other fields.
 
-    - While you can customize the out-of-the-box 'Opportunity Sales Process' business process flow, you can't customize the Kanban view to use a business process flow other than the Opportunity Sales Process. 
-    - The Status-based Opportunity Kanban view is only available for the Status field. You can't configure this Kanban view for an option set field other than 'Status'.
-    - In the Opportunity Kanban view, aggregation is supported only for the Estimated Revenue field of the Opportunity entity. You can't configure the Kanban view to have aggregation done on other fields.
-    
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)  
 
 [Work with activities in the Kanban view](activity-kanban-view.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

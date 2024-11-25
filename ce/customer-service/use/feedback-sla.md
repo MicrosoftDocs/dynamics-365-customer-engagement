@@ -11,11 +11,14 @@ ms.custom: bap-template
 
 # Manage feedback for knowledge articles
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Manage feedback received for your articles by adding it to your knowledge articles. Update your knowledge articles based on feedback to make the articles more useful for agents.
 
 ## Add feedback to an article
 
-1. In Customer Service workspace, select **Knowledge Articles**.
+1. In Customer Service workspace or Contact Center workspace, select **Knowledge Articles**.
 
 1. Select the article you want to add feedback for.
 
@@ -52,7 +55,7 @@ Manage feedback received for your articles by adding it to your knowledge articl
 
 Ensure that your articles are always up to date and accurate by updating them based on feedback you receive.  
   
-1. In Customer Service workspace, select **Knowledge Articles**.
+1. In Customer Service workspace or Contact Center workspace, select **Knowledge Articles**.
 
 1. Select the article you want to edit.  
   

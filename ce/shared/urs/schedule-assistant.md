@@ -8,7 +8,7 @@ When the dispatcher identifies the right resource for the job, they book the res
 
 If a requirement is ready for scheduling, you can launch the schedule assistant from various areas.
 
-- Directly from the schedule board: Open the requirements pane, choose a requirement, and select **Find availability**.
+- Directly from the schedule board: Open the requirements pane, choose a requirement, and select **Find availability**. Using the schedule assistant on the schedule board lets you [configure your schedule board](../../field-service/work-with-schedule-board.md) view to your needs.
 
 :::image type="content" source="../../field-service/media/scheduling-assistant-find-availability.png" alt-text="Screenshot showing how to launch the schedule assistant from the schedule board.":::
 
@@ -23,12 +23,15 @@ Select the **Book** option:
 
 After launching the schedule assistant, it populates filters based on criteria like work location, characteristics, territory, resource types, and more. Dispatchers can refine results by adjusting filters to meet their scheduling needs and find the right resource.
 
-By default, the search range filter will be set to match the requirement's From Date and To Date. This can also be adjusted in the filters pane. 
+By default, the search range filter will be set to match the requirement's From Date and To Date. This can also be adjusted in the filters pane. For multiday requirements, ensure that each requirment detail that needs to be booked is within schedule assistant's start and end dates.
 
-> [NOTE!]
+> [!NOTE]
 > Using customizations to change the From and To Date fields or otherwise modifying these time components with custom plugins is not supported and may cause errors.   
 
 The maximum search resource availability limit is 1,000 entries. For organizations with a large number of resources, search might be incomplete. You can customize the *Resource Availability Retrieval Limit* of *Booking Setup Metadata* to increase the limit. However, it can decrease the search performance.
+
+> [!NOTE]
+>  When booking outside Schedule Assistant's recommended slots, no constraints are verified or enforced including capacity, work hours, or time windows.
 
 ## Time zone for schedule assistant search results
 

@@ -16,6 +16,9 @@ ms.custom:
 
 # Add the Knowledge Base Search control to forms
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 > [!NOTE]
 > Follow the steps provided in this article for single-session apps only or to use auto search on non-anchor tabs. For multi-sessions apps, use the [knowledge search control on the app side pane](configure-knowledge-search-control-productivity-pane.md).
 
@@ -201,7 +204,7 @@ You can use the knowledge search control either on the app side pane or embed it
 
 
 
-### See also
+### Related information
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](../use/customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  

@@ -1,23 +1,25 @@
 ---
-title: Set up resource categories for Service Scheduling (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service
-ms.date: 04/04/2022
+title: Set up resource categories for Service Scheduling (Dynamics 365 Customer Service)
+description: Know how to create and set up resource categories for service scheduling in Dynamics 365 Customer Service.
+ms.date: 09/09/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - custom
+  - evergreen
 ---
 
 # Create and manage resource categories 
 
 With bookable resource categories, you can group your bookable resources by type. For example, you can create categories like technician, supervisor, subcontractor, vehicle, or equipment.
 
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)]: [Multi-resource scheduling with requirement groups](/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)
+Learn more in [Multi-resource scheduling with requirement groups](/dynamics365/customer-engagement/common-scheduler/multi-resource-scheduling-requirement-groups)
 
 ## Create a new resource category
 
@@ -35,19 +37,17 @@ You can create a new resource category in the Customer Service admin center or C
     1. In the site map, select **Service Scheduling** in **Operations**. The **Service Scheduling** page appears.
     2. In the **Resource categories** section, select **Manage**.
         
-        The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.  
+        The **Active Resource Categories** view is displayed. You can switch between various system views using the dropdown list.  
 
    ### [Customer Service Hub](#tab/customerservicehub)
 
     1. In the site map, go to **Scheduling**.
     2. From the list of entity records, select **Resource categories** in **Scheduling**.
        
-       The **Active Resource Categories** view is displayed. You can switch between various system views using the drop-down list.
+       The **Active Resource Categories** view is displayed. You can switch between various system views using the dropdown list.
 
 2. On the command bar, select **New** to create a new bookable resource category. 
-3. In the **General** section:
- 
-   - Enter a **Name** and a **Description** for the resource category
+3. In the **General** section,  provide a **Name** and a **Description** for the resource category.
 
 4. Select **Save**. A new resource category is created and is activated by default. 
 
@@ -59,15 +59,15 @@ Similarly, you can create a new requirement resource category for requirements.
 
 ## Add resources to a resource category
 
-To assign resources to a resource category:
-
 1. In the **Related** section, go to **Resource Category Associations**.
 
 2. Select **Add New Bookable Resource Category Association**. A resource category is populated. 
 
-3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either lookup for an existing resource or create a new one.
+3. Add a resource to this resource category by selecting a resource in the **Resource** box. You can either look up an existing resource or create a new one.
 
-### See also 
+
+### Related information
+
 [Service Scheduling overview](basics-service-service-scheduling.md)
 
 

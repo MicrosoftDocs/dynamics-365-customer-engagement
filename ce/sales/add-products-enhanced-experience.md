@@ -1,7 +1,7 @@
 ---
 title: Find and add multiple products to opportunity
 description: Use the enhanced experience to quickly identify and add multiple products from catalog to opportunities.
-ms.date: 04/05/2023
+ms.date: 09/09/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -47,7 +47,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 - Select and add multiple products at one go.
 
-- Add write-in products by using as few clicks as possible.
+- Add Write-in products by using as few clicks as possible.
 
 - Specify price, quantity, and any other required information as configured by your system administrator.
 
@@ -55,18 +55,20 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 ## Add products to an opportunity
 
-1. Open the opportunity to which you want to add products.
+1. In the Sales Hub site map, select **Opportunities**.
 
-2. Go to the **Product line items** tab.
+2. Open the opportunity to which you want to add products.
 
-3. Select a **Price list**. 
+3. Go to the **Products** tab.
+
+4. Select a **Price list**. 
    The price list determines the cost of the product and the products you can select.
    > [!NOTE] 
    > By default, you must select a price list to be able to add products to
    > an opportunity; however, your administrator can change the product
    > catalog settings to make the **Price list** field optional.
 
-4. Under **Revenue**, do one of the following:
+5. Under **Revenue**, do one of the following:
 
    - To calculate the estimated revenue of the opportunity based on the products that are added to the opportunity, select **System calculated**.
 
@@ -74,7 +76,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 5. In the **Products** grid, select **Add products**.
 
-   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
+   :::image type="content" source="media/enhancedAddProductsDialog.png" alt-text="Screenshot of the enhanced Add products dialog box.":::
 
    > [!NOTE]
    > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see the form interface instead of the Add products dialog, contact your system administrator to enable the experience.
@@ -92,9 +94,9 @@ As a salesperson, you want to be able to easily identify and add products from t
 
    - To add products that you have recently chosen for another entity such as opportunity, quote, order, or invoice, open the **Recently used** tab.
 
-   - To add a product or service that is not in the standard product catalog but is specific to the opportunity, open the **write in** tab and create a product on-the-fly.
+   - To add a product or service that is not in the standard product catalog but is specific to the opportunity, open the **Write in** tab and create a product on-the-fly.
     > [!IMPORTANT]
-    >Do not use the write in option for standard products and services that your organization offers.
+    >Do not use the Write in option for standard products and services that your organization offers.
 
 7. In the **Price per unit** column, do one of the following:
 
@@ -128,12 +130,12 @@ no longer relevant for the opportunity. You can remove products in two circumsta
 
 1. Open the opportunity, go to the **Products** tab.
 
-2. Select the products that you want to remove, and then select **Delete opportunity product**.
+2. Select the products that you want to remove, and then select **Delete opportunity Line**.
     The selected products will be removed from the opportunity after you confirm the deletion.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add products dialog box](customize-add-products-dialog-box.md)

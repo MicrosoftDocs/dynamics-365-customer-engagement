@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 10/26/2023
+  ms.date: 06/27/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -51,8 +51,8 @@ additionalContent:
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/customer-service/pricing/
         text: Buy Customer Service
-      - url: implement/omnichannel-provision-license.md
-        text: Provision Omnichannel for Customer Service
+      - url: /dynamics365/contact-center/implement/provision-channels
+        text: Provision channels
     - title: Set up 
       links:
       - url: implement/add-users-assign-roles.md
@@ -96,21 +96,23 @@ additionalContent:
         text: Integrate a Copilot Studio bot
       - url: administer/integrate-KM-with-PVA.md
         text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
-    - title: Configure AI features
+      - url: administer/configure-teams-meetings.md
+        text: Integrate Microsoft Teams meeting
+    - title: Configure Copilot features
       links:
       - url: administer/configure-copilot-features.md
         text: Manage copilot features in Customer Service
-      - url: administer/copilot-powerapps-settings.md
-        text: Configure copilot features for custom case forms and custom apps
-      - url: administer/csw-enable-ai-suggested-cases-knowledge-articles.md
-        text: Enable AI suggestions for similar cases and knowledge articles
+      - url: administer/copilot-enable-help-pane.md
+        text: Enable features in Copilot pane
+      - url: administer/copilot-enable-summary.md
+        text: Enable Copilot case and conversation summaries
     - title: Add-in solutions  
       links: 
       - url: /dynamics365/unified-service-desk/unified-service-desk?view=dynamics-usd-4.2
         text: Unified Service Desk
       - url: ../channel-integration-framework/channel-integration-framework.md
         text: Dynamics 365 Channel Integration Framework 
-  - title: Manage your contact center
+  - title: Use
     items:
     - title: Manage cases and solve issues within SLAs
       links:
@@ -195,8 +197,8 @@ additionalContent:
         - title: Microsoft Copilot Studio
           summary: Build chatbots easily with Copilot Studio.
           url: /power-virtual-agents/
-        - title: Digital Contact Center Platform
-          summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Copilot Studio, Azure Communication Services, and Teams to enhance and support your digital contact center.
-          url: /digital-contact-center-platform/
+        - title: Dynamics 365 Contact Center
+          summary: Learn about Microsoft Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
+          url: /dynamics365/contact-center/
 
 

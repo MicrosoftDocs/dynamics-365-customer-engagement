@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
-description: Learn how to configure a Facebook channel and corresponding Facebook pages in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+description: Learn how to configure a Facebook channel and corresponding Facebook pages.
+ms.date: 08/02/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure Facebook channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
@@ -30,7 +30,7 @@ Make sure that the following prerequisites are met:
    1. On the **What do you want your app to do?** page, select **Other**, and then select **Next**.
    1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
-   1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, you see the Page ID and the option to generate a token.
+   1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, the Page ID and the option to generate a token appear.
 - If you're using a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
 
@@ -43,6 +43,12 @@ The following Facebook roles and permissions are required for integrating your F
 - If the Facebook app that you’re using is in development mode, only those Facebook users who have roles within the app can send messages to the Facebook page. The messages can be received by or forwarded to Omnichannel for Customer Service. More information: [App roles](https://developers.facebook.com/docs/development/build-and-test/app-roles/)
 
 - For Omnichannel for Customer Service to be able to retrieve the customer’s username from Facebook, the customer must request for Business Asset User Profile Access in their Facebook app. More information: [Business Asset User Profile Access](https://developers.facebook.com/docs/features-reference/business-asset-user-profile-access)
+- 
+## Privacy notice
+
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). More information: [Connect a bot to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
 ## Configure a Facebook channel
 
@@ -135,18 +141,12 @@ After the Facebook social profile is linked to a customer or contact record by t
 
 If the customer isn't identified based on name, a new contact record can be created.
 
-The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, agents don't receive the file and see an error.
+The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, agents don't receive the file and an error displays.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")
 
-### Privacy notice
-
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). More information: [Connect a bot to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
-
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
-
-### See also
+### Related information
 
 [Facebook channel setup FAQ](facebook-channel-setup-faq.md)<br>
 [Understand and create workstreams](create-workstreams.md)<br>  

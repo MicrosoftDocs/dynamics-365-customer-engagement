@@ -11,13 +11,13 @@ ms.reviewer: nenellim
 
 # Enable formatted messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Your agents can send and receive messages formatted using Markdown.
 
 **To enable your agents to send and receive formatted messages**
 
-1. In the site map of Customer Service admin center, in **Agent experience**, select **Productivity**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
 
 1. For **Message formatting**, select **Manage**.
 
@@ -29,7 +29,7 @@ Your agents can send and receive messages formatted using Markdown.
 
 [Markdown formats for agents](../use/markdown-formats-agents.md)  
 
-### See also
+### Related information
 
 [Support for formatted messages](card-support-in-channels.md#support-for-formatted-messages)  
 [Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  

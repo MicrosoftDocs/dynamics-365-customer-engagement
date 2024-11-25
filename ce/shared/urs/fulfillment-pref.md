@@ -6,7 +6,7 @@ Intervals define the length of the times slots the schedule assistant results wi
 
 ## Time groups
 
-Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Unlike intervals, time groups don't influence the start time of subsequent booking. Unlike intervals, time groups **do not dictate the start time of subsequent bookings**. Time groups organize results, but leave the start time/arrival time as-is, based on the particular resource's schedule.
+Time groups enable schedulers to search and view results as blocks of time when using the schedule assistant. Unlike intervals, time groups don't influence the start time of subsequent booking.Time groups organize results, but leave the start time/arrival time as-is, based on the particular resource's schedule.
 
 For example, a heating and cooling company wants to group air-conditioning installations in two blocks. They create morning (8:00 AM to 12:00 PM) and afternoon (1:00 PM to 5:00 PM) blocks, with a 1-hour break for lunch in between. They communicate a morning or afternoon time range to customers for when the installation crew arrives.
 

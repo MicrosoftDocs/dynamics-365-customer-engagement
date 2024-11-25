@@ -99,7 +99,7 @@ The following error can occur for this method.
 |-----|-----|
 |1|Context provider method execution failed|
 
-### See also
+### Related information
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
 [Display custom context](../../display-custom-context.md)  

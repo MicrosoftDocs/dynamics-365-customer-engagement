@@ -3,7 +3,7 @@ title: "Install Dynamics 365 for Outlook without an Internet connection | Micros
 description: Learn how to install Dynamics 365 for Outlook without an Internet connection, such as a virtual demonstration environment.
 ms.custom:
 ms.date: 11/28/2016
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: 723e1196-cd04-4823-bb0d-2e050e2b4acd
 caps.latest.revision: 42
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType:
   - admin
   - customizer

@@ -1,7 +1,7 @@
 ---
 title: Overview of unified routing
 description: Overview of unified routing in Customer Service.
-ms.date: 02/29/2024
+ms.date: 07/01/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -10,6 +10,8 @@ ms.custom: bap-template
 ---
 
 # Overview of unified routing
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Unified routing is an intelligent, scalable, and enterprise-grade routing and assignment capability that can direct the incoming work item to the best-suited queue and agent by adhering to work item requirements and matching them with the agent’s capabilities.
 
@@ -61,7 +63,7 @@ The intelligent skill finder depends upon the custom AI Builder category classif
 > [!NOTE]
 > Unified routing is not supported in Unified Service Desk.
 
-### See also
+### Related information
 
 [How routing and assignment works](set-up-routing-process.md)  
 [Create workstreams for unified routing](create-workstreams.md)  

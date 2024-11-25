@@ -78,7 +78,7 @@ The percentage shows the average number of records that are successfully convert
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequence reporting](customize-sales-accelerator-sellers.md#sequence-reporting)    
 [Understand sales acceleration reporting](understand-sales-acceleration-reporting.md)

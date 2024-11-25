@@ -1,7 +1,7 @@
 ---
 title: Work with queues
 description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 06/06/2024
+ms.date: 07/01/2024
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
@@ -127,7 +127,7 @@ The table lists the views with their descriptions.
 
 You can also select a view for your queues by navigating through Queues. You must select an item and then select **Route** to add the required view for your queues.  
 
-### See also
+### Related information
 
 [Work with cases](customer-service-hub-user-guide-create-a-case.md)  
 

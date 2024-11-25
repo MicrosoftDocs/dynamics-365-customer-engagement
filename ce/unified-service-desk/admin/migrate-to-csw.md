@@ -1,16 +1,13 @@
 ---
 title: Migrate to Customer Service workspace
 description: Learn how to migrate from Dynamics 365 Unified Service Desk to Customer Service workspace.
-ms.date: 02/07/2023
+ms.date: 06/27/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-  - bap-template
+ms.custom: evergreen
 ---
 
 # Migrate to Customer Service workspace

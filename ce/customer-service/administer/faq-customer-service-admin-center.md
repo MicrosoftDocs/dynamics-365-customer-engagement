@@ -1,7 +1,7 @@
 ---
 title: Customer Service admin center FAQ
 description: FAQ pertaining to Customer Service admin center.
-ms.date: 06/14/2024
+ms.date: 06/21/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,7 @@ You can start using Customer Service admin center immediately if you don't have 
 
 The Omnichannel admin center app has been deprecated and therefore is hidden by default. However, the app will be visible in Power Apps.
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Overview of Customer Service](overview.md)  

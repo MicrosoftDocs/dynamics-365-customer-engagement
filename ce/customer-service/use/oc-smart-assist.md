@@ -1,7 +1,7 @@
 ---
 title: View smart assist suggestions
 description: Learn how to view smart assist suggestions in Customer Service workspace.
-ms.date: 06/08/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.collection: bap-ai-copilot
 
 # View smart assist suggestions
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Smart assist is an intelligent assistant that provides real-time recommendations to you, thereby helping you take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and the next-best steps.
 
@@ -28,7 +28,7 @@ For a macro recommendation card, if the run is successful, a success message is 
 
 When a conversation is escalated from a bot, the agent needs to accept the request and start the conversation with the customer. Now, from this instance, the smart assist bot interprets the conversation in real time and provides recommendations.
 
-## See also
+## Related information
 
 [Smart assist for agents (admin)](../administer/smart-assist.md)  
 [View smart assist suggestions using AI](oc-view-ai-suggested-cases-articles.md)  

@@ -1,8 +1,7 @@
 ---
 title: "Manage phone music in the voice channel | MicrosoftDocs"
-description: "Use this topic to understand how you can configure hold and wait music in Omnichannel for Customer Service."
+description: "Use this topic to understand how you can configure hold and wait music in Contact Center admin center."
 ms.date: 06/14/2024
-ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -11,9 +10,12 @@ ms.collection: get-started
 
 # Manage phone music
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Omnichannel for Customer Service comes with out-of-the-box music files that you can use to set hold tunes and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
+> [!NOTE] 
+> We recommend that you use the audio file formats that are supported by Azure Communication Services. Learn more at [Playing audio in call](/azure/communication-services/concepts/call-automation/play-action). 
+
+You can use the out-of-the-box music files to set hold and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
 
 You can also configure hold and wait music for each language in each of the workstreams.
 
@@ -27,11 +29,11 @@ The following characteristics are applicable to the music files.
 
 ## Edit music files
 
-You can update existing music files and replace them with your own music files in the Customer Service admin center app.
+You can update existing music files and replace them with your own music files in the Customer Service admin center or Contact Center admin center app.
 
 **To update existing music files**
 
-1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Phone Music** section, select **Manage**. The **Phone music** page is displayed.
 1. Select any music file from the list and then select **Edit**.
 1. In the **Edit phone music** dialog, you can do the following:
@@ -46,7 +48,7 @@ You can also add new music files to use them in calls as hold and wait music.
 
 **To add new music files**
 
-1.In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
+1.In the site map of Customer Service admin center or Contact Center admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 
 1.In the **Phone Music** section, select **Manage**. The **Phone music** page is displayed.
 
@@ -60,12 +62,12 @@ You can also add new music files to use them in calls as hold and wait music.
 
 ## Add hold and wait music to the workstream
 
-1. In Customer Service admin center, go to the voice workstreams, and then select the workstream to configure the phone music.
+1. In Customer Service admin center or Contact Center admin center, go to the voice workstreams, and then select the workstream to configure the phone music.
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select **Language**.
 1. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
 1. When you've finished configuring the settings, select **Confirm**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 
