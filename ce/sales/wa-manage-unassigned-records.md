@@ -15,7 +15,7 @@ ms.custom:
 
 # View assigned records and details
 
-View assigned records to reassign them to different sellers or teams. Also, yo get detailed information of the record such as, topic, owner, created on date, and error details depending on the record type. The supported default record types are leads, opportunities, contacts, and accounts.
+View assigned records to reassign them to different sellers or teams. Also, you get detailed information of the record such as topic, owner, created on date, and error details depending on the record type. The supported default record types are leads, opportunities, contacts, and accounts.
 
 ## License and role requirements
 
@@ -33,16 +33,15 @@ View assigned records to reassign them to different sellers or teams. Also, yo g
     :::image type="content" source="media/wa-home-page-unassigned-records-column.png" alt-text="Screenshot of select the monitor leads option.":::
 
     The monitor record page has the following tabs:  
-    - **To be processed**: The records that are to be processed are displayed. If any records are listed here are automatically assigned to sellers, teams, or insights by the application and might take up to two minutes.  
-    - **Processed**: The listed records are processed and assigned to segments. The columns provides information about the record such as, name, status, segment, assignment rule, and sequence.
-        The **Status** column provides information about the record such as, whether the record is connected successfully to a segment, assignment rule, and sequence or not. When successful the record is processed successfully and assigned to a segment, assignment rule, and sequence.  
-        When the status column displays **Needs attention** specifying that the record is not connected to a segment, assignment rule, or sequence due to some error. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To know more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
+    - **To be processed**: lists the records that are to be processed are displayed. Any records listed here are automatically assigned to sellers, teams, or queues by the application, and might take up to two minutes.  
+    - **Processed**: Lists the records are processed by the work assignment feature. Information of each record is displayed such as, record's name, status, along with name of  connected segment, assignment rule, and sequence (as applicable).
+        When a record isn't connected to a segment, assignment rule, or sequence, the **Status** column displays **Needs attention**. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To know more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
 
     :::image type="content" source="media/sa-ar-view-unassigned-records-view-records.png" alt-text="Screenshot of the list of unassigned lead records.":::
 
 ## View record status details
 
-When a record's status is set to **Needs attention**, it specifies that the record is not connected to a segment, assignment rule, or sequence due to an error. To view the details of the issue, open the record's status details pane. The pane provides information about the record such as, topic, owner, created on date, and error details depending on the record type. Depending on the error details and status reason, you can take [necessary actions to resolve the issue](#understand-the-status-reason-of-unprocessed-records).
+When a record's status displays **Needs attention**, specifies that the record encountered an error and failed at least one operation, such as segmentation, assignment, or sequence connection. To view the details of the error, open the record's status details pane. The pane provides information about the record such as topic, owner, created on date, and error details depending on the record type. Depending on the error details and status reason, you can take [necessary actions to resolve the issue](#analyzing-error-details-and-resolve-issues).
 
 1. In the **Processed** tab, select a record that needs attention.  
 
@@ -50,34 +49,36 @@ When a record's status is set to **Needs attention**, it specifies that the reco
     > You can only select one record at a time to view the status details.
 
 1. Select **View status details**.  
-    The details pane displays the record's information such as, topic, owner, created on date, and error details depending on the record type. For example, a lead record displays the topic, owner, created on date, assigned to, precious owner, assignment due in, error details, and status reason.
+    The details pane displays the record's information such as topic, owner, created on date, and error details depending on the record type. For example, a lead record displays the topic, owner, created on date, assigned to, precious owner, assignment due in, error details, and status reason.
 
     :::image type="content" source="media/sa-ar-view-record-status-details.png" alt-text="Screenshot of the lead record status details pane."::: 
 
-    - The **Error details** section provides information about the error that caused the record to be left unassigned. Copy the error code for for further analysis.  
-    - The **Status reason** section provides information about the reason the record was left unassigned. Depending on the status reason, you can take necessary actions to resolve the issue. For more information about the status reasons and resolution, see [Understand the status reason of unprocessed records](#understand-the-status-reason-of-unprocessed-records).
+    - The **Error details** section provides information about the error that might have prevented the record from being segmented, assigned, or connected to a sequence.  
+    - The **Status reason** section shows the reason why record didn't get segmented, left unassigned, or failed connecting to a sequence.
 
-## Understand the status reason of unprocessed records
+    Depending on the error details and status reason, you can take necessary actions to resolve the issue. For more information about the status reasons and resolution, see [Analyzing error details and resolve issues](#analyzing-error-details-and-resolve-issues).
 
-A record can remain unprocessed due to several reasons depending on the state. Analyze the status reason and error details to understand the reason the record was left unprocessed and take necessary actions to resolve the issue. Let's look at the status reasons for unprocessed records and the possible actions to resolve the issue.
+## Analyzing error details and resolve issues
+
+When a record's status displays **Needs attention**, specifies that the record encountered an error and failed at least one operation, such as segmentation, assignment, or sequence connection. Analyze the status reason and error details to understand and resolve the issue. Let's look at the status reasons and the possible actions to resolve the issue.  
 
 ### Assignment errors
 
 | Status reason | Description | Resolution |
 |---------------|-------------|------------|
 | There was an issue with the server | A problem with the server that your tenant is hosted on caused the assignment rules not to run. | The **Error details** section provides detailed information on why the issue has occurred, take appropriate action to resolve the issue.<br> For example, the error code: `Read Privilege Check For Owner failed with exception: Principal user (Id=*********-****-ef11-****-6045bd05f95c, type=8, roleCount=1, privilegeCount=40, accessMode='0 Read-Write', AADObjectId='********-****-4681-****-3248305c05df', MetadataCachePrivilegesCount=10681, businessUnitId=xxxxxxxxx-069b-xxxx-xxxx-000d3a3bd6b9), is missing prvReadmsdyn_sequencetarget privilege (Id=xxxxxxxxxxx-bde8-xxxx-xxxx-316bb7899302) on OTC=10848 for entity 'msdyn_sequencetarget' (LocalizedName='Sequence Target'). context.Caller=***********-****-ef11-****-000d3a3bd6b9. Consider adding missed privilege to one of the principal (user/team) roles.` specifies that user is missing the required privilege to run the assignment rules. Add the required privilege to the user or team to resolve the issue. |
-| Record doesn't meet any conditions | The record doesn't meet the assignment criteria. Assign it manually, create a rule that will assign it, or update the existing assignment rule for future records like it to be assigned automatically. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records). If the conditions are not met, update the conditions in the assignment rule and [run the assignment rules](#run-assignment-rules) again. |
+| Record doesn't meet any conditions | The record doesn't meet the assignment criteria. Assign it manually, create a rule that will assign it, or update the existing assignment rule for future records like it to be assigned automatically. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records). If the conditions aren't met, update the conditions in the assignment rule and [run the assignment rules](#run-assignment-rules) again. |
 | No sellers meet the conditions | No sellers met the assignment criteria when the assignment rules ran. | Make sure your assignment rules include all eligible sellers, or create one that does. Turn on the **Assign record** toggle under the **Enable for assignment** tab in the **Work assignment settings**. More information: [Stop assigning work to sellers](wa-work-assignment-manage-settings.md#stop-assigning-work-to-sellers). After resolving the issue, [run the assignment rules](#run-assignment-rules) again. |
 | Eligible sellers don't have availability | No sellers who are able to be assigned automatically were available when the assignment rules ran. | [Configure the seller availability](wa-manage-seller-availability.md) in the work assignment settings and [run the assignment rules](#run-assignment-rules) again if more sellers are available now. |
 | Eligible sellers don't have capacity | No sellers who are able to be assigned automatically could take on more work when the assignment rules ran. | Verify and [update the seller's capacity](wa-manage-seller-attributes.md) in the work assignment settings and [run the assignment rules](#run-assignment-rules) again if more sellers can accept work now. |
-| Record unassigned as seller doesn't have the necessary permissions | No sellers who are able to be assigned automatically didn't have required permissions. | Verify that the sellers have the at least read access to the record type. Update the permissions of the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| Record unassigned as seller doesn't have the necessary permissions | No sellers who are able to be assigned automatically didn't have required permissions. | Verify that the sellers have at least read access to the record type. Update the permissions of the sellers and [run the assignment rules](#run-assignment-rules) again. |
 | Seller not assigned as record is older than the set timeframe | The seller to whom the assignment rule tried to assign the record was created before the time frame specified in the rule. | Update the record creation time frame under the **Eligible *record type* for this rule** section in the [assignment rule](wa-create-and-activate-assignment-rule.md#create-an-assignment-rule) and run the [run the assignment rules](#run-assignment-rules) again. |
 | Multiple eligible teams found | Multiple eligible teams were identified to assign the record for the configured assignment rule. | Update the conditions for identifying eligible teams to ensure only one team qualifies or update the distribution algorithm to assign to any one team at random. |
 | Couldn't find eligible team | No eligible team was found to assign the record for the configured assignment rule. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records) for teams. Update the conditions in the assignment rule accordingly and [run the assignment rules](#run-assignment-rules) again. |
-| Multiple eligible queues found | Multiple eligible queues were identified to assign the record for the configured assignment rule. | Update the conditions for identifying eligible teams to ensure only one team qualifies or update the distribution algorithm to assign to any one team at random. |
+| Multiple eligible queues found | Multiple eligible queues were identified to assign the record for the configured assignment rule. | Update the conditions for identifying eligible queues to ensure only one queue qualifies or update the distribution algorithm to assign to any one queue at random. |
 | Couldn't find eligible queue | No eligible queue was found to assign the record for the configured assignment rule. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records) for queues. Update the conditions in the assignment rule accordingly and [run the assignment rules](#run-assignment-rules) again. |
 | Rules won't run for this segment | The record was previously part of a segment but was moved to a different segment where the option to run assignment rules when a record is moved is disabled. | Enable the option to run assignment rules when a record is moved under the **Previously segmented leads** section in the [**Segment properties** pane](wa-edit-a-segment.md#edit-a-segment). [Run the assignment rules](#run-assignment-rules) again. |
-| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically to the assignment rule. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Segment errors
 
@@ -85,7 +86,7 @@ A record can remain unprocessed due to several reasons depending on the state. A
 |---------------|-------------|------------|
 | Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and run the assignment rules [run the assignment rules](#run-assignment-rules) again. |
 | No matching segments | The record doesn't match any active segments. | Verify that the record meets the conditions defined in the segment and the segment is active. If the record doesn't meet the conditions, [update the conditions in the segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) and [run the assignment rules](#run-assignment-rules) again. |
-| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically to the segment. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Sequence errors
 
@@ -94,11 +95,11 @@ A record can remain unprocessed due to several reasons depending on the state. A
 | Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and run the assignment rules [run the assignment rules](#run-assignment-rules) again. |
 | Seller doesn't have necessary permissions | A seller met the sequence criteria but isn't able to be assigned automatically. | Go to the **Error details** section to view detailed information on why the error occurred. Provide at least read access to the record type to the seller and [run the assignment rules](#run-assignment-rules) again. |
 | Sequence is either deleted or inactive | The record that is trying to connect to sequence is either deleted or inactive for this segment. | Ensure that there's a connected active sequence for this segment. If the sequence is deleted or inactive, [create a new sequence](create-and-activate-a-sequence.md#create-a-sequence) and connect it to the segment. [Run the assignment rules](#run-assignment-rules) again. |
-| D365WorkAssignment app user doesn't have necessary permissions | Sellers don't have the necessary permissions to be assigned automatically to the sequence. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ## Run assignment rules
 
-After you address the [reasons for the error for records were left unassigned](#understand-the-status-reason-of-unprocessed-records), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
+After you address the [reasons for the error for records were left unassigned](#analyzing-error-details-and-resolve-issues), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
 
 1. Under **Sales accelerator**, select **Work assignment**.  
 1. Select a **Record type** to view segments of that type.  
