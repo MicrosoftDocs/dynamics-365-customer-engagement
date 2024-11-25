@@ -49,6 +49,10 @@ In the voice channel, you can configure the following features for the IVR bots:
 
 The duration of a bot-handled voice call can be one hour only. The call is disconnected if it doesn't end or escalated. The limit isn't applicable after the call is transferred to an agent or an external number.
 
+## Next steps
+
+[Configure a sample voice agent template](/dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)
+
 ### Related information
 
 [Overview of the voice channel](/dynamics365/customer-service/administer/voice-channel)  
