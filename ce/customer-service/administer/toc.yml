@@ -660,7 +660,7 @@
           href: configure-bot-azure.md   
       - name: Configure context variables for bots
         href: context-variables-for-bot.md      
-    - Feedback surveys
+    - name: Feedback surveys
       items:
       - name: Configure feedback surveys using Copilot Studio (preview)
         href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
