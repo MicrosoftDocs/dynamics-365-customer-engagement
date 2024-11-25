@@ -664,7 +664,7 @@
       items:
       - name: Configure feedback surveys using Copilot Studio (preview)
         href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Enable feedback on voice call quality
+      - name: Enable voice call experiences
         href: configure-end-of-call-survey.md
       - name: Configure post-call survey
         href: voice-channel-survey.md
