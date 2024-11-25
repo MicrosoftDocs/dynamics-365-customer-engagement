@@ -1,20 +1,21 @@
 ---
 title: Configure macros to improve agent productivity
-description: "This article provides information about the different macros that can be made available to agents and how to configure them in app profile manager."
-author: neeranelli
-ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 05/06/2024
+description: This article provides information about the different macros that can be made available to agents and how to configure them in app profile manager.
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: mgandham
+ms.date: 05/23/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Configure macros to improve agent productivity
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 In the customer service industry, agents have to click often to perform simple tasks, such as open a form, fill, and save it, and many repetitive and monotonous actions, such as greeting and verifying a customer, sending acknowledgment mail, and taking notes. These clicks and repetitive tasks can lead to human errors when agents copy and paste the data across different operations.
 
 Macros are a set of sequential actions that a user performs. They enable users to perform daily operations efficiently in a fast and process-compliant manner. You can reuse macros with different sessions based on the context parameters that are specific to the session.
-
 
 ## Prerequisites
 
@@ -71,15 +72,15 @@ When an agent opens a case, conversation, or another tab in the session, the ses
  
 - **Case**: The case is the anchor tab or the first tab of the session. The session context is populated with the attributes and values from the case record and is stored in the browser memory. Examples of session context variables populated from the case record as follows:  
 
-   `${anchor.incidentid}`: 6194b723-7e5f-eb11-a812-000d3a1a658a 
-   `${anchor.ticketnumber}`: CAS-47732-V4V6K6 
-   `${anchor.title}`: A Mineral Build Up in Water Supply
-   `${anchor.createdon}`: 2022-12-14T23:03:24Z 
-   `${anchor.prioritycode}`: 2
-   `${anchor.prioritycode@OData.Community.Display.V1.FormattedValue}`: Normal 
-   `${anchor._customerid_value}`: f5973462-768e-eb11-b1ac-000d3ae92b46 
-   `${anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`: contact 
-   `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`: Claudia Mazzanti 
+   `${anchor.incidentid}`: 6194b723-7e5f-eb11-a812-000d3a1a658a  
+   `${anchor.ticketnumber}`: CAS-47732-V4V6K6  
+   `${anchor.title}`: A Mineral Build Up in Water Supply  
+   `${anchor.createdon}`: 2022-12-14T23:03:24Z  
+   `${anchor.prioritycode}`: 2  
+   `${anchor.prioritycode@OData.Community.Display.V1.FormattedValue}`: Normal   
+   `${anchor._customerid_value}`: f5973462-768e-eb11-b1ac-000d3ae92b46   
+   `${anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`: contact   
+   `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`: Claudia Mazzanti   
 
   > [!NOTE]
   > The session context is populated with values from the anchor tab only.
@@ -88,19 +89,19 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 
 - **Conversations**: The session context is populated with the conversation attributes from the channel provider and is stored in the browser cache. For example, the session context variables are populated as follows for an incoming chat conversation:  
 
-   `${Email}` : claudiamazzanti@crmdemo.dynamics.com
-   `${LiveWorkItemId}` : 57e4323e-a93f-4c30-b8e8-b075ab5d71cc 
-   `${customerEntityName}` : contact 
-   `${customerName}` : Claudia Mazzanti 
-   `${customerRecordId}` : f5973462-768e-eb11-b1ac-000d3ae92b46 
-   `${queueId}`: 6b189e87-e09b-eb11-b1ac-000d3af4e3f9 
-   `${visitorLanguage}` : en-us 
+   `${Email}` : claudiamazzanti@crmdemo.dynamics.com 
+   `${LiveWorkItemId}` : 57e4323e-a93f-4c30-b8e8-b075ab5d71cc  
+   `${customerEntityName}` : contact  
+   `${customerName}` : Claudia Mazzanti  
+   `${customerRecordId}` : f5973462-768e-eb11-b1ac-000d3ae92b46  
+   `${queueId}`: 6b189e87-e09b-eb11-b1ac-000d3af4e3f9  
+   `${visitorLanguage}` : en-us  
 
  You can also retrieve a value from a related record using oData query. For example, you can retrieve the email address from the customer record on a case with this query,`${$odata.contact.emailaddress1.?$filter=contactid eq '{customerRecordId}'} `.
 
 - **Additional tabs**: Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record ID as follows: 
  
-    `${Session.CurrentTab.entityId}` : 0e8642d7-c2ae-ea11-a812-000d3a1b14a2 
+    `${Session.CurrentTab.entityId}` : 00aa00aa-bb11-cc22-dd33-44ee44ee44ee 
     `${Session.CurrentTab.entityName}` : account 
   With the entity ID, you can retrieve other values in the record through the following oData query `${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
 
@@ -110,7 +111,7 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 [Use omnichannel connector to create macros](macros-omnichannel-action.md)    
 [Flow connector](macro-flow-connector.md)  
     
-### See also
+### Related information
 
 [Use automation dictionary to pass data parameters keys](automation-dictionary-keys.md)  
 [Agent scripts](agent-scripts.md)  

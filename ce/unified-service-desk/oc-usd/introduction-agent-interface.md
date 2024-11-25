@@ -1,13 +1,15 @@
 ---
 title: "Agent interface overview | MicrosoftDocs"
 description: "Learn about the agent interface in Omnichannel for Customer Service on Unified Service Desk."
-ms.date: 06/05/2020
+ms.date: 06/27/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Introduction to the agent interface in Omnichannel for Customer Service
 

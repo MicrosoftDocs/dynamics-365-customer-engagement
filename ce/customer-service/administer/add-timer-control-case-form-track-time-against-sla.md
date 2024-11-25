@@ -192,7 +192,7 @@ More information: [Understand SLA details with Timer control](../use/customer-se
   
    - You can add a timer control to any Main or Main - Interactive experience form of other entities, but timer controls are not displayed in [!INCLUDE[pn_moca_full](../../includes/pn-moca-full.md)].  
   
-### See also  
+### Related information  
 
 [Configure service level agreements](define-service-level-agreements.md)
 

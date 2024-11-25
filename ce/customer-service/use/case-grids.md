@@ -1,7 +1,7 @@
 ---
-title: "Manage cases with case grids | MicrosoftDocs"
-description: "Learn how to work with case grids and increase agent productivity. "
-ms.date: 07/03/2023
+title: Manage cases with case grids 
+description: Learn how to work with case grids and increase agent productivity.
+ms.date: 08/01/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -16,21 +16,24 @@ ms.collection: get-started
 
 # Manage cases with case grids 
 
-The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. More information: [Key features](../administer/enable-case-grids.md#key-features)
+The modernized case grids help you increase your productivity by providing quick access to information, such as last customer interaction, case age, and the next SLA breach. You can perform inline edits and quick operations with minimal clicks, thereby managing cases quickly and efficiently. Key features include:
+
+- The **Enhanced Active Cases** view is available by default with additional fields such as **Case Age**, **Next SLA**, **Is escalated**, and **Last Interaction**.
+- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for Owner appear in all the case views.
 
 ## Columns on the Enhanced Active Cases view
 
-To be able to view the modernized case grids, your administrator must enable the **Enhanced Active Cases** view. More information: [Enable case grids](../administer/enable-case-grids.md)
+The **Enhanced Active Cases** view displays the following fields:
 
 > [!NOTE]
-> Enabling the **Enhanced Active Cases** view will alter the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
+> - Enabling the **Enhanced Active Cases** view as the default view alters the **modifiedon** and **modifiedby** fields on the case entity. We recommend that you avoid using these fields for reporting.
 
-The following table explains the enhancements to the **Enhanced Active Cases** view columns when you enable the **Power Apps grid control**, compared with other grids, such as the **Read Only Grid**.
+>    :::image type="content" source="../media/case-grids-new-mini.png" alt-text="Screenshot of the default case grid at runtime." lightbox="../media/case-grids-new.png":::
 
-|Column  |Experience with Power Apps grid control |Experience with other grids  |
+|Column  |Default experience |Experience with other grids  |
 |---------|---------|---------|
 |Origin    |Shows the Origin Icon followed by the text for all the views on Case Grid. The Origin column is editable on double-click. You can sort and filter the data. | Only the text appears, without any icons.| 
-|Priority   | Shows the color-coded Priority icon followed by the text for all the views on Case Grid. The Priority column is editable on double-click. You can sort and filter the data.<br> **Note**: The colors displayed for the **Priority** and **Case status** fields have changed as an early access feature.|Only the text appears, without any icons.|
+|Priority   | Shows the color-coded Priority icon followed by the text for all the views on Case Grid. The Priority column is editable on double-click. You can sort and filter the data.|Only the text appears, without any icons.|
 |Owner  | Shows the profile image of the Owner, if available; otherwise shows the initials followed by the Owner name as text. The Owner column is editable on double-click. You can sort and filter the data.| Only the owner’s name appears without any profile image or initials.    |
 |Last Interaction    | Shows the last activity and the action performed on that activity&mdash;for example, **Note Added** for standard activities. For custom activities, only the created or updated status is shown. Selecting it opens the corresponding activity’s form. This data is read-only. You can't sort or filter the data. Additionally, if the activity has an attachment, you can see an attachment icon next to the activity. Displaying the Last Interaction column doesn’t affect the **modifiedon** and **modifiedby** fields.|  No text appears. |
 |Next SLA   | Searches through all active, that is, non-canceled SLA KPI instances attached to the given case, filters, and then picks the SLA KPI instance that's in an unresolved state and has the earliest expiry time. If the expiry time is in the past, it indicates that there's an expired SLA instance associated with the case. The SLA KPI instance name isn't shown along with the timer control. The unsupported properties of the SLA timer control are negative timer, customized labels, upgrade frequency, and auto-refresh. The Next SLA column is read-only. You can sort the data but can't filter it. Calculating Next SLA for cases results in updates to the **modifiedon** and **modifiedby** fields on the case entity. If you want to disable Next SLA, you must contact Microsoft Support.| The SLA timer doesn't appear. Only the value assigned to **Next SLA** field in the back end appears, which includes details such as name of SLA instance and expiry/warning time.|
@@ -73,7 +76,7 @@ You can also add columns to your existing views. For example, if you want to add
 1.	Select **Last Interaction**, and then select **Close**. **Last Interaction** appears in the **Edit columns** dialog.
 1.	Select **Apply**. If you want to change the sequence of the columns, select **Move up**, and then select **Apply**.
 
-### See also
+### Related information
 
 [Enable case grids](../administer/enable-case-grids.md)
 [Enable entities for service-level agreements](../administer/enable-entities-service-level-agreements.md)  

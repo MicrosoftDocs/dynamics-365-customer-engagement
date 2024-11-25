@@ -1,16 +1,13 @@
 ---
 title: "Categories and operations in Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn about the operations and categories based on which the Unified Service Desk performance report is generated using the Unified Service Desk Performance Analyzer."
-ms.date: 10/31/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-
+ms.custom: evergreen
 ---
 
 # Public Preview: Categories and operations

@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/02/2024
+ms.date: 07/01/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -46,11 +46,11 @@ After the feature is enabled, any new emails sent to multiple mailboxes are conv
 
 - If older email records have an existing **Active** case set as **Regarding**, no new case gets created when a reply email arrives, even if a new mailbox is added. The replied email gets associated with an existing case, and **Regarding** is set to the existing active case. The **Related** field remains empty, as no case was created.  
 
-- If older email records have an existing **Resolved** case set as **Regarding**, and the **Wait for a specific amount of time after the connected case has been resolved** option is set to **YES**, and a reply email arrives after the time mentioned in the **Select the amount of time** setting, a new case is created. The related attribute of the reply email is populated with the newly created case. If the reply email is sent to multiple mailboxes, multiple cases are created and the related field is populated with multiple cases. The Regarding field for the reply email is set to blank.
+- If older email records have an existing **Resolved** case set as **Regarding**, and the **Wait for a specific amount of time after the connected case has been resolved** option is set to **YES**, and a reply email arrives after the time mentioned in the **Select the amount of time** setting, a new case is created. The related attribute of the reply email is populated with the newly created case. If the reply email is sent to multiple mailboxes, multiple cases are created and the related field is populated with multiple cases. The **Regarding** field for the reply email isn't set. However, the **Regarding** field for the previous correlated email isn't impacted.
 
 The following flowchart explains how automatic record creation rules work to create multiple cases from an email sent to multiple mailboxes.
 
-:::image type="content" source="../media/arc_process_flow.png" alt-text="Screenshot of automatic record creation process flow":::
+:::image type="content" source="../media/arc-process-flow.png" alt-text="Screenshot of automatic record creation process flow":::
 
 ### Recommendations
 
@@ -100,7 +100,7 @@ The following flowchart explains how automatic record creation rules work to cre
         
           - Select **Save and Publish**.
 
-## See also
+## Related information
 
 [How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
 

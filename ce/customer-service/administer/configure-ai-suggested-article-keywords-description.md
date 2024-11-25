@@ -60,29 +60,19 @@ Ensure to meet the following requirements:
 
 ## Enable AI suggestions for article keywords and description
 
-You can enable AI suggestions for article keywords and description in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+You can enable AI suggestions for article keywords and description in the Customer Service admin center app by performing the following steps:
 
 1. Go to the **Insights** page.
 
-### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-  - In the site map, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
   
-### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+1. On the Insights page, in the **Suggestions for knowledge article authors** section, select **Manage**. The **Suggestions for knowledge article authors** page appears.
 
-  [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
+1. On the **Settings** tab in the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area in **Knowledge article data fields**.
 
-  - In the site map, go to **Service Management**, and select **Settings** in **Insights**. The **Insights** page appears.
+1. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
 
----
-
-2. On the Insights page, in the **Suggestions for knowledge article authors** section, select **Manage**. The **Suggestions for knowledge article authors** page appears.
-
-3. On the **Settings** tab in the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area in **Knowledge article data fields**.
-
-4. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
-
-5. Select **Save**.
+1. Select **Save**.
 
    :::image type="content" source="../media/configure_suggest-article-keywords-description.png" alt-text="Configure AI-suggested article keywords and description.":::
 
@@ -110,7 +100,7 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 1. Select **Save** and **Publish**.
 
-### See also
+### Related information
 
 [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md)  
 [Work with knowledge articles](work-knowledge-articles.md)  

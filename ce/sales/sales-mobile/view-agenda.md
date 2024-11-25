@@ -137,7 +137,7 @@ Notes and reminders are displayed within the corresponding connected record. [Vi
 
 To view only the notes attached to the connected record, tap ![View notes on the connected record.](media/view-notes.png "View notes on the connected record") on the connected record card.
 
-### See also   
+## Related information   
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Manage contacts](create-contact.md)   

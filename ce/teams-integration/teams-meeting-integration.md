@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams meeting integration in Dynamics 365
 description: Learn how to create and join a Teams meeting from Dynamics 365.
-ms.date: 07/22/2022
+ms.date: 06/28/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais

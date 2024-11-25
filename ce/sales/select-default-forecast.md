@@ -32,7 +32,7 @@ If your organization has configured multiple forecasts, save your users time and
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]]
+[!INCLUDE [cc-preview-note-sales](../includes/cc-preview-note-sales.md)]]
 
 ## Select a forecast to be displayed by default
   
@@ -52,6 +52,6 @@ If your organization has configured multiple forecasts, save your users time and
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [View a forecast](view-forecasts.md)

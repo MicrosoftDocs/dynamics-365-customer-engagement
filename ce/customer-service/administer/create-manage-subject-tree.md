@@ -26,25 +26,14 @@ The search control for the subject tree entity is available by default for out-o
 
 [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
-You can create or edit a subject in the Customer Service admin center or Customer Service Hub app.
+You can create or edit a subject in the Customer Service admin center app.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-     1. In the **Subjects** section, select **Manage**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-     1. In the site map, select **Service Management**.
-     2. Select **Subjects** in **Case Settings**. 
+1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the **Subjects** section, select **Manage**.
   
-2. On the **Subject tree** page, in the **Subject tree management** area, select **Add**.  
+1. On the **Subject tree** page, in the **Subject tree management** area, select **Add**.  
   
-3. In the **Create a subject** dialog, enter the following information:  
+1. In the **Create a subject** dialog, enter the following information:  
   
     - **Title**: Type a name for the subject.
   
@@ -52,13 +41,13 @@ You can create or edit a subject in the Customer Service admin center or Custome
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the Visibility toggle if you want the subject to be available for the agent.
+    - Switch on the **Visibility** toggle if you want the subject to be available for the agent.
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 
-4. Select **Save and close**.
+1. Select **Save and close**.
 
-5. To edit a subject, select a subject, and then select **Edit**. You can also select **More commands** to display the actions, such as **Edit** or **Add**, that you can take for the selected subject.
+1. To edit a subject, select a subject, and then select **Edit**. You can also select **More commands** to display the actions, such as **Edit** or **Add**, that you can take for the selected subject.
 
     > [!NOTE]
     > If you select a subject in the subject tree and select **Add**, clear the selection in the **Parent subject** box to make it a parent subject. Otherwise, the new subject will be added as a child of selected subject.
@@ -82,10 +71,9 @@ You can select **Open old subject management page** to use the older experience.
 > [!NOTE]
 > We recommend that you create not more than 1,000 subjects including child subjects to avoid performance issues.
 
-### See also
+### Related information
 
-[Overview of case management](overview-cases.md)  
-[Enable search control for the subject entity](../search-control-for-subjects.md)  
+[Overview of case management](overview-cases.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -4,8 +4,8 @@ description: Learn about multi-resource scheduling with requirement groups in Dy
 ms.date: 10/18/2023
 ms.topic: how-to
 ms.custom: bap-template
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Schedule work with multiple requirements using requirement group

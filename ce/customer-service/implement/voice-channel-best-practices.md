@@ -1,18 +1,20 @@
 ---
 title: Best practices for setting up the voice channel
-description: Learn about the best practices for setting up the voice channel in Omnichannel for Customer Service.
+description: Learn about the best practices for setting up the voice channel.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/18/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Best practices for setting up the voice channel
 
-Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in Omnichannel for Customer Service. The requirements might vary based on the overall configuration and size of your contact center.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+Use the information in this article to set up the hardware and software for an optimal performance of the voice channel in your contact center. The requirements might vary based on the overall configuration and size of your contact center.
 
 ## Hardware configuration
 
@@ -34,6 +36,6 @@ The software settings to ensure seamless integration are as follows:
 
 **Firewall and security**: [Add the URLs and IP addresses to the allowlist](system-requirements-omnichannel.md#allow-access-to-websites) to allow communication between your system and the Omnichannel servers and prevent any security-related issues during your interactions. Make sure that the firewall configuration aligns with the [guidelines](/azure/communication-services/concepts/voice-video-calling/network-requirements#firewall-configuration) in Azure Communication Services.
 
-### See also
+### Related information
 
 [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements)

@@ -750,7 +750,7 @@ See msdyn_livechatconfig Entity [msdyn_livechatconfig_msdyn_questionsequence](ms
 
 See msdyn_surveyquestion Entity [msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion](msdyn_surveyquestion.md#BKMK_msdyn_msdyn_surveyquestion_msdyn_questionsequence_SurveyQuestion) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

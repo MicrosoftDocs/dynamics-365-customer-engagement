@@ -1,7 +1,7 @@
 ---
 title: Text messaging FAQs
 description: Get answers to frequently asked questions about text messaging.
-ms.date: 04/23/2024
+ms.date: 07/19/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -17,6 +17,10 @@ ms.custom:
 # Text messaging FAQs
 
 This article answers frequently asked questions about text messaging in Dynamics 365 Sales and Sales premium.
+
+## Why can't I see the SMS feature in my sales app?​
+
+Before you can see the SMS feature, an administraton must [configure SMS provider it in your sales app](configure-sms-provider.md) and necessary [permissions are granted](sms-intro.md#permissions-required). Also, ensure that your organization is in the [supported regions](sms-intro.md#in-which-regions-is-the-text-message-feature-available).​
 
 ## Which service providers are supported?
 

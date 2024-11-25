@@ -34,7 +34,7 @@ Opportunities, quotes, sales orders, and invoices are all part of the sales proc
 |<xref:Microsoft.Crm.Sdk.Messages.GetSalesOrderProductsFromOpportunityRequest>|Retrieves the products from an opportunity and copies them to the specified sales order.|  
 |<xref:Microsoft.Crm.Sdk.Messages.GetInvoiceProductsFromOpportunityRequest>|Retrieves the products from an opportunity and copies them to the specified invoice.|  
   
-### See also  
+## Related information  
  [Opportunity Tables](opportunity-entities.md)   
  [Creating an Opportunity](create-opportunity.md)   
  [Quote, Order and Invoice Tables](quote-order-invoice-entities.md)   

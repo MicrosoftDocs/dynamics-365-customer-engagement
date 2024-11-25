@@ -1,16 +1,18 @@
 ---
-title: Use productivity automation macros 
+title: Create productivity automation macros 
 description: Learn about how to use productivity automation macros in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 05/06/2024
+ms.date: 07/29/2024
 ms.custom: bap-template 
 ---
 
-# Use productivity automation macros
+# Create productivity automation macros
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
  You can automate the following tasks with productivity automation macros: 
 
@@ -93,19 +95,19 @@ Opens an existing record form. The action contains the following fields.
 
 ### Example 1: Open the product record from an existing case
 
-To create a macro to open the product record from an existing case, add the **Open an existing record** action that reads the product id from the case, with the following attributes: 
+To create a macro to open the product record from an existing case, add the **Open an existing record** action that reads the product ID from the case, with the following attributes: 
    - **Entity logical name**: `product`
    - **Entity record ID**: `${anchor._productid_value}` 
  
 ### Example 2: Open the customer record from a conversation 
 
-To create a macro to open a customer record from an ongoing conversation, add the **Open an existing record** action that reads the customer id from the conversation, with the following attributes:
+To create a macro to open a customer record from an ongoing conversation, add the **Open an existing record** action that reads the customer ID from the conversation, with the following attributes:
   - **Entity record ID**: `${customerEntityName}` 
   - **Entity logical name**: `${customerRecordid}`
 
 ## Autofill form fields
 
-Updates form fields. The macro action doesn't automatically save new values in Dataverse until the form triggers the auto-save. You can use another macro action to save the record. Alternatively, you can use the **Update existing record** macro based on your business requirements. This action applies to the form in focused tab and has the same entity type mentioned in action.  
+Updates form fields. The macro action doesn't automatically save new values in Dataverse until the form triggers the autosave. You can use another macro action to save the record. Alternatively, you can use the **Update existing record** macro based on your business requirements. This action applies to the form in focused tab and has the same entity type mentioned in action.  
 
 
    | Field | Description | 
@@ -113,7 +115,7 @@ Updates form fields. The macro action doesn't automatically save new values in D
    | Entity logical name | Specify the logical name of the entity that you want to update. | 
 
 > [!NOTE]
-> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record ID, record type, and record name as separate attributes for a single lookup.
 
 ### Example 1: Open a task form and populate form fields from case
 
@@ -145,13 +147,13 @@ Updates an existing record. The action contains the following fields.
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This is a mandatory field. | 
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
+   | Entity logical name |  Specify the logical name of the entity that you want to update. <br> This field is mandatory. | 
+   | Entity record ID| Specify the entity record ID. <br>This field is mandatory.| 
    | Attribute Name | Specify the attribute logical name you want to update.|
-   | Attribute Value | Specify the attribute value that is updated for the above-mentioned attribute. |
+   | Attribute Value | Specify the attribute value that's updated for the above-mentioned attribute. |
 
 > [!NOTE]
-> This macro requires a specific pattern to set lookup values. You will need to pass the related record id, record type, and record name as separate attributes for a single lookup.
+> This macro requires a specific pattern to set lookup values. You will need to pass the related record ID, record type, and record name as separate attributes for a single lookup.
 
 ### Example 1: Open a task form, create the task, then update the record
 
@@ -160,7 +162,7 @@ Perform the following steps to create a macro that opens the task form and creat
 1. Add the **Open a new form to create a record** action that opens a task record, with the following parameters:
      - **Entity logical name**:`task`
 1. Add the **Save the record** action.
-1. Add the **Update an existing record** that populates the new task record with record id and logical name from the dynamics content (obtained after the save record action) and the regarding object based on values from the anchor tab, with the following attributes: 
+1. Add the **Update an existing record** that populates the new task record with record ID and logical name from the dynamics content (obtained after the save record action) and the regarding object based on values from the anchor tab, with the following attributes: 
    - **Entity record ID**: `Entity record ID`
    - **Entity logical name**: `Entity logical name`
    - **Attribute Name**: regardingobjectid_incident@odata.bind
@@ -177,16 +179,16 @@ Use the action to resolve a case. The action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Billable time |  Specify the time that is billable. <br> This is a mandatory field. | 
-   | Incident ID| Specify the ID of the case that you want to close. <br>This is a mandatory field.| 
-   | Resolution | Specify the reason to resolve the case. <br> This is a mandatory field. | 
+   | Billable time |  Specify the time that is billable. <br> This field is mandatory. | 
+   | Incident ID| Specify the ID of the case that you want to close. <br>This field is mandatory.| 
+   | Resolution | Specify the reason to resolve the case. <br>This field is mandatory. | 
 
 
 ### Example: Macro to resolve a case
 
-Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so additional steps are recommended for a better user experience.
+Perform the following steps to create a macro that resolves a case. When agents resolve a case using macro, the tab isn't automatically refreshed, so more steps are recommended for a better user experience.
 
-1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record id that needs to be resolved, with the following attributes:
+1. Add the **Action to resolve case** action to pass the billable time as a numeric value and the Incident ID is the record ID that needs to be resolved, with the following attributes:
   - **Incident ID**: `${anchor.incidentid}`
   - **Billable time**: 0
   - **Resolution**: `Case${anchor.ticketnumber}` resolved via macros
@@ -200,11 +202,10 @@ This action is used to open an email with a predefined template. The action cont
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name |  Specify the logical name of the entity. <br> This is a mandatory field. | 
-   | Entity record ID| Specify the entity record ID. <br>This is a mandatory field.| 
-   | Email recipients | Specify the recipients to whom you want the mail to be sent. <br> This is a mandatory field. | 
-   | Template ID | Specify the ID of the template that must be displayed in the email. <br> This is a mandatory field. | 
-
+   | Entity logical name | Specify the logical name of the entity to which email is being sent. <br>This field is mandatory.| 
+   | Entity record ID | Specify the record ID of the entity record to which email is being sent.<br>This field is mandatory.| 
+   | Email recipients | Specify the display name of the record to which email is being sent. <br>This field is mandatory.| 
+   | Template ID | Specify the email template ID of the type of entity to which email is being sent and that must be displayed in the email. <br>This field is mandatory.|
 
 > [!NOTE]
 > The **Email recipients** field requires a parameter but doesn't automatically map to a user in the form. We recommend that you use the **autofill form fields** macro to populate the values accordingly. 
@@ -212,8 +213,8 @@ This action is used to open an email with a predefined template. The action cont
 ### Example 1: Open an email template from a case
 
 Perform the following steps to create a macro that opens an email template of category case:
-1. Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
-   - **Template Id** : Specify the ID of the required email template.
+1. Add the **Open an email form with predefined template** action that adds the template based on the template ID and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
+   - **Template Id**: Specify the ID of the required email template.
    - **Entity Record ID**: `${anchor.incidentid}`
    - **Email recipients**: `${anchor._customerid_value@OData.Community.Display.V1.FormattedValue}`
    - **Entity Logical Name**: `incident` 
@@ -227,8 +228,8 @@ Perform the following steps to create a macro that opens an email template of ca
 ### Example 2: Open an email template from a conversation
 
 Perform the following steps to create a macro that opens an email template of category contact:
-1. Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
-   - **Template Id** : Specify the ID of the required email template.
+1. Add the **Open an email form with predefined template** action that adds the template based on the template ID and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
+   - **Template Id**: Specify the ID of the required email template.
    - **Entity Record ID**: `${customerRecordId}`
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
@@ -243,8 +244,8 @@ Perform the following steps to create a macro that opens an email template of ca
 
 Perform the following steps to create a macro that opens an email template of category case, and sets multiple recipients in the To field of the email:
 
-1. Add the **Open an email form with predefined template** action that adds the template based on the template id and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
-   - **Template Id** : Specify the ID of the required email template.
+1. Add the **Open an email form with predefined template** action that adds the template based on the template ID and populates the email form with **To** and **Regarding** fields. The attributes are as follows:
+   - **Template Id**: Specify the ID of the required email template.
    - **Entity Record ID**: `${customerRecordId}`
    - **Email recipients**: `${customerName}`
    - **Entity Logical Name**: `${customerEntityName}` 
@@ -280,7 +281,7 @@ Opens a knowledge base article. The action contains the following field.
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br> This is a mandatory field.|  
+   | Entity record ID  | Specify the entity ID of the knowledge base article that you want to open. <br>This field is mandatory.|  
 
 ### Example: Open a knowledge base article passing a GUID
 
@@ -292,9 +293,9 @@ This action is used to open a record grid. The action contains the following fie
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br> This is a mandatory field. | 
-   | View ID| Specify the ID of the view that you want to open.<br> This is a mandatory field. | 
-   | View type | Specify the view type. <br>This is a mandatory field. | 
+   | Entity logical name |  Specify the logical name of the entity for which you want to open the grid. <br>This field is mandatory. | 
+   | View ID| Specify the ID of the view that you want to open.<br>This field is mandatory. | 
+   | View type | Specify the view type. <br>This field is mandatory. | 
   
 
 ### Example 1: Open a list of products
@@ -315,7 +316,7 @@ Searches knowledge articles based on the populated phrase. The action contains t
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br> This is a mandatory field.  |  
+   | Search string |  Provide the phrase based on which you want to do a relevance search. You can provide the context data. For example, the context data parameter can be a case title. <br>This field is mandatory..  |  
 
 ### Example 1: Search for cases with same case title
 
@@ -323,11 +324,11 @@ To create a macro that uses a case title to search for similar cases, add the **
 
 ## Clone current record
 
-Clones an existing record that's open in the current tab. The action only copies the fields and does not save the record. The action contains the following field.
+Clones an existing record that's open in the current tab. The action only copies the fields and doesn't save the record. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
-   | Record title | Specify the title of the record that you want to clone. <br> This is a mandatory field. | 
+   | Record title | Specify the title of the record that you want to clone. <br>This field is mandatory. | 
 
 ### Example: Create a child case using clone current record 
 
@@ -348,8 +349,8 @@ Clones an existing record. The action only copies the fields and doesn't save th
    | Field | Description | 
    |-----------------|-----------------------------|
    |Record title| Specify the record title.|
-   | Entity record ID | Specify the ID of the entity record. <br> This is a mandatory field.|
-   | Entity logical name | Specify the logical name of the entity that you want to clone. <br> This is a mandatory field. |
+   | Entity record ID | Specify the ID of the entity record. <br>This field is mandatory.|
+   | Entity logical name | Specify the logical name of the entity that you want to clone. <br>This field is mandatory. |
  
  
 ### Example: Create a child case using clone input record
@@ -365,11 +366,11 @@ Perform the following steps to create a macro to clone an existing case. The exi
    - **Attribute Value**: `[{"id": "${anchor.incidentid}","name":"${anchor.title}","entitytype":"incident"}]`
    - **Attribute Name**: ticketnumber
    - **Attribute Value**:  
-1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>|
+1. Add the **Save the record** action to generate and set the ticketnumber for the child case.</li></ol>
 
 ## Set Agent Script focus
 
-Sets the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The action contains the following field.
+Sets the focus on an agent script that needs to run next. The agent script is set in focus in the **Agent scripts** dropdown on the app side pane. For example, if the agent needs to process a refund complaint. The agent uses different scripts to greet, initiate a complaint request, and process the refund. You can define macros that set the focus on the agent scripts that need to be run for each stage of the refund process. The agent script in focus must be associated with the session template. The action contains the following field.
 
    | Field | Description |
    |-----------------|-----------------------------|
@@ -378,6 +379,7 @@ Sets the focus on an agent script that needs to run next. The agent script is se
 ### Example: Update the priority of a case and set focus to another agent script
 
 Perform the following steps to create a macro that updates the priority of a case to high and then switches to another agent script.
+
 1. Add the **Update an existing record** action with the following attributes:
     - **Entity record ID**: `${anchor.incidentid}`
     - **Entity logical name**: `incident`
@@ -388,7 +390,7 @@ Perform the following steps to create a macro that updates the priority of a cas
 
 ## Save the record
 
-Saves the record after you've entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
+Saves the record after you entered data in all the mandatory fields. The action fails if the mandatory fields aren't entered or are left blank.
 
 ## Next Steps
 

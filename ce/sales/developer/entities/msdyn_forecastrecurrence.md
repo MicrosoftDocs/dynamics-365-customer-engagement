@@ -904,7 +904,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See the [msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence](msdyn_forecastdefinition.md#BKMK_msdyn_msdyn_forecastdefinition_msdyn_forecastrecurrence) one-to-many relationship for the [msdyn_forecastdefinition](msdyn_forecastdefinition.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

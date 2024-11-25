@@ -1,15 +1,14 @@
 ---
 title: "Next tag (JavaDDA) in Unified Service Desk | MicrosoftDocs"
 description: "Learn how the Next tag (JavaDDA) works in Unified Service Desk. Also find a code snippet that shows how to use the tag."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Next tag (JavaDDA) in Unified Service Desk
 You can use the `<Next>` element to set the search pointer to the next UI element with the matching caption. If you use `<Next/>`, the search navigates to the next node within the tree. The `<Next/>` tag navigates down the tree branches, not among siblings within one node of the tree. To navigate within the tree node, use the `match` and `offset` attributes. This topic describes the attributes of `<Next>` tag.  

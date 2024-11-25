@@ -10,6 +10,9 @@ ms.custom: bap-template
 ---
 # Manage voicemails
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 As an agent, you can access the voicemails recorded by customers on your direct inward dial number or through work items that have been routed to you.
 
 ## Manage the voicemails that you receive

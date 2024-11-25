@@ -35,7 +35,7 @@ Here's a sample `errorEvent` object that's raised when the context provider meth
 }
 ```
 
-### See also
+### Related information
 
 [Live chat SDK reference](../omnichannel-reference.md)  
 [Developer guide](../omnichannel-developer.md)  

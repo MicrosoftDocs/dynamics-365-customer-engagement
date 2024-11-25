@@ -1952,7 +1952,7 @@ See the [Opportunity_OpportunityClose](opportunity.md#BKMK_Opportunity_Opportuni
 
 See the [competitor_opportunity_activities](competitor.md#BKMK_competitor_opportunity_activities) one-to-many relationship for the [competitor](competitor.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

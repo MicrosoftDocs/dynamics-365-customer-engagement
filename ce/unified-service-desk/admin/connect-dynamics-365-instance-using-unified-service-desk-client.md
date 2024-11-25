@@ -1,15 +1,13 @@
 ---
 title: Connect to a model-driven app using Unified Service Desk client 
 description: Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk.
-ms.date: 02/27/2024
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 
@@ -25,8 +23,6 @@ If you want to configure the sign-in experience, such as by prepopulating values
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog, provide authentication details to connect to your Dataverse server.
-
-   ![Unified Service Desk client sign-in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
 
    - For Dataverse, select **Microsoft 365**.  
 

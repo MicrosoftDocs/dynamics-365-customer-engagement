@@ -1,17 +1,16 @@
 ---
-title: Sales Hub app versus custom app
-description: Learn when to use the Sales Hub app or a custom app.
-ms.date: 04/26/2022
+title: Sales Hub app versus a custom app
+description: Learn when to use the Sales Hub app or a custom app for your sales implementation. Understand how app releases handle customizations and how to revert changes to the Sales Hub app.
+ms.date: 06/25/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ---
 
-# Sales Hub app versus custom app
+# Sales Hub app versus a custom app
 
 Sales Hub is a Microsoft first-party app that's designed around the sales processes that most organizations follow. If your organization has unique selling processes, you can customize the Sales Hub app or create a custom app from scratch. Use the following table to help you decide when to use Sales Hub and when to create a custom app:
-<!-- Please change the title/H1 and all references to it to "Sales Hub or a custom app?" or "Sales Hub versus a custom app" -->
 
 | **Factors to consider** | **Sales Hub** | **Custom app** |
 | --- | --- | --- |
@@ -23,8 +22,7 @@ Sales Hub is a Microsoft first-party app that's designed around the sales proces
 | **Customizations**  | Customizations aren't overwritten by updates | The customer has full control of customizing the app, including navigation and user experience |
 | **New feature availability** | Instant | Adding UI elements and controls required for new features is solely the customer's responsibility, and some new features may not be available immediately |
 
-## When to customize the Sales Hub app and when to create custom app
-<!-- Please change this heading to "...and when to create a custom app" -->
+## When to customize the Sales Hub app and when to create a custom app
 
 Every sales implementation has unique considerations that influence the application strategy.
 
@@ -67,14 +65,13 @@ To help make sure that app updates don't overwrite Sales Hub customizations:
     - [Understand how managed solutions are merged](/power-platform/alm/how-managed-solutions-merged)
     - [Best practices and guidance for developers](/power-apps/developer/data-platform/best-practices/)
 
-## How to revert changes to Sales Hub app
-<!-- Please change the heading to "...changes to the Sales Hub app" or "...changes to Sales Hub" -->
+## How to revert changes to the Sales Hub app
 
 You can't automatically revert changes to the Sales Hub app. You have to manually undo them.
 
 For example, let's say you've removed an entry (such as Cases) from the site map and you want to add it back. You have to manually add the entry to the sitemap. For more information, see [Customize the app](manage-app.md#customize-the-app).
 
-### See also
+## Related information
 
 - [Use the Sales Hub app to access Dynamics 365 Sales features](intro-saleshub.md)
 - [Build your first model-driven app](/power-apps/maker/model-driven-apps/build-first-model-driven-app)

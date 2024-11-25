@@ -17,7 +17,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Omnichannel for Customer Service dashboards
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -64,7 +64,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
 
-### See also
+### Related information
 
 [Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)  
 [Manage bookmarks](manage-bookmarks.md)  

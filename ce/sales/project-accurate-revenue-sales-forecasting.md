@@ -71,7 +71,7 @@ Use the following URLs to add the forecast site map to your custom app and perfo
 | Forecast grid          | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage`  |
 | Forecast configuration | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig` |
 
-### See also
+## Related information
 
 [Configure a forecast](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

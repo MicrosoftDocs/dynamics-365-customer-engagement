@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
 description: Learn how to turn on all preview features in Sales to access preview features before their official release.
-ms.date: 05/08/2024
+ms.date: 08/05/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -20,9 +20,9 @@ ms.collection: bap-ai-copilot
 
 Instead of turning on Copilot preview features in Dynamics 365 Sales individually, you can turn them all on at once. This article describes how to do that, and lists the Copilot preview features that are available.
 
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Copilot preview features
 
@@ -35,9 +35,8 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
-| Document summarization | [Summarize documents or proposals associated with a record](copilot-get-information.md#copilot-doc-summarization) to understand the key points. |
-| Natural language chat | [Chat with Copilot in natural language (preview)](use-sales-copilot.md#chat-with-copilot-in-natural-language-preview) <br> Copilot can understand natural language and respond to your questions. |
-| Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-in-full-screen-view-preview) when you want more space and focus to chat with Copilot and ask questions. |
+| Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-immersive) when you want more space and focus to chat with Copilot and ask questions. |
+| Account summarization | [Summarize an account in your organization](copilot-get-information.md#summarize-an-account) |
 
 ## Turn on all Copilot preview features
 

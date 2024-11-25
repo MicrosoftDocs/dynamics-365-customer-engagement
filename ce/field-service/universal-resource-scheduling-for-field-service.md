@@ -4,8 +4,8 @@ description: Learn all about Universal Resource Scheduling for Dynamics 365 Fiel
 ms.date: 12/22/2023
 ms.custom: bap-template
 ms.topic: overview
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 

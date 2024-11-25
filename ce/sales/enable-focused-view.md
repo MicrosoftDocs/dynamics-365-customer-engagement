@@ -38,7 +38,7 @@ You must have the **System Administrator** or similar security role to perform t
 
    Focused view is now enabled for your organization.  
 
-### See also
+## Related information
 
 [Configure focused view as default](set-focused-view-as-default.md)  
 [View and manage records in focused view](focused-view.md)

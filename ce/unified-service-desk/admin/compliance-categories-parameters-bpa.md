@@ -1,13 +1,15 @@
 ---
 title: "Best practice rule categories and parameters | MicrosoftDocs"
 description: "Learn about the categories under which the parameters are classified. Best Practices Analyzer performs the analysis of these parameters and displays a report."
-ms.date: 04/24/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
+ms.custom: evergreen
 ---
+
 # List of rule categories and parameters
 
 The list shows the parameters under each category that [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] analyzes.

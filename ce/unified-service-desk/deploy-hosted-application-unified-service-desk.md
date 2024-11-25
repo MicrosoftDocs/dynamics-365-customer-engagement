@@ -1,15 +1,14 @@
 ---
 title: "Deploy the hosted application to Unified Service Desk | MicrosoftDocs"
 description: "Learn how to deploy hosted applications to Unified Service Desk, and also verify your application deployment. "
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Deploy the hosted application to Unified Service Desk
 
@@ -25,9 +24,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
    ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
 2. In the next dialog box, enter Dataverse server name and your credentials.  
-  
-   ![Publish to dialog box.](../unified-service-desk/media/usd-deploy.png "Publish to dialog box")  
-  
+    
 3. If there is more than one organization, check the **Display list of available organizations** check box and select **Login**.  
   
 4. Select your organization from the list of organizations displayed and select **OK**.  

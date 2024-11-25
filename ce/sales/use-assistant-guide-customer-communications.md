@@ -107,7 +107,7 @@ When you open the assistant, it displays the name and basic description of each 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure the assistant](configure-assistant.md)  
 [Turn on or off the insight cards](turn-on-off-insight-cards.md)  

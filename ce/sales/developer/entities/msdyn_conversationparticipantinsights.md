@@ -1093,7 +1093,7 @@ See the [msdyn_msdyn_conversationparticipantinsights_Con](msdyn_conversationaggr
 
 See the [msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User](contact.md#BKMK_msdyn_msdyn_conversationparticipantinsights_contact_msdyn_User) one-to-many relationship for the [contact](contact.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

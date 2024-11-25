@@ -328,7 +328,7 @@ function OnSave(executionContext){
 }
 ```
 
-### See also
+## Related information
 
 [Customize underlying records grid](../../../forecast-configure-advanced-settings.md#customize-underlying-records-grid)
 

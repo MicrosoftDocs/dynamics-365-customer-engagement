@@ -3,7 +3,7 @@ title: Markdown formats for agents
 description: Read this article to know about the Markdown formats that agents can use for chat messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 11/03/2023
+ms.date: 06/14/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ms.reviewer: nenellim
@@ -11,18 +11,17 @@ ms.reviewer: nenellim
 ---
 # Markdown formats for agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-In Omnichannel for Customer Service, you can use Markdown to format messages when you interact with customers over chat and social channels.
+
+You can use Markdown to format messages when you interact with customers over chat and social channels.
 
 > [!NOTE]
-> You can use Markdown in chat and social channels only if your administrator has enabled the Markdown settings under **Agent experience** in the Customer Service admin center or Omnichannel admin center (deprecated) app. More information: [Enable formatted messages](../administer/enable-formatted-messages.md)
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+> You can use Markdown in chat and social channels only if your administrator has enabled the Markdown settings under **Agent experience** in the Customer Service admin center or Contact Center admin center app. More information: [Enable formatted messages](../administer/enable-formatted-messages.md)
 
 ## Markdown formats for chat messages
 
-The following table lists the Markdown formats that you can use for your chat messages in Omnichannel for Customer Service. 
+The following table lists the Markdown formats that you can use for your chat messages in the application. 
 
 |  Text style               |    You type...                       | The text displays as...  |
 | ------------------------- | -------------------------------      | -----------------------  |
@@ -41,13 +40,16 @@ The following table lists the Markdown formats that you can use for your chat me
 > [!NOTE]
 > Currently, we don't support the **<Shift + Enter>** key combination to add multiple line breaks.
 
+> [!NOTE]
+> If you copy and paste formatted content from an external source, it might not persist in the chat. The input text that the agent sends must be in Markdown for the output to be rendered as required.
+
 Formatted messages are supported in channels such as Microsoft Teams, WhatsApp, Facebook, Telegram, and custom channels that use Direct Line.
 
 ## Next steps
 
 [Support for formatted messages](../administer/card-support-in-channels.md#support-for-formatted-messages)
 
-### See also
+### Related information
 
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)  

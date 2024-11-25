@@ -1,15 +1,14 @@
 ---
 title: "UII computer telephony integration (CTI) framework overview | MicrosoftDocs"
 description: "Learn about the UII computer telephony integration (CTI) framework and its components in Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # UII computer telephony integration (CTI) framework
 The [!INCLUDE[pn_user_inteface_integration_uii](../includes/pn-user-interface-integration-uii.md)][!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] framework allows businesses or organizations to connect [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)]-based desktops (such as [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)]) with their [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] infrastructure. Although a [!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] system typically refers to telephony integration with software systems, the [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)][!INCLUDE[pn_cti_acronym](../includes/pn-cti-acronym.md)] framework can be used for any communications channel available to an organization.  

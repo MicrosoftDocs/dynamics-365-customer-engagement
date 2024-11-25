@@ -2,15 +2,15 @@
 title: "System requirements, limits, and configuration values for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
-ms.date: 05/02/2024
-ms.reviewer: sericks
+ms.date: 05/14/2024
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
@@ -132,6 +132,7 @@ If the Dynamics 365 App for Outlook uses Server-side synchronization to track an
 -  [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported on [Microsoft 365 shared mailbox](https://support.office.com/article/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd).
 - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported in configurations that have Dynamics 365 apps and Microsoft 365 (Exchange Online) in different tenants.
 - Windows 7 had reached [end of life](https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information) and is no longer a supported client OS for Dynamics 365 App for Outlook.
+- Conditional access policies on mobile devices, like Android and iOS devices, are not supported.
 
 
 

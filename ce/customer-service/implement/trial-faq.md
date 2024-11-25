@@ -1,7 +1,7 @@
 ---
 title: Trial FAQ - Dynamics 365 Customer Service
 description: Solutions to common questions related to Dynamics 365 Customer Service trial setup and management. Learn how to resolve platform and app-specific issues.
-ms.date: 05/10/2024
+ms.date: 05/27/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -40,15 +40,21 @@ The following limitations apply for the trial:
 
 ## Customer Service-specific questions
 
+### Which languages do the Copilot Studio copilots support in the trial version?
+
+In the trial version, the Copilot Studio copilots are available in the English language only.
+
 ### What features are available in the trial?
 
 The environment you receive in trial is a fully functional, Power Platform environment with the following out-of-the-box capabilities:
 
 - Dynamics 365 Customer Service Enterprise
   - Customer Service workspace with AI-powered case and knowledge suggestions, knowledge search, and agent scripts with macros for common tasks automation
-  - Case management, knowledge management, unified routing, email
+  - Case management, knowledge management, email
 - Digital Messaging and Voice Channel for Dynamics 365 Customer Service
-  - Chat, voice, and other digital messaging channels
+  - Chat, voice, and other digital messaging channels, and unified routing
+    > [!NOTE]
+    > The enhanced voice experience isn't available in the trial version.
 - Power Apps
   - To create app profiles, configure templates, customize the solution
 - Copilot Studio
@@ -93,7 +99,7 @@ For the list of geographical regions supported in Omnichannel for Customer Servi
 
 For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
 
-### See also
+### Related information
 
 [Try Customer Service](try-customer-service.md)  
 [Overview of Customer Service workspace](csw-overview.md)  

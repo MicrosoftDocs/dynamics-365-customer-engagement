@@ -1,7 +1,7 @@
 ---
-title: "Create or edit invoices in Dynamics 365 Sales"
-description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
-ms.date: 05/07/2024
+title: Create and manage invoices
+description: An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately.
+ms.date: 07/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,11 +16,12 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Create or manage invoices
+# Create and manage invoices
 
 When a customer places an order, you can create an invoice to bill them for the upcoming sale. Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -77,18 +78,6 @@ When a customer places an order, you can create an invoice to bill them for the 
 
 8.  Select **Save and Close**.
   
-
-## Lock or unlock prices of an invoice
-
-**Lock Pricing** locks the price for a product in an open invoice. Even if the price changes in the product catalog, the invoice remains at the agreed price.
-
-1.  Open an invoice.
-
-2.  To lock the price, on the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), and select **Lock Pricing**.
-
-3. To unlock the price, select **Use Current Pricing**. When you select this option, the price of the product in the invoice is updated if the price of the product changes in the product catalog.  
-    
-
 ## Close an invoice
 
 You close an invoice either by canceling the invoice or setting the invoice status as paid. To do this, open the invoice you want to close, and on the command bar, select **Cancel Invoice** or **Invoice Paid**.
@@ -109,7 +98,7 @@ When you’ve added all the details to the invoice, you can directly email the i
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)  
 [Print quote, invoice, or other records](print-records.md)   

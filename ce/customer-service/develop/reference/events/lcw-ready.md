@@ -23,7 +23,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 
 ```  
 
-### See also
+### Related information
 
 [lcw:startChat](lcw-startchat.md)   
 [lcw:closeChat](lcw-closechat.md)  

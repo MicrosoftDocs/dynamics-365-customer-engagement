@@ -1,5 +1,5 @@
 ---
-title: Customer Service admin center (contains video)
+title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
 ms.date: 10/24/2023
 ms.topic: conceptual
@@ -16,11 +16,7 @@ Welcome to Customer Service admin center, the app that unifies and simplifies ad
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
-The enhancements include:  
-
-- Consolidated administration experiences that're currently distributed in the Customer Service Hub and Omnichannel admin center (deprecated) app.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+The features include:  
 
 - Step-by-step guided experience for setting up a channel.
 
@@ -127,7 +123,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 See the [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
-### See also
+### Related information
 
 [Help resources for Customer Service](../help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  

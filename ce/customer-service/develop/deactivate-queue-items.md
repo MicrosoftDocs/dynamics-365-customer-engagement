@@ -1,8 +1,8 @@
 ---
-title: "Close live work items or deactivate queue items| MicrosoftDocs"
-description: "Sample code to close live work items or deactivate queue items"
-ms.date: 04/15/2021
-ms.topic: article
+title: Close live work items or deactivate queue items
+description: Sample code to close live work items or deactivate queue items.
+ms.date: 07/31/2024
+ms.topic: reference
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -12,6 +12,7 @@ search.audienceType:
   - developer
   - customizer
 ---
+
 # How to close live work items or deactivate queue items
 
 You can use the following sample code in your Console App (.NET framework) of Visual Studio to trigger the closure of live work items by deactivating the associated queue item.
@@ -65,11 +66,11 @@ For information about how you can modify the sample code to suit your environmen
 
 
 
-### See also
+### Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Set up unified routing](../administer/set-up-routing-process.md)  
-[How unified routing affects queue items and the corresponding APIs](unified-routing-impact-on-APIs.md) 
+[How unified routing affects queue items and the corresponding APIs](unified-routing-impact-on-APIs.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

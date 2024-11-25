@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: overview 
-ms.date: 06/23/2023
+ms.date: 05/17/2024
 ms.custom: bap-template
 ---    
 
@@ -19,3 +19,9 @@ For account and contact records, you can also view activities from Dynamics 365 
 
 Open a record to view the timeline control and the activities related to the record. You can sort and filter the timeline based on your preferences.
 [Learn more about timelines](/power-apps/user/add-activities).
+
+## Related information
+
+- [Set up the timeline control](/power-apps/maker/model-driven-apps/set-up-timeline-control)
+- [Use timeline highlights powered by generative AI](/power-apps/user/add-activities#use-timeline-highlights-powered-by-generative-ai)
+

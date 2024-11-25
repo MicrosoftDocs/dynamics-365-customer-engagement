@@ -16,6 +16,8 @@ ms.custom:
 
 # Review macro run history
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occurred.
 
 ## View macro run history

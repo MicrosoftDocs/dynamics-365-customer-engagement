@@ -12,7 +12,11 @@ ms.custom: bap-template
 
 # Take notes specific to conversation
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 ## Take notes
 
@@ -30,7 +34,7 @@ When you're working on multiple customer sessions, and while capturing notes, yo
 
 Again, when you switch back to the session, launch the notes panel and take the notes. After you add the notes, these notes are appended to the previously added notes in the timeline.
 
-### See also
+### Related information
 
 - [View conversation and session activity types in the model-driven apps](oc-view-activity-types.md)
 - [View Communication panel](oc-conversation-control.md)

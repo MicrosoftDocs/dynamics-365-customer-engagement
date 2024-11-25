@@ -1,13 +1,16 @@
 ---
 title: Enable the detection of duplicate leads
-description: Enable duplicate lead detection to help sellers identify and address potential duplicate leads and keep the leads database clean.
+description: Discover how to enable duplicate lead detection in sales, helping sellers identify and address potential duplicates for improved efficiency.
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-manager: shujoshi
 ms.topic: how-to
-ms.date: 04/13/2023
-ms.custom: bap-template 
+ms.date: 06/27/2024
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/27/2024
 ---
 
 # Enable duplicate lead detection 
@@ -26,10 +29,10 @@ Enable duplicate lead detection to help your sellers identify and address potent
 
 The duplicate detection capability helps sellers to check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
 
--	Same email address 
--	Same phone number  
--	Similar lead name and company name 
--	Similar lead name and the same email domain   
+- Same email address  
+- Same phone number  
+- Similar lead name and company name  
+- Similar lead name and the same email domain  
 
 Further, sellers can compare and remove the duplicate leads in the organization. More information: [Manage duplicate leads](manage-duplicate-leads.md)
 
@@ -41,23 +44,21 @@ Further, sellers can compare and remove the duplicate leads in the organization.
 
 ## Enable the duplicate detection feature
 
-1.	At the lower-left corner of the Sales Hub app, select **Change area** ![Change area icon](media/change-area-icon.png) > **App Settings**.
-2.	On the site map, select **Data improvement** > **Duplicate detection**.
+1. At the lower-left corner of the Sales Hub app, select **Change area** ![Change area icon](media/change-area-icon.png) > **App Settings**.
+1. On the site map, select **Data improvement** > **Duplicate detection**.
 
-    >[!div class="mx-imgBorder"]
-    >![Duplicate detection enablement page](media/lead-enable-duplicate-detection-page.png "Duplicate detection enablement page")    
+    :::image type="content" source="media/lead-enable-duplicate-detection-page.png" alt-text="Screenshot of duplicate detection enablement page.":::
 
-3.	Turn on the **Enable rules** toggle.
+1. Turn on the **Enable rules** toggle.
 
-    >[!div class="mx-imgBorder"]
-    >![The duplicate detection feature is enabled](media/lead-duplicate-detection-feature-enabled.png "The duplicate detection feature is enabled")    
+    :::image type="content" source="media/lead-duplicate-detection-feature-enabled.png" alt-text="Screenshot of enabling the duplicate detection feature.":::
 
 ## Trouble in identifying duplicate leads?
 
-If the duplicate detection feature isn't working, do the following steps:    
+If the duplicate detection feature isn't working, do the following steps:  
 
 1. Turn off the feature.
-2. Ensure that the following requirements are met:
+1. Ensure that the following requirements are met:
     - [Enable Dataverse search](#enable-the-dataverse-search)
     - [Enable the required fields for leads](#enable-the-required-fields-for-leads)
     - [Activate the required processes](#activate-the-required-processes)
@@ -102,7 +103,9 @@ Verify the following processes are in active state:
 To go to the **Processes** page, follow these steps:     
 
 1. In the web app, go to **Settings** > **Advanced Settings**.
-2. On the **Advanced Settings** page, select **Settings** > **Process Center** > **Processes**.
+
+2. On the **Advanced Settings** page, select **Process Center** > **Processes**.
+
 
 ### Provide read permissions for process
 
@@ -111,7 +114,8 @@ More information: [Security roles and privileges](/power-platform/admin/security
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable duplicate lead detection for custom forms](enable-duplicate-detection-custom-forms.md)   
 [Manage duplicate leads](manage-duplicate-leads.md)  
+

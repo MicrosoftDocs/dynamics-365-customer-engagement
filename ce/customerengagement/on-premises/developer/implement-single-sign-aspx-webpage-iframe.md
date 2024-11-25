@@ -46,7 +46,7 @@ This topic describes how to develop a custom webpage that can make SDK calls to 
  This scenario is for use with Dynamics 365 Customer Engagement (on-premises) where [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] hosts a custom webpage that’s optionally displayed in an inline frame of the Dynamics 365 Customer Engagement (on-premises) web application. This scenario uses federated claims, provided by the [!INCLUDE[pn_Windows_Live](../includes/pn-windows-live.md)] security token service (STS) server for identity management. You must provide a certificate to be used when making Dynamics 365 Customer Engagement (on-premises) and the [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] website relying parties, which established cross-domain trust between these parties.  
   
 ### Background information  
- For more information about how to configure a relying party, see the following topic: [Secure Azure Web Role ASP.NET Web Application Using Access Control Service v2.0](https://social.technet.microsoft.com/wiki/contents/articles/2590.aspx)  
+ For more information about how to configure a relying party, see the following topic: [Secure Azure Web Role ASP.NET Web Application Using Access Control Service v2.0](/archive/technet-wiki/2590.secure-azure-web-role-asp-net-web-application-using-access-control-service-v2-0)  
   
  For more information about identity management, see [https://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse](https://channel9.msdn.com/Learn/Courses/IdentityTrainingCourse)  
   

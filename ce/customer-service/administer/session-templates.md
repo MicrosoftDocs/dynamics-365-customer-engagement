@@ -4,16 +4,18 @@ description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: shujoshi
-ms.date: 12/18/2023
+ms.date: 05/23/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Manage session templates
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 A session template is a combination of attributes and application tab information that can be reused.
 
-In Omnichannel for Customer Service app, when an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Active Conversation** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
+In the Customer Service workspace app, when an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Active Conversation** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
 Session templates are used to define the aforementioned session experience, such as:
 
@@ -29,7 +31,7 @@ You can create session templates in Customer Service admin center or use the out
 
 The out-of-the-box session template for using in Customer Service workspace is Case entity session - default template.
 
-The following out-of-the-box session templates are of the generic type and are for use in the Omnichannel for Customer Service app:
+The following out-of-the-box session templates are generic and are for use in the Customer Service workspace app:
 
 - Case entity session - default template
 - Chat session - default
@@ -64,6 +66,7 @@ The following out-of-the-box session templates are of the generic type and are f
     | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br> <ul><li> **Docked**: The panel will be in expanded mode. </li> <li> **Minimized**: The panel will be in minimized mode. <li> **Hidden**: The panel will be hidden. </ul> <br> **Note**: For an entity routing session—that is, for a case session—the communication panel mode is hidden. | Docked |
     | General | Session Icon| Select an icon to represent the channel from which the conversation is initiated so that your agent can visually identify the channel.<br> **Note**:<ul><li>Is available for generic type of templates only.</li><li>A web resource file for the icon must be deployed.</li> <li> You can use a web resource file only and not slugs to customize the session icon.</li><li>GIF files aren't supported.</li> </ul> | WhatsApp.ico|
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
+    | General |Apply session title to anchor tab | Apply the customized session title to anchor tab title. | Yes. |
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
     | General | Anchor tab | Select an application from the list. The application is opened by default when the session starts and can't be closed. <br> **Note:** The anchor tab option is displayed only when **Type** is generic. | Customer summary |
 
@@ -89,7 +92,7 @@ You can associate application tabs that need to open when a session is started. 
 
 The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage application tab templates](application-tab-templates.md)  

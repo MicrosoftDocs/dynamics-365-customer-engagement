@@ -1,8 +1,8 @@
 ---
 title: Service territories for accounts, work orders, and resources.
 description: Learn how to use territories for accounts, work orders, and scheduling in Dynamics 365 Field Service.
-ms.date: 05/06/2024
-ms.topic: article
+ms.date: 05/28/2024
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ---

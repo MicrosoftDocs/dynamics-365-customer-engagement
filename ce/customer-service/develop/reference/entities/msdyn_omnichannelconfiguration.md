@@ -1034,6 +1034,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

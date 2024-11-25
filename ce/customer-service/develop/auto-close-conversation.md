@@ -10,8 +10,6 @@ ms.custom: bap-template
 ---
 # Configure automatic closure of conversations using web API
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
 This article demonstrates how you can configure the auto-close duration of a conversation using the Web API.
 
 > [!IMPORTANT]
@@ -142,7 +140,7 @@ The value defined for the **Block capacity for wrap-up** field in the workstream
 
 [Update an entity using Web API](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)  
 
-### See also
+### Related information
 
 [Automatic closure of conversations](../administer/auto-close-conversation-powerapps.md)
 

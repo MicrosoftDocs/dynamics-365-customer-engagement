@@ -1,7 +1,7 @@
 ---
-title: Publish, revise, revert, retire, and activate products--product lifecycle (Dynamics 365 Sales)
+title: Publish, revise, revert, retire, and activate products (product lifecycle)
 description: Programmatically control the product lifecycle through the draft, active, under revision, and retired states.
-ms.date: 03/01/2023
+ms.date: 06/28/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -17,8 +17,8 @@ By default, a product record is in the **Draft** state when you create it, and i
  You can also use the **Sales** tab in the system settings area in Dynamics 365 Sales or [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)] to specify whether products are created in an active state. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
  Furthermore, you can revise, revert, retire, and activate your product records to maintain your product catalog as per your business requirements. The following illustration shows the state transitions of a product when you perform various operations on a product record in Dynamics 365 Sales.  
-  
- ![Product lifecycle and state transitions.](../media/crm-sdk-product-life-cycle.png "Product lifecycle and state transitions")  
+
+:::image type="content" source="../media/crm-sdk-product-life-cycle.png" alt-text="Screenshot of product lifecycle and state transitions.":::
   
  ***Activate\\**** : The activate operation is applicable for certain type of product records only. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Activate a product or kit record](publish-revise-revert-retire-activate-products.md#Activate)  
   
@@ -119,7 +119,7 @@ RevertProductResponse reverted = (RevertProductResponse)_serviceProxy.Execute(re
 > [!NOTE]
 >  You can’t activate a retired product family or a retired bundle record.  
   
-### See also  
+## Related information  
  [Manage Product Pricing](product-pricing-methods.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   
  [Product catalog tables](product-catalog-entities.md)
