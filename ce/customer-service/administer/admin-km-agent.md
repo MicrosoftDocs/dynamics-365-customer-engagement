@@ -17,7 +17,7 @@ ms.custom: bap-template
 Customer knowledge management agent lets you autonomously turn cases and case-related conversations, emails, and notes into knowledge articles that can support your contact center operations. 
 
 ## Prerequisites
-- 
+
 - You are using the out-of-the-box case entities.
 - You have configured [Dynamics 365 knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#configure-knowledge-management).
 - You’ve enabled Dynamics 365 knowledge base to be indexed by Copilot. You can utilize the internal knowledge base resources only for generating responses. Learn more in [Configure knowledge sources](copilot-enable-help-pane.md#configure-knowledge-sources).
