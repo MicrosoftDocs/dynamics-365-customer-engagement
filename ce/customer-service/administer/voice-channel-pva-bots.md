@@ -51,7 +51,7 @@ The duration of a bot-handled voice call can be one hour only. The call is disco
 
 ## Next steps
 
-[Configure a sample voice agent template](/dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)
+[Configure a sample voice agent template](/dynamics365/contact-center/administer/bot-scenario-configure)
 
 ### Related information
 
