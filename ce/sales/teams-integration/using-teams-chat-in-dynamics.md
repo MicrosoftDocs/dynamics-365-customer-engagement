@@ -1,7 +1,7 @@
 ---
 title: "Use Microsoft Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and connect them to records"
-ms.date: 07/18/2024
+ms.date: 11/26/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
