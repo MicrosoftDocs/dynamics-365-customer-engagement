@@ -9,7 +9,7 @@ ms.author: jshum
 
 # Run reports on inspection responses
 
-Create reports or dashboards, for example, in Power BI to analyze and act based on the inspection responses provided by technicians. Once enable, all responses entered for an inspection are stored in Microsoft Dataverse and can be parsed into individual question responses.
+Create reports or dashboards, for example, in Power BI to analyze and act based on the inspection responses provided by technicians. Once enabled, all responses entered for an inspection are stored in Microsoft Dataverse and can be parsed into individual question responses.
 
 The questions and responses are saved into the following Dataverse tables:
 
@@ -18,6 +18,12 @@ The questions and responses are saved into the following Dataverse tables:
 - **Customer Voice survey question response** or 'msfp_questionresponse': Each individual response to each inspection question.
 
 Each image uploaded in inspections is stored as an annotation in the *Inspection Attachments* table. They can be [retrieved using flows](#create-a-flow).
+
+## Prerequisites
+
+- You have admin privileges in Dynamics 365 Field Service
+- You have access to Microsoft Power Apps
+- You have access to Microsoft Power Automate
 
 ## Enable analysis on inspection responses
 
