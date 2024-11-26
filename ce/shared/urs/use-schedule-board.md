@@ -30,12 +30,12 @@ Switch between hourly, daily, weekly, and monthly views of the board. Choose the
 
 ### View type
 
-- **Gantt**: A type of bar chart that illustrates a schedule. It shows activities displayed against time. The position and length of an activity reflects the start date, duration, and end date.
+- **Gantt**: A Gantt chart is a type of bar chart that illustrates a schedule. Use it to show activities over time. The position and length of an activity reflects the start date, duration, and end date.
 - **List**: Shows resources in a list. Expanding a resource shows the selected time granularity in the selected time frame. You can change columns in the list.
 
 ### Date range
 
-Set the time frame that shows on the board. Use the arrows to move between time frames.
+Set the time frame that shows on the board. Use the arrows to move between time frames. Weeks start on Sundays.
 
 ### Book
 
@@ -70,7 +70,7 @@ Change the date to see the map for a different day. Zoom out of the map to see g
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route.
 
-On each resource pin associated with a user, an indicator icon in the lower-right corner represents how long ago the resource's location was detected. Green indicates that the user logged on and was detected since the start of the current day. A grey question mark indicates that the location was last detected yesterday or earlier.
+On each resource pin associated with a user, there's an indicator icon representing how long ago the resource's location was detected. Green indicates that the user was seen since the start of the current day. A grey question mark indicates that the location was last detected yesterday or earlier. 
 
 ### Refresh board
 
@@ -121,7 +121,7 @@ Right-click the booking on th schedule board and select **Move to**. Reassign th
 
 ## Change Time Granularity
 
-You can change the time granularity of the schedule board either by adjusting the slider on the bottom right or by using browser zooming keyboard shortcuts. For example, ctrl+scroll or pinching a trackpad.
+You can change the time granularity of the schedule board. Use the slider on the bottom right or the browser zoom keyboard shortcuts (for example, Ctrl+scroll or pinching a trackpad).
 
 ## Create a new schedule board tab
 

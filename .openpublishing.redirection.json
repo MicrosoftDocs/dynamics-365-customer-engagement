@@ -25159,6 +25159,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/teams-integration/teams-personal-use.md",
+      "redirect_url": "teams-integration",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/sales/sales-mobile/use-dictation.md",
       "redirect_url": "/dynamics365/sales/sales-mobile/dynamics-365-sales-mobile-app",
       "redirect_document_id": false
@@ -25920,6 +25925,11 @@
     {
       "source_path": "ce/customer-service/troubleshoot-case-email-issue.md",
       "redirect_url": "/troubleshoot/dynamics-365/customer-service/email/incoming-email-not-converted-case",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/voice-channel-multi-language-contact-center.md",
+      "redirect_url": "/contact-center/administer/configure-multilingual-bots",
       "redirect_document_id": "false"
     },
     {
