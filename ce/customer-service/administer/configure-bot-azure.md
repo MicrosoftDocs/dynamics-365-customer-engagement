@@ -4,6 +4,7 @@ description: Use this article to understand how to integrate Azure bots in the c
 ms.date: 12/14/2023
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection:
 ms.topic: how-to
 ms.custom: bap-template

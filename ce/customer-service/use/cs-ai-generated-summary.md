@@ -5,6 +5,7 @@ ms.date: 01/18/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.collection: bap-ai-copilot
 ---
 

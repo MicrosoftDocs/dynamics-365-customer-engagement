@@ -3,7 +3,7 @@ title: Integration of Nuance Cloud IVR bot with Customer Service
 description: Learn about the integration of Nuance Cloud IVR bot with Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: overview 
 ms.collection:  
 ms.date: 10/27/2023

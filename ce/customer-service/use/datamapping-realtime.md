@@ -3,7 +3,7 @@ title: Data model mapping for real-time analytics reports in Omnichannel for Cus
 description: Learn about data model mapping for real-time analytics reports.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 07/05/2024

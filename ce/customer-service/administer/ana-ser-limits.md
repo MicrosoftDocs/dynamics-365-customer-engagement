@@ -3,7 +3,7 @@ title: Service limits for analytics and insights
 description: Ensure reliability and stability of the service with built-in limits for analytics and insights. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 03/13/2024

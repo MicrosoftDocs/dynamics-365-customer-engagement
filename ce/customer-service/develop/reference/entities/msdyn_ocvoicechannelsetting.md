@@ -5,6 +5,7 @@ ms.date: 11/01/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 ---
 
 # msdyn_ocvoicechannelsetting Entity Reference

@@ -5,7 +5,7 @@ ms.date: 07/01/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ms.custom: bap-template
 ---
 

@@ -5,6 +5,7 @@ ms.date: 11/12/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Configure relevance search for transcripts 
 

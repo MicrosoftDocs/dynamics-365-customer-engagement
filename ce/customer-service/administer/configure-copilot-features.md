@@ -3,7 +3,7 @@ title: Enable Copilot features in Customer Service
 description: Learn how to enable the various Copilot features in Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.date: 03/28/2024
 ms.custom: bap-template 

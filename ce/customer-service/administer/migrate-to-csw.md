@@ -3,7 +3,7 @@ title: Migrate from the Omnichannel for Customer Service agent app to Customer S
 description: Learn how to migrate to Dynamics 365 Customer Service workspace from removed or deprecated apps.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms-service: dynamics-365
 ms.topic: how-to
 ms.date: 10/29/2024

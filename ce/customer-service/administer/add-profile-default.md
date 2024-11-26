@@ -3,7 +3,7 @@ title: Add users to agent experience profiles
 description: Learn about adding a default profile and mapping agent profiles to security roles.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.date: 02/02/2024
 ms.custom: bap-template 

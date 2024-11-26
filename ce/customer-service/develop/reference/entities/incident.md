@@ -5,7 +5,7 @@ ms.date: 11/10/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 ---

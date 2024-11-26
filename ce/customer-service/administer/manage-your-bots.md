@@ -3,7 +3,7 @@ title: Manage your bots
 description: Learn how you can quickly configure bots in the Customer Service admin center.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: 
 ms.date: 05/31/2024

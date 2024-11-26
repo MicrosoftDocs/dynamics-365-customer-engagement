@@ -5,7 +5,7 @@ ms.date: 04/06/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: shujoshi
+ms.reviewer: mgandham
 search.audienceType: 
   - developer
 ---
