@@ -1,7 +1,7 @@
 ---
 title: Close opportunities as won or lost
 description: Close the opportunity to indicate whether it was won or lost. You can reopen it in future if the customer is interested in pursuing the opportunity.
-ms.date: 01/16/2024
+ms.date: 11/26/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
