@@ -14,7 +14,7 @@ Resource pool scheduling is useful in several situations:
 
 We recommended creating pools that use the same resource type. If you want to create groups with different types of resources, [create a crew](../../field-service/resource-crews.md).
 
-1. In the **Resources** area, under **Resource**, select **Resources** and select **New**.  
+1. In Universal Resource Scheduling, open the **Resources** area. Under **Resource**, select **Resources** and select **New**.  
 
 1. On the **General** tab, set **Resource Type** to **Pool** and choose a **Pool Type**. Choose between facility, equipment, or a combination of account, contact, and user.
 
@@ -26,17 +26,14 @@ We recommended creating pools that use the same resource type. If you want to cr
    > Don't choose the *Resource address* option.
 
 1. Choose an option for **Derive Capacity From Group Members** and then select **Save**.
-   - **Yes**: The capacity of the pool resource is calculated based on its member's work hour calendars. Pool capacity changes when adding or removing pool members. The pool's total capacity for a given time slot is affected by:
-     - The number of pool members
-     - The dates the pool members are part of the pool
-     - The working hours of the pool members
+   - **Yes**: The capacity of the pool resource is calculated based on its member's work hour calendars. Pool capacity changes when adding or removing pool members.
    - **No**: The system sets the capacity of the pool but you can change it. Adding and removing pool members doesn't change the capacity.
 
 1. Add more resource attributes to consider for scheduling. Consider the pool as a standard resource as it relates to adding attributes like [characteristics](../../field-service/set-up-characteristics.md) or [territories](../../field-service/set-up-territories.md).
 
 ## Add pool members
 
-Add members to a pool through the bookable resource group entity.
+Add members to a pool through the bookable resource group entity (bookableresourcegroup). The location of the pool member is taken from the pool.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of pool children view.](../../field-service/media/scheduling-resource-pool-children.png)
