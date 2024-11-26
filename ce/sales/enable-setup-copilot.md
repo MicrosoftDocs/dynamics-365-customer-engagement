@@ -14,6 +14,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/03/2023
+  - ignite-2024
 ---
 
 # Turn on and set up Copilot in Dynamics 365 Sales
@@ -73,6 +74,38 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 1. Select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
 1. Turn on **Email (preview)** to get the [Copilot email experience](compose-send-email-copilot.md). This option is enabled only after you turn on the **Try our newest preview features before they're rolled out to everyone** option.
 1. Select **Save**.
+
+<a name="add-glossary"></a>
+
+## Train Copilot to understand your business terms (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+You can train Copilot in Dynamics 365 Sales to understand your business terms. Use glossary to map your business terms to columns in your tables so that sellers can seamlessly ask Copilot questions using your business terms. Let's say that you have a custom field called **custom revenue** in the **opportunity** table that stores the estimated revenue for an opportunity. You can add a glossary term to help Copilot understand that **opportunity revenue** refers to the **custom revenue** column in the **opportunity** table.
+
+> [!NOTE]
+> The glossary feature is currently available only in English.
+
+**To add glossary terms:**
+
+1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
+
+1. Select **Agents** > **Sales Copilot Power Virtual Agents Bot**.
+1. Select **SalesSpecificQnA** under **Knowledge** section.
+1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
+   :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
+1. Select **Save** after you have added all the terms.
+   The updated glossary terms are available after 15 minutes in the Copilot chat experience in Dynamics 365 Sales.
+
+### Sample term and description
+
+| Scenarios  | Term  | Description |
+|-----------------------|---------|-----------------------|
+| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table. |
+| **Custom ownership** (Specify your ownership instead of using the record owner id) | activity owner  | activity owner is identified by 'PartyId' column in 'ActivityParty' table.  |
+| **Custom field** (Use a custom field instead of the out-of-the-box system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
+| **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | ‘overdue task’ refers to ‘state code’ column with value ‘open’ in ‘task’ table and ‘scheduled end date’ column in ‘task’ table with value less than today.  |
 
 ## Add the Copilot page site map entry to custom sales app
 

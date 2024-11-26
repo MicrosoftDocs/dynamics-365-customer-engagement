@@ -728,6 +728,8 @@
               href: install-lsi-solution.md
     - name: Dynamics 365 Sales mobile
       items:
+        - name: Overview
+          href: sales-mobile/dynamics-365-sales-mobile-app.md
         - name: Prerequisites for Dynamics 365 Sales mobile
           href: sales-mobile/prereq-sales-mobile.md
         - name: Manage forms
