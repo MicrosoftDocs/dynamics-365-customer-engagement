@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable Teams chat in Dynamics 365 | MicrosoftDocs"
 description: "Enable Teams chat to help users effectively collaborate on their Dynamics 365 customer engagement records without having to leave the application."
-ms.date: 04/11/2023
+ms.date: 11/26/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -38,7 +38,7 @@ When Teams chat sync is enabled:
 
 - New connected Teams chats are created as Teams chat activity records in Dynamics 365.
 - Teams chat activity records appear in the timeline.
-- Changes to a chat in Teams are synced to the corresponding Teams chat activity record in Dynamics 365. For details about what data is synced, go to [Sync of chat data from Teams to Dynamics 365](#sync-of-chat-data-from-teams-to-dynamics-365).
+- Changes to a chat in Teams are synced to the corresponding Teams chat activity record in Dynamics 365. For details about what data is synced, go to [Synchronization of chat data from Teams to Dynamics 365](#synchronization-of-chat-data-from-teams-to-dynamics-365).
 - When you connect a Teams chat to a Dynamics 365 record, a Teams app named Dataverse Chat Sync is installed in the chat. This app enables Dataverse to be notified when the chat is updated.
 
 > [!NOTE]
