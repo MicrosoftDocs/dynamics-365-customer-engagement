@@ -40,7 +40,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call.<br>
       > [!NOTE]
       > - When you transfer a call to a queue that doesn't have any agents, the application automatically ends the call and sets the status to Closed.
-      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot Studio agent, the agent can only speak to the customer and end the call. The agent cannot transfer the call to another agent or external number, even with the escalation topic configured.in Copilot Studio.
+      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot Studio agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/oceh-cc-transfer-queue-list.png" alt-text="A screenshot of the transfer to queue.":::
     
