@@ -110,12 +110,19 @@ You can copy the subscriber endpoint values such as **Recording Web Hook Endpoin
 
 ### Related information
 
-[Overview of the voice channel](voice-channel.md)  
-[Connect to Azure Communication Services](voice-channel-acs-resource.md)  
-[Connect using a new Azure resource](voice-channel-connect-new-resource.md)  
-[Set up outbound calling](voice-channel-outbound-calling.md)  
-[Set up inbound calling](../voice-channel-route-queues.md)  
-[Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
-[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md).
+[Overview of the voice channel](voice-channel.md)
+
+[Connect to Azure Communication Services](voice-channel-acs-resource.md)
+
+[Connect using a new Azure resource](voice-channel-connect-new-resource.md)
+
+[Set up outbound calling](voice-channel-outbound-calling.md)
+
+[Set up inbound calling](../voice-channel-route-queues.md)
+
+[Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
+
+[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
