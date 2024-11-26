@@ -10,20 +10,17 @@ ms.custom: bap-template
 
 # Define priorities for work orders
 
-Priority records let you prioritize your work orders. You can assign each priority value a custom color that displays in the outline of the resource booking time slot on the schedule board. Priority records enable dispatchers to visually distinguish a job's priority while managing the schedule.  
-  
-1. In Field Service, change to the **Settings** area. Then under **Work orders**, select **Priorities**.  
-  
-1. Select **New**.
+Use priority records to prioritize your work orders. You can assign a custom color to each priority value. This color is used for the outline of the resource booking's time slot on the schedule board. Priority records help dispatchers distinguish a job's priority while they manage the schedule.
 
+1. In Dynamics 365 Field Service, select the **Settings** area.
+1. Under **Work orders**, select **Priorities**.
+1. Select **New**.
 1. Enter the following information:
 
-   - **Name**: Name of the priority.  
-
-   - **Level of Importance**: Level of importance, from 1 to 10 for this priority. For example, if you have an urgent priority, the level of importance might be 10.
-
-   - **Priority Color**: Color for this priority.
+    - **Name**: Enter a name for the priority.
+    - **Level of Importance**: Specify a number from *1* through *10* to define the level of importance of the priority. For example, for an urgent priority, you might set the level of importance to *10*.
+    - **Priority Color**: Specify a color for the priority.
 
 1. Select **Save**.
-  
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

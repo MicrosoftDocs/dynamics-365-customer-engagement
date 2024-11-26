@@ -34,7 +34,7 @@ Call forwarding is supported in the following scenarios:
       - To forward all calls, set **Call overflow handling** > **Maximum calls in the queue** to 0. The default is 50 and the maximum is 200.  
       - To forward calls that have been in the queue longer than five minutes, set **Call timeout handling** > **Maximum wait time** to five minutes.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Identify customers automatically](record-identification-rule.md)

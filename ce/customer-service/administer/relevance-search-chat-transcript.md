@@ -1,7 +1,7 @@
 ---
 title: "Configure relevance search for transcripts | MicrosoftDocs"
 description: "Learn how to configure relevance search for chat transcripts so agents can search in Dynamics 365 Contact Center."
-ms.date: 07/01/2024
+ms.date: 11/12/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -41,9 +41,9 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 ## Add the Note entity 
 
-1. Sign in to `https://<org>.dynamics.com/apps`.
+1. In your Dynamics 365 instance, go to the **Published Apps** page.
 
-2. Select **More Options** (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
+2. Select an app, select the ellipsis (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** page opens in a new browser tab.
 
 3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 
@@ -57,7 +57,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 5. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Search for transcripts](../use/oc-search-transcipts.md)
 

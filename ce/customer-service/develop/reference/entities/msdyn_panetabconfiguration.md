@@ -851,7 +851,7 @@ See msdyn_paneconfiguration Entity [msdyn_msdyn_paneconfig_msdyn_tabconfig](msdy
 
 See msdyn_panetoolconfiguration Entity [msdyn_msdyn_toolconfig_msdyn_tabconfig](msdyn_panetoolconfiguration.md#BKMK_msdyn_msdyn_toolconfig_msdyn_tabconfig) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

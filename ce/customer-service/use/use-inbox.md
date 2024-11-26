@@ -62,7 +62,7 @@ To filter your inbox view:
        - **Oldest on top** - Displays oldest items first in the inbox.
        - **Latest on top** - Displays most recent items first in the inbox.
 
-### See also
+### Related information
 
 [Configure the inbox](../administer/configure-inbox.md)  
 

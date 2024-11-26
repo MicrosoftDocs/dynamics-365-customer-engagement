@@ -43,7 +43,7 @@ You can enable the self service feature in the Customer Service admin center or 
  
 1. Select **Save**. The **Self service** tab will appear for the agent when a chat is started with a customer.
 
-### See also
+### Related information
 
 [Self service](../use/oc-customer-summary.md#view-self-service)
 

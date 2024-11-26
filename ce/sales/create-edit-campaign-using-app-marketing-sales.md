@@ -75,7 +75,7 @@ Campaigns can include planning activities that you want to perform before you la
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
+## Related information  
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   

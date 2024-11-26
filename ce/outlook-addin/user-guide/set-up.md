@@ -3,7 +3,7 @@ title: "Set up Dynamics 365 for Outlook users | MicrosoftDocs"
 description: Learn how to install, set up, configure, and use Microsoft Dynamics 365 for Outlook with this walkthrough.
 ms.custom:
 ms.date: 01/11/2016
-ms.reviewer:
+ms.reviewer: smurkute
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: article
@@ -16,7 +16,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: a34b2e8a-7588-4132-963a-9ac9f4bcecf7
 caps.latest.revision: 45
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin
@@ -277,7 +277,7 @@ search.audienceType:
   
    - To connect to a [!INCLUDE[pn_crm_2013_shortest](../../includes/pn-crm-2013-shortest.md)] (on-premises) organization, there are two types of URLs, depending on whether your computer is connected to the Internet or not:  
   
-     - For internal deployments (not connected over the Internet), type the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server or discovery service URL using the following format: **<https://crmserver>** or **<https://crmserver:5555>**.  
+     - For internal deployments (not connected over the Internet), type the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server or discovery service URL using the following format: `https://crmserver` or `https://crmserver:5555`.  
   
      - To connect over the Internet, use the discovery service URL using the following format: **https://dev.crmserver.contoso.com**.  
   

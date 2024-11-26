@@ -170,7 +170,7 @@ To navigate to a related record from the connected chat, hover over the chat, se
 
 The selected record opens and the **Teams chats** pane is refreshed with the chats connected to the opened record.
 
-### See also
+## Related information
 
 [Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
 [Configure the ability to use suggested contacts](enable-contact-suggest.md)  

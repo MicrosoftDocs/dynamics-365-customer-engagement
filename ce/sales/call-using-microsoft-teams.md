@@ -1,7 +1,7 @@
 ---
 title: Make and receive Teams calls in Dynamics 365
 description: Make and receive calls directly from Dynamics 365 with Microsoft Teams dialer and analyze conversations for real-time insights.
-ms.date: 10/17/2023
+ms.date: 08/26/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -12,6 +12,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:10/13/2023
+ai-usage: ai-assisted
 ---
 
 # Make and receive Teams calls in Dynamics 365
@@ -37,30 +38,41 @@ Sign in to your sales app and select the phone (![Phone icon.](media/phone-icon.
 
 > [!IMPORTANT]
 >- The dialer won't work if third-party cookies are blocked in the private or incognito window of your browser. To use the dialer, select the **Third-party cookie blocking** icon in your browser and select **Allow cookies**.
->- The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work. 
+>- The dialer isn't supported for custom entities. Though the phone icon appears on the custom entity forms, the dialer doesn't work.
 
 ## Make calls with Teams
 
 You can use Microsoft Teams to call a customer directly from the dialer, a record, or a work item in Dynamics 365.
 
 > [!NOTE]
-> Verify that a valid phone number is associated with the Dynamics 365 records or work item.
+>- Verify that a valid phone number is associated with the Dynamics 365 records or work item.
+>- After the call ends, a phone call activity is created and displayed on the timeline of the record and on the **Activities** page. 
 
 **To call a customer through a Dynamics 365 record** 
 
 1. Open a record. In this example, we're opening a contact record.
 
-    In the **Business Phone** field, a phone number has been associated with the contact **Anthony Pruitt**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Open a contact record.](media/teams-dialer-contact-record.png "Open a contact record")
+    In the **Business Phone** field, a phone number has been associated with the contact **Jim Glynn**.
 
 1. Select ![Phone icon.](media/phone-icon.png "Phone icon") corresponding to the phone number. The call is established.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select the phone icon to make call.](media/teams-dialer-make-call.png "Select the phone icon to make call")
+1. Select your conversation language from the language drop-down. Selecting the approrpirate language ensures accurate transcription, keyword tracking, analysis, insights, and KPIs.
+   :::image type="content" source="media/teams-dialer-make-call.png" alt-text="Screenshot of Teams dialer with language drop-down highlighted":::
+
 
 1. (Optional) Select the ellipses (three-dots menu) in the dialer screen to change your microphone and speaker settings.
+
+<a name="call-from-list-view"></a>
+**To call a customer from the list view**
+
+**Prerequisite**: Your administrator must have turned on the **[Call from view](configure-microsoft-teams-dialer.md#teams-call-from-views)** option.
+
+1. Open the read-only grid view of any entity, such as **Contacts**, **Leads**, or **Accounts**.
+
+1. Select the phone number of the customer from any of the phone number columns.
+   :::image type="content" source="media/teams-dialer-call-from-view.png" alt-text="Screenshot of the All Accounts page with phone column highlighted.":::
+
+    The Teams dialer opens and calls the number automatically.
 
 **To call a customer from a work list item**
 
@@ -113,12 +125,13 @@ If you've missed a call, a notification is displayed in the in-app notification 
 > Your administrator must have enabled and [set up the in-app notifications](configure-microsoft-teams-dialer.md#configure-the-dialer) for you to view the missed calls.
 
 
-
 ## Transfer a Teams call (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+**Prerequisite:**
+Your administrator must have [turned on the call transfer feature](configure-microsoft-teams-dialer.md#teams-call-transfer).
 
 You can transfer a customer's call to a colleague's Teams line or their phone number.
 
@@ -143,6 +156,9 @@ You can transfer a customer's call to a colleague's Teams line or their phone nu
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+**Prerequisite:**
+Your administrator must have [turned on the call transfer feature](configure-microsoft-teams-dialer.md#teams-call-transfer).
+
 You can consult a colleague before you transfer a customer's call to them. You can also consult a colleague and then answer the customer directly, without transferring the call.
 
 1. While you're on the call, select **More options** (**&hellip;**), and then select **Consult then transfer (preview)**.
@@ -164,13 +180,47 @@ You can consult a colleague before you transfer a customer's call to them. You c
 
     - If the recipient is unavailable, or if you want to answer the customer directly, select **Cancel** and then **Resume** to go back to the customer.
 
+
+## Add a participant to an ongoing Teams call (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+**Prerequisite:**
+Your administrator must have [turned on the add people to calls feature](configure-microsoft-teams-dialer.md#teams-add-people-to-call).
+
+You can add a participant to an ongoing Teams call. The added participant can be an internal user or an external contact. If you don't want the current participants to hear the ringing sound, you can place the call on hold while you add the participant.
+
+1. While you're on the call, select the **Add people** icon and enter the name or number of the participant you want to add.
+
+    :::image type="content" source="media/teams-dialer-add-participant.png" alt-text="Screenshot that shows the Add people icon and the search box to add a participant to the call."::: 
+
+1. Select **Call** to place the call.
+   When the call is answered, a voice message is played to inform the other participants about the new participant.
+
+> [!NOTE]
+> You can remove a participant from the call by selecting the three-dot menu (**&hellip;**) next to the participant's name and selecting **Remove**. This option is available only when there are more than two participants in the call.
+
+## View phone call activities
+
+After you make or receive a call, a phone call activity is recorded.
+
+- If the call is associated with a record, the phone call activity is displayed in the following locations:
+    - On the timeline of the record.
+    - On the **My Activities** page. The **Regarding** column on the page displays the linked record.
+
+- If the call is not associated with any record:
+    - A phone call activity is created and displayed only on the **Activities** page.
+
+By default, unanswered calls aren't recorded as an activity. If you'd like to track unanswered calls, reach out to your administrator to [enable documenting call attempts](configure-microsoft-teams-dialer.md#teams-call-attempts).
+
 ## Call analysis
 
 [Configure conversation intelligence](fre-setup-ci-sales-app.md) for real-time analysis of your call data with overview, summary, transcription, insights, and action items. More information: [Get real-time call data through Teams call](get-real-time-call-data-through-teams-call.md)
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)  
 [Get real-time call data through Teams call](get-real-time-call-data-through-teams-call.md)  

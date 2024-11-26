@@ -12,7 +12,7 @@ author: vhorvathms
 # Visualize IoT device readings (retired)
 
 > [!IMPORTANT]
-> The device readings chart relies on Azure Time Series Insights, which was initially planned for retirement in March 2025. However, the service will now be retired on July 7, 2024, and the chart will no longer be available after this date. Learn more: [Time Series Insights service gets retired on July 7, 2024](https://azure.microsoft.com/updates/we-re-retiring-azure-time-series-insights-on-7-july-2024-transition-to-azure-data-explorer).
+> The device readings chart is no longer available. It relied on Azure Time Series Insights, which was retired on July 7, 2024. Learn more: [Migrate from Time Series Insights](/azure/time-series-insights/migration-to-fabric).
 
 <!--
 To help you understand the current state of a device, its repair history, and the effect of performed work orders, Connected Field Service displays near real-time device readings and historical sensor measurements in a chart alongside the service history.
@@ -61,7 +61,7 @@ Open the **Device Readings** tab on IoT alert, work order, case, device, or asse
 
 ## View device readings on the mobile app
 
-Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](./cfs-mobile-powerapp.md#view-summary-tiles-and-device-readings)  
+Device readings and summary tiles work on the Dynamics 365 Field Service mobile app when connected to the internet. For more information, see [Connected Field Service on the mobile app](mobile/iot-mobile.md#view-summary-tiles-and-device-readings)  
 
 ## Error codes
 

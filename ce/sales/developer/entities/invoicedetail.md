@@ -1797,7 +1797,7 @@ See the [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoicedet
 
 See the [invoice_details](invoice.md#BKMK_invoice_details) one-to-many relationship for the [invoice](invoice.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

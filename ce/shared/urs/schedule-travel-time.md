@@ -57,7 +57,7 @@ Scheduling based on real-time traffic isn't applicable because most organization
 
 ## Predictive travel times with historical traffic information
 
-The Resource Scheduling Optimization add-in takes [historical traffic information into account to better plan for travel times](../../field-service/rso-predictive-travel.md).
+The Resource Scheduling Optimization add-in takes [historical traffic information into account to better plan for travel times](../../field-service/rso-optimization-goal.md).
 
 ## Estimated travel time and booking fulfilled duration
 

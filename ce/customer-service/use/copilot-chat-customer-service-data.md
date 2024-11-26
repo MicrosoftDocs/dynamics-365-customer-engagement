@@ -57,7 +57,7 @@ Some examples of prompts are as follows:
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](use-copilot-features.md)  
 [Understand Copilot language support](copilot-language-support.md)  

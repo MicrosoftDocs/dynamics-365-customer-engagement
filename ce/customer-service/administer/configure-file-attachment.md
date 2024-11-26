@@ -77,7 +77,7 @@ If a customer tries to attach an unsupported file type, a file larger than the a
 
 :::image type="content" source="../media/file-attach-error.png" alt-text="Screenshot of message that appears when customers upload malicious files using chat.":::
 
-### See also
+### Related information
 
 [Enable file attachments](enable-file-attachments.md) </br>
 [Add a chat widget](add-chat-widget.md) <br>

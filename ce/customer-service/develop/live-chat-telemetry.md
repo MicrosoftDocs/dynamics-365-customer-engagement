@@ -15,7 +15,7 @@ Some of the data collected by the live chat widget include the following.
 
 |Field|Sample value|
 |----|----|
-|OrganizationId |`8e9071c2-4415-47aa-b1cb-693631e7fafb` |
+|OrganizationId |`00aa00aa-bb11-cc22-dd33-44ee44ee44ee` |
 |Chat Widget Version |`prod` |
 |BrowserName |`Edge` |
 |OSName |`Windows`| 
@@ -30,7 +30,7 @@ If your organization is concerned about the data collected by this service, you 
 data-disable-telemetry = "true"
 ```
 
-### See also
+### Related information
 
 [Customize live chat widgets using data tags](customize-chat-widget.md)  
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  

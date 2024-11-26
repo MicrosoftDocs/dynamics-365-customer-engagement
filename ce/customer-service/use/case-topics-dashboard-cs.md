@@ -104,7 +104,7 @@ The topics capability in the Customer Service historical analytics reports comes
 > [!NOTE]
 > While topic discovery isn't prevented and is still possible in languages that aren't listed above, there may be differences in what users experience if they leverage topics in unsupported languages.
 
-### See also
+### Related information
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Summary dashboard](summary-dashboard-cs.md)  

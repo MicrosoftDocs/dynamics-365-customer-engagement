@@ -81,10 +81,6 @@ Only the delegated permissions are required. On consent, the following two ser
 
 - “Omnichannel for Customer Service”
 
-### Why is the global admin role required, and not a less powerful one?
-
-We need to add the service principal to Microsoft Entra ID for the tenant as a requirement, and therefore, we need global admin permissions.
-
 ### Which are the Omnichannel principals? We found at least four Omnichannel principals.
 
 “Omnichannel APIs” is the main application ID that's used for UI operations such as triggering provisioning of UR and loading the presence for an agent. “Omnichannel for Customer Service” is the app that has Dataverse permissions and is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
@@ -103,7 +99,7 @@ These four principals don't interact with each other. 
 
 The “Omnichannel for Customer Service” application. This app has Dataverse permissions that are used to read data from Dataverse and write data to Dataverse for Omnichannel service for the unified routing capability of classification and assignment.
 
-### See also
+### Related information
 
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)  

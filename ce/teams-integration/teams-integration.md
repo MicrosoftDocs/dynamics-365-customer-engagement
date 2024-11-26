@@ -1,7 +1,7 @@
 ---
-title: "Overview of Microsoft Teams integration with Dynamics 365 apps"
-description: "Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams."
-ms.date: 11/25/2024
+title: Overview of Microsoft Teams integration with Dynamics 365 apps
+description: Dynamics 365 for Microsoft Teams integration enables users to easily work with customer engagement apps and share files directly from Microsoft Teams.
+ms.date: 11/26/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -16,13 +16,12 @@ Using Teams integration, you can invite anyone in the organization to view and c
 Teams can be integrated with Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation.
 
 > [!NOTE]
-> Microsoft Teams integration is not supported on the following: 
-> 
->  - Dynamics 365 Customer Engagement (on-premises)
->  - Microsoft Dataverse environment
->  - Legacy web client or legacy apps
->  - If Dynamics 365 and Microsoft Teams are in different tenants
->  - Mobile devices
+> Microsoft Teams integration is not available for guest users and is not supported on the following platforms: 
+>- Dynamics 365 Customer Engagement (on-premises)
+>- Microsoft Dataverse environment
+>- Legacy web client or legacy apps
+>- If Dynamics 365 and Microsoft Teams are in different tenants
+>- Mobile devices
 
 
 Dynamics 365 and Teams integration is built around the following pillars:

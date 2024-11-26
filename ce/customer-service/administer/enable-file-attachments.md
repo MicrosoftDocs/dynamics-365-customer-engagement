@@ -60,13 +60,12 @@ To configure the file size limit and file extensions, complete the following ste
 
 Now, agents and customers can share file attachments during their conversation.
 
-### See also
+### Related information
 
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  
 [Configure file attachments](configure-file-attachment.md)  
 [Configure a Facebook channel](configure-facebook-channel.md)   
-[Configure a WhatsApp channel](configure-whatsapp-channel.md)  
-[Configure a WeChat channel](configure-wechat-channel.md)  
+[Configure a WhatsApp channel](configure-whatsapp-channel.md)   
 [Configure a LINE channel](configure-line-channel.md)  
 [Download file attachments from your Azure bot](../develop/download-attachments-bot.md)  
 

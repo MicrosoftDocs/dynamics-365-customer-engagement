@@ -140,7 +140,7 @@ To see an entity dashboard, go to the list of records for the entity, and then s
 
 You can use the global or visual filters to show only the data that's important to you.
 
-### See also
+## Related information
 
 [Understand the sales pipeline chart and its phases](sales-pipeline-chart.md)  
 

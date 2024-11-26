@@ -1853,7 +1853,7 @@ See the [salesorderdetail_parentref_salesorderdetail](salesorderdetail.md#BKMK_s
 
 See the [order_details](salesorder.md#BKMK_order_details) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

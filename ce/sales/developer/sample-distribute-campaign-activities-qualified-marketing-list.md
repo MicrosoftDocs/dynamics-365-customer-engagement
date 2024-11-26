@@ -38,7 +38,7 @@ In order to simulate the scenario described above, the sample will do the follow
 
 Display an option to delete the rows created in the [Setup](#setup). The deletion is optional in case you want to examine the table and data created by the sample. You can manually delete the rows to achieve the same result.
   
-### See also  
+## Related information  
  [Campaign Tables](campaign-entities.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)   
  [Sample: Distribute Campaign Activities to Dynamic and Static Lists](sample-distribute-campaign-activities-dynamic-static-lists.md)   

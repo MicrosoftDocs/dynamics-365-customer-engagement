@@ -32,7 +32,7 @@ Bot authentication URL.
 [!INCLUDE[setBotAuthTokenProvider-code-sample](../includes/setBotAuthTokenProvider-code-sample.md)]
 
 
-### See also
+### Related information
 
 [JavaScript API reference for live chat SDK](../../omnichannel-reference.md)  
 [Pass authentication token to bot during single sign-on in live chat](../../pass-auth-token-sso-live-chat.md)  

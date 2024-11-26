@@ -1,7 +1,7 @@
 ---
 title: Model customization of historical and real-time analytics reports in Customer Service
 description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 05/30/2024
+ms.date: 11/04/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -45,7 +45,8 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, you must complete the following prerequisites:
 
-- Your organization must have the Power BI Professional or Power BI Premium license for all supervisors and administrators. If you're embedding the Power BI reports into apps, then you must have a Power BI Premium license. Otherwise, the embedded report shows a banner that prompts you to upgrade.
+- Your organization must have the Microsoft Fabric Capacity for all report users to access the reports. Learn more in [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview).
+- Your organization must have the Power BI Premium per user license for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model.
 
 - Enable insights features in Customer Service:
 
@@ -150,7 +151,7 @@ The dropdown list is populated with the reports in the workspace configured on S
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
-Supervisor actions like assign, transfer, monitor, and force close aren't available for model customized reports.
+You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-conversations-in-customized-reports) on model customized reports.
 
 ## Enable automatic page refresh for reports
 
@@ -193,7 +194,7 @@ If you customized the Customer Service workspace app, you must complete the foll
    - **Outlook shortcut**: **Pass parameters** and **Offline availability**
 1. Select **Save** and then select **Publish**.
 
-### See also
+### Related information
 
 [Customize the display of analytics reports](../use/customize-reports.md#customize-the-display-of-analytics-reports)  
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  

@@ -22,7 +22,7 @@ Complete the following steps to create a new website in Community:
 3. Go to [Power Pages](https://make.powerpages.microsoft.com/) to provision a portal for the new website.
 
 
-### See also
+### Related information
 
 [Overview of Community](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>

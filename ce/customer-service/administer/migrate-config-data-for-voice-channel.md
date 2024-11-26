@@ -14,6 +14,9 @@ ms.reviewer: nenellim
 
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the voice channel.
+
+[!INCLUDE[cc-migrate-using-solutions](../../includes/cc-migrate-using-solutions.md)]
+
 For information on how to use the Configuration Migration tool, see the following articles:
 
 - [Download Configuration Migration tool](/powerapps/developer/data-platform/download-tools-nuget)
@@ -601,6 +604,6 @@ After you import the unified routing-related configuration data successfully fro
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
-### See also
+### Related information
 
 [Migrate configuration for records based on unified routing](migrate-config-data-for-records-overview.md)  

@@ -38,7 +38,7 @@ You can't create multiple profiles with the same rank from the Customer Service 
 
 No. You can't have multiple default custom profiles when you're setting the default profile in Customer Service admin center.  However, if  you've imported profiles created in different environments, you might see multiple default profiles. We recommend that you resolve the issue in the source environments and then import the profiles.
 
-### See also
+### Related information
 
 [ Add users to agent experience profiles](add-profile-default.md)<br>
 [Create and use agent experience profiles](create-agent-experience-profile.md)<br>

@@ -28,7 +28,7 @@ To manually route records:
 
 If unified routing is enabled, on the **Customer Service Agent Dashboard** page, you must use the system view **Cases Available to Work On** to pick cases to work on.
 
-### See also
+### Related information
 
 [Overview of routing](../administer/overview-unified-routing.md)  
 [Set up routing for records](../administer/set-up-record-routing.md)  

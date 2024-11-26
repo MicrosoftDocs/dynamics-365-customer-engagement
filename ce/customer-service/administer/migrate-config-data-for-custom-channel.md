@@ -1,7 +1,7 @@
 ---
 title: Migrate unified routing data for custom messaging channel
 description: Learn to export and import data pertaining to custom messaging channel from source to target environments in Omnichannel for Customer Service.
-ms.date: 03/06/2024
+ms.date: 07/08/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -16,6 +16,8 @@ ms.custom: bap-template
 
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for custom messaging channel.
+
+[!INCLUDE[cc-migrate-using-solutions](../../includes/cc-migrate-using-solutions.md)]
 
 For information on how to use the Configuration Migration tool, see the following articles:
 
@@ -572,6 +574,6 @@ After you import the unified routing-related configuration data successfully fro
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
-### See also
+### Related information
 
 [Migrate configuration for records based on unified routing](migrate-config-data-for-records-overview.md)  

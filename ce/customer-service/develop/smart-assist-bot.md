@@ -31,7 +31,7 @@ After setting up a sample bot using above steps, you can configure your bot to s
 > [!div class="nextstepaction"]
 > [See Next: Implement a custom scenario for smart assist bot](smart-assist-scenario.md)
 
-## See also
+## Related information
 
 [Sample code: Build a smart assist bot](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/omnichannel/smart-assist-bot)<br />
 [Smart assist for agents](../administer/smart-assist.md)<br />

@@ -51,8 +51,8 @@ additionalContent:
         text: Try Customer Service
       - url: https://dynamics.microsoft.com/customer-service/pricing/
         text: Buy Customer Service
-      - url: implement/omnichannel-provision-license.md
-        text: Provision Omnichannel for Customer Service
+      - url: /dynamics365/contact-center/implement/provision-channels
+        text: Provision channels
     - title: Set up 
       links:
       - url: implement/add-users-assign-roles.md
@@ -197,8 +197,8 @@ additionalContent:
         - title: Microsoft Copilot Studio
           summary: Build chatbots easily with Copilot Studio.
           url: /power-virtual-agents/
-        - title: Digital Contact Center Platform
-          summary: Learn about Microsoft Digital Contact Center Platform, and how to deploy and configure Nuance IVR and Gatekeeper, Microsoft Dynamics 365, Copilot Studio, Azure Communication Services, and Teams to enhance and support your digital contact center.
-          url: /digital-contact-center-platform/
+        - title: Dynamics 365 Contact Center
+          summary: Learn about Microsoft Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
+          url: /dynamics365/contact-center/
 
 

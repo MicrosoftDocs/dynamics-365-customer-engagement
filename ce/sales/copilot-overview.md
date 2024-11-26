@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 07/03/2024
+ms.date: 10/10/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -23,7 +23,7 @@ ai-usage: ai-assisted
 
 Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. [Learn more about how to use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
 
-Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction)(formerly known as Microsoft Sales Copilot) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
+Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft 365 Copilot for Sales](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
 
 ## Chat in natural language or use predefined prompts
@@ -49,25 +49,32 @@ Copilot offers the following capabilities:
 
 ### Record summarization
 
-Record summarization gives you a quick summary of your opportunity and lead records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+Record summarization gives you a quick summary of your opportunity, lead, and account records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
 - [Summarize an account](copilot-get-information.md#summarize-an-account)
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
 - [Summarize a lead](copilot-get-information.md#summarize-a-lead)
-- [Change the fields in the record summary](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+- [Change the fields in the record summary](copilot-configure-summary-fields.md)
+
+## Embedded experiences
+
+Apart from Copilot's chat and email experiences, you can also use Copilot's embedded experience in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
+
+- [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-the-opportunity-summary-widget).
+-  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Recent changes
 
-To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
+To help you stay on top of your sales records, Copilot summarizes any changes that were made to your lead, opportunity, and account records. Copilot generates the list of recent changes from the records' audit history. Your administrator can change the fields that are included in the recent changes list. Ensure that your entire sales team agrees on the top 15 fields that are most relevant for your business.
 
 Learn more:
 
 - [View recent changes of your records](copilot-ask-questions.md#get-recent-changes)
 - [Get a list of recently updated sales records](copilot-ask-questions.md#whats-new-with-my-sales-records)
 - [View the leads and opportunities assigned to you recently](copilot-ask-questions.md#whats-newly-assigned-to-me)
-- [Change the fields you want to view in the recent changes list](enable-setup-copilot.md#configure-fields-for-generating-summaries-and-recent-changes-list)
+- [Change the fields you want to view in the recent changes list](copilot-configure-summary-fields.md)
 
 ### Information assistance
 
@@ -104,6 +111,25 @@ Copilot can help you stay current with the latest news about your accounts. News
 
 ## Region availability and languages supported
 
-Copilot in Dynamics 365 Sales is available only in English language and is supported only in specific regions. For a list of regions where Copilot in Dynamics 365 Sales isn't supported, see [this FAQ](sales-copilot-faq.md#is-copilot-in-dynamics-365-sales-available-in-all-regions). 
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). [Learn how to use the report](#how-to-use-the-copilot-international-availability-report).
 
-Effective April 1, 2024, Copilot in Dynamics 365 Sales is turned on by default for tenants in North America and other regions where an Open AI Service endpoint is available. If your tenant is in a region where Copilot is supported but an Azure Open AI Service endpoint isn't available, an admin needs to opt in to share some data with the Azure OpenAI Service outside of your default geography. [Learn more about regions where Azure Open AI Service endpoints are available](/power-platform/admin/geographical-availability-copilot#how-data-movement-across-regions-works).
+Copilot takes into account the [user's preferred UI language](/dynamics365/project-operations/environment/language-localization) and localizes responses based on that. Depending on the user's preferred UI language, org language, and languages supported for a specific Copilot feature, the responses are localized accordingly. The following table summarizes the expected behavior in different scenarios:
+
+| Base language of the org | Preferred UI language of the user | Expected behavior                                                                 |
+|--------------------------|-----------------------------------|-----------------------------------------------------------------------------------|
+| English                  | English                           | Output in English                                                                 |
+| English or non-English   | One of the supported non-English languages | Output in the preferred UI language of the user.                                                |
+| English or non-English   | An unsupported language     | Output is unpredictable as the language is unsupported. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
+
+We are continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
+
+### How to use the Copilot international availability report
+
+The [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport) includes information about the availability of Copilot in Dynamics 365 Sales features in different regions and languages.
+
+You can filter the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport) by product name, region, and language to know whether a Copilot feature is available in your specific region and language. Alternatively, you can use the report to get a list of Copilot features available in your region and preferred language. The following screenshot illustrates Copilot in Dynamics 365 Sales features available in Europe and are supported in German:
+
+:::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
+
+The **Release Wave** column indicates the release wave in which the support is available.
+

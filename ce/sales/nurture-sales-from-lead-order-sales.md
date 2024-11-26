@@ -58,7 +58,7 @@ Your sales process begins with a lead—someone who is interested in the product
 > [!NOTE]
 > Your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] system might look different because it was customized. This walkthrough guides you through the basic sales process, but your organization might offer further training for your system.
 
-### See Also   
+## Related information   
 [Overview of Sales](../sales-enterprise/user-guide.md)
 
 

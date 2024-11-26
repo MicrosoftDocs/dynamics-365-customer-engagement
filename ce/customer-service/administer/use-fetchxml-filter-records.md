@@ -48,7 +48,7 @@ This article discusses how to download the FetchXL query and edit it in the Conf
 
 [Migrate configuration data for records](migrate-config-data-for-records.md)  
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Overview of data migration for records](migrate-config-data-for-records-overview.md)  

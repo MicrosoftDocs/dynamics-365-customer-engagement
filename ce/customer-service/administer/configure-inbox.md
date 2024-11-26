@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox
 description: Use this article to enable and configure inbox settings in Contact Center admin center or Customer Service admin center.
-ms.date: 07/01/2024
+ms.date: 07/24/2024
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -16,7 +16,6 @@ ms.custom: bap-template
 
 > [!NOTE]
 > Case is applicable to Customer Service only.
-
 
 As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-agents) so that when your agents open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
@@ -33,7 +32,7 @@ The following channels are supported in the inbox:
 
 The following asynchronous channels are available in the conversation inbox:
 
-- SMS
+- Text message (SMS)
 - Persistent chat
 - Facebook
 - WeChat
@@ -147,7 +146,7 @@ The following simple settings are available out of the box for the record types.
 
 Configure a customized sort option for the inbox so that users can choose the required attributes to sort by, beyond customer and date.
 
-1. In the Customer Service admin center app site map, select **Workspaces**.
+1. In the site map of Customer Service admin center app, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**.
 1. On the **Agent experience profiles** page, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
@@ -159,7 +158,7 @@ Configure a customized sort option for the inbox so that users can choose the re
 
 ## Bring your own entity to the inbox
 
-By default, the inbox supports entities such as case, emails, conversations, and voicemails. You can also bring your own entities into the inbox to create a more customized experience that's tailored to the needs of your users.
+By default, the inbox supports entities such as case, emails, conversations, and voicemails. You can also bring your own entities into the inbox to create a more customized experience, tailored to the needs of your users.
 
 1. In the admin center site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
@@ -172,7 +171,7 @@ By default, the inbox supports entities such as case, emails, conversations, and
 
 You can help users personalize how their information displays in the inbox by customizing the card configuration.
 
-1. 1. In the admin center site map, select **Workspaces**.
+1. In the admin center site map, select **Workspaces**.
 1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Inbox settings** pane, select the **Inbox record types** tab.
@@ -183,12 +182,13 @@ You can help users personalize how their information displays in the inbox by cu
 
 ## Real-time translation
 
-For information about how to configure real-time translation for conversations in the inbox, see [Enable real-time translation of conversations](enable-real-time-translation.md).
+Learn more about how to configure real-time translation for conversations in the inbox, at [Enable real-time translation of conversations](enable-real-time-translation.md).
 
 
-### See also
+### Related information
 
-[Create and use agent experience profiles](create-agent-experience-profile.md)<br>
-[Overview of agent experience profiles](overview.md)<br>
-[Use the inbox](../use/use-inbox.md)<br>
+[Inbox out-of-the-box views and filters](inbox-views-filters.md)  
+[Create and use agent experience profiles](create-agent-experience-profile.md)  
+[Overview of agent experience profiles](overview.md)  
+[Use the inbox](../use/use-inbox.md)  
 [Configure voicemail to manage inbound calls](voice-channel-voicemail.md)  

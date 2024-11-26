@@ -2,7 +2,6 @@
 title: "Manage phone music in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can configure hold and wait music in Contact Center admin center."
 ms.date: 06/14/2024
-ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -12,6 +11,9 @@ ms.collection: get-started
 # Manage phone music
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE] 
+> We recommend that you use the audio file formats that are supported by Azure Communication Services. Learn more at [Playing audio in call](/azure/communication-services/concepts/call-automation/play-action). 
 
 You can use the out-of-the-box music files to set hold and wait tunes. You can replace them with your own music files, or even upload new ones to be used for hold or wait music in your customer calls. The hold or wait music will automatically be played on loop.
 
@@ -65,7 +67,7 @@ You can also add new music files to use them in calls as hold and wait music.
 1. Select the type of hold and wait music you want the customer to hear. For example, for the primary language, you might always want to use a certain type of hold music, but for a secondary language, you might choose a different type of music.
 1. When you've finished configuring the settings, select **Confirm**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 

@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: shujoshi
 ms.topic: how-to
-ms.date: 06/21/2024
+ms.date: 10/18/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -18,22 +18,28 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Dynamics 365 Customer Service provides out-of-the-box analytics reports that help you visualize key performance indicators (KPIs) and trends for standard contact center workflows. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
+Visualize key performance indicators (KPIs) and trends for standard contact center workflows through the out-of-the-box analytics reports. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
 
 - Reveal out-of-the-box metrics that may be more relevant to your organization.
 - Modify how the data is displayed; for example, change a tabular view to a graphic that displays the trend over time.
 - Add new pivots and pages; for example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in Customer Service workspace. You can't customize unified routing and knowledge analytics reports.
+You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace or the Contact Center workspace. You can't customize unified routing and knowledge analytics reports.
+
+> [!NOTE]
+> - After you customize and publish a report, all customizations become visible to all users in your organization.
+> - You can also build new reports and new metrics using the out-of-the-box data model. Learn more in [Overview of data model customization](datamodel-overview.md).
 
 ## Prerequisites
 
-To edit analytics reports, users must have the **Analytics Report Author** role. [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
+- To edit analytics reports, users must have the **Analytics Report Author** role. Learn more in [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
+
+- You don't need a Power BI license to customize the Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports embedded in the Customer Service workspace or the Contact Center workspace.
 
 ## Customize the display of analytics reports
 
-1. In Customer Service workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
+1. In Customer Service workspace or Contact Center workspace, open the **Omnichannel real-time analytics**, **Omnichannel historical analytics**, or **Customer Service historical analytics** report.
 
 1. Select **Edit report** to open the embedded Power BI editor.
 
@@ -51,14 +57,12 @@ To edit analytics reports, users must have the **Analytics Report Author** role.
 
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 
-After you publish the report, all customizations become visible to all users in your organization.
-
 To revert all your changes to the original report settings, select **Edit report** > **Checkout default report** > **Reset**.
 
    > [!IMPORTANT]
-   > If you select **Reset**, any customizations you've made are permanently removed.
+   > If you select **Reset**, any customizations that you made are permanently removed.
 
-To continue editing the report after you've published it, select **Resume editing**.
+To continue editing the report after you publish it, select **Resume editing**.
 
 > [!NOTE]
 > Don't add more than 20 metrics or tiles to a report because it affects the report's performance. If you need more metrics, consider creating more pages and provide links to the extra pages from the existing pages.
@@ -73,9 +77,9 @@ You can use facts and dimensions to visualize data according to your organizatio
 
 ### Future data model updates
 
-If you've customized your reports and Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
+If you customize your reports and then Microsoft changes the default data model for a report, the data model updates don't overwrite your customizations. However, if the naming conventions in the Power BI embedded editing experience change, those changes are reflected in the respective list. You may need to reselect the metric with the new name. [Learn more about data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
 
-### See also
+### Related information
 
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)  
 [Configure Customer Service analytics and insights](../administer/configure-customer-service-analytics-insights-csh.md)  

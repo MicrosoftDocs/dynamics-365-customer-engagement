@@ -60,7 +60,7 @@ Learn about the system-level settings for Dynamics 365 Sales.
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also  
+## Related information  
  [Create price lists and price list items to define pricing of products](create-price-lists-price-list-items-define-pricing-products.md)   
  [Set up a discount list](set-up-discount-list.md)   
  [Create product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)   
@@ -69,3 +69,4 @@ Learn about the system-level settings for Dynamics 365 Sales.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

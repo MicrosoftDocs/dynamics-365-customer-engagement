@@ -69,7 +69,7 @@ If you customized the Customer Service workspace app, you must complete the foll
       - **Client**: **Web**.
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](../use/customer-service-analytics-insights-csh.md)  

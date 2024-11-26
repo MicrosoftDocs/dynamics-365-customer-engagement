@@ -734,7 +734,7 @@ See the [CampaignActivity_Contacts](campaignactivity.md#BKMK_CampaignActivity_Co
 
 See the [CampaignActivity_Leads](campaignactivity.md#BKMK_CampaignActivity_Leads) many-to-many relationship for the [campaignactivity](campaignactivity.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

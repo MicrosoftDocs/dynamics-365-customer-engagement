@@ -1,7 +1,7 @@
 ---
 title: Configure custom messaging channels 
 description: Learn what a custom channel is and how to configure it or bring your own channel.
-ms.date: 07/01/2024
+ms.date: 10/09/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,12 +14,15 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram. With the custom messaging channel capability, you can:
+> [!IMPORTANT]
+> The Telegram and Kik custom messaging channels were deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
+Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line. With the custom messaging channel capability, you can:
 
 - Bring in the channels your customers already use so that you can engage with them in familiar ways.
 - Integrate line-of-business or in-house channels that are specific to your organization.
-- Easily configure the administrator experience in the Customer Service admin center.
-- Create a single, unified agent experience in the Omnichannel for Customer Service app.
+- Easily configure the administrator experience in the admin center.
+- Create a single, unified agent experience.
 
 ## Prerequisites
 
@@ -30,7 +33,8 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ## Configure a custom messaging channel
 
-1. In the Customer Service admin center, under **Customer support**, select **Channels**. In **Accounts**, for **Messaging accounts**, select **Manage**.
+1. In the site map of Contact Center admin center or Customer Service admin center, go to **Customer support**, and then select **Channels**. 
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
@@ -64,7 +68,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ### Configure workstream and routing rules
 
-1. In Omnichannel for Customer Service, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
+1. In the admin center app, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
 
 1. Select the workstream that you created for the custom channel.
 
@@ -101,7 +105,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 [Test your custom messaging channel](../develop/test-custom-channel-sample-html.md)
 
-### See also
+### Related information
 
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  

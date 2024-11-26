@@ -1,7 +1,7 @@
 ---
-title: "Sentiment monitoring | MicrosoftDocs"
-description: "This topic provides information on how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service."
-ms.date: 07/01/2024
+title: Sentiment monitoring
+description: Learn how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service.
+ms.date: 09/10/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -10,10 +10,10 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Sentiment monitoring
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> Supervisor and agent sentiment notifications are not available in Unified Service Desk.
+> Supervisor and agent sentiment notifications aren't available in Unified Service Desk.
 
 Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. The application uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
@@ -40,21 +40,21 @@ To learn more, see [Explore Text Translator API](/azure/cognitive-services/trans
 
 ## Personas
 
-The multi-language sentiment feature (preview) supports the following personas: administrator, supervisor (team lead), and agent.
+The multi-language sentiment feature supports the following personas: administrator, supervisor (team lead), and agent.
 
 - If you're an administrator:
 
-   - You can configure sentiment for English only and non-English languages.
+   - You can configure sentiment for English-only and non-English languages.
        > [!NOTE]
        > Sentiment is enabled in by default.
 
 - If you're a supervisor (team lead):
 
-    - You can track agents' performance and engage in real time to continuously improve the support quality.
+    - You can track agent performance and engage in real time to continuously improve the support quality.
     
-        Example: Identifying negative sentiment events, including English profanity, in conversations between agents and customers.
+        Example: You can identify negative sentiment events, including English profanity, in conversations between agents and customers.
 
-    - When you identify negative sentiment, you can provide timely inputs to help an agent resolve an issue.
+    - When you identify negative sentiment, you can provide timely feedback to the agent to help them resolve an issue.
 
         Example: Monitor and join the conversation.
 
@@ -62,17 +62,17 @@ The multi-language sentiment feature (preview) supports the following personas: 
 
 - If you're an agent: 
 
-    - You want to know customers' sentiments in real time and see customer satisfaction levels instantly as you communicate.
+    - You want to know customer's sentiments in real time and see customer satisfaction levels instantly as you communicate with them.
 
     - You can be responsible for handling multiple customer engagements at any given time.
 
     - You can engage directly with the customer to solve the customer's issue.
 
-    - You can use analysis of customer sentiment to understand the severity of the problem, and take action. 
+    - You can use the analysis of customer sentiment to understand the severity of the problem and take action. 
 
 ## Sentiment intensity indicators
 
-Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge they can use to decide when they need to step in and assist.
+Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge to help them decide when they need to step in and assist.
 
 - For agents:
 
@@ -92,7 +92,7 @@ Sentiment intensity indicators are an automatic and unbiased measurement of a cu
 
 ## Low sentiment notification alert
 
-While an agent is communicating with the customer, and if the customer's sentiment decreases to or below a threshold level, you will get a notification. The notification displays the following details:
+While an agent is communicating with the customer, if the customer's sentiment decreases to or below a threshold level, you get a notification. The notification displays the following details:
 
 - Agent name
 - Customer
@@ -108,30 +108,31 @@ You can select the **Monitor** button to see the **Active Conversation** and the
 
 For example:
 
-Administrator has set the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, the notification is displayed to you.
+An administrator sets the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, a notification appears.
 
 ## Multi-language sentiment limitations
 
 Sentiment analysis relies on the initial customer messages in any conversation to detect the language of the conversation.  
 
-Expect the following system behavior:
+Expect the following system behaviors:
 
-- If a customer's initial messages are detected as English, the system assumes that subsequent messages will be in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language re-detection. In this situation, you'll most often see a neutral sentiment score throughout the rest of the non-English conversation.
+- If a customer's initial messages are detected as English, the system assumes that subsequent messages are in English as well. If your customer switches away from English after these initial messages, the system doesn't perform language redetection. In this situation, you most often see a neutral sentiment score throughout the rest of the non-English conversation.
 
-- If a customer's initial messages are detected as non-English, the system performs re-detection and scoring for subsequent messages. If any following message is detected as non-English, its subsequent message will be re-detected and scored according to its detected language.
+- If a customer's initial messages are detected as non-English, the system performs redetection and scoring for subsequent messages. If any following messages are detected as non-English, the subsequent messages are redetected and scored according to the detected language.
 
 ## Requirements
 
 Your environment must have the latest version of the application.
+
 ## Install and configure
 
-After you've signed up, see step 4 of [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) to configure sentiment analysis.
+After you sign up, see step 4 of [Enable sentiment analysis](../administer/enable-sentiment-analysis.md) to configure sentiment analysis.
 
 ## Policy notice
 
-This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This customer responsibility also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
 
-### See also
+### Related information
 
 [Enable sentiment analysis](../administer/enable-sentiment-analysis.md)<br>
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)<br>

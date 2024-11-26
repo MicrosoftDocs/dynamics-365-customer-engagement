@@ -69,7 +69,7 @@ On the **Unified routing** report page, the **Routing metrics by date** table di
 
 You can select a date, and then select **Details** to view the routing metrics by the hour.
 
-### See also
+### Related information
 
 [Enable Historical analytics for unified routing in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-unified-routing-in-omnichannel-for-customer-service)  
 [Overview of unified routing](../administer/overview-unified-routing.md)  

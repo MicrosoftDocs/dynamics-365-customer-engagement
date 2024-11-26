@@ -331,6 +331,6 @@ To set up swarm privileges for agents, perform the following steps.
 
 1. Set the **Swarming** toggle to **On**. 
 
-### See also
+### Related information
 
 [Use customer support swarming](../use/use-customer-support-swarming.md)

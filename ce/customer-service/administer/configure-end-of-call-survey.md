@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/14/2024
+ms.date: 11/25/2024
 ms.custom: bap-template 
 ---
 
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use the **Voice call experiences** page in Customer Service admin center or Contact Center admin center to configure the following features:
+Use the **Voice call experiences** page in Contact Center admin center or Customer Service admin center to configure the following features:
 
 - [Configure agent call quality feedback survey](#configure-agent-call-quality-feedback-survey)
 - [Disable taking a customer off hold automatically](#disable-taking-a-customer-off-hold-automatically)
@@ -60,4 +60,4 @@ When you transfer a call to another agent, the customer is automatically put on 
 
 ## Next steps
 
-[Share feedback on call quality](../use/voice-channel-agent-experience.md#share-feedback-on-call-quality)
+[Share feedback on call quality](/dynamics365/contact-center/use/voice-channel-agent-experience#share-feedback-on-call-quality)  

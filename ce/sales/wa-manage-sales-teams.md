@@ -115,7 +115,7 @@ The following permissions are required to perform tasks on work assignment entit
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Set seller attributes](./wa-manage-seller-attributes.md)
 - [Set seller availability and capacity](./wa-manage-seller-availability.md)

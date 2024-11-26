@@ -21,7 +21,7 @@ When an agent ends a conversation, a call can be made to closeChat() in order to
 window.addEventListener("lcw:onClose", function handleWidgetCloseEvent(){ // Handle the live chat widget close event }); 
 ```
 
-### See also
+### Related information
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  

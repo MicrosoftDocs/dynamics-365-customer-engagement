@@ -147,7 +147,7 @@ To learn about the slugs for productivity tools, see [Slugs](automation-dictiona
 
 To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
-### See also
+### Related information
 
 [Agent scripts](../use/oc-agent-scripts.md)  
 [Macros](macros.md)  

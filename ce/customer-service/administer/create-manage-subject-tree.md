@@ -41,7 +41,7 @@ You can create or edit a subject in the Customer Service admin center app.
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the Visibility toggle if you want the subject to be available for the agent.
+    - Switch on the **Visibility** toggle if you want the subject to be available for the agent.
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 
@@ -71,10 +71,9 @@ You can select **Open old subject management page** to use the older experience.
 > [!NOTE]
 > We recommend that you create not more than 1,000 subjects including child subjects to avoid performance issues.
 
-### See also
+### Related information
 
-[Overview of case management](overview-cases.md)  
-[Enable search control for the subject entity](../search-control-for-subjects.md)  
+[Overview of case management](overview-cases.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

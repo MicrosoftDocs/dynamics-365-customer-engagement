@@ -3,7 +3,7 @@ title: Configure voicemail to manage inbound calls
 description: Configure voicemail to manage inbound calls, route voicemails to agents, and reduce on-hold wait times.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/01/2024
+ms.date: 08/29/2024
 ms.topic: how-to
 ms.reviewer:
 ms.collection:
@@ -36,7 +36,7 @@ The prerequisites are as follows:
 - [Unified routing](provision-unified-routing.md) is enabled.
 - [Agent presence](../use/oc-manage-presence-status.md) works correctly, which is required to open a voicemail.
 - The operating hours message at the voice workstream level isn't set because it overrides the voice queue-level overflow setup that the system needs for the voicemail feature to work. If you set the operating hours message for the voice workstream, the system plays the message and disconnects the call.
-- The [call recording and SMS services](voice-channel-connect-existing-resource.md#enable-incoming-calls-call-recording-and-sms-services) are enabled.
+- The [call recording and SMS services](voice-channel-configure-services.md) are enabled.
 
 ## Configure voicemail to manage overflow of voice calls
 
@@ -105,7 +105,10 @@ The voicemail record is set up for routing out of the box. Voicemails are catego
 
 ### Individual voicemails
 
-Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
+Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for agents, they must be signed in to the Contact Center workspace or Customer Service workspace app and presence loaded, at least once. If the agent is signed in and presence is offline, the agent must decline the call notification. 
+
+> [!NOTE]
+> Agents receive voicemails only if they are signed in to the app and presence loads at least once. If the agent is signed in and their presence is set to offline, they must decline the call to receive the voicemail.
 
 - The workstream routes the voicemail to the individual voicemail queue.
 - By default, the individual voicemail queue has no agents.
@@ -147,7 +150,7 @@ Supervisors can view the voicemails on the **Omnichannel Ongoing Conversations D
        - **Default Individual Voicemail Workstream**: Contains the settings to handle individual voicemails.
        - **Default Group Voicemail Workstream**: Contains the settings to handle group voicemails.
 
-### See also
+### Related information
 
 [Overview of voice channel](voice-channel.md)  
 [Overview of unified routing](overview-unified-routing.md)  

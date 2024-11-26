@@ -113,7 +113,7 @@ Teasers are disabled in your organization.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
 [Create insight cards](create-insight-cards-flow.md)  

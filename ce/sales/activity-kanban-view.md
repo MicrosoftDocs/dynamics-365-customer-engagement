@@ -80,7 +80,7 @@ Here are some important things to know about your Kanban view:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
 

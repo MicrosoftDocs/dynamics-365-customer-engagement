@@ -786,7 +786,7 @@ See the [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measurement_base_uni
 
 See the [unit_of_measure_schedule_conversions](uomschedule.md#BKMK_unit_of_measure_schedule_conversions) one-to-many relationship for the [uomschedule](uomschedule.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

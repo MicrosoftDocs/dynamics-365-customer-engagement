@@ -312,6 +312,6 @@ To return the knowledge article search results to the bot, follow either of thes
 
 - For more information on flow error codes, go to [Error codes: Copilot Studio](/power-virtual-agents/error-codes)
 
-### See also
+### Related information
 
 [Create and edit topics](/power-virtual-agents/authoring-create-edit-topics)

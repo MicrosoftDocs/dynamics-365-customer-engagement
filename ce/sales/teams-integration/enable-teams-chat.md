@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams chat in Dynamics 365 Sales 
 description: Enable Teams chat to help users effectively collaborate on their sales records without having to leave the application.
-ms.date: 06/28/2024
+ms.date: 07/26/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -27,18 +27,6 @@ As an administrator, you can configure the ability for sellers to chat in Micros
 > Teams settings apply across all customer engagement apps. So, whether you enable the feature from Sales Hub or a custom app, it'll be enabled for all supported customer engagement apps.
 
 When the feature is enabled, while working on sales records, sellers can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help sellers maintain all the chats related to the record in one place. You can also configure an optional introduction message that sellers can use to provide further context when collaborating on Teams.
-
-This feature requires certain permissions to access Teams data. Review the [Permissions required](#permissions-required) and [Data security and privacy](#data-security-and-privacy) sections to know more.
-
-## Permissions required
-
-| **Permission**      | **Type**    | **What the app does with the permission**       |
-|---------------------|-------------|-------------------------------------------------|
-| Chat.ReadWrite.All  | Delegated   | Reads a user's chats and recent messages to display in the chat list.         |
-| Directory.Read.All  | Delegated   | Reads the display names for user's teams and channels.     |
-| Presence.Read.All   | Delegated   | Reads presence information for all users to be displayed on the user avatars in the chat list.    |
-| User.Read.All       | Application | Reads the display name and licenses of users to validate whether the suggested participants have a Teams license assigned. This permission is used by the **Suggested chats & contacts** section in the chat list. The permission is set at the application level, because it's used by a background service for better performance. |
-| User.ReadBasic.All  | Delegated   | Reads users' photos.  |
 
 ## Enable or disable Teams chat
 
@@ -152,10 +140,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - Policies that apply both to Teams and Dynamics 365 are honored by the integration. For example, confidential files shared in a connected chat can only be accessed by permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permissions to view it.  
 
-- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, go to [What are the privileges and type of permissions required by the integration?](teams-in-dynamics-faq.md#what-are-the-privileges-and-types-of-permissions-required-by-the-integration).  
-
-
-### See also
+## Related information
 
 [Use Microsoft Teams chat in Sales Hub](using-teams-chat-in-dynamics.md)  
  

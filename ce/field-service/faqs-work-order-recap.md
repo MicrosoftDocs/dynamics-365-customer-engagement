@@ -1,7 +1,7 @@
 ---
-title: FAQ about work order recap with Copilot and summary configuration (preview)
-description: Get answers to common questions about how the AI-powered work order recap feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
-ms.date: 04/18/2024
+title: FAQ about work order summary with Copilot and summary configuration (preview)
+description: Get answers to common questions about how the AI-powered work order summary feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
+ms.date: 11/05/2024
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
@@ -15,19 +15,19 @@ ms.reviewer: jacohen
 ms.collection: bap-ai-copilot 
 ---
 
-# FAQ about work order recap with Copilot and summary configuration (preview)
+# FAQ about work order summary with Copilot and summary configuration (preview)
 
-The work order recap is an AI-powered tool that gives you a quick and smart summary of your work orders and their related data. Summary configuration allows administrators to specify which data fields go into the summary. In this article, you get answers to common questions about how these features work and what their limitations are.
+The work order summary is an AI-powered tool that gives you a quick and smart summary of your work orders and their related data. Summary configuration allows administrators to specify which data fields go into the summary. In this article, you get answers to common questions about how these features work and what their limitations are.
 
-## What is the work order recap feature?
+## What is the work order summary feature?
 
-The work order recap feature in Dynamics 365 Field Service uses AI to give service managers, dispatchers, and frontline workers a concise and relevant summary of a work order and its related data. The recap is a snapshot of the work order's status, history, progress, and next steps. It also includes important information such as arrival times, work criticality, and parts usage.
+The work order summary feature in Dynamics 365 Field Service uses AI to give service managers, dispatchers, and frontline workers a concise and relevant summary of a work order and its related data. The summary is a snapshot of the work order's status, history, progress, and next steps. It also includes important information such as arrival times, work criticality, and parts usage.
 
 To customize the summary, an administrator can use the summary configuration feature to choose the data fields that Copilot uses to summarize a record in Field Service.
 
 ## What are the feature's capabilities?
 
-The work order recap uses your security role to access the data that you can see and summarizes it based on the work order's status. The recap might include:
+The work order summary uses your security role to access the data that you can see and summarizes it based on the work order's status. The summary might include:
 
 - A summary of the work order's problem, resolution, and customer feedback
 - Booking details such as start and end time, travel time, and resource
@@ -42,27 +42,27 @@ To customize the summary, an administrator can turn on the summary configuration
 
 ## What is the feature's intended use?
 
-You can use work order recap to quickly understand the state of a work order at any stage of its lifecycle. The feature provides a context-specific summary that helps you decide what actions to take or what details to investigate further. It's not a substitute for a thorough review of the work order and its related information.
+You can use work order summary to quickly understand the state of a work order at any stage of its lifecycle. The feature provides a context-specific summary that helps you decide what actions to take or what details to investigate further. It's not a substitute for a thorough review of the work order and its related information.
 
 An administrator can tailor the summary that Copilot creates to only include specific fields that the scenario calls for, thereby providing a summary more relevant to a frontline worker’s needs.
 
 ## How was the feature tested and what metrics are used to measure its performance?
 
-We tested the feature using English (en-us).
+We tested the feature in English. For detailed information on the supported languages, [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
-We checked the accuracy and performance of the recap based on the data from the work order. The recap quality depends on the quality of the data in the system. If the data is incomplete or incorrect, the recap might reflect that.
+We checked the accuracy and performance of the summary based on the data from the work order. The summary quality depends on the quality of the data in the system. If the data is incomplete or incorrect, the summary might reflect that.
 
-We didn't find any cases where the recap made up information that wasn't in the data. However, we did find some cases where the recap didn't summarize the data correctly.
+We didn't find any cases where the summary made up information that wasn't in the data. However, we did find some cases where the summary didn't summarize the data correctly.
 
 ## What are the limitations of the feature and how can I minimize their impact?
 
-The work order recap and summary configuration features are still in preview, and we're working on improving them. You can help us by giving us feedback using the like/dislike buttons on the recap. We use this data to evaluate and improve the quality of the content.
+The work order summary and summary configuration features are still in preview, and we're working on improving them. You can help us by giving us feedback using the like/dislike buttons on the summary. We use this data to evaluate and improve the quality of the content.
 
 The feature only works online. You can't use it when you're offline.
 
-The feature was tested in English. If you use it in other languages, you might get inaccurate recaps.
+The feature was tested in English. If you use it in other languages, you might get inaccurate summaries.
 
-The feature summarizes the data that you can see and that exists in the system. If you don't have the right permissions or if the data is poor, the recap might not be useful. The quality of the recap matches the quality of the inputs.
+The feature summarizes the data that you can see and that exists in the system. If you don't have the right permissions or if the data is poor, the summary might not be useful. The quality of the summary matches the quality of the inputs.
 
 The default work order summary is generated with predefined optimizations. These optimizations are not applied when the summary configuration feature is enabled.  
 
@@ -74,7 +74,7 @@ To customize the summary, an administrator can enable **configure summary** to c
 
 [Learn more about the data collection policy of this feature](/dynamics365/faqs-copilot-data-security-privacy).
 
-## Can I add the recap to other forms or records?
+## Can I add the summary to other forms or records?
 
 The form component is called **Copilot recap**. By default, it's initially available only on the new work order experience form. An administrator can [add the control to other work order forms](/power-apps/maker/model-driven-apps/additional-controls-for-dynamics-365-for-phones-and-tablets#using-controls-in-the-form-designer).
 
@@ -84,7 +84,7 @@ At this time, the control is built for the work order. It can't be used to summa
 
 ### See also
 
-- [Work order recap with Copilot in Field Service](work-order-recap.md)
+- [Work order summary with Copilot in Field Service](work-order-recap.md)
 - [Responsible AI FAQ for Dynamics 365 Field Service](responsible-ai-overview.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]

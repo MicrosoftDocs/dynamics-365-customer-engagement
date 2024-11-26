@@ -56,6 +56,10 @@ Here's how it works:
 
 1. Run Resource Scheduling Optimization on a predefined schedule, or triggered by a workflow. After the system completes the optimization, dispatchers can [use the schedule board](../common-scheduler/schedule-board-utilization.md) to make changes as needed.
 
+## Get periodic updates
+
+Microsoft releases new versions of Resource Scheduling Optimization periodically. The [version history](./field-service-version-history-resource-scheduling-optimization.md#release-schedule) lists changes and updates. Some releases are rolled out to all stations on a set schedule. However, you can [selectively deploy a release](./rso-deployment.md#manage-the-resource-scheduling-optimization-instance) in your environment.
+
 ## Next steps
 
 - [Get Resource Scheduling Optimization](rso-get-install.md)

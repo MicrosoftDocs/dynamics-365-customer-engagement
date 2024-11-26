@@ -138,7 +138,7 @@ If you create multiple scoring models, use the **Select model** list on the **Pr
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)  

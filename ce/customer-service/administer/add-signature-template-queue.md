@@ -1,23 +1,13 @@
 ---
-title: Configure a default signature template for a queue | MicrosoftDocs
-description: "Learn how to set up email signature templates for queues."
-ms.date: 10/03/2022
-ms.topic: article
+title: Configure a default signature template for a queue 
+description: Learn how to set up email signature templates for queues.
+ms.date: 08/29/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.custom: 
-  - dyn365-customerservice
-search.audienceType: 
-  - admin
-  - customizer
-  - enduser
-searchScope: 
-  - D365-App-customerservicehub
-  - D365-Entity-queueitem
-  - D365-UI-*
-  - Customer Engagement
-  - Dynamics 365
-  - Customer Service
+ms.reviewer: mgandham
+ms.custom: bap-template
+
 ---
 
 # Add a default signature template to a queue
@@ -26,7 +16,7 @@ You can add a default signature template for a queue to ensure that emails sent 
 
 ## Prerequisites
 
-Email signature templates must be available before adding them to a queue.
+Email signature templates must be available in the application before you can add them to a queue.
 
 ## Set up default email signature for queues
 
@@ -40,6 +30,6 @@ Email signature templates must be available before adding them to a queue.
 
  ![Add a default signature template.](../media/email-sig-temp-queue.png "Add a default signature template to a queue")
 
-### See also  
+### Related information  
 
 [Create a signature for emails](/power-apps/user/email-signature)  

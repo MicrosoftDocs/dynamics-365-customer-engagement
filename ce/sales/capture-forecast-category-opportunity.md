@@ -49,7 +49,7 @@ You can also manually configure your columns for a fully customized forecast. Fo
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Create or edit an opportunity](create-edit-opportunity-sales.md)  
 

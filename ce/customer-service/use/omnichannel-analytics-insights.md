@@ -64,7 +64,7 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 See [Analytics reports refresh and data retention](info-analytics-reports.md#analytics-reports-refresh-and-data-retention)
 
-### See also
+### Related information
 
 [Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)  
 [Manage bookmarks](manage-bookmarks.md)  

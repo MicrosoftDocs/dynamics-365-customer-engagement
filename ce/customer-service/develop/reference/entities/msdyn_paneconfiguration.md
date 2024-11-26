@@ -771,7 +771,7 @@ See systemuser Entity [lk_msdyn_paneconfiguration_modifiedby](systemuser.md) One
 
 See systemuser Entity [lk_msdyn_paneconfiguration_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -2,7 +2,6 @@
 title: Block spam numbers in the voice channel
 description: Learn how to review, mark numbers as spam, and block the numbers in Omnichannel for Customer Service.
 ms.date: 07/14/2024
-ms.service: dynamics-365-customerservice
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -55,7 +54,7 @@ You can set conditions so that some numbers are automatically added to the block
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

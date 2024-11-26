@@ -149,7 +149,7 @@ Microsoft.Omnichannel.sendMessageToConversation(websiteRichLinkJSON, false);
 copy(websiteRichLinkJSON);
 ```
 
-### See also
+### Related information
 
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

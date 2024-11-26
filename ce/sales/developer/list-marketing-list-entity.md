@@ -18,7 +18,7 @@ In Dynamics 365, *list management* and the *list* (marketing list) table help yo
   
  There are two types of lists: static and dynamic. To specify whether the list is static or dynamic, use the `List.Type` attribute. All list members must be of the same table type, such as accounts, contacts, or leads. To add the members to a static list, use the <xref:Microsoft.Crm.Sdk.Messages.AddListMembersListRequest> message. The members for a dynamic list are selected dynamically based on the FetchXML query criteria during distribution of a campaign activity or a quick campaign. To specify the FetchXML criteria, use the `List.Query` attribute. Initially, the member count for the dynamic list is set to **null**. To determine how many records in the system satisfy the FetchXML query criteria, use the aggregate function on the query. You can create a new static list based on the existing dynamic list by using the <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest> message. The newly created static list is locked.  
   
-### See also  
+## Related information  
 
  [List Table](entities/list.md)   
  [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query)   

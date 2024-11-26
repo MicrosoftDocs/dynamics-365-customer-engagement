@@ -36,7 +36,7 @@ This installation lets your end users do the following tasks:
    -	Flag inappropriate content.
    -	Track the status of ideas users engaged with in own personalized space.
 
-### See also
+### Related information
 
 [Get started with Community](community-get-started.md)<br>
 [Create a Community forum](community-forum-setup.md)<br>

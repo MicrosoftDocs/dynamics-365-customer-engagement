@@ -50,7 +50,7 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 

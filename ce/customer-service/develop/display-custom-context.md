@@ -42,7 +42,7 @@ The `isDisplayable` property, when set to `true`, will display the context varia
 ![Display context keys.](../media/context-variable-display.png "Display context keys")
 
 
-### See also
+### Related information
 
 [Send custom context](send-context-starting-chat.md)<br />
 [setContextProvider](reference/methods/setContextProvider.md)

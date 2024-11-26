@@ -67,7 +67,7 @@ By default, the **Up next** widget is available only in the out-of-the-box Sales
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable and configure sales accelerator](enable-configure-sales-accelerator.md)   
 [Connect with customers through a record or the Up next widget](connect-with-customers.md)  

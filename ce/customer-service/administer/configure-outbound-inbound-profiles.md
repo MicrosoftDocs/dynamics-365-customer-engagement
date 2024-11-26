@@ -1,11 +1,11 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 06/07/2024
+ms.date: 10/24/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
@@ -15,9 +15,9 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-Use the information in this article to create profiles that are used during inbound and outbound calls. These profiles help you configure settings, such as language, wait music, and transcription settings for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that are used for direct inward dialing to specific agents and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
-Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
+Inbound profiles enable direct inward dialing to individual agents, and they differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to agents aren't tracked in unified routing historical analytics.
 
 ## Prerequisites
 
@@ -114,7 +114,7 @@ Edit the profiles to update the behavior and advanced settings. You can delete p
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

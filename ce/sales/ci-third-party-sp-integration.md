@@ -1,13 +1,15 @@
-﻿---
+---
 title: Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
 description: Learn how to configure third-party dialers and Dynamics 365 to get conversation intelligence for calls made or received from third-party dialers.
-ms.date: 08/09/2023
-ms.custom: bap-template
+ms.date: 11/25/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Integrate third-party dialers with Dynamics 365 conversation intelligence (preview)
@@ -54,7 +56,7 @@ The following diagram illustrates how the integration works:
 
 2. Get the token to run the Conversation Intelligence APIs using the app created in the previous section:
 
-    ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=f448d7e5-e313-4f90-a3eb-5dbb3277e4b3/.default' -d 'client_secret=<your app secret>'```
+    ```curl -X POST -H 'Content-Type: application/x-www-form-urlencoded' https://login.microsoftonline.com/<tenant-id>/oauth2/v2.0/token -d 'client_id=<your app id>' -d 'grant_type=client_credentials' -d 'scope=00001111-aaaa-2222-bbbb-3333cccc4444/.default' -d 'client_secret=<your app secret>'```
 
    The `scope` parameter specifies the application ID of the Conversation intelligence app. Don't change this value.
 
@@ -91,7 +93,6 @@ The following diagram illustrates how the integration works:
         }
         ```
     For more information about the API, see the [Swagger documentation](https://api.media.recording.dynamics.com/api/specification.providers.json).
- 
 
 3. Call the following conversation intelligence API to get the list of users to record:  
     ```GET /api/v1.0/providers/users```
@@ -339,6 +340,6 @@ When Dynamics 365 receives the **callStarted** event from the dialer, you'll hav
 
 After selecting **Record**, you'll be able to see the real-time transcription during the call and a full summary and call insights at the end of the call. 
 
-### See also
+## Related information
 
 [View and understand the call summary page](view-and-understand-call-summary-sales-app.md)
