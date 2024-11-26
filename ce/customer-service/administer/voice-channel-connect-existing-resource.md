@@ -46,7 +46,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys":::
 
 > [!NOTE]
-> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connnection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
+> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
 
 ### Get Event Grid application and tenant IDs from the Azure portal
 
