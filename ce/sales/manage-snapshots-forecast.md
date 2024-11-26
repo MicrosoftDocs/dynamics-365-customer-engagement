@@ -1,13 +1,17 @@
 ---
 title: Manage snapshots for a forecast
 description: Use snapshots to automatically take a snippet of forecast data at a moment in time and compare how data is changed over time.
-ms.date: 03/29/2023
+ms.date: 09/01/2023
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.custom: bap-template
 ---
 # Take snapshots automatically  
+
+> [!NOTE]
+> Starting June 30, 2024, you'll no longer be able to enable snapshots for new forecast configurations. [Learn more](deprecations-sales.md#snapshot-deprecation).
 
 A snapshot freezes the forecast data at a moment in time. The frozen data includes aggregate column values, manual adjustments, and underlying record fields that directly affect the forecast. You can use these snapshots to see how the forecast and its underlying data have changed over time. 
 
@@ -33,13 +37,15 @@ Snapshots are taken automatically each day and while configuring the forecasts y
  
     :::image type="content" source="media/predictive-forecasting-snapshot-configuration-step.png" alt-text="Enable snapshot step in forecast configuration":::
 
-2.	Set the **Daily snapshots** toggle to **Enabled**. After the forecast is active, snapshots are automatically taken daily. The initial snapshot might take a few hours to generate.
+2.	Set the **Daily snapshots** toggle to **Enabled**.   
+    After the forecast is active, snapshots are automatically taken daily for weekly, monthly, and quarterly forecast periods. For annual periods, snapshots are taken weekly. The initial snapshot might take a few hours to generate.
 
     >[!NOTE]
     >-	For a forecast that's in progress, the snapshots are taken from the date the option is enabled. 
     >-	For a forecast that's scheduled for future, the snapshots are taken from the start date of the forecast. 
     >-	The final snapshot of a forecast is taken on the final day of the forecast.
     >-	Snapshots aren’t taken when a forecast is in inactive state or for the past dates. Snapshots of archived and inactive forecasts are deleted according to the [snapshot deletion rules](#snapshot-deletion-rules).
+
 
 >[!IMPORTANT]
 >While configuring columns for a forecast, ensure that each column is unique and the **Selector** option doesn't have duplicates. If duplicates exist, when you activate the forecast an error will be displayed that states that snapshots can't be enabled for the forecast.
@@ -61,7 +67,7 @@ Snapshots are deleted based on the following rules:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md)

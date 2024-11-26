@@ -5,6 +5,7 @@ ms.date: 02/22/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 
 ms.custom: 
   - dyn365-sales
@@ -269,9 +270,9 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
-[User Guide](user-guide.yml)
+[User Guide](user-guide.yml)  
 [Actions supported in online and offline mode](Features-in-mobile-offline.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

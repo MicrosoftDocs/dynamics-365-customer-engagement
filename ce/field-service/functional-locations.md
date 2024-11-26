@@ -1,7 +1,7 @@
 ---
-title: Create functional locations (contains video)
+title: Create functional locations
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 01/24/2023
+ms.date: 05/10/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -21,7 +21,6 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 ## Prerequisites
 
-- Field Service v8.8.x or later
 - [Service accounts are created](accounts.md)
 
 ## Create a functional location
@@ -36,9 +35,13 @@ In Field Service, functional locations allow you to specify granular, hierarchic
 
 1. Enter a **Name** and **Service Address**.
 
-1. (Optional) If this location is part of a hierarchy, enter its **Parent Functional Location**.
-
-    You can skip this step and drag the location into its place in an existing hierarchy later.
+1. Optional:
+   - If this location is part of a hierarchy, enter its **Parent Functional Location**. You can skip this step and drag the location into its place in an existing hierarchy later.
+   - Choose a **Functional Location Type** that helps you [categorize locations](#create-and-assign-functional-location-types) of the same type. For example, warehouses or office buildings.
+   - Enter a **Cost center** for bills related to a location.
+   - Note an **Email address** for the right contact person of the location.
+   - Set an **Open date** to indicate when a location first opened.
+   - Choose **Primary time zone** for the location.
 
 1. Select **Save**.
 
@@ -48,6 +51,18 @@ The new location appears in the list. You can drag it into an existing hierarchy
 - If you drag a subcomponent under a new parent with a different functional location, the new parent's functional location replaces the asset's original functional location. If you move a display from a computer in Building A to a computer in Building B, the display takes the location of the computer in Building B.
 
 Select a location in the list to view information about it.
+
+## Create and assign functional location types
+
+Use functional location types to group locations. Functional location types allow you to quickly [apply property templates](properties.md) to a group of locations.
+
+1. In Field Service, select the **Settings** area, and then select **Functional Location Types**.
+
+1. Select **New**.
+
+1. Enter a **Name** for the functional location type.
+
+1. Select **Save**.
 
 ## Add assets to a functional location
 
@@ -88,6 +103,8 @@ Watch the following video to learn more about searching functional locations and
 
 Associate a functional location with a [work order](create-work-order.md) to make it easier for field technicians to find a customer asset to work on.
 
+If you don't set a functional location, the system uses the service address on the work order. If no service address exists, the system uses the address of the contact that reported the issue.
+
 :::image type="content" source="media/assets-functional-location-work-order.png" alt-text="Screenshot of the functional location field on a work order.":::
 
 If you select a functional location, the work order's **Location** tab displays the location's address and latitude and longitude coordinates.
@@ -102,13 +119,16 @@ For example, a technician needs to go to two different buildings to perform main
 
 ## Functional locations in the mobile app
 
-Technicians can view the functional location of a work order in the Dynamics 365 Field Service Mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
+Technicians can view the functional location of a work order in the Dynamics 365 Field Service mobile app. If the app is connected to the Internet, they can also view and interact with customer asset and functional location hierarchies.
 
-:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service Mobile app, showing asset hierarchies and functional locations.":::
+:::image type="content" source="media/mobile-2020-functional-location-hierarchy-combined.png" alt-text="Simulated screenshots of the Field Service mobile app, showing asset hierarchies and functional locations.":::
 
-The following video offers a guided walk-through of using functional locations in the Field Service Mobile app.
+The following video offers a guided walk-through of using functional locations in the Field Service mobile app.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+
+> [!NOTE]
+> Filtering functional locations by service account is not supported in the offline-enabled Field Service mobile application. 
 
 ## Functional locations for cases
 

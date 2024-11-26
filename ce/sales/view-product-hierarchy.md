@@ -5,6 +5,7 @@ ms.date: 03/13/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -38,7 +39,7 @@ A product hierarchy gives you a visual snapshot of the products your organizatio
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Create a product family](create-product-family.md)
 

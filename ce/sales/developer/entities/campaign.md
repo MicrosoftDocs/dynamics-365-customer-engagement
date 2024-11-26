@@ -1,12 +1,13 @@
 ---
-title: "Campaign table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Campaign table/entity reference"
 description: "Includes schema information and supported messages for the Campaign table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,25 +24,27 @@ Container for campaign activities and responses, sales literature, products, and
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|AddItemCampaign|<xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignRequest>|
-|AddItemCampaignActivity|<xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignActivityRequest>|
-|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|CopyCampaign|<xref:Microsoft.Crm.Sdk.Messages.CopyCampaignRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|RemoveItemCampaign|<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignRequest>|
-|RemoveItemCampaignActivity|<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignActivityRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|AddItemCampaign||<xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignRequest>|
+|AddItemCampaignActivity||<xref:Microsoft.Crm.Sdk.Messages.AddItemCampaignActivityRequest>|
+|Assign|PATCH /campaigns(*campaignid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|CopyCampaign||<xref:Microsoft.Crm.Sdk.Messages.CopyCampaignRequest>|
+|Create|POST /campaigns<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /campaigns(*campaignid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|RemoveItemCampaign||<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignRequest>|
+|RemoveItemCampaignActivity||<xref:Microsoft.Crm.Sdk.Messages.RemoveItemCampaignActivityRequest>|
+|Retrieve|GET /campaigns(*campaignid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /campaigns<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|PATCH /campaigns(*campaignid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /campaigns(*campaignid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -78,6 +81,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
 - [IsTemplate](#BKMK_IsTemplate)
 - [Message](#BKMK_Message)
+- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [Name](#BKMK_Name)
 - [Objective](#BKMK_Objective)
 - [OtherCost](#BKMK_OtherCost)
@@ -316,6 +320,31 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxLength|256|
 |RequiredLevel|None|
 |Type|String|
+
+
+### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
+
+**Added by**: Predictive Opportunity Scoring Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Describes whether campaign is opted out or not|
+|DisplayName|GDPR Optout|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_gdproptout|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_gdproptout Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -1502,7 +1531,7 @@ IntersectEntityName: campaignitem<br />
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

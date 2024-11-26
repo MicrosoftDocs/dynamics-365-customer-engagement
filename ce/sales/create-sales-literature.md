@@ -5,6 +5,7 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-salesliterature
@@ -59,7 +60,7 @@ There are two ways to send the sales literature to other users:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also  
+## Related information  
 [Create or edit a competitor record](create-edit-competitor-record-sales.md)  
 [Set up a product](create-product-sales.md)  
 

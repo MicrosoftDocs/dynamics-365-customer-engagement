@@ -1,0 +1,462 @@
+- name: Dynamics 365 Customer Service
+  items: 
+    - name: Use Dynamics 365 Customer Service
+      items:
+      - name: Dynamics 365 Customer Service documentation
+        href: ../index.yml
+      - name: Welcome to Dynamics 365 Customer Service
+        href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Use Customer Service workspace
+        href: ../implement/csw-overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Use Customer Service Team Member
+        href: ../implement/customer-service-team-member.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Use Customer Service Hub
+        href: ../implement/customer-service-hub-user-guide-basics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Troubleshoot and FAQs
+        href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Unified routing and assignment
+        items:
+          - name: View historical analytics reports
+            href: supervisor-historical-analytics.md
+          - name: Access diagnostics for unified routing
+            href: supervisor-access-diagnostics.md
+          - name: Route records manually using unified routing
+            href: routing-trigger.md
+          - name: Work with queues
+            href: work-with-queues.md
+          - name: Manage case queues and route cases
+            href: customer-service-hub-user-guide-case-queues-and-routing.md
+          - name: Manage skills
+            href: manage-skills.md
+      - name: Case management
+        items: 
+          - name: Create cases
+            href: customer-service-hub-user-guide-create-a-case.md
+          - name: Use enhanced case forms to manage cases
+            href: enh-casemgmt-csw.md
+          - name: Track your time on cases (preview)
+            href: case-handling-time.md  
+          - name: Resolve, cancel, and reassign cases
+            href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
+          - name: Merge cases
+            href: customer-service-hub-user-guide-merge-cases.md
+          - name: Manage cases with case grids
+            href: case-grids.md
+          - name: View a social profile
+            href: view-social-profile.md
+          - name: Convert a case to a knowledge article
+            href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
+          - name: View AI-suggested similar cases and knowledge articles
+            href: csw-view-ai-suggested-cases-knowledge-articles.md
+          - name: Manage cases using interactive dashboards
+            href: customer-service-hub-user-guide-dashboard.md
+      - name: Service-level agreements
+        items:
+        - name: Overview of service-level agreements
+          href: overview-service-level-agreements.md
+        - name: Understand SLAs
+          href: customer-service-hub-user-guide-case-sla.md
+      - name: Email
+        items: 
+          - name: Use email
+            href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
+          - name: View, compose, and respond to emails
+            href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context
+          - name: Enhanced recepient handling
+            href: /power-apps/user/view-compose-email#enhanced-recipient-handling?context=/dynamics365/context/customer-service-context
+          - name: Use enhanced experience to attach files to emails
+            href: enhanced-email-attachment-control.md                            
+          - name: Attach a file to email
+            href: /power-apps/user/attach-email?context=/dynamics365/context/customer-service-context         
+          - name: Use the rich text editor toolbar in email
+            href: /power-apps/user/email-rich-text-editor?context=/dynamics365/context/customer-service-context
+          - name: Send email to multiple recipients
+            href: /power-apps/user/direct-email?context=/dynamics365/context/customer-service-context
+          - name: Resolve an unresolved email recipient
+            href: /power-apps/user/unresolved-email-recipient?context=/dynamics365/context/customer-service-context
+          - name: Email templates
+            items: 
+            - name: Create an email template
+              href: /power-apps/user/email-template-create?context=/dynamics365/context/customer-service-context
+            - name: Insert an email template
+              href: /power-apps/user/insert-email-template?context=/dynamics365/context/customer-service-context
+            - name: Personalize emails with dynamic text
+              href: /power-apps/user/email-dynamic-text?context=/dynamics365/context/customer-service-context          
+            - name: Customize an email template using the template editor
+              href: /power-apps/user/cs-template-options?context=/dynamics365/context/customer-service-context
+            - name: Convert an email to a template
+              href: /power-apps/user/email-template-convert?context=/dynamics365/context/customer-service-context
+            - name: Create a signature for emails
+              href: /power-apps/user/email-signature?context=/dynamics365/context/customer-service-context
+          - name: Email FAQ and known issues
+            href: /power-apps/user/activities-known-issues?context=/dynamics365/context/customer-service-context 
+      - name: Inbox
+        items:
+          - name: Use the inbox
+            href: use-inbox.md
+      - name: Timeline
+        items: 
+          - name: Use timeline
+            href: /powerapps/user/add-activities
+          - name: Learn about linking timeline notes with table records
+            href: link-note-to-entity-task.md  
+      - name: Knowledge management
+        items:
+        - name: Overview of knowledge management 
+          href: overview-knowledge-management.md
+        - name: Understand the knowledge article creation process
+          href: ka-process.md
+        - name: Create and manage knowledge articles 
+          href: customer-service-hub-user-guide-knowledge-article.md
+        - name: Configure the knowledge article authoring language
+          href: set-knowledge-article-authoring-language.md
+        - name: Review knowledge articles 
+          href: review-ka.md
+        - name: Publish knowledge articles 
+          href: publish-ka.md
+        - name: Create and manage article versions
+          href: ka-versions.md
+        - name: Translate knowledge articles 
+          href: translate-ka.md
+        - name: Manage feedback for knowledge articles
+          href: feedback-sla.md 
+        - name: Create templates for knowledge articles
+          href: create-templates-knowledge-article.md
+        - name: Prevent duplicate workflows with knowledge article operations
+          href: dup-workflows-ka.md
+        - name: Knowledge article analytics
+          href: dashboards-ka.md
+        - name: Search knowledge articles
+          href: search-knowledge-articles-csh.md
+        - name: Email a knowledge article
+          href: email-articles.md
+        - name: Link and unlink knowledge articles
+          href: link-articles.md
+        - name: Filter knowledge articles
+          href: filter-articles.md
+        - name: Submit ratings and feedback for knowledge articles
+          href: submit-feedback.md
+        - name: Convert a case to a knowledge article
+          href: customer-service-hub-user-guide-convert-case-to-knowledge-article.md
+        - name: Understand how search works in knowledge management
+          href: search-operators.md
+        - name: Search the knowledge base on portals
+          href: knowledge-base-search-methods.md
+      - name: Microsoft Teams for collaboration
+        items:
+        - name: Use Microsoft Teams chat
+          href: use-teams-chat.md
+        - name: Use suggested contacts to collaborate with coworkers
+          href: teams-use-suggested-contacts.md
+        - name: Use Teams meetings
+          href: use-teams-meetings.md
+        - name: Collaborate with AI-suggested contacts in Microsoft Teams
+          href: use-ai-suggested-contacts-teams.md
+        - name: Use auto-summarization for ongoing conversations
+          href: cs-ai-generated-summary.md
+        - name: Use Join a Teams call to enhance customer conversations
+          href: join-a-teams-call.md
+        - name: Use customer support swarming to resolve issues
+          href: use-customer-support-swarming.md
+        - name: Share and update Dynamics 365 records within Microsoft Teams conversation
+          items:
+          - name: Overview
+            href: /dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context
+          - name: Work with the Dynamics 365 app
+            items:
+            - name: Access the Dynamics 365 app through messaging extensions
+              href: /dynamics365/sales/teams-integration/access-d365-app?context=/dynamics365/context/customer-service-context
+            - name: Edit settings of the Dynamics 365 app
+              href: /dynamics365/sales/teams-integration/edit-d365-app?context=/dynamics365/context/customer-service-context
+            - name: Share feedback
+              href: /dynamics365/sales/teams-integration/share-feedback-d365-app?context=/dynamics365/context/customer-service-context
+            - name: Share a record in Teams conversation
+              href: /dynamics365/sales/teams-integration/share-dynamics-records-in-teams?context=/dynamics365/context/customer-service-context
+            - name: View and update record details
+              href: /dynamics365/sales/teams-integration/view-update-dynamics-records?context=/dynamics365/context/customer-service-context
+            - name: Add chat messages to Dynamics 365 as notes or tasks
+              href: /dynamics365/sales/teams-integration/add-chat-d365?context=/dynamics365/context/customer-service-context
+      - name: Voice
+        items:
+        - name: Call a customer
+          href: voice-channel-call-customer.md
+        - name: Use call controls and the agent desktop for voice
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: How to avoid call disconnection
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Manage voicemails
+          href: manage-voicemails.md
+        - name: Transfer calls and consult with other users
+          href: voice-channel-transfer-consult.md
+        - name: View call recordings and transcripts
+          href: voice-channel-call-recordings-transcripts.md
+        - name: Monitor voice calls
+          href: voice-channel-monitor-calls.md
+      - name: Chat and Channels
+        items:
+        - name: Omnichannel for Customer Service for agents
+          href: omnichannel-customer-service-app-agent.md
+        - name: Sign into the agent app
+          href: oc-sign-in-omnichannel.md
+        - name: Know the agent interface in Omnichannel for Customer Service
+          href: oc-introduction-agent-interface.md
+        - name: View agent dashboard and work items
+          href: oc-agent-dashboard.md
+        - name: View agent notifications
+          href: oc-notifications.md
+        - name: View communication panel
+          href: oc-conversation-control.md
+        - name: View active conversations
+          href: oc-customer-summary.md
+        - name: Understand disconnected chats
+          href: oc-conv-state-chat-disconnect.md
+        - name: Understand conversation states
+          href: oc-conversation-state.md
+        - name: Create a record
+          href: oc-create-record.md
+        - name: Search, link, and unlink a record
+          href: oc-search-link-unlink-record.md
+        - name: Take notes for conversation
+          href: oc-take-notes.md    
+        - name: View call options and visual engagement in live chat
+          href: call-options-visual-engagement.md
+        - name: Monitor real-time customer sentiment
+          href: oc-monitor-real-time-customer-sentiment-sessions.md
+        - name: Manage sessions
+          href: oc-manage-sessions.md
+        - name: Manage applications
+          href: oc-manage-applications.md
+        - name: Personalize sound notifications
+          href: oc-personalize-sound-notifications.md
+        - name: Create personal quick replies
+          href: create-personal-quick-replies.md
+        - name: Manage presence status
+          href: oc-manage-presence-status.md
+        - name: FAQ on agent presence in Customer Service
+          href: presence-faq.md  
+        - name: Search for transcripts
+          href: oc-search-transcipts.md
+        - name: View conversation and session forms
+          href: oc-view-activity-types.md
+        - name: View active conversation for an incoming conversation request
+          href: oc-view-customer-summary-incoming-conversation-request.md
+        - name: Real-time language translation of conversations
+          href: oc-real-time-translation.md
+        - name: Markdown formats for agents
+          href: markdown-formats-agents.md
+        - name: Introduction to channels
+          href: channels.md
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
+        - name: Use SMS channel
+          href: sms-twilio.md
+        - name: Use Facebook channel
+          href: facebook.md
+        - name: Use WhatsApp channel
+          href: whatsapp.md
+        - name: Use Microsoft Teams channel
+          href: teams-channel.md
+        - name: View social profiles
+          href: supported-channels-social-profiles.md  
+      - name: Agent productivity tools
+        items: 
+        - name: Productivity pane in Customer Service workspace
+          href: csw-productivity-pane.md
+        - name: View smart assist suggestions for knowledge articles and similar cases
+          href: oc-view-ai-suggested-cases-articles.md
+        - name: View smart assist suggestions
+          href: oc-smart-assist.md
+        - name: View the agent calendar
+          href: use-agent-calendar.md
+        - name: Use agent diagnostics as a self-help tool
+          href: use-agent-diagnostics.md
+        - name: Use agent scripts for customer interactions
+          href: oc-agent-scripts.md
+        - name: Rich messages in conversation control
+          href: rich-messages-conversation-control.md
+      - name: Copilot in Customer Service 
+        items: 
+        - name: Use Copilot to summarize cases and conversations
+          href: copilot-use-summary.md
+        - name: Summarize cases
+          href: copilot-use-summary.md#summarize-cases
+        - name: Summarize conversations
+          href: copilot-use-summary.md#summarize-conversations
+        - name: Ask a question 
+          href: use-ask-a-question.md
+        - name: Draft a chat response (preview)
+          href: use-copilot-features.md
+        - name: Write an email with Copilot
+          href: use-copilot-email.md
+        - name: Use Copilot filters
+          href: use-copilot-filters.md
+        - name: Use Copilot to generate knowledge drafts from cases
+          href: use-copilot-knowledge-from-cases.md  
+        - name: Understand how Copilot supports different languages
+          href: copilot-language-support.md
+        - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
+          href: copilot-chat-customer-service-data.md
+      - name: Analytics dashboards and insights
+        items: 
+        - name: Use Omnichannel real-time analytics dashboards
+          items:
+          - name: Overview of Omnichannel real-time analytics reports
+            href: intro-realtime-analytics-dashboard.md
+          - name: Summary report
+            href: realtime-summary-dashboard.md
+          - name: Voice report
+            href: realtime-voice-dashboard.md
+          - name: Bot report
+            href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml             
+          - name: Agents report
+            href: realtime-agents-analytics.md
+          - name: Ongoing Conversation report
+            href: realtime-ongoing.md
+        - name: Use Customer Service historical analytics dashboards
+          items: 
+          - name: Customer Service historical analytics dashboards
+            href: customer-service-analytics-insights-csh.md
+          - name: Summary dashboard
+            href: summary-dashboard-cs.md
+          - name: Agent dashboard
+            href: agent-dashboard-cs.md
+          - name: Case Topics dashboard
+            href: case-topics-dashboard-cs.md
+          - name: Unified routing dashboard
+            href: cs-historical-analytics-unified-routing.md
+        - name: Use Omnichannel historical analytics dashboards
+          items: 
+          - name: Omnichannel for Customer Service dashboards
+            href: omnichannel-analytics-insights.md
+          - name: Omnichannel Summary dashboard
+            href: omnichannel-summary-dashboard.md
+          - name: Omnichannel Conversation dashboard
+            href: oc-conversation-dashboard.md
+          - name: Omnichannel Queue dashboard
+            href: oc-queue-dashboard.md
+          - name: Omnichannel Voice dashboard
+            href: voice-channel-reports-analytics.md   
+          - name: Omnichannel Agent dashboard
+            href: agent-dashboard.md
+          - name: Omnichannel Bot dashboard
+            href: oc-bot-dashboard.md  
+          - name: Omnichannel Conversation topic dashboard
+            href: oc-conversation-topics-dashboard.md
+          - name: Omnichannel Voicemail dashboard
+            href: oc-voicemail-dashboard.md          
+          - name: Unified routing dashboard
+            href: oc-historical-analytics-unified-routing.md
+        - name: Use knowledge management analytics
+          href: knowledge-search-analytics-cs.md
+        - name: Use Copilot analytics
+          href: copilot-analytics-report.md
+        - name: Monitor conversations
+          items: 
+            - name: Monitor, assign, transfer, and forcibly end conversations
+              href: monitor-conversations.md
+            - name: Monitor and analyze sentiments
+              href: supervisor-sentiment-monitoring.md
+        - name: View and understand Omnichannel Ongoing Conversations dashboard
+          href: ongoing-conversations-dashboard.md
+        - name: Analytics reports refresh and data retention
+          href: info-analytics-reports.md
+        - name: Use Omnichannel for Customer Service metrics
+          href: oc-metrics-dimensions.md
+        - name: Personalize analytics
+          items: 
+          - name: Manage report filters
+            href: report-filters-groups.md
+          - name: Manage report bookmarks
+            href: manage-bookmarks.md
+        - name: Forecast reports
+          items:
+          - name: Forecast agent, case, and conversation volumes
+            href: use-volume-forecasting.md
+        - name: Customize visual display
+          href: customize-reports.md
+        - name: Customize data models
+          items:
+          - name: Overview of data model customization
+            href: datamodel-overview.md
+          - name: Use the out-of-the-box data model in your custom reports
+            href: use-datamodel.md
+          - name: Data models and report mappings for historical analytics reports
+            href: oob-data-models.md
+          - name: Data model mapping for real-time analytics reports
+            href: datamapping-realtime.md
+          - name: Dataverse entities used in historical and real-time analytics
+            href: dataverse-entities.md
+          - name: Customize the bot dashboard
+            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
+      - name: Service scheduling
+        items: 
+          - name: Core Service Scheduling
+            items: 
+            - name: Schedule business closure
+              href: set-when-business-closed-csh.md
+            - name: Schedule entities
+              items: 
+              - name: Schedule a service activity
+                href: schedule-service-activity-csh.md
+              - name: Manage fulfillment preferences
+                href: ../../common-scheduler/fulfillment-preferences.md
+            - name: Configure service activity using schedule board
+              href: use-schedule-board-configure-service-activity.md
+          - name: Service Scheduling in Unified Interface
+            items: 
+            - name: Service Scheduling in Unified Interface
+              href: uci-scheduling-overview.md
+            - name: Create or edit a service
+              href: uci-create-edit-service.md
+            - name: Add facilities and equipment
+              href: uci-add-facilities-equipment.md
+            - name: Schedule a service activity
+              href: uci-schedule-service-activity.md
+            - name: Create resource groups
+              href: uci-create-resource-groups.md
+            - name: Use sites to manage your service locations
+              href: uci-create-sites.md
+            - name: Navigate the service calendar
+              href: uci-navigate-service-calendar.md
+          - name: Legacy Service Scheduling
+            items: 
+            - name: Set up business closure
+              href: set-when-business-closed-cs-app.md
+            - name: Set work hours to define availability
+              href: set-work-hours-resource.md
+            - name: Schedule a service activity
+              href: schedule-service-activity-cs-app.md
+            - name: Manage sites
+              href: use-sites-manage-service-locations.md
+      - name: Report issues in Omnichannel for Customer Service
+        href: report-issues.md
+      - name: Share feedback in Customer Service
+        href: cs-share-feedback.md
+      - name: Known issues in Customer Service and Omnichannel for Customer Service
+        href: https://go.microsoft.com/fwlink/p/?linkid=2165393
+    - name: Responsible AI
+      items:
+      - name: Overview
+        href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Responsible AI FAQ for Copilot in Customer Service
+        href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Resources
+      items:
+      - name: Training
+        href: /training/dynamics365/customer-service
+      - name: Support
+        href: /dynamics365/get-started/support/
+      - name: Blog
+        href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
+      - name: Community
+        href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
+    - name: Administer Dynamics 365 Customer Service
+      href: ../implement/overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Implement Dynamics 365 Customer Service
+      href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Develop Dynamics 365 Customer Service
+      href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Dynamics 365 Channel Integration Framework
+      href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Unified Service Desk
+      href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml

@@ -1,15 +1,14 @@
 ---
 title: "What's new in Unified Service Desk for developers and customizers | MicrosoftDocs"
 description: "Learn about the new features available for developers and customizers in the latest version of Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 
 # What's new in Unified Service Desk for developers and customizers
@@ -62,7 +61,7 @@ More information: [Use Chrome Process to host web applications in Unified Servic
 
 Bring your channel providers and integrate them with Unified Service Desk client application using Channel Integration Framework.
 
-If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](../customer-service/channel-integration-framework/channel-integration-framework.md), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
+If your organization wants to use the cloud-based channel that you have developed using the [Channel Integration Framework](../channel-integration-framework/channel-integration-framework.md), you can integrate the same channel in Unified Service Desk with minimal configuration experience. In turn, this eliminates the need for developing multiple channels. 
 
 The User Interface Integration (UII) framework provides a hosted control - **Channel Integration Framework** - for you to host the channel provider within Unified Service Desk client application.
 

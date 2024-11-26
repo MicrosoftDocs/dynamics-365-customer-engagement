@@ -1,11 +1,11 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 03/08/2023
+ms.date: 12/22/2023
 ms.custom: bap-template
 ms.topic: overview
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 
@@ -25,11 +25,11 @@ In other words, Field Service defines **what** needs to be done and **where**, w
 
 ### Generate requirements from a work order
 
-For every work order, the system creates a related requirement. It outlines the specific details for resources that can perform the work order. Requirements will be scheduled to resources and reference the work order.
+For every work order, the system creates a related requirement. It outlines the specific details for resources that can perform the work order. Requirements are scheduled to resources and reference the work order.
 
 By default, the system created one requirement for each work order. However, a work order can have multiple requirements or a requirement group with multiple requirements. [Create incident types to configure templates for work order](configure-incident-types.md).
 
-Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes will update requirement attributes. Manual edits to requirements can be made before scheduling, too.
+Requirements inherit attributes from the work order, such as name, location, duration, and more. Updating work order attributes updates requirement attributes. Manual edits to requirements can be made before scheduling, too.
 
 > [!CAUTION]
 > Manually created requirements for work order don't synchronize automatically.
@@ -38,7 +38,7 @@ Requirements inherit attributes from the work order, such as name, location, dur
 
 After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
-Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource will perform the work, the status of the booking, travel time, and start/end times.
+Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
 
 ## Scheduling personas
 
@@ -62,9 +62,9 @@ Dynamics 365 Field Service includes a broad set of scheduling capabilities.
 
 ### Manual scheduling on the schedule board
 
-The schedule board plays an important role across all types of scheduling You can configure it ot meet your scheduling requirements. For basic service scheduling, match a requirement to a resource in a particular time slot on the schedule board.
+The schedule board plays an important role across all types of scheduling. You can configure it to meet your scheduling requirements. For basic service scheduling, match a requirement to a resource in a particular time slot on the schedule board.
 
-Manual scheduling wih the schedule board works especially well for emergency work or requirements with limited complexity.
+Manual scheduling on the schedule board works well for emergency work or requirements with limited complexity.
 
 ### Semi-automated scheduling with the schedule assistant
 
@@ -78,7 +78,7 @@ Resource Scheduling Optimization is an add-in for Dynamics 365 Field Service, wh
 
 ## Enable Universal Resource Scheduling for Field Service
 
-There are a few things you'll need to configure to enable Universal Resource Scheduling for Field Service.
+There are a few things you need to configure to enable Universal Resource Scheduling for Field Service.
 
 1. [Enable Resource scheduling](schedule-new-entity.md) for the *msdyn_workorder* entity.
 
@@ -93,17 +93,17 @@ There are a few things you'll need to configure to enable Universal Resource Sch
 
 ## Measure scheduling effectiveness
 
-[Look at pre-built reports and relevant KPIs](reports.md) to measure how scheduling influences your defined business objectives over time.
+[Look at reports and relevant KPIs](reports.md) to measure how scheduling influences your defined business objectives over time.
 
 Take a staggered approach to implement scheduling processes in your organization.
 
-1. Start with [manual scheduling using the schedule board](preview-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize with the system logic and establish business processes.
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
-1. Consider using the R[esource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
+1. Consider using the [Resource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
 ## Next steps
 
-- [Use and configure the schedule board in Dynamics 365 Field Service](configure-schedule-board.md)
+- [Use schedule board in Field Service](work-with-schedule-board.md)
 - [Overview of the schedule assistant](schedule-assistant.md)
 - [Get Resource Scheduling Optimization](rso-get-install.md)
 

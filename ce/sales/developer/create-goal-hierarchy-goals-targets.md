@@ -2,12 +2,12 @@
 title: Create goal hierarchy, goals, and targets (Dynamics 365 Sales)
 description: This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -22,7 +22,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
  ![Goals hierarchy.](../media/crm-v5s-em-goalshierarchy.png "Goals hierarchy")  
   
- The manager’s goal can be referred to as a parent goal, and the salesperson goals as child goals. A goal can have multiple child goals (one-to-many relationship) and be a child goal of another goal. The relationship between a parent goal record and a child goal record can also be described as a referential relationship, in which a child goal references the parent goal. If you delete a parent goal, the child goal is not deleted, only a reference to the parent goal is removed. For more information, see [Entity Relationship Behavior](/customerengagement/on-premises/developer/entity-relationship-behavior.md).  
+ The manager’s goal can be referred to as a parent goal, and the salesperson goals as child goals. A goal can have multiple child goals (one-to-many relationship) and be a child goal of another goal. The relationship between a parent goal record and a child goal record can also be described as a referential relationship, in which a child goal references the parent goal. If you delete a parent goal, the child goal is not deleted, only a reference to the parent goal is removed. For more information, see [Table relationship behavior](/power-apps/maker/data-platform/create-edit-entity-relationships#table-relationship-behavior).  
   
  The goal rollup is done from the bottom of the hierarchy to the top of the hierarchy. During rollup, the child goal totals are rolled into the parent goal totals. The ending total for the root goal at the top of hierarchy is a cumulative sum of all goal totals in the hierarchy.  
   
@@ -80,7 +80,7 @@ In preparation for goal management, you should specify a metric for a goal (amou
   
 -   Specify whether you want to roll up data from all available records or only from goal owner’s records by using the `Goal.ConsiderOnlyGoalOwnersRecords` column. For example, you can specify to roll up data only from the closed opportunities owned by the goal’s owner, instead of rolling up data from all closed opportunities.  
   
-### See also  
+## Related information  
  [Goal Management Entities](goal-management-entities.md)   
  [Define Goal Metric and Rollup Fields](define-goal-metric-rollup-fields.md)
 

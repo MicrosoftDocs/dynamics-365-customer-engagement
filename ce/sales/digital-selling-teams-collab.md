@@ -1,10 +1,13 @@
 ---
 title: "Collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
 description: "Learn how to collaborate using Microsoft Teams with the Dynamics 365 Sales Enterprise license."
-ms.date: 04/26/2022
-ms.topic: article
+ms.date: 02/02/2024
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Microsoft Teams collaboration
@@ -25,19 +28,10 @@ Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate sea
 
 ## Set up Teams collaboration
 
-1. On the **Get started with digital sales** page, under **Microsoft Teams collaboration**, select **Quick setup**.
-
-    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
-
-    The **Teams collaboration quick setup** panel is displayed.
-
-    :::image type="content" source="media/ds-teams-collab-setup.png" alt-text="Teams collaboration quick setup panel.":::
-
-2. Turn on the **Chat and collaborate from Dynamics 365 (preview)** toggle to enable the [embedded Teams chat](../teams-integration/using-teams-chat-in-dynamics.md) capability.
-
-3. Turn on the **Connect records to channels in Microsoft Teams** toggle to enable [basic Teams integration](../teams-integration/teams-collaboration.md).
-
-4. Select **Apply**.
+1. On the **Sales settings** page, under **Microsoft Teams collaboration**, select **Quick setup**.  
+1. Turn on the **Chat and collaborate from Dynamics 365 (preview)** toggle to enable the [embedded Teams chat](../teams-integration/using-teams-chat-in-dynamics.md) capability.  
+1. Turn on the **Connect records to channels in Microsoft Teams** toggle to enable [basic Teams integration](../teams-integration/teams-collaboration.md).  
+1. Select **Apply**.
 
 After the settings are enabled, your sellers can use Teams in Dynamics 365 and link chats to records to collaborate on deals. They can also pin records and views to Teams channels so they can collaborate on deals directly from Microsoft Teams.
 
@@ -55,7 +49,7 @@ If you want to make advanced configurations for Teams collaboration, select **Go
 
 3. Select **Apply**.
 
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)     

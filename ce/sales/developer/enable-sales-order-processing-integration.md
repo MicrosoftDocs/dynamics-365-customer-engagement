@@ -1,18 +1,21 @@
 ---
 title: Enable sales order processing integration
 description: Read how you can enable sales order processing integration to connect Dynamics 365 Sales with an external order processing application.
-ms.date: 03/29/2023
-ms.topic: get-started-article
+ms.date: 08/02/2024
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
+  - bap-template
 ---
 # Enable sales order processing integration 
 
 Connect Dynamics 365 Sales with an external order processing application by enabling this integration.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -28,7 +31,11 @@ By default, sales order processing is turned off. When sales order processing is
 > [!NOTE]
 > Price computation can be triggered by Dynamics 365 Sales only if the sales entities like Opportunity, Quote, Sales order, and Invoice are editable.
 
-## Turn on sales order processing integration
+## Enable the integration
+
+To set up and enable the integration, see the [Power Platform integration documentation](/dynamics365/fin-ops-core/dev-itpro/power-platform/overview).
+
+## Turn on the integration
 
 You can enable sales order processing integration by setting the value of the [IsSOPIntegrationEnabled](/power-apps/developer/data-platform/reference/entities/organization#BKMK_IsSOPIntegrationEnabled) column on the [Organization table](/power-apps/developer/data-platform/reference/entities/organization) to **Yes (1)**.
 
@@ -55,7 +62,7 @@ The following table lists the conditions that need to be satisfied before Dynami
 
 ## Turn off the sales order processing setting
 
-By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-sales-order-processing-integration) using the ```IsSOPIntegrationEnabled``` column, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
+By default, sales order processing integration is turned off. If you've [turned it on](#turn-on-the-integration) using the ```IsSOPIntegrationEnabled``` column, you can turn it off using the **App Settings** page or by setting ```IsSOPIntegrationEnabled``` to **No**.
 
 1. Go to **Sales Hub**, and then select **App Settings**.
 2. Select **General/Overview**, and then select **Back Office Order Processing Integration**.
@@ -66,7 +73,7 @@ By default, sales order processing integration is turned off. If you've [turned 
 
 [!INCLUDE [cant-find-option](../../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Organization table reference](/power-apps/developer/data-platform/reference/entities/organization)<br />
 [System user table reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />

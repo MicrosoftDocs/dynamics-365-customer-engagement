@@ -1,12 +1,14 @@
 ---
 title: "View a customer summary in Omnichannel for Dynamics 365 | MicrosoftDocs"
 description: "Customer summary is a page where you can get all available information about the customer with who you're going to interact."
-ms.date: 01/13/2021
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # View a customer summary to get available information about a customer
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
@@ -83,7 +85,7 @@ The **Self service** tab displays information about the activities the customer 
    > [!div class='mx-imgBorder']
    > ![Self service tab.](../../customer-service/media/customer-summary-self-service-tab.png "The Self service tab")
 
-To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../customer-service/enable-self-service-settings.md).
+To configure the appearance of the **Self service** tab, see [Enable self-service settings of customer actions in conversation summary](../../customer-service/administer/enable-self-service-settings.md).
 
 ### Visitor details
 
@@ -93,7 +95,7 @@ The **Visitor details** tab provides information such as whether the customer is
 
 ![Authenticated chat shown as Yes on the Visitor details tab](../../customer-service/media/conversation-summary-authenticated-chat.PNG "Authenticated chat shown as Yes on the Visitor details tab") ![Unauthenticated chat shown as No on the Visitor details tab](../../customer-service/media/conversation-summary-unauthenticated-chat.PNG "Unauthenticated chat shown as No on the Visitor details tab")
 
-To learn more, see [Create chat authentication settings](../../customer-service/create-chat-auth-settings.md).
+To learn more, see [Create chat authentication settings](../../customer-service/administer/create-chat-auth-settings.md).
 
 ## Case
 
@@ -182,7 +184,7 @@ A *sub-agent script* is another agent script that has been invoked from the curr
 [Create a record](create-record.md)  
 [Search for records](search-record.md)  
 [Link and unlink a record](link-unlink-record.md)  
-[setContextProvider](../../customer-service/developer/reference/methods/setContextProvider.md)  
+[setContextProvider](../../customer-service/develop/reference/methods/setContextProvider.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

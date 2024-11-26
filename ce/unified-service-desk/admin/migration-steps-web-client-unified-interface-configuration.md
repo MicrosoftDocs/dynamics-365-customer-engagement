@@ -1,15 +1,13 @@
 ---
 title: "Migrate configurations from Web Client to Unified Interface | MicrosoftDocs"
 description: "Learn about the three-step process for migrating your Unified Service Desk configurations from the legacy web client to Unified Interface."
-ms.date: 08/17/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 
 # How to migrate Unified Service Desk configurations from the legacy web client to Unified Interface
@@ -45,9 +43,8 @@ This diagram illustrates the flow of the migration:
 2. In the introduction screen, select **Continue**.
 
 3. In the **Login** screen, provide authentication details to connect to the instance from where you want to fetch and migrate the configurations. If you have multiple organizations, and want to select the organization where you want to fetch and migrate the configurations, select the **Display list of available organizations** checkbox, and select **Login**.</br>
-![Migration Assistant Login screen.](../media/usd-migration-assistant-login.PNG "Migration Assistant Login Screen")
 
-4. In the **Export Configurations** screen, select **Export**.</br>
+1. In the **Export Configurations** screen, select **Export**.</br>
 **Data file location** is the location where the migration assistant stores the **Data.zip** folder, which contains the configurations that you export from the Web Client.</br>
 When the export is successfully completed, select **Next**.</br>
 ![Export configurations screen.](../media/usd-migration-assistant-export-configurations.PNG "Export configurations screen")
@@ -104,7 +101,7 @@ For more information, see [Import, update, and export solutions](/dynamics365/cu
 ![Configuration Migration Tool options screen.](../media/usd-configuration-migration-tool-options.PNG "Configuration Migration Tool options data screen")
 
 4. In the **Login** screen, provide authentication details to connect to the instance to which you want to deploy the migrated configurations. If you have multiple organizations, and want to select the organization to which you want to deploy the migrated configurations, select the **Display list of available organizations** check box, and select **Login**.</br>
-![Configuration Migration Tool login screen.](../media/usd-configuration-migration-tool-login.PNG "Configuration Migration Tool login screen")
+
 
 5. In the next screen, browse the **USD_UI_Configurations** folder and select the **Data.zip** folder, and then select **Import Data**.</br>
 ![Browse and select data.zip folder.](../media/usd-configuration-migration-tool-import-data.PNG "Browse and select data.zip folder")

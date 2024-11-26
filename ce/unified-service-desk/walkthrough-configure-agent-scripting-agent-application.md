@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough 7: Configure agent scripting in your agent applications | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for configuring agent scripting in your agent applications."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Walkthrough 7: Configure agent scripting in your agent application
 

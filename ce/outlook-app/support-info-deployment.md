@@ -2,18 +2,20 @@
 title: "System requirements, limits, and configuration values for Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: System requirements, limits, and configuration values for Dynamics 365 App for Outlook.
-ms.date: 11/02/2022
-ms.reviewer: jimholtz
+ms.date: 05/14/2024
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: Dynamics 365 apps
 caps.latest.revision: 1
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
+ms.contributors:
+- nimagen
 ---
 
 
@@ -73,6 +75,39 @@ This topic contains requirements, limits, and configuration values for Dynamics 
 |German - 1031|Norwegian - 1044|Ukrainian - 1058|  
 |Greek - 1032|Polish - 1045|Vietnamese - 1066|  
 
+
+## Supported geographies and datacenters 
+
+Currently, the application is available in the following list of datacenters.
+
+To learn more on Azure datacenters, see the [Azure documentation](/azure/?product=databases).
+
+> [!Note]
+> The following list may change over time.
+
+| Region     | URL                      |
+|------------|--------------------------|
+| NAM        | crm.dynamics.com         |
+| DEU        | crm.microsoftdynamics.de |
+| SAM        | crm2.dynamics.com        |
+| CAN        | crm3.dynamics.com        |
+| EUR        | crm4.dynamics.com        |
+| APJ        | crm5.dynamics.com        |
+| OCE        | crm6.dynamics.com        |
+| JPN        | crm7.dynamics.com        |
+| IND        | crm8.dynamics.com        |
+| GCC        | crm9.dynamics.com        |
+| GCC High   | crm.microsoftdynamics.us |
+| GBR        | crm11.dynamics.com       |
+| FRA        | crm12.dynamics.com       |
+| ZAF        | crm14.dynamics.com       |
+| UAE        | crm15.dynamics.com       |
+| GER        | crm16.dynamics.com       |
+| CHE        | crm17.dynamics.com       |
+| CHN        | crm.dynamics.cn          |
+| NOR        | crm19.dynamics.com       |
+| SGP        | crm20.dynamics.com       |
+
 ## Synchronization and tracking 
 
 The Dynamics 365 App for Outlook tracks and synchronizes your mail and calendar data between Outlook (Exchange) and Dynamics 365 apps. Server-side synchronization is an asynchronous service that runs in the background approximately every 15 minutes to synchronize items between Exchange and Dynamics 365 apps. In most scenarios, the Outlook item is immediately created in Dynamics 365 apps. However, in some cases, server-side synchronization service is used to promote the item to Dynamics 365 apps and keep it synchronized, which may take up to 15 minutes. The below table provides a brief explainer of the behavior.
@@ -97,6 +132,7 @@ If the Dynamics 365 App for Outlook uses Server-side synchronization to track an
 -  [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported on [Microsoft 365 shared mailbox](https://support.office.com/article/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd).
 - [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)] is not supported in configurations that have Dynamics 365 apps and Microsoft 365 (Exchange Online) in different tenants.
 - Windows 7 had reached [end of life](https://www.microsoft.com/en-us/windows/windows-7-end-of-life-support-information) and is no longer a supported client OS for Dynamics 365 App for Outlook.
+- Conditional access policies on mobile devices, like Android and iOS devices, are not supported.
 
 
 

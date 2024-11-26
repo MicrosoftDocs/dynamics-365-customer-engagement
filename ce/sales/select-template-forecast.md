@@ -5,6 +5,7 @@ ms.date: 03/15/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -40,7 +41,7 @@ On the **Forecast configurations** page, select one of the following templates:
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)
 

@@ -1,15 +1,14 @@
 ---
 title: "Toolbar Container (Hosted Control) | MicrosoftDocs"
 description: "Learn about using Toolbar Container type of hosted control to configure toolbars in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Toolbar Container (Hosted Control)
 Use **Toolbar Container** type of hosted control to create a toolbar in your application, which can display a list of buttons with images and text that can execute actions. You can create multiple Toolbar Container type of hosted controls, and place them on any panel in the application. For more information about working with toolbars, see [Configure toolbars in your application](../unified-service-desk/configure-toolbars-application.md).

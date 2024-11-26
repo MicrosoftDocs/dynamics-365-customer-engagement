@@ -1,13 +1,13 @@
 ---
 title: "Get started with the Dynamics 365 Customer Engagement Web API | MicrosoftDocs"
 description: "Read about the various operations you can perform using the Dynamics 365 Customer Engagement Web API."
-ms.custom: intro-internal
+ms.collection: get-started
 ms.date: 04/22/2019
 ms.reviewer: pehecke
 
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: C3BE3F70-37BA-4D03-A435-54E6127A287A

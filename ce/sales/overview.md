@@ -1,12 +1,15 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 05/15/2023
+ms.date: 10/04/2024
 ms.topic: overview
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
-ms.custom: bap-template
+ms.reviewer: udag
+ms.custom: 
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - bap-template
 ---
 
 # Welcome to Dynamics 365 Sales  
@@ -29,9 +32,11 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Sales Enterprise**: Ideal for enterprises that need a sales automation solution with contextual insights and advanced customization capabilities. [Learn more about Dynamics 365 Sales Enterprise](#dynamics-365-sales-enterprise).
 
+- **Sales Professional**: Ideal for enterprises that need a sales automation solution. [Learn more about Dynamics 365 Sales Professional](#dynamics-365-sales-professional).
+
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
 
-- **Sales Professional**: Ideal for enterprises that need a sales automation solution. [Learn more about Dynamics 365 Sales Professional](#dynamics-365-sales-professional).
+- **Microsoft 365 Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Copilot for Sales](#microsoft-365-copilot-for-sales). 
 
 ### Dynamics 365 Sales Premium
 
@@ -53,23 +58,27 @@ With Sales Enterprise, your sales organization can automate the sales process fr
 
 - **Forecast sales**: Predict how much revenue your sales team will generate in a given timeframe. Track individual sales performance against quotas to proactively identify pipeline risks and provide coaching. [Learn how to project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md).
 
-- **Enforce best practices with playbooks**: Automate repeatable processes and define your organization's best response to events that affect sales. [Learn how to enforce best practices with playbooks](enforce-best-practices-playbooks.md).
-
 - **Run and track marketing campaigns**: Promote your business and improve sales with targeted marketing campaigns. Track customer response and costs for each campaign. [Get started with in-app marketing](get-started-app-marketing-sales.md).
 
 With your Dynamics 365 Sales Enterprise license, you can take advantage of Sales Premium features like sales accelerator, conversation intelligence, and predictive scoring with a limited monthly capacity. [Learn more about digital selling capabilities in Sales Enterprise](digital-selling.md).
 
 ### Microsoft Relationship Sales
 
-Microsoft Relationship Sales combines LinkedIn Sales Navigator with Dynamics 365 Sales Enterprise or Sales Premium. With Sales Navigator embedded in Dynamics 365 Sales, sellers are empowered to have more personalized and valuable interactions with customers. Activities and Smart Links sync between Sales and Sales Navigator, and sellers can save accounts, leads, and contacts to Sales Navigator from the Sales app.
+Microsoft Relationship Sales helps sales professionals build the relationships they need to harness the power of relationship selling. This license includes Sales Enterprise and LinkedIn Sales Navigator Advanced Plus. With this license, you can integrate [LinkedIn Sales Navigator with Dynamics 365 Sales](linkedin/integrate-sales-navigator.md) to get insights about your customers and [LinkedIn Sales Insights](understand-lsi-accounts-form.md) to import lead-related data from LinkedIn.  
 
 ### Dynamics 365 Sales Professional
 
-The Sales Professional app is similar to the Sales Hub app, but the entities included in Sales Professional are a subset of the entities included in Sales Enterprise. [Learn more about Dynamics 365 Sales Professional](../sales-professional/sales-professional-overview.md).
+The Sales Professional app is similar to the Sales Hub app, but the entities included in Sales Professional are a subset of the entities included in Sales Enterprise. [Go to Dynamics 365 Sales Professional documentation](../sales-professional/sales-professional-overview.md).
 
 Here's a short video to help you understand how Dynamics 365 Sales Professional can transform your sales organization:
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
+
+### Microsoft 365 Copilot for Sales
+
+Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft 365 Copilot. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft 365 Copilot to activate Copilot for Sales. 
+
+For more information about the Copilot for Sales licensing options for Dynamics 365 Sales customers, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
 
 ## Compare solutions
 
@@ -158,7 +167,7 @@ Integrate Dynamics 365 Sales with other applications that your sales team alread
 - [Install ZoomInfo app](install-zoominfo-app.md)
 - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
 
-### See also
+## Related information
 
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User guide](../sales-enterprise/user-guide.md)  

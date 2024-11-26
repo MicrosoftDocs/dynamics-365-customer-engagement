@@ -1,15 +1,16 @@
 ---
-title: Prerequisites for the Dynamics 365 Sales mobile app
+title: Set up the mobile experience for Dynamics 365 Sales
 description: Learn about the prerequisites for the Dynamics 365 Sales mobile app
 ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
-# Prerequisites for the Dynamics 365 Sales mobile app 
+# Set up the mobile experience for Dynamics 365 Sales
 
-The Dynamics 365 Sales mobile app is an intuitive mobile experience that offers quick access to customer information and makes it easy to keep this information current. This simplifies customer relationship management and helps sellers focus on selling. 
+The Dynamics 365 Sales mobile app is an intuitive mobile experience that offers quick access to customer information and makes it easy to keep this information current. This simplifies customer relationship management and helps sellers focus on selling.
 
 Field sellers spend a lot of time on the road, traveling to meet customers. "On-the-go" time can become productive time with this mobile app, which is available on iOS and Android.
 
@@ -32,13 +33,19 @@ Before field sellers can use the Dynamics 365 Sales mobile app, you must ensure 
 
 ## What's next
 
-After all the prerequisites are met for the Dynamics 365 Sales mobile app, field sellers can install it on their [iOS](install-mobile-app.md#install-the-app-on-ios) and [Android](install-mobile-app.md#install-the-app-on-android) devices. 
+After all the prerequisites are met for the Dynamics 365 Sales mobile app, field sellers can install it on their [iOS](install-mobile-app.md#install-the-app-on-ios) and [Android](install-mobile-app.md#install-the-app-on-android) devices.
 
-### See also
+As an administrator, you can further refine the experience with the following customizations:
+
+- [Manage forms](modify-quick-view-form.md)  
+- [Create custom push notifications](create-push-notification.md)  
+- [Configure tables for quick creation of records and activities](configure-quick-create.md)
+
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)  
-[Guidance on the best mobile experience for your sales users](https://community.dynamics.com/365/dynamics-365-fasttrack/b/dynamics-365-fasttrack-blog/posts/guidance-on-best-mobile-experience-for-your-sales-users)
+[Guidance on the best mobile experience for your sales users](https://community.dynamics.com/blogs/post/?postid=dfbc4692-5ec9-49cd-ac7a-21fa5fdfee35)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

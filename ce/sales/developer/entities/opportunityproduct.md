@@ -1,12 +1,13 @@
 ---
-title: "OpportunityProduct table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "OpportunityProduct table/entity reference"
 description: "Includes schema information and supported messages for the OpportunityProduct table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,14 +24,16 @@ Association between an opportunity and a product.
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /opportunityproducts<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /opportunityproducts(*opportunityproductid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET /opportunityproducts(*opportunityproductid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /opportunityproducts<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH /opportunityproducts(*opportunityproductid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -144,7 +147,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Shows the total amount due for the opportunity product, calculated on the Amount value minus the Manual Discount amount.|
-|DisplayName|Extended Amount|
+|DisplayName|Extended amount|
 |IsValidForCreate|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -351,7 +354,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Shows the price per unit of the opportunity product, based on the price list specified on the parent opportunity.|
-|DisplayName|Price Per Unit|
+|DisplayName|Price per unit|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|priceperunit|
@@ -470,7 +473,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Calculated field that will be populated by name and description of the product.|
-|DisplayName|Product Name|
+|DisplayName|Product name|
 |FormatName|Text|
 |IsLocalizable|False|
 |IsValidForForm|False|
@@ -1365,17 +1368,13 @@ Same as the [opportunityproduct_parentref_opportunityproduct](opportunityproduct
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [product_opportunities](#BKMK_product_opportunities)
 - [opportunityproduct_parent_opportunityproduct](#BKMK_opportunityproduct_parent_opportunityproduct)
 - [opportunity_products](#BKMK_opportunity_products)
 - [productAssociation_opportunity_product](#BKMK_productAssociation_opportunity_product)
 - [unit_of_measurement_opportunity_products](#BKMK_unit_of_measurement_opportunity_products)
 - [opportunityproduct_parentref_opportunityproduct](#BKMK_opportunityproduct_parentref_opportunityproduct)
+- [product_opportunities](#BKMK_product_opportunities)
 
-
-### <a name="BKMK_product_opportunities"></a> product_opportunities
-
-See the [product_opportunities](opportunity.md#BKMK_product_opportunities) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
 
 ### <a name="BKMK_opportunityproduct_parent_opportunityproduct"></a> opportunityproduct_parent_opportunityproduct
 
@@ -1403,7 +1402,11 @@ See the [unit_of_measurement_opportunity_products](uom.md#BKMK_unit_of_measureme
 
 See the [opportunityproduct_parentref_opportunityproduct](opportunityproduct.md#BKMK_opportunityproduct_parentref_opportunityproduct) one-to-many relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
 
-### See also
+### <a name="BKMK_product_opportunities"></a> product_opportunities
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+See the [product_opportunities](opportunity.md#BKMK_product_opportunities) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
+
+## Related information
+
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,10 +1,11 @@
 ---
-title: "Work with opportunities in the Kanban view (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow."
-ms.date: 10/26/2021
+title: Work with opportunities in the Kanban view
+description: Use the opportunity Kanban view to effectively monitor the pipeline and see the opportunities in their different statuses or stages of business process flow.
+ms.date: 08/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -66,16 +67,16 @@ In the status-based Kanban view, each swim lane represents a default opportunity
 > [!div class="mx-imgBorder"]  
 > ![Status-based opportunity Kanban view.](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
  
-In the Business process flow-based view, swim lanes represent the stages of opportunities in the **Opportunity sales process** business process flow. 
+In the Business process flow-based view, swim lanes represent the stages of opportunities in the **Sales Process** business process flow. 
 
-Currently, the Kanban view is only available for the **Opportunity sales process** business process flow.
+Currently, the Kanban view is only available for the **Sales Process** business process flow.
 
 > [!div class="mx-imgBorder"]  
 > ![Business process flow-based opportunity Kanban view.](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
 
 
 > [!NOTE]
-> If your system administrator or customizer has customized the **Opportunity sales process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
+> If your system administrator or customizer has customized the **Sales Process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
  
 ## Know your Kanban views
 
@@ -110,11 +111,11 @@ Here are some important things to know about your Kanban view:
 
     **In the Status-based Kanban view:**
 
-    - Moving a card to other lanes in the Status-based Kanban view opens the Opportunity status change dialog box.
+    - Moving a card to other lanes in the Status-based Kanban view opens the Opportunity status change dialog box, even if you've configured a customized opportunity close form.
     
       > [!div class="mx-imgBorder"]  
       > ![Close opportunity.](media/close-opportunity-in-kanban-view.png "Close opportunity")
-
+        
     - You can drag an opportunity card from the Open pane to the Won or Close lanes. 
     
     - When you move the card to the Won or Lost lanes, the opportunity record is closed. A lock icon is shown on the card, which means that the card (opportunity record) is inactive—you can't edit the fields on the card.
@@ -138,7 +139,7 @@ Here are some important things to know about your Kanban view:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
 [Create or edit opportunities](create-edit-opportunity-sales.md)  

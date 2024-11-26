@@ -1,10 +1,11 @@
 ---
 title: Personalize the opportunity pipeline view
 description: Personalize the pipeline view to see what you want to see and organize opportunities in a way that makes sense to you.
-ms.date: 05/11/2023
+ms.date: 07/25/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
@@ -23,7 +24,7 @@ You can also ask your administrator to customize the experience further to impro
 
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Salesperson or higher<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Personalize metrics
@@ -41,7 +42,9 @@ The opportunity pipeline view lists important metrics related to the sales pipel
     :::image type="content" source="media/deal-manager-editmetrics-small.png" alt-text="Screenshot illustrating the Edit metrics option in deal manager and the edit metrics side panel with the Create a metric option and the list of metrics." lightbox="media/deal-manager-editmetrics.png":::
 
 - To create a metric:
+
     1. Select **Create a Metric**.
+
     1. Select the field and the aggregate function that you want to use for calculating the metric.
        The **Field** list displays all the numerical fields in the opportunity entity.
     1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
@@ -51,8 +54,23 @@ The opportunity pipeline view lists important metrics related to the sales pipel
             - **Created On**: This year  
             - **Sales Stage**: Develop  
 
-- To edit a metric, hover over the metric and select the **Edit** icon.
-- To remove a metric temporarily, clear the checkbox against the metric.
+- To edit a metric, hover over the metric in the **Edit metrics** side panel and select the **Edit** icon.
+- To remove a metric temporarily, clear the checkbox against the metric in the **Edit metrics** side panel.
+
+## Personalize the side panel
+
+Personalize the side panel to view it in different modes, depending on the details you'd like to see and your screen size.  
+
+1. Open the [opportunities pipeline view](use-opportunity-pipeline-view.md#open-the-opportunity-pipeline-view).
+
+1. Select an opportunity from the grid to open the side panel.
+1. Select the wand icon to switch to one of the following modes:  
+        :::image type="content" source="media/side-panel-modes.PNG" alt-text="Screenshot of the side panel modes.":::
+    - **Compact header:** This is the default mode. It displays the most important fields in the opportunity table but doesn't include the business process flow.
+    - **Show BPF:** While you're in the compact mode, select this option to view the business process flow.
+    - **Extended width:**  This model is ideal for large screens. It displays the business process flow and all the fields in the opportunity table.  
+
+    The selected mode is saved until you change it again.
 
 ## Personalize the grid
 

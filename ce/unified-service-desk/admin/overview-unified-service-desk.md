@@ -1,16 +1,14 @@
 ---
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Use this topic to know about Unified Service Desk and User Interface Integration. Also, included is a video that gives you an overview of Unified Service Desk."
-ms.date: 02/06/2023
+ms.date: 10/09/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
-  - intro-internal
+ms.custom: evergreen
+ms.collection: get-started
 tags: MigrationHO
 ---
 
@@ -26,7 +24,9 @@ tags: MigrationHO
  ![Video symbol](../../unified-service-desk/media/usd-video-thumbnail.png "Video symbol") [Video: Overview of Unified Service Desk (5:00)](https://go.microsoft.com/fwlink/p/?LinkId=506900)  
 
 > [!NOTE]
-> Unified Service Desk doesn't support multisession apps like Customer Service workspace.
+> - Unified Service Desk doesn't support the Customer Service workspace app.  
+> - The [Try the new look](/power-apps/user/modern-fluent-design#whats-included-with-the-new-look) setting that allows for a modern and refreshed look is available in Unified Service Desk 4.2 only.
+> - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../../customer-service/implement/csw-overview.md).
 
 <a name="UII"></a>   
 

@@ -2,7 +2,7 @@
 title: "Configure Quick Find in Dynamics 365 Customer Engagement (on-premises)"
 description: "Tailor the Quick Find functionality by selecting record return limits, an indexing method, and which entities are included."
 ms.custom: 
-ms.date: 02/14/2022
+ms.date: 01/11/2024
 ms.reviewer: 
 
 ms.topic: article
@@ -10,8 +10,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
-author: jimholtz
-ms.author: jimholtz
+author: sericks007
+ms.author: sericks
 search.audienceType: 
   - admin
 ---
@@ -37,6 +37,9 @@ We recommend you enable full-text indexing for Quick Find because it can provide
 a better search experience by improving query performance. Full-text search also
 uses more sophisticated indexing methods that include support for
 linguistic-based searches and superior relevance ranking.
+
+> [!Note]
+> Full-text indexing for Quick Find is only available for on-premises environments.
 
 While the previous search method (standard indexing) returns results based on
 literal matches, full-text indexing returns linguistic-based matches. For

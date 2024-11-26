@@ -1,10 +1,13 @@
 ---
-title: "Use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
-description: "Learn how to use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license."
-ms.date: 01/11/2023
-ms.topic: article
+title: Microsoft Teams calls with conversation intelligence
+description: Learn how to use Microsoft Teams dialer and conversation intelligence with the Dynamics 365 Sales Enterprise license.
+ms.date: 02/02/2024
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Microsoft Teams calls with conversation intelligence
@@ -12,6 +15,7 @@ ms.author: shjais
 Set up integrated Teams calls with conversation intelligence so your sellers can call customers directly from Dynamics 365 and get real-time insights, rich call summaries, and more.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -27,17 +31,11 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ## Licensing options
 
-When you set up Microsoft Teams calls with conversation intelligence with the Dynamics 365 Sales Enterprise license, there's no limit on the number of calls made through Microsoft Teams. However, you get three hours of conversation intelligence per user, per month. If you need more than three hours of conversation intelligence per month, upgrade to Dynamics 365 Sales Premium. Note that three hours of conversation intelligence refers to recording and processing time.
+With the Sales Enterprise license, you get unlimited number of conversation intelligence hours (call processing and recording) and Teams calling hours.  
 
 ## Set up Microsoft Teams calls with conversation intelligence
 
-1. On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Quick setup**.
-
-    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
-
-    The **Teams calls + conversation intelligence quick setup** panel is displayed.
-
-    :::image type="content" source="media/ds-ci-setup.png" alt-text="Teams calls + conversation intelligence quick setup panel.":::
+1. On the **Sales settings** page, under **Conversation intelligence**, select **Quick setup**.
 
     > [!NOTE]
     > To use Teams calls, sellers will need valid licenses for Microsoft Teams, Phone System, and Calling Plan or Direct Routing, in addition to assigned phone numbers. [Learn more](https://go.microsoft.com/fwlink/?linkid=2180901)
@@ -49,8 +47,6 @@ When you set up Microsoft Teams calls with conversation intelligence with the Dy
         Allows sellers to receive Teams calls in Dynamics 365 Sales. If you turn it off, sellers can only make outgoing Teams calls from within Dynamics 365.
     - **Internal call will ring only in the Teams app, not in Dynamics 365**
         Indicates that calls from internal users won't ring and won't be tracked in Dynamics 365. In this case, calls from external contacts will ring in Dynamics 365 and internal calls will ring only in Teams. You can clear the checkbox if you want sellers to receive both external and internal calls in Dynamics 365.  
- 
-
     - In the **Enable for** section, select one of the following options to provide permissions to users to view Microsoft Teams dialer:
         - **All security roles**: Select this option to provide access to view Microsoft Teams dialer to users in all the security roles in your organization.
         - **Specific security roles**: Select this option to specify security roles when you want to give access to view Microsoft Teams dialer to specific users.
@@ -78,33 +74,6 @@ If you want to make advanced configurations for Teams calls and conversation int
 
 :::image type="content" source="media/ds-ci-advanced-setup.png" alt-text="Advanced settings link in quick setup panel for Teams calls + conversation intelligence.":::
 
-## Monitor usage
-
-As an administrator, you can monitor the number of call recordings made by your sellers over a period of up to six months.  
-
-If you're using conversation intelligence with your Sales Enterprise license, you get three hours of conversation intelligence per activated user per month. A warning symbol is displayed whenever the usage exceeds the monthly limit. Hover over the symbol to see the message. In such a case, users will need to be upgraded to the Sales Premium license to enjoy 10 hours per user per month call processing capacity. Additional expansion packs are also available. More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)
-
-> [!IMPORTANT]
-> The data in the usage panel is refreshed every 24 hours.
-
-**To monitor the usage of conversation intelligence**
-
-- On the **Get started with digital sales** page, under **Microsoft Teams calls with conversation intelligence**, select **Monitor usage**.
-
-  :::image type="content" source="media/ds-ci-monitor-usage.png" alt-text="Monitor usage for conversation intelligence.":::
-
-  The **Conversation intelligence usage** panel is displayed with the following information:
-    
-  - **Recorded calls**: Displays the total recorded hours so far in the current month.
-    
-  - **Seller average**: Displays the average number of recorded call hours per active seller in the current month.
-    
-  - **Usage this month**:Displays the usage breakdown by sellers who have access to conversation intelligence. If the monthly limit is exceeded in a month (for Sales Enterprise license users), a warning symbol is displayed.
-    
-  - **Usage by seller over time**: Displays the monthly usage of conversation intelligence for the last six months in a graphical format. The data displays the number of active sellers each month, and the breakdown of the number of sellers who exceeded the monthly limit and those sellers who didn't.
-
-    :::image type="content" source="media/ds-ci-usage-panel.png" alt-text="Conversation intelligence usage panel.":::
-
 ## Turn off Teams calls and conversation intelligence
 
 1. Select **Go to advanced conversation intelligence settings** at the top of the quick setup panel.
@@ -116,8 +85,9 @@ If you're using conversation intelligence with your Sales Enterprise license, yo
 
 3. Select **Update**.
  
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)       
 [Lead and opportunity scoring](digital-selling-scoring.md)    
+

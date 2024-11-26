@@ -5,6 +5,7 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Dynamics 365 Sales mobile app settings 
@@ -48,7 +49,7 @@ This section contains links to actions such as submitting an idea and reporting 
 
 - **Submit an idea**: Submit ideas for the mobile app from the [Dynamics 365 Sales idea submission page](https://go.microsoft.com/fwlink/p/?LinkID=2161876).
 
-- **Dynamics 365 Community**: Go to the [Dynamics 365 Sales community forum](https://go.microsoft.com/fwlink/p/?LinkID=2161919) to get help from experts and peers, discover blogs, webinars, videos, and events, and more.
+- **Dynamics 365 Community**: Go to the [Dynamics 365 Sales community forum](https://community.dynamics.com/forums/thread/?partialUrl=sales) to get help from experts and peers, discover blogs, webinars, videos, and events, and more.
 
 - **Copy session ID**: Copy the session ID to your clipboard. The session ID is helpful for troubleshooting. When you are asked to provide it, tap ![Copy icon.](media/copy-icon.png "Copy icon") to copy the session ID and then share it with the required person.
 
@@ -70,7 +71,7 @@ This section contains a link to sign out from the mobile app.
 
 - **Sign out**: Sign out from the app.
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)

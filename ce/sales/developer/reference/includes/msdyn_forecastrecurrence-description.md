@@ -1,1 +1,0 @@
-Stores recalculation information for each recurrence of the forecast hierarchy. **For internal use only.**

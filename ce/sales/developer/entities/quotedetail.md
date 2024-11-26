@@ -1,12 +1,13 @@
 ---
-title: "Quote Product (QuoteDetail)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Quote Product (QuoteDetail)  table/entity reference"
 description: "Includes schema information and supported messages for the Quote Product (QuoteDetail)  table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,14 +24,16 @@ Product line item in a quote. The details include such information as product ID
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /quotedetails<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /quotedetails(*quotedetailid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET /quotedetails(*quotedetailid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /quotedetails<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH /quotedetails(*quotedetailid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -74,6 +77,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [ProductTypeCode](#BKMK_ProductTypeCode)
 - [PropertyConfigurationStatus](#BKMK_PropertyConfigurationStatus)
 - [Quantity](#BKMK_Quantity)
+- [QuoteCreationMethod](#BKMK_QuoteCreationMethod)
 - [QuoteDetailId](#BKMK_QuoteDetailId)
 - [QuoteDetailName](#BKMK_QuoteDetailName)
 - [QuoteId](#BKMK_QuoteId)
@@ -493,6 +497,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Precision|5|
 |RequiredLevel|ApplicationRequired|
 |Type|Decimal|
+
+
+### <a name="BKMK_QuoteCreationMethod"></a> QuoteCreationMethod
+
+**Added by**: Sales Patch Version 3 Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Creation Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quotecreationmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### QuoteCreationMethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|776160000|Unknown||
+|776160001|Revision||
+
 
 
 ### <a name="BKMK_QuoteDetailId"></a> QuoteDetailId
@@ -1650,10 +1677,10 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 - [product_quote_details](#BKMK_product_quote_details)
 - [productAssociation_quote_details](#BKMK_productAssociation_quote_details)
-- [quote_details](#BKMK_quote_details)
 - [quotedetail_parent_quotedetail](#BKMK_quotedetail_parent_quotedetail)
 - [unit_of_measurement_quote_details](#BKMK_unit_of_measurement_quote_details)
 - [quotedetail_parentref_quotedetail](#BKMK_quotedetail_parentref_quotedetail)
+- [quote_details](#BKMK_quote_details)
 
 
 ### <a name="BKMK_product_quote_details"></a> product_quote_details
@@ -1667,10 +1694,6 @@ See the [product_quote_details](product.md#BKMK_product_quote_details) one-to-ma
 **Added by**: Product Management Solution
 
 See the [productAssociation_quote_details](productassociation.md#BKMK_productAssociation_quote_details) one-to-many relationship for the [productassociation](productassociation.md) table/entity.
-
-### <a name="BKMK_quote_details"></a> quote_details
-
-See the [quote_details](quote.md#BKMK_quote_details) one-to-many relationship for the [quote](quote.md) table/entity.
 
 ### <a name="BKMK_quotedetail_parent_quotedetail"></a> quotedetail_parent_quotedetail
 
@@ -1686,7 +1709,11 @@ See the [unit_of_measurement_quote_details](uom.md#BKMK_unit_of_measurement_quot
 
 See the [quotedetail_parentref_quotedetail](quotedetail.md#BKMK_quotedetail_parentref_quotedetail) one-to-many relationship for the [quotedetail](quotedetail.md) table/entity.
 
-### See also
+### <a name="BKMK_quote_details"></a> quote_details
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+See the [quote_details](quote.md#BKMK_quote_details) one-to-many relationship for the [quote](quote.md) table/entity.
+
+## Related information
+
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

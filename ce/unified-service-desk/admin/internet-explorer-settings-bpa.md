@@ -1,17 +1,19 @@
 ---
 title: "Internet Explorer settings | MicrosoftDocs"
 description: "Learn about the Internet Explorer settings and best practices, against which Best Practices Analyzer performs analysis."
-ms.date: 09/20/2022
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.custom: evergreen
 ---
+
 
 # [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings
 
 > [!Note]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/implement/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, certain parameters of [!include[pn-internet-explorer](../../includes/pn-internet-explorer.md)] settings are important for [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] to work seamlessly.
 

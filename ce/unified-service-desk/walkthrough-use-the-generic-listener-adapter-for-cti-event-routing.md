@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough  Use the generic listener adapter for CTI event routing | MicrosoftDocs"
 description: "Learn about using the CTI Desktop Manager and generic listener in to expose the CTI events as screen pops in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Walkthrough: Use the generic listener adapter for CTI event routing
 

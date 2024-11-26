@@ -4,9 +4,9 @@ description: "Learn the steps for starting with Dynamics 365 Customer Engagement
 ms.date: 10/01/2019
 
 ms.topic: article
-author: jimholtz
-ms.custom: intro-internal
-ms.author: jimholtz
+author: Mattp123
+ms.collection: get-started
+ms.author: matp
 ms.reviewer: 
 
 ---

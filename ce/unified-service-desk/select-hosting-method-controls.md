@@ -1,22 +1,23 @@
 ---
 title: "Select a hosting method for your controls in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the various hosting methods that you can use to host your webpages in Unified Service Desk."
-ms.date: 09/20/2022
+ms.date: 06/27/2024
 ms.topic: "article"
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
-
+ms.custom: evergreen
 ---
 # Select a hosting method for your controls in Unified Service Desk
 
 [!INCLUDE[cc_internet_explorer_deprecation](../../ce/includes/cc-internet-explorer-deprecation.md)]
 
 [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] offers you different browser controls for hosting your webpages. Select a browser control to host your webpage in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] from the **Hosting Type** list when you define a hosted control instance.
+
+>[!NOTE]  
+> Unified Service Desk doesn't support browser extensions for Microsoft Edge and Google Chrome.
 
 ## Hosting types
  

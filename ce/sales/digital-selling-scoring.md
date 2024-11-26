@@ -1,10 +1,13 @@
 ---
 title: Lead and opportunity scoring
 description: Learn how to set up lead and opportunity scoring in Dynamics 365 Sales.
-ms.date: 11/30/2022
-ms.topic: article
+ms.date: 02/02/2024
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Lead and opportunity scoring
@@ -35,13 +38,9 @@ When you set up lead and opportunity scoring with the Dynamics 365 Sales Enterpr
 
 ## Set up lead and opportunity scoring
 
-1. In the **Get started with digital sales** page, under **Lead and opportunity scoring**, select **Quick setup** to open the **Lead and opportunity scoring quick setup** panel.
-
-    :::image type="content" source="media/ds-scoring-setup.png" alt-text="Screenshot of the Lead and opportunity score quick setup panel.":::
-
-1. To enable predictive lead scoring, select **Create and publish** in the **Predictive lead scores** section.
-
-1. To enable predictive opportunity scoring, select **Create and publish** in the **Predictive opportunity scores** section.
+1. On the **Sales settings** page, select **Lead + opportunity scoring** > **Quick setup**.  
+1. To enable predictive lead scoring, select **Create and publish** in the **Predictive lead scores** section.  
+1. To enable predictive opportunity scoring, select **Create and publish** in the **Predictive opportunity scores** section.  
 
 After the models are generated, they're published automatically. **Lead score** and **Opportunity score** widgets are added to the **Sales Insights** form of lead and opportunity records, respectively.
 
@@ -90,7 +89,7 @@ The **Predictive scoring usage panel** displays the following information:
 
 By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using a custom form for leads and opportunities, you can add the scoring widgets to it. For more information, go to [Add the lead scoring widget to a form](pls-add-widget.md) and [Add the opportunity scoring widget to a form](pos-add-widget.md).
 
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)  
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)  

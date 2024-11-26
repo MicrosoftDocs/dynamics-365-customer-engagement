@@ -1,10 +1,13 @@
 ---
-title: "Use the sales accelerator with the Dynamics 365 Sales Enterprise license | MicrosoftDocs"
-description: "Learn how to use the sales accelerator with the Dynamics 365 Sales Enterprise license."
-ms.date: 04/26/2022
-ms.topic: article
+title: Use the sales accelerator with the Dynamics 365 Sales Enterprise license
+description: Learn how to use the sales accelerator with the Dynamics 365 Sales Enterprise license.
+ms.date: 02/02/2024
+ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
+ms.owner: shujoshi
+ms.custom: bap-template
 ---
 
 # Sales accelerator
@@ -29,9 +32,7 @@ When you set up the sales accelerator with the Dynamics 365 Sales Enterprise lic
 
 ## Set up the sales accelerator<a name="set-up-sales-accelerator"></a>
 
-1. On the **Get started with digital sales** page, under **Sales accelerator**, select **Quick setup**.
-
-    :::image type="content" source="media/ds-get-started.png" alt-text="Get started page for setting up digital sales.":::
+1. On the **Sales settings** page, select **Sales accelerator** > **Quick setup**.
 
     The **Sales accelerator quick setup** panel is displayed.
 
@@ -64,7 +65,7 @@ When you set up the sales accelerator with the Dynamics 365 Sales Enterprise lic
 
 5. To publish the changes, select **Publish**.
 
-After the settings are published, you can open the seller's interface for the sales accelerator by selecting **Go to seller experience** under **Sales accelerator** on the **Get started with digital sales** page. Sellers can immediately use the sales accelerator for manually created activities. However, you can also guide your sellers by creating sequences. For information about creating sequences, go to [Manage sequences](create-manage-sequences.md).
+After the settings are published, you can open the seller's interface for the sales accelerator by selecting **Go to seller experience** under **Sales accelerator**. Sellers can immediately use the sales accelerator for manually created activities. However, you can also guide your sellers by creating sequences. For information about creating sequences, go to [Manage sequences](create-manage-sequences.md).
 
 ## Advanced settings
 
@@ -120,8 +121,8 @@ If you want to turn off the sales accelerator, you can do it from the advanced s
 
 By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, go to [Add the Up next widget to a custom form](add-upnext-widget-form.md) For information about using the **Up next** widget, go to [Connect with customers through a record or the Up next widget](connect-with-customers.md).
 
-### See also
+## Related information
 
-[Microsoft Teams collaboration](digital-selling-teams-collab.md)     
-[Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)     
-[Lead and opportunity scoring](digital-selling-scoring.md)    
+[Microsoft Teams collaboration](digital-selling-teams-collab.md)  
+[Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)  
+[Lead and opportunity scoring](digital-selling-scoring.md)  

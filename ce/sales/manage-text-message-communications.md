@@ -1,10 +1,14 @@
 ---
-title: "Manage text message conversations"
-description: "Manage customer conversations through incoming and outgoing text messages for your sales outreach."
-ms.date: 05/12/2023
-ms.topic: conceptual
+title: Manage text message conversations
+description: Manage customer conversations through incoming and outgoing text messages for your sales outreach.
+ms.date: 04/23/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
+ms.owner: shujoshi
+ms.custom: bap-template
+
 ---
 
 # Manage text message conversations
@@ -69,10 +73,6 @@ You can only view conversations if the outbound phone number or record is assign
     
     1. Select the notification.            
        
-       The **Activities** grid opens with the list of conversations related to you.       
-    
-    1. Double-click a conversation.    
-       
        The conversation pane opens on the right side of the page.
 
 - **Sales accelerator workspace**:
@@ -85,12 +85,12 @@ The inbound text messages are connected to the record that has the most recent c
 
 1. From the conversation window, select the conversations.
 
-    :::image type="content" source="media/sms-move-conversation-select-message.png" alt-text="Screenshot of the conversation pane with messages select to move to a different record." lightbox="media/sms-move-conversation-select-message.png":::
+    :::image type="content" source="media/sms-text-message-pane.svg" alt-text="Screenshot of the conversation pane.":::
 
 1. Select **Change**.
 
 1. Use the lookup field and select the record to which you want to move the conversation.
-    
+  
 The conversation are moved to the selected record. To verify, go to the target record and open the conversation pane.
 
 ## Understand the conversation pane
@@ -104,19 +104,18 @@ The conversation pane is where you, as a seller, interact with your customer. Yo
 
 The following image is an example of the conversation pane.
 
-:::image type="content" source="media/sms-inbound-communication-pane.png" alt-text="Screenshot of the text message communication page." lightbox="media/sms-inbound-communication-pane.png":::
+:::image type="content" source="media/sms-inbound-communication-pane.svg" alt-text="Screenshot of the text message communication page." lightbox="media/sms-inbound-communication-pane.png":::
 
-1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down list displays opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.   
+1. **Related conversation to the selected phone number**: This option is available only for contact and opportunity records. When you open a contact, the drop-down list displays opportunities that are related to this contact. You can choose an option from the list to view the history and manage conversations related to that record.  
 
 2. **Manage templates**: Choose templates to send personalized messages to customers. Also, you can choose to create templates if any of the existing templates don't meet your requirements. More information: [Personalize text messages through templates](create-text-message-templates.md)  
 
-3. **Choose phone number**: If multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales) 
+3. **Choose phone numbers**: When there are multiple phone numbers are assigned to you or your team, you can choose a number from which you want to send and receive the message. Similarly, you can choose a phone number to send a message to the customer. More information: [Set up the SMS provider in Dynamics 365 Sales](configure-sms-provider.md#set-up-the-sms-provider-in-dynamics-365-sales)  
 
 4. **Delivery report**: Delivery report of the text message is displayed below the message. It's displayed only if the SMS provider supports it. More information: [Configure SMS provider](configure-sms-provider.md).  
     If the message is undelivered, hover over the delivery message to view the reason for the failure. Take appropriate action to resolve the failure. For example, if the message is sent to an invalid number, the reason for the failure is displayed as **InvalidSendingParameters**. To resolve the failure, ensure that the number is valid and is in the international telephone numbering plan (E.164 format).
-    
-### See also
+  
+## Related information
 
-[Engage with customers through text messages](sms-intro.md)   
-[Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)    
-
+[Engage with customers through text messages](sms-intro.md)  
+[Send a text message to customers](connect-with-customers.md#send-a-text-message-to-customers)  

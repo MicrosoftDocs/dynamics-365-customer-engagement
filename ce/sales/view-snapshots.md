@@ -4,10 +4,14 @@ description: Use the see forecast grid history page to view snapshots of a forec
 ms.date: 02/24/2023
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.custom: bap-template
 ---
-# View snapshots 
+# View snapshots
+
+> [!NOTE]
+> Starting June 30, 2024, snapshots feature in forecasting will be deprecated. [Learn more](deprecations-sales.md#snapshot-deprecation). 
 
 View a snapshot to see and understand the forecast data at the moment in time when the snapshot was taken, including underlying opportunities. Also, you can compare the data between your current forecast and the snapshot to understand how the forecast is doing.
 
@@ -32,7 +36,7 @@ Your administrator must have [enabled snapshots](manage-snapshots-forecast.md)
 3.	Select **See forecast grid history**. 
 
     >[!NOTE]
-    >The **See forecast grid history** option is inactive if there no snapshots available for the forecast.
+    >The **See forecast grid history** option is inactive if there no snapshots available for the forecast. Daily snapshots are available for weekly, monthly, and quarterly forecast periods, and weekly snapshots are available for annual periods.
 
     > [!div class="mx-imgBorder"]
     > ![Select See forecast grid history](media/predictive-forecasting-snapshot-select-forecast-grid-history.png "Select See forecast grid history")
@@ -74,7 +78,7 @@ For a snapshot, you can view the underlying opportunities of a column or the use
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)<br>
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>

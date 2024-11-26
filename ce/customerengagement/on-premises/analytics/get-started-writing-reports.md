@@ -11,7 +11,7 @@ applies_to:
 ms.assetid: 7e593f9d-5003-4115-ab6f-a1f4ce188fab
 caps.latest.revision: 14
 author: Mattp123
-ms.custom: intro-internal
+ms.collection: get-started
 ms.author: matp
 tags: 
   - MigrationHO

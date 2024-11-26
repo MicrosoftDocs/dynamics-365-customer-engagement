@@ -1,12 +1,14 @@
 ---
 title: "Configure notifications (screen pops) for agents | MicrosoftDocs"
 description: "Learn how to configure notification for using Omnichannel for Customer Service based on routing and work distribution."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # Configure notifications (Screen pops) for agents overview
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
@@ -34,9 +36,9 @@ There are two types of notifications:
 
 ## See also
 
-- [Omnichannel system customizers](../../customer-service/omnichannel-customizer.md)
-- [Customize Customer summary form](../../customer-service/customize-customer-summary.md)
-- [Customize the conversation form](../../customer-service/customize-session-form.md)
+- [Omnichannel system customizers](../../customer-service/administer/omnichannel-customizer.md)
+- [Customize Customer summary form](../../customer-service/administer/customize-customer-summary.md)
+- [Customize the conversation form](../../customer-service/administer/customize-session-form.md)
 - [Configure agent and supervisor configurations in Unified Service Desk](create-agent-supervisor-configurations-unified-service-desk.md)
 - [Configure toast notification in Unified Service Desk](configure-toast-notification-unified-service-desk.md)
 

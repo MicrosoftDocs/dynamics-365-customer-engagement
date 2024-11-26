@@ -1,15 +1,16 @@
 ---
-title: "Prioritize your sales pipeline through the work list"
-description: "Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind."
-ms.date: 12/09/2022
+title: Prioritize sales pipeline with work lists
+description: Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind.
+ms.date: 10/16/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 products:
 - Sales premium 
 - Sales enterprise
 ---
-# Prioritize your sales pipeline by using the work list  
+# Prioritize sales pipeline with work lists  
 
 Use work lists in the sales accelerator to prioritize your sales pipeline and ensure that important records aren't left behind.
 
@@ -49,6 +50,10 @@ Review the following prerequisites before you start using work lists:
 ## View my records by using the work list<a name="view-my-records-through-work-list"></a>  
 
 The work list displays a list of records that are assigned to you or the security role you're associated with. The records display activities that are due for the current date&mdash;or pending from previous dates&mdash;that were created manually or through a sequence. This helps you to access all records that include activities in one place, instead of navigating across multiple forms in the application. A sales manager can configure and determine the entities to display to you in the work list. The top of the record in the work list will always be the next-best customer with the highest prediction score.
+
+>[!NOTE]
+>
+>From version 9.1.23093.10010, to optimize the performance of loading forms from the work list, the **Back**, **Save & Close**, and **Open in new window** options on the form command bar are removed. If you want these options on your forms in work list, contact Microsoft Support.  
 
 **To view the work list**
 
@@ -191,7 +196,7 @@ The email will be sent to all the recipients you specify. You can verify that th
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and manage sequences](create-manage-sequences.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  

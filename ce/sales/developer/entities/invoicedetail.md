@@ -1,12 +1,13 @@
 ---
-title: "Invoice Product (InvoiceDetail)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Invoice Product (InvoiceDetail)  table/entity reference"
 description: "Includes schema information and supported messages for the Invoice Product (InvoiceDetail)  table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,14 +24,16 @@ Line item in an invoice containing detailed billing information for a product.
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /invoicedetails<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /invoicedetails(*invoicedetailid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET /invoicedetails(*invoicedetailid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /invoicedetails<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH /invoicedetails(*invoicedetailid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -217,7 +220,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|invoicedetailname|
-|MaxLength|4000|
+|MaxLength|850|
 |RequiredLevel|ApplicationRequired|
 |Type|String|
 
@@ -485,7 +488,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|productdescription|
-|MaxLength|4000|
+|MaxLength|850|
 |RequiredLevel|None|
 |Type|String|
 
@@ -515,7 +518,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|productname|
-|MaxLength|4000|
+|MaxLength|850|
 |RequiredLevel|None|
 |Type|String|
 
@@ -1751,18 +1754,14 @@ Same as the [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoic
 
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
-- [invoice_details](#BKMK_invoice_details)
 - [invoicedetail_parent_invoicedetail](#BKMK_invoicedetail_parent_invoicedetail)
 - [product_invoice_details](#BKMK_product_invoice_details)
 - [unit_of_measurement_invoice_details](#BKMK_unit_of_measurement_invoice_details)
 - [productAssociation_invoice_details](#BKMK_productAssociation_invoice_details)
 - [msdyn_salesorderdetail_invoicedetail](#BKMK_msdyn_salesorderdetail_invoicedetail)
 - [invoicedetail_parentref_invoicedetail](#BKMK_invoicedetail_parentref_invoicedetail)
+- [invoice_details](#BKMK_invoice_details)
 
-
-### <a name="BKMK_invoice_details"></a> invoice_details
-
-See the [invoice_details](invoice.md#BKMK_invoice_details) one-to-many relationship for the [invoice](invoice.md) table/entity.
 
 ### <a name="BKMK_invoicedetail_parent_invoicedetail"></a> invoicedetail_parent_invoicedetail
 
@@ -1794,7 +1793,11 @@ See the [msdyn_salesorderdetail_invoicedetail](salesorderdetail.md#BKMK_msdyn_sa
 
 See the [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoicedetail_parentref_invoicedetail) one-to-many relationship for the [invoicedetail](invoicedetail.md) table/entity.
 
-### See also
+### <a name="BKMK_invoice_details"></a> invoice_details
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+See the [invoice_details](invoice.md#BKMK_invoice_details) one-to-many relationship for the [invoice](invoice.md) table/entity.
+
+## Related information
+
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

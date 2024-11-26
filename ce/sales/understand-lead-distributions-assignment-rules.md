@@ -1,278 +1,243 @@
 ---
-title: "Understand lead distributions in assignment rules"
-description: "A tutorial on how leads are automatically distributed to sellers in assignment rules."
-ms.date: 11/26/2021
-ms.topic: article
+title: Understand record distribution in assignment rules
+description: Learn how lead, opportunity, and insight round robin and load balancing distribution works in Dynamics 365 Sales assignment rules.
+ms.date: 11/18/2024
+ms.topic: conceptual
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-gen-desc
+ - ai-seo-date:10/20/2023
+ - bap-template
 ---
 
-# Understand lead distributions in assignment rules
+# Understand record distribution in assignment rules
 
-In Dynamics 365 Sales, assignment rules define how leads are automatically distributed to sellers. When a lead is created and meets certain conditions that are defined in assignment rules, the lead is automatically assigned to the right seller. The automated process saves time and optimizes the workload across your sales team.
+In Dynamics 365 Sales, assignment rules automatically distribute, or assign, new and updated leads, opportunities, and insights to your sales team. The automated process saves you time and effort and optimizes the workload across your sales team.
 
-The following factors help to determine how leads are assigned:
+Assignment rules can distribute these records in either of two ways: round robin or load balancing.
 
-- How many active leads are already assigned to sellers
-- When a seller was last assigned a lead
+- In [round robin distribution](#round-robin-distribution), the primary consideration is when sellers were last assigned a record.
+- In [load balancing distribution](#load-balancing-distribution), the primary consideration is their capacity, or how many active records they're working on.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
+Depending on its definition, a rule that prioritizes load balancing might still use round robin criteria to assign records to sellers.
 
-## Basic lead distribution
+It's important to understand both the differences between them and how other criteria&mdash;like your sellers' workload and schedules&mdash;affect how records are assigned.
 
-There are two types of basic algorithms for lead distribution: 
+[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
-- [Round robin](#round-robin)
-- [Load balancing](#load-balancing) 
+## Round robin distribution
 
-### Round robin
+Round robin assignment distributes a new or updated record fairly among the sellers who meet the rule's criteria. It gives the record to the seller who's waited the longest for a new lead, opportunity, or insight, including records that were assigned manually or by an add-in. The order of round robin distribution is stored at the organization level, not at the rule level.
 
-In a round-robin-based assignment, the system looks at all the matched sellers of the lead and assigns it to the one who was assigned a lead least recently. This includes lead assignments from other sources, such as manual assignment or via an add-in.
+Let's look at some scenarios to understand round robin distribution.
 
-Let's take an example to understand round-robin distribution criteria.
+### Scenario 1
 
-A lead comes into the system, and an application identifies the following potential sellers who can work on the lead, based on the selection criteria defined in the assignment rules.
+A lead comes into the system at 11:20 PM. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
 
-| Seller | Last assigned a lead |
+| Seller | Last assigned record |
 |--------|----------------------|
-| Seller 1 | 12 July 2021 11:00 |
-| Seller 2 | 12 July 2021 10:00 |
-| Seller 3 | 12 July 2021 12:00 |
+| Miriam | 10:02 AM |
+| Sanjay | 10:31 AM |
+| Susana | 11:17 AM |
 
-The algorithm looks at the sellers' last assigned lead times and identifies that Seller 2 was assigned a lead least recently; thus, the lead is assigned to Seller 2. In this example, the routing takes place on 12 July 2021 at 13:30, so the algorithm updates Seller 2's last-assigned lead time to this value.
+Miriam's last assignment is earlier than Sanjay's and Susana's. Miriam has been waiting longest, so the lead is assigned to her.
 
-Now, taking this process through one more cycle, another lead comes into the system. But only Seller 2 and Seller 3 have the required attributes to work on the lead. So, the algorithm again looks at the following table and observes how the last assigned lead time has been updated for Seller 2.
+An opportunity comes into the system at 1:50 PM, and a sales manager manually assigns it to Susana. When a record is assigned manually, the order of assignment changes from the last assignment for the rule that's associated with that record type. However, the order of assignment doesn't change for assignment rules that are associated with other entity types.
 
-| Seller | Last assigned a lead |
-|--------|----------------------|
-| Seller 2 | 12 July 2021 13:30 |
-| Seller 3 | 12 July 2021 12:00 |
+Another lead comes into the system at 2:30 PM. The assignment rule assigns it to Sanjay. The order now looks like this:  
 
-The algorithm finds that Seller 3 was assigned a lead least recently; thus, it assigns the lead to Seller 3 and updates Seller 3's last assigned lead time to the time of routing.
+| Seller | Last assigned record | Entity type | Assignment source | Next assignment order when only lead rules are configured | Next assignment order when lead and opportunity rules are configured |
+|--------|----------------------|-------------|-------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
+| Miriam | 11:20 PM | Lead | Assignment rule engine | Sanjay, Susana, Miriam | Sanjay, Susana, Miriam |
+| Susana | 1:50 PM | Opportunity | Manual | Sanjay, Susana, Miriam | Sanjay, Miriam, Susana |
+| Sanjay | 2:30 PM | Lead | Assignment rule engine | Susana, Miriam, Sanjay | Miriam, Susana, Sanjay |
 
-### Load balancing
+A new lead comes into the system at 3:00 PM. A sales manager manually assigns it to Miriam. The new order of assignment looks like this:  
 
-In a load-balancing-based assignment, the system looks at all the matched sellers of the lead and assigns it to the seller who has maximum available capacity. This method helps to ensure that all salespeople are equally busy and minimizes uneven workloads.
+| Seller | Last assigned record | Entity type | Assignment source | Next assignment order when only lead rules are configured | Next assignment order when lead and opportunity rules are configured |
+|--------|----------------------|-------------|-------------------|-----------------------------------------------------------|----------------------------------------------------------------------|
+| Miriam | 3:00 PM | Lead | Manual | Susana, Sanjay, Miriam | Susana, Sanjay, Miriam |
 
-Let's take an example to understand load-balancing distribution criteria.
+### Scenario 2
 
-A lead comes into the system, and an application identifies the following potential sellers who can work on the lead, based on the selection criteria defined in the assignment rules.
+A set of rules is created for assigning records to three sellers, Miriam, Sanjay, and Susana, in that order.  
+
+- Rule 1 assigns an incoming lead to Miriam. The new order becomes Sanjay, Susana, Miriam.
+- Rule 2 assigns the next incoming lead to Sanjay. The order is now Susana, Miriam, Sanjay.
+- Rule 3 assigns the next lead to Susana. The order is now Miriam, Sanjay, Susana.
+- Rule 1 assigns the next lead to Miriam.
+
+Only Rule 1 assigns the record to Miriam twice consecutively. This is because the order of assigning records is stored at the organization level, not at the rule level.
+
+### Scenario 3
+
+A rule is created for assigning records to two sellers, Miriam and Sanjay, in that order.
+
+Miriam generates a lead and automatically becomes its owner. When the rule is executed, the lead is assigned to Sanjay, not Miriam, and the assignment order is now Miriam and Sanjay.
+
+Why? When a seller creates a record, they become its owner and are automatically included in the distribution list. This affects the order in which future records are assigned.
+
+## Load balancing distribution
+
+Load balancing assignment also distributes a new or updated record fairly among the sellers who meet the rule's criteria. It gives the record to the seller who can take on more work. This method makes sure that all salespeople have a fair share of work and reduces uneven workloads.
+
+Let's look at an example to understand load balancing distribution.
+
+A lead comes into the system. Based on the selection criteria that are defined in the assignment rule, three sellers can potentially work on the lead:
 
 | Seller | Available capacity |
 |--------|--------------------|
-| Seller 1 | 10 |
-| Seller 2 | 12 |
-| Seller 3 | 15 |
+| Miriam | 10 |
+| Sanjay | 12 |
+| Susana | 15 |
 
-Because Seller 3 has the maximum available capacity of all eligible sellers, the lead is assigned to Seller 3, whose available capacity is updated.
+Susana can handle more work right now than Miriam or Sanjay. Susana gets the lead, and her available capacity is now 14.
+
+Let's assume that Miriam, Sanjay, and Susana can all potentially work on the next few incoming leads.
+
+Two new leads come into the system. Susana still has the most available capacity, so the leads are assigned to her. Afterward, their available capacity looks like this:
 
 | Seller | Available capacity |
 |--------|--------------------|
-| Seller 1 | 10 |
-| Seller 2 | 12 |
-| Seller 3 | 14 |
+| Miriam | 10 |
+| Sanjay | 12 |
+| Susana | 12 |
 
-Now, to understand this better, consider the following series of events and assume that Sellers 1, 2, and 3 are all possible owners for the incoming leads.
+One more lead comes into the system. Sanjay and Susana are equally available. Susana got a lead more recently, so the new one is assigned to Sanjay based on round robin criteria. Now their available capacity looks like this:
 
-- **Event 1**: Two new leads that match the rule come into the system.
+| Seller | Available capacity |
+|--------|--------------------|
+| Miriam | 10 |
+| Sanjay | 11 |
+| Susana | 12 |
 
-    Both leads are assigned to Seller 3, and the table looks like the following. 
-    
-    | Seller | Available capacity |
-    |--------|--------------------|
-    | Seller 1 | 10 |
-    | Seller 2 | 12 |
-    | Seller 3 | 12 |
+Miriam closes three leads, increasing her available capacity to 13. A new lead comes into the system. Miriam now has the most capacity, so it's assigned to her.
 
-- **Event 2**: One more lead comes into the system.
+## Other distribution criteria
 
-    The lead is assigned to either Seller 2 or Seller 3, because they both have equal available capacity. Say that the lead is assigned to Seller 2. The table is updated to look like the following. 
-    
-    | Seller | Available capacity |
-    |--------|--------------------|
-    | Seller 1 | 10 |
-    | Seller 2 | 11 |
-    | Seller 3 | 12 |
+Assignment rules prioritize fairness in different ways depending on whether you select round robin or load balancing distribution. But fairness isn't the only consideration when records need to be assigned. They can also consider whether sellers are available to take on more work&mdash;that is, sellers' workload and work schedule.
 
-- **Event 3**: Seller 1 closes three active leads, and a new matching lead comes in for routing. 
+### Consider seller workload
 
-    For the incoming lead, the available capacity looks like the following; thus, the lead is assigned to Seller 1.
-    
-    | Seller | Available capacity |
-    |--------|--------------------|
-    | Seller 1 | 13 |
-    | Seller 2 | 11 |
-    | Seller 3 | 12 |
+In your assignment rule definitions, you can select **Assign *record type* based on seller capacity**. This option distributes records only to sellers who have the capacity to work on them. If no one does, the records are left unassigned.
 
-## Additional lead distribution criteria
+Let's look again at our sales team, a little later on the same day.
 
-In addition to being assigned leads through round-robin and load-balancing distribution criteria, sellers are sorted according to their respective priorities. This helps us to select the top candidate for the lead.
+A new lead comes into the system. Based on the selection criteria that are defined in the assignment rule, four sellers can potentially work on it:
 
-Let's consider the following table as an example.
+| Seller | Last assignment | Available capacity |
+| ------ | --------------- | ------------------ |
+| Sanjay | 2:37 PM | 0 |
+| Susana | 2:57 PM | 4 |
+| David | 3:02 PM | 1 |
+| Miriam | 2:35 PM | &ndash;2 |
 
-| Seller | Last assigned a lead | Available capacity |
-|--------|----------------------|--------------------|
-| Seller 1 | 12 July 2021 11:00 | 10 |
-| Seller 2 | 12 July 2021 10:00 | 12 |
-| Seller 3 | 12 July 2021 12:00 | 15 |
+With round robin distribution alone, Miriam, who's been waiting longer for an assignment than the others, would get the lead. However, you told the rule to **Assign leads based on seller capacity**, and Miriam's available capacity right now is &ndash;2. Sanjay has been waiting next longest, but Sanjay's available capacity is 0. The lead goes to Susana.
 
-In a round-robin distribution, the priority of sellers is as follows.
+If no seller who met the criteria had available capacity greater than zero, the lead would be left unassigned.
+
+### Consider seller work schedule
+
+In your assignment rule definitions, you can select **Assign if a seller is available within *N* hours**, where *N* is a whole number from 1 to 120. This option distributes records only to sellers whose work schedule shows they're available within the time you select. If no one is, the records are left unassigned. [Learn how to set sellers' availability](wa-manage-seller-availability.md).
+
+The rule considers matched sellers first by assignment priority (load balancing or round robin) and then by who is available, from now up to the maximum time allowed.
+
+As shown in the following diagram, matched sellers are divided into six buckets of 24 hours each based on their work schedules. If no sellers fall in the first bucket, round robin distribution supersedes load balancing even if load balancing distribution is prioritized. The rule continues to evaluate the buckets from top to bottom. When it encounters a nonempty bucket, the rule assigns the lead to the sellers in the bucket based on round robin criteria.
+
+:::image type="content" source="./media/sa-ar-lead-distribution-buckets.png" alt-text="Diagram illustrating how seller availability is evaluated in 24-hour buckets.":::
+
+Let's look at an example to understand how sellers' work schedules affect the assignment of records.
+
+In your assignment rules, you prioritize round robin distribution and set a time limit of 48 hours.
+
+A new lead comes into the system on a Friday evening from an inquiry form on your website. Several sellers meet the criteria of an assignment rule, but none of them are working now. Next, the rule considers matching sellers who are available within the next 24 hours. That day is Saturday. Ordinarily, Sanjay would be working, but Sanjay's calendar says he's on vacation. No other sellers are available, so the rule looks at the next 24 hours. No one is working on Sunday either. The rule has reached the limit of 48 hours, so the lead is left unassigned. If the time limit had been 60 hours, the lead would have been assigned to the first seller who was available on Monday morning.
+
+### Examples
+
+Let's look at a few more examples in detail to understand how seller availability and workload affect round robin and load balancing distribution. Let's use the following notation for a seller's availability at the time of routing:
+
+- 0D - Currently available
+- 1D - Earliest available within 24 hours
+- 2D - Earliest available from 24 to 48 hours
+- 3D - Earliest available from 48 to 72 hours
+- 4D - Earliest available from 72 to 96 hours
+- 5D - Earliest available from 96 to 120 hours
+
+#### Example 1: Round robin, consider seller availability only
+
+The rule matched the following sellers:
+
+| Seller | Availability | Last assigned a lead |
+|--------|--------------|----------------------|
+| Burt | 1D | 2:37 PM |
+| Maya | 1D | 2:15 PM |
+| Vivek | 0D | 3:02 PM |
+| Maria | 2D | 3:10 PM |
+| Sal | 0D | 2:29 PM |
+
+Two sellers, Vivek and Sal, are available first. Vivek got a lead more recently than Sal, so the rule distributes the lead to Sal.
+
+The next leads to come in are assigned to Vivek, then to Sal, and so on, until the availability of the matched sellers changes. The sellers' capacity isn't a consideration.
+
+#### Example 2: Load balancing, consider seller availability only
+
+Again, the rule matched the following sellers:
+
+| Seller | Availability | Available capacity |
+|--------|--------------|--------------------|
+| Burt | 1D | 14 |
+| Maya | 1D | 20 |
+| Vivek | 0D | 5 |
+| Maria | 2D | 10 |
+| Sal | 0D | 2 |
+
+Again, Vivek and Sal are available first. This time, Vivek has the higher capacity, so the rule distributes the lead to him.
+
+The next leads to come in are assigned to Vivek until Vivek's capacity falls below Sal's. Following leads go to Sal until Sal's capacity falls below Vivek's, and so on, until the availability of the matched sellers changes. In this scenario, the sellers' capacity isn't a consideration. Vivek's and Sal's capacity can fall below zero as long as they're available before the others.
+
+#### Example 3: Load balancing, consider seller availability *and* capacity
+
+Once again, the rule matched the following sellers:
+
+| Seller | Availability | Available capacity |
+|--------|--------------|--------------------|
+| Burt | 1D | 14 |
+| Maya | 1D | 20 |
+| Vivek | 0D | &ndash;1 |
+| Maria | 2D | 10 |
+| Sal | 0D | 0 |
+
+Because **Assign leads based on seller capacity** has been selected in the assignment rule definition, the rule ignores Vivek and Sal even though they're available first. That leaves Burt, Maya, and Maria:
+
+| Seller | Availability | Available capacity |
+|--------|--------------|--------------------|
+| Burt | 1D | 14 |
+| Maya | 1D | 20 |
+| Maria | 2D | 10 |
+
+Burt and Maya are available before Maria, so Maria is dropped from consideration:
+
+| Seller | Availability | Available capacity |
+|--------|--------------|--------------------|
+| Burt | 1D | 14 |
+| Maya | 1D | 20 |
+
+The rule is configured to prioritize load balancing. However, load balancing distribution only works with sellers who are available at the time of routing. Because Burt and Maya aren't available now, the rule uses round robin criteria instead.
+
+With capacity no longer a consideration, the rule considers who's been waiting for a lead longer:
 
 | Seller | Last assigned a lead |
 |--------|----------------------|
-| Seller 2 | 12 July 2021 10:00 |
-| Seller 1 | 12 July 2021 11:00 |
-| Seller 3 | 12 July 2021 12:00 |
+| Burt | 2:37 PM |
+| Maya | 2:15 PM |
 
-In a load-balancing distribution, the priority of sellers is as follows.
+The rule assigns the lead to Maya. The next leads to come in are assigned to Burt, then to Maya, and so on, until the availability of the matched sellers changes.
 
-| Seller | Available capacity |
-|--------|--------------------|
-| Seller 3 | 15 |
-| Seller 2 | 12 |
-| Seller 1 | 10 |
+## Related information
 
-To fine-tune the lead assignment, we need to introduce additional processing to better prioritize sellers according to our requirements. The following additional options are available:
-
-- [Consider seller capacity](#consider-seller-capacity)
-- [Consider seller work schedule](#consider-seller-work-schedule)
-
-### Consider seller capacity
-
-When this option is selected, leads are routed only to those sellers who have available capacity to work on the leads&mdash;that is, positive available capacity. If none of the eligible sellers have available capacity, the lead will be marked as unassigned. For more information on managing seller's capacity, go to [Set capacity for sellers](manage-sales-teams.md#set-capacity-for-sellers).
-
-Let's take an example for round robin. A lead comes in, and the following matched sellers have the last-assigned lead times and available capacity shown in the table.
-
-| Seller | Last assigned a lead | Available capacity |
-|--------|----------------------|--------------------|
-| Seller 1 | 12 July 2021 11:00 | –2 |
-| Seller 2 | 12 July 2021 10:00 | 0 |
-| Seller 3 | 12 July 2021 12:00 | 4 |
-| Seller 4 | 12 July 2021 13:00 | 1 |
-
-For round-robin distribution, the priority is defined as follows for the sellers.
-
-| Seller | Last assigned a lead | Available capacity |
-|--------|----------------------|--------------------|
-| Seller 2 | 12 July 2021 10:00 | 0 |
-| Seller 1 | 12 July 2021 11:00 | –2 |
-| Seller 3 | 12 July 2021 12:00 | 4 |
-| Seller 4 | 12 July 2021 13:00 | 1 | 
-
-Because Seller 1 and Seller 2 have negative available capacity, they won't be considered as eligible owners, and the table will be reduced to the following.
-
-| Seller | Last assigned a lead | Available capacity |
-|--------|----------------------|--------------------|
-| Seller 3 | 12 July 2021 12:00 | 4 |
-| Seller 4 | 12 July 2021 13:00 | 1 | 
-
-The lead will be assigned to Seller 3.
-
-When you select the **Consider seller capacity** option, it removes the sellers with negative or zero available capacity from the list of owners at the time of routing.
-
-### Consider seller work schedule  
-
-When this option is selected, the system considers the work schedule of sellers that has been defined in the sales accelerator and filters sellers based on their availability to work on the leads.
-
-The algorithm analyzes sellers' availability in the order of the lead assignment priority (load balancing or round robin) and assigns the lead to a seller who is currently available.  
-
-In this example, you configured a time limit of 120 hours to assign a lead record that is created in the application. 
-
-If the matched sellers are currently unavailable, the leads are assigned to sellers who are available within the next 24 hours of the time of routing. If no sellers are available within the next 24 hours, the leads are assigned to sellers who are available within the next 48 hours, and so on up to 120 hours. If no seller is available within 120 hours, the leads are marked as unassigned.
-
-The sellers are divided into six buckets, based on their availability. The buckets are viewed in top to bottom order. At the first non-empty bucket, the lead is distributed among the sellers in the bucket based on round-robin criteria. (For load balancing, only the first bucket is evaluated.)
-
->[!div class="mx-imgBorder"]
->![Six buckets that sellers are divided into, based on their availability.](media/sa-ar-lead-distribution-buckets.png "Six buckets that sellers are divided into, based on their availability")
-
-To know more about how sellers update their personal work schedule in the sales accelerator, which is also used by assignment rules, go to [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability).
-
-Let's take some examples to walk through this.
-
-We'll use the following notation for availability at the time of routing:
-
--	0D - Currently available
--	1D - Earliest available within 24 hours
--	2D - Earliest available from 24 to 48 hours
--	3D - Earliest available from 48 to 72 hours
--	4D - Earliest available from 72 to 96 hours
--	5D - Earliest available from 96 to 120 hours
-
-**Example 1**: We've matched Sellers 1 through 5 to the lead, and the primary distribution criteria is round robin.
-
-| Sellers | Availability | Last assigned a lead |
-|---------|--------------|----------------------|
-| Seller 1 | 1D	| 12 July 2021 11:00 |
-| Seller 2 | 1D | 12 July 2021 10:00 |
-| Seller 3 | 0D | 12 July 2021 12:00 |
-| Seller 4 | 2D | 12 July 2021 13:00 |
-| Seller 5 | 0D | 12 July 2021 10:30 |
-
-Because we have two sellers who are available currently, the lead will be distributed between them based on round-robin criteria.
-
-| Sellers | Availability | Last assigned a lead |
-|---------|--------------|----------------------|
-| Seller 3 | 0D | 12 July 2021 12:00 |
-| Seller 5 | 0D | 12 July 2021 10:30 |
-
-When a lead comes in, it will be assigned to Seller 5. Further incoming leads for this rule will be assigned to Seller 3 and Seller 5 in a round-robin distribution, until the availability of the matched sellers changes.
-
-**Example 2**: We have matched Sellers 1 through 5, and the primary distribution criteria is load balancing.
-
-| Sellers | Availability | Available capacity |
-|---------|--------------|----------------------|
-| Seller 1 | 1D	| 14 |
-| Seller 2 | 1D | 20 |
-| Seller 3 | 0D | 5 |
-| Seller 4 | 2D | 10 |
-| Seller 5 | 0D | 2 |
-
-Because Seller 3 and Seller 5 are currently available, and the primary distribution criteria is load balancing, the lead is assigned to Seller 3.
-
-**Example 3**: We've matched sellers 1 through 5, the primary distribution criteria is load balancing, and **Consider seller capacity** has been selected.
-
-| Sellers | Availability | Available capacity |
-|---------|--------------|--------------------|
-| Seller 1 | 1D	| 14 |
-| Seller 2 | 1D | 20 |
-| Seller 3 | 0D | –1 |
-| Seller 4 | 2D | 10 |
-| Seller 5 | 0D | 0 |
-
-Because **Consider seller capacity** has been selected, Seller 3 and Seller 5 aren't eligible for routing.
-
-| Sellers | Availability | Available capacity |
-|---------|--------------|--------------------|
-| Seller 1 | 1D	| 14 |
-| Seller 2 | 1D | 20 |
-| Seller 4 | 2D | 10 |
-
-The earliest availability bucket is 1D; therefore, Seller 1 and Seller 2 are considered.
-
-| Sellers | Availability | Available capacity |
-|---------|--------------|--------------------|
-| Seller 1 | 1D	| 14 |
-| Seller 2 | 1D | 20 |
-
-Because the sellers aren't currently available, round-robin distribution will be used for these sellers.
-
->[!NOTE]
->Remember that the primary selection criteria in this example is load balancing.
-
-So, let's assume the following last-assigned times.
-
-| Sellers | Availability | Available capacity |  Last assigned a lead |
-|---------|--------------|--------------------|-----------------------|
-| Seller 1 | 1D	| 14 | 12 July 2021 10:00 |
-| Seller 2 | 1D | 20 | 12 July 2021 11:00 |
-
-The lead will be assigned to Seller 1. Further leads for this rule and this seller match will be assigned to Seller 2 and Seller 1 using round-robin criteria.
-
-### See also
-
-[Create and activate an assignment rule](create-and-activate-assignment-rule.md)
-
+- [Create and activate an assignment rule](create-and-activate-assignment-rule.md)
+- [Set capacity for sellers](manage-sales-teams.md#set-capacity-for-sellers)

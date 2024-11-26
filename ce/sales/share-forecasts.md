@@ -1,11 +1,12 @@
 ---
 title: "Share a forecast - Dynamics 365 Sales | MicrosoftDocs"
 description: "Share forecasts with other users in the hierarchy or outside the hierarchy with a specific access permission."
-ms.date: 01/25/2022
+ms.date: 09/17/2024
 ms.topic: article
 
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Share a forecast
@@ -13,7 +14,7 @@ ms.author: lavanyakr
 Share the forecasts that you own, with anyone in your hierarchy or outside of your hierarchy. You can specify the access level (such as read, or read and adjust rollup) that you want to give the user. For example, Henry, the Sales Manager, wants to go on a vacation and wants one of the direct reports, Serena Davis, to manage the forecasts. Henry can share the forecast hierarchy with Serena and assign the appropriate permissions. Depending on the permissions granted, Serena can view or adjust the forecast. However, Serena cannot share the forecast with any other user as Henry is the owner of the forecast.  
 
 > [!NOTE]
-> Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faqs-sales.md#who-owns-the-forecast).
+> Only a forecast owner can share their forecast. To know more, see [Who owns the forecast?](faq-forecasting.md#who-owns-the-forecast).
 
 ## License and role requirements
 | Requirement type | You must have |  
@@ -29,7 +30,7 @@ Share the forecasts that you own, with anyone in your hierarchy or outside of yo
     You'll see the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecasts that are enabled for sharing.  
 
     > [!NOTE]
-    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled. To know who owns the forecast, see [this FAQ](faqs-sales.md#who-owns-the-forecast). Contact your administrator to identify the root cause and take appropriate action. 
+    > If you don't see the Share icon, it means that either you’re not the owner of the forecast or forecast sharing is not enabled. To know who owns the forecast, see [this FAQ](faq-forecasting.md#who-owns-the-forecast). Contact your administrator to identify the root cause and take appropriate action. 
 
 2.  Select the **Share** icon :::image type="icon" source="media/share-icon.png" border="false"::: next to the forecast record or hierarchy that you want to share. 
 
@@ -50,6 +51,6 @@ To stop sharing the entire forecast hierarchy from all the users, your administr
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 [Enable or disable forecast sharing](provide-permissions-forecast.md#enable-or-disable-forecast-sharing)  
 [Provide permissions to access and share a forecast](provide-permissions-forecast.md)  

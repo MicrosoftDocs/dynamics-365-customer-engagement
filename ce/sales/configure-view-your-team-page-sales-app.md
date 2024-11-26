@@ -5,6 +5,7 @@ ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure and view team page in sales app
@@ -34,9 +35,6 @@ As a sales manger, you can:
 
 ## Open your team settings page
 
-> [!NOTE]
-> Review the prerequisites. To learn more, see [Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md).
-
 1.	Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
     > [!div class="mx-imgBorder"]
     > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
@@ -51,7 +49,7 @@ As a sales manger, you can:
 
 ## Configure hierarchy levels    
 1.	Choose the hierarchy level from the **Call data visibility** list to display team members for managers. You can choose up to a maximum of three levels. To learn more, see [understand hierarchy levels](#understand-hierarchy-levels).  
-    A list of team members is displayed under **Team members and top performers**. The list consists of team members who report to the manager in Dynamics 365 and Azure Active Directory (AD), including those who don't have access to conversation intelligence.   
+    A list of team members is displayed under **Team members and top performers**. The list consists of team members who report to the manager in Dynamics 365 and Microsoft Entra ID, including those who don't have access to conversation intelligence.   
     The application automatically updates the list every 24 hours and displays the current active team members in the manager's hierarchy.     
     > [!div class="mx-imgBorder"]
     > ![Choose the hierarchy level](media/si-app-admin-configure-your-page-settings.png "Choose the hierarchy level")    
@@ -95,16 +93,16 @@ You can delete seller’s data when a seller is not reporting to you, moved to a
 2.	Save the configuration.     
 
 ## View your team   
-As a sales manager, when you open the **Your team** page in settings, you can view the list of team members within your hierarchy, regardless of whether they have conversation intelligence licenses or not. Team members in the displayed list are based on Dynamics 365 and Azure AD.     
+As a sales manager, when you open the **Your team** page in settings, you can view the list of team members within your hierarchy, regardless of whether they have conversation intelligence licenses or not. Team members in the displayed list are based on Dynamics 365 and Microsoft Entra ID.     
 The list is updated every 24 hours to display the current active sellers in the manager's hierarchy. Also, you can select **Refresh now** to refresh the list right away and view any changes.    
 > [!NOTE]
 > To view this page, sales managers must have a manager hierarchy defined under them, with sellers or individuals added to the hierarchy. Currently, only administrators can change levels of hierarchy. For sales managers to change it, they should contact an administrator to change the hierarchy on their behalf. More information: [Configure hierarchy levels](#configure-hierarchy-levels).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
-[Prerequisites to configure conversation intelligence](prereq-sales-insights-app.md)      
+[Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
 
 

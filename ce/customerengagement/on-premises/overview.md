@@ -2,12 +2,12 @@
 title: "Help for Dynamics 365 Customer Engagement (on-premises), version 9.x"
 description: "Find all the info you need to work with Dynamics 365 Customer Engagement (on-premises), version 9.1. Learn about deploying, customizing, reporting, and more."
 ms.custom: on-premises
-ms.date: 06/07/2021
-ms.reviewer: "kvivek"
+ms.date: 02/09/2024
+ms.reviewer: matp
 
 ms.topic: overview
-author: "kvivek"
-ms.author: "kvivek"
+author:  matp
+ms.author:  matp
 ---
 # Microsoft Dynamics 365 Customer Engagement (on-premises) Help, version 9.x
 
@@ -17,7 +17,7 @@ Welcome to the Dynamics 365 Customer Engagement (on-premises), version 9.1 Help!
 
 Dynamics 365 Customer Engagement (on-premises) is a customer relationship management business solution that helps you improve marketing capabilities for your business, drive your sales higher, and provide excellent customer service to your users.
 
-Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower your marketing, sales, and customer service teams. For a list of new features available with this update, see [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md).
+Dynamics 365 Customer Engagement (on-premises), version 9.1 update introduces many feature enhancements designed to empower your marketing, sales, and customer service teams. For a list of new features available with this update, see [New features in Dynamics 365 Customer Engagement (on-premises), version 9.x](whats-new.md). For latest mainstream support and product lifecycle timelines, see [Support extended for Dynamics 365 for Customer Engagement Apps, v9 (on-premises)](/lifecycle/announcements/dynamics-365-customer-engagement-apps-v9-support-extended).
 
 > [!NOTE]
 > Dynamics 365 Customer Engagement (on-premises) shares many features in common with Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Marketing, Power Apps, and Microsoft Dataverse.<br/>To avoid duplicating the common information between Customer Engagement (on-premises) and other documentation, you will find a lot of references and links throughout this guide pointing to the common information in the respective feature's documentation.

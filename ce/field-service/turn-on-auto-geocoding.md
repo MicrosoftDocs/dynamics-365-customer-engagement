@@ -1,30 +1,29 @@
 ---
-title: "Turn on auto geocoding (Dynamics 365 Field Service) | MicrosoftDocs"
-description: Learn how to turn on auto geocoding in Dynamics 365 Field Service
+title: Enable automatic address geocoding
+description: Learn how to enable auto geocoding to generate coordinates for addresses in Dynamics 365 Field Service.
 ms.custom: 
   - dyn365-fieldservice
-ms.date: 09/08/2022
-ms.topic: article
+ms.date: 11/04/2024
+ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
 ---
 
-# Turn on auto geocoding to calculate estimated travel time
+# Enable automatic address geocoding
 
-Dynamics 365 Field Service needs latitude and longitude values for service account records to estimate travel times when scheduling a work order to a resource.
+Geocoding is the process of transforming text-based address descriptions into geographical coordinates. Dynamics 365 Field Service coordinate to estimate travel times when scheduling a work order to a resource.
   
-With the **Auto Geo Code Addresses** setting, the system attempts to automatically add the coordinates based on the address provided for the service account.  
+The **Auto Geo Code Addresses** setting enables the system to automatically get coordinates (latitude and longitude) based on the address of a service account or a resource.  
   
-> [!IMPORTANT]
-> To use the schedule board booking functionality, geocoding, and location services, you need to turn on maps.  
->
-> For more information, see [Connect to maps](field-service-maps-address-locations.md#connect-to-maps).  
+## Prerequisites
 
-## Enable on automatic geocoding  
+To use geocoding or location services, you need to enable on maps. For more information, see [Connect to maps](field-service-maps-address-locations.md#connect-to-maps).
+
+## Enable automatic geocoding  
   
 1. Open the **Field Service** app.
 
-1. Change to the **Settings** area and go to **Administration**, and then choose **Field Service Settings**.  
+1. Change to the **Settings** area and then choose **Field Service Settings**.  
   
 1. In **Other** tab, set **Auto Geo Code Addresses** to **Yes**.  
 
@@ -32,18 +31,20 @@ With the **Auto Geo Code Addresses** setting, the system attempts to automatical
   
 1. Select **Save**.  
 
-> [!NOTE]
-> When geocoding an address, the only street field used is **Street1**. Additional information like apartment number in **Street2** and **Street3** will be ignored.
+The geocoding process in Field Service uses only one street field (**Street1**). Additional information like apartment number in **Street2** and **Street3** is ignored. Don't add the extended information to **Street1**. The string length could be too long to process.
 
-## Geocode the address on a record  
+> [!TIP]
+> When the system finds no geocode match, it returns the value (0,0). Any custom logic that uses geocoding should ignore these results to avoid incorrect locations and travel routes.
+
+## Get coordinates for an address on a record  
   
 1. Open a work order or a service account.  
   
 2. Ensure the address is accurate.  
   
-3. On the top command bar, select **Geo Code**.
+3. On the command bar, select **Geo Code**.
 
-   :::image type="content" source="media/geo-code-control.png" alt-text="Screenshot of the Geo Code control on an Account view.":::
+   :::image type="content" source="media/geo-code-control.png" alt-text="Screenshot of the Geo Code option on an Account form.":::
   
 4. On the map dialog box, make sure you have the correct address, and then select **Change**.
   

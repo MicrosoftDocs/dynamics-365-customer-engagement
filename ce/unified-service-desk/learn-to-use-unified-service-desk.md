@@ -1,15 +1,14 @@
 ---
 title: "Learn to use Unified Service Desk| MicrosoftDocs"
 description: "This section provides information about the features and capabilities of Unified Service Desk that you can use to configure your agent desktop application."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Learn to use Unified Service Desk
 This section provides information about the features and capabilities of [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] that you can use to configure your agent desktop application. We recommend that you read the topics in this section in the order that they appear in the table of contents to make the most of the information in developing your understanding about [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)].  

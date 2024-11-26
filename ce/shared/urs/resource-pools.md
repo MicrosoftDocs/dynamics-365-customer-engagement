@@ -26,7 +26,7 @@ We recommended creating pools that use the same resource type. If you want to cr
   > Don't choose the *Resource address* option.
 
 1. Choose an option for **Derive Capacity From Group Members**:
-   - **Yes**: Pool capacity changes when adding or removing pool members.
+   - **Yes**: Capacity of the pool resource is recalculated based on its member's work hour calendars. Pool capacity changes when adding or removing pool members.
    - **No**: The system sets the capacity of the pool but you can change it. Adding and removing pool members won't change the capacity.
 
 1. Add more resource attributes to consider for scheduling. Consider the pool as a standard resource as it relates to adding attributes like [characteristics](../../field-service/set-up-characteristics.md) or [territories](../../field-service/set-up-territories.md).
@@ -84,6 +84,8 @@ The duration resets to the default booking duration. Edit the end time to match 
   - The dates the pool members are part of the pool.
   - The working hours of the pool members.
 
+- Bookings assigned to pool member resorces during non-working hours will count against the capacity of the pool resource twice.
+
 - Resources that are a member of the pool will not show as available in the schedule assistant if the pool is fully booked for the time period, even if the individual resource is not booked for the period.
 
-- Pool resources will not show as available in the schedule assistant unless at least one child resource of the pool is available during the time period.
+- Pool resources show as available in the schedule assistant if the system can distribute the planned work duration across multiple child resources. For example, if you want to schedule a task of one hour and no resource is available for the full hour, the system suggests two resources that are available for 30 minutes each.

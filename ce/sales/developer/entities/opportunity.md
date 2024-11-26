@@ -1,12 +1,13 @@
 ---
-title: "Opportunity table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Opportunity table/entity reference"
 description: "Includes schema information and supported messages for the Opportunity table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,28 +24,30 @@ Potential revenue-generating event, or sale to an account, which needs to be tra
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|CalculateActualValueOpportunity|<xref:Microsoft.Crm.Sdk.Messages.CalculateActualValueOpportunityRequest>|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GetQuantityDecimal|<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
-|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|IsValidStateTransition|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|LoseOpportunity|<xref:Microsoft.Crm.Sdk.Messages.LoseOpportunityRequest>|
-|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Rollup|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|WinOpportunity|<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
-|WinQuote|<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|Assign|PATCH /opportunities(*opportunityid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|CalculateActualValueOpportunity||<xref:Microsoft.Crm.Sdk.Messages.CalculateActualValueOpportunityRequest>|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /opportunities<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /opportunities(*opportunityid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GetQuantityDecimal||<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
+|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|LoseOpportunity||<xref:Microsoft.Crm.Sdk.Messages.LoseOpportunityRequest>|
+|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|GET /opportunities(*opportunityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /opportunities<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Rollup|<xref:Microsoft.Dynamics.CRM.Rollup?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
+|SetState|PATCH /opportunities(*opportunityid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /opportunities(*opportunityid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|WinOpportunity||<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
+|WinQuote||<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
 
 ## Properties
 
@@ -103,13 +106,16 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsRevenueSystemCalculated](#BKMK_IsRevenueSystemCalculated)
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
 - [msdyn_forecastcategory](#BKMK_msdyn_forecastcategory)
+- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_OpportunityGrade](#BKMK_msdyn_OpportunityGrade)
+- [msdyn_opportunitykpiid](#BKMK_msdyn_opportunitykpiid)
 - [msdyn_OpportunityScore](#BKMK_msdyn_OpportunityScore)
 - [msdyn_OpportunityScoreTrend](#BKMK_msdyn_OpportunityScoreTrend)
 - [msdyn_PredictiveScoreId](#BKMK_msdyn_PredictiveScoreId)
 - [msdyn_ScoreHistory](#BKMK_msdyn_ScoreHistory)
 - [msdyn_ScoreReasons](#BKMK_msdyn_ScoreReasons)
 - [msdyn_segmentid](#BKMK_msdyn_segmentid)
+- [msdyn_similaropportunities](#BKMK_msdyn_similaropportunities)
 - [Name](#BKMK_Name)
 - [Need](#BKMK_Need)
 - [OpportunityId](#BKMK_OpportunityId)
@@ -198,7 +204,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Type a value between 0 and 1,000,000,000,000 to indicate the lead's potential available budget.|
-|DisplayName|Budget Amount|
+|DisplayName|Budget amount|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|budgetamount|
@@ -304,8 +310,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|1|completed||
-|0|mark complete||
+|1|Completed||
+|0|Mark complete||
 
 **DefaultValue**: 0
 
@@ -327,8 +333,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|1|completed||
-|0|mark complete||
+|1|Completed||
+|0|Mark complete||
 
 **DefaultValue**: 0
 
@@ -489,8 +495,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|1|completed||
-|0|mark complete||
+|1|Completed||
+|0|Mark complete||
 
 **DefaultValue**: 0
 
@@ -551,7 +557,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |--------|-----|
 |DateTimeBehavior|DateOnly|
 |Description|Enter the expected closing date of the opportunity to help make accurate revenue forecasts.|
-|DisplayName|Est. Close Date|
+|DisplayName|Est. close date|
 |Format|DateOnly|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -565,7 +571,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Type the estimated revenue amount to indicate the potential sale or value of the opportunity for revenue forecasting. This field can be either system-populated or editable based on the selection in the Revenue field.|
-|DisplayName|Est. Revenue|
+|DisplayName|Est. revenue|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|estimatedvalue|
@@ -616,8 +622,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|1|completed||
-|0|mark complete||
+|1|Completed||
+|0|Mark complete||
 
 **DefaultValue**: 0
 
@@ -825,6 +831,33 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |100000005|Won||
 |100000006|Lost||
 
+
+
+### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
+
+**Added by**: Predictive Lead Scoring Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Describes whether opportunity is opted out or not|
+|DisplayName|GDPR Optout|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_gdproptout|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_gdproptout Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
 ### <a name="BKMK_msdyn_OpportunityGrade"></a> msdyn_OpportunityGrade
 
 **Added by**: Predictive Opportunity Scoring Solution
@@ -848,6 +881,22 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2|Grade C||
 |3|Grade D||
 
+
+
+### <a name="BKMK_msdyn_opportunitykpiid"></a> msdyn_opportunitykpiid
+
+**Added by**: Relationship analytics Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Maps to opportunity KPI records|
+|DisplayName|KPI|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_opportunitykpiid|
+|RequiredLevel|None|
+|Targets|msdyn_opportunitykpiitem|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_OpportunityScore"></a> msdyn_OpportunityScore
@@ -959,6 +1008,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Targets|msdyn_segment|
 |Type|Lookup|
+
+
+### <a name="BKMK_msdyn_similaropportunities"></a> msdyn_similaropportunities
+
+**Added by**: Relationship analytics Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|msdyn_similaropportunities|
+|Format|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_similaropportunities|
+|MaxLength|65536|
+|RequiredLevel|None|
+|Type|Memo|
 
 
 ### <a name="BKMK_Name"></a> Name
@@ -1185,8 +1252,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|1|completed||
-|0|mark complete||
+|1|Completed||
+|0|Mark complete||
 
 **DefaultValue**: 0
 
@@ -1541,8 +1608,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|Description|
 |-----|-----|--------|
-|1|completed||
-|0|mark complete||
+|1|Completed||
+|0|Mark complete||
 
 **DefaultValue**: 0
 
@@ -1921,6 +1988,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_opportunitykpiidName](#BKMK_msdyn_opportunitykpiidName)
 - [msdyn_PredictiveScoreIdName](#BKMK_msdyn_PredictiveScoreIdName)
 - [msdyn_segmentidName](#BKMK_msdyn_segmentidName)
 - [OnHoldTime](#BKMK_OnHoldTime)
@@ -2433,6 +2501,24 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msdyn_opportunitykpiidName"></a> msdyn_opportunitykpiidName
+
+**Added by**: Relationship analytics Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_opportunitykpiidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_PredictiveScoreIdName"></a> msdyn_PredictiveScoreIdName
 
 **Added by**: Predictive Scoring Common Solution
@@ -2895,11 +2981,11 @@ Listed by **SchemaName**.
 - [Opportunity_OpportunityClose](#BKMK_Opportunity_OpportunityClose)
 - [opportunity_quotes](#BKMK_opportunity_quotes)
 - [opportunity_sales_orders](#BKMK_opportunity_sales_orders)
-- [product_opportunities](#BKMK_product_opportunities)
 - [lead_qualifying_opportunity](#BKMK_lead_qualifying_opportunity)
 - [lk_opportunitysalesprocess_opportunityid](#BKMK_lk_opportunitysalesprocess_opportunityid)
-- [msdyn_playbookinstance_opportunity](#BKMK_msdyn_playbookinstance_opportunity)
+- [product_opportunities](#BKMK_product_opportunities)
 - [CreatedOpportunity_BulkOperationLogs](#BKMK_CreatedOpportunity_BulkOperationLogs)
+- [msdyn_opportunity_msdyn_salesroutingrun_targetobject](#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject)
 
 
 ### <a name="BKMK_opportunity_OpportunityCloses"></a> opportunity_OpportunityCloses
@@ -3022,21 +3108,6 @@ Same as the [opportunity_sales_orders](salesorder.md#BKMK_opportunity_sales_orde
 |CascadeConfiguration|Assign: Cascade<br />Delete: Restrict<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_product_opportunities"></a> product_opportunities
-
-Same as the [product_opportunities](opportunityproduct.md#BKMK_product_opportunities) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|opportunityproduct|
-|ReferencingAttribute|opportunityid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|product_opportunities|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10|
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_lead_qualifying_opportunity"></a> lead_qualifying_opportunity
 
 Same as the [lead_qualifying_opportunity](lead.md#BKMK_lead_qualifying_opportunity) many-to-one relationship for the [lead](lead.md) table/entity.
@@ -3067,21 +3138,19 @@ Same as the [lk_opportunitysalesprocess_opportunityid](opportunitysalesprocess.m
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_playbookinstance_opportunity"></a> msdyn_playbookinstance_opportunity
+### <a name="BKMK_product_opportunities"></a> product_opportunities
 
-**Added by**: Playbook Solution
-
-Same as the [msdyn_playbookinstance_opportunity](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_opportunity) many-to-one relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
+Same as the [product_opportunities](opportunityproduct.md#BKMK_product_opportunities) many-to-one relationship for the [opportunityproduct](opportunityproduct.md) table/entity.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_playbookinstance|
-|ReferencingAttribute|regarding|
+|ReferencingEntity|opportunityproduct|
+|ReferencingAttribute|opportunityid|
 |IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_opportunity|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|product_opportunities|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_CreatedOpportunity_BulkOperationLogs"></a> CreatedOpportunity_BulkOperationLogs
@@ -3100,6 +3169,23 @@ Same as the [CreatedOpportunity_BulkOperationLogs](bulkoperationlog.md#BKMK_Crea
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
+
+### <a name="BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject"></a> msdyn_opportunity_msdyn_salesroutingrun_targetobject
+
+**Added by**: Assignment Rules Solution
+
+Same as the [msdyn_opportunity_msdyn_salesroutingrun_targetobject](msdyn_salesroutingrun.md#BKMK_msdyn_opportunity_msdyn_salesroutingrun_targetobject) many-to-one relationship for the [msdyn_salesroutingrun](msdyn_salesroutingrun.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|msdyn_salesroutingrun|
+|ReferencingAttribute|msdyn_targetobject|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msdyn_opportunity_msdyn_salesroutingrun_targetobject|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
 <a name="manytoone"></a>
 
 ## Many-To-One Relationships
@@ -3113,6 +3199,8 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [opportunity_customer_accounts](#BKMK_opportunity_customer_accounts)
 - [opportunity_customer_contacts](#BKMK_opportunity_customer_contacts)
 - [campaign_opportunities](#BKMK_campaign_opportunities)
+- [msdyn_msdyn_predictivescore_opportunity](#BKMK_msdyn_msdyn_predictivescore_opportunity)
+- [msdyn_msdyn_segment_opportunity](#BKMK_msdyn_msdyn_segment_opportunity)
 
 
 ### <a name="BKMK_opportunity_originating_lead"></a> opportunity_originating_lead
@@ -3156,6 +3244,18 @@ See the [opportunity_customer_contacts](contact.md#BKMK_opportunity_customer_con
 **Added by**: Marketing Solution
 
 See the [campaign_opportunities](campaign.md#BKMK_campaign_opportunities) one-to-many relationship for the [campaign](campaign.md) table/entity.
+
+### <a name="BKMK_msdyn_msdyn_predictivescore_opportunity"></a> msdyn_msdyn_predictivescore_opportunity
+
+**Added by**: Predictive Scoring Common Solution
+
+See the [msdyn_msdyn_predictivescore_opportunity](msdyn_predictivescore.md#BKMK_msdyn_msdyn_predictivescore_opportunity) one-to-many relationship for the [msdyn_predictivescore](msdyn_predictivescore.md) table/entity.
+
+### <a name="BKMK_msdyn_msdyn_segment_opportunity"></a> msdyn_msdyn_segment_opportunity
+
+**Added by**: Segment solution Solution
+
+See the [msdyn_msdyn_segment_opportunity](msdyn_segment.md#BKMK_msdyn_msdyn_segment_opportunity) one-to-many relationship for the [msdyn_segment](msdyn_segment.md) table/entity.
 <a name="manytomany"></a>
 
 ## Many-To-Many Relationships
@@ -3186,7 +3286,7 @@ IntersectEntityName: opportunitycompetitors<br />
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Sales<br />Label: <br />Order: 40|
 
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

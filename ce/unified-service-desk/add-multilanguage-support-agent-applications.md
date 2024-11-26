@@ -1,15 +1,14 @@
 ---
 title: "Manage language support for your agent applications | MicrosoftDocs"
 description: "Learn how to add localized strings for your user interface controls and enable language support for your agent applications."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Manage language support (localized resources) for your agent applications
 

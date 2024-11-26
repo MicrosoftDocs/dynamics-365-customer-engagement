@@ -1,12 +1,13 @@
 ---
-title: "OpportunityClose table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "OpportunityClose table/entity reference"
 description: "Includes schema information and supported messages for the OpportunityClose table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,20 +24,22 @@ Activity that is created automatically when an opportunity is closed, containing
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|Assign|PATCH /opportunitycloses(*activityid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Create|POST /opportunitycloses<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /opportunitycloses(*activityid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|GET /opportunitycloses(*activityid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /opportunitycloses<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|SetState|PATCH /opportunitycloses(*activityid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /opportunitycloses(*activityid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -722,7 +725,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,entitlement,entitlementtemplate,incident,interactionforemail,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,opportunity,site|
+|Targets|account,adx_invitation,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,entitlement,entitlementtemplate,incident,interactionforemail,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,mspp_adplacement,mspp_pollplacement,mspp_publishingstatetransitionrule,mspp_redirect,mspp_shortcut,mspp_website,opportunity,site|
 |Type|Lookup|
 
 
@@ -1901,7 +1904,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [bulkoperation_OpportunityCloses](#BKMK_bulkoperation_OpportunityCloses)
 - [campaign_OpportunityCloses](#BKMK_campaign_OpportunityCloses)
 - [campaignactivity_OpportunityCloses](#BKMK_campaignactivity_OpportunityCloses)
-- [msdyn_playbookinstance_OpportunityCloses](#BKMK_msdyn_playbookinstance_OpportunityCloses)
 - [opportunity_OpportunityCloses](#BKMK_opportunity_OpportunityCloses)
 - [account_OpportunityCloses](#BKMK_account_OpportunityCloses)
 - [Opportunity_OpportunityClose](#BKMK_Opportunity_OpportunityClose)
@@ -1932,12 +1934,6 @@ See the [campaign_OpportunityCloses](campaign.md#BKMK_campaign_OpportunityCloses
 
 See the [campaignactivity_OpportunityCloses](campaignactivity.md#BKMK_campaignactivity_OpportunityCloses) one-to-many relationship for the [campaignactivity](campaignactivity.md) table/entity.
 
-### <a name="BKMK_msdyn_playbookinstance_OpportunityCloses"></a> msdyn_playbookinstance_OpportunityCloses
-
-**Added by**: Playbook Solution
-
-See the [msdyn_playbookinstance_OpportunityCloses](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_OpportunityCloses) one-to-many relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
-
 ### <a name="BKMK_opportunity_OpportunityCloses"></a> opportunity_OpportunityCloses
 
 See the [opportunity_OpportunityCloses](opportunity.md#BKMK_opportunity_OpportunityCloses) one-to-many relationship for the [opportunity](opportunity.md) table/entity.
@@ -1956,7 +1952,7 @@ See the [Opportunity_OpportunityClose](opportunity.md#BKMK_Opportunity_Opportuni
 
 See the [competitor_opportunity_activities](competitor.md#BKMK_competitor_opportunity_activities) one-to-many relationship for the [competitor](competitor.md) table/entity.
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

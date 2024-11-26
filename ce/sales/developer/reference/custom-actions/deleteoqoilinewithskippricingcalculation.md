@@ -1,19 +1,20 @@
 ---
-title: "DeleteOQOILineWithSkipPricingCalculation custom action (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Use this topic to understand the parameters, and web API calls for deleting a line item without triggering price calculation."
+title: DeleteOQOILineWithSkipPricingCalculation custom action
+description: Use this topic to understand the parameters, and web API calls for deleting a line item without triggering price calculation.
 ms.date: 10/26/2021
-ms.topic: get-started-article
+ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
-ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action 
 
 As a developer, use this reference documentation to understand the parameters, and web API calls for deleting an opportunity, quote, order, and invoice without triggering price calculation.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -37,7 +38,7 @@ This custom action can be used both client-side and server-side. Given below are
 POST [Organization URI]/api/data/v9.1/DeleteOQOILineWithSkipPricingCalculation
 {
     "entityLogicalName": "invoicedetail",
-    "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
+    "entityId":"00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
 }
 ```
 
@@ -51,7 +52,7 @@ var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQO
 
 ```
 
-### See also
+## Related information
 
 [msdyn_ForecastApi](msdyn_ForecastApi.md)
 

@@ -1,15 +1,14 @@
 ---
 title: "Global Manager (Hosted Control) in Unified Service Desk | MicrosoftDocs"
 description: "The Global Manager hosted control type is the core of Unified Service Desk, and an instance of this hosted control is required by Unified Service Desk."
-ms.date: 02/17/2020
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Global Manager (Hosted Control)
 
@@ -494,7 +493,7 @@ Cleans up the Chrome pool.
 
 <a name="Translate"></a>
 ### Translate
- Enables you to perform language translation using [Microsoft Translator](https://datamarket.azure.com/dataset/bing/microsofttranslator).
+ Enables you to perform language translation using Microsoft Translator.
 
 
 |  Parameter   |                                                                                                                                                                                                                                               Description                                                                                                                                                                                                                                               |
@@ -502,8 +501,8 @@ Cleans up the Chrome pool.
 |    value     | This is the text to translate. This value may be escaped for multi-line support.<br /><br /> Some valid examples:<br /><br /> `value=$Escaped("my string<br>new line\\\"my text\\\"")`<br /><br /> `value=[[myapp.myparam]^]`<br /><br /> `value=$Escaped([[myapp.myparam]$])`<br /><br /> For more information about these replacement keys, see [Use replacement parameters to configure Unified Service Desk](../unified-service-desk/use-replacement-parameters-configure-unified-service-desk.md). |
 | fromlanguage |                                                                                                      Name of the language to translate from. If this is blank, the system will attempt to detect the language of the specified value to be translated before translating. For a list of valid language values, see [Translator Language Codes](/azure/cognitive-services/Translator/).                                                                                                       |
 |  tolanguage  |                                                                                                                                                                      Name of the language to translate to. For a list of valid language values, see [Translator Language Codes](/azure/cognitive-services/Translator/).                                                                                                                                                                      |
-|   clientId   |                                                                                                       A client ID obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)], see [https://datamarket.azure.com](https://datamarket.azure.com).                                                                                                       |
-| clientsecret |                                                                                                     A client secret obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)], see [https://datamarket.azure.com](https://datamarket.azure.com).                                                                                                     |
+|   clientId   |                                                                                                       A client ID obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)].                                                                                                       |
+| clientsecret |                                                                                                     A client secret obtained from [!INCLUDE[pn_Windows_Azure](../includes/pn-windows-azure.md)] for translation services. For information about registering with [!INCLUDE[pn_azure_shortest](../includes/pn-azure-shortest.md)].                                                                                                     |
 
  The translated value is displayed under the [$Return](../unified-service-desk/replacement-parameters.md#Return) replacement parameter.
 

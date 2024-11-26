@@ -7,6 +7,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
@@ -18,7 +19,7 @@ When you sign in to conversation intelligence as a sales manager, you'll see the
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
@@ -259,7 +260,7 @@ The following image shows how the call recording KPIs are displayed.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)  

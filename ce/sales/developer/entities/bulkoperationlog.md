@@ -1,12 +1,13 @@
 ---
-title: "BulkOperationLog table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "BulkOperationLog table/entity reference"
 description: "Includes schema information and supported messages for the BulkOperationLog table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,11 +24,11 @@ Log used to track bulk operation execution, successes, and failures.
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|Create|POST /bulkoperationlogs<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|Retrieve|GET /bulkoperationlogs(*bulkoperationlogid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /bulkoperationlogs<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
 
 ## Properties
 
@@ -550,7 +551,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|owningbusinessunit|
-|RequiredLevel|None|
+|RequiredLevel|SystemRequired|
 |Targets||
 |Type|Lookup|
 
@@ -733,7 +734,7 @@ See the [CampaignActivity_Contacts](campaignactivity.md#BKMK_CampaignActivity_Co
 
 See the [CampaignActivity_Leads](campaignactivity.md#BKMK_CampaignActivity_Leads) many-to-many relationship for the [campaignactivity](campaignactivity.md) table/entity.
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

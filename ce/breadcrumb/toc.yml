@@ -1,0 +1,59 @@
+- name: Learn
+  href: /
+  topicHref: /
+  items:
+  - name: Dynamics 365
+    href: /dynamics365/
+    topicHref: /dynamics365/
+    items:
+    - name: "Customer Engagement (on-premises), version 9"
+      tocHref: /dynamics365/customerengagement/on-premises/
+      topicHref: /dynamics365/customerengagement/on-premises/overview
+    - name: Customer Service
+      tocHref: /dynamics365/customer-service/
+      topicHref: /dynamics365/customer-service/index
+    - name: Dynamics 365 Customer Service
+      tocHref: /dynamics365/unified-service-desk/
+      topicHref: /dynamics365/unified-service-desk/unified-service-desk  
+    - name: Sales
+      tocHref: /dynamics365/sales/
+      topicHref: /dynamics365/sales/index    
+    - name: Universal Resource Scheduling
+      tocHref: /dynamics365/common-scheduler/
+      topicHref: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
+    - name: Field Service
+      tocHref: /dynamics365/field-service/
+      topicHref: /dynamics365/field-service/index
+    - name: Project Service Automation
+      tocHref: /dynamics365/project-service/
+      topicHref: /dynamics365/project-service/overview
+    - name: Phones and tablets
+      tocHref: /dynamics365/mobile-app/
+      topicHref: /dynamics365/mobile-app/overview
+    - name: App for Outlook
+      tocHref: /dynamics365/outlook-app/
+      topicHref: /dynamics365/outlook-app/overview
+    - name: Company News Timeline
+      tocHref: /dynamics365/company-news-timeline/
+      topicHref: /dynamics365/company-news-timeline/get-company-news-timeline-dynamics-365-phones-tablets  
+    - name: Versium Predict
+      tocHref: /dynamics365/versium-predict
+      topicHref: /dynamics365/versium-predict/versium-predict
+    - name: Voice of the Customer
+      tocHref: /dynamics365/voice-of-customer
+      topicHref: /dynamics365/voice-of-customer/create-voice-of-customer-survey
+    - name: Social Engagement
+      tocHref: /dynamics365/social-engagement
+      topicHref: /dynamics365/social-engagement/get-connected-social-conversation
+    - name: Portals
+      tocHref: /dynamics365/portals
+      topicHref: /dynamics365/portals/administer-manage-portal-dynamics-365
+    - name: LinkedIn
+      tocHref: /dynamics365/linkedin
+      topicHref: /dynamics365/linkedin/sync-linkedin-leads
+    - name: Marketing
+      tocHref: /dynamics365/marketing
+      topicHref: /dynamics365/marketing/get-started-section                      
+    - name: Extend Outlook Client
+      tocHref: /dynamics365/developer/outlook-client/
+      topicHref: /dynamics365/developer/extend-customer-engagement-outlook

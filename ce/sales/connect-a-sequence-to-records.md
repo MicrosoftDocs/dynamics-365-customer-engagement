@@ -1,14 +1,17 @@
 ---
-title: "Connect sequence to records in the sales accelerator"
-description: "Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales."
-ms.date: 08/01/2022
+title: Connect a sequence to records
+description: Connect a sequence to a record based on the entity that the sequence is created in the sales accelerator in Dynamics 365 Sales.
+ms.date: 09/17/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Connect a sequence to records 
 
 After you create and activate a sequence for the selling process, you connect the sequence to records depending on the entity that you've created the sequence for. When a sequence is connected to an entity, the activities defined in the sequence will be shown in order on the record's **Summary** under **Up next** in **My work**.   
+
+Also, you can connect multiple sequences to a record. More information: [Connect multiple sequences to record](#connect-multiple-sequences-to-record)
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -16,11 +19,21 @@ After you create and activate a sequence for the selling process, you connect th
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator, Sequence Manager, or Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
+## Connect multiple sequences to record
+
+To improve the customer engagement and collaboration when multiple team members work on a record, you can connect multiple sequences to that record. This helps in closing deals faster, and bringing better business results.  
+As a sales manager or seller, you can connect multiple sequences to a record manually. Select the **Connect sequence** option on the record page. In the **Connect *record* to sequence** dialog box, connect the required sequences. For connecting multiple sequences, verify that the record owner or the sequence owner has the [necessary permissions](create-manage-sequences.md#permission-requirements-to-manage-sequences).  
+More information: [Through the record type grid view](#through-the-record-type-grid-view). 
+
+>[!NOTE]
+>When a segment is connected to the same sequence more than once for the same record and assigned to the same seller, the Up next widget displays duplicate activities.  
+
 ## Ways to connect sequence to records
 
-You can connect a sequence to records in the following ways:    
+You can connect a sequence to records in the following ways:  
+
 - [Through a sequence](#ContactThroughASequence)
-- [Through the lead or opportunity grid view](#ContactThroughGridView)
+- [Through the record type grid view](#ContactThroughGridView)
 - [Through a record](#ContactThroughARecord)
 - [Through Power Automate](#through-power-automate)
 
@@ -136,8 +149,15 @@ You can create a flow based on a sequence. The flow connects the records automat
     Enter the following additional information:     
     -	**RegardingEntityId**: The unique identifier of the entity record that is to be connected to the sequence.    
     -	**RegardingEntityName**: The logical name of the entity.    
-    -	**SequenceId**: The unique identifier of the sequence.    
-        To get the unique identifier of the sequence, query OData for the sequence entity (**msdyn_sequence**). More information: [Querying or browsing an OData endpoint](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata#querying-or-browsing-an-odata-endpoint)     
+    -	**SequenceId**: The unique identifier of the sequence.       
+    - **SegmentId**: (Optional) The unique identifier of the segment.
+    - **Source**: (Optional) The source of the record.
+    -  **WaitTime**: (Optional) The time to wait before connecting the record to the sequence.
+    - **AdvancedToOtherSequenceTargetStepld**: (Optional) The unique identifier of the sequence step to which the record is to be advanced to another sequence.
+
+    >[!NOTE]
+    >To get the unique identifier of the sequence, query OData for the sequence entity (msdyn_sequence). More information: [Querying or browsing an OData endpoint](/dynamics365/fin-ops-core/dev-itpro/data-entities/odata#querying-or-browsing-an-odata-endpoint)
+    
 8. Use **Flow Checker** to verify errors and warnings in the flow.   
     Errors and warnings in the flow cause performance or reliability issues. Ensure that the flow is free from errors and warnings. The checker is always active, appearing in the command bar in the designer. The checker shows a red dot when it finds one or more errors in your flow.   
     For example, while creating a **For due date coming up** card, you haven't entered **Card Name**. The flow checker identifies the error and displays a red dot.     
@@ -152,9 +172,9 @@ You can create a flow based on a sequence. The flow connects the records automat
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
-[Sequences](create-manage-sequences.md)   
+[Sequences](create-manage-sequences.md)  
 [Create and activate a sequence](create-and-activate-a-sequence.md)
 
 

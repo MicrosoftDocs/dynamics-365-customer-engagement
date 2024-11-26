@@ -1,26 +1,23 @@
 ---
 title: Explore features in included in the trial
 description: Learn about the features available in your Dynamics 365 Sales trial.
-ms.date: 02/06/2023
+ms.date: 06/28/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
 # Explore features included in the trial
 
-The Microsoft Dynamics 365 Sales trial includes the following features to help you manage your pipeline, accelerate sales, project revenue, analyze your sales conversations through AI-powered conversation intelligence, and more:
+The Microsoft Dynamics 365 Sales trial includes several features to help you manage your pipeline, accelerate sales, project revenue, analyze your sales conversations through AI-powered conversation intelligence, and more.
 
-- [Pipeline management](#pipeline-management)
-- [Sales accelerator](#sales-accelerator)
-- [Sales forecasting](#sales-forecasting)
-- [Conversation intelligence](#conversation-intelligence)
-- [Teams collaboration](#teams-collaboration)
-- [Mobile app](#mobile-app)
+If you haven't yet signed up for the trial, see [Sign up for a free Dynamics 365 Sales trial](sign-up-for-sales-trial.md). To learn the basics of using Dynamics 365 Sales, see [this article](user-guide-learn-basics.md).
 
 > [!IMPORTANT]
-> During your trial, you'll have access to the Sales Trial app. In the documentation links listed in this article, assume that any references to the Sales Hub app refer to the Sales Trial app.
+> During your trial period, you'll have access to the **Sales Trial** app. Throughout this documentation, we refer to the **Sales Hub** app, which is the full version of the **Sales Trial** app.
+In the documentation links listed in this article, assume that any references to the Sales Hub app refer to the Sales Trial app.
 
 ## Pipeline management
 

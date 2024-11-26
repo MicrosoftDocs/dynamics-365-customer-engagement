@@ -11,6 +11,7 @@ caps.latest.revision: 4
 robots: noindex,nofollow
 author: Mattp123
 ms.author: matp
+description: Learn how to grant the necessary permissions for domain security groups on Microsoft Dynamics 365. Step-by-step guide included.
 ---
 # Required permissions for domain security groups
 

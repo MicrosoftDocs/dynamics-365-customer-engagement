@@ -1,15 +1,13 @@
 ---
-title: "Connect to a model-driven app using Unified Service Desk client | MicrosoftDocs"
-description: "Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk."
-ms.date: 02/25/2022
+title: Connect to a model-driven app using Unified Service Desk client 
+description: Learn how to sign in to Unified Service Desk using the Unified Service Desk client. Also, learn how to use SSO for Unified Service Desk.
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 
@@ -25,8 +23,6 @@ If you want to configure the sign-in experience, such as by prepopulating values
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog, provide authentication details to connect to your Dataverse server.
-
-   ![Unified Service Desk client sign-in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
 
    - For Dataverse, select **Microsoft 365**.  
 
@@ -180,6 +176,11 @@ To configure sign-in information, use the UnifiedServiceDesk.exe.config file tha
 If you need to modify the default sign-in information, you must repeat steps 1 through 6.  
 
 <a name="LogFiles"></a>   
+
+> [!NOTE]
+> To avoid issues when you sign in with Chrome and have SSO enabled, we recommend that you set the **ChromeWebViewShowOutside**
+UII option to TRUE. More information: [Manage global settings or options in Unified Service Desk](manage-options-unified-service-desk.md).
+
 ## Troubleshoot sign-in issues
 
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] provides logging support to log errors that can occur while signing in to Dataverse. A log file, Login_ErrorLog.log, is created at C:\Users\\<USER_NAME\>\AppData\Roaming\Microsoft\Microsoft Dynamics 365 Unified Service Desk\\<Version\> the first time you encounter any sign-in issues in the client application. Thereafter, the log file is used to record information about subsequent sign-in issues. This information can be helpful for troubleshooting issues related to signing in to Dataverse from the client application.  
@@ -196,3 +197,4 @@ If you need to modify the default sign-in information, you must repeat steps 1 t
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
+

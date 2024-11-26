@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Analyze behavior of your team on customer calls 
 
@@ -15,7 +16,7 @@ Sales calls are one of the most important part of your business as these calls h
 
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
@@ -45,12 +46,12 @@ Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of conversation intelligence](dynamics365-sales-insights-app.md)  
 [First-run set up experience](fre-setup-sales-insight-app.md)  
 [Connect conversation intelligence to an environment](connect-dynamics365-sales-environment.md)  
-[View agent insights in Dynamics 365 Customer Service](../customer-service/intraday-insights-dashboard.md#agent-insights)  
+[View agent insights in Dynamics 365 Customer Service](../customer-service/implement/intraday-insights-dashboard.md#agent-insights)  
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,6 +2,26 @@
   "build": {
     "content": [
       {
+        "group": "ce-all",
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/shared/**",
+          "customerengagement/on-premises/**",
+          "unified-service-desk/**",
+          "**/_themes/**",
+          "**/_themes.pdf/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ]
+      },
+      {
         "group": "op-all",
         "files": [
           "customerengagement/on-premises/**/*.md",
@@ -28,28 +48,31 @@
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
-      },
+      }
+    ],
+    "resource": [
       {
+        "group": "ce-all",
         "files": [
-          "**/*.md",
-          "**/*.yml"
+          "**/*.png",
+          "**/*.jpg",
+          "**/*.gif",
+          "**/*.svg",
+          "**/*.html",
+          "**/*.htm",
+          "**/*.txt",
+          "**/*.ico"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "**/shared/**",
-          "customerengagement/on-premises/**",
           "unified-service-desk/**",
+          "customerengagement/on-premises/**",
           "**/_themes/**",
-          "**/_themes.pdf/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "**/_themes.pdf/**"
         ]
-      }
-    ],
-    "resource": [
+      },
       {
         "group": "op-all",
         "files": [
@@ -87,33 +110,12 @@
           "**/_themes/**",
           "**/_themes.pdf/**"
         ]
-      },
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg",
-          "**/*.gif",
-          "**/*.svg",
-          "**/*.html",
-          "**/*.htm",
-          "**/*.txt",
-          "**/*.ico"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/shared/**",
-          "unified-service-desk/**",
-          "customerengagement/on-premises/**",
-          "**/_themes/**",
-          "**/_themes.pdf/**"
-        ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "uhfHeaderID": "MSDocsHeader-Dynamics365",
       "contributors_to_exclude": [
         "buck1ey",
         "bishalgoswami",
@@ -121,28 +123,41 @@
         "marycc",
         "tinaburden",
         "almostdunh",
-        "AshleyWoodruff"
+        "AshleyWoodruff",
+        "kimberleybrown",
+        "nathlaroche",
+        "bishalgoswami"        
       ],
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/dynamics-365-customer-engagement",
+      "feedback_system": "Standard",
       "feedback_product_url": "https://ideas.dynamics.com",
       "search.appverid": "met150",
-      "recommendations": true
-    },
+      "recommendations": true,
+      "breadcrumb_path": "/dynamics365/breadcrumb/toc.json"
+    },    
     "fileMetadata": {
+      "uhfHeaderId": {
+        "channel-integration-framework/**.*": "MSDocsHeader-Dynamics365-CustomerService",
+        "customer-service/**.*": "MSDocsHeader-Dynamics365-CustomerService",
+        "sales/**.*": "MSDocsHeader-Dynamics365Sales",
+        "field-service/**.*": "MSDocsHeader-Dynamics365-Field-Service",
+        "common-scheduler/**.*": "MSDocsHeader-Dynamics365-Field-Service",
+        "unified-service-desk/**.*": "MSDocsHeader-Dynamics365-CustomerService"
+
+      },
       "featureFlags": {
         "**/*.md": [
           "show_learn_banner"
         ]
       },
       "ms.service": {
-        "mobile-app/**.*": "dynamics-365-cross-app",
+        "mobile-app/**.*": "d365ce-op",
         "legal/**.*": "dynamics-365-cross-app",
-        "outlook-addin/**.*": "dynamics-365-cross-app",
-        "outlook-app/**.*": "dynamics-365-cross-app",
-        "app-profile-manager/**.*": "dynamics-365-customerservice",
-        "customer-service/**.*": "dynamics-365-customerservice",
-        "unified-service-desk/**.*": "dynamics-365-customerservice",
+        "outlook-addin/**.*": "d365ce-op",
+        "outlook-app/**.*": "dynamics-365-outlook-app",
+        "app-profile-manager/**.*": "dynamics-365-customer-service",
+        "channel-integration-framework/**.*": "dynamics-365-customer-service",
+        "customer-service/**.*": "dynamics-365-customer-service",
+        "unified-service-desk/**.*": "dynamics-365-customer-service",
         "common-scheduler/**.*": "dynamics-365-field-service",
         "field-service/**.*": "dynamics-365-field-service",
         "linkedin/**.*": "dynamics-365-linkedinconnector",
@@ -150,14 +165,20 @@
         "insights-insideview/**.*": "dynamics-365-sales",
         "sales/**.*": "dynamics-365-sales",
         "versium-predict/**.*": "dynamics-365-sales",
-        "teams-integration/**.*": "dynamics-365"
-      },
-      "ms.prod": {
+        "teams-integration/**.*": "dynamics-365",
         "admin/**.*": "d365ce-op",
         "customerengagement/**.*": "d365ce-op"
       },
+      "ms.prod": {
+      },
+      "ms.date": {
+        "unified-service-desk/**.*": "06/27/2024"
+      },
+      "ms.custom": {
+        "unified-service-desk/**.*": "evergreen"
+      },
       "ms.subservice": {
-        "customer-service/channel-integration-framework/**.*": "channel-integration-framework",
+        "channel-integration-framework/**.*": "channel-integration-framework",
         "sales/sales-mobile/**.*": "d365-sales-mobile",
         "sales/teams-integration/**.*": "d365-sales-teams",
         "teams-integration/**.*": "dynamics-365-teams",
@@ -170,6 +191,9 @@
       "learn_banner_products": {
         "**/*.md": [
           "dynamics-customer-engagement"
+        ],
+        "channel-integration-framework/**/*.md": [
+          "dynamics-customer-service"
         ],
         "customer-service/**/*.md": [
           "dynamics-customer-service"
@@ -190,17 +214,14 @@
         "developer/**.*": "https://ideas.powerapps.com",
         "developer/channel-integration-framework/**.*": "https://ideas.dynamics.com"
       },
-      "breadcrumb_path": {
-        "**.*": "cebc/toc.yml",
-        "unified-service-desk/**.*": "unified-service-desk/bc/toc.yml"
-      },
-      "extendBreadcrumb": {
-        "**.*": true,
-        "unified-service-desk/**.*": true
-      },
       "searchScope": {
         "**.*": [
           "Dynamics 365"
+        ],
+        "channel-integration-framework/**.*": [
+          "Dynamics 365",
+          "Channel Integration Framework",
+          "Customer Service"
         ],
         "customer-service/**.*": [
           "Dynamics 365",
@@ -266,13 +287,6 @@
           "Dynamics 365",
           "Voice of the Customer"
         ],
-        "channel-integration-framework/**.*": [
-          "Dynamics 365",
-          "Customer Service",
-          "Unified Service Desk",
-          "Omnichannel",
-          "Channel Integration Framework"
-        ],
         "omnichannel/**.*": [
           "Dynamics 365",
           "Customer Service",
@@ -291,6 +305,12 @@
           "D365CE",
           "D365Sales",
           "sales-docs"
+        ],
+        "channel-integration-framework/**.*": [
+          "D365CE",
+          "D365CS",
+          "customerservice-docs",
+          "customerserviceinsights-docs"
         ],
         "customer-service/**.*": [
           "D365CE",
@@ -322,6 +342,9 @@
     "template": [],
     "dest": "customer-engagement",
     "groups": {
+      "ce-all": {
+        "dest": "ce-all"
+      },
       "usd-all": {
         "dest": "usd-all",
         "moniker_range": ">= dynamics-usd-4"

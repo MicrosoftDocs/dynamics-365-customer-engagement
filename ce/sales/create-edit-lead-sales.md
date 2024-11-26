@@ -1,98 +1,89 @@
 ---
-title: Create or edit leads in Dynamics 365 Sales
-description: Use leads to keep track of business prospects. A lead can be an existing client or someone you've never done business with before.
-ms.date: 03/31/2023
-ms.topic: article
+title: Create or edit leads
+description: Learn how to create a lead in Dynamics 365 to track business prospects and add notes, activities, and related contacts.
+ms.date: 09/16/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-searchScope: 
-  - D365-App-msdynce_saleshub
-  - D365-App-msdynce_salespro
-  - D365-Entity-lead
-  - D365-UI-*
-  - Dynamics 365
-  - Sales
+ms.reviewer: lavanyakr
+searchScope:
+ - D365-App-msdynce_saleshub
+ - D365-App-msdynce_salespro
+ - D365-Entity-lead
+ - D365-UI-*
+ - Dynamics 365
+ - Sales
+ms.custom:
+ - ai-gen-docs-bap
+ - ai-gen-desc
+ - ai-seo-date:08/30/2023
+ - bap-template
 ---
 
 # Create or edit leads
 
-Use leads to keep track of business prospects. This article explains when and how to create leads.
+Create leads in Dynamics 365 to track potential new customers. A lead can be an existing client or someone you've never done business with before. You might get leads from many sources, such as advertising, networking, or email campaigns. You can add notes, activities, and related contacts to your leads.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
 ## License and role requirements
 
-| Requirement type | You must have | 
+| Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br/>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **Security roles** | Any primary sales role, such as salesperson or sales manager<br/> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
+## Create or edit a lead
 
-## How to create or edit a lead
+1. In the sitemap of your sales app, select **Leads**.
 
-In [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)], you use leads to keep track of business prospects that you haven't yet qualified through your sales process. A lead can be an existing client or someone you've never done business with before. You might get leads from different sources, such as advertising, networking, or email campaigns.  
+1. Select **New**.
+
+1. Enter the information you have about the lead. Only the **Topic** and **Last name** are required. All other details are optional.
+
+1. Select **Qualify** in the process bar and select or [create an account and contact](accounts-contacts.md).
+
+    - If you select an account or a contact, the company name and contact address details are filled in for you if they were empty. If that information was already entered, your selection doesn't change the existing values.
+    - If you create an account or a contact, Bing Maps can fill in the address details for you if your administrator has turned on address suggestions. Scroll down to the **Address** box and start typing the street address. Select an address from the list of suggestions provided by Bing Maps.
+    - When you create a lead, you can select any values for **Existing Contact** and **Existing Account** until you save the lead. After you save the new lead, you can only select values that have been filtered to avoid duplicates.
+
+1. Select or enter the remaining details in the **Qualify** step.
+
+1. In the **Timeline** section, add any notes or [activities](manage-activities.md), like phone calls or tasks, that are related to the lead.
+
+1. To add a contact as a stakeholder, scroll down to the **Stakeholders** section and select **New Connection**. Search for and select a contact to connect and assign the Stakeholder role. Or, select **New Contact** to create a contact, connect it, and assign it the Stakeholder role.
+
+    - A *stakeholder* is a key contact at the account who's involved in making purchase decisions. If you associated a contact in the **Qualify** step and selected **mark complete** to identify the contact as the account's decision maker, then that contact is automatically connected as a stakeholder and assigned the Stakeholder role.
+    - By default, the contact you connect is assigned the Stakeholder role. To select a different role, select the space to the left of the contact in the list, select **Edit**, and assign the correct role.
   
-<a name="bkmk1"></a>   
-  
-1. From sales app, select **Leads**.
-  
-2. Select **New**.
+   > [!IMPORTANT]
+   > If you don't see "New Connection", it means your organization is using a customized view of leads. In that case, select the **Connections** tab, and then select **Connect** to connect a stakeholder to the lead.
 
-3. Follow the process bar to enter data into fields to move the lead to the next stage.  
+1. Select the **Details** tab and enter any other information you have about your lead, such as industry and preferred contact method.
 
-4. If you're creating the lead for new customers, enter name, contact details, and company name in the **Lead** form.
+1. Select **Save & Close**.
 
-    -OR-
-    
-    If you're creating the lead for an existing account or contact, in the **Qualify** stage of the process bar, select the existing account or contact.
+## Import leads from Excel, CSV, and XML Files
 
-    - When you select an existing account while creating a lead record, the company name is automatically populated. 
+You can add leads by importing them from a Microsoft Excel, CSV, or XML file or from Microsoft Exchange. [Learn how to import data into Dynamics 365 Sales](import-data.md).
 
-    - When you select an existing contact while creating a lead record, the following information is automatically populated in the **Lead** form: First Name, Last Name, Job Title, Business Phone, Mobile Phone and Email.
+## Do more with leads
 
-      > [!NOTE]
-      > -  Auto-population happens only when creating a new lead and when the corresponding fields in the Lead form are empty. If fields are already auto-populated or data is manually entered, the auto population doesn't override the existing values. 
-      >  -  On new (unsaved) lead records, the **Existing Contact** and **Existing Account** fields allow you to choose any records. Once you save the lead record, these fields are filtered to show only the records that meet the duplicate detection rules to avoid duplicates.    
-  
-5. In the **Timeline** section, add any notes or activities (for example, phone calls or tasks) related to this lead. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Track and manage activities](manage-activities.md) 
+- [Nurture your leads through a marketing campaign](../sales-enterprise/get-started-app-marketing-sales.md)
+- [Research leads through social media channels like LinkedIn](../insights-insideview/insights-powered-by-insideview.md)
+- [Increase your marketing and sales effectiveness](../versium-predict/versium-predict.md) (applies to the Sales app only)
 
-6. In the **Stakeholders** section, select the **More Commands** button ![More Commands button.](media/more-button-stakeholders-grid.png "More Commands button"), and then select **New Connection** to add a contact as a stakeholder. A *stakeholder* is a key contact at the account who will be involved in decision-making. 
+## Typical next steps
 
-   In the **Lookup Records** dialog box, enter a name or select the Lookup icon to choose from a list of suggestions. When you've entered the name you want, select **Add**. To create a new contact, select **New**. By default, the contact you add is assigned the Stakeholder role. Select the role corresponding to the contact to select a different role such as Decision Maker or Technical Buyer. 
-  
-    > [!IMPORTANT]
-    > The "New" button on Connection sub-grids is supported only for the out-of-box "Stakeholders" views on the Lead entity. For any other Connection sub-grid or "Stakeholders" sub-grids that are based on custom views, the "New" button doesn't appear on the sub-grid. In such case, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. 
-
-7. In the **Details** area of the **Lead** form, enter information about your lead's industry and preferred contact method.  
-   
-8. On the command bar, select **Save**.  
-
-## Additional considerations  
-  
--   Nurture your leads through a marketing campaign. [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)  
-
--   Research leads through social media channels like LinkedIn and Twitter. [Get sales Insights, powered by InsideView](../insights-insideview/insights-powered-by-insideview.md)  
-
--   Increase your marketing and sales effectiveness.  [Boost sales with Versium Predict](../versium-predict/versium-predict.md) (applies to the Sales app only)
-  
-
-## Tips and tricks  
- Need a faster way to enter leads? Try [Import accounts, leads, or other data](/powerapps/user/import-data)  
-  
-## Typical next steps  
- ![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)  
-![Right arrow button](media/orange-right-arrow-button.png "Right arrow button") [Get introduced to the lead through who knows whom](who-knows-whom.md)
-
-  
- ![Home button](media/home-button.png "Home button") [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)  
- ![Home button](media/home-button.png "Home button") [View relationship analytics and KPIs for the lead](relationship-analytics.md)
+- [Qualify a lead and convert it to an opportunity](qualify-lead-convert-opportunity-sales.md)
+- [Get introduced to the lead through who knows whom](who-knows-whom.md)
+- [Learn about the sales process, nurturing sales from lead to order](nurture-sales-from-lead-order-sales.md)
+- [View relationship analytics and KPIs for the lead](relationship-analytics.md)
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-  
-### See also  
+## Related information
 
 [Print quote, invoice, or other records](print-records.md)
 
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [footer-include](../includes/footer-banner.md)]

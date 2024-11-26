@@ -3,7 +3,6 @@ title: "Troubleshoot Dynamics 365 Server IFD | Microsoft Docs"
 description: This article provides a checklist to verify your internet-facing deployment is working correctly with Dynamics 365 Customer Engagement (on-premises) 
 ms.custom: ""
 ms.date: "10/01/2018"
-
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -28,7 +27,7 @@ author: Mattp123
 |Give the CRMAppPool account the rights to use an existing certificate used by [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] as signing certificate? This could be the wildcard certificate installed on the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server.|[Configure the Microsoft Dynamics 365 Server for claims-based authentication](configure-the-dynamics-365-server-for-claims-based-authentication.md)|  
 |Run the [!INCLUDE[pn_Configure_Claims-based_Wizard](../includes/pn-configure-claims-based-wizard.md)] from [!INCLUDE[pn_Deployment_Manager_long](../includes/pn-deployment-manager-long.md)]? Have you specified the correct URL in this wizard? Have you selected the appropriate encryption certificate?|[Configure the Microsoft Dynamics 365 Server for claims-based authentication](configure-the-dynamics-365-server-for-claims-based-authentication.md)|  
 |Configure relying party trust in [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] internal claims endpoint? Have you provided the correct URL for the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] IFD claims endpoint? Have you setup the correct rules for the relying party trusts?|[Configure the AD FS server for claims-based authentication](configure-the-ad-fs-server-for-claims-based-authentication.md)<br /><br /> [Configure the AD FS server for IFD](configure-the-ad-fs-server-for-ifd.md)|  
-| Verify that clients can connect from the Internet?  | If unable to connect, see [Additional steps for clients unable to connect to the Dynamics 365 Server via IFD](post-installation-configuration-guidelines-dynamics-365.md#additional-steps-for-clients-unable-to-connect-to-the-dynamics-365-server-via-ifd).  |  
+| Verify that clients can connect from the Internet?  | If unable to connect, see [Required steps after enabling OAuth for Dynamics 365 Server](post-installation-configuration-guidelines-dynamics-365.md#required-steps-after-enabling-oauth-for-dynamics-365-server).  |  
   
 ## AD FS  
  Use the following to verify your [!INCLUDE[pn_adfs_short](../includes/pn-adfs-short.md)] settings.  

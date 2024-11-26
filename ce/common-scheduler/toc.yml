@@ -38,16 +38,14 @@
     href: share-schedule-board-tab.md
   - name: Utilization
     href: schedule-board-utilization.md
-  - name: Schedule board custom resource attribute
-    href: extend-schedule-board-custom-resource-attribute.md
-  - name: Edit booking template
-    href: booking-template.md
+  - name: Construct schedule board URL
+    href: schedule-board-url.md
   - name: Booking alerts
     href: booking-alert.md
   - name: Schedule board tab settings
     href: schedule-board-tab-settings.md
-  - name: Next-generation schedule board experience
-    href: preview-schedule-board.md
+  - name: Work with the schedule board
+    href: use-schedule-board.md
 - name: Extensibility
   items: 
   - name: Extensibility updates
@@ -66,10 +64,17 @@
     items: 
     - name: Understanding and customizing resource matching
       href: developer/understanding-and-customizing-resource-matching-in-urs.md
+    - name: Match resources with territory hierarchy
+      href: developer/territory-hierarchies.md
     - name: Find resources by language - A step by step guide
       href: developer/extending-urs-step-by-step.md
     - name: Universal FetchXML
       href: developer/universal-fetchxml.md
   - name: Consider Outlook free/busy in search resource availability API
     href: developer/outlook-free-busy-in-search-resource-availability-API.md
-
+  - name: Schedule board custom resource attribute
+    href: extend-schedule-board-custom-resource-attribute.md
+  - name: Edit booking template
+    href: booking-template.md
+  - name: Show account names on booking details
+    href: account-names-booking-details.md

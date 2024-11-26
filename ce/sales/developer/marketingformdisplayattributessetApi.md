@@ -1,18 +1,20 @@
 ---
-title: "Customize quick campaign form using marketingformdisplayattributesset Web API (Dynamics 365 Sales)"
+title: Customize quick campaign form using marketingformdisplayattributesset Web API
 description: Customize quick campaign form using marketingformdisplayattributesset Web API in Dynamics 365 Sales.
-ms.date: 05/17/2022
+ms.date: 09/07/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Customize quick campaign and campaign activity distribution forms 
 
 As a developer, use this reference documentation for customizing the quick campaign and distribute campaign activity forms. 
 
 > [!IMPORTANT]
->- Customization of quick campaign and campaign activity distribution forms is not available in the application by default. Contact Microsoft Support to enable this feature for your organization.
->- Out of the box fields in the form can't be removed using this customization.  
+>
+> - To enable users to view custom attributes on the activity distribution page, provide read permissions to the **Marketing Form Display Attributes** table under the **Custom Entities** tab within their assigned security role.
+> - Out-of-the-box fields in the form can't be removed using this customization.  
 
 ## License and role requirements
 | Requirement type | You must have |
@@ -55,7 +57,7 @@ HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```
 
-### See also
+## Related information
 
 [Create a quick campaign using in-app marketing (Sales)](../create-quick-campaign-using-app-marketing-sales.md)    
 [Add an activity to a campaign using in-app marketing (Sales)](../add-activity-campaign-using-app-marketing-sales.md)

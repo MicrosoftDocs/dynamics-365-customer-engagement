@@ -34,7 +34,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -42,7 +42,7 @@ This sample shows how to change the state of a workflow, through activating and 
 
 ## Example
 
-[SetStateWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/Workflow/Workflow/SetStateWorkflow.cs)
+[SetStateWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/SetStateWorkflow.cs)
 
 ### See also
 

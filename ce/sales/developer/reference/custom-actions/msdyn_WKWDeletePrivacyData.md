@@ -5,6 +5,7 @@ ms.date: 08/19/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # WKWDeleteGDPRData custom action 
 
@@ -49,6 +50,6 @@ If the request is submitted successfully, the following response is returned:
 
 HTTP 204 
 
-### See also
+## Related information
 
 [msdyn_WKWGDPRDeleteStatus custom action](msdyn_WKWPrivacyDeleteStatus.md)

@@ -1,30 +1,17 @@
 ### YamlMime:Landing
 
-title: Help resources for seller in Dynamics 365 Sales
-
+title: Resources for seller
 summary: Contains topics that describe how to do common sales tasks in Dynamics 365 Sales.
-
-
 metadata:
-
-  title: Help resources for seller in Dynamics 365 Sales
-
+  title: Resources for seller
   description: Contains topics that describe how to do common sales tasks in Dynamics 365 Sales.
-
   services: service
-
-  
-
   ms.topic: landing-page
-
   ms.collection: collection
-
   author: udaykirang
-
   ms.author: udag
-
-  ms.date: 11/24/2021
-
+  ms.reviewer: udag
+  ms.date: 09/22/2023
 
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -36,7 +23,6 @@ landingContent:
     linkLists:
        - linkListType: quickstart
          links:
-
           - text: Overview of Sales and Sales Hub 
             url: overview.md
           - text: Learn the basics 
@@ -53,11 +39,46 @@ landingContent:
             url: /powerapps/user/set-personal-options
 
 # Card 
+  - title: Sales premium
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: What is the Sales accelerator? 
+            url: sales-accelerator-intro.md
+          - text: Use the assistant to guide customer communications 
+            url: assistant.md
+          - text: Prioritize leads through scores 
+            url: work-predictive-lead-scoring.md
+          - text: Prioritize opportunities through scores 
+            url: work-predictive-opportunity-scoring.md
+          - text: Overview of Conversation Intelligence 
+            url: dynamics365-sales-insights-app.md
+          - text: Project accurate revenue with sales forecasting 
+            url: project-accurate-revenue-sales-forecasting.md
+          - text: View customer activity history 
+            url: relationship-analytics.md
+
+# Card 
+  - title: Copilot
+    linkLists:
+       - linkListType: concept
+         links:
+          - text: Copilot overview 
+            url: copilot-overview.md
+          - text: Use Copilot 
+            url: use-sales-copilot.md
+       - linkListType: how-to-guide
+         links:
+          - text: Compose and send email messages using Copilot
+            url: compose-send-email-copilot.md 
+          - text: View and copy email summary
+            url: view-copy-email-summary.md   
+
+# Card 
   - title: Keep track of your customers
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Work with accounts and contacts 
             url: accounts-contacts.md
           - text: Deactivate or activate an account or contact 
@@ -66,15 +87,16 @@ landingContent:
             url: /powerapps/user/add-activities
           - text: Send email using the enhanced email experience 
             url: /powerapps/user/enhanced-email
-          - text: Organize contacts in live org charts for accounts 
-            url: live-org-chart.md
+          - text: Understand organization charts 
+            url: organization-charts.md
+          - text: Work with Outlook
+            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
 
 # Card 
   - title: Increase sales
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Understand the sales process 
             url: nurture-sales-from-lead-order-sales.md
           - text: Create or edit leads 
@@ -88,13 +110,23 @@ landingContent:
           - text: Close opportunities as won or lost 
             url: ../sales-enterprise/close-opportunity-won-lost-sales.md
 
+# Card 
+  - title: LinkedIn integrations
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Integrate LinkedIn Sales Navigator 
+            url: linkedin/integrate-sales-navigator.md
+          - text: Data validation capabilities of LinkedIn Sales Navigator
+            url: linkedin/data-validation.md
+          - text: Understand LinkedIn Sales Insights
+            url: understand-lsi-accounts-form.md
 
 # Card 
   - title: Create and work with collateral
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Create or edit quotes 
             url: create-edit-quote-sales.md
           - text: Create or edit orders  
@@ -103,31 +135,10 @@ landingContent:
             url: create-edit-invoice-sales.md
 
 # Card 
-  - title: Create a marketing campaign 
-    linkLists:
-       - linkListType: how-to-guide
-         links:
-
-   
-          - text: Create a marketing list using in-app marketing 
-            url: ../sales-enterprise/create-marketing-list-using-app-marketing-sales.md
-          - text: Create a quick campaign 
-            url: create-quick-campaign-using-app-marketing-sales.md
-          - text: Add assets to a campaign 
-            url: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
-          - text: Create or edit a campaign 
-            url: create-edit-campaign-using-app-marketing-sales.md
-          - text: Add an activity to a campaign 
-            url: add-activity-campaign-using-app-marketing-sales.md
-          - text: Track a marketing campaign response 
-            url: track-marketing-campaign-response-using-app-marketing-sales.md
-
-# Card 
   - title: Manage data
     linkLists:
        - linkListType: how-to-guide
          links:
-
           - text: Import data 
             url: /powerapps/user/import-data
           - text: Export data to Excel 
@@ -142,22 +153,28 @@ landingContent:
     linkLists:
        - linkListType: overview
          links:
-
           - text: Work with reports 
             url: /powerapps/user/work-with-reports
           - text: Print quote, invoice, or other records 
             url: print-records.md
 
 # Card 
-  - title: Get better sales intelligence
+  - title: Create a marketing campaign 
     linkLists:
-       - linkListType: concept
+       - linkListType: how-to-guide
          links:
-
-          - text: Boost sales with Versium Predict 
-            url: ../versium-predict/versium-predict.md
-          - text: Get sales Insights, powered by InsideView 
-            url: ../insights-insideview/insights-powered-by-insideview.md
+          - text: Create a marketing list using in-app marketing 
+            url: ../sales-enterprise/create-marketing-list-using-app-marketing-sales.md
+          - text: Create a quick campaign 
+            url: create-quick-campaign-using-app-marketing-sales.md
+          - text: Add assets to a campaign 
+            url: add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md
+          - text: Create or edit a campaign 
+            url: create-edit-campaign-using-app-marketing-sales.md
+          - text: Add an activity to a campaign 
+            url: add-activity-campaign-using-app-marketing-sales.md
+          - text: Track a marketing campaign response 
+            url: track-marketing-campaign-response-using-app-marketing-sales.md
 
 # Card 
   - title: Dynamics 365 Sales mobile app
@@ -173,34 +190,12 @@ landingContent:
           - text: Learn the basics 
             url: sales-mobile/learn-basics-mobile-app.md
 
-
 # Card 
-  - title: Sales Premium
+  - title: Get better sales intelligence
     linkLists:
        - linkListType: concept
          links:
-          - text: What is the Sales accelerator? 
-            url: sales-accelerator-intro.md
-          - text: Use the assistant to guide customer communications 
-            url: assistant.md
-          - text: Prioritize leads through scores 
-            url: work-predictive-lead-scoring.md
-          - text: Prioritize opportunities through scores 
-            url: work-predictive-opportunity-scoring.md
-          - text: Overview of Conversation Intelligence 
-            url: dynamics365-sales-insights-app.md
-       - linkListType: concept
-         links:
-          - text: Project accurate revenue with sales forecasting 
-            url: project-accurate-revenue-sales-forecasting.md
-          - text: View customer activity history 
-            url: relationship-analytics.md
-
-
-# Card 
-  - title: Work with Outlook
-    linkLists:
-       - linkListType: how-to-guide
-         links:
-          - text: Dynamics 365 App for Outlook User Guide 
-            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
+          - text: Boost sales with Versium Predict 
+            url: ../versium-predict/versium-predict.md
+          - text: Get sales Insights, powered by InsideView 
+            url: ../insights-insideview/insights-powered-by-insideview.md

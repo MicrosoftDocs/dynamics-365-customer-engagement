@@ -1,13 +1,14 @@
 ---
-title: "Premium forecasting overview"
-description: "Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data."
+title: Predict future revenue outcomes using premium forecasting
+description: Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data.
 ms.date: 03/15/2023
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
-# About premium forecasting
+# Predict future revenue outcomes using premium forecasting
 
 Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data. To achieve this, premium forecasting uses AI-driven models that look at historical data and the sales pipeline to predict future revenue outcomes.
 
@@ -55,6 +56,9 @@ Consider the following before you start using predictive forecasting, you must h
 
 ### Snapshots
 
+> [!NOTE]
+> Starting June 30, 2024, you'll no longer be able to enable snapshots for new forecast configurations. [Learn more](deprecations-sales.md#snapshot-deprecation). 
+
 Sales organizations can use snapshots to "freeze" forecast data at a moment in time. To learn more about how to use snapshots and how deals flow between two snapshots, see [Take snapshots automatically](manage-snapshots-forecast.md) and [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
 
 ### Trend chart
@@ -71,11 +75,11 @@ The flow chart provides a visual representation of how the forecast changes betw
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Take snapshots automatically](manage-snapshots-forecast.md)<br>
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)<br>
+[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)<br>
 [Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)
 
 

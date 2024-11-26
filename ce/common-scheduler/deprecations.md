@@ -1,12 +1,12 @@
 ---
 title: Feature deprecations for Universal Resource Scheduling
 description: Learn about feature deprecations for Universal Resource Scheduling to prepare for future releases.
-ms.date: 02/14/2023
+ms.date: 02/14/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: overview
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Feature deprecations for Universal Resource Scheduling

@@ -1,12 +1,13 @@
 ---
-title: "Account table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Account table/entity reference"
 description: "Includes schema information and supported messages for the Account table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -21,24 +22,32 @@ Business that represents a customer or potential customer. The company that is b
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|Merge|<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
-|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Rollup|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|Assign|PATCH /accounts(*accountid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Associate|[Associate and disassociate entities](/powerapps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /accounts<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /accounts(*accountid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|[Associate and disassociate entities](/powerapps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|Merge|<xref:Microsoft.Dynamics.CRM.Merge?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.MergeRequest>|
+|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retrieve|GET /accounts(*accountid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /accounts<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Rollup|<xref:Microsoft.Dynamics.CRM.Rollup?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
+|SetState|PATCH /accounts(*accountid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /accounts(*accountid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
 ## Properties
 
@@ -113,6 +122,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [Address2_Telephone3](#BKMK_Address2_Telephone3)
 - [Address2_UPSZone](#BKMK_Address2_UPSZone)
 - [Address2_UTCOffset](#BKMK_Address2_UTCOffset)
+- [Adx_CreatedByIPAddress](#BKMK_Adx_CreatedByIPAddress)
+- [Adx_CreatedByUsername](#BKMK_Adx_CreatedByUsername)
+- [Adx_ModifiedByIPAddress](#BKMK_Adx_ModifiedByIPAddress)
+- [Adx_ModifiedByUsername](#BKMK_Adx_ModifiedByUsername)
 - [BusinessTypeCode](#BKMK_BusinessTypeCode)
 - [CreditLimit](#BKMK_CreditLimit)
 - [CreditOnHold](#BKMK_CreditOnHold)
@@ -140,8 +153,10 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastUsedInCampaign](#BKMK_LastUsedInCampaign)
 - [MarketCap](#BKMK_MarketCap)
 - [MarketingOnly](#BKMK_MarketingOnly)
+- [msa_managingpartnerid](#BKMK_msa_managingpartnerid)
+- [msdyn_accountkpiid](#BKMK_msdyn_accountkpiid)
+- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
 - [msdyn_salesaccelerationinsightid](#BKMK_msdyn_salesaccelerationinsightid)
-- [msdyn_segmentid](#BKMK_msdyn_segmentid)
 - [Name](#BKMK_Name)
 - [NumberOfEmployees](#BKMK_NumberOfEmployees)
 - [OriginatingLeadId](#BKMK_OriginatingLeadId)
@@ -1041,6 +1056,78 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
+### <a name="BKMK_Adx_CreatedByIPAddress"></a> Adx_CreatedByIPAddress
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Created By (IP Address)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|adx_createdbyipaddress|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_Adx_CreatedByUsername"></a> Adx_CreatedByUsername
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Created By (User Name)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|adx_createdbyusername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_Adx_ModifiedByIPAddress"></a> Adx_ModifiedByIPAddress
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Modified By (IP Address)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|adx_modifiedbyipaddress|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_Adx_ModifiedByUsername"></a> Adx_ModifiedByUsername
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Modified By (User Name)|
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|adx_modifiedbyusername|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_BusinessTypeCode"></a> BusinessTypeCode
 
 |Property|Value|
@@ -1602,6 +1689,65 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 **DefaultValue**: 0
 
+
+
+### <a name="BKMK_msa_managingpartnerid"></a> msa_managingpartnerid
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier for Account associated with Account.|
+|DisplayName|Managing Partner|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msa_managingpartnerid|
+|RequiredLevel|None|
+|Targets|account|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_accountkpiid"></a> msdyn_accountkpiid
+
+**Added by**: Relationship analytics Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|KPI|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountkpiid|
+|RequiredLevel|None|
+|Targets|msdyn_accountkpiitem|
+|Type|Lookup|
+
+
+### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
+
+**Added by**: Predictive Opportunity Scoring Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Describes whether account is opted out or not|
+|DisplayName|GDPR Optout|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_gdproptout|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_gdproptout Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
 ### <a name="BKMK_msdyn_salesaccelerationinsightid"></a> msdyn_salesaccelerationinsightid
 
 **Added by**: Sales Acceleration Solution
@@ -1615,22 +1761,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|msdyn_salesaccelerationinsightid|
 |RequiredLevel|None|
 |Targets|msdyn_salesaccelerationinsight|
-|Type|Lookup|
-
-
-### <a name="BKMK_msdyn_segmentid"></a> msdyn_segmentid
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for Segment associated with account.|
-|DisplayName|Segment Id|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_segmentid|
-|RequiredLevel|None|
-|Targets|msdyn_segment|
 |Type|Lookup|
 
 
@@ -2398,8 +2528,10 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msa_managingpartneridName](#BKMK_msa_managingpartneridName)
+- [msa_managingpartneridYomiName](#BKMK_msa_managingpartneridYomiName)
+- [msdyn_accountkpiidName](#BKMK_msdyn_accountkpiidName)
 - [msdyn_salesaccelerationinsightidName](#BKMK_msdyn_salesaccelerationinsightidName)
-- [msdyn_segmentidName](#BKMK_msdyn_segmentidName)
 - [OnHoldTime](#BKMK_OnHoldTime)
 - [OpenDeals](#BKMK_OpenDeals)
 - [OpenDeals_Date](#BKMK_OpenDeals_Date)
@@ -3078,6 +3210,60 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msa_managingpartneridName"></a> msa_managingpartneridName
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msa_managingpartneridname|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msa_managingpartneridYomiName"></a> msa_managingpartneridYomiName
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msa_managingpartneridyominame|
+|MaxLength|160|
+|RequiredLevel|None|
+|Type|String|
+
+
+### <a name="BKMK_msdyn_accountkpiidName"></a> msdyn_accountkpiidName
+
+**Added by**: Relationship analytics Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_accountkpiidname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_salesaccelerationinsightidName"></a> msdyn_salesaccelerationinsightidName
 
 **Added by**: Sales Acceleration Solution
@@ -3091,24 +3277,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |IsValidForForm|False|
 |IsValidForRead|True|
 |LogicalName|msdyn_salesaccelerationinsightidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_msdyn_segmentidName"></a> msdyn_segmentidName
-
-**Added by**: Active Solution Solution
-
-|Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_segmentidname|
 |MaxLength|100|
 |RequiredLevel|None|
 |Type|String|
@@ -3650,6 +3818,8 @@ Listed by **SchemaName**.
 - [account_parent_account](#BKMK_account_parent_account)
 - [contact_customer_accounts](#BKMK_contact_customer_accounts)
 - [account_master_account](#BKMK_account_master_account)
+- [msa_account_managingpartner](#BKMK_msa_account_managingpartner)
+- [msa_contact_managingpartner](#BKMK_msa_contact_managingpartner)
 - [lead_customer_accounts](#BKMK_lead_customer_accounts)
 - [lead_parent_account](#BKMK_lead_parent_account)
 - [account_BulkOperations](#BKMK_account_BulkOperations)
@@ -3664,7 +3834,7 @@ Listed by **SchemaName**.
 - [order_customer_accounts](#BKMK_order_customer_accounts)
 - [quote_customer_accounts](#BKMK_quote_customer_accounts)
 - [opportunity_parent_account](#BKMK_opportunity_parent_account)
-- [msdyn_playbookinstance_account](#BKMK_msdyn_playbookinstance_account)
+- [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User)
 
 
 ### <a name="BKMK_account_parent_account"></a> account_parent_account
@@ -3710,6 +3880,40 @@ Same as the [account_master_account](account.md#BKMK_account_master_account) man
 |ReferencedEntityNavigationPropertyName|account_master_account|
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msa_account_managingpartner"></a> msa_account_managingpartner
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+Same as the [msa_account_managingpartner](account.md#BKMK_msa_account_managingpartner) many-to-one relationship for the [account](account.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|account|
+|ReferencingAttribute|msa_managingpartnerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msa_account_managingpartner|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Managed Accounts<br />Order: 100400|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+
+
+### <a name="BKMK_msa_contact_managingpartner"></a> msa_contact_managingpartner
+
+**Added by**: Power Pages Runtime Core Dependencies Solution
+
+Same as the [msa_contact_managingpartner](contact.md#BKMK_msa_contact_managingpartner) many-to-one relationship for the [contact](contact.md) table/entity.
+
+|Property|Value|
+|--------|-----|
+|ReferencingEntity|contact|
+|ReferencingAttribute|msa_managingpartnerid|
+|IsHierarchical|False|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|msa_contact_managingpartner|
+|AssociatedMenuConfiguration|Behavior: UseLabel<br />Group: Details<br />Label: Managed Contacts<br />Order: 100500|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_lead_customer_accounts"></a> lead_customer_accounts
@@ -3950,21 +4154,21 @@ Same as the [opportunity_parent_account](opportunity.md#BKMK_opportunity_parent_
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_msdyn_playbookinstance_account"></a> msdyn_playbookinstance_account
+### <a name="BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User"></a> msdyn_msdyn_conversationparticipantinsights_account_msdyn_User
 
-**Added by**: Playbook Solution
+**Added by**: Conversation Intelligence Solution
 
-Same as the [msdyn_playbookinstance_account](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_account) many-to-one relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
+Same as the [msdyn_msdyn_conversationparticipantinsights_account_msdyn_User](msdyn_conversationparticipantinsights.md#BKMK_msdyn_msdyn_conversationparticipantinsights_account_msdyn_User) many-to-one relationship for the [msdyn_conversationparticipantinsights](msdyn_conversationparticipantinsights.md) table/entity.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_playbookinstance|
-|ReferencingAttribute|regarding|
+|ReferencingEntity|msdyn_conversationparticipantinsights|
+|ReferencingAttribute|msdyn_user|
 |IsHierarchical|False|
 |IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_account|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|ReferencedEntityNavigationPropertyName|msdyn_msdyn_conversationparticipantinsights_account_msdyn_user|
+|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: 10000|
+|CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: Cascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -3975,6 +4179,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 - [account_primary_contact](#BKMK_account_primary_contact)
 - [account_master_account](#BKMK_account_master_account)
 - [account_parent_account](#BKMK_account_parent_account)
+- [msa_account_managingpartner](#BKMK_msa_account_managingpartner)
 - [account_originating_lead](#BKMK_account_originating_lead)
 - [price_level_accounts](#BKMK_price_level_accounts)
 
@@ -3990,6 +4195,10 @@ See the [account_master_account](account.md#BKMK_account_master_account) one-to-
 ### <a name="BKMK_account_parent_account"></a> account_parent_account
 
 See the [account_parent_account](account.md#BKMK_account_parent_account) one-to-many relationship for the [account](account.md) table/entity.
+
+### <a name="BKMK_msa_account_managingpartner"></a> msa_account_managingpartner
+
+See the [msa_account_managingpartner](account.md#BKMK_msa_account_managingpartner) one-to-many relationship for the [account](account.md) table/entity.
 
 ### <a name="BKMK_account_originating_lead"></a> account_originating_lead
 
@@ -4049,7 +4258,7 @@ See the [BulkOperation_Accounts](bulkoperation.md#BKMK_BulkOperation_Accounts) m
 
 See the [CampaignActivity_Accounts](campaignactivity.md#BKMK_CampaignActivity_Accounts) many-to-many relationship for the [campaignactivity](campaignactivity.md) table/entity.
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

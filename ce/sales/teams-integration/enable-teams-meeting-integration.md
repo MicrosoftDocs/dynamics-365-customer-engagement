@@ -1,11 +1,12 @@
 ---
 title: Enable Microsoft Teams meeting integration in Sales Hub (preview)
 description: Learn how to enable Microsoft Teams meeting integration in Sales Hub apps.
-ms.date: 08/09/2022
+ms.date: 06/28/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Enable Microsoft Teams meeting integration (preview)
@@ -18,6 +19,7 @@ With Microsoft Teams meeting integration, sellers can quickly access and update 
 
 > [!NOTE]
 > - If you have other customer engagement apps installed, and you turn on Teams meeting integration in one customer engagement app, it's turned on in all customer engagement apps in your organization. For example, if this feature is turned on in Sales Hub, it will also be shown as turned on in Customer Service Hub.
+> - When you create a Teams meeting from Dynamics 365, the appointment status is set to **Free** and no reminders are sent to the participants.
 > - Conversation intelligence has been deprecated within the Dynamics 365 app for Teams.
 
 ## License and role requirements
@@ -53,7 +55,7 @@ You'll also need to turn on the following settings:
 
 - **Add and join meetings**: This setting ensures that a seller can create and join Teams meetings directly from Dynamics 365. For more information, see [Manage feature settings](/power-platform/admin/settings-features).
 
-### See also
+## Related information
 
 [Customize record details in the side panel](customize-record-side-panel.md)    
 [Integrate Dynamics 365 and Microsoft Teams meetings](teams-meeting-integration.md)

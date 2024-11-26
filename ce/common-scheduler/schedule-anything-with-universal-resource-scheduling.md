@@ -1,12 +1,12 @@
 ---
 title: "Overview of Universal Resource Scheduling in Dynamics 365"
 description: "Schedule any entity using Universal Resource Scheduling. Make sure you meet the prerequisites, then follow these steps for scheduling an entity."
-ms.date: 04/27/2023
+ms.date: 02/15/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: overview
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 # Overview of Universal Resource Scheduling in Dynamics 365
 
@@ -18,8 +18,6 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
 
 - Dynamics 365 Project Operations: [Staff projects with consultants who have availability and the appropriate skill set](/dynamics365/project-operations/psa/overview).
 
-- Microsoft Cloud for Financial Services: [Set up virtual or in-person appointments with banking advisors, based on skill matching, availability optimization and contextual information](/industry/financial-services/).
-
 > [!CAUTION]
 > Administrators of apps listed above, which have a dependency on the Universal Resource Scheduling, have access to all default entities of the Universal Resource Scheduling solution. If a user creates a trial for one of these applications, they get admin permissions for the trial, which gives them access to these entities.
 
@@ -27,7 +25,7 @@ Universal Resource Scheduling is a Dynamics 365 solution that allows organizatio
 
  Before you can use Universal Resource Scheduling, make sure you have:  
   
-- Dynamics 365 Field Service, Project Operations, Customer Service, or Microsoft Cloud for Financial Services.
+- Dynamics 365 Field Service, Project Operations, or Customer Service.
   
 - User credentials with the Universal Resource Scheduling security role, in order to manage the solution once it has been deployed.
   
@@ -56,10 +54,6 @@ A plugin checks the relationships and automatically sets the booking setup metad
 2. From the **Booking Requirement** list, select an unscheduled booking and drag the item to an available resource/time slot on the schedule board.  
   
 Or select **Book** on an entity record that has scheduling enabled, then use the schedule assistant to book the requirement.  
-
-## Enable the legacy schedule board
-
-[!INCLUDE[enable-legacy-sb.md](../shared/urs/enable-legacy-sb.md)]
 
 ## Next steps
 

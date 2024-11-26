@@ -1,11 +1,12 @@
 ---
 title: Create a Microsoft Teams meeting in Dynamics 365
 description: Learn how to create a Teams meeting in Dynamics 365.
-ms.date: 04/20/2023
+ms.date: 06/22/2023
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Create a Microsoft Teams meeting
@@ -33,8 +34,8 @@ In Dynamics 365, you can create a Teams meeting from the **Timeline** of a recor
 
 > [!IMPORTANT]
 > - For the join link to be created successfully, the user enabling the meeting for Teams needs to be the meeting organizer. The organizer field is not exposed by default on the appointment form but the value defaults to the user who creates the meeting.
-> 
 > - The personal standards and formats selected by a user in Dynamics 365 affect the formatting of the Teams meeting details saved within the description of the meeting. To view the selected format, select **Settings** (:::image type="icon" source="../media/settings-icon.png" border="false":::) > **Personalization Settings**, and then select the **Formats** tab.
+> - When you create a Teams meeting from Dynamics 365, the appointment status is set to **Free** and no reminders are sent to the participants.
 
 ### Create a Teams meeting from the Timeline
 
@@ -67,7 +68,7 @@ For more information on creating a Teams meeting in Outlook, see [Schedule a Tea
 
 For more information on using the Dynamics 365 App for Outlook, see [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation).
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

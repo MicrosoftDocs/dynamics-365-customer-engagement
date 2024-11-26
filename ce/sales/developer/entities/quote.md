@@ -1,12 +1,13 @@
 ---
-title: "Quote table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Quote table/entity reference"
 description: "Includes schema information and supported messages for the Quote table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,33 +24,35 @@ Formal offer for products and/or services, proposed at specific prices and relat
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|CloseIncident|<xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest>|
-|CloseQuote|<xref:Microsoft.Crm.Sdk.Messages.CloseQuoteRequest>|
-|ConvertQuoteToSalesOrder|<xref:Microsoft.Crm.Sdk.Messages.ConvertQuoteToSalesOrderRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|GenerateQuoteFromOpportunity|<xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>|
-|GetQuantityDecimal|<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
-|GetQuoteProductsFromOpportunity|<xref:Microsoft.Crm.Sdk.Messages.GetQuoteProductsFromOpportunityRequest>|
-|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|ReviseQuote|<xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>|
-|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Rollup|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|WinOpportunity|<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
-|WinQuote|<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|Assign|PATCH /quotes(*quoteid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Associate|[Associate and disassociate entities](/powerapps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|CloseIncident||<xref:Microsoft.Crm.Sdk.Messages.CloseIncidentRequest>|
+|CloseQuote||<xref:Microsoft.Crm.Sdk.Messages.CloseQuoteRequest>|
+|ConvertQuoteToSalesOrder||<xref:Microsoft.Crm.Sdk.Messages.ConvertQuoteToSalesOrderRequest>|
+|Create|POST /quotes<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /quotes(*quoteid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|[Associate and disassociate entities](/powerapps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|GenerateQuoteFromOpportunity||<xref:Microsoft.Crm.Sdk.Messages.GenerateQuoteFromOpportunityRequest>|
+|GetQuantityDecimal||<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
+|GetQuoteProductsFromOpportunity||<xref:Microsoft.Crm.Sdk.Messages.GetQuoteProductsFromOpportunityRequest>|
+|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|GET /quotes(*quoteid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /quotes<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|ReviseQuote||<xref:Microsoft.Crm.Sdk.Messages.ReviseQuoteRequest>|
+|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Rollup|<xref:Microsoft.Dynamics.CRM.Rollup?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
+|SetState|PATCH /quotes(*quoteid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /quotes(*quoteid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|WinOpportunity||<xref:Microsoft.Crm.Sdk.Messages.WinOpportunityRequest>|
+|WinQuote||<xref:Microsoft.Crm.Sdk.Messages.WinQuoteRequest>|
 
 ## Properties
 
@@ -109,6 +112,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [PriceLevelId](#BKMK_PriceLevelId)
 - [PricingErrorCode](#BKMK_PricingErrorCode)
 - [ProcessId](#BKMK_ProcessId)
+- [QuoteCreationMethod](#BKMK_QuoteCreationMethod)
 - [QuoteId](#BKMK_QuoteId)
 - [QuoteNumber](#BKMK_QuoteNumber)
 - [RequestDeliveryBy](#BKMK_RequestDeliveryBy)
@@ -448,7 +452,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Enter the date when the quote pricing is effective or was first communicated to the customer.|
-|DisplayName|Effective From|
+|DisplayName|Effective from|
 |Format|DateOnly|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -463,7 +467,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |--------|-----|
 |DateTimeBehavior|UserLocal|
 |Description|Enter the expiration date or last day the quote pricing is effective for the customer.|
-|DisplayName|Effective To|
+|DisplayName|Effective to|
 |Format|DateOnly|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -754,6 +758,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|processid|
 |RequiredLevel|None|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_QuoteCreationMethod"></a> QuoteCreationMethod
+
+**Added by**: Sales Patch Version 3 Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Creation Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|quotecreationmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### QuoteCreationMethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|776160000|Unknown||
+|776160001|Revision||
+
 
 
 ### <a name="BKMK_QuoteId"></a> QuoteId
@@ -1158,7 +1185,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |Description|Shows the total amount due, calculated as the sum of the products, discounts, freight, and taxes for the quote.|
-|DisplayName|Total Amount|
+|DisplayName|Total amount|
 |IsValidForCreate|False|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2180,10 +2207,9 @@ Listed by **SchemaName**.
 
 - [quote_QuoteCloses](#BKMK_quote_QuoteCloses)
 - [lk_opportunitysalesprocess_quoteid](#BKMK_lk_opportunitysalesprocess_quoteid)
-- [quote_details](#BKMK_quote_details)
 - [quote_orders](#BKMK_quote_orders)
 - [Quote_QuoteClose](#BKMK_Quote_QuoteClose)
-- [msdyn_playbookinstance_quote](#BKMK_msdyn_playbookinstance_quote)
+- [quote_details](#BKMK_quote_details)
 
 
 ### <a name="BKMK_quote_QuoteCloses"></a> quote_QuoteCloses
@@ -2216,21 +2242,6 @@ Same as the [lk_opportunitysalesprocess_quoteid](opportunitysalesprocess.md#BKMK
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### <a name="BKMK_quote_details"></a> quote_details
-
-Same as the [quote_details](quotedetail.md#BKMK_quote_details) many-to-one relationship for the [quotedetail](quotedetail.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|quotedetail|
-|ReferencingAttribute|quoteid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|quote_details|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
 ### <a name="BKMK_quote_orders"></a> quote_orders
 
 Same as the [quote_orders](salesorder.md#BKMK_quote_orders) many-to-one relationship for the [salesorder](salesorder.md) table/entity.
@@ -2261,21 +2272,19 @@ Same as the [Quote_QuoteClose](quoteclose.md#BKMK_Quote_QuoteClose) many-to-one 
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_msdyn_playbookinstance_quote"></a> msdyn_playbookinstance_quote
+### <a name="BKMK_quote_details"></a> quote_details
 
-**Added by**: Playbook Solution
-
-Same as the [msdyn_playbookinstance_quote](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_quote) many-to-one relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
+Same as the [quote_details](quotedetail.md#BKMK_quote_details) many-to-one relationship for the [quotedetail](quotedetail.md) table/entity.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_playbookinstance|
-|ReferencingAttribute|regarding|
+|ReferencingEntity|quotedetail|
+|ReferencingAttribute|quoteid|
 |IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_quote|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|quote_details|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -2347,7 +2356,7 @@ IntersectEntityName: contactquotes<br />
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

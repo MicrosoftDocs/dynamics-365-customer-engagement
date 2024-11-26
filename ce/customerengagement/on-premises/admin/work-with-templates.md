@@ -10,8 +10,8 @@ ms.tgt_pltfrm:
 ms.topic: article
 ms.assetid: 5aa5e647-2770-411d-b9df-f1ca323e6a62
 caps.latest.revision: 9
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 
@@ -30,7 +30,7 @@ More information: [Create templates for articles](/power-platform/admin/create-t
 
 Knowledge article templates help knowledge authors by simplifying the process of creating knowledge articles. Templates also help knowledge managers and authors in maintaining consistency in branding, language, and structure.
 
-More information: [Create knowledge article template](../../../customer-service/create-templates-knowledge-article.md) in Dynamics 365 Customer Service documentation
+More information: [Create knowledge article template](../../../customer-service/use/create-templates-knowledge-article.md) in Dynamics 365 Customer Service documentation
 
 ## Email templates
 
@@ -75,7 +75,7 @@ Save time when creating multiple campaigns by creating a campaign template. Camp
 
 Quickly create other entitlements pre-filled with the basic information like the start and end date, service level agreement (SLA), allocation type, and total term by using an entitlement template in Customer Engagement.
 
-More information: [Use entitlement templates to set up entitlements quickly](../../../customer-service/set-up-entitlements-templates.md) in the Dynamics 365 Customer Service documentation.
+More information: [Use entitlement templates to set up entitlements quickly](../../../customer-service/administer/set-up-entitlements-templates.md) in the Dynamics 365 Customer Service documentation.
 
 ## Excel templates
 

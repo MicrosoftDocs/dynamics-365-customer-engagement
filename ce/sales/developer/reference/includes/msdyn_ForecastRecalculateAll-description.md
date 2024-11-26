@@ -1,1 +1,0 @@
-Recalculates and refreshes all active forecast hierarchies across all forecast definitions.

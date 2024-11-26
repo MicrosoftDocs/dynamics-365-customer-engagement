@@ -1,10 +1,11 @@
 ---
 title: "Add stakeholders, sales team, and competitors for the opportunity | MicrosoftDocs"
 description: "Add people that you're working with on the opportunity as stakeholders and sales team."
-ms.date: 04/05/2023
+ms.date: 09/09/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -35,10 +36,14 @@ A stakeholder can be a decision maker or any person who's working with you on th
 1. In the Sales Hub site map, select **Opportunities**.
 
 1. Open the opportunity.
+
 1. In the **Summary** tab, go to the **Stakeholders** section.
     > [!NOTE]
     > If you'd selected a person in the **Contact** field of the opportunity, that contact is automatically added to the **Stakeholders** section.
-1. Select **New Connection** and then select the stakeholder's record from the contacts list.
+    
+1. Select **More commands for Connection** and then Select **New Connection**.
+
+1. In the **Lookup Records** pane, browse and select a **Contact**, and then select **Add**.
 
     > [!NOTE]
     > The **New Connection** button is supported only for the out-of-box Stakeholders and Sales Team views on the Opportunity entity. If you're using custom views, the **New Connection** button doesn't appear on the sub-grid. In such cases, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
@@ -57,8 +62,13 @@ If multiple users and teams from your organization are working on an opportunity
 1. In the Sales Hub site map, select **Opportunities**.
 
 1. Open the opportunity.
-1. In the Summary tab, scroll down to the **Sales team** section.
-1. Select **New Connection** and then add users or teams in your organization who are involved in the opportunity. 
+
+1. In the **Summary** tab, scroll down to the **Sales team** section.
+
+1. Select **More commands for Connection** and then select **New Connection**.
+
+1. In the **Lookup Records** pane, browse and select **Users**, and then select **Add**.
+
     > [!NOTE]
     > If you don't see the **New connection** button, navigate to the Connection Associated view for the record and use the **Connect** button to create a new connection. More information: [How are stakeholders and sales team members tracked for opportunities?](stakeholders-sales-team-members.md)
 
@@ -75,10 +85,14 @@ Add the organizations that are competing with you for the opportunity as competi
 1. In the Sales Hub site map, select **Opportunities**.
 
 1. Open the opportunity.
-1. In the Summary tab, scroll down to the **Competitors** section.
-1. Select **Add Existing Competitor** to add a competitor.
 
-### See also
+1. In the **Summary** tab, scroll down to the **Competitors** section.
+
+1. Select **More commands for Competitor** and then select **Add Existing Competitor**.
+
+1. In the **Lookup Records** pane, browse and select **Competitors**, and then select **Add**.
+
+## Related information
 
 [Create or edit opportunities](create-edit-opportunity-sales.md)  
 [Move the opportunity through different stages](move-opportunity-stages.md)   

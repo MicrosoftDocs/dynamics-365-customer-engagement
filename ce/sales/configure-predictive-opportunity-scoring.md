@@ -1,11 +1,12 @@
 ---
 title: Configure predictive opportunity scoring
 description: Configure predictive opportunity scoring to help sellers prioritize opportunities.
-ms.date: 11/30/2022
+ms.date: 07/04/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure predictive opportunity scoring
@@ -31,11 +32,16 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive o
 
 ## Prerequisites
 
-- [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features).
+- [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
-- You need to have enough opportunities to train the model based on past data. Your organization must have created at least 40 won and 40 lost opportunities in the past three months to two years to create an opportunity scoring model. You must have at least 40 closed opportunities in the last stage of the business process in the same time period to define a [per stage model](#what-is-a-per-stage-model). The more opportunities you can include to train the model, the better the prediction results will be. You can configure the time frame in the **Train with opportunities from the past** field of the scoring model.
 
-    The system takes about four hours to sync the data with the data lake. If you've closed opportunities recently, the model won't consider them right away.
+- You need to have enough opportunities to train the model based on past data. Your organization must have created and closed at least 40 won and 40 lost opportunities during the time frame selected in the **Train with opportunities from the past** field of the scoring model. The time frame ranges from three months to two years. [Verify whether you have the required number of leads to build a scoring model](faq-lead.md#scoring-minimum-requirement).
+- To define a [per stage model](#what-is-a-per-stage-model), you must have at least 40 closed opportunities in the last stage of the business process in the selected time frame. The more opportunities you can include to train the model, the better the prediction results will be. [Verify whether you have the required number of opportunities to build a per stage scoring model](faq-opportunity.md#opportunity-per-stage-scoring).
+
+  > [!NOTE]
+  > If you're planning to use a business process flow for your model, then opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
+
+The system takes about four hours to sync the data with the data lake. If you've closed opportunities recently, the model won't consider them right away.
 
 ## What is a per stage model?
 
@@ -50,7 +56,7 @@ When per stage modeling is disabled, the model uses only attributes that had a h
 > [!IMPORTANT]
 >
 > - If you're using a model that you created in a version of Dynamics 365 earlier than 2020 release wave 2, [delete the model](pls-duplicate-models.md#delete-a-model) before you create a new one. Otherwise, the previous version of the model will be applied to all opportunities in your organization, and new models won't have any effect on the opportunities.
-> - As of 2020 release wave 2, the application writes the opportunity scoring data to the [**msdyn_predictivescore**](developer-sp/msdyn_predictivescore.md) table and no longer writes to the opportunity entity. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
+> - As of 2020 release wave 2, the application writes the opportunity scoring data to the [**msdyn_predictivescore**](developer/entities/msdyn_predictivescore.md) table and no longer writes to the opportunity entity. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
 
 A scoring model defines the criteria for choosing opportunities for training and scoring. If your organization follows different sales practices across different regions or business units, you can create models and unique training sets for each of them.
 
@@ -106,7 +112,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
      By default, the name is **OpportunityScoring_**<***YYYYMMDD***><***Time***> (for example, **OpportunityScoring_202009181410**). The date and time are based on Coordinated Universal Time (UTC).
 
-1. In the **Business process flow** list, select a flow that's relevant for the opportunities that you're generating the model for.
+1. In the **Business process flow** list, select a flow that's relevant for the opportunities that you're generating the model for. Opportunities that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
 
     The list displays all the business process flows that are defined for opportunities in your organization. If you want to enable per stage modeling, you must select a business process flow.
 
@@ -146,12 +152,12 @@ You can create up to 10 models, both published and unpublished, for different se
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain an opportunity scoring model](pos-edit-and-retrain-model.md#edit-a-model)  
 [Prioritize opportunities through scores](../sales/work-predictive-opportunity-scoring.md)  
-[Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#install-and-configure-premium-sales-insights-features)  
-[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
+[Opportunity management FAQs](faq-opportunity.md)
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

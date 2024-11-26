@@ -5,6 +5,7 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Manage forms
@@ -73,7 +74,7 @@ To view, create, and update tables using Unified Interface forms instead of quic
 
     :::image type="content" source="media/ppac-sm-settings.png" alt-text="Screenshot of the Dynamics 365 Sales mobile app settings.":::
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)  
 [Learn the basics](learn-basics-mobile-app.md)  

@@ -1,15 +1,14 @@
 ---
 title: "Walkthrough  Create a UII Windows Forms Hosted Control | MicrosoftDocs"
 description: "Demonstrates how you can build a Windows Forms UII hosted control that interacts with Unified Service Desk and standalone or web external applications."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Walkthrough: Create a UII Windows Forms Hosted Control in Unified Service Desk
 

@@ -4,12 +4,8 @@
     href: teams-integration.md
   - name: Install Dynamics 365 app in Teams
     href: teams-install-app.md
-  - name: Set up and use the personal dashboard in Teams
-    href: teams-personal-use.md
   - name: Use document management
     href: teams-doc-management.md
-  - name: Delete personal data
-    href: teams-delete-data.md
   - name: Link Dynamics 365 records to Microsoft Teams channels
     href: link-d365-records.md
   - name: Enable or disable Teams chat in Dynamics 365

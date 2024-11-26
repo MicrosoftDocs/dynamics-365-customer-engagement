@@ -5,6 +5,7 @@ ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Configure tables for quick creation of records and activities 
@@ -64,7 +65,7 @@ Currently, quick creation supports the following field types:
 - Memo
 - Generic Text
 
-### See also
+## Related information
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Learn the basics](learn-basics-mobile-app.md)

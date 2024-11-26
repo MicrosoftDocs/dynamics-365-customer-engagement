@@ -1,203 +1,90 @@
 ---
-title: "Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens (contains video) | MicrosoftDocs"
+title: Collaborate in mixed reality with Field Service and Remote Assist
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.date: 01/14/2021
-
-ms.topic: article
+ms.date: 04/05/2024
+ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
 ---
 
+# Collaborate in mixed reality with Field Service and Remote Assist
 
-# Collaborate in mixed reality with Field Service, Dynamics 365 Remote Assist, and HoloLens
+> [!TIP]
+> To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
 
-If your organization uses Dynamics 365 Field Service to manage field service work orders, your first-line workers using Dynamics 365 Remote Assist on HoloLens can see their Field Service bookings and quickly call the remote collaborator listed in the booking's **Support Contact** field. 
+If your organization uses Dynamics 365 Field Service to manage field service work orders, your frontline workers can see their Field Service bookings and quickly call a remote collaborator using Dynamics 365 Remote Assist.
 
-By integrating Field Service and Dynamics 365 Remote Assist, you can: 
+By integrating Field Service and Dynamics 365 Remote Assist, you can:
 
-- Launch Dynamics 365 Remote Assist mobile directly from a Field Service Mobile booking via deep links.
+- Launch the Remote Assist mobile app directly from bookings on the Field Service mobile app via deep links.
 - See relevant work order information.
-- Post the Dynamics 365 Remote Assist call information to the associated work order's timeline.
+- Post the Remote Assist call information to the associated work order's timeline.
 
-In this article, we'll explore how a field technician can use the Dynamics 365 Remote Assist mobile app to make a call to an expert for help with completing a work order. We'll also explore the requirements to set up and use Dynamics 365 Remote Assist and Field Service together on the HoloLens.
+In this article, we explore how a field technician can use the Remote Assist mobile app to call an expert for help with completing a work order. We also explore the requirements to set up and use Remote Assist and Field Service on a HoloLens.
 
+<!--
 For a guided walkthrough, see the following video.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4yt5l]
-
+-->
 ## Prerequisites
 
 Before you begin, make sure you have the following set-up:
 
-- A Microsoft Azure tenant with a Dynamics 365 subscription **and** a Dynamics 365 Remote Assist subscription. Both are required—Dynamics 365 Remote Assist is not included in any Dynamics 365 bundle.
+- [A Dynamics 365 Field Service subscription](buy-fs.md).
+- [Dynamics 365 Field Service mobile app installed](mobile/set-up-field-service-mobile.md).
+- [Dynamics 365 Remote Assist mobile app installed](/dynamics365/mixed-reality/remote-assist/deploy-remote-assist#download-and-install-the-app).
+- At least two bookable resources with resource type *User*. One for the technician (frontline worker) and another for the remote collaborator. Both users need a Field Service license, which gives them access to Remote Assist too. For more information about setting up users and assigning licenses, see [Set up users and security roles](view-user-accounts-security-roles.md).
 
-  > [!NOTE]  
-  > The tenant can have more than one Dynamics 365 instance. Dynamics 365 Remote Assist has the option to select an instance from within the app.
+## Enable the Dynamics 365 integration on the Remote Assist mobile app
 
-- You must have admin access to add or update the Dynamics 365 tenant instance.
+To enable the integration, sign in to the Remote Assist mobile app with the credentials you use for the Field Service mobile app.
 
-- The Dynamics 365 instance must have the Dynamics 365 Field Service app installed, and it must include the **My Bookings for Today** view. To make sure this view is installed, we recommend Field Service version 8.2 or later. This article describes how to make sure you have the correct version and view.
-    -  Note the **My In Progress Bookings** view has been renamed to **My Bookings for Today.** This doc has been updated to reflect the name change. Depending on your version of Field Service, you may see either name. The functionality remains the same regardless of the view name.
-- The tenant must have at least two user accounts - one for the technician (front-line worker) and another for the remote collaborator.
-  - The remote collaborator only needs a Microsoft Teams license.
-  - The technician user will need a Dynamics 365 Field Service license, a Microsoft Teams license, _and_ a Dynamics 365 Remote Assist license. **Note:** A Dynamics 365 Remote Assist license includes Teams. 
-
-- Field Service Mobile (only applicable if technicians and front line workers are not using HoloLens headsets). 
-
-
-## Set up technician user
-
-First, create a bookable resource that will serve as the technician or front line worker that will use both Field Service on the Field Service Mobile app and Dynamics 365 Remote Assist on the Dynamics 365 Remote Assist mobile app on their phone or tablet.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a bookable resource in Field Service on a desktop.](./media/remote-assist-field-service-resource.png)
-
-The bookable resource must have a **Resource Type** set to **User**; the related user record will need licenses to use both Field Service and Remote Assist. 
-
-To set up a field technician to use the Field Service mobile app, see the Field Service docs articles on:
-
-1. [Setting up Field Service users and security roles](/dynamics365/field-service/view-user-accounts-security-roles#set-up-a-field-technician-user) 
-2. [Install and setup the mobile app](mobile-power-app-get-started.md)
-
-Verify you can log into the Field Service mobile app successfully as the field technician user.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service Mobile after logging in.](./media/mobile-power-download-signin.png)
- 
-Next, verify you can log into the Dynamics 365 Remote Assist mobile app with the same user. Then:
-
-Find and download the Dynamics 365 Remote Assist mobile app in the Apple iOS or Google Android app stores. 
-
-Sign in as the same user that you logged in to Field Service Mobile with. If your technician has a Field Service license and a Teams license, then you can simply start a free trial of Dynamics 365 Dynamics 365 Remote Assist before buying. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of three mobile devices, showing the Dynamics 365 Remote Assist app in an app store on the left. The middle device shows a logged in user. The device on the right shows a window prompting to get a free trial of Dynamics 365 Remote Assist.](./media/remote-assist-field-service-start-remote-assist-trial.png)
-
-After signing in, make sure you enable Dynamics 365 integration. Select **Enable** from the popup, or go to **Settings**.
+After signing in, enable Dynamics 365 integration. Select **Enable feature** from the popup, or turn it on in **Settings**.
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of two mobile devices in Dynamics 365 Remote Assist. The screen on the left shows the Dynamics 365 integration popup option. The screen on the right shows the settings screen for Dynamics 365 Remote Assist, with the Dynamics 365 integration toggle set to on.](./media/remote-assist-field-service-ram-signin-ALL.png)
 
+## Launch Remote Assist from the Field Service mobile app
 
-> [!Note]
-> The Dynamics 365 Remote Assist mobile app is available on mobile devices running iOS and Android with the related ARkit or ARcore capabilities.
- 
+When a technician signs in to the Field Service mobile app, they see their planned work for that day. To talk to a remote collaborator, they can launch the Dynamics 365 Remote Assist mobile app from the work order.
 
-## Set up remote collaborator user
-
-As a different user that you have identified as the remote collaborator, verify you can sign in to Microsoft Teams. This user does not need a Field Service or Dynamics 365 Remote Assist license.
-   
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Teams on desktop.](./media/remote-assist-field-service-teams-signin.png)
-
-> [!Note]
-> The remote collaborator must log into the Microsoft Teams native app on their PC or mobile device. Teams on web is not supported.
-
-## Create and schedule work orders
-
-Next, create a work order to outline the onsite work the technician or front line worker needs to perform - typically an installation or an equipment or system repair. Enter a recommended expert in the **Support Contact** field that could be called via Dynamics 365 Remote Assist for support. Technicians won't be limited to only calling this contact.
+Select **More options** (&hellip;) and choose **Remote Assist**.
 
 > [!div class="mx-imgBorder"]
-> ![Screenshot of a Field Service work order in a desktop, with attention to the support contact field.](./media/remote-assist-field-service-work-order-support-contact.png)
-
-Schedule the work order to the bookable resource that represents the technician also known as the front line worker who travels to customer locations to complete work orders. In our example, Abraham McCormick is the bookable resource and we scheduled work orders to them with the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Abraham McCormick's booked work order on the Field Service schedule board, in a desktop window.](./media/remote-assist-field-service-work-order-schedule.png)
-
-
-## View work orders and trigger Dynamics 365 Remote Assist from the Field Service mobile app
-
-Like any typical day, the technician logs in to Field Service Mobile and sees their assigned work orders for that day. If they need guidance from a remote collaborator who better knows the product, service, equipment, or account being serviced, they can launch the Dynamics 365 Remote Assist mobile app from the work order.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of four mobile devices showing Field Service Mobile, and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
+> ![Screenshot of four mobile devices and the workflow that brings up the Dynamics 365 Remote Assist launching option.](./media/remote-assist-booking-deeplink.png)
 
 ## Make a Dynamics 365 Remote Assist call
 
-The support contact will be autoselected to call if Dynamics 365 Remote Assist was opened via the deep link; otherwise, the technician can search through the directory for Teams users inside or outside their organization.
+By default, the app suggests calling the support contact listed on the work order. You can search through the directory for other users.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a mobile device showing the Launch Call option on a contact in Dynamics 365 Remote Assist.](./media/remote-assist-field-service-launch-call.png)
+The remote collaborator receives the call, like any other Teams call.
 
+The technician can share what they see through their mobile device's camera, making annotations as needed. The remote collaborator can make annotations in Teams. For more information, see [Annotate the technician's shared environment](/dynamics365/mixed-reality/remote-assist/mobile-app/annotate-shared-environment).
 
-The remote collaborator will then receive the call, like any other Teams call.
+For more information about making calls, see [Make calls between Dynamics 365 Remote Assist mobile and Microsoft Teams](/dynamics365/mixed-reality/remote-assist/mobile-app/remote-assist-mobile-to-teams-calls).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the incoming Dynamics 365 Remote Assist call to the remote collaborator, working in Teams desktop.](./media/remote-assist-field-service-receive-call-teams.png)
+## Post a Remote Assist call log
 
-The technician can then begin to share what they see through their mobile device's camera, making annotations as needed.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Dynamics 365 Remote Assist on a mobile device, showing an arrow annotation.](./media/remote-assist-field-service-call-annotation.png)
-
-From Teams, the remote collaborator can also make annotations. 
-
-## Post Dynamics 365 Remote Assist Call to work order
-
-After gaining the necessary guidance from the remote collaborator, the technician will end the call and be given the option to post the call as an activity to the work order time line.
-
-Technicians can choose from a list of bookings they are scheduled for on the day of the call, which matches the **Agenda** view in Field Service Mobile.
+After the technician ends the call, they can [post the call as an activity to the work order timeline](/dynamics365/mixed-reality/remote-assist/mobile-app/fs-integration).
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of Dynamics 365 Remote Assist on a mobile device, showing the option to select a booking to post to.](./media/remote-assist-field-service-call-post-to-work-order-choose-BOTH.png)
 
-Back on the work order, the dispatcher can see a Dynamics 365 Remote Assist call took place in the work order timeline; there will be a call log and links to files shared during the call.
+Documenting the Remote Assist calls can help your organization better understand challenging issues and react to them.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of Field Service on desktop, showing a work order with attention to the timeline, which now has a Dynamics 365 Remote Assist call listed.](./media/remote-assist-field-service-call-metadata-timeline.png)
+## Set up Field Service for the HoloLens
 
-Documenting the Dynamics 365 Remote Assist call on the work order is important because it lets managers know which types of issues are requiring extra help and can build training programs to accommodate.
+If a technician is equipped with a HoloLens, they can view and interact with bookings and work order on their mixed reality device.
 
-## Set up and view Field Service bookings on HoloLens
+For more information, see [Update a Field Service booking in Remote Assist on HoloLens](/dynamics365/mixed-reality/remote-assist/update-field-service-booking-hololens).
 
-If the technician is equipped with a HoloLens headset, then viewing and interacting with Field Service is even better. 
+For more information about using the Remote Assist on HoloLens, see [Overview of Remote Assist on HoloLens](/dynamics365/mixed-reality/remote-assist/overview-hololens).
 
-Technicians can:
+## Access the Remote Assist calls dashboard from Field Service
 
-- View today's bookings.
+Field Service provides a quick [access to the calls dashboard](/dynamics365/mixed-reality/remote-assist/calls-dashboard).
 
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Dynamics 365 Remote Assist on HoloLens, showing active Field Service bookings.](./media/remote-assist-field-service-bookings-HL2.png)
-
-- View the work order and the recommended support contact field.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Dynamics 365 Remote Assist on HoloLens, showing the support contact on the booking.](./media/remote-assist-field-service-bookings-HL.png)
-
-- Attach images to the work order during the Dynamics 365 Remote Assist call so future stakeholders can see the work or problem.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of a user attaching an image in Dynamics 365 Remote Assist on HoloLens.](./media/remote-assist-field-service-save-image-HL.png)
-
-- Update booking statuses, like marking work as complete.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Dynamics 365 Remote Assist on HoloLens, showing the option to change the status of the booking.](./media/remote-assist-field-service-bookings-status-HL.png)
-
-### Set up Field Service for the HoloLens
-
-1. Confirm the **My Bookings for Today** view on the **Bookable Resource Booking** entity is included:
-
-     - Go to **Field Service** > **Settings** > **Customizations** > **Customize the System**.
-
-> [!Note]
-> The **My In Progress Bookings** view has been renamed to **My Bookings for Today**. This doc has been updated to reflect the name change. Depending on your version of Dynamics 365 Field Service, you may see either name. The functionality remains the same regardless of the view name.
-
-> ![Bookable Resource view.](media/bookable-resource-views.PNG "Bookable Resource view")
-
-> [!Note]
-> Fields can be added to this view if necessary for your business needs.
-
-1. Create and schedule a work order.
-
-     - The booking will not appear in the Dynamics 365 pane in Dynamics 365 Remote Assist unless the booking status is **In progress** and the related bookable resource has a user record that matches the HoloLens user.
-
-## Configuration considerations
-
-### Use the Field Service mobile Power App
-
-Technicians can deep link from the [Field Service (Dynamics 365) mobile](mobile-power-app-overview.md) to the Dynamics 365 Remote Assist mobile app.
-
+In the **Service** area, under **Mixed Reality Apps**, select **Calls dashboard** to open the dashboard.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

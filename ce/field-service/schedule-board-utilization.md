@@ -1,10 +1,10 @@
 ---
 title: Resource utilization metrics on the schedule board
 description: Learn about resource utilization on the schedule board.
-ms.date: 02/21/2023
+ms.date: 10/09/2023
 ms.topic: conceptual
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Resource utilization metrics on the schedule board

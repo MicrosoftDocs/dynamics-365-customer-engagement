@@ -1,69 +1,59 @@
 ---
-title: "Support for Dynamics 365 for phones and Dynamics 365 for tablets | MicrosoftDocs"
-description: About support for Dynamics 365 for phones and tablets
+title: Support for Dynamics 365 for phones and Dynamics 365 for tablets 
+description: Learn about support for Dynamics 365 for phones and tablets.
 ms.custom:
-ms.date: 12/10/2021
-ms.reviewer:
-
+ms.date: 10/03/2024
+ms.reviewer: smurkute
+ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 7f9d8425-f26c-43ac-bdc7-ff258977ff80
 caps.latest.revision: 136
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer
   - enduser
+contributors:
+- manuelmillot
 ---
+
 # What's supported
 
-Use the Dynamics 365 for phones or Dynamics 365 for tablets app to run customer engagement apps (such as [Dynamics 365 Sales](../sales-professional/help-hub.md), [Dynamics 365 Customer Service](../customer-service/help-hub.md), and [Dynamics 365 Marketing](../marketing/help-hub.yml)), built on Microsoft Dataverse on your mobile device. 
+Use the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps to run Dynamics 365 Customer Engagement (on-premises) apps.
 
-To do this, install the Dynamics 365 for phones or tablets mobile app on your iOS, [!INCLUDE[tn_android](../includes/tn-android.md)], or Windows 10 devices. 
+Install the Dynamics 365 for phones and Dynamics 365 for tablets mobile apps on your iOS and Android devices. 
   
-## Supported devices for the mobile app
+## Supported devices for the mobile apps
 
-  
 |                              Platform                              |   Versions    | RAM (minimum)  | 
 |--------------------------------------------------------------------|---------------|----------------|
-|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)     
-|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    |                                  |
-                
+|       [iOS](./install-dynamics-365-for-phones-and-tablets.md#install-the-apps-from-your-devices-app-store)       | 14 or later   |     1 GB (2 GB recommended)  |   
+|     [Android](./install-dynamics-365-for-phones-and-tablets.md#install-the-apps-from-your-devices-app-store)     | 7.1.1 or later |     2 GB (3 GB recommended)    | 
  
-## Supported device for Microsoft Dynamics 365 (Preview) 
-|                              Platform                              |   Versions    | RAM (minimum)  | 
-|--------------------------------------------------------------------|---------------|----------------|
-|       [Windows](https://www.microsoft.com/store/apps/9N0RWZ9KZZT8)       | 10 |     1 GB (4 GB recommended)     
+## Install the apps 
 
-  
-  
-## Install the app 
-
-To install the app see, [Install the app from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-app-from-your-devices-app-store).
+To install the apps, go to [Install the apps from your device’s app store](./install-dynamics-365-for-phones-and-tablets.md#install-the-apps-from-your-devices-app-store).
 
 
 ## Supported tablets to run customer engagement apps in a web browser 
 
 For full functionality and optimized experience, we strongly recommend that you use the Dynamics 365 mobile app. If you don't have the Dynamics 365 mobile app installed, you can  use the web browser on your tablet to run your apps as long as your device has sufficiently high screen resolution.
 
-> [!IMPORTANT]
-> You can't use the browser on your mobile phone to run your customer engagement apps is not supported on phones; you must use the Dynamics 365 for mobile app.
-
 
 ## Supported tablets to use the web browser
   
 |                              Platform                              |   Versions    | Minimum Resolution or Screen Size  | 
 |--------------------------------------------------------------------|---------------|------------------------------------|
-|       Apple iPad      | iOS 14 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |                                     | 
-|     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |                                  |
-| Windows tablet or PC |      10       |     1366 x 768 resolution (720p)
+|       Apple iPad      | iOS 14 or later  |     9-inch screen (diagonal) or larger or iPad Mini with 7.9 inch screen      |           
+|     Android tablet  | 7.1.1 or later |     1366 x 768 resolution (720p)    |         
+| Windows tablet or PC |      10       |     1366 x 768 resolution (720p) |
         
 
-  
-Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features are not available on the mobile app or mobile web browser, including:
+Customer engagement apps running on a web browser on an iOS or Android tablet provides a similar experience to using it with a web browser on your desktop or laptop computer. However, some features aren't available on the mobile app or mobile web browser, including:
   
 - Pinch and zoom  
   
@@ -89,7 +79,7 @@ For more information about web browser support, see [Web application requirement
 
 ## Supported languages for [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] 
 
-When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language will be selected based on your personal options or the base language in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). If a language is not supported, the user experience will be shown in English. 
+When the application first loads after installation, it will determine the device language and load the user interface in that language.  Once you sign in and launched an app, the language is selected based on your personal options or the base language in Microsoft Dataverse or Dynamics 365 Customer Engagement (on-premises). If a language isn't supported, Engish is used. 
 
  [!INCLUDE[pn_Mobile_Express_short](../includes/pn-mobile-express-short.md)] and [!INCLUDE[pn_moca_short](../includes/pn-moca-short.md)] support the following languages:  
   
@@ -151,26 +141,9 @@ When the application first loads after installation, it will determine the devic
 
 ### FAQs about supported languages
 
-1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there is no limitations.
-2. Is there additional requirements for customizations? </br> No, there isn't anything additional for customizations.
-3. How does the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
-
-
-
-## Deprecated and unsupported platforms
-
-- Effective April 2021, the old [Microsoft Dynamics 365 app for Windows](https://go.microsoft.com/fwlink/?linkid=838618) that lets you run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing) is deprecated. For more information see, [The Microsoft Dynamics 365 application for Windows is deprecated](/power-platform/important-changes-coming#the-microsoft-dynamics-365-application-for-windows-is-deprecated).
-  > [!NOTE]
-  > There is a new app for Windows: [Basic navigation for Dynamics 365 (Preview) app for Windows](./windows-mobile-app.md). 
-
-- As of April 1, 2021, the mobile app will no longer support iOS 11, Android 6 and Android 7.0. The minimum Android version will be 7.1.1 and the minimum iOS version will be 12.4.9.
-
-- As of December 1, 2019, the mobile app will no longer support iOS 10, Android 4.4, and Android 5. The minimum Android version will be 6.0.1 and the minimum iOS version will be 11.4.1.
-
-- As of December 3, 2018, Microsoft Dynamics 365 for Blackberry App is deprecated and will be removed from the iOS App Store on October 31, 2019. For more information, [Dynamics 365 for Blackberry is deprecated
-](/power-platform/important-changes-coming#dynamics-365-for-blackberry-is-deprecated).
-
-- On February 21, 2018, we announced the deprecation of the Windows Phone app for Dynamics 365 apps. Effective May 22, 2018, the Windows phone app is no longer supported to run customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, and Dynamics 365 Marketing).
+1. Are there limitations if Dynamics 365 mobile app is used with one of the supported languages? </br> No, there are no limitations.
+2. Are there extra requirements for customizations? </br> No, there aren't extra requirements.
+3. How do the translations work? </br> The translation takes place in Unified Interface and is natively used in the Dynamics 365 mobile app.
 
   
 ### See also  

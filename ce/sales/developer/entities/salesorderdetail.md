@@ -1,12 +1,13 @@
 ---
-title: "Order Product (SalesOrderDetail)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Order Product (SalesOrderDetail)  table/entity reference"
 description: "Includes schema information and supported messages for the Order Product (SalesOrderDetail)  table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,16 +24,16 @@ Line item in a sales order.
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /salesorderdetails<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /salesorderdetails(*salesorderdetailid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Retrieve|GET /salesorderdetails(*salesorderdetailid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /salesorderdetails<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|Update|PATCH /salesorderdetails(*salesorderdetailid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -65,6 +66,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [IsProductOverridden](#BKMK_IsProductOverridden)
 - [LineItemNumber](#BKMK_LineItemNumber)
 - [ManualDiscountAmount](#BKMK_ManualDiscountAmount)
+- [OrderCreationMethod](#BKMK_OrderCreationMethod)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [ParentBundleId](#BKMK_ParentBundleId)
 - [ParentBundleIdRef](#BKMK_ParentBundleIdRef)
@@ -279,6 +281,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |PrecisionSource|2|
 |RequiredLevel|None|
 |Type|Money|
+
+
+### <a name="BKMK_OrderCreationMethod"></a> OrderCreationMethod
+
+**Added by**: Sales Patch Version 3 Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Creation Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ordercreationmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### OrderCreationMethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|776160000|Unknown||
+|776160001|Win Quote||
+
 
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
@@ -1786,12 +1811,12 @@ Same as the [salesorderdetail_parentref_salesorderdetail](salesorderdetail.md#BK
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
 - [product_order_details](#BKMK_product_order_details)
-- [order_details](#BKMK_order_details)
 - [salesorderdetail_parent_salesorderdetail](#BKMK_salesorderdetail_parent_salesorderdetail)
 - [unit_of_measurement_order_details](#BKMK_unit_of_measurement_order_details)
 - [productAssociation_salesorder_details](#BKMK_productAssociation_salesorder_details)
 - [msdyn_quotedetail_salesorderdetail](#BKMK_msdyn_quotedetail_salesorderdetail)
 - [salesorderdetail_parentref_salesorderdetail](#BKMK_salesorderdetail_parentref_salesorderdetail)
+- [order_details](#BKMK_order_details)
 
 
 ### <a name="BKMK_product_order_details"></a> product_order_details
@@ -1799,10 +1824,6 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 **Added by**: Product Management Solution
 
 See the [product_order_details](product.md#BKMK_product_order_details) one-to-many relationship for the [product](product.md) table/entity.
-
-### <a name="BKMK_order_details"></a> order_details
-
-See the [order_details](salesorder.md#BKMK_order_details) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
 
 ### <a name="BKMK_salesorderdetail_parent_salesorderdetail"></a> salesorderdetail_parent_salesorderdetail
 
@@ -1828,7 +1849,11 @@ See the [msdyn_quotedetail_salesorderdetail](quotedetail.md#BKMK_msdyn_quotedeta
 
 See the [salesorderdetail_parentref_salesorderdetail](salesorderdetail.md#BKMK_salesorderdetail_parentref_salesorderdetail) one-to-many relationship for the [salesorderdetail](salesorderdetail.md) table/entity.
 
-### See also
+### <a name="BKMK_order_details"></a> order_details
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+See the [order_details](salesorder.md#BKMK_order_details) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
+
+## Related information
+
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

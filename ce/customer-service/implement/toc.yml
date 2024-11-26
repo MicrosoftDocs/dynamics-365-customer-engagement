@@ -1,0 +1,124 @@
+- name: Dynamics 365 Customer Service
+  items:
+  - name: Implement Dynamics 365 Customer Service
+    items:
+    - name: Dynamics 365 Customer Service documentation
+      href: ../index.yml
+    - name: Welcome to Dynamics 365 Customer Service
+      href: overview.md
+    - name: Get started
+      items:
+      - name: Try
+        items:
+        - name: Sign up for a free Customer Service trial
+          href: try-customer-service.md
+        - name: Customer Service trial FAQ
+          href: trial-faq.md
+      - name: Customer Service workspace
+        href: csw-overview.md
+      - name: Customer Service Team Member
+        href: customer-service-team-member.md
+      - name: Customer Service admin center
+        href: cs-admin-center.md
+      - name: Customer Service Hub
+        href: customer-service-hub-user-guide-basics.md
+      - name: Omnichannel for Customer Service
+        href: introduction-omnichannel.md
+    - name: Troubleshoot and FAQs
+      href: cs-troubleshooting-faqs.md
+    - name: What's new
+      items:
+      - name: Release plans
+        href: whats-new-customer-service.md
+      - name: Deprecations in Customer Service
+        href: deprecations-customer-service.md 
+    - name: System requirements
+      items:
+      - name: System requirements for Customer Service
+        href: csh-system-requirements.md
+      - name: System requirements for Customer Service workspace
+        href: customer-service-workspace-system-requirements.md
+      - name: System requirements for Omnichannel for Customer Service
+        href: system-requirements-omnichannel.md
+      - name: Service quotas
+        href: service-quotas.md
+      - name: Best practices to set up voice channel
+        href: voice-channel-best-practices.md
+    - name: Availability
+      items:
+      - name: International availability of Omnichannel for Customer Service
+        href: international-availability.md
+      - name: Dynamics 365 US Government Community Cloud (GCC) availability
+        href: government-availability.md
+    - name: Accessibility and privacy
+      items:
+      - name: Accessibility
+        href: /dynamics365/get-started/accessibility/customer-engagement/accessibility
+      - name: Privacy and personal data
+        href: /dynamics365/get-started/privacy/
+      - name: Keyboard navigation support
+        href: keyboard-navigation-support-customer-service-hub.md
+    - name: Installation and upgrade
+      items:
+      - name: Install Customer Service
+        href: availability-customer-service-hub.md
+      - name: Move from Customer Service Enterprise to Professional
+        href: move-cs-enterprise-cs-professional.md
+      - name: Install Omnichannel for Customer Service
+        items:
+        - name: Provision channels in the admin app
+          href: /dynamics365/contact-center/implement/provision-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Export and import app configuration data
+          href: export-import-omnichannel-data.md
+        - name: Copy an environment with Omnichannel for Customer Service
+          href: copy-environment-with-omnichannel.md
+        - name: Reset, restore, recover omnichannel environments
+          href: /dynamics365/contact-center/implement/restore-environment?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Turn off channels
+          href: /dynamics365/contact-center/implement/provision-channels#turn-off-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Uninstall solutions
+          href: delete-solution.md
+      - name: Try channels in Omnichannel for Customer Service
+        href: try-channels.md
+      - name: Provide consent to access data
+        href: data-access-consent.md
+    - name: User Management
+      items:
+      - name: Overview of user management
+        href: overview-users.md
+      - name: Create users and assign security roles
+        href: /power-platform/admin/create-users-assign-online-security-roles?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Assign roles and enable users
+        href: add-users-assign-roles.md
+      - name: Personas and privileges
+        href: persona-privilege-mapping.md
+    - name: Known issues in Customer Service and Omnichannel for Customer Service
+      href: https://go.microsoft.com/fwlink/p/?linkid=2165393
+    - name: Compliance certifications of Omnichannel for Customer Service
+      href: compliance-certifications.md
+  - name: Responsible AI
+    items:
+    - name: Overview
+      href: responsible-ai-overview.md
+    - name: Responsible AI FAQ for Copilot in Customer Service
+      href: faq-responsible-ai-copilot.md
+  - name: Resources
+    items:
+    - name: Training
+      href: /training/dynamics365/customer-service
+    - name: Support
+      href: /dynamics365/get-started/support/
+    - name: Blog
+      href: https://cloudblogs.microsoft.com/dynamics365/it/product/dynamics-365-customer-service
+    - name: Community
+      href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
+  - name: Administer Dynamics 365 Customer Service
+    href: overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Use Dynamics 365 Customer Service
+    href: overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Develop Dynamics 365 Customer Service
+    href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Channel Integration Framework
+    href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Unified Service Desk
+    href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml

@@ -1,26 +1,19 @@
 ---
-title: "Configure advanced settings for a forecast"
-description: "Configure advanced settings for a forecast in Dynamics 365 Sales."
-ms.date: 12/16/2022
+title: Configure advanced settings for a forecast
+description: Configure advanced settings for a forecast in Dynamics 365 Sales.
+ms.date: 06/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr 
 ---
 
 # Configure advanced settings for forecasts
 
-When you're configuring forecasts in Sales Hub, use the **Advanced** step to:
-
-- [Automatically hide parent row](#automatically-hide-parent-row)
-- [Turn on multi-currency selection](#turn-on-multi-currency-selection)
-- [Set Kanban as the default view for underlying records (preview)](#set-kanban-as-the-default-view-for-underlying-records-preview)
-- [View prediction factors](#view-prediction-factors)
-- [Select the default attribute to group underlying records (preview)](#select-the-default-attribute-to-group-underlying-records-preview)
-- [Override column headers (preview)](#override-column-headers-preview)
-- [Customize underlying records](#customize-underlying-records)
-
+Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using javascript. 
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -53,7 +46,9 @@ For example, your organization has sales teams in the United States, Canada, and
 
 ## Set Kanban as the default view for underlying records (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The underlying records of a forecast can be displayed in a table view or a Kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
 
@@ -106,15 +101,15 @@ In the **Override column headers (Preview)** section, select the custom control 
 
 :::image type="content" source="media/fc-override-headers.png" alt-text="Screenshot of the **Override column headers** field in the **Advanced** step of forecast configuration.":::
 
-## Customize underlying records
+## Customize underlying records grid
 
-Add a JavaScript library to customize the underlying records in a forecast.
+Add a JavaScript library to customize the underlying records grid in a forecast.
 
 Before you upload the JavaScript library, it must be created according to the schemas defined in [Events and context object](../sales-enterprise/developer/reference/custom-actions/events-context.md).
 
 ### Create a JavaScript library
 
-Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity:  
+Write your custom JavaScript code. The following example disables all fields except a few for the **Opportunity** entity.
 
 ```JavaScript
 function OnRowLoad(executionContext) {
@@ -138,6 +133,7 @@ var entityName = executionContext.getFormContext().data.entity.getEntityName();
     }
 }
 ```
+For more such customization examples, see [Override save, update, and load events for editable fields on forecasting grid](developer/reference/custom-actions/events-context.md).
 
 >[!NOTE]
 >
@@ -180,7 +176,7 @@ var entityName = executionContext.getFormContext().data.entity.getEntityName();
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)

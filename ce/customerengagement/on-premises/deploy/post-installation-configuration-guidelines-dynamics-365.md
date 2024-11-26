@@ -2,7 +2,7 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "07/26/2021"
+ms.date: "11/28/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -122,50 +122,44 @@ This section describes several of the tasks that the [!INCLUDE[pn_microsoftcrm](
      [!INCLUDE[pn_crm_2016_shortest](../includes/pn-crm-2016-shortest.md)] mobile apps for [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)], [!INCLUDE[tn_android](../includes/tn-android.md)], and [!INCLUDE[pn_ms_Windows_short](../includes/pn-ms-windows-short.md)].  
   
     ```powershell  
-    Add-AdfsClient -ClientId ce9f9f18-dd0c-473e-b9b2-47812435e20d -Name "Microsoft Dynamics CRM for tablets and phones" -RedirectUri ms-app://s-1-15-2-2572088110-3042588940-2540752943-3284303419-1153817965-2476348055-1136196650/, ms-app://s-1-15-2-1485522525-4007745683-1678507804-3543888355-3439506781-4236676907-2823480090/, ms-app://s-1-15-2-3781685839-595683736-4186486933-3776895550-3781372410-1732083807-672102751/, ms-app://s-1-15-2-3389625500-1882683294-3356428533-41441597-3367762655-213450099-2845559172/, ms-auth-dynamicsxrm://com.microsoft.dynamics,ms-auth-dynamicsxrm://com.microsoft.dynamics.iphone.moca,ms-auth-dynamicsxrm://com.microsoft.dynamics.ipad.good,msauth://code/ms-auth-dynamicsxrm%3A%2F%2Fcom.microsoft.dynamics,msauth://code/ms-auth-dynamicsxrm%3A%2F%2Fcom.microsoft.dynamics.iphone.moca,msauth://code/ms-auth-dynamicsxrm%3A%2F%2Fcom.microsoft.dynamics.ipad.good,msauth://com.microsoft.crm.crmtablet/v%2BXU%2FN%2FCMC1uRVXXA5ol43%2BT75s%3D,msauth://com.microsoft.crm.crmphone/v%2BXU%2FN%2FCMC1uRVXXA5ol43%2BT75s%3D, urn:ietf:wg:oauth:2.0:oob  
+    Add-AdfsClient -ClientId 00001111-aaaa-2222-bbbb-3333cccc4444 -Name "Microsoft Dynamics CRM for tablets and phones" -RedirectUri ms-app://s-1-15-2-2572088110-3042588940-2540752943-3284303419-1153817965-2476348055-1136196650/, ms-app://s-1-15-2-1485522525-4007745683-1678507804-3543888355-3439506781-4236676907-2823480090/, ms-app://s-1-15-2-3781685839-595683736-4186486933-3776895550-3781372410-1732083807-672102751/, ms-app://s-1-15-2-3389625500-1882683294-3356428533-41441597-3367762655-213450099-2845559172/, ms-auth-dynamicsxrm://com.microsoft.dynamics,ms-auth-dynamicsxrm://com.microsoft.dynamics.iphone.moca,ms-auth-dynamicsxrm://com.microsoft.dynamics.ipad.good,msauth://code/ms-auth-dynamicsxrm%3A%2F%2Fcom.microsoft.dynamics,msauth://code/ms-auth-dynamicsxrm%3A%2F%2Fcom.microsoft.dynamics.iphone.moca,msauth://code/ms-auth-dynamicsxrm%3A%2F%2Fcom.microsoft.dynamics.ipad.good,msauth://com.microsoft.crm.crmtablet/v%2BXU%2FN%2FCMC1uRVXXA5ol43%2BT75s%3D,msauth://com.microsoft.crm.crmphone/v%2BXU%2FN%2FCMC1uRVXXA5ol43%2BT75s%3D, urn:ietf:wg:oauth:2.0:oob  
     ```  
   
      [!INCLUDE[pn_crm_2016_outlook_shortest](../includes/pn-crm-2016-outlook-shortest.md)].  
   
     ```powershell  
-    Add-AdfsClient -ClientId  2f29638c-34d4-4cf2-a16a-7caf612cee15  -Name "Dynamics CRM Outlook Client" -RedirectUri app://6BC88131-F2F5-4C86-90E1-3B710C5E308C/  
+    Add-AdfsClient -ClientId  11112222-bbbb-3333-cccc-4444dddd5555  -Name "Dynamics CRM Outlook Client" -RedirectUri app://22223333-cccc-4444-dddd-5555eeee6666/  
     ```  
   
      [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] client.  
   
     ```powershell  
-    Add-AdfsClient -ClientId  4906f920-9f94-4f14-98aa-8456dd5f78a8  -Name "Dynamics 365 Unified Service Desk" -RedirectUri app://41889de4-3fe1-41ab-bcff-d6f0a6900264/  
+    Add-AdfsClient -ClientId  33334444-dddd-5555-eeee-6666ffff7777  -Name "Dynamics 365 Unified Service Desk" -RedirectUri app://44445555-eeee-6666-ffff-7777aaaa8888/  
     ```  
   
      [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] developer tools.  
   
     ```powershell  
-    Add-AdfsClient -ClientId  2ad88395-b77d-4561-9441-d0e40824f9bc  -Name "Dynamics 365 Development Tools" -RedirectUri app://5d3e90d6-aa8e-48a8-8f2c-58b45cc67315/  
+    Add-AdfsClient -ClientId  55556666-ffff-7777-aaaa-8888bbbb9999  -Name "Dynamics 365 Development Tools" -RedirectUri app://66667777-aaaa-8888-bbbb-9999cccc0000/  
     ```  
   
 3.  To register the [!INCLUDE[pn_crm_app_for_outlook_short](../includes/pn-crm-app-for-outlook-short.md)], in [!INCLUDE[pn_crm_op_edition](../includes/pn-crm-op-edition.md)], go to **Settings** > **Dynamics 365 App for Outlook** and register the app there.  
   
-### Additional steps for clients unable to connect to the Dynamics 365 Server via IFD
-If clients experience issues connecting through the IFD after you have registered them, follow each step here to resolve the issue. 
+### Required steps after enabling OAuth for Dynamics 365 Server
+
+When OAuth is enabled, and you have registered your applications, it's required to complete the following steps:
 
 #### Remove site authentication providers
+
 1. On the Dynamics 365 Server where the web application server role is running, open Internet Information Services (IIS) Manager. 
 2. In the left pane, under the organization name, expand **Sites**, and then select **Microsoft Dynamics CRM**. 
 3. Double-click **Authentication** in the middle pane.
 4. Right-click **Windows Authentication**, and select **Providers**. For each provider in the list, select the provider, select **Remove**, and then select **OK**. 
-7. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
+5. After all providers are removed, right-click **Windows Authentication**, and then select **Disable**.
 
    ![Remove site provider.](media/remove-site-provider.png)
 
-Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders. 
-
-<!-- #### Disable integrated windows authentication to prevent client authentication prompts 
-1. On the AD FS server, open AD FS Management. 
-2. Select **Authentication Policies** on the left pane.
-3. In the middle pane, in **Global Settings**, locate **Authentication Methods** and then select **Edit**. 
-4. Clear **Windows Authentication** if it is checked, and then select **OK**.
-
-   ![Disable integrated windows authentication.](media/disable-windows-auth.png) -->
+6. Repeat the previous steps to remove all Windows Authentication providers from the **nga** and **AppWebServices** site folders.
 
 #### Add the AD FS address to the client local intranet zone to avoid client authentication prompts
 
@@ -173,8 +167,8 @@ Repeat the previous steps to remove all Windows Authentication providers from th
 2.	Select the **Security** tab, select the **Local intranet** zone, select **Sites**, and then select **Advanced**.
 3. Enter in the AD FS address, select **Add**, select **Close**, select **OK**, and then select **OK** again.
 
-#### Grant application permission when using Windows Server 2016 AD FS 
-On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS.
+#### Grant application permission 
+On the AD FS server, run the following command in a Windows PowerShell console. This is required if you use Windows Server 2016 AD FS or later versions.
 
 ```powershell
 Grant-AdfsApplicationPermission -ClientRoleIdentifier "<client_id/org_id>" -ServerRoleIdentifier "<org_auth_url>"
@@ -200,6 +194,102 @@ net start adfssrv
 
 #### Enable Device Registration Service (DRS) on the federation server
 To make sure that devices can connect to your deployment, follow the instructions in this topic: [Configure a federation server with Device Registration Service](/windows-server/identity/ad-fs/deployment/configure-a-federation-server-with-device-registration-service). 
+
+## Request custom certificates using the Certificates MMC snap-in
+
+This section explains how to generate a custom certificate request (CSR) that can be used to obtain an SSL certificate for Microsoft Dynamics 365 Customer Engagement on-premises.
+
+> [!IMPORTANT]
+> For claim-based authentication and the internet-facing deployment to work, it's mandatory that the steps below are completed.
+
+1. Sign in to any Windows computer with an account that is a member of the local **Administrators** group.  
+1. Select **Start**, type *mmc.exe*, and then press ENTER.
+1. Select **File** on the command bar, and then select **Add/Remove Snap-in**.
+1. In the list of available snap-ins, **select Certificates**, and then select **Add**.
+1. Select **Computer account**, and then select **Next**.
+1. Select **Local computer**, select **Finish**, and then select **OK**.
+
+After you have added the Certificates snap-in for your local computer store open, create a custom certificate request.
+
+1. In the MMC console tree, expand **Certificates (Local Computer)**.
+1. Right-click **Personal**, point to **All Tasks**, point to **Advanced Operations**, and then select **Create Custom Request**.
+1. The **Certificate Enrollment** wizard opens. Select **Next**.
+1. On the **Select Certificate Enrollment Policy** page select **Proceed without enrollment policy** under **Custom Request**, and then select **Next**.
+1. On the **Custom Request** page next to the **Template** options select **(No template) Legacy key** and select the **PKCS #10** request format option, and then select **Next**.
+   :::image type="content" source="media/cert-custom-request.png" alt-text="Select options to create the custom certificate request":::
+
+   > [!IMPORTANT]
+   > CNG certificates aren't supported.
+1. On the **Certificate Information** page expand **Details**, and then select **Properties**.
+   :::image type="content" source="media/cert-properties.png" alt-text="Certificate properties":::
+1. On the **General** tab, enter the **Friendly name** (display name), and then select **Apply**.
+1. Select the **Subject** tab, and add the relevant subject names and alternative names for the certificate. Some public certificate authorities require various subject values. More information: [Certificate subject and alternative names examples](#certificate-subject-and-alternative-names-examples)
+1. After you've added all relevant values select **Apply**.
+1. Select the **Extensions** tab.
+   1. Expand **Key Usage** and then **Add** **Data encipherment**, **Digital signature**, and **Key encipherment** as the **Selected options**.
+   1. Expand **Extended Key Usage (application policies)** and then **Add** **Server Authentication** and **Client Authentication** as the **Selected options**.
+   1. Select **Apply**.
+1. Select the **Private Key** tab.
+   1. Expand **Cryptographic Servicer Provider** and then select **Microsoft RSA Schannel Cryptographic Provider (Encryption)**
+   1. Expand **Key options** then set **Key size** to *2048* (or higher) and select the **Make private key exportable** option.
+   1. Expand **Key type** and then select **Exchange**.
+   1. Select **Apply**.
+      :::image type="content" source="media/cert-properties2.png" alt-text="Certificated properties for key type":::
+1. Review all tabs to make sure all required options are selected or entered. After verification select **OK**.
+1. The **Certificate Enrollment** page is displayed. Select **Next**.
+1. On the **Where do you want to save the offline request** page, enter the full path to save the request file and ensure that **File format** is set to **Base 64**. Select **Finish**.
+
+Now you will have a CSR in BASE 64 format, which you can forward to an external or internal certificate authority for signing.
+
+> [!IMPORTANT]
+> There's no private key included. This avoids any compromise of the private key when transferring to a Certificate Authority.
+
+Your provider will provide a signed version of the certificate including the private key and the payload. That certificate you receive must be imported back on the same machine where you created the certificate request.
+
+### Import and then export the received certificate
+
+Import the certificate into the local certificate store (Personal) and the request will automatically be completed. Doing so merges the private and public key. From the Certificates MMC snap-in right-click the **Certificates** folder in the **Personal** folder, point to **All Tasks**, and then select **Import**. **Browse** to and select the certificate and follow the steps in the **Certificate Import Wizard** to import it.
+
+Finally, you export the certificate.
+
+1. In the Certificates MMC snap-in, right-click the certificate, point to **All Tasks**, and then select **Export**.
+1. On the **Certificate Export Wizard** select **Next**, and then select **Yes, export the private key**. Select **Next**.
+1. On the **Export File Format** page, leave all the default settings, and then select **Next**.
+   :::image type="content" source="media/cert-export-format.png" alt-text="Certificate export format":::
+1. On the **Security** page select **Password**.
+   1. Enter a password that will be your private key. Ensure to save that information in a secure place.
+   1. Select **Encryption** as **AES256-SHA256**.
+   1. Select **Next**.
+1. Enter the folder path where you want to save the certificate, that will be saved in PFX format. 
+1. Select **Next** and then select **Finish**.
+
+Now you can use the PFX certificate for Dynamics 365 Customer Engagement (on-premises) and other applications such as AD FS as well.
+
+> [!IMPORTANT]
+> If your certificate authority doesn't accept legacy type certificate requests, ensure to match all requirements except the Cryptographic Service Provider (CSP). You can run the below Certutil.exe in an elevated command shell to reimport the PFX with the required provider.
+>  
+> `certutil -csp "Microsoft RSA SChannel Cryptographic Provider" -importpfx <drive><name of cert>.pfx AT_KEYEXCHANGE`
+
+### Certificate subject and alternative names examples
+
+Subject name examples.
+
+|Type  |Value entered  |Subject name  |
+|---------|---------|---------|
+|Country     | DE        | C=DE     |
+|Locality     |  Munich       |  L=Munich       |
+|Organization     |  Contoso Ltd       | O=Contoso Ltd        |
+|Organizational unit     |  IT       | OU=IT        |
+|State     |  Bavaria       |  S=Bavaria       |
+|Common name     |  *.contoso.com<sup>1</sup>       |  CN=*.contoso.com<sup>1</sup>       |
+
+<sup>1</sup>Uses wildcard. A wildcard certificate is recommended as it covers all DNS values created for the domain.
+
+:::image type="content" source="media/cert-subject-names.png" alt-text="Certificate subject name examples":::
+
+For the subject alternative names (SAN) ensure to cover all DNS values you require. For example, alternative name DNS type values for the fictional company named Contoso might be: auth.contoso.com, dev.contoso.com, internalcrm.contoso.com, adfs.contoso.com, crmorg1.contoso.com, crmorg2.contoso.com, and so on.
+
+:::image type="content" source="media/cert-alt-names.png" alt-text="Certificate subject alternative name examples":::
 
 ## Configure databases for SQL Server AlwaysOn
 

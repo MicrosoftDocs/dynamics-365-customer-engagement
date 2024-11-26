@@ -1,10 +1,10 @@
 ---
 title: Optimization goals in Resource Scheduling Optimization
 description: Learn about how goals are used in Resource Scheduling Optimization.
-author: ryanchen8
-ms.author: chenryan
-ms.date: 09/28/2022
-ms.topic: article
+author: AnilMur
+ms.author: anilmur
+ms.date: 07/16/2024
+ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
@@ -26,7 +26,7 @@ Using the elements of a goal, you define how bookings should be optimized.
 
 1. Choose an **Engine Effort Level**. It defined the amount of effort that the system puts in to find the best combination of resources, route, and day or time. Higher effort levels mean that the optimization engine considers more possible combinations. The more combinations the system considers, the longer it takes to complete the calculations.
 
-1. Choose the **Travel Time Calculation** option to specify the method of calculating travel distance between resources and requirements.
+1. Choose the **Travel Time Calculation** option to specify the method of calculating travel distance between resources and requirements. You can include historical traffic information when using Bing Maps to get more accurate travel time estimation based on general traffic patterns in the past. This option doesn't include real-time traffic disruptions, such as road maintenance or accidents. Choosing historical traffic information leads to longer processing times of the optimization run and supports up to 500 requirements in the optimization scope. If your optimization scope includes more requirements, split it into smaller chunks and create an optimization goal with historical traffic for each scope. Due to the longer processing time, consider using that option mainly on schedules that are set to run automated of business hours.
 
 1. Select all **Constraints** for the optimization goal. [Constraints](#understand-constraints) are restrictions that are imposed on the bookings that the system creates.
 
@@ -41,6 +41,8 @@ Using the elements of a goal, you define how bookings should be optimized.
 When Resource Scheduling Optimization is deployed, the system automatically creates a default goal with some constraints and objectives. You can modify it as needed or create a new optimization goal and set it as default.
 
 The default goal is used when single resource optimization is selected from the schedule board.
+
+Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Resource Scheduling Optimization** to set the default goal.
 
 ## Understand constraints
 
@@ -100,7 +102,7 @@ Respect the [Territory field](set-up-territories.md) values on the requirement a
 
 ### Matches Resource Type
 
-Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md#create-frontline-workers-and-other-bookable-resources-manually) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
+Resource types define how the resource relates to the organization. The system considers the [Resource Type field](set-up-bookable-resources.md) values on the requirement and resource records. It schedules bookings only when the resource type values on both records match.
 
 The following resource types are considered for optimization:
 
@@ -138,7 +140,7 @@ Prioritize bookings for requirements with the highest score for priority. The pr
 
 ### Maximize Preferred Resources
 
-Consider the list of [preferred resources](resource-preferences.md#preferred) noted on related requirements. The system will try to assign bookings to preferred resources first while meeting other constraints and objectives.
+Consider the list of [preferred resources](resource-preferences.md) noted on related requirements. The system will try to assign bookings to preferred resources first while meeting other constraints and objectives.
 
 ### Best Matching Skill Level
 

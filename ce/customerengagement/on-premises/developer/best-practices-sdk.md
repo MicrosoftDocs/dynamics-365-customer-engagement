@@ -174,7 +174,7 @@ In addition, monitor your [!INCLUDE[pn_WCF_short](../includes/pn-wcf-short.md)] 
 and refresh it before it expires so that you do not lose the token and have to start over with authentication. 
 To check the token, create a custom class that inherits from the <xref:Microsoft.Xrm.Sdk.Client.OrganizationServiceProxy> or 
 <xref:Microsoft.Xrm.Sdk.Client.DiscoveryServiceProxy> class and that implements the business logic to check the token. 
-Or wrap the proxy classes in a new class. Another technique is to explicitly check the token before each call to the web service. Example code that demonstrates these techniques can be found in the `ManagedTokenDiscoveryServiceProxy`, `ManagedTokenOrganizationServiceProxy`, and `AutoRefreshSecurityToken` classes in the [Helper Code: ServerConnection Class](https://github.com/microsoft/PowerApps-Samples/blob/master/cds/orgsvc/C%23/SampleHelpers.cs) topic.  
+Or wrap the proxy classes in a new class. Another technique is to explicitly check the token before each call to the web service. Example code that demonstrates these techniques can be found in the `ManagedTokenDiscoveryServiceProxy`, `ManagedTokenOrganizationServiceProxy`, and `AutoRefreshSecurityToken` classes in the [Helper Code: ServerConnection Class](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs) topic.  
 
 <a name="CustomizationBestPractices"></a>
 

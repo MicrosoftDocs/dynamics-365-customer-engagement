@@ -1,12 +1,13 @@
 ---
-title: "Order (SalesOrder)  table/entity reference (Dynamics 365 Sales) | Microsoft Docs"
+title: "Order (SalesOrder)  table/entity reference"
 description: "Includes schema information and supported messages for the Order (SalesOrder)  table/entity."
-ms.date: 02/17/2023
-ms.service: dynamics-365-sales
+ms.date: 02/27/2024
+ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
-author: "udaykirang"
-ms.author: "udag"
+author: "lavanyakr01"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -23,34 +24,34 @@ Quote that has been accepted.
 
 ## Messages
 
-|Message|SDK Assembly|
-|-|-|
-|Assign|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
-|Associate|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
-|CalculatePrice|<xref:Microsoft.Crm.Sdk.Messages.CalculatePriceRequest>|
-|CancelContract|<xref:Microsoft.Crm.Sdk.Messages.CancelContractRequest>|
-|CancelSalesOrder|<xref:Microsoft.Crm.Sdk.Messages.CancelSalesOrderRequest>|
-|ConvertSalesOrderToInvoice|<xref:Microsoft.Crm.Sdk.Messages.ConvertSalesOrderToInvoiceRequest>|
-|Create|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|CreateMultiple|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
-|Delete|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|Disassociate|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
-|FulfillSalesOrder|<xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>|
-|GenerateSalesOrderFromOpportunity|<xref:Microsoft.Crm.Sdk.Messages.GenerateSalesOrderFromOpportunityRequest>|
-|GetQuantityDecimal|<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
-|GetSalesOrderProductsFromOpportunity|<xref:Microsoft.Crm.Sdk.Messages.GetSalesOrderProductsFromOpportunityRequest>|
-|GrantAccess|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
-|LockSalesOrderPricing|<xref:Microsoft.Crm.Sdk.Messages.LockSalesOrderPricingRequest>|
-|ModifyAccess|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
-|Retrieve|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|RetrievePrincipalAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
-|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
-|RevokeAccess|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
-|Rollup|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
-|SetState|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-|UpdateMultiple|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|Message|Web API Operation|SDK class or method|
+|-|-|-|
+|Assign|PATCH /salesorders(*salesorderid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `ownerid` property.|<xref:Microsoft.Crm.Sdk.Messages.AssignRequest>|
+|Associate|[Associate and disassociate entities](/powerapps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.AssociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Associate*>|
+|CalculatePrice|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|CancelContract||<xref:Microsoft.Crm.Sdk.Messages.CancelContractRequest>|
+|CancelSalesOrder||<xref:Microsoft.Crm.Sdk.Messages.CancelSalesOrderRequest>|
+|ConvertSalesOrderToInvoice||<xref:Microsoft.Crm.Sdk.Messages.ConvertSalesOrderToInvoiceRequest>|
+|Create|POST /salesorders<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /salesorders(*salesorderid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|Disassociate|[Associate and disassociate entities](/powerapps/developer/data-platform/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.DisassociateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Disassociate*>|
+|FulfillSalesOrder||<xref:Microsoft.Crm.Sdk.Messages.FulfillSalesOrderRequest>|
+|GenerateSalesOrderFromOpportunity||<xref:Microsoft.Crm.Sdk.Messages.GenerateSalesOrderFromOpportunityRequest>|
+|GetQuantityDecimal||<xref:Microsoft.Crm.Sdk.Messages.GetQuantityDecimalRequest>|
+|GetSalesOrderProductsFromOpportunity||<xref:Microsoft.Crm.Sdk.Messages.GetSalesOrderProductsFromOpportunityRequest>|
+|GrantAccess|<xref:Microsoft.Dynamics.CRM.GrantAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>|
+|LockSalesOrderPricing||<xref:Microsoft.Crm.Sdk.Messages.LockSalesOrderPricingRequest>|
+|ModifyAccess|<xref:Microsoft.Dynamics.CRM.ModifyAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>|
+|Retrieve|GET /salesorders(*salesorderid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /salesorders<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RetrievePrincipalAccess|<xref:Microsoft.Dynamics.CRM.RetrievePrincipalAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrievePrincipalAccessRequest>|
+|RetrieveSharedPrincipalsAndAccess|<xref:Microsoft.Dynamics.CRM.RetrieveSharedPrincipalsAndAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveSharedPrincipalsAndAccessRequest>|
+|RevokeAccess|<xref:Microsoft.Dynamics.CRM.RevokeAccess?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>|
+|Rollup|<xref:Microsoft.Dynamics.CRM.Rollup?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.RollupRequest>|
+|SetState|PATCH /salesorders(*salesorderid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /salesorders(*salesorderid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
 
 ## Properties
 
@@ -103,6 +104,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [LastOnHoldTime](#BKMK_LastOnHoldTime)
 - [Name](#BKMK_Name)
 - [OpportunityId](#BKMK_OpportunityId)
+- [OrderCreationMethod](#BKMK_OrderCreationMethod)
 - [OrderNumber](#BKMK_OrderNumber)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
 - [OwnerId](#BKMK_OwnerId)
@@ -619,6 +621,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Targets|opportunity|
 |Type|Lookup|
+
+
+### <a name="BKMK_OrderCreationMethod"></a> OrderCreationMethod
+
+**Added by**: Sales Patch Version 3 Solution
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName|Creation Method|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|ordercreationmethod|
+|RequiredLevel|None|
+|Type|Picklist|
+
+#### OrderCreationMethod Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|776160000|Unknown||
+|776160001|Win Quote||
+
 
 
 ### <a name="BKMK_OrderNumber"></a> OrderNumber
@@ -2313,10 +2338,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 Listed by **SchemaName**.
 
 - [lk_opportunitysalesprocess_salesorderid](#BKMK_lk_opportunitysalesprocess_salesorderid)
-- [order_details](#BKMK_order_details)
 - [order_invoices](#BKMK_order_invoices)
 - [SalesOrder_OrderClose](#BKMK_SalesOrder_OrderClose)
-- [msdyn_playbookinstance_salesorder](#BKMK_msdyn_playbookinstance_salesorder)
+- [order_details](#BKMK_order_details)
 
 
 ### <a name="BKMK_lk_opportunitysalesprocess_salesorderid"></a> lk_opportunitysalesprocess_salesorderid
@@ -2332,21 +2356,6 @@ Same as the [lk_opportunitysalesprocess_salesorderid](opportunitysalesprocess.md
 |ReferencedEntityNavigationPropertyName|salesorder_opportunitysalesprocess|
 |AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
 |CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
-
-### <a name="BKMK_order_details"></a> order_details
-
-Same as the [order_details](salesorderdetail.md#BKMK_order_details) many-to-one relationship for the [salesorderdetail](salesorderdetail.md) table/entity.
-
-|Property|Value|
-|--------|-----|
-|ReferencingEntity|salesorderdetail|
-|ReferencingAttribute|salesorderid|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|order_details|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
 ### <a name="BKMK_order_invoices"></a> order_invoices
@@ -2379,21 +2388,19 @@ Same as the [SalesOrder_OrderClose](orderclose.md#BKMK_SalesOrder_OrderClose) ma
 |CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
 
 
-### <a name="BKMK_msdyn_playbookinstance_salesorder"></a> msdyn_playbookinstance_salesorder
+### <a name="BKMK_order_details"></a> order_details
 
-**Added by**: Playbook Solution
-
-Same as the [msdyn_playbookinstance_salesorder](msdyn_playbookinstance.md#BKMK_msdyn_playbookinstance_salesorder) many-to-one relationship for the [msdyn_playbookinstance](msdyn_playbookinstance.md) table/entity.
+Same as the [order_details](salesorderdetail.md#BKMK_order_details) many-to-one relationship for the [salesorderdetail](salesorderdetail.md) table/entity.
 
 |Property|Value|
 |--------|-----|
-|ReferencingEntity|msdyn_playbookinstance|
-|ReferencingAttribute|regarding|
+|ReferencingEntity|salesorderdetail|
+|ReferencingAttribute|salesorderid|
 |IsHierarchical|False|
-|IsCustomizable|False|
-|ReferencedEntityNavigationPropertyName|msdyn_playbookinstance_salesorder|
-|AssociatedMenuConfiguration|Behavior: UseCollectionName<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: Cascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: Cascade<br />Share: Cascade<br />Unshare: Cascade|
+|IsCustomizable|True|
+|ReferencedEntityNavigationPropertyName|order_details|
+|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
+|CascadeConfiguration|Assign: NoCascade<br />Delete: Cascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 <a name="manytoone"></a>
 
@@ -2470,7 +2477,7 @@ IntersectEntityName: contactorders<br />
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
-### See also
+## Related information
 
-[About the table reference](../about-entity-reference.md)<br />
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,17 +1,22 @@
 ---
 title: Customize the appearance of work items in sales accelerator
 description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
-ms.date: 07/20/2022
-ms.topic: article
+ms.date: 10/15/2024
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
+ms.topic: how-to 
+ms.collection: 
+ms.custom: bap-template 
 ---
 
 # Customize the appearance of work items
 
-The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with.
+The work list in sales accelerator helps sellers prioritize their time and effort. Customize work items to display the most relevant and important information in the work list. You can customize work items for each entity type that you or your sellers work with. Want to know how the work items appear by default? See the [Default work item appearance](#default-work-item-appearance) section. 
 
-[!INCLUDE[cc-early-access](../includes/cc-early-access.md)]
+> [!NOTE]
+>
+>The card customizations made through the focused view will also affect the card display in the work list. More information: [Customize the work list card in focused view](focused-view.md#customize-the-work-list-card)
 
 ## License and role requirements
 
@@ -20,7 +25,8 @@ The work list in sales accelerator helps sellers prioritize their time and effor
 | **License** | Dynamics 365 Sales Premium, Microsoft Relationship Sales, or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Administrator or any [primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
 
-If you have an **administrator** role, you can do the following tasks.
+If you have an **administrator** role, you can do the following tasks.  
+
 - Enable customizations. More information: [Turn on customizations](#turn-on-customizations)
 - Allow sellers to override your customizations. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)
 - Customize work items for your organization. More information: [Customize work items](#customize-work-items) 
@@ -68,7 +74,7 @@ For the **Lock customization** settings, choose one of the following options to 
 
 ## Customize work items
 
-If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)   
+If you aren't an admin, you'll need to ask your admin to let you customize work item. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)  
 
 The procedure to customize work items is the same for both administrators and other primary sales roles.
 
@@ -116,8 +122,23 @@ The procedure to customize work items is the same for both administrators and ot
 
 1. Select **Save**.
 
+## Default work item appearance
+
+> [!NOTE]
+> When you select the **Reset to default** option, the card customizations are reset to the configurations defined in admin mode. To know about admin mode, see [step 5 in Turn on customizations](#turn-on-customizations).  
+
+By default, the work item appearance is set to the following values:
+
+| Entity type | Default values |
+|-------------|----------------|
+| Accounts | Row 1: Account name and follow indicator <br> Row 2: Primary contact full name and job title <br> Row 3: Up next activity |
+| Contacts | Row 1: Full name and follow indicator <br> Row 2: Job title and company name <br> Row 3: Up next activity |
+| Custom entity | Row 1: Name and follow indicator |
+| Leads | Row 1: Name, follow indicator, and predictive score <br> Row 2: Job title and company name <br> Row 3: Up next activity |
+| Opportunities | Row 1: Contact full name, follow indicator, and predictive score <br> Row 2: Contact Job title and company name <br> Row 3: Topic and estimated revenue <br> Row 4: Up next activity |
+
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)

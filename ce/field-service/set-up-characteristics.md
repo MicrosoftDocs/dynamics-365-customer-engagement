@@ -1,32 +1,35 @@
 ---
-title: Specify skills for resources
-description: Learn how to set up characteristics in Dynamics 365 Field Service
-ms.date: 09/26/2022
-ms.topic: article
+title: Specify characteristics for resources
+description: Assign characteristics to resources and work orders to list the skills needed to complete the job.
+ms.date: 08/12/2024
+ms.topic: how-to
+ms.custom: bap-template
 author: ryanchen8
 ms.author: chenryan
 ---
 
-# Specify skills for resources
+# Specify characteristics for resources
 
 Characteristics are skills or attributes that resources possess. For example, they can be used to indicate a license or certification is needed for certain types of work.  
   
-Add characteristics to work orders to list skills a resource needs to complete the job. It helps finding the right resources that have the matching characteristics when scheduling the work order.
+Add details to work orders to describe the skills needed to complete the job. Use these details to match the skills of available workers to make sure the right person is chosen for the task.
   
 ## Add characteristics  
   
 1. In Resource Scheduling, change to the **Settings** area.
 
-1. In the **Resource** section, go to **Skills**.
+1. Under **Resource**, select **Skills**.
 
 1. Select **New** to add a characteristic.
 
 1. Provide a **Name** and an optional **Description**.
 
-1. Choose a **Characteristic Type**. You can choose between two options:
+1. Choose a **Characteristic Type**.
 
-   - Skill: Classifies the characteristic as a skill that is rated with a [proficiency level](#create-a-proficiency-model).
-   - Certification: Choose between boolean true/false options for the characteristic.
+   - **Skill**: The characteristic is specific knowledge or experience that is rated with a [proficiency level](#create-a-proficiency-model).
+   - **Certification**: The characteristic is a designated credential, status, or level of achievement earned by a resource.
+
+1. Select **Save & Close**.
 
 ## Create a proficiency model
 
@@ -34,7 +37,7 @@ You can define rating values in a proficiency model that's used to indicate the 
 
 1. In Resource Scheduling, change to the **Settings** area.
 
-1. In the **Resource** section, go to **Proficiency Models**.
+1. Under **Resource**, select **Proficiency Models**.
   
 1. Select **New** to create a new model or select an existing model.
 
@@ -46,21 +49,43 @@ You can define rating values in a proficiency model that's used to indicate the 
 
 1. Provide a **Name** and a **Value**.
 
-1. **Save & Close** the rating value. Add more rating values for your rating model.
+1. Select **Save & Close**. Add more rating values for your rating model.
 
 ## Assign characteristics to resources  
   
 1. In Field Service, change to the **Resources** area.
 
-1. In the **Resource** section, go to **Resources**.
+1. Under **Resource**, select **Resources**.
   
-1. From the list, select a [bookable resource name](set-up-bookable-resources.md).  
+1. Open a [bookable resource name](set-up-bookable-resources.md) and select the **Field Service** tab.
+
+1. In the **Characteristics** section, select **New Bookable Resource Characteristic**.  
   
-1. In the **Field Service** tab, in the **Characteristics** section, select **New Bookable Resource Characteristic**.  
+1. Find and select the required **Characteristics**. If applicable, add a **Rating Value** for the resource.  
   
-1. Find and select the required **Characteristics** and add a **Rating Value** for the resource.  
-  
-1. Select **Save & Close**.  
+1. Select **Save & Close**.
+
+## Enhanced characteristics (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
+Add more details to a resource's characteristics. More detail is especially useful if you want to document when a certification was issued or when it expires.
+
+Before users can specify enhanced characteristics, a Field Service administrator has to enable the feature after [updating to the early access release](/dynamics365/get-started/release-schedule).
+
+1. In Field Service, change to the **Settings** area.
+
+1. Under **General**, select **Field Service Settings**.
+
+1. On the **Features** tab, set **Enhanced characteristics** to **On**.
+
+1. Select **Save & Close**.
+
+With enhanced characteristics enabled, you can add more information to *Bookable Resource Characteristic* records.
+
+A section for **Supporting Information** shows on the record. You can provide an **ID**, **Issue Date**, **Expiration Date**, and a **Description** of a characteristic that relates to a specific resource.
   
 ## Assign characteristics to work orders  
   
@@ -68,10 +93,10 @@ You can define rating values in a proficiency model that's used to indicate the 
   
 1. Select **Related** > **Characteristics**.  
   
-1. On the **Requirement Characteristic Associated View** view, select **Add New Requirement Characteristic**.  
+1. On the **Requirement Characteristic Associated View** view, select **New Requirement Characteristic**.  
   
-1. Choose the **Characteristics**, an optional **Rating Value** and the related **Resource Requirement**.
+1. Choose the **Characteristic**, an optional **Rating Value**, and the related **Resource Requirement**.
   
 1. Select **Save & Close**.
-  
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

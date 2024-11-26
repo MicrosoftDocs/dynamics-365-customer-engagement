@@ -1,1 +1,0 @@
-Sets the context provider. The context provider function, when invoked, returns the context to be used for initializing a chat session.

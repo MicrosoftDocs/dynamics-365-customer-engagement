@@ -1,10 +1,15 @@
 ---
-title: "Enable sales usage reports for sales managers"
-description: "Enable sales usage reports for sales managers to analyze the status of opportunities and leads in your organization."
-ms.date: 02/03/2023
+title: Enable sales usage reports for sales managers
+description: Explore sales usage reports for historical insights into operational metrics and key performance indicators in Sales.
+ms.date: 06/28/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/24/2024
 ---
 
 # Enable sales usage reports
@@ -23,24 +28,22 @@ As an administrator, enable the sales usage reports in your organization for sal
 
 >[!NOTE]
 >- Sales usage reports are not available on Government Community Cloud (GCC).
->- When enabled, the reports can take up to 24 hours to be displayed. Thereafter, reports are refreshed every 24 hours. 
+>- When enabled, the reports can take up to 24 hours to be displayed. Thereafter, reports are refreshed every 24 hours.  
 
-1.	Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App settings**.    
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **App settings**.  
 
-2.	On the site map, select **General settings** > **Sales usage reports**.
- 
-3.	On the **Sales usage reports** page, turn on the toggle to enable the reports.
+1. On the site map, select **General settings** > **Sales usage reports**.
 
-    >[!div class="mx-imgBorder"]
-    >![Turn on the toggle to enable sales usage reports.](media/sales-usage-reports-enable.png "Turn on the toggle to enable sales usage reports")        
- 
-4.	Select **Save**.    
+1. On the **Sales usage reports** page, turn on the toggle to enable the reports.
 
-The reports are enabled. The application might take up to 24 hours to display the reports. 
+    :::image type="content" source="media/sales-usage-reports-enable.png" alt-text="Screenshot of enabling sales usage reports.":::
+
+1. Select **Save**.  
+
+The reports are enabled. The application might take up to 24 hours to display the reports.  
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [View and understand the sales usage reports](view-understand-sales-usage-reports.md)
-

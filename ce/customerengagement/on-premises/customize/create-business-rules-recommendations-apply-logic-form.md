@@ -4,10 +4,9 @@ description: "Learn how to create business rules to apply form logic without wri
 ms.custom: 
 ms.date: 10/23/2019
 ms.reviewer: 
-
 ms.suite: 
 ms.tgt_pltfrm: 
-ms.topic: get-started-article
+ms.topic: get-started
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.assetid: 00e62904-2ce9-4730-a113-02b1fedbf22e
@@ -122,7 +121,7 @@ You can create business rules and recommendations to apply form logic without wr
 >   
 > - To take a snapshot of everything in the Business Rule window, click **Snapshot** on the action bar. This is useful, for example, if you want to share and get comments on the business rule from a team member.  
 > - Use the mini-map to navigate quickly to different parts of the process. This is useful when you have a complicated process that scrolls off the screen.  
-> - As you add conditions, Actions, and business recommendations to your business rule, code for the business rule is built and appears at the bottom of the designer window. This code is ready only.  
+> - As you add conditions, Actions, and business recommendations to your business rule, code for the business rule is built and appears at the bottom of the designer window. This code is read only.  
 
 <a name="BKMK_LocalizingErrorMessages"></a>   
 ## Localize error messages used in business rules  

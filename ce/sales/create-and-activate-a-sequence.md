@@ -1,11 +1,15 @@
 ---
-title: "Sequence creation and activation in the sales accelerator"
-description: "Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales."
-ms.date: 08/01/2022
-ms.topic: article
+title: Sequence creation and activation in the sales accelerator
+description: Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales.
+ms.date: 06/17/2024
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
+ms.topic: overview 
+ms.collection: how-to 
+ms.custom: bap-template 
 ---
+
 # Create and activate a sequence 
 
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
@@ -14,7 +18,7 @@ Also, sellers can create and activate sequences for themselves and use the seque
 
 ## License and role requirements
 | Requirement type | You must have |
-|-----------------------|---------|
+|------------------|---------------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
@@ -65,7 +69,30 @@ Also, sellers can create and activate sequences for themselves and use the seque
 8. Select the **Add** icon, and then repeat step 7 for all the activities that you want to add to the sequence.
 9. Save the sequence.  
 
-Now, you can activate the sequence. 
+Now, you can assign the sequence to users and then activate. 
+
+## Assign different sequences to users or teams
+
+You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
+
+Deactivate the sequence before you assign it to users or a team. 
+
+1. In the sequence page, select **Properties**.
+
+    :::image type="content" source="media/sequence-select-properties.png" alt-text="Screenshot of the sequence page with properties option":::
+
+1. In the **Properties** pane, under the **Assign to** section, select the one of the following options.  
+
+    | Type | Option | Description |
+    |------|--------|-------------|
+    | Record | Record owner | The option automatically assigns the sequence to the owner of the record when connected. By default, this option is selected. |
+    || Team member specified in a record field | The option automatically assigns the sequence to an individual based on the selected field name in the record. Choose the field name that you want to consider for assigning the sequence to a specific user, as identified in that field. |
+    | Teams | Owner team | The option automatically assigns the sequence to the owner team when the record is connected. The owner of the record must be the owner team. Optionally, you can define conditions to assign sequence to specific individuals within the owner team. To define conditions, select **Condition is empty**. |
+    || Access team | The option automatically assigns the sequence to the access team when the record is connected. The owner of the record must be the access team. Optionally, you can define conditions to assign sequence to specific individuals within the access team. To define conditions, select **Condition is empty**. |
+
+    The following image is an example of the Properties pane:
+
+    :::image type="content" source="media/sequence-assign-sequence-properties-pane.png" alt-text="Screenshot of the properties pane for assigning sequence":::
 
 ## Activate a sequence
 
@@ -99,7 +126,7 @@ On the sequence home page, you can do the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)     
 [Add steps to sequence](steps-sequence.md)  

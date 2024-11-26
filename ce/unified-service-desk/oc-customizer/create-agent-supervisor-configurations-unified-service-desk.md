@@ -1,12 +1,14 @@
 ---
 title: "Create agent and supervisor configurations in Unified Service Desk | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to create and manage agent and supervisor configurations in Unified Service Desk."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # Create agent and supervisor configurations in Unified Service Desk
 
 
@@ -42,10 +44,10 @@ Omnichannel Supervisor Configuration
 
 ## See also
 
-- [Omnichannel system customizers](../../customer-service/omnichannel-customizer.md)
-- [Customize Customer summary form](../../customer-service/customize-customer-summary.md)
-- [Add or remove the fields in the form](../../customer-service/customize-quick-view-form.md)
-- [Customize the conversation form](../../customer-service/customize-session-form.md)
+- [Omnichannel system customizers](../../customer-service/administer/omnichannel-customizer.md)
+- [Customize Customer summary form](../../customer-service/administer/customize-customer-summary.md)
+- [Add or remove the fields in the form](../../customer-service/administer/customize-quick-view-form.md)
+- [Customize the conversation form](../../customer-service/administer/customize-session-form.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
