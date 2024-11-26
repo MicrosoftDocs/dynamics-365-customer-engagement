@@ -2,7 +2,7 @@ You can have multiple schedule board tabs configured for your business needs. As
 
 ## Share a schedule board tab
 
-By default, a new schedule board tab is visible only to the user who creates it, as well as users with higher access levels such as org administators. Use the schedule board tab settings to share a tab.
+By default, a new schedule board tab is visible only to the user who creates it and users with higher access levels such as org administrators. Use the schedule board tab settings to share a tab.
 
 1. On the schedule board, select the vertical ellipsis &vellip; next to a schedule board tab name and select **Board settings**.
 
