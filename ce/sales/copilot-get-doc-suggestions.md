@@ -19,7 +19,7 @@ ai-usage: ai-assisted
 
 # Use Copilot to get content recommendations and answers from SharePoint
 
-Copilot can recommend documents related to the products and accounts in your sales records. You can also ask questions about the products and get answers from the documents stored in SharePoint.
+Copilot can recommend documents related to the products and accounts in your sales records. You can also ask questions about the products and get answers from the documents stored in SharePoint. 
 
 > [!NOTE]
 > If your admin has [configured Copilot to use specific SharePoint folders](copilot-sharepoint-config.md), Copilot searches for documents only in those folders. If not, Copilot searches all the SharePoint folders that you have access to.
@@ -29,15 +29,15 @@ Copilot can recommend documents related to the products and accounts in your sal
 - You must have the SharePoint Online license.
 - You must have the read permission, at the minimum, to access SharePoint documents. If you only have access to specific folders or sites, Copilot displays relevant documents from only those folders or sites.
 
-
 <a name="copilot-content-recommendation"></a>
+
 ## Get content recommendations from SharePoint
  
 As a salesperson, you need to be aware of the latest product and account-related information, such as product brochures, pricing, sales pitch, and specifications, which are typically stored in SharePoint. You can ask Copilot to provide you with the list of SharePoint documents related to your sales records.
 
 To get content recommendations, use one of the following methods in the Copilot chat window:
 
-- Select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::) in the chat window, select **Get info** > **Show related files**, and enter the record name.
+- Select **View Prompts** above the Copilot chat box, select **Get info** > **Show related files**, and enter the record name.
 
 - Use natural language chat. For example, you can ask Copilot, **Show me the product-related files** or **Get files related to this** or **Display documents for the *opportunity name***.
 
@@ -70,13 +70,14 @@ The **Show related files** prompt lists the files that meet the following criter
 
 
 <a name="copilot-content-qa"></a>
+
 ## Get answers from SharePoint documents
 
-As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
+As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you. 
 
 **To get answers from SharePoint documents**
 
-1. [Open Copilot](use-sales-copilot.md#open-copilot) and select the sparkle icon (:::image type="icon" source="media/sparkle-icon.png" border="false":::).
+1. [Open Copilot](use-sales-copilot.md#open-copilot) and select **View Prompts** above the Copilot chat box.
 
 1. Select **Get info** > **Get info from SharePoint about** and type in your question.
 

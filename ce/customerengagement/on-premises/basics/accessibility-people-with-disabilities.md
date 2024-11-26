@@ -39,7 +39,7 @@ For accessibility information about your browser, visit the following websites:
   
 -   [Safari accessibility features](https://www.apple.com/accessibility/)  
   
--   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)  
+-   [Google Chrome accessibility technical documentation](https://www.chromium.org/developers/design-documents/accessibility/)  
   
 ## Heighten color contrast of some text and images  
  The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You'll find this setting on the **Ease of Access** page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx).  
@@ -77,7 +77,7 @@ For accessibility information about your browser, visit the following websites:
   
 -   [Safari accessibility features](https://www.apple.com/accessibility/)  
   
--   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)  
+-   [Google Chrome accessibility technical documentation](https://www.chromium.org/developers/design-documents/accessibility/)  
   
 ## Heighten color contrast of some text and images  
  The high contrast setting in [!INCLUDE[pn_ms_Windows_long](../includes/pn-ms-windows-long.md)] heightens the color contrast of some text and images on your computer screen, making those items more distinct and easier to identify. You'll find this setting on the **Ease of Access** page in [Windows 10](https://www.microsoft.com/enable/products/windows10/default.aspx).  

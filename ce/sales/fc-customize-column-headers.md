@@ -1,7 +1,7 @@
 ---
 title: Customize column headers in the forecast grid
 description: Learn how to customize the column headers of the forecast grid.
-ms.date: 12/16/2022
+ms.date: 10/01/2024
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

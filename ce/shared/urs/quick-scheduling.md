@@ -1,4 +1,4 @@
-Quick scheduling (sometimes referred to as “quick book”) simplifies the schedule assistant experience.
+Quick scheduling (sometimes referred to as 'quick book') simplifies the schedule assistant experience.
 
 Without leaving a record, use a scheduling pane to see available booking time slots.
 
