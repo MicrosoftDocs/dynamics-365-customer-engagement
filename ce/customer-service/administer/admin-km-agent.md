@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 11/22/2024
+ms.date: 11/26/2024
 ms.custom: bap-template
 ---
 
@@ -79,7 +79,7 @@ To set the default compliance state of articles created by customer knowledge ma
 Articles with the **Non Compliant** status can't be published.
 
 > [!NOTE]
-> Though (PII) Personally Identifiable Information for a case is deleted before an article is generated, every instance of sensitive information might not be detected. 
+> Customer Knowledge Management agent scrubs case data of personally identifiable information (PII) before drafting articles, but might not detect all instances of sensitive information.
 
 ## Auto publish articles
 
@@ -88,7 +88,7 @@ You can control whether articles created by customer knowledge management agent 
 To set the auto-publishing of articles created by customer knowledge management agent, on the **Customer knowledge management agent (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
 
 - Select **Internal target audiences**, if you want articles to be available to your service representatives and Copilot internally. 
-- Select **Internal and external target audiences**, if you want these articles to be published to external portals.   
+- Select **Internal and external target audiences**, if you want these articles to be published to external portals.
 
 ## Setup the optional agent review draft experience
 
@@ -97,11 +97,17 @@ If you’re not configuring customer knowledge management agent to automatically
 To enable this agent editor: 
 
 - Configure customer knowledge management agent to not automatically publish articles.
-- Enbale in-app notifications for agents to be notified when their cases are considered for publishing.
+- Enable in-app notifications for agents to be notified when their cases are considered for publishing.
 - Ensure your service representatives have the permission to edit articles.
 - Make sure your cases have Timeline and Timeline highlights enabled.
 
-Service representatives can see whether they have knowledge articles to review by opening a resolved case, navigating to the Timeline highlights, and selecting the next suggested action to review the autonomously drafted article.
+Service representatives can see whether they have knowledge articles to review by opening a resolved case, navigating to the Timeline Highlights, and selecting the next suggested action to review the autonomously drafted article.
+
+Learn more in [Review knowledge articles created by the customer knowledge management agent](../use/admin-km-agent-review.md#review-knowledge-articles-created-by-the-customer-knowledge-management-agent).
+
+## Use knowledge insights for customer knowledge management agent (preview)
+
+You can get analytics reports on customer knowledge management agent as well as collect analytics data for your own custom reporting. Learn more in [Use knowledge insights for customer knowledge management agent (preview)](../use/admin-km-agent-insights.md#use-knowledge-insights-for-customer-knowledge-management-agent-preview).
 
 ## Related links
 

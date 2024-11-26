@@ -16,7 +16,9 @@ You can review knowledge articles created by the customer knowledge management a
 
 ## Prerequisites
 
-You administrator must have configured Review permissions.
+- You administrator must have configured Review permissions.
+- You're using out-of-the-box timeline.
+- You have **Timeline Highlights** and **Suggested actions** enabled.
 
 ## Review knowledge articles
 
