@@ -16,7 +16,7 @@ ms.author: mkelleher
 
 Requirement group templates are designed to work with [incident types](configure-incident-types.md). Associate a requirement group template to an incident type to automatically add requirement groups to work orders. Requirement groups can influence the performance for creating work orders and work order incidents. The degree of influence depends on the number of requirements in a requirement group.
 
-1. In Field Service, open the **Settings** area. Under **Word Orders**, select **Incident Types**.
+1. In Field Service, open the **Settings** area. Under **Work Orders**, select **Incident Types**.
 
 1. Select an incident type, open the **Related** > **Requirement Groups** tab, and select **New Incident Type Requirement Group**.
 
