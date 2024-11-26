@@ -105,7 +105,7 @@ Service representatives can see whether they have knowledge articles to review b
 
 Learn more in [Review knowledge articles created by the customer knowledge management agent](../use/admin-km-agent-review.md#review-knowledge-articles-created-by-the-customer-knowledge-management-agent).
 
-## Use knowledge insights for customer knowledge management agent (preview)
+## Use knowledge insights for customer knowledge management agent
 
 You can get analytics reports on customer knowledge management agent as well as collect analytics data for your own custom reporting. Learn more in [Use knowledge insights for customer knowledge management agent (preview)](../use/admin-km-agent-insights.md#use-knowledge-insights-for-customer-knowledge-management-agent-preview).
 

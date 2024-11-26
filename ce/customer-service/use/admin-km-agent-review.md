@@ -10,7 +10,7 @@ ms.date: 11/20/2024
 ms.custom: bap-template
 ---
 
-## Review knowledge articles created by the customer knowledge management agent
+# Review knowledge articles created by the customer knowledge management agent
 
 You can review knowledge articles created by the customer knowledge management agent. When you resolve a case, the customer knowledge management agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.
 
