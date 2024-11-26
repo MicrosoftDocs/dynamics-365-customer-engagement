@@ -34,7 +34,7 @@ View assigned records to reassign them to different sellers or teams. Also, you 
 
     The monitor record page has the following tabs:  
     - **To be processed**: lists the records that are to be processed are displayed. Any records listed here are automatically assigned to sellers, teams, or queues by the application, and might take up to two minutes.  
-    - **Processed**: Lists the records are processed by the work assignment feature. Information of each record is displayed such as, record's name, status, along with name of  connected segment, assignment rule, and sequence (as applicable).
+    - **Processed**: Lists the records are processed by the work assignment feature. Information of each record is displayed such as, record's name, status, along with name of  connected segment, assignment rule, and sequence (as applicable).  
         When a record isn't connected to a segment, assignment rule, or sequence, the **Status** column displays **Needs attention**. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To know more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
 
     :::image type="content" source="media/sa-ar-view-unassigned-records-view-records.png" alt-text="Screenshot of the list of unassigned lead records.":::
