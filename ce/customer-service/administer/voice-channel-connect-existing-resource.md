@@ -88,11 +88,11 @@ You need to specify the values of **Application (client) ID** and **Directory (t
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
 After you configure the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the following:
- -  **Event grid app id**
+ - **Event grid app id**
  - **Event grid app tenant id**
  - **Recording Web Hook Endpoint**
  - **SMS Web Hook Endpoint**
- -  **Incoming call Web Hook Endpoint (preview)**.
+ - **Incoming call Web Hook Endpoint (preview)**.
 
 You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in [Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md).
 
