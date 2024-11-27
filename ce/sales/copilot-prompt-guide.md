@@ -24,6 +24,7 @@ The prompt guide in Copilot in Dynamics 365 Sales provides predefined prompts th
 | **Get info** > **Summarize file** | Displays the summary of the document you specify. | [Summarize proposals or sales documents](copilot-get-information.md#copilot-doc-summarization) |
 | **Ask questions** > **What's new with my sales records** | Get a list of your sales records that were updated in the last seven days. | [What's new with my sales records](copilot-ask-questions.md#whats-new-with-my-sales-records) |
 | **Ask questions** > **What's newly assigned to me** | Get a list of leads and opportunities that were assigned to you in the last 15 days. | [What's newly assigned to me](copilot-ask-questions.md#whats-newly-assigned-to-me) |
+| **Ask questions** > **What's changed for *record type*** | Get a list of updates to your account, lead, or opportunity records in the last seven days or since you last signed in. This prompt is available only when auditing is enabled. | [Show recent changes](copilot-ask-questions.md#get-recent-changes) |
 | **Stay ahead** > **Prepare for sales appointments** | Prepare better for your sales appointments with a summary of notes from the last three months and the most recent email thread on the timeline of the related record. | [Prepare for sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments) |
 | **Stay ahead** > **Show emails that need follow up** | Get a list of emails that you haven't replied to. | [Show emails that need followup](copilot-stay-ahead.md#display-unanswered-emails) |
 
