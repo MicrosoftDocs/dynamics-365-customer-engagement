@@ -30,7 +30,7 @@ The key capabilities of model customization include the ability to:
 
 - Publish the customized report to a specific Microsoft Fabric workspace.
 
-- Customize the report site map and enable users to access the reports natively from the Customer Service workspace.
+- Customize the report site map and enable users to access the reports natively from the Customer Service workspace app.
 
 - Auto refresh reports as soon as source data is updated.
 
