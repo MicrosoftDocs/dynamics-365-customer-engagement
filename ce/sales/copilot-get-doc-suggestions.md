@@ -41,7 +41,7 @@ To get content recommendations, use one of the following methods in the Copilot 
 
 - Use natural language chat. For example, you can ask Copilot, **Show me the product-related files** or **Get files related to this** or **Display documents for the *opportunity name***.
 
-- Select the follow-up prompt **Show related files** if available.
+- Select the follow-up prompt **Show related files from SharePoint** if available.
 
     - The follow-up prompt is displayed depending on the type of record and whether products or accounts are associated with the record. For example, if you have associated products with an opportunity, you'll see the follow-up prompt **Show product-related files**.
 
