@@ -1,6 +1,6 @@
 ---
 title: Backlog conversation 
-description: 
+description: This article explains how to use the Backlog conversations report to monitor open, active, and waiting conversations created in the last 30 days or more.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -20,10 +20,13 @@ You'll need to contact Microsoft Support to enable this feature.
 
 ## Key metrics
 
-You can view **Modified On** time that will reflect the most recent activity in ongoing conversations, and not just most recent created ones.
+< Need screenshot and metrics>
 
-You can extedn the default timeframe of 30 days as required. As supervisors, you can manage and monitor extended conversations effectively.
+You can view **Modified On** time that reflects the most recent activity in ongoing conversations, and not just most recent created ones.
+
+You can extend the default timeframe of 30 days as required. As supervisors, you can manage and monitor extended conversations effectively.
 
 ## Related information
+
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)
 
