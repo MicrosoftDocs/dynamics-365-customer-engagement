@@ -21,16 +21,15 @@ ai-usage: ai-assisted
 
 # Sales qualification agent
 
-The Sales qualification agent helps you make informed decisions using research data on leads and ideal customer profiles. It enables you to identify high-potential leads, understand your audience, and refine your sales strategies.
+The Sales qualification agent helps you qualify leads effortlessly by researching, prioritizing, and helping you engage with potential customers. It prioritizes leads based on the prioritization criteria that you define, enabling you to focus on high-potential opportunities. The agent also generates personalized outreach emails to help you engage with leads effectively. By leveraging the Sales qualification agent, you can qualify leads more efficiently and quickly and increase your sales productivity.
 
 ## How the Sales qualification agent works
 
-The agent streamlines the lead qualification process by researching, prioritizing, and helping with lead engagement. 
+The agent streamlines the lead qualification process by researching, prioritizing, and helping with lead engagement.
 
 ### Research
 
-The Sales qualification agent conducts a thorough lead research by drawing data from CRM and a variety of sources across the internet. By aggregating data from social media, industry reports, news articles, and other relevant platforms, the agent compiles a comprehensive profile of potential leads. This ensures that you have a well-rounded understanding of each prospect's background, interests, and current business environment.
-
+The Sales qualification agent conducts thorough lead research by drawing data from CRM and a variety of sources across the internet. By aggregating data from social media, industry reports, news articles, and other relevant platforms, the agent compiles a comprehensive profile of potential leads. This ensures that you have a 360 degree view of your lead's background, interests, and current business environment.
 
 - **CRM Data**: The agent pulls data from CRM records, such as lead details, interactions, and activities.
 - **News articles**: The agent scans news articles related to the lead's company and their budget, authority, need, and timeline (BANT) criteria. The following sources are used for need and budget:
@@ -40,7 +39,7 @@ The Sales qualification agent conducts a thorough lead research by drawing data 
 
 ### Prioritization
 
-Once the research is complete, the agent prioritizes leads based on your [Ideal Customer Profile](#ideal-customer-profile) and predictive scoring models. This step involves analyzing the collected data to assess the potential of each lead. Factors such as company size, industry, location, and product needs are evaluated to rank leads from high to low priority. This systematic approach ensures that your sales efforts are focused on the most promising opportunities.
+Once the research is completed, the agent prioritizes leads based on the criteria that you define such as, ideal customer profile, hand-raiser criteria, highly engaged leads, newly created leads, and so on. The agent also uses predictive scores to rank the leads. This step involves analyzing the collected data to assess the potential of each lead. Factors such as company size, industry, location, and product needs are evaluated to rank leads from high to low priority. This systematic approach ensures that your sales efforts are focused on the most promising opportunities.
 
 ### Engagement
 
@@ -58,7 +57,7 @@ An ideal customer profile (ICP) is a detailed description of a target customer w
 
 By focusing on leads that match this profile, you can tailor your approach to address specific needs and challenges, thereby increasing the likelihood of a successful sale.
 
-### Handraiser Criteria
+## Handraiser Criteria
 
 Handraiser criteria allow you to define specific conditions that qualify a lead as a "handraiser." Handraisers are leads who have shown explicit interest in your product or service, indicating a higher likelihood of conversion. By establishing clear handraiser criteria, you can quickly identify and prioritize these high-potential leads. Common handraiser criteria include:
 
