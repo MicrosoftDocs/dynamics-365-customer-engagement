@@ -312,6 +312,8 @@
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
             href: realtime-ongoing.md
+          - name: Backlog conversation report
+            href: realtime-backlog-conv.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
