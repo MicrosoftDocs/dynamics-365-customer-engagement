@@ -16,7 +16,7 @@ ms.collection:
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions within the same tenant. If you disconnected a resource and want to use it now, you can do so using this option.
+You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions within the same tenant. If you had disconnected a resource and want to use it now, you can do so using this option.
 
 ## Prerequisites
 
@@ -46,7 +46,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys":::
 
 > [!NOTE]
-> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connnection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
+> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
 
 ### Get Event Grid application and tenant IDs from the Azure portal
 
@@ -84,6 +84,9 @@ You need to specify the values of **Application (client) ID** and **Directory (t
        :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
 
      - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
+
+> [!NOTE]
+> Make sure you enter the correct set of **Tenant ID** and **Application ID or URL** that matches the ones defined in your org. It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed", verify your credentials and then retry this step after a few minutes.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
