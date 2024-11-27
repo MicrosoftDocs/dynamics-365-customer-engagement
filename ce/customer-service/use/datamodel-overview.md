@@ -20,7 +20,7 @@ ms.custom: bap-template
 
 Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics, so that you can use the data that's most relevant to your organization.
 
-As new features are added, metric definitions and calculations continually need to be updated to account for additional workflows that are enabled by new features. Using the out-of-the-box model and creating only those metrics that are unique to your organization reduce the risk of metric definitions becoming outdated.
+As new features are added, metric definitions and calculations continually need to be updated to account for additional workflows that are enabled by new features. To reduce the risk of metric definitions becoming outdated, use the out-of-the-box model and create only those metrics that are unique to your organization.
 
 ## What is data model customization?
 
