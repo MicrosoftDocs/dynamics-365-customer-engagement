@@ -74,7 +74,8 @@ To enable call recording and SMS services, you must first configure your applica
 
 1. Select **Create** to create the event subscription endpoint for recording.
 
-   It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
+> [!NOTE]
+> Make sure you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URL** that matches the ones defined in your org. It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed", verify your credentials and then retry this step after a few minutes.
 
 ## Set up call recording webhook
 
@@ -92,8 +93,6 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
 
-> [!NOTE]
-> Make sure you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URL** that matches the ones defined in your org. In case of an incorrect entry, you may get a Webhook validation handshake failed error.
 
 ## Set up SMS webhook
 
