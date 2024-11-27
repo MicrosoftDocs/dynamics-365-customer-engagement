@@ -42,13 +42,13 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
 |DimDate	|Date time	|Date time. The type is Date/Time. |
-|DimDate	|Day | Day name. Example: "Fri". |
-|DimDate	|Year	| Year number. Example: "2021". |
-|DimDate	|Week	| Week number. Example: "1". |
+|DimDate	|Day | Day name. Example: "Fri" |
+|DimDate	|Year	| Year number. Example: "2021" |
+|DimDate	|Week	| Week number. Example: "1" |
 |DimDate	|Month	| Month name. Example: "Apr 2021"|
-|DimDate	|Quarter	| Quarter name. Example: "Q1". |
+|DimDate	|Quarter	| Quarter name. Example: "Q1" |
 |DimDate	|Hour	| Hour. Example: "01:00", "01:30" |
-|FactCase	|Incident id	|Incident id, Primary key. Type: Guid.|
+|FactCase	|Incident id	|Incident id, Primary key. Type: Guid|
 |FactCase	|Case number	|Case number value. |
 |FactCase	|Queue id	|Queue id. Foreign key to DimQueue. |
 |FactCase	|Owner system user id	|Owner system user id. Foreign key to DimSystemUser. |
@@ -66,7 +66,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	|Escalated rate	|Rate that escalated cases divided by total cases. |
 |FactCase	|Case volume	|Total case count per topic divided by total cases. |
 |FactCase	|Case volume change	|Total case count link relative ratio for the same date range filter.|
-|FactCase	|Avg. resolve time (hrs|	Average time for case handle time. |
+|FactCase	|Avg. resolve time (hrs)|	Average time for case handle time. |
 |FactCase |	Avg. case age (days)	|Average case age |
 |FactCase	|First response - SLA %	|Total cases when first response sent is false divided by total cases. |
 |FactCase	|Avg. CSAT |	Average CSAT score. |
@@ -78,12 +78,12 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimSystemUser	|Agent	|Name of the agent. |
 |DimSystemUser	|System user id |System user ID. | 
 |DimCaseProperty	|Case status	|Case status value, Example: Active, Canceled, Resolved. |
-|DimCaseProperty	|Case priority	|Case priority value, Example: Low, High, Normal. |
+|DimCaseProperty	|Case priority	|Case priority value. Example: Low, High, Normal. |
 |DimCaseProperty	|Channel	|Case channel.|
-|DimCaseProperty	|Case age	| Description for case age, Example: 4-7 Days, <1 Day, 1-3 Days|
+|DimCaseProperty	|Case age	| Description for case age. Example: 4-7 Days, <1 Day, 1-3 Days|
 |DimCaseProperty	|Case property id	|Case property ID. Primary key. |
 |DimTopic	|Topic	|Topic name. |
-|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid. |
+|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid |
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00 |
 
 ## Omnichannel analytics
@@ -114,12 +114,12 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimConversationProperty	|Channel |	Channel name. The name of the channel that the conversation came through. |
 |DimConversationProperty|Conversation status |The status of the conversation. That is, open, active, waiting, wrap up, and closed. |
 |DimDate |	Date time	|Date and time. The type is Date/Time. |
-|DimDate |	Day	|Day name. Example: "Fri".|
+|DimDate |	Day	|Day name. Example: "Fri"|
 |DimDate |	Hour	|Hour. Example: "01:00", "01:30"|
-|DimDate	|Month	|Month name. Example: "Apr 2021".|
-|DimDate	|Quarter	|Quarter name. Example: "Q1". |
-|DimDate |Week	|Week number. Example: "1". |
-|DimDate	|Year	|Year number. Example: "2021". |
+|DimDate	|Month	|Month name. Example: "Apr 2021"|
+|DimDate	|Quarter	|Quarter name. Example: "Q1" |
+|DimDate |Week	|Week number. Example: "1" |
+|DimDate	|Year	|Year number. Example: "2021" |
 |DimQueue	|Queue id	|Queue ID. Primary key of type GUID. |
 |DimQueue	|Is omnichannel queue |Whether the queue is an omnichannel queue. Currently, it's always true. |
 |DimQueue	|Queue	|Queue name.|
@@ -261,13 +261,13 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |DimConversationProperty	|Channel name. |The name of the channel that the conversation came through.|
 |DimConversationProperty	|Conversation status	|The status of the conversation, that is, open, active, waiting, wrap up, and closed.|
 |DimDate	|Date time	|Date time. The type is Date/Time. |
-|DimDate	|Day	|Day name. Example: "Fri".|
+|DimDate	|Day	|Day name. Example: "Fri"|
 |DimDate	|Hour	|Hour. Example: "01:00", "01:30"|
-|DimDate	|Month	|Month name. Example: "Apr 2021".|
-|DimDate	|Quarter	|Quarter name. Example: "Q1".|
-|DimDate	|Week	|Week number. Example: "1".|
-|DimDate	|Year	|Year number. Example: "2021".|
-|DimQueue	|Queue id	|Queue id. Primary key. Type: Guid. |
+|DimDate	|Month	|Month name. Example: "Apr 2021"|
+|DimDate	|Quarter	|Quarter name. Example: "Q1"|
+|DimDate	|Week	|Week number. Example: "1"|
+|DimDate	|Year	|Year number. Example: "2021"|
+|DimQueue	|Queue id	|Queue id. Primary key. Type: Guid |
 |DimQueue|	Is omnichannel queue| Currently, it's always true.|
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id	|System user ID.| 

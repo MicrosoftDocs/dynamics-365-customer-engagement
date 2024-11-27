@@ -30,7 +30,7 @@ The key capabilities of model customization include the ability to:
 
 - Publish the customized report to a specific Microsoft Fabric workspace.
 
-- Customize the report site map and enable users to access the reports natively from Customer Service workspace.
+- Customize the report site map and enable users to access the reports natively from the Customer Service workspace.
 
 - Auto refresh reports as soon as source data is updated.
 
@@ -80,8 +80,8 @@ Before you begin, you must complete the following prerequisites:
 
  1. In the Customer Service admin center site map, select **Insights** in **Operations**.
  1. On the **Insights** page in the **Report settings** section:
-     1. For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
-     1. For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
+     - For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
+     - For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
  1. On the selected page, switch the **Enable embedded Power BI data model customization** toggle to **On**.
 
 ## Step 1: Select a Microsoft Fabric workspace

@@ -20,13 +20,13 @@ ms.custom: bap-template
 
 Data model customization helps you customize the out-of-the-box standard reports and add your own KPIs (key performance indicators) and custom metrics, so that you can use the data that's most relevant to your organization.
 
-As new features are added, metric definitions and calculations continually need to be updated to account for additional workflows that are enabled by new features. Using the out-of-the-box model and creating only those metrics that are unique to your organization reduces the risk of metric definitions becoming outdated.
+As new features are added, metric definitions and calculations continually need to be updated to account for additional workflows that are enabled by new features. Using the out-of-the-box model and creating only those metrics that are unique to your organization reduce the risk of metric definitions becoming outdated.
 
 ## What is data model customization?
 
 Dynamics 365 Customer Service provides a suite of out-of-the-box analytic dashboards that are built on Power BI. These analytic solutions provide industry standard KPIs and metrics that can help you monitor and improve the performance of your contact center. Power BI solutions deploy two components: a data model (sometimes referred as a dataset) and a report. The data model houses the KPIs, while reports help visualize this data for supervisors.  
 
-Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs, and makes these KPIs available for you within these data model, which also means they can't be edited.
+Every organization that has analytics enabled gets the analytics solution deployed and available only to them. Dynamics 365 leverages the data from Dataverse, performs transformation logic for each of the KPIs, and makes these KPIs available for you within these data models, which also means they can't be edited.
 
 However, the reports that are deployed for your organization can be edited and customized. With [visual customization](customize-reports.md), you can edit the reports to present the available data as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time, and makes it available for you in the data model. You can choose to edit and present this as a chart or a table as required, and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to leverage out-of-the-box metrics that aren't directly exposed, create new pivots, and analyze data with additional dimensions.
 
@@ -50,7 +50,7 @@ For the historical data model, the dataset connects to the Azure Data Lake that 
 
 By creating a local model within your workspace that connects to the Dynamics 365 data model, you can create new metrics while retaining all the out-of-the-box metrics, thus saving time and effort. You can add the Dynamics 365 data model to existing reports without having to rebuild them.
  
-By leveraging the model and not recreating metrics that are available in out-of-the-box model, you also ensure that the logic used to calculate these metrics always stay updated.
+By leveraging the model and not recreating metrics that are available in the out-of-the-box model, you also ensure that the logic used to calculate these metrics always stays updated.
   
 ## How data model customization works
 
@@ -60,9 +60,9 @@ Data model customization requires your organization to have a paid Power BI serv
 
 This workspace is provisioned and maintained by Dynamics 365 Customer Service. The Dynamics 365 datasets are deployed into this workspace.  
 
-- For real-time data model configuration, a workspace named **Omnichannel Managed Workspace_(GUID)** is created. The real-time data model is hosted within this workspace. It uses TDS connector to extract data from Dynamics 365 continually and to calculate real-time metrics.  
+- For real-time data model configuration, a workspace named **Omnichannel Managed Workspace_(GUID)** is created. The real-time data model is hosted within this workspace. It uses a TDS connector to extract data from Dynamics 365 continually and to calculate real-time metrics.  
 
-- For historical data model configuration, a workspace named **Customer Service Managed Workspace__(GUID)** is created. The historical data model is hosted in this workspace. This data model is refreshed daily with the latest data from the Azure Data Lake. Historical data from the last two years is processed daily and transformed into KPI stored in the data lake.
+- For historical data model configuration, a workspace named **Customer Service Managed Workspace__(GUID)** is created. The historical data model is hosted in this workspace. This data model is refreshed daily with the latest data from the Azure Data Lake. Historical data from the last two years is processed daily and transformed into KPIs stored in the data lake.
 
 > [!NOTE]
 > This single data model supports both case and conversation analytics. Knowledge analytics and unified routing analytics aren't available for customization.  
@@ -74,7 +74,7 @@ Each time the out-of-the-box data model is updated because of newer release vers
 
 ### Customer workspace
 
-A copy of the out-of-the-box reports are created in this workspace. During the configuration, you can either create a new workspace or can specify an existing workspace.
+A copy of the out-of-the-box reports are created in this workspace. During the configuration, you can either create a new workspace or specify an existing workspace.
 
 Depending on the features you've enabled, you may see up to three different reports created in the workspace you selected for historical data model customization and one report in the real-time data model customization.
 
