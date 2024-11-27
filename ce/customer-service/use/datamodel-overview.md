@@ -30,7 +30,7 @@ Every organization that has analytics enabled gets the analytics solution deploy
 
 However, the reports that are deployed for your organization can be edited and customized. With [visual customization](customize-reports.md), you can edit the reports to present the available data as per your organizational requirements. For example, Dynamics 365 reads all the required data, performs the logic required to calculate the average handle time, and makes it available for you in the data model. You can choose to edit and present this data as a chart or a table as required, and drill down to see the average handle time for a queue or user. Visual customizations also give you the ability to apply out-of-the-box metrics that aren't directly exposed, create new pivots, and analyze data with more dimensions.
 
-At times, you might have scenarios where you want to modify the data that's available in the dataset or the logic used to calculate the metrics in the dataset. The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. These scenarios are typically driven by processes that are unique to your organization.
+At times, you might have scenarios where you want to modify the data that's available in the dataset or the logic used to calculate the metrics in the dataset. The following section describes scenarios where you might need to modify the available data or the logic used to calculate the metrics in the dataset. Processes that are unique to your organization typically drive these scenarios.
 
 ### Scenario-based use cases
 
