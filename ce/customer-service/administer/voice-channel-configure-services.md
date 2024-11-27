@@ -93,7 +93,7 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
 
-Learn more about configuring call recording at [Configure call recording, transcription, and real-time translation](./voice-channel-configure-transcripts.md). To create a custom user role to provide access to call recordings, refer to [Manage personas and custom security roles in Customer Service](./role-persona-mapping.md).
+Learn more about configuring call recordings at [Configure call recording, transcription, and real-time translation](./voice-channel-configure-transcripts.md). To create custom user roles for providing access to call recordings, refer to [Manage personas and custom security roles in Customer Service](./role-persona-mapping.md).
 
 
 ## Set up SMS webhook
