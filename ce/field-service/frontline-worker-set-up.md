@@ -1,5 +1,5 @@
 ---
-title: Set up frontline workers in your organization (contains video)
+title: Set up frontline workers in your organization
 description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page.
 ms.author: jacoh
 author: jasonccohen
