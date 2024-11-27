@@ -53,6 +53,8 @@ Copilot can help you stay on top of your assignments by listing the accounts, le
 
 Copilot lists the records that meet the conditions. Hover over a record in the list and select **Summarize** to view the record summary.
 
+<a name="get-recent-changes"></a>
+
 ## Get recent changes
 
 Copilot can help you catch up on any updates to your account, lead, or opportunity records in the last seven days or since you last signed in.
