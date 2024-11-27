@@ -10,7 +10,7 @@ ms.date: 11/27/2024
 ms.custom: bap-template
 ---
 
-# Backlog conversation
+# View and understand the Backlog conversation report in Omnichannel real-time analytics
 
 The Backlog conversations report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs.
 
