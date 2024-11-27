@@ -17,7 +17,7 @@ You can configure the custom record summary feature to create summaries for work
 - Select from a list of existing record types, including account, work orders, and tickets, to generate summaries.
 - Define in natural language what the record type is so that AI can leverage the information to create better summaries.
 - Select specific data fields to include in the summary and also describe these fields in natural language.
-- Allow service representatives to access these summaries on demand to help ensure accuracy and relevancy in their communications.
+- Allow service representatives to access these summaries on demand from the relevant form to help ensure accuracy and relevancy in their communications.
 
 ## Configure the custom record summary
 
@@ -30,8 +30,30 @@ You can configure the custom record summary feature to create summaries for work
    > [!Note]
    > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections.
 1. Select **Save and close**.
-1. Return to the record and refresh the view. The **Account summary** regenerates and shows the specified data.
 
-## Related information
+## Configure the summary control on the custom entity form
+
+By default, if you enable the Copilot custom record summary feature, service representatives don't see it on their record types until you customize it. Complete the following steps to configure the application so that it displays the custom record summary on your forms.
+
+1. In [Power Apps](https://make.powerapps.com/), add the **msdyn_CopilotCaseSummaryLibrary.js** web resource to your solution. For more information, refer to [Add a web resource to a solution](). 
+1. Select **Add existing** > **More** > **Developer** > **Custom Control**. 
+1. Search for and add the **mscrmcontrols.csintelligence.copilotcasesummarycontrol** custom control. 
+1. Select **Tables**, and then select the record type where you want to configure the custom record summary, and then select **Forms**. 
+1. Create a new form or use an existing form. For more information, refer to [Create, edit, or configure forms using the model-driven form designer]{../power-apps/maker/model-driven-apps/create-and-edit-forms). 
+1. In the form designer, select **Components** from the site map, and then select **CopilotCaseSummaryControl** and drag it on to the form.
+1. Set the values of the fields as follows:
+   - CC_CaseSummary: Any unused string column. Copy the unique name of the specified column.
+   - CC_IndentID: Case (text)
+1. Save and publish the customizations.
+
+You must also configure the following settings to maek sure that the Copilot summary doesn't load on the form when the custom record summary isn't enabled or the agent experience profile linked to the service representative doesn't have Copilot enabled.
+
+1. In Power Apps, add the event handler function for the **On Change** event. For more information, refer to [Add or remove event handler function to even using UI]().
+1. Specify the following details in **Configure Event**:
+   - Set the **Event Type** to **On load**.
+   - Set the **Library** to **msdyn_CopilotCaseSummaryLibrary.js**.
+   - In **Function**, specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary**.
+   - Select **Pass execution content as first parameter** and specify the unique name of the table column value that you provided in **CC_CaseSummary**, enclosed in quotations.
+   - Add a comma, and provide the **Developer Summary ID** that was generated when the custom record summary was set up in Customer Service admin center.
 
 
