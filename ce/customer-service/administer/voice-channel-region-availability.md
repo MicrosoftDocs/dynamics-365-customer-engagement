@@ -56,7 +56,7 @@ If you need your data to stay within a region, the following table lists the loc
 |Singapore|To be announced | To be announced|To be announced|
 
 > [!NOTE]
-> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
+> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region. There is no BCDR failover for a number of services in UAE.
 >
 > **<sup> 2</sup>** The geographic location won't have Copilot Studio support.
 
