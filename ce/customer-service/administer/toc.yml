@@ -190,7 +190,7 @@
         href: add-enhanced-case-management.md
       - name: Enable enhanced case forms for multisession apps
         href: case-enh-config.md
-      - name: Add Power Apps components to Case Management forms
+      - name: Add Power Apps components to case management forms
         href: case-powerapps-comp.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
