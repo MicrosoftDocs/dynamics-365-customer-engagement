@@ -1,5 +1,5 @@
 ---
-title: Configure agent forecasting for conversation
+title: Configure agent forecasting for conversations
 description: Learn how to configure agent forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
 ms.date: 11/28/2024
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure agent forecasting for conversation
+# Configure agent forecasting for conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
