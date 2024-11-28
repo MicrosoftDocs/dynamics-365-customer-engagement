@@ -36,7 +36,7 @@ For information about older versions, see [Version history archive](version-hist
 (Includes Universal Resource Scheduling version [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) and Resource Scheduling controls version 1.2.84.243184)
 
 - Discount % and discount amount fields will now be hidden when the Field Service and Finance and Operations integration is enabled. These fields have no impact on journals in Finance and Operations apps.
-- Bug fixes and enhancements for [Copilot Summary and Summary Configuration](https://learn.microsoft.com/dynamics365/field-service/work-order-recap).
+- Bug fixes and enhancements for [Copilot summary and summary configuration](work-order-recap.md).
 
 ## 8.8.129.177
 
