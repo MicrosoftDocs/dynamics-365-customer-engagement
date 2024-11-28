@@ -1,11 +1,12 @@
 ---
-title: "Configure Microsoft Teams collaboration | MicrosoftDocs"
-description: "Learn how to configure collaboration with Microsoft Teams in Customer Service."
-ms.date: 06/21/2024
-ms.topic: article
+title: Configure Microsoft Teams collaboration
+description: Learn how to configure collaboration with Microsoft Teams in Customer Service.
+ms.date: 11/29/2024
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
 ms.collection: bap-ai-copilot
+ms.custom: bap-template
 ---
 
 # Configure AI suggestions for contacts in Microsoft Teams
@@ -18,7 +19,13 @@ This feature uses the AI capability to automatically suggest contacts in real-ti
 
 > [!NOTE]
 > - Case is applicable to Customer Service only.
-> -  Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+> - Through Teams, agents can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+
+## Prerequisites
+
+- AI suggestions for similar cases must be enabled. More information: [Enable AI suggestions for similar cases](csw-enable-ai-suggested-cases-knowledge-articles.md)
+
+- Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
 ## How AI-suggested contacts works
 
@@ -36,43 +43,25 @@ AI-suggested contacts works with a set of out-of-the-box AI models, so that admi
 
 For more information about similar case suggestions that impact the AI-suggested contacts, see [How AI suggestions for similar cases and knowledge articles work](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
 
-## Regional availability and supported languages
+## Region availability and supported languages
 
-The AI suggestions are supported in geographical locations that AI suggestions for similar cases supports. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md)
-
-The AI suggestions feature is supported in the following languages:
-
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Spanish
-
-## Prerequisites
-
-- AI suggestions for similar cases must be enabled. More information: [Enable AI suggestions for similar cases](csw-enable-ai-suggested-cases-knowledge-articles.md)
-
-- Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
+The AI suggestions are supported in geographical locations that AI suggestions for similar cases supports. Learn more about supported regions and languages in [Region availability and service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## Enable collaboration with Microsoft Teams
 
+Perform the following steps:
 
-**To enable collaboration with Microsoft Teams and chat**
-
-1. In the site map of Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
+1. In the site map of Contact Center admin center or Customer Service admin center, go to **Agent experience** > **Collaboration**.
     
 1. In **Embedded chat using Teams**, select **Manage**.
-   
 
 1. On the **Microsoft Teams collaboration and chat**, set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 
 1. To get suggested contacts for active cases or supported conversations, perform the following steps:
    
-   1. In **Connect chat to Dynamics 365 records**, select **Case** or **Conversation**. Based on your selection, the **Case settings** or **Conversation settings** pane appears on the right.
+   1. In **Connect Teams chat to Dynamics 365 records**, select **Case** or **Conversation**. Based on your selection, the **Case settings** or **Conversation settings** pane appears on the right.
 
-   2. In **Suggest contacts**, turn on the toggle for **AI-based suggested contacts**.
+   1. In **Suggest contacts**, turn on the toggle for **AI-based suggested contacts**.
 
     It takes 24 hours for the data to be preprocessed for the first time use.
 
