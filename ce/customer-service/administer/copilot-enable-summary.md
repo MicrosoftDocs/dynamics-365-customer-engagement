@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: neeranelli
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/07/2024
+ms.date: 11/28/2024
 ms.custom: bap-template 
 ---
 
@@ -23,14 +23,14 @@ Case summaries help agents understand the context of a case, enabling them to re
 > - A minimum of 50 [tokens](https://platform.openai.com/docs/introduction) are required to generate a case summary. 50 tokens translate to approximately 38 words in English, without counting spaces. Therefore, you'll need a minimum of 38 English words specified across the case fields that copilot uses to generate the case summary.
 > - Bot conversations aren't automatically included in the conversation summary.
  
-1. In Customer Service admin center, select **Make Copilot available to agents** in **Copilot help pane** for Copilot case summaries to be available.
+1. In Customer Service admin center, select **Ask a question** in **Copilot for questions and emails** for Copilot case summaries to be available.
 1. Use one of the following navigation options: 
     - **Agent Experience** > **Productivity** > **Summaries**
     - **Operations** > **Insights** > **Summaries**
 1. Select **Manage** in **Summaries**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
 1. Select **Manage data** to [modify the source case fields that Copilot uses to generate case summaries](copilot-map-custom-fields.md). 
-1. If you want Copilot to exclude emails from specific email addresses when generating responses, select **Add email address**. You can specify up to 10 email addresses. For example, you might not want to include automatic notification emails in your case summary. You can add the email address and Copilot won't use those emails to generate case summaries.<br>
+1. Select **Specify information to exclude** to add email addresses and text that you want Copilot to exclude when generating responses. You can specify up to 10 email addresses and three disclaimers, headers, or footers within the email that you want Copilot to ignore. For example, you might not want to include automatic notification emails in your case summary. You can add the email address and Copilot won't use those emails to generate case summaries.<br>
 
 Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms. 
 
