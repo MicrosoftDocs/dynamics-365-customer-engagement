@@ -43,13 +43,13 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
 |DimDate	|Date time	|Date time. The type is Date/Time. |
-|DimDate	|Day | Day name. Example: "Fri". |
-|DimDate	|Year	| Year number. Example: "2021". |
-|DimDate	|Week	| Week number. Example: "1". |
+|DimDate	|Day | Day name. Example: "Fri" |
+|DimDate	|Year	| Year number. Example: "2021" |
+|DimDate	|Week	| Week number. Example: "1" |
 |DimDate	|Month	| Month name. Example: "Apr 2021"|
-|DimDate	|Quarter	| Quarter name. Example: "Q1". |
+|DimDate	|Quarter	| Quarter name. Example: "Q1" |
 |DimDate	|Hour	| Hour. Example: "01:00", "01:30" |
-|FactCase	|Incident id	|Incident id, Primary key. Type: Guid.|
+|FactCase	|Incident id	|Incident id, Primary key. Type: Guid|
 |FactCase	|Case number	|Case number value. |
 |FactCase	|Queue id	|Queue id. Foreign key to DimQueue. |
 |FactCase	|Owner system user id	|Owner system user id. Foreign key to DimSystemUser. |
@@ -67,7 +67,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	|Escalated rate	|Rate that escalated cases divided by total cases. |
 |FactCase	|Case volume	|Total case count per topic divided by total cases. |
 |FactCase	|Case volume change	|Total case count link relative ratio for the same date range filter.|
-|FactCase	|Avg. resolve time (hrs|	Average time for case handle time. |
+|FactCase	|Avg. resolve time (hrs)|	Average time for case handle time. |
 |FactCase |	Avg. case age (days)	|Average case age |
 |FactCase	|First response - SLA %	|Total cases when first response sent is false divided by total cases. |
 |FactCase	|Avg. CSAT |	Average CSAT score. |
@@ -79,12 +79,12 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimSystemUser	|Agent	|Name of the agent. |
 |DimSystemUser	|System user id |System user ID. | 
 |DimCaseProperty	|Case status	|Case status value, Example: Active, Canceled, Resolved. |
-|DimCaseProperty	|Case priority	|Case priority value, Example: Low, High, Normal. |
+|DimCaseProperty	|Case priority	|Case priority value. Example: Low, High, Normal. |
 |DimCaseProperty	|Channel	|Case channel.|
-|DimCaseProperty	|Case age	| Description for case age, Example: 4-7 Days, <1 Day, 1-3 Days|
+|DimCaseProperty	|Case age	| Description for case age. Example: 4-7 Days, <1 Day, 1-3 Days|
 |DimCaseProperty	|Case property id	|Case property ID. Primary key. |
 |DimTopic	|Topic	|Topic name. |
-|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid. |
+|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid |
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00 |
 
 ## Omnichannel analytics
@@ -115,12 +115,12 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimConversationProperty	|Channel |	Channel name. The name of the channel that the conversation came through. |
 |DimConversationProperty|Conversation status |The status of the conversation. That is, open, active, waiting, wrap up, and closed. |
 |DimDate |	Date time	|Date and time. The type is Date/Time. |
-|DimDate |	Day	|Day name. Example: "Fri".|
+|DimDate |	Day	|Day name. Example: "Fri"|
 |DimDate |	Hour	|Hour. Example: "01:00", "01:30"|
-|DimDate	|Month	|Month name. Example: "Apr 2021".|
-|DimDate	|Quarter	|Quarter name. Example: "Q1". |
-|DimDate |Week	|Week number. Example: "1". |
-|DimDate	|Year	|Year number. Example: "2021". |
+|DimDate	|Month	|Month name. Example: "Apr 2021"|
+|DimDate	|Quarter	|Quarter name. Example: "Q1" |
+|DimDate |Week	|Week number. Example: "1" |
+|DimDate	|Year	|Year number. Example: "2021" |
 |DimQueue	|Queue id	|Queue ID. Primary key of type GUID. |
 |DimQueue	|Is omnichannel queue |Whether the queue is an omnichannel queue. Currently, it's always true. |
 |DimQueue	|Queue	|Queue name.|
@@ -147,13 +147,13 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactConversation	|Owner system user id|	Owner system user ID. Foreign key to DimSystemUser.|
 |FactConversation	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactConversation	|Topic id	|Topic ID. Foreign key to DimTopic. |
-|FactConversation	|Is offered	|Whether the conversation is initiated by the customer. Bot escalates to an agent or an agent handling customer call directly. |
+|FactConversation	|Is offered	|Whether the customer initiated the conversation. Bot escalates to an agent or an agent handles customer call directly. |
 |FactConversation	|Is conversation date in past	|Is conversation data in past. |
 |FactConversation|	Is outbound	|Is outbound conversation. |
 |FactConversation	|Abandon rate	|Abandon rate.|
 |FactConversation	|Avg. conversation hold time (min)|	The total time an agent has put a customer on hold.|
 |FactConversation	|Avg. conversation sentiment|	Average conversation sentiment. |
-|FactConversation	|Avg. conversation talk time (min)	|The total time spent by the customer and agent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time.|
+|FactConversation	|Avg. conversation talk time (min)	|The total time the customer and agent spent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time.|
 |FactConversation	|Avg. conversation time (min)|	Average conversation time (min).|
 |FactConversation	|Avg. conversation wrap-up time (min)	|Average conversation wrap-up time (min).|
 |FactConversation	|Avg. CSAT	|Avg. CSAT.|
@@ -162,7 +162,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactConversation	|Conversation volume change|	Conversation volume change.|
 |FactConversation	|Created on	|Date created on. |
 |FactConversation	|Closed on	|Date closed on.|
-|FactConversation	|Engaged conversations	|Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.|
+|FactConversation	|Engaged conversations	|Offered conversations that an agent engages. Customer-to-agent communication can begin at this point.|
 |FactConversation	|Incoming conversations	|The number of incoming conversations.|
 |FactConversation	|Outgoing conversations	|The number of outgoing conversations.|
 |FactConversation	|Total conversations |The number of total conversations. |
@@ -211,7 +211,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSession	|Avg. wait time (min) |	The average time in minutes customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.|
 |FactSession	|Avg. wait time (sec)	|The average time in seconds customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.|
 |FactSession	|Engaged conversations	|The conversations that the agent was engaged in. Customer-to-agent communication can begin at this point. |
-|FactSession	|Engaged sessions	| Number of sessions presented to an agent and accepted by an agent. |
+|FactSession	|Engaged sessions	| Number of sessions presented to an agent where the agent accepts. |
 |FactSession	|Incoming conversations	|Incoming conversations. |
 |FactSession	|Incoming messages	|Incoming messages. |
 |FactSession	|Incoming sessions	|Incoming sessions. |
@@ -220,25 +220,25 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSession	|Sentiment zone	|Sentiment zone. |
 |FactSession	|Session rejected/timed out rate|	Session rejected/timed out rate. |
 |FactSession	|Sessions rejected	|Sessions rejected. |
-|FactSession	|Transfer rate	|The number of sessions transferred by an agent. |
-|FactSession	|Bot conversations	|The number of conversations handled by bot. |
-|FactSession	|Bot escalation rate	|The percentage of bot conversations that have been escalated.|
-|FactSession	|Bot resolution rate	|The percentage of bot conversations that have been resolved. |  
+|FactSession	|Transfer rate	|The number of sessions an agent transfers. |
+|FactSession	|Bot conversations	|The number of conversations a bot handles. |
+|FactSession	|Bot escalation rate	|The percentage of escalated bot conversations.|
+|FactSession	|Bot resolution rate	|The percentage of resolved bot conversations. |  
 |FactSession	|Bot escalation time (min)	|The average session time of the escalated bot sessions. |
 |FactSession	|Bot resolution time (min)	|The average session time of the resolved bot sessions. |
-|FactSession	|Bot abandoned rate	|The percentage of bot conversations that have been abandoned.|
-|FactSession	|Sessions rejected rate	|The percentage of sessions that have been rejected. |
+|FactSession	|Bot abandoned rate	|The percentage of abandoned bot conversations.|
+|FactSession	|Sessions rejected rate	|The percentage of rejected sessions. |
 |FactSession	|Sessions timeout rate	|The percentage of sessions that timed out. |
 |FactSession	|Sessions timed out count	|Session count when agent is timeout. |
-|FactSession	|Bot escalated	| Number of bot conversations that have been escalated. |
-|FactSession	|Bot resolved	| Number of bot conversations that have been resolved. |
-|FactSession	|Transfer count |Number of sessions that have been transferred (closure reason in 192350006 or 192350010).
+|FactSession	|Bot escalated	| Number of escalated bot conversations. |
+|FactSession	|Bot resolved	| Number of bot resolved conversations. |
+|FactSession	|Transfer count |Number of transferred sessions (closure reason in 192350006 or 192350010).
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record.|
 |FactSessionParticipant	|Session id	|Session ID. Foreign key to FactSession.|
 |FactSessionParticipant	|Avg. consult time (min)	|The time spent on the consult from when the agent joined to when they left in session participant. |
 |FactSessionParticipant	|Avg. monitor time (min)	|The time spent on the monitor from when the agent joined to when they left in session participant. |
-|FactSessionParticipant	|Consult sessions	|The number of sessions accepted by a user in mode = consult.|
-|FactSessionParticipant	|Monitor sessions	|The number of sessions accepted by a user in mode = monitor.|
+|FactSessionParticipant	|Consult sessions	|The number of sessions a user accepts in mode = consult.|
+|FactSessionParticipant	|Monitor sessions	|The number of sessions a user accepts in mode = monitor.|
 
 
 ## Omnichannel voice analytics
@@ -262,13 +262,13 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |DimConversationProperty	|Channel name. |The name of the channel that the conversation came through.|
 |DimConversationProperty	|Conversation status	|The status of the conversation, that is, open, active, waiting, wrap up, and closed.|
 |DimDate	|Date time	|Date time. The type is Date/Time. |
-|DimDate	|Day	|Day name. Example: "Fri".|
+|DimDate	|Day	|Day name. Example: "Fri"|
 |DimDate	|Hour	|Hour. Example: "01:00", "01:30"|
-|DimDate	|Month	|Month name. Example: "Apr 2021".|
-|DimDate	|Quarter	|Quarter name. Example: "Q1".|
-|DimDate	|Week	|Week number. Example: "1".|
-|DimDate	|Year	|Year number. Example: "2021".|
-|DimQueue	|Queue id	|Queue id. Primary key. Type: Guid. |
+|DimDate	|Month	|Month name. Example: "Apr 2021"|
+|DimDate	|Quarter	|Quarter name. Example: "Q1"|
+|DimDate	|Week	|Week number. Example: "1"|
+|DimDate	|Year	|Year number. Example: "2021"|
+|DimQueue	|Queue id	|Queue id. Primary key. Type: Guid |
 |DimQueue|	Is omnichannel queue| Currently, it's always true.|
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id	|System user ID.| 
@@ -293,13 +293,13 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactConversation|	Owner system user id	|Owner system user ID. Foreign key to DimSystemUser.|
 |FactConversation	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactConversation	|Topic id	|Topic ID. Foreign key to DimTopic.|
-|FactConversation	|Is offered	|It means whether the conversation is initiated by the customer. Bot escalates to an agent or an agent handling customer call directly|
+|FactConversation	|Is offered	|It means whether the customer initiates the conversation. Bot escalates to an agent or an agent handling customer call directly|
 |FactConversation	|Is conversation date in past	|Is conversation date in past. |
 |FactConversation	|Is outbound	|Is outbound conversation. |
 |FactConversation|	Abandon rate	|Abandon rate.|
-|FactConversation	|Avg. conversation hold time (min)	|The total time an agent has put a customer on hold.|
+|FactConversation	|Avg. conversation hold time (min)	|The total time an agent put a customer on hold.|
 |FactConversation	|Avg. conversation sentiment|	Avg. conversation sentiment.|
-|FactConversation	|Avg. conversation talk time (min)	|The total time spent by the customer and agent talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time.|
+|FactConversation	|Avg. conversation talk time (min)	|The total time a customer and agent spend talking on the voice call. It’s the difference between the handle time and cumulative time in hold and after call work time.|
 |FactConversation	|Avg. conversation time (min)	|Avg. conversation time (min).|
 |FactConversation	|Avg. conversation wrap-up time (min)	|Avg. conversation wrap-up time (min).|
 |FactConversation	|Avg. CSAT	|Avg. CSAT.|
@@ -308,18 +308,18 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactConversation	|Conversation volume change	|Conversation volume change.|
 |FactConversation	|Created on|	Date created on. |
 |FactConversation|	Closed on|	Date closed on.|
-|FactConversation	|Engaged conversations	|Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.|
+|FactConversation	|Engaged conversations	|Offered conversations that an agent engages. Customer-to-agent communication can begin at this point.|
 |FactConversation	|Incoming conversations|	The number of incoming conversations.|
 |FactConversation|	Outgoing conversations|	The number of outgoing conversations.|
 |FactConversation|	Total conversations	|The number of total conversations.|
 |FactConversation	|Transfer rate	|The percentage of conversations that are transferred to another agent/queue.|
 |FactVoiceConversationInsights	|Conversation id	|Conversation ID. Foreign key to FactConversation.|
 |FactVoiceConversationInsights	|System user id	|System user ID. Foreign key to DimSystemUser.|
-|FactVoiceConversationInsights	|Longest Customer Monologue (sec)	|The longest monologue by the customer with an agent; indicates that the agent is asking good questions and understanding customer needs.|
+|FactVoiceConversationInsights	|Longest Customer Monologue (sec)	|The longest customer monologue with an agent; indicates that the agent is asking good questions and understanding customer needs.|
 |FactVoiceConversationInsights	|Pause Before Speaking (sec)	|The milliseconds the agent paused before responding to customer queries; indicates agent's patience.|
 |FactVoiceConversationInsights	|Switches per conversation	|The average exchanges between an agent and a customer in a conversation; the number of times the conversation switched from one person to another. It's a sign of engagement during conversations.|
-|FactVoiceConversationInsights	|Talk to listen ratio	|The average listen and talk ratio of agent in conversations with customers.|
-|FactVoiceConversationInsights	|Talking Speed (WPM)	|The average number of words used per minute by agent.|
+|FactVoiceConversationInsights	|Talk to listen ratio	|The agent's average listen and talk ratio in conversations with customers.|
+|FactVoiceConversationInsights	|Talking Speed (WPM)	|The average number of words the agent uses per minute.|
 |FactSession	|Session id	|Identifier of the session record.|
 |FactSession	|Conversation id	|Identifier of the conversation record.| 
 |FactSession	|Conversation title	|Conversation title.|
@@ -349,7 +349,7 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactSession	|Avg. wait time (min)	|The average time in minutes customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.|
 |FactSession	|Avg. wait time (sec)	|The average time in seconds customers waited before connecting to agents. Similar to "speed to answer", but includes time waited on each session within a conversation.|
 |FactSession	|Engaged conversations	|The conversations that the agent was engaged in. Customer-to-agent communication can begin at this point.|
-|FactSession	|Engaged sessions	|Sessions presented to an agent and accepted by an agent|
+|FactSession	|Engaged sessions	|Sessions presented to an agent that the agent accepts.|
 |FactSession	|Incoming conversations	|Incoming conversations|
 |FactSession	|Incoming messages	|Incoming messages|
 |FactSession	|Incoming sessions	|Incoming sessions|
@@ -358,13 +358,13 @@ FactSession	|Avg. Speed to answer (sec)	|Average Speed to answer (sec)|
 |FactSession	|Sentiment zone	|SentimentZone|
 |FactSession	|Session rejected/timed out rate	|Session rejected or timed out rate|
 |FactSession	|Sessions rejected	|Sessions rejected|
-|FactSession	|Transfer rate	|The number of sessions transferred by an agent|
+|FactSession	|Transfer rate	|The number of sessions the agent transfers|
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record|
 |FactSessionParticipant	|Session id	|Session ID. Foreign key to FactSession.|
 |FactSessionParticipant	|Avg. consult time (min)	|The time spent on the consult from when the agent joined to when they left in session participant.|
 |FactSessionParticipant	|Avg. monitor time (min)	|The time spent on the monitor from when the agent joined to when they left in session participant.|
-|FactSessionParticipant	|Consult sessions	|The number of sessions accepted by a user in mode = consult.|
-|FactSessionParticipant	|Monitor sessions	|The number of sessions accepted by a user in mode = monitor.|
+|FactSessionParticipant	|Consult sessions	|The number of sessions a user accepted in mode = consult.|
+|FactSessionParticipant	|Monitor sessions	|The number of sessions a user accepted in mode = monitor.|
 
 ## Voice mail analytics
 
@@ -394,7 +394,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file
 Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edit the following reports:
 
 - Summary
-- Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics will be replaced with this enhanced bot page when you turn on the **Add historical analytics for bots** option in Omnichannel historical analytics). 
+- Bot (the Bot in Dynamic_365_Customer_Service_Omnichannel_analytics are replaced with this enhanced bot page when you turn on the **Add historical analytics for bots** option in Omnichannel historical analytics). 
 
 ### Data model
 
@@ -413,8 +413,8 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactCustomerSupportJourney	|Topic ID	| Topic ID. Foreign key to DimTopic. |
 |	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of bot and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".
 |FactBotSession	|Abandoned session rate| Abandon rate |
-|FactBotSession	|Avg. escalation time (min)	| The time required by the bot to escalate. |
-|FactBotSession|Avg. deflection time (min)	|The time required by the bot deflect.|
+|FactBotSession	|Avg. escalation time (min)	| The time the bot required to escalate. |
+|FactBotSession|Avg. deflection time (min)	|The time required by the bot to deflect.|
 |FactBotSession	|Bot CSAT| CSAT score for bot at an average. |
 |FactBotSession	|Bot Id	| Bot ID, PK to Dimbot |
 |FactBotSession|Bot session ID	|Bot session ID, PK|
@@ -427,7 +427,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactBotSession|Bot deflection rate	|The rate at which the  conversations were deflected. |
 |FactBotSession|Engaged sessions rate	|The engagement rate of bot sessions. |
 |FactBotSession|Bot escalated topic|The escalated topic of bot conversations. |
-|FactBotSession|Bot escalation rate|The rate at which the conversations were escalated by the bot. |
+|FactBotSession|Bot escalation rate|The rate at which the bot escalated the conversations. |
 |FactBotSession|Escalated sessions rate	|Escalation rate based on bot sessions. |
 |FactBotSession|Is bot engaged	|Indicate if the bot is engaged in this session. |
 |FactBotSession|Conversation queue id	|Queue ID. Foreign key to DimQueue. |
