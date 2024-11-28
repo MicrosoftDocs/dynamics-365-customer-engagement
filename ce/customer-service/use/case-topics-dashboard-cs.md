@@ -59,12 +59,12 @@ The topics dashboard report shows the following KPIs.
 
 | KPI     | Description     |
 |------------|--------------|
-| Total cases   |  The number of cases created to support customers.     |
+| Incoming cases   |  The number of cases created to support customers.     |
 | Active cases  |  The number of cases that are currently open.      |
 | Escalated rate   | The percentage of cases that have been escalated.     |
 | Avg. resolve time (hrs)   | The average time an agent took to resolve the case.   |
+| SLA compliance | The percentage of cases that met the defined SLA.|
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
-| Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
 
 The topic metrics chart shows the following metrics:
@@ -74,9 +74,9 @@ The topic metrics chart shows the following metrics:
 | Total cases |  The number of cases created to support customers.    |
 | Occurrence by topic   | Percentage of cases classified to each given topic.   |
 | Average resolution time  | Month over month trend of case resolution time in minutes.   |
-| Average CSAT    | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
+| Average CSAT    | The average customer satisfaction score based on Customer Voice survey submitted by the customer.   |
 | CSAT impact     | The amount that the given topic is driving the overall CSAT trend for the organization.     |
-| Avg. survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.      |
+| Avg. survey sentiment   | The average sentiment score based on Customer Voice survey written feedback submitted by the customer.      |
 | Survey sentiment impact    | The amount that the given topic is driving the overall sentiment trend for the organization.     |
 
 ### Case topics drill-down view
