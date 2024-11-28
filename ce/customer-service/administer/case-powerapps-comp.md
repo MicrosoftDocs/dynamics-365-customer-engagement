@@ -1,6 +1,6 @@
 ---
-title: Add Power Apps components to Case Management forms 
-description: Learn about adding the applicable Power Apps components to Case Management forms.
+title: Add Power Apps components to case management forms 
+description: Learn about adding the applicable Power Apps components to case management forms.
 author: gandhamm 
 ms.author: v-slaik
 ms.reviewer: neeranelli 
@@ -9,7 +9,7 @@ ms.date: 11/20/2024
 ms.custom: bap-template 
 ---
 
-# Add Power Apps components to Case Management forms
+# Add Power Apps components to case management forms
 
 You can use a collection of Power Apps components to customize your case management forms and add additional functionalities that the agents can use when handling cases in the Customer Service workspace. Using additional components to the case forms helps the agents to view and manage open activities, and keep a track of the time spent on each case. This enhances agent productivity by enabling them to work cases effectively.
 
