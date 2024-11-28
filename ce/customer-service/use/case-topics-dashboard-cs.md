@@ -1,8 +1,8 @@
 ---
-title: Topics Dashboard | Microsoft Docs
+title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
-ms.date: 06/20/2023
-ms.topic: article
+ms.date: 11/28/2024
+ms.topic: concept
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
@@ -25,19 +25,19 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Topics dashboard
 
-The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases to help you better understand how different case types and topic areas are impacting your organization’s support performance.
+The Topics dashboard shows a detailed breakdown of cases and their assigned topics. Customer Service Insights uses AI-generated topics and natural language understanding to automatically group your cases which helps you understand how different case types and topic areas affect your organization’s support performance.
 
 ![Topics dashboard.](../media/topics-dashboard-analytics-cs.png "Topics dashboard")
 
-To view the Topics dashboard, go to customer service historical analytics and select **Topics** at the top of the workspace. 
+To view the Topics dashboard, go to Customer Service historical analytics and select the **Topics** tab.
 
 ### Access the Topics dashboard
 
 In the Customer Service workspace app, do one of the following to view the dashboard:
 
-- In the default view, select the plus (+) icon, and then select Customer Service historical analytics.
+- In the default view, select the plus (+) icon, and then select **Customer Service historical analytics**.
 
-- If the enhanced multisession workspace view is enabled, select the site map and then select Customer Service historical analytics.
+- If the enhanced multisession workspace view is enabled, select the site map and then select **Customer Service historical analytics**.
 
 On the page that appears, select the dashboard.
 
@@ -45,29 +45,29 @@ On the page that appears, select the dashboard.
 
 ![Topics Key insights discovery card.](../media/topics-key-insights-card.png "Topics Key insights discovered card")
 
-The Key insights discovered card has three areas:
+The **Key insights discovered** card has three areas:
 
-- Topics to watch
-- Topics impacting CSAT
 - Topics impacting resolution time
+- Topics impacting CSAT
+- Topics impacting survey sentiment
 
 ## Report details
 
-The key performance indicator (KPI) summary charts summarize the KPIs for the specified time period and the percentage of change over the period. You can filter these areas by duration, channel, queue, and agent.
+The key performance indicators (KPIs) summary charts summarize the KPIs for the specified time period and the percentage of change over the period. You can filter these areas by duration, channel, queue, and agent.
 
-The topics dashboard report has the following KPIs.
+The topics dashboard report shows the following KPIs.
 
 | KPI     | Description     |
 |------------|--------------|
 | Total cases   |  The number of cases created to support customers.     |
-| Active cases  |  The number of cases that are currently opened.      |
+| Active cases  |  The number of cases that are currently open.      |
 | Escalated rate   | The percentage of cases that have been escalated.     |
 | Avg. resolve time (hrs)   | The average time an agent took to resolve the case.   |
 | Average CSAT    | The average customer satisfaction score, based on written feedback submitted by the customer in the Customer Voice survey.   |
 | Average sentiment    |  The average sentiment score, based on written feedback submitted by the customer in the Customer Voice survey.    |
 
 
-The topic metrics chart has the following metrics displayed:
+The topic metrics chart shows the following metrics:
 
 | Chart     | Description     |
 |------------|--------------|
