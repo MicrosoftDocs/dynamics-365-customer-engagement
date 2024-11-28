@@ -3,7 +3,7 @@ title: View and understand the Summary report in Omnichannel real-time analytics
 description: View and understand the Summary report in Omnichannel real-time analytics to analyze customer conversations, sentiment, and operational metrics.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 10/19/2023

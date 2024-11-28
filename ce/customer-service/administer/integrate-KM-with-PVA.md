@@ -5,6 +5,7 @@ ms.date: 01/19/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ---
 
 # Integrate knowledge management in Dynamics 365 with Copilot Studio bots

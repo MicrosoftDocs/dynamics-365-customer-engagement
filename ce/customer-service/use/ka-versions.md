@@ -3,7 +3,7 @@ title: Create and manage article versions
 description: Learn how to create, manage, review, and publish versions of your knowledge articles.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 01/23/2023
 ms.custom: bap-template

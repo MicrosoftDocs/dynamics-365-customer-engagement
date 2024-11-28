@@ -3,7 +3,7 @@ title: Enable summarization of cases and conversations
 description: Learn how to enable summarization of cases and conversations using Copilot in Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.date: 11/28/2024

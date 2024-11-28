@@ -3,6 +3,7 @@ title: Set up inbound calling for the voice channel
 description: Learn about how to set up workstreams and queues for inbound calling in the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 06/14/2024
 ms.topic: how-to
 ms.custom: bap-template 
