@@ -3,6 +3,7 @@ title: Use Omnichannel connector macros
 description: Learn about using Omnichannel connector to create macros.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 04/08/2024

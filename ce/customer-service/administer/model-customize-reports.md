@@ -5,7 +5,7 @@ ms.date: 11/04/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 

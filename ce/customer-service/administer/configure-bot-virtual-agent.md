@@ -5,7 +5,7 @@ ms.date: 11/28/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---

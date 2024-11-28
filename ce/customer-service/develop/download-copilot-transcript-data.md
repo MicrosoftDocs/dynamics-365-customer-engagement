@@ -3,6 +3,7 @@ title: Download Copilot transcripts
 description: Download Copilot transcripts to review agent interactions and responses. 
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.date: 07/26/2024

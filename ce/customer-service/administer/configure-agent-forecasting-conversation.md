@@ -5,7 +5,7 @@ ms.date: 02/23/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: lalexms
+ms.reviewer: laalexan
 ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin

@@ -3,7 +3,7 @@ title: Overview of SMS channels
 description: Learn more about SMS channels and how to configure them so that service representatives can better assist their customers. 
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim 
+ms.reviewer: mgandham
 ms.topic: overview 
 ms.date: 10/09/2024
 ms.custom: bap-template 

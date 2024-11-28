@@ -5,6 +5,7 @@ ms.date: 11/28/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin

@@ -4,6 +4,7 @@ description: Demonstrates how you can use the Dynamics 365 Channel Integration F
 ms.date: 03/21/2024
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.custom: 
   - "dyn365-a11y"

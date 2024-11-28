@@ -5,10 +5,12 @@ ms.date: 11/28/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
+search.audienceType: 
+  - admin
 ms.custom: 
 ms.collection: bap-ai-copilot
 ---
-
 
 # FAQ for Copilot in Customer Service
 
@@ -29,7 +31,6 @@ The following table describes the availability of Copilot features across apps.
 | Case summarization| Yes  | Yes<sup>1</sup> | Yes<sup>1</sup> |
 | Copilot analytics| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
 | Conversation summarization| Yes | No | No |
-
 
 Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
 

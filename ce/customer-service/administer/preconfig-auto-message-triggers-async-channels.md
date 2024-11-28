@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # Preconfigured automated message triggers for asynchronous channels
 
