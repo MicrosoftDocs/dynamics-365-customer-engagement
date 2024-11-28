@@ -3,6 +3,7 @@ title: "canCreateSession method (app profile manager) JavaScript API Reference |
 description: "Learn about the canCreateSession API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---

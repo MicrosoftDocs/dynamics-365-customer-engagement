@@ -1,12 +1,12 @@
 ---
 title: Integrate a Copilot Studio bot
 description: Use this article to get instructions on how to integrate a Copilot Studio bot in your contact center.
-ms.date: 02/29/2024
+ms.date: 11/28/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.collection:
+ms.reviewer: nenellim
+ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 

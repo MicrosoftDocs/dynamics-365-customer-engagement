@@ -3,7 +3,7 @@ title: Delete historical data of agent capacity updates
 description: Learn how to delete historical data of agent capacity profile updates in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 07/01/2024
 ms.custom: bap-template

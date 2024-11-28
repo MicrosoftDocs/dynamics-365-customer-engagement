@@ -5,6 +5,7 @@ ms.date: 02/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Set up visitor location detection

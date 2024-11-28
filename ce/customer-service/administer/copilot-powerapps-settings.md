@@ -3,9 +3,9 @@ title: Configure copilot features for custom case forms and custom apps
 description: Learn how to enable Copilot features for custom case forms and custom apps.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 01/03/2024 
+ms.date: 11/28/2024 
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -44,6 +44,7 @@ You must also configure the following settings to make sure that copilot summary
      :::image type="content" source="../media/powerapps-event-handler.png" alt-text="Screenshot of the Power Apps event handler." :::
 
 1. Save and publish the changes.
+
 ## Enable Copilot features for custom apps
 
 You can enable the Copilot features for custom apps in your organization. Perform the following steps to enable the Copilot features for a specific app: 

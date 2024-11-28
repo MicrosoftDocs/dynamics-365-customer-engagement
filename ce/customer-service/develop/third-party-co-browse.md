@@ -5,6 +5,7 @@ ms.date: 02/29/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Enable third-party cobrowse and screen sharing

@@ -3,6 +3,7 @@ title: Handle queue overflow
 description: Learn how to set up overflow conditions and actions for your Dynamics 365 Customer Service voice, chat, and messaging channels when there are more items in the queue than your team can handle.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 11/12/2024
 ms.topic: how-to
 ms.custom:

@@ -5,7 +5,7 @@ ms.topic: article
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # lcw:onMessageSent event (Omnichannel for Customer Service JavaScript API reference)
 

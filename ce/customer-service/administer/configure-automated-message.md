@@ -4,7 +4,7 @@ description: Perform the steps mentioned in the article to configure automated m
 ms.date: 04/18/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ms.topic: how-to
 ms.custom: bap-template
 ---

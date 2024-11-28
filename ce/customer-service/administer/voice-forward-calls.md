@@ -3,7 +3,7 @@ title: Forward Teams calls to your digital contact center
 description: Learn how to forward Microsoft Teams calls to your organization's digital contact center.
 author: neeranelli 
 ms.author: nenellim
-ms.reviewer: neeranelli
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 05/10/2024 
 ms.custom: bap-template 

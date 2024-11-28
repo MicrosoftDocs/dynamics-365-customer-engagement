@@ -3,7 +3,7 @@ title: How the automatic record creation rule works in a customer scenario
 description: Understand how automatic record creation rules work in customer scenarios and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 04/19/2024

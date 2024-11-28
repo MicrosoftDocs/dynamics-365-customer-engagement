@@ -3,7 +3,7 @@ title: Manage feedback for knowledge articles
 description: Learn how to manage feedback to your knowledge articles and update your knowledge articles based on the feedback.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 06/14/2024
 ms.custom: bap-template
