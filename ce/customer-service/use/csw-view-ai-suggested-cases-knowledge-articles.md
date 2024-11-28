@@ -1,7 +1,7 @@
 ---
 title: View AI suggested similar cases, knowledge articles
 description: How to use AI suggested cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/29/2024
+ms.date: 11/28/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

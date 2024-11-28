@@ -1,7 +1,7 @@
 ---
 title: Collaborate with AI-suggested agents in Microsoft Teams
 description: Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service.
-ms.date: 11/29/2024
+ms.date: 11/28/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
