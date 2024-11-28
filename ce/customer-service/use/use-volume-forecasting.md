@@ -131,7 +131,7 @@ The **Agents for conversations** report allows you to select the rollup method i
 
 - **Average**: This method averages the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
-- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. This method is the default rollup which is  selected when you access the report for the first time.
+- **Maximum**: This method picks the maximum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy. This method is the default rollup which is selected when you access the report for the first time.
 
 - **Minimum**: This method picks the minimum from the available data at a level in the date and time hierarchy to roll up to the next higher level in the hierarchy.
 
