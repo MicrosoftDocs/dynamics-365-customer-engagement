@@ -1,10 +1,11 @@
 ---
-title: Configure AI suggestions for article keywords and description | MicrosoftDocs
+title: Configure AI suggestions for article keywords and description
 description: Configure AI suggestions for article keywords and description in Dynamics 365 Customer Service.
-ms.date: 12/21/2023
-ms.topic: article
+ms.date: 11/28/2024
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
+ms.topic: how-to
 search.audienceType: 
   - admin
 ms.custom: 
@@ -15,62 +16,44 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Configure AI suggestions for article keywords and description
 
-Correct metadata helps to locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions can help them select the right metadata, thereby improving their productivity.
+Correct metadata helps locate articles that users search for. When authors create or update knowledge articles, AI suggestions for article keywords and descriptions help them select the right metadata, which improves their productivity.
 
-The key highlights of the AI suggestions feature are as follows:
+The key highlights of the AI suggestions feature are:
 
 - Enable authors by suggesting keywords and description based on the article content stored in the built-in knowledge article entity.
 - Enable admins to select the source data (text only) fields that the AI model will use; the default fields are **Title** and **Content**.
 
 > [!NOTE]
-> The AI suggestions feature is currently available only in specific geographical locations. More information: [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md).
-
-## How AI suggestions for article keywords and descriptions work
-
-The **View suggested keywords and description** link appears in the default knowledge article form for authors when the article content field is updated and the knowledge article is saved. When authors select the link, it displays a dialog with suggested keywords and a description.
-
-If you have a custom form, you can add the **View suggested keywords and description** link only to the knowledge article entity. More information: [Enable AI suggestions for article keywords and description in a custom form](#enable-ai-suggestions-for-article-keywords-and-description-in-a-custom-form)
-
-The AI model works as follows:
-
-- The text values from selected source data fields in **Settings** are sent to the AI model to generate suggestions. By default, the source data fields are **Title** and **Content**.
-- The model takes the first 2,200 characters to generate suggestions. To get good suggestions, we recommend that authors describe the problem to be solved within the first 2,200 characters in their articles.
-- Knowledge article keywords and a description are then suggested based on the knowledge article title and content, and are displayed in the **View suggested keywords and description** dialog.
-
-## Language support for article keywords and description suggestions
-
-AI suggestions for article keywords and description are supported in the following languages:
-
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Spanish
-
-The language used in AI-generated suggestions is based on the language that the author has selected in the article record. An author can specify the language for an article on the **Summary** tab of the knowledge article form.
+> The AI suggestions feature is currently available in specific geographical locations only. Learn more in [Regional availability and service limits for Customer Service](cs-region-availability-service-limits.md).
 
 ## Prerequisites
-
-Ensure to meet the following requirements:
 
 - You have the System Administrator role.
 - Authors have **Read** access to the **Keywords Description Suggestion Setting** custom entity.
 
+## How AI suggestions for article keywords and descriptions work
+
+The **View suggested keywords and description** link appears in the default knowledge article form for authors when the article content field is updated and the knowledge article is saved. When authors select the link, a dialog with suggested keywords and a description appears.
+
+If you have a custom form, you can add the **View suggested keywords and description** link only to the knowledge article entity. Learn more in [Enable AI suggestions for article keywords and description in a custom form](#enable-ai-suggestions-for-article-keywords-and-description-in-a-custom-form).
+
+The AI model works as follows:
+
+- The text values from selected source data fields in **Settings** are sent to the AI model to generate suggestions. By default, the source data fields are **Title** and **Content**.
+- The model takes the first 2,200 characters to generate suggestions. To get good suggestions, we recommend that authors describe the problem within the first 2,200 characters in their article.
+- Knowledge article keywords and a description are then suggested based on the knowledge article title and content, and appear in the **View suggested keywords and description** dialog.
+
 ## Enable AI suggestions for article keywords and description
 
-You can enable AI suggestions for article keywords and description in the Customer Service admin center app by performing the following steps:
-
-1. Go to the **Insights** page.
+You can enable AI suggestions for article keywords and description in the Customer Service admin center app.
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
   
-1. On the Insights page, in the **Suggestions for knowledge article authors** section, select **Manage**. The **Suggestions for knowledge article authors** page appears.
+1. On the **Insights** page, in the **Suggestions for knowledge article authors** section, select **Manage**. The **Suggestions for knowledge article authors** page appears.
 
 1. On the **Settings** tab in the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area in **Knowledge article data fields**.
 
-1. Optional: Change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
+1. Optionally, cChange the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
 
 1. Select **Save**.
 
@@ -82,7 +65,7 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 1. Select **Customize the System** to open the default solution.
 
-1. From the **Solution: Default Solution** navigation pane, select **Components** > **Entities** > **Knowledge Article** > **Forms**.
+1. From the **Solution: Default Solution** navigation pane select **Components** > **Entities** > **Knowledge Article** > **Forms**.
 
 1. Select the form that you want to customize.
 
@@ -99,6 +82,20 @@ You can enable AI suggestions for article keywords and description in the Custom
 1. Select **OK**.
 
 1. Select **Save** and **Publish**.
+
+## Language support
+
+AI suggestions for article keywords and description are supported in the following languages:
+
+- Dutch
+- English
+- French
+- German
+- Italian
+- Japanese
+- Spanish
+
+The language used in AI-generated suggestions is based on the language that the author selects in the article record. An author can specify the language for an article on the **Summary** tab of the knowledge article form.
 
 ### Related information
 
