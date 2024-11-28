@@ -7,16 +7,11 @@ ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.topic: how-to 
-ms.date: 09/05/2024
+ms.date: 11/29/2024
 ms.custom: bap-template
 ---
 
-# Compose and send email messages using Copilot (preview)
-
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
-
+# Compose and send email messages using Copilot
 
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
@@ -46,7 +41,7 @@ When you're sending an email, you can provide the context for the email in the C
 
 1.	Open a new or an existing email from a lead or an opportunity record.
 
-1. On the **Copilot** pane, go to the **Email (preview)** tab.
+1. On the **Copilot** pane, go to the **Email** tab.
 
 1. Select **Describe the email you want**.  
 
@@ -56,8 +51,6 @@ When you're sending an email, you can provide the context for the email in the C
 1.	In the **Draft with Copilot** section, enter the statement for which you want to generate the draft email. An example statement, Write an email to thank Kenny Smith for showing interest in Contoso 3D printers.
 
     A draft is generated for the statement. Review the suggested content.  
-
-    :::image type="content" source="media/copilot-draft-email-suggestion.png" alt-text="Screen shot of copilot pane with draft email suggestion.":::
 
     Do the following according to your needs:  
     - If the content meets your needs, select **Add to email** to insert it directly into the email body. Also, you can select the copy icon to copy the content and paste it into the email body. If required, edit the content according to your requirements and send the email.  
@@ -89,14 +82,13 @@ After you’ve generated the suggested content, you can refine the results furth
 1. Review the suggested content and select  **Add to email** or the copy icon to paste the content in the email body.  
 
 > [!NOTE]
-> To restore the content to the previous version, select **More options** and then select **Restore last version**. 
+> To restore the content to the previous version, select **More options** and then select **Restore last version**.  
 
 **To start a fresh draft**:
 
 1. Select **More options** > **Start over**.  
 
     The Copilot email composer is cleared and you can start a new draft.
-
 
 ## Related information
 
