@@ -24,11 +24,11 @@ The following table describes the availability of Copilot features across apps.
 
 | Feature name | Customer Service workspace | Customer Service Hub | Custom apps |
 | ------- | ----- | -------- | ----- | 
-| Copilot knowledge chat| ✔ | O | O |
-| Copilot for drafting emails| ✔ | O  |O  |
-| Case summarization| ✔ | O  | O  |
-| Copilot analytics| ✔ | O | O |
-| Conversation summarization| ✔ | ✖ | ✖ |
+| Copilot knowledge chat| Yes | Yes, Power Apps configuration required | Yes, Power Apps configuration required |
+| Copilot for drafting emails| Yes | Yes, Power Apps configuration required  |Yes, Power Apps configuration required  |
+| Case summarization| Yes  | Yes, Power Apps configuration required | Yes, Power Apps configuration required |
+| Copilot analytics| Yes | Yes, Power Apps configuration required | Yes, Power Apps configuration required |
+| Conversation summarization| ✔ | No | No |
 
 
 ✔ : Available out of the box 

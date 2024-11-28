@@ -30,7 +30,7 @@ Case summaries help agents understand the context of a case, enabling them to re
 1. Select **Manage** in **Summaries**.
 1. Select **Make case summaries available to agents** to display a summary of the case on the **Case** page. 
 1. Select **Manage data** to [modify the source case fields that Copilot uses to generate case summaries](copilot-map-custom-fields.md). 
-1. Select **Specify information to exclude** and email and text that you want Copilot to exclude when generating responses. You can specify up to 10 email addresses and three disclaimers, headers, or footers within the email that you want Copilot to ignore. For example, you might not want to include automatic notification emails in your case summary. You can add the email address and Copilot won't use those emails to generate case summaries.<br>
+1. Select **Specify information to exclude** to add email addresses and text that you want Copilot to exclude when generating responses. You can specify up to 10 email addresses and three disclaimers, headers, or footers within the email that you want Copilot to ignore. For example, you might not want to include automatic notification emails in your case summary. You can add the email address and Copilot won't use those emails to generate case summaries.<br>
 
 Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) for the Copilot case summary to be displayed on custom case forms. 
 
