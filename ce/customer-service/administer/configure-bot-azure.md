@@ -1,7 +1,7 @@
 ---
 title: Integrate an Azure bot
 description: Use this article to understand how to integrate Azure bots in the contact center.
-ms.date: 11/29/2023
+ms.date: 11/29/2024
 author: neeranelli
 ms.author: nenellim
 ms.collection:
