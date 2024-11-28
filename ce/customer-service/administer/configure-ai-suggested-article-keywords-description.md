@@ -53,7 +53,7 @@ You can enable AI suggestions for article keywords and description in the Custom
 
 1. On the **Settings** tab in the **Summary** area, set the **Enable keywords and description suggestions** toggle to **Yes**. By default, the model is based on the **Title** and **Content** values specified in the **Data mapping** area in **Knowledge article data fields**.
 
-1. Optionally, cChange the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
+1. Optionally, change the values for **Article title** and **Article content** if you don't want the model to use the default values. The AI model uses the data that corresponds to the values you select.
 
 1. Select **Save**.
 
