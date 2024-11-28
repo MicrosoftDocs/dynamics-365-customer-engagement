@@ -28,7 +28,7 @@ The following table describes the availability of Copilot features across apps.
 | Copilot for drafting emails| Yes | Yes<sup>1</sup>  |Yes<sup>1</sup> |
 | Case summarization| Yes  | Yes<sup>1</sup> | Yes<sup>1</sup> |
 | Copilot analytics| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
-| Conversation summarization| ✔ | No | No |
+| Conversation summarization| Yes | No | No |
 
 
 Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
