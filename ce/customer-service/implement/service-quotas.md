@@ -3,7 +3,7 @@ title: Service quotas
 description: Get details about the service quotas for unified routing and omnichannel implementations.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.date: 11/12/2024
 ms.custom: bap-template

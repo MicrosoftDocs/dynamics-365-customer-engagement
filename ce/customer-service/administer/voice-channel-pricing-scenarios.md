@@ -3,7 +3,7 @@ title: Pricing scenarios for voice calling
 description: Use this article to understand how pricing works in the voice channel.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ms.topic: conceptual
 ms.date: 07/01/2024 

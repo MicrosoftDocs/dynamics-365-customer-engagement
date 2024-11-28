@@ -3,7 +3,7 @@ title: Overview of channels in Omnichannel for Customer Service
 description: Learn about the different channels that are available in Omnichannel for Customer Service and the licenses required to use them.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
 ms.date: 10/09/2024

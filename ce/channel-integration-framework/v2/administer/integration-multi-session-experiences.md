@@ -4,6 +4,7 @@ description: Integrate Dynamics 365 Channel Integration Framework 2.0 with multi
 author: gandhamm
 ms.date: 03/21/2024
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.custom: 
   - "dyn365-a11y"

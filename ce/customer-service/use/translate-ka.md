@@ -3,7 +3,7 @@ title: Translate knowledge articles
 description: Learn how to translate knowledge articles. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 07/01/2024
 ms.custom: bap-template

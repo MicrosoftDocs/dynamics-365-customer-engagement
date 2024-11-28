@@ -3,7 +3,7 @@ title: Create multiple cases from an email sent to multiple mailboxes
 description: Create multiple cases from an email sent to multiple mailboxes to improve agent efficiency and response times.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 07/01/2024

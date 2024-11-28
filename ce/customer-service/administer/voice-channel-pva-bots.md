@@ -3,7 +3,7 @@ title: Set up IVR bots in the voice channel using Copilot Studio
 description: Learn about how to add a Copilot Studio bot to use in the voice channel.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: shujoshi
+ms.reviewer: mgandham
 ms.date: 11/15/2024
 ms.topic: how-to
 ms.collection:
