@@ -1,7 +1,7 @@
 ---
-title: "Auto-summarize conversations in Customer Service"
-description: "View an AI-generated summary of a customer conversation and share it in Microsoft Teams."
-ms.date: 01/18/2023
+title: Auto-summarize conversations in Customer Service
+description: View an AI-generated summary of a customer conversation and share it in Microsoft Teams.
+ms.date: 11/28/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
