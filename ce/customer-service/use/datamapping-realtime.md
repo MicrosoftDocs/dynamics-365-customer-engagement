@@ -359,7 +359,7 @@ SUMX (
 
             NOT RELATED ( DimAgentPresence[BasePresenceStatusId] ) == 192360004, 
 
-            FactAgentCapacityUnit[AvailableCapacityUntis], 
+            FactAgentCapacityUnit[AvailableCapacityUnits], 
 
             0 
 
