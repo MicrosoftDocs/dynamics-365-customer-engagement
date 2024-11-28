@@ -2,7 +2,7 @@
 title: Topics dashboard
 description: Learn about the Topics dashboard insights to better understand agent performance in your organization.
 ms.date: 11/28/2024
-ms.topic: concept
+ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
