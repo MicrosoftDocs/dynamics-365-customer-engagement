@@ -1,7 +1,7 @@
 ---
-title: "Manage access to Ongoing Conversations dashboard | MicrosoftDocs"
-description: "Instructions to view Ongoing Conversations dashboard for Omnichannel for Customer Service app on web."
-ms.date: 06/20/2019
+title: Manage access to Ongoing Conversations dashboard
+description: Instructions to view Ongoing Conversations dashboard for Omnichannel for Customer Service app on web.
+ms.date: 11/28/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 To access the **Omnichannel Ongoing Conversations** dashboard, you must assign **Omnichannel supervisor** role to the users. To learn more, see [Assign roles and enable users for Omnichannel for Customer Service](../implement/add-users-assign-roles.md).  
 
-Once the users get access,  the **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app on web. 
+Once the users get access, the **Omnichannel Ongoing Conversations** dashboard is available on **Unified Service Desk** and **Omnichannel for Customer Service** app on web. 
 
 For **Unified Service Desk**, you must add users to supervisor configuration for the dashboard to be available in the home session app tab. To learn more, see [Add users to supervisor configuration](../implement/configure-intraday-dashboard-supervisor.md#add-users-to-supervisor-configuration).
 

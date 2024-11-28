@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 05/10/2024
+ms.date: 11/28/2024
 ms.custom: bap-template 
 ---
 
@@ -46,7 +46,7 @@ The Copilot control for rich text editors is available only for version two of t
 
 To enable your agents to use the write an email feature from the Copilot side pane, perform the following steps in Customer Service admin center:
 
-1. Go to **Copilot help pane** using one of following options:
+1. Go to **Copilot for questions and emails** using one of following options:
       - **Agent Experience** > **Productivity** 
       - **Operations** > **Insights**
 1. Select **Manage** in **Copilot help pane**. The **Copilot help pane** page appears. 
@@ -66,7 +66,7 @@ Copilot uses the following out-of-the-box case fields to draft emails:
 - Case Notes
 - Email Content
 
-In Customer Service admin center, go to **Copilot help pane** and perform the steps in the [Modify the fields used to generate case summaries](copilot-map-custom-fields.md#modify-the-fields-used-to-generate-case-summaries) section to modify the source fields that Copilot uses to draft emails.
+In Customer Service admin center, go to **Copilot for questions and emails** and then select **Manage data**. The steps to modify the source fields that Copilot uses to draft emails are like the steps to modify the fields used to generate case summaries. Learn more in [modify the fields used to generate case summaries](copilot-map-custom-fields.md#modify-the-fields-used-to-generate-case-summaries).
 
 > [!NOTE]
 > - You can modify the source fields that Copilot uses to draft emails in the Copilot help pane only and not in the rich text editor.
