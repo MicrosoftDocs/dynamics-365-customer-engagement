@@ -49,7 +49,7 @@ If you need your data to stay within a region, the following table lists the loc
 |South America |To be announced | To be announced|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
-|United Arab Emirates **<sup>1</sup>**| To be announced | Available |To be announced|
+|United Arab Emirates **<sup>1</sup>**| crm15.dynamics.com | Available |To be announced|
 |South Africa | To be announced | To be announced|To be announced|
 |Norway | To be announced | To be announced|To be announced|
 |Korea | To be announced | To be announced|To be announced|
