@@ -11,7 +11,11 @@ ms.date: 11/29/2024
 ms.custom: bap-template
 ---
 
-# Compose and send email messages using Copilot
+# Compose and send email messages using Copilot (preview)
+
+[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
