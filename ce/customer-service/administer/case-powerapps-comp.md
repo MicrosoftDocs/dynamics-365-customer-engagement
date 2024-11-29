@@ -11,13 +11,8 @@ ms.custom: bap-template
 
 # Add Power Apps components to case forms
 
-You can use Power Apps components to customize your case forms and add additional functionalities that the agents can use when handling cases in Customer Service workspace.
+You can add the default Power Apps components that are available for case forms to customize them in the Customer Service workspace. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)
 
-You can use default components, such as the **Associated Grid Control** and the **Attachment Control**, available on the enhanced full case forms. Learn more about default components at [Enable enhanced case forms for multisession apps](case-enh-config.md).
-
-## Available Power Apps components
-
-The following table shows Power Apps components, along with details, which are available for customizing your forms in the Customer Service workspace.
 
 |Number |Component |Description |Entity |Additional actions |Additional information|
 |-------|----------|------------|-------|-------------------|----------------------|
@@ -28,11 +23,7 @@ The following table shows Power Apps components, along with details, which are a
 |5 |**Redirect** |Add this component to a case form to redirect agents to a specific tab for closing open activities related to a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
 |6 |**Due open activities control** |This component helps agents see the activities that are either due today or overdue. |Available for all entities. |Applicable |[Use the Due open activities control to customize forms](add-due-open-activities.md)|
 |7 |**Modernized case grids** |Add this component to a case form to give agents quick access to case information, such as the last customer interaction, case age, and the next SLA breach. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
-
-
-## Next steps
-
-You can add the default components to other forms and customize them. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
+|8 |**Enhanced case forms for multisession apps** |Add default components, such as the **Associated Grid Control** and the **Attachment Control**, available on the enhanced full case forms. |Available for all entities. |Applicable |[Enable enhanced case forms for multisession apps](case-enh-config.md)|
 
 
 ### Related information
