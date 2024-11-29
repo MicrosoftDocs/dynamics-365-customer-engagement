@@ -3,6 +3,7 @@ title: Configure call recording, transcription, and real-time translation
 description: Learn how to configure call recording, transcription, and real-time translation in the voice channel.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.reviwer: nenellim
 ms.date: 08/29/2024
 ms.topic: how-to

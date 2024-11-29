@@ -3,6 +3,7 @@ title: Use session connector macros
 description: Learn how to use session connector to create macros.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 05/06/2024

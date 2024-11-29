@@ -3,6 +3,7 @@ title: Suggest similar cases for a case with Dynamics 365 Customer Service
 description: Learn how to use the similarity rules and relevance search in Customer Service.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 06/21/2024
 ms.topic: article
 search.audienceType: 

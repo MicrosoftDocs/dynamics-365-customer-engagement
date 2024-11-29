@@ -3,6 +3,7 @@ title: Build a communication widget
 description: Demonstrates how to build a communication widget using Dynamics 365 Channel Integration Framework 1.0.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 09/27/2022
 ms.topic: reference
 ms.custom: 

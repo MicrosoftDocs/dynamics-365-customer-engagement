@@ -3,7 +3,7 @@ title: Supported languages and locale codes for voice channel
 description: Know about the supported languages and locale codes for the voice channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 02/14/2024
 ms.topic: conceptual
 ms.collection:

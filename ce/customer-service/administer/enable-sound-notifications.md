@@ -5,7 +5,7 @@ ms.date: 05/31/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---

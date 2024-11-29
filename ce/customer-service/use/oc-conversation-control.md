@@ -5,6 +5,7 @@ ms.date: 04/12/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # View the communication panel for conversations

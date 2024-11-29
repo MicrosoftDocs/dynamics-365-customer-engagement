@@ -3,7 +3,7 @@ title: Responsible AI FAQ for Copilot in Customer Service
 description: This FAQ provides information about the AI technology that Dynamics 365 Customer Service uses. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
 ms.date: 11/12/2024

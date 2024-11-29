@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
