@@ -45,7 +45,7 @@ When you're sending an email, you can provide the context for the email in the C
 
 1.	Open a new or an existing email from a lead or an opportunity record.
 
-1. On the **Copilot** pane, go to the **Email** tab.
+1. On the **Copilot** pane, go to the **Email (preview)** tab.
 
 1. Select **Describe the email you want**.  
 
