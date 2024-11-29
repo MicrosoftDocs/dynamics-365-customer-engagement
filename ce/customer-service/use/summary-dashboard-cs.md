@@ -1,8 +1,8 @@
 ---
-title: Summary Dashboard | Microsoft Docs
+title: Summary dashboard
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 07/01/2024
-ms.topic: article
+ms.date: 11/28/2024
+ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -25,15 +25,15 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 # Summary dashboard
 
-The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into topics that are generating the highest volume and which topics that are emerging with the highest rate of change in volume.
+The Summary dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to provide insights into topics that generate the highest volume and topics that are emerging with the highest rate of change in volume.
 
-The summary dashboard includes a variety of charts with graphical views of key performance indicators in Customer Service.
+The summary dashboard includes various charts with graphical views of key performance indicators (KPIs) in Customer Service.
 
 :::image type="content" source="../media/cs-summary-dashboard.png" alt-text="Summary dashboard for Customer Service historical analytics":::
 
-The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics that are generating the most volume and emerging topics with the highest rate of change in volume, helping you identify areas for improvement that can have the greatest impact on system performance.
+The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This helps you identify areas of improvement that can affect support performance.
 
-By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for specific time periods, channels, queues, and agents. To filter data by duration, channel, queue, or agent, select a value from the respective dropdown list. 
+By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for a specific time period, channel, queue, and agent. To filter data by duration, channel, queue, or agent, select a value from the respective dropdown list. 
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
@@ -44,23 +44,23 @@ By default, the dashboard shows you KPIs for the past month and for all channels
 
 ## Key Insights discovered
 
-The Key Insights discovered section has two areas:
+The **Key Insights discovered** section has two areas:
 
 - **KPI insights**: Important subjects that impact performance, such as CSAT pertaining to priority, volume pertaining to channel, and open cases pertaining to queues.
 
 - **Topics to watch**: Topics that rank high across the three key areas to make it easier for customer service managers to discover top issues.
   
-:::image type="content" source="../media/key-insights-card.png" alt-text="Key insights card":::
+:::image type="content" source="../media/key-insights-card.png" alt-text="Screenshot shows the Key insights card":::
 
 ## Report details
 
-The KPI summary charts summarize the key performance indicators for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
+The KPI summary charts summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
 
 The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
 
 :::image type="content" source="../media/case-lifecycle-metrics-diagram.png" alt-text="Diagrammatic representation of the case lifecycle and the metrics that can be derived." lightbox="../media/case-lifecycle-metrics-diagram-large.png":::
 
-The following table shows the key performance indicators that are displayed in the report.
+The following table shows the KPIs that appear in the report.
 
 | KPI    | Description     |
 |----------|------------|
@@ -74,7 +74,7 @@ The following table shows the key performance indicators that are displayed in t
 :::image type="content" source="../media/cs-summary-kpi.png" alt-text="Key perfomance indicators on the Summary dashboard":::
 
 
-The following metrics are displayed in the charts.
+The following metrics appear in the charts.
 
 | Chart    | Description     |
 |----------|------------|
@@ -86,8 +86,6 @@ The following metrics are displayed in the charts.
 | Avg. survey sentiment trend   | The year-over-year trend of CSAT from Customer Voice survey responses.   |
 
 :::image type="content" source="../media/cs-summary-charts.png" alt-text="Charts on the Summary dashboard":::
-
-A blue up-and-down indicator next to the value indicates the percent change in a positive direction. A red indicator indicates the percent change in a negative direction.
 
 On the **Top 10 volume topics** tab, you can view the top 10 AI-discovered topics by case volume.
 
