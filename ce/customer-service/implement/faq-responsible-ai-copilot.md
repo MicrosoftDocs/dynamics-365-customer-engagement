@@ -216,7 +216,7 @@ Yes, it's accommodated in responsible AI compliance.
 
 ##  Does the organization have established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model?
 
-Yes, it's accommodated in responsible AI compliance. If a harmful pattern is identified, feature teams apply the required mitigations to address it. More information is available at https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW1l5BO.
+Yes, it's accommodated in responsible AI compliance. If a harmful pattern is identified, feature teams apply the required mitigation to address it.
 
 ## Does the organization have a process to inform personnel of legal and regulatory considerations and requirements specific to its industry, business purpose and the application environment of the deployed AI systems?
 
