@@ -1,7 +1,7 @@
 ---
 title: Enable sound notifications for conversations in Omnichannel for Customer Service
 description: How to enable sound notifications for conversations in Omnichannel for Customer Service.
-ms.date: 05/31/2023
+ms.date: 12/04/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

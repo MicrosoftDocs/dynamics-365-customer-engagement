@@ -1,7 +1,7 @@
 ---
 title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
-ms.date: 10/24/2023
+ms.date: 12/04/2024
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
@@ -22,7 +22,7 @@ The features include:
 
 - Search option to easily find the administrator settings for the various features in the app.
 
-- Reorganized and task-oriented site map.
+- Task-oriented site map.
 
 - Overview pages for each area that list at-a-glance information with deep links to manage features.
 
@@ -34,7 +34,7 @@ The features include:
 
 ## Prerequisites
 
-You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
+One or more of the following security roles to access this app to perform the various configuration tasks:
 
 - **System Administrator**: To access and edit all the site map entries.
 
