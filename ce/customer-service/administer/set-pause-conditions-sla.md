@@ -3,7 +3,7 @@ title: Configure pause conditions for SLA-enabled entities
 description: Learn how to set pause conditions for SLA enabled entities, SLA KPI Instances, and SLA Items.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 01/03/2024

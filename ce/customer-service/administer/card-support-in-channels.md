@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Support for live chat and asynchronous channels

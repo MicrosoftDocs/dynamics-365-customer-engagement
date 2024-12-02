@@ -3,6 +3,7 @@ title: Get started with Community | MicrosoftDocs
 description: Learn how to license and install Community in Dynamics 365 Customer Service.
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ms.topic: how-to
 ms.collection:
 ms.date: 10/02/2023

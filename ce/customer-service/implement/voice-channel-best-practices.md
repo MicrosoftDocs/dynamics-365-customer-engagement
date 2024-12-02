@@ -3,7 +3,7 @@ title: Best practices for setting up the voice channel
 description: Learn about the best practices for setting up the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
 ms.date: 07/01/2024

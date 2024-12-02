@@ -3,7 +3,7 @@ title: Configure components to display customer details and recent records | Mic
 description: Learn about adding the Associated grid control component to forms
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.date: 05/14/2024
 ms.custom: bap-template 

@@ -3,7 +3,7 @@ title: Supported cloud locations for voice channel
 description: Use this article to know about the supported cloud locations for the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 11/04/2024
 ms.topic: conceptual
 ms.custom: bap-template
