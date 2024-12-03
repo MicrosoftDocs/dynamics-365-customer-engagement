@@ -16,9 +16,9 @@ ms.custom:
 
 # Add status reason, status reason transitions to manage cases
 
-If you’re in charge of incident management for an organization, it’s important to provide a model for agents to enter and update case status. In Dynamics 365 Customer Service, there are two fields in the Case table that provide information about case status: the **Status** field and the **Status Reason** field. The **Status** field for the **Case** entity has three possible values: **Active**, **Resolved**, or **Canceled**. The **Status Reason** field stores a reason for a specific status value. For example, for a case with an **Active** status, a status reason could be **In Progress**, **On Hold**, **Waiting for Details**, or **Researching**.  
+If you’re in charge of incident management for an organization, it’s important to provide a model for customer service representatives to enter and update case status. In Dynamics 365 Customer Service, there are two fields in the Case table that provide information about case status: the **Status** field and the **Status Reason** field. The **Status** field for the **Case** entity has three possible values: **Active**, **Resolved**, or **Canceled**. The **Status Reason** field stores a reason for a specific status value. For example, for a case with an **Active** status, a status reason could be **In Progress**, **On Hold**, **Waiting for Details**, or **Researching**.  
 
- Organizations often have a large number of combinations for the **Status** and **Status Reason** fields. This can make it difficult for agents to choose the correct next status reason. You can define status reason transitions to add another level of filtering for what the status reason value can be changed to for each status reason. Limiting these values to the allowed status reasons can help customer service representatives make the right choices.  
+ Organizations often have a large number of combinations for the **Status** and **Status Reason** fields. This can make it difficult for representatives to choose the correct next status reason. You can define status reason transitions to add another level of filtering for what the status reason value can be changed to for each status reason. Limiting these values to the allowed status reasons can help customer service representatives make the right choices.  
 
 ## Prerequisites
   
