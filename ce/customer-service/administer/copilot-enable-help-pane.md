@@ -67,7 +67,7 @@ Make sure that you have [knowledge management](set-up-knowledge-management-embed
 
 > [!NOTE]
  > - Copilot uses the content attribute only in the knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
-> - Copilot uses those knowledge articles that are tagged with the language that's same as the UI language to generate responses.
+> - Copilot uses knowledge articles tagged with the same language as the UI to generate responses.
 
 ### Enable knowledge base
 
