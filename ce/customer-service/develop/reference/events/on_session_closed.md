@@ -3,6 +3,7 @@ title: ON_SESSION_CLOSED event (app profile manager) JavaScript API Reference
 description: Learn about the ON_SESSION_CLOSED event of app profile manager in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 05/01/2024
 ms.topic: reference
 ---

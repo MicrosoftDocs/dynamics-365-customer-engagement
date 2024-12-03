@@ -6,6 +6,7 @@ ms.topic: article
 author: gandhamm
 ms.collection: bap-ai-copilot
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Conversation Topics dashboard

@@ -5,6 +5,7 @@ ms.date: 04/15/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Build a smart assist bot
 

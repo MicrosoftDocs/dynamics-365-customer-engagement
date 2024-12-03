@@ -3,7 +3,7 @@ title: Use and customize analytics and insights
 description: Learn how to activate and customize analytics and insights in Customer Service to boost contact center efficiency and improve customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi 
+ms.reviewer: sdas
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 06/05/2024

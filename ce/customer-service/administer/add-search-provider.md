@@ -3,7 +3,7 @@ title: Manage integrated search providers
 description: Learn how to provision, add, refresh, edit, and deactivate integrated search providers and configure them as search filters.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 11/21/2023
 ms.custom: bap-template

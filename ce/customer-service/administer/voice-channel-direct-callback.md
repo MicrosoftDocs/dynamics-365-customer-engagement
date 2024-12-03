@@ -3,7 +3,7 @@ title: "Configure direct callback to manage overflowing queues"
 description: "Learn how to configure and use direct callback in the voice channel in Dynamics 365 Contact Center."
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 07/01/2024
 ms.topic: how-to
 ms.custom: bap-template

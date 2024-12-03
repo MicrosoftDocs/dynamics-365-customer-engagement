@@ -3,7 +3,7 @@ title: Manage solutions with SLAs
 description: Manage solutions in Unified Interface and Power Apps by adding SLAs. Learn how to create, export, import, and upgrade solutions with detailed instructions.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 02/22/2024

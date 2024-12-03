@@ -3,6 +3,7 @@ title: Configure channel providers in Dynamics 365 Channel Integration Framework
 description: Learn how to configure channel providers using Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.date: 03/29/2024
 ms.custom: 
