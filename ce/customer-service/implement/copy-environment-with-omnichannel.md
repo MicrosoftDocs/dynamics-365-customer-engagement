@@ -25,7 +25,7 @@ Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Custome
 
 [Copy an environment](/power-platform/admin/copy-environment) and choose one of the following copy options:
 
-- **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. You can create the channels and workstreams in the target environment, and no corrections are needed.
+- **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. Please turn off the channels and turn them back on. You can then create the channels and workstreams in the target environment, and no corrections are needed. https://learn.microsoft.com/en-us/dynamics365/contact-center/implement/provision-channels#turn-off-channels
 - **Full copy**. Everything in the source is copied. You need to [make a few corrections in the target environment](#configure-the-target-environment-after-copying-from-the-source) before you can start using it.
 
 ## Configure the target environment after copying from the source
