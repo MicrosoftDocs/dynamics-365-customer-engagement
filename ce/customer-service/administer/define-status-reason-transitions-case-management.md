@@ -1,7 +1,7 @@
 ---
 title: Add status reason, status reason transitions to manage cases
 description: Understand how to define status reason transitions for case management in Customer Service.
-ms.date: 11/14/2024
+ms.date: 03/12/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
