@@ -211,6 +211,6 @@ additionalContent:
           url: use/use-ask-a-question.md
         - title: Write an email with Copilot
           summary: Copilot offers suggestions to help you draft clearer, concise, and compelling customer emails.
-          url: use-copilot-email.md
+          url: use/use-copilot-email.md
 
 
