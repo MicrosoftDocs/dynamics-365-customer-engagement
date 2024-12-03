@@ -200,8 +200,8 @@ additionalContent:
         - title: Dynamics 365 Contact Center
           summary: Learn about Microsoft Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
           url: /dynamics365/contact-center/
-  - title: Use Copilot features
-    items:
+    - title: Use Copilot features
+      items:
         # Card
         - title: Use Copilot filters
           summary: Learn how to generate responses based on a specific set of topics.
