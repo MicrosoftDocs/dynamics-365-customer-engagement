@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls.
-ms.date: 10/30/2024
+ms.date: 12/03/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -49,6 +49,7 @@ To test your microphone and speaker, do the following steps:
      - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call. 
      - Select **Set default** in the profile dropdown to set an outbound profile as the default profile for all your calls.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
+     - When you select a country from the dropdown, the appropriate country code is populated in the phone number field. If you change the country code while making an outbound call, the new country becomes the default code.
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
      - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
