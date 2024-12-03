@@ -182,6 +182,18 @@ additionalContent:
         text: Agents, use Customer Service workspace
       - url: implement/customer-service-team-member.md
         text: Team members, use Customer Service Team Member  
+  - title: Use Copilot features
+      items:
+        # Card
+        - title: Use Copilot filters
+          summary: Learn how to generate responses based on a specific set of topics.
+          url: use/use-copilot-filters.md
+        - title: Ask a question
+          summary: Copilot helps to answer questions without you having to search for the information.
+          url: use/use-ask-a-question.md
+        - title: Write an email with Copilot
+          summary: Copilot offers suggestions to help you draft clearer, concise, and compelling customer emails.
+          url: use/use-copilot-email.md
   - title: Related products
     items:
         # Card
@@ -200,17 +212,6 @@ additionalContent:
         - title: Dynamics 365 Contact Center
           summary: Learn about Microsoft Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
           url: /dynamics365/contact-center/
-    - title: Use Copilot features
-      items:
-        # Card
-        - title: Use Copilot filters
-          summary: Learn how to generate responses based on a specific set of topics.
-          url: use/use-copilot-filters.md
-        - title: Ask a question
-          summary: Copilot helps to answer questions without you having to search for the information.
-          url: use/use-ask-a-question.md
-        - title: Write an email with Copilot
-          summary: Copilot offers suggestions to help you draft clearer, concise, and compelling customer emails.
-          url: use/use-copilot-email.md
+    
 
 
