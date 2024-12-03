@@ -36,7 +36,7 @@ You can enable the export or import of a calendar from the Customer Service admi
 1. Select **Save**.
 
 > [!IMPORTANT]
-> - You can import and export calendars attached with SLA items from Unified Interface. Calendars attached with SLA only and not SLA items won't be exported. If you are using SLAs after migrating from legacy to Unified Interface, you must first attach calendars to SLA items of modern SLA and then export calendars with the SLA solution.
+> - You can import and export calendars attached with SLA items from Unified Interface. Calendars attached with SLA solutions in legacy SLAs won't be exported directly. If you are using SLAs after migrating from legacy to Unified Interface, you must first attach calendars to the SLA item on Unified Interface and then export calendars with the SLA solution.
 > - When you delete a solution that contains SLAs, the SLAs are also deleted. However, their corresponding calendars aren't deleted.
 > - Calendars, when imported to the target organization, are editable. However, we recommend that you make any changes to the calendar through the solution import or export process.
 > - Calendars are overwritten when a solution is imported. So, the calendar in the latest solution that's being imported will overwrite existing customizations or settings on the current calendar in the target environment.
