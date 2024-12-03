@@ -4,7 +4,7 @@ description: Learn about the inbox views and filters that are available out of t
 ms.date: 09/13/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.collection:
 ms.topic: how-to
 ms.custom: bap-template

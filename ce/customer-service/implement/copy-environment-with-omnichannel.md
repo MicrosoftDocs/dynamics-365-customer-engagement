@@ -3,7 +3,7 @@ title: Copy an environment that includes omnichannel environment
 description: Follow these steps to create a copy of a Dynamics 365 environment that includes omnichannel capabilities.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
 ms.date: 08/12/2024

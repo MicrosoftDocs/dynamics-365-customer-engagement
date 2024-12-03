@@ -4,7 +4,7 @@ description: Learn how to create and manage data masking rules to block sensitiv
 ms.date: 06/14/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ms.topic: how-to
 ---

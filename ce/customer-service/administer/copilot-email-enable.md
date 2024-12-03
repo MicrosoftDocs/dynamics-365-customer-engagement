@@ -3,6 +3,7 @@ title: Enable Copilot to draft emails
 description: Learn how to enable the draft an email feature in Copilot to help agents draft emails faster.
 author: gandhamm 
 ms.author: mgandham 
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
 ms.date: 11/28/2024
