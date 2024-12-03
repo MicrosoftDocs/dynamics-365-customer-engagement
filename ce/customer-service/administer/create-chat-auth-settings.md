@@ -58,7 +58,7 @@ You can create a chat authentication setting record in the admin app.
 
    - **Name**: A name for the authentication setting.
    - **Channel Type**: **Live chat**.
-   - **Authentication Type**: OAuth 2.0 implicit flow 
+   - **Authentication Type**: OAuth 2.0 code flow 
 1. Select **Next** and on the **Details** page, enter the following information:
    - **Token Custom Action**: The custom code reference to validate the tokens that are provided by your identity provider and return the user ID of the authenticated user.
    - **Token URL**: The URL used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
