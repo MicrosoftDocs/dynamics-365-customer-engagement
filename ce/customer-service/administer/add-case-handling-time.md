@@ -1,6 +1,6 @@
 ---
 title: Add case handling time widget to case forms (preview)
-description: Learn how to enable and configure the case handling time widget, which shows the total time agents spend on a case.
+description: Learn how to enable and configure the case handling time widget, which shows the total time customer service representatives spend on a case.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -13,10 +13,10 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Case handling time is the total time agents actively work on a case. It includes activities such as communicating  with customers, troubleshooting, researching, collaborating, or updating case details, like adding notes.
+Case handling time is the total time service representatives actively work on a case. It includes activities such as communicating  with customers, troubleshooting, researching, collaborating, or updating case details, like adding notes.
 
 > [!NOTE]
-> Case handling time and case resolution time are different. For example, an agent works actively on a case for 5 hours. The case is resolved 5 days after it was created. Here, the case handling time is 5 hours, and the case resolution time is 5 days.
+> Case handling time and case resolution time are different. For example, a representative works actively on a case for 5 hours. The case is resolved 5 days after it was created. Here, the case handling time is 5 hours, and the case resolution time is 5 days.
 
 ## Enable case handling time widget
 
@@ -33,11 +33,11 @@ To display the case handling time widget on a case form, follow these steps:
 
       - **Table**: Set this value to **Time Trackers**.
       - **View**: Set this value to **All Time Trackers**.
-      - **Allow agents to add time logs**: Set this value to **True** or **False**, , depending on whether you want agents to manually add time on the case. The default is **True**.
-      - **Show agents only their contributed time**: Set this value to **True** or **False**, depending on whether you want agents to see only their own time or the total time of all agents on the case. The default is **False**.
+      - **Allow agents to add time logs**: Set this value to **True** or **False**, depending on whether you want representatives to manually add time on the case. The default is **True**.
+      - **Show agents only their contributed time**: Set this value to **True** or **False**, depending on whether you want representatives to see only their own time or the total time of all representatives on the case. The default is **False**.
     1. Select **Show related records**.
     > [!NOTE]
-    >  - In Customer Service workspace, the application tracks the time automatically in the background whenever an agent opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per agent for each case.
+    >  - In Customer Service workspace, the application tracks the time automatically in the background whenever a representative opens the case and the case form is in focus, even if you don't add the widget to the case form. You can create reports on automatic time tracked per representative for each case.
     > - In Customer Service Hub, you must add the widget to the case form for automatic time to be tracked.
   1. Save and publish the changes.
 
@@ -50,11 +50,11 @@ The update interval is the time between each update of the database and the widg
 - Updates the database with the automatic tracked time in the frequency specified.
 - Automatically refreshes the case handling time widget to display the updated time.
 
-For example, if you set 10 min as the update interval, the automatic time tracked on the case is updated to the database and the widget after every 10 min. If two agents open the same case at the same time, after 10 min, the widget displays 20 mins as the total time tracked on the case.
+For example, if you set 10 min as the update interval, the automatic time tracked on the case is updated to the database and the widget after every 10 min. If two representatives open the same case at the same time, after 10 min, the widget displays 20 mins as the total time tracked on the case.
 
 ## Delete time tracker records
 
- Automatic time tracker records for each agent for every case are stored in the database according to the update frequency that you set. These records can take up a lot of space over time. To save storage space in the database, you can delete the time tracker records for old resolved cases. Perform the following steps to delete the records:
+ Automatic time tracker records for each representative for every case are stored in the database according to the update frequency that you set. These records can take up a lot of space over time. To save storage space in the database, you can delete the time tracker records for old resolved cases. Perform the following steps to delete the records:
    1. Select the **Time tracker list** link to view the list of time tracker records.
    1. Select the  required records and then select the **Delete** icon to delete the time tracker records.
 
