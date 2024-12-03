@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 11/04/2024
+ms.date: 12/03/2024
 ms.custom: bap-template 
 ---
 
@@ -66,7 +66,8 @@ Make sure that you have [knowledge management](set-up-knowledge-management-embed
    - The state is set to Published
 
 > [!NOTE]
- > Copilot uses the content attribute only in the knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+ > - Copilot uses the content attribute only in the knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+> - Copilot uses those knowledge articles that are tagged with the language that's same as the UI language to generate responses.
 
 ### Enable knowledge base
 
