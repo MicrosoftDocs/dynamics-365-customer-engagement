@@ -1,7 +1,7 @@
 ---
 title: Enable calendar export and import with SLAs
 description: Enable the export or import of a calendar with its corresponding SLAs from the Customer Service admin center or Customer Service Hub app.
-ms.date: 11/29/2024
+ms.date: 12/03/2024
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
