@@ -144,6 +144,14 @@ additionalContent:
         text: Manage conversations and activities on the timeline
       - url: use/search-knowledge-articles-csh.md
         text: Search and use knowledge articles
+    - title: Use Copilot features
+      links:
+      - url: use/use-copilot-filters.md
+        text: Use Copilot filters 
+      - url: use/use-ask-a-question.md
+        text: Ask a question
+      - url: use/use-copilot-email.md
+        text: Write an email with Copilot
     - title: Use AI capabilities
       links:
       - url: use/csw-view-ai-suggested-cases-knowledge-articles.md
@@ -200,15 +208,7 @@ additionalContent:
         - title: Dynamics 365 Contact Center
           summary: Learn about Microsoft Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
           url: /dynamics365/contact-center/
-  - title: Use Copilot features
-    links:
-        # Card
-        - url: use/use-copilot-filters.md
-        text: Use Copilot filters 
-        - url: use/use-ask-a-question.md
-        text: Ask a question
-        - url: use/use-copilot-email.md
-        text: Write an email with Copilot
+
     
 
 
