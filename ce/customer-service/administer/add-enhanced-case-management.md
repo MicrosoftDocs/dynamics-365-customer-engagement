@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 05/15/2024 
+ms.date: 11/15/2024 
 ms.custom: bap-template 
 ---
 
@@ -13,8 +13,8 @@ ms.custom: bap-template
 
 Customize the case resolution experience in Power apps as follows:
 
-- When agents try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab agents view when they select this link.
-- Choose to display the legacy **Resolve case** dialog instead of the default minimal **Resolve case** dialog when an agent closes a case with open activities.
+- When customer service representatives try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab representatives view when they select this link.
+- Choose to display the legacy **Resolve case** dialog instead of the default minimal **Resolve case** dialog when a representative closes a case with open activities.
 
 ##  Redirect users to a specific tab to close the open activities for a case
 
@@ -33,7 +33,7 @@ You can configure the tab users must be redirected to when they select the open 
 
 ## Disable the minimal case resolution dialog
 
-You can choose to display the legacy case resolution dialog box that appears when an agent selects **Resolve case**. You'll need to add and configure the **Enable minimal case resolution dialog** setting definition in Power Apps to revert to the legacy case resolution dialog.
+You can choose to display the legacy case resolution dialog box that appears when a representative selects **Resolve case**. You'll need to add and configure the **Enable minimal case resolution dialog** setting definition in Power Apps to revert to the legacy case resolution dialog.
 
 > [!NOTE]
 > - You can revert to the legacy case resolution dialog only if the **Case settings** > **Other settings** > **Resolve case dialog** is set to **Standard dialog** in Customer Service admin center.
