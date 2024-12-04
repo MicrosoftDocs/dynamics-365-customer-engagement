@@ -5,6 +5,7 @@ ms.date: 06/01/2018
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -62,7 +63,7 @@ Avoid conflicts while scheduling services by finding the time the resources are 
 > [!TIP]
 >  If you want to find an available time without any time restriction, do not specify any criteria under **Requested Time**, and select **Find Available Times**.  
   
-### See also  
+### Related information  
  [Force an activity into a time slot](../administer/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Navigate the service calendar](navigate-service-calendar-cs-app.md)
 

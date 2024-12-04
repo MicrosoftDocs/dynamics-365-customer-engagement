@@ -3,9 +3,9 @@ title: Example for assignment rules and segments
 description: Learn how to create assignment rules and segments for different scenarios through examples.  
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 11/10/2023
+ms.date: 09/20/2024
 ---
 
 # Examples for assignment rules and segments
@@ -57,7 +57,7 @@ In this approach, we'll use the assignment rules for both filtering the leads wi
         :::image type="content" source="media/wa-example-ar-eligible-leads-parent-account-contains.png" alt-text="Screenshot that shows adding a condition for parent account for leads that contains data.":::
 
     1. In the **Assign these leads to a seller, team, or queue** section, add the condition through the related entity **Account (Owning User)** where the **Account** equals to **Lead.Parent Account for lead**. This condition identifies the owner of the account and assigns the lead to account owner.
-    
+
         :::image type="content" source="media/wa-example-ar-assign-leads-account-lead-parent-account.png" alt-text="Screenshot that shows adding a condition for choosing the account owning user related entity with account equals to lead's parent account.":::
 
 ## Assign a lead to sellers with relevant skills or qualifications
@@ -72,13 +72,13 @@ Let's consider that you're a sales manager from a financial institution, respons
 1. Apply the created attributes to the respective sellers. More information: [Assign attributes and capacity to sellers](wa-manage-seller-attributes.md#assign-attributes-and-capacity-to-sellers)
 
 1. Create an assignment rule to assign leads related to insurance to sellers with the required certificate and qualification.
-    
+
     1. In the **Eligible leads for this rule** section, create a condition where **Lead category** equals to **Insurance** to filter leads with insurance. Here, we've customized the lead entity by adding **Insurance** as a category. 
 
         :::image type="content" source="media/wa-example-ar-assign-leads-account-rsq.png" alt-text="Screenshot that shows adding a condition with lead category equals to insurance.":::
 
     1. In the **Assign these leads to a seller, team, or queue** section, select **Sellers with matching criteria** from the dropdown list and then select the **Use seller attributes defined for assignment rules** option.
-    
+
     1. Create the following conditions as per the business rule: 
         - **Insurance Certificate** > **Equals** > **Level 1**, **Level 2**, and **Level 3**. 
             >[!NOTE]
@@ -117,14 +117,14 @@ In your organization, leads come from various sources, such as marketing campaig
 
 1. Customize the lead form to add a field to route to another seller.  
     Create and add a custom field to the lead form to indicate whether the lead should be routed to another seller. For example, you can add a field called **Route to another seller** with values **Yes** or **No**.
-    
+
     :::image type="content" source="media/wa-example-ar-skip-rules-custom-field-leads-form.png" alt-text="Screenshot that shows adding the custom field added to lead form.":::
-    
+
     Set the value for the field to **No** for leads that shouldn't be routed to another seller.
 
 1. Categorize all leads containing the custom field to route to another seller as **No** into the **Do not route leads** segment.  
     Create a segment called **Do not route leads** and then define the condition as **Route to another seller** > **Equals** > **No**. This condition filters out leads that shouldn't be routed to another seller.
-    
+
     :::image type="content" source="media/wa-example-segment-filter-leads-routing-no.png" alt-text="Screenshot that shows adding the condition to segment leads that aren't routed to another sellers.":::
 
     New or updated leads fall into their respective segments.
@@ -159,7 +159,7 @@ Your organization conducts an annual festive campaign that generates leads for t
 
     This ensures that all leads coming from the campaign are automatically assigned to the most appropriate sales team and the sellers within the team can nurture them to closure.
 
-### See also
+## Related information
 
 [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)  
 [Create and activate segments](wa-create-and-activate-a-segment.md)  

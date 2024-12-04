@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -88,7 +89,7 @@ The **Predictive scoring usage panel** displays the following information:
 
 By default, the lead and opportunity scoring widgets are available only in the out-of-the-box **Sales Insights** form. If you're using a custom form for leads and opportunities, you can add the scoring widgets to it. For more information, go to [Add the lead scoring widget to a form](pls-add-widget.md) and [Add the opportunity scoring widget to a form](pos-add-widget.md).
 
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)  
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)  

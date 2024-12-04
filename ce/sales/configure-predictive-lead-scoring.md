@@ -1,11 +1,12 @@
 ---
 title: Configure predictive lead scoring
-description: Configure predictive lead scoring to help sellers prioritize leads.
-ms.date: 05/30/2023
+description: Configure predictive lead scoring to help sellers prioritize leads. The predictive scoring model calculates a score for open leads based on historical data.
+ms.date: 07/04/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure predictive lead scoring
@@ -33,7 +34,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 
 - [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
-- You need to have enough leads to train the model based on past data. Your organization must have created and closed at least 40 qualified and 40 disqualified leads during the time frame selected in the **Train with leads from the past** field of the scoring model. The time frame ranges from three months to two years.  The more leads you can include to train the model, the better the prediction results will be.
+- You need to have enough leads to train the model based on past data. Your organization must have created and closed at least 40 qualified and 40 disqualified leads during the last three months to two years. The more leads you can include to train the model, the better the prediction results will be. [Verify whether you have the required number of leads to build a scoring model](faq-lead.md#scoring-minimum-requirement).
 
   > [!NOTE]
   > If you're planning to use a business process flow for your model, then leads that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
@@ -137,7 +138,7 @@ If you create multiple scoring models, use the **Select model** list on the **Pr
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
 [Edit and retrain a lead scoring model](pls-edit-and-retrain-model.md)  

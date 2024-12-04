@@ -5,11 +5,15 @@ ms.date: 10/27/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Configure payment profiles
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 You can create payment profiles to enable conversational commerce for supported channels. Once configured, your agents can help customers complete secure transactions without having to leave the messaging experience.
 
@@ -25,7 +29,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
 
 ### Create an Apple Pay payment profile
 
-1. In the site map of Customer Service admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
+1. In the site map of Customer Service admin center or Contact Center admin center app, select **Customer settings**, and then select **Manage for Payment profiles**. A list of existing records is shown.
 
 1. Select **Add** at the top of the page to create a new record.	
 
@@ -35,7 +39,7 @@ Before adding an Apple Pay payment profile, make sure to complete the Apple Pay 
 
 1. On the **Details** page, provide the following information:<br>
 
-     - **Merchant friendly name**: The ustomer-facing name of your business. This name is what your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
+     - **Merchant friendly name**: The customer-facing name of your business. This name is what your customer sees within the Apple Pay request. This name shouldn't be localized.<br>
      
      - **Merchant ID**: Your unique identifier assigned to your business when registering as a merchant for Apple Pay.<br>
      
@@ -79,7 +83,7 @@ An Apple Pay-type rich message may be associated to more than one payment profil
 | **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
 
 
-### See also
+### Related information
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](../work-streams-introduction.md)  

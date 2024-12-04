@@ -1,17 +1,17 @@
 ---
-title: "Call options and visual engagement in live chat in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call in Omnichannel for Customer Service."
+title: Call options and visual engagement in live chat
+description: Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call.
 ms.date: 02/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Call options and visual engagement in live chat
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-## Call options in live chat
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 With calling options in a live chat conversation, you can start a voice or video call while you're communicating with the customer over chat.
 
@@ -28,7 +28,8 @@ With calling options in live chat, you can:
 
 ## Prerequisites
 
-You'll need network connectivity and a web browser. For supported browsers and required Internet bandwidth, see [System requirements](../implement/system-requirements-omnichannel.md).
+You'll need network connectivity and a web browser. For supported browsers and required Internet bandwidth, see 
+System requirements for Dynamics 365 Contact Center and [System requirements for Customer Service](../implement/system-requirements-omnichannel.md).
 
 ### Initiate voice and video call
 
@@ -128,7 +129,7 @@ When you enter a screen sharing session, you can:
 
 The customer experience will vary depending upon the co-browse or screen share provider selected by your administrator.
 
-## See also
+## Related information
 
 [Add a chat widget](../administer/add-chat-widget.md)
 

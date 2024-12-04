@@ -1,10 +1,11 @@
 ---
-title: "Manage notification templates using app profile manager | MicrosoftDocs"
-description: "Learn how to manage notification templates in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/05/2021
+title: Manage notification templates using agent experience profiles
+description: Learn how to manage notification templates in Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 04/29/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 
  - D365-Entity-msdyn_consoleapplicationnotificationtemplate
@@ -16,7 +17,6 @@ searchScope:
 
 # Manage notification templates in Dynamics 365 Channel Integration Framework 2.0
 
-## Overview
 
 When agents get a notification, the notification displays certain information such as which customer the conversation request is coming from, the timeout period after which the notification disappears, and buttons such as Accept and Reject. Each organization has its own business requirements and wants to show agents relevant information in the notification.
 
@@ -57,19 +57,14 @@ Also, as an administrator, you can set the browser notification permission by us
 
 ## Create a notification template
 
-To create or manage a notification template, go to the app profile manager. For more information, see [Manage templates](../../../customer-service/administer/notification-templates.md#manage-templates) in the app profile manager documentation.
+To create or manage a notification template, go to **Workspaces** in **Agent Experience**. For more information, see [Manage templates](../../../customer-service/administer/notification-templates.md#manage-templates).
 
 ## See also
 
-[App profile manager overview](../../../customer-service/administer/overview.md)
-
-[Manage session templates](session-templates-cif.md)
-
-[Manage application tab templates](application-tab-templates-cif.md)
-
-[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
-
-[Associate templates with workstreams](associate-templates-cif.md)
-
+[App experience profile overview](../../../customer-service/administer/overview.md)  
+[Manage session templates](session-templates-cif.md)  
+[Manage application tab templates](application-tab-templates-cif.md)  
+[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)  
+[Associate templates with workstreams](associate-templates-cif.md)  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -5,6 +5,7 @@ ms.date: 01/18/2024
 ms.topic: "reference"
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - developer
 search.app: 
@@ -1475,10 +1476,9 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|BigInt|
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 
 
-[!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

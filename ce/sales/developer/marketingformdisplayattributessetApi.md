@@ -5,6 +5,7 @@ ms.date: 09/07/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Customize quick campaign and campaign activity distribution forms 
 
@@ -56,7 +57,7 @@ HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```
 
-### See also
+## Related information
 
 [Create a quick campaign using in-app marketing (Sales)](../create-quick-campaign-using-app-marketing-sales.md)    
 [Add an activity to a campaign using in-app marketing (Sales)](../add-activity-campaign-using-app-marketing-sales.md)

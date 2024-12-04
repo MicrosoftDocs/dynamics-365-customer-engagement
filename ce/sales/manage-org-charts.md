@@ -3,9 +3,9 @@ title: Manage org charts
 description: Learn how to create and edit org charts, add contacts and labels, and create a hierarchy to help sellers gain insights into their customers' organizational structure and identify key decision-makers.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 09/28/2023
+ms.date: 09/20/2024
 ms.custom: bap-template
 ---
 
@@ -33,6 +33,9 @@ As a seller or sales manager, you can perform the following tasks to manage org 
 ## Create or edit an org chart
 
 An account can have only one org chart. You can create the org chart for an account if one doesn't exist. You can edit an org chart to add or remove positions, redefine roles and responsibilities, and adjust reporting lines. Org charts are available for all users in your organization.
+
+>[!IMPORTANT]
+>Currently, an org chart can have up to 1,500 nodes at any single level and a total of 10,000 nodes across all levels.
 
 1. Sign in to your sales app. On the site map, select **Customers** > **Accounts**.
 1. Select the account, and then on the tool bar, select **Open org chart**.
@@ -132,7 +135,7 @@ When LinkedIn Sales Navigator is turned on in your organization and contacts cha
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Organization charts](organization-charts.md)  
 [View and understand the org charts](view-understand-org-charts.md)

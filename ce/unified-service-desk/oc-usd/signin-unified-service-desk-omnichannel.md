@@ -1,12 +1,15 @@
 ---
 title: "Sign in to Omnichannel for Customer Service | MicrosoftDocs"
 description: "Learn how to sign in to Omnichannel for Customer Service through Unified Service Desk client application."
-ms.date: 02/29/2024
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # Sign in to Unified Service Desk – Omnichannel for Customer Service
 
 
@@ -32,7 +35,7 @@ monikerRange: '>= dynamics-usd-4.1'
 
 3. If you have multiple organizations, select the organization you want to connect to.
 
-4. In the app selection dialog, select the **Omnichannel admin center** app from the list.
+4. In the app selection dialog, select the **Customer Service admin center** app from the list.
 
 You signed in to Unified Service Desk - Omnichannel for Customer Service application.
 

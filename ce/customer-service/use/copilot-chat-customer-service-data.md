@@ -1,19 +1,19 @@
 ---
 title: Chat with Customer Service data in Microsoft 365 Copilot (preview)
 description: Learn how to use Copilot for Microsoft 365 to chat with service data and ask questions in natural language.
-ms.date: 03/25/2024
+ms.date: 04/12/2024
 ms.custom:
   - bap-template
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.reviewer:
+ms.reviewer: laalexan
 ms.collection: bap-ai-copilot
 ---
 
 # Chat with Customer Service data in Copilot for Microsoft 365 (preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 This article explains how to use Microsoft Copilot for Microsoft 365 to chat with Dynamics 365 Customer Service data by using the Customer Service plugin.
 
@@ -29,7 +29,7 @@ The Customer Service plugin works together with Copilot for Microsoft 365 to hel
 
 You must meet the following prerequisites to use the Customer Service plugin with Copilot for Microsoft 365.
 
-- Your administrator must deploy the Dynamics 365 app. More information: [Build plugins using Microsoft business applications](/microsoft-365-copilot/extensibility/overview-business-applications#known-limitations)
+- Your administrator must deploy the Dynamics 365 Service app. More information: [Build plugins using Microsoft business applications](/microsoft-365-copilot/extensibility/overview-business-applications#deploy-a-plugin)
 
 - To engage in a natural-language conversation with Dynamics 365 service data, you need a Copilot for Microsoft 365 license. 
 
@@ -45,7 +45,7 @@ Some examples of prompts are as follows:
 
 - Show me the high-priority support tickets for Contoso coffee in the past 30 days.
 - Tell me if Contoso Coffee has active escalated cases in the past three months. If yes, show me the list.
-- What are the cases that have missed SLA in the past seven days?
+- What are the cases that missed their SLA in the past seven days?
 - Show me all my active cases.
 - Show me my cases due tomorrow.
 - Tell me about the details for case number CAS-01006-W8H5Q.
@@ -57,7 +57,7 @@ Some examples of prompts are as follows:
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](use-copilot-features.md)  
 [Understand Copilot language support](copilot-language-support.md)  

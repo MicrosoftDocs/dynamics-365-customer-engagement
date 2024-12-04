@@ -5,6 +5,7 @@ ms.date: 10/11/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -88,7 +89,7 @@ To ignore an entity record during migration, perform the following steps.
 
 7. Select **Publish** to publish the customizations.
 
-### See also
+### Related information
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 

@@ -5,6 +5,7 @@ ms.date: 03/27/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 content_well_notification:
 -	AI-contribution
 searchScope: 
@@ -47,7 +48,7 @@ Forecasting isn't supported on Government Community Cloud (GCC) or mobile device
 
 ## Configure forecasting
 
-You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast (preview)](view-forecasts.md#out-of-the-box-forecast-preview) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
+You can configure forecasts that are based on revenue or quantity. You define the type of forecast, the hierarchy, access permissions, and the details you want to see in the forecast grid. After a forecast is activated, your sales team can view the revenue, or quantity, and pipeline projections. Until you activate a forecast, your sales team can view an [out-of-the-box forecast](view-forecasts.md#out-of-the-box-forecast) for the current month. The out-of-the-box forecast isn't available in the forecast configuration page and neither can it be deleted nor deactivated.
 
 1. In the Sales Hub app, select the Change area icon ![Icon to change the work area](./media/change-area-icon.png "Icon to change the work area") in the lower-left corner, and then select **App Settings**.  
 
@@ -111,7 +112,7 @@ In the **Opportunity** form, **Forecast Category** appears above **Description**
 
 - Forecast category options include **Won** and **Lost**. If an opportunity is closed as **Won** or **Lost**, the **Opportunity Forecast Category Mapping Process** out-of-the-box workflow automatically changes the forecast category to match.
 
-- To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Process Center** > **Processes** and select the **All Processes** view. Search for and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements.
+- To view the **Opportunity Forecast Category Mapping Process** workflow, go to **Settings** > **Advanced Settings** > **Process Center** > **Processes** and select the **All Processes** view. Search for and open the **Opportunity Forecast Category Mapping Process** workflow. You can customize or deactivate the workflow according to your organization's requirements.
 - Are you using a custom option set instead of forecast category? You need to create a workflow to automatically sync the opportunity status with your option set to make sure that the projection is accurate. To learn more, see [Create a cloud flow in Power Automate](/power-automate/get-started-logic-flow).
 
 If you don't want to see the forecast category in the opportunity form, you need to customize the form. You can't use the **Visible by default** option to hide it. To learn more, see [Unable to hide forecast category field in opportunity forms](./ts-forecasts.md#hide_forecast_category_field).
@@ -133,7 +134,7 @@ If you don't want to see the forecast category in the opportunity form, you need
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Blog: Tips for setting up sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/11/23/tips-for-setting-up-sales-forecasting-in-dynamics-365-sales/)  
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  

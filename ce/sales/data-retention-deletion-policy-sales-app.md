@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Data retention and deletion policy for conversation intelligence (Sales app)
@@ -62,7 +63,7 @@ Choose the storage option as described in the following table:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  

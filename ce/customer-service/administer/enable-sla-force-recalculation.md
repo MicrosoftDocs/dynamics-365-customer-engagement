@@ -5,6 +5,7 @@ ms.date: 03/17/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -49,7 +50,7 @@ customEvaluation["Recalculate"] = 1;
 OrganizationResponse customEvaluationResponse = service.Execute(customEvaluation);
 
 ```
-### See also
+### Related information
 
 [Define service-level agreements](define-service-level-agreements.md)  
 [Apply SLAs](apply-slas.md#apply-slas)

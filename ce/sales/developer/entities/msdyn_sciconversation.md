@@ -6,7 +6,8 @@ ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "lavanyakr01"
-ms.author: "lavanyakr"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -1016,7 +1017,7 @@ See the [msdyn_msdyn_sciconversation_OCRecording_msdyn_o](msdyn_ocrecording.md#B
 
 See the [msdyn_msdyn_sciconversation_Transcript_msdyn_tr](msdyn_transcript.md#BKMK_msdyn_msdyn_sciconversation_Transcript_msdyn_tr) one-to-many relationship for the [msdyn_transcript](msdyn_transcript.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

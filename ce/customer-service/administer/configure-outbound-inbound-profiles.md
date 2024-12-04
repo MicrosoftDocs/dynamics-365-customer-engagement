@@ -1,20 +1,23 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 03/01/2024
+ms.date: 10/24/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Configure outbound and inbound profiles
 
-Use the information in this article to create profiles that are used during inbound and outbound calls. These profiles help you configure settings, such as language, wait music, and transcription settings for the calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Inbound profiles enable direct calls to individual agents and therefore differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inbound calling doesn't use unified routing and therefore the direct calls aren't tracked in unified routing historical analytics.
+
+Use the information in this article to create profiles that are used for direct inward dialing to specific agents and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+
+Inbound profiles enable direct inward dialing to individual agents, and they differ from workstreams that are used to define how inbound calls are routed and assigned to agents via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to agents aren't tracked in unified routing historical analytics.
 
 ## Prerequisites
 
@@ -27,7 +30,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create inbound profiles
 
-1. In the Customer Service admin center site map, select **Productivity** in **Agent experience**.
+1. In the Customer Service admin center or Contact Center admin center site map, select **Productivity** in **Agent experience**.
 
 1. On the **Productivity** page, select **Manage** for **Outbound and inbound profiles**.
 
@@ -41,20 +44,20 @@ Make sure that the following prerequisites are in place:
 
 1. In **Inbound behaviors**, configure the following settings:
 
-  - **Language**: Accept the default language as **English - United States** or select a language from the list.
-  - **Hold music**: Select a music file to play when the call is on hold.
-  - **Wait music**: Select a music file to play when the call is in waiting.
-  - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
-  - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
-  - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
-    - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to Automatic if the call recording and transcription needs to start immediately.
-      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to Automatic. Set to **Yes** to let agents pause and resume the recording and transcription.
+   - **Language**: Accept the default language as **English - United States** or select a language from the list.
+   - **Hold music**: Select a music file to play when the call is on hold.
+   - **Wait music**: Select a music file to play when the call is in waiting.
+   - **Call transfer to external phone number**: Set the toggle to **On** if you want the agents to transfer the call to a phone number outside of your organization.
+   - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the agents to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
+   - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
+     - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.
+      - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to **Automatic**. Set to **Yes** to let agents pause and resume the recording and transcription.
 
 1. Select **Next**, verify the settings, and select **Save and close**.
 
 ## Create outbound profiles
 
-You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative number other than the default number as a workstream channel or as an outbound profile number before you can use it.
+You can define how agents use the outbound calls and which agents can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the agent's role while the caller ID number still lists consistently for a business. You must configure the alternative number other than the default number as a workstream channel or as an outbound profile number before you can use it. For details, see [assign a personal phone number to agents](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
 
 1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
@@ -68,9 +71,14 @@ You can define how agents use the outbound calls and which agents can make those
 1. In **Outbound info**, do the following:
    
     - **Number label**: Enter a label to denote the business context, like Billing, that's displayed with the phone number at the agent end when they call a customer. This value is automatically populated with the phone name string on the agent dialer that the agent can edit.
+
+      > [!NOTE]
+      > This label is used in the agent dialer only, and isn't a caller name delivery (CNAM) label that can be displayed to customers, as CNAM isn't supported.
+
     - **Queue**: Select a queue from the dropdown list.
     - **Capacity**: Select one or more capacity profiles from the dropdown list.
-    - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.
+    - **Caller ID number**: Select a number from the list. The **(Profile Number)** label against the number indicates that the caller ID displays the same number as the profile number. It's also the default setting.<br>
+      If you select a caller ID that's different from the profile number, make sure the number has an outbound profile so that bot settings are created.
 1. In **Outbound behaviors**, do the following: 
     - **Allow list for countries/regions**: Select the countries or regions whose numbers your agents can call. If an agent has multiple outbound profiles, they'll see a list of countries or regions that are selected in all profiles.
       > [!NOTE]
@@ -106,7 +114,7 @@ Edit the profiles to update the behavior and advanced settings. You can delete p
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

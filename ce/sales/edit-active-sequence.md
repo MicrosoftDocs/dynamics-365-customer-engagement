@@ -5,6 +5,7 @@ ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Edit an active sequence and view version history 
 
@@ -78,7 +79,7 @@ Viewing the version history helps you to understand the number of versions that 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Edit a sequence](edit-a-sequence.md)    
 [Create and activate a sequence](create-and-activate-a-sequence.md)

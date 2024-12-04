@@ -2,11 +2,11 @@
 title: "msdyn_ConnectSequence Action | MicrosoftDocs"
 description: "How to assigns a lead and opportunity entity record to a sequence."
 ms.date: 05/11/2020
-
 ms.custom: 
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # msdyn_ConnectSequence Action
@@ -40,6 +40,6 @@ POST [Organization URI]/api/data/v9.1/msdyn_ConnectSequence
 }
 ```
 
-## See also
+## Related information
 
 [Enable and configure the Sales accelerator](../../enable-configure-sales-accelerator.md)

@@ -5,6 +5,7 @@ ms.date: 07/29/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Exit a sequence during the flow
@@ -41,7 +42,7 @@ Review the following requirements before you configure the exit criteria:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)      
 [Add steps to sequence](steps-sequence.md)  

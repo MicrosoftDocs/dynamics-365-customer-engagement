@@ -1,12 +1,15 @@
 ---
 title: "Create Omnichannel Alert Notification hosted controls | MicrosoftDocs"
 description: "Learn how to create hosted control that can be used to show alert notification in Omnichannel for Customer Service."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # Step 2: Create Omnichannel Alert Notification hosted control
 
 

@@ -7,7 +7,7 @@ ms.topic: article
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
+ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 ---
@@ -62,7 +62,7 @@ The contains schema definition for new card type.
 <?xml version="1.0" encoding="utf-8" ?>
 <entity name="cardtype" displayname="Action Card Type">
   <cardname>Extensibility Example</cardname>
-  <cardtypeid>2183dfc0-3c1c-45b7-a331-1943880c25c6</cardtypeid>
+  <cardtypeid>00aa00aa-bb11-cc22-dd33-44ee44ee44ee</cardtypeid>
   <cardtype>11000</cardtype>
   <cardtypeicon>webresources/new_msicon</cardtypeicon>
   <softtitle>Extensibility Example</softtitle>
@@ -221,16 +221,16 @@ The build is successful, and you can see that under the `<folder>\ExtPkgDeployer
 
 8. The next screen displays the name and information about the package that you just deployed. Review the information and choose **Finish** to exit the Package Deployer tool.
  
-After you deploy the package, a new card type is created with an ID - `2183dfc0-3c1c-45b7-a331-1943880c25c6`, which is defined in the schema (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829).
+After you deploy the package, a new card type is created with an ID - `00aa00aa-bb11-cc22-dd33-44ee44ee44ee`, which is defined in the schema (new_cardtype_schemaxml9dd7e039-33a1-4778-9972-66536dc5e829).
 
 ## Step 4: Verify the new card type
 
-Verify the card type with an ID '2183dfc0-3c1c-45b7-a331-1943880c25c6'.
+Verify the card type with an ID '00aa00aa-bb11-cc22-dd33-44ee44ee44ee'.
 Send a GET method request.
 ### Request
 
 ```HTTP
-GET [Organization URI]/api/data/v9.0/cardtype(2183dfc0-3c1c-45b7-a331-1943880c25c6) HTTP/1.1  
+GET [Organization URI]/api/data/v9.0/cardtype(00aa00aa-bb11-cc22-dd33-44ee44ee44ee) HTTP/1.1  
 Accept: application/json  
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
@@ -308,7 +308,7 @@ start and end date mentioned above",
 ```HTTP
 HTTP/1.1 204 No Content  
 OData-Version: 4.0  
-OData-EntityId: http://[Organization URI]/api/data/v9.0/actioncard(2183dfc0-3c1c-45b7-a331-1943880c25c6) 
+OData-EntityId: http://[Organization URI]/api/data/v9.0/actioncard(00aa00aa-bb11-cc22-dd33-44ee44ee44ee) 
 ```
 
 > [!NOTE]
@@ -340,7 +340,7 @@ To learn more on how to enable cards, see [Turn on or off insights cards](edit-i
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create custom cards in Assistant](extend-relationship-assistant-card.md)
 

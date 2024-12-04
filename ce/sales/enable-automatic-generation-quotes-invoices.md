@@ -5,6 +5,7 @@ ms.date: 03/23/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Enable automatic generation of quote and invoice documents
@@ -49,16 +50,17 @@ When you activate a quote or invoice, a word document for the quote or invoice i
 
 1. In the site map, select **Quotes**. 
 1. Open a quote in the **Draft** state and select **Activate Quote**.
-1. Log into the SharePoint site that is integrated with Dynamics 365 Sales Professional.
+1. Log in to the SharePoint site that is integrated with Dynamics 365 Sales Professional.
 1. Go to **Site Contents** and select **Account**.
 
     :::image type="content" source="media/sharepoint-site-small.png" alt-text="Screenshot showing the SharePoint site navigation to access the Account folder":::
     
 1. Select the account for which you've activated the quote.
-    You'll find the quote folder with the auto-generated quote document.
+    The quote folder with the auto-generated quote document is displayed.
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

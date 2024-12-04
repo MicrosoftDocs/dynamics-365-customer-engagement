@@ -5,6 +5,7 @@ ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Manage notes 
@@ -106,7 +107,7 @@ You can change the record to which a note is added when it is no longer relevant
 The note will be removed from the current record and attached to the selected record.
 
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)    
 [View meetings](view-agenda.md)

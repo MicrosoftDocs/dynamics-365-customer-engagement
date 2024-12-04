@@ -5,10 +5,10 @@ ms.date: 07/29/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Configure Azure bots to escalate and end conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
 
@@ -270,7 +270,7 @@ Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
 
 The bot can also send an escalation summary that'll be visible only to the agent after the escalated chat request is accepted. To send the summary, set the activity text appropriately in the escalation Activity message.
 
-### See also
+### Related information
 
 [Integrate an Azure bot](../administer/configure-bot-azure.md)  
 [Add context variables](../administer/manage-context-variables.md#add-context-variables)  

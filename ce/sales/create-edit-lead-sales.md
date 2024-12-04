@@ -1,10 +1,11 @@
 ---
 title: Create or edit leads
 description: Learn how to create a lead in Dynamics 365 to track business prospects and add notes, activities, and related contacts.
-ms.date: 09/06/2023
+ms.date: 09/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope:
  - D365-App-msdynce_saleshub
  - D365-App-msdynce_salespro
@@ -81,7 +82,7 @@ You can add leads by importing them from a Microsoft Excel, CSV, or XML file or 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Print quote, invoice, or other records](print-records.md)
 

@@ -7,7 +7,7 @@ author: "gandhamm"
 ms.author: "mgandham"
 search.audienceType: 
   - developer
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 ---
 # msdyn_skillattachmenttarget Entity Reference
 
@@ -748,7 +748,7 @@ See systemuser Entity [user_msdyn_skillattachmenttarget](systemuser.md) One-To-M
 
 See msdyn_skillattachmentruleitem Entity [msdyn_skillattachmentruleitem_target](msdyn_skillattachmentruleitem.md#BKMK_msdyn_skillattachmentruleitem_target) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

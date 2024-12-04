@@ -1,15 +1,15 @@
 ---
 title: "UI Automation Inspector in Unified Service Desk | MicrosoftDocs"
 description: "Find information about the UI Automation Inspector and the logic used to generate bindings for the UIADDA."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # UI Automation Inspector in Unified Service Desk
 The [!INCLUDE[pn_uii_acronym](../includes/pn-uii-acronym.md)] Inspector is extended to support the generation of bindings for the UIADDA. This topic describes the logic used to build the binding.  

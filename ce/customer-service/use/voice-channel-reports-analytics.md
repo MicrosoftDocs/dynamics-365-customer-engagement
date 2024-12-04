@@ -1,10 +1,10 @@
 ---
 title: Voice channel historical analytics and call insights
-description: Learn about the analytics reports and call insights that are available in the voice channel in Omnichannel for Customer Service.
-ms.date: 04/26/2023
+description: Learn about the analytics reports and call insights that are available in the voice channel in Contact Center.
+ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.custom:
 - bap-template
@@ -17,7 +17,7 @@ applies_to:
 
 # Voice channel historical analytics, reports, and call insights
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -48,7 +48,7 @@ The following KPIs are displayed in the Voice dashboard.
 | Avg. customer effort | The time that a customer spent on a conversation to get their issue resolved. |
 | Avg. sessions per conversation | The average sessions created and engaged for each conversation engaged. |
 
-The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings and Omnichannel for Customer Service. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
+The following report includes conversation intelligence, which uses analytics and data science to gather data from agent call recordings. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your support team and proactively coach agents.
 
 :::image type="content" source="../media/voice-channel-agent-drill-down.png" alt-text="Voice agent drill-down report.":::
 
@@ -70,7 +70,7 @@ Supervisors can also see entire transcripts to understand the conversation style
 
 :::image type="content" source="../media/voice-recording-transcript-viewer.png" alt-text="Voice recording transcript viewer.":::
 
-### See also
+### Related information
 
 [Introduction to the voice channel](../administer/voice-channel.md)  
 [Provision and set up the voice channel](../administer/voice-channel-install.md)  

@@ -5,6 +5,7 @@ ms.date: 12/27/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -185,7 +186,7 @@ By default, the search field in the **Add products dialog** searches the product
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create a solution](/powerapps/maker/data-platform/create-solution)  
 [Choose and configure columns in model-driven app views](/powerapps/maker/model-driven-apps/choose-and-configure-columns)  

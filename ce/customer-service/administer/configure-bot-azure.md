@@ -1,9 +1,10 @@
 ---
 title: Integrate an Azure bot
-description: Use this article to understand how to integrate Azure bots with Omnichannel for Customer Service.
-ms.date: 12/14/2023
+description: Use this article to understand how to integrate Azure bots in the contact center.
+ms.date: 11/29/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection:
 ms.topic: how-to
 ms.custom: bap-template
@@ -11,7 +12,7 @@ ms.custom: bap-template
 
 # Integrate an Azure bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -28,9 +29,7 @@ In Omnichannel for Customer Service, you can integrate Azure bots seamlessly wit
 > [!NOTE]
 > If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
 
-- To use the bot over messaging channels:
-    - Add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel, if you're using public cloud services.
-    - Add both [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) and [Microsoft Teams](/azure/bot-service/channel-connect-teams?view=azure-bot-service-4.0&preserve-view=true) as supported channels, if you're using GCC (Government Community Cloud) services.
+- To use the bot over messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel.
 
 ## Integrate Azure bots with Omnichannel for Customer Service
 
@@ -111,10 +110,9 @@ Escalation rules allow you to create rules for the bot to escalate the queries t
 
 You understand that your data may be transmitted and shared with external systems, and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the bot, which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
-### See also
+### Related information
 
-[Overview of bots](overview-bots.md)  
-[Sample configuration to integrate Azure bots](sample-config-azure-bot.md)  
+[Overview of bots](overview-bots.md)   
 [Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
 [Integrate Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Create workstreams for unified routing](create-workstreams.md)  

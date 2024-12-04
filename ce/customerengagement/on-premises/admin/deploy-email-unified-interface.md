@@ -13,8 +13,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: bc0377a3-db62-4d0d-9531-a12dc01d1d0c
 caps.latest.revision: 4
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---
@@ -32,7 +32,7 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 **Install the app**
 
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with Customer Engagement (on-premises) system administrator or delegated admin security roles.  
+1. Sign in with the Customer Engagement (on-premises) system administrator or a delegated admin security role.  
   
 2. Select **Admin centers** > **Dynamics 365**.  
 

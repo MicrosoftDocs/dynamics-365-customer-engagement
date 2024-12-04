@@ -5,8 +5,8 @@ ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.date: 10/04/2023
 ms.topic: conceptual
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Resource utilization on the schedule board in Universal Resource Scheduling

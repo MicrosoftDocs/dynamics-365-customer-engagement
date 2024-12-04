@@ -3,7 +3,7 @@ title: Manage solutions with SLAs
 description: Manage solutions in Unified Interface and Power Apps by adding SLAs. Learn how to create, export, import, and upgrade solutions with detailed instructions.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 02/22/2024
@@ -139,7 +139,7 @@ If you have calendars added to the SLA, open the org in the classic view, and th
 
 To import or export the calendar with SLAs for any orgs, you must enable the setting.
 
-## See Also
+## Related information
 
 [Upgrade solution troubleshooting](/troubleshoot/dynamics-365/customer-service/service-level-agreements/slaitem-changes-missing-upgrade)  
 

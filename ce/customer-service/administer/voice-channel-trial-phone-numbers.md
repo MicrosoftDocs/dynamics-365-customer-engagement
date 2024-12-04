@@ -1,14 +1,17 @@
 ---
 title: Use trial phone numbers in the voice channel
-description: Use this article to understand how you can use trial phone numbers in Omnichannel for Customer Service.
-ms.date: 01/20/2023
+description: Use this article to understand how you can use trial phone numbers in Dynamics 365.
+ms.date: 07/01/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Use trial phone numbers
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The voice channel provides up to two trial phone numbers with limited free calling time for your organization. When you run the voice trial for the first time, you're automatically assigned a toll-free trial phone number. The total free calling time for the two trial phone numbers is 60 minutes.
 
@@ -36,6 +39,6 @@ If you want to end the trial before it expires, select **End trial** on the **Ph
 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 
-### See also
+### Related information
 
 [Import phone numbers](voice-channel-sync-from-acs.md)  

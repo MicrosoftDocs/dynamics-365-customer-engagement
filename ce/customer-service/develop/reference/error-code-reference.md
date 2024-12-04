@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # Error code reference for Omnichannel for Customer Service
 
@@ -35,7 +36,7 @@ Here's a sample `errorEvent` object that's raised when the context provider meth
 }
 ```
 
-### See also
+### Related information
 
 [Live chat SDK reference](../omnichannel-reference.md)  
 [Developer guide](../omnichannel-developer.md)  

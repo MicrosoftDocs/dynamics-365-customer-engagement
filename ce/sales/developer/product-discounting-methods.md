@@ -2,12 +2,12 @@
 title: Product discounting methods (Dynamics 365 Sales)
 description: "The Organization.DiscountCalculationMethod column specifies the discount method: either line item or unit level."
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -37,7 +37,7 @@ Discounts can be applied either at the line item level or at per unit level. Use
 > [!NOTE]
 >  If you upgrade from a previous version of Dynamics 365 Sales to the current version, by default the value of the `Organization.DiscountCalculationMethod` column is set to **0** (line item) to support the old discounting behavior where discounts could only be applied at the line level.  
   
-### See also
+## Related information
 
  [Discount Table](entities/discount.md)   
  [DiscountType Table](entities/discounttype.md)   

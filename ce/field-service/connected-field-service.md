@@ -1,7 +1,7 @@
 ---
 title: Connected Field Service overview
 description: Learn how Connected Field Service can revolutionize your organization's service delivery with IoT technology and predictive maintenance.
-ms.date: 06/23/2023
+ms.date: 09/04/2024
 ms.subservice: connected-field-service
 ms.topic: overview
 ms.author: vhorvath
@@ -32,6 +32,9 @@ Watch this brief [video overview of Connected Field Service](https://www.youtube
 **Cost reduction**: IoT-powered Field Service streamlines your operations and reduces costs. Proactive problem diagnosis and maintenance prevent major breakdowns and extensive&mdash;and expensive&mdash;repairs and minimizes downtime, eliminates emergency service calls, and optimizes resource allocation. Remote monitoring and predictive maintenance reduce the need for frequent physical inspections and unnecessary maintenance visits, resulting in more efficient resource utilization and reduced operational expenses.
 
 **Data-driven insights**: IoT devices generate a vast amount of data that can provide valuable insights. By analyzing device performance data, you can identify patterns, trends, and potential areas for improvement. This data-driven approach helps you optimize your service delivery processes, identify recurring issues, and make decisions based on data to enhance overall operational efficiency.
+
+> [!IMPORTANT]
+> The device readings chart is no longer available. It relied on Azure Time Series Insights, which was retired on July 7, 2024. Learn more: [Migrate from Time Series Insights](/azure/time-series-insights/migration-to-fabric).
 
 ## Next steps
 

@@ -110,7 +110,7 @@ Screen readers make Dynamics 365 Customer Engagement (on-premises) accessible to
 
 - [Learn more about working with Microsoft Narrator](https://support.microsoft.com/help/22798)
 - [Learn more about working with JAWS](https://www.freedomscientific.com/Products/Blindness/JawsDocumentation)
-- [Learn more about working with NVDA](https://www.nvaccess.org/help/)
+- [Learn more about working with NVDA](https://www.nvaccess.org/get-help/)
 
 > [!NOTE]
 > JAWS screen reader is supported on the latest Unified Interface. If choosing JAWS, we recommend using it with Internet Explorer. 

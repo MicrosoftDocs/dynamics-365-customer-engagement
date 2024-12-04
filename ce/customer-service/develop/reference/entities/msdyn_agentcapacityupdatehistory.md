@@ -5,6 +5,7 @@ ms.date: 08/25/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 ---
@@ -924,7 +925,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)  
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  

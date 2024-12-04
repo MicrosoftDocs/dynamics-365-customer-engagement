@@ -1,10 +1,11 @@
 ---
 title: Customize the quote closure experience
 description: A quote can be closed when it's lost, canceled, or revised. You can customize this experience to suit your organization needs.
-ms.date: 09/20/2023
+ms.date: 11/18/2024
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -89,7 +90,7 @@ The following code snippet includes a sample command definition to close the quo
 ```
 
 
-### See also
+## Related information
 
 - [Customize commands and the ribbon](/power-apps/developer/model-driven-apps/customize-commands-ribbon)
 - [Export ribbon definitions](/power-apps/developer/model-driven-apps/export-ribbon-definitions)

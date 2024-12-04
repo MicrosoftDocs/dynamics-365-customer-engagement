@@ -1,15 +1,15 @@
 ---
 title: "Administration Guide for Unified Service Desk 3.0 | MicrosoftDocs"
 description: "Use this topic to get a high-level overview of the Unified Service Desk Administration Guide and its content."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 tags: 
   - MigrationHO
   - LinksOnlyTopic

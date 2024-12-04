@@ -1,15 +1,14 @@
 ---
 title: "View, read, and compare Unified Service Desk performance report | MicrosoftDocs"
 description: "Learn on how to view, read, and compare different Unified Service Desk performance report generated using the Unified Service Desk Performance Analyzer."
-ms.date: 10/31/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 
 # Public Preview: View, read, and compare Unified Service Desk performance report
@@ -41,8 +40,6 @@ For example, time taken for the **Browser Navigation** operation under the categ
 ![Select a operation from the list of operations.](../media/operation-navigation.PNG "Select a operation from the list of operations")
 
 3. Select the correlation ID from the list.<br>
-![Select a correlation ID from the list.](../media/operation-navigation-correlationid.PNG "Select a correlation ID from the list")
-
 The report displays the Performance timeline graph and Performance details table.
 
 ![Performance timeline graph.](../media/performance-timeline-graph.PNG "Performance timeline graph")

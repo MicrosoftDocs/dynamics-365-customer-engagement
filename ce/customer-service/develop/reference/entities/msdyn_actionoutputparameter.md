@@ -5,6 +5,7 @@ ms.date: 09/14/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -656,7 +657,7 @@ Relationship details provided where the msdyn_actionoutputparameter entity is th
 
 See msdyn_parameterdefinition Entity [msdyn_msdyn_paramdef_msdyn_actionoutputparam](msdyn_parameterdefinition.md#BKMK_msdyn_msdyn_paramdef_msdyn_actionoutputparam) Many-To-Many Relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -1,21 +1,17 @@
 ---
 title: Retrieve and format rich messages
 description: Learn about the MessageObject type used in the sendMessageToConversation method in Omnichannel JavaScript API.
-ms.date: 01/04/2024
+ms.date: 06/14/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 
 ---
 
 # Retrieve and format rich messages
 
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
-
 [!INCLUDE[pva-rebrand](../../../../includes/cc-pva-rebrand.md)]
-
-[!INCLUDE[oac-deprecation](../../../../includes/oac-deprecation.md)]
 
 Because the Copilot Studio and Omnichannel for Customer Service platforms process rich messages differently, you'll need to modify the strings to get valid `MessageObject` type strings that can be sent via the `sendMessageToConversation` method to the conversation. You must process the rich message payload before sending it to the conversation, else the method will send the desired rich object payload in plain `String` format.
 
@@ -23,20 +19,10 @@ This articles describes how you can programmatically retrieve and format rich me
 
 ## Retrieve the rich message payload
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Productivity** in **Agent experience**.
-     2. On the **Productivity** page, select **Manage** for **Rich messages**.
-
-   ### [Omnichannel admin center](#tab/omnichanneladmincenter)
-
-    - In the site map, select **Agent experience** in **Advanced settings**, and then select **Manage** for **Rich messages**.
-
+1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**.
+1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. From the list of all available list messages, select a rich message that you'd like to send to the conversation.
-
-4. Select the **Details** tab and select **Copy** under the **Rich message JSON** field. 
+1. Select the **Details** tab and select **Copy** under the **Rich message JSON** field. 
 
 You'll use this JSON value when you format the rich message types.
 
@@ -163,7 +149,7 @@ Microsoft.Omnichannel.sendMessageToConversation(websiteRichLinkJSON, false);
 copy(websiteRichLinkJSON);
 ```
 
-### See also
+### Related information
 
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

@@ -3,9 +3,9 @@ title: Select security roles to assign records to
 description: Learn how to select the security roles that determine whether assignment rules can automatically assign your sales team to leads, opportunities, and insights in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 01/12/2024
+ms.date: 06/17/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -108,14 +108,14 @@ The following permissions are required to perform tasks on work assignment entit
 
 - **Create, modify, delete assignment rules**
   - Assignment Rule: Read, Create, Write, Delete, Append
-  - Attribute, Attribute Value, Team, User: Read
+  - Attribute, Attribute Value, Security Role, Team, User: Read
   - Segment: Read, Append To
 - **View assignment rules**
   - Assignment Rule, Attribute, Attribute Value, Segment, Team, and User: Read
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Set seller attributes](./wa-manage-seller-attributes.md)
 - [Set seller availability and capacity](./wa-manage-seller-availability.md)

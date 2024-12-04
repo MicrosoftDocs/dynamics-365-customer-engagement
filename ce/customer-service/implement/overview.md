@@ -1,10 +1,11 @@
 ---
 title: Welcome to Dynamics 365 Customer Service
 description: Overview of Dynamics 365 Customer Service.
-ms.date: 02/29/2024
+ms.date: 06/14/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ms.custom: 
   - dyn365-customerservice
 ms.collection: get-started
@@ -39,41 +40,9 @@ Use Customer Service to:
 
 ## Administer Customer Service
 
-You can configure and manage the different capabilities in Customer Service by using any of the following apps based on the licensing module that you've purchased. While you can use any of the admin apps to set up the features in Customer Service, we recommend that you use the latest apps and centrally manage the features in a robust framework.
+You can configure and manage the different capabilities in Customer Service by using the Customer Service admin center app based on the licensing module that you've purchased.
 
-- **Customer Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through the new app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center at a glance](cs-admin-center.md)
-
-  [!INCLUDE[cc-oc-admin-csh-deprecation.md](../../includes/cc-oc-admin-csh-deprecation.md)]
-
-- **Omnichannel admin center** (Deprecated): Helps in managing all your chat and digital messaging channels, including the voice channel.
-
-- **App profile manager** (Deprecated): Helps in creating and managing targeted app experiences for agents and supervisors as an alternative to building and maintaining custom apps. You can create custom profiles with specific session templates, conversation channels, and productivity tools. You can then assign these profiles to agents and supervisors who use the Customer Service workspace app. These capabilities are available in the new Customer Service admin center app also. We recommend that you use the new app.
-
-  > [!NOTE]
-  > Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. For more information about the deprecation announcement, see [Omnichannel Administration app is deprecated and will be removed in July 2023](deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023).
-
-The following table provides the features that can be configured through the admin apps.
-
-| Feature| Customer Service admin center | Omnichannel admin center (deprecated) |Customer Service Hub -> Service Management (deprecated) |
-|--------|-------------------------------|--------------------------|-------------------------------------------|
-| Basic administration for Customer service| ✔ | ✖ | ✔ |
-| Case routing and queue configuration | ✔ | ✔ |✔|
-| Service-level agreements|✔|✖|✔|
-| Service scheduling|✔|✖|✔|
-| Live chat, social channels, Microsoft Teams, SMS| ✔ | ✔ |✖|
-| Agent experience profiles |✔ | ✖| ✖ |
-| Unified routing |✔|✔|✔|
-| Voice channel |✔|✔|✖|
-| Knowledge management|✔|✖|✔|
-| Insights, analytics, and dashboards|✔|✔|✔|
-| Productivity tools |✔|✔|✖|
-
-
-**Legend**
-
-✔: Generally available.
-
-✖: Not available
+- **Customer Service admin center**: Use the app to manage the different features of Customer Service in one place. You can configure all the features of the customer support, operations, and agent experiences through this app. You can manage core customer service and other features, such as service terms, service scheduling, and all the channels in Omnichannel for Customer Service. More information: [Customer Service admin center at a glance](cs-admin-center.md)
 
 ## Use agent apps to service customers
 

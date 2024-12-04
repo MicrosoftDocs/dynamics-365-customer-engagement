@@ -3,16 +3,16 @@ title: "Get session ID and logs to help troubleshoot your issue | MicrosoftDocs"
 ms.custom:
 description: Get logs and session ID to help troubleshoot your issue.
 ms.date: 06/05/2023
-ms.reviewer:
-
+ms.reviewer: smurkute
+ms.service: d365ce-op
 ms.suite:
 ms.tgt_pltfrm:
 ms.topic: error-reference
 applies_to: Dynamics 365 apps
 ms.assetid: 55e7ba56-2f18-4eaf-8282-70cd639887f8
 caps.latest.revision: 1
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType:
   - admin
   - customizer
@@ -33,10 +33,6 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > ![Sitemap expanded screenshot, gear icon is at the bottom left.](media/sessionid-uci-step-1.png)
 
 2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
-
-   > [!div class="mx-imgBorder"]
-   > ![Settings menu screenshot, session details is under the general category.](media/sessionid-uci-step-2.png)
-   > ![Session details screenshot, session id is in the middle of the page.](media/sessionid-uci-step-3.png)
 
 ### Get the session ID from the sign in screen
 

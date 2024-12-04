@@ -6,7 +6,8 @@ ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "lavanyakr01"
-ms.author: "lavanyakr"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -1299,7 +1300,7 @@ See the [msdyn_msdyn_forecastrecurrence_msdyn_forecastinstance](msdyn_forecastre
 
 See the [msdyn_goal_msdyn_forecastinstance](goal.md#BKMK_msdyn_goal_msdyn_forecastinstance) one-to-many relationship for the [goal](goal.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

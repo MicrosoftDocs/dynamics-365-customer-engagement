@@ -1,10 +1,11 @@
 ---
-title: Use Sales Hub and Sales Professional apps on phones and tablets
+title: Use Dynamics 365 for phones and Dynamics 365 for tablets apps
 description: Learn how to use the Sales Hub app and Sales Professional app on your phones and tablets.
 ms.date: 02/22/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 
 ms.custom: 
   - dyn365-sales
@@ -19,7 +20,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Use the Sales Hub or Sales Professional app on your phones and tablets
+# Use Dynamics 365 for phones and Dynamics 365 for tablets apps
 
 The Dynamics 365 for phones and Dynamics 365 for tablets apps are model-driven apps that you can use to open any customer engagement app such as Sales Hub or Sales Professional on your phones and tablets. The apps work the same whether you're using it on your mobile device or on a web browser on your computer. 
 
@@ -269,7 +270,7 @@ Quickly review pending tasks and close the ones you got to during the day.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [User Guide](user-guide.yml)  
 [Actions supported in online and offline mode](Features-in-mobile-offline.md)

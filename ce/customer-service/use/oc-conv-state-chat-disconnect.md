@@ -1,20 +1,24 @@
 ---
 title: Understand disconnected chats
-description: Use this article to know how Omnichannel for Customer Service handles customer disconnection during live chat.
-ms.date: 01/23/2023
+description: Use this article to know how the application handles customer disconnection during live chat.
+ms.date: 08/29/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: bap-template
 ---
 
 # Understand disconnected chats
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than three minutes. When a customer is disconnected for more than three minutes, Omnichannel for Customer Service detects the disconnection, and automatically updates the conversation state of the chat.
 
-When an ongoing chat gets disconnected, Omnichannel for Customer Service: 
+During live chat, a customer can no longer chat with the agent if they leave the conversation or stay disconnected for more than a set duration. By default, this duration is three minutes. However, your administrator can set the [reconnection duration](../administer/configure-reconnect-chat.md). 
+
+ When a customer is disconnected for more than the set time limit, the application detects the disconnection, and automatically updates the conversation state of the chat.
+
+When an ongoing chat gets disconnected, the application does the following: 
 
 - Moves the chat from an **Open** to **Closed** state, so the agent knows that there's no customer to respond to.
 
@@ -40,14 +44,12 @@ If the customer reopens the chat widget after three minutes of disconnection, a 
 >[!NOTE]
 > A delay in sending messages doesn't affect your chat connection.
 
-
-
 ## Next steps
 
 [Understand conversation states](oc-conversation-state.md)  
 [Configure automatic closure of conversations](../develop/auto-close-conversation.md) 
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
  

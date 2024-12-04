@@ -3,7 +3,7 @@ title: "Configure sales accelerator settings for sellers to personalize"
 description: "Use personal settings to determine what happens when an activity is complete."
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 03/15/2024
 ---
@@ -193,7 +193,7 @@ Follow these steps:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Personalize sales accelerator](personalize-sales-accelerator.md)
 

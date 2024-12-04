@@ -1,15 +1,14 @@
 ---
 title: "Migrate Unified Service Desk configuration | MicrosoftDocs"
 description: "Learn how you can migrate your latest Unified Service Desk configuration data from your development or test environment to the production environment."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 # Migrate Unified Service Desk configuration 
 

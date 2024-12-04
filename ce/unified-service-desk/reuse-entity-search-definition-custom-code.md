@@ -1,15 +1,15 @@
 ---
 title: "Reuse entity search definition in your custom code | MicrosoftDocs"
 description: "Find information about reusing entity search definitions in your custom code using the EntitySearchRequest message."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Reuse Entity Search definition in your custom code
 

@@ -1,34 +1,30 @@
 ---
 title: FAQ about the voice channel
-description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel in Omnichannel for Customer Service.
+description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 08/25/2023
+ms.date: 07/29/2024
 ms.topic: conceptual
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
-# FAQ about the voice channel in Omnichannel for Customer Service
+# FAQ about the voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 This article includes frequently asked questions (FAQ) about the voice channel.
 
-### Why is the agent unable to make an outbound call?
+## General
 
-The agent must be a part of the outbound voice queue to make an outbound call. See [Set up outbound calling](voice-channel-outbound-calling.md) for information.
+### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service (deprecated) apps only.
 
-No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#handle-overflow-before-work-item-is-queued)
-
-### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
-
-Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
+## Setup
 
 ### Is the voice channel PCI DSS compliant?
 
@@ -56,10 +52,6 @@ Yes, you can bring your existing numbers to Omnichannel for Customer Service in 
     1. You must first port your existing phone numbers to Azure Communication Services. More information: [Quickstart: Port a phone number into Azure Communication Services](/azure/communication-services/quickstarts/telephony/port-phone-number)
     2. You can then import the phone numbers from Azure Communication Services to Omnichannel for Customer Service. More information: [Sync from Azure Communication Services](voice-channel-sync-from-acs.md)
 
-### What are the applicable pricing scenarios for using the voice channel?
-
-To understand the pricing calculation of various call scenarios, see [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
-
 - **Configure Azure direct routing**
     1. Configure a Session Border Controller (SBC) that's connected to your local carrier with Azure Communication Services.
     1. Register the phone number in Dynamics 365. More information: [Bring your own carrier](voice-channel-bring-your-own-number.md)
@@ -80,6 +72,10 @@ Yes, you can.
 
 Yes, you can use the Dynamics 365 Channel Integration Framework 2.0 connector to integrate third-party contact centers, such as Genesys Engage, Solgari, and NICE inContact.
 
+### Does voice channel work with Citrix virtual machines?
+
+No, the Citrix virtual machines aren't supported with the voice channel.
+
 ### Does the voice channel tie in with Azure Communication Services or is it an entirely different technology?
 
 The voice capabilities for Dynamics 365 Customer Service are built on Azure Communication Services.
@@ -93,37 +89,49 @@ If you've already brought numbers from another carrier into Microsoft Teams via 
 > [!NOTE]
 > Currently, you can't bring native Teams phone numbers to use in the voice channel.
 
-### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
+### Can I recover data and phone numbers from a voice trial organization after it has expired?
 
-No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service apps only.
+No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
+
+## Pricing
+
+### What are the applicable pricing scenarios for using the voice channel?
+
+To understand the pricing calculation of various call scenarios, go to [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
+
+## Bots
 
 ### How can I set up an IVR bot in the voice channel?
 
-See the following articles to set up the interactive voice response (IVR) bot in the voice channel:
+Learn more in:
 - [Configure Copilot Studio bots for voice](../voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
-### Should the language of the bot be the same as the primary language configured in the Customer Service admin center or Omnichannel admin center (deprecated) app?
+### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
+
+## Language
+
+### Should the language of the bot be the same as the primary language configured in the voice workstream?
 
 Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot is attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the bot; the bot will speak in English-UK as the workstream locale setting takes precedence.
 
 You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. But, if you configure different locales:
 - The bot's accuracy will depend on the similarities between the two locales. 
 - The preconfigured entities for the bot such as postal code might not be accurate. 
-- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached. 
+- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached.
 
-### Can I recover data and phone numbers from a voice trial organization after it has expired?
-
-No, you can't recover your data and phone numbers after the voice trial organization has expired and been deprovisioned. 
+## Disaster recovery
 
 ### Is disaster recovery supported for the voice channel?
 
-- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, see [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
-- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. For more information, see [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
+- Business Continuity and Disaster Recovery (BCDR) for production instances of the voice channel are supported on a geographical basis. In certain regions BCDR will be a fast follow. For details on the geographies that are currently supported and the geographies where BCDR is a fast follow, go to [Local cloud deployments](voice-channel-region-availability.md#local-cloud-deployments).
+- In supported regions, BCDR policies are based upon business continuity and disaster recovery for Dynamics 365 and SLA for Azure Communication Services. Learn more in [Business continuity and disaster recovery](/power-platform/admin/business-continuity-disaster-recovery) and at [SLA for Azure Communication Services](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/).
 
-### Do you provide voice quality SLA for voice in Omnichannel for Customer Service?
+## Call quality
+
+### Do you provide voice quality SLA for the voice channel?
 
 No, we don't publish a voice quality SLA as many factors related to voice quality like network connectivity, speed, and bandwidth, can't be controlled. The [SLA](https://azure.microsoft.com/support/legal/sla/communication-services/v1_0/) published for Azure Communication Services applies to the voice channel as well.
 
@@ -141,15 +149,27 @@ More information:
 - [Enable logging in Diagnostic settings](/azure/communication-services/concepts/analytics/enable-logging)
 - [Use Azure Communication Services communication monitoring plug-in](https://www.npmjs.com/package/@azure/communication-monitoring)
 
+## Emergency calling
+
 ### Does the voice channel support emergency calling?
 
 Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
-### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
+## Inbound and outbound calls, voicemail, and transcripts
 
-Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
+### Why is the agent unable to make an outbound call?
 
-### See also
+The agent must be a part of the outbound voice queue to make an outbound call. Learn more in [Set up outbound calling](voice-channel-outbound-calling.md).
+
+### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
+
+No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued)
+
+### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
+
+Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
+
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)  

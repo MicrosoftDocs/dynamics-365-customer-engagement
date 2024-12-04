@@ -5,6 +5,7 @@ ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Add LinkedIn activities to a sequence 
 
@@ -36,7 +37,6 @@ Ensure that you meet the following requirements before configuring LinkedIn acti
 
 - LinkedIn Sales Navigator is configured in your organization. More information: [Install and enable LinkedIn Sales Navigator](/dynamics365/linkedin/install-sales-navigator)
 - The latest version of the solution is installed. Go to **Advanced settings** > **Solutions**, and search for **msdyn_LinkedInSalesNavigatorAnchor**. The version number should be **3.0.1.1060** or later. 
-- You have the proper license to use LinkedIn Sales Navigator.
 
 ## Complete the research
 
@@ -122,7 +122,7 @@ When this activity is displayed to the seller, the Send InMail step is displayed
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)    
 [Add steps to sequence](steps-sequence.md)    
@@ -132,4 +132,5 @@ When this activity is displayed to the seller, the Send InMail step is displayed
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
 

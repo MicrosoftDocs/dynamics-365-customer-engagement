@@ -1,15 +1,15 @@
 ---
 title: "Walkthrough: Create a UII Application Adapter in Unified Service Desk | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for hosting and interacting with external applications in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Walkthrough: Create a UII Application Adapter
 

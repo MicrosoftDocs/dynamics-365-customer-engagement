@@ -1,19 +1,21 @@
 ---
 title: Enable email validation (preview)
 description: Enable email validation for leads and contacts in Microsoft Dynamics 365 Sales to help your sellers keep their customer email addresses clean.
-ms.date: 07/07/2023
+ms.date: 08/22/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
-ms.custom: bap-template 
+ms.reviewer: udag
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Enable email validation (preview)
 
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
-Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead and contact records. You'll reduce email bounce rates, improve engagement, and get a better return on your sellers' time. 
+Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead and contact records. You reduce email bounce rates, improve engagement, and get a better return on your sellers' time. 
 
 ## License and role requirements
 
@@ -63,7 +65,7 @@ The email validation feature in Dynamics 365 Sales and Power Apps works on the s
 
 | Scenario | Dynamics 365 Sales | Power Apps|
 |------|--------------------|-----------|
-| **Validation** | The validation process runs dynamically and targets only the primary email address in lead and contact records.<br>The feedback is displayed each time the form is loaded.<br> More information: [View invalid email addresses](work-invalid-email-addresses.md#view-invalid-email-addresses) | The validation process dynamically runs on all email address fields, providing immediate feedback. <br>Also, validations are not performed on addresses that are bulk imported. |
+| **Validation** | The validation process runs dynamically and targets only the primary email address in lead and contact records.<br>The feedback is displayed each time the form is loaded.<br> More information: [View invalid email addresses](work-invalid-email-addresses.md#view-invalid-email-addresses) | The validation process dynamically runs on all email address fields, providing immediate feedback. <br>Also, validations aren't performed on addresses that are bulk imported. |
 | **Actions** | Users can mark the invalid email addresses as valid.<br> More information: [Send an email to an invalid address](work-invalid-email-addresses.md#send-an-email-to-an-invalid-address) | Users can't mark the invalid email addresses as valid. |
 | **Both features enabled in an organization** | Only the primary email addresses of leads and contacts are validated according to the Dynamics 365 Sales implementation. | All other email addresses are validated based on the Power Apps implementation. |
 
@@ -82,14 +84,14 @@ The email validation feature in Dynamics 365 Sales and Power Apps works on the s
 
     :::image type="content" source="media/lead-enable-email-validation-page.png" alt-text="Screenshot of the email validation page.":::
 
-1. Turn on email validation for leads and contacts, according to your requirements.
+2. Turn on email validation for leads and contacts, according to your requirements.
 
 Email validation runs immediately on the primary email address in lead and contact records. A red envelope icon indicates an invalid email address. 
 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Work with invalid email addresses](work-invalid-email-addresses.md)   
 [Enable email validation for custom forms](enable-email-validation-custom-forms.md)  

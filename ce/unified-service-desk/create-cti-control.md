@@ -1,15 +1,15 @@
 ---
 title: "Create a CTI Control | MicrosoftDocs"
 description: "Learn about the interfaces required to create a CTI control and how you can configure the hosted control in Unified Service Desk."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Create a CTI Control
 To manage agent states and call states, [!INCLUDE[pn_computer_telephony_integration_cti](../includes/pn-computer-telephony-integration-cti.md)] scenarios require the following user interface (UI) controls:  

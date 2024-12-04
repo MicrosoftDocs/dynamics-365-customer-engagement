@@ -1,13 +1,16 @@
 ---
 title: "System configurations | MicrosoftDocs"
 description: "Learn about the system configurations that best practices outlines and against which Best Practices Analyzer performs analysis."
-ms.date: 04/24/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
+ms.custom: evergreen
 ---
+
 # System configurations
 
 In the context of [!INCLUDE[pn-best-practices-analyzer](../../includes/pn-best-practices-analyzer.md)] and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client application, system configurations are categorized as the hardware and software requirements for the computer and [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].

@@ -5,6 +5,7 @@ ms.date: 04/22/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
   - developer
@@ -16,7 +17,6 @@ ms.custom:
 
 # Customize live chat widgets for mobile apps
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 If the live chat SDK does not meet your requirements, then you can embed a widget code in your mobile app. However, embedding a chat widget code has many limitations such as reduced performance, limited mobile usability, and unavailable features.
 
@@ -56,6 +56,14 @@ var html: String = """
     chatWebView.loadDataWithBaseURL(baseUrl,html, "text/html", null, baseUrl)
 ```
 
+The chat widget uses local storage to manage its state. For the chat widget to access local storage on Android, you need to configure a permission in the native code.
+
+```javascript
+chatWebView = findViewById(R.id.webview)
+webSettings = webView.getSettings();
+webSettings.setDomStorageEnabled(true);
+```
+
 You can optimize the rendering of the chat widget for mobile web experience by using data tags such as `data-hide-chat-button` and `data-render-mobile`, along with a few APIs and events provided by the live chat widget client SDK. More information: [Customize a chat widget using data tags](customize-chat-widget.md)
 
 To open a chat session, you can call the [startChat](reference/methods/startchat.md) method when the new chat button is selected.
@@ -83,7 +91,7 @@ chatWebView.evaluateJavascript(
 
 When the chat is closed, the live chat widget triggers the [lcw:closeChat](reference/events/lcw-closechat.md) event. You can listen for this event, and perform any post-chat steps if required.
 
-### See also
+### Related information
 
 [Live chat SDK reference](omnichannel-reference.md)  
 [Develop custom live chat widgets](develop-live-chat-widget.md)  

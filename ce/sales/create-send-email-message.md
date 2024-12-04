@@ -3,15 +3,17 @@ title: Create and send an email message
 description: Learn how to create and send email messages to your customers using email engagement features in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 11/24/2023
+ms.date: 09/20/2024
 ms.custom: bap-template
 ---
 
 # Create and send an email message <a name="CreateAndSend"></a>
 
-When your organization turns on email engagement, more choices are available, such as follow or unfollow, when you compose an email.
+In general, you can send email messages to your customers directly from Dynamics 365 Sales. However, When the email engagement feature is enabled, more choices are available for emails, such as follow or unfollow, when you compose an email.
+
+Contact your administrator if you don't see the email engagement features described here. More information: [Configure email engagement](configure-email-engagement.md).
 
 ## License and role requirements
 
@@ -25,33 +27,26 @@ When your organization turns on email engagement, more choices are available, su
 The features of email engagement apply to every email that you send through Dynamics 365 Sales. When you send an email, it automatically adds an email activity to the record, and that record is set as the message's **Regarding** value. Also, the email engagement feature collects key performance indicators (KPIs) and determines where the email is displayed based on the recipients (To, From, and Copy-to addresses). 
 
 >[!NOTE]
+>
 >- Emails can't be tracked if a recipient chooses to block. More information: [blocks followed messages](configure-individuals-privacy-preferences.md).
->- Email engagement isn't supported when you send bulk email.
+>- Email engagement isn't supported when you send bulk email. 
 
-The following legend explains the different options that are available:  
+Before creating the email, let's understand the different options that are available in the email form:  
 
 :::image type="content" source="media/new-email-page-email-engagement-callouts.png" alt-text="Screenshot of the New Email page in Dynamics 365 Sales, with email engagement features highlighted." lightbox="media/new-email-page-email-engagement-callouts.png":::
 
-1. **Attachment**: A list of files attached to your email along with controls for adding, removing, and modifying the attachments.
-
-1. **Follow/Don't Follow**: Turn on following to track your customer's engagement with the message or turn it off to stop tracking. Other controls and links appear as needed, such as when a recipient doesn't allow following.
-
-1. **Send Later**: Set the delivery time for your message if you don't want to send it right away. Recommended delivery times may appear here, depending on the recipient's time zone.
-
-1. **Set a Reminder**: Set a reminder to follow up at a specific time. For example, you might want to get an alert if the message remains unopened for three days.
-
+1. **Attachment**: A list of files attached to your email along with controls for adding, removing, and modifying the attachments.  
+1. **Follow/Don't Follow**: Turn on following to track your customer's engagement with the message or turn it off to stop tracking. Other controls and links appear as needed, such as when a recipient doesn't allow following. More information: [Follow or unfollow a message](#EnableTrackingOnMessages).  
+1. **Send Later**: Set the delivery time for your message if you don't want to send it right away. Recommended delivery times may appear here, depending on the recipient's time zone.  
+1. **Set a Reminder**: Set a reminder to follow up at a specific time. For example, you might want to get an alert if the message remains unopened for three days.  
 1. **Insert Template**: Insert standard text that you can revise as needed. Your organization can have multiple templates depending on the business requirements, such as a meeting follow-up or an introduction. Email engagement suggests a template based on previous performance.
 
 **To create and send an email**:
 
-1. Open the record you want to add the activity to (typically a contact, opportunity, lead, or account).
-
-1. In the **Timeline** section, select **+** (**Create a timeline record**) > **Email**.
-
-1. Select a recipient and enter the message subject.
-
-1. Enter the body of your message, or [insert an email template](#EmailTemplates).
-
+1. Open the record you want to add the activity to (typically a contact, opportunity, lead, or account).  
+1. In the **Timeline** section, select **+** (**Create a timeline record**) > **Email**.  
+1. Select a recipient and enter the message subject.  
+1. Enter the body of your message, or [insert an email template](#EmailTemplates).  
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.
 
 > [!TIP]
@@ -59,27 +54,24 @@ The following legend explains the different options that are available:
 
 ## Use an email template <a name="EmailTemplates"></a>
 
-Email templates are standard messages that you send often, such as introductions, confirmations, thank-you messages, and reminders. They can include dynamic values that are filled in automatically, like the recipient's name or an order number. They give you a quick start when you're writing common messages.
+Email templates are standard messages that you send often, such as introductions, confirmations, thank-you messages, and reminders. They can include dynamic values that are filled in automatically, such as the recipient's name or an order number. They give you a quick start when you're writing common messages.
 
 Email engagement analyzes the performance of all the messages your sales team has sent from Dynamics 365 Sales and identifies the most successful templates. It shows all available templates, but highlights the ones that it found to generate the most opens, replies, or sales.
 
-1. [Create a message](#NewMessage).
-
-1. On the command bar, select **Insert Template**.
-
+1. [Create a message](#NewMessage).  
+1. On the command bar, select **Insert Template**.  
 1. In the **Email templates** window, select the language if needed, and then search for and select a template.
 
-  ![Select Template window](media/select-template-window.png "Select Template window")
+    :::image type="content" source="media/select-template-window.png" alt-text="Screenshot of the select template window.":::
 
-1. Select **Apply template**.
-
-1. Customize the template content as needed.
-
+1. Select **Apply template**.  
+    The template content is inserted into the message body.  
+1. Customize the template content as needed.  
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.
 
 ## Follow or unfollow a message <a name="EnableTrackingOnMessages"></a>  
 
-When you follow an email, email engagement can tell you when the recipient opened it, replied to it, opened an attachment, or selected a link in it.
+When you follow an email, email engagement can tell you when the recipient opened it, replied to it, opened an attachment, or selected a link in it. More information: [View message interactions with email engagement](email-engagement.md).  
 
 The **Email Engagement** section includes the following indicators and controls:
 
@@ -193,7 +185,7 @@ When the reminder is triggered, the system creates an action card in the assista
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Turn on email engagement](configure-email-engagement.md)  
 [View message interactions with email engagement](email-engagement.md)  

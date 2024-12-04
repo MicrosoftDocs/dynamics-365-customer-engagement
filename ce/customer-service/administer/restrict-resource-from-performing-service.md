@@ -5,6 +5,7 @@ ms.date: 10/01/2018
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -61,7 +62,7 @@ You can restrict a resource from performing a service and define the service cap
 > - You can set up service restrictions in your own work schedule.  
 > - All of the options may not be available to you for selecting how much of the schedule you want to edit. The available options are based on the schedules that are already set up.  
   
-### See also  
+### Related information  
 [Set work hours for the resources](resources-service-scheduling.md#set-work-hours-for-the-resources)
 
 [Service Scheduling overview](basics-service-service-scheduling.md)

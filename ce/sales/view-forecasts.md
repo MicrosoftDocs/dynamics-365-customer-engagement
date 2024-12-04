@@ -5,6 +5,7 @@ ms.date: 03/05/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
   - bap-template
@@ -43,7 +44,7 @@ Bottoms-up forecasting is the projection of what a salesperson, team, or organiz
 **To view a forecast**
 
 1. In the Sales Hub sitemap, go to **Performance** and select **Forecasts**.  
-   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast-preview) for the current month. For more information, see [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
+   If your organization hasn't configured a forecast or you don't have access to a configured forecast, you see an [out-of-the-box forecast](#out-of-the-box-forecast) for the current month. For more information, see [values displayed in the forecast](#default-columns-in-an-org-chart-forecast).
 
  **To view your organization's configured a forecast**
 
@@ -82,11 +83,7 @@ The following columns are displayed by default in an org chart forecast.
 
 - **Lost**: Shows the aggregated (rolled-up) value of revenue that's lost for all lost opportunities that have the forecast category set as **Lost**.
 
-## Out-of-the-box forecast (preview)
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
-
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+## Out-of-the-box forecast
 
 You can take advantage of forecasts even if your administrator hasn't configured one. 
 
@@ -151,7 +148,7 @@ With the forecast grid, you can do the following tasks:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)  
 [Configure a forecast](configure-forecast.md)  

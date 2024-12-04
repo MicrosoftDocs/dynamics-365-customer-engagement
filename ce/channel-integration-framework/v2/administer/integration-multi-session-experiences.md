@@ -4,6 +4,7 @@ description: Integrate Dynamics 365 Channel Integration Framework 2.0 with multi
 author: gandhamm
 ms.date: 03/21/2024
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
@@ -27,6 +28,5 @@ More information:
 ### See also
 
 [Modes and locations for the communication widget](modes-communication-widget.md)  
-[App profile manager](../../../customer-service/administer/overview.md)   
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

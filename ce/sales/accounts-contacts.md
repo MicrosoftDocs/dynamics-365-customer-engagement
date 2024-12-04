@@ -1,10 +1,12 @@
 ---
 title: Manage your accounts and contacts
 description: Learn how to create and use accounts and contacts in Dynamics 365 Sales to store information about companies and people you work with.
-ms.date: 09/06/2023
+ms.date: 07/08/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ai-usage: ai-assisted
+ms.reviewer: lavanyakr
 ms.custom:
  - ai-gen-docs-bap
  - ai-gen-desc
@@ -30,6 +32,7 @@ In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store informat
 - [Add contacts to an account](#add-contacts-to-an-account)
 - [View opportunities associated with an account](#view-opportunities-associated-with-an-account)
 - [View invoices associated with an account](#view-invoices-associated-with-an-account)
+- [Deactivate an account](#deactivate-an-account)
 - [View relationship analytics and KPIs for an account](relationship-analytics.md)
 
 ### Create an account
@@ -72,6 +75,14 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 1. Select an account in the list.
 
 1. Select the **Related** tab. Scroll down to the **Related - Sales** group, and then select **Invoices**.
+
+### Deactivate an account
+
+You can deactivate an account if you no longer do business with it. Deactivating an account makes the account read-only and hides it from most views but retains the account's history. The related contacts, opportunities, and other records remain active. However, you can't create new records from the existing ones. For example, you can't create a quote from an active opportunity that's associated with the deactivated account.
+
+1. In the sitemap of your sales app, select **Accounts**.
+1. Select the account you want to deactivate.
+1. In the command bar, select **Deactivate**.
 
 ## Work with contacts
 
@@ -125,6 +136,16 @@ If your administrator has [turned on address suggestions](enable-address-suggest
     Or, select the **Related** tab. Scroll down to the **Related - Sales** group, and then select **Opportunities**.
 
 
+### Deactivate a contact
+
+You can deactivate a contact if you no longer work with them. Deactivating a contact makes the contact read-only and hides it from most views. Deactivating a contact makes the contact read-only and hides it from most views but retains the contact's history. The related opportunities, activities, and other records remain active.
+
+1. In the sitemap of your sales app, select **Contacts**.
+1. Select the contact you want to deactivate.
+1. In the command bar, select **Deactivate**.
+
+
 ## Import accounts or contacts from Excel, CSV, and XML Files
 
 You can add accounts and contacts by importing them from a Microsoft Excel, CSV, or XML file or from Microsoft Exchange. [Learn how to import data into Dynamics 365 Sales](import-data.md)
+

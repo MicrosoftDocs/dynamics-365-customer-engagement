@@ -6,11 +6,9 @@ ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # Integrate your own custom channel using Direct Line
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 With Omnichannel for Customer Service, you can implement a connector to integrate custom messaging channels by using Direct Line API 3.0, that's part of .NET SDK. The complete [sample code](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/bring-your-own-channel) illustrates how you can create your own connector. To learn more about the Direct Line API 3.0, see [Key concepts in Direct Line 3.0 API](/azure/bot-service/rest-api/bot-framework-rest-direct-line-3-0-concepts?view=azure-bot-service-4.0&preserve-view=true).
 
@@ -421,7 +419,7 @@ To end the conversation, see [End a conversation in Direct Line](/azure/bot-serv
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 [Markdown formats in custom channels that use Direct Line](../develop/markdown-formats-dev.md)   
 
-### See also
+### Related information
 
 [Configure custom messaging channel](../administer/configure-custom-channel.md)  
 [MessageBird API reference](https://developers.messagebird.com/api)  

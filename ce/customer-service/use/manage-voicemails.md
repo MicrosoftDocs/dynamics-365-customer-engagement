@@ -3,12 +3,15 @@ title: Manage voicemails
 description: Use this article to know about how to access and listen to voicemails as an agent.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 03/07/2024
 ms.custom: bap-template
 ---
 # Manage voicemails
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 As an agent, you can access the voicemails recorded by customers on your direct inward dial number or through work items that have been routed to you.
 

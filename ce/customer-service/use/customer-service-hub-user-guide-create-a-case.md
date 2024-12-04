@@ -5,6 +5,7 @@ ms.date: 12/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -111,7 +112,7 @@ Make sure that you have the Customer Service Manager or Customer Service Represe
 > [!NOTE]
 > If you have previously installed any portal solution, to create a case in the Customer Service Hub or to use the Merge cases command, you must turn off the **Read-only in mobile** option for the Case entity. More information: [Turn off Read-only in mobile option](../../customerengagement/on-premises/customize/edit-entities.md#enable-or-disable-entity-options).
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  

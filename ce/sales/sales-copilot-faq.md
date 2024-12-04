@@ -1,192 +1,195 @@
 ---
-title: Copilot in Dynamics 365 Sales FAQs
-description: This article includes frequently asked questions about Copilot in Dynamics 365 Sales, covering various aspects such as privacy, data security, data management, and more.
+title: FAQ about Copilot in Dynamics 365 Sales
+description: Get answers to common questions about Copilot in Dynamics 365 Sales, including topics like privacy, data security, and data management.
 author: lavanyakr01 
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 02/08/2024
+ms.date: 10/15/2024
 ---
 
-# Copilot in Dynamics 365 Sales FAQs
+# FAQ about Copilot in Dynamics 365 Sales
 
-This article includes frequently asked questions about Copilot in Dynamics 365 Sales.
+This article answers some common questions about Copilot in Dynamics 365 Sales.
 
 ## How does the data flow between Dynamics 365 and Azure OpenAI endpoints?
 
-When you type a question in the Copilot pane, we pass the relevant data to Azure OpenAI Service through our plug-ins and services. We'll release a high-level architecture document around the GA timeframe.
+When you type a question in the Copilot pane, we pass the relevant data to Azure OpenAI Service through our plug-ins and services. Azure OpenAI Service processes the data and sends the response back to Dynamics 365 Sales for display in the Copilot pane. The data flow is encrypted and secure. Learn more in [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy).
 
 ## Does Copilot have abuse monitoring and human review?
 
-No. Our Azure OpenAI resources have opted out of [abuse monitoring and human review](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. We use other techniques to monitor and filter out abusive content at runtime.
+No. Our Azure OpenAI resources have opted out of monitoring for abuse, by humans or automated processing. Learn more in [How can customers get an exemption from abuse monitoring and human review?](/legal/cognitive-services/openai/data-privacy#how-can-customers-get-an-exemption-from-abuse-monitoring-and-human-review). This policy helps us ensure that we don't retain any of your data outside the Dynamics 365 data boundary. Learn more in [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy).
+
+## How can I disable Copilot in Dynamics 365 Sales?
+
+Only an administrator can disable Copilot in Dynamics 365 Sales. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).
 
 ## What data is included in the requests?
 
-The data included in the requests varies based on the type of request made. For example, when you attempt to summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure OpenAI endpoint to generate a summary.
+The data that's included in the requests varies based on the type of request. For example, when you summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure OpenAI endpoint to generate a summary.
+
+## Why can't I see the latest news for an account?
+
+Copilot uses Bing to fetch the latest news for an account. If you can't see the latest news for an account, it might be because of the following reasons:
+
+- Bing doesn't have any news for that account.  
+- Your administrator has not provided consent for Copilot to use Bing.
+
+Learn more about turning on Bing consent in [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1)
 
 ## Is any of my data stored outside of Dynamics 365?
 
-No, we don't save any of your data in any new data store. You can read more about the [Azure OpenAI data and privacy commitments](/azure/ai-services/openai/faq#data-and-privacy).
+No. We don't save any of your data in any new data store. Learn more in [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy).
+
+When you use Copilot in Dynamics 365 Sales for account news, Copilot sends the account name to Bing. Learn more about how Bing handles this data in [Microsoft Services Agreement](https://www.microsoft.com/servicesagreement) and [Microsoft Privacy Statement](https://www.microsoft.com/privacy/privacystatement).
 
 ## How does Copilot encrypt data?
 
-All data exchanges in Copilot are handled according to [Microsoft data management guidelines](https://www.microsoft.com/trust-center/privacy/data-management).
+All data exchanges in Copilot are handled according to Microsoft data management guidelines. Learn more at [Data management at Microsoft](https://www.microsoft.com/trust-center/privacy/data-management).
 
 ## What privacy controls apply to the data received by Azure OpenAI Service?
 
-All data continues to be handled according to [Microsoft privacy guidelines](/compliance/assurance/assurance-privacy). You can read more about the Azure OpenAI data and privacy commitments at [Data and Privacy](/azure/ai-services/openai/faq#data-and-privacy).
+All data is handled according to Microsoft privacy guidelines. Learn more in [Privacy & data management overview](/compliance/assurance/assurance-privacy) and [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy).
 
 ## Where are the Azure OpenAI endpoints hosted?
 
-Currently, the Azure OpenAI resources are only available in the North America and Europe regions. If your Dynamics 365 environment is in any other geography, your data will be moved outside of your geography to handle copilot requests. You'll be prompted to consent to this data movement when you enable Copilot in Dynamics 365 Sales. More information: [Copilot data movement](sales-copilot-data-movement.md)
+The Azure OpenAI endpoints are available in specific regions. Learn more in [Regions involved with copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).
 
 ## Do you use my company data to train any of the models?
 
-No. We don't use any customer data to train Azure OpenAI or any other language models.
+No. We don't use any customer data to train Azure OpenAI or any other language models. Learn more in [How does Copilot use my data?](/dynamics365/faqs-copilot-data-security-privacy#how-does-copilot-use-my-data).
 
-## Is Copilot in Dynamics 365 Sales available in all regions?
+## In which regions is Copilot in Dynamics 365 Sales available?
 
-No, Copilot in Dynamics 365 Sales is not available in the following regions: 
+Learn more at [Explore Copilot products by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotproductreport).
 
-- South Africa (ZAF)
-- Germany (GER) 
-- Norway (NOR)
-- Korea (KOR)
-- Singapore (SGP)
-- United Arab Emirates (UAE)
-- Government Community Cloud (GCC)
-- Department of Defence (DoD)
-- China
+## What's the difference between Microsoft 365 Copilot for Sales and Copilot in Dynamics 365 Sales?
 
-## What's the difference between Microsoft Copilot for Sales and Copilot in Dynamics 365 Sales?
+Copilot for Sales is a seller experience application that's available in Microsoft 365 applications and Microsoft Teams. It lets sellers capture, access, and update customer relationship data from Teams and Microsoft 365 applications like Outlook. It also has generative AI capabilities such as record summarization and email content generation. Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Copilot for Sales](/microsoft-sales-copilot/introduction).
 
-Microsoft Copilot for Sales is a seller experience application that's available in Microsoft 365 and Microsoft Teams applications. It lets sellers capture, access, and update CRM data from within Microsoft 365 and Microsoft Teams applications. It also has generative AI capabilities such as record summarization and email content generation. Microsoft Copilot for Sales works with Dynamics 365 Sales and Salesforce CRM. [Learn more about Microsoft Copilot for Sales](/microsoft-sales-copilot/introduction). 
-
-Copilot in Dynamics 365 Sales refers to the AI assistant that uses generative AI to summarize opportunities and leads, and generate meeting preparation notes. It's integrated with Dynamics 365 Sales apps. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
+Copilot in Dynamics 365 Sales refers to the AI assistant that's integrated with Dynamics 365 Sales apps. It uses generative AI to summarize opportunities and leads and generate meeting preparation notes. [Learn more about Copilot in Dynamics 365 Sales](copilot-overview.md).
 
 ## How does Copilot match leads with contacts and can I customize the matching fields?
 
-Copilot matches leads with contacts based on the lead name, phone number, email address, and company name. The matches are ordered based on the similarity of values in these fields. If you want Copilot to use other fields for matching, you can work with your administrator to [configure the Dataverse search fields](/power-platform/admin/configure-relevance-search-organization). 
+Copilot matches a lead with contacts based on the lead's email address only. The matches are ordered based on the last updated date of the contact record. You can't customize the matching fields. 
 
-> [!NOTE]
-> The fields configured by your administrator will be used for all global search operations (Search box in the top navigation bar) in Dynamics 365.
-
-## Which applications are in the exclusion list for Copilot in Dynamics 365 Sales?
+## Are there any applications where Copilot in Dynamics 365 Sales can't be used?
 
 Copilot in Dynamics 365 Sales can't be turned on for the following applications:
 
-- msdyn_FSMobile
-- msdyn_FieldService
-- msdyn_ResourceScheduling
-- AppforOutlookModule
-- Customerservicehub
-- msdyn_CustomerServiceWorkspace
-- OmniChannelEngagementHub
-- msdyn_ProjectService
+- msdyn_FSMobile (Field Service mobile app)
+- msdyn_FieldService (Field Service)
+- msdyn_ResourceScheduling (Resource Scheduling)
+- AppforOutlookModule (Dynamics 365 Outlook app)
+- Customerservicehub (Customer Service Hub)
+- msdyn_CustomerServiceWorkspace (Customer Service Workspace)
+- OmniChannelEngagementHub (Omnichannel Engagement Hub)
+- msdyn_ProjectService (Project Service)
 
-## What are the early access changes related to Copilot in 2024 release wave 1?
+## Why does my tenant have an app called Sales Copilot Power Virtual Agents Bot?
 
-Some Copilot features are available for early access in the 2024 release wave 1. The following table summarizes the changes related to Copilot for early access. [Learn more about Copilot early access and enabling chat and email](enable-setup-copilot.md) features.
+Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solution. It can't be deleted or turned off. It's installed in all Dynamics 365 Sales environments, whether Copilot in Dynamics 365 Sales is turned on or not. When Copilot in Dynamics 365 Sales is turned on, the bot is used to authenticate and authorize Copilot. If Copilot in Dynamics 365 Sales is turned off, the bot remains dormant in your environment. The bot is updated automatically.
 
-| Setting | Orgs in North America with early access | Orgs in North America without early access | Orgs in others regions | Additional info |
-|---------|-------------|----------------|--------|-----------------|
-| Settings page | New | Old | Old | The new settings page has individual toggles for chat and email. The old experience has a single toggle for Copilot. |
-| Changes to Copilot setting | Retained | Retained | Retained | Any changes made to the Copilot settings prior to February 5th will be retained. |
-| Chat turned on by default | Yes | Yes | No<sup>1</sup> | <sup>1</sup>Needs to be turned on manually. |
-| Copilot for email turned on by default | Yes | No<sup>2</sup> | No<sup>2</sup> | <sup>2</sup>Turned on only if Copilot preview toggle is enabled. |
-| Copilot in email rich text editor turned on by default | Yes | No<sup>3</sup> | No<sup>3</sup> | <sup>3</sup> Turned on only if the **Enable Copilot in Rich Text Editor (preview)** is turned on for the app in the [Power Apps settings](/power-apps/maker/canvas-apps/working-with-experimental-preview?branch=main#controlling-which-features-are-enabled). |
+Power Virtual Agents is now Copilot Studio. Learn more in [Microsoft Copilot Studio overview](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
 
-## Why does my tenant have Sales Copilot Power Virtual Agents Bot in Microsoft Copilot Studio? 
+A related app with the same name is also created for your tenant in Microsoft Azure for authentication and authorization purposes. The app is automatically renewed when it nears expiration. We recommend that you don't delete or turn off this app.
 
-Sales Copilot Power Virtual Agents Bot is part of the Dynamics 365 Sales solution and is deployed to all Dynamics 365 Sales environments, irrespective of whether Copilot in Dynamics 365 Sales is enabled or not. The bot is used to authenticate and authorize Copilot only when Copilot in Dynamics 365 Sales is enabled. If you've disabled Copilot in Dynamics 365 Sales, the bot remains dormant on your environment. The bot will be updated automatically. It can't be deleted or disabled either. [Learn more about Microsoft Copilot Studio](/microsoft-copilot-studio/fundamentals-what-is-copilot-studio).
+## How does Copilot determine if a document is a sales document?
 
-A related app, Sales Copilot Power Virtual Agents Bot, is also created for your tenant in Azure for authentication and authorization purposes. The app will be renewed when it's nearing expiration. We recommend that you don't delete or disable the app.
+Copilot determines whether a document is a sales document or not based on the content length, document type, and use of sales-specific keywords, like "procurement," "proposal," "tender," "supply," "requirements," "specifications," "buy," "sell," "order," "agreement," "customer," and any variation of these terms. Documents that have fewer than 30 words or don't contain sales-specific keywords are classified as non-sales.
 
-## Copilot for emails
+## Copilot for email
 
-The following frequently asked questions are related to Copilot for emails.
+The following questions are related to Copilot for email.
 
-### Why is the Email (preview) tab disabled or not available in my organization?
+### Why is the "Email (preview)" tab not available in my organization?
 
-This feature is available only for organizations in North America with early access to Copilot in 2024 release wave 1. If you're in a different region, you must enable the Copilot preview feature to use. More information: [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).  
+The ability to compose email messages using Copilot is available by default only for organizations in North America that have early access to Copilot in 2024 release wave 1. If you're in a different region, your administrator must turn on the Copilot preview feature. Learn more in [Turn on and set up Copilot in Dynamics 365 Sales](enable-setup-copilot.md).  
 
-### How I enable or disable this feature?
+### How can I turn the Copilot for email feature on or off?
 
-To enable or disable Copilot for email in Dynamics 365 Sales, see [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
+Only your administrator can turn Copilot features like chat and email on and off. Learn more in [Turn Copilot features on or off in Sales Hub](enable-setup-copilot.md#turn-copilot-features-on-or-off-in-sales-hub).
 
-### Can I enable this feature for specific team members?  
+### Can I turn this feature on or off for specific team members?
 
-No, you can't enable this feature for specific team members. It's a global setting that applies to all users in your organization.  
+No. It's a global setting that applies to all users in your organization.
 
-### Is this the same as Microsoft Copilot for Sales in Outlook? How is it different?  
+### Is Copilot for email the same as Copilot for Sales in Outlook? If not, how is it different?  
 
-No, there's no difference between Copilot in Dynamics 365 Sales and Microsoft Copilot for Sales in Outlook. Both features offer the same functionality. However, the interface for Copilot in Dynamics 365 Sales is accessible within the Dynamics 365 Sales apps and may have a version that is slightly older than the one in Outlook.
+Copilot in Dynamics 365 Sales and Copilot for Sales in Outlook offer the same functionality. However, Copilot in Dynamics 365 Sales is accessible in Dynamics 365 Sales apps and might be a version that's slightly older than the one in Outlook.
 
-### What entities are supported for Copilot for emails?
+### What kinds of records can Copilot for email work with?
 
-Copilot for email supports the following entities: Account, Contact, Lead, and Opportunity.
+Copilot for email can use the following record types, or *entities*: account, contact, lead, and opportunity.
 
-### Can I adjust just the length and tone of the email without the system looking into my CRM data?  
+### Can I change the length and tone of the suggested email without the system looking into my CRM data?  
 
-Yes. You can adjust the length and tone of the email. More information: [Refine email content with Copilot](/power-apps/maker/model-driven-apps/use-copilot-email-assist#refine-email-content-with-copilot?context=/dynamics365/context/sales-context)
+Yes. You can adjust the length and tone of the email that Copilot suggests. Learn more in [Use Copilot in the email rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist#draft-and-refine-an-email-in-the-rich-text-editor).
 
-### Why doesn't email thread summary appear sometimes?  
+### Why doesn't the email thread summary appear sometimes?  
 
-Email summary doesn't appear sometimes due to character limitation. More information: [Considerations for email summary](view-copy-email-summary.md#considerations)
+An email summary is generated only for emails or email threads that are longer than 1,000 characters, or about 180 words. Learn more in [View and copy email summary](view-copy-email-summary.md#considerations).
 
-### Why do I see only the Describe the email in some cases?
+### Why do I sometimes see only the "Describe the email" option?
 
-By design, emails related to **Account** and **Contact**, and new emails display only **Describe the email**. For emails related to **Lead** and **Opportunity**, you'll see additional options such as **Make a proposal**, **Reply to inquiry**, and **Address a concern**.
+By design, new emails and emails that are related to an account or a contact display only the **Describe the email** option. For emails that are related to leads and opportunities, you have more options, such as **Make a proposal**, **Reply to inquiry**, and **Address a concern**.
 
-### Can I save my own prompts to write the emails?  
+### Can I save my own prompts to write an email?  
 
-Currently, you can't save your own prompts to write emails.
+No. You can't save your own prompts to write emails.
 
-### Can Copilot for email work for both Outlook and Dynamics 365 email as the default email experience?  
+### Can Copilot for email work when either Outlook or Dynamics 365 email is my default email experience?  
 
-Yes, Copilot for email work for both Outlook and Dynamics 365 email as the default email experience.
+Yes. Copilot for email works whether Outlook or Dynamics 365 email is the default email experience.
 
 ### Can Copilot use a custom email template?  
 
-Currently, you can't use your own templates with Copilot for email.
+No. You can't use your own templates with Copilot for email.
 
-### Can I provide inputs to adjust the length or tone?  
+### Can I provide suggestions to adjust the length or tone?  
 
-Yes. You can provide inputs to adjust the length or tone of the email being generated to improve the draft. More information: [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)  
+Yes. You can provide inputs to adjust the length or tone of the email that Copilot generates. Learn more in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content).
 
-### What languages are supported by Copilot for email?  
+### Which languages can I use with Copilot for email?  
 
-Currently, only English is supported.
+The list of supported languages varies by Copilot feature. We're constantly working to add more languages to Copilot in Dynamics 365 Sales. Learn more at [Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
-### Can I regenerate the system suggested draft?  
+### I don't like the suggested draft. Can I start over?  
 
-Yes. You can regenerate the system suggested draft. For more information, see the **To start a fresh draft** section in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content)
+Yes. You can regenerate the system-suggested draft. Learn more in **To start a fresh draft** in [Refine suggested content](compose-send-email-copilot.md#refine-suggested-content).
 
-### How can I share my feedback?  
+### How can I give you feedback on the Copilot for email feature?
 
 To share your feedback, use the thumbs up or down buttons in the **Email (preview)** pane.
 
-### How can I share my ideas or suggestions?
+### How can I give you ideas or suggestions?
 
-You can use the **Connect and share** icon on the top-right corner of the Sales Hub app to share your ideas and suggestions.
+To share your ideas and suggestions, use the **Connect and share** icon at the top-right corner of the Sales Hub app.
 
-### What are feature enhancements coming soon? 
+### What feature enhancements are coming up?
 
-If you have turned on the preview features, you can see the feature enhancements that are coming soon. To know more, see [Copilot preview features](copilot-preview-features.md)
+If your administrator turned on preview features, you can view a list of feature enhancements that are coming soon. Learn more in [Copilot preview features](copilot-preview-features.md#copilot-preview-features).
 
 ### Is the system reading my email to train the model?
 
-No. The system isn't reading your email to train the model. 
+No. Copilot doesn't read your email to train the model. Learn more in [How does Copilot use my data?](/dynamics365/faqs-copilot-data-security-privacy#how-does-copilot-use-my-data).
 
-### If I keep using this feature, will the system learn to write like me? 
+### If I keep using this feature, will the system learn to write like me?
 
-No. The system doesn't learn to write like you. It uses the data to generate the content based on the context and the prompt you provide.
+No. Copilot doesn't learn to write like you. It generates email content based on the context and the prompt that you provide.
 
-### Where can I see the privacy policy or transparency information for this feature?
+### Where can I find the privacy policy and transparency information for this feature?
 
-For information about the privacy policy or transparency, see [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?context=/dynamics365/context/sales-context).
+Learn more in [FAQ for Copilot data security and privacy for Dynamics 365 and Power Platform](/dynamics365/faqs-copilot-data-security-privacy?context=/dynamics365/context/sales-context).
 
 ### Does Copilot automatically send emails on my behalf?
 
 No. Copilot doesn't send the email automatically on your behalf. You have to review and send the email.
+
+## Related information
+
+- [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
+- [Copilot in Dynamics 365 Sales overview](copilot-overview.md)  
+- [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)

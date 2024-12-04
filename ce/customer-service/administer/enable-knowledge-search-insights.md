@@ -1,14 +1,18 @@
 ---
-title: "Manage knowledge analytics | MicrosoftDocs"
-description: "Learn how to configure Knowledge analytics dashboards."
-ms.date: 11/17/2023
+title: Manage knowledge analytics
+description: Learn how to configure Knowledge analytics dashboards.
+ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Manage knowledge analytics
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
@@ -20,50 +24,27 @@ By default, the Knowledge analytics dashboard is enabled for the System Administ
 
 ## Manage Knowledge analytics dashboard
 
-Use the Customer Service admin center or Customer Service Hub app to enable or disable the knowledge analytics reports.
+Use the Customer Service admin center app to enable or disable knowledge analytics reports.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
+1. In **Knowledge analytics**, select **Manage**. The **Knowledge analytics** page is displayed.
     
       :::image type="content" source="../media/knowledge-analytics_csac.png" alt-text="Screenshot of the Insights page in Custom service admin center":::
 
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+1. Set the **Enable Knowledge analytics** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
 
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-     1. In the site map, select **Service Management**.
-     2. Select **Settings** in **Insights**. The **Insights** page appears.
-     3. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
-
-    :::image type="content" source="../media/cs-enable-analyticsinsights.png" alt-text="Screenshot of Knowledge analytics in Customer Service Hub":::
-
-2. Set the **Enable Knowledge analytics** toggle to **On** to enable the reports or set the toggle to **Off** to disable the reports.
-
-3. Select **Save** or **Save and Close**.
+1. Select **Save** or **Save and Close**.
 
 ## Configure Search term insights dashboard
 
-1. Go to one of the apps, and perform the following steps.
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
 
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Knowledge analytics** section, select **Manage**. The **Knowledge analytics** page is displayed.
+1. In the **Additional features** section, select the **Add knowledge search analytics** checkbox.
 
-      ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-    
-     1. In the site map, select **Service Management**.
-     2. Select **Settings** in **Insights**. The **Insights** page appears.
-     3. In the **Knowledge analytics** section, select **Manage**.
-      The **Knowledge analytics** page is displayed.
-
-  2. In the **Additional features** section, select the **Add knowledge search analytics** checkbox.
-
-3. Select **Save** or **Save and Close**.
+1. Select **Save** or **Save and Close**.
 
 ## View Knowledge analytics dashboards
 
@@ -89,7 +70,7 @@ If you customized the Customer Service workspace app, you must complete the foll
       - **Client**: **Web**.
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](../use/customer-service-analytics-insights-csh.md)  

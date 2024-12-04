@@ -5,7 +5,7 @@ ms.date: 05/24/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -33,32 +33,18 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
+1. Navigate to the Customer Service admin center app, and perform the following steps:
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
-    1. In the **Customer service calendar** section, select **Manage**.                                                                         
-        
-        The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.  
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, go to **Service Management**.
-    1. From the list of entity records, select **Customer Service Schedule** in **Service Teams**.                                                              
-       
-       The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.
-  
+1. In the site map, select **Calendar** in **Operations**. The **Calendar** page appears.
+1. In the **Customer service calendar** section, select **Manage**. The **All Customer Service Calendars** view is displayed. You can switch between various system views using the drop-down list.  
     
-3. To create a customer service schedule, select **New**.  
+1. To create a customer service schedule, select **New**.  
   
     To edit an existing schedule, select the schedule in the list of records, and then select **Edit** on the command bar.  
   
-4. In the **Name** field of the **Create Customer Service Schedule** dialog, enter a meaningful name for the schedule such as “APAC Customer Schedule", and then select **Create**.  
+1. In the **Name** field of the **Create Customer Service Schedule** dialog, enter a meaningful name for the schedule such as “APAC Customer Schedule", and then select **Create**.  
   
-5. In the **Weekly Schedule** dialog, follow these steps:  
+1. In the **Weekly Schedule** dialog, follow these steps:  
    1. For work hours, select one of these options:  
   
       - **Are the same each day**: The schedule is the same for every day of the week. After you select this option, to select the days of the week that the customer support is available, select **Set Work Hours**.  
@@ -75,9 +61,9 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
        If you selected **Observe**, select a holiday schedule from the lookup box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][Set up a holiday schedule](set-up-holiday-schedule.md)  
   
-6. In the **Time Zone** dropdown box, under **Select the time zone**, select the time zone in which your customer support resources will work. If applicable, the daylight saving time is taken into account for the selected time zone.
+1. In the **Time Zone** dropdown box, under **Select the time zone**, select the time zone in which your customer support resources will work. If applicable, the daylight saving time is taken into account for the selected time zone.
   
-7. Select **Save**.  
+1. Select **Save**.  
 
    ![customer service schedule.](../media/customer-service-schedule.png "customer service schedule")
  
@@ -91,7 +77,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
   To add a break in the work hours, like a lunch break, select **Add Break**, and then select the start and end time of the break.  
   
-### See also
+### Related information
 
 [Set up a holiday schedule](set-up-holiday-schedule.md)  
 

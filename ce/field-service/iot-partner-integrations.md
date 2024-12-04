@@ -1,11 +1,11 @@
 ---
 title: IoT partner integrations
 description: Learn about the benefits of integrated IoT solutions and the partners who offer IoT solutions that integrate with Dynamics 365 Field Service.
-ms.date: 08/03/2023
+ms.date: 10/28/2024
 ms.topic: conceptual
 ms.subservice: connected-field-service
-author: MSKeith
-ms.author: keith
+ms.author: vhorvath
+author: vhorvathms
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

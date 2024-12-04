@@ -1,10 +1,11 @@
 ---
 title: Deprecations in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 03/15/2024
+ms.date: 05/24/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - admin
   - customizer
@@ -18,6 +19,17 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Assistant card templates
+
+Effective August 1, 2024, templates to create new assistant cards won't be available. The existing cards that are created using the templates continue to work as-is. You can continue to use the Microsoft Power Automate flow to create your custom cards. [Learn more](create-insight-cards-flow.md).
+
+<a name='snapshot-deprecation'></a>
+## Snapshots in sales forecasting
+
+Effective June 30, 2024, the snapshot capability in sales forecasting will be deprecated and you'll no longer be able to enable snapshots for new forecast configurations. Existing forecast configurations with snapshots will continue to work as-is until October 31, 2024. Post that, all the snapshots and related charts such as deal flow, trend chart, and forecast grid history will be removed.
+
+As an alternative, you can use the [Forecast API](developer/reference/custom-actions/msdyn_ForecastApi.md) to set up daily data sync to pull forecast data.
 
 ## Set seller availability using Outlook calendar
 
@@ -41,7 +53,7 @@ After the cards are deprecated, they’ll no longer be available. You can create
 
 ## Rank optimization of insight cards will be deprecated
 
-Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use. [Learn more](edit-insight-cards.md#turn-cards-on-or-off).
+Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.  
 
 <a name='playbooks'></a>
 ## Playbooks is deprecated

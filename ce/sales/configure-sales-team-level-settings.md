@@ -5,6 +5,7 @@ ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Configure sales team&ndash;level settings 
 
@@ -69,7 +70,7 @@ Conversation intelligence is now configured and ready for use in your sales orga
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [First-run set up in sales app](fre-setup-ci-sales-app.md)

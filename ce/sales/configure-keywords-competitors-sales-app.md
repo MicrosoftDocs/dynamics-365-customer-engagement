@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure conversation content in Sales Hub app    
@@ -49,7 +50,7 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 [Administer conversation intelligence](./intro-admin-guide-sales-insights.md)  

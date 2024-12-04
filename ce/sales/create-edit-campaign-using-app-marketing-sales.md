@@ -1,10 +1,14 @@
 ---
-title: "Create or edit campaign using in-app marketing | MicrosoftDocs"
-description: "Use campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing."
-ms.date: 03/16/2022
-ms.topic: article
+title: Create or edit campaign using in-app marketing
+description: Learn how to create campaigns to store your marketing information and activities, and to measure the success of your efforts through in-app marketing.
+ms.date: 06/20/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
+ms.custom: 
+  - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -32,12 +36,13 @@ Promote your business, expand your reach to new customers, and improve sales by 
   
 - Target marketing lists  
   
-Campaigns can include planning activities that you want to perform before you launch the campaign, and also the campaign activities you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
+Campaigns can include planning activities that you want to perform before you launch the campaign, and other campaign activities that you want to manage as part of the campaign. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)  
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 
@@ -45,21 +50,20 @@ Campaigns can include planning activities that you want to perform before you la
 
 > [!NOTE]
 > - The number of campaign emails you can send in a day depends on your organization's limit for outgoing emails from Exchange. 
-> - The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](../marketing/overview.md).
+> - The average time for distributing a campaign activity to 100,000 members is 24 hours. For larger campaigns and faster activity distribution, use Dynamics 365 Marketing. For more information, go to [Dynamics 365 Marketing documentation](/dynamics365/customer-insights/journeys/customer-journeys-create-automated-campaigns).
   
 1. In the site map, select **Marketing Lists**.
 
-2. Open a marketing list record, and then in the **Campaigns** area, select **New Campaign**.
+2. Open a marketing list record, and then in the **Campaigns** area, select **New Campaign**. To edit an existing campaign, open a campaign from the list.
 
-      - OR -
-
-   To edit a campaign, open a campaign from the list.
+    > [!NOTE]
+    > Alternatively, you can create a campaign from the **Campaigns** area in the Sales Hub site map. Select **New** to create a new campaign or select an existing campaign to edit.
   
 3. In the **Campaign** section, enter the campaign details such as, name, type, and the expected response rate.  
 
 4. In the **Schedules** section, enter the proposed and actual start and end dates of the campaign.
 
-5. Go to the **Details** tab and enter the **Allocated Budget** and **Misc. Cost** of the campaign.
+5. Go to the **Details** tab and enter the **Allocated Budget** and **Misc. Cost** of the campaign. **Actual cost** is automatically calculated based on the the value of Actual cost of all activities related to the campaign. **Total cost** is the sum of **Actual cost** and **Misc. Cost**.  
 
 6. Select **Save**. 
  
@@ -71,7 +75,7 @@ Campaigns can include planning activities that you want to perform before you la
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
+## Related information  
  [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
  [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
  [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   

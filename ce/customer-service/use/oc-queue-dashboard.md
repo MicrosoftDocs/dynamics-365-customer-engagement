@@ -5,9 +5,13 @@ ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Queue dashboard
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
  
@@ -98,7 +102,7 @@ To view the drill-down report, select any single metric value on the required da
 > ![Queue Hourly drill down view.](../media/queue-hourly-drill-down-view.png "Queue hourly drill down view")
 
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

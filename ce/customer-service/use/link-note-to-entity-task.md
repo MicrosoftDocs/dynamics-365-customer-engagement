@@ -3,7 +3,7 @@ title:  Learn about linking timeline notes with table records
 description: Learn how-to link timeline notes to other table records.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
 ms.date: 08/01/2023
@@ -48,6 +48,6 @@ To create a new case from the note, perform the following steps:
 
     :::image type="content" source="../media/link-note-conversation-mini.png" alt-text="runtime experience for the relate conversation timeline note to case " lightbox="../media/link-note-conversation.png":::
 
-### See Also
+### Related information
 
 [Enable linking of timeline notes with other tables](../administer/link-note-to-entity.md)  

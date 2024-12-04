@@ -1,10 +1,11 @@
 ---
-title: "Work with views (lists) in Dynamics 365 Sales | MicrosoftDocs"
-description: "Use views to browse through and manage data in Dynamics 365 Sales to improve your productivity."
-ms.date: 10/01/2019
+title: Work with views (grids) in Dynamics 365 Sales
+description: Use views to browse through and manage data in Dynamics 365 Sales. Learn how to switch views, find records, filter data, and more.
+ms.date: 07/15/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -14,6 +15,7 @@ ms.custom:
 Use grids (views) and lists to browse and manage various data sets in Dynamics 365 Sales to improve your productivity.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -21,6 +23,8 @@ Use grids (views) and lists to browse and manage various data sets in Dynamics 3
 
 
 ## What can you do in a view?
+
+A view is a page that displays various components such as charts, grid, and filters. You can use views to browse through and manage data in Dynamics 365 Sales. You can also [personalize views](/powerapps/user/grid-filters-advanced#create-personal-views) by adding or removing columns, sorting, and filtering data. 
 
 You can perform some common interactions in a view, such as: 
 
@@ -83,7 +87,7 @@ You can perform different actions such as sort, delete, and refresh on items in 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and edit public or system model-driven app views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer)
 

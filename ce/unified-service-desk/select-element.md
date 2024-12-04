@@ -1,15 +1,15 @@
 ---
 title: "SelectElement in Unified Service Desk | MicrosoftDocs"
 description: "Understand how the SelectElement tag works in Unified Service Desk. Also find a code snippet that shows how to use the element."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # SelectElement in Unified Service Desk
 `<SelectElement>` element searches for a named control on an `HTML` page, and returns or reverses its value. This topic describes the elements of `<SelectElement>`  

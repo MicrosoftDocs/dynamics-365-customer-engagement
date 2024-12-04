@@ -5,6 +5,7 @@ ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # View activities of a record or contact
@@ -151,7 +152,7 @@ You can reassign an activity to a team or another user from Unified Interface.
 4. In the **User or team** field, browse and select the user you want to assign the activity to.
 
 
-### See also
+## Related information
 
 [Manage records](open-record.md)  
 [Manage contacts](create-contact.md)  

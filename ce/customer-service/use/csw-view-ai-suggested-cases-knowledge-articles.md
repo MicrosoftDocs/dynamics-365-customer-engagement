@@ -1,10 +1,11 @@
 ---
-title: View AI suggested similar cases, knowledge articles | MicrosoftDocs
+title: View AI suggested similar cases, knowledge articles
 description: How to use AI suggested cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 01/25/2024
+ms.date: 11/28/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
 ms.custom: 
@@ -21,12 +22,14 @@ searchScope:
 
 # View AI-suggested similar cases and knowledge articles
 
- When you open an active case, you can view suggestions about similar cases that were previously resolved successfully and knowledge articles. With the use of AI, these features help you find the right solutions and provide better and faster service to customers. To understand how AI-suggestions work, see [How AI suggestions for similar cases and knowledge articles work](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+When you open an active case, you can view suggestions about knowledge articles  and similar cases that were previously resolved successfully. With the use of AI, these features help you find the right solutions and provide better and faster service to customers. To understand how AI-suggestions work, see [How AI suggestions for similar cases and knowledge articles work](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
 
 The AI suggestions are displayed in smart assist, an intelligent assistant that provides real-time recommendations to you, helping you take actions on active cases or during your interactions with customers in ongoing conversations. If similar cases and knowledge articles aren't displayed, your Administrator would've disabled the AI-suggestions for similar cases and knowledge articles features.
 
 > [!IMPORTANT]
-> The **Smart assist** pane is displayed only when you open the case in a new session tab. If you open to view a resolved case in an app tab when your in-progress case is open, smart assist will not be refreshed for the resolved case.
+> The **Smart assist** pane is displayed only when you open the case in a new session tab. If you open to view a resolved case in an app tab when your in-progress case is open, smart assist isn't refreshed for the resolved case.
 
 ## Prerequisites
 
@@ -53,7 +56,6 @@ The following table lists the explanation of the smart assist card for AI-sugges
 | 7 | Displays the confidence score based on which the knowledge article was selected by the AI model. Usually, the suggested knowledge articles are highly relevant to the context of conversations when the confidence score is above 80%; suggestions with lower confidence score may still be relevant based on the semantic meaning of some key words in the conversation. The minimum confidence score is 65%. |
 | 8 | When user selects **Yes**, the label is highlighted and the card remains on the pane. If user selects **No**, the card is replaced with a new suggestion, if it exists. This feedback from agents is used by the AI model to retrain and improve the suggestions over time.|
 | 9 |Displays information on the keywords that were used by the AI model to match the article. |
-|  |  |
 
 If no knowledge articles match, then the card displays an appropriate message, such as "No suggestions found for knowledge article."
 
@@ -103,7 +105,7 @@ Perform the following steps to view the similar cases and related articles for t
      - **Email agent:** Select to open the email compose form to send your questions to the agent who handled the similar case. The mail form opens on a new tab with the pertinent information and link to the resolved case filled in.
    - Select the link icon to link or clear the link with the similar case.
 
-### See also
+### Related information
 
 [Enable AI-suggestions for similar cases and knowledge articles](../administer/csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Knowledge base search control powered by Relevance search](search-knowledge-articles-csh.md)  

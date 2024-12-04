@@ -13,8 +13,7 @@ author: sericks007
 ms.author: sericks
 search.audienceType: 
   - enduser
-
-  ms.topic: conceptual
+ms.topic: conceptual
 ---
 # Import and export data
 
