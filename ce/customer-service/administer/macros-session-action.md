@@ -73,7 +73,7 @@ Opens the specified application in a new tab with the attributes you define. The
 
 To create a macro that opens a tab template passing the tab template's unique name as a parameter and open a tab template based on the tab template's unique name, Add the **Open application tab** action with the following attributes: 
  - **Page type**: `Entity Record`
- - **Application Template ID** : bde86e2f-6bd1-48a9-baf9-dae720aa9f45
+ - **Application Template ID** : 6a6a6a6a-7777-bbbb-8888-9c9c9c9c9c9c
 
  
 ## Refresh the session context

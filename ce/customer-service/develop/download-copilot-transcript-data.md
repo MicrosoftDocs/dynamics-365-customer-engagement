@@ -112,14 +112,14 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
        {
          "id": "eba9e9d5-71e2-9502-0bca-9387246fb094",
          "requestId": "93893746-e203-e9b6-18b9-887d68d18daf",
-         "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu. Here's the data you'll be working with:\n\n```json\n{\n    \"id\": \"56d56813-04f5-ed11-8849-000d3a35dbfc\",\n    \"title\": \"Booking Travel\",\n    \"source\": \"internal_kb\"\n}\n```\n\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.",
+         "message": "To book a trip, follow these steps:\n\n1. Go to the travel portal.\n2. Click on \"Travel\" and then select \"Book a Trip\".\n3. Fill in your name, contact information, and the dates of your trip.\n4. Choose your destination from the drop-down menu. Here's the data you'll be working with:\n\n```json\n{\n    \"id\": \"11bb11bb-cc22-dd33-ee44-55ff55ff55ff\",\n    \"title\": \"Booking Travel\",\n    \"source\": \"internal_kb\"\n}\n```\n\n5. Select a hotel from the drop-down menu and specify the check-in and check-out dates. If you don't want to book a hotel, you can check the \"I do not want to book a hotel\" box.\n6. Choose the type of rental car you want. If you don't want to rent a car, you can check the \"I do not want to rent a car\" box.\n7. Click \"Submit\".\n\nOnce you've submitted your booking request, you will receive a follow-up communication from an agent with a quote. You can also add any notes or additional information by clicking on the case from the My Bookings screen.",
          "sequence": 1,
          "user": "bot",
          "timestamp": 1711052776968,
          "isActivityError": false,
          "sources": [
            {
-             "id": "56d56813-04f5-ed11-8849-000d3a35dbfc",
+             "id": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
              "title": "Booking Travel",
              "source": "internal_kb"
            }
@@ -132,7 +132,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
      "context": {
        "chatId": "21b27e83-299d-a639-3e4a-8dcd6332e184",
        "sessionId": "session-id-2",
-       "entityId": "56d56813-04f5-ed11-8849-000d3a35dbfc",
+       "entityId": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
        "entityName": "knowledgearticle"
      }
    } 
@@ -288,7 +288,7 @@ The interactions are displayed in the response as follows.
       "msdyn_name": null,
       "msdyn_scenariorequestid": null,
       "msdyn_scenariotype": 100230201,
-      "_organizationid_value": "ad57bad3-0bd3-ee11-9049-00224820c23e",
+      "_organizationid_value": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
       "overriddencreatedon": null,
       "statecode": 0,
       "statuscode": 1,
@@ -315,7 +315,7 @@ The interactions are displayed in the response as follows.
       "msdyn_name": null,
       "msdyn_scenariorequestid": null,
       "msdyn_scenariotype": 100230201,
-      "_organizationid_value": "ad57bad3-0bd3-ee11-9049-00224820c23e",
+      "_organizationid_value": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
       "overriddencreatedon": null,
       "statecode": 0,
       "statuscode": 1,

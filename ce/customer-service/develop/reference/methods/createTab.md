@@ -51,7 +51,7 @@ These examples use the `createTab` method to launch a new tab.
 Creates a new tab in the focused session, passing the entity name, recordId, and app tab template name as parameters.
 
 ```JavaScript
-var tabInput = {templateName: "msdyn_entityrecord",  appContext: new Map().set("entityName", "account").set("entityId", "09e68a6e-b7ef-eb11-bacb-000d3a373d11"),  isFocused: true};
+var tabInput = {templateName: "msdyn_entityrecord",  appContext: new Map().set("entityName", "account").set("entityId", " 22cc22cc-dd33-ee44-ff55-66aa66aa66aa"),  isFocused: true};
 Microsoft.Apm.createTab(tabInput);
 ```
 
@@ -65,7 +65,7 @@ formParams["subject"] = "Collaboration task";
 formParams["actualdurationminutes"] = 60;
 formParams["prioritycode"] = 2;
 formParams["scheduledend"] = "12/12/2030 10:00"
-formParams["regardingobjectid"] = "a333a119-d573-ec11-8942-000d3a840a75";
+formParams["regardingobjectid"] = "aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb";
 formParams["regardingobjectidname"] = "How do I measure my tamp pressure?";
 formParams["regardingobjectidtype"] = "incident";
 

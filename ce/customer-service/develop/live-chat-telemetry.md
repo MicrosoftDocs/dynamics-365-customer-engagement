@@ -16,7 +16,7 @@ Some of the data collected by the live chat widget include the following.
 
 |Field|Sample value|
 |----|----|
-|OrganizationId |`00aa00aa-bb11-cc22-dd33-44ee44ee44ee` |
+|OrganizationId |`11bb11bb-cc22-dd33-ee44-55ff55ff55ff` |
 |Chat Widget Version |`prod` |
 |BrowserName |`Edge` |
 |OSName |`Windows`| 
