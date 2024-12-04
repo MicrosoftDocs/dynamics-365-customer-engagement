@@ -1,10 +1,11 @@
 ---
-title: "Customize interactive dashboards that are based on Unified Interface | Microsoft Docs"
-description: "Know how to configure interactive dashboards in Dynamics 365 Customer Service."
-ms.date: 03/25/2022
+title: Customize interactive dashboards that are based on Unified Interface
+description: Know how to configure interactive dashboards in Dynamics 365 Customer Service.
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -26,7 +27,7 @@ Dashboards pull together key information, so customer service representatives ca
 For more information about dashboards, see [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../use/../use/customer-service-hub-user-guide-dashboard.md)
 
 > [!NOTE]
-> The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in **Settings** > **Service Management** > **Queues**. After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues  to assign the newly created queues appropriately.  
+> The interactive dashboards are solution aware and can be exported and then imported into a different environment as a solution. However, the queues that the streams and tiles are based on aren’t solution aware. Before importing the dashboard solution into the target system, the queues must be manually created in the target system in the Customer Service admin center app. In the site map, go to **Customer support** > **Queues** . After you create the queues, import the dashboard solution to the target system, and then edit the streams or tiles that are based on the queues to assign the newly created queues appropriately.  
   
 The illustrations in this article show multistream and single-stream dashboards with the header pane. Below the header you see visual filters and streams. In the single-stream dashboard, you also see tiles. For each dashboard type, you can choose from several different layouts that are also shown. The dashboard header contains the following controls and clickable icons, from left to right: dashboard picker, refresh, visual filter icon, global filter icon, and timeframe filter.  
 
@@ -314,7 +315,7 @@ Similarly, if you go to the **Priority** field to modify the colors of the case 
 
 ![Change dashboard color for case priority.](../media/priority-color-modify.png "Change dashboard color for case priority")
   
-### See also
+### Related information
 
 [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../use/customer-service-hub-user-guide-dashboard.md) <br>
 [Create and edit dashboards](../../customerengagement/on-premises/customize/create-edit-dashboards.md)   <br>

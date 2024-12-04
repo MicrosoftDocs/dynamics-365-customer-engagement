@@ -1,13 +1,17 @@
 ---
 title: Assistant for Dynamics 365 Sales
-description: Use the sales assistant to stay on top of your day through insight cards that provide tailored and actionable insights.
-ms.date: 09/08/2023
+description: Stay on top of your day with the Assistant feature in Dynamics 365 Sales. Get tailored and actionable insights to help you succeed.
+ms.date: 06/28/2024
 ms.topic: overview
-ms.custom: bap-template
 ms.collection: get-started
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:03/21/2024
 ---
 
 # Assistant for Dynamics 365 Sales 
@@ -25,7 +29,6 @@ Depending on your role, you can use the text message feature as described in the
 - Configure the assistant for your organization. More information: [Configure the assistant](configure-assistant.md)
 - Create custom insight cards. More information: [Create custom insight cards](create-insight-cards-flow.md)
 - Edit insight cards. More information: [Edit insight cards](edit-insight-cards.md)
-- Optimize the ranking of insight cards. More information: [Optimize ranking of insight cards](optimize-ranking-insight-cards.md)
 - Add the assistant widget to custom forms. More information: [Add assistant widget to custom forms](add-assistant-widget-custom-forms.md)
 - Disable teaser cards. More information: [Disable teaser cards](configure-assistant.md#disable-teasers)
 

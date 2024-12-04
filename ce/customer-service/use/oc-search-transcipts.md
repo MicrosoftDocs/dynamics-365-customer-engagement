@@ -5,17 +5,18 @@ ms.date: 08/02/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Search for transcripts
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-As an agent, you communicate with customers to resolve issues. All those conversations are stored as transcripts in Omnichannel for Customer Service app. When you want to find any details from the transcripts, you can search for them.
+As an agent, you communicate with customers to resolve issues. All those conversations are stored as transcripts in the application. When you want to find any details from the transcripts, you can search for them.
 
 ## Search details in transcripts
 
-1. Sign in to Omnichannel for Customer Service.
+1. Sign in to the application.
 
 2. Select **Search** in the nav bar. The **Search** tab opens in the application tab panel.
 
@@ -28,7 +29,7 @@ You can now view the details in the **Transcript** section.
 > [!NOTE]
 > Users with the System Administrator role can access conversations that are handled by other agents.
 
-### See also
+### Related information
 
 [Configure relevance search for chat transcript](../administer/relevance-search-chat-transcript.md)
 

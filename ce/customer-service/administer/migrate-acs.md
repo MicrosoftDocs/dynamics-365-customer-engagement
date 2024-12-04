@@ -5,6 +5,7 @@ ms.date: 03/09/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -24,12 +25,12 @@ As part of the migration to the omnichannel messaging platform, we released a ne
 
 - If you're a bot author or developer, download the latest middleware NuGet package.
 
-- If you've enabled downloading file attachments in chats, you must program your Azure bot to [download file attachments properly](../develop/download-attachments-bot.md#manage-file-attachments-during-migration) in the omnichannel messaging channel.
+- If you've enabled downloading file attachments in chats, you must program your Azure bot to [download file attachments properly](../develop/download-attachments-bot.md#manage-file-attachments) in the omnichannel messaging channel.
 
 > [!NOTE]
 > These changes won't impact your existing omnichannel experience. We'll work with you to help you navigate and test the changes to ensure a smooth transition.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)  
 [Omnichannel for Customer Service system requirements](../implement/system-requirements-omnichannel.md)  

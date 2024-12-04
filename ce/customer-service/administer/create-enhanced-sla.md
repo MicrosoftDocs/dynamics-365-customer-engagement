@@ -5,6 +5,7 @@ ms.date: 09/22/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -33,16 +34,8 @@ ms.collection: get-started
 
 1.  Go to **Service-level agreements (SLAs)**.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
-    1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed.
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-   
-    - In the site map, go to **Service Management** and select **Categories** in **Knowledge Base Management**. The **All Categories** view is displayed. You can switch between various system views using the dropdown list.
+1. In the site map, select **Service terms** in **Operations**. The **Service terms** page appears.
+1. In the **Service-level agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements from Unified Interface** view is displayed. You can switch between various system views using the dropdown list.
 
 1. To create a new SLA, select **New**.
 
@@ -139,7 +132,7 @@ This sample SLA KPI tracks whether the salesperson has taken necessary action on
 > - Make sure you don't have too many SLA items in an SLA because that might negatively affect the create and update operations on the record on which the SLA is applied or reevaluated. We recommend that you have no more than 15 SLA items in an SLA for performance reasons.
 > - The SLA business logic relies on **SLA KPI Instance** record values, so to avoid any conflict, we recommend that you don't create plug-ins or processes to directly update the **SLA KPI Instance** record values.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

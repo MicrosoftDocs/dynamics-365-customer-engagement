@@ -5,6 +5,7 @@ ms.date: 06/22/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -29,7 +30,7 @@ To post questions for our team, use the [Dynamics 365 Customer Service Community
 
 To share feedback and ideas for how we can improve Customer Service, go to the [Dynamics 365 Customer Service ideas forum](https://go.microsoft.com/fwlink/?linkid=2240512) and select the relevant category.
 
-### See also
+### Related information
 
 [Community overview](community-overview.md)<br>
 [Get started with Community](community-get-started.md)<br>

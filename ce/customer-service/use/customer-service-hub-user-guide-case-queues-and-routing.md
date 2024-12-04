@@ -5,6 +5,7 @@ ms.date: 04/05/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -59,7 +60,7 @@ To know more about queues, see [Work with queues](work-with-queues.md).
     > [!IMPORTANT]
     >  The **Save & Route** button is available only on active cases.  
 
-### See also
+### Related information
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  

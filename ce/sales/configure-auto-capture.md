@@ -7,7 +7,7 @@ ms.topic: how-to
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
+ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
@@ -71,7 +71,7 @@ Before you enable auto capture, perform the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administering Sales Insights](intro-admin-guide-sales-insights.md)  
 [Auto capture FAQs](faqs-sales-insights.md#auto-capture)  

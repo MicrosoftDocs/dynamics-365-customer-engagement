@@ -1,10 +1,11 @@
 ---
 title: Enhanced experience for Adding products to quotes, orders, or invoices
 description: Use the enhanced experience to quickly find and add multiple products that your customer is interested in purchasing to your quote, order, or invoice in Dynamics 365 Sales Enterprise.
-ms.date: 05/17/2022
+ms.date: 11/12/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -79,7 +80,7 @@ If you've created a quote from an opportunity, the products added to the opportu
        
         The **Add products** dialog box opens.
  
-       ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
+       :::image type="content" source="media/enhancedAddProductsDialog.png" alt-text="Screenshot of the enhanced Add products dialog box.":::
 
        > [!NOTE]
        > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see a **Quick create** form instead of the Add products dialog, contact your system administrator to enable the experience. More information: [Enable or disable the enhanced experience for adding products](enable-enhanced-add-product-experience.md) 
@@ -117,7 +118,7 @@ If you've created a quote from an opportunity, the products added to the opportu
 
 7. Repeat steps 3 through 6 for each product you want to add.
 
-8. When you're done, select **Save to quote**.
+8. When you're done, select **Save to Quote**.
 
 ## Remove products from a quote, order, or invoice
 
@@ -139,12 +140,12 @@ Remove products if you've selected them inadvertently or they're no longer relev
 
 1. Open the quote, go to the **Products** section.
 
-2. Select the products that you want to remove, and then select **Delete quote product**.
+2. Select the products that you want to remove, and then select the **More commands** button :::image type="icon" source="media/more-commands-icon.png" border="false"::: > **Delete Quote Product**.
     The selected products will be removed from the quote after you confirm the deletion.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable the enhanced experience of adding products](enable-enhanced-add-product-experience.md)  
 [Customize the Add Products dialog box](customize-add-products-dialog-box.md)

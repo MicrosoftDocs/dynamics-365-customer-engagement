@@ -5,14 +5,12 @@ ms.date: 11/17/2023
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Display suggested actions in a vertical layout
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -22,6 +20,6 @@ To enhance the user experience and promote easy readability, use the data tags m
 
 The suggested actions feature is now supported in Microsoft Teams with other asynchronous chat channels.
 
-### See also
+### Related information
 
 [Integrate Copilot Studio bot](../administer/configure-bot-virtual-agent.md)  

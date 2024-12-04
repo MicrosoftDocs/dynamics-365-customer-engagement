@@ -3,7 +3,7 @@ title: Enable focused view for all records
 description: Enable focused view in the Power Platform admin center. This displays the focused view for all entities in your organization.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
 ms.date: 02/02/2024
@@ -38,7 +38,7 @@ You must have the **System Administrator** or similar security role to perform t
 
    Focused view is now enabled for your organization.  
 
-### See also
+## Related information
 
 [Configure focused view as default](set-focused-view-as-default.md)  
 [View and manage records in focused view](focused-view.md)

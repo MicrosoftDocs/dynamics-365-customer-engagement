@@ -5,7 +5,7 @@ ms.date: 01/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 content_well_notification:
   - AI-contribution
@@ -43,6 +43,9 @@ The solution explorer page is where you can create and manage customizations.
 1. In the Sales Hub app, select the **Settings** icon, and then select **Advanced Settings**.
 
    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option in Sales Hub.":::
+
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 3. On the navigation bar of the **Business Management** page, select **Settings** > **Customizations**.
 
@@ -96,9 +99,10 @@ After you're done with the customizations, select **Publish All Customizations**
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

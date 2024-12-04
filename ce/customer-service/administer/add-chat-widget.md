@@ -1,15 +1,16 @@
 ---
-title: "Configure a chat widget | MicrosoftDocs"
-description: "Perform the steps mentioned in the article to configure a chat widget in Omnichannel for Customer Service."
+title: Configure a chat widget
+description: Perform the steps mentioned in the article to configure a chat widget in Dynamics 365 Contact Center.
 ms.date: 02/29/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ---
 
 # Configure a chat widget
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can configure a live chat widget that can be displayed on your portal for customers to interact with bots and human agents.
 
@@ -17,26 +18,11 @@ To add a chat widget, configure a workstream that defines how chat conversations
 
 ## Configure a chat widget
 
-
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
-    1. Select **Manage** for **Chat**. The **Chat channels** page appears.
+1. Select **Manage** for **Chat**. The **Chat channels** page appears.
     
-    1. Select **Add chat channel**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    1. In the site map, select **Workstreams**.
-    
-    1. In the **All workstreams** view, select the workstream for which you want to configure the chat widget.
-
-    1. On the workstream page, select **Set up chat** if a chat channel isn't created, or select **Add chat channel** to add a chat widget.
+1. Select **Add chat channel**.
 
 1. On the **Channel details** page, enter a name and select a language in the **Name** and **Language** fields, respectively.
 
@@ -46,6 +32,8 @@ To add a chat widget, configure a workstream that defines how chat conversations
    - **Theme color:** Choose a color from the list.
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
    - **Agent display name:** Select a value from the list.
+   > [!NOTE]
+   > You can customize the chat widget appearance using data tags. Learn more at [Customize live chat widgets using data tags](../develop/customize-chat-widget.md).
 
 1. Switch the toggle to **Yes** to enable the following options:
    - [Proactive chat](proactive-chat.md)
@@ -88,7 +76,7 @@ You can configure visual and sound notifications to be sent to customers when th
 
 Perform the following steps to enable the customer notifications:
 
-1. In Customer Service admin center or Omnichannel admin center app (deprecated), edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Customer Service admin center or Contact Center admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
@@ -100,7 +88,7 @@ You can also configure the customer notifications when you're configuring the ch
 
 [Errors in creating a chat widget](../troubleshoot-omnichannel-customer-service.md#chat-widget)
 
-### See also
+### Related information
 
 [Configure a pre-conversation survey](configure-pre-chat-survey.md)  
 [Configure agent display name](agent-display-name.md)  

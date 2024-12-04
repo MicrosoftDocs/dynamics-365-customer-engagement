@@ -6,7 +6,8 @@ ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "lavanyakr01"
-ms.author: "lavanyakr"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -1796,7 +1797,7 @@ See the [invoicedetail_parentref_invoicedetail](invoicedetail.md#BKMK_invoicedet
 
 See the [invoice_details](invoice.md#BKMK_invoice_details) one-to-many relationship for the [invoice](invoice.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -1,10 +1,11 @@
 ---
 title: "How are stakeholders and sales team members tracked for opportunities? (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Learn how stakeholders and sales team members for opportunities are tracked in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 09/05/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # How are stakeholders and sales team members tracked for opportunities? 
 
@@ -28,7 +29,7 @@ You can add existing users as sales team members by using the **Sales team** sub
     
 Dynamics 365 Sales uses the Opportunity Sales Access Team template to provide access to the opportunity record to all the users connected under the **Sales team** connection role category. A salesperson who might not have access to a given opportunity record by their assigned security role privileges can still get access when added as a sales team member from this subgrid. This allows the sales team member users to access and work with the opportunity record in Dynamics 365 on a per-record basis. Similarly, when an existing sales team member is deleted from the subgrid, the access to the opportunity record granted via the access team template is also removed. More information: [Share records using Access Team](/powerapps/user/access-team)
 
-### See also
+## Related information
 
 [Create or edit opportunities](create-edit-opportunity-sales.md)
 

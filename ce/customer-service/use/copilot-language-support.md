@@ -5,8 +5,8 @@ author: gandhamm
 ms.author: mgandham
 ms.collection: bap-ai-copilot
 ms.topic: conceptual
-ms.reviewer: 
-ms.date: 01/25/2024
+ms.reviewer: mgandham
+ms.date: 11/28/2024
 ms.custom: bap-template 
 ---
 
@@ -27,14 +27,14 @@ The following scenarios can help you understand the language Copilot uses to gen
 
 | Scenarios | Copilot response | 
 | --- | --- | 
-|A case has notes in Spanish, and the UI language is set to Spanish. | Case summary is generated in Spanish. |
-| For a case, the description is in French, email thread is in Spanish, and the UI language is set to Spanish. | Case summary is generated in Spanish. |
-| The UI language is set to Spanish. The knowledge articles are in Spanish. The agent asks a question in Spanish. | Results are displayed in Spanish. |
-| The  UI language is set to Spanish, and the agent asks a question in French. | Results are displayed in Spanish. |
+|The UI language is set to Spanish and a case has notes in Spanish. | Copilot generates the case summary in Spanish. |
+| The UI language is set to Spanish. The case description is in French. The email thread is in Spanish. | Copilot generates the case summary in Spanish. |
+| The UI language is set to Spanish. The knowledge articles are in Spanish. The agent asks a question in Spanish. | Copilot displays the results in Spanish. |
+| The  UI language is set to Spanish. The agent asks a question in French. | Copilot displays the results in Spanish. |
 |  The UI language is set to Spanish. The knowledge articles are in the English language only. The agent asks a question in Spanish.| No response is generated. |
-| The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from the public web pages. | Responses are returned if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
+| The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from the public web pages. | Copilot returns responses if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
 
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)

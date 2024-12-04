@@ -3,16 +3,16 @@ title: Pricing scenarios for voice calling
 description: Use this article to understand how pricing works in the voice channel.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ms.topic: conceptual
-ms.date: 06/27/2023 
+ms.date: 07/01/2024 
 ms.custom: bap-template 
 ---
 
 # Pricing scenarios for voice calling
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 

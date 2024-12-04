@@ -5,6 +5,7 @@ ms.date: 10/27/2022
 ms.topic: overview
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 
 ---
 # Omnichannel for Customer Service entity reference 
@@ -192,7 +193,7 @@ More information: <xref:"Microsoft.Dynamics.CRM.queue?text=Queue entity" />
 
 See [Deprecated entities](deprecated-entities.md) for the list of entities that are deprecated and no longer supported.
 
-### See also
+### Related information
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]  

@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Work with the Dynamics 365 app (preview)
@@ -38,7 +39,7 @@ Select the Dynamics 365 app icon in the meeting toolbar. Details about the linke
 
 :::image type="content" source="./media/tmi-side-panel.png" alt-text="Record side panel in a Teams meeting.":::
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

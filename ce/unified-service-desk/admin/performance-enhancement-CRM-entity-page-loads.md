@@ -1,15 +1,14 @@
 ---
 title: "Performance enhancement in loading model-driven app pages | MicrosoftDocs"
 description: "Learn about the various pooling features available to enhance the performance of loading model-driven app pages in Unified Service Desk."
-ms.date: 06/21/2021
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 
 # Performance enhancement for loading model-driven app pages

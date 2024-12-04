@@ -5,7 +5,7 @@ ms.date: 01/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 content_well_notification:
   - AI-contribution
@@ -77,7 +77,7 @@ You can reopen a closed opportunity if the customer is interested in pursuing th
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)    
 [Dynamics 365 Sales troubleshooting guide](troubleshooting.md)  
 [Troubleshoot issues with opportunities](/troubleshoot/dynamics-365/sales/troubleshoot-opportunities-issues#opportunity-issues-and-resolution-for-salespeople)

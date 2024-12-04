@@ -5,6 +5,7 @@ ms.date: 08/04/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - developer
 ---
@@ -774,7 +775,7 @@ See systemuser Entity [lk_msdyn_soundfile_modifiedonbehalfby](systemuser.md) One
 
 See organization Entity [organization_msdyn_soundfile](#BKMK_organization_msdyn_soundfile) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

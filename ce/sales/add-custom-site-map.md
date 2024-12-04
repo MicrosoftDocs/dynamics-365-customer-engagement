@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -56,6 +57,6 @@ Add an entry to the site map from a Dataverse table, a dashboard, a URL, a web r
 
 1. Save and publish the app.
 
-### See also
+## Related information
 
 - [Customize the Dynamics 365 Sales app](manage-app.md)

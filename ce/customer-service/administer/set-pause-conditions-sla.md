@@ -3,7 +3,7 @@ title: Configure pause conditions for SLA-enabled entities
 description: Learn how to set pause conditions for SLA enabled entities, SLA KPI Instances, and SLA Items.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 01/03/2024
@@ -49,6 +49,6 @@ If pause conditions are set for the SLA Item, the SLA Item level pause con
 > - The warning and failure durations of an SLA are calculated depending on the value provided in the **Applicable When** field of the SLA KPI Instance.
 > - When you resume a paused SLA, the current SLA KPI Instance is canceled and a new SLA KPI Instance is created.
 
-## See Also
+## Related information
 
 [Configure service-level agreements](define-service-level-agreements.md#configure-service-level-agreements)

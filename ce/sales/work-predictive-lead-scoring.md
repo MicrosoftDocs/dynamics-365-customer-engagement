@@ -1,9 +1,10 @@
 ---
 title: Prioritize leads through predictive scores
 description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-ms.date: 05/10/2023
+ms.date: 07/04/2024
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ms.topic: conceptual
 ms.service: dynamics-365-sales
@@ -48,6 +49,8 @@ The **My Open Leads Scored** system view is available when predictive lead scori
 
 :::image type="content" source="media/my-open-lead-score-view.png" alt-text="Screenshot of the My Open Leads Scored view.":::
 
+Don't see the scores for your leads? Check out this [FAQ](faq-lead.md#leads-not-scored).
+
 Legend:
 
 1.	**Score** shows the likelihood, on a scale of 1 to 100, that the lead will convert to an opportunity. A lead with a score of 100 has the highest likelihood of converting to an opportunity. The scores are refreshed after every 24 hours.
@@ -84,7 +87,7 @@ For more information about the lead score, select the **About** tab. The **About
 
 :::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-about-tab.png" alt-text="Screenshot of predictive lead score About tab.":::
 
-### See also
+## Related information
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
 

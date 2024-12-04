@@ -5,6 +5,7 @@ ms.date: 08/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -81,7 +82,7 @@ When you've finished setting permissions, select **Next**.
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)
 

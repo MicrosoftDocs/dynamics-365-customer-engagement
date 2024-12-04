@@ -3,17 +3,18 @@ title: Configure a post-call survey in the voice channel
 description: Learn about how to configure a post-call survey for the voice channel in Omnichannel for Customer Service.
 author: lalexms
 ms.author: laalexan
-ms.date: 03/25/2022
+ms.date: 06/14/2024
 ms.topic: how-to
 ms.collection:
-ms.reviewer:
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
 
 # Configure a post-call survey
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -67,9 +68,9 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 > [!TIP]
 > The bot author can use Power Automate to implement custom business logic to decide who receives a survey (for example, the bot may decide to survey someone random, VIP customers, and so forth)
 
-## Connect your bot to Omnichannel for Customer Service
+## Connect your bot 
 
-- Configure your Copilot Studio bot. Perform the steps in [Configure handoff to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
+- Configure your Copilot Studio bot. Perform the steps in [Configure handoff to Contact Center](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
 - Configure your Azure bot. More information: [Integrate an Azure bot](../configure-bot.md)
 
 ## Enable post-call survey in phone number settings
@@ -78,10 +79,7 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 
 To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
 
-1. In the Customer Service admin center or Omnichannel admin center (deprecated) app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
+1. In the Customer Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 1. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
 1. From the dropdown menu, select the survey bot.
 1. Select **Confirm**.
@@ -112,7 +110,7 @@ You can view the survey results on the **Analytics > Sessions** tab.
    > [!div class="mx-imgBorder"]
    > ![Dashboard](../media/pva-view-survey-results.png)
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Outbound calling](voice-channel-outbound-calling.md)  

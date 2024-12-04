@@ -1,15 +1,15 @@
 ---
 title: "Walkthrough 5: Display session information in Unified Service Desk | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying session name and session overview information in Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Walkthrough 5: Display enhanced session information by displaying session name and overview data
 

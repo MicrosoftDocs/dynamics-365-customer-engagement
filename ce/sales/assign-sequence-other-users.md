@@ -5,6 +5,7 @@ ms.date: 10/20/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Assign a sequence to a user or a team
@@ -41,6 +42,6 @@ Before users or teams can use a sequence you create, you need to assign them to 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)

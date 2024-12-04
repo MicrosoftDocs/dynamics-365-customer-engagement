@@ -5,6 +5,7 @@ ms.date: 10/12/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Send email using the enhanced email experience 
 
@@ -61,7 +62,7 @@ Set the default font and size so that every email you create uses that font sett
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Set up enhanced email](set-up-enhanced-email.md)<br>
 [Troubleshooting issues with email](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues)

@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # translateMessage
@@ -136,7 +137,7 @@ The `sourceLanguage` and `destinationLanguage` parameter in `TranslatedMessageRe
 
 ![translateMessage error message.](../../../media/translatemessage-api-error.png "translateMessage error message")
 
-### See also
+### Related information
 
 [Add a web resource for real-time translation](../../../develop/add-web-resource-real-time-translation.md)
 

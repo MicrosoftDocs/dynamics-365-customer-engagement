@@ -1,10 +1,11 @@
 ---
 title: "Configure and manage drill-down entities for a forecast"
 description: "Configure drill-down entities to help sellers understand what values are constituting their forecast projections."
-ms.date: 03/14/2023
+ms.date: 10/01/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -32,8 +33,7 @@ Once you’ve configured the forecast page, you'll have a view into the pipeline
 
 Let’s look at an example. **Amber Rodriguez** is a seller who's associated with four accounts. Amber's projected revenue for the current period is $400,000. **Kevin Smith**, Amber's sales manager, wants to understand how the revenue of $400,000 is broken down by each account. On the forecast page, Kevin chooses to drill down into Account from the drop-down menu. Kevin then selects the drill-down icon beside Amber’s record to view a list of accounts that make each of Amber’s forecast pipeline values.
 
-> [!div class="mx-imgBorder"]
-> ![Forecast drill-down view.](media/forecast-drill-down-view.png "Forecast drill-down view")
+:::image type="content" source="media/forecast-drill-down-view.png" alt-text="Forecast drill-down view":::
 
 
 ## Configure drill-down entities 
@@ -73,8 +73,7 @@ To effectively break down each forecast data by the drill-down entity, you need 
 
 The amount entity contains the fields of type amount or currency. For each defined forecast column, you must select an amount field that corresponds to the aggregate value. Choose the appropriate amount fields, so that the drill-down values sum up to the aggregate value. 
 
-> [!div class="mx-imgBorder"]
-> ![Account entity and field selection.](media/forecast-drill-down-account-field-selection.png "Account entity and field selection")
+:::image type="content" source="media/forecast-drill-down-account-field-selection.png" alt-text="Account entity and field selection":::
 
 Depending on the amount entity, you must establish the entity relationship between the amount and drill-down entity. 
 
@@ -85,8 +84,7 @@ The entity relationship is established to connect drill-down and rollup entities
 -	If the amount and rollup entities are same, you can establish a direct relationship between amount and drill-down entities. 
 -	If the amount and rollup entities are different, you must establish a relationship between amount and rollup entities and then establish a relationship between amount and drill-down entities. 
 
-> [!div class="mx-imgBorder"]
-> ![Entity relationships.](media/forecast-drill-down-entity-relationship.png "Entity relationships")
+:::image type="content" source="media/forecast-drill-down-entity-relationship.png" alt-text="Entity relationships":::
 
 ### Templates
 
@@ -110,8 +108,7 @@ Add a drill-down entity to group and drill-down forecast projections by an entit
     > [!NOTE]
     > You can select the down arrow icon and choose a template to autoconfigure the drill-down option.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Add drill down.](media/forecast-drill-down-select-add-drill-down.png "Select Add drill down")
+    :::image type="content" source="media/forecast-drill-down-select-add-drill-down.png" alt-text="Select Add drill down":::
 
 2.	In the **General properties** section, choose the drill-down type.
 
@@ -121,15 +118,13 @@ Add a drill-down entity to group and drill-down forecast projections by an entit
         
         Select an entity, then enter a **Display name**. The value you enter here is visible to users to select the drill-down choice. In this example, we are configuring a drill-down selection that is based on Territory.
 
-        > [!div class="mx-imgBorder"]
-        > ![Select drill-down entity.](media/forecast-drill-down-select-drill-down-entity.png "Select drill-down entity") 
+        :::image type="content" source="media/forecast-drill-down-select-drill-down-entity.png" alt-text="Select drill-down entity":::
 
     -	**Drill down by option set**: Displays the list of option sets that are available in the rollup entity.
         
         Select an option set from the **Drill down option set** list, then enter a **Display name**. The value you enter here is visible to users to select the drill-down option. In this example, we are selecting a drill-down option that is based on the **Forecast category** option set.
 
-        > [!div class="mx-imgBorder"]
-        > ![Select drill-down option set.](media/forecast-drill-down-select-drill-down-option-set.png "Select drill-down option set") 
+        :::image type="content" source="media/forecast-drill-down-select-drill-down-option-set.png" alt-text="Select drill-down option set":::
 
     If you select this option, go to [step 5](#step-5).
 
@@ -140,18 +135,16 @@ Add a drill-down entity to group and drill-down forecast projections by an entit
       -	For **Best case**, **Committed**, **Omitted**, and **Pipeline** as **Est. Revenue**.
       -	For **Won** and **Lost** as **Actual Revenue**.
 
-        > [!div class="mx-imgBorder"]
-        > ![Account field autoselection.](media/forecast-drill-down-account-field-auto-selection.png "Account field autoselection")     
+        :::image type="content" source="media/forecast-drill-down-account-field-auto-selection.png" alt-text="Account field autoselection"::: 
 
     -	If the amount and rollup entities are different, you must manually configure the amount fields. Select and add the appropriate amount field for each forecast column from the drop-down list in the Amount field. In this example, the amount entity is selected as **Opportunity product** and is different from the rollup entity. Therefore, the amount fields for each forecast column are selected manually as **Extended Amount**.
         
-        > [!div class="mx-imgBorder"]
-        > ![Account field manual selection.](media/forecast-drill-down-account-field-selection.png "Account field manual selection")
+        :::image type="content" source="media/forecast-drill-down-account-field-selection.png" alt-text="Account field manual selection":::
 
-    > [!NOTE]
-    > You can select the amount field for multiple forecast columns at the same time by hovering your cursor to the left of the columns and selecting the radio buttons that appear to make a selection. Then, a drop-down list will display with the option to **Choose amount field to be applied to all selected forecast columns**.
-    >
-    > ![Apply same account field to multiple columns.](media/forecast-drill-down-account-field-multiple-selection.png "Apply same account field to multiple columns")
+        > [!NOTE]
+        > You can select the amount field for multiple forecast columns at the same time by hovering your cursor to the left of the columns and selecting the radio buttons that appear to make a selection. Then, a drop-down list will display with the option to **Choose amount field to be applied to all selected forecast columns**.
+    
+        :::image type="content" source="media/forecast-drill-down-account-field-multiple-selection.png" alt-text="Apply same account field to multiple columns":::
        
 4.	In the **Entity relationship** section, select the relationship as described:
 
@@ -165,8 +158,7 @@ Add a drill-down entity to group and drill-down forecast projections by an entit
         
         The amount entity is **Opportunity Product** and relationship is established through the **Product** attribute. The relationship is mapped as **Opportunity Product** > **Existing Product (Product)** > **Product**. The mapping specifies that there is an attribute **Product** in the **Opportunity Product** entity that's related to the **Existing Product** entity that in turn is related to the **Product** attribute. 
 
-        > [!div class="mx-imgBorder"]
-        > ![Entity relationships.](media/forecast-drill-down-entity-relationship.png "Entity relationships")        
+        :::image type="content" source="media/forecast-drill-down-entity-relationship.png" alt-text="Entity relationships":::        
 
     To learn more, go to [Entity relationship](#entity-relationship).
 
@@ -206,7 +198,7 @@ To learn more about entity relationships, go to [Entity relationships](/powerapp
 </table>
 
 
-### See also
+## Related information
 
 [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)
 

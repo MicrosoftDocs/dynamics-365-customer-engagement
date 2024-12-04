@@ -1,10 +1,11 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 10/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -30,17 +31,19 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+2. Select **Settings** > **Advanced Settings**.
+
+3. Select **Settings** > **System** > **Data Management**.
   
-2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
+4. Select **Export Field Translations**.  
   
-3. Select **Export Field Translations**.  
-  
-4. In the **Export Field Translations** dialog box, select **OK**.  
+5. In the **Export Field Translations** dialog box, select **OK**.  
   
     All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Localize product property values](developer/localize-product-property-values.md)
 
   
-5. Save the .zip file to your local computer.  
+6. Save the .zip file to your local computer.  
   
     Exported text is saved as a compressed file that contains a CrmFieldTranslations.xml that you can open by using [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)]. You can send this file to a linguistic expert, translation agency, or localization firm.  
   
@@ -59,20 +62,22 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
    - [!INCLUDE[proc_follow_steps_in_link](../includes/proc-follow-steps-in-link.md)]  
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
+
+2. Select **Settings** > **Advanced Settings**.
+
+3. Select **Settings** > **System** > **Data Management**.
   
-2. [!INCLUDE[proc_settings_datamanagement](../includes/proc-settings-datamanagement.md)]  
+4. Select **Import Field Translations**.  
   
-3. Select **Import Field Translations**.  
+5. In the **Field Translation Import Jobs** page, on the action toolbar, select **Import Field Translations**.  
   
-4. In the **Field Translation Import Jobs** page, on the Action toolbar, select **Import Field Translations**.  
+6. In the **Import Translated Text** dialog box, select **Choose file**, and select the file that you've received from your translation agency.  
   
-5. In the **Import Translated Text** dialog box, select **Browse**, and select the file that you've received from your translation agency.  
-  
-6. Select **Import**.  
+7. Select **OK**.  
   
     This starts the import job. You can check the status to see if the import has succeeded or failed.  
   
-   After you've imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language does not exist, the results will be shown in the user's base language.  
+   After you've imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language doesn't exist, the results will be shown in the user's base language.  
   
 <a name="bkmk_LanguageSelection"></a>   
 ## Selection of language in different scenarios  
@@ -80,7 +85,7 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
 -   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user's preferred language (user interface language) is used if present. Otherwise, the base language is used.  
   
--   When a record is created or updated, duplicates are detected from the localizable fields (attributes) that are in the base language. Creating or updating a localizable field is not applicable in a non-base language.  
+-   When a record is created or updated, duplicates are detected from the localizable fields (attributes) that are in the base language. Creating or updating a localizable field isn't applicable in a non-base language.  
   
 -   During data import,  
   
@@ -90,11 +95,11 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
 -   When you run duplicate detection in the base language, only the base language is used in conditional clauses.  
   
--   When you run duplicate detection job in the preferred language, label in the preferred language is used first. When preferred language is not available, it uses the base language.  
+-   When you run duplicate detection job in the preferred language, label in the preferred language is used first. When preferred language isn't available, it uses the base language.  
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also  
+## Related information  
  [Set up a product catalog: Walkthrough](set-up-product-catalog-walkthrough.md)   
  [Set up duplicate detection rules to keep your data clean](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean)
 

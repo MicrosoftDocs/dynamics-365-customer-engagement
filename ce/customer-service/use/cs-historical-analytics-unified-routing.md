@@ -5,6 +5,7 @@ ms.date: 08/01/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -63,7 +64,7 @@ On the **Unified routing** report page, the **Routing metrics by date** table di
 
 You can select a date, and then select **Details** to view the routing metrics by the hour.
 
-### See also
+### Related information
 
 [Enable Historical analytics for unified routing](../administer/configure-cs-historical-analytics-csh.md#enable-historical-analytics-for-unified-routing)  
 [Unified routing report in Omnichannel historical analytics](oc-historical-analytics-unified-routing.md)  

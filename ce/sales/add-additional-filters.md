@@ -5,6 +5,7 @@ ms.date: 09/01/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Apply additional filters
 
@@ -79,7 +80,7 @@ When the forecast is activated, the query will be executed to filter the forecas
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

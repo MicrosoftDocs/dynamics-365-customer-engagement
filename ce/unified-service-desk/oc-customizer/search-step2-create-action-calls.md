@@ -1,12 +1,15 @@
 ---
 title: "Create search-related action calls for agents | MicrosoftDocs"
 description: "Learn how to set up the search-related action calls for agents and supervisors using Omnichannel for Customer Service."
-ms.date: 10/25/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Step 2: Create search-related action calls
 

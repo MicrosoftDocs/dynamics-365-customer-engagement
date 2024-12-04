@@ -5,6 +5,7 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Customize Power BI template apps for Dynamics 365 Sales 
 
@@ -60,7 +61,7 @@ Before you customize the template app, read the information here and perform eac
 
 It might take several minutes for the queries to be updated.
 
-### See also
+## Related information
 
 [Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)<br>
 [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)

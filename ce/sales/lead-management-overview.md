@@ -2,11 +2,11 @@
 title: Manage leads
 description: Learn about how the lead management process works in Dynamics 365 Sales. 
 author: lavanyakr01
-ms.author: lavanyakr 
-ms.reviewer: shujoshi
+ms.author: lavanyakr
+ms.reviewer: lavanyakr 
 ms.topic: overview
 ms.collection: get-started 
-ms.date: 04/08/2023
+ms.date: 06/27/2024
 ms.custom: bap-template 
 ---
 
@@ -33,4 +33,5 @@ As a seller, you create leads, use predictive scores to improve the lead convers
 - [Create a lead](create-edit-lead-sales.md): Use leads to keep track of business prospects.
   
 - [Use predictive scores](work-predictive-lead-scoring.md): Use the predictive lead scoring feature to prioritize your leads based on scores.
-- [Qualify and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity. 
+- [Qualify and convert](qualify-lead-convert-opportunity-sales.md): Qualify a lead to convert it into an opportunity.
+- [Use Copilot to be productive and efficient](copilot-get-information.md#summarize-a-lead): Use Copilot to quickly get up to speed with your leads. Ask Copilot to summarize a lead or get the recent changes made to a lead.

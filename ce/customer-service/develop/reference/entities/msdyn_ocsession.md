@@ -7,6 +7,7 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 search.app: 
@@ -2179,7 +2180,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 See msdyn_ocsession Table [msdyn_msdyn_ocsession_msdyn_ocsession_primarysession](#BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession) One-To-Many relationship.
 
 
-### See also
+### Related information
 
 [ Omnichannel for Customer Service entity reference](overview-entity-ref.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

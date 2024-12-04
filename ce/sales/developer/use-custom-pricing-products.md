@@ -2,12 +2,12 @@
 title: Use custom pricing for products (Dynamics 365 Sales)
 description: Use the CalculatePrice message to define custom pricing for products in opportunities, quotes, orders and invoices.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -30,7 +30,7 @@ The pricing engine in Dynamics 365 Sales supports a standard set of pricing and 
   
    If you want to revert to using the out-of-box pricing for your opportunities, quotes, orders, and invoices, set the value of the `Organization.OOBPriceCalculationEnabled` column to `1` (true). You can also use the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to enable system pricing. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Configure product catalog information](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
-### See also  
+## Related information  
  [Product pricing methods](product-pricing-methods.md)   
  [Sample: Calculate Price plug-in](sample-calculate-price-plugin.md)   
  [Product catalog tables](product-catalog-entities.md)

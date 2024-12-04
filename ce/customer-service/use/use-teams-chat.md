@@ -1,10 +1,11 @@
 ---
-title: "Use Teams chat in Customer Service | Microsoft Docs"
-description: "Learn how to use the Teams chat functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace."
-ms.date: 10/03/2023
+title: Use Teams chat 
+description: Learn how to use the Teams chat functionality. 
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -13,28 +14,33 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Use Teams chat in Customer Service
+# Use Teams chat
 
-As an agent, you can chat in Microsoft Teams from within Dynamics 365 Customer Service Hub, Customer Service workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!NOTE]
-> This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat in Customer Service](../administer/configure-teams-chat.md)
+> Case is applicable to Customer Service only.
+
+As an agent, you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+
+> [!NOTE]
+> This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat](../administer/configure-teams-chat.md)
 
 ## Agent overview of key features for Teams chat
 
 The following image displays the key features of the agent Teams chat experience.
 
  > [!div class="mx-imgBorder"] 
- > ![Agent view of the Microsoft Teams chat experience in Dynamics 365 Customer Service.](../media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
+ > ![Agent view of the Microsoft Teams chat experience](../media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
 
 The following legend describes the numbered callouts in the above image.
 
 |Number |Feature | Description |
 |-------|-----------|-----------|
-| 1 | New chat | Create chats that aren't associated with any Dynamics 365 records.  |
+| 1 | New chat | Create chats that aren't associated with any records.  |
 | 2 | Filter |  Filter chats by name. |
-| 3 | Chats connected to other records | Chats that are associated with other Dynamics 365 records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
-| 4 | New connected chat | Start a new chat that is connected with the record. These chats can only be viewed in Dynamics 365 by the chat participants. |
+| 3 | Chats connected to other records | Chats that are associated with other records that the current user is a part of. Users can prioritize responses to these chats over other chats. |
+| 4 | New connected chat | Start a new chat that is connected with the record. These chats can only be viewed in by the chat participants. |
 | 5 | Other chats | Chats that aren't connected to any records or started from Teams. |
 | 6 | Chat control | Allows users to multi-task across chats. |
 | 7 | Basic Teams functions | Format, use emojis or .GIFs, set delivery options, and attach files. |
@@ -43,25 +49,26 @@ The following legend describes the numbered callouts in the above image.
 
 ## Open Teams chats that are related to a record
 
-You can open any Dynamics 365 Customer Service record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
+You can open any application record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
 - Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else has connected a chat with you as a participant. 
 - Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and connect it to a record. 
 
 ## Start a new connected chat
 
-You can start a new connected chat or convert an existing Teams chat into a connected chat to associate the chat with a Dynamics 365 record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out of the box, or your administrator can add your desired record type.
+You can start a new connected chat or convert an existing Teams chat into a connected chat to associate the chat with a  record. Standard record types, including case, conversation, account, contacts, knowledge article, and email, are available out of the box, or your administrator can add your desired record type.
 
 Your administrator can configure an optional message that you can send when using the chat to start a collaboration. This message helps you to share succinct, read-only context with your collaborators on Teams.
  
-If you're using Teams for the first time within Customer Service Hub or Customer Service workspace, you can select the blue bubble, and then follow the interface guidance.
+If you're using Teams for the first time within Customer Service Hub, Customer Service workspace, or Contact Center workspace you can select the blue bubble, and then follow the interface guidance.
 
-1.	Open any Dynamics 365 Customer engagement record, and then select the **Teams chats and channels integration** icon.
+1.	Open any record, and then select the **Teams chats and channels integration** icon.
     The **Teams chats** panel opens.
     - You can access the embedded chat from Customer Service Hub and custom apps. When you select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon, the chat pane opens as an app in the right-side pane.
-    - If you're in a multisession app, such as Customer Service workspace, you can access the chat pane directly from the productivity pane.
+    - If you're in a multisession app, such as Customer Service workspace or Contact Center workspace, you can access the chat pane directly from the productivity pane.
        > [!NOTE]
-       > You can also access the chat pane from the home session in Customer Service workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
+       > Case is applicable to Customer Service only.
+       > - You can also access the chat pane from the home session in Customer Service workspace or Contact Center workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
     a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
@@ -70,8 +77,8 @@ If you're using Teams for the first time within Customer Service Hub or Customer
      > [!NOTE]
      > You can only connect group chats to records. Direct, one-to-one chats can't be connected, and will instead display an option to start a new connected chat with that contact.
        
-3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Auto-name chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat, even on Teams. The name also helps your collaborators on Teams to easily identify chats that are associated with Dynamics 365 records.<br><br>
-4. Your administrator can configure an optional note that you can send when using the chat to start a collaboration. The introduction note uses selected data fields from the associated record. This note helps you to share succinct, read-only context with your collaborators on Teams. The note also includes a link to view the associated record in Dynamics 365. If your collaborators have a Dynamics 365 license and access to the record, they can view the full record details in a browser tab.
+3. The chat name uses the record name or the participants’ name, depending on the configuration that your administrator has set up. To set the chat name as the record name, you can ask your administrator to turn on the **Auto-name chats** setting. You can modify the chat name. Provide a meaningful name to the chat so that you can identify the chat, even on Teams. The name also helps your collaborators on Teams to easily identify chats that are associated with records.<br><br>
+4. Your administrator can configure an optional note that you can send when using the chat to start a collaboration. The introduction note uses selected data fields from the associated record. This note helps you to share succinct, read-only context with your collaborators on Teams. The note also includes a link to view the associated records. If your collaborators have a license and access to the record, they can view the full record details in a browser tab.
     
      > [!div class="mx-imgBorder"] 
      > ![Send an introduction note when using the chat.](../media/teams-send-intro-message.png "Start a chat with an introduction note")
@@ -91,6 +98,9 @@ You can connect a chat to a single record or multiple records. For example, if y
 - To connect a chat to a record, select ellipses next to the chat, and then select **Connect to this case**.
 
 - To disconnect a chat from a record, select ellipses next to the chat, and then select **Disconnect from this case**. 
+
+ > [!NOTE]
+ > Cases are supported in Customer Service workspace and Customer Service Hub only.
     
 ### Understand how disconnected chat rights are assigned
 
@@ -112,7 +122,7 @@ The **Channels** tab lists the channels that either you’ve connected to the se
 
 You can connect relevant Teams channels to a record, so that all the members can easily access the connected channels from the record and follow the conversation. 
 
-1. Open any Dynamics 365 Customer Service record, and select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon.<br>
+1. Open any record, and select the Teams chat :::image type="icon" source="../media/teams-icon.png" border="false"::: icon.<br>
    The **Teams chats** pane opens.
 2. Select the **Channel** tab. The tab lists the channels that are already connected to a record.
 3. Select the **Connect a channel** icon in the upper-right corner of the Teams chats pane.<br>
@@ -128,7 +138,8 @@ As an agent, you can view and easily join chats that are connected to a record y
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
  > [!NOTE]
- > You can only join connected chats, and to do so, you must have write access to the record and your administrator must have turned on the Join Chat capability for the record type for which you want to join an existing connected chat.
+ > - Cases are supported in Customer Service workspace and Customer Service Hub only.
+ > - You can only join connected chats, and to do so, you must have write access to the record and your administrator must have turned on the Join Chat capability for the record type for which you want to join an existing connected chat.
 
 To join a connected chat:
 
@@ -149,7 +160,7 @@ To join a connected chat:
    The Teams popup chat shows that you’ve been added to the chat, and you have access to the entire chat history. Other chat members also receive the system message that you've been added to the chat.
  
   > [!NOTE]
-  > When a user is added using Join chat, any users who are chatting directly from Dynamics 365 apps will see a system message that says an unknown user added the new user to the chat and shared all of the chat history. This is a known issue that is specific to the embedded chat experience, and we're working to resolve it.<br>
+  > When a user is added using Join chat, any users who are chatting directly from apps will see a system message that says an unknown user added the new user to the chat and shared all of the chat history. This is a known issue that is specific to the embedded chat experience, and we're working to resolve it.<br>
   
    > [!div class="mx-imgBorder"] 
    > ![Text that says unknown user was added to a chat.](../media/unknown-user-error.png "Display of text that says to an unknown user was added to a chat")
@@ -182,12 +193,12 @@ As an agent, when you start a connected chat or connect an existing chat to a re
 
 ## Dynamics 365 links are unfurled in Teams chat
 
-When you paste a link to a Dynamics 365 Customer Service or Power Apps record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
+When you paste a link to a record into a Microsoft Teams chat, meeting, or channel, participants see an adaptive card with details about the shared link. Links to canvas apps show the app name and record name. Model-driven app links to records show the table type. When you paste the link, you can delete the card in the message compose window before sending the message if you don’t want to send the link as a card.
 
 > [!NOTE]
 > If you don't have access to the app or record for which you paste a link, no app or record details will be shown in the unfurled card.
 
-### See also
+### Related information
 
 [Configure Teams chat in Customer Service](../administer/configure-teams-chat.md)<br>
 

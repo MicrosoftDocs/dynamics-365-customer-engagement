@@ -5,6 +5,7 @@ ms.date: 04/21/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 keywords: "GDPR; data protection; privacy; embedded intelligence"
 ms.assetid: d0d20528-0a72-4dd2-8c91-6367a9d4279d
 topic-status: Drafting
@@ -52,7 +53,7 @@ OData-Version: 4.0
 {
   "CRMRecord": {
     "@odata.type": "Microsoft.Dynamics.CRM.contact",
-    "contactid": "bf1b1e9a-6e28-e811-a94e-000d3a365e68"
+    "contactid": "00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
   }
 }  
 ```
@@ -68,11 +69,11 @@ OData-Version: 4.0
 
 {
   "@odata.context": "[Organization URI]/api/data/v9.0/$metadata#Microsoft.Dynamics.CRM.msdyn_RetrieveKPIValuesForGDPRResponse",
-   "Response": {\"EntityId\": \"bf1b1e9a-6e28-e811-a94e-000d3a365e68\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
+   "Response": {\"EntityId\": \"00aa00aa-bb11-cc22-dd33-44ee44ee44ee\",\"Daily UI KPIs\": \"Some Values\",\"Lifetime UI KPIs\": \"Some Values\",\"Most Contacted KPIs\": \"Some Values\",\"Health KPIs\": \"Some Values\"}]"
 }
 ```
 
-### See also
+## Related information
 
 [Use Web API actions](/dynamics365/customer-engagement/developer/webapi/use-web-api-actions)
 

@@ -5,6 +5,7 @@ ms.date: 09/15/2017
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -46,7 +47,7 @@ In the Service calendar, you can do the following tasks and activities:
 ## Legend of colors and statuses  
  Appointments and service activities appear in the linear calendar as labeled color blocks. Move your mouse over these blocks to see the status of the appointment or service activity.  
   
-### See also  
+### Related information  
  [Force an activity into a time slot](../administer/create-service-activity-without-checking-conflicts-cs-app.md)   
  [Schedule a service activity](schedule-service-activity-cs-app.md)   
  [Create or edit an appointment](../../customerengagement/on-premises/basics/create-edit-appointment.md)   

@@ -1,10 +1,11 @@
 ---
-title: "Manage application tab templates using app profile manager | MicrosoftDocs"
+title: "Manage application tab templates | MicrosoftDocs"
 description: "Learn how to manage application tab templates in Dynamics 365 Channel Integration Framework 2.0."
 ms.date: 04/05/2021
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 
  - D365-Entity-msdyn_consoleapplicationtemplate
@@ -30,11 +31,11 @@ As an administrator, you can create multiple application tab templates.
 
 ## Create or manage application tab templates
 
-To create or manage an application tab template, go to the app profile manager. For more information, see [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates) in the app profile manager documentation.
+To create or manage an application tab template, go to the agent experience profile. For more information, see [Create application tab templates](../../../customer-service/administer/application-tab-templates.md#create-application-tab-templates).
 
 ## See also
 
-[App profile manager overview](../../../customer-service/administer/overview.md)
+[Agent experience profile overview](../../../customer-service/administer/overview.md)
 
 [Manage session templates](session-templates-cif.md)
 

@@ -1,10 +1,10 @@
 ---
 title: Booking timestamps and booking journals
 description: Learn about booking timestamps in Dynamics 365 Field Service.
-ms.date: 10/05/2023
+ms.date: 11/27/2024
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Booking timestamps and booking journals

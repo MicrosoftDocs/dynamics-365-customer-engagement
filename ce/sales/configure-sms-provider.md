@@ -1,11 +1,14 @@
 ---
 title: Configure SMS provider to send and receive text messages
 description: This article explains how to set up the SMS service provider with phone numbers in Dynamics 365 Sales.
-ms.date: 01/22/2024
+ms.date: 11/15/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.custom: bap-template
+ms.reviewer: udag
+ms.custom: 
+  - bap-template
+  - references_regions
 ---
 
 # Configure SMS provider
@@ -119,7 +122,7 @@ To set up the SMS provider number in Dynamics 365 Sales:
         | Description | (Optional) Specify a description for the number. |
         | Primary connection string | Enter the primary key connection string that is assigned to you when creating the Azure communication services account. |
         | Secondary connection string | Enter the secondary key connection string that is assigned to you when creating the Azure communication services account. |
-        | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. |
+        | Delivery report callback URL | This delivery report URL helps in receiving a callback with delivery report. <br>Copy the provided URL and add this URL to your Azure Communication Services delivered subscription webhook for delivery report. Learn more at [handle SMS and delivery report events](/azure/communication-services/quickstarts/sms/handle-sms-events).|
         | Incoming callback URL | This callback URL is specific to your organization and is available when you add SMS support for your organization. <br>Copy the provided callback URL and add this URL to your Azure Communication Services received subscription webhook for receiving SMS replies. To know more about adding sender numbers, see [Add a sender number using the Azure Communication Services free trial preview (US only)](#add-a-sender-number-using-the-azure-communication-services-free-trial-preview-us-only). |
       
     - **For Infobip**:
@@ -226,7 +229,7 @@ Once you agree to the *Voice and text message terms* and select your country or 
 > [!TIP]
 > Carriers, just like email providers, have ways of filtering spam messages. This results in the phone number being blocked and becoming unusable. Due to carrier filtering, you should only use toll-free numbers for transactional messages (as opposed to promotional messages). You should avoid sending promotional content or misleading information. Promotional content includes free products or discount offers.
 
-### See also
+## Related information
 
 [Engage with customers through text messages](sms-intro.md)   
 [Edit phone numbers](edit-phone-numbers.md)

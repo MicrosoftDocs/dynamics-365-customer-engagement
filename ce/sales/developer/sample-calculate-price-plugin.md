@@ -1,13 +1,13 @@
 ---
-title: "Sample: Calculate Price plug-in (Dynamics 365 Sales)"
+title: Calculate Price plug-in (Dynamics 365 Sales)
 description: Sample demonstrates how to write a plug-in that calculates the pricing of the opportunities, quotes, orders, and invoices based on your custom code.
-ms.date: 03/01/2023
+ms.date: 06/28/2024
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
-ms.reviewer: lavanyakr
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
@@ -38,7 +38,7 @@ This sample code is for Dynamics 365 Sales. Download the sample: [Work with cust
 ## Example  
  [!code-csharp[Plug-Ins#CalculatePricePlugin](../../snippets/csharp/CRMV8/plug-ins/cs/calculatepriceplugin.cs#calculatepriceplugin)]  
   
-### See also  
+## Related information  
 
  [Use custom pricing for products](use-custom-pricing-products.md)   
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)   

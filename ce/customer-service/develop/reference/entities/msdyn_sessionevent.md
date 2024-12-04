@@ -5,6 +5,7 @@ ms.date: 03/23/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_sessionevent Entity Reference
 
@@ -796,7 +797,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_ocsession Entity msdyn_ocsession_sessionevent_nested One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

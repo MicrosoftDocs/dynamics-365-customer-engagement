@@ -3,7 +3,7 @@ title: Define the custom SMS channel
 description: Learn how to define the custom SMS channel in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 06/23/2023
 ms.custom: bap-template 
@@ -92,7 +92,7 @@ The following sample includes unpacked solutions for Dataverse and plugins proje
 
     `pac solution pack --zipfile C:\tmp\SampleSmsChannelSolution.zip -f src\Solutions\Samples\SampleSmsChannel\SampleSmsChannel.Solution\unmanaged --packagetype Both`
 
-### See also
+## Related information
 
 [Add custom SMS channel](add-custom-sms-provider-intro.md)  
 [Configure SMS provider](configure-sms-provider.md)

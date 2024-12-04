@@ -5,6 +5,7 @@ ms.date: 08/19/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # msdyn_WKWGDPRDeleteStatus custom action 
 

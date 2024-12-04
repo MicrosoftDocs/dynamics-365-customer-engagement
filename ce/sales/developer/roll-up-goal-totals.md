@@ -2,12 +2,12 @@
 title: Roll up goal totals (Dynamics 365 Sales)
 description: RecalculateRequest message can be used to roll up data in a goal hierarchy. It recalculates the goal rollup field values, such as Goal.ActualMoney or Goal.ActualInteger, for all goals in the hierarchy.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -37,7 +37,7 @@ To roll up data in the goal hierarchy, use the <xref:Microsoft.Crm.Sdk.Messages.
   
  To override the system calculated actual, in-progress, or custom goal rollup field values, use the <xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> message to update the goal record. You must set the `Goal.IsOverride` column to `true` to notify the system that the rollup field values can be updated. To signal the system that the goal’s rollup field values were overridden and must not be updated during next recalculate operation, set the `Goal.IsOverridden` column to `true`. If `Goal.IsOverride` is `false`, an exception is thrown during the update operation. If `Goal.IsOverridden` is `false`, the goal rollup field values will be overwritten during next recalculate operation with system calculated values.  
   
-### See also  
+## Related information  
  [Goal Management Tables](goal-management-entities.md)   
  [Sample: Roll Up Goal Data for a Custom Period Against the Target Revenue](sample-rollup-goal-data-custom-period-target-revenue.md)   
  [Sample: Roll Up Goal Data for a Fiscal Period Against the Stretch Target Count](sample-rollup-goal-data-fiscal-period-stretch-target-count.md)   

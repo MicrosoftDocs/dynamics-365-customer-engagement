@@ -273,7 +273,7 @@ In Unified Interface, the **Customer** field has only **Regarding(Email)**, rega
 > [!IMPORTANT]
 > If you're still experiencing issues with the migration tool, contact your administrator or Microsoft Support.
 
-### See also
+### Related information
 
 [FAQ about modern automatic record creation](arc-faqs.md#faq-about-modern-automatic-record-creation)
 

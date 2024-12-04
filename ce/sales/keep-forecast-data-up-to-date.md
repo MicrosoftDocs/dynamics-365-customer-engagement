@@ -5,6 +5,7 @@ ms.date: 12/26/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - dyn365-sales
   - ai-gen-docs-bap
@@ -50,7 +51,7 @@ You want the forecast data to be up-to-date to make informed decisions. Forecast
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 

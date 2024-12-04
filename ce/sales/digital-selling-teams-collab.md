@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -48,7 +49,7 @@ If you want to make advanced configurations for Teams collaboration, select **Go
 
 3. Select **Apply**.
 
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)     

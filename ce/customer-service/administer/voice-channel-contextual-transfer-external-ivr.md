@@ -1,18 +1,20 @@
 ---
-title: "Integrate a third-party IVR system with voice channel | MicrosoftDocs"
-description: "Use this article to understand how you can integrate third-party IVR systems with Omnichannel for Customer Service voice channel and set up contextual call transfer via Azure direct routing."
-ms.date: 09/28/2023
-ms.service: dynamics-365-customerservice
+title: Integrate a third-party IVR system with voice channel
+description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
+ms.date: 06/14/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Integrate a third-party IVR system with voice channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-[Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with Omnichannel for Customer Service voice channel, and perform a contextual call transfer between them.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
+[Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing) lets you integrate a third-party interactive voice response (IVR) system with the voice channel, and perform a contextual call transfer between them.
 
 ## Prerequisites
 
@@ -25,12 +27,12 @@ Before you proceed with this section, you must be familiar with the following co
 
 This section lists the high-level steps you must perform to enable contextual call transfer between a third-party IVR system and the voice channel.
 
-1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the third-party IVR system, with Azure Communication Services resource, which is in turn connected to Omnichannel for Customer Service.
+1. Set up Azure direct routing and connect a Session Border Controller (SBC), which is linked to the third-party IVR system, with Azure Communication Services resource, which is in turn connected to the application.
 
 
-2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with Omnichannel for Customer Service.
+2. Follow the steps in the section [Bring your own phone number](voice-channel-bring-your-own-number.md) to register the phone number that’s assigned to the third-party IVR system with the application.
 
-3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to Omnichannel for Customer Service.
+3. To transfer a call from the IVR system, issue an SIP (Session Initiation Protocol) INVITE request to the Azure Communication Services resource that'll transfer the call to the Azure resource that's connected to th application.
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "User-to-User": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
 
@@ -41,9 +43,7 @@ This section lists the high-level steps you must perform to enable contextual ca
        
 5. Create context variables with the same names as the SIP UUI header.
 
-    1. In Customer Service admin center, go to **Customer support** > **Workstreams**. If you're using Omnichannel admin center (deprecated), go to **General settings** > **Workstreams**.
-       A list of workstreams including voice workstreams is displayed.
-        [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+    1. In Customer Service admin center or Contact Center admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
     2. Select a voice workstream and then select **Edit** to configure the workstream.
     3. In the **Advanced settings** area, select **Add context variable**.
     4. In the **Edit** dialog that opens, select **Add**, and then select **Add context variable**.
@@ -58,7 +58,7 @@ You can now call the phone number assigned to the third-party IVR system and ach
 > Call record and transcriptions from the third-party IVR call with the customer aren't available for agents.
 
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

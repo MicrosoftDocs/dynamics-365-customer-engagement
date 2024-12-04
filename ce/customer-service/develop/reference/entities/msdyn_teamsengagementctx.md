@@ -7,7 +7,7 @@ author: "gandhamm"
 ms.author: "mgandham"
 search.audienceType: 
   - developer
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 ---
 # msdyn_teamsengagementctx Entity Reference
 
@@ -798,7 +798,7 @@ See systemuser Entity [lk_msdyn_teamsengagementctx_modifiedonbehalfby](systemuse
 
 See systemuser Entity [user_msdyn_teamsengagementctx](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

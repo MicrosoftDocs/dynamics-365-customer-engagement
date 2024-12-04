@@ -1,10 +1,11 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 12/29/2023
+ms.date: 07/03/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
@@ -28,7 +29,10 @@ searchScope:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Turn your customer questions, issues, and feedback into knowledge articles, so that agents can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+Turn your customer questions, issues, and feedback into knowledge articles, so that agents can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
@@ -40,7 +44,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
-1. In the Customer Service Hub site map, go to **Service** > **Knowledge Articles**.  
+1. In the application site map, go to **Service** > **Knowledge Articles**.  
   
 1. Select **New**.  The **New Knowledge Article** page appears.
   
@@ -109,7 +113,7 @@ Authors can use the templates to create knowledge articles quickly because the f
  
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative.
   
-1. In the Customer Service Hub site map, go to **Service** > **Knowledge Articles**.  
+1. In the application site map, go to **Service** > **Knowledge Articles**.  
 
     A list of available articles appear.
 
@@ -136,7 +140,7 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 
 ## Use the rich text editor to create knowledge articles and emails
 
-Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the Customer Service Hub. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
+Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the application. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
 
 The **Content** editor panel consists of three tabs:
 
@@ -185,7 +189,7 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Redo Typing.](../media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting.](../media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table.](../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following steps:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Create Collapsible Section.](../media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This functionality is useful in articles with much information. Collapsed sections help agents find relative information more quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you already typed and then click the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section, and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. |
+|![Create Collapsible Section.](../media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This functionality is useful in articles with much information. Collapsed sections help agents find relative information quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you already typed and then select the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section, and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. <br> **Note**: The plugin isn't supported on Dynamics 365 Customer Engagement (on-premise). </li></ul>|
 |![Embed Media.](../media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button. The **Embed Video** dialog opens.<br /><br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
 |![Create Div Container.](../media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure more div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties.<br /><br />**Note**: This option is available in the expanded mode only. |
 |![Create Anchor](../media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you're viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button. The **Anchor Properties** dialog opens.<br /><br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
@@ -271,7 +275,7 @@ To attach a file to a knowledge article:
 
 2. Choose from the following file locations:
     - **My Device** lets you browse and select files from your local device.
-    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub.
+    - **Previous Uploads** opens a search pane where you can search and select from files that were previously uploaded to Customer Service Hub, Customer Service workspace, or Contact Center workspace.
 
 ### Work with file attachments
 
@@ -329,7 +333,7 @@ You can mark an article for review or directly assign it to a specific person or
   
 5.  To add the article to a queue so reviewers can pick it from there, on the command bar, select **Add to Queue**, and then select the queue.  
   
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)  
 [Create knowledge article template](create-templates-knowledge-article.md)  

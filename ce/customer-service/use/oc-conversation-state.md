@@ -1,17 +1,18 @@
 ---
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
-ms.date: 03/14/2024
+ms.date: 04/03/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Understand conversation states
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 This article explains the various states and status reasons of the conversation (work item) in Omnichannel for Customer Service.
 
@@ -47,6 +48,10 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 
 The conversation that an agent picks or is assigned to the agent is classified under **Active**. In **Active**, the agent capacity is consumed.
 
+> [!NOTE]
+> - When you use the transfer to external number option for a voice call, the conversation remains in active state with the agent on the external number as the new primary agent.  The capacity of the original agent is immediately released.
+> - When you transfer the voice call to another internal agent, the conversation remains in active state with the other internal agent as primary, and the original agent’s capacity is immediately released.  When you transfer to another queue, the conversation goes into open state while waiting in the new queue, and the original primary agent’s capacity is immediately released.
+
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, or **Wrap-up** under the following scenarios.
 
 | From status reason | To status reason | Scenario  | Type  |
@@ -77,10 +82,9 @@ The conversation (work item) transitions from **Wrap-up** to **Closed** under th
 ## Waiting
 
 > [!NOTE]
-> Waiting state applies to asynchronous and persistent chats only, and not live chats.
+> Waiting state applies to asynchronous and persistent chats only, and not live chats or voice calls.
 
-A conversation in waiting doesn't consume agent capacity.When an agent closes the session by selecting the close icon but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the agent has asked for more information from the customer who is yet to respond back and the agent closes the communication panel without ending the conversation. The conversation is
-reassigned to an agent after the customer responds.
+A conversation in waiting doesn't consume agent capacity.When an agent closes the session by selecting the close icon but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the agent has asked for more information from the customer who is yet to respond back and the agent closes the communication panel without ending the conversation. The conversation is reassigned to an agent after the customer responds.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
@@ -96,7 +100,7 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 
 The conversations that are completed by ending them or closing the session are classified as **Closed** conversations. Agents can't reactivate or reopen closed conversations.
 
-### See also
+### Related information
 
 [View communication panel](oc-conversation-control.md)  
 [Configure automatic closure of conversations](../develop/auto-close-conversation.md)  

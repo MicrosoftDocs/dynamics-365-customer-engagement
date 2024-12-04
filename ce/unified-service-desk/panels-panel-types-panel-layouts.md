@@ -1,15 +1,15 @@
 ---
 title: "Panels, panel types, and panel layouts in Unified Service Desk | MicrosoftDocs"
 description: "Learn about predefined panels, panel types, and panel layouts available in Unified Service Desk to display hosted controls of various types."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Panels, panel types, and panel layouts in Unified Service Desk
 [!INCLUDE[pn_unified_service_desk_for_crm](../includes/pn-unified-service-desk-for-crm.md)] uses panels to display hosted controls of various types. Various predefined panel types are available in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to support a variety of layout options such as tabbed layout, deck layout, and stacked layout. You define the arrangement of these panels on the main screen of [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] using a **Panel Layout** hosted control. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Panel Layout (Hosted Control)](../unified-service-desk/panel-layout-hosted-control.md)

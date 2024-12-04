@@ -3,9 +3,9 @@ title: Configure the opportunity pipeline view
 description: Learn how to configure the opportunity pipeline view, formerly known as deal manager, to help sellers visualize their pipeline and manage opportunities better.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to 
-ms.date: 08/08/2023
+ms.date: 09/30/2024
 ms.custom: bap-template 
 ---
 
@@ -13,13 +13,13 @@ ms.custom: bap-template
 
 The opportunity pipeline view (formerly known as deal manager) helps your sellers visualize, prioritize, and manage the opportunities in their pipeline. More information: [Use the opportunity pipeline view](use-opportunity-pipeline-view.md)
 
-If you previously configured the deal manager workspace, learn about the [differences between the opportunity pipeline view and the deal manager workspace](faq-sales.yml#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace).
+If you previously configured the deal manager workspace, learn about the [differences between the opportunity pipeline view and the deal manager workspace](faq-opportunity.md#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace).
 
 ## License and role requirements
 
 | Requirement type | You must have |  
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Video: Opportunity pipeline view
@@ -32,16 +32,22 @@ Watch this short video to know how the opportunity pipeline view helps sellers b
 
 The **Read-only Grid view** is the default view for opportunities. You can set the **Opportunities pipeline view** as the default instead, so sellers don't have to switch to it each time they access their opportunities list.
 
-1. In the Sales Hub navigation panel, select **Settings** > **Advanced Settings**.
+1. In your sales app, select **Settings** > **Advanced Settings**.
+
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+
 1. In the **Settings** menu, select **Customizations** > **Customize the system**.
 1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
-1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet.
-
-    If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
-    > [!NOTE]
-    > If you don't see the **Pipeline view** control in the **Add Control** list, look for the **Deal manager workspace** control.  
+1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet. If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
 
    :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as the default for web, phone, and tablet." lightbox="media/pipeline-set-as-default.png":::
+
+1. (Optional) In the **Properties** section, scroll down and set the **Enable grouping** and **Enable aggregation** properties to **Yes**. These settings allow sellers to group and aggregate opportunities in the pipeline view. To know about the seller experience, see [Group and aggregate opportunities](use-opportunity-pipeline-view.md#group-and-aggregate-opportunities).
+
+    > [!NOTE]
+    > If you've [enabled monthly channel](/power-apps/maker/model-driven-apps/channel-overview) or [opted in for early access](/power-platform/admin/opt-in-early-access-updates) updates, you need not change these properties as they're enabled by default.
+
 
 1. Save the changes and select **Publish**.
 1. From the Sales Hub sitemap, select **Opportunities** to verify that the pipeline view is set as the default view.
@@ -52,18 +58,28 @@ The **Read-only Grid view** is the default view for opportunities. You can set t
 
 Open the settings page to configure and customize the opportunity pipeline view experience for your sellers. You'll be accessing the settings page in all the procedures explained in this article.
 
-1. In the Sales Hub Change area, select **App Settings**.
+Do one of the following depending on your license:
 
-1. Under **General Settings**, select **Opportunity pipeline view**.
+- If you have the Sales Enterprise or Sales Premium license, select **App Settings** from the Sales Hub Change area and then select **Opportunity pipeline view** under **General Settings**. 
 
-    :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png"::: 
+- If you have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=00001111-aaaa-2222-bbbb-3333cccc4444&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
+  
+    :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png":::
+
+### Permissions required for opportunity pipeline view
+
+Permissions to access the pipeline view and the settings page are controlled by the **dealmanagersettings** and **dealmanageraccess** entities. The permissions are granted to the following security roles by default:
+
+- The read privileges to dealmanagersettings and dealmanageraccess entity is granted to all security roles which are customizable on publish or on first load from the opportunity pipeline view settings page.
+
+- The sales-related security roles such as salesperson, sales manager, and vice president of sales get the read privileges to dealmanagersettings and dealmanageraccess entities by default.
 
 ## Set the default form for side panel
 
 When sellers open an opportunity from the pipeline view, the side panel displays the opportunity details in the Sales Insights form. You can change the default form to the main opportunity form or a custom form for your organization. For example, you can create a custom form specifically for the side panel and set that as default. Sellers can switch to a different form if they prefer and their selection will be remembered and set as a default for them.  
 
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
-1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization. 
+1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization.
 
 
 ## Set the default metrics for sellers
@@ -93,7 +109,7 @@ The opportunity pipeline view lists important metrics related to the sales pipel
     
 ## Customize charts
 
-The charts in the pipeline view help sellers visualize their pipeline. You can customize elements of the bubble chart and the funnel chart to change the information that sellers see. You can also hide the charts if you don't want sellers to see them.  
+The charts in the pipeline view help sellers visualize their pipeline better. You can customize various elements in the bubble chart, such as the data on the x-axis and y-axis, the size and color of the bubble, the sort order for the legend, and tooltips. Similarly, you can customize elements in the funnel chart, such as the field used for segmentation, the aggregate function used, and so on.  
 
 ### Customize the bubble chart
 
@@ -148,11 +164,11 @@ The charts in the pipeline view help sellers visualize their pipeline. You can c
 The grid in the opportunity pipeline view is an instance of the Power Apps editable grid control. The grid can be both customized and personalized. As an administrator, you can [customize the grid](/power-apps/developer/component-framework/customize-editable-grid-control) for the entire sales organization. Sellers can [personalize their view](personalize-pipeline-view.md) to include the columns and filters they want to see.  
 
 > [!NOTE]
-> If you customized the editable grid in the deal manager using JavaScript, you need to redo those customizations in the pipeline view.
+> If you customized the editable grid in the deal manager using JavaScript, you need to redo those customizations in the pipeline view. To customize the editable grid, see the [Power Apps documentation](/power-apps/developer/component-framework/customize-editable-grid-control). For information on grid events, see [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  

@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Add the Dynamics 365 app to a Microsoft Teams meeting (preview)
@@ -40,7 +41,7 @@ To add an app before a meeting, first send the meeting invitation, and then edit
 
 To add an app during a meeting, select **Add an app** in the meeting toolbar, search for the Dynamics 365 app, and add it.
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

@@ -2,8 +2,8 @@
 title: Set up sales basics
 description: Learn about how set up the basic sales processes such as business units, territories, currencies, and so on.
 author: lavanyakr01
-ms.author: lavanyakr 
-ms.reviewer: shujoshi
+ms.author: lavanyakr
+ms.reviewer: lavanyakr 
 ms.topic: overview
 ms.collection: get-started 
 ms.date: 04/08/2023

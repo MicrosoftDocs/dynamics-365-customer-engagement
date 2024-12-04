@@ -7,7 +7,7 @@ author: "gandhamm"
 ms.author: "mgandham"
 search.audienceType: 
   - developer
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 ---
 # msdyn_usersetting Entity Reference
 
@@ -589,7 +589,7 @@ See systemuser Entity [lk_msdyn_usersetting_modifiedby](systemuser.md) One-To-Ma
 
 See systemuser Entity [lk_msdyn_usersetting_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

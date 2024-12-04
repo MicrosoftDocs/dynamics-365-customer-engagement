@@ -1,25 +1,27 @@
 ---
-title: Configure the faceted search results web template from your portal| MicrosoftDocs
+title: Configure the faceted search results web template from your portal
 description: Know how the faceted search results web template can be configured from your portal.
-ms.date: 03/21/2022
+ms.date: 07/31/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - bap template
 ---
 
 # Configure the faceted search results web template from your portal
 
 You can view and search for knowledge article attachments on the portal based on Dataverse search. To do so, you must configure the faceted search results web template from your portal.
 
-1. In the Portal Management site map **Content** area, select **Web Templates**.
+1. In the site map of Portal Management, go to **Content** area and select **Web Templates**. You can sign in to Portal Management from multiple locations. Learn more in [Portal Management app overview](/power-pages/configure/portal-management-app).
 1. From the **Active Web Templates** dropdown list, select your knowledge article web template.
-1. On the **Web Template** page on the **General** tab, add the following snippet to the **Source** field.
+1. On the **Web Template** page, select the **General** tab, add the following snippet to the **Source** field.
 
   
   ```JavaScript                        
@@ -94,10 +96,10 @@ You can view and search for knowledge article attachments on the portal based on
 
 4. Select **Save**.
 
-### See also
+### Related information
 
 [Add a file attachment to a knowledge article](../use/customer-service-hub-user-guide-knowledge-article.md#add-a-file-attachment-to-a-knowledge-article)  
-[Update knowledge article attachments for portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)
+[Update knowledge article attachments for portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)  
 [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article)
 
 

@@ -5,20 +5,22 @@ ms.date: 03/27/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/11/2024
+  - references_regions
 ---
 
 # Region and language FAQs
 
 This article answers frequently asked questions about region and language support in Dynamics 365 Sales, Sales premium, and Sales professional.
 
-## In which region is Sales Premium available? 
+## In which country/region is Sales Premium available? 
   
-Sales Premium is available in the following countries or regions:
+Sales Premium is only available in the following countries or regions:
 
 - Asia Pacific (APJ)
 - Canada (CAN)
@@ -35,15 +37,9 @@ Sales Premium is available in the following countries or regions:
 - Switzerland (CHE)  
 - United Arab Emirates (UAE)
 
-Sales Premium isn't available in the following datacenters:
+Sales Premium isn't available in all other regions and Government Community Cloud (GCC), including USG. 
 
-- Korea
-- Norway
-- Government Community Cloud (GCC), including USG
-- Department of Defense (DoD)
-- China
-
-## In which region are Sales Premium features available?
+## In which country/region are Sales Premium features available?
 
 The following table lists the regions in which Sales Premium features are available.
 
@@ -96,9 +92,14 @@ The following table shows which languages are supported for Sales Premium featur
 
 | Feature | Language supported |
 |---------|--------------------|
-| Assistant, Assistant studio, Email engagement, Predictive lead scoring, Predictive opportunity scoring, Premium forecasting, Relationship analytics, Sales accelerator, and Who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
+| Assistant, assistant studio, email engagement, predictive lead scoring, predictive opportunity scoring, premium forecasting, relationship analytics, sales accelerator, and who knows whom | Arabic, Basque, Bulgarian, Catalan, Chinese Simplified (PRC), Chinese Traditional (Hong Kong SAR), Chinese Traditional (Taiwan), Croatian, Czech, Danish, Dutch, English, Estonian, Finnish, French, Galician, German, Greek, Hebrew, Hindi, Hungarian, Indonesian, Italian, Japanese, Kazakh, Korean, Latvian, Lithuanian, Malay, Norwegian, Polish, Portuguese (Brazil), Portuguese (Portugal), Romanian, Russian, Serbian (Cyrillic), Serbian (Latin), Slovakian, Slovenian, Spanish, Swedish, Thai, Turkish, Ukrainian, and Vietnamese. |
 | Notes analysis | English, French, German, Italian, and Dutch for machine learning models. |
-| Exchange insight cards in Assistant | Only English - United States (en-US) for machine learning models. |
+| Exchange insight cards in assistant | Only English - United States (en-US) for machine learning models. |
 | Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 [Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
+
+
+## Which languages are supported by Copilot in Dynamics 365 Sales?
+
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). For more information about how to use the report and how Copilot responds in different scenarios, see [Region availability and languages supported](copilot-overview.md#region-availability-and-languages-supported).

@@ -5,6 +5,7 @@ ms.date: 12/09/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Manage sequences 
@@ -171,7 +172,7 @@ The tag is removed from the sequence.
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Create and connect sequences for yourself](create-sequence-seller.md)  

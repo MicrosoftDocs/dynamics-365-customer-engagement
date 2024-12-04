@@ -3,6 +3,7 @@ title: "createTab method (app profile manager) JavaScript API Reference | Micros
 description: "Learn about the createTab API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 10/09/2023
 ms.topic: reference
 ---

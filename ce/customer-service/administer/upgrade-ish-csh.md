@@ -5,6 +5,7 @@ ms.date: 07/12/2018
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -119,7 +120,7 @@ As Main forms are supported in Unified Interface as well as in web client, activ
   Opening the error details reveals the solution components that are referenced by other components in the system. Resolving these dependencies by editing the Customer Service Hub and removing the referenced components should let you to uninstall the solution. If this issue persists, it is possible that dependencies remain and repeating this process should help identifying them. Read more about editing app definitions in [App Designer](../../customerengagement/on-premises/customize/create-edit-app.md) documentation.
 
 
-### See also
+### Related information
 
 [Overview of Customer Service and the Customer Service Hub](overview.md)
 

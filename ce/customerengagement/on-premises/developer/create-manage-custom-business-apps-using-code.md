@@ -69,7 +69,7 @@ The response **OData-EntityId** header contains the Uri of the created app.
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)
+OData-EntityId: [Organization URI]/api/data/v9.1/appmodules(00aa00aa-bb11-cc22-dd33-44ee44ee44ee)
 ```  
 
 ## Add or remove components from your business app
@@ -90,7 +90,7 @@ OData-Version: 4.0
 Accept: application/json
 
 {
-	"AppId":"dd621d4a-d898-e711-80e7-00155db763be",
+	"AppId":"00001111-aaaa-2222-bbbb-3333cccc4444",
 	"Components":[
 		{
 			"savedqueryid":"00000000-0000-0000-00aa-000000666000",
@@ -116,7 +116,7 @@ OData-Version: 4.0
 Accept: application/json
 
 {
-	"AppId":"dd621d4a-d898-e711-80e7-00155db763be",
+	"AppId":"00001111-aaaa-2222-bbbb-3333cccc4444",
 	"Components":[
 		{
 			"savedqueryid":"00000000-0000-0000-00aa-000000666000",
@@ -130,9 +130,9 @@ Accept: application/json
 
 Validating an app involves checking for any dependencies for the components you have added in your business app to ensure that your app works fine. This is the same as clicking **Validate** in the app designer. More information: [Validate your app](../customize/validate-app.md)
 
-Use the <xref:Microsoft.Dynamics.CRM.ValidateApp> function or the <xref:Microsoft.Crm.Sdk.Messages.ValidateAppRequest> message to validate your app. The following Web API request shows how to validate your business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
+Use the <xref:Microsoft.Dynamics.CRM.ValidateApp> function or the <xref:Microsoft.Crm.Sdk.Messages.ValidateAppRequest> message to validate your app. The following Web API request shows how to validate your business app with ID: 00001111-aaaa-2222-bbbb-3333cccc4444:
 
-`GET [Organization URI]/api/data/v9.1/ValidateApp(AppModuleId=dd621d4a-d898-e711-80e7-00155db763be)`
+`GET [Organization URI]/api/data/v9.1/ValidateApp(AppModuleId=00001111-aaaa-2222-bbbb-3333cccc4444)`
 
 If there are no validation errors, the response is as follows:
 
@@ -193,7 +193,7 @@ OData-Version: 4.0
 
 After you have added required components to your custom business app and validated it, you must publish it to make it available to users.
 
-Use the <xref:Microsoft.Dynamics.CRM.PublishXml> action or the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> messageto publish your custom business app. The following request shows how to publish your business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
+Use the <xref:Microsoft.Dynamics.CRM.PublishXml> action or the <xref:Microsoft.Crm.Sdk.Messages.PublishXmlRequest> messageto publish your custom business app. The following request shows how to publish your business app with ID: 00001111-aaaa-2222-bbbb-3333cccc4444:
 
 ```http
 POST [Organization URI]/api/data/v9.1/PublishXml HTTP/1.1
@@ -203,7 +203,7 @@ OData-Version: 4.0
 Accept: application/json
 
 {  
-  "ParameterXml":"<importexportxml><appmodules><appmodule>dd621d4a-d898-e711-80e7-00155db763be</appmodule></appmodules></importexportxml>"
+  "ParameterXml":"<importexportxml><appmodules><appmodule>00001111-aaaa-2222-bbbb-3333cccc4444</appmodule></appmodules></importexportxml>"
 }
 ```
 
@@ -214,7 +214,7 @@ To provide users access to your apps so that they can access it from their **Set
 Use the **appmoduleroles_association** navigation property of the [AppModule Entity](entities/appmodule.md) entity to associate a business app with a security role. The following request shows how to associate a business app with a security role:
 
 ```http
-POST [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)appmoduleroles_association/$ref HTTP/1.1
+POST [Organization URI]/api/data/v9.1/appmodules(00001111-aaaa-2222-bbbb-3333cccc4444)appmoduleroles_association/$ref HTTP/1.1
 Content-Type: application/json; charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -227,7 +227,7 @@ Accept: application/json
 
 To disassociate a security role from a business app, you use the DELETE request with the same navigation property. For example:
 
-`DELETE	[Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)/appmoduleroles_association/$ref?$id=[Organization URI]/api/data/v9.1/roles(<roleId)
+`DELETE	[Organization URI]/api/data/v9.1/appmodules(00001111-aaaa-2222-bbbb-3333cccc4444)/appmoduleroles_association/$ref?$id=[Organization URI]/api/data/v9.1/roles(<roleId)
 `
 
 ## Manage your business apps and its components
@@ -247,19 +247,19 @@ To retrieve unpublished apps, use the <xref:Microsoft.Dynamics.CRM.RetrieveUnpub
 ### Retrieve components in a published business app
 To retrieve app components for a business app, use the <xref:Microsoft.Dynamics.CRM.RetrieveAppComponents> function or the <xref:Microsoft.Crm.Sdk.Messages.RetrieveAppComponentsRequest> message. For example:
 
-`GET [Organization URI]/api/data/v9.1/RetrieveAppComponents(AppModuleId=dd621d4a-d898-e711-80e7-00155db763be)`
+`GET [Organization URI]/api/data/v9.1/RetrieveAppComponents(AppModuleId=00001111-aaaa-2222-bbbb-3333cccc4444)`
 
 ### Retrieve security roles associated with published business app
 
-To retrieve the security roles associated with your business app, use the `$expand` system query option with the **appmoduleroles_association** navigation property. For example, here is the request to retrieve all the security roles associated to a business app with ID: dd621d4a-d898-e711-80e7-00155db763be:
+To retrieve the security roles associated with your business app, use the `$expand` system query option with the **appmoduleroles_association** navigation property. For example, here is the request to retrieve all the security roles associated to a business app with ID: 00001111-aaaa-2222-bbbb-3333cccc4444:
 
-`GET [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)?$expand=appmoduleroles_association&$select=name,appmoduleroles_association`
+`GET [Organization URI]/api/data/v9.1/appmodules(00001111-aaaa-2222-bbbb-3333cccc4444)?$expand=appmoduleroles_association&$select=name,appmoduleroles_association`
 
 ### Delete business apps
 
 Use the DELETE request to delete a business app. For example:
 
-`DELETE [Organization URI]/api/data/v9.1/appmodules(dd621d4a-d898-e711-80e7-00155db763be)`
+`DELETE [Organization URI]/api/data/v9.1/appmodules(00001111-aaaa-2222-bbbb-3333cccc4444)`
 
 ## Client API support for business apps
 

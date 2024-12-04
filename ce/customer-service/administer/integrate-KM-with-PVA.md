@@ -5,9 +5,13 @@ ms.date: 01/19/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ---
 
 # Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -309,6 +313,6 @@ To return the knowledge article search results to the bot, follow either of thes
 
 - For more information on flow error codes, go to [Error codes: Copilot Studio](/power-virtual-agents/error-codes)
 
-### See also
+### Related information
 
 [Create and edit topics](/power-virtual-agents/authoring-create-edit-topics)

@@ -1,11 +1,11 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 02/07/2024
+ms.date: 10/04/2024
 ms.topic: overview
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.custom: 
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -36,7 +36,7 @@ There's a Dynamics 365 Sales offering to fit every need of a business:
 
 - **Relationship sales**: Ideal for enterprises that need to connect sales records with LinkedIn to enhance business processes with data about people, organizations, and relationships. [Learn more about Microsoft Relationship Sales](#microsoft-relationship-sales).
 
-- **Microsoft Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Microsoft Copilot for Sales](#microsoft-copilot-for-sales). 
+- **Microsoft 365 Copilot for Sales:** Ideal for enterprises that wants sellers to use Outlook and Microsoft Teams to automatically capture data, access, and register data into any customer relationship management (CRM) system, eliminating manual data entry. [Learn more about Copilot for Sales](#microsoft-365-copilot-for-sales). 
 
 ### Dynamics 365 Sales Premium
 
@@ -64,7 +64,7 @@ With your Dynamics 365 Sales Enterprise license, you can take advantage of Sales
 
 ### Microsoft Relationship Sales
 
-Microsoft Relationship Sales helps sales professionals build the relationships they need to harness the power of relationship selling. This license includes Sales Enterprise and LinkedIn Sales Navigator Advanced Plus. [Learn more about LinkedIn Sales Navigator](/linkedin/sales/).
+Microsoft Relationship Sales helps sales professionals build the relationships they need to harness the power of relationship selling. This license includes Sales Enterprise and LinkedIn Sales Navigator Advanced Plus. With this license, you can integrate [LinkedIn Sales Navigator with Dynamics 365 Sales](linkedin/integrate-sales-navigator.md) to get insights about your customers and [LinkedIn Sales Insights](understand-lsi-accounts-form.md) to import lead-related data from LinkedIn.  
 
 ### Dynamics 365 Sales Professional
 
@@ -74,9 +74,9 @@ Here's a short video to help you understand how Dynamics 365 Sales Professional 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
 
-### Microsoft Copilot for Sales
+### Microsoft 365 Copilot for Sales
 
-Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft Copilot for Microsoft 365. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft Copilot for Microsoft 365 to activate Copilot for Sales. 
+Dynamics 365 Sales customers have limited capabilities included within the Sales Enterprise, Sales Premium, and Relationship Sales licenses. The standard functionality showcases capabilities such as email replies and conversation intelligence in Teams. With the purchase of Copilot for Sales customers can access the full functionality which includes the combined experience with Microsoft 365 Copilot. Microsoft Dynamics 365 Sales Premium users only need to purchase Microsoft 365 Copilot to activate Copilot for Sales. 
 
 For more information about the Copilot for Sales licensing options for Dynamics 365 Sales customers, see [this FAQ](/microsoft-sales-copilot/sales-copilot-faq#will-copilot-for-sales-be-included-in-dynamics-365-sales-subscriptions).
 
@@ -167,7 +167,7 @@ Integrate Dynamics 365 Sales with other applications that your sales team alread
 - [Install ZoomInfo app](install-zoominfo-app.md)
 - [Integrate a sample softphone with Dynamics 365 Sales](sample-softphone-integration.md)
 
-### See also
+## Related information
 
 [Learn the basics of Dynamics 365 Sales](user-guide-learn-basics.md)  
 [User guide](../sales-enterprise/user-guide.md)  

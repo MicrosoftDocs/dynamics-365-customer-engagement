@@ -1,7 +1,7 @@
 ---
 title: "Use inspections without work orders in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to use inspections without work orders in Dynamics 365 Field Service.
-ms.date: 03/08/2023
+ms.date: 06/03/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -12,7 +12,7 @@ ms.author: jshum
 Organizations often need to conduct inspections independent of work orders. Currently, inspections can be added to customer assets in Field Service.
 
 > [!NOTE]
-> Inspections without work orders won't work in [the mobile offline profile](mobile-power-app-system-offline.md). Default functionality for inspections, like the export to PDF are only available on work order service tasks.
+> Inspections without work orders won't work in [the mobile offline profile](mobile/best-practices-limitations-offline-profile.md). Default functionality for inspections, like the export to PDF are only available on work order service tasks.
 
 ## Enable inspections on customer assets without a work order
 
@@ -31,9 +31,9 @@ Organizations often need to conduct inspections independent of work orders. Curr
 
 Inspections are now visible on the **Related** tab for assets.
 
-## Validate that inspections have been enabled
+## Validate that inspections are enabled
 
-1. Go to **Service** > **Assets**, and create a new asset or open an existing asset.
+1. In Field Service, select **Service** > **Assets**, and create a new asset or open an existing asset.
 
 1. Select the **Related** tab, and verify that **Inspections** show in the list. Verify that you see an option to create a **New Inspection**.
 
@@ -42,6 +42,6 @@ Inspections are now visible on the **Related** tab for assets.
 
 ## Create an inspection without a work order
 
-Open an asset, create a new inspection instance and assign an inspection template. Enter inspection responses and save them. After selecting **Mark Complete** from the ribbon, the inspection becomes read-only.
+Open an asset, create a new inspection, and assign an inspection template. Enter inspection responses and save them. After selecting **Mark Complete** from the ribbon, the inspection becomes read-only.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,7 +5,7 @@ ms.date: 10/12/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 ---
@@ -874,7 +874,7 @@ See systemuser Entity [lk_msdyn_panetoolconfiguration_modifiedby](systemuser.md#
 
 See systemuser Entity [lk_msdyn_panetoolconfiguration_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

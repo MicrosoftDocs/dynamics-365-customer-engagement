@@ -1,7 +1,7 @@
 ---
 title: "Schedule multi-day work in Universal Resource Scheduling"
 description: "Work orders and requirements can be scheduled across multiple days. Learn about multi-day scheduling and allocation methods by configuring 3 scenarios."
-ms.date: 10/21/2019
+ms.date: 04/19/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article

@@ -1,12 +1,15 @@
 ---
 title: "Add hosted control, action calls, events, window navigation rule | MicrosoftDocs"
 description: "Learn how add action calls, events, window navigation rule and hosted control to configurations in Unified Service Desk."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Step 6: Add the hosted control, action calls, window navigation rule, and events to configurations
 

@@ -1,4 +1,5 @@
 ---
+
 title: Create a hosted control to load a URL or page from a model-driven app
 description: This article explains how to create a CRM Page hosted control that can load a page from a model driven app and use features such as session management and agent scripting.
 ms.date: 03/28/2024
@@ -11,6 +12,7 @@ search.audienceType:
 ms.custom:
 - dyn365-USD
 ai.usage: ai-assisted
+
 ---
 
 # CRM Page (hosted control)

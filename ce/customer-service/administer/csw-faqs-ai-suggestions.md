@@ -1,10 +1,11 @@
 ---
-title: FAQ for AI suggestions for cases, knowledge articles | MicrosoftDocs
+title: FAQ for AI suggestions for cases, knowledge articles
 description: FAQ for AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 11/21/2023
+ms.date: 11/28/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection: bap-ai-copilot
 search.audienceType: 
   - admin
@@ -13,6 +14,11 @@ ms.custom:
 ---
 
 # FAQ on AI suggestions for cases and knowledge articles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
 
 A few answers to common questions about the AI-suggested similar cases and knowledge articles are listed here.
  
@@ -51,7 +57,7 @@ You're required to reopen the case form to see new suggestions.
 
 Make sure that the case is opened in a session tab. To open it in a session tab, select the case by holding down **Shift** while clicking.
 
-### See also
+### Related information
 
 [Manage Copilot features in Customer Service](configure-copilot-features.md)
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)

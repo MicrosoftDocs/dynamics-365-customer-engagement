@@ -1,26 +1,16 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Use sentiment prediction-based model in work classification (preview)
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
-
-## Introduction
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to agents.
 
@@ -38,27 +28,15 @@ The sentiment prediction uses the following seven-point scale that allows organi
 
 The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider agent chat strings.
 
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
 ## Enable sentiment prediction
 
 **To enable sentiment prediction**
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Routing**. The **Routing** page appears.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **User attributes** in **Advanced settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-   
-    - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
+1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
 
 2. Select **Manage** for **Sentiment prediction for routing**.
 
@@ -133,7 +111,7 @@ You can view how the sentiment prediction model was used to route a work item.
 
 All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. More information: [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support)
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [How to set up unified routing](set-up-routing-process.md)  
