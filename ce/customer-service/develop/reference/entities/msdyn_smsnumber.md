@@ -5,6 +5,7 @@ ms.date: 08/20/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_smsnumber Entity Reference
 

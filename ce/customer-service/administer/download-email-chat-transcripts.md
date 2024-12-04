@@ -5,7 +5,7 @@ ms.topic: how-to
 ms.date: 06/14/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ---
 
 # Configure download and email of chat transcripts

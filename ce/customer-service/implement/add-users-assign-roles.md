@@ -3,6 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 08/12/2024
 ms.topic: how-to
 ms.collection:

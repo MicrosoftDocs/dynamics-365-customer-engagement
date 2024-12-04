@@ -4,6 +4,7 @@ description: Get an overview of bots and how you can configure and use them in O
 ms.date: 03/21/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template

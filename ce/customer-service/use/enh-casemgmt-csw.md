@@ -3,7 +3,7 @@ title: Enhanced case management in multisession apps
 description: Learn about the enhanced case management in Customer Service multisession apps.
 author: gandhamm 
 ms.author: mgandham 
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.date: 09/30/2024 
 ms.custom: bap-template 

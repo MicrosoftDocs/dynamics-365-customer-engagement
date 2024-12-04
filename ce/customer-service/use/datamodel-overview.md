@@ -3,7 +3,7 @@ title: Overview of data model customization
 description: Learn about data model customization and how it can help you with your organization's metrics.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 07/05/2024

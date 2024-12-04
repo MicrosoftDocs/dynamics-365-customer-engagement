@@ -3,6 +3,7 @@ title: Write an email with Copilot
 description: Learn how agents can use Copilot to draft emails to increase productivity.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
 ms.date: 08/26/2024

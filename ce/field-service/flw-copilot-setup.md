@@ -13,6 +13,9 @@ ms.collection: bap-ai-copilot
 
 # Set up the Dynamics 365 Field Service Plugin for Microsoft Copilot
 
+> [!IMPORTANT]
+> The Dynamics 365 Field Service Plugin for Microsoft Copilot is no longer available after January 15 for users of the Field Service app in Microsoft Teams. For more information, see [Feature deprecations](deprecations-field-service.md).
+
 As an admin, set up Microsoft Copilot for Field Service work orders for your users.
 
 ## Obtain licenses and set up the plugin

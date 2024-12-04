@@ -1,12 +1,12 @@
 ---
 title: Integrate a Copilot Studio bot
 description: Use this article to get instructions on how to integrate a Copilot Studio bot in your contact center.
-ms.date: 02/29/2024
+ms.date: 11/28/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.collection:
+ms.reviewer: nenellim
+ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
@@ -40,6 +40,7 @@ When a conversation is escalated from a bot to a representative, the representat
 You must have:
  - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
  - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
+ - The CCI Admin security role to access the bot you create in Customer Service admin center or Contact Center admin center in Copilot Studio.
  - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles?context=/dynamics365/contact-center/context/implement-context)
 
 ## Create a Copilot Studio bot

@@ -5,6 +5,7 @@ ms.topic: reference
 ms.date: 04/04/2022
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:getAgentAvailability event (Omnichannel for Customer Service JavaScript API reference)
 

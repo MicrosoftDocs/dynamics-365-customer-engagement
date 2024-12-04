@@ -3,7 +3,7 @@ title: Manage application tab templates
 description: Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.date: 06/05/2024
 ms.topic: how-to
 ms.collection:
