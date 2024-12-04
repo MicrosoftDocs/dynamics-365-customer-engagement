@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/16/2024
+ms.date: 12/04/2024
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -25,22 +25,22 @@ ms.custom:
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. It isn't intended to be used, and should **not** be used, to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements.
 >
-> Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws that are related to accessing individual employee analytics, and monitoring, recording, and storing communications with users. As part of this compliance, customers must adequately notify users that their communications with agents might be monitored, recorded, or stored. As required by applicable laws, customers must also obtain consent from users before they use this feature with them. In addition, customers are encouraged to have a mechanism in place to inform their agents that their communications with users might be monitored, recorded, or stored.
+> Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws that are related to accessing individual employee analytics, and monitoring, recording, and storing communications with users. As part of this compliance, customers must adequately notify users that their communications with customer service representatives (service representatives) might be monitored, recorded, or stored. As required by applicable laws, customers must also obtain consent from users before they use this feature with them. In addition, customers are encouraged to have a mechanism in place to inform their service representatives that their communications with users might be monitored, recorded, or stored.
 
-In the digital contact center world, supervisors must be able to react to events by optimizing the allocation of agents in real time to provide quick support and boost customer satisfaction. Such events include an increase in the volume of incoming customer interactions, longer call lengths, and agent absenteeism. By providing visibility into overall support performance, real-time reporting helps supervisors monitor key operational metrics, make course corrections at the appropriate time, and keep service levels high.
+In the digital contact center world, supervisors must be able to react to events by optimizing the allocation of service representatives in real time to provide quick support and boost customer satisfaction. Such events include an increase in the volume of incoming customer interactions, longer call lengths, and agent absenteeism. By providing visibility into overall support performance, real-time reporting helps supervisors monitor key operational metrics, make course corrections at the appropriate time, and keep service levels high.
 
-The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization. They reflect the current situation in the contact center as supervisors oversee agents who handle customer conversations that come in through multiple channels. You can change the visual display of the reports and save your personalized views as bookmarks.
+The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization. They reflect the current situation in the contact center as supervisors oversee service representatives who handle customer conversations that come in through multiple channels. You can change the visual display of the reports and save your personalized views as bookmarks.
 
 As a supervisor, you can use the real-time analytics reports to perform these tasks:
 
 - Monitor key operational metrics in near-real time, and make course corrections at the appropriate time to help keep service levels high.
-- Review the allocation of agents in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
+- Review the allocation of service representatives in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
 - Improve agent staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the agent. You can then assign or transfer ongoing conversations by filtering through queue or agent.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled only by agents. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
+> The reports include conversations that were handled only by service representatives. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
 
 ## Security roles and permissions
 
@@ -59,15 +59,16 @@ If you can't view the reports, contact your system administrator. For more infor
 
 ## Dashboard details
 
+> [!NOTE]
+> - The reports don't include work items of the Entity Record channel.
+> - The reports are prefiltered based on the queues you are logged in to as a supervisor. You'll see metrics and conversations relevant to the assigned queues only, which ensures data privacy and relevance.
+
 The **Omnichannel real-time analytics** dashboard consists of the following reports:
 
 - **Summary**: This report provides an overview of your organization in real time. It provides KPIs across the volume of customer interactions and service levels, together with the available capacity in real time. [Learn more about the Summary report.](realtime-summary-dashboard.md)
 - **Voice**: This report provides an overview of conversations for the voice channel. [Learn more about the Voice report.](realtime-voice-dashboard.md)
-- **Agents**: This report provides an overview of the health and KPIs of agents in your organization. The information that is shown on this report is based on the conversations. [Learn more about the Agents report.](realtime-agents-analytics.md)
-- **Ongoing conversation**: This report provides information about the conversations that agents are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, after reviewing their skill set and capacity profiles. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
-
-> [!NOTE]
-> The reports don't include work items of the Entity Record channel.
+- **Agents**: This report provides an overview of the health and KPIs of service representatives in your organization. The information that is shown on this report is based on the conversations. [Learn more about the Agents report.](realtime-agents-analytics.md)
+- **Ongoing conversation**: This report provides information about the conversations that service representatives are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, after reviewing their skill set and capacity profiles. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
 
 ## Filter information displayed on dashboard
 
