@@ -3,7 +3,7 @@ title: Define message parts
 description: Learn how to define the message parts for the SMS channel in Dynamics 365 Sales. 
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 06/23/2023
 ms.custom: bap-template 

@@ -5,6 +5,7 @@ ms.date: 08/25/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -32,7 +33,7 @@ Perform the following steps to disable the validation on contacts and customers:
 
 Now, when agents are creating or updating a case, they can select contacts who are not part of the customer organization.
 
-### See also
+### Related information
 
 [Overview of Customer Service workspace](../implement/csw-overview.md)  
 [Create a case](../use/customer-service-hub-user-guide-create-a-case.md)  

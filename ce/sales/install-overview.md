@@ -3,9 +3,9 @@ title: Install Dynamics 365 Sales apps
 description: Learn how to install Dynamics 365 Sales apps.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: overview 
-ms.date: 04/04/2023
+ms.date: 06/28/2024
 ms.custom: bap-template
 ---
 

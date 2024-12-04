@@ -3,7 +3,7 @@ title: "Overview of tracking records in Dynamics 365 for Outlook | MicrosoftDocs
 description: Learn how to use Dynamics 365 for Outlook to track email message, contact, task, and appointment records.
 ms.custom:
 ms.date: 01/11/2016
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: f29b60ce-dd9c-4777-9c95-4df8765d0302
 caps.latest.revision: 55
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType:
   - admin
   - customizer
@@ -70,10 +70,8 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 ## What can you do after you track a record?
  After you track a record, you can use the buttons on the [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] ribbon to do the following tasks.
 
-
-|                                                                                                                                                   |                                                                                                                                                             |                                          |
-|---------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------|
-|                                                                **To do this task**                                                                |                                                                         **Choose**                                                                          |              **Applies to**              |
+|       To do this task   |   Choose  |              Applies to         |
+|-----------|------|----------|
 |                            Open the record directly in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]                             |           ![View in Dynamics 365 apps button image in Dynamics 365 apps.](../media/view-crm-button.png "View in Dynamics 365 apps button image in Dynamics 365 apps")            | Email, appointments, contacts, and tasks |
 | Add a connection between the record and any [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] record capable of tracking connections |              ![Add Connection button image in Dynamics 365 apps.](../media/add-connection-button.png "Add Connection button image in Dynamics 365 apps")               | Email, appointments, contacts, and tasks |
 |                Convert the record into a [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] opportunity, lead, or case                |                      ![Convert To button image in Dynamics 365 apps.](../media/convert-button.png "Convert To button image in Dynamics 365 apps")                      |      Email, appointments, and tasks      |

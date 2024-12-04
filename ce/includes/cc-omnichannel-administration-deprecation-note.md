@@ -1,2 +1,0 @@
-> [!Important]
-> Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Omnichannel Administration app is deprecated](../customer-service/implement/deprecations-customer-service.md#omnichannel-administration-app-is-deprecated-and-removed-in-july-2023)

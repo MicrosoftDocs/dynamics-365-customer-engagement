@@ -1,10 +1,11 @@
 ---
 title: Enable or disable the enhanced add products experience
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
-ms.date: 05/30/2022
+ms.date: 11/21/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -53,7 +54,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3. On the **Product Catalog Settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
+3. On the **Product catalog settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
     When you enable the enhanced experience, you'll see additional options for customizing the **Add products** dialog box.
 
     ![Product catalog settings page with the **Enhanced experience for adding products** enabled.](media/EnableAddProductPreview.png)
@@ -71,6 +72,8 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
    ![Advanced Settings link in the site map.](media/advanced-settings-option.png)
 
    The **Business Management settings** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings**, and then select **Administration**.
 
@@ -84,7 +87,8 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add products to an opportunity by using the enhanced experience](add-products-enhanced-experience.md)  
 [Add products to a quote, order, or invoice by using the enhanced experience](add-products-qoi-enhanced.md)
+

@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -89,7 +90,7 @@ Before you begin, make sure you have the Scheduler Manager role or equivalent pe
 
    ![Edit Resource Group.](../media/uci-change-resource.png "Edit the resources in your Resource Group")
    
-### See also  
+### Related information  
 
 [Unified Interface-based service scheduling overview](uci-scheduling-overview.md)
 

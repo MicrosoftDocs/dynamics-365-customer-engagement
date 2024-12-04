@@ -1,8 +1,8 @@
 ---
 title: Service territories for accounts, work orders, and resources.
 description: Learn how to use territories for accounts, work orders, and scheduling in Dynamics 365 Field Service.
-ms.date: 09/22/2022
-ms.topic: article
+ms.date: 05/28/2024
+ms.topic: how-to
 author: ryanchen8
 ms.author: chenryan
 ---
@@ -18,9 +18,6 @@ Use territories with work orders and resources to help dispatchers schedule work
 
 Create your territories in Field Service settings or import them from Excel.
 
-> [!IMPORTANT]
-> Territories are not hierarchical or associative.
-
 :::image type="content" source="media/territories.png" alt-text="Screenshot of the list of territories.":::
   
 1. In **Field Service**, open the **Settings** area.
@@ -34,6 +31,8 @@ Create your territories in Field Service settings or import them from Excel.
    - **Manager**: User who manages the territory.
   
    - **Description**: Enter information to include for this territory.
+
+   - **Parent**: Choose a parent territory to define territory hierarchy.
   
 1. Select **Save & Close**.  
 

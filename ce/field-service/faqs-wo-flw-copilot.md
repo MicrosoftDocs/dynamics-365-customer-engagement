@@ -1,7 +1,7 @@
 ---
 title: FAQ about work order creation using Copilot in Field Service for Outlook
-description:  Get answers to common questions about the AI technology used in the Dynamics 365 Field Service for Outlook add-in, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
-ms.date: 12/07/2023
+description:  Get answers to common questions about the AI technology used in Dynamics 365 Field Service for Outlook, along with key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+ms.date: 11/12/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -13,7 +13,7 @@ ms.collection: bap-ai-copilot
 
 # FAQ about work order creation using Copilot in Field Service for Outlook 
 
-This article answers common questions about the AI technology used in the Dynamics 365 Field Service for Outlook (Preview) add-in to create work orders from emails with Copilot. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
+This article answers common questions about the AI technology used in the Dynamics 365 Field Service for Outlook to create work orders from emails with Copilot. It also includes key considerations and details about how the AI is used, how it was tested and evaluated, and any specific limitations.
 
 ## What is work order creation using Copilot in Outlook?
 
@@ -37,6 +37,10 @@ This feature was evaluated using both conventional performance testing and metho
 - Customized work order creation forms aren't supported.
 - Summaries that are generated during work order creation are provided only in English (en-us).
 - Some fields in the work order form might not be populated automatically.
+
+## What are the supported geographies and languages?
+
+[Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

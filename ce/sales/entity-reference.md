@@ -5,6 +5,7 @@ ms.date: 08/19/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Sales insights table/entity reference 
 
@@ -18,7 +19,7 @@ Understand the operations you can perform for specific entities, each entity's d
 |[msdyn_wkwcolleaguesforcontacts](developer/entities/msdyn_wkwcolleaguesforcontact.md)|This custom entity contains interactions between your organization's users and contacts in Dynamics 365, through emails, calls, and so on. Dynamics 365 Sales uses this data to surface the who knows whom connection.|
 |[msdyn_wkwcolleaguesforcompanies](developer/entities/msdyn_wkwcolleaguesforcompany.md)|This custom entity contains interactions between your organization's users and accounts in Dynamics 365, through emails, calls, and so on. For example, when a seller receives an email from a domain that's associated with an account, a connection record will be created in this entity.|
 
-### See also
+## Related information
 
 - [Predictive lead scoring](configure-predictive-lead-scoring.md)  
 - [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md)

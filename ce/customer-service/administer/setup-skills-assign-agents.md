@@ -1,17 +1,17 @@
 ---
 title: Set up skills and assign agents
-description: Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service.
+description: Perform the steps mentioned in the topic to create skills and assign agents to those skills.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 06/07/2023
+ms.reviewer: nenellim
+ms.date: 06/14/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Set up skills, create a rating model, and assign agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As an administrator, to create skills, you need at least one skill type in the system. For example, to add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
@@ -19,7 +19,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 1. Sign in to the Dynamics 365 instance.
 
-2. Select **Settings** > **Customizations** >  **Customize the System**.
+2. Select **Settings** > **Advanced Settings** > **Customizations** >  **Customize the system**.
 
 3. Select **Option Sets** from the left pane.
 
@@ -89,18 +89,7 @@ If you'd created proficiency scales in the classic experience, you can update th
 
 ## Create skills using the classic experience
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-   
-     - In the site map, select **User management** in **Customer Support**.
-     
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-    
-     - In the site map, select **User attributes** in **Advanced settings**. The **User attributes** page appears.
-     
+1. In the site map of Customer Service admin center, select **User management** in **Customer Support**.
 
 1. For **Skills**, select **Manage**.
 
@@ -126,13 +115,9 @@ You must provide the minimum and maximum rating value. Also, in the **Rating Val
 
 ### Create a rating model
 
-You can create rating models in the Customer Service admin center or Omnichannel admin center app.
+You can create rating models in the Customer Service admin center app.
 
-1. Perform the steps by using one of the following apps.
-
-   - In the site map of Customer Service admin center, select **Insights** in **Operations**.
-
-   - In the site map of Omnichannel admin center, select **User attributes** in **Advanced settings**.
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**.
 
 1. In the **Skill-based routing** section, select **Manage**.
 
@@ -199,13 +184,8 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 ### Assign agents to skill
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
-
-1. Do one of the following:
-
-    - In the site map of Customer Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.
-    - In the site map of Omnichannel admin center, select **User attributes** under **Advanced settings**, and then select **Manage** for **Skills**.
-
+1. In the site map of Customer Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.
+   
 2. Select a skill from the list for which you want to assign the agents.
 
 3. Select **New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
@@ -225,7 +205,7 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 Alternatively, you can also add a skill to the user (agent). More information: [Manage users](users-user-profiles.md).
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  

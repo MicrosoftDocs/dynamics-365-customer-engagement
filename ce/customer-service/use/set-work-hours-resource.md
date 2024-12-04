@@ -5,6 +5,7 @@ ms.date: 11/20/2018
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -104,7 +105,7 @@ Make sure that you have the required security role or equivalent permissions.
 > - You can set the work hours for a single day by double-clicking the day, and then in the **Edit Schedule** dialog box, select **This date only**, then select **OK**. Then, perform step 10 in the procedure.  
 > - All of the options may not be available to you for selecting how much of the schedule you want to edit. The available options are based on the schedules that are already set up.  
   
-### See also  
+### Related information  
  
 [Set when your business is closed (Customer Service app)](set-when-business-closed-cs-app.md)
  

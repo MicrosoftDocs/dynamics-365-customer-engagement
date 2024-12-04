@@ -5,6 +5,7 @@ ms.date: 03/15/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Enable or disable PDF file generation from sales records 
 
@@ -101,9 +102,10 @@ If you're using the **Dynamics 365 for phones** mobile app, you can enable the c
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create PDF files from sales records](create-quote-pdf.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

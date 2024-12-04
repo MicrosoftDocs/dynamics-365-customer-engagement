@@ -5,6 +5,7 @@ ms.date: 04/16/2021
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -1034,6 +1035,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

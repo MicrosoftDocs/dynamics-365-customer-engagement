@@ -1,20 +1,21 @@
 ---
 title: Search, link, and unlink records in Omnichannel for Customer Service
-description: Learn how to search, link, and unlink records in Omnichannel for Customer Service. Also learn how to link records to conversations.
+description: Learn how to search, link, and unlink records. Also learn how to link records to conversations.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 06/08/2023
 ms.topic: how-to
 ms.custom: bap-template
 
 ---
 
-# Search, link, and unlink a record in Omnichannel for Customer Service
+# Search, link, and unlink a record 
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation in Omnichannel for Customer Service.
+
+The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
 
 You can search for records in two ways:
 
@@ -94,7 +95,7 @@ To unlink a record, select **Close** next to the customer name in the customer (
 > [!div class=mx-imgBorder]
 > ![Blank customer section after unlinking the record.](../media/oceh-oc-unlinked-form.PNG "Blank customer section after unlinking the record")
 
-### See also
+### Related information
 
 - [Understand conversation states](oc-conversation-state.md)
 - [View customer information on Active Conversation form](oc-customer-summary.md)

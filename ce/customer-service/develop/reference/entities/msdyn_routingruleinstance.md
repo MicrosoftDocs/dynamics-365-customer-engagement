@@ -5,6 +5,7 @@ ms.date: 03/23/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_routingruleinstance Entity Reference
 
@@ -23,7 +24,7 @@ ms.author: mgandham
 Download the Entity Metadata Browser tool to browse through the properties of this entity. For instructions on how to download the Metadata browser tool, see [Browse the metadata for your environment](/powerapps/developer/common-data-service/browse-your-metadata).
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

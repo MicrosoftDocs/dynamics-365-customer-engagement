@@ -5,6 +5,7 @@ ms.date: 03/16/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-goal
@@ -108,7 +109,7 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also  
+## Related information  
 
 [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
 [Define a goal rollup queries](create-edit-goal-rollup-query-sales.md)

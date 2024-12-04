@@ -1,19 +1,17 @@
 ---
 title: Create and manage data masking rules
 description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
-ms.date: 12/06/2023
+ms.date: 06/14/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ms.topic: how-to
 ---
 
 # Create and manage data masking rules
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use data masking to block sensitive data such as credit card information, social security number (SSN), or even profanity in a conversation. You can create a masking rule and define a regular expression to identify the sensitive information and replace it with the masked characters. Any masked text in a conversation is also masked in the conversation transcript. Data masking works for chat and asynchronous channels.
 
@@ -44,17 +42,7 @@ As an administrator, you can delete or modify the out-of-the-box masking rules a
    > [!div class=mx-imgBorder]
    > ![Create a masking rule.](../media/new-masking-rule.png "Create a masking rule")
 
-1. In Dynamics 365, go to one of the apps and complete the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, in **Agent experience**, select **Productivity**.
-   
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-      [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-     - In the site map, in **Advanced settings**, select **Agent experience**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
 
 1.	Select **Manage** for **Data masking**.
 

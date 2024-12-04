@@ -5,12 +5,10 @@ ms.date: 07/21/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 # Configure bot context
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -24,7 +22,7 @@ For Copilot Studio bots, see [Configure bot context in Copilot Studio bots](enab
 [Configure bot context in Azure bots](enable-bot-context-azure.md)  
 [Configure bot context in Copilot Studio bots](enable-bot-context-pva.md)  
 
-### See also
+### Related information
 
 [Send custom context](send-context-starting-chat.md)  
 [setContextProvider](reference/methods/setContextProvider.md)  

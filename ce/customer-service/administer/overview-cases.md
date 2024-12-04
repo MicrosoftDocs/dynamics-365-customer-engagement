@@ -5,6 +5,7 @@ ms.date: 12/21/2023
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 searchScope: 
   - D365-App-customerservicehub
   - D365-Entity-incident
@@ -44,7 +45,7 @@ A case typically represents a situation or incident that's reported by a custome
 
 As your organization tracks metrics on the types of cases that come in, you can create queues, routing rules, and flows to triage cases in the most efficient way.
 
-### See also
+### Related information
 
 [Set up record routing](set-up-record-routing.md)  
 [Create cases](../use/customer-service-hub-user-guide-create-a-case.md)  

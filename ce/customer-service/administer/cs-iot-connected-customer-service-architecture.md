@@ -5,6 +5,7 @@ ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Architecture of Connected Customer Service with IoT Hub

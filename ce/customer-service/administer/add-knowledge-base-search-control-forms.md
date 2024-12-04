@@ -1,11 +1,11 @@
 ---
-title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms | Microsoft Docs
+title: Add the Knowledge Base Search control to Dynamics 365 Customer Service forms
 description: Know how to add the Knowledge Base Search control to Dynamics 365 Customer Service forms.
-ms.date: 08/12/2021
+ms.date: 06/12/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -15,6 +15,12 @@ ms.custom:
 ---
 
 # Add the Knowledge Base Search control to forms
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+> [!NOTE]
+> Follow the steps provided in this article for single-session apps only or to use auto search on non-anchor tabs. For multi-sessions apps, use the [knowledge search control on the app side pane](configure-knowledge-search-control-productivity-pane.md).
 
 Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] forms to make it easy for users in your organization to find knowledge articles so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.  
   
@@ -27,8 +33,8 @@ Add a **Knowledge Base Search** control to [!INCLUDE[pn_dynamics_crm](../../incl
 - Choose from a set of predefined contextual actions the users can take on an article.  
   
 - Add the control on any section of any entity that is enabled for knowledge management, including the timeline, and custom entities. The control is enabled in the case entity out of the box, and is added to the following forms:
-   - Case main form -  In the **Activity wall** section 
-   - Case for interactive experience main form – In the **Related** section 
+   - Case main form -  In the **Activity wall** section.
+   - Case for interactive experience main form – In the **Related** section.
   
   > [!NOTE]
   > The Knowledge Base Search control can be used on Microsoft Dynamics 365 for tablets and phones. However, some actions like Pop Out, Email Link, and Email Content aren't supported.  
@@ -71,21 +77,21 @@ Make sure that you have the System Administrator or System Customizer security r
    > [!Note]
    > If the option to add Knowledge Base Search is disabled, it could be because knowledge management isn't set up or isn't enabled for the entity for which you're adding the search control. Also, this control won't be enabled for reference panels until a later date.
 
-5. After you've added your new section, select **Save and Publish**. You might need to refresh the screen to see the new section.
+5. After you add your new section, select **Save and Publish**. You might need to refresh the screen to see the new section.
 
  
    ![View new section.](../media/Knowledge-control-standardview.png "Knowledge control standard view")
 
-   The knowledge properties will now be displayed in the standard view at runtime. 
+   The knowledge properties now display in the standard view at runtime. 
    
    The following table describes the properties you can configure.
     
 |Property  |Description|
 |---------|---------|
-|Reference name     |**Required**: The unique name for the tab that's used when referencing it in scripts. The name must follow these rules:<ul><li>Can't be empty</li><li>Must be a unique name</li><li>Must start with a letter only</li><li>Must contain only alphanumeric characters and underscores</li><li>Can't be greater than 100 characters</li></ul> |
+|Reference name     |**Required**: The unique name for the tab. This name is used when referencing it in scripts. The name must follow these rules:<ul><li>Can't be empty</li><li>Must be a unique name</li><li>Must start with a letter only</li><li>Must contain only alphanumeric characters and underscores</li><li>Can't be greater than 100 characters</li></ul> |
 |Label        |**Required**: The localizable label for the tab visible to users. The label must follow these rules:<ul><li>Can't be empty</li><li>Must be a unique name</li><li>Must start with a letter only</li><li>Must contain only alphanumeric characters and underscores</li><li>Can't be greater than 100 characters</li></ul> |
 |Results shown on page       |Select the number of articles to be displayed in the search results. <br> </br> **Note**: What you specify in this field isn't applicable if at least one search provider is configured. For each configured search provider, three articles are displayed in the search results. More information: [Set up external search providers](set-up-search-providers.md#set-up-external-search-providers) <br> </br> If Relevance Search is enabled, the number of results that are displayed might differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, see [Understand knowledge base search mechanisms](../use/../use/knowledge-base-search-methods.md). |
-|Automatic search > Provide search results using     |After you open the entity form, automatic search is performed by using the field you specify in the field below.<br><br> If you've enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service will use to suggest article results in the Give knowledge base (KB) suggestions drop-down list.<br><br> For example, if you're adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**: This drop-down list can include all fields that are text, multi-line text, or lookup type fields. |
+|Automatic search > Provide search results using     |After you open the entity form, automatic search is performed by using the field you specify in the field below.<br><br> If you enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service uses to suggest article results in the Give knowledge base (KB) suggestions drop-down list.<br><br> For example, if you're adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**: This drop-down list can include all fields that are text, multi-line text, or lookup type fields. |
 |Actions   |**Link article**: Lets users link a knowledge article to the record they're viewing the knowledge article search results in.<br><br>**Unlink article**: Lets users unlink a knowledge article from a primary record.<br><br>**Copy URL**: Lets users copy the external URL of the article so they can share it over channels like chat or email. In the native Dynamics 365 customer engagement knowledge management solution, the Copy URL option is available only for published articles.<br><br>**Open in new tab**: Opens a knowledge article in a new tab within the same browser window.<br><br>**Link article and email URL**: Lets users associate an article with the primary record and share the article URL with the customer through email.<br><br>**Link article and send article content**: Lets users associate an article with a primary record and share the contents of the article with the customer through email. |
 |Select default email recipient    |Select who the email will be sent to when an agent sends the article link in email. This drop-down list includes all fields for the entity that are enabled for email (for example Customer, Contact, or Responsible contact).<br></br> When the agent chooses to send a link to the article to the customer, the To field is automatically populated with the value of the field that you select here. If you leave it blank, in the email recipient display, it will show as blank and you need to fill it in manually.|
 |Show article rating   | Shows the rating on an article. |
@@ -132,9 +138,9 @@ Make sure that you have the System Administrator or System Customizer security r
 |**Display**     |    Name     |       **Required**: The unique name for the tab that is used when referencing it in scripts. The name can contain only alphanumeric characters and underscores.   |
 |    |  Label        |     **Required**: The localizable label for the tab visible to users.    |
 |     |      Filter Search results by   |   In the **Filter search results by** drop-down list, select the set of article states that you want Dynamics 365 Customer Service to search in: <br><ul><li> In the native Dynamics 365 Customer Service knowledge solution, you can choose from all draft articles, all approved articles, or all published articles.</li><li>To let users select a different filter on search results so they can see other types of articles, select the **Users can change filters** check box. Only when you enable this option will users see an option to change the filter in the Search pane in a record.</li></ul> While searching for a  knowledge article in the Related section (Reference panel), the following fields of a knowledge article are searched for the keywords that you enter: **Title**,**Content**, **Keywords**, **Description**, and **Article Public Number**. For more information, go to [Search for knowledge articles](../use/search-knowledge-articles-csh.md). |
-|     |  Set Default Language |     If you want users to see search results only for articles in a specific language, in the **Set Default Language** drop-down list, select a language. By default, User's Default Language is selected: <br><ul><li>If you select User's Default Language, search results will be filtered based on the signed-in user's default language. </li> <li> If the language you select isn't an active language, the search results will be filtered by using the signed-in user's default language. </li> <li> If you select User's Default Language, and the user's default language isn't an active language, the first active language available alphabetically is used as the default filter. </li> <li>	To let users select a different language filter on search results so they can see other articles in other languages, select the **Users can change Language Filter** check box. Only when you enable this option will users see an option to change the filter in the Search pane in a record. </li> </ul> |
-|  |     Additional Options    |      If you want Dynamics 365 Customer Service to suggest articles automatically based on the value in certain fields of the entity, select **Turn on automatic suggestions**. <br> </br>If you've enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service will use to suggest article results in the **Give knowledge base (KB) suggestions** drop-down list.  <br> </br>For example, if you're adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**:  This drop-down list can include all fields that are text, multi-line text, or lookup type fields. <br> </br>If you want the article rating to appear for each article in the search results, select the **Enable ratings on KB article search results based on the specified field** check box, and then select the field from the drop-down list. |
-|   |  Select Primary customer       |     In **Select primary customer**, select who the email will be sent to when a customer service rep sends the article link in email. This drop-down list includes all fields for the entity that are enabled for email, for example Customer, Contact, or Responsible contact. <br> </br> When the customer service rep chooses to send a link to the article to the customer, the **To** field is automatically populated with the value of the field that you select here.     |
+|     |  Set Default Language |     If you want users to see search results only for articles in a specific language, in the **Set Default Language** drop-down list, select a language. By default, User's Default Language is selected: <br><ul><li>If you select User's Default Language, search results are filtered based on the signed-in user's default language. </li> <li> If the language you select isn't an active language, the search results are filtered by using the signed-in user's default language. </li> <li> If you select User's Default Language, and the user's default language isn't an active language, the first active language available alphabetically is used as the default filter. </li> <li>	To let users select a different language filter on search results so they can see other articles in other languages, select the **Users can change Language Filter** check box. Only when you enable this option will users see an option to change the filter in the Search pane in a record. </li> </ul> |
+|  |     Additional Options    |      If you want Dynamics 365 Customer Service to suggest articles automatically based on the value in certain fields of the entity, select **Turn on automatic suggestions**. <br> </br>If you've enabled automatic suggestions, select the field for the entity that Dynamics 365 Customer Service uses to suggest article results in the **Give knowledge base (KB) suggestions** drop-down list.  <br> </br>For example, if you're adding the search control to the Account entity and want Dynamics 365 Customer Service to automatically show search results that contain the account name, select Account Name in the drop-down list. **Note**:  This drop-down list can include all fields that are text, multi-line text, or lookup type fields. <br> </br>If you want the article rating to appear for each article in the search results, select the **Enable ratings on KB article search results based on the specified field** check box, and then select the field from the drop-down list. |
+|   |  Select Primary customer       |     In **Select primary customer**, select who the email is sent to when a customer service rep sends the article link in email. This drop-down list includes all fields for the entity that are enabled for email, for example Customer, Contact, or Responsible contact. <br> </br> When the customer service rep chooses to send a link to the article to the customer, the **To** field is automatically populated with the value of the field that you select here.     |
 |  |   Number of results      |      Select how many articles to show in the search results at first. <br> </br> **Note**: If Relevance Search is enabled, the number of results that are displayed might differ from what you set due to the default Relevant Search setting. Your system administrator must disable Relevance Search or enable Simple Relevance Search for this property to work correctly. (Simple Relevance Search queries only articles, excluding attachments and notes.) For more information, go to [Understand knowledge base search mechanisms](../use/../use/knowledge-base-search-methods.md).   |
 |    |  Actions       |   Select whether you want to make all the default actions available to reps or only selected ones. If you choose **Show Selected Actions**, select the actions you want to show. <br> The following actions are available: <ul> <li>**Link the KB article**. Lets users link the knowledge article to the record they're viewing the knowledge article search results in. </li> <li>	**Unlink**. Lets users unlink the knowledge article from the primary record. </li> <li> **Copy link**. Lets users copy the external URL of the article, so they can share it over channels like chat or email. In the native Dynamics 365 Customer Service knowledge management solution, the **Copy Link** option is available only for published articles.</li> <li> **Link KB article and email link**. Lets users associate an article with the primary record and share the article link with the customer through email. |
 |**Formatting**     |      Layout   |    Choose the type of layout to determine the number of columns the control should occupy.     |
@@ -145,7 +151,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your customer service agents receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the agents.
 
-For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles will be filtered out automatically. 
+For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the agents. Other articles are filtered out automatically. 
 
 This feature can be extended to automatically filter knowledge articles on any lookup field that's present on both Case and Knowledge Article entities. Agents also have an option to turn off automatic filtering and search the entire knowledge base. Administrators can configure this option in the Knowledge Base Search control.
 
@@ -198,7 +204,7 @@ You can use the knowledge search control either on the app side pane or embed it
 
 
 
-### See also
+### Related information
 
 [Reduce call handling times with Knowledge articles in the Customer Service Hub](../use/customer-service-hub-user-guide-knowledge-article.md)  
 [Set up knowledge management using embedded knowledge search](set-up-knowledge-management-embedded-knowledge-search.md)  

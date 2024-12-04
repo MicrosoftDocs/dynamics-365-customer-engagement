@@ -1,15 +1,15 @@
 ---
 title: "Standard Web Application hosted control to load a non-model-driven app page | MicrosoftDocs"
 description: "Learn to create the Standard Web Application hosted control. Also find information about the predefined UII actions supported by it."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Standard Web Application (hosted control)
 

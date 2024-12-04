@@ -5,6 +5,7 @@ ms.date: 10/03/2019
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -56,7 +57,7 @@ OData-Version: 4.0
 HTTP 204 No Content
 ```
 
-### See also
+### Related information
 
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)
 

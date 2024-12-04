@@ -1,12 +1,13 @@
 ---
 title: Add a web resource for real-time translation of messages
 description: Learn how to add a web resource to implement the logic for enabling real-time translation of messages exchanged between your customers and agents.
-ms.date: 03/08/2023
+ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
+ms.collection:
 ---
 # Add a web resource for real-time translation
 
@@ -36,23 +37,20 @@ Perform the following steps to upload the web resource file for real-time transl
 
 5. Select **New**, and perform the following steps:
    1. In the **General** section, enter a name for the web resource.
-   2. In the **Content** section, select Script (JScript) for **Type**.
-   3. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
-   4. Save the form, select the option to publish all customizations.
-   5. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](../implement/cs-admin-center.md) or Omnichannel admin center (deprecated) app for configuring real-time translation.
-       [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+   1. In the **Content** section, select Script (JScript) for **Type**.
+   1. For **Upload File**, select **Choose File** to upload the JavaScript file that you customized.
+   1. Save the form, select the option to publish all customizations.
+   1. Copy the link in the **URL** field. You'll provide this link in the administrator settings in [Customer Service admin center](../implement/cs-admin-center.md) for configuring real-time translation.
    1. Select the option to publish all customizations on the **Solution** page, and close the form.
    
 6. In the site map of Customer Service admin center app, select **Productivity** under Agent experience, then select **Manage** next to **Real-time translation**.
-
-    If you're using Omnichannel admin center, then in the site map, select **Agent experience** under **Advanced settings**, and then select **Manage** next to **Real-time translation**.
 
 7. In the **Web resource URL** field, paste the link that you had copied, and save the changes.
 
    ![Add a web resource.](../media/real-time-translation-web-resource.png "Add a web resource")
 8. Select **Save**.
 
-### See also
+### Related information
 
 [Enable real-time translation of conversations](../administer/enable-real-time-translation.md)  
 [Real-time translation of conversations](../use/oc-real-time-translation.md)  

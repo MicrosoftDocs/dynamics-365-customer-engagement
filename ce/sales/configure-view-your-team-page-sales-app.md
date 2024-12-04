@@ -5,6 +5,7 @@ ms.date: 09/30/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Configure and view team page in sales app
@@ -99,7 +100,7 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)

@@ -5,6 +5,7 @@ ms.date: 08/18/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -622,7 +623,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

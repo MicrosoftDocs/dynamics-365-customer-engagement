@@ -3,9 +3,9 @@ title: Set up external search providers
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 06/23/2023
+ms.date: 06/21/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -24,6 +24,8 @@ searchScope:
 ---
 
 # Set up external search providers
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Use external search providers to federate the search of files, documents, and articles from data sources, such as SharePoint or another organization outside your current organization.
 
@@ -45,35 +47,21 @@ Use the integrated search provider option to set up third-party knowledge source
 >
 > Before you set up a search provider, ensure that your firewall doesn't block the https://www.d365ccafpi.com/ domain. Otherwise, users will encounter errors.
 
-You can set up a search provider in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
-1. Go to **External search providers**.
-  
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    > [!NOTE]
+1. In the **External search providers** section, select **Manage**.
+      > [!NOTE]
       > **Search Providers** on the **Knowledge** page has been renamed as **External search providers**.
 
-      1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
-      2. In the **External search providers** section, select **Manage**.
+1. Select **New**.
 
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
+1. On the **New Search provider** page, **General** section, enter the name and owner of the search provider. Optionally, you can enter a description.
 
-     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    * In the site map, go to **Service Management**, and select **Search providers** in **Knowledge Base Management**.
-
----
-
-2.	Select **New**.
-
-3.	On the **New Search provider** page, **General** section, enter the name and owner of the search provider. Optionally, you can enter a description.
-     
-5. In the **Details** section, select the organization and the type of search provider you want to use from the **Select organization** and the **Search Type** dropdown, respectively.
+1. In the **Details** section, select the organization and the type of search provider you want to use from the **Select organization** and the **Search Type** dropdown, respectively.
 
     :::image type="content" source="../media/search-provider-details.png" alt-text="Search provider details":::
 
-6. Select **Save**.
+1. Select **Save**.
 
 ## Post-configuration agent experience
 
@@ -94,7 +82,7 @@ For more information about agent search experience, go to [Search across externa
 > - Knowledge Federated Article
 > -	Knowledge Federated Article Incident
    
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](add-knowledge-base-search-control-forms.md)
 

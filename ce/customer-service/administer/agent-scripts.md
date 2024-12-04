@@ -1,13 +1,16 @@
 ---
-title: "Manage agent scripts | MicrosoftDocs"
-description: "Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers."
+title: Manage agent scripts
+description: Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 02/29/2024
 ms.topic: article
 ---
 
 # Guide agents with scripts
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 In the customer service industry, agents need to deal with continuous updates both to products and processes. Even after agents have been rigorously trained, recurrent human errors and delays in service delivery occur due to a lack of guidance in real-time customer scenarios. These issues lead to lower productivity and thus negatively affect customer satisfaction levels. To avoid errors and ensure that processes are adhered to, agents need guidance.
 
@@ -24,20 +27,21 @@ Agent scripts reduce the human errors involved, because agents know which action
 
 ## Prerequisites
 
-- Ensure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
+- Make sure that you have the **Productivity tools administrator** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
 
-- Ensure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
+- Make sure that agents and supervisors are assigned the **Productivity tools user** security role. To learn more, see Assign roles and enable users.
 
 ## Create agent scripts
 
-Create agent scripts in the Customer Service admin center, Omnichannel admin center (deprecated), or Customer Service Hub app. The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
+Create agent scripts in the admin center by following these steps:
 
-1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083), and go to the app profile manager page.
-2. In the left pane, under **Productivity**, select **Agent scripts**. The Unified Interface page opens on a new tab.
+1. In the **Customer Service admin center** site map, select **Productivity** in **Agent experience**. 
+1. On the **Productivity** page, select **Manage** for **Agent scripts**. 
+1. On the **Agent scripts** page, select **New**.
 
-3. On the page that appears, select **New**.
+The following procedure is an example of an agent script for a chat session. You can modify the procedure for other types of sessions your agents are likely to come across.
 
-4. On the **New Agent script** page, specify the following:
+1. On the **New Agent script** page, specify the following:
 
     | Field | Description | Value |
     |------------|------------------------------|-------------------|
@@ -46,11 +50,11 @@ Create agent scripts in the Customer Service admin center, Omnichannel admin cen
     | Language | A language from the list. The languages that are enabled in Microsoft Dataverse appear in the list. | English |
     | Description | Description for the agent script. | This agent script is used for chat sessions. |
 
-5. Select **Save**. The **Agent script steps** appears.
+2. Select **Save**. The **Agent script steps** appears.
 
-6. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
+3. In the **Agent script steps** section, select **New Agent script step**. **Quick Create: Agent script step** appears.
 
-7. Specify the following fields in the quick-create form.
+4. Specify the following fields in the quick-create form.
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
@@ -78,17 +82,7 @@ The agent script is now configured.
 
 After you configure the agent script and add the field to a form, you need to associate the agent script with a session template so that the agent script will load for agents based on the type of session they've opened.
 
-1. Select one of the following apps, and perform the steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     - In the site map, select **Session templates** in **Workspaces**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-   
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-      - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
+1. In the site map of the admin app, select **Session templates** in **Workspaces**.
 
 2. Select a template from the list for which you want to associate the template. For example, select the **Chat - Default Session** template.
 
@@ -107,23 +101,16 @@ The agent script is associated with the session template.
 
 ## Set the default agent script for agents
 
-As an administrator, you can set different default agent scripts for agents who handle different services, customers, or products. You need a way to show these agents a script that's appropriate for the context of the conversation between them and the customer. With the agent script expression builder, you can define the conditions that define which script an agent is shown by default in Omnichannel for Customer Service.
+As an administrator, you can set different default agent scripts for agents who handle different services, customers, or products. You need a way to show these agents a script that's appropriate for the context of the conversation between them and the customer. With the agent script expression builder, you can define the conditions that define which script an agent is shown by default in the agent app.
 
 Based on these conditions, when an agent accepts an incoming conversation, the agent script control selects a script from the different scripts that were made available for that particular session type and shows the script to the agent. In addition, agents can manually select a script from the list of available agent scripts if they need to switch between different scripts.
 
 ### Enable and build the expression
+
 You can build the expression in the **Agent scripts** tab in the sessions template.
 
-1. Select one of the following appss, and perform the steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     - In the site map, select **Session templates** in **Workspaces**.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    - In the site map of Omnichannel admin center, select **Agent experience** under **Advanced settings**, and then select **Manage** for **Session templates**.
-    
+1. In the site map, select **Session templates** in **Workspaces**.
+ 
 2. Go to the **Agent scripts** tab.
 
 3. Set the **Enable build expression** toggle to **Yes**, and then select **Build Expression** to define the expression. The **Expression builder** page is displayed.
@@ -161,7 +148,7 @@ To learn about the slugs for productivity tools, see [Slugs](automation-dictiona
 
 To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
 
-### See also
+### Related information
 
 [Agent scripts](../use/oc-agent-scripts.md)  
 [Macros](macros.md)  

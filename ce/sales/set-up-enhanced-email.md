@@ -5,7 +5,7 @@ ms.date: 03/08/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ---
 # Set up enhanced email 
 
@@ -54,6 +54,8 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
     > ![Advanced settings.](media/advanced-settings-option.png "Advanced settings")
 
     The **Business Management** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings**, and then under **System**, select **Administration**.
 
@@ -80,9 +82,10 @@ The following considerations apply to the enhanced email experience:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Send email using the enhanced email experience](enhanced-email.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -5,6 +5,7 @@ ms.date: 03/23/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_cdsentityengagementctx Entity Reference
 
@@ -695,7 +696,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 **Added by**: Active Solution Solution
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

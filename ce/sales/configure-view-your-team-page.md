@@ -5,6 +5,7 @@ ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
@@ -158,7 +159,7 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
 

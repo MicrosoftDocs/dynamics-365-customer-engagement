@@ -1,10 +1,11 @@
 ---
 title: "Set up discount lists (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Set up discounts on products in Dynamics 365 Sales to offer products to your customers on marked down rates."
-ms.date: 10/26/2021
+ms.date: 11/20/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -38,9 +39,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
 2. Under **Product Catalog**, select **Discount Lists**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![Unit groups in site map.](media/site-map-unit-group.png "Unit groups in site map")
-
+    :::image type="" source="media/site-map-unit-group.png" alt-text="Unit groups in site map":::
 
 4.	To create a new discount list, on the command bar, select **New**.
 
@@ -56,13 +55,11 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
     c.	**Currency**. If you chose to give discount as a fixed amount, select the currency.
 
-    > [!div class="mx-imgBorder"]
-    > ![Discount list form.](media/discount-list-form.png "Discount list form")
+    :::image type="Discount list form" source="media/discount-list-form.png" alt-text="Discount list form":::
  
 6.	To add discount details to the list, select the **Related** tab, and then select **Discounts**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Discount tab on the Discount List form.](media/discount-list-form-related-tab-discounts-option.png "Discount tab on the Discount List form")
+    :::image type="Discount tab on the Discount List form" source="media/discount-list-form-related-tab-discounts-option.png" alt-text="Discount tab on the Discount List form":::
  
 7.	On the **Discounts** tab, select **New Discount**.
 
@@ -76,8 +73,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
 
     For example, this discount list will offer a discount of $5 whenever the customer purchases between 2 – 5 pieces of televisions.
 
-    > [!div class="mx-imgBorder"]
-    > ![Discount form.](media/discount-form.png "Discount form")
+    :::image type="Discount form" source="media/discount-form.png" alt-text="Discount form":::
  
 
 ## Typical next steps  
@@ -87,7 +83,7 @@ Motivate customers to buy more by offering them discounts on bulk purchases. To 
  
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
  
-### See also  
+## Related information  
  [System Settings dialog box - Sales tab](/power-platform/admin/system-settings-dialog-box-sales-tab)
 
 

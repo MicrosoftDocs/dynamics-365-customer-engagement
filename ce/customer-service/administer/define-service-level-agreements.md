@@ -1,11 +1,11 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 10/13/2023
+ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -64,25 +64,11 @@ Review the following requirements before configuring SLAs for your organization:
 
 SLA KPIs are performance indicators, such as First Response or Resolve by, that you'd like to track.
 
-You can create SLA KPIs from the Customer Service admin center or Customer Service Hub app.
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
-1. Go to one of the apps, and perform the following steps.
+1. In the **SLA KPIs** section, select **Manage**. The **Active SLAKPIs** view is displayed.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
-    1. In the **SLA KPIs** section, select **Manage**.                                                                         
-        
-      The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.   
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, go to **Service Management**.
-    1. From the list of entity records, select **SLA KPIs** in **Service Terms**.                                                              
-       
-       The **Active SLAKPIs** view is displayed. Select the SLA for which you want to add an SLA item.
+1. Select the SLA for which you want to add an SLA item.
 
 1. Select **New**. The **New SLA KPI** page appears.
 
@@ -163,23 +149,9 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 ### Create an SLA
 
-You can create an SLA from the Customer Service admin center or Customer Service Hub apps.
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
-1. Go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-   1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears.
-   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
-        
-   The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-   1. In the site map, go to **Service Management**.
-   1. From the list of entity records, select **Service Level Agreements** in **Service Terms**.                                                              
-       
-      The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
+1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. You can switch between various system views using the drop-down list.  
 
 1. Select **New**. The **New SLA** page appears.
 
@@ -193,61 +165,47 @@ You can create an SLA from the Customer Service admin center or Customer Service
 
 ### Create an SLA item
 
-You can create an SLA item from the Customer Service admin center or Customer Service Hub app.
+1. In the site map of Customer Service admin center, select **Service Terms** in **Operations**. The **Service Terms** page appears.
 
-1. Go to one of the apps, and perform the following steps.
+1. In the **Service Level Agreements (SLAs)** section, select **Manage**. The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.
 
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
 
-   1. In the site map, select **Service Terms** in **Operations**. The **Service Terms** page appears
-   1. In the **Service Level Agreements (SLAs)** section, select **Manage**.                                                                         
-        
-        The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item.   
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-   1. In the site map, go to **Service Management**.
-   1. From the list of entity records, select **Service Level Agreements** in **Service Terms**.                                                              
-       
-      The **All Service Level Agreements** view is displayed. Select the SLA for which you want to add an SLA item. 
-
-2. On the page that appears, select **New SLA Item**. The **New SLA Item** dialog box appears.
-
-3. Enter the following details on the **General** tab::
+1. Enter the following details on the **General** tab::
 
    - **Name**: Enter a name.
    - **KPI**: Select an SLA KPI.
-   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that are considered "on hold" in the **Service Management** > **Service Configuration Settings** page.
+   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each entity that's enabled for the SLA, you can set each status that are considered "on hold" in the **Other SLA Settings** > **Manage** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) Select a value to assign business hours. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
-4. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
+1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
 
     The SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use case fields that are updated frequently because any change to the field value might lead to cancelation of the SLA item.
 
-5. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
 
   > [!IMPORTANT]
   > If you specify the success condition on the same entity on which applicable when is defined, a recommendation message are displayed with the suggestion that you don't use the same entity. You can choose to select **OK** if your organization needs the conditions to be configured on the same entity.
 
-6. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
+1. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
    2. Select **Add** to define the conditions for pausing the SLA item.
     > ![Pause settings at SLA item level.](../media/csh-sla-item-pause.png "Pause settings at SLA item level")
 
-7. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null so that SLAs don't reach the **Nearing noncompliance** status.
+1. In the **Warn and Fail Duration** section, specify the values to trigger notifications when an SLA is missed. If you don't need **Warning Duration**, you can set it to null so that SLAs don't reach the **Nearing noncompliance** status.
 
   > [!NOTE]
   > The failure and warning time is calculated after considering the business hours selected in the SLA record. If you don't set the business hours record (customer service schedule), the work hours are considered to be all day, every day.
 
-8. Select **Save**.
+1. Select **Save**.
 
 ### Configure actions for the SLA item
 
 1. On the SLA page, select the SLA item, and then select **Edit SLA Item**. The SLA item page appears.
 
-2. In the **Actions** area, select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
+1. In the **Actions** area, select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
 
-3. Perform the following steps in Power Automate:
+1. Perform the following steps in Power Automate:
 
    a. Accept the default settings or select the ellipsis to configure a connection.
 
@@ -287,16 +245,16 @@ You can create an SLA item from the Customer Service admin center or Customer Se
     > [!NOTE]
     > More information: [Configure connectors in Power Automate](/connectors/commondataserviceforapps/)
 
-4. Select **Save & Close** on the SLA item dialog box.
+1. Select **Save & Close** on the SLA item dialog box.
 
-5. Define as many SLA items as you need.
+1. Define as many SLA items as you need.
 
-6. Select **Activate**. The SLA is activated.
+1. Select **Activate**. The SLA is activated.
 
 ## Apply SLAs
 To understand how you can apply SLAs, see [Apply service-level agreements](apply-slas.md#apply-slas)
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

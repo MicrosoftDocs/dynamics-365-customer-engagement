@@ -1,15 +1,17 @@
 ---
 title: Service quotas
-description: Get details about the service quotas for unified routing and omnichannel implementations in Omnichannel for Customer Service.
+description: Get details about the service quotas for unified routing and omnichannel implementations.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.topic: conceptual
-ms.date: 03/21/2024
+ms.date: 11/12/2024
 ms.custom: bap-template
 ---
 
 # Service quotas
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Service quotas are the limits on resources, configurations, and items that are provided as part of Omnichannel for Customer Service. The tables that follow describe the service quotas and whether they can be adjusted for Dynamics 365 Customer Service Voice Channel Add-in and Dynamics 365 Customer Service Digital Messaging and Voice Add-in subscriptions.
 
@@ -22,7 +24,7 @@ Service quotas are the limits on resources, configurations, and items that are p
 | Measure       | Description   |  Default limit per channel or submeasure |   Adjustable?  |
 |------------ | -----------| --------------------| -----------|
 | Intake rules  | Maximum number of intake rules | 100 for records | No |
-| Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 100 for rules |  No  |  
+| Route-to-queue rules | Maximum number of route-to-queue rulesets and rules per workstream   | 200 for rules |  No  |  
 | Classification rules  |  Maximum number of classification rulesets and rules per workstream |  10 rulesets  <br><br> 100 rules per ruleset  |  No <br><br> No |
 
 ## Conversation limits
@@ -30,7 +32,7 @@ Service quotas are the limits on resources, configurations, and items that are p
 | Measure          | Description   | Default limit per channel or submeasure |   Adjustable?  |
 |------------      | -----------   | ----------------   | -----------   |
 | Message size     | Maximum size of a single message payload including metadata like timestamps, tags, and links   |    Approximately 28 KB for any messaging channel | No   |
-| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute, aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> |  Total of 25 incoming conversations or work items per minute<sup>1</sup> for voice, live chat, digital messages, and record channels <br><br> <li> Voice - 7 per minute<sup>2</sup> <li> Live chat - 20 per minute  <li> Record - 25 per minute<li> Social and Direct Line - 20 per minute<sup>2</sup>  | Yes <br><br><br><br> Yes <br>    |
+| Incoming conversations or work items  |  Maximum rate of incoming conversations per minute, aggregated across channels <br><br><br>Maximum rate of incoming conversations per minute by channel <br><br> |  Total of 25 incoming conversations or work items per minute<sup>1</sup> for voice, live chat, digital messages, and record channels<sup>6</sup> <br><br> <li> Voice - 7 per minute<sup>2</sup> <li> Live chat - 20 per minute  <li> Record - 25 per minute<li> Social and Direct Line - 20 per minute<sup>2</sup>  | Yes <br><br><br><br> Yes <br>    |
 
 > [!NOTE]
 > For application limits for channels with third-party integrations like SMS integration through Twilio or TeleSign, see the third-party documentation.
@@ -57,7 +59,9 @@ Service quotas are the limits on resources, configurations, and items that are p
 
 <sup>5</sup> If eligible agents aren't available to serve the default block size of top priority conversations, then the auto assignment process can appear to be paused. In such cases, we recommend that you use features like overflow management to manage high load or review agent availability, scheduling, and skill configuration to expand the eligible agent pool. If these options aren't adequate, contact Microsoft Support with your business scenario to check whether the block size can be increased.
 
-## Load test the services in Omnichannel for Customer Service
+<sup>6</sup> If you use [overflow handling for work items in queue](../administer/manage-overflow.md#handle-overflow-when-a-work-item-is-queued) and more than 20 items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
+
+## Load test the services
 
 Microsoft regularly conducts scale and stress tests on the services that run Omnichannel for Customer Service. These tests are performed at multiples of the peak volume observed in customer production traffic. While the services can sustain high loads, we understand that you might want to verify your own load profile against the services. Your load profile can include customizations, integrations, local networks, or other bespoke solutions that you integrate. Make sure that you perform load tests according to the [Microsoft Cloud Penetration Testing Rules of Engagement](https://www.microsoft.com/msrc/pentest-rules-of-engagement).
 
@@ -67,5 +71,5 @@ Load tests often generate synthetic traffic that targets specific endpoints or u
 
 [System requirements for Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 [System requirements for Customer Service workspace](customer-service-workspace-system-requirements.md)  
-[Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels)  
 [Provision unified routing for Customer Service](../administer/provision-unified-routing.md)

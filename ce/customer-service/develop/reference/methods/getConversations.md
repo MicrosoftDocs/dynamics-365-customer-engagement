@@ -5,7 +5,7 @@ ms.date: 07/12/2021
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # getConversations 
 
@@ -64,7 +64,7 @@ Microsoft.Omnichannel.getConversations(input).then(result => {
 );
 ```
  
-### See also
+### Related information
 
 [Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

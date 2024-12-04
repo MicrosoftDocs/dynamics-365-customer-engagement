@@ -1,17 +1,17 @@
 ---
 title: Skill-based routing in Omnichannel for Customer Service
 description: This topic provides information about the skill-based routing in the Omnichannel for Customer Service app to ensure that work items are assigned to the best-suited agent.
-ms.date: 03/08/2023
+ms.date: 04/23/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Overview of skill-based routing
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
@@ -50,7 +50,7 @@ If your environment has scheduling solutions, then you must have version 9.0.0.0
 
 To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Set up skills and assign agents](setup-skills-assign-agents.md)  
 [Set up skill-based routing](set-up-skill-based-routing.md)  

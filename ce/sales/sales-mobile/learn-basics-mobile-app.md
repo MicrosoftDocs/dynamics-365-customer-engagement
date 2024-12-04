@@ -5,6 +5,7 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 # Learn the basics
 
@@ -119,7 +120,7 @@ To open the **Settings** panel, tap your profile picture at the upper left of th
 More information: [Dynamics 365 Sales mobile app settings](app-settings.md)
 
 
-### See also
+## Related information
 
 [View meetings](view-agenda.md)    
 [Open a record](open-record.md)

@@ -1,19 +1,22 @@
 ---
 title: View operational metrics and KPIs in Sales usage reports
-description: View and understand sales usage reports in Microsoft Dynamics 365 Sales to analyze operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities.
-ms.date: 03/31/2023
+description: Explore operational metrics and KPIs in sales usage reports, providing historical data on contacts, accounts, leads, and opportunities.
+ms.date: 06/19/2024
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
-ms.custom: bap-template
+ms.reviewer: udag
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/19/2024
 ---
 
 # View operational metrics and KPIs in sales usage reports
 
-The sales usage reports provide a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities. 
-
-The reports only include data that has been added or updated in the application from the day of enablement. After enabling, it may take up to three days for the sales usage reports to display data, there after, the data is refreshed every 24 hours.
-
+The sales usage reports provide a snapshot view of the historical operational metrics and key performance indicators (KPIs) of your contacts, accounts, leads, and opportunities.  
+The reports only include data that has been added or updated in the application from the day of enablement. After enabling, it may take up to three days for the sales usage reports to display data, there after, the data is refreshed every 24 hours.  
 Also, the actions that are performed in the application are reflected in the sales usage reports. Actions such as, bulk import, bulk update, and records updated through the API are not reflected in the sales usage reports.
 
 > [!NOTE]
@@ -30,6 +33,10 @@ Also, the actions that are performed in the application are reflected in the sal
 ## Open sales usage reports
 
 Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales** > **Sales analytics** > **Sales usage reports**.
+
+>[!NOTE]
+>The **Sales usage reports** option is available only when it's enabled in your organization. Contact your administrator to enable it. More information: [Enable sales usage reports](enable-sales-usage-reports.md)  
+
 
 The following sales usage reports are available:
 
@@ -130,6 +137,6 @@ The following table describes the summary charts that are displayed in the repor
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable sales usage reports](enable-sales-usage-reports.md)

@@ -3,9 +3,10 @@ title: Auto capture in Dynamics 365 Sales
 description: Use the auto capture to capture activities related to your emails and contacts, and display on timeline.
 ms.date: 03/13/2024
 ms.custom: bap-template
-ms.topic: Overview
+ms.topic: overview
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 caps.latest.revision: 1
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -43,7 +44,7 @@ The following images show how tracked and auto-captured (not yet tracked) emails
     > ![Untracked auto-captured email](media/auto-capture-basic-capture-email.png "Untracked auto-captured email")
 
     > [!NOTE]
-    > From version 9.2.24031.00102, Dynamics 365 Sales follows [principle of least privilege access](/entra/identity-platform/secure-least-privileged-access), which blocks access to untracked emails and meetings for users who have [conditional access policies](/entra/identity/conditional-access/concept-conditional-access-policy-common?tabs=secure-foundation) on their tenants. If you don't see the untracked emails and meetings, contact your administrator to [verify whether the issue is due to conditional access policies on your tenant](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues#issue-unable-to-view-untracked-emails-and-meetings-in-auto-capture). Alternatively, your administrator can enable [Microsoft Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) so that you can record individual activities or [server-side synchronization](/power-platform/admin/email-message-filtering-correlation) to track all emails and meetings automatically.
+    > From version 9.2.24031.00102, Dynamics 365 Sales follows [principle of least privilege access](/entra/identity-platform/secure-least-privileged-access), which blocks access to untracked emails and meetings for users who have [conditional access policies](/entra/identity/conditional-access/concept-conditional-access-policy-common?tabs=secure-foundation) on their tenants. If you don't see the untracked emails and meetings, contact your administrator to [verify whether the issue is due to conditional access policies on your tenant](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues#issue-unable-to-view-untracked-emails-and-meetings-in-auto-capture). Alternatively, your administrator can enable [Microsoft 365 Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) so that you can record individual activities or [server-side synchronization](/power-platform/admin/email-message-filtering-correlation) to track all emails and meetings automatically.
 
 
 -	**Track link**: Select the **Track** icon on an untracked activity captured by auto capture, making it visible to everyone who has access to the timeline of this specific record.
@@ -72,7 +73,7 @@ Auto capture queries your Outlook account and looks for activities related to th
 |Custom entities|For *account* fields: the email address for the **Primary Contact** of the account, plus all **Email** addresses defined for the account record itself.<br /><br /> For *contact* fields: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to a contact: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to an account: the **Email** address of the listed **Primary Contact**, plus all **Email** addresses defined for the account record itself.|  
 
 
-### See also
+## Related information
 
 [Enable and configure auto capture](configure-auto-capture.md)
 

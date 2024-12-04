@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Customize record details in the side panel (preview)
@@ -66,7 +67,7 @@ The following customizations are not supported:
 
     By default, all the fields in the form are editable. To make a field read-only, select it and turn on the **Read-only** property.
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Integrate Dynamics 365 and Microsoft Teams meetings](teams-meeting-integration.md)

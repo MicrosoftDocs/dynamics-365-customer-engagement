@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Connect Conversation intelligence app to an environment  
 
@@ -56,7 +57,7 @@ The Conversation intelligence app is now connected to the environment.  Managers
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  

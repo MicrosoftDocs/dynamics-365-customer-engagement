@@ -1,10 +1,11 @@
 ---
 title: Text messaging FAQs
 description: Get answers to frequently asked questions about text messaging.
-ms.date: 03/15/2024
+ms.date: 07/19/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom:
   - bap-template
@@ -16,6 +17,10 @@ ms.custom:
 # Text messaging FAQs
 
 This article answers frequently asked questions about text messaging in Dynamics 365 Sales and Sales premium.
+
+## Why can't I see the SMS feature in my sales app?​
+
+Before you can see the SMS feature, an administraton must [configure SMS provider it in your sales app](configure-sms-provider.md) and necessary [permissions are granted](sms-intro.md#permissions-required). Also, ensure that your organization is in the [supported regions](sms-intro.md#in-which-regions-is-the-text-message-feature-available).​
 
 ## Which service providers are supported?
 
@@ -39,5 +44,10 @@ No. Currently, group SMS isn't supported as part of the SMS capability. However,
 
 ## Who can see an incoming SMS notification if the number is assigned to a team?​
 
-In this case, all the users see the notification and can choose to respond to the customer. If a message comes from an unknown number, only the team admin gets the notification. Team members can view the message only in the **Activities** page.
+Notifications are sent to the top 20 sellers when a new incoming message is received. The top 20 sellers are selected based on the following criteria:
 
+1. Sellers who are already part of the conversation. If the conversation has at least one seller associated with it, the application skips criteria 2 and 3 to avoid spamming.
+1. Sellers who have used the number to send messages.
+1. Sellers who are part of the same team to which the number belongs.
+
+However, other sellers can still view their team's chat history from the **All/My text messages** option in the **Activities** page. 

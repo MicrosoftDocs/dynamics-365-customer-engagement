@@ -114,7 +114,8 @@ This setting determines how unavailable resources appear when users launch the s
 
 - **Unavailable resources do not appear** temporarily hides resources that don't match the schedule assistant filter criteria from the list of available resources.
 
-- **Unavailable resources appear dimmed (when searching for resources visible on board)** ensures all resources that don't match the schedule assistant filter criteria still show on the schedule board, but appear dimmed. Open the schedule assistant and set the **Search For** filter to **Resources visible on board** to see the unavailable resources, which appear dimmed.
+- **Unavailable resources appear dimmed (when searching for resources visible on board)** ensures all resources that don't match the schedule assistant filter criteria still show on the schedule board, but appear dimmed. Open the schedule assistant and set the **Search For** filter to **Resources visible on board** to see the unavailable resources, which appear dimmed. This setting only applies while in Gantt view. 
+
 
 #### Book based on
 
@@ -139,6 +140,7 @@ Makers can customize icons by [creating web resources](/power-apps/developer/mod
 ### Board colors
 
 Board colors represent a resource's utilization on the schedule board. Most colors only apply to daily, weekly, and monthly views and on the currently selected schedule board. The hourly view shows bookings colored by their status. The color for non-working hours applies to the hourly view too.
+
 
 ### Other settings
 

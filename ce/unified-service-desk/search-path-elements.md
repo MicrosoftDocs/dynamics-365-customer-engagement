@@ -1,15 +1,15 @@
 ---
 title: "Search Path Elements in Unified Service Desk | MicrosoftDocs"
 description: "Learn about the search path elements you can use in the search path of controls in Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Search Path Elements in Unified Service Desk
 Web applications and web pages can contain frames. The frames can have associated controls. You can also configure data-driven adapter (DDA) controls for frame-based controls. For example, you might need to access the `HTML` form controls inside a frame. To do this, you would search a specific frame within a window for specific data. You can include that search in the WebDDA itself.  

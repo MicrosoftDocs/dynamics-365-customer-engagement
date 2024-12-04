@@ -1,12 +1,15 @@
 ---
 title: "View conversation and session form in model-driven apps apps | MicrosoftDocs"
 description: "Learn about the omnichannel conversations and session forms that users (agents and supervisors) who are not part of can Omnichannel for Customer Service can under the Activities in model-driven apps apps."
-ms.date: 12/27/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # View omnichannel conversations and omnichannel session in model-driven apps
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]

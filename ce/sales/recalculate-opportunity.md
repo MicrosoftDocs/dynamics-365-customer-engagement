@@ -5,6 +5,7 @@ ms.date: 04/05/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Recalculate an opportunity in Dynamics 365 Sales
 
@@ -36,7 +37,7 @@ To change the estimated revenue value of an opportunity based on any changes to 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [Create or edit an opportunity](../sales-enterprise/create-edit-opportunity-sales.md)  
 [Nurture sales from lead to order](../sales-enterprise/nurture-sales-from-lead-order-sales.md)   

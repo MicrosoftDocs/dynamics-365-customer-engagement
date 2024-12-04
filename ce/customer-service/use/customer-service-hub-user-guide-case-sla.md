@@ -3,9 +3,9 @@ title: Understand SLAs
 description: Understand how to track and view SLAs with the help of interactive dashboards in Customer Service workspace for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 10/13/2023
+ms.date: 08/23/2024
 search.audienceType: 
   - admin
   - customizer
@@ -56,7 +56,7 @@ For SLAs that are in the expired status, your administrator can configure the SL
 
 Based on the business hours, the timer displays the time remaining to meet the SLA or the elapsed time since the SLA failed. For example, if failure time is set to 5 days and business hours are 9:00 AM to 5:00 PM, then you see 5 days on the timer. If failure time is set to 10 hours, then you see 1 day and 2 hours on the timer. Your system administrator or customizer can add a timer to the SLA-enabled entity form.
 
-When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as On-Hold in the System settings dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
+When an SLA is applied to an entity, a related SLA KPI Instance record is created for each SLA KPI that is tracked for that entity. The on-hold time is the time for which the case was set to a status that you defined as On-Hold in the System settings dialog box. Learn more in [System Settings Service tab](/power-platform/admin/system-settings-dialog-box-service-tab).
 
 For example, when you put a case on hold, the status of the SLA KPI Instance is set to Paused. You can see the time for which a case was on hold and the last time the case was put on hold. These details aren't available on the case form by default but your system customizer can add these fields on the case form for you.
 
@@ -76,7 +76,7 @@ If you put the case on hold after the warning time, then the warning time isn’
 > - The SLA Timer continues to run after it's triggered or resumed. It includes the holiday hours, non-business hours, and pause time (only business hours) while projecting the SLA warning or failure time.  
 > - The timer control auto-refreshes for **Pause** and **Resume** states to show the updated SLA. For all other states, you must refresh the page to view the refreshed SLA. Select **...** and select **Refresh** on the command bar to refresh the SLA Timer control.
 
-You can now also apply SLAs on demand. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Apply SLAs](../administer/apply-slas.md#apply-slas)
+You can now also apply SLAs on demand. Learn more in [Apply SLAs](../administer/apply-slas.md#apply-slas).
 
 To learn more about adding a timer control to an SLA-enabled entity, go to [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md).
 
@@ -109,7 +109,7 @@ For SLA KPI instances, you see the **Regarding** column as blank on Unified Inte
 
 Your administrator must configure the SLA KPI instance name through **Advanced Find**.
 
-### See also
+### Related information
 
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  
 

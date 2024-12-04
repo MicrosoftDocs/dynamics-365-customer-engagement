@@ -7,7 +7,7 @@ author: "gandhamm"
 ms.author: "mgandham"
 search.audienceType: 
   - developer
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 ---
 # SocialProfile Entity Reference
 
@@ -915,7 +915,7 @@ See systemuser Entity [socialProfile_owning_user](systemuser.md) One-To-Many rel
 
 See systemuser Entity [lk_SocialProfile_modifiedonbehalfby](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

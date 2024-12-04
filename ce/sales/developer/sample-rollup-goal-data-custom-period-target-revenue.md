@@ -2,7 +2,6 @@
 title: "Sample: Rollup goal data for a custom period against the target revenue (Dynamics 365 Sales)"
 description: This sample shows how to roll up goal data for a custom period against the target revenue.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales

@@ -1,20 +1,20 @@
 ---
 title: Campaign tables (Dynamics 365 Sales)
 description: Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities.
-ms.date: 03/01/2023
-ms.reviewer: lavanyakr
+ms.date: 06/28/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
 ---
 # Campaign tables
 
-A *campaign* in Dynamics 365 Customer Engagement (on-premises) is designed to accomplish a specific result, such as introducing a new product or increasing market share. The main way to accomplish this result is through communicating the benefits of a product or service to people and businesses. Campaigns often include more than one communication method, such as print advertisements, promotional discounts, and direct mail. A campaign can be thought of as a container in which a business keeps planning tasks, campaign activities, and campaign responses. It has a list of related products, sales literature, and a set of marketing lists of existing or potential customers. This information is used to plan and track the results of a marketing campaign throughout its life.  
+A *campaign* in Dynamics 365 is designed to accomplish a specific result, such as introducing a new product or increasing market share. The main way to accomplish this result is through communicating the benefits of a product or service to people and businesses. Campaigns often include more than one communication method, such as print advertisements, promotional discounts, and direct mail. A campaign can be thought of as a container in which a business keeps planning tasks, campaign activities, and campaign responses. It has a list of related products, sales literature, and a set of marketing lists of existing or potential customers. This information is used to plan and track the results of a marketing campaign throughout its life.  
   
  Marketing automation supports campaign execution through *campaign activities* that are used to distribute emails, phone calls, and other activities to qualified customers. Each campaign activity may include a set of marketing lists of existing or potential customers. Bulk email may result in the responses from the customers that are captured in a *campaign response* record.  
   
@@ -39,7 +39,8 @@ A *campaign* in Dynamics 365 Customer Engagement (on-premises) is designed to ac
 |Tables|Use the campaign (`Campaign`) entity, the campaign activity (`CampaignActivity`) entity and the campaign response (`CampaignResponse`) entity to distribute a campaign.|Use the bulk operation (quick campaign) (`BulkOperation`) entity and the bulk operation log (quick campaign log) (`BulkOperationLog`) entity to distribute a quick campaign.|  
 |Distribute Activities|Use the <xref:Microsoft.Crm.Sdk.Messages.DistributeCampaignActivityRequest> message to distribute a campaign activity (`CampaignActivity`) to the members of a marketing list.|Use the <xref:Microsoft.Crm.Sdk.Messages.PropagateByExpressionRequest> message to distribute an activity, such as email or fax, to the accounts, contacts, or leads selected by the query.<br /><br /> Use the <xref:Microsoft.Crm.Sdk.Messages.CreateActivitiesListRequest> message to distribute an activity, such as email or fax, to the members of a marketing list.|  
   
-### See also  
+## Related information  
+
  [BulkOperation Table](entities/bulkoperation.md)    
  [Campaign Table](entities/campaign.md)   
  [CampaignActivity Table](entities/campaignactivity.md)   

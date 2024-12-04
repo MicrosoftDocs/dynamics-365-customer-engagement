@@ -5,6 +5,7 @@ ms.date: 03/23/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_chatansweroption Entity Reference
 
@@ -665,7 +666,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_surveyquestion Entity [msdyn_surveyquestion_msdyn_chatansweroption](msdyn_surveyquestion.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

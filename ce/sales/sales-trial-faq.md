@@ -3,12 +3,12 @@ title: Dynamics 365 Sales trial FAQs
 description: Solutions to common questions related to Dynamics 365 Sales trial sign up and management. Learn how to resolve platform and app-specific issues.
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.date: 03/15/2024
 ms.topic: conceptual
 ms.custom: 
   - template-trial-faq
   - bap-template
-ms.reviewer: shujoshi
 ---
 # Dynamics 365 Sales trial FAQs  
 
@@ -89,7 +89,7 @@ The following licenses and capabilities pre-installed in the trial app:
 To get started with the Sales Insights functionalities, see [Sales Insights Add-in for Dynamics 365 Sales Help & Training](/dynamics365/sales/help-hub). To enable Sales Insights, see [Enable and configure standard Sales Insights features](/dynamics365/sales/intro-admin-guide-sales-insights#enable-and-configure-standard-sales-insights-features).
 
 > [!NOTE]
-> Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](faq-region-language.md#in-which-region-is-sales-premium-available). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.  
+> Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](faq-region-language.md#in-which-countryregion-is-sales-premium-available). If you are not in a supported region, you can only  access the Sales Enterprise functionalities.
 
 **Microsoft Power Platform**
 - Administer and customize the Power Platform environment that hosts Dynamics 365 Sales to fit your needs.
@@ -157,4 +157,4 @@ If you have modified the sample data and want to restore it back to original, th
 
 ##  Is the Sales trial available in all geographical regions?
 
-Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](faq-region-language.md#in-which-region-is-sales-premium-available). If you are not in a supported region, you can only access the Sales core functionalities.  
+Though you can sign up for the trial from any region, the Sales Insights functionalities are restricted to specific regions. For information on supported regions, see [In which region is Sales Insights available?](faq-region-language.md#in-which-countryregion-is-sales-premium-available). If you are not in a supported region, you can only access the Sales core functionalities.  

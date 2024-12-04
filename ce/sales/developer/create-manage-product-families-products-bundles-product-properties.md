@@ -1,13 +1,13 @@
 ---
 title: Create and manage product families, products, bundles, and product properties (Dynamics 365 Sales)
 description: Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family. 
-ms.date: 03/01/2023
-ms.reviewer: lavanyakr
+ms.date: 06/28/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -78,7 +78,7 @@ Console.WriteLine("Created {0} under the product family", newProduct1.Name);
  Product properties help you define the characteristics of  product such as its size, color, or component. A product property is defined using the `DynamicProperty` table. While defining a product property, you can only associate it to a product family record in a `Draft` state, and not to a product or bundle record. The maximum number of product properties that can be associated to a draft product family record is determined by the following organization setting: **Organization.MaximumDynamicPropertiesAllowed**. The number comes into effect when you publish a child product record or bundle under a product family that the properties are attached to, and not at the time when you attach the properties to a *draft* product family record.  
   
 > [!TIP]
->  You can also use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to configure the maximum number of product properties. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8)).  
+>  You can also use the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to configure the maximum number of product properties. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8)).  
   
  While creating a product property, you specify its name, the product family record in `Draft` state with which it is associated, attributes of the property such as whether its hidden, required, or read-only, and the data type of the property. A product property can be of one of the following data types:  
   
@@ -119,7 +119,7 @@ _productPropertyId = _serviceProxy.Create(newProperty);
 > [!NOTE]
 >  The way you define a product property determines how it can be used by the sales agent at run time, that is, while adding an associated product to an opportunity, quote, order, or invoice. An *updatable* product property’s value can be changed at run time, whereas the value of a *read-only* product property can’t be. For a product property set as *required*, a value for the property must be specified at the run time. Otherwise, the property is displayed as unresolved. A *hidden* property won’t be displayed to sales agents at the run time.  
 > 
->  Also, product properties don’t affect the pricing of a product. This implies that the Dynamics 365 Customer Engagement (on-premises) pricing engine doesn’t support changing the price of a product based on a change in the product property values.  
+>  Also, product properties don’t affect the pricing of a product. This implies that the Dynamics 365 pricing engine doesn’t support changing the price of a product based on a change in the product property values.  
   
 <a name="ChangeProductProperties"></a>   
 ### Change product properties  
@@ -204,7 +204,7 @@ _serviceProxy.Update(retrievedOverwrittenProperty);
   
  Only products can be added to a bundle; you can’t add a product family, a bundle, or a kit record to a bundle. You can add products to a bundle or a kit by creating a product association record using the `ProductAssociation` table. The `ProductAssociation.ProductId` record specifies the bundle or kit that you want to add a product to and the `ProductAssociation.AssociatedProduct` specifies the product to be added. The maximum number of products that can be added to a bundle is determined by the following organization setting:  `Organization.MaxProductsinBundle`.  
   
- You can also use the **Sales** tab in the system settings area in Dynamics 365 Customer Engagement (on-premises) or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to specify the maximum number of products that can be added to a bundle. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
+ You can also use the **Sales** tab in the system settings area in Dynamics 365 or [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] to specify the maximum number of products that can be added to a bundle. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage product catalog configuration](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn832125(v=crm.8))  
   
  The following code sample demonstrates how you can add products to a bundle.  
   
@@ -247,7 +247,7 @@ Console.WriteLine("\nAdded both the products to the bundle");
 |While adding a kit to an opportunity, quote, order, or invoice, you can only see the kit level details; you can’t see individual products in the kit.|While adding a bundle to opportunity, quote, order, or invoice, you can see the bundle level details as well as individual products in the bundle.|  
   
 > [!NOTE]
->  Kits are deprecated in Dynamics 365 Customer Engagement (on-premises); you should use bundles instead.  
+>  Kits are deprecated in Dynamics 365; you should use bundles instead.  
   
 <a name="ProductRelationships"></a>   
 ## Define product relationships for enhanced suggestions during product sale  
@@ -314,7 +314,7 @@ Console.WriteLine("\nCreated clone product: {0}", retrievedProduct.Name);
 ## Next step  
  Publish your product records to make products available for selling by your sales agents. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Publish a product family, product, or bundle](publish-revise-revert-retire-activate-products.md#Publish)  
   
-### See also  
+## Related information  
  [Publish, revise, revert, retire, and activate products (product lifecycle)](publish-revise-revert-retire-activate-products.md)   
  [Sample: Create and publish products](sample-create-publish-products.md)   
  [Sample: Clone product records](sample-clone-product-records.md)   

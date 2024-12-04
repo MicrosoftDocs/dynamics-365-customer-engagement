@@ -5,6 +5,7 @@ ms.topic: article
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:error event (Omnichannel for Customer Service JavaScript API reference)
 
@@ -24,7 +25,7 @@ window.addEventListener("lcw:error", function (errorEvent) {
 });
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:chatRetrieved](lcw-chatRetrieved.md)  

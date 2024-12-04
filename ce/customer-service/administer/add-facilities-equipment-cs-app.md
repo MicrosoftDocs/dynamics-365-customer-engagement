@@ -1,24 +1,26 @@
 ---
-title: Add facilities and equipment for service scheduling| MicrosoftDocs
-description: This article provides information on how to add facilities and equipment for service scheduling in Dynamics 365 Customer Service.
-ms.date: 09/15/2017
+title: Add facilities and equipment for service scheduling
+description: Learn how to add facilities and equipment for service scheduling in Dynamics 365 Customer Service.
+ms.date: 09/06/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - evergreen
+  
 ---
 
 # Add facilities and equipment for service scheduling (Customer Service app)
 
-Facilities and equipment are resources you’d use to perform services for your customers. Facilities can be physical spaces like service bays or conference rooms and equipment could be tools or other assets. Add these resources to Dynamics 365 Customer Service to ensure optimal services to your customers.  
+Facilities and equipment are resources you use to perform services for your customers. Facilities can be physical spaces, like service bays or conference rooms, and equipment could be tools or other assets. To ensure optimal services for your customers, add these resources to Dynamics 365 Customer Service.  
 
-> [!IMPORTANT]
-> With the latest version of Dynamics 365 Customer Service app release, the new Service Scheduling is now available in the Customer Service Hub sitemap. We recommend that you create facilities and equipments using the new experience. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md)
+Service Scheduling is available in the Customer Service Hub site map. We recommend that you create facilities and equipment using the new experience. Learn more in [Add facilities and equipments to schedule service](add-facilities-equipment-ss-csh.md).
   
 ## Add a facility or equipment  
   
@@ -40,7 +42,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
 4.  On the command bar, select **New**.  
   
-5.  Fill in the information as required:  
+5.  Provide the information as required:  
   
     - **Name**. Enter the name of the facility or equipment you want to add for service scheduling.  
   
@@ -53,7 +55,7 @@ Facilities and equipment are resources you’d use to perform services for your 
   
     - **Primary Email**. Enter the email address of the site manager or equipment manager. If there are any updates or cancellations related to the schedule, facilities, or equipment, notifications are sent to this email address.  
   
-    - **Time Zone**. Select the appropriate time zone to determine availability for the facility or equipment. By default, this is set to the time zone you’ve selected in the **General** tab of the **Set Personal Options** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set personal options](../../customerengagement/on-premises/basics/set-personal-options.md)  
+    - **Time Zone**. Select the appropriate time zone to determine availability for the facility or equipment. By default, the time zone is set to the time zone you selected in the **General** tab of the **Set Personal Options** dialog. Learn more in [Set personal options](../../customerengagement/on-premises/basics/set-personal-options.md).  
   
     - **Description**. Add details about the facility or equipment, such as the numbers, size, make, or model.  
   
@@ -61,7 +63,7 @@ Facilities and equipment are resources you’d use to perform services for your 
 
     ![facility-cs-app.](../media/facility-equipment-cs-app.png)
   
-### See also  
+### Related information  
  [Basics of service and service scheduling](basics-service-service-scheduling.md)
 
 

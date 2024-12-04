@@ -3,7 +3,7 @@ title: How to manage conversation intelligence data in Dataverse
 description: Learn about the data structure, storage, access, and deletion of conversation intelligence insights in Dataverse.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 01/16/2024
@@ -107,7 +107,7 @@ The [conversation intelligence tables](#how-data-is-structured-in-dataverse) are
 - If you've partially deleted the data from Dataverse, the call summary page will continue to display the available insights, provided that the recording and transcripts of the call are available. For example, if you delete a participant's row in the `msdyn_conversationParticipantInsights` table, the call summary page will display all the insights, including the participant's insights for the other participants. 
 
 
-## See also
+## Related information
 
 - [Set up conversation intelligence for Dynamics 365 Sales](fre-setup-ci-sales-app.md)
 - [Manage data retention policies in Microsoft Dataverse](/power-apps/maker/data-platform/data-retention-manage)

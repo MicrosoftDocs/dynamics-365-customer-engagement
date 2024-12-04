@@ -1,13 +1,16 @@
 ---
 title: Collaborate in mixed reality with Field Service and Remote Assist
 description: Learn how to collaborate in mixed reality by integrating Dynamics 365 Field Service with Dynamics 365 Remote Assist.
-ms.date: 10/10/2023
+ms.date: 04/05/2024
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
 ---
 
 # Collaborate in mixed reality with Field Service and Remote Assist
+
+> [!TIP]
+> To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
 
 If your organization uses Dynamics 365 Field Service to manage field service work orders, your frontline workers can see their Field Service bookings and quickly call a remote collaborator using Dynamics 365 Remote Assist.
 
@@ -29,7 +32,7 @@ For a guided walkthrough, see the following video.
 Before you begin, make sure you have the following set-up:
 
 - [A Dynamics 365 Field Service subscription](buy-fs.md).
-- [Dynamics 365 Field Service mobile app installed](mobile-power-app-get-started.md).
+- [Dynamics 365 Field Service mobile app installed](mobile/set-up-field-service-mobile.md).
 - [Dynamics 365 Remote Assist mobile app installed](/dynamics365/mixed-reality/remote-assist/deploy-remote-assist#download-and-install-the-app).
 - At least two bookable resources with resource type *User*. One for the technician (frontline worker) and another for the remote collaborator. Both users need a Field Service license, which gives them access to Remote Assist too. For more information about setting up users and assigning licenses, see [Set up users and security roles](view-user-accounts-security-roles.md).
 
@@ -59,7 +62,7 @@ The remote collaborator receives the call, like any other Teams call.
 
 The technician can share what they see through their mobile device's camera, making annotations as needed. The remote collaborator can make annotations in Teams. For more information, see [Annotate the technician's shared environment](/dynamics365/mixed-reality/remote-assist/mobile-app/annotate-shared-environment).
 
-For more information about making calls, see [Make calls between Dynamics 365 Remote Assist mobile and Microsoft Teams](/dynamics365/mixed-reality/remote-assist/mobile-app/remote-assist-mobile-to-teams-calls)
+For more information about making calls, see [Make calls between Dynamics 365 Remote Assist mobile and Microsoft Teams](/dynamics365/mixed-reality/remote-assist/mobile-app/remote-assist-mobile-to-teams-calls).
 
 ## Post a Remote Assist call log
 

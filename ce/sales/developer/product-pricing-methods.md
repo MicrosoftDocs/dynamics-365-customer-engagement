@@ -2,12 +2,12 @@
 title: Product pricing methods (Dynamics 365 Sales)
 description: Use the ProductPriceLevel.PricingMethodCode column to determine product prices.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -35,7 +35,7 @@ Dynamics 365 Sales uses the `ProductPriceLevel.PricingMethodCode` column to dete
   
  To set the values for the `ProductPriceLevel.PricingMethodCode` column and the other product price level table columns, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method, passing an instance of the `ProductPriceLevel` class. To set the values for the product columns, use the methods in the `Product` class.  
   
-### See Also  
+## Related information  
  [ProductPriceLevel Table](entities/productpricelevel.md)   
  [Product Table](entities/product.md)   
  [Product Catalog Tables](product-catalog-entities.md)

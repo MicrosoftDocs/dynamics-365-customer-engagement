@@ -1,10 +1,11 @@
 ---
 title: "Configure relevance search for transcripts | MicrosoftDocs"
-description: "Learn how to configure relevance search for chat transcripts so agents can search in Omnichannel for Customer Service."
-ms.date: 02/03/2020
+description: "Learn how to configure relevance search for chat transcripts so agents can search in Dynamics 365 Contact Center."
+ms.date: 11/12/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Configure relevance search for transcripts 
 
@@ -13,7 +14,7 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 
-In Omnichannel for Customer Service, agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity and then add the entity to Omnichannel for Customer Service.
+Agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity and then add the entity to Dynamics 365 Contact Center.
 
 ## Prerequisites
 
@@ -39,11 +40,11 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 7. Select **Publish All Customizations**.
 
-## Add the Note entity to Omnichannel for Customer Service
+## Add the Note entity 
 
-1. Sign in to `https://<org>.dynamics.com/apps`.
+1. In your Dynamics 365 instance, go to the **Published Apps** page.
 
-2. Select **More Options** (...) in the **Omnichannel for Customer Service** app tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
+2. Select an app, select the ellipsis (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** page opens in a new browser tab.
 
 3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 
@@ -57,7 +58,7 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 5. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Search for transcripts](../use/oc-search-transcipts.md)
 

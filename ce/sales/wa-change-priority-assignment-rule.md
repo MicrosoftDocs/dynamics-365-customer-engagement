@@ -3,7 +3,7 @@ title: Prioritize assignment rules
 description: Learn how to set the priority of your assignment rules to control which one applies if a record matches more than one.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection:
 ms.date: 10/12/2023
@@ -46,6 +46,6 @@ When assignment rules run, a lead or an opportunity might meet the criteria of m
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)

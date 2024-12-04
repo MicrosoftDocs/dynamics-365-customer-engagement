@@ -1,35 +1,34 @@
 ---
-title: "Reports for Connected Field Service | MicrosoftDocs"
-description: Learn how set up and use reports for Connected Field Service
-ms.date: 12/02/2020
-
+title: View reports for Connected Field Service
+description: Learn how to use reports for Connected Field Service.
+ms.date: 05/17/2024
 ms.subservice: connected-field-service
-applies_to:
-- "Dynamics 365 (online)"
-- "Dynamics 365 Version 9.x"
 ms.author: vhorvath
 author: vhorvathms
+ms.topic: how-to
 ---
 
 
-# Reports for Connected Field Service
+# View reports for Connected Field Service
+
+The predefined report for Connected Field Service shows information about IoT alerts in your system. At a glance, you can find who's affected by IoT alerts and when.
+
+:::image type="content" source="media/cfs-dashboard.svg" alt-text="Screenshot of the Connected Field Service Dashboard with IoT alert charts.":::
 
 ## View the IoT dashboard
 
- The default IoT dashboard provides data on registered devices and alerts. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Create or customize dashboards](../customerengagement/on-premises/customize/create-edit-dashboards.md)
+ The Connected Field Service dashboard provides information about IoT alerts from registered devices.
 
- > [!div class="mx-imgBorder"]
-> ![Screenshot of the Connected Field Service dashboard.](./media/cfs-chart.png)
+1. In Field Service, open the Service area and select **Dashboards**.
+1. In the dropdown, choose **Connected Field Service Dashboard**.
 
-1. From the main menu, go to **Dashboards** then switch to the **Connected Field Service Dashboard**.
+Some of the charts on the dashboard have other views associated. Choose other views from the dropdown to adapt the chart to meet your needs. To create your own dashboard with your adapted charts, select **Save as** in the command bar.
 
-2. Select **Dashboard**.
+## See also
 
-    - The first chart shows alerts that you can sort by selecting the IoT **Alerts by** menu.
-
-    - The second chart shows alerts by time.
-
-    - The third chart shows alerts along with the action taken to resolve the issue.
+- [Work with dashboards and charts](../customerengagement/on-premises/basics/start-your-day-dashboard-chart.md)
+- [IoT data connections overview](cfs-connect-data-overview.md)
+<!--
 
 ### Set up a Power BI chart (optional)  
 
@@ -60,8 +59,7 @@ author: vhorvathms
 5. Add your IP address to the SQL server firewall to allow Power BI Desktop to connect to the SQL server.  
   
 6. Copy the IP address when you see this message.  
-  
-   ![Microsoft SQL message.](../field-service/media/do-not-use3.png "Microsoft SQL message")  
+   
   
 7. Go to the Azure portal, open the SQL server, and add your IP address to the firewall.  
   
@@ -106,6 +104,6 @@ author: vhorvathms
 
 6. The next time you load any of the device, alert, or asset forms, the Power BI section will load the tile automatically, filtered to the current entity device ID (if there is a device ID and the device has been registered).
 
-- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix) 
+- Microsoft Power BI PRO and the sample report template. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Download the Power BI Template for Connected Field Service](https://download.microsoft.com/download/E/B/5/EB5ED97A-A36A-4CAE-8C04-333A1E463B4F/PowerBI%20Report%20Template%20for%20Connected%20Field%20Service%20for%20Microsoft%20Dynamics%20365.pbix) -->
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

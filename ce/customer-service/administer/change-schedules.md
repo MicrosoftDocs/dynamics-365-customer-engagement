@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -124,7 +125,7 @@ Recommendation:
 
 This is a complex scenario that can't be completely implemented. It might cause unexpected results for those KPI instances that were set to a paused or resumed state before the new calendar was applied, because the elapsed time for such instances might have already been calculated during the paused or resumed state by using the old calendars. So, the final calculation might be done partly with the old calendar and partly with the new calendar.
 
-### See also
+### Related information
 
 [Create a customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md)  
 

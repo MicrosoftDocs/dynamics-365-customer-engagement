@@ -5,6 +5,7 @@ ms.date: 10/27/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_occommunicationprovidersetting Entity Reference
 
@@ -765,7 +766,7 @@ Same as msdyn_ocbotchannelregistration table [msdyn_msdyn_occommunicationprovide
 |CascadeConfiguration|Assign: NoCascade<br />Delete: RemoveLink<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

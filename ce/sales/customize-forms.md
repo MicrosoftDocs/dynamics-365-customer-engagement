@@ -5,6 +5,7 @@ ms.date: 01/24/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
   - bap-template
@@ -69,7 +70,7 @@ To set a form as the default form in the app, see [Why isn't my form displayed a
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize views](customize-views.md)  
 [Customize business process flows](customize-business-process-flows.md)  

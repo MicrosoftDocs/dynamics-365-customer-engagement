@@ -1,10 +1,10 @@
 ---
 title: Use the schedule board in Field Service
 description: Learn about the schedule board experience in Dynamics 365 Field Service.
-ms.date: 10/09/2023
+ms.date: 05/14/2024
 ms.topic: how-to
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 # Use the schedule board in Field Service
@@ -28,7 +28,7 @@ Select **Suggest resources (Preview)** to get suggestions from Resource Scheduli
 
 Select **Book resources (Preview)** to let the system find the optimal resources and book directly.
 
-### Optimization the schedule of a singe resource
+### Optimize the schedule of a single resource
 
 After a resource's planned schedule has changed due to cancellations or emergency work, you can use Resource Scheduling Optimization for reoptimization. To optimize only a resource's schedule, right-click a resource on the schedule board and select **Optimize schedule**. For more information, see [Single resource optimization with Resource Scheduling Optimization](rso-single-resource-optimization.md).
 

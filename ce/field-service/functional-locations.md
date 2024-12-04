@@ -1,7 +1,7 @@
 ---
-title: Create functional locations (contains video)
+title: Create functional locations
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 11/07/2023
+ms.date: 05/10/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -126,6 +126,9 @@ Technicians can view the functional location of a work order in the Dynamics 365
 The following video offers a guided walk-through of using functional locations in the Field Service mobile app.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+
+> [!NOTE]
+> Filtering functional locations by service account is not supported in the offline-enabled Field Service mobile application. 
 
 ## Functional locations for cases
 

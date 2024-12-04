@@ -5,6 +5,7 @@ ms.date: 03/15/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom:
   - bap-template
@@ -57,6 +58,7 @@ To set the value of the default **Pricing** as **Override Price** on the opportu
 
 There's no direct relationship between business units and opportunity products. The owning business unit for opportunity products is automatically inherited from the parent opportunity. So, you can't update the owning business unit at the opportunity product-level.
 
+<a name="change-prices-locked"></a>
 ## How do I change the default value for Prices Locked?
 
 You can change the default value for **Prices Locked** in the **Order** or **Invoice** form through customizations or the inline editable grid:

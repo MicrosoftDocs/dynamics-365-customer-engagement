@@ -1,10 +1,11 @@
 ---
 title: Focused view FAQs
 description: Get answers to frequently asked questions about focused view.
-ms.date: 03/27/2024
+ms.date: 07/10/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom:
   - bap-template
@@ -17,9 +18,13 @@ ms.custom:
 
 This article answers frequently asked questions about focused view in Dynamics 365 Sales, Sales premium, and Sales professional.
 
+## In which organizations is focused view supported?
+
+Focused view is supported in organizations that use Dynamics 365 Customer Engagement. However, it is not supported in organizations that use only Common Data Service (CDS).
+
 ## Is there any administration setup required to use focused view?
 
- No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can enable it. More information: [Configure focused view as default](set-focused-view-as-default.md).
+No. Focused view is available out of the box and doesn't require any setup. However, if it's disabled, an administrator can [enable it](set-focused-view-as-default.md).
 
 ## Why isn't the focused view opening by default for leads?
 
@@ -100,4 +105,60 @@ Delete the browser cache and refresh the page.
 
 ## Why the web resource functions or custom renderings, which were added to my views, aren't working in focused view?
 
-The web resource functions that you've added in your views are compatible only with the **Readonly grid** mode. They'll not work properly in focused view.
+The web resource functions that you've added in your views are compatible only with the **Readonly grid** mode. They'll not work properly in focused view.  
+
+## Unable to load work list in focused view. What should I do?
+
+If you're unable to load the work list in focused view, it can be due to one of the following errors:
+
+- Related entity is used multiple times in the view to add attributes. For example, when you download and view the **FetchXML** file from the **Edit filters** section of the view query, the **account** related entity (`link-entity`) is used twice with the same relation for the `to` and `from` attributes.
+
+    ```XML
+    <fetch version="1.0" output-format="xml-platform" mapping="logical" savedqueryid="2b1cb8e1-f2f6-ee11-a1fe-7c1e521420b2" returntotalrecordcount="true" page="1" count="50" no-lock="false">
+    <entity name="lead">
+        <attribute name="entityimage_url"/>
+        <attribute name="statecode"/>
+        <attribute name="fullname"/>
+        <order attribute="modifiedon" descending="true"/>
+        <order attribute="subject" descending="false"/>
+        <attribute name="subject"/>
+        <attribute name="modifiedon"/>
+        <attribute name="leadid"/>
+        <link-entity name="account" alias="ah" from="accountid" to="leadid">
+            <filter type="and">
+                <condition attribute="address1_postofficebox" operator="null"/>
+            </filter>
+        </link-entity>
+        <link-entity name="account" from="accountid" to="leadid" link-type="outer" alias="a_239285906a62447b835492124ff21df0" visible="false">
+            <attribute name="name"/>
+        </link-entity>
+    </entity>
+    </fetch>    
+    ```
+
+- Same aliases are used between multiple tables or join in the view.  
+
+To resolve this issue, [create or edit a view with same filters](/power-apps/maker/model-driven-apps/create-edit-views-app-designer) and ensure that you remove duplicate links from the view query using advanced filter or customization.
+
+In the revised view query, based on the FetchXML example, the **account** related entity (`link-entity`) is used only once, thus resolving the error.
+
+```XML
+<fetch version="1.0" output-format="xml-platform" mapping="logical" savedqueryid="2b1cb8e1-f2f6-ee11-a1fe-7c1e521420b2" returntotalrecordcount="true" page="1" count="50" no-lock="false">
+<entity name="lead">
+    <attribute name="entityimage_url"/>
+    <attribute name="statecode"/>
+    <attribute name="fullname"/>
+    <order attribute="modifiedon" descending="true"/>
+    <order attribute="subject" descending="false"/>
+    <attribute name="subject"/>
+    <attribute name="modifiedon"/>
+    <attribute name="leadid"/>
+    <link-entity name="account" alias="ah" from="accountid" to="leadid">
+        <filter type="and">
+            <condition attribute="address1_postofficebox" operator="null"/>
+        </filter>
+        <attribute name="name"/>
+     </link-entity>
+</entity>
+</fetch>    
+```

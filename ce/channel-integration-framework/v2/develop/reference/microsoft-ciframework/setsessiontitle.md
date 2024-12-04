@@ -5,6 +5,7 @@ ms.date: 07/31/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"

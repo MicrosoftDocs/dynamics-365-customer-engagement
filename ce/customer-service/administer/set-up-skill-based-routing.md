@@ -1,16 +1,18 @@
 ---
 title: Set up skill-based routing in unified routing
 description: Use the information to set up skill-based routing for unified routing in Customer Service.
-ms.date: 09/19/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Set up skill-based routing in unified routing
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The steps to configure skill-based routing are as follows:
 
@@ -108,7 +110,7 @@ You can achieve closest skill match in one of the following ways:
 > [!NOTE]
 > We recommend that you use the same rating model across skills. However, if skills that belong to different rating models are there, then the system will normalize and calculate the skill scores.
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Overview of unified routing](overview-unified-routing.md)  

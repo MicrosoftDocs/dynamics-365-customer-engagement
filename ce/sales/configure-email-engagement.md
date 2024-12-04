@@ -6,7 +6,7 @@ ms.topic: how-to
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.custom: bap-template
 
 ---
@@ -80,7 +80,7 @@ Email engagement is enabled and ready to use in your organization.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Introduction to administer Sales Insights](intro-admin-guide-sales-insights.md)  
 [View message interactions with email engagement](email-engagement.md)

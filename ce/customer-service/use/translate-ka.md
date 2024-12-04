@@ -3,19 +3,22 @@ title: Translate knowledge articles
 description: Learn how to translate knowledge articles. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 01/23/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Translate knowledge articles
 
-Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability in Customer Service helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages without having to manage multiple copies of the same article.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
+Your knowledge article must reach your customers irrespective of their market or region. The knowledge management capability helps you set the translation language for your articles, which enables you to provide the same self-help content in multiple languages without having to manage multiple copies of the same article.
 
 ## Select a language for your knowledge article translation
 
-1. In the Customer Service app, select **Knowledge Articles**.
+1. In the application, select **Knowledge Articles**.
 
 1. Select the article you want to translate, and from the command bar, select **Translate**.  
   

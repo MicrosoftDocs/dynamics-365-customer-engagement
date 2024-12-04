@@ -3,9 +3,10 @@ title: Write an email with Copilot
 description: Learn how agents can use Copilot to draft emails to increase productivity.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 03/22/2024
+ms.date: 08/26/2024
 ms.custom: bap-template 
 ---
 
@@ -13,19 +14,19 @@ ms.custom: bap-template
 
 When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling. Based on your administrator settings, you can launch the **Write an email** feature in Copilot as follows:
 
-- When you respond to an email in the rich text editor, select the Copilot control to view the capabilities inline.
+- When you respond to an email in the rich text editor, the **Draft with Copilot** card appears.
 - When you open an email, and select the **Copilot** option from the side pane. The **Write an email** tab appears.
 
 *Always review the response* Copilot generates before you send the email to the customer.
 
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-   :::image type="content" source="../media/draft-an-email-inline.svg" alt-text="Screenshot of draft an email in rich text editor.":::
+   :::image type="content" source="../media/draft-an-email-inline.png" alt-text="Screenshot of draft an email in rich text editor.":::
 
 
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
-   :::image type="content" source="../media/draft-an-email-sidepane.svg" alt-text="Screenshot of draft an email in the side pane." :::
+   :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
 
   ---
 
@@ -62,6 +63,14 @@ If your administrator enabled knowledge sources and set up trusted domains, the 
 
 When you select one of the predefined prompts, Copilot generates a suggested reply that's displayed on the UI incrementally. You can also see the inline citations that show the knowledge base or website links from which Copilot drew the response. When you hover over the citation, you can see an inline link to the source. You can select **Stop Responding** to stop Copilot from generating the email draft. The application displays the prompts for you to start over. 
 
+### Refine replies
+
+You can select the Adjust with Copilot icon to change the length and tone of the response in the English language. Do the following: 
+
+**Length**: Select **Short**, **Medium**, or **Long** to condense or expand on your text. <br>
+**Tone**: Select **Friendly**, **Professional**, or **Formal** to adjust the tone of your text.
+
+
 ### Use follow-up prompts
 
 If you aren't satisfied with Copilot's response, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can use up to five prompts at a time to refine the email draft. If your administrator has enabled knowledge base, Copilot will also use those sources.
@@ -81,7 +90,7 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
 ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
-   :::image type="content" source="../media/copilot-draft-inline.svg" alt-text="Screenshot of composing an email in rich text editor."::: 
+   :::image type="content" source="../media/copilot-draft-inline.png" alt-text="Screenshot of composing an email in rich text editor."::: 
 
 
 ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
@@ -95,8 +104,8 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
 
 [Use Copilot to solve customer issues](use-copilot-features.md)
 
-### See also
-
-[Enable Copilot to draft emails](../administer/copilot-email-enable.md)
-[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md) 
-[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)   
+### Related information
+[View, compose and respond to email](/power-apps/user/view-compose-email)  
+[Enable Copilot to draft emails](../administer/copilot-email-enable.md)  
+[FAQ for Copilot in Customer Service](../administer/faq-copilot-features.md)   
+[Responsible AI FAQ for copilot features](../implement/faq-responsible-ai-copilot.md)    

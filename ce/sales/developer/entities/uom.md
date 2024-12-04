@@ -6,7 +6,8 @@ ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "lavanyakr01"
-ms.author: "lavanyakr"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -785,7 +786,7 @@ See the [unit_of_measurement_base_unit](uom.md#BKMK_unit_of_measurement_base_uni
 
 See the [unit_of_measure_schedule_conversions](uomschedule.md#BKMK_unit_of_measure_schedule_conversions) one-to-many relationship for the [uomschedule](uomschedule.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

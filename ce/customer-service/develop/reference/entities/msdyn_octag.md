@@ -5,6 +5,7 @@ ms.date: 09/14/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -528,7 +529,7 @@ Relationship details provided where the msdyn_octag entity is the first entity i
 
 See msdyn_personalmessage Entity [msdyn_msdyn_personalmessage_msdyn_octag](msdyn_personalmessage.md#BKMK_msdyn_msdyn_personalmessage_msdyn_octag) Many-To-Many Relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

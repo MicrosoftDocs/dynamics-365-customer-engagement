@@ -5,6 +5,7 @@ ms.date: 09/14/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -791,7 +792,7 @@ See msdyn_agentscript Entity [msdyn_msdyn_agentscript_msdyn_agentscriptstep](msd
 
 See msdyn_agentscript Entity [msdyn_msdyn_agentscript_routeaction](msdyn_agentscript.md#BKMK_msdyn_msdyn_agentscript_routeaction) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

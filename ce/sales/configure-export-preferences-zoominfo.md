@@ -5,6 +5,7 @@ ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Configure export preferences 
 
@@ -64,7 +65,7 @@ Before you start, be sure you've met the following prerequisites:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
 
