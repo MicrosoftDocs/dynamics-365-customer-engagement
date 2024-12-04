@@ -902,3 +902,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center.md
