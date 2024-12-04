@@ -4,7 +4,7 @@ description: Learn how to create application tab templates in Customer Service. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/05/2024
+ms.date: 12/04/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template

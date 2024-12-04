@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 07/26/2024
+ms.date: 12/04/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

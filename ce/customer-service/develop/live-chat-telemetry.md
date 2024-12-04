@@ -1,7 +1,7 @@
 ---
-title: "Live chat widget telemetry| MicrosoftDocs"
-description: "Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget."
-ms.date: 06/17/2022
+title: Live chat widget telemetry
+description: Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget.
+ms.date: 12/04/2024
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
