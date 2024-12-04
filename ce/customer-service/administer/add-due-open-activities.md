@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Use the Due open activities control to customize forms 
 
-The **Due open activities control** helps agents see the activities that are either due today or overdue. The application displays the due or overdue activities as a hyperlink. This component is available out of the box on the enhanced full case form.
+The **Due open activities control** helps customer service representatives see the activities that are either due today or overdue. The application displays the due or overdue activities as a hyperlink. This component is available out of the box on the enhanced full case form.
 
 ## Customize forms with Due open activities control
 
@@ -25,7 +25,7 @@ You can customize other forms such as Account or Contacts, to display the due or
 
 ## Specify tab to redirect users to view open activities
 
-Configure the tab that the agents must be redirected to when they select the open activities link from the **Due open activities control**. You can set this at an environment level or for a specific app.
+Configure the tab that the representatives must be redirected to when they select the open activities link from the **Due open activities control**. You can set this at an environment level or for a specific app.
 
 1. In Power Apps, add the **Due open activities control** component to the required form. 
 1. In **Edit Due open activities control**, set the **Static value** option to the required tab. To find the tab's name, perform the following steps:
