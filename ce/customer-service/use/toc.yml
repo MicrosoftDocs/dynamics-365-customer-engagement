@@ -306,8 +306,6 @@
             href: realtime-summary-dashboard.md
           - name: Voice report
             href: realtime-voice-dashboard.md
-          - name: Bot report
-            href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml             
           - name: Agents report
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
