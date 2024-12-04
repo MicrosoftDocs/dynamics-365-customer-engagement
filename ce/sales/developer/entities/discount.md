@@ -6,7 +6,8 @@ ms.service: "dynamics-365-sales"
 ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "lavanyakr01"
-ms.author: "lavanyakr"
+ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - developer
 ---
@@ -645,7 +646,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See the [discount_type_discounts](discounttype.md#BKMK_discount_type_discounts) one-to-many relationship for the [discounttype](discounttype.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

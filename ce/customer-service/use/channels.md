@@ -1,37 +1,37 @@
 ---
 title: Overview of channels in Omnichannel for Customer Service
-description: Learn about the different channels that are available in Omnichannel for Customer Service and the licenses required to use them in Dynamics 365 Customer Service.
+description: Learn about the different channels that are available in Omnichannel for Customer Service and the licenses required to use them.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 11/28/2023
+ms.date: 10/09/2024
 ms.custom: bap-template
 ---
 
 # Overview of channels
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels is not only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
+As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels isn't only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
 
-Adding channels to your business support offering is a powerful way to provide personalized service to customers on the channels of their choice. It's helpful to recognize a common pattern across all channels that are enabled through Omnichannel for Customer Service before diving into the implementation of a single channel.
+Adding channels to your business support offering is a powerful way to provide personalized service to customers on the channels of their choice. It's helpful to recognize a common pattern across all channels that are enabled through the application before diving into the implementation of a single channel.
 
 The implementation pattern for the out-of-the-box channels is as follows:
 
-- Establish your account and respective requirements, such as a page and app, with the channel provider. These requirements ensure that you have an entry point with the channel provider through which customers will engage.
-- Configure the workstream in [Customer Service admin center](../implement/cs-admin-center.md).
-- Configure the channel in Customer Service admin center and attach it to the workstream.
-- Populate the exchange of handshake data, such as token and secrets required between omnichannel and the channel provider. The data exchange is usually done in both places: the Customer Service admin center app and the channel provider experience. 
+- Establish your account and respective requirements, such as a page and app, with the channel provider. These requirements ensure that you have an entry point with the channel provider through which customers engage.
+- Configure the [workstream](../implement/cs-admin-center.md).
+- Configure the channel in Customer Service admin center or Contact Center admin center and attach it to the workstream.
+- Populate the exchange of handshake data, such as token and secrets required between the application and the channel provider. The data exchange is done in both places: the Customer Service admin center app and the channel provider experience. 
 
 ## License requirements
 
 An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Apart from Dynamics 365 subscriptions, if you choose to use any third-party channels, you need to acquire subscriptions from those providers as well.
 
-You can get Chat for Dynamics 365 Customer Service with either of the following add-on licenses:
+You can get Chat with the following add-on licenses:
 
-- [Chat for Dynamics 365 Customer Service](https://dynamics.microsoft.com/customer-service/overview/#pricing)
+- [Chat for Dynamics 365](https://dynamics.microsoft.com/customer-service/overview/#pricing)
 - [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/#pricing)
 
 > [!Note]
@@ -45,7 +45,7 @@ You can get the Microsoft Teams channel with the following add-on license:
 
 - [Teams license](/MicrosoftTeams/office-365-licensing)
 
-The following channels are currently available in Omnichannel for Customer Service: 
+The following channels are currently available in the application: 
 
 ## Chat
 
@@ -62,7 +62,6 @@ To address customer issues, you can configure and use the voice channel. More in
 If you want to help your customers using SMS, you can use the following SMS channels:
 
 - [SMS through Azure Communication Services](../administer/configure-sms-channel-acs.md)
-- [SMS through TeleSign](../administer/configure-sms-channel.md)
 - [SMS through Twilio](../administer/Configure-sms-channel-twilio.md)
 
 ## Social channels
@@ -71,9 +70,7 @@ If you want to help your customers using social media, you can use the following
 
 - [Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)
 - [Facebook](../administer/configure-facebook-channel.md)
-- [Google's Business Messages](../administer/configure-google-business-messages-channel.md)
 - [WhatsApp through Twilio](../administer/configure-whatsapp-channel.md)
-- [WeChat](../administer/configure-wechat-channel.md)
 - [LINE](../administer/configure-line-channel.md)
 
 ## Custom messaging channel

@@ -1,10 +1,11 @@
 ---
 title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
-ms.date: 11/18/2021
+ms.date: 06/28/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -26,9 +27,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
-1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
-
-2. Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
+Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
 
 # [Sales Professional](#tab/salespro)
 
@@ -50,8 +49,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
     -   **Select Team Administrator**: Select the person who will do the team administration, such as adding members to or removing members from the team.
 
-      > [!div class="mx-imgBorder"]
-      > ![Add New Team pane.](media/add-new-team-dialog-box.png "Add New Team pane")
+      :::image type="content" source="media/add-new-team-dialog-box.png" alt-text="Add New Team pane":::
 
 ### Add members to the team
 
@@ -71,7 +69,9 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
-1.  Select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then select **Advanced settings**.
+1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Select **Settings** > **Security** > **Teams**.
 
@@ -84,9 +84,10 @@ When a team is assigned a role, the team members are assigned the set of privile
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Admin settings overview](admin-settings-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

@@ -5,6 +5,7 @@ ms.date: 08/09/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -36,7 +37,7 @@ This action is used to trigger out of the box price calculation for Opportunity,
 POST [Organization URI]/api/data/v9.1/RecalculatePrice
 {
     "entityLogicalName": "quote",
-    "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
+    "entityId":"00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
 }
 ```
 

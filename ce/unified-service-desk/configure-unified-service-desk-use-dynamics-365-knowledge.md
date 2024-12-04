@@ -11,6 +11,7 @@ search.audienceType:
 ms.custom:
 - dyn365-USD
 ai.usage: ai-assisted
+
 ---
 
 # Use model-driven apps for knowledge base search in Unified Service Desk

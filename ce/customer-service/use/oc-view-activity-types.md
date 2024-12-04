@@ -5,11 +5,12 @@ ms.date: 08/25/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # View conversation and session forms
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
 
@@ -56,7 +57,7 @@ The session activity type displays information about a individual session in a c
 
 The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
 
-### See also
+### Related information
 
 [View active conversations for an incoming conversation request](oc-view-customer-summary-incoming-conversation-request.md)  
 [View customer information on Active Conversation form](oc-customer-summary.md)  

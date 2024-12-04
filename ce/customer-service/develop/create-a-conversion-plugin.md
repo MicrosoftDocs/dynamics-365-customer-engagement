@@ -3,9 +3,9 @@ title: Transform, map external source data to knowledge fields
 description: Learn how you can convert and map source values with different types to the corresponding knowledge attribute.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: shujoshi
+ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 03/01/2023
+ms.date: 07/24/2024
 ms.custom: bap-template
 search.audienceType: 
   - developer
@@ -13,15 +13,15 @@ search.audienceType:
 
 # Transform, map external source data to knowledge fields
 
-When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you'll have to transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
+When you're mapping information from external data providers to knowledge article entities, if the source value is of a different data type, you must transform the value before you can map it to the target knowledge attribute. You can create a plug-in and register it on `Create` and `Update` messages so that the target knowledge article attributes have values that are inline with the articles from the external providers.
 
 To transform and map the source values, perform the following steps:
 
-1. Create a custom field in the `KnowledgeArticle` entity. More information: [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
-1.  Map the required external source value to the newly created custom field. More information: [Configure knowledge article schema mapping (preview)](../administer/int-data-mapping.md). This is a temporary mapping from which your plug-in picks up the source value.
-1. Create a plug-in. For more information, see: [Create a plug-in project](/power-apps/developer/data-platform/tutorial-write-plug-in#create-a-plug-in-project).
+1. Create a custom field in the `KnowledgeArticle` entity. Learn more at [How to create and edit columns](/power-apps/maker/data-platform/create-edit-fields).
+1.  Map the required external source value to the newly created custom field. Learn more at [Configure knowledge article schema mapping (preview)](../administer/int-data-mapping.md). This is a temporary mapping from which your plug-in picks up the source value.
+1. Create a plug-in. Learn more at [Create a plug-in project](/power-apps/developer/data-platform/tutorial-write-plug-in#create-a-plug-in-project).
 1. You can write your own code to convert the external source value and map it to the required target knowledge article attribute.  
-In this example, we'll show how you can map a source value that's of the type **String** to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
+In this example, we show how you can map a source value that's of the type **String** to an article field attribute of type **OptionSet**. In the plug-in that you created, replace the entire class with the following sample code.
 
       
  ``` C#
@@ -163,7 +163,7 @@ namespace PowerApps.Samples
 	  
 3. Register the plug-in on `Create` and `Update` SDK messages of the KnowledgeArticle entity in the PreOperation stage. More information: [Register a plug-in](/power-apps/developer/data-platform/register-plug-in)
 
-## See Also
+## Related information
 
 [Manage integrated search providers (preview)](../administer/add-search-provider.md)<br>
 [View and use insights for search providers (preview)](../administer/view-and-use-insights.md)

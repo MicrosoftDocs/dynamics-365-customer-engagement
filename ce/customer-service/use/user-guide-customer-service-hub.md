@@ -5,6 +5,7 @@ ms.date: 04/21/2023
 ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ms.custom: 
   - dyn365-customerservice
 ms.collection: get-started
@@ -56,7 +57,7 @@ Refer below to know how the Customer Service Hub app complies with accessibility
 - [Keyboard navigation support for the Customer Service Hub](../implement/keyboard-navigation-support-customer-service-hub.md)
 - [Privacy and personal data in Microsoft Dynamics 365](/dynamics365/get-started/privacy)
 
-### See also
+### Related information
   
 [Overview of Customer Service and Customer Service Hub ](../administer/overview.md)  
 [Upgrade to the Customer Service Hub](../administer/upgrade-ish-csh.md)  

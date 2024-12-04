@@ -5,6 +5,7 @@ ms.date: 08/18/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -66,16 +67,16 @@ In the status-based Kanban view, each swim lane represents a default opportunity
 > [!div class="mx-imgBorder"]  
 > ![Status-based opportunity Kanban view.](media/status-based-opportunity-kanban-view.png "Status-based opportunity Kanban view")
  
-In the Business process flow-based view, swim lanes represent the stages of opportunities in the **Opportunity sales process** business process flow. 
+In the Business process flow-based view, swim lanes represent the stages of opportunities in the **Sales Process** business process flow. 
 
-Currently, the Kanban view is only available for the **Opportunity sales process** business process flow.
+Currently, the Kanban view is only available for the **Sales Process** business process flow.
 
 > [!div class="mx-imgBorder"]  
 > ![Business process flow-based opportunity Kanban view.](media/bpf-based-kanban-view.png "Business process flow-based opportunity Kanban view")
 
 
 > [!NOTE]
-> If your system administrator or customizer has customized the **Opportunity sales process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
+> If your system administrator or customizer has customized the **Sales Process** business process, such as changing the stages in the business process flow, the changes are reflected in the business process flow-based opportunity Kanban view. 
  
 ## Know your Kanban views
 
@@ -138,7 +139,7 @@ Here are some important things to know about your Kanban view:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add the Kanban control to Opportunity or Activity entities](add-kanban-control.md)  
 [Create or edit opportunities](create-edit-opportunity-sales.md)  

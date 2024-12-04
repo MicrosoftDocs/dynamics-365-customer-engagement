@@ -4,6 +4,7 @@ description: Get an overview of bots and how you can configure and use them in O
 ms.date: 03/21/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template
@@ -11,7 +12,7 @@ ms.custom: bap-template
 
 # Overview of bots
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -33,7 +34,7 @@ When you integrate bots with Omnichannel for Customer Service, you get the follo
 - Use historical dashboards to get insights into the effectiveness of the bots through metrics such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 - Configure post-call surveys to measure customer satisfaction.
 
-### See also
+### Related information
 
 [Bot sessions and licensing](bot-session-licensing.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

@@ -1,11 +1,14 @@
 ---
 title: "Support for Unified Interface in Unified Service Desk | MicrosoftDocs"
 description: "Learn about Unified Interface and how Unified Service Desk supports apps built using the Unified Interface framework."
-ms.date: 05/07/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
+ms.custom: evergreen
 ---
+
 
 # Support for Unified Interface apps in Unified Service Desk
 

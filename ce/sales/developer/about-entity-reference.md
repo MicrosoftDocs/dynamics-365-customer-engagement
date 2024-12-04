@@ -1,14 +1,14 @@
 ---
 title: About Entity Reference (Developer Guide for Dynamics 365 Sales) | MicrosoftDocs
 description: Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities(SDK) in Dynamics 365 Sales. 
-ms.date: 03/01/2023
+ms.date: 06/28/2024
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 ms.assetid: b07033ee-97eb-4475-9d83-307201a05f1a
 author: udaykirang
 ms.author: udag
-ms.reviewer: lavanyakr
+ms.reviewer: udag
 search.audienceType: 
   - developer
 

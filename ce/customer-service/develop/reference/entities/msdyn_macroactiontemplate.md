@@ -5,6 +5,7 @@ ms.date: 09/14/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -889,7 +890,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_macroconnector Entity [msdyn_msdyn_macroconnector_msdyn_macroactiontemplate_macroconnector](msdyn_macroconnector.md#BKMK_msdyn_msdyn_macroconnector_msdyn_macroactiontemplate_macroconnector) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -5,6 +5,7 @@ ms.date: 08/31/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -610,7 +611,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_surveyquestion Entity [msdyn__surveyquestion_msdyn_localizedsurveyques](msdyn_surveyquestion.md#BKMK_msdyn__surveyquestion_msdyn_localizedsurveyques) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

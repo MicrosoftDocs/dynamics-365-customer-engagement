@@ -5,6 +5,7 @@ ms.date: 04/06/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Manage sessions in Omnichannel for Customer Service
@@ -141,7 +142,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
     > [!div class=mx-imgBorder]
     > ![Unread message count.](../media/unread-message.png "Session icon")
 
-### See also
+### Related information
 
 - [Manage applications](oc-manage-applications.md)
 - [Understand conversation states](oc-conversation-state.md)

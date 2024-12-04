@@ -1,14 +1,17 @@
 ---
 title: "Walkthrough 4: Display session records in Unified Interface apps | MicrosoftDocs"
 description: "Use this walkthrough to understand the prerequisites and procedures for displaying session records in Unified Interface apps."
-ms.date: 12/31/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
+ms.custom: evergreen
 ---
+
 
 # Walkthrough 4: Display a Unified Interface apps record in a session in your agent application
 

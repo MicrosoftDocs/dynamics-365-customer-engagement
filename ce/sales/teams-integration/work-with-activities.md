@@ -6,6 +6,7 @@ ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Work with activities during a meeting (preview)
@@ -38,7 +39,7 @@ You can view only appointment, email, and phone call activities that are associa
 
 In the **Activities** section, select an activity. The activity record opens in your web browser.
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

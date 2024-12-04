@@ -10,6 +10,7 @@ metadata:
   ms.collection: collection
   author: udaykirang
   ms.author: udag
+  ms.reviewer: udag
   ms.date: 09/22/2023
 
 # linkListType: architecture | concept | deploy | download | get-started | how-to-guide | learn | overview | quickstart | reference | tutorial | video | whats-new
@@ -62,7 +63,7 @@ landingContent:
           - text: Enable and configure Copilot
             url: enable-setup-copilot.md
           - text: Copilot data movement across geographies
-            url: sales-copilot-data-movement.md 
+            url: /power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features
 
 # Card 
   - title: Sales premium
@@ -95,6 +96,18 @@ landingContent:
             url: upgrade-sales-professional-sales-enterprise.md
           - text: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional 
             url: move-sales-enterprise-sales-professional.md
+
+# Card 
+  - title: LinkedIn integration
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Install and enable LinkedIn Sales Navigator
+            url: linkedin/install-sales-navigator.md
+          - text: Uninstall LinkedIn Sales Navigator
+            url: linkedin/uninstall-sales-navigator.md
+          - text: Install LinkedIn Sales Insights
+            url: install-lsi-solution.md
 
 # Card 
   - title: Goal management

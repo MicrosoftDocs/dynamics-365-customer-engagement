@@ -3,13 +3,12 @@ title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameter values in the templates and macros."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 02/13/2023
 ms.topic: article
 ---
 
 # Use automation dictionary to pass parameter keys
-
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
 
 The automation dictionary maintains the contextual data for sessions. You can use the keys from the automation dictionary to pass the parameter in an action.​
 
@@ -224,7 +223,7 @@ Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -84,8 +85,9 @@ If you want to make advanced configurations for Teams calls and conversation int
 
 3. Select **Update**.
  
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)       
 [Lead and opportunity scoring](digital-selling-scoring.md)    
+

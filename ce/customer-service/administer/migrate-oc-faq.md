@@ -3,7 +3,7 @@ title: Omnichannel for Customer Service app deprecation and migration FAQ
 description: Deprecation and migration FAQ for the Omnichannel for Dynamics 365 Customer Service agent-facing app.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms-service: dynamics-365
 ms.topic: conceptual
 ms.date: 02/12/2024
@@ -56,7 +56,7 @@ You can manage Customer Service workspace in the Customer Service admin center a
 
 ### How do I move my Omnichannel for Customer Service app configurations to the Customer Service workspace app?
 
-To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the [migration guide](migrate-oc-to-csw.md).
+To migrate your Omnichannel for Customer Service app configuration to Customer Service workspace, follow the steps in the [migration guide](migrate-to-csw.md).
 
 ### Can I continue to use the Omnichannel for Customer Service app?
 

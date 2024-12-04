@@ -3,7 +3,7 @@ title: Migrate assignment rules and segments
 description: Migrate assignment rules and segments using the Configuration Migration tool.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 02/02/2024
 ms.custom:
@@ -81,7 +81,7 @@ The following table shows scenarios in which the segments are prioritized in the
 | Upon subsequent migration of selected segments from source to target, with some segments deleted in source. | Segment B, Segment C, Segment D, Segment E, Default segment | Segment C, Segment D, Default segment | Segment A, Segment B, Segment D, Default segment | Segment A, Segment B, Segment D, Segment C, Default segment |
 | Upon subsequent migration of selected segments from source to target, with some segments existing in target. | Segment A, Segment B, Segment C, Segment D, Segment E, Default segment | Segment B, Segment C, Segment D, Segment E, Default segment | Segment D, Segment F, Segment C, Default segment | Segment D, Segment F, Segment C, Default segment, Segment B, Segment E, Default segment |
 
-### See also
+## Related information
 
 - [Create and activate segments](wa-create-and-activate-a-segment.md)  
 - [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)  

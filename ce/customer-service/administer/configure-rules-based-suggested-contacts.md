@@ -1,15 +1,17 @@
 ---
 title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to configure the ability to use rules-based suggested contacts."
-ms.date: 07/21/2023
+ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure rules-based suggestions for contacts in Microsoft Teams
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Agents can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts that are displayed when an agent starts a new connected chat. This feature can help agents in your organization to quickly find the right coworkers to collaborate with.
 
@@ -18,24 +20,14 @@ A maximum of 10 rules are supported per record type.
 ## Turn on the suggested contacts for a record type
 
 > [!NOTE]
-> For the case record type, there are two types of contact suggestions: AI and rules-based. Most record types enabled for connected chats only have rules-based suggestions. For more information about configuring AI-suggested contacts in Teams, see [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
+> - For the case record type, there are two types of contact suggestions: AI and rules-based. Most record types enabled for connected chats only have rules-based suggestions. For more information about configuring AI-suggested contacts in Teams, see [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
+> - Case is applicable to Customer Service only.
 
 **To enable collaboration with Microsoft Teams and chat**
 
-1. In Dynamics 365, go to one of the apps and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Collaboration**.
     
-    1. In **Embedded chat using Teams**, select **Manage**.
-   
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, select **Service Management**.
-    2. In **Collaboration**, select **Embedded chat using Teams**.
+1. In **Embedded chat using Teams**, select **Manage**.
 
 1. On the **Microsoft Teams collaboration and chat** page, set the toggle for **Turn on the linking of Dynamics 365 records to Microsoft Teams channels** to **Yes**.
 
@@ -103,7 +95,7 @@ To ensure that the user's language is localized, make sure they have Read privil
 - msdyn_contactsuggestionrule
 - msdyn_contactsuggestionruleset
 
-### See also
+### Related information
 
 [Configure Microsoft Teams chat in Customer Service](configure-teams-chat.md)   
 [Use Teams chat in Customer Service](../use/use-teams-chat.md)

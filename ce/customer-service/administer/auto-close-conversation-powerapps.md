@@ -1,23 +1,26 @@
 ---
 title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
-ms.date: 10/04/2023
+ms.date: 05/02/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.custom: bap-template
 ms.collection:
 ---
 # Close conversations automatically
 
-Omnichannel for Customer Service has a default time set for the conversation to close automatically. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve closure, allowing agents to focus on other tasks, enhancing productivity.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The Omnichannel for Customer Service scheduler checks conversations every 5 minutes to identify conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
+A default time is set for the conversations to close automatically in the contact center. That is, if a conversation in a certain stage remains in the stage for more than the default time, then the conversation is moved to the closed state. Conversations achieve closure, allowing agents to focus on other tasks, enhancing productivity.
+
+The scheduler checks conversations every 5 minutes to identify conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
+> - The scheduler checks the [modifiedon](../develop/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in msdyn_ocliveworkitem table to identity the conversations that are eligible for automatic closure.
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
-> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler will automatically recalculate the time to close the conversation.
+> - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler automatically recalculates the time to close the conversation.
 
 
 ### Default time for automatic closure of conversations
@@ -52,7 +55,7 @@ For example, when you set **Auto-close after inactivity** to 5 minutes, the conv
 > [!NOTE]
 > The **Auto-close after inactivity**  option is available for persistent chat, SMS, social, and Microsoft Teams channels only.
 
-To learn more, see [Create a workstream](create-workstreams.md).
+Learn more at [Create a workstream](create-workstreams.md).
 
 ### Close conversations using Power Apps
 
@@ -64,11 +67,14 @@ You can configure the auto-close duration of a conversation in Power Apps by per
 
 3. Select **Edit**, and in **Auto close conversation after** column, set the auto-close duration.
 
+> [!NOTE]
+> Make sure that you have write privileges to edit the table. Learn more at [security roles and privileges - Power Platform](security-roles.md).
+
 ### Close conversations using API
 
 Programmatically, you can change the default time and set it as per your organization's requirements using the Web APIs. To learn more, see [Configure automatic closure of conversations using web API](../develop/auto-close-conversation.md).
 
-### See also
+### Related information
  
 [Understand conversation states](../use/oc-conversation-state.md)
 

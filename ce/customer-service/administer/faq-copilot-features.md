@@ -1,17 +1,16 @@
 ---
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 11/21/2023
+ms.date: 11/28/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: 
-  - dyn365-customerservice
 ms.collection: bap-ai-copilot
 ---
-
 
 # FAQ for Copilot in Customer Service
 
@@ -27,16 +26,14 @@ The following table describes the availability of Copilot features across apps.
 
 | Feature name | Customer Service workspace | Customer Service Hub | Custom apps |
 | ------- | ----- | -------- | ----- | 
-| Copilot knowledge chat| ✔ | O | O |
-| Copilot for drafting emails| ✔ | O  |O  |
-| Case summarization| ✔ | O  | O  |
-| Copilot analytics| ✔ | O | O |
-| Conversation summarization| ✔ | ✖ | ✖ |
+| Copilot knowledge chat| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Copilot for drafting emails| Yes | Yes<sup>1</sup>  |Yes<sup>1</sup> |
+| Case summarization| Yes  | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Copilot analytics| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Conversation summarization| Yes | No | No |
 
+Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
 
-✔ : Available out of the box 
-O  : Available, but configuration is required in Power Apps 
-✖ : Not available 
 
 ## Why does Copilot come back with a different response to the same exact input? 
 
@@ -51,7 +48,8 @@ You can add up to five trusted domains as web sources, and the domains must be p
 
 ## Does Copilot support knowledge articles published in all languages? 
 
-No. Copilot supports knowledge articles published in the English language only. 
+Yes. Copilot supports knowledge articles published in the supported languages. See: 
+[Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service)
 
 ## What are the best practices for configuring copilot?
  
@@ -59,7 +57,7 @@ No. Copilot supports knowledge articles published in the English language only.
 - Revisit your copilot knowledge sources before you enable Copilot.
 - Restrict access to sources from which you don't want your copilot responses to be generated.
 
-### See also
+### Related information
 
-[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)
-[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)
+[Responsible AI FAQ for Copilot in Customer Service](../implement/faq-responsible-ai-copilot.md)  
+[FAQ for Copilot data security and privacy in Microsoft Power Platform](/power-platform/faqs-copilot-data-security-privacy)  

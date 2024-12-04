@@ -5,6 +5,7 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-Entity-goal
@@ -83,7 +84,7 @@ Rollup queries define additional criteria for a goal. Applying the rollup query 
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [Create or edit goals](../sales-enterprise/create-edit-goal-sales.md)   
 [Define a goal metric](create-edit-goal-metric.md)

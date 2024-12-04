@@ -1,10 +1,11 @@
 ---
-title: "Overview of user management | MicrosoftDocs"
-description: "This topic provides information on how to manage different user types in Dynamics 365 Customer Service apps."
-ms.date: 07/09/2021
+title: Overview of user management
+description: This article provides information on how to manage different user types in Dynamics 365 Customer Service apps.
+ms.date: 05/10/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Overview of user management
@@ -13,14 +14,17 @@ ms.author: nenellim
 
 To begin using Customer Service Hub, Customer Service workspace, and Omnichannel for Customer Service, each member of your organization will need a user account.
 
-You'll use the Microsoft 365 admin center to create user accounts. The user account registers the user with Microsoft Online Services environment. In addition to registration with the online service, you must assign a license to the user account for the user to have access to the service.
+Use the Microsoft 365 admin center to create user accounts. The user account registers the user with Microsoft Online Services environment. Apart from registration with the online service, you must assign a license to the user account for the user to have access to the service.
 
 When you assign a user the global administrator or the service administrator role in the Microsoft Online Services environment, it automatically assigns the user the System Administrator security role.
 
-The topics in this section explain how to use the Microsoft 365 admin center to create security roles for users, and then how to use advanced settings in Omnichannel for Customer Service to create user roles to perform specific actions in the app.
+See [Assign a security role to a user](/power-platform/admin/assign-security-roles) to assign security roles for users.
 
-### See also
+## Next steps
 
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
+
+### Related information
+
 [Manage capacity profiles](../administer/capacity-profiles.md)  
 [Role persona mapping](../administer/role-persona-mapping.md)  

@@ -1,10 +1,11 @@
 ---
-title: "Create or edit invoices in Dynamics 365 Sales"
-description: "An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately."
-ms.date: 05/10/2022
+title: Create and manage invoices
+description: An invoice is an order that has been billed to the customer. You can either convert an order into an invoice or create an invoice separately.
+ms.date: 07/29/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -15,11 +16,12 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-# Create or manage invoices
+# Create and manage invoices
 
 When a customer places an order, you can create an invoice to bill them for the upcoming sale. Typically, you convert an order into an invoice; however, you can also create an invoice that does not originate from an order.  
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
@@ -51,11 +53,6 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 2.  Select **New**.
 
-    The Invoice form opens.
-
-    > [!div class="mx-imgBorder"]
-    > ![Invoice form.](media/empty-invoice-form.png "Invoice form")
-
 3. On the **Invoice** form, enter data in the following required fields:
 
     -  **Name** 
@@ -71,76 +68,27 @@ When a customer places an order, you can create an invoice to bill them for the 
   
 5. On the command bar, select **Save** to create the invoice record.  
   
-6. To add products from your opportunity to your order, select the **More options** icon ![More commands icon](media/more-commands-button.png "More commands icon") and then choose **Get Products**, select your opportunity, and select **OK**.  
+6. To add products from your opportunity to your invoice, select the **More options** icon ![More commands icon](media/more-commands-button.png "More commands icon") and then choose **Get Products**, select your opportunity, and select **OK**.  
   
     -OR-
-    To manually add other products, In the **Products** section, select the **Add Product**. [!INCLUDE[proc-more-information](../includes/proc-more-information.md)] [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md)
+    To manually add other products, in the **Products** section, select **Add Product**. For more information, see [Add products to Quote, invoice, or order records](add-product-quote-order-invoice.md). If your administrator has configured the enhanced experience for adding products, you'll see the **Add Products** button. For more information about adding products using the enhanced experience, see [Find and add multiple products to quotes, orders, or invoices](add-products-qoi-enhanced.md). 
     
-    You need to enter the tax amount when you add a product to a quote, order, or invoice. [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
+    You need to enter the tax amount when you add a product to a quote, order, or invoice. Dynamics 365 Sales doesn't automatically calculate tax for individual products. However, the total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.  
 
-7.  In the **Quick Create: Invoice Product** form, enter the details:
-
-    1.  In the **Select Product** button, select whether you want to add an existing product or create a new one:
-
-        1.  To use an existing product, select **Lookup** to search for and add a product. Also, select a unit of measurement for the product.
-
-        2.  To create a product, select **Write-In**, and then enter the name of the product.
-
-    2.  Fill in details in the **Pricing** section:
-
-        1.  Toggle the **Pricing** button to indicate whether you want to use the default pricing that is listed in the product catalog or override the price. For a write-in product, this field is set to **Override** Price.
-
-        2.  If you’re adding a write-in product, in **Price Per Unit**, enter the price to be charged per unit for the product.
-
-        3.  Enter the quantity of the product or service that will be included.
-
-        4.  If you want to offer a discount to the product price, enter it in **Manual Discount**.
-
-        5.  If required, enter the appropriate tax amount. You need to enter the tax amount when you add a product to a quote,
-            order, or invoice. Dynamics 365 Sales Professional doesn’t automatically calculate tax for individual products. However, the
-            total tax is calculated automatically based on the sum of the tax amounts for all of the individual products in a quote, order, or invoice.
 
 8.  Select **Save and Close**.
   
-> [!NOTE]
->  You close an invoice either by canceling the invoice or setting the invoice status as paid.  
-  
-<a name="bkmk3"></a>   
-## Edit an invoice  
-  
-1. In the list of invoices, select the invoice you want to edit.  
-  
-2. Add or change any details about your invoice.  
-  
-3. Select **Save** in the lower-right corner of the screen.  
-
-> [!NOTE]
-> It isn't possible to edit multiple invoice records at once. 
-  
-## Lock or unlock prices of an invoice
-
-**Lock Pricing** locks the price for a product in an open invoice. Even if the price changes in the product catalog, that invoice remains at the agreed price.
-
-To lock a price:
-
-1.  Go to the list of invoices and open the invoice that you want.
-
-2.  To lock the price, on the command bar, select **Lock Pricing**. 
-
-    \-OR-
-
-    To use the price of a product from the product catalog, select **Use Current Pricing**.  
-
 ## Close an invoice
 
-You close an invoice either by canceling the invoice or setting the invoice status as paid. To do this, open the invoice you want to close, and on the
-command bar, select **Cancel Invoice** or **Invoice Paid**.
+You close an invoice either by canceling the invoice or setting the invoice status as paid. To do this, open the invoice you want to close, and on the command bar, select **Cancel Invoice** or **Invoice Paid**.
 
 ## Email an invoice
 
-When you’ve added all the details to the invoice, send it to the customer.
+When you’ve added all the details to the invoice, you can directly email the invoice to the customer.
 
-To directly send an email to a customer with an invoice attached, open the invoice, and on the command bar, select **Send by Email**.
+1. Open the invoice.
+1. On the command bar, select the **More commands** icon ![More commands icon.](media/more-commands-icon.png "More commands icon"), select **Send by Email**.
+    The email is ready to be sent with the invoice attached as a word document. 
 
 ## Typical next steps  
 
@@ -150,7 +98,7 @@ To directly send an email to a customer with an invoice attached, open the invoi
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [Nurture sales from lead to order](nurture-sales-from-lead-order-sales.md)  
 [Print quote, invoice, or other records](print-records.md)   

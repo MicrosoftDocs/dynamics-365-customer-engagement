@@ -49,6 +49,10 @@ When increasing duration, there are four options:
 
 To delete a detail, select the detail from the calendar and select the **Delete**.
 
+### Use work hours templates
+
+Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
+
 ## Schedule a multi-day requirement with the schedule assistant
 
 > [!NOTE]

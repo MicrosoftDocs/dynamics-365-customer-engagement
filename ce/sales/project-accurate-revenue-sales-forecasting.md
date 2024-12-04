@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 searchScope: 
@@ -70,7 +71,7 @@ Use the following URLs to add the forecast site map to your custom app and perfo
 | Forecast grid          | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.ForecastGridPage`  |
 | Forecast configuration | `/main.aspx?pagetype=control&controlName=ForecastingControls.FieldControls.CCFForecastConfig` |
 
-### See also
+## Related information
 
 [Configure a forecast](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

@@ -1,15 +1,20 @@
 ---
 title: Configure routing to preferred agents
 description: Learn how to configure settings to route work items to preferred agents in Customer Service.
-ms.date: 11/02/2023
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Configure routing to preferred agents
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
 
 For a more personalized experience, Dynamics 365 Customer Service gives you the option to route work items from a specific contact to the customer's preferred agents or relationship managers.
 
@@ -89,7 +94,7 @@ You can also update or delete records using the [updateRecord](/power-apps/devel
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the Preferred agent routing page.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  

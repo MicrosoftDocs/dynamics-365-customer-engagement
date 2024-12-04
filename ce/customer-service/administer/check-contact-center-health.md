@@ -3,14 +3,16 @@ title: Check your contact center health
 description: Learn how, as an admin, you can check the contact center health to diagnose configuration errors and address them by using the health check results.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 11/17/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Check your contact center health
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As administrators, you can use the integrated health checker to identify any errors, warnings, and then recommended best practices in your configuration. You can receive proactive notifications of emerging issues with health checks running in the background. This proactive approach can help ensure that your call center flows and configurations operate at optimal levels. 
 
@@ -56,7 +58,7 @@ Some of the rules used in the health check and their descriptions are as follows
 
 [Contact Center health checker doesn’t appear in the admin center](https://go.microsoft.com/fwlink/p/?linkid=2165393)
 
-### See also
+### Related information
 
 [Create queues in unified routing](queues-omnichannel.md)  
 [Create records automatically](automatically-create-update-records.md)  

@@ -1,11 +1,11 @@
 ---
 title: Supported regions and languages for analytics and insights
 description: Learn about region availability and the languages supported for analytics and insights.
-ms.date: 03/13/2024
-ms.topic: concept
+ms.date: 11/28/2024
+ms.topic: conceptual
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.collection: bap-ai-copilot
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
@@ -16,7 +16,7 @@ Depending on your location, certain features are available in Dynamics 365 Custo
 
 ## Prerequisites
 
-The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting should be enabled in [Power Platform Admin Center](https://admin.powerplatform.microsoft.com).
+The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
 ## Region availability of analytics and insights
 
@@ -39,11 +39,12 @@ The following table lists the region availability of analytics and insights.
 | Copilot&mdash;Ask a question<sup>**1**</sup> | Yes | Yes | Yes | Yes | Yes | Yes | No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
 | Copilot&mdash;Draft a chat response<sup>**1**</sup> |	Yes |	Yes |	No | No |	No | No |	No | No |	No |	Yes |	No | No |	No | No |	No |
 |Copilot&mdash;Draft emails<sup>**1**</sup> |	Yes |	Yes	| Yes |	Yes |	Yes |	Yes |	No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
-| Customer Service historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+|Copilot&mdash;Generate knowledge drafts from cases<sup>**1**</sup> |	Yes |	Yes	| Yes |	Yes |	Yes |	Yes |	No |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	Yes |	No |
+| Customer Service historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Case topic clustering | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Omnichannel historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Omnichannel historical analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Conversation topic clustering | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-| Omnichannel historical analytics - Voice | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Omnichannel historical analytics - Voice | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Sentiment analysis | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | AI suggestions for cases and knowledge articles | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Intelligent skill finder for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -54,12 +55,13 @@ The following table lists the region availability of analytics and insights.
 | Forecast report for agents, cases, and conversations | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Knowledge Base keywords suggestion| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Unified routing analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
-| Omnichannel real time analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Omnichannel real time analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Data model customization for historical and real-time reports| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 
 Yes: Available  
 No: Not available
 
-<sup>**1**</sup> By default, the copilot features are available in the North America region only. Customers with environments outside the United States can use the copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
+<sup>**1**</sup> By default, the Copilot features are available in the North America region only. Customers with environments outside the United States can use the Copilot features by opting in to data movement across geographical (data) boundaries to share relevant data outside their region for processing.
 
 ## Language support for AI-based analytics and insights in Customer Service
 
@@ -76,11 +78,12 @@ The following table lists the language availability of the other Customer Servic
 
 | Feature name | English | Arabic |  Danish | Dutch | French | German | Italian | Japanese | Portuguese | Simplified Chinese | Spanish | Portugese (Brazil) |Thai |
 | ------- | ----- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |--------|
-| Copilot&mdash;Summarize cases<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | No |
-|Copilot&mdash;Summarize conversations<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | No |
+| Copilot&mdash;Summarize cases<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
+|Copilot&mdash;Summarize conversations<sup>**2**</sup>  | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
 | Copilot&mdash;Ask a question | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
 | Copilot&mdash;Draft a chat response | Yes | No | No | No | No | No | No | No | No | No | No | No | No |
 |Copilot&mdash;Draft emails | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
+|Copilot&mdash;Generate knowledge drafts from cases | Yes | No | No | No | No | No | No | No | No | No | No | No | No |
 | Intelligent skill finder for unified routing | Yes | No | No | No | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | Effort estimation model for routing | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
 | AI suggestions for cases and knowledge articles | Yes | No | No | Yes | Yes | Yes | Yes | Yes | No | No | Yes | No | No |
@@ -92,15 +95,15 @@ The following table lists the language availability of the other Customer Servic
 Yes: Available  
 No: Not available
 
-<sup>**2**</sup> Copilot generates summaries in the agents' UI language.
+<sup>**2**</sup> Copilot might [generate summaries](../use/copilot-language-support.md) in the agents' UI language even if that isn't an officially supported language.
 
 
 ## Microsoft Power Platform capacity impact
 
-If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
+If you enable the insights feature, it affects Dataverse entitlements. Learn more in [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
 
-### See also
+### Related information
 
 [Service limits for analytics and insights](ana-ser-limits.md#service-limits-for-analytics-and-insights)  
 [Enable Copilot case and conversation summaries](copilot-enable-summary.md)  

@@ -5,6 +5,7 @@ ms.date: 03/21/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Provide consent to collect data from Microsoft 365  
@@ -63,7 +64,7 @@ Before you provide consent, review the following information:
 
      
 
-### See also
+## Related information
 
 [Consent required to use Microsoft 365 data](ms365-consent-types.md)  
 [Insights generated from Microsoft 365 data](insights-from-m365.md)  

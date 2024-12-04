@@ -3,7 +3,7 @@ title: Service limits for analytics and insights
 description: Ensure reliability and stability of the service with built-in limits for analytics and insights. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 03/13/2024
@@ -40,6 +40,6 @@ For information on the service protection limits for AI suggestions, see [Enable
 
 If you enable the insights feature, it affects Dataverse entitlements. For more information, see [New Microsoft Dataverse storage capacity](/power-platform/admin/capacity-storage).
 
-## See also
+## Related information
 
 [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights)

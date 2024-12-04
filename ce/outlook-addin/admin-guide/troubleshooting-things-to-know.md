@@ -3,7 +3,7 @@ title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outl
 description: Learn about troubleshooting common Microsoft Dynamics 365 for Outlook installation and upgrade issues.
 ms.custom:
 ms.date: 09/17/2018
-ms.reviewer:
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: b61a8103-1686-47ef-ab28-1a547d61f8f8
 caps.latest.revision: 80
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType:
   - admin
   - customizer

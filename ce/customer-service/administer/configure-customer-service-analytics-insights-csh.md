@@ -3,13 +3,16 @@ title: Configure analytics and insights dashboards
 description: Learn how to configure analytics and insights dashboards in Customer Service admin center and Customer Service workspace.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 07/28/2023
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Configure analytics and insights dashboards
+
+[!INCLUDE[cc-feature-availability-embedded](../../includes/cc-feature-availability.md)]
+
 
 You can enable and configure the Customer Service Insights features and services and share them with service managers, who can then view and analyze different activities. You can configure the features and services in Customer Service admin center app, and they can be viewed on both the Customer Service Hub and Customer Service workspace apps.
 
@@ -60,7 +63,7 @@ Users with the system administrator or supervisor role can access the analytics 
 > - To bookmark a report, grant **Create**, **Read**, **Write**, and **Delete** privileges to the security roles as applicable, for the **Report Bookmark** custom entity.
 > - To edit analytics reports, grant the **Analytics Report Author** role. For information about assigning user roles, go to [Assign roles to users](../implement/add-users-assign-roles.md#assign-roles-to-users).
 
-### See also
+### Related information
 
 [Create or edit a security role to manage user access](/power-platform/admin/create-edit-security-role#create-a-security-role.md)  
 [Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  

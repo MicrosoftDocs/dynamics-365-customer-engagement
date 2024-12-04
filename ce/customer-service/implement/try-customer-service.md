@@ -1,11 +1,11 @@
 ---
-title: "Sign up for a free trial - Dynamics 365 Customer Service | Microsoft Docs"
-description: "Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources."
-ms.date: 01/11/2023
+title: Sign up for a free trial&mdash;Dynamics 365 Customer Service
+description: Learn how to quickly sign up for and start a free Dynamics 365 Customer Service trial. Explore the app with tours and videos, and find other learning resources.
+ms.date: 04/23/2024
 ms.topic: get-started
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: 
   - template-trial-setup
 ---
@@ -23,17 +23,17 @@ Dynamics 365 Customer Service offers a 30-day free trial. After a quick sign-up,
 > - Check the availability of the product in the region you want to try before you sign up for a trial.
 > - If you use a personal email ID to sign up for the trial, not all the trial features will be available. More information: [Trial FAQ](trial-faq.md#personalemail)
 
-The trial will take a few moments to load, then you can start using Customer Service.
+The trial takes a few moments to load, then you can start using Customer Service.
 
 ## What to try?
 
-The trial environment includes many of the same features as the paid version. The following links will guide you through using some of the key features.
+The trial environment includes many of the same features as the paid version. The following links guide you through using some of the key features.
 
 - [Understand how agents manage their cases and work on them](csw-overview.md).
 - [View AI-suggested cases and knowledge articles for a case](../use/csw-view-ai-suggested-cases-knowledge-articles.md).
 - [Explore the agent dashboard](../use/oc-agent-dashboard.md).
 - [Understand the agent communication pane for conversations](../use/oc-conversation-control.md).
-- [Overview of the voice channel](../administer/voice-channel.md).
+- [Learn about the voice channel](../administer/voice-channel.md).
 - [Know more about chat notifications](../use/oc-notifications.md).
 - [View AI-suggested cases and knowledge articles for a conversation](../use/oc-view-ai-suggested-cases-articles.md).
 - [View how supervisors monitor agent conversations](../use/ongoing-conversations-dashboard.md).

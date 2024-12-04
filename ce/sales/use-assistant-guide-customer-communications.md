@@ -3,7 +3,7 @@ title: Use the assistant to guide customer communications
 description: Use the assistant to stay on top of your day through insight cards that provide tailored and actionable insights. 
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to 
 ms.date: 09/08/2023
 ms.custom: bap-template
@@ -107,7 +107,7 @@ When you open the assistant, it displays the name and basic description of each 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure the assistant](configure-assistant.md)  
 [Turn on or off the insight cards](turn-on-off-insight-cards.md)  

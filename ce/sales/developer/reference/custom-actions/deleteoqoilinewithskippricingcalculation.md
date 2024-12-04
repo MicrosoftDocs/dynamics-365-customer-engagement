@@ -5,9 +5,9 @@ ms.date: 10/26/2021
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
-ms.reviewer: susikka
 ---
 # DeleteOQOILineWithSkipPricingCalculation custom action 
 
@@ -38,7 +38,7 @@ This custom action can be used both client-side and server-side. Given below are
 POST [Organization URI]/api/data/v9.1/DeleteOQOILineWithSkipPricingCalculation
 {
     "entityLogicalName": "invoicedetail",
-    "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
+    "entityId":"00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
 }
 ```
 
@@ -52,7 +52,7 @@ var deleteOQOILineWithSkipPricingCalculationRequest= new ODataContract.DeleteOQO
 
 ```
 
-### See also
+## Related information
 
 [msdyn_ForecastApi](msdyn_ForecastApi.md)
 

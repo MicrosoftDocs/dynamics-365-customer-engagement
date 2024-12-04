@@ -1,30 +1,29 @@
 ---
 title: Set up the Service Scheduling experience
-description: Learn about how to set up the Service Scheduling experience in Dynamics 365 Customer Service
-author: lalexms 
-ms.author: laalexan
-ms.reviewer: shujoshi
-ms.service: dynamics-365 
+description: Learn how to set up the Service Scheduling experience in Dynamics 365 Customer Service.
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 ms.topic: how-to 
-ms.date: 12/07/2023
-ms.custom: bap-template 
+ms.date: 10/18/2024
+ms.custom:
+- bap-template
+- evergreen 
 ---
 
-# Set up the Service Scheduling experience
+# Set up Service Scheduling
 
-How you set up service scheduling differs, based on the following scenarios:
+Service Scheduling is a platform-driven update. Learn more in [Set up scenarios](#set-up-scenarios). However, if the update is delayed or fails, you can go to the Power Platform admin center to find the latest version available for Core service scheduling and update your instance. 
 
-- For new or existing organizations, where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
+You need to enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
 
-- For existing organizations, where the Core Service Scheduling solution is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
+## Prerequisites
 
-### Prerequisites
-
-- Make sure that you have the required security role or equivalent permissions. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Manage security roles in service scheduling](manage-security-roles.md)
+- Make sure that you have the required security role or equivalent permissions. Learn more at [Manage security roles in service scheduling](manage-security-roles.md).
 
 - Ensure your organization has Universal Resource Scheduling 3.2.0.405 or a later version. If your organization has a version prior to 3.2.0.405, then Universal Resource Scheduling installation fails. To check the Unified Resource Scheduling version on your instance, go to **Settings** > **Solutions**.
 
-   [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
+   Learn more at [Schedule anything with Universal Resource Scheduling (Sales, Customer Service, Field Service, Project Service Automation)](../../common-scheduler/schedule-anything-with-universal-resource-scheduling.md).
 
    > [!NOTE]
    > - If your organization doesn't have Universal Resource Scheduling, the **Core Service Scheduling** solution installs the latest version of Universal Resource Scheduling.
@@ -32,35 +31,19 @@ How you set up service scheduling differs, based on the following scenarios:
    > - The latest version of Universal Resource Scheduling might not be compatible with the older versions of Field Service or Project Service.
 - Ensure your organization has Customer Service Hub application.
 
-### Install the scheduling solutions
+## Set up scenarios
 
-1. Go to [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home).
+How you set up service scheduling differs, based on the following scenarios:
 
-2. Select **... Show all** > **Admin centers** > **Dynamics 365**. Dynamics 365 opens in a new tab.
+- For new or existing organizations where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-   > [!div class=mx-imgBorder]
-   > ![Go to Dynamics 365 in Microsoft 365 admin center.](../media/microsoft-365-admin-center-dynamics-csh.png)
-3. In the **Dynamics 365 Administration Center**, under the **Instances** tab, select an instance type from the drop-down. 
+- For existing organizations where the Core Service Scheduling solution is already installed, further updates happen automatically.
 
-4. select the edit icon next to solutions. The **Manage your solutions** page appears.
-
-   > [!div class=mx-imgBorder]
-   > ![Edit the solutions.](../media/dynamics-365-admin-instance-edit-csh.png)
-5. In the **Manage your solutions** page, select **Core Service Scheduling**. The status column shows **Not installed**.
-
-6. Select the install icon next on the **Core Service Scheduling** card. The **Terms of service** page appears.
-
-   > [!div class=mx-imgBorder]
-   > ![Install the solutions.](../media/core-service-scheduling-install-csh.png)
-7. In the **Terms of service** page, read the terms and conditions and then select **install**. The installation may take few minutes.
-
-After successful installation, you can access scheduling in the Customer Service Hub site map.
-
-
-### See also    
+### Related information
 
 [Overview of Service Scheduling](basics-service-service-scheduling.md)
-[Service Scheduling FAQ](service-scheduling-faq.md) 
+
+[Service Scheduling FAQ](service-scheduling-faq.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

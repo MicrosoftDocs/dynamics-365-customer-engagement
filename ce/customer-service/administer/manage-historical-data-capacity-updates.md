@@ -3,13 +3,15 @@ title: Delete historical data of agent capacity updates
 description: Learn how to delete historical data of agent capacity profile updates in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 03/16/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Delete historical data of agent capacity updates
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The history of updates to your agents' capacity profiles is stored in [Dataverse for Apps](/power-platform/admin/capacity-storage). To help you use your storage capacity efficiently, we recommend that you periodically delete the historical data.
 
@@ -18,6 +20,6 @@ The history of updates to your agents' capacity profiles is stored in [Dataver
 > [!CAUTION]
 > Deleted data can't be recovered. We recommend that you verify the data isn't required before you delete it.
 
-### See also
+### Related information
 
 [Manage capacity profiles](capacity-profiles.md)  

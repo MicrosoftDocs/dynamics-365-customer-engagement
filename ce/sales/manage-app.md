@@ -5,6 +5,7 @@ ms.date: 11/23/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -61,7 +62,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add site map entry to custom app](add-custom-site-map.md)
 

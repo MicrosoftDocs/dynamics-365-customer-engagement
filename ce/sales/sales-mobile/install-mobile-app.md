@@ -1,10 +1,11 @@
 ---
 title: Install the Dynamics 365 Sales mobile app on iOS and Android
 description: Instructions to install the Dynamics 365 Sales mobile app on iOS and Android
-ms.date: 02/27/2023
+ms.date: 06/13/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Install the app on iOS and Android 
@@ -36,8 +37,9 @@ If you are reading this document on your mobile device, you can install the app 
 
     ![Install the app on Android.](media/android-install-app.png "Install the app on Android")
 
-### See also
+## Related information
 
-[Configure mobile apps with Microsoft Intune](configure-app-intune.md)
+[Configure mobile apps with Microsoft Intune](configure-app-intune.md)<br>
+[Set up the Microsoft Authenticator app as your verification method](https://support.microsoft.com/en-us/account-billing/set-up-the-microsoft-authenticator-app-as-your-verification-method-33452159-6af9-438f-8f82-63ce94cf3d29)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

@@ -1,13 +1,16 @@
 ---
 title: Comply with the privacy laws and regulations | MicrosoftDocs
 description: Learn about privacy laws and regulations and how Unified Service Desk complies with them.
-ms.date: 04/24/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
+ms.custom: evergreen
 ---
+
 # Comply with privacy laws and regulations
 
 ## Introduction

@@ -5,6 +5,7 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 searchScope: 
@@ -43,7 +44,7 @@ Tracking your competitors and their strengths and weaknesses can help you win sa
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also  
+## Related information  
 
 [Help resources for Dynamics 365 Sales](help-hub.yml)
 

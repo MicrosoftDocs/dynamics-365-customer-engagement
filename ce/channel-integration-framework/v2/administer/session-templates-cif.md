@@ -1,10 +1,11 @@
 ---
-title: "Manage session templates using app profile manager | MicrosoftDocs"
-description: "Learn how to manage session templates in Dynamics 365 Channel Integration Framework 2.0."
+title: Manage session templates in Dynamics 365 Channel Integration Framework 2.0
+description: Learn how to manage session templates in Dynamics 365 Channel Integration Framework 2.0.
 ms.date: 12/18/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 searchScope: 
  - D365-App-msdyn_channelintegrationframeworkapp 
  - D365-Entity-msdyn_consoleapplicationsessiontemplate
@@ -16,9 +17,7 @@ searchScope:
 
 # Manage session templates in Dynamics 365 Channel Integration Framework 2.0
 
-## Overview
-
-Session templates are a combination of attributes and application tab information that are reusable. You can manage session templates in the app profile manager.
+Session templates are a combination of attributes and application tab information that are reusable. You can manage session templates in Customer Service admin center.
 
 When an agent accepts an incoming conversation request, a session is started. The system opens an application that you (an administrator) defined as **Anchor Tab** in the application tab panel. The **Anchor Tab** is not closable. Simultaneously, the system expands the communication panel for you to exchange messages with the customer. 
 
@@ -38,20 +37,17 @@ A session template is the place where, as an administrator, you need to define t
 
 ## Create a session template 
 
-To create or manage a session template, go to the app profile manager. For more information, see [Create a session template](../../../customer-service/administer/session-templates.md#create-a-session-template) in the app profile manager documentation.
+To create or manage a session template, go to the agent experience profile. For more information, see [Create a session template](../../../customer-service/administer/session-templates.md#create-a-session-template) in the agent experience profiles documentation.
 
 > [!NOTE]
-> Channel Integration Framework must be enabled to load generic session templates with the [createsession](../../../customer-service/develop/reference/methods/createSession.md) API.
+> Dynamics 365 Channel Integration Framework must be enabled to load generic session templates with the [createsession](../../../customer-service/develop/reference/methods/createSession.md) API.
 
 ## See also
 
-[App profile manager overview](../../../customer-service/administer/overview.md)
-
-[Manage application tab templates](application-tab-templates-cif.md)
-
-[Manage notification templates](notification-templates-cif.md)
-
-[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)
+[App experience management overview](../../../customer-service/administer/overview.md)  
+[Manage application tab templates](application-tab-templates-cif.md)  
+[Manage notification templates](notification-templates-cif.md)  
+[Use automation dictionary to pass data parameter keys](automation-dictionary-keys-cif.md)  
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

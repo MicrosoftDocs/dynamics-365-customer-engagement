@@ -2,7 +2,7 @@
 title: Extend Connected Field Service solutions
 description: "Connected Field Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
 ms.date: 03/15/2024
-ms.topic: article
+ms.topic: conceptual
 ms.author: vhorvath
 author: vhorvathms
 search.audienceType: 

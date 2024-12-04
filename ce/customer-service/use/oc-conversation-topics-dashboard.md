@@ -6,11 +6,12 @@ ms.topic: article
 author: gandhamm
 ms.collection: bap-ai-copilot
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Conversation Topics dashboard
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -90,7 +91,7 @@ The topics capability in the Customer Service historical analytics reports comes
 > While topic discovery is not prevented and still possible in languages that are not listed in this section, there might be differences in experience for users who use topics in unsupported languages.
 
 
-### See Also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

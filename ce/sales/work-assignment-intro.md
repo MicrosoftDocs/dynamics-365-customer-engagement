@@ -3,10 +3,10 @@ title: Work assignment overview
 description: Learn how work assignment in Dynamics 365 Sales helps prioritize records and assign them to sellers automatically with assignment rules and segments.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: overview
 ms.collection: get-started
-ms.date: 08/25/2023
+ms.date: 09/20/2024
 ms.custom:
 - bap-template
 - ai-gen-docs-bap
@@ -35,15 +35,11 @@ Work assignment is available in sales accelerator version 9.1.23074.10021 and is
 
 Work assignment automation is built around three components: *segments*, *sequences*, and *assignment rules*.
 
-- **Segments** categorize records based on specific criteria, such as location and source. For instance, you might have a segment for leads from trade shows in the United Kingdom.
-
-- **Sequences** are the steps that sellers follow as they progress through the sales journey. Defined sequences help new sellers be more effective faster. They make sure your entire sales team&mdash;from the most junior salesperson to veteran sellers&mdash;is on the same page.
-
-  Segments connect records to sequences. For instance, your sales process might be something like this: "If a lead comes from a trade show in the UK" (segment), always "follow up with an email within three business days" (sequence).
-
-- **Assignment rules** are sets of conditions that automatically assign matching records to sellers or sales teams. You can create assignment rules for opportunities, leads, and insights.
-
-  For instance, you might have a rule that assigns all leads from trade shows in the UK to your London sales team.
+- **Segments** categorize records based on specific criteria, such as location and source. For example, you might have a segment for leads from trade shows in India.  
+- **Sequences** are the steps that sellers follow as they progress through the sales journey. Defined sequences help new sellers be more effective faster. They make sure your entire sales team&mdash;from the most junior salesperson to veteran sellers&mdash;is on the same page.  
+  Segments connect records to sequences. For example, your sales process might be something like this: "If a lead comes from a trade show in the UK" (segment), always "follow up with an email within three business days" (sequence).  
+- **Assignment rules** are sets of conditions that automatically assign matching records to sellers or sales teams. You can create assignment rules for opportunities, leads, and insights.  
+  For example, you might have a rule that assigns all leads from trade shows in the UK to your London sales team.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
@@ -51,6 +47,6 @@ Work assignment automation is built around three components: *segments*, *sequen
 
 [Configure work assignment](wa-work-assignment-manage-settings.md).
 
-### See also
+## Related information
 
-- [Get seller insights to improve seller effectiveness](seller-insights-intro.md)
+[Get seller insights to improve seller effectiveness](seller-insights-intro.md)

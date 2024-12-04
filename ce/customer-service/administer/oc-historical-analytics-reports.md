@@ -1,16 +1,17 @@
 ---
 title: "Manage historical analytics reports in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
-ms.date: 11/17/2023
+ms.date: 6/14/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Manage historical analytics reports in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -33,55 +34,30 @@ The historical analytics reports include:
 
 Use the Customer Service admin center or Customer Service Hub app to enable or disable the Omnichannel historical analytics reports.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed.
-     1. Set the **Enable Omnichannel historical analytics report** toggle to **On** to enable the reports or set the toggle to **No** to disable the reports.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)] 
-    
-     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
-     1. Set the **Status** toggle to **Enabled** to enable the reports or set the toggle to **Disabled** to disable the reports.
-
+1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed.
+1. Set the **Enable Omnichannel historical analytics report** toggle to **On** to enable the reports or set the toggle to **No** to disable the reports.
 1. Select **Save** or **Save and Close**.
 
 This configuration also enables AI-discovered topics from conversations with default settings and historical analytics for unified routing.
 
 ## Enable historical analytics for unified routing in Omnichannel for Customer Service
 
-You can enable historical analytics for unified routing in the Customer Service admin center or Omnichannel admin center app. The metrics are available in the report after 24 hours.
+You can enable historical analytics for unified routing in the Customer Service admin center app. The metrics are available in the report after 24 hours.
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
-1. Go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Omnichannel historical analytics** section, select **Manage**.
-
-     The **Omnichannel historical analytics** page is displayed. Select the **Add historical analytics for unified routing** checkbox.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     2. In the **Historical analytics for unified routing** section, select **Manage**.
-
-      The **Historical analytics for unified routing** page appears. Toggle the **Status** to **Enabled**.    
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.	
+1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 
+1. Select the **Add historical analytics for unified routing** checkbox.  
 
 1. Select **Save** or **Save and Close**.
     
 The Unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for bots in Omnichannel for Customer Service
+## Enable historical analytics for Copilot Studio bots in Omnichannel for Customer Service
 
 In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Copilot Studio bots and Omnichannel conversation metrics.
 
@@ -108,28 +84,15 @@ The unified routing historical analytics report is available as a tab in the Omn
 
 ## Enable historical analytics for voice in Omnichannel for Customer Service
 
-You can enable the historical analytics dashboard for voice in the Customer Service admin center or Omnichannel admin center app. The metrics are available in the dashboard 24 hours after you enable historical analytics.
+You can enable the historical analytics dashboard for voice in the Customer Service admin center app. The metrics are available in the dashboard 24 hours after you enable historical analytics.
 
 > [!IMPORTANT]
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for unified routing.
 
-1. Go to one of the apps, and perform the following steps.
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-     1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
-     1. In the **Omnichannel historical analytics** section, select **Manage**.
-
-     The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.      
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-     1. In the site map, select **Settings** in **Insights**. The **Insights** page appears.
-     2. In the **Historical analytics for unified routing** section, select **Manage**.
-
-      The **Historical analytics for voice** page appears. Toggle the **Status** to **Enabled**.
-
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears
+1. In the **Omnichannel historical analytics** section, select **Manage**.
+1. The **Omnichannel historical analytics** page appears. Select the **Add historical analytics for voice** checkbox.
 1. Select **Save** or **Save and Close**.
 
 The historical analytics for voice dashboard are available as a tab in the Omnichannel historical analytics report.
@@ -165,7 +128,7 @@ If you customized the Customer Service workspace app, you must complete the foll
     - **Outlook shortcut**: **Offline availability**.
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Dashboard Overview](../use/customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  

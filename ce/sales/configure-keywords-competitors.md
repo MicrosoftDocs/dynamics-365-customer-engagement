@@ -6,7 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: 
+ms.reviewer: lavanyakr
 ms.suite: 
 ms.tgt_pltfrm: 
 caps.latest.revision: 1
@@ -51,7 +51,7 @@ Configure tracked keywords and competitors that are relevant to you and your org
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Administer conversation intelligence](./intro-admin-guide-sales-insights.md)  
 

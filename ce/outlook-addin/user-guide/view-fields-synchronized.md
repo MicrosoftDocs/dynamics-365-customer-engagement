@@ -3,7 +3,7 @@ title: "View the fields that are synchronized between Dynamics 365 apps and Dyna
 description: Learn how to view the fields that are synchronized between Dynamics 365 apps and Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 2c5b04cc-25b5-42bc-8004-0f3c87c8516f
 caps.latest.revision: 20
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer
@@ -52,13 +52,12 @@ In [!INCLUDE[pn_crm_2015_outlook](../../includes/pn-crm-2015-outlook.md)] or lat
     [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] fields are displayed on the left and the corresponding [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] fields are displayed on the right. The blue arrows show the sync direction:  
 
 
-   |                                                                                                                                   |                                                                                                                                                            |
-   |-----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |                                                        **This indicator**                                                         |                                                                 **Shows that the fields**                                                                  |
-   | ![One-way sync arrow (right) in Dynamics 365 apps](../media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365 apps") | Are synced one way from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] |
-   |  ![One-way sync arrow (left) in Dynamics 365 apps](../media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365 apps")   | Are synced one way from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] |
-   |            ![Two-way sync arrow in Dynamics 365 apps.](../media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365 apps")            |                                                                     Are synced two way                                                                     |
-   |       ![No synchronization arrow for Dynamics 365 apps.](../media/no-sync-arrow.png "No synchronization arrow for Dynamics 365 apps")        |                                                                       Aren’t synced                                                                        |
+  |      This indicator        |        Shows that the fields     |
+  |--------|------|
+  | ![One-way sync arrow (right) in Dynamics 365 apps](../media/one-way-sync-arrow-right.png "One-way sync arrow (right) in Dynamics 365 apps") | Are synced one way from [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] |
+  |  ![One-way sync arrow (left) in Dynamics 365 apps](../media/one-way-sync-arrow-left.png "One-way sync arrow (left) in Dynamics 365 apps")   | Are synced one way from [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] to [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] |
+  |            ![Two-way sync arrow in Dynamics 365 apps.](../media/two-way-sync-arrow.png "Two-way sync arrow in Dynamics 365 apps")            |                                                                     Are synced two way                                                                     |
+  |       ![No synchronization arrow for Dynamics 365 apps.](../media/no-sync-arrow.png "No synchronization arrow for Dynamics 365 apps")        |                                                                       Aren’t synced                                                                        |
 
    > [!NOTE]
    >  Field synchronization direction can be impacted by security settings configured by your system administrator. For example, if you don’t have read privileges for a field, it won’t be synchronized in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] even if the field is configured for two-way synchronization. To determine whether you have read privileges for a field, click the **View in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** button to open the record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]. If you see the **Lock** icon, you can’t access the field.  

@@ -5,6 +5,7 @@ ms.date: 03/23/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_channelcapability Entity Reference
 
@@ -609,7 +610,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_conversationaction Entity [msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction](msdyn_conversationaction.md#BKMK_msdyn_msdyn_conversationaction_msdyn_channelcapability_ConversationAction) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

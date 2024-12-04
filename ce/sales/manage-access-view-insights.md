@@ -3,7 +3,7 @@ title: Manage access to view insights
 description: Learn how to restrict the access to seller insights to a specific security group in your organization.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
 ms.date: 06/09/2023
@@ -38,7 +38,7 @@ By default, all security roles in your organization have permission to view sell
 
 1. Select **Publish**.
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Get intelligent insights to improve sales](seller-insights-intro.md)

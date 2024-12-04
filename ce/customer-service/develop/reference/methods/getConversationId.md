@@ -5,7 +5,7 @@ ms.date: 02/18/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # getConversationId
 
@@ -29,7 +29,7 @@ Returns a promise resolved with currently ongoing conversation ID.
 
 `Microsoft.Omnichannel.getConversationId();`
 
-### See also
+### Related information
 
 [Live chat SDK reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

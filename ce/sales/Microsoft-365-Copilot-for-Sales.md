@@ -1,7 +1,7 @@
 ---
-title: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
+title: FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
 description: Discover how to use Microsoft 365 Copilot to chat with Sales data and ask questions in natural language.
-ms.date: 11/13/2023
+ms.date: 11/29/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -10,12 +10,12 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
 ---
 
-# FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
+# FAQ about chat with Sales data on Microsoft 365 Copilot (preview)
 
 > [!IMPORTANT]
 > Some or all of the functionality noted in this article is available as part of a preview release. The content and the functionality are subject to change.
@@ -28,7 +28,7 @@ A Microsoft 365 Copilot license enables authorized users to engage in a natural-
 
 - What are the opportunities for account Adventure Works?
 
-Microsoft 365 Copilot summarizes the information that's spread across emails, chats, and documents, and reconciles it with the relevant data that resides inside Dataverse. The reconciled summary is presented as the response to the user.
+Microsoft 365 Copilot summarizes the information that is spread across emails, chats, and documents, and reconciles it with the relevant data that resides inside Dataverse. The reconciled summary is presented as the response to the user.
 
 :::image type="content" source="media/m365-copilot.png" alt-text="Screenshot showing chat with Microsoft 365 Copilot.":::
 
@@ -38,7 +38,7 @@ Data that resides inside tables is referred to as *structured data*. Data that's
 
 ## What are the scenarios available out-of-the-box?
 
-A user can inquire about Account, Contact, Lead, Opportunity, Quote, Order and Case tables. 
+A user can inquire about Account, Contact, Lead, Opportunity, Quote, Order, and Case tables. 
 
 Example questions: 
 
@@ -82,14 +82,14 @@ Microsoft 365 Copilot is available only for en-us language settings.
 
 ## Best practices
 
-When you use Microsoft 365 Copilot to chat with Dynamics 365 Sales data, follow these best practices. These are revised continuously to improve the product experience. 
+When you use Microsoft 365 Copilot to chat with Dynamics 365 Sales data, follow these best practices. These best practices are revised continuously to improve the product experience. 
 
-- Be specific with your question to copilot and avoid ambiguity. If your question is about an account, then use the keyword "account" in your question. For example, don't ask, "Who is the primary contact for Adventure Works?" Instead, ask, "Who is the primary contact for account Adventure Works?".
+- Be specific with your question to copilot and avoid ambiguity. If your question is about an account, then use the keyword "account" in your question. For example, don't ask, "Who is the primary contact for Adventure Works?" Instead, ask, "Who is the primary contact for account Adventure Works?"
 
 - Be specific about the expected outcomes. If you want results in table format, then use the key phrase "in table format". If you want a consolidated result or a summary, make sure you call it out explicitly. For example, you can ask, "List all accounts in table format."
 
-- If you know the name or label that's associated with the required data in the Sales app, use that name when you search, to make the search easier. For example, you can ask, "Who is the primary contact for account Adventure Works?". 
+- If you know the name or label that is associated with the required data in the Sales app, use that name when you search, to make the search easier. For example, you can ask, "Who is the primary contact for account Adventure Works?". 
 
 - Use letter casing correctly:
     - Use lower case for field or attribute names, like 'primary contact', 'record owner'. Capital cased words are more likely to be treated as literals. 
-    - If you're unsure about the spelling about a string literals, try using lower case letters so that spelling correction is more likely to kick in. Words with capital letters are more likely to be treated as special names and might not be spell checked. 
+    - If you're unsure about the spelling about a string literal, try using lower case letters so that spelling correction is more likely to kick in. Words with capital letters are more likely to be treated as special names and might not be spell checked. 

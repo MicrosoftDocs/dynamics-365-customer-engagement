@@ -6,6 +6,7 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Analyze behavior of your team on customer calls 
 
@@ -45,7 +46,7 @@ Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of conversation intelligence](dynamics365-sales-insights-app.md)  
 [First-run set up experience](fre-setup-sales-insight-app.md)  

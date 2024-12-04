@@ -5,12 +5,15 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # How to set up unified routing
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 In this article, we'll take you through the high-level process of configuring unified routing in Customer Service.
 
@@ -67,7 +70,7 @@ Optionally, you can configure the following settings.
 |Configure and publish the skill model to use machine learning work classification. More information: [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)|To route records and work items from channels|
 |Configure capacity profile to use capacity profile-based classification. More information: [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels|
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

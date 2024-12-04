@@ -3,10 +3,10 @@ title: FAQ on agent presence in Customer Service
 description: Find answers to the most commonly asked questions on agent presence and how presence is calculated.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.topic: faq
 ms.collection:
-ms.date: 01/31/2024
+ms.date: 04/30/2024
 ms.custom: bap-template
 ---
 
@@ -46,6 +46,10 @@ See [how presence status is updated](oc-manage-presence-status.md#how-presence-s
 
 See the [prerequisites](oc-manage-presence-status.md#prerequisites) that are required for the presence status to load correctly.
 
+## Can I view agent custom presence statuses in reports?
+
+Yes, you can view agent custom presence statuses in the agent report for Omnichannel real-time analytics and Omnichannel historical analytics.
+
 ## Next steps
 
-[Manage presence in Customer Service](oc-manage-presence-status.md)  
+[Manage presence in Customer Service](oc-manage-presence-status.md)

@@ -1,99 +1,92 @@
 ---
 title: Relationship analytics KPI calculations 
-description: Learn how the relationship analytics KPIs are calculated.   
+description: Learn how relationship analytics KPIs are calculated in Dynamics 365 Sales.   
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: conceptual 
-ms.date: 02/07/2023
+ms.date: 07/25/2024
 ms.custom: bap-template
 ---
-# Relationship analytics KPI calculations 
 
-Relationship analytics values are derived from a careful analysis of the many related people, activities, companies, appointments, and emails stored on your [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] and [!INCLUDE[pn_Microsoft_Exchange](../includes/pn-microsoft-exchange.md)] servers. Exchange data is only available for Sales Premium customers. 
+# Relationship analytics KPI calculations
 
-More information: [View relationship analytics and KPIs](relationship-analytics.md)
+Relationship analytics values are derived from an analysis of the related people, activities, companies, appointments, and emails stored in Dynamics 365 Sales and, for Sales Premium customers, Exchange servers. [View relationship analytics and KPIs](relationship-analytics.md).
 
-## How relationship analytics KPIs are calculated?
+The following diagram summarizes the process for finding and calculating relationship scores:
 
-The process for finding and calculating the scores is summarized in the following flow chart.  
-
-![How relationship analytics are calculated](media/how-relationship-analytics-are-calculated.png "How relationship analytics are calculated")  
+:::image type="content" source="media/how-relationship-analytics-are-calculated.png" alt-text="Block diagram illustrating the components of relationship analytics calculations.":::
 
 The following sections describe the function of each block in the flow chart.  
 
-### Step 1: Find contacts of interest for the record
+## Find contacts of interest for the record
 
-Relationship analytics is concerned with activities performed by the *people* associated with a given record. The first step in finding the relevant activities is to find out which contacts to include in the analysis. Relationship analytics also provides time-spent values for you, your team, and your customer's team, so the identity of who did what is important throughout the process.  
+Relationship analytics is concerned with activities performed by the *people* associated with a given record. The first step in finding relevant activities is to determine which people to include in the analysis. Relationship analytics also provides time-spent values for you, your team, and your customer's team, so the identity of who did what is important throughout the process.  
 
-This table shows how the system finds contacts that have an interest in each type of record. Later, the system will look for activities associated with each contact and decide which of those activities should be included in KPI calculations for that record.  
+The following table describes how the system finds contacts that have an interest in each type of record. Later, the system looks for activities associated with each contact and decides which ones should be included in KPI calculations for that record.  
 
-|  Records | Internal contacts  |  External contacts |
+| Records | Internal contacts | External contacts |
 |----------|--------------------|--------------------|
-|  Account  | -  Any [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] user.|-  The **Primary Contact** for the account.<br />-  All contacts in the account's **Contacts** list. |
-| Opportunity | -  The **Owner** of the opportunity record.<br />-  All users in the opportunity's **Sales Team** list. | -  The customer **Contact** listed for the opportunity.<br />-  All contacts in the opportunity's **Stakeholders** list.<br />-  The primary contact for the related **Account** record. |
-|  Lead   | -  The **Owner** of the lead record. | -  Contact information in the lead's **Contact** section.<br />-  All contacts in the lead's **Stakeholders** list. |
-|  Contact  | -  Any [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] user. | -  Contact information in the contact's **Contact** section.|
+| Account | Any Dynamics 365 Sales user | - The **Primary Contact** for the account<br/>- All contacts in the account's **Contacts** list |
+| Opportunity | - The **Owner** of the opportunity record<br/>- All users in the opportunity's **Sales Team** list | - The customer **Contact** listed for the opportunity<br/>- All contacts in the opportunity's **Stakeholders** list<br/>- The primary contact for the related **Account** record |
+| Lead  | The **Owner** of the lead record | - Contact information in the lead's **Contact** section<br/>- All contacts in the lead's **Stakeholders** list |
+| Contact | Any Dynamics 365 Sales user | Contact information in the contact's **Contact** section |
 
-### Step 2: Link activities to the record
+## Link activities to the record
 
-Once the system has identified contacts of interest, it looks for activities associated with each contact and then identifies which activities to include in the relationship analytics for the record you are looking at. It identifies relevant activities as follows:  
+After the system has identified contacts of interest for the record, it looks for activities associated with each contact and then identifies which ones to include in the relationship analytics. It identifies relevant activities as follows:  
 
-- **Regarding records.** Any activity that has its **Regarding** value set to the current record is explicitly assigned to it and will always be included in its relationship analytics, even if that activity isn't also associated with a contact of interest.  
-- **Email messages.** Includes all metadata from messages where the email address (or a reference to the contact record) for a contact of interest is shown in the **To**, **Cc**, or **From** field.  
-- **Appointments.** Includes all metadata from appointments where a contact of interest is shown in the **Required** or **Optional** fields.  
-- **Phone calls.** Includes all calls where  a contact of interest is shown in the **From** or **To** fields.  
+- **Regarding records:** Any activity that has its **Regarding** value set to the current record is explicitly assigned to it and is always included in its relationship analytics, even if that activity isn't also associated with a contact of interest.  
+- **Email messages:** Includes all metadata from messages where the email address (or a reference to the contact record) of a contact of interest appears in the **To**, **Cc**, or **From** box.  
+- **Appointments:** Includes all metadata from appointments where a contact of interest appears in the **Required** or **Optional** box.  
+- **Phone calls:** Includes all calls where a contact of interest appears in the **From** or **To** box.  
 
-### Examples of how relevant activities are identified
+Here are a few examples of how relevant activities are identified:  
 
-Here are a few examples of how the rules outlined in the previous sections might be applied:  
+- If you're assigned to a lead and you register a phone call activity with one of the stakeholders for the lead, then the phone call is counted in the KPIs for the lead. Other users who call the same stakeholder, but who aren't assigned to the lead, aren't counted in the lead's KPIs.  
+- If you're on the sales team for an opportunity and you send an email regarding the opportunity to one of its stakeholders, then the email metadata is counted in the KPIs for the account. Emails to the same stakeholder from other users who aren't on the account team aren't counted for that opportunity.  
+- If you attend a meeting with the primary contact for an account, then the metadata about the appointment is counted in the KPIs for the account and for the contact. If the account is also associated with an opportunity, the appointment only counts for the opportunity if you're also **Assigned** to the opportunity, or are on its **Sales Team**, and if the appointment is set as **Regarding** that opportunity.
 
-- If you are assigned to a lead and register a phone call activity with one of the stakeholders for that lead, then that phone call will be counted in the KPIs for that lead. Other users who call that same stakeholder, but who are not assigned to the lead, will not have their calls counted in the KPIs for that lead.  
-- If you are on the sales team for an opportunity and send an email regarding that opportunity to one of its stakeholders, then the metadata about that email will be counted in the KPIs for that account. An email from another user, who isn't on the team for that account, to that same stakeholder will not be counted for that opportunity.  
-- If you attend a meeting with the primary contact for an account, then the metadata about that appointment will be counted in the KPIs for that account and for that contact. If that account is also associated with an opportunity, the appointment will only count for that opportunity if you are also **Assigned** to that opportunity (or are on its **Sales Team**) and if the appointment is set as **Regarding** that opportunity.  
+## Compute relationship analytics KPIs
 
-### Step 3: Compute relationship analytics KPIs
+After the system has found all the relevant activities, it's ready to calculate the KPIs and other analytics for each record. The following table summarizes the KPIs that are available.
 
-After the system has found all the relevant activities, it's ready to calculate the KPIs and other analytics for each record. The following table summarizes the KPIs that are available.  
-
-|Activity type|Initiated or completed by your team|Initiated or completed by the customer's team|  
+| Activity type | Initiated or completed by your team | Initiated or completed by the customer's team |  
 |-------------|-----------------------------------------|---------------------------------------------------|  
-|Emails|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)<br /><br /> Number of replies<br /><br /> Interaction results for followed emails (opens, attachment views, and link views)|  
-|Appointments|Total number<br /><br /> Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of  team members  present)<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent (not multiplied by the number of customer contacts that were present)<br /><br /> Time line (number per week)|  
-|Phone calls|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|Total number<br /><br /> Total time spent<br /><br /> Time line (number per week)|  
-|Overall (all activities)|Total time spent|Total time spent|  
+| Emails | Total number<br/>Total time spent<br/>Time line (number per week)<br/>Number of replies | Total number<br/>Total time spent<br/>Time line (number per week)<br/>Number of replies<br/>Interaction results for followed emails (opens, attachment views, and link views) |  
+| Appointments | Total number<br/>Total time spent by your team (if several team members were present at an appointment, then the duration is multiplied by the number of team members present)<br/>Time line (number per week) | Total number<br/>Total time spent (not multiplied by the number of customer contacts that were present)<br/>Time line (number per week) |  
+| Phone calls | Total number<br/>Total time spent<br/>Time line (number per week) | Total number<br/>Total time spent<br/>Time line (number per week) |  
+| Overall (all activities) | Total time spent | Total time spent |  
 
 > [!NOTE]
-> Email interaction statistics are only provided for *followed emails*, which requires you to use the *email engagement* feature. For more information about how to create and send followed emails, see [Use email engagement to view message interactions](email-engagement.md).
+> Email interaction statistics are only provided for followed emails, which requires you to use the email engagement feature. [Learn how to use email engagement to view message interactions](email-engagement.md).
 
-For KPIs that report your team and your customer, the system finds durations by applying the rules outlined in the following table:  
+For KPIs that report your team and your customer, the system finds durations by applying the rules outlined in the following table.
 
-|Activity type|Source of duration value|  
+| Activity type | Source of duration value |  
 |-------------------|------------------------------|  
-|Appointments|**Duration** field for the appointment record|  
-|Calls|**Duration** field for the phone call record|  
-|Emails|Estimated (2.5 minutes to read, 5 minutes to write)|  
-|Other|**Duration** field for each record|  
+| Appointments | **Duration** field for the appointment record |  
+| Calls | **Duration** field for the phone call record |  
+| Emails | Estimated (2.5 minutes to read, 5 minutes to write) |  
+| Other | **Duration** field for each record |  
 
-> [!TIP]
-> The time calculations for appointments are a bit special. The details are given in the previous tables, but here's an example to illustrate it.  <br/
-> 
-> If you hold an appointment where three members of your team (including you) meet with two members of your customer's team, and the appointment lasts for 30 minutes, then that appointment contributes to your time KPIs as follows:
-> - **Time spent by my team**: *90 minutes* (30 minutes × 3 team members present)
-> - **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)
+Here's an example of how the duration KPI is calculated for appointments. You hold an appointment where you and two members of your team meet with two members of your customer's team. The appointment lasts 30 minutes. The appointment contributes to your time KPIs according to the following calculations:
 
-### Step 4: Compute the relationship health and health trend
+- **Time spent by your team**: *90 minutes* (30 minutes × 3 team members present)
+- **Time spent by the customer**: *30 minutes* (time isn't multiplied by customer participants)
 
-The overall relationship health score is calculated by collecting the relevant activities, and weighting the activity by type (which enables your admin to set some types of activities to count more than others). The result is normalized to produce a health score between 0 and 100, and the health characterized as *good* (for a score of 60-100), *fair* (40-59) or *poor* (0-39).  
+## Compute the relationship health and health trend
 
-**Note**: 
+The overall relationship health score is calculated by weighting relevant activities by type. The result is normalized to produce a health score between 0 and 100, with the health of the relationship characterized as *good* (a score of 60-100), *fair* (40-59) or *poor* (0-39).  
 
-- Health scores are computed for leads if they are in an active state. This stops once they reach a qualified or disqualified state.
-- Health scores are computed for opportunities if the opportunity is open and ignored if it’s won or lost.
-- Health scores are computed for contacts irrespective of their state.  
+- Health scores are computed for active leads. Leads that are in a qualified or disqualified state are ignored.
+- Health scores are computed for open opportunities. Opportunities that are won or lost are ignored.
+- Health scores are computed for contacts regardless of their state.  
 
-Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same, but your admin can increase or decrease the contribution of each type by up to 50 percent. In addition, your admin can choose how often salespeople should contact a customer (such as once a week); this setting also affects the health score.  
+Your administrator can choose which types of activities are most relevant for your business. By default, all types of activities count the same. Your admin can make some types of activities count more than others by increasing or decreasing the contribution of a type by up to 50 percent.
 
-![Relationship health weightings and frequency settings](media/relationship-analytics-settings-bottom.png "Relationship health weightings and frequency settings")  
+In addition, your admin can choose how often salespeople should contact a customer, such as once a week. This setting also affects the health score.
 
-In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to indicate a recent increase or decrease  in activity.  
+:::image type="content" source="media/relationship-analytics-settings-bottom.png" alt-text="Screenshot of relationship health weightings and frequency settings.":::
+
+In addition to the absolute health score, the system also reports the general trend (up, down, or neutral) based on the number and value of recent activities. The trend direction updates relatively slowly, so it might take a little while to reflect a recent increase or decrease in activity.

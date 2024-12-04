@@ -1,12 +1,15 @@
 ---
 title: Get started with in-app marketing
 description: Learn how to promote your business and improve sales with targeted marketing campaigns in Dynamics 365 Sales.
-ms.date: 06/20/2022
+ms.date: 06/20/2024
 ms.collection: get-started
 ms.topic: overview
-ms.custom: bap-template
+ms.custom: 
+  - bap-template
+  - evergreen
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -83,7 +86,7 @@ When a member selects the unsubscribe link, the **Marketing Materials** setting 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
   
-### See also
+## Related information
 
 [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
 [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   

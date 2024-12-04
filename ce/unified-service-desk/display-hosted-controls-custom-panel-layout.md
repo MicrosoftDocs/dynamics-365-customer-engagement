@@ -1,15 +1,15 @@
 ---
 title: "Display hosted controls in the custom panel layout | MicrosoftDocs"
 description: "Learn about specifying the custom panel layout as the display group for your hosted controls by using a syntax."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Display hosted controls in the custom panel layout
 After you have created and loaded a custom panel layout in [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)], you will need to specify the custom panel layout as the display group for your hosted controls. This is done using a special syntax:  

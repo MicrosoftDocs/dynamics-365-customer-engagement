@@ -5,6 +5,7 @@ ms.date: 12/19/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 ---
@@ -3290,7 +3291,7 @@ See systemuser Table [lk_systemuserbase_createdby](#BKMK_lk_systemuserbase_creat
 
 See systemuser Table [lk_systemuser_createdonbehalfby](#BKMK_lk_systemuser_createdonbehalfby) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
 <xref href="Microsoft.Dynamics.CRM.systemuser?text=systemuser EntityType" />

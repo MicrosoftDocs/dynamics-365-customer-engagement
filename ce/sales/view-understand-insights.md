@@ -3,7 +3,7 @@ title: View and work on seller insights
 description: The seller insights feature displays contextual and intelligent insights about Dynamics 365 Sales records, based on specific criteria.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
 ms.date: 06/09/2023
@@ -96,7 +96,7 @@ Select the **Filter** button on the work list command bar, and then select the f
 
 You can also create custom filters for insights. For more information, go to [Custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Get intelligent insights to improve sales](seller-insights-intro.md)

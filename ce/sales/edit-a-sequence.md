@@ -5,6 +5,7 @@ ms.date: 08/01/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Clone and edit a sequence 
 
@@ -61,7 +62,7 @@ Cloning a sequence makes it easier to add or remove steps, and save the changes 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)
 

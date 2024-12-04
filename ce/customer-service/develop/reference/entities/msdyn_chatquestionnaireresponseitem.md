@@ -5,6 +5,7 @@ ms.date: 08/31/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -736,7 +737,7 @@ See msdyn_chatquestionnaireresponse Entity [msdyn_msdyn_chatquestionnairerespons
 
 See msdyn_surveyquestion Entity [msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem](msdyn_surveyquestion.md#BKMK_msdyn_msdyn_surveyquestion_msdyn_chatquestionnaireresponseitem) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

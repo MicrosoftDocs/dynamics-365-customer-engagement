@@ -5,6 +5,7 @@ ms.date: 11/01/2021
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - developer
 ---
@@ -645,7 +646,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
 [About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

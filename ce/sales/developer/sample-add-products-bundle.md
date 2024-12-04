@@ -2,10 +2,10 @@
 title: "Sample: Add products to a bundle (Dynamics 365 Sales)"
 description: Sample demonstrates how to add products to a product bundle.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
@@ -46,7 +46,7 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Displays an option to delete all the data created in the sample. The deletion is optional in case you want to examine the data created by the sample. You can manually delete the data to achieve same results.  
   
-### See also
+## Related information
 
  [Create and manage product families, products and bundles](create-manage-product-families-products-bundles-product-properties.md)  
  [Product catalog tables](product-catalog-entities.md)  

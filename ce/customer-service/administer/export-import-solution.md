@@ -1,10 +1,11 @@
 ---
 title: Enable calendar export and import with SLAs
 description: Enable the export or import of a calendar with its corresponding SLAs from the Customer Service admin center or Customer Service Hub app.
-ms.date: 02/14/2024
+ms.date: 12/03/2024
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
@@ -25,32 +26,24 @@ You can replicate the SLA settings in another environment by exporting the solut
 
 ## Export or import a calendar with SLAs
 
-You can enable the export or import of a calendar either from the Customer Service admin center or Customer Service Hub app.
+You can enable the export or import of a calendar from the Customer Service admin center app.
 
-1. Go to one of the apps and perform the following steps:
+1. In the site map of Customer Service admin center, select **Service terms** in **Operations**. The **Service Terms** page appears.
 
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
+1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
 
-    1. In the site map, select **Service terms** in **Operations**. The **Service Terms** page appears.
-    1. In the **Other SLA Settings** section, select **Manage**. The **Service Configuration Settings** page appears.
-
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - In the site map, go to **Service Management** and select **Service Configuration Settings** in **Service Terms**. The **Service Configuration Settings** page appears.
-   
 1. On the **Service Configuration Settings** page, go to the **Calendar Export and Import** section and set the **Enable calendar export and import** toggle to **Yes**. By default, the option is set to **No**.
 1. Select **Save**.
 
 > [!IMPORTANT]
+> - You can import and export calendars attached with SLA items from Unified Interface. Calendars attached with SLA solutions in legacy SLAs won't be exported directly. If you are using SLAs after migrating from legacy to Unified Interface, you must first attach calendars with the SLA item on Unified Interface and then export calendars with the SLA solution.
 > - When you delete a solution that contains SLAs, the SLAs are also deleted. However, their corresponding calendars aren't deleted.
 > - Calendars, when imported to the target organization, are editable. However, we recommend that you make any changes to the calendar through the solution import or export process.
 > - Calendars are overwritten when a solution is imported. So, the calendar in the latest solution that's being imported will overwrite existing customizations or settings on the current calendar in the target environment.
 > - Exported calendars will be present in XML format in the Calendars folder within the exported solution.
 > - SLA Items will automatically be linked to the corresponding imported calendars on import.
 
-## Recommended procedure for upgrading a solution
+## Recommended procedure to upgrade a solution
 
 We recommend that you perform the following steps to upgrade a solution:
 
@@ -58,7 +51,7 @@ We recommend that you perform the following steps to upgrade a solution:
 2. Upgrade your solution.
 3. After the solution is successfully upgraded, activate the SLAs as required.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

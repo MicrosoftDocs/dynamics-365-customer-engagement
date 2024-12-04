@@ -1,19 +1,21 @@
 ---
 title: Configure assignment methods for queues
-description: Contains steps on how to configure the different assignment methods for queues in Customer Service and Omnichannel for Customer Service.
-ms.date: 03/21/2024
+description: Contains steps on how to configure the different assignment methods for queues in your contact center.
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Configure assignment methods and rules for queues
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 After creating queues, if you want to use custom assignment methods, you'll create assignment rulesets comprising rules.
 
-You can create the custom assignment methods in the Customer Service admin center app.
+You can create the custom assignment methods in the admin center app.
 
 In unified routing, the process of creating assignment rulesets involves the following steps:
 
@@ -111,7 +113,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 
 4. Define as many rules as the number of assignment rulesets.
 
-### See also
+### Related information
 
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  

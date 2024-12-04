@@ -3,13 +3,14 @@ title: "Configure agent experience profiles | MicrosoftDocs"
 description: "Learn how to create and manage agent experience profiles for customized agent experiences."
 author: gandhamm
 ms.author: mgandham
-ms.date: 02/02/2023
+ms.reviewer: mgandham
+ms.date: 07/01/2024
 ms.topic: article
 ---
 
 # Create and use agent experience profiles
 
-[!INCLUDE[cc-omnichannel-administration-deprecation-note.md](../../includes/cc-omnichannel-administration-deprecation-note.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 By default, the following agent experience profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified.  When you don't assign a custom profile to an agent, the default profile is assigned.
 
@@ -17,13 +18,13 @@ By default, the following agent experience profiles are available out of the box
 - Customer Service workspace - default profile
 - Customer Service workspace + channels - default profile
 
-You can configure agent experience profiles in Customer Service admin center or app profile manager. The app profile manager can be accessed through Power Apps. 
+You can configure agent experience profiles in Customer Service admin center. 
 
 ## Prerequisites
 
-Make sure you have the App Profile Manager Administrator role. More information: [Security roles](security-roles.md)
+- Make sure you have the App Profile Manager Administrator role. More information: [Security roles](security-roles.md)
 
-The Basic User role is also required to create profiles in Customer Service admin center.
+- The Basic User role is required to create profiles in Customer Service admin center.
 
 ## Create agent experience profiles in Customer Service admin center
 
@@ -70,7 +71,7 @@ For the profile that you created, you can add users and configure option such as
 For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in agent experience profiles. By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features. For more information, See: [Make Copilot available to agents](configure-copilot-features.md#make-copilot-available-to-agents)
 
 
-### See also
+### Related information
 
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  

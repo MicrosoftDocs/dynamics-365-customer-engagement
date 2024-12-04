@@ -5,6 +5,7 @@ ms.date: 10/26/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -48,7 +49,7 @@ You can also manually configure your columns for a fully customized forecast. Fo
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Create or edit an opportunity](create-edit-opportunity-sales.md)  
 

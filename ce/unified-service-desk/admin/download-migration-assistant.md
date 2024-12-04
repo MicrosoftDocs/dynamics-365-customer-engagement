@@ -1,15 +1,14 @@
 ---
 title: "Download the Web Client - Unified Interface Migration Assistant | MicrosoftDocs"
 description: "Download Web Client - Unified Interface Migration Assistant to migrate your Unified Service Desk configurations from the legacy web client to Unified Interface"
-ms.date: 07/30/2018
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 
 # Download Migration Assistant to migrate Unified Service Desk configurations from the legacy web client to Unified Interface

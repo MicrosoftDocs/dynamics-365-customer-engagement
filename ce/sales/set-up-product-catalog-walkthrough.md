@@ -1,10 +1,11 @@
 ---
-title: Set up a product catalog  Walkthrough (contains video)
+title: Set up a product catalog  Walkthrough
 description: Make it easier for your sales reps to increase their sales by creating a product catalog in Dynamics 365 Sales.
-ms.date: 10/18/2023
+ms.date: 10/16/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
   - bap-template
@@ -61,7 +62,7 @@ Watch this video to understand the components of a product catalog and how to se
 
 :::image type="content" source="media/v7-set-up-product-catalog.png" alt-text="A flow diagram depicting the different steps in setting the product catalog":::
 
-### See Also
+## Related information
  [Create a product family](create-product-family.md)  
  [Learn the basics of [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]](user-guide-learn-basics.md)
 

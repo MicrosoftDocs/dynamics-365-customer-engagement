@@ -2,20 +2,22 @@
 title: "How to deploy Dynamics 365 App for Outlook | MicrosoftDocs"
 ms.custom: 
 description: How to deploy and install Dynamics 365 App for Outlook
-ms.date: 12/14/2021
-ms.reviewer: jimholtz
+ms.date: 04/17/2024
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: get-started
 applies_to: Dynamics 365 apps
 ms.assetid: 09736e14-e744-48ca-a755-1b05bb55340e
 caps.latest.revision: 39
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
   - enduser
+ms.contributors:
+- stephankline
 ---
 
 
@@ -174,7 +176,9 @@ App for Outlook also requires server-side synchronization to be properly configu
 Follow these steps to push Dynamics 365 App for Outlook to selected users, all users, or have users install it themselves as needed.
 
 > [!IMPORTANT]
-> For environments in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) an administrator can get the App for Outlook solution from Microsoft AppSource. After signing in to AppSource, choose the the environment that you want to to install App for Outlook. For more information, see [Microsoft Dynamics 365 App for Outlook](https://appsource.microsoft.com/product/dynamics-365/mscrm.fa50aa98-e8bb-4757-83ce-6d607959b985).
+> For environments in [Microsoft Dataverse](/powerapps/maker/common-data-service/data-platform-intro) an administrator can get the App for Outlook solution from Microsoft AppSource. After signing in to AppSource, choose the the environment that you want to install App for Outlook. For more information, see [Microsoft Dynamics 365 App for Outlook](https://appsource.microsoft.com/product/dynamics-365/mscrm.fa50aa98-e8bb-4757-83ce-6d607959b985).
+>
+> Your Dataverse organization must have a Dataverse store for the AppSource install to succeed.
 
 1. To push the app to your users, from your app, go to **Settings** > **Advanced Settings**.
 

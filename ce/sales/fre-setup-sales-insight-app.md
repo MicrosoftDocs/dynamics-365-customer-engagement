@@ -5,6 +5,7 @@ ms.date: 09/08/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
@@ -12,6 +13,9 @@ ms.custom:
 ---
 
 # Set up the conversation intelligence app
+
+> [!IMPORTANT]
+> Starting June 2024, Conversation intelligence will use Microsoft Azure OpenAI Service to process call data and transcripts. If your Dynamics 365 Sales organization is in a region where Azure OpenAI Service isn't available, your call data and transcripts will be processed in the nearest region where Azure OpenAI Service is available.
 
 As an administrator, connect the conversation intelligent app to your Dynamics 365 Sales organization to fetch call data and enable sellers to view call insights. 
 
@@ -45,7 +49,7 @@ The Conversation intelligence app is now ready to use. Managers and sellers can 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Conversation Intelligence FAQs](faq-conversation-intelligence.md)

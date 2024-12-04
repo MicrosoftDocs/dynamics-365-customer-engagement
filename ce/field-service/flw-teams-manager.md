@@ -1,7 +1,7 @@
 ---
-title: Work with Field Service in Teams (frontline managers)
+title: Manage work orders with Field Service in Teams (frontline managers)
 description: Learn how service managers and dispatchers can use the Dynamics 365 Field Service Teams app to create, view, update, and schedule work orders in Teams.
-ms.date: 03/06/2024
+ms.date: 05/08/2024
 ms.topic: how-to
 author: jasonxian-msft
 ms.author: jasonxian
@@ -10,44 +10,13 @@ ms.custom: bap-template
 ms.subservice: m365-integrations
 ---
 
-# Work with Field Service in Teams (frontline managers)
+# Manage work orders with Field Service in Teams (frontline managers)
 
 The Dynamics 365 Field Service app for Teams enables frontline managers to manage work orders without disrupting their workflow. Without leaving Teams, you can create, view, and edit work orders and quickly respond to requests for service or questions about existing requests.
 
 ## Prerequisites
 
-Your environment is in a [supported geography, region, and language](flw-overview.md#supported-geographies-regions-and-languages).
-
-> [!NOTE]
-> The supported language is based on your Teams' language. If you access Teams from the web, the language is based on the web browser. If you access Teams from Teams Desktop, the language is based on Teams Desktop's language.
-
-## Install the Field Service Teams app
-
-Your admin might have installed the app for your organization. If you see the Field Service or Viva Connections icon in the Teams side rail or **Field Service** in the app list, you can skip this step.
-
-[!INCLUDE [fsp-deploy-teams](../includes/fsp-deploy-teams.md)]
-
-## Select your environment
-
-1. In Teams, select **Apps** and select **Field Service**.
-
-1. Select the **Settings** tab.
-
-1. Select your Field Service environment. If you work in more than one environment, you can easily [switch environments](#switch-environments) when you need to.
-
-   :::image type="content" source="media/fsp-environment-flm.png" alt-text="Screenshot of Field Service environment selection for the frontline manager":::
-
-   [Look up your environment](/power-platform/admin/determine-org-id-name) if you're not sure which one to choose.
-
-1. Once the environment is validated, select one of the following:
-
-   - The **Home** tab to go to the Teams **Home** page.
-
-     :::image type="content" source="media/fsp-flm-teams-home.png" alt-text="Field Service Teams Home page for the frontline manager.":::
-
-   - **Open Viva Connections** to go to your Viva Connections dashboard.
-
-     :::image type="content" source="media/fsp-flm-teams-viva-dashboard.png" alt-text="Screenshot of the Field Service dashboard in Viva Connections in Teams.":::
+- You have completed [Get started with Field Service in Teams](flw-teams-manager-get-started.md).
 
 ## Create a work order in Teams
 
@@ -69,7 +38,7 @@ Your admin might have installed the app for your organization. If you see the Fi
 
 1. Select **Save**.
 
-   The work order number appears. If you want to open the work order in the Dynamics 365 Field Service app, select the pop-out icon :::image type="icon" source="media/fsp-pop-out-icon.png":::.
+   The work order number appears. If you want to open the work order in the Dynamics 365 Field Service app, select the open web app icon :::image type="icon" source="media/fsp-open-web-app-icon.png":::.
 
 ## Schedule or reschedule a work order
 
@@ -147,23 +116,41 @@ While you're viewing a work order, you can also:
 
 - Reflect new or changed information. Select the **Refresh** icon.
 
-- Open the work order in Dynamics 365 Field Service. Select the pop-out :::image type="icon" source="media/fsp-pop-out-icon.png"::: icon.
+- Open the work order in Dynamics 365 Field Service. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon.
 
 - Open a map to locate the service address. Select the **Open in Bing Maps** :::image type="icon" source="media/fsp-flm-map-icon.png"::: icon.
 
-## Edit a work order in Teams
+## Edit a work order
 
 1. [View the work order](#view-a-work-order) you want to edit.
 
 1. Make the necessary changes and select **Save**.
 
+## Add attachments to a work order
+
+Add installation manuals, maintenance documents, specifications, or troubleshooting tips relevant to a work order. Attachments enable technicians to ask Copilot questions and quickly obtain answers allowing for quicker diagnostics and problem-solving. As technicians work on jobs, they can interact with Copilot for real-time advice.
+
+To add knowledge articles, go to [Link a knowledge article to a work order](field-service-km-link.md#link-a-knowledge-article-to-a-work-order).
+
+To add notes, Microsoft Word, or PDF documents, perform the following steps.
+
+1. [View the work order](#view-a-work-order).
+
+1. Select the open web app :::image type="icon" source="media/fsp-open-web-app-icon.png"::: icon to open the work order in Dynamics 365 Field Service.
+
+1. Select the **Timeline tab**.
+
+1. Select the **Attachment** icon. Browse and select the item, and then select **Add note and close**.
+
+   :::image type="content" source="media/timeline-tab.svg" alt-text="Field Service Work Order page, Timeline tab.":::
+
+## Share work order information
+
+[!INCLUDE [fsp-share-wo](../includes/fsp-share-wo.md)]
+
 ## Call for remote collaboration through Remote Assist
 
 [!INCLUDE [fsp-launch-ra](../includes/fsp-launch-ra.md)]
-
-## Enable the Microsoft Copilot for Field Service work orders
-
-[!INCLUDE [fsp-m365-copilot](../includes/fsp-m365-copilot.md)]
 
 ## Switch environments
 

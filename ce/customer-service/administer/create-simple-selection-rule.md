@@ -5,6 +5,7 @@ ms.date: 09/15/2017
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -79,7 +80,7 @@ You can also add resources to existing selection rules.
 > [!TIP]
 >  After you set up the selection rule, create a service activity for the service rule and check the search results to verify that the results are what you expect.  
   
-### See also     
+### Related information     
  [Schedule a service activity](../use/schedule-service-activity-csh.md)   
  [Create or change a resource group](create-edit-resource-group.md)
 

@@ -5,6 +5,7 @@ ms.date: 07/09/2020
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # closeChat
 
@@ -37,7 +38,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 ```
 
-### See also
+### Related information
 
 [startChat](startchat.md)<br />
 [setContextProvider](setContextProvider.md)<br />

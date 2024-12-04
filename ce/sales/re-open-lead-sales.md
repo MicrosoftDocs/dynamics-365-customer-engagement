@@ -5,6 +5,7 @@ ms.date: 10/25/2021
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -33,7 +34,7 @@ Great news! A lead that you thought wasn't interested has contacted you, and it 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also 
+## Related information 
 
  [Create or edit a lead](create-edit-lead-sales.md)   
  [What if you're no longer working a lead?](no-longer-working-lead-sales.md)

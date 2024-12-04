@@ -5,6 +5,7 @@ ms.date: 11/08/2022
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 
@@ -54,7 +55,7 @@ The following rich messages support admin-enabled customization:
 | Apple Messages for Business | [List picker](../administer/create-rich-messages.md#list-picker)<br> [Suggested reply](../administer/create-rich-messages.md#suggested-reply)<br> [Time picker](../administer/create-rich-messages.md#time-picker)<br> [Video rich link](../administer/create-rich-messages.md#video-rich-link)<br> [Website rich link](../administer/create-rich-messages.md#website-rich-link)  |
 
 
-### See also
+### Related information
 
 [Configure Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)  
 [Retrieve and format rich messages](../develop/reference/methods/message-object.md)  

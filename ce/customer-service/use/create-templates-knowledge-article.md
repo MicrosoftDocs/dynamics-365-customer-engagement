@@ -5,6 +5,7 @@ ms.date: 12/29/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
 searchScope:
@@ -23,6 +24,9 @@ ms.custom:
 
 # Create templates for knowledge articles
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
 Knowledge article templates help knowledge authors simplify the process of creating knowledge articles. Templates also help knowledge managers and authors maintain consistency in branding, language, and structure.
 
 When an author chooses a template to create an article, certain fields in the template are prepopulated with values, allowing the author to focus on the main content of the article.
@@ -38,22 +42,13 @@ Before working with templates, make sure you have the required privileges to cre
 
  As a knowledge manager, you can create knowledge article templates by defining the necessary fields such as Language, Title, Keywords, and Subject. These fields are prepopulated when the author creates the article using the template, reducing the effort to fill in these fields.
 
-You can create a knowledge article template in the Customer Service admin center or Customer Service Hub app by performing the following steps:
+You can create a knowledge article template in the Customer Service admin center or Contact Center admin center app by performing the following steps:
 
 1. Go to the **Article Templates** section.
-
-    ### [Customer Service admin center](#tab/customerserviceadmincenter)
 
       1. In the site map, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
       1. On the **Knowledge** page, go to the **Article Templates** section and select **Manage**.
 
-    ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, go to **Service Management** and select **Article Templates** in **Knowledge Base Management**.
-
----
 1.	Select **New**.
 
 1.	In the **Choose Language** dialog box, select the language for the template, and then select **OK**. In this example, we're selecting the language as **English – United States**.
@@ -112,7 +107,7 @@ KnowledgeManagement.CommandBarActions.Instance.knowledgeArticle_onload
 
 10. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Create knowledge articles using templates](customer-service-hub-user-guide-knowledge-article.md#create-knowledge-articles-using-templates)
 

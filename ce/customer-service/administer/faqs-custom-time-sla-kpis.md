@@ -1,10 +1,11 @@
 ---
-title: "FAQ about custom time calculation of SLA KPIs | MicrosoftDocs"
-description: "Learn about the frequently asked questions (FAQ) about custom time calculation of SLA KPIs."
-ms.date: 04/04/2022
+title: FAQ about custom time calculation of SLA KPIs
+description: Learn about the frequently asked questions (FAQ) about custom time calculation of SLA KPIs.
+ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ---
 
 # FAQ about custom time calculation of SLA KPIs

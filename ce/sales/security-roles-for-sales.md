@@ -1,10 +1,11 @@
 ---
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
-ms.date: 10/18/2023
+ms.date: 06/17/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Predefined security roles for Sales
 
@@ -54,7 +55,7 @@ The following table lists the roles that you can assign to users who need to per
 | --- | --- | --- | --- |
 | Forecast Manager | Sales manager or an equivalent role who's responsible for configuring forecasts in the organization. | Sales Enterprise and Sales Premium | Configure, clone, deactivate, adjust, or delete a forecast. |
 | Forecast User | Any user in the organization who needs access to the forecast data for tracking and analysis | Sales Enterprise and Sales Premium | View forecast and drill-down forecast data |
-| Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
+| Sequence Manager | Sales manager or an equivalent role who creates and manages sequences, segments, and assignment rules for the organization.<br>**Note**: When using this role, ensure that you also have Basic User or a similar role. | Sales Enterprise and Sales Premium | Create, edit, delete, and deactivate the following features in the sales accelerator<ul><li>Sequences</li><li>Segments</li><li>Assignment rules</li></ul> |
 
 ## App access roles
 
@@ -87,6 +88,8 @@ Follow these steps:
 
 1. In the Sales Hub app, select the Settings icon in the top-right
    corner, and select **Advanced Settings**.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Select **Settings** in the Business Management interface, and
    go to **Security** under **System**.
@@ -97,6 +100,7 @@ Follow these steps:
 
 5. Notify the user and ask them to verify that they have the permissions they need.
 
-### See also   
+## Related information   
 
 [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+
