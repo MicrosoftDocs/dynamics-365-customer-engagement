@@ -137,7 +137,7 @@ The following table summarizes the Copilot features supported for a configured k
 |-------|----------|---------|--------|
 |Ask a question |✔|X| ✔|
 |Write an email | ✔|✔|X|
-|Draft a response |✔|✔|
+|Draft a response |✔|✔|X|
 
 ### Related information
 
