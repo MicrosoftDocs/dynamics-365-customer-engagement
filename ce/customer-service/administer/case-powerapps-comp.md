@@ -21,7 +21,7 @@ You can add the default Power Apps components that are available for case forms 
 |3 |**Recent records** |Add this component to a case form to give agents access to the related customer records for a case. |Available for all entities. |Not applicable |[Configure components to display customer details and recent records](add-display-components-to-case-form.md)|
 |4 |**Case handling time widget** |Add this component to enable agents to view the case handling time widget on a case form. |Available for all entities. |Not applicable. |[Configure case handling time widget to case forms](add-case-handling-time.md)|  
 |5 |**Redirect** |Add this component to a case form to redirect agents to a specific tab for closing open activities related to a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
-|6 |**Modernized case grids** |Add this component to a case form to give agents quick access to case information, such as the last customer interaction, case age, and the next SLA breach. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
+|6 |**Modernized case grids** |Add this component to a case form to give agents quick access to case information, such as the last customer interaction, case age, and the next Service Level Agreement (SLA) breach. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
 
 
 ## Default components available on enhanced full case form
