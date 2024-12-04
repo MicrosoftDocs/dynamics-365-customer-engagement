@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to 
 ms.collection: 
-ms.date: 11/20/2024
+ms.date: 12/04/2024
 ms.custom: bap-template
 ---
 
@@ -33,7 +33,7 @@ Make sure you have met the following prerequisites.
     1. [File upload](/microsoft-copilot-studio/knowledge-add-file-upload)
     1. [Dataverse](/microsoft-copilot-studio/knowledge-add-dataverse)
     1. [Graph connectors](/microsoft-copilot-studio/knowledge-graph-connections)
-1. Publish (Need info)
+1. Publish the changes. This will also publish any unpublished plugin changes you might have made.
 
 > [!NOTE]
 > Federated knowledge source isn't supported currently but customers can optionally select the Graph connectors to connect to their preferred sources.
