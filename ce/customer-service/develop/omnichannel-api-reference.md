@@ -5,7 +5,7 @@ ms.date: 05/24/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # Omnichannel JavaScript API Reference
 

@@ -3,6 +3,7 @@ title: "updateContext method (app profile manager) JavaScript API Reference | Mi
 description: "Learn about the updateContext API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 11/21/2023
 ms.topic: reference
 ---

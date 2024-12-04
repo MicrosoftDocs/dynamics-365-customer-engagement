@@ -3,7 +3,7 @@ title: Analytics reports refresh and data retention
 description: Learn about analytics reports refresh and data retention in this article.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 02/12/2024

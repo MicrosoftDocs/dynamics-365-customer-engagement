@@ -1,10 +1,11 @@
 ---
-title: "Configure AI topic clustering for conversations | MicrosoftDocs"
-description: "Configure topic cLustering for conversations using AI"
-ms.date: 12/21/2023
+title: Configure AI topic clustering for conversations
+description: Configure topic cLustering for conversations using AI.
+ms.date: 11/28/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.collection: bap-ai-copilot
 ---
 
