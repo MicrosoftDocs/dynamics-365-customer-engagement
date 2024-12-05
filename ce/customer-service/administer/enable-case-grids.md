@@ -1,7 +1,7 @@
 ---
-title: Enable case grids for agents
+title: Enable case grids
 description: Learn how you can enable case grids and increase service representative productivity.
-ms.date: 08/01/2024
+ms.date: 12/05/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
