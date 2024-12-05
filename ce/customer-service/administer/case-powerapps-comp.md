@@ -11,23 +11,24 @@ ms.custom: bap-template
 
 # Add Power Apps components to case forms
 
-You can add the default Power Apps components that are available for case forms to customize them in the Customer Service workspace. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)
+You can customize case forms in the Customer Service workspace using the default Power Apps components. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)
 
+
+The following tables lists the components that can be added to case forms and the behavior in real-time.
 
 |Number |Component |Description |Entity |Additional actions |Additional information|
 |-------|----------|------------|-------|-------------------|----------------------|
-|1 |**Status reason transitions** |Add this component to a case form to allow agents to enter and update case status during runtime. | Available for all entities. | Applicable. |[Define status reason transitions for case management](define-status-reason-transitions-case-management.md)|
-|2 |**Customer 360** |Add this component to a case form to enable agents to view the customer details for a case. | Available for all entities. | Applicable. | [Configure components to display customer details and recent records](add-display-components-to-case-form.md)| 
-|3 |**Recent records** |Add this component to a case form to give agents access to the related customer records for a case. |Available for all entities. |Not applicable |[Configure components to display customer details and recent records](add-display-components-to-case-form.md)|
-|4 |**Case handling time widget** |Add this component to enable agents to view the case handling time widget on a case form. |Available for all entities. |Not applicable. |[Configure case handling time widget to case forms](add-case-handling-time.md)|  
-|5 |**Redirect** |Add this component to a case form to redirect agents to a specific tab for closing open activities related to a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
-|6 |**Modernized case grids** |Add this component to a case form to give agents quick access to case information, such as the last customer interaction, case age, and the next Service Level Agreement (SLA) breach. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
+|1 |**Status reason transitions** |This component allows you to define what the status reason value can be changed to, for each status reason. | Available for all entities. | Applicable. |[Define status reason transitions for case management](define-status-reason-transitions-case-management.md)|
+|2 |**Customer 360** |The Customer 360 component enables agents to view customer details for a case as a card on the form. | Available for all entities. | Applicable. | [Configure components to display customer details and recent records](add-display-components-to-case-form.md)| 
+|3 |**Recent records** |This component allows agents to view and access related customer records for a case as a card on the form. |Available for all entities. |Not applicable |[Configure components to display customer details and recent records](add-display-components-to-case-form.md)|
+|4 |**Case handling time widget** |Agents can see the case handling time widget on the form. |Available for all entities. |Not applicable. |[Configure case handling time widget to case forms](add-case-handling-time.md)|  
+|5 |**Redirect** |This component redirects agents to a specific tab for closing open activities related to a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
+|6 |**Modernized case grids** |These grids give agents quick access to case information, such as the last customer interaction, case age, and the next Service Level Agreement (SLA) breach. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
 
 
 ## Default components available on enhanced full case form
 
 You can use the following components that are available by default on the [Enhanced full case form](case-enh-config.md) to customize other forms.
-
 
 |Number | Component | Description | Entity | Additional actions | Additional information|
 |------ | --------- | ----------- | ------ | ------------------ | ----------------------|
