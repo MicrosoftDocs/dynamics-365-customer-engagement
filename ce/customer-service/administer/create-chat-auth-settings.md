@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 07/08/2024
+ms.date: 12/05/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -83,7 +83,7 @@ If you add authentication for a chat widget on a website developed using Power A
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
 
-The Power Apps portal tries to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
+For an out of box Power Apps portal, the javascript client function returns a token, which by default has the proper claim to link a contact record to the conversation. This token contains the sub claim with the contact ID of the logged in user. This sub claim provides a unique identifier for Omnichannel to automatically identify and link the contact record from your Dataverse environment. Learn more in the table of the section that follows.
 
 ### Setup for custom portals
 
