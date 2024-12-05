@@ -5,6 +5,7 @@ ms.date: 12/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -19,8 +20,6 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 
 The search control for the subject tree entity is available by default for out-of-the-box and custom forms. If you'd like to disable the search control, contact Microsoft support.
 
-> [!NOTE]
-> The availability of search control by default is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
   
 ## Create or edit a subject
 

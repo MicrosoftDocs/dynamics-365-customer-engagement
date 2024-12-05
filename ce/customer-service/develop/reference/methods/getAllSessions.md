@@ -3,6 +3,7 @@ title: "getAllSessions method (app profile manager) JavaScript API Reference | M
 description: "Learn about the getAllSessions API of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---

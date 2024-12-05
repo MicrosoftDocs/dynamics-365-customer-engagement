@@ -3,10 +3,10 @@ title: Responsible AI FAQ for Copilot in Customer Service
 description: This FAQ provides information about the AI technology that Dynamics 365 Customer Service uses. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 08/22/2024
+ms.date: 11/12/2024
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -99,6 +99,10 @@ It's not possible to customize the large language model (LLM) directly.  Copilot
 ## What's the data security model for Copilot?
 
 Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, agents cannot view data that they do not have access to. Additionally, only data sources that the agent has access to are used for copilot response generation.
+
+## How does Copilot determine whether content is offensive or harmful?
+
+Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. You can learn more at [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 

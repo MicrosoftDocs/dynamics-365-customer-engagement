@@ -1,5 +1,5 @@
 ---
-title: Overview of Dynamics 365 Field Service (contains video)
+title: Overview of Dynamics 365 Field Service
 description: Learn about Dynamics 365 Field Service and its features.
 ms.date: 10/24/2024
 ms.topic: overview

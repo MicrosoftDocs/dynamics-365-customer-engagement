@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.date: 08/29/2024
 ms.topic: how-to
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom:
   - bap-template
@@ -105,7 +105,7 @@ The voicemail record is set up for routing out of the box. Voicemails are catego
 
 ### Individual voicemails
 
-Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream.
+Individual voicemails are triggered through direct inward dialing and are routed to the default individual voicemail workstream. For voicemail to work for agents, they must be signed in to the Contact Center workspace or Customer Service workspace app and presence loaded, at least once. If the agent is signed in and presence is offline, the agent must decline the call notification. 
 
 > [!NOTE]
 > Agents receive voicemails only if they are signed in to the app and presence loads at least once. If the agent is signed in and their presence is set to offline, they must decline the call to receive the voicemail.

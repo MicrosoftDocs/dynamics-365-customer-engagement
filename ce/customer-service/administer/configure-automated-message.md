@@ -4,7 +4,7 @@ description: Perform the steps mentioned in the article to configure automated m
 ms.date: 04/18/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -92,6 +92,10 @@ Complete the following steps for the channel in which you want to create custom 
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected.| When the customer calls and wait time is long.| Customer |
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.| Customer |
 | Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the agent instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to an agent.| Customer |
+
+> [!NOTE]
+> The supported locale is mentioned in the out-of-the-box system messages that you can see in Contact Center admin center or Customer Service admin center.
+
 
 ## Best practices for using automated messages
 

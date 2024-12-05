@@ -1,7 +1,7 @@
 ---
-title: Work with customer assets (contains video)
+title: Work with customer assets
 description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
-ms.date: 08/06/2024
+ms.date: 11/11/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -42,6 +42,8 @@ You can [create customer assets individually](#manually-create-customer-assets),
 1. Select **Save**.
 
 1. Optionally add subcomponents or child assets in the **Sub Assets** grid.
+
+1. Optionally, [link knowledge articles](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
 
 ### Import customer assets from Excel
 

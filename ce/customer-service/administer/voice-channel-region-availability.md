@@ -3,8 +3,8 @@ title: Supported cloud locations for voice channel
 description: Use this article to know about the supported cloud locations for the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 10/22/2024
+ms.reviewer: nenellim
+ms.date: 11/04/2024
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -37,7 +37,7 @@ The following table lists the global region, URL, and general and trial availabi
 ## Local cloud deployments
 
 > [!IMPORTANT]
-> The local hosting capabilities for the legacy voice channel in Switzerland will be deprecated on October 31, 2024. In India and Japan, the local hosting capability for the legacy voice channel was deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
+> As we transition to the enhanced voice experience, the local hosting capabilities for the legacy voice channel in Switzerland was deprecated on October 31, and in India and Japan, it was deprecated on September 09, 2024. Learn more in [Deprecations in Dynamics 365 Contact Center](/dynamics365/contact-center/implement/deprecations-contact-center).
 
 If you need your data to stay within a region, the following table lists the local region, URL, and general and trial availabilities of the voice channel in local regions. Stay tuned for country or region-specific local deployment of the voice channel. More information: [Datacenter regions](/power-platform/admin/new-datacenter-regions)
 

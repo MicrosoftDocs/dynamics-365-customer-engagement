@@ -404,6 +404,8 @@
             href: reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md
           - name: msdyn_teamsengagementctx
             href: reference/entities/msdyn_teamsengagementctx.md
+          - name: msdyn_timetracker
+            href: reference/entities/msdyn_timetracker.md
           - name: msdyn_transcript
             href: reference/entities/msdyn_transcript.md
           - name: msdyn_unifiedroutingdiagnostic

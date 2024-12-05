@@ -30,6 +30,15 @@ Only an administrator can disable Copilot in Dynamics 365 Sales. Learn more in [
 
 The data that's included in the requests varies based on the type of request. For example, when you summarize an opportunity, the relevant fields of the opportunity and associated metadata are pushed to the Azure OpenAI endpoint to generate a summary.
 
+## Why can't I see the latest news for an account?
+
+Copilot uses Bing to fetch the latest news for an account. If you can't see the latest news for an account, it might be because of the following reasons:
+
+- Bing doesn't have any news for that account.  
+- Your administrator has not provided consent for Copilot to use Bing.
+
+Learn more about turning on Bing consent in [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1)
+
 ## Is any of my data stored outside of Dynamics 365?
 
 No. We don't save any of your data in any new data store. Learn more in [Data, privacy, and security for Azure OpenAI Service](/legal/cognitive-services/openai/data-privacy).

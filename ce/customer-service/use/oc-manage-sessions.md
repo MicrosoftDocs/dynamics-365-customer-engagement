@@ -5,6 +5,7 @@ ms.date: 04/06/2020
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Manage sessions in Omnichannel for Customer Service

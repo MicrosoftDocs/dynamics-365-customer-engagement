@@ -2,7 +2,6 @@
 title: Transfer calls and consult with users
 description: Use this article to understand how the agent can use the transfer and consult options to make and receive customer calls.
 ms.date: 04/12/2024
-ms.service: dynamics-365-customer-service
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -40,7 +39,8 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
     - **Transfer to a queue**: Select **Queue**, search for the queue you want to transfer the call to, and then select **Transfer**. The customer is put on hold. The agent who picks up the transferred call becomes the primary agent and you become the secondary agent and are removed from the call.<br>
       > [!NOTE]
-      > When you transfer a call to a queue that doesn't have any agents, the application automatically ends the call and sets the status to Closed.
+      > - When you transfer a call to a queue that doesn't have any agents, the application automatically ends the call and sets the status to Closed.
+      > - If you transfer a call from a phone number linked to an inbound or outbound profile to a queue with a Copilot Studio agent, the agent can only speak to the customer and end the call. The agent can't transfer the call to another agent or external number, even when you have configured the Escalation topic in Copilot Studio.
 
         :::image type="content" source="../media/oceh-cc-transfer-queue-list.png" alt-text="A screenshot of the transfer to queue.":::
     
@@ -51,6 +51,7 @@ When you receive an incoming call, you can transfer the call to an agent, a queu
 
     > [!NOTE]
     > In the embedded and standalone experiences of Dynamics 365 Contact Center, the enhanced voice options only are available.
+
 
     ### [Enhanced voice](#tab/enhancedvoicestack)
 

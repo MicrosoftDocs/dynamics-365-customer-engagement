@@ -3,7 +3,7 @@ title: Use agent diagnostics as a self-help tool
 description: Learn how to use the agent diagnostics in Customer Service workspace as a self-help tool to identify and share issues with your administrator for quick resolutions.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
 ms.date: 03/22/2024

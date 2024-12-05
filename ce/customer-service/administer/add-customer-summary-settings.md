@@ -3,7 +3,7 @@ title: Manage the enhanced Active Conversation settings | MicrosoftDocs
 description: Manage the enhanced Active Conversation settings.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.date: 12/21/2023
 ms.custom: bap-template 
