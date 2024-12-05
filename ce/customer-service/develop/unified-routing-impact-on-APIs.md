@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ---
 

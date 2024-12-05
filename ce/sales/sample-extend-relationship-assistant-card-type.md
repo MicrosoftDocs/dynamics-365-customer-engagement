@@ -1,7 +1,7 @@
 ---
-title: "Download custom card sample in Sales Insights | MicrosoftDocs"
-description: "Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card."
-ms.date: 10/31/2018
+title: Extend assistant card type (custom card)
+description: Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
+ms.date: 12/04/2024
 ms.custom: 
 ms.topic: article
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
@@ -11,19 +11,20 @@ ms.reviewer: udag
 ms.suite: 
 ms.tgt_pltfrm: 
 ---
-# Sample: Extend assistant card type (custom card) 
+# Sample: Extend assistant card type (custom card)  
 
 Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
 
 ## License and role requirements
+
 | Requirement type | You must have |
 |-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
+| **License** | Dynamics 365 Sales Premium <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-
 ## Create custom action card
-The following process explains how to create a custom card:
+The following process explains how to create a custom card:  
+
 - **Step 1:** Download the extend Assistant card type sample solution
 - **Step 2:** Build the solution (ExtPkgDeployer.sln)
 - **Step 3:** Import the package using the package deployer tool
@@ -32,6 +33,7 @@ The following process explains how to create a custom card:
 - **Step 6:** Verify the new custom card 
 
 ## Prerequisites
+
 Review the prerequisites before you create the custom cards in your organization:
 
 - You must have the Package Deployer tool (packagedeployer.exe) to deploy packages. To download the package deployer, see [Download tools from NuGet](/dynamics365/customer-engagement/developer/download-tools-nuget)
@@ -62,7 +64,7 @@ The contains schema definition for new card type.
 <?xml version="1.0" encoding="utf-8" ?>
 <entity name="cardtype" displayname="Action Card Type">
   <cardname>Extensibility Example</cardname>
-  <cardtypeid>00aa00aa-bb11-cc22-dd33-44ee44ee44ee</cardtypeid>
+  <cardtypeid>aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb</cardtypeid>
   <cardtype>11000</cardtype>
   <cardtypeicon>webresources/new_msicon</cardtypeicon>
   <softtitle>Extensibility Example</softtitle>

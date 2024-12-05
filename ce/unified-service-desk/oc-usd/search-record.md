@@ -3,6 +3,7 @@ title: "Search for records in Omnichannel for Customer Service | MicrosoftDocs"
 description: "This article provides information on how to search for records and link a record to a conversation in Omnichannel for Customer Service."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'

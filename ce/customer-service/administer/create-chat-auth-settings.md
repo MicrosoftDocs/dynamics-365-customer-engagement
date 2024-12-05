@@ -5,7 +5,7 @@ ms.date: 11/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure authentication settings

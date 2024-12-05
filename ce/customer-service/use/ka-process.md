@@ -3,7 +3,7 @@ title: Understand the knowledge article creation process
 description: Learn the process for creating and using knowledge articles.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.date: 06/14/2024
 ms.custom: bap-template
