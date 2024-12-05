@@ -97,6 +97,7 @@ Before you set up the Sales qualification agent, review the following considerat
 - The agent is available for free during private preview. 
    Q: Do we need to cover the cost aspect for public preview?
 
+
 To set up the Sales qualification agent, follow these steps:
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
@@ -147,7 +148,7 @@ Grant **Organization** level permissions to read, write, create, append, append 
 
 ## Use the Sales qualification agent
 
-As a seller, you know that qualifying leads is crucial to your success. The Sales qualification agent empowers you to qualify leads smartly and efficiently. By leveraging advanced research, prioritization, and engagement capabilities, this agent helps you focus on the most promising leads. Imagine having detailed insights at your fingertips, allowing you to tailor your approach and engage with leads in a personalized manner. With the Sales qualification agent, you can do just that.
+As a seller, you know that qualifying leads is crucial to your success. Use the Sales qualification agent to get a prioritized list of leads, detailed research insights about each of them, and personalized outreach emails to engage with potential customers effectively.
 
 ### Before you begin
 
@@ -155,7 +156,7 @@ Before you start using the Sales qualification agent, ensure that the following 
 
 - Your admin has [enabled and configured the Sales qualification agent](#set-up-and-configure-the-sales-qualification-agent) in Dynamics 365 Sales.
 
-- Your admin has provided the necessary permissions for you to use the agent.
+- Your admin has provided the necessary permissions for your security role to access and use the agent.
 
 ### Qualify leads with the Sales qualification agent
 
@@ -163,9 +164,34 @@ Before you start using the Sales qualification agent, ensure that the following 
    You'll see a carousal at the top of the lead view. This carousal displays leads that have been researched and prioritized by the Sales qualification agent. 
 
     > [!NOTE]
-    > When you first access the **Leads** page after the agent has been enabled, the carousal displays a consent message. You must provide consent to allow the agent to access external data sources for research and access your emails in Dynamics 365 to check for emails from leads. This consent is only applicable for the carousal view and is not applicable for other Copilot features.
+    > When you first access the **Leads** page after the agent activation, the carousal displays a consent message. You must provide consent to allow the agent to access external data sources for research and access your emails in Dynamics 365 to check for emails from leads. This consent is only applicable for the carousal view and is not applicable for other Copilot features.
 
 2. Select a lead from the carousal to view the recommended action, detailed research insights, customer profile match, and handraiser status.
+    
+   The research insights page of the selected lead is displayed with insights and recommended actions.
+
+### Suggested actions
+
+This section displays the next best action for the lead based on the research data, your company and product information, and emails from the lead. The following actions are suggested:
+
+- **Draft Email**: Craft a compelling introductory email to engage with the lead. This action is displayed only when the following conditions are met:
+  - No prior emails, no upcoming meetings, no past appointments, and no previously unanswered calls.
+  - The following fields in the lead record have valid values: 
+    - Company name which can be associated with an account.
+    - Email address which is active and deliverable.
+    - Lead's first and last name
+- **Schedule Meeting**: If the lead has shown interest in your offerings, schedule a meeting to discuss further.
+- **Follow-up**: Send a follow up email if the lead had asked for more information.
+- **Nudge**: Send a gentle reminder to the lead if they haven't responded. This action is displayed only after 5 days of sending the last email.
+- **Disqualify**: Disqualify the lead if they're not a good fit for your offerings.
+
+### Research insights
+
+- **About lead**: This section includes information about the contact, a summary of the lead, and who can introduce you to the lead.
+- **About account**: This section includes information about the lead's company, such as account summary, their recent purchases, their industry, location, core services, finances, and account news.
+- **Other contacts**: This section displays other contacts associated with the lead's company. This information is fetched from Dataverse.
+- **Open opportunities**: This section displays the open opportunities associated with the lead's company.
+
 1. When you're ready to engage with the lead, select **Send Email** to craft a personalized message based on the research data and ICP.
 
 ## How the research data is generated
@@ -175,5 +201,5 @@ The agent uses the following sources to generate research data:
 
 - **CRM Data**: The agent pulls data from CRM records, such as lead details, interactions, and activities.
 - **News articles**: The agent scans news articles related to the lead's company and their budget, authority, need, and timeline (BANT) criteria. The following sources are used for need and budget:
-  - Need - ZDNet, CIO.com, and Bing. 
-  - Revenue/Budget - Company’s SEC 10K filings (if public company), Yahoo Finance, Google Finance, PRNewsWire, BusinessWire, TechCrunch and ZDNet.
+  - Need - ZDNet, CIO.com, and Bing.
+  - Revenue/Budget - Company's SEC 10K filings (if public company), Yahoo Finance, Google Finance, PRNewsWire, BusinessWire, TechCrunch and ZDNet.
