@@ -35,7 +35,7 @@ You can perform different actions, such as assign or transfer a conversation, as
 
 ## Assign or transfer conversations
 
-You can view service representative skills and proficiency, availability, and available capacity, which helps you to effectively manage and allocate resources. You can assign or transfer conversations to service representatives who are part of the current queue only. You can manage the queues for service representatives. Learn more in [Manage users](../administer/users-user-profiles.md#manage-contact-center-users).
+You can view service representative skills and proficiency, availability, and available capacity. These insights help you effectively manage and allocate resources. You can assign or transfer conversations to service representatives who are part of the current queue only. You can manage the queues for service representatives. Learn more in [Manage users](../administer/users-user-profiles.md#manage-contact-center-users).
 
 Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
 
@@ -119,7 +119,7 @@ In Customer Service workspace, go to **Customized reports** > **Ongoing conversa
   When the **Agent Name** exists, the following options are enabled.
   - **Transfer**: You can transfer the conversation from one agent to another in the same queue.
   - **Monitor**: You can open the conversation dialog to monitor the chat.
-  - **Force close**: You can force close the conversation if required.
+  - **Force close**: You can force close the conversation if necessary.
     :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
 
 Refer to the following table to see the actions that are enabled, depending on the various conversation states.
