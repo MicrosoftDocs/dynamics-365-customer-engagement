@@ -61,14 +61,14 @@ If you can't view the reports, contact your system administrator. For more infor
 
 > [!NOTE]
 > - The reports don't include work items of the Entity Record channel.
-> - The reports are prefiltered based on the queues you are logged in to as a supervisor. You'll see metrics and conversations relevant to the assigned queues only, which ensures data privacy and relevance.
+> - The reports are prefiltered based on the queues you are signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
 
 The **Omnichannel real-time analytics** dashboard consists of the following reports:
 
 - **Summary**: This report provides an overview of your organization in real time. It provides KPIs across the volume of customer interactions and service levels, together with the available capacity in real time. [Learn more about the Summary report.](realtime-summary-dashboard.md)
 - **Voice**: This report provides an overview of conversations for the voice channel. [Learn more about the Voice report.](realtime-voice-dashboard.md)
 - **Agents**: This report provides an overview of the health and KPIs of service representatives in your organization. The information that is shown on this report is based on the conversations. [Learn more about the Agents report.](realtime-agents-analytics.md)
-- **Ongoing conversation**: This report provides information about the conversations that service representatives are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, after reviewing their skill set and capacity profiles. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
+- **Ongoing conversation**: This report provides information about the conversations that service representatives are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for a service representative, after reviewing their skill set and capacity profiles. [Learn more about the Ongoing conversation report.](realtime-ongoing.md)
 
 ## Filter information displayed on dashboard
 
