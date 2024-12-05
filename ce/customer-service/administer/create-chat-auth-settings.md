@@ -1,7 +1,7 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 11/14/2024
+ms.date: 12/05/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
