@@ -44,7 +44,7 @@ View assigned records to reassign them to different sellers or teams. Also, you 
 
 ## View record status details
 
-When a record's status displays **Needs attention**, it indicates that the record encountered an error and failed at least one operation, such as segmentation, assignment, or sequence connection. To view the details of the error, open the record's status details pane. The pane provides information about the record such as topic, owner, created on date, and error details depending on the record type. Depending on the error details and status reason, you can take [necessary actions to resolve the issue](#analyzing-error-details-and-resolve-issues).
+When a record's status displays **Needs attention**, it indicates that the record encountered an error and failed at least one operation, such as segmentation, assignment, or sequence connection. To view the details of the error, open the record's status details pane. The pane provides information about the record such as topic, owner, created on date, and error details depending on the record type. Depending on the error details and status reason, you can take [necessary actions to resolve the issue](#analyze-error-details-and-resolve-issues).
 
 1. In the **Processed** tab, select a record that needs attention.  
 
@@ -59,9 +59,7 @@ When a record's status displays **Needs attention**, it indicates that the recor
     - The **Error details** section provides information about the error that might have prevented the record from being segmented, assigned, or connected to a sequence.  
     - The **Status reason** section shows the reason why record didn't get segmented, left unassigned, or failed connecting to a sequence.
 
-    Depending on the error details and status reason, you can take necessary actions to resolve the issue. For more information about the status reasons and resolution, see [Analyzing error details and resolve issues](#analyzing-error-details-and-resolve-issues).
-
-<a href="analyzing-error-details-and-resolve-issues"></a>
+    Depending on the error details and status reason, you can take necessary actions to resolve the issue. For more information about the status reasons and resolution, see [Analyze error details and resolve issues](#analyze-error-details-and-resolve-issues).
 
 ## Analyze error details and resolve issues
 
@@ -104,7 +102,7 @@ When a record's status displays **Needs attention**, it indicates that the recor
 
 ## Run assignment rules
 
-After you address the [errors for unassigned records](#analyzing-error-details-and-resolve-issues), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
+After you address the [errors for unassigned records](#analyze-error-details-and-resolve-issues), run the assignment rules again. Up to 500 records are considered for assignment on each run, with older records taking priority over newer ones. You can run the rules immediately or schedule them to run later.
 
 1. Under **Sales accelerator**, select **Work assignment**.  
 1. Select a **Record type** to view segments of that type.  
