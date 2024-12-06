@@ -26,7 +26,7 @@ searchScope:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-There may be times when your agents prefer to author knowledge articles in a language other than the language that is set for your organization. You can set a language for your organization, but then also give agents the ability to personalize it to their own choice. Agents can also change the language for different articles. Review the hierarchy as described in the table below.
+There may be times when your customer service representatives prefer to author knowledge articles in a language other than the language that is set for your organization. You can set a language for your organization, but then also give representatives the ability to personalize it to their own choice. Representatives can also change the language for different articles. Review the hierarchy as described in the table below.
 
   > [!NOTE]
   > The settings you configure for knowledge article authoring on the **Settings** page won't apply when you create a knowledge article by converting a case. In such cases, the knowledge articles will be created in English. 
@@ -40,7 +40,7 @@ Admin settings for KA authoring language (Knowledge settings page)
 |Knowledge managers        |Language preference at the individual author level     |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>    |
 |Agent         |Language preference at the individual knowledge base level      |Override administrative settings and choose a language-locale combination from the lookup</li>   |
 
-The ability to override follows the hierarchy order at the individual articles, agent or knowledge manager, and then administrator.
+The ability to override follows the hierarchy order at the individual articles, representative or knowledge manager, and then administrator.
 
 You can set a default knowledge article authoring language for your organization in the Customer Service admin center or Contact Center admin center app by performing the following steps:
 
