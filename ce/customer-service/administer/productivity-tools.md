@@ -3,13 +3,15 @@ title: Overview of Dynamics 365 Productivity Tools
 description: Learn about Dynamics 365 Productivity Tools in the Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 04/05/2023
+ms.reviewer: nenellim
+ms.date: 07/01/2024
 ms.topic: overview
 ms.custom: bap-template
 ---
 
 # Overview of productivity tools
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 The Dynamics 365 Productivity Tools app provides capabilities that help users perform day-to-day operations in a fast, efficient, and process-compliant manner and deliver value to customers.
 
@@ -41,7 +43,7 @@ Microsoft Teams is a tool that can help agents more easily collaborate with coll
 
 The productivity pane supports custom productivity tools developed as custom pages or Power Apps component framework controls. You can create multiple custom productivity tools and make them available to your users with agent experience profiles.
 
-### See also
+### Related information
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  

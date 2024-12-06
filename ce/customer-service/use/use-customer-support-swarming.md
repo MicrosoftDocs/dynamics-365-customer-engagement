@@ -5,7 +5,7 @@ ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Use customer support swarming (preview)
@@ -189,7 +189,7 @@ To view a list of swarms, go to **Swarms** on the site map. The following views 
 - Swarms being followed
 - Swarms I follow
 
-### See also
+### Related information
 
 [Configure customer support swarming](../administer/configure-customer-support-swarming.md)<br>
 [Configure Teams chat](../administer/configure-teams-chat.md)<br>

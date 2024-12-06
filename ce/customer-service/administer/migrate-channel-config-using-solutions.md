@@ -5,26 +5,28 @@ ms.date: 05/29/2024
 ms.topic: how-to
 author: mjfjesus
 ms.author: marcoje
-ms.reviewer: nenellim
+ms.reviewer: marcoje
 ms.collection:
 ms.custom: bap-template
 ---
-
 # Migrate configurations for channels using solutions
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Use solutions and the Configuration Migration tool to migrate the configurations from the source environment to the target environment for channels.
 
-For information on how to use solutions or the Configuration Migration tool, see [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
+For information on how to use solutions or the Configuration Migration tool, go to [Overview of tools and apps used for ALM in Power Platform](/power-platform/alm/tools-apps-used-alm).
 
 ## Prerequisites
 
 The following prerequisites must be met:
 
 - Make sure that the user who performs the channel configuration migration has the following privileges:
-  - To export solutions from the source environment
-  - To import solutions to the destination environment
-  - Read permission on all tables migrated from the source environment using Configuration Migration tool.
-  - Full permission on all tables migrated to the destination environment using Configuration Migration tool.
+  - To export solutions from the source environment.
+  - To import solutions to the destination environment.
+  - Read permission on all tables migrated from the source environment using the Configuration Migration tool.
+  - Full permission on all tables migrated to the destination environment using the Configuration Migration tool.
 - In the source environment, if any table or column refers to the following, then make sure that they exist in the target environment before you proceed with the migration:
   - Custom tables (entities)
   - Columns (attributes)
@@ -56,14 +58,14 @@ If skill-based routing rulesets are used in your channel routing setup, perform 
 
 ## Migrate configuration for new capacity profiles
 
-If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Export and import data for capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles).  Make sure to adjust any filtering FetchXML appropriately for all channels.
+If you have configured new capacity profiles in your channel routing setup, perform the steps outlined in [Migrate configuration for new capacity profiles](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-new-capacity-profiles). Make sure to adjust any filtering FetchXML appropriately for all channels.
 
 > [!TIP]
-> After you migrate a new capacity profile using Configuration Migration tool, updates can be migrated using solutions.
+> After you migrate a new capacity profile using the Configuration Migration tool, updates can be migrated using solutions.
 
 ## Migrate configuration for queues
 
-For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues).  Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
+For migrating channel queues, perform the steps outlined in [Migrate configuration for queues](migrate-record-routing-config-using-solutions.md#migrate-configuration-for-queues). Make sure to adjust any filtering FetchXML appropriately for all channels you want to migrate.
 
 ## Migrate configuration for channel workstreams and channel settings
 
@@ -84,7 +86,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
     |Microsoft Teams|Work stream (msdyn_liveworkstream)|
     |Custom channel|Work stream (msdyn_liveworkstream)|
 
-3. Select the records from channel definition table for each channel and add them to the solution. Related records from the following tables are automatically added to the solution:
+3. Select the records from the channel definition table for each channel and add them to the solution. Related records from the following tables are automatically added to the solution:
 
     |Channel  |Tables automatically added to solution  |
     |---------|----------------------------------------|
@@ -103,7 +105,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
 4. Use the Configuration Migration tool to create the schema and migrate the remaining configuration data from the source environment (organization) for workstreams and channels.
 
    - **Entity display name**: When you create the schema, select the tables (entities) from the list in the same sequence as mentioned in the following table.
-   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
+   - **Attribute display name**: We recommend that you select the columns (attributes) defined in the table. You don't need to select the out-of-the-box system-defined columns like **Created By**, **Created On**, **Modified By**, **Modified On**, and **Owner**. You can select custom columns, if necessary.
    - **Use FetchXML to filter records**: For each selected table, use the appropriate FetchXML query that's mentioned in the following table to get single, multiple, or all records based on your requirement. For single or multiple rows, you need to use source environment to get the correct name in uiname and GUID in value. If required, you can use the **ADVANCED FIND** menu item to construct the appropriate FetchXML query.
    - **Configure import settings**: For the workstream table, make sure that you add the key columns only and select the **Do not update existing records** checkbox to prevent updates to records in a table migrated through solutions.
 
@@ -127,7 +129,7 @@ For migrating channel queues, perform the steps outlined in [Migrate configurati
     |Facebook, Google Business Messages, LINE, Custom Channel, Microsoft Teams|Custom messaging account (msdyn_ocbotchannelregistration)|<ul><li>Bot Channel Registration (msdyn_ocbotchannelregistrationid)</li><li>Client secret (msdyn_msappsecret)</li><li>Facebook Application (msdyn_ocfbapplicationid)</li><li>Google’s Business Messages agent account id (msdyn_ocgbmagentaccount)</li><li>Google’s Business Messages partner account id (msdyn_ocgbmpartneraccount)</li><li>Is Custom Messaging BCR (msdyn_iscustommessagingbcr)</li><li>Last validated (msdyn_lastvalidateddate)</li><li>LINE channel (msdyn_oclinechannelconfigid)</li><li>MS Application Id (msdyn_msappid)</li><li>Name (msdyn_name)</li><li>Secure Client secret (msdyn_securemsappsecret)</li><li>Teams Channel (msdyn_octeamschannelconfigid)</li><li>Validation status (msdyn_validationstatus)</li></ul>|[**FetchXML to filter records for custom messaging accounts**](#BotRegAll)|
 
 5. Generate the schema and save it.
-6. Export the data and generate the compressed (zip) file.
+6. Export the data and generate the compressed (.zip) file.
 7. Use the Configuration Migration tool, select the option to import data, and select the compressed file.
 
 ### FetchXML for workstreams
@@ -458,7 +460,7 @@ After you import the unified routing-related configuration data successfully fro
 
 [!INCLUDE[ur-migration considerations](../../includes/cc-ur-migration-considerations.md)]
 
-### See also
+### Related information
 
 [Migrate configurations for record routing using solutions](migrate-record-routing-config-using-solutions.md)  
 [Microsoft Power Platform Build Tools for Azure DevOps](/power-platform/alm/devops-build-tools)  

@@ -4,6 +4,7 @@ description: Includes schema information and supported messages for the msdyn_se
 ms.date: 06/12/2024
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: reference
 ---
 # msdyn_sessionparticipant Entity Reference
@@ -1006,7 +1007,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |RequiredLevel|None|
 |Type|BigInt|
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

@@ -1,12 +1,15 @@
 ---
 title: "Create customer summary-related action calls for agents | MicrosoftDocs"
 description: "Learn how to set up the customer summary-related action calls for agents using Omnichannel for Customer Service."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 
 # Step 2: Create customer summary-related action calls
 
@@ -45,13 +48,14 @@ This topic describes how to create customer summary-related action calls in Unif
 
 ## Initialize Omnichannel Context - Window Variable - Customer Summary
 
-   | Tab     | Field          | Value                           |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Initialize Omnichannel Context - Window Variable - Customer Summary      |
-   | General | Order | 5 | 
-   | General | Hosted Control | Customer Summary |
-   | General | Action         | RunScript    |
-   | General | Data | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = JSON.parse(JSON.stringify([[$Context.SessionParameters]])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> }  <br> initOCContext(); |
+
+| Tab     | Field          | Value                                                                                     |
+|---------|----------------|-------------------------------------------------------------------------------------------|
+| General | Name           | Initialize Omnichannel Context - Window Variable - Customer Summary                       |
+| General | Order          | 5                                                                                         |
+| General | Hosted Control | Customer Summary                                                                          |
+| General | Action         | RunScript                                                                                 |
+| General | Data           | function initOCContext() { <br> var ocConfig = JSON.parse('[[$Settings.OmniChannelConfig]+]'); <br> var session = JSON.parse(JSON.stringify([[$Context.SessionParameters]])); <br> ocConfig.config.sessionParams = session; <br> window.ocContext = ocConfig; <br> }  <br> initOCContext(); |
 
 ## Update Conversation Context Entities
 
@@ -65,86 +69,86 @@ This topic describes how to create customer summary-related action calls in Unif
 
 ## Omnichannel Session Accepted
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Omnichannel Session Accepted   |
-   | General | Order | 15 |
-   | General | Hosted Control | Communication Panel |
-   | General | Action         | OmnichannelSessionAccepted | 
-   | General | Data | ConversationId=\[\[cid\]\] <br> SessionTabId=\[\[$Session.ActiveSession\]\] <br> From=\[\[from\]\] <br> CanActivateSession=\[\[CanActivateSession\]+\] |
-   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |  '\[\[CanActivateSession\]+\]' == 'True' |
+| Tab      | Field          | Value                                                                                     |
+|----------|----------------|-------------------------------------------------------------------------------------------|
+| General  | Name           | Omnichannel Session Accepted                                                              |
+| General  | Order          | 15                                                                                        |
+| General  | Hosted Control | Communication Panel                                                                       |
+| General  | Action         | OmnichannelSessionAccepted                                                                |
+| General  | Data           | ConversationId=[[cid]] <br> SessionTabId=[[$Session.ActiveSession]] <br> From=[[from]] <br> CanActivateSession=[[$CanActivateSession]+] |
+| Advanced | Condition      | [[$GlobalDictionary.CurrentSessionCount]+] < [[$Global.maxNumberOfSessions]+] <br> '[[$CanActivateSession]+]' == 'True' |
 
 ## Show Dashboards On Data Available
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Show Dashboards On Data Available   |
-   | General | Order | 21 |
-   | General | Hosted Control | CRM Global Manager |
-   | General | Action         | ExecuteOnDataAvailable | 
-   | General | Data | milliseconds=5000 <br> \[\[$Context.LiveWorkItemId\]\] <br> \[\[$Context.OCSessionId\]\] <br> \[\[$Context.LiveWorkStreamId\]\] |
-   | Advanced | Condition | \[\[$GlobalDictionary.CurrentSessionCount\]+\] < \[\[$Global.maxNumberOfSessions\]+\] |
+| Tab      | Field          | Value                                                                                     |
+|----------|----------------|-------------------------------------------------------------------------------------------|
+| General  | Name           | Show Dashboards On Data Available                                                         |
+| General  | Order          | 21                                                                                        |
+| General  | Hosted Control | CRM Global Manager                                                                        |
+| General  | Action         | ExecuteOnDataAvailable                                                                    |
+| General  | Data           | milliseconds=5000 <br> [[$Context.LiveWorkItemId]] <br> [[$Context.OCSessionId]] <br> [[$Context.LiveWorkStreamId]] |
+| Advanced | Condition      | [[$GlobalDictionary.CurrentSessionCount]] < [[$Global.maxNumberOfSessions]]               |
 
 ## Load Customer Summary
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Load Customer Summary   |
-   | General | Order | 200 |
-   | General | Hosted Control | Customer Summary |
-   | General | Action         | Navigate | 
-   | General | Data | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
+| Tab      | Field          | Value                                                                                     |
+|----------|----------------|-------------------------------------------------------------------------------------------|
+| General  | Name           | Load Customer Summary                                                                     |
+| General  | Order          | 200                                                                                       |
+| General  | Hosted Control | Customer Summary                                                                          |
+| General  | Action         | Navigate                                                                                  |
+| General  | Data           | url=/main.aspx?navbar=off&cmdbar=false&pagetype=entityrecord&etn=msdyn_ocliveworkitem&formid=5fe86453-73ea-4821-b6dd-ddc06e1755a1&bodyOnly=true <br> Hidenav=true |
 
 ## Omnichannel Clear Context Entities
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Omnichannel Clear Context Entities |
-   | General | Order | 1 |
-   | General | Hosted Control | CRM Global Manager |
-   | General | Action         | ClearEntityList | 
-   | General | Data | global=True |    
+| Tab      | Field          | Value                          |
+|----------|----------------|--------------------------------|
+| General  | Name           | Omnichannel Clear Context Entities |
+| General  | Order          | 1                              |
+| General  | Hosted Control | CRM Global Manager             |
+| General  | Action         | ClearEntityList                |
+| General  | Data           | global=True                    |
 
 ## Omnichannel Copy Contact Ids To Context
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Omnichannel Copy Contact Ids To Context |
-   | General | Order | 2 |
-   | General | Hosted Control | CRM Global Manager |
-   | General | Action         | CopyToContext | 
-   | General | Data | contactIds = \[\[contact\]+\] |
+| Tab      | Field          | Value                                 |
+|----------|----------------|---------------------------------------|
+| General  | Name           | Omnichannel Copy Contact Ids To Context |
+| General  | Order          | 2                                     |
+| General  | Hosted Control | CRM Global Manager                    |
+| General  | Action         | CopyToContext                         |
+| General  | Data           | contactIds = [[contact]]              |
 
 ## Omnichannel Fetch Context Contacts
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Omnichannel Fetch Context Contacts |
-   | General | Order | 3 |
-   | General | Hosted Control | CRM Global Manager |
-   | General | Action         | DoSearch | 
-   | General | Data | ContextContactSearch <br> global=True |
-   | Advanced | Condition | $Expression('\[\[$Context.contactIds\]+\]' == '' ? "false" : "true") |
+| Tab      | Field          | Value                                 |
+|----------|----------------|---------------------------------------|
+| General  | Name           | Omnichannel Fetch Context Contacts    |
+| General  | Order          | 3                                     |
+| General  | Hosted Control | CRM Global Manager                    |
+| General  | Action         | DoSearch                              |
+| General  | Data           | ContextContactSearch <br> global=True |
+| Advanced | Condition      | $Expression('[[$Context.contactIds]+]' == '' ? "false" : "true") |
 
 ## Omnichannel Save Context Entities on Update
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Omnichannel Save Context Entities on Update |
-   | General | Order | 4 |
-   | General | Hosted Control | Communication Panel |
-   | General | Action         | OmnichannelSaveUpdatedContextEntities | 
-   | General | Data | LiveWorkItemId=\[\[LiveWorkItemId\]+\] |
+| Tab      | Field          | Value                                      |
+|----------|----------------|--------------------------------------------|
+| General  | Name           | Omnichannel Save Context Entities on Update|
+| General  | Order          | 4                                          |
+| General  | Hosted Control | Communication Panel                        |
+| General  | Action         | OmnichannelSaveUpdatedContextEntities      |
+| General  | Data           | LiveWorkItemId=[[LiveWorkItemId]+]         |
 
 ## Refresh Customer Summary Controls
 
-   | Tab | Field      | Value                       |
-   |------------------|----------------------|---------------------------------|
-   | General | Name           | Refresh Customer Summary Controls |
-   | General | Order | 6 |
-   | General | Hosted Control | Customer Summary |
-   | General | Action         | RunScript | 
-   | General | Data | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
+| Tab      | Field          | Value                                                                                     |
+|----------|----------------|-------------------------------------------------------------------------------------------|
+| General  | Name           | Refresh Customer Summary Controls                                                         |
+| General  | Order          | 6                                                                                         |
+| General  | Hosted Control | Customer Summary                                                                          |
+| General  | Action         | RunScript                                                                                 |
+| General  | Data           | function refreshControls() { <br> MscrmControls.FormInitiator.FormInitiatorControl.updateLinkedRecords(); <br> } <br> refreshControls(); |
 
 > [!div class="nextstepaction"]
 > [Next topic: Step 3: Attach customer summary-related action calls to events](customer-summary-step3-attach-action-calls-events.md)    

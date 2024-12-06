@@ -5,10 +5,10 @@ ms.date: 12/03/2020
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Send authentication token
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 To authenticate a customer when they start a chat, pass an authentication token to Omnichannel for Customer Service. This token is used to validate a signed-in customer from a domain, and to extract information based on the context variables that are defined. Custom authentication is optional and is relevant only when the chat widget is hosted outside Power Apps portals.
 
@@ -73,7 +73,7 @@ window.addEventListener("lcw:error", function handleLivechatErrorEvent(errorEven
 });
 ```
 
-### See also
+### Related information
 
 [setAuthTokenProvider](reference/methods/setAuthTokenProvider.md)<br />
 [getAuthTokenProvider](reference/methods/getAuthTokenProvider.md)<br />

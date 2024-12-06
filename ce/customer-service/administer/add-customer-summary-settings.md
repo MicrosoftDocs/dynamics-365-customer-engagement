@@ -3,13 +3,15 @@ title: Manage the enhanced Active Conversation settings | MicrosoftDocs
 description: Manage the enhanced Active Conversation settings.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.date: 12/21/2023
 ms.custom: bap-template 
 ---
 
 # Manage enhanced Active Conversation settings
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 The enhanced Active Conversation experience displays the customer and case details that are relevant to your business. When you enable the **Enhanced active conversation form** option, the **Customer 360**, **Case details**, and **Recent cases** components are available on the **Active Conversation** form by default. You can further customize these components in Power Apps.
 
@@ -98,7 +100,7 @@ Perform the following steps to revert to the required default experience:
 1. Select **Publish All Customizations**.
 
 
-### See also
+### Related information
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md) <br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)

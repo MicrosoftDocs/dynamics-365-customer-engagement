@@ -5,6 +5,7 @@ ms.date: 07/15/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -794,7 +795,7 @@ These attributes return false for both **IsValidForCreate** or **IsValidForUpdat
 Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related entity. Listed by **SchemaName**.
 
 
-### See also
+### Related information
 
 [About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
 [Programming reference for Dynamics 365 Customer Engagement (on-premises)](../../../../customerengagement/on-premises/developer/programming-reference.md)<br />

@@ -1,15 +1,18 @@
 ---
 title: Associate templates with workstreams
-description: Learn how to associate the different templates with workstreams that will be used for incoming conversations in Customer Service.
+description: Learn how to associate the different templates with workstreams that will be used for incoming conversations.
 author: neeranelli
 ms.author: nenellim
-ms.date: 02/29/2024
+ms.reviewer: nenellim
+ms.date: 11/28/2024
 ms.topic: article
 ---
 
 # Associate templates with workstreams
 
-The session, notification, and application tab templates that you create need to be associated with a workstream, so that the Omnichannel system uses the corresponding templates for an incoming conversation.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+The session, notification, and application tab templates that you create need to be associated with a workstream, so that the omnichannel system uses the corresponding templates for an incoming conversation.
 
 After an agent accepts the conversation request, a session starts for which the session template is used. In the session, certain application tabs are required such as dashboard, knowledge article search, and case pages. These application tabs are configured using the application tab templates and are associated with a session.
 
@@ -30,7 +33,7 @@ After you create a workstream, you can modify the default templates that are att
 
 1. Select **Save and close**.
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

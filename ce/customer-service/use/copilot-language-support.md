@@ -5,8 +5,8 @@ author: gandhamm
 ms.author: mgandham
 ms.collection: bap-ai-copilot
 ms.topic: conceptual
-ms.reviewer: 
-ms.date: 04/30/2024
+ms.reviewer: mgandham
+ms.date: 11/28/2024
 ms.custom: bap-template 
 ---
 
@@ -35,6 +35,6 @@ The following scenarios can help you understand the language Copilot uses to gen
 | The UI language is set to Japanese. The Bing Market language is set to Japanese and the location is set to ja-JP. The agents asks a question that Copilot responds to with content from the public web pages. | Copilot returns responses if the restricted Bing search results are available in the set [market code](/bing/search-apis/bing-web-search/reference/market-codes) of ja-JP. |
 
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](../use/use-copilot-features.md)

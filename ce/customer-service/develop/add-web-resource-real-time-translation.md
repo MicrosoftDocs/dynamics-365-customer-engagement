@@ -5,7 +5,7 @@ ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
@@ -50,7 +50,7 @@ Perform the following steps to upload the web resource file for real-time transl
    ![Add a web resource.](../media/real-time-translation-web-resource.png "Add a web resource")
 8. Select **Save**.
 
-### See also
+### Related information
 
 [Enable real-time translation of conversations](../administer/enable-real-time-translation.md)  
 [Real-time translation of conversations](../use/oc-real-time-translation.md)  

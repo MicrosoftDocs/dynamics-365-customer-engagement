@@ -1,26 +1,29 @@
 ---
-title: "Standard Web Application hosted control to load a non-model-driven app page | MicrosoftDocs"
-description: "Learn to create the Standard Web Application hosted control. Also find information about the predefined UII actions supported by it."
-ms.date: 12/31/2019
+
+title: Create a hosted control to load webpages from apps that aren't model-driven
+description: This article explains how to create a Standard Web Application hosted control that can use script injection to load webpages from apps that aren't model-driven.
+ms.date: 03/28/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-search.audienceType: 
-  - customizer
-  - developer
-ms.custom: 
-  - dyn365-USD
+search.audienceType:
+- customizer
+- developer
+ms.custom:
+- dyn365-USD
+ai.usage: ai-assisted
+
 ---
+
 # Standard Web Application (hosted control)
 
-
-
-The Standard Web Application hosted control type is similar to the CRM Page type except that it's intended to host pages from apps that aren't model-driven, such as external webpages, and provides script injection for relevant features of external webpages. Like the CRM Page hosted control, these pages can be automated. The preferred method of automating is through [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] injection, including calling [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] functions that are already defined in the page or manipulating the Document Object Model (DOM). The **RunScript** action can also be used to obtain values from the page.  
+A Standard Web Application hosted control is a type of hosted control that can show and automate webpages from apps that aren't model-driven, such as external websites. You can use script injection to work with the features of the external webpages, such as calling JavaScript functions or changing the Document Object Model (DOM). You can also use the **RunScript** action to inject JavaScript or get values from the webpage. In this article, you'll learn how to make a Standard Web Application hosted control and what actions it can do.
 
 > [!NOTE]
 > This hosted control type doesn't support the [!INCLUDE[pn_hosted_application_toolkit_hat](../includes/pn-hosted-application-toolkit-hat.md)], which facilitates the task of automating the UI of a hosted application. HAT consists of data-driven adapters, descriptive bindings, and automation (Windows workflows) to automate the applications. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Use UII automation adapter to interact with external and web applications](../unified-service-desk/use-uii-automation-adapter-interact-external-web-applications.md)  
 
-<a name="create"></a>   
+<a name="create"></a>
+
 ## Create a Standard Web Application hosted control
 
 While you're creating a new hosted control, the fields on the **New Hosted Control** screen will vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the Standard Web Application hosted control type. More information: [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
@@ -39,12 +42,14 @@ On the **New Hosted Control** screen:
 
 - In the **Display Group** field, specify a panel where this hosted control will be displayed. More information: [Panels](../unified-service-desk/panels-panel-types-panel-layouts.md#Panels)
 
-<a name="actions"></a>   
+<a name="actions"></a>
+
 ## Predefined UII actions
 
 The following are the predefined UII actions available for this hosted control type.  
 
-<a name="Close"></a>   
+<a name="Close"></a>
+
 ### Close
 
 This action is used to close the hosted control.  
@@ -71,7 +76,8 @@ This action is equivalent to selecting the forward button in the browser instanc
 
 This action goes to the initial URL specified for this browser instance.  
 
-<a name="MoveToPanel"></a>   
+<a name="MoveToPanel"></a>
+
 ### MoveToPanel
 
 This action is used to move hosted controls between panels at runtime.  
@@ -84,7 +90,6 @@ This action is used to move hosted controls between panels at runtime.
 ### Navigate
 
 This action is used to navigate to a URL.  
-
 
 |     Parameter     |                                                                                                                                                                                                                                      Description                                                                                                                                                                                                                                      |
 |-------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -105,7 +110,7 @@ Creates a page for creating a new record of the entity specified, and treats the
 |LogicalName|The logical name of the entity for creating a new instance.|  
 
 > [!NOTE]
->  The rest of the parameters should consist of name/value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. More information: Step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md) 
+> The rest of the parameters should consist of name/value pairs. These are the additional pre-populated values in the form for creating a new record for the specified entity. More information: Step 4 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)
 
 ### Open_CRM_Page
 
@@ -125,7 +130,8 @@ Opens an existing instance of the entity specified and identified by the ID, and
 |url|Routes a pop-up window from this hosted control by using this URL as if it were a pop-up window requested from the displayed control.|  
 |frame|The frame from which this pop-up window originated.|  
 
-<a name="RealignWindow"></a>   
+<a name="RealignWindow"></a>
+
 ### RealignWindow
 
 [!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
@@ -138,7 +144,8 @@ This action injects JavaScript into the main frame of the application. You shoul
 |---------------|-----------------|  
 | *See description*|The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they'll be replaced before the script is executed.|  
 
-<a name="SetSize"></a>   
+<a name="SetSize"></a>
+
 ### SetSize
 
 This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.  
@@ -159,7 +166,8 @@ This action can be used to block processing until the URL finishes loading.
 |---------------|-----------------|  
 |Milliseconds|Optional parameter to indicate how long, in milliseconds, to wait before timing out.|  
 
-<a name="events"></a>   
+<a name="events"></a>
+
 ## Predefined events
 
 The following predefined events are associated with this hosted control type.  
@@ -182,12 +190,11 @@ Occurs when the page has finished loading. On a CRM Page type of hosted control,
 
 ### See also
 
- [UII actions](../unified-service-desk/uii-actions.md)   
- [Events](../unified-service-desk/events.md)   
- [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)   
- [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)   
- [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)   
+ [UII actions](../unified-service-desk/uii-actions.md)
+ [Events](../unified-service-desk/events.md)
+ [View predefined actions and events for a hosted control](../unified-service-desk/view-predefined-actions-events-hosted-control.md)
+ [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
+ [Walkthrough 2: Display an external webpage in your agent application](../unified-service-desk/walkthrough-2-display-an-external-webpage-in-your-agent-application.md)
  [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

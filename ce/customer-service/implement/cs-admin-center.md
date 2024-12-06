@@ -6,7 +6,7 @@ ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -123,7 +123,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 See the [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
-### See also
+### Related information
 
 [Help resources for Customer Service](../help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  

@@ -7,13 +7,13 @@ ms.custom:
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.reviewer:
+ms.reviewer: laalexan
 ms.collection: bap-ai-copilot
 ---
 
 # Chat with Customer Service data in Copilot for Microsoft 365 (preview)
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 This article explains how to use Microsoft Copilot for Microsoft 365 to chat with Dynamics 365 Customer Service data by using the Customer Service plugin.
 
@@ -57,7 +57,7 @@ Some examples of prompts are as follows:
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
 
-### See also
+### Related information
 
 [Use Copilot to solve customer issues](use-copilot-features.md)  
 [Understand Copilot language support](copilot-language-support.md)  

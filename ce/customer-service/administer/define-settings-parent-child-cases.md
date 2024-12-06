@@ -5,7 +5,7 @@ ms.date: 06/21/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 search.audienceType: 
   - admin
@@ -55,7 +55,7 @@ You can track multiple issues for a customer or the same issue that's affecting 
 
 1. Select **Save**.
    
-### See also
+### Related information
 
 [Create and manage parent and child cases](../use/customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md)
 

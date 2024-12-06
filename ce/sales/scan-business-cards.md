@@ -68,7 +68,7 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Customize the business card scanner control](customize-business-card-scan-control.md)  
 [Enable or disable saving of business card image](retain-business-card-image-after-scanning.md) 

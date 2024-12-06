@@ -1,17 +1,18 @@
 ---
-title: Use real-time translation in Omnichannel for Customer Service
-description: Learn how real-time language translation for agent and customer chats works in Omnichannel for Customer Service.
-ms.date: 05/31/2023
+title: Use real-time translation of conversations for agents and customers
+description: Learn how real-time language translation for agent and customer chats works.
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
 # Use real-time translation of conversations for agents and customers
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -42,7 +43,7 @@ The following image shows a sample screenshot of the customer experience.
   > [!div class=mx-imgBorder]
   > ![Real-time language translation for the customer.](../media/oc-customer-translated-messages.png "Real-time language translation for the customer")
 
-### See also
+### Related information
 
 [View customer information on Active Conversation form](../use/oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  

@@ -5,6 +5,7 @@ ms.date: 04/02/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -21,8 +22,9 @@ Dynamics 365 provides a custom control that you can embed in your forms to view 
 
 - To add the skill control, you must have the System Administrator or System Customizer security role, or equivalent permissions. For more information about your security role, go to [View your user profile](/power-apps/user/view-your-user-profile).
 - To make sure that the skill control is loaded and displayed for the routed records, you must [allow access to these websites](../implement/system-requirements-omnichannel.md#allow-access-to-websites).
-- [Omnichannel for Customer Service is provisioned](../implement/omnichannel-provision-license.md).
+- [Omnichannel for Customer Service is provisioned](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 - [Unified routing is enabled](../administer/provision-unified-routing.md).
+- For the skills to appear in the skill control, you must [set up unified routing](../administer/set-up-routing-process.md).
 
 ## Add a skill control
 
@@ -78,7 +80,7 @@ Though we don't recommend setting up parameters for the skill control, if you wa
 	</entity>
 </fetch>
 ```
-### See also
+### Related information
 
 [Overview of unified routing](../administer/overview-unified-routing.md)  
 [Set up record routing](../administer/set-up-record-routing.md)  

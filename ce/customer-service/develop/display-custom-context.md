@@ -5,10 +5,9 @@ ms.date: 10/21/2021
 ms.topic: reference
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 # Display custom context in Conversation summary
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -44,7 +43,7 @@ The `isDisplayable` property, when set to `true`, will display the context varia
 ![Display context keys.](../media/context-variable-display.png "Display context keys")
 
 
-### See also
+### Related information
 
 [Send custom context](send-context-starting-chat.md)<br />
 [setContextProvider](reference/methods/setContextProvider.md)

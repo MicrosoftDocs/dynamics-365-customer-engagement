@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 05/25/2023
+ms.date: 09/20/2024
 ms.custom: bap-template
 ---
 
@@ -22,17 +22,13 @@ Your customers who have privacy or security concerns may ask you not to use emai
 
 ## Set privacy options for a contact, account, or lead
 
-1. In Dynamics 365 Sales, open the contact, account, or lead record.
+1. In Dynamics 365 Sales app, open the contact, account, or lead record.  
+1. Open the **Details** tab.  
+1. In the **Contact Preferences** section, set **Follow Email** to **Do Not Allow** or **Allow** as needed.  
+    :::image type="content" source="media/contact-preferences-contact.png" alt-text="Screenshot of a record's contact preferences, with the Follow Email setting highlighted.":::  
+1. Select **Save**.  
 
-1. Open the **Details** tab.
-
-1. In the **Contact Preferences** section, set **Follow Email** to **Do Not Allow** or **Allow** as needed.
-
-    :::image type="content" source="media/contact-preferences-contact.png" alt-text="Screenshot of a record's contact preferences, with the Follow Email setting highlighted.":::
-
-1. Select **Save**.
-
-When you compose an email that includes one or more recipients that don't allow following, email following features are turned off.
+When you compose an email that includes one or more recipients that don't allow following, email following features are turned off.  
 
 - The message doesn't include [a web beacon](email-engagement.md#understand-email-interaction-history) or invisible, one-pixel GIF.
 - Files are attached directly rather than linked, and no links are redirected through Dynamics 365 Sales.
@@ -42,7 +38,7 @@ To view the tracking preferences for all the recipients of a message, select **V
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Turn on email engagement](configure-email-engagement.md)  
 [View message interactions with email engagement](email-engagement.md)  

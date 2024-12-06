@@ -5,7 +5,7 @@ ms.date: 07/25/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -45,7 +45,7 @@ After you have migrated all the workstream configurations from Omnichannel Admin
 
 After upgrading Omnichannel for Customer Service, we recommend that you use the Customer Service admin center app to configure record routing. You can no longer configure record routing in the Omnichannel Administration app because it won't work as expected. The existing workstreams that you created for routing records in the Omnichannel Administration app can't be migrated. Instead, you'll need to recreate them in Customer Service admin center, and then enable them for unified routing.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure work classification rulesets](configure-work-classification.md)  

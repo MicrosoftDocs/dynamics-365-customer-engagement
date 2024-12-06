@@ -1,17 +1,26 @@
 ---
 title: Overview of SMS channels
-description: This article gives an overview of the SMS channels and how you can configure them. 
+description: Learn more about SMS channels and how to configure them so that service representatives can better assist their customers. 
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim 
+ms.reviewer: mgandham
 ms.topic: overview 
-ms.date: 02/17/2023
+ms.date: 10/09/2024
 ms.custom: bap-template 
 ---
 
 # Overview of SMS channels
 
-The SMS channel in Omnichannel for Customer Service allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate agent. Agents can view incoming SMS requests on their dashboard and respond accordingly. While agents can't send messages, Omnichannel for Customer Service supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](../administer/outbound-messaging.md) 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+The SMS channel in the application allows your organization to connect to customers via text messages. Your customers can send text messages and connect with an appropriate service representative. Service represenatives can view incoming SMS requests on their dashboard and respond accordingly. While service representatives can't send messages, the application supports outbound messaging via Power Automate flows. More information: [Configure outbound messaging](../administer/outbound-messaging.md)
+
+The following scenarios are supported for SMS:
+
+- Service representatives can receive SMS conversations from customers and then exchange messages.
+- Admins can configure Power Automate flows to proactively send outbound messages, such as campaigns, to customers
+
+Service representatives can't proactively reach out to customers by starting an SMS conversation in the service representative UI.
 
 You can use the same phone number for the SMS channel, and for inbound and outbound calling in the voice channel. SMS is currently only available in US, Canada, and Puerto Rico. For detailed information about numbers and eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
@@ -23,10 +32,9 @@ You must obtain an active subscription of **Dynamics 365 Customer Service Digita
 
 ## Supported SMS channels
 
-In Omnichannel for Customer Service, you can configure the SMS channel as follows:
+In the application, you can configure the SMS channel as follows:
 - Configure SMS channel using Azure Communication Services
 - Configure SMS channel for Twilio
-- Configure SMS channel for TeleSign
 
 > [!NOTE]
 > SMS isn't supported with Azure direct routing. More information: [Azure direct routing](/azure/communication-services/concepts/telephony-sms/telephony-concept#azure-direct-routing)
@@ -34,12 +42,11 @@ In Omnichannel for Customer Service, you can configure the SMS channel as follow
 ## Next steps
 
 [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)  
-[Configure SMS channel for Twilio](../administer/Configure-sms-channel-twilio.md)  
-[Configure SMS channel for TeleSign](../administer/configure-sms-channel.md)  
+[Configure SMS channel for Twilio](../administer/Configure-sms-channel-twilio.md)    
 
-### See also
+### Related information
 
-[Channels in Omnichannel for Customer Service](channels.md)  
+[Channels](channels.md)  
 [SMS FAQ](../administer/faqs.md#sms)  
 [Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
 

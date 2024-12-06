@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -121,7 +122,7 @@ ms.collection: get-started
     > - If failure or warning times are set to less than one hour, the processing of failure or warning actions might be delayed.
     > - Make sure you author SLAs in a way that best suits your company's needs. For example, in the SLA **Applicable When** conditions, we recommend that you don't use case fields that are updated too frequently because any change to the field value might lead to the SLA item being canceled.
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

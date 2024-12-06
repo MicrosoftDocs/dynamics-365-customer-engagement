@@ -1,14 +1,18 @@
 ---
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 11/28/2024
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.collection: bap-ai-copilot
 ---
 
 # Set up auto-summarization for conversations
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Agents can collaborate with other agents and contacts directly while they're working in Dynamics 365 Customer Service. To help agents easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Agents can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps taken.
 
@@ -62,7 +66,7 @@ Perform the following steps to enable auto-generated summary for Microsoft Teams
 :::image type="content" source="../media/cs-ai-generated-summary-setting.png" alt-text="Screenshot of the AI-generated summary settings for Teams conversations.":::
 
 
-### See also
+### Related information
 
 [View and share an AI-generated conversation summary in Teams](../use/cs-ai-generated-summary.md)<br>
 [Overview of Customer Service workspace](../implement/csw-overview.md)  

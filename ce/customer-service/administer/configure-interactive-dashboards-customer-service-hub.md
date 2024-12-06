@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -314,7 +315,7 @@ Similarly, if you go to the **Priority** field to modify the colors of the case 
 
 ![Change dashboard color for case priority.](../media/priority-color-modify.png "Change dashboard color for case priority")
   
-### See also
+### Related information
 
 [Use interactive dashboards to effectively manage service cases in the Customer Service Hub](../use/customer-service-hub-user-guide-dashboard.md) <br>
 [Create and edit dashboards](../../customerengagement/on-premises/customize/create-edit-dashboards.md)   <br>

@@ -5,6 +5,7 @@ ms.date: 12/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -19,8 +20,6 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 
 The search control for the subject tree entity is available by default for out-of-the-box and custom forms. If you'd like to disable the search control, contact Microsoft support.
 
-> [!NOTE]
-> The availability of search control by default is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
   
 ## Create or edit a subject
 
@@ -41,7 +40,7 @@ You can create or edit a subject in the Customer Service admin center app.
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the Visibility toggle if you want the subject to be available for the agent.
+    - Switch on the **Visibility** toggle if you want the subject to be available for the agent.
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 
@@ -71,10 +70,9 @@ You can select **Open old subject management page** to use the older experience.
 > [!NOTE]
 > We recommend that you create not more than 1,000 subjects including child subjects to avoid performance issues.
 
-### See also
+### Related information
 
-[Overview of case management](overview-cases.md)  
-[Enable search control for the subject entity](../search-control-for-subjects.md)  
+[Overview of case management](overview-cases.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

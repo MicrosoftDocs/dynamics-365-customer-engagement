@@ -3,10 +3,10 @@ title: Use Copilot to generate knowledge drafts from cases (preview)
 description: Learn how to use Copilot to generate knowledge drafts from cases.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/08/2024
+ms.date: 11/28/2024
 ms.custom: bap-template
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 If you select the option to propose knowledge article for the case on the resolve case dialog, Copilot generates a knowledge draft when you select resolve.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisite
 
@@ -37,7 +37,7 @@ Use the following steps to generate a knowledge draft while you are resolving a 
 
     :::image type="content" source="../media/screenshot-of-propose-knowledge-draft-from-case.png" alt-text="A screenshot of knowledge from case proposed by Copilot.":::
 
-### See also
+### Related information
 
 [Enable Copilot to suggest knowledge from cases](../administer/enable-copilot-suggest-knowledge-from-cases.md)  
 [Use Copilot to summarize cases and conversations](copilot-use-summary.md)  

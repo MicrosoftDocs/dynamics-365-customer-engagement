@@ -1,28 +1,27 @@
 ---
-title: "Install Dynamics 365 Field Service | MicrosoftDocs"
-description: Learn how to install Dynamics 365 Field Service.
+title: Install Dynamics 365 Field Service
+description: Learn how to install Dynamics 365 Field Service on a Dataverse environment.
 ms.topic: how-to
-ms.date: 05/10/2024
+ms.date: 07/17/2024
 ms.author: jacoh
 author: jasonccohen
-ms.search.app:
-  - D365CE
-  - D365FS
 ---
 
 # Install Dynamics 365 Field Service
 
-Once you get a free trial or purchase a license for Dynamics 365 Field Service, the Field Service application installs automatically. Verify the installation is complete.
+After purchasing licenses for Field Service, you have to [install the app on a Dataverse environment](/power-platform/admin/manage-apps#install-an-app). purchase a license for the product.
 
-If the installation is complete, the "Field Service" and "Field Service Mobile" apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
+When you [get a free trial](trial-signup.md), the Field Service application installs automatically on a new environment. After purchasing a license, you can [change the environment type to a production environment](/power-platform/admin/switch-environment).
 
-```https://[your-environment-name].crm.dynamics.com/apps```
+Once the installation is complete, the "Field Service" and "Field Service Mobile" apps appear in the list of apps when you sign in to your Dynamics 365 organization. You can find these apps by going to:
+
+```https://[your-environment-URL].crm.dynamics.com/apps```
 
 :::image type="content" source="media/admin-apps.svg" alt-text="Screenshot of Field Service apps.":::
 
 ## Install and set up the Dynamics 365 Field Service mobile app
 
-[Set up the mobile app](mobile-power-app-get-started.md) for frontline workers to use to view and complete work orders in the field.
+[Set up the mobile app](mobile/set-up-field-service-mobile.md) for frontline workers to use to view and complete work orders in the field.
 
 ## Next steps
 

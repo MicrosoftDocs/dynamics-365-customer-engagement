@@ -5,13 +5,13 @@ ms.date: 04/04/2024
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
 # FAQ about Facebook channel setup
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 This article provides answers to frequently asked questions (FAQs) about configuring the Facebook channel in Omnichannel for Customer Service.
 
@@ -39,7 +39,7 @@ If you grant roles to an existing Facebook user, make sure the user has a Meta D
 
 If you're creating a test user within the Facebook app, select to automatically install the app, and select the pages_messaging permission.​
 
-### See also
+### Related information
 
 [Configure a Facebook channel](configure-facebook-channel.md)<br>
 [Understand and create workstreams](create-workstreams.md)<br>

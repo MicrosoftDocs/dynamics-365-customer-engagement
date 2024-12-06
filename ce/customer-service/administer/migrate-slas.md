@@ -5,6 +5,7 @@ ms.date: 06/16/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -37,7 +38,7 @@ To understand how you can migrate service-level agreements, see [Migrate automat
 
 For queries about migration, see [Migration tool FAQ](migrate-tool-faqs.md#migration-tool-faq).
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

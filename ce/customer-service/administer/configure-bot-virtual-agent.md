@@ -1,18 +1,18 @@
 ---
 title: Integrate a Copilot Studio bot
-description: Use this article to get instructions on how to integrate a Copilot Studio bot in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+description: Use this article to get instructions on how to integrate a Copilot Studio bot in your contact center.
+ms.date: 11/28/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.collection:
+ms.reviewer: nenellim
+ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
 # Integrate a Copilot Studio bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -20,111 +20,84 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Microsoft Copilot Studio allows organizations to automate routine conversations, letting agents focus on high-value interactions. When a conversation is escalated from a bot to a human agent, the agent can see the full transcript of the bot conversation and get complete context while engaging with the customer. More information: [Enable a bot to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
+Use bots to simulate human-like conversations for routine activities so that you can let your agents focus on high-value interactions. You can use Microsoft Copilot Studio to create bots that can interact with customers in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
-When you integrate a Copilot Studio bot with Omnichannel for Customer Service, you get the following capabilities for bot conversations:
+The following capabilities are available for the bot conversations:
 
 - Seamlessly integrate your bot with all channels without needing to add channel-specific code in the bot.
-- Transfer bot conversations to human agents, and include the full context of the conversation.
-- Analyze the bot transcript that's available in Microsoft Dataverse after the chat is completed.
+- Configure interactive voice response (IVR) capabilities for voice-enabled bots.
+- Configure contextual transfers to human agents.
+- Analyze the bot transcript that's available in Microsoft Dataverse after the conversation is completed.
 - Configure routing rules to selectively route incoming requests to bots based on context, such as issue type or customer type. For example, you can route low-complexity issues to bots, or route the conversation to a sales or support bot based on the webpage browsing history of the customer.
 - Monitor the bot conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use the historical dashboards to get insights into the effectiveness of the bots through metrics, such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 
+When a conversation is escalated from a bot to a representative, the representative can see the full transcript of the bot conversation and get complete context while engaging with the customer. Learn more in [Enable a bot to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
+
+
 ## Prerequisites
 
-Before you integrate Copilot Studio bots in Omnichannel for Customer Service, check the following:
+You must have:
+ - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
+ - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
+ - The CCI Admin security role to access the bot you create in Customer Service admin center or Contact Center admin center in Copilot Studio.
+ - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles?context=/dynamics365/contact-center/context/implement-context)
 
-1. You must have:
+## Create a Copilot Studio bot
 
-    - A product license for Copilot Studio. More information: [Licensing for Copilot Studio](/power-virtual-agents/requirements-licensing-subscriptions)
+You can create Copilot Studio bots in one of the following ways:
 
-    - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements. More information: [Licensing](../implement/system-requirements-omnichannel.md#licensing)
-1. You must have the Omnichannel administrator role. More information: [Manage user roles](../implement/add-users-assign-roles.md)
-1. You'll need an application registered on the Azure portal before connecting to Omnichannel for Customer Service. More information: [Register an application with Microsoft Entra ID](/entra/identity-platform/howto-create-service-principal-portal)
-1. You must have a preconfigured bot that can integrate with Omnichannel for Customer Service. More information: [Configure seamless and contextual hand-off to Omnichannel for Customer Service](/power-virtual-agents/configuration-hand-off-omnichannel)
-
-## Install Copilot Studio extensions
-
-Copilot Studio lets you seamlessly hand off voice and text-based conversations to human agents using the chat, digital messaging, and voice channels in Dynamics 365 Customer Service. For your bot to hand off conversations to the omnichannel interface, you must install the Copilot Studio extension solutions for Dynamics 365 Customer Service.
-
-To do so, perform the following steps:
-
-1. [Ensure the prerequisites are met](/microsoft-copilot-studio/configuration-hand-off-omnichannel#prerequisites).
-2. [Install the extension solutions](/microsoft-copilot-studio/configuration-hand-off-omnichannel#install-extension-solutions).
-3. Verify if the extension solutions are successfully installed by checking whether the extension solution variables are available in Copilot Studio.
-
+- TCreate the bot in the Dynamics 365 Contact Center admin center and then navigate to Copilot Studio to finish the configuration. Learn more at [add a bot](/dynamics365/customer-service/administer/manage-your-bots?context=/dynamics365/contact-center/context/administer-context).
+- Create the bot in Copilot Studio, which is then available in the Dynamics 365 Contact Center admin center. Learn more in:
+     - [Create and delete copilots](/microsoft-copilot-studio/authoring-first-bot)
+     - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
+     - [Create voice-enabled bots from templates](/microsoft-copilot-studio/voice-build-from-template)
+     
 ## Connect your Copilot Studio bot to omnichannel instance
 
-Follow the procedure in the section [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-your-bot-to-omnichannel-for-customer-service) to connect your Copilot Studio bot to the omnichannel instance.
+For the bot to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the bot with your application. Follow the procedure in [Connect your Copilot Studio bot to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot Studio bot to the omnichannel instance. 
+
+When your customers need to speak with a representative, your bot can seamlessly hand off the conversation. When your bot hands off a conversation, it can share the full history of the conversation, and all relevant variables. Make sure you have an escalation article configured in your bot to hand off the conversation to a representative. Learn more in [hand off to a live agent](/microsoft-copilot-studio/advanced-hand-off).
+
+## Set up bot capabilities
+
+In Copilot Studio, you can add the following capabilities to your bot to finish your setup:
+
+- Add knowledge sources to your bot to help it answer customer questions. Learn more in [Add knowledge sources to your bot](/microsoft-copilot-studio/knowledge-copilot-studio).
+- Configure multilingual bots to support multiple languages. Learn more in [Configure multilingual bots](/microsoft-copilot-studio/multilingual).
+-  IVR capabilities that are specific to voice-enabled bots such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR bots](voice-channel-pva-bots.md).
+- [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
+
+## Add a bot to a workstream
+
+In the Customer Service admin center app, select the Copilot Studio bot from the list of bots in the [**Workstreams**](/dynamics365/customer-service/administer/create-workstreams?context=/dynamics365/contact-center/context/administer-context) area. Learn more in [Add a bot to a workstream](/dynamics365/customer-service/administer/create-workstreams#add-a-bot-to-a-workstream?context=/dynamics365/contact-center/context/administer-context).
 
 > [!NOTE]
-> If you're using multiple bots, make sure that you create unique applications and have unique application IDs for each bot.
+> - You can add only one bot per workstream.
+> - Bots can receive conversations only if they're added to push-based workstreams.
+> - Voice-enabled bots that you create in the Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. Classic bots aren't supported in the enhanced voice experience. To create classic bots for existing voice workstreams that aren't migrated, use Copilot Studio.
 
-## Configure your Copilot Studio bot in the admin app
 
-In the Customer Service admin center app, select the Copilot Studio bot from the list of bots in the **Workstreams** area, so the bot can be used to hand off conversations to human agents. For more information, see [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream).
+### Configure context variables for the Copilot Studio bot
 
-> [!NOTE]
-> Bots can receive conversations only if they're added to push-based workstreams.
+After you configure your bot and add it to a workstream, you can configure context variables to [route work items](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context). You can also share context from Omnichannel with your Copilot Studio bot to create a rich and personalized experience. For information about creating context variables, go to [Manage context variables](/dynamics365/customer-service/administer/manage-context-variables?context=/dynamics365/contact-center/context/administer-context). For information about configuring context variables for Copilot Studio bots, go to [Configure context variables for Copilot Studio bot](/dynamics365/customer-service/administer/context-variables-for-bot#context-variables-for-copilot-studio-bots?context=/dynamics365/contact-center/context/administer-context).
 
-## Enable a human agent to transfer a conversation back to a bot
+## Add a bot to a queue
 
-Some support scenarios may require a human agent to transfer a conversation back to a Copilot Studio bot after delivering personalized support. This transfer from human agent to bot may be used to provide further assistance with basic, repetitive tasks, or to collect additional data, as in a customer survey.
+You can add a bot to the queue so that the bot can receive conversations from the queue. Learn more in [create and manage queues for unified routing](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context).
 
-You can facilitate the transfer of a conversation from a human agent back to a bot in the following ways:
-
-- Create two bots that reside in two queues
-- Create two bots that reside in the same queue
-
-### Two bots in two queues
-
-In this scenario, a bot has transferred a conversation to a human agent. The human agent will transfer the conversation again to another bot in another queue.
-
-1. A customer starts a conversation.
-2. The conversation is routed to Queue 1.
-3. The first bot (Bot A) accepts the conversation.
-4. The customer requests to chat with a human agent.
-5. The conversation is transferred to a human agent within Queue 1.
-6. The customer converses with the human agent.
-7. The human agent has completed delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in Queue 2.
-8. The human agent is disconnected from the conversation.
-9. The conversation routed to Bot B in Queue 2.
-10. The system triggers Bot B to send a greeting message.
-11. The customer now chats with Bot B.
-
-### Two bots in one queue
-
-In this scenario, after a bot has transferred a conversation to a human agent, the agent will transfer the conversation to another bot in the same queue when the agent's task is over. For the conversation to flow correctly, you must set the first bot (Bot A) with the highest capacity, the human agent with the next highest capacity, and the second bot (Bot B) with the lowest capacity.
-
-1. A customer starts a conversation that is routed to a queue.
-2. The first bot (Bot A) that has the highest capacity accepts the conversation.
-3. The customer requests to chat with a human agent.
-4. The conversation is transferred to a human agent as the agent has second-highest capacity.
-5. The customer chats with the human agent.
-6. The human agent has finished delivering support and wants to hand off the conversation to a second bot (Bot B), which resides in the same queue.
-7. The human agent is disconnected from the conversation, and the conversation is routed to Bot B.
-8. Bot B receives the messages in the following order:
-    - A conversation update that the “Bot is added”
-    - The Omnichannel Set context event
-9. The system triggers Bot B to send a greeting message.
-10. The customer now chats with Bot B.
-
-## Configure context variables for the Copilot Studio bot
-
-After you've configured your bot and added it to a workstream, you can configure context variables to route work items. You can also share context from Omnichannel with your Copilot Studio bot to create a rich and personalized experience. For information about creating context variables, see [Manage context variables](manage-context-variables.md). For information about configuring context variables for Copilot Studio bots, see [Configure context variables for Copilot Studio bot](context-variables-for-bot.md#context-variables-for-copilot-studio-bots).
 
 ## Automatically close a conversation
 
-When a bot receives a conversation that's subsequently not escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
+When a bot receives a conversation that isn't escalated to a human agent, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
-This conversation will then appear in the **Closed** state in the Omnichannel for Customer Service dashboard and in the **Resolved/abandoned** state in the Copilot Studio dashboard. For more information on the state of conversations, see [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
+This conversation appears in the Omnichannel for Customer Service dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
 ## End bot conversation
 
-You must configure the Copilot Studio web app bot to end a conversation. More information: [End conversation](/power-virtual-agents/authoring-create-edit-topics#end-the-conversation)
+You must include an end of conversation article in a Copilot Studio bot to provide a clear and natural conclusion to the interaction, enhancing the overall user experience. It also allows the bot to suggest next steps, gather feedback, and handle any final errors, ensuring the user leaves the interaction satisfied. 
 
-After a customer closes the chat window, you must also configure a context variable that explicitly ends the conversation in Omnichannel for Customer Service.
+In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-bot-conversation) that explicitly ends the conversation in Omnichannel for Customer Service.
 
 1. In Copilot Studio, for the selected bot, add a new topic.
 
@@ -140,8 +113,6 @@ After a customer closes the chat window, you must also configure a context varia
 
 1. In **Add node**, select **End the conversation**, and then select **Transfer to agent**.
 
-    :::image type="content" source="../media/end-bot-conversation.png" alt-text="Configure end conversation topic in Copilot Studio.":::
-
 1. Go to the topic in which you need to invoke the topic for ending the bot conversation in Omnichannel for Customer Service, and use the **Go to another topic** option in **Add a node**.
 
 1. Select the topic that you created for ending the bot conversation.
@@ -150,22 +121,28 @@ After a customer closes the chat window, you must also configure a context varia
 
 ### Limitations
 
+
 | Description     | Limitation     |
 |-----------------|----------------|
-| **Adaptive cards** An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. More information: [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li></ul> |
-| **Typing** A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it is working to fulfill a request or compile a response. | Typing indicators won't appear. |
-| **Format bot messages** You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio does not support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
-| **OAuth card in Microsoft Teams** Using a chat bot and presenting an OAuth card in the Microsoft Teams channel. | In Copilot Studio, the sign-in node presents an OAuth card and it doesn't work properly. |
+| **Adaptive cards**</br>An adaptive card is a customizable card that can contain any combination of text, speech, images, buttons, and input fields.|<ul><li> You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/power-virtual-agents/advanced-use-skills) </li><li> Adaptive card styling isn't supported.</li></ul> |
+| **Typing**</br>A bot receives a typing activity to indicate that the user is typing a response. A bot may send a typing activity to indicate to the user that it's working to fulfill a request or compile a response. | Typing indicators don't appear. |
+| **Format bot messages**</br>You can set the optional `TextFormat` property to control how the text content of your message is rendered. | <ul><li> Copilot Studio doesn't support Markdown with images and text. </li><li>When Copilot Studio sends Markdown text, there's an extra space between lines. </li></ul>|
+| **OAuth card in Microsoft Teams**</br>Using a chat bot and presenting an OAuth card in the Microsoft Teams channel. | In Copilot Studio, the sign-in node presents an OAuth card and it doesn't work properly. |
 
 ## Privacy notice
 
-You understand that your data may be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages will be shared with the bot which could be interacting with a third-party system based on the integration done by you. For more information on how we process your data, see [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+You understand that your data might be transmitted and shared with external systems and that your data may flow outside of your organization's compliance boundary (even if your organization is in a Government Cloud environment). For example, your messages are shared with the bot which could be interacting with a third-party system based on the integration done by you. Learn more about how we process your data in [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ### Troubleshoot issues for bots
 
 [How to end a bot conversation in Omnichannel for Customer Service](/troubleshoot/dynamics-365/customer-service/omnichannel-for-customer-service/pva-conversations-active-dashboard)
 
-### See also
+
+## Next steps
+
+[Bot transfer scenarios](/dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml) 
+
+### Related information
 
 [Manage your bots](manage-your-bots.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

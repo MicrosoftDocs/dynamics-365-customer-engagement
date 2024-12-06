@@ -1,11 +1,11 @@
 ---
 title: Configure work classification rulesets
 description: Learn how to configure work classification rulesets for unified routing.
-ms.date: 06/14/2024
+ms.date: 11/25/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 searchScope:
 - D365-App-customerservicehub
@@ -17,6 +17,8 @@ searchScope:
 ---
 # Configure work classification rulesets for unified routing
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
 
 Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They're optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
@@ -25,6 +27,10 @@ Work classification rules can be written by using the logical declarative decisi
 
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
+
+## Prerequisite
+
+You need the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
 
 ## How classification rulesets work
 
@@ -37,10 +43,6 @@ After all the work classification rulesets are run, the system evaluates the rou
 In work classification rulesets, the values set in one of the rule items of a ruleset can be used in the next rulesets' rule items. For example: If in output section of one of the rule items of ruleset 1, priority is set to High; then any next ruleset rule item can use the priority variable and corresponding value "High" to set value for another attribute, such as, "If Priority equals High, set severity to critical".
 
 For a rule item, you can set the output values for up to five attributes.
-
-## Prerequisite
-
-You need the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
 
 ## Create work classification rulesets
 
@@ -89,7 +91,7 @@ Follow these steps to create a logical skill classification ruleset:
 7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
-   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models.
+   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models. For one skill, if you use different rating models in the conversation and for the agent, or in the same conversation, assignment won't work as expected.
    > - When you reroute a work item, new skills are appended to the existing ones if any.
 
 ## Create classification rulesets based on capacity profiles
@@ -143,7 +145,7 @@ After you create the rules, you can change the order in which the rules should b
 
 :::image type="content" source="../media/work-classification-rules-list.png" alt-text=" Work classification rules list":::
 
-### See also
+### Related information
 
 [Create a workstream for unified routing](create-workstreams.md)  
 [Set up record routing](set-up-record-routing.md)  

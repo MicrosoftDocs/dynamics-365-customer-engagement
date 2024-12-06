@@ -22,7 +22,7 @@
       href: create-quote-pdf.md
     - name: View and manage records in focused view
       href: focused-view.md
-    - name: Enable focused view and set it as default
+    - name: Configure focused view
       href: set-focused-view-as-default.md
     - name: Work with views
       href: work-with-views.md
@@ -101,6 +101,8 @@
                   href: import-data.md
             - name: Enable and administer Sales Insights features
               href: intro-admin-guide-sales-insights.md
+            - name: Advanced settings in the new experience (preview)
+              href: advanced-settings-new-experience.md
         - name: Installation FAQs
           href: faq-installation.md
         - name: Customize your sales app
@@ -159,8 +161,6 @@
           href: enable-address-suggestion.md
         - name: Customize the business card scanner control
           href: customize-business-card-scan-control.md
-        - name: Integrate LinkedIn Sales Insights
-          href: install-lsi-solution.md
         - name: Integrate ZoomInfo app
           items:
             - name: Install ZoomInfo app
@@ -177,16 +177,22 @@
           href: copilot-overview.md
         - name: Turn on and set up Copilot in Dynamics 365 Sales
           href: enable-setup-copilot.md
+        - name: Configure fields for summary and recent changes
+          href: copilot-configure-summary-fields.md
+        - name: Configure fields for what's new
+          href: copilot-configure-whatsnew-field.md
+        - name: Configure Copilot to use SharePoint sites
+          href: copilot-sharepoint-config.md
+        - name: Enable Copilot email assist
+          href: enable-copilot-email-assist.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
-        - name: Copilot data movement across geographies
-          href: sales-copilot-data-movement.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
     - name: Overview of focused view
       href: configure-focused-view.md
       items:
-        - name: Configure focused view as default
+        - name: Configure focused view
           href: set-focused-view-as-default.md
         - name: Enable focused view for all records
           href: enable-focused-view.md
@@ -274,7 +280,7 @@
       items:
         - name: Lead management overview
           href: lead-management-overview.md
-        - name: Define lead qualification experience
+        - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
         - name: Enable duplicate lead detection
           href: enable-duplicate-lead-detection.md
@@ -284,8 +290,16 @@
           href: enable-email-validation.md
         - name: Enable email validation for custom forms
           href: enable-email-validation-custom-forms.md
-        - name: Integrate LinkedIn Sales Navigator solutions
-          href: /dynamics365/linkedin/integrate-sales-navigator?context=/dynamics365/context/sales-context
+        - name: Sync LinkedIn leads
+          items:
+            - name: Sync LinkedIn leads
+              href: linkedin/sync-linkedin-leads.md
+            - name: Install the LinkedIn Lead Gen solution
+              href: linkedin/install-linkedin-connector.md
+            - name: Create matching strategy to update existing LinkedIn leads
+              href: linkedin/configure-matching-strategy.md
+            - name: Connect Dynamics 365 Connector with LinkedIn
+              href: linkedin/connect-dynamics-365-linkedin.md
         - name: Predictive lead scoring
           items:
             - name: Configure predictive lead scoring
@@ -542,7 +556,7 @@
                   href: wa-delete-deactivate-assignment-rule.md
                 - name: Understand record distribution in assignment rules
                   href: understand-lead-distributions-assignment-rules.md
-            - name: View and assign unassigned records
+            - name: View assigned records and details
               href: wa-manage-unassigned-records.md
             - name: Migrate assignment rules and segments
               href: wa-migrate-assignment-rules-segments.md
@@ -579,7 +593,7 @@
                   href: custom-sms-custom-api.md
                 - name: Define the custom channel
                   href: custom-define-sms-definition.md
-            - name: Edit phone numbers
+            - name: Manage phone numbers for SMS
               href: edit-phone-numbers.md
             - name: Add text message option to custom forms
               href: add-sms-option-custom-forms.md
@@ -694,8 +708,30 @@
               href: customize-template-apps.md
         - name: Enable sales usage reports
           href: enable-sales-usage-reports.md
+    - name: LinkedIn integrations
+      items: 
+        - name: LinkedIn Sales Navigator
+          items:
+            - name: Integrate LinkedIn Sales Navigator
+              href: linkedin/integrate-sales-navigator.md
+            - name: Install and enable LinkedIn Sales Navigator
+              href: linkedin/install-sales-navigator.md
+            - name: Disable LinkedIn Sales Navigator
+              href: linkedin/disable-sales-navigator.md
+            - name: Uninstall LinkedIn Sales Navigator
+              href: linkedin/uninstall-sales-navigator.md
+            - name: Add Sales Navigator controls to forms
+              href: linkedin/add-sales-navigator-controls-forms.md
+            - name: LinkedIn integration FAQs
+              href: linkedin/faqs-linkedin.md
+        - name: LinkedIn Sales Insights
+          items:
+            - name: Integrate LinkedIn Sales Insights
+              href: install-lsi-solution.md
     - name: Dynamics 365 Sales mobile
       items:
+        - name: Overview
+          href: sales-mobile/dynamics-365-sales-mobile-app.md
         - name: Prerequisites for Dynamics 365 Sales mobile
           href: sales-mobile/prereq-sales-mobile.md
         - name: Manage forms
@@ -735,8 +771,6 @@
               href: view-understand-org-charts.md
         - name: Work with invalid email addresses
           href: work-invalid-email-addresses.md
-        - name: Use the LinkedIn Sales Insights tab
-          href: understand-lsi-accounts-form.md
         - name: Use ZoomInfo app data
           href: use-zoominfo-app-data.md
         - name: Scan business cards
@@ -747,16 +781,20 @@
           href: copilot-overview.md
         - name: Use Copilot in Dynamics 365
           items:
-            - name: Open Copilot
+            - name: Ask Copilot questions
               href: use-sales-copilot.md
+            - name: Prompt guide reference
+              href: copilot-prompt-guide.md
             - name: Get information
               href: copilot-get-information.md
             - name: Stay ahead
               href: copilot-stay-ahead.md
-            - name: Ask questions
+            - name: Ask about recent changes to your sales records
               href: copilot-ask-questions.md
             - name: Get content recommendations and answers from SharePoint
               href: copilot-get-doc-suggestions.md
+            - name: Default attributes used in Copilot summaries
+              href: understand-copilot-summaries.md
         - name: Compose and send email messages using Copilot
           href: compose-send-email-copilot.md
         - name: View and copy email summary
@@ -891,6 +929,12 @@
           href: re-open-lead-sales.md
         - name: Nurture sales from lead to order
           href: nurture-sales-from-lead-order-sales.md
+        - name: Sync LinkedIn leads
+          items:
+            - name: Sync LinkedIn leads
+              href: linkedin/sync-linkedin-leads.md
+            - name: Review and analyze leads
+              href: linkedin/review-leads.md  
         - name: Lead management FAQs
           href: faq-lead.md          
     - name: Opportunity management
@@ -1085,6 +1129,24 @@
               href: get-real-time-call-data-through-teams-call.md
         - name: Conversation intelligence FAQs
           href: faq-conversation-intelligence.md      
+    - name: LinkedIn integrations
+      items: 
+        - name: LinkedIn Sale Navigator
+          items:
+            - name: Integrate LinkedIn Sales Navigator
+              href: linkedin/integrate-sales-navigator.md
+            - name: See profile pictures
+              href: linkedin/see-profile-pictures.md
+            - name: Data validation capability
+              href: linkedin/data-validation.md
+            - name: View Sales Navigator controls on forms
+              href: linkedin/view-sales-navigator-forms.md
+            - name: LinkedIn integration FAQs
+              href: linkedin/faqs-linkedin.md
+        - name: LinkedIn Sales Insights
+          items:
+            - name: Use the LinkedIn Sales Insights tab
+              href: understand-lsi-accounts-form.md           
     - name: Dynamics 365 Sales mobile
       items:
         - name: Overview
@@ -1115,6 +1177,8 @@
               href: use-sales-hub-on-dynamics-365-mobile.md
             - name: Actions supported in online and offline mode
               href: Features-in-mobile-offline.md
+            - name: Sales mobile app vs Dynamics 365 for phones and tablets app
+              href: sales-mobile/mobile-apps-difference.md
 
 - name: Developer guide
   items:

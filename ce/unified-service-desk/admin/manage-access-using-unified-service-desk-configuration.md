@@ -1,15 +1,14 @@
 ---
 title: "Use Unified Service Desk configuration to manage access | MicrosoftDocs"
 description: "Learn how to create configurations to manage agent access to components without having to manage their security roles."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 tags: MigrationHO
 ---
 # Use configurations to manage access to Unified Service Desk

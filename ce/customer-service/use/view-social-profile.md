@@ -5,6 +5,7 @@ ms.date: 05/19/2022
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -37,7 +38,7 @@ Track the high influencers and the customers for your business, and save them as
     The social profile form shows the name, profile link of the contact, and the cases associated with this social profile. You can also view the influencer score if it is included as part of the social feed.  
   
  
-### See also
+### Related information
 
 [Sample application using Microsoft Dynamics CRM Social Care Framework](/previous-versions/dynamicscrm-2013/developer-articles/dn744885(v=crm.6))
 

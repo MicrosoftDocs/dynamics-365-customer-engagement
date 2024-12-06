@@ -3,7 +3,7 @@ title: Automatically create a case from an email in web client
 description: Know how to automatically create a case from an email in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 06/21/2024
@@ -123,7 +123,7 @@ Reduce the need for manually creating cases from incoming emails and increase th
 ## Manage automatic case creation from a queue form  
  You can create or manage an automatic case creation rule from a queue form, too. To do this, open the queue record, and then on the command bar, select **Email to Case Settings**.  
 
-### See also  
+### Related information  
 [Automatically route cases using routing rule sets](create-rules-automatically-route-cases.md)    </br>
 [Create and manage queues](set-up-queues-manage-activities-cases.md)
 

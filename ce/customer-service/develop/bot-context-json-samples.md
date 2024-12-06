@@ -5,7 +5,7 @@ ms.date: 07/21/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 # Code samples for parsing activity JSON
@@ -125,7 +125,7 @@ This article includes some samples for parsing the activity JSON object in vario
 ```
 
 
-### See also
+### Related information
 
 [Send custom context](../develop/send-context-starting-chat.md)  
 [setContextProvider](../develop/reference/methods/setContextProvider.md)  

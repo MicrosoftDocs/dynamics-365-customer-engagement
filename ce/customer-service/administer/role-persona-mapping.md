@@ -5,12 +5,14 @@ ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Manage personas and custom security roles in Customer Service
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can map security roles to personas to define user permissions for unified routing. Persona mapping gives your organization the option to add custom security roles alongside existing security roles in Customer Service and Omnichannel for Customer Service. The admin, supervisor, and agent personas are user archetypes that security roles can be mapped to. By mapping custom security roles to these personas, you can fine-tune data access and security across users and business units.
 
@@ -152,7 +154,7 @@ To enable access to a form or dashboard, perform the following steps:
 
 6. Select the role that you want to provide access to, and select **OK**.
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Manage users for unified routing](users-user-profiles.md)  

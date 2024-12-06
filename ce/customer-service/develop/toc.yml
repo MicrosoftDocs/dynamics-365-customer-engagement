@@ -108,10 +108,6 @@
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
-      - name: Service scheduling
-        items:  
-        - name: Search resource availability and create bookings
-          href: universal-resource-scheduling.md   
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
@@ -408,6 +404,8 @@
             href: reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md
           - name: msdyn_teamsengagementctx
             href: reference/entities/msdyn_teamsengagementctx.md
+          - name: msdyn_timetracker
+            href: reference/entities/msdyn_timetracker.md
           - name: msdyn_transcript
             href: reference/entities/msdyn_transcript.md
           - name: msdyn_unifiedroutingdiagnostic
@@ -636,7 +634,7 @@
       href: ../implement/overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Implement Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Manage your contact center
+    - name: Use Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
       href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml

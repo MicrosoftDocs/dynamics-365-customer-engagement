@@ -31,6 +31,8 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2.  On the navigation bar, select **Settings**, and then select **Customizations**.
 
@@ -66,8 +68,9 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure the assistant](configure-assistant.md)      
 [Guide customer communications with assistant](assistant.md)
+
 

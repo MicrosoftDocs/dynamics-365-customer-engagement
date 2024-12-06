@@ -1,15 +1,15 @@
 ---
 title: "Create a custom panel type | MicrosoftDocs"
 description: "Learn about the two interfaces&mdash;IPanel and IUSDPanel&mdash;required to create custom panel types in Unified Service Desk."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Create a custom panel type
 Creating a new panel type is considered an advanced topic, and only those intimately familiar with [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] should attempt to create a new panel type.  

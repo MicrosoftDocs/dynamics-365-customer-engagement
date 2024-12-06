@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -85,7 +86,7 @@ You can create an entitlement template in the Customer Service admin center app.
 > [!NOTE]
 > In the Customer Service app, you can also select to open the template form in the **Form Editor** in case you want to add additional sections to the form.
   
-### See also
+### Related information
 
  [Create an entitlement to define the support terms for a customer](create-entitlement-define-support-terms-customer.md)
 

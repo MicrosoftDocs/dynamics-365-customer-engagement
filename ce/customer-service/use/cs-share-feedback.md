@@ -5,6 +5,7 @@ ms.date: 06/10/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Share feedback for Customer Service
@@ -19,7 +20,7 @@ You can share product feedback in Customer Service Hub and Customer Service work
 
 [!INCLUDE [share feedback](../../includes/share-feedback.md)]
  
-### See also
+### Related information
 
 [Overview of Dynamics 365 Customer Service](../administer/overview.md)                                                                                                    
 [Get started with Customer Service workspace](../administer/overview.md)                                                                                                                

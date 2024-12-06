@@ -1,16 +1,18 @@
 ---
 title: Create and manage capacity profiles
-description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles.
+ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
 
 # Create and manage capacity profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can create capacity profiles and assign them to agents to define the types and amount of work they can take. Capacity profiles contain information, such as the amount of work, concurrent or daily capacity, and whether other channels are affected.
 
@@ -176,7 +178,7 @@ When a work item is labeled with multiple capacity profiles, the assignment stra
 2. An agent who has capacity in both these profiles only is selected. When the work item is assigned, capacity is consumed from both the profiles.
 3. Similarly, for normal priority cases, the capacity is consumed from both "Total-capacity profile" and "Normal-priority profile".
 
-### See also
+### Related information
 
 [Create workstreams](create-workstreams.md)  
 [Manage users in Omnichannel for Customer Service](users-user-profiles.md)  

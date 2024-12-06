@@ -50,6 +50,6 @@ If the request is submitted successfully, the following response is returned:
 
 HTTP 204 
 
-### See also
+## Related information
 
 [msdyn_WKWGDPRDeleteStatus custom action](msdyn_WKWPrivacyDeleteStatus.md)

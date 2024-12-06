@@ -3,15 +3,13 @@ title: View Active Conversation in Omnichannel for Customer Service
 description: Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
 ms.date: 01/09/2024
 ms.custom: bap-template
 ---
 
 # View customer information on Active Conversation form
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
 > The **Customer Summary** form is renamed as **Active Conversation** form.
@@ -190,7 +188,7 @@ The **Linked records** field shows the record that's linked to the conversation.
 > [!div class='mx-imgBorder']
 > ![View only the linked records in the drop-down.](../media/customer-summary-linked-records.PNG "View only the linked records in the drop-down list")
 
-### See also
+### Related information
 
 [Search for and share knowledge articles](../oc-search-knowledge-articles.md)  
 [View communication panel](oc-conversation-control.md)  

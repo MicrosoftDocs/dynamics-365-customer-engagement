@@ -784,7 +784,7 @@ See the [lk_opportunitysalesprocess_quoteid](quote.md#BKMK_lk_opportunitysalespr
 
 See the [lk_opportunitysalesprocess_salesorderid](salesorder.md#BKMK_lk_opportunitysalesprocess_salesorderid) one-to-many relationship for the [salesorder](salesorder.md) table/entity.
 
-### See also
+## Related information
 
 [Dataverse table/entity reference](../about-entity-reference.md)  
 [Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)

@@ -3,10 +3,10 @@ title: Configure origins allowlist for knowledge articles
 description: Learn how to configure safe links while authoring knowledge articles in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection: 
-ms.date: 09/28/2023
+ms.date: 07/01/2024
 ms.custom: 
     - bap-template
     - dyn365-customerservice
@@ -23,6 +23,8 @@ searchScope:
 
 # Configure origins allowlist for knowledge articles
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 You can configure an origins allowlist to ensure that knowledge authors add only safe links to their knowledge articles.
 
 > [!IMPORTANT]
@@ -34,7 +36,7 @@ For published articles, agents and portal users see an error message in the arti
 
 ## Configure origins allowlist
 
-You can configure the origins allowlist in the Customer Service admin center app by performing the following steps:
+You can configure the origins allowlist in the Customer Service admin center or Contact Center admin center app by performing the following steps:
 
 1. Go to the **Settings** page.
 
@@ -48,7 +50,7 @@ You can configure the origins allowlist in the Customer Service admin center app
 
 To remove a domain, select **Close** next to the domain name.
 
-## See also
+## Related information
 
 [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md#create-and-manage-knowledge-articles)  
 [Search knowledge articles](../use/search-knowledge-articles-csh.md#search-knowledge-articles)  

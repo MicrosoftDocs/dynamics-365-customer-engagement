@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 searchScope:
   - D365-App-customerservicehub
   - D365-Entity-incident
@@ -101,7 +102,7 @@ In our example, once you've added the custom value, agents see the **Duplicate**
 
    :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::
 
-### See also
+### Related information
 
 [Work with cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Create a case](../use/customer-service-hub-user-guide-create-a-case.md)  

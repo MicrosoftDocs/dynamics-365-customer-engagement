@@ -1,0 +1,179 @@
+### YamlMime:FAQ
+metadata:
+  title: Frequently asked questions for the Field Service mobile app
+  description: Find answers to commonly asked questions about the Dynamics 365 Field Service mobile app.
+  ms.date: 10/10/2024
+  ms.subservice: field-service-mobile
+  ms.topic: faq
+  author: JonBaker007
+  ms.author: jobaker
+
+title: Frequently asked questions for the Field Service mobile app
+summary: |
+sections:
+  - name: Mobile calendar and agenda view  
+    questions:  
+      - question: Why can't I see the calendar, or I see the wrong calendar?
+        answer: |
+          To fix this issue, make sure the **Booking Calendar Control** is enabled for phones and tablets from the bookable resource booking entity.
+          
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of the mobile booking calendar control.](../media/mobile-2020-booking-calendar-control.png)
+         
+      - question: I created a custom view for my Booking Calendar. Why is the data or certain elements like address aren't displayed for each booking?
+        answer: |
+          The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
+          If a field such as "Address" is missing from all Bookings on the calendar, it's likely that the Work Order table has been renamed, or modified and the Calendar control doesn't find the address columns. Add proper fields from the renamed entity back into the view.
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of columns related to address for booking calendar.](../media/address_Items.png)
+
+  - name: Maps and locations
+    questions:          
+      - question: How do I enable address suggestions?
+        answer: |
+          The mobile app can recommend addresses as technicians enter them into a work order when an internet connection is available. Address suggestions make data entry quicker and more accurate.    
+          
+          Enable address recommendations by going to **Field Service app** > **Settings** > **Field Service Settings** > **Other section**, and then set **Enable Address Suggestions** to **Yes**.
+
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of enabled address suggestions in Field Service.](../media/mobile-2020-settings-enable-address-recommendation.png)
+          
+          When the mobile user has no internet access, they can select **Edit** to manually enter address fields.
+      
+      - question: Can I configure the "Get Directions" map button to trigger a GPS map provider app of my choosing?
+        answer: |
+          Currently, the **Get Directions** map button isn't configurable. It launches the device's default map provider.   
+  - name: Offline
+    questions:
+
+      - question: While running the Field Service mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
+        answer: |
+          Search from the offline application crawls the local device database for data, which is defined within the mobile offline profile.
+      - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
+        answer: |
+          Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
+      - question: Why is only one booking status available while in offline mode?
+        answer: |
+          Usually, the booking status table is not included in the Mobile Offline Profile.  Please check your offline profile and include all records from the booking status table and republish it.
+
+  - name: Sign in
+    questions:     
+
+        - question: Why do I get an "Insufficient Permissions" error when accessing records on the Field Service mobile app?
+          answer: |
+            ![Screenshot of an error message showing "Insufficient Permissions" in the Field Service mobile app.](../media/fsm-error1.jpg)
+          
+            This error can occur when your environment has multiple Dynamics 365 apps installed.
+          
+            To fix this issue:
+          
+            1. Verify that your user is assigned the **Field Service - Resource** security role _and_ field security profile.
+            2. Edit the **Field Service - Resource** security role, and assign read privileges for the **Master Entity Routing Configuration** entity in **Custom Entities**.
+            3. Edit the **Field Service - Resource** security role, and assign read privileges for the **Routing Rule Set** entity on the **Service Management** tab.
+                    
+            > [!div class="mx-imgBorder"]
+            > ![Screenshot of Field Service security roles in Power Apps, showing permissions for the Field Service - Resource role.](../media/fsm-insufficient-permission-faq.png)
+
+
+        - question: Why does the app say "Contact your administrator for access to your organization's mobile apps"?
+          answer: |
+            ![Screenshot of the "Contact your administrator" issue.](../media/mobile-2020-error-contact-administrator-show-nonproduction-apps.png)
+          
+            If you're getting this message, try the following steps:
+          
+            1. Select the menu icon in the upper-left corner, and set **Show non-production apps** to **Yes**. The list shows production apps by default, and you might be using a trial or sandbox app. 
+            2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service mobile app. If you're using a custom security role, ensure role has access to the app module. 
+            3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
+            4. Check that the [app module in Dynamics 365](custom-app-module-mobile.md#make-the-custom-app-module-available-in-the-mobile-app) has the **Primary Player** set as *Field Service (Dynamics 365)*. 
+          
+            If completing these steps doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+
+        - question: After signing into the mobile application why does the "Show Non-Production Apps" toggle not show?
+          answer: | 
+            This toggle is only shown when users have access to non-production organizations. Check the access for the user in the desired non-production organization and sign into the application again.
+        
+        
+        - question: Can external guest users access the Field Service mobile app?  
+          answer: |
+           Yes, frontline workers [enabled as Microsoft Entra B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
+           
+           [!INCLUDE [azure-ad-to-microsoft-entra-id](../../includes/azure-ad-to-microsoft-entra-id.md)]
+
+           If a guest user needs to access the application with a personal account, use a formatted deep link to access the guest tenant.
+           ```
+           https://apps.powerapps.com/mobile/redirect?appid=<app-id>&tenantid=<tenant-id>&playerchannel=FieldServiceMobile&sourceurl=https%3A%2F%2F<org-url-without-https>%2Fmain.aspx%3Fappid%<app-id>
+           ```
+
+        - question: Can I connect the Field Service (Dynamics 365) mobile app to GCC, GCC high, DoD, or China (21Vianet) environments?
+          answer: |
+              Yes.  To connect to the specific data center end points, select **Region settings** from initial app sign-in screen. 
+          
+              > [!div class="mx-imgBorder"]
+              > ![Screenshot of Region Selector Option.](../media/Mobile-PowerApps-RegionSelector.png)
+
+              The region settings dialog allows the user to select and connect to the desired end point.
+
+              > [!div class="mx-imgBorder"]
+              > ![Screenshot of selecting Regions](../media/Mobile-PowerApps-RegionSelector-EndPoints.png)
+
+        - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
+          answer: |
+              Yes, the Field Service (Dynamics 365) app is available in the Apple and Lenovo China market app stores.
+
+  - name: Entities, forms, views, and fields 
+    questions:
+          
+      - question: 
+          Why doesn't the bookable resource booking form show work order details like customer, service, and notes?
+        answer: |
+          Sometimes you might not see the correct booking form. You might see a screen resembling the following image.
+         
+          > [!div class="mx-imgBorder"]
+          > ![Screenshot of the wrong form issue.](../media/mobile-2020-faq-wrong-booking-form.png)
+          
+          If you see something like the previous screenshot, you're viewing the booking form, and *not* the combined booking and work order form.
+          
+
+          To solve this issue, sign in to the mobile app as a user who has the **Field Service - Resource** security role. Also make sure that the right form (the mobile-optimized booking and work order form) is associated with the booking entity in the app designer.
+
+      - question: 
+          How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
+        answer: |
+          To enable auto-expanding fields:
+          1. Enter the form designer interface for the entity that contains the multiline text field you want to expand.
+          2. Select the desired multiline text field.
+          3. Within field properties, select the option "Automatically expand to use available space."
+          4. Save and publish.
+          
+          Note: When you use the legacy form designer, there's a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
+
+      - question: 
+         When working in the mobile application, why do users sometimes see “Validations have been restarted in the background…”?
+        answer: |
+         This error hints at a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events. More Information is found in [Troubleshooting Guide](https://learn.microsoft.com/en-us/troubleshoot/dynamics-365/field-service/mobile-app/validation-restarted-background)
+
+      - question: 
+         After modifying my *Work Order Product* form, why can I no longer save updates while in Offline mode?
+        answer: |
+         While working with customized forms, there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on Work Order Product is the Work Order field. This field must be present to save and pass all client-side validation while running offline.
+
+      - question:  Why aren't booking status time calculations (updates to Start, Arrival, and End Times) working?
+        answer: |
+         There are two common reasons that out of the box time and travel calculations are not updated on the mobile application.
+         1. If using a custom app module, default business logic is not maintained. See [Add a custom app module to the Field Service mobile app](custom-app-module-mobile.md#make-the-custom-app-module-available-in-the-mobile-app).
+         2. If a required time field, such as start or end time has been removed from the booking form, the logic to update these fields won't run properly.
+    
+         
+  - name: Other
+    questions:       
+
+     - question: 
+        How do I view feedback from users of the Field Service Mobile application in my organization?
+       answer: | 
+        In the mobile application, users can submit feedback from the left navigation. Admins can view that feedback via the [Microsoft Admin Center](https://admin.microsoft.com) by navigating to **Health** > **Product feedback**. Feedback comes from the "Dynamics 365 Field Service Mobile" app. [Learn about Microsoft feedback for your organization](/microsoft-365/admin/misc/feedback-user-control).
+
+
+    
+          
+
+          

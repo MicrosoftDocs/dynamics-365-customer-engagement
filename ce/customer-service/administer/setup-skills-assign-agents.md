@@ -1,6 +1,6 @@
 ---
 title: Set up skills and assign agents
-description: Perform the steps mentioned in the topic to create skills and assign agents to those skills in Omnichannel for Customer Service.
+description: Perform the steps mentioned in the topic to create skills and assign agents to those skills.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Set up skills, create a rating model, and assign agents
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 As an administrator, to create skills, you need at least one skill type in the system. For example, to add **Spanish** as a skill, you need a skill type called **Language**. You must first create a skill type and then create skills.
 
@@ -205,7 +205,7 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 Alternatively, you can also add a skill to the user (agent). More information: [Manage users](users-user-profiles.md).
 
-### See also
+### Related information
 
 [Overview of skill-based routing](overview-skill-work-distribution.md)  
 [Manage users](users-user-profiles.md)  

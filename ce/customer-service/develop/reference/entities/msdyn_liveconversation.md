@@ -4,6 +4,7 @@ description: "Includes schema information and supported messages for the msdyn_l
 ms.date: 07/29/2020
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: reference
 ---
 # msdyn_liveconversation Entity Reference
@@ -1153,7 +1154,7 @@ See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_liveconversati
 
 See msdyn_omnichannelqueue Entity [msdyn_msdyn_omnichannelqueue_msdyn_liveconversation](msdyn_omnichannelqueue.md#BKMK_msdyn_msdyn_omnichannelqueue_msdyn_liveconversation) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

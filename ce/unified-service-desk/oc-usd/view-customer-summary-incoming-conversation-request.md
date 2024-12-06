@@ -1,12 +1,15 @@
 ---
 title: "View Customer summary form for incoming conversations | MicrosoftDocs"
 description: "Learn about the customer summary and its behavior when agents receive incoming conversation requests in Omnichannel for Customer Service on Unified Service Desk."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # View customer summary for incoming conversation requests
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]

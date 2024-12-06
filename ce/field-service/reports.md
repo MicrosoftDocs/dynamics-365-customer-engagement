@@ -1,12 +1,12 @@
 ---
 title: Reports overview
 description: This article explains what reports are and lists available reports in Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in.
-author: FeifeiQiu
-ms.author: feiqiu
+author: anilmur
+ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 06/03/2024
+ms.date: 08/30/2024
 ms.custom: bap-template 
 ---
 
@@ -22,13 +22,15 @@ With answers to these questions, scheduling managers can develop an effective re
 
 Dynamics 365 Field Service and the Resource Scheduling Optimization Add-in provide reports that focus on different scenarios and user needs:
 
-1. The [Resource and utilization report](resource-utilization-report.md), which is included with Field Service.
-1. The [Work order summary report](work-order-summary-report.md), which is included with Field Service.
-1. The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization Add-in.
-1. The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization Add-in.
-1. [Predictive work duration reports (preview)](analytics-predictive-work-duration.md) with the upcoming work duration and the territory duration reports in Field Service.
+- The [Resource and utilization report](resource-utilization-report.md), which is included with Field Service.
+- The [Work order summary report](work-order-summary-report.md), which is included with Field Service.
+- The [Admin report](rso-admin-report.md), included with the Resource Scheduling Optimization Add-in.
+- The [Optimization summary report](rso-optimization-summary-report.md), included with the Resource Scheduling Optimization Add-in.
 
 Other than editing filters and drill-down actions, the reports aren't configurable or customizable.
+
+> [!IMPORTANT]
+> Reports are intended to help dispatchers or scheduling managers improve their scheduling strategies and more efficiently schedule resources to improve customer satisfaction. Reports are not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, including this Reports feature, and any associated feature in compliance with all applicable laws, including laws relating to accessing individual employee analytics and location.
 
 ## Prerequisites
 
@@ -40,7 +42,6 @@ Reports are only available to users with **System Administrator** or **Field Ser
 | Work order summary       | Field Service                                                |
 | Admin report             | Field Service<br>Resource Scheduling Optimization Add-in     |
 | Optimization summary     | Field Service<br>Resource Scheduling Optimization Add-in     |
-| Predictive work duration | Field Service                                                |
 
 ## Refresh cadence and data retention
 
@@ -54,7 +55,7 @@ Report data get retained for 24 months. Storage file size automatically increase
 
 ## Provide report access to a security role
 
-By default, only administrators have access to the resource duration report. Administrators can provide access to others through security roles.
+Administrators can provide access to reports through security roles.
 
 1. In Field Service, go to **Advanced Settings**.
 
@@ -68,8 +69,6 @@ By default, only administrators have access to the resource duration report. Adm
 
 1. Search for and select each of the following reports. Then, select the Read privilege for the report.
 
-    - Resource duration (preview) - predictive duration report
-    - Predictive duration (preview) - predictive duration report
     - Field Service historical analytics - work order summary report
     - Resource scheduling historical analytics - admin and optimization summary report
 

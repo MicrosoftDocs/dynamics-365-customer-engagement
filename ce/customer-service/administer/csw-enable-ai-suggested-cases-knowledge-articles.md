@@ -1,11 +1,11 @@
 ---
 title: Enable AI suggestions for cases and knowledge articles
 description: Enable AI suggestions for cases and knowledge articles in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 11/28/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer:
+ms.reviewer: laalexan
 ms.collection: bap-ai-copilot
 search.audienceType:
   - admin
@@ -16,6 +16,11 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 ---
 
 # Enable AI suggestions for similar cases and knowledge articles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> Case information is applicable to Customer Service only.
 
 With the use of AI, suggestions about similar cases that were previously resolved successfully help agents find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
 
@@ -28,6 +33,17 @@ The key highlights of the feature are as follows:
 > [!NOTE]
 > - The AI suggestions feature is currently available in a few geographical locations only. More information: [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md).
 > - After you enable AI suggestions, if agents don't interact with the AI-suggested content for 21 days, the feature is deactivated. The administrator can enable it again.
+
+## Prerequisites
+
+Make sure that the following requirements are met:
+
+- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](../implement/csw-overview.md)
+- The	productivity pane is enabled. More information: [Productivity pane](productivity-pane.md).
+- The System Administrator role is granted.
+- The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
+- If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
+- For the AI suggestions to work, customer-managed keys should be disabled.
 
 ## How AI suggestions for similar cases and knowledge articles work
 
@@ -48,15 +64,7 @@ The AI models work as follows:
 
 ## Language support for AI suggestions
 
-AI suggestions for similar cases and knowledge articles are now supported in the following languages:
-
-- Dutch
-- English
-- French
-- German
-- Italian
-- Japanese
-- Spanish
+Learn about supported languages in [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service)
 
 After an agent opens a case or accepts a conversation, smart assist checks the language from the following sources:
 
@@ -69,17 +77,6 @@ If the language verification passes, the suggestions are displayed in the langua
 - For similar case suggestions, the language selected in the user's **User Interface Language** settings is used to display similar cases and knowledge article suggestions.
 
 - For knowledge article suggestions, smart assist first checks for the language that's set in the **Knowledge Personalization** settings. If no language setting is found, the user's **User Interface Language** setting is used to display knowledge article suggestions. More information: [Personalize your knowledge search article filters](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).
-
-## Prerequisites
-
-Make sure that the following requirements are met:
-
-- Customer Service workspace is installed and accessible. More information: [Customer Service workspace](../implement/csw-overview.md)
-- The	productivity pane is enabled. More information: [Productivity pane](productivity-pane.md).
-- The System Administrator role is granted.
-- The workflow processes used by the AI model and AI configuration entities are in the activated status. More information: [Workflow processes](#workflow-processes).
-- If administration mode is enabled, make sure that background operations are also enabled. More information: [Administration Mode](/power-platform/admin/admin-mode).
-- For the AI suggestions to work, customer-managed keys should be disabled.
 
 ## Enable AI suggestions for similar cases
 
@@ -101,9 +98,9 @@ You can enable AI suggestions for similar cases in the Customer Service admin ce
 
 ## Enable AI suggestions for knowledge articles
 
-You can enable AI suggestions for knowledge articles in the Customer Service admin center app.
+You can enable AI suggestions for knowledge articles in the Customer Service admin center or Contact Center admin center app.
 
-1. In the site map of Customer Service admin center, select **Insights** in **Operations**. The **Insights** page appears.
+1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
 1. In the **Suggestions for agents** section, select **Manage**.
     
@@ -159,7 +156,7 @@ The service protection limits for AI suggestions are defined in the following ta
 | AI suggestions for conversations | 150 conversations/month per user license | Each user license adds 150 omnichannel conversations, where agents can get AI-suggested knowledge articles and similar cases in real time.|
 ||||
 
-### See also
+### Related information
 
 [View AI-suggested similar cases and knowledge articles for active cases](../use/csw-view-ai-suggested-cases-knowledge-articles.md)  
 [View smart assist suggestions for knowledge articles and similar cases using AI for ongoing conversations](../use/oc-view-ai-suggested-cases-articles.md)  

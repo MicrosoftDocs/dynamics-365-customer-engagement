@@ -3,13 +3,15 @@ title: Model existing tables as skills
 description: Learn how you can use existing tables to model as skills and use in unified routing in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 06/26/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Model existing tables as skills
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365, and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing tables as skills, managing data becomes easier.  The following examples illustrate two common scenarios.
 

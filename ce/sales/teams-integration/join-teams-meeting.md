@@ -41,7 +41,7 @@ You can join a Teams meeting from Dynamics 365, Outlook, or Teams.
 
 You have several options. For more information, see [Join a meeting in Teams](https://go.microsoft.com/fwlink/?linkid=2190914).
 
-### See also
+## Related information
 
 [Enable Microsoft Teams meeting integration](enable-teams-meeting-integration.md)    
 [Customize record details in the side panel](customize-record-side-panel.md)   

@@ -12,9 +12,10 @@ ms.custom: bap-template
 
 # Set up outbound calling
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers in the Customer Service workspace app.
+
+This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your agents can make calls to customers in the Customer Service workspace or Contact Center workspace app.
 
 If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers. Phone number calling plans must be provisioned to support making calls to be used for outbound voice.
 
@@ -32,7 +33,7 @@ Before you set up outbound voice calls for your business, you must perform the f
 
 To check whether a phone number is enabled for outbound calling, go to **General settings** > **Phone numbers**, and check whether the number has **Make calls** mentioned in the **Calling** column. You can configure the calling plan for a phone number if it isn't enabled for outbound calling.
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Phone numbers**.
    
@@ -69,7 +70,7 @@ Personal numbers allow agents to exclusively make calls from the chosen number. 
 
 You can assign personal phone numbers to agents to make outbound calls to customers as long as the number isn't toll-free. To configure a personal phone number:
 
-1. Acquire a geographic phone number in Customer Service admin center. For details on how to acquire a phone number, see [Manage phone numbers](voice-channel-manage-phone-numbers.md).
+1. Acquire a geographic phone number in Customer Service admin center or Contact Center admin center. For details on how to acquire a phone number, see [Manage phone numbers](voice-channel-manage-phone-numbers.md).
 
 1. On the **Phone numbers** page, select **Setup** in **Ready for setup**, and in the dialog that appears, select **Assign to user**. The **Omnichannel Users** page displays a list of all agents.
 
@@ -83,7 +84,7 @@ You can assign personal phone numbers to agents to make outbound calls to custom
 > - You can add only those users who are configured for unified routing.
 > - After you add agents to a queue, they must refresh their dashboards after 20 minutes to be able to make calls.
 
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

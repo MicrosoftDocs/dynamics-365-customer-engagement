@@ -3,7 +3,7 @@ title: Turn on linking of timeline notes with other tables
 description: Learn how to configure linking of timeline notes with other tables.
 author: gandhamm
 ms.author: mgandham 
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 01/09/2024
@@ -40,6 +40,6 @@ Watch this video to understand linking of timeline notes with other table record
       - **Map notes description to**: The field to which the notes description should get copied to. For example, if you select **Description**, when you create a new case, the case description is auto populated with the value of the notes description. 
 1. Save and publish the customizations.
 
-### See Also
+### Related information
 
 [Learn about linking timeline notes with tables](../use/link-note-to-entity-task.md)  

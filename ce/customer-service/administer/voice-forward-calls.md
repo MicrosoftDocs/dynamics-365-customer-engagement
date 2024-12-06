@@ -3,13 +3,15 @@ title: Forward Teams calls to your digital contact center
 description: Learn how to forward Microsoft Teams calls to your organization's digital contact center.
 author: neeranelli 
 ms.author: nenellim
-ms.reviewer: neeranelli
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 05/10/2024 
 ms.custom: bap-template 
 ---
 
 # Forward Teams calls to your digital contact center
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 If an agent isn't available when a customer calls a Microsoft Teams number in your voice channel, the call can be automatically forwarded to your organization's digital contact center. Standard charges for Teams calls apply to forwarded calls. Calls that are forwarded to your digital contact center numbers are charged based on the [PSTN inbound rate](voice-channel-pricing-scenarios.md).
 
@@ -32,7 +34,7 @@ Call forwarding is supported in the following scenarios:
       - To forward all calls, set **Call overflow handling** > **Maximum calls in the queue** to 0. The default is 50 and the maximum is 200.  
       - To forward calls that have been in the queue longer than five minutes, set **Call timeout handling** > **Maximum wait time** to five minutes.
 
-### See also
+### Related information
 
 [Introduction to the voice channel](voice-channel.md)  
 [Identify customers automatically](record-identification-rule.md)

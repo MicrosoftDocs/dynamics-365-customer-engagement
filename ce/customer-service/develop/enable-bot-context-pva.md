@@ -11,15 +11,11 @@ ms.collection:
 ---
 # Configure bot context in Copilot Studio bots  
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 As a bot author, you can enable your Copilot Studio bots to understand context while authoring a bot flow.
 
-## Install extensions
-
-Follow the steps mentioned in this article: [Install Copilot Studio extensions](../administer/configure-bot-virtual-agent.md#install-copilot-studio-extensions).
 
 ## Connect to omnichannel instance
 
@@ -33,7 +29,7 @@ Use the information in one of the following articles to configure context variab
 - [Getting started with Bot Framework Composer](/power-virtual-agents/advanced-bot-framework-composer-fundamentals)
 - [Create expressions using Power Fx](/power-virtual-agents/advanced-power-fx)
 
-### See also
+### Related information
 
 [Send custom context](../develop/send-context-starting-chat.md)  
 [setContextProvider](../develop/reference/methods/setContextProvider.md)  

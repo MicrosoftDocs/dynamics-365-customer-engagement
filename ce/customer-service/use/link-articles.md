@@ -5,6 +5,7 @@ ms.date: 08/25/2022
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -57,7 +58,7 @@ To link the knowledge article to an entity, you need to do the following steps. 
 
 6. Select **Done**. The article will appear in the **Linked Knowledge Articles** subgrid.
 
-### See also
+### Related information
 
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  
 [Understand knowledge base search mechanisms](knowledge-base-search-methods.md)  

@@ -1,7 +1,7 @@
 ---
 title: View the influence of an attribute on the model
 description: Learn how to get insights on the performance of each attribute that influences the prediction score in Dynamics 365 Sales. 
-ms.date: 06/25/2024
+ms.date: 12/06/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -44,7 +44,7 @@ The **Attribute Insights** pane is divided into the following sections:
 
 - A summary section with the prediction influence of the attribute, how many times the attribute is populated in open and closed leads or opportunities, and the reason the attribute isn't automatically selected to create the model.
 
-- A graph that illustrates how each value of the attribute contributes to the qualification rate. In the example above, the lead source values **Blank**, **Word of Mouth**, and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and is calculated based on the following formula:
+- A graph that illustrates how each value of the attribute contributes to the qualification rate. In the example above, the lead source values  **Word of Mouth** and **Employee referral** perform better than the average, and **Advertisement** and **Web** perform below the average. The average is represented by a blue line and is calculated based on the following formula:
 
     Global qualification rate for leads = (Total number of leads qualified in your organization) / (Total number of qualified + disqualified leads through this attribute) \*100
 

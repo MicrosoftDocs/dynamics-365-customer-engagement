@@ -5,20 +5,12 @@ ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Use effort estimation model in unified routing (preview)
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can use the effort estimation model to classify and route work items.
 
@@ -33,6 +25,10 @@ Some examples of how effort can be defined are as follows:
 - Estimate time for an agent analysis and assign accordingly
 
 - Estimate time for a full case resolution and assign accordingly
+
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Create effort estimation models
 
@@ -130,7 +126,7 @@ Effort estimate-based routing is supported only in the following languages:
 - Japanese
 - Spanish
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [How to set up unified routing](set-up-routing-process.md)  

@@ -5,7 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -254,7 +254,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 ## Apply SLAs
 To understand how you can apply SLAs, see [Apply service-level agreements](apply-slas.md#apply-slas)
 
-### See also
+### Related information
 
 [Enable entities for service-level agreements](enable-entities-service-level-agreements.md)  
 [Troubleshoot issues in SLAs](../troubleshoot-sla-issues.md)  

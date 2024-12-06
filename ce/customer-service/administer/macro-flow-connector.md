@@ -3,12 +3,15 @@ title: Use flow connectors
 description: Learn how to use flow connector to create macros.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 05/06/2024
 ms.custom: bap-template 
 ---
 # Use flow connectors
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Flow connectors allow you to trigger Power Automate flows. You can use the actions any number of times across different macros to automate and perform operations related to Omnichannel for Customer Service and Customer Service workspace.
 

@@ -3,7 +3,7 @@ title: Configure components to display customer details and recent records | Mic
 description: Learn about adding the Associated grid control component to forms
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.date: 05/14/2024
 ms.custom: bap-template 
@@ -102,7 +102,7 @@ If agents should see the customer details in an app side pane when they open an 
 
    :::image type="content" source="../media/recent-record-control.png" alt-text="sample image of the recent cases card":::
 
-### See also
+### Related information
 
 [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms)  
 

@@ -3,6 +3,7 @@ title: "Use automation dictionary to pass parameter keys | MicrosoftDocs"
 description: "Learn about the supported formats to pass parameter values in the templates and macros."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 02/13/2023
 ms.topic: article
 ---
@@ -222,7 +223,7 @@ Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-### See also
+### Related information
 
 [Manage session templates](session-templates.md)  
 [Manage application tab templates](application-tab-templates.md)  

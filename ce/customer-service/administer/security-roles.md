@@ -3,13 +3,16 @@ title: Security roles for agent experience profiles
 description: Overview of the security roles for agent experience profiles.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/14/2023
+ms.reviewer: nenellim
+ms.date: 07/01/2024
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template
 ---
 
 # Roles and privileges associated with experience profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 The following roles are available:
 
@@ -88,7 +91,7 @@ The App Profile User has the following privileges.
 | Append to macro session | prvAppendTomsdyn_macrosession |
 | Append macro session | prvAppendmsdyn_macrosession |
 
-### See also
+### Related information
  
 [Users and roles in Omnichannel for Customer Service](../implement/add-users-assign-roles.md)  
 

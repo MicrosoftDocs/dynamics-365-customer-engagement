@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 06/04/2024
+ms.date: 10/22/2024
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,22 +18,163 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.119.14](/dynamics365/field-service/version-history#8811914)  | TBD |06/28/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.119.15](/dynamics365/field-service/version-history#8811915)  | TBD |07/05/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* |[8.8.118.19](/dynamics365/field-service/version-history#8811819) | [8.8.119.15](/dynamics365/field-service/version-history#8811915)   | 06/28/2024 |
-| | *USG* |    [8.8.119.15](/dynamics365/field-service/version-history#8811915)  | TBD |07/05/2024 |
-|**Station 4** |*Europe* | [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 06/28/2024 |
-|**Station 5** | *North America*|  [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/05/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China*  | [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/05/2024 |
-| | *Dedicated Scale Groups* |    [8.8.117.34](/dynamics365/field-service/version-history#8811734)  | [8.8.118.19](/dynamics365/field-service/version-history#8811819)  | 07/12/2024 |
+|**Station 1** |  *First Release*| [8.8.130.134](/dynamics365/field-service/version-history#88130134)  | TBD |12/06/2024 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.129.177](/dynamics365/field-service/version-history#88129177)  | [8.8.130.134](/dynamics365/field-service/version-history#88130134) |12/06/2024 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.129.177](/dynamics365/field-service/version-history#88129177)  | [8.8.130.134](/dynamics365/field-service/version-history#88130134) |12/13/2024 |
+| | *USG* |   [8.8.129.177](/dynamics365/field-service/version-history#88129177)  | [8.8.130.134](/dynamics365/field-service/version-history#88130134) |12/13/2024 |
+|**Station 4** |*Europe* | [8.8.128.214](/dynamics365/field-service/version-history#88128214)  |  [8.8.129.177](/dynamics365/field-service/version-history#88129177) |12/06/2024 |
+|**Station 5** | *North America*| [8.8.128.214](/dynamics365/field-service/version-history#88128214)  |  [8.8.129.177](/dynamics365/field-service/version-history#88129177) |12/13/2024 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.128.214](/dynamics365/field-service/version-history#88128214)  |  [8.8.129.177](/dynamics365/field-service/version-history#88129177) |12/13/2024 |
+| | *Dedicated Scale Groups* | [8.8.127.141](/dynamics365/field-service/version-history#88127141)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) |  12/06/2024  |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 8.8.130.134
+
+(Includes Universal Resource Scheduling version [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) and Resource Scheduling controls version 1.2.84.243184)
+
+- Discount % and discount amount fields will now be hidden when the Field Service and Finance and Operations integration is enabled. These fields have no impact on journals in Finance and Operations apps.
+- Bug fixes and enhancements for [Copilot summary and summary configuration](work-order-recap.md).
+
+## 8.8.129.177
+
+This release is a hotfix on Field Service version [8.8.129.173](/dynamics365/field-service/version-history#88129177)
+
+- Fixed an issue that was causing errors in work order summary generation.
+
+## 8.8.129.173
+
+(Includes Universal Resource Scheduling version [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) and Resource Scheduling controls version 1.2.83.243052)
+
+- Work order status will now correctly change to scheduled when creating a booking and the work order's msdyn_statuscompletesworkorder field set to false.
+- Fixed an issue where currencies were not being applied correctly to work order not-to-exceed records with work order updates.
+
+## 8.8.128.214
+
+This release is a hotfix on Field Service version [8.8.128.130](/dynamics365/field-service/version-history#88128130)
+
+(Includes Universal Resource Scheduling version [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) and Resource Scheduling controls version 1.2.82.242904)
+
+- Reverted validation on time entries with custom types. Using time entries with custom types is not supported and although we reverted this validation, we urge customers to not use custom types.
+
+## 8.8.128.130
+
+(Includes Universal Resource Scheduling version [3.12.143.36](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214336) and Resource Scheduling controls version 1.2.82.242904)
+
+- Fixed a bug that made bookings unable to edit until a the browser was refreshed.
+- Fixed a bug that caused stale booking suggestions to be presented when navigating between unscheduled work orders.
+- Improved solution import handling of booking setup metadata in the Field Service Analytics Common solution.
+- Parent business unit (BU) is no longer required if it's the root BU in Field Service forms.
+
+## 8.8.127.141
+This release is a hotfix on Field Service version [8.8.127.75](/dynamics365/field-service/version-history#8812775)
+
+(Includes Universal Resource Scheduling version [3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425) and Resource Scheduling controls version 1.2.81.242685)
+
+- Reverted validation on time entries with custom types. Using time entries with custom types is not supported and although we reverted this validation, we urge customers to not use custom types.
+
+## 8.8.127.75
+
+(Includes Universal Resource Scheduling version [3.12.142.1](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121421) and Resource Scheduling controls version 1.2.81.242685)
+
+- This release includes all updates from the 2024 release wave 2 early access updates.
+- Introduced validation to prevent creation and edits of time entries with custom types.
+- Fixed an issue causing the msdyn_quantity field to be cleared on work order product when changing its status several times without saving.
+- The Copilot summary command is now hidden on the work order form when the summary control is visible on the form.
+- What's New modal now includes Remote Assist in Microsoft Teams.
+- IoT device insights control is deprecated. A note now shows in the app.
+- Inspections: Fixed a bug which caused Date Time questions to be visually marked as required when not required.
+- Inspections: Fixed a bug which was causing Inspection export to PDF to contain overlapping text.
+- Inspections: Fixed a bug which was preventing Inspection PDF generation in some instances.
+- Field Service Mobile: Fixed various accessibility bugs.
+
+## 8.8.125.15
+
+This release is a hotfix on Field Service version [8.8.125.14](/dynamics365/field-service/version-history#8812514)
+
+- Fixed an infinite loop in code related to updating NTE records.
+
+## 8.8.125.14
+
+(Includes Universal Resource Scheduling version [3.12.140.11](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214011) and Resource Scheduling controls version 1.2.79.242513)
+
+- Added Remote Assist in Teams announcement to Get Started page. 
+
+## 8.8.124.21
+
+This release is a hotfix on Field Service version [8.8.124.20](/dynamics365/field-service/version-history#8812420)
+
+- Fixed an infinite loop in code related to updating NTE records.
+  
+## 8.8.124.20
+(Includes Universal Resource Scheduling version [3.12.139.62](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213962) and Resource Scheduling controls version 1.2.78.242404)
+
+- Drip scheduling is now deprecated, and the setting has been removed.
+- DoD region is now correctly determined by region helper.
+- Work order form no longer shows as (new) when disable pricing setting is turned on.
+- New planner integration feature added! Find the feature toggle in settings.
+- Field Service Mobile: Fixed a bug which caused inspection response text to overlap for some question types when exported to PDF.
+- Field Service Mobile: Fixed a bug which prevents inspections PDF from generating when a JSON expression is invalid.
+- Field Service Mobile: Fixed a bug which prevented some images from rendering in the exported inspection PDF.
+
+## 8.8.126.9 (2024 wave 2 early access, update 1)
+(Includes Universal Resource Scheduling version [3.12.141.6](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121416---2024-wave-2-early-access-update1) and Resource Scheduling controls version 1.2.80.242331).
+
+- When toggling status on work order products from estimated to used, then back to estimated, the quantity field will now be cleared.
+  
+## 8.8.123.11
+(Includes Universal Resource Scheduling version [3.12.138.39](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213839) and Resource Scheduling controls version 1.2.77.242277)
+
+- Share button no longer appears as ribbon button on the work order side pane.
+- Fixed an issue that prevented *Time from* fields from populating on work orders base on an SLA.
+- Field Service Mobile: Fixed bug that ensures control info and close icon clicks function properly within the Copilot Summary control.
+- Field Service Mobile: Fixed a bug so that a Follow Up Work Order which is created in offline mode can be successfully modified and saved without error.
+- Field Service Mobile: Fixed a bug which caused an intermittent OnLoad script error after changing Booking Status.
+- Fixed a bug affecting RMA product pricing. The unit amount for an RMA product is determined first from the associated work order product, then the price list if no WOP is linked, then the product record's list price.
+
+
+## 8.8.122.17
+(Includes Universal Resource Scheduling version [3.12.137.22](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213722) and Resource Scheduling controls version 1.2.76.242082)
+
+This release is a hotfix on Field Service version [8.8.122.6](/dynamics365/field-service/version-history#88122.6)
+
+- Fixed an infinite loop in code related to updating NTE records.
+
+## 8.8.126.6 (2024 wave 2 early access)
+(Includes Universal Resource Scheduling version [3.12.141.2](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121412---2024-wave-1-early-access-release) and Resource Scheduling controls version 1.2.80.242082).
+
+- Fixed a bug preventing time entries from being set to approved when they are a custom type.
+- Service tasks on agreement booking setups now correctly copy their name from incident service tasks.
+- Work order currencies will now correctly recalculate when converting currency. To revert this behavior, turn of the advanced setting: IsWorkOrderCalculationProperlyRecalculateValuesWhenConvertingCurrencyOptedIn.
+- Service tasks on agreement booking setups now correctly copy their name from incident service tasks. To revert this behavior, turn off the advanced setting: IsAgreementBookingSetupServiceTaskCopyNameFromIncidentSetToOptIn.
+
+
+
+## 8.8.122.6
+(Includes Universal Resource Scheduling version [3.12.137.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213715) and Resource Scheduling controls version 1.2.76.242082)
+
+- Field Service Mobile settings now include options to enable the new mobile user experience for specific users based on security role and to selectively enable or disable Copilot skills.
+
+## 8.8.121.18
+(Includes Universal Resource Scheduling version [3.12.136.53](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213653) and Resource Scheduling controls version 1.2.75.241931)
+
+- Fixed an issue where the agreement booking service task name was set by the incident type service task type instead of the incident type service task name.
+- Fixed an issue when submitting feedback via global command bar in the Field Service app module.
+- Field Service mobile app: Updated client-side logic to consider whitespace as empty in fields related to primary incident zype when performing validation. 
+
+## 8.8.120.18
+(Includes Universal Resource Scheduling version [3.12.135.34](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213534) and Resource Scheduling controls version 1.2.74.241731).
+
+- Improved the duplicate validation logic on postal code form.
+- Fixed an error on postal code form about an unterminated string literal when using the ‘#’ character.
+
 ## 8.8.119.15
 
 This release is a hotfix on Field Service version [8.8.119.14](/dynamics365/field-service/version-history#8811914)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
   
 ## 8.8.119.14
 (Includes Universal Resource Scheduling version [3.12.134.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31213425) and Resource Scheduling controls version 1.2.73.241652).
@@ -43,6 +184,11 @@ This release is a hotfix on Field Service version [8.8.119.14](/dynamics365/fiel
   tasks, not booking durations.
 - Work order task width now dynamically displays based on length of task name.
 
+## 8.8.118.21
+
+This release is a hotfix on Field Service version [8.8.118.19](/dynamics365/field-service/version-history#8811819)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
 
 ## 8.8.118.19
 
@@ -54,6 +200,12 @@ This release is a hotfix on Field Service version [8.8.118.17](/dynamics365/fiel
 (Includes Universal Resource Scheduling version [3.12.132.9](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121329) and Resource Scheduling controls version 1.2.71.241432).
 
 - You can now edit and delete child records of inactive primary work order incidents.
+
+## 8.8.117.35
+
+This release is a hotfix on Field Service version [8.8.117.34](/dynamics365/field-service/version-history#8811734)
+
+- Prevented copilot installation for CHN, DOC, USG, GCC, and SGP regions
 
 ## 8.8.117.34
 
@@ -178,4 +330,4 @@ Fixed several issues on the Get Started page:
 -	Added option in the Power Apps portal to make work order preview grid lookups editable.
 -	Functional location hierarchy can now be visualized inline on the new work order location section.
 
-
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

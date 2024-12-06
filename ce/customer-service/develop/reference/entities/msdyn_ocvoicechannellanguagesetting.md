@@ -5,6 +5,7 @@ ms.date: 11/01/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 ---
 # msdyn_ocvoicechannellanguagesetting Entity Reference
 
@@ -867,7 +868,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 See msdyn_ocvoice Table [msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid](msdyn_ocvoice.md#BKMK_msdyn_msdyn_ocvoice_msdyn_ocvoicechannellanguagesetting_ocvoiceid) One-To-Many relationship.
 
 
-### See also
+### Related information
 
 [About the Entity Reference](../../../../customerengagement/on-premises/developer/about-entity-reference.md)<br />
 [Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />

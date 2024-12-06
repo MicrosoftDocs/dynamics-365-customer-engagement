@@ -5,6 +5,7 @@ ms.date: 09/14/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ---
@@ -855,7 +856,7 @@ See msdyn_scenario Entity [msdyn_msdyn_scenario_msdyn_scenario](#BKMK_msdyn_msdy
 
 See msdyn_consoleapplicationsessiontemplate Entity [msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate](msdyn_consoleapplicationsessiontemplate.md#BKMK_msdyn_msdyn_consoleapplicationsessiontemplate_msdyn_scenario_SessionTemplate) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

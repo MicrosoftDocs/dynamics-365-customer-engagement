@@ -5,7 +5,7 @@ ms.date: 05/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
@@ -132,7 +132,7 @@ Perform the following steps to configure the default view for the [enhanced emai
 1. Set the **Default view** option for **Enhanced E-mail Template selection experience**.
 
 
-### See also
+### Related information
 
 [Configure email](/power-platform/admin/settings-email)  
 [Create an email template](../customer-service-hub-user-guide-email-create-template.md)  

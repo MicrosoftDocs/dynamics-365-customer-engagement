@@ -5,6 +5,7 @@ ms.date: 10/01/2018
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -85,7 +86,7 @@ When you set capacity of a resource and service, the service calendar doesn’t 
   
 11. Click **Save & Close**.  
   
-### See also  
+### Related information  
  [Create or edit a selection rule](create-simple-selection-rule.md)
 
 

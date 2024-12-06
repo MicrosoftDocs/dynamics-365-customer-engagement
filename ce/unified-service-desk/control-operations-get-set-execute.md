@@ -1,15 +1,15 @@
 ---
 title: "Control Operations (Get, Set, Execute) | MicrosoftDocs"
 description: "Understand the Get, Set, and Execute type of operations that can be performed on controls such as buttons, checkboxes, and menu items."
-ms.date: 08/23/2017
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Control Operations (Get, Set, Execute)
 The operations on a control are executed based on the patterns the automation element exhibits. This topic describes the operations that can be performed on the controls and the default behavior of these operations for the various controls.  

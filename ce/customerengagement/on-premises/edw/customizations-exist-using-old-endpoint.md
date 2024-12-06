@@ -22,7 +22,7 @@ ms.author: matp
  
 ## Solution
   
- Upgrade your custom code. For more information, see [Upgrade Your Code from Microsoft Dynamics CRM 4.0](/previous-versions/dynamics-crm2011/developers-guide/gg334220(v=crm.5)) and [Upgrade your code from Microsoft Dynamics CRM 2011](/previous-versions/dynamicscrm-2013/developers-guide/gg334220(v=crm.6)).  
+ Upgrade your custom code. For more information, see [Upgrade your code from Microsoft Dynamics CRM 2011](/previous-versions/dynamicscrm-2013/developers-guide/gg334220(v=crm.6)).  
   
 ## Cause
   

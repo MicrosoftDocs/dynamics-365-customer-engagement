@@ -80,7 +80,7 @@ When the forecast is activated, the query will be executed to filter the forecas
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

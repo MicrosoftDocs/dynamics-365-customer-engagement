@@ -3,10 +3,10 @@ title: Enable Copilot to suggest knowledge from cases (preview)
 description: Enable the use of Copilot to suggest knowledge drafts from cases.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/08/2024
+ms.date: 11/28/2024
 ms.custom: bap-template
 ---
 
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 Copilot can generate knowledge articles from resolved cases. By using Copilot, you can streamline the process of creating and updating knowledge base content based on real-world customer interactions. You can review and edit these suggestions before publishing them as knowledge articles.
 
-[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -45,7 +45,7 @@ See [Region availability of analytics and insights](cs-region-availability-servi
 
 To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
 
-### See also
+### Related information
 
 [Use Copilot to generate knowledge drafts from cases](../use/use-copilot-knowledge-from-cases.md)  
 [Manage Copilot features in Customer Service](configure-copilot-features.md)  

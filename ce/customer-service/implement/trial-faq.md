@@ -5,7 +5,7 @@ ms.date: 05/27/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.collection: get-started
 ms.custom: 
   - template-trial-faq
@@ -39,6 +39,10 @@ The following limitations apply for the trial:
 - You can have only one active trial per app at a time. You can sign up again after your current trial for the app ends.
 
 ## Customer Service-specific questions
+
+### Which languages do the Copilot Studio copilots support in the trial version?
+
+In the trial version, the Copilot Studio copilots are available in the English language only.
 
 ### What features are available in the trial?
 
@@ -95,7 +99,7 @@ For the list of geographical regions supported in Omnichannel for Customer Servi
 
 For the list of languages supported in Omnichannel for Customer Service, see [Language availability](international-availability.md#language-availability).
 
-### See also
+### Related information
 
 [Try Customer Service](try-customer-service.md)  
 [Overview of Customer Service workspace](csw-overview.md)  

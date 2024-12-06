@@ -5,7 +5,7 @@ ms.date: 05/24/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -77,7 +77,7 @@ You can create the service schedule and define work hours in Dynamics 365 Custom
   
   To add a break in the work hours, like a lunch break, select **Add Break**, and then select the start and end time of the break.  
   
-### See also
+### Related information
 
 [Set up a holiday schedule](set-up-holiday-schedule.md)  
 

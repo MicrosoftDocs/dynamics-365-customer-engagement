@@ -3,7 +3,7 @@ title: How the automatic record creation rule works in a customer scenario
 description: Understand how automatic record creation rules work in customer scenarios and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 04/19/2024
@@ -90,7 +90,7 @@ Developers can perform customization to ensure that:
 
 For detailed instructions on customization, see [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue).
 
-## See also
+## Related information
 
 [Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 

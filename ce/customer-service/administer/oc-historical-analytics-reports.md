@@ -5,12 +5,13 @@ ms.date: 6/14/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Manage historical analytics reports in Omnichannel for Customer Service
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -56,7 +57,7 @@ You can enable historical analytics for unified routing in the Customer Service 
     
 The Unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for bots in Omnichannel for Customer Service
+## Enable historical analytics for Copilot Studio bots in Omnichannel for Customer Service
 
 In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Copilot Studio bots and Omnichannel conversation metrics.
 
@@ -127,7 +128,7 @@ If you customized the Customer Service workspace app, you must complete the foll
     - **Outlook shortcut**: **Offline availability**.
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Dashboard Overview](../use/customer-service-analytics-insights-csh.md)  
 [Historical analytics for unified routing in Omnichannel for Customer Service](../use/oc-historical-analytics-unified-routing.md)  

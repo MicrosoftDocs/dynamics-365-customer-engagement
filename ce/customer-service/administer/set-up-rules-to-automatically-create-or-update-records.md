@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -337,7 +338,7 @@ Perform the following steps before you upgrade a solution:
 
 3.	After the successful upgrade of the solution, activate the Record Creation and Update Rules as required.
 
-### See also
+### Related information
 
  [Create rules to automatically route cases](create-rules-automatically-route-cases.md)   <br>
 

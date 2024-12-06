@@ -5,6 +5,7 @@ ms.date: 11/27/2023
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Developer tools for Customer Service
@@ -93,7 +94,7 @@ Read how you can implement a connector to integrate custom messaging channels us
 [Integrate your own custom channel: Direct Line](bring-your-own-channel.md) 
 
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../implement/introduction-omnichannel.md)<br />
 [Omnichannel for Customer Service for system customizers](../administer/omnichannel-customizer.md)<br />

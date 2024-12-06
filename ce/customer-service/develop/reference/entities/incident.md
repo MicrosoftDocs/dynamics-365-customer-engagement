@@ -5,7 +5,7 @@ ms.date: 11/10/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 ---
@@ -2727,7 +2727,7 @@ See incident Table [incident_master_incident](incident.md#BKMK_incident_master_i
 
 See incident Table [incident_parent_incident](incident.md#BKMK_incident_parent_incident) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

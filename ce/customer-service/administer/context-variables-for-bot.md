@@ -14,6 +14,9 @@ ms.custom: bap-template
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 This article lists the context variables for Azure and Copilot Studio bots, and how you can configure them in Omnichannel for Customer Service. To understand how to create context variables, see [Manage context variables](manage-context-variables.md).
 
 ## Context variables for Azure bots
@@ -127,7 +130,7 @@ Here's a sample context record.
 }
 ```
 
-### See also
+### Related information
 
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  
 [Integrate an Azure bot](configure-bot-azure.md)  

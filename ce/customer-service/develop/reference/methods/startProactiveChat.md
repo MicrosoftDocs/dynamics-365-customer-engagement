@@ -5,6 +5,7 @@ ms.date: 01/25/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # startProactiveChat
 
@@ -45,7 +46,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 });
 ```
 
-### See also
+### Related information
 
 [Live chat JavaScript API reference](../../omnichannel-reference.md)  
 [Start a chat](../../initiate-chat-wait-time.md)  

@@ -5,6 +5,7 @@ ms.date: 05/10/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Overview of user management
@@ -23,7 +24,7 @@ See [Assign a security role to a user](/power-platform/admin/assign-security-rol
 
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 
-### See also
+### Related information
 
 [Manage capacity profiles](../administer/capacity-profiles.md)  
 [Role persona mapping](../administer/role-persona-mapping.md)  

@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Allow updates for resolved and canceled cases
@@ -26,6 +27,6 @@ Perform the following steps to enable modifications to cases that are in the res
 
 1. Configure flows in Power Automate or use an API to update the case records.
 
-### See also
+### Related information
 
 [Automatically create or update records in Customer Service Hub](automatically-create-update-records.md)  

@@ -5,7 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
@@ -80,7 +80,7 @@ To resolve any issues with the SLA during holidays, see [SLA timer does not paus
 - To print a holiday schedule, select **Print Preview** in the **Holidays** section of the holiday schedule.
 - To import or export a holiday schedule, use the Calendar import or export feature as you can't import or export a holiday schedule in the Excel format.
 
-### See also
+### Related information
 
  [Create a customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md)  
 

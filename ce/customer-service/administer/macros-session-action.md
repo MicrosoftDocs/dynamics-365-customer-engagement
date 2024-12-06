@@ -3,13 +3,16 @@ title: Use session connector macros
 description: Learn how to use session connector to create macros.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 05/06/2024
+ms.date: 12/04/2024
 ms.custom: bap-template 
 ---
 
 # Use session connector macros
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 You can use session connector actions to perform session-related operations. Session connector macros enable you to add actions such as getting the ID, refreshing a tab, passing the tab ID, setting focus to a tab based on the tab ID, opening a tab template, and refreshing session context.
 
@@ -70,7 +73,7 @@ Opens the specified application in a new tab with the attributes you define. The
 
 To create a macro that opens a tab template passing the tab template's unique name as a parameter and open a tab template based on the tab template's unique name, Add the **Open application tab** action with the following attributes: 
  - **Page type**: `Entity Record`
- - **Application Template ID** : bde86e2f-6bd1-48a9-baf9-dae720aa9f45
+ - **Application Template ID** : 6a6a6a6a-7777-bbbb-8888-9c9c9c9c9c9c
 
  
 ## Refresh the session context

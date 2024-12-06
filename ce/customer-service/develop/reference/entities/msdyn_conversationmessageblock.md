@@ -5,6 +5,7 @@ ms.date: 08/08/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # msdyn_conversationmessageblock table
@@ -1220,7 +1221,7 @@ See msdyn_ocsession Table msdyn_ocsession_msdyn_conversationmessageblock_msdyn_c
 
 See systemuser Table msdyn_systemuser_msdyn_conversationmessageblock_msdyn_agentid One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

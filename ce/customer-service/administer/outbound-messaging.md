@@ -1,17 +1,18 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 10/09/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: 
+ms.reviewer: mgandham
 ms.custom: bap-template
 ---
 
 # Configure outbound messaging
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Outbound messaging enables organizations to send messages to their customers through supported channels, based on system-triggered or user-defined events. You can configure message templates for SMS and WhatsApp channels only.
 
@@ -23,8 +24,8 @@ As an administrator, you can do the following tasks:
 
 ## Prerequisites
 
-- [Provision the channel](../implement/omnichannel-provision-license.md) that you want to use in your environment.
-- Configure the SMS channel using [Twilio](Configure-sms-channel-twilio.md), [TeleSign](configure-sms-channel.md), or [Azure Communication Services](configure-sms-channel-acs.md) to send outbound messages through SMS.
+- [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) that you want to use in your environment.
+- Configure the SMS channel using [Twilio](Configure-sms-channel-twilio.md) or [Azure Communication Services](configure-sms-channel-acs.md) to send outbound messages through SMS.
 - [Configure the WhatsApp channel by using a Twilio account](configure-whatsapp-channel.md) to send outbound messages through WhatsApp.
 - You must have a Power Automate account.
 
@@ -32,7 +33,7 @@ As an administrator, you can do the following tasks:
 
 Set up templates to send outbound messages. To create a template, consider the scenarios that require your organization to send outbound messages.
 
-1. Sign in to the Customer Service admin center app.
+1. Sign in to the Customer Service admin center or Contact Center admin center app.
 
 2. Create a template for your outbound message.
 
@@ -41,7 +42,7 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 ## Set up outbound configuration
 
-You can set up the outbound configuration in the Customer Service admin center app.
+You can set up the outbound configuration in the Customer Service admin center or Contact Center admin center app.
 
 1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page is displayed.
@@ -72,7 +73,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**. The **Productivity** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**. The **Productivity** page appears.
 1. In the **Message templates** section, select **Manage**. The **Message template view** page is displayed.
 
 1. Select **Flow** at the top of the screen, and then select **Create a flow**.
@@ -130,11 +131,10 @@ When the customer responds back to the outbound messages, the customer's message
 
 To view more videos about Omnichannel for Customer Service, go to [Videos](../use/videos.md).
 
-### See also
+### Related information
 
 [Create message templates](create-message-templates.md)<br>
 [Channels in Omnichannel for Customer Service](../use/channels.md) <br> 
-[Configure an SMS channel for TeleSign](configure-sms-channel.md)<br>
 [Configure an SMS channel for Twilio](Configure-sms-channel-twilio.md)<br>
 [SMS FAQ](faqs.md#sms)
 

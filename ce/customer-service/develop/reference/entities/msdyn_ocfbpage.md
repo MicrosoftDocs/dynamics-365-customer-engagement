@@ -5,6 +5,7 @@ ms.date: 08/31/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_ocfbpage Entity Reference
 
@@ -931,7 +932,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_liveworkstream Entity [msdyn_msdyn_liveworkstream_msdyn_ocfbpage](msdyn_liveworkstream.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

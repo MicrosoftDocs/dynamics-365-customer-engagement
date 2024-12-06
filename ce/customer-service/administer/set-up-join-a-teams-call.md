@@ -5,15 +5,17 @@ ms.date: 04/01/2024
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
 # Set up Join a Teams call for agents
 
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
+
 Join a Teams call is a feature that helps agents in your organization give their customers a more personalized support experience by using Teams to share their screen, connect through video, and offer remote control assistance. Customers don’t need to have a Teams license or previous experience using Teams.
 
-This feature is turned on by default in Customer Service workspace.
+This feature is turned on by default in Customer Service workspace or Contact Center workspace.
 
 ## Prerequisites
 
@@ -32,7 +34,7 @@ If you previously disabled it and need to turn it back on, start with Step 1.
 
 If you want to complete the configuration for custom agent profiles, start with Step 4. 
    
-1. In Customer Service admin center, go to **Agent experience** > **Collaboration**.
+1. In Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
 	
 1. In **Join a Teams call**, select **Manage**.
 
@@ -40,9 +42,9 @@ If you want to complete the configuration for custom agent profiles, start with 
 
 1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
 
-1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace.
+1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace or Contact Center workspace.
 
-### See also
+### Related information
 
 [Configure Teams ](../use/oc-customer-summary.md) <br>
 [Use Join a Teams call](../use/join-a-teams-call.md) <br>

@@ -5,11 +5,12 @@ ms.date: 6/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Enable supervisor access to manage conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
 As an administrator, you can enable your supervisors to take specific actions on various conversations being handled by their agents in Omnichannel for Customer Service. You can grant your supervisors permissions to monitor, assign, transfer, and forcibly end conversations by enabling the respective permissions in the admin app.
@@ -27,7 +28,7 @@ As an administrator, you can enable your supervisors to take specific actions on
 
 3. To disable any of the settings, set the corresponding toggle to **No**.
 
-### See also
+### Related information
 
 [Monitor, assign, transfer, and close conversations](../use/monitor-conversations.md)  
 [Provide access to Ongoing Conversations dashboard](configure-ongoing-conversations-dashbaord.md)  

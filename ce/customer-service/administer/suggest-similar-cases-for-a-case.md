@@ -3,6 +3,7 @@ title: Suggest similar cases for a case with Dynamics 365 Customer Service
 description: Learn how to use the similarity rules and relevance search in Customer Service.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 06/21/2024
 ms.topic: article
 search.audienceType: 
@@ -158,7 +159,7 @@ You can view the similar case suggestions in the Related section of the Customer
  >
  > The "similar cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
-### See also  
+### Related information  
 
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Related section in the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md#related-section)  

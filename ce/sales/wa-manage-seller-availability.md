@@ -67,7 +67,7 @@ In your assignment rules, create a seller attribute that's based on the seller's
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Configure your work availability](personalize-sales-accelerator.md#configure-your-work-availability)
 - [Set seller attributes](./wa-manage-seller-attributes.md)

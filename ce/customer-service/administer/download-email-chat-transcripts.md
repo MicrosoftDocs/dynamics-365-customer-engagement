@@ -5,14 +5,14 @@ ms.topic: how-to
 ms.date: 06/14/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ---
 
 # Configure download and email of chat transcripts
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Chat for Dynamics 365 Customer Service allows customers to download and email a copy of their chat transcripts. When your administrator enables download and email options, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
+Chat for Dynamics 365 Contact Center allows customers to download and email a copy of their chat transcripts. When your administrator enables download and email options, customers can download or request an email of their chat transcript at any time during a chat session. At the end of the conversation, customers can request a transcript. If the customer requests an email of the chat transcript, the email is sent at the end of the conversation.
 
 **Prerequisite**: Administrators should set up mailboxes before enabling this feature, and must select the **Allow other Dynamics 365 users to send email on your behalf** checkbox for it to work. For more information, see [Dynamics 365 Email Setup](https://support.microsoft.com/help/4020807/dynamics-365-e-mail-setup-configuration-and-dynamics-365-for-mobile-ho) and [Dynamics 365 Email tab options](/dynamics365/customerengagement/on-premises/basics/set-personal-options#email-tab-options).
 
@@ -20,7 +20,7 @@ Chat for Dynamics 365 Customer Service allows customers to download and email a 
 
 To configure options to download and email chat transcripts for both customers and agents:
 
-1. In Customer Service admin center, select the workstream of the chat widget in which you want to configure the settings.
+1. In Customer Service admin center or Contact Center admin center, select the workstream of the chat widget in which you want to configure the settings.
 
 2. Select **Edit** for the chat channel that you want to update, and then select the **User features** tab.
 
@@ -58,7 +58,7 @@ Customers can choose to download and email a copy of their chat transcript conve
     > ![Chat transcript prompt.](../media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
 
-### See also
+### Related information
 
 [Add a chat widget](add-chat-widget.md)<br>
 [Configure a pre-chat survey](configure-pre-chat-survey.md) <br>

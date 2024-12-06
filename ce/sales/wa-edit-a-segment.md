@@ -72,7 +72,7 @@ Your changes are applied to records that are connected to the segment going forw
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate a segment](create-and-activate-a-segment.md)
 

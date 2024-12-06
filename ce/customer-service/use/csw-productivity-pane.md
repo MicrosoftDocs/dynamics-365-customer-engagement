@@ -5,6 +5,7 @@ ms.date: 04/29/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -16,6 +17,8 @@ ms.collection: get-started
 ---
 
 # Use the productivity pane to help resolve customer issues
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 The productivity pane in the Customer Service workspace is an auxiliary work area that contains tools for supporting or expediting tasks when agents are resolving customer issues.
 
@@ -65,7 +68,7 @@ A macro is a set of instructions that tells the system how to complete a task. W
 
 The knowledge base search lets you search for relevant knowledge articles to resolve a case. These articles are displayed based on relevance and full-text search mechanisms. For more information, see [Search for knowledge articles](search-knowledge-articles-csh.md). 
 
-### See also
+### Related information
 
 [Customer Service workspace - overview](../implement/csw-overview.md) <br>
 [View AI-suggested similar cases and knowledge articles](csw-view-ai-suggested-cases-knowledge-articles.md) <br>

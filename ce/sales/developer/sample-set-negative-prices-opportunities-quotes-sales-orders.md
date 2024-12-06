@@ -28,7 +28,7 @@ This sample code is for Dynamics 365 Sales. Download the complete sample here [B
 ## Example  
  [!code-csharp[BusinessManagement#workingwithnegativeprices](../../snippets/csharp/CRMV8/businessmanagement/cs/workingwithnegativeprices.cs#workingwithnegativeprices)]  
   
-### See also  
+## Related information  
  [Sales Tables (Lead, Opportunity, Competitor, Quote, Order, Invoice)](sales-entities-lead-opportunity-competitor-quote-order-invoice.md)   
  [Quote, Order and Invoice Tables](quote-order-invoice-entities.md)   
  [PriceLevel Table](entities/pricelevel.md)   

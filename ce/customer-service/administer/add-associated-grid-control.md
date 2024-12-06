@@ -29,7 +29,7 @@ The following screenshot is an example of how you can display knowledge articles
     - Add  **Table** and **Default view** from which the records must be displayed.
     - Select **Show related records** if you'd like to display only records that are related to the current record on the form and not all the available records. If you select this checkbox, the form displays only the related records in **Subgrid 1**.
  1. To customize the subgrid further, select **Associated Grid Control** in **Components**. Specify the following values in the **Edit Associated Grid Control** pane that appears:
-    - **Customizer control**: Specify the customizer control name for the entity. For example, you've configured a subgrid to display child cases. For the subgrid to display color-coded priority icons, you'll need to set the value of this field to  **MscrmControls.CustomCellControl.CustomCellControl**. More information: [Enable the grid control for the Case entity](enable-case-grids.md#enable-the-grid-control-for-the-case-entity)
+    - **Customizer control**: Specify the customizer control name for the entity. For example, you've configured a subgrid to display child cases. For the subgrid to display color-coded priority icons, you'll need to set the value of this field to  **MscrmControls.CustomCellControl.CustomCellControl**. 
      - **Customized title**: Specify the display name that appears as the subgrid's name when the card loads. The original view name is displayed by default if you don't specify a value for this field.  
 1. To configure subgrids 2 to 4, specify the values for **Table**, **Default View**, **Customizer control**, and **Customizer control** for the corresponding subgrids in the **Edit Associated Grid Control** pane.
 1. You'll also have to specify the table relationship in [**Relationship Name**](#configure-related-records-for-multiple-subgrids) to display the related records in **Subgrid 2** to **Subrgid 4**. 
@@ -39,7 +39,7 @@ The following screenshot is an example of how you can display knowledge articles
      
 ## Configure related records for multiple subgrids
 
-You can select **Show related records** check box to display the related records for only **Subgrid 1** in **Associated Grid Control**. To display related records in **Subgrid 2** to **Subgrid 4** you need to specify the corresponding table relationships in **Relationship name**. Table relationships allow for queries to retrieve related data efficiently. More information: [Table relationships overview](/power-apps/maker/data-platform/relationships-overview). 
+You can select **Show related records** check box to display the related records for only **Subgrid 1** in **Associated Grid Control**. To display related records in **Subgrid 2** to **Subgrid 4** you need to specify the corresponding table relationships in **Relationship name**. Table relationships allow for queries to retrieve related data efficiently. Learn more in [Table relationships overview](/power-apps/maker/data-platform/relationships-overview). 
 
  To find the relationship between tables, do the following steps:
 
@@ -69,6 +69,6 @@ Perform the following steps:
 
    :::image type="content" source="../media/edit-grid-type-assoc-mini.png" alt-text="Add an alternate grid control" lightbox="../media/edit-grid-type-assoc.png":::
 
-## See also
+## Related information
 
 [Overview of the model-driven form designer](/power-apps/maker/model-driven-apps/form-designer-overview)  

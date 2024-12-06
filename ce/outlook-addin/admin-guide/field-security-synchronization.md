@@ -3,7 +3,7 @@ title: "How field security affects synchronization between Dynamics 365 apps and
 description: Learn how field security affects synchronization between Dynamics 365 apps and Dynamics 365 for Outlook with a scenario. 
 ms.custom: 
 ms.date: 11/28/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 apps 
 ms.assetid: 5df0b13a-846a-4822-83cc-8efaaf3395fb
 caps.latest.revision: 13
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer

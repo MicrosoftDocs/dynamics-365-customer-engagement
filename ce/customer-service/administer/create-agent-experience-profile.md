@@ -3,11 +3,14 @@ title: "Configure agent experience profiles | MicrosoftDocs"
 description: "Learn how to create and manage agent experience profiles for customized agent experiences."
 author: gandhamm
 ms.author: mgandham
-ms.date: 02/02/2023
+ms.reviewer: mgandham
+ms.date: 07/01/2024
 ms.topic: article
 ---
 
 # Create and use agent experience profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 By default, the following agent experience profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified.  When you don't assign a custom profile to an agent, the default profile is assigned.
 
@@ -68,7 +71,7 @@ For the profile that you created, you can add users and configure option such as
 For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in agent experience profiles. By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features. For more information, See: [Make Copilot available to agents](configure-copilot-features.md#make-copilot-available-to-agents)
 
 
-### See also
+### Related information
 
 [Manage session template](session-templates.md)  
 [Overview of Dynamics 365 Productivity Tools](productivity-tools.md)  

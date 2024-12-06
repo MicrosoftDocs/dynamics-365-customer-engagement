@@ -5,10 +5,14 @@ ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Historical analytics for unified routing
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
@@ -66,7 +70,7 @@ On the **Unified routing** report page, the **Routing metrics by date** table di
 
 You can select a date, and then select **Details** to view the routing metrics by the hour.
 
-### See also
+### Related information
 
 [Enable Historical analytics for unified routing in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-unified-routing-in-omnichannel-for-customer-service)  
 [Overview of unified routing](../administer/overview-unified-routing.md)  

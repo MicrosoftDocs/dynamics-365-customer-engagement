@@ -1,10 +1,11 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 03/01/2024
+ms.date: 09/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Set up unified routing for records
@@ -13,11 +14,7 @@ ms.author: nenellim
 
 You can configure unified routing for records in the Customer Service admin center app.
 
-If you have Dynamics 365 Customer Service only, then the options to configure unified routing will be available only after you [enable unified routing](provision-unified-routing.md) in the service configuration settings.
-
 > [!IMPORTANT]
-> 
-> - After you enable the unified routing feature in **Service Configuration Settings**, you can't disable it. You'll need to contact Microsoft Support to disable the feature.
 > - Provisioning unified routing might affect runtime operations on account of solution import that can affect SQL load.
 > - If you're upgrading your environment and Omnichannel for Customer Service is also installed, you might have existing workstreams for record routing. We recommend that you provision unified routing only after recreating those workstreams for record routing in your admin app.
 > - If you're an existing customer, we recommend that you configure and test unified routing in a test or development environment before configuring it in your production environment.
@@ -25,10 +22,10 @@ If you have Dynamics 365 Customer Service only, then the options to configure un
 
 ## Prerequisites
 
-- To set up record routing for Customer Service, unified routing must be enabled in your environment. More information: [Provision unified routing for Customer Service](provision-unified-routing.md)
-- To route records, you must enable the record for routing using records channel configuration. More information: [Records routing](enable-entities-for-queues.md)
+- To set up record routing for Customer Service, unified routing must be enabled in your environment. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md).
+- To route records, you must enable the record for routing using records channel configuration. Learn more in [Records routing](enable-entities-for-queues.md).
 - You must have the System Administrator role to configure record routing.
-- You must have users configured as bookable resource. More information: [Set up the user as a bookable resource](users-user-profiles.md)
+- You must have users configured as bookable resource. Learn more in [Set up the user as a bookable resource](users-user-profiles.md).
 
 ## Configure unified routing for records
 
@@ -104,7 +101,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
    - **Capacity**: Select one of the following options:
      - **Unit based**: Enter value if your organization has configured unit-based capacity.
-     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. More information: [Create and manage capacity profiles](capacity-profiles.md) 
+     - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. Learn more in [Create and manage capacity profiles](capacity-profiles.md). 
 
    - **Allowed presences**: Select the presences in which agents will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
 
@@ -123,7 +120,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 ![Next step.](../media/right-arrow.png "Next step") [Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)  
 ![Home.](../media/home-button.png "Home") [Process for setting up unified routing](set-up-routing-process.md)  
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Create and manage workstreams](create-workstreams.md)    

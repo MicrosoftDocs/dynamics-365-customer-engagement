@@ -3,7 +3,7 @@ title: How the automatic record creation rule works in an agent scenario
 description: Understand how automatic record creation rules work in agent scenarios and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 05/02/2024
@@ -99,7 +99,7 @@ An incoming email from a customer might get converted to multiple cases. When an
 
 1. Select **Publish** to save your changes.
 
-## See also
+## Related information
 
 [Create multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#create-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 

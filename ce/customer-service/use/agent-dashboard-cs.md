@@ -5,7 +5,7 @@ ms.date: 05/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -78,7 +78,7 @@ To access the drill down report, select any metric value for the required agent,
 > [!NOTE]
 > Agent availability (start and end time) is only available in UTC, and isn't affected by the user's time zone.
 
-### See also
+### Related information
 
 [Dashboard overview](customer-service-analytics-insights-csh.md)  
 [Summary dashboard](summary-dashboard-cs.md)  

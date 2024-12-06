@@ -3,7 +3,7 @@ title: Sample - ARC Multi-Related - Remove Unreferenced Queue
 description: This sample describes how automatic record creation can be customized to remove unreferenced queues from emails.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: sample
 ms.collection:
 ms.date: 04/19/2024
@@ -19,7 +19,7 @@ The sample shows how automatic record creation rules for Dynamics 365 Customer S
 
 Detailed instructions on how to run the sample and its functionality can be found in the [README.md file](https://github.com/microsoft/Dynamics365-Apps-Samples/blob/master/customer-service/automatic-record-creation/RemoveUnreferencedQueues/README.md).
 
-### See Also
+### Related information
 
 [Write a plug-in](/power-apps/developer/data-platform/write-plug-in?tabs=pluginbase)
 

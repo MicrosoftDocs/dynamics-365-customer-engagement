@@ -3,6 +3,7 @@ title: Use activity monitor to review and track rules
 description: Manage activity monitor to review and track rules in Customer Service to view activity events, states, rule names, and more.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection:
 ms.date: 01/24/2024
@@ -49,6 +50,6 @@ In Customer Service admin center, **Customer support** > **Overview** > **Case s
    - Failed
    - Skipped
 
-## See also
+## Related information
 
 [Automatically create or update records](automatically-create-update-records.md)

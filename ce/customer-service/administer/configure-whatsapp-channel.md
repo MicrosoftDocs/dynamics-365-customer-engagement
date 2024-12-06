@@ -1,6 +1,6 @@
 ---
 title: Configure a WhatsApp channel through Twilio
-description: Use this article to learn how to configure the WhatsApp channel through Twilio in Omnichannel for Customer Service.
+description: Use this article to learn how to configure the WhatsApp channel through Twilio.
 ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
@@ -12,20 +12,18 @@ ms.custom: bap-template
 
 # Configure a WhatsApp channel through Twilio
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The WhatsApp channel feature lets you integrate WhatsApp through Twilio with Omnichannel for Customer Service to engage with customers who prefer to use the WhatsApp channel.
+The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Customer Service admin center or Contact Center admin center application to engage with customers who prefer to use the WhatsApp channel.
 
 The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment. More information: [Provision Omnichannel for Customer Service](../implement/omnichannel-provision-license.md)
-  > [!NOTE]
-  > To enable the Twilio channel in an existing environment, you must upgrade to the latest version of Omnichannel for Customer Service. For information, [Upgrade Omnichannel for Customer Service](../implement/upgrade-omnichannel.md). <br><br>
+- Make sure channels are provisioned in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
   > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 
-- Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, see [Integrate a Twilio sandbox account with Omnichannel for Customer Service](#integrate-a-twilio-sandbox-account-with-omnichannel-for-customer-service)
+- Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, go to [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
 
 - Connect Twilio Number to your WhatsApp Business Profile. To learn more, see [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
@@ -48,13 +46,13 @@ The success of social media customer service, like all other customer service, d
 
 ## Fetch Twilio account details
 
-To integrate a WhatsApp channel through Twilio with Omnichannel for Customer Service, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values safely because they're required to configure a WhatsApp channel through Customer Service admin center.
+To integrate a WhatsApp channel through Twilio with the Customer Service admin center or Contact Center admin center application, you need to go to your Twilio account and fetch the **ACCOUNT SID** and **AUTH TOKEN** values. Save the values as they're required to configure a WhatsApp channel through the admin application.
 
 Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch the details.
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
    
@@ -108,7 +106,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ### Configure WhatsApp message templates
 
-You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp-approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Omnichannel for Customer Service.
+You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp-approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
 Perform the following steps:
 
@@ -121,13 +119,13 @@ Perform the following steps:
 4. Select **Save**.
 5. Create as many templates as required.
 
-### Integrate a Twilio sandbox account with Omnichannel for Customer Service
+### Integrate omnichannel application with a Twilio sandbox account
 
 1. In Twilio, go to the **Programmable SMS** > **Programmable Messaging** > **WhatsApp sandbox**.
-2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in Omnichannel for Customer Service, and save the changes.
+2. In the **WHEN A MESSAGE COMES IN** box, enter the Twilio inbound URL that you generated in the application, and save the changes.
 3. To test the WhatsApp channel with the Twilio sandbox, you can send a WhatsApp message to the number provided by Twilio with a unique code that is also provided by Twilio. You can also use the sandbox message template provided by Twilio to test sending messages outside of the 24-hour window.
 
-### See also
+### Related information
 
 [Understand and create workstreams](../work-streams-introduction.md)  
 [Configure automated messages](configure-automated-message.md)  

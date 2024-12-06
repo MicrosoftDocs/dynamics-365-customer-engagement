@@ -5,11 +5,12 @@ ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Bring your own carrier
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Azure Communication Services direct routing enables you to connect your existing telephony infrastructure with Azure so that you can retain your existing carrier and phone numbers, and streamline inter-office call transfers.
 
@@ -29,7 +30,7 @@ Azure Communication Services direct routing enables you to connect your existing
 
 ## Bring your own phone number via direct routing
 
-1. In the site map of Customer Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Phone numbers**.
 
@@ -59,7 +60,7 @@ The new phone number will be displayed in the **Phone numbers** list and is read
 - Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
 
   
-### See also
+### Related information
 
 [Overview of the voice channel](voice-channel.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  

@@ -62,7 +62,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add site map entry to custom app](add-custom-site-map.md)
 

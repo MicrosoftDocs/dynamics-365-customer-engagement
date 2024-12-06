@@ -96,7 +96,7 @@ Conversation intelligence for your Teams calls is available from the following a
 - [Standalone conversation intelligence app](dynamics365-sales-insights-app-home-page.md)
 
 
-### See also
+## Related information
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   
 

@@ -6,6 +6,7 @@ ms.service: "powerapps"
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 ms.collection: bap-ai-copilot
 search.audienceType: 
   - developer
@@ -695,6 +696,6 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
 [Enable Copilot features in Customer Service (preview)](../../../administer/configure-copilot-features.md)

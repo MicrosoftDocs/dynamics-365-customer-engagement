@@ -1,20 +1,21 @@
 ---
-title: Omnichannel Agent Dashboard in Omnichannel for Customer Service
-description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Omnichannel for Customer Service app.
+title: Omnichannel Agent Dashboard in Dynamics 365 Contact Center
+description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Contact Center workspace.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 04/12/2024
+ms.date: 07/02/2024
 ms.custom: bap-template
 ---
 
 # View agent dashboard and agent conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-When you sign in to the Customer Service workspace or Omnichannel for Customer Service app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
+
+When you sign in to the Customer Service workspace or Contact Center workspace app, the Omnichannel Agent Dashboard is the default view. You can set any dashboard as the default view by selecting the **Set As Default** option. The dashboard displays the following streams:
 
 - My work items
 - Open work items
@@ -51,15 +52,22 @@ On the dashboard, you can sort work items by the following categories:
 
 ## View multiple conversations at the same time
 
+
 You can have multiple conversations open on multiple browsers and view the conversations in a split screen. Viewing multiple conversations side by side improves your ability to serve customer requests without the need to switch between sessions.
 
 For example, when you select an active work item or monitor a conversation, it opens on the same browser. All other browsers remain as-is.
 
-When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed.
+When multiple browsers are open, you see incoming conversation request on all the browsers. However, the browser that you select **Accept** from is the browser that loads that conversation. All other browsers remain as-is, with incoming notifications dismissed. 
 
-For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers.
 
-### See also
+For example, for incoming calls, the conversation gets accepted only on one browser and the notification gets dismissed on other browsers. If you want to join the conversation in another browser, you must close the session in the current browser and open the conversation in the other browser.
+
+> [!NOTE]
+> - Ensure that you close the persistent chat sessions in all the windows where you have the same chat open. Else, other windows will still allow you to send messages even after you've selected **End** to end the chat in one chat window.
+> - When you accept a voice conversation, from different tabs or windows, your capacity may be impacted. To join a voice conversation in a new browser, you must close the session in the current browser and open it on a new browser.
+
+
+### Related information
 
 [Create a record](oc-create-record.md)  
 [Introduction to the agent interface](oc-introduction-agent-interface.md)  

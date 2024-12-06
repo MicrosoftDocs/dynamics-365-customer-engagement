@@ -18,9 +18,6 @@ Customize how the data from the scanned business cards maps to the fields in the
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 
-
-
-
 ## Customize the mapping
 
 Dynamics 365 Sales comes with an out-of-the-box business card control that defines the mapping of what information from the business card goes in which fields of the **Contact** or **Lead** forms. If you have custom fields on your **Contact** or **Lead** form and you want the data from the business card to be populated in these fields, edit the default mappings of the business card control.
@@ -39,6 +36,8 @@ To customize the mappings:
     > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
 
     The **Business Management** page opens.
+     > [!NOTE]
+     > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2.  On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
 
@@ -70,10 +69,11 @@ To customize the mappings:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Scan business cards](scan-business-cards.md)  
 [Use the business card reader in model-driven apps](/ai-builder/business-card-reader-component-model-driven)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

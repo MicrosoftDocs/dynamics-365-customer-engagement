@@ -5,13 +5,11 @@ ms.date: 06/14/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 
 ---
 
 # Retrieve and format rich messages
-
-[!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
 [!INCLUDE[pva-rebrand](../../../../includes/cc-pva-rebrand.md)]
 
@@ -151,7 +149,7 @@ Microsoft.Omnichannel.sendMessageToConversation(websiteRichLinkJSON, false);
 copy(websiteRichLinkJSON);
 ```
 
-### See also
+### Related information
 
 [Live chat SDK JavaScript API reference](../../omnichannel-reference.md)  
 [Omnichannel JavaScript API reference](../../omnichannel-api-reference.md)  

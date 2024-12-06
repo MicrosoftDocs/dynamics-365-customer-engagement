@@ -5,10 +5,12 @@ ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: lalexms
+ms.reviewer: laalexan
 ---
 
 # Configure email
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Email is typically used as a communication channel between customers and agents throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, agents often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
 
@@ -135,7 +137,7 @@ You can configure the attachment file types you want to block to prevent users f
 
 4. Type one or more file extensions you want to block. Users who try to upload a blocked file type see an error message that tells them the attachment is blocked.
 
-### See Also
+### Related information
 
 [Use email](../customer-service-hub-user-guide-email-overview.md)<br>
 [Create an email template](../customer-service-hub-user-guide-email-create-template.md)<br>

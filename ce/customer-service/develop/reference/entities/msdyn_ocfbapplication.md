@@ -7,7 +7,7 @@ author: "gandhamm"
 ms.author: "mgandham"
 search.audienceType: 
   - developer
-ms.reviewer: nenellim
+ms.reviewer: "mgandham"
 ---
 # msdyn_ocfbapplication Entity Reference
 
@@ -715,7 +715,7 @@ See systemuser Entity [lk_msdyn_ocfbapplication_modifiedonbehalfby](systemuser.m
 
 See systemuser Entity [user_msdyn_ocfbapplication](systemuser.md) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)<br />
 [Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)

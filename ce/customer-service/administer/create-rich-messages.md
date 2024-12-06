@@ -5,10 +5,13 @@ ms.date: 06/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 
 # Manage rich messages
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 Some channel apps such as Apple Messages for Business support a set of custom rich messages. Rich messages contain information that can be used to generate interactive content and experiences that take place within that app.
 
@@ -16,7 +19,7 @@ By creating and publishing channel-specific rich messages, your organization's c
 
 ## Create rich messages for Apple Messages for Business
 
-1. In the site map of Customer Service admin center, select **Productivity** in **Agent experience**.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. Select **New**, and then enter the following information:
     - **Name**: A descriptive name that'll be used by agents to search for rich messages.
@@ -571,7 +574,7 @@ Within the designer, the first fields are related to the message that appears wi
 
 
 
-### See also
+### Related information
 
 [Configure Apple Messages for Business](configure-apple-messages-for-business-channel.md)  
 [Understand and create workstreams](create-workstreams.md)  

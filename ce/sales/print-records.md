@@ -33,7 +33,7 @@ Take a printed copy of a quote, invoice, or other records in Dynamics 365 Sales 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create PDF files from sales records](create-quote-pdf.md)
 

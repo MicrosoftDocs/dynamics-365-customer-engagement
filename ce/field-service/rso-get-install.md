@@ -25,7 +25,11 @@ To purchase access to the Resource Scheduling Optimization Add-in for Dynamics 3
 1. Purchase Resource Scheduling Optimization. Go to **Microsoft 365 Admin Center** > **Billing** > **Purchase services**. The price of Resource Scheduling Optimization is based on the number of resources whose schedules are optimized.
 
 > [!NOTE]
-> Resource Scheduling Optimization is licensed per resource. The add-in license allows for unlimited use of schedule optimization, whether on a regular cadence or ad hoc basis. The license includes one active instance of Resource Scheduling Optimization per tenant. Review the [multi-instance guidelines](./rso-deployment.md#acquiring-licenses-for-multiple-instances) if you need more than one active instances.
+> The add-in license allows for unlimited use of schedule optimization, whether on a regular cadence or ad hoc basis. The license includes one active instance of Resource Scheduling Optimization per tenant.
+
+## Get licenses for multiple instances
+
+Resource Scheduling Optimization is associated with a single Dynamics 365 organization in the tenant. You can change the associated organization through the Resource Scheduling Optimization deployment app’s page. If additional Resource Scheduling Optimization instances are needed for development and testing environments and you have an Enterprise Agreement with Microsoft, contact your technical account manager or commercial executive (formerly licensing specialist). Such instances are not yet available to cloud solution providers or retail purchase.
 
 ## Next steps
 

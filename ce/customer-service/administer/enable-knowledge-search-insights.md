@@ -5,10 +5,14 @@ ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Manage knowledge analytics
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The Knowledge analytics dashboard is designed to provide your supervisors and knowledge workers with valuable insights into how your support agents are searching and using knowledge articles.
 
@@ -66,7 +70,7 @@ If you customized the Customer Service workspace app, you must complete the foll
       - **Client**: **Web**.
 1. Select **Save**, and then select **Publish**.
 
-### See also
+### Related information
 
 [Introduction to Customer Service analytics and insights](../implement/customer-service-analytics.md)  
 [View and understand Customer Service analytics and insights in Customer Service Hub](../use/customer-service-analytics-insights-csh.md)  

@@ -3,13 +3,15 @@ title: Manage session templates
 description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 05/23/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Manage session templates
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 A session template is a combination of attributes and application tab information that can be reused.
 
@@ -90,7 +92,7 @@ You can associate application tabs that need to open when a session is started. 
 
 The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 
-### See also
+### Related information
 
 [Get started with Customer Service admin center](../implement/cs-admin-center.md)  
 [Manage application tab templates](application-tab-templates.md)  

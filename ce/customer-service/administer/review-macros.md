@@ -3,6 +3,7 @@ title: Review macro run history
 description: Review macro run history to identify causes of failure and view exact action step at which failure occurred.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.collection:
 ms.date: 05/06/2024
@@ -15,6 +16,8 @@ ms.custom:
 ---
 
 # Review macro run history
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 You can view the macro run history, which shows how many times a macro ran, along with the success or fail status. When you select a macro that failed, you can view the exact action step at which the failure occurred, allowing you to identify why the failures occurred.
 

@@ -1,6 +1,6 @@
 ---
 title: Configure persistent chat
-description: Use this article to understand how persistent chat works and how you can configure it in Omnichannel for Customer Service.
+description: Use this article to understand how persistent chat works and how you can configure it in Dynamics 365 Contact Center.
 ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
@@ -12,7 +12,7 @@ ms.collection:
 
 # Configure persistent chat
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Persistent chat is an asynchronous mode for the chat channel that allows conversations to happen over multiple sessions. Unlike in live chat, where customers and agents need to be available simultaneously, persistent chat allows users to leave the conversation between sessions and pick it up later. 
 
@@ -36,11 +36,11 @@ Make sure that the authentication settings are configured. More information: [Cr
 
 ## Set up persistent chat
 
-In Customer Service admin center, select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
+In admin center, select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
 
 Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
 
-### See also
+### Related information
 
 [Configure a chat widget](add-chat-widget.md)  
 [Create and manage workstreams](create-workstreams.md)  
