@@ -1,7 +1,7 @@
 ---
 title: FAQ about work order summary with Copilot and summary configuration (preview)
 description: Get answers to common questions about how the AI-powered work order summary feature in Dynamics 365 Field Service helps you quickly understand the status and details of a work order.
-ms.date: 11/05/2024
+ms.date: 12/06/2024
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
@@ -21,7 +21,7 @@ The work order summary is an AI-powered tool that gives you a quick and smart su
 
 ## What is the work order summary feature?
 
-The work order summary feature in Dynamics 365 Field Service uses AI to give service managers, dispatchers, and frontline workers a concise and relevant summary of a work order and its related data. The summary is a snapshot of the work order's status, history, progress, and next steps. It also includes important information such as arrival times, work criticality, and parts usage.
+The [work order summary feature](work-order-recap.md) in Dynamics 365 Field Service uses AI to give service managers, dispatchers, and frontline workers a concise and relevant summary of a work order and its related data. The summary is a snapshot of the work order's status, history, progress, and next steps. It also includes important information such as arrival times, work criticality, and parts usage.
 
 To customize the summary, an administrator can use the summary configuration feature to choose the data fields that Copilot uses to summarize a record in Field Service.
 
