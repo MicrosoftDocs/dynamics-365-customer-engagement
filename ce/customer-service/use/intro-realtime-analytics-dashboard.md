@@ -61,7 +61,7 @@ If you can't view the reports, contact your system administrator. Learn more in 
 
 > [!NOTE]
 > - The reports don't include work items of the Entity Record channel.
-> - The reports are prefiltered based on the queues you are logged in to as a supervisor. You'll see metrics and conversations relevant to the assigned queues only, which ensures data privacy and relevance.
+> - The reports are prefiltered based on the queues you are signed in to as a supervisor. Your view of metrics and conversations pertain to the assigned queues only, which helps ensure data privacy and relevance.
 
 The **Omnichannel real-time analytics** dashboard consists of the following reports:
 

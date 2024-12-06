@@ -21,7 +21,7 @@ ms.custom:
 
 The **Ongoing conversation** report shows ongoing conversations from the last 24 hours that are currently being handled by customer service representatives (service representatives) in your organization and that aren't yet closed. The report displays those conversations that have the open, active, wrap-up, or waiting status. Learn more in [Understand conversation states](oc-conversation-state.md).
 
-This report provides a holistic view of the conversations in real time. It includes details about subject, status, active agent details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
+This report provides a holistic view of the conversations in real time. It includes details about subject, status, active service representative details, queue, channel, wait time, handle time, and customer sentiment. Learn more in [Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
 > [!NOTE]
 > - Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
@@ -35,7 +35,7 @@ You can perform different actions, such as assign or transfer a conversation, as
 
 ## Assign or transfer conversations
 
-You can view agent skills and proficiency, availability, and available capacity, which helps you to effectively manage and allocate resources. You can assign or transfer conversations to service representatives who are part of the current queue only. You can manage the queues for service representatives. Learn more in [Manage users](../administer/users-user-profiles.md#manage-contact-center-users).
+You can view service representative skills and proficiency, availability, and available capacity. These insights help you effectively manage and allocate resources. You can assign or transfer conversations to service representatives who are part of the current queue only. You can manage the queues for service representatives. Learn more in [Manage users](../administer/users-user-profiles.md#manage-contact-center-users).
 
 Refer to the following table to see when assign and transfer are enabled, depending on the various conversation states.
 
@@ -77,7 +77,7 @@ Once a conversation is assigned to an agent, it's in the **Active** state. You c
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action is applicable to active conversations that the agent accepted, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action is applicable to active conversations that the service representative accepted, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
 
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your service representatives are currently handling appears.
@@ -86,7 +86,7 @@ Listen to an ongoing conversation. When you select **Monitor**, you receive a me
 
 1. Optionally, to join a conversation, select **Join chat** in the communication panel.
 
-    Both the agent and the customer receive notifications when you join a conversation. Depending on your requirements, you can consult with the agent and customer. Learn more in [View communication panel](oc-conversation-control.md).
+    Both the service representative and the customer receive notifications when you join a conversation. Depending on your requirements, you can consult with the service representative and customer. Learn more in [View communication panel](oc-conversation-control.md).
 
 ## Force close conversations
 
@@ -119,7 +119,7 @@ In Customer Service workspace, go to **Customized reports** > **Ongoing conversa
   When the **Agent Name** exists, the following options are enabled.
   - **Transfer**: You can transfer the conversation from one agent to another in the same queue.
   - **Monitor**: You can open the conversation dialog to monitor the chat.
-  - **Force close**: You can force close the conversation if required.
+  - **Force close**: You can force close the conversation if necessary.
     :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
 
 Refer to the following table to see the actions that are enabled, depending on the various conversation states.
