@@ -3,7 +3,7 @@ title: Enable enhanced case forms for multisession apps
 description: Learn about enabling the enhanced case forms for multisession apps.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli 
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.date: 09/30/2024
 ms.custom: bap-template 

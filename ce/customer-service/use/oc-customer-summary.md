@@ -3,7 +3,7 @@ title: View Active Conversation in Omnichannel for Customer Service
 description: Learn about Active Conversation, its sections, and how you can view customer information in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
 ms.date: 01/09/2024
 ms.custom: bap-template

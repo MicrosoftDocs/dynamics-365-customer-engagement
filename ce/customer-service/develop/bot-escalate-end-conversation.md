@@ -5,6 +5,7 @@ ms.date: 07/29/2022
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Configure Azure bots to escalate and end conversations
 

@@ -5,6 +5,7 @@ ms.date: 10/25/2019
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Configure Link to conversation button in model-driven app entity form

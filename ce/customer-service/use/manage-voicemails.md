@@ -3,7 +3,7 @@ title: Manage voicemails
 description: Use this article to know about how to access and listen to voicemails as an agent.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 03/07/2024
 ms.custom: bap-template

@@ -183,6 +183,8 @@
           href: copilot-configure-whatsnew-field.md
         - name: Configure Copilot to use SharePoint sites
           href: copilot-sharepoint-config.md
+        - name: Enable Copilot email assist
+          href: enable-copilot-email-assist.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
         - name: Copilot in Dynamics 365 Sales FAQ
@@ -1175,6 +1177,8 @@
               href: use-sales-hub-on-dynamics-365-mobile.md
             - name: Actions supported in online and offline mode
               href: Features-in-mobile-offline.md
+            - name: Sales mobile app vs Dynamics 365 for phones and tablets app
+              href: sales-mobile/mobile-apps-difference.md
 
 - name: Developer guide
   items:

@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 10/03/2024
+ms.date: 11/29/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -21,13 +21,12 @@ ms.custom:
 
 <a name="default-setting-copilot"></a>
 
-Copilot in Dynamics 365 Sales is turned on by default for the following orgs:
+Copilot in Dynamics 365 Sales is turned on by default for the following organizations:
 
-- Orgs in [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). 
+- Organizations in [regions where an Open AI Service endpoint is available](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
+- Organizations that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features) and set the [release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app to **Monthly release channel**.
 
-- Orgs that have [provided consent for data movement across regions](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features) and set the [release channel](/power-apps/maker/model-driven-apps/channel-change) for the sales app to **Monthly release channel**.
-
-For all the other orgs, an admin must provide consent in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for turning Copilot on or off, providing consent for data movement, and configuring Copilot for your business.
+For all the other organizations, an admin must provide consent in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for turning Copilot on or off, providing consent for data movement, and configuring Copilot for your business.
 
 > [!IMPORTANT]
 >- If you had previously turned Copilot off, it remains turned off. 
@@ -120,7 +119,6 @@ Add the Copilot page to your site map by following the instructions in [add site
 - [Configure fields for generating summaries and recent changes list](copilot-configure-summary-fields.md)
 - [Configure fields for generating what's new with my sales records list](copilot-configure-whatsnew-field.md)
 - [Configure Copilot to use specific SharePoint locations](copilot-sharepoint-config.md)
-
 
 ## Related information
 
