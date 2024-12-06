@@ -16,7 +16,7 @@ The Backlog conversation report lists all open, active, and waiting conversation
 
 ## Prerequisites
 
-You'll need to contact Microsoft Support to enable this feature.
+You must contact Microsoft Support to enable this feature.
 
 ## Key metrics
 
@@ -24,7 +24,7 @@ You can view **Modified On** time that reflects the most recent activity in ongo
 
 :::image type="content" source="../media/backlog_conv_mode.png" alt-text="Screenhsot of the conversation mode slicer":::
 
-You can extend the default timeframe of 30 days as required. We recommend that you don't extend the default timeframe to avoid performance issues.
+You can extend the default timeframe of 30 days as required. To avoid performance issues, we recommend that you don't extend the default timeframe.
 
 As supervisors, you can assign, transfer, monitor, and force close extended conversations.
 
