@@ -1,7 +1,7 @@
 ---
 title: Introduction to the chat channel
 description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
-ms.date: 07/01/2024
+ms.date: 12/04/2024
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
@@ -45,7 +45,7 @@ A few examples of data collected by the live chat widget are as follows.
 
 | Data | Example value |
 |---------------|------------------------|
-| OrganizationId | 00aa00aa-bb11-cc22-dd33-44ee44ee44ee |
+| OrganizationId | 11bb11bb-cc22-dd33-ee44-55ff55ff55ff |
 | Chat Widget Version | prod |
 | BrowserName | Edge |
 | OSName | Windows |
