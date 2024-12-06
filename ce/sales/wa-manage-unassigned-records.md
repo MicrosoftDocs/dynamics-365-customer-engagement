@@ -1,7 +1,7 @@
 ---
 title: View assigned records and details
 description: Learn how to view assigned records in Dynamics 365 Sales so that you can assign them to sellers manually or run assignment rules again.
-ms.date: 11/29/2024
+ms.date: 12/06/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -36,6 +36,9 @@ View assigned records to reassign them to different sellers or teams. Also, you 
     - **To be processed**: lists the records that are to be processed are displayed. Any records listed here are automatically assigned to sellers, teams, or queues by the application, and might take up to two minutes.  
     - **Processed**: Lists the records are processed by the work assignment feature. Information of each record is displayed such as, record's name, status, along with name of  connected segment, assignment rule, and sequence (as applicable).  
         When a record isn't connected to a segment, assignment rule, or sequence, the **Status** column displays **Needs attention**. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To know more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
+
+    > [!NOTE]
+    > Though there are no issues with a record, you still view the status as **Needs attention**. This is because the record is created using the previous version of the work assignment feature. Also, you can see that the **Sequence** column is empty for such records.  
 
     :::image type="content" source="media/sa-ar-view-unassigned-records-view-records.png" alt-text="Screenshot of the list of unassigned lead records.":::
 
