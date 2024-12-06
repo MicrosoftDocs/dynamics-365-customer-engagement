@@ -5,6 +5,7 @@ ms.date: 10/20/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # getAgentAvailability
 

@@ -3,6 +3,7 @@ title: "Modes and locations for the communication widget| MicrosoftDocs"
 description: "Learn about the modes&mdash;docked, minimized, and hidden&mdash;used in Dynamics 365 Channel Integration Framework 2.0. "
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.date: 03/12/2024
 ms.custom: 

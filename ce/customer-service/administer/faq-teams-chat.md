@@ -5,7 +5,7 @@ ms.date: 06/21/2024
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 

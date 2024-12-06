@@ -3,7 +3,7 @@ title: Turn on linking of timeline notes with other tables
 description: Learn how to configure linking of timeline notes with other tables.
 author: gandhamm
 ms.author: mgandham 
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 01/09/2024

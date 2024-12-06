@@ -3,7 +3,7 @@ title: Troubleshoot issues in Customer Service and FAQ about Customer Service
 description: Diagnose and fix Customer Service issues with troubleshooting articles and FAQs.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 11/06/2023

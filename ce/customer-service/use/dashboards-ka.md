@@ -3,7 +3,7 @@ title: Knowledge article analytics
 description: Monitor and analyze the status of knowledge articles using the dashboards. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.date: 07/01/2024
 ms.custom: bap-template
