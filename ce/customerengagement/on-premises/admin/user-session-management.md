@@ -2,7 +2,7 @@
 title: "Manage user sessions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Manage user access and sessions, such as when a session times out, by enabling security enhancements in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 07/19/2022
+ms.date: 12/09/2024
 ms.reviewer: 
 
 ms.suite: 
@@ -30,14 +30,13 @@ The maximum user session timeout of 24 hours is removed. This means that a user 
 1. In Customer Engagement (on-premises), choose **Settings** > **Administration** > **System Settings** > **General** tab.
 2. Under **Set session timeout**, set the values to apply to all your users.
 
-> [!NOTE]
-> Default values are:
-> - Maximum Session Length: 1440 minutes
-> - Minimum Session Length: 60 minutes
-> - How long before session expires before showing timeout warning: 20 minutes
+Default values are:
+- Maximum Session Length: 1440 minutes
+- Minimum Session Length: 60 minutes
+- How long before session expires before showing timeout warning: 20 minutes
 
 > [!IMPORTANT]
-> When claims based authentication or IFD are enabled, and CRM session timeout is not enabled, Session Timeout Warning and Timeouts are calculated based on ADFS relying party trust values for TokenLifetime (by default 60 minutes). Once Custom Session Timeouts are enabled, this will override ADFS TokenLifeTime values and sessions will start respecting CRM session timeout values instead.
+> When claims-based authentication or IFD are enabled, and user session timeout isn't enabled, Session Timeout Warning and Timeouts are calculated based on ADFS relying party trust values for TokenLifetime (by default 60 minutes). Once Custom Session Timeouts are enabled, this overrides ADFS TokenLifeTime values and sessions start respecting user session timeout values instead.
 
 ## Inactivity timeout
 
