@@ -67,9 +67,9 @@ Handraiser criteria allow you to define specific conditions that qualify a lead 
 - **Event Participation**: Leads who attend webinars, trade shows, or other company-hosted events.
 - **Direct Inquiries**: Leads who reach out directly via phone, email, or chat to inquire about your offerings.
 
-By defining and monitoring these criteria, you can ensure that your sales team focuses on leads who have demonstrated a clear interest in your solutions, thereby improving the efficiency and effectiveness of your sales process.
+By defining and monitoring these criteria, you can ensure that your sales team focuses on leads who have demonstrated a clear interest in your solutions. The agent prioritizes leads that meet the handraisers criteria over the other leads. 
 
-## License requirements
+## License requirement The The agent prioritizes leads that meet the handraisers criteria above 
 
 The Sales qualification agent is available with Dynamics 365 Sales Premium and Sales Enterprise licenses. 
 
@@ -96,7 +96,11 @@ Before you set up the Sales qualification agent, review the following considerat
    Q: In another JTBD, I saw that the product tour should be on a real lead. Please clarify which one we're going with.
 - The agent is available for free during private preview. 
    Q: Do we need to cover the cost aspect for public preview?
+- The agent doesn't send emails automatically. It generates draft emails that sellers can review and send manually. 
 
+### Limitations
+
+When the sales qualification agent is activated, the last 100 leads are processed, starting from the most recently created leads.  
 
 To set up the Sales qualification agent, follow these steps:
 
@@ -166,24 +170,29 @@ Before you start using the Sales qualification agent, ensure that the following 
     > [!NOTE]
     > When you first access the **Leads** page after the agent activation, the carousal displays a consent message. You must provide consent to allow the agent to access external data sources for research and access your emails in Dynamics 365 to check for emails from leads. This consent is only applicable for the carousal view and is not applicable for other Copilot features.
 
+   The cards on the carousal display the lead's name, their need, the next best action, the reason for the suggested action, and a call-to-action button to take the recommended action.
+
 2. Select a lead from the carousal to view the recommended action, detailed research insights, customer profile match, and handraiser status.
     
    The research insights page of the selected lead is displayed with insights and recommended actions.
 
 ### Suggested actions
 
-This section displays the next best action for the lead based on the research data, your company and product information, and emails from the lead. The following actions are suggested:
+This section displays the next best action for the lead based on the research data, your company and product information, and emails from the lead. 
 
-- **Draft Email**: Craft a compelling introductory email to engage with the lead. This action is displayed only when the following conditions are met:
+
+The following actions are suggested:
+
+- **Draft Email**: Craft a compelling introductory email to engage with the lead. The agent generates the email based on the lead research data, your company and product information (defined during setup), and the lead's email history. 
+- This action is displayed only when the following conditions are met:
   - No prior emails, no upcoming meetings, no past appointments, and no previously unanswered calls.
   - The following fields in the lead record have valid values: 
     - Company name which can be associated with an account.
     - Email address which is active and deliverable.
     - Lead's first and last name
-- **Schedule Meeting**: If the lead has shown interest in your offerings, schedule a meeting to discuss further.
-- **Follow-up**: Send a follow up email if the lead had asked for more information.
-- **Nudge**: Send a gentle reminder to the lead if they haven't responded. This action is displayed only after 5 days of sending the last email.
-- **Disqualify**: Disqualify the lead if they're not a good fit for your offerings.
+- **Schedule appointment**: If the lead has shown interest in your offerings, schedule a meeting to discuss further.
+- **Create task**: If the lead has requested a follow-up or you need to perform a specific action, create a task to track the progress. For example, if a lead has requested a discount, you can create a task to discuss the discount with your manager.
+- **Send email**: If the lead has asked for more information, send an email with the required details. Copilot generates a draft email with the necessary information based on the lead's request.
 
 ### Research insights
 
