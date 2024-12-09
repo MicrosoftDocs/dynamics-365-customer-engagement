@@ -13,7 +13,7 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. Learn more in [outbound calling](../administer/voice-channel-outbound-calling.md)
+To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. Learn more in [outbound calling](../administer/voice-channel-outbound-calling.md).
 
 You can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
@@ -35,7 +35,7 @@ To test your microphone and speaker, do the following steps:
        - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
 
     > [!NOTE]
-    > You can select the **Device settings** or use settings in the **Dialer** to test your microphone and speaker when you're in an ongoing call. 
+    > You can select the **Device settings** or use **Settings** in the **Dialer** to test your microphone and speaker when you're in an ongoing call. 
 
 
 ## Make a call using the outbound dialer
