@@ -34,6 +34,9 @@ To test your microphone and speaker, do the following steps:
        - The **Communication Panel** displays the device settings and the **End call** button. 
        - When you select device settings, you can see the speaker and microphone. A visual indicator is displayed against the device to indicate that it is connected. 
 
+    > [!NOTE]
+    > You can select the **Device settings** or use settings in the **Dialer** to test your microphone and speaker when you're in an ongoing call. 
+
 
 ## Make a call using the outbound dialer
 
