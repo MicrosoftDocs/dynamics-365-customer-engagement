@@ -75,10 +75,10 @@ This dimension represents the current state of a customer interaction. The follo
 - **Wrap-up**: The agent is performing post–customer interaction activities such as adding notes or updates to the case after the end of a customer conversation.
 - **Closed**: The conversation is currently closed. The following metrics are a measure of the conversations grouped by call closure reason.
 
-    - Ghost Conversation: Conversations which are connected to an agent but there was no interaction from customer after the conversation was connected. 
-    - Ghost Conversations Rate: Percentage of engaged conversations which are connected to an agent but there was no interaction from customer. 
+    - Ghost Conversation: Conversations that are connected to an agent but there was no interaction from customer after the conversation was connected. 
+    - Ghost Conversations Rate: Percentage of engaged conversations that are connected to an agent but there was no interaction from the customer. 
     - Conversation disconnect rate: Percentage of conversations that were ended by customer before an agent ended the conversation.
-    - Disconnect reason: Represents the reason behind a customer disconnect. For chats, it represents if the customer closed the widget, ended the conversation, or if there was a system disconnect. For voice, it represents if the customer ended the call or if the call got disconnected due to connection issues.
+    - Disconnect reason: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call or the call was disconnected due to connection issues.
 
 ### Queue name
 
@@ -90,7 +90,7 @@ This dimension represents the statuses that are available for agents. The out-of
 
 ### Date hour
 
-This dimension represents the hour of the day in 24-hour format.
+This dimension represents the hour of the day in a 24-hour format.
 
 ### Time range
 
