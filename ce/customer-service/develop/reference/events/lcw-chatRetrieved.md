@@ -5,6 +5,7 @@ ms.topic: article
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
 

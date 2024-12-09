@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 07/19/2024
+ms.date: 11/28/2024
 ms.custom: bap-template
 ---
 
@@ -86,7 +86,7 @@ You can also author plugin actions in Copilot Studio to use certified connectors
 
 ## Next steps
 
-Use [Use targeted phrases in Copilot to get responses from plugins (preview)](../use/use-copilot-features.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview) in the Copilot help pane to see how the plugin works.
+[Use targeted phrases in Copilot to get responses from plugins (preview)](../use/use-ask-a-question.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview)
 
 ### Related information
 

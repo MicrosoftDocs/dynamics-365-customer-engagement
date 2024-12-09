@@ -3,7 +3,7 @@ title: Configure knowledge article schema mapping
 description: Learn how to configure knowledge article schema mapping as part of adding an integrated search provider for Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 11/21/2023
 ms.custom: bap-template

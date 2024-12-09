@@ -3,7 +3,7 @@ title: SLA time calculation scenarios
 description: Learn how time gets calculated for SLAs in various scenarios. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual 
 ms.collection:
 ms.date: 08/30/2024

@@ -5,6 +5,7 @@ ms.date: 07/01/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Customize quick view forms
 

@@ -6,7 +6,7 @@ ms.topic: article
 author: lalexms
 ms.author: laalexan
 manager: shujoshi
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure rules-based suggestions for contacts in Microsoft Teams

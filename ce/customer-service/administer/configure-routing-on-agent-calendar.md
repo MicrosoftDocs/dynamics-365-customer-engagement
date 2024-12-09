@@ -3,7 +3,7 @@ title: Configure routing based on external schedules (preview)
 description: Learn how to configure routing of work items to agents based on shift schedules generated in external WFM systems.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
 ms.date: 05/29/2024

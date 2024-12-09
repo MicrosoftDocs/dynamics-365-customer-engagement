@@ -1,7 +1,7 @@
 ---
-title: View the accuracy and performance of predictive scoring models
+title: View accuracy and performance of predictive scoring models
 description: Learn how to view the accuracy and performance of your predictive lead and opportunity scoring models in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 12/06/2024
 ms.custom:
 ms.topic: article
 author: lavanyakr01

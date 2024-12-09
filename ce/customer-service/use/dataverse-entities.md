@@ -3,7 +3,7 @@ title: Dataverse entities used in historical and real-time analytics
 description: Learn about the Dataverse entities used in historical and real-time analytics.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: 
 ms.date: 10/29/2024

@@ -3,7 +3,7 @@ title: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
 description: How to set up Nuance Cloud IVR bot integration with voice channel
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:  
 ms.date: 09/01/2023

@@ -3,7 +3,7 @@ title: Enable enhanced case forms for multisession apps
 description: Learn about enabling the enhanced case forms for multisession apps.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli 
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.date: 09/30/2024
 ms.custom: bap-template 
@@ -38,8 +38,7 @@ Watch this video to understand enhanced case form and how to set it up.
 
 > [!NOTE]
 > - If the enhanced full case form has a higher form order than the default case form, agents might see the enhanced full case form even if you haven't enabled the enhanced case experience. If you'd like agents to see the default case experience, set the form order of the enhanced form lower than that of the default form. Learn more in [Set the form order](/power-apps/maker/model-driven-apps/control-access-forms#set-the-form-order).
-> -  The **Enhanced case form** option is available in the form selector by default as an early access feature. Use this option to navigate from the enhanced case form to any other form. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates). If you haven't opted in, ensure that the **ShowInFormSelector** is set to **True** through FormXML to see the **Enhanced case form** option.
->     - The [enhanced case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form) displays customer details and recent cases on the customer details pane. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You need to close it manually. 
+> - The [enhanced case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form) displays customer details and recent cases on the customer details pane. When you switch to any other form from the enhanced case form, the pane isn't automatically refreshed or closed. You need to close it manually. 
 
 ## View default components available on enhanced full case form
 

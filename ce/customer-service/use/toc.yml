@@ -276,8 +276,6 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
-        - name: Use Copilot to solve customer issues 
-          href: use-copilot-features.md
         - name: Use Copilot to summarize cases and conversations
           href: copilot-use-summary.md
         - name: Summarize cases
@@ -285,7 +283,7 @@
         - name: Summarize conversations
           href: copilot-use-summary.md#summarize-conversations
         - name: Ask a question 
-          href: use-copilot-features.md#ask-a-question
+          href: use-ask-a-question.md
         - name: Draft a chat response (preview)
           href: use-copilot-features.md
         - name: Write an email with Copilot
@@ -312,6 +310,8 @@
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
             href: realtime-ongoing.md
+          - name: Backlog conversation report
+            href: realtime-backlog-conv.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -386,6 +386,8 @@
             href: datamapping-realtime.md
           - name: Dataverse entities used in historical and real-time analytics
             href: dataverse-entities.md
+          - name: Customize the bot dashboard
+            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling
