@@ -40,7 +40,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled only by service representatives. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
+> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
 
 ## Security roles and permissions
 
@@ -67,12 +67,9 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 
 - **Summary**: This report provides an overview of your organization in real time. It provides KPIs across the volume of customer interactions and service levels, together with the available capacity in real time. Learn more in the [Summary report](realtime-summary-dashboard.md).
 - **Voice**: This report provides an overview of conversations for the voice channel. Learn more in the [Voice report](realtime-voice-dashboard.md).
-- **Agents**: This report provides an overview of the health and KPIs of agents in your organization. The information that is shown on this report is based on the conversations. Learn more in the [Agents report](realtime-agents-analytics.md).
-- **Ongoing conversation**: This report provides information about the conversations that agents are handling that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for an agent, after reviewing their skill set and capacity profiles. Learn more in the [Ongoing conversation report](realtime-ongoing.md).
+- **Agents**: This report provides an overview of the health and KPIs of service representatives in your organization. The information that is shown on this report is based on the conversations. Learn more in the [Agents report](realtime-agents-analytics.md).
+- **Ongoing conversation**: This report provides information about the conversations that service representatives are handling and that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for service representatives, after reviewing their skill set and capacity profiles. Learn more in the [Ongoing conversation report](realtime-ongoing.md).
 - **Backlog conversation**: The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs. Learn more in [Backlog conversation report](realtime-backlog-conv.md#view-and-understand-the-backlog-conversation-report-in-omnichannel-real-time-analytics).
-
-> [!NOTE]
-> The reports don't include work items of the Entity Record channel.
 
 ## Filter information displayed on dashboard
 
