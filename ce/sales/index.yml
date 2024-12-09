@@ -9,7 +9,7 @@ metadata:
   author: lavanyakr01
   ms.author: lavanyakr
   ms.reviewer: lavanyakr
-  ms.date: 07/28/2023
+  ms.date: 12/09/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -77,6 +77,10 @@ additionalContent:
         text: Enable relationship intelligence
       - url: fre-setup-ci-sales-app.md
         text: Configure conversation intelligence
+      - url: configure-predictive-opportunity-scoring.md
+        text: Configure predictive opportunity scoring
+      - url: configure-predictive-lead-scoring.md
+        text: Configure predictive lead scoring
     - title: Integrate
       links:
       - url: teams-integration/enable-teams-chat.md 
@@ -95,6 +99,13 @@ additionalContent:
         text: Enable and configure Copilot
       - url: /power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features
         text: Copilot data movement across geographies
+      - url: copilot-configure-summary-fields.md
+        text: Configure fields for Copilot responses
+      - url: copilot-preview-features.md
+        text: Enable preview features in Copilot
+      - url: enable-copilot-email-assist.md
+        text: Enable Copilot email assist
+
     - title: Develop
       links: 
       - url: developer/developer-guide.md
@@ -120,11 +131,13 @@ additionalContent:
     - title: Copilot
       links: 
       - url: use-sales-copilot.md
-        text: Use Copilot
+        text: Ask questions of Copilot
       - url: compose-send-email-copilot.md
         text: Compose and send email messages using Copilot
-      - url: view-copy-email-summary.md
-        text: View and copy email summary
+      - url: copilot-get-doc-suggestions.md
+        text: Content recommendations and answers from SharePoint
+      - url: responsible-ai-overview
+        text: Responsible AI in Copilot FAQs
     - title: Use predictions and insights
       links:
       - url: work-predictive-lead-scoring.md
