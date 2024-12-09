@@ -1,7 +1,7 @@
 ---
 title: View assigned records and details
 description: Learn how to view assigned records in Dynamics 365 Sales so that you can assign them to sellers manually or run assignment rules again.
-ms.date: 12/06/2024
+ms.date: 12/09/2024
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -89,6 +89,7 @@ When a record's status displays **Needs attention**, it indicates that the recor
 |---------------|-------------|------------|
 | Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and [run the assignment rules](#run-assignment-rules) again. |
 | No matching segments | The record doesn't match any active segments. | Verify that the record meets the conditions defined in the segment and the segment is active. If the record doesn't meet the conditions, [update the conditions in the segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) and [run the assignment rules](#run-assignment-rules) again. |
+| Matched with previous segment | The record matched with the previous segment. | When a record moves to a different segment, the application tries to process it back into its previously assigned segment. This happens when the [**Previously-segmented *record* type**](wa-edit-a-segment.md#edit-a-segment) option is enabled for the segment trying to process the reassigned record. To avoid processing conflicts, ensure that the conditions defined in the new segment don't match with those of the previous segment. |
 | D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Sequence errors
