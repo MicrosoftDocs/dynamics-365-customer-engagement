@@ -1,7 +1,7 @@
 ---
 title: Bot sessions and licensing
 description: Use this article to learn about bot sessions and licensing in your contact center.
-ms.date: 03/21/2024
+ms.date: 12/13/2024
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -23,7 +23,7 @@ A bot session is defined as a conversation in which a bot is invoked. The bot ca
 
 The add-in applications such as Chat, Digital Messaging, and Voice channel are licensed per user. Each add-in application is entitled to a specific number of bot sessions. You can also purchase additional bot sessions on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). More information: [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
 
-To know about the required subscriptions to use the chat and voice channels, see the [Licensing](../implement/system-requirements-omnichannel.md#licensing) section. For more information on licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+To know about the required subscriptions to use the chat and voice channels, see the [Licensing](../implement/system-requirements-omnichannel.md#licensing) section. Learn more about licenses and pricing in the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Related information
 
