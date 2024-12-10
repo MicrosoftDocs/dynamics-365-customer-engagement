@@ -135,7 +135,7 @@ additionalContent:
       - url: compose-send-email-copilot.md
         text: Compose and send email messages using Copilot
       - url: copilot-get-doc-suggestions.md
-        text: Content recommendations and answers from SharePoint
+        text: Get content recommendations and answers from SharePoint
       - url: responsible-ai-overview.md
         text: Responsible AI in Copilot FAQs
     - title: Use predictions and insights
