@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 07/17/2024
+ms.date: 11/11/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -39,9 +39,22 @@ When salespeople work on a lead, they use notes to store key information on the 
 
 The new lead qualification experience allows for customization of the lead qualification process, including automatic or manual creation of account, contact, and opportunity records, or a combination of both. It also allows for the creation of multiple opportunities for a single lead, and the ability to summarize the lead after it's qualified. The legacy experience only allows for automatic creation of the records.
 
+## What if I had previously defined the lead qualification experience?
+
+The new lead qualification experience is turned on by default irrespective of whether you had previously defined the lead qualification experience or not. However, the experience you had previously defined is retained. For example, if you had previously turned on **Auto-create records for newly qualified leads** in the legacy experience, record creation is set to **Automatic** in the new experience. Otherwise, record creation is set to **Seller** in the new experience. Learn more about [how to customize the lead qualification experience](define-lead-qualification-experience.md).
+
 ### How can I create multiple opportunities for a single lead?
 
 If multiple opportunities creation is enabled by your admin, you can create additional opportunities by selecting **+New Opportunity** on the Qualify lead side pane. Note that the records aren't created until you select **Qualify**. 
+
+## Why can't I edit or create multiple opportunities for a lead in the new lead qualification experience?
+
+The **New Opportunity** button is disabled in the following scenarios:
+
+- Your admin has disabled the creation of multiple opportunities for a single lead.
+- You're using a custom app that doesn't have the Opportunity qualify lead form.
+
+For more information, see [Customize opportunity creation experience for qualified leads](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 
 ### Why can't I edit the account and contact records in the Qualify lead side pane?
 
@@ -79,12 +92,19 @@ While qualifying a lead, one of the following errors occurs due to duplicate lea
 If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detection-rules-keep-data-clean) feature is enabled in your organization, the application won't allow qualification of leads if duplicates of that lead exist. To mitigate the issue, try the following resolutions:
 
 - Remove the duplicates for the lead and qualify again. More information: [Merge duplicate rows](/power-apps/user/merge-duplicate-records) 
+
 - Go to the leads grid view, select the lead and qualify.
 - Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps:
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
+
+       > [!NOTE]
+       > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+
     1. Select the rule and then select **Unpublish**.
+
 - If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps: 
     1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
+
     1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
 
@@ -218,3 +238,4 @@ The **Matched accounts** and **Matched contacts** sections will show all the mat
 To associate the lead record to an existing matching record, select the record and then select **Continue**. To create a new account or contact record, select **Ignore and save** without selecting a matching record.
 
 The lead is qualified.
+

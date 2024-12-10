@@ -11,6 +11,7 @@ ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
   - ai-seo-date:03/11/2024
+  - references_regions
 ---
 
 # Region and language FAQs
@@ -97,3 +98,8 @@ The following table shows which languages are supported for Sales Premium featur
 | Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 [Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
+
+
+## Which languages are supported by Copilot in Dynamics 365 Sales?
+
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). For more information about how to use the report and how Copilot responds in different scenarios, see [Region availability and languages supported](copilot-overview.md#region-availability-and-languages-supported).

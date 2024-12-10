@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection: get-started
 monikerRange: '>= dynamics-usd-4.1'
 ms.custom: evergreen

@@ -28,9 +28,6 @@ The portal requires users to create a portal profile before they can sign in and
 
 1. Select the **Redeem invitation** tab and use the code you received in the email.
 1. Create your profile for the portal.
-
-   :::image type="content" source="media/SS-Portal_Profile.svg" alt-text="Screenshot of the customer portal contact profile screen.":::
-
 1. Optionally, select **Manage external authentication** to sign in with other identity providers.
 1. Save the profile and sign in to the self-service scheduling portal.
 1. Schedule services on the portal. An email is sent confirming your booking.

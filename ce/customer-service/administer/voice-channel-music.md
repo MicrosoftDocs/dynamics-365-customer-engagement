@@ -2,10 +2,10 @@
 title: "Manage phone music in the voice channel | MicrosoftDocs"
 description: "Use this topic to understand how you can configure hold and wait music in Contact Center admin center."
 ms.date: 06/14/2024
-ms.service: dynamics-365-customerservice
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.collection: get-started
 ---
 

@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: evergreen
@@ -55,7 +56,6 @@ ms.custom: evergreen
 
 5. In the connect screen, provide authentication details to connect to the Dataverse instance where you want to deploy the package. If you have multiple organizations, and want to select the organization where you want to deploy the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] package, select the **Display list of available organizations** check box. Choose **Login**.  
 
-   ![Authentication details sign in.](../../unified-service-desk/media/usd-package-deployer-1.PNG "Authentication details sign in")  
 
 6. If you have multiple organizations and chose to select the organization that you want to connect to in the previous step, the next screen displays the list of organizations. Select Dataverse organization to connect to, and proceed.  
 

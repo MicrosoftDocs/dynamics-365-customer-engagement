@@ -1,7 +1,7 @@
 ---
-title: "msdyn_ForecastApi custom action (Developer Guide for Dynamics 365 Sales)| MicrosoftDocs"
-description: "Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data"
-ms.date: 08/23/2024
+title: msdyn_ForecastApi custom action
+description: Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data.
+ms.date: 09/11/2024
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,7 +21,6 @@ As a developer, read this reference documentation to use the `msdyn_ForecastApi`
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
-
 
 ## Parameters
 
@@ -182,7 +181,7 @@ Content-Type: application/json
          "LastRecomputedOn": "2020-05-25T08:04:24.817Z",
          "RecomputationStartTime": "2020-06-05T05:04:30.904Z",
          "RecomputeStatusChangedOn": "2020-06-05T06:04:00.363Z",
-         "FailureInfo": "Microsoft.Azure.WebJobs.FunctionFailedException: The activity function 'CreateUpdateForecastHierarchy' failed: \"An item with the same key has already been added. Key: b1d30f13-ce56-ea11-a812-000d3a382f93\". See the function execution logs for additional details. ---> System.ArgumentException: An item with the same key has already been added. Key: b1d30f13-ce56-ea11-a812-000d3a382f93\r\n   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.<>c__DisplayClass23_0.<GetForecastInstancesByHierarchyEntityId>b__0(ForecastInstance forecastInstance) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 727\r\n   at System.Collections.Generic.List`1.ForEach(Action`1 action)\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.GetForecastInstancesByHierarchyEntityId(ForecastConfiguration forecastConfiguration, Guid forecastRecurrenceId) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 727\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.CreateOrUpdateForecastDataWithLatestHierarchy(ForecastConfiguration forecastConfiguration, Guid forecastRecurrenceId, Dictionary`2 latestHierarchyEntityList) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 602\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.<>c__DisplayClass16_0.<CreateOrUpdateForecastHierarchy>b__0() in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 283\r\n   at System.Threading.Tasks.Task.InnerInvoke()\r\n   at System.Threading.Tasks.Task.<>c.<.cctor>b__275_1(Object obj)\r\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.CreateOrUpdateForecastHierarchy(ForecastConfiguration forecastConfiguration, Guid forecastRecurrenceId, Dictionary`2 latestHierarchyEntityList) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 255\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.CreateOrUpdateForecastHierarchy(Guid orgId, Guid forecastConfigurationId, Guid forecastRecurrenceId, Dictionary`2 latestHierarchyEntityList) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 167\r\n   at Microsoft.Dynamics.Forecasting.AzureFunctions.CreateUpdateForecastHierarchy.Run(CreateUpdateForecastHierarchyInput input) in C:\\src\\cloud_IDEs\\ide5\\Azure\\AzureFunctions\\Recompute\\ActivityFunctions\\CreateUpdateForecastHierarchy.cs:line 43\r\n   at Microsoft.Azure.WebJobs.Host.Executors.VoidTaskMethodInvoker`2.InvokeAsync(TReflected instance, Object[] arguments) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\VoidTaskMethodInvoker.cs:line 20\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionInvoker`2.InvokeAsync(Object instance, Object[] arguments) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionInvoker.cs:line 52\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.InvokeAsync(IFunctionInvoker invoker, ParameterHelper parameterHelper, CancellationTokenSource timeoutTokenSource, CancellationTokenSource functionCancellationTokenSource, Boolean throwOnTimeout, TimeSpan timerInterval, IFunctionInstance instance) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 585\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.ExecuteWithWatchersAsync(IFunctionInstanceEx instance, ParameterHelper parameterHelper, ILogger logger, CancellationTokenSource functionCancellationTokenSource) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 532\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.ExecuteWithLoggingAsync(IFunctionInstanceEx instance, ParameterHelper parameterHelper, IFunctionOutputDefinition outputDefinition, ILogger logger, CancellationTokenSource functionCancellationTokenSource) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 468\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.ExecuteWithLoggingAsync(IFunctionInstanceEx instance, FunctionStartedMessage message, FunctionInstanceLogEntry instanceLogEntry, ParameterHelper parameterHelper, ILogger logger, CancellationToken cancellationToken) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 278\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.Azure.WebJobs.DurableOrchestrationContext.CallDurableTaskFunctionAsync[TResult](String functionName, FunctionType functionType, String instanceId, RetryOptions retryOptions, Object input) in E:\\functions\\azure-functions-durable-extension\\src\\WebJobs.Extensions.DurableTask\\DurableOrchestrationContext.cs:line 498\r\n   at Microsoft.Dynamics.Forecasting.AzureFunctions.OrchestratorFunctionBase.ExecuteActivityAsync(DurableOrchestrationContext context, String functionName, Object input, Dictionary`2 telemetryProps) in C:\\src\\cloud_IDEs\\ide5\\Azure\\AzureFunctions\\OrchestratorFunctionBase.cs:line 252\r\n   at Microsoft.Dynamics.Forecasting.AzureFunctions.RecomputeOrchestrator.ExecuteRecomputeOrchestration(DurableOrchestrationContext context, RecomputeOrchestratorInput recomputeInput, String correlationId, Dictionary`2 telemetryProps) in C:\\src\\cloud_IDEs\\ide5\\Azure\\AzureFunctions\\Recompute\\RecomputeOrchestrator.cs:line 169",
+         "FailureInfo": "Microsoft.Azure.WebJobs.FunctionFailedException: The activity function 'CreateUpdateForecastHierarchy' failed: \"An item with the same key has already been added. Key: aaaaaaaa-0b0b-1c1c-2d2d-333333333333\". See the function execution logs for additional details. ---> System.ArgumentException: An item with the same key has already been added. Key: aaaaaaaa-0b0b-1c1c-2d2d-333333333333\r\n   at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.<>c__DisplayClass23_0.<GetForecastInstancesByHierarchyEntityId>b__0(ForecastInstance forecastInstance) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 727\r\n   at System.Collections.Generic.List`1.ForEach(Action`1 action)\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.GetForecastInstancesByHierarchyEntityId(ForecastConfiguration forecastConfiguration, Guid forecastRecurrenceId) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 727\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.CreateOrUpdateForecastDataWithLatestHierarchy(ForecastConfiguration forecastConfiguration, Guid forecastRecurrenceId, Dictionary`2 latestHierarchyEntityList) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 602\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.<>c__DisplayClass16_0.<CreateOrUpdateForecastHierarchy>b__0() in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 283\r\n   at System.Threading.Tasks.Task.InnerInvoke()\r\n   at System.Threading.Tasks.Task.<>c.<.cctor>b__275_1(Object obj)\r\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)\r\n   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)\r\n--- End of stack trace from previous location where exception was thrown ---\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.CreateOrUpdateForecastHierarchy(ForecastConfiguration forecastConfiguration, Guid forecastRecurrenceId, Dictionary`2 latestHierarchyEntityList) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 255\r\n   at Microsoft.Dynamics.Forecasting.RecomputeEngine.HierarchyManager.CreateOrUpdateForecastHierarchy(Guid orgId, Guid forecastConfigurationId, Guid forecastRecurrenceId, Dictionary`2 latestHierarchyEntityList) in C:\\src\\cloud_IDEs\\ide5\\Azure\\RecomputeEngine\\HierarchyManager\\HierarchyManager.cs:line 167\r\n   at Microsoft.Dynamics.Forecasting.AzureFunctions.CreateUpdateForecastHierarchy.Run(CreateUpdateForecastHierarchyInput input) in C:\\src\\cloud_IDEs\\ide5\\Azure\\AzureFunctions\\Recompute\\ActivityFunctions\\CreateUpdateForecastHierarchy.cs:line 43\r\n   at Microsoft.Azure.WebJobs.Host.Executors.VoidTaskMethodInvoker`2.InvokeAsync(TReflected instance, Object[] arguments) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\VoidTaskMethodInvoker.cs:line 20\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionInvoker`2.InvokeAsync(Object instance, Object[] arguments) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionInvoker.cs:line 52\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.InvokeAsync(IFunctionInvoker invoker, ParameterHelper parameterHelper, CancellationTokenSource timeoutTokenSource, CancellationTokenSource functionCancellationTokenSource, Boolean throwOnTimeout, TimeSpan timerInterval, IFunctionInstance instance) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 585\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.ExecuteWithWatchersAsync(IFunctionInstanceEx instance, ParameterHelper parameterHelper, ILogger logger, CancellationTokenSource functionCancellationTokenSource) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 532\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.ExecuteWithLoggingAsync(IFunctionInstanceEx instance, ParameterHelper parameterHelper, IFunctionOutputDefinition outputDefinition, ILogger logger, CancellationTokenSource functionCancellationTokenSource) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 468\r\n   at Microsoft.Azure.WebJobs.Host.Executors.FunctionExecutor.ExecuteWithLoggingAsync(IFunctionInstanceEx instance, FunctionStartedMessage message, FunctionInstanceLogEntry instanceLogEntry, ParameterHelper parameterHelper, ILogger logger, CancellationToken cancellationToken) in C:\\projects\\azure-webjobs-sdk-rqm4t\\src\\Microsoft.Azure.WebJobs.Host\\Executors\\FunctionExecutor.cs:line 278\r\n   --- End of inner exception stack trace ---\r\n   at Microsoft.Azure.WebJobs.DurableOrchestrationContext.CallDurableTaskFunctionAsync[TResult](String functionName, FunctionType functionType, String instanceId, RetryOptions retryOptions, Object input) in E:\\functions\\azure-functions-durable-extension\\src\\WebJobs.Extensions.DurableTask\\DurableOrchestrationContext.cs:line 498\r\n   at Microsoft.Dynamics.Forecasting.AzureFunctions.OrchestratorFunctionBase.ExecuteActivityAsync(DurableOrchestrationContext context, String functionName, Object input, Dictionary`2 telemetryProps) in C:\\src\\cloud_IDEs\\ide5\\Azure\\AzureFunctions\\OrchestratorFunctionBase.cs:line 252\r\n   at Microsoft.Dynamics.Forecasting.AzureFunctions.RecomputeOrchestrator.ExecuteRecomputeOrchestration(DurableOrchestrationContext context, RecomputeOrchestratorInput recomputeInput, String correlationId, Dictionary`2 telemetryProps) in C:\\src\\cloud_IDEs\\ide5\\Azure\\AzureFunctions\\Recompute\\RecomputeOrchestrator.cs:line 169",
          "RecurrenceState": 0,
          "UpdatedAttribteList": null
       }
@@ -215,14 +214,16 @@ Content-Type: application/json
     	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
     	\"SortingOrder\":\"DSC\",
     	\"PageSize\":1,
-    	\"PageNo\":1
+    	\"PageNo\":1,
+        \"GetParticipatingRecordsFetchXml\":true,
+        \"ParticipatingRecordsViewId\":\"bf649add-6c30-ea11-a813-000d3a5475f7\"
     }"
 }
 ```
 |Parameter|Type|Description|
 |------|------|------|
 |`WebApiName`|String|Name of the API|
-|`RequestJson`|JSON object|Consists of<br />`ForecastPeriodId`: Unique identifier of the forecast period<br />`ForecastConfigurationId`: Unique identifier of the forecast configuration<br />`SortingAttribute`: The attribute based on which you want to do Sorting in the paging<br />`SortingOrder`: ASC for ascending order DSC for descending order<br />`PageSize`: Number of records you want to retrieve in a single page<br />`PageNo`: Which page records you want to fetch for.|
+|`RequestJson`|JSON object|Consists of<br />`ForecastPeriodId`: Unique identifier of the forecast period<br />`ForecastConfigurationId`: Unique identifier of the forecast configuration<br />`SortingAttribute`: The attribute based on which you want to do Sorting in the paging<br />`SortingOrder`: ASC for ascending order DSC for descending order<br />`PageSize`: Number of records you want to retrieve in a single page<br />`PageNo`: Which page records you want to fetch for.<br />`GetParticipatingRecordsFetchXml`: Flag indicating whether participating records fetch XML is needed in the response.<br />`ParticipatingRecordsViewId`: This is needed when `GetParticipatingRecordsFetchXml` is true. This is a saved query (view) ID using which the participating records fetch XML is generated. |
 
 Given below is the sample JSON for `RequestJson` object.
 
@@ -235,8 +236,8 @@ Given below is the sample JSON for `RequestJson` object.
     	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
     	\"SortingOrder\":\"DSC\",
     	\"PageSize\":1,
-    	\"PageNo\":1
-    	
+    	\"PageNo\":1,
+        \"GetParticipatingRecordsFetchXml\":false  
     }"
 } 
 ```
@@ -252,6 +253,7 @@ Given below is the sample JSON for `RequestJson` object.
           "ForecastConfigurationId": "04323a04-da7f-ea11-a811-000d3a37bb2c",
             ...],
       "HasMorePages": false,
+      "ParticipatingRecordsFetchXml": "",
       "Code": 200,
       "Message": "OK"
    }
@@ -423,13 +425,13 @@ Content-Type: application/json
 
 | Parameter | Type | Description |
 |-----------|------|-------------|
-|ForecastConfigurationId | GUID  | Forecast configuration ID |
-| ForecastPeriodId       | GUID  | Forecast Period ID |
-| HierarchyRecordId      | GUID  | The record ID for which the underlying record should be retrieved. Example, Kenny Smith.|
-| ForecastInstanceId     | GUID  | Forecast instance ID |
-| ForecastConfigurationColumnId | GUID  | ID of the forecast column that needs to be retrieved. Forecast columns can be best case, pipeline, won, lost, and so on. Only one column ID can be specified per request. To retrieve more columns, send a request for each column.|
-| RecordViewId           | GUID  | Record view ID of the underlying records. Learn more about getting the view ID in [savedquery EntityType](/power-apps/developer/data-platform/webapi/reference/savedquery)  |
-| IsRolledUpNodeRequested| Boolean | Specifies whether to return the values for the rolled up node (group) or individual node. If set to true, all the records under the group node is returned. If set to false, just the individual's record is returned. |
+| ForecastConfigurationId | GUID | Forecast configuration ID |
+| ForecastPeriodId | GUID | Forecast Period ID |
+| HierarchyRecordId | GUID | The record ID in Dataverse for which the underlying record should be retrieved. For example, the system user ID in the case of an Org Chart Forecast, or the territory ID in the case of a Territory Forecast. |
+| ForecastInstanceId | GUID | Forecast instance ID |
+| ForecastConfigurationColumnId | GUID | ID of the forecast column that needs to be retrieved. For example, when you want to fetch only the participating records for the **Best Case** column of your forecast, enter the column ID of the **Best Case** column. You can enter only one column ID for each request. To retrieve more columns, you should send a request for each column. Skip this parameter if you want to fetch XML for all columns of the forecast. You can get the column ID from the **Forecast Configuration** definition. |
+| RecordViewId | GUID | Record view ID of the underlying records. Learn more about getting the view ID in [savedquery EntityType](/power-apps/developer/data-platform/webapi/reference/savedquery) |
+| IsRolledUpNodeRequested | Boolean | Specifies whether to return the values for the rolled up node (group) or individual node. If set to true, all the records under the group node is returned. If set to false, just the individual's record is returned. |
 
 #### Response
 
@@ -445,7 +447,7 @@ Content-Type: application/json
 
 #### Return value
 
-A fetchxml query that returns the underlying records in a forecast.
+A fetch XML query that returns the underlying records in a forecast.
 
 ## Related information
 

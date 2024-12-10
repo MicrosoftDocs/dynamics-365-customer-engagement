@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: m-hartmann
   ms.author: mhart
-  ms.date: 10/20/2023
+  ms.date: 10/24/2024
   ms.custom: bap-template
   hide_bc: true
 
@@ -157,14 +157,14 @@ additionalContent:
         text: Integrate with finance and operations
       - url: business-central-integration.md
         text: Integrate with Dynamics 365 Business Central
-    - title: IoT in Field Service
+    - title: Copilot in Field Service
       links:
-      - url: connected-field-service.md
-        text: IoT integration overview
-      - url: cfs-custom-iot-provider.md
-        text: Create IoT providers
-      - url: cfs-iot-alerts.md
-        text: Create IoT alerts and convert to work orders
+      - url: copilot-side-pane.md
+        text: Copilot side pane in the web app
+      - url: work-order-recap.md
+        text: Work order summary
+      - url: responsible-ai-overview.md
+        text: Responsible AI overview
     - title: Resource Scheduling Optimization Add-in
       links:
       - url: rso-overview.md

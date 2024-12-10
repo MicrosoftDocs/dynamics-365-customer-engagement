@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
@@ -166,13 +167,9 @@ In this topic, you’ll learn how to create a custom hosted control called `My C
   
 7. From the **Hosted Control** list, select **My Custom Hosted Control**, and from the **Action** list, select **MyCustomAction**.  
   
-8. As per the custom action definition, this action call expects a parameter called `username`, so add the following value in the **Data** field: **username=Tracie Hamilton**.  
+8. As per the custom action definition, this action call expects a parameter called `username`, so add the following value in the **Data** field: **username=`<username>`**.
   
-   ![Test your custom hosted control.](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol01.png "Test your custom hosted control")  
-  
-9. Select the **Run Direct Action** icon (![Unified Service Desk debugger Run Action Call button.](../unified-service-desk/media/usd-run-action-call-icon.png "Unified Service Desk debugger Run Action Call button")), and then select the **My Custom Hosted Control** tab. The specified user name is displayed in the label field.  
-  
-   ![My Custom Host Control tab shows username.](../unified-service-desk/media/crm-itpro-usd-custhostedcontrol02.png "My Custom Host Control tab shows username")
+9. Select the **Run Direct Action** icon (![Unified Service Desk debugger Run Action Call button.](../unified-service-desk/media/usd-run-action-call-icon.png "Unified Service Desk debugger Run Action Call button")), and then select the **My Custom Hosted Control** tab. The specified user name is displayed in the label field.
 
 ### See also
 

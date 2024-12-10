@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: evergreen
@@ -23,8 +24,6 @@ If you want to configure the sign-in experience, such as by prepopulating values
 1. Start the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] client by double-clicking the application shortcut on your desktop.  
 
 2. In the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] sign-in dialog, provide authentication details to connect to your Dataverse server.
-
-   ![Unified Service Desk client sign-in screen.](../../unified-service-desk/media/usd-login.PNG "Unified Service Desk client sign-in screen")  
 
    - For Dataverse, select **Microsoft 365**.  
 

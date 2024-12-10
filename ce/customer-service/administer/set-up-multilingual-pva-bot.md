@@ -5,7 +5,7 @@ ms.date: 06/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -40,7 +40,7 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 ## Prerequisites
 
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
-- Your bot must be registered in the Azure app registration page. Note the application ID. More information: [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
+- Your bot must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
 
 ## Create a bot in Copilot Studio
 
@@ -54,7 +54,7 @@ For example, you can create a bot with the following details:
 
 ## Create a topic in Bot Framework Composer
 
-1. In Copilot Studio, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. For more information on how to navigate the Bot Framework Composer, see: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
+1. In Copilot Studio, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. Learn more about how to navigate the Bot Framework Composer in: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
 
 1. Select **Open**, and on the **Import your bot to new project** dialog that appears, enter the following details:
 
@@ -75,7 +75,7 @@ For example, you can create a bot with the following details:
       `<speak version="1.0" xmlns="http://www.w3.org/2001/10/synthesis" xml:lang="en-US"><voice name="en-US-AriaNeural"><lang xml:lang="en-US">Hello ${virtualagent.msdyn_CustomerName}. Welcome to contoso customer support.</lang></voice></speak>`
 
       > [!NOTE]
-      > The ${virtualagent.msdyn_CustomerName} variable provides the customer name for authenticated customers only through record identification. More information: [Identify customers automatically](record-identification-rule.md)
+      > The ${virtualagent.msdyn_CustomerName} variable provides the customer name for authenticated customers only through record identification. Learn more in [Identify customers automatically](record-identification-rule.md)
 
    1. Select the **Add** (+) node in **BeginDialog**, point to **Ask a question**, and then select **Multi-choice**.
 
@@ -113,7 +113,7 @@ For example, you can create a bot with the following details:
       The value for the virtualagent.va_CustomerLocale variable will be updated with the language selected by the customer.
 
       > [!NOTE]
-      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. More information: [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
+      > You must set the va_CustomerLocale context variable with the locale codes for the languages that you want to support. Learn more in [Supported locations and locale codes](voice-channel-supported-languages.md#supported-languages-and-locale-codes)
 
    1. Select the **Add** (+) node, and then select **Begin a Power Virtual Agent topic**.
 
@@ -133,46 +133,10 @@ For example, you can create a bot with the following details:
 
 1. Select **Publish**.
 
-## Configure the greeting topic
+## Finish set up in Copilot Studio
 
-1. In Copilot Studio, open the **Greeting** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
-
-1. Select **Add node** (+), and then select **Redirect to another topic**.
-
-1. Select the greeter dialog that you created, which is, **PVA greeter dialog** in our example.
-
-1. Save the **Greeting** topic.
-
-<a name="configure-transfer-to-agent-using-the-escalate-topic"></a>
-
-## Configure the transfer to agent node by using the escalate topic
-
-1. In Copilot Studio, open the **Escalate** topic in the authoring canvas, and delete all the default messages except the trigger phrases.
-
-1. Select **Add node** (+), select **End the conversation**, and then select **Transfer to agent**.
-
-1. Optionally, in **Private message to agent**, enter the following to fetch the preferred language of the customer.
-
-   `Customer preferred language is {x} bot.va_CustomerLocale`
-
-1. Save the topic.
-
-1. In the site map under **Manage**, select **Channels**, and then select **Microsoft Teams** on the **Channels** page.
-
-1. Publish the bot with the latest content.
-
-1. In the site map under **Manage**, select **Agent transfers**, and then select **Omnichannel** on the **Agent transfers** page.
-
-1. On the Omnichannel pane, configure the following settings:
-    - **Enable voice**: Set to **Yes**.
-    - **See the environment this bot is connected to**: Select the environment in which the bot will be used.
-    - **Application ID**: Enter the application ID that was generated when you registered the app in Azure.
-  
-1. Select **Add your bot**.
-
-1. After the bot is connected, select **View details in Omnichannel**. The Customer Service admin center or Contact Center admin center page opens on a new tab and displays the details of the bot.
-
-1. Note the bot user information that you'll need for further configuration steps.
+1. Configure the [greeting topic](/microsoft-copilot-studio/configure-bot-greeting#create-a-new-user-topic) and the [escalate topic](/microsoft-copilot-studio/advanced-hand-off).
+1. [Configure handoff to Dynamics 365 Customer Service](/microsoft-copilot-studio/configuration-hand-off-omnichannel).
 
 ## Configure workstreams and queues
 
@@ -205,5 +169,5 @@ For example, ensure the following settings:
 
 ### Related information
 
-[Set up a multilingual contact center](voice-channel-multi-language-contact-center.md)  
+[Set up a multilingual contact center](/dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml)  
 [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md)  

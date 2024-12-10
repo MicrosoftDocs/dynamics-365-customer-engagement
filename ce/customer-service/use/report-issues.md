@@ -1,20 +1,21 @@
 ---
-title: "Report issues in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how you can report issues in Omnichannel for Customer Service to when you raise a support ticket with Microsoft."
-ms.date: 06/03/2020
+title: Report issues in agent app
+description: Learn how you can report issues in Contact Center workspace or Customer Service workspace when you raise a support ticket with Microsoft.
+ms.date: 09/10/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
-# Report issues in Omnichannel for Customer Service
+# Report issues in agent app
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The report issues feature in the Omnichannel for Customer Service app allows you to capture a diagnostic report of the issues and share it with Microsoft.
+The report issues feature in the Contact Center workspace or the Customer Service workspace app allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
-> The report issues feature is not supported in Omnichannel for Customer Service on Unified Service Desk.
+> The report issues feature is not supported in the the Contact Center workspace or the Customer Service workspace on Unified Service Desk.
 
 You can copy the information while communicating with a customer by using one of the following keyboard shortcuts.
 
@@ -23,7 +24,7 @@ You can copy the information while communicating with a customer by using one of
 
 ## Capture diagnostic report
 
-1. Sign in to Omnichannel for Customer Service.
+1. Sign in to the Contact Center workspace or the Customer Service workspace app.
 
 2. Use the keyboard shortcut to copy the information. Repeat the step if a message indicates that the copy action was unsuccessful.
 
@@ -35,7 +36,7 @@ You can copy the information while communicating with a customer by using one of
 
 ## Diagnostic report information
 
-The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to Omnichannel for Customer Service.
+The diagnostic report doesn't contain any of your personal information and contains the following information that's specific to the Contact Center workspace or the Customer Service workspace apps.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -51,7 +52,7 @@ The diagnostic report doesn't contain any of your personal information and conta
 |CRM version|crmVersion|
 |Tenant Id|TenantId|
 
-If you, as an agent or supervisor, are in a session with a customer, and capture the report, then with the details mentioned in the preceding table, the following global context and conversation context details are also copied.
+When you are in a session with a customer as an agent or supervisor and capture the report, the following global and conversation context details are also copied.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|
@@ -77,7 +78,7 @@ If you, as an agent or supervisor, are in a session with a customer, and capture
 
 ### Related information
 
-[Best practices to use Omnichannel for Customer Service](../administer/best-practices.md)
-
+[Use Contact Center workspace](/dynamics365/contact-center/use/ccw-overview)  
+[Get started with Customer Service workspace](../implement/csw-overview.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

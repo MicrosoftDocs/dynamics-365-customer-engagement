@@ -1,7 +1,7 @@
 ---
 title: Configure offline data synchronization
 description: Learn how offline data is synchronized to the server in the Dynamics 365 Field Service mobile app.
-ms.date: 08/28/2024
+ms.date: 11/04/2024
 ms.topic: conceptual
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -22,7 +22,11 @@ A sync is initiated only when the app is active and the device is connected to t
 
 Dependencies that are based on selected relationships and custom filters that include related tables are analyzed during each sync request. A sync interval for a table might not be respected if a related table has a lower sync interval.
 
-Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network.
+## Sync settings and online mode (preview)
+
+Admins can [enable more sync settings](/power-apps/mobile/offline-sync-icon#offline-sync-settings-preview) for end users to provide more control over the sync experience. For example, an option to sync only when the device is connected to a Wi-Fi network. These settings can help save mobile device bandwidth and battery life when technicians work in areas with regularly poor cellular connectivity.
+
+Admins can also [activate online mode](/power-apps/mobile/offline-sync-icon#online-mode-preview) for the offline-first application. This setting provides frontline workers the option to switch from offline mode to online mode, allowing them to view live Dataverse data outside the parameters of their offline profile configuration. While in this mode, the application continues to sync data and changes back to offline mode if network connection is lost.  
 
 ## Sync conflicts
 
@@ -64,6 +68,14 @@ If the app detects a weak or no network connection, the message "Network or Serv
 
 - The app boots into offline mode before it detects the network's availability.
 - The app's network check gets no response or the response takes too long.
+
+## Analyze telemetry for offline synchronization
+
+Data related to offline synchronization events can be used to evaluate the health and performance of the offline sync.
+
+You can set up an [Application Insights](/azure/azure-monitor/app/app-insights-overview) environment to receive telemetry on diagnostics and performance. You can enable or disable the telemetry feed at any time.
+
+For detailed information about the data you can get, see [Telemetry events for mobile app synchronization and actions](/power-platform/admin/telemetry-events-mobile).
 
 ## Data removal from the mobile device
 

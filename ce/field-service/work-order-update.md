@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: Update work orders with the help of Copilot in Dynamics 365 Field Service.
-ms.date: 08/16/2024
+ms.date: 11/12/2024
 ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker
@@ -57,6 +57,6 @@ Copilot can update the following fields on a work order from the new user experi
 
 Open a booking in the new mobile user experience and select the Copilot icon. Select the Update option to start describing your update.
 
-:::image type="content" source="media/field-service-mobile-copilot.png" alt-text="Mobile device showing the Copilot control with options to Summarize and Update work orders.":::
+:::image type="content" source="media/copilot_portrait.png" alt-text="Mobile device showing the Copilot control with options to Summarize and Update work orders.":::
 
 Review the suggested updates and confirm them as you see fit.

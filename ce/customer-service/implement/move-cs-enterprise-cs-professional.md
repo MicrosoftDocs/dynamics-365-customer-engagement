@@ -5,6 +5,7 @@ ms.date: 04/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Move from Dynamics 365 Customer Service Enterprise to Dynamics 365 Customer Service Professional
@@ -34,9 +35,6 @@ After you’ve purchased the licenses, assign the licenses to users.
 1. In the Microsoft 365 admin center navigation pane, select **Users** > **Active users**.
 
 2. Select multiple users, and then select **Manage product licenses**. 
-
-   > [!div class="mx-imgBorder"]
-   > ![Assign licenses to multiple users.](../media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
 
 3. Select **Replace** to unassign existing licenses and assign new ones.
 

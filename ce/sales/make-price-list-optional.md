@@ -1,7 +1,7 @@
 ---
 title: "Make price list optional | MicrosoftDocs"
 description: "Allow your salespeople to add products without associating a price list first."
-ms.date: 02/28/2023
+ms.date: 11/21/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -44,12 +44,14 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 3.  Turn on **Make price lists optional** and save the changes.
 
-    ![Option to make selection of price list optional in Product Catalog Settings.](media/sales-hub-make-price-list-optional.png "Option to make selection of price list optional in Product Catalog Settings")
+    :::image type="Option to make selection of price list optional in Product Catalog Settings" source="media/sales-hub-make-price-list-optional.png" alt-text="Option to make selection of price list optional in Product Catalog Settings":::
 
 
 # [Sales Professional](#tab/SP)
 
 1.  In your app, on the nav bar, select the **Settings** icon, and then select **Advanced Settings**.
+     > [!NOTE]
+     > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
     The Business Management settings page opens in a new browser tab.
 
@@ -60,7 +62,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 4.  In the **System Settings dialog** box, on the **Sales** tab, set the **Make
     price lists optional** field to **Yes**.
 
-    ![Option to make selection of price list optional in System Settings.](media/make-price-list-optional.png "Option to make selection of price list optional in System Settings")
+    :::image type="Option to make selection of price list optional in System Settings" source="media/make-price-list-optional.png" alt-text="Option to make selection of price list optional in System Settings":::
 
 ---
 
@@ -72,3 +74,4 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

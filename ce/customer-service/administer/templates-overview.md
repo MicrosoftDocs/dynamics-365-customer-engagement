@@ -3,6 +3,7 @@ title: Overview of templates
 description: Learn about templates and how to configure and use them in your contact center.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 07/01/2024
 ms.topic: overview
 

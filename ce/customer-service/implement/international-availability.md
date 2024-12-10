@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.collection:
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -45,7 +45,7 @@ See the following table for the availability of the channels in the supported ge
 | United Arab Emirates (UAE) | ✔ |
 | United Kingdom | ✔ |
 
-<sup>1</sup> The Apple Messages for Business and Microsoft Teams channels aren't available in GCC.
+<sup>1</sup> The Apple Messages for Business, Whatsapp through Azure Communication Services, and Microsoft Teams channels aren't available in GCC.
 
 ## Language availability
 

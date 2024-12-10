@@ -62,6 +62,8 @@
             href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
           - name: View, compose, and respond to emails
             href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context
+          - name: Enhanced recepient handling
+            href: /power-apps/user/view-compose-email#enhanced-recipient-handling?context=/dynamics365/context/customer-service-context
           - name: Use enhanced experience to attach files to emails
             href: enhanced-email-attachment-control.md                            
           - name: Attach a file to email
@@ -179,9 +181,9 @@
         - name: Call a customer
           href: voice-channel-call-customer.md
         - name: Use call controls and the agent desktop for voice
-          href: voice-channel-agent-experience.md
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: How to avoid call disconnection
-          href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Manage voicemails
           href: manage-voicemails.md
         - name: Transfer calls and consult with other users
@@ -247,15 +249,13 @@
         - name: Overview of SMS channels
           href: sms-channel-overview.md
         - name: Use SMS channel
-          href: sms-telesign-twilio.md
+          href: sms-twilio.md
         - name: Use Facebook channel
           href: facebook.md
         - name: Use WhatsApp channel
           href: whatsapp.md
         - name: Use Microsoft Teams channel
           href: teams-channel.md
-        - name: Use WeChat channel
-          href: wechat-channel.md
         - name: View social profiles
           href: supported-channels-social-profiles.md  
       - name: Agent productivity tools
@@ -276,8 +276,6 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
-        - name: Use Copilot to solve customer issues 
-          href: use-copilot-features.md
         - name: Use Copilot to summarize cases and conversations
           href: copilot-use-summary.md
         - name: Summarize cases
@@ -285,7 +283,7 @@
         - name: Summarize conversations
           href: copilot-use-summary.md#summarize-conversations
         - name: Ask a question 
-          href: use-copilot-features.md#ask-a-question
+          href: use-ask-a-question.md
         - name: Draft a chat response (preview)
           href: use-copilot-features.md
         - name: Write an email with Copilot
@@ -296,8 +294,6 @@
           href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
-        - name: View analytics for Copilot impact
-          href: copilot-analytics-report.md
         - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
           href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
@@ -314,6 +310,8 @@
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
             href: realtime-ongoing.md
+          - name: Backlog conversation report
+            href: realtime-backlog-conv.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -350,6 +348,8 @@
             href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge management analytics
           href: knowledge-search-analytics-cs.md
+        - name: Use Copilot analytics
+          href: copilot-analytics-report.md
         - name: Monitor conversations
           items: 
             - name: Monitor, assign, transfer, and forcibly end conversations
@@ -386,6 +386,8 @@
             href: datamapping-realtime.md
           - name: Dataverse entities used in historical and real-time analytics
             href: dataverse-entities.md
+          - name: Customize the bot dashboard
+            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling

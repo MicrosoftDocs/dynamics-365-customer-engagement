@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
@@ -30,8 +31,6 @@ There are two ways in which you can create an action call for a [!INCLUDE[pn_use
 3. Select **+ New Action Call** on the command bar.  
 
 4. On the **New Action Call** page, specify information for various fields as per the following table.  
-
-   ![New action call in Unified Service Desk.](../unified-service-desk/media/usd-new-action-call.png "New action call in Unified Service Desk")  
 
 
    |     Field      | Description |

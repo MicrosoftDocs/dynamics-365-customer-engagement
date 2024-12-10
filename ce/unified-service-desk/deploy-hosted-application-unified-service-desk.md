@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
@@ -24,9 +25,7 @@ Once you have created a hosted application as described in [Create a HAT hosted 
    ![Use the shortcut menu to configure.](../unified-service-desk/media/usd-create-hat-control-11.png "Use the shortcut menu to configure")  
   
 2. In the next dialog box, enter Dataverse server name and your credentials.  
-  
-   ![Publish to dialog box.](../unified-service-desk/media/usd-deploy.png "Publish to dialog box")  
-  
+    
 3. If there is more than one organization, check the **Display list of available organizations** check box and select **Login**.  
   
 4. Select your organization from the list of organizations displayed and select **OK**.  

@@ -3,7 +3,7 @@ title: "Synchronize records manually with Dynamics 365 for Outlook | MicrosoftDo
 description: Learn how to synchronize records manually in order to synchronize data more frequently with Dynamics 365 for Outlook.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,7 +17,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 5b5e89e3-5d72-4c48-84e5-a5639b8ef9e6
 caps.latest.revision: 38
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin

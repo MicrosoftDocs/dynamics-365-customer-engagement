@@ -1,7 +1,7 @@
 ---
 title: Add Kanban control to entities to opportunities or activities
 description: Add the Kanban control to create Kanban views that help sellers to manage their opportunities or activities effectively.
-ms.date: 08/09/2024
+ms.date: 11/25/2024
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -15,8 +15,7 @@ searchScope:
   - Dynamics 365
   - Sales
 ---
-
-# Add the Kanban control to Opportunity or Activity entities
+# Add the Kanban control to Opportunity or Activity tables 
 
 Add the Kanban control to create Kanban views that help sellers to manage their opportunities or activities effectively.
 
@@ -32,17 +31,57 @@ Add the Kanban control to create Kanban views that help sellers to manage their 
 Kanban views help salespeople to manage their opportunities and activities effectively. Add the Kanban control to the Opportunity and Activity entity so salespeople can use the Kanban views. Similar to other custom controls, Kanban control is supported on all views.
 
 > [!IMPORTANT]
-> - The Kanban control works only on the Opportunity and Activity entities.
+> - The Kanban control works only on the Opportunity and Activity tables.
 > - The Kanban control is supported only on the main grid. It isn't currently supported on subgrids.
 > - The Kanban control is not supported in the **Dynamics 365 for Phones** mobile app.
 
-To add the control:
+### Add the control using the new experience
 
+1. In your sales app, select the **Settings** icon, and then select **Advanced Settings**.
+
+    > [!div class="mx-imgBorder"]  
+    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+
+    The **Power Platform Environment Settings** page opens in a new browser tab.
+
+2. From the sitemap, select **Customizations** > **Customize the System**.
+   The Power Apps Maker portal opens in a new browser tab.
+
+3. Select **Tables** and then search and select the **Opportunity** or **Activity** table.
+
+4. Select **Views** and then select any public view. You can filter public views from the **View type** dropdown list.
+
+   :::image type="content" source="media/activity-public-views.png" alt-text="Screenshot of the Activity public views."::: 
+
+5. Select a view and then select **Components**.
+1. In the Components dialog, select **Add Component**. 
+    
+    :::image type="content" source="media/add-component.png" alt-text="Screenshot of the Add Component dialog with the list of components.":::
+    
+    If you don't see **Kanban** in the list, follow these steps:
+ 
+    1. Select **Get more components**. 
+    1. Select the **Built by Microsoft** tab and search for **Kanban**. 
+    1. Select **Kanban** and then select **Add**.
+
+1. Select **Kanban** and then select the surfaces where you want to show the Kanban control by default.
+
+    :::image type="content" source="media/make-kanban-view-default.png" alt-text="Screenshot of the Edit kanban flyer with Web, Mobile, and Tablet selected.":::
+
+9. To publish the changes you've made, select **Save and Publish**.
+
+### Add the Kanban control using the legacy web client
+
+If you haven't turned on the new experience, you can add the Kanban control using the legacy web client.
+
+1. In your sales app, select the **Settings** icon, and then select **Advanced Settings**.
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
     :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 
     The **Business Management settings** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
 

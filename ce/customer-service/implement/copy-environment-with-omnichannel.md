@@ -3,7 +3,7 @@ title: Copy an environment that includes omnichannel environment
 description: Follow these steps to create a copy of a Dynamics 365 environment that includes omnichannel capabilities.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
 ms.date: 08/12/2024
@@ -25,7 +25,7 @@ Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Custome
 
 [Copy an environment](/power-platform/admin/copy-environment) and choose one of the following copy options:
 
-- **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. You can create the channels and workstreams in the target environment, and no corrections are needed.
+- **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. [Turn off the channels](/dynamics365/contact-center/implement/provision-channels#turn-off-channels) and turn them back on. You can then create the channels and workstreams in the target environment, and no corrections are needed.
 - **Full copy**. Everything in the source is copied. You need to [make a few corrections in the target environment](#configure-the-target-environment-after-copying-from-the-source) before you can start using it.
 
 ## Configure the target environment after copying from the source
@@ -56,10 +56,8 @@ If you chose the full copy option, it can take up to an hour for the data to app
     - [Configure a LINE channel](../administer/configure-line-channel.md)
     - [Configure an Apple Messages for Business channel](../administer/configure-apple-messages-for-business-channel.md)
     - [Configure a Microsoft Teams channel](../administer/configure-microsoft-teams.md)
-    - [Configure a WeChat channel](../administer/configure-wechat-channel.md)
     - [Configure a custom channel](../develop/bring-your-own-channel.md)
     - [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)
-    - [Configure an SMS channel for TeleSign](../administer/configure-sms-channel.md)
     - [Configure an SMS channel for Twilio](../administer/configure-sms-channel-twilio.md)
 
 ## Configure Copilot Studio bots in the target environment

@@ -1,7 +1,7 @@
 ---
-title: Qualify and convert leads to opportunity
+title: Qualify and convert a lead to opportunity
 description: Qualify leads in the Sales app to create corresponding accounts and opportunities, and disqualify leads when they don't turn into an opportunity.
-ms.date: 08/12/2024
+ms.date: 10/14/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,11 +20,7 @@ searchScope:
   - Sales
 ---
 
-
-<!-- question from editor: In line 88, is @uick correct or a typo? -->
-
-
-# Qualify and convert leads to opportunity
+# Qualify and convert a lead to opportunity
 
 After you identify the time frame, budget, and purchase process for a lead, qualify the lead to create the corresponding account, contact, and opportunity records. If a lead isn't likely to turn into an opportunity, disqualify the lead to keep a record of the sales process.
 
@@ -56,8 +52,8 @@ After you identify the time frame, budget, and purchase process for a lead, qual
 
     The lead moves to the next stage in the business process. The lead is also removed from the **My Open Leads** view and gets added to the **Closed Leads** view.
   
-    > [!NOTE]
-    > If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage, although the lead status becomes qualified.
+   > [!NOTE]
+   > If an opportunity isn't created when qualifying a lead, the business process flow doesn't progress to the next stage, although the lead status becomes qualified.
 
 ### New experience
 
@@ -67,7 +63,9 @@ As part of the [new lead qualification experience](define-lead-qualification-exp
 
 - If your administrator has turned on the new experience and enabled automatic creation of account, contact, and opportunity records, the records are created automatically. You see a **Processing** message while the records are being created. After the records are created, the opportunity record opens.
 
-- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record.
+- If your admin has turned off automatic creation for all records, you'll see the **Qualify lead** side pane for creating contact, account, and opportunity records. For contact and account records, you can choose to create a new record, use an existing record, or skip creating the record. 
+  > [!NOTE]
+  > For the account record, the **Create new** option is only available when the **Company name** is filled in the lead record.
 
 - If your admin has turned on automatic creation for a few and manual creation for others, you'll see the **Qualify lead** side pane. The pane displays records that will be created automatically and records that you need to create manually. For example, if the account and contact records are set to be created automatically, and the opportunity record is set to be created manually, the side pane displays the records as shown in the following screenshot:
 
@@ -83,9 +81,9 @@ If your admin has enabled multiple opportunities creation, you can create up to 
 
 **To create additional opportunities**
 
-1. Select **+New Opportunity** on the Qualify lead side pane. 
+1. Select **+New Opportunity** on the Qualify lead side pane. If **+New Opportunity** is disabled, see [this FAQ](faq-lead.md#why-cant-i-edit-or-create-multiple-opportunities-for-a-lead-in-the-new-lead-qualification-experience) to understand why and the steps to enable it.
 
-1. In the Opportunity @uick create form, enter the details for the opportunity. Would you like to see different fields in the opportunity form? Talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
+1. In the Opportunity Quick create form, enter the details for the opportunity. Would you like to see different fields in the opportunity form? Talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 
 1. Save the opportunity record.
 
@@ -93,7 +91,7 @@ If your admin has enabled multiple opportunities creation, you can create up to 
 
 #### Lead summary
 
-If your admin has enabled lead summarization, you'll see an AI-generated summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record and the lead record. 
+If your admin has [enabled lead summarization](define-lead-qualification-experience.md#summarize-the-lead-after-its-qualified), you'll see an AI-generated summary of the lead after it's qualified. The summary includes key details from the lead record and is added to the timeline of the primary opportunity record and the lead record. 
 
 ![Screenshot of the Lead qualified page that appears after the lead is qualified.](media/lead-qualify-finish-page.png "Screenshot of the Lead qualified page that appears after the lead is qualified.")
 

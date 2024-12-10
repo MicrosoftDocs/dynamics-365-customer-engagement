@@ -94,3 +94,4 @@ If the Sales app doesn't exactly fit your business requirements, use the drag-an
 - [Allow PDF generation from sales records](enable-pdf-generation-quote.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
+

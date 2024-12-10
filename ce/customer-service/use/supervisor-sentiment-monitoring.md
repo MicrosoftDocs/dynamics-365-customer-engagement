@@ -1,19 +1,20 @@
 ---
-title: "Sentiment monitoring | MicrosoftDocs"
-description: "This topic provides information on how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service."
-ms.date: 07/08/2024
+title: Sentiment monitoring
+description: Learn how supervisors can enable sentiment monitoring to understand customer sentiment across channels and improve customer service.
+ms.date: 09/10/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
 # Sentiment monitoring
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> Supervisor and agent sentiment notifications are not available in Unified Service Desk.
+> Supervisor and agent sentiment notifications aren't available in Unified Service Desk.
 
 Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. The application uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
@@ -108,7 +109,7 @@ You can select the **Monitor** button to see the **Active Conversation** and the
 
 For example:
 
-An administrator sets the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, the notification displays to you.
+An administrator sets the threshold value as **Very negative**. When the customer's sentiment reaches **Very negative** or any other sentiment value below the threshold value, a notification appears.
 
 ## Multi-language sentiment limitations
 

@@ -4,7 +4,7 @@ description: Learn about the analytics reports and call insights that are availa
 ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.custom:
 - bap-template
