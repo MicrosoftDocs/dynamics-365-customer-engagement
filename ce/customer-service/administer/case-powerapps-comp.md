@@ -22,13 +22,16 @@ The following tables lists the components that can be added to case forms and th
 |2 |**Customer 360** |The Customer 360 component enables agents to view customer details for a case as a card on the form. | Available for all entities. | Applicable. | [Configure components to display customer details and recent records](add-display-components-to-case-form.md)| 
 |3 |**Recent records** |This component allows agents to view and access related customer records for a case as a card on the form. |Available for all entities. |Not applicable |[Configure components to display customer details and recent records](add-display-components-to-case-form.md)|
 |4 |**Case handling time widget** |Agents can see the case handling time widget on the form. |Available for all entities. |Not applicable. |[Configure case handling time widget to case forms](add-case-handling-time.md)|  
-|5 |**Redirect** |This component redirects agents to a specific tab for closing open activities related to a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
-|6 |**Modernized case grids** |These grids give agents quick access to case information, such as the last customer interaction, case age, and the next Service Level Agreement (SLA) breach. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
+|5 |**Redirect user to the specified tab to close open activities** |Allows to redirect agents to a custom tab for closing open activities related to a case. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|    
+|6 |**Enable minimal case resolution dialog** |This component allows to display the legacy case resolution dialog box. |Available for all entities. |Applicable. |[Customize the case resolution experience](add-enhanced-case-management.md)|   
+|7 |**Power Apps grid control** |This component allows multiple customization options, such as inline edits, to manage option set colors, and to revert to legacy grids. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
+|8 |**Configure property Enable Editing** |Allows agents to perform inline edits and update data for columns in the view. Inline editing for the **Status reason** column isn't supported. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
+|9 |**Enable OptionSet colors** |Allows to customize and choose the color of the text values to make them readable. |Available for all entities. |Applicable |[Enable case grids](enable-case-grids.md)|
 
 
 ## Default components available on enhanced full case form
 
-You can use the following components that are available by default on the [Enhanced full case form](case-enh-config.md) to customize other forms.
+You can use the following components that are available by default on the [Enhanced full case form](case-enh-config.md#view-default-components-available-on-enhanced-full-case-form) to customize other forms.
 
 |Number | Component | Description | Entity | Additional actions | Additional information|
 |------ | --------- | ----------- | ------ | ------------------ | ----------------------|
