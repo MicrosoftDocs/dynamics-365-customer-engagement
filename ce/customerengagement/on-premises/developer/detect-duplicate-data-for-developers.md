@@ -74,8 +74,8 @@ For more information: [DuplicateRecord Entity](/powerapps/developer/common-data-
 
 ## See Also
 
-[Sample: Enable Duplicate Detection and Retrieve Duplicates](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/EnableDuplicateDetection)<br />
+[Sample: Enable Duplicate Detection and Retrieve Duplicates](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/EnableDuplicateDetection)<br />
 [Sample: Invoke Duplicate Detection For Creating and Updating Records](/powerapps/developer/common-data-service/run-duplicate-detection)<br />
-[Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DetectMultipleDuplicateRecords)<br />
+[Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/DetectMultipleDuplicateRecords)<br />
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]
