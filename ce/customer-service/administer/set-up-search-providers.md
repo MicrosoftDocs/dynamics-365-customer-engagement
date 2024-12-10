@@ -3,7 +3,7 @@ title: Set up external search providers
 description: Learn how to set up a search provider for knowledge management in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 06/21/2024
 ms.custom: 

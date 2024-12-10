@@ -1,7 +1,7 @@
 ---
 title: Enable or disable the enhanced add products experience
 description: "Enable your salespeople to quickly find and add multiple products to an opportunity, quote, order, or invoice by enabling the enhanced add product experience."
-ms.date: 05/30/2022
+ms.date: 11/21/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -54,7 +54,7 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 2. Under **Product Catalog**, select **Product Catalog Settings**.
 
-3. On the **Product Catalog Settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
+3. On the **Product catalog settings** page, turn on **Enhanced experience for adding products** to enable the enhanced experience. 
     When you enable the enhanced experience, you'll see additional options for customizing the **Add products** dialog box.
 
     ![Product catalog settings page with the **Enhanced experience for adding products** enabled.](media/EnableAddProductPreview.png)

@@ -7,13 +7,11 @@ ms.reviewer: udag
 ms.topic: how-to 
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
-ms.date: 07/28/2023
+ms.date: 11/29/2024
 ms.custom: bap-template 
 ---
 
-# Enable Copilot email assist (preview)
-
-[!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
+# Enable Copilot email assist 
 
 The Copilot for email assist feature helps sellers to generate content for emails that is specific to customer’s needs with clarity, conciseness, and compelling content.
 
@@ -30,12 +28,12 @@ The Copilot for email assist feature helps sellers to generate content for email
 
 ## Enable the Copilot email assist feature
 
-1.	Sign into [Power Apps](https://make.powerapps.com/).
-2.	On the left pane, select **Apps**, and then select your app.
-3.	Select **More commands** (**...**) > **Edit** to open the modern app designer.
-4.	On the command bar, select **Settings**.
-5.	On the **Upcoming** tab, set the **Enable Copilot Email Assist** toggle to **Yes** and then select **Save**.
-6.	Publish the app.
+1. Sign into [Power Apps](https://make.powerapps.com/).
+1. On the left pane, select **Apps**, and then select your app.
+1. Select **Settings**.
+1. On the **Settings** pane.
+1. On the **Features** tab, set the **Contextual email drafting with AI** toggle to **Yes** and then select **Save**.
+1. Publish the app.
 
 Copilot is enabled in your app and sellers can use the feature to compose emails. 
 

@@ -1,5 +1,5 @@
 ---
-title: Create functional locations (contains video)
+title: Create functional locations
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
 ms.date: 05/10/2024
 author: jshotts

@@ -5,6 +5,7 @@ ms.date: 04/21/2023
 ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ms.custom: 
   - dyn365-customerservice
 ms.collection: get-started

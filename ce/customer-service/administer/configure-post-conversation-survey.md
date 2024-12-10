@@ -1,5 +1,5 @@
 ---
-title: Configure post-conversation survey
+title: Configure post-conversation survey using Customer Voice
 description: Learn how to configure a post-conversation survey for the channels in your contact center.
 ms.date: 08/14/2024
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# Configure a post-conversation survey
+# Configure a post-conversation survey using Customer Voice
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
