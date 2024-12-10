@@ -96,8 +96,6 @@
       href: https://go.microsoft.com/fwlink/p/?linkid=2165393
     - name: Compliance certifications of Omnichannel for Customer Service
       href: compliance-certifications.md
-    - name: Dynamics 365 Contact Center documentation
-      href: /dynamics365/contact-center
   - name: Responsible AI
     items:
     - name: Overview
@@ -124,3 +122,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center/
