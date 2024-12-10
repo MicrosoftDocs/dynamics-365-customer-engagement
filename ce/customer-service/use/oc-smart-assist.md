@@ -1,11 +1,11 @@
 ---
 title: View smart assist suggestions
-description: Learn how to view smart assist suggestions in Customer Service workspace.
-ms.date: 07/01/2024
+description: Learn how to view smart assist suggestions in Contact Center workspace or Customer Service workspace.
+ms.date: 11/28/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---

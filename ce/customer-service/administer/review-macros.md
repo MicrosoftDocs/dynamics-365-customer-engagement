@@ -3,6 +3,7 @@ title: Review macro run history
 description: Review macro run history to identify causes of failure and view exact action step at which failure occurred.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.collection:
 ms.date: 05/06/2024

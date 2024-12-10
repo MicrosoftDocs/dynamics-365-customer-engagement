@@ -5,6 +5,7 @@ ms.date: 10/27/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_ocbotchannelregistrationsecret Entity Reference
 

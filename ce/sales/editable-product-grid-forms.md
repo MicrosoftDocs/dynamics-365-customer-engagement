@@ -1,7 +1,7 @@
 ---
 title: "Add editable Products grid to forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 11/21/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,8 +33,7 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 1. In your app, select the **Settings** icon, and then select **Advanced Settings**. 
 
-    > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    :::image type="Advanced Settings link in the site map" source="media/advanced-settings-option.png" alt-text="Advanced Settings link in the site map":::
 
     The **Business Management settings** page opens in a new browser tab.
    > [!NOTE]
@@ -50,17 +49,17 @@ To enable the editable products grid on the Opportunity, Quote, Order, or Invoic
 
 5. If you’re enabling the editable product grid in the Opportunity form, select the **Opportunity Products** area in the **Product Line items** section, and in the **Edit** group, select **Change Properties**.
 
-    ![Opportunity Products area in the Product Line Items section.](media/opportunity-products-area-product-line-items-section.png "Opportunity Products area in the Product Line Items section")
+    :::image type="Opportunity Products area in the Product Line Items section" source="media/opportunity-products-area-product-line-items-section.png" alt-text="Opportunity Products area in the Product Line Items section":::
     
     **– OR –** 
     
     If you’re enabling the editable product grid in the Quote, Order, or Invoice form, select the **Products** area in the **Products** section, and in the **Edit** group, select **Change Properties**.
   
-    ![Products area.](media/products-area.png "Products area in the Products section")
+    :::image type="Products area" source="media/products-area.png" alt-text="Products area in the Products section":::
 
 6.	In the **Set Properties** dialog box, select the devices on which you want the editable grid to be available by selecting the corresponding radio button. Currently, the editable grid is optimized to work on the web.
 
-    ![Editable grid control in the Set Properties dialog box.](media/editable-grid-set-properties-dialog-box.png "Editable grid control in the Set Properties dialog box")
+    :::image type="Editable grid control in the Set Properties dialog box" source="media/editable-grid-set-properties-dialog-box.png" alt-text="Editable grid control in the Set Properties dialog box":::
 
     Notice that the properties of the editable grid such as Grid view or Nested grid view are preconfigured by default.
  

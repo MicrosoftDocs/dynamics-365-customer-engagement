@@ -3,7 +3,7 @@ title: Use enhanced experience to attach files to emails
 description: View and manage attachments with ease using the enhanced email attachment experience for forms. 
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 01/12/2024

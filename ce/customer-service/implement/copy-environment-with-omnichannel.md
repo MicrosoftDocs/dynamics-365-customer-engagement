@@ -3,7 +3,7 @@ title: Copy an environment that includes omnichannel environment
 description: Follow these steps to create a copy of a Dynamics 365 environment that includes omnichannel capabilities.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
 ms.date: 08/12/2024
@@ -25,7 +25,7 @@ Omnichannel capabilities in Dynamics 365 Contact Center and Dynamics 365 Custome
 
 [Copy an environment](/power-platform/admin/copy-environment) and choose one of the following copy options:
 
-- **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. You can create the channels and workstreams in the target environment, and no corrections are needed.
+- **Minimal copy**. Schemas and customizations only are copied. The source data isn't copied. [Turn off the channels](/dynamics365/contact-center/implement/provision-channels#turn-off-channels) and turn them back on. You can then create the channels and workstreams in the target environment, and no corrections are needed.
 - **Full copy**. Everything in the source is copied. You need to [make a few corrections in the target environment](#configure-the-target-environment-after-copying-from-the-source) before you can start using it.
 
 ## Configure the target environment after copying from the source

@@ -4,6 +4,7 @@ description: "Includes schema information and supported messages for the msdyn_l
 ms.date: 07/29/2020
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: reference
 ---
 # msdyn_liveconversation Entity Reference
