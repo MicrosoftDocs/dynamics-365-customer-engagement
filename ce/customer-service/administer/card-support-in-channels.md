@@ -19,7 +19,7 @@ The following table lists the rich cards that are supported across different cha
 
 | Channel | Hero card | Thumbnail card | Audio card | Card carousel |
 |---------------|-----------|-------------|------------|----|
-| Microsoft Teams  | ✔     |  ✔   |  ✖  | ✔  |
+| Microsoft Teams  | ✔    |  ✔   |  ✖  | ✔  |
 | LINE    | ✔ | ✔ | 🌐  | ✔|
 | Custom (Direct Line) | ✔ |  ✔ | ✔*  | ✔* |
 
