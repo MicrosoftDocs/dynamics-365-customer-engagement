@@ -33,7 +33,7 @@ You can get the Microsoft Teams channel with the following add-on license:
 
 - [Teams license](/MicrosoftTeams/office-365-licensing)
 
-Apart from Dynamics 365 subscriptions, if you choose to use any third-party channels, you need to acquire subscriptions from those providers as well.
+Apart from Dynamics 365 subscriptions, if you choose to use any non-Microsoft channels, you need to acquire subscriptions from those providers as well.
 
 The following channels are currently available in the application: 
 
