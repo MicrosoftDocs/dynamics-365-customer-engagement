@@ -133,7 +133,7 @@ Specify the filters that are automatically applied. The agents don't need to exp
 
 The following table summarizes the Copilot features supported for a configured knowledge source.
 
-| Feature|Knowledge base | External web resources | Knowledge hub
+| Feature | Knowledge base | External web resources | Knowledge hub|
 |-------|----------|---------|--------|
 |Ask a question |✔|X| ✔|
 |Write an email | ✔|✔|X|
