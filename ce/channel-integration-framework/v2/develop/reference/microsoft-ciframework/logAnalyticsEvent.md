@@ -1,14 +1,12 @@
 ---
-title: "logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes description, syntax, and parameter information for the logAnalyticsEvent method in JavaScript API Reference for Channel Integration Framework 2.0."
-ms.date: 07/11/2023
+title: logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Includes description, syntax, and parameter information for the logAnalyticsEvent method in JavaScript API Reference for Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template 
 ---
 
 # logAnalyticsEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0

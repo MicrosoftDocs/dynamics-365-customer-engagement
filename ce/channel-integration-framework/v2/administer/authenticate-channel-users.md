@@ -4,11 +4,9 @@ description: Learn how to authenticate channel users in Dynamics 365 Channel Int
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: article
-ms.date: 03/21/2024
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.topic: how-to
+ms.date: 12/10/2024
+ms.custom: bap-template
 ---
 
 # Authenticate users to sign in to the channel

@@ -1,14 +1,12 @@
 ---
-title: "cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Get reference information such as syntax and parameters for the cancelEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/04/2022
+title: cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Get reference information such as syntax and parameters for the cancelEvent (JavaScript API Reference) in Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template 
 ---
 
 # cancelEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0

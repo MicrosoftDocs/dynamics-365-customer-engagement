@@ -4,11 +4,9 @@ description: Use this topic to get the download link and prerequisites for Dynam
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 06/14/2024
-ms.topic: get-started
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.date: 12/10/2024
+ms.topic: conceptual
+ms.custom: bap-template
 ---
 
 # How to get Dynamics 365 Channel Integration Framework 1.0
