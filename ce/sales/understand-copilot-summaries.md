@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: conceptual
 ms.collection: 
-ms.date: 09/06/2024
+ms.date: 12/06/2024
 ms.custom: bap-template 
 ---
 
@@ -134,6 +134,34 @@ Opportunity stage is updated based on the audit history of the opportunity. Copi
 `userid` (name of the user) updated the opportunity stage from `oldstepname` (name of the previous stage) to `newstepname` (name of the new stage) on `createdon` (updated date).
 
 **Example**: **Kenny Smith** updated the opportunity stage from **3-Propose** to **2-Develop** on **8/22/2024 6:57 AM**.
+
+## Account summary
+
+To generate the account summary, Copilot in Dynamics 365 Sales uses the following attributes in each section of the summary. Let's learn about the attributes in detail.  
+
+### Account history
+
+Account history information is generated based on the closed opportunities associated with the account. Copilot gets the closed opportunities associated with the account.  
+Based on the closed opportunities associated with the account, Copilot generates the following account history summary:  
+
+- When an account has closed opportunities, the summary statement is as follows:  
+    `accountName` (name of the account) has been a customer that has spent over `Sum.ClosedOpportunities.actualvalue` (total value of closed opportunities of the account)  with us since `account.createdon` (date on which the account is created). `accountName` (name of the account) operates in the `account.industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.  
+
+    **Example**: **Contoso** has been a customer that has spent over **$25,000.00** with us since **8/9/2024 9:00 AM**. **Contoso** operates in the **Consulting** industry sector and provides a wide selection of products in its stores and online.
+
+- When an account doesn't have closed opportunities, the summary statement is as follows:  
+    `accountName` (name of the account) has been a customer with us since `account.createdon` (date on which the account is created). `accountName` (name of the account) operates in the `account.industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
+
+    **Example**: **Contoso** has been a customer with us since **8/9/2024 9:00 AM**. **Contoso** operates in the **Consulting** industry sector and provides a wide selection of products in its stores and online.
+
+### Purchase history
+
+Purchase history information is generated based on the closed opportunities associated with the account. Copilot gets the closed opportunities associated with the account.  
+The following statement is generated based on the opportunities associated with the account:
+
+Our last successful opportunity with `account` (name of the account) for `account.lastclosedopportunity` (name of the last closed opportunity for the account) was worth `account.lastclosedopportunity.actualvalue` (last closed opportunity's actual value). We have successfully closed `account.closedopportunities.count` (number of closed opportunities for the account) with them so far from a total of `account.allopportunities.count` (number of all opportunities).
+
+**Example**: Our last successful opportunity with **Contoso** for **1 Café BG-1 Grinder for Alpine Ski House** was worth **$10,000**. We have successfully closed **10** with them so far from a total of **25**.
 
 ## Related information
 
