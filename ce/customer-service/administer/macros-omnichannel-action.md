@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 04/08/2024
+ms.date: 12/04/2024
 ms.custom: bap-template 
 ---
 
@@ -70,13 +70,6 @@ Add the **Unlink record from the conversation** action with the following attrib
 #### Send knowledge base article link in chat
 
 Sends a knowledge base article link to the conversation chat window. It must be used with the **Search knowledge base for the populated phrase** action. Make sure that you switch the **Use an external portal** toggle to **Yes**. More information: [Set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management)
-
-The action contains the following field.
-
-   | Field | Description | 
-   |-----------------|-----------------------------|
-   | Entity record ID  | Specify the ID of the entity record.|
-
 
 ## Next steps
 
