@@ -1,14 +1,12 @@
 ---
-title: "getPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes reference information such as description, syntax, and parameters for the getPresence method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 04/04/2022
+title: getPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
+description: Includes reference information such as description, syntax, and parameters for the getPresence method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template
 ---
 
 # getPresence (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
