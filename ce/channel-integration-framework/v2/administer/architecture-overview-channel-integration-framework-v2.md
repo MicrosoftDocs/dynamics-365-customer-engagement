@@ -1,6 +1,6 @@
 ---
 title: Architecture overview of Dynamics 365 Channel Integration Framework 2.0 
-description: Get an overview of Dynamics 365 Channel Integration Framework 2.0 and its architecture that lets you integrate with non Microsoft channel providers.
+description: Get an overview of Dynamics 365 Channel Integration Framework 2.0 and its architecture that lets you integrate with non-Microsoft channel providers.
 author: gandhamm
 ms.topic: overview
 ms.author: mgandham

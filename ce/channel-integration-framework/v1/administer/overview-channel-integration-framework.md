@@ -11,9 +11,9 @@ ms.custom: bap-template
 
 # What is Dynamics 365 Channel Integration Framework 1.0
 
-Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate non Microsoft channel providers with Dynamics 365 model-driven apps using a browser-based JavaScript API library.
+Dynamics 365 Channel Integration Framework is a cloud-to-cloud extensible framework to integrate non-Microsoft channel providers with Dynamics 365 model-driven apps using a browser-based JavaScript API library.
 
-With this framework, you can integrate any non Microsoft telephony provider or telephony aggregators into a model-driven app, where the Dynamics 365 Channel Integration Framework acts as an interface between the providers or aggregators and a model-driven app.
+With this framework, you can integrate any non-Microsoft telephony provider or telephony aggregators into a model-driven app, where the Dynamics 365 Channel Integration Framework acts as an interface between the providers or aggregators and a model-driven app.
 
 The Dynamics 365 Channel Integration Framework is a set of APIs (methods, events, and protocols) that allow developers and partners to create seamless communication experiences. These APIs enable non-Microsoft communication widgets running on a channel provider cloud to interact with the Dynamics 365 model-driven app.
 
@@ -23,7 +23,7 @@ With the Dynamics 365 Channel Integration Framework solution, you can configure 
 
 Organizations expect their call centers to do more with fewer resources, and there's a constant drive to increase productivity in terms of call center representatives handling more chats, phone calls, emails, and so on. Reducing the average time to handle customers can save companies millions of dollars. Telephony providers in call centers are one of the key indicators for success and customer satisfaction. In that context, some of the challenges the call center industry faces with the telephony providers are as follows:
 
-  - Integrating non Microsoft telephony providers into the Customer Relationship Management (CRM) platforms.
+  - Integrating non-Microsoft telephony providers into the Customer Relationship Management (CRM) platforms.
   - Accessing and performing operations on the model-driven app from the telephony.
   - Developing and deploying telephony needs writing adapters and complex custom codes for solution integration.
   - Using APIs and out-of-box customization, which aren't supported for the production environment.
@@ -70,7 +70,7 @@ Here are the capabilities offered by Dynamics 365 Channel Integration Framework 
 
 - **Upgrade to new versions**
 
-  Seamless upgrade to new versions of non Microsoft channel providers or channel aggregators as the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels but doesn't control the channel versions.
+  Seamless upgrade to new versions of non-Microsoft channel providers or channel aggregators as the Dynamics 365 Channel Integration Framework provides the infrastructure framework to integrate the channels but doesn't control the channel versions.
 
 ### See also
 
