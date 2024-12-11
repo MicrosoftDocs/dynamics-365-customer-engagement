@@ -47,7 +47,7 @@ Direct Routing lets you to connect to the existing Nuance telephony infrastructu
 1. Configure outbound voice routing rules for Azure Communication Services direct routing. Follow the steps in [Creating Voice Routing rules](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=platform-azp#creating-voice-routing-rules) to set up the voice routing rules.
 1. Create an Azure Function to redirect the call from Azure Communication Services to the SBC with the following environment variables:
    - `redirectNumber`: Number that you want your incoming calls to be redirected to.
-   -  Azure Communication Services connection  for the dialed number.
+   -  Azure Communication Services string for the dialed number.
    - `dialedNumber`: outbound number that your incoming calls are routed to.
 1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall`, with your Azure function. You can perform one of the following actions:
    - Through the Azure portal:
