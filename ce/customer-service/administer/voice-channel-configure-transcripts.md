@@ -45,6 +45,9 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 1. Select **Save**.
 
+> [!NOTE]
+> For call recording to function properly you must allow the audio/mpeg MIME type for your environment in the Power platform admin center.  Please see [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
+
 ## Enable real-time translation of calls
 
 To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
