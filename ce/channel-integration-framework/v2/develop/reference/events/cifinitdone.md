@@ -23,7 +23,7 @@ The CIFInitDone event is raised by the Dynamics 365 Channel Integration Framewor
         })();
 ```
 
-###Related information
+### Related information
 
 [setClickToAct method](../../../../v1/develop/reference/microsoft-ciframework/setClickToAct.md)  
 [addHandler method](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)  

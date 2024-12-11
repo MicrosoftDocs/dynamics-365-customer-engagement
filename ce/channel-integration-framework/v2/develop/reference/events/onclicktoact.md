@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[token-onclicktoact](../../../../shared/token-onclicktoact.md)]
 
-###Related information
+### Related information
 
 [setClickToAct](../../../../v1/develop/reference/microsoft-ciframework/setClickToAct.md)  
 [addHandler](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)  

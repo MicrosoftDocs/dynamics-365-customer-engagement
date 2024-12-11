@@ -56,7 +56,7 @@ You can check whether the migration is successful and validate your configuratio
 
 If either of the preceding validation steps fail, then it would mean that the app profile configuration wasn't set properly. To resolve the issue, remove the channel provider, add it again, and then repeat the preceding steps.
 
-###Related information
+### Related information
 
 [Agent experience profile](../../../customer-service/administer/create-agent-experience-profile.md)  
 

@@ -36,7 +36,7 @@ To create or manage a session template, go to the agent experience profile. For 
 > [!NOTE]
 > Dynamics 365 Channel Integration Framework must be enabled to load generic session templates with the [createsession](../../../customer-service/develop/reference/methods/createSession.md) API.
 
-##Related information
+## Related information
 
 [App experience management overview](../../../customer-service/administer/overview.md)  
 [Manage application tab templates](application-tab-templates-cif.md)  

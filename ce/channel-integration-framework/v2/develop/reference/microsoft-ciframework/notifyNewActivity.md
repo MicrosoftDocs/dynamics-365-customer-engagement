@@ -51,7 +51,7 @@ Microsoft.CIFramework.notifyNewActivity(sessionId, count).then(
 );
 ```
 
-###Related information
+### Related information
 
 [notifyKpiBreach API](notifyKPIBreach.md)
 

@@ -26,7 +26,7 @@ ms.custom: bap-template
 > [!div class="nextstepaction"]
 > [Add Channel Integration Framework as a dependent solution](add-cif-solution-dependent-solution.md)
 
-###Related information
+### Related information
 
 [Entity reference](../develop/reference/entities-attributes/msdyn-ciprovider.md)  
 [setClickToAct](../develop/reference/microsoft-ciframework/setClickToAct.md)  

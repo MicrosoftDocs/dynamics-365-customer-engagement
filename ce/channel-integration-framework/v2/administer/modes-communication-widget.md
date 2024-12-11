@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[token-modes-communication-widget](../../shared/token-modes-communication-widget.md)]
 
-##Related information
+## Related information
 
 [setMode (JavaScript API reference)](../../v1/develop/reference/microsoft-ciframework/setMode.md) 
 [getMode (JavaScript API reference)](../../v1/develop/reference/microsoft-ciframework/getMode.md)

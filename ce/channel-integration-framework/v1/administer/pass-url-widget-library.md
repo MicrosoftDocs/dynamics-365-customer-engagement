@@ -15,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[token-pass-url-widget-library](../../shared/token-pass-url-widget-library.md)]
 
-###Related information
+### Related information
 
 [Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 

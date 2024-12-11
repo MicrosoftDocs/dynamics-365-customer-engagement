@@ -922,7 +922,7 @@ Relationship details provided where the msdyn_channelprovider entity is the firs
 
 See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_appconfiguration.md#BKMK_msdyn_appconfig_msdyn_channelprovider) Many-To-Many Relationship.
 
-###Related information
+### Related information
 
 - [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
 

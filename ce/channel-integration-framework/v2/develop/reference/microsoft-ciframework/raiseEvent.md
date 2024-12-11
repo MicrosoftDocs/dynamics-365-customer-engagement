@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE[token-raiseEvent](../../../../shared/token-raiseEvent.md)]
 
 
-###Related information
+### Related information
 
 [addHandler method](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)  
 [onclicktoact event](../events/onclicktoact.md)  

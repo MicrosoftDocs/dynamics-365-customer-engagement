@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[token-onsizechanged](../../../../shared/token-onsizechanged.md)]
 
-###Related information
+### Related information
 
 [setWidth](../../../../v1/develop/reference/microsoft-ciframework/setWidth.md)  
 [getWidth](../../../../v1/develop/reference/microsoft-ciframework/getWidth.md)  

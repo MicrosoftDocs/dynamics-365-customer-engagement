@@ -16,7 +16,7 @@ After creating the session, notification, and application tab templates, you mus
 To associate the templates in your scenarios, you must use the `templateName` parameter in your code. For more information on notification, session, and application tab management APIs, see [JavaScript API Reference](../develop/reference/microsoft-ciframework-v2.md).
 
 
-##Related information
+## Related information
 
 [Manage session templates](session-templates-cif.md)   
 [Manage application tab templates](application-tab-templates-cif.md)   

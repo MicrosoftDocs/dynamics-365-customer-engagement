@@ -18,7 +18,7 @@ ms.custom:
 > [!div class="nextstepaction"]
 > [Pass Dynamics 365 URL to widget library](pass-url-widget-library.md)
 
-###Related information
+### Related information
 
 [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)  
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  

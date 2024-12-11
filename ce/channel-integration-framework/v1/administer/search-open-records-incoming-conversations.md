@@ -205,7 +205,7 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
   ![Published sample widget in Unified Interface apps.](../../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 
-###Related information
+### Related information
 
 [Build a simple communication widget](getting-started-simple-widget.md)  
 [Sample code for softphone integration](sample-softphone-integration.md)  

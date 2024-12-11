@@ -77,7 +77,7 @@ const errorCallback = (error) => {
 Microsoft.CIFramework.logAnalyticsEvent(data, eventName, correlationId).then(successCallback, errorCallback);
 ```
 
-###Related information
+### Related information
 
 [updateConversation method](updateConversation.md)<br />
 [Channel Analytics](../../../administer/channel-analytics.md)

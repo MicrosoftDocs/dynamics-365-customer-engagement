@@ -13,7 +13,7 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 
 [!INCLUDE[token-msdyn-sessionparticipantdata](../../../../shared/token-msdyn-sessionparticipantdata.md)]
 
-###Related information
+### Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)
 

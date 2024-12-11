@@ -15,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[token-modes-communication-widget](../../shared/token-modes-communication-widget.md)]
 
-###Related information
+### Related information
 
 [setMode (JavaScript API reference)](../develop/reference/microsoft-ciframework/setMode.md)
 

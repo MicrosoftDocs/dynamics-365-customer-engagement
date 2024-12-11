@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[token-onpagenavigate](../../../../shared/token-onpagenavigate.md)]
 
-###Related information
+### Related information
 
 [addHandler](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)  
 [removeHandler](../../../../v1/develop/reference/microsoft-ciframework/removeHandler.md)  

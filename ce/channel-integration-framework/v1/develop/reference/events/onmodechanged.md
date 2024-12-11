@@ -21,7 +21,7 @@ The `onmodechanged` event takes the following eventData:
 |-----------|---------|
 | ```{"value": <number>}``` | ```{"value": 0"}``` |
 
-###Related information
+### Related information
 
 [setMode](../microsoft-ciframework/setMode.md)  
 [getMode](../microsoft-ciframework/getMode.md)  

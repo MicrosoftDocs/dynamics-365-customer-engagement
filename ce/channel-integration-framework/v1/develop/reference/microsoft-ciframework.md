@@ -61,7 +61,7 @@ Use the following APIs to perform CRUD operations on entity records.
 | [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/Includes/raiseEvent-description.md)] |
 | [updateContext](../../../v2/develop/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
-###Related information
+### Related information
 
 [What's new in Dynamics 365 Channel Integration Framework](../../../whats-new-channel-integration-framework.md)  
 [System requirements of Dynamics 365 Channel Integration Framework 1.0](../../administer/system-requirements-channel-integration-framework.md)  

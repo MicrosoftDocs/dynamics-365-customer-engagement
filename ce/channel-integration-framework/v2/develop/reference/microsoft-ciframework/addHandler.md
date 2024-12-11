@@ -37,7 +37,7 @@ return Promise.resolve();
 Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
 ```
 
-###Related information
+### Related information
 
 [onclicktoact](../events/onclicktoact.md)  
 [onmodechanged](../events/onmodechanged.md)  

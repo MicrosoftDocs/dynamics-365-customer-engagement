@@ -112,7 +112,7 @@ Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-##Related information
+## Related information
 
 [Manage session templates](session-templates-cif.md)  
 [Manage application tab templates](application-tab-templates-cif.md)  

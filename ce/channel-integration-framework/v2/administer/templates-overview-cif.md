@@ -27,7 +27,7 @@ These templates are managed in **Customer Service admin center** > **Agent exper
 > [!WARNING]
 > It is recommended that you don’t edit the out-of-the-box sample templates in the package because it affects the functionality.
 
-##Related information
+## Related information
 
 [Overview of agent experience profiles](../../../customer-service/administer/overview.md)
 [Associate templates with scenarios](associate-templates-cif.md)

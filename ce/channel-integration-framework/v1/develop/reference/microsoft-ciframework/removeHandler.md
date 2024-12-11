@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE[token-removeHandler](../../../../shared/token-removeHandler.md)]
 
 
-###Related information
+### Related information
 
 [onClickToAct](../../../../v2/develop/reference/events/onclicktoact.md)
 
