@@ -175,7 +175,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|OAuth 2.0 implicit flow|
+|192350000|OAuth 2.0 code flow|
 |192350001|OAuth 2.0 code flow|
 |192350002|Gatekeeper Biometric Authentication|
 

@@ -210,7 +210,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Authtoken or connectionstring|
+|Description|Authtoken|
 |DisplayName|Secret|
 |FormatName|Text|
 |IsLocalizable|False|
@@ -226,7 +226,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Secure Authtoken or connectionstring value|
+|Description|Secure Authtoken|
 |DisplayName|Secure Secret value|
 |FormatName|Text|
 |IsLocalizable|False|
