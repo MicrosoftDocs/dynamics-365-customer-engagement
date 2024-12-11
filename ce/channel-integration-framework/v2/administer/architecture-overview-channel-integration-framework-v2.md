@@ -32,7 +32,7 @@ The telephony channel is hosted in the widget that Dynamics 365 Channel Integrat
 The telephony channel is the service that you want to integrate and interact with Power Platform environment using the Dynamics 365 Channel Integration Framework. The capabilities of a channel are specific to the channel provider; Dynamics 365 Channel Integration Framework is agnostic on the working of the channel.
 
 
-## See also
+##Related information
 
 [System requirements of Dynamics 365 Channel Integration Framework](../../v1/administer/system-requirements-channel-integration-framework.md)  
 [Overview of Dynamics 365 Channel Integration Framework](../../v1/administer/overview-channel-integration-framework.md)

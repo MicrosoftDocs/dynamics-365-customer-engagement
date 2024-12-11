@@ -100,7 +100,7 @@ ms.custom: bap-template
 
 9. Select **Finish** to close the tool.
 
-## See also
+##Related information
 
 [Get Dynamics 365 Channel Integration Framework](../../v1/administer/get-channel-integration-framework.md)
 

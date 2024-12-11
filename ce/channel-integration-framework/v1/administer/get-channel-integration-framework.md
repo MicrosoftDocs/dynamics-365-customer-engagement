@@ -31,7 +31,7 @@ Use `https://<orgURL>.dynamics.com/apps` to navigate to the Dynamics 365 Channel
 > [!div class="nextstepaction"]
 > [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 
-### See also
+###Related information
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework 1.0](sample-softphone-integration.md)  
 [Get started with Customer Service workspace](../../../customer-service/implement/csw-overview.md)  

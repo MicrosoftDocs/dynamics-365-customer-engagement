@@ -35,7 +35,7 @@ You need an active subscription to Microsoft Dynamics 365 Customer Service Enter
 
 The domain of the channel URL should use HTTPS protocol.
 
-### See also
+###Related information
 
 [Get Dynamics 365 Channel Integration Framework 2.0](get-channel-integration-framework.md)  
 [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544)  

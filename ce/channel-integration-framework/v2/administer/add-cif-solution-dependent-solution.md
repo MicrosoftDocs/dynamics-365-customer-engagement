@@ -17,7 +17,7 @@ You can export solution files from one organization and import them into another
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../../shared/token-add-cif-solution-dependent-solution.md)]
 
-### See also
+###Related information
 
 [Authenticate channel users to the channel (widget)](../../v1/administer/authenticate-channel-users.md)  
 [Get Dynamics 365 Channel Integration Framework](../../v1/administer/get-channel-integration-framework.md)  

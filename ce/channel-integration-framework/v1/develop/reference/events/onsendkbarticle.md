@@ -17,7 +17,7 @@ ms.custom:
 
 [!INCLUDE[token-onsendkbarticle](../../../../shared/token-onsendkbarticle.md)]
 
-### See also
+###Related information
 
 [addHandler](../microsoft-ciframework/addHandler.md)  
 [removeHandler](../microsoft-ciframework/removeHandler.md)  

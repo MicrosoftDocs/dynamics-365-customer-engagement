@@ -906,7 +906,7 @@ Relationship details provided where the msdyn_applicationtabtemplate entity is t
 
 See msdyn_sessiontemplate Entity [msdyn_sessiontemplate_applicationtab](msdyn_sessiontemplate.md#many-to-many-relationships) Many-To-Many Relationship.
 
-### See also
+###Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../../../../v1/develop/reference/client-side-events.md)

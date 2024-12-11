@@ -148,7 +148,7 @@ The softphone integration [sample code](https://github.com/microsoft/Dynamics365
 
 More information: [Sample code for softphone integration using Dynamics 365 Channel Integration Framework 2.0](sample-softphone-integration-v2.md)
 
-### See also
+###Related information
 
 [Agent experience profiles](../../../customer-service/administer/overview.md)
 [What's new in Dynamics 365 Channel Integration Framework](../../whats-new-channel-integration-framework.md)  

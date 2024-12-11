@@ -50,7 +50,7 @@ Microsoft.CIFramework.notifyKpiBreach(sessionId, shouldReset, details).then(
 	}
 );
 ```
-### See also
+###Related information
 
 [notifyNewActivity API](notifyNewActivity.md)
 

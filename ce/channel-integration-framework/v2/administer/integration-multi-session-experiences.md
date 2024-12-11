@@ -23,7 +23,7 @@ Learn more in:
 - [Agents using Omnichannel for Customer Service app](../../../customer-service/use/omnichannel-customer-service-app-agent.md)  
 - [Customer Service workspace](../../../customer-service/implement/csw-overview.md)
 
-### See also
+###Related information
 
 [Modes and locations for the communication widget](modes-communication-widget.md)  
 

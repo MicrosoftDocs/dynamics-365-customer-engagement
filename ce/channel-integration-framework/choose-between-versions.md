@@ -60,7 +60,7 @@ For information about how to integrate custom messaging channel providers with O
 
 
 
-### See also
+###Related information
 
 [Dynamics 365 Channel Integration Framework 1.0](v1/administer/overview-channel-integration-framework.md)  
 [Dynamics 365 Channel Integration Framework 2.0](v2/administer/overview-channel-integration-framework.md)  

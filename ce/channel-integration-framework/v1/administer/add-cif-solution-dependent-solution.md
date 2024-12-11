@@ -17,7 +17,7 @@ Third-party channel providers can add a Dynamics 365 Channel Integration Framewo
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../../shared/token-add-cif-solution-dependent-solution.md)]
 
-### See also
+###Related information
 
 [Authenticate channel users to the channel (widget)](authenticate-channel-users.md)  
 [Get Dynamics 365 Channel Integration Framework](get-channel-integration-framework.md)  

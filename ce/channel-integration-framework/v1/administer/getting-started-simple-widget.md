@@ -81,7 +81,7 @@ Now, proceed to the next section of this walkthrough that shows how you can sear
 You can check if Channel Integration Framework 1.0 is ready by invoking CIFInitDone event. CIFInitDone event is raised by Channel Integration Framework library after the Channel Integration Framework is loaded. This event determines if the Channel Integration Framework APIs are ready for communication. More information: [Events](../develop/reference/client-side-events.md#events)
 
 
-### See also
+###Related information
 [Search and open records on an incoming conversation](search-open-records-incoming-conversations.md)  
 [Sample code for softphone integration](sample-softphone-integration.md)  
 [Create an ASP.NET Framework web app in Azure](/azure/app-service/app-service-web-get-started-dotnet-framework)  

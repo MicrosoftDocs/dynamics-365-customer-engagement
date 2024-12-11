@@ -122,7 +122,7 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 | [updateConversation](microsoft-ciframework/updateConversation.md) | This method allows you to update a conversation record. |
 
-### See also
+###Related information
 
 [What's new in Dynamics 365 Channel Integration Framework](../../../whats-new-channel-integration-framework.md)  
 [System requirements for Dynamics 365 Channel Integration Framework 2.0](../../administer/system-requirements-channel-integration-framework-v2.md)  

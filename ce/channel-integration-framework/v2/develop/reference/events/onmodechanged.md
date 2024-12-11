@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[token-onmodechanged](../../../../shared/token-onmodechanged.md)]
 
-### See also
+###Related information
 
 [setMode](../../../../v1/develop/reference/microsoft-ciframework/setMode.md)  
 [getMode](../../../../v1/develop/reference/microsoft-ciframework/getMode.md)  

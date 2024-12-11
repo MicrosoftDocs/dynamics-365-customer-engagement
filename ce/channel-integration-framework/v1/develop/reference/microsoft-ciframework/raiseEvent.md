@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 [!INCLUDE[token-raiseEvent](../../../../shared/token-raiseEvent.md)]
 
-### See also
+###Related information
 
 [onClickToAct](../../../../v2/develop/reference/events/onclicktoact.md)  
 [onModeChanged](../../../../v2/develop/reference/events/onmodechanged.md)  

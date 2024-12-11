@@ -38,7 +38,7 @@ The Cloud Channel Provider is the service that you want to integrate and interac
 > [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
 
 
-## See also
+##Related information
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
 

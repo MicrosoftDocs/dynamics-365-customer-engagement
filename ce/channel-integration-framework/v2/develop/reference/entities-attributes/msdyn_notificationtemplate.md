@@ -1004,7 +1004,7 @@ IntersectEntityName: msdyn_notificationtemplate_notificationfield<br />
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
-### See also
+###Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../../../../v1/develop/reference/client-side-events.md)

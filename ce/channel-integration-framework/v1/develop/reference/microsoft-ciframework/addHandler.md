@@ -37,7 +37,7 @@ return Promise.resolve();
 Microsoft.CIFramework.addHandler("onmodechanged", handlerFunction);
 ```
 
-### See also
+###Related information
 
 [onclicktoact](../../../../v2/develop/reference/events/onclicktoact.md)  
 [onmodechanged](../../../../v2/develop/reference/events/onmodechanged.md)  

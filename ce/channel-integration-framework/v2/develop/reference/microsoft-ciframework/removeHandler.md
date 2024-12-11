@@ -30,7 +30,7 @@ Microsoft.CIFramework.removeHandler(eventName, handlerFunction).then(
 );
 ```
 
-### See also
+###Related information
 
 [onClickToAct](../events/onclicktoact.md)  
 [onModeChanged](../events/onmodechanged.md)  

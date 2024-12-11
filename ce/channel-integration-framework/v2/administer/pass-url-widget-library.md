@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[token-pass-url-widget-library](../../shared/token-pass-url-widget-library.md)]
 
-### See also
+###Related information
 
 [Configure a channel provider for your Dynamics 365 organization](configure-channel-provider-app-profile-manager.md)
 
