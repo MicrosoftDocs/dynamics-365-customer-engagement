@@ -1,16 +1,12 @@
 ---
-title: "raiseEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
-description: "Includes reference information such as description, syntax, and parameters for the raiseEvent method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. "
-ms.date: 04/22/2022
+title: raiseEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 
+description: Includes reference information such as description, syntax, and parameters for the raiseEvent method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template 
 ---
 
 # raiseEvent (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0
@@ -19,7 +15,7 @@ ms.custom:
 
 [!INCLUDE[token-raiseEvent](../../../../shared/token-raiseEvent.md)]
 
-### See also
+### Related information
 
 [onClickToAct](../../../../v2/develop/reference/events/onclicktoact.md)  
 [onModeChanged](../../../../v2/develop/reference/events/onmodechanged.md)  

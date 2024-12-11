@@ -59,7 +59,7 @@ searchScope:
 ![Communication widget in the expanded mode.](../../media/widget-expanded-mode.PNG "Communication widget in the expanded mode")
 
 
-### See also
+### Related information
 
 [Enable outbound communication (ClickToAct)](enable-outbound-communication-clicktoact.md)  
 [Microsoft.CIFramework.getEnvironment](../develop/reference/microsoft-ciframework/getEnvironment.md)  

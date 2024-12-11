@@ -885,7 +885,7 @@ IntersectEntityName: msdyn_appconfig_msdyn_channelprovider<br />
 |AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
 
 
-### See also
+### Related information
 
 - [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
 

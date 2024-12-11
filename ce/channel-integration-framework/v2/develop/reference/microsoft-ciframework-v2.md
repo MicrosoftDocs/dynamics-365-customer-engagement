@@ -1,14 +1,12 @@
 ---
 title: Microsoft.CIFramework (JavaScript API Reference) for Channel Integration Framework 2.0
 description: Includes reference information about the Microsoft.CIFramework JavaScript methods for Dynamics 365 Channel Integration Framework 2.0.
-ms.date: 02/07/2024
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template
 ---
 
 # Microsoft.CIFramework methods (JavaScript API reference) for Dynamics 365 Channel Integration Framework 2.0
@@ -100,7 +98,7 @@ Use the following APIs to indicate a key performance indicator (KPI) breach and 
 
 ## Presence APIs
 
-Use these APIs to set and retrieve the Omnichannel agent presence programmatically. You can use these methods when a blended agent is working on a third-party application with omnichannel, and you want to synchronize the presence states between different applications to ensure that agent capacity is optimally utilized.
+Use these APIs to set and retrieve the Omnichannel agent presence programmatically. You can use these methods when a blended agent is working on a non-Microsoft application with omnichannel, and you want to synchronize the presence states between different applications to ensure that agent capacity is optimally utilized.
 
 | Methods | Description |
 |---------|-------------|
@@ -124,7 +122,7 @@ Use these APIs to set and retrieve the Omnichannel agent presence programmatical
 | [updateContext](microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 | [updateConversation](microsoft-ciframework/updateConversation.md) | This method allows you to update a conversation record. |
 
-### See also
+### Related information
 
 [What's new in Dynamics 365 Channel Integration Framework](../../../whats-new-channel-integration-framework.md)  
 [System requirements for Dynamics 365 Channel Integration Framework 2.0](../../administer/system-requirements-channel-integration-framework-v2.md)  
