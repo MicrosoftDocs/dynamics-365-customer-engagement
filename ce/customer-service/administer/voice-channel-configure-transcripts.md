@@ -92,6 +92,7 @@ The maximum file size of a recording can be 512 MB. The data storage cost with t
 - 20-minute call recording = 10240 KB
 - 20-minute call transcript = 40 KB
 
+Learn more about long term data retention with Dataverse at [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
 
 ### Related information
 
