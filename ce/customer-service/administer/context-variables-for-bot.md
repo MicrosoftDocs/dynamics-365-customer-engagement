@@ -58,7 +58,7 @@ The following table contains the list of context variables available in Omnichan
 | |  va_CustomerLocale |  Use this dialog to transfer the user currently talking to the bot to another bot that can speak in a different language.  | Set the code by selecting the input variable and using the correct locale code.|
 
 
-**<sup> 1</sup>** To use other context variables for voice, you will need to get the values from Dataverse directly. For more guidance, please see https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/bot-scenario-configure?source=docs
+**<sup> 1</sup>** To use other context variables for voice, you will need to get the values from Dataverse directly. Learn more in [Configure a sample voice agent template](/dynamics365/contact-center/administer/bot-scenario-configure).
 
 ## Configure context variables for Copilot Studio bot
 
