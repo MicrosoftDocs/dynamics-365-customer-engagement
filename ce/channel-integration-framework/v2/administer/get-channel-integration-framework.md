@@ -24,7 +24,7 @@ More information:
 
 Identify the Dynamics 365 instance for which you want to use the Customer Service workspace or Omnichannel for Customer Service.
 
-### See also
+### Related information
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework 2.0](sample-softphone-integration-v2.md)  
 [Prerequisites and system requirements for Omnichannel for Customer Service](../../../customer-service/implement/system-requirements-omnichannel.md)  

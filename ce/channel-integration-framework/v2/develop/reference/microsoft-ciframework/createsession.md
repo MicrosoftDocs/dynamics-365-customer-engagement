@@ -1,14 +1,12 @@
 ---
-title: "createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes information about createSession method, its syntax, and parameters in Dynamics 365 Channel Integration Framework 2.0 JavaScript API Reference."
-ms.date: 12/06/2023
+title: createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Includes information about createSession method, its syntax, and parameters in Dynamics 365 Channel Integration Framework 2.0 JavaScript API Reference.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template 
 ---
 
 # createSession (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0

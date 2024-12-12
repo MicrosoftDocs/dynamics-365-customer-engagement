@@ -1,17 +1,12 @@
 ---
-title: "searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 | MicrosoftDocs"
-description: "Includes reference information such as description, syntax, and parameters for the searchAndOpenRecords method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. "
-ms.date: 06/06/2023
+title: searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0 
+description: Includes reference information such as description, syntax, and parameters for the searchAndOpenRecords method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 1.0. 
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template 
 ---
 
 # searchAndOpenRecords (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 1.0

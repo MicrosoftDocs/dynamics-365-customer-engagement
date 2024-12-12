@@ -28,7 +28,7 @@ You'll need Dynamics 365 (online) 9.1 and later.
 
 The domain of the channel URL should use HTTPS protocol.
 
-### See also
+### Related information
 
 [Get Dynamics 365 Channel Integration Framework 1.0](get-channel-integration-framework.md)  
 [Get Dynamics 365 Channel Integration Framework 2.0](../../v2/administer/get-channel-integration-framework.md)  
