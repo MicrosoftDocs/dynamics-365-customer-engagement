@@ -51,9 +51,9 @@ Microsoft Dynamics 365 Customer Engagement (on-premises) has a number of capabil
   
   If app users must run reports that exceed these settings, we recommend that you review the following options for assistance with complex reporting needs. Both options effectively offload reporting workloads from Dynamics 365 Customer Engagement to another [!INCLUDE[pn_SQL_Server_short](../includes/pn-sql-server-short.md)] datastore by using a data integration solution.  
   
-- [Adapters](../analytics/reporting-considerations.md#BKMK_ThirdPartyAdapt) are used in conjunction with [!INCLUDE[pn_ms_SQL_Server_Integration_Services_short](../includes/pn-ms-sql-server-integration-services-short.md)] (SSIS) to extend the capabilities for integration with Dynamics 365 Customer Engagement data.  
+- [Adapters](../analytics/reporting-considerations.md#non-microsoft-adapters-for-ssis) are used in conjunction with [!INCLUDE[pn_ms_SQL_Server_Integration_Services_short](../includes/pn-ms-sql-server-integration-services-short.md)] (SSIS) to extend the capabilities for integration with Dynamics 365 Customer Engagement data.  
   
-- Extract transform load [(ETL) tools](../analytics/reporting-considerations.md#BKMK_ETL) provide a new tool set for creating analysis of Dynamics 365 Customer Engagement data by combining multiple data sources or extracting data to the data warehouse solution if SSIS isn't in use. ETL tools provide comprehensive solutions for connecting Dynamics 365 Customer Engagement systems to move data.  
+- Extract transform load [(ETL) tools](../analytics/reporting-considerations.md#etl-tools) provide a new tool set for creating analysis of Dynamics 365 Customer Engagement data by combining multiple data sources or extracting data to the data warehouse solution if SSIS isn't in use. ETL tools provide comprehensive solutions for connecting Dynamics 365 Customer Engagement systems to move data.  
   
 > [!IMPORTANT]
 >  When you use these tools, we recommend you move or synchronize data during nonbusiness hours.
