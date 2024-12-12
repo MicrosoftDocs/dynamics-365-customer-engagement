@@ -26,7 +26,7 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 ## Prerequisites
 
-> For call recording to work, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
+> For the call recording to function, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
 
 ## Enable call recording and transcription for voice
 1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. For more information, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
