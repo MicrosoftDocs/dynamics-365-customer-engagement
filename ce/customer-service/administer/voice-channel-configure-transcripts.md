@@ -24,6 +24,10 @@ As an administrator, you can enable live translation, transcription, and recordi
 > - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 > - If you use Copilot Studio bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
+## Prerequisites
+
+> For call recording to work, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
+
 ## Enable call recording and transcription for voice
 1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. For more information, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
    
@@ -45,21 +49,14 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 1. Select **Save**.
 
-> [!NOTE]
-> For call recording to function properly you must allow the audio/mpeg MIME type for your environment in the Power platform admin center.  Please see [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
-
 ## Enable real-time translation of calls
 
 To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
 
 ## View call transcripts
 
-You can view the call transcripts in Customer Service admin center or Contact Center admin center.
-
-> [!NOTE]
-> You can view call transcripts in Customer Service workspace and Contact Center workspace only. 
-
-
+ You can view call transcripts in Customer Service workspace and Contact Center workspace only. 
+ 
 1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
