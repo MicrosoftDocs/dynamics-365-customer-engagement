@@ -37,9 +37,6 @@ Customer Service workspace allows service representatives to work on multiple se
 - Service representatives can select the hamburger icon to access the site map. 
 - When a service representative opens a page from the site map, the page loads in the current focused session.
 
-> [!NOTE]
-> - Entity records and entity views accessed as **anchor** tabs are included in the **Recent** list in the Customer Service workspace SiteMap. 
-> - Entity records and entity views accessed as **additional** tabs in a session do not appear in the  **Recent** list.
 
 ### Navigate sessions and tabs
 
@@ -54,8 +51,9 @@ Customer Service workspace allows service representatives to work on multiple se
 | Create a new record | Record opens in a new session |
 | Open a record from the timeline | Record opens in a new tab in the focused session |
 | Open a record from a form lookup | Record opens in a new tab in the focused session |
-| Open a view from the Sitemap | View opens in a new tab in the focused session |
-| Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
+| Open a view from the site map | View opens in a new tab in the focused session |
+| Open a dashboard from the site map | Dashboard opens in a new tab in the focused session|
+| Expand Recent in the site map | You can see records and views opened from the anchor tab |x`
 
 ### Session restore (preview)
 
