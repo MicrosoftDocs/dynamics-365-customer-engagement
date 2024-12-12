@@ -28,7 +28,7 @@ search.audienceType:
 
 # Sample: Create a LINQ query with late binding
 
-Download the complete sample from [Sample: Query data using LINQ](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueriesUsingLINQ).
+Download the complete sample from [Sample: Query data using LINQ](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/QueriesUsingLINQ).
 
 [!INCLUDE[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -46,7 +46,7 @@ This sample shows how to create [!INCLUDE[pn_LINQ](../../includes/pn-linq.md)] q
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/QueriesUsingLINQ/LateBoundQuery/SampleProgram.cs)
 
 ### See also
 
