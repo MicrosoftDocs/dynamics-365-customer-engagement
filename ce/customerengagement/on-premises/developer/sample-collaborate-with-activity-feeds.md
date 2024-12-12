@@ -31,7 +31,7 @@ search.audienceType:
 
 # Sample: Collaborate with activity feeds
 
-This sample shows how to create posts with comments and mentions and how to follow records. It also demonstrates how to retrieve information for the personal and record walls. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CollaborateWithActivityFeeds).
+This sample shows how to create posts with comments and mentions and how to follow records. It also demonstrates how to retrieve information for the personal and record walls. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/CollaborateWithActivityFeeds).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
