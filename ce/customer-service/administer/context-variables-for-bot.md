@@ -56,8 +56,9 @@ The following table contains the list of context variables available in Omnichan
 |  | OrganizationPhoneNumber | Use this context variable for the organization's phone number in the Telephony activity.  | Select the Omnichannel for Customer Service extension solution variable. |
 | Extension method name  |  va_SurveyConsent |   Use this dialog to determine if a customer has agreed to participate in surveys during the conversation. |  Use this method to escalate conversation details to Omnichannel for Customer Service.  |
 | |  va_CustomerLocale |  Use this dialog to transfer the user currently talking to the bot to another bot that can speak in a different language.  | Set the code by selecting the input variable and using the correct locale code.|
-[!NOTE]
-**<sup> 1</sup>** To use other context-variables for voice, you will need to get the values from Dataverse directly. For more guidance, please see https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/bot-scenario-configure?source=docs
+
+
+**<sup> 1</sup>** To use other context variables for voice, you will need to get the values from Dataverse directly. For more guidance, please see https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/bot-scenario-configure?source=docs
 
 ## Configure context variables for Copilot Studio bot
 
