@@ -2,7 +2,7 @@
 title: "Work with dashboards and charts in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to use dashboards and charts to see how you're doing with key metrics. Choose from different layouts, drill into data, or create a personal dashboard."
 ms.custom: 
-ms.date: 05/05/2020
+ms.date: 12/12/2024
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
