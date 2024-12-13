@@ -15,18 +15,17 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
-As an administrator, you can enable live translation, transcription, and recording of calls. These options allow agents and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
+As an administrator, you can enable live translation, transcription, and recording of calls. These options allow customer service representatives (service representative or representative) and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
 
 > [!IMPORTANT]
 > - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-> - If you use Copilot Studio bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
+> - If you use Copilot Studio agents as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Prerequisites
 
-> For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
+For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
 
 ## Enable call recording and transcription for voice
 1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. For more information, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
@@ -41,17 +40,17 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, and then select **Transcription** or **Transcription and recording**.
 
-1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
+1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want service representatives to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow agents to control the portions of conversations that they record and transcribe.
+1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representtives to control the portions of conversations that they record and transcribe.
 
-1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the service representative puts the customer on hold and resumed when the representatives takes the customer off hold.
 
 1. Select **Save**.
 
 ## Enable real-time translation of calls
 
-To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for service representative and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
 
 ## View call transcripts
 
