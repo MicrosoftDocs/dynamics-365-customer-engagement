@@ -1,15 +1,12 @@
 ---
-title: "removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes reference information such as description, syntax, and parameters for the removeHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 07/11/2023
+title: removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Includes reference information such as description, syntax, and parameters for the removeHandler method in JavaScript API Reference for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-applies_to: 
-  - "Dynamics 365 for Customer Engagement (online)"
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # removeHandler (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
@@ -33,7 +30,7 @@ Microsoft.CIFramework.removeHandler(eventName, handlerFunction).then(
 );
 ```
 
-### See also
+### Related information
 
 [onClickToAct](../events/onclicktoact.md)  
 [onModeChanged](../events/onmodechanged.md)  

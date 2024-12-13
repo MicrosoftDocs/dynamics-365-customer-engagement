@@ -20,7 +20,7 @@ search.audienceType:
 
 # Sample: Disable a user
 
-This sample shows how to disable and enable a system user account in an online or on-premise/IFD environment. Download the complete sample from [Sample: Disable a User](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DisableOrEnableUser).
+This sample shows how to disable and enable a system user account in an online or on-premise/IFD environment. Download the complete sample from [Sample: Disable a User](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/DisableOrEnableUser).
 
 [!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
 
@@ -44,8 +44,8 @@ To view the summary of the specified system user in Customer Engagement, navigat
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleProgram.cs)  
-[SampleMethod.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/DisableOrEnableUser/DisableOrEnableUser/SampleMethod.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/DisableOrEnableUser/DisableOrEnableUser/SampleProgram.cs)  
+[SampleMethod.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/DisableOrEnableUser/DisableOrEnableUser/SampleMethod.cs)
 
 ### See also
 

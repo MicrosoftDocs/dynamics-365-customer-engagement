@@ -4,7 +4,7 @@ description: Learn about the prerequisites, system requirements, and accessible 
 ms.date: 11/28/2023
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template

@@ -3,7 +3,7 @@ title: Omnichannel Agent Dashboard in Dynamics 365 Contact Center
 description: Learn about the Omnichannel Agent Dashboard that shows work items for agents who use the Customer Service workspace or Contact Center workspace.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
 ms.date: 07/02/2024

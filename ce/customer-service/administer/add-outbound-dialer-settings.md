@@ -3,6 +3,7 @@ title: Enable agents to search for contacts and open records from outbound diale
 description: Enable agents to search for customer contacts or accounts by name, open records from Recents tab in the outbound dialer. 
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
 ms.date: 07/01/2024

@@ -5,6 +5,7 @@ ms.date: 07/01/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Bot dashboard
@@ -154,10 +155,6 @@ Based on your administrator's configuration of the **Add historical analytics fo
    > [!div class="mx-imgBorder"]
    > ![Screenshot of bot transcripts.](../media/oc-transcripts.png "Bot transcript") 
 
- 1. To edit the bot responses to a topic, select **Edit Power Virtual Agents** on the Topics metrics grid. This opens the corresponding Copilot Studio bot. You can modify both the topic name and trigger phrases, and for trigger phrases, you can add more.
-
-  > [!div class="mx-imgBorder"]
-  > ![Screenshot of Copilot Studio bot edit page.](../media/oc-pva-edit.png "Edit page") 
 
  ### Customize bot dashboard
 

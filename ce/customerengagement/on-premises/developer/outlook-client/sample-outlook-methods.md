@@ -20,7 +20,7 @@ search.audienceType:
 
 # Sample: Use Dynamics 365 for Outlook methods
 
-This sample shows how to use the methods available in the [Microsoft.Crm.Outlook.Sdk.dll](/dotnet/api/microsoft.crm.outlook.sdk?view=dataverse-sdk-latest&preserve-view=true) assembly. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/UseOutlookMethods).
+This sample shows how to use the methods available in the [Microsoft.Crm.Outlook.Sdk.dll](/dotnet/api/microsoft.crm.outlook.sdk?view=dataverse-sdk-latest&preserve-view=true) assembly. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/UseOutlookMethods).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 

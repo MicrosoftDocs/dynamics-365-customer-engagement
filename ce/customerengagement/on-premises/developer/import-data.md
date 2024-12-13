@@ -98,7 +98,7 @@ The Dynamics 365 Customer Engagement (on-premises) data import entities are used
 ## Related Sections
 
 [Data Management in Dynamics 365 Customer Engagement (on-premises)](manage-data.md)
-[Sample: Export and Import a Data Map](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ExportImportDataMap)  
-[Sample: Import Data Using Complex Data Map](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ImportComplexDataMap)
+[Sample: Export and Import a Data Map](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ExportImportDataMap)  
+[Sample: Import Data Using Complex Data Map](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ImportComplexDataMap)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

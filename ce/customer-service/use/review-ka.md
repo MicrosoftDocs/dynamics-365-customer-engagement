@@ -3,7 +3,7 @@ title: Review knowledge articles
 description: Learn how to review, and reject or approve knowledge articles. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 09/05/2024
 ms.custom: bap-template
