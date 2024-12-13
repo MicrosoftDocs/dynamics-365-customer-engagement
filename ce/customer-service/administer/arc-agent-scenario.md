@@ -1,6 +1,6 @@
 ---
-title: How the automatic record creation rule works in a service representative scenario
-description: Understand how automatic record creation rules work in service representative scenarios and learn how to customize them.
+title: How the automatic record creation rule works in a customer service representative scenario
+description: Understand how automatic record creation rules work in customer service representative scenarios and learn how to customize them.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that [multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email](arc-multiple-cases.md#how-automatic-record-creation-rules-work-to-create-multiple-cases-from-an-email-sent-to-multiple-mailboxes).
 
-This article lists the various is customer service representatives (service representatives) scenarios and explains how automatic record creation rule works when a service representative does a reply all or reply only to the customer using a case timeline. For example, when an email is sent to multiple mailboxes Q1, Q2, and Q3 and cases get created for each mailbox Case 1, Case 2, and Case 3, a service representative can respond from the timeline of any of the cases (Case 1, Case 2, or Case 3).
+This article lists the various customer service representative (service representative) scenarios and explains how automatic record creation rule works when a service representative does a reply all or reply only to the customer using a case timeline. For example, when an email is sent to multiple mailboxes Q1, Q2, and Q3 and cases get created for each mailbox Case 1, Case 2, and Case 3, a service representative can respond from the timeline of any of the cases (Case 1, Case 2, or Case 3).
 
 Service representatives can also reply or reply all from Inbox or directly from the email by accessing it from the **My Activities** view. When the service representative sends a reply, replies all or forwards an email from any of these entry points, the reply email is related to all cases and records that were related to the original email, unless removed from the related attribute manually.  
 
@@ -41,7 +41,7 @@ If you perform timeline customization, then:
 
 - If Case 2 adds any mailboxes in response to the reply email, duplicate cases are created for those mailboxes.
 
-## service representative selects reply all
+## Service representative selects reply all
 
 When a service representative selects reply all from Case 1's timeline and removes mailbox 3, the replied email gets associated with all the three cases: Case 1, Case 2, and Case 3. If the original email was related to any other entity records like account, the replied email is associated with that account. All these cases and related accounts see duplicate entries of the same email: one with the state as **Sent**, and the other with the state as **Received**.  
 

@@ -85,10 +85,10 @@ However, if you don't want the forwarded email to be associated with the existin
 
 Developers can perform customization to ensure that:
 
-- The reply email isn’t related to the case that originated in the mailbox but was removed from the reply email. More information: [Replies to the original email from Sent items after removing a queue](#replies-to-the-original-email-from-sent-items-after-removing-a-queue)
-- The forwarded email isn't associated with the existing cases that originated in the earlier queues. More information: [Forwards an service representative’s reply email to a new queue from Inbox](#forwards-an-agents-reply-email-to-a-new-queue-from-inbox), [Forwards the original email to a new queue from Sent Items](#forwards-the-original-email-to-a-new-queue-from-sent-items)
+- The reply email isn’t related to the case that originated in the mailbox but was removed from the reply email. Learn more in [Replies to the original email from Sent items after removing a queue](#replies-to-the-original-email-from-sent-items-after-removing-a-queue).
+- The forwarded email isn't associated with the existing cases that originated in the earlier queues. Learn more in [Forwards a service representative’s reply email to a new queue from Inbox](#forwards-an-agents-reply-email-to-a-new-queue-from-inbox) and [Forwards the original email to a new queue from Sent Items](#forwards-the-original-email-to-a-new-queue-from-sent-items).
 
-For detailed instructions on customization, see [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue).
+Learn more about customization in [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue).
 
 ## Related information
 
