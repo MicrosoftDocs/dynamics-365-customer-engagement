@@ -3,7 +3,7 @@ title: Use deep links to the Field Service mobile app
 description: Learn how to configure deep links to the Dynamics 365 Field Service mobile app.
 ms.subservice: field-service-mobile
 ms.topic: how-to
-ms.date: 11/13/2024
+ms.date: 12/13/2024
 author: JonBaker007
 ms.author: jobaker
 ---
