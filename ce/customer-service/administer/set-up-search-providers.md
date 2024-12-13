@@ -37,7 +37,7 @@ You can set up one of the following as a search provider:
 
 In Microsoft Cloud for Sovereignty, the external search providers feature is available for use in Government Community Cloud (GCC) only.
   
-To view search results, your customer service representatives must have access to external content.
+To view search results, your customer service representatives (representatives) must have access to external content.
 
 Use the integrated search provider option to set up third-party knowledge sources, such as enterprise websites that are based on the site map protocol. For more information, see [Manage integrated search providers](add-search-provider.md#manage-integrated-search-providers).
 
