@@ -49,6 +49,18 @@ If you're using **Azure Translation Services** as the translation provider, you 
 
    :::image type="content" source="../media/azure-translation-services.png" alt-text="Screenshot of setting the Azure translation services endpoint to global":::
 
+## Score based language detection system for RTT
+
+We have implemented a score-based language detection system for Real-Time Translation (RTT) that will change the  RTT language based on which language is being used the most heavily and has the highest weight. This will prevent one-off messages from accidentally changing the RTT language unexpectedly.
+1. Download the [sample web resource](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/real-time-translation) (webResourceV2.js) file
+1. The customer should update to the RTT script with changes from the sample webResouce file and set **enableLanguageDetectionWithHistoryMessages** to **true** in the specified code location. This will allow them to use the score to determine the detected RTT language.
+1. Check Pre-requisites to upload the web resource file for real-time translation.
+    
+   :::image type="content" source="../media/score-based-language-detection-system-RTT.png" alt-text="Screenshot of score based language detection system-RTT":::
+
+> [!NOTE]
+> **Scenario for score-based language detection system** : When a customer (C2) communicates in Chinese with an agent(C1), the messages are translated into English, which is the agent's preferred language. Likewise, when the agent responds in English, it is translated into Chinese for the customer. However, if the customer switches to English, the RTT functionality ceases until the customer resumes communication in Chinese. To prevent this situation and ensure the use of the most common language in conversation, please utilize the score-based language detection system by following the steps outlined above.
+
 ### Related information
 
 [Add a web resource for real-time translation](../develop/add-web-resource-real-time-translation.md)  
