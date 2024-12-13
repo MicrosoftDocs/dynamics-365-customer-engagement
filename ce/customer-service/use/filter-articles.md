@@ -70,7 +70,7 @@ Select the up-arrow icon to view the sorting options and select an option from t
 
 ## View auto-filtered results
 
-As a customer service representative, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base. Auto-filtered results option is only available on single session.
+As a representative, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base. Auto-filtered results option is only available on single session.
 
 An administrator or system customizer must configure this option for you. Learn more in [Configure automatic filtering](../administer/add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client).
 
