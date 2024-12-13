@@ -2,7 +2,7 @@
 title: "Export to Excel from Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to export your data to Excel from Dynamics 365 Customer Engagement (on-premises). This page can help you decide which export type will work best."
 ms.custom: 
-ms.date: 05/05/2020
+ms.date: 12/12/2024
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 7505920c-fb5b-4794-acdb-110e307f0ffe
 caps.latest.revision: 41
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 
