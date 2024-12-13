@@ -22,7 +22,7 @@ search.audienceType:
 
 [!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
 
-Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/Workflow).
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/Workflow).
 
 ## Prerequisites
 
@@ -32,7 +32,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -40,7 +40,7 @@ The sample demonstrates how to programmatically execute a workflow using <xref:M
 
 ## Example
 
-[ExecuteWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/ExecuteWorkflow.cs)
+[ExecuteWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/Workflow/Workflow/ExecuteWorkflow.cs)
 
 ### See also
 

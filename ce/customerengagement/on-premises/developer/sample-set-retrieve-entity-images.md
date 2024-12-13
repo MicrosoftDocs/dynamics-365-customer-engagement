@@ -20,7 +20,7 @@ search.audienceType:
 
 # Sample: Set and retrieve entity images
 
-This sample shows how to set and retrieve data for entity images. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SetRetrieveImages).
+This sample shows how to set and retrieve data for entity images. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/SetRetrieveImages).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
