@@ -8,8 +8,8 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3cd98c0b-0599-4d96-8e9a-095e2d528a9c
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -10,10 +10,10 @@ ms.tgt_pltfrm:
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-author: sericks007
+author: shwetamurkute
 ms.assetid: 5768a0f0-21c0-4c7b-9c2a-992c21df406c
 caps.latest.revision: 22
-ms.author: sericks
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

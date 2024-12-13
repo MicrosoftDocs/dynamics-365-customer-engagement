@@ -12,8 +12,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 4d2fe05b-99a4-49b5-a6c9-57d15df30f3b
 caps.latest.revision: 31
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 searchScope: 
