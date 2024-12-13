@@ -2,7 +2,7 @@
 title: "Send bulk email with Dynamics 365 Customer Engagement (on-premises)"
 description: "Send the same message to multiple recipients using email templates. This page walks you through the simple steps for what's known as direct or bulk emailing."
 ms.custom: 
-ms.date: 05/05/2020 
+ms.date: 12/12/2024
 ms.reviewer: 
 
 ms.suite: 
