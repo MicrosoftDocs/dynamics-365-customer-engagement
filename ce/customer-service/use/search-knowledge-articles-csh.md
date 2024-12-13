@@ -189,7 +189,7 @@ In the application, you can search for files, documents, and articles from data 
 In Customer Service Hub:
 
 > [!div class=mx-imgBorder]
-> ![Screenshot of the agent view of search providers in Customer Service Hub.](../media/search-provider-agent.png "Screenshot of the agent view of search providers in Customer Service Hub")
+> ![Screenshot of the representative view of search providers in Customer Service Hub.](../media/search-provider-agent.png "Screenshot of the representative view of search providers in Customer Service Hub")
 
 In Customer Service workspace or Contact Center workspace:
 
@@ -222,7 +222,7 @@ You can perform the following actions on knowledge articles you view in an app t
 - Select **Copy URL** to copy the external URL of the article to share with your customer in channels like chat or email.
 - If your administrator turned on [feedback and ratings for knowledge articles](../../customerengagement/on-premises/customize/enable-entity-feedback.md#enable-an-entity-for-feedback-and-ratings), you can select the thumbs-up or thumbs-down icon to rate how helpful the article was. If you select the thumbs-down icon, a comment box appears, where you can enter the reason for your rating.
 
-    Customer service agents and customer service managers can create or view feedback based on their role and privileges. Unless your administrator allows it, you can create, view, or edit only your own feedback. Customer service managers and knowledge managers can view your feedback.
+    Customer service representatives and customer service managers can create or view feedback based on their role and privileges. Unless your administrator allows it, you can create, view, or edit only your own feedback. Customer service managers and knowledge managers can view your feedback.
 
 ### View the knowledge article in the search control in Customer Service Hub
 
