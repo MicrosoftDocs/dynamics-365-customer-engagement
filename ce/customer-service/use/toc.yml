@@ -294,7 +294,7 @@
           href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
-        - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
+        - name: Chat with case data in Customer Service (preview)
           href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
         items: 
