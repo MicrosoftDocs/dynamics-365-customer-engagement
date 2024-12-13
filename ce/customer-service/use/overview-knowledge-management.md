@@ -91,7 +91,7 @@ When a portal includes a knowledge base, it becomes a customer self-service port
 
 #### Integrate knowledge management with a Copilot Studio bot
 
-As an **administrator**, you can integrate a Copilot Studio agent with knowledge management to make it easier to use customized conversations in your agent. The agent can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+As an **administrator**, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. The bot can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
 
 ### Analyze and report
 
