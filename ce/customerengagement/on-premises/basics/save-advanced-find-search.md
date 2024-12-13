@@ -2,7 +2,7 @@
 title: "Use Advanced Find search in Dynamics 365 Customer Engagement (on-premises)"
 description: "Find the records you want by using Advanced Find. You can also use it to prepare records for export so that you can analyze, summarize, or aggregate data."
 ms.custom: 
-ms.date: 05/05/2020
+ms.date: 12/12/2024
 ms.reviewer: 
 
 ms.suite: 
