@@ -1,7 +1,6 @@
 ---
 title: "Use IFRAME and web resource controls on a form | MicrosoftDocs"
 ms.custom: 
-ms.date: 06/10/2022
 ms.reviewer: pehecke
 description: "Learn how to work with IFRAME and web resources in model-driven apps using JavaScript."
 ms.suite: 

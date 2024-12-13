@@ -2,7 +2,6 @@
 title: "Actions on visualizations (charts) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Using the Dynamics 365 Customer Engagement web services (SDK), you can perform the following actions on the visualization entities."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

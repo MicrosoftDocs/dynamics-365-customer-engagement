@@ -2,7 +2,6 @@
 title: "Sample: Create and update records with related records (early bound) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create and update a record and related records in one call by using the IOrganizationService.Entity) and IOrganizationService. Entity) methods"
 keywords:
-ms.date: 01/08/2020
 
 ms.custom:
 ms.topic: sample

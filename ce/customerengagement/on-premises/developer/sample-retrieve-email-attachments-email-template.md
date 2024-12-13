@@ -2,7 +2,6 @@
 title: "Sample: Retrieve email attachments for an email template (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to retrieve email attachments associated with an email template by using the IOrganizationService.QueryBase) method"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: Interactive experience dashboard in Dynamics 365 Customer Engagement (on-premises)
 description: Learn how to configure an interactive experience dashboard for Microsoft Dynamics 365 for Customer Engagement (online).
 keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for Customer Engagement; Interactive service hub; Customer Service Hub
-ms.date: 05/29/2024
 ms.topic: overview
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

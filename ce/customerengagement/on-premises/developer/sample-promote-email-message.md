@@ -2,7 +2,6 @@
 title: "Sample: Promote an email message | MicrosoftDocs"
 description: "This sample shows how to create an email activity instance from the specified email message in Dynamics 365 Customer Engagement by using the DeliverPromoteEmailRequest message"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

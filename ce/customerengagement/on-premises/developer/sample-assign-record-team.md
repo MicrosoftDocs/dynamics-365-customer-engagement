@@ -2,7 +2,6 @@
 title: "Sample: Assign a record to a team (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to assign a record to a team by using the AssignRequest message. "
 keywords:
-ms.date: 01/08/2020
 
 ms.custom:
 ms.topic: sample

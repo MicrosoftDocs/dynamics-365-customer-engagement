@@ -2,7 +2,6 @@
 title: "Sample: Reschedule and  cancel a recurring appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to reschedule and cancel appointment instances in a recurring appointment series using the RescheduleRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

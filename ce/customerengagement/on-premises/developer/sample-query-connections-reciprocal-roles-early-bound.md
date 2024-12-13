@@ -2,7 +2,6 @@
 title: "Sample: Query connections by reciprocal roles (early bound) | MicrosoftDocs"
 description: "The sample demonstrates how to create matching roles and find a matching for a particular role."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

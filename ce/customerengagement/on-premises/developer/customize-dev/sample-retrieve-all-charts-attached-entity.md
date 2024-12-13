@@ -2,7 +2,6 @@
 title: "Sample: Retrieve all charts attached to an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to retrieve all the organization-owned visualizations attached to an entity by using the IOrganizationService.QueryBase) method. "
 keywords:
-ms.date: 10/31/2017
 
 ms.custom:
 ms.topic: sample

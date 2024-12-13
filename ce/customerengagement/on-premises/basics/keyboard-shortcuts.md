@@ -6,7 +6,6 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 author: shwetamurkute
 ms.author: smurkute
-ms.date: 11/21/2022
 ms.topic: article
 
 ms.assetid: 4424660b-743b-434f-9993-fb64ae4e776a

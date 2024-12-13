@@ -2,7 +2,6 @@
 title: "Customer service reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use customer service insights to better understand how your service team is doing. Learn about reports for case summaries, service activity volume, and more."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

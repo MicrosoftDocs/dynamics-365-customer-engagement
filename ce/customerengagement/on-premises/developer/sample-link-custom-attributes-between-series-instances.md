@@ -2,7 +2,6 @@
 title: "Sample: Link custom attributes between series and instances| MicrosoftDocs"
 description: "Sample demonstrates how to link a custom attribute that is created for a recurring appointment series (RecurringAppointmentMaster) with a custom attribute that is created for the Appointment instances. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
