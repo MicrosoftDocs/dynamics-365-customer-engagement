@@ -2,7 +2,7 @@
 title: "Search for records in Dynamics 365 Customer Engagement (on-premises)"
 description: "You can find records quickly by searching across multiple record types at the same time. This page explains how to start a search and filter the results."
 ms.custom:
-ms.date: 05/05/2020
+ms.date: 12/12/2024
 ms.reviewer: 
 
 ms.suite: 
