@@ -44,7 +44,7 @@ Customer Service workspace allows service representatives to work on multiple se
  The following table gives an overview of the multisession navigation:
 
 | Action | Result |
-| ------------ | ------------- |
+| ------ | ------ |
 | Open a record from the Home session | Record opens in a new session. |
 | Open a record from the Global search | Record opens in a new session. |
 | Open a record from the retrieved search records | Record opens in a focused session. |
