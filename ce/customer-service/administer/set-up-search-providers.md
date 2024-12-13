@@ -63,7 +63,7 @@ Use the integrated search provider option to set up third-party knowledge source
 
 1. Select **Save**.
 
-## Post-configuration agent experience
+## Post-configuration representative experience
 
 After you've configured the search providers, representatives can view links in their search results for each search provider included in their current organization.
 
