@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 11/28/2024
+ms.date: 12/13/2024
 ms.custom: bap-template
 ---
 
@@ -22,7 +22,7 @@ Your customer service representatives rely on data and information from a wide v
 
 Make sure the following prerequisites exist:
 
-- The System Administrator role.
+- The System Administrator and CCI admin roles.
 - A license for Copilot Studio is available. Learn more at:
     - [Manage Copilot Studio messages and capacity](/microsoft-copilot-studio/requirements-messages-management)
     - [View billed sessions](/microsoft-copilot-studio/analytics-billed-sessions)
