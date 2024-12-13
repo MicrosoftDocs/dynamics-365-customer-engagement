@@ -26,14 +26,14 @@ This article explains how you can customize the Power Automate flow to monitor i
 
 Perform the following steps to create a new condition that checks if the incoming email is related to a resolved case.
 
-1.  In the Customer Service admin center, go to the **Automatic record creation and update rules** and then select **Email to case - create new case** to edit the rule.
+1.  In the Customer Service admin center site map, go to the **Automatic record creation and update rules** and then select **Email to case - create new case** to edit the rule.
 
 1. Go to the **Condition builder** tab and complete the following fields in the **Condition** panel.
 
     - **Condition name**: Enter an intuitive name for the condition.
-    - **Condition that must pass to continue**: Select the **+Add** button to add a condition that checks if the incoming email is regarding a case that is in a **Resolved** state. 
+    - **Condition that must pass to continue**: Select **Add** to add a condition that checks if the incoming email is regarding a case that is in a **Resolved** state. 
         - Select the first condition field as **Regarding(Case)** and the function as **Contains data** from the dropdown.
-        - Select the next dropdown after **And node** to add another condition.
+        - Select the next dropdown after And node to add another condition.
         - Select the second condition field as **Status(Case)**, the next field as **Equals**, and the last field as **Resolved**.
 
 1. Go to the **Actions to take** panel and select **Save and open Power Automate**. The Power Automate flow of the second rule item opens.
