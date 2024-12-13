@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/10/2024
+ms.date: 12/13/2024
 ms.custom: bap-template
 ---
 
@@ -27,11 +27,11 @@ The performance of your Copilot is highly correlated to the quality of the knowl
 1. In Copilot Studio, select **Copilot in Dynamics 365 Customer Service**.
 1. On the **Knowledge** page, select **Add knowledge**.
 1. Select from the following knowledge sources:
-    1. [Public website](/microsoft-copilot-studio/knowledge-add-public-website)
-    1. [SharePoint](/microsoft-copilot-studio/knowledge-add-sharepoint)
-    1. [File upload](/microsoft-copilot-studio/knowledge-add-file-upload)
-    1. [Dataverse](/microsoft-copilot-studio/knowledge-add-dataverse)
-    1. [Enterprise data](/microsoft-copilot-studio/knowledge-graph-connections)
+    - [Public website](/microsoft-copilot-studio/knowledge-add-public-website)
+    - [SharePoint](/microsoft-copilot-studio/knowledge-add-sharepoint)
+    - [File upload](/microsoft-copilot-studio/knowledge-add-file-upload)
+    - [Dataverse](/microsoft-copilot-studio/knowledge-add-dataverse)
+    - [Enterprise data](/microsoft-copilot-studio/knowledge-graph-connections)
 1. In Customer Service admin center, select **Save** or **Save and close**.
 1. On the **Publish knowledge sources** dialog that appears, select **Publish**.
 
@@ -42,4 +42,4 @@ If you made any unpublished modifications to the plugins, you see a **Detected u
 
 ## Related information
 
-
+[Knowledge sources overview](/microsoft-copilot-studio/knowledge-copilot-studio)
