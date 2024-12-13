@@ -61,15 +61,9 @@ Perform the following steps to set the right order for the new condition in Powe
 1. On the **Record Creation and Update Rule** page, select **Activate**.
 
 
-## Troubleshoot cases
-[Issue converting an email to a case](../troubleshoot-case-email-issue.md)
-
 
 ## Related information
-
-[Create and manage queues](set-up-queues-manage-activities-cases.md)  
-[Create rules to automatically route cases](create-rules-automatically-route-cases.md)  
-[Automatically create or update records](automatically-create-update-records.md)    
+ 
 [FAQ on activity monitor](arc-faqs.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
