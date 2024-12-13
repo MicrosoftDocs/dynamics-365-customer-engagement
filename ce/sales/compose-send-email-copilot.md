@@ -7,7 +7,7 @@ ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.topic: how-to 
-ms.date: 11/29/2024
+ms.date: 12/13/2024
 ms.custom: bap-template
 ---
 
@@ -16,6 +16,9 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+> [!NOTE]
+> Composing and sending email using Copilot side pane is deprecated in a phased manner. You can use the [Copilot email assist](enable-copilot-email-assist.md) to compose and send emails through the rich text editor. For more information, see [Compose and send email in Copilot side pane](deprecations-sales.md#compose-and-send-email-in-copilot-side-pane).
 
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
@@ -57,7 +60,7 @@ When you're sending an email, you can provide the context for the email in the C
     A draft is generated for the statement. Review the suggested content.  
 
     Do the following according to your needs:  
-    - If the content meets your needs, select **Add to email** to insert it directly into the email body. Also, you can select the copy icon to copy the content and paste it into the email body. If required, edit the content according to your requirements and send the email.  
+    - If the content meets your needs, select **Add to email** to insert it directly into the email body. Also, you can select the copy icon to copy the content and paste it into the email body. If necessary, edit the content according to your requirements and send the email.  
     - If you want to fine-tune the suggested content, select the **Adjust draft** icon. Then, select your desired tone under the **Adjust tone** section and input your preferred statement into the **Add details** textbox. To refine the draft, see [Refine suggested content](#refine-suggested-content).  
     - If you’re not satisfied with the draft and generate new content based on the same statement, select **More options** > **Try again**. More information, see [Refine suggested content](#refine-suggested-content).  
 
@@ -71,7 +74,7 @@ After you’ve generated the suggested content, you can refine the results furth
 
 1. Choose the tone type under **Adjust tone**.  
 
-    The tone type is selected by default based on the statement you entered and it is grayed out. You can choose a different tone type if required. The following tone types are available: **Formal**, **Professional**, and **Friendly**.
+    The tone type is selected by default based on the statement you entered and it's grayed out. You can choose a different tone type if necessary. The following tone types are available: **Formal**, **Professional**, and **Friendly**.
 
 1. Enter a statement to refine the suggested content in the **Add details** textbox. For example: Make it formal, make it shorter, or suggest a meeting next week. 
 

@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 05/24/2024
+ms.date: 12/13/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,6 +19,10 @@ The features that have been deprecated in  Dynamics 365 Sales are listed in this
 
 > [!Important]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Compose and send email in Copilot side pane
+
+Effective January  2025, composing and sending emails in the Copilot side pane will be deprecated. If you have enabled the preview feature, you can continue to use it until the feature is removed. After the feature is removed, you can use the [Copilot email assist](enable-copilot-email-assist.md) to compose and send emails through the rich text editor.  
 
 ## Assistant card templates
 
