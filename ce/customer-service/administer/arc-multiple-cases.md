@@ -1,12 +1,12 @@
 ---
 title: Create multiple cases from an email sent to multiple mailboxes 
-description: Create multiple cases from an email sent to multiple mailboxes to improve agent efficiency and response times.
+description: Create multiple cases from an email sent to multiple mailboxes to improve the efficiency and response times of customer service representatives.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 07/01/2024
+ms.date: 12/13/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -20,13 +20,13 @@ ms.custom:
 
 When an email is sent to multiple mailboxes (To, Cc, or Bcc) that are queue-enabled in Customer Service, the email gets converted to only one case using automatic record creation rules. Sometimes, [multiple cases do get created for an email sent to multiple mailboxes](arc-faqs.md#why-do-multiple-cases-get-created-from-a-single-email) but the email gets associated only to one case and is displayed on one of the case timelines only.
 
-As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, agents can do the following:
+As an administrator, you can enable this feature to ensure that multiple cases (one for each queue-enabled mailbox) are created when multiple mailboxes are added as recipients in the email. With the ability to create multiple cases from an email, customer service representatives (service representatives) can do the following:
 
-- With multiple cases being created, email appears in the timeline for all cases. So, agents can respond to customers’ issues using any case timeline.
+- With multiple cases being created, email appears in the timeline for all cases. So, service representatives can respond to customers’ issues using any case timeline.
 
 - Replies to the original email are linked to the appropriate cases.  
 
-- Agents can see responses from the customer to outbound emails on the case timeline.
+- Service representatives can see responses from the customer to outbound emails on the case timeline.
 
 - When a customer replies to the original email adding a new queue-enabled mailbox or forwards the original email to a new queue-enabled mailbox, a new case is created for that queue.
 
@@ -104,6 +104,6 @@ The following flowchart explains how automatic record creation rules work to cre
 
 [How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
 
-[How the automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How the automatic record creation rule works in an customer service representative scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
 
 [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue)
