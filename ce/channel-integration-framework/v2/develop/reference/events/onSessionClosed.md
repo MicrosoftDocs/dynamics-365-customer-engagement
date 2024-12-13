@@ -15,7 +15,7 @@ ms.custom:
 
 Invoked by the client when a session is closed. This handler will pass the `sessionClosed` message to the widget as an event resulting in the registered widget-side handler, if any, being invoked.
 
-### See also
+### Related information
 
 [setClickToAct](../../../../v1/develop/reference/microsoft-ciframework/setClickToAct.md)<br />
 [addHandler](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)<br />

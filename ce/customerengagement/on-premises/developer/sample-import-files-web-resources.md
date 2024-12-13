@@ -28,7 +28,7 @@ This sample provides a simplified example of this process. For a more complex sa
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ImportWebResources).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ImportWebResources).
 
 ## How to run this sample
 
