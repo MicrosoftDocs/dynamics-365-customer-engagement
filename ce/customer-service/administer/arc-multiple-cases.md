@@ -104,6 +104,6 @@ The following flowchart explains how automatic record creation rules work to cre
 
 [How the automatic record creation rule works in a customer scenario](arc-customer-scenario.md#how-the-automatic-record-creation-rule-works-in-a-customer-scenario)
 
-[How the automatic record creation rule works in a customer service representative scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How the automatic record creation rule works in a service representative scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-a-service-representative-scenario)
 
 [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue)

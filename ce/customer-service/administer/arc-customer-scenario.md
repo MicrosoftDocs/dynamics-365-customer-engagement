@@ -86,7 +86,7 @@ However, if you don't want the forwarded email to be associated with the existin
 Developers can perform customization to ensure that:
 
 - The reply email isn’t related to the case that originated in the mailbox but was removed from the reply email. Learn more in [Replies to the original email from Sent items after removing a queue](#replies-to-the-original-email-from-sent-items-after-removing-a-queue).
-- The forwarded email isn't associated with the existing cases that originated in the earlier queues. Learn more in [Forwards a service representative’s reply email to a new queue from Inbox](#forwards-an-agents-reply-email-to-a-new-queue-from-inbox) and [Forwards the original email to a new queue from Sent Items](#forwards-the-original-email-to-a-new-queue-from-sent-items).
+- The forwarded email isn't associated with the existing cases that originated in the earlier queues. Learn more in [Forwards a service representative’s reply email to a new queue from Inbox](#forwards-a-service-representatives-reply-email-to-a-new-queue-from-inbox) and [Forwards the original email to a new queue from Sent Items](#forwards-the-original-email-to-a-new-queue-from-sent-items).
 
 Learn more about customization in [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue).
 
@@ -96,4 +96,4 @@ Learn more about customization in [Sample - ARC Multi-Related - Remove Unreferen
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
-[How the automatic record creation rule works in a service representative scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How the automatic record creation rule works in a service representative scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-a-service-representative-scenario)
