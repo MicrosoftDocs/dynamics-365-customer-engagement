@@ -15,7 +15,7 @@ ms.reviewer: sdas
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-Integrate knowledge management with a Copilot Studio bot to use customized conversations. Bots help answer questions, perform actions, and solve simple problems. This frees up your agent's time to deal with complex issues that need human intervention.
+Integrate knowledge management with a Copilot Studio bot to use customized conversations. Bots help answer questions, perform actions, and solve simple problems. This frees up your customer service representative's time to deal with complex issues that need human intervention.
 
 Copilot Studio lets you configure bots with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. More information: [Copilot Studio overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents)
 
