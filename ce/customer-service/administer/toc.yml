@@ -222,7 +222,7 @@
           href: arc-multiple-cases.md
         - name: How the automatic record creation rule works in a customer scenario
           href: arc-customer-scenario.md
-        - name: How the automatic record creation rule works in an agent scenario
+        - name: How the automatic record creation rule works in a service representative scenario
           href: arc-agent-scenario.md
         - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
           href: sample-arc-multiple-cases.md

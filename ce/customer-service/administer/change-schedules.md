@@ -1,7 +1,7 @@
 ---
-title: "Manage the impact of changes to customer service or holiday schedules of SLA KPIs (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to manage the impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+title: Manage the impact of changes to customer service or holiday schedules of SLA KPIs.
+description: Learn how to manage the impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service.
+ms.date: 12/13/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -100,7 +100,7 @@ Recommendation:
 
 Modify the existing calendars. This will ensure that all the new cases are created with same SLA, and time calculation is done with the new calendar information. However, the existing running KPI instances won't calculate the warning and failure time based on the new calendar automatically. You'll need to initiate an event for the KPI instance to pick the new calendar.
 
-For example, introduce the pause state and trigger a quick pause, and then resume the update on the case. This will make the KPI instance pick the new calendar information. To initiate a pause and resume, either agents can do a manual update on each case individually, or you can implement a custom logic to update the case during the lowest activity hours.
+For example, introduce the pause state and trigger a quick pause, and then resume the update on the case. This will make the KPI instance pick the new calendar information. To initiate a pause and resume, either customer service representatives can do a manual update on each case individually, or you can implement a custom logic to update the case during the lowest activity hours.
 
 For example, a flow can run during the lowest activity hours with the following logic:
 
