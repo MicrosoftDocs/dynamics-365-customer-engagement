@@ -18,7 +18,7 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 > [!NOTE]
-> Composing and sending email using Copilot side pane is deprecated in a phased manner. You can use the [Copilot email assist](enable-copilot-email-assist.md) to compose and send emails through the rich text editor. For more information, see [Compose and send email in Copilot side pane](deprecations-sales.md#compose-and-send-email-in-copilot-side-pane).
+> Composing and sending email using Copilot side pane is deprecated in a phased manner. You can use the [Copilot email assist](enable-copilot-email-assist.md) to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist). For more information
 
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
