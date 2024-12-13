@@ -2,7 +2,6 @@
 title: "Use synchronization filters in Dynamics 365 Customer Engagement (on-premises)"
 description: "Create or modify online synchronization filters to determine which records are synced between Customer Engagement (on-premises) and Exchange."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

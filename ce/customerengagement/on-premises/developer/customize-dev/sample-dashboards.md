@@ -2,7 +2,6 @@
 title: "Sample dashboards | MicrosoftDocs"
 description: "The topic contains sample dashboards along with the respective FormXML strings. You can specify the FormXML string for a dashboard using the SystemForm.FormXml attribute for an organization-owned dashboard or UserForm.FormXml for a user-owned dashboard. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

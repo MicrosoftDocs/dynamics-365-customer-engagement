@@ -2,7 +2,6 @@
 title: "Use activities in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use activities to keep track of all your customer communications. Learn how to add activities and keep track of notes, tasks, calls, emails, and more."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

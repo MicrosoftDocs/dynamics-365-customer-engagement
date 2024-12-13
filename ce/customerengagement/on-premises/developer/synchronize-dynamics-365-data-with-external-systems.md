@@ -2,7 +2,6 @@
 title: "Synchronize Dynamics 365 Customer Engagement (on-premises) data with external systems (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how to synchronize and integrate Dynamics 365 Customer Engagement (on-premises) data with data that is stored in other systems"
 ms.custom:
-ms.date: 10/01/2019
 author: Jimdaly
 
 ms.suite:

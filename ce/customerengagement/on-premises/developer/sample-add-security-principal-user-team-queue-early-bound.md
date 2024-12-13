@@ -2,7 +2,6 @@
 title: "Sample: Add a security principal (user or team) to a queue (early bound) | MicrosoftDocs"
 description: The sample code demonstrates how to give a user or team access to a queue. The AddPrincipalToQueueRequest adds the specified principal to the list of queue members.
 ms.custom: 
-ms.date: 01/08/2020
 ms.reviewer: pehecke
 
 ms.suite: 

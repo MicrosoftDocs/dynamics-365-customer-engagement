@@ -2,7 +2,6 @@
 title: "Sample: Create, retrieve, update, and delete a recurring appointment | MicrosoftDocs"
 description: "Sample demonstrates how to create, retrieve, update, and delete a recurring appointment series using four common methods."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

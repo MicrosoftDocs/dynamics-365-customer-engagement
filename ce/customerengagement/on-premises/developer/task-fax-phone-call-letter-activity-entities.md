@@ -2,7 +2,6 @@
 title: "Task, fax, phone call, and letter activity entities (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn about entities that enable you to manage core activities that are performed in a relationship management solution"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

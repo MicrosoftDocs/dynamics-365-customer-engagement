@@ -2,7 +2,6 @@
 title: "Sample: Create an email using a template| MicrosoftDocs"
 description: "This sample shows how to instantiate an email record by using the InstantiateTemplateRequest message"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

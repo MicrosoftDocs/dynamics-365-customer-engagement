@@ -3,7 +3,6 @@ title: "Select data map in Dynamics 365 Customer Engagement (on-premises)"
 description: "When importing data, select a map to help you organize your data. Select the default data map or use this page to help you decide which map to use."
 ms.custom: 
 
-ms.date: 05/05/2020
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

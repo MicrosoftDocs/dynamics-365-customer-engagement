@@ -2,7 +2,6 @@
 title: "Product reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use product reports to gain insights into your catalog. Learn about reports that show which products are associated with accounts and individual contacts."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

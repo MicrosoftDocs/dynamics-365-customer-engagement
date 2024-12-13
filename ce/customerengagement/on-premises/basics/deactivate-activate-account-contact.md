@@ -2,7 +2,6 @@
 title: "Deactivate accounts or contacts in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to deactivate an account or contact in Dynamics 365 Customer Engagement (on-premises). You can also reactivate it should the need arise."
 ms.custom: 
-ms.date: 10/11/2020
 ms.reviewer: 
 
 ms.suite: 

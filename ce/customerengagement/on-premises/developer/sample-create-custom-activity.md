@@ -2,7 +2,6 @@
 title: "Sample: Create a custom activity | MicrosoftDocs"
 description: "The following code example demonstrates how to create a custom activity using the CreateEntityRequest and CreateAttributeRequest messages"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

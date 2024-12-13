@@ -2,7 +2,6 @@
 title: "Set regional options in Dynamics 365 Customer Engagement (on-premises)"
 description: "Those with the System Administrator security role or equivalent permissions can customize how numbers, currencies, times, and dates appear to the organization."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

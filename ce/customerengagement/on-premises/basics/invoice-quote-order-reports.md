@@ -2,7 +2,6 @@
 title: "Invoice, quote, and order reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use insight reports to better understand and improve your business. Learn about reports for invoice statuses, quotes, and orders."
 ms.custom: 
-ms.date: 09/15/2018
 ms.reviewer: 
 
 ms.suite: 
