@@ -1,9 +1,9 @@
 ---
-title: "msdyn_authenticationsettings Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_authenticationsettings Entity."
-ms.date: 10/27/2022
-ms.topic: "reference"
-author: "gandhamm"
+title: msdyn_authenticationsettings Entity Reference
+description: Includes schema information and supported messages for the msdyn_authenticationsettings Entity.
+ms.date: 12/13/2024
+ms.topic: reference
+author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ---
@@ -175,11 +175,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Value|Label|
 |-----|-----|
-|192350000|OAuth 2.0 code flow|
+|192350000|OAuth 2.0 implicit flow|
 |192350001|OAuth 2.0 code flow|
 |192350002|Gatekeeper Biometric Authentication|
 
-
+> [!NOTE]
+> Microsoft recommends that you use the most secure authentication flow available. You should only use implicit flows when other more secure flows, such as managed identities, aren't viable.
 
 ### <a name="BKMK_msdyn_authserviceconfigsetid"></a> msdyn_authserviceconfigsetid
 
