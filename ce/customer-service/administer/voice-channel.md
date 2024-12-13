@@ -1,6 +1,6 @@
 ---
 title: Introduction to the voice channel
-description: Enable agents to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
+description: Enable customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -25,7 +25,7 @@ ms.custom:
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides customer service representatives with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost productivity. The application also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
+Enable your customer service representatives (service representative or representative) to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides representatives with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost productivity. The application also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
 ## Why choose the voice channel
 

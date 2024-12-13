@@ -1,0 +1,1 @@
+Copilot Studio bot is being renamed as Copilot agent (agent). Human agent is now renamed as customer service representative (service representative or representative).  You'll come across references to the old and new terms while we update the product UI, documentation, and training content.
