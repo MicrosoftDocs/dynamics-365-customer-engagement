@@ -166,7 +166,7 @@ When you select a particular security role for the channel provider from under t
 No, that isn't supported.
 
 
-### See also
+### Related information
 
 [Overview of Dynamics 365 Channel Integration Framework](v2/administer/overview-channel-integration-framework.md)  
 [What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  

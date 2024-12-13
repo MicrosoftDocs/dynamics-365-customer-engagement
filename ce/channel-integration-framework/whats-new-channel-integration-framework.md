@@ -1,19 +1,17 @@
 ---
 title: What's new in Dynamics 365 Channel Integration Framework
-description: "Read about the new features available in the latest versions of Dynamics 365 Channel Integration Framework."
-ms.date: 01/21/2022
+description: Read about the new features available in the latest versions of Dynamics 365 Channel Integration Framework.
+ms.date: 12/10/2024
 ms.topic: get-started
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template
 ---
 
 # What's new in Dynamics 365 Channel Integration Framework
 
-This topic provides a list of features introduced in Dynamics 365 Channel Integration Framework versions 1.0 and 2.0.
+This article provides a list of features introduced in Dynamics 365 Channel Integration Framework versions 1.0 and 2.0.
 
 ## What's new in Dynamics 365 Channel Integration Framework 2.0
 
@@ -38,7 +36,7 @@ More information:
 
 ### Support for multiple providers
 
-With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. This enables agents to simultaneously work on multiple sessions catering to different customers on different channels (for example, live chat and telephony), where each of these sessions belongs to a different provider.  
+With Dynamics 365 Channel Integration Framework 2.0, organizations can configure multiple providers in the Omnichannel for Customer Service app. Agents can simultaneously work on multiple sessions for different customers across various channels such as live chat and telephony, with each session belonging to a different provider. 
 
 More information: [Support for multiple providers](v2/administer/support-multiple-providers.md)
 
@@ -46,7 +44,7 @@ More information: [Support for multiple providers](v2/administer/support-multipl
 
 The contact center analytics need operational and conversational data to provide historical and real-time insights into the performance of the contact center. To get precise insights into the call center performance, the analysts need data from the following sources: 
 
-- **CRM transactional data**: The data about the customers, their cases, their journey and all round relationship with the organizations. This is stored in Microsoft Dataverse.
+- **CRM transactional data**: The data about the customers, their cases, their journey, and all round relationship with the organizations. The value is stored in Microsoft Dataverse.
 - **Communication Data**: The data about the interactions (intended, ongoing, and completed) with known and unknown customers.
 - **Agent Behavior Data**: The data about the behavior of agents before, during, and after the interactions. 
 
@@ -81,7 +79,7 @@ More information: [Pass a Dynamics 365 URL to a widget library](v1/administer/pa
 
 ### Ability to add another trusted domain
 
-Dynamics 365 Channel Integration Framework allows you to add an additional trusted domain if the initial landing URL and the final domain from which the communication widget is hosted are different. 
+Dynamics 365 Channel Integration Framework allows you to add other trusted domains if the initial landing URL and the final domain from which the communication widget is hosted are different. 
 
 More information: [Configure channel provider in Dynamics 365 Channel Integration Framework](v1/administer/configure-channel-provider-channel-integration-framework.md)
 
@@ -91,7 +89,7 @@ Custom Parameters field takes a text blob as input and [Microsoft.CIFramework.ge
 
 More information: [Configure channel provider in Dynamics 365 Channel Integration Framework](v1/administer/configure-channel-provider-channel-integration-framework.md)
 
-### See also
+### Related information
 
 [Download Dynamics 365 Channel Integration Framework](https://go.microsoft.com/fwlink/p/?linkid=2050102)  
 
