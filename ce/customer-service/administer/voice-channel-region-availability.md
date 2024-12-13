@@ -49,16 +49,16 @@ If you need your data to stay within a region, the following table lists the loc
 |South America |To be announced | To be announced|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
-|United Arab Emirates **<sup>1</sup>**| crm15.dynamics.com | Available |To be announced|
+|United Arab Emirates **<sup>3</sup>**| crm15.dynamics.com | Available |To be announced|
 |South Africa | To be announced | To be announced|To be announced|
 |Norway | To be announced | To be announced|To be announced|
 |Korea | To be announced | To be announced|To be announced|
 |Singapore|To be announced | To be announced|To be announced|
 
 > [!NOTE]
-> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region. There is no BCDR failover for a number of services in UAE.
->
+> **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
 > **<sup> 2</sup>** The geographic location won't have Copilot Studio support.
+> **<sup> 3</sup>** BCDR failover is available for a few services only.
 
 ## Sovereign cloud deployments
 
