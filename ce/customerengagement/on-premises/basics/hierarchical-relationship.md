@@ -2,14 +2,14 @@
 title: "View hierarchies in Dynamics 365 Customer Engagement (on-premises)"
 description: "See how records are related by using hierarchical charts. Select a tile in the chart to get the full details and navigate to the info you’re interested in."
 keywords: hierarchy, relationship
-ms.date: 09/15/2010
+ms.date: 12/12/2024
 
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 972864a7-dc1d-d91c-4003-6056bf312840
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

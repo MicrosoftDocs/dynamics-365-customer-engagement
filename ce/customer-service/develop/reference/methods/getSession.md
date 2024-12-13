@@ -1,11 +1,12 @@
 ---
-title: "getSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getSession API of app profile manager in Customer Service workspace."
+title: getSession method (app profile manager) JavaScript API Reference 
+description: Learn about the getSession API of app profile manager in Customer Service workspace.
+ms.date: 12/10/2024
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 10/01/2021
-ms.topic: reference
+ms.custom: bap-template 
 ---
 
 # getSession (app profile manager)

@@ -20,7 +20,7 @@ search.audienceType:
 
 # Make a report available or unavailable to organization
 
-This sample shows how to make a report available or unavailable to an organization. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/MakeReportAvailableToOrganization).
+This sample shows how to make a report available or unavailable to an organization. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/MakeReportAvailableToOrganization).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
