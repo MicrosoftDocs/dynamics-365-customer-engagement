@@ -14,7 +14,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Manage feedback received for your articles by adding it to your knowledge articles. Update your knowledge articles based on feedback to make the articles more useful for agents.
+Manage feedback received for your articles by adding it to your knowledge articles. Update your knowledge articles based on feedback to make the articles more useful for customer service representatives.
 
 ## Add feedback to an article
 
