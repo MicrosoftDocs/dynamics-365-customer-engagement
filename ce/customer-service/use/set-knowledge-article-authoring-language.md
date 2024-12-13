@@ -38,7 +38,7 @@ Admin settings for KA authoring language (Knowledge settings page)
 |-------------------|-------------------|--------------|
 |Admin        |Language preference at the organization level   |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>   |
 |Knowledge managers        |Language preference at the individual author level     |<li>Set UI language</li><li>Choose a language-locale combination from the lookup</li>    |
-|Agent         |Language preference at the individual knowledge base level      |Override administrative settings and choose a language-locale combination from the lookup</li>   |
+|Representatives       |Language preference at the individual knowledge base level      |Override administrative settings and choose a language-locale combination from the lookup</li>   |
 
 The ability to override follows the hierarchy order at the individual articles, representative or knowledge manager, and then administrator.
 
