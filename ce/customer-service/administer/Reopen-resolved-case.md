@@ -1,6 +1,6 @@
 ---
 title: Reopen a resolved case in Dynamics 365 Customer Service
-description: Learn how to reopen a resolved case instead of creating a new case for an incoming email activity in Dynamics 365 Customer Service.
+description: Learn how to customize the Power Automate flow to monitor incoming emails for a resolved case and then reopen a resolved case.
 author: snehasishlaik 
 ms.author: sdas 
 ms.reviewer: sdas
