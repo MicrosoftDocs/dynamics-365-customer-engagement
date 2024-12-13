@@ -149,7 +149,7 @@ Make sure that you have the System Administrator or System Customizer security r
 
 #### Configure automatic filtering for the web client
 
-Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your service representatives receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the representatives.
+Improve knowledge article suggestions and search results by enabling automatic filtering. Automatic filtering ensures your representatives receive only the most relevant knowledge articles. As an administrator, you can configure Knowledge Base Search control to automatically filter knowledge articles based on case data without any manual input from the representatives.
 
 For example, if you set up automatic filtering of knowledge articles on the subject of the case, the knowledge articles that have the same subject as the case will be filtered in and will be shown to the representatives. Other articles are filtered out automatically. 
 
