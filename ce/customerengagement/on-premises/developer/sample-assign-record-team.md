@@ -25,7 +25,7 @@ search.audienceType:
 
 # Sample: Assign a record to a team
 
-This sample shows how to assign a record to a team by using the [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AssignRecordToTeam).
+This sample shows how to assign a record to a team by using the [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/AssignRecordToTeam).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

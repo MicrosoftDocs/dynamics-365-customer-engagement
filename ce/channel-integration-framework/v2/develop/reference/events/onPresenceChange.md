@@ -34,7 +34,7 @@ handlerFunction = function (eventData) {
                 window.Microsoft.CIFramework.addHandler("onPresenceChange", handlerFunction); 
 ```
 
-### See also
+### Related information
 
 [setClickToAct method](../../../../v1/develop/reference/microsoft-ciframework/setClickToAct.md)  
 [addHandler method](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)  
