@@ -5,6 +5,7 @@ ms.date: 10/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Learn the basics of the Customer Service Hub

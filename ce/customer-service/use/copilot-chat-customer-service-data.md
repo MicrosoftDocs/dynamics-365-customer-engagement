@@ -7,7 +7,7 @@ ms.custom:
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.reviewer:
+ms.reviewer: laalexan
 ms.collection: bap-ai-copilot
 ---
 

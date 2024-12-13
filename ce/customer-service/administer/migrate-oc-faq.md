@@ -3,7 +3,7 @@ title: Omnichannel for Customer Service app deprecation and migration FAQ
 description: Deprecation and migration FAQ for the Omnichannel for Dynamics 365 Customer Service agent-facing app.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms-service: dynamics-365
 ms.topic: conceptual
 ms.date: 02/12/2024

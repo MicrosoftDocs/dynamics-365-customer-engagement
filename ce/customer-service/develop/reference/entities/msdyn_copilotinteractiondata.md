@@ -6,6 +6,7 @@ ms.service: "powerapps"
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 ms.collection: bap-ai-copilot
 search.audienceType: 
   - developer

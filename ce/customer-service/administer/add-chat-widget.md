@@ -4,6 +4,7 @@ description: Perform the steps mentioned in the article to configure a chat widg
 ms.date: 02/29/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ---
 

@@ -5,6 +5,7 @@ ms.date: 09/06/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # Monitor, assign, transfer, and forcibly end conversations
 

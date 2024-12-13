@@ -5,6 +5,7 @@ ms.date: 11/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # System requirements for Customer Service workspace

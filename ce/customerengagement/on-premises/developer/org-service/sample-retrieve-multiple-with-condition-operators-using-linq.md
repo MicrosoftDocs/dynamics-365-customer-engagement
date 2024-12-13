@@ -24,7 +24,7 @@ search.audienceType:
 
 # Sample: Retrieve multiple with condition operators using LINQ
 
-Download the complete sample from [Sample: Query data using LINQ](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/QueriesUsingLINQ).
+Download the complete sample from [Sample: Query data using LINQ](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/QueriesUsingLINQ).
 
 [!INCLUDE[cc-sample-note](../includes/cc-sample-note.md)]
 
@@ -42,7 +42,7 @@ This sample shows how to retrieve multiple condition operators with [!INCLUDE[pn
 
 ## Example
 
-[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/QueriesUsingLINQ/RetrieveMultipleUsingConditions/SampleProgram.cs)
+[SampleProgram.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/QueriesUsingLINQ/RetrieveMultipleUsingConditions/SampleProgram.cs)
 
 ### See also
 

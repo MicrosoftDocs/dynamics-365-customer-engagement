@@ -5,6 +5,7 @@ ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Create quick replies

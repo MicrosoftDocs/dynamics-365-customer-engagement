@@ -5,7 +5,7 @@ ms.date: 05/27/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.collection: get-started
 ms.custom: 
   - template-trial-faq
