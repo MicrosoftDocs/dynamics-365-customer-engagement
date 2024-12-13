@@ -165,7 +165,7 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 1. When you're ready to reactivate the filter, go to the **Filters** page, select the ellipsis next to the value you want to reactivate, and then select **Activate**.
 All of the previous configurations are reinstated.
 
-## Allow agents to personalize their knowledge article search filters
+## Allow representatives to personalize their knowledge article search filters
 
 You may have scenarios within your organization where representatives are working on different areas and don’t all need the same filter settings. For example, an organization may have representatives working on different product areas. One representative might need to see knowledge articles for Product A, while another representative might only want knowledge articles for Product B, and so forth.
 
