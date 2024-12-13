@@ -2,7 +2,7 @@
 title: "Overview of tracking records in Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn how to use Dynamics 365 for Outlook to track email message, contact, task, and appointment records.
 ms.custom:
-ms.date: 01/11/2016
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 
 ms.suite:
@@ -91,7 +91,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
 
 - **Deleting tracked records.** When records are tracked, special rules apply when deleting records. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Deleting records that have been tracked with Dynamics 365 for Outlook](delete-records-that-have-been-tracked.md)
 
-- **Delegating access.** If you’ve delegated access to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] account, the delegate can track items on your behalf. These items won’t synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] until you connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Allow someone else to manage your mail and calendar](https://go.microsoft.com/fwlink/p/?LinkId=201849)
+- **Delegating access.** If you’ve delegated access to your [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] account, the delegate can track items on your behalf. These items won’t synchronize with [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] until you connect to the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] server. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Allow someone else to manage your mail and calendar](https://support.microsoft.com/en-us/office/about-delegates-allow-someone-to-manage-your-mail-and-calendar-in-outlook-41c40c04-3bd1-4d22-963a-28eafec25926)
 
 ### See also  
  [Track Outlook email by moving it to a tracked Exchange folder](track-outlook-email-by-moving-it-tracked-exchange-folder.md)   

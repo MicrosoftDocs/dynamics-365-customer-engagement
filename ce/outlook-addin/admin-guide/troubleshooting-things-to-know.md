@@ -2,7 +2,7 @@
 title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn about troubleshooting common Microsoft Dynamics 365 for Outlook installation and upgrade issues.
 ms.custom:
-ms.date: 09/17/2018
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 
 ms.suite:
@@ -82,9 +82,9 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
  The caller was not authenticated by the service.  
   
 ### Synchronization support for Cached Exchange Mode  
- [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization is not supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  See: [Turn on Cached Exchange Mode](https://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+ [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization is not supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  See: [Turn on Cached Exchange Mode](https://support.microsoft.com/en-us/office/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
- Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](https://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+ Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](https://support.microsoft.com/en-us/office/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
 ### Automatic email tagging off by default  
  This setting is in the Microsoft Dynamics 365 apps Diagnostics tool included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Click **Start** > **All Programs** > **Microsoft Dynamics 365 apps** > **Diagnostics** > **Synchronization Troubleshooting** tab.  
