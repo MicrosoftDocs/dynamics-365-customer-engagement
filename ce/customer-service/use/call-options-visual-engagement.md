@@ -1,7 +1,7 @@
 ---
 title: Call options and visual engagement in live chat
 description: Learn how to use visual engagement, such as co-browse and screen sharing, and elevating a chat conversation to voice and video call.
-ms.date: 02/02/2023
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

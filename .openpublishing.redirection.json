@@ -33256,6 +33256,11 @@
       "source_path": "ce/customer-service/administer/nuance-enroll-customer.md",
       "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/videos.md",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
+      "redirect_document_id": false
     }
 
   ]

@@ -1,7 +1,7 @@
 ---
-title: "View conversation and session forms, and activity types | MicrosoftDocs"
-description: "Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types."
-ms.date: 08/25/2022
+title: View conversation and session forms, and activity types
+description: Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types.
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,19 +16,11 @@ Your organization might have a classification where certain agents work in the c
 
 Select the plus icon in the application tab to view the site map and select **Activities**.
 
-> [!div class=mx-imgBorder]
-> ![Select activities in the site map to view the list of activity types.](../media/oceh-oc-activities.png "Select activities in the site map")
-
 There'll be many activity types, and you need to look for **Conversation** and **Session** types.
-
-> [!div class=mx-imgBorder]
-> ![List of all activity types.](../media/oceh-oc-activities-list.png "List of all activity types")
 
 ### Conversation activity type
 
 The Conversation activity type displays information about a conversation request.
-
-![Omnichannel conversation form.](../media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
 
 > [!Note]
 > The fields listed in the following table only are supported for the Conversation activity type.
@@ -43,8 +35,6 @@ The Conversation activity type displays information about a conversation request
 ### Session activity type
 
 The session activity type displays information about a individual session in a conversation request.
-
-![Omnichannel session form.](../media/oceh-oc-session-form.png "Omnichannel session form")  
 
 > [!Note]
 > The fields listed in the following table only are supported for the Session activity type.

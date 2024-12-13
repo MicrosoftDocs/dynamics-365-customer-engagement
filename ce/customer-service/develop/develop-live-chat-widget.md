@@ -1,7 +1,7 @@
 ---
 title: Develop a custom live chat widget
 description: Learn where to find information about using the Omnichannel Chat SDK and the Omnichannel Live Chat Widget UI Components library to develop a custom live chat widget.
-ms.date: 12/04/2024
+ms.date: 12/13/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

@@ -1,7 +1,7 @@
 ---
 title: Manage sessions in the workspace app
 description: Learn how to start and manage sessions using the session panel in Customer Service workspace.
-ms.date: 12/04/2024
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

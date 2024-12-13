@@ -1,7 +1,7 @@
 ---
 title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
-ms.date: 12/04/2024
+ms.date: 12/13/2024
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
