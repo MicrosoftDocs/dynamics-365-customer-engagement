@@ -170,7 +170,7 @@
       items:
       - name: Overview of case management
         href: overview-cases.md
-      - name: Define status reason transitions for case management
+      - name: Add status reason, status reason transitions to manage cases
         href: define-status-reason-transitions-case-management.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
@@ -222,10 +222,12 @@
           href: arc-multiple-cases.md
         - name: How the automatic record creation rule works in a customer scenario
           href: arc-customer-scenario.md
-        - name: How the automatic record creation rule works in an agent scenario
+        - name: How the automatic record creation rule works in a service representative scenario
           href: arc-agent-scenario.md
         - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
           href: sample-arc-multiple-cases.md
+      - name: Reopen a resolved case
+        href: Reopen-resolved-case.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -422,26 +424,24 @@
         href: cs-voice-historical-analytics.md
       - name: Configure Copilot Studio bots for voice
         href: voice-channel-pva-bots.md
+      - name: Configure a sample voice agent template
+        href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure multilingual IVR bots
+        href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: View voice calls usage
         href: voice-channel-usage.md
-      - name: Configure post-call survey
-        href: voice-channel-survey.md
       - name: Block spam numbers
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Enable voice call experiences
-        href: configure-end-of-call-survey.md
       - name: Delete call recordings
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilingual bot
+      - name: Use bot framework composer to set up a multilingual bot for voice channel
         href: set-up-multilingual-pva-bot.md
-      - name: Set up a multilingual contact center
-        href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
       - name: Integrate Nuance Cloud IVR bot
@@ -548,8 +548,6 @@
         href: manage-context-variables.md
       - name: Configure pre-conversation surveys
         href: configure-pre-chat-survey.md
-      - name: Configure post-conversation surveys
-        href: configure-post-conversation-survey.md
       - name: Identify customers automatically
         href: record-identification-rule.md
       - name: Close conversations automatically
@@ -654,16 +652,28 @@
         href: configure-bot-best-practices.md
       - name: Manage your bots
         href: manage-your-bots.md
-      - name: Configure context variables for bots
-        href: context-variables-for-bot.md
+      - name: Integrate a Copilot Studio bot
+        href: configure-bot-virtual-agent.md
+      - name: Transfer conversations from customer service representatives to agents
+        href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure Azure bots
         items:
         - name: Bot sessions and licensing
           href: bot-session-licensing.md
         - name: Integrate an Azure bot
-          href: configure-bot-azure.md         
-      - name: Integrate a Copilot Studio bot
-        href: configure-bot-virtual-agent.md
+          href: configure-bot-azure.md   
+      - name: Configure context variables for bots
+        href: context-variables-for-bot.md      
+    - name: Feedback surveys
+      items:
+      - name: Configure feedback surveys using Copilot Studio (preview)
+        href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Enable voice call experiences
+        href: configure-end-of-call-survey.md
+      - name: Configure post-call survey
+        href: voice-channel-survey.md
+      - name: Configure post-conversation surveys using Customer Voice
+        href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
       items:
       - name: Use and customize analytics and insights

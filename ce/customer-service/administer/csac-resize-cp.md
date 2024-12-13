@@ -3,7 +3,7 @@ title: Enable resizing of the communication panel
 description: Resize communication panel for channels following the steps in Customer Service admin center. 
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
 ms.date: 07/01/2024

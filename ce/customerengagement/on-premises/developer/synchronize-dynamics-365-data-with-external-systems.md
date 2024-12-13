@@ -58,8 +58,8 @@ You can reduce the complexity involved with data integration scenarios by using 
 
 ## Samples
 
-[Sample: Insert or update a record using Upsert](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/InsertRecordUsingUpsert)<br />
-[Sample: Synchronize data with external systems using change tracking](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/Changetracking)<br />
+[Sample: Insert or update a record using Upsert](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/InsertRecordUsingUpsert)<br />
+[Sample: Synchronize data with external systems using change tracking](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/Changetracking)<br />
 
 ## Related Sections
 

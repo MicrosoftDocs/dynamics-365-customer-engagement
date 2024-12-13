@@ -1,12 +1,12 @@
 ---
 title: Ask a question
 description: Learn how to use the Ask a question feature in Copilot within Customer Service agent apps to enhance efficiency.
-author: Soumyasd27
-ms.author: sdas
-ms.reviewer: Soumyasd27
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: 
 ms.topic: conceptual 
 ms.collection:
-ms.date: 11/04/2024
+ms.date: 12/13/2024
 ms.custom: bap-template 
 ---
 
@@ -27,7 +27,6 @@ When you sign in to any of the Customer Service agent apps, Copilot opens in the
 
 - Make sure that your administrator has turned on the Copilot features.
 - To use the summarize cases feature, [case summaries through ask a question](../administer/enable-ask-summarize-cases.md) (preview) is enabled.
-
 
 ### Draft questions
 
@@ -69,7 +68,7 @@ When you have an active case or conversation open, Copilot suggests prompts base
 Copilot proactively suggests prompts, without you having to type one, that you can use to prioritize cases effectively and solve customer queries quickly.
 
 - You can use the default prompts, such as **Summarize**, **Ask**, and **Discover** to get started with Copilot, with just a single click. For example, you can select the **Summarize** prompt to get a case summary. After you select **Summarize**, enter the case number to view the case details on the help pane, without having to open the case.
-- You can also select **View prompts** which provides the default prompts along with more prompts that you might have created through **Proactive insights**.   
+- You can also select **View prompts** which provides the default prompts on demand at any time.   
 - You can use Copilot to get summaries of multiple cases in the help pane, that help you decide which case to work on first, based on priority and customer needs.
 - When you pick your case or a new conversation to work on, the context of Copilot switches to the particular case and suggests new prompts automatically, without you having to type one. Copilot gathers relevant information and provides you with the information, thereby increasing your efficiency in resolving customer issues.
 
@@ -91,7 +90,9 @@ If your administrator enabled translation, you can select **Translate** and then
 
 If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you're working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
 
-1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. Copilot summarizes the account details of the customer whose case that you opened and displays it.
+1. Open the case that you need to work on and then enter **Get account summary** in the Copilot **Ask a question** pane. If your administrator has configured authentication, the **Authentication needed** message appears on the Copilot screen.
+1. Select **Go to authentication**. The **Sign in or connect** dialog appears.
+1. Select **Continue**. The system authenticates, and Copilot summarizes and displays the account details of the customer whose case you opened.
 1. Select **Check sources**. The plugin that's used for generating the summary is displayed.
 1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
 

@@ -3,7 +3,7 @@ title: Manage session templates
 description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 05/23/2024
 ms.topic: how-to
 ms.custom: bap-template

@@ -3,7 +3,7 @@ title: Apply authentication for search providers
 description: Learn how to apply authentication for search providers.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 08/31/2023
 ms.custom: bap-template

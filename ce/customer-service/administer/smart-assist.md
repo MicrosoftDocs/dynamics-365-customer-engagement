@@ -3,7 +3,7 @@ title: Smart assist for agent efficiency
 description: Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 07/01/2024
 ms.topic: how-to
 ms.custom: bap-template

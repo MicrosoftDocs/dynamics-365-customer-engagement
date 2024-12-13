@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain a lead scoring model
 description: Learn how to edit and retrain a predictive lead scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
-ms.date: 05/11/2023
+ms.date: 12/06/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01

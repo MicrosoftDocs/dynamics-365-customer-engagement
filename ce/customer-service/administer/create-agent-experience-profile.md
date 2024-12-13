@@ -3,6 +3,7 @@ title: "Configure agent experience profiles | MicrosoftDocs"
 description: "Learn how to create and manage agent experience profiles for customized agent experiences."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 07/01/2024
 ms.topic: article
 ---

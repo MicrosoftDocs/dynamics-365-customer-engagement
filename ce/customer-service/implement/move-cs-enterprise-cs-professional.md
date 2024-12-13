@@ -5,6 +5,7 @@ ms.date: 04/05/2021
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Move from Dynamics 365 Customer Service Enterprise to Dynamics 365 Customer Service Professional

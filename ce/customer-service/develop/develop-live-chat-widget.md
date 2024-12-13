@@ -5,7 +5,7 @@ ms.date: 04/25/2023
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - developer

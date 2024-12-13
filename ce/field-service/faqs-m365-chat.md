@@ -1,7 +1,7 @@
 ---
 title: FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: This FAQ provides information about the AI technology used in the Dynamics 365 Field Service Plugin for Microsoft Copilot.
-ms.date: 04/16/2024
+ms.date: 11/12/2024
 ms.custom: 
   - responsible-ai-faqs
 ms.topic: faq
@@ -12,6 +12,9 @@ ms.collection: bap-ai-copilot
 ---
 
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
+
+> [!IMPORTANT]
+> The Dynamics 365 Field Service Plugin for Microsoft Copilot is no longer available after January 15 for users of the Field Service app in Microsoft Teams. For more information, see [Feature deprecations](deprecations-field-service.md).
 
 This FAQ answers questions about the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot and how the plugin helps with work orders.
 
@@ -53,7 +56,7 @@ The feature supports:
 
 ## What are the supported geographies and languages?
 
-This feature is available in English (United States, Great Britain, Australia, Canada, and India).
+[Explore Copilot features by geography and languages](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 ## What operational factors and settings allow for effective and responsible use of the feature?
 

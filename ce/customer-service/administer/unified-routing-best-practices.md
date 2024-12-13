@@ -3,7 +3,7 @@ title: Use best practices to set up unified routing in Customer Service
 description: Use this article to learn about the best practices to set up unified routing in Customer Service and what to do for a successful implementation.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.date: 07/01/2024
 ms.custom: bap-template

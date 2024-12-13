@@ -1,10 +1,11 @@
 ---
-title: "Manage the impact of changes to customer service or holiday schedules of SLA KPIs (Dynamics 365 Customer Service) | MicrosoftDocs"
-description: "Learn how to manage the impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service."
-ms.date: 04/04/2022
+title: Manage the impact of changes to customer service or holiday schedules of SLA KPIs.
+description: Learn how to manage the impact of a change to customer service or holiday schedules in Dynamics 365 Customer Service.
+ms.date: 12/13/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -17,13 +18,13 @@ ms.custom:
 
 ## Introduction
 
-This topic describes how you can manage changes to the customer service and holiday schedules of your existing service-level agreements (SLA) key performance indicators (KPIs).
+This article describes how you can manage changes to the customer service and holiday schedules of your existing service-level agreements (SLA) key performance indicators (KPIs).
 
 ## Understand time calculation of SLA KPIs
 
 To manage changes to the customer service and holiday schedules of your SLA KPIs, you must first understand how time calculation works for SLA KPIs. The time calculation for SLA KPIs depends on the warning and failure time, and the customer service and holiday schedules associated with the SLA KPI item. 
 
-The following is an example of a SLA KPI that describes how time calculation works. The configurations set for the SLA KPI are as follows:
+Here's an example of a SLA KPI that describes how time calculation works. The configurations set for the SLA KPI are as follows:
 - Defined working hours: 9 AM to 5 PM (8 hours daily)
 - Failure duration: 12 hours
 - Holiday calendar: The next day is marked as a holiday.
@@ -39,12 +40,12 @@ Apart from warning and failure time calculation, SLA time calculation also invol
 
 Whenever any SLA KPI instance is created, the warning and failure times are created, depending on the factors described in the [Understand time calculation of SLA KPIs](#understand-time-calculation-of-sla-kpis) section. A change in the calendar working hours won't affect the existing KPI instances.
 
-However, you might have the following scenarios, which will affect the existing KPI instances:
+However, you might have the following scenarios, which affect the existing KPI instances:
 
 - Pausing and resuming the SLA KPI instance.
 - Updating the SLA on the target entity.
 - A change in the SLA item.
-- Reapplying the SLA KPI instance after the terminal state (in case of Recalculation on Terminal State).
+- Reapplying the SLA KPI instance after the terminal state (in Recalculation on Terminal State).
 
 In the above scenarios, the warning time and the failure time of the SLA KPIs are recalculated by using the new customer service schedule and the holiday schedule. However, if you want to change the existing customer service and holiday schedules that are already in use in the existing SLA KPI instances, you can implement the recommendations that are provided in the following section.  
 
@@ -65,7 +66,7 @@ Recommendation:
  
 1. Don't modify the existing SLA and calendar. The existing SLA can continue to remain in an active state in the production environment. Create a similar SLA with a new calendar and the same kind of SLA items.
 
-1. Activate the new SLA and set it as the default. This will ensure that all the new cases are created with the new SLA, and time calculation will be done with the new calendar information. If you aren't using a default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
+1. Activate the new SLA and set it as the default. This ensures that all the new cases are created with the new SLA, and time calculation is done with the new calendar information. If you aren't using a default SLA, update your SLA condition to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
 **Scenario 2**
 
@@ -81,7 +82,7 @@ Recommendation:
 
 1. Don't modify the existing SLAs and calendars. The earlier SLAs can continue to remain in an active state in the production environment. Create similar SLAs with a new calendar and the same kind of SLA items.
 
-1. Activate the new SLAs. This will ensure that all the new cases are created with the new SLA, and time calculation will be done with the new calendar information.
+1. Activate the new SLAs. This ensures that all the new cases are created with the new SLA, and time calculation is done with the new calendar information.
 
 1. Update your SLA conditions to update the SLA ID in the Case entity accordingly. More information: [Apply SLAs](apply-slas.md#apply-slas)
 
@@ -97,9 +98,9 @@ Conditions:
 
 Recommendation:
 
-Modify the existing calendars. This will ensure that all the new cases are created with same SLA, and time calculation is done with the new calendar information. However, the existing running KPI instances won't calculate the warning and failure time based on the new calendar automatically. You'll need to initiate an event for the KPI instance to pick the new calendar.
+Modify the existing calendars, that ensures that all the new cases are created with same SLA, and time calculation is done with the new calendar information. However, the existing running KPI instances won't calculate the warning and failure time based on the new calendar automatically. You need to initiate an event for the KPI instance to pick the new calendar.
 
-For example, introduce the pause state and trigger a quick pause, and then resume the update on the case. This will make the KPI instance pick the new calendar information. To initiate a pause and resume, either agents can do a manual update on each case individually, or you can implement a custom logic to update the case during the lowest activity hours.
+For example, introduce the pause state and trigger a quick pause, and then resume the update on the case. This makes the KPI instance pick the new calendar information. To initiate a pause and resume, either customer service representatives can do a manual update on each case individually, or you can implement a custom logic to update the case during the lowest activity hours.
 
 For example, a flow can run during the lowest activity hours with the following logic:
 
