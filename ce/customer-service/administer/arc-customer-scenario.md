@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/19/2024
+ms.date: 12/13/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -19,7 +19,7 @@ ms.custom:
 
 With automatic record creation, you can create multiple cases from an email sent to multiple mailboxes. As an administrator, you can [enable this feature](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes) to ensure that [multiple cases (one for each queue-enabled mailbox) get created when multiple mailboxes are added as recipients in the email](arc-multiple-cases.md#how-automatic-record-creation-rules-work-to-create-multiple-cases-from-an-email-sent-to-multiple-mailboxes).
 
-This topic lists the various customer scenarios and explains how the automatic record creation rule works when a customer sends a new email, replies to an email, or forwards an agent’s email. The following flowchart explains the customer scenario.
+This topic lists the various customer scenarios and explains how the automatic record creation rule works when a customer sends a new email, replies to an email, or forwards a customer service representative's (service representative) email. The following flowchart explains the customer scenario.
 
 :::image type="content" source="../media/arc_customer-scenario.png" alt-text="Flowchart explaining the customer scenario.":::
 
@@ -47,27 +47,27 @@ Out of the box, the response email, ER1, is related to all cases, Case 1, Case 2
 
 We recommend using [customization](#customization) to ensure that the reply email isn’t related to the case that originated in the mailbox that was removed from the reply email. You’ll need to check for the correlated case that originated in the mailbox that was removed from the reply email, and remove the identified case from the replied email’s related attribute.
 
-### Replies to an agent’s email from Inbox to the same queue  
+### Replies to a service representative’s email from Inbox to the same queue  
 
-When a customer replies from the Inbox to the agent’s outbound email sent from the Case 1 timeline (after removing other mailboxes Q2 and Q3), the automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the agent removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you performed [timeline customization](arc-agent-scenario.md#timeline-customization), the agent’s outbound email sent from the Case 1 timeline is associated with only Case 1, and the C2’s response to the agent’s email is only associated with Case 1.  
+When a customer replies from the Inbox to the service representative’s outbound email sent from the Case 1 timeline (after removing other mailboxes Q2 and Q3), the automatic record creation rule skips the case creation, and the reply gets linked to Case 1 and all the existing cases that originated in Q2 and Q3, unless the service representative removes the cases that originated in the removed mailboxes Q2 and Q3, from the reply email’s related attribute before sending the outbound email to the customer. If you performed [timeline customization](arc-agent-scenario.md#timeline-customization), the service representative’s outbound email sent from the Case 1 timeline is associated with only Case 1, and the C2’s response to the service representative’s email is only associated with Case 1.  
 
-### Replies to an agent’s email from Inbox to a different queue
+### Replies to a service representative’s email from Inbox to a different queue
 
-When a customer replies from the Inbox to the agent’s outbound email sent from the Case 1 timeline, and adds a new queue, a new case gets created for that queue. The reply email is related to the existing cases that originated in the correlated email and the new case.
+When a customer replies from the Inbox to the service representative’s outbound email sent from the Case 1 timeline, and adds a new queue, a new case gets created for that queue. The reply email is related to the existing cases that originated in the correlated email and the new case.
 
-### Replies to an agent’s email with the same queue on a closed case
+### Replies to a service representative’s email with the same queue on a closed case
 
 If the **Wait for specific amount of time after the connected case has been resolved** toggle is set to **Yes** and the time configured in the setting hasn’t elapsed, no case gets created. If the time has elapsed, new cases are created for that queue.
 
 ## Customer forwards an email
 
-### Forwards an agent’s reply email to the same queue from Inbox
+### Forwards a service representative’s reply email to the same queue from Inbox
 
 When a customer forwards an email from their Inbox to the same queues, the response is sent by the customer to the same queue. So, automatic record creation skips case creation.
 
-### Forwards an agent’s reply email to a new queue from Inbox
+### Forwards a service representative’s reply email to a new queue from Inbox
 
-When a customer forwards the agent’s reply mail from the Inbox to a new queue, automatic record creation creates a new case, Case 4, for Q4 (the new queue). Email is tagged to all cases that originated in the old queues and to the new Case 4 that was created.
+When a customer forwards the service representative’s reply mail from the Inbox to a new queue, automatic record creation creates a new case, Case 4, for Q4 (the new queue). Email is tagged to all cases that originated in the old queues and to the new Case 4 that was created.
 
 However, if you don't want the forwarded email to be associated with the existing cases that originated in the earlier queues, you need to perform [customization](#customization).
 
@@ -86,7 +86,7 @@ However, if you don't want the forwarded email to be associated with the existin
 Developers can perform customization to ensure that:
 
 - The reply email isn’t related to the case that originated in the mailbox but was removed from the reply email. More information: [Replies to the original email from Sent items after removing a queue](#replies-to-the-original-email-from-sent-items-after-removing-a-queue)
-- The forwarded email isn't associated with the existing cases that originated in the earlier queues. More information: [Forwards an agent’s reply email to a new queue from Inbox](#forwards-an-agents-reply-email-to-a-new-queue-from-inbox), [Forwards the original email to a new queue from Sent Items](#forwards-the-original-email-to-a-new-queue-from-sent-items)
+- The forwarded email isn't associated with the existing cases that originated in the earlier queues. More information: [Forwards an service representative’s reply email to a new queue from Inbox](#forwards-an-agents-reply-email-to-a-new-queue-from-inbox), [Forwards the original email to a new queue from Sent Items](#forwards-the-original-email-to-a-new-queue-from-sent-items)
 
 For detailed instructions on customization, see [Sample - ARC Multi-Related - Remove Unreferenced Queue](sample-arc-multiple-cases.md#sample---arc-multi-related---remove-unreferenced-queue).
 
@@ -96,4 +96,4 @@ For detailed instructions on customization, see [Sample - ARC Multi-Related - Re
 
 [Enable creation of multiple cases from an email sent to multiple mailboxes](arc-multiple-cases.md#enable-creation-of-multiple-cases-from-an-email-sent-to-multiple-mailboxes)
 
-[How the automatic record creation rule works in an agent scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
+[How the automatic record creation rule works in a service representative scenario](arc-agent-scenario.md#how-the-automatic-record-creation-rule-works-in-an-agent-scenario)
