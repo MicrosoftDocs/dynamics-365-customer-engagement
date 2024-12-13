@@ -18,10 +18,10 @@ This application uses artificial intelligence in productivity tools like Co-pilo
 
 ## Prerequisites
 
-To configure the multisession navigation feature within your Dynamics 365 Customer Service workspace, make sure that the you follow the Customer Service workspace system requirements. Learn more about Customer Service workspace system requirements at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
+To configure the multisession navigation feature, make sure that the you follow the Customer Service workspace system requirements. Learn more at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
 
 > [!NOTE]
-> The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more about the Customer Service workspace at [Get started with Customer Service workspace](../implement/csw-overview.md)
+> The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more in [Get started with Customer Service workspace](../implement/csw-overview.md).
 
 
 ## Application lifecycle management
@@ -48,7 +48,7 @@ Perform the following steps to add the multisession and productivity tools for y
 
 ## Enable multisession navigation
 
-Perform the following steps to enable the multisession navigation feature in the Customer Service workspace.
+Perform the following steps to enable the multisession navigation feature.
 
 1. In the site map of Customer Service admin center, go to **Workspaces**. 
 
