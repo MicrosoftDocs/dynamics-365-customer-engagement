@@ -194,7 +194,7 @@ The most common logical attributes are those which store address information in 
 [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)  
  [Image Attributes](image-attributes.md)  
  [Calculated and Rollup Attributes](calculated-rollup-attributes.md)  
- [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveValidTransitions)  
- [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/SetRetrieveImages)
+ [Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/RetrieveValidTransitions)  
+ [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/SetRetrieveImages)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

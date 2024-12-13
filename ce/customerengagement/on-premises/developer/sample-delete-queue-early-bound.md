@@ -25,7 +25,7 @@ search.audienceType:
 
 This sample shows how to delete a simple queue using the [IOrganizationService.Delete](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.delete?view=dynamics-general-ce-9&preserve-view=true) message.
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DeleteQueue).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/DeleteQueue).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

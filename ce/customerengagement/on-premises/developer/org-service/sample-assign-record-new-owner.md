@@ -30,7 +30,7 @@ This sample shows how to assign an account to another user by using the [IOrgani
 
 This sample uses the `IOrganization.Update` method rather than the [AssignRequest](/dotnet/api/microsoft.crm.sdk.messages.assignrequest?view=dynamics-general-ce-9&preserve-view=true) because there is an effort to remove specialized messages. More information: [Perform specialized operations using update](/powerapps/developer/common-data-service/special-update-operation-behavior)
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AssignRecordToNewOwner).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/AssignRecordToNewOwner).
 
 [!include[cc-sample-note](../includes/cc-sample-note.md)]
 
