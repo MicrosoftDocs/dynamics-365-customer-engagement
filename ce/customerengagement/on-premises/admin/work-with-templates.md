@@ -2,7 +2,6 @@
 title: "Use templates in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use templates to speed up your work and improve consistency. There are templates for articles, emails, campaigns, Excel sheets, Word documents, and more."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Configure Quick Find in Dynamics 365 Customer Engagement (on-premises)"
 description: "Tailor the Quick Find functionality by selecting record return limits, an indexing method, and which entities are included."
 ms.custom: 
-ms.date: 01/11/2024
 ms.reviewer: 
 
 ms.topic: article

@@ -2,7 +2,6 @@
 title: "Sample: Convert an appointment to a recurring appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to convert an appointment to a recurring appointment series by using the AddRecurrenceRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

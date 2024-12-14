@@ -2,7 +2,6 @@
 title: "Image web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using image web resources to make images available for use in Dynamics 365 Customer Engagement (on-premises). "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

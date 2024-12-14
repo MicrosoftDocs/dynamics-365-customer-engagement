@@ -2,7 +2,6 @@
 title: "Sample code directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Listings of sample code topics included in the Customer Engagement SDK."
 keywords: 
-ms.date: 11/16/2017
 
 ms.custom: 
 ms.topic: sample

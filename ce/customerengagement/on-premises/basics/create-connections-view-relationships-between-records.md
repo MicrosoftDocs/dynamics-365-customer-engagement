@@ -2,7 +2,6 @@
 title: "Create connections between records in Dynamics 365 Customer Engagement (on-premises)"
 description: "Connections let you define the relationships between records for many entities. This page explains how to create, view, and deactivate or delete a connection."
 keywords: 
-ms.date: 12/12/2024
 
 ms.topic: article
 applies_to: 

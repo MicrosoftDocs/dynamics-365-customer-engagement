@@ -2,7 +2,6 @@
 title: "Sample: Get report history limit | MicrosoftDocs"
 description: "This sample shows how to get report history limit"
 ms.custom:
-ms.date: 01/28/2020
 ms.reviewer: pehecke
 
 ms.suite:

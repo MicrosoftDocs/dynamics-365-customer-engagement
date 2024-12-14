@@ -2,7 +2,6 @@
 title: "Sample: Validate an appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to validate an appointment using the ValidateRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke 
 ms.topic: sample
 applies_to: 

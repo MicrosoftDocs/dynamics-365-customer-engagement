@@ -1,7 +1,6 @@
 ---
 title: "Organize your team to develop solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This document lists down some strategies to use when multiple developers are working on the same solution"
-ms.date: 08/05/2024
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

@@ -2,7 +2,6 @@
 title: "Sample: Work with solutions (Dynamics 365 Customer Engagement (on-premises) SDK)| MicrosoftDocs"
 description: Learn how to create a publisher, retrieve the default publisher, and more with solutions in this code sample for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
-ms.date: 04/02/2020
 
 ms.custom: 
 ms.topic: sample

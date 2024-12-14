@@ -2,7 +2,6 @@
 title: "Sample: Create a connection role (early bound)| MicrosoftDocs"
 description: "The sample code demonstrates how to create a connection role that are used for accounts and contacts."
 ms.custom: 
-ms.date: 01/02/2020
 ms.reviewer: 
 
 

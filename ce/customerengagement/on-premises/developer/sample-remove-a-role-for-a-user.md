@@ -2,7 +2,6 @@
 title: "Sample: How to remove a role for a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn how to disassociate a role from a user using this code sample for Dynamics 365 Customer Engagement (on-premises).
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:
