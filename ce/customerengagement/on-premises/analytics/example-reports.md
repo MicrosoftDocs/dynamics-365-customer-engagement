@@ -2,7 +2,6 @@
 title: "Example reports for Dynamics 365 Customer Engagement (on-premises)"
 description: "This section provides examples for implementing common techniques in your reports. Limit chart data, display top X values, or make a report content sensitive."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 

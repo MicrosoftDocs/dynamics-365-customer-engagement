@@ -2,7 +2,6 @@
 title: "Sample: Retrieve the roles for an organization (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to retrieve the roles for an organization by using the IOrganizationService.QueryBase) method."
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:

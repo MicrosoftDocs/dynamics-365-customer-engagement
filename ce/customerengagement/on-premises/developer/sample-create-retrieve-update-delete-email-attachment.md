@@ -2,7 +2,6 @@
 title: "Sample: Create, retrieve, update, and delete an email attachment| Microsoft Docs"
 description: "This sample shows how to create, retrieve, update, and delete email attachments using methods such as IOrganizationService.Entity, IOrganizationService.ColumnSet, IOrganizationService.Entity, IOrganizationService.Guid"
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:

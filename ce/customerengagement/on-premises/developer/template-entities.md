@@ -2,7 +2,6 @@
 title: "Template entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about template entities that help you create layout and content in email messages, articles, contracts, mail merge documents, and Microsoft Office documents."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

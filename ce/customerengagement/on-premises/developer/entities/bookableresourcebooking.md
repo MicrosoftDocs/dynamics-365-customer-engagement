@@ -1,7 +1,6 @@
 ---
 title: BookableResourceBooking entity reference (Dynamics 365 Customer Engagement) | Microsoft Docs
 description: Includes schema information and supported messages for the BookableResourceBooking entity.
-ms.date: 01/18/2024
 ms.topic: "reference"
 author: gandhamm
 ms.author: mgandham

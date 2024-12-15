@@ -2,7 +2,6 @@
 title: "Sample: Create a connection (early bound)| MicrosoftDocs"
 description: "The sample demonstrates how to create a connection between an account and a contact that have matching connection roles."
 ms.custom: 
-ms.date: 01/02/2020
 ms.reviewer: 
 
 ms.suite: 

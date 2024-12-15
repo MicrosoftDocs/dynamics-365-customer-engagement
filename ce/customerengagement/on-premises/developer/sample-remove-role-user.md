@@ -2,7 +2,6 @@
 title: "Sample: Remove a role for a user (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample shows how to disassociate a role from a user by using the IOrganizationService.EntityReferenceCollection) method."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

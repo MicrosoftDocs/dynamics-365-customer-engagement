@@ -2,7 +2,6 @@
 title: "Sample: Send an email (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to send an email SendEmailRequest message"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Dynamics 365 Customer Engagement (on-premises) supported configurations | Microsoft Docs"
 description: Learn about the supported configurations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

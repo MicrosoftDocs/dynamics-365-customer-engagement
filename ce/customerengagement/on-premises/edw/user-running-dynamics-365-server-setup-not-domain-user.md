@@ -1,7 +1,6 @@
 ---
 title: "User who is running Microsoft Dynamics 365 Server Setup is not a domain user | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

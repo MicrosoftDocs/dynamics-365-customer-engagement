@@ -172,7 +172,8 @@
       "ms.prod": {
       },
       "ms.date": {
-        "unified-service-desk/**.*": "06/27/2024"
+        "unified-service-desk/**.*": "06/27/2024",
+        "customerengagement/**.*": "12/13/2024"
       },
       "ms.custom": {
         "unified-service-desk/**.*": "evergreen"

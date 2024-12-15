@@ -2,7 +2,6 @@
 title: "Optimize performance in Dynamics 365 Customer Engagement (on-premises)"
 description: "In this overview, find information to help you plan and optimize application performance with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 09/12/2020
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Print records from Dynamics 365 Customer Engagement (on-premises)"
 description: "If you need a paper copy of a record such as a lead, quote, or invoice, this page walks you through the steps to print records individually or as a list."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

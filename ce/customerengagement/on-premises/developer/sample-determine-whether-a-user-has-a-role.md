@@ -2,7 +2,6 @@
 title: "Sample: Determine whether a user has a role| MicrosoftDocs"
 description: Learn how to determine whether a user has been associated with a role in Dataverse with this code sample for Dynamics 365 Customer Engagement (on-premises).
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:

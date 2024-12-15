@@ -3,7 +3,6 @@ title: "A Microsoft Dynamics 365 for Customer Engagement database already exists
 description: Environment diagnostics warning that the database already exists with the same name.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

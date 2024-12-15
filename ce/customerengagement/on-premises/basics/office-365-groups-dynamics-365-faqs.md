@@ -2,7 +2,6 @@
 title: "FAQs for Office 365 Groups in Dynamics 365 Customer Engagement (on-premises)"
 description: "Get answers to frequently asked questions and known issues regarding the use of Office 365 Groups with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

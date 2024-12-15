@@ -2,7 +2,6 @@
 title: "Image attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about image attributes that include image data witht in the application, and supporting attributes, Retrieving image data, and Uploading image data."
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:

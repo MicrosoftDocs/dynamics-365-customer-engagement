@@ -2,7 +2,6 @@
 title: "Export to Excel static worksheet from Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to export data to an Excel static worksheet. Get tips for running this process and working with the Excel sheet after export."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

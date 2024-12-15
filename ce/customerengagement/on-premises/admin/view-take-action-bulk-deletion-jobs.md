@@ -2,7 +2,6 @@
 title: "View and edit bulk delete jobs in Dynamics 365 Customer Engagement (on-premises)"
 description: "View the status of, pause, postpone, resume, cancel, or modify a system job that you created using Bulk Record Deletion."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
