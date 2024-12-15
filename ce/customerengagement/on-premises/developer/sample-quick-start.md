@@ -2,7 +2,6 @@
 title: "Sample: Quick start for Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement (on-premises) and perform basic create, update, retrieve, and delete operations on an entity. "
 ms.custom:
-ms.date: 01/29/2020
 ms.reviewer: pehecke
 
 ms.suite:

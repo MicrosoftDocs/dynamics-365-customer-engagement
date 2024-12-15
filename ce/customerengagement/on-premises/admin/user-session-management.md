@@ -2,7 +2,6 @@
 title: "Manage user sessions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Manage user access and sessions, such as when a session times out, by enabling security enhancements in Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 12/09/2024
 ms.reviewer: 
 
 ms.suite: 

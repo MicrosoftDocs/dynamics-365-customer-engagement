@@ -2,7 +2,6 @@
 title: "Product catalog entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Enables the creation of rich product classification systems that support the definition of: hierarchical structures, product bundles, or related products, multiple pricing or discounting models, automatic price lists, and localized names and descriptions."
 ms.custom: 
-ms.date: 02/28/2023
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

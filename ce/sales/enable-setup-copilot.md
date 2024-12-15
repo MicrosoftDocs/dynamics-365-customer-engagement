@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 11/29/2024
+ms.date: 12/13/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -69,9 +69,8 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 
     The initial setting on the **Set up Copilot in Dynamics 365 Sales** page depends on the setting for the org and the app. For example, if your Power Platform admin turned Copilot on for your org but your Power Apps admin turned it off for the Sales Hub app, the initial setting in the **Set up Copilot in Dynamics 365 Sales** page is set to **Off** for Sales Hub app and **On** for all other Sales apps.
 
-    The **Default** setting applies the [default behavior](#default-setting-copilot) explained at the beginning of this article.
-1. Select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.
-1. Turn on **Email (preview)** to get the [Copilot email experience](compose-send-email-copilot.md). This option is enabled only after you turn on the **Try our newest preview features before they're rolled out to everyone** option.
+    The **Default** setting applies the [default behavior](#default-setting-copilot) explained at the beginning of this article.  
+1. Select **Try our newest preview features before they're rolled out to everyone** to get all the Copilot preview features automatically.  
 1. Select **Save**.
 
 <a name="add-glossary"></a>

@@ -2,7 +2,6 @@
 title: "Operating Dynamics 365 Customer Engagement (on-premises) (on-premises), version 9.x | Microsoft Docs"
 description: Learn how to operate Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 08/31/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

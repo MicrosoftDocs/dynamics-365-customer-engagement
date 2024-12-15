@@ -2,7 +2,6 @@
 title: "Create views with the app designer in Dynamics 365 Customer Engagement (on-premises)"
 description: "Create and edit views using the app designer. This page walks you through the process of adding columns, defining filters, setting sort orders, and more."
 keywords: 
-ms.date: 11/09/2018
 
 ms.custom: 
 ms.topic: article

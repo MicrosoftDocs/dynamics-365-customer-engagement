@@ -2,7 +2,6 @@
 title: "Sample: Release a queue item to the queue (early bound) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: The sample code demonstrates how to use ReleaseToQueueRequest to dissociate a user from a queue item release a queue item back to the queue.
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

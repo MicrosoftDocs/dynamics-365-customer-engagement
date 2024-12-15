@@ -2,7 +2,6 @@
 title: "How data is stored in Dynamics 365 Customer Engagement (on-premises)"
 description: "It's useful to understand a few things about how data is organized in Dynamics 365 Customer Engagement (on-premises.) This page outlines what you need to know."
 ms.custom: 
-ms.date: 09/15/2017
 ms.reviewer: 
 
 ms.suite: 

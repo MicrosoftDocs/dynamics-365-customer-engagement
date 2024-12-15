@@ -2,7 +2,6 @@
 title: "About Entity Reference (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Use this reference to understand the available operations that can be performed for specific entities, the default attributes of each entity and the relationships between entities.(SDK). "
 ms.custom: 
-ms.date: 04/02/2019
 ms.reviewer: pehecke
 
 ms.topic: article

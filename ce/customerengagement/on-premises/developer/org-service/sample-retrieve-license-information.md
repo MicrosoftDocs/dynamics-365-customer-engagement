@@ -2,7 +2,6 @@
 title: "Sample: Retrieve license information (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to use the IDeploymentService.RetrieveDeploymentLicenseTypeRequest message and the IOrganizationService.RetrieveLicenseInfoRequest message to retrieve information about licenses"
 keywords:
-ms.date: 01/08/2020
 
 ms.custom:
 ms.topic: sample

@@ -33058,6 +33058,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/mobile/troubleshooting-mobile-newux.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/mobile-powerapp-copy-app-module.md",
       "redirect_url": "/dynamics365/field-service/mobile/custom-app-module-mobile",
       "redirect_document_id": false

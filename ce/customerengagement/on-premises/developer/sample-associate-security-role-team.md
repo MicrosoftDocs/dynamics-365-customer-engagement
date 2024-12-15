@@ -2,7 +2,6 @@
 title: "Sample: Associate a security role to a team | MicrosoftDocs"
 description: "The sample shows how to assign a security role to a team by using the AssignRequest message."
 ms.custom:
-ms.date: 01/08/2020
 ms.reviewer: pehecke
 
 ms.suite:

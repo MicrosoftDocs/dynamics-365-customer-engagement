@@ -3,7 +3,6 @@ title: "Setup cannot verify that the SQL Server Full-Text Search Service is runn
 description: Environment diagnostics warning that Setup can't verify the Full-Text Search Service
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

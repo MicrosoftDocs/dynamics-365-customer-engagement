@@ -2,7 +2,6 @@
 title: "Email processing errors in Dynamics 365 Customer Engagement (on-premises)"
 description: "This page helps you distinguish between the different types of email processing errors, and explains how to view and take action on alerts."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
