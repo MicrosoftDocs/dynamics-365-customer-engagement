@@ -2,7 +2,7 @@
 title: "Common issues and resolutions for Dynamics 365 for phones and tablets | MicrosoftDocs"
 ms.custom:
 description: Troubleshoot and issues to know about Dynamics 365 for phones and tablets.
-ms.date: 13/12/2024
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite:
