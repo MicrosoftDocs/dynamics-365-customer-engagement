@@ -23,7 +23,7 @@ You can view the following details on the case handling time widget:```
  
 You can also do these actions on the case handling time widget:
 
-- View the profiles of all the customer service representatives who worked on the case. This includes representatives whose time was automatically recorded or manually logged, and representatives who worked on associated tasks activities such as phone calls, tasks, or emails.
+- View the profiles of all the customer service representatives (service representatives or representatives) who worked on the case. This includes representatives whose time was automatically recorded or manually logged, and representatives who worked on associated tasks activities such as phone calls, tasks, or emails.
 - Turn on the **My time** toggle to see your time only on the case. The timer changes into a ticker that shows your active time in hours, minutes, and seconds as applicable. A visual indicator shows that your time is tracked in real time. 
  > [!NOTE]
  > You can view the **My time** toggle only if your administrator has enabled it in Power Apps. If it doesn't appear, **Total Time** displays only the time you've spent on the case.
