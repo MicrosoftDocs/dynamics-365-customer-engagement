@@ -32,7 +32,7 @@ If you have an existing voice channel deployment, make sure you migrate your exi
 
 1. Create and set up an Event Grid subscription for incoming calls. For more information, refer to [Enable call incoming calls, call recording, and SMS services](voice-channel-configure-services.md).
 1. [Update the event subscription in Azure](/azure/communication-services/quickstarts/events/subscribe-to-events?pivots=platform-azp#update-event-subscription) for recording webhook. Copy the value in the **Recording Web Hook Endpoint** field in the **Customer Service admin center** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services (Preview)** and paste it in the **Endpoint** field.
-1. Create a [Copilot agent](/microsoft-copilot-studio/voice-build-from-template). When you migrate to the enhanced voice experience, your phone numbers are updated. The existing classic voice agents aren't supported for the updated workstreams. We recommend that you update and rename your new Copilot bots similar to your previous agents. For example, if your classic voice agent is named as "Returns bot", rename your voice enabled Copilot as "Returns Bot-new".
+1. Create a [Copilot agent](/microsoft-copilot-studio/voice-build-from-template). When you migrate to the enhanced voice experience, your phone numbers are updated. The existing classic voice agents aren't supported for the updated workstreams. We recommend that you update and rename your new Copilot agents similar to your previous agents. For example, if your classic voice agent is named as "Returns bot", rename your voice enabled Copilot as "Returns Bot-new".
 1. Run the voice update.
 1. Test the voice update.
 
