@@ -125,7 +125,7 @@ Cost calculation:
 
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325 + applicable Teams charges
 
-## Outbound: A customer service representative calls a customer
+## Outbound: A service representative calls a customer
 
 Matias, the contact center service representative, makes an outbound call from Omnichannel for Customer Service to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
 
