@@ -815,7 +815,7 @@ Each Many-To-One relationship is defined by a corresponding One-To-Many relation
 
 See msdyn_applicationtabtemplate Entity [msdyn_applicationtabtemplate_templateparameter](msdyn_applicationtabtemplate.md#one-to-many-relationships) One-To-Many relationship.
 
-### See also
+### Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../../../../v1/develop/reference/client-side-events.md)

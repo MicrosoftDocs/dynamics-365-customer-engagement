@@ -2,7 +2,6 @@
 title: "Run reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Reports help you manage your progress towards your goals by helping you see how you're doing. Follow these steps to run a report."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d691493b-2e39-4a89-9952-1500a8ddafd2
 caps.latest.revision: 41
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

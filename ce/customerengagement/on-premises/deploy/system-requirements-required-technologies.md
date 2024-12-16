@@ -2,7 +2,6 @@
 title: "Dynamics 365 Customer Engagement (on-premises) system requirements and required technologies | Microsoft Docs"
 description: Learn about the system requirements for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "04/12/2019"
 
 ms.reviewer: ""
 ms.suite: ""

@@ -1,14 +1,12 @@
 ---
-title: "Dynamics 365 Channel Integration Framework guide | MicrosoftDocs"
-description: "Use this topic for getting started with Dynamics 365 Channel Integration Framework. Includes download links and Javascript reference."
+title: Dynamics 365 Channel Integration Framework guide 
+description: Use this topic for getting started with Dynamics 365 Channel Integration Framework. Includes download links and Javascript reference.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 01/21/2022
+ms.date: 12/10/2024
 ms.topic: article
 ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
 ---
 
 # Dynamics 365 Channel Integration Framework guide
@@ -129,13 +127,11 @@ ms.custom:
 
 </table>
 
-<h2>Related apps & framework</h2>
+## Related apps & framework
 
-<a href="/dynamics365/customer-service/help-hub" data-raw-source="[Customer Service Hub Help](../customer-service/help-hub.md)">Customer Service Hub Help</a>
-
-<a href="/dynamics365/omnichannel/omnichannel-customer-service-guide" data-raw-source="[Omnichannel for Customer Service Guide](../customer-service/implement/introduction-omnichannel.md)">Omnichannel for Customer Service Guide</a>
-
-<a href="/dynamics365/unified-service-desk/unified-service-desk" data-raw-source="[Unified Service Desk Guide](../unified-service-desk/unified-service-desk.md)">Unified Service Desk Guide</a>
+[Customer Service Hub Help](/dynamics365/customer-service/help-hub)  
+[Omnichannel for Customer Service Guide](/dynamics365/omnichannel/omnichannel-customer-service-guide)   
+[Unified Service Desk Guide](/dynamics365/unified-service-desk/unified-service-desk)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
