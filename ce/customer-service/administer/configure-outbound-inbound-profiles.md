@@ -49,7 +49,7 @@ Make sure that the following prerequisites are in place:
    - **Language**: Accept the default language as **English - United States** or select a language from the list.
    - **Hold music**: Select a music file to play when the call is on hold.
    - **Wait music**: Select a music file to play when the call is in waiting.
-   - **Call transfer to external phone number**: Set the toggle to **On** if you want the representatives to transfer the call to a phone number outside of your organization.
+   - **Call transfer to external phone number**: Set the toggle to **On** if you want the representative to transfer the call to a phone number outside of your organization.
    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representative to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
    - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
      - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.
