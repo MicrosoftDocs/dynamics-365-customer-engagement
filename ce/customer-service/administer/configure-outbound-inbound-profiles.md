@@ -17,7 +17,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-Use the information in this article to create profiles that are used for direct inward dialing to specific customer service representatives (service representative or representative) and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that are used for direct inward dialing to specific customer service representatives (service representatives or representatives) and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
 Inbound profiles enable direct inward dialing to individual service representatives, and they differ from workstreams that are used to define how inbound calls are routed and assigned to service representatives via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to service representatives aren't tracked in unified routing historical analytics.
 
