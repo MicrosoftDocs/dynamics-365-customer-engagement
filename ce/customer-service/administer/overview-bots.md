@@ -17,7 +17,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service customer service representative (service representative or representative) to work further on the issue raised by the customer.  
+A bot is a program that provides automated responses in a conversational manner to a customer. It can also help resolve customer queries by using case deflection. A bot can also collect basic information from a customer and then provide it to a customer service representative (service representative or representative) to work further on the issue raised by the customer.  
 
 A bot eases the load on your customer service service representatives by handling basic queries. This saves your representatives' time so they can work on more complex issues. You can configure your bots to escalate a query to a human representative as required, or when requested by the customer.
 
