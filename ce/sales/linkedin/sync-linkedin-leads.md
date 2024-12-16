@@ -1,7 +1,7 @@
 ---
 title: Sync LinkedIn leads
 description: Learn how to set up the Dynamics 365 Connector for LinkedIn Lead Gen Forms to sync leads from sponsored LinkedIn campaigns to your Dynamics 365 apps.
-ms.date: 12/09/2024
+ms.date: 12/13/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
@@ -20,7 +20,7 @@ applies_to:
 # Sync LinkedIn leads
 
 > [!NOTE]
-> LinkedIn lead generation capabilities will be removed on December 2, 2024. You can however, develop your own custom integration for LinkedIn lead generation. Learn more about this customization in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).
+> LinkedIn lead generation capabilities have been removed. You can however, develop your own custom integration for LinkedIn lead generation. Learn more about this customization in the [LinkedIn Lead Sync Integration blog post](https://community.dynamics.com/blogs/post/?postid=fb6ed89f-67a1-ef11-8a69-7c1e520b1f9b).
 
 [!include[Dynamics 365 Connector for LinkedIn Lead Gen Forms](../../includes/cc-linkedin-solution.md)] enables seamless synchronization of [!include[LinkedIn](../../includes/pn-linkedin.md)] leads to Dynamics 365 sales apps. [!include[LinkedIn](../../includes/pn-linkedin.md)] members can drive leads from [Sponsored Content](https://business.linkedin.com/marketing-solutions/native-advertising) campaigns, based on a variety of calls to action. The [!include[LinkedIn Connector](../../includes/pn-linkedin-solution-shortest.md)] lets campaign managers sync the leads from [LinkedIn's Lead Gen forms](https://business.linkedin.com/marketing-solutions/native-advertising/lead-gen-ads) to a Dynamics 365 instance for further nurturing. If a lead is already known in a Dynamics 365 app, the data for that lead will be updated by using the information provided from [!include[LinkedIn](../../includes/pn-linkedin.md)]; otherwise, a new lead record is created.
 
