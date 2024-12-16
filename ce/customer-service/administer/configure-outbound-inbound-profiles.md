@@ -88,7 +88,7 @@ You can define how representatives use the outbound calls and which representati
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
     - **Call transfer to external phone number**: Set the toggle to **On** if you want the representative to transfer the call to a phone number outside of your organization.
-    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representatives to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
+    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representative to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
     - **Transcription and recording**: Select **None**, **Transcription only**, or **Transcription and recording**, based on your business scenarios and requirements. As an administrator, you may want to set the value to **None** for business transactions like customer billing where you don't want to record financial data.
     - **Start setting**: Indicates whether you want to start transcription and/or recording when the call begins. The default value is **Automatic**, which means transcription and recording will automatically begin at the start of the conversation.
     - **Allow agents to pause and resume**: Indicates whether you want to allow your representatives to pause and resume call transcription and recording. The default value is **Yes** which means that your representatives can choose when to pause or resume call transcription and recording in the conversation panel.
