@@ -1,7 +1,7 @@
 ---
-title: "Search for transcripts in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn how to search for transcripts and view transcript details in Omnichannel for Customer Service."
-ms.date: 08/02/2023
+title: Search for transcripts in Omnichannel for Customer Service
+description: Learn how to search for transcripts and view transcript details for a conversation.
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -16,9 +16,9 @@ As an agent, you communicate with customers to resolve issues. All those convers
 
 ## Search details in transcripts
 
-1. Sign in to the application.
+1. Sign in to the Contact Center workspace or Customer Service workspace app.
 
-2. Select **Search** in the nav bar. The **Search** tab opens in the application tab panel.
+2. Select **Search** in the navigation bar. The **Search** tab opens in the application tab panel.
 
 3. Type a phrase in the search box, and then select the search icon. The results appears as a list.
 
