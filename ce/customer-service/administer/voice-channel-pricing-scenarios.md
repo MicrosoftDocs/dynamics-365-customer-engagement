@@ -22,12 +22,12 @@ The Dynamics 365 Customer Service voice channel is built on Azure Communication 
 
 [Several call flows are possible](https://go.microsoft.com/fwlink/p/?LinkId=866544). This article describes pricing calculations for the following call scenarios:
 
-- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a customer service representative](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-customer-service-representative-from-an-ivr-agent)
+- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a customer service representative](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-representative-from-an-ivr-agent)
 - [Inbound: A customer calls from Microsoft Teams](#inbound-a-customer-calls-from-microsoft-teams)
 - [Inbound: A customer calls from Teams; a supervisor joins the call to monitor the conversation](#inbound-a-customer-calls-from-teams-a-supervisor-joins-the-call-to-monitor-the-conversation)
 - [Inbound: A customer calls from a mobile device; the supervisor is invited to consult](#inbound-a-customer-calls-from-a-mobile-device-the-supervisor-is-invited-to-consult)
 - [Inbound: A customer calls from Teams; the call is transferred to a service representative through Teams PSTN](#inbound-a-customer-calls-from-teams-the-call-is-transferred-to-a-service-representative-through-teams-pstn)
-- [Outbound: A service representative calls a customer](#outbound-a-customer-service-representative-calls-a-customer)
+- [Outbound: A service representative calls a customer](#outbound-a-service-representative-calls-a-customer)
 - [Inbound: Azure direct routing](#inbound-azure-direct-routing)
 - [Outbound: Azure direct routing](#outbound-azure-direct-routing)
 
