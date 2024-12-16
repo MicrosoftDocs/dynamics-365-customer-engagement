@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enhanced case management in multisession apps
 
-The Customer Service workspace offers an enhanced case management experience. Customer service representatives can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
+The Customer Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
 
 ## Create cases by using a quick create from
 
