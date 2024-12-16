@@ -17,7 +17,7 @@ This article provides answers to frequently asked questions about managing cases
 
 ### How can I create a case when the contact isn't linked to the customer organization?
 
-Out of the box, customer service representatives can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts to be linked with the case. 
+Out of the box, customer service representatives (service representatives or representatives) can't create a case because the contact isn't associated with the customer organization. However, you can [customize case forms and remove the validation on contact](remove-validation-contacts.md) and allow unrelated contacts to be linked with the case. 
 
 ### Why can I use only few columns to search in the Case view?
 
@@ -29,7 +29,7 @@ If the role assigned to representatives is missing security privileges, permissi
 
 Principal user (Id= \<GUID>, type=8, roleCount=5, privilegeCount=465, accessMode=0), is missing prvReadincident privilege (Id=\<GUID>) on OTC=112 for entity 'incident'. context.Caller=\<GUID>
 
-To resolve the error, ensure that role assigned to the representative has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box Customer Service Representative role before you create custom roles or modify permissions of roles assigned to representatives. More information: [Roles and personas](role-persona-mapping.md)
+To resolve the error, ensure that role assigned to the representative has read access to the case entity. More information, see: [Security roles and privileges](/power-platform/admin/security-roles-privileges). You can also refer to the out-of-the-box Representative role before you create custom roles or modify permissions of roles assigned to representatives. More information: [Roles and personas](role-persona-mapping.md)
 
 ### Why do I see a warning when I add and save case attributes that a child case must inherit from the parent case?
 
