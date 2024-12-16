@@ -2,7 +2,6 @@
 title: "Sample: Create a LINQ query with late binding (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create .NET Language-Integrated Query (LINQ) queries using late-bound entities"
 ms.custom:
-ms.date: 02/05/2020
 ms.reviewer: pehecke
 
 ms.suite:

@@ -2,7 +2,6 @@
 title: "Create security role in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to create a new security role within Dynamics 365 Customer Engagement (on-premises). You can also edit the privileges of an existing role."
 ms.custom: 
-ms.date: 10/12/2022
 ms.reviewer: 
 
 ms.suite: 

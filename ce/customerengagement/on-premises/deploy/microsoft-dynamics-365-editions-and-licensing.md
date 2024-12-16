@@ -2,7 +2,6 @@
 title: "Dynamics 365 Customer Engagement (on-premises) editions and licensing | Microsoft Docs"
 description: Find information about the editions and licensing with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/17/2019"
 
 ms.reviewer: ""
 ms.suite: ""

@@ -2,7 +2,6 @@
 title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
 description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
-ms.date: 12/03/2024
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -2,7 +2,6 @@
 title: "Sample: Share a record using an access team (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to allow access to a record using an access team. All members of the team receive the same access to the record as is granted to the team."
 keywords: 
-ms.date: 01/08/2020
 
 ms.custom: 
 ms.topic: sample

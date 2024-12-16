@@ -2,7 +2,6 @@
 title: "Customize entity relationship metadata (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The topic explains about working with entity relationships programmatically. Also, types of entity relationships and configuring associated menus."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

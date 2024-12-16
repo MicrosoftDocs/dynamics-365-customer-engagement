@@ -2,7 +2,6 @@
 title: "Sample: Create a workflow in code (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: The sample shows how to programmatically create an asynchronous workflow in code instead of using a workflow editor or designer.
 ms.custom:
-ms.date: 1/14/2020
 ms.reviewer: pehecke
 
 ms.suite:

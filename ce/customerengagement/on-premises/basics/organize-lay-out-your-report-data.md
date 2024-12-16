@@ -2,7 +2,6 @@
 title: "Organize report data in Dynamics 365 Customer Engagement (on-premises)"
 description: "By grouping and summarizing report data, you make it easier to see patterns. This page walks you through how to define grouping and the columns to display."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

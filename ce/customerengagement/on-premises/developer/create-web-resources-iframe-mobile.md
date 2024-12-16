@@ -2,7 +2,6 @@
 title: "Create web resources and IFrame content for use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about creating web resources and IFrames to use with the Dynamics 365 Customer Engagement (on-premises) for mobile clients: iOS, Android, and Windows 10."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

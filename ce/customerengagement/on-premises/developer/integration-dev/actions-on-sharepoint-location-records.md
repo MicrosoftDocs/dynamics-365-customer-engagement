@@ -2,7 +2,6 @@
 title: "Actions on SharePoint location records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: Learn how to create, retrieve, update, and delete Microsoft SharePoint location records in Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 06/14/2018
 ms.reviewer: pehecke
 
 ms.suite: 

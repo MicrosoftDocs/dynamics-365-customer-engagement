@@ -2,7 +2,6 @@
 title: "Sample: Run a workflow (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This sample demonstrates how to programmatically execute a workflow by using the ExecuteWorkflowRequest"
 ms.custom:
-ms.date: 1/14/2020
 ms.reviewer: pehecke
 
 ms.suite:

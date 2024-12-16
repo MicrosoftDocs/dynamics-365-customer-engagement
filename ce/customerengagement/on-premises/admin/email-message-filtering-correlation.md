@@ -2,7 +2,6 @@
 title: "Use correlation to track email in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about the filtering and correlation options that can help you specify which email messages are tracked in Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

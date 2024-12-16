@@ -2,7 +2,6 @@
 title: "Activity feeds in Dynamics 365 Customer Engagement | MicrosoftDocs"
 description: "The topic provides information about activity feeds terminology, definitions and entity model."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
