@@ -12,7 +12,7 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
+As a customer service representative (service representative or representative), you can switch between sessions without losing context of the conversation and customer details. You can handle multiple sessions simultaneously (while preserving customer context) and improve productivity.
 
 When a session starts:
 
@@ -22,7 +22,7 @@ When a session starts:
 
 ## Start a session
 
-As an agent, you can start the sessions in two ways:
+As a representative, you can start the sessions in two ways:
 
 - Manually start a session
 - Automatically start a session using the incoming notification
@@ -43,20 +43,20 @@ You can start a session on a channel manually from the Omnichannel Agent Dashboa
 
 ### Automatically start a session using the incoming notification
 
-When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the **Active Conversation** page is loaded in the application area.
+When you select **Accept** on an incoming conversation request, a session starts, and the **Active Conversation** page opens.
 
  > [!div class=mx-imgBorder]
  > ![Session start.](../media/oceh-session-start.png "Session start")
 
 ## Work on multiple customer sessions
 
-As an agent, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session and the **Active Conversation** page is loaded with context of the session. You can access features, such as knowledge search, email templates, and any Line-of-Business applications made available in the application tab panel site map. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
+As a representative, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session, and the **Active Conversation** page is loaded with context of the session. You can access features, such as knowledge search, email templates, and any Line-of-Business applications made available in the application tab panel site map. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
 
 When you switch sessions, unsaved changes are not lost and you can continue to work on them.
 
 For example, you are working on a case by entering the title of the case and not yet saved the form. Now, you get a notification about the incoming conversation and you accept the request, which leads to starting of a new session. Again, you can switch back to case session and the data entered is present for you to continue.
 
-## Persistent chat for agents
+## Persistent chat for service representatives
 
 If your organization has chosen persistent chat as the mode of conversation, you should make sure of the following: 
 
@@ -75,9 +75,9 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
 ## Title of the session
 
-By default, the title of the session is the name of the customer, account, or title of the case. For an unauthenticated conversation request, the title will be displayed as visitor with a number. For example, **Visitor 1**.
+By default, the title of the session is the name of the customer, account, or title of the case. For an unauthenticated conversation request, the title appears as visitor with a number. For example, **Visitor 1**.
     
-For an authenticated chat, name of the contact, account, or title of the case is displayed.
+For an authenticated chat, the contact name, account, or title of the case is displayed.
 
 ## Session sentiment alert and unread message count
 
