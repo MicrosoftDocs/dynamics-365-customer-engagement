@@ -47,7 +47,7 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 
 You'll create an agent in Copilot Studio by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create an agent](/power-virtual-agents/authoring-first-bot).
 
-For example, you can create a agent with the following details:
+For example, you can create an agent with the following details:
 
 - **Name**: A descriptive name for the agent, such as **Greeter bot**.
 - **Language**: The primary language for the agent, such as **English (US)**.
