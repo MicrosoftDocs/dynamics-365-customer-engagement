@@ -11,10 +11,10 @@ ms.custom: bap-template
 
 # Use the attachment control to customize forms
 
-You can add the **Attachment Control** component to case forms so that customer service representatives can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that representatives can view attachments uploaded through notes or emails.
+You can add the **Attachment Control** component to case forms so that customer service representatives (service representatives or representatives) can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that representatives can view attachments uploaded through notes or emails.
 
 > [!NOTE]
-> Service representatives can upload attachments directly only for cases and not on other entities. 
+> Representatives can upload attachments directly only for cases and not on other entities. 
 
 ## Upload and view attachments on case forms
 
