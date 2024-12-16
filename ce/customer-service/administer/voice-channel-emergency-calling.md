@@ -16,7 +16,7 @@ ms.collection:
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-This article describes how emergency calling works when customer service representatives(service representative or representative) dial an emergency number during crisis situations.
+This article describes how emergency calling works when customer service representatives (service representative or representative) dial an emergency number during crisis situations.
 
 > [!NOTE]
 >
