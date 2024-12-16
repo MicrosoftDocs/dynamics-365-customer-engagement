@@ -5,7 +5,6 @@ author: Mattp123
 ms.author: matp
 ms.service: dynamics-365
 ms.topic: how-to
-ms.date: 10/05/2022
 ms.custom: template-how-to
 ---
 # Move the Dynamics 365 Customer Engagement on-premises deployment

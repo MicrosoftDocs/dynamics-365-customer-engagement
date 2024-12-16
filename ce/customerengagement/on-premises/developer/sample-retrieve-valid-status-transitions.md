@@ -2,7 +2,6 @@
 title: "Sample: Retrieve valid status transitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The sample demonstrates how to retrieve valid state transitions regardless of whether custom state transitions have been defined for the entity."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

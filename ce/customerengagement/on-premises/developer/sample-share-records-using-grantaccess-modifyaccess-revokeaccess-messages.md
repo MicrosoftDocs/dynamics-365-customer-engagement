@@ -2,7 +2,6 @@
 title: "Sample: Share records using GrantAccess, ModifyAccess and RevokeAccess messages (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to share a record using the following messages:GrantAccessRequest, ModifyAccessRequest, and RevokeAccessRequest."
 keywords: 
-ms.date: 01/08/2020
 
 ms.custom: 
 ms.topic: sample

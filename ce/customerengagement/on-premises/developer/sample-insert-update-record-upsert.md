@@ -2,7 +2,6 @@
 title: "Sample: Insert or update a record using Upsert (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample code shows how to insert or update records by using the Upsert message"
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:

@@ -3,7 +3,6 @@ title: "One or more Microsoft Dynamics 365 for Customer Engagement Language Pack
 description: Environment diagnostics warning that you'll need to upgrade your language packs.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

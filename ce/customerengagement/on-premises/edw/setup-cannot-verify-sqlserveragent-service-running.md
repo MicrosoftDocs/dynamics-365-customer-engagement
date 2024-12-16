@@ -1,7 +1,6 @@
 ---
 title: "Setup cannot verify that the SQLSERVERAGENT service is running on the specified computer | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

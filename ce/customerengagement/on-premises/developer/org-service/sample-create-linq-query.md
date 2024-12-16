@@ -2,7 +2,6 @@
 title: "Sample: Create a LINQ query (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to create simple .NET Language-Integrated Query (LINQ) queries"
 ms.custom:
-ms.date: 02/05/2020
 ms.reviewer: pehecke
 
 ms.suite:

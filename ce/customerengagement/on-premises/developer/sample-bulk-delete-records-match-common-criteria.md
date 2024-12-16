@@ -2,7 +2,6 @@
 title: "Sample: Bulk delete records that match common criteria| MicrosoftDocs"
 description: "Sample demonstrates how to delete records, in bulk, that match common criteria."
 keywords: 
-ms.date: 10/31/2017
 
 ms.custom: 
 ms.topic: sample

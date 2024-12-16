@@ -2,7 +2,6 @@
 title: "Dashboard entities | MicrosoftDocs"
 description: "The dashboard entities enable you to simultaneously present data from up to six charts, grids, or IFRAMES. The following illustration shows the entity relationships for this area."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

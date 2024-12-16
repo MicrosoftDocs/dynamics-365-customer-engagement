@@ -171,7 +171,7 @@ Configure search providers as filters to search knowledge articles only from sel
 1. From the **Select filter type** list, select **Integrated Search Dataprovider Id**, and then select **Add**.
 1. Select the **Search** icon.
 1. Select the search provider, and then select **Add**.
-1. Optionally, to set predetermined search providers to appear for agents by default, switch **Set as preselected filter** to **Yes**.
+1. Optionally, to set predetermined search providers to appear for customer service representatives by default, switch **Set as preselected filter** to **Yes**.
 
 If you select a deactivated data search provider, it might appear on the **Filter by** list, but no search results from the selected provider are returned.
 

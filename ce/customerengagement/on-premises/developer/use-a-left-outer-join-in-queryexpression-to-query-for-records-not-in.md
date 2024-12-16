@@ -2,7 +2,6 @@
 title: "Use a left outer join in QueryExpression to query for records &quot;not in&quot; | MicrosoftDocs"
 description: Learn how to use a left outer join by using the QueryExpression class to perform a query that filters the join table.
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

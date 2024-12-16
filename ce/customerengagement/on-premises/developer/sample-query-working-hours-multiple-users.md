@@ -2,7 +2,6 @@
 title: "Sample: Query the working hours of multiple users| MicrosoftDocs"
 description: "Sample demonstrates how to retrieve the working hours of multiple users by using the QueryMultipleSchedulesRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
