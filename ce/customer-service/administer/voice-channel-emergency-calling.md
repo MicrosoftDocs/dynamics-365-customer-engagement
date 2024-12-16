@@ -16,12 +16,12 @@ ms.collection:
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-This article describes how emergency calling works when customer service representatives(service representative or representative) dial an emergency number during crisis situations.
+This article describes how emergency calling works when customer service representatives (service representative or representative) dial an emergency number during crisis situations.
 
 > [!NOTE]
 >
 > - Emergency calling is currently supported in the United States, United Kingdom, Denmark, Canada, and Puerto Rico only where the emergency calling number is 911.
-> - If the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled and an representative initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options. 
+> - If the [**Customize active conversation**](add-customer-summary-settings.md#manage-active-conversation-form-settings) form is enabled and a representative initiates an outbound call to emergency services, the active conversation form doesn't display the **Save** and **Refresh** options. 
 
 ## Prerequisites
 

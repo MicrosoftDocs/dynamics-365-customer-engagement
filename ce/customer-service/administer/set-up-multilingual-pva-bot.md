@@ -41,13 +41,13 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 ## Prerequisites
 
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
-- Your agent must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
+- Your agent must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration).
 
 ## Create an agent in Copilot Studio
 
 You'll create an agent in Copilot Studio by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create an agent](/power-virtual-agents/authoring-first-bot).
 
-For example, you can create a agent with the following details:
+For example, you can create an agent with the following details:
 
 - **Name**: A descriptive name for the agent, such as **Greeter bot**.
 - **Language**: The primary language for the agent, such as **English (US)**.

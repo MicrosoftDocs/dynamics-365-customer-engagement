@@ -33,7 +33,7 @@ You can do the following tasks for the voicemail that you open:
 - **Save**: Save changes to the voicemail. Some settings require an explicit save action.
 - **Close Voicemail**: Moves the voicemail to the closed state.
 - **Return Call**: Displays a dialer with the customer number automatically filled in if you have outbound profiles configured. More information: [Outbound profiles](../administer/configure-outbound-inbound-profiles.md)
-- **Add to Queue**: Add the voicemail to a different queue. If the voicemail is routed to a pick workstream, it will be available as a pick item in the new queue.  If the voicemail is routed to a push workstream, it will be assigned to an a customer service representative in the new queue.
+- **Add to Queue**: Add the voicemail to a different queue. If the voicemail is routed to a pick workstream, it will be available as a pick item in the new queue.  If the voicemail is routed to a push workstream, it will be assigned to a customer service representative in the new queue.
 - **Convert to Case (preview)**: <br>
 
   [This option is in preview and is subject to change.] <br>

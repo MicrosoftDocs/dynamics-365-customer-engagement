@@ -17,7 +17,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-Use the information in this article to create profiles that are used for direct inward dialing to specific customer service representatives (service representative or representative) and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
+Use the information in this article to create profiles that are used for direct inward dialing to specific customer service representatives (service representatives or representatives) and outbound calling. These profiles help you configure settings, such as language, wait music, and transcription settings for these calls. The profiles that you create are listed on the **Outbound and inbound profiles** page. The **Profile type** column helps distinguish the profiles.
 
 Inbound profiles enable direct inward dialing to individual service representatives, and they differ from workstreams that are used to define how inbound calls are routed and assigned to service representatives via queues. Direct inward dialing doesn't use unified routing and therefore the direct calls to service representatives aren't tracked in unified routing historical analytics.
 
@@ -49,8 +49,8 @@ Make sure that the following prerequisites are in place:
    - **Language**: Accept the default language as **English - United States** or select a language from the list.
    - **Hold music**: Select a music file to play when the call is on hold.
    - **Wait music**: Select a music file to play when the call is in waiting.
-   - **Call transfer to external phone number**: Set the toggle to **On** if you want the representatives to transfer the call to a phone number outside of your organization.
-   - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representatives to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
+   - **Call transfer to external phone number**: Set the toggle to **On** if you want the representative to transfer the call to a phone number outside of your organization.
+   - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representative to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
    - **Transcription and recording**: Select whether you want to transcript the call and record it. Select **None** if you don't want to.
      - **Start setting**: Is enabled when you select transcript or transcription and recording. Set to **Automatic** if the call recording and transcription needs to start immediately.
       - **Allow agents to pause and resume**: Is enabled when you set the **Start setting** to **Automatic**. Set to **Yes** to let representatives pause and resume the recording and transcription.
@@ -87,8 +87,8 @@ You can define how representatives use the outbound calls and which representati
       > The **Allow list for countries/regions** is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
     - **Hold music**: Select a music file that you want played when the customer is put on hold during a call.
     - **Wait music**: Select a music file that you want played when the customer is waiting to get into a call.
-    - **Call transfer to external phone number**: Set the toggle to **On** if you want the representatives to transfer the call to a phone number outside of your organization.
-    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representatives to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
+    - **Call transfer to external phone number**: Set the toggle to **On** if you want the representative to transfer the call to a phone number outside of your organization.
+    - **Consult with Microsoft Teams user**: Set the toggle to **On** if you want the representative to consult or transfer the voice calls to subject matter experts on Microsoft Teams.
     - **Transcription and recording**: Select **None**, **Transcription only**, or **Transcription and recording**, based on your business scenarios and requirements. As an administrator, you may want to set the value to **None** for business transactions like customer billing where you don't want to record financial data.
     - **Start setting**: Indicates whether you want to start transcription and/or recording when the call begins. The default value is **Automatic**, which means transcription and recording will automatically begin at the start of the conversation.
     - **Allow agents to pause and resume**: Indicates whether you want to allow your representatives to pause and resume call transcription and recording. The default value is **Yes** which means that your representatives can choose when to pause or resume call transcription and recording in the conversation panel.

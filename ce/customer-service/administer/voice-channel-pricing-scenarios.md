@@ -44,7 +44,7 @@ The following table summarizes the pricing for each scenario. The prices in the 
 |ROW Consumption Unit – Outbound –> PSTN outbound rate | $0.013 per minute|
 |Single Channel Mixed Audio Recording –> Recording rate| $0.004 per minute   |
  
-## Inbound: Customer calls from a mobile, call is escalated to a customer service representative from an IVR agent
+## Inbound: Customer calls from a mobile, call is escalated to a representative from an IVR agent
 
 Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Copilot Studio interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a service representative, Matias. This call lasts eight minutes.
 
@@ -125,7 +125,7 @@ Cost calculation:
 
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325 + applicable Teams charges
 
-## Outbound: A customer service representative calls a customer
+## Outbound: A service representative calls a customer
 
 Matias, the contact center service representative, makes an outbound call from Omnichannel for Customer Service to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
 
