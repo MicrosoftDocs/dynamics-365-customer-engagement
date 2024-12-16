@@ -41,7 +41,7 @@ In the Customer Service Hub, you can merge cases from the dashboard streams or f
 
 ## Merge cases from dashboard streams
 
-1. In Customer Service Hub, select **Dashboards** in the site map, and open the dashboard you want to look at.
+1. In Customer Service Hub, select **Dashboards** in the site map, and then open the dashboard you want to look at.
 
 1. Select at least two active case records that you want to merge using the **Bulk select** button ![Bulk select option.](../media/bulk-select.png "Bulk select option").
 
