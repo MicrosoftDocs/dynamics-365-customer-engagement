@@ -177,7 +177,7 @@ The Voice channel supports DTMF recognition to allow representatives to provide 
 The supported configurations for the voice channel are as follows:
 
 - representatives can send DTMF input to a phone number in the E.164 format only.
-- representatives must use the dialpad icon to send DTMF input.
+- Representatives must use the dialpad icon to send DTMF input.
    :::image type="content" source="../media/transfer-dtmf.png" alt-text="Screenshot of external dialpad icon":::
 - Representatives can send the following DTMF tones:
 
