@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot Studio agent
 description: Use this article to get instructions on how to integrate a Copilot Studio agent in your contact center.
-ms.date: 11/14/2024
+ms.date: 12/16/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -41,7 +41,7 @@ You must have:
  - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
  - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
  - The CCI Admin security role to access the agent you create in Customer Service admin center or Contact Center admin center in Copilot Studio.
- - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles?context=/dynamics365/contact-center/context/implement-context)
+ - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
 
 ## Create a Copilot Studio agent
 
@@ -97,7 +97,7 @@ This conversation appears in the Omnichannel for Customer Service dashboard with
 
 You must include an end of conversation article in a Copilot Studio agent to provide a clear and natural conclusion to the interaction, enhancing the overall user experience. It also allows the agent to suggest next steps, gather feedback, and handle any final errors, ensuring the user leaves the interaction satisfied. 
 
-In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-bot-conversation) that explicitly ends the conversation in Omnichannel for Customer Service.
+In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-agent-conversations) that explicitly ends the conversation in Omnichannel for Customer Service.
 
 1. In Copilot Studio, for the selected agent, add a new topic.
 

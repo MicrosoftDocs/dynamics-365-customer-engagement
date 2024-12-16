@@ -22,12 +22,12 @@ The Dynamics 365 Customer Service voice channel is built on Azure Communication 
 
 [Several call flows are possible](https://go.microsoft.com/fwlink/p/?LinkId=866544). This article describes pricing calculations for the following call scenarios:
 
-- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a customer service representative](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-human-agent-from-an-ivr-bot)
+- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a customer service representative](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-customer-service-representative-from-an-ivr-agent)
 - [Inbound: A customer calls from Microsoft Teams](#inbound-a-customer-calls-from-microsoft-teams)
 - [Inbound: A customer calls from Teams; a supervisor joins the call to monitor the conversation](#inbound-a-customer-calls-from-teams-a-supervisor-joins-the-call-to-monitor-the-conversation)
 - [Inbound: A customer calls from a mobile device; the supervisor is invited to consult](#inbound-a-customer-calls-from-a-mobile-device-the-supervisor-is-invited-to-consult)
-- [Inbound: A customer calls from Teams; the call is transferred to a service representative through Teams PSTN](#inbound-a-customer-calls-from-teams-the-call-is-transferred-to-an-agent-through-teams-pstn)
-- [Outbound: A service representative calls a customer](#outbound-an-agent-calls-a-customer)
+- [Inbound: A customer calls from Teams; the call is transferred to a service representative through Teams PSTN](#inbound-a-customer-calls-from-teams-the-call-is-transferred-to-a-service-representative-through-teams-pstn)
+- [Outbound: A service representative calls a customer](#outbound-a-customer-service-representative-calls-a-customer)
 - [Inbound: Azure direct routing](#inbound-azure-direct-routing)
 - [Outbound: Azure direct routing](#outbound-azure-direct-routing)
 
@@ -44,7 +44,7 @@ The following table summarizes the pricing for each scenario. The prices in the 
 |ROW Consumption Unit – Outbound –> PSTN outbound rate | $0.013 per minute|
 |Single Channel Mixed Audio Recording –> Recording rate| $0.004 per minute   |
  
-## Inbound: Customer calls from a mobile, call is escalated to a customer service representative from an IVR bot
+## Inbound: Customer calls from a mobile, call is escalated to a customer service representative from an IVR agent
 
 Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Copilot Studio interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a service representative, Matias. This call lasts eight minutes.
 

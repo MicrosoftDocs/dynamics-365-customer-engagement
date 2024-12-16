@@ -1,7 +1,7 @@
 ---
 title: Configure outbound and inbound profiles
 description: Configure outbound and inbound profiles with various settings, such as caller ID, language, and wait music for the voice channel.
-ms.date: 12/14/2024
+ms.date: 12/16/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -59,7 +59,7 @@ Make sure that the following prerequisites are in place:
 
 ## Create outbound profiles
 
-You can define how representatives use the outbound calls and which representatives can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the representative's role while the caller ID number still lists consistently for a business. You must configure the alternative number other than the default number as a workstream channel or as an outbound profile number before you can use it. For details, see [assign a personal phone number to service representatives](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+You can define how representatives use the outbound calls and which representatives can make those calls. If you want a caller ID number that's displayed to customers to be different from the outbound profile number, configure an alternative number. It's useful when some settings differ based on the representative's role while the caller ID number still lists consistently for a business. You must configure the alternative number other than the default number as a workstream channel or as an outbound profile number before you can use it. For details, see [assign a personal phone number to service representatives](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
 
 1. Perform the steps 1 through 3 in [Create inbound profiles](#create-inbound-profiles).
 
