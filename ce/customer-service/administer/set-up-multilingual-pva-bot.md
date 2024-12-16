@@ -41,7 +41,7 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 ## Prerequisites
 
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
-- Your agent must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
+- Your agent must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration).
 
 ## Create an agent in Copilot Studio
 
