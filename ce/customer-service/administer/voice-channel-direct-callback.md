@@ -1,5 +1,5 @@
 ---
-title: Configure direct callback to manage overflowing queues
+title: Configure direct callback
 description: Learn how to configure and use direct callback in the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-Direct callback enables customers to request a callback as soon as an customer service representative (service representative or representative) is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available representative through a notification just like any regular work item that's waiting in queue. Except that the notification identifies the work item as a callback versus a regular inbound call. After the representative accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the representative. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
+Direct callback enables customers to request a callback as soon as a customer service representative (service representative or representative) is available instead of waiting on the call. You can configure the direct callback option at the queue level by using the overflow action "direct callback" for a specific queue condition. After the call reaches the number one position in the queue, the direct callback work item is assigned to the next available representative through a notification just like any regular work item that's waiting in queue. Except that the notification identifies the work item as a callback versus a regular inbound call. After the representative accepts the work item, a callback to the customer who requested a direct callback is automatically initiated and connected to the representative. In summary, direct callback helps provide better customer experiences by avoiding waiting in queue and helps administrators staff queues more efficiently to handle peak volume periods.
 
 ## Prerequisites for direct callback
 
@@ -36,7 +36,7 @@ The customer disconnects the call after acknowledging the message for the direct
 Direct callback uses two automated messages that are available by default and can be customized:  
 
 - The initial message offers the callback option to the customer as follows: "Current wait times are longer than expected. If you would like a call back, please press 1 or continue to wait for the next available representative."
-- The second message confirms the callback selection when the customer presses 1 and notifies the customer that the call will end. The message played to the customer is, as follows: "You have requested a callback. We will call you back as soon as an representative is available. Goodbye!"
+- The second message confirms the callback selection when the customer presses 1 and notifies the customer that the call will end. The message played to the customer is, as follows: "You have requested a callback. We'll call you back as soon as a representative is available. Goodbye!"
 
 For more information, go to [Configure automated messages](configure-automated-message.md). For information on how to configure the conditions and actions, go to [Manage overflow of work items in queues](manage-overflow.md).
 
@@ -50,7 +50,7 @@ The direct callback is triggered by the queue overflow conditions where the corr
   
    - The customer selects the option
    - Ends the call
-   - The customer is connected to an representative
+   - The customer is connected to a representative
   
 1. If the customer acknowledges the callback option by pressing 1, a second message is played for the customer that acknowledges the customer choice and lets the customer know about receiving a callback.
 1. The call ends for the customer but the work item remains in the queue.
