@@ -23,7 +23,7 @@ searchScope:
 
 # Convert cases into knowledge articles
 
-At times, existing knowledge articles don't contain relevant information for resolving a case. You, as a customer service representative, can now contribute to the knowledge base by turning all information that's been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
+At times, existing knowledge articles don't contain relevant information for resolving a case. You, as a customer service representative (service representative or representative), can now contribute to the knowledge base by turning all information that's been researched for a case into a knowledge article. You can convert one case into multiple knowledge articles.  
 
 ## Prerequisite
 
