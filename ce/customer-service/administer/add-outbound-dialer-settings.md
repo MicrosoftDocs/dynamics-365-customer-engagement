@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-In the outbound dialer, customer service representatives (service representatives or representatives) can search for customers by name. Representativess can also select and open a customer's record from the recently dialed number list.
+In the outbound dialer, customer service representatives (service representatives or representatives) can search for customers by name. Representatives can also select and open a customer's record from the recently dialed number list.
 
 ## Prerequisites
 
