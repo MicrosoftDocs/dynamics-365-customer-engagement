@@ -28,7 +28,7 @@ No, the voice channel isn't supported in the other apps of Dynamics 365. It's su
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Customer service representatives(service representative or representative) have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Representatives can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Customer service representatives (service representative or representative) have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Representatives can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
