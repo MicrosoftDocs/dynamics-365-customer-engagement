@@ -2,7 +2,7 @@
 title: Overview of Dynamics 365 for phones and tablets (on-premises)
 ms.custom: 
 description: Overview information for Dynamics 365 for phones and tablets apps
-ms.date: 10/04/2024
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite: 
