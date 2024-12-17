@@ -126,6 +126,6 @@ You can filter the [Copilot international availability report](https://releasepl
 
 The **Release Wave** column indicates the release wave in which the support is available.
 
-## Copilot not working as expected?
+## Copilot not working as expected
 
-Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization. To resolve this issue, you need to [remove the DLP policies that are blocking Copilot](). 
+Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization. To resolve this issue, you need to [remove the DLP policies that are blocking Copilot](sales-copilot-faq.md#copilot-isnt-working-as-expected-what-should-i-do). 
