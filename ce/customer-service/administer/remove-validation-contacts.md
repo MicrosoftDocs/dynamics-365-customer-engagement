@@ -31,7 +31,7 @@ Perform the following steps to disable the validation on contacts and customers:
 5. Select the ellipses for msdyn_IncidentShouldValidatePrimaryContact, and then select Edit.
 6. On the flyout menu that appears, select **New value**, enter the number **0**, and select **Save**.
 
-Now, when agents are creating or updating a case, they can select contacts who are not part of the customer organization.
+Now, when customer service representatives (service representatives or representatives) are creating or updating a case, they can select contacts who are not part of the customer organization.
 
 ### Related information
 
