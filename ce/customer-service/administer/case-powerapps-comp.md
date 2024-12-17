@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Add Power Apps components to case forms
 
-You can customize case forms using the default Power Apps components. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form)
+You can customize case forms using the default Power Apps components. Learn more at [Add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form).
 
 
 The following tables lists the components that can be added to case forms and the behavior in real-time.
