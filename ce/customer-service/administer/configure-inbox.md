@@ -55,7 +55,7 @@ Channel providers must have **All active channels** set to **On** to use and con
 
 ## Configure the inbox setting for representatives
 
-You can configure the inbox in Contact Center admin center or Customer Service admin center by editing the representative experience profile to meet your preferred inbox settings.
+You can configure the inbox in Contact Center admin center or Customer Service admin center by editing the agent experience profile to meet your preferred inbox settings.
 
 1. Open the admin center app.
 
