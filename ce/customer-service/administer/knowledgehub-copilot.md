@@ -46,7 +46,7 @@ If you made any unpublished modifications to the plugins, you see a **Detected u
 
 > [!NOTE]
 > - Enterprise data that uses Copilot connectors as knowledge sources currently isn't supported. Instead, customers can optionally use Microsoft Graph connectors for their preferred sources.
-> - Knowledge in Copilot Studio as a source only works with Ask a Question. Learn more in [Features supported with different knowledge sources](copilot-enable-help-pane.md#features-supported-with-different-knowledge-sources)
+> - Knowledge in Copilot Studio as a source only works with Ask a Question. Learn more in [Features supported with different knowledge sources](copilot-enable-help-pane.md#features-supported-with-different-knowledge-sources).
 
 ## Related information
 
