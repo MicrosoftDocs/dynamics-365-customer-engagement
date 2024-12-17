@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
+As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
 
@@ -55,7 +55,7 @@ Channel providers must have **All active channels** set to **On** to use and con
 
 ## Configure the inbox setting for representatives
 
-You can configure the inbox in Contact Center admin center or Customer Service admin center by editing the representative experience profile to meet your preferred inbox settings.
+You can configure the inbox in Contact Center admin center or Customer Service admin center by editing the agent experience profile to meet your preferred inbox settings.
 
 1. Open the admin center app.
 
@@ -95,7 +95,7 @@ The following views are supported out of the box in the inbox:
 - **Resolved Conversations**: Shows all conversations marked as closed, and where the user was the primary representative in the conversation.
 - **Unassigned Conversations**: Shows all active conversations and emails in a team or queue in which the user is a member. The user is able to assign conversations to themselves and reply to emails directly from this view.
 
-Inbox views are auto refreshed every five minutes. Service representatives can manually refresh the view by using the **Refresh** icon.
+Inbox views are auto refreshed every five minutes. Representatives can manually refresh the view by using the **Refresh** icon.
 
 ## Configure custom views for the inbox
 
@@ -103,7 +103,7 @@ You can configure a customized view for the inbox so that representatives can se
 
 To configure multiple views for the inbox, complete the following steps.
 
-1. Go to the representative experience profile for which you want to configure a custom view.
+1. Go to the agent experience profile for which you want to configure a custom view.
 
 1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
 

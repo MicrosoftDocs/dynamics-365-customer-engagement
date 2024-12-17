@@ -40,7 +40,7 @@ You can create or edit a subject in the Customer Service admin center app.
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the **Visibility** toggle if you want the subject to be available for the customer service representative.
+    - Switch on the **Visibility** toggle if you want the subject to be available for the customer service representative (service representative or representative).
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 

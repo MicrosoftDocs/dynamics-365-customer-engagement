@@ -26,7 +26,7 @@ You can customize the case resolution dialog to suit your business needs. You ca
 
 ## Prerequisites
 
-Make sure that the CSR Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
+Make sure that the CSR Manager and customer service representative (service representative or representative) security roles have the following permissions set for **Environment Variable Definition**:
 
 - **CSR Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read
@@ -72,7 +72,7 @@ You can add a custom value to the custom case resolution dialog. You must perfor
  1. Add a custom value to the required field in the **Case** table.
  1. Update the required field in the **Case Resolution** table with the same custom value.
 
-For example, your organization receives similar cases. You can add a case resolution rule for cases that are similar to a previously resolved case. Service representatives can then resolve them by marking them as duplicate cases. To add a case resolution rule, perform the steps in the following sections.
+For example, your organization receives similar cases. You can add a case resolution rule for cases that are similar to a previously resolved case. Representatives can then resolve them by marking them as duplicate cases. To add a case resolution rule, perform the steps in the following sections.
 
 ### Update the case table
 

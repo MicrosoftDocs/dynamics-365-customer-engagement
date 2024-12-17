@@ -17,7 +17,7 @@ ms.collection: get-started
 
 # Enable case grids
 
-Increase your customer service representative's productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your representatives perform inline edits and quick operations with minimal clicks, facilitating decision-making.
+Increase your customer service representative's (service representative or representative) productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your representatives perform inline edits and quick operations with minimal clicks, facilitating decision-making.
 
 ## Key features
 

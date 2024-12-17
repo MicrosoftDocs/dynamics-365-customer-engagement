@@ -22,7 +22,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 > [!NOTE]
 > Case information is applicable to Customer Service only.
 
-With the use of AI, suggestions about similar cases that were previously resolved successfully help customer service representatives find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
+With the use of AI, suggestions about similar cases that were previously resolved successfully help customer service representatives (service representatives or representatives) find the right solutions quickly, increase their productivity, and provide better and faster service to customers.
 
 The key highlights of the feature are as follows:
 

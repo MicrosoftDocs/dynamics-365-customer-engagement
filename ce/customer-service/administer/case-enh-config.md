@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Enable enhanced case forms for multisession apps
 
-Enable the enhanced **Quick case form** and **Full case form**  options so that the enhanced quick case form and full case form open when customer service representatives create a new case in Customer Service workspace.
+Enable the enhanced **Quick case form** and **Full case form**  options so that the enhanced quick case form and full case form open when customer service representatives (service representatives or representatives) create a new case in Customer Service workspace.
 
 > [!NOTE]
 > The enhanced case creation experience is available only in the Customer Service workspace app.

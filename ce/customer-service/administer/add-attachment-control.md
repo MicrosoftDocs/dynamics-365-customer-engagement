@@ -11,10 +11,10 @@ ms.custom: bap-template
 
 # Use the attachment control to customize forms
 
-You can add the **Attachment Control** component to case forms so that customer service representatives can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that representatives can view attachments uploaded through notes or emails.
+You can add the **Attachment Control** component to case forms so that customer service representatives (service representatives or representatives) can view and upload attachments. You can also add the component to other entity forms, such as Account or Contact, so that representatives can view attachments uploaded through notes or emails.
 
 > [!NOTE]
-> Service representatives can upload attachments directly only for cases and not on other entities. 
+> Representatives can upload attachments directly only for cases and not on other entities. 
 
 ## Upload and view attachments on case forms
 
@@ -24,7 +24,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
     
    :::image type="content" source="../media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="../media/enh-case-attach.png":::
 
-- After representatives save a new case or if they open an existing case, the attachments grid is displayed. Learn more about the actions representatives can perform at [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
+- After representatives save a new case or if they open an existing case, the attachments grid is displayed. Learn more about the actions representatives can perform in [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
 
    :::image type="content" source="../media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="../media/case-enh-save.png":::
 

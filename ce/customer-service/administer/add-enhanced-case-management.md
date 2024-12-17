@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 Customize the case resolution experience in Power apps as follows:
 
-- When customer service representatives try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab representatives view when they select this link.
+- When customer service representatives (service representatives or representatives) try to close a case with open activities, the application displays a warning message with a redirect link. You can configure the tab representatives view when they select this link.
 - Choose to display the legacy **Resolve case** dialog instead of the default minimal **Resolve case** dialog when a representative closes a case with open activities.
 
 ##  Redirect users to a specific tab to close the open activities for a case
