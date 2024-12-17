@@ -2,7 +2,6 @@
 title: "Create email signature in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create an email signature to save time and be consistent in your responses. The owner of a signature can be a user or a team."
 ms.custom: 
-ms.date: 09/15/2017
 ms.reviewer: 
 
 ms.suite: 

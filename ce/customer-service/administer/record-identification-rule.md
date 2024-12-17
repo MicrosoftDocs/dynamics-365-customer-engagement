@@ -60,7 +60,7 @@ To link the customer or case, set the values for the associated attributes, such
 |Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>Business Phone</li></ul>|
 |Case|CaseNumber|`ticketnumber`|
 
-For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-copilot-studio-bot).
+For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-agents).
 
 
 ### Related information

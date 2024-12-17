@@ -2,7 +2,6 @@
 title: "Modify the icons for an entity (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about modifying the icons for an entity."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

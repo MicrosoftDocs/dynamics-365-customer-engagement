@@ -2,7 +2,6 @@
 title: "Drill down into a chart in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to drill down into a segment on a chart to filter data for that segment. You can also change the chart type as you drill down."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Sample: Rollup records related to a specific record (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample demonstrates how to roll up opportunities by the parent account. "
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:

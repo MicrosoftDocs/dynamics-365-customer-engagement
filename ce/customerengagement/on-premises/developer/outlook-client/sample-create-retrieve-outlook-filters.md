@@ -2,7 +2,6 @@
 title: "Sample: Create and retrieve Outlook filters (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: Learn how to create and retrieve filters for Microsoft Dynamics 365 for Outlook using this code sample.
 ms.custom:
-ms.date: 01/28/2020
 ms.reviewer: pehecke
 
 ms.suite:

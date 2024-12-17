@@ -7,7 +7,6 @@ applies_to:
   - Dynamics 365 for Customer Engagement (online)
   - powerapps
 ms.author: matp
-ms.date: 11/04/2018
 
 ms.topic: article
 ms.assetid: 4ed30bb7-dca1-4de8-80f3-842152ea921a

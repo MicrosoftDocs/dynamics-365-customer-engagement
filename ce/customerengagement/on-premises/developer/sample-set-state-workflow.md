@@ -2,7 +2,6 @@
 title: "Sample: Set the state of a workflow (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows how to change the state of a workflow, through activating and deactivating it, by using the SetStateRequest message. In addition, the sample shows how to create a custom XAML workflow."
 keywords:
-ms.date: 1/14/2018
 
 ms.custom:
 ms.topic: sample

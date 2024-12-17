@@ -2,7 +2,6 @@
 title: "Assign records in Dynamics 365 Customer Engagement (on-premises)"
 description: "If you'd like another person to handle an account or contact, you can assign them that record. You can also assign a record to a team, or to yourself."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 

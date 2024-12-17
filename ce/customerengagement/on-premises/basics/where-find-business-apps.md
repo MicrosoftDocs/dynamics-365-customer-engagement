@@ -2,7 +2,6 @@
 title: "Find business apps in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to find your business apps in Dynamics 365 Customer Engagement (on-premises), including through the Unified Interface and in the legacy web client."
 ms.custom:
-ms.date: 03/24/2021
 ms.reviewer: 
 
 ms.suite: 

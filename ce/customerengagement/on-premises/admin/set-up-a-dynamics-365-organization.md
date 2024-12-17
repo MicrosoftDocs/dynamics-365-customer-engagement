@@ -2,7 +2,6 @@
 title: "Set up organization in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to set up a Dynamics 365 Customer Engagement (on-premises) organization, manage business units and sites, add resources, and select languages."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Developer tools (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about the developer tools provided for use with Dynamics 365 Customer Engagement."
 ms.custom: 
-ms.date: 10/18/2022
 ms.reviewer: pehecke
 
 ms.suite: 

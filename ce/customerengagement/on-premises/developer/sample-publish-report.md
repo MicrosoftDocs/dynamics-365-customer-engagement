@@ -2,7 +2,6 @@
 title: "Sample: Publish reports | MicrosoftDocs"
 description: "This sample shows how to publish a report"
 ms.custom:
-ms.date: 01/28/2020
 ms.reviewer: pehecke
 
 ms.suite:

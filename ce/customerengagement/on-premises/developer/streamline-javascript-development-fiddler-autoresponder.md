@@ -2,7 +2,6 @@
 title: "Streamline JavaScript web resource development using Fiddler AutoResponder (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about how to setup and use AutoResponder in Fiddler for local debugging of JavaScript web resources."
 ms.custom: 
-ms.date: 09/18/2018
 ms.reviewer: pehecke
 
 ms.suite: 

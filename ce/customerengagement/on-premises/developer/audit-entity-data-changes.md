@@ -2,7 +2,6 @@
 title: "Audit entity data changes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Supports auditing of entity and attribute data changes on a per organization basis."
 ms.custom: audit
-ms.date: 05/27/2022
 ms.reviewer: jdaly
 ms.suite:
 ms.tgt_pltfrm:
