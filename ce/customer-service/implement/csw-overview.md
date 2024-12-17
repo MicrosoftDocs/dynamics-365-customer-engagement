@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of Customer Service workspace for Dynamics 365 Customer Service.
-ms.date: 10/02/2024
+ms.date: 12/12/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -38,21 +38,24 @@ Customer Service workspace allows service representatives to work on multiple se
 - Service representatives can select the hamburger icon to access the site map. 
 - When a service representative opens a page from the site map, the page loads in the current focused session.
 
+
 ### Navigate sessions and tabs
 
  The following table gives an overview of the multisession navigation:
 
 | Action | Result |
-| ------------ |------------- |
+| ------ | ------ |
 | Open a record from the Home session | Record opens in a new session. |
 | Open a record from the Global search | Record opens in a new session. |
 | Open a record from the retrieved search records | Record opens in a focused session. |
-| Open a record using the Quick Create notification | Record opens in a new session |
-| Create a new record | Record opens in a new session |
-| Open a record from the timeline | Record opens in a new tab in the focused session |
-| Open a record from a form lookup | Record opens in a new tab in the focused session |
-| Open a view from the Sitemap | View opens in a new tab in the focused session |
-| Open a dashboard from the Sitemap | Dashboard opens in a new tab in the focused session|
+| Open a record using the Quick Create notification | Record opens in a new session. |
+| Create a new record | Record opens in a new session. |
+| Open a record from the timeline | Record opens in a new tab in the focused session. |
+| Open a record from a form lookup | Record opens in a new tab in the focused session. |
+| Open a view from the site map | View opens in a new tab in the focused session. |
+| Open a dashboard from the site map | Dashboard opens in a new tab in the focused session. |
+| Expand **Recent** in the site map | You can see records and views opened from the **anchor** tab only. |
+
 
 ### Session restore (preview)
 

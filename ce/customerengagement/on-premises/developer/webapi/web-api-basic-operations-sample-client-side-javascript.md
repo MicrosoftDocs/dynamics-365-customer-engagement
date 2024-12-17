@@ -2,7 +2,6 @@
 title: "Web API Basic Operations Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates how to perform basic CRUD (create, retrieve, update, and delete) and association and dissociation operations on entity instances using client-side JavaScript and the Dynamics 365 Customer Engagement Web API"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

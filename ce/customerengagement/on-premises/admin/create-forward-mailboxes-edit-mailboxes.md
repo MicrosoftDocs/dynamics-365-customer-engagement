@@ -2,7 +2,6 @@
 title: "Create new forward mailbox in Dynamics 365 Customer Engagement (on-premises)"
 description: "If your organization wants to configure server-side synchronization using a forward mailbox, follow these steps to create a new forward mailbox record."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

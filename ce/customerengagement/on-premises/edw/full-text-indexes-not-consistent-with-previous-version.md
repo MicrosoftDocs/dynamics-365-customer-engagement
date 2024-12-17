@@ -3,7 +3,6 @@ title: "The full-text indexes on the Microsoft Dynamics 365 for Customer Engagem
 description: Environment diagnostics warning that the full text indexes aren't consistent.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

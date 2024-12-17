@@ -2,7 +2,6 @@
 title: "Delete (remove) a Microsoft Dynamics 365 Server | Microsoft Docs"
 description: Learn how to delete a Dynamics 365 server in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 

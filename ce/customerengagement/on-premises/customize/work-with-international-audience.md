@@ -2,7 +2,6 @@
 title: "Languages and translation in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use this section to learn about the different customization features that are available for languages and translation."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

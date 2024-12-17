@@ -2,7 +2,6 @@
 title: "Create entity field mapping in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create field mapping between entities. This lets you set default values for a record that's created in the context of another record."
 ms.custom: 
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 

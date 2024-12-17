@@ -1,7 +1,7 @@
 ---
 title: "Clone a forecast in Dynamics 365 Sales"
 description: "Learn how to clone a forecast in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 12/2/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -28,13 +28,11 @@ When you clone a forecast, you duplicate any configurations you made previously.
     The forecast configuration page opens.
 
 4. On the forecast that you want to clone, select **More options** ![More options.](media/more-commands-icon.png), and then select **Clone**.   
-    > [!div class="mx-imgBorder"]    
-    > ![Clone the forecast.](media/forecast-select-clone.png "Clone the forecast")   
+    :::image type="Clone the forecast" source="media/forecast-select-clone.png" alt-text="Clone the forecast":::  
 
 5. In the message that appears, select **OK**.
 
-    > [!div class="mx-imgBorder"]    
-    > ![Select OK in the confirmation message.](media/forecast-clone-confirmation-message.png "Select OK in the confirmation message")    
+    :::image type="Select OK in the confirmation message" source="media/forecast-clone-confirmation-message.png" alt-text="Select OK in the confirmation message":::    
 
     The clone of the selected forecast is opened in edit mode.
 
