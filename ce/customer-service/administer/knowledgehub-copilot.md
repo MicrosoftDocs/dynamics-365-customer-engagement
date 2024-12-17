@@ -1,18 +1,25 @@
 ---
-title: Enable knowledge sources from Microsoft Copilot Studio 
+title: Enable knowledge sources from Microsoft Copilot Studio (preview)
 description: Learn how to enable knowledge sources from Microsoft Copilot Studio.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/13/2024
+ms.date: 12/17/2024
 ms.custom: bap-template
 ---
 
-# Enable knowledge sources from Microsoft Copilot Studio
+# Enable knowledge sources from Microsoft Copilot Studio (preview)
+
+[This article is prerelease documentation and is subject to change.]
 
 The performance of your Copilot is highly correlated to the quality of the knowledge sources it can access. You can enable customers to integrate various knowledge platforms without having to add the content directly into the Dynamics 365 knowledge base. The expanded Dynamics 365 knowledge base improves your Copilot's response quality, along with its experience and productivity.
+
+> [!IMPORTANT]
+>
+> - This is a preview feature.
+> - Preview features aren't meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 ## Prerequisites
 
