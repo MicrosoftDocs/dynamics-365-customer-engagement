@@ -16,15 +16,15 @@ You can customize case forms using the default Power Apps components. Learn more
 
 The following tables lists the components that can be added to case forms and the behavior in real-time.
 
-|Number |Component |Description |Entity |Additional information|
+|Number |Component |Description |Additional information|
 |-------|----------|------------|-------|-------------------|----------------------|
-|1 |**Status reason transitions** |Allows you to define what the agents can change the status reason value to, for each status reason. | Available for all entities. |[Define status reason transitions for case management](define-status-reason-transitions-case-management.md#add-status-reason-transition)|
-|2 |**Customer 360** |Enables agents to view customer details for a case as a card on the form. | Available for all entities. | [Configure components to display customer details and recent records](add-display-components-to-case-form.md#add-the-customer-360-component-to-a-case-form)| 
-|3 |**Recent records** |Allows agents to view and access related customer records for a case as a card on the form. |Available for all entities. |[Configure components to display customer details and recent records](add-display-components-to-case-form.md#add-the-recent-records-component)|
-|4 |**Case handling time widget** |Agents can see the case handling time widget on the form. |Available for all entities. |[Configure case handling time widget to case forms](add-case-handling-time.md#enable-case-handling-time-widget)|  
-|5 |**Redirect user to the specified tab to close open activities** |Displays a redirect link on the warning message when agents attempt to close a case with unresolved activities. You can also configure the tab that opens when agents click this link. |Available for all entities. |[Customize the case resolution experience](add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)|    
+|1 |**Status reason transitions** |Allows you to define what the agents can change the status reason value to, for each status reason. |[Define status reason transitions for case management](define-status-reason-transitions-case-management.md#add-status-reason-transition)|
+|2 |**Customer 360** |Enables agents to view customer details for a case as a card on the form. |  [Configure components to display customer details and recent records](add-display-components-to-case-form.md#add-the-customer-360-component-to-a-case-form)| 
+|3 |**Recent records** |Allows agents to view and access related customer records for a case as a card on the form. |[Configure components to display customer details and recent records](add-display-components-to-case-form.md#add-the-recent-records-component)|
+|4 |**Case handling time widget** |Agents can see the case handling time widget on the form. |[Configure case handling time widget to case forms](add-case-handling-time.md#enable-case-handling-time-widget)|  
+|5 |**Redirect user to the specified tab to close open activities** |Displays a redirect link on the warning message when agents attempt to close a case with unresolved activities. You can also configure the tab that opens when agents click this link. |[Customize the case resolution experience](add-enhanced-case-management.md#redirect-users-to-a-specific-tab-to-close-the-open-activities-for-a-case)|    
 |6 |**Enable minimal case resolution dialog** |When enabled, allows agents to see the legacy case resolution dialog. |[Customize the case resolution experience](add-enhanced-case-management.md#disable-the-minimal-case-resolution-dialog)|   
-|7 |**Power Apps grid control** |Enabled on the case form by default. You can use this to options in this component to enable inline edits and manage option set colors. You can revert back to the legacy case grids by deleting this component. |Available for all entities. |[Enable case grids](enable-case-grids.md)|
+|7 |**Power Apps grid control** |Enabled on the case form by default. You can use this to options in this component to enable inline edits and manage option set colors. You can revert back to the legacy case grids by deleting this component. |[Enable case grids](enable-case-grids.md)|
 
 
 ## Default components available on enhanced full case form
