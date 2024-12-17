@@ -2,7 +2,6 @@
 title: "Sample code directory (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Listings of sample code topics included in the Customer Engagement SDK."
 keywords: 
-ms.date: 11/16/2017
 
 ms.custom: 
 ms.topic: sample
@@ -249,7 +248,7 @@ The following sample code is included for Dynamics 365 Customer Engagement (on-p
 [Sample: Authenticate Users with Dynamics 365 Customer Engagement Web Services](sample-authenticate-users-web-services.md)<br />
 [Sample: Execute Multiple Requests](/powerapps/developer/data-platform/org-service/execute-multiple-requests#exampleexample)<br />
 [Sample: Execute multiple requests in transaction](/powerapps/developer/data-platform/org-service/use-executetransaction)<br />
-[Helper Code: SystemUserProvider class](https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/SampleHelpers.cs#/SampleHelpers.cs)<br />
+[Helper Code: SystemUserProvider class](https://github.com/Microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/SampleHelpers.cs#/SampleHelpers.cs)<br />
 [Sample: Impersonation using the ActOnBehalfOf privilege](/powerapps/developer/data-platform/impersonate-another-user)<br />
 [Sample: Quick Start for Dynamics 365 Customer Engagement (on-premises)](sample-quick-start.md)<br />
 [Sample: Simplified Connection Quick Start using Dynamics 365 Customer Engagement (on-premises)](/powerapps/developer/data-platform/xrm-tooling/sample-simplified-connection-quick-start)<br />

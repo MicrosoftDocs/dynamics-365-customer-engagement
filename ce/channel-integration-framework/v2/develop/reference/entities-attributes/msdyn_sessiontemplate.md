@@ -1001,7 +1001,7 @@ IntersectEntityName: msdyn_sessiontemplate_applicationtab<br />
 
 See msdyn_appconfiguration Entity [msdyn_appconfiguration_sessiontemplate](msdyn_appconfiguration.md#many-to-many-relationships) Many-To-Many Relationship.
 
-### See also
+### Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../../../../v1/develop/reference/client-side-events.md)

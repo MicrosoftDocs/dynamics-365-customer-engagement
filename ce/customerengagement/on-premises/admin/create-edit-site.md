@@ -2,7 +2,6 @@
 title: "Create a new site in Dynamics 365 Customer Engagement (on-premises)"
 description: "Create a new site to add an office or other location where operations take place. You can also edit existing sites for details like address and phone number."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

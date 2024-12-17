@@ -2,7 +2,6 @@
 title: "Manage your deployment (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Write application code to handle disaster recovery, administer your deployment, and import sample data."
 ms.custom: 
-ms.date: 03/07/2019
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -25,7 +25,7 @@ The `onSessionSwitched` event takes following eventData:
 | `focussed` | Indicates whether the session is in focus or not.<br />If the value is `true` it indicates that the session id returned in the payload is in focus and value `false` indicates that the particular session is not in focus.|
 | `context`| Indicates additional context. |
 
-### See also
+### Related information
 
 [setClickToAct](../../../../v1/develop/reference/microsoft-ciframework/setClickToAct.md)<br />
 [addHandler](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)<br />

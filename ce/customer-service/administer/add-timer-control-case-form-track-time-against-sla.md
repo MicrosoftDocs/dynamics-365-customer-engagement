@@ -1,7 +1,7 @@
 ---
 title: Add a timer control for SLA-enabled entities
 description: Add a timer control to SLA-enabled entity forms to help users track time and complete tasks within specified SLA time frames.
-ms.date: 02/27/2024
+ms.date: 12/13/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -23,9 +23,9 @@ Add a timer control to a service-level agreement (SLA) enabled entity form to he
 
 ## Add a SLA timer to a SLA-enabled entity
 
-After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. Some of the KPIs that agents can see include the different stages that KPIs go through.
+After you've configured the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to customer service representatives (service representatives). Some of the KPIs that service representatives can see include the different stages that KPIs go through.
 
-For information on how the SLA KPIs are displayed at runtime when agents view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](../use/customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
+For information on how the SLA KPIs are displayed at runtime when service representatives view the case to work on in Customer Service Hub, see [Timer for SLA-enabled entities](../use/customer-service-hub-user-guide-case-sla.md#timer-control-for-sla-enabled-entities).
 
 > [!NOTE]
 > - The SLA Timer control displays SLA KPIs that are created in Unified Interface only.
@@ -54,7 +54,7 @@ Do the following steps to add the SLA timer control for the case entity.
     
         Selecting **All Record Types** retrieves all the SLA KPI instances present in the organization and might lead to performance issues.
    1. For **Entity**, select **SLA KPI Instances (Regarding)**.
-   1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for agents at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
+   1. In **Default View**, add a view or edit an existing view to determine the SLA KPIs that need to be displayed for service representatives at runtime. For more information on views, see [Create and edit views](/powerapps/maker/model-driven-apps/create-edit-views-app-designer).
 
    > ![Configure SLA Timer in customizations.](../media/sla-timer-properties.png "Configure SLA Timer in customizations")
 

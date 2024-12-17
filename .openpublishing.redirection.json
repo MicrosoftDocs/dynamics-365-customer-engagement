@@ -33058,6 +33058,11 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/field-service/mobile/troubleshooting-mobile-newux.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
+      "redirect_document_id": false
+    },
+    {
       "source_path": "ce/field-service/mobile-powerapp-copy-app-module.md",
       "redirect_url": "/dynamics365/field-service/mobile/custom-app-module-mobile",
       "redirect_document_id": false
@@ -33255,6 +33260,11 @@
     {
       "source_path": "ce/customer-service/administer/nuance-enroll-customer.md",
       "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/videos.md",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
       "redirect_document_id": false
     }
 
