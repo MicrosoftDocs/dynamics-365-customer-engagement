@@ -22,7 +22,7 @@ Your customer service representatives rely on data and information from a wide v
 
 Make sure the following prerequisites exist:
 
-- The System Administrator and CCI admin roles.
+- The System Administrator or CCI admin role.
 - A license for Copilot Studio is available. Learn more at:
     - [Manage Copilot Studio messages and capacity](/microsoft-copilot-studio/requirements-messages-management)
     - [View billed sessions](/microsoft-copilot-studio/analytics-billed-sessions)
