@@ -24,7 +24,7 @@ If you've enabled the enhanced full case form or added the **Attachment Control*
     
    :::image type="content" source="../media/enh-case-attach-mini.png" alt-text="Enhanced quick case form create" lightbox="../media/enh-case-attach.png":::
 
-- After representatives save a new case or if they open an existing case, the attachments grid is displayed. Learn more about the actions representatives can perform at [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
+- After representatives save a new case or if they open an existing case, the attachments grid is displayed. Learn more about the actions representatives can perform in [View an existing case using enhanced Full case form](../use/enh-casemgmt-csw.md#view-an-existing-case-by-using-the-enhanced-full-case-form).
 
    :::image type="content" source="../media/case-enh-save-mini.png" alt-text="Enhanced quick case form edit" lightbox="../media/case-enh-save.png":::
 
