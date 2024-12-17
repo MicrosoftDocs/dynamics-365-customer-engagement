@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 11/29/2024
+ms.date: 12/18/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -125,3 +125,7 @@ You can filter the [Copilot international availability report](https://releasepl
 :::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
 
 The **Release Wave** column indicates the release wave in which the support is available.
+
+## Copilot not working as expected?
+
+Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization. To resolve this issue, you need to [remove the DLP policies that are blocking Copilot](). 

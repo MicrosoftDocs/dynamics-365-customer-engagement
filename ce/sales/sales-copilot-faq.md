@@ -7,7 +7,7 @@ ms.reviewer: lavanyakr
 ms.topic: conceptual
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-ms.date: 10/15/2024
+ms.date: 12/18/2024
 ---
 
 # FAQ about Copilot in Dynamics 365 Sales
@@ -35,7 +35,7 @@ The data that's included in the requests varies based on the type of request. Fo
 Copilot uses Bing to fetch the latest news for an account. If you can't see the latest news for an account, it might be because of the following reasons:
 
 - Bing doesn't have any news for that account.  
-- Your administrator has not provided consent for Copilot to use Bing.
+- Your administrator hasn't provided consent for Copilot to use Bing.
 
 Learn more about turning on Bing consent in [Turn on copilots and generative AI features](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1)
 
@@ -99,6 +99,17 @@ A related app with the same name is also created for your tenant in Microsoft Az
 ## How does Copilot determine if a document is a sales document?
 
 Copilot determines whether a document is a sales document or not based on the content length, document type, and use of sales-specific keywords, like "procurement," "proposal," "tender," "supply," "requirements," "specifications," "buy," "sell," "order," "agreement," "customer," and any variation of these terms. Documents that have fewer than 30 words or don't contain sales-specific keywords are classified as non-sales.
+
+## Copilot isn't working as expected. What should I do?
+
+When [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) are enabled in your organization with the following non-business connectors blocked, Copilot might not work as expected.  
+
+- Http
+- Microsoft Dataverse
+- Direct Line channels in Copilot Studio
+- Application Insights in Copilot Studio  
+
+You must unblock the connectors and then group them together in a single policy to allow Copilot to work as expected. To understand how to create data policies, see [Manage data policies](/power-platform/admin/prevent-data-loss).
 
 ## Copilot for email
 
