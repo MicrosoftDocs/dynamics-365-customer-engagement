@@ -2,7 +2,6 @@
 title: "Create rollup fields in Dynamics 365 Customer Engagement (on-premises)"
 description: "Rollup fields are designed to offer insights into data by aggregating values. Learn about the capabilities of rollup fields and things to consider."
 ms.custom: 
-ms.date: 12/03/2024
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -148,11 +147,12 @@ Let’s take a look at several  rollup field scenarios. We’ll aggregate data f
 
 The currency rollup field value is calculated based on the this formula:
 
-    Sum Rollup Field's Value on SourceEntity = (Sum of CurrencyBaseFieldValues on RelatedEntity) * (ExchangeRate on SourceEntity)
+```properties
+Sum Rollup Field's Value on SourceEntity = (Sum of CurrencyBaseFieldValues on RelatedEntity) * (ExchangeRate on SourceEntity)
+```
 
 Where **ExchangeRate** refers to the record-level exchange rate at the time the record was created or any currency field on the record was updated.
 
-<a name="BKMK_considerations"></a>   
 ## Rollup field considerations  
  You should be aware of certain conditions and restrictions when working with rollup fields:  
   

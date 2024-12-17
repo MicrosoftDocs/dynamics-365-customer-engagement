@@ -1,9 +1,9 @@
 ---
-title: "msdyn_occommunicationprovidersetting Entity Reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_occommunicationprovidersetting table/entity."
-ms.date: 10/27/2022
-ms.topic: "reference"
-author: "gandhamm"
+title: msdyn_occommunicationprovidersetting Entity Reference (Microsoft Dataverse)
+description: Includes schema information and supported messages for the msdyn_occommunicationprovidersetting table.
+ms.date: 12/13/2024
+ms.topic: reference
+author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ---
@@ -221,6 +221,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |RequiredLevel|None|
 |Type|String|
 
+> [!NOTE]
+> Microsoft recommends that you use the most secure authentication available. You should only use connection string when other more secure flows aren't viable.
 
 ### <a name="BKMK_msdyn_securesecret"></a> msdyn_securesecret
 
@@ -236,7 +238,6 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |MaxLength|4000|
 |RequiredLevel|None|
 |Type|String|
-
 
 ### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
 

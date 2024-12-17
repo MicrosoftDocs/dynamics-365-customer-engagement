@@ -3,7 +3,7 @@ title: Use deep links to the Field Service mobile app
 description: Learn how to configure deep links to the Dynamics 365 Field Service mobile app.
 ms.subservice: field-service-mobile
 ms.topic: how-to
-ms.date: 08/28/2024
+ms.date: 12/13/2024
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -28,10 +28,10 @@ Deep links for Field Service should start with the following:
 
 | **Parameter**        | **Description**                                                              |
 |----------------------|------------------------------------------------------------------------------|
-| &lt;org-url&gt;      | Connects to the correct org URL                                              |
-| &lt;app-id&gt;       | Opens the correct app module                                                 |
-| tenantId             | Connects to the correct tenant                                               |
-| forceOfflineDataSync | Ensures that data sync is triggered so that all the latest data is available |
+| &lt;org-url&gt;      | Connects to the correct org URL. Don't include https://                      |
+| &lt;app-id&gt;       | Opens the correct app module.                                                |
+| tenantId             | Connects to the correct tenant.                                              |
+| forceOfflineDataSync | Ensures that data sync is triggered so that all the latest data is available.|
 
 If opening an `entityrecord` form or creating a new `entityrecord`, use the following parameters.
 

@@ -1,7 +1,7 @@
 ---
 title: Integrate a third-party IVR system with voice channel
 description: Use this article to understand how you can integrate third-party IVR systems with the voice channel and set up contextual call transfer via Azure direct routing.
-ms.date: 06/14/2024
+ms.date: 12/14/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -50,12 +50,12 @@ This section lists the high-level steps you must perform to enable contextual ca
     5. Enter the values for **Name** and **Type**. Ensure that the names of the context variables match exactly with the param names in the SIP UUI header.
     6. Select **Create**.
     
-    The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the agent.
+    The SIP UUI payload is automatically converted into context data that can be used in the voice channel for routing and to show relevant information to the customer service representative.
 
 You can now call the phone number assigned to the third-party IVR system and achieve a contextual call transfer with the voice channel.
 
 > [!NOTE]
-> Call record and transcriptions from the third-party IVR call with the customer aren't available for agents.
+> Call record and transcriptions from the third-party IVR call with the customer aren't available for service representatives.
 
 
 ### Related information

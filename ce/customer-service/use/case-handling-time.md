@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Case handling time is the time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
+Case handling time is the total time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
 
 You can view the following details on the case handling time widget:```
 
@@ -23,7 +23,7 @@ You can view the following details on the case handling time widget:```
  
 You can also do these actions on the case handling time widget:
 
-- View the profiles of all the agents who worked on the case. This includes agents whose time was automatically recorded or manually logged, and agents who worked on associated tasks activities such as phone calls, tasks, or emails.
+- View the profiles of all the representatives who worked on the case. This includes representatives whose time was automatically recorded or manually logged, and representatives who worked on associated tasks activities such as phone calls, tasks, or emails.
 - Turn on the **My time** toggle to see your time only on the case. The timer changes into a ticker that shows your active time in hours, minutes, and seconds as applicable. A visual indicator shows that your time is tracked in real time. 
  > [!NOTE]
  > You can view the **My time** toggle only if your administrator has enabled it in Power Apps. If it doesn't appear, **Total Time** displays only the time you've spent on the case.
@@ -61,8 +61,8 @@ The application tracks your time automatically when you focus on a specific case
 - In Customer Service Hub, as long as the case is in focus, the timer runs. If you close or refresh the browser, navigate to a different entity or case form, the timer stops.
 
 ### Time logs  
-- Show the total time that agents log manually on the case.
-- Based on your administrator's configurations, you can select the **Add** icon to log your time directly on the case. This can be the time that you spend working on the case outside the application such as researching offline, collaborating with other agents or subject matter experts, or any other activity that contributes to resolving a customer's issue.
+- Show the total time that representatives log manually on the case.
+- Based on your administrator's configurations, you can select the **Add** icon to log your time directly on the case. This can be the time that you spend working on the case outside the application such as researching offline, collaborating with other representatives or subject matter experts, or any other activity that contributes to resolving a customer's issue.
 
 ### Activities  
 The total time spent on the activities linked to the case. If there are multiple activities linked to the case, each activity's time (calculated from duration attribute) contributes to the total Activities time.
@@ -70,11 +70,11 @@ The total time spent on the activities linked to the case. If there are multiple
 
 ### View history
   
-- **Automatic time**: The total time spent by each agent on the case. You can edit only your own automatic time records. 
+- **Automatic time**: The total time spent by each representative on the case. You can edit only your own automatic time records. 
   > [!NOTE]
-  > The record for each agent is updated at the frequency set by your administrator. For example, when you create a new case, there won't be any record of automatic time in the history. The record appears after the first update interval.
-- **Time logs**: The time manually added by each agent sorted by date and displayed by newest to oldest.  
-- **Activities**: The time added for each activity by each agent sorted by date and displayed by newest to oldest.
+  > The record for each representative is updated at the frequency set by your administrator. For example, when you create a new case, there won't be any record of automatic time in the history. The record appears after the first update interval.
+- **Time logs**: The time manually added by each representative sorted by date and displayed by newest to oldest.  
+- **Activities**: The time added for each activity by each representative sorted by date and displayed by newest to oldest.
 
 
 :::image type="content" source="../media/CHT-screenshot.png" alt-text="screenshot for case handling time":::

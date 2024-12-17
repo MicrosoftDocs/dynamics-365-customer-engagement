@@ -2,7 +2,6 @@
 title: "Set properties for a dashboard chart or list in Dynamics 365 Customer Engagement (on-premises)"
 description: "To edit a chart or list from the dashboard, double-click it to open the dialog box. You can edit properties such as name, entity, default view, and more."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

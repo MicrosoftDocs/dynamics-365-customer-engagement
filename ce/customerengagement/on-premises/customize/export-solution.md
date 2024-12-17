@@ -2,7 +2,6 @@
 title: "Export a solution from Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about how and why to export an unmanaged solution from Customer Engagement (on-premises), as well as the options available when you export a solution."
 ms.custom: 
-ms.date: 07/11/2019
 ms.reviewer: 
 
 ms.suite: 

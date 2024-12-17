@@ -3,7 +3,6 @@ title: "Default value constraints are not consistent for upgrade | Microsoft Doc
 description: Environment diagnostics warning that the default value constraints aren't consistent.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

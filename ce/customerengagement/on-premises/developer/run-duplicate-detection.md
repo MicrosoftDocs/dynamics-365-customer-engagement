@@ -2,7 +2,6 @@
 title: "Run duplicate detection (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Execute duplicate detection for a specific record, entity type, or during create or update operations."
 ms.custom: 
-ms.date: 12/15/2017
 ms.reviewer: pehecke
 
 ms.suite: 
