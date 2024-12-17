@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
-Case handling time is the total time customer service representatives (service representatives or representatives) spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
+Case handling time is the total time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
 
 You can view the following details on the case handling time widget:```
 
