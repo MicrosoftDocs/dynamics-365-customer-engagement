@@ -1,7 +1,7 @@
 ---
 title: Skill control for routed records
 description: Learn how to add a skill control on forms to view skills of any record that's routed through unified routing.
-ms.date: 04/02/2024
+ms.date: 12/18/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -45,7 +45,7 @@ In the following example, to add a skill control named **Skills** to the **Case 
 
 1. Select **Done** and then save and publish the solution.
 
-At runtime, your agents will be able to view the skill control on all routed case records in Customer Service Hub. They can also update the skills required for the routed records in real time. 
+At runtime, your customer service representatives view the skill control on all routed case records in Customer Service Hub. They can also update the skills required for the routed records in real time. 
 
 Though we don't recommend setting up parameters for the skill control, if you want to manually enter the logical collection name or the relationship name of the record, you can use the following OData queries to get the information.
 
