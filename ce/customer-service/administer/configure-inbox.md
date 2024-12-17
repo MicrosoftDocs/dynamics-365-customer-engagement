@@ -103,7 +103,7 @@ You can configure a customized view for the inbox so that representatives can se
 
 To configure multiple views for the inbox, complete the following steps.
 
-1. Go to the representative experience profile for which you want to configure a custom view.
+1. Go to the agent experience profile for which you want to configure a custom view.
 
 1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
 
