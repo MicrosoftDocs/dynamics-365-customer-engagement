@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 10/10/2024
+ms.date: 11/29/2024
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -25,15 +25,11 @@ Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more 
 
 Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft 365 Copilot for Sales](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
-
 ## Chat in natural language or use predefined prompts
 
 Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. The Prompt guide lists all the predefined prompts that Copilot supports.
   
-Learn more:
-
-- [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md) 
-
+Learn more: [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
 
 ## Copilot in Dynamics 365 Sales capabilities
 
@@ -45,7 +41,6 @@ Copilot offers the following capabilities:
 - [Meeting preparation](#meeting-preparation)
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
-
 
 ### Record summarization
 
@@ -60,10 +55,10 @@ Learn more:
 
 ## Embedded experiences
 
-Apart from Copilot's chat and email experiences, you can also use Copilot's embedded experience in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
+Use Copilot's embedded experience in Dynamics 365 Sales to quickly gain insights into your records, including:
 
 - [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-the-opportunity-summary-widget).
--  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
+- [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Recent changes
 
@@ -85,7 +80,6 @@ Learn more:
 - [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#copilot-content-recommendation)
 - [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
 
-
 ### Meeting preparation
 
 Copilot helps you prepare for your upcoming meetings effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the meeting.
@@ -101,7 +95,6 @@ Learn more:
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy an email summary](view-copy-email-summary.md)  
 - [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails)
-
 
 ### News updates
 
@@ -132,9 +125,3 @@ You can filter the [Copilot international availability report](https://releasepl
 :::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
 
 The **Release Wave** column indicates the release wave in which the support is available.
-
-
-
-## Related information
-
-[Supercharge seller productivity (video)](https://youtu.be/1Lgodu6A2ZM)

@@ -5,13 +5,14 @@ ms.date: 12/31/2019
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 # msdyn_SessionData Entity Reference for Dynamics 365 Channel Integration Framework 1.0
 
 [!INCLUDE[token-msdyn-sessiondata](../../../../shared/token-msdyn-sessiondata.md)]
 
-### See also
+### Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework.md)
 

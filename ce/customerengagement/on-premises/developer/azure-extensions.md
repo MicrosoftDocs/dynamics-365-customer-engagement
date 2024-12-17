@@ -2,7 +2,6 @@
 title: "Azure extensions for Dynamics 365 Customer Engagement (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement (on-premises) can be integrated with Microsoft Azure. Developers can register plug-ins with Dynamics 365 Customer Engagement (on-premises) that can pass run-time message data, to one or more Microsoft Azure solutions in the cloud."
 ms.custom: 
-ms.date: 09/16/2022
 ms.reviewer: pehecke
 
 ms.suite: 

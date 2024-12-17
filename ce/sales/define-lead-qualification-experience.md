@@ -47,7 +47,7 @@ The legacy experience only lets you choose whether to automatically create accou
 
 2. Under **General Settings**, select **Lead + Opportunity management** > **Lead Qualification**.
 
-   You'll see following options:
+   You'll see the following options:
 
     - **Try the new lead qualification experience**: This setting is turned on by default. This setting lets you define the following experiences:
         - [Define the record creation experience for each record type](#define-the-record-creation-experience-for-each-record-type)
@@ -73,7 +73,6 @@ With the new [Lead qualification experience](#how-to-customize-the-lead-qualific
 - Select **Automatic** if you want the system to create the record automatically. Sellers can review the records that will be created automatically.
 
 In either case, if there's a matching record in the system, the duplicate detection rules are applied to prevent the creation of duplicate records. Sellers can choose to use the existing record or create a new one. For more information about rules used to identify duplicates, see [Manage duplicate leads](manage-duplicate-leads.md).
-
  
 ### Customize opportunity creation experience for qualified leads
 
@@ -119,7 +118,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Topic              | subject              | Topic                     | name                        |
 | Contact            | parentcontactid      | Contact                   | parentcontactid             |
 | Account            | parentaccountid      | Account                   | parentaccountid             |
-
+>
 **Fields mapped to account**
 
 | Field name in lead | Logical name in lead     | Field name in account       | Logical name in account     |
@@ -134,7 +133,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | State/Province     | address1_stateorprovince | Address 1: State/Province   | address1_stateorprovince    |
 | Zip/Postal Code    | address1_postalcode      | Address 1: ZIP/Postal Code  | address1_postalcode         |
 | Country/Region     | address1_country         | Address 1: Country/Region   | address1_country            |
-
+>
 **Fields mapped to contact**
 
 | Field name in lead | Logical name in lead     | Field name in contact       | Logical name in contact      |
@@ -161,7 +160,6 @@ When a lead is qualified, values of some fields from leads are automatically map
 [Create or edit leads](create-edit-lead-sales.md)  
 [FAQ about lead qualification experience](faq-lead.md#faqs-about-lead-qualification-experience)  
 [Troubleshoot issues with lead qualification](/troubleshoot/dynamics-365/sales/troubleshoot-lead-qualification-issues-for-system-admin)  
-[New Lead Management in Dynamics 365 Sales (video)](https://youtu.be/3oICCdxJTVM)  
 
 
 

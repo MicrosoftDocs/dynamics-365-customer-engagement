@@ -1,11 +1,11 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 06/21/2024
+ms.date: 12/13/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -95,9 +95,9 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 
 1. Select **Activate**. The SLA KPI is saved and activated.
 
-When agents create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior, and is also applicable to custom entities.
+When customer service representatives (service representatives) create an SLA KPI instance for an entity other than the case entity, the **Regarding** column appears as blank on Unified Interface, and as **(No name)** on the web client. This is a by-design behavior, and is also applicable to custom entities.
 
-If you choose to show the entity name for your agents, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
+If you choose to show the entity name for your service representatives, perform the steps [provided](#configure-sla-kpi-instance-entity-name-through-advanced-find).
 
 ### Configure SLA KPI instance entity name through Advanced Find
 
@@ -203,7 +203,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
 1. On the SLA page, select the SLA item, and then select **Edit SLA Item**. The SLA item page appears.
 
-1. In the **Actions** area, select **Configure Actions**. The Power Automate application opens on a new tab where you can configure the actions and reminders for agents to keep track of their SLAs.
+1. In the **Actions** area, select **Configure Actions**. The Power Automate application opens on a new tab where you can configure actions and reminders for service representatives to keep track of their SLAs.
 
 1. Perform the following steps in Power Automate:
 

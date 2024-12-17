@@ -1,7 +1,6 @@
 ---
 title: "API considerations of virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about API considerations for virtual entities in Dynamics 365 Customer Engagement (on-premises).
-ms.date: 10/31/2017
 
 ms.topic: article
 applies_to: 

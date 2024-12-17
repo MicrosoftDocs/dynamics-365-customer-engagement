@@ -5,6 +5,7 @@ ms.date: 6/14/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Enable supervisor access to manage conversations

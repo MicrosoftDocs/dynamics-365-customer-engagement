@@ -2,7 +2,6 @@
 title: "Understand dashboards: Dashboard components and FormXML (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Dashboards are one of the different types of forms in Dynamics 365 Customer Engagement. You can use the SystemForm.Type or UserForm.Type attribute to determine whether the form is a dashboard."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

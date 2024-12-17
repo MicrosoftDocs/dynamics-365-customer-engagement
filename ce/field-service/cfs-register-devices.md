@@ -1,5 +1,5 @@
 ---
-title: Register IoT devices (contains video)
+title: Register IoT devices
 description: Learn about IoT devices and how to register them in Dynamics 365 Field Service.
 ms.date: 09/04/2024
 ms.subservice: connected-field-service

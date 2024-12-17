@@ -2,7 +2,6 @@
 title: "Introduction to solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Developers and authors create, package and maintain units that extend Dynamics 365 Customer Engagement (on-premises)"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

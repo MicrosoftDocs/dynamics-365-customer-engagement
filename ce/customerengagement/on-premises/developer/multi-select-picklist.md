@@ -2,7 +2,6 @@
 title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
 ms.custom: 
-ms.date: 09/05/2018
 ms.reviewer: pehecke
 
 ms.suite: 
