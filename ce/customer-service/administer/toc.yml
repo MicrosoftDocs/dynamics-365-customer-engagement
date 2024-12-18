@@ -190,6 +190,8 @@
         href: add-enhanced-case-management.md
       - name: Enable enhanced case forms for multisession apps
         href: case-enh-config.md
+      - name: Add Power Apps components to case management forms
+        href: case-powerapps-comp.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
@@ -642,6 +644,8 @@
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
+      - name: Enable knowledge sources from Microsoft Copilot Studio (preview)
+        href: knowledgehub-copilot.md
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
     - name: Bots
