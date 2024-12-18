@@ -16,27 +16,42 @@ ms.custom: bap-template
 
 ## Section heading
 
-### [Real-time data model customization](#tab/realtimedatamodelcustomization)
+### [Sumamry](#tab/realtimedatamodelcustomization)
 
 - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
 
-### [Historical data model customization](#tab/historicaldatamodelcustomization)
+### [Conversation](#tab/historicaldatamodelcustomization)
 
 - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
 
-### [Real-time data model customization](#tab/realtimedatamodelcustomization)
+### [Queue](#tab/realtimedatamodelcustomization)
 
 - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
 
-### [Historical data model customization](#tab/historicaldatamodelcustomization)
+### [Voice](#tab/historicaldatamodelcustomization)
 
 - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
 
-### [Historical data model customization](#tab/historicaldatamodelcustomization)
+### [Bot](#tab/historicaldatamodelcustomization)
+
+- From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+    :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
+
+### [Topic](#tab/historicaldatamodelcustomization)
+
+- From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+    :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
+
+### [Voicemail](#tab/historicaldatamodelcustomization)
+
+- From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+    :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
+
+### [Unified routing](#tab/historicaldatamodelcustomization)
 
 - From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
     :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
