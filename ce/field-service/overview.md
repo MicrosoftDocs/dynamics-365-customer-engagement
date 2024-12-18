@@ -68,13 +68,13 @@ Work orders describe the work that a technician needs to perform at a customer l
 
    Most work orders also include a location based on the related customer account and/or equipment that needs attention; this location routes the field technician from job to job. Finally, incoming work orders that are marked as ready for assignment are passed along to a dispatcher for scheduling.
 
-   :::image type="content" source="media/work-order-process-1.png" alt-text="Screenshot of Work Orders in Field Service.":::
+   :::image type="content" source="media/work-order-process-1.png" alt-text="Screenshot of Work Orders in Field Service." lightbox="media/work-order-process-1.png":::
 
 1. An interactive schedule board helps dispatchers assign work orders to the best resources based on location, availability, skill set, priority, and more. This is done via a manual drag-and-drop method, a semi-automated scheduling assistant, or fully automated with Resource Scheduling Optimization.
 
     The schedule board displays each resource--whether an employee, contractor, or equipment--and their scheduled work orders. Resources and their assigned jobs are also displayed on a map along with routes and traffic patterns in real time. The schedule board is extensible and can be used to schedule anything within Dynamics 365, including work orders, sales orders, projects, and custom entities. Additionally, Microsoft 365 integration allows for emailing and skype calling to available resources.
 
-   :::image type="content" source="media/work-order-process-2.png" alt-text="Screenshot of the Schedule Board in Field Service.":::
+   :::image type="content" source="media/work-order-process-2.png" alt-text="Screenshot of the Schedule Board in Field Service." lightbox="media/work-order-process-2.png":::
 
 1. An easy-to-use mobile app for iOS, Android, and Windows devices guides field technicians through the process of resolving assigned work orders. Copilot supports technicians with quick summaries of each work order and supports them by updating work orders to save time on the job. For each work order, the field technician can view important information such as location, step-by-step instructions, customer assets, and service history. They can use their device to take pictures and videos or record a digital customer signature. Field technicians can also automatically download important information to their devices for offline work when internet isn't available.
 
@@ -84,6 +84,6 @@ Work orders describe the work that a technician needs to perform at a customer l
 
     For example, if an equipment part is installed at a customer's location during an installation or repair, the system documents a reduction in inventory from the related warehouse or truck and document the part as a new customer asset along with installation/repair details. Closing a work order generates an invoice for any used parts or labor.
 
-   :::image type="content" source="media/work-order-process-4.png" alt-text="Screenshot of a completed work order in Field Service.":::
+   :::image type="content" source="media/work-order-process-4.png" alt-text="Screenshot of a completed work order in Field Service." lightbox="media/work-order-process-4.png":::
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
