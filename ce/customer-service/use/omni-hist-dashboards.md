@@ -51,6 +51,17 @@ ms.custom: bap-template
 
 ---
 
+### [Summary](#tab/realtimedatamodelcustomization)
+
+- From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+    :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
+
+### [Metrics](#tab/realtimedatamodelcustomization)
+
+- From the **Embedded Power BI extensibility - Historical data model customization** page, go to Step 4.
+    :::image type="content" source="../media/embed-historical.png" alt-text="Screenshot of the historical reports you want to view on the site map.":::
+
+---
 ## Metrics
 
 ## Next steps
