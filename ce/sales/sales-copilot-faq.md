@@ -102,7 +102,7 @@ Copilot determines whether a document is a sales document or not based on the co
 
 ## Copilot isn't working. What should I do?
 
-When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and try again later. There could be several reasons why Copilot isn't working as expected. The reason could be that your organization has [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
+When you open Copilot in Dynamics 365 Sales, Copilot doesn't respond, and you might see a message stating that Copilot is unable to connect and to try again later. There could be several reasons why Copilot isn't working as expected. One of the reason could be that your organization has [Data Loss Prevention (DLP) policies](/power-platform/admin/wp-data-loss-prevention) which are blocking the following connectors.  
 
 - HTTP
 - Microsoft Dataverse
