@@ -125,7 +125,3 @@ You can filter the [Copilot international availability report](https://releasepl
 :::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
 
 The **Release Wave** column indicates the release wave in which the support is available.
-
-## Copilot not working as expected
-
-Copilot might not work as expected due to various reasons. However, one of the reason is that the Data Loss Prevention (DLP) policies are enabled in your organization and the required connectors are blocked. To resolve this issue, you need to [unblock and configure the connectors in the policy](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).  
