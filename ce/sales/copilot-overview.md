@@ -114,7 +114,7 @@ Copilot takes into account the [user's preferred UI language](/dynamics365/proje
 | English or non-English   | One of the supported non-English languages | Output in the preferred UI language of the user.                                                |
 | English or non-English   | An unsupported language     | Output is unpredictable as the language is unsupported. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
 
-We are continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
+We're continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
 
 ### How to use the Copilot international availability report
 
@@ -128,4 +128,4 @@ The **Release Wave** column indicates the release wave in which the support is a
 
 ## Copilot not working as expected
 
-Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization. To resolve this issue, you need to [remove the DLP policies that are blocking Copilot](sales-copilot-faq.md#copilot-isnt-working-as-expected-what-should-i-do). 
+Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization and the required connectors are blocked. To resolve this issue, you need to [unblock and configure the connectors in the policy](sales-copilot-faq.md#copilot-isnt-working-as-expected-what-should-i-do).  
