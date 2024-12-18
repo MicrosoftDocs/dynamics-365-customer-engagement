@@ -128,4 +128,4 @@ The **Release Wave** column indicates the release wave in which the support is a
 
 ## Copilot not working as expected
 
-Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization and the required connectors are blocked. To resolve this issue, you need to [unblock and configure the connectors in the policy](sales-copilot-faq.md#copilot-isnt-working-as-expected-what-should-i-do).  
+Copilot might not work as expected due to various reasons. However, one of the most common reason is that the Data Loss Prevention (DLP) policies are enabled in your organization and the required connectors are blocked. To resolve this issue, you need to [unblock and configure the connectors in the policy](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).  

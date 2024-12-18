@@ -120,7 +120,7 @@ You must unblock these connectors and then group them together in a policy (busi
         1. Add the endpoints: `https://dataverse/*` and `https://adaptivecards.io/*` and select **Action** as **Allow** for each endpoint.  
             **Note**: For the * endpoint, select **Action** as **Deny**.  
         1. Select **Save**.  
-    - **Microsoft Dataverse**: To know more about the Microsoft Dataverse connector, see [Microsoft Dataverse](connectors/commondataserviceforapps/).
+    - **Microsoft Dataverse**: To know more about the Microsoft Dataverse connector, see [Microsoft Dataverse](connectors/commondataserviceforapps).
     - **Direct Line channels in Copilot Studio**  
     - **Application Insights in Copilot Studio**
 
