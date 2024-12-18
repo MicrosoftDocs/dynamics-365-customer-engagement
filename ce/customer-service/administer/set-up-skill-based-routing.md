@@ -49,7 +49,7 @@ If a representative isn't available with all the required skills and correspondi
 
 You can configure exact skill match in one of the following ways:
 
-- In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Exact Match**. In the assignment method of the queue, choose highest capacity or round robin assignment method. The exact match algorithm isn't applicable to work items if yhe custom assignment method is applied to a queue. You need to write rules to achieve exact match for the custom assignment method.
+- In the work distribution settings of the workstream, set the value for **Default skill matching algorithm** as **Exact Match**. In the assignment method of the queue, choose highest capacity or round robin assignment method. The exact match algorithm isn't applicable to work items if the custom assignment method is applied to a queue. You need to write rules to achieve exact match for the custom assignment method.
 - Create a custom assignment method and create rules on attribute user skills:
 
   In exact skill match, as part of custom assignment method, you can write rule conditions to enable assignment logic to search for representatives who match all the required skills or match all skills within a skill type. The matched representatives can be ordered using the following order by options:
