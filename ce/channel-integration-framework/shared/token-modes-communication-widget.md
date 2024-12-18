@@ -22,6 +22,6 @@ Providers can also decide on the mode of the communication widget when they're s
 
 ## Collapsed
 
-The side panel is visible by default and can be collapsed from the user interface to the left.
+The communication panel is visible by default. Agents can collapse the panel manually.
 
-Users can collapse the side panel using APIs.
+Providers can collapse the panel using APIs.
