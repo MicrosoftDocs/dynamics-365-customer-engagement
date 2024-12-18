@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 07/01/2024
+ms.date: 12/18/2024
 ms.custom: bap-template
 ---
 
@@ -71,6 +71,10 @@ You can also create a custom report per your business requirements to monitor th
 - Manage automatic assignment if the top 100 work items have extended wait times.
 - Use skill-based routing to distribute work items to the most qualified agents.
 - Set up single or multiple queues with skill-matching to manage different types of work.
+
+### Use classification rules to optimize route-to-queue and prioritization rules
+
+Complex rules and conditions in prioritization rulesets add latency to the prioritization and assignment cycles. These assignment cycles are iterative and run every time until the system finds an agent and assigns the work item. As a best practice for checks that yield a static value, we recommend that you use the classification rules in the workstream to categorize the conversation. For example, checks on whether the customer is a VIP or the conversation is an urgent query that requires immediate attention, needn't be evaluated frequently and can be evaluated only once during classification. By setting an attribute in the classification rule, you can use it downstream in route-to-queue and prioritization rules as well.  This simplifies manageability and reduces the latency on assignment.
 
 ### Manage auto-assignment if work items have extended wait times
 
