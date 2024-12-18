@@ -1,5 +1,5 @@
 ---
-title: "Enable multisession navigation with customized model-driven apps | MicrosoftDocs"
+title: "Enable multisession navigation with customized model-driven apps (Preview)| MicrosoftDocs"
 description: "Use the multisession navigation in Customer Service workspace to help agents work on multiple cases and conversations."
 ms.date: 11/13/2024
 ms.topic: overview
@@ -8,17 +8,17 @@ ms.author: nenellim
 
 ---
 
-# Multisession navigation and productivity tools
+# Multisession navigation and productivity tools (Preview)
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+[!INCLUDE preview-banner]
 
 The multisession navigation feature within the Dynamics 365 Customer Service workspace helps agents with increased productivity with a browser-like, tabbed experience. Agents can use an existing customized model-driven application to work on multiple cases and conversations. It's a modern, customizable, high-productivity app that allows agents to work on multiple sessions at a time in a single workspace.
 
-This application uses artificial intelligence in productivity tools like Co-pilot to boost productivity. Features such as agent scripts and macros provide the agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
+This application uses artificial intelligence in productivity tools like Copilot to boost productivity. Features such as agent scripts and macros provide the agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
 ## Prerequisites
 
-To configure the multisession navigation feature, make sure that the you follow the Customer Service workspace system requirements. Learn more at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
+To configure the multisession navigation feature, make sure that you follow the Customer Service workspace system requirements. Learn more at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
 
 > [!NOTE]
 > The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more in [Get started with Customer Service workspace](../implement/csw-overview.md).
@@ -26,12 +26,12 @@ To configure the multisession navigation feature, make sure that the you follow 
 
 ## Application lifecycle management
 
-The multisession navigation feature is aligned with application lifecycle management. You can enable this feature in a custom model driven app in your development environment, package the app, and then import to a testing or production environment without the need to re-apply the settings. 
+The multisession navigation feature is aligned with application lifecycle management. You can enable this feature in a custom model driven app in your development environment, package the app, and then import to a testing or production environment without the need to reapply the settings. 
 
 To summarize this:
-- You can enable this feature in a model driven app within an unmanaged solution.
+- You can enable the multisession navigation feature in a model driven app within an unmanaged solution.
 - You can't enable this feature in a model driven app within a managed solution.
-- This feature is not supported in model driven apps installed by default, such as Sales Hub.
+- This feature isn't supported in model driven apps installed by default, such as Sales Hub.
 
 Perform the following steps to add the multisession and productivity tools for your customized model-driven app.
 
@@ -39,11 +39,11 @@ Perform the following steps to add the multisession and productivity tools for y
 
 2. Use the Customer Service admin center to enable the multisession and productivity tools for your customized model-driven app.
 
-3. In the app, validate the changes and test your customization. The productivity tools settings will be applied to your user account based on your organization's Agent Experience Profile settings. Learn more in [Agent experience profiles](./overview.md).
+3. Validate the changes and test your customization in the app. The productivity tools settings are applied to your user account based on your organization's Agent Experience Profile settings. Learn more in [Agent experience profiles](./overview.md).
 
 4. Export the solution from the development environment that contains the model-driven app and the corresponding sitemap. The multisession navigation settings are included in the app module by default. Learn more in [Export solutions](/power-apps/maker/data-platform/export-solutions).
 
-5. Import the solution in your testing environment, validate the changes and test your customizations. Learn more in [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions)
+5. Import the solution in your testing environment, validate the changes, and test your customizations. Learn more in [Import solutions](/power-apps/maker/data-platform/import-update-export-solutions)
 
 
 ## Enable multisession navigation
