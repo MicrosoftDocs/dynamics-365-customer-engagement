@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 12/13/2024
+ms.date: 12/18/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -47,6 +47,7 @@ For more information about the licensing requirements for Copilot in Dynamics 36
 - Verify whether your [region has an Azure OpenAI Service endpoint](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features). If not, you must provide the following [consent in the Power Platform admin center](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features):
   - Consent for data movement across regions to use Copilot in Dynamics 365 Sales.  
   - Consent for Copilot to use Bing search so that your sellers can get the latest news about their accounts.
+- Verify that the required connectors for Copilot are not blocked in your organization's Data Loss Prevention (DLP) policies. When blocked, an error displays stating Copilot is unable to connect and to try again later. To resolve this issue, you need to [unblock and configure the connectors in the policy](sales-copilot-faq.md#copilot-isnt-working-what-should-i-do).  
 
 ## Turn Copilot features on or off in Sales Hub
 
