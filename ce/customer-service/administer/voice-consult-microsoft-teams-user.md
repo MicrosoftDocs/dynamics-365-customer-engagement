@@ -28,7 +28,7 @@ You can transfer and consult with Teams users by assigning phone numbers to user
 ## Enable representatives to consult with Microsoft Teams users via PSTN
 
 > [!NOTE]
-> Consult and transfer to Microsoft Teams users or Azure guest users via PSTN in the Teams tab is not supported in the enhanced voice experience.  Please use the external tab to call numbers via PSTN.
+> Consult and transfer to Microsoft Teams users or Azure guest users via PSTN in the Teams tab isn't supported in the enhanced voice experience. Use the external tab to call numbers via PSTN.
 
 To allow the representatives to consult with Microsoft Teams users, enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](../voice-channel-route-queues.md#configure-a-voice-channel). 
 
