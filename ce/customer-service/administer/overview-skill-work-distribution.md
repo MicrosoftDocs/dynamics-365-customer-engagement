@@ -50,7 +50,6 @@ If your environment has scheduling solutions, then you must have version 9.0.0.0
 
 [Skill-based routing in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114717)
 
-To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
 
 ### Related information
 
