@@ -200,6 +200,25 @@ Returns the list of forecast instances that are a single row entity record.
 > [!NOTE]
 > Forecast periods can have many forecast instances. Far more than you would want to pull down in a single request. The API endpoints default to providing a limited number of items per request.<br />Note: Large queries can hurt performance, so the number of results per page is capped at 4000 records. If you wish to retrieve more than 4000 records, for example to build a client-side list of all available forecast instances, you can make multiple API requests and combine the results within your application.
 
+```http
+POST [Organization URI]/api/data/v9.1/msdyn_ForecastApi HTTP/1.1
+Content-Type: application/json
+
+{
+    "WebApiName": "GET_ForecastInstances",
+    "RequestJson": "{
+    	\"ForecastPeriodId\":\"8b8cadd8-ede3-4b21-97cf-93efc0337089\",
+    	\"ForecastConfigurationId\":\"04323a04-da7f-ea11-a811-000d3a37bb2c\", 
+    	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
+    	\"SortingOrder\":\"DSC\",
+    	\"PageSize\":1,
+    	\"PageNo\":1,
+        \"GetParticipatingRecordsFetchXml\":true,
+        \"ParticipatingRecordsViewId\":\"bf649add-6c30-ea11-a813-000d3a5475f7\"
+    }"
+}
+```
+
 #### Example
 
 ```http
