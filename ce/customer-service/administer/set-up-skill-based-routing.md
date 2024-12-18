@@ -73,9 +73,9 @@ You can configure exact skill match in one of the following ways:
 
 ### Closest Match
 
-When it's more important to find a representative than wait for a representative who has the exact required skills, unified routing provides you with an option to order the representatives using proficiency or skill count. Ordering helps to achieve the goal of the closest skill match.
+When it's more important to quickly find a representative than wait for a representative who has the exact required skills, unified routing provides you with an option to order the representatives using proficiency or skill count. Ordering helps achieve the goal of the closest skill match.
 
-Closest match orders all representatives based on their closeness to the required skill and proficiency. For example, if the required skills are four, then representatives with four skills will be put on top (exact qualified), then representative with five skills (overqualified), followed by a representative with three skills (under qualified).
+The Closest Match feature puts all representatives in an order that's based on their closeness to the required skill and proficiency. For example, if the required skills are four, then representatives with four skills are put on top (exact qualified), then representative with five skills (overqualified), followed by a representative with three skills (underqualified).
 
 If no representative is available with any of the required skills, then the conversation might be assigned to a representative without any required skills.
 
