@@ -1,7 +1,7 @@
 ---
 title: msdyn_ForecastApi custom action
 description: Read how you can use msdyn_ForecastApi custom action to retrieve and update forecasting data.
-ms.date: 09/11/2024
+ms.date: 12/18/2024
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
@@ -209,14 +209,15 @@ Content-Type: application/json
 {
     "WebApiName": "GET_ForecastInstances",
     "RequestJson": "{
-    	\"ForecastPeriodId\":\"8b8cadd8-ede3-4b21-97cf-93efc0337089\",
-    	\"ForecastConfigurationId\":\"04323a04-da7f-ea11-a811-000d3a37bb2c\", 
-    	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
-    	\"SortingOrder\":\"DSC\",
-    	\"PageSize\":1,
-    	\"PageNo\":1,
-        \"GetParticipatingRecordsFetchXml\":true,
-        \"ParticipatingRecordsViewId\":\"bf649add-6c30-ea11-a813-000d3a5475f7\"
+    	\"ForecastPeriodId\":\"a0a0a0a0-bbbb-cccc-dddd-e1e1e1e1e1e1\",
+    	\"ForecastConfigurationId\":\"b1b1b1b1-cccc-dddd-eeee-f2f2f2f2f2f2\",
+      \"PageInfo\":
+    	   \"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
+         \"SortingOrder\":\"DESC\",
+         \"PageSize\":1,
+    	   \"PageNo\":1,
+      \"GetParticipatingRecordsFetchXml\":true,
+      \"ParticipatingRecordsViewId\":\"c2c2c2c2-dddd-eeee-ffff-a3a3a3a3a3a3\"
     }"
 }
 ```
@@ -232,14 +233,16 @@ Given below is the sample JSON for `RequestJson` object.
     "WebApiName": "GET_ForecastInstances",
     "RequestJson": "{
     	\"ForecastPeriodId\":\"{{frid}}\",
-    	\"ForecastConfigurationId\":\"{{fcid}}\", 
-    	\"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
-    	\"SortingOrder\":\"DSC\",
-    	\"PageSize\":1,
-    	\"PageNo\":1,
-        \"GetParticipatingRecordsFetchXml\":false  
+    	\"ForecastConfigurationId\":\"{{fcid}}\",
+      \"PageInfo\":
+    	   \"SortingAttribute\":\"HierarchyEntityRecord.RecordId\",
+    	   \"SortingOrder\":\"DESC\",
+    	   \"PageSize\":1,
+    	   \"PageNo\":1,
+      \"GetParticipatingRecordsFetchXml\":false,
+      \"ParticipatingRecordsViewId\":\"{{rvid}}\" 
     }"
-} 
+}
 ```
 
 #### Response
