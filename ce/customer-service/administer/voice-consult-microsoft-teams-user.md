@@ -27,6 +27,9 @@ You can transfer and consult with Teams users by assigning phone numbers to user
 
 ## Enable representatives to consult with Microsoft Teams users via PSTN
 
+> [!NOTE]
+> Consult and transfer to Microsoft Teams users or Azure guest users via PSTN on the **Teams** tab of the dialer isn't supported in the enhanced voice experience. Use the **External number** tab to call numbers via PSTN.
+
 To allow the representatives to consult with Microsoft Teams users, enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](../voice-channel-route-queues.md#configure-a-voice-channel). 
 
 The following prerequisites must be set for the Microsoft Teams users:
@@ -36,15 +39,12 @@ The following prerequisites must be set for the Microsoft Teams users:
   To update the Teams phone number in the user profile, perform the following steps: 
     1. Sign in to the Azure portal and go to **Microsoft Entra ID**.
     1. Select **Manage** > **Users**
-    1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
-    
-> [!NOTE]
-> When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
+    1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field. When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
 
 - **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Microsoft Entra ID for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
 
      1. Add a guest user in the Azure portal. More information: [Add a new guest user](/entra/external-id/b2b-quickstart-add-guest-users-portal)
-     2. On the guest user profile page, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
+     1. On the guest user profile page, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
 
   Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Representatives can then search for the guest user in the Teams tab of transfer or consult.
 
@@ -52,13 +52,11 @@ The following prerequisites must be set for the Microsoft Teams users:
 
 If you've updated to the enhanced voice experience, you can enable your representatives to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
+To allow the representatives to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** settings in the voice channel section of the voice workstream.
+
 Calling services are charged on a per minute per participant basis at 0.004 per participant per minute and is less than the Public Switched Telephone Network (PSTN) charges of $0.013 per participant per minute.
-
-> [!NOTE]
-> - Representatives can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
-> - If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. This is because the call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when adding a Teams user to a group call.
-
-To allow the representatives to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** setting in the voice channel section of the voice workstream.
+Representatives can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
+If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. This is because the call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when adding a Teams user to a group call.
 
 To enable the consult and transfer experience through VOIP, perform the following prerequisites:
 
