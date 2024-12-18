@@ -10,7 +10,7 @@ ms.author: nenellim
 
 # Multisession navigation and productivity tools (Preview)
 
-[!INCLUDE preview-banner]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 The multisession navigation feature within the Dynamics 365 Customer Service workspace helps agents with increased productivity with a browser-like, tabbed experience. Agents can use an existing customized model-driven application to work on multiple cases and conversations. It's a modern, customizable, high-productivity app that allows agents to work on multiple sessions at a time in a single workspace.
 
