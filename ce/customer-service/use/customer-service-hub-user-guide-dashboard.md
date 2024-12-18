@@ -23,7 +23,7 @@ Dynamics 365 Customer Service interactive experience dashboards are a one-stop w
   
 Watch this video to learn more about dashboards in the Customer Service Hub:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/72e6420d-6cbd-4a1c-bdf3-d6b500d14718]
+> [!VIDEO 72e6420d-6cbd-4a1c-bdf3-d6b500d14718]
 
 ## Interactive experience dashboards overview  
 The interactive dashboards come in two flavors:
