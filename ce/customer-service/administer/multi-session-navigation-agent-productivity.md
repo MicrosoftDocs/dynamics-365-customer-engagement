@@ -56,8 +56,7 @@ Perform the following steps to enable the multisession navigation feature.
 
 3. Select the custom model-driven app you want to use and select **Edit**.
 
-  > [!div class=mx-imgBorder]
-  > ![Select your custom model-driven app in Workspaces.](../media/custom-model-driven-app.png "Select your custom model-driven app in Workspaces")
+  :::image type="Select your custom model-driven app in Workspaces." source="../media/custom-model-driven-app.png" alt-text="Select your custom model-driven app in Workspaces." lightbox="../media/custom-model-driven-app.png":::
 
 > [!NOTE]
 > A model driven app with the lock icon indicates that it is part of a managed solution and cannot be edited.
