@@ -2,7 +2,6 @@
 title: "Sample: Make a report available or unavailable to organization | MicrosoftDocs"
 description: "This sample shows how make a report available or unavailable to an organization."
 ms.custom:
-ms.date: 01/28/2020
 ms.reviewer: pehecke
 
 ms.suite:

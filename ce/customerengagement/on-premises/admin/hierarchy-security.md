@@ -2,7 +2,6 @@
 title: "Hierarchy security in Dynamics 365 Customer Engagement (on-premises)"
 description: "Hierarchy security is an extension of existing models that allows for more granular access to data. This page explains the two models and how to set them up."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

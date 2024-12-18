@@ -3,7 +3,6 @@ title: "You've encountered a check that does not have a Help topic | Microsoft D
 description: Environment diagnostics warning that a validation check has been encountered that doesn't have Help.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

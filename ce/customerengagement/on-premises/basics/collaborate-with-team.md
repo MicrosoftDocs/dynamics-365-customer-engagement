@@ -2,7 +2,6 @@
 title: "Collaboration in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about the integration features that allow for team collaboration within Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 9/15/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -11,8 +10,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 820dc548-667d-4e12-82c2-0c76314144b3
 caps.latest.revision: 4
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

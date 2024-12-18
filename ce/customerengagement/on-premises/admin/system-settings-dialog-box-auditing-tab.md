@@ -2,7 +2,6 @@
 title: "Auditing settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Auditing tab, enable auditing to track updates to your organization’s data and maintain a log of changes."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Support and billing for Dynamics 365 Customer Engagement (on-premises)"
 description: "Get an overview of Dynamics 365 Support, including information on plans, services, languages, billing, submitting requests, and more."
 ms.custom: 
-ms.date: 09/12/2020
 ms.reviewer: 
 
 ms.suite: 

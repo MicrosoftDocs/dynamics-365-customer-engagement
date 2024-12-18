@@ -2,7 +2,6 @@
 title: "Sample: Work with activity party records (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample shows how to work with activity party records"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

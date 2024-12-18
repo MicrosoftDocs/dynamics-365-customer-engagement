@@ -1,7 +1,7 @@
 ---
 title: Overview of service-level agreements
 description: Configure and manage service-level agreements (SLAs) to track support policies and provide customers with measured and predictable service.
-ms.date: 02/14/2024
+ms.date: 12/13/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -32,9 +32,9 @@ Alternatively, you can set up a default SLA for the organization. More informati
 
 ### Tracking
 
-- After you configure the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to agents. For more information, go to: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This functionality helps agents monitor their service-level performance and meet their service-level goals.
+- After you configure the SLA KPIs, SLAs, and SLA items for an entity, you can add the SLA Timer control to display the SLA KPIs that are configured for the entity. You can customize the views to filter the KPIs and display only the relevant KPIs to customer service representatives (service representatives). For more information, go to: [Add a timer control for SLA-enabled entities](../administer/add-timer-control-case-form-track-time-against-sla.md#add-a-timer-control-for-sla-enabled-entities). This functionality helps service representatives monitor their service-level performance and meet their service-level goals.
 - You can create SLA KPIs with target times by setting up customer holiday schedules or customer service schedules to calculate business hours to be considered during time calculation. 
-- You can also enable recalculation of SLAs, providing agents with sufficient time to work on their services. More information: [Enable recalculation of SLAs on reaching terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status)
+- You can also enable recalculation of SLAs, providing service representatives with sufficient time to work on their services. More information: [Enable recalculation of SLAs on reaching terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status)
 
 ### Prioritization
 

@@ -2,7 +2,6 @@
 title: "Sample: Book an appointment | MicrosoftDocs"
 description: "Sample demonstrates how to book or schedule an appointment by using the BookRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

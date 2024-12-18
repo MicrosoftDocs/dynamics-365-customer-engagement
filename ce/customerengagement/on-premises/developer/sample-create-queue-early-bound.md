@@ -2,7 +2,6 @@
 title: "Sample: Create a queue (early bound) | MicrosoftDocs"
 description: The sample code demonstrates how to create a simple queue and set the required attributes.
 ms.custom:
-ms.date: 12/18/2017
 ms.reviewer: pehecke
 
 ms.suite:

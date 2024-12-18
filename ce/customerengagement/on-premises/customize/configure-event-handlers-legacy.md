@@ -6,7 +6,6 @@ author: Mattp123
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
 ms.author: matp
-ms.date: 04/03/2018
 
 ms.topic: article
 ms.assetid: dc0ebb3f-0c00-413a-968f-9cfd107055c0

@@ -19,7 +19,7 @@ As a bot author, you can enable your Copilot Studio bots to understand context w
 
 ## Connect to omnichannel instance
 
-Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](../administer/configure-bot-virtual-agent.md#connect-your-copilot-studio-bot-to-omnichannel-instance).
+Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](../administer/configure-bot-virtual-agent.md#configure-context-variables-for-the-copilot-studio-agent).
 
 ## Next steps
 

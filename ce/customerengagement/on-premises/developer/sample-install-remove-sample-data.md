@@ -2,7 +2,6 @@
 title: "Sample: Install or remove sample data (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample code to install standard sample data for Customer Engagement (on-premises)."
 keywords:
-ms.date: 10/31/2017
 
 ms.custom:
 ms.topic: sample

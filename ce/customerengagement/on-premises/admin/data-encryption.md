@@ -2,7 +2,6 @@
 title: "Data encryption in Dynamics 365 Customer Engagement (on-premises)"
 description: "All new and upgraded organizations use data encryption by default. System administrators can change the encryption key at any time."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
