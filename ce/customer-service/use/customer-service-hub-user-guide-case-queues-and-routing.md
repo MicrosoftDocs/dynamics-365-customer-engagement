@@ -1,7 +1,7 @@
 ---
-title: "Cases to queues and routing in Customer Service Hub | MicrosoftDocs"
-description: "Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service."
-ms.date: 04/05/2023
+title: Manage case queues and route cases
+description: Understand cases and SLA in Customer Service Hub for Dynamics 365 Customer Service.
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ search.audienceType:
   - enduser
 ---
 
-# Case queues and routing
+# Manage case queues and route cases
 
 Customer Service allows you to add a case to a queue, save case records, and route them to a queue.
 

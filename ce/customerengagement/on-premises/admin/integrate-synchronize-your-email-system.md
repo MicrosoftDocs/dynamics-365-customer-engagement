@@ -2,7 +2,6 @@
 title: "Email integration with Dynamics 365 Customer Engagement (on-premises)"
 description: "To store email and other messaging records in Customer Engagement (on-premises), integrate your email system with server-side synchronization."
 ms.custom: 
-ms.date: 12/11/2020
 ms.reviewer: 
 
 ms.suite: 

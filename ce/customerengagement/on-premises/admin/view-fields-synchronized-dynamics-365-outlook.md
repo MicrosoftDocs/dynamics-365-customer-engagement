@@ -2,7 +2,6 @@
 title: "View synchronized fields in Dynamics 365 Customer Engagement (on premises)"
 description: "Learn how to view the fields that are synchronized between Outlook and Customer Engagement (on-premises), and find out which direction they're syncing."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

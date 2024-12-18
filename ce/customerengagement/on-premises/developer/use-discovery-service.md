@@ -2,7 +2,6 @@
 title: "Use the Dynamics 365 Customer Engagement (on-premises) Discovery services (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "In a multi-tenant environment like Dynamics 365 Customer Engagement (on-premises), the Discovery web service helps determine which organizations a user is a member of."
 ms.custom: 
-ms.date: 09/05/2019
 ms.reviewer: pehecke
 
 ms.suite: 

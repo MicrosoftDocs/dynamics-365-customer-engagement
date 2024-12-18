@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Enhanced case management in multisession apps
 
-The Customer Service workspace offers an enhanced case management experience. Agents can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
+The Customer Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
 
 ## Create cases by using a quick create from
 
@@ -87,7 +87,7 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 ## View an existing case by using the enhanced full case form
 
 If you save the case by using the enhanced full case form, the application displays the following elements:
-   - A service level agreement (SLA) timer that displays the time within which the agents must first respond to a customer and the time by which they must resolve the case.
+   - A service level agreement (SLA) timer that displays the time within which the representatives must first respond to a customer and the time by which they must resolve the case.
    - Links to the activities that are associated with the case, and that are either due on the current date or past their due date. Select a link to view the open activities associated with the case on a tab that your administrator has configured. By default, the application displays open activities on the **Activities** tab. [Learn how to specify a tab to redirect users to view the open activities for a case.](../administer/case-enh-config.md)
    - A **Customer Details** side pane that displays related customer information and recent case information.
    - **Queue item details**, which displays the current queue the case belongs to and the **Worked by** field.

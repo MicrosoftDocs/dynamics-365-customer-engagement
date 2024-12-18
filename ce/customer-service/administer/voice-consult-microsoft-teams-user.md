@@ -1,10 +1,10 @@
 ---
 title: Enable voice consult with Microsoft Teams user for the voice channel
-description: Learn how to enable the consult experience between a voice channel agent and a Microsoft Teams user.
+description: Learn how to enable the consult experience between a voice channel customer service representative and a Microsoft Teams user.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 10/17/2024
+ms.date: 12/14/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -16,15 +16,18 @@ ms.custom: bap-template
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-Customer service is not always limited to contact centers. Employees within the enterprise are often required to assist agents in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your agents to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams.
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-The SMEs can participate in customer service conversations directly from Microsoft Teams to help agents in Dynamics 365 and customers on the phone call to resolve issues expertly.
+
+Customer service is not always limited to contact centers. Employees within the enterprise are often required to assist customer service representatives (service representative or representative) in customer service scenarios and talk to customers directly for highly technical or VIP engagements. You can enable your s to consult with or transfer voice calls in Omnichannel for Customer Service to subject matter experts (SMEs) in Microsoft Teams.
+
+The SMEs can participate in customer service conversations directly from Microsoft Teams to help representatives in Dynamics 365 and customers on the phone call to resolve issues expertly.
 
 You can transfer and consult with Teams users by assigning phone numbers to users or through Voice Over Internet Protocol (VOIP).
 
-## Enable agents to consult with Microsoft Teams users via PSTN
+## Enable representatives to consult with Microsoft Teams users via PSTN
 
-To allow the agents to consult with Microsoft Teams users, enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](../voice-channel-route-queues.md#configure-a-voice-channel). 
+To allow the representatives to consult with Microsoft Teams users, enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](../voice-channel-route-queues.md#configure-a-voice-channel). 
 
 The following prerequisites must be set for the Microsoft Teams users:
 
@@ -43,19 +46,19 @@ The following prerequisites must be set for the Microsoft Teams users:
      1. Add a guest user in the Azure portal. More information: [Add a new guest user](/entra/external-id/b2b-quickstart-add-guest-users-portal)
      2. On the guest user profile page, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
 
-  Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Agents can then search for the guest user in the Teams tab of transfer or consult.
+  Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Representatives can then search for the guest user in the Teams tab of transfer or consult.
 
-## Enable agents to consult with Microsoft Teams users via VOIP
+## Enable representatives to consult with Microsoft Teams users via VOIP
 
-If you've updated to the enhanced voice experience, you can enable your agents to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your agents.
+If you've updated to the enhanced voice experience, you can enable your representatives to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
 Calling services are charged on a per minute per participant basis at 0.004 per participant per minute and is less than the Public Switched Telephone Network (PSTN) charges of $0.013 per participant per minute.
 
 > [!NOTE]
-> - Agents can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
+> - Representatives can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
 > - If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. This is because the call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when adding a Teams user to a group call.
 
-To allow the agents to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** setting in the voice channel section of the voice workstream.
+To allow the representatives to consult with Microsoft Teams users, enable the **External Microsoft Teams users** in **Consult** and **Transfer** setting in the voice channel section of the voice workstream.
 
 To enable the consult and transfer experience through VOIP, perform the following prerequisites:
 
