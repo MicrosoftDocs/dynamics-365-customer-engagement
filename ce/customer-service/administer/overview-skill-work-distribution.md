@@ -16,7 +16,7 @@ ms.custom: bap-template
 > [!NOTE]
 > The data such as but not limited to skills, rating model, and rating value that is created, updated, and used in Omnichannel for Customer Service is shared with other model-driven apps (Field Service and Project Service Automation) installed in your environment. Similarly, the data that are created, updated, and used in other model-driven apps are available for use in Omnichannel for Customer Service.
 
-In the customer service center, your customer service representative (service representative or representative) have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute work items (conversations) to the representative who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing work items to the representative who has the skills necessary to do the work.
+In the customer service center, your customer service representatives (service representatives or representatives) have different skill sets and abilities. The customers who reach out to the contact center might have different needs. Skill-based routing lets your customer service center distribute work items (conversations) to the representative who is most qualified to solve the issue. Skill-based routing improves the quality of customer service by automatically distributing work items to the representative who has the skills necessary to do the work.
 
 You can also associate skills with bots and route work items using skill-based routing.
 
