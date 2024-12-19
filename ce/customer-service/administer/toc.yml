@@ -645,7 +645,7 @@
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
       - name: Enable knowledge sources from Microsoft Copilot Studio (preview)
-        href: knowledgehub-copilot.md
+        href: knowledge-copilot.md
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
     - name: Bots

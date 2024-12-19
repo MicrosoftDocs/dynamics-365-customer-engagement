@@ -33266,6 +33266,11 @@
       "source_path": "ce/customer-service/use/videos.md",
       "redirect_url": "/dynamics365/customer-service/implement/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/knowledgehub-copilot.md",
+      "redirect_url": "/dynamics365/customer-service/administer/knowledge-copilot",
+      "redirect_document_id": false
     }
 
   ]
