@@ -90,8 +90,4 @@ This article describes the metrics used in omnichannel historical analytics repo
 
 ## Related information
 
--[Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md#omnichannel-for-customer-service-dashboards)
-
-
-
-
+[Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md#omnichannel-for-customer-service-dashboards)
