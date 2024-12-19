@@ -22,11 +22,6 @@ The Agent dashboard shows charts and KPIs that you can use to guide agents and u
 > [!div class="mx-imgBorder"]
 > ![Agent dashboard in Omnichannel for Customer Service.](../media/oc-agent-dashboard.png "Agent dashboard in Omnichannel for Customer Service")
 
-
-### Access the Agent dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report details
 
 The reports summarize the KPIs for the specified time period and percentage change over a period of time. You can filter these areas by duration, channel, queue, agent, conversation status, and time zone.

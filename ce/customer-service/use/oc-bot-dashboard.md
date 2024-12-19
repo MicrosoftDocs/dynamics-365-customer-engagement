@@ -17,10 +17,7 @@ ms.reviewer: mgandham
 
 In the the application, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a human agent, as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR bots. You can use the dashboard to understand how bots are performing in a support organization. 
 
-In the Customer Service workspace or Contact Center workspace application, perform the following steps to view the dashboard:
-
-1. In the site map, select Omnichannel historical analytics.
-1. On the page that appears, select the Bot dashboard.
+You can [access the dashboard](omnichannel-analytics-insights.md#access the dashboards) in the Customer Service workspace or Contact Center workspace application.
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Customer Service admin center, the dashboard is as follows:
 - **Enabled**: Indicates that your organization only has Copilot Studio bots configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot Studio bots are displayed.

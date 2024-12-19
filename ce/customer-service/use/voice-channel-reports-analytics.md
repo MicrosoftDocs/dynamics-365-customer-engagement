@@ -26,10 +26,6 @@ The Voice analytics report provides comprehensive information on the overall per
 
 :::image type="content" source="../media/voice-channel-conversation-report.png" alt-text="Voice channel conversation report.":::
 
-**Access the Voice dashboard**
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report details
 
 The following KPIs are displayed in the Voice dashboard.

@@ -36,10 +36,6 @@ The **Summary** dashboard provides a seamless end-to-end reporting of metrics ac
 
  :::image type="content" source="../media/oc-summary-dashboard.png" alt-text="Screenshot showing the Omnichannel Historical Summary dashboard.":::
 
-### Access the Summary dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report details
 
 The report summarizes the KPIs for the specified time period and the percentage change over that period. You can filter these areas by duration, channel, queue, or conversation status.
@@ -76,21 +72,6 @@ The **Bot escalation topic metrics** section provides insights into the performa
  
 To view further bot topics and their related metrics, go to [Bot dashboard](oc-bot-dashboard.md).   
 
-## Language availability for topics 
-
-The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand text semantics and intent in the following languages: 
-
-- English 
-- French 
-- German 
-- Italian 
-- Japanese 
-- Portuguese 
-- Simplified Chinese 
-- Spanish 
-
-> [!NOTE]
-> While topic discovery is enabled and still possible in languages that aren't listed in this section, there might be differences in experience for users who uaw topics in unsupported languages.
 
 ### Related information
 

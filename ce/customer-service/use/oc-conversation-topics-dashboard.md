@@ -20,10 +20,6 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 > [!div class="mx-imgBorder"]
 > ![Omnichannel Conversation Topics dashboard.](../media/oc-topics.png "Omnichannel Conversation Topics dashboard")
 
-### Access the Topics dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report Details
 
 The key performance indicator summary charts summarize the KPIs for the specified time and the percent change over the period. You can filter these areas by duration, channel, queue, agent, conversation status, and time zone. 

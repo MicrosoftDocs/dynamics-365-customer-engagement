@@ -23,11 +23,6 @@ By default, the dashboard shows key performance indicators (KPIs) for the past m
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specified will persist and be applied to the data on all dashboards.
 
-
-### Access the Queue dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report details
 
 The following KPIs are displayed in the Queue dashboard.

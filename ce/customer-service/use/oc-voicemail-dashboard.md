@@ -15,10 +15,6 @@ ms.reviewer: mgandham
 
 The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent.
 
-## Access the Voicemail dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report details
 
 The reports summarize the KPIs for the specified time and percentage change over a period of time. You can filter these areas by duration, queue, agent, and time zone.

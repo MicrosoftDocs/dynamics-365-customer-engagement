@@ -29,11 +29,6 @@ By default, the dashboard shows you the KPIs for the past month and for all chan
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specified persists, and is applied to the data on all dashboards.
 
-
-### Access the Conversation dashboard
-
- [!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Report details
 
 The conversation lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.

@@ -16,10 +16,6 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
-### Access the Unified routing dashboard
-
-[!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
 ## Unified routing report in Omnichannel historical analytics
 
 The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
