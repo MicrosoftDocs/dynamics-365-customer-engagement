@@ -1,6 +1,6 @@
 ---
 title: Omnichannel historical analytics metrics
-description: 
+description: This article provides an overview of the metrics used in Omnichannel historical analytics reports.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
