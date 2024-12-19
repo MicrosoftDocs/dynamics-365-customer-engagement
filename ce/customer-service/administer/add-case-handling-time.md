@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 07/31/2024 
+ms.date: 12/20/2024 
 ms.custom: bap-template 
 ---
 
@@ -65,4 +65,4 @@ For example, if you set 10 min as the update interval, the automatic time tracke
 
 ### Related information  
 
-[Track your time on cases (preview)](../use/case-handling-time.md)
+[Track your time on cases](../use/case-handling-time.md)

@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 07/31/2024 
+ms.date: 12/20/2024 
 ms.custom: bap-template 
 ---
 
@@ -82,4 +82,4 @@ The total time spent on the activities linked to the case. If there are multiple
 
 ### Related information
 
-[Add case handling time widget to case forms (preview)](../administer/add-case-handling-time.md)
+[Add case handling time widget to case forms](../administer/add-case-handling-time.md)
