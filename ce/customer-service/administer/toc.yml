@@ -184,7 +184,7 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
-      - name: Configure case handling time widget to case forms (preview)
+      - name: Configure case handling time widget to case forms 
         href: add-case-handling-time.md      
       - name: Customize the case resolution experience
         href: add-enhanced-case-management.md
