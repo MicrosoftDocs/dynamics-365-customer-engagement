@@ -58,6 +58,8 @@ Perform the following steps within your Power Apps form to delete an inline atta
 - Change the **Static value** dropdown to **True** in **Make Delete visible to users**.
 - Select **Done**.
 
+:::image type="Delete inline attachment." source="../media/delete-inline-attachments.png" alt-text="Delete inline attachment for a completed email." lightbox="../media/delete-inline-attachments.png":::
+
 ## Next steps
 
 [Enable enhanced experience for email attachments](../administer/add-enhanced-attachment-control.md)
