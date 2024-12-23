@@ -1,14 +1,14 @@
 ---
-title: "Enable multisession navigation with customized model-driven apps (Preview)| MicrosoftDocs"
+title: "Enable multisession navigation with customized model-driven apps (preview)| MicrosoftDocs"
 description: "Use the multisession navigation in Customer Service workspace to help agents work on multiple cases and conversations."
-ms.date: 11/13/2024
+ms.date: 12/23/2024
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 
 ---
 
-# Multisession navigation and productivity tools (Preview)
+# Multisession navigation and productivity tools (preview)
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
