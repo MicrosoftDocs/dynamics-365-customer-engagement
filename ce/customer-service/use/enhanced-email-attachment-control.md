@@ -53,8 +53,9 @@ Perform the following actions using the enhanced email attachment control:
 Perform the following steps within your Power Apps form to enable deleting an attachment for a completed email.
 
 - In the [Power Apps home page](https://make.powerapps.com), select **Tables** from the left navigation pane.
-- In the Tables page, select **Email**, select **Forms** in Data experiences in the Email page and then select **Email**.
-- The Email Form page appears. In the Attachment panel on the right, select **Attachments control** in the **Components** dropdown in Properties.
+- In Tables, select **Email**. 
+- Select **Forms** in Data experiences and then select **Email** in Forms.
+- The Email Form page appears. From Attachment > Properties in the right, select **Attachments control** in the **Components** dropdown.
 - The default value of the **Static value** dropdown in **Make Delete visible to users** is selected to **False**. Change this value to **True** and select **Done**.
 
 :::image type="Delete inline attachment." source="../media/delete-email-attachments.png" alt-text="Delete inline attachment for a completed email." lightbox="../media/delete-email-attachments.png":::
