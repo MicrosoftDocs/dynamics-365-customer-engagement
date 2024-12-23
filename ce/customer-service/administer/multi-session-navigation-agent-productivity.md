@@ -20,8 +20,7 @@ This application uses artificial intelligence in productivity tools like Copilot
 
 To configure the multisession navigation feature, make sure that you follow the Customer Service workspace system requirements. Learn more at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
 
-> [!NOTE]
-> The same considerations and limitations with Customer Service workspace applies to a customized multisession app. Learn more in [Get started with Customer Service workspace](../implement/csw-overview.md).
+The guidelines and limitations that apply to the Customer Service workspace remain the same for a customized multisession app. Learn more in [Get started with Customer Service workspace](../implement/csw-overview.md).
 
 
 ## Application lifecycle management
@@ -63,8 +62,7 @@ Perform the following steps to enable the multisession navigation feature.
 
 4. Select both **Productivity tools** and **Multisession navigation** features, and then select **Save**.
 
-> [!NOTE]
-> When you select the **Multisession navigation** feature, the **Productivity tools** gets automatically selected, as the former can't be selected without the latter.
+When you select the **Multisession navigation** feature, the **Productivity tools** gets automatically selected, as the former can't be selected without the latter.
 
 5. A popup screen appears. Review the custom support app information and select **Confirm**.
 
