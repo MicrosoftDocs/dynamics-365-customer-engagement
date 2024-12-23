@@ -2,7 +2,6 @@
 title: "Prevent privilege changes in Dynamics 365 Customer Engagement (on-premises)"
 description: "To prevent privilege changes that can occur with product updates, create a new custom security role and assign it to an administrative user."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -4,11 +4,9 @@ description: Learn how to add and remove Dynamics 365 Channel Integration Framew
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: article
-ms.date: 03/21/2024
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.topic: how-to
+ms.date: 12/10/2024
+ms.custom: bap-template
 ---
 
 # Manage Dynamics 365 Channel Integration Framework 2.0 solutions in Dynamics 365
@@ -19,7 +17,7 @@ You can export solution files from one organization and import them into another
 
 [!INCLUDE[token-add-cif-solution-dependent-solution](../../shared/token-add-cif-solution-dependent-solution.md)]
 
-### See also
+### Related information
 
 [Authenticate channel users to the channel (widget)](../../v1/administer/authenticate-channel-users.md)  
 [Get Dynamics 365 Channel Integration Framework](../../v1/administer/get-channel-integration-framework.md)  

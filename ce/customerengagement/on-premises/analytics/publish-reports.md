@@ -2,7 +2,6 @@
 title: "Publish a report in Dynamics 365 Customer Engagement (on-premises)"
 description: "Make reports available to users by publishing reports using the web application. Determine where the report will appear and define default filters."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 

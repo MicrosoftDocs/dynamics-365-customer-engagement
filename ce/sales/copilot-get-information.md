@@ -1,7 +1,7 @@
 ---
 title: Get information from Copilot
 description: Learn how to use Copilot in Dynamics 365 Sales to get information about your pipeline, summarize leads and opportunities, and get the latest news about your accounts.
-ms.date: 11/27/2024
+ms.date: 12/05/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -123,6 +123,10 @@ Your records might have sales documents, such as proposals and contracts, associ
 Copilot can summarize only PDF and Word files that it determines are related to sales based on their content length, document type, and use of sales-specific keywords. Learn more in [How does Copilot determine if a document is a sales document?](sales-copilot-faq.md#how-does-copilot-determine-if-a-document-is-a-sales-document).
 
 Copilot searches all the SharePoint folders that you have access to unless your administrator [configures Copilot to use specific SharePoint folders](copilot-sharepoint-config.md).
+
+Watch this video to learn how to summarize a document with Copilot:
+
+> [!VIDEO https://www.youtube.com/embed/x0gNwIvDOAA]
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot).
 

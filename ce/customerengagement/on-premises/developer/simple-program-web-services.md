@@ -2,7 +2,6 @@
 title: "Run a simple program using web services (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn to run a simple program using Dynamics 365 Customer Engagement web services."
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Change synchronizing organization in Dynamics 365 Customer Engagement (on-premises)"
 description: "To change the synchronizing organization, check the box, Sync items with Exchange from this org only, even if Exchange was set to sync with a different org."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

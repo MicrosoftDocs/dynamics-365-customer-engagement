@@ -2,7 +2,6 @@
 title: "Implement single sign-on from an ASPX webpage or IFRAME (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic describes how to develop a custom webpage that can make SDK calls to Dynamics 365 Customer Engagement (on-premises) on behalf of the Dynamics 365 Customer Engagement (on-premises) user who is signed in"
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

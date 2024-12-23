@@ -8,18 +8,31 @@ For information about older versions, see [Version history archive](../../field-
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | TBD | 12/06/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |     [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | 12/06/2024 |
+|**Station 1** |  *First Release*| [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) | TBD | 01/10/2025 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* |      [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) |  [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) | 01/17/2025 |
 |**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* |[3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | 12/13/2024 |
 | | *USG* | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | 12/13/2024  |
-|**Station 4** |*Europe* |   [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) |12/06/2024  |
+|**Station 4** |*Europe* |   [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | 12/20/2024 |
 |**Station 5** |  *North America*|    [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | 12/13/2024 |
 |**Station 6** | *Government Community Cloud, DoD, China*  |  [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | 12/13/2024  |
-|**Station 6** | *Dedicated Scale Groups* |[3.12.142.5](/dynamics365/field-service/field-service-version-history-resource-scheduling#3121425)|  [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | 12/06/2024  |
+|**Station 6** | *Dedicated Scale Groups* | [3.12.143.46](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214346) | [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) | 12/20/2024  |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 3.12.146.16
+
+**Resource Scheduling Controls:** 1.2.85.243202
+
+**Dataverse:** 4.0.136.16
+
+- Fixed various time zone related bugs in Schedule Assistant.
+- Fixed a bug causing duplicate months to appear for some users in monthly view of the schedule board.
+- Fixed a bug causing incorrect dates in requirement details for some users.
+- Fixed a bug causing incorrect dates to be selected when dragging the cursor in multiday views on the schedule board.
+- Fixed a bug causing an error message to be displayed when double clicking on an appointment on the schedule board. 
+
 
 ## 3.12.145.25
 

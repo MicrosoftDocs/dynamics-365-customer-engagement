@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 12/04/2024
+ms.date: 12/17/2024
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -37,6 +37,7 @@ Copilot provides the following main features:
 - **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand.
 
 - **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Agents can review and refine the draft by giving revision instructions to Copilot and then save it.
+- **Summarize a custom record**: Copilot provides agents with a summary of a record based on fields that the administrator configures for the custom table so that agents can quickly catch up on the important details of a support record.
 
 ## What is the system’s intended use?
 

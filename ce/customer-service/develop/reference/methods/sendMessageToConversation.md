@@ -1,7 +1,7 @@
 ---
-title: "sendMessageToConversation (Omnichannel JavaScript API reference) | MicrosoftDocs"
-description: "Includes reference information about sendMessageToConversation method, syntax, and parameters in Omnichannel JavaScript API reference."
-ms.date: 10/03/2022
+title: sendMessageToConversation (Omnichannel JavaScript API reference) 
+description: Includes reference information about sendMessageToConversation method, syntax, and parameters in Omnichannel JavaScript API reference.
+ms.date: 12/04/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
@@ -39,7 +39,7 @@ Returns a resolved or rejected promise based on the outcome of the operation.
 
 ```javascript
 // Sending message directly to the chat of conversation with provided conversationId
-Microsoft.Omnichannel.sendMessageToConversation("Test message",  false, "00000000-0000-0000-0000-000000000000");
+Microsoft.Omnichannel.sendMessageToConversation("Test message",  false, "eeeeeeee-4444-5555-6666-ffffffffffff");
 ```
 
 ```javascript
@@ -66,7 +66,7 @@ let validRichObjJSON = {
       "ResponseMessage": "Thanks for choosing."
     }
   },
-  "richObjectId": "00000000-0000-0000-0000-000000000000",
+  "richObjectId": "eeeeeeee-4444-5555-6666-ffffffffffff",
   "richObjectType": 192350002,
   "richObjectName": "Test with 0 guid",
   "tabKey": ""

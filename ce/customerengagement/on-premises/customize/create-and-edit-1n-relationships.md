@@ -2,7 +2,6 @@
 title: "Create 1:N relationships in Dynamics 365 Customer Engagement (on-premises)"
 description: "A 1:N relationship is one in which a primary entity is associated with many other records. Learn about creating this relationship and behaviors you can set."
 ms.custom: 
-ms.date: 03/11/2022
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -556,7 +556,7 @@
                   href: wa-delete-deactivate-assignment-rule.md
                 - name: Understand record distribution in assignment rules
                   href: understand-lead-distributions-assignment-rules.md
-            - name: View and assign unassigned records
+            - name: View assigned records and details
               href: wa-manage-unassigned-records.md
             - name: Migrate assignment rules and segments
               href: wa-migrate-assignment-rules-segments.md
