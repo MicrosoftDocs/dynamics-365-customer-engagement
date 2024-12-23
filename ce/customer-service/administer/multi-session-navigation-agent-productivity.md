@@ -55,14 +55,14 @@ Perform the following steps to enable the multisession navigation feature.
 
 3. Select the custom model-driven app you want to use and select **Edit**.
 
-  :::image type="Select your custom model-driven app in Workspaces." source="../media/custom-model-driven-app.png" alt-text="Select your custom model-driven app in Workspaces." lightbox="../media/custom-model-driven-app.png":::
+    :::image type="Select your custom model-driven app in Workspaces." source="../media/custom-model-driven-app.png" alt-text="Select your custom model-driven app in Workspaces." lightbox="../media/custom-model-driven-app.png":::
 
-> [!NOTE]
-> A model driven app with the lock icon indicates that it is part of a managed solution and cannot be edited.
+  > [!NOTE]
+  > A model driven app with the lock icon indicates that it is part of a managed solution and cannot be edited.
 
 4. Select both **Productivity tools** and **Multisession navigation** features, and then select **Save**.
 
-When you select **Multisession navigation**, the **Productivity tools** feature gets automatically selected.
+  When you select **Multisession navigation**, the **Productivity tools** feature gets automatically selected.
 
 5. A popup screen appears. Review the custom support app information and select **Confirm**.
 
