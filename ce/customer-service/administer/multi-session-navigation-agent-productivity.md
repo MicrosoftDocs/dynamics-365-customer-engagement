@@ -62,7 +62,7 @@ Perform the following steps to enable the multisession navigation feature.
 
 4. Select both **Productivity tools** and **Multisession navigation** features, and then select **Save**.
 
-When you select **Multisession navigation**, the **Productivity tools** feature gets automatically selected, as the former can't be selected without the latter.
+When you select **Multisession navigation**, the **Productivity tools** feature gets automatically selected.
 
 5. A popup screen appears. Review the custom support app information and select **Confirm**.
 
