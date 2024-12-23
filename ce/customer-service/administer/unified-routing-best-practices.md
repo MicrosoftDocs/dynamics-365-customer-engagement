@@ -45,7 +45,7 @@ If you don't follow the recommended order, inconsistencies in the user informati
 
 Customer Service lets you make API calls to set up users in bulk. A single change request is any add or update operation like defining a single skill, capacity profile, or role per user.
 
-We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might see inconsistencies in user data, such as skills not updated as expected, after the update is over.
+We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might notice inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
 For example, let's say you manage a contact center that has 1,000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
 
@@ -57,7 +57,7 @@ Based on our recommendation of 500 requests per 15 minutes, you'll need to make 
 |One capacity profile per agent|500 requests per batch|Two|
 |One role per agent|500 requests per batch|Two|
 
-For information on using the API, see [Use the Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview).
+Learn about using the API in [Use the Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview).
 
 ### Monitor agent capacity
 
@@ -78,7 +78,7 @@ Complex rules and conditions in prioritization rulesets add latency to the prior
 
 ### Manage auto-assignment if work items have extended wait times
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. For information about the auto-assignment process, see [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
+The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
 
 If you have a scenario in which agents aren't available to be assigned the work items for an extended time, we recommend the following options:
 
