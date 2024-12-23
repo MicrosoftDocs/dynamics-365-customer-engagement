@@ -18,7 +18,7 @@ This application uses artificial intelligence in productivity tools like Copilot
 
 ## Prerequisites
 
-To configure the multisession navigation feature, make sure that you follow the Customer Service workspace system requirements. Learn more at [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
+To configure the multisession navigation feature, make sure that you follow the Customer Service workspace system requirements. Learn more in [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md).
 
 The guidelines and limitations that apply to the Customer Service workspace remain the same for a customized multisession app. Learn more in [Get started with Customer Service workspace](../implement/csw-overview.md).
 
