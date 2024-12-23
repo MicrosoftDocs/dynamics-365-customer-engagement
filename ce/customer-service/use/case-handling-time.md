@@ -1,21 +1,21 @@
 ---
-title: Track your time on cases (preview)
+title: Track your time on cases 
 description: Learn how to use the case handling time widget to view and log your time on cases in Customer Service.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 07/31/2024 
+ms.date: 12/20/2024 
 ms.custom: bap-template 
 ---
 
-# Track your time on cases (preview)
+# Track your time on cases 
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
 
 Case handling time is the total time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
 
-You can view the following details on the case handling time widget:```
+You can view the following details on the case handling time widget:
 
 - **Total time tracked**: The sum of the automatic time tracking, manual time tracking, and time spent on activities linked to the case.
 - [**Automatic time tracking**](#automatic-time-tracking): The time that the application tracks when a case is in focus. 
@@ -82,4 +82,4 @@ The total time spent on the activities linked to the case. If there are multiple
 
 ### Related information
 
-[Add case handling time widget to case forms (preview)](../administer/add-case-handling-time.md)
+[Add case handling time widget to case forms](../administer/add-case-handling-time.md)
