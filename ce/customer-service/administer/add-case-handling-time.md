@@ -1,17 +1,17 @@
 ---
-title: Add case handling time widget to case forms (preview)
+title: Add case handling time widget to case forms 
 description: Learn how to enable and configure the case handling time widget, which shows the total time customer service representatives spend on a case.
 author: gandhamm 
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 07/31/2024 
+ms.date: 12/20/2024 
 ms.custom: bap-template 
 ---
 
-# Configure case handling time widget to case forms (preview)
+# Configure case handling time widget to case forms 
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
+
 
 Case handling time is the total time customer service representatives (service representatives or representatives) actively work on a case. It includes activities such as communicating  with customers, troubleshooting, researching, collaborating, or updating case details, like adding notes.
 
@@ -65,4 +65,4 @@ For example, if you set 10 min as the update interval, the automatic time tracke
 
 ### Related information  
 
-[Track your time on cases (preview)](../use/case-handling-time.md)
+[Track your time on cases](../use/case-handling-time.md)
