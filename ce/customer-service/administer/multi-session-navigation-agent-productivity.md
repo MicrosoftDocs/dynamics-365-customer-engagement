@@ -63,6 +63,9 @@ Perform the following steps to enable the multisession navigation feature.
 
 4. Select both **Productivity tools** and **Multisession navigation** features, and then select **Save**.
 
+> [!NOTE]
+> When you select the **Multisession navigation** feature, the **Productivity tools** gets automatically selected, as the former can't be selected without the latter.
+
 5. A popup screen appears. Review the custom support app information and select **Confirm**.
 
 You can now validate the features in your custom model-driven app.
