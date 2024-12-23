@@ -48,7 +48,7 @@ Perform the following actions using the enhanced email attachment control:
  ![Enhanced attachment control.](../media/cs-enh-email-attach.png "Screenshot of the enhanced email with the enhanced attachment control")
 
 
-## Delete attachments for completed emails
+## Delete attachment for completed emails
 
 You can enable deleting an attachment for a completed email by using the following steps within your Power Apps form.
 
