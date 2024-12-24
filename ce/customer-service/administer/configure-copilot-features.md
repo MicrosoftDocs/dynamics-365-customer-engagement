@@ -115,7 +115,7 @@ Out of the box, users with the Customer Service Representative role only can use
 |Pane tool configuration | msdyn_panetoolconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
 |Productivity pane configuration | msdyn_paneconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
 |Pane tab configuration | msdyn_panetabconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
-|App profile | msdyn_appconfiguration | No | Yes | No | No | No | No | No | No |
+|Organization Setting | organizationsetting | No | Yes | Yes | No | No | No | Not applicable | Not applicable |
 
 
 Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
