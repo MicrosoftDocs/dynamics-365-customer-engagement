@@ -129,6 +129,14 @@ Out of the box, users with the Customer Service Representative role only can use
 - msdyn_appconfiguration
 - msdyn_panetoolconfiguration
 
+
+
+| Table | Name | Create | Append | Read | Write|
+|-------|------|--------|--------|------|------|
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Yes | No|
+|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes |Yes | Yes|
+|Draft a response |✔|✔|X|
+
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
  
 
