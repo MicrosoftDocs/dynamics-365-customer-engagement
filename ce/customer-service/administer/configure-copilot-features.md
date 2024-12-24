@@ -131,10 +131,10 @@ Out of the box, users with the Customer Service Representative role only can use
 
 
 
-| Table | Name | Create | Append | Read | Write|
-|-------|------|--------|--------|------|------|
-|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Yes | No|
-|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes |Yes | Yes|
+| Table | Name | Create | Append | Read | Write | Delete |
+|-------|------|--------|--------|------|-------|--------|
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Yes | No | No |
+|Copilot interaction data | msdyn_copilotinteractiondata | Yes | No |Yes | Yes| No |
 |Draft a response |✔|✔|X|
 
 More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
