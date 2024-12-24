@@ -58,7 +58,7 @@ Yes. Copilot supports knowledge articles published in the supported languages. S
 - Restrict access to sources from which you don't want your copilot responses to be generated.
 
 ## Where can I access feedback for copilot?
-You can provide feedback to the accuracy of Copilot's response with a thumbs-up or a thumbs-down. You can also provide verbatim feedback. Learn more at [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
+When an agent interacts with Copilot, they can provide feedback on the responses that Copilot provides. The feedback is stored in the msdyn_copilotinteraction table in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
 
 ### Related information
 
