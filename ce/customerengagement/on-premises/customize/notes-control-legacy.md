@@ -2,7 +2,6 @@
 title: "Enable posts for a custom entity in Dynamics 365 Customer Engagement (on-premises)"
 description: "For custom entities where you've enabled notes and activities, you'll only see Notes and Activities. To include Posts, you must enable them for the entity."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

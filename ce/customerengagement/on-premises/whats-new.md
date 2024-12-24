@@ -1,7 +1,6 @@
 ---
 title: "New features in Dynamics 365 Customer Engagement (on-premises), version 9"
 description: "Learn about the new features available in version 9.1. This page explains the many enhancements designed to empower marketing, sales, and service teams."
-ms.date: "06/07/2021"
 ms.topic: whats-new
 ms.assetid: 676b68d9-2a7b-4924-a5cf-299163e8b5ea
 author: mattp123

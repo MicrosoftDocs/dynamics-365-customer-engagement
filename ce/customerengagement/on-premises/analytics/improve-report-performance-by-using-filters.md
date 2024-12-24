@@ -2,7 +2,6 @@
 title: "Use data filtering in Dynamics 365 Customer Engagement (on-premises)"
 description: "Reports that return large data sets can be difficult to use and cause performance problems. To limit the data that's presented, enable data filters."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 

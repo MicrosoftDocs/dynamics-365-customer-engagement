@@ -34,7 +34,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 ## Personalize your knowledge search article filters
 
-If your administrator has configured knowledge filter personalization settings, as an agent, you can select the filters you want to use.
+If your administrator has configured knowledge filter personalization settings, as a customer service representative (representative), you can select the filters you want to use.
 
 You can do the following:
 - Set preselects
@@ -46,7 +46,7 @@ Any personalization you make to your filter selections is also be applicable to 
 
 If you deactivate a filter, it appears as deactivated. If you reactivate the same filter later, the filter keeps its previous configuration.
 
-1. In the agent application, go to **Service** > **Knowledge** > **Knowledge Personalization**.
+1. In the representative application, go to **Service** > **Knowledge** > **Knowledge Personalization**.
 2. For each filter value you want to change, select the ellipsis in the top-right corner, and then select **Preselects**.
 3. To make a filter value available by default, toggle the preset next to the filter to the right so that **Preselected** appears next to the filter name.
 4. When you're finished making your selections, select **Done** > **Save**.
@@ -70,7 +70,7 @@ Select the up-arrow icon to view the sorting options and select an option from t
 
 ## View auto-filtered results
 
-As a customer service agent, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base. Auto-filtered results option is only available on single session.
+As a representative, to view the most relevant results, you can have knowledge articles automatically filtered based on the case data. This helps with identifying the most relevant articles so that you can resolve customer queries quickly and accurately. You can also disable the auto-filter results and search the entire knowledge base. Auto-filtered results option is only available on single session.
 
 An administrator or system customizer must configure this option for you. Learn more in [Configure automatic filtering](../administer/add-knowledge-base-search-control-forms.md#configure-automatic-filtering-for-the-web-client).
 

@@ -1,7 +1,7 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 12/05/2024
+ms.date: 12/12/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag

@@ -2,7 +2,6 @@
 title: "Create a visualization (chart) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic shows how to create a chart visualization and a web resource visualization. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

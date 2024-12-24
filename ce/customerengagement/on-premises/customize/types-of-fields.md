@@ -2,7 +2,6 @@
 title: "Types of fields and field data in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn about the difference between simple, calculated, and rollup fields. Field data can include lines of text, currency, dates and times, images and more."
 keywords: 
-ms.date: 04/29/2019
 
 ms.custom: 
 ms.topic: article

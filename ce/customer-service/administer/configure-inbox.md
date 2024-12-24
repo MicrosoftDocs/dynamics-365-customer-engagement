@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-agents) so that when your agents open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help agents efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
+As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
 
@@ -44,7 +44,7 @@ The following asynchronous channels are available in the conversation inbox:
 
 The live conversation settings in the inbox are as follows:
 
-- When an agent accepts a live work item, that item is then added to the relevant view in the inbox, irrespective of whether the agent is using the inbox at the time of accepting the live work item.
+- When a representative accepts a live work item, that item is then added to the relevant view in the inbox, irrespective of whether the representative is using the inbox at the time of accepting the live work item.
 - Voice calls always open as a new session with the card added to the inbox for awareness.
 - Live work item cards have a "live" visual indicator.
 - Live work item unread counts accrue to the unread count on the view.
@@ -53,7 +53,7 @@ The live conversation settings in the inbox are as follows:
 
 Channel providers must have **All active channels** set to **On** to use and configure the chat setting in the inbox.
 
-## Configure the inbox setting for agents
+## Configure the inbox setting for representatives
 
 You can configure the inbox in Contact Center admin center or Customer Service admin center by editing the agent experience profile to meet your preferred inbox settings.
 
@@ -82,7 +82,7 @@ You can configure the inbox in Contact Center admin center or Customer Service a
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
-    - **Agent Visibility**: Select one of the following options to show or hide the view to agents:
+    - **Agent Visibility**: Select one of the following options to show or hide the view to representatives:
       - **Show**
       - **Hide**
 
@@ -92,14 +92,14 @@ The following views are supported out of the box in the inbox:
 
 - **Cases**: Shows all cases that the user owns, including active and resolved cases.
 - **Assigned Conversations**: Shows all conversations assigned to the user, including active and closed conversations.
-- **Resolved Conversations**: Shows all conversations marked as closed, and where the user was the primary agent in the conversation.
+- **Resolved Conversations**: Shows all conversations marked as closed, and where the user was the primary representative in the conversation.
 - **Unassigned Conversations**: Shows all active conversations and emails in a team or queue in which the user is a member. The user is able to assign conversations to themselves and reply to emails directly from this view.
 
-Inbox views are auto refreshed every five minutes. Agents can manually refresh the view by using the **Refresh** icon.
+Inbox views are auto refreshed every five minutes. Representatives can manually refresh the view by using the **Refresh** icon.
 
 ## Configure custom views for the inbox
 
-You can configure a customized view for the inbox so that agents can see their cases, conversations, emails, and voicemails all in a single view.
+You can configure a customized view for the inbox so that representatives can see their cases, conversations, emails, and voicemails all in a single view.
 
 To configure multiple views for the inbox, complete the following steps.
 
@@ -112,7 +112,7 @@ To configure multiple views for the inbox, complete the following steps.
 1. On the **Add a new view** page, enter the following details:
 
    - **Name**: Type a name for the view.
-   - **Agent visibility**: Select whether to **Show** or **Hide** the view from agents.
+   - **Agent visibility**: Select whether to **Show** or **Hide** the view from representatives.
    - **Record type**: Select the records that you want to include in the multi-entity view.
   
 1. For each record type, choose one of the following settings. The settings are different for each record type.

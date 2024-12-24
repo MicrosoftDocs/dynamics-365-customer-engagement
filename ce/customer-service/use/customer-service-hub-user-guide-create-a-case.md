@@ -30,7 +30,7 @@ You can capture important information about customers, interactions you’ve had
 
 Watch this video to learn more about case management in the Customer Service Hub:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9]
+> [!VIDEO e3cdfa78-f787-4095-a7e1-92b1d7ed4828]
 
 ## Prerequisites
 
