@@ -102,42 +102,23 @@ In the **Summaries** and **Copilot help pane** configuration pages, you can sele
 
 Out of the box, users with the Customer Service Representative role only can use the copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
-- prvCreatemsdyn_copilotinteraction 
-- prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata 
-- prvReadmsdyn_copilotinteraction
-- prvReadmsdyn_copilotinteractiondata
-- prvWritemsdyn_copilotinteractiondata
-- prvAppendTomsdyn_copilotinteractiondata
-- prvCreatemsdyn_copilotinteractiondata
-- prvReadmsdyn_copilotagentpreference
-- prvCreatemsdyn_copilotagentpreference
-- prvWritemsdyn_copilotagentpreference
-- prvReadmsdyn_aimodel
-- prvReadmsdyn_aitemplate 
-- prvReadmsdyn_conversationinsight
-- prvWritemsdyn_copilottranscriptdata 
-- prvAppendTomsdyn_copilottranscriptdata  
-- prvReadmsdyn_copilottranscriptdata 
-- prvCreatemsdyn_copilottranscriptdata 
-- prvWritemsdyn_copilottranscriptdata 
-- prvAppendmsdyn_copilottranscriptdata
-- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
-- prvReadOrganizationSetting
-- prvReadmsdyn_panetabconfiguration 
-- prvReadmsdyn_paneconfiguration 
-- msdyn_appconfiguration
-- msdyn_panetoolconfiguration
-
-
-
-| Table | Name | Create | Append | Read | Write | Delete |
+|Table | Name | Create | Read | Write | Delete | Append | Append to | Assign | Share |
 |-------|------|--------|--------|------|-------|--------|
-|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Yes | No | No |
-|Copilot interaction data | msdyn_copilotinteractiondata | Yes | No |Yes | Yes| No |
-|Draft a response |✔|✔|X|
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | No | Yes | No | Not applicable | Not applicable | 
+|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | No | No | Yes | No | No |
+|Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | No | No | No | No | No |
+|AI Model | msdyn_aimodel | No | Yes | No | No | No | No | No | No |
+|AI Template | msdyn_aitemplate | No | Yes | No | No | No | No | No | No |
+|ConversationInsight | msdyn_conversationinsight | No | Yes | No | No | No | No | No | No |
+|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | No | Yes | No | No | No |
+|App profile | msdyn_appconfiguration | No | Yes | No | No | No | No | No | No |
+|Pane tool configuration | msdyn_panetoolconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
+|Productivity pane configuration | msdyn_paneconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
+|Pane tab configuration | msdyn_panetabconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
+|App profile | msdyn_appconfiguration | No | Yes | No | No | No | No | No | No |
 
-More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+
+Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
  
 
 ## Next steps
