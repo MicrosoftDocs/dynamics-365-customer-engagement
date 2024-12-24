@@ -58,7 +58,7 @@ You can enable deleting an attachment for a completed email by using the followi
 - The Email Form page appears. From Attachment > Properties in the right, select **Attachments control** in the **Components** dropdown.
 - By default, the **Static value** in **Make Delete visible to users** is selected as **False**. Change this to **True** and select **Done**.
 
-:::image type="Delete email attachment." source="../media/delete-email-attachment.png" alt-text="Delete email attachment for a completed email." lightbox="../media/delete-email-attachment.png":::
+:::image type="Delete email attachment." source="../media/delete-email-attachments.png" alt-text="Delete email attachment for a completed email." lightbox="../media/delete-email-attachments.png":::
 
 ## Next steps
 
