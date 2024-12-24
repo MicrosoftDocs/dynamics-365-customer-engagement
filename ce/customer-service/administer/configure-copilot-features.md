@@ -104,7 +104,7 @@ Out of the box, users with the Customer Service Representative role only can use
 
 |Table | Name | Create | Read | Write | Delete | Append | Append to | Assign | Share |
 |-------|------|--------|--------|------|-------|--------|
-|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | No | Yes | No | Not applicable | Not applicable | 
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | No | Yes | Not applicable | Not applicable | 
 |Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | No | No | Yes | No | No |
 |Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | No | No | No | No | No |
 |AI Model | msdyn_aimodel | No | Yes | No | No | No | No | No | No |
