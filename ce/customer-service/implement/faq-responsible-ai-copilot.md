@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 12/17/2024
+ms.date: 12/26/2024
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -45,13 +45,13 @@ Copilot in Customer Service is intended to help customer service representatives
 
 ## How was Copilot in Customer Service evaluated? What metrics are used to measure performance?
 
-Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and agent-trust.
+Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and agent-trust. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf). 
 
 ## What are the limitations of Copilot in Customer Service? How can users minimize the impact of Copilot limitations?  
 
 Copilot’s knowledge-based capabilities like ask a question, write an email, and draft a chat response, are dependent on high-quality and up-to-date knowledge articles for grounding. Without these knowledge articles, users are more likely to encounter Copilot responses that aren't factual.  
 
-To minimize the likelihood of seeing non-factual responses from Copilot, it’s important that the organizations employ robust knowledge management practices to ensure the business knowledge that connects to Copilot is of high-quality and up-to-date.
+To minimize the likelihood of seeing non-factual responses from Copilot, it’s important that Microsoft employs robust knowledge management practices to ensure the business knowledge that connects to Copilot is of high-quality and up-to-date.
 
 ## What operational factors and settings allow for effective and responsible use of the system?  
 
@@ -111,77 +111,69 @@ Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in
 
 ### What are the language limitations for summaries that Copilot generates from cases and conversations?
 
-Many languages are supported in Copilot-generated summaries from cases and conversations. The quality of these summaries is expected to be the highest in English, while in the other languages, the quality is expected to improve over time.
+Many languages are supported in Copilot-generated summaries from cases and conversations. The quality of these summaries is expected to be the highest in English, while in the other languages, the quality is expected to improve over time. Learn about supported languages in [Language support for Copilot features](/administer/cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service)
 
 ## Is the model tested and monitored on an ongoing basis? If so, how frequently? What testing is performed?
 
-The model is tested for quality and harmful content, every time there's a change to the model interaction or version.
+The model is tested for quality and harmful content, every time there's a change to the model interaction or version. Learn more in the Responsible AI Transparency Report.
 
 ## How frequently is the model monitored to detect performance degradation?
 
-The generative AI GPT Model is hosted and managed by Azure OpenAI. The use of the model in customer service scenarios are bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harms.
+The generative AI GPT Model is hosted and managed by Azure OpenAI. The use of the model in customer service scenarios are bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harms. Learn more in the Responsible AI Transparency Report.
 
 ##  Is the model developed in-house or by a non-Microsoft party?
 
-The GPT model is developed by the partner company, OpenAI, and hosted fully on Azure infrastructure. 
+The GPT model is developed by the partner company, OpenAI, and hosted fully on Azure infrastructure. Learn more in [Transparency note for Azure OpenAI](/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=text).
 
 ## Does the product or service employ more than one model or a system of interdependent models?
 
-Different features in the system could be using different versions of the GPT 3.5 Model.
+Different features in the system could be using different versions Azure OpenAI Service models. Learn more in [Azure OpenAI Service models](/azure/ai-services/openai/concepts/models).
 
-##  If third party models are employed in the product or service, is documentation for these models available?
+## Does Copilot use a non-Microsoft model product or service, and is documentation for this model available?
 
-The Azure OpenAI documentation is extensive enough.
+Copilot is built using Azure OpenAI, a fully managed AI service that integrates OpenAI with Microsoft-developed content filtering and abuse detection models. Learn more in Transparency note for Azure OpenAI.
 
 ## Is there a set process to communicate any changes in models, upstream models or outputs that are used from other AI/ML or other model solutions?
 
 Any planned changes to the Copilot features are communicated via public documentation. However changes with respect to model version or prompts, are governed by the internal responsible AI processes. These changes are not communicated, as they are incremental and ongoing functional improvements.
 
-## Does the organization have mechanisms to regularly communicate and collect feedback among relevant AI actors and their internal/external stakeholders related to the validity of design and deployment assumptions?
+## Does Microsoft have mechanisms to regularly communicate and collect feedback among relevant AI actors and their internal/external stakeholders related to the validity of design and deployment assumptions?
 
-Yes. Feature teams receive light signals without customer data of usage and feedback like thumbs up/down. These help ensure feature usage is improving, and there's no degradation to functionality. Also, customers can view the dashboard and read the verbatim feedback provided by their agents. 
+Yes. Feature teams receive light signals without customer data of usage and feedback like thumbs up/down. These help ensure feature usage is improving, and there's no degradation to functionality.
   > [!NOTE]
   > Your agent verbatim feedback isn't available to Microsoft.
 
-## Does the organization define policies and procedures that define and differentiate the various human roles and responsibilities when interacting with or monitoring AI systems?
+## Does Microsoft define policies and procedures that define and differentiate the various human roles and responsibilities when interacting with or monitoring AI systems?
 
-Yes. In the responsible AI process, all actors involved are considered, and their use/unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation.
+Yes. In the responsible AI process, all actors involved are considered, and their use/unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in Responsible AI Transparency Report.
 
-## Does the organization identify and document approaches to engage, capture and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
+## Does Microsoft identify and document approaches to engage, capture and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
 
-Yes.
+Yes. Learn more in Responsible AI Transparency Report.
 
-## Does the organization conduct hypothesis testing or have human domain expertise to measure or monitor distribution differences in new input and output data relative to the test environments?
+## Does Microsoft document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
 
-Yes.  Depending on the Copilot feature, the system is tested for the identified potential harms.
+Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. Learn more in Responsible AI Transparency Report.
 
-## Does the organization develop and utilize metrics to monitor, characterize, and track external inputs including non-Microsoft tools?
-
-Yes, it's done partially. Feature usage and performance metric is monitored to understand and improve the Copilot features in Customer Service.
-
-## Does the organization document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
-
-Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues.
-
-## Does the organization measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
+## Does Microsoft measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
 
 Yes. The feature teams continuously monitor the performance and reliability of the system. If any issues are detected, the teams react to first investigate and then mitigate.
 
-## Does the organization test the quality of systems explanations with end users and other stakeholders?
+## Does Microsoft test the quality of systems explanations with end users and other stakeholders?
 
-Yes. For major customers, if they have concerns with quality, feature teams engage with the customers to understand their scenario or data. This helps the feature teams plan for improvements in the functionality that would eventually help all.
+Yes. Learn more in Responsible AI Transparency Report.
 
-## Does the organization consider trustworthiness characteristics when evaluating AI systems for negative risks and benefits?
+## Does Microsoft consider trustworthiness characteristics when evaluating AI systems for negative risks and benefits?
 
-Yes. It's accommodated in responsible AI compliance.
+Yes. Learn more in Responsible AI Transparency Report.
 
-## Does the organization conduct fairness assessments to manage computational and statistical forms of bias?
+## Does Microsoft conduct fairness assessments to manage computational and statistical forms of bias?
 
-Yes. It's accommodated in responsible AI compliance.
+Yes. Learn more in Responsible AI Transparency Report.
 
-## Does the organization monitor system outputs for performance or bias issues?
+## Does Microsoft monitor system outputs for performance or bias issues?
 
-Yes. Moderation filters are applied in multiple layer, including on output to ensure there's no harmful content in the response.
+Yes. Moderation filters are applied in multiple layer, including on output to ensure there's no harmful content in the response. Learn more in Responsible AI Transparency Report.
 
 ## What is the level of resiliency in the model's operation? For example, is there a disaster recovery and contingency plan for instances when the model is unavailable?
 
@@ -191,21 +183,17 @@ Similar to all Azure services, backup and recovery is supported via multiple dat
 
 No.
 
-##  Is the model tested for consistency across all intended environments (including variables such as hosting provider, hardware, software systems)?
-
-Supported by Azure OpenAI.
-
-## Has the organization established policies for model based systems for incident response, or confirm that existing incident response policies apply to model based systems?
+## Has Microsoft established policies for model based systems for incident response, or confirm that existing incident response policies apply to model based systems?
 
 Yes.
 
 ## Is there an established model governance policy?
 
-Yes, there's an established governance policy supported by Azure OpenAI.
+Yes, there's an established governance policy supported by Azure OpenAI. Learn more in Responsible AI Transparency Report.
 
 ## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PSI in accordance with privacy and data governance policies?
 
-There's no model training, hence no requirement surrounding data set. However when a agent engages with Copilot, depending on the feature, context data (case or chat) is used in the generation of a response. 
+Currently, there's no model training, hence no requirement surrounding data set. However when a agent engages with Copilot, depending on the feature, context data (case or chat) is used in the generation of a response. 
 
 ## Are PSI disclosures and inference of sensitive or legally protected attributes monitored?
 
@@ -213,37 +201,19 @@ Yes, privacy review is done for every feature.
 
 ## Are policies and procedures that define roles and responsibilities for human oversight of deployed models established?
 
-Yes, it's accommodated in responsible AI compliance.
+Yes. Learn more in Responsible AI Transparency Report.
 
-##  Does the organization have established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model?
+##  Has Microsoft established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model?
 
-Yes, it's accommodated in responsible AI compliance. If a harmful pattern is identified, feature teams apply the required mitigation to address it.
+Yes. Learn more in Responsible AI Transparency Report.
 
-## Does the organization have a process to inform personnel of legal and regulatory considerations and requirements specific to its industry, business purpose and the application environment of the deployed AI systems?
+## Does Microsoft have a process to inform personnel of legal and regulatory considerations and requirements specific to its industry, business purpose and the application environment of the deployed AI systems?
 
-Yes. The legal team is involved in every feature review, to help with regulatory requirements.
+Yes. Legal review is done for every feature to help with regulatory requirements and other legal matters.
 
-## Do organizational policies, processes and procedures include the characteristics of trustworthy AI?
-
-Yes, it's accommodated in responsible AI compliance.
-
-## Does the AI Policy include a review process for legal and risk functions?
-
-Yes. The legal team is involved.
-
-## Does the organization establish policies that define AI risk management roles and responsibilities for positions directly and indirectly related to AI systems?
-
-Yes, it's accommodated in responsible AI compliance.
-
-## Does the organization establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and impacted parties?
+## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and impacted parties?
 
 Yes. In case of high severity issues, feature teams require communicating the outage with impacted customers.
-
-## Does the organization maintain a database of system changes, reasons for changes and details of how the changes were made, tested and deployed?
-
-Yes.
-
-
 
 ### Related information
 
