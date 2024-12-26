@@ -1,32 +1,28 @@
 ---
-title: "Manage sessions in Omnichannel for Customer Service app | MicrosoftDocs"
-description: "Learn how to start and manage sessions using the session panel in Omnichannel for Customer Service app."
-ms.date: 04/06/2020
+title: Manage sessions in the workspace app
+description: Learn how to start and manage sessions using the session panel in Customer Service workspace.
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
 
-# Manage sessions in Omnichannel for Customer Service
+# Manage sessions in the workspace app
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. As an agent, you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
+As a customer service representative (service representative or representative), you can switch between sessions without losing context of the conversation and customer details. You can handle multiple sessions simultaneously (while preserving customer context) and improve productivity.
 
-> [!div class=mx-imgBorder]
-> ![Session panel in the agent interface of Omnichannel for Customer Service app.](../media/oceh-agent-interface-session-panel.png "Session panel in Omnichannel for Customer Service app")
-
-When a session is started:
+When a session starts:
 
 - The presence status is updated as per the configuration set by your administrator.
-- The Communication panel is displayed so you can interact and exchange messages with the customer.
+- The Communication panel is displayed so that you can interact and exchange messages with the customer.
 - The **Active Conversation** page is loaded with the details of customer such as contact or account name, case, and conversation summary.
-- The KB Search page opens in the app tab panel.
 
 ## Start a session
 
-As an agent, you can start the sessions in two ways:
+As a representative, you can start the sessions in two ways:
 
 - Manually start a session
 - Automatically start a session using the incoming notification
@@ -43,25 +39,24 @@ Use a combination of keyboard and mouse-click gesture to start a session. You ca
 
 You can start a session on a channel manually from the Omnichannel Agent Dashboard. Select **More options** (**...**) and select **Open** or **Pick** to start the session. The **Open** option is available for **My work items** and **Closed work items** streams. The **Pick** option is available in **Open work items** streams.
 
- > [!div class=mx-imgBorder]
- > ![Open session in My work items.](../media/oc-open-work-item-my-work-items.png "Open session in My work items") 
+:::image type="content" source="../media/oc-open-work-item-my-work-items.png" alt-text="Screenshot of My work items.":::
 
 ### Automatically start a session using the incoming notification
 
-When you accept an incoming conversation request by selecting the **Accept** button, a session is started and the **Active Conversation** page is loaded in the Unified Interface application area.
+When you select **Accept** on an incoming conversation request, a session starts, and the **Active Conversation** page opens.
 
  > [!div class=mx-imgBorder]
  > ![Session start.](../media/oceh-session-start.png "Session start")
 
 ## Work on multiple customer sessions
 
-As an agent, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session and the **Active Conversation** page is loaded with context of the session. You can open applications such as KB Search, Open records, and any Line-of-Business applications made available in the application tab panel sitemap. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
+As a representative, when you are working on a case, you get an incoming conversation request, and you accept the request. This starts a new session, and the **Active Conversation** page is loaded with context of the session. You can access features, such as knowledge search, email templates, and any Line-of-Business applications made available in the application tab panel site map. You can open these applications using the gestures and the options in the communication panel. To learn more, see [Manually start a session using the gestures](#manually-start-a-session-using-the-gestures) and [View communication panel](oc-conversation-control.md).
 
 When you switch sessions, unsaved changes are not lost and you can continue to work on them.
 
 For example, you are working on a case by entering the title of the case and not yet saved the form. Now, you get a notification about the incoming conversation and you accept the request, which leads to starting of a new session. Again, you can switch back to case session and the data entered is present for you to continue.
 
-## Persistent chat for agents
+## Persistent chat for service representatives
 
 If your organization has chosen persistent chat as the mode of conversation, you should make sure of the following: 
 
@@ -69,40 +64,20 @@ If your organization has chosen persistent chat as the mode of conversation, you
 
 - You must confirm with the customer that their issue is resolved, and then end the session by selecting **End**. After you end the chat, the chat history will not be shown when the customer comes back; a fresh chat session is initiated instead.
 
-
 ## Close a session
 
 You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you'll see the **X** button, and if you select the button, a confirmation dialog is shown to you.
-
-   > [!div class=mx-imgBorder]
-   > ![Close session.](../media/close-session.png "Close session")
 
 ## Mode of the session panel
 
 By default, the session panel is in expanded mode. Use the burger icon to toggle between expand or collapse mode.
 At all times, the **Home** session is anchored and you can't close it. The Home session shows the default dashboard set for you by your administrator.
 
-   > [!div class=mx-imgBorder]
-   > ![Expand and collapse the session list.](../media/expand-collapse-session-list.png "Expand and collapse the session list")
+## Title of the session
 
-
-## Title and icon of the session
-
-- **Session title**
-
-    By default, the title of the session is the name of the customer, account, or title of the case. For an unauthenticated conversation request, the title will be displayed as visitor with a number. For example, **Visitor 1**.
+By default, the title of the session is the name of the customer, account, or title of the case. For an unauthenticated conversation request, the title appears as visitor with a number. For example, **Visitor 1**.
     
-    For an authenticated chat, name of the contact, account, or title of the case is displayed.
-
-    > [!div class=mx-imgBorder]
-    > ![Session title.](../media/oceh-session-title.png "Session title")
-
-- **Session icon**
-
-    By default, the first two letters of the session title are displayed as the session icon.
-
-    > [!div class=mx-imgBorder]
-    > ![Session icon.](../media/oceh-session-icon.png "Session icon")
+For an authenticated chat, the contact name, account, or title of the case is displayed.
 
 ## Session sentiment alert and unread message count
 
@@ -118,8 +93,6 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
     Example 2: **Kenny Smith. Urgent attention is needed in your conversation.**
 
-    > [!div class=mx-imgBorder]
-    > ![Session sentiment alert.](../media/sentiment-agent1.png "Session sentiment alert")
 
 - **Unread message count**
 
@@ -137,10 +110,7 @@ At all times, the **Home** session is anchored and you can't close it. The Home 
 
     Example 2: **Kenny Smith. 5 new updates in your conversation.**
 
-    When you select a session with unread messages, the session will be focused and the unread message count will disappear from the session icon.
-
-    > [!div class=mx-imgBorder]
-    > ![Unread message count.](../media/unread-message.png "Session icon")
+    When you select a session with unread messages, the session is in focus and the unread message count disappears from the session icon.
 
 ### Related information
 

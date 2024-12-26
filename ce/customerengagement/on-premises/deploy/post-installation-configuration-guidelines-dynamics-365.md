@@ -2,7 +2,6 @@
 title: "Post-installation and configuration guidelines for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Understand the configuration needed after you install Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "11/28/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

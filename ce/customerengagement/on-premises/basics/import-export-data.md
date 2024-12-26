@@ -2,15 +2,14 @@
 title: "Import or export data with Dynamics 365 Customer Engagement (on-premises)"
 description: "Import contacts, leads, or other types of records to keep your customer data in one place. You can also export data to Excel to run your own reports."
 ms.custom: 
-ms.date: 09/15/2019
 ms.reviewer: 
 
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.assetid: fe4feb5a-abd2-47d6-a210-0d31791c1e98
 caps.latest.revision: 4
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 ms.topic: conceptual

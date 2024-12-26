@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 12/03/2024
+ms.date: 12/12/2024
 ms.custom: bap-template 
 ---
 
@@ -133,11 +133,11 @@ Specify the filters that are automatically applied. The agents don't need to exp
 
 The following table summarizes the Copilot features supported for a configured knowledge source.
 
-| Feature|Knowledge base | External web resources |
+| Feature | Knowledge base | External web resources | Knowledge sources in Copilot Studio|
 |-------|----------|---------|--------|
-|Ask a question |✔|X|
-|Write an email | ✔|✔|
-|Draft a response |✔|✔|
+|Ask a question |✔|X| ✔|
+|Write an email | ✔|✔|X|
+|Draft a response |✔|✔|X|
 
 ### Related information
 

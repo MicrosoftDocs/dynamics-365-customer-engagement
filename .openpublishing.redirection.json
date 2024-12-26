@@ -32934,7 +32934,7 @@
     },
     {
       "source_path": "ce/field-service/mobile-powerapp-newux-overview.md",
-      "redirect_url": "/dynamics365/field-service/mobile/enable-newux",
+      "redirect_url": "/dynamics365/field-service/mobile/set-up-field-service-mobile#refreshed-mobile-user-experience",
       "redirect_document_id": false
     },
     {
@@ -33055,6 +33055,11 @@
     {
       "source_path": "ce/field-service/troubleshooting-mobile-newux.md",
       "redirect_url": "/dynamics365/field-service/mobile/troubleshooting-mobile-newux",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/mobile/troubleshooting-mobile-newux.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
       "redirect_document_id": false
     },
     {
@@ -33255,6 +33260,16 @@
     {
       "source_path": "ce/customer-service/administer/nuance-enroll-customer.md",
       "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/videos.md",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/knowledgehub-copilot.md",
+      "redirect_url": "/dynamics365/customer-service/administer/knowledge-copilot",
       "redirect_document_id": false
     }
 

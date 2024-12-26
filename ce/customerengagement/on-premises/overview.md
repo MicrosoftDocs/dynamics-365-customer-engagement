@@ -2,7 +2,6 @@
 title: "Help for Dynamics 365 Customer Engagement (on-premises), version 9.x"
 description: "Find all the info you need to work with Dynamics 365 Customer Engagement (on-premises), version 9.1. Learn about deploying, customizing, reporting, and more."
 ms.custom: on-premises
-ms.date: 02/09/2024
 ms.reviewer: matp
 
 ms.topic: overview

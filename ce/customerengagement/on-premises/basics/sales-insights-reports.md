@@ -2,7 +2,6 @@
 title: "Sales reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use sales reports to understand and improve your business. Learn about reports for progress against goals, sales pipelines, neglected leads, and more."
 ms.custom: 
-ms.date: 09/15/2017
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: d8029ee8-6c19-4ce8-96eb-3a74b48c4d37
 caps.latest.revision: 11
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

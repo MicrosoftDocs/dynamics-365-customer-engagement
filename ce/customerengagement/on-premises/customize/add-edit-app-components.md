@@ -2,7 +2,6 @@
 title: "Add app components with Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to use the app designer to easily add components such as entities, dashboards, business process flows, forms, charts, and views."
 keywords: 
-ms.date: 03/04/2019
 
 ms.custom: 
 ms.topic: article

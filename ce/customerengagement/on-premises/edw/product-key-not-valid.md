@@ -1,7 +1,6 @@
 ---
 title: "Microsoft Dynamics 365 for Customer Engagement product key is not valid or cannot be used with the current deployment | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -2,7 +2,7 @@
 title: "How to opt out of data collection  (Dynamics 365 apps)| MicrosoftDocs"
 ms.custom: 
 description: How to opt out of data collection on Dynamics 365 mobile app
-ms.date: 01/29/2021
+ms.date: 12/13/2024
 ms.reviewer: smurkute 
 ms.service: d365ce-op
 ms.suite: 
