@@ -1,7 +1,7 @@
 ---
 title: Configure context variables for bots
 description: Learn how you can add context variables and then configure them for Azure or Copilot Studio bots in Omnichannel for Customer Service.
-ms.date: 06/19/2024
+ms.date: 12/26/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
