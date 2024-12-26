@@ -26,7 +26,7 @@ You can view a list of all agent and customer-facing automated messages in your 
     > [!div class=mx-imgBorder]
     > ![Display all automated messages.](../media/automated-messages-list.png "Display all automated messages")
 
-1. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button. If overflow conditions are configured, the default automated message is played for the overflow action if you deactivate the actual message.
+1. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button. If overflow conditions are configured, the default automated message is played for the overflow action if you deactivate the message that's configured for the overflow condition.
 
 ## Customize automated messages at the channel level
 
