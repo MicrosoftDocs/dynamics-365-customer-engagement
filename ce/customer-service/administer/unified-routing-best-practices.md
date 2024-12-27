@@ -47,15 +47,15 @@ Customer Service lets you make API calls to set up users in bulk. A single chang
 
 We recommend that you make 500 change requests every 15 minutes for the system to process the changes optimally without getting throttled. Beyond this recommended rate for bulk updates, you might notice inconsistencies in user data, such as skills not updated as expected, after the update is over.
 
-For example, let's say you manage a contact center that has 1,000 agents working in it and need to set up each agent by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
+For example, let's say you manage a contact center that has 1,000 customer service representative (service representative or representative) working in it, and you need to set up each representative by assigning two skills, one capacity profile, and one role. The total number of requests to configure these settings is 4,000.
 
 Based on our recommendation of 500 requests per 15 minutes, you'll need to make these requests in eight batches as follows:
 
 |Change request type|Number of requests|Number of batches|
 |-----------|---------|------------|
-|Two skills per agent|250 requests per batch|Four|
-|One capacity profile per agent|500 requests per batch|Two|
-|One role per customer service representative (service representative or representative) |500 requests per batch|Two|
+|Two skills per service representative|250 requests per batch|Four|
+|One capacity profile per service representative|500 requests per batch|Two|
+|One role per service representative |500 requests per batch|Two|
 
 Learn about using the API in [Use the Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/overview).
 
@@ -79,30 +79,30 @@ Configure assignment rules to route and assign cases and conversations based on 
 ## Manage queues
 
 - Manage automatic assignment if the top 100 work items have extended wait times.
-- Use skill-based routing to distribute work items to the most qualified agents.
+- Use skill-based routing to distribute work items to the most qualified service representatives.
 - Set up single or multiple queues with skill-matching to manage different types of work.
 
 ### Use classification rules to optimize route-to-queue and prioritization rules
 
-Complex rules and conditions in prioritization rulesets add latency to the prioritization and assignment cycles. These assignment cycles are iterative and run every time until the system finds an agent and assigns the work item. As a best practice for checks that yield a static value, we recommend that you use the classification rules in the workstream to categorize the conversation. For example, checks on whether the customer is a VIP or the conversation is an urgent query that requires immediate attention, needn't be evaluated frequently and can be evaluated only once during classification. By setting an attribute in the classification rule, you can use it downstream in route-to-queue and prioritization rules as well.  This simplifies manageability and reduces the latency on assignment.
+Complex rules and conditions in prioritization rulesets add latency to the prioritization and assignment cycles. These assignment cycles are iterative and run every time until the system finds a service representative and assigns the work item. As a best practice for checks that yield a static value, we recommend that you use the classification rules in the workstream to categorize the conversation. For example, checks on whether the customer is a VIP or the conversation is an urgent query that requires immediate attention, needn't be evaluated frequently and can be evaluated only once during classification. By setting an attribute in the classification rule, you can use it downstream in route-to-queue and prioritization rules as well.  This simplifies manageability and reduces the latency on assignment.
 
 ### Manage auto-assignment if work items have extended wait times
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited agents based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
+The auto-assignment process in unified routing matches incoming work items with the best-suited service representatives based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
 
-If you have a scenario in which agents aren't available to be assigned the work items for an extended time, we recommend the following options:
+If you have a scenario in which service representatives aren't available to be assigned the work items for an extended time, we recommend the following options:
 
-- To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible agent pool.
-- Review agent availability and schedules to evaluate staffing more agents.
-- If there are items lower in priority that might have eligible agents, then contact Microsoft Support with your business scenario to determine if the block size can be increased.  
+- To minimize the wait time, use features like overflow management to manage high load or custom assignment rules to gradually relax rules to expand the eligible service representative pool.
+- Review service representative availability and schedules to evaluate staffing more service representatives.
+- If there are items lower in priority that might have eligible service representatives, then contact Microsoft Support with your business scenario to determine if the block size can be increased.  
   > [!NOTE]
   > A block size that's larger than the default one might affect performance and accuracy of prioritization. Therefore, we recommend that you share your business scenario with the queue backlog and queue staffing projections to help Microsoft Support recommend the most optimized block size for your use case.
 
-### Use skill-based routing to distribute work items to the most qualified agents
+### Use skill-based routing to distribute work items to the most qualified representatives
 
-Skill-based routing lets your contact center distribute work items (conversations) to the agent who is most qualified to solve the issue. However, the need to use skill-based routing is determined by your business scenario.  
+Skill-based routing lets your contact center distribute work items (conversations) to the service representative who is most qualified to solve the issue. However, the need to use skill-based routing is determined by your business scenario.  
 
-For example, to address the following scenario in your contact center, we recommend that you configure skill-based matching to assign work items to the agent who has the necessary skills to handle the cases:
+For example, to address the following scenario in your contact center, we recommend that you configure skill-based matching to assign work items to the service representative who has the necessary skills to handle the cases:
 
 - My service team supports two types of work items&mdash;order delivery issues and refund requests. However, most of the users will have the skills for one type only.
 - During standard operations, the team will have two subgroups, and each group will handle one type of incoming work items.
