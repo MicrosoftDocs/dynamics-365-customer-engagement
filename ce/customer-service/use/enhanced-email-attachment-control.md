@@ -47,18 +47,9 @@ Perform the following actions using the enhanced email attachment control:
 
  ![Enhanced attachment control.](../media/cs-enh-email-attach.png "Screenshot of the enhanced email with the enhanced attachment control")
 
+  > [!NOTE]
+  > You can delete attachments for sent or completed emails by enabling the right component in Power Apps. Learn more in [Enable enhanced experience for email attachments](../administer/add-enhanced-attachment-control.md)
 
-## Delete attachment for completed emails
-
-You can enable deleting an attachment for a completed email by using the following steps within your Power Apps form.
-
-- In the [Power Apps home page](https://make.powerapps.com), select **Tables** from the left navigation pane.
-- In Tables, select **Email**. 
-- Select **Forms** in Data experiences and then select **Email** in Forms.
-- The Email Form page appears. From Attachment > Properties in the right, select **Attachments control** in the **Components** dropdown.
-- By default, the **Static value** in **Make Delete visible to users** is selected as **False**. Change this to **True** and select **Done**.
-
-:::image type="Delete email attachment." source="../media/delete-email-attachments.png" alt-text="Delete email attachment for a completed email." lightbox="../media/delete-email-attachments.png":::
 
 ## Next steps
 
