@@ -104,18 +104,18 @@ Out of the box, users with the Customer Service Representative role only can use
 
 |Table | Name | Create | Read | Write | Append |
 |------|------|--------|------|-------|--------|
-|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | No | Yes | Not applicable | Not applicable | 
-|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | No | No | Yes | No | No |
-|Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | No | No | No | No | No |
-|AI Model | msdyn_aimodel | No | Yes | No | No | No | No | No | No |
-|AI Template | msdyn_aitemplate | No | Yes | No | No | No | No | No | No |
-|ConversationInsight | msdyn_conversationinsight | No | Yes | No | No | No | No | No | No |
-|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | No | Yes | No | No | No |
-|App profile | msdyn_appconfiguration | No | Yes | No | No | No | No | No | No |
-|Pane tool configuration | msdyn_panetoolconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
-|Productivity pane configuration | msdyn_paneconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
-|Pane tab configuration | msdyn_panetabconfiguration | No | Yes | No | No | No | No | Not applicable | Not applicable |
-|Organization Setting | organizationsetting | No | Yes | Yes | No | No | No | Not applicable | Not applicable |
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | 
+|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | No |
+|Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | No |
+|AI Model | msdyn_aimodel | No | Yes | No | No |
+|AI Template | msdyn_aitemplate | No | Yes | No | No |
+|ConversationInsight | msdyn_conversationinsight | No | Yes | No | No |
+|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | No |
+|App profile | msdyn_appconfiguration | No | Yes | No | No |
+|Pane tool configuration | msdyn_panetoolconfiguration | No | Yes | No | No |
+|Productivity pane configuration | msdyn_paneconfiguration | No | Yes | No | No |
+|Pane tab configuration | msdyn_panetabconfiguration | No | Yes | No | No |
+|Organization Setting | organizationsetting | No | Yes | Yes | No |
 
 
 Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
