@@ -4,7 +4,7 @@ description: Perform the steps to assign roles to users and enable them in conta
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 08/12/2024
+ms.date: 12/30/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -47,9 +47,9 @@ Perform the following steps to assign roles to users in the advanced settings ar
 
 3. Select the users from the list for whom you want to assign a security role.
 
-4. Select **Manage Roles** in the menu. The security roles available for the business unit are displayed.
+4. Select **Manage security roles** in the menu. The security roles available for the business unit are displayed.
 
-5. In the **Manage User Roles** dialog box, select the security roles that you want to assign to the user, and then select **OK**.
+5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
 To view and manage users in omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
 
