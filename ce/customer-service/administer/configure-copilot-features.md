@@ -104,18 +104,22 @@ Out of the box, users with the Customer Service Representative role only can use
 
 |Table | Name | Create | Read | Write | Append |
 |------|------|--------|------|-------|--------|
-|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | 
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | Yes | 
 |Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | No |
 |Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | No |
 |AI Model | msdyn_aimodel | No | Yes | No | No |
 |AI Template | msdyn_aitemplate | No | Yes | No | No |
 |ConversationInsight | msdyn_conversationinsight | No | Yes | No | No |
-|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | No |
+|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | Yes |
 |App profile | msdyn_appconfiguration | No | Yes | No | No |
 |Pane tool configuration | msdyn_panetoolconfiguration | No | Yes | No | No |
 |Productivity pane configuration | msdyn_paneconfiguration | No | Yes | No | No |
 |Pane tab configuration | msdyn_panetabconfiguration | No | Yes | No | No |
-|Organization Setting | organizationsetting | No | Yes | Yes | No |
+|Organization Setting | organizationsetting | No | Yes | No | No |
+
+Additionally, users can avail the following Miscellaneous privilege. 
+
+prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles.
 
 
 Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
