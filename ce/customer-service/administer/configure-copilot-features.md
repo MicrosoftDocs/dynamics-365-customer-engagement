@@ -102,8 +102,8 @@ In the **Summaries** and **Copilot help pane** configuration pages, you can sele
 
 Out of the box, users with the Customer Service Representative role only can use the copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
-|Table | Name | Create | Read | Write | Delete | Append | Append to | Assign | Share |
-|-------|------|--------|--------|------|-------|--------|
+|Table | Name | Create | Read | Write | Append |
+|------|------|--------|------|-------|--------|
 |Copilot interaction | msdyn_copilotinteraction | Yes | Yes | No | No | No | Yes | Not applicable | Not applicable | 
 |Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | No | No | Yes | No | No |
 |Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | No | No | No | No | No |
