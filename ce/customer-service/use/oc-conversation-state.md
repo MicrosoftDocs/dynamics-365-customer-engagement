@@ -1,7 +1,7 @@
 ---
 title: Understand conversation states 
 description: Use this article to learn about various states and status reasons of conversations or work items in Omnichannel for Customer Service.
-ms.date: 04/03/2024
+ms.date: 12/29/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -99,6 +99,21 @@ The conversation (work item) transitions from **Waiting** to **Closed**, **Activ
 ## Closed
 
 The conversations that are completed by ending them or closing the session are classified as **Closed** conversations. Agents can't reactivate or reopen closed conversations.
+
+## How conversations are handled on close or end
+
+When service representatives close the conversation using the close (X) button on the window or end the conversation using the **End** button, the system handles the two behaviors differently for different channels that's explained as follows:
+
+- **Voice and chat channels**:
+
+    - **End conversation using the End button**: The conversation is put in wrap-up state where the representative's capacity remains occupied until the wrap-up time configured is completed. You can verify the wrap-up time in the workstream setting.
+    - **Close conversation after using the End button**: The conversation is closed and the representative's capacity is immediately released. If the wrap-up time is on, the closure action can be used to end the wrap-up stage early if the representative has completed their work.
+    - **Close conversation without ending it**: If conversation is closed using the close (X) button instead of the **End** button, the system reassigns the conversation to another available service representative.
+
+- **Persistent chat and asynchronous channels**:
+
+    - **Close conversation without ending it**: The conversation goes into a waiting state and the representative capacity is immediately released. When the customer comes back, the conversation is resumed again.
+    - **End conversation using the End button**: The conversation is closed for the customer as well. The system applies the wrap-up time based on workstream configuration settings.
 
 ### Related information
 
