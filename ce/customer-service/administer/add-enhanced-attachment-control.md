@@ -59,7 +59,7 @@ You can enable representatives to delete attachments from sent emails by perform
 
 - In the [Power Apps home page](https://make.powerapps.com), select **Tables** > **Email**. 
 - Select **Forms** and select the required form.
-- Select the **Attachment** component. In Properties, select **Attachments control** and set the **Make Delete visible to users** Static value to **True**.
+- Select the **Attachment** component. In Properties, select **Attachments control** and set the **Make Delete visible to users** value to **True**.
 - Select **Done**.
 - Save and publish the changes.
 
