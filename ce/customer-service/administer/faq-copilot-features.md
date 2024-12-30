@@ -58,7 +58,8 @@ Yes. Copilot supports knowledge articles published in the supported languages. S
 - Restrict access to sources from which you don't want your copilot responses to be generated.
 
 ## Where can I access feedback for copilot?
-When an agent interacts with Copilot, they can provide feedback on the responses that Copilot provides. The feedback is stored in the msdyn_copilotinteraction table in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
+The feedback that you as a customer service representative provide on Copilot responses is stored in  
+the msdyn_copilotinteraction table in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
 
 ### Related information
 
