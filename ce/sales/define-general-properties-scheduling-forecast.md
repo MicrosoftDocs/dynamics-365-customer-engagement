@@ -29,7 +29,9 @@ Define the entities that must be used to generate the forecast.
 
 1. In the **General** step of the **Forecast configuration** page, define the fields that should be used for the forecast. The following screenshot is an example of the **General** step for an org chart forecast. Let's walk through the options in the subsequent steps.
 
-    :::image type="content" source="./media/forecast-general-properties-forecast.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown." lightbox="media/forecast-general-properties-forecast.png":::
+    :::image type="content" source="media/forecast-general-tab-configuration-section.png
+" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown." lightbox="media/forecast-general-tab-configuration-section.png
+":::
    
 1. Enter a descriptive name for the forecast. Example: *Kenny's Org FY2023 Forecast*.
 
