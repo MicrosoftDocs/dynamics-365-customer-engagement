@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 10/18/2024
+ms.date: 12/30/2024
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -54,6 +54,8 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
    - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
 
       :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
+
+    - **Filters**: Select the queues that you want to filter your reports by. In the out-of-the box historical or real-time reports, select **Advanced filtering**, with the **Or** option to filter queues.
 
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 
