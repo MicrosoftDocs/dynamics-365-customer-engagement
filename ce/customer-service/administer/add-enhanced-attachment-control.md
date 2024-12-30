@@ -53,15 +53,15 @@ You can enable the drag and drop feature for files to be added as attachments fo
 
 1. Save and publish the form.
 
-## Delete attachment for completed emails
+## Delete attachments for sent emails
 
-You can enable representatives to delete attachments from sent emails by performing the following steps.
+You can enable representatives to delete attachments from sent emails by performing the following steps:
 
-- In the [Power Apps home page](https://make.powerapps.com), select **Tables** > **Email**. 
-- Select **Forms** and select the required form.
-- Select the **Attachment** component. In Properties, select **Attachments control** and set the **Make Delete visible to users** value to **True**.
-- Select **Done**.
-- Save and publish the changes.
+1. In the [Power Apps](https://make.powerapps.com), select **Tables** > **Email**. 
+1. Select **Forms** and then select the required form.
+1. Select the **Attachment** component. In **Properties**, select **Attachments control** and set the **Make Delete visible to users** value to **True**.
+1. Select **Done**.
+1. Save and publish the changes.
 
 :::image type="Delete email attachment." source="../media/delete-email-attachments.png" alt-text="Delete email attachment for a completed email." lightbox="../media/delete-email-attachments.png":::
 
