@@ -35,7 +35,7 @@ The following procedure shows how to modify the **Customer profile** quick view 
 6.  Select **Save**, and then select **Publish**.
 
 > [!TIP]
-> To edit a quick view form, see [Create a quick view form](/https://learn.microsoft.com/en-us/power-apps/maker/model-driven-apps/create-edit-quick-view-forms#edit-a-quick-view-form).
+> To edit a quick view form, see [Create a quick view form](/power-apps/maker/model-driven-apps/create-edit-quick-view-forms#edit-a-quick-view-form).
 
 
 ### Related information
