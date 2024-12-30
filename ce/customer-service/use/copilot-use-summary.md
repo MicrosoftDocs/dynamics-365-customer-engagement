@@ -16,7 +16,9 @@ ms.custom: bap-template
 
 Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
-## [Standalone apps](#tab/standaloneapps)
+[!INCLUDE[cc-product-information](../../includes/cc-product-information.md)]
+
+## [Standalone](#tab/standaloneapps)
 
 ### Prerequisites
 
@@ -34,7 +36,7 @@ You can copy the summary, refresh it, and provide feedback.
 > - You can also generate a case summary for cases that are resolved or canceled.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
-## [Embedded apps](#tab/embeddedapps)
+## [Embedded](#tab/embeddedapps)
 
 In Contact Center Embed and Microsoft 365 Copilot for Service, the summaries depend on the third-party CRM.
 

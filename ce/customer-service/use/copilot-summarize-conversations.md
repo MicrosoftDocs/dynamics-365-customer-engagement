@@ -17,8 +17,9 @@ ms.custom: bap-template
 
 Copilot conversation summaries provide context and relay the steps that you took to solve the issue. You can summarize chat and transcribed voice conversations.
 
+[!INCLUDE[cc-product-information](../../includes/cc-product-information.md)]
 
-## [Standalone apps](#tab/standaloneapps)
+## [Standalone](#tab/standaloneapps)
 
 ### Prerequisites
 
@@ -45,7 +46,7 @@ You can perform the following actions:
 - Share feedback about the summary.
 - Close the summary card.
 
-## [Embedded apps](#tab/customersummarypage)
+## [Embedded](#tab/customersummarypage)
 
   In Contact Center Embed and Microsoft 365 Copilot for Service, conversation summaries are generated for closed conversations as follows:
 
