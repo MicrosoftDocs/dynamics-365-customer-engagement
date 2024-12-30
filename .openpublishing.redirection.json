@@ -281,6 +281,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/view-snapshots.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/understand-forecast-projection-through-trend-chart.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-snapshots-forecast.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/analyze-deals-flow-between-snapshots.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/license-enforcement.md",
       "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
       "redirect_document_id": "false"

@@ -38,7 +38,7 @@ Now that you've completed the required configurations for the forecast, use the 
 
 <a name=select-primary-data-type></a>
 
-1. If you've used different data types for columns in the forecast, an error is displayed at the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in the Kanban view, deal flows, and trend charts. The following screen is an example of error:
+1. If you've used different data types for columns in the forecast, an error is displayed at the top of the **Activate forecast** section. You must resolve the issue to publish and display the data in the Kanban view. The following screen is an example of error:
 
     :::image type="content" source="media/forecast-publish-multiple-data-type-error.png" alt-text="Multiple data type error":::
 

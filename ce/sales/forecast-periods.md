@@ -31,7 +31,6 @@ The following rules apply when you're adding forecast periods:
 |Maximum number of periods supported     |     - Overall: 17 <br> - Weekly periods: 17 <br> - Monthly periods: 12 <br> - Quarterly periods: 4 <br> - Annual periods: 3         |
 |Period types assigned for custom periods     |    The following period types are assigned to custom periods depending on the number of days in the period. The rules, such as maximum number of periods and maximum duration, that apply to the predefined period types also apply to custom periods. <br> - Up to of 7 days (1 week): Weekly <br> - 7 days to 35 days (5 weeks): Monthly <br> - 35 days to 98 days (14 weeks): Quarterly <br> - 98 days to 1 year (52 weeks): Annual |
 |Duplicate periods | Not allowed. Duplicate periods&mdash;periods with the same start date and end date&mdash;are not allowed. |
-|Snapshot frequency | - Weekly, monthly and quarterly periods: Daily <br> - Annual periods: Weekly |
 
 
 ### Scheduling format
