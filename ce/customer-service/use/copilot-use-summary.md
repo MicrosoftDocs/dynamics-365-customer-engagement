@@ -34,7 +34,7 @@ You can copy the summary, refresh it, and provide feedback.
 > - You can also generate a case summary for cases that are resolved or canceled.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
-## [Standalone apps](#tab/standaloneapps)
+## [Embedded apps](#tab/embeddedapps)
 
 In Contact Center Embed and Microsoft 365 Copilot for Service, the summaries depend on the third-party CRM.
 
