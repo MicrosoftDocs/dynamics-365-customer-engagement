@@ -102,20 +102,20 @@ In the **Summaries** and **Copilot help pane** configuration pages, you can sele
 
 Out of the box, users with the Customer Service Representative role only can use the copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
-|Table | Name | Create | Read | Write | Append |
-|------|------|--------|------|-------|--------|
-|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Not applicable | Yes | 
-|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | Not applicable |
-|Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | Not applicable |
-|AI Model | msdyn_aimodel | Not applicable | Yes | Not applicable | Not applicable |
-|AI Template | msdyn_aitemplate | Not applicable | Yes | Not applicable | Not applicable |
-|ConversationInsight | msdyn_conversationinsight | Not applicable | Yes | Not applicable | Not applicable |
-|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | Yes |
-|App profile | msdyn_appconfiguration | Not applicable | Yes | Not applicable | Not applicable |
-|Pane tool configuration | msdyn_panetoolconfiguration | Not applicable | Yes | Not applicable | Not applicable |
-|Productivity pane configuration | msdyn_paneconfiguration | Not applicable | Yes | Not applicable | Not applicable |
-|Pane tab configuration | msdyn_panetabconfiguration | Not applicable | Yes | Not applicable | Not applicable |
-|Organization Setting | organizationsetting | Not applicable | Yes | Not applicable | Not applicable |
+|Table | Name | Create | Read | Write | Append | Append To |
+|------|------|--------|------|-------|--------|-----------|
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Not applicable | Yes | Not applicable |
+|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | Not applicable | Yes |
+|Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | Not applicable | Not applicable |
+|AI Model | msdyn_aimodel | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|AI Template | msdyn_aitemplate | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|ConversationInsight | msdyn_conversationinsight | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | Yes | Not applicable |
+|App profile | msdyn_appconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Pane tool configuration | msdyn_panetoolconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Productivity pane configuration | msdyn_paneconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Pane tab configuration | msdyn_panetabconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Organization Setting | organizationsetting | Not applicable | Yes | Yes | Not applicable | Not applicable |
 
 
 > [!NOTE]
