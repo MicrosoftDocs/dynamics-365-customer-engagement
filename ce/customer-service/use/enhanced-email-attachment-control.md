@@ -36,7 +36,7 @@ Perform the following actions using the enhanced email attachment control:
 - Select **Flows** to create and select your existing flows. 
 - Export attachments that you uploaded. The .csv file contains the name and size of the attachments. 
 - View the size of the uploaded attachment in the nearest unit of its size.
-- Hover over the attachment to download, delete, or select an attachment.
+- Hover over the attachment to download, delete, or select an attachment. You can delete an attachment from a sent email, based on your administrator's configuration. Learn more in [Enable enhanced experience for email attachments](../administer/add-enhanced-attachment-control.md)
 - Select the file to launch the preview. Preview is available only for image and pdf attachments.
 - Switch between the grid and list views.
 - Select all the attachments.
@@ -47,8 +47,6 @@ Perform the following actions using the enhanced email attachment control:
 
  ![Enhanced attachment control.](../media/cs-enh-email-attach.png "Screenshot of the enhanced email with the enhanced attachment control")
 
-  > [!NOTE]
-  > You can delete attachments for sent or completed emails by enabling the right component in Power Apps. Learn more in [Enable enhanced experience for email attachments](../administer/add-enhanced-attachment-control.md)
 
 
 ## Next steps
