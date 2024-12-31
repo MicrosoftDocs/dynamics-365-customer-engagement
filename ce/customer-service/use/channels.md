@@ -1,19 +1,18 @@
 ---
-title: Overview of channels in Omnichannel for Customer Service
+title: Overview of channels
 description: Learn about the different channels that are available in Omnichannel for Customer Service and the licenses required to use them.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 08/12/2024
+ms.date: 10/09/2024
 ms.custom: bap-template
 ---
 
 # Overview of channels
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
-
 
 As new social networks and communication channels rapidly evolve, so do customer expectations on how to reach their favorite brands. Communication via many channels isn't only comfortable but expected, and businesses that seek to provide personalized services are rapidly working to enable support through the channels their customers want to use. 
 
@@ -28,23 +27,13 @@ The implementation pattern for the out-of-the-box channels is as follows:
 
 ## License requirements
 
-An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Apart from Dynamics 365 subscriptions, if you choose to use any third-party channels, you need to acquire subscriptions from those providers as well.
-
-You can get Chat with the following add-on licenses:
-
-- [Chat for Dynamics 365](https://dynamics.microsoft.com/customer-service/overview/#pricing)
-- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/#pricing)
-
-> [!Note]
-> The Digital Messaging Add-in license includes Chat for Dynamics 365 Customer, SMS, Facebook, and bot integration.
-
-You can get the SMS, social channels, and custom messaging channels with the following add-on license:
-
-- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/)
+An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 You can get the Microsoft Teams channel with the following add-on license:
 
 - [Teams license](/MicrosoftTeams/office-365-licensing)
+
+Apart from Dynamics 365 subscriptions, if you choose to use any non-Microsoft channels, you need to acquire subscriptions from those providers as well.
 
 The following channels are currently available in the application: 
 
@@ -63,7 +52,6 @@ To address customer issues, you can configure and use the voice channel. More in
 If you want to help your customers using SMS, you can use the following SMS channels:
 
 - [SMS through Azure Communication Services](../administer/configure-sms-channel-acs.md)
-- [SMS through TeleSign](../administer/configure-sms-channel.md)
 - [SMS through Twilio](../administer/Configure-sms-channel-twilio.md)
 
 ## Social channels
@@ -73,7 +61,6 @@ If you want to help your customers using social media, you can use the following
 - [Apple Messages for Business](../administer/configure-apple-messages-for-business-channel.md)
 - [Facebook](../administer/configure-facebook-channel.md)
 - [WhatsApp through Twilio](../administer/configure-whatsapp-channel.md)
-- [WeChat](../administer/configure-wechat-channel.md)
 - [LINE](../administer/configure-line-channel.md)
 
 ## Custom messaging channel

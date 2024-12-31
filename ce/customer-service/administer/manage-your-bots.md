@@ -3,10 +3,10 @@ title: Manage your bots
 description: Learn how you can quickly configure bots in the Customer Service admin center.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
-ms.collection: 
-ms.date: 05/31/2024
+ms.collection: bap-ai-copilot
+ms.date: 12/16/2024
 ms.custom: bap-template
 ---
 
@@ -49,7 +49,7 @@ On the **Bots** page, you can review the bot details and also perform the follow
 ### Next steps
 
 [Add a bot to a workstream](create-workstreams.md#add-a-bot-to-a-workstream)  
-[End bot conversation](configure-bot-virtual-agent.md#end-bot-conversation)  
+[End bot conversation](configure-bot-virtual-agent.md#end-agent-conversations)  
 
 ### Related information
 

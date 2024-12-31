@@ -2,8 +2,8 @@
 title: "Set up and configure Dynamics 365 for Outlook from Microsoft 365 | MicrosoftDocs"
 description: Learn how to install, set up, and configure Dynamics 365 for Outlook directly from the Microsoft 365 Home page.
 ms.custom:
-ms.date: 01/11/2016
-ms.reviewer:
+ms.date: 12/13/2024
+ms.reviewer: smurkute
 
 ms.suite:
 ms.tgt_pltfrm:
@@ -13,7 +13,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: e741c693-4247-4551-b81a-5e8ec5da6567
 caps.latest.revision: 33
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType:
   - admin
@@ -29,7 +29,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 ### Logging on as a Local Administrator  
   
-- To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to log on to your computer as a user with Local Administrator privileges.  
+- To install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], you must be able to sign-in your computer as a user with Local Administrator privileges.  
   
 ### Software requirements  
   
@@ -43,7 +43,7 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
 - Install all the latest [!INCLUDE[pn_MS_Office](../../includes/pn-ms-office.md)] updates, including all security updates, from [!INCLUDE[pn_Microsoft_Update](../../includes/pn-microsoft-update.md)]. [Go to Microsoft Update](https://go.microsoft.com/fwlink/p/?LinkId=165705).  
   
-- To ensure that you stay up-to-date with future releases of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], it is highly recommended that you ensure that [!INCLUDE[pn_ms_Windows_Update](../../includes/pn-ms-windows-update.md)] is enabled on your computer. [Learn how to turn on automatic updates](https://go.microsoft.com/fwlink/p/?LinkID=518633).  
+- To ensure that you stay up to date with future releases of [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], it's highly recommended that you ensure that [!INCLUDE[pn_ms_Windows_Update](../../includes/pn-ms-windows-update.md)] is enabled on your computer. [Learn how to turn on automatic updates](https://go.microsoft.com/fwlink/p/?LinkID=518633).  
   
 ## Step 2: Install and configure Dynamics 365 for Outlook  
   
@@ -51,13 +51,13 @@ You can use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-m
   
     Sign in to the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] home page: [https://admin.microsoft.com](https://admin.microsoft.com).  
   
-2. In the upper-right corner of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] home page, click your account picture > **View account**.  
+2. In the upper-right corner of the [!INCLUDE[pn_Office_365](../../includes/pn-office-365.md)] home page, select your account picture > **View account**.  
   
     ![View Microsoft 365 account settings.](../media/o365-settings-account.png "View Microsoft 365 account settings")  
   
-3. Click **Settings** > **Software** > **Tools & add-ins**.  
+3. Select **Settings** > **Software** > **Tools & add-ins**.  
   
-4. Under [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], click **Install** to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
+4. Under [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-microsoft-dynamics-crm-for-outlook.md)], select **Install** to install [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)].  
   
 5. When prompted, restart [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. This will automatically start the Configuration Wizard and you’ll see the following dialog box:  
   

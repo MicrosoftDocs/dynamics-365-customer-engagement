@@ -5,7 +5,7 @@ ms.date: 07/01/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
@@ -124,7 +124,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Delete a configured channel](delete-channel.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
-[Configure SMS channel using TeleSign](configure-sms-channel.md)	
 [SMS FAQ](faqs.md#sms)  
 
 

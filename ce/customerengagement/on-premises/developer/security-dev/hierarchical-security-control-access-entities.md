@@ -2,7 +2,6 @@
 title: "How hierarchical security can be used to control access to entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Provides an additional, more granular security model for accessing records in a hierarchical organizational structure."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Security considerations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn about the security considerations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: 04/08/2020
 
 ms.reviewer: ""
 ms.suite: ""

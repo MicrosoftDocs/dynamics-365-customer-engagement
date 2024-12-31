@@ -5,7 +5,7 @@ ms.date: 08/29/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ms.custom: bap-template
 ---
 
@@ -60,8 +60,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 [Overview of channels](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
-[Configure SMS channel for TeleSign](configure-sms-channel.md)  
+[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)   
 [Delete a configured channel](delete-channel.md)  
 [SMS FAQ](faqs.md#sms)  
 [Support for live chat and asynchronous channels](../use/channels.md)  

@@ -1,7 +1,7 @@
 ---
 title: Create a quick campaign using in-app marketing
 description: A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region.
-ms.date: 06/20/2024
+ms.date: 11/06/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -79,6 +79,8 @@ When you create a quick campaign activity, an activity is created for each membe
 1. Select **Next**.
 
 1. On the **Specify the Content of the Activity** step, specify the details of the activity to be created, and then select **Next**.  
+    > [!NOTE]
+    > For email activity, when you choose a template that has dynamic text fields related to user, the system will automatically populate that data fields with the current user's information. For example, if you have a template with the subject line as "Hello, *user.fullname*", the system will replace the *user.fullname* with the current user's full name.
 
 1. On the **Completing the Create Quick Campaign Wizard** step, select **Create**.  
     The campaign activity is added to the **Quick Campaigns** section. 

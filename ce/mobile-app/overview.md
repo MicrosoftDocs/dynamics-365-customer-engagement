@@ -2,8 +2,8 @@
 title: Overview of Dynamics 365 for phones and tablets (on-premises)
 ms.custom: 
 description: Overview information for Dynamics 365 for phones and tablets apps
-ms.date: 10/04/2024
-ms.reviewer: sericks
+ms.date: 12/13/2024
+ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -11,8 +11,8 @@ ms.topic: overview
 applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: sericks
-author: sericks007
+ms.author: devangpandya
+author: shwetamurkute
 search.audienceType: 
   - admin
   - customizer

@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service Plugin for Microsoft Copilot
 description: Learn about the Dynamics 365 Field Service Plugin for Microsoft Copilot including the types of questions you can ask.
-ms.date: 05/08/2024
+ms.date: 11/12/2024
 ms.topic: overview
 author: KishorIoT
 ms.author: nandab
@@ -12,6 +12,9 @@ ms.collection: bap-ai-copilot
 ---
 
 # Dynamics 365 Field Service Plugin for Microsoft Copilot
+
+> [!IMPORTANT]
+> The Dynamics 365 Field Service Plugin for Microsoft Copilot is no longer available after January 15 for users of the Field Service app in Microsoft Teams. For more information, see [Feature deprecations](deprecations-field-service.md).
 
 With the Dynamics 365 Field Service Plugin for Microsoft Copilot, Dynamics 365 Field Service frontline managers and workers can access key work order information by asking Microsoft Copilot questions within Microsoft Teams. Users with a Microsoft 365 Copilot license can simply state in chat what they need using natural language to receive specific information related to their work orders in Field Service. This feature adheres to [responsible AI guidelines](faqs-m365-chat.md).
 

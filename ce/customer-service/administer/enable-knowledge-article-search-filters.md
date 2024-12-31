@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -24,7 +25,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can configure standard and custom fields as filters to help your agents find the right content through knowledge search and thus improve their productivity.
+You can configure standard and custom fields as filters to help your customer service representatives (representatives) find the right content through knowledge search and thus improve their productivity.
 
 The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
 
@@ -52,25 +53,25 @@ You can customize the search filters for knowledge articles in the Customer Serv
 
 1. On the **Knowledge** page, go to the **Filters** section and select **Manage**. The **Filters** page appears.
 
-1. To enable agents to personalize knowledge article search filters, set the **Allow agent to personalize** toggle to **Yes**.
+1. To enable representatives to personalize knowledge article search filters, set the **Allow agent to personalize** toggle to **Yes**.
 
 1. Select the filters you want to make available for knowledge search.
 
 1. Move through the **Filters** page to view the filters.  
 
-1. To set predetermined values that will appear for agents by default, select the ellipsis in the upper-right corner of a filter area, and then select **Preselects**.
+1. To set predetermined values that will appear for representatives by default, select the ellipsis in the upper-right corner of a filter area, and then select **Preselects**.
     > [!div class=mx-imgBorder]
     > ![Select filter preselects.](../media/select-filter-preselects.png "Select filter preselects.")
 1. To make a filter value available by default, turn on the **Set as preselected filter** toggle, so that **Preselected** appears next to the filter name, and then select **Done**.
 
-   Values that are set as preselected automatically participate in the filtering without requiring the agent to manually select them. Only values made visible can be preselected.
+   Values that are set as preselected automatically participate in the filtering without requiring the representative to manually select them. Only values made visible can be preselected.
     > [!div class=mx-imgBorder]
     > ![Toggle filter to show as Preselected.](../media/set-filter-preselects.png "Toggle filter to show as Preselected.")
    
 
-1. If you want to set the filters that must be shown to the agent, select the ellipsis in the upper-right corner of a filter area, and then select **Visibility**.
+1. If you want to set the filters that must be shown to the representative, select the ellipsis in the upper-right corner of a filter area, and then select **Visibility**.
    
-1. Select the values that you want to show the agent, and then select **Done**.
+1. Select the values that you want to show the representative, and then select **Done**.
 1. When you're finished with configuring the values you want, select **Save**.
 
 ## Enable custom fields as search filters
@@ -108,7 +109,7 @@ You can add a default filter in the Customer Service admin center or Contact Cen
     > [!div class=mx-imgBorder]
     > ![Add a default filter.](../media/default-filter-config.png "Add a default filter.")
     
-1. Select the values or clear the selection to customize the filter, and then turn on the **Set as a preselected filter** option to display the filter to the agent by default.
+1. Select the values or clear the selection to customize the filter, and then turn on the **Set as a preselected filter** option to display the filter to the representative by default.
 
 1. Select **Save**.
 
@@ -138,18 +139,18 @@ You can configure a lookup type filter in the Customer Service admin center or C
 There may be times when you want to temporarily suspend a filter configuration but don’t want to lose the configuration settings. You can deactivate a filter configuration and then reactivate it later on.
 
    > [!NOTE]
-   > If you deactivate or delete all of the filters, then agents will see the following message on the personalization page: "No filters have been configured. Contact your administrator."
+   > If you deactivate or delete all of the filters, then representatives will see the following message on the personalization page: "No filters have been configured. Contact your administrator."
 
 Keep in mind the following:
-- If you delete a knowledge article field for which a filter has been created, your agents won't see the filter, and they won't be notified about the change in the UI. You, as the administrator, will see the filter with a message indicating that it has been deleted.
+- If you delete a knowledge article field for which a filter has been created, your representatives won't see the filter, and they won't be notified about the change in the UI. You, as the administrator, will see the filter with a message indicating that it has been deleted.
 
-- If you deactivate the filter, it will show as deactivated to you as the administrator, but your agents won't see the filter on the knowledge control. When the filter is activated again, the filter configuration will remain as it was previously configured.
+- If you deactivate the filter, it will show as deactivated to you as the administrator, but your representatives won't see the filter on the knowledge control. When the filter is activated again, the filter configuration will remain as it was previously configured.
 
-- If an agent doesn’t have permission to see a specific field because of field-level security, then a filter created on that field won't be visible to the agent.
+- If a representative doesn’t have permission to see a specific field because of field-level security, then a filter created on that field won't be visible to the representative.
 
 - Filters that are available in the default, out-of-the-box configuration can't be deleted.
 
-- If an agent sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
+- If a representative sets default values, those values will persist and cannot be overwritten by changes made by an administrator.
  
 You can deactivate or reactivate a filter configuration in the Customer Service admin center or Contact Center admin center app.
 
@@ -164,21 +165,21 @@ You can deactivate or reactivate a filter configuration in the Customer Service 
 1. When you're ready to reactivate the filter, go to the **Filters** page, select the ellipsis next to the value you want to reactivate, and then select **Activate**.
 All of the previous configurations are reinstated.
 
-## Allow agents to personalize their knowledge article search filters
+## Allow representatives to personalize their knowledge article search filters
 
-You may have scenarios within your organization where agents are working on different areas and don’t all need the same filter settings. For example, an organization may have agents working on different product areas. One agent might need to see knowledge articles for Product A, while another agent might only want knowledge articles for Product B, and so forth.
+You may have scenarios within your organization where representatives are working on different areas and don’t all need the same filter settings. For example, an organization may have representatives working on different product areas. One representative might need to see knowledge articles for Product A, while another representative might only want knowledge articles for Product B, and so forth.
 
-You can allow your agents to personalize the knowledge article search filters for their areas, from the Customer Service admin center or Contact Center admin center app.
+You can allow your representatives to personalize the knowledge article search filters for their areas, from the Customer Service admin center or Contact Center admin center app.
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Knowledge** in **Agent experience**. The **Knowledge** page appears.
 
 1. In the **General settings** section, select **Manage**. The **General settings** page appears.
 
-1. Select the values or clear the selection to customize the filter, and then turn on the **Set as a preselected filter** option to display the filter to the agent by default.
+1. Select the values or clear the selection to customize the filter, and then turn on the **Set as a preselected filter** option to display the filter to the representative by default.
 
    > [!NOTE]
    > This option is available only if **Enable custom filters** is set to **Yes**.
 
 4. Select **Save**.
 
-After you've enabled the option, your agents will be able to view all the configurations that you previously set for them and [personalize the knowledge search filters for their areas](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).
+After you've enabled the option, your representatives will be able to view all the configurations that you previously set for them and [personalize the knowledge search filters for their areas](../use/filter-articles.md#personalize-your-knowledge-search-article-filters).

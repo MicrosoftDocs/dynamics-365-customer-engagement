@@ -1,7 +1,6 @@
 ---
 title: "Custom virtual entity data providers (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about creating and using custom virtual entity data providers in Dynamics 365 Customer Engagement (on-premises).
-ms.date: 10/31/2017
 
 ms.topic: article
 applies_to: 

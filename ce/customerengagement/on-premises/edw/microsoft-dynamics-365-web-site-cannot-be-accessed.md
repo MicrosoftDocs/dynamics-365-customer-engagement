@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 for Customer Engagement website cannot be accesse
 description: Environment diagnostics warning that a website can't be accessed.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

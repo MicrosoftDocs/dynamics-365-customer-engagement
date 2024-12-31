@@ -2,16 +2,15 @@
 title: Use Dynamics 365 for phones and tablets to run Customer Engagement (on-premises) apps
 description: Learn how to use Dynamics 365 for phones and tablets to run Customer Engagement (on-premises) apps. With one download, you get access to all the apps you need.
 ms.custom: 
-ms.date: 10/03/2024
-ms.reviewer: sericks
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 6828238b-1645-4710-a192-0014acb03196
 caps.latest.revision: 97
-ms.author: sericks
-author: sericks007
+ms.author: smurkute
+author: shwetamurkute
 search.audienceType: 
   - admin
   - customizer

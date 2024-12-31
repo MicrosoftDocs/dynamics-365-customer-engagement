@@ -1,7 +1,6 @@
 ---
 title: "Steps for onboarding to Dynamics 365 Customer Engagement (on-premises)"
 description: "Get an onboarding cheat sheet for Dynamics 365 Customer Engagement (on-premises), including tips for adding people, downloading apps, importing data, and more."
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -1,7 +1,7 @@
 ---
 title: "Enable entity for scheduling in Universal Resource Scheduling"
 description: "Match work orders to the right resources by enabling entities for scheduling. Learn how to enable an entity and how it works on the schedule board."
-ms.date: 06/06/2024
+ms.date: 11/12/2024
 ms.reviewer: mhart
 ms.subservice: common-scheduler
 ms.topic: article

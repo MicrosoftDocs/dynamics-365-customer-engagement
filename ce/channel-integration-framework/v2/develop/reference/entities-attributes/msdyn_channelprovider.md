@@ -5,6 +5,7 @@ ms.date: 11/03/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -921,7 +922,7 @@ Relationship details provided where the msdyn_channelprovider entity is the firs
 
 See msdyn_appconfiguration Entity [msdyn_appconfig_msdyn_channelprovider](msdyn_appconfiguration.md#BKMK_msdyn_appconfig_msdyn_channelprovider) Many-To-Many Relationship.
 
-### See also
+### Related information
 
 - [Configure the channel provider](/dynamics365/customer-service/channel-integration-framework/v2/configure-channel-provider-app-profile-manager)
 

@@ -16,6 +16,81 @@
            "redirect_document_id": "false"
         },
     {
+      "source_path": "ce/linkedin/add-sales-navigator-controls-forms.md",
+      "redirect_url": "/dynamics365/sales/linkedin/add-sales-navigator-controls-forms",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/Configure-matching-strategy.md",
+      "redirect_url": "/dynamics365/sales/linkedin/Configure-matching-strategy",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/Connect-Dynamics-365-LinkedIn.md",
+      "redirect_url": "/dynamics365/sales/linkedin/Connect-Dynamics-365-LinkedIn",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/data-validation.md",
+      "redirect_url": "/dynamics365/sales/linkedin/data-validation",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/disable-sales-navigator.md",
+      "redirect_url": "/dynamics365/sales/linkedin/disable-sales-navigator",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/faqs-linkedin.md",
+      "redirect_url": "/dynamics365/sales/linkedin/faqs-linkedin",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/install-linkedin-connector.md",
+      "redirect_url": "/dynamics365/sales/linkedin/install-linkedin-connector",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/install-sales-navigator.md",
+      "redirect_url": "/dynamics365/sales/linkedin/install-sales-navigator",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/integrate-sales-navigator.md",
+      "redirect_url": "/dynamics365/sales/linkedin/integrate-sales-navigator",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/review-leads.md",
+      "redirect_url": "/dynamics365/sales/linkedin/review-leads",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/see-profile-pictures.md",
+      "redirect_url": "/dynamics365/sales/linkedin/see-profile-pictures",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/sync-linkedin-leads.md",
+      "redirect_url": "/dynamics365/sales/linkedin/sync-linkedin-leads",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/ts-linkedin-integration.md",
+      "redirect_url": "/troubleshoot/dynamics-365/sales/welcome-sales",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/uninstall-sales-navigator.md",
+      "redirect_url": "/dynamics365/sales/linkedin/uninstall-sales-navigator",
+      "redirect_document_id": "false"
+   },
+    {
+      "source_path": "ce/linkedin/view-sales-navigator-forms.md",
+      "redirect_url": "/dynamics365/sales/linkedin/view-sales-navigator-forms",
+      "redirect_document_id": "false"
+   },    
+    {
       "source_path": "ce/field-service/rso-administration.md",
       "redirect_url": "/dynamics365/field-service/rso-deployment",
       "redirect_document_id": "false"
@@ -251,7 +326,7 @@
     
     {
       "source_path": "ce/sales/developer-sp/msdyn-ConnectSequence-action.md",
-      "redirect_url": "/dynamics365/sales/developer/entities/msdyn-ConnectSequence-action.md",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn-ConnectSequence-action",
       "redirect_document_id": "false"
     },
     {
@@ -24450,7 +24525,7 @@
     },
     {
       "source_path": "ce/sales-enterprise/developer-sp/msdyn-ConnectSequence-action.md",
-      "redirect_url": "/dynamics365/sales/developer-sp/msdyn-ConnectSequence-action",
+      "redirect_url": "/dynamics365/sales/developer/entities/msdyn-connectsequence-action",
       "redirect_document_id": "false"
     },
     {
@@ -25081,6 +25156,11 @@
     {
       "source_path": "ce/teams-integration/teams-delete-data.md",
       "redirect_url": "/dynamics365/teams-integration/teams-integration",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/teams-integration/teams-personal-use.md",
+      "redirect_url": "teams-integration",
       "redirect_document_id": false
     },
     {
@@ -25845,6 +25925,11 @@
     {
       "source_path": "ce/customer-service/troubleshoot-case-email-issue.md",
       "redirect_url": "/troubleshoot/dynamics-365/customer-service/email/incoming-email-not-converted-case",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customer-service/administer/voice-channel-multi-language-contact-center.md",
+      "redirect_url": "/contact-center/administer/configure-multilingual-bots",
       "redirect_document_id": "false"
     },
     {
@@ -32849,7 +32934,7 @@
     },
     {
       "source_path": "ce/field-service/mobile-powerapp-newux-overview.md",
-      "redirect_url": "/dynamics365/field-service/mobile/enable-newux",
+      "redirect_url": "/dynamics365/field-service/mobile/set-up-field-service-mobile#refreshed-mobile-user-experience",
       "redirect_document_id": false
     },
     {
@@ -32970,6 +33055,11 @@
     {
       "source_path": "ce/field-service/troubleshooting-mobile-newux.md",
       "redirect_url": "/dynamics365/field-service/mobile/troubleshooting-mobile-newux",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/mobile/troubleshooting-mobile-newux.md",
+      "redirect_url": "/troubleshoot/dynamics-365/field-service/welcome-field-service",
       "redirect_document_id": false
     },
     {
@@ -33127,6 +33217,61 @@
       "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
       "redirect_document_id": false
     },  
+    {
+      "source_path": "ce/customer-service/administer/configure-sms-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    }, 
+    {
+      "source_path": "ce/customer-service/administer/configure-wechat-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/sms-telesign-twilio.md",
+      "redirect_url": "/dynamics365/customer-service/use/sms-twilio",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/wechat-channel.md",
+      "redirect_url": "/dynamics365/customer-service/use/channels",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/develop/universal-resource-scheduling.md",
+      "redirect_url": "/dynamics365/customer-service/administer/basics-service-service-scheduling",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/nuance-gatekeeper-introduction.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-contact-center-nuance-gatekeeper.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/configure-gatekeeper-authentication.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/nuance-enroll-customer.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/videos.md",
+      "redirect_url": "/dynamics365/customer-service/implement/overview",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/knowledgehub-copilot.md",
+      "redirect_url": "/dynamics365/customer-service/administer/knowledge-copilot",
+      "redirect_document_id": false
+    }
 
   ]
 }

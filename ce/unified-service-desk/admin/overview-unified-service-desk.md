@@ -1,10 +1,11 @@
 ---
 title: "Overview of Unified Service Desk  | MicrosoftDocs"
 description: "Use this topic to know about Unified Service Desk and User Interface Integration. Also, included is a video that gives you an overview of Unified Service Desk."
-ms.date: 06/27/2024
+ms.date: 10/09/2024
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: evergreen
@@ -26,6 +27,7 @@ tags: MigrationHO
 > [!NOTE]
 > - Unified Service Desk doesn't support the Customer Service workspace app.  
 > - The [Try the new look](/power-apps/user/modern-fluent-design#whats-included-with-the-new-look) setting that allows for a modern and refreshed look is available in Unified Service Desk 4.2 only.
+> - For improved performance, we recommend that you use [Customer Service workspace](migrate-to-csw.md). Learn more about Customer Service workspace in [Overview of Customer Service workspace](../../customer-service/implement/csw-overview.md).
 
 <a name="UII"></a>   
 

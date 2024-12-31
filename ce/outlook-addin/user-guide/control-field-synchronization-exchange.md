@@ -3,7 +3,7 @@ title: "Control field synchronization between Dynamics 365 apps and Outlook or E
 description: Learn how to control synchronization of appointments, contacts, and task fields between Dynamics 365 apps and Outlook or Exchange.
 ms.custom: 
 ms.date: 01/11/2016
-ms.reviewer: 
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -16,7 +16,7 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 5cfd2af7-84ab-42b2-859d-dfa42bb4e37a
 caps.latest.revision: 19
-author: mduelae
+author: shwetamurkute
 ms.author: bharavar
 search.audienceType: 
   - admin

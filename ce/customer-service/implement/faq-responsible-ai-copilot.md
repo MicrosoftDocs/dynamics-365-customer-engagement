@@ -3,10 +3,10 @@ title: Responsible AI FAQ for Copilot in Customer Service
 description: This FAQ provides information about the AI technology that Dynamics 365 Customer Service uses. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 08/22/2024
+ms.date: 12/17/2024
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -37,6 +37,7 @@ Copilot provides the following main features:
 - **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand.
 
 - **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Agents can review and refine the draft by giving revision instructions to Copilot and then save it.
+- **Summarize a custom record**: Copilot provides agents with a summary of a record based on fields that the administrator configures for the custom table so that agents can quickly catch up on the important details of a support record.
 
 ## What is the system’s intended use?
 
@@ -99,6 +100,10 @@ It's not possible to customize the large language model (LLM) directly.  Copilot
 ## What's the data security model for Copilot?
 
 Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, agents cannot view data that they do not have access to. Additionally, only data sources that the agent has access to are used for copilot response generation.
+
+## How does Copilot determine whether content is offensive or harmful?
+
+Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. You can learn more at [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 

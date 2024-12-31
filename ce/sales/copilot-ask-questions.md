@@ -1,7 +1,7 @@
 ---
 title: Ask Copilot about recent changes to your sales records
 description: Learn how to ask Copilot in Dynamics 365 Sales questions to know what's new with your leads, opportunities, accounts, and records assigned to you.
-ms.date: 09/20/2024
+ms.date: 10/10/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -20,6 +20,7 @@ ms.collection: bap-ai-copilot
 
 Ask Copilot to update you on the latest changes to your sales records, get a list of records that were assigned to you, or list any changes to your accounts, leads, and opportunities. You can either use predefined prompts or ask questions in natural language. This article describes some of the predefined prompts you can use to ask Copilot questions. [Learn more about chatting with Copilot in natural language](use-sales-copilot.md#chat-with-copilot-in-NL).
 
+<a name="whats-new-with-my-records"></a>
 ## What's new with my sales records
 
 Use this prompt to get a list of sales records that were recently updated.  
@@ -39,11 +40,20 @@ Copilot fetches the list based on the following conditions:
 
 Hover over a record in the list and select **Get updates** to view all changes to the record in the last seven days.
 
+<a name="whats-newly-assigned-to-me"></a>
+ 
 ## What's newly assigned to me
 
-Copilot can help you stay on top of your pipeline by showing you a list of accounts, leads, and opportunities that were assigned to you in the last 15 days.
+Copilot can help you stay on top of your assignments by listing the accounts, leads, and opportunities that meet the following conditions:
+
+- Records that were created and assigned to you in the last 15 days.
+- Records that don't have any activity (emails, calls, or appointments) so far.
 
 [Open Copilot](use-sales-copilot.md#open-copilot), select **View Prompts** above the Copilot chat box, select **Ask questions** > **What's newly assigned to me**, and select **Enter**.
+
+Copilot lists the records that meet the conditions. Hover over a record in the list and select **Summarize** to view the record summary.
+
+<a name="get-recent-changes"></a>
 
 ## Get recent changes
 

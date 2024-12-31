@@ -5,6 +5,7 @@ ms.date: 06/14/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ms.custom: 
   - dyn365-customerservice
 ms.collection: get-started

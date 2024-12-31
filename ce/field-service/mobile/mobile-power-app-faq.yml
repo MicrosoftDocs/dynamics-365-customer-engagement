@@ -2,7 +2,7 @@
 metadata:
   title: Frequently asked questions for the Field Service mobile app
   description: Find answers to commonly asked questions about the Dynamics 365 Field Service mobile app.
-  ms.date: 08/19/2024
+  ms.date: 10/10/2024
   ms.subservice: field-service-mobile
   ms.topic: faq
   author: JonBaker007
@@ -20,10 +20,6 @@ sections:
           > [!div class="mx-imgBorder"]
           > ![Screenshot of the mobile booking calendar control.](../media/mobile-2020-booking-calendar-control.png)
          
-      - question: Can I customize the default booking calendar control, such as by changing the booking cell content?
-        answer: |
-          Yes, you can customize the calendar to replace the existing primary field and add up to three custom fields. For more information, see [edit the booking calendar control](/dynamics365/field-service/mobile-power-app-configure#edit-the-bookings-calendar-control).
-      
       - question: I created a custom view for my Booking Calendar. Why is the data or certain elements like address aren't displayed for each booking?
         answer: |
           The Booking Calendar control requires certain columns in the view to render all data. Best practice is to start from the Out of the Box view, "Bookings" and use "Save As" in the form designer to create a duplicate with required columns. Modifications can be done from there while not removing default columns.
@@ -50,16 +46,16 @@ sections:
   - name: Offline
     questions:
 
-      - question: Is there a way to choose the columns ("fields") that are downloaded as part of a mobile offline profile?
-        answer: |
-          Offline profiles are filtered at the row level, which adjusts the number of records that are downloaded. There's currently no way to filter by column.
       - question: While running the Field Service mobile app in offline mode with internet connectivity, can I perform a search for content on the server?
         answer: |
           Search from the offline application crawls the local device database for data, which is defined within the mobile offline profile.
       - question: Where are some Commanding options hidden while the application is in Online versus Offline mode?
         answer: |
           Commanding options, which aren't supported in Offline mode, are hidden from the UI after the application transitions to Offline mode. A list of Offline supported Command bar options is available from [Mobile offline capabilities and limitations](/power-apps/mobile/offline-capabilities).
-  
+      - question: Why is only one booking status available while in offline mode?
+        answer: |
+          Usually, the booking status table is not included in the Mobile Offline Profile.  Please check your offline profile and include all records from the booking status table and republish it.
+
   - name: Sign in
     questions:     
 
@@ -86,10 +82,17 @@ sections:
             If you're getting this message, try the following steps:
           
             1. Select the menu icon in the upper-left corner, and set **Show non-production apps** to **Yes**. The list shows production apps by default, and you might be using a trial or sandbox app. 
-            2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service mobile app.
+            2. Make sure you have the correct security role (Field Service - Resource) and that the security role is assigned to the Field Service mobile app. If you're using a custom security role, ensure role has access to the app module. 
             3. Sign in again, pull down the screen to refresh, and wait for at least a few minutes.
+            4. Check that the [app module in Dynamics 365](custom-app-module-mobile.md#make-the-custom-app-module-available-in-the-mobile-app) has the **Primary Player** set as *Field Service (Dynamics 365)*. 
           
-            If completing steps 1 and 2 doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+            If completing these steps doesn't resolve the issue, [submit a support ticket](https://dynamics.microsoft.com/contact-us/).
+
+        - question: After signing into the mobile application why does the "Show Non-Production Apps" toggle not show?
+          answer: | 
+            This toggle is only shown when users have access to non-production organizations. Check the access for the user in the desired non-production organization and sign into the application again.
+        
+        
         - question: Can external guest users access the Field Service mobile app?  
           answer: |
            Yes, frontline workers [enabled as Microsoft Entra B2B collaborator](/azure/active-directory/external-identities/what-is-b2b) (guest) can access the mobile app by [switching to the guest tenant](/power-apps/mobile/tenant-switcher).
@@ -115,12 +118,12 @@ sections:
 
         - question: Can I download the Field Service (Dynamics 365) app in China market app stores?
           answer: |
-              Yes, the Field Service (Dynamics 365) app is available in the following China market app stores: Xiaomi, Lenovo, Baidu, Meizu, and Apple.
+              Yes, the Field Service (Dynamics 365) app is available in the Apple and Lenovo China market app stores.
 
   - name: Entities, forms, views, and fields 
     questions:
           
-      - question: |
+      - question: 
           Why doesn't the bookable resource booking form show work order details like customer, service, and notes?
         answer: |
           Sometimes you might not see the correct booking form. You might see a screen resembling the following image.
@@ -133,7 +136,7 @@ sections:
 
           To solve this issue, sign in to the mobile app as a user who has the **Field Service - Resource** security role. Also make sure that the right form (the mobile-optimized booking and work order form) is associated with the booking entity in the app designer.
 
-      - question: |
+      - question: 
           How can I enable multiline text fields on forms to automatically expand based on the amount of content entered?
         answer: |
           To enable auto-expanding fields:
@@ -144,65 +147,33 @@ sections:
           
           Note: When you use the legacy form designer, there's a restriction of only one text field per tab can autoexpand. Switch to the modern designer to enable more than one field.
 
-      - question: |
+      - question: 
          When working in the mobile application, why do users sometimes see “Validations have been restarted in the background…”?
         answer: |
-         This error hints at a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events.
+         This error hints at a timing issue when using synchronous OnSave events. Starting with version 8.8.88.56 of the Field Service Mobile app module, it uses AsyncOnSave to mitigate validation errors for out-of-box scripts. If users continue to see this error, evaluate custom validations and use OnChange events. More Information is found in [Troubleshooting Guide](https://learn.microsoft.com/en-us/troubleshoot/dynamics-365/field-service/mobile-app/validation-restarted-background)
 
-      - question: |
+      - question: 
          After modifying my *Work Order Product* form, why can I no longer save updates while in Offline mode?
         answer: |
          While working with customized forms, there can be several causes for functional issues. Review any new business logic added to the form, in addition to ensuring that all fields required by out-of-the-box business logic are still available on the form. For example, a required field on Work Order Product is the Work Order field. This field must be present to save and pass all client-side validation while running offline.
+
+      - question:  Why aren't booking status time calculations (updates to Start, Arrival, and End Times) working?
+        answer: |
+         There are two common reasons that out of the box time and travel calculations are not updated on the mobile application.
+         1. If using a custom app module, default business logic is not maintained. See [Add a custom app module to the Field Service mobile app](custom-app-module-mobile.md#make-the-custom-app-module-available-in-the-mobile-app).
+         2. If a required time field, such as start or end time has been removed from the booking form, the logic to update these fields won't run properly.
+    
          
   - name: Other
     questions:       
 
-     - question: |
+     - question: 
         How do I view feedback from users of the Field Service Mobile application in my organization?
        answer: | 
         In the mobile application, users can submit feedback from the left navigation. Admins can view that feedback via the [Microsoft Admin Center](https://admin.microsoft.com) by navigating to **Health** > **Product feedback**. Feedback comes from the "Dynamics 365 Field Service Mobile" app. [Learn about Microsoft feedback for your organization](/microsoft-365/admin/misc/feedback-user-control).
 
-     - question: |
-        How do I enable native mobile date and time picker, and input-specific keyboards for my app module? 
-       answer: |
-          New capabilities to use the native device date and time experience, along with input-specific mobile keyboards, were added to Platform release version 9.2.22033.00153+. These capabilities are enabled by default for the Field Service mobile app module, but can be enabled for other App Modules with the following steps:
-          1. With an admin account, sign in to https://make.powerapps.com. After signing in, be sure to select the correct organization you're targeting from dropdown list.
-          2. Select the `...` next to the App Module for which you want to enable the feature. 
-          3. Expand **Settings** to **Edit in Preview**. In the resulting screen, select **Settings** from the top navigation.
-          4. Drill into **Feature Settings** where you find the toggle for these features.
-          5. **Save and Publish** your app module.
 
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of app settings.](../media/mobile-powerapps-appsettings.jpg)
-          
-          When interacting with date and time fields on your mobile device they'll use the native device date and time experience. 
-          Similarly, after enabling native mobile inputs, the device will raise a specific keyboard depending on the input type of the field for numeric, phone, email, and URL fields.
-
-          
-          > [!div class="mx-imgBorder"]
-          > ![Screenshot of native input on iOS.](../media/mobile-powerapps-datetime.jpg)
-
-     - question: How do I enable Wave 2 2022 enhancements for command bar and form tabs for my Field Service mobile app?
-       answer: |
-          As part of Wave 2 2022, the command bar for Field Service mobile changed in the following ways:
-          - Command bar on Tablets moved to the top of the view.
-          - Certain commands (Delete, Process) are removed for users without access to act on those commands.
-          - Rarely used commands are moved to the end of the command bar for easier access to more broadly used commands.
-          
-          Also as part of Wave 2, form tabs lock in place at the top of the screen while navigating down the view, removing the need to scroll to the top of the form to navigate between tabs. 
-          
-          By default, these changes are enabled for the Field Service Mobile app module. If you're using a custom app module, or want to revert the changes to the previous experience, these changes can be enabled or disabled via App Settings.
-
-          1. With an admin account, sign in to https://make.powerapps.com. After signing in, select the correct organization from the dropdown.
-          2. Select the `...` next to the App Module for which you want to enable or disable the feature. 
-          3. Expand **Settings** to **Edit in Preview**. In the resulting screen, select **Settings** from the top navigation.
-          4. Go to **Feature Settings** where you find the toggle for these features with the following labels:
-          - Lock tabs at the top of forms on mobile and tablets
-          - Mobile Commanding Improvements
-          - Tablet Optimization for Command Bar
- 
-          5. Select **Save and Publish** to update your app module.
-
+    
           
 
           

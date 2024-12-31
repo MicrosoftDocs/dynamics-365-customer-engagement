@@ -3,7 +3,6 @@ title: "Use the properties dialog box in Dynamics 365 Customer Engagement (on-pr
 description: "Use the Properties dialog box to view the date a record was created and last modified, and by whom, and the permissions you have on that record."
 
 ms.custom: 
-ms.date: 11/01/2016
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 
