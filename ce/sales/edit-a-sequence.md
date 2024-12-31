@@ -24,7 +24,7 @@ Cloning a sequence makes it easier to add or remove steps, and save the changes 
 1. Sign in to your sales app.   
 1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
 1. Under **Sales accelerator**, select **Sequences**.   
-1. Open the **Sequence** that you want to clone and select **Create a copy**.
+1. Open the sequence that you want to clone and select **Create a copy**.
 
     >[!TIP]
     >Alternatively, hover over a sequence, and then select **More options** > **Create a copy**.    
