@@ -38,8 +38,8 @@ Direct callback uses two automated messages that are available by default and ca
 - The initial message offers the callback option to the customer as follows: "Current wait times are longer than expected. If you would like a call back, please press 1 or continue to wait for the next available representative."
 - The second message confirms the callback selection when the customer presses 1 and notifies the customer that the call will end. The message played to the customer is, as follows: "You have requested a callback. We'll call you back as soon as a representative is available. Goodbye!"
 
-[!Note]
-Customizing the callback option from "1" to something else is currently not supported. 
+> [!NOTE]
+> The callback option isn't customizable. 
 
 For more information, go to [Configure automated messages](configure-automated-message.md). For information on how to configure the conditions and actions, go to [Manage overflow of work items in queues](manage-overflow.md).
 
