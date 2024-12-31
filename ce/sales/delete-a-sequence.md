@@ -1,7 +1,7 @@
 ---
 title: "Delete a sequence in sales accelerator"
 description: "Permanently delete a sequence that is no longer required in your organization and disconnect records from it."
-ms.date: 08/01/2022
+ms.date: 12/31/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -29,8 +29,7 @@ You can delete sequences that your organization no longer needs, and they'll be 
     >[!NOTE]
     >If you are deleting a sequence that is the active state, a confirmation message is displayed that the sequence will be deactivated and deleted. Select **Deactivate and delete**.
     
-    > [!div class="mx-imgBorder"]
-    > ![Confirmation message for deleting a sequence](media/sequence-delete-confirmation-message.png "Confirmation message for deleting a sequence")
+    :::image type="Confirmation message for deleting a sequence" source="media/sequence-delete-confirmation-message.png" alt-text="Confirmation message for deleting a sequence":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
