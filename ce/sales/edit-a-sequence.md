@@ -1,7 +1,7 @@
 ---
 title: "Clone and edit a sequence in sales accelerator"
 description: "You can clone and edit a sequence when there's a change in the process of selling in your organization."
-ms.date: 08/01/2022
+ms.date: 12/31/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -23,19 +23,17 @@ Cloning a sequence makes it easier to add or remove steps, and save the changes 
 
 1. Sign in to your sales app.   
 1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.   
-1. Under **Sales accelerator**, select **Sequence**.   
-1. Open the sequence that you want to clone and select **Create a copy**.
+1. Under **Sales accelerator**, select **Sequences**.   
+1. Open the **Sequence** that you want to clone and select **Create a copy**.
 
     >[!TIP]
     >Alternatively, hover over a sequence, and then select **More options** > **Create a copy**.    
     
-    > [!div class="mx-imgBorder"]
-    > ![Select create a copy](media/sequence-clone-copy-sequence.png "Select create a copy")  
+    :::image type="Select create a copy" source="media/sequence-clone-copy-sequence.png" alt-text="Select create a copy":::  
 
 1. On the **Create a copy** dialog, enter the name of the sequence and description.    
 
-    > [!div class="mx-imgBorder"]
-    > ![Enter the name of the sequence and description](media/sequence-clone-name-description-dialog.png "Enter the name of the sequence and description")   
+    :::image type="Enter the name of the sequence and description" source="media/sequence-clone-name-description-dialog.png" alt-text="Enter the name of the sequence and description":::  
 
 1. Select one of the buttons:   
     - **Save and edit**: Select this button to open the sequence editor and add steps as necessary. To edit a sequence, see [Edit a sequence](#edit-a-sequence).
