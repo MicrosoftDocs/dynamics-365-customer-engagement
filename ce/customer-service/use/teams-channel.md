@@ -1,7 +1,7 @@
 ---
-title: "Use Microsoft Teams channel | MicrosoftDocs"
-description: "This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard."
-ms.date: 04/04/2022
+title: Use Microsoft Teams channel
+description: This article provides an overview of Microsoft Teams channel and incoming chat notifications in the agent dashboard.
+ms.date: 01/03/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

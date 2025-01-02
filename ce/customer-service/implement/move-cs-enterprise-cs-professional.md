@@ -1,7 +1,7 @@
 ---
-title: "Move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional | MicrosoftDocs"
-description: "Follow the steps in this topic to move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional."
-ms.date: 04/05/2021
+title: Move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional
+description: Follow the steps in this topic to move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional.
+ms.date: 01/03/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

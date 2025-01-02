@@ -1,7 +1,7 @@
 ---
-title: "Historical analytics for unified routing in Customer Service | MicrosoftDocs"
-description: "Learn about the KPIs that are available in the historical analytics report for Customer Service."
-ms.date: 08/01/2022
+title: Historical analytics for unified routing in Customer Service
+description: Learn about the KPIs that are available in the historical analytics report for Customer Service.
+ms.date: 01/03/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,6 @@ The report appears as a tab in the Customer Service historical analytics report 
 
 [!INCLUDE[cc-navigation-cs](../../includes/cc-navigation-cs.md)]
 
-
 :::image type="content" source="../media/cs-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Customer Service.":::
 
 The report can be filtered on the following:
@@ -46,7 +45,6 @@ The unified routing report displays the following metrics.
 |Records routed    | Day wise view of records that have been routed.        |         |
 |Transfer rate trend     | Percentage of sessions transferred out of the total sessions for the records routed.        |         |
 |Top 5 skills needed     |  Top five skills required by the routed records.        |         |
-| | | |
 
 ### Queue drill-down view
 

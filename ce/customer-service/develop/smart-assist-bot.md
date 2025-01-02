@@ -1,14 +1,13 @@
 ---
-title: "Build a smart assist bot | MicrosoftDocs"
-description: "Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively"
-ms.date: 04/15/2020
+title: Build a smart assist bot
+description: Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively.
+ms.date: 01/03/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
 # Build a smart assist bot
-
 
 To quickly get started, follow the instructions mentioned in this topic for building a smart assist bot that displays knowledge article recommendations to the agent. After this, you can do additional steps for creating custom scenarios.
 
@@ -24,7 +23,7 @@ For information on how to create a knowledge article using template, see [Create
 
 ## Sample bot that displays similar case recommendations
 
-After setting up a sample bot using above steps, you can configure your bot to show similar case recommendations for ‘printer noise’ using the instructions mentioned in the topic [Implement a custom scenario](smart-assist-scenario.md).
+After setting up a sample bot using above steps, you can configure your bot to show similar case recommendations for "printer noise" using the instructions mentioned in the topic [Implement a custom scenario](smart-assist-scenario.md).
 
 > [!IMPORTANT]
 > See this administrator guide topic on how to enable smart assist: [Smart assist for agents](../administer/smart-assist.md). It provides instructions on how to create a bot user, how to add a smart assist bot to a workstream and how to enable a productivity pane.

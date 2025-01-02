@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual 
-ms.date: 08/08/2023
+ms.date: 01/05/2025
 ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form

@@ -4,7 +4,7 @@ description: Learn how to search, link, and unlink records. Also learn how to li
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/08/2023
+ms.date: 01/05/2025
 ms.topic: how-to
 ms.custom: bap-template
 
@@ -13,7 +13,6 @@ ms.custom: bap-template
 # Search, link, and unlink a record 
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
 
 The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
 
