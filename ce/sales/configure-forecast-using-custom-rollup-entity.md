@@ -1,7 +1,7 @@
 ---
 title: Configure a forecast using custom rollup entity 
 description: Configure a forecast using custom rollup entity in Dynamics 365 Sales.
-ms.date: 10/21/2024
+ms.date: 01/02/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 10/01/2024
+ms.date: 01/02/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
