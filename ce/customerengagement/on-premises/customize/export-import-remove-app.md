@@ -2,7 +2,6 @@
 title: "Export or import an app with Dynamics 365 for Customer Engagement (on-premises)"
 description: "After an app is created, it can be exported by the maker and imported by other organizations. Apps that are obsolete to a business can also be deleted."
 keywords: 
-ms.date: 02/20/2019
 
 ms.custom: 
 ms.topic: article

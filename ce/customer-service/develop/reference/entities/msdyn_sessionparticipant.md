@@ -4,6 +4,7 @@ description: Includes schema information and supported messages for the msdyn_se
 ms.date: 06/12/2024
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: reference
 ---
 # msdyn_sessionparticipant Entity Reference

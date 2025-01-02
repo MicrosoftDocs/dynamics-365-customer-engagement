@@ -3,9 +3,9 @@ title: Forward Teams calls to your digital contact center
 description: Learn how to forward Microsoft Teams calls to your organization's digital contact center.
 author: neeranelli 
 ms.author: nenellim
-ms.reviewer: neeranelli
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 05/10/2024 
+ms.date: 12/14/2024 
 ms.custom: bap-template 
 ---
 
@@ -13,7 +13,10 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-If an agent isn't available when a customer calls a Microsoft Teams number in your voice channel, the call can be automatically forwarded to your organization's digital contact center. Standard charges for Teams calls apply to forwarded calls. Calls that are forwarded to your digital contact center numbers are charged based on the [PSTN inbound rate](voice-channel-pricing-scenarios.md).
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
+If a customer service representative (service representative or representative) isn't available when a customer calls a Microsoft Teams number in your voice channel, the call can be automatically forwarded to your organization's digital contact center. Standard charges for Teams calls apply to forwarded calls. Calls that are forwarded to your digital contact center numbers are charged based on the [PSTN inbound rate](voice-channel-pricing-scenarios.md).
 
 To turn on call forwarding:
 
@@ -22,7 +25,7 @@ To turn on call forwarding:
 
 ## How call forwarding in Teams works
 
-When a Teams call is forwarded to the digital contact center, the contact center agent sees the phone number the customer called from. If the customer is in Dynamics 365, more contact details are available.
+When a Teams call is forwarded to the digital contact center, the contact center representative sees the phone number the customer called from. If the customer is in Dynamics 365, more contact details are available.
 
 Call forwarding is supported in the following scenarios:
 

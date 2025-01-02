@@ -1,10 +1,11 @@
 ---
-title: Enable case grids for agents
-description: Learn how you can enable case grids and increase agent productivity.
-ms.date: 08/01/2024
+title: Enable case grids
+description: Learn how you can enable case grids and increase service representative productivity.
+ms.date: 12/05/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -16,17 +17,17 @@ ms.collection: get-started
 
 # Enable case grids
 
-Increase your agent's productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, facilitating decision-making.
+Increase your customer service representative's (service representative or representative) productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your representatives perform inline edits and quick operations with minimal clicks, facilitating decision-making.
 
 ## Key features
 
 The following are some of the key features of the modernized case grids:
 
-- The **Enhanced Active Cases** view is available for the **Case** entity with a predefined set of columns that enable agent to:
+- The **Enhanced Active Cases** view is available for the **Case** entity with a predefined set of columns that enable representatives to:
     - View icons for **Priority**, **Case status**, and the **Origin** channel.
     -	View avatars for the assigned **Owner**.
     - View key data, such as **Case Age**, **Next SLA**, **Is escalated** and **Last Interaction**, by default.
-    - Perform inline edits and update data for columns. For example, agents can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when agents move to the next row. However, edit actions aren't enabled by default. To allow agents to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
+    - Perform inline edits and update data for columns. For example, representatives can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when representatives move to the next row. However, edit actions aren't enabled by default. To allow representatives to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
 - Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views. 
 - Colors that you've set for custom columns of type **OptionSet** are also automatically displayed on the case grid.
   > [!NOTE]

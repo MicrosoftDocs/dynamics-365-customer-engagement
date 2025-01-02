@@ -2,7 +2,6 @@
 title: "Work with solutions (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: Learn how to work with solutions, which includes creating a publisher and creating and deleting a solution, in Dynamics 365 Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
 
 ms.suite: 

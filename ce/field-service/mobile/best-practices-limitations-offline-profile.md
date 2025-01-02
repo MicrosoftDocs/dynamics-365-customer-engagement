@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 11/04/2024
+ms.date: 12/13/2024
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -63,6 +63,17 @@ Keep these limitations in mind when you set up the offline profile:
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
 - The **Export to PDF** option isn't available while the application is in offline mode. Other options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
+
+## Data reducution checklist
+
+To reduce the amount of data the mobile app uses, consider the following actions:
+
+- Limit customization. To understand how customizations are consuming data, use debugging tools like F12 in the browser or Fiddler with the Windows app.
+- [Create an offline profile](/dynamics365/field-service/mobile/set-up-offline-profile) and enable offline-first mode. Make sure business can be performed offline and large synchronizations can be handled over Wi-Fi.
+- Limit views and forms to the minimum required.
+- Use default views that filter data to only the data that's important to the field worker. For example, my recent bookings instead of all bookings.
+- Allow image resolution to default to smaller file sizes for photo capture.
+- Review other [performance considerations for customizing the mobile app](/dynamics365/field-service/mobile/improve-mobile-performance).
 
 ## Next steps
 

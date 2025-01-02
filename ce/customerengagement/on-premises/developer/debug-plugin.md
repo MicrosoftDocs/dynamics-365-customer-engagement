@@ -2,7 +2,6 @@
 title: "Debug a plug-In (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about debugging a plug-in executing on a D365 Server."
 keywords: 
-ms.date: 01/28/2019
 
 ms.custom: on-premise
 ms.topic: article

@@ -2,7 +2,6 @@
 title: "Use connection strings in XRM tooling (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "XRM tooling enables you to connect to your Dynamics 365 Customer Engagement (on-premises) instance by using connection strings"
 ms.custom: 
-ms.date: 06/21/2023
 ms.reviewer: pehecke
 ms.suite: 
 ms.tgt_pltfrm: 

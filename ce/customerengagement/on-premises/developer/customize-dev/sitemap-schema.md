@@ -2,7 +2,6 @@
 title: "SiteMap schema (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Dynamics 365 Customer Engagement displays commands in different ways depending on the entity and the client. In most places in the web application you will see a command bar instead of a ribbon."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -183,6 +183,8 @@
           href: copilot-configure-whatsnew-field.md
         - name: Configure Copilot to use SharePoint sites
           href: copilot-sharepoint-config.md
+        - name: Enable Copilot email assist
+          href: enable-copilot-email-assist.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
         - name: Copilot in Dynamics 365 Sales FAQ
@@ -432,8 +434,6 @@
           href: forecast-different-data-types.md
         - name: Configure and manage drill-down entities
           href: configure-manage-drill-downs.md
-        - name: Take snapshots automatically
-          href: manage-snapshots-forecast.md
         - name: Configure advanced settings
           href: forecast-configure-advanced-settings.md
         - name: Customize column headers
@@ -554,7 +554,7 @@
                   href: wa-delete-deactivate-assignment-rule.md
                 - name: Understand record distribution in assignment rules
                   href: understand-lead-distributions-assignment-rules.md
-            - name: View and assign unassigned records
+            - name: View assigned records and details
               href: wa-manage-unassigned-records.md
             - name: Migrate assignment rules and segments
               href: wa-migrate-assignment-rules-segments.md
@@ -1014,10 +1014,6 @@
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
           href: understand-forecast-projection-through-trend-chart.md
-        - name: Analyze deals flow between snapshots
-          href: analyze-deals-flow-between-snapshots.md
-        - name: View snapshots
-          href: view-snapshots.md
         - name: Forecasting FAQs
           href: faq-forecasting.md            
     - name: Sales engagement
@@ -1175,6 +1171,8 @@
               href: use-sales-hub-on-dynamics-365-mobile.md
             - name: Actions supported in online and offline mode
               href: Features-in-mobile-offline.md
+            - name: Sales mobile app vs Dynamics 365 for phones and tablets app
+              href: sales-mobile/mobile-apps-difference.md
 
 - name: Developer guide
   items:

@@ -5,6 +5,7 @@ ms.date: 07/01/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Show customers their average wait time in a queue

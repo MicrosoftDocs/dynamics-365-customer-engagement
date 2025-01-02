@@ -2,7 +2,6 @@
 title: "Entity relationship behavior (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: Learn about entity relationship behaviors and how to configure them to preserve data integrity and automate processes in Customer Engagement (on-premises).
 ms.custom: 
-ms.date: 11/03/2017
 ms.reviewer: pehecke
 
 ms.suite: 

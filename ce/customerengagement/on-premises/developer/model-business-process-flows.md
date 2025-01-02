@@ -2,7 +2,6 @@
 title: "Work with business process flows using code (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
 ms.custom: 
-ms.date: 07/09/2018
 ms.reviewer: pehecke
 
 ms.suite: 

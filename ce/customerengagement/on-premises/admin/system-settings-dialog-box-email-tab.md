@@ -2,7 +2,6 @@
 title: "Email Configuration settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Email Configuration tab, set up email processing, determine tracking options, set file size limits, and more."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
