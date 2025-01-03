@@ -102,7 +102,7 @@ The conversations that are completed by ending them or closing the session are c
 
 ## How conversations are handled on close or end
 
-When service representatives close the conversation using the close (X) button on the window or end the conversation using the **End** button, the system handles the two behaviors differently for different channels that's explained as follows:
+When service representatives close the conversation using the close (**X**) button on the communication panel or end the conversation using the **End** button, the system handles the two behaviors differently for different channels that's explained as follows:
 
 - **Voice and chat channels**:
 
@@ -114,6 +114,8 @@ When service representatives close the conversation using the close (X) button o
 
     - **Close conversation without ending it**: The conversation goes into a waiting state and the representative capacity is immediately released. When the customer comes back, the conversation is resumed again.
     - **End conversation using the End button**: The conversation is closed for the customer as well. The system applies the wrap-up time based on workstream configuration settings.
+
+Learn about close or end conversation in [Close or end a conversation](oc-conversation-control.md#close-or-end-a-conversation).
 
 ### Related information
 

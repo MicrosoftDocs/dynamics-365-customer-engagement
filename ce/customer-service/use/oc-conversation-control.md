@@ -178,6 +178,17 @@ As an agent, you can view the real-time customer satisfaction levels on the comm
 
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
 
+## Close or end a conversation
+
+When you select the close button (**X**) to close the communication panel, a confirmation message appears to let you know that the session will end. Select **Close** on the dialog if you want to end the session.
+
+When you select the **End** button, the conversation ends, and the customer receives a message that the service representative has ended the conversation.
+
+:::image type="content" source="../media/conversation-end-close.png" alt-text="Screenshot of the communication chanel with the close and end options.":::
+
+The conversation behavior is dependent on the channel through which it comes. Learn more in [How conversations are handled on close or end](oc-conversation-state.md#how-conversations-are-handled-on-close-or-end).
+
+
 ### Related information
 
 [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)  
