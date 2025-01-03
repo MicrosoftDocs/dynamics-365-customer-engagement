@@ -1,7 +1,7 @@
 ---
 title: "Define criteria to exit a sequence during the flow"
 description: "Exit a sequence during the flow when the defined criteria is met."
-ms.date: 07/29/2022
+ms.date: 12/31/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -30,13 +30,11 @@ Review the following requirements before you configure the exit criteria:
 
 1.	Open the sequence and then on the designer page, select **Exit criteria**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select exit criteria in the sequence designer.](media/sequence-designer-select-options.png "Select exit criteria in the sequence designer")
+    :::image type="Select exit criteria in the sequence designer" source="media/sequence-designer-select-options.png" alt-text="Select exit criteria in the sequence designer":::
 
 2.	On the **Sequence Options** pane, turn on the **Exit a sequence** toggle to exit a sequence when a customer replies to any email in the sequence.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Enable exiting a sequence on the Sequence Options pane.](media/sequence-sequence-options-pane.png "Enable exiting a sequence on the Sequence Options pane")
+    :::image type="Enable exiting a sequence on the Sequence Options pane" source="media/sequence-sequence-options-pane.png" alt-text="Enable exiting a sequence on the Sequence Options pane":::
 
 3.	Select **Save**.
 
