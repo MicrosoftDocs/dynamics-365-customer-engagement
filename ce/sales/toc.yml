@@ -434,8 +434,6 @@
           href: forecast-different-data-types.md
         - name: Configure and manage drill-down entities
           href: configure-manage-drill-downs.md
-        - name: Take snapshots automatically
-          href: manage-snapshots-forecast.md
         - name: Configure advanced settings
           href: forecast-configure-advanced-settings.md
         - name: Customize column headers
@@ -1016,10 +1014,6 @@
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
           href: understand-forecast-projection-through-trend-chart.md
-        - name: Analyze deals flow between snapshots
-          href: analyze-deals-flow-between-snapshots.md
-        - name: View snapshots
-          href: view-snapshots.md
         - name: Forecasting FAQs
           href: faq-forecasting.md            
     - name: Sales engagement

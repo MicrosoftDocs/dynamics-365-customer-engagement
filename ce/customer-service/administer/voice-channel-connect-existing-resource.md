@@ -46,7 +46,7 @@ Before you connect an existing Azure resource to Azure Communication Services, y
    :::image type="content" source="../media/acs-resource-keys.png" alt-text="image showing resource keys":::
 
 > [!NOTE]
-> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connnection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
+> If you regenerate the connection string in Azure Communication Services after establishing connectivity to the Azure Communication Services resource, the existing connection string in the Contact Center admin center app becomes invalid. An error message is also displayed in the connection string filed in the admin center. To resolve the error, copy the correction connection string from the Azure portal, and then paste it in the **Connection string** field in **Channels** > **Phone numbers** > **Advanced** > **Manage Azure Communication Services** in the Contact Center admin center app. The application displays a success message if the connection is successful.
 
 ### Get Event Grid application and tenant IDs from the Azure portal
 
@@ -88,11 +88,11 @@ You need to specify the values of **Application (client) ID** and **Directory (t
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
 After you configure the Azure Communication Services resource, the **Manage Azure Communication Services** page displays the following:
- -  **Event grid app id**
+ - **Event grid app id**
  - **Event grid app tenant id**
  - **Recording Web Hook Endpoint**
  - **SMS Web Hook Endpoint**
- -  **Incoming call Web Hook Endpoint (preview)**.
+ - **Incoming call Web Hook Endpoint (preview)**.
 
 You can copy the subscriber endpoint values such as **Recording Web Hook Endpoint**, **SMS Web Hook Endpoint**, and **Incoming call Web Hook Endpoint (preview)** to use them in [Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md).
 
@@ -116,6 +116,7 @@ You can copy the subscriber endpoint values such as **Recording Web Hook Endpoin
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](../voice-channel-route-queues.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
-[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md).
+[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md)
+
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

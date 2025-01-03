@@ -41,7 +41,7 @@ You can create a chat authentication setting record in the admin app.
 
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change it to a required value.
-    - **Authentication type:** By default, OAuth 2.0 implicit flow can't be edited.
+    - **Authentication type:** By default, OAuth 2.0 can't be edited.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer signed into.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
 
@@ -58,7 +58,7 @@ You can create a chat authentication setting record in the admin app.
 
    - **Name**: A name for the authentication setting.
    - **Channel Type**: **Live chat**.
-   - **Authentication Type**: OAuth 2.0 implicit flow 
+   - **Authentication Type**: OAuth 2.0
 1. Select **Next** and on the **Details** page, enter the following information:
    - **Token Custom Action**: The custom code reference to validate the tokens that are provided by your identity provider and return the user ID of the authenticated user.
    - **Token URL**: The URL used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
