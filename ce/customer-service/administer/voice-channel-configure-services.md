@@ -71,7 +71,7 @@ To enable call recording and SMS services, you must first configure your applica
    - **Microsoft Entra Application ID or URI**: Enter the application (client) ID of your Azure resource.
 
    > [!IMPORTANT]
-   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
+   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** values that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
 
   
    :::image type="content" source="../media/event-grid-subscription-additional-features.png" alt-text="Event Grid subscription additional features" lightbox="../media/event-grid-subscription-additional-features.png":::
