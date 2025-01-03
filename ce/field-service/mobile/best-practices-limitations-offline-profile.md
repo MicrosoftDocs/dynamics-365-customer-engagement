@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 12/13/2024
+ms.date: 01/06/2025
 author: JonBaker007
 ms.author: jobaker
 ---

@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 08/28/2024
+ms.date: 01/06/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007

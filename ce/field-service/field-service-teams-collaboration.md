@@ -1,7 +1,7 @@
 ---
 title: Collaborate on work orders with Microsoft Teams
 description: Collaborate in the context of work orders or other entities by integrating with Microsoft Teams.
-ms.date: 01/02/2025
+ms.date: 01/06/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
