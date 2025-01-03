@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 12/29/2024
+ms.date: 01/03/2024
 ms.custom: bap-template
 ---
 
@@ -64,7 +64,9 @@ Learn about using the API in [Use the Microsoft Dataverse Web API](/power-apps/d
 You can view details such as the service representative's presence, current conversations, and the sentiments of those conversations, and the available capacity across different capacity profiles. You can use the **Agents insights** report to monitor the representative's capacity. You can choose to reset capacity at the end of the workday or immediately after a work item is closed. Learn more in [Create and manage capacity profiles](capacity-profiles.md).
 
 You can also create a custom report per your business requirements to monitor the representative's capacity using the following entities:
-- The [agent status](../develop/reference/entities/msdyn_agentstatus.md) entity for the latest capacity profile and presence status of the representative. 
+- The [status history for capacity profile](../develop/reference/entities/msdyn_agentcapacityupdatehistory.md)
+- The [status history for unit-based capacity profile](../develop/reference/entities/msdyn_agentstatushistory.md)
+- The [agent status for unit-based capacity](../develop/reference/entities/msdyn_agentstatus.md) entity for the latest capacity profile and presence status of the representative. 
 - The [status history](../develop/reference/entities/msdyn_agentcapacityupdatehistory.md) entity for the history or audit trail of the presence and capacity profile changes for the representative.
 
 ### Use representative attributes to optimize workload of your service representatives
@@ -105,11 +107,10 @@ Skill-based routing lets your contact center distribute work items (conversation
 For example, to address the following scenario in your contact center, we recommend that you configure skill-based matching to assign work items to the service representative who has the necessary skills to handle the cases:
 
 - My service team supports two types of work items&mdash;order delivery issues and refund requests. However, most of the users will have the skills for one type only.
-- During standard operations, the team will have two subgroups, and each group will handle one type of incoming work items.
+- During standard operations, the team has two subgroups, and each group handles one type of incoming work items.
 - During peak load, certain users can handle work items from both types.
 
 Skill-based routing helps reduce the number of queues to be managed in your organization.
-
 
 ## Next steps
 
