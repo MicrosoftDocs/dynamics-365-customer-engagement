@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 11/28/2024
+ms.date: 01/03/2025
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -115,7 +115,7 @@ Out of the box, users with the Customer Service Representative role only can use
 |Pane tool configuration | msdyn_panetoolconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
 |Productivity pane configuration | msdyn_paneconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
 |Pane tab configuration | msdyn_panetabconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
-|Organization Setting | organizationsetting | Not applicable | Yes | Yes | Not applicable | Not applicable |
+|Organization Setting | organizationsetting | Not applicable | Not applicable | Yes | Not applicable | Not applicable |
 
 
 > [!NOTE]
