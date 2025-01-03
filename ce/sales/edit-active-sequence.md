@@ -1,7 +1,7 @@
 ---
 title: "Edit an active sequence (Sales Insights)"
 description: "Edit an active sequence by creating new versions of the sequence without deactivating it in sales accelerator."
-ms.date: 12/31/2024
+ms.date: 01/03/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -31,9 +31,7 @@ When you've changed the process of an active sequence, you can create a new vers
 
     :::image type="Edit a sequence" source="media/sequence-edit-active-select-edit-sequence.png" alt-text="Edit a sequence":::    
  
-1. On the confirmation message, select **OK**.
-
-    :::image type="Confirmation message to edit a sequence" source="media/sequence-edit-active-sequence-confirmation.png" alt-text="Confirmation message to edit a sequence":::    
+1. On the confirmation message, select **OK**.  
 
     A version is created for the sequence.
  
@@ -41,9 +39,7 @@ When you've changed the process of an active sequence, you can create a new vers
  
     :::image type="Activate the edited sequence" source="media/sequence-edit-active-sequence-activate.png" alt-text="Activate the edited sequence":::    
 
-7.	On the confirmation message, provide a description of the change, and then select **Save**.
-
-    :::image type="Confirmation message to save the sequence" source="media/sequence-edit-active-sequence-save-confirmation-message.png" alt-text="Confirmation message to save the sequence":::     
+7.	On the confirmation message, provide a description of the change, and then select **Save**.    
  
 A new version of the existing sequence is created and saved.
 
