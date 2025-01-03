@@ -73,7 +73,7 @@ To enable call recording and SMS services, you must first configure your applica
    :::image type="content" source="../media/event-grid-subscription-additional-features.png" alt-text="Event Grid subscription additional features" lightbox="../media/event-grid-subscription-additional-features.png":::
 
    > [!IMPORTANT]
-   > Make sure you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URL** that matches the ones defined in your org. It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed", verify your credentials and then retry this step after a few minutes.
+   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
 
 1. Select **Create** to create the event subscription endpoint for recording.
 
