@@ -49,16 +49,16 @@ Viewing the version history helps you to understand the number of versions that 
 
 1.	Open the sequence.
 
-1.	To view the version history, select **Version history**.   
-
-    A list of versions that exist for the sequence is displayed on the right pane.
+1.	To view the version history, select **Show full version history** from the dropdown list beside the sequence name.
 
     :::image type="Select version history option" source="media/sequence-version-select-version-history.png" alt-text="Select version history option":::
 
-    The current selected version is highlight with a Blue line corresponding to the version name.  
+    A list of versions that exist for the sequence is displayed on the right pane.
 
-    >[!NOTE]
-    >If there are no leads connected to the sequence, and you created a new version, only the latest version is displayed in the list.
+    The current selected version is highlight with a blue line corresponding to the version name.  
+
+    > [!NOTE]
+    > If there are no leads connected to the sequence, and you created a new version, only the latest version is displayed in the list.
 
 1.	To view the version of the sequence to which a record is connected, go to the **Connected *records*** tab. In this example, we selected the **Connected leads** tab.    
 
