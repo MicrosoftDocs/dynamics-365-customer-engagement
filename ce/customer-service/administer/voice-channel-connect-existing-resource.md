@@ -81,12 +81,15 @@ You need to specify the values of **Application (client) ID** and **Directory (t
        - **Event grid app id**: The value of the **Application (client) ID** 
        - **Event grid app tenant id**: The value of the **Directory (tenant) ID**
 
+   > [!NOTE]
+   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
+   
+
        :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
 
      - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
 
-   > [!NOTE]
-   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
+
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
