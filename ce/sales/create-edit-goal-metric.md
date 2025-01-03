@@ -1,7 +1,7 @@
 ---
 title: "Define a goal metric | MicrosoftDocs"
 description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
-ms.date: 12/24/2024
+ms.date: 01/03/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,34 +37,30 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
-    :::image type="Select the Change area icon and then select App Settings" source="media/change-area-app-settings.png" alt-text="Select the Change area icon and then select App Settings":::
-
-3. Select **Goal Metrics**.
-
-    :::image type="Goal Metrics in the site map" source="media/site-map-goal-management.png" alt-text="Goal Metrics in the site map":::
+3. Under **Performance management**, select **Goal Metrics**.
  
-4.	To create a new goal metric, on the command bar, select **New**.
+4.	On the command bar, select **New**.
 
-5.	Under **Step 1: Define the metric**, fill in the information:
+5.	Under **Step 1: Define the metric**, fill in the following information:
 
-    a.	**Name**. Required. Enter a name between 1 and 100 characters.
+    a.	**Name**: Enter a name between 1 and 100 characters.
     
-    b.	**Metric Type**. Required. To track a monetary amount, select **Amount**. To track another type of amount, such as how many new contacts are added, select **Count**.
+    b.	**Metric Type**: To track a monetary amount, select **Amount**. To track another type of amount, such as how many new contacts are added, select **Count**.
 
     
     > [!NOTE]
     > After you save the goal metric, you will no longer be able to edit this field.
     
-    c.	**Amount Data Type**. Required. This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
+    c.	**Amount Data Type**: This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
     
     > [!NOTE]
     > After you save the goal metric, you will no longer be able to edit this field.
     
-    d.	**Track Stretch Target**. Select this check box if you want this metric to track an additional target beyond the primary goal.
-
-    :::image type="Goal metric form" source="media/goal-metric-form.png" alt-text="Goal metric form":::
+    d.	**Track Stretch Target**: Select this check box if you want this metric to track an additional target beyond the primary goal.
  
 6.	Select **Save**.
+
+    :::image type="Goal metric form" source="media/goal-metric-form.png" alt-text="Goal metric form":::
 
 7.	On the **Rollup Fields** tab, define how you want to calculate the actual and in-progress values for this metric. For example, let's say your goal metric is based on revenue. You can define your rollup fields as shown in the following screenshot:
 

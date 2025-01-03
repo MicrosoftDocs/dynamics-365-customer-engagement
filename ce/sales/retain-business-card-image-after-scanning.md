@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable saving of business card image (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure whether to retain the business card image in Dynamics 365 Sales after it is scanned."
-ms.date: 12/24/2024
+ms.date: 01/03/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr

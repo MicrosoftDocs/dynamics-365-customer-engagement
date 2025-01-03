@@ -1,7 +1,7 @@
 ---
 title: "Define goal rollup queries (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Collect data about a given goal, including all its related goals, in one view by using rollup query in Dynamics 365 Sales."
-ms.date: 12/24/2024
+ms.date: 01/03/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -33,11 +33,9 @@ Use rollup queries to specify additional criteria that you want to apply on exis
 
 2.	In the site map, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
-    :::image type="Select the Change area icon and then select App Settings" source="media/change-area-app-settings.png" alt-text="Select the Change area icon and then select App Settings":::
-
-3. Select **Rollup Queries** under **Performance management**.
+3. Under **Performance management**, select **Rollup Queries**.
  
-4.	To create a new rollup query, on the command bar, select **New**.
+4.	On the command bar, select **New**.
 
 5. In the **Entity Type** field, select the entity for the rollup query. For example, if you want the invoices for customers in a territory, select the Invoice entity.  
       > [!NOTE]
@@ -58,7 +56,7 @@ Rollup queries define additional criteria for a goal. Applying the rollup query 
 
 **Follow these steps:**
 
-1. In the Sales Hub app, navigate to  **Performance**, **Goals** in the left pane.  
+1. In the Sales Hub app, navigate to  **Performance** > **Goals** in the left pane.  
 
 2. Open the goal to which you want to apply the rollup query.  
 
