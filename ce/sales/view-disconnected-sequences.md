@@ -1,7 +1,7 @@
 ---
 title: "Create a query to view a sequence in an entity record grid"
 description: "Create a saved query to show an in-progress sequence in an entity record grid"
-ms.date: 12/30/2024
+ms.date: 01/03/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag

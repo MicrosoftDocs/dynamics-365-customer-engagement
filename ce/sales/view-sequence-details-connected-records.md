@@ -1,7 +1,7 @@
 ---
 title: "View details of sequence and its connected records"
 description: "Use the sequence page to view the details of a sequence and its connected records in sales accelerator in Dynamics 365 Sales."
-ms.date: 12/24/2024
+ms.date: 01/03/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
