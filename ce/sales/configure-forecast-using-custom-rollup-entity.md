@@ -1,7 +1,7 @@
 ---
 title: Configure a forecast using custom rollup entity 
 description: Configure a forecast using custom rollup entity in Dynamics 365 Sales.
-ms.date: 10/21/2024
+ms.date: 01/02/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -97,8 +97,6 @@ Let's configure this forecast.
 
     Repeat the step to configure other columns in accordance with your needs, and then select **Next**. More information: [Choose layout and columns](choose-layout-and-columns-forecast.md)
 
-6.	If you have enabled premium forecasting and want to take snapshots automatically, see [Take snapshots automatically](manage-snapshots-forecast.md). 
-
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 
 ## Opportunity split 
@@ -162,8 +160,6 @@ Let's configure this forecast.
 
     >[!NOTE]
     >You can't proceed to the next step until you complete the configuration of all the columns. 
-
-6.	If you have enabled premium forecasting and want to take snapshots automatically, see [Take snapshots automatically](manage-snapshots-forecast.md).  
 
 7.	Perform the steps in [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 

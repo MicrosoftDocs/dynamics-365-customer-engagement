@@ -13,6 +13,9 @@ ms.collection: bap-ai-copilot
 
 # FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot
 
+> [!IMPORTANT]
+> The Dynamics 365 Field Service Plugin for Microsoft Copilot is no longer available after January 15 for users of the Field Service app in Microsoft Teams. For more information, see [Feature deprecations](deprecations-field-service.md).
+
 This FAQ answers questions about the AI impact of the Dynamics 365 Field Service Plugin for Microsoft Copilot and how the plugin helps with work orders.
 
 ## What is Dynamics 365 Field Service Plugin for Microsoft Copilot?

@@ -2,7 +2,6 @@
 title: "Invoke custom actions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to invoke a custom action directly from a workflow without writing code. This page offers a sample scenario to help explain the process."
 ms.custom: 
-ms.date: 12/04/2018
 ms.reviewer: 
 
 ms.suite: 

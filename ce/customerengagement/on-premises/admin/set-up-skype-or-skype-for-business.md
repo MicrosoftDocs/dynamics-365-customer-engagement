@@ -2,7 +2,6 @@
 title: "Set up Skype or Skype for Business for use in Dynamics 365 Customer Engagement apps"
 description: "Follow these steps to set up Customer Engagement apps for Skype or Skype for Business, and take advantage of real-time communication with customers and teams."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 

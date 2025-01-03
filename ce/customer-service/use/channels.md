@@ -1,5 +1,5 @@
 ---
-title: Overview of channels in Omnichannel for Customer Service
+title: Overview of channels
 description: Learn about the different channels that are available in Omnichannel for Customer Service and the licenses required to use them.
 author: neeranelli
 ms.author: nenellim
@@ -27,23 +27,13 @@ The implementation pattern for the out-of-the-box channels is as follows:
 
 ## License requirements
 
-An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Apart from Dynamics 365 subscriptions, if you choose to use any third-party channels, you need to acquire subscriptions from those providers as well.
-
-You can get Chat with the following add-on licenses:
-
-- [Chat for Dynamics 365](https://dynamics.microsoft.com/customer-service/overview/#pricing)
-- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/#pricing)
-
-> [!Note]
-> The Digital Messaging Add-in license includes Chat for Dynamics 365 Customer, SMS, Facebook, and bot integration.
-
-You can get the SMS, social channels, and custom messaging channels with the following add-on license:
-
-- [Digital Messaging](https://dynamics.microsoft.com/customer-service/overview/)
+An active subscription of Digital Messaging Add-in is required for SMS, social channels, Microsoft Teams, and custom messaging. Learn more in [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 You can get the Microsoft Teams channel with the following add-on license:
 
 - [Teams license](/MicrosoftTeams/office-365-licensing)
+
+Apart from Dynamics 365 subscriptions, if you choose to use any non-Microsoft channels, you need to acquire subscriptions from those providers as well.
 
 The following channels are currently available in the application: 
 

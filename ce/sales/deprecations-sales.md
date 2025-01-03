@@ -1,7 +1,7 @@
 ---
 title: Deprecations in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 05/24/2024
+ms.date: 12/13/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,7 @@ ms.custom:
 The features that have been deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming).
 
 > [!Important]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed. 
 
 ## Assistant card templates
 
@@ -27,17 +27,16 @@ Effective August 1, 2024, templates to create new assistant cards won't be avail
 <a name='snapshot-deprecation'></a>
 ## Snapshots in sales forecasting
 
-Effective June 30, 2024, the snapshot capability in sales forecasting will be deprecated and you'll no longer be able to enable snapshots for new forecast configurations. Existing forecast configurations with snapshots will continue to work as-is until October 31, 2024. Post that, all the snapshots and related charts such as deal flow, trend chart, and forecast grid history will be removed.
-
-As an alternative, you can use the [Forecast API](developer/reference/custom-actions/msdyn_ForecastApi.md) to set up daily data sync to pull forecast data.
+Effective June 30, 2024, the snapshot capability in sales forecasting is deprecated. Snapshots and related charts such as deal flow, trend chart, and forecast grid history are no longer available. As an alternative, you can use the [Forecast API](developer/reference/custom-actions/msdyn_ForecastApi.md) to set up daily data sync to pull forecast data.
 
 ## Set seller availability using Outlook calendar
 
-Effective April 1, 2024, the feature allowing configuration of seller availability through the Outlook calendar in work assignments will be deprecated. This deprecation helps enhance the safety and security of your organization's data. Alternatively, you can use the Dynamics 365 CRM calendar to configure the seller availability. [Learn more](wa-manage-seller-availability.md)
+Effective April 1, 2024, the feature allowing configuration of seller availability through the Outlook calendar in work assignments is deprecated. This deprecation helps enhance the safety and security of your organization's data. Alternatively, you can use the Dynamics 365 CRM calendar to configure the seller availability. [Learn more](wa-manage-seller-availability.md)
 
 ## Exchange-based cards are deprecated
 
-Effective October 1, 2023, the following Exchange-based cards will be deprecated:  
+Effective October 1, 2023, the following Exchange-based cards are deprecated and no longer available in Dynamics 365 Sales:
+ 
 -	Send Content Request Card
 -	Task Due Today Exchange Card
 -	Upcoming Meeting Exchange Card 
@@ -49,11 +48,11 @@ Effective October 1, 2023, the following Exchange-based cards will be deprecated
 -	Meeting Request Card 
 -	Yes or No Card
 
-After the cards are deprecated, they’ll no longer be available. You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
+You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
 
-## Rank optimization of insight cards will be deprecated
+## Rank optimization of insight cards is deprecated
 
-Effective October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.  
+Effective October 1, 2023, the rank optimization feature of insights cards is deprecated. Any ranking rules that you might have set up are no longer available and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.
 
 <a name='playbooks'></a>
 ## Playbooks is deprecated

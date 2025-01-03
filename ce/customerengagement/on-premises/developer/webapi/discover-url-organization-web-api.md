@@ -2,7 +2,6 @@
 title: "Discover the URL for your organization using the Web API (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how you can use the Web API to discover at runtime the organizations, or instances that the logged-on user belongs to"
 ms.custom: 
-ms.date: 04/24/2019
 ms.reviewer: pehecke
 
 ms.suite: 

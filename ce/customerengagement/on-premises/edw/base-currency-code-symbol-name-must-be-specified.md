@@ -3,7 +3,6 @@ title: "Base currency code, base currency symbol, and base currency name must be
 description: Environment diagnostics warning that currency parameters must be specified
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -2,7 +2,6 @@
 title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 Customer Engagement (on-premises) forms, views, dialogs, and reports in other applications"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Organization entity attributes (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The following information is for the organization entity in a default, uncustomized installation of Dynamics 365 Customer Engagement. The schema name and early bound class for this entity is Organization. The Web API uses organization EntityType."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

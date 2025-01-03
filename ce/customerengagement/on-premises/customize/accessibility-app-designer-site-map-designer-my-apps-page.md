@@ -5,7 +5,6 @@ keywords: App designer; site map designer; my apps; Dynamics 365 for Customer En
 author: Mattp123
 ms.author: matp
 
-ms.date: 11/08/2018
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)

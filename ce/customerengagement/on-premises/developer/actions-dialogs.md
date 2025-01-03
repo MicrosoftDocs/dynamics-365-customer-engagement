@@ -2,7 +2,6 @@
 title: "Actions on dialogs (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "This topic describes the actions you can perform on dialogs using the Dynamics 365 Customer Engagement web services (SDK). "
 ms.custom: 
-ms.date: 05/24/2019
 ms.reviewer: pehecke
 
 ms.suite: 
