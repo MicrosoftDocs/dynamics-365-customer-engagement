@@ -86,7 +86,7 @@ You need to specify the values of **Application (client) ID** and **Directory (t
      - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
 
    > [!NOTE]
-   > Make sure you enter the correct set of **Tenant ID** and **Application ID or URL** that matches the ones defined in your org. It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed", verify your credentials and then retry this step after a few minutes.
+   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
