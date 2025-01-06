@@ -18,6 +18,15 @@ Depending on your location, certain features are available in Dynamics 365 Custo
 
 The [AI Builder preview models](/ai-builder/administer#enable-or-disable-ai-builder-preview-features) setting must be enabled in [Power Platform admin center](https://admin.powerplatform.microsoft.com).
 
+## Supported regions for Copilot features
+
+The following table lists the region availability of Copilot features.
+
+| Feature | North America| Europe | Asia Pacific | South America | Australia |Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland |Germany | Government Community Cloud|
+| ------------------------ | ----- | ------- | -------- | ----- | ------- | ------- | ----- |---- | ------ | ------ | -------- | ------ |
+
+
+
 ## Region availability of analytics and insights
 
 The following features are available in all geographic locations where the voice channel in Omnichannel for Customer Service is supported:
