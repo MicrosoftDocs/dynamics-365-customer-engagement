@@ -612,6 +612,8 @@
           href: copilot-enable-summary.md
         - name: Enable case summaries
           href: copilot-enable-summary.md#enable-case-summaries
+        - name: Enable custom record summaries
+          href: copilot-enable-custom-record-summaries.md
         - name: Enable conversation summaries
           href: copilot-enable-summary.md#enable-conversation-summaries
       - name: Enable Copilot help pane features
