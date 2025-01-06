@@ -857,13 +857,7 @@
         - name: Plan service scheduling migration
           href: plan-migration.md
         - name: Migrate service scheduling
-          items: 
-          - name: Introduction to service scheduling migration
-            href: introduction-migration-entity-records.md
-          - name: Plan service scheduling migration
-            href: plan-migration.md
-          - name: Migrate service scheduling
-            href: migrate-entity-records.md
+          href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
           - name: FAQ on migration from Customer Service Hub to Customer Service workspace
