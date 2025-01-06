@@ -52,6 +52,7 @@ The following table lists the availability of Copilot features for the respectiv
 
 Yes: Available  
 No: Not available
+
 <sup>**1**</sup> Copilot might [generate summaries](../use/copilot-language-support.md) in the agents' UI language even if that isn't an officially supported language.
 
 ## Region availability of analytics and insights
