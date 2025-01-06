@@ -11,13 +11,13 @@ ms.custom: bap-template
 
 # Configure custom record summaries for service representatives
 
-The custom record summary enables Copilot to generate summaries for any custom record type in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or service representatives) to gain insight into important records, such as custom case record types or other out-of-the-box record types, like account and contact information. Summaries also help improve service representative response times by providing them with an easily accessed, quick synopsis of a record.
+The custom record summary enables Copilot to generate summaries for any custom record in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or service representatives) to gain insight into important details about the records they're working on, such as account and contact information. Summaries also help improve service representative response times by providing them with an easily accessed, quick synopsis of a record.
 
 You can configure the custom record summary feature to create summaries for work orders, part orders, or any other custom tables that exist in your customer service environment. You can customize summaries in the following ways:
 - Select from a list of existing record types, including account, work orders, and tickets, to generate summaries.
 - Define in natural language what the record type is so that Copilot can leverage the information to create better summaries.
 - Select specific data fields to include in the summary and also describe these fields in natural language.
-- Allow service representatives to access these summaries on demand from the relevant form to help ensure accuracy and relevancy in their communications.
+- Allow service representatives to access these summaries on demand from the relevant form to quickly get the latest status summary of a record.
 
 ## Configure the custom record summary
 
@@ -27,11 +27,12 @@ You can configure the custom record summary feature to create summaries for work
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
    - **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
     > [!Note]
-    > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections.
+    > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
    - **Record type or activity**: Select the record type or activity that you want to include in the summary.
    - **Data field**: Select the data field from the record type or activity that you want to include in the summary.
    - By default, the rows you add are considered for summarization. Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
 1. Select **Save and close**.
+1. Copy the **Developer summary ID** to use in the next section.
 
 For example, if you want Copilot to generate an account summary, from account name, account description, full name and email of the primary contact, emails exchanged with the account, case number, case description, and notes linked to the account, configure the data as follows:
 
