@@ -25,12 +25,12 @@ You can configure the custom record summary feature to create summaries for work
 1. In the **Custom record summaries** section, select **Add new summary**. The **Specify record type** pane appears.
 1. In the Specify record type pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
-  - **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
-   > [!Note]
-   > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections.
-  - **Record type or activity**: Select the record type or activity that you want to include in the summary.
-  - **Data field**: Select the data field from the record type or activity that you want to include in the summary.
-  - By default, the rows you add are considered for summarization. Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
+   - **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
+    > [!Note]
+    > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections.
+   - **Record type or activity**: Select the record type or activity that you want to include in the summary.
+   - **Data field**: Select the data field from the record type or activity that you want to include in the summary.
+   - By default, the rows you add are considered for summarization. Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
 1. Select **Save and close**.
 
 For example, if you want Copilot to generate an account summary, from account name, account description, full name and email of the primary contact, emails exchanged with the account, case number, case description, and notes linked to the account, configure the data as follows:
@@ -47,7 +47,7 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Forms** > **Account for multisession experience**.
 1. Select **Component** > **Copilot case summary control**, and then specify the following values:
 
-:::image type="content" source="../media/powerapps-custom-control.png" alt-text="screenshot for powerapps components.":::
+  :::image type="content" source="../media/powerapps-custom-control.png" alt-text="screenshot for powerapps components.":::
 
 ## Runtime experience
 
