@@ -57,3 +57,9 @@ The custom summary appears as a card on the relevant form. When service represen
 In our example, when a service representative opens an account record, the account summary card appears as follows:
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="screenshot for account summary.":::
+
+## Related information
+
+[Manage Copilot features in Customer Service](configure-copilot-features.md) 
+[Enable summarization of cases and conversations](copilot-enable-summary.md)   
+[Enable case summaries](copilot-enable-summary.md#enable-case-summaries.md)
