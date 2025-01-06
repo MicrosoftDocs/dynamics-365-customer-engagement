@@ -1,6 +1,6 @@
 ---
 title: Configure custom record summaries for service representatives
-description: Learn how to set up a custom record summary in Dynamics 365 Customer Service.
+description: Learn how to set up a custom record summary for service representatives in Dynamics 365 Customer Service.
 author: lalexms 
 ms.author: laalexan
 ms.reviewer: shujoshi
@@ -15,7 +15,7 @@ The custom record summary enables Copilot to generate summaries for any custom r
 
 You can configure the custom record summary feature to create summaries for work orders, part orders, or any other custom tables that exist in your customer service environment. You can customize summaries in the following ways:
 - Select from a list of existing record types, including account, work orders, and tickets, to generate summaries.
-- Define in natural language what the record type is so that Copilot can leverage the information to create better summaries.
+- Define in natural language what the record type is so that Copilot can use the information to create better summaries.
 - Select specific data fields to include in the summary and also describe these fields in natural language.
 - Allow service representatives to access these summaries on demand from the relevant form to quickly get the latest status summary of a record.
 
@@ -48,7 +48,7 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Forms** > **Account for multisession experience**.
 1. Select **Component** > **Copilot case summary control**, and then specify the following values:
 
-  :::image type="content" source="../media/powerapps-custom-control.png" alt-text="screenshot for powerapps components.":::
+  :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
 ## Runtime experience
 
@@ -56,7 +56,7 @@ The custom summary appears as a card on the relevant form. When service represen
 
 In our example, when a service representative opens an account record, the account summary card appears as follows:
 
-:::image type="content" source="../media/custom-copilot-account.png" alt-text="screenshot for account summary.":::
+:::image type="content" source="../media/custom-copilot-account.png" alt-text="Screenshot for account summary.":::
 
 ### Related information
 
