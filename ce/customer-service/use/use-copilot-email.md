@@ -12,21 +12,39 @@ ms.custom: bap-template
 
 # Write an email with Copilot
 
-When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling. Based on your administrator settings, you can launch the **Write an email** feature in Copilot as follows:
+[!INCLUDE[cc-feature-availability-standalone-no](../../includes/cc-feature-availability-standalone-no.md)]
 
-- When you respond to an email in the rich text editor, the **Draft with Copilot** card appears.
-- When you open an email, and select the **Copilot** option from the side pane. The **Write an email** tab appears.
+When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling.
 
 *Always review the response* Copilot generates before you send the email to the customer.
 
+## Prerequisites
+
+Your administrator has enabled this feature.
+
+## Navigation
+
+- In Customer Service workspace or Contact Center workspace, you can access **Write an email** as follows:
+   - Once you sign in Copilot opens in the right side panel. You can use the **Write an email** feature to draft an email.
+   - When you respond to an email in the rich text editor, the **Draft with Copilot** card appears.
+
+- When you sign in to a non-Microsoft CRM, you can access **Write an email** as follows:
+
+  - In ServiceNow, select the dialer icon. Once you sign in to the Dynamics instance, you'll see the Copilot help pane with the write an email feature. 
+  - In Salesforce, select **Microsoft Contact Center**. Once you sign in to the Dynamics instance, you'll see the Copilot help pane with the write an email feature.
+  
+  ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
+
+   :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
+
+  
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
    :::image type="content" source="../media/draft-an-email-inline.png" alt-text="Screenshot of draft an email in rich text editor.":::
 
+   > [!NOTE]
+   > Draft an email in the rich text editor is available in Dynamics 365 Customer Service and Dynamics 365 Contact Center&mdash;standalone only.
 
-  ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
-
-   :::image type="content" source="../media/copilot-email-sidepane-mini.png" alt-text="Screenshot of draft an email in the side pane." lightbox="../media/copilot-email-sidepane.png":::
 
   ---
 
@@ -51,6 +69,9 @@ When you use Copilot to draft an email, you can use the following features to he
 ### Use filters
 
 You can select **Filters** to choose the relevant knowledge articles only that Copilot must use to generate the response.
+
+> [!NOTE]
+> Filters are available in Dynamics 365 Customer Service only.
 
 ### How Copilot uses knowledge base and web sources
 
@@ -81,24 +102,23 @@ To use the draft that Copilot generates, do the following actions:
 - In the rich text editor, select **Keep it**. You'll see the draft in the rich text editor that you can use as-is or further edit before sending it to the customer.
 - In the Copilot pane, you can:
     - Select **Edit** to further refine the response.
+    - Select **Translate** to translate the response to another language.
     - Select **Copy** to copy the response and then paste it in the email body.
 
 ### Start over
 
 To return to the prompts, select **Start over** at the bottom of the Copilot pane.
 
-
-### [Draft an email in the rich text editor](#tab/richtexteditor)
-
-   :::image type="content" source="../media/copilot-draft-inline.png" alt-text="Screenshot of composing an email in rich text editor."::: 
-
-
 ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
    :::image type="content" source="../media/copilot-draft-sidepane.svg" alt-text="Screenshot of composing an email in the side pane." ::: 
 
+
+### [Draft an email in the rich text editor](#tab/richtexteditor)
+
+   :::image type="content" source="../media/copilot-draft-inline.png" alt-text="Screenshot of composing an email in rich text editor."::: 
   
-  ---
+ ---
 
 ## Next Step
 

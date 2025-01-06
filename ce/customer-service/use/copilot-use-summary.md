@@ -16,13 +16,20 @@ ms.custom: bap-template
 
 Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
-[!INCLUDE[cc-product-information](../../includes/cc-product-information.md)]
+## Navigation
 
-## [Standalone](#tab/standaloneapps)
+- In Customer Service workspace, navigate to a case, to view the case summary card.
+- When you sign in to a non-Microsoft CRM, you can generate case summary as follows:
+
+  - In ServiceNow, select the dialer icon. Once you sign in to the Dynamics instance, you'll see the Copilot help pane. Select the Copilot icon and then select **Summarize case**.
+  - In Salesforce, select **Microsoft Contact Center**. Once you sign in to the Dynamics instance, you'll see the Copilot help pane. Select the Copilot icon and then select **Summarize case**.
+
+
+## [Customer Service workspace](#tab/standaloneapps)
 
 ### Prerequisites
 
-Your administrator has enabled the Copilot conversation summary feature.
+Your administrator has enabled the Copilot case summary feature.
 
 ### View case summary
 
@@ -38,11 +45,13 @@ You can copy the summary, refresh it, and provide feedback.
 
 ## [Embedded](#tab/embeddedapps)
 
-In Contact Center Embed and Microsoft 365 Copilot for Service, the summaries depend on the third-party CRM.
+If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. 
 
 > [!IMPORTANT]
 > - Case summary is a preview feature in Microsoft 365 Copilot for Service.
 > - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
+
+Copilot generates case summaries based on the following case information for the corresponding CRMs:
 
 **Salesforce**: Copilot generates the case summary based on the case fields and activities associated with the case. The case summary includes the following information:
 
