@@ -1,7 +1,7 @@
 ---
 title: Configure service-level agreements in Dynamics 365 Customer Service
 description: Learn how to configure service-level agreements in Dynamics 365 Customer Service.
-ms.date: 12/13/2024
+ms.date: 01/06/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -39,15 +39,21 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-Review the following requirements before configuring SLAs for your organization:
+To use SLA features, specific roles and privileges are required for both admins and agents on various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI Instances.
 
-- The System Administrator, System Customizer, or Customer Service Manager role is assigned to you. Additionally, make sure that the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**:
-  - **CSR Manager**
+Make sure that the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**.
+
+Administrators must have the following requirements:
+  - **CSR Manager** role or its equivalent roles and privileges.
     - **Connector**: All permissions at the business unit level.
-    - **SLAKPI**: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - **ProcessStageParameter**: All permissions at the business unit level.
-  - **Customer Service Representative**: Read permission at the organization level for the SLA KPI entity.
-- Power Automate License is available for the user creating actions on SLA KPI instance statuses.
+    - SLA, SLA KPI, SLA KPI Instances: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
+    - Power Automate License is available for the user creating actions on SLA KPI instance statuses. 
+
+Customer service representatives must have the following:
+- **Customer Service Representative** role or its equivalent roles and privileges.
+    - SLA, SLA KPI, SLA KPI Instances should have Read privileges at organization level. 
+
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
    1. Create a lookup field on the entity for which an SLA has to be configured, and relate it to an SLA KPI instance. Lookup fields are created so that you can view the SLA in the timer on the entity form and track your SLAs. To learn more, see [Create and edit fields](../../customerengagement/on-premises/customize/create-edit-fields.md#create-and-edit-fields).
