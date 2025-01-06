@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure custom record summaries for service representatives
 
-The custom record summary enables Copilot to generate summaries for any custom record in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or service representatives) to gain insight into important details about the records they're working on, such as account and contact information. Summaries also help improve service representative response times by providing them with an easily accessed, quick synopsis of a record.
+The custom record summary feature enables Copilot to generate summaries for any custom record in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or representatives) to gain insight into important details about the records they're working on, such as account and contact information. A summary also helps improve a representative's response time by providing an easily accessed, quick synopsis of a record.
 
 You can configure the custom record summary feature to create summaries for work orders, part orders, or any other custom tables that exist in your customer service environment. You can customize summaries in the following ways:
 - Select from a list of existing record types, including account, work orders, and tickets, to generate summaries.
