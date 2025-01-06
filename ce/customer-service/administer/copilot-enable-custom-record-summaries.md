@@ -58,7 +58,7 @@ In our example, when a service representative opens an account record, the accou
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="screenshot for account summary.":::
 
-## Related information
+### Related information
 
 [Manage Copilot features in Customer Service](configure-copilot-features.md) 
 [Enable summarization of cases and conversations](copilot-enable-summary.md)   
