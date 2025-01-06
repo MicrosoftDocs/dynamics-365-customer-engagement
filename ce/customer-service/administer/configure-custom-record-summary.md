@@ -5,13 +5,13 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: shujoshi
 ms.topic: how-to 
-ms.date: 12/06/2024
+ms.date: 01/06/2025
 ms.custom: bap-template 
 ---
 
 # Configure custom record summaries for service representatives
 
-The custom record summary enables Copilot to generate summaries for any custom record type in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or service representatives) to gain insight into important records, such as custom case record types or other out-of-the-box record types, like account and contact information. Summaries also help improve service representative response times by providing them with an easily accessed, quick synopsis of an account.
+The custom record summary enables Copilot to generate summaries for any custom record type in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or service representatives) to gain insight into important records, such as custom case record types or other out-of-the-box record types, like account and contact information. Summaries also help improve service representative response times by providing them with an easily accessed, quick synopsis of a record.
 
 You can configure the custom record summary feature to create summaries for work orders, part orders, or any other custom tables that exist in your customer service environment. You can customize summaries in the following ways:
 - Select from a list of existing record types, including account, work orders, and tickets, to generate summaries.
@@ -51,7 +51,7 @@ For example, if you want to display the account summary in Customer Service work
 
 ## Runtime experience
 
-The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. The can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
+The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. They can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
 
 In our example, when a service representative opens an account record, the account summary card appears as follows:
 
