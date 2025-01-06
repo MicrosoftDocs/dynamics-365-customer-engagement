@@ -25,11 +25,11 @@ The following table lists the region availability of Copilot features for the re
 | Feature | North America| Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
 | ------- | ------------ | ------ | ------------ | ------------- | --------- | ----- | ----- | ---- | ------ | -------------- | ------ | -------------------- | ----------- | ------- | ----- | ------ | --------- | ------------ | ------------------------------ | ------------------------------ |
 | Copilot&mdash;Summarize cases | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
-|Copilot&mdash;Summarize conversations | Yes | Yes | Yes |	Yes | Yes |	Yes | No |	Yes | Yes |	Yes | No | No | No | No | No | No | No | No | Yes | No |
-| Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |	Yes |	Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
-|Copilot&mdash;Draft emails | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes |	Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
-| Copilot&mdash;Draft a chat response |	Yes | Yes |	No | No | No | No |	No | No | No | Yes |	No | No | No | No |	No | No | No | No | No | No |
-|Copilot&mdash;Generate knowledge drafts from cases | Yes |	Yes	| Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No | No | No | No |
+| Copilot&mdash;Summarize conversations | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes |	Yes | No | No | No | No | No | No | No | No | Yes | No |
+| Copilot&mdash;Ask a question | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |	Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Copilot&mdash;Draft emails | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes |	Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Copilot&mdash;Draft a chat response |	Yes | Yes |	No | No | No | No |	No | No | No | Yes | No | No | No | No |	No | No | No | No | No | No |
+| Copilot&mdash;Generate knowledge drafts from cases | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | No | No | No | No |
 
 Yes: Available  
 No: Not available
@@ -44,11 +44,11 @@ The following table lists the availability of Copilot features for the respectiv
 | Feature | English | Arabic | Danish | Dutch | French | German | Italian | Japanese | Portuguese (Portugal) | Chinese (Simplified) | Spanish | Portuguese (Brazil) | Thai | Czech | Finnish | Greek | Hebrew | Korean | Norwegian (Bokmål) | Polish | Russian | Swedish | Turkish | Vietnamese |
 | ------- | ------ | ------ | ------ | ----- | ------ | ------ | ------- | -------- | ----------- ---------- | -------------------- | ------- | ------------------- | ---- | ----- | ------- | ----- | ------ | ------ | ------------------ | ------ | ------- | ------- | ------- | ---------- |
 | Copilot&mdash;Summarize cases<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-|Copilot&mdash;Summarize conversations<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Copilot&mdash;Summarize conversations<sup>**1**</sup> | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Copilot&mdash;Ask a question | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
-|Copilot&mdash;Draft emails | Yes | Yes | Yes |	Yes | Yes |	Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| Copilot&mdash;Draft emails | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Copilot&mdash;Draft a chat response (preview) | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No | 
-|Copilot&mdash;Generate knowledge drafts from cases (preview) | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | 
+| Copilot&mdash;Generate knowledge drafts from cases (preview) | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | No | 
 
 Yes: Available  
 No: Not available
