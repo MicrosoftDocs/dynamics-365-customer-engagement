@@ -4,7 +4,7 @@ description: Learn how to add or remove custom controls, customize form layout, 
 ms.date: 08/22/2024
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
 ms.custom: bap-template
 ---

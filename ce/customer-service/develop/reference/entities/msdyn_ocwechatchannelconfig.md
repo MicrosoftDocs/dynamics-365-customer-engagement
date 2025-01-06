@@ -5,6 +5,7 @@ ms.date: 10/21/2022
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # msdyn_ocwechatchannelconfig Entity Reference 

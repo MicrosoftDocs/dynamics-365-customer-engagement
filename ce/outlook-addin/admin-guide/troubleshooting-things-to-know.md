@@ -2,7 +2,7 @@
 title: "Troubleshooting and things to know about Microsoft Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn about troubleshooting common Microsoft Dynamics 365 for Outlook installation and upgrade issues.
 ms.custom:
-ms.date: 09/17/2018
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 
 ms.suite:
@@ -30,7 +30,7 @@ This section describes how to troubleshoot [!INCLUDE[pn_crm_for_outlook_short](.
 
 ### Common Data Service
 
-Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0. 
+Microsoft Dynamics 365 for Outlook isn't enabled on Common Data Service 2.0. 
 
 <a name="BKMK_AssignedTasks"></a>   
 ### Assigned tasks not updated in Outlook after updated in Dynamics 365 apps  
@@ -44,21 +44,21 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
   
   Result: for User 1, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], the task status remains unchanged.  
   
-  To force a status change: User 2, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], can open the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task and click **Send Status Report** to update User 1’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] with the latest information.  
+  To force a status change: User 2, in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], can open the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] task and select **Send Status Report** to update User 1’s [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] with the latest information.  
   
-  Enabling the following settings in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Task options (**Home tab** > **New Items** > **Task** > **Assign Task**) do not impact this issue:  
+  Enabling the following settings in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] Task options (**Home tab** > **New Items** > **Task** > **Assign Task**) don't affect this issue:  
   
 - Keep an updated copy of this task on my task list.  
   
 - Send me a status report when this task is complete.  
   
-  This is a known issue and is not supported.  
+  This is a known issue and isn't supported.  
   
 ### Simultaneous use of [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)]  
- Tracking activities is not supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] are used together by the same user.  
+ Tracking activities isn't supported when [!INCLUDE[pn_crm_app_for_outlook_short](../../includes/pn-crm-app-for-outlook-short.md)] and [!INCLUDE[pn_crm_2016_outlook_shortest](../../includes/pn-crm-2016-outlook-shortest.md)] are used together by the same user.  
   
 ### Some Outlook add-ins can cause issues  
- Some [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins can cause issues like connection failure and slow program startup and might be incompatible with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Try disabling suspect add-ins to see if that resolves your issue.  
+ Some [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] add-ins can cause issues like connection failure and slow program start up and might be incompatible with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Try disabling suspect add-ins to see if that resolves your issue.  
   
 ### Problem when using a proxy auto-config (PAC) file  
  [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] might have authentication and connection issues when using a proxy PAC file configured in workstation browsers. 
@@ -67,41 +67,41 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
  If you’re offline, you can’t add a related record type by using the **Add** button (+). Add the related record type while you’re online, and then go offline.  
   
 ### Inserted picture replaced by text after sync  
- Inserting a picture from a file into an appointment is not supported.  
+ Inserting a picture from a file into an appointment isn't supported.  
   
 ### Some fields synchronize data when an activity is created despite synchronization settings  
- When an activity is created, such as a task, some fields may synchronize even if field synchronization is set to not sync. This is a known issue as some fields cannot have an empty value.  
+ When an activity is created, such as a task, some fields might synchronize even if field synchronization is set to not sync. This is a known issue as some fields can't have an empty value.  
   
-### Users in a different domain cannot install Dynamics 365 for Outlook  
- If the user domain account is in a domain different from the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the user will receive an error message (see below) when installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This is not a supported scenario.  
+### Users in a different domain can't install Dynamics 365 for Outlook  
+ If the user domain account is in a domain different from the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] organization, the user will receive an error message (see below) when installing [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. This isn't a supported scenario.  
   
  **Error message**  
   
- There is a problem communicating with the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server. The server might be unavailable. Try again later. If the problem persists, contact your system administrator.  
+ There's a problem communicating with the [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] server. The server might be unavailable. Try again later. If the problem persists, contact your system administrator.  
   
- The caller was not authenticated by the service.  
+ The caller wasn't authenticated by the service.  
   
 ### Synchronization support for Cached Exchange Mode  
- [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization is not supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  See: [Turn on Cached Exchange Mode](https://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+ [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] synchronization isn't supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)].  See: [Turn on Cached Exchange Mode](https://support.microsoft.com/en-us/office/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
- Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](https://office.microsoft.com/outlook-help/turn-on-cached-exchange-mode-HA102809573.aspx)  
+ Server-side synchronization is supported if Cached Exchange Mode is turned off in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)]. See: [Turn on Cached Exchange Mode](https://support.microsoft.com/en-us/office/turn-on-cached-exchange-mode-7885af08-9a60-4ec3-850a-e221c1ed0c1c)  
   
 ### Automatic email tagging off by default  
- This setting is in the Microsoft Dynamics 365 apps Diagnostics tool included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Click **Start** > **All Programs** > **Microsoft Dynamics 365 apps** > **Diagnostics** > **Synchronization Troubleshooting** tab.  
+ This setting is in the Microsoft Dynamics 365 apps Diagnostics tool included with [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. Select **Start** > **All Programs** > **Microsoft Dynamics 365 apps** > **Diagnostics** > **Synchronization Troubleshooting** tab.  
   
  Automatic email tagging is set to be off by default. If you enable this setting but reinstall [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], automatic email tagging will be off.  
   
 ### Service Appointments and Activities don’t synchronize from Outlook to Dynamics 365 apps  
- Changes made to Service Appointments and Activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] will update in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] when you synchronize, but the reverse is not true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the changes are not synchronized to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
+ Changes made to Service Appointments and Activities in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] will update in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] when you synchronize, but the reverse isn't true. When you make changes to Service Appointments or Activities in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], the changes aren't synchronized to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)].  
   
 ### Different time value in date and time fields with User Local or Time-Zone Independent behavior  
- If you have system out-of-the box or custom date and time fields with User Local or Time-Zone Independent behavior, the date/time information for years before 1900 won’t display as entered when viewing in the list of records and reading pane in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. The date and time values are correct in the database and will appear as expected in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application.  
+ If you have system out-of-the-box or custom date and time fields with User Local or Time-Zone Independent behavior, the date/time information for years before 1900 won’t display as entered when viewing in the list of records and reading pane in [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)]. The date and time values are correct in the database and will appear as expected in the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] web application.  
   
 <a name="BKMK_OnlineandO365"></a>   
 ## Microsoft Dynamics 365 apps  with Microsoft 365  
- When you try to connect to an organization that is part of your [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] subscription by using the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] or [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], you cannot connect. To resolve this issue, verify, and if necessary, correct the following:  
+ When you try to connect to an organization that is part of your [!INCLUDE[pn_MS_Office_365](../../includes/pn-ms-office-365.md)] subscription by using the [!INCLUDE[pn_configuration_wizard](../../includes/pn-configuration-wizard.md)] or [!INCLUDE[pn_oc_online_short](../../includes/pn-oc-online-short.md)], you can't connect. To resolve this issue, verify, and if necessary, correct the following:  
   
-- Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://<em>OrganizationName</em>.onmicrosoft.com or https://<em>OrganizationName</em>.crm.dynamics.com. If you are not certain of the URL, contact your system administrator  
+- Make sure that you can connect to the organization by using [!INCLUDE[pn_Internet_Explorer](../../includes/pn-internet-explorer.md)]. There may be incomplete information with your [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)] account that is preventing you from authenticating with the service. The URL for the organization is provided in the invitation email message you should have received from [!INCLUDE[pn_MS_Online_Services](../../includes/pn-ms-online-services.md)], and is typically in the form of https://<em>OrganizationName</em>.onmicrosoft.com or https://<em>OrganizationName</em>.crm.dynamics.com. If you aren't certain of the URL, contact your system administrator  
   
 <a name="BKMK_OCLogfiles"></a>   
 ## Log files  
@@ -125,11 +125,11 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
 ## Event Viewer  
  To access event logging information for [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], open [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)] from the client computer where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, and then view the entries in the Application log.  
   
- To view the Application log in [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)]:  
+ To view the Application sign in [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)]:  
   
 1. On the computer where [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] is installed, start [!INCLUDE[pn_Event_Viewer](../../includes/pn-event-viewer.md)].  
   
-2. In the navigation pane, expand **Windows Logs** and then click **Application**.  
+2. In the navigation pane, expand **Windows Logs** and then select **Application**.  
   
 3. To make it easier to locate events that apply to [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)], use **Create Custom View** or **Filter Current Log** and then select the following **Event sources**:  
   
@@ -139,7 +139,7 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
   
 <a name="BKMK_OC_disableButton"></a>   
 ## Disable the Dynamics 365 for Outlook notification bar on the Web application  
- By default, if a user does not have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 apps web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you do not want users to have this capability, you can remove the button.  
+ By default, if a user doesn't have [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] installed and configured, the Microsoft Dynamics 365 apps web application displays a **Get Dynamics 365 for Outlook** button on the notification bar. This button provides a link for users to download and install software features that configure a local [!INCLUDE[pn_ms_SQL_Server_Express_long](../../includes/pn-ms-sql-server-express-long.md)] data store. If you don't want users to have this capability, you can remove the button.  
   
 ### Remove the Get Dynamics 365 for Outlook button from the Microsoft Dynamics 365 apps web application  
   
@@ -147,13 +147,13 @@ Microsoft Dynamics 365 for Outlook is not enabled on Common Data Service 2.0.
   
 2. [!INCLUDE[proc_settings_administration](../../includes/proc-settings-administration.md)]  
   
-3. Click **System Settings**.  
+3. Select **System Settings**.  
   
-4. Click the **Outlook** tab.  
+4. Select the **Outlook** tab.  
   
 5. Set the value for **Users see “Get Dynamics 365 for Outlook” option displayed in the message bar** to **No**.  
   
-6. Click **OK** to close System Settings.  
+6. Select **OK** to close System Settings.  
   
 ### See Also  
  [Blog: Microsoft Dynamics CRM for Outlook Configuration Diagnostic](https://go.microsoft.com/fwlink/p/?LinkID=717230)   

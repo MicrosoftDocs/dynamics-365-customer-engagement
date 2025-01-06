@@ -2,7 +2,6 @@
 title: "Add transformation mappings for import (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Transformation mapping enables optional modification of source data before importation."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

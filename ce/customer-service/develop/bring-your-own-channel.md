@@ -6,7 +6,7 @@ ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # Integrate your own custom channel using Direct Line
 

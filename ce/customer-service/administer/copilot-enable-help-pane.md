@@ -3,10 +3,10 @@ title: Enable features in Copilot pane
 description: Learn how to enable features that appear in the Copilot help pane to increase agent productivity in Customer Service workspace.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 11/04/2024
+ms.date: 12/12/2024
 ms.custom: bap-template 
 ---
 
@@ -66,7 +66,8 @@ Make sure that you have [knowledge management](set-up-knowledge-management-embed
    - The state is set to Published
 
 > [!NOTE]
- > Copilot uses the content attribute only in the knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+ > - Copilot uses the content attribute only in the knowledge article table to generate responses for ask a question, write an email, and draft a chat features. You can't customize this behavior.
+> - Copilot uses knowledge articles tagged with the same language as the UI to generate responses.
 
 ### Enable knowledge base
 
@@ -132,11 +133,11 @@ Specify the filters that are automatically applied. The agents don't need to exp
 
 The following table summarizes the Copilot features supported for a configured knowledge source.
 
-| Feature|Knowledge base | External web resources |
+| Feature | Knowledge base | External web resources | Knowledge sources in Copilot Studio|
 |-------|----------|---------|--------|
-|Ask a question |✔|X|
-|Write an email | ✔|✔|
-|Draft a response |✔|✔|
+|Ask a question |✔|X| ✔|
+|Write an email | ✔|✔|X|
+|Draft a response |✔|✔|X|
 
 ### Related information
 

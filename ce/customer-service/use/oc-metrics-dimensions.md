@@ -3,9 +3,9 @@ title: Use Omnichannel for Customer Service metrics
 description: Understand and use Omnichannel for Customer Service metrics.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 11/12/2024
+ms.date: 12/09/2024
 ms.custom: bap-template
 ---
 
@@ -73,7 +73,12 @@ This dimension represents the current state of a customer interaction. The follo
 - **Active**: Either the conversation has an agent assigned and is awaiting acceptance, or an agent is in contact with the customer.
 - **Waiting**: The conversation is currently awaiting either a customer response or an agent response. This option applies to asynchronous conversation modes, such as messages.
 - **Wrap-up**: The agent is performing post–customer interaction activities such as adding notes or updates to the case after the end of a customer conversation.
-- **Closed**: The conversation is currently closed.
+- **Closed**: The conversation is currently closed. The following metrics are a measure of the conversations grouped by call closure reason.
+
+    - Ghost Conversation: Conversations that are connected to an agent but there was no interaction from customer after the conversation was connected. 
+    - Ghost Conversations Rate: Percentage of engaged conversations that are connected to an agent but there was no interaction from the customer. 
+    - Conversation disconnect rate: Percentage of conversations that were ended by customer before an agent ended the conversation.
+    - Disconnect reason: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call or the call was disconnected due to connection issues.
 
 ### Queue name
 
@@ -85,7 +90,7 @@ This dimension represents the statuses that are available for agents. The out-of
 
 ### Date hour
 
-This dimension represents the hour of the day in 24-hour format.
+This dimension represents the hour of the day in a 24-hour format.
 
 ### Time range
 

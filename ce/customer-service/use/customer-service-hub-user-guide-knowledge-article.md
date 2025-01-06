@@ -1,10 +1,11 @@
 ---
 title: Create and manage knowledge articles
 description: Create knowledge articles to address customer questions, issues, and feedback with images, videos, formatting, and media.
-ms.date: 07/03/2024
+ms.date: 12/05/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType:
   - admin
   - customizer
@@ -31,7 +32,7 @@ searchScope:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Turn your customer questions, issues, and feedback into knowledge articles, so that agents can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
+Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
@@ -39,7 +40,7 @@ Knowledge articles can address any number of issues your customers encounter whi
 > Knowledge management is available out of the box through the Customer Service Hub app module, and it works with other customer service apps as well. Articles that are created in the Customer Service Hub are available in the Dynamics 365 Customer Service app as read-only records.  
 
 > [!NOTE]
-> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. More information: [Work with knowledge articles](../administer/work-knowledge-articles.md)
+> The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means we don't expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. Learn more in [Work with knowledge articles](../administer/work-knowledge-articles.md).
 
 Make sure that you have Create and Read permissions on the Knowledge Article entity. By default, these permissions are added to the roles of knowledge manager, customer service manager, or customer service representative. Perform the following steps:
   
@@ -85,7 +86,7 @@ Posts about knowledge article-related activities begin to appear in the **Timeli
 
 ## Use AI-suggested article keywords and descriptions
 
-If your administrator enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. More information: [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description)
+If your administrator enabled keywords and description suggestions, you can select and enter your preferred keywords and descriptions when authoring or updating knowledge articles. Learn more in [Configure AI suggestions for article keywords and description](../administer/configure-ai-suggested-article-keywords-description.md#configure-ai-suggestions-for-article-keywords-and-description).
 
 However, either the **Title** or **Content** fields&mdash;or any other corresponding mapped fields set by the administrator&mdash;must contain some value for suggestions to be generated. If any of the fields that the model uses to generate suggestions are empty, you see messages such as "There was a problem finding suggested keywords" or "There was a problem finding a suggested description."
 
@@ -139,7 +140,7 @@ Make sure that you have Create and Read permissions on the Knowledge Article ent
 
 ## Use the rich text editor to create knowledge articles and emails
 
-Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the application. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables.  
+Create rich and well-formatted content for emails or knowledge articles using the new rich text editor in the application. The editor brings common word processor features like advanced styling, linking, find and replace, and insert images and tables. Learn more in [Add the rich text editor control to a model-driven app](/power-apps/maker/model-driven-apps/rich-text-editor-control).
 
 The **Content** editor panel consists of three tabs:
 
@@ -176,7 +177,7 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Align Left.](../media/align-left.png "Align Left")| Align Left | Ctrl+L | Align your content with the left margin. (Commonly used for body text to make it easier to read.) |
 |![Align Center.](../media/align-center.png "Align Center")| Align Center | Ctrl+E | Center your content on the page. (Commonly used for a formal appearance.) |
 |![Align Right.](../media/align-right.png "Align Right")| Align Right | Ctrl+R | Center your content on the page. (Commonly used for a formal appearance.) |
-|![Link.](../media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** becomes <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you want to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />Your administrator defines the type of links that you can add. If you add links whose origin link doesn't match any of the links in the origins list, an error displays when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" appears. More information: [Configure origins allow list for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link opens after you select it. |
+|![Link.](../media/format-link.png "Link")| Link |  | Create a link in your document for quick access to webpages and files.<br /><br />URL text that you paste or enter is converted into a link.<br>For example, **ht&#8203;tp://myexample.com** becomes <a href="http://myexample.com">http://myexample.com</a>.<br /><br /> In the **Link** dialog, choose the type of link you want to insert. <br /><br />Use the **Link Info** tab to choose the link type and set the link protocol and URL. <br /><br />Your administrator defines the type of links that you can add. If you add links whose origin link doesn't match any of the links in the origins list, an error displays when users open an article. The error message "Update your origins allow list if any iframe in the article doesn't work or displays error" appears. Learn more in [Configure origins allow list for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md) <br /><br />The **Target** tab is only available for the URL link type. It specifies the location where the link opens after you select it. |
 |![Remove Link.](../media/remove-link.png "Unlink")| Unlink |  | Delete a link in your email or document.<br /><br />When you place the cursor on a link, the **Unlink** button on the toolbar becomes active. Select the button to remove the link and make it plain text. |
 |![Superscript.](../media/format-superscript.png "Superscript")| Superscript |  | Type small letters just above the line of text. |
 |![Subscript.](../media/format-subscript.png "Subscript")| Subscript |  | Type small letters just below the line of text. |
@@ -188,7 +189,7 @@ You can choose a specific format or style for the content you’re writing. The 
 |![Redo Typing.](../media/redo-typing.png "Redo Typing")| Redo Typing |  | Redo changes you made to the content. |
 |![Clear All Formatting.](../media/clear-formatting.png "Clear All Formatting")| Clear All Formatting |  | Remove all formatting from a selection of text, leaving only the normal, unformatted text. |
 |![Add a Table.](../media/add-table.png "Add a Table")| Add a Table |  | Add a table to your content. <br /><br />After adding a table, you can do any of the following steps:<br /><br /><ul><li>Resize table columns by clicking and dragging your mouse to resize the columns to the desired width.</li><li>Select one or several cells within a table and apply specific formatting, add links to the selection, or cut, copy, or paste entire rows or columns.</li><li>Right-click to access the properties. This supports features such as cell type, width and height, word wrapping, alignment, merging and splitting cells horizontally and vertically, inserting or deleting rows and columns, row and column span, and cell and border color.</li></ul>|
-|![Create Collapsible Section.](../media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This functionality is useful in articles with much information. Collapsed sections help agents find relative information quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you already typed and then select the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section, and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. <br> **Note**: The plugin isn't supported on Dynamics 365 Customer Engagement (on-premise). </li></ul>|
+|![Create Collapsible Section.](../media/collapsible-section.png "Create Collapsible Section") | Create Collapsible Section | | Create a section that can be collapsed or expanded. This functionality is useful in articles with much information. Collapsed sections help representatives find relative information quickly by scanning the titles within an article. Collapsible sections include title and body fields to type text into, and you can nest collapsible sections to make it easier to scan longer articles to find the most relevant sections quickly. You can also select text you already typed and then select the collapse icon to turn it into a collapsible section. <br /> <br /> If you create a collapsible section, and then later want to delete it, place your cursor within the section, and then click **Delete** on your keyboard, or right-click within the collapsible section and select **Cut**. <br> **Note**: The plugin isn't supported on Dynamics 365 Customer Engagement (on-premise). </li></ul>|
 |![Embed Media.](../media/embed-media.png "Embed Media")| Embed Media | | To embed videos into your content:<br /><br /> 1.  Place the cursor where you want to insert the video, and then on the toolbar, select the **Embed Media** button. The **Embed Video** dialog opens.<br /><br />2.  Enter the embed link of the video provided by the video hosting provider, and then select **OK**. |
 |![Create Div Container.](../media/div-container.png "Create Div Container") | Create Div Container | | Create a `div` container to apply formatting to a larger document fragment that extends beyond one block.<br /><br /> The **General** tab lets you manually add a stylesheet class that is applied to the div element.<br /><br /> The **Advanced** tab lets you configure more div element options such as assigning it an ID, a language code, a text direction, an advisory title, or CSS style properties.<br /><br />**Note**: This option is available in the expanded mode only. |
 |![Create Anchor](../media/create-anchor.png "Create Anchor") | Create Anchor | | You can add anchors in document text and then link to them for easier navigation.<br /><br />**Note**: The anchor feature only works when an article is open. It doesn't work if you're viewing an article from the **Preview** tab.<br /><br /> To add an anchor:<br /><br /> 1.  Place the cursor where you want to insert an anchor, and then on the toolbar, select the **Anchor** button. The **Anchor Properties** dialog opens.<br /><br />2.  Enter a name for the anchor, and then select **OK**.<br />     The **Anchor** button ![Anchor tool on the rich text editor toolbar](../media/v8-rte-anchor--button.png "Anchor tool on the rich text editor toolbar") appears in the area where you created the anchor.<br /><br /> You can now use the **Link** button to link to your anchor. |   
@@ -304,15 +305,15 @@ For users to be able to view and download file attachments, you need to grant th
 
 #### Sync knowledge article attachments to the portal
 
-To sync knowledge article attachments to the portal, your administrator must first enable the option. More information: [Update knowledge article attachments for portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal)
+To sync knowledge article attachments to the portal, your administrator must first enable the option. Learn more in [Update knowledge article attachments for portal](../administer/set-up-knowledge-management-embedded-knowledge-search.md#update-knowledge-article-attachments-for-portal).
 
 On syncing knowledge article attachments to the portal:
 
-- Dataverse search can search through knowledge article attachments. More information: [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type) Additionally, you must configure the faceted search results web template from your portal to be able to search through knowledge article attachments. More information: [Configure faceted search results web template from your portal](../develop/configure-faceted-search-results.md) 
+- Dataverse search can search through knowledge article attachments. Learn more in [Microsoft Dataverse search can search through file data type](/power-platform-release-plan/2021wave2/data-platform/dataverse-search-search-through-file-data-type). Additionally, you must configure the faceted search results web template from your portal to be able to search through knowledge article attachments. Learn more in [Configure faceted search results web template from your portal](../develop/configure-faceted-search-results.md).
   
 - There's a one-time migration from the notes attachments that have the prefix of your original KnowledgeManagement/Notesfilter setting to new attachments in knowledge articles. Only the notes attachments used in the portal are migrated to new attachments.
 
-For more information, see [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
+For more information, go to [Display file attachments with knowledge articles](/powerapps/maker/portals/customer-engagement-apps/display-file-attachments-knowledge-article).
 
 ## Mark a knowledge article for review  
 

@@ -1,17 +1,15 @@
 ---
-title: "Use automation dictionary to pass data parameter keys | MicrosoftDocs"
-description: "Learn how to use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 11/19/2020
-ms.topic: article
+title: Use automation dictionary to pass data parameter keys 
+description: Learn how to use automation dictionary to pass parameter keys in Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 12/10/2024
+ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # Use automation dictionary to pass data parameter keys
-
-
-
-## Overview
 
 Automation dictionary maintains the contextual data for the sessions. You can use the keys from the automation dictionary to pass the parameter keys in the templates.
 
@@ -48,7 +46,7 @@ The automation dictionary uses the context data parameters that are available fr
 
 ### Context data from the channel provider 
 
-This context data is from a first-party channel provider such as Omnichannel for Customer Service or third-party channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. You can pass context data from your Channel Integration Framework widget into the automation dictionary by using the [updateContext API](../develop/reference/microsoft-ciframework/updateContext.md) from within your widget. You can pass any data through, but common examples include customer name, customer phone number, and data points collected from a phone IVR. You can then reference this data in the automation dictionary as slugs in templates and productivity tools like macros and agent scripts.
+This context data is from a first-party channel provider such as Omnichannel for Customer Service or non-Microsoft channel provider that uses the widget exposed by Dynamics 365 Channel Integration Framework. You can pass context data from your Channel Integration Framework widget into the automation dictionary by using the [updateContext API](../develop/reference/microsoft-ciframework/updateContext.md) from within your widget. You can pass any data through, but common examples include customer name, customer phone number, and data points collected from a phone IVR. You can then reference this data in the automation dictionary as slugs in templates and productivity tools like macros and agent scripts.
 
 ### Context data from the user actions 
 
@@ -104,7 +102,7 @@ The OData query format:
 
 ### Static values
 
-These are hard-coded values that you update as per your business requirement. For every hard-coded attribute you choose, follow the format type for the particular attribute.
+Static values are hard-coded values that you update as per your business requirement. For every hard-coded attribute you choose, follow the format type for the particular attribute.
 
 **For example:**
 
@@ -114,15 +112,12 @@ Notification title = `New chat request`
 
 Session title = `Chat conversation`
 
-## See also
+## Related information
 
-[Manage session templates](session-templates-cif.md)
-
-[Manage application tab templates](application-tab-templates-cif.md)
-
-[Manage notification templates](notification-templates-cif.md)
-
-[Associate templates with workstreams](associate-templates-cif.md)
+[Manage session templates](session-templates-cif.md)  
+[Manage application tab templates](application-tab-templates-cif.md)  
+[Manage notification templates](notification-templates-cif.md)   
+[Associate templates with workstreams](associate-templates-cif.md)    
 
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

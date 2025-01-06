@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 for Customer Engagement system database table is 
 description: Environment diagnostics warning that the system database table is missing.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

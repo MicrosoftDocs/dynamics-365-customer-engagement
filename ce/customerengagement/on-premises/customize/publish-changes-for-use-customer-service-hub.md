@@ -2,7 +2,6 @@
 title: "Publish customizations to Dynamics 365 Customer Engagement (on-premises)"
 description: "Certain customizations need to be published before people can use them in the app. To do so, select Publish All Customizations in the solution explorer."
 ms.custom: 
-ms.date: 01/08/2019
 ms.reviewer: 
 
 ms.suite: 

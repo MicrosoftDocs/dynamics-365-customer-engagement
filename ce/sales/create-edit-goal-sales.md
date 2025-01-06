@@ -1,7 +1,7 @@
 ---
 title: "Create or edit goals | MicrosoftDocs"
 description: "Use goals to track your progress on achieving target revenue or other targets set by your organization. Propagate goals using parent and child goals."
-ms.date: 10/26/2021
+ms.date: 11/12/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -39,19 +39,18 @@ Use goals to keep track of your progress on achieving target revenue.
 
 4. Fill in your information. Use the handy tooltips as a guide.
 
-   - Name. Type a name that describes the goal. 
+   - **Name**: Type a name that describes the goal. 
     
-   - Parent Goal. If this goal is a child goal of another goal, select that goal as a parent goal here.  
+   - **Parent Goal**: If this goal is a child goal of another goal, select that goal as a parent goal here.  
     
-   - Goal Metric. Choose how the goal will be tracked by selecting a metric for the goal.
+   - **Goal Metric**: Choose how the goal will be tracked by selecting a metric for the goal.
 
       > [!NOTE]
       > If you select a parent goal for this goal, you can't select a goal metric. It is automatically populated from the parent goal.
     
-   - Goal Owner. Select the user or team responsible for meeting the goal.
+   - **Goal Owner**: Select the user or team responsible for meeting the goal.
 
-      > [!div class="mx-imgBorder"]
-      > ![Goal form.](media/goal-form.png "Goal form")
+        :::image type="content" source="media/goal-form.png" alt-text="Screenshot of the Goal form.":::
   
 5. Select **Save**.
 
@@ -61,8 +60,7 @@ Use goals to keep track of your progress on achieving target revenue.
     
    - If **Goal Period** Type is **Custom Period**, select a date in the From and To fields to define a custom period for which the goal is tracked.
 
-     > [!div class="mx-imgBorder"]
-     > ![Time Period tab on the Goal form.](media/time-period-tab-goal-form.png "Time Period tab on the Goal form")
+     :::image type="content" source="media/time-period-tab-goal-form.png" alt-text="Screenshot of the Time Period tab on the Goal form.":::
 
    > [!NOTE]
    > 
