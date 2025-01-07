@@ -26,12 +26,12 @@ You can configure to create summaries for custom tables, such as work orders or 
 1. In the **Custom record summaries** section, select **Add new summary**. 
 1. In the **Specify record type** pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
-   1. **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
-    > [!Note]
-    > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
-   2. **Record type or activity**: Select the record type or activity.
-   3. **Data field**: Select the data field from the record type or activity.
-   4. Repeat the steps to add more rows. By default, the rows you add are considered for summarization.<br>
+   1. **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities. You can specify the following:
+      - **1-to-1** attribute, you can have a maximum of 10 selections. 
+      - **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
+   1. **Record type or activity**: Select the record type or activity.
+   1. **Data field**: Select the data field from the record type or activity.
+   1. Repeat the steps to add more rows. By default, the rows you add are considered for summarization.<br>
    Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
 1. Select **Save and close**.
 1. Copy the **Developer summary ID** to use in the next section.
