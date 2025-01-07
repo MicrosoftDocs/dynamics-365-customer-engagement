@@ -89,6 +89,10 @@ No. The trial phone numbers aren't available for inbound or outbound SMS.
 
 No. The trial phone numbers aren't available for outbound calls.
 
+### Can I use the phone numbers from my existing telephony infrastructure as trial phone numbers?
+
+Yes. You can also make outbound calls in a trial org when you bring your own phone numbers. Learn more in [bring your phone numbers](../administer/voice-channel-bring-your-own-number.md).
+
 ### Which geographical regions are supported in the trial version?
 
 For the list of geographical regions supported in Customer Service, see [Datacenter regions](/power-platform/admin/new-datacenter-regions).
