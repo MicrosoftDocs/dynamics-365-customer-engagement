@@ -1,7 +1,7 @@
 ---
 title: Customer Service workspace system requirements
 description: Learn about the system requirements and prerequisites to use Customer Service workspace.
-ms.date: 11/21/2024
+ms.date: 01/07/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -37,7 +37,7 @@ An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in 
 
 A notification appears for your agents if the latency is more than the specified range. Learn more at [Verify network capacity and throughput for clients](/power-platform/admin/verify-network-capacity-throughput-clients).
 
-Administrators can gain insights into network latency for their tenants across different regions by enabling [Telemetry Insights](/dynamics365/guidance/implementation-portal/overview#telemetry-insights) on the Dynamics 365 Implementation Portal.
+Administrators can gain insights into network latency for their tenants across different regions by enabling [Telemetry Insights](/dynamics365/guidance/implementation-portal/telemetry-insights-set-up) and evaluating [performance-related rules](/dynamics365/guidance/implementation-portal/telemetry-insights#performance-related-rules) on the Dynamics 365 Implementation Portal.
 
 Network latency issues are unique to your infrastructure. You must identify and address the specific issues in your network to resolve any latency issues.
 
