@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Configure custom record summaries for service representatives
 
-The custom record summary feature allows Copilot to generate summaries for any custom record. These summaries help customer service representatives quickly gain insights into important details, such as account and contact information, improving response times.
+Copilot can generate summaries for any custom record. These summaries help customer service representatives (service representatives or representatives) gain quick insights into key details, such as account and contact information, to improve response times.
 
 You can configure this feature to create summaries for work orders, part orders, or any custom tables in your environment. Customization options include:
 
