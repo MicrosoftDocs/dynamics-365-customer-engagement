@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 08/28/2024
+ms.date: 01/06/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -10,11 +10,16 @@ ms.author: jobaker
 
 # Set up the mobile offline profile
 
-Field Service comes with an offline profile that has default settings for Field Service record types. Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
+Field Service comes with an offline profile that has default settings for Field Service tables. The advantages of running the mobile app fully offline include:
 
-- Define record types that are available offline and how often they sync.
-- Define filters for each record type. For example, by default the offline profile downloads bookings that start within the next seven days.
-- Set up item association by creating relationships between tables. Item association saves time because not every record type needs a filter. Associated records follow the filters that are set on the related record type.
+- Consistent performance. Technicians interact with the app in the same way regardless of their device connectivity.
+- Seamless and uninterrupted experience. Data synchronization occurs in the background without disrupting the technician's workflow.
+
+Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
+
+- Define tables that are available offline and how often they sync.
+- Define filters for each tables. For example, by default the offline profile downloads bookings that start within the next seven days.
+- Set up item association by creating relationships between tables. Item association saves time because not every table needs a filter. Associated tables follow the filters that are set on the related table.
 
 ## Prerequisites
 
