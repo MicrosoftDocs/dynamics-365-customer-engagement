@@ -26,9 +26,7 @@ You can configure to create summaries for custom tables, such as work orders or 
 1. In the **Custom record summaries** section, select **Add new summary**. 
 1. In the **Specify record type** pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
-   1. **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities. You can specify the following:
-      - **1-to-1** attribute, you can have a maximum of 10 selections. 
-      - **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
+   1. **Data type**: Select **1-to-1** to map with the record or **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
    1. **Record type or activity**: Select the record type or activity.
    1. **Data field**: Select the data field from the record type or activity.
    1. Repeat the steps to add more rows. By default, the rows you add are considered for summarization.<br>
@@ -57,7 +55,7 @@ For example, if you want to display the account summary in Customer Service work
 
 ## Runtime experience
 
-The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. They can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
+The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is in collapsed view by default so that the screen isn't cluttered with information. They can select the card to expand the summary and copy it, refresh, and provide feedback.
 
 For the configuration in the [example](#example) section, when a service representative opens an account record, the account summary card displays the summary for the attributes that you selected.
 
@@ -65,6 +63,6 @@ For the configuration in the [example](#example) section, when a service represe
 
 ### Related information
 
-[Manage Copilot features in Customer Service](configure-copilot-features.md) 
-[Enable summarization of cases and conversations](copilot-enable-summary.md)   
-[Enable Copilot case and conversation summaries](copilot-enable-summary.md)
+[Manage Copilot features in Customer Service](configure-copilot-features.md)  
+[Enable summarization of cases and conversations](copilot-enable-summary.md)    
+[Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
