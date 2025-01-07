@@ -15,7 +15,7 @@ The custom record summary feature allows Copilot to generate summaries for any c
 
 You can configure this feature to create summaries for work orders, part orders, or any custom tables in your environment. Customization options include:
 
-- Selecting existing record types (e.g., accounts, work orders, tickets) for summaries.
+- Selecting existing record types (for example, accounts, work orders, tickets) for summaries.
 - Defining record types in natural language for better summary generation.
 - Choosing specific data fields to include and describing them in natural language.
 - Allowing representatives to access summaries on demand from relevant forms for the latest status updates.
@@ -24,7 +24,7 @@ You can configure this feature to create summaries for work orders, part orders,
 
 1. On the site map in Customer Service admin center, select **Productivity** > **Summaries**.
 1. In the **Custom record summaries** section, select **Add new summary**. The **Specify record type** pane appears.
-1. In the Specify record type pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
+1. In the **Specify record type** pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
    - **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
     > [!Note]
@@ -35,13 +35,13 @@ You can configure this feature to create summaries for work orders, part orders,
 1. Select **Save and close**.
 1. Copy the **Developer summary ID** to use in the next section.
 
-For example, if you want Copilot to generate an account summary, from account name, account description, full name and email of the primary contact, emails exchanged with the account, case number, case description, and notes linked to the account, configure the data as follows:
+For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. Add the rows in **Specify data** as follows:
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
 ## Configure the summary control on entity forms
 
-Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) to add the custom record summary to the related forms. Make sure to specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
+To add the custom record summary to the related forms, perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) . Make sure to specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
 
 For example, if you want to display the account summary in Customer Service workspace, perform the following steps:
 1. Select **Tables** > **Account**.
@@ -50,7 +50,7 @@ For example, if you want to display the account summary in Customer Service work
 
    :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
-1. Configure the following settings to make sure that summary doesn't load on the form when the customer record summary feature isn't enabled:
+1. Configure the following settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled:
 
    :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
 

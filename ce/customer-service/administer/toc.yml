@@ -616,6 +616,8 @@
           href: copilot-enable-custom-record-summaries.md
         - name: Enable conversation summaries
           href: copilot-enable-summary.md#enable-conversation-summaries
+      - name: Configure custom record summaries for service representatives
+        href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
