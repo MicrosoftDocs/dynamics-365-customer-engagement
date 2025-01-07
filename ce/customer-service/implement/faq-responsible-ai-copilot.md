@@ -173,7 +173,7 @@ Yes. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft monitor system outputs for performance or bias issues?
 
-Yes. Moderation filters are applied in multiple layer, including on output to ensure there's no harmful content in the response. Learn more in Responsible AI Transparency Report.
+Yes. Moderation filters are applied in multiple layers, including on output to make sure that there's no harmful content in the response. Learn more in Responsible AI Transparency Report.
 
 ## What is the level of resiliency in the model's operation? For example, is there a disaster recovery and contingency plan for instances when the model is unavailable?
 
