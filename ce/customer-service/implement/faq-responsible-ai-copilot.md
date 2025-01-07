@@ -133,7 +133,7 @@ Different features in the system could be using different versions of Azure Open
 
 Copilot is built using Azure OpenAI, a fully managed AI service that integrates OpenAI with Microsoft-developed content filtering and abuse detection models. Learn more in Transparency note for Azure OpenAI.
 
-## Is there a set process to communicate any changes in models, upstream models or outputs that are used from other AI/ML or other model solutions?
+## Is there a set process to communicate any changes in models, upstream models or outputs that are used from other AI/ML or model solutions?
 
 Any planned changes to the Copilot features are communicated via public documentation. However changes with respect to model version or prompts, are governed by the internal responsible AI processes. These changes are not communicated, as they are incremental and ongoing functional improvements.
 
