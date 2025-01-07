@@ -23,7 +23,7 @@ You can configure to create summaries for custom tables, such as work orders or 
 ## Configure the custom record summary
 
 1. On the site map in Customer Service admin center, select **Productivity** > **Summaries**.
-1. In the **Custom record summaries** section, select **Add new summary**. The **Specify record type** pane appears.
+1. In the **Custom record summaries** section, select **Add new summary**. 
 1. In the **Specify record type** pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
    1. **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
