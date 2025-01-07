@@ -23,7 +23,7 @@ Collaboration features make it easy for agents to find the help they need in Mic
 
 Agents can use collaboration features to find experts, chat with peers in Teams, and set meetings. Collaboration helps turn your business into a unified and cohesive customer service center.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW11WJC]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4771a947-b73c-4f31-8ce3-da7fd85dccd6]
 
 ## Embedded chat using Teams
 
