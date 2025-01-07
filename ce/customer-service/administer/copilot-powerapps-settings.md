@@ -41,7 +41,7 @@ You must also configure the following settings to make sure that copilot summary
      - Set the **Event Type** to **On load**.
      - Set the **Library** to **msdyn_CopilotCaseSummaryLibrary.js**
      - Specify **Mscrm.CSIntelligence.CopilotCaseSummary.setVisibilityOfCaseSummary** in **Function**.
-     - Select **Pass execution context as first parameter** and specify the unique name of the table column value that you provided in **CC_CaseSummary**, enclosed in quotations.
+     - Select **Pass execution context as first parameter** and specify the unique name of the table column value that you provided in **Case summary**, enclosed in quotations.
      
      :::image type="content" source="../media/powerapps-event-handler.png" alt-text="Screenshot of the Power Apps event handler." :::
 
