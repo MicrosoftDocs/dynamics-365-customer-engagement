@@ -17,7 +17,7 @@ You can configure to create summaries for custom tables, such as work orders or 
 
 - Selecting existing record types (for example, accounts, work orders, tickets) for summaries.
 - Defining record types in natural language for better summary generation.
-- Choosing specific data fields to include and describing them in natural language.
+- Choosing specific data fields for including and describing them in natural language.
 - Allowing representatives to access summaries on demand from relevant forms for the latest status updates.
 
 ## Configure the custom record summary
