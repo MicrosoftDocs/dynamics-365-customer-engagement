@@ -53,15 +53,13 @@ For example, if you want to display the account summary in Customer Service work
 
    :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
-1. Configure the following settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled.
-
-   :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
+1. Configure the settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled.
 
 ## Runtime experience
 
 The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. They can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
 
-For the configuration in the [example](#example section), when a service representative opens an account record, the account summary card appears as follows.
+For the configuration in the [example](#example) section, when a service representative opens an account record, the account summary card appears as follows.
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="Screenshot for account summary.":::
 
