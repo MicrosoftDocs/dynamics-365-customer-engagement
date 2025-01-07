@@ -42,12 +42,13 @@ For example, you want to generate an account summary with account name, account 
 
 ## Configure the summary control on entity forms
 
-To add the custom record summary to the related forms, perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) . Make sure to specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
+To add the custom record summary to the related forms, perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md). 
 
 For example, if you want to display the account summary in Customer Service workspace, perform the following steps:
+
 1. Select **Tables** > **Account**.
 1. Select **Forms** > **Account for multisession experience**.
-1. Select **Component** > **Copilot case summary control**, and then specify the following values.
+1. Select **Component** > **Copilot case summary control**, and then specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
 
    :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
