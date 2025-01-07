@@ -11,13 +11,14 @@ ms.custom: bap-template
 
 # Configure custom record summaries for service representatives
 
-The custom record summary feature enables Copilot to generate summaries for any custom record in Dynamics 365 Customer Service. Custom record summaries can help your customer service representatives (service representatives or representatives) to gain insight into important details about the records they're working on, such as account and contact information. A summary also helps improve a representative's response time by providing an easily accessed, quick synopsis of a record.
+The custom record summary feature allows Copilot to generate summaries for any custom record. These summaries help customer service representatives quickly gain insights into important details, such as account and contact information, improving response times.
 
-You can configure the custom record summary feature to create summaries for work orders, part orders, or any other custom tables that exist in your customer service environment. You can customize summaries in the following ways:
-- Select from a list of existing record types, including account, work orders, and tickets, to generate summaries.
-- Define in natural language what the record type is so that Copilot can use the information to create better summaries.
-- Select specific data fields to include in the summary and also describe these fields in natural language.
-- Allow service representatives to access these summaries on demand from the relevant form to quickly get the latest status summary of a record.
+You can configure this feature to create summaries for work orders, part orders, or any custom tables in your environment. Customization options include:
+
+- Selecting existing record types (e.g., accounts, work orders, tickets) for summaries.
+- Defining record types in natural language for better summary generation.
+- Choosing specific data fields to include and describing them in natural language.
+- Allowing representatives to access summaries on demand from relevant forms for the latest status updates.
 
 ## Configure the custom record summary
 
