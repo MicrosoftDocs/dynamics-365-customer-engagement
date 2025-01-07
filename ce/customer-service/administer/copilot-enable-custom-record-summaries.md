@@ -38,7 +38,7 @@ You can configure to create summaries for custom tables, such as work orders or 
 
 ### Example 
 
-For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. Add the rows in **Specify data** as follows.
+For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. The **Specify data** page displays the rows for the configuration.
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
@@ -59,7 +59,7 @@ For example, if you want to display the account summary in Customer Service work
 
 The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. They can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
 
-For the configuration in the [example](#example) section, when a service representative opens an account record, the account summary card appears as follows.
+For the configuration in the [example](#example) section, when a service representative opens an account record, the account summary card displays the summary for the attributes that you selected.
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="Screenshot for account summary.":::
 
