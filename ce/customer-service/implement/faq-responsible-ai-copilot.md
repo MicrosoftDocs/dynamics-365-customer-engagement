@@ -127,7 +127,7 @@ The GPT model is developed by the partner company, OpenAI, and hosted fully on A
 
 ## Does the product or service employ more than one model or a system of interdependent models?
 
-Different features in the system could be using different versions Azure OpenAI Service models. Learn more in [Azure OpenAI Service models](/azure/ai-services/openai/concepts/models).
+Different features in the system could be using different versions of Azure OpenAI Service models. Learn more in [Azure OpenAI Service models](/azure/ai-services/openai/concepts/models).
 
 ## Does Copilot use a non-Microsoft model product or service, and is documentation for this model available?
 
