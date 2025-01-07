@@ -147,7 +147,7 @@ Yes. Feature teams receive light signals without customer data of usage and feed
 
 Yes. In the responsible AI process, all actors involved are considered, and their use/unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in Responsible AI Transparency Report.
 
-## Does Microsoft identify and document approaches to engage, capture and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
+## Does Microsoft identify and document approaches to engage, capture, and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
 
 Yes. Learn more in Responsible AI Transparency Report.
 
