@@ -26,16 +26,19 @@ You can configure this feature to create summaries for work orders, part orders,
 1. In the **Custom record summaries** section, select **Add new summary**. The **Specify record type** pane appears.
 1. In the **Specify record type** pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
-   - **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
+   1. **Data type**: **1-to-1** or **1-to-many**. You can map fields one-to-one with the record or set up one-to-many relationships for related activities or entities.
     > [!Note]
     > For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
-   - **Record type or activity**: Select the record type or activity that you want to include in the summary.
-   - **Data field**: Select the data field from the record type or activity that you want to include in the summary.
-   - By default, the rows you add are considered for summarization. Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
+   2. **Record type or activity**: Select the record type or activity.
+   3. **Data field**: Select the data field from the record type or activity.
+   4. Repeat the steps to add more rows. By default, the rows you add are considered for summarization.<br>
+   Clear the **Include** checkbox for rows you don’t want to be considered from the data summarization. Include only the essential rows to ensure the most succinct summaries.
 1. Select **Save and close**.
 1. Copy the **Developer summary ID** to use in the next section.
 
-For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. Add the rows in **Specify data** as follows:
+### Example 
+
+For example, you want to generate an account summary with account name, account description, primary contact's full name and email, emails exchanged with the account, case number, case description, and notes. Add the rows in **Specify data** as follows.
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
@@ -46,11 +49,11 @@ To add the custom record summary to the related forms, perform the steps in [Dis
 For example, if you want to display the account summary in Customer Service workspace, perform the following steps:
 1. Select **Tables** > **Account**.
 1. Select **Forms** > **Account for multisession experience**.
-1. Select **Component** > **Copilot case summary control**, and then specify the following values:
+1. Select **Component** > **Copilot case summary control**, and then specify the following values.
 
    :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
-1. Configure the following settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled:
+1. Configure the following settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled.
 
    :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
 
@@ -58,7 +61,7 @@ For example, if you want to display the account summary in Customer Service work
 
 The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. They can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
 
-In our example, when a service representative opens an account record, the account summary card appears as follows:
+For the configuration in the [example](#example section), when a service representative opens an account record, the account summary card appears as follows.
 
 :::image type="content" source="../media/custom-copilot-account.png" alt-text="Screenshot for account summary.":::
 
