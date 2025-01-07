@@ -2,7 +2,6 @@
 title: "Set up sales territories in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create sales territories and sub-territories, and assign people to handle the revenue opportunities for those areas."
 ms.custom: 
-ms.date: 03/30/2020
 
 ms.topic: article
 applies_to: 

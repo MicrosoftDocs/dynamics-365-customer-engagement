@@ -1,7 +1,7 @@
 ---
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 11/28/2024
+ms.date: 12/24/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -56,6 +56,10 @@ Yes. Copilot supports knowledge articles published in the supported languages. S
 - Make sure that you use high-quality knowledge sources for copilot to generate responses from.
 - Revisit your copilot knowledge sources before you enable Copilot.
 - Restrict access to sources from which you don't want your copilot responses to be generated.
+
+## Where can I access feedback for copilot?
+The feedback that you as a customer service representative provide on Copilot responses is stored in  
+the msdyn_copilotinteraction table in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
 
 ### Related information
 

@@ -34,14 +34,16 @@
             href: customer-service-hub-user-guide-create-a-case.md
           - name: Use enhanced case forms to manage cases
             href: enh-casemgmt-csw.md
-          - name: Track your time on cases (preview)
-            href: case-handling-time.md  
+          - name: Track your time on cases 
+            href: case-handling-time.md
           - name: Resolve, cancel, and reassign cases
             href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
           - name: Merge cases
             href: customer-service-hub-user-guide-merge-cases.md
           - name: Manage cases with case grids
             href: case-grids.md
+          - name: Manage parent and child cases
+            href: customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md
           - name: View a social profile
             href: view-social-profile.md
           - name: Convert a case to a knowledge article
@@ -294,7 +296,7 @@
           href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
-        - name: Chat with Customer Service data in Copilot for Microsoft 365 (preview)
+        - name: Chat with case data in Customer Service (preview)
           href: copilot-chat-customer-service-data.md
       - name: Analytics dashboards and insights
         items: 
@@ -306,12 +308,12 @@
             href: realtime-summary-dashboard.md
           - name: Voice report
             href: realtime-voice-dashboard.md
-          - name: Bot report
-            href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml             
           - name: Agents report
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
             href: realtime-ongoing.md
+          - name: Backlog conversation report
+            href: realtime-backlog-conv.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -460,3 +462,5 @@
       href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Dynamics 365 Contact Center documentation
+      href: /dynamics365/contact-center/

@@ -2,7 +2,6 @@
 title: "Find organization ID and name in Dynamics 365 Customer Engagement (on-premises)"
 description: "Determine your organization ID and name by going to Settings > Customizations > Developer Resources, and looking under Instance Reference Information."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Free up storage space in Dynamics 365 Customer Engagement (on-premises)"
 description: "Reduce the amount of storage space used by removing or deleting information. This page outlines 10 different methods for freeing up storage space."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

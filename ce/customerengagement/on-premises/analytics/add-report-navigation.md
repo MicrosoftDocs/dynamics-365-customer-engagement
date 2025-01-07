@@ -2,7 +2,6 @@
 title: "Add report navigation in Dynamics 365 Customer Engagement (on-premises)"
 description: "Report navigation enables an interactive reporting experience. Use various actions to let the user navigate to detailed reports, records, or other websites."
 ms.custom: 
-ms.date: 06/28/2021
 ms.reviewer: 
 
 ms.suite: 

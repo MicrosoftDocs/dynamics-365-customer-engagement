@@ -2,7 +2,6 @@
 title: "Sample charts (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The topic contains sample charts along with the respective data description and presentation XML strings. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
