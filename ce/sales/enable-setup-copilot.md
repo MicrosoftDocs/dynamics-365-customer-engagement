@@ -59,6 +59,8 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
 
      :::image type="content" source="media/enable-copilot.png" alt-text="Screenshot of the  settings page in Dynamics 365 Sales Hub." lightbox="media/enable-copilot.png":::  
 
+    <a name="turn-audit-on"></a>
+
 1. Select **Turn audit on** to turn on audit history for the lead, opportunity, and account tables. If auditing is already turned on for these tables or globally, the **Turn audit on** option isn't displayed.
 
     - Audit history is required for Copilot to display recent changes to leads, opportunities, and accounts.
