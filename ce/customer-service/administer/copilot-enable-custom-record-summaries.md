@@ -38,9 +38,6 @@ For example, if you want Copilot to generate an account summary, from account na
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
-:::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
-
-
 ## Configure the summary control on entity forms
 
 Perform the steps in [Display case summary on custom case forms](copilot-powerapps-settings.md) to add the custom record summary to the related forms. Make sure to specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
