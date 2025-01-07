@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 11/28/2024 
+ms.date: 01/07/2025 
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -25,8 +25,8 @@ When you enable the Copilot case summary feature, agents can see the case summar
 1. Create a new form or use an existing form. More information: [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms).
 1. In the form designer, select **Components** from the left navigation, select **CopilotCaseSummaryControl** and drag it on to the form.
 1. Set the values of the following fields as:
-   - **CC_CaseSummary**: Any unused string column. Copy the unique name of the specified column.
-   - **CC_IncidentId**: **Case (Text)**
+   - **Case Summary**: Any unused string column. Copy the unique name of the specified column.
+   - **Incident ID**: **Case (Text)**
  
    :::image type="content" source="../media/powerapps-copilot-case-summary.png" alt-text="Screenshot of the Power Apps copilotcasesummarycontrol component." :::
 
