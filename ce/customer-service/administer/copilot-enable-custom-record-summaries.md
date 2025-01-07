@@ -54,7 +54,6 @@ For example, if you want to display the account summary in Customer Service work
 
   :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
 
-
 ## Runtime experience
 
 The custom summary appears as a card on the relevant form. When service representatives open a record, the summary card is collapsed by default so that the screen isn't cluttered with information. They can select the card to expand the summary, copy the summary, refresh it, and provide feedback.
