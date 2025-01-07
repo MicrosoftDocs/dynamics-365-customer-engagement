@@ -193,7 +193,7 @@ Yes, there's an established governance policy supported by Azure OpenAI. Learn m
 
 ## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PSI in accordance with privacy and data governance policies?
 
-Currently, there's no model training, hence no requirement surrounding data set. However when a agent engages with Copilot, depending on the feature, context data (case or chat) is used in the generation of a response. 
+Currently, there's no model training, hence no requirement surrounding the data set. However when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used in the generation of a response. 
 
 ## Are PSI disclosures and inference of sensitive or legally protected attributes monitored?
 
