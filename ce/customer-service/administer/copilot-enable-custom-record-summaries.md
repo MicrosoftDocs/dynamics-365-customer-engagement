@@ -38,6 +38,8 @@ For example, if you want Copilot to generate an account summary, from account na
 
 :::image type="content" source="../media/copilot-custom-summary.png" alt-text="screenshot for admin experience for custom records.":::
 
+:::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
+
 
 ## Configure the summary control on entity forms
 
@@ -49,6 +51,9 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Component** > **Copilot case summary control**, and then specify the following values:
 
   :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
+
+  :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
+
 
 ## Runtime experience
 
