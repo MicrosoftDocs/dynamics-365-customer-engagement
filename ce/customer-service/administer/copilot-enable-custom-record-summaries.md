@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 Copilot can generate summaries for any custom record. These summaries help customer service representatives (service representatives or representatives) gain quick insights into key details, such as account and contact information, to improve response times.
 
-You can configure this feature to create summaries for work orders, part orders, or any custom tables in your environment. Customization options include:
+You can configure to create summaries for custom tables, such as work orders or part orders in your environment. Customization options include:
 
 - Selecting existing record types (for example, accounts, work orders, tickets) for summaries.
 - Defining record types in natural language for better summary generation.
