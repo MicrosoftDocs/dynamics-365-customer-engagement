@@ -35,13 +35,13 @@ The markdown element for adaptive cards is partially supported across all chat c
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-Inputs selected in an adaptive card by the customer will not be shown on the agent side. Only the original adaptive card will be displayed to the agent when the issue is forwarded to them. For example, when the Power Virtual Agent (PVA) bot sends an adaptive card (referred to as m1) during a live chat, the process involves the following steps:
+The inputs selected by the customer in an adaptive card will not be visible to the agent. When the issue is escalated to an agent, only the original adaptive card will be displayed. For example, when the Power Virtual Agent (PVA) bot sends an adaptive card (referred to as m1) during a live chat, the process follows these steps:
 
-**Adaptive Card (m1):** The PVA bot sends an adaptive card to the customer to collect input.
+**Adaptive Card (m1):** The PVA bot sends an adaptive card to the customer to gather input.
 
-**Customer Selection:** The customer selects an input and submits their response. This response is captured in a new message, referred to as m2.
+**Customer Selection:** The customer selects an input and submits their response, which is captured in a new message, referred to as m2.
 
-**Escalation to Agent:** If the conversation is escalated to an agent, the original adaptive card message (m1) will be shown without any information from m2.
+**Escalation to Agent:** If the conversation is escalated to an agent, only the original adaptive card (m1) will be shown to the agent, with no information from m2.
 
 The Apple Messages for Business, SMS, and WhatsApp social channels don't support any cards listed in the preceding table.
 
