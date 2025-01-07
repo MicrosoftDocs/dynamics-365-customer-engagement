@@ -3,9 +3,9 @@ title: Configure custom record summaries for service representatives
 description: Learn how to set up a custom record summary for service representatives in Dynamics 365 Customer Service.
 author: lalexms 
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: lalexms
 ms.topic: how-to 
-ms.date: 01/06/2025
+ms.date: 01/07/2025
 ms.custom: bap-template 
 ---
 
@@ -47,9 +47,11 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Forms** > **Account for multisession experience**.
 1. Select **Component** > **Copilot case summary control**, and then specify the following values:
 
-  :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
+   :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
-  :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
+1. Configure the following settings to make sure that summary doesn't load on the form when the customer record summary feature isn't enabled:
+
+   :::image type="content" source="../media/powerapps-configure-event.png" alt-text="Screenshot for Power Apps Configure event component.":::
 
 ## Runtime experience
 
