@@ -30,7 +30,7 @@ Predictive lead scoring allows your sales teams to [prioritize leads based on sc
 
 Predictive opportunity scoring allows your sales teams to [prioritize opportunities based on scores](work-predictive-opportunity-scoring.md) and achieve higher opportunity win, close, or convert rates.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQjwl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b4d84993-47e3-4002-b755-8c7bed437588]
 
 ## Licensing options
 

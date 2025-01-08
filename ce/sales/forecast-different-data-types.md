@@ -1,7 +1,7 @@
 ---
-title: "Forecast with multiple data type columns"
-description: "Configure a forecast with columns of different data types."
-ms.date: 10/01/2024
+title: Forecast with multiple data type columns
+description: Configure a forecast with columns of different data types.
+ms.date: 01/02/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -21,12 +21,9 @@ For more information about configuring columns and data types, go to [Choose lay
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
-While the forecast grid can display multiple data types, the Kanban view, deal flow, and trend chart can only display a single data type at a time. Hence, for a multiple data type forecast, you must select the primary data type to be displayed in these views before activating the forecast.
+While the forecast grid can display multiple data types, the Kanban view can only display a single data type at a time. Hence, for a multiple data type forecast, you must select the primary data type to be displayed in these views before activating the forecast.
 
-Similarly, the Kanban view, deal flow, and trend chart can't show     two columns with the same selector. For example, using the **Best case** selector both revenue and discount. Because the Kanban view and deal flow can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
-
->[!NOTE]
->To use deal flows and trend charts, you must have the Sales Premium license.
+Similarly, the Kanban view can't show two columns with the same selector. For example, using the **Best case** selector both revenue and discount. As the Kanban view can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
 
 ## Examples of forecasts with different data types
 
@@ -55,11 +52,11 @@ Select **Fix issue**. The following **Layout warnings** pane is displayed, where
 
 :::image type="content" source="media/forecast-publish-layout-warnings-pane.png" alt-text="new image":::
 
-- If you select the primary data type as **Quantity**, the forecast chooses the **Best case products sold** column to display in the Kanban view, deal flows, and trend charts. This is because the **Best case products sold** column is the only column that has a quantity (in this case, decimal) data type. You can proceed with activating the forecast after you select the primary data type. The Kanban view in the following image displays only one lane with a single quantity-based column.
+- If you select the primary data type as **Quantity**, the forecast chooses the **Best case products sold** column to display in the Kanban view. This is because the **Best case products sold** column is the only column that has a quantity (in this case, decimal) data type. You can proceed with activating the forecast after you select the primary data type. The Kanban view in the following image displays only one lane with a single quantity-based column.
 
     :::image type="content" source="media/forecast-primary-datat-quanity-bestcase.png" alt-text="Example of the primary data type selected as quantity":::
     
-- If you select the primary data type as **Currency**, you must choose between **Best case** and **Best case discount** columns to display in the Kanban view, deal flows, and trend charts. This is because both these columns have **Currency** as the data type and share the same selector (**Best case**). Select the appropriate column, and then select **Save**.
+- If you select the primary data type as **Currency**, you must choose between **Best case** and **Best case discount** columns to display in the Kanban view. This is because both these columns have **Currency** as the data type and share the same selector (**Best case**). Select the appropriate column, and then select **Save**.
 
     :::image type="content" source="media/forecast-data-type-select-currency-choose-column.png" alt-text="Select the primary data type as currency and choose a column":::
 
@@ -81,11 +78,11 @@ After you've completed the other configuration steps as required and are activat
 
 Select **Fix issue**, and in the **Layout warnings** pane, select a primary data type.
 
-Select the primary data type that meets your needs. As the **Won** (currency) and **Best case** (quantity) columns have different selectors and data types, you must select one of them a primary data type to be displayed in the Kanban view, deal flows, and trend charts.
+Select the primary data type that meets your needs. As the **Won** (currency) and **Best case** (quantity) columns have different selectors and data types, you must select one of them a primary data type to be displayed in the Kanban view.
 
 ## View selected primary data type and columns
 
-You can view the details of the primary data type and the selected column (among duplicate columns with the same selector) that'll be displayed in the Kanban view, deal flows, and trend charts. The displayed details are view-only and can't be edited after you activate the forecast.
+You can view the details of the primary data type and the selected column (among duplicate columns with the same selector) that'll be displayed in the Kanban view. The displayed details are view-only and can't be edited after you activate the forecast.
 
 1. Sign in to the **Sales Hub** app.
 
@@ -103,7 +100,7 @@ You can view the details of the primary data type and the selected column (among
 
     :::image type="content" source="media/forecast-view-settings-layout-warnings-pane.png" alt-text="Select view settings and view layout warnings pane":::
 
-    You can view the selected primary data type and column to display in the Kanban view, deal flows, and trend charts.
+    You can view the selected primary data type and column to display in the Kanban view.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 

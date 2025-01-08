@@ -16,7 +16,7 @@ ms.custom:
 
 Identifying duplicate leads helps you to maintain a clean and accurate database of leads by removing the duplicates.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=94602225-e5b4-4070-abc8-3ada754da622]
 
 ## License and role requirements
 | Requirement type | You must have |  
