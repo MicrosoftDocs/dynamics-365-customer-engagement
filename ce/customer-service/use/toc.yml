@@ -281,9 +281,9 @@
         - name: Use Copilot to summarize cases and conversations
           href: copilot-use-summary.md
         - name: Summarize cases
-          href: copilot-use-summary.md#summarize-cases
+          href: copilot-use-summary.md
         - name: Summarize conversations
-          href: copilot-use-summary.md#summarize-conversations
+          href: copilot-summarize-conversations.md
         - name: Ask a question 
           href: use-ask-a-question.md
         - name: Draft a chat response (preview)
