@@ -149,6 +149,10 @@ Yes. Learn more in Responsible AI Transparency Report.
 
 Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. The feature teams continuously monitor the performance and reliability of the system. If any issues are detected, the teams react to first investigate and then mitigate. Learn more in Responsible AI Transparency Report.
 
+## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and affected parties?
+
+Yes. In case of high severity issues, feature teams require communicating the outage with the affected customers.
+
 ## Does Microsoft measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
 
 Yes. The feature teams continuously monitor the performance and reliability of the system. If any issues are detected, the teams react to first investigate and then mitigate.
@@ -189,17 +193,9 @@ Currently, there's no model training, hence no requirement surrounding the data 
 
 Yes, privacy review is done for every feature.
 
-##  Has Microsoft established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model?
-
-Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
-
 ## Does Microsoft have a process to consider legal and regulatory issues and requirements specific to its industry, business purpose, and the application environment of the deployed AI systems?
 
 Yes. Legal review is done for every feature to help with regulatory requirements and other legal matters.
-
-## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and impacted parties?
-
-Yes. In case of high severity issues, feature teams require communicating the outage with impacted customers.
 
 ### Related information
 
