@@ -12,27 +12,27 @@ ms.custom: bap-template
 
 # Ask a question 
 
-[!INCLUDE[cc-feature-availability-standalone-no](../../includes/cc-feature-availability-standalone-no.md)]
+[!INCLUDE[cc-feature-availability-cfs-yes](../../includes/cc-feature-availability-cfs-yes.md)]
 
 When you sign in to any of the Customer Service agent apps, Copilot opens in the right side panel with the **Ask a question** tab ready. Copilot acts as your partner, helping to answer questions without you having to search for the information. Copilot quickly retrieves information, generates summaries for cases, and gets required details about case data, all within the same interface.
 
 > [!IMPORTANT]
 > The AI-generated content is a suggestion. It's your responsibility to review and edit the suggested content to make sure it's accurate and appropriate before sharing the responses.
 
-## Navigation
-
-
-- In Customer Service workspace or Contact Center workspace, you can access **Ask a question** from the Copilot help pane once you sign in.
-  
-- When you sign in to a non-Microsoft CRM, you can access **Write an email** as follows:
-
-  - In ServiceNow, select the dialer icon. Once you sign in to the Dynamics instance, you'll see the Copilot help pane with the ask a question feature. 
-  - In Salesforce, select **Microsoft Contact Center**. Once you sign in to the Dynamics instance, you'll see the Copilot help pane with the ask a question feature.
 
 ## Prerequisites
 
 - Make sure that your administrator has turned on the Copilot features.
 - To use the summarize cases feature, [case summaries through ask a question](../administer/enable-ask-summarize-cases.md) (preview) is enabled.
+
+## Navigation
+
+- In Customer Service workspace or Contact Center workspace, you can access **Ask a question** from the Copilot help pane once you sign in.
+- When you sign in to a non-Microsoft CRM, you can generate case summary as follows:
+   - Launch the embedded experience and then login to your Dynamics account.
+   - In the Copilot help pane that appears, select **Ask a question**.
+  
+- In Customer Service workspace or Contact Center workspace, you can access **Ask a question** from the Copilot help pane once you sign in.
 
 ## Draft questions
 
@@ -48,8 +48,7 @@ With Copilot, you can take the following actions:
 
 ## Summarize cases and ask about case data
 
-Based on the app you are using, the summarize cases feature in ask a question is as follows.
-
+Based on the app you are using, you can use Copilot to generate case summary and ask about case data from the **Ask a question** tab.
 
 ### [Customer Service workspace](#tab/standaloneapps)
 
@@ -72,9 +71,9 @@ You can make the following types of requests:
 - Show cases for owner {owner name}.
 - Show case history.
 
-## [Embedded](#tab/embeddedapps)
+## [Embedded experience](#tab/embeddedapps)
 
-If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases](copilot-use-summary.md#embedded).
+If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases](copilot-use-summary.md#summarize-cases-in-non-microsoft-crm).
 
 ---
 
@@ -84,6 +83,9 @@ When you have an active case or conversation open, Copilot suggests prompts base
 
 - For a case, Copilot considers the title, description, notes, and emails linked to the case.
 - For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
+
+> [!NOTE]
+> Auto prompts for cases are available in the Customer Service workspace only.
 
 ## Use proactive prompts
 
@@ -95,6 +97,9 @@ Copilot proactively suggests prompts, without you having to type one, that you c
 - When you pick your case or a new conversation to work on, the context of Copilot switches to the particular case and suggests new prompts automatically, without you having to type one. Copilot gathers relevant information and provides you with the information, thereby increasing your efficiency in resolving customer issues.
 
     :::image type="content" source="../media/proactive-prompting.png" alt-text="Screenshot shows options in proactive prompting.":::
+
+> [!NOTE]
+> Proactive prompts for cases are available in the Customer Service workspace only.
 
 ## View responses
 
@@ -119,6 +124,9 @@ If your administrator has configured prompt plugins, you can use targeted keywor
 1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
 
     :::image type="content" source="../media/screenshot-of-prompt-plugin-response-in-copilot.png" alt-text="A screenshot of the Copilot response generated through the prompt plugin.":::
+
+> [!NOTE]
+> Using targeted phrases in Copilot to get responses from plugins is available in the Customer Service workspace and Dynamics 365 Contact Center&mdash;standalone experience only.
 
 ### Use the responses
 

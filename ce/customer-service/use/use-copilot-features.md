@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Draft a chat response (Preview)
 
-
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 

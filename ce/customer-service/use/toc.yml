@@ -278,6 +278,8 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
+        - name: Copilot feature availability across applications
+          href: copilot-feature-guide.md      
         - name: Summarize cases
           href: copilot-use-summary.md
         - name: Summarize conversations

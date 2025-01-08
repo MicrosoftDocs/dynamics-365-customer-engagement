@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Write an email with Copilot
 
-[!INCLUDE[cc-feature-availability-standalone-no](../../includes/cc-feature-availability-standalone-no.md)]
+[!INCLUDE[cc-feature-availability-cfs-yes](../../includes/cc-feature-availability-cfs-yes.md)]
 
 When you draft customer emails, Copilot can offer suggestions to make them clearer, concise, and compelling.
 
@@ -24,14 +24,12 @@ Your administrator has enabled this feature.
 
 ## Navigation
 
-- In Customer Service workspace or Contact Center workspace, you can access **Write an email** as follows:
-   - Once you sign in Copilot opens in the right side panel. You can use the **Write an email** feature to draft an email.
-   - When you respond to an email in the rich text editor, the **Draft with Copilot** card appears.
-
-- When you sign in to a non-Microsoft CRM, you can access **Write an email** as follows:
-
-  - In ServiceNow, select the dialer icon. Once you sign in to the Dynamics instance, you'll see the Copilot help pane with the write an email feature. 
-  - In Salesforce, select **Microsoft Contact Center**. Once you sign in to the Dynamics instance, you'll see the Copilot help pane with the write an email feature.
+- In Customer Service workspace or Contact Center workspace, you can access **Ask a question** from the Copilot help pane once you sign in.
+- When you sign in to a non-Microsoft CRM, you can access the feature as follows:
+   - Launch the embedded experience and then login to your Dynamics account.
+   - In the Copilot help pane that appears, select **Write an email**.
+   - Open the email to use the feature.
+  
   
   ### [Draft an email in the Copilot help pane](#tab/copilothelppane)
 
@@ -50,7 +48,7 @@ Your administrator has enabled this feature.
 
 ## Use Copilot to draft an email
 
-When you use Copilot to draft an email, you can use the following features to help you write a response to a customer:
+When you use Copilot to draft an email, you can use the following features to help you write a response to a customer.
 
 ### Use prompts
 
@@ -62,7 +60,7 @@ When you use Copilot to draft an email, you can use the following features to he
 - **Custom**: Allows you to provide your own prompt for the reply.
 
 > [!NOTE]
-> - If your administrator has not enabled knowledge base, you will see the **Suggest a call**, **Request more information**, **Empathize with feedback**, and **Custom** prompts only.
+> - If the knowledge base isn't enabled, you will see the **Suggest a call**, **Request more information**, **Empathize with feedback**, and **Custom** prompts only.
 > - If you've left the **Regarding** field empty, you will see the **Suggest a call**, **Empathize with feedback**, and **Custom** prompts only.
 
 
@@ -94,7 +92,10 @@ You can select the Adjust with Copilot icon to change the length and tone of the
 
 ### Use follow-up prompts
 
-If you aren't satisfied with Copilot's response, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can use up to five prompts at a time to refine the email draft. If your administrator has enabled knowledge base, Copilot will also use those sources.
+If you aren't satisfied with Copilot's response, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can use up to five prompts at a time to refine the email draft. If the knowledge base is enabled, Copilot will also use those sources.
+
+> [!NOTE]
+> Follow-up prompts are available in Customer Service and the Dynamics 365 Contact Center&mdash;standalone experience only.
 
 ### Use the responses
 
@@ -119,6 +120,9 @@ To return to the prompts, select **Start over** at the bottom of the Copilot pan
    :::image type="content" source="../media/copilot-draft-inline.png" alt-text="Screenshot of composing an email in rich text editor."::: 
   
  ---
+## Translate responses
+
+If translation is enabled, you can select **Translate** and then select your preferred language to translate the response to that language. You can also select **Show original** to translate the response back to the original language.
 
 ## Next Step
 
