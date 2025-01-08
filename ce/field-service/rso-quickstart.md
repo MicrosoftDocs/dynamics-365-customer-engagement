@@ -14,7 +14,7 @@ The Resource Scheduling Optimization Add-in for Dynamics 365 Field Service autom
 
 This article guides you through configuration of Resource Scheduling Optimization to schedule and optimize a group of work orders to a predefined list of resources. You're going to set up a scope, goal, and schedule to assign work orders to resources in a territory to minimize travel time.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ylx7]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=759eefa3-85ea-414e-8d2e-ac53e0a438de]
 
 For more Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
 

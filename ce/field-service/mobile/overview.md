@@ -14,7 +14,7 @@ Service technicians and frontline workers are the essence of any field service o
 
 The [app is available for Apple iOS, Google Android, and Windows 10+ devices](download-mobile-app.md). It's included in your Field Service license at no extra charge.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78a4ad09-8320-4895-a69f-100cbf46ac14]
 
 The mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), which makes it customizable to your business needs.
 

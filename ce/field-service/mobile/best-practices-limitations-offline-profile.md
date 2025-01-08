@@ -18,7 +18,7 @@ Even if you think your field technicians will always have a reliable Internet co
 
 The offline profile manages offline record types, relationships, and user assignments. For a guided walkthrough, watch this brief video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a8c93a4c-4b9c-4883-a76e-089f720376c8]
 
 The Field Service mobile app follows the same architecture and security as a Power Apps mobile app. [Learn more about Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 

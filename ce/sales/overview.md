@@ -20,7 +20,7 @@ Welcome to Dynamics 365 Sales! Dynamics 365 Sales enables salespeople to build s
 
 Here's a short video to help you understand the power of using Dynamics 365 Sales in your organization:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AC4d]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=69df7593-4edc-4165-a7cd-d315ca5cd83c]
 
 [!INCLUDE [cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
@@ -72,7 +72,7 @@ The Sales Professional app is similar to the Sales Hub app, but the entities inc
 
 Here's a short video to help you understand how Dynamics 365 Sales Professional can transform your sales organization:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=67fb63b7-d1f7-4e3c-9c3f-39e6ad7c0704]
 
 ### Microsoft 365 Copilot for Sales
 

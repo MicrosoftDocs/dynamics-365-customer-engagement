@@ -16,7 +16,7 @@ Integrate with Microsoft Teams to chat with team members about work orders. The 
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOc1n]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a5d32328-3240-4b00-9392-00c9a4926322]
 
 ## Set up the Teams integration
 
