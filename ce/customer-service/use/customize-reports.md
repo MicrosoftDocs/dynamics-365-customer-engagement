@@ -55,7 +55,7 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
       :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
 
-    - **Filters**: Select the queues that you want to filter your reports by. In the out-of-the-box **Omnichannel real-time analytics** or **Omnichannel historical analytics** reports, select **Advanced filtering**, with the **Or** option to filter queues and select the queue.
+    - **Filters**: Use **Advanced filtering** to select the queues that you want to filter your reports by. In the out-of-the-box **Omnichannel real-time analytics** or **Omnichannel historical analytics** reports, select **Advanced filtering**, with the **Or** option to add multiple conditions for filtering.
     :::image type="content" source="../media/customize-visual-filters.png" alt-text="Screenshot describes the Filters pane to customize visual display of queues.":::
 
 
