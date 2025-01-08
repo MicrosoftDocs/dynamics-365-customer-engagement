@@ -133,13 +133,13 @@ Copilot is built using Azure OpenAI, a fully managed AI service that integrates 
 
 Any planned changes to the Copilot features are communicated via public documentation. However changes with respect to model version or prompts, are governed by the internal responsible AI processes. These changes are not communicated, as they are incremental and ongoing functional improvements.
 
-## s user verbatim feedback available to Microsoft to improve the product?
+## Is user verbatim feedback available to Microsoft to improve the product?
 
 No.
 
-## Does Microsoft define policies and procedures that define and differentiate the various human roles and responsibilities when interacting with or monitoring AI systems?
+## Does Microsoft have policies and procedures that define and differentiate the various human roles and responsibilities when they interact with or monitor AI systems?
 
-Yes. In the responsible AI process, all actors involved are considered, and their use/unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in Responsible AI Transparency Report.
+Yes. In the responsible AI process, all stakeholders and users involved are considered, and their use or unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft identify and document approaches to engage, capture, and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
 
@@ -151,7 +151,7 @@ Yes. The responsible AI process requires that team have a incident response plan
 
 ## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and affected parties?
 
-Yes. In case of high severity issues, feature teams require communicating the outage with the affected customers.
+Yes. In case of high severity issues, feature teams must communicate the outage with the affected customers.
 
 ## Does Microsoft measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
 
@@ -187,7 +187,7 @@ Yes, there's an established governance policy supported by Azure OpenAI. Learn m
 
 ## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PII in accordance with privacy and data governance policies?
 
-Currently, there's no model training, hence no requirement surrounding the data set. However when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used in the generation of a response. 
+Currently, there's no model training, hence no requirement surrounding the data set. However when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used to generate a response. 
 
 ## Are PII disclosures and inference of sensitive or legally protected attributes monitored?
 
