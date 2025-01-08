@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 12/30/2024
+ms.date: 01/08/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -55,7 +55,9 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
       :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
 
-    - **Filters**: Select the queues that you want to filter your reports by. In the out-of-the box historical or real-time reports, select **Advanced filtering**, with the **Or** option to filter queues.
+    - **Filters**: Select the queues that you want to filter your reports by. In the out-of-the-box **Omnichannel real-time analytics** or **Omnichannel historical analytics** reports, select **Advanced filtering**, with the **Or** option to filter queues and select the queue.
+    :::image type="content" source="../media/customize-visual-filters.png" alt-text="Screenshot describes the Filters pane to customize visual display of queues.":::
+
 
 1. When you're done selecting the customizations you want for your report, select **Save** and then **Publish**.
 
