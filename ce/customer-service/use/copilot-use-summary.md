@@ -18,12 +18,11 @@ Copilot case summaries help you quickly understand the context of a case and res
 
 ## Navigation
 
-- In Customer Service workspace, navigate to a case, to view the case summary card.
+- In Customer Service workspace, navigate to a case to view the case summary card.
 - When you sign in to a non-Microsoft CRM, you can generate case summary as follows:
-
-  - In ServiceNow, select the dialer icon. Once you sign in to the Dynamics instance, you'll see the Copilot help pane. Select the Copilot icon and then select **Summarize case**.
-  - In Salesforce, select **Microsoft Contact Center**. Once you sign in to the Dynamics instance, you'll see the Copilot help pane. Select the Copilot icon and then select **Summarize case**.
-
+   - Launch the embedded experience and then login to your Dynamics account.
+   - In the Copilot help pane that appears, select **Ask a question**.
+   - Select the Copilot icon and then then select **Summarize case**.
 
 ## Summarize cases in Customer Service workspace
 

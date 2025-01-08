@@ -27,12 +27,8 @@ Your administrator has enabled the Copilot conversation summary feature.
 ## Navigation
 
 - In Customer Service workspace or Contact Center workspace, you can select **Summarize conversation** for an ongoing conversation.
- 
-- When you sign in to a non-Microsoft CRM, you can generate a conversation summary as follows:
-
-  - In ServiceNow, select the dialer icon. Once you sign in to your Dynamics account, and you're in a conversation with a customer, you can select **Summarize conversation**.
-  - In Salesforce, select **Microsoft Contact Center**.Once you sign in to your Dynamics account, and you're in a conversation with a customer, select **Summarize conversation**.
-
+- When you sign in to a non-Microsoft CRM, and launch the embedded experience, login to your Dynamics account and then select **Summarize conversation** from the communication panel when you're in a conversation with a customer.
+  
 ## View a conversation summary
 
 Based on your administrator's configuration, you'll see the following in Customer Service workspace or Contact Center workspace:
