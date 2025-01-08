@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 01/07/2025
+ms.date: 01/08/2025
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -119,11 +119,7 @@ The model is tested for quality and harmful content, every time there's a change
 
 ## How frequently is the model monitored to detect performance degradation?
 
-The generative AI GPT Model is hosted and managed by Azure OpenAI. The use of the model in customer service scenarios are bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harms. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
-
-##  Is the model developed in-house or by a non-Microsoft party?
-
-The GPT model is developed by the partner company, OpenAI, and hosted fully on Azure infrastructure. Learn more in [Transparency note for Azure OpenAI](/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=text).
+The generative AI GPT Model is hosted and managed by Azure OpenAI. The use of the model in customer service scenarios are bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harmful content. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
 ## Does the product or service employ more than one model or a system of interdependent models?
 
@@ -131,17 +127,15 @@ Different features in the system could be using different versions of Azure Open
 
 ## Does Copilot use a non-Microsoft model product or service, and is documentation for this model available?
 
-Copilot is built using Azure OpenAI, a fully managed AI service that integrates OpenAI with Microsoft-developed content filtering and abuse detection models. Learn more in Transparency note for Azure OpenAI.
+Copilot is built using Azure OpenAI, a fully managed AI service that integrates OpenAI with Microsoft-developed content filtering and abuse detection models. Learn more in [Transparency note for Azure OpenAI](/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=text).
 
 ## Is there a set process to communicate any changes in models, upstream models or outputs that are used from other AI/ML or model solutions?
 
 Any planned changes to the Copilot features are communicated via public documentation. However changes with respect to model version or prompts, are governed by the internal responsible AI processes. These changes are not communicated, as they are incremental and ongoing functional improvements.
 
-## Does Microsoft have mechanisms to regularly communicate and collect feedback among relevant AI actors and their internal/external stakeholders related to the validity of design and deployment assumptions?
+## s user verbatim feedback available to Microsoft to improve the product?
 
-Yes. Feature teams receive light signals without customer data of usage and feedback like thumbs up/down. These help ensure feature usage is improving, and there's no degradation to functionality.
-  > [!NOTE]
-  > Your agent verbatim feedback isn't available to Microsoft.
+No.
 
 ## Does Microsoft define policies and procedures that define and differentiate the various human roles and responsibilities when interacting with or monitoring AI systems?
 
@@ -153,7 +147,7 @@ Yes. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
 
-Yes. The responsible AI process requires that teams have an incident response plan for AI issues, similar to what's done for functional issues. Learn more in Responsible AI Transparency Report.
+Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. The feature teams continuously monitor the performance and reliability of the system. If any issues are detected, the teams react to first investigate and then mitigate. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
 
@@ -163,7 +157,7 @@ Yes. The feature teams continuously monitor the performance and reliability of t
 
 Yes. Learn more in Responsible AI Transparency Report.
 
-## Does Microsoft consider trustworthiness characteristics when evaluating AI systems for negative risks and benefits?
+## Does Microsoft have established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model, when evaluating AI systems for negative risks and benefits?
 
 Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
@@ -183,31 +177,23 @@ Similar to all Azure services, backup and recovery is supported via multiple dat
 
 No.
 
-## Has Microsoft established policies for model based systems for incident response, or confirm that existing incident response policies apply to model based systems?
-
-Yes.
-
 ## Is there an established model governance policy?
 
 Yes, there's an established governance policy supported by Azure OpenAI. Learn more in Responsible AI Transparency Report.
 
-## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PSI in accordance with privacy and data governance policies?
+## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PII in accordance with privacy and data governance policies?
 
 Currently, there's no model training, hence no requirement surrounding the data set. However when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used in the generation of a response. 
 
-## Are PSI disclosures and inference of sensitive or legally protected attributes monitored?
+## Are PII disclosures and inference of sensitive or legally protected attributes monitored?
 
 Yes, privacy review is done for every feature.
-
-## Are policies and procedures that define roles and responsibilities for human oversight of deployed models established?
-
-Yes. Learn more in Responsible AI Transparency Report.
 
 ##  Has Microsoft established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model?
 
 Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
 
-## Does Microsoft have a process to inform personnel of legal and regulatory considerations and requirements specific to its industry, business purpose and the application environment of the deployed AI systems?
+## Does Microsoft have a process to consider legal and regulatory issues and requirements specific to its industry, business purpose, and the application environment of the deployed AI systems?
 
 Yes. Legal review is done for every feature to help with regulatory requirements and other legal matters.
 
