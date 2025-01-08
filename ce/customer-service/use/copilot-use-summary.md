@@ -25,7 +25,7 @@ Copilot case summaries help you quickly understand the context of a case and res
   - In Salesforce, select **Microsoft Contact Center**. Once you sign in to the Dynamics instance, you'll see the Copilot help pane. Select the Copilot icon and then select **Summarize case**.
 
 
-## [Customer Service workspace](#tab/standaloneapps)
+## Summarize cases in Customer Service workspace
 
 ### Prerequisites
 
@@ -43,7 +43,7 @@ You can copy the summary, refresh it, and provide feedback.
 > - You can also generate a case summary for cases that are resolved or canceled.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
-## [Embedded](#tab/embeddedapps)
+## Summarize cases in non-Microsoft CRM
 
 If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. 
 
@@ -74,7 +74,6 @@ In the non-Microsoft CRM, you can generate the case summary as follows:
 
 You can copy the summary, refresh it, and provide feedback.
 
-----
 
 ## Next steps
 
