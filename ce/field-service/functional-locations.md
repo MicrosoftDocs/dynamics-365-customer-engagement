@@ -97,7 +97,7 @@ For larger or more complex hierarchies, expand or collapse the results by using 
 
 Watch the following video to learn more about searching functional locations and assets.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOjSM]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4fb856b9-a0d2-4dc2-b14e-cdcd8cf8b17f]
 
 ## Add a functional location to a work order
 
@@ -125,7 +125,7 @@ Technicians can view the functional location of a work order in the Dynamics 365
 
 The following video offers a guided walk-through of using functional locations in the Field Service mobile app.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=daf7fee7-d10a-4681-81ee-9749ef043608]
 
 > [!NOTE]
 > Filtering functional locations by service account is not supported in the offline-enabled Field Service mobile application. 

@@ -15,7 +15,7 @@ The Dynamics 365 Field Service mobile app is designed and optimized for technici
 
 For a guided walkthrough, check out the following video.
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKRL]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=0a560b88-3ff2-474b-ad1d-ca23aafcaadd]
 
 ## Prerequisites
 

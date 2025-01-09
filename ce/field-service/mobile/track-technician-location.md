@@ -16,7 +16,7 @@ Technicians using the Dynamics 365 Field Service mobile app can enable location 
 
 For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer to the written documentation for accurate feature descriptions and requirements.
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mZ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=9370c86c-629e-4979-ab82-de3724fa1a1f]
 
 ## Prerequisites
 

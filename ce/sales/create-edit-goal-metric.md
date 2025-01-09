@@ -1,7 +1,7 @@
 ---
 title: "Define a goal metric | MicrosoftDocs"
 description: "Measure goals in terms of count or amount, depending on what you’re measuring. Use rollup fields to track progress on the goals."
-ms.date: 03/16/2022
+ms.date: 01/03/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,42 +37,34 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
 2.	In the site map, at the bottom, select the Change area icon ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area"), and then select **App Settings**.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Select the Change area icon and then select App Settings.](media/change-area-app-settings.png "Select the Change area icon and then select App Settings")
-
-3. Select **Goal Metrics**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Goal Metrics in the site map.](media/site-map-goal-management.png "Goal Metrics in the site map")
+3. Under **Performance management**, select **Goal Metrics**.
  
-4.	To create a new goal metric, on the command bar, select **New**.
+4.	On the command bar, select **New**.
 
-5.	Under **Step 1: Define the metric**, fill in the information:
+5.	Under **Step 1: Define the metric**, fill in the following information:
 
-    a.	**Name**. Required. Enter a name between 1 and 100 characters.
+    a.	**Name**: Enter a name between 1 and 100 characters.
     
-    b.	**Metric Type**. Required. To track a monetary amount, select **Amount**. To track another type of amount, such as how many new contacts are added, select **Count**.
+    b.	**Metric Type**: To track a monetary amount, select **Amount**. To track another type of amount, such as how many new contacts are added, select **Count**.
 
     
     > [!NOTE]
     > After you save the goal metric, you will no longer be able to edit this field.
     
-    c.	**Amount Data Type**. Required. This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
+    c.	**Amount Data Type**: This option is not available if the you chose is **Count** as the **Metric Type** because [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] automatically sets the data type to integer.
     
     > [!NOTE]
     > After you save the goal metric, you will no longer be able to edit this field.
     
-    d.	**Track Stretch Target**. Select this check box if you want this metric to track an additional target beyond the primary goal.
-
-    > [!div class="mx-imgBorder"]
-    > ![Goal metric form.](media/goal-metric-form.png "Goal metric form")
+    d.	**Track Stretch Target**: Select this check box if you want this metric to track an additional target beyond the primary goal.
  
 6.	Select **Save**.
 
+    :::image type="Goal metric form" source="media/goal-metric-form.png" alt-text="Goal metric form":::
+
 7.	On the **Rollup Fields** tab, define how you want to calculate the actual and in-progress values for this metric. For example, let's say your goal metric is based on revenue. You can define your rollup fields as shown in the following screenshot:
 
-       > [!div class="mx-imgBorder"]
-       > ![Rollup fields tab on goal metric form.](media/rollup-fields-tab-goal-metric-form.png "A screenshot of the rollup fields for the revenue goal metric.")
+       :::image type="Rollup fields tab on goal metric form" source="media/rollup-fields-tab-goal-metric-form.png" alt-text="A screenshot of the rollup fields for the revenue goal metric":::
 
     a.	Select **Add New Rollup Field**.
 
@@ -91,15 +83,13 @@ Goal metrics let you clearly define how a goal will be measured. For example, a 
 
       - **Source Record Type Status:** Select the status of the records you want to use as the source of the rollup data for the metric. State and status may be identical, depending on the record type you selected.
 
-          > [!div class="mx-imgBorder"] 
-          > ![Rollup fields tab.](media/rollup-fields-tab-source-data-goal-metric-form.png "Rollup fields tab")
+          :::image type="Rollup fields tab" source="media/rollup-fields-tab-source-data-goal-metric-form.png" alt-text="Rollup fields tab":::
 
       - **Record Type:** Select the entity that contains the date field you want. Typically, you can only choose the same record type you selected as the Source Record Type.
 
       - **Date Field**. Select a date field you want to use to determine the goal period that the records will roll up into. Example: Actual Close Date.  
 
-         > [!div class="mx-imgBorder"]
-         > ![Specify a date field that determines the goal period.](media/rollup-fields-tab-goal-period-goal-metric-form.png "Specify a date field that determines the goal period")
+         :::image type="Specify a date field that determines the goal period" source="media/rollup-fields-tab-goal-period-goal-metric-form.png" alt-text="Specify a date field that determines the goal period":::
  
     e. Select **Save & Close**.
 

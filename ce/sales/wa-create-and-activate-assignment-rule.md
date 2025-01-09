@@ -21,7 +21,7 @@ A rule considers only the records that are created or updated after it's activat
 
 Watch this brief video to learn more about assignment rules in sales accelerator:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=98c3652e-249c-4344-b72a-29e286fb1c73]
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
