@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 10/18/2024
+ms.date: 01/09/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -51,7 +51,7 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
       :::image type="content" source="../media/visual-incoming-conversations.png" alt-text="Screenshot of adding a table visualization to a report in the embedded Power BI editor.":::
 
-   - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
+   - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. Learn more in [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
 
       :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
 
@@ -71,7 +71,7 @@ To continue editing the report after you publish it, select **Resume editing**.
 
 The out-of-the-box data model consists of *facts* and *dimensions*. Facts represent the data you want to analyze. Dimensions represent the attributes of the data that you want to break down to explore further.
 
-Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time**, while **FactAgent** has **Agent metrics**.  
+Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time** and **Average conversation talk time**, while **FactAgent** has **Agent metrics**.  
 
 You can use facts and dimensions to visualize data according to your organizational requirements. If you'd like to understand how average handle time varies by queue, create a visualization like a bar chart, and divide the fact **FactConversation** > **Average Handle Time** by the dimension **DimQueue** > **Queue Name**.
 

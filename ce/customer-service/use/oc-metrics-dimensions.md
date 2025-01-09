@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 12/09/2024
+ms.date: 01/09/2025
 ms.custom: bap-template
 ---
 
@@ -198,7 +198,7 @@ For information about metrics that are related to how quickly an agent accepts a
 
 ### Conversation handle time
 
-This metric is a measure of the time that human agents spend actively helping customers and resolving their issues. If multiple agents handle a conversation, the time that all the agents spend is aggregated. This metric also includes time that agents spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other agents spend consulting with agents who are assigned to work on customer conversations.
+This metric is a measure of the time that human agents spend actively helping customers and resolving their issues. If multiple agents handle a conversation, the talk, hold, and wrap-up time that all the agents spend is aggregated. This metric also includes time that agents spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other agents spend consulting with agents who are assigned to work on customer conversations.
 
 An agent is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If an agent is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the agent spends on the conversation on an open tab counts toward that conversation's handle time.
 
@@ -210,7 +210,7 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 #### Related metric
 
-- **Average handle time**: This metric is calculated by dividing the total handle time of all the customer requests by the total number of customers who were served.
+- **Average handle time**: This metric is the average of talk, hold, and wrap-up time across conversations. This calculaiton is applicable to out-of-the-box Omnichannel realtime Agent, Voice, and Summary reports. 
 
 For information about metrics that are related to the time that individual agents spend when multiple agents handle conversations, go to the [Average session handle time](#average-session-handle-time) section.
 
@@ -222,9 +222,13 @@ There are several reasons why an agent might put a customer on hold. For example
 
 :::image type="content" source="../media/conversation-hold-time.png" alt-text="Diagram that illustrates conversation hold time and talk time.":::
 
+For the Voice report, this metric is a measure of talk, hold, and active wrap-up time.
+
+:::image type="content" source="../media/voice-aht-cal.jpg" alt-text="Screenshot of avergade handle time calcualtion for voice.":::
+
 ### Average conversation talk time
 
-This metric is a measure of the average time, in seconds, that human agents spent actively conversing with customers on the phone for voice conversations. If multiple agents handled the conversation, the conversation talk time is aggregated across all the agents. This metric is calculated by dividing the total talk time for all customer requests by the total number of customers who were served.
+This metric is a measure of the average time, in seconds, that human agents spent actively conversing with customers on the phone for voice conversations. If multiple agents handled the conversation, the conversation talk time is aggregated across all the agents. This metric is calculated by dividing the total talk time for all customer requests by the total number of customers who were served. This is a direct measure obtained from Fact Conversation.
 
 #### Related metric
 
@@ -294,7 +298,7 @@ This metric is like conversation handle time, but it's granular and is calculate
 
 #### Related metric
 
-- **Session handle time**: This metric is a measure of the time that agents spend helping customers on assigned customer requests.
+- **Session handle time**: This metric is a measure of the time that agents spend helping customers on assigned customer requests. Each session is per agent engagement in the conversation.
 
 ### Customer sentiment
 
