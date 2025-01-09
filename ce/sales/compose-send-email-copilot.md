@@ -7,7 +7,7 @@ ms.reviewer: udag
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.topic: how-to 
-ms.date: 09/05/2024
+ms.date: 12/13/2024
 ms.custom: bap-template
 ---
 
@@ -17,6 +17,8 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
+> [!NOTE]
+> From the version  9.2.24124.0010, composing and sending email using Copilot side pane is not supported and is deprecated in a phased manner. You can use the [Copilot email assist](enable-copilot-email-assist.md) feature to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist).  
 
 Copilot for email suggests content while composing or replying to emails, saving you time and effort. It provides AI-generated drafts based on your input, recent emails, and related information. You can select from predefined response categories or input your own text, and the AI generates the suggested content. You can use it as-is or modify it as per your requirements.
 
@@ -57,10 +59,8 @@ When you're sending an email, you can provide the context for the email in the C
 
     A draft is generated for the statement. Review the suggested content.  
 
-    :::image type="content" source="media/copilot-draft-email-suggestion.png" alt-text="Screen shot of copilot pane with draft email suggestion.":::
-
     Do the following according to your needs:  
-    - If the content meets your needs, select **Add to email** to insert it directly into the email body. Also, you can select the copy icon to copy the content and paste it into the email body. If required, edit the content according to your requirements and send the email.  
+    - If the content meets your needs, select **Add to email** to insert it directly into the email body. Also, you can select the copy icon to copy the content and paste it into the email body. If necessary, edit the content according to your requirements and send the email.  
     - If you want to fine-tune the suggested content, select the **Adjust draft** icon. Then, select your desired tone under the **Adjust tone** section and input your preferred statement into the **Add details** textbox. To refine the draft, see [Refine suggested content](#refine-suggested-content).  
     - If you’re not satisfied with the draft and generate new content based on the same statement, select **More options** > **Try again**. More information, see [Refine suggested content](#refine-suggested-content).  
 
@@ -74,7 +74,7 @@ After you’ve generated the suggested content, you can refine the results furth
 
 1. Choose the tone type under **Adjust tone**.  
 
-    The tone type is selected by default based on the statement you entered and it is grayed out. You can choose a different tone type if required. The following tone types are available: **Formal**, **Professional**, and **Friendly**.
+    The tone type is selected by default based on the statement you entered and it's grayed out. You can choose a different tone type if necessary. The following tone types are available: **Formal**, **Professional**, and **Friendly**.
 
 1. Enter a statement to refine the suggested content in the **Add details** textbox. For example: Make it formal, make it shorter, or suggest a meeting next week. 
 
@@ -89,14 +89,13 @@ After you’ve generated the suggested content, you can refine the results furth
 1. Review the suggested content and select  **Add to email** or the copy icon to paste the content in the email body.  
 
 > [!NOTE]
-> To restore the content to the previous version, select **More options** and then select **Restore last version**. 
+> To restore the content to the previous version, select **More options** and then select **Restore last version**.  
 
 **To start a fresh draft**:
 
 1. Select **More options** > **Start over**.  
 
     The Copilot email composer is cleared and you can start a new draft.
-
 
 ## Related information
 

@@ -14,9 +14,9 @@ Field technicians often travel to various locations throughout their workday, an
 
 Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board and see their location history.
 
-For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer the the written documentation for accurate feature descriptions and requirements.
+For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer to the written documentation for accurate feature descriptions and requirements.
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mZ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=9370c86c-629e-4979-ab82-de3724fa1a1f]
 
 ## Prerequisites
 
@@ -31,15 +31,11 @@ To send a technician's location information to Field Service, enable location tr
 1. Go to **Geolocation** > **Geolocation Settings**.
 1. Set **Enable Location Tracking** to **Yes**.
 1. Enter a **Refresh Interval (seconds)** to define how often the system checks the location information. We recommend values between 60 and 300 seconds.
-1. Optionally, set the time and day for when you want the system to track location data.
+1. Set the **Tracking Times** by date for when you want the system to track location data. 
 
 ### Location tracking events
 
-The *Geolocation Tracking (msdyn_geolocationtracking)* table stores all the location information. The following scenarios create new rows:
-
-1. **Sign in**: A user signs in to the Field Service mobile app.
-1. **On the move**: A user moves away from their location more than 200 meters. The system creates new records after every refresh interval.
-1. **On stop after moving**: A user stops changing the location. The system creates a few more records as it settles and then stops.
+The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. Users location is captured at the frequency in the Refresh Interval. The users location is send to the server and stored only during the Tracking Times as set in configuration.  
 
 > [!NOTE]
 > Location tracking events might be sent less frequently based on the mobile device operating system. This frequency can be influenced by battery savings settings, device battery charge status, and other applications running on the device that might consume device resources.

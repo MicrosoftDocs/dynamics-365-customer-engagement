@@ -2,7 +2,6 @@
 title: "Accessible email flow in Dynamics 365 Customer Engagement (on-premises)"
 description: "Improve accessibility when reading and editing email by installing the Email in Unified Interface app to provide users an accessible flow."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

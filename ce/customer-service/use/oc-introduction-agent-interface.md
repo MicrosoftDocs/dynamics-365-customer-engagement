@@ -5,6 +5,7 @@ ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection: get-started
 ---
 
@@ -51,8 +52,6 @@ Omnichannel for Customer Service provides the following key capabilities:
 
 When you start a chat session in Omnichannel for Customer Service, the agent interface has the following components:
 
-- Session panel
-
 - Communication panel
 
 - Application tab panel
@@ -63,14 +62,6 @@ When you start a chat session in Omnichannel for Customer Service, the agent int
 
  > [!div class=mx-imgBorder]
  > ![Session panel in Omnichannel for Customer Service app.](../media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
-
-
-## Session panel
-
-The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
-
- > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app.](../media/oceh-agent-interface-session-panel.png "Session panel in the agent interface of Omnichannel for Customer Service app")
 
 ## Communication panel
 

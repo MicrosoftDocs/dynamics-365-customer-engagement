@@ -1,17 +1,16 @@
 ---
 title: FAQ for copilot features
 description: FAQ for copilot features in Dynamics 365 Customer Service.
-ms.date: 05/14/2024
+ms.date: 12/24/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: 
-  - dyn365-customerservice
 ms.collection: bap-ai-copilot
 ---
-
 
 # FAQ for Copilot in Customer Service
 
@@ -27,16 +26,14 @@ The following table describes the availability of Copilot features across apps.
 
 | Feature name | Customer Service workspace | Customer Service Hub | Custom apps |
 | ------- | ----- | -------- | ----- | 
-| Copilot knowledge chat| ✔ | O | O |
-| Copilot for drafting emails| ✔ | O  |O  |
-| Case summarization| ✔ | O  | O  |
-| Copilot analytics| ✔ | O | O |
-| Conversation summarization| ✔ | ✖ | ✖ |
+| Copilot knowledge chat| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Copilot for drafting emails| Yes | Yes<sup>1</sup>  |Yes<sup>1</sup> |
+| Case summarization| Yes  | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Copilot analytics| Yes | Yes<sup>1</sup> | Yes<sup>1</sup> |
+| Conversation summarization| Yes | No | No |
 
+Yes<sup>1</sup>: Available, but configuration is required in Power Apps 
 
-✔ : Available out of the box 
-O  : Available, but configuration is required in Power Apps 
-✖ : Not available 
 
 ## Why does Copilot come back with a different response to the same exact input? 
 
@@ -59,6 +56,10 @@ Yes. Copilot supports knowledge articles published in the supported languages. S
 - Make sure that you use high-quality knowledge sources for copilot to generate responses from.
 - Revisit your copilot knowledge sources before you enable Copilot.
 - Restrict access to sources from which you don't want your copilot responses to be generated.
+
+## Where can I access feedback for copilot?
+The feedback that you as a customer service representative provide on Copilot responses is stored in  
+the msdyn_copilotinteraction table in Dataverse. Learn more in [Retrieve verbatim feedback](../develop/download-copilot-transcript-data.md#retrieve-verbatim-feedback).
 
 ### Related information
 

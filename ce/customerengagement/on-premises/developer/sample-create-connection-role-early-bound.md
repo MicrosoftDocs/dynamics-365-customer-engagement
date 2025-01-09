@@ -2,7 +2,6 @@
 title: "Sample: Create a connection role (early bound)| MicrosoftDocs"
 description: "The sample code demonstrates how to create a connection role that are used for accounts and contacts."
 ms.custom: 
-ms.date: 01/02/2020
 ms.reviewer: 
 
 
@@ -22,7 +21,7 @@ search.audienceType:
 ---
 # Sample: Create a connection role (early bound)
 
-This sample shows how to create a connection role that can be used for accounts and contacts. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ConnectionRole).
+This sample shows how to create a connection role that can be used for accounts and contacts. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ConnectionRole).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

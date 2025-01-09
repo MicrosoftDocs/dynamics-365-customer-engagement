@@ -38,7 +38,7 @@ This custom action can be used both client-side and server-side. Given below are
 POST [Organization URI]/api/data/v9.1/DeleteOQOILineWithSkipPricingCalculation
 {
     "entityLogicalName": "invoicedetail",
-    "entityId":"91F3EDB0-213B-E911-8190-000D3AFD8945"
+    "entityId":"00aa00aa-bb11-cc22-dd33-44ee44ee44ee"
 }
 ```
 

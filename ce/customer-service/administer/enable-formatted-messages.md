@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.date: 06/14/2024
 ms.topic: how-to
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Enable formatted messages

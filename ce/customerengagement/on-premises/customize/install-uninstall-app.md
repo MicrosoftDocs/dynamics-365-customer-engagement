@@ -2,7 +2,6 @@
 title: "Distribute a managed app with Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to package one or more apps in a solution and import them into other environments. You can also delete a managed app that you no longer need."
 ms.custom: 
-ms.date: 04/01/2022
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

@@ -5,7 +5,7 @@ ms.date: 11/04/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.custom: 
   - dyn365-customerservice
 search.audienceType: 
@@ -30,7 +30,7 @@ The key capabilities of model customization include the ability to:
 
 - Publish the customized report to a specific Microsoft Fabric workspace.
 
-- Customize the report site map and enable users to access the reports natively from Customer Service workspace.
+- Customize the report site map and enable users to access the reports natively from the Customer Service workspace app.
 
 - Auto refresh reports as soon as source data is updated.
 
@@ -80,8 +80,8 @@ Before you begin, you must complete the following prerequisites:
 
  1. In the Customer Service admin center site map, select **Insights** in **Operations**.
  1. On the **Insights** page in the **Report settings** section:
-     1. For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
-     1. For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
+     - For historical, select **Embedded Power BI extensibility - Historical data model customization** and then select **Manage**.
+     - For real time, select **Embedded Power BI extensibility - Real-time data model customization** and then select **Manage**.
  1. On the selected page, switch the **Enable embedded Power BI data model customization** toggle to **On**.
 
 ## Step 1: Select a Microsoft Fabric workspace
@@ -151,7 +151,7 @@ The dropdown list is populated with the reports in the workspace configured on S
 
 The customized reports site map in the Customer service workspace is shared between historical and real-time data model customization features. You can reorder the reports on both historical and real time admin pages. For both historical and real time, you can modify or delete reports added from the respective historical and real-time data model customization pages only.
 
-You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-converations-in-customized-reports) on model customized reports.
+You can also perform supervisor actions like [assign, transfer, monitor, and force close](../use/realtime-ongoing.md#assign-transfer-monitor-or-force-close-conversations-in-customized-reports) on model customized reports.
 
 ## Enable automatic page refresh for reports
 

@@ -1,7 +1,7 @@
 ---
 title: "Enable or disable saving of business card image (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Configure whether to retain the business card image in Dynamics 365 Sales after it is scanned."
-ms.date: 10/26/2021
+ms.date: 01/03/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -29,8 +29,8 @@ You can enable or disable this option from the **App Settings** page in Sales Hu
     ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
 
-2. Under **General Settings**, select **Overview**.
-1. Select **Manage** next to **Business card scan**.  
+2. Under **General Settings**, select **Productivity tools**.
+1. Select **Business card scan**.  
 1. Set **Scan and digitize business cards** to **Yes** or **No** depending on whether your organization wants to save and associate the business card images with the contact or lead record.
 1. Save the changes.
 
@@ -38,8 +38,7 @@ You can enable or disable this option from the **App Settings** page in Sales Hu
 
 1.  In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    :::image type="Advanced Settings option on the Settings menu" source="media/advanced-settings-option.png" alt-text="Advanced Settings option on the Settings menu":::
 
     The **Business Management** page opens.
     > [!NOTE]

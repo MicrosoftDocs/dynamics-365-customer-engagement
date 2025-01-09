@@ -71,7 +71,7 @@ To add manual activities, see [Track and manage activities](manage-activities.md
 
 The sequence preview gives you a complete overview of the sequence, including the progress and activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW16PET]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=96fc7570-a0c7-4529-820e-d6f6e77f7953]
 
 The following image shows an example of a sequence preview.
 

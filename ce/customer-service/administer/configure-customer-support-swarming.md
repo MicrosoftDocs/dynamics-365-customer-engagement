@@ -5,7 +5,7 @@ ms.date: 06/04/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure customer support swarming for complex cases

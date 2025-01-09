@@ -1,12 +1,12 @@
 ---
 title: Support for live chat and asynchronous channels
 description: Get information on the support for adaptive cards, suggested actions, emojis, stickers, file attachments, and message formatting in live chat and asynchronous channels.
-ms.date: 10/11/2024
+ms.date: 12/11/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Support for live chat and asynchronous channels
@@ -19,7 +19,7 @@ The following table lists the rich cards that are supported across different cha
 
 | Channel | Hero card | Thumbnail card | Audio card | Card carousel |
 |---------------|-----------|-------------|------------|----|
-| Microsoft Teams  | ✔     |  ✔   |  ✖  | ✔  |
+| Microsoft Teams  | ✔    |  ✔   |  ✖  | ✔  |
 | LINE    | ✔ | ✔ | 🌐  | ✔|
 | Custom (Direct Line) | ✔ |  ✔ | ✔*  | ✔* |
 
@@ -66,8 +66,8 @@ You can enable file attachments on the **General settings** tab of a channel so 
 | Apple Messages for Business | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF.<br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .caf, .pkpass, .usdz |
 | Facebook             | Image, Audio, Video, Document, GIF, and Emoji | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx, .xls |
 | LINE                 | Image, Audio, Video, and GIF                   | Image, Audio, Video, Document, and GIF <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif | 
-| WhatsApp (Twilio)            | Image, Audio, Video, GIF, and PDF               | Image, Audio, Video, and PDF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
-| WhatsApp (Azure Communication Services)         | Image, Audio, Video, pdf, and GIF   <br><br> Allowed file extensions: .xls,.pdf, .docx, .gif, .wav, .mp3, .ogg, .mp4, .avi, .txt, .webp. and.jpg                | Image files <br><br> Allowed file extensions: .jpg, .png |
+| WhatsApp (Twilio)            | Image, Audio, Video, and PDF               | Image, Audio, Video, and PDF  <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf |
+| WhatsApp (Azure Communication Services)         | Image, Audio, Video, PDF, and GIF    | Image, Audio, Video, PDF, and GIF <br><br> Allowed file extensions:  .xls, .pdf, .docx, .gif, .wav, .mp3, .ogg, .mp4, .avi, .txt, .webp, .jpg               |
 | SMS (Twilio)         | Image, Video, GIF, and Emoji                   | Image, Audio, Video, and GIF   <br><br> Allowed file extensions: .jpg, .jpeg, .gif, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .csv |
 | Custom messaging (Direct Line) | All types except blocked types in org      | All types except blocked types in org <br><br> Allowed file extensions: .jpg, .jpeg, .png, .mp3, .oga, .ogg, .amr, .mp4, .pdf, .docx, .txt, .gif, .xlsx |
 

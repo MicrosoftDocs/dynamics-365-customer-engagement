@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/28/2024
+ms.date: 11/12/2024
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -11,7 +11,6 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/26/2023
   - bap-template
-ms.collection: bap-ai-copilot 
 ---
 
 # Work with the mobile app (Unified Interface)
@@ -42,7 +41,7 @@ Select a booking to see more details about the job, such as booking time, planne
 
 For more complex locations, Field Service supports [functional locations that let you structure locations](../functional-locations.md). Watch this video to learn more about functional locations in the Field Service mobile app:
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=daf7fee7-d10a-4681-81ee-9749ef043608]
 
 ## Do and record your work
 
@@ -80,7 +79,7 @@ From the main menu, go to **Time Entry** to create them.
 
 Watch this video to learn more about time entry in the Field Service mobile app:
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=881e6a12-aca1-43ec-9a7d-5cb5ea876e22]
 
 ## Create follow-up work orders
 
@@ -105,7 +104,7 @@ If users don't see the follow-up option, an administrator needs to assign them [
 
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=7819da69-648c-459f-931c-5c26a69e566a]
 
 ## Troubleshoot app issues
 

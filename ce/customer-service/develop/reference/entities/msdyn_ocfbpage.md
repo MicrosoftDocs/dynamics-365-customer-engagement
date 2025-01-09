@@ -5,6 +5,7 @@ ms.date: 08/31/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # msdyn_ocfbpage Entity Reference
 

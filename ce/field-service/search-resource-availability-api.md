@@ -1,7 +1,7 @@
 ---
 title: Search resource availability API
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 09/11/2024
+ms.date: 12/12/2024
 ms.topic: reference
 author: mkelleher
 ms.author: mkelleher
@@ -42,7 +42,7 @@ The settings entity isn't an entity that exists in the Dataverse; however, it's 
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False
 | SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection represents one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources are returned for onsite requirements.
-| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | Resource Availability Retrieval Limit from schedulable entity definition
+| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | If this attribute is not included in the API call, the system uses the Resource Availability Retrieval Limit from schedulable entity definition as defined in [Edit settings for enabled entities](schedule-new-entity.md#edit-settings-for-enabled-entities). If included in the call, it will overwrite the defined Resource Availability Retrieval Limit.
 | ConsiderOutlookSchedules | Boolean | Set this to _True_ if schedules from Outlook should be considered. Only available in versions 3.1.0 and later | No | False
 
 ### Resource specification entity
@@ -102,7 +102,7 @@ At the highest level, the output has the following four parameters. The results 
 | IsDuplicate | Boolean | A boolean value indicating if the time slot is a duplicate. |
 | AllowOverlapping | Boolean | A boolean value indicating if overlapping is allowed. |
 | Resource| Entity | The resource to which the time slot belongs. For more information, see [time slot resource](#time-slot-resource).|
-| Location| Entity | The location has three attributes: <ol> <li> **Location** (_Entity_): It has two attributes - <ul> <li> Latitude <li> Longitude </ul> <li> **WorkLocation** (_Integer_): It has three attributes - <ul> <li> Onsite <li> Facility <li> Location Agnostic </ul> <li> **LocationSourceSlot** (_Integer_): The source of location information has three attributes - <ul> <li> Common <li> Custom GPS entity <li> Mobile audit </ul> |
+| Location| Entity | The location has three attributes: <ol> <li> **Location** (_Entity_): It has two attributes - <ul> <li> Latitude <li> Longitude </ul> <li> **WorkLocation** (_Integer_): It has three attributes - <ul> <li> Onsite. Onsite requirements exclude pool and facility resource types from the results. <li> Facility <li> Location Agnostic </ul> <li> **LocationSourceSlot** (_Integer_): The source of location information has three attributes - <ul> <li> Common <li> Custom GPS entity <li> Mobile audit </ul> |
 | Travel| Entity | This entity contains details of travel time and distance information for a time slot. The following are the attributes: <ol> <li> **Distance** (_Double_): The travel distance <li> **TravelTime** (_Double_):	The travel time in minutes. <li> **DistanceFromStartLocation** (_Double_): The distance from the resource’s start location. <li> **DistanceFromEndLocation**	(_Double_):	The distance from the resource’s end location. <li> **DistanceMethodSourceSlot**	(_Integer_): The source / calculation type of the distance values <ul> <li> Map Service <li> As the crow flies </ul> |
 | Next| Entity  | This entity contains details about the travel time and distance to the next time slot booking. <ol> <li> **NextScheduleLocation**	(_Entity_): The location of the next booking. The entity has two attributes: <ul> <li>Latitude <li>Longitude </ul> <li> **NextScheduleTravelTime** (_Integer_):	The travel time to the next booking in minutes. |
 | Availability| Entity | The detailed availability information for a time slot. This is used with time groups. <ol> <li> **AvailableIntervals**	(_EntityCollection_):	A collection of available intervals. Each entity in this collection contains details about a time group interval. <ul> <li> **StartTime**	(_DateTime_):	The start time.<li> **ArrivalTime**	(_DateTime_):	The arrival time.<li> **EndTime**	(_DateTime_):	The end time.<li> **TimeGroupId**	(_DateTime_):	The time group ID.<li> **TimeGroupDetailStartTime**	(_DateTime_):	The time group start time. <li> **TimeGroupDetailEndTime**	(_DateTime_):	The time group end time.</ul> <li> **TotalAvailableDuration**	(_Double_):	The total available duration in minutes. <li> **TotalAvailableTime** (_Double_): The total available time a resource has in a day (in minutes).|
@@ -184,6 +184,10 @@ In this example, v3 of schedule assistant API, which allows for web API calls, i
                     "value": "cc19f004-4483-ee11-8178-000d3a5c32c3"
                 }
             ]
+        }
+    }
+}
+
 ```
 
 The following example demonstrates proper usage of entity collections. In this case, it specifies MustChooseFromResources.
@@ -203,6 +207,7 @@ The following example demonstrates proper usage of entity collections. In this c
     "Settings": {
         "ConsiderSlotsWithProposedBookings": false,
         "MovePastStartDateToCurrentDate": true,
+        "MaxNumberOfResourcesToEvaluate":500,
         "@odata.type": "Microsoft.Dynamics.CRM.expando"
     },
     "ResourceSpecification": {
@@ -247,7 +252,5 @@ The following example demonstrates proper usage of entity collections. In this c
         }
     }
 }
-        }
-    }
-}
+
 ```

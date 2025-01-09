@@ -1,5 +1,5 @@
 ---
-title: Configure advanced options for inspections (contains video)
+title: Configure advanced options for inspections
 description: Learn about advanced ways of working with inspections in Dynamics 365 Field Service.
 ms.date: 06/04/2024
 ms.topic: how-to
@@ -14,7 +14,7 @@ Along with simple lists of questions, [inspections](inspections.md) can incorpor
 
 Watch a brief video overview:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JiMF]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=86773f8a-0064-4c5a-8a54-64a7e2e283b3]
 
 ## Add branching and conditional logic
 

@@ -3,10 +3,10 @@ title: Use Copilot to summarize cases and conversations
 description: Learn how agents can use Copilot to summarize cases and conversations in Customer Service workspace.
 author: gandhamm 
 ms.author: mgandham 
-ms.reviewer: neeranelli 
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/07/2024
+ms.date: 11/28/2024
 ms.custom: bap-template 
 ---
 
@@ -49,7 +49,7 @@ Based on your administrator's configuration, you'll see the following:
 - The summary is displayed in a paragraph format or a structured format.
   - The paragraph format summarizes the conversation in a single paragraph.
      :::image type="content" source="../media/copilot-conv-summary.png" alt-text="Screenshot of a Copilot conversation summary.":::
-  - The structured format summarizes and organizes the information in the conversation based on the options your administrator has selected. 
+  - The structured format summarizes and organizes the information in the conversation based on the options your administrator has selected. <br>
      :::image type="content" source="../media/structured-conv-summary.png" alt-text="Screenshot of a structured Copilot conversation summary.":::
        
 You can also take the following actions:

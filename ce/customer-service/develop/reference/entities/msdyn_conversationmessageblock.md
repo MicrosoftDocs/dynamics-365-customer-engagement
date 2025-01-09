@@ -5,6 +5,7 @@ ms.date: 08/08/2023
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # msdyn_conversationmessageblock table

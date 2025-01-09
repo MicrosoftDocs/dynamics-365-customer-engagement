@@ -2,7 +2,6 @@
 title: "Actions on dashboards (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about performing actions such as create, retrieve, update, or delete, on organization-owned and user-owned dashboards. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
