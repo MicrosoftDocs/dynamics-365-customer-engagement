@@ -1,7 +1,7 @@
 ---
 title: Customer Service workspace system requirements
 description: Learn about the system requirements and prerequisites to use Customer Service workspace.
-ms.date: 01/07/2025
+ms.date: 01/09/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
