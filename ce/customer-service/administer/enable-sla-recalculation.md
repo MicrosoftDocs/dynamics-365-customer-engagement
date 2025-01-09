@@ -20,7 +20,7 @@ ms.collection: get-started
 
 The terminal states for SLA KPI Instances are succeeded, cancelled, and non-compliant. The recalculation of SLAs that happens after SLAs reach either the succeeded or non-compliant state depends on the following conditions:
 
-- If there are changes to the applicable when condition, SLAs in succeeded or non-compliant states are recalculated provided that the recalculate SLA option is set to Yes. However, the recalculation would be cancelled if the applicable when condition doesn't meet the criteria.
+- If there are changes to the applicable when condition, SLAs in succeeded or non-compliant states are recalculated provided that the recalculate SLA option is set to Yes. However, the SLA KPI Instance would be cancelled if the applicable when condition doesn't meet the criteria.
 - When a SLA KPI Instance is in the succeeded state, it continues to remain in the same state irrespective of changes to the success conditions. Changes occur only if the recalculated SLA option is set to yes and success conditions changes.
 - If the SLA KPI Instance is in the non-compliant state, it would remain in the same state irrespective of changes to success conditions and even if the recalculated SLA option is set to yes.
 - If the SLA KPI Instance is in an expired state and the applicable when or success condition changes, then SLAs are recalculated if the recalculate flag is on.
