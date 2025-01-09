@@ -20,7 +20,7 @@ As an admin, use the Power Apps component framework to build a service report fo
 
 For a guided walkthrough, check out the following video.
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyFjo]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=fd4ed064-bd88-4e25-800d-bcfedb37936d]
 
 ### Import the reporting solution
 

@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service mobile app overview
 description: Learn about the Field Service mobile app, key features, and system requirements with this general overview.
-ms.date: 08/28/2024
+ms.date: 01/06/2025
 ms.topic: overview
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -10,11 +10,11 @@ ms.author: jobaker
 
 # Dynamics 365 Field Service mobile app overview
 
-Service technicians and frontline workers are the essence of any field service organization. They're the vanguard of providing excellent customer service. It's critical that frontline workers have the best digital tools that enable them to engage with their peers, the back office, and customers while staying on top of their field duties. The Field Service mobile app enables technicians and frontline workers to perform better service and achieve high first-time fix rates.
+Service technicians and frontline workers are the essence of any field service organization. They're the vanguard of providing excellent customer service. It's critical that frontline workers have the best digital tools that enable them to engage with their peers, the back office, and customers while staying on top of their field duties. The Field Service mobile app enables technicians and frontline workers to perform better service and achieve high first-time fix rates. The app includes offline capabilities that allow frontline workers to continue working and viewing job details even without internet access.
 
 The [app is available for Apple iOS, Google Android, and Windows 10+ devices](download-mobile-app.md). It's included in your Field Service license at no extra charge.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78a4ad09-8320-4895-a69f-100cbf46ac14]
 
 The mobile app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview), which makes it customizable to your business needs.
 

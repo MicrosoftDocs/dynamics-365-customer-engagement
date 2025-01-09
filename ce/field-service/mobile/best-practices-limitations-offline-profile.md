@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 12/13/2024
+ms.date: 01/06/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -18,7 +18,7 @@ Even if you think your field technicians will always have a reliable Internet co
 
 The offline profile manages offline record types, relationships, and user assignments. For a guided walkthrough, watch this brief video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a8c93a4c-4b9c-4883-a76e-089f720376c8]
 
 The Field Service mobile app follows the same architecture and security as a Power Apps mobile app. [Learn more about Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 
@@ -26,7 +26,7 @@ The Field Service mobile app follows the same architecture and security as a Pow
 
 Before you set up the offline profile, consider these important guidelines:
 
-- **Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend that using the default offline profile provided by Field Service. The **Field Service Mobile - Offline Profile** provides an ideal starting point for offline scenarios. It has common Field Service tables preconfigured for offline use, and recommended filters to limit the data that gets downloaded. Build on it by including your custom record types. Make sure to limit the amount of data you include in the offline profile for the best sync performance.
+- **Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend using the default offline profile provided by Field Service. The **Field Service Mobile - Offline Profile** provides an ideal starting point for offline scenarios. It has common Field Service tables preconfigured for offline use, and recommended filters to limit the data that gets downloaded. Build on it by including your custom record types. Make sure to limit the amount of data you include in the offline profile for the best sync performance.
 
   The default offline profile receives updates to unchanged table sync filters. You can copy the default profile and make changes to the copy, but the copy is unmanaged and doesn't receive any updates.
 

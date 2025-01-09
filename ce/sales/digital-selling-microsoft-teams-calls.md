@@ -27,7 +27,7 @@ Microsoft Teams dialer helps sellers to be more productive and get work done mor
 
 Conversation intelligence uses analytics and data science to gather data from sellers' call recordings and Dynamics 365 Sales. Conversation intelligence analyzes the data to provide you with the information and insights to intelligently manage your sales team and proactively coach sellers. More information: [Overview of Conversation Intelligence](dynamics365-sales-insights-app.md)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQzQl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=5bf895b2-cc98-4f66-9155-fd3a87bcf53c]
 
 ## Licensing options
 
@@ -90,4 +90,3 @@ If you want to make advanced configurations for Teams calls and conversation int
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)       
 [Lead and opportunity scoring](digital-selling-scoring.md)    
-

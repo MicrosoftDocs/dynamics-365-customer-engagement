@@ -37,7 +37,7 @@ The following table shows the permissions required for a user role to perform ta
 
 ## Use sequence designer
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=8d4385ed-e619-47f4-baa2-4a98f86e9c7d]
 
 You can use the sequence designer to do the following tasks:  
 
