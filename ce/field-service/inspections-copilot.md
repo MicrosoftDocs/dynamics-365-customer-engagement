@@ -4,7 +4,7 @@ description: Learn how to create inspections from existing documents with Copilo
 ms.date: 01/10/2025
 ms.topic: how-to
 author: josephshum-msft
-ms.author: josephs
+ms.author: jshum
 ms.collection: bap-ai-copilot
 ---
 

@@ -4,7 +4,7 @@ description: Get answers to common questions about the AI technology used to cre
 ms.date: 01/10/2025
 ms.topic: how-to
 author: josephshum-msft
-ms.author: josephs
+ms.author: jshum
 ms.custom: 
   - responsible-ai-faqs
 ms.collection: bap-ai-copilot 
