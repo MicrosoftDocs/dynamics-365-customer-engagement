@@ -17,7 +17,7 @@ Avoid disruptions in service by making sure that your resources are scheduled op
 
 ## Prerequisites
 
-Service Scheduling is a platform-driven update. Learn more in [Set up scenarios](scheduling-experience.md#set-up-scenarios). However, if the update is delayed or fails, you can go to the Power Platform admin center to find the latest version available for Core service scheduling and update your instance. 
+Service Scheduling is a platform-driven update. Learn more in [Set up scenarios](scheduling-experience.md#set-up-scenarios). However, if the update is delayed or fails, you can update your instance with the latest version available for Core Service Scheduling in Power Platform admin center. 
 
 You need to enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
 
