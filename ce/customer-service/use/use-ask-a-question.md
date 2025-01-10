@@ -83,7 +83,7 @@ When you have an active case or conversation open, Copilot suggests prompts base
 - For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
 
 > [!NOTE]
-> Auto prompts for cases are available in the Customer Service workspace only.
+> Copilot generates auto prompts based on case data in the Customer Service only.
 
 ## Use proactive prompts
 
@@ -97,7 +97,7 @@ Copilot proactively suggests prompts, without you having to type one, that you c
     :::image type="content" source="../media/proactive-prompting.png" alt-text="Screenshot shows options in proactive prompting.":::
 
 > [!NOTE]
-> Proactive prompts for cases are available in the Customer Service workspace only.
+> Copilot generates proactive prompts based on case data in the Customer Service only.
 
 ## View responses
 

@@ -38,11 +38,10 @@ Your administrator has enabled this feature.
   
   ### [Draft an email in the rich text editor](#tab/richtexteditor)
 
+   [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+
    :::image type="content" source="../media/draft-an-email-inline.png" alt-text="Screenshot of draft an email in rich text editor.":::
-
-   > [!NOTE]
-   > Draft an email in the rich text editor is available in Dynamics 365 Customer Service and Dynamics 365 Contact Center&mdash;standalone only.
-
 
   ---
 
@@ -66,10 +65,9 @@ When you use Copilot to draft an email, you can use the following features to he
 
 ### Use filters
 
-You can select **Filters** to choose the relevant knowledge articles only that Copilot must use to generate the response.
+[!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
 
-> [!NOTE]
-> Filters are available in Dynamics 365 Customer Service only.
+You can select **Filters** to choose the relevant knowledge articles only that Copilot must use to generate the response.
 
 ### How Copilot uses knowledge base and web sources
 
@@ -92,10 +90,9 @@ You can select the Adjust with Copilot icon to change the length and tone of the
 
 ### Use follow-up prompts
 
-If you aren't satisfied with Copilot's response, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can use up to five prompts at a time to refine the email draft. If the knowledge base is enabled, Copilot will also use those sources.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-> [!NOTE]
-> Follow-up prompts are available in Customer Service and the Dynamics 365 Contact Center&mdash;standalone experience only.
+If you aren't satisfied with Copilot's response, you can use follow-up custom prompts and guide Copilot in a natural, conversational way. You can use up to five prompts at a time to refine the email draft. If the knowledge base is enabled, Copilot will also use those sources.
 
 ### Use the responses
 
