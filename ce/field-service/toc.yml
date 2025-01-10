@@ -633,8 +633,6 @@ items:
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
-    - name: FAQ about Field Service Plugin for Microsoft Copilot
-      href: faqs-m365-chat.md
 
 - name: More resources
   items:
