@@ -12,7 +12,6 @@ ms.custom: bap-template
 
 # Summarize cases
 
-[!INCLUDE[cc-feature-availability-standalone-no](../../includes/cc-feature-availability-standalone-no.md)]
 
 Copilot case summaries help you quickly understand the context of a case and resolve customer issues more efficiently. The case summary includes key information such as the case title, customer, subject, product, priority, case type, and description.
 
@@ -32,6 +31,8 @@ Your administrator has enabled the Copilot case summary feature.
 
 ### View case summary
 
+[!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
+
 The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary.
 
 :::image type="content" source="../media/copilot-case-summary.png" alt-text="Screenshot of a Copilot case summary.":::
@@ -45,6 +46,8 @@ You can copy the summary, refresh it, and provide feedback.
 Alternatively, you can also generate a case summary from the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases and ask about case data](use-ask-a-question.md#summarize-cases-and-ask-about-case-data).
 
 ## Summarize cases in non-Microsoft CRMs
+
+[!INCLUDE[cc-feature-availability-embed-only](../../includes/cc-feature-availability-embed-only.md)]
 
 If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. 
 

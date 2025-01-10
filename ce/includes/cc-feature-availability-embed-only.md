@@ -1,0 +1,1 @@
+_** Feature applies to**: Dynamics 365 Contact Center&mdash;embedded, Microsoft 365 Copilot for Service_
