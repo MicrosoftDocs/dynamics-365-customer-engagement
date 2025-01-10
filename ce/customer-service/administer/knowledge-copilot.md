@@ -43,7 +43,7 @@ The performance of your Copilot is highly correlated to the quality of the knowl
 1. In Customer Service admin center, select **Save** or **Save and close**.
 1. On the **Publish knowledge sources** dialog that appears, select **Publish**.
 
-If you made any unpublished modifications to the Copilot plugins, you see a **Detected unpublished plugin** dialog. Select **Publish** if you are ready to publish the unpublished plugin changes. Learn more about plugins in [Enable plugins for generative AI (preview)](enable-copilot-plugins-for-generative-ai.md#enable-plugins-for-generative-ai-preview).
+If you made any unpublished modifications to the Copilot plugins, you see a **Detected unpublished plugin** dialog. Select **Publish** if you're ready to publish the unpublished plugin changes. Learn more about plugins in [Enable plugins for generative AI (preview)](enable-copilot-plugins-for-generative-ai.md#enable-plugins-for-generative-ai-preview).
 
 > [!NOTE]
 > - Enterprise data that uses Copilot connectors as knowledge sources currently isn't supported. Instead, customers can optionally use Microsoft Graph connectors for their preferred sources.
