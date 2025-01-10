@@ -545,8 +545,6 @@ items:
         href: rso-optimization-goal.md
       - name: Create optimization schedules
         href: rso-optimization-schedule.md
-      - name: Publish schedules and review results
-        href: rso-schedule-optimization.md
       - name: Configure overnight scheduling
         href: rso-overnight-scheduling.md
       - name: Get alerts for failed runs
