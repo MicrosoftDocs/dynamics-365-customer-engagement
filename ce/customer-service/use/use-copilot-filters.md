@@ -12,6 +12,9 @@ ms.custom: bap-template
 
 # Use Copilot filters
 
+[!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
+
+
 Copilot filters help you generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of you getting irrelevant responses when you use Copilot.
 
 > [!NOTE]

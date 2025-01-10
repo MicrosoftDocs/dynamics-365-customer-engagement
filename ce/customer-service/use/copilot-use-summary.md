@@ -18,7 +18,7 @@ Copilot case summaries help you quickly understand the context of a case and res
 
 ## Navigation
 
-- In Customer Service workspace, navigate to a case to view the case summary card.
+- In Customer Service workspace, navigate to a case to view the case summary card. You can also generate a case summary from **Ask a question**.
 - When you sign in to a non-Microsoft CRM, you can generate case summary as follows:
    - Launch the embedded experience and then login to your Dynamics account.
    - In the Copilot help pane that appears, select **Ask a question**.
@@ -42,7 +42,9 @@ You can copy the summary, refresh it, and provide feedback.
 > - You can also generate a case summary for cases that are resolved or canceled.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
-## Summarize cases in non-Microsoft CRM
+Alternatively, you can also generate a case summary from the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases and ask about case data](use-ask-a-question.md#summarize-cases-and-ask-about-case-data).
+
+## Summarize cases in non-Microsoft CRMs
 
 If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. 
 

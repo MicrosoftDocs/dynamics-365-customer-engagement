@@ -23,7 +23,7 @@ ms.custom: bap-template
 | Translate conversation summary   | Yes                           | Yes                                                 | Yes                                               | Yes                               |
 | Customize record summary | Yes                          | No                                               | No                                               | No                             |
 | Ask a question using an internal knowledge base in Dynamics 365  | Yes                          | Yes                                               | Yes                                               | Yes                             |
-| Ask a question using knowledge hub | Yes                          | Yes                                               | Yes                                               | Yes                             |
+| Ask a question using knowledge hub | Yes                          | No                                               | No                                               | No                             |
 | Ask a question using a third-party website | Yes                          | Yes                                               | Yes                                               | Yes                             |
 | Auto prompts based on case data displayed in ask a question | Yes                          | No                                               | No                                              | No |                            
 | Auto prompts based on conversation data displayed in ask a question | Yes                          | Yes                                               | Yes                                              | Yes |  
