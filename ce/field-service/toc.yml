@@ -119,8 +119,6 @@ items:
           href: flw-outlook.md#create-a-work-order-with-copilot
         - name: Draft email response in Outlook
           href: flw-outlook.md#draft-an-email-response-with-copilot
-        - name: Chat with Microsoft Copilot for Field Service
-          href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -222,8 +220,6 @@ items:
           href: flw-teams-worker-get-started.md
         - name: Manage work orders with Field Service in Teams
           href: flw-teams-worker.md
-    - name: Field Service Plugin for Microsoft Copilot
-      href: flw-m365-chat.md
 
 - name: Collaborate with Microsoft Teams
   items:
