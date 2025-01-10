@@ -71,6 +71,9 @@ You can make the following types of requests:
 
 ## [Embedded experience](#tab/embeddedapps)
 
+[!INCLUDE[cc-feature-availability-embed-only](../../includes/cc-feature-availability-embed-only.md)]
+
+
 If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases](copilot-use-summary.md#summarize-cases-in-non-microsoft-crm).
 
 ---
@@ -111,6 +114,8 @@ If your administrator enabled translation, you can select **Translate** and then
 
 ### Use targeted phrases in Copilot to get responses from plugins (preview)
 
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 If your administrator has configured prompt plugins, you can use targeted keywords to gather quick information about the case that you're working on. For example, you can use the following steps to get the account summary of a case. If Copilot doesn't find any details that match the term, then it falls back to the knowledge source to display the resolution from the configured knowledge articles.
@@ -122,9 +127,6 @@ If your administrator has configured prompt plugins, you can use targeted keywor
 1. You can use the options on the Copilot pane to edit or copy, and provide feedback on the response.
 
     :::image type="content" source="../media/screenshot-of-prompt-plugin-response-in-copilot.png" alt-text="A screenshot of the Copilot response generated through the prompt plugin.":::
-
-> [!NOTE]
-> Using targeted phrases in Copilot to get responses from plugins is available in the Customer Service workspace and Dynamics 365 Contact Center&mdash;standalone experience only.
 
 ### Use the responses
 
