@@ -34,7 +34,7 @@ In 2024, Microsoft released a refreshed user experience for parts of the mobile 
 | [Time entry](get-work-done-mobile-app.md)  | Technician | Yes | In-application Time Entry enabled by default. |
 | [Connected Field Service and IoT alerts](get-work-done-mobile-app.md) | Technician | Yes |  Receive IoT signals and send commands directly from your mobile app. |
 | [Inspections](../inspections.md) | Technician | Yes | A Field Service technician can find and capture inspections associated with a work order. |
-| [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes* | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
+| [Dynamics 365 Remote Assist](/dynamics365/mixed-reality/remote-assist/overview-hololens) | Integration | Yes | Get help from remote collaborators with integrated Dynamics 365 Remote Assist. |
 | [Push notifications](enable-push-notifications.md) | Technician | Yes |  Send user notifications, such as a new booking appointment and other out-of-the-box triggers. |
 | [Geofencing](configure-geofencing.md) | Technician | Yes | Automatically set booking status as a technician arrives or leaves a location. |
 | [Reporting](create-service-report.md) | Technician | Yes | Generate customer service reports with a signature, with the option to email a PDF. |
