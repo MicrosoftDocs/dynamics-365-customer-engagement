@@ -27,8 +27,8 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.138.12
 
-- Improved error messaging on the schedule board
-- Fixed a bug that was causing schedule assistant to open with the incorrect requirement view for some users
+- Improved error messaging on the schedule board.
+- Fixed a bug that was causing schedule assistant to open with the incorrect requirement view for some users.
 - Fixed a bug that was preventing users from using the search box on schedule assistant when no resources are displayed.
 - Improved crew availability logic when dealing with variable crew membership.
 
