@@ -1,6 +1,6 @@
 ---
-title: Use Copilot to summarize cases
-description: Learn how agents can use Copilot to summarize cases in Customer Service workspace.
+title: Copilot feature availability across applications
+description: Learn more about Copilot feature availability across applications.
 author: gandhamm 
 ms.author: mgandham 
 ms.reviewer: mgandham
@@ -15,30 +15,32 @@ ms.custom: bap-template
 
 | Feature                   | Dynamics 365 Customer Service | Dynamics 365 Contact Center - Standalone Experience | Dynamics 365 Contact Center - Embedded Experience | Microsoft 365 Copilot for Service |
 |---------------------------|-------------------------------|-----------------------------------------------------|---------------------------------------------------|-----------------------------------|
-| Summarize cases           | Yes                           | No                                                  | Yes                                               | Yes                               |
-| Customize data used to generate case summary          | Yes                           | No                                                  | No                                               | No                             |
-| Summarize conversations   | Yes                           | Yes                                                 | Yes                                               | No                                |
-| Customize conversation summary format  | Yes                           | Yes                                                 | Yes                                               | No                                |
-| Summarize closed conversations in non-Microsoft CRMs  | No                          | No                                               | No                                               | Yes                             |
-| Translate conversation summary   | Yes                           | Yes                                                 | Yes                                               | Yes                               |
-| Customize record summary | Yes                          | No                                               | No                                               | No                             |
-| Ask a question using an internal knowledge base in Dynamics 365  | Yes                          | Yes                                               | Yes                                               | Yes                             |
-| Ask a question using knowledge hub | Yes                          | Yes                                               | Yes                                               | Yes                             |
-| Ask a question using a third-party website | Yes                          | Yes                                               | Yes                                               | Yes                             |
-| Auto prompts based on case data displayed in ask a question | Yes                          | No                                               | No                                              | No |                            
-| Auto prompts based on conversation data displayed in ask a question | Yes                          | Yes                                               | Yes                                              | Yes |  
-| Proactive prompts based on conversation data displayed in ask a question | Yes                          | No                                               | No                                              | No |  
-| Proactive prompts based on conversation data displayed in ask a question | Yes                          | Yes                                               | Yes                                              | Yes |  
-|Summarize cases in Ask a question| Yes | No | Yes | Yes|
-|Ask about case data in Ask a question| Yes | No | No | No|
-|Ask about case data in Ask a question| Yes | No | No | No|
-|Translate Copilot responses | Yes | Yes | Yes | Yes|
-| Write an email from Copilot help pane | Yes | Yes | Yes | Yes |
-| Internal knowledge sources used to draft emails | Yes| Yes | Yes| Yes|
-| Customize data used to generate email responses | Yes | Yes | No | No|
-| Use Copilot email assist from email editor | Yes | Yes | No| No|
-|Translate copilot generated email drafts | Yes | Yes | Yes | Yes|
-| Draft a chat response | Yes | Yes | No | No|
-| Filter knowledge articles to generate responses | Yes | No | No | No |
-| Copilot dashboard | Yes | Yes | No | No|
+| [View case summary on cases](copilot-use-summary.md)           | Yes                           | No                                                  | Yes                                               | Yes                               |
+| [Customize data Copilot uses for case summaries](../administer/copilot-map-custom-fields.md)          | Yes                           | No                                                  | No                                               | No                             |
+| [Generate conversation summaries](copilot-summarize-conversations.md)   | Yes                           | Yes                                                 | Yes                                               | No                                |
+| [Customize conversation summaries](../administer/customize-copilot-conv-summary.md)  | Yes                           | Yes                                                 | Yes                                               | No                                |
+| [Summarize closed conversations in non-Microsoft CRMs](/microsoft-copilot-service/copilot-ask-a-question)  | No                          | No                                               | No                                               | Yes                             |
+| [View custom record summaries](../administer/copilot-enable-custom-record-summaries.md) | Yes                          | No                                               | No                                               | No                             |
+| Use an internal knowledge base as a knowledge source  | Yes                          | Yes                                               | Yes                                               | Yes                             |
+| [Enable knowledge sources from Microsoft Copilot Studio (preview)](../administer/knowledge-copilot.md) | Yes                          | Yes                                               | Yes                                               | Yes                             |
+| [Add trusted webpages as sources](../administer/copilot-enable-help-pane.md#enable-ask-a-question)  | Yes                          | Yes                                               | Yes                                               | Yes                             |
+| [Use auto prompts based on case data](use-ask-a-question.md#use-auto-prompts) | Yes                          | No                                               | No                                              | No |                            
+| [Use auto prompts based on conversation data](use-ask-a-question.md#use-auto-prompts) | Yes                          | Yes                                               | Yes                                              | Yes |  
+| [Use proactive prompts based on case data](use-ask-a-question.md#use-proactive-prompts) | Yes                          | No                                               | No                                              | No |  
+| [Use proactive prompts based on conversation data](use-ask-a-question.md#use-proactive-prompts) | Yes                          | Yes                                               | Yes                                              | Yes |  
+|[Use targeted phrases in Copilot to get responses from plugins (preview)](use-ask-a-question.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview)| Yes | Yes | No | No |
+| [Filter knowledge articles to generate responses](use-copilot-filters.md) | Yes | No | No | No |
+](use-ask-a-question.md) | Yes | No | No | No |
+|[Summarize cases in non-Microsoft CRMs](/contact-center/use/copilot-use-summary)| Yes | No | Yes | Yes|
+|[Ask about case data](use-ask-a-question.md#summarize-cases-and-ask-about-case-data)| Yes | No | No | No|
+|[Translate Copilot responses](use-ask-a-question.md#translate-responses) | Yes | Yes | Yes | Yes|
+| [Write an email from Copilot help pane](use-copilot-email.md) | Yes | Yes | Yes | Yes |
+| [Internal knowledge sources used to draft emails](use-copilot-email.md#how-copilot-uses-knowledge-base-and-web-sources) | Yes| Yes | Yes| Yes|
+| [Modify the fields used to draft emails](../administer/copilot-email-enable.md#modify-the-fields-used-to-draft-emails) | Yes | Yes | No | No|
+| [Use Copilot email assist from email editor](use-copilot-email.md) | Yes | Yes | No| No|
+|[Translate copilot generated email drafts](use-copilot-email.md#translate-responses) | Yes | Yes | Yes | Yes|
+| [Draft a chat response(preview)](use-copilot-features.md) | Yes | Yes | No | No|
+| [Filter knowledge articles to generate responses](use-copilot-filters.md) | Yes | No | No | No |
+| [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md) | Yes | No | No | No |
+| [Use Copilot analytics](copilot-analytics-report.md) | Yes | Yes | No | No|
 |Resolution Notes| No | No | Yes | Yes |
