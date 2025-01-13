@@ -1,7 +1,7 @@
 ---
 title: Configure who knows whom
 description: Configure who knows whom to help sellers quickly identify colleagues who can introduce them to leads or contacts.
-ms.date: 07/25/2024
+ms.date: 01/10/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -58,10 +58,6 @@ The who knows whom feature helps your sales organization quickly identify collea
 ## Next steps
 
 After you enable who knows whom, you must complete the following steps for the feature to be fully functional.  
-
-- Work with your Microsoft 365 admin to [provide consent to use Exchange data](provide-consent-office365.md).
-
-    Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom is automatically turned off on the 14th day. However, you continue to get the out-of-the-box who knows whom information from Dynamics 365 data.  
 
 - If you'd like roles other than Salesperson and Sales Manager to access the who knows whom information, [grant access to those roles](grant-access-wkw.md).  
 

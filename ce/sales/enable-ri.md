@@ -1,7 +1,7 @@
 ---
 title: Enable relationship intelligence
 description: Enable relationship intelligence in Dynamics 365 Sales Premium to provide relationship analytics and who knows whom information to your sellers.
-ms.date: 08/19/2022
+ms.date: 01/10/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,14 +23,10 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 
 ## Prerequisite
 
-- Ensure that advanced Sales Insights features are enabled. To learn more, [Enable and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
-- Ensure that your Office 365 data is in one of the following locations and not in your region-specific datacenter location:
-    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
-    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
-    - Global Geography 3 – Americas (Brazil, Chile, United States).
+- Ensure that [advanced Sales Insights features are enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features). 
 
-> [!NOTE]
-> If your data center is not in one of the above locations, you can still use relationship intelligence features with data stored in Dynamics 365. However, you won't be able to use Exchange data for enhanced insights.
+- If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
+
 
 ## Enable relationship intelligence
 
@@ -42,12 +38,7 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 1. Under **Get started with Relationship Intelligence**, select **Enable**.
     The relationship intelligence features&mdash;relationship analytics and who knows whom&mdash;are turned on by default.  
 
-
-1. Select the security roles of users whose Exchange data will be used to generate relationship insights.  
-    The security role selection only applies to Exchange data. Data and emails stored in Dynamics 365 will be used to generate insights by default.
-
-    > [!NOTE]
-    >- If you don't want to collect Exchange data at all, you can [turn off exchange integration](configure-relationship-analytics.md) 
+1. Select the security roles of users who need access to relationship insights.  
  
 1. Save the changes.  
     Relationship intelligence features are enabled but you must complete the [next steps](#next-steps), for the features to be fully functional. 
@@ -55,18 +46,10 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 
 ## Next steps
 
-- Work with your Microsoft 365 admin to [provide consent to use Exchange data](provide-consent-office365.md).
-
-    - Until the consent is provided, a banner is displayed on the Relationship insights **Overview** page to notify the pending action.  
-    :::image type="content" source="media/enable-ri-overview-banner.png" alt-text="A screenshot highlighting the message banner when the consent isn't provided":::
-
-    - Make sure to get the consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom and Exchange integration for relationship analytics will be automatically turned off on the 14th day.  
-
 - Select **Options** in the respective feature section to configure the feature. For more information on what you can configure, see:
     - [Configure relationship analytics and health](configure-relationship-analytics.md)
     - [Configure who knows whom](configure-who-knows-whom.md) 
 - [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
-
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

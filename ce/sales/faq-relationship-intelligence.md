@@ -44,18 +44,6 @@ Updated every 24 hours. ​
 ​
 Relationship health looks at activity, recency, engagement, and sentiment of activities between sellers and customers.
 
-### Is Office 365 consent mandatory for the relationship intelligence feature to work?
- 
-Office consent isn't mandatory for relationship analytics, health score, and who knows whom. You’ll get basic relationship insights based on the data in Dynamics 365. When you provide consent in Office 365 to use Exchange data, you’ll get more accurate and complete relationship information.
-
-### What happens if I select the Exchange checkbox but the Office 365 admin hasn’t provided the consent?
-
-The data from Exchange isn't collected until consent is provided. Work with your Office 365 administrator to [get consent to collect Office 365 data](provide-consent-office365.md).
-
-### Why is the Exchange option selected although I didn't select it or provide the required consent?
-
-The Exchange option in Relationship intelligence settings is selected by default in some cases. However, no data is collected from Exchange until your Office 365 administrator provides consent. You can clear the option if you aren't planning to integrate with Exchange.
-  
 ### Can I influence the relationship health score?​
 
 An administrator can influence the relationship health score by changing the weight of activity types and the expected level of communications with customers. More information: [Configure relationship analytics and health](configure-relationship-analytics.md)
@@ -82,7 +70,6 @@ Displays the five colleagues who contacted the customer the most through emails 
 
 - Those colleagues aren't part of your Dynamics 365 org.
 - Those colleagues aren't part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
-- Those colleagues are part of the security group that your Office 365 admin has [opted out](provide-consent-office365.md).
 - Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
@@ -134,8 +121,4 @@ If you've [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-d
 
 ### How can an administrator opt out users?
 
-The following administrators can opt out users at different levels:
-
-- **Microsoft 365 Global administrator** can opt out users of a Microsoft 365 security group. For example, opt out groups such as C-suite, M&A, finance, and so on. More information: [Provide consent to collect data from Microsoft 365](provide-consent-office365.md)
-
-- **Dynamics 365 administrator** can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role. More information: [Enable relationship intelligence](enable-ri.md)
+**Dynamics 365 administrator** can enable who knows whom for specific security roles to avoid opting in all Dynamics 365 users automatically. When you enable it for a specific role, the Exchange data is collected only from users who are part of the security role. More information: [Enable relationship intelligence](enable-ri.md)
