@@ -1,7 +1,7 @@
 ---
 title: Build a smart assist bot
 description: Read how you can build a smart assist bot to help agents resolve customer queries faster and more effectively.
-ms.date: 01/03/2025
+ms.date: 01/13/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

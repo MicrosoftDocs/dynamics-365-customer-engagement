@@ -1,7 +1,7 @@
 ---
 title:  Configure bot context in Azure bots  
 description: Use this article to understand how you can enable an Azure bot to understand context while authoring a bot flow.
-ms.date: 01/03/2025
+ms.date: 01/13/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
