@@ -32,7 +32,7 @@ In the Sales Hub app, set up digital selling capabilities in the **Sales Setting
 
 Watch this brief video for an overview of digital selling capabilities in Dynamics 365 Sales Enterprise:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCj0]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2456a453-6d36-4779-bea4-b64505ad05e5]
 
 ## Licensing options
 

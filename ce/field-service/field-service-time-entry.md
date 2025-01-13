@@ -13,7 +13,7 @@ Time entry capabilities help field service organizations better track the time t
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=881e6a12-aca1-43ec-9a7d-5cb5ea876e22]
 
 ## Automatic time entries
 

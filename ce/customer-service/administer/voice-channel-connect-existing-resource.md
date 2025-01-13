@@ -16,7 +16,7 @@ ms.collection:
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
-You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions within the same tenant. If you disconnected a resource and want to use it now, you can do so using this option.
+You can connect your voice or SMS channels to Azure Communication Services using an existing Azure resource from any of your Azure subscriptions within the same tenant. If you had disconnected a resource and want to use it now, you can do so using this option.
 
 ## Prerequisites
 
@@ -81,9 +81,15 @@ You need to specify the values of **Application (client) ID** and **Directory (t
        - **Event grid app id**: The value of the **Application (client) ID** 
        - **Event grid app tenant id**: The value of the **Directory (tenant) ID**
 
-       :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
+   > [!NOTE]
+   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** values that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
+   
+
+      :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
 
      - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
+
+
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
