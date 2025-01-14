@@ -23,13 +23,13 @@ After you send a closure email to the customer, the agent performs the following
 - If there's no response, the agent initiates the follow-up process. Based on the administrator's configuration of the automation level, the agent does one of the following.
 
 
-   ### [Fully autonomous](#tab/fullyautonomous)
+### [Fully autonomous](#tab/fullyautonomous)
   
   - Displays a Suggested actions card with a Preview button.
   - When the service representative selects the button, the email form opens in a new tab with an email drafted by the agent.
   - The service agent can view the email.
 
-   ### [Require agent confirmation](#tab/requireagentconfirmation)
+### [Require agent confirmation](#tab/requireagentconfirmation)
 
    - Displays a Suggested actions card with a Review and send button.
    - When the service representative selects the button, the email form opens in a new tab with an email drafted by the agent.
