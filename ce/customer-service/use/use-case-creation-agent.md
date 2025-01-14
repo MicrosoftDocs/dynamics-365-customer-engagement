@@ -14,7 +14,9 @@ ms.custom: bap-template #Required; don't change.
 
 The autonomous case management agent  uses live chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors. Additionally, it automates sending follow-up emails to keep customers informed about case progress. The agent can even automatically resolve cases if no response is received after a set number of follow-up emails, streamlining the closure process and freeing up support representatives for more complex issues.
 
-## Autonomous case creation and update for live chat
+## Autonomous case creation
+
+### Live chat
 
 When you accept a conversation that is routed directly or is escalated by a self-assist agent (bot) with enough context, the autonomous case management agent performs the following actions:
 
@@ -24,25 +26,19 @@ When you accept a conversation that is routed directly or is escalated by a self
 
 If there isn't enough context in the conversation to populate the mandatory fields, the agent doesn't create a case when you accept the conversation. However, the agent creates a if there's enough information from the chat to predict the mandatory fields when you end the conversation, and you haven't already created a case.
 
+### Email
+
+For an incoming email, a case is created automatically based on the configured ARC rules. The agent then predicts and populates the configured default fields with the context from the email. 
+
 ## Update a case
 
-After the agent creates a case, the **Update from conversation** button appears on the case form. When you select this button, the following actions occur:
+The agent updates the fields configured by the administrator as follows:
 
-- Based on the configurations set by the administrator, the agent populates the fields with the updated context from the conversation.
-- During conversation wrap-up, the agent checks if a case is created. If the case exists, the specified fields are updated.
-- The fields populated by the agent are highlighted.
-- The application displays a banner that fields were modified using AI.
+- **For a case created from a conversation**: The **Update from conversation** button appears on the case form. When you select the button, the agent populates the fields with context from the ongoing conversation. Updated fields are highlighted, and a banner indicates they were modified using AI.
+  - If the conversation is in wrap-up state, the agent checks if a case is created and updates the specified fields.
+  - If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
 
-If there isn't enough context in the conversation to populate the configured fields, the agent doesn't update them. The application displays a message that there aren't any changes to update the fields.
-
-## Autonomous case creation and Update for Email
-
-For an incoming email, a case is created automatically based on the configured ARC rules. If the automated case creation is enabled for emails, the agent performs the following actions:
-
-- Updates the case fields in the new case with context from the email automatically.
-- For incoming emails that are linked to the case, the agent updates the configured fields from the emails.
-- The fields populated by the agent are highlighted.
-- The application displays a banner that fields were modified using AI.
+- **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. Updated fields are highlighted, and a banner indicates they were modified using AI.
 
 > [!NOTE]
-> If you manually update the case fields, they may be overridden by AI predictions when the agent updates the case.
+> Manually updated case fields may be overridden by AI predictions when the agent updates the case.
