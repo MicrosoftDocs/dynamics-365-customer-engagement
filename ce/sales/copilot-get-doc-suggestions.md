@@ -87,7 +87,7 @@ You can ask questions in your preferred language. Copilot searches for answers f
 
 To get accurate answers from SharePoint documents, follow these tips:
 
-- Ask questions related to sales. The questions must contain words relevant to the configured SharePoint content and also related to sales. For example, a question like **Get info from SharePoint What are the sales figures for Contoso laptops in Q1?** (assuming relevant documents are available in SharePoint) will be answered. However, generic questions like **Get info from SharePoint What is the capital of France?** will not be answered, as the question is not related to sales.
+- Ask questions related to sales. The questions must contain words relevant to the configured SharePoint content and also related to sales. For example, a question like **Get info from SharePoint What are the sales figures for Contoso laptops in Q1?** (assuming relevant documents are available in SharePoint) will be answered. However, generic questions like **Get info from SharePoint What is the capital of France?** will not be answered.
 - Use the right keywords. The whole question is broken down into keywords, which are then used to search all available SharePoint documents. So ensure the question contains proper keywords based on what you're looking for.
 - Ask simple and clear questions. Avoid complex keywords such as GUIDs, technical terms, or jargon that might not be present in the documents.
 - Don't include file names. Including a file name in the question, such as **Get me the recent case studies from sharepoint file case-studies.docx**, doesn't restrict the search to that file. Instead, Copilot interprets the file name as a keyword and searches across all documents for that keyword.
