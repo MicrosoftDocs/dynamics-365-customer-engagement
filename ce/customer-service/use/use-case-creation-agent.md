@@ -1,5 +1,5 @@
 ---
-title: Use autonomous case management agents
+title: Use autonomous case management agents (preview)
 description: Learn how to set up autonomous case management agents to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.date: 01/13/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Use autonomous case management agents
+# Use autonomous case management agents (preview)
 
 The autonomous case management agent  uses live chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors. Additionally, it automates sending follow-up emails to keep customers informed about case progress. The agent can even automatically resolve cases if no response is received after a set number of follow-up emails, streamlining the closure process and freeing up support representatives for more complex issues.
 

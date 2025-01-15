@@ -1,5 +1,5 @@
 ---
-title: Setup autonomous case management
+title: Setup autonomous case management (preview)
 description: Learn how to set up autonomous case management agents to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham

@@ -52,6 +52,12 @@
             href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
+      - name: Autonomous case management agents
+        items: 
+          - name: Use autonomous case management agents
+            href: use-case-creation-agent.md
+          - name: Use autonomous follow-up and closure of cases
+            href: use-follow-up-closure.md
       - name: Service-level agreements
         items:
         - name: Overview of service-level agreements

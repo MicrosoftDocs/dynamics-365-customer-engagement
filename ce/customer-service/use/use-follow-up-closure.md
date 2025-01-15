@@ -1,5 +1,5 @@
 ---
-title: Use Autonomous Case Follow-up and Closure
+title: Use autonomous follow-up and closure of cases
 description: Learn how to Use Autonomous Case Follow-up and Closure.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.date: 01/13/2025
 ms.custom: bap-template #Required; don't change.
 ---
 
-# Use Autonomous Case Follow-up and Closure
+# Use autonomous follow-up and closure of cases
 
 The autonomous case agent uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
 

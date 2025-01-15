@@ -1,5 +1,5 @@
 ---
-title: Set up autonomous case follow-up and closure
+title: Set up autonomous case follow-up and closure (preview)
 description: Learn how to set up autonomous case management agents to help agents follow-up and close cases.
 author: gandhamm
 ms.author: mgandham
@@ -11,7 +11,7 @@ ms.custom: bap-template #Required; don't change.
 ---
 
 
-# Set up autonomous case follow-up and closure
+# Set up autonomous case follow-up and closure (preview)
 
 The automatic case resolution agent automatically sends follow-up emails to customers and resolves cases, reducing manual communication overhead and streamlining case resolution. The autonomous case agent uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
 

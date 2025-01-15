@@ -206,6 +206,12 @@
         href: remove-validation-contacts.md
       - name: FAQ on managing cases
         href: faq-case-mgmt.md
+      - name: Autonomous case management agent
+        items: 
+          - name: Setup autonomous case creation and update (preview)
+            href: setup-autonomous-case-agents.md
+          - name: Set up autonomous case follow-up and closure (preview)
+            href: setup-case-closure.md
     - name: Automatically create or update records
       items:
       - name: Automatically create or update records
