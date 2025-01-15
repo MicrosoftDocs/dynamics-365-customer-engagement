@@ -1,6 +1,6 @@
 ---
-title: Enable relationship intelligence
-description: Enable relationship intelligence in Dynamics 365 Sales Premium to provide relationship analytics and who knows whom information to your sellers.
+title: Enable and configure relationship intelligence
+description: Enable relationship intelligence in Dynamics 365 Sales Premium to provide relationship health and who knows whom information to your sellers.
 ms.date: 01/10/2025
 ms.topic: how-to
 author: lavanyakr01
@@ -28,7 +28,7 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 - If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 
 
-## Enable relationship intelligence
+## Enable and configure relationship intelligence
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.  
      
@@ -37,19 +37,14 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 
 1. Under **Get started with Relationship Intelligence**, select **Enable**.
     The relationship intelligence features&mdash;relationship analytics and who knows whom&mdash;are turned on by default.  
+    >[!NOTE]
+    >If you turn off Relationship Analytics, you won't see the scores. However, relevant health data is still collected.
 
 1. Select the security roles of users who need access to relationship insights.  
- 
-1. Save the changes.  
-    Relationship intelligence features are enabled but you must complete the [next steps](#next-steps), for the features to be fully functional. 
-
-
-## Next steps
-
-- Select **Options** in the respective feature section to configure the feature. For more information on what you can configure, see:
-    - [Configure relationship analytics and health](configure-relationship-analytics.md)
-    - [Configure who knows whom](configure-who-knows-whom.md) 
-- [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
+1. (Optional) Select **Options** next to **Relationship Health** to configure ranges for grading opportunities based on health scores.
+1. (Optional) Select **Options** next to **Who knows whom** to select an email template to use for introductions. 
+1. Save the changes.
+1. [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]

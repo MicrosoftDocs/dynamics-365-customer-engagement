@@ -70,7 +70,6 @@ Displays the five colleagues who contacted the customer the most through emails 
 
 - Those colleagues aren't part of your Dynamics 365 org.
 - Those colleagues aren't part of the security role that's [enabled for relationship intelligence](enable-ri.md).  
-- Those colleagues have explicitly [opted out of sharing their data](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 [Which colleagues show up as connections?](#which-colleagues-show-up-as-connections)
 
@@ -84,7 +83,7 @@ Displays the five colleagues who contacted the customer the most through emails 
 
 **Basic insights:** Colleagues who have contacted the customer the most through emails and appointments in Dynamics 365.
 
-**Enhanced insights:** Users in your organization who have frequently and recently interacted with the contact or lead show up as connections, unless they have opted out. Administrators have the option to [opt out groups](provide-consent-office365.md) such as C-suite, M&A, finance, and so on. Users can opt out by [turning off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
+**Enhanced insights:** Colleagues who have contacted the customer the most through emails and appointments in Dynamics 365 and Exchange.
 
 ### How are the connections weighted?
 
@@ -117,7 +116,6 @@ After the Microsoft 365 admin provides consent, the Exchange data is collected a
 
 If you're part of a security group that has been opted out by your administrator, the system can take up to 24 hours to remove data from all apps. It can take up to 30 days to remove backed-up data from Microsoft 365 storage accounts.  
 
-If you've [opted out on your own](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications), the data is removed immediately.  
 
 ### How can an administrator opt out users?
 

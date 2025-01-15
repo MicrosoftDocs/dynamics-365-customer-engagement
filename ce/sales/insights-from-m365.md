@@ -10,17 +10,13 @@ ms.reviewer: lavanyakr
 
 # Insights generated from Microsoft 365 data
 
-Dynamics 365 Sales uses your emails and meeting information from Exchange to generate the following relationship insights:
+If you admin has [enabled server-side synchronization](configure-email.md), then Dynamics 365 Sales uses your emails and meeting information from Exchange to generate the following relationship insights:
 
 - [Relationship analytics and health](#relationship-analytics-and-health)
 - [Who knows whom](#who-knows-whom)
 
 > [!NOTE]
 > If your organization is using Dynamics 365 Customer Insights, then your Exchange data will be used to enrich customer data. For more information, see [Enrich customer profiles with data from Microsoft Office 365](/dynamics365/customer-insights/enrichment-office).
-
-Your Microsoft 365 admin needs to [provide consent](provide-consent-office365.md) to let Dynamics 365 collect and use Microsoft 365 data. For information about the different consent types, see [Consent required to use Microsoft 365 data](ms365-consent-types.md).  
-
-As a user, if you'd like to opt out of sharing your data, you can [turn off data sharing with Dynamics 365 applications](who-knows-whom.md#turn-off-data-sharing-with-dynamics-365-applications).
 
 
 ## Relationship analytics and health
@@ -31,7 +27,7 @@ The following screenshot is an example of how relationship analytics data appear
 
 :::image type="content" source="media/relationship-health-details-grid-view.png" alt-text="Screenshot of relationship health details for open opportunities in a grid view.":::
 
-For more information on how to set up and use this feature, go to [Configure relationship analytics and health](configure-relationship-analytics.md) and [Use relationship analytics to gather KPIs](relationship-analytics.md).
+Learn more about how to set up and use this feature in [Enable relationship intelligence](enable-ri.md) and [Use relationship analytics to gather KPIs](relationship-analytics.md).
 
 ## Who knows whom
 
@@ -41,4 +37,4 @@ The following screenshot is an example of the **Who Knows Whom** widget on a lea
 
 :::image type="content" source="media/wkw_connection.png" alt-text="Screenshot of the Who Knows Whom connection widget showing contact details and connection strength.":::
 
-For more information on how to set up and use this feature, go to [Configure who knows whom](configure-who-knows-whom.md) and [How to get introduced to leads or contacts](who-knows-whom.md).
+Learn more about how to set up and use this feature in [Enable relationship intelligence](enable-ri.md) and [How to get introduced to leads or contacts](who-knows-whom.md).
