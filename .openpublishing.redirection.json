@@ -33296,7 +33296,16 @@
       "source_path": "ce/customer-service/administer/knowledgehub-copilot.md",
       "redirect_url": "/dynamics365/customer-service/administer/knowledge-copilot",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-m365-chat.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/faqs-m365-chat.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": false
     }
-
   ]
 }
