@@ -1,7 +1,7 @@
 ---
 title: setClickToAct (JavaScript API Reference) for Channel Integration Framework 2.0 
 description: Learn about setClickToAct (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
-ms.date: 01/13/2025
+ms.date: 01/14/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
