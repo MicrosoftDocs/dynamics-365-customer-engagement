@@ -24,8 +24,8 @@ The agent creates and updates cases as follows:
 
 - Administrators must have the CSR Manager or System Administrator role.
 - Customer Service Representatives must have the Omnichannel Agent and Customer Service Representative role.
-- [Automatic record creation and update (ARC) rules](../administer/set-up-rules-to-automatically-create-or-update-records) are set up to create case records from emails.
-- [Provision the live chat channel](../implement/provision-channels.md). 
+- [Automatic record creation and update (ARC) rules](../administer/set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
+- [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels). 
 - [Workstream](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are setup.
 
 
