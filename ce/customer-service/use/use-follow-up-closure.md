@@ -14,6 +14,8 @@ ms.custom: bap-template #Required; don't change.
 
 The autonomous case agent uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
 
+Based on your administrator's configuration, the agent can perform these actions autonomously or with agent confirmation.
+
 ## Use case follow-up
 
 After you send a closure email to the customer, the agent performs the following actions:
@@ -39,7 +41,7 @@ After you send a closure email to the customer, the agent performs the following
 
 ## Autonomous case resolution
 
-After the configured number of follow-ups are sent, the agent initiates the case resolution process. Based on the administrator's configuration of the automation level, the agent does one of the following:
+After the configured number of follow-ups are sent, the agent initiates the case resolution process. Based on the administrator's configuration of the automation level, the agent does one of the following.
 
 
  ### [Fully autonomous](#tab/fullyautonomous)
