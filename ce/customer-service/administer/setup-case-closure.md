@@ -1,6 +1,6 @@
 ---
 title: Set up autonomous case follow-up and closure (preview)
-description: Learn how to set up autonomous case management agents to help agents follow-up and close cases.
+description: Learn how to set up autonomous case management agents to help agents follow up and close cases.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -34,7 +34,7 @@ Perform the following steps to set up autonomous case follow-up and closure:
      - **Full automation:** Agent independently sends follow-ups and resolves cases without manual intervention.
    - **Follow-up emails:** Fields the agent should automatically populate when resolving the case (optional).
    - **Case resolution form:** Specify fields the agent should automatically populate when resolving the case.
-   - **Follow-up trigger:** Specify the field that prompts the agent to initiate the email follow-up process.
+   - **Follow-up trigger:** Specify the value of the field which prompts the agent to initiate the email follow-up process.
    - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case.
    - **Follow-up wait times:** Set the duration between sending follow-up emails.
    - Select **Save**.
@@ -58,7 +58,11 @@ When the **Status Reason** is set to "Awaiting customer confirmation," the agent
   - **Follow-up trigger:** Status Reason = "Awaiting customer confirmation"  
   - **Number of follow-ups:** 3  
   - **Follow-up wait times:**  
-    1. First follow-up: 48 hours  
+    1. First follow up: 48 hours  
     2. Second follow-up: 48 hours  
     3. Final follow-up: 48 hours  
 - **Case resolution form:** Resolution, Resolution Type  
+
+## Next steps
+
+[Use autonomous follow-up and closure of cases](../use/use-follow-up-closure.md)

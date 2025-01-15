@@ -21,8 +21,8 @@ Based on your administrator's configuration, the agent can perform these actions
 After you send a closure email to the customer, the agent performs the following actions:
 
 1. Checks if the trigger condition set by the administrator is met.
-2. Determines if the customer has sent a response to your email within the configured duration for the first response time.
-3. If there's no response, the agent initiates the follow-up process. The **Suggested actions** card appears on the case form. Based on the administrators configuration, you can do one of the following:
+2. Determines if the customer responded to your email within the configured duration for the first response time.
+3. If there's no response, the agent initiates the follow-up process. The **Suggested actions** card appears on the case form. Based on the administrator's configuration, you can perform the following actions:
 
 
   ### [Fully autonomous](#tab/fullyautonomous)

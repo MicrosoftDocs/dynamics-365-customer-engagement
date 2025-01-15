@@ -13,7 +13,7 @@ ms.custom: bap-template #Required; don't change.
 
 # Setup autonomous case creation and update (preview)
 
-The autonomous case management agent creates and updates cases from live chat conversations and emails using AI and Automatic record creation and update rules, reducing manual effort and minimizing data entry errors.
+The autonomous case management agent creates and updates cases from live chat conversations and emails using AI and Automatic record creation and update(ARC) rules, reducing manual effort and minimizing data entry errors.
 
 The agent creates and updates cases as follows:
 
@@ -26,7 +26,7 @@ The agent creates and updates cases as follows:
 - Customer Service Representatives must have the Omnichannel Agent and Customer Service Representative role.
 - [Automatic record creation and update (ARC) rules](../administer/set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
 - [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels). 
-- [Workstream](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are setup.
+- [Workstream](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are set up.
 
 
 ## Configure autonomous case creation and update
@@ -40,7 +40,7 @@ In Customer Service admin center, perform the following steps:
 5. In the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
    - The agent creates a case only if there’s enough context in the conversation to predict all these fields.  
    - New cases are created from emails based on the ARC rules configured. The case management agent updates the fields in the case created by ARC if there’s new information available.
-6. In **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you’ve added in the previous step.
+6. In **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
 7. Select the checkbox in the **Agent experience data** section if you want the application to save the agent interactions in Dataverse. You can then use this information to build reports.
 
 ### Example 
@@ -49,7 +49,7 @@ You want your agent to create a case from a live chat conversation with **Issue 
 - **Channel:** Chat  
 - **Default list of fields for AI prediction:** Issue description, Contact  
 
-After the case is created, you want the agent to update the **Product**, **Priority**, and **Serial number** fields if the case category is set to **product defect**.  In the **Case creation and update with autonomous AI assistance (preview)** page, specify the following: 
+After the case is created, you want the agent to update the **Product**, **Priority**, and **Serial number** fields if the case category is set to **product defect**. In the **Case creation and update with autonomous AI assistance (preview)** page, specify the following: 
 - Select **Create** for **Case update rules**. 
 - In the **New rule** page, specify the **Rule name** and the following:
   - In **Define conditions**, select **Add** and then specify the following:
@@ -74,3 +74,7 @@ By default, service representatives added to the out-of-the-box agent experience
    - Select **Edit** and then enable the required features:  
      - **Autonomous case creation and update from conversations**  
      - **Autonomous case follow-up and closure**
+
+## Next steps
+
+ [Use autonomous case management agents (preview)](../use/use-case-creation-agent.md)

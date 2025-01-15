@@ -12,7 +12,7 @@ ms.custom: bap-template #Required; don't change.
 
 # Use autonomous case management agents (preview)
 
-The autonomous case management agent  uses live chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors. Additionally, it automates sending follow-up emails to keep customers informed about case progress. The agent can even automatically resolve cases if no response is received after a set number of follow-up emails, streamlining the closure process and freeing up support representatives for more complex issues.
+The autonomous case management agent  uses live chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors.
 
 ## Autonomous case creation
 
@@ -26,7 +26,7 @@ When you accept a conversation that is routed directly or is escalated by a self
 - Creates a new case that opens in a new tab in the Active Conversation form. A case is created only if the agent has enough context to populate all the configured fields.
 - Populates the values of the fields in the case.
 
-If there isn't enough context in the conversation to populate the mandatory fields, the agent doesn't create a case when you accept the conversation. However, the agent creates a if there's enough information from the chat to predict the mandatory fields when you end the conversation, and you haven't already created a case.
+If there isn't enough context in the conversation to populate the mandatory fields, the agent doesn't create a case when you accept the conversation. However, when you end the conversation, if there's enough information, the agent creates a case, if it isn't manually created.
 
 ### Email
 
@@ -43,4 +43,8 @@ The agent updates the fields configured by the administrator as follows:
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. Updated fields are highlighted, and a banner indicates they were modified using AI.
 
 > [!NOTE]
-> Manually updated case fields may be overridden by AI predictions when the agent updates the case.
+> Manually updated case fields configured for agent updates will be overwritten by AI predictions.
+
+## Next steps
+
+ [Use autonomous follow-up and closure of cases](use-follow-up-closure.md)
