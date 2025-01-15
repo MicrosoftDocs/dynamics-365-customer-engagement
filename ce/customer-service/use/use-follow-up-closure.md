@@ -12,44 +12,27 @@ ms.custom: bap-template #Required; don't change.
 
 # Use autonomous follow-up and closure of cases
 
-The autonomous case agent uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
+The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
 
 Based on your administrator's configuration, the agent can perform these actions autonomously or with agent confirmation.
 
-## Use case follow-up
+## Use case follow-up and closure
 
 After you send a closure email to the customer, the agent performs the following actions:
 
-- Checks if the trigger condition set by the administrator is met.
-- Determines if the customer has sent a response to your email within the configured duration for the first response time.
-- If there's no response, the agent initiates the follow-up process. Based on the administrator's configuration of the automation level, the agent does one of the following.
+1. Checks if the trigger condition set by the administrator is met.
+2. Determines if the customer has sent a response to your email within the configured duration for the first response time.
+3. If there's no response, the agent initiates the follow-up process. The **Suggested actions** card appears on the case form. Based on the administrators configuration, you can do one of the following:
 
 
-### [Fully autonomous](#tab/fullyautonomous)
+  ### [Fully autonomous](#tab/fullyautonomous)
   
-  - Displays a Suggested actions card with a Preview button.
-  - When the service representative selects the button, the email form opens in a new tab with an email drafted by the agent.
-  - The service agent can view the email.
+   - Select the **Preview** button to view the email drafted by the agent in a new tab.
+   - After the configured number of follow-ups are sent, the agent sets the case status to resolved after populating configured case resolution fields. All open activities linked to the case are also closed.
 
-### [Require agent confirmation](#tab/requireagentconfirmation)
+  ### [Require agent confirmation](#tab/requireagentconfirmation)
 
-   - Displays a Suggested actions card with a Review and send button.
-   - When the service representative selects the button, the email form opens in a new tab with an email drafted by the agent.
-   - The service agent can view, edit, and send the email.
-
----
-
-## Autonomous case resolution
-
-After the configured number of follow-ups are sent, the agent initiates the case resolution process. Based on the administrator's configuration of the automation level, the agent does one of the following.
-
-
- ### [Fully autonomous](#tab/fullyautonomous)
-
-  Sets the case status to resolved after populating configured case resolution fields. All open activities linked to the case are also closed.
-
- ### [Required agent confirmation](#tab/requireagentconfirmation)
-
-  Displays the case resolution dialog with the set resolution fields updated. The service representative can then close any open activities and then resolve the case.
+    - Select the **Review and send** button to view the email drafted by the agent in a new tab. You can edit the email and then send it to a customer.
+    - After the required follow-up emails are sent, the agent displays the case resolution dialog with the configured resolution fields updated. You can then close any open activities and resolve the case.
 
 ---
