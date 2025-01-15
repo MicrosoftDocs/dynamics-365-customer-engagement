@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 01/06/2025
+ms.date: 01/15/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -35,9 +35,9 @@ Administrators control what data the Field Service mobile app downloads with the
 
 1. Select **Settings**, and then select the **General** tab.
 
-1. Scroll to **Select offline mode and profile**.
+1. Scroll to **Can be used offline** and toggle it on.
 
-1. Choose which users should have access to the mobile app offline:
+1. Under **Select offline mode and profile**, choose which users should have access to the mobile app offline:
 
    - **Default (recommended)**: All your users who have access to the app can also use it in offline mode.
    - **Restricted to selected users (requires admin privileges)**: Restrict access to the app in offline mode to certain users.
@@ -58,17 +58,18 @@ Administrators control what data the Field Service mobile app downloads with the
 
    - Select the sync frequency.
 
+     The default offline profile is updated periodically as part of Field Service updates. If you edit a table's offline sync filter, the sync filter isn't updated. Table sync filters that haven't been edited are updated, but the updates are unpublished. Administrators can review the updates and decide to take them or continue with the previous sync filters. This only applies to sync filters. Relationships receive updates while keeping your specific changes.
+
    - Select **Save**.
 
    - [Add a table to the offline profile](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters) if needed.
 
-1. Save the offline profile.
-
-The default offline profile is updated periodically as part of Field Service updates. If you edit a table's offline sync filter, the sync filter isn't updated. Table sync filters that haven't been edited are updated, but the updates are unpublished. Administrators can review the updates and decide to take them or continue with the previous sync filters. This only applies to sync filters. Relationships receive updates while keeping your specific changes.
+1. Save the offline profile. If you made changes, publish the application.
 
 If you have user roles that need different sync settings or tables available offline, you can [create more offline profiles](/power-apps/mobile/setup-mobile-offline#set-up-a-mobile-offline-profile). For example, a Field Service manager might need to view a broader scope of work orders than the ones that are assigned to a field technician. If you create an offline profile, remember to add it to the Field Service mobile app in the app designer.
 
 ### Optimize columns included within the offline profile (Preview)
+
 You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize dowloaded data with Offline Table Column Selection (Preview)](/power-apps/mobile/mobile-offline-guidelines#optimize-downloaded-data-with-offline-table-column-selection-preview).
 
 ## Move a mobile offline profile between environments
