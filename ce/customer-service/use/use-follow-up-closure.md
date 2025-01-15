@@ -32,7 +32,7 @@ After you send a closure email to the customer, the agent performs the following
 
   ### [Require agent confirmation](#tab/requireagentconfirmation)
 
-    - Select the **Review and send** button to view the email drafted by the agent in a new tab. You can edit the email and then send it to a customer.
-    - After the required follow-up emails are sent, the agent displays the case resolution dialog with the configured resolution fields updated. You can then close any open activities and resolve the case.
+   - Select the **Review and send** button to view the email drafted by the agent in a new tab. You can edit the email and then send it to a customer.
+   - After the required follow-up emails are sent, the agent displays the case resolution dialog with the configured resolution fields updated. You can then close any open activities and resolve the case.
 
 ---
