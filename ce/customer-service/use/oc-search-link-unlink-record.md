@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
+This article explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
 
 You can search for records in two ways:
 
