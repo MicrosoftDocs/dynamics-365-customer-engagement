@@ -85,7 +85,7 @@ To ensure effective and responsible use of the summarization feature, it's impor
 We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 > [!NOTE]
-> For document summarization, the quality of translations might not be at the expected level for non-English languages, especially Spanish and Italian. We recommend using English for best results in such cases.
+For document summarization, the quality of translations might not be at the expected level for non-English languages, especially Spanish and Italian. We recommend using English for best results in such cases.
 
 ## Related information
 
