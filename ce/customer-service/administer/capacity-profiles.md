@@ -1,7 +1,7 @@
 ---
 title: Create and manage capacity profiles
-description: Learn how to create and manage capacity profiles for agents, and set custom limits for the profiles.
-ms.date: 07/01/2024
+description: Learn how to create and manage capacity profiles for service representatives, and set custom limits for the profiles.
+ms.date: 01/17/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -134,7 +134,7 @@ You need not define assignment rules specific to capacity profiles at queue leve
 
 ## Release capacity for agents
 
-For the system to efficiently manage agent workload, you must automatically release the agent capacity when agents complete their assigned work items. Based on system settings, the agent capacity is released in the following manner:
+For the system to efficiently manage agent workload, you must automatically release the representative's capacity when agents complete their assigned work items. If you manually assign the case to another agent or team using the **Assign** option on the case form, capacity isn't updated for the representatives. Based on system settings, the representative's capacity is released in the following manner:
 
 - **Conversation**: When the agents end the conversation and close their session.
 - **Case**: When the agent resolves the case. Capacity is also released automatically when agent cancels the case or removes their assignment by clearing their name from the **Worked By** field on the **Queue Item details** dialog.
