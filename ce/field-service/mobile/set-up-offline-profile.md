@@ -10,7 +10,7 @@ ms.author: jobaker
 
 # Set up the mobile offline profile
 
-Field Service comes with an offline profile that has default settings for Field Service tables. The advantages of running the mobile app fully offline include:
+Field Service comes with a default offline profile that has recommended settings for Field Service tables. The advantages of running the mobile app fully offline include:
 
 - Consistent performance. Technicians interact with the app in the same way regardless of their device connectivity.
 - Seamless and uninterrupted experience. Data synchronization occurs in the background without disrupting the technician's workflow.
@@ -18,7 +18,7 @@ Field Service comes with an offline profile that has default settings for Field 
 Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
 
 - Define tables that are available offline and how often they sync.
-- Define filters for each tables. For example, by default the offline profile downloads bookings that start within the next seven days.
+- Define filters for each table. For example, by default the offline profile downloads bookings that start within the next seven days.
 - Set up item association by creating relationships between tables. Item association saves time because not every table needs a filter. Associated tables follow the filters that are set on the related table.
 
 ## Prerequisites
@@ -62,7 +62,7 @@ Administrators control what data the Field Service mobile app downloads with the
 
    - Select **Save**.
 
-   - [Add a table to the offline profile](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters) if needed.
+1. [Add a table to the offline profile](/power-apps/mobile/setup-mobile-offline#add-a-table-to-an-offline-profile-and-apply-filters) if needed.
 
 1. Save the offline profile. If you made changes, publish the application.
 
@@ -70,7 +70,7 @@ If you have user roles that need different sync settings or tables available off
 
 ### Optimize columns included within the offline profile (Preview)
 
-You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize dowloaded data with Offline Table Column Selection (Preview)](/power-apps/mobile/mobile-offline-guidelines#optimize-downloaded-data-with-offline-table-column-selection-preview).
+You can optimize the mobile offline profile by selectively enabling columns to include with a sync. For guidance and best practices, see [Optimize downloaded data with Offline Table Column Selection (Preview)](/power-apps/mobile/mobile-offline-guidelines#optimize-downloaded-data-with-offline-table-column-selection-preview).
 
 ## Move a mobile offline profile between environments
 
@@ -96,7 +96,7 @@ To control changes and keep your offline profiles in sync, your organization mig
 
 ## Best practices for offline mode
 
-Our team recently published a series of blog posts with additional details around using the offline profiles in the Field Service mobile app, including best practices and advanced scenarios.
+Review the following blog posts about using the offline profiles in the Field Service mobile app, including best practices and advanced scenarios.
 
 - [Best Practices for Offline Mode in the Field Service mobile app – Part 1](https://www.microsoft.com/en-us/dynamics-365/blog/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/)
 - [Best Practices for Offline Mode in the Field Service mobile app – Part 2](https://www.microsoft.com/en-us/dynamics-365/blog/administrator/2023/11/08/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-2/)
