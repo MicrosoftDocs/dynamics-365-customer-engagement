@@ -36,13 +36,14 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
     :::image type="content" source="media/enable-ri-overview.png" alt-text="A screenshot of the Overview page to enable the relationship intelligence features":::
 
 1. Under **Get started with Relationship Intelligence**, select **Enable**.
-    The relationship intelligence features&mdash;relationship analytics and who knows whom&mdash;are turned on by default.  
+    The relationship intelligence features&mdash;relationship analytics and who knows whom&mdash;are turned on as well.  
     >[!NOTE]
     >If you turn off Relationship Analytics, you won't see the scores. However, relevant health data is still collected.
 
-1. Select the security roles of users who need access to relationship insights.  
-1. (Optional) Select **Options** next to **Relationship Health** to configure ranges for grading opportunities based on health scores.
-1. (Optional) Select **Options** next to **Who knows whom** to select an email template to use for introductions. 
+1. Select the security roles of users who need access to relationship insights.
+1. (Optional) Select **Options** next to **Relationship Analytics** to modify the default ranges for grading opportunities based on health scores.
+   :::image type="content" source="media/health-score-grading.png" alt-text="Screenshot of health score grading ranges":::
+1. (Optional) Select **Options** next to **Who knows whom** to select an email template to use for introductions. By default, the system uses the **Who knows whom introduction** template.
 1. Save the changes.
 1. [Add Relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for lead or contact.
 
