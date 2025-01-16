@@ -155,7 +155,7 @@ Yes. In case of high severity issues, feature teams must communicate the outage 
 
 ## Does Microsoft measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
 
-Yes. The feature teams continuously monitor the performance and reliability of the system. If any issues are detected, the teams react to first investigate and then mitigate.
+Yes. The feature teams continuously monitor the performance and reliability of the system. 
 
 ## Does Microsoft test the quality of systems explanations with end users and other stakeholders?
 
