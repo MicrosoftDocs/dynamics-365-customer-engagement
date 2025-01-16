@@ -1,7 +1,7 @@
 ---
 title: Configure customer support swarming for complex cases
 description: Learn how to configure customer support swarming for cases in Dynamics 365 Customer Service and Microsoft Teams.
-ms.date: 06/04/2024
+ms.date: 01/16/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -21,9 +21,9 @@ ms.reviewer: laalexan
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-Customer support swarming is a way to quickly bring together experts across your business to help agents solve issues. As an administrator, you can enable your agents and subject matter experts to "swarm" together to resolve complex cases.
+Customer support swarming is a way to quickly bring together experts across your business to help customer service representatives (representatives) solve issues. As an administrator, you can enable your representatives and subject matter experts to "swarm" together to resolve complex cases.
 
-Customer support swarming is useful when agents need to take the following actions:
+Customer support swarming is useful when representatives need to take the following actions:
 
 - Collaborate with experts across your organization to get help on complex cases. 
 - Use an expert finder to locate experts with the right skills to help.
@@ -32,7 +32,7 @@ Some of the key benefits of customer support swarming include:
 
 - Improved first contact resolution
 - Reduced average time to resolution
-- Accelerated on-the-job training for agents
+- Accelerated on-the-job training for representatives
 
 Swarming features are available in Dynamics 365 Customer Service workspace, Customer Service Hub, and custom apps. Swarming works with either the Microsoft Teams desktop or web apps.
 
@@ -41,7 +41,7 @@ Swarming features are available in Dynamics 365 Customer Service workspace, Cust
 The following licenses are required for the swarm feature.
 
 - To configure the customer support swarming feature, you must have the Customer Service System Administrator role.
-- Agents who use the swarm feature must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
+- Representatives who use the swarm feature must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
 - Experts who join a swarm must have a Teams license.
 
 ## Guided setup experience for customer support swarming
@@ -83,8 +83,8 @@ Use the following image and legend to understand the layout of the customer supp
 |4 | Skills | Add relevant skills to help match experts for swarming. Onboard coworkers outside of your team as experts (through mapping or bulk-importing) so they can be recommended for swarms. |
 |5 | Experts | Displays a list of experts and their skills who are configured for swarming.
 |6 | Condition rules | Conditions that define which skills to attach to swarms. The attached skills are then used to find and invite experts to swarms. |
-|7 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the agent assigned to the issue. |
-|8 | Agent guide | Administrator-provided guidance to help agents know what content to include to begin a swarm or manage the swarm process. |
+|7 | Automatically add to swarm | Team contacts automatically added to swarms because of their relationship to the customer or the representative assigned to the issue. |
+|8 | Agent guide | Administrator-provided guidance to help representatives know what content to include to begin a swarm or manage the swarm process. |
 
 To configure customer support swarming, you must have administrator privileges and complete the following steps.
 
@@ -115,7 +115,7 @@ To ensure that swarm experts receive invitations directly in Teams, turn on the 
    > ![Activate the swarm flow.](../media/teams-swarm-flow-enable.png "Activate the swarm flow")
 
 > [!Note]
-> You can configure various administration sections without turning on swarming. This is useful in ensuring you fully configured the feature before enabling the feature. Once enabled, it appears on the agent's desktop, which might cause issues if it's not fully functional.
+> You can configure various administration sections without turning on swarming. This is useful in ensuring you fully configured the feature before enabling the feature. Once enabled, it appears on the representative's desktop, which might cause issues if it's not fully functional.
 
 ## Add a new tab, section, or field to the swarm form
 
@@ -123,7 +123,7 @@ You can customize your swarm form by adding a new tab, section, or field to it. 
 
 ## Edit case details
 
-When an agent creates a swarm, the system includes fields from the related case and account to provide more context for the swarm participants who join. 
+When a representative creates a swarm, the system includes fields from the related case and account to provide more context for the swarm participants who join. 
 
 You can configure which case fields to include as part of the swarm form. Out of box, the following fields are included:
    - Account
@@ -223,7 +223,7 @@ If you want to update the skills for multiple experts, you can update them in bu
 
 ## Define condition rules
 
-You can define swarm rules that identify the skills that should be suggested when an agent makes a swarm request. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
+You can define swarm rules that identify the skills that should be suggested when a representative makes a swarm request. Expert suggestions are defined with the goal of finding the minimum set of experts in your organization who match the maximum number of skills suggested for a swarm.
 
    > [!div class="mx-imgBorder"] 
    > ![Edit a swarm rule.](../media/teams-swarm-edit-rule.png "Edit a swarm rule")
@@ -232,7 +232,7 @@ The following aspects apply to swarm rule configuration.
 
 - Only the top three rules are shown on the main swarm page. To view more rules, select **See more**.
 
-- You can define rules based on the related case and account attributes. By default, the swarm request, or the question the agent needs help with, is automatically suggested as one of the conditions.
+- You can define rules based on the related case and account attributes. By default, the swarm request, or the question the representative needs help with, is automatically suggested as one of the conditions.
 
 - Depending on the rules you define, you can add one or more specific unique skills.
 
@@ -262,13 +262,13 @@ To add a new rule, perform the following steps.
 In addition to matching skills to find experts, by default, the system adds out-of-box contacts to the swarm. These participants are added to the swarm automatically without a swarm invitation. Typically, their role is to observe the swarm process and provide customer information if needed, or manage customer communications.
 
 Swarm contacts can optionally include any of the following persons.
- - The agent's supervisor. (This person can be the same for many agents on the team). If a supervisor isn't identified for the agent, the administrator who enabled the swarm is automatically added.
- - The administrator of the team the agent is a member of.
+ - The representative's supervisor. (This person can be the same for many representatives on the team). If a supervisor isn't identified for the representative, the administrator who enabled the swarm is automatically added.
+ - The administrator of the team the representative is a member of.
  - The owner of the related account.
 
 ## Edit the agent guide
 
-The agent guide is the direction provided by you, as the administrator, that appears in the swarm form when the agent opens it. The agent guide helps ensure that your agent types the right questions. It provides helpful context to effectively match skills and experts. 
+The agent guide is the direction provided by you, as the administrator, that appears in the swarm form when the representative opens it. The agent guide helps ensure that your representative types the right questions. It provides helpful context to effectively match skills and experts. 
 
 When creating the agent guide, keep the following things in mind:
  
@@ -288,9 +288,9 @@ To create the agent guide, perform the following steps.
 1. Type your details, and then select **Save and close**.
 
 
-## Grant swarm privileges for agents
+## Grant swarm privileges for representatives
 
-Agents need specific privileges to ensure that they can effectively swarm. Use the following table to understand the privileges and types.
+Representatives need specific privileges to ensure that they can effectively swarm. Use the following table to understand the privileges and types.
 
 |Swarm privilege | Privilege type |
 |-----------|-----------|
@@ -302,7 +302,7 @@ Agents need specific privileges to ensure that they can effectively swarm. Use t
 |Characteristic | Read |
 |System user | Read |
 
-To set up swarm privileges for agents, perform the following steps.
+To set up swarm privileges for representatives, perform the following steps.
 
 1. Go to Power Platform admin center, and then in **Environments** > **Environment name**, select the ellipsis, and then select **Settings**.
 
