@@ -96,7 +96,8 @@ Every seller will see the same set of introducers for a contact or lead.
 
 **Basic insights:** Collected in near real-time&mdash;as soon as a related activity is marked as completed in Dynamics 365.  
 
-**Enhanced insights:** After you enable server-side synchronization, Exchange data for the last one year is used for generating insights. After this, Exchange data is collected daily and insights are updated based on the latest data.
+**Enhanced insights:** After you enable server-side synchronization, Exchange data is synchronized based on the sync frequency set by your admin. Learn more about [synchronization frequency](/power-platform/admin/frequently-asked-questions-synchronizing-records-dynamics-365-and-outlook?source=recommendations#how-often-are-records-synchronized-through-server-side-sync).
+
 
 ### What is the source for who knows whom data?
 
