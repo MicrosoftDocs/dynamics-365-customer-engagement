@@ -1,7 +1,7 @@
 ---
 title: FAQ about summarization in Copilot
 description: Get answers to frequently asked questions about Copilot's AI-powered summarization feature, which summarizes important sales information in an easy-to-consume format.
-ms.date: 10/14/2024
+ms.date: 01/16/2025
 ms.custom:
  - responsible-ai-faqs
  - ai-gen-docs-bap
@@ -83,6 +83,9 @@ To ensure effective and responsible use of the summarization feature, it's impor
 ## Which languages are supported by the summarization feature?
 
 We're constantly working to add more languages to Copilot in Dynamics 365 Sales. View the list of supported languages for each Copilot feature in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
+
+> [!NOTE]
+> For document summarization, the quality of translations might not be at the expected level for non-English languages, especially Spanish and Italian. We recommend using English for best results in such cases.
 
 ## Related information
 
