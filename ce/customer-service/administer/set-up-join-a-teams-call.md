@@ -1,5 +1,5 @@
 ---
-title: Set up Join a Teams call for customer service representative
+title: Set up Join a Teams call for customer service representatives
 description: Learn how to set up Join a Teams call in Dynamics 365 Customer Service.
 ms.date: 01/16/2025
 ms.topic: how-to
@@ -9,7 +9,7 @@ ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
-# Set up Join a Teams call for customer service representative
+# Set up Join a Teams call for customer service representatives
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability.md)]
 
