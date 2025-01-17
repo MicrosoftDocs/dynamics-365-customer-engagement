@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams meetings 
 description: Learn how to use Microsoft Teams meetings integration 
-ms.date: 05/26/2023
+ms.date: 01/17/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -30,9 +30,9 @@ ms.custom:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-The Teams meeting integration feature provides a unified meeting experience that helps you, as an agent, to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
+The Teams meeting integration feature provides a unified meeting experience that helps you, as a customer service representative (representative), to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
 
-As an agent, you can: 
+As a representative, you can: 
 -	Create and join Microsoft Teams meetings directly from Dynamics 365. 
 -	Access and update Dynamics 365 records seamlessly within the context of a Microsoft Teams meeting. 
 -	Capture notes and tasks seamlessly during a Microsoft Teams meeting, and have these notes and tasks automatically sync to records in Dynamics 365. 
