@@ -1,7 +1,7 @@
 ---
-title: Customer support swarming for agents
+title: Customer support swarming for representatives
 description: Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service.
-ms.date: 06/04/2024
+ms.date: 01/17/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -33,11 +33,11 @@ Use customer support swarming to find the right set of experts to work with on y
 
 To be able to create a swarm when working on a customer issue, you must have the following prerequisites in place.
 
-- If you're an agent, you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
+- If you're a representative, you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
 
 - If you're an expert joining a swarm, you must have a Teams license.
 
-- Embedded Microsoft Teams chat must be enabled for the agent desktop or on the Teams web app.
+- Embedded Microsoft Teams chat must be enabled for the representative desktop or on the Teams web app.
 
 ## Start a swarm
 
@@ -90,19 +90,19 @@ To be able to create a swarm when working on a customer issue, you must have the
 When you select an expert for your swarm, they're sent an automated invitation in Teams via an adaptive card. When they accept your invitation, they're attached to the swarm, and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert or experts who have one or more of the needed skills.
 
 For the invited expert, the swarm invitation shows the following information:
-   - Inviting agent: The agent who initiated the swarm and invited the expert.
-   - Swarm request: The question the agent needs help with.
-   - Steps the agent already tried: A brief description of what the agent tried before creating the swarm.
+   - Inviting representative: The representative who initiated the swarm and invited the expert.
+   - Swarm request: The question the representative needs help with.
+   - Steps the representative already tried: A brief description of what the representative tried before creating the swarm.
    - Expert skills: The required skills the expert has for the swarm.
    - Accept and reject: Options for the expert to either join or decline the swarm. If an expert declines an invitation and then later decides they want to join, they can participate by asking you to add them manually. They aren't able to view the swarm form from the group chat.
 
-When an expert joins a group chat, they see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. The agent's swarm request and a summary of what the agent has tried to do to resolve the issue are displayed.
+When an expert joins a group chat, they see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. The representative's swarm request and a summary of what the representative has tried to do to resolve the issue are displayed.
 
 Experts who join a swarm can see all participants in the swarm and the skills they have that resulted in their invitation to the swarm.
 
 Experts aren't required have access to Dynamics 365 to participate in swarms, but if they're able to access a swarm in Customer Service, they can go to the **Swarm activities** tab on the **Swarm** page, where they can view a timeline of all the key events that are related to the swarm.
 
-Experts without a Dynamics 365 license can be invited to swarms in Teams. When they accept the invitation to join the swarm, a swarm chat appears in the **Chat** pane in Teams. The expert must select the chat to enter the swarm conversation. Both the agent and the expert can add others to the chat if needed. The agent can interact with the expert and add notes of their interaction to the swarm timeline.
+Experts without a Dynamics 365 license can be invited to swarms in Teams. When they accept the invitation to join the swarm, a swarm chat appears in the **Chat** pane in Teams. The expert must select the chat to enter the swarm conversation. Both the representative and the expert can add others to the chat if needed. The representative can interact with the expert and add notes of their interaction to the swarm timeline.
  
 ### Create a task in the timeline
 
