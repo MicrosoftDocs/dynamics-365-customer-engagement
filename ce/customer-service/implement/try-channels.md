@@ -1,7 +1,7 @@
 ---
 title: Try channels
 description: Learn how you can try channels in Customer Service to connect and engage with your customers in real time.
-ms.date: 10/09/2024
+ms.date: 01/17/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
