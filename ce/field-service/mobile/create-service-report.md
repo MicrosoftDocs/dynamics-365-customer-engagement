@@ -3,24 +3,24 @@ title: Create service reports
 description: Learn how to set up and generate service reports for Field Service technicians.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 12/10/2024
+ms.date: 01/17/2025
 author: JonBaker007
 ms.author: jobaker
 ---
 
 # Create service reports
 
-Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Service reports are often delivered to the customer as a PDF file.
+Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Service reports are often delivered to the customer as a PDF file. Technicians have access to the report even without internet connectivity.
 
 The service report is available in the mobile app and web app. The technician can capture a signature on the report and then save it to the timeline. The technician can use their mobile device to send the report. You can set up automated workflows using Power Automate to manage the distribution of reports after they're generated and saved.
-
-## Enable technicians to create service reports
-
-As an admin, use the Power Apps component framework to build a service report for the Field Service mobile application. We provide a sample report and Power Apps component framework control that helps makers design and import reports for their environment. This report is considered a custom control and Microsoft doesn't provide support for it.
 
 For a guided walkthrough, check out the following video.
 >
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=fd4ed064-bd88-4e25-800d-bcfedb37936d]
+
+## Enable technicians to create service reports
+
+As an admin, use the Power Apps component framework to build a service report for the Field Service mobile application. We provide a sample report and Power Apps component framework control that helps makers design and import reports for their environment. This report is considered a custom control and Microsoft doesn't provide support for it.
 
 ### Import the reporting solution
 

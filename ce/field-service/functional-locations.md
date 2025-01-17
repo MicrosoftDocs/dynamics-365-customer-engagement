@@ -1,7 +1,7 @@
 ---
 title: Create functional locations
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 05/10/2024
+ms.date: 01/17/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -12,7 +12,9 @@ ms.custom: bap-template
 
 Field service organizations often work with customers that have large or complex worksites like a warehouse or a multi-story office building. Technicians can't waste time looking for a worksite. They need to know exactly where to go to perform their work. That's the purpose of the functional location on a work order.
 
-In Field Service, functional locations allow you to specify granular, hierarchical worksites. For example, the following relationship represents the location of a printer named "Acct-10" on the third floor in Building A on a customer's campus:
+In Field Service, functional locations create a location hierarchy, placing assets within specific locations, such as buildings or rooms. You can view the assets associated with each location.
+
+For example, the following relationship represents the location of a printer named "Acct-10" on the third floor in Building A on a customer's campus:
 
 - Campus
   - Building A
