@@ -147,7 +147,7 @@ Yes. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
 
-Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. The feature teams continuously monitor the performance and reliability of the system. If any issues are detected, the teams react to first investigate and then mitigate. Learn more in Responsible AI Transparency Report.
+Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. The feature teams continuously monitor the performance and reliability of the system. Learn more in Responsible AI Transparency Report.
 
 ## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and affected parties?
 
