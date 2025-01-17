@@ -73,26 +73,14 @@ To enable channels in your org, see [Provision channels](/dynamics365/contact-ce
 
 If your organization uses a URL filter to block a category of websites or URLs, ensure that you allow the following websites as an exception for your users so they can access the Omnichannel for Customer Service app on the business portal.
 
-- `https://*.communication.azure.com`
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
-- `https://browser.pipe.aria.microsoft.com`
-- `https://*.teams.microsoft.com`
-- `https://plat.teams.microsoft.com`
-- `https://authsvc.teams.microsoft.com`
-- `https://*.ng.msg.teams.microsoft.com`
-- `https://*.notifications.teams.microsoft.com`
+- `https://*.communication.azure.com`
 - `https://*.trouter.teams.microsoft.com`
+- `https://*.trouter.communication.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com`
-- `https://*.trouter.skype.com`
-- `https://*.edge.skype.com`
-- `https://aad.skypetoken.skype.com`
-- `https://config.edge.skype.com`
-- `https://edge.skype.com`
-- `https://api.aps.skype.com`
-- `https://*.asm.skype.com`
+- `https://browser.pipe.aria.microsoft.com`
 - `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
@@ -100,14 +88,9 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
 - `https://*.communication.azure.com`
-- `https://*.teams.microsoft.com`
-- `https://plat.teams.microsoft.com`
-- `https://*.ng.msg.teams.microsoft.com`
-- `https://*.notifications.teams.microsoft.com`
+- `https://*.trouter.communication.microsoft.com`
 - `https://*.trouter.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com/*`
-- `https://*.asm.skype.com`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
@@ -141,8 +124,6 @@ The Government community cloud links that should be made accessible are as follo
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
 - `https://oc-auth.azurewebsites.us`
-- `https://swc.cdn.skype.com/*`
-- `https://config.edge.skype.com/*`
 - `https://*.gcc.teams.microsoft.com`
 - `https://api.ams.gcc.teams.microsoft.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`
