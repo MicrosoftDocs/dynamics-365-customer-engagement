@@ -1,7 +1,7 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 07/01/2024
+ms.date: 01/17/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -21,14 +21,14 @@ ms.custom:
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As an agent, you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As a customer service representative (representative), you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > [!NOTE]
 > This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat](../administer/configure-teams-chat.md)
 
-## Agent overview of key features for Teams chat
+## Representative overview of key features for Teams chat
 
-The following image displays the key features of the agent Teams chat experience.
+The following image displays the key features of the representative Teams chat experience.
 
  > [!div class="mx-imgBorder"] 
  > ![Agent view of the Microsoft Teams chat experience](../media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
@@ -104,7 +104,7 @@ You can connect a chat to a single record or multiple records. For example, if y
     
 ### Understand how disconnected chat rights are assigned
 
-As an agent, you have the following three options for getting rights to disconnect chats, all of which your administrator controls.
+As a representative, you have the following three options for getting rights to disconnect chats, all of which your administrator controls.
 
 - You're the record owner, and your administrator enables this capability.
 - You're the most recent user to connect the chat to the record, and your administrator enables this capability.
@@ -132,9 +132,9 @@ You can connect relevant Teams channels to a record, so that all the members can
 
 ## Join a chat
 
-As an agent, you can view and easily join chats that are connected to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this feature can be useful include:
+As a representative, you can view and easily join chats that are connected to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this feature can be useful include:
 
-- **Case transfers**: If you’ve onboarded to a case that another agent previously handled, you can join the chat to better understand the context of the case, and then continue to collaborate with your relevant colleagues.
+- **Case transfers**: If you’ve onboarded to a case that another representative previously handled, you can join the chat to better understand the context of the case, and then continue to collaborate with your relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
  > [!NOTE]
@@ -172,7 +172,7 @@ If you're using the Microsoft Teams app, when joining a chat, the following mess
     
 ## View Teams chats in the timeline for a record (preview)
 
-As an agent, when you start a connected chat or connect an existing chat to a record, you can see the chat appear as a new activity in the timeline. The timeline entry shows details about who connected the chat and when they connected it. It also shows the last person to send a message in the chat, and when they sent it. If the Join chat setting is turned on in your organization, agents can also directly join the chat or be added as a chat participant and see the full exchange.
+As a representative, when you start a connected chat or connect an existing chat to a record, you can see the chat appear as a new activity in the timeline. The timeline entry shows details about who connected the chat and when they connected it. It also shows the last person to send a message in the chat, and when they sent it. If the Join chat setting is turned on in your organization, representatives can also directly join the chat or be added as a chat participant and see the full exchange.
 
  > [!NOTE]
  > Your administrator must enable this feature before you can use it.
