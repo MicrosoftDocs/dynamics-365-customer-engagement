@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for email records
 description: Learn how to use unified routing to route email records as work items in Dynamics 365 Customer Service.
-ms.date: 04/23/2024
+ms.date: 01/17/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -39,7 +39,7 @@ A high-level overview of unified routing with email records is as follows.
 
 
 > [!NOTE]
-> You must ensure that the agent capacity is released after the agent completes their work on the email record. More information: [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)
+> You must ensure that the agent capacity is released after the agent completes their work on the email record. More information: [Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives)
 
 ### Related information
 
