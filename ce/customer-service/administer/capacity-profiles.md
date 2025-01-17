@@ -98,7 +98,7 @@ However, if you configure custom limits through capacity profiles, then represen
 
 - The system applies the custom limit to new work assignments only. If the custom limit is lower than the used limit, the system doesn't reassign the currently assigned work items for the representatives.
 
-- The other representatives with the same capacity profile for whom the custom limit isn't configured have the default limit. Any changes in the default limit affects these representatives. However, the representatives with custom limit remain unaffected.
+- The other representatives with the same capacity profile for whom the custom limit isn't configured have the default limit. Any change in the default limit affects these representatives. However, the representatives with custom limit remain unaffected.
 
 An example of the custom limit is as follows:
 
