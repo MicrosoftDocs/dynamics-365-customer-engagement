@@ -38,6 +38,10 @@ You must obtain one of the following subscriptions through the Microsoft 365 adm
 
 > [!IMPORTANT]
 > If you don't have one of these subscriptions, or if you purchased your subscription somewhere other than Web Direct, then the option to try channels isn't be available in the Microsoft 365 admin center. In such cases, we recommend that you use the [Customer Service trial](https://dynamics.microsoft.com/customer-service/overview/).
+>
+> [!IMPORTANT]
+> 90 day trials obtained through Customer Digital Experiences will not have Omnichannel enabled. Please use the 30-day free trial if you would like to use Omnichannel. 
+
 
 For information about the Digital Messaging license, pricing, and prerequisites, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
