@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to 
 ms.collection: 
-ms.date: 12/17/2024
+ms.date: 01/09/2025
 ms.custom: bap-template
 ---
 
@@ -25,7 +25,8 @@ The performance of your Copilot is highly correlated to the quality of the knowl
 
 - You have the System Administrator role. 
 - A license for  Microsoft Copilot Studio is available. 
-- [Copilot in Customer Service is enabled](configure-copilot-features.md#manage-copilot-features-in-customer-service). 
+- [Copilot in Customer Service is enabled](configure-copilot-features.md#manage-copilot-features-in-customer-service).
+- For SharePoint, Dataverse, or enterprise data using Microsoft Graph connectors, you must have the required authentication. Learn more in [source authentication](/microsoft-copilot-studio/knowledge-copilot-studio#source-authentication).
 
 ## Enable knowledge sources configured in Copilot Studio
  
@@ -42,7 +43,7 @@ The performance of your Copilot is highly correlated to the quality of the knowl
 1. In Customer Service admin center, select **Save** or **Save and close**.
 1. On the **Publish knowledge sources** dialog that appears, select **Publish**.
 
-If you made any unpublished modifications to the plugins, you see a **Detected unpublished plugin** dialog. Select **Publish** if you are ready to publish the unpublished plugin changes.
+If you made any unpublished modifications to the Copilot plugins, you see a **Detected unpublished plugin** dialog. Select **Publish** if you're ready to publish the unpublished plugin changes. Learn more about plugins in [Enable plugins for generative AI (preview)](enable-copilot-plugins-for-generative-ai.md#enable-plugins-for-generative-ai-preview).
 
 > [!NOTE]
 > - Enterprise data that uses Copilot connectors as knowledge sources currently isn't supported. Instead, customers can optionally use Microsoft Graph connectors for their preferred sources.

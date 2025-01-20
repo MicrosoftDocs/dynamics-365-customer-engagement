@@ -24,7 +24,7 @@ The opportunity pipeline view, formerly known as deal manager, helps you visuali
 
 Watch this short video to learn how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ccf5ecba-90ff-4d7c-ac12-ac9ff309a367]
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 

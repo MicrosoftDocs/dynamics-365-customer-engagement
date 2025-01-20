@@ -30,7 +30,7 @@ The features include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=1a9dd7f8-3c00-46c9-bda3-b567b5651f71]
 
 ## Prerequisites
 
