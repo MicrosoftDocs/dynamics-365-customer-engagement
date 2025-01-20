@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
-ms.date: 07/02/2024
+ms.date: 20/01/2025
 ms.custom: bap-template
 ---
 
@@ -32,6 +32,9 @@ In the **My work items** section, you can see the conversations (work items) tha
 In the **Open work items** section, you can see the conversations (work items) that are in an open state from all queues in which you're added as member. Select the ellipsis, and then select the **Assign to me** option to assign the work item to yourself. A session starts for the pick action. When you select a work item, you get a notification, and when you accept it, a session starts and the **Active Conversation** or case page loads.
 
 The work item that you pick is moved from the **Open work items** section to the **My work items** section. If you reject the request, then the work item remains in the **Open work items** section.
+
+> [!NOTE]
+> The out-of-the-box open work items control doesn't work on custom dashboards and can be used with Omnichannel Agent dashboard only.
 
 ## Closed work items
 
