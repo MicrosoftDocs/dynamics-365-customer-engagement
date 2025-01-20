@@ -12,7 +12,7 @@ ms.topic: article
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-By default, the following agent experience profiles are available out of the box for Customer Service workspace and Omnichannel for Customer Service. These profiles can't be deleted or modified.  When you don't assign a custom profile to an agent, the default profile is assigned.
+By default, the following agent experience profiles are available out of the box for Customer Service workspace and Contact Center workspace. These profiles can't be deleted or modified.  When you don't assign a custom profile to an agent, the system assigns the default profile.
 
 - Omnichannel for Customer Service - default profile
 - Customer Service workspace - default profile
@@ -42,7 +42,7 @@ By using agent profiles, you can create targeted app experiences for agents and 
 
 ### Assign users, templates, configure productivity pane, channels
 
-For the agent experience profile that you created, you can add users and configure option such as specific session templates and conversation channels.
+For the agent experience profile that you created, you can add users and configure options, such as specific session templates and conversation channels.
 
 1. Go to **Agent experience profiles**, select the checkbox for the profile, and then configure the following settings:
 
@@ -62,16 +62,16 @@ For the agent experience profile that you created, you can add users and configu
       - Smart assist
       
       Turn on the toggle against each option in the **Productivity Pane** to enable it for the agent.
-   - In the **Inbox** section, select **Edit** to enable the inbox view. This allows agents to view all their work items on one screen and helps them to prioritize tasks and efficiently work on multiple tasks.
-   - In the **Channel providers** section, select **Edit** to enable the channels and select third-party voice channel providers. On the **Channel providers**  pane you can:
-      - Turn on the **All active channels** toggle. All the channels that you have set up are loaded and the presence settings are loaded.
+   - In the **Inbox** section, select **Edit** to enable the inbox view. Agents can view all their work items on one screen and prioritize tasks and efficiently work on multiple tasks.
+   - In the **Channel providers** section, select **Edit** to enable the channels and select non-Microsoft voice channel providers. On the **Channel providers**  pane you can:
+      - Turn on the **All active channels** toggle. All the channels that you have set up and the presence settings are loaded.
       - Select a channel provider or create channel providers in the **Third party voice channel providers** section.
   
-   :::image type="content" source="../media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
+     :::image type="content" source="../media/agent-experience-profile.png" alt-text="The agent experience profile with configured settings in Customer Service admin center.":::
 
 ### Enable Copilot features for agent experience profiles
 
-For agents to be able to use the copilot features in Customer Service workspace, you need to enable the copilot features in agent experience profiles. By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features. For more information, See: [Make Copilot available to agents](configure-copilot-features.md#make-copilot-available-to-agents)
+To enable agents to use the copilot features in Customer Service workspace, you need to enable the copilot features in agent experience profiles. By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features. Learn more in [Make Copilot available to agents](configure-copilot-features.md#make-copilot-available-to-agents).
 
 ### Related information
 
