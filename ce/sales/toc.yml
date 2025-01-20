@@ -187,6 +187,8 @@
           href: enable-copilot-email-assist.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
+        - name: Customize Copilot in Dynamics 365 Sales
+          href: extend-copilot-chat.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
     - name: Overview of focused view
