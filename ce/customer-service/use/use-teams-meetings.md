@@ -1,7 +1,7 @@
 ---
 title: Use Microsoft Teams meetings 
 description: Learn how to use Microsoft Teams meetings integration 
-ms.date: 01/17/2025
+ms.date: 01/21/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
