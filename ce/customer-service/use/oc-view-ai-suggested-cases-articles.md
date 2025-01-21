@@ -1,7 +1,7 @@
 ---
 title: View smart assist suggestions for knowledge articles and similar cases using AI
 description: View smart assist suggestions for knowledge articles and similar cases using AI.
-ms.date: 08/29/2024
+ms.date: 01/21/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,8 +14,9 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-> [!Note]
-> Case information is applicable to Customer Service only.
+> [!NOTE]
+> - The functionality described in this article is deprecated and will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> - Case information is applicable to Customer Service only.
 
 
 ## Introduction

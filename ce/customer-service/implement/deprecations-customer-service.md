@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 12/31/2024
+ms.date: 01/21/2025
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,6 +18,10 @@ Administrators and IT professionals can use this information to prepare for futu
 
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+
+## Smart assist in Customer Service is deprecated
+
+Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-agents).
 
 ## Provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated
 
