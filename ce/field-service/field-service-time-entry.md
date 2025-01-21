@@ -1,7 +1,7 @@
 ---
 title: Track time expenditure with time entries
 description: Discover how to manage time entry in Dynamics 365 Field Service.
-ms.date: 01/17/2025
+ms.date: 01/21/2025
 ms.topic: conceptual
 author: anilmur
 ms.author: anilmur
@@ -13,7 +13,7 @@ Time entry capabilities help field service organizations better track the time t
 
 Administrators determine the following settings:
 
-- [**Timestamp Frequency**](configure-default-settings.md#work-order--booking-settings): Whether a timestamp is created per Booking status or Field Service status.
+- [**Timestamp Frequency**](configure-default-settings.md#work-order--booking-settings): Whether a timestamp is created per **Booking Status** or **Work Order System Status**.
 
 - [**Time Entry Generation Strategy**](configure-default-settings.md#time-entry-settings): Automatic (default) or manual time entries.
 
@@ -27,15 +27,15 @@ For a guided walkthrough of the automated and manual time entry process, check o
 
 ## Automatic time entries
 
-The system by default creates time entries automatically for time-off requests and in the work order process.
+The system by default creates time entries automatically for time-off requests and in the work order process. You can view the time entries after the **Booking Status** is set to *Completed*.
 
 ### Work order process
 
-When the *booking status* for a work order changes, the system logs [booking timestamps](booking-timestamps.md). When a work order is completed, the system creates time entries based on the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value.
+When the **Booking Status** for a work order changes, the system logs [booking timestamps](booking-timestamps.md). When a work order is completed, the system creates time entries based on the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking's end time preserves the previous end time value.
 
 :::image type="content" source="media/work-order-time-entry.png" alt-text="Screenshot of a list of time entries.":::
 
-When the *work order system status* changes to *Closed-Posted*, the system creates records for *actuals* based on the time entries. These records represent the internal cost of the technician's time.
+When the **Work Order System Status** changes to *Closed-Posted*, the system creates records for *actuals* based on the time entries. These records represent the internal cost of the technician's time.
 
 :::image type="content" source="media/work-order-time-entry-actuals.png" alt-text="Screenshot of a list of active actuals.":::
 
