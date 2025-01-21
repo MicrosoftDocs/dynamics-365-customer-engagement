@@ -18,6 +18,7 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_actioninputparameter](msdyn_actioninputparameter.md)|
 |[msdyn_actionoutputparameter](msdyn_actionoutputparameter.md)|
 |[msdyn_agentcapacityprofileunit](msdyn_agentcapacityprofileunit.md)|
+|[msdyn_agentcopilotsetting](msdyn_agentcopilotsetting.md)|
 |[msdyn_agentscript](msdyn_agentscript.md)|
 |[msdyn_agentscriptstep](msdyn_agentscriptstep.md)|
 |[msdyn_agentstatus](msdyn_agentstatus.md)
@@ -42,6 +43,7 @@ When you install the Omnichannel for Customer Service solution, the following en
 |[msdyn_conversationsuggestionrequestpayload](msdyn_conversationsuggestionrequestpayload.md)|
 |[msdyn_copilotinteraction](msdyn_copilotinteraction.md)|
 |[msdyn_copilotinteractiondata](msdyn_copilotinteractiondata.md)|
+|[msdyn_copilotsummarizationsetting](msdyn_copilotsummarizationsetting.md)|
 |[msdyn_copilottranscript](msdyn_copilottranscript.md)|
 |[msdyn_copilottranscriptdata](msdyn_copilottranscriptdata.md)|
 |[msdyn_customengagementctx](msdyn_customengagementctx.md)|
