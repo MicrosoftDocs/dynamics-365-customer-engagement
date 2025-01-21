@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams collaboration
 description: Learn how to configure collaboration with Microsoft Teams in Customer Service.
-ms.date: 01/15/2025
+ms.date: 01/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Customer service representatives (representatives) can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable the Microsoft Teams collaboration feature to help them find the right contacts.
+Customer service representatives (service representatives or representatives) can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable the Microsoft Teams collaboration feature to help them find the right contacts.
 
 This feature uses the AI capability to automatically suggest contacts in real-time, based on the currently open active case or support conversation when representatives explore contacts in the embedded chat experience.
 
