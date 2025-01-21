@@ -1,7 +1,7 @@
 ---
 title: Customer support swarming for representatives
 description: Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service.
-ms.date: 01/17/2025
+ms.date: 01/21/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -33,7 +33,7 @@ Use customer support swarming to find the right set of experts to work with on y
 
 To be able to create a swarm when working on a customer issue, you must have the following prerequisites in place.
 
-- If you're a representative, you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
+- If you're a customer service representative (service representative or representative), you must have both a Dynamics 365 Customer Service Enterprise license and Microsoft Teams license.
 
 - If you're an expert joining a swarm, you must have a Teams license.
 
