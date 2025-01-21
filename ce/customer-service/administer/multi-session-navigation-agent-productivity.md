@@ -1,7 +1,7 @@
 ---
 title: "Enable multisession navigation with customized model-driven apps (preview)| MicrosoftDocs"
 description: "Use the multisession navigation in Customer Service workspace to help representatives work on multiple cases and conversations."
-ms.date: 01/20/2025
+ms.date: 01/21/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -12,7 +12,7 @@ ms.author: nenellim
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-The browser-like tabbed experience in Customer Service workspace helps customer service representatives (representatives) handle multiple sessions concurrently. Representatives can work on multiple cases and conversations, and perform other activities in a single workspace app. You can enable this experience and productivity tools for your representatives who use custom model-driven app.
+The browser-like tabbed experience in Customer Service workspace helps customer service representatives (service representatives or representatives) handle multiple sessions concurrently. Representatives can work on multiple cases and conversations, and perform other activities in a single workspace app. You can enable this experience and productivity tools for your representatives who use custom model-driven app.
 
 
 ## Prerequisites
@@ -54,7 +54,7 @@ Perform the following steps to enable the experience.
 
     When you select **Multisession navigation**, the **Productivity tools** feature gets automatically selected.
 
-5. A popup screen appears. Review the custom support app information and select **Confirm**.
+5. A dialog box appears. Review the custom support app information and select **Confirm**.
 
 You can now validate the features in your custom model-driven app.
 
