@@ -459,7 +459,7 @@
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
     - name: Customer Knowledge Management Agent (preview)
-        items:
+      items:
         - name: Configure connection references
           href: admin-km-agent-connections.md
         - name: Enable Customer Knowledge Management Agent

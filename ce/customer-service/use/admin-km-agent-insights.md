@@ -31,7 +31,7 @@ Supervisors and content managers can view the **Overall performance** report on 
 
 ## Prerequisites
 
-- You must have [Customer Knowledge Management Agent turned on in the Customer Service admin center](../administer/admin-km-agent.md#manage-knowledge-harvesting-preview). You must also have the **Real-time creation** and **Creation from historical cases** turned on.
+- [Turned on Customer Knowledge Management Agent in the Customer Service admin center](../administer/admin-km-agent.md) along with **Real-time creation** and **Creation from historical cases** .
 
 - To enable collection of interaction data for your own reporting, you must have selected the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
 
