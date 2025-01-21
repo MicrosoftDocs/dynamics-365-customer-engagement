@@ -21,7 +21,7 @@ ms.reviewer: laalexan
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-Customer support swarming is a way to quickly bring together experts across your business to help customer service representatives (representatives) solve issues. As an administrator, you can enable your representatives and subject matter experts to "swarm" together to resolve complex cases.
+Customer support swarming is a way to quickly bring together experts across your business to help customer service representatives (service representatives or representatives) solve issues. As an administrator, you can enable your representatives and subject matter experts to "swarm" together to resolve complex cases.
 
 Customer support swarming is useful when representatives need to take the following actions:
 
