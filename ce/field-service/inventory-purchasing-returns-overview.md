@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory, purchasing, and returns
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service.
-ms.date: 11/01/2024
+ms.date: 01/15/2025
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -27,6 +27,10 @@ Before you use inventory, purchasing, and returns, it's critical that you're fam
 To give a resource access to create and edit inventory-related tables, add the *Inventory Purchase* security role to their existing security role.
 
 For basic inventory requirements, many organizations use the out-of-box capabilities. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. In one common example, Field Service integrates with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) by using a prebuilt [Dataverse "Prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
+
+The following diagram illustrates the flow of inventory, purchasing, and returns in Field Service.
+
+:::image type="content" source="media/warehouse-inv-purchase-returns-diagram.png" alt-text="Diagram showing the flow of inventory, purchasing, and returns in Field Service.":::
 
 ## Warehouses and product inventory
 
