@@ -223,7 +223,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|bcc|
 |RequiredLevel|None|
-|Targets|account, contact,lead,systemuser|
+|Targets|account, contact, lead,systemuser|
 |Type|PartyList|
 
 
@@ -239,7 +239,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|cc|
 |RequiredLevel|None|
-|Targets|account, contact,lead,systemuser|
+|Targets|account, contact, lead,systemuser|
 |Type|PartyList|
 
 
@@ -514,7 +514,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Date and time when session was accepted by agent|
+|Description|Date and time when session accepted by agent|
 |DisplayName|Agent Accepted On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -604,7 +604,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360000|Live chat|
 |192370000|Voice|
 |192380000|Video|
-|192390000|Co-browse|
+|192390000|Cobrowse|
 |192400000|Screen sharing|
 |192440000|Voice call|
 |192450000|Apple Messages for Business|
@@ -971,7 +971,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|Priority|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|prioritycode|
+|LogicalName|priority code|
 |RequiredLevel|None|
 |Type|Picklist|
 
