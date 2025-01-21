@@ -915,7 +915,7 @@ Many-To-One Relationship: processsession msdyn_copilotsummarizationsetting_Proce
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_SyncErrors"></a> msdyn_copilotsummarizationsetting_SyncErrors
 
-Many-To-One Relationship: [syncerror msdyn_copilotsummarizationsetting_SyncErrors](syncerror.md#BKMK_msdyn_copilotsummarizationsetting_SyncErrors)
+Many-To-One Relationship: syncerror msdyn_copilotsummarizationsetting_SyncErrors
 
 |Property|Value|
 |---|---|
