@@ -1,7 +1,7 @@
 ---
 title: Set up auto-summarization for conversations in Dynamics 365 Customer Service
 description: Add an AI-generated summary of an ongoing customer conversation in Dynamics 365 Customer Service.
-ms.date: 01/16/2025
+ms.date: 01/21/2025
 ms.topic: article
 author: gandhamm 
 ms.author: mgandham
@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-Customer service representatives (representatives) can collaborate with other representatives and contacts directly while they're working in Dynamics 365 Customer Service. To help representatives easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Representatives can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps taken.
+Customer service representatives (service representatives or representatives) can collaborate with other representatives and contacts directly while they're working in Dynamics 365 Customer Service. To help representatives easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Representatives can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps taken.
 
 ## Components of an auto-summarize conversations
 
