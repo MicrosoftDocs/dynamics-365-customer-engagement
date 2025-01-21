@@ -50,9 +50,9 @@ Perform the following steps to enable the experience.
   > [!NOTE]
   > A model driven app with the lock icon indicates that it is part of a managed solution and cannot be edited.
 
-4. Select both **Productivity tools** and **Multisession navigation** features, and then select **Save**.
+4. Select both **Productivity tool** and **Multisession with productivity tools** features, and then select **Save**.
 
-    When you select **Multisession navigation**, the **Productivity tools** feature gets automatically selected.
+    When you select **Multisession with productivity tools**, the **Productivity tool** feature gets automatically selected.
 
 5. A dialog box appears. Review the custom support app information and select **Confirm**.
 
