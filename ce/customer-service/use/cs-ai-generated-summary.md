@@ -1,7 +1,7 @@
 ---
 title: Auto-summarize conversations in Customer Service
 description: View an AI-generated summary of a customer conversation and share it in Microsoft Teams.
-ms.date: 01/17/2025
+ms.date: 01/21/2025
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -16,7 +16,7 @@ ms.collection: bap-ai-copilot
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-Share an AI-generated summary of a customer conversation to easily collaborate on a case. A summary quickly provides context and relays steps that you've already taken to solve the issue. You can summarize all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. This feature also supports agent to customer service representative (representative) conversations, voice conversations with transcription enabled, and Microsoft Teams conversations.
+Share an AI-generated summary of a customer conversation to easily collaborate on a case. A summary quickly provides context and relays steps that you've already taken to solve the issue. You can summarize all conversations that take place on messaging channels such as Live Chat, SMS, or WhatsApp. This feature also supports agent to customer service representative (service representative or representative) conversations, voice conversations with transcription enabled, and Microsoft Teams conversations.
 
 ## View and share a conversation summary for conversations
 
