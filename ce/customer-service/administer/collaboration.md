@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: overview
-ms.date: 01/15/2025
+ms.date: 01/21/2025
 
 ---
 
@@ -13,7 +13,7 @@ ms.date: 01/15/2025
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Collaboration features make it easy for customer service representatives (representatives) to find the help they need in Microsoft Teams from within the following apps:
+Collaboration features make it easy for customer service representatives (service representatives or representatives) to find the help they need in Microsoft Teams from within the following apps:
 - Dynamics 365 Customer Service admin center
 - Dynamics 365 Customer Service Hub
 - Dynamics 365 Customer Service workspace
