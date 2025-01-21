@@ -12,6 +12,7 @@ ms.custom: bap-template
 
 # Copilot feature availability across applications
 
+This article provides information about the Copilot features supported across Dynamics 365 Customer Service, Dynamics 365 Contact Center - Standalone Experience, Dynamics 365 Contact Center - Embedded Experience, and Microsoft 365 Copilot for Service.
 
 | Feature                   | Dynamics 365 Customer Service | Dynamics 365 Contact Center - Standalone Experience | Dynamics 365 Contact Center - Embedded Experience | Microsoft 365 Copilot for Service |
 |---------------------------|-------------------------------|-----------------------------------------------------|---------------------------------------------------|-----------------------------------|
@@ -30,7 +31,6 @@ ms.custom: bap-template
 | [Use proactive prompts based on conversation data](use-ask-a-question.md#use-proactive-prompts) | Yes                          | Yes                                               | Yes                                              | Yes |  
 |[Use targeted phrases in Copilot to get responses from plugins (preview)](use-ask-a-question.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview)| Yes | Yes | No | No |
 | [Filter knowledge articles to generate responses](use-copilot-filters.md) | Yes | No | No | No |
-](use-ask-a-question.md) | Yes | No | No | No |
 |[Summarize cases in non-Microsoft CRMs](/contact-center/use/copilot-use-summary)| Yes | No | Yes | Yes|
 |[Ask about case data](use-ask-a-question.md#summarize-cases-and-ask-about-case-data)| Yes | No | No | No|
 |[Translate Copilot responses](use-ask-a-question.md#translate-responses) | Yes | Yes | Yes | Yes|
@@ -43,4 +43,4 @@ ms.custom: bap-template
 | [Filter knowledge articles to generate responses](use-copilot-filters.md) | Yes | No | No | No |
 | [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md) | Yes | No | No | No |
 | [Use Copilot analytics](copilot-analytics-report.md) | Yes | Yes | No | No|
-|Resolution Notes| No | No | Yes | Yes |
+|[Resolution Notes](https://review.learn.microsoft.com/en-us/microsoft-copilot-service/copilot-ask-a-question?branch=mg-cp-features#generate-resolution-notes)| No | No | Yes | Yes |
