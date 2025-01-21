@@ -725,7 +725,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for Queue Assignment (For internal use only. Customers are advised to not use this property.)|
+|Description|Reason for Queue Assignment (For internal use only. We recommend that you don't use this property.)|
 |DisplayName|Queue Assignment Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
