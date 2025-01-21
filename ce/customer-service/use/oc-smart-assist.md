@@ -14,9 +14,6 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-> [!NOTE]
-> The functionality described in this article is deprecated and will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
-
 Smart assist is an intelligent assistant that provides real-time recommendations to you, thereby helping you take actions during your interactions with customers. It shows relevant recommendations such as knowledge articles, similar cases, and the next-best steps.
 
 By default, the productivity pane is enabled. The smart assist cards appear on the productivity pane.

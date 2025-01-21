@@ -14,7 +14,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!NOTE]
-> The functionality described in this article is deprecated and will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The case and knowledge suggestions in smart assist will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of agents to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 

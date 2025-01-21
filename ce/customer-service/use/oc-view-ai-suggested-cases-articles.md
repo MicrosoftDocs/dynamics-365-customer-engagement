@@ -15,11 +15,8 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!NOTE]
-> - The functionality described in this article is deprecated and will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> - The case and knowledge suggestions will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
 > - Case information is applicable to Customer Service only.
-
-
-## Introduction
 
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers.
 
