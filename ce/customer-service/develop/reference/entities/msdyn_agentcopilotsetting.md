@@ -1544,6 +1544,7 @@ Many-To-One Relationship: bulkdeletefailure msdyn_agentcopilotsetting_BulkDelete
 ### <a name="BKMK_msdyn_agentcopilotsetting_DuplicateBaseRecord"></a> msdyn_agentcopilotsetting_DuplicateBaseRecord
 
 Many-To-One Relationship: duplicaterecord msdyn_agentcopilotsetting_DuplicateBaseRecord
+
 |Property|Value|
 |---|---|
 |ReferencingEntity|`duplicaterecord`|
