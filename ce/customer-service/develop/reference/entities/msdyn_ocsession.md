@@ -223,7 +223,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|bcc|
 |RequiredLevel|None|
-|Targets|account,contact,lead,systemuser|
+|Targets|account, contact,lead,systemuser|
 |Type|PartyList|
 
 
@@ -239,7 +239,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|cc|
 |RequiredLevel|None|
-|Targets|account,contact,lead,systemuser|
+|Targets|account, contact,lead,systemuser|
 |Type|PartyList|
 
 
@@ -292,7 +292,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|customers|
 |RequiredLevel|None|
-|Targets|account,contact|
+|Targets|account, contact|
 |Type|PartyList|
 
 
@@ -379,7 +379,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|from|
 |RequiredLevel|None|
-|Targets|account,contact,lead,systemuser|
+|Targets|account, contact,lead,systemuser|
 |Type|PartyList|
 
 
@@ -725,7 +725,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for Queue Assignment (This is for internal use only. Customers are advised to not use this property.)|
+|Description|Reason for Queue Assignment (For internal use only. Customers are advised to not use this property.)|
 |DisplayName|Queue Assignment Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -880,7 +880,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|optionalattendees|
 |RequiredLevel|None|
-|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
@@ -928,7 +928,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|ownerid|
 |RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
+|Targets|systemuser, team|
 |Type|Owner|
 
 
@@ -959,7 +959,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|partners|
 |RequiredLevel|None|
-|Targets|account,contact|
+|Targets|account, contact|
 |Type|PartyList|
 
 
@@ -1079,7 +1079,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|requiredattendees|
 |RequiredLevel|None|
-|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact, entitlement,equipment,knowledge article,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
