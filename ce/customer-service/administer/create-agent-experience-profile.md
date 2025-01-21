@@ -4,7 +4,7 @@ description: Learn how to create and manage agent experience profiles for custom
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 01/20/2025
+ms.date: 01/21/2025
 ms.topic: article
 ---
 
@@ -18,7 +18,7 @@ By default, the following agent experience profiles are available out of the box
 - Customer Service workspace - default profile
 - Customer Service workspace + channels - default profile
 
-You can configure agent experience profiles in Customer Service admin center. 
+You can configure agent experience profiles in Contact Center admin center and Customer Service admin center. 
 
 ## Prerequisites
 
