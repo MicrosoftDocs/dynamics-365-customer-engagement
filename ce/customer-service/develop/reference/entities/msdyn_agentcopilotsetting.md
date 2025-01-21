@@ -1440,7 +1440,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 ### <a name="BKMK_lk_msdyn_agentcopilotsetting_createdby"></a> lk_msdyn_agentcopilotsetting_createdby
 
-One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_createdby](systemuser.md#BKMK_lk_msdyn_agentcopilotsetting_createdby)
+One-To-Many Relationship: systemuser lk_msdyn_agentcopilotsetting_createdby
 
 |Property|Value|
 |---|---|
@@ -1453,7 +1453,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_createdby](sy
 
 ### <a name="BKMK_lk_msdyn_agentcopilotsetting_createdonbehalfby"></a> lk_msdyn_agentcopilotsetting_createdonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_agentcopilotsetting_createdonbehalfby)
+One-To-Many Relationship: systemuser lk_msdyn_agentcopilotsetting_createdonbehalfby
 
 |Property|Value|
 |---|---|
@@ -1466,7 +1466,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_createdonbeha
 
 ### <a name="BKMK_lk_msdyn_agentcopilotsetting_modifiedby"></a> lk_msdyn_agentcopilotsetting_modifiedby
 
-One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_modifiedby](systemuser.md#BKMK_lk_msdyn_agentcopilotsetting_modifiedby)
+One-To-Many Relationship: systemuser lk_msdyn_agentcopilotsetting_modifiedby
 
 |Property|Value|
 |---|---|
@@ -1479,7 +1479,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_modifiedby](s
 
 ### <a name="BKMK_lk_msdyn_agentcopilotsetting_modifiedonbehalfby"></a> lk_msdyn_agentcopilotsetting_modifiedonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_agentcopilotsetting_modifiedonbehalfby)
+One-To-Many Relationship: systemuser lk_msdyn_agentcopilotsetting_modifiedonbehalfby
 
 |Property|Value|
 |---|---|
@@ -1492,7 +1492,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_agentcopilotsetting_modifiedonbeh
 
 ### <a name="BKMK_organization_msdyn_agentcopilotsetting"></a> organization_msdyn_agentcopilotsetting
 
-One-To-Many Relationship: [organization organization_msdyn_agentcopilotsetting](organization.md#BKMK_organization_msdyn_agentcopilotsetting)
+One-To-Many Relationship: organization organization_msdyn_agentcopilotsetting
 
 |Property|Value|
 |---|---|
@@ -1519,7 +1519,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_AsyncOperations"></a> msdyn_agentcopilotsetting_AsyncOperations
 
-Many-To-One Relationship: [asyncoperation msdyn_agentcopilotsetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_agentcopilotsetting_AsyncOperations)
+Many-To-One Relationship: asyncoperation msdyn_agentcopilotsetting_AsyncOperations
 
 |Property|Value|
 |---|---|
@@ -1531,7 +1531,7 @@ Many-To-One Relationship: [asyncoperation msdyn_agentcopilotsetting_AsyncOperati
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_BulkDeleteFailures"></a> msdyn_agentcopilotsetting_BulkDeleteFailures
 
-Many-To-One Relationship: [bulkdeletefailure msdyn_agentcopilotsetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_agentcopilotsetting_BulkDeleteFailures)
+Many-To-One Relationship: bulkdeletefailure msdyn_agentcopilotsetting_BulkDeleteFailures
 
 |Property|Value|
 |---|---|
@@ -1543,8 +1543,7 @@ Many-To-One Relationship: [bulkdeletefailure msdyn_agentcopilotsetting_BulkDelet
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_DuplicateBaseRecord"></a> msdyn_agentcopilotsetting_DuplicateBaseRecord
 
-Many-To-One Relationship: [duplicaterecord msdyn_agentcopilotsetting_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_agentcopilotsetting_DuplicateBaseRecord)
-
+Many-To-One Relationship: duplicaterecord msdyn_agentcopilotsetting_DuplicateBaseRecord
 |Property|Value|
 |---|---|
 |ReferencingEntity|`duplicaterecord`|
@@ -1555,7 +1554,7 @@ Many-To-One Relationship: [duplicaterecord msdyn_agentcopilotsetting_DuplicateBa
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_DuplicateMatchingRecord"></a> msdyn_agentcopilotsetting_DuplicateMatchingRecord
 
-Many-To-One Relationship: [duplicaterecord msdyn_agentcopilotsetting_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_agentcopilotsetting_DuplicateMatchingRecord)
+Many-To-One Relationship: duplicaterecord msdyn_agentcopilotsetting_DuplicateMatchingRecord
 
 |Property|Value|
 |---|---|
@@ -1567,7 +1566,7 @@ Many-To-One Relationship: [duplicaterecord msdyn_agentcopilotsetting_DuplicateMa
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_MailboxTrackingFolders"></a> msdyn_agentcopilotsetting_MailboxTrackingFolders
 
-Many-To-One Relationship: [mailboxtrackingfolder msdyn_agentcopilotsetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_agentcopilotsetting_MailboxTrackingFolders)
+Many-To-One Relationship: mailboxtrackingfolder msdyn_agentcopilotsetting_MailboxTrackingFolders
 
 |Property|Value|
 |---|---|
@@ -1579,7 +1578,7 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_agentcopilotsetting_Mailb
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_PrincipalObjectAttributeAccesses"></a> msdyn_agentcopilotsetting_PrincipalObjectAttributeAccesses
 
-Many-To-One Relationship: [principalobjectattributeaccess msdyn_agentcopilotsetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_agentcopilotsetting_PrincipalObjectAttributeAccesses)
+Many-To-One Relationship: principalobjectattributeaccess msdyn_agentcopilotsetting_PrincipalObjectAttributeAccesses
 
 |Property|Value|
 |---|---|
@@ -1591,7 +1590,7 @@ Many-To-One Relationship: [principalobjectattributeaccess msdyn_agentcopilotsett
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_ProcessSession"></a> msdyn_agentcopilotsetting_ProcessSession
 
-Many-To-One Relationship: [processsession msdyn_agentcopilotsetting_ProcessSession](processsession.md#BKMK_msdyn_agentcopilotsetting_ProcessSession)
+Many-To-One Relationship: processsession msdyn_agentcopilotsetting_ProcessSession
 
 |Property|Value|
 |---|---|
@@ -1603,7 +1602,7 @@ Many-To-One Relationship: [processsession msdyn_agentcopilotsetting_ProcessSessi
 
 ### <a name="BKMK_msdyn_agentcopilotsetting_SyncErrors"></a> msdyn_agentcopilotsetting_SyncErrors
 
-Many-To-One Relationship: [syncerror msdyn_agentcopilotsetting_SyncErrors](syncerror.md#BKMK_msdyn_agentcopilotsetting_SyncErrors)
+Many-To-One Relationship: syncerror msdyn_agentcopilotsetting_SyncErrors
 
 |Property|Value|
 |---|---|
