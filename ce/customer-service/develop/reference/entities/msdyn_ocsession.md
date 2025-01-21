@@ -494,7 +494,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|Left Voice Mail|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|leftvoicemail|
+|LogicalName|left voicemail|
 |RequiredLevel|None|
 |Type|Boolean|
 
@@ -878,9 +878,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|Optional Attendees|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|optionalattendees|
+|LogicalName|optional attendees|
 |RequiredLevel|None|
-|Targets|account, contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact, entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
@@ -1308,7 +1308,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the currency associated with the activitypointer.|
+|Description|Unique identifier of the currency associated with the activity pointer.|
 |DisplayName|Currency|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1488,7 +1488,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the delegate user who created the activitypointer.|
+|Description|Unique identifier of the delegate user who created the activity pointer.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1555,11 +1555,11 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|
+|Description|Exchange rate for the currency associated with the activity pointer with respect to the base currency.|
 |DisplayName|Exchange Rate|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|exchangerate|
+|LogicalName|exchange rate|
 |MaxValue|100000000000|
 |MinValue|0.000000000001|
 |Precision|12|
@@ -1687,7 +1687,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the delegate user who last modified the activitypointer.|
+|Description|Unique identifier of the delegate user who last modified the activity pointer.|
 |DisplayName|Modified By (Delegate)|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2015,7 +2015,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|senton|
+|LogicalName|sent on|
 |RequiredLevel|None|
 |Type|DateTime|
 
@@ -2131,7 +2131,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |DisplayName|Version Number|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|versionnumber|
+|LogicalName|version number|
 |MaxValue|9223372036854775807|
 |MinValue|-9223372036854775808|
 |RequiredLevel|None|
@@ -2180,7 +2180,7 @@ Same as msdyn_sessionevent table [msdyn_ocsession_sessionevent_nested](msdyn_ses
 
 ## Many-To-One Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
+Each Many-To-One relationship has a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession
