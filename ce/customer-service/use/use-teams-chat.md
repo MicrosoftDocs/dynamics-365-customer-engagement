@@ -21,7 +21,7 @@ ms.custom:
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As a customer service representative (representative), you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > [!NOTE]
 > This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat](../administer/configure-teams-chat.md)
