@@ -1,6 +1,6 @@
 ---
-title: Review knowledge articles created by the customer knowledge management agent
-description: Learn how to review knowledge articles created by the customer knowledge management agent.
+title: Review knowledge articles created by the Customer Knowledge Management Agent
+description: Learn how to review knowledge articles created by the Customer Knowledge Management Agent.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -10,9 +10,9 @@ ms.date: 11/20/2024
 ms.custom: bap-template
 ---
 
-# Review knowledge articles created by the customer knowledge management agent
+# Review knowledge articles created by the Customer Knowledge Management Agent
 
-You can review knowledge articles created by the customer knowledge management agent. When you resolve a case, the customer knowledge management agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.
+You can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.
 
 ## Prerequisites
 
@@ -32,8 +32,4 @@ You can review knowledge articles created by the customer knowledge management a
 
 ## ## Related information
 
-[Manage customer knowledge management agent (preview)](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent-preview)
-
-
-
-
+[Manage Customer Knowledge Management Agent (preview)](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent-preview)

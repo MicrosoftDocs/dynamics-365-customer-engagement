@@ -1,6 +1,6 @@
 ---
-title: Configure connection references for customer knowledge management agent flow (preview)
-description: Learn how to configure connection references for customer knowledge management agent flow.
+title: Configure connection references for Customer Knowledge Management Agent flow (preview)
+description: Learn how to configure connection references for Customer Knowledge Management Agent flow.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -10,11 +10,11 @@ ms.date: 11/20/2024
 ms.custom: bap-template
 ---
 
-# Configure connection references for customer knowledge management agent flow (preview)
+# Configure connection references for Customer Knowledge Management Agent flow (preview)
 
 [This article is prerelease documentation and is subject to change.]
 
-This article provides instructions to configure connection references for the customer knowledge management agent flow. You will need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
+This article provides instructions to configure connection references for the Customer Knowledge Management Agent flow. You will need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
 
 - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
 - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
@@ -26,7 +26,7 @@ Learn more in [Add connection references to a solution](/power-apps/maker/data-p
 > - This is a preview feature.
 > - Preview features aren't meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
 
-## Set connection references for customer knowledge management agent flow
+## Set connection references for Customer Knowledge Management Agent flow
 
 1. Sign in to [make.powerapps.com](https://make.powerapps.com) and select your environment.
 1. Go to **Solutions** > **Default Solution** > **Objects** > **Connection References**.
@@ -52,7 +52,7 @@ Learn more in [Add connection references to a solution](/power-apps/maker/data-p
 1. Search for and select **CustomerServiceKnowledgeHarvest**.
 1. Select **Publish**.
 
-Once done, go to the Customer Service admin center and enable customer knowledge management agent. Learn more in [Manage customer knowledge management agent (preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
+Once done, go to the Customer Service admin center and enable Customer Knowledge Management Agent. Learn more in [Manage Customer Knowledge Management Agent (preview)](admin-km-agent.md#manage-knowledge-harvesting-preview)
  
 ## Related information
 

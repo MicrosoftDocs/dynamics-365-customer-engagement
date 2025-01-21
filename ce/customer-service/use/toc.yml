@@ -194,6 +194,12 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
+      - name: Customer Knowledge Management Agent (preview)
+        items:
+        - name: Review knowledge articles created by the Customer Knowledge Management Agent
+          href: admin-km-agent-review.md
+        - name: Use knowledge insights for Customer Knowledge Management Agent (preview)
+          href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
         - name: Omnichannel for Customer Service for agents

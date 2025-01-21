@@ -344,12 +344,6 @@
         href: /power-platform/admin/create-templates-articles
       - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
         href: integrate-KM-with-PVA.md
-      - name: Manage customer knowledge management agent (preview)
-        items:
-        - name: Configure connection references
-          href: admin-km-agent-connections.md
-        - name: Enable customer knowledge management agent
-          href: admin-km-agent.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
       - name: Configure knowledge search control on app side pane for an entity record
@@ -464,6 +458,12 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
+    - name: Customer Knowledge Management Agent (preview)
+        items:
+        - name: Configure connection references
+          href: admin-km-agent-connections.md
+        - name: Enable Customer Knowledge Management Agent
+          href: admin-km-agent.md
     - name: Chat
       items:
       - name: Introduction to the chat channel

@@ -1,6 +1,6 @@
 ---
-title: Use knowledge insights for customer Knowledge management agent (preview)
-description: Learn how to use knowledge insights to enhance the effectiveness of the customer knowledge management agent.
+title: Use knowledge insights for Customer Knowledge Management Agent (preview)
+description: Learn how to use knowledge insights to enhance the effectiveness of the Customer Knowledge Management Agent.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
@@ -10,7 +10,7 @@ ms.date: 11/20/2024
 ms.custom: bap-template
 ---
 
-# Use knowledge insights for customer knowledge management agent (preview)
+# Use knowledge insights for Customer Knowledge Management Agent (preview)
 
 [This article is prerelease documentation and is subject to change.]
 
@@ -21,9 +21,9 @@ The effectiveness of Copilot is closely linked to the quality of the knowledge b
 > - This is a preview feature.
 > - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
-Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Customer Service workspace to get analytics on customer knowledge management agent.
+Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Customer Service workspace to get analytics on Customer Knowledge Management Agent.
 
-## Benefits of insights on customer knowledge management agent
+## Benefits of insights on Customer Knowledge Management Agent
 
 - Confident self-service article publishing, and greater resource control reduce support and content management costs.
 - Understanding the performance of Copilot-drafted content can ensure transitioning to fully autonomous harvesting.
@@ -31,13 +31,13 @@ Supervisors and content managers can view the **Overall performance** report on 
 
 ## Prerequisites
 
-- You must have [customer knowledge management agent turned on in the Customer Service admin center](../administer/admin-km-agent.md#manage-knowledge-harvesting-preview). You must also have the **Real-time creation** and **Creation from historical cases** turned on.
+- You must have [Customer Knowledge Management Agent turned on in the Customer Service admin center](../administer/admin-km-agent.md#manage-knowledge-harvesting-preview). You must also have the **Real-time creation** and **Creation from historical cases** turned on.
 
-- To enable collection of interaction data for your own reporting, you must have selected the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer knowledge management agent (preview)** > **User experience data** section.
+- To enable collection of interaction data for your own reporting, you must have selected the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
 
 ## Overall performance dashboard
 
-:::image type="content" source="../media/overall-performance.png" alt-text="Screenshot of the overall performance dashboard for customer knowledge management agent":::
+:::image type="content" source="../media/overall-performance.png" alt-text="Screenshot of the overall performance dashboard for Customer Knowledge Management Agent":::
 
 ## Metrics in Overall performance report
 
