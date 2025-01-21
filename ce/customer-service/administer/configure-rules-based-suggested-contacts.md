@@ -1,7 +1,7 @@
 ---
 title: "Configure rules-based suggested contacts when starting a Microsoft Teams chat in Dynamics 365 Customer Service | Microsoft Docs"
 description: "Learn how to configure the ability to use rules-based suggested contacts."
-ms.date: 01/15/2025
+ms.date: 01/21/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -13,7 +13,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Customer service representatives (representatives) can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts that are displayed when a representative starts a new connected chat. This feature can help representatives in your organization to quickly find the right coworkers to collaborate with.
+Customer service representatives (service representatives or representatives) can collaborate with other contacts directly through Microsoft Teams to quickly resolve customer issues. As an administrator, you can enable rules-based suggested contacts that are displayed when a representative starts a new connected chat. This feature can help representatives in your organization to quickly find the right coworkers to collaborate with.
 
 A maximum of 10 rules are supported per record type.
 
