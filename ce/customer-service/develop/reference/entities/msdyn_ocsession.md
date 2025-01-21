@@ -880,7 +880,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|optional attendees|
 |RequiredLevel|None|
-|Targets|account, contact, entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact, entitlement, equipment, knowledgearticle, lead, msdyn_salessuggestion, queue, systemuser, unresolvedaddress|
 |Type|PartyList|
 
 
@@ -1012,7 +1012,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,adx_ad,adx_adplacement,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_salessuggestion,msdyn_swarm,opportunity,quote,salesorder,site|
+|Targets|account, adx_ad, adx_adplacement, adx_invitation, adx_poll, adx_polloption, adx_pollplacement,adx_pollsubmission, adx_publishingstatetransitionrule, adx_redirect, adx_shortcut, adx_webpage, adx_website,bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contact, contract,entitlement, entitlementtemplate, incident, interactionforemail, invoice, knowledgearticle, knowledgebaserecord, lead,msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm,opportunity, quote,salesorder, site|
 |Type|Lookup|
 
 
@@ -1079,7 +1079,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|requiredattendees|
 |RequiredLevel|None|
-|Targets|account, contact, entitlement,equipment,knowledge article,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact, entitlement, equipment, knowledge article, lead, msdyn_salessuggestion, queue, systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
