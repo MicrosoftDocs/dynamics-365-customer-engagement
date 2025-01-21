@@ -5,7 +5,7 @@ ms.date: 01/04/2023
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ---
 # Customer support swarming FAQ
 

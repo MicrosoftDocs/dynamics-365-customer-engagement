@@ -3,7 +3,8 @@ title: Set up inbound calling for the voice channel
 description: Learn about how to set up workstreams and queues for inbound calling in the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 06/14/2024
+ms.reviewer: nenellim
+ms.date: 12/14/2024
 ms.topic: how-to
 ms.custom: bap-template 
 ---
@@ -12,6 +13,8 @@ ms.custom: bap-template
 
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
 
@@ -70,7 +73,7 @@ To configure the voice channel, you need to associate the workstream with a phon
 
 7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-8. Turn on the toggle for the agents to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
+8. Turn on the toggle for the customer service representatives (service representatives or representatives) to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -85,15 +88,15 @@ The phone number is associated with the workstream.
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
 1. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add more languages to this voice channel, and each language has its own settings.
-   The **Primary language** is the first language the bot uses to greet the customer. Your organization can have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+   The **Primary language** is the first language the agent uses to greet the customer. Your organization can have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 
 1. Select the type of hold and wait music you want the customer to hear.
 
-1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the bot.
+1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the agent.
 
    > [!IMPORTANT]
    > Make sure that you select a neural voice because standard voice is deprecated as on August 31, 2024. For existing voice workstreams, Microsoft Dynamics 365 team would have migrated the settings for you automatically by end of July, 2024. Learn more in [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
-1. Turn on the **Post-call survey** toggle if you want the bot to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey bot after the agent hangs up.
+1. Turn on the **Post-call survey** toggle if you want the agent to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey agent after the representative hangs up.
 
 1. After you finish configuring the settings, select **Confirm**.
 
@@ -111,16 +114,16 @@ You see the following transfer and consult options:
 ### [Enhanced voice](#tab/enhancedvoice)
 
 
-  1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows agents to consult with other agents or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
-  2. Select the **Use bridged transfers** checkbox. The following actions occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
-     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+  1. Set the toggles for **External phone number** and **External Microsoft Teams users** in **Consult** and **Transfer**. This allows representatives to consult with other representatives or Teams subject matter experts during an ongoing call, and also enables them to transfer calls.
+  2. Select the **Use bridged transfers** checkbox. The following actions occur when a representative transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary representative as soon as the secondary representative or Teams user accepts or rejects a call.
      - The caller ID on the call to the external number is the Dynamics phone number.
      - The customer hears a transfer message followed by hold music. The original call continues.
      - The recording and transcription continue when the call is transferred.
      - Customers can't send Dual Tone Multi Frequency (DTMF) inputs to external numbers. 
-     - Post conversation survey, if configured, is triggered once the external agent or Teams user hangs up.<br>
-  3. If the **Use bridged transfers** checkbox isn't selected, the following actions occur when an agent transfers a call to an external phone number or a Microsoft Teams user:
-     - Call ends for the primary agent as soon as the secondary agent or Teams user accepts or rejects a call.
+     - Post conversation survey, if configured, is triggered once the external representative or Teams user hangs up.<br>
+  3. If the **Use bridged transfers** checkbox isn't selected, the following actions occur when a representative transfers a call to an external phone number or a Microsoft Teams user:
+     - Call ends for the primary representative as soon as the secondary representative or Teams user accepts or rejects a call.
      - The caller ID on the call to the external user is the customer's phone number.
      - The customer hears a transfer message followed by ringing. A new call begins.
      - Customers can send DTMF inputs to external numbers. 
@@ -132,17 +135,17 @@ You see the following transfer and consult options:
    
 ### [Existing voice](#tab/existingvoice)
 
- Turn on the **Call transfer to external phone number** toggle to allow agents to transfer the call to an external number.
+ Turn on the **Call transfer to external phone number** toggle to allow representatives to transfer the call to an external number.
 
    :::image type="content" source="../media/voice-channel-workstream-summary.png" alt-text="Summary settings of the voice channel workstream":::
 
- Turn on the toggle for **Consult with Microsoft Teams user** to enable the agents to consult other agents on Microsoft Teams. Learn more in [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
+ Turn on the toggle for **Consult with Microsoft Teams user** to enable the representatives to consult other representatives on Microsoft Teams. Learn more in [Voice consult with a Microsoft Teams user](voice-consult-microsoft-teams-user.md)
 
 ---
 
 ## Create queues for voice channels
 
-In Dynamics 365 Contact Center or Dynamics 365 Customer Service, work items are assigned to a queue and agent with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and agent while adhering to work item requirements and matching them with the agent's capabilities using round robin routing. Learn more in [Overview of unified routing](overview-unified-routing.md)
+In Dynamics 365 Contact Center or Dynamics 365 Customer Service, work items are assigned to a queue and representative with the help of unified routing. Unified routing is an intelligent, scalable, and enterprise grade routing and assignment capability that can assign the incoming work item to the best suited queue and representative while adhering to work item requirements and matching them with the representative's capabilities using round robin routing. Learn more in [Overview of unified routing](overview-unified-routing.md)
 
 In this section, we cover information on how to create a queue for the voice channel and routing rules to evaluate conditions and assign work items.
 
@@ -163,20 +166,20 @@ In the left pane, select **Queues**, and then complete the following steps to cr
 
    > [!NOTE]
    >  - You can add only those users who are configured for unified routing.
-   >  - After 20 minutes of being added to a queue, agents must refresh their dashboards to be able to receive calls.
+   >  - After 20 minutes of being added to a queue, representatives must refresh their dashboards to be able to receive calls.
 
    ![Configure queue for voice.](../media/queue-for-voice.png "Configure queue for voice")
 
 ## Configure user input recognition
 
-The Voice channel supports DTMF recognition to allow agents to provide input to IVR and human agents using the phone keypad. This is supported through Azure Communication Services. Learn more in [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
+The Voice channel supports DTMF recognition to allow representatives to provide input to IVR and service representatives using the phone keypad. This is supported through Azure Communication Services. Learn more in [Gathering user input with Recognize action](/azure/communication-services/how-tos/call-automation/recognize-action?pivots=programming-language-csharp) to configure DTMF recognition.
 
 The supported configurations for the voice channel are as follows:
 
-- Agents can send DTMF input to a phone number in the E.164 format only.
-- Agents must use the dialpad icon to send DTMF input.
+- Representatives can send DTMF input to a phone number in the E.164 format only.
+- Representatives must use the dialpad icon to send DTMF input.
    :::image type="content" source="../media/transfer-dtmf.png" alt-text="Screenshot of external dialpad icon":::
-- Agents can send the following DTMF tones:
+- Representatives can send the following DTMF tones:
 
    ```
 
@@ -199,9 +202,9 @@ With call overflow, you can reduce the wait time for customer calls by setting o
 
 ### Assignment rules for a queue
 
-By default, the assignment method for a voice queue is round robin. In the round robin method, work items are prioritized in the order they enter the queue. Among the agents who match skills, presence, and capacity, work is assigned to agents in the order they're listed. The agent listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. Learn more in [Assignment methods](assignment-methods.md)
+By default, the assignment method for a voice queue is round robin. In the round robin method, work items are prioritized in the order they enter the queue. Among the representatives who match skills, presence, and capacity, work is assigned to representatives in the order they're listed. The representative listed on the top is assigned first. You can also choose highest capacity or create custom assignment methods. Learn more in [Assignment methods](assignment-methods.md)
 
-For a simple and quick voice call routing, you don't need to set up any rules for unified routing. By default, all the incoming voice calls are routed to the "default voice queue" and will be assigned to the agents with the round robin assignment method.
+For a simple and quick voice call routing, you don't need to set up any rules for unified routing. By default, all the incoming voice calls are routed to the "default voice queue" and will be assigned to the representatives with the round robin assignment method.
 
 ## Configure routing rules for the voice workstream
 

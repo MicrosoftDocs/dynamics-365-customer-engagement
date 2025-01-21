@@ -26,7 +26,7 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 
 Watch this brief video to learn more about the new work order experience in Field Service, including work order summaries:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
 
 ## Prerequisites
 

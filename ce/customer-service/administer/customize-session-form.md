@@ -1,10 +1,11 @@
 ---
-title: "Customize session forms | MicrosoftDocs"
-description: "Learn how to customize session forms in Omnichannel for Customer Service to meet your business needs."
-ms.date: 07/01/2019
+title: Customize session forms
+description: Learn how to customize session forms in Omnichannel for Customer Service to meet your business needs.
+ms.date: 01/13/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Customize session forms
 

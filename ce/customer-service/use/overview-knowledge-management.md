@@ -5,6 +5,7 @@ ms.date: 06/28/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -21,8 +22,8 @@ Knowledge management plays a vital role in delivering world-class customer care.
 
 ## Benefits of knowledge management
 
-- Primary service providers, such as agents, can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
-- With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, agents can resolve issues faster and reduce their average call handling time.
+- Primary service providers, such as customer service representatives (representatives), can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
+- With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, representatives can resolve issues faster and reduce their average call handling time.
 - Customers can use knowledge management search capabilities across channels to resolve issues for themselves. The results are fewer support tickets and higher customer satisfaction.
 
 :::image type="content" source="../media/km-benefits.png" alt-text="Diagram that illustrates the benefits of knowledge management.":::
@@ -44,8 +45,8 @@ As a **knowledge author**, you can:
 
 As an **administrator**, you can:
 
-- Enable a setting so that agents can propose knowledge drafts after they resolve a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
-- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for agents to search. Therefore, your agents can view and sort search results from any search providers that you add. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
+- Enable a setting so that representatives can propose knowledge drafts after they resolve a case. More information: [Use Copilot to generate knowledge drafts from cases (preview)](use-copilot-knowledge-from-cases.md#use-copilot-to-generate-knowledge-drafts-from-cases-preview)
+- Configure third-party sources, such as enterprise websites that are based on the site map protocol. Knowledge articles are ingested into Dataverse and are available for representatives to search. Therefore, your representatives can view and sort search results from any search providers that you add. More information: [Manage integrated search providers](../administer/add-search-provider.md#manage-integrated-search-providers)
 
 #### Manage the lifecycle of knowledge articles
 
@@ -65,11 +66,11 @@ As an **administrator**, you can create hierarchical, categorical data to help g
 
 #### Search knowledge articles through different channels
 
-As an **agent**, you can use either smart assist or the **Knowledge search** pane to search articles in Customer Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. Fore more information about the **Knowledge search** pane, go to, [Search knowledge articles](../csw-search-knowledge-articles.md).
+As a **representative**, you can use either smart assist or the **Knowledge search** pane to search articles in Customer Service workspace. Smart assist suggests knowledge articles that are related to your case and that can help you quickly resolve customer issues. Fore more information about the **Knowledge search** pane, go to, [Search knowledge articles](../csw-search-knowledge-articles.md).
 
 As a **customizer**, you can set up the knowledge base search control on a standard or custom form to help users in your organization easily find knowledge articles. More information: [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md#add-the-knowledge-base-search-control-to-forms)
 
-As an **administrator**, you can configure how the knowledge base search control appears for your entities in the app side pane of Customer Service workspace and Omnichannel for Customer Service. By configuring a record type, you can specify the information that is shown to your agents while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
+As an **administrator**, you can configure how the knowledge base search control appears for your entities in the app side pane of Customer Service workspace and Omnichannel for Customer Service. By configuring a record type, you can specify the information that is shown to your representatives while they interact with customers. More information: [Configure knowledge search control on app side pane for an entity record](../administer/configure-knowledge-search-control-productivity-pane.md#configure-knowledge-search-control-on-app-side-pane-for-an-entity-record)
 
 #### Search multiple knowledge providers
 
@@ -79,8 +80,8 @@ As an **administrator**, you can use search providers to federate the search of 
 
 As an **administrator**, you can:
 
-- Set up knowledge search logic for your knowledge articles to help agents find only the articles that they need. More information: [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
-- Create filters to help your agents more quickly find what they are looking for. More information: [Customize knowledge article search filters](../administer/enable-knowledge-article-search-filters.md)
+- Set up knowledge search logic for your knowledge articles to help representatives find only the articles that they need. More information: [Set up knowledge search logic](../administer/set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-search-logic).
+- Create filters to help your representatives more quickly find what they are looking for. More information: [Customize knowledge article search filters](../administer/enable-knowledge-article-search-filters.md)
 
 ### Perform knowledge self-service
 
@@ -90,7 +91,7 @@ When a portal includes a knowledge base, it becomes a customer self-service port
 
 #### Integrate knowledge management with a Copilot Studio bot
 
-As an **administrator**, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. The bot can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your agents have more time to focus on complex issues that require human intervention. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+As an **administrator**, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. The bot can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
 
 ### Analyze and report
 
@@ -98,8 +99,8 @@ As an **administrator**, you can integrate a Copilot Studio bot with knowledge m
 
 As an **administrator**, you can:
 
-- Track how many times an article is used, viewed, and sent to customers. You can then use this information to proactively create knowledge articles based on search insights across customers and agents. 
-- Use the knowledge search analytics dashboard to give supervisors and knowledge workers valuable insights into how your support agents find and use knowledge articles. More information: [Manage Knowledge analytics](../administer/enable-knowledge-search-insights.md#manage-knowledge-analytics)
+- Track how many times an article is used, viewed, and sent to customers. You can then use this information to proactively create knowledge articles based on search insights across customers and representatives. 
+- Use the knowledge search analytics dashboard to give supervisors and knowledge workers valuable insights into how your support representatives find and use knowledge articles. More information: [Manage Knowledge analytics](../administer/enable-knowledge-search-insights.md#manage-knowledge-analytics)
 
 :::image type="content" source="../media/knowledge-article-insights-dashboard.png" alt-text="Screenshot of the knowledge search analytics dashboard":::
 
@@ -107,7 +108,7 @@ As a **supervisor**, you can use the knowledge search analytics dashboard to ide
 
 ### Provide feedback
 
-As an **agent**, you can use knowledge article rating to easily provide feedback about knowledge articles. Knowledge managers can capture and review this feedback to improve and maintain a relevant knowledge base. More information: [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
+As a **representative**, you can use knowledge article rating to easily provide feedback about knowledge articles. Knowledge managers can capture and review this feedback to improve and maintain a relevant knowledge base. More information: [Submit ratings and feedback for knowledge articles](submit-feedback.md#submit-ratings-and-feedback-for-knowledge-articles)
 
 ## Related information
 

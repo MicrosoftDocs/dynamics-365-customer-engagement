@@ -1,28 +1,29 @@
 ---
-title: Set up a multilingual bot to use in voice channel
+title: Set up a multilingual agent to use in voice channel
 description: Use this article to learn how to set up a multilingual bot to use in the voice channel in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 12/14/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# Set up a multilingual bot to use in voice channel
+# Set up a multilingual agent to use in voice channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up bots as the first contact who can handle such requests.
 
-Use Bot Framework Composer in Copilot Studio to set up a bot for a multilingual contact center.
+You can configure routing rules to route voice calls to appropriate agents based on the language that your customer has selected. A multilingual contact center helps you serve global customers who want to interact with your contact center in the language of their choice. You can also set up agents as the first contact who can handle such requests.
+
+Use Bot Framework Composer in Copilot Studio to set up a agent for a multilingual contact center.
 
 The process for setting up the multilingual bot in Copilot Studio is as follows:
 
-1. Create a bot in Copilot Studio.
+1. Create an agent in Copilot Studio.
 
 1. Create a topic in Bot Framework Composer.
 
@@ -32,7 +33,7 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 
 1. Configure workstreams and queues.
 
-1. Verify the multilingual bot.
+1. Verify the multilingual agent.
 
 > [!NOTE]
 > The [new multilingual chatbots](/power-virtual-agents/multilingual) aren't currently supported in Omnichannel for Customer Service.
@@ -40,21 +41,21 @@ The process for setting up the multilingual bot in Copilot Studio is as follows:
 ## Prerequisites
 
 - You must install Bot Framework Composer locally on the computer that you'll use to configure the multilingual bot.
-- Your bot must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration)
+- Your agent must be registered in the Azure app registration page. Note the application ID. Learn more in [Create an app registration](/azure/digital-twins/how-to-create-app-registration-portal#create-the-registration).
 
-## Create a bot in Copilot Studio
+## Create an agent in Copilot Studio
 
-You'll create a bot in Copilot Studio by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create a bot](/power-virtual-agents/authoring-first-bot).
+You'll create an agent in Copilot Studio by selecting the environment in which Omnichannel for Customer Service is configured. For detailed instructions, go to [Create an agent](/power-virtual-agents/authoring-first-bot).
 
-For example, you can create a bot with the following details:
+For example, you can create an agent with the following details:
 
-- **Name**: A descriptive name for the bot, such as **Greeter bot**.
-- **Language**: The primary language for the bot, such as **English (US)**.
+- **Name**: A descriptive name for the agent, such as **Greeter bot**.
+- **Language**: The primary language for the agent, such as **English (US)**.
 - **Environment**: The environment where Omnichannel for Customer Service is configured, such as **contoso-printers**.
 
 ## Create a topic in Bot Framework Composer
 
-1. In Copilot Studio, for the bot that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. Learn more about how to navigate the Bot Framework Composer in: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
+1. In Copilot Studio, for the agent that you created, select **Topics** in the site map, and then in the **Topics** pane, select the dropdown arrow for **New topic**. A message appears stating that the application is trying to open Bot Framework Composer. Learn more about how to navigate the Bot Framework Composer in: [Tutorial: Create a weather bot with composer](/composer/tutorial-create-weather-bot).
 
 1. Select **Open**, and on the **Import your bot to new project** dialog that appears, enter the following details:
 
@@ -123,9 +124,9 @@ For example, you can create a bot with the following details:
 
    1. Select **Edit**, and then select **Login to proceed**.
 
-   1. Select the environment and bot, and then select **Save**.
+   1. Select the environment and agent, and then select **Save**.
 
-   1. Select the **Publish** bot, select the bot, and then select **Publish selected bots**.
+   1. Select t**Publish**, select the agent, and then select **Publish selected bots**.
 
    1. Select **Okay** .
 
@@ -159,13 +160,13 @@ For example, ensure the following settings:
 
     :::image type="content" source="../media/multilingual-route-to-queue-rules.png" alt-text="Route-to-queue rules for the multilingual contact center workstream":::
 
-1. In the **Bot** area of the workstream, edit to add the Copilot Studio bot that you configured.
+1. In the **Bot** area of the workstream, edit to add the Copilot Studio agent that you configured.
 
-## Verify the multilingual bot
+## Verify the multilingual agents
 
 1. As a customer, call the number that's registered with the voice workstream.
 
-1. When you're prompted with an interactive voice response (IVR) message, select a language. Verify that the bot routes the call to an agent who can speak with you in the language that you've selected.
+1. When you're prompted with an interactive voice response (IVR) message, select a language. Verify that the agent routes the call to an agent who can speak with you in the language that you've selected.
 
 ### Related information
 

@@ -5,6 +5,7 @@ ms.date: 11/03/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 
@@ -12,7 +13,7 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 
 [!INCLUDE[token-msdyn-sessiondata](../../../../shared/token-msdyn-sessiondata.md)]
 
-### See also
+### Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)
 

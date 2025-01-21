@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 08/09/2024
+ms.date: 01/03/2025
 ms.custom: bap-template 
 ---
 
@@ -15,7 +15,8 @@ In focused view, sellers can view and manage their CRM records and their associa
 
 > [!NOTE]
 >
-> Focused view is not available for the **Activities** and **Queue** entities.
+> - Focused view is now available for the **Activities** entity. However, you must [opt in for early access features](/power-platform/admin/opt-in-early-access-updates).  
+> - Focused view is not available for the **Queue** entity.
 
 Configuring the focused view as default is allowed only for the contact, lead, account, and opportunity entities. Also, if you want to configure focused view as default for custom and other entities, see [Configure as default for other entities](#configure-as-default-for-other-entities).
 
@@ -29,7 +30,7 @@ Also, you can configure to automatically refresh a record at specified time inte
 ## Configure as default for contact, account, lead, and opportunity entities
 
 > [!NOTE]
-> To view the **Default view** option, ensure that you have opted in for early access features. More information: [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates)
+> To view the **Default view** option, ensure that you have opted in for [early access features](/power-platform/admin/opt-in-early-access-updates).
 
 By default, focused view is enabled for the lead entity. However, to improve the experience and eliminate the need for manual switching to the focused view, you can configure focused view as the default view for contact, account, and opportunity entities for all users. 
 

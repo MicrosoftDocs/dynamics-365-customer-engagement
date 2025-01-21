@@ -30,7 +30,7 @@ The inspection process involves the following steps:
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Hy8U]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=cda3ec94-6398-4bb8-aaf6-e2d8906818fb]
 
 ## Field Service inspections or work order service tasks
 

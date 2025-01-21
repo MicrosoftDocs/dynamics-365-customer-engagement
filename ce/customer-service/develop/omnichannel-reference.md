@@ -5,6 +5,7 @@ ms.date: 04/04/2021
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # Live chat SDK Reference
 

@@ -2,7 +2,6 @@
 title: "Web API Query Data Sample (Client-side JavaScript) | MicrosoftDocs"
 description: Learn how to perform basic query requests using the Dynamics 365 for Customer Engagement Web API and client-side JavaScript with this code sample.
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

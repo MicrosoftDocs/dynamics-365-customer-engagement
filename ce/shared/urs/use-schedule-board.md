@@ -22,11 +22,11 @@ To make the applied filter configuration the default for all schedule boards, se
 
 Select **Reset to default** to remove all applied filters. The list of selected resources resets when you remove the resources from the selection.
 
-You always have to select **Apply** to see the changes on the schedule board.
+Select **Apply** to see the changes on the schedule board.
 
 ### Time scale
 
-Switch between hourly, daily, weekly, and monthly view on the board. Choose the weekly or monthly views to see scheduled jobs at a higher level.
+Switch between hourly, daily, weekly, and monthly views of the board. Choose the weekly or monthly views to see scheduled jobs at a higher level.
 
 ### View type
 
@@ -47,7 +47,7 @@ Select **Show more schedule board actions** (&hellip;) > **Move bookings** to mo
 
 ### Print schedule board
 
-Select **Show more schedule board actions** (&hellip;) > **Print schedule board** to open the print settings where you can set schedule range, pagination, paper format, and orientation. Select **Print** open the system print options.
+Select **Show more schedule board actions** (&hellip;) > **Print schedule board** to open the print settings where you can set schedule range, pagination, paper format, and orientation. Select **Print** to open the system print options.
 
 ### Contextual details
 
@@ -55,7 +55,7 @@ To see more details about the selected booking, resource, or requirement, open t
 
 ### Booking alerts
 
-To see your active booking alerts or create new alert, select the bell icon. For more information, see [Create and view booking alerts](../../common-scheduler/booking-alert.md)
+To see your active booking alerts or create a new alert, select the bell icon. For more information, see [Create and view booking alerts](../../common-scheduler/booking-alert.md)
 
 ### Map view
 
@@ -66,11 +66,11 @@ To see resources and requirements on a map, select the **Map view** icon.
 
 On the map view, select a resource to see their planned route. The numbers indicate in which order requirements are scheduled to a resource.
 
-Change the date to see the map for a different day. Zoom out of the map, to see grouped requirements and resources. Quickly identify areas with unscheduled jobs and start scheduling these jobs to the nearest resources. Select **View settings** to set which items show on the map.
+Change the date to see the map for a different day. Zoom out of the map to see grouped requirements and resources. Quickly identify areas with unscheduled jobs and start scheduling these jobs to the nearest resources. Select **View settings** to set which items show on the map.
 
 You can drag an unscheduled requirement pin from the map to the resource timeline and schedule it to that resource. You can also drag the resource route to a nearby unscheduled requirement to schedule it and add it to the resource route.
 
-On each resource pin associated with a user, there is an indicator icon representing how long ago the resource's location was detected. Green indicates that the user was seen since the start of the current day. A grey question mark indicates that the location was last detected yesterday or earlier. 
+On each resource pin associated with a user, there's an indicator icon representing how long ago the resource's location was detected. Green indicates that the user was seen since the start of the current day. A grey question mark indicates that the location was last detected yesterday or earlier. 
 
 ### Refresh board
 
@@ -104,7 +104,7 @@ Right-click a resource's name and to show more options about the resource.
 
 ## Requirement pane
 
-The requirement pane is where you find unscheduled requirements. Each column can be sorted and filtered by accessing a drop down menu next to each column header. 
+The requirement pane is where you find unscheduled requirements. Each column can be sorted and filtered by accessing a drop-down menu next to each column header. 
 
 > [!NOTE]
 > Filtering is not supported on the **Owner** column on the *Unscheduled Work Orders* tab
@@ -139,12 +139,12 @@ For more information about how to construct the URL, see: [Open the schedule boa
 
 ## Cached settings when loading the schedule board
 
-To facilitate workflows, some parameters are cached so you can quickly can continue where you left:
+To facilitate workflows, some parameters are cached so you can quickly continue where you left:
 
 - Last accessed tab 
 - Map panel: Open or closed 
-- Viewtype: Gantt or list view 
-- Viewmode: Hourly/daily/weekly 
+- View type: Gantt or list view 
+- View mode: Hourly/daily/weekly 
 - Board start date: Cached for 15 minutes
 - Column width: Zoom level
 - Requirement panel filters

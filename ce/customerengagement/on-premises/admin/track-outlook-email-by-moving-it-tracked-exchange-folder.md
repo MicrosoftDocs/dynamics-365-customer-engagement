@@ -2,7 +2,6 @@
 title: "Move Outlook email to tracked folder in Dynamics 365 Customer Engagement (on-premises)"
 description: "After you set up a tracked Exchange folder, you can move Outlook email to that folder to track it automatically in Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

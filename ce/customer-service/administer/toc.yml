@@ -184,12 +184,14 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
-      - name: Configure case handling time widget to case forms (preview)
+      - name: Configure case handling time widget to case forms 
         href: add-case-handling-time.md      
       - name: Customize the case resolution experience
         href: add-enhanced-case-management.md
       - name: Enable enhanced case forms for multisession apps
         href: case-enh-config.md
+      - name: Add Power Apps components to case management forms
+        href: case-powerapps-comp.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
@@ -222,10 +224,12 @@
           href: arc-multiple-cases.md
         - name: How the automatic record creation rule works in a customer scenario
           href: arc-customer-scenario.md
-        - name: How the automatic record creation rule works in an agent scenario
+        - name: How the automatic record creation rule works in a service representative scenario
           href: arc-agent-scenario.md
         - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
           href: sample-arc-multiple-cases.md
+      - name: Reopen a resolved case
+        href: Reopen-resolved-case.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -426,7 +430,7 @@
         href: configure-outbound-inbound-profiles.md
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md
-      - name: Configure Copilot Studio bots for voice
+      - name: Configure Copilot Studio agents for voice
         href: voice-channel-pva-bots.md
       - name: Configure a sample voice agent template
         href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
@@ -450,7 +454,7 @@
         href: voice-channel-bring-your-own-number.md
       - name: Integrate Nuance Cloud IVR bot
         items:
-        - name: Introduction to Nuance Cloud IVR bot integration
+        - name: Introduction to Nuance Cloud IVR agent integration
           href: oc-nuance-overview.md
         - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
           href: oc-nuance-setup.md
@@ -614,8 +618,12 @@
           href: copilot-enable-summary.md
         - name: Enable case summaries
           href: copilot-enable-summary.md#enable-case-summaries
+        - name: Enable custom record summaries
+          href: copilot-enable-custom-record-summaries.md
         - name: Enable conversation summaries
           href: copilot-enable-summary.md#enable-conversation-summaries
+      - name: Configure custom record summaries for service representatives
+        href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
@@ -646,6 +654,8 @@
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
+      - name: Enable knowledge sources from Microsoft Copilot Studio (preview)
+        href: knowledge-copilot.md
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
     - name: Bots
@@ -656,7 +666,7 @@
         href: configure-bot-best-practices.md
       - name: Manage your bots
         href: manage-your-bots.md
-      - name: Integrate a Copilot Studio bot
+      - name: Integrate a Copilot Studio agent
         href: configure-bot-virtual-agent.md
       - name: Transfer conversations from customer service representatives to agents
         href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
@@ -666,7 +676,7 @@
           href: bot-session-licensing.md
         - name: Integrate an Azure bot
           href: configure-bot-azure.md   
-      - name: Configure context variables for bots
+      - name: Configure context variables for agents
         href: context-variables-for-bot.md      
     - name: Feedback surveys
       items:
@@ -844,8 +854,6 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
-      - name: Migrate workstreams created in Omnichannel Administration
-        href: migrate-workstreams.md
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements
@@ -857,13 +865,7 @@
         - name: Plan service scheduling migration
           href: plan-migration.md
         - name: Migrate service scheduling
-          items: 
-          - name: Introduction to service scheduling migration
-            href: introduction-migration-entity-records.md
-          - name: Plan service scheduling migration
-            href: plan-migration.md
-          - name: Migrate service scheduling
-            href: migrate-entity-records.md
+          href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
           - name: FAQ on migration from Customer Service Hub to Customer Service workspace
@@ -908,3 +910,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center/

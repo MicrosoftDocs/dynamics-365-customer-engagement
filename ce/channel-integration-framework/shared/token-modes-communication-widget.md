@@ -19,3 +19,9 @@ An agent can manually switch the mode from docked to minimized and vice versa.
 Providers can switch the mode using APIs.
 
 Providers can also decide on the mode of the communication widget when they're starting a session.
+
+## Collapsed
+
+The communication panel is visible by default. Agents can collapse the panel manually.
+
+Providers can collapse the panel using APIs.
