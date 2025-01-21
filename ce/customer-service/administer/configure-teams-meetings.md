@@ -22,7 +22,7 @@ ms.collection: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-The Microsoft Teams meeting integration feature allows your Dynamics 365 customer service representatives (representatives) to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. 
+The Microsoft Teams meeting integration feature allows your Dynamics 365 customer service representatives (service representatives or representatives) to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. 
 
 By enabling this feature, you can help give representatives and supervisors in your organization a cohesive, seamless experience between Dynamics 365 and Teams. Representatives can use the meetings functionality to more efficiently meet their customers' needs.
 
