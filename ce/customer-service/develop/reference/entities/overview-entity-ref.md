@@ -172,7 +172,7 @@ When you install the Omnichannel for Customer Service solution, the following en
 
 ## Attributes added for existing entities
 
-When you install Omnichannel for Customer Service, you will see some attributes added for already existing entities.
+When you install Omnichannel for Customer Service, you see some attributes added for already existing entities.
 
 ### SystemUser entity
 
