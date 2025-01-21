@@ -752,7 +752,7 @@ These relationships are many-to-one. Listed by **SchemaName**.
 
 ### <a name="BKMK_lk_msdyn_copilotsummarizationsetting_createdby"></a> lk_msdyn_copilotsummarizationsetting_createdby
 
-One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_createdby](systemuser.md#BKMK_lk_msdyn_copilotsummarizationsetting_createdby)
+One-To-Many Relationship: systemuser lk_msdyn_copilotsummarizationsetting_createdby
 
 |Property|Value|
 |---|---|
@@ -765,7 +765,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_creat
 
 ### <a name="BKMK_lk_msdyn_copilotsummarizationsetting_createdonbehalfby"></a> lk_msdyn_copilotsummarizationsetting_createdonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_createdonbehalfby](systemuser.md#BKMK_lk_msdyn_copilotsummarizationsetting_createdonbehalfby)
+One-To-Many Relationship: systemuser lk_msdyn_copilotsummarizationsetting_createdonbehalfby
 
 |Property|Value|
 |---|---|
@@ -778,7 +778,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_creat
 
 ### <a name="BKMK_lk_msdyn_copilotsummarizationsetting_modifiedby"></a> lk_msdyn_copilotsummarizationsetting_modifiedby
 
-One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_modifiedby](systemuser.md#BKMK_lk_msdyn_copilotsummarizationsetting_modifiedby)
+One-To-Many Relationship: systemuser lk_msdyn_copilotsummarizationsetting_modifiedby
 
 |Property|Value|
 |---|---|
@@ -791,7 +791,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_modif
 
 ### <a name="BKMK_lk_msdyn_copilotsummarizationsetting_modifiedonbehalfby"></a> lk_msdyn_copilotsummarizationsetting_modifiedonbehalfby
 
-One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_modifiedonbehalfby](systemuser.md#BKMK_lk_msdyn_copilotsummarizationsetting_modifiedonbehalfby)
+One-To-Many Relationship: systemuser lk_msdyn_copilotsummarizationsetting_modifiedonbehalfby
 
 |Property|Value|
 |---|---|
@@ -804,7 +804,7 @@ One-To-Many Relationship: [systemuser lk_msdyn_copilotsummarizationsetting_modif
 
 ### <a name="BKMK_organization_msdyn_copilotsummarizationsetting"></a> organization_msdyn_copilotsummarizationsetting
 
-One-To-Many Relationship: [organization organization_msdyn_copilotsummarizationsetting](organization.md#BKMK_organization_msdyn_copilotsummarizationsetting)
+One-To-Many Relationship: organization organization_msdyn_copilotsummarizationsetting
 
 |Property|Value|
 |---|---|
@@ -831,7 +831,7 @@ These relationships are one-to-many. Listed by **SchemaName**.
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_AsyncOperations"></a> msdyn_copilotsummarizationsetting_AsyncOperations
 
-Many-To-One Relationship: [asyncoperation msdyn_copilotsummarizationsetting_AsyncOperations](asyncoperation.md#BKMK_msdyn_copilotsummarizationsetting_AsyncOperations)
+Many-To-One Relationship: asyncoperation msdyn_copilotsummarizationsetting_AsyncOperations
 
 |Property|Value|
 |---|---|
@@ -843,7 +843,7 @@ Many-To-One Relationship: [asyncoperation msdyn_copilotsummarizationsetting_Asyn
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_BulkDeleteFailures"></a> msdyn_copilotsummarizationsetting_BulkDeleteFailures
 
-Many-To-One Relationship: [bulkdeletefailure msdyn_copilotsummarizationsetting_BulkDeleteFailures](bulkdeletefailure.md#BKMK_msdyn_copilotsummarizationsetting_BulkDeleteFailures)
+Many-To-One Relationship: bulkdeletefailure msdyn_copilotsummarizationsetting_BulkDeleteFailures
 
 |Property|Value|
 |---|---|
@@ -855,7 +855,7 @@ Many-To-One Relationship: [bulkdeletefailure msdyn_copilotsummarizationsetting_B
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_DuplicateBaseRecord"></a> msdyn_copilotsummarizationsetting_DuplicateBaseRecord
 
-Many-To-One Relationship: [duplicaterecord msdyn_copilotsummarizationsetting_DuplicateBaseRecord](duplicaterecord.md#BKMK_msdyn_copilotsummarizationsetting_DuplicateBaseRecord)
+Many-To-One Relationship: duplicaterecord msdyn_copilotsummarizationsetting_DuplicateBaseRecord
 
 |Property|Value|
 |---|---|
@@ -867,7 +867,7 @@ Many-To-One Relationship: [duplicaterecord msdyn_copilotsummarizationsetting_Dup
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_DuplicateMatchingRecord"></a> msdyn_copilotsummarizationsetting_DuplicateMatchingRecord
 
-Many-To-One Relationship: [duplicaterecord msdyn_copilotsummarizationsetting_DuplicateMatchingRecord](duplicaterecord.md#BKMK_msdyn_copilotsummarizationsetting_DuplicateMatchingRecord)
+Many-To-One Relationship: duplicaterecord msdyn_copilotsummarizationsetting_DuplicateMatchingRecord
 
 |Property|Value|
 |---|---|
@@ -879,7 +879,7 @@ Many-To-One Relationship: [duplicaterecord msdyn_copilotsummarizationsetting_Dup
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_MailboxTrackingFolders"></a> msdyn_copilotsummarizationsetting_MailboxTrackingFolders
 
-Many-To-One Relationship: [mailboxtrackingfolder msdyn_copilotsummarizationsetting_MailboxTrackingFolders](mailboxtrackingfolder.md#BKMK_msdyn_copilotsummarizationsetting_MailboxTrackingFolders)
+Many-To-One Relationship: mailboxtrackingfolder msdyn_copilotsummarizationsetting_MailboxTrackingFolders
 
 |Property|Value|
 |---|---|
@@ -891,7 +891,7 @@ Many-To-One Relationship: [mailboxtrackingfolder msdyn_copilotsummarizationsetti
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_PrincipalObjectAttributeAccesses"></a> msdyn_copilotsummarizationsetting_PrincipalObjectAttributeAccesses
 
-Many-To-One Relationship: [principalobjectattributeaccess msdyn_copilotsummarizationsetting_PrincipalObjectAttributeAccesses](principalobjectattributeaccess.md#BKMK_msdyn_copilotsummarizationsetting_PrincipalObjectAttributeAccesses)
+Many-To-One Relationship: principalobjectattributeaccess msdyn_copilotsummarizationsetting_PrincipalObjectAttributeAccesses
 
 |Property|Value|
 |---|---|
@@ -903,7 +903,7 @@ Many-To-One Relationship: [principalobjectattributeaccess msdyn_copilotsummariza
 
 ### <a name="BKMK_msdyn_copilotsummarizationsetting_ProcessSession"></a> msdyn_copilotsummarizationsetting_ProcessSession
 
-Many-To-One Relationship: [processsession msdyn_copilotsummarizationsetting_ProcessSession](processsession.md#BKMK_msdyn_copilotsummarizationsetting_ProcessSession)
+Many-To-One Relationship: processsession msdyn_copilotsummarizationsetting_ProcessSession
 
 |Property|Value|
 |---|---|
