@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams chats in Customer Service
 description: Learn how to configure Microsoft Teams chat functionality in Dynamics 365 Customer Service.
-ms.date: 01/15/2025
+ms.date: 01/21/2025
 author: lalexms
 ms.author: laalexan
 ms.topic: article
@@ -16,7 +16,7 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can configure the ability for customer service representatives (representatives) to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
+You can configure the ability for customer service representatives (service representatives or representatives) to chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and your custom apps. Teams chat is also available in other customer engagement apps such as Dynamics 365 Field Service and Dynamics 365 Sales.
 
 > [!NOTE]
 > Teams chat is already enabled for Customer Service workspace, Contact Center workspace, and Customer Service Hub, and you can select other apps that you want to enable it for. 
