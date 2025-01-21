@@ -1,7 +1,7 @@
 ---
 title: Collaborate with AI-suggested contacts in Microsoft Teams
 description: Learn how to use the AI-suggested experts and collaborate with them through Microsoft Teams to resolve cases in Customer Service.
-ms.date: 01/17/2025
+ms.date: 01/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ ms.custom: bap-template
 If your administrator has enabled AI suggestions for similar cases and configured the ability to connect chats to Dynamics 365 records, you can view suggested contacts who have resolved cases similar to yours to help you more quickly resolve customer issues. To chat with AI-suggested contacts, your administrator must also enable the option to collaborate with other contacts in Microsoft Teams.
 
 > [!NOTE]
-> Through Teams, customer service representatives (representatives) can connect and engage with customers also if Omnichannel for Customer Service is enabled.
+> Through Teams, customer service representatives (service representatives or representatives) can connect and engage with customers also if Omnichannel for Customer Service is enabled.
 
 ## Prerequisites
 
