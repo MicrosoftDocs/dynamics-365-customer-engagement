@@ -223,7 +223,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|bcc|
 |RequiredLevel|None|
-|Targets|account, contact, lead,systemuser|
+|Targets|account, contact, lead, systemuser|
 |Type|PartyList|
 
 
