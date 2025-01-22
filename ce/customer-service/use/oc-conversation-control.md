@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as an agent in the communication panel when you interact with the customer.
-ms.date: 04/12/2024
+ms.date: 01/22/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim

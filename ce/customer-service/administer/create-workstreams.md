@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams.
-ms.date: 07/01/2024
+ms.date: 01/22/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -102,10 +102,10 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
-- **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **60 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
+- **Block capacity for wrap up**: Select **Custom time** and then select a duration, such as **1 minute** or **60 minutes**, to block capacity when the agent is in **Wrap-up** state. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
 
   > [!NOTE]
-  > If you selected **End of Day mode** in capacity profile, agent capacity isn't reset when the duration selected in the **Block capacity for wrap up** field is over.
+  > If you selected **End of Day mode** in capacity profile, agent capacity isn't reset when the duration selected in **Block capacity for wrap up** is over.
 
 - **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
