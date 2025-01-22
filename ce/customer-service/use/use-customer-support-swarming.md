@@ -1,7 +1,7 @@
 ---
 title: Customer support swarming for representatives
 description: Learn how to use customer support swarming to help resolve case issues more quickly in Dynamics 365 Customer Service.
-ms.date: 01/21/2025
+ms.date: 01/22/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -96,7 +96,7 @@ For the invited expert, the swarm invitation shows the following information:
    - Expert skills: The required skills the expert has for the swarm.
    - Accept and reject: Options for the expert to either join or decline the swarm. If an expert declines an invitation and then later decides they want to join, they can participate by asking you to add them manually. They aren't able to view the swarm form from the group chat.
 
-When an expert joins a group chat, they see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. The representative's swarm request and a summary of what the representative has tried to do to resolve the issue are displayed.
+When an expert joins a group chat, they see a read-only version of the **Swarm details** form added as a tab. The right-side pane displays the associated case details. The representative's swarm request and a summary of what they tried to do to resolve the issue are displayed.
 
 Experts who join a swarm can see all participants in the swarm and the skills they have that resulted in their invitation to the swarm.
 
