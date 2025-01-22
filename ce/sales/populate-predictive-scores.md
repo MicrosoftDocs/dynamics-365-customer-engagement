@@ -1,5 +1,5 @@
 ---
-title: Populate predictive scores using msdyn_predictivescores entity
+title: Populate predictive scores using custom scoring model
 description: Learn how to use the msdyn_predictivescores entity to update predictive lead and opportunity scores in your application."
 ms.date: 01/22/2025
 ms.topic: overview
@@ -19,7 +19,7 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Populate predictive scores using msdyn_predictivescores entity
+# Populate predictive scores using custom scoring model
 
 If you'd like to use your own scoring model to predict the likelihood of a lead or opportunity closing, use the `msdyn_predictivescores` entity to populate predictive scores for your leads and opportunities. 
 
