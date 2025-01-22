@@ -1,7 +1,7 @@
 ---
-title: "Configure Link to conversation button in model-driven app entity form | MicrosoftDocs"
-description: "Learn how to configure Link to conversation button in model-driven app form for agents using Omnichannel for Customer Service."
-ms.date: 10/25/2019
+title: Configure Link to conversation button in model-driven app entity form
+description: Learn how to configure Link to conversation button in model-driven app form for service representatives.
+ms.date: 01/13/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -10,12 +10,11 @@ ms.reviewer: nenellim
 
 # Configure Link to conversation button in model-driven app entity form
 
+This topic describes how you, as a system customizer, can configure the **Link to conversation** button in the model-driven app entity form.
 
-This topic describes how you, as a system customizer, can configure the **Link to conversation** button in the model-driven app entity form for agents using Omnichannel for Customer Service app.
+When a customer service representative (service representative or representative) accepts a conversation request, and there's no record in Customer Service workspace linked to this conversation, the service representative wants to search for a contact or account record and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so that the service representatives can link a record to the current conversation. After you link a record to the conversation, the **Active Conversation** page loads and displays the record that you linked.
 
-When an agent accepts a conversation request, and there is no record in Omnichannel for Customer Service linked to this conversation, the agent wants to search for a contact or account record and link the record to the conversation. As a system customizer, you need to configure the **Link to conversation** button in the model-driven app entity (contact, account or case) form so agents can link a record to the current conversation. After you link a record to the conversation, the **Active Conversation** page loads and displays the record that you linked.
-
-> [!Note]
+> [!NOTE]
 > The Link to conversation button appears only in a session (context of a conversation) and not on the main forms.
 
 To add the **Link to conversation** button in the model-driven app entity form, as a system customizer, you need to customize the ribbon (`<RibbonDiffXml>`) definition. The customization change definitions that you specify are applied at runtime when the ribbon is displayed in the application.
