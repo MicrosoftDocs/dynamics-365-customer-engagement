@@ -98,12 +98,12 @@ In the **Work distribution** area of a workstream, you can either accept the def
 
 - **Auto-close after inactivity**: Select a time period after which inactive conversations are moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
  
-- **Work distribution mode**: The option that you selected in step 3 is displayed and can't be edited.
+- **Work distribution mode**: The option that you selected when creating the workstream is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
 - **Block capacity for wrap up**: 
-  - **Always block**: Conversations are the wrap-up state and agent capacity is consumed until the agent or supervisor closes the conversation or the system closes them automatically based on the configure time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
+  - **Always block**: Is the default selection. Conversations are the wrap-up state and agent capacity is consumed until the agent or supervisor closes the conversation or the system closes them automatically based on the configure time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
   - **Custom time**: If you select custom time, the **Custom time in minutes** field is enabled where you can select a duration, such as **1 minute** or **60 minutes**. The system blocks capacity when the agent is in **Wrap-up** state. After the specified duration, agent capacity is released and presence is automatically reset.
   - **Don't block**: Agent capacity is released immediately when the conversation moves to the **Wrap-up** state.
   
