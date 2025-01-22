@@ -47,6 +47,10 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 1. Recreate the channel configurations for each channel in the target environment. [Delete the existing channel or page](../administer/delete-channel.md) and dissociate the channel from the corresponding channel-specific workstream. Configure the channel again, and then update the channel-specific workstream with the newly configured channel.
 
+   > [!IMPORTANT]
+   > When you copy an environment with a configured voice channel, the Azure Communication Services resource is also copied. You can use one resource in one environment only. Therefore, disconnect the Azure Communication Services resource in the target environment. Otherwise, it can cause issues with the voice channel setup in both the source and target environments.
+
+
     - Voice:
       - [Configure a new voice channel](../administer/voice-channel-inbound-calling.md)
       - [Disconnect from Azure Communication Services resources](../administer/voice-channel-disconnect-from-acs.md)
