@@ -28,7 +28,7 @@ By default, the search range filter will be set to match the requirement's From 
 > [!NOTE]
 > Using customizations to change the From and To Date fields or otherwise modifying these time components with custom plugins is not supported and may cause errors.   
 
-The maximum search resource availability limit is 1,000 entries. For organizations with a large number of resources, search might be incomplete. You can customize the *Resource Availability Retrieval Limit* of *Booking Setup Metadata* to increase the limit. However, it can decrease the search performance.
+The default search resource availability limit is 100 entries, which can be expanded to a maximum of 1,000 entries. For organizations with a large number of resources, search might be incomplete. You can customize the *Resource Availability Retrieval Limit* of *Booking Setup Metadata* to increase the limit. However, it can decrease the search performance.
 
 > [!NOTE]
 >  When booking outside Schedule Assistant's recommended slots, no constraints are verified or enforced including capacity, work hours, or time windows.

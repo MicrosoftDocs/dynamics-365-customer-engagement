@@ -24,7 +24,7 @@ Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate sea
 
 Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. More information: [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQEPI]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=acc26adf-ad12-414c-ab89-9737c58cdc91]
 
 ## Set up Teams collaboration
 
