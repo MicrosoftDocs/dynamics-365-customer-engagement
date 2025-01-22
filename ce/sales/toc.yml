@@ -921,6 +921,8 @@
           href: work-invalid-email-addresses.md
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
+        - name: Populate scores using your own model
+          href: populate-predictive-scores.md
         - name: Qualify or convert leads
           href: qualify-lead-convert-opportunity-sales.md
         - name: Reopen leads
