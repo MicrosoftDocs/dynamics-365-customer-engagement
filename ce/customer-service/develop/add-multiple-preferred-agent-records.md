@@ -23,7 +23,7 @@ You can also update or delete records using the [updateRecord](/power-apps/devel
 A sample code syntax is as follows.
 
 var contactid = "<replace_with_contactid_guid>";
-var systemuserid = ["<agentid-guid-1>","<agentid-guid-2>","<agentid-guid-3>"]; // A maximum of 3 preferred agents can be mapped to 1 contact.
+var systemuserid = [`"<agentid-guid-1>"`,`"<agentid-guid-2>"`,`"<agentid-guid-3>"`]; // A maximum of 3 preferred agents can be mapped to 1 contact.
 for (var i = 0; i < 2; i++)
 {    
 var data =
