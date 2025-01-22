@@ -47,9 +47,9 @@ Tenant level access to enable the enhanced integration with Microsoft Teams feat
 
 1. The **Supported triggers** section is displayed. Select the following options to define when you want the conversations to be summarized:
   
-   - **When a representative joins the conversation**: To display the conversation summary when a representative has joined the conversation. This is applicable to conversations escalated to a representative from an agent, transferred conversations, or when the representative invites a collaborator.
+   - **When an agent joins the conversation**: To display the conversation summary when a representative has joined the conversation. This is applicable to conversations escalated to a representative from an agent, transferred conversations, or when the representative invites a collaborator.
    - **When the conversation ends**: To display the summary when the conversation ends.
-   - **When a representative starts a linked chat in Microsoft Teams**: To display the summary when the representative starts a linked Teams chat. Alternatively, you can select the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
+   - **When an agent starts a linked chat in Microsoft Teams**: To display the summary when the representative starts a linked Teams chat. Alternatively, you can select the **See more settings related to Microsoft Teams integration** link and turn on **Include a note** in the **Case settings** flyout of **Microsoft Teams collaboration and chat**.
    
         :::image type="content" source="../media/oc-convo-summary-settings.png" alt-text="Screenshot of the AI-generated summary settings.":::
 
