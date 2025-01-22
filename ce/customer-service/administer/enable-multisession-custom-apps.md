@@ -2,7 +2,6 @@
 title: Enable multisession experience and productivity tools in custom apps (preview)
 description: Learn how to enable the multisession experience and productivity tools in custom apps.
 ms.date: 01/22/2025
-ms.topic: overview
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
