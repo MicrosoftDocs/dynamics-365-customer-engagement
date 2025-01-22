@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 01/06/2025
+ms.date: 01/22/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -131,7 +131,7 @@ After the import is complete, refresh the organization to view the imported solu
 After the import completes, a confirmation message is displayed.
 
 > [!NOTE]
-> We recommend that you maintain a single solution for SLAs. Custom entities, if any, get added to the solution during solution export only.
+> We recommend that you maintain a single solution for SLAs. All entities, related and custom, get added to the solution during solution export only.
 
 ## Next steps
 
