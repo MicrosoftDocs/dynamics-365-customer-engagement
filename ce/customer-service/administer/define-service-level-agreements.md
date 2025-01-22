@@ -50,7 +50,9 @@ To configure SLAs in Customer Service Hub:
 
     Customer service representatives must have the following:
     - **Customer Service Representative** role or its equivalent roles and privileges.
-    - SLA, SLA KPI, SLA KPI Instances should have Read privileges at organization level. 
+    - SLA, SLA KPI, SLA KPI Instances should have Read privileges at the organization level. 
+
+- Users who activate or manage **SLAInstanceMonitoringWarningAndExpiryFlow** and **SLA action flows** must have the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
 - Identify target entities and add customizations. To add customizations in target entities to track SLAs, follow these steps:
 
