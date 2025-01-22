@@ -210,7 +210,7 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 #### Related metric
 
-- **Average handle time**: This metric is the average of talk, hold, and wrap-up time across conversations. This calculaiton is applicable to out-of-the-box Omnichannel realtime Agent, Voice, and Summary reports. 
+- **Average handle time**: This metric is the average of talk, hold, and wrap-up time across conversations. This calculation is applicable to out-of-the-box Omnichannel realtime Agent, Voice, and Summary reports. 
 
 For information about metrics that are related to the time that individual agents spend when multiple agents handle conversations, go to the [Average session handle time](#average-session-handle-time) section.
 
