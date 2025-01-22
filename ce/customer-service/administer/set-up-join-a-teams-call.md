@@ -28,7 +28,7 @@ Ensure that the following prerequisites are met:
 
 ## Set up the ability for representatives to invite customers to join Teams calls
 
-By default, the Join a Teams call feature is turned on out of the box in Customer Service workspace for representative profiles that have Omnichannel for Customer Service enabled.  
+By default, the Join a Teams call feature is turned on out of the box in Customer Service workspace for agent profiles that have Omnichannel for Customer Service enabled.  
 
 If you previously disabled it and need to turn it back on, start with Step 1.  
 
@@ -40,7 +40,7 @@ If you want to complete the configuration for custom representative profiles, st
 
 1. On the **Join a Teams call** page, turn on the setting for **Join a Teams call**.
 
-1. If you want to enable custom representative profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
+1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
 
 1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace or Contact Center workspace.
 
