@@ -612,8 +612,12 @@
           href: copilot-enable-summary.md
         - name: Enable case summaries
           href: copilot-enable-summary.md#enable-case-summaries
+        - name: Enable custom record summaries
+          href: copilot-enable-custom-record-summaries.md
         - name: Enable conversation summaries
           href: copilot-enable-summary.md#enable-conversation-summaries
+      - name: Configure custom record summaries for service representatives
+        href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
@@ -844,8 +848,6 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
-      - name: Migrate workstreams created in Omnichannel Administration
-        href: migrate-workstreams.md
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements

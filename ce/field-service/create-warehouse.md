@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Create a warehouse to track inventory
 
-Track your product inventory by using a warehouse record in Dynamics 365 Field Service. After you create a warehouse record, add your product inventory to it.
+Track your product inventory by using a warehouse record in Dynamics 365 Field Service. After you create a warehouse record, add your product inventory to it. For information on the flow of inventory, go to [Overview of inventory, purchasing, and returns](inventory-purchasing-returns-overview.md).
 
 ## Create a warehouse record
 

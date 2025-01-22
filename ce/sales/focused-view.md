@@ -1,7 +1,7 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 08/09/2024
+ms.date: 01/03/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -35,7 +35,7 @@ If you open an entity grid in the focused or list view and then close it within 
 
 > [!NOTE]
 >
-> Focused view is not available for the Activities entity.
+> Focused view is now available for the **Activities** entity. However, you must [opt in for early access features](/power-platform/admin/opt-in-early-access-updates).
 
 ## Understand the focused view
 

@@ -127,7 +127,9 @@
           - name: msdyn_agentcapacityprofileunit
             href: reference/entities/msdyn_agentcapacityprofileunit.md         
           - name: msdyn_agentcapacityupdatehistory
-            href: reference/entities/msdyn_agentcapacityupdatehistory.md        
+            href: reference/entities/msdyn_agentcapacityupdatehistory.md  
+          - name: msdyn_agentcopilotsetting
+            href: reference/entities/msdyn_agentcopilotsetting.md           
           - name: msdyn_agentscript
             href: reference/entities/msdyn_agentscript.md
           - name: msdyn_agentscriptstep
@@ -176,6 +178,8 @@
             href: reference/entities/msdyn_copilotinteraction.md
           - name: msdyn_copilotinteractiondata
             href: reference/entities/msdyn_copilotinteractiondata.md
+          - name: msdyn_copilotsummarizationsetting
+            href: reference/entities/msdyn_copilotsummarizationsetting.md
           - name: msdyn_copilottranscript
             href: reference/entities/msdyn_copilottranscript.md
           - name: msdyn_copilottranscriptdata

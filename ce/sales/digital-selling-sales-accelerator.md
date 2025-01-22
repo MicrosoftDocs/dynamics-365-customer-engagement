@@ -24,7 +24,7 @@ Help your team focus on what matters most with a prioritized list of upcoming ac
 
 The sales accelerator is an engagement platform that helps you understand your customers' needs and respond in meaningful ways. It allows your sellers to engage with your customers by using multiple channels within one workspace. The sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the sales accelerator?](sales-accelerator-intro.md)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCjf]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3ce061d6-1cec-4c3d-b63c-5198d7ee883f]
 
 ## Licensing options
 
