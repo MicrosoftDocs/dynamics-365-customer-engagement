@@ -580,7 +580,7 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
-      - name: Enable multisession experience in custom apps
+      - name: Enable multisession experience in custom apps (preview)
         href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
