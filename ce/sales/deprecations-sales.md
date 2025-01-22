@@ -1,7 +1,7 @@
 ---
-title: Deprecations in Dynamics 365 Sales
+title: Removed or deprecated features in Dynamics 365 Sales
 description: Visit this page to see the deprecating features in Dynamics 365 Sales.
-ms.date: 12/13/2024
+ms.date: 01/09/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -13,12 +13,16 @@ search.audienceType:
 ms.custom: 
   - dyn365-sales
 ---
-# Deprecations in Dynamics 365 Sales
+# Removed or deprecated features in Dynamics 365 Sales
 
-The features that have been deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming).
+The features that have been removed or deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming).
 
-> [!Important]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed. 
+> [!IMPORTANT]
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
+
+## Copilot for email in side pane
+
+Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the [Copilot email assist](enable-copilot-email-assist.md) feature to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist).  
 
 ## Assistant card templates
 
@@ -71,7 +75,7 @@ Effective July 2022, premium auto capture is deprecated. The deprecation impacts
 You can switch to basic auto capture to get activity suggestions. However, no alternative is available for contact suggestions currently. For more information about basic auto capture, see [Capture customer-related activities with auto capture](auto-capture.md). 
 
 > [!NOTE]
-> If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.  
+> If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid won't show any suggestions after the feature is deprecated.  
 
 ## Dynamics 365 assistant cards - Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection)
 
