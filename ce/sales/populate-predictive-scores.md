@@ -1,7 +1,7 @@
 ---
 title: Populate predictive scores using custom scoring model
 description: Learn how to use the msdyn_predictivescores entity to update predictive lead and opportunity scores in your application."
-ms.date: 01/22/2025
+ms.date: 01/23/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -67,12 +67,27 @@ Content-Length: 68
 
 The following parameters are used in the POST and PATCH requests:
 
-`Host`: Specifies the URL of your Dynamics 365 Sales environment.  
-`msdyn_score`: Specifies the predictive score value.  
-`msdyn_scoretrend`: Specifies how the score is trending. Allowed values are Improving, Steady, Declining, and Not enough info.
-`msdyn_grade`: Specifies the grade associated with the score. Allowed values are Grade A, Grade B, Grade C, and Grade D.
-`msdyn_entityid`: Specifies the unique identifier of the entity.  
-`msdyn_entitytype`: Specifies the type of entity - "lead" or "opportunity".  
+- **Host**: Specifies the URL of your Dynamics 365 Sales environment.  
+
+- **msdyn_score**: Specifies the predictive score value.  
+- **msdyn_scoretrend**: Specifies how the score is trending.
+
+  | Allowed value | Description        |
+  |-------|--------------------|
+  | 0     | Improving          |
+  | 1     | Steady             |
+  | 2     | Declining          |
+  | 3     | Not enough info    |
+- **msdyn_grade**: Specifies the grade associated with the score.
+
+  | Allowed Value | Description |
+  |-------|-------------|
+  | 0     | Grade A     |
+  | 1     | Grade B     |
+  | 2     | Grade C     |
+  | 3     | Grade D     |
+- **msdyn_entityid**: Specifies the unique identifier of the entity.  
+- **msdyn_entitytype**: Specifies the type of entity - "lead" or "opportunity".  
 
 ## Response
 
