@@ -1,7 +1,7 @@
 ---
 title: Recalculate service-level agreements
 description: Learn how to configure the recalculation of SLAs in Dynamics 365 Customer Service.
-ms.date: 01/09/2025
+ms.date: 01/23/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
@@ -23,7 +23,6 @@ The terminal states for SLA KPI Instances are succeeded, cancelled, and non-comp
 - When a SLA KPI Instance is in:
     - Succeeded state: It remains in the same state irrespective of changes to the success conditions. Changes occur only if the recalculated SLA option is set to yes and success conditions changes.
     - Non-compliant state: It remains in the same state irrespective of changes to success conditions and even if the recalculated SLA option is set to yes.
-    - Expired state: SLAs are recalculated if the recalculate flag is on and the applicable when or success condition changes.
 - If there are changes to the applicable when condition, SLAs in succeeded or non-compliant states are recalculated provided that the recalculate SLA option is set to Yes. However, the SLA KPI Instance would be cancelled if the applicable when condition doesn't meet the criteria.
 - When a SLA KPI Instance is in a suceeded or non-compliant state and changes are made to its applicable SLA item, the SLAs are recalculated when the recalculate SLA option is set to yes. A new SLA KPI Instance is created, and its status depends on the failure time. Failure time is calculated from the **Applicable from** field. If the SLA KPI Instance crosses the specified failure time, it creates a new SLA KPI Instance in an expired state.
 
