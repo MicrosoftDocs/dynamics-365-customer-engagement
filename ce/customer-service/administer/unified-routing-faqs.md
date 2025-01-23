@@ -21,47 +21,6 @@ This article contains the FAQs that you as an administrator, supervisor, or agen
 
 You must have the Customer Service Enterprise license. [See prerequisites for licensing information](provision-unified-routing.md#prerequisites).
 
-### What happens to my current workstreams after unified routing is installed?
-
-For messaging channels, use the migration utility to migrate the workstream and associated routing rules. For routing records, you can configure new workstreams and rules in unified routing. More information: [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
-
-### What are the implications when migration is in progress?
-
-There's no downtime involved when you're migrating the workstreams, but we recommend that you perform the migration during low load or off hours.
-
-### Why do I see workstreams that I didn't create in Omnichannel Administration?
-
-These workstreams were created either in the Customer Service admin center or Customer Service Hub app. In the Omnichannel Administration app, you see all the workstreams irrespective of the app that was used to create them. We recommend that you manage the workstreams in the same app that you used to create them.
-
-### How do I migrate my configurations from the Omnichannel Administration app to the Customer Service admin center app?
-
-To migrate the messaging workstreams, you can use the Unified Routing Migration Application. For information on the migration tool and instructions, see [Migrate workstreams created in Omnichannel Administration](migrate-workstreams.md).
-
-> [!NOTE]
-> After you migrate the workstreams, you'll be able to manage them in the Customer Service admin center app. We recommend that you familiarize yourself with the app before migrating. More information: [Get started with Customer Service admin center](../implement/cs-admin-center.md).
-
-### Can I manage my workstreams in the Omnichannel Administration app post migration?
-
-No. Although you see the migrated workstreams in the old admin app as well, we recommend that you manage the migrated workstreams in the Customer Service admin center app.
-
-### What are the implications when I start the migration process for the workstreams?
-
-There's no downtime when you're migrating the workstreams, but we recommend that you perform the migration during low load or off work hours.
-
-### Is it possible to roll back the migration?
-
-To roll back the migration, you need to contact [Microsoft Support](https://dynamics.microsoft.com/support/).
-
-### How can I migrate the entity routing workstreams?
-
-Entity routing workstreams must be recreated in Customer Service admin center and the rules must be manually recreated in the new workstream.
-
-If you need further help, contact Microsoft Support.
-
-### Can I create workstreams for routing records in the Omnichannel Administration app after upgrading Omnichannel for Customer Service to 2021 release wave 1?
-
-No. After upgrade, you'll no longer be able to create workstreams for routing records because they won't work as expected. We recommend that you start using the Customer Service admin center app to create and manage routing of records.
-
 ### Does unified routing support activity routing?
 
 Yes. Unified routing supports routing activities, including email.

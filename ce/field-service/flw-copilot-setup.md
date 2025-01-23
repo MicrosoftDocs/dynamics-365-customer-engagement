@@ -30,8 +30,6 @@ As an admin, set up Microsoft Copilot for Field Service work orders for your use
 
 ## Next steps
 
-- [Overview of the Dynamics 365 Field Service Plugin for Microsoft Copilot](flw-m365-chat.md)
-- [FAQ about Dynamics 365 Field Service Plugin for Microsoft Copilot](faqs-m365-chat.md)
 - [Field Service Teams app for the frontline manager](flw-teams-manager.md)
 - [Field Service Teams app for the frontline worker](flw-teams-worker.md)
 

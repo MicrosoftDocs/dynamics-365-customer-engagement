@@ -580,6 +580,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Enable multisession experience in custom apps (preview)
+        href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
@@ -848,8 +850,6 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
-      - name: Migrate workstreams created in Omnichannel Administration
-        href: migrate-workstreams.md
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements
