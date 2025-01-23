@@ -22,6 +22,15 @@ This topic provides information about the location from where you can download v
 - System requirements to install a version of Unified Service Desk, see [Unified Service Desk System Requirements](admin/unified-service-desk-system-requirements.md)
 - Deploying Unified Service Desk solution or installing the client application, see [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
 
+
+::: moniker range="dynamics-usd-4.2"
+
+|  Version  |  Download Location |
+|------------------|---------------|
+| [!INCLUDE[pn-unified-service-desk-4-3](../includes/pn-unified-service-desk-4-3.md)] |  [Download](https://www.microsoft.com/en-us/download/details.aspx?id=106384) |
+
+::: moniker-end
+
 ::: moniker range="dynamics-usd-4.2"
 
 |  Version  |  Download Location |
