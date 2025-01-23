@@ -1,6 +1,6 @@
 ---
 title: Add multiple preferred agent records 
-description: This article provides instructions about how to add multiple preferred agents to contact records in Customer Service.
+description: Learn how to add multiple preferred agents to contact records in Customer Service.
 author: snehasishlaik 
 ms.author: nenellim  
 ms.reviewer: nenellim
