@@ -32,7 +32,7 @@ By default, the Join a Teams call feature is turned on out of the box in Custome
 
 If you previously disabled it and need to turn it back on, start with Step 1.  
 
-If you want to complete the configuration for custom representative profiles, start with Step 4. 
+If you want to complete the configuration for custom agent profiles, start with Step 4. 
    
 1. In Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
 	
