@@ -25,10 +25,9 @@ If you'd like to use your own scoring model to predict the likelihood of a lead 
 
 ## Add predictive score for a specific record
 
-Use the POST request to add a predictive score for a specific record. 
+Use the POST request to add a predictive score for a specific record.
 
 ### Sample request
-
 
 ```rest
 POST /api/data/v9.0/msdyn_predictivescores HTTP/1.1
@@ -45,25 +44,11 @@ Content-Length: 158
 }
 ```
 
-### Parameters
-
-`Host`: The URL of your Dynamics 365 Sales environment.  
-`msdyn_score`: The predictive score value.  
-`msdyn_scoretrend`: The trend of the score.  
-`msdyn_grade`: The grade associated with the score.  
-`msdyn_entityid`: The unique identifier of the entity.  
-`msdyn_entitytype`: The type of entity - "lead" or "opportunity".  
-
-### Response
-
-**Status:** 204 No Content
-
 ## Update predictive score for a specific record
 
 Use the PATCH request to update a predictive score for a specific record.
 
 ### Sample request
-
 
 ```rest
 PATCH /api/data/v9.0/msdyn_predictivescores(msdyn_entityid=%2700aa00aa-bb11-cc22-dd33-44ee44ee44ee%27,msdyn_entitytype=%27lead%27) HTTP/1.1
@@ -78,13 +63,19 @@ Content-Length: 68
 }
 ```
 
-### Parameters
+## Parameters
 
-`Host`: The URL of your Dynamics 365 Sales environment.  
-`msdyn_score`: The predictive score value.  
-`msdyn_scoretrend`: The trend of the score.  
-`msdyn_grade`: The grade associated with the score.  
+The following parameters are used in the POST and PATCH requests:
 
-### Response
+`Host`: Specifies the URL of your Dynamics 365 Sales environment.  
+`msdyn_score`: Specifies the predictive score value.  
+`msdyn_scoretrend`: Specifies how the score is trending. Allowed values are Improving, Steady, Declining, and Not enough info.
+`msdyn_grade`: Specifies the grade associated with the score. Allowed values are Grade A, Grade B, Grade C, and Grade D.
+`msdyn_entityid`: Specifies the unique identifier of the entity.  
+`msdyn_entitytype`: Specifies the type of entity - "lead" or "opportunity".  
+
+## Response
+
+The following response code is returned for both POST and PATCH requests:
 
 **Status:** 204 No Content
