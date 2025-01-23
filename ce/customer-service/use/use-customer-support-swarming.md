@@ -90,9 +90,9 @@ To be able to create a swarm when working on a customer issue, you must have the
 When you select an expert for your swarm, they're sent an automated invitation in Teams via an adaptive card. When they accept your invitation, they're attached to the swarm, and their skills are indicated. If the expert declines the invitation, the system then looks for the next expert or experts who have one or more of the needed skills.
 
 For the invited expert, the swarm invitation shows the following information:
-   - Inviting representative: The representative who initiated the swarm and invited the expert.
+   - Inviting agent: The representative who initiated the swarm and invited the expert.
    - Swarm request: The question the representative needs help with.
-   - Steps the representative already tried: A brief description of what the representative tried before creating the swarm.
+   - Steps the agent already tried: A brief description of what the representative tried before creating the swarm.
    - Expert skills: The required skills the expert has for the swarm.
    - Accept and reject: Options for the expert to either join or decline the swarm. If an expert declines an invitation and then later decides they want to join, they can participate by asking you to add them manually. They aren't able to view the swarm form from the group chat.
 
