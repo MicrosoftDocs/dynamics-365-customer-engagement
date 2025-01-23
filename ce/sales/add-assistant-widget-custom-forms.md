@@ -1,7 +1,7 @@
 ---
-title: "Add the assistant widget to a custom form"
-description: "Display the assistant widget on your customized forms in Dynamics 365 Sales."
-ms.date: 02/08/2022
+title: Add the assistant widget to a custom form
+description: Display the assistant widget on your customized forms in Dynamics 365 Sales.
+ms.date: 01/31/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -13,11 +13,11 @@ ms.reviewer: udag
 By default, the assistant widget is available only in the out-of-the-box forms&mdash;contact, opportunity, lead, account, and case. If you're using customized forms, you can display the assistant widget on custom forms.
 
 ## License and role requirements
+
 | Requirement type | You must have |  
 |-----------------------|---------|
 | **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
 | **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Add the widget
 
@@ -25,30 +25,22 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 >- Adding the assistant widget is only supported in Unified Interface apps.
 >- The assistant widget can't be added by using the new experience in Power Apps.
 
-1. In Dynamics 365 Sales Hub app and go to **Advanced settings**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Advanced Settings option on the Settings menu.](media/advanced-settings-option.png "Advanced Settings option on the Settings menu")
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-    The **Business Management** page opens.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+1. Go to **Customization** > **Customizations** > **Customize the System**.
 
-2.  On the navigation bar, select **Settings**, and then select **Customizations**.
+1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Customization option on the site map.](media/customization-in-sitemap.png "Customization option on the site map")
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**.
 
-3.  On the **Customization** page, select **Customize the System**.
+1. In the list of forms, select the form to which you want to add the assistant widget.
 
-4. Under **Components**, expand *Entities*, and then the entity you want, and select **Forms**.
+1. Select Component, and then add new section with a column.  
 
-5. In the list of forms, select the form to which you want to add the assistant widget.
-
-6. Go to the **Insert** tab and add a section with column to the form.
-
-    > [!div class="mx-imgBorder"]
-    > ![Add a section with column to the form.](media/customization-add-section-with-column-form.png "Add a section with column to the form")
+    :::image type="content" source="media/customization-add-section-with-column-form.png" alt-text="Screenshot of adding a section with column to the form":::
 
 7. Select the added section and then on the tool bar, select **Assistant**.   
 
