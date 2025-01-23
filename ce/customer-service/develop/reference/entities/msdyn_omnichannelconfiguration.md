@@ -1448,7 +1448,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### See also
+### Related information
 
-[Dataverse table/entity reference](../about-entity-reference.md)  
-[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
+[Introduction to Omnichannel for Customer Service](../../../implement/introduction-omnichannel.md)  
+[Developer guide for Omnichannel for Customer Service](../../omnichannel-developer.md)  
