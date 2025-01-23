@@ -46,7 +46,7 @@ A sample code syntax is as follows.
 
 
 > [!IMPORTANT]
-> We recommend that you add the contact and preferred agent routing through the Preferred agent routing page.
+> We recommend that you add the contact and preferred agent routing through the **Preferred agent routing** page.
 
 
 ## Related information
