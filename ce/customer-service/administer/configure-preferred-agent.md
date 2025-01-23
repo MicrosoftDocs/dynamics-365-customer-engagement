@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred agents
 description: Learn how to configure settings to route work items to preferred agents in Customer Service.
-ms.date: 01/22/2025
+ms.date: 01/23/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
