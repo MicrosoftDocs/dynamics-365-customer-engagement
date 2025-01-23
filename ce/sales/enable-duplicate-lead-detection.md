@@ -25,7 +25,7 @@ Enable duplicate lead detection to help your sellers identify and address potent
 
 ## What is duplicate detection?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=94602225-e5b4-4070-abc8-3ada754da622]
 
 The duplicate detection capability helps sellers to check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
 
@@ -118,4 +118,3 @@ More information: [Security roles and privileges](/power-platform/admin/security
 
 [Enable duplicate lead detection for custom forms](enable-duplicate-detection-custom-forms.md)   
 [Manage duplicate leads](manage-duplicate-leads.md)  
-

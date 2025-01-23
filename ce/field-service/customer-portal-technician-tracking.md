@@ -17,7 +17,7 @@ Provide your customers with automated service reminders and notifications that i
 > [!div class="mx-imgBorder"]
 > ![Branded service details portal, along with a device render showing technician location on a mobile phone.](./media/technician-locator-hero.jpg)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWymMU]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4f2a146e-6d25-48ec-a7c9-9b345cdef537]
 
 ## Prerequisites
 

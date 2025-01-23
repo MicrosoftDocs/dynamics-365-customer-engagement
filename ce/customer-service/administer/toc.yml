@@ -580,6 +580,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Enable multisession experience in custom apps (preview)
+        href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
@@ -612,8 +614,12 @@
           href: copilot-enable-summary.md
         - name: Enable case summaries
           href: copilot-enable-summary.md#enable-case-summaries
+        - name: Enable custom record summaries
+          href: copilot-enable-custom-record-summaries.md
         - name: Enable conversation summaries
           href: copilot-enable-summary.md#enable-conversation-summaries
+      - name: Configure custom record summaries for service representatives
+        href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
@@ -844,8 +850,6 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
-      - name: Migrate workstreams created in Omnichannel Administration
-        href: migrate-workstreams.md
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements
@@ -857,13 +861,7 @@
         - name: Plan service scheduling migration
           href: plan-migration.md
         - name: Migrate service scheduling
-          items: 
-          - name: Introduction to service scheduling migration
-            href: introduction-migration-entity-records.md
-          - name: Plan service scheduling migration
-            href: plan-migration.md
-          - name: Migrate service scheduling
-            href: migrate-entity-records.md
+          href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
           - name: FAQ on migration from Customer Service Hub to Customer Service workspace

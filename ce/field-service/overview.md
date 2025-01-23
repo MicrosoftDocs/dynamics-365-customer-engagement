@@ -12,7 +12,7 @@ ms.author: jasonshotts
 
 The Dynamics 365 Field Service business application helps organizations deliver onsite service to customer locations. The application combines workflow automation, scheduling algorithms, and mobility to set up mobile workers for success when they're onsite with customers fixing issues. With Copilot in Field Service, users can access the latest AI models in various areas of the application. These AI-based features are rapidly evolving and help users be more productive.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1kIXq]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b7cbb5e1-9ecc-45c1-9e90-10563f1a4d8f]
 
 The Field Service application enables you to:
 

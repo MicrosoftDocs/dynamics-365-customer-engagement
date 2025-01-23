@@ -1,7 +1,7 @@
 ---
 title: Predict future revenue outcomes using premium forecasting
 description: Premium forecasting helps sellers and managers improve their forecast accuracy by providing forecast projections based on data.
-ms.date: 03/15/2023
+ms.date: 01/02/2025
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -54,31 +54,13 @@ Consider the following before you start using predictive forecasting, you must h
 
 - To optimize the accuracy of the predictive forecast model, consider activating and publishing predictive opportunity scoring. To learn more, see [Predictive opportunity scoring](configure-predictive-opportunity-scoring.md).
 
-### Snapshots
 
-> [!NOTE]
-> Starting June 30, 2024, you'll no longer be able to enable snapshots for new forecast configurations. [Learn more](deprecations-sales.md#snapshot-deprecation). 
-
-Sales organizations can use snapshots to "freeze" forecast data at a moment in time. To learn more about how to use snapshots and how deals flow between two snapshots, see [Take snapshots automatically](manage-snapshots-forecast.md) and [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
-
-### Trend chart
-
-The **Trend** chart provides a visualization of how each forecast amount is trending over time, comparing it against the period end prediction and quota. A separate predicted realization line is automatically created to project the future revenues over time.
-
-The option **Show in Trend Chart** is available to add forecast columns to the trend chart while configuring the column in the forecast configuration. Only **Roll up** and **Calculated** column types can be displayed in the trend chart. To learn more, see [Configure columns](/dynamics365/sales-enterprise/choose-layout-and-columns-forecast#configure-columns).
-
-To understand how to use trend charts, see [Understand forecast projection through trend charts](understand-forecast-projection-through-trend-chart.md).
-
-### Flow chart
-
-The flow chart provides a visual representation of how the forecast changes between two moments in time. To learn more, see [Analyze deals flow between snapshots](analyze-deals-flow-between-snapshots.md).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 ## Related information
 
 [System and application users who can push data to Dataverse](/power-platform/admin/system-application-users)  
-[Take snapshots automatically](manage-snapshots-forecast.md)<br>
 [Install and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)<br>
 [Blog: Predictive sales forecasting in Dynamics 365 Sales](https://cloudblogs.microsoft.com/dynamics365/it/2020/02/26/predictive-sales-forecasting-in-dynamics-365-sales/)
 
