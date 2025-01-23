@@ -1,7 +1,7 @@
 ---
 title: Add multiple preferred agent records 
 description: Learn how to add multiple preferred agents to contact records in Customer Service.
-author: snehasishlaik 
+author: neeranelli 
 ms.author: nenellim  
 ms.reviewer: nenellim
 ms.topic: how-to 
@@ -44,10 +44,8 @@ A sample code syntax is as follows.
 }
 ```
 
-
 > [!IMPORTANT]
 > We recommend that you add the contact and preferred agent routing through the **Preferred agent routing** page.
-
 
 ## Related information
 
