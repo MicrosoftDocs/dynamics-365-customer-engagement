@@ -70,6 +70,7 @@ The following parameters are used in the POST and PATCH requests:
 - **Host**: Specifies the URL of your Dynamics 365 Sales environment.  
 - **msdyn_score**: Specifies the predictive score value.  
 - **msdyn_scoretrend**: Specifies how the score is trending.
+
   | Allowed value | Description        |
   |-------|--------------------|
   | 0     | Improving          |
@@ -77,6 +78,7 @@ The following parameters are used in the POST and PATCH requests:
   | 2     | Declining          |
   | 3     | Not enough info    |
 - **msdyn_grade**: Specifies the grade associated with the score.
+
   | Allowed Value | Description |
   |-------|-------------|
   | 0     | Grade A     |
