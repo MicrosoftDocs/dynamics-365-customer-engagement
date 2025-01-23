@@ -1,35 +1,41 @@
 ---
-title: "msdyn_omnichannelconfiguration table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity."
-ms.date: 04/16/2021
-ms.topic: "reference"
-author: "gandhamm"
-ms.author: "mgandham"
-ms.reviewer: "mgandham"
+title: msdyn_omnichannelconfiguration table
+description: Includes schema information and supported messages for the msdyn_omnichannelconfiguration table/entity.
+ms.date: 01/23/2025
+ms.topic: reference
+author: gandhamm
+ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - developer
-ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
+
 # msdyn_omnichannelconfiguration table/entity reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
 Configuration for Omnichannel
 
-**Added by**: Omnichannel - Base Patch Solution
+**Added by**: Omnichannel – Base Solution
 
 
 ## Messages
 
-|Message|Web API Operation|SDK Assembly|
+|Message|Web API Operation|SDK class or method|
 |-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|IsValidStateTransition|<xref href="Microsoft.Dynamics.CRM.IsValidStateTransition?text=IsValidStateTransition Function" />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|BulkRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Create|POST /msdyn_omnichannelconfigurations<br />See [Create](/powerapps/developer/data-platform/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
+|CreateMultiple|<xref:Microsoft.Dynamics.CRM.CreateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.CreateMultipleRequest>|
+|Delete|DELETE /msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Delete](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
+|DeleteMultiple|<xref:Microsoft.Dynamics.CRM.DeleteMultiple?displayProperty=nameWithType />|Use <xref:Microsoft.Xrm.Sdk.OrganizationRequest><br/>where <xref:Microsoft.Xrm.Sdk.OrganizationRequest.RequestName> = DeleteMultiple|
+|IsValidStateTransition|<xref:Microsoft.Dynamics.CRM.IsValidStateTransition?displayProperty=nameWithType />|<xref:Microsoft.Crm.Sdk.Messages.IsValidStateTransitionRequest>|
+|PurgeRetainedContent|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|Retrieve|GET /msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Retrieve](/powerapps/developer/data-platform/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
+|RetrieveMultiple|GET /msdyn_omnichannelconfigurations<br />See [Query Data](/powerapps/developer/data-platform/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
+|RollbackRetain|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
+|SetState|PATCH /msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />[Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
+|Update|PATCH /msdyn_omnichannelconfigurations(*msdyn_omnichannelconfigurationid*)<br />See [Update](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
+|UpdateMultiple|<xref:Microsoft.Dynamics.CRM.UpdateMultiple?displayProperty=nameWithType />|<xref:Microsoft.Xrm.Sdk.Messages.UpdateMultipleRequest>|
+|ValidateRetentionConfig|This message is to be executed only by Dataverse to trigger registered plug-ins and flows.||
 
 ## Properties
 
@@ -54,13 +60,23 @@ Configuration for Omnichannel
 These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
 
 - [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
+- [IsCustomizable](#BKMK_IsCustomizable)
 - [msdyn_defaultAgentInputLanguage](#BKMK_msdyn_defaultAgentInputLanguage)
+- [msdyn_delegated_prioritization_migration](#BKMK_msdyn_delegated_prioritization_migration)
+- [msdyn_dnd_presence_lookup](#BKMK_msdyn_dnd_presence_lookup)
 - [msdyn_enable_advance_entity_routing](#BKMK_msdyn_enable_advance_entity_routing)
+- [msdyn_enable_agent_reject_notifications](#BKMK_msdyn_enable_agent_reject_notifications)
 - [msdyn_enable_missed_notifications](#BKMK_msdyn_enable_missed_notifications)
+- [msdyn_enable_new_consult_exp](#BKMK_msdyn_enable_new_consult_exp)
+- [msdyn_enable_preferred_agent_routing](#BKMK_msdyn_enable_preferred_agent_routing)
 - [msdyn_enable_supervisor_assign](#BKMK_msdyn_enable_supervisor_assign)
+- [msdyn_enable_supervisor_forceclose](#BKMK_msdyn_enable_supervisor_forceclose)
 - [msdyn_enable_supervisor_monitor](#BKMK_msdyn_enable_supervisor_monitor)
+- [msdyn_enable_supervisor_transfer](#BKMK_msdyn_enable_supervisor_transfer)
 - [msdyn_enable_unified_routing_diagnostic](#BKMK_msdyn_enable_unified_routing_diagnostic)
 - [msdyn_enable_visitorjourney](#BKMK_msdyn_enable_visitorjourney)
+- [msdyn_enablemarkdown](#BKMK_msdyn_enablemarkdown)
+- [msdyn_enablenewconversationform](#BKMK_msdyn_enablenewconversationform)
 - [msdyn_EnableRealTimeTranslation](#BKMK_msdyn_EnableRealTimeTranslation)
 - [msdyn_enablesoundnotifications](#BKMK_msdyn_enablesoundnotifications)
 - [msdyn_inactive_presence_lookup](#BKMK_msdyn_inactive_presence_lookup)
@@ -73,7 +89,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 - [msdyn_maskforagent](#BKMK_msdyn_maskforagent)
 - [msdyn_maskforcustomer](#BKMK_msdyn_maskforcustomer)
 - [msdyn_name](#BKMK_msdyn_name)
+- [msdyn_number_of_declines_allowed](#BKMK_msdyn_number_of_declines_allowed)
 - [msdyn_omnichannelconfigurationId](#BKMK_msdyn_omnichannelconfigurationId)
+- [msdyn_preferredagentbackupmode](#BKMK_msdyn_preferredagentbackupmode)
 - [msdyn_SoundFormControl](#BKMK_msdyn_SoundFormControl)
 - [msdyn_translationwebresourceurl](#BKMK_msdyn_translationwebresourceurl)
 - [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
@@ -84,6 +102,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 
 ### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
+
+**Added by**: Basic Solution Solution
 
 |Property|Value|
 |--------|-----|
@@ -100,6 +120,21 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|Integer|
 
 
+### <a name="BKMK_IsCustomizable"></a> IsCustomizable
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Is Customizable|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|iscustomizable|
+|RequiredLevel|SystemRequired|
+|Type|ManagedProperty|
+
+
 ### <a name="BKMK_msdyn_defaultAgentInputLanguage"></a> msdyn_defaultAgentInputLanguage
 
 |Property|Value|
@@ -114,53 +149,92 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_defaultAgentInputLanguage Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1025|Arabic - Saudi Arabia|
-|1026|Bulgarian - Bulgaria|
-|1027|Catalan - Spain|
-|1029|Czech - Czech Republic|
-|1030|Danish - Denmark|
-|1031|German - Germany|
-|1032|Greek - Greece|
-|1033|English - United States|
-|1035|Finnish - Finland|
-|1036|French - France|
-|1037|Hebrew - Israel|
-|1038|Hungarian - Hungary|
-|1040|Italian - Italy|
-|1041|Japanese - Japan|
-|1042|Korean - Korea|
-|1043|Dutch - Netherlands|
-|1044|Norwegian Bokmal - Norway|
-|1045|Polish - Poland|
-|1046|Portuguese - Brazil|
-|1048|Romanian - Romania|
-|1049|Russian - Russia|
-|1050|Croatian - Croatia|
-|1051|Slovak - Slovakia|
-|1053|Swedish - Sweden|
-|1054|Thai - Thailand|
-|1055|Turkish - Türkiye|
-|1057|Indonesian - Indonesia|
-|1058|Ukrainian - Ukraine|
-|1060|Slovenian - Slovenia|
-|1061|Estonian - Estonia|
-|1062|Latvian - Latvia|
-|1063|Lithuanian - Lithuania|
-|1066|Vietnamese - Vietnam|
-|1069|Basque - Spain|
-|1081|Hindi - India|
-|1086|Malay - Malaysia|
-|1087|Kazakh - Kazakhstan|
-|1110|Galician - Spain|
-|2052|Chinese - China|
-|2070|Portuguese - Portugal|
-|2074|Serbian (Latin) - Serbia|
-|3076|Chinese - Hong Kong SAR|
-|3082|Spanish - Spain|
-|3098|Serbian (Cyrillic) - Serbia|
+|Value|Label|Description|
+|-----|-----|--------|
+|1025|Arabic - Saudi Arabia||
+|1026|Bulgarian - Bulgaria||
+|1027|Catalan - Spain||
+|1029|Czech - Czech Republic||
+|1030|Danish - Denmark||
+|1031|German - Germany||
+|1032|Greek - Greece||
+|1033|English - United States||
+|1035|Finnish - Finland||
+|1036|French - France||
+|1037|Hebrew - Israel||
+|1038|Hungarian - Hungary||
+|1040|Italian - Italy||
+|1041|Japanese - Japan||
+|1042|Korean - Korea||
+|1043|Dutch - Netherlands||
+|1044|Norwegian Bokmal - Norway||
+|1045|Polish - Poland||
+|1046|Portuguese - Brazil||
+|1048|Romanian - Romania||
+|1049|Russian - Russia||
+|1050|Croatian - Croatia||
+|1051|Slovak - Slovakia||
+|1053|Swedish - Sweden||
+|1054|Thai - Thailand||
+|1055|Turkish - Turkey||
+|1057|Indonesian - Indonesia||
+|1058|Ukrainian - Ukraine||
+|1060|Slovenian - Slovenia||
+|1061|Estonian - Estonia||
+|1062|Latvian - Latvia||
+|1063|Lithuanian - Lithuania||
+|1066|Vietnamese - Vietnam||
+|1069|Basque - Spain||
+|1081|Hindi - India||
+|1086|Malay - Malaysia||
+|1087|Kazakh - Kazakhstan||
+|1110|Galician - Spain||
+|2052|Chinese - China||
+|2070|Portuguese - Portugal||
+|2074|Serbian (Latin) - Serbia||
+|3076|Chinese - Hong Kong||
+|3082|Spanish - Spain||
+|3098|Serbian (Cyrillic) - Serbia||
 
+
+
+### <a name="BKMK_msdyn_delegated_prioritization_migration"></a> msdyn_delegated_prioritization_migration
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Store if migration for Delegated Prioritization is complete/not complete.|
+|DisplayName|Status of migration for Delegated Prioritization|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_delegated_prioritization_migration|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_delegated_prioritization_migration Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_dnd_presence_lookup"></a> msdyn_dnd_presence_lookup
+
+|Property|Value|
+|--------|-----|
+|Description|Lookup to display DND presence.|
+|DisplayName|DND Presnce|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_dnd_presence_lookup|
+|RequiredLevel|None|
+|Targets|msdyn_presence|
+|Type|Lookup|
 
 
 ### <a name="BKMK_msdyn_enable_advance_entity_routing"></a> msdyn_enable_advance_entity_routing
@@ -177,12 +251,35 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enable_advance_entity_routing Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_enable_agent_reject_notifications"></a> msdyn_enable_agent_reject_notifications
+
+|Property|Value|
+|--------|-----|
+|Description|Setting to change agent status when agent rejects a notification.|
+|DisplayName|Enable Agent Reject Notification Setting|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_agent_reject_notifications|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_agent_reject_notifications Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
 
 
 
@@ -200,12 +297,60 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enable_missed_notifications Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_enable_new_consult_exp"></a> msdyn_enable_new_consult_exp
+
+|Property|Value|
+|--------|-----|
+|Description|Enable consult pane|
+|DisplayName|Enable consult pane|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_new_consult_exp|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_new_consult_exp Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 1
+
+
+
+### <a name="BKMK_msdyn_enable_preferred_agent_routing"></a> msdyn_enable_preferred_agent_routing
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Setting to enable/disable preferred agent routing for an organization.|
+|DisplayName|Enable preferred agent routing|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_preferred_agent_routing|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enable_preferred_agent_routing Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
 
 
 
@@ -223,12 +368,35 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enable_supervisor_assign Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_enable_supervisor_forceclose"></a> msdyn_enable_supervisor_forceclose
+
+|Property|Value|
+|--------|-----|
+|Description|Enables supervisor force close feature for the org|
+|DisplayName|Enable supervisor force close|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_supervisor_forceclose|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_enable_supervisor_forceclose Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
 
 
 
@@ -246,12 +414,35 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enable_supervisor_monitor Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
+
+
+
+### <a name="BKMK_msdyn_enable_supervisor_transfer"></a> msdyn_enable_supervisor_transfer
+
+|Property|Value|
+|--------|-----|
+|Description|Enables supervisor transfer feature for the org|
+|DisplayName|Enable supervisor transfer|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enable_supervisor_transfer|
+|RequiredLevel|ApplicationRequired|
+|Type|Boolean|
+
+#### msdyn_enable_supervisor_transfer Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
 
 
 
@@ -271,12 +462,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enable_unified_routing_diagnostic Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -294,12 +485,58 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enable_visitorjourney Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_enablemarkdown"></a> msdyn_enablemarkdown
+
+|Property|Value|
+|--------|-----|
+|Description|Enable markdown support for messages|
+|DisplayName|Enable Markdown|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enablemarkdown|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enablemarkdown Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 0
+
+
+
+### <a name="BKMK_msdyn_enablenewconversationform"></a> msdyn_enablenewconversationform
+
+|Property|Value|
+|--------|-----|
+|Description|Enable new conversation form feature|
+|DisplayName|Enable new conversation form|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_enablenewconversationform|
+|RequiredLevel|None|
+|Type|Boolean|
+
+#### msdyn_enablenewconversationform Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
+
+**DefaultValue**: 1
 
 
 
@@ -317,12 +554,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_EnableRealTimeTranslation Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -340,12 +577,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_enablesoundnotifications Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -377,12 +614,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_isdefaultpersonamapped Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -400,12 +637,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_ispersonalizationofsoundenabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -423,12 +660,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_isPersonalMessagesEnabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -446,12 +683,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_ispersonasecurityrolemappingenabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -471,12 +708,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_IsSkillBasedRoutingEnabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -496,12 +733,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_IsUpdateSkillsEnabled Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -519,12 +756,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_maskforagent Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: False
+**DefaultValue**: 0
 
 
 
@@ -542,12 +779,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 #### msdyn_maskforcustomer Choices/Options
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Yes||
+|0|No||
 
-**DefaultValue**: True
+**DefaultValue**: 1
 
 
 
@@ -567,6 +804,24 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Type|String|
 
 
+### <a name="BKMK_msdyn_number_of_declines_allowed"></a> msdyn_number_of_declines_allowed
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Number of times an agent can reject or time-out notification.|
+|DisplayName|Number Of Declines Allowed|
+|Format|None|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_number_of_declines_allowed|
+|MaxValue|5|
+|MinValue|1|
+|RequiredLevel|ApplicationRequired|
+|Type|Integer|
+
+
 ### <a name="BKMK_msdyn_omnichannelconfigurationId"></a> msdyn_omnichannelconfigurationId
 
 |Property|Value|
@@ -579,6 +834,29 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |LogicalName|msdyn_omnichannelconfigurationid|
 |RequiredLevel|SystemRequired|
 |Type|Uniqueidentifier|
+
+
+### <a name="BKMK_msdyn_preferredagentbackupmode"></a> msdyn_preferredagentbackupmode
+
+**Added by**: Dynamics 365 UR OmnichanelBase Dependency Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Setting the Preferred Agent Backup Mode for Preferred Agent Routing.|
+|DisplayName|Preferred Agent Backup Mode|
+|IsValidForForm|True|
+|IsValidForRead|True|
+|LogicalName|msdyn_preferredagentbackupmode|
+|RequiredLevel|ApplicationRequired|
+|Type|Picklist|
+
+#### msdyn_preferredagentbackupmode Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|192350000|NoAssignment||
+|192350001|NextBestAssignment||
+
 
 
 ### <a name="BKMK_msdyn_SoundFormControl"></a> msdyn_SoundFormControl
@@ -709,6 +987,8 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
 
+- [ComponentIdUnique](#BKMK_ComponentIdUnique)
+- [ComponentState](#BKMK_ComponentState)
 - [CreatedBy](#BKMK_CreatedBy)
 - [CreatedByName](#BKMK_CreatedByName)
 - [CreatedByYomiName](#BKMK_CreatedByYomiName)
@@ -716,6 +996,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
 - [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
 - [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
+- [IsManaged](#BKMK_IsManaged)
 - [ModifiedBy](#BKMK_ModifiedBy)
 - [ModifiedByName](#BKMK_ModifiedByName)
 - [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
@@ -723,10 +1004,54 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 - [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
 - [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
 - [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
+- [msdyn_dnd_presence_lookupName](#BKMK_msdyn_dnd_presence_lookupName)
 - [msdyn_inactive_presence_lookupName](#BKMK_msdyn_inactive_presence_lookupName)
 - [OrganizationId](#BKMK_OrganizationId)
 - [OrganizationIdName](#BKMK_OrganizationIdName)
+- [OverwriteTime](#BKMK_OverwriteTime)
+- [SolutionId](#BKMK_SolutionId)
+- [SupportingSolutionId](#BKMK_SupportingSolutionId)
 - [VersionNumber](#BKMK_VersionNumber)
+
+
+### <a name="BKMK_ComponentIdUnique"></a> ComponentIdUnique
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Row id unique|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentidunique|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_ComponentState"></a> ComponentState
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Component State|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|componentstate|
+|RequiredLevel|SystemRequired|
+|Type|Picklist|
+
+#### ComponentState Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|0|Published||
+|1|Unpublished||
+|2|Deleted||
+|3|Deleted Unpublished||
+
 
 
 ### <a name="BKMK_CreatedBy"></a> CreatedBy
@@ -848,6 +1173,31 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_IsManaged"></a> IsManaged
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Indicates whether the solution component is part of a managed solution.|
+|DisplayName|Is Managed|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|ismanaged|
+|RequiredLevel|SystemRequired|
+|Type|Boolean|
+
+#### IsManaged Choices/Options
+
+|Value|Label|Description|
+|-----|-----|--------|
+|1|Managed||
+|0|Unmanaged||
+
+**DefaultValue**: 0
+
+
+
 ### <a name="BKMK_ModifiedBy"></a> ModifiedBy
 
 **Added by**: Active Solution Solution
@@ -967,6 +1317,22 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_msdyn_dnd_presence_lookupName"></a> msdyn_dnd_presence_lookupName
+
+|Property|Value|
+|--------|-----|
+|Description||
+|DisplayName||
+|FormatName|Text|
+|IsLocalizable|False|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|msdyn_dnd_presence_lookupname|
+|MaxLength|100|
+|RequiredLevel|None|
+|Type|String|
+
+
 ### <a name="BKMK_msdyn_inactive_presence_lookupName"></a> msdyn_inactive_presence_lookupName
 
 |Property|Value|
@@ -1017,6 +1383,53 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Type|String|
 
 
+### <a name="BKMK_OverwriteTime"></a> OverwriteTime
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|DateTimeBehavior|UserLocal|
+|Description|For internal use only.|
+|DisplayName|Record Overwrite Time|
+|Format|DateAndTime|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|overwritetime|
+|RequiredLevel|SystemRequired|
+|Type|DateTime|
+
+
+### <a name="BKMK_SolutionId"></a> SolutionId
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|Unique identifier of the associated solution.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|True|
+|LogicalName|solutionid|
+|RequiredLevel|SystemRequired|
+|Type|Uniqueidentifier|
+
+
+### <a name="BKMK_SupportingSolutionId"></a> SupportingSolutionId
+
+**Added by**: Basic Solution Solution
+
+|Property|Value|
+|--------|-----|
+|Description|For internal use only.|
+|DisplayName|Solution|
+|IsValidForForm|False|
+|IsValidForRead|False|
+|LogicalName|supportingsolutionid|
+|RequiredLevel|None|
+|Type|Uniqueidentifier|
+
+
 ### <a name="BKMK_VersionNumber"></a> VersionNumber
 
 **Added by**: Active Solution Solution
@@ -1035,6 +1448,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 
 
-### Related information
+### See also
 
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
+[Dataverse table/entity reference](../about-entity-reference.md)  
+[Web API Reference](/power-apps/developer/data-platform/webapi/reference/entitytypes)
