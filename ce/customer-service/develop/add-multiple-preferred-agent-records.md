@@ -20,11 +20,11 @@ If you want to add multiple preferred agent routing records through the script, 
 You can also update or delete records using the [updateRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) or [deleteRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) calls.
 
 
-A sample code syntax is as follows.
-
 ## Sample code syntax
 
-```json
+A sample code syntax is as follows.
+
+```JavaScript
 {
     var contactid = "<replace_with_contactid_guid>";
     var systemuserid = [`"<agentid-guid-1>"`,`"<agentid-guid-2>"`,`"<agentid-guid-3>"`]; // A maximum of three preferred agents can be mapped to one contact.
