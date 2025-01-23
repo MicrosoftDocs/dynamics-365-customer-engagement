@@ -88,7 +88,5 @@ To find the preferred agent for an incoming work item, the contact should be ide
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  
-
 [Add multiple preferred agent records](../develop/add-multiple-preferred-agent-records.md)  
-
 [Blog: Use preferred agent routing to create lifelong customer relationships](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/06/use-preferred-agent-routing-to-create-lifelong-customer-relationships/)
