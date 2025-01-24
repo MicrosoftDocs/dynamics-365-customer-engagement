@@ -51,7 +51,7 @@ Before you install LinkedIn Sales Insights, be sure you meet the following requi
     > [!div class="mx-imgBorder"]
     > ![LinkedIn Sales Insights for Dynamics 365 AppSource page.](media/lsi-appsource-page.png "LinkedIn Sales Insights for Dynamics 365 AppSource page")
 
-2. Read the terms and conditions, and then select **Continue**.     
+2. Read the terms and conditions, and then select **Continue**.   
 
     > [!div class="mx-imgBorder"]
     > ![Select Continue to proceed with installation.](media/lsi-installation-continue.png "Select Continue to proceed with installation")
