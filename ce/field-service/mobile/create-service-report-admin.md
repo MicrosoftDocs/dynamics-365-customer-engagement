@@ -8,7 +8,6 @@ author: JonBaker007
 ms.author: jobaker
 ---
 
-
 # Enable technicians to create service reports
 
 Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Service reports can be delivered to the customer as a PDF file.

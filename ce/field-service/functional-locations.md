@@ -10,9 +10,9 @@ ms.custom: bap-template
 
 # Create functional locations
 
-Field service organizations often work with customers that have large or complex worksites like a warehouse or a multi-story office building. Technicians can't waste time looking for a worksite. They need to know exactly where to go to perform their work. That's the purpose of the functional location on a work order.
+Field service organizations often work with customers that have large or complex worksites like a warehouse or a multi-story office building. Technicians can't waste time looking for a worksite. They need to know exactly where to go to perform their work. In Field Service, functional locations on a work order identify where an asset is located at a customer site.
 
-In Field Service, functional locations create a location hierarchy, placing assets within specific locations, such as buildings or rooms. You can view the assets associated with each location.
+Functional locations create a location hierarchy, placing assets within specific locations, such as buildings or rooms. You can view the assets associated with each location.
 
 For example, the following relationship represents the location of a printer named "Acct-10" on the third floor in Building A on a customer's campus:
 
@@ -130,7 +130,7 @@ The following video offers a guided walk-through of using functional locations i
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=daf7fee7-d10a-4681-81ee-9749ef043608]
 
 > [!NOTE]
-> Filtering functional locations by service account is not supported in the offline-enabled Field Service mobile application. 
+> Filtering functional locations by service account isn't supported in the offline-enabled Field Service mobile application. 
 
 ## Functional locations for cases
 
