@@ -15,7 +15,7 @@ ms.custom: evergreen
 
 
 
-::: moniker range >= "dynamics-usd-4.2"
+::: moniker range="dynamics-usd-4.2"
 
 ## What's new in Unified Service Desk 4.2
 
