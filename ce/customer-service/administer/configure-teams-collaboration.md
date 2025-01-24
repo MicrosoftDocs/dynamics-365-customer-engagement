@@ -24,7 +24,7 @@ This feature uses the AI capability to automatically suggest contacts in real-ti
 
 ## Prerequisites
 
-- AI suggestions for similar cases must be enabled. More information: [Enable AI suggestions for similar cases](csw-enable-ai-suggested-cases-knowledge-articles.md)
+- AI suggestions for similar cases must be enabled. Learn more in [Enable AI suggestions for similar cases](csw-enable-ai-suggested-cases-knowledge-articles.md)
 
 - Tenant permissions to enable the enhanced integration with Microsoft Teams feature.
 
@@ -42,7 +42,7 @@ The suggestions capability uses AI to recommend contacts who might be able to he
 
 AI-suggested contacts works with a set of out-of-the-box AI models, so that admins can enable the feature by setting the toggle without the need for extra model training.
 
-For more information about similar case suggestions that impact the AI-suggested contacts, see [How AI suggestions for similar cases and knowledge articles work](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
+Learn more about similar case suggestions that impact the AI-suggested contacts in [How AI suggestions for similar cases and knowledge articles work](csw-enable-ai-suggested-cases-knowledge-articles.md#how-ai-suggestions-for-similar-cases-and-knowledge-articles-work).
 
 ## Region availability and supported languages
 
