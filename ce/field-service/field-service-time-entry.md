@@ -43,10 +43,10 @@ Time entries are only automatically created for work order bookings and not for 
 
 ### Time off requests
 
-Time off requests are automatically recorded as time entries. Depending on the settings for the bookable resource record, someone might need to approve the request. The system automatically creates a time entry record with the type *Vacation*. The scheduling assistant doesn't recommend that resource for a job during that period. The time slots for that resource are grayed out on the schedule board to provide a visual notification to the dispatchers that the resource isn't available.
+[Time off requests](submit-approve-time-off-requests) are automatically recorded as time entries. Depending on the settings for the bookable resource record, someone might need to approve the request. The system automatically creates a time entry record with the type *Vacation*. The scheduling assistant doesn't recommend that resource for a job during that period. The time slots for that resource are grayed out on the schedule board to provide a visual notification to the dispatchers that the resource isn't available.
 
 ## Manual time entry
 
-Time entries can also be created manually in the Field Service web app and on the mobile app. Add a start time, end time or duration, and the bookable resource. If the time entry is related to a work order or booking, enter that information as well.
+Time entries can also be created manually in the Field Service web app and on the mobile app from the main menu. Add a start time, end time or duration, and the bookable resource. If the time entry is related to a work order or booking, enter that information as well.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
