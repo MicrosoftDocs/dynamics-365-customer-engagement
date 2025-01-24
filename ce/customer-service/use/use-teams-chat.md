@@ -24,7 +24,7 @@ ms.custom:
 As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > [!NOTE]
-> This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat](../administer/configure-teams-chat.md)
+> This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. Learn more in [Configure Teams chat](../administer/configure-teams-chat.md)
 
 ## Representative overview of key features for Teams chat
 
@@ -51,7 +51,7 @@ The following legend describes the numbered callouts in the above image.
 
 You can open any application record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
 - Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else has connected a chat with you as a participant. 
-- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
+- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. Learn more in [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and connect it to a record. 
 
 ## Start a new connected chat
@@ -71,7 +71,7 @@ If you're using Teams for the first time within Customer Service Hub, Customer S
        > - You can also access the chat pane from the home session in Customer Service workspace or Contact Center workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
-    a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
+    a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. Learn more in step 3. <br><br>
     b.	To start a connected chat with a suggested contact directly on the chat list, select the contact with whom you want to chat.<br> 
     
      > [!NOTE]
@@ -114,7 +114,7 @@ If your administrator hasn't assigned any of the above rights to you or your rol
 
 ## Use suggested contacts
 
-The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team administrator or members who have logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
+The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team administrator or members who have logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. Learn more in [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
 
 ## Connect a Teams channel to a record
 
