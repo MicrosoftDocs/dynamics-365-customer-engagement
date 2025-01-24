@@ -20,7 +20,7 @@ A maximum of 10 rules are supported per record type.
 ## Turn on the suggested contacts for a record type
 
 > [!NOTE]
-> - For the case record type, there are two types of contact suggestions: AI and rules-based. Most record types enabled for connected chats only have rules-based suggestions. For more information about configuring AI-suggested contacts in Teams, see [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
+> - For the case record type, there are two types of contact suggestions: AI and rules-based. Most record types enabled for connected chats only have rules-based suggestions. Learn more about configuring AI-suggested contacts in Teams in [Configure AI suggestions for contacts in Microsoft Teams](configure-teams-collaboration.md)
 > - Case is applicable to Customer Service only.
 
 **To enable collaboration with Microsoft Teams and chat**
@@ -58,7 +58,7 @@ A maximum of 10 rules are supported per record type.
 ### Use a custom action
 
 > [!IMPORTANT]
-> We recommend that you have previous experience working with custom actions before configuring them for rules-based suggestions. More information: [Create or edit custom actions from a workflow](../../customerengagement/on-premises/customize/configure-actions.md)
+> We recommend that you have previous experience working with custom actions before configuring them for rules-based suggestions. Learn more in [Create or edit custom actions from a workflow](../../customerengagement/on-premises/customize/configure-actions.md)
 
 You can call a custom action to handle advanced scenarios. The suggested contacts identifier passes along the ID and entity type as arguments, and expects the custom action to return users. In the rule settings section, type the name of an existing action.
 
