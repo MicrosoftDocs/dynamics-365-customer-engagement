@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 11/12/2024
+ms.date: 01/24/2025
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -41,7 +41,7 @@ Select a booking to see more details about the job, such as booking time, planne
 
 For more complex locations, Field Service supports [functional locations that let you structure locations](../functional-locations.md). Watch this video to learn more about functional locations in the Field Service mobile app:
 >
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=daf7fee7-d10a-4681-81ee-9749ef043608]
+> [!VIDEO c28b1012-203c-4df1-8435-d39cdd999030]
 
 ## Do and record your work
 

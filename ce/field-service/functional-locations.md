@@ -1,7 +1,7 @@
 ---
 title: Create functional locations
 description: Learn how to create and use functional locations for assets in Dynamics 365 Field Service.
-ms.date: 01/17/2025
+ms.date: 01/24/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -98,8 +98,8 @@ For larger or more complex hierarchies, expand or collapse the results by using 
 > For asset hierarchies, the info icon next to an asset informs you about the location of the related asset.
 
 Watch the following video to learn more about searching functional locations and assets.
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=4fb856b9-a0d2-4dc2-b14e-cdcd8cf8b17f]
+>
+> [!VIDEO c28b1012-203c-4df1-8435-d39cdd999030]
 
 ## Add a functional location to a work order
 

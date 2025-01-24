@@ -10,13 +10,11 @@ ms.author: jobaker
 
 # Create service reports
 
-Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Service reports can be delivered to the customer as a PDF file. Technicians have access to the report even without internet connectivity.
+Field Service technicians can create service reports to summarize the work they performed. These reports can contain details such as tasks completed, and products or parts used during the service. Technicians can capture a signature on the report and then save it to the timeline. The service reports can be delivered to the customer as a PDF file. Technicians have access to the report even without internet connectivity.
 
-The service report is available in the mobile app and web app. The technician can capture a signature on the report and then save it to the timeline. The technician can use their mobile device to send the report.
-
-For a guided walkthrough, check out the following video.
+The service report is available in the mobile app and web app. For a guided walkthrough, check out the following video.
 >
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=fd4ed064-bd88-4e25-800d-bcfedb37936d]
+> [!VIDEO 9743a9c9-3c5c-433d-8609-52acb0420302]
 
 ## Prerequisites
 
