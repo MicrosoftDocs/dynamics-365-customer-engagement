@@ -56,7 +56,7 @@ To allow the representatives to consult with Microsoft Teams users, enable the *
 
 Calling services are charged on a per minute per participant basis at 0.004 per participant per minute and is less than the Public Switched Telephone Network (PSTN) charges of $0.013 per participant per minute.
 Representatives can transfer or consult with Microsoft Teams users on certain Teams clients only. Learn more at [Supported Teams clients](/azure/communication-services/concepts/call-automation/call-automation-teams-interop#supported-teams-clients).
-If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. This is because the call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when adding a Teams user to a group call.
+If the Teams user rejects the call or is unavailable, there isn't an option to leave a voicemail for the caller and the call isn't forwarded to another number. This is because the call from Dynamics 365 is considered a group call, and Teams doesn't honor voicemail or call forwarding settings when you add a Teams user to a group call.
 
 To enable the consult and transfer experience through VOIP, perform the following prerequisites:
 
