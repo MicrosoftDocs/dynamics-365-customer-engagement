@@ -61,7 +61,7 @@ The following data security and privacy considerations apply for Teams chat func
 
 - The integration honors policies that apply both to Teams and Dynamics 365. For example, confidential files shared in a connected chat are only accessible to permitted users. Similarly, a record shared in a Teams chat in Dynamics 365 can only be accessed if the user has permission to view it.
 
-- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. For more information, review [Permissions required](#permissions-required).
+- The app requires certain permissions to start a chat, display suggested contacts, show presence, and so on. Learn more in [Permissions required](#permissions-required).
 
 
 ### Add the Teams collaboration and chat settings page to the sitemap of your app
@@ -103,11 +103,11 @@ The following data security and privacy considerations apply for Teams chat func
 
 If you're using the default profile, once you complete the steps in [Add the Teams chat settings page to the sitemap of your app](#add-the-teams-collaboration-and-chat-settings-page-to-the-sitemap-of-your-app), Teams chat is enabled.
 
-If you want Teams chat to work for specific users, you must enable the feature for your custom profile. For more information about creating custom profiles, go to [Agent experience profiles](add-profile-default.md).
+If you want Teams chat to work for specific users, you must enable the feature for your custom profile. Learn more about creating custom profiles in [Agent experience profiles](add-profile-default.md).
 
 To enable Teams chat settings for a custom multisession user, complete the following steps:
 
-1. Create the custom profile from the default profile. More info: [Create and use agent experience profiles](/dynamics365/customer-service/administer/create-agent-experience-profile)
+1. Create the custom profile from the default profile. Learn more in [Create and use agent experience profiles](/dynamics365/customer-service/administer/create-agent-experience-profile)
 
 1. In the site map, in **Agent experience**, select **Collaboration**.
     
@@ -118,11 +118,11 @@ To enable Teams chat settings for a custom multisession user, complete the follo
 1. Select the profile to open it.
 
 1. On the profile page, you can take the following actions:
-   - **Add users** More information: [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
-   - **Add an entity session template** More information: [Manage session templates](/dynamics365/app-profile-manager/session-templates?tabs=customerserviceadmincenter)
-   - **Enable the inbox** More information: [Configure the inbox for agents](configure-inbox.md)
-   - **Enable productivity pane features** More information: 
-   - **Set up channel providers** More information: [Overview of productivity tools](/dynamics365/app-profile-manager/productivity-tools)
+   - **Add users**: Learn more in [Assign profiles to users](/dynamics365/app-profile-manager/app-profile-manager#assign-profiles-to-users)
+   - **Add an entity session template**: Learn more in [Manage session templates](/dynamics365/app-profile-manager/session-templates?tabs=customerserviceadmincenter)
+   - **Enable the inbox**: Learn more in [Configure the inbox for agents](configure-inbox.md)
+   - **Enable productivity pane features**: Learn more in [Productivity pane overview](productivity-pane.md)
+   - **Set up channel providers**: Learn more in [Overview of productivity tools](/dynamics365/app-profile-manager/productivity-tools)
 
 ## Configure the ability to connect chats to Dynamics 365 records
 
