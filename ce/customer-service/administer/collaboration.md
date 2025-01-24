@@ -27,15 +27,15 @@ Service representatives can use collaboration features to find experts, chat wit
 
 ## Embedded chat using Teams
 
-Representatives can start a new chat or link an existing chat to a record in Teams without switching context or leaving the application. Linking all the associated chats to a record can help representatives maintain the chats in one place. More information: [Configure Teams chat](configure-teams-chat.md)
+Representatives can start a new chat or link an existing chat to a record in Teams without switching context or leaving the application. Linking all the associated chats to a record can help representatives maintain the chats in one place. Learn more in [Configure Teams chat](configure-teams-chat.md)
 
 ## Customer support swarming using Teams
 
-Customer support swarming helps representatives quickly resolve issues by bringing together the right experts across your business. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
+Customer support swarming helps representatives quickly resolve issues by bringing together the right experts across your business. Learn more in [Configure customer support swarming](configure-customer-support-swarming.md)
 
 ## Share Dynamics 365 records within Microsoft Teams conversations
 
-Representatives can share the record of the chat conversation and let participants view it without navigating away from Teams. They can share any Dynamics 365 record on Teams channels and chat conversations, and share records using search in the app. More information: [Share Dynamics 365 records within Microsoft Teams conversations](/dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context)
+Representatives can share the record of the chat conversation and let participants view it without navigating away from Teams. They can share any Dynamics 365 record on Teams channels and chat conversations, and share records using search in the app. Learn more in [Share Dynamics 365 records within Microsoft Teams conversations](/dynamics365/sales/teams-integration/share-d365-record-overview?context=/dynamics365/context/customer-service-context)
 
 ### Related information
 [Configure Teams chat](configure-teams-chat.md)<br>
