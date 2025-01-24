@@ -17,7 +17,7 @@ tags: MigrationHO
 # What is Unified Service Desk?
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Deprecations in Customer Service](../../customer-service/implement/deprecations-customer-service.md).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../../customer-service/implement/csw-overview.md). Learn more in [Deprecations in Customer Service](../../customer-service/implement/deprecations-customer-service.md).
 
 [!INCLUDE[pn_unified_service_desk_for_crm](../../includes/pn-unified-service-desk-for-crm.md)] model-driven apps provides a configurable framework for quickly building applications for call centers so that agents can get a unified view of the customer data stored in Microsoft Dataverse. You can aggregate customer information from different areas in Dataverse into an integrated desktop that provides a 360° view of the customer interactions. This gives your customer service agents immediate access to business critical information so they can quickly engage with customers and address queries and issues.  
   
