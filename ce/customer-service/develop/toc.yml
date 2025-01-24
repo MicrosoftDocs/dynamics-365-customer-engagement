@@ -18,6 +18,8 @@
           href: deactivate-queue-items.md
         - name: Route noncase records using a plug-in
           href: trigger-routing-non-case-records.md 
+        - name: Add multiple preferred agent records
+          href: add-multiple-preferred-agent-records.md
       - name: Knowledge management
         items:
         - name: Create a knowledge article using a template
