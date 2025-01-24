@@ -23,13 +23,10 @@ This topic provides information about the location from where you can download v
 - Deploying Unified Service Desk solution or installing the client application, see [Install, deploy, and upgrade Unified Service Desk](admin/install-upgrade-deploy-unified-service-desk.md)
 
 
-::: moniker range>="dynamics-usd-4.1"
+::: moniker range="dynamics-usd-4.3"
+
 > [!IMPORTANT]
 > Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
-
-::: moniker-end
-
-::: moniker range="dynamics-usd-4.3"
 
 |  Version  |  Download Location |
 |------------------|---------------|
@@ -39,6 +36,9 @@ This topic provides information about the location from where you can download v
 
 ::: moniker range="dynamics-usd-4.2"
 
+> [!IMPORTANT]
+> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
 |  Version  |  Download Location |
 |------------------|---------------|
 | [!INCLUDE[pn-unified-service-desk-4-2](../includes/pn-unified-service-desk-4-2.md)] |  [Download](https://go.microsoft.com/fwlink/p/?linkid=2159819) |
@@ -46,6 +46,9 @@ This topic provides information about the location from where you can download v
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
+
+> [!IMPORTANT]
+> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 |  Version  |  Download Location |
 |------------------|---------------|
