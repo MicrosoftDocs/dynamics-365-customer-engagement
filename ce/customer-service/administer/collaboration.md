@@ -31,7 +31,7 @@ Representatives can start a new chat or link an existing chat to a record in Tea
 
 ## Customer support swarming using Teams
 
-Customer support swarming helps representatives more quickly resolve issues by bringing together the right experts across your business. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
+Customer support swarming helps representatives quickly resolve issues by bringing together the right experts across your business. More information: [Configure customer support swarming](configure-customer-support-swarming.md)
 
 ## Share Dynamics 365 records within Microsoft Teams conversations
 
