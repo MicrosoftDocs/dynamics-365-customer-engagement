@@ -160,7 +160,7 @@ You can join a Teams meeting from Dynamics 365, Microsoft Outlook, or Microsoft 
 
 **Join a Teams meeting from Microsoft Teams** 
 
-You have several options. More information: [Join a meeting in Teams](https://support.microsoft.com/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
+You have several options. Learn more in [Join a meeting in Teams](https://support.microsoft.com/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
 
 ### Work with notes during a meeting
 
