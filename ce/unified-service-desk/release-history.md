@@ -17,9 +17,12 @@ ms.custom: evergreen
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
-::: moniker range >="dynamics-usd-4.1"
+<a name="USD"></a> 
+
+::: moniker range>="dynamics-usd-4.1"
+
 > [!IMPORTANT]
-> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
 
 ::: moniker-end
 
