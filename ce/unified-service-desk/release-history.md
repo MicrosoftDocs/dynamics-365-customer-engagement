@@ -24,7 +24,7 @@ This is the release history page for the [!INCLUDE[pn_unified_service_desk](../i
 
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
 
 ## Release history for Unified Service Desk 4.3.0, January 2025
 
@@ -40,7 +40,7 @@ This release includes migration changes from Azure Active Directory Authenticati
 <a name="Release_4_2"></a>
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
 
 ## Release history for Unified Service Desk 4.2.0.71, September 2024
 
@@ -87,7 +87,7 @@ The list provides an overview of documentation updates made in this release of U
 ::: moniker range="dynamics-usd-4.1"
 
 > [!IMPORTANT]
-> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../customer-service/implement/deprecations-customer-service.md).
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
