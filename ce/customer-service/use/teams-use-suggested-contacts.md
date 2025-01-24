@@ -27,7 +27,7 @@ The Teams chat embedded in Customer Service Hub, Customer Service workspace, Con
 
 To use suggested contacts, your administrator must enable the feature. For the case record type, there are two types of suggestions: AI and rules-based. Other record types enabled for connected chats may only have rules-based suggestions.
 -  AI: Suggestions based on cases that were resolved by other customer service representatives (service representatives or representatives). Learn more in [Collaborate with AI-suggested contacts in Microsoft Teams](/dynamics365/customer-service/use-ai-suggested-contacts-teams)
--  Rules-based: Suggestions of coworkers who are associated with the connected record or other related records. For example, a representative can see suggestions to collaborate with their supervisor, the account manager for the customer, or a colleague who updated the case timeline with a note or task. Learn more in [Use customer support swarming](use-customer-support-swarming.md).
+-  Rules-based: Suggestions of coworkers who are associated with the connected record or other related records. For example, a representative can see suggestions to collaborate with their supervisor, the account manager for the customer, or a colleague who updated the case timeline with a note or task.
 
 ## View suggested contacts
 
