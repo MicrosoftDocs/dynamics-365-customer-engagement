@@ -30,8 +30,8 @@ By enabling this feature, you can help give representatives and supervisors in y
 To enable Teams integration in Customer Service, the following prerequisites must be met.
 
 - You must have a Dynamics 365 Customer Service license for your organization.
-- As an administrator, you must configure the ability for representatives in your organization to add and join Teams meetings in the Power Platform admin center app. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features) 
-- Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps will show up on calendars in Microsoft Outlook and Teams. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
+- As an administrator, you must configure the ability for representatives in your organization to add and join Teams meetings in the Power Platform admin center app. Learn more in [Manage feature settings - Power Platform](/power-platform/admin/settings-features) 
+- Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps will show up on calendars in Microsoft Outlook and Teams. Learn more in [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
 
 ## Enable Teams meeting integration
 
