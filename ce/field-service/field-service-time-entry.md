@@ -1,7 +1,7 @@
 ---
 title: Track time expenditure with time entries
 description: Discover how to manage time entry in Dynamics 365 Field Service.
-ms.date: 01/21/2025
+ms.date: 01/24/2025
 ms.topic: conceptual
 author: anilmur
 ms.author: anilmur
@@ -43,7 +43,7 @@ Time entries are only automatically created for work order bookings and not for 
 
 ### Time off requests
 
-[Time off requests](submit-approve-time-off-requests) are automatically recorded as time entries. Depending on the settings for the bookable resource record, someone might need to approve the request. The system automatically creates a time entry record with the type *Vacation*. The scheduling assistant doesn't recommend that resource for a job during that period. The time slots for that resource are grayed out on the schedule board to provide a visual notification to the dispatchers that the resource isn't available.
+[Time off requests](submit-approve-time-off-requests.md) are automatically recorded as time entries. Depending on the settings for the bookable resource record, someone might need to approve the request. The system automatically creates a time entry record with the type *Vacation*. The scheduling assistant doesn't recommend that resource for a job during that period. The time slots for that resource are grayed out on the schedule board to provide a visual notification to the dispatchers that the resource isn't available.
 
 ## Manual time entry
 
