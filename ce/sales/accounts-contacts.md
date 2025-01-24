@@ -78,7 +78,7 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 
 ### Deactivate an account
 
-You can deactivate an account if you no longer do business with it. Deactivating an account makes the account read-only and hides it from most views but retains the account's history. The related contacts, opportunities, and other records remain active. However, you can't create new records from the existing ones. For example, you can't create a quote from an active opportunity that's associated with the deactivated account.
+You can deactivate a contact if you no longer work with them. Deactivating a contact makes the contact read-only and hides it from most views but retains the contact's history. The related opportunities, activities, and other records remain active.
 
 1. In the sitemap of your sales app, select **Accounts**.
 1. Select the account you want to deactivate.
