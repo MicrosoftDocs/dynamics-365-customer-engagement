@@ -17,7 +17,7 @@ ms.custom:
 # Access diagnostics for unified routing
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as of May 09, 2024, and will be removed on March 01, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Supervisors can access the routing diagnostics for records and conversations that are handled through unified routing.
 

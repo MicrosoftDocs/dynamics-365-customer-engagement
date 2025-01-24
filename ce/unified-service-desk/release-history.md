@@ -17,6 +17,11 @@ ms.custom: evergreen
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
+::: moniker range >="dynamics-usd-4.1"
+> [!IMPORTANT]
+> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
+::: moniker-end
 
 ::: moniker range="dynamics-usd-4.3"
 
@@ -34,6 +39,10 @@ This release includes migration changes from Azure Active Directory Authenticati
 ::: moniker range="dynamics-usd-4.2"
 
 <a name="Release_4_2"></a>
+
+> [!IMPORTANT]
+> Beginning April 01, 2026, Dynamics 365 Unified Service Desk will be deprecated. We recommend that you start using Customer Service workspace. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
 
 ## Release history for Unified Service Desk 4.2.0.71, September 2024
 
@@ -78,6 +87,8 @@ The list provides an overview of documentation updates made in this release of U
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
+
+
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 
