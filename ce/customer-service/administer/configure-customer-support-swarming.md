@@ -119,7 +119,7 @@ To ensure that swarm experts receive invitations directly in Teams, turn on the 
 
 ## Add a new tab, section, or field to the swarm form
 
-You can customize your swarm form by adding a new tab, section, or field to it. More information: [Create, edit, or configure forms using the form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms)
+You can customize your swarm form by adding a new tab, section, or field to it. Learn more in [Create, edit, or configure forms using the form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms)
 
 ## Edit case details
 
