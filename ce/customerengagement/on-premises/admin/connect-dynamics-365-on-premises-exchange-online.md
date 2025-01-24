@@ -2,7 +2,6 @@
 title: Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)
 description: Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online.
 ms.custom: 
-ms.date: 10/02/2024
 ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -76,8 +75,11 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
     Create a client secrete for this new app and [modify the app registration to create a client secret](/azure/app-service/configure-authentication-provider-aad?tabs=workforce-configuration#-option-2-use-an-existing-registration-created-separately).
     
       :::image type="content" source="media/SSS_Image1.png" alt-text="Upload the deployment profile.":::
+
+    > [!NOTE]
+    > The new app, configred above, is only needed for setup and new API permissions. The app can be removed once all the setup steps are completed. 
      
-5. In the powershell session from step 2, invoke below **ConfigureCrmServerSideSync** command.                     
+4. In the PowerShell session from step 2, invoke the **ConfigureCrmServerSideSync** command.                     
 
     [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 

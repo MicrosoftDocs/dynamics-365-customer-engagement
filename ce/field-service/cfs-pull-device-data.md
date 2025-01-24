@@ -14,7 +14,7 @@ There are several ways you can pull the most recent device data from your Intern
 
 Check out the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4HKuF]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b48745b7-4b34-4c13-9fd3-23cc5255ff33]
 
 ## Prerequisite
 

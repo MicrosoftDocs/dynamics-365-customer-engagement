@@ -10,8 +10,8 @@ ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
@@ -84,6 +84,8 @@ You can change the row an email or appointment is linked to using the **Change R
   > [!div class="mx-imgBorder"] 
   > ![Untrack a email or appointment.](../media/untrack-item.png)  
 
+> [!NOTE]
+> If you untrack an email in a conversation, replies to the same thread may continue to be automatically tracked if there are other tracked emails in that conversation. For more information, see [Specify which emails are automatically tracked](/power-platform/admin/email-message-filtering-correlation).
 
 ## Track all email in a folder
 

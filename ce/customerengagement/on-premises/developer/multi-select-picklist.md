@@ -2,7 +2,6 @@
 title: "Multi-Select Picklist attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about multi-select picklist attributes that allow storing multiple option choices in a single attribute."
 ms.custom: 
-ms.date: 09/05/2018
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -53,7 +52,7 @@ OData-Version: 4.0
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [organization uri]/api/data/v9.1/contacts(0c67748a-b78d-e711-811c-000d3a75bdf1)
+OData-EntityId: [organization uri]/api/data/v9.1/contacts(00aa00aa-bb11-cc22-dd33-44ee44ee44ee)
 ```
 
 With the Organization service using the assemblies, use the <xref:Microsoft.Xrm.Sdk.OptionSetValueCollection> to set values for this attribute as shown in the following C# example:

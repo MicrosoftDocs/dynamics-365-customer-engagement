@@ -2,7 +2,6 @@
 title: "Work with business process flows using code (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn how to programmatically work with business process flows in Dynamics 365 Customer Engagement. Business process flows let you create more efficient and streamlined sales, service, and other business processes."
 ms.custom: 
-ms.date: 07/09/2018
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -226,7 +225,7 @@ Accept: application/json
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.1/new_mycustombpfs(cc3f721b-026e-e811-80ff-00155d513100)
+OData-EntityId: [Organization URI]/api/data/v9.1/new_mycustombpfs(00aa00aa-bb11-cc22-dd33-44ee44ee44ee)
 ```
 
 Note that if you want to create an instance of your business process flow definition with the active stage set as a stage ***other*** than the first stage, you must also provide `traversedpath` in your request. Traversed path is the comma-delimited string of process stage ids that represent visited stages of the business process flow instance. The following request creates an instance for an account record (ID=679b2464-71b5-e711-80f5-00155d513100) and active stage set as the second stage, S2 (ID=19a11fc0-3398-4214-8522-cb2a97f66e4b).

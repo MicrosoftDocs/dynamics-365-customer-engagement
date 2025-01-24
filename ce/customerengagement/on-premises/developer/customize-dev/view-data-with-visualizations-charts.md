@@ -1,7 +1,6 @@
 ---
 title: "View data with visualizations (charts) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Visualizations let you see your business data graphically. A visualization is attached to an entity in Dynamics 365 Customer Engagement. You can attach multiple visualizations to an entity, however, only one visualization can be displayed at a time along-side a grid. You can view multiple visualizations at the same time by using a dashboard."
-ms.date: 08/05/2024
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

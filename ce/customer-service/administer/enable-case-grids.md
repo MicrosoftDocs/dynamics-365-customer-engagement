@@ -1,10 +1,11 @@
 ---
-title: Enable case grids for agents
-description: Learn how you can enable case grids and increase agent productivity.
-ms.date: 08/01/2024
+title: Enable case grids
+description: Learn how you can enable case grids and increase service representative productivity.
+ms.date: 12/05/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -16,23 +17,24 @@ ms.collection: get-started
 
 # Enable case grids
 
-Increase your agent's productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your agents perform inline edits and quick operations with minimal clicks, facilitating decision-making.
+Increase your customer service representative's (service representative or representative) productivity by providing quick access to information, such as the last customer interaction, case age, and the next SLA breach, with modernized case grids. The modern UI presents data in an intuitive manner that helps you and your representatives perform inline edits and quick operations with minimal clicks, facilitating decision-making.
 
 ## Key features
 
 The following are some of the key features of the modernized case grids:
 
-- The **Enhanced Active Cases** view is available for the **Case** entity with a predefined set of columns that enable agent to:
+- The **Enhanced Active Cases** view is available for the **Case** entity with a predefined set of columns that enable representatives to:
     - View icons for **Priority**, **Case status**, and the **Origin** channel.
     -	View avatars for the assigned **Owner**.
     - View key data, such as **Case Age**, **Next SLA**, **Is escalated** and **Last Interaction**, by default.
-    - Perform inline edits and update data for columns. For example, agents can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when agents move to the next row. However, edit actions aren't enabled by default. To allow agents to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
-- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views.
+    - Perform inline edits and update data for columns. For example, representatives can double-click the **Priority** column to change the priority of the case or set the toggle to **Yes** or **No** in the **Is Escalated** column. The updated data is automatically saved only when representatives move to the next row. However, edit actions aren't enabled by default. To allow representatives to perform inline edits and update data for columns in the view, turn on **Configure property Enable Editing** in Power Apps. Inline editing for the **Status reason** column isn't supported.
+- Color coded icons for **Priority**, **Case status**, and the **Origin** channels, avatars for **Owner** appear in all the case views. 
+- Colors that you've set for custom columns of type **OptionSet** are also automatically displayed on the case grid.
   > [!NOTE]
   > Any changes made by Microsoft to the default color palette won't be available automatically if you've customized the colors that appear on the case status field.
 - The ability to use quick navigation to respond to the latest interaction.
 
-## Enable inline edits and color coded case status fields
+## Enable inline edits 
 
 To enable inline edits on columns, do the following:
 
@@ -46,6 +48,13 @@ To enable inline edits on columns, do the following:
 1. In the **Configure property Enable Editing** dialog, select **Bind to static options**, select **Yes** from the dropdown list, and then select **OK**.
 
 1. Select **Save**, and then select **Publish**.
+
+### Manage option set colors
+
+We recommend that you choose colors that keep the text readable if you are customizing the color of option set values. When the application is in the dark mode, the text color for option sets is white. Make sure that the background color you choose displays the text, in either mode.
+
+Colors that you've set for custom columns of type OptionSet are also automatically displayed on the case grid. If you don't want the option sets to display colors on the case grid, set the **Enable OptionSet colors** property of the **Power Apps grid control** to **No (Enum)**.
+
 
 ## Add columns to the case grid
 

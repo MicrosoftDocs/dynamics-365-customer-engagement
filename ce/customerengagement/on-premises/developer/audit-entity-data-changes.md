@@ -2,7 +2,6 @@
 title: "Audit entity data changes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Supports auditing of entity and attribute data changes on a per organization basis."
 ms.custom: audit
-ms.date: 05/27/2022
 ms.reviewer: jdaly
 ms.suite:
 ms.tgt_pltfrm:
@@ -49,11 +48,11 @@ Dynamics 365 Customer Engagement (on-premises) support the ability to audit user
 
 ## Sample: Audit entity data changes
 
-This sample demonstrates how to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records. To learn more, see [Sample: Audit Entity Data Changes](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditEntityData) in the Dataverse documentation.
+This sample demonstrates how to enable and disable auditing on an entity and its attributes, retrieve the data change history of the audited entity, and delete the audit records. To learn more, see [Sample: Audit Entity Data Changes](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/AuditEntityData) in the Dataverse documentation.
 
 ## Sample: Audit user access
 
-This sample demonstrates how to audit user access to Dynamics 365 Customer Engagement (on-premises). To learn more, see [Sample: Audit User Access](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/AuditUserAccess) in the Dataverse documentation.
+This sample demonstrates how to audit user access to Dynamics 365 Customer Engagement (on-premises). To learn more, see [Sample: Audit User Access](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/AuditUserAccess) in the Dataverse documentation.
 
 ## Related Sections
 

@@ -1,11 +1,11 @@
 ---
 title: Set up the Service Scheduling experience
-description: Learn about how to set up the Service Scheduling experience in Dynamics 365 Customer Service
+description: Learn how to set up the Service Scheduling experience in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to 
-ms.date: 07/31/2024
+ms.date: 10/18/2024
 ms.custom:
 - bap-template
 - evergreen 
@@ -13,10 +13,9 @@ ms.custom:
 
 # Set up Service Scheduling
 
-You can set up service scheduling from the Power Platform admin center.
+Service Scheduling is a platform-driven update. Learn more in [Set up scenarios](#set-up-scenarios). However, if the update is delayed or fails, you can go to the Power Platform admin center to find the latest version available for Core service scheduling and update your instance. 
 
-> [!NOTE]
-> Scheduling in Customer Service Hub is a [customer-driven update](#set-up-scenarios). You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
+You need to enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. Learn more at [Released Versions of Dynamics 365 Core Service Scheduling](/dynamics365/released-versions/dynamics365-css).
 
 ## Prerequisites
 
@@ -36,9 +35,9 @@ You can set up service scheduling from the Power Platform admin center.
 
 How you set up service scheduling differs, based on the following scenarios:
 
-- For new or existing organizations, where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
+- For new or existing organizations where the Core Service Scheduling solution isn't installed, [install Service Scheduling from the Power Platform admin center](install-service-scheduling-from-power-platform.md).
 
-- For existing organizations, where the Core Service Scheduling solution is already installed, install the available updates by [checking your app status](/power-platform/admin/manage-apps#environment-level-view-of-apps) from the Power Platform admin center.
+- For existing organizations where the Core Service Scheduling solution is already installed, further updates happen automatically.
 
 ### Related information
 

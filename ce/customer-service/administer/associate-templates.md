@@ -3,7 +3,8 @@ title: Associate templates with workstreams
 description: Learn how to associate the different templates with workstreams that will be used for incoming conversations.
 author: neeranelli
 ms.author: nenellim
-ms.date: 09/17/2024
+ms.reviewer: nenellim
+ms.date: 11/28/2024
 ms.topic: article
 ---
 

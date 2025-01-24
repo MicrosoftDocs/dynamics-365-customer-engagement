@@ -7,6 +7,7 @@ ms.topic: "reference"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 author: "gandhamm"
 ms.author: "mgandham"
+ms.reviewer: "mgandham"
 search.audienceType: 
   - developer
 search.app: 
@@ -222,7 +223,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|bcc|
 |RequiredLevel|None|
-|Targets|account,contact,lead,systemuser|
+|Targets|account, contact, lead, systemuser|
 |Type|PartyList|
 
 
@@ -238,7 +239,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|cc|
 |RequiredLevel|None|
-|Targets|account,contact,lead,systemuser|
+|Targets|account, contact, lead, systemuser|
 |Type|PartyList|
 
 
@@ -291,7 +292,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|customers|
 |RequiredLevel|None|
-|Targets|account,contact|
+|Targets|account, contact|
 |Type|PartyList|
 
 
@@ -378,7 +379,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|from|
 |RequiredLevel|None|
-|Targets|account,contact,lead,systemuser|
+|Targets|account, contact, lead, systemuser|
 |Type|PartyList|
 
 
@@ -493,7 +494,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|Left Voice Mail|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|leftvoicemail|
+|LogicalName|left voicemail|
 |RequiredLevel|None|
 |Type|Boolean|
 
@@ -513,7 +514,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |Property|Value|
 |--------|-----|
 |DateTimeBehavior|UserLocal|
-|Description|Date and time when session was accepted by agent|
+|Description|Date and time when session accepted by agent|
 |DisplayName|Agent Accepted On|
 |Format|DateAndTime|
 |IsValidForForm|True|
@@ -603,7 +604,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192360000|Live chat|
 |192370000|Voice|
 |192380000|Video|
-|192390000|Co-browse|
+|192390000|Cobrowse|
 |192400000|Screen sharing|
 |192440000|Voice call|
 |192450000|Apple Messages for Business|
@@ -628,43 +629,53 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 ### <a name="BKMK_msdyn_closurereason"></a> msdyn_closurereason
 
 |Property|Value|
-|--------|-----|
-|Description|Reason for session closure|
-|DisplayName|Closure Reason|
+|---|---|
+|Description|**Reason for session closure**|
+|DisplayName|**Closure Reason**|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|msdyn_closurereason|
+|LogicalName|`msdyn_closurereason`|
 |RequiredLevel|None|
 |Type|Picklist|
+|DefaultFormValue|-1|
+|GlobalChoiceName|`msdyn_ocsession_msdyn_closurereason`|
 
 #### msdyn_closurereason Choices/Options
 
 |Value|Label|
-|-----|-----|
-|192350000|Default|
-|192350001|AgentReject|
-|192350002|AgentTimeout|
-|192350003|ConversationTimeout|
-|192350004|AgentClosed|
-|192350005|ConversationClosed|
-|192350006|AgentTransfered|
-|192350007|AgentDisconnected|
-|192350008|AgentReRouted|
-|192350009|VirtualAgentClosed|
-|192350010|AgentTransferToQueue|
-|192350011|SupervisorAssignToQueue|
-|192350012|SupervisorTransferToAgent|
-|192350013|SystemReject|
-|192350014|ForceClose|
-|192350015|OverflowQueueTransfer|
-|192350016|OverflowEndConversation|
-|192350017|AddAgentFailed|
-|192350018|AutoClose|
-|192350019|SecondaryChannelClosed|
-|192350020|CustomerDisconnect|
-|192350021|AgentEndConversation|
-|192350022|CustomerEndConversation|
-
+|---|---|
+|192350000|**Default**|
+|192350001|**AgentReject**|
+|192350002|**AgentTimeout**|
+|192350003|**ConversationTimeout**|
+|192350004|**AgentClosed**|
+|192350005|**ConversationClosed**|
+|192350006|**AgentTransfered**|
+|192350007|**AgentDisconnected**|
+|192350008|**AgentReRouted**|
+|192350009|**VirtualAgentClosed**|
+|192350010|**AgentTransferToQueue**|
+|192350011|**SupervisorAssignToQueue**|
+|192350012|**SupervisorTransferToAgent**|
+|192350013|**SystemReject**|
+|192350014|**ForceClose**|
+|192350015|**OverflowQueueTransfer**|
+|192350016|**OverflowEndConversation**|
+|192350017|**AddAgentFailed**|
+|192350018|**AutoClose**|
+|192350019|**SecondaryChannelClosed**|
+|192350020|**CustomerDisconnect**|
+|192350021|**AgentEndConversation**|
+|192350022|**CustomerEndConversation**|
+|192350023|**QueueTransfer**|
+|192350024|**InqueueOverflowQueueTransfer**|
+|192350025|**InqueueOverflowEndConversation**|
+|192350026|**BotTransferToAgent**|
+|192350027|**BotEndConversation**|
+|192350028|**BotCallFailureEndConversation**|
+|192350029|**BotCallFailureExternalTransfer**|
+|192350030|**BotCallFailurePromptAndEscalate**|
+|192350031|**BotCallFailureEscalate**|
 
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
@@ -714,7 +725,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Reason for Queue Assignment (This is for internal use only. Customers are advised to not use this property.)|
+|Description|Reason for Queue Assignment (For internal use only. We recommend that you don't use this property.)|
 |DisplayName|Queue Assignment Reason|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -867,9 +878,9 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|Optional Attendees|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|optionalattendees|
+|LogicalName|optional attendees|
 |RequiredLevel|None|
-|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact, entitlement, equipment, knowledgearticle, lead, msdyn_salessuggestion, queue, systemuser, unresolvedaddress|
 |Type|PartyList|
 
 
@@ -917,7 +928,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|ownerid|
 |RequiredLevel|SystemRequired|
-|Targets|systemuser,team|
+|Targets|systemuser, team|
 |Type|Owner|
 
 
@@ -948,7 +959,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|partners|
 |RequiredLevel|None|
-|Targets|account,contact|
+|Targets|account, contact|
 |Type|PartyList|
 
 
@@ -960,7 +971,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |DisplayName|Priority|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|prioritycode|
+|LogicalName|priority code|
 |RequiredLevel|None|
 |Type|Picklist|
 
@@ -1001,7 +1012,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|regardingobjectid|
 |RequiredLevel|None|
-|Targets|account,adx_ad,adx_adplacement,adx_invitation,adx_poll,adx_polloption,adx_pollplacement,adx_pollsubmission,adx_publishingstatetransitionrule,adx_redirect,adx_shortcut,adx_webpage,adx_website,bookableresourcebooking,bookableresourcebookingheader,bulkoperation,campaign,campaignactivity,contact,contract,entitlement,entitlementtemplate,incident,interactionforemail,invoice,knowledgearticle,knowledgebaserecord,lead,msdyn_customerasset,msdyn_playbookinstance,msdyn_postalbum,msdyn_salessuggestion,msdyn_swarm,opportunity,quote,salesorder,site|
+|Targets|account, adx_ad, adx_adplacement, adx_invitation, adx_poll, adx_polloption, adx_pollplacement,adx_pollsubmission, adx_publishingstatetransitionrule, adx_redirect, adx_shortcut, adx_webpage, adx_website,bookableresourcebooking, bookableresourcebookingheader, bulkoperation, campaign, campaignactivity, contact, contract,entitlement, entitlementtemplate, incident, interactionforemail, invoice, knowledgearticle, knowledgebaserecord, lead,msdyn_customerasset, msdyn_playbookinstance, msdyn_postalbum, msdyn_salessuggestion, msdyn_swarm,opportunity, quote,salesorder, site|
 |Type|Lookup|
 
 
@@ -1068,7 +1079,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |IsValidForRead|True|
 |LogicalName|requiredattendees|
 |RequiredLevel|None|
-|Targets|account,contact,entitlement,equipment,knowledgearticle,lead,msdyn_salessuggestion,queue,systemuser,unresolvedaddress|
+|Targets|account, contact, entitlement, equipment, knowledge article, lead, msdyn_salessuggestion, queue, systemuser,unresolvedaddress|
 |Type|PartyList|
 
 
@@ -1297,7 +1308,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the currency associated with the activitypointer.|
+|Description|Unique identifier of the currency associated with the activity pointer.|
 |DisplayName|Currency|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1477,7 +1488,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the delegate user who created the activitypointer.|
+|Description|Unique identifier of the delegate user who created the activity pointer.|
 |DisplayName|Created By (Delegate)|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -1544,11 +1555,11 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Exchange rate for the currency associated with the activitypointer with respect to the base currency.|
+|Description|Exchange rate for the currency associated with the activity pointer with respect to the base currency.|
 |DisplayName|Exchange Rate|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|exchangerate|
+|LogicalName|exchange rate|
 |MaxValue|100000000000|
 |MinValue|0.000000000001|
 |Precision|12|
@@ -1676,7 +1687,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 
 |Property|Value|
 |--------|-----|
-|Description|Unique identifier of the delegate user who last modified the activitypointer.|
+|Description|Unique identifier of the delegate user who last modified the activity pointer.|
 |DisplayName|Modified By (Delegate)|
 |IsValidForForm|True|
 |IsValidForRead|True|
@@ -2004,7 +2015,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |Format|DateAndTime|
 |IsValidForForm|True|
 |IsValidForRead|True|
-|LogicalName|senton|
+|LogicalName|sent on|
 |RequiredLevel|None|
 |Type|DateTime|
 
@@ -2120,7 +2131,7 @@ These columns/attributes return false for both **IsValidForCreate** or **IsValid
 |DisplayName|Version Number|
 |IsValidForForm|False|
 |IsValidForRead|True|
-|LogicalName|versionnumber|
+|LogicalName|version number|
 |MaxValue|9223372036854775807|
 |MinValue|-9223372036854775808|
 |RequiredLevel|None|
@@ -2169,7 +2180,7 @@ Same as msdyn_sessionevent table [msdyn_ocsession_sessionevent_nested](msdyn_ses
 
 ## Many-To-One Relationships
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
+Each Many-To-One relationship has a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
 
 
 ### <a name="BKMK_msdyn_msdyn_ocsession_msdyn_ocsession_primarysession"></a> msdyn_msdyn_ocsession_msdyn_ocsession_primarysession

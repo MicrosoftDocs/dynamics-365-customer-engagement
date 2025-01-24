@@ -3,6 +3,7 @@ title: Enable an entity for resource scheduling
 description: Learn how to enable an entity for scheduling in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ms.topic: how-to 
 ms.date: 08/20/2024 
 ms.custom: 
@@ -12,7 +13,7 @@ ms.custom:
 
 # Enable an entity for resource scheduling
 
-Enabling an entity for scheduling allows agents to schedule the requirements related to that entity to the matching resources.
+You can enable an entity for scheduling so that customer service representatives can schedule its resource requirements.
 
 ## Prerequisites
 

@@ -2,7 +2,6 @@
 title: "Create, export, or import an unmanaged solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "An unmanaged solution is useful as a way to group a set of unmanaged customizations into a set that can be transported between organizations"
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
 
 ms.suite: 

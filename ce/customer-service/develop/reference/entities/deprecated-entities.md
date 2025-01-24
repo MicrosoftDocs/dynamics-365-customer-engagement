@@ -5,6 +5,7 @@ ms.date: 08/24/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # Deprecated entities
 

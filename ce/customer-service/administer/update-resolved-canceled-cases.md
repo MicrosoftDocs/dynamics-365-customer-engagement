@@ -5,6 +5,7 @@ ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Allow updates for resolved and canceled cases
