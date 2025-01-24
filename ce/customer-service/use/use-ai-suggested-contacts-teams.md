@@ -41,7 +41,7 @@ You can do the following:
         :::image type="content" source="../media/ai-suggested-contacts-suggestions-dropdown.png" alt-text="AI suggested contacts dropdown list.":::
         
         > - If no similar cases exist, a message is displayed that no suggested contacts can be found.
-        > - If the administrator hasn't enabled **Join chat** feature, a message is displayed that only chat participants can see this conversation. More information: [Configure the ability for users to join chats](../administer/configure-teams-chat.md#configure-the-ability-for-users-to-join-chats)
+        > - If the administrator hasn't enabled **Join chat** feature, a message is displayed that only chat participants can see this conversation. Learn more in [Configure the ability for users to join chats](../administer/configure-teams-chat.md#configure-the-ability-for-users-to-join-chats)
    
    - Each AI-suggested contact is displayed with the following details: 
        - Full name
