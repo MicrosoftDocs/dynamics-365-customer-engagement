@@ -1,6 +1,6 @@
 ---
-title: "Enable generation of quote and invoice documents| MicrosoftDocs"
-description: "Help your sales team to generate quotes and invoices with consistent format and branding by using templates."
+title: Enable generation of quote and invoice documents
+description: Help your sales team to generate quotes and invoices with consistent format and branding by using templates.
 ms.date: 01/23/2025
 ms.topic: article
 author: lavanyakr01
