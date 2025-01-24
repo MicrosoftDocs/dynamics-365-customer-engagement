@@ -23,7 +23,7 @@ Ensure that the following prerequisites are met:
 
 - In Power Platform admin center, go to **Settings** > **Product** > **Collaboration**, and then turn on the setting for **End users can join Teams meetings from appointments**. 
 - Representatives in your organization must be able to access and use Teams.
-- Representatives must be able to access the productivity pane to see the Join a Teams call app. More information: [Assign templates and enable the productivity pane and channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
+- Representatives must be able to access the productivity pane to see the Join a Teams call app. Learn more in [Assign templates and enable the productivity pane and channels](create-agent-experience-profile.md#assign-users-templates-configure-productivity-pane-channels)
 - If you want representatives to be able to invite their customers to Teams meetings via email, representative email must be configured for outbound email.
 
 ## Set up the ability for representatives to invite customers to join Teams calls
@@ -40,7 +40,7 @@ If you want to complete the configuration for custom agent profiles, start with 
 
 1. On the **Join a Teams call** page, turn on the setting for **Join a Teams call**.
 
-1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** More information: [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
+1. If you want to enable custom agent profiles that aren't set by default to invite customers to join Teams calls, you must manually enable it for those profiles. Select **Manage** next to **Turn on for specific multisession users.** Learn more in [Add the Teams chat setting page for specific multisession users](configure-teams-chat.md#add-the-teams-chat-settings-page-for-specific-multisession-users)
 
 1. Save the changes. The Join a Teams call feature is now enabled for users in Customer Service workspace or Contact Center workspace.
 
