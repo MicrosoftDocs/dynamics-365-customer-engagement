@@ -1,7 +1,7 @@
 ---
 title: Collaborate on work orders with Microsoft Teams
 description: Collaborate in the context of work orders or other entities by integrating with Microsoft Teams.
-ms.date: 01/06/2025
+ms.date: 01/27/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -45,13 +45,15 @@ An administrator must enable collaboration in the Field Service settings.
 
 When you start a new chat, predefined information creates a welcome message in the chat panel. You can customize the welcome message.
 
-1. In Field Service, go to **Settings** > **Integration** > **Teams Collaboration**.
+1. In Field Service, go to **Settings** > **Integrations** > **Teams Collaboration**.
 
-1. Select the record type, such as Work Order.
+1. Under **Connect Teams chats to Dynamics 365 records**, edit *Work Order*.
 
-1. Select **Message view**, and then select **Save**.
+1. Under **Message view**, select the message you want to show in the first chat. Hover over each option for a description. Or, to create a custom message, select **Create view in Power Apps**.
 
-The first five columns in the view you choose appears in the welcome message when you invite someone to collaborate on a record.
+1. Select **Save**.
+
+The first five columns in the view you choose appears in the welcome message when you invite someone to collaborate on a record. If there's no data in a field, the field doesn't display.
 
 ## Create a new chat
 
