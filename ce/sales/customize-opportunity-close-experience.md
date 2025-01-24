@@ -70,9 +70,9 @@ The Opportunity Close entity has certain out-of-the-box fields. If the informati
 1. Add the field to forms as required.  
     - For the **Quick Create** form type  
         1. Add fields as required to the quick create opportunity close form.  
-          > [!NOTE]  
-          > - You can’t delete or customize the out-of-the-box fields or entity relationships.  
-          > - Creating an Opportunity Close record (for example, from a related entity record or the Quick create menu) closes the related opportunity.  
+             > [!NOTE]  
+             > - You can’t delete or customize the out-of-the-box fields or entity relationships.  
+             > - Creating an Opportunity Close record (for example, from a related entity record or the Quick create menu) closes the related opportunity.  
         1. Save and publish the form.  
     - For the **Main** form type  
          1. Add fields as required to the main opportunity close form as added to the quick create form.  

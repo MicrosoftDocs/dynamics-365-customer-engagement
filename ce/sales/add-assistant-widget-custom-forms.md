@@ -31,18 +31,16 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
 
 1. Go to **Customization** > **Customizations** > **Customize the System**.
 
-1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.
-
-    >[!NOTE]
-    >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**.
+1. Under **Components**, expand *Entities*, and then the entity you want, and select **Forms**.
 
 1. In the list of forms, select the form to which you want to add the assistant widget.
 
-1. Select Component, and then add new section with a column.  
+1. Go to the **Insert** tab and add a section with column to the form.
 
-    :::image type="content" source="media/customization-add-section-with-column-form.png" alt-text="Screenshot of adding a section with column to the form":::
+    > [!div class="mx-imgBorder"]
+    > ![Add a section with column to the form.](media/customization-add-section-with-column-form.png "Add a section with column to the form")
 
-7. Select the added section and then on the tool bar, select **Assistant**.   
+1. Select the added section and then on the tool bar, select **Assistant**.   
 
     > [!div class="mx-imgBorder"]
     > ![Select assistant to add to the section.](media/customization-select-assistant-widget.png "Select assistant to add to the section")
@@ -56,7 +54,7 @@ By default, the assistant widget is available only in the out-of-the-box forms&m
     >- When you add the widget to the form, the assistant icon in the tool bar becomes inactive and you can't add it to the same form.
     >- When you open the form and see that the assistant icon is inactive, specifies that the assistant widget is already added to the form. 
 
-8. Save and publish the form.
+1. Save and publish the form.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
