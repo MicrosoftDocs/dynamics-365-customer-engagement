@@ -22,13 +22,13 @@ The primary differences between live chat and persistent chat are as follows:
 
 | Feature                       | Persistent chat                   | Live chat
 |------------------------------------------|-----------------------------------|------------------------------|
-|Availability of representatives outside of operation hours|Allows customers to reach out to service representatives outside of working hours. If no representatives are available, the conversation remains open and the representative receives the customer messages during the operating hours.|Outside of operating hours, customers might not be able to chat with live representatives.
+|Availability of representatives outside of operation hours|Allows customers to reach out to service representatives outside of working hours. If no representatives are available, the conversation remains open and the representative receives the customer messages during the operating hours.|Outside of operating hours, customers might not be able to chat with live representatives.|
 |Ending conversations|Customers can't end conversations from their side. Only representatives can do it. |Both customers and representatives can end the conversation by closing the chat.|
-|Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because the customer doesn't need to wait for the representative. |In live chat, the customer receives system messages about wait time. These messages can be overwritten in the **Settings** tab.
+|Default system messages|Persistent chat doesn't display default messages about average wait time and queue positions, because the customer doesn't need to wait for the representative. |In live chat, the customer receives system messages about wait time. These messages can be overwritten in the **Settings** tab.|
 
 ## How persistent chat works
 
-From the start of a conversation until the representative explicitly ends it, representatives and customers are able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back after a long time, and still see their history, with the ability to pick up where they left. When a customer is unresponsive for a long time, representatives can attend to other conversations by moving their current conversation into a waiting stage, by selecting the ✖ button. Chats in a waiting stage do not take up the representative capacity. When the customer comes back to the chat, the representative is notified and the conversation can be picked up and resolved.
+From the start of a conversation until the representative explicitly ends it, representatives and customers are able to see the history of the conversation in the chat widget. Customers can close the chat widget and come back to it later, they can still see their history and pick up where they left. When a customer is unresponsive at length, representatives can attend to other conversations by moving their current conversation into a waiting stage, by selecting the ✖ button. Chats in a waiting stage don't take up the representatives' capacity. When the customer comes back to the chat, the representative is notified, and the conversation can be picked up and resolved.
 
 ## Prerequisites
 
@@ -42,7 +42,7 @@ Make sure that you set the **Keep same agent for entire conversation** toggle to
 
 ### Assign work items automatically for returning conversations
 
-When the **Keep same agent for entire conversation** toggle is set to **Yes**, if the representative is away or offline, they can't accept the notification for a returning conversation. In such cases, the conversation is assigned to a different agent.
+When the **Keep same agent for entire conversation** toggle is set to **Yes**, and the representative is away or offline, they can't accept the notification for a returning conversation. In such cases, the conversation is assigned to a different agent.
 
 If you want to make sure that the same agent is assigned to the persistent chat, do the following steps:
 
