@@ -1,7 +1,7 @@
 ---
 title: View smart assist suggestions for knowledge articles and similar cases using AI
 description: View smart assist suggestions for knowledge articles and similar cases using AI.
-ms.date: 08/29/2024
+ms.date: 01/27/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,11 +14,9 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-> [!Note]
-> Case information is applicable to Customer Service only.
-
-
-## Introduction
+> [!NOTE]
+> - The case and knowledge suggestions will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> - Case information is applicable to Customer Service only.
 
 The AI suggestions are displayed in smart assist, which is an intelligent assistant that provides real-time recommendations to you, helping you take actions during your interactions with customers.
 
