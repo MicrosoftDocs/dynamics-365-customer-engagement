@@ -20,7 +20,7 @@ After an agent accepts the conversation request, a session starts for which the 
 
 After you create a workstream, you can modify the default templates that are attached to the workstream.
 
-1. In the Customer Service admin center site map, select **Workstreams**.
+1. In the site map of Customer Service admin center, select **Workstreams**.
 1. Select the workstream for which you want to modify the template, and expand the **Show advanced settings** section.
 1. Select **Edit** beside **Sessions**, and on the **Sessions** panel that appears, select a template in the **Default template** list.
 1. Select **Save and close**.
