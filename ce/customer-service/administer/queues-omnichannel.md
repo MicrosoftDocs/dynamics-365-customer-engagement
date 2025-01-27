@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 10/03/2024
+ms.date: 01/27/2025
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -21,7 +21,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
+Queues are used to collect and distribute workload among customer service representatives (service representatives or representatives). Workload includes records such as cases, and conversations such as chat or SMS. Representatives are added as members to the queues and the workload is distributed among them based on assignment methods.
 
 ## How work items are routed to queues
 
@@ -58,9 +58,9 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 1. In **Assignment method**, select any of the following options:
-   - **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream.
-   - **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
-   - **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills, presence, and capacity.
+   - **Highest capacity**: Assigns a work item to a representative with the highest available capacity. This representative has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream.
+   - **Advanced round robin**: Assigns a work item to the representative who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
+   - **Least active**: Assigns a work item to the representatives who has been least active among all those who match skills, presence, and capacity.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
 
 1. To manage overflow of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
@@ -100,7 +100,7 @@ If any overflow settings exist, they are overruled and work items are routed to 
 
 ### How default queues work
 
-Default queues are a finite set of system-defined queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
+Default queues are a finite set of system-defined queues that help you manage work items when other queues aren't available for routing them. All representatives who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
