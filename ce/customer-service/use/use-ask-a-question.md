@@ -80,7 +80,8 @@ If you are using the embed experience or Microsoft 365 Copilot for Service, in a
 
 ## Use auto prompts
 
-[!INCLUDE [cc-feature-availability-embedded-yes](../../../shared-content/shared/preview-includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE [cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 When you have an active case or conversation open, Copilot suggests prompts based on the context of the case or the conversation. Copilot generates prompts only for the first question and not for follow-up questions. Copilot generates the prompts as follows:
 
@@ -93,7 +94,8 @@ When you have an active case or conversation open, Copilot suggests prompts base
 
 ## Use proactive prompts
 
-[!INCLUDE [cc-feature-availability-embedded-yes](../../../shared-content/shared/preview-includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE [cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Copilot proactively suggests prompts, without you having to type one, that you can use to prioritize cases effectively and solve customer queries quickly.
 

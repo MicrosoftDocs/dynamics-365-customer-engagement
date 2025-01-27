@@ -77,7 +77,7 @@ If you've disabled the knowledge base option, agents will be able to use Copilot
 
 ### Add trusted webpages as sources
 
-[!INCLUDE [cc-feature-availability-embedded-yes](../../../shared-content/shared/preview-includes/cc-feature-availability-embedded-yes.md)]
+[!INCLUDE [cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can select **Add web address** in **Web resources** to add trusted domains. You can add up to five trusted web domains for Copilot to search and generate responses from. Copilot searches for information up to two levels down from the configured domain. You must enable the Bing Search in Power Platform admin center to add trusted web sources. See [Enable data across geographic locations](/microsoft-copilot-studio/manage-data-movement-outside-us#enable-data-across-geographic-locations).
 
