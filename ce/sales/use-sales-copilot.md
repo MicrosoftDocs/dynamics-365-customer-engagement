@@ -72,6 +72,10 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
     :::image type="content" source="media/copilot-immersive.png" alt-text="Screenshot of the Copilot page showing suggested requests, with the Copilot icons in the left and right side panes highlighted.":::
 
+## Turn off Bing search
+
+If your admin has provided consent for Bing search, the option to turn off Bing search is displayed at the bottom of the Copilot side pane and  Copilot page. Copilot uses Bing search only to provide account news. If you turn off Bing search, the Get latest news for account prompt won't return any results.
+
 <a name=chat-with-copilot-in-NL></a>
 
 ## Natural language chat
