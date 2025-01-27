@@ -28,7 +28,7 @@ Start a chat that's connected to a record, such as a work order.
 
 1. Open a record for a table that is connected to the Teams integration.
 1. Select the **Teams chats and channels integration** icon.
-1. Select **New connected chat**. Go to [Start a new connected chat](/dynamics365/customer-service/use/use-teams-chat#start-a-new-connected-chat).
+1. Select **New connected chat**. For more information, go to [Start a new connected chat](/dynamics365/customer-service/use/use-teams-chat#start-a-new-connected-chat).
 
 ## Connect and disconnect existing chats
 
