@@ -225,9 +225,9 @@ items:
   items:
     - name: Overview of Microsoft Teams integration
       href: /dynamics365/teams-integration/teams-integration?context=/dynamics365/context/field-service-context
-    - name: Set up the Teams integration
+    - name: Set up Teams integration
       href: field-service-teams-collab-admin.md
-    - name: Collaborate on work orders with Microsoft Teams
+    - name: Collaborate on work orders with Teams
       href: field-service-teams-collaboration.md
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
