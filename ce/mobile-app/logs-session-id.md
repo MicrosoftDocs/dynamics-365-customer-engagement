@@ -2,7 +2,7 @@
 title: "Get session ID and logs to help troubleshoot your issue | MicrosoftDocs"
 ms.custom:
 description: Get logs and session ID to help troubleshoot your issue.
-ms.date: 06/05/2023
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 ms.service: d365ce-op
 ms.suite:
@@ -32,7 +32,7 @@ If you encounter a problem with the mobile app, you can help Microsoft troublesh
    > [!div class="mx-imgBorder"]
    > ![Sitemap expanded screenshot, gear icon is at the bottom left.](media/sessionid-uci-step-1.png)
 
-2. Select **Session details** (at the bottom of the menu) and then you will see the **Session ID**.
+2. Select **Session details** (at the bottom of the menu) and then you'll see the **Session ID**.
 
 ### Get the session ID from the sign in screen
 

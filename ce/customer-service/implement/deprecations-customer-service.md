@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
-ms.date: 10/15/2024
+ms.date: 12/31/2024
 ms.custom: bap-template
 ms.collection:
 ---
@@ -19,9 +19,21 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Dynamics 365 Unified Service Desk to be deprecated in April 2026
+
+Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+
+## Provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated
+
+Starting October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and will no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
+
+## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
+
+Effective February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. More information: [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md)
+
 ## Diagnostics in unified routing is deprecated
 
-The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
+The [diagnostics](../administer/unified-routing-diagnostics.md) feature in unified routing is deprecated as of May 09, 2024. The feature will be removed on March 01, 2025. We recommend that you use [Conversation diagnostics in Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights) to get diagnostics information. You can delete your routing diagnostics-related data from Dataverse using the steps in [Manage routing diagnostics data](../administer/manage-routing-diagnostics-data.md). Contact Microsoft Support if you need help.
 
 ## Omnichannel for Customer Service on Unified Service Desk is deprecated and will be removed in October 2025
 
@@ -70,9 +82,9 @@ Also, as of October 2022, the Omnichannel admin center and the service managemen
 
 Support for the Omnichannel Administration app ended on April 30, 2022, and the app was removed in July 2023. We recommend that you use the Customer Service admin center app to configure the latest features, such as unified routing and voice channel. More information: [Get started with Customer Service admin center](cs-admin-center.md)
 
-## Omnichannel for Customer Service agent-facing app is deprecated and will be removed in June 2024
+## Omnichannel for Customer Service agent-facing app is deprecated and removed as of June 2024
 
-Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. More information: [Migrate from Omnichannel for Customer Service to Customer Service workspace](../administer/migrate-oc-to-csw.md)
+Effective April 2023, the Omnichannel for Customer Service agent-facing app is deprecated. Support is available until June 2024. We recommend that you migrate your omnichannel configuration to Customer Service workspace. More information: [Migrate to Customer Service workspace from deprecated or removed apps](../administer/migrate-to-csw.md)
 
 ## setContextProvider method for authenticated chat is deprecated
 

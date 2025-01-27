@@ -5,6 +5,7 @@ ms.date: 12/21/2023
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - customizer
@@ -19,8 +20,6 @@ Dynamics 365 Customer Service includes a subject organizational structure that l
 
 The search control for the subject tree entity is available by default for out-of-the-box and custom forms. If you'd like to disable the search control, contact Microsoft support.
 
-> [!NOTE]
-> The availability of search control by default is an early access feature. You can opt in early to enable these features in your environment, which will allow you to test these features and then adopt them across your environments. For information about how to enable these features, see [Opt in to early access updates](/power-platform/admin/opt-in-early-access-updates).
   
 ## Create or edit a subject
 
@@ -41,7 +40,7 @@ You can create or edit a subject in the Customer Service admin center app.
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the Visibility toggle if you want the subject to be available for the agent.
+    - Switch on the **Visibility** toggle if you want the subject to be available for the customer service representative (service representative or representative).
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 
@@ -60,8 +59,8 @@ To delete a subject from the subject tree, select the subject and select **Delet
 
 The following options are available for subjects:
 
-- **Users can only select subjects without children in the subject tree**: Switch on the toggle. At runtime, users are able to select only those subjects that don't have child subjects. This setting allows administrators to make sure that agents select only specific subjects.
-- **Show hidden subjects in the subject tree below**: Set the toggle to **Show**. In the subject tree, the subjects that are marked as hidden are displayed with the hidden icon. This setting allows administrators to preview the runtime functionality of the visibility of subjects to agents.
+- **Users can only select subjects without children in the subject tree**: Switch on the toggle. At runtime, users are able to select only those subjects that don't have child subjects. This setting allows administrators to make sure that representatives select only specific subjects.
+- **Show hidden subjects in the subject tree below**: Set the toggle to **Show**. In the subject tree, the subjects that are marked as hidden are displayed with the hidden icon. This setting allows administrators to preview the runtime functionality of the visibility of subjects to representatives.
 - **Search**: Use the search option to search for a subject by name and perform the different actions that are allowed for the subject. The subject that you search fo is highlighted and displayed in the subject tree. This setting allows you to easily locate the subject and child subjects instead of manually scrolling through the subject list.
 
     :::image type="content" source="../media/using-subject-management.png" alt-text="Subject management at a glance.":::
@@ -73,8 +72,7 @@ You can select **Open old subject management page** to use the older experience.
 
 ### Related information
 
-[Overview of case management](overview-cases.md)  
-[Enable search control for the subject entity](../search-control-for-subjects.md)  
+[Overview of case management](overview-cases.md)   
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

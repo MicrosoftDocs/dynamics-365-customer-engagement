@@ -32,8 +32,8 @@ This release includes the following new features:
 
 This release includes the following changes:
 
-- General availability in asking the Dynamics 365 Field Service Plugin for Microsoft 365 Copilot for [key work order information](flw-m365-chat.md).
-- In public preview, frontline workers can ask Microsoft 365 Copilot to [search through lengthy product manuals](flw-m365-chat.md#ask-for-instructions-for-a-work-order-preview) and find relevant answers to questions.
+- General availability in asking the Dynamics 365 Field Service Plugin for Microsoft 365 Copilot for key work order information.
+- In public preview, frontline workers can ask Microsoft 365 Copilot to search through lengthy product manuals and find relevant answers to questions.
 - In public preview, frontline workers can use [Dynamics 365 Remote Assist capabilities in Microsoft Teams mobile](annotate-teams-mobile.md).
 
 ## December 5, 2023

@@ -16,13 +16,10 @@ ms.collection:
 
 As a bot author, you can enable your Copilot Studio bots to understand context while authoring a bot flow.
 
-## Install extensions
-
-Follow the steps mentioned in this article: [Install Copilot Studio extensions](../administer/configure-bot-virtual-agent.md#install-copilot-studio-extensions).
 
 ## Connect to omnichannel instance
 
-Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](../administer/configure-bot-virtual-agent.md#connect-your-copilot-studio-bot-to-omnichannel-instance).
+Follow the steps mentioned in this article: [Connect your Copilot Studio bot to omnichannel instance](../administer/configure-bot-virtual-agent.md#configure-context-variables-for-the-copilot-studio-agent).
 
 ## Next steps
 

@@ -5,6 +5,7 @@ ms.date: 09/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 
 search.audienceType: 
   - customizer
@@ -16,9 +17,30 @@ ms.custom: evergreen
 
 This is the release history page for the [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] Guide.  
 
+
+::: moniker range="dynamics-usd-4.3"
+
+<a name="Release_4_3"></a>
+
+
+> [!IMPORTANT]
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
+
+## Release history for Unified Service Desk 4.3.0, January 2025
+
+This release includes migration changes from Azure Active Directory Authentication Library (ADAL) to the Microsoft Authentication Library (MSAL). Learn more in [Migrate applications to the Microsoft Authentication Library (MSAL)](/entra/identity-platform/msal-migration). There are no content-specific changes in this release.
+
+> [!NOTE]
+> Unified Service Desk 4.3 doesn't support on-premises deployments. We recommend using Unified Service Desk 4.2 for on-premises deployments.
+
+::: moniker-end
+
 ::: moniker range="dynamics-usd-4.2"
 
 <a name="Release_4_2"></a>
+
+> [!IMPORTANT]
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Release history for Unified Service Desk 4.2.0.71, September 2024
 
@@ -63,6 +85,9 @@ The list provides an overview of documentation updates made in this release of U
 ::: moniker-end
 
 ::: moniker range="dynamics-usd-4.1"
+
+> [!IMPORTANT]
+> Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../customer-service/implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Release history for Unified Service Desk 4.1.1.1433, December 2020
 

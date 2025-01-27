@@ -1,10 +1,12 @@
 ---
-title: "getFocusedSession method (app profile manager) JavaScript API Reference | MicrosoftDocs"
-description: "Learn about the getFocusedSession API of app profile manager in Customer Service workspace."
+title: getFocusedSession method (app profile manager) JavaScript API Reference 
+description: Learn about the getFocusedSession API of app profile manager in Customer Service workspace.
+ms.topic: reference
+ms.date: 12/13/2024
 author: gandhamm
 ms.author: mgandham
-ms.date: 10/01/2021
-ms.topic: reference
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # getFocusedSession (app profile manager)

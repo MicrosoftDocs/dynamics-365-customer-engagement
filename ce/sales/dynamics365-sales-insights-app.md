@@ -23,7 +23,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 ## How can I use conversation intelligence?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Ub4r]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=92193e0f-0772-45d3-a39b-2020b92e4078]
 
 >[!IMPORTANT]
 >This feature is intended to help sales managers or supervisors enhance their team's performance. This feature isn't intended for use in making&mdash;and shouldn't be used to make&mdash;decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with end users may be monitored, recorded, or stored.

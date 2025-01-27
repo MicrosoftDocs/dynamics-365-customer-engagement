@@ -18,6 +18,8 @@
           href: deactivate-queue-items.md
         - name: Route noncase records using a plug-in
           href: trigger-routing-non-case-records.md 
+        - name: Add multiple preferred agent records
+          href: add-multiple-preferred-agent-records.md
       - name: Knowledge management
         items:
         - name: Create a knowledge article using a template
@@ -127,7 +129,9 @@
           - name: msdyn_agentcapacityprofileunit
             href: reference/entities/msdyn_agentcapacityprofileunit.md         
           - name: msdyn_agentcapacityupdatehistory
-            href: reference/entities/msdyn_agentcapacityupdatehistory.md        
+            href: reference/entities/msdyn_agentcapacityupdatehistory.md  
+          - name: msdyn_agentcopilotsetting
+            href: reference/entities/msdyn_agentcopilotsetting.md           
           - name: msdyn_agentscript
             href: reference/entities/msdyn_agentscript.md
           - name: msdyn_agentscriptstep
@@ -176,6 +180,8 @@
             href: reference/entities/msdyn_copilotinteraction.md
           - name: msdyn_copilotinteractiondata
             href: reference/entities/msdyn_copilotinteractiondata.md
+          - name: msdyn_copilotsummarizationsetting
+            href: reference/entities/msdyn_copilotsummarizationsetting.md
           - name: msdyn_copilottranscript
             href: reference/entities/msdyn_copilottranscript.md
           - name: msdyn_copilottranscriptdata
@@ -404,6 +410,8 @@
             href: reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md
           - name: msdyn_teamsengagementctx
             href: reference/entities/msdyn_teamsengagementctx.md
+          - name: msdyn_timetracker
+            href: reference/entities/msdyn_timetracker.md
           - name: msdyn_transcript
             href: reference/entities/msdyn_transcript.md
           - name: msdyn_unifiedroutingdiagnostic
@@ -638,3 +646,5 @@
       href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Dynamics 365 Contact Center documentation
+      href: /dynamics365/contact-center/

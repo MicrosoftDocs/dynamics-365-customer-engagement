@@ -3,6 +3,7 @@ title: Manage notification settings and templates
 description: Manage notification settings and templates for optimal functioning and customizing of notifications for agents.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 03/22/2024
 ms.topic: article
 ms.custom:

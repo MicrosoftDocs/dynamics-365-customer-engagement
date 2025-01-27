@@ -5,7 +5,7 @@ ms.date: 02/12/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer

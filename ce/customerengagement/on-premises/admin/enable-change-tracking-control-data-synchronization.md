@@ -2,7 +2,6 @@
 title: "Enable change tracking in Dynamics 365 Customer Engagement (on-premises)"
 description: "Enable entities for change tracking to control data synchronization. This helps reduce the load of your server resources and save time when extracting data."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

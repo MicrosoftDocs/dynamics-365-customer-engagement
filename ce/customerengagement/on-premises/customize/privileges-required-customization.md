@@ -2,7 +2,6 @@
 title: "Security roles for customizing Dynamics 365 Customer Engagement (on-premises)"
 description: "To customize Customer Engagement (on-premises), you need to be a System Administrator or System Customizer. Learn about the difference between these roles."
 ms.custom: 
-ms.date: 01/08/2019
 ms.reviewer: 
 
 ms.suite: 

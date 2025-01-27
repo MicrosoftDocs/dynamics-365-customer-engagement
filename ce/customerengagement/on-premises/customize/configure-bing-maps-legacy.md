@@ -2,7 +2,6 @@
 title: "Show Bing Maps on forms in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to enable Bing Maps to be displayed on a form, and configure properties such as labels and formatting."
 ms.custom: 
-ms.date: 01/31/2019
 ms.reviewer: 
 
 ms.suite: 

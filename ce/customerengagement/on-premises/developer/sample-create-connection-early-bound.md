@@ -2,7 +2,6 @@
 title: "Sample: Create a connection (early bound)| MicrosoftDocs"
 description: "The sample demonstrates how to create a connection between an account and a contact that have matching connection roles."
 ms.custom: 
-ms.date: 01/02/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -21,7 +20,7 @@ search.audienceType:
 ---
 # Sample: Create a connection (early bound)
 
-This sample shows how to create a connection between an account and a contact entity that have matching connection roles. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ConnectionEarlyBound). 
+This sample shows how to create a connection between an account and a contact entity that have matching connection roles. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ConnectionEarlyBound). 
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
   

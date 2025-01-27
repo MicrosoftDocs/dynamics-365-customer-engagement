@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
 description: Learn how to turn on all preview features in Sales to access preview features before their official release.
-ms.date: 08/05/2024
+ms.date: 12/13/2024
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -34,18 +34,15 @@ The following table lists the Copilot preview features that are available in Dyn
 
 | Preview feature | Description |
 |-----------------------|---------|
-| Copilot for Email | [Compose and send email messages using Copilot](compose-send-email-copilot.md). |
 | Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-immersive) when you want more space and focus to chat with Copilot and ask questions. |
 | Account summarization | [Summarize an account in your organization](copilot-get-information.md#summarize-an-account) |
 
 ## Turn on all Copilot preview features
 
-1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
+1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.  
+1. Under **General Settings**, select **Copilot**.  
+1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone**.  
 
-1. Under **General Settings**, select **Copilot**.
-
-1. In the **Set up Copilot in Dynamics 365 Sales** page, turn on **Try our newest preview features before they're rolled out to everyone**.
-
-    :::image type="content" source="media/enable-copilot.svg" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
+    :::image type="content" source="media/enable-copilot-preview.png" alt-text="Screenshot of the Set up Copilot in Dynamics 365 Sales page in Dynamics 365 Sales Hub."::: 
 
 1. Select **Publish**.

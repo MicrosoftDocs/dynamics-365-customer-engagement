@@ -2,7 +2,6 @@
 title: "Webpage (HTML) web resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using webpage (HTML) web resources to create user interface elements for client extensions."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

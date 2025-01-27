@@ -2,7 +2,6 @@
 title: "Data import template for Dynamics 365 Customer Engagement (on-premises)"
 description: "Use templates for importing many types of records, such as accounts, leads, or cases. You can find a complete list in the Templates for Data Import wizard."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

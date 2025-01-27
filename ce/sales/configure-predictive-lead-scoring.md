@@ -34,7 +34,7 @@ If you have a Dynamics 365 Sales Enterprise license, you can enable predictive l
 
 - [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 
-- You need to have enough leads to train the model based on past data. Your organization must have created and closed at least 40 qualified and 40 disqualified leads during the last three months to two years. The more leads you can include to train the model, the better the prediction results will be. [Verify whether you have the required number of leads to build a scoring model](faq-lead.md#scoring-minimum-requirement).
+- You need to have enough leads to train the model based on past data. Your organization must have created and closed at least 40 qualified and 40 disqualified leads during the time frame that you choose to train the model. For example, if you choose to train the model with leads from the past three months, you need to have at least 40 qualified and 40 disqualified leads that were created and closed in the past three months. You select the time frame when you create the model and it ranges from three months to two years. The more leads you can include to train the model, the better the prediction results will be.  [Verify whether you have the required number of leads to build a scoring model](faq-lead.md#scoring-minimum-requirement).
 
   > [!NOTE]
   > If you're planning to use a business process flow for your model, then leads that have abandoned the selected business process flow will not be considered for training, scoring, and for establishing the minimum requirement for model creation.
@@ -48,13 +48,14 @@ The system takes about four hours to sync the data with the data lake. If you've
 > - If you're using a model that you created in a version of Dynamics 365 earlier than 2020 release wave 2, [delete the model](pls-duplicate-models.md#delete-a-model) before you create a new one. Otherwise, the previous version of the model will be applied to all leads in your organization, and new models won't have any effect on the leads.
 > - As of 2020 release wave 2, the application writes the lead scoring data to the [**msdyn_predictivescore**](developer/entities/msdyn_predictivescore.md) table and no longer writes to the lead table. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
 
-
 A scoring model defines the criteria for choosing leads for training and scoring. If your organization follows different sales practices across different regions or business units, you can create models and unique training sets for each of them.
 
 1. Go to **Change area** in the lower-left corner of the Sales Hub app, and select **Sales Insights settings**.
 
 1. On the site map under **Predictive models**, select **Lead scoring**.
-  
+
+     :::image type="content" source="media/lead-scoring-model.svg" alt-text="Screenshot of the first lead scoring model. ":::
+
    If your organization doesn't have at least 40 qualified and 40 disqualified leads that were created in the time frame identified in the **Train with leads from the past** field, you can't create a scoring model. If there are enough leads, the app generates a model by default.
 
 1. On the **Predictive lead scoring** page, change the values for fields such as business process flow, filter column, and so on if needed. For more information about these fields, see the next section [Add a model](#add-a-model). When you're done, select **Get started**.
@@ -69,7 +70,7 @@ The application uses standard attributes to train the model. You can [edit the m
 
       :::image type="content" source="media/pls-model-ready.png" alt-text="Screenshot of the confirmation message that appears after a scoring model is trained and ready to publish.":::
 
-2. If the model is trained but not ready to publish, the **Model performance** field displays **Not ready to Publish**.
+2. If the model is trained but is not ready to publish, the **Model performance** field displays **Not ready to Publish**.
 
 1. To retrain the model every 15 days, select **Retrain automatically**.
 
@@ -82,6 +83,7 @@ The application uses standard attributes to train the model. You can [edit the m
     - To [view the model's accuracy and performance](scoring-model-accuracy.md) before you publish it, or if the model isn't ready to publish and you want to know why, select **View Details**, and then select the **Performance** tab.
 
         The app determines that the model isn't ready to publish if its accuracy falls below a threshold value, the **Area under curve (AUC) score**. You can still publish the model if you like. However, it will perform poorly.
+
 
 ## Add a model
 
@@ -96,7 +98,7 @@ You can create up to 10 models, both published and unpublished, for different se
 
     The **Predictive lead scoring** page opens with default values.
 
-    :::image type="content" source="media/pls-new-model.png" alt-text="Screenshot of adding a new scoring model.":::
+    :::image type="content" source="media/lead-scoring-model.svg" alt-text="Screenshot of adding a new scoring model.":::
 
 1. In the **New model name** box, enter a name that contains alphanumeric characters. Underscores are allowed, but not spaces or other special characters.
 

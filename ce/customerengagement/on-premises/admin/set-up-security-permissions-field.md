@@ -2,7 +2,6 @@
 title: "Set field security permissions in Dynamics 365 Customer Engagement (on-premises)"
 description: "Restrict access to a field by creating a field security profile. Assign users and or teams to that profile, and set up specific permissions for the field."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Install or upgrade Microsoft Dynamics 365 Server | Microsoft Docs"
 description: Learn how to install or upgrade a Dynamics 365 server with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 01/25/2019
 
 ms.reviewer: 
 ms.suite: 
