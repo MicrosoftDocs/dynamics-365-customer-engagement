@@ -329,6 +329,8 @@ items:
         href: mobile/enable-push-notifications.md
       - name: Track and audit location data
         href: mobile/track-technician-location.md
+      - name: Enable technicians to create service reports
+        href: mobile/create-service-report-admin.md
       - name: Configure geofencing
         href: mobile/configure-geofencing.md
       - name: Manage apps with Intune
