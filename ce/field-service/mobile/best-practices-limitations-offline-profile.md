@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 01/06/2025
+ms.date: 01/22/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -58,7 +58,7 @@ Keep these limitations in mind when you set up the offline profile:
 
 - Access to SharePoint documents isn't supported.
 
-- Access to knowledge articles isn't available in offline mode.
+- Access to knowledge articles isn't available in offline mode. Knowledge articles might download, but they can't be viewed offline.
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 

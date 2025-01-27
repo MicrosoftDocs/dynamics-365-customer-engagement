@@ -138,7 +138,7 @@ You can deactivate an account if you no longer do business with it. Deactivating
 
 ### Deactivate a contact
 
-You can deactivate a contact if you no longer work with them. Deactivating a contact makes the contact read-only and hides it from most views. Deactivating a contact makes the contact read-only and hides it from most views but retains the contact's history. The related opportunities, activities, and other records remain active.
+You can deactivate a contact if you no longer work with them. Deactivating a contact makes the contact read-only and hides it from most views but retains the contact's history. The related opportunities, activities, and other records remain active.
 
 1. In the sitemap of your sales app, select **Contacts**.
 1. Select the contact you want to deactivate.
