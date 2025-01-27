@@ -231,7 +231,7 @@ items:
       href: /dynamics365/teams-integration/teams-personal-use?context=/dynamics365/context/field-service-context
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
-    - name: Use Teams mobile to annotate in a user's environment (preview)
+    - name: Use Teams mobile to annotate in a user's environment
       href: annotate-teams-mobile.md
 
 - name: Scheduling
