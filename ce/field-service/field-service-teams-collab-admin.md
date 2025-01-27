@@ -50,4 +50,4 @@ The first five columns in the view you choose appears in the welcome message whe
 
 ## See also
 
-[Collaborate on work orders with Microsoft Teams](field-service-teams-collaboration)
+[Collaborate on work orders with Microsoft Teams](field-service-teams-collaboration.md)

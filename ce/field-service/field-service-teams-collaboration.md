@@ -41,4 +41,8 @@ Start a chat unrelated to a record.
 1. Select the **Teams chats and channels integration** icon.
 1. Select the **Start a new chat** icon.
 
+## See also
+
+[Overview of Microsoft Teams integration](/dynamics365/teams-integration/teams-integration)
+
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
