@@ -91,12 +91,12 @@ Follow these steps to create a logical skill classification ruleset:
 7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
-   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the agent. Also, ensure that you don't attach the same skill with two different rating models. For one skill, if you use different rating models in the conversation and for the agent, or in the same conversation, assignment won't work as expected.
+   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the is customer service representative (service representative or representative). Also, ensure that you don't attach the same skill with two different rating models. For one skill, if you use different rating models in the conversation and for the representative, or in the same conversation, assignment won't work as expected.
    > - When you reroute a work item, new skills are appended to the existing ones if any.
 
 ## Create classification rulesets based on capacity profiles
 
-Create work classification rulesets that are based on capacity profiles to route work items to agents based on capacity.
+Create work classification rulesets that are based on capacity profiles to route work items to representatives based on capacity.
 
 1. Perform the steps 1 through 5 in [Create logical skill classification rulesets](#create-logical-skill-classification-rulesets).
 2. In the **Output** area, select **Capacity profile**, and choose a capacity profile whose value should be set if the conditions are met.
@@ -106,7 +106,7 @@ Create work classification rulesets that are based on capacity profiles to route
 
 Machine learning model-based rules are a subtype of work classification rules, and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They're written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
-To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. More information: [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)
+To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. Learn more in [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)
 
 Do the following to configure a machine learning-based ruleset:
 
@@ -130,14 +130,14 @@ Do the following to configure a machine learning-based ruleset:
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-You can create rules that are based on the sentiment prediction model to classify work items. More information: [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
+You can create rules that are based on the sentiment prediction model to classify work items. Learn more in [Use sentiment prediction](use-sentiment-prediction-for-routing.md).
 
 ## Create rulesets based on effort estimation model (preview)
 
 > [!IMPORTANT]
 > This section is pre-release documentation and is subject to change.
 
-You can create rules that are based on the effort estimation model to classify work items. More information: [Use effort estimation](use-effort-estimation-for-routing.md).
+You can create rules that are based on the effort estimation model to classify work items. Learn more in [Use effort estimation](use-effort-estimation-for-routing.md).
 
 ## Options available for rulesets
 
