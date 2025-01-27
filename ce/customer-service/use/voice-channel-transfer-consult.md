@@ -86,7 +86,7 @@ When you initiate a consult, the following actions occur:
 - The customer is automatically put on hold. Hold music plays for the customer.
 - When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
 - The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant. 
-- If the primary representative ends the call, the call ends for everyone. 
+- If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
 
 **Consult with another user**

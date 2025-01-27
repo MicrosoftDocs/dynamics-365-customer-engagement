@@ -45,11 +45,11 @@ For the best experience of the sales accelerator, enable and configure [predicti
 Enable the sales accelerator by quickly providing access to security roles and selecting the record types to be shown in the work list.
 
 >[!NOTE]
->By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments. 
+>By default, sales accelerator is available in the Sales Hub app with limited functionalities. Your Sales teams can view the work list items created through timeline for contact, opportunity, lead, and account records. To experience the full capabilities of sales accelerator, purchase the Sales Premium license and configure the features such as sequences and segments.  
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
-1. Under **Sales accelerator**, select **Workspace**.     
-    The sales accelerator workspace setup page opens. 
+1. Under **Sales accelerator**, select **Workspace**.  
+    The sales accelerator workspace setup page opens.  
 
     :::image type="content" source="media/sa-fre-setup.png" alt-text="Screenshot of sales accelerator first-run setup page.":::
 
@@ -59,12 +59,7 @@ Enable the sales accelerator by quickly providing access to security roles and s
 
     :::image type="content" source="media/sa-fre-sa-quick-setup-pane.png" alt-text="Screenshot of sales accelerator quick setup pane.":::
 
-1. <a name="define-team-access"></a>In the **Enable for** section, select roles to grant permissions to use sales accelerator features. Choose one of the following options to grant permissions.
-
-    | Security roles | Description |
-    |----------------|-------------|
-    | All security roles | Select this option to give access to view sales accelerator features to all the security roles in your organization. |
-    | Specific security roles | Select this option to specify security roles to give access to view the sales accelerator to just a few users. Use the lookup box to add the security roles. |
+1. <a name="define-team-access"></a>Add security roles to use sales accelerator features.  
 
     >[!NOTE]
     >To provide permissions for other user roles to create, edit, delete, connect, and disconnect sequences, see [Permission requirements to manage sequences](create-manage-sequences.md#permission-requirements-to-manage-sequences)
