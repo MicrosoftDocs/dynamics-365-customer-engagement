@@ -21,7 +21,7 @@ Unified routing has two main stages: classification and assignment.
 
 In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be used to find the best-suited representative.
 
-During the assignment stage, the service requests are prioritized and then assigned to the representatives based on the nature of the work, related entities, representative skills, and the current state of the representative workforce in terms of availability and workload.
+During the assignment stage, the service requests are prioritized and then assigned to the representatives based on the nature of work, related entities, skills, and the current state of the workforce in terms of availability and workload.
 
 For instance, an organization receiving an incoming chat will add information on the work item—such as skills required, urgency level, category of customer, and importance level—in the classification stage, based on certain conditions that are met as part of the configured rules. In the assignment stage, an organization might want to first prioritize the incoming chats based on highest urgency level and importance, and then assign them to the representatives by matching the skills required, current workload status, and availability.
 
@@ -43,7 +43,7 @@ Unified routing optimizes businesses in the following ways:
 
 - Prioritizing work items within a queue using work item attributes, added context, or related-entity attributes so as to ensure the business is able to use the representative's time on the most important work items first as per the business need.
 
-- Assigning work items within a queue by matching representative attributes against work item requirements dynamically, thereby assigning representatives as per the business requirement.
+- Assigning work items within a queue by matching representative attributes against work item requirements dynamically, thereby assigning them as per the business requirement.
 
 ## System requirements, supported geographical regions
 
