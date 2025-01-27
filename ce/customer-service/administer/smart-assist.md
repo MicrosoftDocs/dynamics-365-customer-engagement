@@ -4,7 +4,7 @@ description: Learn how to smartly assist agents with the next-best steps in Cust
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 01/21/2025
+ms.date: 01/27/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
