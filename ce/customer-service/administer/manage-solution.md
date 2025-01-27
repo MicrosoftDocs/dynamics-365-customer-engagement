@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 01/22/2025
+ms.date: 01/27/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
