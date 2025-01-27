@@ -57,8 +57,8 @@ You can create workstreams for unified routing in the Customer Service admin cen
     - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     
     - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
-         - In **Push** mode, a work item is dispatched to customer service representatives (service representatives or representatives) automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
-         - In **Pick** mode, a work item is dispatched to representatives when they explicitly pick the work item from the **Open work items** in the agent dashboard.
+         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
+         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
     
     - In **Fallback queue**, select one of the following options:
          - **Create new**: Enter a queue name to which work items are sent when no queue is identified in the the route-to-queue rules. You must add users to the queue after creating the workstream.
@@ -102,14 +102,14 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
-- **Block capacity for wrap up**: Select a duration to block capacity when the representative is in **Wrap-up** state, such as **1 minute** or **60 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
+- **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **60 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
 
   > [!NOTE]
   > If you selected **End of Day mode** in capacity profile, agent capacity isn't reset when the duration selected in the **Block capacity for wrap up** field is over.
 
-- **Allowed presences**: Select the presence statuses in which representatives can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to representatives when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
+- **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
-- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. Learn more in [Agent affinity](#agent-affinity).
+- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. Learn more in [Agent affinity](#agent-affinity).
 
 ### Configure advanced settings
 
@@ -152,11 +152,11 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-The agent affinity feature ensures that work items are assigned to the representatives based on their work history. Agent affinity ensures that conversations are automatically reassigned to the same representative, irrespective of their capacity and presence.
+The agent affinity feature ensures that work items are assigned to the agents based on their work history. Agent affinity ensures that conversations are automatically reassigned to the same agent, irrespective of their capacity and presence.
 
-The feature is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This helps save the effort to reorient the representative or set the context about the customer issue again. 
+The feature is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same agent who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the agent. This helps save the effort to reorient the agent or set the context about the customer issue again. 
 
-However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same representative. The representative can, however, choose to reject the assigned conversation via the notification pane.
+However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same agent. The agent can, however, choose to reject the assigned conversation via the notification pane.
 
 > [!Note]
 > Agent affinity is applicable only for push type of work distribution.
