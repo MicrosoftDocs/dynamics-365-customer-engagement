@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 10/28/2024
+ms.date: 03/28/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -23,6 +23,9 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 Watch this brief video to learn more about the new work order experience in Field Service, including work order summaries:
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
+
+> [!IMPORTANT]
+> The ability for [users to provide feedback](#send-feedback) for a work order summary is enabled by default. Environment administrators can control whether users are able to provide feedback for each individual environment from the organization table. The tenant level Copilot feedback setting in Power Platform admin center currently doesn't have any effect on this feature. To ensure user feedback is disabled across your tenant, you must disable it for each environment.
 
 ## Prerequisites
 
