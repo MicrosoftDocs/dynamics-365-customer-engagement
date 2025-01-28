@@ -1,7 +1,7 @@
 ---
 title: Ask questions of Copilot in Dynamics 365 Sales
 description: Learn how to use Copilot to summarize sales records, catch up on recent changes, prepare for meetings, answer questions, and so on. 
-ms.date: 10/03/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -74,7 +74,7 @@ Open the Copilot page in a full-screen view when you want more space and focus t
 
 ## Turn off Bing search
 
-If your admin has provided consent for Bing search, the option to turn off Bing search is displayed at the bottom of the Copilot side pane and  Copilot page. Copilot uses Bing search only to provide account news. If you turn off Bing search, the Get latest news for account prompt won't return any results.
+If your admin has provided consent for Bing search, the option to turn off Bing search is displayed at the bottom of the Copilot side pane and  Copilot page. Copilot uses Bing search only to provide account news. If you turn off Bing search, the **Get latest news for account** prompt won't return any results.
 
 <a name=chat-with-copilot-in-NL></a>
 
