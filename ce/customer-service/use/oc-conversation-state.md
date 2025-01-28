@@ -102,18 +102,13 @@ The conversations that are completed by ending them or closing the session are c
 
 ## How conversations are handled on close or end
 
-When service representatives close the conversation using the close (**X**) button on the communication panel or end the conversation using the **End** button, the system handles the two behaviors differently for different channels that's explained as follows:
+When service representatives close the conversation using the close (**X**) button on the communication panel or end the conversation using the **End** button, the system handles the two behaviors as follows:
 
-- **Voice and chat channels**:
-
-    - **End conversation using the End button**: The conversation is put in wrap-up state where the representative's capacity remains occupied until the wrap-up time configured is completed. You can verify the wrap-up time in the workstream setting.
-    - **Close conversation after using the End button**: The conversation is closed and the representative's capacity is immediately released. If the wrap-up time is on, the closure action can be used to end the wrap-up stage early if the representative has completed their work.
-    - **Close conversation without ending it**: If conversation is closed using the close (X) button instead of the **End** button, the system reassigns the conversation to another available service representative.
-
-- **Persistent chat and asynchronous channels**:
-
-    - **Close conversation without ending it**: The conversation goes into a waiting state and the representative capacity is immediately released. When the customer comes back, the conversation is resumed again.
-    - **End conversation using the End button**: The conversation is closed for the customer as well. The system applies the wrap-up time based on workstream configuration settings.
+   - **End conversation using the End button**: For all the channels, the system moves the conversation to the wrap-up state where the representative's capacity remains occupied based on the **Block capacity for wrap-up** setting of the workstream.
+   - **End conversation using the End button and then close session window using the close (X) button**: For all the channels, the system closes the conversation and the representative's capacity is immediately released. If the **Block capacity for wrap-up** is **Always block** or **Custom time**, the representative can use the close (**X**) button to end the wrap-up stage early if they completed their work.
+   - **Close conversation using the close (X) button and not the End button**: When the representative uses the close (**X**) button instead of the **End** button, the system handles the conversation as follows:
+       - **Voice and chat channels**: The conversation goes into open state and the system reassigns the conversation to another available service representative.
+       - **Persistent chat and asynchronous channels**: The conversation goes into a waiting state and the representative capacity is immediately released. When the customer comes back, the conversation is resumed again.
 
 Learn about close or end conversation in [Close or end a conversation](oc-conversation-control.md#close-or-end-a-conversation).
 

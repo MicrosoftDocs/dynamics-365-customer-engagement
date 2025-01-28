@@ -161,7 +161,7 @@ Agent affinity is enabled by default for persistent chat, SMS, social channels, 
 
 However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same agent. The agent can choose to reject the assigned conversation via the notification pane.
 
-> [!Note]
+> [!NOTE]
 > Agent affinity is applicable only for push type of work distribution.
 
 ### Associate templates
