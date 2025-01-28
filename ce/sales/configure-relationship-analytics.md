@@ -47,6 +47,8 @@ Configure relationship analytics to specify whether you want to use Exchange dat
     When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
 1. Turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from emails and data stored in Dynamics 365.
+  > [!NOTE]
+  > If you opt in for [April 2025 early access](/power-platform/admin/opt-in-early-access-updates), you can connect to Exchange only using [server-side synchronization](configure-email.md). So, the **Exchange Online** toggle won't appear in early access environments. Until server-side synchronization is set up, Relationship Analytics only uses emails from Dynamics 365.
 
 
 1. Turn on **Relationship Health** to show the relationship health score in opportunities, views, and charts.
