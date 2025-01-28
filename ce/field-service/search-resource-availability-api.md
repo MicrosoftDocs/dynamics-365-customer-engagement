@@ -1,7 +1,7 @@
 ---
 title: Search resource availability API
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 12/12/2024
+ms.date: 01/28/2025
 ms.topic: reference
 author: mkelleher
 ms.author: mkelleher
@@ -208,8 +208,12 @@ The following example demonstrates proper usage of entity collections. In this c
         "ConsiderSlotsWithProposedBookings": false,
         "MovePastStartDateToCurrentDate": true,
         "MaxNumberOfResourcesToEvaluate":500,
+        "ConsiderTravelTime": true,
+        "MaxResourceTravelRadius": {
+            "Value": 20,
+            "Unit" : 192350000,
         "@odata.type": "Microsoft.Dynamics.CRM.expando"
-    },
+        },
     "ResourceSpecification": {
         "@odata.type": "Microsoft.Dynamics.CRM.expando",
         "ResourceTypes@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
