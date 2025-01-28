@@ -39,7 +39,7 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-- To use SLA features, specific roles and privileges are required for both admins and customer service representatives must have specific roles and privileges. These roles and privileges must apply to various entities related to SLA. For example, permissions apply to SLA, SLA KPI, and SLA KPI instances. Make sure you grant the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**.
+- To use SLA features, specific roles and privileges are required for both admins and customer service representatives must have specific roles and privileges. These roles and privileges must apply to various entities related to SLA. For example, permissions apply to SLA, SLA KPI, and SLA KPI instances. Make sure you grant the following permissions in **Security** > **Security Roles** > **Custom Entities**.
 
     Administrators must have the following requirements:
     - **CSR Manager** role or its equivalent roles and privileges.
@@ -93,7 +93,7 @@ SLA KPIs are performance indicators, such as First Response or Resolve by, that 
 1. Select **Save**.
 
 1. To define the pause criteria at the KPI level, in the **Pause Conditions** section that appears, do the following:
-   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, the criteria defined at the KPI level overrides them. For the other KPIs, the entity level pause settings continue to function if no pause criteria are defined at the KPI level.
+   1. Set the toggle to **Yes** for **Override Criteria**. If any pause settings are applied at the entity level for your org, the criteria defined at the KPI level override them. For the other KPIs, the entity level pause settings continue to function if no pause criteria are defined at the KPI level.
    2. Select **Add** to define the conditions in which the SLA KPI can be paused.
 
     > [!NOTE]
@@ -181,7 +181,7 @@ Create SLAs to define conditions and actions that are applicable when an SLA is 
 
    - **Name**: Enter a name.
    - **KPI**: Select an SLA KPI.
-   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each enabled entity for the SLA, you can set each status that's considered "on hold" in the **Other SLA Settings** > **Manage** > **Service Configuration Settings** page.
+   - **Allow Pause and Resume**: (Optional.) Enable this option if you want the SLA to be paused during the time the record is on hold. For each enabled entity for the SLA, you can set each status considered "on hold" in the **Other SLA Settings** > **Manage** > **Service Configuration Settings** page.
    - **Business Hours**: (Optional.) To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. More information: [Create customer service schedule and define the work hours](create-customer-service-schedule-define-work-hours.md).
   
 1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the entity.
