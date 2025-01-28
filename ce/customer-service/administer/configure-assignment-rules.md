@@ -21,7 +21,7 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 1. **Create assignment rulesets**: For each assignment ruleset, you'll configure the conditions and order by option.
 
-1. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. More information: [Configure selection criteria](#configure-selection-criteria).
+1. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. Learn more in [Configure selection criteria](#configure-selection-criteria).
 
 ## Create an assignment method and configure rules
 
@@ -43,7 +43,7 @@ Follow the steps to create a custom assignment method:
 
    b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
 
-   c. To route the work item to agents, select the attribute on which you want to define the order by.
+   c. To route the work item to customer service representatives (service representatives or representatives), select the attribute on which you want to define the order by.
 
    d. Create as many rules as needed.
 
@@ -64,10 +64,10 @@ Follow the steps to create a custom assignment method:
 
    b. **Conditions**: Select **Add** to select an attribute or related entity and define condition. You can define conditions for up to two levels of the related records and attributes.
 
-   c. **Order by**: Select an attribute to define the order of work assignment if multiple agents match the condition.
+   c. **Order by**: Select an attribute to define the order of work assignment if multiple service representatives match the condition.
 
       - **Ordering Attributes**:
-         - **Least active**: Is available for voice channel queues only. Work item is routed to the agent who is least active among all the agents who match skills, presence, and capacity. For more information, see [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
+         - **Least active**: Is available for voice channel queues only. Work item is routed to the representatives who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
          - Round Robin
          - Unit-based available capacity
          - Profile-based available capacity
