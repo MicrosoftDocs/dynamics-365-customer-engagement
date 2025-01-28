@@ -120,7 +120,7 @@ You can also use the following query to add a new column called **Name (Regardin
 
 1. From **Advanced Find**, select **Download Fetch XML**.
 1. Paste the following query on the URL to see the full name of the target entity for the SLA KPI instance record. For more information on the format of the API call, see: [Request](/power-apps/developer/data-platform/webapi/use-fetchxml-web-api).
-Here's an example: https:// your org link/api/data/v9.2/slakpiinstances?fetchXml=enter the following query. [ URL encode the fetchxml]
+Here's an example: https:// your org link/api/data/v9.2/slakpiinstances?fetchXml=enter the following query. [URL encode the fetchxml]
 
 ```
 <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
