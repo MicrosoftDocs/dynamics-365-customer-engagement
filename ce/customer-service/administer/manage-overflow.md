@@ -15,7 +15,7 @@ ms.custom:
 
 # Handle queue overflow
 
-When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the agent who's best suited to work on it. But what happens if all the agents who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
+When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the customer service representative (service representative or representative) who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
 A queue's overflow handling options can trigger actions either before or after a work item is queued.
 
@@ -28,17 +28,17 @@ A queue's overflow handling options can trigger actions either before or after a
 
 - Customers are waiting in the queue longer than the time defined for the queue.
 
-If you don't set up overflow handling, then by default, the work item is added to the queue and the customer waits to be connected to an agent. You can send notifications to the customer, for example, about their place in the queue or when their query will be resolved.
+If you don't set up overflow handling, then by default, the work item is added to the queue and the customer waits to be connected to a service representative. You can send notifications to the customer, for example, about their place in the queue or when their query will be resolved.
 
 ## Prerequisites
 
-- [Unified routing is configured](./set-up-routing-process.md) and [you've set up queues and added agents](./queues-omnichannel.md) to them.
+- [Unified routing is configured](./set-up-routing-process.md) and [you've set up queues and added representatives](./queues-omnichannel.md) to them.
 - If you plan to transfer calls to an external number, external phone numbers with outbound calling are available.
 - If you plan to trigger overflow handling before work items are queued, you've [configured route-to-queue rules](./configure-route-to-queue-rules.md) in the workstream.
 
 ## Handle overflow before a work item is queued
 
-Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue. If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to an agent or transfers it to a different agent, the work item is assigned to the agent or the queue without any further overflow checks.
+Unified routing checks for overflow conditions after evaluating the route-to-queue rules and before directing a work item to a queue. If an overflow action transfers the work item to another queue, or a supervisor assigns the work item to a service representative or transfers it to another, the work item is assigned to the representative or the queue without any further overflow checks.
 
 The system considers the following factors when it checks for overflow conditions before a work item is queued:
 
@@ -55,7 +55,7 @@ The system considers the following factors when it checks for overflow condition
 
 - If a work item is routed to a fallback queue because of errors or no route-to-queue rule matches the requirement, the system ignores the overflow settings for the fallback queue and assigns the work item to it.
 
-- If a bot is configured for the workstream, the system checks for overflow conditions only after the bot escalates the conversation to a human agent. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
+- If a bot is configured for the workstream, the system checks for overflow conditions only after the bot escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition **Out of operation hours** with the action **Assign to queue anyway**. You can't edit the condition, but you can set a different action for it.
 
@@ -103,7 +103,7 @@ The following table lists the conditions and actions that are available for each
 
   - **Work item limit exceeds**: Enter a number between 1 and 100 to indicate how many open work items can be in the queue before it overflows. For example, if you enter *2*, then if the queue contains two open work items, the arrival of a third item triggers one of the following actions:
   
-    - **Direct callback**: For voice queues only. The customer can choose to have the agent call them back. The work item stays open and is routed to the next available agent for callback.
+    - **Direct callback**: For voice queues only. The customer can choose to have the representative call them back. The work item stays open and is routed to the next available representative for callback.
     - **End call**
     - **End conversation**
     - **Transfer to a different queue**
@@ -136,13 +136,13 @@ Sometimes you might not want an overflow action to run for specific types of wor
 
 ### View diagnostics for overflow handling
 
-When a work item is handled by an overflow action instead of being assigned to an agent, you can view its status in **Routing diagnostics** > **Route to queue**.
+When a work item is handled by an overflow action instead of being assigned to a representative, you can view its status in **Routing diagnostics** > **Route to queue**.
 
 :::image type="content" source="../media/overflow-diagnostics.png" alt-text="Screenshot of routing diagnostics for a work item that triggered an overflow action.":::
 
 ## Handle overflow when a work item is queued
 
-When a work item is in a queue and the wait is long, the system can reroute it to another queue that has agents available.
+When a work item is in a queue and the wait is long, the system can reroute it to another queue that has representatives available.
 
 1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
 
@@ -176,14 +176,14 @@ You can configure the following wait time for the records channel:
 
 The "wait time in queue" condition is evaluated in any of the following scenarios:
 - Work item is routed to a queue via the route to queue rules.
-- Work item is transferred by an agent or supervisor to the queue.
+- Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
 
 If a queued work item is moved to another queue because of long wait times, and the new queue also has overflow handling, the system checks for overflow conditions again. If the wait time is too high in the new queue as well, it triggers the overflow action.
 
 ## Edit automated messages for overflow actions
 
-If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no agents are available.
+If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no representatives are available.
 
 1. In the Customer Service admin center site map, select **Customer support** > **Customer settings**.
 
