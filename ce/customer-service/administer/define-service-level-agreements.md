@@ -39,7 +39,7 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-- To use SLA features, specific roles and privileges are required for both admins and agents on various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI Instances. Make sure that the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**.
+- To use SLA features, specific roles and privileges are required for both admins and customer service representatives on various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI Instances. Make sure that the following permissions have been granted in **Security** > **Security Roles** > **Custom Entities**.
 
     Administrators must have the following requirements:
     - **CSR Manager** role or its equivalent roles and privileges.
@@ -50,7 +50,7 @@ To configure SLAs in Customer Service Hub:
 
     Customer service representatives must have the following:
     - **Customer Service Representative** role or its equivalent roles and privileges.
-    - SLA, SLA KPI, SLA KPI Instances should have Read privileges at the organization level. 
+    - SLA, SLA KPI, SLA KPI instances should have Read privileges at the organization level. 
 
 - Users who activate or manage **SLAInstanceMonitoringWarningAndExpiryFlow** and **SLA action flows** must have the SLA KPI privileges at a global level for **prvReadSLAKPIInstance** and **prvWriteSLAKPIInstance**.
 
