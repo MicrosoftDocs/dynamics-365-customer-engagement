@@ -20,13 +20,6 @@ Work assignment is a feature of Dynamics 365 Sales that automates the assignment
 
 Work assignment is available in sales accelerator version 9.1.23074.10021 and is rolling out in phases in different regions.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## Prerequisites
 
 [Sales accelerator is configured in your organization](enable-configure-sales-accelerator.md).

@@ -18,13 +18,6 @@ In Dynamics 365 Sales, sellers use forms to interact with the data they need to 
 > [!IMPORTANT]
 > You should only customize forms in the Sales app. Don't customize forms outside the app.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## How do forms relate to entities?
 
 A form is a set of fields, or table columns, that match the information your organization tracks for an entity. For example, your organization might have columns in an Orders table that track customers' orders and their requested reorder dates. In this example, Orders is the entity and OrderNumber, Quantity, and ReorderDate are fields in a form that sellers use to manage reorders.
