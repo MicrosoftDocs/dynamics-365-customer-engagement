@@ -1,7 +1,7 @@
 ---
 title: Overview of unified routing
 description: Overview of unified routing in Customer Service.
-ms.date: 01/27/2025
+ms.date: 01/28/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -47,15 +47,15 @@ Unified routing optimizes businesses in the following ways:
 
 ## System requirements, supported geographical regions
 
-Unified routing is supported in the same geographical regions as those supported by Omnichannel for Customer Service. Learn more in [International availability of Omnichannel for Customer Service](../implement/international-availability.md)
+Unified routing is supported in the same geographical regions as those supported by Omnichannel for Customer Service. Learn more in [International availability of Omnichannel for Customer Service](../implement/international-availability.md).
 
-The requirements for unified routing are same as those that are applicable for Omnichannel for Customer Service. Learn more in [System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md)
+The requirements for unified routing are same as those that are applicable for Omnichannel for Customer Service. Learn more in [System requirements for Omnichannel for Customer Service](../implement/system-requirements-omnichannel.md).
 
 Learn more about the languages that are supported in unified routing in [Supported languages](../implement/international-availability.md#language-availability).
 
 You can configure unified routing through the Customer Service admin center app. Representatives must use the Customer Service workspace app only to be assigned work through unified routing.
 
-The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. For more information, see the following:
+The intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. The languages supported in the intelligent skill finder are determined by the languages that AI Builder supports. Learn more in the following articles:
 
 - [Availability of AI Builder](/ai-builder/availability-region)
 - [Supported languages](/ai-builder/before-you-build-text-classification-model#prerequisites)
