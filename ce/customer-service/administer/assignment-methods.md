@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 10/03/2024
+ms.date: 01/28/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -226,12 +226,12 @@ When representatives receive a work item through automatic assignment, they gene
 - If the representative is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
 - If all others, who are eligible, also decline.
 
-If the representative declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. The agents can still manually pick the work item.
+If a representative declines the same work item three times or reaches the configured limit, the same is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible representatives in the queue. They can still manually pick the work item.
 
-For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
+For example, service representative Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible representatives. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by agents including those who rejected it.
+> If all matching representatives decline the work item because of low availability, or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if a 100 representatives decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other representatives, including those who rejected it.
 
 You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 
