@@ -26,7 +26,7 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 > [!NOTE]
 >- You can't disable the table, if you enable it for a queue. The app disables the **Can be added to a queue** checkbox after you select it.
->- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the customer service representatives (service representatives or representatives). You must clear the checkbox to automatically distribute the records.
+>- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the customer service representatives. You must clear the checkbox to automatically distribute the records.
 
 <br><br> ![Automatic record movement to the representative's default queue.](../media/route-owner-queue.png "Automatic record movement to the representative's default queue")
 
