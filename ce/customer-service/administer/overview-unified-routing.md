@@ -13,13 +13,13 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Unified routing is an intelligent, scalable, and enterprise-grade routing and assignment capability that can direct an incoming work item to the best-suited queue and customer service representative (service representative or representative) by adhering to work item requirements and matching them with the representative’s capabilities.
+Unified routing is an intelligent, scalable, and enterprise-grade routing and assignment capability that can direct an incoming work item to the best-suited queue and customer service representative (service representative or representative) by adhering to work item requirements and matching them with the service representative’s capabilities.
 
-The unified routing infrastructure can be used to route service requests on all channels. This creates a unified view of workforce utilization across multiple channels, and thus helps to optimize distribution of work across the workforce. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner. It takes the representative engagement on different channels into account before any new work is assigned to them.
+The unified routing infrastructure can be used to route service requests on all channels. This creates a unified view of workforce utilization across multiple channels, and thus helps to optimize distribution of work across the workforce. It works in a truly omnichannel way by ensuring that work items on all the channels are routed in a consistent and similar manner. It takes the service representative engagement on different channels into account before any new work is assigned to them.
 
 Unified routing has two main stages: classification and assignment.
 
-In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be used to find the best-suited representative.
+In the classification stage, rules and machine learning (ML) models can be used to add information on the work item, which can be used to find the best-suited service representative.
 
 During the assignment stage, the service requests are prioritized and then assigned to the representatives based on the nature of work, related entities, skills, and the current state of the workforce in terms of availability and workload.
 
@@ -31,7 +31,7 @@ For instance, an organization receiving an incoming chat will add information on
 
 Unified routing optimizes businesses in the following ways:
 
-- Connecting end-customers with the best-suited representative to provide the right outcome upon first contact.
+- Connecting end-customers with the best-suited service representative to provide the right outcome upon first contact.
 
 - Routing work items to the best queue by using attributes in a related entity, thereby saving an admin from creating a custom workflow.
 
