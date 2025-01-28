@@ -25,7 +25,7 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 ## How auto assignment works
 
-The auto assignment process in unified routing matches incoming work items with the best-suited customer service agents based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
+The auto assignment process in unified routing matches incoming work items with the best-suited customer agents based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
 Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate agent. Work items that aren't assigned to agents because of unavailability or absence of the right skill are routed back to the queue.
 
@@ -70,7 +70,7 @@ For a support agent who is subscribed to all the four queues, they receive the o
 
 The following assignment methods are available out of the box:
 
-- **Highest capacity**: Assigns a work item to a agent with the highest available capacity, with the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of those with the same highest capacity.
+- **Highest capacity**: Assigns a work item to an agent with the highest available capacity, with the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. If more than one agent is available with the same capacity, the work item is assigned based on the round-robin order of those with the same highest capacity.
 
   If you want to use skill-based routing, the "exact match" and "closest match" options are available.
 
@@ -97,7 +97,7 @@ The following assignment methods are available out of the box:
 
   Routing to the least-active agent assignment strategy helps in a balanced distribution of work items across them, and results in higher efficiency and improved customer satisfaction.
 
-  You can also build a [custom report](model-customize-reports.md) to track a agent's "last capacity release time" and understand the assignment distribution across them.
+  You can also build a [custom report](model-customize-reports.md) to track an agent's "last capacity release time" and understand the assignment distribution across them.
 
     > [!IMPORTANT]
     >
@@ -126,7 +126,7 @@ The assignment cycle starts with one of the following triggers:
 - Arrival of a new work item in the queue.
 - Change to agent presence.
 - Updates to agent capacity: If capacity is updated at runtime, then change in capacity triggers assignment. If capacity is updated manually, the change doesn't trigger assignment. 
-- Addition of a agent to the queue.
+- Addition of an agent to the queue.
 - Periodic trigger every five minutes for record type of work item.
 
 ## How prioritization rulesets work
@@ -220,18 +220,18 @@ The first condition specifies the "user skills" on which the operator is an exac
 
 Dynamic match reduces the effort of having to write and maintain multiple static rules for each permutation and combination of the possible value.
 
-### Limits on offering a work item repeatedly to a agent
+### Limits on offering a work item repeatedly to an agent
 
 When agents receive a work item through automatic assignment, they generally have the option to accept or decline it. Both [rejection](enable-agent-reject-notifications.md) and [allowing the notification to time out](manage-missed-notifications.md) are considered as declining the work item. If one of them declines a work item by either method, their priority for that conversation is reduced during the next assignment attempt. The agent might be reconsidered for the same work item up to three times or the specified limit in following scenarios:
 - If the agent is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
 - If all others, who are eligible, also decline.
 
-If a agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. They can still manually pick the work item.
+If an agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. They can still manually pick the work item.
 
-For example, service agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
+For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching agents decline the work item because of low availability, or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if a 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other agents, including those who rejected it.
+> If all matching agents decline the work item because of low availability, or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other agents, including those who rejected it.
 
 You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 
