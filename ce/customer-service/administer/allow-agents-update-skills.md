@@ -1,6 +1,6 @@
 ---
-title: Enable agents to update skills
-description: Learn how to enable the setting that allows agents to update skills at runtime.
+title: Enable representatives to update skills
+description: Learn how to enable the setting that allows representatives to update skills at runtime.
 ms.date: 01/28/2025
 ms.topic: how-to
 author: neeranelli
