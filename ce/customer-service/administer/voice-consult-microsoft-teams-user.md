@@ -23,32 +23,12 @@ Customer service is not always limited to contact centers. Employees within the 
 
 The SMEs can participate in customer service conversations directly from Microsoft Teams to help representatives in Dynamics 365 and customers on the phone call to resolve issues expertly.
 
-You can transfer and consult with Teams users by assigning phone numbers to users or through Voice Over Internet Protocol (VOIP).
+You can transfer and consult with Teams users through Voice Over Internet Protocol (VOIP).
 
-## Enable representatives to consult with Microsoft Teams users via PSTN
+## Enable representatives to consult with Microsoft Teams users via VOIP
 
 > [!NOTE]
 > Consult and transfer to Microsoft Teams users or Azure guest users via PSTN on the **Teams** tab of the dialer isn't supported in the enhanced voice experience. Use the **External number** tab to call numbers via PSTN.
-
-To allow the representatives to consult with Microsoft Teams users, enable the **Consult with Microsoft Teams user** setting in the voice channel section of the workstream for voice. More information: [Configure the voice channel](../voice-channel-route-queues.md#configure-a-voice-channel). 
-
-The following prerequisites must be set for the Microsoft Teams users:
-
-- **Assign phone numbers to SMEs in Microsoft Teams**: Must have a phone number assigned to them in Microsoft Teams to participate in the voice call as an SME consult. More information: [Assign, change, or remove a phone number for a user](/microsoftteams/assign-change-or-remove-a-phone-number-for-a-user).
-
-  To update the Teams phone number in the user profile, perform the following steps: 
-    1. Sign in to the Azure portal and go to **Microsoft Entra ID**.
-    1. Select **Manage** > **Users**
-    1. Select the required user and select **Edit** to add the phone number in the **Contact info** > **Office phone** field. When you're adding a business phone number, make sure that you prefix the number with the plus sign (+) followed by the country code.
-
-- **Update the Azure profile for SMEs with phone number**: Add SMEs with phone numbers as guest users to the Microsoft Entra ID for them to participate in a voice call as an SME consult. To add a guest user and update a phone number in the user profile, perform the following steps:
-
-     1. Add a guest user in the Azure portal. More information: [Add a new guest user](/entra/external-id/b2b-quickstart-add-guest-users-portal)
-     1. On the guest user profile page, select **Edit** to add the phone number in the **Contact info** > **Office phone** field.
-
-  Dynamics 365 uses Graph API to retrieve the number in the **Office phone** field. Representatives can then search for the guest user in the Teams tab of transfer or consult.
-
-## Enable representatives to consult with Microsoft Teams users via VOIP
 
 If you've updated to the enhanced voice experience, you can enable your representatives to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
