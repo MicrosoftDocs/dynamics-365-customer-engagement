@@ -1,7 +1,7 @@
 ---
 title: Enable tables for queues
 description: Learn how you can enable tables for queues so that they can be routed through unified routing.
-ms.date: 08/30/2024
+ms.date: 01/28/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -26,9 +26,9 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 > [!NOTE]
 >- You can't disable the table, if you enable it for a queue. The app disables the **Can be added to a queue** checkbox after you select it.
->- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records.
+>- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the customer service representatives (service representatives or representatives). You must clear the checkbox to automatically distribute the records.
 
-<br><br> ![Automatic record movement to the agent's default queue.](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+<br><br> ![Automatic record movement to the representative's default queue.](../media/route-owner-queue.png "Automatic record movement to the representative's default queue")
 
 ### Related information
 
