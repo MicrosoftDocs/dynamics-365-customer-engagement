@@ -1,7 +1,7 @@
 ---
 title: Automatically route cases using basic routing rulesets
 description: Understand how to create rules to automatically route cases in Dynamics 365 Customer Service.
-ms.date: 09/06/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,9 +20,9 @@ ms.custom:
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
 > [!NOTE]
-> We recommend that you enable and use unified routing for automatically routing records in Customer Service. More information: [Overview of unified routing](overview-unified-routing.md).
+> We recommend that you enable and use unified routing for automatically routing records in Customer Service. Learn more in [Overview of unified routing](overview-unified-routing.md).
 
-Use routing rules in Customer Service to route cases to the right agents at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
+Use routing rules in Customer Service to route cases to the right customer service representatives (service representatives or representatives) at the right time without any manual intervention. You can also use routing rules to route cases that are escalated to specific queues.
 
 ## Add routing rulesets site map for custom apps
 
@@ -46,11 +46,11 @@ In custom apps, you might not have routing rulesets in your site map. To add rou
 
     The site map is created with the routing ruleset. Go to your custom app to locate routing rulesets in the site map.
 
-Learn more at [Create a site map for an app using the site map designer](../../customerengagement/on-premises/customize/create-site-map-app.md).
+Learn more in [Create a site map for an app using the site map designer](../../customerengagement/on-premises/customize/create-site-map-app.md).
 
 ## Create a routing ruleset
 
-You can create routing rulesets in Customer Service to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more at [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#unified-interface-enablement-of-case-routing-rules).
+You can create routing rulesets in Customer Service to automatically route cases. This capability is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](/dynamics365/customerengagement/on-premises/whats-new#unified-interface-enablement-of-case-routing-rules).
 
 ### Prerequisites
 
@@ -66,7 +66,7 @@ Review the following prerequisites before creating a routing ruleset:
 
 ### Create routing rulesets to route cases
 
-When creating routing rulesets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of their definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination agent and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
+When creating routing rulesets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of their definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination service representative and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
 
 1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
 
@@ -80,7 +80,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
     :::image type="content" source="../media/rr-create-rule-set.png" alt-text="Screenshot of a create routing rules general information.":::
 
-1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears, in which you can specify conditions that are evaluated for routing cases to a queue, an agent, or a team.
+1. In the **Rule Items** section, select **New Rule Item**. The **New Rule Item** dialog box appears, in which you can specify conditions that are evaluated for routing cases to a queue, a service representative, or a team.
 
     a. On the **General** tab, in **Rule Item Information**, enter a **Name** and **Description**.
 
@@ -107,7 +107,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
     c. In **Action** > **Route to**, select queue or user/team.
 
-      For example, all cases about printer issues from customers should be routed to an agent named Bert Heir, who is the subject matter expert in the team. The rule item for the condition can be configured as shown in the screenshot.
+      For example, all cases about printer issues from customers should be routed to a representative named Bert Heir, who is the subject matter expert in the team. The rule item for the condition can be configured as shown in the screenshot.
 
       :::image type="content" source="../media/rr-create-condition.png" alt-text="Screenshot of a create condition.":::
 
@@ -122,7 +122,7 @@ When creating routing rulesets, you can add multiple rule items and arrange them
 
 ## Apply a routing ruleset  
 
-You can apply the routing rule when creating a case using the **Save & Route** button. Learn more at [Create a case](../use/customer-service-hub-user-guide-create-a-case.md).
+You can apply the routing rule when creating a case using the **Save & Route** button. Learn more in [Create a case](../use/customer-service-hub-user-guide-create-a-case.md).
 
 Perform the following steps to manually apply the rule to any existing or manually created cases:
 
