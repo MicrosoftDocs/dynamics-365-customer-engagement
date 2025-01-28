@@ -30,7 +30,7 @@ The following image shows the dependencies tab within the web resource form. Dep
 
 ![web resource dependencies tab.](media/web-resource-dependencies.PNG)
 
-Within a solution you can define dependencies within solution components. Up until [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)] the main purpose of these dependencies was to prevent the deletion of a solution component when another solution component depended on it. With [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)] the behavior for JavaScript web resources is enhanced so that any other web resource listed as a dependency to the JavaScript web resource will be loaded along with the JavaScript web resource. 
+Within a solution you can define dependencies within solution components. Up until [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)] the main purpose of these dependencies was to prevent the deletion of a solution component when another solution component depended on it. With [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)] the behavior for JavaScript web resources is enhanced so that any other web resource listed as a dependency to the JavaScript web resource will be loaded along with the JavaScript web resource.
 
 > [!NOTE]
 > The dependency is only established after it is configured and the web resource is published. Dependencies for unpublished web resources will not take effect until the web resource is published.
@@ -48,7 +48,7 @@ However, web resource dependencies are not limited to just RESX web resources. Y
 <!--TODO: Add links to the attribute and attribute.controls collection definitions in the Client API reference -->
 Starting with [!INCLUDE[../includes/pn-crm-9-0-0-online.md](../includes/pn-crm-9-0-0-online.md)], if your JavaScript web resource depends on an entity attribute value that you don’t want to display in the form, you can set the attribute as a dependency for the JavaScript web resource. This means that the attribute will be available within the client API attributes collection so you can get or set the value in your code. When you add a dependency this way, the controls collection of the attribute will be empty because there will be no control on the form.
 
-Before this feature you would need to manually add the attribute to the form and then configure the control to be hidden. Now you can establish this dependency more directly and eliminate the possibility that someone will remove the hidden field from the form. 
+Before this feature you would need to manually add the attribute to the form and then configure the control to be hidden. Now you can establish this dependency more directly and eliminate the possibility that someone will remove the hidden field from the form.
 
 ### See also
 [Web resources for Dynamics 365 Customer Engagement (on-premises)](web-resources.md)<br />
@@ -65,7 +65,6 @@ Before this feature you would need to manually add the attribute to the form and
 [WebResource entity messages and methods](webresource-entity-messages-methods.md)<br />
 [Sample: Pass multiple values to a  web resource through the data parameter](sample-pass-multiple-values-web-resource-through-data-parameter.md)<br />
 [Sample: Import files as web resources](sample-import-files-web-resources.md)<br />
-[Sample: Web resource utility](sample-web-resource-utility.md)<br />
-
+[Web resources community tools](web-resources.md#community-tools)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

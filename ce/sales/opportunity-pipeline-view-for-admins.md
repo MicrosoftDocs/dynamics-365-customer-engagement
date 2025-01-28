@@ -26,7 +26,7 @@ If you previously configured the deal manager workspace, learn about the [differ
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ccf5ecba-90ff-4d7c-ac12-ac9ff309a367]
 
 ## Set the pipeline view as the default opportunities view
 

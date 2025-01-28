@@ -21,7 +21,7 @@ The stats about sequences provide insights on the performance of a sequence, suc
 
 ## Who can view the stats page?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vmxe]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=dd7439b0-227c-4159-9bc2-f83f96fde185]
 
 By default, the users with sales manager and sequence manager roles can view the stats page. For other roles to view the reporting page, contact your administrator to get read access at the organizational level for the sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 
