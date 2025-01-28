@@ -39,7 +39,7 @@ For the records channel,
 - The work items prioritized per queue are 10,000 
 - The work items processed for assignment are 2,000 by default
 
-For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
+Learn more in [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
 ## How unified routing prioritizes work items
 
@@ -197,7 +197,7 @@ The assignment rules are composed of the following items:
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
-    For user skills, the values are predefined for the operators. More information: [Set up skill-based routing](set-up-skill-based-routing.md)
+    For user skills, the values are predefined for the operators. Learn more in [Set up skill-based routing](set-up-skill-based-routing.md)
 
 - **Order by**: If multiple representatives match the conditions in a rule, you can use the "Order by" clause to find the best-suited one. You can specify the following order by clauses:
 
