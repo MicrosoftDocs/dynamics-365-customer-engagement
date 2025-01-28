@@ -106,7 +106,7 @@ Create work classification rulesets that are based on capacity profiles to route
 
 Machine learning model-based rules are a subtype of work classification rules, and are rules defined to attach skills to the work item using the AI Builder text classification machine learning model created as part of the intelligent skill finder bootstrapping experience. They're written in the format of "send work item selected attributes to the published model and attach the returned tags from the model as skills on the work item."
 
-To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. Learn more in [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)
+To configure a skill classification ruleset by using the machine learning option, you must have configured the intelligent skill finder models. Learn more in [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model).
 
 Do the following to configure a machine learning-based ruleset:
 
