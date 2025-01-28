@@ -28,12 +28,12 @@ Customize Copilot chat to make it more intelligent and relevant for your organiz
 
 ## Customize Copilot using Copilot Studio
 
-Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more in [Create a solution in Power Apps](/power-apps/maker/data-platform/create-solution)
+Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more in [Create a solution in Copilot Studio](/microsoft-copilot-studio/authoring-solutions-overview)
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. Select your Dynamics 365 environment and then select **Agents**.
 1. Select **Sales Copilot Power Virtual Agent Bot** to customize Copilot in Dynamics 365 Sales.
 1. Customize the following aspects of Copilot chat experience:
 
-    - [Add new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat).
-    - [Customize prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations)
+    - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat).
+    - Edit the **SalesSparks** topic to [customize the prompt guide](/power-apps/maker/model-driven-apps/customize-copilot-chat#prompt-guide-customizations).  
