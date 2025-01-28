@@ -12,7 +12,7 @@ ms.reviewer: lavanyakr
 
 If you have a Dynamics 365 Sales Professional license, you can use the Sales Professional app to manage your sales processes. Install the Sales Professional app in a Power Platform environment that has Dynamics 365 apps enabled. 
 
-- If you have a Power Platform environment, [install the Sales Professional app](provision-sales-professional-instance.md#install-app) directly.
+- If you have a Power Platform environment, [install the Sales Professional app](#install-sales-professional-app-in-an-existing-power-platform-environment) directly.
 - If you don't have a Power Platform environment already, [create one and install the Sales Professional app](#create-a-power-platform-environment-for-sales-professional).
 
 ## Install Sales Professional app in an existing Power Platform environment
