@@ -25,7 +25,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can configure standard and custom fields as filters to help your customer service representatives (representatives) find the right content through knowledge search and thus improve their productivity.
+You can configure standard and custom fields as filters to help your customer service representatives (service representatives or representatives) find the right content through knowledge search and thus improve their productivity.
 
 The fields that are present on the knowledge article entity are the fields that are available as filters. Additionally, filters can be defined on fields that have the following data types:
 

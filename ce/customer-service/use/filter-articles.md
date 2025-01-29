@@ -34,7 +34,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 ## Personalize your knowledge search article filters
 
-If your administrator has configured knowledge filter personalization settings, as a customer service representative (representative), you can select the filters you want to use.
+If your administrator has configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
 
 You can do the following:
 - Set preselects

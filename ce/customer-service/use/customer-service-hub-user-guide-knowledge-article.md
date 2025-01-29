@@ -32,7 +32,7 @@ searchScope:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
+Turn your customer questions, issues, and feedback into knowledge articles, so that customer service representatives (service representatives or representatives) can benefit from them. Add images and videos to your articles to explain things better and make the articles engaging. You can author, edit, search, publish, and translate the knowledge articles in the Customer Service Hub, Customer Service workspace or Contact Center workspace.
 
 Knowledge articles can address any number of issues your customers encounter while using your organization's product or services. Types of knowledge articles can include solutions to common issues, product or feature documentation, answers to frequently asked questions (FAQ), product briefs, and more.
   
