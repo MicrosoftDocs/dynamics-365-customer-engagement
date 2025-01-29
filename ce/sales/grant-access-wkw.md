@@ -1,7 +1,7 @@
 ---
 title: Grant access to who knows whom information
 description: Learn how to configure who knows whom in Dynamics 365 Sales to help sellers quickly identify colleagues who can introduce them to leads or contacts.
-ms.date: 03/03/2023
+ms.date: 01/28/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
@@ -26,19 +26,16 @@ The who knows whom widget appears for all users who can open the Sales Insights 
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 
-1. In the Sales Hub app, select **Settings** in the upper-right corner, and then select **Advanced Settings**.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-1. On the **Business Management** page, select **Settings** > **System** > **Security**.
-1. Select **Security Roles**.
-1. Select the security role that you want to grant access to.
-1. In the **Custom Entities** tab, provide read permissions to the following entities:
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **System** > **Security**.
+1. Select **Security roles**.
+1. Open the security role that you want to grant access to.
+1. In the **Tables** tab, select **Show all tables** from the list. 
+1. Provide read permissions to the following tables:
 
    ```wkwcolleaguesforcompany```  
    ```wkwcolleaguesforcontact```  
-   ```wkwconfig```  
-
-    :::image type="content" source="media/wkw-access.png" alt-text="Screenshot of entities to be granted access to who knows whom information." lightbox="media/wkw-access.png":::
+   ```wkwconfig``` 
 
 1. Save the changes.
 

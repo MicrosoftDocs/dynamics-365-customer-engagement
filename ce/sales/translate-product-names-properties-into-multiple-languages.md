@@ -1,7 +1,7 @@
 ---
 title: "Translate product names and properties into multiple languages (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Make all the relevant information like cross-sell or upsell suggestions, or properties, available to sales users in their preferred language by translating product names and properties in Dynamics 365 Sales."
-ms.date: 10/29/2024
+ms.date: 01/29/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,13 +32,13 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Select **Settings** > **Advanced Settings**.
+2. In the sales app, go to **Settings** > **Advanced Settings**.
 
-3. Select **Settings** > **System** > **Data Management**.
+3. Go to > **System** > **Data Management**.
   
 4. Select **Export Field Translations**.  
   
-5. In the **Export Field Translations** dialog box, select **OK**.  
+5. In the **Export Field Translations** dialog box, select **Export**.  
   
     All product fields that are marked as localizable by default will be exported. Your internal developers can mark the fields as localizable. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Localize product property values](developer/localize-product-property-values.md)
 
@@ -48,8 +48,10 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
     Exported text is saved as a compressed file that contains a CrmFieldTranslations.xml that you can open by using [!INCLUDE[pn_microsoft_excel](../includes/pn-microsoft-excel.md)]. You can send this file to a linguistic expert, translation agency, or localization firm.  
   
 <a name="bkmk_Import"></a>   
-## Step 2: Import translated data  
- When you get the localized data back from translation, import it into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
+
+## Step 2: Import translated data
+
+When you get the localized data back from translation, import it into [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
   
 > [!IMPORTANT]
 >  It is important to provision the language packs first. If you import translated values for languages that aren't provisioned in the organization, they'll be discarded. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Install or upgrade Language Packs](/previous-versions/dynamicscrm-2016/deployment-administrators-guide/hh699674(v=crm.8))  
@@ -63,9 +65,9 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
    - [!INCLUDE[proc_dont_have_correct_permissions](../includes/proc-dont-have-correct-permissions.md)]  
 
-2. Select **Settings** > **Advanced Settings**.
+2. In the sales app, go to **Settings** > **Advanced Settings**.
 
-3. Select **Settings** > **System** > **Data Management**.
+3. Go to **System** > **Data Management**.
   
 4. Select **Import Field Translations**.  
   
@@ -79,9 +81,11 @@ Translate all the relevant information like cross-sell or upsell suggestions, or
   
    After you've imported the translated text, users in your organization will see the data in their preferred language. If a value for the preferred language doesn't exist, the results will be shown in the user's base language.  
   
-<a name="bkmk_LanguageSelection"></a>   
+<a name="bkmk_LanguageSelection"></a>
+ 
 ## Selection of language in different scenarios  
- This section explains how the duplicate detection and workflow logic affect translation in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]:  
+
+This section explains how the duplicate detection and workflow logic affect translation in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]:  
   
 -   Calculated fields logic, including conditional clauses, uses only the base language. The label for the user's preferred language (user interface language) is used if present. Otherwise, the base language is used.  
   

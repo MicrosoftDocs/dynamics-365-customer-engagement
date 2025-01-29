@@ -1,7 +1,7 @@
 ---
 title: "Create and manage Word templates in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create templates in Dynamics 365 Sales so all documents that go out to your customers have a consistent look per your organization’s branding guidelines."
-ms.date: 06/28/2024
+ms.date: 01/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
