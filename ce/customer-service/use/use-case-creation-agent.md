@@ -40,7 +40,7 @@ The agent updates the fields configured by the administrator as follows:
   - If the conversation is in wrap-up state, the agent checks if a case is created and updates the specified fields.
   - If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
 
-- **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. Updated fields are highlighted, and a banner indicates they were modified using AI.
+- **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. You can review the updated fields from in **Audit history**.
 
 > [!NOTE]
 > Manually updated case fields configured for agent updates will be overwritten by AI predictions.

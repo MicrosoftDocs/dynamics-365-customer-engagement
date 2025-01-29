@@ -26,7 +26,7 @@ Perform the following steps to set up autonomous case follow-up and closure:
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
 2. In the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
 3. In the page that appears, select **Add** to create a new rule for case follow-up and closure.
-4. In the **Rules** page, specify the following:
+4. In **Rules**, specify the following information. The agent evaluates the rules in the order they are listed and when the conditions match, updates the fields.
    - **Rule name**
    - **Conditions:** Specify the criteria for which the rule must run.
    - **Level of automation:** Select the automation level:

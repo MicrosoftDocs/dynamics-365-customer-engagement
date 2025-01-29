@@ -13,7 +13,7 @@ ms.custom: bap-template #Required; don't change.
 
 # Setup autonomous case creation and update (preview)
 
-The autonomous case management agent creates and updates cases from live chat conversations and emails using AI and Automatic record creation and update(ARC) rules, reducing manual effort and minimizing data entry errors.
+The autonomous case management agent creates and updates cases from live chat conversations and emails using AI and [Automatic record creation and update(ARC) rules](automatically-create-update-records.md#activities-and-entities-supported-by-rules-for-creating-or-updating-records-automatically), reducing manual effort and minimizing data entry errors.
 
 The agent creates and updates cases as follows:
 
@@ -24,6 +24,7 @@ The agent creates and updates cases as follows:
 
 - Administrators must have the CSR Manager or System Administrator role.
 - Customer Service Representatives must have the Omnichannel Agent and Customer Service Representative role.
+- Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in Power Platform admin center.
 - [Automatic record creation and update (ARC) rules](../administer/set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
 - [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels). 
 - [Workstream](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are set up.
