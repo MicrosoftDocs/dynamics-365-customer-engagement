@@ -209,12 +209,13 @@ The following example demonstrates proper usage of entity collections. In this c
         "MovePastStartDateToCurrentDate": true,
         "MaxNumberOfResourcesToEvaluate":500,
         "ConsiderTravelTime": true,
-        "@odata.type": "Microsoft.Dynamics.CRM.expando",
         "MaxResourceTravelRadius": {
             "Value": 20,
             "Unit" : 192350000,
             "@odata.type": "Microsoft.Dynamics.CRM.expando"
         },
+        "@odata.type": "Microsoft.Dynamics.CRM.expando"
+    },
     "ResourceSpecification": {
         "@odata.type": "Microsoft.Dynamics.CRM.expando",
         "ResourceTypes@odata.type": "Collection(Microsoft.Dynamics.CRM.expando)",
