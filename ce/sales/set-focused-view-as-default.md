@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 01/03/2025
+ms.date: 01/31/2025
 ms.custom: bap-template 
 ---
 
@@ -51,16 +51,28 @@ To configure focused view as default, follow these steps:
 
 To configure and enable focused view as default for custom and other entities, follow these steps:
 
-1. In the app, select the **Settings** icon, and then select **Advanced Settings**.  
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-1. On the navigation bar, select **Settings** > **Customization** > **Customizations** > **Customize the System**.  
-1. In the solution explorer, under **Components**, expand Entities, and then select an entity. For example, Invoice.  
-1. On the **Controls** tab, select **Add Control**.  
-1. In the **Add Control** dialog box, select **Focused view**, and then select **Add**.  
-1. **Read-only grid** is the default option, so when users select a table from the site map, they see a read-only grid of invoice. To make the focused view the default view instead, select the corresponding Focused view option buttons.  
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/fv-settings-set-as-default-other-entities.png" alt-text="Screenshot of configuring focused view as default for other entities.":::  
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.  
+
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**. Go to the **Controls** tab and then add **Focused view**.
+
+1. Open the entity form for type **Main** and then select **Components** on the tool bar.
+
+1. In the **Components** section, search for **Focused view** and then drag it to the desired location on the form.  
+
+    >[!NOTE]
+    >If you don't see the **Focused view** control in the **Components** section, select **Get more components** to add it.
+
+1. In the **Add focused view** dialog box, configure the following properties:  
+    - **Table**: Select the entity for which you want to configure focused view as default.  
+    - **View**: Select the view that you want to set as default.  
+
+1. Select **Done**.  
 1. Save and publish the configurations.  
 
 Focused view is now set as the default view for the selected entity.
