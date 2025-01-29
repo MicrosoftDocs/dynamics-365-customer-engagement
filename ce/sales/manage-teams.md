@@ -14,13 +14,6 @@ ms.custom:
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Create a team
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:

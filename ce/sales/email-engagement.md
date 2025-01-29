@@ -12,13 +12,6 @@ ms.reviewer: udag
 
 Email engagement in Dynamics 365 Sales tracks your customers' interactions with your messages. You can learn whether they selected a link, opened an attachment, or sent a reply. You can also get alerts to help you remember to follow up with your customers.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Prerequisites
 
 - Your administrator has turned on email engagement.

@@ -13,13 +13,6 @@ ms.custom: bap-template
 
 Your customers who have privacy or security concerns may ask you not to use email following features when you communicate with them. You can easily turn off these features for specific customers by setting email following options on their contact, lead, or account record. Email following is turned on by default for all records, so you must explicitly turn it off.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
-
 ## Set privacy options for a contact, account, or lead
 
 1. In Dynamics 365 Sales app, open the contact, account, or lead record.  

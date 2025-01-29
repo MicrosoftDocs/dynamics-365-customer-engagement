@@ -12,13 +12,6 @@ ms.reviewer: udag
 
 Before users or teams can use a sequence you create, you need to assign them to it. Assigning users and teams to a sequence gives them full permissions to view, edit, and delete the sequence.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Assign a sequence
 
 1. Sign in to the **Sales Hub** app. In the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.

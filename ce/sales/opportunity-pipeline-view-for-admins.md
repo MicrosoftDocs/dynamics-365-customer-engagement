@@ -15,13 +15,6 @@ The opportunity pipeline view (formerly known as deal manager) helps your seller
 
 If you previously configured the deal manager workspace, learn about the [differences between the opportunity pipeline view and the deal manager workspace](faq-opportunity.md#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace).
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Video: Opportunity pipeline view
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  

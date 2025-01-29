@@ -19,12 +19,6 @@ searchScope:
 
 When you're working on an opportunity, you'll be interacting with several people, both internally and externally. These people are broadly categorized as stakeholders, sales team, and competitors. Capturing information about the people that you're working with on the opportunity helps your leadership team understand how the opportunity is shaping up and where you need help.  
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
- 
 ## Add stakeholders and decision makers for the opportunity
 
 A stakeholder can be a decision maker or any person who's working with you on the opportunity from the customer's end, such as a champion, end user, economic buyer, influencer, or technical buyer.  

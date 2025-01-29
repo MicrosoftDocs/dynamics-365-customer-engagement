@@ -13,12 +13,6 @@ ms.custom:
 
 Select a template to define how a forecast structures your organization's data and projections. If you prefer to create a forecast based on your own rollup and hierarchy entities, select **Create from scratch** instead.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Select a template  
 
 The fastest way to create a forecast is to use a template. The template that you select defines how the forecast groups data.

@@ -11,14 +11,6 @@ ms.reviewer: lavanyakr
 
 Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Filter hierarchy records in the forecast
 
 You can filter your forecast to include only those hierarchies that meet the specified conditions. For example, Kenny Smith, the Sales head for APAC and EMEA wants to view the forecast data of the org in the APAC territory. As an administrator, you can create an org chart forecast and set the hierarchy filter to include only the APAC forecast data. 
