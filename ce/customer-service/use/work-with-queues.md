@@ -1,7 +1,7 @@
 ---
 title: Work with queues
 description: Learn how to work with queues, find queue items, and pick work items from queues.
-ms.date: 07/01/2024
+ms.date: 01/29/2025
 ms.topic: how-to 
 author: gandhamm
 ms.author: mgandham
@@ -12,9 +12,9 @@ ms.custom: bap-template
 
 # Work with queues
 
-Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. To know more about creating and managing queues, see [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
+Use queues to organize, prioritize, and monitor the progress of your work. In Dynamics 365 Customer Service, queues are containers used to store anything that needs to be completed or requires an action, such as completing a task or closing a case. Learn more about creating and managing queues in [Create and manage queues](../administer/set-up-queues-manage-activities-cases.md).
 
-The option for agents to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. More information: [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page)
+The option for customer service representatives to manage their queues and items is also available in Dynamics 365 Customer Engagement (on-premises) 9.1. Learn more in [New features in Dynamics 365 Customer Engagement (on-premises)](../../customerengagement/on-premises/whats-new.md#enhancements-in-the-queue-page).
 
 ## Pick queue items
 
@@ -48,7 +48,7 @@ Use the view list and queue list to filter and find items in queues.
         
     
    - Your capacity is updated. If the work item indicates capacity consumed in units, the corresponding units will be reduced from your total available capacity. If capacity profile is configured for the work item, your available capacity units in that profile are deducted by one.
-   - Your work schedule, assignment rules, skills, presence, or capacity constraints aren't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. More information: [Capacity profiles](../administer/capacity-profiles.md)
+   - Your work schedule, assignment rules, skills, presence, or capacity constraints aren't evaluated during a manual pick. For example, even if you don't have enough capacity available as requested by the work item, you'll still be able to pick the work item. This ability to manually override pre-configured capacity is to ensure that you're able to pick up work beyond your normal capacity during contingencies. Learn more in [Capacity profiles](../administer/capacity-profiles.md).
    - Your presence will be updated. If you have further capacity left, your presence will be set to **Busy**. If you have no capacity left, your presence will be set to **Do not disturb**.
 
    > [!NOTE]
