@@ -1,7 +1,7 @@
 ---
 title: Recalculate service-level agreements
 description: Learn how to configure the recalculation of SLAs in Dynamics 365 Customer Service.
-ms.date: 01/23/2025
+ms.date: 01/29/2025
 ms.topic: how-to
 author: Soumyasd27
 ms.author: sdas
