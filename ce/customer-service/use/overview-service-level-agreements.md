@@ -73,7 +73,7 @@ After you configure and apply your SLAs, you can manage the various aspects of y
 
 #### Calculate SLA KPIs
 
-- You can manage the calculation of SLA KPIs. You can enable the recalculation of SLA KPIs that reach the terminal status in the Customer Service admin center or Customer Service Hub app. More information: [Enable recalculation of SLAs that reach terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-on-reaching-terminal-status). 
+- You can manage the calculation of SLA KPIs. You can enable the recalculation of SLA KPIs that reach the terminal status in the Customer Service admin center or Customer Service Hub app. More information: [Enable recalculation of SLAs that reach terminal status](../administer/enable-sla-recalculation.md#enable-recalculation-of-slas-that-reach-terminal-status). 
 
 - Additionally, you can enable the custom time calculation and custom recalculation of SLA KPIs. More information: [Enable custom time calculation of SLA KPIs](../administer/enable-sla-custom-time-calculation.md#enable-custom-time-calculation-of-sla-kpis) and [Enable custom recalculation of SLA KPIs](../administer/enable-sla-force-recalculation.md#enable-custom-recalculation-of-sla-kpis)
 
