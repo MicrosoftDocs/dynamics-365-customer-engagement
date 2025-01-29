@@ -33,72 +33,78 @@ The conversation can be in an open or closed state, and can have the following s
 
 ## Open
 
-The conversation (work item) that is in the queue and not assigned to the agent is classified under **Open** state.
+The conversation (work item) that is in the queue and not assigned to the customer service representative (service representative or representative) is classified under **Open** state.
 
 The conversation (work item) transitions from **Open** to **Active** or **Closed** under the following scenarios.
 
 | From status reason | To status reason | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Open          | Active           | An agent picks the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to the agent. | Channel<br><br>Chat|
-| Open          | Closed           | The customer disconnects or ends the chat before the conversation is assigned to the agent. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md)| Chat |
+| Open          | Active           | The representative picks the conversation from the **Open work items** stream.<br><br> When the routing and work distribution feature pushes (assigns) the conversation to the representative. | Channel<br><br>Chat|
+| Open          | Closed           | The customer disconnects or ends the chat before the conversation is assigned to the representative. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md).| Chat |
 
 ![Transition from open to active or closed.](../media/oc-conversation-open1.png "Transition from open to active or closed")
 
 ## Active
 
-The conversation that an agent picks or is assigned to the agent is classified under **Active**. In **Active**, the agent capacity is consumed.
+The conversation that the representative picks or is assigned to the representative is classified under **Active**. In **Active**, the representative capacity is consumed.
 
 > [!NOTE]
-> - When you use the transfer to external number option for a voice call, the conversation remains in active state with the agent on the external number as the new primary agent.  The capacity of the original agent is immediately released.
-> - When you transfer the voice call to another internal agent, the conversation remains in active state with the other internal agent as primary, and the original agent’s capacity is immediately released.  When you transfer to another queue, the conversation goes into open state while waiting in the new queue, and the original primary agent’s capacity is immediately released.
+> - When you use the transfer to external number option for a voice call, the conversation remains in active state with the representative on the external number as the new primary representative.  The capacity of the original representative is immediately released.
+> - When you transfer the voice call to another internal representative, the conversation remains in active state with the other internal representative as primary, and the original representative's capacity is immediately released.  When you transfer to another queue, the conversation goes into open state while waiting in the new queue, and the original primary representative’s capacity is immediately released.
 
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, or **Wrap-up** under the following scenarios.
 
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Active        | Wrap-up          | An agent selects the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation (applicable only to Live chat channel).| Channel <br><br> Chat|
-| Active        | Open             | An agent disconnects the conversation and doesn't reconnect within a specified timeout period. <br><br> When an agent releases the conversation to the queue. <br><br> When an agent transfers the conversation to another queue. <br><br> When an agent closes the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
-| Active        | Waiting          | An agent closes the session (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
-| Active | Closed | An agent resolves the case (or get a record to nonactive state) and closes the session. | Record |
-| Active | Closed | The customer disconnects or ends the chat before the conversation is accepted by the agent. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md) | Chat |
+| Active        | Wrap-up          | The representative selects the **End** button on communication panel during the conversation with the customer. <br><br> When customer ends the conversation by selecting the **End** button on the portal chat widget (only for a chat channel). <br><br> When the customer is disconnected from the conversation (applicable only to Live chat channel).| Channel <br><br> Chat|
+| Active        | Open             | The representative disconnects the conversation and doesn't reconnect within a specified timeout period. <br><br> When the representative releases the conversation to the queue. <br><br> When the representative transfers the conversation to another queue. <br><br> When the representative closes the session while the conversation is active (applicable only to Live chat channel). | Channel <br><br> Chat |
+| Active        | Waiting          | The representative closes the session by using the close (**X**) button (not ending the conversation by selecting the **End** button) while the conversation is active.|  Channel <br><br> The status change isn't applicable to Live chat. | 
+| Active | Closed | The representative resolves the case (or get a record to nonactive state) and closes the session. | Record |
+| Active | Closed | The customer disconnects or ends the chat before the conversation is accepted by the representative. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md). | Chat |
 
 ![Transition from active to closed, open, waiting, wrap-up, or in-progress state.](../media/oc-conversation-active.png "Active state")
 
 ## Wrap-up
 
-The wrap-up state is an intermediate state after the agent ends the conversation and does post-conversation activities, such as taking notes and updating the customer information, before moving the conversation to the **Closed** state. In the **Wrap-up** state, the agent capacity is blocked according to the duration that the agent selects in the **Block capacity for wrap up** field in the workstream. If the agent selects **Always block**, their capacity is blocked as long as the conversation is in the **Wrap-up** state. If the **Don't block** setting is selected, the agent capacity is released as soon as conversation moves from **Active** to **Wrap-up** state. The agent might also select a duration that ranges from 1 to 60 minutes. More information: [Configure work distribution](../administer/create-workstreams.md#configure-work-distribution)
+The wrap-up state is an intermediate state after the representative ends the conversation and does post-conversation activities, such as taking notes and updating the customer information, before moving the conversation to the **Closed** state. The representative capacity is blocked according to the duration that's specified for the **Block capacity for wrap up** field in the workstream. 
+
+- **Always block**: The capacity is blocked when the conversation is in the **Wrap-up** state. 
+- **Don't block**: The capacity is released when the conversation moves from **Active** to **Wrap-up** state.
+- **Custom time**: Capacity is blocked for the selected duration that can range from 1 to 60 minutes. Learn more in [Configure work distribution](../administer/create-workstreams.md#configure-work-distribution).
 
 The conversation (work item) transitions from **Wrap-up** to **Closed** under the following scenario.
 
 | From status reason | To status reason | Scenario  | Type  |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Wrap-up       | Closed           | The agent selects the **End** button in communication panel and closes the session. | Channel <br><br> Chat|
+| Wrap-up       | Closed           | The representative selects the **End** button in communication panel and closes the session. | Channel <br><br> Chat|
 
 ![Transition from wrap-up to closed state.](../media/oc-conversation-wrap-up1.png "Wrap-up state")
 
 > [!NOTE]
-> When a live chat conversation gets disconnected, Omnichannel for Customer Service will automatically move **Active** conversations to the **Wrap-up** state. More information: [Understand disconnected chats](oc-conv-state-chat-disconnect.md)
+> When a live chat conversation gets disconnected, Omnichannel for Customer Service automatically moves **Active** conversations to the **Wrap-up** state. Learn more in [Understand disconnected chats](oc-conv-state-chat-disconnect.md).
 
 ## Waiting
 
 > [!NOTE]
-> Waiting state applies to asynchronous and persistent chats only, and not live chats or voice calls.
+> The waiting state applies to asynchronous and persistent chats only, and not live chats or voice calls.
 
-A conversation in waiting doesn't consume agent capacity. When an agent closes the session by selecting the close icon but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the agent has asked for more information from the customer who is yet to respond back and the agent closes the communication panel without ending the conversation. The conversation is reassigned to an agent after the customer responds.
+A conversation in waiting doesn't consume a representative's capacity.
+
+When the representative closes the session by selecting the close (**X**) button but doesn't end it by selecting the **End** button on the communication panel, the conversation moves into the **Waiting** state. For example, the representative has asked for more information from the customer who is yet to respond back and the representative closes the communication panel without ending the conversation. The conversation is reassigned to the representative after the customer responds.
 
 The conversation (work item) transitions from **Waiting** to **Closed**, **Active**, or **Open** under the following scenarios.
 
 | From status reason | To status reason | Scenario  | Type |
 |---------------|------------------|---------------------------------------------------------|------------|
-| Waiting       | Closed           | There's no activity on this conversation from either customer or agent, within inactivity timeout period. | Channel  |
-| Waiting       | Active           | An agent revives the session from the **My work items** stream on **Omnichannel Agent Dashboard**. | Channel |
+| Waiting       | Closed           | There's no activity on this conversation from either customer or representative, within inactivity timeout period. | Channel  |
+| Waiting       | Active           | The representative revives the session from the **My work items** stream on **Omnichannel Agent Dashboard**. | Channel |
 | Waiting       | Open             | The customer revives the conversation within a specified timeout period while the session is still active in the browser. | Channel |
 
 ![Transition from waiting to closed, active, or open state.](../media/oc-conversation-waiting1.png "Waiting state")
 
 ## Closed
 
-The conversations that are completed by ending them or closing the session are classified as **Closed** conversations. Agents can't reactivate or reopen closed conversations.
+The conversations that are completed by ending them or closing the session are classified as **Closed** conversations. Representatives can't reactivate or reopen closed conversations.
 
 ## How conversations are handled on close or end
 
