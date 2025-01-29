@@ -59,7 +59,7 @@ You can view the setting in the [sample web resource file](https://github.com/mi
 ### Related information
 
 [Add a web resource for real-time translation](../develop/add-web-resource-real-time-translation.md)  
-[Real-time language translation of conversations for agents and customers](../use/oc-real-time-translation.md)  
+[Real-time language translation of conversations for representatives and customers](../use/oc-real-time-translation.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
