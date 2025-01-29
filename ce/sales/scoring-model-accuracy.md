@@ -15,13 +15,6 @@ Knowing how accurate a predictive scoring model is helps you decide whether the 
 
 The metrics described in this article apply to both opportunity scoring and lead scoring.  
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Factors that influence accuracy
 
 A predictive scoring model calculates the likelihood that an opportunity or a lead will result in a sale. The accuracy of the model depends on the following factors:

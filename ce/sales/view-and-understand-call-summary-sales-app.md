@@ -17,13 +17,6 @@ Sellers and their managers need an easy way to review their conversations with c
 - Sellers can quickly review past conversations with a customer and highlight important topics and commitments.
 - Managers can get a high-level view of how their sales team is managing their relationships with customers.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Prerequisites
 
 [Configure conversation intelligence to process call recordings](intro-admin-guide-sales-insights.md#administer-conversation-intelligence).

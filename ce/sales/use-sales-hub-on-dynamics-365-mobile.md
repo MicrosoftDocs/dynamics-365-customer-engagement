@@ -28,14 +28,6 @@ The Dynamics 365 for phones and Dynamics 365 for tablets apps are model-driven a
 > For a seamless mobile experience, we recommend that you switch to the Dynamics 365 Sales mobile app instead of using the Dynamics 365 for phones and tablets apps. For more information, go to [Overview of the Dynamics 365 Sales mobile app](sales-mobile/dynamics-365-sales-mobile-app.md).
 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Prerequisites
 
 Before you can start using the app, you need to install the Dynamics 365 for phones or tablets app on your device.  

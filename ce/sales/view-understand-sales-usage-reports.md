@@ -23,13 +23,6 @@ Also, the actions that are performed in the application are reflected in the sal
 > - Sales usage reports aren't available in Government Community Cloud (GCC) tenants.
 > - The updated or added data may take up to three days to show in the reports.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Sales Manager<br>See [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Open sales usage reports
 
 Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales** > **Sales analytics** > **Sales usage reports**.

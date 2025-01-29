@@ -12,13 +12,6 @@ ms.reviewer: udag
 
 Use the assistant to create custom action cards that help in displaying insight cards that are specific to your organization.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## What are actions or insight cards?
 
 Action cards provide you up to date information on email, meeting, and more in [!INCLUDE[pn_dynamics_crm](../includes/pn-dynamics-crm.md)]. These cards remind you of upcoming activities; it evaluates your communications, and suggests when it might be time to reach out to a contact that’s been inactive for a while; it identifies email messages that may be waiting for a reply from you; it alerts you when an opportunity is nearing its close date; and much more. These cards are displayed on forms, dashboards, and throughout the application to provide relevant information for the context you're working in at the moment.  
