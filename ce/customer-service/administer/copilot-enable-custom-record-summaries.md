@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: lalexms
 ms.topic: how-to 
-ms.date: 01/07/2025
+ms.date: 01/27/2025
 ms.custom: bap-template 
 ---
 
@@ -52,11 +52,11 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Forms** > **Account for multisession experience**.
 1. Select **Component** > **Copilot case summary control**, and then specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
 
-   :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
+     :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
 1. Configure the settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled. Learn more in [Display case summary only when enabled](copilot-powerapps-settings.md#display-case-summary-only-when-enabled).
   
-  :::image type="content" source="../media/copilot-powerapps-load-mini.png" alt-text="load and unload summary card on the form." lightbox="../media/copilot-powerapps-load.png":::
+    :::image type="content" source="../media/copilot-powerapps-load-mini.png" alt-text="load and unload summary card on the form." lightbox="../media/copilot-powerapps-load.png":::
 
 
 ## Runtime experience
