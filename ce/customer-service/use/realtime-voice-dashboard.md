@@ -28,7 +28,7 @@ The **Voice** report gives you insights into key metrics across the voice channe
 
 This report is available only if the voice feature is configured for your organization. For more information, go to [Manage real-time analytics reports ](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service).
 
-The **Voice** report provides a summary of voice conversations over time, by queue. Voice-specific metrics for the last 24 hours, such as conversations in the queue, average wait time, and average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time. You can assign the right customer service representatives (service representatives) based on skills and increase service representative efficiency and customer satisfaction.
+The **Voice** report provides a summary of voice conversations over time, by queue. Voice-specific metrics for the last 24 hours, such as conversations in the queue, average wait time, and average handle time, help you optimize the call flow. You can use these metrics to reduce the conversation hold time. You can assign the right customer service representatives (service representatives or representatives) based on skills and increase service representative efficiency and customer satisfaction.
 
 You can also monitor voice-specific operational metrics such as conversation direction. This metric indicates whether the conversation was started by the customer or a contact center service representative. You can use these operational metrics to manage queue distribution.
 

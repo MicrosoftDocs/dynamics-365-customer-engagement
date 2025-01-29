@@ -19,7 +19,7 @@ ms.custom:
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
-The **Agents** report consists of metrics that provide an overview of customer service representatives (service representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial for ensuring that customers receive the best possible support.
+The **Agents** report consists of metrics that provide an overview of customer service representatives (service representatives or representatives) performance to help contact center managers optimize the allocation of service representatives in real time. This capability is crucial for ensuring that customers receive the best possible support.
 
 The **Agents** report provides information about the capacity and status of service representatives for the last 24 hours. By drilling down to view details such as capacity at each service representative's level, you can quickly identify and allocate resources to address any staffing shortages. In this way, you help ensure that customers receive support when they need it.
 
