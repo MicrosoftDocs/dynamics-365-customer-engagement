@@ -1,7 +1,7 @@
 ---
 title: Use Copilot to get content recommendations and answers from SharePoint
 description: Discover how integrating SharePoint with Sales allows Copilot to recommend product-related documents and answer queries from stored files.
-ms.date: 12/06/2024
+ms.date: 01/15/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -64,16 +64,16 @@ The **Show related files** prompt lists the files that meet the following criter
 <a name="copilot-content-qa"></a>
 ## Get answers from SharePoint documents
 
-As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you. 
+As a seller, you might have to refer to documents such as contracts, technical documents, and marketing collateral to answer questions from your customers. If these documents are stored in SharePoint, Copilot can help you find answers from the documents and summarize them for you.
 
 You can ask questions in your preferred language. Copilot searches for answers from all the SharePoint documents that you have access to, irrespective of the language of the documents and responds in your preferred language. For a list of supported languages, see [this report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 **To get answers from SharePoint documents**
 
 1. [Open Copilot](use-sales-copilot.md#open-copilot) and select **View Prompts** above the Copilot chat box.  
-1. Select **Get info** > **Get info from SharePoint** and type in your question.  
+1. Select **Get info** > **Get info from SharePoint** and then type in your question.  
    Alternatively, you can ask Copilot a question in natural language. To search in SharePoint directly, include the term **SharePoint** in your question. For example, you can ask, **Get me the recent case studies related to this opportunity from sharepoint**. Otherwise, Copilot searches for answers from the sales data stored in Dataverse first.  
-   If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
+   If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint. If you're not getting the expected results, see the [tips for asking the right questions](#tips-for-asking-the-right-questions).
 
 **To get answers from Dataverse and SharePoint**
 
@@ -82,3 +82,13 @@ You can ask questions in your preferred language. Copilot searches for answers f
     Copilot searches for answers from the sales data stored in Dataverse first. After the result is displayed, you'll see a follow-up prompt.  
 1. Select the follow-up prompt **Search for the answer in SharePoint**.  
    If the answer is available in SharePoint, Copilot summarizes the answer and provides links to the corresponding documents in SharePoint.
+
+### Tips for asking the right questions
+
+To get accurate answers from SharePoint documents, follow these tips:
+
+- Ask questions related to sales. The questions must contain words relevant to the configured SharePoint content and also related to sales. For example, a question like **Get info from SharePoint What are the sales figures for Contoso laptops in Q1?** (assuming relevant documents are available in SharePoint) will be answered. However, generic questions like **Get info from SharePoint What is the capital of France?** will not be answered.
+- Use the right keywords. The whole question is broken down into keywords, which are then used to search all available SharePoint documents. So ensure the question contains proper keywords based on what you're looking for.
+- Ask simple and clear questions. Avoid complex keywords such as GUIDs, technical terms, or jargon that might not be present in the documents.
+- Don't include file names. Including a file name in the question, such as **Get me the recent case studies from sharepoint file case-studies.docx**, doesn't restrict the search to that file. Instead, Copilot interprets the file name as a keyword and searches across all documents for that keyword.
+- Don't ask questions related to harmful content. Copilot doesn't provide answers to questions that are harmful or inappropriate. [Learn more about how Copilot blocks harmful content](/dynamics365/faqs-copilot-data-security-privacy#how-does-copilot-block-harmful-content).
