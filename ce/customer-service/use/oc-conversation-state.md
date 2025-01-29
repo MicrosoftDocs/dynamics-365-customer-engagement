@@ -48,9 +48,9 @@ The conversation (work item) transitions from **Open** to **Active** or **Closed
 
 The conversation that the representative picks or is assigned to the representative is classified under **Active**. In **Active**, the representative capacity is consumed.
 
-> [!NOTE]
-> - When you use the transfer to external number option for a voice call, the conversation remains in active state with the representative on the external number as the new primary representative.  The capacity of the original representative is immediately released.
-> - When you transfer the voice call to another internal representative, the conversation remains in active state with the other internal representative as primary, and the original representative's capacity is immediately released.  When you transfer to another queue, the conversation goes into open state while waiting in the new queue, and the original primary representative’s capacity is immediately released.
+For the voice channel, the system handles the capacity as follows:
+- When you use the transfer to external number option for a voice call, the conversation remains in active state with the representative on the external number as the new primary representative.  The capacity of the original representative is immediately released.
+- When you transfer the voice call to another internal representative, the conversation remains in active state with the other internal representative as primary, and the original representative's capacity is immediately released.  When you transfer to another queue, the conversation goes into open state while waiting in the new queue, and the original primary representative’s capacity is immediately released.
 
 The conversation (work item) transitions from **Active** to **Closed**, **Open**, **Waiting**, or **Wrap-up** under the following scenarios.
 
