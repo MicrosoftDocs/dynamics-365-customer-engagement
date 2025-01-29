@@ -36,7 +36,7 @@ You can enable the recalculation of SLAs that reach the terminal status in the C
 
 1. In **Recalculate SLA on terminal status**, switch the toggle to **Yes**, and then select **Save**.
 
-    :::image type="content" source="../media/sla-recalculate.png" alt-text="Enable recalculate SLA on reaching terminal status.":::
+    :::image type="content" source="../media/sla-recalculate.png" alt-text="Enable recalculation for SLAs that reach terminal status.":::
 
 
 ### Related information
