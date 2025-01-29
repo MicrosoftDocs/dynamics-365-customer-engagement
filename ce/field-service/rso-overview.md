@@ -3,7 +3,7 @@ title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Servi
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 06/04/2024
+ms.date: 01/29/2025
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
@@ -27,6 +27,19 @@ Automated scheduling is often required because scheduling a high volume of jobs 
 - **Minimize travel time**: Ensuring your technicians are taking the shortest possible route with turn-by-turn directions reduces fuel consumption and wear and tear on vehicles—savings that can easily surpass the cost of the add-in.
 
 - **Improve customer retention**: Giving preference to higher-priority work orders helps avoid service level agreement penalties and helps you meet customer service commitments.
+
+## Glossary
+
+You'll need to know the following key terms:
+
+- **Jobs**: Work that needs to be completed like work orders, cases, or projects.
+- **Resources**: Anyone or anything that needs to be scheduled to a job including people, equipment, and facilities.
+- **Schedules, bookings**: Schedules and bookings are used interchangeably and refer to the appointment time slot when a resource is assigned to a job.
+- **Requirements**: The entity related to a job that defines what type of resource is needed to complete the work and gets scheduled.
+- **Run**: The process when Resource Scheduling Optimization performs its scheduling and optimization functions.
+- **Optimize**: Attempt to find the best schedules to reduce travel time and maximize usage.
+- **Scope**: The jobs and resources that Resource Scheduling Optimization considers for optimization.
+- **Goal**: Defines the ideal outcome of a run. For example, minimize travel time, maximize usage, handle high-priority jobs, or schedule jobs as soon as possible. Multiple goals are ranked because sometimes there are trade-offs.
 
 ## Address common scheduling scenarios
 

@@ -3,7 +3,7 @@ title: Optimization goals in Resource Scheduling Optimization
 description: Learn about how goals are used in Resource Scheduling Optimization.
 author: AnilMur
 ms.author: anilmur
-ms.date: 07/16/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -20,21 +20,25 @@ Using the elements of a goal, you define how bookings should be optimized.
 
 :::image type="content" source="media/scheduling-optimization-goal.png" alt-text="Screenshot of a Scheduling Optimization Goal record.":::
 
-1. In Resource Scheduling Optimization, in the **Settings** section, go to **Optimization Goals**.
+1. In Resource Scheduling Optimization, under **Settings**, select **Optimization Goals**.
 
-1. Enter a **Name** for the optimization goal.
+1. Enter the following information:
 
-1. Choose an **Engine Effort Level**. It defined the amount of effort that the system puts in to find the best combination of resources, route, and day or time. Higher effort levels mean that the optimization engine considers more possible combinations. The more combinations the system considers, the longer it takes to complete the calculations.
+   - **Name** for the optimization goal.
 
-1. Choose the **Travel Time Calculation** option to specify the method of calculating travel distance between resources and requirements. You can include historical traffic information when using Bing Maps to get more accurate travel time estimation based on general traffic patterns in the past. This option doesn't include real-time traffic disruptions, such as road maintenance or accidents. Choosing historical traffic information leads to longer processing times of the optimization run and supports up to 500 requirements in the optimization scope. If your optimization scope includes more requirements, split it into smaller chunks and create an optimization goal with historical traffic for each scope. Due to the longer processing time, consider using that option mainly on schedules that are set to run automated of business hours.
+   - **Engine Effort Level**: The amount of effort that the system puts in to find the best combination of resources, route, and day or time. Higher effort levels mean that the optimization engine considers more possible combinations. The more combinations the system considers, the longer it takes to complete the calculations.
 
-1. Select all **Constraints** for the optimization goal. [Constraints](#understand-constraints) are restrictions that are imposed on the bookings that the system creates.
+   - **Travel Time Calculation**: The method of calculating travel distance between resources and requirements.
+
+      When using Bing Maps, you can include historical traffic information to get more accurate travel time estimates based on past traffic patterns. This option does not account for real-time disruptions like road maintenance or accidents. It results in longer processing times and supports up to 500 requirements in the optimization scope. If you have more requirements, split them into smaller chunks and create separate optimization goals with historical traffic for each scope. Due to the longer processing time, it's best to use this option for schedules that run automated off business hours.
+
+   - [**Constraints**](#understand-constraints): Restrictions that are imposed on the bookings that the system creates.
 
 1. Select **Save** to create the *Scheduling Optimization Goal* record.
 
-1. In the **Objectives** section of the record, select an objective to change its properties. Select **New Scheduling Optimization Objective** to add more. [All objectives](#understand-objectives) are explained in detail below.
+1. In the **Objectives** section, select an [objective](#understand-objectives) to change its properties. Select **New Scheduling Optimization Objective** to add more.
 
-1. Select **Save & Close** to apply your changes.
+1. Select **Save & Close**.
 
 ### Default optimization goal
 

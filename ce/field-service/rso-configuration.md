@@ -3,7 +3,7 @@ title: Resource Scheduling Optimization configuration in Dynamics 365 Field Serv
 description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
 author: AnilMur
 ms.author: anilmur
-ms.date: 06/26/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -22,7 +22,7 @@ Perform these configuration steps after [successful deployment](rso-deployment.m
 
    - Set **Enable Resource Scheduling Optimization** to **Yes**.
 
-   - Set **Default Goal**. An [optimization goal](rso-optimization-goal.md) defines how the algorithm optimizes data. Users can still choose different goals when they start an optimization request.
+   - Set **Default Goal**. A default goal tells Resource Scheduling Optimization what to prioritize by default and it's relevant for [single resource optimization](rso-single-resource-optimization.md). If no default goal exists, [create an optimization goal](rso-optimization-goal.md). Users can still choose different goals when they start an optimization request.
 
 ## Add required security roles to users who configure and run Resource Scheduling Optimization
 

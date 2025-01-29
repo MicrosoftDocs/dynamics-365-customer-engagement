@@ -3,7 +3,7 @@ title: Optimization scopes in Resource Scheduling Optimization
 description: Learn how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 06/26/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -19,6 +19,10 @@ Often, organizations already have partitions that can be used for Resource Sched
 - **Logical partitions**: Support levels, incident types, and so on
 
 System views and personal views are critical building blocks for optimization scopes. A view is a set of filters that result in a list of records. [Create personal views](/power-apps/user/grid-filters-advanced) to ensure that the system focuses on the correct records. Optimization is completed more quickly if optimization requests contain fewer resources, requirements, or bookings, and a shorter time range.
+
+## Prerequisites
+
+[Create personal views](/power-apps/user/grid-filters-advanced).
 
 ## Create an optimization scope
 
