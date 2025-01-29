@@ -19,13 +19,6 @@ ms.custom:
 
 In Dynamics 365 Sales, you use [accounts](#work-with-accounts) to store information about the companies you do business with. Use [contacts](#work-with-contacts) to store information about the people you work with at those companies. You can add multiple contacts to an account, but you can associate only one account with a contact. You can create accounts and contacts manually or import them from a spreadsheet or other supported files.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br/>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br/> More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Work with accounts
 
 - [Create an account](#create-an-account)

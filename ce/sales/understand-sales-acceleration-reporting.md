@@ -16,13 +16,6 @@ ms.custom:
 
 View and understand the report for sales acceleration to get a broad overview of the sequences related to leads and opportunities in your organization.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## What is sales acceleration reporting?
 
 Sales acceleration reporting gives you a broad overview of the sequences related to leads and opportunities in your organization. The reports use AI to provide insights into which sequences are doing better and emerging with the most successful conversion rates. Also, you can analyze metrics and key performance indicators (KPIs) to identify areas for improvement that might have the greatest effect on sales growth.
