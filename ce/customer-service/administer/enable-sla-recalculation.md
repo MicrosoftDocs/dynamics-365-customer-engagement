@@ -23,7 +23,7 @@ The terminal states for SLA KPI instances are succeeded, canceled, and noncompli
 - When a SLA KPI instance is in a:
     - Succeeded state: It remains in the same state, irrespective of changes to the success conditions. Changes occur only if the recalculated SLA option is set to yes and success conditions changes.
     - Noncompliant state: It remains in the same state, irrespective of changes to success conditions, and even if the recalculated SLA option is set to yes.
-- If there are changes to the applicable when condition, SLAs that are in succeeded or noncompliant states are recalculated if the recalculate SLA option is set to yes. However, the system cancels the SLA KPI instance if the applicable when condition doesn't meet the criteria.
+- If there are changes to the applicable when condition, the system recalculates SLAs that are in succeeded or noncompliant states if the recalculate SLA option is set to yes. However, the system cancels the SLA KPI instance if the applicable when condition doesn't meet the criteria.
 - When a SLA KPI instance is in a succeeded or non-compliant state and changes are made to its applicable SLA item, the system recalculates the SLAs when the recalculate SLA option is set to yes. The system creates a new SLA KPI instance, and its status depends on the failure time. Failure time is calculated from the **Applicable from** field. If the SLA KPI instance crosses the specified failure time, the system creates a new SLA KPI instance in an expired state.
 
 ## Enable recalculation of SLAs on reaching terminal status
