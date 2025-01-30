@@ -20,16 +20,16 @@ ms.custom:
 
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
 
 > [!NOTE]
-> Supervisor and customer service representatives (service representatives or representatives)sentiment notifications are not available in Omnichannel for Customer Service on Unified Service Desk.
+> Supervisor and customer service representatives (service representatives or representatives) sentiment notifications aren't available in Omnichannel for Customer Service on Unified Service Desk.
 
 Sentiment analysis settings in Omnichannel for Customer Service provide service representatives and supervisors with real-time insight regarding how customers are interacting with service representatives during chat sessions.
 
 ## Sentiment analysis
 
-To let service representatives and supervisors see the customer's satisfaction levels instantly while communicating with the customer, you need to enable sentiment analysis.
+To let service representatives and supervisors see the customer's satisfaction levels instantly during customer communication, you need to enable sentiment analysis.
 
 > [!NOTE]
 > Sentiment analysis is enabled by default.
@@ -66,7 +66,7 @@ For example, you set the threshold value as **Slightly negative**. When the cust
     - Don't show alerts
     - Slightly negative
     - Negative
-    - Very negative
+    - Negative
 
       > [!div class=mx-imgBorder]
       > ![Show alerts when a customer's sentiment decreases to or below.](../media/monitor-real-time-agent.png "Show alerts when a customer's sentiment decreases to or below")
@@ -86,7 +86,7 @@ You can set the sentiment threshold to any of the following values:
 - Negative
 - Very negative
 
-For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value below this, a notification is displayed to the supervisor.
+For example, you set the threshold value as **Slightly negative**. When the customer's sentiment reaches **Slightly negative** or any other sentiment value lesser than **Slightly negative**, a notification is displayed to the supervisor.
 
 1. Navigate to the **Sentiment analysis** page.
 2. In the **Supervisor settings** section, select a value from the **Send notifications when a customer's sentiment decreases to or below** list. The options are:
