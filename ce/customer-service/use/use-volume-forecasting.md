@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and service representatives for conversations
+# Forecast case and conversation volumes, and agents for conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
