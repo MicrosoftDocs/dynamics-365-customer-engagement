@@ -1,7 +1,7 @@
 ---
 title: Install LinkedIn Sales Navigator for Dynamics 365
 description: Learn how to install and enable the LinkedIn Sales Navigator for your organization. You can install through Advanced Settings, AppSource, or App Settings.
-ms.date: 10/14/2024
+ms.date: 01/31/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -48,12 +48,8 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
     - **Advanced Settings**
 
-        1. In your Sales Hub app, select **Settings** ![Settings.](../media/settings-icon.png), and then select **Advanced Settings**.
-
-            The **Business Management settings** page opens in a new browser tab.
-
-        1. Select **LinkedIn Sales Navigator**.  
-
+        1. In the sales app, go to **Settings** > **Advanced Settings**.
+        1. On the **Business Management** page, select **LinkedIn Sales Navigator**.
         1. On the LinkedIn integration page, select  **Enable LinkedIn integration**.  
 
     - **AppSource page**
@@ -74,11 +70,11 @@ Review the following prerequisites to install and enable LinkedIn Sales Navigato
 
 ## Validate the installation
 
-1. In your app, select **Settings** ![Settings.](../media/settings-icon.png), and then select **Advanced Settings**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
 
     :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 
-1. Go to **Settings** > **Customization** > **Customizations** > **Solutions**.
+1. Go to **Customization** > **Solutions**.
 
 1. Verify that the following solutions are installed in your organization.
 
@@ -107,11 +103,11 @@ When enabled, the Sales Navigator controls appear on Account, Contact, Lead, and
 
     - **Advanced Settings**
 
-        1. In your app, select **Settings** ![Settings.](../media/settings-icon.png), and then select **Advanced Settings**.
+        1. In the sales app, go to **Settings** > **Advanced Settings**.
 
             :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
 
-        1. On the **Business Management settings** page, select **LinkedIn Sales Navigator**.
+        1. On the **Business Management** page, select **LinkedIn Sales Navigator**.
 
 1. On the **LinkedIn integration** page, toggle the following options to enable:  
     - **Sales navigator integration**: Allows you to see LinkedIn Sales Navigator controls on Account, Contact, Lead, and Opportunity forms.  
@@ -135,7 +131,7 @@ To enable the CRM sync and activity writeback, follow the process as defined in 
 
 In the [April 19 release](/power-platform/admin/preview-october-2019-updates#when-will-the-2019-release-wave-2-features-be-enabled), we introduced changes to how the Sales Navigator controls are enabled. Here are a few things to consider if you don't plan to enable the integration:
 
-- Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customization** > **Customizations** > **Solutions**. Although these solutions are preinstalled, the functionality and data transfer between the two systems will be disabled unless you [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator). Additionally, **CRM Sync** needs to be explicitly enabled on LinkedIn Sales Navigator Admin Settings page.
+- Three solutions related to the LinkedIn integration appear in the **All Solutions** view in **Settings** > **Customization** > **Solutions**. Although these solutions are preinstalled, the functionality and data transfer between the two systems will be disabled unless you [enable LinkedIn Sales Navigator](#enable-linkedin-sales-navigator). Additionally, **CRM Sync** needs to be explicitly enabled on LinkedIn Sales Navigator Admin Settings page.
 
    > [!div class="mx-imgBorder"] 
    > ![List of LinkedIn related solutions.](media/solution-list.png)
