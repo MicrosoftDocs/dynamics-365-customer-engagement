@@ -1,6 +1,6 @@
 ---
-title: Knowledge article and search term analytics dashboards | Microsoft Docs
-description: Learn about the knowledge article and search term analytics dashboards to better understand agent performance in your organization.
+title: Knowledge article and search term analytics dashboards
+description: Learn about the knowledge article and search term analytics dashboards to better understand customer service representative performance in your organization.
 ms.date: 10/03/2022
 ms.topic: article
 author: Soumyasd27
@@ -50,7 +50,7 @@ The Articles insights dashboard represents the following metrics.
 
 ## Search term insights
 
-The Search term insights dashboard is designed to provide supervisors and knowledge workers with valuable insights into how agents find and use knowledge articles.
+The Search term insights dashboard is designed to provide supervisors and knowledge workers with valuable insights into how customer service representatives find and use knowledge articles.
 
 Your administrator must enable the dashboard for you to access it. More information: [Configure Knowledge search insights](../administer/enable-knowledge-search-insights.md).
 

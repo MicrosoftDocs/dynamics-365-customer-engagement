@@ -1,6 +1,6 @@
 ---
-title: Forecast case and conversation volumes, and agents for conversations
-description: Learn how to use forecast reports to predict agent, case, and conversation volumes in Dynamics 365 Customer Service.
+title: Forecast case and conversation volumes, and service representatives for conversations
+description: Learn how to use forecast reports to predict customer service representative, case, and conversation volumes in Dynamics 365 Customer Service.
 ms.date: 11/28/2024
 ms.topic: conceptual
 author: lalexms
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and agents for conversations
+# Forecast case and conversation volumes, and service representatives for conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -25,25 +25,25 @@ ms.custom:
 This article describes how to navigate the forecast reports in Customer Service so that you can successfully meet the staffing demands of your organization.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their service representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Overview
 
-Customer service supervisors need to to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which negatively affects customer satisfaction.
+Customer service supervisors need to to ensure that they have an adequate number of customer service representatives (service representatives or representatives) available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which negatively affects customer satisfaction.
 
-As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business which is based on the predicted volume of cases and conversations, along with the predicted agent demand for conversations.
+As a supervisor, you can use the forecast reports to help plan the right level of staffing for your business which is based on the predicted volume of cases and conversations, along with the predicted service representative demand for conversations.
 
-You can use the forecast reports for agent, case, and conversation volumes in the following ways:
+You can use the forecast reports for service representative, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic and the number of agents needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has configured chatbots for your conversational channels, the system excludes conversations that chatbots handle without having a human agent join the conversation. This function ensures that you can rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic and the number of service representatives needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has configured chatbots for your conversational channels, the system excludes conversations that chatbots handle without having a service representative join the conversation. This function ensures that you can rely on the predicted conversation volumes for service representative staffing.
 
-- Visualize forecasted volumes and agent demand on a daily basis, for a time range up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
+- Visualize forecasted volumes and service representative demand on a daily basis, for a time range up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan service representative resourcing and recruitment, to meet future demand.
 
-- Visualize forecast volumes and agent demand on a 15-minute interval basis, for a time range up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
+- Visualize forecast volumes and service representative demand on a 15-minute interval basis, for a time range up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule service representatives to meet the near-term demand.
 
-- Slice forecasted volumes and agent demand by channel and queue.
+- Slice forecasted volumes and service representative demand by channel and queue.
 
-- View a rollup of actual and forecasted volume on an hourly, daily, weekly, monthly, and yearly basis. For the agent demand report, you can select the type of rollup from maximum, minimum, average, and sum.
+- View a rollup of actual and forecasted volume on an hourly, daily, weekly, monthly, and yearly basis. For the service representative demand report, you can select the type of rollup from maximum, minimum, average, and sum.
 
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This function helps the forecasting model to accurately predict case or conversation volumes during special, seasonal events.
 
@@ -75,13 +75,13 @@ You can view the forecast reports in the Customer Service workspace or Omnichann
 
 The forecast reports support two modes:
 
-- **Daily**: This mode displays the actual and predicted case and conversation volumes and agent demand per day, for a time range of up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan agent resourcing and recruitment to meet a future demand.
+- **Daily**: This mode displays the actual and predicted case and conversation volumes and service representative demand per day, for a time range of up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan service representativeresourcing and recruitment to meet a future demand.
 
-- **Intraday**: This mode displays the actual and predicted case and conversation volumes and agent demand in intervals of 15 minutes, for a time range of up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
+- **Intraday**: This mode displays the actual and predicted case and conversation volumes and service representative demand in intervals of 15 minutes, for a time range of up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule service representatives to meet the near-term demand.
 
 To change the report mode, switch the **Daily** or **Intraday** toggle button on the report, depending on which mode you want to view the report in.
 
-### Filters for case, conversation, and agents for conversations forecasting
+### Filters for case, conversation, and service representatives for conversations forecasting
 
 The **Case volumes**, **Conversation volumes**, and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, and the voice channel.
 
@@ -97,7 +97,7 @@ You can filter the data on each of the tabs by using any of the following option
 
 ### Data visualization
 
-The forecasting section on each tab of the report displays a visual trend from historical volumes from the past to the predicted volume in the future. The forecast is based on actual case, conversation, and agent records created in the past.
+The forecasting section on each tab of the report displays a visual trend from historical volumes from the past to the predicted volume in the future. The forecast is based on actual case, conversation, and service representative records created in the past.
 
 The **Confidence level** for the forecasted data is displayed on the right-hand side in blue, indicating the level of confidence in the predicted volume. The narrowest part of the blue area indicates higher confidence. You can hover on the report to display the forecast based on data for specific dates.
 
@@ -107,7 +107,7 @@ Hover on the future side (dash line) of the report to show a range that includes
 
 ### View volume forecasting by numbers
 
-The number grid at the bottom of the report shows the actual and predicted number of cases, conversations, or agent demand across different date and time hierarchies.
+The number grid at the bottom of the report shows the actual and predicted number of cases, conversations, or service representative demand across different date and time hierarchies.
 
 You can filter the data by selecting from the following options:
 
