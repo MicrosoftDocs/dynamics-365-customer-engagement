@@ -74,7 +74,7 @@ You can make the following types of requests:
 [!INCLUDE[cc-feature-availability-embed-only](../../includes/cc-feature-availability-embed-only.md)]
 
 
-If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases](copilot-use-summary.md#summarize-cases-in-non-microsoft-crm).
+If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. 
 
 ---
 
