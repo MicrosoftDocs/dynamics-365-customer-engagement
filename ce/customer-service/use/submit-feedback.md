@@ -30,7 +30,7 @@ The value beside the **Thumbs up** icon doesn't represent an article's total num
 
 > [!NOTE]
 > - Rating and view count numbers are rollup fields that aren't updated instantly. For more information, see [Define rollup fields](../../customerengagement/on-premises/customize/define-rollup-fields.md). 
-> - customer service representatives (service representatives or representatives) and customer service managers can create or view feedback based on their role and privileges in the feedback entity. Out of the box, representatives can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all representatives.
+> - Customer service representatives (service representatives or representatives) and customer service managers can create or view feedback based on their role and privileges in the feedback entity. Out of the box, representatives can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all representatives.
 
 ## Submit ratings and feedback
 
