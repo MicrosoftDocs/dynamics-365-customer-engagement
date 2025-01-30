@@ -21,13 +21,6 @@ If your organization has configured multiple forecasts, save your users time and
 > [!NOTE]
 > You can also specify the default experience for the underlying records of the forecast. More information: [Configure advanced settings for forecasts](forecast-configure-advanced-settings.md).
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## To select a default forecast
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
