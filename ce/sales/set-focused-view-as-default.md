@@ -61,7 +61,7 @@ To configure and enable focused view as default for custom and other entities, f
     >[!NOTE]
     >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**. Go to the **Controls** tab and then add **Focused view**.
 
-1. Open the entity form for type **Main** and then select **Components** on the tool bar.
+1. Open the entity form of type **Main** and then select **Components** on the tool bar.
 
 1. In the **Components** section, search for **Focused view** and then drag it to the desired location on the form.  
 

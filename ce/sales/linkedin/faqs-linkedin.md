@@ -1,8 +1,8 @@
 ---
 title: LinkedIn Sales Navigator FAQs for Dynamics 365
 description: Find answers to some of the most frequently asked questions related to LinkedIn Sales Navigator integration with Dynamics 365.
-ms.date: 10/14/2024
-ms.topic: article
+ms.date: 01/31/2025
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
 ---
@@ -85,18 +85,22 @@ The on-premises Microsoft Dynamics 2016 and above versions don't support CRM syn
 **Answer:**  
 In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed to Smart Links: the functionality remains the same. If you're using LinkedIn solution version 2.x, we recommend that your system administrator or customizer change the label manually by following these steps:
 
-1. Sign in to your Dynamics 365 app.    
-1. Go to **Advanced Settings** > **Customizations** > **Customize the System**.  
-1. From the **Entities** site map, select the **PointDrive Presentation Viewed** entity.  
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/faq-pointdrive-presentation-viewed-entity.png" alt-text="Screenshot of PointDrive Presentation Viewed entity view.":::  
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-1. For **Display Name** and **Plural Name**, enter **Smart Links Content Viewed**.  
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
 
-    :::image type="content" source="media/faq-change-name-smart-links-content-viewed.png" alt-text="Screenshot of Change Display Name and Plural Name to Smart Links Content Viewed.":::
+1. In the left pane, expand **Tables** and then select the **PointDrive Presentation Viewed** entity.  
+
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then select the **PointDrive Presentation Viewed** entity.  
+
+1. In the **Properties** pane, enter **Display Name** and **Plural Name** as **Smart Links Content Viewed**.  
 
 1. Save and publish the customizations.  
-1. Browse to an entity record and verify that the Smart Links label appears on the timeline.  
+
+1. Browse to an entity record and verify that the **Smart Links label appears** on the timeline.  
 
     :::image type="content" source="media/faq-smart-links-content-viewed-confirmation.png" alt-text="Screenshot of Smart Links Content Viewed confirmation on the timeline.":::
 
@@ -106,21 +110,19 @@ In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed 
 **Answer:**  
 If you've properly configured CRM sync and activity writeback, the activity will successfully write back from LinkedIn Sales Navigator to Dynamics 365 and appear on the timeline. If the activities don't appear on the timeline, follow these steps:  
 
-1. Sign in to your Dynamics 365 app.  
-1. Go to **Advanced Settings** > **Customizations** > **Customize the System**.  
-1. From the **Entities** site map, select the entity (Contact or Lead) and then the form for which you want to configure the timeline.  
-1. On the entity form, on the **SOCIAL PANE** tab, select **Notes Properties**, and then select **Change Properties**.  
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/faq-select-notes-properties.png" alt-text="Screenshot of select the Change Properties option for notes properties.":::
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-1. In the **Activities Tab Properties** window, under **Unified Interface Properties (New)** tab, select the **Activities** tab.  
-1. In the **Filter By** section, select the following options:  
-   - From the **Show these activities** list, select **Show selected**.
-   - From the options, select the **Ctrl** key, and then select the activity.  
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then select the entity (Contact or Lead) and then the form for which you want to configure the timeline.  
 
-    :::image type="content" source="media/faq-select-options-filter-by-section.png" alt-text="Screenshot of select options to show Smart Links activities.":::
+    >[!NOTE]
+    >If you are using the classic view, from the **Entities** site map, select the entity (Contact or Lead) and then the form for which you want to configure the timeline. In the form, go to **SOCIAL PANE** > **Activities** and configure the properties accordingly.  
 
-1. Select **OK**, and then save and publish the customizations.
+1. On the entity form, select the **Timeline** section.  
+1. In the Timeline properties pane, go to **Activities** section, and then select and configure the activity (InMail, Message, or Smart Links) to display on the timeline.  
+1. Save and publish the customizations.
 
 ## Related information
 
