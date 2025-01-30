@@ -17,13 +17,6 @@ When a sequence contains a customer contact activity, your [work list](prioritiz
 
 By default, activities are assigned to the owner of the record. When the owner of the record changes, the current active step remains with the previous owner, while the next steps in the sequence will be automatically assigned to the new owner. The owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Call a customer
 
 You can make a phone call to your customer from the record in the **My work** list or an activity in the **Up next** widget. The app calls the contact's business phone number if there's one. If no business phone number is available, the app calls the contact's mobile phone number. If both a business and a mobile phone number aren't available, the app displays the softphone dialer for you to dial a phone number manually. If the contact has indicated they don't want to be contacted by phone, the app displays a warning message before you make the call.

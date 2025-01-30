@@ -17,13 +17,6 @@ Harness the power of AI to get insights into which deals are most likely to clos
 > [!NOTE]
 > Lead scoring requires a minimum of 40 qualified leads and 40 disqualified leads, all of which have been created in the past two years. Opportunity scoring requires a minimum of 40 won opportunities and 40 lost opportunities, all of which have been created in the past two years.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Overview
 
 Predictive lead scoring allows your sales teams to [prioritize leads based on scores](work-predictive-lead-scoring.md) and achieve higher lead qualification rates.

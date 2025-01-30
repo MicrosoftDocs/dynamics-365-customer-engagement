@@ -17,13 +17,6 @@ ms.custom:
 
 View assigned records to reassign them to different sellers or teams. Also, you get detailed information of the record such as topic, owner, created on date, and error details depending on the record type. The supported default record types are leads, opportunities, contacts, and accounts.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## View assigned records
 
 1. Go to **Sales Insights settings** and under **Sales accelerator**, select **Work assignment**.  
