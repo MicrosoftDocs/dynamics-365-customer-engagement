@@ -61,7 +61,7 @@ For example, lets look at a setup with the following four queues, all with group
 - **VIP Support and Premium Support**: Default first-in-first-out prioritization
 - **Order Support and Invoice Inquiries**: Custom prioritization rules
 
-For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the agent, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
+For a support representative who is subscribed to all the four queues, they receive the oldest item from the VIP Support and Premium support queues. If these two queues don't have eligible items for the representative, work from the Invoice Inquiries queue is assigned next followed by the work from the Order Support queue. 
 
 > [!NOTE]
 > We recommend that you assign distinct queue priorities to queues with custom prioritization rules. Even if the queues have the same prioritization ruleset, they're considered to be distinct.
@@ -224,14 +224,14 @@ Dynamic match reduces the effort of having to write and maintain multiple static
 
 When agents receive a work item through automatic assignment, they generally have the option to accept or decline it. Both [rejection](enable-agent-reject-notifications.md) and [allowing the notification to time out](manage-missed-notifications.md) are considered as declining the work item. If an agent declines a work item by either method, their priority for that conversation is reduced during the next assignment attempt. The agent might be reconsidered for the same work item up to three times or the specified limit in following scenarios:
 - If the agent is uniquely qualified for the declined conversation and meets the capacity and presence requirements.
-- If all others eligible agents also decline.
+- If all other eligible agents also decline.
 
-If an agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. The agents can still manually pick the work item.
+If the agent declines the same work item three times or reaches the configured limit, the agent is no longer considered for auto assignment of that particular work item. The system then attempts to assign the declined work item to other eligible agents in the queue. The agents can still manually pick the work item.
 
 For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other agents, including those who rejected it.
+> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other agents including those who rejected it.
 
 You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 
