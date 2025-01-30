@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection:
-ms.date: 01/31/2025
+ms.date: 01/30/2025
 ms.custom: bap-template 
 ---
 
@@ -89,7 +89,7 @@ When you have an active case or conversation open, Copilot suggests prompts base
 - For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
 
 > [!NOTE]
-> Copilot generates auto prompts based on case data in the Customer Service only.
+> Copilot generates auto prompts based on case data in Customer Service only.
 
 
 ## Use proactive prompts
