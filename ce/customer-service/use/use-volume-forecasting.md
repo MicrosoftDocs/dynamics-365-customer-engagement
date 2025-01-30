@@ -1,6 +1,6 @@
 ---
-title: Forecast case and conversation volumes, and service representatives for conversations
-description: Learn how to use forecast reports to predict customer service representative, case, and conversation volumes in Dynamics 365 Customer Service.
+title: Forecast case and conversation volumes, and agents for conversations
+description: Learn how to use forecast reports to predict agent, case, and conversation volumes in Dynamics 365 Customer Service.
 ms.date: 11/28/2024
 ms.topic: conceptual
 author: lalexms
