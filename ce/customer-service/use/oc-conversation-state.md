@@ -111,7 +111,7 @@ The conversations that are completed by ending them or closing the session are c
 
 When service representatives close the conversation using the close (**X**) button on the communication panel or end the conversation using the **End** button, the system handles the two behaviors as follows:
 
-   - **End conversation using the End button**: For all the channels, the system moves the conversation to the wrap-up state where the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream.
+   - **End conversation using the End button**: For all the channels, the system moves the conversation to the wrap-up state where the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream. Learn more in [work distribution settings](../administer/create-workstreams.md).
    - **End conversation using the End button and then close session window using the close (X) button**: For all the channels, the system closes the conversation. However, if the representative selects the close (**X**) button after the wrap-up tasks, the representative's capacity is handled based on the **Block capacity for wrap-up** setting of the workstream.
    - **Close conversation using the close (X) button and not the End button**: When the representative uses the close (**X**) button instead of the **End** button, the system handles the conversation as follows:
        - **Voice and chat channels**: The conversation goes into open state and the system reassigns the conversation to another available service representative.
