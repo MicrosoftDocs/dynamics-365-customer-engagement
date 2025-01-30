@@ -1,6 +1,6 @@
 ---
-title: Forecast case and conversation volumes, and service representatives for conversations
-description: Learn how to use forecast reports to predict customer service representative, case, and conversation volumes in Dynamics 365 Customer Service.
+title: Forecast case and conversation volumes, and agents for conversations
+description: Learn how to use forecast reports to predict agent, case, and conversation volumes in Dynamics 365 Customer Service.
 ms.date: 11/28/2024
 ms.topic: conceptual
 author: lalexms
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and service representatives for conversations
+# Forecast case and conversation volumes, and agents for conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -75,7 +75,7 @@ You can view the forecast reports in the Customer Service workspace or Omnichann
 
 The forecast reports support two modes:
 
-- **Daily**: This mode displays the actual and predicted case and conversation volumes and service representative demand per day, for a time range of up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan service representativeresourcing and recruitment to meet a future demand.
+- **Daily**: This mode displays the actual and predicted case and conversation volumes and service representative demand per day, for a time range of up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan service representative resourcing and recruitment to meet a future demand.
 
 - **Intraday**: This mode displays the actual and predicted case and conversation volumes and service representative demand in intervals of 15 minutes, for a time range of up to six weeks, depending on how many days of cases or conversations were created in the past. This forecast can be used to schedule service representatives to meet the near-term demand.
 

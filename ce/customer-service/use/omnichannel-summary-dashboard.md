@@ -64,7 +64,7 @@ The following charts are displayed in the Summary dashboard.
 
 | Title | Description |
 | ------- | ------------------ |
-| Total conversations | A graphical view of the conversations initiated by the customer and connected to a customer service representative directly, resolved by the Copilot Studio bot, or escalated by a bot to the customer service representative.|
+| Total conversations | A graphical view of the conversations initiated by the customer and connected to a service representative directly, resolved by the Copilot Studio agent, or escalated by an AI agent to the service representative.|
 | Agent engagement rate over time | A graphical view of the daily incoming conversations, conversations engaged by an agent, and abandoned conversations over time. |
 | Bot conversations| A graphical view of the daily deflection and escalation rate and abandon rate over the specified time period. |
 
