@@ -718,7 +718,7 @@
         items:
         - name: Configure case forecasting
           href: configure-volume-forecasting.md
-        - name: Configure agent forecasting for conversation
+        - name: Configure service representative forecasting for conversation
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md

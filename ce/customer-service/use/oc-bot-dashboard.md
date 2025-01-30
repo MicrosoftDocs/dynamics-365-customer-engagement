@@ -15,7 +15,7 @@ ms.reviewer: mgandham
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-In the the application, you can integrate both Azure and Copilot Studio bots to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR bots. You can use the dashboard to understand how bots are performing in a support organization. 
+In the application, you can integrate both Azure and Copilot Studio agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR bots. You can use the dashboard to understand how bots are performing in a support organization. 
 
 In the Customer Service workspace or Contact Center workspace application, perform the following steps to view the dashboard:
 
@@ -23,8 +23,8 @@ In the Customer Service workspace or Contact Center workspace application, perfo
 1. On the page that appears, select the Bot dashboard.
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Customer Service admin center, the dashboard is as follows:
-- **Enabled**: Indicates that your organization only has Copilot Studio bots configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot Studio bots are displayed.
-- **Disabled**: Indicates that your organization has both Azure and Copilot Studio bots configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
+- **Enabled**: Indicates that your organization only has Copilot Studio agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot Studio agents are displayed.
+- **Disabled**: Indicates that your organization has both Azure and Copilot Studio agents configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
 
 ## Prerequisites
 
@@ -33,13 +33,13 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
 
- The bot dashboard displays metrics specific to Copilot Studio bots only if Copilot Studio bots are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
+ The bot dashboard displays metrics specific to Copilot Studio agents only if Copilot Studio agents are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
 
   :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
 
   ### Report details
 
- The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Copilot Studio bots. You can filter these areas by duration, channel, queue, or customer service representatives (service representatives or representatives).
+ The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Copilot Studio agents. You can filter these areas by duration, channel, queue, or service representatives.
 
   :::image type="content" source="../media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
@@ -158,7 +158,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  ### Customize bot dashboard
 
-For Copilot Studio bots, you can edit the report to add the additional metrics and filters to the bot. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
+For Copilot Studio agents, you can edit the report to add the additional metrics and filters to the bot. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
 
 
 ## [Dashboard for all bots ](#tab/allbots)
