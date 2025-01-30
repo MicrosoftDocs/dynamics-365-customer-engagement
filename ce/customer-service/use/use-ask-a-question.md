@@ -107,7 +107,7 @@ Copilot proactively suggests prompts, without you having to type one, that you c
     :::image type="content" source="../media/proactive-prompting.png" alt-text="Screenshot shows options in proactive prompting.":::
 
 > [!NOTE]
-> Copilot generates proactive prompts based on case data in the Customer Service only.
+> Copilot generates proactive prompts based on case data in Customer Service only.
 
 ## View responses
 
