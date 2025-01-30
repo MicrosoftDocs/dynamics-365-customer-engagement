@@ -374,7 +374,7 @@
             href: manage-bookmarks.md
         - name: Forecast reports
           items:
-          - name: Forecast service representative, case, and conversation volumes
+          - name: Forecast agent, case, and conversation volumes
             href: use-volume-forecasting.md
         - name: Customize visual display
           href: customize-reports.md
