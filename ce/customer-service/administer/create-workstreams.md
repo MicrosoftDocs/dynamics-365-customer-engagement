@@ -57,8 +57,8 @@ You can create workstreams for unified routing in the Customer Service admin cen
     - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     
     - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
-         - In **Push** mode, a work item is dispatched to agents automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, only push mode is available.
-         - In **Pick** mode, a work item is dispatched to agents when they explicitly pick the work item from the **Open work items** in the agent dashboard.
+         - In **Push** mode, the system routes the work item to customer service representatives (service representatives or representatives) automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, push mode only is available.
+         - In **Pick** mode, the system routes the work item to service representatives when they explicitly pick the work item from the **Open work items** in the representative's dashboard.
     
     - In **Fallback queue**, select one of the following options:
          - **Create new**: Enter a queue name to which work items are sent when no queue is identified in the the route-to-queue rules. You must add users to the queue after creating the workstream.
@@ -98,18 +98,21 @@ In the **Work distribution** area of a workstream, you can either accept the def
 
 - **Auto-close after inactivity**: Select a time period after which inactive conversations are moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
  
-- **Work distribution mode**: The option that you selected in step 3 is displayed and can't be edited.
+- **Work distribution mode**: The option that you selected when creating the workstream is displayed and can't be edited.
 - **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
-- **Block capacity for wrap up**: Select a duration to block capacity when the agent is in **Wrap-up** state, such as **1 minute** or **60 minutes**. After the specified duration, agent capacity is released and presence is automatically reset. By default, **Always block** is selected, where agent capacity is blocked as long as the conversation is in **Wrap-up** state. You can also select **Don't block**, where agent capacity is released immediately, when the conversation moves to the **Wrap-up** state.
-
+- **Block capacity for wrap up**: 
+  - **Always block**: Is the default selection. The representative capacity is consumed until the representative or supervisor closes the conversation or the system closes them automatically based on the configured time. Learn more in [Close conversations automatically](auto-close-conversation-powerapps.md#default-time-for-automatic-closure-of-conversations).
+  - **Custom time**: The **Custom time in minutes** box is enabled where you can select a duration, such as **1 minute** or **60 minutes** to block capacity. After the specified duration, the system releases the capacity and automatically resets presence.
+  - **Don't block**: The representative capacity is released immediately when the conversation moves to the **Wrap-up** state.
+  
   > [!NOTE]
-  > If you selected **End of Day mode** in capacity profile, agent capacity isn't reset when the duration selected in the **Block capacity for wrap up** field is over.
+  > If you selected **End of Day mode** in capacity profile, representative capacity isn't reset when the duration selected in **Block capacity for wrap up** is over.
 
-- **Allowed presences**: Select the presence statuses in which agents can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to agents when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
+- **Allowed presences**: Select the presence statuses in which representatives can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to representatives when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
-- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. More information: [Agent affinity](#agent-affinity)
+- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. More information: [Agent affinity](#agent-affinity)
 
 ### Configure advanced settings
 
@@ -152,14 +155,14 @@ Select a workstream to perform any of the following actions:
 
 ### Agent affinity
 
-The agent affinity feature makes sure that work items are assigned to the agents based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same agent who handled the conversation previously, irrespective of the agent's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
+The agent affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 
-Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same agent who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the agent. This helps save the effort to reorient the agent or set the context about the customer issue again. 
+Agent affinity is enabled by default for persistent chat, SMS, social channels, and Microsoft Teams. In these channels, when a conversation moves from the waiting to active state, it might not get assigned to the same representative who had previously handled it. You can set the **Keep same agent for entire conversation** toggle to **Yes** when you configure the work distribution for the workstream to reassign the conversation to the representative. This helps save the effort to reorient the representative or set the context about the customer issue again. 
 
-However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same agent. The agent can choose to reject the assigned conversation via the notification pane.
+However, for live chat, there's no waiting state. So, when the state of the conversation changes from active to open state, it is reassigned to the same representative. The representative can choose to reject the assigned conversation via the notification pane.
 
-> [!Note]
-> Agent affinity is applicable only for push type of work distribution.
+> [!NOTE]
+> Agent affinity is applicable for push type of work distribution only.
 
 ### Associate templates
 
