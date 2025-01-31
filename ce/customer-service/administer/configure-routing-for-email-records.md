@@ -39,7 +39,7 @@ A high-level overview of unified routing with email records is as follows.
 
 
 > [!NOTE]
-> You must ensure that the representative capacity is released after work is completed on the email record. Learn more in [Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives)
+> You must ensure that the representative capacity is released after work is completed on the email record. Learn more in [Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives).
 
 ### Related information
 
