@@ -224,7 +224,7 @@ There are several reasons why an agent might put a customer on hold. For example
 
 For the Voice report, this metric is a measure of talk, hold, and active wrap-up time.
 
-:::image type="content" source="../media/voice-aht-cal.jpg" alt-text="Screenshot of avergade handle time calcualtion for voice.":::
+:::image type="content" source="../media/voice-aht-cal.jpg" alt-text="Screenshot of average handle time calcualtion for voice.":::
 
 ### Average conversation talk time
 
