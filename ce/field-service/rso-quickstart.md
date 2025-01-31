@@ -26,33 +26,34 @@ For more Field Service videos, see [this full playlist](https://aka.ms/fs-videos
 
 - You need **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see [Resource Scheduling Optimization configuration](./rso-configuration.md#add-required-security-roles-to-users-who-configure-and-run-resource-scheduling-optimization).
 
-## Step 1: Set work orders to optimize
+- Views are set up that filter the records you want in your scope for optimization.
+
+## Step 1: Set resources as eligible for optimization
+
+Choose which resources are eligible for optimization.
+
+1. Go to **Resource Scheduling Optimization** > **Resources**.
+
+1. Choose the resources that you want to optimize and select **Edit**.
+
+1. In the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save**.
+
+:::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of a bookable resource entity with Optimize schedule set to yes.":::
+
+## Step 2: Set work orders to optimize
 
 Choose which work orders to optimize.
 
 1. Go to **Resource Scheduling Optimization** and select **Resource Requirements**.
 
-1. Select the records to optimize. Select **Edit** to change them in bulk.
+1. Select the work orders that you want to optimize and select **Edit**.
 
    :::image type="content" source="media/rso-quickstart-requirement-view-bulk-edit.png" alt-text="Screenshot of a list of work order requirements.":::
 
-1. Set the **Scheduling Method** to **Optimize**.
+1. Set the **Optimize Schedule** to **Yes** and **Save**.
 
 > [!TIP]
 > - The system can [automatically set work order requirements to be optimized](rso-configuration.md) when you create a work order in the **Booking Setup Metadata** settings.
-> - You also can change the optimization method individually for a resource requirement record on the **Resource Scheduling Optimization** tab.
-
-## Step 2: Set resources as eligible for optimization
-
-Define the resources that are eligible for optimization.
-
-1. In the **Resources** list, choose the resources that you want to enable and select **Edit**.
-
-1. Set the **Optimize Schedule** field to **Yes**.
-
-Similar to requirements, this can be done individually or with a bulk edit.
-
-:::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of a bookable resource entity with Optimize schedule set to yes.":::
 
 ## Step 3: Verify booking statuses
 
