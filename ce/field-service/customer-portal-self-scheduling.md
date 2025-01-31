@@ -103,7 +103,7 @@ Before customers can use the Field Service portal, make sure you [configured the
 
 A contact with a matching email only receives the portal invite once, even if the contact is deleted and readded to the system. To resend an invite:
 
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.com) and select your organization's environment.
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select your organization's environment.
 1. Select **Power Apps** and then select **Portal Management**.
 1. Select **Contacts** and open the newly created contact record.
 1. On the command bar, select **Create Invitation**. Fill in any additional information and select **Save**.
@@ -127,7 +127,7 @@ Make sure you have the correct [business process flow](/power-automate/create-bu
 1. Under **Objects**, select **Processes**.
 1. Search for and open **Send Password Reset to Contact**. Scroll down and select **View Properties**.
 1. Edit the **From** field for a user. Typically the same account you use to send notifications for the scheduling experience. Then, select **Save and Close**.
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.com) and select your organization's environment.
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com) and select your organization's environment.
 1. Select **Settings** > **Email** > **Mailboxes**.
 1. Select the user you set in step 5, select **Approve Email**, and then select **Test & Enable Mailbox**.
 
