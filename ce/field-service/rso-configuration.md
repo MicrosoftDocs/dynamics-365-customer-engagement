@@ -28,7 +28,7 @@ Perform these configuration steps after [successful deployment](rso-deployment.m
 
 Ensure that Resource Scheduling Optimization can optimize work order-related requirements and bookings:
 
-1. Go to **Settings** > **Advanced Settings** > **Security** > **Users**. And assign the security role *Field Service - Administrator* to the Resource Scheduling Optimization application user.
+1. [Assign the security role](/power-platform/admin/assign-security-roles) *Field Service - Administrator* to the Resource Scheduling Optimization application user.
 
 1. Go to **Security** > **Field Security Profiles**. Select **Resource Scheduling Optimization – Administrator** and add the Resource Scheduling Optimization application user to the field security profile.
   
@@ -52,29 +52,33 @@ Enable dispatchers to interact with Resource Scheduling Optimization:
 
 The settings described in this section apply to all optimization scopes.
 
-1. Go to **Resource Scheduling Optimization** > **Resources**. Open the **Scheduling Summary** view. Select one or more resource records and select **Edit**.
+1. Go to **Resource Scheduling Optimization** > **Resources**. Open the **Scheduling Summary** view.
 
-1. In the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records. Enabling the setting doesn't automatically schedule requirements to the selected resource. It enables Resource Scheduling Optimization to consider the resource during schedule optimization runs.
+   - Select one or more resource records and select **Edit**.
 
-   :::image type="content" source="media/resource-enable-rso.png" alt-text="Screenshot of enabling Resource Scheduling Optimization for a resource.":::
+   - On the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records. Enabling the setting doesn't automatically schedule requirements to the selected resource. It enables Resource Scheduling Optimization to consider the resource during schedule optimization runs.
 
-1. Make sure the address for the organizational unit or resource address is set for each resource, depending on their start and end location. Go to [Create bookable resources](set-up-bookable-resources.md#create-other-bookable-resources).
+   - Make sure the address for the organizational unit or resource address is set for each resource, depending on their start and end location. For more information, go to [Create bookable resources](set-up-bookable-resources.md#create-other-bookable-resources).
   
-1. Go to **Resource Scheduling Optimization** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
+   :::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of five bookable resources with Optimize schedule set to yes.":::
 
-1. Double-click an enabled entity to configure booking setup metadata. In the **Resource Scheduling Optimization** section, set the **Default Scheduling Method** to **Optimize** and **Save** the changes. For example, you can enable it for the work order entity. The system sets every new work order and related resource requirement to optimize automatically.
+1. Go to **Resource Scheduling Optimization** > **Administration** > **Enable Resource Scheduling for Entities**.
 
-   :::image type="content" source="media/rso-entity-default-scheduling-method.png" alt-text="Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to Optimize.":::
+   - Double-click an enabled entity such as work order to configure booking setup metadata. In the **Resource Scheduling Optimization** section, set the **Default Scheduling Method** to **Optimize** and **Save** the changes. The system sets every new work order and related resource requirement to optimize automatically.
 
-1. For existing resource requirement records, update the resource requirements scheduling method. Go to **Resource Scheduling Optimization** > **Resource Requirements** and open the **Unscheduled Work Order Requirements** view. Select the records to optimize, and select **Edit**.
+     :::image type="content" source="media/rso-entity-default-scheduling-method.png" alt-text="Screenshot showing the Booking Setup Metadata, with Default Scheduling Method set to Optimize.":::
 
-   - On the **Resource Scheduling Optimization** tab, set the **Scheduling Method** to **Optimize**.
+1. Go to **Resource Scheduling Optimization** > **Resource Requirements** and open the **Unscheduled Work Order Requirements** view.
 
-   - On the Scheduling tab, make sure the location is **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify the address.  
+   - Select the records to optimize, and select **Edit**.
+
+   - On the **Resource Scheduling Optimization** tab, set **Scheduling Method** to **Optimize** and **Save** the records.
+
+   - On the Scheduling tab, make sure the work location is **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify the address.  
 
    - On the **General** tab, check that **From Date** and **To Date** fall into the time window you want to schedule. You can use the bulk edit feature to update values for selected records as well.
 
-1. Go to **Resource Scheduling Optimization** > **Settings** > **Booking Statuses**. Select a booking status and choose the **Scheduling Method**.
+1. Go to **Resource Scheduling Optimization** > **Booking Statuses**. Select a booking status and choose the **Scheduling Method**.
 
    :::image type="content" source="media/rso-booking-statuses.png" alt-text="Screenshot showing active booking statuses.":::
 

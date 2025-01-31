@@ -16,15 +16,13 @@ This article guides you through configuration of Resource Scheduling Optimizatio
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=759eefa3-85ea-414e-8d2e-ac53e0a438de]
 
-For more Field Service videos, see [this full playlist](https://aka.ms/fs-videos).
-
 ## Prerequisites
 
-- Resource Scheduling Optimization is already [deployed to your Field Service environment](rso-deployment.md).
+- Resource Scheduling Optimization is [deployed to your Field Service environment](rso-deployment.md).
 
-- Resource Scheduling Optimization is already [configured](rso-configuration.md).
+- Resource Scheduling Optimization is [enabled](rso-configuration.md#enable-resource-scheduling-optimization).
 
-- You need **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, see [Resource Scheduling Optimization configuration](./rso-configuration.md#add-required-security-roles-to-users-who-configure-and-run-resource-scheduling-optimization).
+- You have **Field Service-Administrator** and **Resource Scheduling Optimization** security roles and the **Field Service-Administrator** and **Resource Scheduling Optimization-Administrator** field security profiles. For more information, go to [Resource Scheduling Optimization configuration](./rso-configuration.md#add-required-security-roles-to-users-who-configure-and-run-resource-scheduling-optimization).
 
 - Views are set up that filter the records you want in your [optimization scope](rso-optimization-scope.md).
 
@@ -36,41 +34,41 @@ Choose the resources and work orders you want to optimize and enable them for op
 
 ## Step 2: Verify booking statuses
 
-Field Service uses [booking statuses](set-up-booking-statuses.md), and Resource Scheduling Optimization adds the scheduling methods **Ignore**, **Do Not Move**, or **Optimize** and maps them to the booking statuses. Make sure the highlighted booking statuses match your system.  
+Field Service uses [booking statuses](set-up-booking-statuses.md), and Resource Scheduling Optimization adds the scheduling methods **Ignore**, **Do Not Move**, or **Optimize** and maps them to the booking statuses. Make sure the highlighted booking statuses match your system??? Do they have to match?
 
 :::image type="content" source="media/rso-quickstart-booking-statuses.png" alt-text="Screenshot of a list of booking statuses mapped to Resource Scheduling Optimization statuses.":::
 
-For this example, if they don't match, go to **Resource Scheduling Optimization** > **Optimization Schedules** > and select **Reset**.
+For this example, if they don't match, go to **Resource Scheduling Optimization** > **Optimization Schedules** > and select **Reset**.  Doesn't this reset all schedules?
 
 ## Step 3: Create an optimization scope
 
-[Create an optimization scope](rso-optimization-scope.md).
+[Create an optimization scope](rso-optimization-scope.md). Make sure you select the resource and requirement views you identified that filter the records you want. Select a booking view such as **Active Bookable Resource Bookings**.
 
 :::image type="content" source="media/rso-quickstart-scope.png" alt-text="Screenshot of an optimization scope.":::
 
 ## Step 4: Create a goal
 
-1. Create an [optimization goal](rso-optimization-goal.md) with the following values:
+Create an [optimization goal](rso-optimization-goal.md) with the following values:
 
-   - **Engine Effort Level**: **Very Light**, which means that the system completes the run quickly in exchange for accuracy.
+- **Engine Effort Level**: Select **Very Light**, which means that the system completes the run quickly in exchange for accuracy.
 
-   - **Constraints**: Start with fewer [constraints](rso-optimization-goal.md#understand-constraints) and add more as you successfully run Resource Scheduling Optimization. This makes it easier to troubleshoot if Resource Scheduling Optimization produces unexpected results. For example:
+- **Constraints**: Start with fewer [constraints](rso-optimization-goal.md#understand-constraints) and add more as you successfully run Resource Scheduling Optimization. This makes it easier to troubleshoot if Resource Scheduling Optimization produces unexpected results. For example:
 
-     - **Schedule Within Working Hours** if you have working hours defined.
-     - **Meets Required Characteristics** if your requirements and resources both have characteristics.
-     - **Matches Territory** if your requirements and resources both belong to the same service territory.
+  - **Schedule Within Working Hours** if you have working hours defined.
+  - **Meets Required Characteristics** if your requirements and resources both have characteristics.
+  - **Matches Territory** if your requirements and resources both belong to the same service territory.
 
-1. Select **Save**.
+- [Objectives](rso-optimization-goal.md#understand-objectives): Select the following order:
 
-1. For [objectives](rso-optimization-goal.md#understand-objectives), select the following order:
-
-    1. **Maximize Total Working Hours**
-    1. **Minimize Total Travel Time**
-    1. **Best Matching Skill Level**
+  1. **Maximize Total Working Hours**
+  1. **Minimize Total Travel Time**
+  1. **Best Matching Skill Level**
 
 ## Step 5: Create a schedule
 
 Combine the scope and goal you created into a schedule. If you plan to run Resource Scheduling Optimization manually, enter dates in the past.
+
+:::image type="content" source="media/rso-schedule.png" alt-text="Screenshot showing an optimization schedule.":::
 
 ## Step 6: Run Resource Scheduling Optimization
 

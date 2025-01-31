@@ -34,7 +34,7 @@ Using the elements of a goal, you define how bookings should be optimized.
 
    - [**Constraints**](#understand-constraints): Restrictions that are imposed on the bookings that the system creates.
 
-1. Select **Save** to create the *Scheduling Optimization Goal* record.
+1. Select **Save** to create the record.
 
 1. In the **Objectives** section, select an [objective](#understand-objectives) to change its properties. Select **New Scheduling Optimization Objective** to add more.
 
@@ -46,7 +46,7 @@ When Resource Scheduling Optimization is deployed, the system automatically crea
 
 The default goal is used when single resource optimization is selected from the schedule board.
 
-Go to **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Resource Scheduling Optimization** to set the default goal.
+Go to **Resource Scheduling Optimization** > **Administration** > **Scheduling Parameter**. Select the **Resource Scheduling Optimization** tab to set the default goal.
 
 ## Understand constraints
 

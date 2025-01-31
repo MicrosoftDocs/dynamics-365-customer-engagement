@@ -31,7 +31,7 @@ After you create a scope and a goal, you can combine and schedule them in an opt
     - *Fixed*: Optimization runs occur after every specified time interval.
     - *After Job Completion*: Optimization runs wait for the specified time interval after the last Resource Scheduling Optimization job is completed.
 
-1. Use the **Valid From** and **Valid To** fields to define the date and time range that the schedule is active during.
+1. Use the **Valid From** and **Valid To** fields to define the date and time range that the schedule is active.
 
 1. On the **Filter** tab, you can specify more details to define when the schedule runs during the specified time range. Filters can be helpful if you want to run optimizations only on specific days.
 
