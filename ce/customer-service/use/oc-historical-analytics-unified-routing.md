@@ -44,7 +44,7 @@ The unified routing report displays the following metrics for the selected filte
 |Incoming conversations     | The number of conversations initiated by the customer that can be presented to a  customer service representative (service representative or representative).        | All conversations, except bot conversations, are considered.        |
 |Routed conversations     | The total number of incoming conversations that have been routed successfully. <br> **Note:** A conversation routed to a fallback queue is not considered in the calculation of the metric.       |         |
 |Incoming sessions     | The total number of sessions that were created.        |         |
-|Session transfer rate     | The percentage of incoming sessions that were transferred to another service representative or queue.         |         |
+|Session transfer rate     | The percentage of incoming sessions that were transferred to another representative or queue.         |         |
 |Incoming conversations v/s routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed successfully.      |         |
 |Session transfer rate trend     | The day wise trend of session transfer rate.        |         |
 |Top 5 Skills demanded     | The top five skills required by the incoming conversations.        |         |
