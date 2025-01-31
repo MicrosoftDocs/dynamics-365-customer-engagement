@@ -48,7 +48,7 @@ Enable dispatchers to interact with Resource Scheduling Optimization:
 
 1. Open **Resource Scheduling Optimization - Dispatcher** and add the user or team to the profile and then select **Save**.
 
-## Prepare resources for optimizations
+## Prepare resources and requirements for optimizations
 
 The settings described in this section apply to all optimization scopes.
 
@@ -57,8 +57,8 @@ The settings described in this section apply to all optimization scopes.
 1. In the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records. Enabling the setting doesn't automatically schedule requirements to the selected resource. It enables Resource Scheduling Optimization to consider the resource during schedule optimization runs.
 
    :::image type="content" source="media/resource-enable-rso.png" alt-text="Screenshot of enabling Resource Scheduling Optimization for a resource.":::
-<!--- Is this step necessary? 
-1. After enabling the resources for schedule optimization, specify the address for the organizational unit or resource address, depending on their start and end location.--->
+
+1. Make sure the address for the organizational unit or resource address is set for each resource, depending on their start and end location. Go to [Create bookable resources](set-up-bookable-resources.md#create-other-bookable-resources).
   
 1. Go to **Resource Scheduling Optimization** > **Settings** > **Administration** > **Enable Resource Scheduling for Entities**.
 

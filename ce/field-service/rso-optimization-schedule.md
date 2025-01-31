@@ -3,7 +3,7 @@ title: Create optimization schedules in Resource Scheduling Optimization
 description: Learn how to use optimization schedules in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 07/16/2024
+ms.date: 01/31/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -16,19 +16,26 @@ After you create a scope and a goal, you can combine and schedule them in an opt
 
 ## Create an optimization schedule
 
-1. In Resource Scheduling Optimization, go to **Tools** > **Optimization Schedules**.
+1. Go to **Resource Scheduling Optimization** > **Optimization Schedules**.
+
 1. On the **General** tab, in the **Name** field, enter a name for the schedule.
+
 1. In the **Scope** field, select an [optimization scope](rso-optimization-scope.md) for the schedule.
+
 1. In the **Goal** field, select an [optimization goal](rso-optimization-goal.md) for the schedule.
+
 1. In the **Timer** field, select how often the optimization schedule runs.
+
 1. In the **Timer Mode** field, select one of the following values:
 
     - *Fixed*: Optimization runs occur after every specified time interval.
     - *After Job Completion*: Optimization runs wait for the specified time interval after the last Resource Scheduling Optimization job is completed.
 
 1. Use the **Valid From** and **Valid To** fields to define the date and time range that the schedule is active during.
+
 1. On the **Filter** tab, you can specify more details to define when the schedule runs during the specified time range. Filters can be helpful if you want to run optimizations only on specific days.
-1. Review all the values. If they are correct, select **Publish** on the command bar to activate the schedule.
+
+1. Select **Save** and then **Publish** the schedule.
 
 ### Optimization schedule statuses
 

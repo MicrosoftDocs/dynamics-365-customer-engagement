@@ -20,7 +20,7 @@ Using the elements of a goal, you define how bookings should be optimized.
 
 :::image type="content" source="media/scheduling-optimization-goal.png" alt-text="Screenshot of a Scheduling Optimization Goal record.":::
 
-1. In Resource Scheduling Optimization, under **Settings**, select **Optimization Goals**.
+1. Go to **Resource Scheduling Optimization** > **Optimization Goals**.
 
 1. Enter the following information:
 
