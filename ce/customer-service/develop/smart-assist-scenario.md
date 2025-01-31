@@ -1,14 +1,14 @@
 ---
-title: "Implement a custom scenario for smart assist bot | MicrosoftDocs"
-description: "Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist bots."
-ms.date: 04/25/2020
+title: Implement a custom scenario for smart assist bot
+description: Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist bots.
+ms.date: 01/31/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ---
-# Implement a custom scenario for smart assist bot
 
+# Implement a custom scenario for smart assist bot
 
 This topic provides information on how you can enable similar case suggestions in your smart assist bot.
 
