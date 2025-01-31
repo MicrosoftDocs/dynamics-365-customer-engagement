@@ -15,13 +15,6 @@ ai-usage: ai-assisted
 
 Customize the opportunity close form so that sellers can capture details about the closed opportunity such as reason for closure and profit margin. These details help sales managers to draw key insights and develop a better strategy.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Prerequisites
 
 - [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)

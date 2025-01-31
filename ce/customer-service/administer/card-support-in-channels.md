@@ -31,13 +31,21 @@ The following table lists the rich cards that are supported across different cha
 
 ✖: No support
 
+The Apple Messages for Business, SMS, and WhatsApp social channels don't support any cards listed in the preceding table.
+
+Learn more at [Send and Receive Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-).
+
 The markdown element for adaptive cards is partially supported across all chat channels. For example, the markdown element isn't supported in live chat, whereas, it's supported in LINE.
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-The Apple Messages for Business, SMS, and WhatsApp social channels don't support any cards listed in the preceding table.
+When a customer selects inputs in an adaptive card, these selections aren't visible to the agent. The original adaptive card only is displayed when the issue is escalated to the agent. The process works as follows when the Copilot Studio bot is used during a live chat:
 
-For more information, see the following article: [Send and Receive Media with WhatsApp Messaging on Twilio](https://support.twilio.com/hc/articles/360017961894-Sending-and-Receiving-Media-with-WhatsApp-Messaging-on-Twilio-Beta-)
+**Adaptive card (message 1):** The bot sends the adaptive card (message 1) to the customer to collect their input.
+
+**Customer response:** The customer selects an option and submits their response. This response is captured as a new message (message 2).
+
+**Escalation to agent:** If the conversation is escalated to an agent, the original adaptive card only (message 1) is shown. The agent doesn't see the customer's response (message 2).
 
 > [!IMPORTANT]
 > The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like timestamps and tags.
@@ -135,8 +143,6 @@ The following table list the text styles that are supported by Microsoft Teams, 
 > - Apple Messages for Business and SMS channels don't support formatted messages.
 > - A few text styles such as blockquote, headers, numbered lists, and unordered lists, are currently not supported across some channels.
 > - [Rich messages](https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages) are not supported in WhatsApp channel through Azure Communication Services.
-
-
 
 ## Next steps
 

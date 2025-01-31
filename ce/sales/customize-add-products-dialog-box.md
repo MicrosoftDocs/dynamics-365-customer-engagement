@@ -25,16 +25,6 @@ ms.custom:
 
 Customize the **Add products dialog** so that your sellers can see important product details while adding products to opportunity, quote, order, or invoice records in Dynamics 365 Sales.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
-> [!IMPORTANT]
-> Customizations described in this topic must be done within a custom solution. For more information, see [Why you shouldn't use the default solutions to manage customizations](/power-platform/alm/use-solutions-for-your-customizations#why-you-shouldnt-use-the-default-solutions-to-manage-customizations)
-
 ## What can you customize?
 
 You can customize the following components of the **Add product** dialog to help sellers identify and add products quickly:

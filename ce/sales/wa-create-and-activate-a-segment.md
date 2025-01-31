@@ -24,13 +24,6 @@ In this article, you'll learn how to create and activate segments in work assign
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## Create and activate a segment
 
 You can assign only active records to segments. For example, when a lead is qualified, it becomes a read-only record and creates an opportunity record. Since the lead is no longer active, it can't be connected to a segment.

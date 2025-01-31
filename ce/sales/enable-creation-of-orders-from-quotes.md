@@ -18,13 +18,6 @@ searchScope:
 
 Quotes have important data about the customers and the products they're interested in. When you enable the creation of orders from quotes, it allows sellers to quickly create an order from a quote so that most of the details in the order are prefilled from the quote.  
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sales Professional Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Enable quote creation
 
 1. Make sure you have a Sales Professional Manager or System Administrator role.

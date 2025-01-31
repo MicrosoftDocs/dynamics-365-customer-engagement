@@ -11,13 +11,6 @@ ms.reviewer: udag
 
 Use the export preference to choose which record types you want to export and limit the number of records to export in each record type.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## To configure export preferences
 
 As an administrator, you configure the export preference to choose which record types (accounts, contacts, and leads) to export and limit the number of records that you export in each record type. You can also enable the creation of new records, allow record duplicate creation, and update existing records for each record type.  

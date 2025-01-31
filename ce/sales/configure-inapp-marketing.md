@@ -25,14 +25,6 @@ searchScope:
 Configure the in-app marketing settings to define various aspects of campaigning. For example, you can specify whether you want to create a campaign response automatically when a customer responds to a campaign email. 
 
   
-## License and role requirements
-
-| &nbsp; | &nbsp; |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 ## To configure in-app marketing settings
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 

@@ -15,13 +15,6 @@ The Salesperson and Sales Manager roles have permissions to view who knows whom 
 
 The who knows whom widget appears for all users who can open the Sales Insights view in contact and lead pages. Users who don't have sufficient privileges to view who knows whom information see a message to that effect.  
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Grant access
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
