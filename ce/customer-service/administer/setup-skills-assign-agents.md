@@ -105,7 +105,7 @@ If you'd created proficiency scales in the classic experience, you can update th
 
 1. Select **Save**.
 
-After you save, the **Users (Agents)** section appears. In this section, you add the representatives and rating value. Learn more in [Assign agents to the skill](#assign-agents-to-skill)
+After you save, the **Users (Agents)** section appears. In this section, you add the representatives and rating value. Learn more in [Assign agents to the skill](#assign-agents-to-skill).
 
 ### Rating value of skills
 
@@ -192,7 +192,7 @@ Add the representatives as a bookable resource so that you can assign skills to 
 
 4. Select a service representative name for the **User (Agent)** field. This dropdown list only shows existing Bookable Resources and allows to select from them.
 
-5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. More information: [Rating value of skills](#rating-value-of-skills).
+5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. Learn more in [Rating value of skills](#rating-value-of-skills).
 
 6. Select **Save and Close**. The representative you added is displayed in the grid.
 
