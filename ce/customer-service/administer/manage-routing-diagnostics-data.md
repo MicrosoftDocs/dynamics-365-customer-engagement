@@ -12,7 +12,7 @@ ms.custom: bap-template
 # Manage routing diagnostics data
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as of May 09, 2024, and will be removed on March 01, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated as of May 09, 2024, and will be removed on May 08, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 The diagnostics data for unified routing is stored in [Dataverse for Apps Database Capacity](/power-platform/admin/capacity-storage). We recommend that you periodically delete the routing diagnostics data to manage the storage capacity.
 
