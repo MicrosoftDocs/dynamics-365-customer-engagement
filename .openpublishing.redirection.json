@@ -29290,7 +29290,7 @@
     },
     {
       "source_path": "ce/customer-service/migrate-acs.md",
-      "redirect_url": "administer/migrate-acs",
+      "redirect_url": "administer/overview",
       "redirect_document_id": false
     },
     {
@@ -33301,16 +33301,6 @@
     {
       "source_path": "ce/field-service/faqs-m365-chat.md",
       "redirect_url": "/dynamics365/field-service/deprecations-field-service",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/customer-service/administer/migrate-acs.md",
-      "redirect_url": "/dynamics365/customer-service/implement/overview",
-      "redirect_document_id": false
-    },
-    {
-      "source_path": "ce/customer-service/administer/migrate-acs.md",
-      "redirect_url": "/dynamics365/customer-service/implement/overview",
       "redirect_document_id": false
     }
   ]
