@@ -12,13 +12,6 @@ ms.reviewer: udag
 
 Manage your sequences in the sales accelerator by viewing details and cloning, editing, deleting, and applying tags to them.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## View details of sequences and connected records
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.

@@ -12,13 +12,6 @@ ms.reviewer: lavanyakr
 
 Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using javascript. 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Automatically hide parent row
 
 In a forecast, each parent row in the hierarchy entity has its own contributor row. This row shows the parent's individual [simple columns](./choose-layout-and-columns-forecast.md#simple-type), such as quota and revenue contribution. These dedicated contributor rows are shown whether or not they contain any values to contribute.

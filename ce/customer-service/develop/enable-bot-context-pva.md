@@ -1,7 +1,7 @@
 ---
 title:  Configure bot context in Copilot Studio bots 
 description: Use this article to understand how you can enable an Copilot Studio bot to understand context while authoring a bot flow.
-ms.date: 07/21/2023
+ms.date: 01/31/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
