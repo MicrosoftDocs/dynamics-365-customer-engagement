@@ -100,7 +100,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 After you have saved the queue, the following changes happen in the SUMMARY tab:
 
-- In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
+- In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes).
 
 - If you selected the queue type as private, the **MEMBERS** section appears.
    -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
@@ -134,9 +134,9 @@ In the **RECORD CREATION AND UPDATE RULES** section, you can create rules for au
   
 ## Route items to basic queues
 
-For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate representatives. Learn more in [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
+For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate representatives. Learn more in [Create rules to automatically route cases](create-rules-automatically-route-cases.md).
 
-Alternatively, you can manually add cases and activities to queues. Learn more in [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
+Alternatively, you can manually add cases and activities to queues. Learn more in [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue).
 
   
 ## Assign items to agents
