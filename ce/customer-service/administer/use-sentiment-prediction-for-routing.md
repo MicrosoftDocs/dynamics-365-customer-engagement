@@ -59,9 +59,9 @@ After you enable sentiment prediction, you can create a classification rule base
 
 **To create a rule based on sentiment prediction**
 
-1. Create or edit a workstream. Learn more in [Create workstreams](create-workstreams.md)
+1. Create or edit a workstream. Learn more in [Create workstreams](create-workstreams.md).
 
-2. Go to the **Work classification (optional)** section to create a classification rule. Learn more in [Configure work classification rulesets](configure-work-classification.md)
+2. Go to the **Work classification (optional)** section to create a classification rule. Learn more in [Configure work classification rulesets](configure-work-classification.md).
 
 3. In the **Create work classification ruleset** dialog, select the rule type as **Machine learning model**, and then select type as **Sentiment prediction**.
 
@@ -87,7 +87,7 @@ Create route-to-queue rules to route the work items based on the sentiment predi
 
 **To create route-to-queue rules**
 
-1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. Learn more in [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md)
+1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. Learn more in [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md).
 
 2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.
    
@@ -109,7 +109,7 @@ You can view how the sentiment prediction model was used to route a work item.
 
 ### Language support for sentiment prediction models
 
-All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. Learn more in [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support)
+All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. Learn more in [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support).
 
 ### Related information
 
