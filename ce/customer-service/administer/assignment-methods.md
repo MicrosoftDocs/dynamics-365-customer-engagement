@@ -76,7 +76,7 @@ The following assignment methods are available out of the box:
 
   - If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
 
-  - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match)
+  - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match).
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
@@ -197,7 +197,7 @@ The assignment rules are composed of the following items:
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
-    For user skills, the values are predefined for the operators. Learn more in [Set up skill-based routing](set-up-skill-based-routing.md)
+    For user skills, the values are predefined for the operators. Learn more in [Set up skill-based routing](set-up-skill-based-routing.md).
 
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best-suited one. You can specify the following order by clauses:
 
