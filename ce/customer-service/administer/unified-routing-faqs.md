@@ -88,7 +88,7 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 
 ### Does unified routing offer the same conversation when a representative declines it or after the notification times out?
 
-The representative isn't offered the conversation anymore once it is declined and is removed from priority, but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
+The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
 ## Route to least-active agent
 
