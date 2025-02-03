@@ -295,7 +295,11 @@ To attach a document:
   
      That way, your task will "roll up" under the account automatically, and you and other people on your team will see the task when they're looking at the contact, and when they're looking at the account for Imported Sports. (And they'll know you've got it handled.)  
   
-
+<a name="DeleteClosedAndCancelledActivities"></a>   
+## Delete closed and cancelled activities
+Closed and cancelled activities can be deleted only by the following users:
+1. Administrators
+2. Administrators who are impersonating the System User. [See here]([url](https://learn.microsoft.com/en-us/dynamics365/customerengagement/on-premises/developer/org-service/impersonate-another-user?view=op-9-1)) for how to impersonate another user.
  
 
 
