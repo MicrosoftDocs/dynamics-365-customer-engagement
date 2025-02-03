@@ -58,7 +58,7 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 1. In **Assignment method**, select any of the following options:
-   - **Highest capacity**: Assigns a work item to a service representative with the highest available capacity, having the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream.
+   - **Highest capacity**: Assigns a work item to a service representative with the highest available capacity. The representative has skills identified during the classification stage and presence that matches one of the allowed presences in the workstream.
    - **Advanced round robin**: Assigns a work item to the representative who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
    - **Least active**: Assigns a work item to the representatives who has been least active among all those who match skills, presence, and capacity.
    - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. Learn more about the custom assignment method in [Create custom assignment method](assignment-methods.md).
