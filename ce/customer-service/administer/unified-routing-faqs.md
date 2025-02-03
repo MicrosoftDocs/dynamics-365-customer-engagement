@@ -104,7 +104,7 @@ The representative's "last capacity release time for a voice call" is the only p
 
 If the last capacity release time is the same for two matching representatives, then assignment is done in a round-robin manner.
 
-### How does routing to the least active representative work when a new one signs in?
+### How does routing to the least active representative work when a new representative signs in?
 
 When a new representative signs in to the Customer Service workspace app, their "last capacity release time" isn't available in the system. Therefore, the system considers that representative as the least active among the matched others, and assigns the next work item to them.
 
