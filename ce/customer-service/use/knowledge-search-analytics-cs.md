@@ -1,7 +1,7 @@
 ---
 title: Knowledge article and search term analytics dashboards
 description: Learn about the knowledge article and search term analytics dashboards to better understand customer service representative performance in your organization.
-ms.date: 10/03/2022
+ms.date: 02/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

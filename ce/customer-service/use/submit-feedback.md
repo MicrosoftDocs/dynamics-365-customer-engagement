@@ -1,7 +1,7 @@
 ---
 title: Submit ratings and feedback for knowledge articles
 description: Learn how you can submit feedback about knowledge articles.
-ms.date: 06/14/2024
+ms.date: 02/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas

@@ -1,6 +1,6 @@
 ---
-title: Forecast case and conversation volumes, and agents for conversations
-description: Learn how to use forecast reports to predict agent, case, and conversation volumes in Dynamics 365 Customer Service.
+title: Forecast case and conversation volumes, and service representatives for conversations
+description: Learn how to use forecast reports to predict service representative, case, and conversation volumes in Dynamics 365 Customer Service.
 ms.date: 11/28/2024
 ms.topic: conceptual
 author: lalexms
@@ -15,7 +15,7 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Forecast case and conversation volumes, and agents for conversations
+# Forecast case and conversation volumes, and service representatives for conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -43,7 +43,7 @@ You can use the forecast reports for service representative, case, and conversat
 
 - Slice forecasted volumes and service representative demand by channel and queue.
 
-- View a rollup of actual and forecasted volume on an hourly, daily, weekly, monthly, and yearly basis. For the service representative demand report, you can select the type of rollup from maximum, minimum, average, and sum.
+- View a rollup of actual and forecasted volume on an hourly, daily, weekly, monthly, and yearly basis. For the agent demand report, you can select the type of rollup from maximum, minimum, average, and sum.
 
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This function helps the forecasting model to accurately predict case or conversation volumes during special, seasonal events.
 
@@ -81,7 +81,7 @@ The forecast reports support two modes:
 
 To change the report mode, switch the **Daily** or **Intraday** toggle button on the report, depending on which mode you want to view the report in.
 
-### Filters for case, conversation, and service representatives for conversations forecasting
+### Filters for case, conversation, and agents for conversations forecasting
 
 The **Case volumes**, **Conversation volumes**, and **Agents for conversations** tabs of the forecast report display visual and numeric metrics for the filters you select. The difference between the tabs is based on the input data source. Case data is based on the case entity, whereas conversation data is based on the omnichannel conversations, such as live chat, digital messages, and the voice channel.
 
