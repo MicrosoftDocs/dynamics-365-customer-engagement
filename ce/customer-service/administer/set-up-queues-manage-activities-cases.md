@@ -120,7 +120,7 @@ To optimize customer service representative (service representative or represent
 
 1. Save and close.
 
-At runtime, your representatives will see the views that you have set for them.
+At runtime, your representatives see the views that you have set for them.
 
 Learn more about how to create custom views in [Create and edit public views](/power-apps/maker/model-driven-apps/create-edit-views-app-designer).
 
