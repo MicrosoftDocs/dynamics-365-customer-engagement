@@ -26,7 +26,7 @@ The sentiment prediction uses the following seven-point scale that allows organi
 - Negative
 - Very negative
 
-The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider representative chat strings.
+The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider chat strings sent by the representative.
 
 [This article is prerelease documentation and is subject to change.]
 
