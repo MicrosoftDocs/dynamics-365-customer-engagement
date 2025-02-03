@@ -55,7 +55,7 @@ The system considers the following factors when it checks for overflow condition
 
 - If a work item is routed to a fallback queue because of errors or no route-to-queue rule matches the requirement, the system ignores the overflow settings for the fallback queue and assigns the work item to it.
 
-- If an AI agent is configured for the workstream, the system checks for overflow conditions only after the former escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
+- If an AI agent is configured for the workstream, the system checks for overflow conditions only after the AI agent escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition **Out of operation hours** with the action **Assign to queue anyway**. You can't edit the condition, but you can set a different action for it.
 
