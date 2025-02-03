@@ -1,7 +1,7 @@
 ---
-title: Configure agent forecasting for conversations
-description: Learn how to configure agent forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 11/28/2024
+title: Configure service representative forecasting for conversations
+description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
+ms.date: 01/31/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -15,34 +15,34 @@ ms.custom:
   - dyn365-customerservice
 ---
 
-# Configure agent forecasting for conversations
+# Configure service representative forecasting for conversations
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-This article describes how to set up agent forecasting for conversation in your organization.
+This article describes how to set up customer service representative (service representative or representative) forecasting for conversation in your organization.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Overview
 
-Customer service supervisors in your organization need to ensure that they have an adequate number of agents available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively affect customer satisfaction.
+Customer service supervisors in your organization need to ensure that they have an adequate number of service representatives available to serve their customers. Overcapacity results in higher costs, while under capacity results in longer customer wait times, which in turn can negatively affect customer satisfaction.
 
 As an administrator, you can configure the Agent forecasting for conversation report to help your supervisors plan the right level of staffing for your business based on predicted volumes of conversations.
 
 Supervisors can use the Agent forecasting for conversation report in the following ways:
 
-- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are enabled for your conversational channels, then the chatbot conversations that don't include a human agent are excluded from the forecast. You can then rely on the predicted conversation volumes for human agent staffing.
+- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are enabled for your conversational channels, then the chatbot conversations that don't include a service representative are excluded from the forecast. You can then rely on the predicted conversation volumes for service representative staffing.
 
-- Forecast agent demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
+- Forecast service representative demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
 
-- Visualize forecasted conversation volumes and agent demand on a daily basis, for a time range up to six months depending on how many days of cases were created in the past. This forecast can be used to plan agent resourcing and recruitment, to meet future demand.
+- Visualize forecasted conversation volumes and service representative demand on a daily basis, for a time range up to six months depending on how many days of cases were created in the past. This forecast can be used to plan service representative resourcing and recruitment, to meet future demand.
 
-- Visualize forecasted conversation volumes and agent demand on a 15-minute interval basis, for a time range up to six weeks depending on how many days of cases were created in the past. This forecast can be used to schedule agents to meet the near-term demand.
+- Visualize forecasted conversation volumes and service representative demand on a 15-minute interval basis, for a time range up to six weeks depending on how many days of cases were created in the past. This forecast can be used to schedule service representatives to meet the near-term demand.
 
-- Slice forecasted volumes and agent demand by channel and queue.
+- Slice forecasted volumes and service representative demand by channel and queue.
 
-- View rollup of actual and forecasted volume on hourly, daily, weekly, monthly, and yearly basis. For agent demand report, option to select the type of rollup from maximum, minimum, average, and sum.
+- View rollup of actual and forecasted volume on hourly, daily, weekly, monthly, and yearly basis. For service representative demand report, option to select the type of rollup from maximum, minimum, average, and sum.
 
 - Automatically detect seasonality from historical traffic with the settings option to import your holiday calendar. This automatic detection helps the forecasting model to accurately predict case or conversation volume during special, seasonal events.
 
@@ -51,17 +51,17 @@ Supervisors can use the Agent forecasting for conversation report in the followi
 >
 > - Forecasts might misstate volume estimates for many reasons, including unanticipated trends or business developments.
 >
-> - The agent forecasting for conversation report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights).
+> - The Agent forecasting for conversation report is currently available in certain geographical locations. Learn more in [Supported regions and languages for analytics and insights](cs-region-availability-service-limits.md#supported-regions-and-languages-for-analytics-and-insights).
 
 ## How agent forecasting for conversation works
 
 The forecast report for conversations uses an AI-backed forecasting model to predict conversation volumes based on historical conversation data. The model uses ensemble forecasting methodology with seasonality support (automatic detection and custom settings) to enhance the quality of forecasting.
-The forecast report for agents for conversations uses a statistical model to calculate the agent demand from the forecasted volumes.
+The forecast report for agents for conversations uses a statistical model to calculate the service representative demand from the forecasted volumes.
 
 The report can forecast daily trends for a date range up to six months, and intraday (15-minute interval) trends for a date range up to six weeks, depending on how many days of historical data are available and used. In general, the model can forecast for a period that is half of the input date range, with the following conditions:
 
-- For the daily conversation volume and agent demand forecast, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report forecasts for the next six months.
-- For the intraday (15-minute interval) conversation volume and agent demand forecast, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
+- For the daily conversation volume and service representative demand forecast, if the historical data time range is less than 12 months, the forecasting time range is the half of the input time range. For example, eight months of historical date range can forecast for the next four months. If the historical range equals or is more than 12 months (up to 24 months), the report forecasts for the next six months.
+- For the intraday (15-minute interval) conversation volume and service representative demand forecast, the model only analyzes the recent six weeks of historical data. The time range of forecast is half of the total input time range. For example, 12 weeks historical date range can forecast for the next six weeks (which is the maximum). Out of these 12 weeks of historical data, only the recent six weeks are analyzed to generate the forecast.
 
 The historical data must meet the following minimum requirements for the models to generate forecasting. Otherwise, an error message appears on the admin settings page.  
 
@@ -115,9 +115,9 @@ To be able to access the forecast reports, users in your organization must have 
 1. Under **Global Forecasting configuration** specify the following settings at the global level to apply to all channels. Some default values are provided as a suggestion to get you started, but you may want to change them to meet the needs of your organization.
 
    - **Required Service Level (%)**: The percentage of the conversations needed to meet the target answer time. For example, if you set your required service level percentage to 80 and your target answer time to 77, it indicates that you want 80 percent of your conversations to be answered in 77 seconds or less.
-   - **Target Answer Time (Seconds)**: The number of seconds in which you want your agents to answer their conversations.
-   - **Shrinkage (%)**: The percentage of time agents are unavailable to handle conversations. If you increase this number, the percentage of time that the agents are unavailable goes up, which means you would need more agents to meet the service-level agreement.
-   - **Concurrency (#)**: The number of simultaneous interactions per agent. For voice calls, this value should be set to one. For chats and messaging channels, this value can be set as desired.
+   - **Target Answer Time (Seconds)**: The number of seconds in which you want your service representatives to answer their conversations.
+   - **Shrinkage (%)**: The percentage of time service representatives are unavailable to handle conversations. If you increase this number, the percentage of time that the service representatives are unavailable goes up, which means you would need more service representatives to meet the service-level agreement.
+   - **Concurrency (#)**: The number of simultaneous interactions per service representative. For voice calls, this value should be set to one. For chats and messaging channels, this value can be set as desired.
 
 1. (Optional) If you want to override the values that are set in the **Global Forecasting configuration** for specific channels, you can use the settings in **Override Channel Forecasting configuration** to set values for each channel that's available in your organization. Any settings you don't change in the override remain as set at the global level. To specify overrides for one or more channels, do the following actions:
 
@@ -131,7 +131,7 @@ To be able to access the forecast reports, users in your organization must have 
 
 ### Related information
 
-[Forecast case and conversation volumes, and agents for conversations](../use/use-volume-forecasting.md)<br>
+[Forecast case and conversation volumes, and service representatives for conversations](../use/use-volume-forecasting.md)<br>
 [Configure case forecasting](configure-volume-forecasting.md)<br>
 [Introduction to Customer Service Insights](../implement/introduction-customer-service-analytics.md)<br>
 [Regional availability and Service limits for Customer Service](cs-region-availability-service-limits.md)
