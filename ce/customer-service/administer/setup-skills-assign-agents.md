@@ -190,7 +190,7 @@ Add the representatives as a bookable resource so that you can assign skills to 
 
 3. Select **New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
-4. Select a service representative name for the **User (Agent)** field. This dropdown list only shows existing Bookable Resources and allows to select from them.
+4. Select a service representative name for the **User (Agent)** field. This dropdown list displays existing Bookable Resources only and allows you to select from them.
 
 5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. Learn more in [Rating value of skills](#rating-value-of-skills).
 
