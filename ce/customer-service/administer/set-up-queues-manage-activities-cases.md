@@ -149,7 +149,7 @@ To assign items in the queue to representatives, select **Assign** after selecti
 >
 > - When two service representatives simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
 > - If you've created workflows or used custom API to assign cases, and if one of the cases is assigned to two representatives at the same time, then the system creates two queue items instead of a single queue item.
-> - When one representative picks a case created by another, and releases it from the queue, the case gets assigned to the queue owner and not to the original creator.
+> - When one representative picks a case created by another, and releases it from the queue, the case gets assigned to the queue owner and not to the representative who created the case.
 
 #### Create a queue in legacy Service Management
 
