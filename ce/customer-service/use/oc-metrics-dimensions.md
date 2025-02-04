@@ -208,9 +208,9 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 :::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
 
-#### Related metric
+### Average handle time
 
-**Average handle time**: This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
+This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
 
 For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](#average-session-handle-time).
 
