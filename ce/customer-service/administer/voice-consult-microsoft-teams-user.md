@@ -84,6 +84,12 @@ Get the [immutable resource ID](/azure/communication-services/concepts/troublesh
     - Add current Azure Communications Service resource ID to these existing resource IDs when you run the `Set-CsTeamsAcsFederationConfiguration` command in the next step.
  - Set Teams Azure Communications Service allow list.
      - Run `$allowlist = @('<UPDATED_ACS_RESOURCE_IDs>') Set-CsTeamsAcsFederationConfiguration -EnableAcsUsers $True -AllowedAcsResources $allowlist`
+  
+> [!NOTE]
+> To revoke External Access and disable this feature run
+>  ```powershell
+>    Set-CsExternalAccessPolicy -Identity Global -EnableAcsFederationAccess $false
+>   ```
 
 ### Related information
 
