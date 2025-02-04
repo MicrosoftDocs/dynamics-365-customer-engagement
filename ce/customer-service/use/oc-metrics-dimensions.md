@@ -208,33 +208,34 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 :::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
 
+#### Related metric
+
 **Average handle time**: This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done. This calculation is applicable to out-of-the-box Omnichannel realtime Agent, Voice, and Summary reports. 
 
-For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, go to the [Average session handle time](#average-session-handle-time) section.
+For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](#average-session-handle-time).
 
+For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
+
+- Talk time: The time a service representative spends in actively speaking with the customer.
+- Hold time: The time for which a service representative puts the customer on hold during the interaction.
+- Wrap-up time or after-call work: The time taken to complete any post-call tasks related to the interaction.
+- Total number of calls handled: The total number of customer interactions handled by the service representatives.​
+
+    :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
+
+For the Chat report, this metric is a measure of the total active chat time and total wrap-up time, divided by the number of chats handled, where:
+
+- Active chat time: The time a service representative spends in actively chatting with the customer.
+- Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
+- Total number of chats handled: The total number of customer interactions handled by the service representatives.
+
+    :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
 
 ### Average conversation hold time
 
 This metric is a measure of the average time, in seconds, that the service representatives who handled a conversation had the customer on hold. If multiple service representatives handled the conversation, the hold time across all the service representatives is aggregated. This metric is calculated by dividing the total hold time for all customer requests by the total number of customers who were served.
 
 There are several reasons why a service representative might put a customer on hold. For example, the service representative might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
-
-For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
-
-- Talk time: The time spent actively speaking with the customer.
-- Hold time: The time for which an agent puts the customer on hold during the interaction.
-- Wrap-up time or after-call Work: The time taken to complete any post-call tasks related to the interaction.
-- Total number of calls handled: The total number of customer interactions handled by the agents.​
-
-:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
-
-For the Chat report, this metric is a measure of the total active chat time and total wrap-up time, divided by the number of chats handled, where:
-
-- Active chat time: The time spent actively chatting with the customer.
-- Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
-- Total number of chats handled: The total number of customer interactions handled by the agents.
-
-:::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
 
 ### Average conversation talk time
 
