@@ -223,7 +223,7 @@ For the Voice report, this metric is a measure of total talk time, total hold ti
 
     :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
 
-For the Chat report, this metric is a measure of the total active chat time and total wrap-up time, divided by the number of chats handled, where:
+For the Chat report, this metric is a measure of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
 - Active chat time: The time a service representative spends in actively chatting with the customer.
 - Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
