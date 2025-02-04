@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 01/09/2025
+ms.date: 02/04/2025
 ms.custom: bap-template
 ---
 
@@ -219,11 +219,22 @@ This metric is a measure of the average time, in seconds, that the service repre
 
 There are several reasons why a service representative might put a customer on hold. For example, the service representative might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
 
-:::image type="content" source="../media/conversation-hold-time.png" alt-text="Diagram that illustrates conversation hold time and talk time.":::
+For the Voice report, this metric is a measure of total active chat time and total wrap-up time, divided by the number of chats handled, where:
 
-For the Voice report, this metric is a measure of talk, hold, and active wrap-up time.
+- Talk Time: The time spent actively speaking with the customer.
+- Hold Time: The time a agent puts the customer on hold during the interaction.
+- Wrap up time/After-Call Work (ACW): The time taken to complete any post-call tasks related to the interaction.
+- Total Number of Calls Handled: The total number of customer interactions handled by the agents.​
 
-:::image type="content" source="../media/voice-aht-cal.jpg" alt-text="Screenshot of average handle time calcualtion for voice.":::
+:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
+
+For the Chat report, this metric is a measure of the total actove time and total wrap-up time, divided by the number of chats handled, where:
+
+- Active chat time: The time spent actively chatting with the customer.
+- Active Wrap up time: The time taken to complete any post-chat tasks related to the interaction.
+- Total Number of chats handled: The total number of customer interactions handled by the agents.
+
+:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how average handle time is calculated for chat.":::
 
 ### Average conversation talk time
 
