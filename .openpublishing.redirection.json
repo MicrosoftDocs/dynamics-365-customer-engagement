@@ -33307,6 +33307,36 @@
       "source_path": "ce/customer-service/administer/migrate-acs.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "ce/customer-service/implement/copilot-enable-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/copilot-enable-help-pane.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-help-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/copilot-email-enable.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-email-enable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/implement/enable-copilot-plugins-for-generative-ai.md",
+      "redirect_url": "/dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai",
+      "redirect_document_id": false
+    },   
+    {
+      "source_path": "ce/customer-service/implement/customize-copilot-conv-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/customize-copilot-conv-summary",
+      "redirect_document_id": false
+    },       
+    {
+      "source_path": "ce/customer-service/implement/knowledge-copilot.md",
+      "redirect_url": "/dynamics365/contact-center/administer/knowledge-copilot",
+      "redirect_document_id": false
+    }   
   ]
 }
