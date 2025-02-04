@@ -1,14 +1,14 @@
 ---
-title: Optimization scopes in Resource Scheduling Optimization
+title: Create optimization scopes in Resource Scheduling Optimization
 description: Learn how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 01/29/2025
+ms.date: 02/03/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
-# Optimization scopes in Resource Scheduling Optimization
+# Create optimization scopes in Resource Scheduling Optimization
 
 Optimization scopes define what Resource Scheduling Optimization optimizes. Scope definitions include the resources, requirements, or bookings, and the time range to consider for optimization. Optimization scopes should be defined as narrowly as possible.
 
@@ -30,7 +30,7 @@ System views and personal views are critical building blocks for optimization sc
 
     - **Resource View**: This view defines which resources are considered for optimization.
     - **Requirement View**: This view defines which resource requirements are considered for optimization.
-    - **Booking View**: This view defines which bookable resource bookings are considered for optimization. To ensure that optimization runs consider only future bookings that occur after a specific point, you can select a value in the **On or After** field.
+    - **Booking View**: This view defines which bookable resource bookings are considered for optimization. To ensure that optimization runs only include future bookings that occur after a specific date, you can select a value in the **On or After** field.
 
     > [!NOTE]
     > To have Resource Scheduling Optimization to optimize both unscheduled and scheduled jobs, select a view for unscheduled requirements *and* bookings. If you only select a booking view, then Resource Scheduling Optimization only optimizes existing bookings and you must schedule the unscheduled jobs manually or with the schedule assistant. By only selecting an unscheduled requirement view, Resource Scheduling Optimization doesn't move existing bookings and simply attempts to schedule the unscheduled jobs to available time slots.

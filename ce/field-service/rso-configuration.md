@@ -1,14 +1,14 @@
 ---
-title: Resource Scheduling Optimization configuration in Dynamics 365 Field Service
+title: Configure Resource Scheduling Optimization
 description: Learn how to configure Resource Scheduling Optimization in Dynamics 365 Field Service
 author: AnilMur
 ms.author: anilmur
-ms.date: 01/29/2025
+ms.date: 02/03/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
 
-# Resource Scheduling Optimization configuration
+# Configure Resource Scheduling Optimization
 
 Perform these configuration steps after [successful deployment](rso-deployment.md) of the Resource Scheduling Optimization solution.
 
@@ -30,7 +30,7 @@ Ensure that Resource Scheduling Optimization can optimize work order-related req
 
 1. [Assign the security role](/power-platform/admin/assign-security-roles) *Field Service - Administrator* to the Resource Scheduling Optimization application user.
 
-1. Go to **Security** > **Field Security Profiles**. Select **Resource Scheduling Optimization – Administrator** and add the Resource Scheduling Optimization application user to the field security profile.
+1. [Assign the column security profile](/power-platform/admin/add-teams-users-field-security-profile) *Resource Scheduling Optimization – Administrator* to the Resource Scheduling Optimization application user.
   
 Enable dispatchers to interact with Resource Scheduling Optimization:
 
@@ -54,9 +54,9 @@ The settings described in this section apply to all optimization scopes.
 
 1. Go to **Resource Scheduling Optimization** > **Resources**. Open the **Scheduling Summary** view.
 
-   - Select one or more resource records and select **Edit**.
+   - Select one or more resource records to optimize, and select **Edit**.
 
-   - On the Resource Scheduling Optimization tab, set **Optimize Schedule** to **Yes** and **Save** the records. Enabling the setting doesn't automatically schedule requirements to the selected resource. It enables Resource Scheduling Optimization to consider the resource during schedule optimization runs.
+   - On the **Resource Scheduling Optimization** tab, set **Optimize Schedule** to **Yes** and **Save** the records. Enabling the setting doesn't automatically schedule requirements to the selected resource. It enables Resource Scheduling Optimization to consider the resource during schedule optimization runs.
 
    - Make sure the address for the organizational unit or resource address is set for each resource, depending on their start and end location. For more information, go to [Create bookable resources](set-up-bookable-resources.md#create-other-bookable-resources).
   
@@ -70,13 +70,13 @@ The settings described in this section apply to all optimization scopes.
 
 1. Go to **Resource Scheduling Optimization** > **Resource Requirements** and open the **Unscheduled Work Order Requirements** view.
 
-   - Select the records to optimize, and select **Edit**.
+   - Select the work orders to optimize, and select **Edit**.
 
    - On the **Resource Scheduling Optimization** tab, set **Scheduling Method** to **Optimize** and **Save** the records.
 
-   - On the Scheduling tab, make sure the work location is **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify the address.  
+   - On the **Scheduling** tab, make sure the work location is **On Site** or **Location Agnostic**. If **On Site** is the requirement, you must specify the address.  
 
-   - On the **General** tab, check that **From Date** and **To Date** fall into the time window you want to schedule. You can use the bulk edit feature to update values for selected records as well.
+   - On the **General** tab, check that **From Date** and **To Date** fall into the time window you want to schedule.
 
 1. Go to **Resource Scheduling Optimization** > **Booking Statuses**. Select a booking status and choose the **Scheduling Method**.
 
