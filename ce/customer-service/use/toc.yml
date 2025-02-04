@@ -283,13 +283,14 @@
         - name: Summarize cases
           href: copilot-use-summary.md
         - name: Summarize conversations
-          href: copilot-summarize-conversations.md
+          href: /dynamics365/contact-center/use/copilot-summarize-conversations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Ask a question 
-          href: use-ask-a-question.md
+          href: /dynamics365/contact-center/use/use-ask-a-question?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Draft a chat response (preview)
+           href: /dynamics365/contact-center/use/use-copilot-features?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           href: use-copilot-features.md
         - name: Write an email with Copilot
-          href: use-copilot-email.md
+          href: /dynamics365/contact-center/use/use-copilot-email?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Use Copilot filters
           href: use-copilot-filters.md
         - name: Use Copilot to generate knowledge drafts from cases
