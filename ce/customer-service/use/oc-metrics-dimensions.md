@@ -198,7 +198,7 @@ For information about metrics that are related to how quickly a service represen
 
 ### Conversation handle time
 
-This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
+This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the talk time, hold time and wrap-up time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
 
 A service representative is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If a service representative is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the service representative spends on the conversation on an open tab counts toward that conversation's handle time.
 
@@ -208,11 +208,10 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 :::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
 
-#### Related metric
-
-- **Average handle time**: This metric is the average of talk, hold, and wrap-up time across conversations. This calculation is applicable to out-of-the-box Omnichannel realtime Agent, Voice, and Summary reports. 
+**Average handle time**: This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done. This calculation is applicable to out-of-the-box Omnichannel realtime Agent, Voice, and Summary reports. 
 
 For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, go to the [Average session handle time](#average-session-handle-time) section.
+
 
 ### Average conversation hold time
 
@@ -294,7 +293,7 @@ The metric is a measure of the current sentiment of customer. It's powered by Co
 
 ### Average session handle time
 
-This metric is like conversation handle time, but it's granular and is calculated for every service representative who works on the conversation. This metric is relevant to conversations that multiple service representatives handled. If multiple service representatives were assigned to work on a customer request for any reason (for example, transfers or escalations), this metric measures the average time that each service representative who worked with the customer spent. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
+This metric is similar to conversation handle time, but it's granular and is calculated for every service representative who works on the conversation. This metric is relevant to conversations that multiple service representatives handled. If multiple service representatives were assigned to work on a customer request for any reason (for example, transfers or escalations), this metric measures the average time that each service representative who worked with the customer spent. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
 
 #### Related metric
 
