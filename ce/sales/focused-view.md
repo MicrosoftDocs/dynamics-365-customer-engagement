@@ -71,7 +71,8 @@ Focused view is categorized into the following sections.
     - **No action items**: When no action items are available for the record, the record displays information such as the name and contact details.
     - **Predictive scoring**: When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the upper-right corner of the card. Learn more about [prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
 
-1. **Record details**: Select a record from the work list to view its details on the same page. When you select an entity record in the detail view page, the selected entity record is displayed inline on the same page, keeping the work list visible. For example, selecting a contact record within an opportunity record keeps the work list visible while displaying the contact details. However, when you perform certain actions such as creating a new record, composing an email, or opening an organization chart, opens in full-page view and hiding the work list. Select the **Back** button to return to the actual work list record with the work list visible.
+1. **Record details**: Select a record from the work list to view its details on the same page. When you select an entity record in the detail view page, the selected entity record is displayed inline on the same page, keeping the work list visible. For example, selecting a contact record within an opportunity record keeps the work list visible while displaying the contact details.  
+    However, when you perform certain actions such as creating a new record, composing an email, or opening an organization chart, opens in full-page view and hiding the work list. Select the **Back** button to return to the actual work list record with the work list visible.
 
 ## Customize the work list card
 
