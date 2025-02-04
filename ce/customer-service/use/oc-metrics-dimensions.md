@@ -219,20 +219,20 @@ This metric is a measure of the average time, in seconds, that the service repre
 
 There are several reasons why a service representative might put a customer on hold. For example, the service representative might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
 
-For the Voice report, this metric is a measure of total active chat time and total wrap-up time, divided by the number of chats handled, where:
+For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
 
-- Talk Time: The time spent actively speaking with the customer.
-- Hold Time: The time a agent puts the customer on hold during the interaction.
-- Wrap up time/After-Call Work (ACW): The time taken to complete any post-call tasks related to the interaction.
-- Total Number of Calls Handled: The total number of customer interactions handled by the agents.​
+- Talk time: The time spent actively speaking with the customer.
+- Hold time: The time for which an agent puts the customer on hold during the interaction.
+- Wrap-up time or after-call Work: The time taken to complete any post-call tasks related to the interaction.
+- Total number of calls handled: The total number of customer interactions handled by the agents.​
 
 :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
 
-For the Chat report, this metric is a measure of the total actove time and total wrap-up time, divided by the number of chats handled, where:
+For the Chat report, this metric is a measure of the total active chat time and total wrap-up time, divided by the number of chats handled, where:
 
 - Active chat time: The time spent actively chatting with the customer.
-- Active Wrap up time: The time taken to complete any post-chat tasks related to the interaction.
-- Total Number of chats handled: The total number of customer interactions handled by the agents.
+- Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
+- Total number of chats handled: The total number of customer interactions handled by the agents.
 
 :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
 
