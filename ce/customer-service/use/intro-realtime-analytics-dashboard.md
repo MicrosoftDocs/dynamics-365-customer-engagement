@@ -1,12 +1,12 @@
 ---
 title: Overview of the real-time Omnichannel analytics dashboard
-description: Discover how to use an Omnichannel real-time analytics dashboard to optimize agent staffing, monitor key metrics, and improve customer satisfaction.
+description: Discover how to use an Omnichannel real-time analytics dashboard to optimize customer service representative staffing, monitor key metrics, and improve customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 12/06/2024
+ms.date: 02/03/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -27,7 +27,7 @@ ms.custom:
 >
 > Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws that are related to accessing individual employee analytics, and monitoring, recording, and storing communications with users. As part of this compliance, customers must adequately notify users that their communications with customer service representatives (service representatives) might be monitored, recorded, or stored. As required by applicable laws, customers must also obtain consent from users before they use this feature with them. In addition, customers are encouraged to have a mechanism in place to inform their service representatives that their communications with users might be monitored, recorded, or stored.
 
-In the digital contact center world, supervisors must be able to react to events by optimizing the allocation of service representatives in real time to provide quick support and boost customer satisfaction. Such events include an increase in the volume of incoming customer interactions, longer call lengths, and agent absenteeism. By providing visibility into overall support performance, real-time reporting helps supervisors monitor key operational metrics, make course corrections at the appropriate time, and keep service levels high.
+In the digital contact center world, supervisors must be able to react to events by optimizing the allocation of service representatives in real time to provide quick support and boost customer satisfaction. Such events include an increase in the volume of incoming customer interactions, longer call lengths, and customer service representative (service representative or representative) absenteeism. By providing visibility into overall support performance, real-time reporting helps supervisors monitor key operational metrics, make course corrections at the appropriate time, and keep service levels high.
 
 The real-time analytics reports provide information about the health and key performance indicators (KPIs) for your organization. They reflect the current situation in the contact center as supervisors oversee service representatives who handle customer conversations that come in through multiple channels. You can change the visual display of the reports and save your personalized views as bookmarks.
 
@@ -35,9 +35,9 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 
 - Monitor key operational metrics in near-real time, and make course corrections at the appropriate time to help keep service levels high.
 - Review the allocation of service representatives in near-real time, and then optimize to provide top-notch support and boost customer satisfaction.
-- Improve agent staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the agent. You can then assign or transfer ongoing conversations by filtering through queue or agent.
+- Improve service representative staffing, effectiveness, and utilization by reviewing the skill set and capacity profile of the service representative. You can then assign or transfer ongoing conversations by filtering through queue or service representative.
 - Monitor ongoing conversations, track customer sentiment, and intervene as required.
-- Drill down to a specific channel, queue, or agent as required, to gain key operational insights in real time and take necessary action.
+- Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
 > The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
