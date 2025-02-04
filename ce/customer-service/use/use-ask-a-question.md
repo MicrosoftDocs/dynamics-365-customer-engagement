@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: 
 ms.topic: conceptual 
 ms.collection:
-ms.date: 12/13/2024
+ms.date: 01/30/2025
 ms.custom: bap-template 
 ---
 
@@ -74,7 +74,7 @@ You can make the following types of requests:
 [!INCLUDE[cc-feature-availability-embed-only](../../includes/cc-feature-availability-embed-only.md)]
 
 
-If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases](copilot-use-summary.md#summarize-cases-in-non-microsoft-crm).
+If you are using the embed experience or Microsoft 365 Copilot for Service, in a non-Microsoft CRM, the case summary appears as a card on the **Ask a question** tab in the Copilot help pane. 
 
 ---
 
@@ -89,7 +89,7 @@ When you have an active case or conversation open, Copilot suggests prompts base
 - For a conversation, Copilot considers the intent in the first three messages to generate a prompt, and then every third message to refresh the prompts. You can select a prompt to generate a response.
 
 > [!NOTE]
-> Copilot generates auto prompts based on case data in the Customer Service only.
+> Copilot generates auto prompts based on case data in Customer Service only.
 
 
 ## Use proactive prompts
@@ -107,7 +107,7 @@ Copilot proactively suggests prompts, without you having to type one, that you c
     :::image type="content" source="../media/proactive-prompting.png" alt-text="Screenshot shows options in proactive prompting.":::
 
 > [!NOTE]
-> Copilot generates proactive prompts based on case data in the Customer Service only.
+> Copilot generates proactive prompts based on case data in Customer Service only.
 
 ## View responses
 

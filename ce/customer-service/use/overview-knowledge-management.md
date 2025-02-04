@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 06/28/2024
+ms.date: 02/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -22,7 +22,7 @@ Knowledge management plays a vital role in delivering world-class customer care.
 
 ## Benefits of knowledge management
 
-- Primary service providers, such as customer service representatives (representatives), can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
+- Primary service providers, such as customer service representatives (service representatives or representatives), can look up information in a knowledge base to resolve customer queries right away, and increase their productivity.
 - With access to rich, high-quality knowledge resources across consistent and contextual Omnichannel experiences, representatives can resolve issues faster and reduce their average call handling time.
 - Customers can use knowledge management search capabilities across channels to resolve issues for themselves. The results are fewer support tickets and higher customer satisfaction.
 

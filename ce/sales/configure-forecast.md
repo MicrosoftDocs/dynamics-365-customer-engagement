@@ -28,13 +28,6 @@ A forecast helps your organization predict how much revenue your sales team gene
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>For more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/). |
-| **Security roles** | System Administrator or Forecast Manager <br> For more information, see [Predefined security roles for Sales](security-roles-for-sales.md).|
-
 ## How does forecasting help organizations?
 
 Using forecasts helps your organization by allowing:
