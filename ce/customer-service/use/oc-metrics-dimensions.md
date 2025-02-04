@@ -234,7 +234,7 @@ For the Chat report, this metric is a measure of the total actove time and total
 - Active Wrap up time: The time taken to complete any post-chat tasks related to the interaction.
 - Total Number of chats handled: The total number of customer interactions handled by the agents.
 
-:::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how average handle time is calculated for chat.":::
+:::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
 
 ### Average conversation talk time
 
