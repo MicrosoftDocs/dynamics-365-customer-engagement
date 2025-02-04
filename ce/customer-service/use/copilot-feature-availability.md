@@ -31,7 +31,7 @@ This article provides information about the Copilot features supported across Dy
 | [Use proactive prompts based on conversation data](use-ask-a-question.md#use-proactive-prompts) | Yes                          | Yes                                               | Yes                                              | No |  
 |[Use targeted phrases in Copilot to get responses from plugins (preview)](use-ask-a-question.md#use-targeted-phrases-in-copilot-to-get-responses-from-plugins-preview)| Yes | Yes | No | No |
 | [Filter knowledge articles to generate responses](use-copilot-filters.md) | Yes | No | No | No |
-|[Summarize cases in non-Microsoft CRMs](https://review.learn.microsoft.com/en-us/dynamics365/contact-center/use/copilot-use-summary?branch=mg-copilot-feature)| Yes | No | Yes | Yes|
+|[Summarize cases in non-Microsoft CRMs](https://review.learn.microsoft.com/en-us/dynamics365/contact-center/use/copilot-use-summary?branch=mg-copilot-feature)| No | No | Yes | Yes|
 |[Ask about case data](use-ask-a-question.md#summarize-cases-and-ask-about-case-data)| Yes | No | No | No|
 |[Translate Copilot responses](use-ask-a-question.md#translate-responses) | Yes | Yes | Yes | Yes|
 | [Write an email from Copilot help pane](use-copilot-email.md) | Yes | Yes | Yes | Yes |
