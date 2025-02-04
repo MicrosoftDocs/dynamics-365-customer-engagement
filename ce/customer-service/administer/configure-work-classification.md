@@ -1,7 +1,7 @@
 ---
 title: Configure work classification rulesets
 description: Learn how to configure work classification rulesets for unified routing.
-ms.date: 01/28/2025
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

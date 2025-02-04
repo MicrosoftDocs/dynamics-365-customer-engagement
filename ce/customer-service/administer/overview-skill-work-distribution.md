@@ -1,7 +1,7 @@
 ---
 title: Skill-based routing in Omnichannel for Customer Service
 description: This topic provides information about the skill-based routing in the Omnichannel for Customer Service app to ensure that work items are assigned to the best-suited customer service representative.
-ms.date: 01/28/2025
+ms.date: 02/04/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim

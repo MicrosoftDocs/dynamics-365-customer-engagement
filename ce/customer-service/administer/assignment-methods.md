@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 01/28/2025
+ms.date: 02/04/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim

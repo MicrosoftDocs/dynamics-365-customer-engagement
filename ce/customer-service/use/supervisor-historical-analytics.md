@@ -1,7 +1,7 @@
 ---
 title: Supervisor view of historical analytics for unified routing 
 description: Learn how supervisors can use the information in historical analytics for unified routing to improve routing and assignment.
-ms.date: 01/29/2025
+ms.date: 02/04/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim

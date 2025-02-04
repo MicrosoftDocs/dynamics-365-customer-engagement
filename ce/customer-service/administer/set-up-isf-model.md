@@ -1,7 +1,7 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 01/28/2025
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

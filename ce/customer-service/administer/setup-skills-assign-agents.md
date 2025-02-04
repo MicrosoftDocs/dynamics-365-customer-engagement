@@ -4,7 +4,7 @@ description: Perform the steps mentioned in the topic to create skills and assig
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 01/28/2025
+ms.date: 02/04/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
