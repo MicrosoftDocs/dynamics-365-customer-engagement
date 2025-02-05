@@ -59,7 +59,7 @@ If your organization is concerned about the data collected by this service, you 
 
 ### Videos
 
-To view videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
+Learn more about Omnichannel for Customer Service in [Videos](../use/videos.md).
 
 ## Next steps
 
