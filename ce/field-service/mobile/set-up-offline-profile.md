@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 01/15/2025
+ms.date: 02/05/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -22,6 +22,10 @@ Administrators control what data the Field Service mobile app downloads with the
 - Define tables that are available offline and how often they sync.
 - Define filters for each table. For example, by default the offline profile downloads bookings that start within the next seven days.
 - Set up item association by creating relationships between tables. Item association saves time because not every table needs a filter. Associated tables follow the filters that are set on the related table.
+
+For a guided walkthrough, check out the following video.
+>
+> [!VIDEO 02bf237b-8c58-4513-bd4e-1c66b7163793]
 
 ## Prerequisites
 
