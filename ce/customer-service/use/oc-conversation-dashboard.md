@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 11/28/2024
+ms.date: 02/05/2025
 ms.custom: bap-template
 ---
 
@@ -39,7 +39,7 @@ The following table lists the KPIs in the Conversation dashboard.
 
 | Metric | Description | Derivation | Data Measure in PBI | Dataverse reference|
 | -------- | --------------------- | --------------------------- |----------|---------|
-| Incoming conversations | The total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic. | All conversations where human agents are involved.| FactConversation.Incoming Conversations| All Conversations where msdyn_ocliveworkitem.msdyn_isoutbound != 1 and msdyn_ocliveworkitem.msdyn_channel != '192350000' and [msdyn_ocliveworkitem.msdyn_channelinstanceid](../develop/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid) is NULL and which have atleast one msdyn_sessionparticipant.systemuser.msdyn_botapplicationid != null. Learn more in [msdyn_ocliveworkitem entity reference](../develop/reference/entities/msdyn_ocliveworkitem#msdyn_isoutbound-choicesoptions).
+| Incoming conversations | The total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic. | All conversations where human agents are involved.| FactConversation.Incoming Conversations| All Conversations where [msdyn_ocliveworkitem.msdyn_isoutbound](.../develop/reference/entities/msdyn_ocliveworkitem?branch=main#msdyn_isoutbound-choicesoptions) != 1 and [msdyn_ocliveworkitem.msdyn_channel](.../develop/reference/entities/msdyn_ocliveworkitem#msdyn_channel-choicesoptions) != '192350000' and [msdyn_ocliveworkitem.msdyn_channelinstanceid](.../develop/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid) is NULL and which have atleast one msdyn_sessionparticipant.systemuser.msdyn_botapplicationid != null.
 | Engaged conversations | The total number of actively assigned conversations including both bot and service representative conversations. | Excludes bot conversations. |TBD | All Conversations where msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL IsAgentInvolved = If there is atleast one session with IsAgentSession = 1 , msdyn_sessionparticipant.systemuser.msdyn_botapplicationid is not null msdyn_sessionparticipant.msdyn_joinedon=1|
 | Abandon rate | If the conversation ended before an agent accepts the conversation then it is considered abandoned. Abandon rate = Abandoned conversations, divided by the incoming conversations. | All conversations are considered. | TBD | All Conversations where  msdyn_ocliveworkitem.msdyn_isoutbound != 1 and msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL and which have atleast one [msdyn_sessionparticipant.systemuser.msdyn_botapplicationid != null ]|
 | Avg. speed to answer (seconds) | Agent accepted time -  agent session created on time)  / Total number of conversations handled by agent | Conversations excluding entity records. |FactSession = CALCULATE(AVERAGE(FactSession[AnswerTime]))| All Conversations where msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL msdyn_ocliveworkitem.statuscode = 4|
