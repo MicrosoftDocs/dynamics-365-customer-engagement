@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/22/2024
+ms.date: 2/5/2025
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
