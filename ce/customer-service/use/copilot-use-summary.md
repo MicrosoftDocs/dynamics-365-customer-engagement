@@ -39,9 +39,9 @@ You can copy the summary, refresh it, and provide feedback.
 > - You can also generate a case summary for cases that are resolved or canceled.
 > - A case summary isn't generated if the descriptions added in the source case fields that Copilot uses are less than 38 words in English, without counting spaces.
 
-Alternatively, you can also generate a case summary from the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases and ask about case data](use-ask-a-question.md#summarize-cases-and-ask-about-case-data).
+Alternatively, you can also generate a case summary from the **Ask a question** tab in the Copilot help pane. Learn more in [Summarize cases and ask about case data](/dynamics365/contact-center/administer/use-ask-a-question#summarize-cases-and-ask-about-case-data).
 
 
 ## Next steps
 
-[Use Copilot to solve customer issues](use-copilot-features.md)
+[Use Copilot to solve customer issues](/dynamics365/contact-center/administer/use-copilot-features)

@@ -47,5 +47,5 @@ Once you set a filter, the following actions are applicable:
 
 ### Related information
 
-[Enable features in Copilot pane](../administer/copilot-enable-help-pane.md)
+[Enable features in Copilot pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)
 
