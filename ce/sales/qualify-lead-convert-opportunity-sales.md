@@ -26,14 +26,6 @@ After you identify the time frame, budget, and purchase process for a lead, qual
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)] 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Qualify a lead
 
 1. From the site map, select **Leads**.

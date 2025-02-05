@@ -14,7 +14,7 @@ Along with simple lists of questions, [inspections](inspections.md) can incorpor
 
 Watch a brief video overview:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4JiMF]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=86773f8a-0064-4c5a-8a54-64a7e2e283b3]
 
 ## Add branching and conditional logic
 

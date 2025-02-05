@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 10/03/2024
+ms.date: 02/04/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -39,7 +39,7 @@ For the records channel,
 - The work items prioritized per queue are 10,000 
 - The work items processed for assignment are 2,000 by default
 
-For more information, see [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
+Learn more in [best practices to manage queues](unified-routing-best-practices.md#manage-queues).
 
 ## How unified routing prioritizes work items
 
@@ -76,7 +76,7 @@ The following assignment methods are available out of the box:
 
   - If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters agents using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered agents by available capacity.
 
-  - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. More information: [Closest match](set-up-skill-based-routing.md#closest-match)
+  - If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters agents based on the workstream's presence and capacity requirements and orders the filtered agents by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match).
 
   If you need to distribute work fairly among agents, then you should consider switching to a round robin assignment strategy.
 
@@ -154,7 +154,7 @@ Some important points about prioritization rules are as follows:
 - By default, the queue is sorted on a "first in and first out" manner. If you don't create a prioritization rule, then the oldest work item is assigned first.
 - In normal scenarios, when a sufficient number of agents are available to take up the work items, the processing period is a couple of seconds only. The agents are assigned work items in the priority order. However, if work items pile up because of fewer eligible agents, and then an agent becomes available during the processing period, the agent is offered the next work item according to the priority order. This strategy might create a perception that the highest priority item wasn't assigned; especially after some top-priority items are attempted for assignment and yet remain in the queue.
 - The work items that don't match the criteria of any of the prioritization rulesets are kept in the last priority bucket, and are ordered by "first in first out".
-- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. For information about affinity, go to [Agent affinity](create-workstreams.md#agent-affinity).
+- Prioritization rules are skipped for affinity work items and such work items are assigned before other work items in the queue. Learn more about affinity in [Agent affinity](create-workstreams.md#agent-affinity).
 
 ## How assignment rulesets work
 
@@ -197,13 +197,13 @@ The assignment rules are composed of the following items:
 
     For some operators, values aren't required. They can be conditions, such as "Contains data," "Does not contain data," and "Calendar schedule: is working."
 
-    For user skills, the values are predefined for the operators. More information: [Set up skill-based routing](set-up-skill-based-routing.md)
+    For user skills, the values are predefined for the operators. Learn more in [Set up skill-based routing](set-up-skill-based-routing.md).
 
 - **Order by**: If multiple agents match the conditions in a rule, you can use the "Order by" clause to find the best-suited one. You can specify the following order by clauses:
 
   - **Ordering Attributes**:
 
-    - **Least active**: Is available for voice queues only. The work item is routed to the agent who is least active among all the agents who match skills, presence, and capacity. For more information, see the [Types of assignment methods](#types-of-assignment-methods) section.
+    - **Least active**: Is available for voice queues only. The work item is routed to the agent who is least active among all the agents who match skills, presence, and capacity. Learn more in the [Types of assignment methods](#types-of-assignment-methods) section.
     - Round robin
     - Unit-based available capacity
     - Profile-based available capacity
@@ -231,7 +231,7 @@ If the agent declines the same work item three times or reaches the configured l
 For example, agent Serena Davis rejects a chat from customer Ana Bowman twice and the assignment notification times out in the third attempt. The system considers it as three declines and auto assignment won't offer the same chat to Serena Davis again. But the system offers the chat from Ana Bowman to other eligible agents. Also, Serena Davis is considered for other incoming conversations except the declined chat from Ana Bowman.
 
 > [!NOTE]
-> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by agents including those who rejected it.
+> If all matching agents decline the work item because agent availability is low or the work requires a very specific skill and proficiency, the work remains in the queue. Similarly, if 100 agents decline a particular work item, auto assignment won't consider the work item in further assignment cycles. It can be manually assigned by supervisors or can be picked up by other agents including those who rejected it.
 
 You can update the default limit of three declines to a value between one and five based on your org requirement. The limit is applicable to all channels in the org.
 

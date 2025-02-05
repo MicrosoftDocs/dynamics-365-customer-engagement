@@ -1,7 +1,7 @@
 ---
 title: Collaborate on work orders with Microsoft Teams
-description: Collaborate in the context of work orders or other entities by integrating with Microsoft Teams.
-ms.date: 01/02/2024
+description: Collaborate in the context of work orders or other tables by integrating with Microsoft Teams.
+ms.date: 01/27/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -9,59 +9,40 @@ author: jasonccohen
 
 # Collaborate on work orders with Microsoft Teams
 
-Integrate with Microsoft Teams to chat with team members about work orders. The Teams integration helps find answers and fix issues the first time without leaving the Field Service app. It also lists team members that have previously worked on a work order. Connecting all the associated chats to a work order provides all chats related to that work order in one place.
+Integration with Microsoft Teams enables you to chat with team members about work orders. The Teams integration helps find answers and fix issues the first time without leaving the Field Service app. It also lists team members who previously worked on a work order. Connecting all the associated chats to a work order provides all chats related to that work order in one place for all stakeholders to view.
 
 > [!div class="mx-imgBorder"]
 > ![Field Service work order, with a Teams chat panel showing related chats.](./media/work-order-teams-messages.png)
 
 For a guided walkthrough, check out the following video.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWOc1n]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a5d32328-3240-4b00-9392-00c9a4926322]
 
-## Set up the Teams integration
+## Prerequisites
 
-An administrator must set up the overall integration between Microsoft Teams and Dynamics 365 apps. See [Install and set up Teams Integration](/dynamics365/teams-integration/teams-install-app).
+[An admin set up the Teams integration](field-service-teams-collab-admin.md).
 
-## Enable and configure collaboration settings in Field Service
+## Start a new connected chat
 
-An administrator must enable collaboration in the Field Service settings.
+Start a chat that's connected to a record, such as a work order.
 
-1. In Field Service, go to **Settings** > **Microsoft Teams Integration** > **Collaboration**. To enable or disable Microsoft Teams chat in other Dynamics 365 apps, see [Work with Microsoft Teams chat in Dynamics 365](/dynamics365/teams-integration/enable-teams-chat).
-
-1. On the **Microsoft Teams collaboration and chat** page, turn on the toggle for **Turn on Microsoft Teams chats inside Dynamics 365**.
-
-   :::image type="content" source="media/teams-integration-settings.png" alt-text="Screenshot of the Teams integration settings in Field Service.":::
-
-1. Select one of the following:
-
-   - **Turn on for all Dynamics 365 apps** – Enables Teams chat for all supported Dynamics 365 apps in your organization, including any that you add in the future.
-   - **Turn on for selected Dynamics 365 apps** – Enables Teams chat for the apps you choose. If your organization already uses Teams, the selection you made previously remains. If you haven't yet set up Teams, it's enabled by default.
-
-1. Save the changes.
-
-In the **Connect chats to Dynamics 365 records** section, add all the tables you'd like to collaborate on.
-
-## Customize welcome message
-
-When you start a new chat, predefined information creates a welcome message in the chat panel. You can customize the welcome message.
-
-1. In Field Service, go to **Settings** > **Microsoft Teams Integration** > **Collaboration**.
-
-1. Select the record type, such as Work Order.
-
-1. Select **Message view**, and then select **Save**.
-
-The first five columns in the view you choose appears in the welcome message when you invite someone to collaborate on a record.
-
-## Create a new chat
-
-To [start a new chat](/dynamics365/customer-service/use/use-teams-chat#start-a-new-connected-chat), open a record for a table that is connected to the Teams integration.
-
-<!--- Can we use this link instead? https://learn.microsoft.com/en-us/dynamics365/sales/teams-integration/using-teams-chat-in-dynamics#start-a-connected-teams-chat-in-dynamics-365 --->
+1. Open a record for a table that is connected to the Teams integration.
+1. Select the **Teams chats and channels integration** icon.
+1. Select **New connected chat**. For more information, go to [Start a new connected chat](/dynamics365/customer-service/use/use-teams-chat#start-a-new-connected-chat).
 
 ## Connect and disconnect existing chats
 
 [Connect or disconnect and existing chat from a record](/dynamics365/customer-service/use/use-teams-chat#connect-or-disconnect-an-existing-chat-from-a-record).
 
+## Start a regular Teams chat in Dynamics 365
+
+Start a chat unrelated to a record.
+
+1. Select the **Teams chats and channels integration** icon.
+1. Select the **Start a new chat** icon.
+
+## See also
+
+[Overview of Microsoft Teams integration](/dynamics365/teams-integration/teams-integration)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

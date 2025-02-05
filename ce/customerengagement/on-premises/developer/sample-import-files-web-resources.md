@@ -23,7 +23,7 @@ search.audienceType:
 
 When you develop a large number of files to use as Web resources you can save yourself the work of manually adding them through the application. Many Web resources can be developed and tested outside of Dynamics 365 for Customer Engagement and then imported.
 
-This sample provides a simplified example of this process. For a more complex sample that provides a WPF application you can use to import Web resources, see the [Sample: Web Resource Utility](sample-web-resource-utility.md).
+More information: [Web resources community tools](web-resources.md#community-tools)
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

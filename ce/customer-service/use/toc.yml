@@ -34,7 +34,7 @@
             href: customer-service-hub-user-guide-create-a-case.md
           - name: Use enhanced case forms to manage cases
             href: enh-casemgmt-csw.md
-          - name: Track your time on cases (preview)
+          - name: Track your time on cases 
             href: case-handling-time.md
           - name: Resolve, cancel, and reassign cases
             href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
@@ -308,6 +308,8 @@
             href: realtime-summary-dashboard.md
           - name: Voice report
             href: realtime-voice-dashboard.md
+          - name: Bot report
+            href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Agents report
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
@@ -374,7 +376,7 @@
             href: manage-bookmarks.md
         - name: Forecast reports
           items:
-          - name: Forecast agent, case, and conversation volumes
+          - name: Forecast service representative, case, and conversation volumes
             href: use-volume-forecasting.md
         - name: Customize visual display
           href: customize-reports.md

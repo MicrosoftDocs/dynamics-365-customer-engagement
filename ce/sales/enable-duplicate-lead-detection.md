@@ -17,15 +17,9 @@ ms.custom:
 
 Enable duplicate lead detection to help your sellers identify and address potential duplicate leads.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## What is duplicate detection?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4UpF6]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=94602225-e5b4-4070-abc8-3ada754da622]
 
 The duplicate detection capability helps sellers to check for potential duplicate leads in the app. When you enable this capability, the AI model uses the following rules to identify duplicates:
 
@@ -118,4 +112,3 @@ More information: [Security roles and privileges](/power-platform/admin/security
 
 [Enable duplicate lead detection for custom forms](enable-duplicate-detection-custom-forms.md)   
 [Manage duplicate leads](manage-duplicate-leads.md)  
-

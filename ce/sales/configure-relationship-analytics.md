@@ -23,16 +23,6 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 >    - Global Geography 3 – Americas (Brazil, Chile, United States).    
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
->[!IMPORTANT]
->This feature is intended to help sellers or sales managers enhance their team's performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users. This also includes adequately notifying users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users may be monitored, recorded, or stored.
-
 ## Prerequisite
 
 - [Enable relationship analytics](enable-ri.md)
@@ -47,6 +37,8 @@ Configure relationship analytics to specify whether you want to use Exchange dat
     When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
 1. Turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from emails and data stored in Dynamics 365.
+  > [!NOTE]
+  > If you opt in for [April 2025 early access](/power-platform/admin/opt-in-early-access-updates), you can connect to Exchange only using [server-side synchronization](configure-email.md). So, the **Exchange Online** toggle won't appear in early access environments. Until server-side synchronization is set up, Relationship Analytics only uses emails from Dynamics 365.
 
 
 1. Turn on **Relationship Health** to show the relationship health score in opportunities, views, and charts.

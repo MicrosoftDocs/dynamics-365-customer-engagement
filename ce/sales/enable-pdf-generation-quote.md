@@ -11,14 +11,6 @@ ms.reviewer: lavanyakr
 
 Enable your users to create and share professional-looking PDF files of the sales entity records with customers.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Enable or disable PDF generation
 
 The PDF generation capability allows users to generate PDF files directly from Dynamics 365 records. The capability to create PDF files is supported for the following entities: Accounts, Contacts, Leads, Opportunities, Quotes, Orders, and Invoices, on both web and mobile apps. You can select the entities on which you want to enable PDF generation. 

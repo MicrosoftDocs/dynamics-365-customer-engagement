@@ -15,13 +15,6 @@ In general, you can send email messages to your customers directly from Dynamics
 
 Contact your administrator if you don't see the email engagement features described here. More information: [Configure email engagement](configure-email-engagement.md).
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role, such as salesperson or sales manager](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Create a message <a name="NewMessage"></a>  
 
 The features of email engagement apply to every email that you send through Dynamics 365 Sales. When you send an email, it automatically adds an email activity to the record, and that record is set as the message's **Regarding** value. Also, the email engagement feature collects key performance indicators (KPIs) and determines where the email is displayed based on the recipients (To, From, and Copy-to addresses). 

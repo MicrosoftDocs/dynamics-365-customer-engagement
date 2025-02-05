@@ -41,7 +41,7 @@ Use the following information:
 
 1. The **Configure settings for the prompt plugin** section in this article to turn on the plugin in the admin app.
 
-    > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1nA86]
+    > [!VIDEO https://learn-video.azurefd.net/vod/player?id=d85b7e24-89a7-4d13-9e32-697762324ab2]
 
 ### Configure settings for the prompt plugin
 
@@ -72,7 +72,7 @@ Use the following information:
 1. [Author a connector action](/microsoft-copilot-studio/copilot-ai-plugins?tabs=c4d365cs#author-a-connector-action) to configure the plugin action.
 1. The **Configure settings for the custom connector** section in this article to turn on the plugin in the admin app.
 
-   > [!VIDEO https://www.microsoft.com/videoplayer/embed/RW1niOE]
+   > [!VIDEO https://learn-video.azurefd.net/vod/player?id=b27ad82a-36f1-4832-a3ca-294457af7c63]
 
 ### Configure settings for the custom connector
 

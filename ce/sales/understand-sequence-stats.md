@@ -12,16 +12,9 @@ ms.reviewer: udag
 
 The stats about sequences provide insights on the performance of a sequence, such as success rate and the state of records that are connected. The data helps you view the sequences that are doing better and emerging with high conversion rates. 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Who can view the stats page?
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vmxe]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=dd7439b0-227c-4159-9bc2-f83f96fde185]
 
 By default, the users with sales manager and sequence manager roles can view the stats page. For other roles to view the reporting page, contact your administrator to get read access at the organizational level for the sales acceleration reports table. More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
 

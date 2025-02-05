@@ -1,6 +1,6 @@
 ---
 title: Omnichannel Conversation Topics Dashboard | Microsoft Docs
-description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand agent performance in your organization.
+description: Learn about the Conversation topics dashboard in Omnichannel historical analytics to better understand customer service representative performance in your organization.
 ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
@@ -22,24 +22,24 @@ The Topics dashboard shows a detailed breakdown of conversations and their assig
 
 ## Report Details
 
-The key performance indicator summary charts summarize the KPIs for the specified time and the percent change over the period. You can filter these areas by duration, channel, queue, agent, conversation status, and time zone. 
+The key performance indicator summary charts summarize the KPIs for the specified time and the percent change over the period. You can filter these areas by duration, channel, queue, customer service representatives (service representatives or representatives), conversation status, and time zone. 
 
 KPIs for the following areas are displayed: 
 
 | KPI | Description |
 | ----------- | ------------------------------ |
-| Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point. |
+| Engaged conversations | Offered conversations that are engaged by a service representative. Customer-to-representative communication can begin at this point. |
 | Avg. conversation handle time (min)  | The average total conversation active time across engaged conversations. |
 | Avg. CSAT | The average CSAT score provided by customers from Dynamics 365 Customer Voice survey responses.  |
 | Avg. conversation sentiment | The average predicted sentiment of the customer across engaged conversations. |
 | Avg. customer effort time (min) | The average time from the start of conversation to the start of the conversation wrap-up time.  |
-| Transfer rate | The number of sessions transferred by an agent. |
+| Transfer rate | The number of sessions transferred by a service representative. |
 
 The topics metrics chart displays the following metrics.
 
 | KPI | Description |
 | ---------------- | ------------------- |
-| Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication can begin at this point.  |
+| Engaged conversations | Offered conversations that are engaged by a service representative. Customer-to-representative communication can begin at this point.  |
 | Volume | The total conversation volume from customers. |
 | Volume change | The change in conversation volume from customers over the specified duration. |
 | Avg. conversation handle time (min) | The average total conversation active time across engaged conversations.  |

@@ -22,7 +22,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-The Omnichannel for Customer Service historical reports contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, agents, and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
+The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, customer service representatives (service representatives or representatives), and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
 You can [customize the visual display](customize-reports.md#customize-visual-display) of the dashboards and also save your personalized views as [bookmarks](manage-bookmarks.md).
 
@@ -58,7 +58,7 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs that you can use to guide agents and understand overall agent performance. Learn more in [Agent dashboard](agent-dashboard.md#agent-dashboard).
+The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. More information: [Agent dashboard](agent-dashboard.md#agent-dashboard)
 
 ### Bot
 

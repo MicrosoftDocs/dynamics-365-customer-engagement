@@ -1,145 +1,145 @@
 {
   "redirections": [
-     {
-           "source_path": "ce/mobile-app/secure-manage-phones-tablets.md",
-           "redirect_url": "/power-apps/mobile/intune",
-           "redirect_document_id": "false"
-        },
     {
-           "source_path": "ce/mobile-app/migration.md",
-           "redirect_url": "/power-apps/mobile/use-custom-model-driven-app-on-mobile",
-           "redirect_document_id": "false"
-        },
-        {
-           "source_path": "ce/mobile-app/user-guide-mobile-app.md",
-           "redirect_url": "/dynamics365/mobile-app/overview",
-           "redirect_document_id": "false"
-        },
+      "source_path": "ce/mobile-app/secure-manage-phones-tablets.md",
+      "redirect_url": "/power-apps/mobile/intune",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/migration.md",
+      "redirect_url": "/power-apps/mobile/use-custom-model-driven-app-on-mobile",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/mobile-app/user-guide-mobile-app.md",
+      "redirect_url": "/dynamics365/mobile-app/overview",
+      "redirect_document_id": "false"
+    },
     {
       "source_path": "ce/linkedin/add-sales-navigator-controls-forms.md",
       "redirect_url": "/dynamics365/sales/linkedin/add-sales-navigator-controls-forms",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/Configure-matching-strategy.md",
       "redirect_url": "/dynamics365/sales/linkedin/Configure-matching-strategy",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/Connect-Dynamics-365-LinkedIn.md",
       "redirect_url": "/dynamics365/sales/linkedin/Connect-Dynamics-365-LinkedIn",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/data-validation.md",
       "redirect_url": "/dynamics365/sales/linkedin/data-validation",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/disable-sales-navigator.md",
       "redirect_url": "/dynamics365/sales/linkedin/disable-sales-navigator",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/faqs-linkedin.md",
       "redirect_url": "/dynamics365/sales/linkedin/faqs-linkedin",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/install-linkedin-connector.md",
       "redirect_url": "/dynamics365/sales/linkedin/install-linkedin-connector",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/install-sales-navigator.md",
       "redirect_url": "/dynamics365/sales/linkedin/install-sales-navigator",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/integrate-sales-navigator.md",
       "redirect_url": "/dynamics365/sales/linkedin/integrate-sales-navigator",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/review-leads.md",
       "redirect_url": "/dynamics365/sales/linkedin/review-leads",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/see-profile-pictures.md",
       "redirect_url": "/dynamics365/sales/linkedin/see-profile-pictures",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/sync-linkedin-leads.md",
       "redirect_url": "/dynamics365/sales/linkedin/sync-linkedin-leads",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/ts-linkedin-integration.md",
       "redirect_url": "/troubleshoot/dynamics-365/sales/welcome-sales",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/uninstall-sales-navigator.md",
       "redirect_url": "/dynamics365/sales/linkedin/uninstall-sales-navigator",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/linkedin/view-sales-navigator-forms.md",
       "redirect_url": "/dynamics365/sales/linkedin/view-sales-navigator-forms",
       "redirect_document_id": "false"
-   },    
+    },
     {
       "source_path": "ce/field-service/rso-administration.md",
       "redirect_url": "/dynamics365/field-service/rso-deployment",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/field-service/rso-schedule-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-optimization-schedule",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/field-service/rso-predictive-travel.md",
       "redirect_url": "/dynamics365/field-service/rso-optimization-goal",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/field-service/add-resource-schedule-board.md",
       "redirect_url": "/dynamics365/field-service/work-with-schedule-board",
       "redirect_document_id": "false"
-   },
-   {
-     "source_path": "ce/field-service/analytics-predictive-work-duration.md",
-     "redirect_url": "/dynamics365/field-service/deprecations-field-service",
-     "redirect_document_id": "false"
-  },
-  {
-    "source_path": "ce/field-service/configure-incident-types.md#use-ai-to-get-incident-type-suggestions",
-    "redirect_url": "/dynamics365/field-service/deprecations-field-service",
-    "redirect_document_id": "false"
-  },
-  {
-    "source_path": "ce/field-service/iot-alerts-ai-based-suggestions.md",
-    "redirect_url": "/dynamics365/field-service/deprecations-field-service",
-    "redirect_document_id": "false"
-  },
-   {
+    },
+    {
+      "source_path": "ce/field-service/analytics-predictive-work-duration.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/configure-incident-types.md#use-ai-to-get-incident-type-suggestions",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/field-service/iot-alerts-ai-based-suggestions.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-web-api.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
       "redirect_document_id": "false"
-   },
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/use-postman-perform-operations.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
       "redirect_document_id": "false"
-   },
-   {
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/webapi/setup-postman-environment.md",
       "redirect_url": "/power-apps/developer/data-platform/webapi/insomnia",
       "redirect_document_id": "false"
-   },
+    },
     {
       "source_path": "ce/customer-service/implement/introduction-customer-service-analytics.md",
       "redirect_url": "/dynamics365/customer-service/administer/configure-customer-service-analytics-insights-csh",
@@ -149,7 +149,7 @@
       "source_path": "ce/customer-service/compliance-certifications.md",
       "redirect_url": "/dynamics365/customer-service/implement/compliance-certifications",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "ce/app-profile-manager/create-app-profiles-powerapps.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview",
@@ -281,6 +281,26 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/view-snapshots.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/understand-forecast-projection-through-trend-chart.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/manage-snapshots-forecast.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/analyze-deals-flow-between-snapshots.md",
+      "redirect_url": "/dynamics365/sales/deprecations-sales#snapshot-deprecation",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/license-enforcement.md",
       "redirect_url": "/dynamics365/sales/faq-licenses-storage#license-compliance",
       "redirect_document_id": "false"
@@ -305,25 +325,21 @@
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn_predictivemodelscore",
       "redirect_document_id": "false"
     },
-    
     {
       "source_path": "ce/sales/developer-sp/msdyn_predictivescore.md",
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn_predictivescore",
       "redirect_document_id": "false"
     },
-    
     {
       "source_path": "ce/sales/developer-sp/msdyn_wkwcolleaguesforcompany.md",
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn_wkwcolleaguesforcompany",
       "redirect_document_id": "false"
     },
-    
     {
       "source_path": "ce/sales/developer-sp/msdyn_wkwcolleaguesforcontact.md",
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn_wkwcolleaguesforcontact",
       "redirect_document_id": "false"
     },
-    
     {
       "source_path": "ce/sales/developer-sp/msdyn-ConnectSequence-action.md",
       "redirect_url": "/dynamics365/sales/developer/entities/msdyn-ConnectSequence-action",
@@ -398,7 +414,7 @@
       "source_path": "ce/sales/optimize-ranking-insight-cards.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
@@ -458,7 +474,7 @@
       "source_path": "ce/customerengagement/on-premises/developer/supported-entities-asynchronous-operations.md",
       "redirect_url": "/power-apps/developer/data-platform/asynchronous-service",
       "redirect_document_id": "false"
-    },   
+    },
     {
       "source_path": "ce/customerengagement/on-premises/admin/connect-to-imap-servers.md",
       "redirect_url": "connect-gmail-oauth2",
@@ -478,7 +494,7 @@
       "source_path": "ce/field-service/view-user-accounts-security-roles.md",
       "redirect_url": "/dynamics365/field-service/users-licenses-permissions",
       "redirect_document_id": "false"
-    },    
+    },
     {
       "source_path": "ce/sales/use-copilot-email.md",
       "redirect_url": "/dynamics365/sales/use-sales-copilot",
@@ -948,12 +964,12 @@
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_octwitterhandlesecret.md",
       "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "ce/customer-service/developer/reference/entities/msdyn_twitterengagementctx.md",
       "redirect_url": "/dynamics365/customer-service/developer/reference/entities/overview-entity-ref",
       "redirect_document_id": false
-    },            
+    },
     {
       "source_path": "ce/customer-service/customize-insert-email-template.md",
       "redirect_url": "/power-apps/user/customize-insert-email-template",
@@ -1039,7 +1055,6 @@
       "redirect_url": "/power-platform",
       "redirect_document_id": "false"
     },
-
     {
       "source_path": "ce/customer-service/link-customer-case-when-bot-escalates.md",
       "redirect_url": "record-identification-rule",
@@ -1110,7 +1125,6 @@
       "redirect_url": "troubleshoot-set-up-sharepoint-online",
       "redirect_document_id": "false"
     },
-
     {
       "source_path": "ce/customer-service/view-block-deactivate-social-profile.md",
       "redirect_url": "view-social-profile",
@@ -1126,7 +1140,6 @@
       "redirect_url": "/dynamics365/customer-service/oc-conversation-state",
       "redirect_document_id": "false"
     },
-
     {
       "source_path": "ce/unified-service-desk/admin/comply-gdpr.md",
       "redirect_url": "/dynamics365/unified-service-desk/admin/comply-privacy-laws-regs",
@@ -2637,7 +2650,6 @@
       "redirect_url": "sales-privacy-faqs",
       "redirect_document_id": "false"
     },
-    
     {
       "source_path": "ce/sales/faqs-sales.md",
       "redirect_url": "faq-sales",
@@ -4628,7 +4640,6 @@
       "redirect_url": "/dynamics365/customer-engagement/sales-enterprise/help-hub",
       "redirect_document_id": "false"
     },
-
     {
       "source_path": "ce/social-engagement/ebooks-and-videos.md",
       "redirect_url": "/dynamics365/customer-engagement/social-engagement/help-hub",
@@ -15666,7 +15677,12 @@
     },
     {
       "source_path": "ce/developer/sample-web-resource-utility.md",
-      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/sample-web-resource-utility",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/web-resources.md#community-tools",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/sample-web-resource-utility.md",
+      "redirect_url": "/dynamics365/customerengagement/on-premises/developer/web-resources.md#community-tools",
       "redirect_document_id": "false"
     },
     {
@@ -25856,7 +25872,7 @@
       "source_path": "ce/marketing/dedicated-vs-shared-ip.md",
       "redirect_url": "/dynamics365/marketing/warmup-process-email-marketing",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "ce/field-service/scheduling-self-customers.md",
       "redirect_url": "/dynamics365/field-service/customer-portal-overview",
@@ -29274,7 +29290,7 @@
     },
     {
       "source_path": "ce/customer-service/migrate-acs.md",
-      "redirect_url": "administer/migrate-acs",
+      "redirect_url": "administer/overview",
       "redirect_document_id": false
     },
     {
@@ -30431,7 +30447,7 @@
       "source_path": "ce/customer-service/implement/faq-copilot-for-customer-service.md",
       "redirect_url": "faq-responsible-ai-copilot",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "ce/customer-service/manage-activity-arc.md",
       "redirect_url": "administer/manage-activity-arc",
@@ -33211,17 +33227,17 @@
       "source_path": "ce/customer-service/implement/remove-omnichannel.md",
       "redirect_url": "/dynamics365/contact-center/implement/provision-channels#turn-off-channels",
       "redirect_document_id": false
-    },    
+    },
     {
       "source_path": "ce/customer-service/implement/upgrade-omnichannel.md",
       "redirect_url": "/dynamics365/contact-center/implement/provision-channels",
       "redirect_document_id": false
-    },  
+    },
     {
       "source_path": "ce/customer-service/administer/configure-sms-channel.md",
       "redirect_url": "/dynamics365/customer-service/use/channels",
       "redirect_document_id": false
-    }, 
+    },
     {
       "source_path": "ce/customer-service/administer/configure-wechat-channel.md",
       "redirect_url": "/dynamics365/customer-service/use/channels",
@@ -33266,7 +33282,31 @@
       "source_path": "ce/customer-service/use/videos.md",
       "redirect_url": "/dynamics365/customer-service/implement/overview",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/migrate-workstreams.md",
+      "redirect_url": "/dynamics365/customer-service/administer/create-workstreams",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/knowledgehub-copilot.md",
+      "redirect_url": "/dynamics365/customer-service/administer/knowledge-copilot",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/flw-m365-chat.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/field-service/faqs-m365-chat.md",
+      "redirect_url": "/dynamics365/field-service/deprecations-field-service",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/migrate-acs.md",
+      "redirect_url": "/dynamics365/customer-service/administer/overview",
+      "redirect_document_id": false
     }
-
   ]
 }
