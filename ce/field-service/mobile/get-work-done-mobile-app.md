@@ -96,15 +96,15 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 - Taxable
 - Transaction Currency ID
 
+:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
+
 After saving the work order, a dispatcher can schedule it.
 
 If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md) to the work order table.
 
-:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
-
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 >
-> [!VIDEO fb3c067f-75ec-4b6d-aad0-714885351460]
+> [!VIDEO 151313d1-c743-4a99-a363-09318ed4505f]
 
 ## Troubleshoot app issues
 
