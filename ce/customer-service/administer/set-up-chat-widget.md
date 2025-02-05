@@ -1,7 +1,7 @@
 ---
 title: Introduction to the chat channel
 description: Learn about the chat channel to quickly resolve customer queries with features like quick replies, whisper, barge, consult, and transfer.
-ms.date: 12/04/2024
+ms.date: 02/05/2025
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
@@ -20,9 +20,9 @@ ms.custom:
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-Chat is a widely desired channel through which customers prefer to reach customer support. Customers appreciate being able to chat with human agents when self-service options don’t allow them to solve their own issues.
+Chat is a widely desired channel through which customers prefer to reach customer support. Customers appreciate being able to chat with customer service representatives (service representatives or representatives) when self-service options don’t allow them to solve their own issues.
 
-Dynamics 365 Customer Service offers full featured, first-party chat capabilities for agents to support customers. Chat transcripts from Copilot Studio or other live agents and pre-conversation survey data transfers to live agents to maintain full context of the customer issue as it moves between channels and people. Agents can help customers in the language of their choice with real-time translation, and escalate to voice and video if a visual demonstration and audio are needed to help customers. Features like quick replies, whisper, barge, consult, and transfer to other agents ensure agents can handle any workflow while chatting with customers.
+Dynamics 365 Customer Service offers full featured, first-party chat capabilities for service representatives to support customers. Chat transcripts from Copilot Studio or other live representatives and pre-conversation survey data transfers to live agents to maintain full context of the customer issue as it moves between channels and people. Agents can help customers in the language of their choice with real-time translation, and escalate to voice and video if a visual demonstration and audio are needed to help customers. Features like quick replies, whisper, barge, consult, and transfer to other agents ensure agents can handle any workflow while chatting with customers.
 
 A chat widget lets your customers connect with your customer service agents and resolve their queries quickly.
 
