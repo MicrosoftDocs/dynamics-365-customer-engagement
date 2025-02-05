@@ -32,26 +32,26 @@ From the start of a conversation until the representative explicitly ends it, re
 
 ## Prerequisites
 
-Make sure that the authentication settings are configured. More information: [Create chat authentication settings](create-chat-auth-settings.md)
+Make sure that the authentication settings are configured. Learn more in [Create chat authentication settings](create-chat-auth-settings.md).
 
 ## Set up persistent chat
 
-In admin center, select the **Make chats persistent** checkbox when you create the chat workstream. More information: [Create and manage workstreams](create-workstreams.md)
+In admin center, select the **Make chats persistent** checkbox when you create the chat workstream. Learn more in [Create and manage workstreams](create-workstreams.md).
 
-Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. More information: [Configure work distribution](create-workstreams.md#configure-work-distribution)
+Make sure that you set the **Keep same agent for entire conversation** toggle to **Yes** in the **Work distribution** settings of the workstream. Learn more in [Configure work distribution](create-workstreams.md#configure-work-distribution).
 
 ### Assign work items automatically for returning conversations
 
-When the **Keep same agent for entire conversation** toggle is set to **Yes**, and the representative is away or offline, they can't accept the notification for a returning conversation. In such cases, the conversation is assigned to a different agent.
+When the **Keep same agent for entire conversation** toggle is set to **Yes**, and the representative is away or offline, they can't accept the notification for a returning conversation. In such cases, the conversation is assigned to a different customer service representative (service representative or representative).
 
-If you want to make sure that the same agent is assigned to the persistent chat, do the following steps:
+If you want to make sure that the same service representative is assigned to the persistent chat, do the following steps:
 
 1. Create a notification template that's based on the **Chat - incoming authenticated - default** template.
 1. Make sure that **Auto-assign work items** toggle is set to **Yes**, and save the notification template with an intuitive name such as **Chat-agent-affinity-autoassign**.
 1. In the persistent chat workstream settings, go to **Advanced settings**, and in **Agent notification**, for **Returning Conversation** select the template that you created.
 
 > [!NOTE]
-> We recommend that you use the auto-assign setting cautiously because if the agent goes offline for an extended period, the chat might still remain assigned to them.
+> We recommend that you use the auto-assign setting cautiously because if the representative goes offline for an extended period, the chat might still remain assigned to them.
 
 ### Related information
 
