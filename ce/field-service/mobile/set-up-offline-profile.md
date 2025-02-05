@@ -17,15 +17,15 @@ Field Service technicians often work in areas with no internet connection, like 
 
 The default offline profile, Field Service Mobile - Offline Profile, has common Field Service tables preconfigured for offline use and recommended filters to limit the data that gets downloaded. It has predetermined sync intervals for each table, based on typical usage patterns. We recommend you use the default offline profile, but you can copy the default profile and build on the copied profile.
 
+For a guided walkthrough, check out the following video.
+>
+> [!VIDEO 02bf237b-8c58-4513-bd4e-1c66b7163793]
+
 Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
 
 - Define tables that are available offline and how often they sync.
 - Define filters for each table. For example, by default the offline profile downloads bookings that start within the next seven days.
 - Set up item association by creating relationships between tables. Item association saves time because not every table needs a filter. Associated tables follow the filters that are set on the related table.
-
-For a guided walkthrough, check out the following video.
->
-> [!VIDEO 02bf237b-8c58-4513-bd4e-1c66b7163793]
 
 ## Prerequisites
 

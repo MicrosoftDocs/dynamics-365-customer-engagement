@@ -104,7 +104,7 @@ If users don't see the follow-up option, an administrator needs to assign them [
 
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 >
-[!VIDEO fb3c067f-75ec-4b6d-aad0-714885351460]
+> [!VIDEO fb3c067f-75ec-4b6d-aad0-714885351460]
 
 ## Troubleshoot app issues
 
