@@ -54,7 +54,7 @@ You can enable the reconnection options in the chat widget either while setting 
 1. On the ***<widget_name>* Chat Widget** page, in the **Chat widget** area, select **Edit**.
 
 1. On the Chat channel settings dialog, go to the **Chat widget** tab and set the **Reconnect to previous chat** toggle to **Yes**. The following options are displayed:
-   - **Time limit**: Select a value to indicate the time within which the customer can connect back to the same service representative. The representative's capacity is blocked for the specified duration unless the the session is closed. If the customer fails to reconnect within the duration the conversation moves to the **Wrap-up** state.
+   - **Time limit**: Select a value to indicate the time within which the customer can connect back to the same service representative. The representative's capacity is blocked for the specified duration unless the session is closed. If the customer fails to reconnect within the duration the conversation moves to the **Wrap-up** state.
    - **Portal URL**: Specify the link that the representative can share with the customer to reconnect to the chat session. This must be the portal link on which the chat widget is displayed.
    - **Redirect URL**: Optionally, specify the link that the customer can be redirected to when the reconnect timeout occurs. If the field is left blank, the customer sees the option to start a new chat conversation.
 
