@@ -1,7 +1,7 @@
 ---
 title: Configure persistent chat
 description: Use this article to understand how persistent chat works and how you can configure it in Dynamics 365 Contact Center.
-ms.date: 01/27/2025
+ms.date: 02/05/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
