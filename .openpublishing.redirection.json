@@ -33359,10 +33359,10 @@
       "redirect_document_id": false
     },     
     {
-      "source_path": "ce/customer-service/use/use-copilot-email.md",
-      "redirect_url": "/dynamics365/contact-center/use/use-copilot-email",
+      "source_path": "ce/customer-service/use/copilot-chat-customer-service-data.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-chat-customer-service-data",
       "redirect_document_id": false
-    },    
+    }   
 
   ]
 }
