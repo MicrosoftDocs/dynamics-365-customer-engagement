@@ -68,7 +68,7 @@
           href: overview-skill-work-distribution.md
         - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Enable agents to update skills
+        - name: Enable representatives to update skills
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md

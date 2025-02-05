@@ -1,7 +1,7 @@
 ---
 title: View operational metrics and KPIs in Sales usage reports
 description: Explore operational metrics and KPIs in sales usage reports, providing historical data on contacts, accounts, leads, and opportunities.
-ms.date: 06/19/2024
+ms.date: 02/04/2025
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -28,7 +28,8 @@ Also, the actions that are performed in the application are reflected in the sal
 Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales** > **Sales analytics** > **Sales usage reports**.
 
 >[!NOTE]
->The **Sales usage reports** option is available only when it's enabled in your organization. Contact your administrator to enable it. More information: [Enable sales usage reports](enable-sales-usage-reports.md)  
+>- You must have the **Sales Manager** role or a higher privilege to access the sales usage reports.
+>- The **Sales usage reports** option is available only when it's enabled in your organization. Contact your administrator to enable it. More information: [Enable sales usage reports](enable-sales-usage-reports.md)  
 
 
 The following sales usage reports are available:
