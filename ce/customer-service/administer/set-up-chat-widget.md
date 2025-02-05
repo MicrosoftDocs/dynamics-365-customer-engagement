@@ -18,7 +18,7 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 Chat is a widely desired channel through which customers prefer to reach customer support. Customers appreciate being able to chat with customer service representatives (service representatives or representatives) when self-service options don’t allow them to solve their own issues.
 
