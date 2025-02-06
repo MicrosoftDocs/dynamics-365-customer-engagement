@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 01/02/2025
+ms.date: 02/06/2025
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -82,7 +82,7 @@ For more information about the Copilot for Sales licensing options for Dynamics 
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales?market=af#comparison-table) page.
+To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales?market=af#comparison-table) page. Refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029) for more information about features included in each license.
 
 ## How Dynamics 365 helps transform your sales organization
 
