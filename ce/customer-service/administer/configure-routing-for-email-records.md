@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for email records
 description: Learn how to use unified routing to route email records as work items in Dynamics 365 Customer Service.
-ms.date: 04/23/2024
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -11,7 +11,7 @@ ms.custom: bap-template
 
 # Set up unified routing for email records
 
-With unified routing, you can route any activity in Dynamics 365 Customer Service. Emails are one such example of the activity type that you can turn into work items and add them to queues for agents to work on.
+With unified routing, you can route any activity in Dynamics 365 Customer Service. Emails are one such example of the activity type that you can turn into work items and add them to queues for customer service representatives (service representatives or representatives) to work on.
 
 A high-level overview of unified routing with email records is as follows.
 
@@ -29,7 +29,7 @@ A high-level overview of unified routing with email records is as follows.
 
 1. Set up [server-side sync](../../customerengagement/on-premises/admin/server-side-synchronization.md?view=op-9-1&preserve-view=true) to create the email record and queue item.
 
-1. Create a flow to [automatically route the work item](routing-trigger-automatic.md) to agents.
+1. Create a flow to [automatically route the work item](routing-trigger-automatic.md) to service representatives.
 
 1. [Create workstreams](create-workstreams.md) and set up classification and route-to-queue rules.
 
@@ -39,7 +39,7 @@ A high-level overview of unified routing with email records is as follows.
 
 
 > [!NOTE]
-> You must ensure that the agent capacity is released after the agent completes their work on the email record. More information: [Release agent capacity](capacity-profiles.md#release-capacity-for-agents)
+> You must ensure that the representative capacity is released after work is completed on the email record. Learn more in [Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives).
 
 ### Related information
 

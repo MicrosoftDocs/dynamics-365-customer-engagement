@@ -15,13 +15,6 @@ Relationship analytics uses the activity history of a seller with a contact or a
 
 Depending on your Dynamics 365 Sales license and configuration, you'll see [basic insights](relationship-analytics-overview.md#basic-relationship-insights) or [enhanced insights](relationship-analytics-overview.md#enhanced-relationship-insights). Basic insights are available for early access.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## View analytics and KPIs for an individual lead, account, contact, or opportunity
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]

@@ -4,7 +4,7 @@ description: Learn how to search, link, and unlink records. Also learn how to li
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/08/2023
+ms.date: 01/14/2025
 ms.topic: how-to
 ms.custom: bap-template
 
@@ -14,8 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-The topic explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
+This article explains how to search for records, link a record to a conversation, and unlink the record from the conversation.
 
 You can search for records in two ways:
 
@@ -52,7 +51,7 @@ During an inline search, the search results are displayed and you can select a r
 
 You can link one contact or account only in the customer (**Contact** or **Account**) section and one case in the **Case** section.
 
-If you close a linked conversation, the case won't be closed automatically.
+If you close a linked conversation, the case isn't closed automatically.
 
 ## Search for records by using relevance search
 
@@ -85,7 +84,7 @@ You can link and unlink one contact or account only in the customer (**Contact**
 
 ## Unlink a record from the conversation
 
-You can unlink a record only when you are interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
+You can unlink a record only when you're interacting with a customer by using the communication panel. That is, after you accept an incoming conversation request and view the **Active Conversation** page, you can unlink the record from the conversation.
 
  :::image type="content" source="../media/oceh-oc-unlink-customer.png" alt-text="default Case details section of the active conversation page"::: 
 

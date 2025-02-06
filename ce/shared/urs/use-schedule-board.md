@@ -27,6 +27,8 @@ Select **Apply** to see the changes on the schedule board.
 ### Time scale
 
 Switch between hourly, daily, weekly, and monthly views of the board. Choose the weekly or monthly views to see scheduled jobs at a higher level.
+>[!NOTE]
+>Weekly view will always consider Sunday as the start of the week regardless of day visibility settings. 
 
 ### View type
 

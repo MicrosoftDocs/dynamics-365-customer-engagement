@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: lalexms
 ms.topic: how-to 
-ms.date: 01/07/2025
+ms.date: 01/27/2025
 ms.custom: bap-template 
 ---
 
@@ -13,18 +13,20 @@ ms.custom: bap-template
 
 Copilot can generate summaries for any custom record. These summaries help customer service representatives (service representatives or representatives) gain quick insights into key details, such as account and contact information, to improve response times.
 
-You can configure to create summaries for custom tables, such as work orders or part orders in your environment. Customization options include:
+You can configure to create summaries for custom tables, such as work orders or part orders in your environment.
 
-- Selecting existing record types (for example, accounts, work orders, tickets) for summaries.
-- Defining record types in natural language for better summary generation.
-- Choosing specific data fields for including and describing them in natural language.
-- Allowing representatives to access summaries on demand from relevant forms for the latest status updates.
+You can customize to:
+
+- Select existing record types (for example, accounts, work orders, tickets) for summaries.
+- Define record types in natural language for better summary generation.
+- Choose specific data fields for including and describing them in natural language.
+- Allow representatives to access summaries on demand from relevant forms for the latest status updates.
 
 ## Configure the custom record summary
 
 1. On the site map in Customer Service admin center, select **Productivity** > **Summaries**.
 1. In the **Custom record summaries** section, select **Add new summary**. 
-1. In the **Specify record type** pane, specify the **Summary name**,**Record type** for which you want to generate the summary, record type description and then select **Next**.  
+1. In the **Specify record type** pane, specify the **Summary name**, **Record type** for which you want to generate the summary, record type description and then select **Next**.  
 1. On the **Specify data** page, select **Add data** to add data from records or activities. Specify the following information:
    1. **Data type**: Select **1-to-1** to map with the record or **1-to-many** to map relationships for related activities or entities. For the **1-to-1** attribute, you can have a maximum of 10 selections. For the **1-to-many** attribute, you can have a maximum of six selections and up to three related entities.
    1. **Record type or activity**: Select the record type or activity.
@@ -50,9 +52,12 @@ For example, if you want to display the account summary in Customer Service work
 1. Select **Forms** > **Account for multisession experience**.
 1. Select **Component** > **Copilot case summary control**, and then specify the appropriate values in **Table column** fields for **Case Summary** and **Incident ID**.
 
-   :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
+     :::image type="content" source="../media/powerapps-custom-control.png" alt-text="Screenshot for Microsoft Power Apps components.":::
 
-1. Configure the settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled.
+1. Configure the settings to make sure that the summary doesn't load on the form when the customer record summary feature is disabled. Learn more in [Display case summary only when enabled](copilot-powerapps-settings.md#display-case-summary-only-when-enabled).
+  
+    :::image type="content" source="../media/copilot-powerapps-load-mini.png" alt-text="load and unload summary card on the form." lightbox="../media/copilot-powerapps-load.png":::
+
 
 ## Runtime experience
 

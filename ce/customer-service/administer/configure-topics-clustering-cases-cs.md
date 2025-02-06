@@ -16,7 +16,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 Customer Service Insights uses AI to provide insights into your customer service data by grouping semantically related cases and generating a topic. New cases that match the generated topic are automatically added to the topic group. This action helps you identify areas of improvement that affect system performance.
 
-The AI-driven technology enbales informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
+The AI-driven technology enbales informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate customer service representative (service representative or representative) performance and business impact, and address inefficiencies in your system.
 
 ## Enable topic clustering for cases
 
@@ -39,7 +39,7 @@ The Summary and Model run summary views provide key information about how the to
 
 ## Data mapping
 
-  Data mapping enables you to choose the text field that the agents in your organization are most likely to use to describe the reason why a customer reached out to support. By default, the Case Title attribute is used. The other available attributes are Serial Number, Description, and Case Title.
+  Data mapping enables you to choose the text field that the service representatives in your organization are most likely to use to describe the reason why a customer reached out to support. By default, the Case Title attribute is used. The other available attributes are Serial Number, Description, and Case Title.
 
 :::image type="content" source="../media/data-mapping-cs.png" alt-text="Data Mapping":::
 
