@@ -57,13 +57,13 @@ You can enable historical analytics for unified routing in the Customer Service 
     
 The Unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for Copilot Studio bots in Omnichannel for Customer Service
+## Enable historical analytics for Copilot Studio AI agents in Omnichannel for Customer Service
 
-In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Copilot Studio bots and Omnichannel conversation metrics.
+In Customer Service admin center, you can enable the historical analytics for AI agents to give your service managers integrated reports that combine Copilot Studio AI agents and Omnichannel conversation metrics.
 
 > [!IMPORTANT]
 >
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Copilot Studio bots are integrated with Omnichannel for Customer Service.
+> Omnichannel historical analytics must be enabled before you can enable historical analytics for AI agents. This feature is available only if Copilot Studio AI agents are integrated with Omnichannel for Customer Service.
 
 - If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio bot.
 
