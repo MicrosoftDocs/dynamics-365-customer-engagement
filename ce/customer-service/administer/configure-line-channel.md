@@ -18,9 +18,6 @@ Many customers use social messaging channels like LINE for their personal commun
 
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
-> [!NOTE]
-> The LINE channel isn't available in the Government Community Cloud (GCC) region.
-
 ## Prerequisites
 
 The prerequisites to configure the LINE channel in Contact Center admin center or Customer Service admin center are as follows:
