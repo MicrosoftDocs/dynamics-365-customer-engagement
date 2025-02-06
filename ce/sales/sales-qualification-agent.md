@@ -207,3 +207,44 @@ On the insights page, you can get a 360-degree view of the lead:
   - Suggested contacts: Other contacts at the account that the seller can reach out to.
   - Open opportunities related to the account
   - These insights will only show up if there is an account record connected to the lead. You can connect an account using the “connect an account” record CTA.
+
+## Troubleshooting
+
+### Agent publish is failing
+
+**Symptoms:** 
+You see the following error message when you try to publish the agent.
+`Error- Connection Id missing for connection reference logical name 'msdyn_sharedmicrosoftcopilotstudio'.`
+
+**Reason:**
+DLP policy is blocking the MCS connector.
+
+**Solution:** 
+Contact Tenant admin to remove the custom policy or modify the policy to exclude the shared_microsoftcopilotstudio connector.Learn more at 
+
+Solution: Contact Microsoft Support to resolve the issue.
+### Why am I not seeing the carousel component in my grid?
+ 
+The carousel component is displayed only when the following conditions are met:
+ 
+- The agent is activated in your environment.
+- You have the necessary permissions to access the agent.
+- You are using the Read Only Grid view.
+- You have provided consent to the agent.
+- You are using the new look and feel of the Sales Hub app.
+ 
+### Why are there no suggested actions in my carousel?
+ 
+If there are no suggested actions in the carousel, it could be due to the following reasons:
+ 
+- The agent hasn't processed the leads in your environment yet.
+- The agent hasn't found any prioritized insights about the leads.
+ 
+### Why don't I see the new notification bar in the lead form?
+ 
+The notification bar appears only for leads that have been researched and prioritized by the agent. Learn more about the selection criteria. 
+ 
+ 
+### Is it mandatory to enable server-side synchronization and sync emails to Dynamics?
+ 
+Server-side synchronization is recommended but not mandatory. If server-side synchronization is enabled in your organization, selecting Send email for email-based actions will send the email directly. If server-side synchronization is not enabled, the email opens in Outlook for you to send manually. 
