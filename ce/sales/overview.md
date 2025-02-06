@@ -82,7 +82,7 @@ For more information about the Copilot for Sales licensing options for Dynamics 
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales?market=af#comparison-table) page.
 
 ## How Dynamics 365 helps transform your sales organization
 
