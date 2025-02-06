@@ -1,7 +1,7 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales (preview)
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 01/29/2025
+ms.date: 02/06/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -27,10 +27,13 @@ Customize Copilot chat to make it more intelligent and relevant for your organiz
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
-You can customize the following aspects of the Copilot chat experience:
+You can customize the following aspects of the Copilot chat experience in Dynamics 365 Sales:
 
 - Add additional topics to help Copilot learn from your organization's data, content, and processes.
 - Customize the prompt guide to include the most relevant prompts for your organization.
+
+> [!NOTE]
+> Adding knowledge sources to Copilot is currently not supported in Dynamics 365 Sales.
 
 ## Customize Copilot using Copilot Studio
 
