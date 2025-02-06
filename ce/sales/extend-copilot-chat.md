@@ -34,7 +34,7 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 
 > [!NOTE]
 >- This article applies only to Copilot in Dynamics 365 Sales. You can also customize Copilot in other model-driven apps. Learn more at [Customize Copilot chat using Copilot Studio(preview)](/power-apps/maker/model-driven-apps/customize-copilot-chat).
->- Though you can add knowledge sources to the Sales Copilot agent in Copilot Studio, they aren't yet supported. Hence, you may not get answers from the added knowledge sources in Copilot chat in Dynamics 365 Sales.
+>- Knowledge source is not yet supported for Copilot in Dynamics 365 Sales.
 
 ## Customize Copilot using Copilot Studio
 
