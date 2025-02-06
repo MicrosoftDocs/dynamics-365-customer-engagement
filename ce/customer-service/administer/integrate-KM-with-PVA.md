@@ -8,7 +8,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ---
 
-# Integrate knowledge management in Dynamics 365 with Copilot Studio AI agent
+# Integrate knowledge management in Dynamics 365 with Copilot Studio AI agents
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
