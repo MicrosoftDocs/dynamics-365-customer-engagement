@@ -65,7 +65,7 @@ In Customer Service admin center, you can enable the historical analytics for AI
 >
 > Omnichannel historical analytics must be enabled before you can enable historical analytics for AI agents. This feature is available only if Copilot Studio AI agents are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio bot.
+- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio AI agent.
 
  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
