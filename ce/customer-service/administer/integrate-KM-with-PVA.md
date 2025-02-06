@@ -1,5 +1,5 @@
 ---
-title: Integrate knowledge management in Dynamics 365 with a Copilot Studio AI agents | MicrosoftDocs
+title: Integrate knowledge management in Dynamics 365 with a Copilot Studio AI agent | MicrosoftDocs
 description: Learn about the integration of knowledge management in Dynamics 365 with a Copilot Studio AI agent.
 ms.date: 02/06/2025
 ms.topic: article
