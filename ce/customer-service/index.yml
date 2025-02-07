@@ -169,7 +169,7 @@ additionalContent:
       - url: use/intro-realtime-analytics-dashboard.md
         text: Use Omnichannel real-time analytics dashboards
       - url: use/oc-metrics-dimensions.md
-        text: Use metrics used in reports  
+        text: Use report metrics  
       - url: use/manage-bookmarks.md
         text: Use bookmarks for reports
       - url: use/customize-reports.md

@@ -1,5 +1,5 @@
 ---
-title: Use metrics
+title: Use report metrics
 description: Understand and use Omnichannel for Customer Service metrics.
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,7 @@ ms.date: 02/07/2025
 ms.custom: bap-template
 ---
 
-# Use metrics
+# Use report metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
