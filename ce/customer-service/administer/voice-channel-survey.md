@@ -20,6 +20,9 @@ ms.custom: bap-template
 
 Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
+ [!IMPORTANT] 
+ Please note that there are currently two post-call survey experiences. The experience discussed in this document is for survey bots that you have previously created in Copilot Studio. To try out survey bots using the new survey template experience, please see https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/configure-surveys?toc=%2Fdynamics365%2Fcustomer-service%2Fadminister%2Ftoc.json&bc=..%2F..%2Fbreadcrumb%2Ftoc.yml
+ 
 You can obtain customer consent for post-call surveys as follows:
 
 - **Automatic - implicit**: The IVR bot informs the customer about a post-call survey at the end of the call. 
