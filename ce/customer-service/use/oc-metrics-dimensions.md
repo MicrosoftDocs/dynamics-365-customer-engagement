@@ -1,5 +1,5 @@
 ---
-title: Use Omnichannel for Customer Service metrics
+title: Use metrics
 description: Understand and use Omnichannel for Customer Service metrics.
 author: Soumyasd27
 ms.author: sdas
@@ -9,7 +9,7 @@ ms.date: 12/09/2024
 ms.custom: bap-template
 ---
 
-# Use Omnichannel for Customer Service metrics
+# Use metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 

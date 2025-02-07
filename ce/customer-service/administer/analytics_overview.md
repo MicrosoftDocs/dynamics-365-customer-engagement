@@ -39,6 +39,8 @@ Supervisors can access and view these dashboards from the Customer Service works
 
 - [Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard): Monitor key operational metrics in real-time and make course corrections at the appropriate time to help keep service levels high.
 
+Learn more about metrics used in these dashboards in [Use metrics](../use/oc-metrics-dimensions.md).
+
 ## Customize features
 
 Here are the customizations that you can utilize.
