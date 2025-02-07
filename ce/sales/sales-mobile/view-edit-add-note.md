@@ -17,14 +17,6 @@ You can see the notes associated with a record in the **Notes** section of the r
 
 ![View a note.](media/sm-view-note.png "View a note")
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## What actions can performed?
 
 You can perform the following actions in the **Notes** section.

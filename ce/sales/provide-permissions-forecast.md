@@ -20,13 +20,6 @@ Use the **Permissions** step to:
 - [Provide access to users who have specific security roles to view the forecast](#provide-access-to-additional-roles)
 - [Allow users to share their forecast records with other users](#enable-or-disable-forecast-sharing)
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Define the forecast owner
 
 A forecast owner can view, share, and adjust the forecast. You can assign a user or a business unit (BU) as the owner.

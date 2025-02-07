@@ -1,7 +1,7 @@
 ---
 title: Summary dashboard
 description: Learn about the Summary dashboard insights overview to better understand your organization's customer service experience.
-ms.date: 11/28/2024
+ms.date: 02/03/2025
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
@@ -33,7 +33,7 @@ The summary dashboard includes various charts with graphical views of key perfor
 
 The case volume drivers and emerging case volume by topic charts use natural language understanding to group support cases as topics that are a collection of related cases. These charts show you the customer support topics generate the most volume and emerging topics with the highest rate of change in volume. This helps you identify areas of improvement that can affect support performance.
 
-By default, the dashboard shows you KPIs for the past month and for all channels, queues, and agents in your system. The data filtering options allow you to select data for a specific time period, channel, queue, and agent. To filter data by duration, channel, queue, or agent, select a value from the respective dropdown list. 
+By default, the dashboard shows you KPIs for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. The data filtering options allow you to select data for a specific time period, channel, queue, and representative. To filter data by duration, channel, queue, or representative, select a value from the respective dropdown list. 
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specify persists and is applied to the data on all dashboards.
@@ -54,7 +54,7 @@ The **Key Insights discovered** section has two areas:
 
 ## Report details
 
-The KPI summary charts summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and agent.
+The KPI summary charts summarize the KPIs for the specified time period and the percent change over the period. You can filter these areas by duration, channel, queue, and representative.
 
 The case lifecycle and the metrics that can be derived in the different statuses is represented in the following diagram.
 
@@ -67,7 +67,7 @@ The following table shows the KPIs that appear in the report.
 | Incoming cases    | The number of cases created to support customers.   |
 | Active cases      | The number of cases that are currently open.        |
 | Escalated rate   | The percentage of cases that have been escalated.   |
-| Avg. resolve time (hrs)    |   The average length of time taken by an agent to resolve the case.   |
+| Avg. resolve time (hrs)    |   The average length of time taken by a representative to resolve the case.   |
 | Avg. CSAT        | The average customer satisfaction score, based on Customer Voice survey submitted by the customer.   |
 | Avg. survey sentiment   | The average sentiment score, based on Customer Voice survey written feedback submitted by the customer.   |
 

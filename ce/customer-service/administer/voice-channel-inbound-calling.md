@@ -4,7 +4,7 @@ description: Learn about how to set up workstreams and queues for inbound callin
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 12/14/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 ms.custom: bap-template 
 ---
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel.
+Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives (service representatives or representatives) to communicate with customers on the phone to resolve issues using the voice channel.
 
 ## Prerequisites
 
@@ -73,7 +73,7 @@ To configure the voice channel, you need to associate the workstream with a phon
 
 7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
 
-8. Turn on the toggle for the customer service representatives (service representatives or representatives) to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
+8. Turn on the toggle for the service representatives to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -88,15 +88,13 @@ The phone number is associated with the workstream.
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
 1. On the **Language** tab, select **Add primary language**. A language page is displayed, where you set the primary language for the channel. You can add more languages to this voice channel, and each language has its own settings.
-   The **Primary language** is the first language the agent uses to greet the customer. Your organization can have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
+   The **Primary language** is the first language the representative uses to greet the customer. Your organization can have one phone number that services multiple languages, rather than have multiple phone numbers, each with one language, and then ask customers to call the right number.
 
 1. Select the type of hold and wait music you want the customer to hear.
 
-1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the agent.
+1. In Voice profile, select a voice, voice style, speaking speed, and pitch for the representative.
 
-   > [!IMPORTANT]
-   > Make sure that you select a neural voice because standard voice is deprecated as on August 31, 2024. For existing voice workstreams, Microsoft Dynamics 365 team would have migrated the settings for you automatically by end of July, 2024. Learn more in [Upgrade to Text-to-Speech Neural Voice  by 31 August 2024](https://azure.microsoft.com/updates/we-re-retiring-the-standard-voice-on-31-august-2024/)
-1. Turn on the **Post-call survey** toggle if you want the agent to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey agent after the representative hangs up.
+1. Turn on the **Post-call survey** toggle if you want the representative to present a survey to the customer at the end of the call. If this feature is turned on, the call will automatically get transferred to the survey agent after the representative hangs up.
 
 1. After you finish configuring the settings, select **Confirm**.
 

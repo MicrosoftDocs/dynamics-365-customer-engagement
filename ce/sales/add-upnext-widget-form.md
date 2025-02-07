@@ -15,12 +15,6 @@ ms.custom:
 
 Display the Up next widget on your customized forms through sales accelerator configuration in Dynamics 365 Sales.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## What is the Up next widget?
 
 The **Up next** widget helps sellers to view and perform actions on activities on a record by not losing context or need to switch among multiple applications. The activities include phone call, email, or Teams meeting. The widget displays the current activity, upcoming activity, and completed activities. The activities are added to a record manually or by using a sequence:

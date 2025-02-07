@@ -31,13 +31,6 @@ Organizations can create a model and visualize their sales territories in a hier
 > - For a new organization that provisions Dynamics 365 Sales, the territory hierarchical relationship will be available and enabled by default.
 > - For existing customers upgrading to the latest release, if the organization doesn't already have a hierarchical relationship created for the Territory table, the hierarchical relationship will be available and enabled. If the organization has a hierarchical relationship created for territory, the new out-of-the-box territory hierarchical relationship will be available but not enabled.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Create a sales territory
 
 Create a sales territory to define a geographical area for your business. For example, you can create a sales territory for a city, state, or country/region. You can also create a sales territory for a specific industry or product line.

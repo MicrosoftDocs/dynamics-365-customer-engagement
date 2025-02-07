@@ -12,13 +12,6 @@ ms.date: 09/20/2024
 
 In this section, we've used a few examples to explain how to create assignment rules and segments for different scenarios. 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## Assign a lead to the account owner
 
 There are two ways to automate:

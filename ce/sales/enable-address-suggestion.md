@@ -18,13 +18,6 @@ ms.custom:
 
 Enable the address suggestion feature in Dynamics 365 Sales to help sellers save time and reduce errors when they enter the addresses of their contacts, leads, and accounts. When a seller starts typing in the address field, Bing Maps suggests a list of addresses that match what the seller is typing. When the seller selects an address in the list, the address fields in the form are filled automatically. You need to enable Bing Maps before you can enable address suggestions.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br/>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br/> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Enable Bing Maps
 
 When you enable Bing Maps in the Sales settings, sellers can see the address of their accounts, contacts, and leads on a map and get directions. You must enable Bing Maps before you can enable the address suggestion feature in Sales.
