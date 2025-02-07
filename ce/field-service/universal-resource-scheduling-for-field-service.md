@@ -1,7 +1,7 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 02/03/2025
+ms.date: 02/07/2025
 ms.custom: bap-template
 ms.topic: overview
 author: mkelleher-msft
@@ -97,7 +97,7 @@ There are a few things you need to configure to enable Universal Resource Schedu
 
 Take a staggered approach to implement scheduling processes in your organization.
 
-1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize yourself with the system logic and establish business processes.
 
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
 
