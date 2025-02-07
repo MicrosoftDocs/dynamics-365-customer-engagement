@@ -13,16 +13,6 @@ ms.custom:
 
 As a developer, use this reference documentation to learn about the events and context object to customize the underlying records grid in your forecast. You can use the context object to perform customizations such as making the entire grid or specific fields read-only, disabling fields, showing error notifications, and so on.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
-
->[!NOTE]
->The *forecasting context object* that's referred to in this topic is different from the execution context of Microsoft Dataverse. The forecasting context object is specific to forecasting and supports the advanced configurations for the underlying records grid.
-
 ## Events for the underlying records grid
 
 The following events are supported in forecasting:

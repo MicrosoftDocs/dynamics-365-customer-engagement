@@ -3,7 +3,7 @@ title: Enable technicians to create service reports
 description: Learn how to set up and customize service reports for Field Service technicians.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 01/23/2025
+ms.date: 01/30/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -19,22 +19,30 @@ You can set up automated workflows using Power Automate to manage the distributi
 ## Import the reporting solution
 
 1. Download the [reporting solution](https://aka.ms/fsmreporting-solution).
+
 1. [Import the reporting solution](/power-apps/maker/data-platform/import-update-export-solutions) into your environment. The import installs a reporting form, a command for the command bar, and includes a sample report. We recommend importing the solution as a managed solution.
+
 1. Find the **Field Service Mobile** app module in your list of Dynamics 365 apps and select the ellipsis (&hellip;) > **Open in App Designer**.
+
 1. In the navigation, select the **Bookings form**.
+
 1. On the right side pane, select the ellipsis (&hellip;) for the **Reporting** form and select **Add**.
+
 1. Select **Save & Publish**.
 
 ## Create your custom report
 
 1. Download the sample [reporting Power Apps component framework control](https://aka.ms/fsmreporting-pcf) (PCF) source code.
+
 1. Edit the sample reporting Power Apps component framework control. Modify this control to change layout, add branding, updated data, or other updates necessary to meet your reporting requirements.
+
 1. Rename the report to something descriptive for your organization by updating the report name in ```ControlManifest``` and ```index.ts```. For more information, go to the ```ReadMe.pdf``` included with the sample source code.
 
    > [!NOTE]
    > The Power Apps Component Framework Report control includes resource files for multiple languages but only declares English (1033). For other languages, update the ControlManifest to declare the desired language for localization.
 
 1. Import the modified Power Apps component framework control into your environment. For more information, see [Steps to import a PCF control](/power-apps/developer/component-framework/import-custom-controls).
+
 1. Update customizations to point to your new Power Apps component framework template. Edit the *ReportView* form for the *Bookable Resource Booking* table to enable the report.
 
 > [!NOTE]

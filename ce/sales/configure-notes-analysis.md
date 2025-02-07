@@ -12,13 +12,6 @@ ms.reviewer: udag
 
 To help users with intelligent suggestions when they enter an activity in the timeline&mdash;such as an appointment, email, phone call, task, note, post, or any custom activities&mdash;enable notes analysis.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## To configure notes analysis
 
 1. Verify that premium Sales Insights features are enabled. More information: [Enable and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features)  

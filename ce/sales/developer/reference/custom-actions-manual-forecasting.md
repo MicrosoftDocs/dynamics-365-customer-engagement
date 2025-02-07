@@ -15,13 +15,6 @@ ms.custom:
 
 As a developer, use this reference documentation to define custom actions for manual forecasting.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../security-roles-for-sales.md)|
-
-
 ## Supported custom actions
 
 The following custom action is used for forecasting:

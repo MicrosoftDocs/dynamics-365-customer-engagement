@@ -12,13 +12,6 @@ ms.reviewer: lavanyakr
 
 By default, the health score widget and who knows whom widget are available only in the out-of-the-box **Sales Insights** form. If you're using customized forms, you can display these widgets on your custom forms by manually adding them to your form.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Add widgets to a custom form
 
 To add the health score widget or who knows whom widget to your custom form, follow these steps:
