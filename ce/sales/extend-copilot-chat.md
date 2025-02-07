@@ -61,6 +61,5 @@ Watch these videos to learn more about customizing Copilot in Dynamics 365 Sales
 
 ## Related information
 
-Video: 
 [FAQ for Copilot chat in model-driven apps](/power-apps/maker/common/faqs-copilot-model-driven-app)  
 [Responsible AI FAQs for Power Apps](/power-apps/maker/common/responsible-ai-overview)  
