@@ -1,7 +1,7 @@
 ---
 title: Configure a LINE channel
 description: Instructions to configure a LINE channel.
-ms.date: 06/14/2024
+ms.date: 02/07/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
