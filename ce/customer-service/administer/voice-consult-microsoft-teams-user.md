@@ -4,7 +4,7 @@ description: Learn how to enable the consult experience between a voice channel 
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 12/14/2024
+ms.date: 02/07/2025
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -28,7 +28,7 @@ You can transfer and consult with Teams users through Voice Over Internet Protoc
 ## Enable representatives to consult with Microsoft Teams users via VOIP
 
 > [!NOTE]
-> Consult and transfer to Microsoft Teams users or Azure guest users via PSTN on the **Teams** tab of the dialer isn't supported in the enhanced voice experience. Use the **External number** tab to call numbers via PSTN.
+> Consult and transfer to Microsoft Teams users via PSTN on the **Teams** tab of the dialer isn't supported. Use the **External number** tab to call numbers via PSTN.
 
 If you've updated to the enhanced voice experience, you can enable your representatives to consult with or transfer voice calls to subject matter experts (SMEs) in Microsoft Teams using Voice Over Internet Protocol (VOIP). This feature is available through Azure Communication Services Call Automation. With this feature, SMEs can participate in customer service conversations directly from Microsoft Teams without having to configure a phone number. Any Teams users in your tenant who is displayed in the Teams search box can receive calls from your representatives.
 
