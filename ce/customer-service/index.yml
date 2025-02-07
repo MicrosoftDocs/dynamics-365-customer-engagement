@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 12/17/2024
+  ms.date: 02/07/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -84,6 +84,8 @@ additionalContent:
         text: Customize the case resolution experience
       - url: administer/omnichannel-customizer.md
         text: Customize forms for your agents and supervisors
+      - url: administer/analytics_overview.md
+        text: Customize analytics and insights
       - url: administer/model-customize-reports.md
         text: Customize data models of historical and real-time analytics reports
     - title: Integrate
@@ -162,14 +164,14 @@ additionalContent:
         text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Get insights and analyze service operations 
       links:
-      - url: use/customer-service-analytics-insights-csh.md
-        text: Use Customer Service dashboards
       - url: use/omnichannel-analytics-insights.md
         text: Use Omnichannel for Customer Service dashboards
       - url: use/intro-realtime-analytics-dashboard.md
-        text: Use Omnichannel real-time analytics dashboards 
+        text: Use Omnichannel real-time analytics dashboards
+      - url: use/oc-metrics-dimensions.md
+        text: Use report metrics  
       - url: use/manage-bookmarks.md
-        text: Use bookmarks for reports 
+        text: Use bookmarks for reports
       - url: use/customize-reports.md
         text: Customize visual display
     - title: Collaborate using Microsoft Teams
