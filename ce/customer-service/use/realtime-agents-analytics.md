@@ -40,7 +40,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 ## Agent details drill-down
 
 > [!NOTE]
-> If you don't see all the listed service representatives from the report as signed in, work with your administrator to make sure your service representatives have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](../develop/reference/entities/msdyn_agentstatus.md).
+> If you don't see all the listed service representatives from the report as signed in, work with your administrator to make sure your service representatives have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [Agent Status (msdyn_agentstatus) table](../../developer/reference/entities/msdyn_agentstatus.md).
 
 You can drill down from the **Agent list** section on the dashboard to view key metrics about service representative details and specific insights about individual service representatives' performance.
 

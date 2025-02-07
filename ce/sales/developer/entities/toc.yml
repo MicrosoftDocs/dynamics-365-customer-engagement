@@ -1,0 +1,249 @@
+items:
+- name: "About Microsoft Dynamics 365 Sales Table/Entity Reference"
+  href: ../about-entity-reference.md
+- name: "Account"
+  displayName: "Account entity"
+  href: /dynamics365/developer/reference/entities/account
+- name: "Assignment Map"
+  displayName: "msdyn_assignmentmap entity"
+  href: /dynamics365/developer/reference/entities/msdyn_assignmentmap
+- name: "Assignment Rule"
+  displayName: "msdyn_assignmentrule entity"
+  href: /dynamics365/developer/reference/entities/msdyn_assignmentrule
+- name: "Bulk Operation Log"
+  displayName: "BulkOperationLog entity"
+  href: /dynamics365/developer/reference/entities/bulkoperationlog
+- name: "Campaign"
+  displayName: "Campaign entity"
+  href: /dynamics365/developer/reference/entities/campaign
+- name: "Campaign Activity"
+  displayName: "CampaignActivity entity"
+  href: /dynamics365/developer/reference/entities/campaignactivity
+- name: "Campaign Response"
+  displayName: "CampaignResponse entity"
+  href: /dynamics365/developer/reference/entities/campaignresponse
+- name: "Competitor"
+  displayName: "Competitor entity"
+  href: /dynamics365/developer/reference/entities/competitor
+- name: "Connection"
+  displayName: "Connection entity"
+  href: connection.md
+- name: "Contact"
+  displayName: "Contact entity"
+  href: /dynamics365/developer/reference/entities/contact
+- name: "Conversation Action Item"
+  displayName: "msdyn_ConversationActionItem entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationactionitem
+- name: "Conversation Aggregated Insights"
+  displayName: "msdyn_ConversationAggregatedInsights entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationaggregatedinsights
+- name: "Conversation Participant Insights"
+  displayName: "msdyn_ConversationParticipantInsights entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantinsights
+- name: "Conversation Participant Sentiment"
+  displayName: "msdyn_ConversationParticipantSentiment entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantsentiment
+- name: "Conversation Question"
+  displayName: "msdyn_ConversationQuestion entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationquestion
+- name: "Conversation Sentiment"
+  displayName: "msdyn_ConversationSentiment entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsentiment
+- name: "Conversation Signal"
+  displayName: "msdyn_ConversationSignal entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsignal
+- name: "Conversation Subject"
+  displayName: "msdyn_ConversationSubject entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsubject
+- name: "Conversation Summary Suggestion"
+  displayName: "msdyn_ConversationSummarySuggestion entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsummarysuggestion
+- name: "Conversation System Tag"
+  displayName: "msdyn_ConversationSystemTag entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsystemtag
+- name: "Conversation Tag"
+  displayName: "msdyn_ConversationTag entity"
+  href: /dynamics365/developer/reference/entities/msdyn_conversationtag
+- name: "Data Map"
+  displayName: "ImportMap entity"
+  href: importmap.md
+- name: "Discount"
+  displayName: "Discount entity"
+  href: /dynamics365/developer/reference/entities/discount
+- name: "Discount List"
+  displayName: "DiscountType entity"
+  href: /dynamics365/developer/reference/entities/discounttype
+- name: "Duplicate Detection Rule"
+  displayName: "DuplicateRule entity"
+  href: duplicaterule.md
+- name: "Flow Machine Image"
+  displayName: "flowmachineimage entity"
+  href: flowmachineimage.md
+- name: "Forecast"
+  displayName: "msdyn_forecastinstance entity"
+  href: /dynamics365/developer/reference/entities/msdyn_forecastinstance
+- name: "Forecast definition"
+  displayName: "msdyn_forecastdefinition entity"
+  href: /dynamics365/developer/reference/entities/msdyn_forecastdefinition
+- name: "Forecast recurrence"
+  displayName: "msdyn_forecastrecurrence entity"
+  href: /dynamics365/developer/reference/entities/msdyn_forecastrecurrence
+- name: "Goal"
+  displayName: "Goal entity"
+  href: /dynamics365/developer/reference/entities/goal
+- name: "Goal Metric"
+  displayName: "Metric entity"
+  href: /dynamics365/developer/reference/entities/metric
+- name: "Invoice"
+  displayName: "Invoice entity"
+  href: /dynamics365/developer/reference/entities/invoice
+- name: "Invoice Product"
+  displayName: "InvoiceDetail entity"
+  href: /dynamics365/developer/reference/entities/invoicedetail
+- name: "Lead"
+  displayName: "Lead entity"
+  href: /dynamics365/developer/reference/entities/lead
+- name: "Lead Address"
+  displayName: "LeadAddress entity"
+  href: /dynamics365/developer/reference/entities/leadaddress
+- name: "Lead To Opportunity Sales Process"
+  displayName: "LeadToOpportunitySalesProcess entity"
+  href: /dynamics365/developer/reference/entities/leadtoopportunitysalesprocess
+- name: "Marketing List"
+  displayName: "List entity"
+  href: /dynamics365/developer/reference/entities/list
+- name: "Migration tracker"
+  displayName: "msdyn_migrationtracker entity"
+  href: msdyn_migrationtracker.md
+- name: "Opportunity"
+  displayName: "Opportunity entity"
+  href: /dynamics365/developer/reference/entities/opportunity
+- name: "Opportunity Close"
+  displayName: "OpportunityClose entity"
+  href: /dynamics365/developer/reference/entities/opportunityclose
+- name: "Opportunity Product"
+  displayName: "OpportunityProduct entity"
+  href: /dynamics365/developer/reference/entities/opportunityproduct
+- name: "Opportunity Sales Process"
+  displayName: "OpportunitySalesProcess entity"
+  href: /dynamics365/developer/reference/entities/opportunitysalesprocess
+- name: "Order"
+  displayName: "SalesOrder entity"
+  href: /dynamics365/developer/reference/entities/salesorder
+- name: "Order Close"
+  displayName: "OrderClose entity"
+  href: /dynamics365/developer/reference/entities/orderclose
+- name: "Order Product"
+  displayName: "SalesOrderDetail entity"
+  href: /dynamics365/developer/reference/entities/salesorderdetail
+- name: "Organization"
+  displayName: "Organization entity"
+  href: organization.md
+- name: "PM Simulation"
+  displayName: "msdyn_pmsimulation entity"
+  href: msdyn_pmsimulation.md
+- name: "Predictive Model Score"
+  displayName: "msdyn_predictivemodelscore entity"
+  href: /dynamics365/developer/reference/entities/msdyn_predictivemodelscore
+- name: "Predictive Score"
+  displayName: "msdyn_predictivescore entity"
+  href: /dynamics365/developer/reference/entities/msdyn_predictivescore
+- name: "Price List"
+  displayName: "PriceLevel entity"
+  href: /dynamics365/developer/reference/entities/pricelevel
+- name: "Price List Item"
+  displayName: "ProductPriceLevel entity"
+  href: /dynamics365/developer/reference/entities/productpricelevel
+- name: "Product"
+  displayName: "Product entity"
+  href: /dynamics365/developer/reference/entities/product
+- name: "Product Association"
+  displayName: "ProductAssociation entity"
+  href: /dynamics365/developer/reference/entities/productassociation
+- name: "Product Relationship"
+  displayName: "ProductSubstitute entity"
+  href: /dynamics365/developer/reference/entities/productsubstitute
+- name: "Property Instance"
+  displayName: "DynamicPropertyInstance entity"
+  href: /dynamics365/developer/reference/entities/dynamicpropertyinstance
+- name: "Queue Item"
+  displayName: "QueueItem entity"
+  href: queueitem.md
+- name: "Quick Campaign"
+  displayName: "BulkOperation entity"
+  href: /dynamics365/developer/reference/entities/bulkoperation
+- name: "Quote"
+  displayName: "Quote entity"
+  href: /dynamics365/developer/reference/entities/quote
+- name: "Quote Close"
+  displayName: "QuoteClose entity"
+  href: /dynamics365/developer/reference/entities/quoteclose
+- name: "Quote Product"
+  displayName: "QuoteDetail entity"
+  href: /dynamics365/developer/reference/entities/quotedetail
+- name: "Quote Product"
+  displayName: "QuoteDetail entity"
+  href: quotedetail.md
+- name: "Recording"
+  displayName: "msdyn_ocrecording entity"
+  href: /dynamics365/developer/reference/entities/msdyn_ocrecording
+- name: "Rollup Field"
+  displayName: "RollupField entity"
+  href: /power-apps/developer/data-platform/reference/entities/rollupfield
+- name: "Rollup Query"
+  displayName: "GoalRollupQuery entity"
+  href: /dynamics365/developer/reference/entities/goalrollupquery
+- name: "Sales Assignment Setting"
+  displayName: "msdyn_salesassignmentsetting entity"
+  href: /dynamics365/developer/reference/entities/msdyn_salesassignmentsetting
+- name: "Sales Attachment"
+  displayName: "SalesLiteratureItem entity"
+  href: /dynamics365/developer/reference/entities/salesliteratureitem
+- name: "Sales Literature"
+  displayName: "SalesLiterature entity"
+  href: /dynamics365/developer/reference/entities/salesliterature
+- name: "Sales routing run"
+  displayName: "msdyn_salesroutingrun entity"
+  href: /dynamics365/developer/reference/entities/msdyn_salesroutingrun
+- name: "SARunInstance"
+  displayName: "msdyn_saruninstance entity"
+  href: /dynamics365/developer/reference/entities/msdyn_saruninstance
+- name: "SCI Conversation"
+  displayName: "msdyn_SCIConversation entity"
+  href: /dynamics365/developer/reference/entities/msdyn_sciconversation
+- name: "Segment"
+  displayName: "msdyn_segment entity"
+  href: /dynamics365/developer/reference/entities/msdyn_segment
+- name: "Segment property"
+  displayName: "msdyn_segmentattribute entity"
+  href: /dynamics365/developer/reference/entities/msdyn_segmentattribute
+- name: "Seller attribute"
+  displayName: "msdyn_attribute entity"
+  href: /dynamics365/developer/reference/entities/msdyn_attribute
+- name: "Seller attribute value"
+  displayName: "msdyn_attributevalue entity"
+  href: /dynamics365/developer/reference/entities/msdyn_attributevalue
+- name: "Similarity Rule"
+  displayName: "SimilarityRule entity"
+  href: similarityrule.md
+- name: "SLA"
+  displayName: "SLA entity"
+  href: sla.md
+- name: "Territory"
+  displayName: "Territory entity"
+  href: territory.md
+- name: "Transcript"
+  displayName: "msdyn_transcript entity"
+  href: /dynamics365/developer/reference/entities/msdyn_transcript
+- name: "Unit"
+  displayName: "UoM entity"
+  href: /dynamics365/developer/reference/entities/uom
+- name: "Unit Group"
+  displayName: "UoMSchedule entity"
+  href: /dynamics365/developer/reference/entities/uomschedule
+- name: "wkwcolleaguesforcompany"
+  displayName: "msdyn_wkwcolleaguesforcompany entity"
+  href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcompany
+- name: "wkwcolleaguesforcontact"
+  displayName: "msdyn_wkwcolleaguesforcontact entity"
+  href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcontact
