@@ -1,5 +1,5 @@
 ---
-title: Use spatial annotations in Teams to annotate in a user's environment
+title: Use spatial annotations in Teams
 description: Use Microsoft Teams to annotate in a Dynamics 365 Field Service environment.
 author:  prashantyvr
 ms.date: 02/07/2025
@@ -9,7 +9,7 @@ ms.reviewer: v-wendysmith
 ms.custom: bap-template
 ---
 
-# Use spatial annotations in Teams to annotate in a user's environment
+# Use spatial annotations in Teams
 
 <!--- This topic in Guides and RA. Topic is H2 in calling-annotations.md --->
 
@@ -20,7 +20,9 @@ Spatial annotations can greatly enhance your communication and collaboration, es
 - **Solve problems in real time**: Technicians can share their real-time view with experts in remote locations to get the help they need, reducing travel time and cost.
 - **Knowledge sharing and training**: Use spatial annotations, photos, and videos to capture and share with the rest of your organization.
 
-You can use spatial annotations in calls with Microsoft Teams mobile users if you have a Dynamics 365 Guides, Remote Assist, or Field Service license. Microsoft Teams desktop users can use spatial annotations in a mobile user's space. Use the **Spatial Annotations** toolbar in Teams to add spatial annotations.
+  :::image type="content" source="../field-service/media/teams-mobile-annotation-example.png" alt-text="Screenshot of a mobile phone showing an example of spatial annotations":::
+
+You can use spatial annotations in calls with Microsoft Teams mobile users if you have a Dynamics 365 Guides, Remote Assist, or Field Service license. Microsoft Teams desktop users can use spatial annotations in a mobile user's space. It only takes one license from a mobile user to unlock capabilities to all desktop users. Use the **Spatial Annotations** toolbar in Teams to add spatial annotations.
 
 1. While in a Teams mobile call, select **Spatial Annotations**.
 
