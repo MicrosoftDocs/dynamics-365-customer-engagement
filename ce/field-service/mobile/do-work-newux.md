@@ -95,4 +95,4 @@ In the new mobile user experience, app users can tap the user icon to access the
 >
 > - The new mobile UX caches changes to metadata for up to 8 hours. To see changes more quickly, users need to sign-out and sign back into the application.
 > - The new mobile UX uses the time zone and location of the device, while the forms built for Unified Interface use the system's time zone. If there's a mismatch between the device the system, users are requested to match system time with the device. If the language of the device is not enabled in the system, users might see mixed languages.
-> - Searching within lists of the new mobile UX will only return resutls of text-based fields, values in other field times such as Lookup will not return results. 
+> - Searching within lists of the new mobile UX only returns results of text-based fields. Values in other field types such as Lookup won't return results. 
