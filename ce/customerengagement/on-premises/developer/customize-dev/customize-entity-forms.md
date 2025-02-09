@@ -37,8 +37,8 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
 ### View FormXML from an exported entity  
  Only definitions of system entity forms that have been customized are included in exported managed solution. To view the definition of a system entity form, you must either change it in some way, or create a new form by saving the existing form with a new name.  
 
- After you export the solution, extract the contents and view the customizations.xml file. You’ll find the definition of the forms in `ImportExportXml` > `Entities` > `Entity` > `FormXml`. 
- In the `<FormXml>` node, you’ll find each type of form is grouped in a `<forms>` element with the `type` attribute specifying the type of form.  
+ After you export the solution, extract the contents and view the customizations.xml file. You'll find the definition of the forms in `ImportExportXml` > `Entities` > `Entity` > `FormXml`. 
+ In the `<FormXml>` node, you'll find each type of form is grouped in a `<forms>` element with the `type` attribute specifying the type of form.  
 
 <a name="BKMK_FormProperties"></a>   
 ## Form properties  
@@ -50,7 +50,7 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
 |   `AncestorFormId`    |                  `<ancestor>`                   |                      Unique identifier of the parent form. This is set when you create a new form by using **Save As** for an existing form or by using <xref:Microsoft.Crm.Sdk.Messages.CopySystemFormRequest>.                      |
 |    `CanBeDeleted`     |                `<CanBeDeleted>`                 |                                    Information that specifies whether this component can be deleted.This managed property is only applied if the form was created by importing a managed solution.                                    |
 |     `Description`     |                `<Descriptions>`                 | `Description` is a string and `<Descriptions>` contains any localized labels for the description of the form.<br /><br /> The localized labels can be retrieved using the <xref:Microsoft.Crm.Sdk.Messages.RetrieveLocLabelsRequest>. |
-| `FormActivationState` |             `<FormActivationState>`             |                                  Specifies the state of the form.<br /><br /> Only forms of type “main” can be deactivated.<br /><br /> Valid Values:<br /><br /> -   0: Inactive<br />-   1: Active                                  |
+| `FormActivationState` |             `<FormActivationState>`             |                                  Specifies the state of the form.<br /><br /> Only forms of type "main" can be deactivated.<br /><br /> Valid Values:<br /><br /> -   0: Inactive<br />-   1: Active                                  |
 |       `FormId`        |                   `<formid>`                    |                                                                                                     Unique identifier of the form                                                                                                     |
 |  `FormPresentation`   |              `<FormPresentation>`               |                                     Specifies whether this form is in the updated UI layout in [!INCLUDE[pn_dynamics_crm_online](../../includes/pn-dynamics-crm-online.md)].                                      |
 |       `FormXml`       |                    `<form>`                     |                                                                                                XML representation of the form layout.                                                                                                 |
@@ -66,14 +66,14 @@ Forms provide the user interface (UI) that people use to create, view, or edit e
 ## Create and edit forms  
  You can only create new forms for an entity where <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>. <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.CanCreateForms> allows it.  
 
- You can create new forms using either a <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or the <xref:Microsoft.Crm.Sdk.Messages.CopySystemFormRequest>. When using <xref:Microsoft.Crm.Sdk.Messages.CopySystemFormRequest> or using **Save As** in the form editor, note that there is no inheritance between forms. Therefore, changes to the base form aren’t automatically applied to any forms created from it.  
+ You can create new forms using either a <xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or the <xref:Microsoft.Crm.Sdk.Messages.CopySystemFormRequest>. When using <xref:Microsoft.Crm.Sdk.Messages.CopySystemFormRequest> or using **Save As** in the form editor, note that there is no inheritance between forms. Therefore, changes to the base form aren't automatically applied to any forms created from it.  
 
  Editing the form definitions from an exported managed solution and then re-importing the solution is a supported method to edit entity forms. When manually editing forms we strongly recommend you use an XML editor that allows for schema validation. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Edit the Customizations XML File with Schema Validation](edit-customizations-xml-file-schema-validation.md)  
 
 ### See also  
  [Customize Microsoft Dynamics 365 Customer Engagement](customize-applications.md)   
  [Create and design forms](../../customize/create-design-forms.md)   
- [SystemForm Entity](../entities/systemform.md)   
+ [SystemForm Entity](/power-apps/developer/data-platform/reference/entities/systemform)   
  [Create or edit how business rules are initiated](create-edit-how-business-rules-initiated.md)   
  [Form XML Schema](form-xml-schema.md)
 

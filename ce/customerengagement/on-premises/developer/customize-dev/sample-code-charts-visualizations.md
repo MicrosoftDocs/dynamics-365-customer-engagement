@@ -39,9 +39,9 @@ This section contains code examples that demonstrate how to use visualization en
   
  [Sample Charts](sample-charts.md)  
   
- [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md)  
+ [SavedQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/savedqueryvisualization)  
   
- [UserQueryVisualization Entity](../entities/userqueryvisualization.md)
+ [UserQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/userqueryvisualization)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
