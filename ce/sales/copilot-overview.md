@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 02/07/2025
+ms.date: 02/10/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
