@@ -22,6 +22,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, customer service representatives (service representatives or representatives), and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
 You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
