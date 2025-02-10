@@ -114,17 +114,17 @@ This metric is a measure of the average time that a service representative spend
 
 This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
-## Inbound conversations
+### Inbound conversations
 
  The total number of conversations that users have initiated through any channel (voice, digital, or case). This includes all conversation taking place with a bot and/or a service representative for open, active, and closed conversations.
 
-## Inbound ongoing conversations
+### Inbound ongoing conversations
 The total number of open and active conversations that users have initiated through any channel (voice, digital, or case).  This includes all conversation taking place with a bot and/or a service representative. Applicable to real-time.
 
-## Outbound Conversations
+### Outbound conversations
 The total number of conversations that service representatives have initiated through any channel (voice, digital, or case).This includes all conversation taking place with a bot and/or a  service representative for open, active, and closed conversations.
 
-## Outbound Ongoing Conversations
+### Outbound ongoing conversations
 The total number of active conversations that   service representatives have initiated through any channel (voice, digital, or case). This includes all conversation taking place with a bot and/or a  service representative. Applicable to real-time.
 
 ### Abandoned conversations
@@ -139,28 +139,28 @@ The conversation direction is *Incoming*. The channels that the conversation cam
 
 :::image type="content" source="../media/abandoned-conversation.png" alt-text="Diagram that illustrates abandoned conversations.":::
 
-## Abandoned Bot Conversations
+### Abandoned bot Conversations
 
 The total number of conversations where the customer abandons the conversation after being connected to a bot before they reach a resolution through either self-help content or being transferred to a service representative.
 
-## Abandoned service representative conversations
+### Abandoned service representative conversations
 
 The total number of conversations where the customer abandons the conversation after being assigned to a queue before they are connected to a  service representative.
 
-## Routed service representative conversations
+### Routed service representative conversations
 
 The total number of active conversations routed and successfully assigned to a  service representative queue.
 
-## Unaccepted service representative conversations
+### Unaccepted service representative conversations
 The total number of conversations that weren't accepted by a service representative due to either a decline or timeout.
 
-## Accepted service representative conversations
+### Accepted service representative conversations
 The total number of conversations that were accepted by a service representative and the customer has been connected to the agent.
 
-## Engaged service representative conversations
+### Engaged service representative conversations
 The total number of conversations that were routed to a service representative, the representative accepted the conversation, and the representative has taken action on the conversation (spoken, sent a message, or began taking action on the case).
 
-## Percentage of conversations accepted by service representative
+### Percentage of conversations accepted by service representative
 The percentage of conversations that are accepted by service representatives.
 
 Percentage of Conversations Accepted = Accepted Conversations / Total Conversations Offers Presented.
@@ -175,7 +175,7 @@ Percentage of Conversations Accepted = Accepted Conversations / Total Conversati
 
     Bot Abandonment Rate = Abandoned Bot Conversations / Closed Bot Conversations.
 
-## Active conversations
+### Active conversations
 
 The total number of active conversations includes conversations that are assigned to a service representative or a bot and actively being engaged. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
@@ -201,18 +201,18 @@ The total number of conversations that have taken place during the selected peri
 
 Bot Escalated Conversations + Bot Deflected Conversations + Total service representative (direct representative) Conversations = Total Conversations.
 
-## Total bot conversations
+### Total bot conversations
 The total number of bot conversations through any channel (voice or digital) including both active and closed conversations for inbound and outbound traffic. 
 
  Active Bot Conversations + Closed Bot Conversations = Total Bot Conversations
 
-## Closed Conversation
+### Closed Conversation
  The total number of closed bot and service representative conversations through any channel (voice, digital, or case) including both inbound and outbound conversations.
 
-## Closed bot conversation
+### Closed bot conversation
  The total number of closed bot conversations  through any channel (voice or digital) including both inbound and outbound conversations.
 
-## Closed service representative conversation
+### Closed service representative conversation
  The total number of closed service representative conversations through any channel (voice or digital) including both inbound and outbound conversations.
 
 ### Incoming conversations
@@ -229,11 +229,11 @@ The total number of open (unassigned) and active (assigned) conversations includ
 
 Open service representative conversations + Active representative Conversations + Active Bot Conversations = Ongoing Conversations.
 
-## Ongoing bot conversations
+### Ongoing bot conversations
  
 The total number of active bot conversations. Includes conversations that are assigned to a bot and are actively being engaged. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
-## Open service representative conversations
+### Open service representative conversations
 
 The total number of open service representative conversations. Includes conversations that aren't yet assigned to a service representative and are currently waiting in queue. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
 
