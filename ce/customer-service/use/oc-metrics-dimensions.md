@@ -297,9 +297,9 @@ This metric is a measure of the total number of customer conversations. For more
 
 ### Incoming conversation
 
-This metric is a measure of the total number of conversation requests that customers initiated across all channels and received by the contact center. For more information, go to Understand conversation states.
+The total number of service representative conversations through any channel (voice, digital, case) including both open, active, and closed conversations for inbound traffic.
 
-For historical reports, this metric is a measure of the total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic.
+Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations.
 
 - Data measure in PBI is: FactConversation.Incoming Conversations.
 

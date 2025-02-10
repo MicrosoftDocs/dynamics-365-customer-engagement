@@ -37,13 +37,14 @@ The conversation lifecycle and the metrics that can be derived in the different 
 
 The following table lists the KPIs in the Conversation dashboard.
 
-| Metric | Description | 
+| Metric | Description   |
+|------------|---------|
 | Incoming conversations | The total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic. Learn more in [Incoming conversation](oc-metrics-dimensions.md#incoming-conversation). |
-| Engaged conversations | The total number of actively assigned conversations including both bot and service representative conversations. |
-| Abandon rate | If the conversation ended before an agent accepts the conversation then it is considered abandoned. Abandon rate = Abandoned conversations, divided by the incoming conversations. |
-| Avg. speed to answer (seconds) | Agent accepted time -  agent session created on time)  / Total number of conversations handled by agent. |
-| Avg. CSAT| The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool.|
-| Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. Learn more about how the sentiment data is derived in [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). ||
+| Engaged conversations| The total number of active service representative conversations. Includes conversations that were assigned to a representative, accepted by the representative, and actively being engaged by a representative. This includes all inbound and outbound conversations across all channels (digital, voice, and cases). |
+| Abandon rate | The percentage of conversations where the customer abandons the conversation after being assigned to a queue and before being assigned to a service representative. Representative Queue Abandonment Rate = Abandoned CSR Conversations / Closed CSR Conversations |
+| Avg. speed to answer (seconds)| Conversation start time - Agent Assigned and engaged |
+| Avg. CSAT| The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool. |
+| Avg. conversation sentiment   | The average sentiment score based on the customer's conversation experience. Learn more about how the sentiment data is derived in [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). |
 
 
 > [!div class="mx-imgBorder"]
