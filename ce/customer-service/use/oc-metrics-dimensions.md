@@ -1,15 +1,15 @@
 ---
-title: Use Omnichannel for Customer Service metrics
+title: Use report metrics
 description: Understand and use Omnichannel for Customer Service metrics.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 12/09/2024
+ms.date: 02/07/2025
 ms.custom: bap-template
 ---
 
-# Use Omnichannel for Customer Service metrics
+# Use report metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -31,9 +31,9 @@ Fact tables are larger than dimension tables because numerous events, such as in
 
 Here's a brief description of the workflow.
 
-When a customer raises a request through a channel such as voice, messaging, or chat, a conversation is created. A conversation represents an entire end-to-end interaction with a customer. A conversation can also be created when a service representative calls a customer. A conversation typically originates in a workstream on a specific channel. It then routes to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
+When a customer raises a request through a channel such as voice, messaging, or chat, the system creates a conversation. A conversation represents an entire end-to-end interaction with a customer. The system can also create a conversation when a service representative calls a customer. A conversation typically originates in a workstream on a specific channel. It then routes to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
 
-A conversation can end during a single session, or it can extend to multiple sessions. A session is created when the system identifies a service representative to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or a service representative might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and service representative performance. Examples include the number of requests that landed in a queue, the number of requests that service representatives rejected, and service representative handle time.
+A conversation can end during a single session or it can extend to multiple sessions. A session is created when the system identifies a service representative to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or a service representative might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and service representative performance. Examples include the number of requests that landed in a queue, the number of requests that service representatives rejected, and service representative handle time.
 
 The workflow in the following diagram represents a single conversation where multiple sessions are created. The first session is created when the conversation is created and assigned to a bot. When the bot escalates the conversation to a service representative, the second session is created, and the first session is automatically closed. In the second session, the system identifies and assigns the best service representative to work on the customer request. If that service representative rejects the request, a new session is created, and the process of identifying another service representative begins.
 
@@ -98,7 +98,7 @@ The following time-based filter options are available on real-time dashboards:
 
 - **Today**: View all conversations that started since 12 AM in the selected time zone, in any state or province.
 - **Last 24 hours**: View all conversations that started in the last 24 hours, in any state or province.
-- **Include open conversations beyond 24 hours**: View all conversations that started in the last 24 hours, in any state or province. In addition, view all conversations that started in the last three days and that are still open.
+- **Include open conversations beyond 24 hours**: View all conversations that started in the last 24 hours, in any state or province. In addition, view all conversations that started in the last three days and are still open.
 
 ### Time zone
 
@@ -198,7 +198,7 @@ For information about metrics that are related to how quickly a service represen
 
 ### Conversation handle time
 
-This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
+This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the talk time, hold time, and wrap-up time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
 
 A service representative is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If a service representative is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the service representative spends on the conversation on an open tab counts toward that conversation's handle time.
 
@@ -208,19 +208,34 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 :::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
 
-#### Related metric
+### Average handle time
 
-- **Average handle time**: This metric is calculated by dividing the total handle time of all the customer requests by the total number of customers who were served.
+This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
 
-For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, go to the [Average session handle time](#average-session-handle-time) section.
+For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](#average-session-handle-time).
+
+For the **Voice** report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
+
+- Talk time: The time a service representative spends in actively speaking with the customer.
+- Hold time: The time for which a service representative puts the customer on hold during the interaction.
+- Wrap-up time or after-call work: The time taken to complete any post-call tasks related to the interaction.
+- Total number of calls handled: The total number of customer interactions handled by the service representatives.​
+
+    :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
+
+For the **Chat** report, this metric is a measure of the active chat time and active wrap-up time, divided by the number of chats handled, where:
+
+- Active chat time: The time a service representative spends in actively chatting with the customer.
+- Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
+- Total number of chats handled: The total number of customer interactions handled by the service representatives.
+
+    :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
 
 ### Average conversation hold time
 
 This metric is a measure of the average time, in seconds, that the service representatives who handled a conversation had the customer on hold. If multiple service representatives handled the conversation, the hold time across all the service representatives is aggregated. This metric is calculated by dividing the total hold time for all customer requests by the total number of customers who were served.
 
 There are several reasons why a service representative might put a customer on hold. For example, the service representative might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
-
-:::image type="content" source="../media/conversation-hold-time.png" alt-text="Diagram that illustrates conversation hold time and talk time.":::
 
 ### Average conversation talk time
 
@@ -290,7 +305,7 @@ The metric is a measure of the current sentiment of customer. It's powered by Co
 
 ### Average session handle time
 
-This metric is like conversation handle time, but it's granular and is calculated for every service representative who works on the conversation. This metric is relevant to conversations that multiple service representatives handled. If multiple service representatives were assigned to work on a customer request for any reason (for example, transfers or escalations), this metric measures the average time that each service representative who worked with the customer spent. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
+This metric is similar to conversation handle time, but it's granular and is calculated for every service representative who works on the conversation. This metric is relevant to conversations that multiple service representatives handled. If multiple service representatives were assigned to work on a customer request for any reason (for example, transfers or escalations), this metric measures the average time that each service representative who worked with the customer spent. Conversation handle time is a measure of the aggregated session handle time for all the associated sessions.
 
 #### Related metric
 
