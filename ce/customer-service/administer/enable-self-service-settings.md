@@ -1,7 +1,7 @@
 ---
 title: Enable self-service settings
 description: Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service.
-ms.date: 06/14/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,7 @@ ms.custom:
 
 The self-service feature displays information about the recent actions that a customer performs before starting a conversation with an agent. This information helps agents understand customer issues and provide a personalized service for enhanced customer satisfaction.
 
-The data about the recent actions is stored in an entity for the conversation that has been closed. A record is created for each self-service action and [action type](../use/oc-customer-summary.md#view-self-service). To learn more, see [msdyn_visitorjourney Entity Reference](../develop/reference/entities/msdyn_visitorjourney.md).
+The data about the recent actions is stored in an entity for the conversation that has been closed. A record is created for each self-service action and [action type](../use/oc-customer-summary.md#view-self-service). To learn more, see [Self service (msdyn_visitorjourney) table](../../developer/reference/entities/msdyn_visitorjourney.md).
 
 Enabling the self-service feature is a two-step process as follows:
 1. Add a code snippet in the self-service portal that is configured for your organization. For the sample code and to learn more, see [Pass self service history as context](../develop/reference/methods/setContextProvider.md#pass-customers-self-service-as-context).

@@ -87,7 +87,7 @@ Report data is automatically updated in real time for all the reports except the
 
 ### Related information
 
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
+[Use report metrics](oc-metrics-dimensions.md)<br>
 [Manage bookmarks](manage-bookmarks.md)<br>
 [Customize the visual display of your analytics reports](customize-reports.md)<br>
 [Manage real-time analytics reports](../administer/enable-realtime-analytics-dashboard-administrator.md#manage-real-time-analytics-reports-in-omnichannel-for-customer-service)<br>
