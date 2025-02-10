@@ -34,7 +34,7 @@ You can [customize the visual display](customize-reports.md#customize-visual-dis
 
 ## Metrics
 
-Learn more about metrics for historical analytics reports in [Omnichannel historical analytics metrics](omni-hist-metrics.md).
+Learn more about metrics in [Use report metrics](oc-metrics-dimensions.md#use-report-metrics).
 
 ## Manage dashboards
 

@@ -39,7 +39,7 @@ The following table lists the KPIs in the Conversation dashboard.
 
 | Metric | Description   |
 |------------|---------|
-| Incoming conversations | The total number of service representative conversations through any channel (voice, digital, case) including both open, active, and closed conversations for inbound traffic. Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations. Learn more in [Incoming conversation](oc-metrics-dimensions.md#incoming-conversation). |
+| Incoming conversations | The total number of service representative conversations through any channel (voice, digital, case) including both open, active, and closed conversations for inbound traffic. Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations. Learn more in [Incoming conversation](oc-metrics-dimensions.md#incoming-conversations). |
 | Engaged conversations| The total number of active service representative conversations. Includes conversations that were assigned to a representative, accepted by the representative, and actively being engaged by a representative. This includes all inbound and outbound conversations across all channels (digital, voice, and cases). |
 | Abandon rate | The percentage of conversations where the customer abandons the conversation after being assigned to a queue and before being assigned to a service representative. Representative Queue Abandonment Rate = Abandoned representative Conversations / Closed representative conversations |
 | Avg. speed to answer (seconds)| Conversation start time - Agent Assigned and engaged |

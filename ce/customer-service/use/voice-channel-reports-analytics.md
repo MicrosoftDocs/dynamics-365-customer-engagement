@@ -20,7 +20,7 @@ applies_to:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with customer service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their customer service representatives that their communications with end users might be monitored, recorded, or stored.
 
 The Voice analytics report provides comprehensive information on the overall performance of customer support across the voice channel. The reports provide administrators and supervisors with a visualization and ability to filter across channels, queues, customer service representatives (service representatives or representatives), and date ranges to help better understand performance and troubleshoot problem areas.
 
@@ -34,8 +34,8 @@ The following KPIs are displayed in the Voice dashboard.
 |----------------|---------------------|
 | Incoming conversations  | The number of conversations initiated by the customer and can be presented to a service representative. |
 | Engaged conversations  | The conversations that the service representative was engaged in. Customer-to-representative communication can begin at this point. |
-| Abandon rate | Percentage of conversations that are not engaged by service representativess.
-| Average wait time | The average time customers waited before connecting to service representatives. Similar to "speed to answer", but includes time waited on each session within a conversation. |
+| Abandon rate | Percentage of conversations that aren't engaged by service representatives.
+| Average wait time | The average time customers waited before connecting to service representatives. Similar to speed to answer, but includes time waited on each session within a conversation. |
 | Average Speed to answer (sec) | The average time customers waited in the queue before connecting to a service representative (the time for acceptance). |
 | Avg. CSAT <br> **Note:** Currently unavailable. | The average of customer satisfaction ratings provided by customers.  |
 | Avg. Conversation sentiment | The average sentiment score based on the verbatim provided in customer voice survey. |
@@ -52,7 +52,7 @@ The following metrics are available for the service representative conversation 
 
 | Metric  | Definition  |
 |----------------|------------|
-| Talk to listen ratio | The average listen and talk ratio of service representatives in conversations with customers.  |
+| Talk to listen ratio | The averages listen and talk ratio of service representatives in conversations with customers.  |
 | Talking speed (WPM) | The average number of words used per minute by service representatives. |
 | Switches per conversation | The average exchanges between a representatives and a customer in a conversation; the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
 | Pause before speaking (sec)  | The milliseconds a service representative paused before responding to customer queries; indicates representatives's patience. |
@@ -60,7 +60,7 @@ The following metrics are available for the service representative conversation 
 
 ## Call insights
 
-Supervisors can look into each topic, and view the CSAT and sentiment to see coaching opportunities. Supervisors can view details of a conversation by drilling through the topics and selecting a conversation title.
+Supervisors can look into each article, and view the CSAT and sentiment to see coaching opportunities. Supervisors can view details of a conversation by drilling through the topics and selecting a conversation title.
 
 Supervisors can also see entire transcripts to understand the conversation style and get precise verbatim used so that they can make informed decisions about training requirements for the service representative.
 
