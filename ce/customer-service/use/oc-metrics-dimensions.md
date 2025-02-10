@@ -1,6 +1,6 @@
 ---
 title: Use report metrics
-description: Understand and use Omnichannel for Customer Service metrics.
+description: This article provides an overview of the various metrics available in Customer Service, helping you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -13,19 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-
-This article describes the different metrics that help you analyze key performance indicators (KPIs) as you work with customer service representatives (service representatives or representatives) in your contact center. Use metrics to do a quantitative assessment of the data that is shown on the Omnichannel dashboards. Metrics can also help you make strategic decisions, and track and improve customer satisfaction.
-
-## Understand the Omnichannel analytics data model
-
-The application provides an out-of-box data model that consists of fact and dimension tables.
-
-- Facts, also known as metrics, represent the observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
-- Dimensions represent the attributes of the facts. You can use them to break down the data for further analysis.
-
-You can use facts and dimensions to visualize data according to your organizational requirements. For example, if you want to understand how average handle time varies by queue, you can filter the Average handle time fact by the Queue name dimension.
-
-Fact tables are larger than dimension tables because numerous events, such as individual customer requests, occur in them. Dimension tables are typically smaller because you're limited to the number of items that you can filter on and group. For example, the number of queues is a limited set.
+This article describes the different metrics that help you analyze key performance indicators (KPIs) as you work with customer service representatives (service representatives or representatives) in your contact center. Use metrics to do a quantitative assessment of the data that is shown on the out-of-the-box dashboards. Metrics can also help you make strategic decisions, and track and improve customer satisfaction.
 
 ## Understand the workflow
 
@@ -41,90 +29,134 @@ The workflow in the following diagram represents a single conversation where mul
 
 For every service representative who is identified to work on a conversation and associated with the latest session, a session participant entry is created. A single session can have multiple participants. Every session has one primary participant: the service representative who has the assigned work item. A session might then have many other participants who monitor the conversation or help with the consultation. Alternatively, the session might have no other participants. From this entity, you can get KPIs and metrics about consultations that service representatives provide and monitored conversations.
 
-## Dimensions
+## Conversations
 
-This section describes the different dimensions of the out-of-box omnichannel real-time analytics metrics.
+## Conversation first wait time
 
-For information about how you can use these metrics to customize the visual display of your reports, go to [Customize visual display](customize-reports.md).
+This metric is a measure of the time, in seconds, before a  service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
 
-### Skills
+If a bot or interactive voice response (IVR) handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the bot or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the bot or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
 
-Skills assigned to service representatives.
+If the customer reaches a service representative queue directly, the calculation is based on the time between the point when the customer creates the request and the point when a service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the customer creates the request and the point when the customer disconnects the conversation.
 
-### Proficiency
+This metric is available in two formats: seconds and *hh:mm:ss*.
 
-A service representative's proficiency level for assigned skills.
+### Related metrics
 
-### Capacity profile name
+- **Average conversation first wait time**: This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of served customers.
+- **Longest wait time**: This metric is a measure of the longest first wait time among incoming conversations that a service representative hasn't yet accepted.
+- **Conversations in queue**: This metric is a count of customer requests that are currently awaiting service representative assistance, or conversations where a service representative is assigned but are waiting for the service representative to accept.
 
-This dimension represents the name of the capacity profile.
+For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one service representative to another, go to the [Session wait time](#session-wait-time) section.
 
-### Conversation direction
+## Conversation handle time
 
-This dimension applies only to voice conversations. It indicates whether the customer or a service representative in the contact center initiated the conversation.
+This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
 
-If a contact center service representative initiates the conversation (and the customer receives it), the system considers it outbound. If the customer initiates the conversation (and the contact center receives it), the system considers it inbound.
+A service representative is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If a service representative is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the service representative spends on the conversation on an open tab counts toward that conversation's handle time.
 
-### Conversation status
+A long average handle time might indicate that service representatives are taking too long to resolve customer issues, and that they need more training or support to help them work better. In addition, a long average handle time might suggest that customers aren't receiving the level of service or support that they need to resolve their issues. Therefore, it might lead to customer dissatisfaction.
 
-This dimension represents the current state of a customer interaction. The following status values are available:
+This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
-- **Open**: The conversation is currently awaiting service representative assignment.
-- **Active**: Either the conversation has a service representative assigned and is awaiting acceptance, or a service representative is in contact with the customer.
-- **Waiting**: The conversation is currently awaiting either a customer response or a service representative response. This option applies to asynchronous conversation modes, such as messages.
-- **Wrap-up**: The service representative is performing post–customer interaction activities such as adding notes or updates to the case after the end of a customer conversation.
-- **Closed**: The conversation is currently closed. The following metrics are a measure of the conversations grouped by call closure reason.
+:::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
 
-    - Ghost Conversation: Conversations that are connected to a service representative but there was no interaction from customer after the conversation was connected. 
-    - Ghost Conversations Rate: Percentage of engaged conversations that are connected to a service representative but there was no interaction from the customer. 
-    - Conversation disconnect rate: Percentage of conversations that were ended by customer before a service representative ended the conversation.
-    - Disconnect reason: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call or the call was disconnected due to connection issues.
+## Average handle time
 
-### Queue name
+This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
 
-This dimension represents the name of the queue.
+For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](#average-session-handle-time).
 
-### Service representative presence
+For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
 
-This dimension represents the statuses that are available for service representatives. The out-of-box options include *Online*, *Away*, *Busy*, *Offline*, and *Do Not Disturb*. The status options that are available to you depend on your organization's configuration and include any other custom presence statuses configured for your organization.
+- Talk time: The time a service representative spends in actively speaking with the customer.
+- Hold time: The time for which a service representative puts the customer on hold during the interaction.
+- Wrap-up time or after-call work: The time taken to complete any post-call tasks related to the interaction.
+- Total number of calls handled: The total number of customer interactions handled by the service representatives.​
 
-### Date hour
+    :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
 
-This dimension represents the hour of the day in a 24-hour format.
+For the Chat report, this metric is a measure of the active chat time and active wrap-up time, divided by the number of chats handled, where:
 
-### Time range
+- Active chat time: The time a service representative spends in actively chatting with the customer.
+- Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
+- Total number of chats handled: The total number of customer interactions handled by the service representatives.
 
-The following time-based filter options are available on real-time dashboards:
+    :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
 
-- **Today**: View all conversations that started since 12 AM in the selected time zone, in any state or province.
-- **Last 24 hours**: View all conversations that started in the last 24 hours, in any state or province.
-- **Include open conversations beyond 24 hours**: View all conversations that started in the last 24 hours, in any state or province. In addition, view all conversations that started in the last three days and are still open.
+## Average conversation hold time
 
-### Time zone
+This metric is a measure of the average time, in seconds, that the service representatives who handled a conversation had the customer on hold. If multiple service representatives handled the conversation, the hold time across all the service representatives is aggregated. This metric is calculated by dividing the total hold time for all customer requests by the total number of customers who were served.
 
-This dimension represents the time zone that is used to calculate and show metrics across the dashboards. The available options are standard time zones.
+There are several reasons why a service representative might put a customer on hold. For example, the service representative might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
 
-### Service representative name
+:::image type="content" source="../media/conversation-hold-time.png" alt-text="Diagram that illustrates conversation hold time and talk time.":::
 
-This dimension represents the name of the omnichannel service representative.
+## Average conversation talk time
 
-### Service representative participation mode
+This metric is a measure of the average time, in seconds, that service representatives spent actively conversing with customers on the phone for voice conversations. If multiple service representatives handled the conversation, the conversation talk time is aggregated across all the service representatives. This metric is calculated by dividing the total talk time for all customer requests by the total number of customers who were served.
 
-The following service representative participation modes are available:
+### Related metric
 
-- **Primary**: Service representative participation mode is *Primary*.
-- **Consult**: Service representative participation mode is *Consult*.
-- **Monitor**: Supervisor participation mode is *Monitor*. This option applies only to users who have the Omnichannel supervisor role.
+- **Conversation talk time**: This metric is calculated based on the total talk time across all customer requests.
 
-### Workstream name
+## Average conversation time
 
-This dimension represents the name of the omnichannel workstream where the conversation originated.
+This metric is a measure of the average time, in seconds, that a customer who was seeking help from the contact center spent with a service representative. It includes the time that the customer spent waiting for service representatives to work with them.
 
-### Channel name
+### Related metric
 
-This dimension represents the name of the channel.
+- **Conversation time**: This metric is calculated as the time between the point when the customer initiated the request and the point when the service representative wrapped up the conversation.
 
-## Metrics
+## Average conversation wrap-up time
+
+This metric is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. The calculation is based on the time between the beginning of the wrap-up and the point when the service representative closes the conversation. If multiple service representatives handled a conversation, this metric applies only to the time that the last service representative who worked with the customer spent.
+
+This metric can be viewed in two formats: seconds and *hh:mm:ss*.
+
+## Abandoned conversations
+
+A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to respond to handle overflow. Abandoned conversations can lead to customer dissatisfaction because of a lack of assistance from the contact center. A high abandonment rate might require further investigation into operational metrics such as service representative availability and queue distribution.
+
+If a bot or IVR handles the customer before it escalates the request to a service representative, this metric is calculated as the number of conversations that were abandoned while customers were waiting for a service representative after the bot escalated the request. If a conversation is abandoned before a bot can be assigned, the system considers the conversation abandoned.
+
+If the customer reaches a service representative queue directly, this metric is calculated as the number of incoming conversations that were abandoned.
+
+The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
+
+:::image type="content" source="../media/abandoned-conversation.png" alt-text="Diagram that illustrates abandoned conversations.":::
+
+### Related metric
+
+- **Abandoned rate**: This metric is a measure of the percentage of incoming conversation requests that ended before customers were connected to a service representative. It's calculated by dividing the number of abandoned conversations by the number of bot-escalated conversations.
+
+## Active conversations awaiting service representative acceptance
+
+This metric is a count of conversation requests from customers where service representatives are assigned but that are currently waiting for a service representative to accept and join the conversation. The conversations revert to an *Open* state if the service representative rejects or responds to the request.
+
+## Active conversations with service representative acceptance
+
+This metric is a count of conversations where a service representative is assigned and is actively in contact with the customer. Supervisors can monitor these conversations, track sentiment to ensure customer satisfaction, and intervene as needed.
+
+## Waiting conversations
+
+This metric is a count of conversations that are currently in a *Waiting* state. A conversation is moved to a *Waiting* state when the service representative closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel), or when the customer closes the browser window without closing the chat widget. If there are asynchronous messaging channels, a *Waiting* state indicates conversations that are waiting for a service representative to respond. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+
+## Wrap-up conversations
+
+This metric is a count of conversations that are currently in a *Wrap-up* state. A conversation is moved to a *Wrap-up* state when the service representative ends the conversation, or when the customer leaves the conversation either by ending it on their side or by being disconnected. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+
+## Total conversations
+
+This metric is a measure of the total number of customer conversations. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+
+### Incoming conversation
+
+The total number of service representative conversations through any channel (voice, digital, case) including both open, active, and closed conversations for inbound traffic.
+
+Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations.
+
+- Data measure in PBI: FactConversation.Incoming Conversations.
 
 ### Consult
 
@@ -294,14 +326,6 @@ This metric is a count of conversations that are currently in a *Wrap-up* state.
 ### Total conversations
 
 This metric is a measure of the total number of customer conversations. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
-
-### Incoming conversation
-
-The total number of service representative conversations through any channel (voice, digital, case) including both open, active, and closed conversations for inbound traffic.
-
-Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations.
-
-- Data measure in PBI: FactConversation.Incoming Conversations.
 
 ### Sentiment
 
