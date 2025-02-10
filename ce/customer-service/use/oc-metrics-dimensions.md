@@ -301,7 +301,7 @@ The total number of service representative conversations through any channel (vo
 
 Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations.
 
-- Data measure in PBI is: FactConversation.Incoming Conversations.
+- Data measure in PBI: FactConversation.Incoming Conversations.
 
 ### Sentiment
 

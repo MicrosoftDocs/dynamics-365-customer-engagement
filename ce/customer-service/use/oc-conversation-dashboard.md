@@ -39,9 +39,9 @@ The following table lists the KPIs in the Conversation dashboard.
 
 | Metric | Description   |
 |------------|---------|
-| Incoming conversations | The total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic. Learn more in [Incoming conversation](oc-metrics-dimensions.md#incoming-conversation). |
+| Incoming conversations | The total number of service representative conversations through any channel (voice, digital, case) including both open, active, and closed conversations for inbound traffic. Open representative conversations + Active representative conversations + Closed representative conversations = Total representative conversations. |
 | Engaged conversations| The total number of active service representative conversations. Includes conversations that were assigned to a representative, accepted by the representative, and actively being engaged by a representative. This includes all inbound and outbound conversations across all channels (digital, voice, and cases). |
-| Abandon rate | The percentage of conversations where the customer abandons the conversation after being assigned to a queue and before being assigned to a service representative. Representative Queue Abandonment Rate = Abandoned CSR Conversations / Closed CSR Conversations |
+| Abandon rate | The percentage of conversations where the customer abandons the conversation after being assigned to a queue and before being assigned to a service representative. Representative Queue Abandonment Rate = Abandoned representative Conversations / Closed representative conversations |
 | Avg. speed to answer (seconds)| Conversation start time - Agent Assigned and engaged |
 | Avg. CSAT| The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool. |
 | Avg. conversation sentiment   | The average sentiment score based on the customer's conversation experience. Learn more about how the sentiment data is derived in [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). |
