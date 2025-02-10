@@ -37,12 +37,12 @@ The conversation lifecycle and the metrics that can be derived in the different 
 
 The following table lists the KPIs in the Conversation dashboard.
 
-| Metric | Description | Dataverse reference|
-| Incoming conversations | The total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic. Learn more in [Incoming conversation](oc-metrics-dimensions.md#incoming-conversation) | All Conversations where [msdyn_ocliveworkitem.msdyn_isoutbound](.../develop/reference/entities/msdyn_ocliveworkitem?branch=main#msdyn_isoutbound-choicesoptions) != 1 and [msdyn_ocliveworkitem.msdyn_channel](.../develop/reference/entities/msdyn_ocliveworkitem#msdyn_channel-choicesoptions) != '192350000' and [msdyn_ocliveworkitem.msdyn_channelinstanceid](.../develop/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid) is NULL and which have atleast one msdyn_sessionparticipant.systemuser.msdyn_botapplicationid != null.
-| Engaged conversations | The total number of actively assigned conversations including both bot and service representative conversations. | All Conversations where msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL IsAgentInvolved = If there is atleast one session with IsAgentSession = 1 , msdyn_sessionparticipant.systemuser.msdyn_botapplicationid is not null msdyn_sessionparticipant.msdyn_joinedon=1|
-| Abandon rate | If the conversation ended before an agent accepts the conversation then it is considered abandoned. Abandon rate = Abandoned conversations, divided by the incoming conversations. | All Conversations where  msdyn_ocliveworkitem.msdyn_isoutbound != 1 and msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL and which have atleast one [msdyn_sessionparticipant.systemuser.msdyn_botapplicationid != null ]|
-| Avg. speed to answer (seconds) | Agent accepted time -  agent session created on time)  / Total number of conversations handled by agent | All Conversations where msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL msdyn_ocliveworkitem.statuscode = 4|
-| Avg. CSAT | The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool. ||
+| Metric | Description | 
+| Incoming conversations | The total number of service representative conversations including both direct to representative and transfer from a bot as well as inbound and outbound traffic. Learn more in [Incoming conversation](oc-metrics-dimensions.md#incoming-conversation). |
+| Engaged conversations | The total number of actively assigned conversations including both bot and service representative conversations. |
+| Abandon rate | If the conversation ended before an agent accepts the conversation then it is considered abandoned. Abandon rate = Abandoned conversations, divided by the incoming conversations. |
+| Avg. speed to answer (seconds) | Agent accepted time -  agent session created on time)  / Total number of conversations handled by agent. |
+| Avg. CSAT| The average of the customer satisfaction ratings provided by customers. Only available if Dynamics 365 Customer Voice is configured as a post-conversation survey tool.|
 | Avg. conversation sentiment | The average sentiment score based on the customer's conversation experience. Learn more about how the sentiment data is derived in [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md). ||
 
 
