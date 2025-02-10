@@ -231,7 +231,7 @@ items:
       href: field-service-teams-collaboration.md
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
-    - name: Use Teams mobile to annotate in a user's environment (preview)
+    - name: Use spatial annotations in Teams
       href: annotate-teams-mobile.md
 
 - name: Scheduling
