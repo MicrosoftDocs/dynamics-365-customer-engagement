@@ -5,13 +5,15 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 12/09/2024
+ms.date: 02/10/2025
 ms.custom: bap-template
 ---
 
 # Use Omnichannel for Customer Service metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
 This article describes the different metrics that help you analyze key performance indicators (KPIs) as you work with customer service representatives (service representatives or representatives) in your contact center. Use metrics to do a quantitative assessment of the data that is shown on the Omnichannel dashboards. Metrics can also help you make strategic decisions, and track and improve customer satisfaction.
@@ -35,7 +37,7 @@ When a customer raises a request through a channel such as voice, messaging, or 
 
 A conversation can end during a single session, or it can extend to multiple sessions. A session is created when the system identifies a service representative to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or a service representative might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and service representative performance. Examples include the number of requests that landed in a queue, the number of requests that service representatives rejected, and service representative handle time.
 
-The workflow in the following diagram represents a single conversation where multiple sessions are created. The first session is created when the conversation is created and assigned to a bot. When the bot escalates the conversation to a service representative, the second session is created, and the first session is automatically closed. In the second session, the system identifies and assigns the best service representative to work on the customer request. If that service representative rejects the request, a new session is created, and the process of identifying another service representative begins.
+The workflow in the following diagram represents a single conversation where multiple sessions are created. The first session is created when the conversation is created and assigned to an AI agent. When the AI agent escalates the conversation to a service representative, the second session is created, and the first session is automatically closed. In the second session, the system identifies and assigns the best service representative to work on the customer request. If that service representative rejects the request, a new session is created, and the process of identifying another service representative begins.
 
 :::image type="content" source="../media/customer-workflow.png" alt-text="Diagram that shows the customer conversation journey." lightbox="../media/customer-workflow.png":::
 
@@ -160,7 +162,7 @@ This metric represents the service representative participation **consult** mode
 
 This metric is a measure of the time, in seconds, before a  service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
 
-If a bot or interactive voice response (IVR) handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the bot or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the bot or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
+If an AI agent or interactive voice response (IVR) handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the AI agent or IVR escalates the conversation to a service representative and the point when the customer disconnects the conversation.
 
 If the customer reaches a service representative queue directly, the calculation is based on the time between the point when the customer creates the request and the point when a service representative accepts the conversation. If the customer abandons the conversation, the calculation is based on the time between the point when the customer creates the request and the point when the customer disconnects the conversation.
 
@@ -176,9 +178,9 @@ For information about metrics that are related to the time that customers wait i
 
 ### Average speed to answer
 
-This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total wait time for customers who are waiting in the queue (after their issue is escalated from a bot to a service representative) by the total number of served customers. Average speed to answer reflects the efficiency and availability of the service representatives. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
+This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total wait time for customers who are waiting in the queue (after their issue is escalated from an AI agent to a service representative) by the total number of served customers. Average speed to answer reflects the efficiency and availability of the service representatives. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
 
-If a bot or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the bot or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation.
+If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation.
 
 If the customer reaches a service representative queue directly, the calculation is based on the time between the point when the customer creates the request and the point when a service representative accepts the conversation.
 
@@ -248,7 +250,7 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to respond to handle overflow. Abandoned conversations can lead to customer dissatisfaction because of a lack of assistance from the contact center. A high abandonment rate might require further investigation into operational metrics such as service representative availability and queue distribution.
 
-If a bot or IVR handles the customer before it escalates the request to a service representative, this metric is calculated as the number of conversations that were abandoned while customers were waiting for a service representative after the bot escalated the request. If a conversation is abandoned before a bot can be assigned, the system considers the conversation abandoned.
+If an AI agent or IVR handles the customer before it escalates the request to a service representative, this metric is calculated as the number of conversations that were abandoned while customers were waiting for a service representative after the AI agent escalated the request. If a conversation is abandoned before an AI agent can be assigned, the system considers the conversation abandoned.
 
 If the customer reaches a service representative queue directly, this metric is calculated as the number of incoming conversations that were abandoned.
 
@@ -258,7 +260,7 @@ The conversation direction is *Incoming*. The channels that the conversation cam
 
 #### Related metric
 
-- **Abandoned rate**: This metric is a measure of the percentage of incoming conversation requests that ended before customers were connected to a service representative. It's calculated by dividing the number of abandoned conversations by the number of bot-escalated conversations.
+- **Abandoned rate**: This metric is a measure of the percentage of incoming conversation requests that ended before customers were connected to a service representative. It's calculated by dividing the number of abandoned conversations by the number of AI agent-escalated conversations.
 
 ### Active conversations awaiting service representative acceptance
 
@@ -270,19 +272,19 @@ This metric is a count of conversations where a service representative is assign
 
 ### Waiting conversations
 
-This metric is a count of conversations that are currently in a *Waiting* state. A conversation is moved to a *Waiting* state when the service representative closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel), or when the customer closes the browser window without closing the chat widget. If there are asynchronous messaging channels, a *Waiting* state indicates conversations that are waiting for a service representative to respond. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a count of conversations that are currently in a *Waiting* state. A conversation is moved to a *Waiting* state when the service representative closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel), or when the customer closes the browser window without closing the chat widget. If there are asynchronous messaging channels, a *Waiting* state indicates conversations that are waiting for a service representative to respond. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
 ### Wrap-up conversations
 
-This metric is a count of conversations that are currently in a *Wrap-up* state. A conversation is moved to a *Wrap-up* state when the service representative ends the conversation, or when the customer leaves the conversation either by ending it on their side or by being disconnected. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a count of conversations that are currently in a *Wrap-up* state. A conversation is moved to a *Wrap-up* state when the service representative ends the conversation, or when the customer leaves the conversation either by ending it on their side or by being disconnected. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
 ### Total conversations
 
-This metric is a measure of the total number of customer conversations. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a measure of the total number of customer conversations. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
 ### Incoming conversation
 
-This metric is a measure of the total number of conversation requests that customers initiated across all channels and received by the contact center. For more information, go to [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a measure of the total number of conversation requests that customers initiated across all channels and received by the contact center. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
 ### Sentiment
 
@@ -371,7 +373,7 @@ This metric is a measure of the total number of service representatives who were
 
 ### Average first response time
 
-Whereas speed to answer provides insights into how quickly a service representative was connected with a customer, first response time provides insights into how quickly the service representative responded to the customer. First response time is a measure of the time that customers spend waiting for a first response from a service representative. The time is adjusted based on operating hours. The calculation is based on the time between the point when a customer initiates a conversation (or, in the case of a bot-escalated conversation, the point when the bot escalates it) and the point when the service representative accepts the request and responds to the customer. For messaging conversations, this time represents how soon the service representative sent the first response to customer.
+Whereas speed to answer provides insights into how quickly a service representative was connected with a customer, first response time provides insights into how quickly the service representative responded to the customer. First response time is a measure of the time that customers spend waiting for a first response from a service representative. The time is adjusted based on operating hours. The calculation is based on the time between the point when a customer initiates a conversation (or, in the case of an AI agent-escalated conversation, the point when the AI agent escalates it) and the point when the service representative accepts the request and responds to the customer. For messaging conversations, this time represents how soon the service representative sent the first response to customer.
 
 The system calculates average first response time by dividing the total first response time across all engaged conversations by the number of engaged conversations.
 
