@@ -2,7 +2,7 @@
 title: Goal management tables (Dynamics 365 Sales)
 description: Learn about goal management tables in Dynamics 365 Sales with a selection of topics and tutorials.
 ms.custom: 
-ms.date: 03/01/2023
+ms.date: 01/30/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -32,7 +32,8 @@ The *goal management* in Dynamics 365 Sales lets you set sales, marketing, and o
 -   Incorporate goal results in reports, charts, and dashboards.  
 -   Support workflows and customizations.  
   
-## In This Section  
+## In This Section
+
  [Create goal hierarchy, goals, and targets](create-goal-hierarchy-goals-targets.md)<br />
  [Define goal metric and rollup fields](define-goal-metric-rollup-fields.md)<br />
  [Add complex goal criteria](add-complex-goal-criteria.md)<br />
@@ -43,10 +44,11 @@ The *goal management* in Dynamics 365 Sales lets you set sales, marketing, and o
  [Sample: Override goal total count and close the goal](sample-override-goal-total-count-close-goal.md)<br />
   
 ## Related Sections
- [Goal Table](entities/goal.md)<br />
- [Metric Table](entities/metric.md)<br />
- [RollupField Table](entities/rollupfield.md)<br />
- [GoalRollupQuery Table](entities/goalrollupquery.md)<br />
+
+ [Goal table](../../developer/reference/entities/goal.md)<br />
+ [Goal Metric (Metric) table](../../developer/reference/entities/metric.md)<br />
+ [RollupField table](/power-apps/developer/data-platform/reference/entities/rollupfield)<br />
+ [Rollup Query (GoalRollupQuery) table](../../developer/reference/entities/goalrollupquery.md)<br />
  [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro))<br />
  [Product Catalog Tables](product-catalog-entities.md)<br />
 

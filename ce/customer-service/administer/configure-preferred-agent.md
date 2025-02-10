@@ -26,8 +26,8 @@ You can configure contacts and their preferred agents in the Customer Service ad
   - **For Customer Service**: CSR Manager
   - **For Omnichannel for Customer Service**: Omnichannel Administrator
 
-- You must be able to access the Contact entity. More information: [Contact](/dynamics365/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
-- If you have a custom role, you must also have access to the msdyn_preferredagent and msdyn_preferredagentcustomeridentity entities.
+- You must be able to access the [Contact table](../../developer/reference/entities/contact.md).
+- If you have a custom role, you must also have access to the [msdyn_preferredagent](../../developer/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](../../developer/reference/entities/msdyn_preferredagentcustomeridentity.md) tables.
 - Ensure that the agent you want to assign to a contact is a member of the queue to which work items are routed.
 
 ## Configure preferred agent for contacts

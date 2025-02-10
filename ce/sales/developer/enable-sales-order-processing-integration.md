@@ -68,7 +68,7 @@ By default, sales order processing integration is turned off. If you've [turned 
 ## Related information
 
 [Organization table reference](/power-apps/developer/data-platform/reference/entities/organization)<br />
-[System user table reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
+[System user table reference](/power-apps/developer/data-platform/reference/entities/systemuser)<br />
 [Quote, order, and invoice tables](quote-order-invoice-entities.md)
 
 
