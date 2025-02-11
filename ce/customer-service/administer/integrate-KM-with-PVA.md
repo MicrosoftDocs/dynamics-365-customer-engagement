@@ -128,7 +128,7 @@ Perform the following steps to ensure that flow is properly configured and can n
 - To filter on a string attribute like keywords, append the string value to the search text.
 
 ### Publish the changes
-Learn about the details on publishing the AI agent in [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). Learn to resolve any errors that you may get during publishing in [Troubleshoot](#troubleshoot).
+Learn more in [Publish the latest bot content](/power-virtual-agents/teams/publication-fundamentals-publish-channels-teams#publish-the-latest-bot-content). Learn how to resolve errors during publishing in [Troubleshoot](#troubleshoot).
 
 ## Use the Power Automate flow template
 
