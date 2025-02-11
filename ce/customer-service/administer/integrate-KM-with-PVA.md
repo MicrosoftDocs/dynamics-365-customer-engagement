@@ -19,11 +19,11 @@ ms.reviewer: sdas
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-Integrate knowledge management with a Copilot Studio AI agent to use customized conversations. AI agents help answer questions, perform actions, and solve simple problems. This frees up your customer service representative's time to deal with complex issues that need human intervention.
+Integrate knowledge management with a Copilot agent to use customized conversations. AI agents help answer questions, perform actions, and solve simple problems. This frees up your customer service representative's time to deal with complex issues that need human intervention.
 
 Copilot Studio lets you configure AI agents with various topics and trigger phrases to automatically resolve questions posed by your customers on your portal page. Learn more in [Copilot Studio overview](/power-virtual-agents/fundamentals-what-is-power-virtual-agents).
 
-You can integrate knowledge management with a Copilot Studio AI agent by using either of the following ways:
+You can integrate knowledge management with a Copilot agent by using either of the following ways:
 
 - Search Dynamics 365 knowledge articles
 - Power Automate flow template
@@ -36,11 +36,11 @@ You can integrate knowledge management with a Copilot Studio AI agent by using e
 
   1. Create and publish knowledge articles to a portal created in Power Apps.
   
-     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Copilot Studio AI agent. Learn more in [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). Learn more about setting up your Power Apps portal in [Power Apps portal documentation](/powerapps/maker/portals/).
+     Set up your portal with the Power Apps portals feature before integrating knowledge management with the Copilot agent. Learn more in [Use settings to set up knowledge management](set-up-knowledge-management-embedded-knowledge-search.md). Learn more about setting up your Power Apps portal in [Power Apps portal documentation](/powerapps/maker/portals/).
 
      You can create and manage knowledge articles by setting the **Internal** field to **No** in the Microsoft Datverse Web API. Learn more in [knowledgearticle EntityType](/dynamics365/customer-engagement/web-api/knowledgearticle).
 
-  2. Create a Copilot Studio AI agent and a topic in it.
+  2. Create a Copilot agent and a topic in it.
 
      - Learn more about creating an AI agent in [Create and delete Copilot Studio bots](/power-virtual-agents/authoring-first-bot).
      - Learn more about creating a topic in [Create and edit topics in your Copilot Studio bot](/power-virtual-agents/authoring-create-edit-topics).
@@ -132,7 +132,7 @@ Learn about the details on publishing the AI agent in [Publish the latest bot co
 
 ## Use the Power Automate flow template
 
-Perform the following steps if you want to integrate a Copilot Studio AI agent with knowledge management by using the Power Automate flow template:
+Perform the following steps if you want to integrate a Copilot agent with knowledge management by using the Power Automate flow template:
 
 1. Create a flow using the template.
 1. Add the solution's flow to the Copilot Studio topic.
