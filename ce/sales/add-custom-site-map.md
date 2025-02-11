@@ -1,7 +1,7 @@
 ---
 title: Add pages to your app's site map
 description: Learn how to customize the navigation of your custom Dynamics 365 Sales app by adding pages to the site map.
-ms.date: 02/02/2024
+ms.date: 02/11/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
