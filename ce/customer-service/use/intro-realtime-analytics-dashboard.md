@@ -43,7 +43,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot Studio AI agents. However, they don't include conversations that were resolved by Copilot Studio AI agents.
+> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot agents. However, they don't include conversations that were resolved by Copilot agents.
 
 ## Security roles and permissions
 
