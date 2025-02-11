@@ -75,7 +75,7 @@ After a topic is identified as a good automation candidate, the automation workf
 Suggested trigger phrases and the topics related to the case title are provided. The first step is to select the Copilot agent that's ideal for adding the topic to. If no AI agent exists, select **Create Bot**. You'll be redirected to the Copilot Studio application for AI agent creation. You can modify both the topic name and trigger phrases, and in the case of trigger phrases; you can add additional ones. After this step is complete, select **Automate Continue** . The Copilot Studio topic will redirect to Copilot Studio for completion of authoring.
 
 > [!NOTE]
-> Bots created through the Microsoft Teams channel won't be listed in the AI agent selection list.
+> AI agents created through the Microsoft Teams channel won't be listed in the AI agent selection list.
 
 
 ## Language availability for topics 
