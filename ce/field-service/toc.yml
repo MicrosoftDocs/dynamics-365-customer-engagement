@@ -610,6 +610,9 @@ items:
     - name: Customize the booking card
       href: customize-booking-card.md
 
+- name: Field Service table reference
+  href: developer/reference/entities/toc.yml
+
 - name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
@@ -648,5 +651,4 @@ items:
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
-- name: Field Service table reference
-  href: developer/reference/entities/toc.yml
+
