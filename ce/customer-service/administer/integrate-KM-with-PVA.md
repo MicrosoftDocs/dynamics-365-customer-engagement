@@ -47,7 +47,7 @@ You can integrate knowledge management with a Copilot agent by using either of t
    
 ## Use the Search Dynamics 365 knowledge article flow action
 
-Perform the following steps if you want to integrate a Copilot Studio AI agent with knowledge management using the **Search Dynamics 365 knowledge articles** action:
+Perform the following steps if you want to integrate a Copilot agent with knowledge management using the **Search Dynamics 365 knowledge articles** action:
  
    1. Set connection references.
    1. Add the action to the Copilot Studio topic.
