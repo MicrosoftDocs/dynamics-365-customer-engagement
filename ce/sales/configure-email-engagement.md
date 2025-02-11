@@ -43,27 +43,24 @@ Verify the following prerequisites before enabling email engagement for your org
 
 ## Enable email engagement
 
-1.	Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
+1. Sign in to Dynamics 365 Sales, and go to the Sales Hub app.
 
-2.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
+1. Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")
+    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Screenshot of select Sales Insights settings.":::
 
-3. In the **Email engagement (standard)** section, select **Grant Permissions**.
+1. In the **Email engagement (standard)** section, select **Grant Permissions**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Email engagement grant permissions](media/si-admin-email-engagement-grant-permissions.png "Email engagement grant permissions")
+    :::image type="content" source="media/si-admin-email-engagement-grant-permissions.png" alt-text="Screenshot of granting Email engagement permissions.":::
 
     A confirmation message is displayed in a tab. Close the tab and proceed to set up email engagement.
 
     > [!NOTE]
     > If you've already granted permissions, this step is skipped. You don't have to grant permissions to email engagement again.
 
-4. In the **Email engagement** section, select **Set up** and then turn on the toggle. 
+1. In the **Email engagement** section, select **Set up** and then turn on the toggle.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Enable email engagement](media/si-admin-email-engagement-enable.png "Enable email engagement") 
+    :::image type="content" source="media/si-admin-email-engagement-enable.png" alt-text="Screenshot of Email engagement enabled.":::
 
 Email engagement is enabled and ready to use in your organization. 
 
@@ -89,7 +86,7 @@ To disable the feature, do the following steps:
 
 1. Save and publish the changes.
 
-    Now, the enhanced attachment feature is disabled and users can follow email attachments. Learn more about [email attachments](create-send-email-message.md#add-followed-attachments-).
+    Now, the enhanced attachment feature is disabled and users can follow email attachments. Learn more about [email attachments](create-send-email-message.md#add-attachments).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
