@@ -60,19 +60,19 @@ You can enable historical analytics for unified routing in the Customer Service 
     
 The Unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for Copilot Studio AI agents in Omnichannel for Customer Service
+## Enable historical analytics for Copilot agents in Omnichannel for Customer Service
 
-In Customer Service admin center, you can enable the historical analytics for AI agents to give your service managers integrated reports that combine Copilot Studio AI agents and Omnichannel conversation metrics.
+In Customer Service admin center, you can enable the historical analytics for AI agents to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
 
 > [!IMPORTANT]
 >
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for AI agents. This feature is available only if Copilot Studio AI agents are integrated with Omnichannel for Customer Service.
+> Omnichannel historical analytics must be enabled before you can enable historical analytics for AI agents. This feature is available only if Copilot agents are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio AI agent.
+- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot agent.
 
  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
-- If no Copilot Studio AI agents are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all AI agents.
+- If no Copilot agents are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all AI agents.
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
