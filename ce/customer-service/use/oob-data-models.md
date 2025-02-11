@@ -72,8 +72,8 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	|Case volume change	|Total case count link relative ratio for the same date range filter.|
 |FactCase	|Avg. resolve time (hrs)|	Average time for case handle time. |
 |FactCase |	Avg. case age (days)	|Average case age |
-|FactCase	|First response - SLA %	|Total cases when first response sent is false divided by total cases. |
-|FactCase	|Avg. CSAT |	Average CSAT score. |
+|FactCase	|First response - SLA %	|Total cases when first response sent is false, divided by total cases. |
+|FactCase	|Avg. CSAT |	Average CSAT (Customer satisfaction) score. |
 |FactCase	|CSAT impact	| Change ratio for the CSAT.|
 |FactCase	| Avg. survey sentiment	|Average survey sentiment. |
 |FactCase |	Survey sentiment impact |	Change ratio for the sentiment. |
@@ -139,7 +139,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
 |FactAgentStatusHistory	|Agent available duration (hrs)|	The time an agent is in the Available state in the omnichannel application.|
 |FactAgentStatusHistory	|Agent away duration (hrs)|	The time an agent is in the away state in the omnichannel application.|
-|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)|	The time an agent is in the Busy DND state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)|	The time an agent is in the Busy DND (Do not disturb)state in the omnichannel application.|
 |FactAgentStatusHistory	|Agent busy duration (hrs) |Time an agent in the busy state in omnichannel application.|
 |FactAgentStatusHistory	|Agent offline duration (hrs)|	The time an agent signed out of the omnichannel application.|
 |FactAgentStatusHistory	|Agent total sign-in time (hrs)	|The time an agent is in each status. The column is used to calculate other measures like "Agent available duration (hrs)", "Agent away duration (hrs)".|
