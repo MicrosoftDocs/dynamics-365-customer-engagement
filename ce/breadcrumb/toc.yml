@@ -1,3 +1,4 @@
+items:
 - name: Learn
   href: /
   topicHref: /
@@ -57,3 +58,12 @@
     - name: Extend Outlook Client
       tocHref: /dynamics365/developer/outlook-client/
       topicHref: /dynamics365/developer/extend-customer-engagement-outlook
+    - name: Table reference
+      tocHref: /dynamics365/developer/reference/
+      topicHref: /dynamics365/developer/reference/about-entity-reference
+    - name: Table reference
+      tocHref: /sales/developer/reference/entities
+      topicHref: /sales/developer/reference/about-entity-reference
+    - name: Table reference
+      tocHref: /customer-service/develop/reference/
+      topicHref: /customer-service/develop/reference/about-entity-reference

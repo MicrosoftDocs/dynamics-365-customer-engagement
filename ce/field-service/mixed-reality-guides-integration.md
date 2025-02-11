@@ -10,7 +10,7 @@ ms.author: jshum
 # Integrate Guides with Field Service
 
 > [!TIP]
-> To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment (preview)](annotate-teams-mobile.md).
+> To collaborate with other users including annotating in their environment, see [Use Teams mobile to annotate in a user's environment](annotate-teams-mobile.md).
 
 Integration with Dynamics 365 Guides lets Field Service users attach mixed reality guides to Field Service tasks. When work orders are assigned to technicians, the technicians can use a dedicated Field Service tab in the Dynamics 365 Guides HoloLens app to launch the guide and get their work done.
 

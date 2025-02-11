@@ -21,13 +21,6 @@ searchScope:
 
 As an admin, you can customize the lead qualification experience to help sellers qualify leads more effectively.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|:-----------------|:--------------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Difference between new lead qualification experience and legacy experience
 
 The new lead qualification experience is the default experience in the Sales Hub app. [What if I had previously defined the lead qualification experience?](faq-lead.md#what-if-i-had-previously-defined-the-lead-qualification-experience).

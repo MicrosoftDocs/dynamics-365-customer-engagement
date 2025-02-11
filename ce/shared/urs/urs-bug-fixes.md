@@ -1,4 +1,3 @@
-  
 ## Release schedule
 
 When a new version of Universal Resource Scheduling releases, it becomes available in different geographic regions at different times. The table shows estimates for when the next release will become available in the region of your environment.
@@ -9,13 +8,13 @@ For information about older versions, see [Version history archive](../../field-
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | TBD | 02/28/2025 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/17/2025 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* |[3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/24/2025 |
-| | *USG* |[3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/17/2025 |
-|**Station 4** |*Europe* |   [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 01/10/2025 |
-|**Station 5** |  *North America*|[3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) |  [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16)  | 01/10/2025 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) |  [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16)  | 01/17/2025 |
-|**Station 6** | *Dedicated Scale Groups* |  [3.12.144.84](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214484) |[3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) | 01/17/2025 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  TBD | 03/07/2025 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  TBD | 03/14/2025 |
+| | *USG* |[3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  TBD | 03/05/2025 |
+|**Station 4** |*Europe* |   [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  TBD | 03/21/2025 |
+|**Station 5** |  *North America*| [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) |   [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 02/07/2025 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | TBD | 02/05/2025 |
+|**Station 6** | *Dedicated Scale Groups* |  [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#312146.16) | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | 02/14/2025 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.

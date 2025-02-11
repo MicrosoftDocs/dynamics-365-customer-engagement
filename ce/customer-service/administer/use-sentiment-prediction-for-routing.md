@@ -1,7 +1,7 @@
 ---
 title: "Use sentiment prediction in unified routing | MicrosoftDocs"
 description: "Learn how to enable and use sentiment prediction in unified routing in Customer Service."
-ms.date: 06/14/2024
+ms.date: 02/04/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,9 +12,9 @@ ms.reviewer: nenellim
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to agents.
+Sentiment prediction for routing enables organizations to use the end customer sentiment scores as a factor in classifying work items to route to customer service representatives (service representatives or representatives).
 
-By using sentiment prediction for routing, you can write rules to classify work items and assign them to agents who are best equipped to handle them.
+By using sentiment prediction for routing, you can write rules to classify work items and assign them to service representatives who are best equipped to handle them.
 
 The sentiment prediction uses the following seven-point scale that allows organizations flexibility to build nuanced rules while maintaining simplicity.
 
@@ -26,7 +26,7 @@ The sentiment prediction uses the following seven-point scale that allows organi
 - Negative
 - Very negative
 
-The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider agent chat strings.
+The sentiment model is configured to look for and use the messages provided by the customer and doesn't consider chat strings sent by the representative.
 
 [This article is prerelease documentation and is subject to change.]
 
@@ -55,13 +55,13 @@ You can optionally test the sentiment model by using the dry run option. You can
 
 ## Create classification rules based on sentiment prediction model
 
-After you enable sentiment prediction, you can create a classification rule based on the machine learning model, and select the type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right agents who will help with the customer issue.
+After you enable sentiment prediction, you can create a classification rule based on the machine learning model, and select the type as **Sentiment prediction**. You can use the rule with other rules to help categorize the work items to be routed to the right representatives who will help with the customer issue.
 
 **To create a rule based on sentiment prediction**
 
-1. Create or edit a workstream. More information: [Create workstreams](create-workstreams.md)
+1. Create or edit a workstream. Learn more in [Create workstreams](create-workstreams.md).
 
-2. Go to the **Work classification (optional)** section to create a classification rule. More information: [Configure work classification rulesets](configure-work-classification.md)
+2. Go to the **Work classification (optional)** section to create a classification rule. Learn more in [Configure work classification rulesets](configure-work-classification.md).
 
 3. In the **Create work classification ruleset** dialog, select the rule type as **Machine learning model**, and then select type as **Sentiment prediction**.
 
@@ -71,7 +71,7 @@ After you enable sentiment prediction, you can create a classification rule base
 
     :::image type="content" source="../media/input-attributes-sentiment.png" alt-text="Input attributes for sentiment model.":::
 
-    For a messaging channel, you'll typically set the related entity as **Context item value (Conversation)**, and then select the attribute. The bot context variables should be set or pre-conversation survey must be set up to be able to use the input attribute. Frame the pre-conversation survey questions such that they elicit the customer sentiment. For example, you could use a question such as "How has been your experience with the product?" or "How can we help you?".
+    For a messaging channel, you can set the related entity as **Context item value (Conversation)**, and then select the attribute. To use the input attribute, set context variables for the AI agent or pre-conversation survey. Frame the pre-conversation survey questions such that they elicit customer sentiment. For example, you could use a question such as "How has been your experience with the product?" or "How can we help you?".
 
     You can define up to 10 attributes, whose values can be used to build the prediction model. At least one attribute, the first one, is mandatory and can't be deleted.
 
@@ -87,7 +87,7 @@ Create route-to-queue rules to route the work items based on the sentiment predi
 
 **To create route-to-queue rules**
 
-1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md)
+1. For the workstream in which you created the rule based on sentiment prediction, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. Learn more in [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md).
 
 2. Create a rule to define conditions. The **Sentiment Category** output attribute contains the sentiment prediction for the work item, and should be used in the rule builder to define the rule.
    
@@ -109,7 +109,7 @@ You can view how the sentiment prediction model was used to route a work item.
 
 ### Language support for sentiment prediction models
 
-All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. More information: [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support)
+All Azure Cognitive Services supported languages are supported in sentiment prediction-based routing. Learn more in [Language support - Translator - Azure Cognitive Services](/azure/cognitive-services/translator/language-support).
 
 ### Related information
 

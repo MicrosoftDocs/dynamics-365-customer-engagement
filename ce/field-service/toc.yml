@@ -225,13 +225,13 @@ items:
   items:
     - name: Overview of Microsoft Teams integration
       href: /dynamics365/teams-integration/teams-integration?context=/dynamics365/context/field-service-context
-    - name: Collaborate on work orders with Microsoft Teams
+    - name: Set up Teams integration
+      href: field-service-teams-collab-admin.md
+    - name: Collaborate on work orders with Teams
       href: field-service-teams-collaboration.md
-    - name: Use the personal dashboard in Teams
-      href: /dynamics365/teams-integration/teams-personal-use?context=/dynamics365/context/field-service-context
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
-    - name: Use Teams mobile to annotate in a user's environment (preview)
+    - name: Use spatial annotations in Teams
       href: annotate-teams-mobile.md
 
 - name: Scheduling
@@ -610,6 +610,9 @@ items:
     - name: Customize the booking card
       href: customize-booking-card.md
 
+- name: Field Service table reference
+  href: developer/reference/entities/toc.yml
+
 - name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
@@ -648,3 +651,4 @@ items:
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
+

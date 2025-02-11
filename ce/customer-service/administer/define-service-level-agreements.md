@@ -39,16 +39,16 @@ To configure SLAs in Customer Service Hub:
 
 ## Prerequisites
 
-- To use SLA features, specific roles and privileges are required for both admins and customer service representatives must have specific roles and privileges. These roles and privileges must apply to various entities related to SLA. For example, permissions apply to SLA, SLA KPI, and SLA KPI instances. Make sure you grant the following permissions in **Security** > **Security Roles** > **Custom Entities**.
+- Administrators and customer service representatives must have specific roles and privileges to work with the various entities related to SLA, for example, SLA, SLA KPI, and SLA KPI instances. Review the following requirements before configuring SLAs for your organization.
 
-    Administrators must have the following requirements:
+    For administrators:
     - **CSR Manager** role or its equivalent roles and privileges.
-    - **Connector**: All permissions at the business unit level.
-    - **ProcessStageParameter**: All permissions at the business unit level.
-    - SLA, SLA KPI, SLA KPI instances: Create permission at the business unit level, delete permission at the parent-child level, and other permissions at the organization level.
+    - **Connector**: All permissions at the business-unit level.
+    - **ProcessStageParameter**: All permissions at the business-unit level.
+    - SLA, SLA KPI, SLA KPI instances: Create permission at the business-unit level, delete permission at the parent-child level, and other permissions at the organization level.
     - Power Automate License is available for the user creating actions on SLA KPI instance statuses. 
 
-    Customer service representatives must have the following roles and privileges:
+    For customer service representatives:
     - **Customer Service Representative** role or its equivalent roles and privileges.
     - Read privileges at the organization level for SLA, SLA KPI, SLA KPI instances. 
 

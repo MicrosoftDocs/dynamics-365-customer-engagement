@@ -68,7 +68,7 @@
           href: overview-skill-work-distribution.md
         - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Enable agents to update skills
+        - name: Enable representatives to update skills
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
@@ -718,7 +718,7 @@
         items:
         - name: Configure case forecasting
           href: configure-volume-forecasting.md
-        - name: Configure agent forecasting for conversation
+        - name: Configure service representative forecasting for conversations
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md

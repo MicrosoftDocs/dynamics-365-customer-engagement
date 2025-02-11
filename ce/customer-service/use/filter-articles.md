@@ -1,7 +1,7 @@
 ---
 title: Filter knowledge articles
 description: Learn how you can filter knowledge articles.
-ms.date: 09/05/2024
+ms.date: 02/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -34,7 +34,7 @@ When you select the filter icon, you can see the **Filter by** menu where you ca
 
 ## Personalize your knowledge search article filters
 
-If your administrator has configured knowledge filter personalization settings, as a customer service representative (representative), you can select the filters you want to use.
+If your administrator has configured knowledge filter personalization settings, as a customer service representative (service representative or representative), you can select the filters you want to use.
 
 You can do the following:
 - Set preselects

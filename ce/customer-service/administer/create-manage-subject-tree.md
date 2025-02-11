@@ -1,7 +1,7 @@
 ---
-title: Create and manage subject tree (Dynamics 365 Customer Service) | MicrosoftDocs
-description: Know how to create and manage subject tree in Dynamics 365 Customer Service
-ms.date: 12/21/2023
+title: Create and manage subject tree (Dynamics 365 Customer Service)
+description: Know how to create and manage subject tree in Dynamics 365 Customer Service.
+ms.date: 01/31/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
