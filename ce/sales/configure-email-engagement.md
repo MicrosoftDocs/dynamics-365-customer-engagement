@@ -86,7 +86,7 @@ To disable the feature, do the following steps:
 
 1. Save and publish the changes.
 
-    Now, the enhanced attachment feature is disabled and users can follow email attachments. Learn more about [email attachments](create-send-email-message.md#add-attachments).
+    Now, the enhanced attachment feature is disabled and users can follow email attachments. Learn more about [email attachments](create-send-email-message.md#add-attachments-).
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
