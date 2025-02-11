@@ -17,6 +17,9 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 > [!Note]
 > Case information is applicable to Customer Service only.
 
