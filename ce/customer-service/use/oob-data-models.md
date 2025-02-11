@@ -414,7 +414,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 |FactCustomerSupportJourney	|Destination| The destination of one step on the customer support journey graph. |
 |FactCustomerSupportJourney	|Total count	| The total count for one step on the customer support journey, from source to destination. |
 |FactCustomerSupportJourney	|Topic ID	| Topic ID. Foreign key to DimTopic. |
-|	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of the AI and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".
+|	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of the AI and the customer service representative. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".
 |FactBotSession	|Abandoned session rate| Abandon rate |
 |FactBotSession	|Avg. escalation time (min)	| The time the AI agent required to escalate. |
 |FactBotSession|Avg. deflection time (min)	|The time required by the AI agent to deflect.|
