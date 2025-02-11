@@ -133,7 +133,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimTimeZone	|Time zone	|Time zone code such as GMT +01:00. |
 |DimTopic	|Topic id	|Topic ID. Primary key of type GUID. |
 |DimTopic	|Topic	|Topic name.|
-|FactAgentStatusHistory |Agent status history id	|Original identifier of the agent status history record from msdyn_agentstatushistory entity. Type: Guid.|
+|FactAgentStatusHistory |Agent status history id	|Original identifier of the agent status history record from msdyn_agentstatushistory entity. Type: GuID.|
 |FactAgentStatusHistory	|System user id	|Agent ID. Foreign key to DimSystemUser. |
 |FactAgentStatusHistory	|Agent logged in time	|The time an agent logged in the omnichannel application per presence status. |
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
