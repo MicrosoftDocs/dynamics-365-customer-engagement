@@ -1,7 +1,7 @@
 ---
 title: Data model and report mapping for historical analytics reports
 description: View and customize the default data model and report mapping for historical analytics reports in Dynamics 365 Customer Service.
-ms.date: 07/05/2024
+ms.date: 02/11/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -126,7 +126,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id|	System user ID. |
 |DimSystemUser	|Agent	|Name of the agent. |
-|DimSystemUser	|Is bot	| Whether the system user is a bot. True or false. |
+|DimSystemUser	|Is bot	| Whether the system user is an AI agent. True or false. |
 |DimTimeZone	|Time zone	|Time zone code such as GMT +01:00. |
 |DimTopic	|Topic id	|Topic ID. Primary key of type GUID. |
 |DimTopic	|Topic	|Topic name.|
@@ -221,17 +221,17 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSession	|Session rejected/timed out rate|	Session rejected/timed out rate. |
 |FactSession	|Sessions rejected	|Sessions rejected. |
 |FactSession	|Transfer rate	|The number of sessions an agent transfers. |
-|FactSession	|Bot conversations	|The number of conversations a bot handles. |
-|FactSession	|Bot escalation rate	|The percentage of escalated bot conversations.|
-|FactSession	|Bot resolution rate	|The percentage of resolved bot conversations. |  
-|FactSession	|Bot escalation time (min)	|The average session time of the escalated bot sessions. |
-|FactSession	|Bot resolution time (min)	|The average session time of the resolved bot sessions. |
-|FactSession	|Bot abandoned rate	|The percentage of abandoned bot conversations.|
+|FactSession	|Bot conversations	|The number of conversations an AI agent handles. |
+|FactSession	|Bot escalation rate	|The percentage of escalated AI agent conversations.|
+|FactSession	|Bot resolution rate	|The percentage of resolved AI agent conversations. |  
+|FactSession	|Bot escalation time (min)	|The average session time of the escalated AI agent sessions. |
+|FactSession	|Bot resolution time (min)	|The average session time of the resolved AI agent sessions. |
+|FactSession	|Bot abandoned rate	|The percentage of abandoned AI agent conversations.|
 |FactSession	|Sessions rejected rate	|The percentage of rejected sessions. |
 |FactSession	|Sessions timeout rate	|The percentage of sessions that timed out. |
 |FactSession	|Sessions timed out count	|Session count when agent is timeout. |
-|FactSession	|Bot escalated	| Number of escalated bot conversations. |
-|FactSession	|Bot resolved	| Number of bot resolved conversations. |
+|FactSession	|Bot escalated	| Number of escalated AI agent conversations. |
+|FactSession	|Bot resolved	| Number of AI agent resolved conversations. |
 |FactSession	|Transfer count |Number of transferred sessions (closure reason in 192350006 or 192350010).
 |FactSessionParticipant	|Session participant id	|Identifier of the session participant record.|
 |FactSessionParticipant	|Session id	|Session ID. Foreign key to FactSession.|
@@ -273,7 +273,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id	|System user ID.| 
 |DimSystemUser	|Agent	|Name of the agent.|
-|DimSystemUser	|Is bot	|Is bot. True or false.|
+|DimSystemUser	|Is bot	|Is an AI agent. True or false.|
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00.|
 |DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid.|
 |DimTopic	|Topic	|Topic name.|
@@ -293,7 +293,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |FactConversation|	Owner system user id	|Owner system user ID. Foreign key to DimSystemUser.|
 |FactConversation	|Queue id	|Queue ID. Foreign key to DimQueue.|
 |FactConversation	|Topic id	|Topic ID. Foreign key to DimTopic.|
-|FactConversation	|Is offered	|It means whether the customer initiates the conversation. Bot escalates to an agent or an agent handling customer call directly|
+|FactConversation	|Is offered	|It means whether the customer initiates the conversation. An AI agent escalates to an agent or an agent handling customer call directly|
 |FactConversation	|Is conversation date in past	|Is conversation date in past. |
 |FactConversation	|Is outbound	|Is outbound conversation. |
 |FactConversation|	Abandon rate	|Abandon rate.|
@@ -387,7 +387,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Voice_Mail_analytics.pbix file
 |FactVoiceMail	|Closed voicemails	| Count of the closed voice mails.|
 |FactVoiceMail	|Open voicemails	| Count of the open voice mails.|
 
-## Omnichannel bot analytics
+## Omnichannel AI agent analytics
 
 ### Edit the report mapping
 
@@ -404,43 +404,43 @@ Use the Dynamics_365_Customer_Service_Omnichannel_Bot_analytics.pbix file to edi
 
 |Entities |Attributes |	Description |
 |----------|------------------|---------------|
-|FactConversation	|Conversation outcome	|Conversation outcome based on the involvement of bot and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".|
-|DimBot	|Bot ID| Bot ID|
-|DimBot	|Bot name| Bot name |
+|FactConversation	|Conversation outcome	|Conversation outcome based on the involvement of an AI agent and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".|
+|DimBot	|Bot ID| AI agent ID|
+|DimBot	|Bot name| AI agent name |
 |FactCustomerSupportJourney|Source	|The source of one step on the customer support journey graph. Examples are "interaction", "bot escalated","direct agent connection", and "agent assigned" . |
 |FactCustomerSupportJourney	|Destination| The destination of one step on the customer support journey graph. |
 |FactCustomerSupportJourney	|Total count	| The total count for one step on the customer support journey, from source to destination. |
 |FactCustomerSupportJourney	|Topic ID	| Topic ID. Foreign key to DimTopic. |
-|	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of bot and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".
+|	DimConversationProperty|Conversation outcome | Conversation outcome based on the involvement of the AI and the human agent. Currently supports "bot escalated", "bot deflected", and "direct agent conversations".
 |FactBotSession	|Abandoned session rate| Abandon rate |
-|FactBotSession	|Avg. escalation time (min)	| The time the bot required to escalate. |
-|FactBotSession|Avg. deflection time (min)	|The time required by the bot to deflect.|
-|FactBotSession	|Bot CSAT| CSAT score for bot at an average. |
-|FactBotSession	|Bot Id	| Bot ID, PK to Dimbot |
-|FactBotSession|Bot session ID	|Bot session ID, PK|
-|FactBotSession	|Bot topic| The topic of this bot session |
-|FactBotSession	|Conversation title	| The title of the associated conversation |
+|FactBotSession	|Avg. escalation time (min)	| The time the AI agent required to escalate. |
+|FactBotSession|Avg. deflection time (min)	|The time required by the AI agent to deflect.|
+|FactBotSession	|Bot CSAT| CSAT score for AI agent at an average. |
+|FactBotSession	|Bot Id	| AI agent ID, PK to Dimbot |
+|FactBotSession|Bot session ID	|AI agent session ID, PK|
+|FactBotSession	|Bot topic| The topic of this AI agent session. |
+|FactBotSession	|Conversation title	| The title of the associated conversation. |
 |FactBotSession|Conversation deflected	|The total conversation was deflected. |
 |FactBotSession|Conversation escalated	|The total conversation was escalated. |
 |FactBotSession|Conversation ID	|Identifier of the related conversation record.  |
 |FactBotSession|Conversation URL	|The URl of the related conversation. |
-|FactBotSession|Bot deflection rate	|The rate at which the  conversations were deflected. |
-|FactBotSession|Engaged sessions rate	|The engagement rate of bot sessions. |
-|FactBotSession|Bot escalated topic|The escalated topic of bot conversations. |
-|FactBotSession|Bot escalation rate|The rate at which the bot escalated the conversations. |
-|FactBotSession|Escalated sessions rate	|Escalation rate based on bot sessions. |
-|FactBotSession|Is bot engaged	|Indicate if the bot is engaged in this session. |
+|FactBotSession|Bot deflection rate	|The rate at which the AI agent conversations were deflected. |
+|FactBotSession|Engaged sessions rate	|The engagement rate of AI agent sessions. |
+|FactBotSession|Bot escalated topic|The escalated topic of AI agent conversations. |
+|FactBotSession|Bot escalation rate|The rate at which the AI agent escalated the conversations. |
+|FactBotSession|Escalated sessions rate	|Escalation rate based on AI agent sessions. |
+|FactBotSession|Is bot engaged	|Indicate if the AI agent is engaged in this session. |
 |FactBotSession|Conversation queue id	|Queue ID. Foreign key to DimQueue. |
-|FactBotSession|Resolved session rate	|Resolution rate based on bot sessions. |
-|FactBotSession|Bot sessions abandoned|Bot session abandoned. |
-|FactBotSession|Bot sessions escalated|Bot session escalated. |
-|FactBotSession|Bot sessions engaged|Bot session engaged. |
-|FactBotSession|Bot sessions resolved|Bot session resolved.|
-|FactBotSession|Session Outcome|Bot session outcome.|
-|FactBotSession|Avg. sessions per conversation|Average number of bot sessions per conversation. |
-|FactBotSession|Bot session unengaged|Bot sessions not engaged.|
-|FactBotSession|Total sessions|Total bot sessions. |
-|FactBotSession|Total conversations|Total conversations associated with bots. |
+|FactBotSession|Resolved session rate	|Resolution rate based on AI agent sessions. |
+|FactBotSession|Bot sessions abandoned|AI agent session abandoned. |
+|FactBotSession|Bot sessions escalated|AI agent session escalated. |
+|FactBotSession|Bot sessions engaged|AI agent session engaged. |
+|FactBotSession|Bot sessions resolved|AI agent session resolved.|
+|FactBotSession|Session Outcome|AI agent session outcome.|
+|FactBotSession|Avg. sessions per conversation|Average number of AI agent sessions per conversation. |
+|FactBotSession|Bot session unengaged|AI agent sessions not engaged.|
+|FactBotSession|Total sessions|Total AI agent sessions. |
+|FactBotSession|Total conversations|Total conversations associated with AI agents. |
 |FactBotSession|Session ID|The related Omnichannel session ID.  |
 |FactBotSession|Topic ID|Topic ID. Foreign key to DimTopic.  |
 
