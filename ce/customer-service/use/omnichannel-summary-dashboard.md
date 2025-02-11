@@ -54,7 +54,7 @@ The report summarizes the KPIs for the specified time period and the percentage 
 | Total conversations | The number of conversations initiated by customers. |
 | Bot deflection rate | The percentage of conversations engaged by AI agents that were resolved.|
 | Bot escalation rate | The percentage of conversations engaged by AI agents that were escalated to a customer service representative (service representative or representative).  |
-| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a service representative. Conversation escalated by the Copilot Studio AI agents is also included.|
+| Incoming conversations  | The total number of conversations that are initiated by the customer and are presented to a service representative. Conversation escalated by the Copilot agents is also included.|
 | Engaged conversations | Offered conversations that are engaged by an agent. Customer-to-agent communication begins at this point.|
 | Abandon rate | The percentage of incoming conversations that are in a service representative's queue but aren't engaged by agents. |
 |Average time to answer | The average time customers waited in the queue before being connected to an agent. |
