@@ -1,20 +1,20 @@
 ---
-title: Location auditing for the mobile app
-description: Learn how to enable and set up location auditing for the Dynamics 365 Field Service mobile app.
-ms.date: 10/25/2024
+title: Track location data
+description: Learn how to enable and set up location tracking for the Dynamics 365 Field Service mobile app.
+ms.date: 02/11/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Share the location from the mobile app
+# Track location data
 
 Field technicians often travel to various locations throughout their workday, and it's helpful for schedulers to know where technicians are at any given time.
 
-Technicians using the Dynamics 365 Field Service mobile app can enable location sharing from the app, allowing schedulers to visualize their location on the schedule board and see their location history.
+Once an administrator enables location tracking for Dynamics 365 Field Service, technicians can enable location sharing from the Field Service mobile app. Schedulers can visualize technician's locations on the schedule board and see their location history.
 
-For a guided walkthrough, check out the following video. Some features have changed since this video was produced. Refer to the written documentation for accurate feature descriptions and requirements.
+For a guided walkthrough, check out the following video.
 >
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=9370c86c-629e-4979-ab82-de3724fa1a1f]
 
@@ -28,25 +28,33 @@ For a guided walkthrough, check out the following video. Some features have chan
 To send a technician's location information to Field Service, enable location tracking in the web application.
 
 1. In the Field Service web app, change to the **Settings** area.
+
 1. Go to **Geolocation** > **Geolocation Settings**.
+
+1. Select the current setting or create a new one.
+
 1. Set **Enable Location Tracking** to **Yes**.
-1. Enter a **Refresh Interval (seconds)** to define how often the system checks the location information. We recommend values between 60 and 300 seconds.
-1. Set the **Tracking Times** by date for when you want the system to track location data. 
+
+1. Enter a **Refresh interval** in seconds to define how often the system checks the location information. We recommend values between 60 and 300 seconds.
+
+1. Set the **Tracking Times** by date for when you want the system to track location data. For 24 hours, select 12:00 am to 12:00 am.
+
+1. Select **Save & Close**.
 
 ### Location tracking events
 
-The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. Users location is captured at the frequency in the Refresh Interval. The users location is send to the server and stored only during the Tracking Times as set in configuration.  
+The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. Users location is captured at the frequency in the **Refresh Interval**. The users location is sent to the server and stored only during the set **Tracking Times**.  
 
 > [!NOTE]
-> Location tracking events might be sent less frequently based on the mobile device operating system. This frequency can be influenced by battery savings settings, device battery charge status, and other applications running on the device that might consume device resources.
+> Location tracking events might be sent less frequently based on the mobile device operating system. The frequency might be influenced by battery savings settings, device battery charge status, and other applications running on the device that might consume device resources.
 
-You can audit location information with other Field Service tables. For more information, see [Auditing overview](/power-platform/admin/audit-data-user-activity).
+You can audit the location information. Turn on auditing for your environment and then for the *Geolocation Tracking (msdyn_geolocationtracking)* table. For more information, go to [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 
-You can configure how far back in time a geolocation is valid. This is important for scenarios when a mobile device loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling** > **Settings** > **Administration** > **Scheduling Parameter** > **Geo Data** > **Geo Location Expires After X Minutes**.
+You can configure how far back in time a geolocation is valid. This setting is important for scenarios when a mobile device loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling**  **Settings** area. Select **Administration** > **Scheduling Parameter**. On the **Geo Data** tab, select **Geo Location Expires After X Minutes**.
 
-## Ask users to allow Field Service mobile to access their location
+## Share the location from the mobile app
 
-The app prompts users to allow location access after signing in to the app. The app requests permissions for precise location that are required to update the location consistently. Revoking the listed permissions or not allowing them in the first place will keep the location tracking disabled. To change the permissions retroactively, open the app permissions settings on your mobile device and allow the permissions listed below.
+The app prompts users to allow location access after signing in to the app. The app requests permissions for precise location that are required to update the location consistently. Revoking the listed permissions or not allowing them in the first place keeps the location tracking disabled. To change the permissions retroactively, open the app permissions settings on your mobile device and allow the permissions.
 
 ## [iOS app](#tab/iOS)
 
