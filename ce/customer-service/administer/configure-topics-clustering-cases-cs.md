@@ -55,14 +55,14 @@ The AI Insights charts that appear on the Customer Service Insights dashboards a
 
 ### Enable topic automation for Copilot Studio
 
-AI discovered topics in Customer Service historical analytics are often prime candidates for automation in Copilot Studio AI agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
+AI discovered topics in Customer Service historical analytics are often prime candidates for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
 1. In Customer Service admin center, go to **Insights** > **Topics clustering for cases** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for case** page, enable the toggle.
 
 
 > [!NOTE]
-> Topic automation to Copilot Studio AI agent is currently not supported in Government Community Cloud.
+> Topic automation to Copilot agent is currently not supported in Government Community Cloud.
 
 
 ## Language availability for topics
