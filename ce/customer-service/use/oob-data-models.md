@@ -113,7 +113,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |Entities |Attributes|	Description |
 |----------|----------|----------| 
 |DimAgentPresence	|Agent presence id |Primary key. |
-|DimAgentPresence	|Presence status	| Agent presence status. That is, Available, Busy, Busy-DND, Away, or Offline. |
+|DimAgentPresence	|Presence status	| Agent presence status. That is, Available, Busy, Busy-DND (Do not disturb), Away, or Offline. |
 |DimConversationProperty |Conversation property id |Primary key. |
 |DimConversationProperty	|Channel |	Channel name. The name of the channel that the conversation came through. |
 |DimConversationProperty|Conversation status |The status of the conversation. That is, open, active, waiting, wrap up, and closed. |
@@ -139,7 +139,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
 |FactAgentStatusHistory	|Agent available duration (hrs)|	The time an agent is in the Available state in the omnichannel application.|
 |FactAgentStatusHistory	|Agent away duration (hrs)|	The time an agent is in the away state in the omnichannel application.|
-|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)| The time an agent is in the Busy DND (Do not disturb) state in the omnichannel application.|
+|FactAgentStatusHistory	|Agent busy (DND) duration (hrs)| The time an agent is in the Busy DND state in the omnichannel application.|
 |FactAgentStatusHistory	|Agent busy duration (hrs) |Time an agent in the busy state in omnichannel application.|
 |FactAgentStatusHistory	|Agent offline duration (hrs)|	The time an agent signed out of the omnichannel application.|
 |FactAgentStatusHistory	|Agent total sign-in time (hrs)	|The time an agent is in each status. The column is used to calculate other measures like "Agent available duration (hrs)", "Agent away duration (hrs)".|
