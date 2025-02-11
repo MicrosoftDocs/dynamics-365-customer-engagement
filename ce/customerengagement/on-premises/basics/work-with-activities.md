@@ -304,7 +304,7 @@ To attach a document:
  2. Administrators impersonating the System User
  3. Non-administrators impersonating administrators
 
-For information on impersonating users please see [here](../developer/org-service/impersonate-another-user.md). 
+More information: [Impersonate another user](../developer/org-service/impersonate-another-user.md). 
  
 
 
