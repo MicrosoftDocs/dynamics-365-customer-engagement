@@ -108,7 +108,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Resolved session rate | The percentage of total bot sessions that were resolved by the AI agent within the specified time period.| 
  | Bot sessions abandoned|The number of engaged bot sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
  | Abandoned session rate | The percentage of total bot sessions that were abandoned within the specified time period.| 
- | Bot sessions per conversation | The average number of bot sessions per conversation. | 
+ | Bot sessions per conversation | The average number of AI agent sessions per conversation. | 
 
  ### Bot drill-down view
 
