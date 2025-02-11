@@ -18,7 +18,7 @@ ms.reviewer: mgandham
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-In the application, you can integrate both Azure and Copilot Studio agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. 
+In the application, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to customer service representatives (service representatives or representatives), as required. The bot dashboard shows key performance indicators (KPIs) and charts for chat and IVR AI agents. You can use the dashboard to understand how AI agents are performing in a support organization. 
 
 In the Customer Service workspace or Contact Center workspace application, perform the following steps to view the dashboard:
 
@@ -26,8 +26,8 @@ In the Customer Service workspace or Contact Center workspace application, perfo
 1. On the page that appears, select the Bot dashboard.
 
 Based on your administrator's configuration of the **Add historical analytics for bots** option in the Contact Center or Customer Service admin center, the dashboard is as follows:
-- **Enabled**: Indicates that your organization only has Copilot Studio agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot Studio agents are displayed.
-- **Disabled**: Indicates that your organization has both Azure and Copilot Studio agents configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
+- **Enabled**: Indicates that your organization only has Copilot agents configured and the dashboard is specific to them. Additional metrics, charts, and KPIs that are applicable only to Copilot agents are displayed.
+- **Disabled**: Indicates that your organization has both Azure and Copilot agents configured. The dashboard displays you metrics, KPIs, and charts that are common to both. 
 
 ## Prerequisites
 
@@ -36,13 +36,13 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
 
- The bot dashboard displays metrics specific to Copilot Studio agents only if Copilot Studio agents are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
+ The bot dashboard displays metrics specific to Copilot agents only if Copilot agents are integrated with Omnichannel for Customer Service and the **Add historical analytics for bots** checkbox in Customer Service admin center is enabled.
 
   :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Screenshot showing the Omnichannel bot dashboard.":::
 
   ### Report details
 
- The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Copilot Studio agents. You can filter these areas by duration, channel, queue, or service representatives.
+ The report summarizes KPIs for the specified time period and the percentage change over that period. These metrics are specific to Copilot agents. You can filter these areas by duration, channel, queue, or service representatives.
 
   :::image type="content" source="../media/oc-bot-KPI.png" alt-text="Screenshot showing the Copilot Studio bot dashboard KPIs.":::
 
@@ -108,11 +108,11 @@ Based on your administrator's configuration of the **Add historical analytics fo
  | Resolved session rate | The percentage of total bot sessions that were resolved by the AI agent within the specified time period.| 
  | Bot sessions abandoned|The number of engaged bot sessions that are abandoned. An abandoned session is an engaged session that is not resolved or escalated after one hour from the beginning of the session.|
  | Abandoned session rate | The percentage of total bot sessions that were abandoned within the specified time period.| 
- | Bot sessions per conversation | The average number of Copilot Studio AI agent bot sessions per conversation. | 
+ | Bot sessions per conversation | The average number of bot sessions per conversation. | 
 
  ### Bot drill-down view
 
- In the **Metrics by bot** section, you can select a Copilot Studio AI agent to view the individual AI agent's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
+ In the **Metrics by bot** section, you can select a Copilot agent to view the individual AI agent's performance on the bot drill-down view. Bot topics and their corresponding metrics are also displayed, giving supervisors further insights into individual topic performance. 
 
  To access the drill-down view, select the AI agent that you're interested in, and then select **Detailed view**.
 
@@ -151,7 +151,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  ### View and improve bot topics
 
- You can view and improve the performance of individual topics associated with a Copilot Studio AI agent by performing the following steps:
+ You can view and improve the performance of individual topics associated with a Copilot agent by performing the following steps:
 
  1. On the bot drill-down page, for an AI agent, select the topic to view the topic-specific metrics. 
    You can also view and download up to seven days of bot conversation transcript sessions from the past 30 days.
@@ -161,7 +161,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 
  ### Customize bot dashboard
 
-For Copilot Studio agents, you can edit the report to add the additional metrics and filters to the AI agent. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
+For Copilot agents, you can edit the report to add the additional metrics and filters to the AI agent. To customize the bot dashboard, see [customize visual display](/dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml). 
 
 
 ## [Dashboard for all bots ](#tab/allbots)
