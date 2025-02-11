@@ -92,9 +92,9 @@ As an **administrator**, you can:
 
 When a portal includes a knowledge base, it becomes a customer self-service portal. As a user in any role, you can then access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. Learn more in [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
-#### Integrate knowledge management with a Copilot Studio AI agent
+#### Integrate knowledge management with a Copilot agent
 
-As an **administrator**, you can integrate a Copilot Studio AI agent with knowledge management to make it easier to use customized conversations in your AI agent. It can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. Learn more in [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md).
+As an **administrator**, you can integrate a Copilot agent with knowledge management to make it easier to use customized conversations in your AI agent. It can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. Learn more in [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md).
 
 ### Analyze and report
 
