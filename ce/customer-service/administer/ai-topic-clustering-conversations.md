@@ -40,15 +40,15 @@ The Summary and Model run summary views provide key information about how the to
 | Last successful run | Time stamp of the last time new cases were processed. |
 | Run frequency | The cadence in which cases are processed and tagged with topics. |
 
-## Automate topics to Copilot Studio AI agents
+## Automate topics to Copilot agents
 
-AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot Studio AI agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
 1. In Customer Service admin center or Contact Center admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for conversation** page, enable the toggle.
 
 > [!NOTE]
-> Topic automation to Copilot Studio AI agent isn't available in Government Community Cloud.
+> Topic automation to Copilot agent isn't available in Government Community Cloud.
 
 ## Language availability for topics
 
