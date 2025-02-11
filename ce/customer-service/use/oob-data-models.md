@@ -52,10 +52,10 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimDate	|Month	| Month name. Example: "Apr 2021"|
 |DimDate	|Quarter	| Quarter name. Example: "Q1" |
 |DimDate	|Hour	| Hour. Example: "01:00", "01:30" |
-|FactCase	|Incident id	|Incident id, Primary key. Type: Guid|
+|FactCase	|Incident id	|Incident ID, Primary key. Type: GUID|
 |FactCase	|Case number	|Case number value. |
-|FactCase	|Queue id	|Queue id. Foreign key to DimQueue. |
-|FactCase	|Owner system user id	|Owner system user id. Foreign key to DimSystemUser. |
+|FactCase	|Queue id	|Queue ID. Foreign key to DimQueue. |
+|FactCase	|Owner system user id	|Owner system user ID. Foreign key to DimSystemUser. |
 |FactCase	|Case url	|URL for case. |
 |FactCase	|Case property id |	Foreign key to DimCaseProperty. |
 |FactCase	|Topic id	|Topic id. Foreign key to DimTopic. |
@@ -78,7 +78,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactCase	| Avg. survey sentiment	|Average survey sentiment. |
 |FactCase |	Survey sentiment impact |	Change ratio for the sentiment. |
 |DimQueue |	Queue	|Queue name.|
-|DimQueue	|Queue id	|Queue ID. Primary key. Type: Guid. |
+|DimQueue	|Queue id	|Queue ID. Primary key. Type: GUID. |
 |DimSystemUser	|Agent	|Name of the agent. |
 |DimSystemUser	|System user id |System user ID. | 
 |DimCaseProperty	|Case status	|Case status value, Example: Active, Canceled, Resolved. |
@@ -87,7 +87,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimCaseProperty	|Case age	| Description for case age. Example: 4-7 Days, <1 Day, 1-3 Days|
 |DimCaseProperty	|Case property id	|Case property ID. Primary key. |
 |DimTopic	|Topic	|Topic name. |
-|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid |
+|DimTopic	|Topic id	|Topic ID. Primary key. Type: GUID |
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00 |
 
 ## Omnichannel analytics
@@ -133,7 +133,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |DimTimeZone	|Time zone	|Time zone code such as GMT +01:00. |
 |DimTopic	|Topic id	|Topic ID. Primary key of type GUID. |
 |DimTopic	|Topic	|Topic name.|
-|FactAgentStatusHistory |Agent status history id	|Original identifier of the agent status history record from msdyn_agentstatushistory entity. Type: GuID.|
+|FactAgentStatusHistory |Agent status history id	|Original identifier of the agent status history record from msdyn_agentstatushistory entity. Type: GUID.|
 |FactAgentStatusHistory	|System user id	|Agent ID. Foreign key to DimSystemUser. |
 |FactAgentStatusHistory	|Agent logged in time	|The time an agent logged in the omnichannel application per presence status. |
 |FactAgentStatusHistory	|Agent presence id	|Foreign key to DimAgentPresence.|
@@ -232,7 +232,7 @@ Use the Dynamics_365_Customer_Service_Omnichannel_analytics.pbix file to edit th
 |FactSession	|Bot abandoned rate	|The percentage of abandoned AI agent conversations.|
 |FactSession	|Sessions rejected rate	|The percentage of rejected sessions. |
 |FactSession	|Sessions timeout rate	|The percentage of sessions that timed out. |
-|FactSession	|Sessions timed out count	|Session count when agent is timeout. |
+|FactSession	|Sessions timed out count	|Session count when agent is timed out. |
 |FactSession	|Bot escalated	| Number of escalated AI agent conversations. |
 |FactSession	|Bot resolved	| Number of AI agent resolved conversations. |
 |FactSession	|Transfer count |Number of transferred sessions (closure reason in 192350006 or 192350010).
@@ -271,14 +271,14 @@ Use the Dynamics_365_Customer_Service_Omnichannel_voice_analytics.pbix file to e
 |DimDate	|Quarter	|Quarter name. Example: "Q1"|
 |DimDate	|Week	|Week number. Example: "1"|
 |DimDate	|Year	|Year number. Example: "2021"|
-|DimQueue	|Queue id	|Queue id. Primary key. Type: Guid |
+|DimQueue	|Queue id	|Queue id. Primary key. Type: GUID |
 |DimQueue|	Is omnichannel queue| Currently, it's always true.|
 |DimQueue	|Queue	|Queue name.|
 |DimSystemUser	|System user id	|System user ID.| 
 |DimSystemUser	|Agent	|Name of the agent.|
 |DimSystemUser	|Is bot	|Is an AI agent. True or false.|
 |DimTimeZone	|Time zone	|Time zone code. Example: GMT +01:00.|
-|DimTopic	|Topic id	|Topic ID. Primary key. Type: Guid.|
+|DimTopic	|Topic id	|Topic ID. Primary key. Type: GUID.|
 |DimTopic	|Topic	|Topic name.|
 |FactAgentStatusHistory	|Agent status history id|	Identifier of the agent status history record. Primary key of type GUID.|
 |FactAgentStatusHistory|	System user id	|Agent ID. Foreign key to DimSystemUser.|
