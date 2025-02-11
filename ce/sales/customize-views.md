@@ -1,7 +1,7 @@
 ---
 title: Create and customize views
 description: Explore how to customize views in Sales, create system views and personal views, and adjust column widths and filters for tailored data presentation.
-ms.date: 03/29/2024
+ms.date: 02/11/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,7 +31,7 @@ A view defines:
 - The columns to be displayed.
 - The width of columns displayed.
 - How the list of records is sorted by default.
-- What default filters are applied to restrict which records will appear in the list.
+- What default filters are applied to restrict which records appear in the list.
 
 The records that are visible in individual views are displayed in a list, sometimes called a grid, which frequently provides options so that people can change the default sorting, column widths, and filters to more easily see the data that’s important to them. Views also define the data source for charts that are used in the application.
 
@@ -139,7 +139,7 @@ When the arrow is pointing up, the sort order is ascending. When the arrow is po
 You can change the order of the columns already included in your view.
 
 1. Select the column you want to move.
-2. Drag the column to the position you want to move it to. You will see a visual indicator when you hold the column over an allowed position.
+2. Drag the column to the position you want to move it to. You see a visual indicator when you hold the column over an allowed position.
 
     :::image type="content" source="media/rearrange-columns.png" alt-text="Screenshot of the view designer with columns being rearranged":::
 
@@ -188,7 +188,7 @@ When you select **Group And**, records that meet both criteria are displayed in 
 
 ### Save a view
 
-As you are working on your view, save it often to avoid losing any changes.
+As you're working on your view, save it often to avoid losing any changes.
 
 - In the designer, choose one of the following in the upper-right corner:
   - To save without closing the designer, select **Save**
