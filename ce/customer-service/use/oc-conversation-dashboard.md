@@ -6,13 +6,16 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: bap-ai-copilot
-ms.date: 11/28/2024
+ms.date: 02/10/2025
 ms.custom: bap-template
 ---
 
 # Conversation dashboard
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 
 The Conversation dashboard gives you a broad overview of the customer service experience in your organization. It uses AI to surface insights into the topics that generate the highest volume and the topics that are emerging with the fastest increase in volume.
@@ -44,7 +47,7 @@ The following table lists the KPIs in the Conversation dashboard.
 
 | Metric | Description | Derivation |
 | -------- | --------------------- | --------------------------- |
-| Incoming conversations | The number of conversations initiated by the customer that can be presented to a service representative. | All conversations are considered, except bot conversations. |
+| Incoming conversations | The number of conversations initiated by the customer that can be presented to a service representative. | All conversations are considered, except AI agent conversations. |
 | Engaged conversations | Offered conversations that are engaged by a service representative. Customer-to-agent communication can begin at this point. | All conversations are considered. |
 | Abandon rate | The percentage of conversations that aren't engaged by service representatives.| All conversations are considered. |
 | Avg. speed to answer (seconds) | The average time customers waited in the queue before connecting to a service representative. (Time taken for acceptance) | Conversations engaged and conversations that are in the closed state are considered. |

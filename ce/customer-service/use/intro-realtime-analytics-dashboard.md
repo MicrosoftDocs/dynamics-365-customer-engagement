@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 02/03/2025
+ms.date: 02/10/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -20,6 +20,9 @@ ms.custom:
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 
 > [!IMPORTANT]
@@ -40,7 +43,7 @@ As a supervisor, you can use the real-time analytics reports to perform these ta
 - Drill down to a specific channel, queue, or service representative as required, to gain key operational insights in real time and take necessary action.
 
 > [!NOTE]
-> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot Studio bots. However, they don't include conversations that were resolved by Copilot Studio bots.
+> The reports include conversations that were handled by service representatives only. They also include conversations that were escalated by the Copilot agents. However, they don't include conversations that were resolved by Copilot agents.
 
 ## Security roles and permissions
 
