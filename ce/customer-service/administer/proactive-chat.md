@@ -53,7 +53,6 @@ Learn more in [setContextProvider](../develop/reference/methods/setContextProvid
 
 [Proactive chat in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2114614)
 
-Learn more about Omnichannel for Customer Service in [Videos](../use/videos.md).
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
