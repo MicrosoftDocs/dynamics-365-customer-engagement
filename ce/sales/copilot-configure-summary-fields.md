@@ -1,14 +1,14 @@
 ---
 title: Configure fields for generating summaries and recent changes
 description: Learn how to configure fields for generating summaries and recent changes list in Copilot for leads, opportunities, and accounts.
-ms.date: 10/04/2024
+ms.date: 02/14/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
-author: lavanyakr01
-ms.author: lavanyakr
-ms.reviewer: lavanyakr
+author: udaykirang
+ms.author: udag
+ms.reviewer: udag
 ms.custom:
   - bap-template
 ---
@@ -44,34 +44,25 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
 
     In the **Recent changes** tab, when you add a field from a related table that doesn't have audit history turned on, **Turn audit on** appears in the notification bar. Select it to turn on auditing for the table. If you remove the field later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for the table manually.
 
+1. To customize the sections to display in the summary, select **Customize related info**.  
+    1. Select the sections you want to display in the summary.  
+
+        | Section | Supported entity | Description |
+        |---------|------------------|-------------|
+        | Enriched key info | Opportunities, Leads, and Accounts | Displays relevant insights from related records in the key info section. |
+        | Competitor insights | Opportunities and Leads | Displays insights about the competitors in the opportunity and fields such as competitor names, strengths, and weaknesses are considered for insights. |
+        | Product insights | Opportunities | Displays insights about the products in the opportunity and fields such as product names, total amount, and budget are considered for insights. |
+        | Quote insights | Opportunities | Displays insights about the quotes in the opportunity and fields such as total number of quotes, most recent quote, and total amount are considered for insights. |
+        | Opportunities | Accounts | Displays all open opportunities for this account. |
+        | Leads | Accounts | Displays all leads linked to this account. |
+        | Cases | Accounts | Displays all open cases linked to this account. However, to display information in this section, Dynamics 365 Customer Service must be enabled in your environment. |  
+
+        By default, all options are selected.  
+
+    1. Save your changes.  
+
 1. <a name="admin-opportunity-summary-widget"></a>For **Opportunities** only. To display the [opportunity summary widget](copilot-get-information.md#view-the-opportunity-summary-widget) within the opportunity form, in the **Opportunities settings** page, select the **Show opportunity summary as a widget in the form** option.  
     To add the opportunity widget to custom forms, see [Add the opportunity summary widget to custom forms](#add-the-opportunity-summary-widget-to-custom-forms).
-
-1. For **Opportunities** and **Accounts** only. To customize the sections to display in the summary, select **Customize related info**.  
-
-    - **Opportunities**:
-        
-        1. In the **Customize related info** dialog box, select the sections that you want to display in the **Opportunity summary** view for users to see. These sections are:
-            - **Enriched key info**: Displays relevant insights from related records in the key info section.
-            - **Product insights**: Displays insights about the products in the opportunity and fields such as product names, total amount, and budget are considered for insights.
-            - **Quote insights**: Displays insights about the quotes in the opportunity and fields such as total number of quotes, most recent quote, and total amount are considered for insights.
-            - **Competitor insights**: Displays insights about the competitors in the opportunity and fields such as competitor names,  strengths, and weaknesses are considered for insights.
-
-           By default, all options are selected.  
-
-        1. Select **Save**.
-
-    - **Accounts**:  
-        
-        1. In the **Customize related info** dialog box, select the sections that you want to display in the **Account summary** view for users to see. These sections are:
-            - **Enriched key info**: Displays relevant insights from related records in the key info section.
-            - **Opportunities**: Displays all open opportunities for this account.
-            - **Leads**: Displays all leads linked to this account.
-            - **Cases**: Displays all open cases linked to this account. However, to display information in this section, Dynamics 365 Customer Service must be enabled in your environment.  
-
-           By default, all options are selected.  
-
-        1. Select **Save**.
 
 1. Save your changes.
 
@@ -111,3 +102,7 @@ Copilot generates the list of recent changes for leads, opportunities, and accou
     - **View Audit Summary**
 
 1. Select **Save + close**.
+
+### Related information
+
+[Get information from Copilot](copilot-get-information.md)
