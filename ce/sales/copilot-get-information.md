@@ -84,7 +84,7 @@ Copilot can enrich your leads with information from Dynamics 365 Sales, LinkedIn
 
 After you select a lead, Copilot suggests other records that might be associated with the lead and from which it can glean more information.
 
-1. [Ask Copilot to summarize a lead](#summarize-a-lead).
+1. [Ask Copilot to summarize a lead](#summarize-a-lead-).
 
     If Copilot finds possible matching contact records based on the lead's email address, it lists them after the summary. Learn more in [How does Copilot match leads with contacts and can I customize the matching fields?](sales-copilot-faq.md#how-does-copilot-match-leads-with-contacts-and-can-i-customize-the-matching-fields).
 
