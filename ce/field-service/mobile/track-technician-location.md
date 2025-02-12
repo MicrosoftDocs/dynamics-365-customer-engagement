@@ -43,7 +43,7 @@ To send a technician's location information to Field Service, enable location tr
 
 ### Location tracking events
 
-The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. Users location is captured at the frequency in the **Refresh Interval**. The users location is sent to the server and stored only during the set **Tracking Times**.  
+The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location information. Users location is captured at the frequency in the **Refresh interval**. The users location is sent to the server and stored only during the set **Tracking Times**.  
 
 > [!NOTE]
 > Location tracking events might be sent less frequently based on the mobile device operating system. The frequency might be influenced by battery savings settings, device battery charge status, and other applications running on the device that might consume device resources.
@@ -52,7 +52,7 @@ You can audit the location information. Turn on auditing for your environment an
 
 You can configure how far back in time a geolocation is valid. This setting is important for scenarios when a mobile device loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling**  **Settings** area. Select **Administration** > **Scheduling Parameter**. On the **Geo Data** tab, select **Geo Location Expires After X Minutes**.
 
-## Share the location from the mobile app
+## Share location from the mobile app
 
 The app prompts users to allow location access after signing in to the app. The app requests permissions for precise location that are required to update the location consistently. Revoking the listed permissions or not allowing them in the first place keeps the location tracking disabled. To change the permissions retroactively, open the app permissions settings on your mobile device and allow the permissions.
 
@@ -76,7 +76,7 @@ Location tracking is currently not available in the Dynamics 365 Field Service W
 
 ## Verify that location tracking works
 
-In the Field Service web application, open the schedule board and select a resource that has location tracking enabled. The current location of the resource appears on the schedule board map. Select the map pin icon next to see the resource's detailed location.
+In the Field Service web application, open the schedule board and select a resource that has location tracking enabled. The current location of the resource appears on the schedule board map. Select the map pin icon to see the resource's detailed location.
 
 > [!NOTE]
 > Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. For more information, see [Advanced filters for the schedule assistant](../schedule-assistant-advanced-filters.md).
