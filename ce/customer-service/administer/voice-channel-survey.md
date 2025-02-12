@@ -16,13 +16,12 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
+Post-call surveys help measure customer satisfaction in the contact center. Surveys are also an incentive for agents to provide high-quality service. You can configure the survey to take place immediately after the call so that customers can provide their feedback while the conversation is fresh on their minds.
 
- [!IMPORTANT] 
- Please note that there are currently two post-call survey experiences. The experience discussed in this document is for survey bots that you have previously created in Copilot Studio. To try out survey bots using the new survey template experience, please see https://learn.microsoft.com/en-us/dynamics365/contact-center/administer/configure-surveys?toc=%2Fdynamics365%2Fcustomer-service%2Fadminister%2Ftoc.json&bc=..%2F..%2Fbreadcrumb%2Ftoc.yml
- 
+The experience discussed in this article is for survey bots that you create in Copilot Studio. You can also configure a survey template in the admin center, which is the latest experience. Learn more in [Configure feedback surveys using Copilot Studio (preview)](/dynamics365/contact-center/administer/configure-surveys).
+
 You can obtain customer consent for post-call surveys as follows:
 
 - **Automatic - implicit**: The IVR bot informs the customer about a post-call survey at the end of the call. 
@@ -31,8 +30,8 @@ You can obtain customer consent for post-call surveys as follows:
 - **Agent-initiated**: Towards the end of a call, the agent can ask the customer if they want to take a survey.
     If the customer says yes, the agent manually transfers the call to the survey bot.
 
-> [!NOTE]
-> We recommend that you have two bots if your organization wants to use Copilot Studio for both IVR and survey scenarios.
+
+We recommend that you have two bots if your organization wants to use Copilot Studio for both IVR and survey scenarios.
 
 ## Create a survey bot in Copilot Studio
 
@@ -77,10 +76,11 @@ You can add messages or questions to a Copilot Studio IVR bot to create a post-c
 - Configure your Azure bot. More information: [Integrate an Azure bot](../configure-bot.md)
 
 ## Enable post-call survey in phone number settings
+
 > [!Note]
 > Enabling the post-call survey feature isn't required for the human agent initiated scenario.
 
-To route the customer to the Power Voice Agent survey bot automatically after the agent hangs up, perform the following steps:
+To route the customer to the survey bot automatically after the agent hangs up, perform the following steps:
 
 1. In the Customer Service admin center or Contact Center admin center app, select your voice workstream, and then select **Edit** next to the pencil icon to modify the settings.
 1. Under **Language**, scroll to the bottom of the dialog, and then toggle **Post-call survey** to **On**.
