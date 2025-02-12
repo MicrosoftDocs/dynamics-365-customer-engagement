@@ -12,7 +12,7 @@ ms.author: jobaker
 
 Field technicians often travel to various locations throughout their workday, and it's helpful for schedulers to know where technicians are at any given time.
 
-Once an administrator enables location tracking for Dynamics 365 Field Service, technicians can enable location sharing from the Field Service mobile app. Schedulers can visualize technician's locations on the schedule board and see their location history.
+An administrator enables location tracking for the Dynamics 365 Field Service app and technicians enable location sharing from the  mobile app. Schedulers can visualize technician's locations on the schedule board and see their location history.
 
 For a guided walkthrough, check out the following video.
 >
