@@ -98,12 +98,6 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-
-
-
-
-
-
 ## Summarize an account <a name="copilot-summarize-accounts"></a>
 
 Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane), and then open an account to have Copilot automatically summarize it for you.
