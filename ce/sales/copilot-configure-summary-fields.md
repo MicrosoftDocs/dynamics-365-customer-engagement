@@ -45,7 +45,7 @@ By default, Copilot uses a set of predefined fields to generate [summaries](copi
         | Section | Supported entity | Description |
         |---------|------------------|-------------|
         | Enriched key info | Opportunities, Leads, and Accounts | Displays relevant insights from related records in the key info section. |
-        | Competitor insights | Opportunities and Leads | Displays insights about the competitors in the opportunity and fields such as competitor names, strengths, and weaknesses are considered for insights. |
+        | Competitor insights | Opportunities and Leads | Displays insights about the competitors in the opportunity and leads, and fields such as competitor names, strengths, and weaknesses are considered for insights. |
         | Product insights | Opportunities | Displays insights about the products in the opportunity and fields such as product names, total amount, and budget are considered for insights. |
         | Quote insights | Opportunities | Displays insights about the quotes in the opportunity and fields such as total number of quotes, most recent quote, and total amount are considered for insights. |
         | Opportunities | Accounts | Displays all open opportunities for this account. |

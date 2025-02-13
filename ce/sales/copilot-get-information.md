@@ -66,11 +66,11 @@ Alternatively, type **Summarize lead /** from anywhere in the app or from the [C
 
 :::image type="content" source="media/copilot-lead-summary.png" alt-text="Screenshot of a Copilot lead summary in Dynamics 365 Sales.":::
 
-The opportunity summary includes the following information, if the information is available in the opportunity record:
+The lead summary includes the following information, if the information is available in the lead record:
 
 - **Basic information**: Rating, lead source, status reason, and parent account for lead.  
 - **Key information**: Follow-up on the latest activity, preferred method of contact, lead creation date, annual revenue, closed opportunities associated with the lead, parent account, primary contact of the parent account associated with the lead, and other AI-generated information.  
-- **Competitor insights**: The competitors that are associated with the opportunity, along with their strengths and weaknesses.  
+- **Competitor insights**: The competitors that are associated with the lead, along with their strengths and weaknesses.  
 
 The lead summary is also available as an embedded experience after you qualify a lead. Learn more in [Qualify and convert a lead to opportunity](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
