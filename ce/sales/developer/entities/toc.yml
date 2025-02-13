@@ -3,76 +3,76 @@ items:
   href: ../about-entity-reference.md
 - name: "Account"
   displayName: "Account entity"
-  href: /dynamics365/developer/reference/entities/account?toc=/dynamics365/sales/developer/entities/toc.json&bc=/dynamics365/breadcrumb/toc.json
+  href: /dynamics365/developer/reference/entities/account?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Assignment Map"
   displayName: "msdyn_assignmentmap entity"
-  href: /dynamics365/developer/reference/entities/msdyn_assignmentmap
+  href: /dynamics365/developer/reference/entities/msdyn_assignmentmap?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Assignment Rule"
   displayName: "msdyn_assignmentrule entity"
-  href: /dynamics365/developer/reference/entities/msdyn_assignmentrule
+  href: /dynamics365/developer/reference/entities/msdyn_assignmentrule?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Bulk Operation Log"
   displayName: "BulkOperationLog entity"
-  href: /dynamics365/developer/reference/entities/bulkoperationlog
+  href: /dynamics365/developer/reference/entities/bulkoperationlog?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Campaign"
   displayName: "Campaign entity"
-  href: /dynamics365/developer/reference/entities/campaign
+  href: /dynamics365/developer/reference/entities/campaign?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Campaign Activity"
   displayName: "CampaignActivity entity"
-  href: /dynamics365/developer/reference/entities/campaignactivity
+  href: /dynamics365/developer/reference/entities/campaignactivity?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Campaign Response"
   displayName: "CampaignResponse entity"
-  href: /dynamics365/developer/reference/entities/campaignresponse
+  href: /dynamics365/developer/reference/entities/campaignresponse?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Competitor"
   displayName: "Competitor entity"
-  href: /dynamics365/developer/reference/entities/competitor
+  href: /dynamics365/developer/reference/entities/competitor?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Connection"
   displayName: "Connection entity"
   href: connection.md
 - name: "Contact"
   displayName: "Contact entity"
-  href: /dynamics365/developer/reference/entities/contact
+  href: /dynamics365/developer/reference/entities/contact?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Action Item"
   displayName: "msdyn_ConversationActionItem entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationactionitem
+  href: /dynamics365/developer/reference/entities/msdyn_conversationactionitem?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Aggregated Insights"
   displayName: "msdyn_ConversationAggregatedInsights entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationaggregatedinsights
+  href: /dynamics365/developer/reference/entities/msdyn_conversationaggregatedinsights?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Participant Insights"
   displayName: "msdyn_ConversationParticipantInsights entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantinsights
+  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantinsights?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Participant Sentiment"
   displayName: "msdyn_ConversationParticipantSentiment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantsentiment
+  href: /dynamics365/developer/reference/entities/msdyn_conversationparticipantsentiment?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Question"
   displayName: "msdyn_ConversationQuestion entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationquestion
+  href: /dynamics365/developer/reference/entities/msdyn_conversationquestion?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Sentiment"
   displayName: "msdyn_ConversationSentiment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsentiment
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsentiment?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Signal"
   displayName: "msdyn_ConversationSignal entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsignal
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsignal?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Subject"
   displayName: "msdyn_ConversationSubject entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsubject
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsubject?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Summary Suggestion"
   displayName: "msdyn_ConversationSummarySuggestion entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsummarysuggestion
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsummarysuggestion?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation System Tag"
   displayName: "msdyn_ConversationSystemTag entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationsystemtag
+  href: /dynamics365/developer/reference/entities/msdyn_conversationsystemtag?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Tag"
   displayName: "msdyn_ConversationTag entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationtag
+  href: /dynamics365/developer/reference/entities/msdyn_conversationtag?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Data Map"
   displayName: "ImportMap entity"
   href: importmap.md
 - name: "Discount"
   displayName: "Discount entity"
-  href: /dynamics365/developer/reference/entities/discount
+  href: /dynamics365/developer/reference/entities/discount?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Discount List"
   displayName: "DiscountType entity"
-  href: /dynamics365/developer/reference/entities/discounttype
+  href: /dynamics365/developer/reference/entities/discounttype?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Duplicate Detection Rule"
   displayName: "DuplicateRule entity"
   href: duplicaterule.md
@@ -81,61 +81,61 @@ items:
   href: flowmachineimage.md
 - name: "Forecast"
   displayName: "msdyn_forecastinstance entity"
-  href: /dynamics365/developer/reference/entities/msdyn_forecastinstance
+  href: /dynamics365/developer/reference/entities/msdyn_forecastinstance?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Forecast definition"
   displayName: "msdyn_forecastdefinition entity"
-  href: /dynamics365/developer/reference/entities/msdyn_forecastdefinition
+  href: /dynamics365/developer/reference/entities/msdyn_forecastdefinition?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Forecast recurrence"
   displayName: "msdyn_forecastrecurrence entity"
-  href: /dynamics365/developer/reference/entities/msdyn_forecastrecurrence
+  href: /dynamics365/developer/reference/entities/msdyn_forecastrecurrence?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Goal"
   displayName: "Goal entity"
-  href: /dynamics365/developer/reference/entities/goal
+  href: /dynamics365/developer/reference/entities/goal?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Goal Metric"
   displayName: "Metric entity"
-  href: /dynamics365/developer/reference/entities/metric
+  href: /dynamics365/developer/reference/entities/metric?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Invoice"
   displayName: "Invoice entity"
-  href: /dynamics365/developer/reference/entities/invoice
+  href: /dynamics365/developer/reference/entities/invoice?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Invoice Product"
   displayName: "InvoiceDetail entity"
-  href: /dynamics365/developer/reference/entities/invoicedetail
+  href: /dynamics365/developer/reference/entities/invoicedetail?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Lead"
   displayName: "Lead entity"
-  href: /dynamics365/developer/reference/entities/lead
+  href: /dynamics365/developer/reference/entities/lead?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Lead Address"
   displayName: "LeadAddress entity"
-  href: /dynamics365/developer/reference/entities/leadaddress
+  href: /dynamics365/developer/reference/entities/leadaddress?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Lead To Opportunity Sales Process"
   displayName: "LeadToOpportunitySalesProcess entity"
-  href: /dynamics365/developer/reference/entities/leadtoopportunitysalesprocess
+  href: /dynamics365/developer/reference/entities/leadtoopportunitysalesprocess?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Marketing List"
   displayName: "List entity"
-  href: /dynamics365/developer/reference/entities/list
+  href: /dynamics365/developer/reference/entities/list?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Migration tracker"
   displayName: "msdyn_migrationtracker entity"
   href: msdyn_migrationtracker.md
 - name: "Opportunity"
   displayName: "Opportunity entity"
-  href: /dynamics365/developer/reference/entities/opportunity
+  href: /dynamics365/developer/reference/entities/opportunity?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Opportunity Close"
   displayName: "OpportunityClose entity"
-  href: /dynamics365/developer/reference/entities/opportunityclose
+  href: /dynamics365/developer/reference/entities/opportunityclose?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Opportunity Product"
   displayName: "OpportunityProduct entity"
-  href: /dynamics365/developer/reference/entities/opportunityproduct
+  href: /dynamics365/developer/reference/entities/opportunityproduct?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Opportunity Sales Process"
   displayName: "OpportunitySalesProcess entity"
-  href: /dynamics365/developer/reference/entities/opportunitysalesprocess
+  href: /dynamics365/developer/reference/entities/opportunitysalesprocess?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Order"
   displayName: "SalesOrder entity"
-  href: /dynamics365/developer/reference/entities/salesorder
+  href: /dynamics365/developer/reference/entities/salesorder?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Order Close"
   displayName: "OrderClose entity"
-  href: /dynamics365/developer/reference/entities/orderclose
+  href: /dynamics365/developer/reference/entities/orderclose?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Order Product"
   displayName: "SalesOrderDetail entity"
-  href: /dynamics365/developer/reference/entities/salesorderdetail
+  href: /dynamics365/developer/reference/entities/salesorderdetail?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Organization"
   displayName: "Organization entity"
   href: organization.md
@@ -144,85 +144,85 @@ items:
   href: msdyn_pmsimulation.md
 - name: "Predictive Model Score"
   displayName: "msdyn_predictivemodelscore entity"
-  href: /dynamics365/developer/reference/entities/msdyn_predictivemodelscore
+  href: /dynamics365/developer/reference/entities/msdyn_predictivemodelscore?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Predictive Score"
   displayName: "msdyn_predictivescore entity"
-  href: /dynamics365/developer/reference/entities/msdyn_predictivescore
+  href: /dynamics365/developer/reference/entities/msdyn_predictivescore?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Price List"
   displayName: "PriceLevel entity"
-  href: /dynamics365/developer/reference/entities/pricelevel
+  href: /dynamics365/developer/reference/entities/pricelevel?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Price List Item"
   displayName: "ProductPriceLevel entity"
-  href: /dynamics365/developer/reference/entities/productpricelevel
+  href: /dynamics365/developer/reference/entities/productpricelevel?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Product"
   displayName: "Product entity"
-  href: /dynamics365/developer/reference/entities/product
+  href: /dynamics365/developer/reference/entities/product?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Product Association"
   displayName: "ProductAssociation entity"
-  href: /dynamics365/developer/reference/entities/productassociation
+  href: /dynamics365/developer/reference/entities/productassociation?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Product Relationship"
   displayName: "ProductSubstitute entity"
-  href: /dynamics365/developer/reference/entities/productsubstitute
+  href: /dynamics365/developer/reference/entities/productsubstitute?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Property Instance"
   displayName: "DynamicPropertyInstance entity"
-  href: /dynamics365/developer/reference/entities/dynamicpropertyinstance
+  href: /dynamics365/developer/reference/entities/dynamicpropertyinstance?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Queue Item"
   displayName: "QueueItem entity"
   href: queueitem.md
 - name: "Quick Campaign"
   displayName: "BulkOperation entity"
-  href: /dynamics365/developer/reference/entities/bulkoperation
+  href: /dynamics365/developer/reference/entities/bulkoperation?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Quote"
   displayName: "Quote entity"
-  href: /dynamics365/developer/reference/entities/quote
+  href: /dynamics365/developer/reference/entities/quote?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Quote Close"
   displayName: "QuoteClose entity"
-  href: /dynamics365/developer/reference/entities/quoteclose
+  href: /dynamics365/developer/reference/entities/quoteclose?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Quote Product"
   displayName: "QuoteDetail entity"
-  href: /dynamics365/developer/reference/entities/quotedetail
+  href: /dynamics365/developer/reference/entities/quotedetail?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Quote Product"
   displayName: "QuoteDetail entity"
   href: quotedetail.md
 - name: "Recording"
   displayName: "msdyn_ocrecording entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocrecording
+  href: /dynamics365/developer/reference/entities/msdyn_ocrecording?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Rollup Field"
   displayName: "RollupField entity"
-  href: /power-apps/developer/data-platform/reference/entities/rollupfield
+  href: /power-apps/developer/data-platform/reference/entities/rollupfield?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Rollup Query"
   displayName: "GoalRollupQuery entity"
-  href: /dynamics365/developer/reference/entities/goalrollupquery
+  href: /dynamics365/developer/reference/entities/goalrollupquery?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sales Assignment Setting"
   displayName: "msdyn_salesassignmentsetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_salesassignmentsetting
+  href: /dynamics365/developer/reference/entities/msdyn_salesassignmentsetting?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sales Attachment"
   displayName: "SalesLiteratureItem entity"
-  href: /dynamics365/developer/reference/entities/salesliteratureitem
+  href: /dynamics365/developer/reference/entities/salesliteratureitem?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sales Literature"
   displayName: "SalesLiterature entity"
-  href: /dynamics365/developer/reference/entities/salesliterature
+  href: /dynamics365/developer/reference/entities/salesliterature?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sales routing run"
   displayName: "msdyn_salesroutingrun entity"
-  href: /dynamics365/developer/reference/entities/msdyn_salesroutingrun
+  href: /dynamics365/developer/reference/entities/msdyn_salesroutingrun?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "SARunInstance"
   displayName: "msdyn_saruninstance entity"
-  href: /dynamics365/developer/reference/entities/msdyn_saruninstance
+  href: /dynamics365/developer/reference/entities/msdyn_saruninstance?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "SCI Conversation"
   displayName: "msdyn_SCIConversation entity"
-  href: /dynamics365/developer/reference/entities/msdyn_sciconversation
+  href: /dynamics365/developer/reference/entities/msdyn_sciconversation?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Segment"
   displayName: "msdyn_segment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_segment
+  href: /dynamics365/developer/reference/entities/msdyn_segment?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Segment property"
   displayName: "msdyn_segmentattribute entity"
-  href: /dynamics365/developer/reference/entities/msdyn_segmentattribute
+  href: /dynamics365/developer/reference/entities/msdyn_segmentattribute?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Seller attribute"
   displayName: "msdyn_attribute entity"
-  href: /dynamics365/developer/reference/entities/msdyn_attribute
+  href: /dynamics365/developer/reference/entities/msdyn_attribute?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Seller attribute value"
   displayName: "msdyn_attributevalue entity"
-  href: /dynamics365/developer/reference/entities/msdyn_attributevalue
+  href: /dynamics365/developer/reference/entities/msdyn_attributevalue?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Similarity Rule"
   displayName: "SimilarityRule entity"
   href: similarityrule.md
@@ -234,16 +234,16 @@ items:
   href: territory.md
 - name: "Transcript"
   displayName: "msdyn_transcript entity"
-  href: /dynamics365/developer/reference/entities/msdyn_transcript
+  href: /dynamics365/developer/reference/entities/msdyn_transcript?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Unit"
   displayName: "UoM entity"
-  href: /dynamics365/developer/reference/entities/uom
+  href: /dynamics365/developer/reference/entities/uom?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Unit Group"
   displayName: "UoMSchedule entity"
-  href: /dynamics365/developer/reference/entities/uomschedule
+  href: /dynamics365/developer/reference/entities/uomschedule?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "wkwcolleaguesforcompany"
   displayName: "msdyn_wkwcolleaguesforcompany entity"
-  href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcompany
+  href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcompany?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "wkwcolleaguesforcontact"
   displayName: "msdyn_wkwcolleaguesforcontact entity"
-  href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcontact
+  href: /dynamics365/developer/reference/entities/msdyn_wkwcolleaguesforcontact?toc=/dynamics365/sales/toc.json&bc=/dynamics365/breadcrumb/toc.json
