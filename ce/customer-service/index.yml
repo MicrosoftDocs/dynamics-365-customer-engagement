@@ -39,10 +39,16 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: /dynamics365/guidance/implementation-guide/security
-        text: Security and compliance
+      - url: /dynamics365/get-started/security
+        text: Security, compliance, and privacy
       - url: /dynamics365/guidance/implementation-guide/overview
         text: Implementation
+      - url: /dynamics365/guidance/resources/cs-index
+        text: Implementation tools and samples
+      - url: /dynamics365/guidance/migrate/overview
+        text: Migrate from on-premises to online
+      - url: /dynamics365/guidance/business-processes/overview
+        text: End-to-end business processes
     - title: Try/Buy/Provision
       links: 
       - url: implement/try-customer-service.md
