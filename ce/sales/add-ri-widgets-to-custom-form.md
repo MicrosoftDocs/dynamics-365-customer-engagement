@@ -1,7 +1,7 @@
 ---
 title: "Add Relationship intelligence widgets to custom forms"
 description: "If you're using custom forms, add the health score and who knows whom widgets manually to the form."
-ms.date: 09/19/2022
+ms.date: 02/13/2025
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -22,22 +22,16 @@ To add the health score widget or who knows whom widget to your custom form, fol
 
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")
-
 2. Search for and select your organization's environment.
 
     > [!div class="mx-imgBorder"]  
     > ![Select your organization](media/power-apps-select-org.png "Select your organization")
 
-3. Select **Data** > **Tables**.
+3. Select **Tables** from the left side navigation pane.
 
     The **Tables** page opens with the list of tables.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Tables page with list of tables](media/power-apps-entities-page.png "Tables page with list of tables")
-
-4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
+4. Open the table, select the **Data experiences** tab, select **Forms** and then select a main form to add the widget to. In this example, the table **account** is selected and the main form **account** is selected.
 
     >[!NOTE]
     >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
