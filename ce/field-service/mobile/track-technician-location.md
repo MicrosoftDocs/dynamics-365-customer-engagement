@@ -22,7 +22,6 @@ For a guided walkthrough, check out the following video. Some features have chan
 
 - Administrator access to Dynamics 365 Field Service.
 - Read access to the *msdyn_geolocationsetting* table for the security role of mobile app users. These permissions are included with the default Field Service - Resource role.
-- Field Service mobile app version 3.2501.1 or higher.
 
 ## Enable location tracking
 
@@ -73,6 +72,5 @@ In the Field Service web application, open the schedule board and select a resou
 
 > [!NOTE]
 > Dispatchers can use current locations for schedule assistant travel time calculations by selecting **Real time mode** in the schedule assistant filter pane. For more information, see [Advanced filters for the schedule assistant](../schedule-assistant-advanced-filters.md).
-> Field Service mobile apps for iOS and Android below version 3.2501.1 no longer support location tracking after March 17, 2025. Users with older apps should upgrade their Field Service mobile app to continue sending location data. 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
