@@ -74,11 +74,11 @@ Learn more about the default attributes that Copilot uses to generate summaries 
 
 ### View the opportunity summary widget
 
-By default, when you open an opportunity, the opportunity summary widget is displayed in the **Opportunity** form, above the **Up next** widget. The widget displays insights about the opportunity, similar to [the opportunity summary](#summarize-an-opportunity) that's displayed in the Copilot side pane or page.
+By default, when you open an opportunity, the opportunity summary widget is displayed above the **Up next** widget in the **Opportunity** form. It displays insights about the opportunity, similar to [the opportunity summary](#summarize-an-opportunity) that's displayed in the Copilot side pane or page.
 
 :::image type="content" source="media/copilot-opportunity-summary-widget.png" alt-text="Screenshot of the Copilot opportunity summary widget in the Opportunity form.":::
 
-If you don't see the opportunity summary widget in the **Opportunity** form, contact your administrator to [turn it on](copilot-configure-summary-fields.md#admin-opportunity-summary-widget).
+If the opportunity summary widget isn't displayed in the **Opportunity** form, contact your administrator, and ask them to [turn it on](copilot-configure-summary-fields.md#admin-opportunity-summary-widget).
 
 <a name="copilot-summarize-lead"></a>
 
