@@ -3,7 +3,7 @@ items:
   href: ../about-entity-reference.md
 - name: "Account"
   displayName: "Account entity"
-  href: /dynamics365/developer/reference/entities/account
+  href: /dynamics365/developer/reference/entities/account?toc=/dynamics365/sales/developer/entities/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Assignment Map"
   displayName: "msdyn_assignmentmap entity"
   href: /dynamics365/developer/reference/entities/msdyn_assignmentmap
