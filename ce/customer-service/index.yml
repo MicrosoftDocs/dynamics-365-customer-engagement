@@ -72,8 +72,7 @@ additionalContent:
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
-        text: Configure service-level agreements
-      
+        text: Configure service-level agreements      
     - title: Develop
       links:
       - url: develop/reference/entities/overview-entity-ref.md
