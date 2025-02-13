@@ -21,37 +21,37 @@ items:
   href: mspp_adplacement.md
 - name: "Agent Capacity Profile Unit"
   displayName: "msdyn_agentcapacityprofileunit entity"
-  href: /dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit
+  href: /dynamics365/developer/reference/entities/msdyn_agentcapacityprofileunit?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Agent capacity update history"
   displayName: "msdyn_agentcapacityupdatehistory entity"
-  href: /dynamics365/developer/reference/entities/msdyn_agentcapacityupdatehistory
+  href: /dynamics365/developer/reference/entities/msdyn_agentcapacityupdatehistory?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Agent Copilot Setting"
   displayName: "msdyn_agentcopilotsetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_agentcopilotsetting
+  href: /dynamics365/developer/reference/entities/msdyn_agentcopilotsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Agent Status"
   displayName: "msdyn_agentstatus entity"
-  href: /dynamics365/developer/reference/entities/msdyn_agentstatus
+  href: /dynamics365/developer/reference/entities/msdyn_agentstatus?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Agent Status history"
   displayName: "msdyn_agentstatushistory entity"
-  href: /dynamics365/developer/reference/entities/msdyn_agentstatushistory
+  href: /dynamics365/developer/reference/entities/msdyn_agentstatushistory?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Appointment"
   displayName: "Appointment entity"
   href: appointment.md
 - name: "Assignment Configuration"
   displayName: "msdyn_assignmentconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_assignmentconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_assignmentconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Assignment Configuration Step"
   displayName: "msdyn_assignmentconfigurationstep entity"
-  href: /dynamics365/developer/reference/entities/msdyn_assignmentconfigurationstep
+  href: /dynamics365/developer/reference/entities/msdyn_assignmentconfigurationstep?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Attach Skill"
   displayName: "msdyn_skillattachmenttarget entity"
-  href: /dynamics365/developer/reference/entities/msdyn_skillattachmenttarget
+  href: /dynamics365/developer/reference/entities/msdyn_skillattachmenttarget?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Audio File"
   displayName: "msdyn_soundfile entity"
-  href: /dynamics365/developer/reference/entities/msdyn_soundfile
+  href: /dynamics365/developer/reference/entities/msdyn_soundfile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Authentication Settings"
   displayName: "msdyn_authenticationsettings entity"
-  href: /dynamics365/developer/reference/entities/msdyn_authenticationsettings
+  href: /dynamics365/developer/reference/entities/msdyn_authenticationsettings?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Bookable Resource"
   displayName: "BookableResource entity"
   href: bookableresource.md
@@ -66,7 +66,7 @@ items:
   href: bookableresourcebookingheader.md
 - name: "Bookable Resource Capacity Profile"
   displayName: "msdyn_bookableresourcecapacityprofile entity"
-  href: /dynamics365/developer/reference/entities/msdyn_bookableresourcecapacityprofile
+  href: /dynamics365/developer/reference/entities/msdyn_bookableresourcecapacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Bookable Resource Category"
   displayName: "BookableResourceCategory entity"
   href: bookableresourcecategory.md
@@ -93,10 +93,10 @@ items:
   href: bookingstatus.md
 - name: "Bot Channel Registration"
   displayName: "msdyn_ocbotchannelregistration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocbotchannelregistration
+  href: /dynamics365/developer/reference/entities/msdyn_ocbotchannelregistration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Bot Channel Registration Secret"
   displayName: "msdyn_ocbotchannelregistrationsecret entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocbotchannelregistrationsecret
+  href: /dynamics365/developer/reference/entities/msdyn_ocbotchannelregistrationsecret?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Bulk Delete Failure"
   displayName: "BulkDeleteFailure entity"
   href: bulkdeletefailure.md
@@ -117,25 +117,25 @@ items:
   href: campaignresponse.md
 - name: "Capacity Profile"
   displayName: "msdyn_capacityprofile entity"
-  href: /dynamics365/developer/reference/entities/msdyn_capacityprofile
+  href: /dynamics365/developer/reference/entities/msdyn_capacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Case"
   displayName: "Incident entity"
   href: incident.md
 - name: "Channel Capability"
   displayName: "msdyn_channelcapability entity"
-  href: /dynamics365/developer/reference/entities/msdyn_channelcapability
+  href: /dynamics365/developer/reference/entities/msdyn_channelcapability?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Channel Configuration"
   displayName: "msdyn_occhannelconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_occhannelconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_occhannelconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Channel State Configuration"
   displayName: "msdyn_occhannelstateconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_occhannelstateconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_occhannelstateconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Characteristic"
   displayName: "Characteristic entity"
   href: characteristic.md
 - name: "Characteristic mapping"
   displayName: "msdyn_ocsitdskill entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsitdskill
+  href: /dynamics365/developer/reference/entities/msdyn_ocsitdskill?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Client Extension"
   displayName: "msdyn_clientextension entity"
   href: msdyn_clientextension.md
@@ -150,10 +150,10 @@ items:
   href: contact.md
 - name: "Context item value"
   displayName: "msdyn_ocliveworkitemcontextitem entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcontextitem
+  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcontextitem?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Context variable"
   displayName: "msdyn_ocliveworkstreamcontextvariable entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkstreamcontextvariable
+  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkstreamcontextvariable?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Contract"
   displayName: "Contract entity"
   href: contract.md
@@ -162,37 +162,37 @@ items:
   href: msdyn_ocliveworkitem.md
 - name: "Conversation Action"
   displayName: "msdyn_conversationaction entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationaction
+  href: /dynamics365/developer/reference/entities/msdyn_conversationaction?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Action Locale"
   displayName: "msdyn_conversationactionlocale entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationactionlocale
+  href: /dynamics365/developer/reference/entities/msdyn_conversationactionlocale?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Capacity profile"
   displayName: "msdyn_ocliveworkitemcapacityprofile entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcapacityprofile
+  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcapacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Characteristic"
   displayName: "msdyn_ocliveworkitemcharacteristic entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcharacteristic
+  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemcharacteristic?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Message Block"
   displayName: "msdyn_conversationmessageblock entity"
-  href: /dynamics365/developer/reference/entities/msdyn_conversationmessageblock
+  href: /dynamics365/developer/reference/entities/msdyn_conversationmessageblock?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Conversation Sentiment"
   displayName: "msdyn_ocliveworkitemsentiment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemsentiment
+  href: /dynamics365/developer/reference/entities/msdyn_ocliveworkitemsentiment?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Copilot Interaction"
   displayName: "msdyn_copilotinteraction entity"
-  href: /dynamics365/developer/reference/entities/msdyn_copilotinteraction
+  href: /dynamics365/developer/reference/entities/msdyn_copilotinteraction?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Copilot Interaction Data"
   displayName: "msdyn_copilotinteractiondata entity"
-  href: /dynamics365/developer/reference/entities/msdyn_copilotinteractiondata
+  href: /dynamics365/developer/reference/entities/msdyn_copilotinteractiondata?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Copilot Summarization Setting"
   displayName: "msdyn_copilotsummarizationsetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_copilotsummarizationsetting
+  href: /dynamics365/developer/reference/entities/msdyn_copilotsummarizationsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Copilot Transcript"
   displayName: "msdyn_copilottranscript entity"
   href: msdyn_copilottranscript.md
 - name: "Copilot Transcript Data"
   displayName: "msdyn_copilottranscriptdata entity"
-  href: /dynamics365/developer/reference/entities/msdyn_copilottranscriptdata
+  href: /dynamics365/developer/reference/entities/msdyn_copilottranscriptdata?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Currency"
   displayName: "TransactionCurrency entity"
   href: transactioncurrency.md
@@ -213,10 +213,10 @@ items:
   href: importmap.md
 - name: "Decision contract"
   displayName: "msdyn_decisioncontract entity"
-  href: /dynamics365/developer/reference/entities/msdyn_decisioncontract
+  href: /dynamics365/developer/reference/entities/msdyn_decisioncontract?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Decision rule set"
   displayName: "msdyn_decisionruleset entity"
-  href: /dynamics365/developer/reference/entities/msdyn_decisionruleset
+  href: /dynamics365/developer/reference/entities/msdyn_decisionruleset?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Document Location"
   displayName: "SharePointDocumentLocation entity"
   href: sharepointdocumentlocation.md
@@ -237,13 +237,13 @@ items:
   href: entitlementtemplate.md
 - name: "Entity"
   displayName: "msdyn_entityroutingconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_entityroutingconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_entityroutingconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Entity Routing Context"
   displayName: "msdyn_cdsentityengagementctx entity"
-  href: /dynamics365/developer/reference/entities/msdyn_cdsentityengagementctx
+  href: /dynamics365/developer/reference/entities/msdyn_cdsentityengagementctx?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "External context"
   displayName: "msdyn_ocexternalcontext entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocexternalcontext
+  href: /dynamics365/developer/reference/entities/msdyn_ocexternalcontext?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Facility/Equipment"
   displayName: "Equipment entity"
   href: equipment.md
@@ -264,7 +264,7 @@ items:
   href: msdyn_timegroup.md
 - name: "Geo Location Provider"
   displayName: "msdyn_oc_geolocationprovider entity"
-  href: /dynamics365/developer/reference/entities/msdyn_oc_geolocationprovider
+  href: /dynamics365/developer/reference/entities/msdyn_oc_geolocationprovider?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Insight"
   displayName: "msdyn_salessuggestion entity"
   href: msdyn_salessuggestion.md
@@ -288,7 +288,7 @@ items:
   href: knowledgebaserecord.md
 - name: "Language"
   displayName: "msdyn_oclanguage entity"
-  href: /dynamics365/developer/reference/entities/msdyn_oclanguage
+  href: /dynamics365/developer/reference/entities/msdyn_oclanguage?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Lead"
   displayName: "Lead entity"
   href: lead.md
@@ -297,13 +297,13 @@ items:
   href: letter.md
 - name: "Localization"
   displayName: "msdyn_oclocalizationdata entity"
-  href: /dynamics365/developer/reference/entities/msdyn_oclocalizationdata
+  href: /dynamics365/developer/reference/entities/msdyn_oclocalizationdata?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Macro Run History"
   displayName: "msdyn_macrosession entity"
-  href: /dynamics365/developer/reference/entities/msdyn_macrosession
+  href: /dynamics365/developer/reference/entities/msdyn_macrosession?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Macro Solution Configuration"
   displayName: "msdyn_productivitymacrosolutionconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_productivitymacrosolutionconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_productivitymacrosolutionconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Mailbox"
   displayName: "Mailbox entity"
   href: mailbox.md
@@ -312,37 +312,37 @@ items:
   href: mailboxtrackingfolder.md
 - name: "Masking Rule"
   displayName: "msdyn_maskingrule entity"
-  href: /dynamics365/developer/reference/entities/msdyn_maskingrule
+  href: /dynamics365/developer/reference/entities/msdyn_maskingrule?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Master Entity Routing Configuration"
   displayName: "msdyn_masterentityroutingconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_masterentityroutingconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_masterentityroutingconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Message"
   displayName: "msdyn_ocsystemmessage entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsystemmessage
+  href: /dynamics365/developer/reference/entities/msdyn_ocsystemmessage?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Migration tracker"
   displayName: "msdyn_migrationtracker entity"
   href: msdyn_migrationtracker.md
 - name: "Model training details"
   displayName: "msdyn_ocsimltraining entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsimltraining
+  href: /dynamics365/developer/reference/entities/msdyn_ocsimltraining?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Note"
   displayName: "Annotation entity"
   href: annotation.md
 - name: "Omnichannel Configuration"
   displayName: "msdyn_omnichannelconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_omnichannelconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_omnichannelconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Omnichannel Personalization"
   displayName: "msdyn_omnichannelpersonalization entity"
-  href: /dynamics365/developer/reference/entities/msdyn_omnichannelpersonalization
+  href: /dynamics365/developer/reference/entities/msdyn_omnichannelpersonalization?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Omnichannel Request"
   displayName: "msdyn_ocrequest entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocrequest
+  href: /dynamics365/developer/reference/entities/msdyn_ocrequest?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Omnichannel Sync Config"
   displayName: "msdyn_omnichannelsyncconfig entity"
-  href: /dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig
+  href: /dynamics365/developer/reference/entities/msdyn_omnichannelsyncconfig?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Operating Hour"
   displayName: "msdyn_operatinghour entity"
-  href: /dynamics365/developer/reference/entities/msdyn_operatinghour
+  href: /dynamics365/developer/reference/entities/msdyn_operatinghour?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Opportunity"
   displayName: "Opportunity entity"
   href: opportunity.md
@@ -360,25 +360,25 @@ items:
   href: msdyn_organizationalunit.md
 - name: "Overflow Action Config"
   displayName: "msdyn_overflowactionconfig entity"
-  href: /dynamics365/developer/reference/entities/msdyn_overflowactionconfig
+  href: /dynamics365/developer/reference/entities/msdyn_overflowactionconfig?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Owner"
   displayName: "Owner entity"
   href: owner.md
 - name: "Pane tab configuration"
   displayName: "msdyn_panetabconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_panetabconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_panetabconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Pane tool configuration"
   displayName: "msdyn_panetoolconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_panetoolconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_panetoolconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Persona Security Role Mapping"
   displayName: "msdyn_personasecurityrolemapping entity"
-  href: /dynamics365/developer/reference/entities/msdyn_personasecurityrolemapping
+  href: /dynamics365/developer/reference/entities/msdyn_personasecurityrolemapping?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Personal quick reply"
   displayName: "msdyn_personalmessage entity"
-  href: /dynamics365/developer/reference/entities/msdyn_personalmessage
+  href: /dynamics365/developer/reference/entities/msdyn_personalmessage?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Personal sound setting"
   displayName: "msdyn_Personalsoundsetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_personalsoundsetting
+  href: /dynamics365/developer/reference/entities/msdyn_personalsoundsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Phone Call"
   displayName: "PhoneCall entity"
   href: phonecall.md
@@ -393,16 +393,16 @@ items:
   href: adx_portalcomment.md
 - name: "Power BI Configuration"
   displayName: "msdyn_analyticsxx entity"
-  href: /dynamics365/developer/reference/entities/msdyn_analytics
+  href: /dynamics365/developer/reference/entities/msdyn_analytics?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Preferred Agent"
   displayName: "msdyn_preferredagent entity"
-  href: /dynamics365/developer/reference/entities/msdyn_preferredagent
+  href: /dynamics365/developer/reference/entities/msdyn_preferredagent?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Preferred Agent Customer Identity"
   displayName: "msdyn_preferredagentcustomeridentity entity"
-  href: /dynamics365/developer/reference/entities/msdyn_preferredagentcustomeridentity
+  href: /dynamics365/developer/reference/entities/msdyn_preferredagentcustomeridentity?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Presence"
   displayName: "msdyn_presence entity"
-  href: /dynamics365/developer/reference/entities/msdyn_presence
+  href: /dynamics365/developer/reference/entities/msdyn_presence?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Price List"
   displayName: "PriceLevel entity"
   href: pricelevel.md
@@ -420,19 +420,19 @@ items:
   href: product.md
 - name: "Productivity pane configuration"
   displayName: "msdyn_paneconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_paneconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_paneconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Profile Album"
   displayName: "msdyn_PostAlbum entity"
   href: msdyn_postalbum.md
 - name: "Provider"
   displayName: "msdyn_provider entity"
-  href: /dynamics365/developer/reference/entities/msdyn_provider
+  href: /dynamics365/developer/reference/entities/msdyn_provider?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Publishing State Transition Rule"
   displayName: "mspp_publishingstatetransitionrule entity"
   href: mspp_publishingstatetransitionrule.md
 - name: "Queue"
   displayName: "Queue entity"
-  href: /dynamics365/developer/reference/entities/queue
+  href: /dynamics365/developer/reference/entities/queue?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Queue Item"
   displayName: "QueueItem entity"
   href: queueitem.md
@@ -441,7 +441,7 @@ items:
   href: bulkoperation.md
 - name: "Quick reply"
   displayName: "msdyn_cannedmessage entity"
-  href: /dynamics365/developer/reference/entities/msdyn_cannedmessage
+  href: /dynamics365/developer/reference/entities/msdyn_cannedmessage?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Quote"
   displayName: "Quote entity"
   href: quote.md
@@ -495,25 +495,25 @@ items:
   href: msdyn_resourceterritory.md
 - name: "Routing configuration"
   displayName: "msdyn_routingconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_routingconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_routingconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing configuration step"
   displayName: "msdyn_routingconfigurationstep entity"
-  href: /dynamics365/developer/reference/entities/msdyn_routingconfigurationstep
+  href: /dynamics365/developer/reference/entities/msdyn_routingconfigurationstep?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing diagnostic"
   displayName: "msdyn_unifiedroutingrun entity"
-  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingrun
+  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingrun?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing diagnostic item"
   displayName: "msdyn_unifiedroutingdiagnostic entity"
-  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingdiagnostic
+  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingdiagnostic?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Routing Rule Set Setting"
   displayName: "msdyn_routingrulesetsetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_routingrulesetsetting
+  href: /dynamics365/developer/reference/entities/msdyn_routingrulesetsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "RoutingRequest"
   displayName: "msdyn_routingrequest entity"
-  href: /dynamics365/developer/reference/entities/msdyn_routingrequest
+  href: /dynamics365/developer/reference/entities/msdyn_routingrequest?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Rule Item"
   displayName: "msdyn_ocruleitem entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocruleitem
+  href: /dynamics365/developer/reference/entities/msdyn_ocruleitem?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Schedule Board Setting"
   displayName: "msdyn_scheduleboardsetting entity"
   href: msdyn_scheduleboardsetting.md
@@ -528,22 +528,22 @@ items:
   href: msdyn_schedulingscope.md
 - name: "Search Configuration"
   displayName: "msdyn_searchconfiguration entity"
-  href: /dynamics365/developer/reference/entities/msdyn_searchconfiguration
+  href: /dynamics365/developer/reference/entities/msdyn_searchconfiguration?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Self service"
   displayName: "msdyn_visitorjourney entity"
-  href: /dynamics365/developer/reference/entities/msdyn_visitorjourney
+  href: /dynamics365/developer/reference/entities/msdyn_visitorjourney?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sentiment analysis"
   displayName: "msdyn_sentimentanalysis entity"
-  href: /dynamics365/developer/reference/entities/msdyn_sentimentanalysis
+  href: /dynamics365/developer/reference/entities/msdyn_sentimentanalysis?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sentiment daily topic"
   displayName: "msdyn_ocsentimentdailytopic entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsentimentdailytopic
+  href: /dynamics365/developer/reference/entities/msdyn_ocsentimentdailytopic?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sentiment daily topic keyword"
   displayName: "msdyn_ocsentimentdailytopickeyword entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsentimentdailytopickeyword
+  href: /dynamics365/developer/reference/entities/msdyn_ocsentimentdailytopickeyword?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sentiment daily topic trending"
   displayName: "msdyn_ocsentimentdailytopictrending entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsentimentdailytopictrending
+  href: /dynamics365/developer/reference/entities/msdyn_ocsentimentdailytopictrending?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Service"
   displayName: "Service entity"
   href: service.md
@@ -555,19 +555,19 @@ items:
   href: msdyn_ocsession.md
 - name: "Session Characteristic"
   displayName: "msdyn_ocsessioncharacteristic entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsessioncharacteristic
+  href: /dynamics365/developer/reference/entities/msdyn_ocsessioncharacteristic?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Session event"
   displayName: "msdyn_sessionevent entity"
-  href: /dynamics365/developer/reference/entities/msdyn_sessionevent
+  href: /dynamics365/developer/reference/entities/msdyn_sessionevent?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Session participant"
   displayName: "msdyn_sessionparticipant entity"
-  href: /dynamics365/developer/reference/entities/msdyn_sessionparticipant
+  href: /dynamics365/developer/reference/entities/msdyn_sessionparticipant?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Session Participant Event"
   displayName: "msdyn_ocsessionparticipantevent entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent
+  href: /dynamics365/developer/reference/entities/msdyn_ocsessionparticipantevent?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Session Sentiment"
   displayName: "msdyn_ocsessionsentiment entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsessionsentiment
+  href: /dynamics365/developer/reference/entities/msdyn_ocsessionsentiment?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Shortcut"
   displayName: "mspp_shortcut entity"
   href: mspp_shortcut.md
@@ -579,10 +579,10 @@ items:
   href: site.md
 - name: "Skill Attachment Rule"
   displayName: "msdyn_skillattachmentruleitem entity"
-  href: /dynamics365/developer/reference/entities/msdyn_skillattachmentruleitem
+  href: /dynamics365/developer/reference/entities/msdyn_skillattachmentruleitem?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Skill finder model"
   displayName: "msdyn_ocskillidentmlmodel entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocskillidentmlmodel
+  href: /dynamics365/developer/reference/entities/msdyn_ocskillidentmlmodel?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "SLA"
   displayName: "SLA entity"
   href: sla.md
@@ -591,10 +591,10 @@ items:
   href: socialactivity.md
 - name: "Social Profile"
   displayName: "SocialProfile entity"
-  href: /dynamics365/developer/reference/entities/socialprofile
+  href: /dynamics365/developer/reference/entities/socialprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Sound notification setting"
   displayName: "msdyn_soundnotificationsetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_soundnotificationsetting
+  href: /dynamics365/developer/reference/entities/msdyn_soundnotificationsetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Swarm"
   displayName: "msdyn_swarm entity"
   href: msdyn_swarm.md
@@ -609,7 +609,7 @@ items:
   href: msdyn_systemuserschedulersetting.md
 - name: "Tag"
   displayName: "msdyn_octag entity"
-  href: /dynamics365/developer/reference/entities/msdyn_octag
+  href: /dynamics365/developer/reference/entities/msdyn_octag?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Task"
   displayName: "Task entity"
   href: task.md
@@ -627,22 +627,22 @@ items:
   href: msdyn_timegroupdetail.md
 - name: "Time Tracker"
   displayName: "msdyn_timetracker entity"
-  href: /dynamics365/developer/reference/entities/msdyn_timetracker
+  href: /dynamics365/developer/reference/entities/msdyn_timetracker?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Training data import configuration"
   displayName: "msdyn_ocsitdimportconfig entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsitdimportconfig
+  href: /dynamics365/developer/reference/entities/msdyn_ocsitdimportconfig?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Training record"
   displayName: "msdyn_ocsitrainingdata entity"
-  href: /dynamics365/developer/reference/entities/msdyn_ocsitrainingdata
+  href: /dynamics365/developer/reference/entities/msdyn_ocsitrainingdata?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Transaction Origin"
   displayName: "msdyn_transactionorigin entity"
   href: msdyn_transactionorigin.md
 - name: "Transcript"
   displayName: "msdyn_transcript entity"
-  href: /dynamics365/developer/reference/entities/msdyn_transcript
+  href: /dynamics365/developer/reference/entities/msdyn_transcript?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Unified Routing Setup Tracker"
   displayName: "msdyn_unifiedroutingsetuptracker entity"
-  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingsetuptracker
+  href: /dynamics365/developer/reference/entities/msdyn_unifiedroutingsetuptracker?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Unit"
   displayName: "UoM entity"
   href: uom.md
@@ -654,16 +654,16 @@ items:
   href: systemuser.md
 - name: "User settings"
   displayName: "msdyn_usersetting entity"
-  href: /dynamics365/developer/reference/entities/msdyn_usersetting
+  href: /dynamics365/developer/reference/entities/msdyn_usersetting?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Website"
   displayName: "mspp_website entity"
   href: mspp_website.md
 - name: "Work Stream"
   displayName: "msdyn_liveworkstream entity"
-  href: /dynamics365/developer/reference/entities/msdyn_liveworkstream
+  href: /dynamics365/developer/reference/entities/msdyn_liveworkstream?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Work stream capacity profile"
   displayName: "msdyn_liveworkstreamcapacityprofile entity"
-  href: /dynamics365/developer/reference/entities/msdyn_liveworkstreamcapacityprofile
+  href: /dynamics365/developer/reference/entities/msdyn_liveworkstreamcapacityprofile?toc=/dynamics365/customer-service/develop/toc.json&bc=/dynamics365/breadcrumb/toc.json
 - name: "Work Template"
   displayName: "msdyn_workhourtemplate entity"
   href: msdyn_workhourtemplate.md
