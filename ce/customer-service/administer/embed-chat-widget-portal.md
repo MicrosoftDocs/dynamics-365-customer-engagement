@@ -61,7 +61,7 @@ After you configure the chat widget, it has the following capabilities:
 
 - **Maximized mode**: A user can maximize the chat widget to start a conversation with a customer service representative (service representative or representative).
 
-- **System events**: System-generated messages appear for events, such as when a service representative joins or transfers a conversation, or a conversation is transferred by a supervisor, to another representative.
+- **System events**: System-generated messages appear for events, such as when a service representative joins or transfers a conversation, or a conversation is transferred by a supervisor to another representative.
       :::image type="content" source="../media/chat-widget-system-events.png" alt-text="Screenshot of chat widget with system event messages displayed on the widget for customer."::: 
     
 - **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page.
