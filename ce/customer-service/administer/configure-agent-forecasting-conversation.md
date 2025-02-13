@@ -1,7 +1,7 @@
 ---
 title: Configure service representative forecasting for conversations
 description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 01/31/2025
+ms.date: 02/06/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -19,6 +19,9 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 This article describes how to set up customer service representative (service representative or representative) forecasting for conversation in your organization.
 
 > [!IMPORTANT]
@@ -32,7 +35,7 @@ As an administrator, you can configure the Agent forecasting for conversation re
 
 Supervisors can use the Agent forecasting for conversation report in the following ways:
 
-- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if chatbots are enabled for your conversational channels, then the chatbot conversations that don't include a service representative are excluded from the forecast. You can then rely on the predicted conversation volumes for service representative staffing.
+- Forecast upcoming conversation volumes based on historical traffic. For conversation volume forecasting, if AI agents are enabled for your conversational channels, then the AI agent conversations that don't include a service representative are excluded from the forecast. You can then rely on the predicted conversation volumes for service representative staffing.
 
 - Forecast service representative demand to meet the forecasted conversation volume, based on business requirements, such as service level agreement, shrinkage, and concurrency.
 

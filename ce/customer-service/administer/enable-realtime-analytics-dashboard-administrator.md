@@ -83,7 +83,7 @@ If you customized the Customer Service workspace or Contact Center workspace app
 [View and understand the Voice report in Omnichannel real-time analytics](../use/realtime-voice-dashboard.md)  
 [View and understand the Agents report in Omnichannel real-time analytics](../use/realtime-agents-analytics.md)  
 [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](../use/realtime-ongoing.md)  
-[Use Omnichannel for Customer Service metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)  
+[Use report metrics](../use/oc-metrics-dimensions.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 
