@@ -99,7 +99,8 @@ After you enable persona mapping, the system automatically assigns default roles
 >
 > - Customized mappings aren't reset if one of the services is added later.
 > - Make sure that the roles you want to map to personas are assigned to the users directly and not through team memberships.
-> - You can't access the Omnichannel Agent Dashboard dashboard through solution explorer in Power Apps. To access it with custom roles, you need to update the agent persona with the appropriate role.
+> - To access the Omnichannel Agent Dashboard dashboard from Power Apps with custom roles, you'll need to update the agent persona with the appropriate role.
+ 
 
 ### Manage personas
 
