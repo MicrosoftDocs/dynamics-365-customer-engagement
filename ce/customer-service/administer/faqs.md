@@ -71,6 +71,8 @@ If you accidentally close your browsers, your currently open sessions and tabs o
 
 Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
 
+If interested in restoring browser sessions after browser reopens, see [session restore (preview)](/dynamics365/customer-service/administer/enable-session-restore).
+
 ### Does consult only work for managers and supervisors?
 
 No. You can consult with any available agent in the queue from which the chat originated. The consult list shows you agents in the queue who can take more chat requests.
