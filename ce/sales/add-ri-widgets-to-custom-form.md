@@ -28,11 +28,11 @@ To add the health score widget or who knows whom widget to your custom form, fol
 
 3. In the left pane, select **Tables**.
 
-    The **Tables** page opens with the list of tables.
-
 4. On the **Tables** page, select a table to open it.
 
-1. On the **Data experiences** card, select **Forms**, and then select a main form to add the widget to. In this example, the table **Account** is selected and the main form **Account** is selected.
+1. On the **Data experiences** card, select **Forms**.
+
+1. Select a main form to add the widget to. In this example, the table **Account** is selected and the main form **Account** is selected.
 
     >[!NOTE]
     >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
