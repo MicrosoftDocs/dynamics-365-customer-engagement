@@ -75,7 +75,7 @@ additionalContent:
         text: Configure service-level agreements      
     - title: Develop
       links:
-      - url: develop/reference/entities/overview-entity-ref.md
+      - url: develop/reference/about-entity-reference.md
         text: Omnichannel for Customer Service entity reference
       - url: develop/omnichannel-reference.md
         text: Live chat SDK Reference
