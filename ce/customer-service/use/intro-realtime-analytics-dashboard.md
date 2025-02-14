@@ -73,6 +73,7 @@ The **Omnichannel real-time analytics** dashboard consists of the following repo
 - **Agents**: This report provides an overview of the health and KPIs of service representatives in your organization. The information that is shown on this report is based on the conversations. Learn more in the [Agents report](realtime-agents-analytics.md).
 - **Ongoing conversation**: This report provides information about the conversations that service representatives are handling and that are in active, open, wrap-up, or waiting status. Use it to monitor, assign, transfer, and forcibly close conversations for service representatives, after reviewing their skill set and capacity profiles. Learn more in the [Ongoing conversation report](realtime-ongoing.md).
 - **Backlog conversation**: The Backlog conversation report lists all open, active, and waiting conversations that were created in the last 30 days. It allows you to view persistent chats that are longer than 24 hrs. Learn more in [Backlog conversation report](realtime-backlog-conv.md#view-and-understand-the-backlog-conversation-report-in-omnichannel-real-time-analytics).
+- **Bot**: The Bot report provides insights into key metrics for all the Copilot agents used in your contact center. It allows you to monitor the volumes of in-progress and completed AI agent conversations. Learn more in [Bot report](/dynamics365/contact-center/use/agent-realtime-dashboard). 
 
 ## Filter information displayed on dashboard
 
