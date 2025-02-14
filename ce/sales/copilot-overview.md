@@ -54,9 +54,9 @@ Record summarization gives you a quick summary of your opportunity, lead, and ac
 
 Learn more:
 
-- [Summarize an account](copilot-get-information.md#summarize-an-account)
+- [Summarize an account](copilot-get-information.md##summarize-an-account-)
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
-- [Summarize a lead](copilot-get-information.md#summarize-a-lead)
+- [Summarize a lead](copilot-get-information.md#summarize-a-lead-)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
 
 ## Embedded experiences
