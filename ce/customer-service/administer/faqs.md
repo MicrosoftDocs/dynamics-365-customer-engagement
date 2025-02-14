@@ -61,9 +61,9 @@ Yes. You can work on cases alongside customer conversations in different session
 
 Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](../../channel-integration-framework/v1/administer/overview-channel-integration-framework.md).
 
-### Can I open Omnichannel for Customer Service in multiple browser tabs and windows?
+### Can I open Omnichannel for Customer Service in multiple browser tabs, windows or devices?
 
-We recommend that you don't open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help agents work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
+Omnichannel for Customer Service supports accepting notifications across browser tabs or devices, however sessions started in one tab cannot be transferred to other tabs.
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
 
