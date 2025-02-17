@@ -28,10 +28,15 @@ Make sure that the administrator has assigned a voice queue and an outbound capa
 To test your microphone and speaker, do the following steps:
 
 1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
-1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.
-1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear.
+1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.The speaker that you select is the primary ringer and plays notifications for calls and chat notifications.
+1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
+ > [!NOTE]
+ > - You can set a secondary ringer only if you have multiple devices connected to your system.
+ > - If the device set as a secondary ringer is disconnected it can't be used. 
+ > - If the secondary ringer is unavailable, for example, if the device isn't in range of the laptop's Bluetooth connection, Teams removes the secondary ringer and you'll have to reconfigure the device when you reconnect it.
+
 1. Select the following options:
-    - **Test speaker**. The application plays a sound that stops automatically after 15 seconds.
+    - **Test speaker**. The application plays a sound that stops automatically after 15 seconds. 
     -  **Test microphone**: The microphone starts recording your voice. The recording automatically stops after 15 seconds and is played back to you.
     - **Make a test call**: The following actions occur:
        - The **Active Conversation** form opens with the message that a test call is in progress. 
