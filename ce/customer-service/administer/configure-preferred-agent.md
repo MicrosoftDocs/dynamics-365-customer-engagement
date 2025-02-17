@@ -1,7 +1,7 @@
 ---
 title: Configure routing to preferred agents
-description: Learn how to configure settings to route work items to preferred agents in Customer Service.
-ms.date: 01/23/2025
+description: Learn how to configure settings to route work items to preferred representatives in Customer Service.
+ms.date: 02/17/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# Configure routing to preferred agents
+# Configure routing to preferred representatives
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 For a more personalized experience, Dynamics 365 Customer Service gives you the option to route work items from a specific contact to the customer's preferred agents or relationship managers.
 
-You can configure contacts and their preferred agents in the Customer Service admin center. If a contact isn't configured, then you can't assign a preferred agent to the contact. You can map agents to contacts only.
+You can configure contacts and their preferred agents in the Customer Service admin center. If the former isn't configured, then you can't assign the latter to the former. You can map customer service representatives (service representatives or representatives) to contacts only.
 
 ## Prerequisites
 
@@ -28,7 +28,7 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
 - You must be able to access the [Contact table](../../developer/reference/entities/contact.md).
 - If you have a custom role, you must also have access to the [msdyn_preferredagent](../../developer/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](../../developer/reference/entities/msdyn_preferredagentcustomeridentity.md) tables.
-- Ensure that the agent you want to assign to a contact is a member of the queue to which work items are routed.
+- Ensure that the representative you want to assign to a contact is a member of the queue to which work items are routed.
 
 ## Configure preferred agent for contacts
 
@@ -42,7 +42,7 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
    - **Next best agent based on assignment logic**: The work item is routed based on the assignment rules. We recommend that you use this option for live chat conversations and voice channel calls.
 
-   - **No one. Let the work remain unassigned in the queue**: The work item remains in the queue until an agent picks it up or you manually assign it to another agent. We recommend that you use this option for asynchronous channel conversations.
+   - **No one. Let the work remain unassigned in the queue**: The work item remains in the queue until a representative picks it up or you manually assign it to another representative. We recommend that you use this option for asynchronous channel conversations.
 
 1. Select contacts and their preferred agents in the **Preferred agents matrix** area by doing the following steps:
 
@@ -50,9 +50,9 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
       1. In **Contact full name**, enter a contact name, and select a value from the dropdown list.
 
-      1. Select **Add user** to map agents to the contact.
+      1. Select **Add user** to map representatives to the contact.
 
-   You can map up to three preferred agents to a contact. The order in which the agents are listed is the order in which they'll receive a work item if an agent listed higher in the order isn't available. You can sort the agent order by selecting an agent in the list and using the **Move up** or **Move down** option.
+   You can map up to three preferred agents to a contact. The order in which the representatives are listed is the order in which they'll receive a work item if a representative listed higher in the order isn't available. You can sort the order by selecting a representative in the list and using the **Move up** or **Move down** option.
 
 1. Save and close.
 
@@ -60,19 +60,19 @@ You can configure contacts and their preferred agents in the Customer Service ad
 
 ## How routing to preferred agent works
 
-If a preferred agent exists for a contact, the system tries to automatically assign the conversation to an available preferred agent whose presence matches with one of the allowed presences configured in the workstream. The system skips the check for capacity, skills, and assignment rules. If no preferred agents are available for a contact and **Next best agent based on assignment logic** is set as the fallback option, then the system tries to find a matching agent according to the configured assignment strategy.
+If a preferred agent exists for a contact, the system tries to automatically assign the conversation to an available preferred agent whose presence matches with one of the allowed presences configured in the workstream. The system skips the check for capacity, skills, and assignment rules. If no preferred agents are available for a contact and **Next best agent based on assignment logic** is set as the fallback option, then the system tries to find a matching representative according to the configured assignment strategy.
 
 Routing to preferred agents works with conversations that are routed through push-based workstreams only.
 
 ### Check diagnostics for routing to preferred agents
 
-If you've turned on routing diagnostics, the work item's diagnostics page will include information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is enabled. The **Assignment trace** section displays the reason information. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md)
+If you've turned on routing diagnostics, the work item's diagnostics page will include information about preferred agent routing under **Agent assignment trace**. The **Assignment criteria** section shows whether the setting is enabled. The **Assignment trace** section displays the reason information. Learn more in [Diagnostics for unified routing](unified-routing-diagnostics.md).
 
 ## Update contacts and preferred agents
 
 In the **Preferred agents matrix** section, use the edit and remove options to modify contacts and their preferred agents.
 
-For each contact, you can map a maximum of three agents, but ensure that you map at least one agent to the contact.
+For each contact, you can map a maximum of three representatives, but ensure that you map at least one of them to the contact.
 
 ### Identify contacts in supported channels
 
