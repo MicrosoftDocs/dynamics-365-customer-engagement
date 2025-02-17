@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 07/01/2024
+ms.date: 02/17/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,10 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Use the information in this article to manage your agent users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your agent users to provide customer service optimally.
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
+Use the information in this article to manage your customer service representative (service representative or representative) users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your service representative users to provide customer service optimally.
 
 You can manage the following settings for the users in bulk:
 
@@ -24,7 +27,7 @@ You can manage the following settings for the users in bulk:
 
 On the user management page, the following three views are available:
 
-- **Contact center users**: Lists users who are assigned the agent, supervisor, or admin persona.
+- **Contact center users**: Lists users who are assigned the representative, supervisor, or admin persona.
 - **All users**: Lists all the Customer Service users.
 - **Swarm experts**: Lists users who are assigned to be swarm experts.
 
@@ -77,13 +80,13 @@ Users should be configured as a bookable resource so that they can be assigned w
 
     | Section | Field | Description | Example value |
     |---------------|---------------------|---------------------|-------------------------------------------------|
-    | User Details | Capacity | If capacity units is configured, allocate a value that indicates the capacity of the agent. For information: [Capacity](#capacity). | 100 |
-    | User Details | Default Presence | Assign a default presence status for agent. This is the status that the agent is logged in with, in the Omnichannel for Customer Service app. |
+    | User Details | Capacity | If capacity units is configured, allocate a value that indicates the capacity of the representative. Learn more in [Capacity](#capacity). | 100 |
+    | User Details | Default Presence | Assign a default presence status for a representative. This is the status that the representative is logged in with, in the Omnichannel for Customer Service app. | Available |
 
 1. Select **New Bookable Resource** under the **Skills Configuration** section. The **New Bookable Resource** page appears.
 
 1. Do the following:
-   1. Specify the name of agent in the **Name** field.
+   1. Specify the name of representative in the **Name** field.
 
    1. Select **Save**. The **Work Hours** tab is enabled.
  
@@ -105,24 +108,24 @@ Users should be configured as a bookable resource so that they can be assigned w
    > [!div class=mx-imgBorder]
    > ![Default presence.](../media/oc-user-omni-tab.png)
 
-1. To use the user schedule for assignment, set up the bookable resource calendar. More information: [Apply a calendar to a resource](../../field-service/calendar-resource.md)
+1. To use the user schedule for assignment, set up the bookable resource calendar. Learn more in [Apply a calendar to a resource](../../field-service/calendar-resource.md).
 
-1. Add the user to the required queue that's configured for unified routing. More information: [Configure queues for unified routing](queues-omnichannel.md)
+1. Add the user to the required queue that's configured for unified routing. Learn more in [Configure queues for unified routing](queues-omnichannel.md).
 
    > [!NOTE]
-   > Bots in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add bots to queues that are used for routing records.
+   > AI agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add AI agents to queues that are used for routing records.
 
 All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Omnichannel for Customer Service.
 
-For more information on how to create users and assign security roles, see [Assign roles and enable users for Omnichannel for Customer Service](../implement/add-users-assign-roles.md).
+Learn more about how to create users and assign security roles in [Assign roles and enable users for Omnichannel for Customer Service](../implement/add-users-assign-roles.md).
 
-For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](role-persona-mapping.md).
+For users to access the Omnichannel for Customer Service experiences, the roles that you map to personas in role persona mapping must be assigned to the users directly and not through team memberships. Learn more about role persona mapping in [Role persona mapping](role-persona-mapping.md).
 
 ### Capacity
 
-Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the agent must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your agents.
+Capacity is the arbitrary scale that you choose and set for each of the work streams corresponding to the channels. The capacity assigned to the representative must be a multiplier of the capacity unit that you have defined for the associated workstream. Check the capacity unit defined for the workstreams to determine the value that must be assigned to your representatives.
 
-For example, if the capacity unit is 1 for a workstream and you want an agent to be able to take up to 3 conversations simultaneously, the capacity that you assign to the agent should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the agent to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity for the agent. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. More information: [Create and manage capacity profiles](capacity-profiles.md).
+For example, if the capacity unit is 1 for a workstream and you want a representative to be able to take up to 3 conversations simultaneously, the capacity that you assign to the representative should be 3 units. Similarly, if your capacity unit is 5 for the work stream and you want the representative to be able to take up to 3 conversations simultaneously, you should assign 15 units as the capacity. You can also define capacity profiles. However, we recommend that you use either capacity units or capacity profiles in your environment, and not both. Learn more in [Create and manage capacity profiles](capacity-profiles.md).
 
 ### Related information
 
