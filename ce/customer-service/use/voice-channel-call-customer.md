@@ -17,6 +17,10 @@ To be able to call customers, your administrator must configure outbound calling
 
 You can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
+## Prerequisites
+
+Make sure that the administrator has assigned a voice queue and an outbound capacity profile to your user profile. Learn more in [Manage contact center users](../administer/users-user-profiles.md#manage-contact-center-users).
+
 ## Test call controls, make a test call 
 
  In the outbound dialer, you can test your microphone and speaker before you make a call. You can also make a test call to check the quality of the call.
