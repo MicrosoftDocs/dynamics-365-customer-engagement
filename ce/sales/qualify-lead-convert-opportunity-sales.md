@@ -69,7 +69,7 @@ Learn how the fields in the lead record are mapped to other records in [Field ma
 
 #### Multiple opportunity creation
 
-If your admin turned on multiple opportunity creation, you can create up to five opportunities for each lead. A default opportunity record is added to the **Qualify lead** side pane. To create additional opportunities, follow these steps:
+If your admin turned on multiple opportunity creation, you can create up to five opportunities for each lead. A default opportunity record is added to the **Qualify lead** side pane. To create more opportunities, follow these steps:
 
 1. In the **Qualify lead** side pane, select **+&nbsp;New Opportunity**. If the **+&nbsp;New Opportunity** button is unavailable, learn why in [Why can't I edit or create multiple opportunities for a lead in the new lead qualification experience?](faq-lead.md#why-cant-i-edit-or-create-multiple-opportunities-for-a-lead-in-the-new-lead-qualification-experience)
 1. In the **Quick create** form for adding opportunities, enter the details of the opportunity. If you want the opportunity form to include different fields, talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
@@ -83,7 +83,7 @@ If your admin [turned on lead summarization](define-lead-qualification-experienc
 
 ![Screenshot of the Lead qualified page that appears after the lead is qualified.](media/lead-qualify-finish-page.png "Screenshot of the Lead qualified page that appears after the lead is qualified.")
 
-Select **Finish** to open the primary opportunity record, and select **X** at the top of the pane to return to the lead record.
+Select **Finish** to open the primary opportunity record, and select the **Close** button (**X**) at the top of the pane to return to the lead record.
 
 ### Legacy experience
 
@@ -102,7 +102,7 @@ Learn more:
 
 You can qualify multiple leads at the same time. To qualify multiple leads, open the **Leads** page in a read-only grid view, and select the leads that you want to qualify. Then, on the command bar, select **Qualify**.
 
-If your admin turned automatic creation in the legacy experience, the records are automatically created. If your admin turned off automatic creation or turned on the new experience, a dialog appears, where you can select which records should be created when the lead is qualified.
+If your admin turned automatic creation in the legacy experience, the records are automatically created. If your admin turned off automatic creation or turned on the new experience, a dialog appears. There, you can select which records should be created when the lead is qualified.
 
 ## Disqualify a lead
 
