@@ -1,7 +1,7 @@
 ---
 title: Create and manage workstreams
 description: Learn about how to create and manage workstreams.
-ms.date: 02/17/2025
+ms.date: 01/27/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -24,11 +24,11 @@ The workstream can be one of the following types:
 
 - **Messaging**: To route conversations from live chat, SMS, social, and Microsoft Teams channels.
 - **Record**: To route records, such as case, email, and activity.
-- **Voice**: To route calls made to support numbers listed on the customer portal. Learn more in [Introduction to the voice channel](voice-channel.md).
+- **Voice**: To route calls made to support numbers listed on the customer portal. More information: [Introduction to the voice channel](voice-channel.md)
 
 > [!IMPORTANT]
 >
-> Unified routing must be enabled in the service configuration settings for records to be routed using unified routing. Learn more in [Provision unified routing](provision-unified-routing.md).
+> Unified routing must be enabled in the service configuration settings for records to be routed using unified routing. More information: [Provision unified routing](provision-unified-routing.md)
 
 ## Prerequisite
 
@@ -52,9 +52,9 @@ You can create workstreams for unified routing in the Customer Service admin cen
          - **Voice**
     
     - **Channel**: This box appears if you selected the type as **Messaging**. Select a channel from the list.
-         If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. Learn more in [Configure persistent chat](persistent-chat.md).
+         If you select **Chat**, the **Make chats persistent** checkbox appears. Select the checkbox if you want to configure persistent chat. Also make sure that you select **Keep same agent for entire conversation** in the **Work distribution** settings of the workstream. More information: [Configure persistent chat](persistent-chat.md)
     
-    - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. Learn more in [Set up record routing](set-up-record-routing.md).
+    - **Record**: This box appears if you selected the type as **Record**. Select the record from the list. More information: [Set up record routing](set-up-record-routing.md)
     
     - **Work distribution mode**: Select **Push** or **Pick**. You can't edit this setting later.
          - In **Push** mode, the system routes the work item to customer service representatives (service representatives or representatives) automatically using a message alert. You can configure the push work item to be explicitly picked up. For voice, push mode only is available.
@@ -64,7 +64,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
          - **Create new**: Enter a queue name to which work items are sent when no queue is identified in the the route-to-queue rules. You must add users to the queue after creating the workstream.
          - **Choose existing**: Select an existing queue from the dropdown list. By default, the out-of-the-box queue for the selected channel type is selected.
 
-      Learn more in [Fallback queues](queues-omnichannel.md#how-fallback-queues-work).
+      More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 
       :::image type="content" source="../media/create-messaging-workstream.png" alt-text="Settings for creating workstream for live chat.":::
 
@@ -87,7 +87,7 @@ You can create workstreams for unified routing in the Customer Service admin cen
 
 ### Configure routing rules
 
-Routing rules for a workstream consist of work classification rules and route-to-queue rules. Learn more about how to configure routing rules in the following articles:
+Routing rules for a workstream consist of work classification rules and route-to-queue rules. For more information about how to configure routing rules, see the following articles:
 
 - [Configure work classification rules](configure-work-classification.md)
 - [Configure route-to-queue rules](configure-route-to-queue-rules.md)
@@ -99,7 +99,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 - **Auto-close after inactivity**: Select a time period after which inactive conversations are moved to the closed state automatically. This option is available for only persistent chat, SMS, social, and Microsoft Teams channels.
  
 - **Work distribution mode**: The option that you selected when creating the workstream is displayed and can't be edited.
-- **Capacity**: Select one of the following options. Learn more in [Create and manage capacity profiles](capacity-profiles.md).
+- **Capacity**: Select one of the following options. More information: [Create and manage capacity profiles](capacity-profiles.md)
   - **Unit based**: Enter a value if your administrator configured unit-based capacity.
   - **Profile based**: Specify a profile in the list if your administrator configured profile-based capacity.
 - **Block capacity for wrap up**: 
@@ -112,7 +112,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 
 - **Allowed presences**: Select the presence statuses in which representatives can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to representatives when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
-- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. Learn more in [Agent affinity](#agent-affinity).
+- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. Learn more in [Agent affinity](#agent-affinity).
 
 ### Configure advanced settings
 
@@ -124,23 +124,23 @@ For a selected workstream, expand **Advanced settings** to configure the followi
 - [Smart assist bots](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
 
-### Add an AI agent to a workstream
+### Add a bot to a workstream
 
-To add an AI agent to a workstream, you must configure the AI agent and make it available for selection.
+To add a bot to a workstream, you must configure the bot and make it available for selection.
 
-Learn to configure Copilot agents in [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
-Learn to configure Azure AI agents in [Integrate Azure bots](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
+For Copilot Studio bots, see [Connect omnichannel to your Copilot Studio bot](/power-virtual-agents/configuration-hand-off-omnichannel#connect-omnichannel-to-your-power-virtual-agents-bot).
+For Azure bots, see [Integrate Azure bots](../configure-bot.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
 1. In Customer Service admin center or Contact Center admin center, go to **Workstreams**, and select a workstream.
 2. For the selected workstream and channel, in the **Bot** area, select **Add bot**.
-3. In the **Add a bot** dialog, select the required AI agent from the **Name** dropdown list, and then select **Save and close**.
+3. In the **Add a bot** dialog, select the required bot from the **Name** dropdown list, and then select **Save and close**.
 
-When a work item needs assignment, the classification rules run, and the work distribution system checks and routes the work item to the AI agent if the selected workstream has an AI agent. After adding to the workstream, the incoming work item is first routed to the selected AI agent at runtime.
+When a work item needs assignment, the classification rules run, and the work distribution system checks and routes the work item to the bot if the selected workstream has a bot. After a bot is added to the workstream, the incoming work item is first routed to the selected bot at runtime.
 
 > [!NOTE]
 > 
-> - AI agents can receive conversations only if they're added to push-based workstreams.
-> - We recommend that you don't add AI agents to workstreams that are meant for record routing.
+> - Bots can receive conversations only if they're added to push-based workstreams.
+> - We recommend that you don't add bots to workstreams that are meant for record routing.
 
 ### Manage workstreams
 
@@ -151,7 +151,7 @@ Select a workstream to perform any of the following actions:
 - **Edit**: Lets you edit the workstream, such as add a new channel or update the existing settings.
 - **Copy**: Lets you create a copy of the workstream with all the properties, such as the rules, so that you can reuse the configured workstream in another organization. The copied workstream name is prefixed with "Copy of "*`<workstream>`*.
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You are prompted to remove the dependencies and then try to delete the workstream.
-- **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. Learn more in [Fallback queues](queues-omnichannel.md#how-fallback-queues-work).
+- **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 
 ### Agent affinity
 
@@ -166,7 +166,7 @@ However, for live chat, there's no waiting state. So, when the state of the conv
 
 ### Associate templates
 
-You can keep the default templates for sessions and notifications or update to use custom templates. Learn more in [Associate templates with workstreams](associate-templates.md).
+You can keep the default templates for sessions and notifications or update to use custom templates. More information: [Associate templates with workstreams](associate-templates.md)
 
 ### Related information
 
