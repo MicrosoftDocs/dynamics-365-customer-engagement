@@ -4,7 +4,7 @@ description: Learn about managing session templates in Customer Service.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/18/2025
+ms.date: 05/23/2024
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 A session template is a combination of attributes and application tab information that can be reused.
 
-In the Customer Service workspace app, when a customer service representative (service representative or representative) accepts an incoming conversation request from a customer, a session is started. The system opens the **Active Conversation** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
+In the Customer Service workspace app, when an agent accepts an incoming conversation request from a customer, a session is started. The system opens the **Active Conversation** application that you (an administrator) defined as an **Anchor Tab** in the application tab panel. The **Anchor Tab** can't be closed. Simultaneously, the system expands the communication panel for you to exchange messages with the customer.  
 
 Session templates are used to define the aforementioned session experience, such as:
 
@@ -58,13 +58,13 @@ The following out-of-the-box session templates are generic and are for use in th
 
     | Tab | Name | Value description | Example |
     |-----------|-------------------|-----------------------------------|-------------------------------------|
-    | General | Name | Specify the name of the session. This name won't be visible to the representatives at the runtime. | Chat session |
+    | General | Name | Specify the name of the session. This name won't be visible to the agents at the runtime. | Chat session |
     | General | Unique Name | A unique identifier in the <*prefix*>_<*name*> format. <br>**IMPORTANT**<br> The following are required for the unique name: <ul><li>The prefix can be alphanumeric only and its length must be between 3 to 8 characters.</li><li> An underscore must be there between the prefix and name.</li></ul><br> You can select the light bulb icon, and then select **Apply** to verify whether the name you've entered meets the requirements. | msdyn_chat_custom |
     | General | Type | Select one of the following:<br> <ul><li> **Entity:** If you select entity, the **Entity** field is displayed.</li><li>**Generic:** Select when the template is  required to be assigned to any channel. </li>| Entity|
     | General | Entity | Select an entity from the list.<br> **Note:** The option is displayed only when **Type** is entity. | Case |
-    | General | Title | Provide the title of the session that you want representatives to see at the runtime. | {customerName} |
+    | General | Title | Provide the title of the session that you want agents to see at the runtime. | {customerName} |
     | General | Communication panel mode | Select the default mode of the panel when a session is started. Choose one of the following: <br> <ul><li> **Docked**: The panel will be in expanded mode. </li> <li> **Minimized**: The panel will be in minimized mode. <li> **Hidden**: The panel will be hidden. </ul> <br> **Note**: For an entity routing session—that is, for a case session—the communication panel mode is hidden. | Docked |
-    | General | Session Icon| Select an icon to represent the channel from which the conversation is initiated so that your representative can visually identify the channel.<br> **Note**:<ul><li>Is available for generic type of templates only.</li><li>A web resource file for the icon must be deployed.</li> <li> You can use a web resource file only and not slugs to customize the session icon.</li><li>GIF files aren't supported.</li> </ul> | WhatsApp.ico|
+    | General | Session Icon| Select an icon to represent the channel from which the conversation is initiated so that your agent can visually identify the channel.<br> **Note**:<ul><li>Is available for generic type of templates only.</li><li>A web resource file for the icon must be deployed.</li> <li> You can use a web resource file only and not slugs to customize the session icon.</li><li>GIF files aren't supported.</li> </ul> | WhatsApp.ico|
     | General | Description | Provide a description for your reference. | The session template is used for a conversation request from Chat channel. |
     | General |Apply session title to anchor tab | Apply the customized session title to anchor tab title. | Yes. |
     | General | Owner | Search and select an owner. By default, the user who is creating the template is set as the owner | Alan Steiner |
@@ -74,7 +74,7 @@ The following out-of-the-box session templates are generic and are for use in th
 
 ### Associate application tabs, agents scripts with session templates<a name="associate-app-tabs"></a>
 
-You can associate application tabs that need to open when a session is started. Representatives can't close these application tabs. You can also associate agents scripts; however, you must first configure the agent scripts. Learn more in [Agent scripts](agent-scripts.md).
+You can associate application tabs that need to open when a session is started. Agents can't close these application tabs. You can also associate agents scripts; however, you must first configure the agent scripts. More information: [Agent scripts](agent-scripts.md)
 
 1. Go to the session template that you want to modify.
 
@@ -84,13 +84,13 @@ You can associate application tabs that need to open when a session is started. 
 
 1. Select the **Agent scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set an agent script as default for a particular session template.
 
-1. Build the expression, and then select **Save and close**. Learn more in [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
+1. Build the expression, and then select **Save and close**. To learn more, see [Set default agent script for agents](agent-scripts.md#set-the-default-agent-script-for-agents).
 
 1. Select **Save**.
 
   :::image type="content" source="../media/session-template1.PNG" alt-text="Session template":::
 
-The session template is configured. Now, you must associate the session template with a workstream. Learn more in [Associate templates with workstreams](associate-templates.md).
+The session template is configured. Now, you must associate the session template with a workstream. To learn more, see [Associate templates with workstreams](associate-templates.md).
 
 ### Related information
 
