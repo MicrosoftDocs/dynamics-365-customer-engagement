@@ -1,7 +1,7 @@
 ---
 title: "Send email using the enhanced email experience in Dynamics 365 Sales"
 description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
-ms.date: 10/12/2022
+ms.date: 18/02/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,8 +34,7 @@ Using the enhanced email experience, you can:
 
    A new email pop-up window opens. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up window.](../sales/media/enhanced-email-pop-up.png "Enhanced email pop-up window")
+   :::image type="Enhanced email pop-up window" source="media/enhanced-email-pop-up.png" alt-text="Enhanced email pop-up window":::
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
