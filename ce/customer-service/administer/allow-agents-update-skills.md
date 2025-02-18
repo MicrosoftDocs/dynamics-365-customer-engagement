@@ -1,7 +1,7 @@
 ---
 title: Enable representatives to update skills
 description: Learn how to enable the setting that allows representatives to update skills at runtime.
-ms.date: 02/17/2025
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -9,7 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
-# Enable representatives to update skills
+# Enable agents to update skills
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -22,7 +22,7 @@ By default, skill-based routing is enabled. You can create skills to attach to c
 
 To ensure that the skill control is loaded and displayed properly for the routed records, you must [allow access to these websites](../implement/system-requirements-omnichannel.md#allow-access-to-websites).
 
-## Enable representatives to update skills at runtime
+## Enable agents to update skills at runtime
 
 1. In the site map of Customer Service admin center, select **User management** in **Customer support**. The **User management** page appears.
 
