@@ -1,10 +1,10 @@
 ---
-title: Handle queue overflow
-description: Learn how to set up overflow conditions and actions for your Dynamics 365 Customer Service voice, chat, and messaging channels when there are more items in the queue than your team can handle.
+title: Manage overflow of work items in queues
+description: Learn how to set up overflow conditions and actions for your voice, chat, and messaging channels when there are more items in the queue than your team can handle.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/04/2025
+ms.date: 02/25/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -13,7 +13,7 @@ ms.custom:
  - ai-seo-date:02/21/2024
 ---
 
-# Handle queue overflow
+# Manage overflow of work items in queues
 
 When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the customer service representative (service representative or representative) who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
