@@ -1,7 +1,7 @@
 ---
 title: Historical analytics for unified routing in Omnichannel for Customer Service
 description: Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service.
-ms.date: 01/31/2025
+ms.date: 02/10/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -12,6 +12,8 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 # Historical analytics for unified routing
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
@@ -37,7 +39,7 @@ The unified routing report displays the following metrics for the selected filte
 
 |Metric  |Description  |Derivation  |
 |---------|---------|---------|
-|Incoming conversations     | The number of conversations initiated by the customer that can be presented to a customer service representative (service representative or representative).        | All conversations, except bot conversations, are considered.        |
+|Incoming conversations     | The number of conversations initiated by the customer that can be presented to a customer service representative (service representative or representative).        | All conversations, except AI agent conversations, are considered.        |
 |Routed conversations     | The total number of incoming conversations that have been routed successfully. <br> **Note:** A conversation routed to a fallback queue is not considered in the calculation of the metric.       |         |
 |Incoming sessions     | The total number of sessions that were created.        |         |
 |Session transfer rate     | The percentage of incoming sessions that were transferred to another representative or queue.         |         |

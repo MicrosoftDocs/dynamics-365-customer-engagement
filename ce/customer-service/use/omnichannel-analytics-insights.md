@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service dashboards
 description: Learn about the various dashboards and reports for historical operational metrics and KPIs in Omnichannel for Customer Service to manage contact centers.
-ms.date: 12/19/2024
+ms.date: 02/10/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -21,6 +21,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 The insights dashboards in Omnichannel for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases, customer service representatives (service representatives or representatives), and topics that contribute to overall trends. The dashboards provide a view into the support operation across the various channels.
 
@@ -46,11 +49,11 @@ The following reports are available for Omnichannel historical analytics.
 
 ### Summary
 
-The Summary dashboard gives you an integrated view of the Copilot Studio bot and Omnichannel metrics. Learn more in [Summary dashboard](omnichannel-summary-dashboard.md).
+The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Conversation dashboard](omnichannel-summary-dashboard.md).
 
 ### Conversation
 
-The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in [Conversation dashboard](oc-conversation-dashboard.md).
+The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in the [Conversation dashboard](oc-conversation-dashboard.md).
 
 ### Queue
 
@@ -58,27 +61,15 @@ The Queue dashboard gives you a broad overview of the customer service experienc
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. More information: [Agent dashboard](agent-dashboard.md#agent-dashboard)
+The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. Learn more in the [Agent dashboard](agent-dashboard.md#agent-dashboard).
 
 ### Bot
 
-The Bot dashboard shows charts and KPIs that you can use to understand how bots are playing a role in a support organization. Learn more in [Bot dashboard](oc-bot-dashboard.md).
+The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
 
 ### Conversation Topics
 
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in [Topics dashboard](oc-conversation-topics-dashboard.md).
-
-### Voice
-
-The Voice analytics dashboard provides comprehensive information on the overall performance of customer support across the voice channel. Learn more in [Voice dashboard](voice-channel-reports-analytics.md).
-
-### Voicemail
-
-The Voicemail dashboard provides a view of the voicemails with details, such as the voicemail status and the number of voicemails per queue and agent. Learn more in [Voicemail dashboard](oc-voicemail-dashboard.md).
-
-### Unified Routing
-
-The Unified routing dashboard provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. Learn more in [Unified routing dashboard](oc-historical-analytics-unified-routing.md#historical-analytics-for-unified-routing).
+The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in the [Topics dashboard](oc-conversation-topics-dashboard.md).
 
 > [!NOTE]
 > The reports don't include work items of the Entity Record channel.
