@@ -20,14 +20,11 @@ Copilot case summaries help you quickly understand the context of a case and res
 
 ## Prerequisites
 
-Your administrator has enabled the Copilot case summary feature.
-
-## Navigation
-
-- In Customer Service workspace, navigate to a case to view the case summary card. You can also generate a case summary from **Ask a question**.
+Your administrator has enabled the [Copilot case summary](/dynamics365/contact-center/administer/copilot-enable-summary) feature.
 
 ## View case summary
 
+In Customer Service workspace, navigate to a case to view the case summary card.
 
 The case summary appears as a card on the case form. When you open a case, the case summary card is collapsed by default so that your screen isn't cluttered with information. Select the card to expand the summary.
 
