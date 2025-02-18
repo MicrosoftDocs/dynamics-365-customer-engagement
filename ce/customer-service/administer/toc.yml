@@ -342,7 +342,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+      - name: Integrate knowledge management in Dynamics 365 with Copilot agents
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -470,7 +470,7 @@
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
-      - name: Configure agent display name
+      - name: Configure representative display name
         href: agent-display-name.md
       - name: Configure proactive chat
         href: proactive-chat.md

@@ -39,10 +39,14 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: /dynamics365/guidance/implementation-guide/security
-        text: Security and compliance
+      - url: /dynamics365/get-started/security
+        text: Security, compliance, and privacy
       - url: /dynamics365/guidance/implementation-guide/overview
         text: Implementation
+      - url: /dynamics365/guidance/resources/cs-index
+        text: Implementation tools and samples
+      - url: /dynamics365/guidance/migrate/overview
+        text: Migrate from on-premises to online
     - title: Try/Buy/Provision
       links: 
       - url: implement/try-customer-service.md
@@ -68,11 +72,10 @@ additionalContent:
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
-        text: Configure service-level agreements
-      
+        text: Configure service-level agreements      
     - title: Develop
       links:
-      - url: develop/reference/entities/overview-entity-ref.md
+      - url: develop/reference/about-entity-reference.md
         text: Omnichannel for Customer Service entity reference
       - url: develop/omnichannel-reference.md
         text: Live chat SDK Reference

@@ -20,12 +20,12 @@ search.audienceType:
 
 Visualize key performance indicators (KPIs) and trends for standard contact center workflows through the out-of-the-box analytics reports. You can use an embedded Power BI editor to customize the out-of-the-box reports to meet your organization's needs:
 
-- Reveal out-of-the-box metrics that may be more relevant to your organization.
-- Modify how the data is displayed; for example, change a tabular view to a graphic that displays the trend over time.
-- Add new pivots and pages; for example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
+- Reveal out-of-the-box metrics that are more relevant to your organization.
+- Modify how the data is displayed. For example, change a tabular view to a graphic that displays the trend over time.
+- Add new pivots and pages. For example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace or the Contact Center workspace. You can't customize unified routing and knowledge analytics reports.
+You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace and Contact Center workspace apps. You can't customize unified routing and knowledge analytics reports.
 
 > [!NOTE]
 > - After you customize and publish a report, all customizations become visible to all users in your organization.
@@ -51,7 +51,7 @@ You can customize Customer Service historical, Omnichannel historical, and Omnic
 
       :::image type="content" source="../media/visual-incoming-conversations.png" alt-text="Screenshot of adding a table visualization to a report in the embedded Power BI editor.":::
 
-   - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
+   - **Data**: Select the KPIs, measures, dimensions, and attributes you want to show in your report. The list includes all the metrics that are available for use, not just the ones that are displayed in the out-of-the-box reports. For example, you can use the **Participation Mode** metric in **FactSessionParticipant** to count the number of times a subject matter expert accepted a consult request. Learn more in [Understand the out-of-the-box data model](#understand-the-out-of-the-box-data-model).
 
       :::image type="content" source="../media/visual-sessionpart-mode.png" alt-text="Screenshot of the list of metrics available in a report.":::
 
@@ -75,9 +75,9 @@ To continue editing the report after you publish it, select **Resume editing**.
 
 The out-of-the-box data model consists of *facts* and *dimensions*. Facts represent the data you want to analyze. Dimensions represent the attributes of the data that you want to break down to explore further.
 
-Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time**, while **FactAgent** has **Agent metrics**.  
+Fact tables organize key KPIs logically. For example, **FactConversation** has conversation metrics like **Average handle time** and **Average conversation talk time**, while **FactAgent** has **Agent metrics**.  
 
-You can use facts and dimensions to visualize data according to your organizational requirements. If you'd like to understand how average handle time varies by queue, create a visualization like a bar chart, and divide the fact **FactConversation** > **Average Handle Time** by the dimension **DimQueue** > **Queue Name**.
+You can use facts and dimensions to visualize data according to your organizational requirements. If you want to understand how average handle time varies by queue, create a visualization like a bar chart, and divide the fact **FactConversation** > **Average Handle Time** by the dimension **DimQueue** > **Queue Name**.
 
 ### Future data model updates
 
