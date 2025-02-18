@@ -163,6 +163,17 @@ The total number of conversations that service representatives have initiated th
 ### Outbound ongoing conversations
 The total number of active conversations that   service representatives have initiated through any channel (voice, digital, or case). This includes all conversation taking place with a bot and/or a  service representative. Applicable to real-time.
 
+### Bot conversations
+The total number of conversations that have taken place during the selected period of time, across all statuses (active conversations and closed conversations) taking place with Voice/IVR or chat/digital bot.
+
+Bot deflected conversations + Bot escalated conversations = Total bot conversations ​
+
+### Bot deflected conversations
+Total number of conversations where bot was involved and the conversation remained contained within bot without agent escalation. ​
+
+### Bot escalated conversations
+Total number of conversations where bot was initially involved and then the issue is escalated to the service representative for support. 
+
 ### Abandoned conversations
 
 A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to respond to handle overflow. Abandoned conversations can lead to customer dissatisfaction because of a lack of assistance from the contact center. A high abandonment rate might require further investigation into operational metrics such as service representative availability and queue distribution.
@@ -223,7 +234,9 @@ This metric is a count of conversations that are currently in a *Wrap-up* state.
 
 ### Total conversations
 
-This metric is a measure of the total number of customer conversations. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+The total number of conversations that takes place during the selected period of time across all channels (digital, voice), and includes all conversation statuses (open (unassigned), active (assigned), and closed conversations), both bot and/or service representative conversations, and both inbound and outbound conversations. 
+
+Bot deflected conversations + Bot escalated conversations + Total service representative (direct representative) conversations = Total conversations.
 
 ### Incoming conversation
 
