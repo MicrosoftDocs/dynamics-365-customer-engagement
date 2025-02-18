@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 
 Copilot in Dynamics 365 Customer Service helps customer service representatives (service representatives or representatives) to complete tasks related to conversations, cases, and email more easily. With the Copilot analytics dashboard, supervisors and customer service managers can identify the impact that Copilot has across their customer service operations.
 
-The system stores the copilot interaction data in the [msdyn_copilotinteraction](../develop/reference/entities/msdyn_copilotinteraction.md), [msdyn_copilotinteractiondata](../develop/reference/entities/msdyn_copilotinteractiondata.md), [msdyn_copilottranscript](../develop/reference/entities/msdyn_copilottranscript.md), and [msdyn_copilottranscriptdata](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
+The system stores the copilot interaction data in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
 
 To view the Copilot report, select **Copilot analytics** in the Customer Service workspace app.
 

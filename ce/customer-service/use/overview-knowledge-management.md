@@ -1,7 +1,7 @@
 ---
 title: Overview of knowledge management
 description: Learn about knowledge management in Dynamics 365 Customer Service.
-ms.date: 02/03/2025
+ms.date: 02/10/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -17,6 +17,9 @@ ms.custom:
 # Overview of knowledge management
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 Knowledge management plays a vital role in delivering world-class customer care. With knowledge management, team members in an organization can author, categorize, deliver, analyze, and share information through a knowledge base.
 
@@ -87,11 +90,11 @@ As an **administrator**, you can:
 
 #### Search the knowledge base on portals
 
-When a portal includes a knowledge base, it becomes a customer self-service portal. As a user in any role, you can then access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. More information: [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals)
+When a portal includes a knowledge base, it becomes a customer self-service portal. As a user in any role, you can then access and search for knowledge articles through simple queries. This setup helps you resolve issues and makes information easily accessible. To search for your knowledge articles, select **Knowledge Base** in your portal. Learn more in [Search the knowledge base on portals](knowledge-base-search-methods.md#search-the-knowledge-base-on-portals).
 
-#### Integrate knowledge management with a Copilot Studio bot
+#### Integrate knowledge management with a Copilot agent
 
-As an **administrator**, you can integrate a Copilot Studio bot with knowledge management to make it easier to use customized conversations in your bot. The bot can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. More information: [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md)
+As an **administrator**, you can integrate a Copilot agent with knowledge management to make it easier to use customized conversations in your AI agent. It can then answer simple questions, perform simple actions, and resolve simple issues. Therefore, your representatives have more time to focus on complex issues that require human intervention. Learn more in [Integrate knowledge management in Dynamics 365 with Copilot Studio bots](../administer/integrate-KM-with-PVA.md).
 
 ### Analyze and report
 

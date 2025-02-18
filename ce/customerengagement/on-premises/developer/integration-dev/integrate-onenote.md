@@ -46,7 +46,7 @@ Set up [!INCLUDE[pn_onenote](../../includes/pn-onenote.md)] Integration in [!INC
   
 ### See also  
  [Actions on SharePoint Location Records](actions-on-sharepoint-location-records.md)   
- [SharePointDocumentLocation Entity](../entities/sharepointdocumentlocation.md)   
+ [SharePointDocumentLocation Entity](/power-apps/developer/data-platform/reference/entities/sharepointdocumentlocation)   
  [Integrate Microsoft Dynamics 365 Customer Engagement (on-premises) with SharePoint](integrate-sharepoint.md) 
  
 
