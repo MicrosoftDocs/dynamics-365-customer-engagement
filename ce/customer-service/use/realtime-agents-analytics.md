@@ -27,7 +27,7 @@ You can also sort service representatives by skills by using the **Skills** filt
 
 You can select the **All** filter to view the performance of service representatives across all channels. Alternatively, you can select a channel to view channel-specific service representative performance. You can also filter areas by time, queue, time zone, and conversation status. Learn more in [Overview of Omnichannel Real-time analytics dashboards](intro-realtime-analytics-dashboard.md).
 
-[Learn more about the metrics that are shown on the Agents report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Learn more about the metrics that are shown on the Agents report.](oc-metrics-dimensions.md)
 
 :::image type="content" source="../media/realtime-agent insights.png" alt-text="Screenshot of real-time Agents report.":::
 
@@ -40,7 +40,7 @@ When you select a component in a chart, the data is filtered accordingly. In thi
 ## Agent details drill-down
 
 > [!NOTE]
-> If you don't see all the listed service representatives from the report as signed in, work with your administrator to make sure your service representatives have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [msdyn_agentstatus entity reference](../develop/reference/entities/msdyn_agentstatus.md).
+> If you don't see all the listed service representatives from the report as signed in, work with your administrator to make sure your service representatives have the **Omnichannel agent** role, or that custom roles have the **Read** privilege on the [Agent Status (msdyn_agentstatus) table](../../developer/reference/entities/msdyn_agentstatus.md).
 
 You can drill down from the **Agent list** section on the dashboard to view key metrics about service representative details and specific insights about individual service representatives' performance.
 
@@ -58,13 +58,13 @@ On the service representative details page, you can view service representative 
 
 You can drill down further through **Conversations** and track how a conversation progressed and the customer sentiment that is associated with it. Through **Agent presence history**, you can view service representative presence in real time.
 
-[Learn more about the metrics in the Agent list grid and on the agent details page.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Learn more about the metrics in the Agent list grid and on the agent details page.](oc-metrics-dimensions.md)
 
 :::image type="content" source="../media/realtime-agent-detailed-view.png" alt-text="Screenshot of the drill-down to service representative details.":::
 
 ### Related information
 
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>

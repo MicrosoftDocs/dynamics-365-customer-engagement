@@ -1,7 +1,7 @@
 ---
 title: Enable relationship intelligence
 description: Enable relationship intelligence in Dynamics 365 Sales Premium to provide relationship analytics and who knows whom information to your sellers.
-ms.date: 08/19/2022
+ms.date: 02/13/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -23,7 +23,7 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
     - Global Geography 3 – Americas (Brazil, Chile, United States).
 
 > [!NOTE]
-> If your data center is not in one of the above locations, you can still use relationship intelligence features with data stored in Dynamics 365. However, you won't be able to use Exchange data for enhanced insights.
+> If your data center isn't in one of the above locations, you can still use relationship intelligence features with data stored in Dynamics 365. However, you won't be able to use Exchange data for enhanced insights.
 
 ## Enable relationship intelligence
 

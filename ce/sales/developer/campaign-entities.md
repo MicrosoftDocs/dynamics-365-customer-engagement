@@ -20,7 +20,8 @@ A *campaign* in Dynamics 365 is designed to accomplish a specific result, such a
   
  If you plan to distribute only one type of the activity, such as an email, use a *quick campaign*. The results of a quick campaign are captured in the quick campaign log.  
   
-## Campaigns and Quick Campaigns  
+## Campaigns and Quick Campaigns
+
  A campaign or a quick campaign can be used to accomplish the following:  
   
 - Create campaign activities to communicate with a customer, such as sending an email, a letter, or making a telephone call.  
@@ -41,10 +42,10 @@ A *campaign* in Dynamics 365 is designed to accomplish a specific result, such a
   
 ## Related information  
 
- [BulkOperation Table](entities/bulkoperation.md)    
- [Campaign Table](entities/campaign.md)   
- [CampaignActivity Table](entities/campaignactivity.md)   
- [CampaignResponse Table](entities/campaignresponse.md)   
+ [Quick Campaign (BulkOperation) table](../../developer/reference/entities/bulkoperation.md)    
+ [Campaign table](../../developer/reference/entities/campaign.md)   
+ [Campaign Activity (CampaignActivity) table](../../developer/reference/entities/campaignactivity.md)   
+ [Campaign Response (CampaignResponse) table/entity reference (Microsoft Dynamics 365)](../../developer/reference/entities/campaignresponse.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)   
  [Marketing Tables (Campaign, List)](marketing-entities-campaign-list.md)   
  [List (Marketing List) Table](list-marketing-list-entity.md)
