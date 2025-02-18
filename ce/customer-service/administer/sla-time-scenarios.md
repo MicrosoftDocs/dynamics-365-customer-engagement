@@ -14,8 +14,8 @@ ms.custom: bap-template
 
 This article describes how time is calculated for service-level agreements (SLAs) in various scenarios. In all the scenarios, calculations are based on the following settings:
 
-- **Warning time**: 1 day (= 1 &times; 24 = 24 hours)
-- **Failure time**: 2 days (= 2 &times; 24 = 48 hours)
+- **Warning Time**: 1 day (= 1 &times; 24 = 24 hours)
+- **Failure Time**: 2 days (= 2 &times; 24 = 48 hours)
 
 > [!NOTE]
 > In the **Time zone** field, select **User local** to get accurate time calculations for your time zone. If you select **Timezone independent**, times are calculated as Coordinated Universal Time, regardless of your time zone.
@@ -275,7 +275,7 @@ By default, when you use custom time calculation for SLA key performance indicat
 
 - If the SLA Instance is created in the **Succeeded** or **Expired** state, active duration doesn't show any value.
 
-    SLA KPI Instances are created in the **Succeeded** state if the success condition is met during the application of the SLA. However, if the SLA KPI Instance is created, and the failure time of the SLA KPI Instance is less than the one that was created on the SLA KPI Instance, it goes to the **Expired** state. In this type of scenario, the active duration doesn't show any value.
+    SLA KPI Instances are created in the **Succeeded** state if the success condition is met during the application of the SLA. However, if the SLA KPI Instance is created, and the failure time of the SLA KPI Instance is less than the failure time that was created on the SLA KPI Instance, the SLA KPI Instance goes to the **Expired** state. In this type of scenario, the active duration doesn't show any value.
 
 ## Related information
 
