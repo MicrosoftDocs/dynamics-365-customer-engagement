@@ -32,7 +32,7 @@ To test your microphone and speaker, do the following steps:
 1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
  > [!NOTE]
  > - You can set a secondary ringer only if you have multiple devices connected to your system.
- > - If the device set as a secondary ringer is disconnected it can't be used. 
+ > - If the device set as a secondary ringer is disconnected, incoming call notifications won't be extended.
  > - If the secondary ringer is unavailable, for example, when your laptop is out of range for your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
 
 1. Select the following options:
