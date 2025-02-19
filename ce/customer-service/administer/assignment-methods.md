@@ -77,7 +77,7 @@ If you want to use skill-based routing, the "exact match" and "closest match" op
 
 - If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters representatives using exact skill match, allowed presence for the workstream, capacity requirements, and orders the filtered representatives by available capacity.
 
-- If you set **Default skill matching algorithm** in the workstream as **Closest Match**, the system filters representatives based on the workstream's presence and capacity requirements. The system then orders the filtered representatives by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match).
+- If you set **Default skill matching algorithm** in the workstream as **Closest Match**, the system filters representatives based on the presence allowed for the workstream and capacity requirements. The system then orders the filtered representatives by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match).
 
 If you need to distribute work fairly among representatives, then you should consider switching to a round robin assignment strategy.
 
