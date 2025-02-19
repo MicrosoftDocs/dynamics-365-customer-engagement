@@ -84,7 +84,7 @@ For work items to be assigned automatically, the queue must be a private queue w
 
 ### Can I increase the limit on assignment offer of work items to representatives?
 
-Yes, you can update the limit. Learn more in [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent).
+Yes, you can update the limit. Learn more in [How the limit on offering a work item repeatedly to a representative works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-a-representative).
 
 ### Does unified routing offer the same conversation when a representative declines it or after the notification times out?
 
