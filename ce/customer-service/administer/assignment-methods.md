@@ -55,7 +55,7 @@ When customer service representatives are subscribed to multiple queues, you can
 
 If you have configured queues based on both out-of-the-box assignment methods and custom prioritization rules, the queues with out-of-the-box assignment methods are prioritized first followed by the queues based on custom prioritization rules.
 
-For example, lets look at a setup with the following four queues, all with group number defined as 1:
+For example, lets look at a setup with the following four queues, all with priority defined as 1:
 
 - **VIP Support and Premium Support**: Default first-in-first-out prioritization
 - **Order Support and Invoice Inquiries**: Custom prioritization rules
