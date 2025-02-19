@@ -1,7 +1,7 @@
 ---
 title: Add the opportunity scoring widget to a form
 description: Learn how to display the predictive opportunity scoring widget on your custom forms in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 02/19/2025
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -20,14 +20,17 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 ## Add the opportunity scoring widget to a custom form
 
-1. Sign in to the [Power Apps portal](https://make.powerapps.com/) and select an environment.
+1. Sign in to the [Power Apps portal](https://make.powerapps.com/).
 
-1. Select **Data** > **Tables**.
+2. Search for and select your organization's environment.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
+    :::image type="Select your organization" source="media/power-apps-select-org.png" alt-text="Select your organization":::
 
-1. Open the **Opportunity** table, select the **Forms** tab, and then select a main form to add the widget to.
+2. In the left pane, select **Tables**. On the **Tables** page, select a table to open it.
+
+3. Open the **Data experiences**, select **Forms**.
+
+1. Open the **Opportunity** table, select **Forms**, and then select a main form to add the widget to.
 
     > [!NOTE]
     > If the table to which you want to add the widget isn't listed, in the upper-right corner of the page, change the filter to **All**.
