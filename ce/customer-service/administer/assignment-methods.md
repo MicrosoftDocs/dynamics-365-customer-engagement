@@ -97,7 +97,7 @@ For example, three representatives, Lesa, Alicia, and Alan, are available with t
 
 The system assigns a work item to the representative who is least active among all the representatives in voice queues who match the required skills, presence, and capacity.
 
-The assignment method uses "the time since last capacity is released for a voice call" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and route the next incoming call to them.
+The assignment method uses "the time since last capacity is released for a voice call" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
 
 For example, Oscar Ward and Victoria Burke are two representatives with same skills who work in the Orders and Refunds voice queues. Oscar has a call that comes in at 1:00 PM in the Orders queue. Victoria takes a call at 1:05 PM in the Refund queue. Oscar’s issue takes 15 minutes to close. Victoria solves their customer problem in five minutes. The next call comes in at 1:20 PM in the Orders queue.
  
