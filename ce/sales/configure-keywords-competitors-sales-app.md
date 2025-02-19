@@ -22,21 +22,21 @@ Configure tracked keywords and competitors that are relevant to you and your org
 >- The changes you made apply only to your team. They don't impact the administrator-defined settings for your organization.    
 
 1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.    
-    > [!div class="mx-imgBorder"]
-    > ![Select Sales Insights settings](media/si-admin-change-area-sales-insights-settings.png "Select Sales Insights settings")  
+
+    :::image type="Select Sales Insights settings" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Select Sales Insights settings":::  
     
 3.	On the configuration page, under **Productivity**, select **Conversation intelligence**.  
-    > [!div class="mx-imgBorder"]
-    > ![Conversation intelligence configuration page](media/ci-admin-config-page.png "Conversation intelligence configuration page")
+
+    :::image type="content" source="media/ci-admin-config-page.png" alt-text="Screenshot of Conversation intelligence configuration page":::
     
 4.	Under **Business settings** select **Conversation tracking**.           
 5. On the **Track keywords** section, enter a keyword in **Add a keyword** and then press **Enter**.  
-    > [!div class="mx-imgBorder"]
-    > ![Tracked keywords section](media/si-app-admin-enter-tracked-keywords.png "Tracked keywords section")   
+
+    :::image type="content" source="media/si-app-admin-enter-tracked-keywords.png" alt-text="Screenshot of the Tracked keywords section":::  
+
 6.	Repeat **step 2** to add other keywords.  
 7.	In the **Track Competitors** section, enter a competitor's name in **Add a competitor** and then press **Enter**.   
-    > [!div class="mx-imgBorder"]
-    > ![Competitors section](media/si-app-admin-enter-competitors.png "Competitors section")    
+ :::image type="content" source="media/si-app-admin-enter-competitors.png" alt-text="Screenshot of the Competitors section":::        
 8.	Repeat **step 4** to add other competitors' names.  
 9.	Select **Save**.
 
