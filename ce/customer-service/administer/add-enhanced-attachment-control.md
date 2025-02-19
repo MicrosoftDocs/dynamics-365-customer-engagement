@@ -1,12 +1,12 @@
 ---
 title: Enable enhanced experience for email attachments
-description: Enable enhanced email attachment control for agents to have a consistent experience across all forms. 
+description: Enable enhanced email attachment control for representatives to have a consistent experience across all forms. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:
-ms.date: 01/09/2025
+ms.date: 02/19/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -17,15 +17,15 @@ ms.custom:
 
 # Enable enhanced experience for email attachments
 
-Enhanced email components enable you to streamline the email experience for agents. Use the information in this article to configure **Email Recipient control** and **Attachments control** to improve agent productivity.
+Enhanced email components enable you to streamline the email experience for customer service representatives (service representatives or representatives). Use the information in this article to configure **Email Recipient control** and **Attachments control** to improve representative productivity.
 
 ## Enable enhanced experience for email attachments
 
-You can enable the enhanced email attachment control for forms to provide a consistent email attachment experience to agents. Do the following steps:
+You can enable the enhanced email attachment control for forms to provide a consistent email attachment experience to representatives. Do the following steps:
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **Tables**> **Email**> **Forms** and then select the required form.
-1.  Add **Attachments control** to **Components** in the **Attachment** subgrid properties. Learn more at [add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form).
+1.  Add **Attachments control** to **Components** in the **Attachment** subgrid properties. Learn more in [add components to a form](/power-apps/maker/model-driven-apps/add-move-configure-or-delete-components-on-form#add-components-for-a-column-on-the-form).
 1. Save and publish the form.
 
 ## Enable drag and drop for attachments in the rich text editor
@@ -49,7 +49,7 @@ You can enable the drag and drop feature for files to be added as attachments fo
         }    
 
      ```
-   Learn more at [customize the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#customize-the-rich-text-editor-control).<br>
+   Learn more in [customize the rich text editor control](/power-apps/maker/model-driven-apps/rich-text-editor-control#customize-the-rich-text-editor-control).<br>
 
 1. Save and publish the form.
 
