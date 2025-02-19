@@ -1,7 +1,7 @@
 ---
 title: Configure email engagement
 description: Configure email engagement to show alerts and reminders for sellers and sales managers to help build customer relationships.
-ms.date: 02/06/2024
+ms.date: 02/20/2024
 ms.topic: how-to
 ms.assetid: 04db6801-020a-4a99-9ad3-907422524b6f
 author: udaykirang

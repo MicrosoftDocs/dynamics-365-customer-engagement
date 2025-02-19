@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 02/14/2025
+ms.date: 02/20/2025
 ms.custom: bap-template
 ---
 
@@ -64,8 +64,9 @@ Email engagement analyzes the performance of all the messages your sales team ha
 
 ## Add attachments <a name="FollowedAttachments"></a>
 
-You can add attachments to your email messages, such as documents, spreadsheets, or images. However, the enhanced attachment feature doesn't allow you to follow the attachment.  
-Following an attachment helps you to know when the recipient opens it. Also, you can also mix both followed and unfollowed attachments in any message you're sending.
+You can attach documents, spreadsheets, or images to your email messages. By following these attachments, you can know when the recipient opens them. You can also include both followed and unfollowed attachments in the same message.  
+By default, attachments are not followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
+However, the enhanced attachment feature doesn't allow you to follow the attachment.  
 
 1. [Create a message](#NewMessage).  
 1. In the **Attachment** section, select **+**.
@@ -75,7 +76,7 @@ Following an attachment helps you to know when the recipient opens it. Also, you
 1. Select the attachment to track and then select more options > **Follow**.  
     The attachment is now followed and the **Followed** column shows **Yes**.
     > [!NOTE]
-    > To follow an attachment, you must turn off the enhanced attachment feature. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
+    > To follow an attachment, you must turn off the enhanced attachment feature. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature) and verify that the [prerequisites are met](configure-email-engagement.md#prerequisites).  
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.  
 
 ## Follow or unfollow a message <a name="EnableTrackingOnMessages"></a>  
