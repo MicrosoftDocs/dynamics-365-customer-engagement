@@ -33,7 +33,7 @@ To test your microphone and speaker, do the following steps:
  > [!NOTE]
  > - You can set a secondary ringer only if you have multiple devices connected to your system.
  > - If the device set as a secondary ringer is disconnected it can't be used. 
- > - If the secondary ringer is unavailable, such as when your laptop is out of range of your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer once you reconnect the device.
+ > - If the secondary ringer is unavailable, for example, when your laptop is out of range for your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
 
 1. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds. 
