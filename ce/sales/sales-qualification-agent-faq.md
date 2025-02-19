@@ -1,5 +1,5 @@
 ---
-title: FAQ about Sales Qualification Agent
+title: Sales Qualification Agent FAQ
 description: 
 ms.date: 02/19/2025
 ms.topic: overview
@@ -20,7 +20,7 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# FAQ about Sales Qualification Agent
+# Sales Qualification Agent FAQ
 
 This FAQ provides answers to common questions about the Sales Qualification Agent in Dynamics 365 Sales.
 

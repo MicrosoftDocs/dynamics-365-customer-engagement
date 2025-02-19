@@ -1,5 +1,5 @@
 ---
-title: FAQ about Sales Qualification Agent
+title: FAQ about responsible AI in Sales Qualification Agent
 description: Get answers to frequently asked questions about the Sales Qualification Agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 10/14/2024
 ms.custom:
