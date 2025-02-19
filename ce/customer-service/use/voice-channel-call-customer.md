@@ -28,7 +28,7 @@ Make sure that the administrator has assigned a voice queue and an outbound capa
 To test your microphone and speaker, do the following steps:
 
 1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
-1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear.The speaker that you select is the primary ringer and plays notifications for calls and chat notifications.
+1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear. The speaker that you select is the primary ringer and plays notifications for calls and chat notifications.
 1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
  > [!NOTE]
  > - You can set a secondary ringer only if you have multiple devices connected to your system.
