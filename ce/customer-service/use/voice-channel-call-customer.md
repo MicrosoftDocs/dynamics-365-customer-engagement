@@ -13,7 +13,7 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-To be able to call customers, your administrator must configure outbound calling, add you as user to the outbound capacity profile, and then set up outbound profiles. Learn more in [outbound calling](../administer/voice-channel-outbound-calling.md).
+To be able to call customers, your administrator must configure outbound calling, add you as a user to the outbound capacity profile, and then set up outbound profiles. Learn more in [outbound calling](../administer/voice-channel-outbound-calling.md).
 
 You can launch the outbound dialer from the menu bar, **Contacts** or **Active conversation** page. On the number pad that appears, enter the customer's country code, phone number, and then select **Call** to make your call. You don't have to add the plus sign (+) to the number.
 
@@ -30,12 +30,12 @@ To test your microphone and speaker, do the following steps:
 1. In Customer Service workspace or Contact Center workspace, select the **Launch dialer** phone icon on the menu bar and then select the **Settings** icon. 
 1. In the **Speaker** and **Microphone** sections, select the speaker and microphone to test. If you have multiple devices, the default devices that are currently in use appear. The speaker that you select is the primary ringer and plays notifications for calls and chat notifications.
 1. In the **Secondary Ringer** section, select the device to be used to amplify or extend incoming call notifications. This is useful in noisy environments where the primary device's ringtone is low or difficult to hear. 
- > [!NOTE]
- > - You can set a secondary ringer only if you have multiple devices connected to your system.
- > - If the device set as a secondary ringer is disconnected, incoming call notifications won't be extended.
- > - If the secondary ringer is unavailable, for example, when your laptop is out of range for your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
+   > [!NOTE]
+   > - You can set a secondary ringer only if you have multiple devices connected to your system.
+   > - If the device set as a secondary ringer is disconnected, incoming call notifications won't be extended.
+   > - If the secondary ringer is unavailable, for example, when your laptop is out of range for your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer after you reconnect the device.
 
-1. Select the following options:
+4. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds. 
     -  **Test microphone**: The microphone starts recording your voice. The recording automatically stops after 15 seconds and is played back to you.
     - **Make a test call**: The following actions occur:
@@ -71,12 +71,12 @@ To test your microphone and speaker, do the following steps:
    > [!NOTE]
    > If you aren't assigned an outbound profile, you won't be able to make a call.
 
- :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
+    :::image type="content" source="../media/outbound-dialer.png" alt-text="Outbound dialer for voice calls.":::
 
-When the call connects, you see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you can't make another call when a call is in progress.
+   When the call connects, you see the customer details on the conversation page. Based on your outbound calling profile, the transcription and recording starts. If your capacity profile has a limit of one outbound call at a time, you can't make another call when a call is in progress.
 
-> [!NOTE]
-> If you need more trial minutes or phone numbers, we recommend that you raise a request with Microsoft Support.
+   > [!NOTE]
+   > If you need more trial minutes or phone numbers, we recommend that you raise a request with Microsoft Support.
 
 
 
