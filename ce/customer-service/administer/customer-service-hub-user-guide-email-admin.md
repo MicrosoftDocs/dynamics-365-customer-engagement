@@ -1,7 +1,7 @@
 ---
 title: Configure email
 description: Learn how to configure email in customer engagement apps.
-ms.date: 06/04/2024
+ms.date: 02/19/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Email is typically used as a communication channel between customers and agents throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, agents often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
+Email is typically used as a communication channel between customers and customer service representatives (service representatives or representatives) throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, service representatives often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
 
 In customer engagement apps, system administrators can configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
 
@@ -74,7 +74,7 @@ You can manage file size limits for email file attachments by completing the fol
 
 ## Configure email pop-up window
 
-When an agent selects **New Email** from the Timeline, you can choose to display the email editor either as a pop-up window or in a new tab. If you enable the email pop-up editor setting, agents see the following experience:
+When a representative selects **New Email** from the Timeline, you can choose to display the email editor either as a pop-up window or in a new tab. If you enable the email pop-up editor setting, representatives see the following experience:
 
    :::image type="content" source="../media/email-popup-mini.png" alt-text="Enhanced quick case form" lightbox="../media/email-popup.png":::
 
