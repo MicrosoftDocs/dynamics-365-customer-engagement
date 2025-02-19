@@ -149,7 +149,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 ## Handle overflow when a work item is queued
 
-When a work item is in a queue and the wait is long, the system can reroute it to another queue that has representatives available.
+When a work item is in a queue and the actual wait is long, the system can reroute it to another queue that has representatives available.
 
 1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
 
