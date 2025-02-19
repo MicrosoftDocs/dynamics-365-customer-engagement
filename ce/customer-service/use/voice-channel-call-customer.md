@@ -1,7 +1,7 @@
 ---
 title: Call a customer in the voice channel
 description: Use this article to understand how you can make customer calls.
-ms.date: 02/17/2025
+ms.date: 02/19/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
@@ -33,7 +33,7 @@ To test your microphone and speaker, do the following steps:
  > [!NOTE]
  > - You can set a secondary ringer only if you have multiple devices connected to your system.
  > - If the device set as a secondary ringer is disconnected it can't be used. 
- > - If the secondary ringer is unavailable, for example, if the device isn't in range of the laptop's Bluetooth connection, Teams removes the secondary ringer and you'll have to reconfigure the device when you reconnect it.
+ > - If the secondary ringer is unavailable, such as when your laptop is out of range of your headset's Bluetooth connection, the application removes the secondary ringer. You must reconfigure the secondary ringer once you reconnect the device.
 
 1. Select the following options:
     - **Test speaker**. The application plays a sound that stops automatically after 15 seconds. 
