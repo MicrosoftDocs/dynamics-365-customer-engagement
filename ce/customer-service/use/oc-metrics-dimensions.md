@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 02/10/2025
+ms.date: 02/19/2025
 ms.custom: bap-template
 ---
 
@@ -312,7 +312,7 @@ This metric is a measure of the percentage of customer conversations that have a
 
 This metric is a measure of the percentage of customer messages that have a service representative response time of less than 60 seconds.
 
-## Total capacity units
+### Total capacity units
 
 This metric is a measure of the maximum capacity units that are assigned. It applies only to organizations that use capacity units.
 
@@ -334,15 +334,15 @@ This metric is a measure of the maximum work items that are allowed, based on th
 - **Total available work item capacity**: This metric is a measure of the maximum number of more work items that can be assigned.
 - **Total work item capacity in use**: This metric is a measure of the work items that are currently being handled.
 
-## Logged in service representatives
+### Logged in service representatives
 
 This metric is a count of omnichannel service representatives who are currently signed in.
 
-## Total service representatives
+### Total service representatives
 
 This metric is a measure of the total number of omnichannel service representatives.
 
-## Status duration
+### Status duration
 
 This metric is a measure of the time that a service representative spent in a presence status.
 
