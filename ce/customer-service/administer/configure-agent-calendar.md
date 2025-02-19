@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to
-ms.date: 05/29/2024
+ms.date: 02/18/2025
 ms.custom: bap-template
 ---
 
@@ -13,9 +13,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-As an administrator or a supervisor, you can help agents in your organization view their work schedules. The **My Schedule** view in the Customer Service workspace app lets agents quickly view their working hours, nonworking hours, breaks, and any scheduled time off.
+As an administrator or a supervisor, you can help customer service representatives (service representatives or representatives) in your organization view their work schedules. The **My Schedule** view in the Customer Service workspace app lets service representatives quickly view their working hours, nonworking hours, breaks, and any scheduled time off.
 
-The calendar view is a read-only visual that provides daily, weekly, and monthly views of an agent's schedule. It also has an agenda view that provides a list-type view of the agent's schedule.
+The calendar view is a read-only visual that provides daily, weekly, and monthly views of a representative's schedule. It also has an agenda view that provides a list-type view of the representative's schedule.
 
 > [!Note]
 > The agent calendar view isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
@@ -24,14 +24,14 @@ The calendar view is a read-only visual that provides daily, weekly, and monthly
 
 - You must have [Workforce Management for Customer Service](#enable-workforce-management) enabled in your environment.
 
-- To enable the calendar view for agents, you must have at least one of the following roles:
+- To enable the calendar view for representatives, you must have at least one of the following roles:
 
   - System Administrator
   - CSR Manager
   - Omnichannel administrator
   - Omnichannel supervisor
 
-- You must have a third-party adapter configured to import agent bookings from an external system. Without an adapter in place, external bookings can't be surfaced in the agent calendar, and agents can't view their schedules.
+- You must have a third-party adapter configured to import representative bookings from an external system. Without an adapter in place, external bookings can't be surfaced in the agent calendar, and representatives can't view their schedules.
 
 ## Enable the agent calendar
 
@@ -45,7 +45,7 @@ The calendar view is a read-only visual that provides daily, weekly, and monthly
 
 ## Shift bookings view for supervisors
 
-The shift booking list view lets supervisors view the bookings that are imported from their third-party workforce management system. Supervisors can use this view to access a consolidated list of bookings for all agents in their system. The shift bookings view offers a comprehensive breakdown of each agent’s individual activities, including work hours, time off, lunch breaks, trainings, and more. 
+The shift booking list view lets supervisors view the bookings that are imported from their third-party workforce management system. Supervisors can use this view to access a consolidated list of bookings for all representatives in their system. The shift bookings view offers a comprehensive breakdown of each representative’s individual activities, including work hours, time off, lunch breaks, trainings, and more. 
 
 Administrators can utilize this view to verify the proper functioning of the third-party adapter booking sync process.
 
