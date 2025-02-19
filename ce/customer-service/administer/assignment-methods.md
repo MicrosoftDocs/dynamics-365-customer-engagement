@@ -27,8 +27,7 @@ Use assignment methods to determine how to assign work items. You can use the ou
 
 The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
-Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or right skill match wasn't found are routed back to the queue.
-
+Each cycle picks up the top unassigned work items in the applicable default block size and attempts to match each work item with an appropriate representative. Work items that aren't assigned to representatives because of their unavailability or because no matching skill was found are routed back to the queue.
 The next assignment cycle picks up the next block of the top-priority items that includes new work items.
 
 When eligible representatives aren't found for the work items, the assignment cycle keeps retrying to assign the top number of default sized block items as applicable for the channel.
@@ -72,13 +71,13 @@ The assignment methods available out of the box are explained in the sections th
 
 ### Highest capacity
 
-The system assigns a work item to a service representative with the highest available capacity. The selected representative has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. If more than one representative is available with the same capacity, the work item is assigned based on the round-robin order of the representatives whose highest capacity is the same.
+The system assigns a work item to a service representative with the highest available capacity. The selected representative has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream. If more than one representative is available with the same capacity, the work item is assigned based on the round-robin order.
 
 If you want to use skill-based routing, the "exact match" and "closest match" options are available.
 
-- If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters representatives using exact skill match, workstream’s presence, and capacity requirements, and orders the filtered representatives by available capacity.
+- If you set **Default skill matching algorithm** in the workstream as **Exact Match**, then the system filters representatives using exact skill match, allowed presence for the workstream, capacity requirements, and orders the filtered representatives by available capacity.
 
-- If you set **Default skill matching algorithm** in the workstream as **Closest Match**, then the system filters representatives based on the workstream's presence and capacity requirements and orders the filtered representatives by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match).
+- If you set **Default skill matching algorithm** in the workstream as **Closest Match**, the system filters representatives based on the workstream's presence and capacity requirements. The system then orders the filtered representatives by closest match and not available capacity. Learn more in [Closest match](set-up-skill-based-routing.md#closest-match).
 
 If you need to distribute work fairly among representatives, then you should consider switching to a round robin assignment strategy.
 
@@ -89,8 +88,7 @@ If you need to distribute work fairly among representatives, then you should con
 
 The system assigns a work item to the representative who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments. Similar to how work items are assigned in the highest capacity method, in round robin assignment, the work items are prioritized as mentioned at [How unified routing prioritizes work items](#how-unified-routing-prioritizes-work-items).
 
-The ordering for round robin assignment is maintained queue wise. Some representatives can be a part of multiple queues. Therefore, depending on the representative's last assignment timestamp in a queue, the representatives might be assigned back-to-back or concurrent work items but from different queues.
-
+The ordering for round robin assignment is maintained queue-wise. Some representatives can be a part of multiple queues. Therefore, depending on the representative's last assignment timestamp in a queue, the representatives might be assigned back-to-back or concurrent work items but from different queues.
 In scenarios when multiple representatives match the work item requirement, and there's a tie in the "order by", like, multiple matched representatives with the same available capacity, the system resolves the assignment using round robin based on the earliest time of the last assignment.
 
 For example, three representatives, Lesa, Alicia, and Alan, are available with the coffee refund skill and can handle up to three chats at a time. Their last assignment time stamps are 10:30 AM, 10:35 AM, and 10:37 AM, respectively. A work item about a coffee refund arrives in the queue at 10:40 AM. With the order by set to "profile-based available capacity", all the representatives at 10:40 AM have the same available capacity of 2 each. To break the tie between the representatives, the system uses round robin. Therefore, the incoming chat is assigned to Lesa because her last assignment was the earliest at 10:30 AM. Later at 10:45 AM, if another coffee refund work item comes in, the system assigns it to Alicia. This is also based on the round robin order of assignment between Alicia and Alan because their available capacities are 2 each and Alicia had an earlier assignment than Alan at 10:35 AM.
