@@ -69,7 +69,7 @@ The total number of outbound conversations made by human agent directly to the u
 
 ### Ongoing conversations (Active conversations with service representative acceptance)
 
-<Need info>
+**Need info**
 
 
 ### Inbound ongoing conversations
@@ -81,15 +81,17 @@ The total number of active conversations that service representatives have initi
 
 ### Closed conversations
 
-<Need info>
+**Need info**
 
 ### Open conversations (Active conversations awaiting service representative acceptance)
+
+**Need info**
 
 ## Flow-based conversations
 
 ### Engaged conversations
 
-<ned info>
+**Need info**
 
 ### Abandoned conversations
 
@@ -214,13 +216,11 @@ This metric is a count of conversations that are currently in a *Waiting* state.
 
 This metric is a count of conversations that are currently in a *Wrap-up* state. A conversation is moved to a *Wrap-up* state when the service representative ends the conversation, or when the customer leaves the conversation either by ending it on their side or by being disconnected. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
-### Incoming conversation
+### Incoming conversations
 
 This metric is a measure of the total number of conversation requests that customers initiated across all channels and received by the contact center. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
-
-## Session to conversation relation
-
+## Session to conversation
 
 ### Session transfer rate
 
@@ -312,6 +312,19 @@ This metric is a measure of the percentage of customer conversations that have a
 
 This metric is a measure of the percentage of customer messages that have a service representative response time of less than 60 seconds.
 
+## Total capacity units
+
+This metric is a measure of the maximum capacity units that are assigned. It applies only to organizations that use capacity units.
+
+### Related metrics
+
+- **Total available capacity units**: This metric is a measure of the capacity units that are available to handle conversations.
+- **Total occupied capacity units**: This metric is a measure of the capacity units that are currently occupied.
+
+### Assigned capacity profile count
+
+This metric is a count of capacity profiles that are assigned to service representatives. 
+
 ### Total work item capacity
 
 This metric is a measure of the maximum work items that are allowed, based on the configuration of the capacity profile.
@@ -320,10 +333,6 @@ This metric is a measure of the maximum work items that are allowed, based on th
 
 - **Total available work item capacity**: This metric is a measure of the maximum number of more work items that can be assigned.
 - **Total work item capacity in use**: This metric is a measure of the work items that are currently being handled.
-
-### Assigned capacity profile count
-
-This metric is a count of capacity profiles that are assigned to service representatives.
 
 ## Logged in service representatives
 
@@ -358,6 +367,36 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 - **Speed to answer**: This metric is a measure of the time before a customer request is accepted.
 
 For information about metrics that are related to how quickly a service representative accepts a request, go to the [Average speed to answer](#average-speed-to-answer) section.
+
+## Consult
+
+This metric represents the service representative participation **consult** mode. The related metrics aren't available by default. You can use these metrics to customize the visual display of your reports. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
+
+### Related metrics
+
+- **Average consult time**: The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
+
+- **Consult acceptance rate**: The total number of sessions accepted by service representative over all the sessions requested for consult from the service representative.
+
+- **Consult not acceptance rate**: The total number of sessions that didn't have acceptance by the service representative over all the sessions requested for consult from the service representative. This number includes timed out and rejected requests.  
+
+- **Consult rejection rate**: The total number of sessions that the service representative rejected over all the sessions requested for consult from the service representative.
+
+- **Consults requested**: The total number of sessions that were requested for consultation.
+
+- **Consult requests accepted**: The total number of sessions that were requested for consultation and accepted by the service representative.
+
+- **Consult requests not accepted**: The total number of sessions that were requested for consultation and had no acceptance from the service representative.
+
+- **Consult requests rejected**: The total number of sessions that were requested for consult but the service representative rejected. 
+
+- **Consult requests timed out**: The total number of sessions that were requested for consult from the service representative but resulted in a timeout because the service representative failed to respond.
+
+- **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for the omnichannel real-time out-of-the-box dashboard.
+
+- **Consult sessions**: The total number of sessions that are under consult. Available only for the omnichannel historical out-of-the-box dashboard.
+
+- **Consult timed out rate**: The total number of sessions that resulted in timeout over all the sessions requested for consult from the service representative.
 
 ## Sentiment
 
@@ -428,18 +467,6 @@ Percentage of Conversations Accepted = Accepted Conversations / Total Conversati
 #### Related metric
 
 - **Abandoned rate**: This metric is a measure of the percentage of incoming conversation requests that ended before customers were connected to a service representative. It's calculated by dividing the number of abandoned conversations by the number of AI agent-escalated conversations.
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## Related information
 
