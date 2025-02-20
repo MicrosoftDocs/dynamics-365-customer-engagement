@@ -65,14 +65,14 @@ Email engagement analyzes the performance of all the messages your sales team ha
 ## Add attachments <a name="FollowedAttachments"></a>
 
 You can attach documents, spreadsheets, or images to your email messages. By following these attachments, you can know when the recipient opens them. You can also include both followed and unfollowed attachments in the same message.  
-By default, attachments are not followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
+By default, attachments aren't followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
 However, the enhanced attachment feature doesn't allow you to follow the attachment.  
 
 1. [Create a message](#NewMessage).  
 1. In the **Attachment** section, select **+**.
 1. Locate and select the file to attach.  
 1. Select **Open**.  
-    Depending on the file size, attaching may take several seconds.  
+    Depending on the file size, attaching might take several seconds.  
 1. Select the attachment to track and then select more options > **Follow**.  
     The attachment is now followed and the **Followed** column shows **Yes**.
     > [!NOTE]
@@ -93,7 +93,7 @@ The **Email Engagement** section includes the following indicators and controls:
 
 ## Choose the most effective delivery time <a name="DeliveryTime"></a>
 
-Your email messages may receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete for attention and may get put off or even forgotten. Emails that arrive later in the day may get noticed and handled right away. With email engagement, you can compose your email messages when it's convenient for you, but let Dynamics 365 Sales deliver them when it's best for your recipients.
+Your email messages might receive more or less attention depending on when they arrive in recipients' inboxes. For example, many people start their day with a full inbox, so messages that arrive overnight must compete for attention and might get put off or even forgotten. Emails that arrive later in the day might get noticed and handled right away. With email engagement, you can compose your email messages when it's convenient for you, but let Dynamics 365 Sales deliver them when it's best for your recipients.
 
 The system sometimes recommends a delivery time based on the recipient's time zone. It assumes a standard workday of 8:00 AM to 5:00 PM, Monday through Friday, and suggests the next closest business hour if you're working outside the recipient's business day. If the message has more than one recipient or no address is provided, the system doesn't make a recommendation.
 
