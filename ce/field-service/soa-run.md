@@ -13,7 +13,11 @@ There are two ways to have the Scheduling Operations Agent suggest an optimized 
 
 1. From the Schedule Board: Right-click the resource name and select Suggest Schedule.
 
-1. From the Copilot side panel: Select the Copilot icon in the app header and prompt Copilot to suggest a a schedule. For example: Suggest an optimal schedule.
+   :::image type="content" source="media/soa-suggest-schedule.png" alt-text="Screenshot of a schedule board with the expanded options for a selected resource.":::
+
+1. From the Copilot side pane: Select the Copilot icon in the app header and prompt Copilot to suggest a a schedule. For example: Suggest an optimal schedule.
+
+   :::image type="content" source="media/soa-copilot-chat.png" alt-text="Screenshot of a chat conversation with Microsoft Copilot and the schedule options for a suggested schedule.":::
  
 After launching the agent, the system suggests default settings that you can adjust before starting an optimization request for the selected resource. The following sections discuss the settings for the optimization requests.
 
@@ -27,6 +31,8 @@ After launching the agent, the system suggests default settings that you can adj
 ## Adjust the settings for optimization requests
 
 You can adjust the settings for each optimization request to ensure the agent takes the right constraints into consideration. By default, the agent won’t move any bookings that are set to Do Not Move. It honors the technician’s work hours and break times and prioritizes higher priority bookings and work orders/requirements.
+
+:::image type="content" source="media/soa-suggested-schedule-settings.png" alt-text="Screenshot of the options for the suggested schedule with several values selected.":::
 
 ### Resource
 
@@ -42,6 +48,8 @@ The scheduling goal informs the agent about the expected outcome of the optimiza
 ### Time range
 
 This parameter defines the time for which the schedule gets optimized. By default, this range is between the current time and the end of the current day (11:59PM) in the time zone set in the Schedule Board settings. Note that this time zone could be different from the resource’s time zone (or the time zone in the Personalization settings for the solution) TODO: check the latest build as to which timezone is picked as default.
+
+:::image type="content" source="media/soa-time-range.png" alt-text="Screenshot of the time range dropdown options showing the allowed time ranges.":::
 
 You can choose from other time ranges or a custom range, which can be up to 72 hours and up to three days in the future.
 
@@ -65,6 +73,7 @@ You can further influence the suggested schedule via the following constraint se
 - Use predictive travel: By default, the agent calculates travel time based on average travel time. Enabling this option lets the agent consider historical traffic information when estimating travel time. For example, by considering rush hour in the morning or typical traffic jams. However, it doesn’t account for traffic in real-time. For more information, see: Predictive travel times with historical traffic information
 
 ## Review a suggested schedule
+
 A dispatcher can review the suggested schedule before applying it for the resource. They can compare the original with the suggested schedule on the Gantt chart together with the travel routes or see the suggestions in a list view.
 
 To accept a suggested schedule, select Apply. You can also choose to Adjust settings and try again or Cancel the optimization request without making any changes to the resource’s schedule.

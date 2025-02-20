@@ -32,12 +32,16 @@ The Scheduling Operations Agent consumes Microsoft Copilot Studio messages when 
 1. Change to the Resources area and go to Scheduling Parameters > Resource Scheduling.
 1. On the Agent tab, turn on Scheduling Operations Agent (Preview).
 
+:::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the resource scheduling settings that enables the agent.":::
+
 ## Set properties for bookable resources
 
 Bookable resources that the agent supports must be of type User, Contact, or Crew. Ensure the following properties are set:
 
 - Start Location and End Location specified to a value other than Location Agnostic
 - Display on Schedule Board set to Yes
+
+
 
 ## Create or update optimization method for booking status
 
@@ -51,12 +55,16 @@ The agent needs to know if it can move or delete scheduled or committed bookable
     - Do Not Move: Preserve the start time of any bookings with these statuses so the agent won’t change them. This status is the default option for all statuses. For such bookings, the agent only updates the travel if a previous booking is moved or changed.
     - Ignore: Indicate to the agent that it should override any bookings with these statues. It can to move or create new bookings on top.
 
+:::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method.":::
+
 > [!TIP]
 > In addition to the default booking statuses, we recommend that you create a new booking status, such as Locked, with Optimization Method set to Do Not Move. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs. Also,if you do not adjust the Optimization Method for Committed or Scheduled statuses, then the agent has very little flexibility in making changes to an existing schedule, and the suggested schedule may not be as desired.
 
 ## Create or update priority values
 
 To help the agent decide which bookings or resource requirements are more important than others, we added the Priority Value field to existing priorities. It accepts numbers between 1 and 100. The agent ignores the Level of Importance field. The higher the number, the higher the priority.
+
+:::image type="content" source="media/soa-priority-value.png" alt-text="Screenshot of a priority record with a numeric priority value.":::
 
 1. Open the Field Service app.
 2. Change to the Settings area and select Priorities.
