@@ -41,7 +41,7 @@ Bookable resources that the agent supports must be of type User, Contact, or Cre
 - Start Location and End Location specified to a value other than Location Agnostic
 - Display on Schedule Board set to Yes
 
-
+:::image type="content" source="media/soa-resource-configuration.png" alt-text="Screenshot of a configured bookable resource record.":::
 
 ## Create or update optimization method for booking status
 
