@@ -53,10 +53,7 @@ Email engagement analyzes the performance of all the messages your sales team ha
 
 1. [Create a message](#NewMessage).  
 1. On the command bar, select **Insert Template**.  
-1. In the **Email templates** window, select the language if needed, and then search for and select a template.
-
-    :::image type="content" source="media/select-template-window.png" alt-text="Screenshot of the select template window.":::
-
+1. In the **Email templates** window, select the language if needed, and then search for and select a template.  
 1. Select **Apply template**.  
     The template content is inserted into the message body.  
 1. Customize the template content as needed.  
@@ -64,9 +61,8 @@ Email engagement analyzes the performance of all the messages your sales team ha
 
 ## Add attachments <a name="FollowedAttachments"></a>
 
-You can attach documents, spreadsheets, or images to your email messages. By following these attachments, you can know when the recipient opens them. You can also include both followed and unfollowed attachments in the same message.  
+When you attach documents, spreadsheets, or images to your emails, you can follow these attachments to know whether the recipient opened them. You can include both followed and unfollowed attachments in the same email.    
 By default, attachments aren't followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
-However, the enhanced attachment feature doesn't allow you to follow the attachment.  
 
 1. [Create a message](#NewMessage).  
 1. In the **Attachment** section, select **+**.
@@ -74,14 +70,17 @@ However, the enhanced attachment feature doesn't allow you to follow the attachm
 1. Select **Open**.  
     Depending on the file size, attaching might take several seconds.  
 1. Select the attachment to track and then select more options > **Follow**.  
-    The attachment is now followed and the **Followed** column shows **Yes**.
+    The attachment is now followed and the **Followed** column shows **Yes**.  
+
     > [!NOTE]
-    > To follow an attachment, you must turn off the enhanced attachment feature. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature) and verify that the [prerequisites are met](configure-email-engagement.md#prerequisites).  
+    > - The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
+    > - Also, verify that the [prerequisites are met](configure-email-engagement.md#prerequisites).  
+
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.  
 
 ## Follow or unfollow a message <a name="EnableTrackingOnMessages"></a>  
 
-When you follow an email, email engagement can tell you when the recipient opened it, replied to it, opened an attachment, or selected a link in it. More information: [View message interactions with email engagement](email-engagement.md).  
+When you follow an email, email engagement can tell you if the recipient opened it, replied to it, opened an attachment, or selected a link in it. More information: [View message interactions with email engagement](email-engagement.md).  
 
 The **Email Engagement** section includes the following indicators and controls:
 
@@ -139,7 +138,7 @@ If you want to make sure you don't forget to follow up on an important email, se
 
     :::image type="content" source="media/set-reminder-control.png" alt-text="Screenshot of the Set Reminder control under the email engagement section.":::
 
-1. In the **Set Reminder** dialog box, fill in the fields.
+1. In the **Set Reminder** dialog box, fill in the following fields.
 
     - **Condition**: Select the condition that triggers the reminder:  
         - **If I do not receive a reply by**: Triggers the reminder if no reply has been received by the **Remind by** date. Only available for followed messages.  
