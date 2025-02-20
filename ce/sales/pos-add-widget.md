@@ -28,7 +28,7 @@ By default, the predictive opportunity scoring widget is available only in the o
 
 2. In the left pane, select **Tables**. On the **Tables** page, select a table to open it.
 
-3. Open the **Data experiences**, select **Forms**.
+3. In the **Data experiences** card, select **Forms**.
 
 1. Open the **Opportunity** table, select **Forms**, and then select a main form to add the widget to.
 
