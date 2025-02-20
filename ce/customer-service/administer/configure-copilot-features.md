@@ -56,7 +56,7 @@ More information: [Tenant settings](/power-platform/admin/tenant-settings) and [
 
 ## Opt in to continue with Copilot setup
 
-In Customer Service admin center, the [**Copilot for questions and emails**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page, the application displays the following message and links:
+In Customer Service admin center, the [**Copilot for questions and emails**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) page, the application displays the following message and links:
 
 - An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
 - A link to the Power Platform admin center app to enable data movement across regions.
@@ -124,8 +124,8 @@ Out of the box, users with the Customer Service Representative role only can use
 
 ## Next steps
 
-[Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
-[Enable Copilot help pane](copilot-enable-help-pane.md)  
+[Enable Copilot case and conversation summaries](/dynamics365/contact-center/administer/copilot-enable-summary)  
+[Enable Copilot help pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)  
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
 
 ### Related information

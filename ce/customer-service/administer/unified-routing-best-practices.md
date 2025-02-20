@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 01/24/2025
+ms.date: 01/28/2025
 ms.custom: bap-template
 ---
 
@@ -66,12 +66,12 @@ You can view details such as the representative's presence, current conversation
 You can choose the following relevant entities for representative status and status history based on your implementation of capacity.
 
 - **Capacity profiles**
-  - [msdyn_agentcapacityupdatehistory](../develop/reference/entities/msdyn_agentcapacityupdatehistory.md)
-  - [msdyn_agentcapacityprofileunit](../develop/reference/entities/msdyn_agentcapacityprofileunit.md)
+  - [Agent capacity update history (msdyn_agentcapacityupdatehistory) table](../../developer/reference/entities/msdyn_agentcapacityupdatehistory.md)
+  - [Agent Capacity Profile Unit (msdyn_agentcapacityprofileunit) table](../../developer/reference/entities/msdyn_agentcapacityprofileunit.md)
 
 - **Unit-based capacity profiles**
-  - [msdyn_agentstatus](../develop/reference/entities/msdyn_agentstatus.md)
-  - [msdyn_agentstatushistory](../develop/reference/entities/msdyn_agentstatushistory.md)
+  - [Agent Status (msdyn_agentstatus) table](../../developer/reference/entities/msdyn_agentstatus.md)
+  - [Agent Status history (msdyn_agentstatushistory) table](../../developer/reference/entities/msdyn_agentstatushistory.md)
 
 ### Use representative attributes to optimize workload
 
