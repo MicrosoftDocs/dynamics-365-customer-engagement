@@ -26,7 +26,7 @@ The LINE channel gives you an incredible opportunity to capitalize on the social
 The prerequisites to configure the LINE channel in Contact Center admin center or Customer Service admin center are as follows:
 
 1.	Create a [LINE](https://line.me/en/) handle.
-2.	Create a LINE channel in the LINE Developers console. More information: [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel)
+2.	Create a LINE channel in the LINE Developers console. Learn more in [Create a LINE channel](https://developers.line.biz/en/docs/messaging-api/getting-started/#creating-a-channel).
 
 After completing the prerequisites, you can add the LINE channel for your organization by following these steps:
 
@@ -101,7 +101,7 @@ If the customer isn't identified by name, a new contact record can be created.
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Learn more about the feature technical documentation in [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
+By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Learn more about the feature technical documentation in [Connect a bot to LINE](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end-users may be monitored, recorded, or stored.
 
