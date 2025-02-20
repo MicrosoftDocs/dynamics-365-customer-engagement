@@ -1,7 +1,7 @@
 ---
 title: Configure a LINE channel
 description: Instructions to configure a LINE channel.
-ms.date: 02/07/2025
+ms.date: 02/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,6 +13,9 @@ ms.collection:
 # Configure a LINE channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
@@ -62,16 +65,16 @@ After completing the prerequisites, you can add the LINE channel for your organi
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    
-   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
-      - Agents can send file attachments
+      - Service representatives can send file attachments
    1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
+1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+1. Add an AI agent. Learn more in [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
@@ -80,7 +83,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Customer and agent experiences
+## Customer and representative experiences
 
 A customer can initiate a conversation in any of the following ways:
 
@@ -90,17 +93,17 @@ A customer can initiate a conversation in any of the following ways:
 
 If a customer initiates a conversation from the LINE website and then later switches to the mobile device, the previous conversation persists and the customer can continue the conversation.
 
-The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../use/oc-notifications.md)
+The representative receives the notification of the incoming chat request, along with customer details. Learn more in [View notifications](../use/oc-notifications.md).
 
-After the LINE social profile is linked to a customer or contact record by the agent, subsequent LINE conversations are linked to the customer records and the customer summary is populated.
+After the LINE social profile is linked to a customer or contact record by the representative, subsequent LINE conversations are linked to the customer records and the customer summary is populated.
 
 If the customer isn't identified by name, a new contact record can be created.
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
+By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Learn more about the feature technical documentation in [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end-users may be monitored, recorded, or stored.
 
 ### Related information
 
