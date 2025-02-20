@@ -87,7 +87,7 @@ In the Dynamics 365 LinkedIn 3.x solution, only the PointDrive label is changed 
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
 1. Go to **Customization** > **Customizations** > **Customize the System**.  
 

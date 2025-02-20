@@ -44,7 +44,7 @@ This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../../inc
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
 1. Go to **Customization** > **Customizations** > **Customize the System**.  
 1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.  

@@ -21,7 +21,7 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
 1. Go to **Customization** > **Customizations** > **Solutions**.  
 1. On the **Solutions** page, select **All** and then search for the **LinkedInSalesNavigatorControlsForUnifiedClient** solution and select it.  
