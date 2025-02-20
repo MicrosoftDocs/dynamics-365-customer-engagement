@@ -1,7 +1,7 @@
 ---
 title: "Configure payment profiles | MicrosoftDocs"
 description: "This article provides steps to help you configure payment profiles in Omnichannel for Customer Service."
-ms.date: 10/27/2022
+ms.date: 02/20/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -15,7 +15,7 @@ ms.reviewer: laalexan
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-You can create payment profiles to enable conversational commerce for supported channels. Once configured, your agents can help customers complete secure transactions without having to leave the messaging experience.
+You can create payment profiles to enable conversational commerce for supported channels. Once configured, your customer service representatives can help customers complete secure transactions without having to leave the messaging experience.
 
 After you create a payment profile record, you must add it to a channel instance within a workstream's channel setup to make it work. Conversational commerce is supported for Apple Messages for Business.
 
@@ -23,9 +23,9 @@ After you create a payment profile record, you must add it to a channel instance
 
 ### Prerequisites
 
-Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+Verify that you have permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
-Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. More information: [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay)
+Before adding an Apple Pay payment profile, make sure to complete the Apple Pay integration steps documented by Apple. Learn more in [Apple Pay - Apple Messages for Business](https://register.apple.com/resources/messages/msp-api-tutorial/applepay#integrating-apple-pay).
 
 ### Create an Apple Pay payment profile
 
@@ -68,7 +68,7 @@ An Apple Pay-type rich message may be associated to more than one payment profil
 
 1. Open the workstream containing the channel instance for which you want to enable Apple Pay.
 
-1. On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. More information: [Configure an Apple Messages for Business channel instance](configure-apple-messages-for-business-channel.md)
+1. On the **User features** page of the channel settings, navigate to **Apple Pay**, enable the capability, and select the correct setting from the dropdown. Learn more in [Configure an Apple Messages for Business channel instance](configure-apple-messages-for-business-channel.md).
 
 1. Save your changes.
 
@@ -79,7 +79,7 @@ An Apple Pay-type rich message may be associated to more than one payment profil
 |Description | Limitation |
 |-----------|---------------|
 | **Country code**: The two-letter ISO 3166-1 alpha-2 code that denotes which country payments are processed in. | China isn't currently a supported country, as payments must go through a separate payment endpoint. |
-| **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Copilot Studio. More information: [Use Microsoft Bot Framework Skills in Copilot Studio](/microsoft-copilot-studio/advanced-use-skills) <br><br> - Adaptive card styling isn't supported. |
+| **Merchant capabilities**: Capabilities for processing payments | - It isn't currently possible to enable support for China UnionPay. <br><br> - You can build an adaptive card by adding a skill through Copilot Studio. Learn more in [Use Microsoft Bot Framework Skills in Copilot Studio](/microsoft-copilot-studio/advanced-use-skills). <br><br> - Adaptive card styling isn't supported. |
 | **Supported networks**: This property constrains the payment methods that the user can select to fund the payment. | - Supported networks are currently limited to American Express, Visa, Discover, and Mastercard. <br> <br> - Some locally issued cards may not work even when the **Merchant two-letter country code** is correct. The following countries/regions may be impacted: Saudi Arabia and China. | 
 
 
