@@ -16,7 +16,7 @@ ms.custom: bap-template
 Case handling time is the total time you spend to actively work on a case. This includes time taken to review case details, past cases and customer interactions, do offline research, collaborate with team members, or document case notes. Case handling time helps supervisors measure your productivity and plan staffing.
 
 > [!NOTE]
-> Case handling time is supported in out-of-the-box and custom single session apps and out-of-the-box multisession apps such as Customer Service workspace only.
+> Case handling time is supported in both custom and out-of-the-box single session apps, and out-of-the-box multisession apps only, such as Customer Service workspace.
 
 You can view the following details on the case handling time widget:
 
