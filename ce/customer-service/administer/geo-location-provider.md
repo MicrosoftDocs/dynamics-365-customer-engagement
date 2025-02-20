@@ -1,7 +1,7 @@
 ---
 title: "Set up visitor location detection | MicrosoftDocs"
 description: "Perform the steps to set up detection of visitor location and create a geo location provider record in Omnichannel for Customer Service."
-ms.date: 02/29/2024
+ms.date: 02/20/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,16 +12,16 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can configure your chat widget to detect a visitor's location based on their latitude and longitude. With location detection enabled, visitors receive a prompt in their web browser when they start to chat. If the visitor allows their location to be shared, it will passed through to the agent. Agents can then use this information to provide a personalized support experience.
+You can configure your chat widget to detect a visitor's location based on their latitude and longitude. With location detection enabled, visitors receive a prompt in their web browser when they start to chat. If the visitor allows their location to be shared, it will passed through to the customer service representative (service representative or representative). Service representatives can then use this information to provide a personalized support experience.
 
 > [!NOTE]
 > If a customer has turned off location sharing from their web browser, the location cannot be detected even if you have enabled location detection.
 
-To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. For information on how to get the Bing Maps API key, see [Getting a Bing Maps Key](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
+To enable location detection, you must first get your Bing Maps API key and create a geo location provider record. After you create a geo location provider record, you must add it in the **Location** tab of the appropriate chat widgets to enable location detection. Learn how to get the Bing Maps API key in [Getting a Bing Maps Key](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key).
 
 ## Prerequisite
 
-Make sure you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+Make sure you have permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## Create a geo location provider record
 
