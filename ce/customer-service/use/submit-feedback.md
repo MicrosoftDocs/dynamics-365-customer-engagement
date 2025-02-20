@@ -1,7 +1,7 @@
 ---
 title: Submit ratings and feedback for knowledge articles
 description: Learn how you can submit feedback about knowledge articles.
-ms.date: 06/14/2024
+ms.date: 02/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -30,7 +30,7 @@ The value beside the **Thumbs up** icon doesn't represent an article's total num
 
 > [!NOTE]
 > - Rating and view count numbers are rollup fields that aren't updated instantly. For more information, see [Define rollup fields](../../customerengagement/on-premises/customize/define-rollup-fields.md). 
-> - Customer service representatives (representatives) and customer service managers can create or view feedback based on their role and privileges in the feedback entity. Out of the box, representatives can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all representatives.
+> - Customer service representatives (service representatives or representatives) and customer service managers can create or view feedback based on their role and privileges in the feedback entity. Out of the box, representatives can create, view, or edit their own feedback only. Customer service managers or knowledge managers can view feedback submitted by all representatives.
 
 ## Submit ratings and feedback
 

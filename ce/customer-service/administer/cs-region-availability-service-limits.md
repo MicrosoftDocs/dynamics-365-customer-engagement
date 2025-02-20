@@ -1,7 +1,7 @@
 ---
 title: Supported regions and languages for analytics and insights
 description: Learn about region availability and the languages supported for analytics and insights.
-ms.date: 01/06/2025
+ms.date: 02/03/2025
 ms.topic: conceptual
 author: Soumyasd27
 ms.author: sdas
@@ -53,7 +53,7 @@ The following table lists the availability of Copilot features for the respectiv
 Yes: Available  
 No: Not available
 
-<sup>**1**</sup> Copilot might [generate summaries](../use/copilot-language-support.md) in the agents' UI language even if that isn't an officially supported language.
+<sup>**1**</sup> Copilot might [generate summaries](../use/copilot-language-support.md) in the customer service representative (service representative or representative) UI language even if that isn't an officially supported language.
 
 ## Region availability of analytics and insights
 
@@ -83,7 +83,7 @@ The following table lists the region availability of analytics and insights.
 | Effort estimation model for unified routing | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | AI suggestions for contacts in Microsoft Teams | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
 | AI generated summary for contacts in Microsoft Teams | Yes | Yes | No | No | No | No | No | No | No | No | No | No | No | No | No |
-| Forecast report for agents, cases, and conversations | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Forecast report for service representative, cases, and conversations | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Knowledge Base keywords suggestion| Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | Unified routing analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes |
 | Omnichannel real time analytics | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
