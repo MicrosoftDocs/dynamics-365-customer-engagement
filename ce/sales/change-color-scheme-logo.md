@@ -61,6 +61,3 @@ The Dynamics 365 Sales app comes with three default themes that you can use. You
 ## Related information
 
 [Admin settings overview](admin-settings-overview.md)  
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
