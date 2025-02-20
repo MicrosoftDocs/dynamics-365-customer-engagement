@@ -19,20 +19,25 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
+## Rich text editor classic experience to be deprecated in April 2025
+
+Starting April 19, 2025, we'll no longer support the classic rich text editor experience in Customer Service apps. The new, modernized rich text editor is the default experience. For more information, refer to [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements)
+
 ## Case and knowledge suggestions in smart assist are deprecated
 
 Starting June 02, 2025, we'll no longer support [case and knowledge suggestions](../use/oc-view-ai-suggested-cases-articles.md) via smart assist in Customer Service. We recommend that you [make Copilot available to your customer service representatives](../administer/configure-copilot-features.md#make-copilot-available-to-agents).
+
 ## Dynamics 365 Unified Service Desk to be deprecated in April 2026
 
 Beginning April 01, 2026, Unified Service Desk will be deprecated. We recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Transition from Unified Service Desk to Customer Service workspace](https://www.microsoft.com/dynamics-365/blog/it-professional/2025/01/22/transition-from-unified-service-desk-to-customer-service-workspace/).
 
 ## Provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated
 
-Starting October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and will no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
+As of October 2024, the legacy provisioning of Omnichannel for Customer Service in Power Platform admin center is deprecated and is no longer be accessible. This deprecation is being done in phases. To provision channels, use the new [provisioning experience](/dynamics365/contact-center/implement/provision-channels) in Contact Center admin center or Customer Service admin center.
 
 ## Customer Service Hub app to be removed for new organizations with Enterprise licenses in February 2025
 
-Effective February 2025, the Customer Service Hub app will no longer be available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. More information: [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md)
+Effective February 2025, the Customer Service Hub app is no longer available for all new organizations with Enterprise licenses. We'll continue to support the application for all existing organizations and new customers with license types other than Enterprise (for example, Customer Service Professional licenses). We recommend that existing customers migrate to Customer Service workspace. More information: [Migrate to Customer Service workspace from removed or deprecated apps](../administer/migrate-to-csw.md)
 
 ## Diagnostics in unified routing is deprecated
 
