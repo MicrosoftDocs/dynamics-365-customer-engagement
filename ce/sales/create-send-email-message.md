@@ -73,8 +73,7 @@ By default, attachments aren't followed. You have to manually follow each attach
     The attachment is now followed and the **Followed** column shows **Yes**.  
 
     > [!NOTE]
-    > - The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
-    > - Also, verify that the [prerequisites are met](configure-email-engagement.md#prerequisites).  
+    > The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
 
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.  
 

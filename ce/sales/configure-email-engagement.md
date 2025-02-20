@@ -31,14 +31,12 @@ To enable email engagement, do the following steps:
 
 Verify the following prerequisites before enabling email engagement for your organization:
 
-- [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features)
-
+- [Enable and configure standard Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-standard-sales-insights-features).  
 - To let sellers follow or track email attachments: <a name="prereq-follow-email-attachments"> </a>
     - [Enable OneDrive for Business in your Dynamics 365 Sales environment.](/power-platform/admin/enable-onedrive-for-business)  
     - [Enable SharePoint document management for emails in Dynamics 365 Sales.](/power-platform/admin/enable-sharepoint-document-management-specific-entities)  
     - [Enable external sharing of SharePoint](/sharepoint/external-sharing-overview) so that external, unauthenticated users can access access file attachments.  
-
-- To enable delivery-time recommendations based on recipients' time zones, you must enable [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] in Sales. More information: [System Settings dialog box - General tab](/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab)  
+- [Enable [!INCLUDE[pn_bing_maps](../includes/pn-bing-maps.md)] in Sales](/dynamics365/customer-engagement/admin/system-settings-dialog-box-general-tab) for delivery-time recommendations based on recipients' time zones.  
 - To count email replies, ensure that the settings within the **Tracking email conversations** section are properly configured in the Power Platform admin center. More information: [Manage email tracking settings](/power-platform/admin/settings-email-tracking).
 
 ## Enable email engagement
