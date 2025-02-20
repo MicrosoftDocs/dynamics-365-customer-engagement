@@ -1,7 +1,7 @@
 ---
-title: Enable agents to update skills
-description: Learn how to enable the setting that allows agents to update skills at runtime.
-ms.date: 11/28/2024
+title: Enable representatives to update skills
+description: Learn how to enable the setting that allows representatives to update skills at runtime.
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,10 +13,10 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-By default, skill-based routing is enabled. You can create skills to attach to agents and define proficiency levels by using a rating model. You can also enable your agents to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center app.
+By default, skill-based routing is enabled. You can create skills to attach to customer service representatives (service representatives or representatives) and define proficiency levels by using a rating model. You can also enable your service representatives to add or remove skills for their assigned work items at runtime. To do this, you must enable the update skill control toggle in the Customer Service admin center app.
 
 > [!NOTE]
-> By default, the skill control is available for messaging channels only. For the record channel, you'll need to customize the form to add the skill control. More information: [Add a skill control for routed records](../develop/add-skill-control.md)
+> By default, the skill control is available for messaging channels only. For the record channel, you'll need to customize the form to add the skill control. Learn more in [Add a skill control for routed records](../develop/add-skill-control.md).
 
 ## Prerequisite
 
@@ -32,7 +32,7 @@ To ensure that the skill control is loaded and displayed properly for the routed
 
    :::image type="content" source="../media/enable-update-skill-control.png" alt-text="Enable update skill control toggle":::
 
-By enabling your agents to evaluate and update skills required for their work items, you make use of your agents' experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. More information: [Retrain skill finder model](set-up-isf-model.md#retrain-the-model-iteratively)
+By enabling your service representatives to evaluate and update skills required for their work items, you can use their experience to identify the actual skills that are required for the work items. These skills are also used in training the skill finder model. Accurate data on skills improves the model accuracy and prediction. Learn more in [Retrain skill finder model](set-up-isf-model.md#retrain-the-model-iteratively).
 
 ### Related information
 

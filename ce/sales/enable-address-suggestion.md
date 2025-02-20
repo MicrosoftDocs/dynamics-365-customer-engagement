@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 06/26/2023
+ms.date: 01/31/2025
 ms.custom:
  - bap-template
  - ai-gen-docs-bap
@@ -18,13 +18,6 @@ ms.custom:
 
 Enable the address suggestion feature in Dynamics 365 Sales to help sellers save time and reduce errors when they enter the addresses of their contacts, leads, and accounts. When a seller starts typing in the address field, Bing Maps suggests a list of addresses that match what the seller is typing. When the seller selects an address in the list, the address fields in the form are filled automatically. You need to enable Bing Maps before you can enable address suggestions.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br/>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br/> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Enable Bing Maps
 
 When you enable Bing Maps in the Sales settings, sellers can see the address of their accounts, contacts, and leads on a map and get directions. You must enable Bing Maps before you can enable the address suggestion feature in Sales.
@@ -34,15 +27,13 @@ Bing Maps is enabled by default in new environments that are located outside the
 > [!IMPORTANT]
 > By connecting to a mapping service, you consent to allow the system&mdash;including systems in Government Cloud environments&mdash;to share your data. "Mapping service" refers to Bing Maps or any other third-party mapping service that's designated by you or your operating system. Data that's shared with external systems outside of your Microsoft Dynamics 365 environment includes, but is not limited to, addresses and coordinates. Your use of the mapping service is also subject to the service's separate terms of use. Data imported from external systems into Microsoft Dynamics 365 are subject to the [Microsoft privacy statement](https://privacy.microsoft.com/privacystatement).
 
-1. In the Sales Hub app, select **Settings** (the gear icon in the upper-right corner of the window) > **Advanced Settings**.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+1. In the sales app, go to **Settings** > **Advanced Settings**.
 
-1. Select **Administration** > **System Settings** > **General**.
+1. Go to **System** > **Administration**, and then select **General**.
 
-1. Under **Enable Bing Maps**, select **Yes**.
+1. Under **Enable Bing Maps**, set the **Show Bing Maps on forms** toggle to **Yes**.
 
-1. Save the changes.
+1. Select **Save**.
 
 ## Enable the address suggestion feature
 

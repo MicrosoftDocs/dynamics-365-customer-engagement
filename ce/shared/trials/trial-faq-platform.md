@@ -14,7 +14,7 @@ You can use a personal email ID. But you won't be able to access Power Platform 
 
 ### Can I sign up for multiple Dynamics 365 apps such as Sales, Marketing, and Customer Service?
 
-Yes, you can. To view all available trials, [visit the trial hub page](https://dynamics.microsoft.com/dynamics-365-free-trial). You can use the same email account to sign up for different trials. However, it isn't possible to have multiple apps on the same trial site. Each trial will be on a different tenant and URL. The trial data isn't shared across apps.
+Yes, you can. To view all available trials, [visit the trial hub page](https://www.microsoft.com/dynamics-365/free-trial). You can use the same email account to sign up for different trials. However, it isn't possible to have multiple apps on the same trial site. Each trial will be on a different tenant and URL. The trial data isn't shared across apps.
 
 ## Trial app
 

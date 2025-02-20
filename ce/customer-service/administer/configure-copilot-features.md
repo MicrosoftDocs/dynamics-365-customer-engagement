@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
-ms.date: 11/28/2024
+ms.date: 01/03/2025
 ms.custom: bap-template 
 ms.collection: bap-ai-copilot
 ---
@@ -56,7 +56,7 @@ More information: [Tenant settings](/power-platform/admin/tenant-settings) and [
 
 ## Opt in to continue with Copilot setup
 
-In Customer Service admin center, the [**Copilot for questions and emails**](copilot-enable-help-pane.md) or [**Summaries**](copilot-enable-summary.md) page, the application displays the following message and links:
+In Customer Service admin center, the [**Copilot for questions and emails**](/dynamics365/contact-center/administer/copilot-enable-help-pane) or [**Summaries**](/dynamics365/contact-center/administer/copilot-enable-summary) page, the application displays the following message and links:
 
 - An error message to enable data movement across regions if you're in a region where Copilot features aren't available by default or if you want to opt out of using Copilot.
 - A link to the Power Platform admin center app to enable data movement across regions.
@@ -102,40 +102,30 @@ In the **Summaries** and **Copilot help pane** configuration pages, you can sele
 
 Out of the box, users with the Customer Service Representative role only can use the copilot features. Therefore, make sure that users with custom roles have the following privileges: 
 
-- prvCreatemsdyn_copilotinteraction 
-- prvAppendmsdyn_copilotinteraction 
-- prvCreatemsdyn_copilotinteractiondata 
-- prvReadmsdyn_copilotinteraction
-- prvReadmsdyn_copilotinteractiondata
-- prvWritemsdyn_copilotinteractiondata
-- prvAppendTomsdyn_copilotinteractiondata
-- prvCreatemsdyn_copilotinteractiondata
-- prvReadmsdyn_copilotagentpreference
-- prvCreatemsdyn_copilotagentpreference
-- prvWritemsdyn_copilotagentpreference
-- prvReadmsdyn_aimodel
-- prvReadmsdyn_aitemplate 
-- prvReadmsdyn_conversationinsight
-- prvWritemsdyn_copilottranscriptdata 
-- prvAppendTomsdyn_copilottranscriptdata  
-- prvReadmsdyn_copilottranscriptdata 
-- prvCreatemsdyn_copilottranscriptdata 
-- prvWritemsdyn_copilottranscriptdata 
-- prvAppendmsdyn_copilottranscriptdata
-- prvIntelligenceUsage: This privilege is required to access the Copilot case summary. By default, this privilege is available for out-of-the-box security roles. Make sure that your users have  [**Miscellaneous privileges**](/power-platform/admin/security-roles-privileges#define-the-privileges-and-properties-of-a-security-role) > **prvIntelligenceUsage** assigned to the required custom security roles.
-- prvReadOrganizationSetting
-- prvReadmsdyn_panetabconfiguration 
-- prvReadmsdyn_paneconfiguration 
-- msdyn_appconfiguration
-- msdyn_panetoolconfiguration
+|Table | Name | Create | Read | Write | Append | Append To |
+|------|------|--------|------|-------|--------|-----------|
+|Copilot interaction | msdyn_copilotinteraction | Yes | Yes | Not applicable | Yes | Not applicable |
+|Copilot interaction data | msdyn_copilotinteractiondata | Yes | Yes | Yes | Not applicable | Yes |
+|Agent Preference For Copilot | msdyn_copilotagentpreference | Yes | Yes | Yes | Not applicable | Not applicable |
+|AI Model | msdyn_aimodel | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|AI Template | msdyn_aitemplate | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|ConversationInsight | msdyn_conversationinsight | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Copilot Transcript Data | msdyn_copilottranscriptdata | Yes | Yes | Yes | Yes | Not applicable |
+|App profile | msdyn_appconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Pane tool configuration | msdyn_panetoolconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Productivity pane configuration | msdyn_paneconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Pane tab configuration | msdyn_panetabconfiguration | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
+|Organization Setting | organizationsetting | Not applicable | Yes | Not applicable | Not applicable | Not applicable |
 
-More information: [Security roles and privileges](/power-platform/admin/security-roles-privileges)
+
+> [!NOTE]
+> Make sure that your users have **Miscellaneous privileges** > **prvIntelligenceUsage** assigned to the required custom security roles to access Copilot case summary. Learn more in [Security roles and privileges](/power-platform/admin/security-roles-privileges).
  
 
 ## Next steps
 
-[Enable Copilot case and conversation summaries](copilot-enable-summary.md)  
-[Enable Copilot help pane](copilot-enable-help-pane.md)  
+[Enable Copilot case and conversation summaries](/dynamics365/contact-center/administer/copilot-enable-summary)  
+[Enable Copilot help pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)  
 [Display Copilot case summary on custom case forms](copilot-powerapps-settings.md)  
 
 ### Related information

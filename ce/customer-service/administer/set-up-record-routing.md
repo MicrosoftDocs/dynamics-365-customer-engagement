@@ -1,7 +1,7 @@
 ---
 title: Set up unified routing for records
 description: Use this article to understand how to set up unified routing for records in Customer Service.
-ms.date: 09/13/2024
+ms.date: 02/04/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -103,7 +103,7 @@ Routing rules for a workstream consists of work classification rules and route-t
      - **Unit based**: Enter value if your organization has configured unit-based capacity.
      - **Profile based**: Specify a profile in the list if your organization has configured profile-based capacity. Learn more in [Create and manage capacity profiles](capacity-profiles.md). 
 
-   - **Allowed presences**: Select the presences in which agents will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
+   - **Allowed presences**: Select the presences in which customer service representatives (service representatives or representatives) will be assigned. If you want to route records in Customer Service Hub, make sure that you add all the required presences to be able to route work items as required.
 
    - **Default skill matching algorithm**: Select **Exact Match** or **Closest Match**.
 
@@ -113,7 +113,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 
    > [!NOTE]
    > - The agent notifications that you configure for routing of records based on unified routing will be displayed in the Customer Service workspace and Omnichannel for Customer Service apps only.
-   > - Ensure that the agents in the queues have correct permissions to handle the incoming work items in the queue. If an agent doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
+   > - Ensure that the service representatives in the queues have correct permissions to handle the incoming work items in the queue. If a representative doesn't have permissions to an assigned work item, the assignment will be stopped, and the conversation will be closed to protect it.
 
 ### Next steps
 
@@ -125,7 +125,7 @@ Routing rules for a workstream consists of work classification rules and route-t
 [Overview of unified routing](overview-unified-routing.md)  
 [Create and manage workstreams](create-workstreams.md)    
 [Configure routing for email records](configure-routing-for-email-records.md)  
-[Release agent capacity](capacity-profiles.md#release-capacity-for-agents)  
+[Release representative's capacity](capacity-profiles.md#release-capacity-for-representatives)  
 [Assign roles and enable users](../implement/add-users-assign-roles.md)  
 [FAQ about time taken by configuration changes in unified routing](faqs.md#how-long-does-a-configuration-change-to-the-omnichannel-for-customer-service-and-unified-routing-settings-take-to-update)  
 

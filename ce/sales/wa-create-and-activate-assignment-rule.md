@@ -21,16 +21,9 @@ A rule considers only the records that are created or updated after it's activat
 
 Watch this brief video to learn more about assignment rules in sales accelerator:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=98c3652e-249c-4344-b72a-29e286fb1c73]
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Prerequisites
 

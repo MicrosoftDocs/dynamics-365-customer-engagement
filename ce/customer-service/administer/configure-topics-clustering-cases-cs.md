@@ -1,7 +1,7 @@
 ---
 title: Configure AI topic clustering for cases
 description: This article provides instructions to configure AI topic clustering for cases in the Customer Service Hub and Customer Service workspace.
-ms.date: 11/28/2024
+ms.date: 02/06/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -14,9 +14,12 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 Customer Service Insights uses AI to provide insights into your customer service data by grouping semantically related cases and generating a topic. New cases that match the generated topic are automatically added to the topic group. This action helps you identify areas of improvement that affect system performance.
 
-The AI-driven technology enbales informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
+The AI-driven technology enbales informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate customer service representative (service representative or representative) performance and business impact, and address inefficiencies in your system.
 
 ## Enable topic clustering for cases
 
@@ -39,7 +42,7 @@ The Summary and Model run summary views provide key information about how the to
 
 ## Data mapping
 
-  Data mapping enables you to choose the text field that the agents in your organization are most likely to use to describe the reason why a customer reached out to support. By default, the Case Title attribute is used. The other available attributes are Serial Number, Description, and Case Title.
+  Data mapping enables you to choose the text field that the service representatives in your organization are most likely to use to describe the reason why a customer reached out to support. By default, the Case Title attribute is used. The other available attributes are Serial Number, Description, and Case Title.
 
 :::image type="content" source="../media/data-mapping-cs.png" alt-text="Data Mapping":::
 
@@ -52,14 +55,14 @@ The AI Insights charts that appear on the Customer Service Insights dashboards a
 
 ### Enable topic automation for Copilot Studio
 
-AI discovered topics in Customer Service historical analytics are often prime candidates for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
+AI discovered topics in Customer Service historical analytics are often prime candidates for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
 1. In Customer Service admin center, go to **Insights** > **Topics clustering for cases** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for case** page, enable the toggle.
 
 
 > [!NOTE]
-> Topic automation to Copilot Studio bot is currently not supported in Government Community Cloud.
+> Topic automation to Copilot agent is currently not supported in Government Community Cloud.
 
 
 ## Language availability for topics

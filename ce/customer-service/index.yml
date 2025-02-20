@@ -10,7 +10,7 @@ metadata:
   ms.topic: hub-page
   author: Soumyasd27
   ms.author: sdas
-  ms.date: 12/17/2024
+  ms.date: 02/07/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -39,12 +39,14 @@ additionalContent:
     items:
     - title: Guidance 
       links: 
-      - url: /dynamics365/guidance/implementation-guide/security
-        text: Security and compliance
+      - url: /dynamics365/get-started/security
+        text: Security, compliance, and privacy
       - url: /dynamics365/guidance/implementation-guide/overview
         text: Implementation
-      - url: /dynamics365/adoption/adoption-guide
-        text: Adoption guide
+      - url: /dynamics365/guidance/resources/cs-index
+        text: Implementation tools and samples
+      - url: /dynamics365/guidance/migrate/overview
+        text: Migrate from on-premises to online
     - title: Try/Buy/Provision
       links: 
       - url: implement/try-customer-service.md
@@ -70,11 +72,10 @@ additionalContent:
       - url: administer/voice-channel-install.md
         text: Configure the voice channel
       - url: administer/define-service-level-agreements.md
-        text: Configure service-level agreements
-      
+        text: Configure service-level agreements      
     - title: Develop
       links:
-      - url: develop/reference/entities/overview-entity-ref.md
+      - url: develop/reference/about-entity-reference.md
         text: Omnichannel for Customer Service entity reference
       - url: develop/omnichannel-reference.md
         text: Live chat SDK Reference
@@ -86,6 +87,8 @@ additionalContent:
         text: Customize the case resolution experience
       - url: administer/omnichannel-customizer.md
         text: Customize forms for your agents and supervisors
+      - url: administer/analytics_overview.md
+        text: Customize analytics and insights
       - url: administer/model-customize-reports.md
         text: Customize data models of historical and real-time analytics reports
     - title: Integrate
@@ -93,9 +96,9 @@ additionalContent:
       - url: administer/voice-channel-contextual-transfer-external-ivr.md
         text: Integrate a third-party IVR system with voice channel
       - url: administer/configure-bot-virtual-agent.md
-        text: Integrate a Copilot Studio bot
+        text: Integrate AI agents
       - url: administer/integrate-KM-with-PVA.md
-        text: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+        text: Integrate knowledge management in Dynamics 365 with Copilot Studio agents
       - url: administer/configure-teams-meetings.md
         text: Integrate Microsoft Teams meeting
     - title: Configure Copilot features
@@ -164,14 +167,14 @@ additionalContent:
         text: Collaborate with AI-suggested contacts in Microsoft Teams
     - title: Get insights and analyze service operations 
       links:
-      - url: use/customer-service-analytics-insights-csh.md
-        text: Use Customer Service dashboards
       - url: use/omnichannel-analytics-insights.md
         text: Use Omnichannel for Customer Service dashboards
       - url: use/intro-realtime-analytics-dashboard.md
-        text: Use Omnichannel real-time analytics dashboards 
+        text: Use Omnichannel real-time analytics dashboards
+      - url: use/oc-metrics-dimensions.md
+        text: Use report metrics  
       - url: use/manage-bookmarks.md
-        text: Use bookmarks for reports 
+        text: Use bookmarks for reports
       - url: use/customize-reports.md
         text: Customize visual display
     - title: Collaborate using Microsoft Teams
@@ -197,16 +200,16 @@ additionalContent:
           summary: Learn how to quickly build low-code apps that modernize processes and solve tough business challenges in your organization using Power Apps.
           url: /power-apps/
         - title: Microsoft Power Platform
-          summary: Learn how to quickly and easily build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, analyze data for insights using Power BI, rapidly design, configure, and publish modern websites using Power Pages, and build intelligent bots with a no-code interface using Copilot Studio.
+          summary: Learn how to quickly build custom apps, automate workflows to improve business productivity, analyze data for insights, and rapidly design modern websites.
           url: /power-platform/
         - title: Azure Communication Services
-          summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, video, chat, sms, email, teams interoperability, call automation, and telephony to your apps.
+          summary: Build powerful, cloud-based communication and customer engagement experiences by adding voice, chat, sms, email, call automation, and telephony to your apps.
           url: /azure/communication-services/
         - title: Microsoft Copilot Studio
-          summary: Build chatbots easily with Copilot Studio.
+          summary: Build AI agents easily with Copilot Studio.
           url: /power-virtual-agents/
         - title: Dynamics 365 Contact Center
-          summary: Learn about Microsoft Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
+          summary: Learn about Dynamics 365 Contact Center, and how to deploy and configure a Copilot-first, cloud-based product that brings intelligence, automation, and efficiency to every engagement channel in a CRM solution of your choice.
           url: /dynamics365/contact-center/
 
     

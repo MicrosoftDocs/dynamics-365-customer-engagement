@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 10/04/2024
+ms.date: 02/06/2025
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -20,7 +20,7 @@ Welcome to Dynamics 365 Sales! Dynamics 365 Sales enables salespeople to build s
 
 Here's a short video to help you understand the power of using Dynamics 365 Sales in your organization:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AC4d]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=69df7593-4edc-4165-a7cd-d315ca5cd83c]
 
 [!INCLUDE [cc-app-definition-sales](../includes/cc-app-definition-sales.md)]
 
@@ -72,7 +72,7 @@ The Sales Professional app is similar to the Sales Hub app, but the entities inc
 
 Here's a short video to help you understand how Dynamics 365 Sales Professional can transform your sales organization:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2OJXb]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=67fb63b7-d1f7-4e3c-9c3f-39e6ad7c0704]
 
 ### Microsoft 365 Copilot for Sales
 
@@ -82,7 +82,7 @@ For more information about the Copilot for Sales licensing options for Dynamics 
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales?market=af#comparison-table) page. Refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029) for more information about features included in each license.
 
 ## How Dynamics 365 helps transform your sales organization
 
@@ -151,12 +151,11 @@ Get advanced information about revenue projections, performance, and daily actio
 
 | Capability | Description | Reference link |
 |------------|-------------|----------------|
-| Streamline forecasting | Gain visibility and control over revenue with a flexible forecasting solution that reveals risks and opportunities. | Administrator:<br>- [Configure forecasts in your organization](configure-forecast.md)<br>Seller:<br>- [View a forecast](view-forecasts.md)<br>- [View and understand data through drill-down entities](view-understand-data-through-drill-down.md)<br>- [View and manage underlying opportunities](view-and-manage-underlying-opportunities.md) | 
-| Increase forecast accuracy | Leverage built-in AI to augment seller-submitted forecasts and view deal flows and trends. | Administrator:<br>- [Configure premium forecasting](configure-premium-forecasting.md)<br>- [Take snapshots automatically](manage-snapshots-forecast.md)<br>Seller:<br>- [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br> - [Understand forecast projections by using trend charts](understand-forecast-projection-through-trend-chart.md)<br> - [Analyze deals flows between snapshots](analyze-deals-flow-between-snapshots.md)| 
+| Increase forecast accuracy | Leverage built-in AI to augment seller-submitted forecasts. | Administrator:<br>- [Configure premium forecasting](configure-premium-forecasting.md)<br> <br>Seller:<br>- [Analyze revenue outcome by using predictive forecasting](analyze-revenue-outcome-using-predictive-forecasting.md)<br>| 
 | Gain real-time visibility into sales performance | Use interactive dashboards and reports to track performance, make data-driven decisions, and deliver more effective coaching. | Administrator:<br>- [Create or edit a Power BI embedded system dashboard](/powerapps/maker/model-driven-apps/create-edit-powerbi-embedded-page)<br>- [Use Power BI with Microsoft Dataverse data](/powerapps/maker/data-platform/use-powerbi-dataverse)<br>- [Use Power BI](/powerapps/maker/model-driven-apps/use-power-bi)<br>Seller:<br>- [Add or edit Power BI visualizations on your dashboard](/powerapps/user/add-powerbi-dashboards) | 
 | Tailor processes based on best practices | Design a sequence of activities and connect the sequence to leads and opportunities that appear in a seller’s work queue. | Administrator: [Create and activate a sequence](create-and-activate-a-sequence.md)<br>Seller: [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md) | 
 | Adapt AI for your unique needs | Use a powerful, flexible, no-code tool to quickly design and implement next best action recommendations for your sales team. | Administrator: [Configure the assistant](configure-assistant.md)<br>Seller: [Use the assistant to guide customer communications](assistant.md) | 
-| Quickly create custom applications | Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation. | Administrator: [Overview of creating apps in Power Apps](/powerapps/maker/index) | 
+| Quickly create custom applications | Extend and adapt the solution with Microsoft Power Platform, including Power Apps and Power Automate, to create custom applications and orchestrate workflows to optimize revenue generation. | Administrator: [Overview of creating apps in Power Apps](/powerapps/maker/index) |
 
 ## Integrations
 

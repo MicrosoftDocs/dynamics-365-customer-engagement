@@ -57,7 +57,7 @@ When you receive an incoming call, you can transfer the call to a service repres
 
     When you initiate a transfer, the application ends the call for you as soon as the Teams user or user with the external number accepts or rejects the call. You don't need to press a button to leave the call. To make sure that the secondary service representative answers the call, you can use the **Consult** option to collaborate with the secondary representative before transferring the call.
      
-    The customer hears a transfer message and the following actions occur based on the **Use bridged transfers** setting:
+    The following actions occur based on the **Use bridged transfers** setting:
     - **Enabled**
        - Customer hears hold music.
        - The original call continues. 
@@ -86,7 +86,7 @@ When you initiate a consult, the following actions occur:
 - The customer is automatically put on hold. Hold music plays for the customer.
 - When the invited collaborator joins the call, they have a consult role. Consulting on a call doesn't affect the collaborator's available capacity.
 - The primary representative must manually remove the customer from hold. During a consult, the primary representative can choose to transfer the call to the new participant. 
-- If the primary representative ends the call, the call ends for everyone. 
+- If the primary representative or customer ends the call, the call ends for everyone. 
 - If the primary representative refreshes their browser, all the participants are placed on hold until the primary representative returns to the call. 
 
 **Consult with another user**

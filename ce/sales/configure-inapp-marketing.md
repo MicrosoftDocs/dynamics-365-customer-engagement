@@ -1,7 +1,7 @@
 ---
 title: Configure in-app marketing settings
 description: Learn how to configure in-app marketing settings to define various aspects of campaigning, including creating campaign responses automatically.
-ms.date: 06/20/2024
+ms.date: 01/24/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,23 +25,15 @@ searchScope:
 Configure the in-app marketing settings to define various aspects of campaigning. For example, you can specify whether you want to create a campaign response automatically when a customer responds to a campaign email. 
 
   
-## License and role requirements
-
-| &nbsp; | &nbsp; |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator <br>  See [Predefined security roles for Sales](security-roles-for-sales.md)|
-|||
-
 ## To configure in-app marketing settings
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
 
 # [Sales Premium and Sales Enterprise](#tab/SE)
 
-1. In the Sales Hub app, go to the **Change Area** and select **App Settings**.
+1. In the Sales Hub app, go to the **Change area** and select **App Settings**.
 
-2. Under **Sales Administration**, select **Marketing settings**.
+2. Under **Sales Administration**, select **Marketing Settings**.
 
 3. Configure the following settings in accordance with your requirements.
     
