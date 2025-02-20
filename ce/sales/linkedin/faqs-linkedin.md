@@ -112,7 +112,7 @@ If you've properly configured CRM sync and activity writeback, the activity will
 
 1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
 1. Go to **Customization** > **Customizations** > **Customize the System**.  
 1. In the left pane, expand **Tables** and then select the entity (Contact or Lead) and then the form for which you want to configure the timeline.  
