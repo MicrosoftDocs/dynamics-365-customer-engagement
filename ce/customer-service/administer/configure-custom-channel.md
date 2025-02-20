@@ -18,7 +18,7 @@ ms.collection:
 
 
 > [!IMPORTANT]
-> The Telegram and Kik custom messaging channels were deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The Telegram and Kik custom messaging channels were deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line. With the custom messaging channel capability, you can:
 
