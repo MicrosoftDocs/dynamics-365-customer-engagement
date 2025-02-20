@@ -20,7 +20,7 @@ To allow travel outside of working hours:
 
 1. [Remove the schedule within working hours constraint](#remove-the-schedule-within-working-hours-constraint) in an optimization goal.
 
-1. [Enable the resources](#enable-the-resources-for-scheduling-outside-of-working-hours) for traveling outside working hours.
+1. [Enable a resource](#enable-a-resource-for-scheduling-outside-of-working-hours) for traveling outside working hours.
 
 The system can then schedule a technician to begin their workday a little earlier. In this way, they can start to travel before the beginning of working hours and arrive at the work location when their work hours begin.
 
@@ -38,7 +38,7 @@ To remove the default constraint from an optimization goal, follow these steps.
 
 1. Save and publish.
 
-## Enable the resources for scheduling outside of working hours
+## Enable a resource for scheduling outside of working hours
 
 Define which resources are considered for travel outside of working hours.
 
