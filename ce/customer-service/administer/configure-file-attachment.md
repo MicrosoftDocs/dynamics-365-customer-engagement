@@ -1,7 +1,7 @@
 ---
 title: Configure file attachment capability for a chat widget
 description: Learn how to configure file attachments for a chat widget in Omnichannel for Customer Service.
-ms.date: 11/28/2024
+ms.date: 02/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,14 +14,14 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 
-As an administrator, you can enable or disable the capability for your agents and customers to attach files during a conversation. When enabled, your customers and agents can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the agent.
+As an administrator, you can enable or disable the capability for your customer service representatives (service representatives or representatives) and customers to attach files during a conversation. When enabled, your customers and service representatives can send files and share more information about their issues. For example, if a customer receives an error while trying to complete a process, they can send the screenshots of the steps and error message to the representative.
 
 Customers must use the **Attach** icon to send files. The drag-and-drop operation isn't supported in the live chat widget. For information about file attachment limitations, see [Enable file attachments](enable-file-attachments.md).
 
-If an agent transfers the chat to another agent, the agent who receives the chat can also access the files attached in the conversation.
+If one representative transfers the chat to another, the representative who receives the chat can also access the files attached in the conversation.
 
 > [!NOTE]
-> In Unified Service Desk, if you sign in as an agent and want to attach a file while conversing with a customer, ensure that you select the required file type first and then attach the required file.
+> In Unified Service Desk, if you sign in as a representative and want to attach a file while conversing with a customer, ensure that you select the required file type first and then attach the required file.
 
 1. Sign in to Customer Service admin center or Contact Center admin center.
 
@@ -33,8 +33,8 @@ If an agent transfers the chat to another agent, the agent who receives the chat
 
 1. Set **File attachments** to **On**, and then select the check boxes for the following if they aren't selected:
 
-    - **Customers can send file attachments**: Allows your customers to send a file to the customer service agent during a conversation.
-    - **Agents can send file attachments**: Allows your customer service agents to send a file to a customer during a conversation.
+    - **Customers can send file attachments**: Allows your customers to send a file to the customer service representative during a conversation.
+    - **Agents can send file attachments**: Allows your customer service representatives to send a file to a customer during a conversation.
 
     :::image type="content" source="../media/file-attachment.png" alt-text="Enable file attachment settings.":::
 
