@@ -65,7 +65,7 @@ When you configure this feature, the system picks a queue from the available lis
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
 > [!NOTE]
-> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid timeout errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables#limitations)
+> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid time-out errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables#limitations)
 
 ## Options available for rules
 
@@ -100,12 +100,12 @@ You can configure routing rule conditions for the social channels, such as Faceb
   - **Customer name**: The customer name is shown in the format "first name, last name".
   - **Locale**: For a list of locales, go to Facebook developer documentation.
   - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-  - **User Page Scoped Id**: This attribute is shown as a number string.
+  - **User Page Scoped ID**: This attribute is shown as a number string.
 
 - **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
 
-  - Group id
-  - Intent id
+  - Group ID
+  - Intent ID
   - Locale
 
 - **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
