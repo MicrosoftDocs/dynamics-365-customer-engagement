@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
-ms.date: 08/12/2024
+ms.date: 02/21/2025
 ms.custom: bap-template
 ai.usage: ai-assisted
 ---
@@ -34,7 +34,7 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 1. [Review and update the users, role mappings, and capacity profiles](../administer/users-user-profiles.md) in the target environment.
 
-1. Review the queues and update the agent memberships for agent assignments. For more information, see the following articles:
+1. Review the queues and update the customer service representative (service representative or representative) memberships for representative assignments. Learn more in the following articles:
 
     - [Create and manage queues for cases](../administer/set-up-queues-manage-activities-cases.md)
     - [Create and manage queues for unified routing](../administer/queues-omnichannel.md)
@@ -64,22 +64,22 @@ If you chose the full copy option, it can take up to an hour for the data to app
     - [Configure an SMS channel using Azure Communication Services](../administer/configure-sms-channel-acs.md)
     - [Configure an SMS channel for Twilio](../administer/configure-sms-channel-twilio.md)
 
-## Configure Copilot Studio bots in the target environment
+## Configure Copilot agents in the target environment
 
-1. Delete any Copilot Studio bots in all workstreams and the environment.
+1. Delete any Copilot agents in all workstreams and the environment.
 
-1. [Create a bot](../administer/manage-your-bots.md#add-a-bot) or connect a previously configured bot that's specific to the target environment and configure with channel workstreams.
+1. [Create an AI agent](../administer/manage-your-bots.md#add-an-agent) or connect a previously configured AI agent (agent) that's specific to the target environment and configure with channel workstreams.
 
-1. Update the workstreams to use the new bot.
+1. Update the workstreams to use the new agent.
 
 > [!NOTE]
-> To use the same Copilot Studio bot in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect the application. If you reconnect the bot to another environment, it will break the source environment.
+> To use the same Copilot agent in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect the application. If you reconnect the agent to another environment, it will break the source environment.
 
-## Configure Azure bots in the target environment
+## Configure Azure agents in the target environment
 
-1. Delete any Azure bots in all workstreams and the environment.
+1. Delete any Azure agents in all workstreams and the environment.
 
-1. Reconnect the bot following the steps in [Configure the Bot user](../administer/configure-bot-azure.md#integrate-azure-bots-with-omnichannel-for-customer-service).
+1. Reconnect the agent following the steps in [Configure the Bot user](../administer/configure-bot-azure.md#integrate-azure-bots-with-omnichannel-for-customer-service).
 
 ## Configure real-time and historical analytics
 
