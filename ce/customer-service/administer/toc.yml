@@ -666,9 +666,9 @@
         href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure Azure bots
         items:
-        - name: Bot sessions and licensing
+        - name: Agent sessions and licensing
           href: bot-session-licensing.md
-        - name: Integrate an Azure bot
+        - name: Integrate an Azure agent
           href: configure-bot-azure.md   
       - name: Configure context variables for agents
         href: context-variables-for-bot.md      
