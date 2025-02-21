@@ -238,6 +238,16 @@ items:
   items:
   - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
+  - name: Scheduling Operations Agent (preview)
+    items: 
+      - name: Overview
+        href: soa-overview.md
+      - name: Set up the Scheduling Operations Agent
+        href: soa-setup.md
+      - name: Use the Scheduling Operations Agent
+        href: soa-run.md
+      - name: FAQs and limitations
+        href: soa-tips.md
   - name: Schedule board
     items:
       - name: Use the schedule board

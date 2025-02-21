@@ -39,16 +39,19 @@ The agent treats existing bookings the same as unfulfilled requirements, which m
 
 ## Limitation and known issues
 
-While this is a preview capability, there are certain limitations.
+We're aware of the following limitations:
 
 - Resource of type Account, Equipment, Pool and Facility are not supported. The agent currently supports User, Contact, or Crew.
-- The resource must not be part of a crew during the entire optimization range selected.
+- The resource must not be part of a crew during the entire optimization range.
 - The agent doesn’t consider fulfillment preferences of a requirement.
 - The agent will not consider partially fulfilled resource requirements
 - The agent needs to run when the resource is available for work. They can’t be on break, off work, traveling to or working on an existing booking.
 - The agent works best with Field Service environments that don’t have the Resource Scheduling Optimization add-on installed. Customers with this add-on should use the single resource optimization instead.
 
-Troubleshooting tips
+## Troubleshooting FAQ
+
+### Eligible bookings
+
 The agent needs to be have eligible bookable resource bookings and unfulfilled resource requirements in order to suggest a schedule. You can get an error message “No bookings or requirements were found (confirm text)” if you run the agent where there are no existing bookings (or bookings are ineligible per constraints [see section above] AND there are no eligible resource requirements (view is empty or returning items that cannot be added to the resource’s schedule). This can also happen if the locations are too far apart – say the resource is based in New York City but bookings/requirements are in Miami.
 
 Existing bookings which have an Optimization Method of Do Not Move are ineligible to be included in a valid suggested schedule, meaning:
@@ -58,3 +61,7 @@ Existing bookings which have an Optimization Method of Do Not Move are ineligibl
 
 > [!NOTE]
 > If the bookings above were set to Optimize then the agent would suggest a schedule that rectifies the issues.
+
+### Set priority values and optimization method
+
+If the agent doesn't pick up requirements or bookings at all, make sure your [priorities have a numeric priority value](soa-setup.md#create-or-update-priority-values) set and that you defined the [optimization method for the booking statuses](soa-setup.md#create-or-update-optimization-method-for-booking-status).

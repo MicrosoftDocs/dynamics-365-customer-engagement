@@ -76,6 +76,14 @@ You can further influence the suggested schedule via the following constraint se
 
 A dispatcher can review the suggested schedule before applying it for the resource. They can compare the original with the suggested schedule on the Gantt chart together with the travel routes or see the suggestions in a list view.
 
+The following screenshot shows a suboptimal schedule for a resource. An important job was manually scheduled outside work hours and leads to double-booking during the morning.
+
+:::image type="content" source="media/soa-original-schedule.png" alt-text="Screenshot of a schedule with overlapping bookings for a resource.":::
+
+After running the Schedule Operations Agent, it suggests a new schedule without overlaps, focused on high-priority work, and optimized travel time - all within the resource's working hours.
+
+:::image type="content" source="media/soa-optimized-schedule.png" alt-text="Screenshot of an optimized schedule that respects priorities and work hours.":::
+
 To accept a suggested schedule, select Apply. You can also choose to Adjust settings and try again or Cancel the optimization request without making any changes to the resource’s schedule.
 
 For optimized schedules across multiple days, use the date picker on the map view to see the travel route comparison for each day.
