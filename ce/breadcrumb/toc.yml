@@ -12,6 +12,9 @@
     - name: Customer Service
       tocHref: /dynamics365/customer-service/
       topicHref: /dynamics365/customer-service/index
+    - name: Contact Center
+      tocHref: /dynamics365/contact-center/
+      topicHref: /dynamics365/contact-center/index
     - name: Dynamics 365 Customer Service
       tocHref: /dynamics365/unified-service-desk/
       topicHref: /dynamics365/unified-service-desk/unified-service-desk  
