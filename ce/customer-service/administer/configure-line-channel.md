@@ -1,7 +1,7 @@
 ---
 title: Configure a LINE channel
 description: Instructions to configure a LINE channel.
-ms.date: 06/14/2024
+ms.date: 02/21/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,9 +17,6 @@ ms.collection:
 Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
 The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
-
-> [!NOTE]
-> The LINE channel isn't available in the Government Community Cloud (GCC) region.
 
 ## Prerequisites
 
