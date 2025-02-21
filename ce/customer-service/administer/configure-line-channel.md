@@ -92,13 +92,13 @@ If a customer starts a conversation from the LINE website and then later switche
 
 The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../use/oc-notifications.md)
 
-After the LINE social profile is linked to a customer or contact record by the agent, subsequent LINE conversations are linked to the customer records and the customer summary is populated.
+After the system links the LINE social profile to a customer or contact record by the agent, subsequent LINE conversations are linked to the customer records, and then the customer summary is populated.
 
-If the customer isn't identified by name, a new contact record can be created.
+If the system doesn't identify the customer by name, a new contact record can be created.
 
 ## Privacy notice
 
-By enabling this feature, your data is be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
+If you enable this feature, your data is shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
 Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws related to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
 
