@@ -78,7 +78,7 @@ You can add messages or questions to a Copilot Studio IVR agent to create a post
 ## Enable post-call survey in phone number settings
 
 > [!Note]
-> Enabling the post-call survey feature isn't required for the representative initiated scenario.
+> Enabling the post-call survey feature isn't required for the customer service representative (service representative or representative) initiated scenario.
 
 To route the customer to the survey agent automatically after the agent hangs up, perform the following steps:
 
