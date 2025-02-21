@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 Use the **Voice call experiences** page in Contact Center admin center or Customer Service admin center to configure the following features:
 
-- [Configure agent call quality feedback survey](#configure-agent-call-quality-feedback-survey)
+- [Configure representative call quality feedback survey](#configure-representative-call-quality-feedback-survey)
 - [Disable taking a customer off hold automatically](#disable-taking-a-customer-off-hold-automatically)
 
 ## Configure representative call quality feedback survey 
