@@ -1,6 +1,6 @@
 ---
 title: Enable missed notifications
-description: Learn about managing notifications that are missed by representatives.
+description: Learn about managing notifications that the representatives miss.
 ms.date: 02/21/2025
 ms.topic: how-to
 author: neeranelli
@@ -14,12 +14,12 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-With the missed notifications feature, you can choose to automatically set customer service representative (service representative or representative) presence to inactive, so that no new tasks will be assigned when service representatives miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification has been missed will be displayed on the agent dashboard. Representatives can reset their status by using the reset presence option that's displayed with the notification or by manually changing their status.
+With the missed notifications feature, you can choose to automatically set agent presence to inactive, so that no new tasks are assigned when customer service representatives (service representatives or representatives) miss notifications for incoming chat requests. In addition to the status change, a message bar indicating that a notification has been missed will be displayed on the agent dashboard. Representatives can reset their status by using the reset presence option displayed with the notification or by manually changing their status.
 
 > [!IMPORTANT]
 > 
 > - Missed notifications won't work if **Away** is included as an allowed presence for work streams. Learn more in [Understand and create work streams](../work-streams-introduction.md).
-> - Missed notifications is not supported in Omnichannel for Customer Service on Unified Service Desk.
+> - Missed notifications aren't supported in Omnichannel for Customer Service on Unified Service Desk.
 
 ## Enable automatic update of representative presence when a notification is missed
 
