@@ -24,13 +24,13 @@ To set up pay-as-you-go billing for an environment, you need an active Azure sub
 
 To keep track of the cost, you can view usage and billing information.
 
-The Scheduling Operations Agent consumes Microsoft Copilot Studio messages when a user runs it. The number of messages charged depend on the complexity of the optimization operation.
+The Scheduling Operations Agent consumes Microsoft Copilot Studio messages when a user runs it. The number of messages charged depends on the complexity of the optimization operation.
 
 ## Enable the Scheduling Operations Agent
 
 1. Open the Field Service app.
 1. Change to the Resources area and go to Scheduling Parameters > Resource Scheduling.
-1. On the Agent tab, turn on Scheduling Operations Agent (Preview).
+1. Go to the Agents tab and turn on Scheduling Operations Agent (Preview).
 
 :::image type="content" source="media/soa-enable-agent.png" alt-text="Screenshot of the resource scheduling settings that enables the agent.":::
 
@@ -47,18 +47,18 @@ Bookable resources that the agent supports must be of type User, Contact, or Cre
 
 The agent needs to know if it can move or delete scheduled or committed bookable resource bookings in favor of unfulfilled requirements that better match the optimization goals. We introduced a new property for booking statues called Optimization Method.
 
-1. In the Field Service app, go to the Resources area.
-1. Select Booking Settings > Booking Statuses. Remove all filters from the view to see all statuses.
-1. For every booking status, set the Optimization Method:
+1. Open the Field Service app and go to the Resources area.
+1. Select Booking Settings > Booking Statuses. To see all statuses, remove all filters from the view.
+1. Set the Optimization Method for each booking status:
 
-    - Optimize: Move or delete bookings with these statuses as necessary to generate an optimal schedule. Typically, these are the statuses where a booking is not yet in progress. For example: scheduled or committed.
-    - Do Not Move: Preserve the start time of any bookings with these statuses so the agent won’t change them. This status is the default option for all statuses. For such bookings, the agent only updates the travel if a previous booking is moved or changed.
-    - Ignore: Indicate to the agent that it should override any bookings with these statues. It can to move or create new bookings on top.
+    - Optimize: Move or delete bookings with these statuses as necessary to generate an optimal schedule. Typically, bookings with these statuses aren't in progress yet. For example: scheduled or committed.
+    - Do Not Move: Preserve the start time of any bookings with these statuses so the agent doesn't change them. This status is the default option for all statuses. For such bookings, the agent only updates the travel if a previous booking is moved or changed.
+    - Ignore: Indicate to the agent that it should override any bookings with these statues. It can move or create new bookings on top.
 
 :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method.":::
 
 > [!TIP]
-> In addition to the default booking statuses, we recommend that you create a new booking status, such as Locked, with Optimization Method set to Do Not Move. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs. Also,if you do not adjust the Optimization Method for Committed or Scheduled statuses, then the agent has very little flexibility in making changes to an existing schedule, and the suggested schedule may not be as desired.
+> In addition to the default booking statuses, we recommend that you create a new booking status, such as Locked, with Optimization Method set to Do Not Move. Dispatchers can use that booking status to selectively indicate which bookings to preserve when the agent runs. Also, if you don't adjust the Optimization Method for Committed or Scheduled statuses, then the agent has little flexibility in making changes to an existing schedule.
 
 ## Create or update priority values
 
@@ -72,3 +72,9 @@ To help the agent decide which bookings or resource requirements are more import
 
 > [!TIP]
 > We recommend using priority values that are clearly distinguishable. For example, 100 for the highest priority emergency work, 75 for high priority work, 50 for moderate priority, and so on. Avoid using values too close to each other to help the agent effectively distinguish priorities.
+
+## Next step
+
+[Run the Scheduling Operations Agent (preview)](soa-run.md)
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]

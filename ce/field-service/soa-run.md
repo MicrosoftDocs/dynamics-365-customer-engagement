@@ -79,3 +79,9 @@ A dispatcher can review the suggested schedule before applying it for the resour
 To accept a suggested schedule, select Apply. You can also choose to Adjust settings and try again or Cancel the optimization request without making any changes to the resource’s schedule.
 
 For optimized schedules across multiple days, use the date picker on the map view to see the travel route comparison for each day.
+
+## Next steps
+
+- [Tips and troubleshooting for the Scheduling Operations Agent (preview)](soa-tips.md)
+
+[!INCLUDE [footer-banner](../includes/footer-banner.md)]
