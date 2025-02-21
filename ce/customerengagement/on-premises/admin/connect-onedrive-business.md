@@ -2,7 +2,6 @@
 title: "Enable OneDrive for Business in Dynamics 365 Customer Engagement apps"
 description: "Create and manage private documents with OneDrive for Business. OneDrive needs to be enabled before documents can be accessed in Customer Engagement apps."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 

@@ -3,10 +3,10 @@ title: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
 description: How to set up Nuance Cloud IVR bot integration with voice channel
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:  
-ms.date: 09/01/2023
+ms.date: 01/28/2025
 ms.custom: bap-template 
 ---
 
@@ -47,8 +47,8 @@ Direct Routing lets you to connect to the existing Nuance telephony infrastructu
 1. Configure outbound voice routing rules for Azure Communication Services direct routing. Follow the steps in [Creating Voice Routing rules](/azure/communication-services/quickstarts/telephony/voice-routing-sdk-config?pivots=platform-azp#creating-voice-routing-rules) to set up the voice routing rules.
 1. Create an Azure Function to redirect the call from Azure Communication Services to the SBC with the following environment variables:
    - `redirectNumber`: Number that you want your incoming calls to be redirected to.
-   - `dialedNumberConnectionString`: Azure Communication Services connection string for the dialed number.
-   - `dialedNumber`: outbound number that your incoming calls are routed to.
+   -  Azure Communication Services string for the dialed number.
+   - `dialedNumber`: Outbound number that your incoming calls are routed to.
 1. Navigate to your Azure Communication Services number and integrate the Event Grid event type, `Microsoft.Communication.IncomingCall`, with your Azure function. You can perform one of the following actions:
    - Through the Azure portal:
       - Select **Event** and then select **Create Event Subscription**.
@@ -111,12 +111,12 @@ Use the following sample code to disable the transcript from being displayed:
 
 ## Define field requirements for call intent
 
-Nuance Professional Services can extend the [**msdyn_ocexternalcontext**](../develop/reference/entities/msdyn_ocexternalcontext.md) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
+Nuance Professional Services can extend the [External context (msdyn_ocexternalcontext) table](../../developer/reference/entities/msdyn_ocexternalcontext.md) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
     
 See [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
 
 ## View IVR transcripts
 
-When an agent accepts a call that’s been transferred from the Nuance Cloud IVR bot, the [Customer Summary](../use/oc-customer-summary.md) page displays the complete information about the customer, along with the conversation transcript of the steps taken by the IVR to resolve the customer issue. 
+When an agent accepts a call that's been transferred from the Nuance Cloud IVR bot, the [Customer Summary](../use/oc-customer-summary.md) page displays the complete information about the customer, along with the conversation transcript of the steps taken by the IVR to resolve the customer issue. 
 
-The app displays an error message if there’s no data or  partial customer data.
+The app displays an error message if there's no data or  partial customer data.

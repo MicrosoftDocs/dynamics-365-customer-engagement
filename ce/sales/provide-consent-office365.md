@@ -15,14 +15,6 @@ Dynamics 365 Sales uses Microsoft 365 data to generate the following insights ba
 - [Relationship analytics KPIs and health score](relationship-analytics.md)
 - [Who knows whom suggestions](who-knows-whom.md)
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium and Microsoft 365 <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Global administrator in Microsoft 365 <br> |
-
-
 ## Things to consider
 
 Before you provide consent, review the following information:

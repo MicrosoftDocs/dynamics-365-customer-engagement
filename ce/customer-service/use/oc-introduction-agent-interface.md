@@ -5,6 +5,7 @@ ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection: get-started
 ---
 
@@ -13,7 +14,7 @@ ms.collection: get-started
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-will-be-removed-in-june-2024).
+> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-removed-as-of-june-2024).
 
 The Omnichannel for Customer Service app for Dynamics enables organizations to instantly connect and engage with their customers via channels like Chat for Dynamics 365 Customer Service and SMS. The app provides context rich multitasking experience across different customer sessions.
 
@@ -51,8 +52,6 @@ Omnichannel for Customer Service provides the following key capabilities:
 
 When you start a chat session in Omnichannel for Customer Service, the agent interface has the following components:
 
-- Session panel
-
 - Communication panel
 
 - Application tab panel
@@ -63,14 +62,6 @@ When you start a chat session in Omnichannel for Customer Service, the agent int
 
  > [!div class=mx-imgBorder]
  > ![Session panel in Omnichannel for Customer Service app.](../media/oceh-interface.png "Session panel in Omnichannel for Customer Service app") 
-
-
-## Session panel
-
-The vertical panel on the left side is the session panel that allows you (the agent) to work on multiple customer sessions simultaneously. In addition, as an agent you can switch between sessions without losing context of the conversation and customer details. The ability to handle multiple sessions simultaneously (while preserving customer context) allows you to resolve issues faster and achieve higher productivity.
-
- > [!div class=mx-imgBorder]
- > ![Session panel in the agent interface of Omnichannel for Customer Service app.](../media/oceh-agent-interface-session-panel.png "Session panel in the agent interface of Omnichannel for Customer Service app")
 
 ## Communication panel
 

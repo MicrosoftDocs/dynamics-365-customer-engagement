@@ -2,7 +2,6 @@
 title: "Use Report Wizard in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create, edit, or copy a report with the Report Wizard. Organize and lay out your data, include a chart, then finish, test, and refine the report."
 ms.custom:
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3b79a467-ae11-4c84-891e-9d1c790194b6
 caps.latest.revision: 38
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

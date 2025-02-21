@@ -2,7 +2,6 @@
 title: "Detect duplicate data in Dynamics 365 Customer Engagement (on-premises)"
 description: "Dynamics 365 uses duplicate detection rules that automatically check new records against old ones. It's also recommended to schedule duplicate detection jobs."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -1,5 +1,5 @@
 ---
-title: Set up frontline workers in your organization (contains video)
+title: Set up frontline workers in your organization
 description: Learn how to set up frontline workers through the Dynamics 365 Field Service get started page.
 ms.author: jacoh
 author: jasonccohen
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 Frontline workers in Dynamics 365 Field Service are people in your organization who are primarily scheduled for onsite jobs and who use the Dynamics 365 Field Service mobile app for their work. Set up frontline workers to ensure they can immediately engage on work order. Technically, frontline workers are a *bookable resource* record in Field Service.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWN1Bb]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=78a4ad09-8320-4895-a69f-100cbf46ac14]
 
 On the [**Get started** page](field-service-get-started.md), admins can use a single form to set up frontline workers in their organizations to quickly get up and running.
 

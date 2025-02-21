@@ -5,16 +5,19 @@ ms.date: 02/21/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure an Apple Messages for Business channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a new way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
+Many customers use the Apple Messages app for their daily communication needs. The Apple Messages app also supports Messages for Business, a way to apply iMessage's richer communication capabilities to engage with businesses. The asynchronous nature of this channel gives customers the convenience of resolving their issues when they find time, in contrast to real-time channels such as Chat for Dynamics 365, where the session ends when the chat window is closed.
 
-Apple Messages for Business supports rich messaging experiences, allowing customers and agents to converse through convenient and engaging interactions. Learn more at [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business)
+Apple Messages for Business supports rich messaging experiences, allowing customers and agents to converse through convenient and engaging interactions. Learn more at [Introduction to Messages for Business - Apple Developer](https://developer.apple.com/design/human-interface-guidelines/messages-for-business).
+
+> [!IMPORTANT]
+> Apple requires that you complete a mandatory [onboarding process](https://go.microsoft.com/fwlink/?linkid=2296920) before you can configure the Apple Messages for Business channel. To get started, contact Microsoft support.
 
 ## Prerequisites
 
@@ -26,7 +29,6 @@ Before you configure the Apple Messages for Business channel in Contact Center a
 
 
 ## Configure an Apple Messages for Business channel instance
-
 
 1. In the site map of Contact Center admin center or Customer Service admin center, select **Channels** in **Customer Support**.
 
@@ -73,7 +75,7 @@ Before you configure the Apple Messages for Business channel in Contact Center a
 
 The following video provides information on how to set up the Apple Messages for Business channel in Dynamics 365 Customer Service.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1djXE]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3c70bbde-4bb0-4139-a329-645f457acf74]
 
 ## Configure authentication settings
 
@@ -93,7 +95,7 @@ Learn more at [Rich messages in the conversation control](../use/rich-messages-c
 
 The following video provides information on how to view a conversation on the Apple Messages for Business channel in Dynamics 365 Customer Service.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW1dmCE]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=b17f16e2-396e-4296-aa7a-97273d439756]
 
 ### Related information
 

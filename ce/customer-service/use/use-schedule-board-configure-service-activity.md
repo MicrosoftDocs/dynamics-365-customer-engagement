@@ -1,10 +1,11 @@
 ---
-title: Use the schedule board to configure service activity (Dynamics 365 Customer Service) | MicrosoftDocs
+title: Use the schedule board to configure service activity (Dynamics 365 Customer Service)
 description: Learn how to schedule a service activity using the schedule board in Dynamics 365 Customer Service.
 ms.date: 07/08/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -213,9 +214,9 @@ After you create a multi-day booking across multiple days, weeks, or months, you
 
 ## Use the appointments feature in resource scheduling
 
-Organizations often use appointments in Dynamics 365. For example, an agent might create a service appointment to help a customer with an issue. Other examples include organizations that create appointments because of integrations with other systems.
+Organizations often use appointments in Dynamics 365. For example, a customer service representative (service representative or representative) might create a service appointment to help a customer with an issue. Other examples include organizations that create appointments because of integrations with other systems.
 
-You can display Dynamics 365 Appointments (Microsoft Dataverse appointments) on the Customer Service schedule board alongside bookings, and configure them to be considered during scheduling to better understand whether an agent or bookable resource is available.
+You can display Dynamics 365 Appointments (Microsoft Dataverse appointments) on the Customer Service schedule board alongside bookings, and configure them to be considered during scheduling to better understand whether a service representative or bookable resource is available.
 
 For information on how to configure and use appointment scheduling, see [Include appointments in scheduling](/dynamics365/field-service/appointment-scheduling).
 

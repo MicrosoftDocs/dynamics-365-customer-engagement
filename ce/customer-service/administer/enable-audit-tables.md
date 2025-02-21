@@ -3,7 +3,7 @@ title: Search Customer Service admin logs in Microsoft Purview
 description: Learn how to view and search audited events in the Microsoft Purview audit log to track admin activity in your organization.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 02/27/2024

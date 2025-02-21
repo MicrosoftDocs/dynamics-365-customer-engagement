@@ -3,7 +3,6 @@ title: "Reporting and analytics guide for Dynamics 365 Customer Engagement (on-p
 description: "Get familiar with the data and visualization features in Dynamics 365 Customer Engagement (on-premises), including reports, charts, and dashboards."
 ms.custom: 
   - NaosGA
-ms.date: 09/30/2017
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

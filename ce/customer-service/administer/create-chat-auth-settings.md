@@ -1,11 +1,11 @@
 ---
 title: Configure authentication settings
 description: Perform the steps mentioned in this article to configure chat and channel authentication settings in Omnichannel for Customer Service.
-ms.date: 07/08/2024
+ms.date: 12/05/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ---
 
 # Configure authentication settings
@@ -41,7 +41,7 @@ You can create a chat authentication setting record in the admin app.
 
     - **Name**: Enter a name for the authentication setting.
     - **Owner:** Accept the default value or change it to a required value.
-    - **Authentication type:** By default, OAuth 2.0 implicit flow can't be edited.
+    - **Authentication type:** By default, OAuth 2.0 can't be edited.
     - **Public key URL**: Specify the public key URL of the domain. This URL is used to validate the information that comes in from the JavaScript Object Notation (JSON) Web Token (JWT) of the domain that a customer signed into.
     - **JavaScript client function**: Specify the JavaScript client function to use for authentication. This function extracts a token from the token endpoint.
 
@@ -58,7 +58,7 @@ You can create a chat authentication setting record in the admin app.
 
    - **Name**: A name for the authentication setting.
    - **Channel Type**: **Live chat**.
-   - **Authentication Type**: OAuth 2.0 implicit flow 
+   - **Authentication Type**: OAuth 2.0
 1. Select **Next** and on the **Details** page, enter the following information:
    - **Token Custom Action**: The custom code reference to validate the tokens that are provided by your identity provider and return the user ID of the authenticated user.
    - **Token URL**: The URL used to exchange your authorization code for the token passed to your custom action to acquire the user ID.
@@ -83,7 +83,7 @@ If you add authentication for a chat widget on a website developed using Power A
 - **Public key URL**: `<portal_base_URL>/_services/auth/publickey`
 - **JavaScript client function**: `auth.getAuthenticationToken`
 
-The Power Apps portal tries to automatically link a contact record to the conversation through the context passed in its JavaScript client function.
+For an out of box Power Apps portal, the javascript client function returns a token, which by default has the proper claim to link a contact record to the conversation. This token contains the sub claim with the contact ID of the logged in user. This sub claim provides a unique identifier for Omnichannel to automatically identify and link the contact record from your Dataverse environment. Learn more in the table of the section that follows.
 
 ### Setup for custom portals
 
@@ -172,8 +172,8 @@ If you need to use multiple public keys, your public key endpoint can return a s
 
       ```JavaScript
         { 
-            "sub" : "87b4d06c-abc2-e811-a9b0-000d3a10e09e",  
-            "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"87b4d06c-abc2-e811-a9b0-000d3a10e09e\"}", 
+            "sub" : "aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb",  
+            "lwicontexts" :"{\"msdyn_cartvalue\":\"10000\", \"msdyn_isvip\":\"false\", \"portalcontactid\":\"aaaaaaaa-0000-1111-2222-bbbbbbbbbbbb\"}", 
             "iat" : 1542622071, 
             "iss" : "contosohelp.com", 
             "exp" : 1542625672, 

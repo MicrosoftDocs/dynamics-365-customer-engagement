@@ -2,7 +2,6 @@
 title: "Install Microsoft Dynamics 365 Server Front End and Back End server roles | Microsoft Docs"
 description: Learn how to install a front end server in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
@@ -145,7 +144,7 @@ On the computer named *CRMbackend*, complete the following procedure.
         > [!IMPORTANT]
         >  For each service, we recommend that you select a low-privilege domain user account that is dedicated to running these services and is not used for any other purpose. Additionally, the user account that is used to run a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service cannot be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user. This domain account must be a member of the Domain Users group.  
         >   
-        >  If you select to run the [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] service under a domain user account that is not a domain administrator or a local administrator, you must set a local security policy after you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] for the [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] service to work correctly. Also, depending on the password policies that you have implemented for your organization, the password for the user may expire. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [How to use the ASP.NET utility to encrypt credentials and session state connection strings](https://go.microsoft.com/fwlink/p/?linkid=53266)  
+        >  If you select to run the [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] service under a domain user account that is not a domain administrator or a local administrator, you must set a local security policy after you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] for the [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] service to work correctly. Also, depending on the password policies that you have implemented for your organization, the password for the user may expire.
   
     -   **VSS Writer Service.** The [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] VSS Writer Service provides an interface to back up and restore [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] data by using the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] Volume Shadow Copy Service (VSS) infrastructure.  
   

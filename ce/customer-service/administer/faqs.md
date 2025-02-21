@@ -5,7 +5,7 @@ ms.date: 10/09/2024
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -41,7 +41,7 @@ Some of the supported channels are LINE and Facebook. For the complete list of s
 
 ### Are Chat and the associated Omnichannel for Customer Service capabilities available as part of my Dynamics 365 Customer Service license?
 
-No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. For more information about licenses and pricing, refer to the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). For more information, go to [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
+No, Chat and related capabilities in Omnichannel for Customer Service require a separate add-in. For more information about licenses and pricing, refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544). You can also purchase add-ins on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). For more information, go to [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true)
 
 ### How do I get started?
 
@@ -212,6 +212,11 @@ The widget can show on any portal you want. You can copy the HTML script tag any
 ### If I have the widget on multiple pages or websites, what happens when I navigate across the pages with an ongoing chat?
 
 The same widget persists the chat as you cross different pages or websites.
+
+### Does the live chat widget meet the Web Content Accessibility Guidelines to publish to external websites?
+
+Yes, the live chat widget meets Microsoft Accessibility Standards, which include the Web Content Accessibility Guidelines (WCAG). 
+Learn more about Microsoft accessibility policies in the [Trust Center](https://www.microsoft.com/en-us/trust-center/compliance/accessibility).
 
 ## Routing and work distribution
 

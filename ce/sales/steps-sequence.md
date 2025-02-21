@@ -1,7 +1,7 @@
 ---
 title: Add steps to define activities for sequences
 description: Explore steps to define activities for sequences in sales accelerator, including A/B test, email activity, text message activity and more.
-ms.date: 06/28/2024
+ms.date: 01/24/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
@@ -15,13 +15,6 @@ ms.custom:
 # Add steps to define activities for sequences
 
 Add steps to define activities for sequences in the sales accelerator to display in the work list and Up next widget.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, and [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Types of steps
 
@@ -224,7 +217,7 @@ To add the wait time step:
 
 1. In the sequence designer page, select the **Add** (**+**) icon under a step.  
 1. On the **Add an action or other element** dialog box, under the **Steps** tab, select **Set wait time**.  
-1. On the **Wait** activity pane, choose the duration in days and hours that you want sellers to wait before they perform the next activity. The maximum wait time is 30 days.  
+1. On the **Wait** activity pane, choose the duration in days and hours that you want sellers to wait before they perform the next activity. The maximum wait time is 90 days.  
 
     :::image type="content" source="media/sequence-activity-add-set-wait-time.png" alt-text="Screenshot of set wait time.":::  
 
@@ -235,7 +228,7 @@ To add the wait time step:
 
 ## Related information
 
-[Create and activate a sequence](create-and-activate-a-sequence.md)      
-[Add condition steps to sequences](adaptive-sequence.md)    
-[Add command steps to sequences](command-sequence.md)   
+[Create and activate a sequence](create-and-activate-a-sequence.md)  
+[Add condition steps to sequences](adaptive-sequence.md)  
+[Add command steps to sequences](command-sequence.md)  
 [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
