@@ -14,9 +14,9 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time, unlike real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
+Many customers use social messaging channels like LINE for their personal communication needs. Many also prefer using these messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved when they have time. This functionality is different from real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window is closed.
 
-The LINE channel gives you an incredible opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
+The LINE channel gives you an opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience.
 
 ## Prerequisites
 
@@ -49,11 +49,11 @@ After completing the prerequisites, you can add the LINE channel for your organi
       - **Channel secret:** Application secret of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Basic settings**, and then copy the value in the **Channel secret** box.
       - **Channel access token:** Token of the LINE application. Go to the [LINE developer portal](https://developers.line.biz/console/) > **Provider** > **Channel** (ensure that it's a Messaging API) > **Messaging API**, and then copy the value in the **Channel access token (long-lived)** box.
    
-   1. On the **Callback information** page, copy the text in the **Callback URL** box. You'll use the copied information in the LINE account.
+   1. On the **Callback information** page, copy the text in the **Callback URL** box. You use the copied information in the LINE account.
    1. Select **Done**.
 1. To configure routing and work distribution, you can create a [workstream](create-workstreams.md) or select an existing one.
 
-1. Select the workstream that you've created for the LINE channel and on the workstream page, select **Set up LINE**, and configure the following options:
+1. Select the workstream that you created for the LINE channel and on the workstream page, select **Set up LINE**, and configure the following options:
    1. On the **LINE** page, select an account from **Available LINE accounts**.
    
    1. On the **Language** page, select a language.
@@ -82,13 +82,13 @@ After completing the prerequisites, you can add the LINE channel for your organi
 
 ## Customer and agent experiences
 
-A customer can initiate a conversation in any of the following ways:
+A customer can start a conversation in any of the following ways:
 
 - LINE app on a mobile device
 - LINE app on a desktop device
 - [line.me/en/](https://line.me/en/)
 
-If a customer initiates a conversation from the LINE website and then later switches to the mobile device, the previous conversation persists and the customer can continue the conversation.
+If a customer starts a conversation from the LINE website and then later switches to the mobile device, the previous conversation persists and the customer can continue the conversation.
 
 The agent receives the notification of the incoming chat request, along with customer details. More information: [View notifications](../use/oc-notifications.md)
 
@@ -98,9 +98,9 @@ If the customer isn't identified by name, a new contact record can be created.
 
 ## Privacy notice
 
-By enabling this feature, your data will be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Please consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
+By enabling this feature, your data is be shared with LINE and flow outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). Consult the feature technical documentation for more information [here](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws relating to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws related to monitoring, recording, and storing communications with their end-users. This includes adequately notifying end-users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end-users may be monitored, recorded, or stored.
 
 ### Related information
 
