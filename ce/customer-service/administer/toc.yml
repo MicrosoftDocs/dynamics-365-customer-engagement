@@ -658,7 +658,7 @@
         href: overview-bots.md
       - name: Best practices for configuring bots
         href: configure-bot-best-practices.md
-      - name: Manage your bots
+      - name: Manage your agents
         href: manage-your-bots.md
       - name: Integrate a Copilot Studio agent
         href: configure-bot-virtual-agent.md
