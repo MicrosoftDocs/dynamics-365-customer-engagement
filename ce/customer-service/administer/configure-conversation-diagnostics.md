@@ -24,13 +24,16 @@ You can then use the conversation lifecycle events data from Customer Service in
 
 ## Prerequisites
 
-The user must be a Power Platform administrator or System Administrator.
+- The user must have access level Contributor or higher on Azure Services to set up, and minimum Reader to query data in Application Insights.
+
+- The user must be a Power Platform administrator or System Administrator.
+- The environment is a managed environment.
 
 ## Pricing
 
 The conversation diagnostics data is stored in Azure Application Insights database. Azure Application Insights is an extension of Azure Monitor and charges for data ingested. The two log ingestion plans are Basic and Analytic logs. Learn more about the pricing for your business requirements at [Azure Monitor pricing](https://azure.microsoft.com/pricing/details/monitor/#pricing).
 
-he following table lists the analysis of the average data consumption in Application Insights - 
+The following table lists the analysis of the average data consumption in Application Insights
  
 | Data Consumption                                                                 | Size in kilobytes (average<sup>**1**</sup>) |
 |----------------------------------------------------------------------------------|------------------------------|
@@ -40,7 +43,7 @@ he following table lists the analysis of the average data consumption in Applica
  
 <sup>**1**</sup> The average values can vary based on factors, like the number of rules, conditions defined within a ruleset, and size of the conditions (number of characters).
  
-Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it consumes approximately 4.88 MB of data. For information about routing stages, Understand routing stages.
+Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it consumes approximately 4.88 MB of data. Learn about routing stages in [Understand routing stages](unified-routing-diagnostics.md#understand-routing-stages-and-diagnostics).
 
 ## Set up a connection with Azure Application Insights
 
