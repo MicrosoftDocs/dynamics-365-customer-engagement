@@ -1,5 +1,5 @@
 ---
-title:  Enable voice call experiences
+title: Enable voice call experiences
 description: Learn how to configure representative call quality feedback and automatically remove a customer from hold.
 author: gandhamm
 ms.author: mgandham
