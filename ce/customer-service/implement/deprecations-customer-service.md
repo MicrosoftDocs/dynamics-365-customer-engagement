@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Rich text editor classic experience to be deprecated in April 2025
 
-Starting April 19, 2025, we'll no longer support the classic rich text editor experience in Customer Service apps. The new, modernized rich text editor is the default experience. For more information, refer to [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
+Starting April 19, 2025, we'll no longer support the classic rich text editor experience in Customer Service apps. The new, modernized rich text editor is the default experience, and customers who are using the classic experience will be upgraded automatically. For more information, refer to [Modern text editor enhancements](/power-apps/maker/model-driven-apps/rich-text-editor-control#modern-text-editor-enhancements).
 
 ## Case and knowledge suggestions in smart assist are deprecated
 
