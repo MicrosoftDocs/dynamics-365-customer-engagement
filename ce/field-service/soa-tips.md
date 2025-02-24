@@ -34,7 +34,7 @@ Relevant properties include:
 The agent treats existing bookings the same as unfulfilled requirements, which might lead to unexpected results. For example, if a dispatcher asks the agent for a suggested schedule at 10:00 am, the agent might suggest replacing the 10:20 am booking with higher priority work. You can avoid such cases:
 
 1. Use a custom time range and set it to start an hour or two from the current time.
-1. Set bookings that you want to persist to a booking status with an **Optimization Method** of *Do Not Move*.
+1. Set bookings that you want to persist to a [booking status with an **Optimization Method** of *Do Not Move*](soa-setup.md#create-or-update-optimization-method-for-booking-status).
 1. Create a requirement view that contains no requirements and choose that view in the agent settings. That way, the agent suggests a schedule that only optimizes the order of existing bookings. It’s especially helpful if you simply want to optimize the travel route for the day. However, keep in mind that the agent can still remove bookings that don’t match other selected settings or where the promised time window expired.
 
 ## Limitation and known issues
