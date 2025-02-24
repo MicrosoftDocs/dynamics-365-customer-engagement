@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 11/20/2024
+ms.date: 02/24/2025
 ms.custom: bap-template
 ---
 
@@ -30,6 +30,6 @@ You can review knowledge articles created by the Customer Knowledge Management A
 1. Optionally, you can use Copilot to make changes to the article automatically by typing what you want in **Revise with instructions**, and then selecting **Re-generate**. For example, you could instruct it to make the content more concise, and then select **Re-generate**
 1. Once done, you can select **Mark as reviewed**. Or, if you have the permissions, you can select **Split** and publish the article.
 
-## ## Related information
+## Related information
 
 [Manage Customer Knowledge Management Agent (preview)](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent-preview)
