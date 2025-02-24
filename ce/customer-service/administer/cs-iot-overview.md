@@ -60,7 +60,7 @@ The Azure components and services that are involved with Connected Customer Serv
 
 [Service bus queue](/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues)
 
-Connected Customer Service provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it is queued here.
+Connected Customer Service provides a queue for both inbound and outbound messages (commands) flowing between Dynamics 365 for Customer Engagement and Azure. When an IoT alert is sent to Dynamics 365 for Customer Engagement, or a command is sent from Dynamics 365 for Customer Engagement to the IoT hub, it's queued here.
 
 [Logic Apps](https://azure.microsoft.com/services/logic-apps/)
 
