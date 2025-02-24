@@ -38,7 +38,7 @@ Perform the following steps:
 
 ## Enable voice calls and chats to be accepted automatically
 
-When a representative rejects an incoming conversation, it is routed back to the queue. This impacts customer SLAs, queue wait times, and customer satisfaction. To avoid such scenarios, a representative can automatically accept a conversation, either instantly or after the timer elapses.
+When a representative rejects an incoming conversation, it's routed back to the queue. This impacts customer SLAs, queue wait times, and customer satisfaction. To avoid such scenarios, a representative can automatically accept a conversation, either instantly or after the timer elapses.
 
 Perform the following steps to enable the incoming conversations to be assigned automatically:
 
