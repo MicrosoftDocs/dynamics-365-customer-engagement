@@ -23,7 +23,7 @@ Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. Af
 
 1. Enter the [email associated with your Microsoft work account](/entra/fundamentals/sign-up-organization).
 
-1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country,phone number, and credit card details.
+1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country, phone number, and credit card details.
 
    The trial takes a few minutes to set up and load. When it's ready, you'll see **Launch trial**.
 
