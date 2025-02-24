@@ -16,10 +16,10 @@ ms.collection:
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
-An agent session is defined as a conversation in which it is invoked. The agent can be invoked at the start, middle, or end of a conversation.
+An AI agent (agent) session is defined as a conversation in which it's invoked. The agent can be invoked at the start, middle, or end of a conversation.
 
-- If two different agents are invoked in the same conversation, it is considered a single conversation.
-- A conversation with an agent that's escalated to a human agent is considered an agent conversation.
+- If two different agents are invoked in the same conversation, it's considered a single conversation.
+- A conversation with an agent that escalates to a customer service representative is considered an agent conversation.
 
 The add-in applications such as Chat, Digital Messaging, and Voice channel are licensed per user. Each add-in application is entitled to a specific number of agent sessions. You can also purchase additional agent sessions on the [Microsoft 365 admin center](https://go.microsoft.com/fwlink/?LinkId=866544). Learn more in [Buy add-ons](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide&preserve-view=true).
 
