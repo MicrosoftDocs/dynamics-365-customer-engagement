@@ -13,6 +13,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 ## General
 
 ### What regions are supported?
