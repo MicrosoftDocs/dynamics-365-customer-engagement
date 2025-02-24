@@ -49,7 +49,7 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
     1. In the **Create a queue** dialog, enter the following details:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
-       - **Group number**: A number to [prioritize the queue](#configure-queue-prioritization).
+       - **Queue priority**: A number to [prioritize the queue](#configure-queue-prioritization).
     1. Select **Create**. The queue that you created is displayed.
 
        :::image type="content" source="../media/queue-summary-ur.png" alt-text="A screenshot of an advanced queue in admin center.":::
@@ -73,7 +73,7 @@ The queue types allow issues to be routed correctly and help avoid cross-queue a
 
 ## Configure queue prioritization
 
-You can assign a group number to the queue that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller group number over a queue with a larger group number. For example, if you need to prioritize conversations over cases, you can assign group numbers to the corresponding queues accordingly. For the queues that handle conversations, you can assign a group number 1 and for the queues that handle cases, you can assign 2 as the group number. Similarly, you can prioritize one type of work over another. Assign group number 1 to the queue with premium customer chats for higher priority and group number 2 to the queue that handles general customer questions to give it lower priority. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
+You can assign a priority number to the queue that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller number over a queue with a larger number. For example, if you need to prioritize conversations over cases, you can assign queue priority numbers to the corresponding queues accordingly. For the queues that handle conversations, you can assign a number 1 and for the queues that handle cases, you can assign 2 as the priority number. Similarly, you can prioritize one type of work over another. Assign priority number 1 to the queue with premium customer chats for higher priority and priority number 2 to the queue that handles general customer questions to give it lower priority. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
 
 ### Manage queues for unified routing
 

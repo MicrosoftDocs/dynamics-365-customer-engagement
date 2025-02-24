@@ -12,6 +12,9 @@ ms.custom: bap-template
 
 # Use Copilot filters
 
+[!INCLUDE[cc-feature-availability-cs-only](../../includes/cc-feature-availability-cs-only.md)]
+
+
 Copilot filters help you generate responses based on a specific set of topics. Filters provide immediate context and reduce the chance of you getting irrelevant responses when you use Copilot.
 
 > [!NOTE]
@@ -44,5 +47,5 @@ Once you set a filter, the following actions are applicable:
 
 ### Related information
 
-[Enable features in Copilot pane](../administer/copilot-enable-help-pane.md)
+[Enable features in Copilot pane](/dynamics365/contact-center/administer/copilot-enable-help-pane)
 
