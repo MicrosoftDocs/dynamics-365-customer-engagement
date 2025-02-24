@@ -16,7 +16,7 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-You can allow customer service representatives (service representatives or representatives) to create their own personal quick replies that are stored in their context and which they can invoke by using the associated tags during a session with a customer. Representatives can use personal quick replies to respond to customer queries efficiently with minimal turnaround time.
+You can allow customer service representatives (service representatives or representatives) to create their own personal quick replies that are stored in their context. Representatives can invoke personal quick replies by using the associated tags during a session with a customer and use them to respond to customer queries efficiently with minimal turnaround time.
 
 As an administrator, you can use a Power Automate utility to delete unused tags.
 
@@ -28,12 +28,12 @@ As an administrator, you can use a Power Automate utility to delete unused tags.
 
 1. On the **Personal quick replies** tab, set the **Allow agents to create personal quick replies** toggle to **Yes**.
 
-The settings for creating personal quick replies is made available for representatives.
+The settings for creating personal quick replies are made available for representatives.
 
 > [!NOTE]
 >
 > - It can take up to 15 minutes for the setting to take effect.
-> - We recommend that you do not assign the System administrator role to representatives or supervisors to avoid enabling access to other users personal quick replies on the **Quick replies** panel of a conversation.
+> - We recommend that you don't assign the System administrator role to representatives or supervisors to avoid enabling access to other users personal quick replies on the **Quick replies** panel of a conversation.
 
 ### Related information
 
