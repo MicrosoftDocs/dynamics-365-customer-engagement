@@ -1,7 +1,7 @@
 ---
 title: "Connected Customer Service - Overview| MicrosoftDocs"
 description: "Overview of Connected Customer Service."
-ms.date: 08/08/2021
+ms.date: 02/24/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 # Connected Customer Service - Overview
 
-Connected Customer Service enables organizations to transform their service model into a proactive and predictive service model with the availability of IoT diagnostics, IoT device update, and case management on one platform. Agents using Customer Service Hub can diagnose and fix issues remotely, which leads to cost savings and improved customer satisfaction. 
+Connected Customer Service enables organizations to transform their service model into a proactive and predictive service model with the availability of IoT diagnostics, IoT device update, and case management on one platform. Customer service representatives (service representatives or representatives) using Customer Service Hub can diagnose and fix issues remotely, which leads to cost savings and improved customer satisfaction. 
 
 Key benefits of Connected Customer Service:
 
@@ -89,43 +89,43 @@ Queries that Stream Analytics uses are stored to Azure Blob storage.
 - [Connected Customer Service Device Readings (Preview)](cs-iot-visualize-device-readings.md) uses [Azure Time Series Insight (Preview)](/azure/time-series-insights/) to store, process, and query IoT devices measurements from IoT Hub.
 
 > [!NOTE]
-> For more information about additional Azure service offerings, see the [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
+> Learn more about additional Azure service offerings in [Microsoft Azure Trust Center](https://azure.microsoft.com/support/trust-center/).
 
 ## User experience for Connected Customer Service
 
-A list of Connected Customer Service actions that agents can take is as follows:
+A list of Connected Customer Service actions that service representatives can take is as follows:
 
-1. **Convert an IoT alert to a case**: Agents can convert an IoT alert to a case that includes pre-populated IoT alert details.
+1. **Convert an IoT alert to a case**: Representatives can convert an IoT alert to a case that includes pre-populated IoT alert details.
 
   > [!div class="mx-imgBorder"]
   > ![Screenshot of a case with pre-populated IoT alert details.](../media/cs-iot-alert-details.png)
 
-2. **View a customer’s device alert history**: Agents can view a customer’s device alert history by selecting the customer’s account. 
+2. **View a customer’s device alert history**: Representatives can view a customer’s device alert history by selecting the customer’s account. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a customer's device alert history.](../media/cs-iot-customer-device-alert-history.png)
 
-3. **Create a case with multiple devices**: Agents can create a case by selecting multiple devices. 
+3. **Create a case with multiple devices**: Representatives can create a case by selecting multiple devices. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a case with multiple devices.](../media/cs-iot-customer-case-multiple-devices.png)
 
-4. **Send commands to IoT devices**: Agents can send commands to IoT devices. 
+4. **Send commands to IoT devices**: Representatives can send commands to IoT devices. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a command sent to an IoT device.](../media/cs-iot-send-commands-devices.png)
 
-5. **View device history summaries**: Agents can view a device's history summary. 
+5. **View device history summaries**: Representatives can view a device's history summary. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a device's history summary.](../media/cs-iot-view-device-history-summary.png)
 
-6. **Check real-time device readings**: Agents can check real-time device readings. 
+6. **Check real-time device readings**: Representatives can check real-time device readings. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a real-time device readings summary.](../media/cs-iot-realtime-device-reading.png)
 
-7. **View case histories on devices**: Agents can check a case history on a device. 
+7. **View case histories on devices**: Representatives can check a case history on a device. 
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of the case history for a device.](../media/cs-iot-view-case-histories-devices.png)
