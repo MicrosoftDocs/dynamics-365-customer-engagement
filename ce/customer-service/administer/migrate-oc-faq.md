@@ -1,22 +1,22 @@
 ---
 title: Omnichannel for Customer Service app deprecation and migration FAQ
-description: Deprecation and migration FAQ for the Omnichannel for Dynamics 365 Customer Service agent-facing app.
+description: Deprecation and migration FAQ for the Omnichannel for Dynamics 365 Customer Service representative-facing app.
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms-service: dynamics-365
 ms.topic: conceptual
-ms.date: 02/12/2024
+ms.date: 02/24/2025
 ms.custom: bap-template
 ---
 
 # Omnichannel for Customer Service app deprecation and migration FAQ
 
-This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service agent-facing app and migrating to Customer Service workspace.
+This article contains commonly asked questions about the deprecation of the Omnichannel for Customer Service representative-facing app and migrating to Customer Service workspace.
 
 ### Is the Omnichannel for Customer Service add-in product deprecated?
 
-No. The add-in product isn't deprecated. One of the agent-facing apps that carries the same name as the add-in is deprecated.
+No. The add-in product isn't deprecated. One of the representative-facing apps that carries the same name as the add-in is deprecated.
 
 ### Why is the Customer Service workspace app replacing Omnichannel for Customer Service?
 
@@ -24,7 +24,7 @@ Continued investment in two multisession apps that are at feature-level parity l
 
 ### Is the omnichannel feature being deprecated?
 
-No, omnichannel is a platform feature you access through applications. One of those applications for agents, Omnichannel for Customer Service, is deprecated.
+No, omnichannel is a platform feature you access through applications. One of those applications for customer service representatives, Omnichannel for Customer Service, is deprecated.
 
 ### What does deprecation mean?
 
@@ -60,4 +60,4 @@ To migrate your Omnichannel for Customer Service app configuration to Customer S
 
 ### Can I continue to use the Omnichannel for Customer Service app?
 
-Yes, you can, but we recommend you move to Customer Service workspace. Omnichannel for Customer Service is supported until June 2024. More information: [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app](enable-oc-disable-csw.md)
+Yes, you can, but we recommend you move to Customer Service workspace. Omnichannel for Customer Service is supported until June 2024. Learn more in [Enable the Omnichannel for Customer Service app and disable the Customer Service workspace app](enable-oc-disable-csw.md).
