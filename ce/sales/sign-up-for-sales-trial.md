@@ -4,7 +4,7 @@ description: Sign up for a free Sales trial and get access to key features, test
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.date: 03/19/2024
+ms.date: 02/24/2025
 ms.topic: how-to
 ms.custom:
   - template-trial-setup bap-template
@@ -21,11 +21,9 @@ Dynamics 365 Sales offers a 30-day free trial with the Sales Premium license. Af
 
 1. Go to the [Sales overview page](https://dynamics.microsoft.com/sales/overview/) and select **Try for free**.
 
-1. Enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa) or your personal email ID, such as alansteiner@gmail.com.
-    > [!NOTE]
-    > [Conversation intelligence](dynamics365-sales-insights-app.md) requires a Microsoft account.
+1. Enter the [email associated with your Microsoft account](https://support.microsoft.com/windows/what-is-a-microsoft-account-4a7c48e9-ff5a-e9c6-5a5c-1a57d66c3bfa).
 
-1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country and phone number.  
+1. Follow the onscreen guidance to provide additional information about yourself and your organization, such as country,phone number, and cred  
 
    The trial takes a few minutes to set up and load. When it's ready, you'll see **Launch trial**.
 
