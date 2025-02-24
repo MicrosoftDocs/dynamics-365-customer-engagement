@@ -49,7 +49,7 @@ Review the following prerequisites before you install the connector:
 1. Select the environment where you want to install the solution, read through the terms and conditions, and select the checkboxes. Select **Install**.
    It takes a few minutes to install the solution. To monitor the status of the installation, or update or remove a managed solution, go to the [Microsoft 365 admin center](https://admin.microsoft.com/).  
    More information: [TechNet: Use the Microsoft 365 admin center to manage your subscription](/power-platform/admin/use-office-365-admin-center-manage-subscription).  
-1. In Dynamics 365 Sales, go to **Settings** > **Advanced Settings** > **Customization** > **Solutions** and select **LinkedIn Lead Gen Forms Connector** to see the solution details.  
+1. In Dynamics 365 Sales, go to **Settings** > **Advanced Settings** > **Customization** > **Customization** > **Solutions** and select **LinkedIn Lead Gen Forms Connector** to see the solution details.  
    ![LinkedIn Lead Gen Forms Connector solution detail.](media/Solution-details.png "LinkedIn Lead Gen Forms Connector solution details")  
     The solution creates the following security roles, which you can assign to users so that they can work with [!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen Forms in Dynamics 365 apps. A third role, **LinkedIn Lead Gen S2S Inbound**, is an internal security role used by the solution to sync data.  
     - **[!include[LinkedIn](../../includes/pn-linkedin.md)] Lead Gen Forms Administrator**&mdash;Users with this role can configure lead matching strategies, [!include[LinkedIn](../../includes/pn-linkedin.md)] field mapping, and solution settings for the connector.

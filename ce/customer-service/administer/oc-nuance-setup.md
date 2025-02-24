@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:  
-ms.date: 09/01/2023
+ms.date: 01/28/2025
 ms.custom: bap-template 
 ---
 
@@ -111,12 +111,12 @@ Use the following sample code to disable the transcript from being displayed:
 
 ## Define field requirements for call intent
 
-Nuance Professional Services can extend the [**msdyn_ocexternalcontext**](../develop/reference/entities/msdyn_ocexternalcontext.md) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
+Nuance Professional Services can extend the [External context (msdyn_ocexternalcontext) table](../../developer/reference/entities/msdyn_ocexternalcontext.md) to include additional customer metadata that is added to the context of the Nuance IVR application. They must modify the payload file to include the newly added fields.
     
 See [Create and edit columns in Dataverse](/power-apps/maker/data-platform/create-edit-field-portal) to extend the table.
 
 ## View IVR transcripts
 
-When an agent accepts a call that’s been transferred from the Nuance Cloud IVR bot, the [Customer Summary](../use/oc-customer-summary.md) page displays the complete information about the customer, along with the conversation transcript of the steps taken by the IVR to resolve the customer issue. 
+When an agent accepts a call that's been transferred from the Nuance Cloud IVR bot, the [Customer Summary](../use/oc-customer-summary.md) page displays the complete information about the customer, along with the conversation transcript of the steps taken by the IVR to resolve the customer issue. 
 
-The app displays an error message if there’s no data or  partial customer data.
+The app displays an error message if there's no data or  partial customer data.

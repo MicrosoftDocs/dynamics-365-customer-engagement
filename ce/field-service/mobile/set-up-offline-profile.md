@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile offline profile
 description: Learn how to configure the mobile offline profile to work with the Dynamics 365 Field Service mobile app when no network is available.
-ms.date: 01/15/2025
+ms.date: 02/05/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -10,10 +10,16 @@ ms.author: jobaker
 
 # Set up the mobile offline profile
 
-Field Service comes with a default offline profile that has recommended settings for Field Service tables. The advantages of running the mobile app fully offline include:
+Field Service technicians often work in areas with no internet connection, like remote places or underground. It’s crucial that they can still access their data. The Field Service mobile app comes with an out-of-the-box profile with recommended default settings. The advantages of running the mobile app fully offline include:
 
 - Consistent performance. Technicians interact with the app in the same way regardless of their device connectivity.
 - Seamless and uninterrupted experience. Data synchronization occurs in the background without disrupting the technician's workflow.
+
+The default offline profile, Field Service Mobile - Offline Profile, has common Field Service tables preconfigured for offline use and recommended filters to limit the data that gets downloaded. It has predetermined sync intervals for each table, based on typical usage patterns. We recommend you use the default offline profile, but you can copy the default profile and build on the copied profile.
+
+For a guided walkthrough, check out the following video.
+>
+> [!VIDEO 02bf237b-8c58-4513-bd4e-1c66b7163793]
 
 Administrators control what data the Field Service mobile app downloads with the offline profile. In the offline profile, you can:
 

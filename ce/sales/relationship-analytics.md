@@ -15,13 +15,6 @@ Relationship analytics uses the activity history of a seller with a contact or a
 
 Depending on your Dynamics 365 Sales license and configuration, you'll see [basic insights](relationship-analytics-overview.md#basic-relationship-insights) or [enhanced insights](relationship-analytics-overview.md#enhanced-relationship-insights). Basic insights are available for early access.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## View analytics and KPIs for an individual lead, account, contact, or opportunity
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
@@ -92,12 +85,7 @@ As a seller, it's important to understand what's working better for a deal and l
 
 1. In the Sales Hub app, select **Opportunities**, and then open an opportunity.
 1. In the list, select the **Sales Insights** form.
-
-    :::image type="content" source="media/sales-insights-form.png" alt-text="Screenshot of selecting the Sales Insights form.":::
-
 1. Select the **Relationship Analytics** tab.
-
-    :::image type="content" source="media/relationship-analytics-tab-large.png" alt-text="Screenshot of relationship analytics for an opportunity.":::
 
 If relationship analytics can't detect opportunities that are similar to the current opportunity, it shows KPIs of the top 100 won opportunities. [Learn more about enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
 

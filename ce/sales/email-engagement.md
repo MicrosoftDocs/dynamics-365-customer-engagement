@@ -1,7 +1,7 @@
 ---
 title: Use email engagement to view message interactions
 description: Learn how to use email engagement in Dynamics 365 Sales to track your customers' interactions with your messages, such as selected links, opened attachments, and replies, and to get alerts to help you remember to follow up.
-ms.date: 12/12/2024
+ms.date: 01/23/2025
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -11,13 +11,6 @@ ms.reviewer: udag
 # Use email engagement to view message interactions
 
 Email engagement in Dynamics 365 Sales tracks your customers' interactions with your messages. You can learn whether they selected a link, opened an attachment, or sent a reply. You can also get alerts to help you remember to follow up with your customers.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role](security-roles-for-sales.md#primary-sales-roles) |
 
 ## Prerequisites
 
@@ -82,7 +75,8 @@ The KPIs at the top of the timeline show the total opens, attachment views, clic
 
 You can view the performance of your email templates, including the reply rate, open rate, the number of times they've been used, and whether they're recommended or not.
 
-Go to **Advanced Settings** > **Business** > **Templates**, and then select **Email Templates**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+2. Go to **Business** > **Templates**, and then select **Email Templates**.
 
 :::image type="content" source="media/email-template-list.png" alt-text="Screenshot of the email templates list.":::
 

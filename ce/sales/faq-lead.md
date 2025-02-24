@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 11/11/2024
+ms.date: 01/24/2025
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -95,16 +95,13 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
 - Go to the leads grid view, select the lead and qualify.
 - Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps:
-    1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-
-       > [!NOTE]
-       > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-
-    1. Select the rule and then select **Unpublish**.
+    1. In the sales app, go to **Settings** > **Advanced settings**.
+    1. Go to **System** > **Data Management** > **Duplicate detection rules**.
+    1. Select the rule, and then select **Unpublish** on the command bar.
 
 - If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps: 
-    1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-
+    1. In the sales app, go to **Settings** > **Advanced settings**.
+    1. Go to **System** > **Data Management** > **Duplicate detection rules**.
     1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
 

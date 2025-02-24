@@ -68,7 +68,7 @@
           href: overview-skill-work-distribution.md
         - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Enable agents to update skills
+        - name: Enable representatives to update skills
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
@@ -342,7 +342,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+      - name: Integrate knowledge management in Dynamics 365 with Copilot agents
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -476,7 +476,7 @@
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
-      - name: Configure agent display name
+      - name: Configure representative display name
         href: agent-display-name.md
       - name: Configure proactive chat
         href: proactive-chat.md
@@ -586,6 +586,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Enable multisession experience in custom apps (preview)
+        href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
@@ -615,29 +617,27 @@
       - name: Case and conversation summaries
         items:
         - name: Enable summarization of cases and conversations
-          href: copilot-enable-summary.md
+          href: /dynamics365/contact-center/administer/copilot-enable-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable case summaries
-          href: copilot-enable-summary.md#enable-case-summaries
-        - name: Enable custom record summaries
-          href: copilot-enable-custom-record-summaries.md
+          href: /dynamics365/contact-center/administer/copilot-enable-summary#enable-case-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable conversation summaries
-          href: copilot-enable-summary.md#enable-conversation-summaries
+          href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
       - name: Configure custom record summaries for service representatives
         href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
-          href: copilot-enable-help-pane.md
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable ask a question
-          href: copilot-enable-help-pane.md#enable-ask-a-question
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-ask-a-question?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable draft a response (preview)
-          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-draft-a-response-preview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable Copilot to draft emails 
-          href: copilot-email-enable.md
+          href: /dynamics365/contact-center/administer/copilot-email-enable?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Enable case summaries through ask a question (preview)
         href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
-        href: enable-copilot-plugins-for-generative-ai.md
+        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
@@ -647,7 +647,7 @@
       - name: Manage fields Copilot uses for case summaries
         href: copilot-map-custom-fields.md
       - name: Customize Copilot conversation summaries
-        href: customize-copilot-conv-summary.md
+        href: /dynamics365/contact-center/administer/customize-copilot-conv-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Configure copilot features for custom case forms and custom apps
         href: copilot-powerapps-settings.md
       - name: Display Copilot case summary on custom case forms
@@ -655,7 +655,7 @@
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
       - name: Enable knowledge sources from Microsoft Copilot Studio (preview)
-        href: knowledge-copilot.md
+        href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
     - name: Bots
@@ -722,7 +722,7 @@
         items:
         - name: Configure case forecasting
           href: configure-volume-forecasting.md
-        - name: Configure agent forecasting for conversation
+        - name: Configure service representative forecasting for conversations
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md
