@@ -120,7 +120,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 8. Add the output from the compose action.
 
-When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who then can respond back to the customer.
+When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
 
 > [!NOTE]
 > Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. Where higher loads are expected, we recommend that you implement batch processing logic in flows to limit contacts per request to 100.
