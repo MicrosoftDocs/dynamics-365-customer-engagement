@@ -31,7 +31,7 @@ Before you enable the session restore feature, review the following definitions 
 
 ### Considerations
 
-- When there are multiple browser sessions or tabs, the system won't restore the session properly for channel-specific sessions, such as chat, voice, and so forth.
+- When there are multiple browser sessions or tabs, the system can't restore the session properly for channel-specific sessions, such as chat, voice, and so forth.
 - The order of session tabs might change.
 - When there are multiple browser sessions or tabs, the system restores only the latest updated browser tab or session.
 - Cross-browser restoration, such as from Microsoft Edge to Google Chrome, isn't supported.
