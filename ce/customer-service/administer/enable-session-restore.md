@@ -27,7 +27,7 @@ Before you enable the session restore feature, review the following definitions 
 - Last updated browser tab: A browser tab where the service representative most recently created or closed a session or tab.
 
 > [!Note]
-> Switching sessions or tabs doesn't equal the last updated browser tab definition.
+> Switching sessions or tabs doesn't equate to the last updated browser tab definition.
 
 ### Considerations
 
