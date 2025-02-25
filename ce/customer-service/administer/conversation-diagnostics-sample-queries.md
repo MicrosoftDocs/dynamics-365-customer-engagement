@@ -1,5 +1,5 @@
 ---
-title: Sample queries for conversation diagnostics (preview)
+title: Sample queries and dashboards for conversation diagnostics (preview)
 description: Learn about how to query and retrieve conversation diagnostics from Application Insights.
 author: neeranelli
 ms.author: nenellim
@@ -10,13 +10,13 @@ ms.date: 02/24/2025
 ms.custom: bap-template
 ---
 
-# Sample queries in conversation diagnostics (preview)
+# Sample queries and dashboards in conversation diagnostics (preview)
 
 Learn about the queries that you can use to retrieve the diagnostics data for unified routing from Application Insights.
 
 ## Fallback queues
 
-Purpose: Diagnose number of work items routed to fallback queues
+**Purpose**: Diagnose number of work items routed to fallback queues.
 
 **Query**
 
@@ -33,7 +33,7 @@ traces
 
 ## Overflow handling
 
-**Purpose**: Diagnose number of work items where overflow is trigger
+**Purpose**: Diagnose number of work items where overflow is trigger.
 
 **Query**
 
@@ -45,9 +45,9 @@ traces
 | where omnichannelAdditionalInfo contains "OverflowTrigger"
 | project timestamp, conversationId, subscenario, omnichannelAdditionalInfo
 
-## Agents who reject assignments
+## Agents who reject new assignments 
  
-**Purpose**: Diagnose agents who reject new assignments (by conversationId)
+**Purpose**: Diagnose agents who reject new assignments (by conversationId).
 
 **Query**
 
@@ -67,7 +67,10 @@ traces
 | where rejectionCount > 1 // Filter conversations with more than one rejection
 | project conversationId, rejectionCount, agentRejectionDetails
 
-**Purpose**: Diagnose agents rejecting new assignments (by agents) 
+**Purpose**: Diagnose agents who reject new assignments (by agents).
+
+**Query**
+
 let _endTime = datetime(2024-11-21T22:33:55Z);
 let _startTime = datetime(2024-09-22T21:33:55Z);
 traces
@@ -83,3 +86,45 @@ traces
     by conversationId // Aggregate results by conversation
 | where rejectionCount > 1 // Filter conversations with more than one rejection
 | project conversationId, rejectionCount, agentRejectionDetails
+
+## Agent assignment took longer than two minutes
+
+**Purpose**: Diagnose conversations where agent assignment took longer than two minutes.
+**Query**
+
+let _endTime = datetime(2024-11-21T22:35:56Z);
+let _startTime = datetime(2024-09-22T21:35:56Z);
+// Extract relevant subscenarios
+let subscenarios = traces
+| where timestamp >= _startTime and timestamp <= _endTime
+| extend customDim = parse_json(customDimensions)
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"])
+| where subscenario in ("RTQ", "AgentAccept")
+| project timestamp, conversationId, subscenario;
+// Find the latest RTQ before each AgentAccept
+let latestRTQsBeforeAgentAccept = subscenarios
+| where subscenario == "RTQ"
+| join kind=inner (
+    subscenarios
+    | where subscenario == "AgentAccept"
+    | project agentAcceptTime = timestamp, conversationId
+) on conversationId
+| where timestamp < agentAcceptTime // Ensure RTQ is before AgentAccept
+| summarize latestRTQTime = max(timestamp) by conversationId, agentAcceptTime;
+// Calculate assignment time
+latestRTQsBeforeAgentAccept
+| extend assignmentTime = agentAcceptTime - latestRTQTime
+| where assignmentTime > 2min
+| project conversationId, assignmentTime
+
+
+## View conversation diagnostics dashboard
+
+Perform the steps outlined in [Conversation diagnostics dashboard](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/ConversationDiagnostics) to view the dashboard.
+
+
+### Related information
+
+[Configure conversation diagnostics](configure-conversation-diagnostics.md)  
+[Subscenarios in conversation diagnostics](conversation-diagnostics-subscenarios.md)  
