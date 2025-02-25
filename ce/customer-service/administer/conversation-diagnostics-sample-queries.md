@@ -20,16 +20,17 @@ Learn about the queries that you can use to retrieve the diagnostics data for un
 
 **Query**
 
-let _endTime = datetime(2024-11-21T22:29:53Z);
-let _startTime = datetime(2024-09-22T21:29:53Z);
-traces
-| where timestamp >= _startTime and timestamp <= _endTime
-| extend customDim = parse_json(customDimensions)
-| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]), 
-         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),
-         queueResult = parse_json(tostring(customDim["omnichannel.result"])).DisplayName
-| where subscenario == "RTQ" and queueResult == "va_chat_queue" 
-| project timestamp, conversationId, queueResult
+let _endTime = datetime(2024-11-21T22:29:53Z);  
+let _startTime = datetime(2024-09-22T21:29:53Z);  
+
+Traces  
+| where timestamp >= _startTime and timestamp <= _endTime  
+| extend customDim = parse_json(customDimensions)  
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),   
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),  
+         queueResult = parse_json(tostring(customDim["omnichannel.result"])).DisplayName  
+| where subscenario == "RTQ" and queueResult == "va_chat_queue"   
+| project timestamp, conversationId, queueResult  
 
 ## Overflow handling
 
@@ -37,13 +38,13 @@ traces
 
 **Query**
 
-traces
-| extend customDim = parse_json(customDimensions)
-| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),
-         subscenario = tostring(customDim["powerplatform.analytics.subscenario"])
-| extend omnichannelAdditionalInfo = tostring((customDim["omnichannel.additional_info"]))
-| where omnichannelAdditionalInfo contains "OverflowTrigger"
-| project timestamp, conversationId, subscenario, omnichannelAdditionalInfo
+Traces  
+| extend customDim = parse_json(customDimensions)  
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),  
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"])  
+| extend omnichannelAdditionalInfo = tostring((customDim["omnichannel.additional_info"]))  
+| where omnichannelAdditionalInfo contains "OverflowTrigger"  
+| project timestamp, conversationId, subscenario, omnichannelAdditionalInfo  
 
 ## Representatives who reject new assignments 
  
@@ -51,72 +52,72 @@ traces
 
 **Query**
 
-let _endTime = datetime(2024-11-21T22:32:51Z);
-let _startTime = datetime(2024-09-22T21:32:51Z);
-traces
-| where timestamp >= _startTime and timestamp <= _endTime
-| extend customDim = parse_json(customDimensions)
-| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]), 
-         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),
-         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions
-| where subscenario == "AgentReject"
-| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation
-| summarize rejectionCount = sum(agentRejectionCount), 
-            agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount)) 
-    by conversationId // Aggregate results by conversation
-| where rejectionCount > 1 // Filter conversations with more than one rejection
-| project conversationId, rejectionCount, agentRejectionDetails
+let _endTime = datetime(2024-11-21T22:32:51Z);  
+let _startTime = datetime(2024-09-22T21:32:51Z);  
+Traces  
+| where timestamp >= _startTime and timestamp <= _endTime  
+| extend customDim = parse_json(customDimensions)  
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),   
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),  
+         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions  
+| where subscenario == "AgentReject"  
+| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation  
+| summarize rejectionCount = sum(agentRejectionCount),   
+            agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount))   
+    by conversationId // Aggregate results by conversation  
+| where rejectionCount > 1 // Filter conversations with more than one rejection  
+| project conversationId, rejectionCount, agentRejectionDetails  
 
 **Purpose**: Diagnose representatives who reject new assignments (by representatives).
 
 **Query**
 
-let _endTime = datetime(2024-11-21T22:33:55Z);
-let _startTime = datetime(2024-09-22T21:33:55Z);
-traces
-| where timestamp >= _startTime and timestamp <= _endTime
-| extend customDim = parse_json(customDimensions)
-| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]), 
-         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),
-         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions
-| where subscenario == "AgentReject"
-| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation
-| summarize rejectionCount = sum(agentRejectionCount), 
-            agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount)) 
-    by conversationId // Aggregate results by conversation
-| where rejectionCount > 1 // Filter conversations with more than one rejection
-| project conversationId, rejectionCount, agentRejectionDetails
+let _endTime = datetime(2024-11-21T22:33:55Z);  
+let _startTime = datetime(2024-09-22T21:33:55Z);  
+Traces  
+| where timestamp >= _startTime and timestamp <= _endTime  
+| extend customDim = parse_json(customDimensions)  
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),   
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),  
+         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions  
+| where subscenario == "AgentReject"  
+| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation  
+| summarize rejectionCount = sum(agentRejectionCount),   
+            agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount))   
+    by conversationId // Aggregate results by conversation  
+| where rejectionCount > 1 // Filter conversations with more than one rejection  
+| project conversationId, rejectionCount, agentRejectionDetails  
 
 ## Representative assignment took longer than two minutes
 
 **Purpose**: Diagnose conversations where representative assignment took longer than two minutes.
 **Query**
 
-let _endTime = datetime(2024-11-21T22:35:56Z);
-let _startTime = datetime(2024-09-22T21:35:56Z);
-// Extract relevant subscenarios
-let subscenarios = traces
-| where timestamp >= _startTime and timestamp <= _endTime
-| extend customDim = parse_json(customDimensions)
-| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),
-         subscenario = tostring(customDim["powerplatform.analytics.subscenario"])
-| where subscenario in ("RTQ", "AgentAccept")
-| project timestamp, conversationId, subscenario;
-// Find the latest RTQ before each AgentAccept
-let latestRTQsBeforeAgentAccept = subscenarios
-| where subscenario == "RTQ"
-| join kind=inner (
-    subscenarios
-    | where subscenario == "AgentAccept"
-    | project agentAcceptTime = timestamp, conversationId
-) on conversationId
-| where timestamp < agentAcceptTime // Ensure RTQ is before AgentAccept
-| summarize latestRTQTime = max(timestamp) by conversationId, agentAcceptTime;
-// Calculate assignment time
-latestRTQsBeforeAgentAccept
-| extend assignmentTime = agentAcceptTime - latestRTQTime
-| where assignmentTime > 2min
-| project conversationId, assignmentTime
+let _endTime = datetime(2024-11-21T22:35:56Z);  
+let _startTime = datetime(2024-09-22T21:35:56Z);  
+// Extract relevant subscenarios  
+let subscenarios = traces  
+| where timestamp >= _startTime and timestamp <= _endTime  
+| extend customDim = parse_json(customDimensions)  
+| extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),  
+         subscenario = tostring(customDim["powerplatform.analytics.subscenario"])  
+| where subscenario in ("RTQ", "AgentAccept")  
+| project timestamp, conversationId, subscenario;  
+// Find the latest RTQ before each AgentAccept  
+let latestRTQsBeforeAgentAccept = subscenarios  
+| where subscenario == "RTQ"  
+| join kind=inner (  
+    subscenarios  
+    | where subscenario == "AgentAccept"  
+    | project agentAcceptTime = timestamp, conversationId  
+) on conversationId  
+| where timestamp < agentAcceptTime // Ensure RTQ is before AgentAccept  
+| summarize latestRTQTime = max(timestamp) by conversationId, agentAcceptTime;  
+// Calculate assignment time  
+latestRTQsBeforeAgentAccept  
+| extend assignmentTime = agentAcceptTime - latestRTQTime  
+| where assignmentTime > 2min   
+| project conversationId, assignmentTime  
 
 
 ## View conversation diagnostics dashboard

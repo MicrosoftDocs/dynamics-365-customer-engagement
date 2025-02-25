@@ -37,7 +37,7 @@ The following table lists the analysis of the average data consumption in Applic
  
 | Data Consumption                                                                 | Size in kilobytes (average<sup>**1**</sup>) |
 |----------------------------------------------------------------------------------|------------------------------|
-| Per routed work item (Call/Conversation/Record) with one classification, one route-to-queue (RTQ) ruleset and one assignment ruleset 7  |
+| Per routed work item (Call/Conversation/Record) with one classification, one route-to-queue (RTQ) ruleset and one assignment ruleset| 7  |
 | Per ruleset with a single rule in it                                             | 2                            |
 | Per new rule in a ruleset                                                        | 1                            |
  
@@ -58,59 +58,15 @@ To view the logs for a conversation, as a user with minimum reader level, perfor
 1.	Select **Logs** in **Monitoring**.
 1.	Use the following sample query in the editor.
 
-    Traces
-    | extend customDim = parse_json(customDimensions)
-    | extend workItem = tostring(customDim["powerplatform.analytics.resource.id"])
-    | extend subscenario = tostring(customDim["powerplatform.analytics.subscenario"])
-    | where workItem == "Insert conversation ID of work item"
-    // | where subscenario contains "Classification"
-    | project timestamp, workItem, subscenario, customDim
+    Traces  
+    | extend customDim = parse_json(customDimensions)  
+    | extend workItem = tostring(customDim["powerplatform.analytics.resource.id"])  
+    | extend subscenario = tostring(customDim["powerplatform.analytics.subscenario"])  
+    | where workItem == "Insert conversation ID of work item"  
+    // | where subscenario contains "Classification"  
+    | project timestamp, workItem, subscenario, customDim  
 
 1.	The **Results** tab displays the query results. 
-
-### Conversation scenarios metadata
-
-The conversation scenarios in the **Traces** table contains has the following metadata.
-
--	Org ID
-- LiveWorkItem ID
--	Channel Type
--	Scenario Status (Started/Failed/Completed)
--	Timestamp
--	Duration (for completed scenarios)
--	Participant Type (human agent or virtual agent)
--	Active Directory User ID (where applicable)
-
-## Understand conversation logs metadata
-
-A description of the attributes displayed in Application Insights is as follows:
-
-- **Timestamp \[UTC\]**: The date and time at which the event is logged. 
-- **Message**: Indicates the scenario status the conversation lifecycle event. This can be Started, Failed, or Completed.
-    -   **Started**: Indicates that the conversation scenario started.
-    -   **Completed**: Indicates that the conversation scenario was successfully completed.
-    -   **Failed**: Indicates that the conversation scenario failed.
-- **customDimensions**: Contains the following metadata required for detailed debugging:
-    - **organizationId**: The unique identifier of the organization.
-    - **LiveWorkItemID**: The unique identifier of the conversation to which the message must be sent to.
-    - **Channel Type**: Indicates the channel through which the customer is sending messages.
-    - **Duration**: The time taken for the scenario to complete.
-    - **Participant Type**: Indicates if the conversation is assigned to a human agent or a bot.
-- **Operation\_name**: Indicates the conversation lifecycle event.
-- **Operation\_id**: The unique identifier of the root operation. This is the transaction ID of the conversation from Dynamics 365 Customer Service.
-- **Operation\_parentid**: The conversation ID of the conversation.
-- **Session\_id**: The instance of the user's interaction with the app.
-- **User\_id**: Represents the user of the application. This field is populated with the Active Directory user ID whenever the scenario includes human agents or bots. For all other scenarios, 0 is displayed.
-- **Severitylevel**: The trace severity level. This is set to 0.
-- **itemType**: The table that the record was retrieved from. This is always set to Trace.
-
-For example, in a scenario where a live chat conversation is assigned to a queue, the Traces table displays the following metadata:
-
--   The **ScenarioStarted** message, with the **Operation\_name**, QueueAssignment, and the timestamp at which the scenario started.
--   The **ScenarioCompleted** message, with the duration the application took for the scenario to be successfully completed as the scenario is a success, and the conversation is assigned to a queue.  
-      
-    ![The metadata when a live chat conversation is assigned to a queue.](../media/live-chat-assigned-to-queue.png)
-
 
 ### Related information
 
