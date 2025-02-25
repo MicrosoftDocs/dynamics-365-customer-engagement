@@ -128,6 +128,10 @@ This metric represents the service representative participation **consult** mode
 
 - **Consult timed out rate**: The total number of sessions that resulted in timeout over all the sessions requested for consult from the service representative.
 
-## Next steps
+## Related infromation
+
+[Customize visual display](customize-reports.md#customize-visual-display)  
+[Conversation metrics](oc-metrics-dimensions.md#conversation-metrics)  
+[Session](session-metrics.md#session)
 
 

@@ -170,6 +170,6 @@ This metric is a measure of the total number of conversation requests that custo
 
 ## Related information
 
-[Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md#omnichannel-for-customer-service-dashboards)
-
-[Overview of Omnichannel real-time analytics dashboards](intro-realtime-analytics-dashboard.md)
+[Customize visual display](customize-reports.md#customize-visual-display)
+[Session](session-metrics.md#session)
+[Service representatives](service-rep-metrics.md#service-representatives)

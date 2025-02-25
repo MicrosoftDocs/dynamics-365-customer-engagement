@@ -37,8 +37,8 @@ You can [customize the visual display](customize-reports.md#customize-visual-dis
 
 ## Metrics
 
-[Conversation](oc-metrics-dimensions.md#conversation-metrics)
-[Session](session-metrics.md#session)
+[Conversation](oc-metrics-dimensions.md#conversation-metrics)  
+[Session](session-metrics.md#session)  
 [Service representatives](service-rep-metrics.md#service-representatives)
 
 ## Manage dashboards

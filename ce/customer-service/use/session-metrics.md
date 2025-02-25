@@ -105,6 +105,9 @@ The metric is a measure of the current sentiment of customer. It's powered by Co
 ## Customer sentiment
 
 This metric is a measure of the current sentiment of the customer. It's powered by Contact Center sentiment analysis.
-## Next steps
 
-<!--Remove all the comments in this template before you sign-off or merge to the main branch.-->
+## Related information
+
+[Customize visual display](customize-reports.md#customize-visual-display)  
+[Conversation metrics](oc-metrics-dimensions.md#conversation-metrics)  
+[Service representatives](service-rep-metrics.md#service-representatives)
