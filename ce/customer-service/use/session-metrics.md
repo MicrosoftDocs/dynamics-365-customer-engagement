@@ -1,13 +1,17 @@
 ---
 title: Session metrics
-description: This document outlines various session metrics used to measure the performance and efficiency of service representatives in handling customer requests within Dynamics 365 Customer Service.
+description: Evaluate customer service performance using key session metrics like active sessions, transfer rates, and handle times to enhance efficiency and decision-making.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 02/25/2025
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/25/2025
 ---
 
 # Session metrics

@@ -1,13 +1,18 @@
 ---
-title: Service representatives
-description: This document provides detailed metrics for evaluating the performance and efficiency of service representatives in Dynamics 365 Customer Service.
+title: Service representatives metrics
+description: Understand key metrics to evaluate service representatives' performance, optimize operations, and enhance customer satisfaction in customer service.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 02/25/2025
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/25/2025
+  - ai-gen-title
 ---
 
 # Service representatives

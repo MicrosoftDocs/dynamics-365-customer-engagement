@@ -1,13 +1,17 @@
 ---
 title: Conversation metrics
-description: This article provides an overview of the various metrics available in Customer Service, helping you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction.
+description: Discover key conversation metrics to improve customer service, track performance, and enhance satisfaction by analyzing KPIs and understanding workflow.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 02/19/2025
-ms.custom: bap-template
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/25/2025
 ---
 
 # Conversation metrics
