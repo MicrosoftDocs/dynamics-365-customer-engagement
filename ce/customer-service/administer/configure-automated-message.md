@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in your contact center.
-ms.date: 02/20/2025
+ms.date: 02/25/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -13,12 +13,12 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate customer and representative-facing messages at the channel level.
+You can configure Omnichannel for Customer Service to send automated messages through a channel, such as chat, voice, SMS, or social channels. The **Automated messages** tab in each channel instance enables you to create channel-specific and locale-specific text. You can customize, deactivate, and activate messages specific to customer and customer service representative (service representative or representative) at the channel level.
 As an administrator, you can also overwrite or deactivate the preconfigured, out-of-the-box automated messages for any channel instance. The preconfigured automated message triggers are listed in [this section](#preconfigured-automated-message-triggers).
 
 ## Display a list of all automated messages
 
-You can view a list of all customer service representative (service representative or representative) and customer-facing automated messages in your Omnichannel for Customer Service environment.
+You can view a list of all representative and customer-facing automated messages in your Omnichannel for Customer Service environment.
 
 1. In the site map of Customer Service admin center, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
 1. In the **Automated messages** section, select **Manage**. The **Automated messages** page is displayed.
