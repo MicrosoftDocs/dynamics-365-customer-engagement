@@ -106,7 +106,7 @@ To configure a Facebook channel, the following steps are required:
       - Custom automated messages
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
-      - **File attachments:** When set to yes for both customer and representative, both of them can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).
+      - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).
       - **Facebook message tag:** Set to **Yes** to enable your representatives to message customers after 24 hours pass. When set to **No**, representatives are unable to respond to customers after 24 hours unless the customer sends another message.
 
       If you enable the Facebook representative message tag during an active conversation between the representative and customer, the former must close the conversation and reopen it to communicate with the latter after 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
