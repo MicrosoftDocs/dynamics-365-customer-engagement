@@ -24,7 +24,7 @@ The operating hour schedules cater to the following scenarios:
 - Display the nonavailability of customer support on public holidays that are otherwise operating hours.
 - Accommodate change of calendar timings for daylight saving time twice a year for time zones that implemented the daylight saving time.
 - Set up separate schedules for customer service representatives (service representatives or representatives), AI agents (agents), and queues to cater to different business scenarios and product lines seamlessly for any channel.
-- Define schedules to transition customer queues from agents to service representatives.
+- Define schedules to transition customer queues from AI agents to service representatives.
 - Customize the display and other settings of the chat widget during nonbusiness hours.
 
 After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) for your customers, when customers interact through a channel during nonbusiness hours, they see or hear the messages that you set. For example, you can display an offline message on the chat widget as "Our representatives are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your representatives through any of the social channels outside the business hours, they receive responses that you set.
