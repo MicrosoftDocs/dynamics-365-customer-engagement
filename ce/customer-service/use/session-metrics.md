@@ -10,7 +10,7 @@ ms.date: 02/25/2025
 ms.custom: bap-template
 ---
 
-# Session
+# Session metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
@@ -19,6 +19,10 @@ ms.custom: bap-template
 This article provides key metrics to evaluate sessions from Customer Service analytics reports, helping you measure the performance and efficiency of service representatives in handling customer requests within Dynamics 365 Customer Service.
 
 [Understand the workflow](metrics-data-model.md#understand-the-workflow) to effectively utilize these metrics and improve customer service operations and decision-making.
+
+## Session
+
+This metric represents assignment attempt within a single queue. Whenever a conversation is routed to a queue for assignment, a new session is created to track assignment. If the assignment is successful, the session, the "agent assigned on" and "agent accepted on" measures are updated. A session can be associated with a customer service representative, bot or IVR.
 
 ## Active sessions
 
@@ -78,21 +82,19 @@ This metric is like conversation handle time, but it's granular and is calculate
 
 - **Session handle time**: This metric is a measure of the time that service representatives spend helping customers on assigned customer requests.
 
-
-## Is handled by external participant (session)
-
-Multiple service representatives might handle a customer request, including a combination of internal contact center service representatives and external service representatives. For example, your contact center can engage external service representatives through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that service representatives outside Dynamics 365 Customer Service handled. It indicates the sessions that were assigned to and handled by external service representatives only.
-
-For information about metrics that are related to consultations with external service representatives, go to the [Is handled by external participant (session)](#is-handled-by-external-participant-session) section.
-
 ## Is handled by external participant
 
-Multiple service representatives might handle a customer request, including a combination of internal contact center service representatives and external service representatives. For example, your contact center can engage external service representatives through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that service representatives outside Dynamics 365 Customer Service handled.
+Multiple service representatives might handle a customer request, including a combination of internal contact center service representatives and external service representatives. For example, your contact center can engage external service representatives through transfers to an external phone number or through a Microsoft Teams voice call. This metric is used to identify the portion of a customer request that service representatives outside Dynamics 365 Customer Service handled. It indicates the sessions that were assigned to and handled by external service representatives only.
 
 ### Related metrics
 
 - **External participant channel**: This metric helps identify the channels that external service representatives were engaged through. For example, an external service representative can help customers with requests by calling them directly at their phone number or via a Microsoft Teams Public Switched Telephone Network (PSTN) call.
 - **External participant channel type**: This metric represents the details of the external service representative, such as the phone number.
+
+## Session participant
+
+This metric is a measure of the list of participants within a single session. A session will contain at least one session participant; participant can be a service representative, bot, or IVR. Additional participants can be added to the same session in scenarios like Monitor or Consult.
+
 
 ## Session participant count
 
