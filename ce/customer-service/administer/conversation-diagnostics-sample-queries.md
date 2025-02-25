@@ -45,9 +45,9 @@ traces
 | where omnichannelAdditionalInfo contains "OverflowTrigger"
 | project timestamp, conversationId, subscenario, omnichannelAdditionalInfo
 
-## Agents who reject new assignments 
+## Representatives who reject new assignments 
  
-**Purpose**: Diagnose agents who reject new assignments (by conversationId).
+**Purpose**: Diagnose customer service representatives (service representatives or representatives) who reject new assignments (by conversationId).
 
 **Query**
 
@@ -58,16 +58,16 @@ traces
 | extend customDim = parse_json(customDimensions)
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]), 
          subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),
-         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract agent ID from custom dimensions
+         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions
 | where subscenario == "AgentReject"
-| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per agent per conversation
+| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation
 | summarize rejectionCount = sum(agentRejectionCount), 
             agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount)) 
     by conversationId // Aggregate results by conversation
 | where rejectionCount > 1 // Filter conversations with more than one rejection
 | project conversationId, rejectionCount, agentRejectionDetails
 
-**Purpose**: Diagnose agents who reject new assignments (by agents).
+**Purpose**: Diagnose representatives who reject new assignments (by representatives).
 
 **Query**
 
@@ -78,18 +78,18 @@ traces
 | extend customDim = parse_json(customDimensions)
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]), 
          subscenario = tostring(customDim["powerplatform.analytics.subscenario"]),
-         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract agent ID from custom dimensions
+         agentId = tostring(customDim["omnichannel.target_agent.id"]) // Extract representative ID from custom dimensions
 | where subscenario == "AgentReject"
-| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per agent per conversation
+| summarize agentRejectionCount = count() by conversationId, agentId // Count rejections per representative per conversation
 | summarize rejectionCount = sum(agentRejectionCount), 
             agentRejectionDetails = make_list(pack('agentId', agentId, 'rejectionCount', agentRejectionCount)) 
     by conversationId // Aggregate results by conversation
 | where rejectionCount > 1 // Filter conversations with more than one rejection
 | project conversationId, rejectionCount, agentRejectionDetails
 
-## Agent assignment took longer than two minutes
+## Representative assignment took longer than two minutes
 
-**Purpose**: Diagnose conversations where agent assignment took longer than two minutes.
+**Purpose**: Diagnose conversations where representative assignment took longer than two minutes.
 **Query**
 
 let _endTime = datetime(2024-11-21T22:35:56Z);
