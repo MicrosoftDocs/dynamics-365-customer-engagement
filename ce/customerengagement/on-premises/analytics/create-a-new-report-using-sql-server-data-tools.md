@@ -2,7 +2,6 @@
 title: "Create a new report with SQL Server Data Tools in Dynamics 365 Customer Engagement (on-premises)"
 description: "SQL Server Data Tools let you create or edit reports in Visual Studio. This page walks you through the steps to create a custom Fetch-based report."
 ms.custom: 
-ms.date: 12/08/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

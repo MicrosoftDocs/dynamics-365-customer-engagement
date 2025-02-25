@@ -1,10 +1,10 @@
 ---
 title: Omnichannel for Customer Service system requirements
 description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
-ms.date: 11/28/2023
+ms.date: 01/31/2025
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template
@@ -18,8 +18,8 @@ This article provides information about the prerequisites and system requirement
 
 You can deploy Omnichannel for Customer Service over a Customer Service application and use it in the following ways:
 
-- Omnichannel for Customer Service app - Web experience on the Unified Interface application
-- Unified Service Desk client application
+- Customer Service workspace agent app - Web experience on the Unified Interface application
+- Unified Service Desk client application (deprecated). Learn more in [Deprecations in Customer Service](deprecations-customer-service.md).
 
 ## Prerequisites
 
@@ -27,15 +27,15 @@ This section lists the prerequisites for using Omnichannel for Customer Service.
 
 ### International availability
 
-Make sure that Omnichannel for Customer Service is available in your region. More information: [International availability](international-availability.md)
+Make sure that Omnichannel for Customer Service is available in your region. Learn more in [International availability](international-availability.md).
 
 ### Licensing
 
 - You must have an active subscription to Microsoft Dynamics 365 Customer Service Enterprise or Dynamics 365 Customer Engagement Plan in your tenant for each user of Digital Messaging or Chat for Dynamics 365 Customer Service.
 - For each chat channel user, you must have an active subscription to the **Dynamics 365 Customer Service Digital Messaging add-on** for each Digital Messaging user or **Chat for Dynamics 365 Customer Service**.
-- For each voice channel user, you must have an active subscription to **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. For information on purchasing add-ins, see [Buy an add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide#buy-an-add-on&preserve-view=true).
+- For each voice channel user, you must have an active subscription to **Dynamics 365 Customer Service Voice Channel Add-in** or **Dynamics 365 Customer Service Digital Messaging and Voice Add-in**. Learn about purchasing add-ins in [Buy an add-on](/microsoft-365/commerce/buy-or-edit-an-add-on?view=o365-worldwide#buy-an-add-on&preserve-view=true).
 
-For more information about licenses and pricing, see the [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+Learn about licenses and pricing in [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ## System requirements for Omnichannel for Customer Service
 
@@ -49,7 +49,7 @@ The system requirements to use Omnichannel for Customer Service are as follows. 
 | Hardware | <ul><li>Microphone and speakers for the voice experience.</li><li>**Minimum:** 4 GB of RAM</li><ul> |
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 4-Mbps upload speed; 8-Mbps download speed</li><li>**Recommended:** 8-Mbps upload speed; 16-Mbps download speed</li></ul> |
 
-For other hardware and software requirements, see [Model-driven app requirements](/power-platform/admin/web-application-requirements).
+For other hardware and software requirements, go to [Model-driven app requirements](/power-platform/admin/web-application-requirements).
 
 ### Supported web browsers for live chat widget<a name="browsers-for-chat"></a>
 
@@ -61,7 +61,7 @@ The customer-facing live chat widget that you display on your portal supports th
 
 ## Provision channels
 
-To enable channels in your org, see [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
+Learn about enabling channels in your organization in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 
 > [!NOTE]
 >
@@ -73,26 +73,14 @@ To enable channels in your org, see [Provision channels](/dynamics365/contact-ce
 
 If your organization uses a URL filter to block a category of websites or URLs, ensure that you allow the following websites as an exception for your users so they can access the Omnichannel for Customer Service app on the business portal.
 
-- `https://*.communication.azure.com`
 - `https://login.microsoft.net`
 - `https://login.microsoftonline.com`
 - `https://login.windows.net`
-- `https://browser.pipe.aria.microsoft.com`
-- `https://*.teams.microsoft.com`
-- `https://plat.teams.microsoft.com`
-- `https://authsvc.teams.microsoft.com`
-- `https://*.ng.msg.teams.microsoft.com`
-- `https://*.notifications.teams.microsoft.com`
+- `https://*.communication.azure.com`
 - `https://*.trouter.teams.microsoft.com`
+- `https://*.trouter.communication.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com`
-- `https://*.trouter.skype.com`
-- `https://*.edge.skype.com`
-- `https://aad.skypetoken.skype.com`
-- `https://config.edge.skype.com`
-- `https://edge.skype.com`
-- `https://api.aps.skype.com`
-- `https://*.asm.skype.com`
+- `https://browser.pipe.aria.microsoft.com`
 - `https://*.omnichannelengagementhub.com`
 - `https://ocsdk-prod.azureedge.net`
 - `https://*.service.signalr.net`
@@ -100,14 +88,9 @@ If your organization uses a URL filter to block a category of websites or URLs, 
 If your customers are using a URL filter to block a category of websites or URLs, you might have to ask your customers to allow a specific website as an exception. Your customers must allow access to the following URLs from their browsers to use the live chat widget in the portal.
 
 - `https://*.communication.azure.com`
-- `https://*.teams.microsoft.com`
-- `https://plat.teams.microsoft.com`
-- `https://*.ng.msg.teams.microsoft.com`
-- `https://*.notifications.teams.microsoft.com`
+- `https://*.trouter.communication.microsoft.com`
 - `https://*.trouter.teams.microsoft.com`
 - `https://ecs.office.com`
-- `https://*.skype.com/*`
-- `https://*.asm.skype.com`
 - `https://browser.pipe.aria.microsoft.com`
 - `https://oc-cdn-ocprod.azureedge.net/livechatwidget`
 - `https://cdn.botframework.com/botframework-webchat`
@@ -141,8 +124,6 @@ The Government community cloud links that should be made accessible are as follo
 - `https://ocprodocprodnamgs.blob.core.usgovcloudapi.net`
 - `https://*.omnichannelengagementhub.us/*`
 - `https://oc-auth.azurewebsites.us`
-- `https://swc.cdn.skype.com/*`
-- `https://config.edge.skype.com/*`
 - `https://*.gcc.teams.microsoft.com`
 - `https://api.ams.gcc.teams.microsoft.com/*`
 - `https://browser.pipe.aria.microsoft.com/*`

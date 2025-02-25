@@ -1,11 +1,11 @@
 ---
 title: Configure routing to preferred agents
 description: Learn how to configure settings to route work items to preferred agents in Customer Service.
-ms.date: 07/01/2024
+ms.date: 01/23/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -26,8 +26,8 @@ You can configure contacts and their preferred agents in the Customer Service ad
   - **For Customer Service**: CSR Manager
   - **For Omnichannel for Customer Service**: Omnichannel Administrator
 
-- You must be able to access the Contact entity. More information: [Contact](/dynamics365/customerengagement/on-premises/developer/entities/contact?view=op-9-1&preserve-view=true)
-- If you have a custom role, you must also have access to the msdyn_preferredagent and msdyn_preferredagentcustomeridentity entities.
+- You must be able to access the [Contact table](../../developer/reference/entities/contact.md).
+- If you have a custom role, you must also have access to the [msdyn_preferredagent](../../developer/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](../../developer/reference/entities/msdyn_preferredagentcustomeridentity.md) tables.
 - Ensure that the agent you want to assign to a contact is a member of the queue to which work items are routed.
 
 ## Configure preferred agent for contacts
@@ -83,19 +83,10 @@ To find the preferred agent for an incoming work item, the contact should be ide
 |Record |<ul><li>**Case**: Use the **Customer** field to store the contact ID.</li><li>**Email, phone, fax, letter, appointment**: Use the **Regarding** field to store the contact ID. </li></ul>|
 |**Digital messaging**: Chat, voice, and other channels|<ul><li> **Chat**: [Authenticated users are automatically identified as contacts](record-identification-rule.md). For unauthenticated users, use the pre-conversation survey to set the survey question name as **Name**.</li><li>**Voice**: Authenticated with the phone number.</li><li>Other channels: [Social profiles](../use/supported-channels-social-profiles.md). </li></ul> |
 
-### Add multiple preferred agent records
-
-You can add multiple preferred agents to contact records at a time using the [createRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/createrecord) call to update the preferred agent entities,  [msdyn_preferredagent](../develop/reference/entities/msdyn_preferredagent.md) and [msdyn_preferredagentcustomeridentity](../develop/reference/entities/msdyn_preferredagentcustomeridentity.md).
-
-If you want to add multiple preferred agent routing records through the script, ensure that you map only three unique agents to a contact. If you add more than three agents, though the application displays all the mapped agents, work items are routed to the top three agents only. Agents are ordered based on the preference rating. If agents have the same preference rating, the application orders the agents based on the record creation timestamp.
-
-You can also update or delete records using the [updateRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/updaterecord) or [deleteRecord](/power-apps/developer/model-driven-apps/clientapi/reference/xrm-webapi/deleterecord) calls.
-
-> [!IMPORTANT]
-> We recommend that you add the contact and preferred agent routing through the Preferred agent routing page.
 
 ### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Configure queues](queues-omnichannel.md)  
+[Add multiple preferred agent records](../develop/add-multiple-preferred-agent-records.md)  
 [Blog: Use preferred agent routing to create lifelong customer relationships](https://cloudblogs.microsoft.com/dynamics365/it/2022/09/06/use-preferred-agent-routing-to-create-lifelong-customer-relationships/)

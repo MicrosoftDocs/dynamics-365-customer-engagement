@@ -1,17 +1,10 @@
 ---
 title: "Tutorials and resources (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "This topic lists the walkthroughs that are included in the SDK, and tells you where to find videos, training, and sample code to get you started with development for Dynamics 365 Customer Engagement (on-premises)."
-ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
-
-ms.suite: 
-ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-ms.assetid: 1ac6ca26-0326-4b56-8708-70f6dff845c9
-caps.latest.revision: 69
 author: JimDaly
 ms.author: jdaly
 tags: 
@@ -82,7 +75,6 @@ Looking for more than just developer information? Here are other sites and point
 - [Dynamics 365 Customer Engagement: Deployment Forum](https://social.microsoft.com/Forums/crmdeployment/home/)
 - [Certification Training](/dynamics365/get-started/training/)
 - [Contact Dynamics 365 Customer Engagement Customer Support](https://go.microsoft.com/fwlink/p/?LinkID=394391)
-- [Dynamics 365 Customer Engagement on Facebook](https://www.facebook.com/msftdynamics)
 - [Dynamics 365 Customer Engagement group on Linkedin](https://www.linkedin.com/groups/21231)
 - [Dynamics 365 Customer Engagement on Twitter](https://twitter.com/MSFTDynamics365)
 

@@ -1,3 +1,4 @@
+items:
 - name: Dynamics 365 Sales documentation
   href: index.yml
 - name: Welcome to Dynamics 365 Sales
@@ -101,7 +102,7 @@
                   href: import-data.md
             - name: Enable and administer Sales Insights features
               href: intro-admin-guide-sales-insights.md
-            - name: Advanced settings in the new experience (preview)
+            - name: Advanced settings in the new experience
               href: advanced-settings-new-experience.md
         - name: Installation FAQs
           href: faq-installation.md
@@ -183,8 +184,12 @@
           href: copilot-configure-whatsnew-field.md
         - name: Configure Copilot to use SharePoint sites
           href: copilot-sharepoint-config.md
+        - name: Enable Copilot email assist
+          href: enable-copilot-email-assist.md
         - name: Turn on Copilot preview features
           href: copilot-preview-features.md
+        - name: Customize Copilot in Dynamics 365 Sales
+          href: extend-copilot-chat.md
         - name: Copilot in Dynamics 365 Sales FAQ
           href: sales-copilot-faq.md
     - name: Overview of focused view
@@ -432,8 +437,6 @@
           href: forecast-different-data-types.md
         - name: Configure and manage drill-down entities
           href: configure-manage-drill-downs.md
-        - name: Take snapshots automatically
-          href: manage-snapshots-forecast.md
         - name: Configure advanced settings
           href: forecast-configure-advanced-settings.md
         - name: Customize column headers
@@ -554,7 +557,7 @@
                   href: wa-delete-deactivate-assignment-rule.md
                 - name: Understand record distribution in assignment rules
                   href: understand-lead-distributions-assignment-rules.md
-            - name: View and assign unassigned records
+            - name: View assigned records and details
               href: wa-manage-unassigned-records.md
             - name: Migrate assignment rules and segments
               href: wa-migrate-assignment-rules-segments.md
@@ -728,6 +731,8 @@
               href: install-lsi-solution.md
     - name: Dynamics 365 Sales mobile
       items:
+        - name: Overview
+          href: sales-mobile/dynamics-365-sales-mobile-app.md
         - name: Prerequisites for Dynamics 365 Sales mobile
           href: sales-mobile/prereq-sales-mobile.md
         - name: Manage forms
@@ -1012,10 +1017,6 @@
           href: analyze-revenue-outcome-using-predictive-forecasting.md
         - name: Understand forecast projection through trend chart
           href: understand-forecast-projection-through-trend-chart.md
-        - name: Analyze deals flow between snapshots
-          href: analyze-deals-flow-between-snapshots.md
-        - name: View snapshots
-          href: view-snapshots.md
         - name: Forecasting FAQs
           href: faq-forecasting.md            
     - name: Sales engagement
@@ -1173,6 +1174,8 @@
               href: use-sales-hub-on-dynamics-365-mobile.md
             - name: Actions supported in online and offline mode
               href: Features-in-mobile-offline.md
+            - name: Sales mobile app vs Dynamics 365 for phones and tablets app
+              href: sales-mobile/mobile-apps-difference.md
 
 - name: Developer guide
   items:
@@ -1301,143 +1304,7 @@
         - name: DeleteOQOILineWithSkipPricingCalculation
           href: developer/reference/custom-actions/deleteoqoilinewithskippricingcalculation.md
     - name: Table reference
-      items:
-        - name: About table/entity reference
-          href: developer/about-entity-reference.md
-        - name: Account
-          href: developer/entities/account.md
-        - name: BulkOperation
-          href: developer/entities/bulkoperation.md
-        - name: Campaign
-          href: developer/entities/campaign.md
-        - name: CampaignActivity
-          href: developer/entities/campaignactivity.md
-        - name: CampaignResponse
-          href: developer/entities/campaignresponse.md
-        - name: Competitor
-          href: developer/entities/competitor.md
-        - name: Contact
-          href: developer/entities/contact.md
-        - name: Discount
-          href: developer/entities/discount.md
-        - name: DiscountType
-          href: developer/entities/discounttype.md
-        - name: DynamicPropertyInstance
-          href: developer/entities/dynamicpropertyinstance.md
-        - name: Goal
-          href: developer/entities/goal.md
-        - name: GoalRollupQuery
-          href: developer/entities/goalrollupquery.md
-        - name: Invoice
-          href: developer/entities/invoice.md
-        - name: InvoiceDetail
-          href: developer/entities/invoicedetail.md
-        - name: Lead
-          href: developer/entities/lead.md
-        - name: LeadAddress
-          href: developer/entities/leadaddress.md
-        - name: LeadToOpportunitySalesProcess
-          href: developer/entities/leadtoopportunitysalesprocess.md
-        - name: List
-          href: developer/entities/list.md
-        - name: Metric
-          href: developer/entities/metric.md
-        - name: msdyn_callablecontext
-          href: developer/entities/msdyn_callablecontext.md
-        - name: About Table/Entity Reference
-          href: developer/about-entity-reference.md
-        - name: msdyn_assignmentmap
-          href: developer/entities/msdyn_assignmentmap.md
-        - name: msdyn_assignmentrule
-          href: developer/entities/msdyn_assignmentrule.md
-        - name: msdyn_attribute
-          href: developer/entities/msdyn_attribute.md
-        - name: msdyn_attributevalue
-          href: developer/entities/msdyn_attributevalue.md
-        - name: msdyn_ConversationActionItem
-          href: developer/entities/msdyn_conversationactionitem.md
-        - name: msdyn_ConversationAggregatedInsights
-          href: developer/entities/msdyn_conversationaggregatedinsights.md
-        - name: msdyn_ConversationParticipantInsights
-          href: developer/entities/msdyn_conversationparticipantinsights.md
-        - name: msdyn_ConversationParticipantSentiment
-          href: developer/entities/msdyn_conversationparticipantsentiment.md
-        - name: msdyn_ConversationQuestion
-          href: developer/entities/msdyn_conversationquestion.md
-        - name: msdyn_ConversationSentiment
-          href: developer/entities/msdyn_conversationsentiment.md
-        - name: msdyn_ConversationSignal
-          href: developer/entities/msdyn_conversationsignal.md
-        - name: msdyn_ConversationSubject
-          href: developer/entities/msdyn_conversationsubject.md
-        - name: msdyn_ConversationSummarySuggestion
-          href: developer/entities/msdyn_conversationsummarysuggestion.md
-        - name: msdyn_ConversationSystemTag
-          href: developer/entities/msdyn_conversationsystemtag.md
-        - name: msdyn_ConversationTag
-          href: developer/entities/msdyn_conversationtag.md
-        - name: msdyn_forecastdefinition
-          href: developer/entities/msdyn_forecastdefinition.md
-        - name: msdyn_forecastinstance
-          href: developer/entities/msdyn_forecastinstance.md
-        - name: msdyn_forecastrecurrence
-          href: developer/entities/msdyn_forecastrecurrence.md
-        - name: msdyn_ocrecording
-          href: developer/entities/msdyn_ocrecording.md
-        - name: msdyn_salesassignmentsetting
-          href: developer/entities/msdyn_salesassignmentsetting.md
-        - name: msdyn_salesroutingrun
-          href: developer/entities/msdyn_salesroutingrun.md
-        - name: msdyn_saruninstance
-          href: developer/entities/msdyn_saruninstance.md
-        - name: msdyn_segment
-          href: developer/entities/msdyn_segment.md
-        - name: msdyn_segmentattribute
-          href: developer/entities/msdyn_segmentattribute.md
-        - name: msdyn_SCIConversation
-          href: developer/entities/msdyn_sciconversation.md
-        - name: msdyn_transcript
-          href: developer/entities/msdyn_transcript.md
-        - name: Opportunity
-          href: developer/entities/opportunity.md
-        - name: OpportunityClose
-          href: developer/entities/opportunityclose.md
-        - name: OpportunityProduct
-          href: developer/entities/opportunityproduct.md
-        - name: OpportunitySalesProcess
-          href: developer/entities/opportunitysalesprocess.md
-        - name: OrderClose
-          href: developer/entities/orderclose.md
-        - name: PriceLevel
-          href: developer/entities/pricelevel.md
-        - name: Product
-          href: developer/entities/product.md
-        - name: ProductAssociation
-          href: developer/entities/productassociation.md
-        - name: ProductPriceLevel
-          href: developer/entities/productpricelevel.md
-        - name: ProductSubstitute
-          href: developer/entities/productsubstitute.md
-        - name: Quote
-          href: developer/entities/quote.md
-        - name: QuoteClose
-          href: developer/entities/quoteclose.md
-        - name: QuoteDetail
-          href: developer/entities/quotedetail.md
-        - name: RollupField
-          href: developer/entities/rollupfield.md
-        - name: SalesLiterature
-          href: developer/entities/salesliterature.md
-        - name: SalesLiteratureItem
-          href: developer/entities/salesliteratureitem.md
-        - name: SalesOrder
-          href: developer/entities/salesorder.md
-        - name: SalesOrderDetail
-          href: developer/entities/salesorderdetail.md
-        - name: UoM
-          href: developer/entities/uom.md
-        - name: UoMSchedule
-          href: developer/entities/uomschedule.md
+      href: developer/entities/toc.yml
     - name: Action Reference
       items:
         - name: RecalculatePrice Action
@@ -1447,7 +1314,7 @@
         - name: Action Reference
           items:
             - name: msdyn_ConnectSequence
-              href: developer\entities\msdyn-ConnectSequence-action.md
+              href: developer/reference/custom-actions/msdyn-ConnectSequence-action.md
             - name: msdyn_WKWDeleteGDPRData
               href: developer/reference/custom-actions/msdyn_WKWDeletePrivacyData.md
             - name: msdyn_WKWGDPRDeleteStatus
@@ -1456,14 +1323,18 @@
           items:
             - name: Table reference
               href: entity-reference.md
-            - name: msdyn_PredictiveScore
-              href: developer/entities/msdyn_predictivescore.md
-            - name: msdyn_PredictiveModelScore
-              href: developer/entities/msdyn_predictivemodelscore.md
-            - name: msdyn_wkwcolleaguesforcontact
-              href: developer/entities/msdyn_wkwcolleaguesforcontact.md
-            - name: msdyn_wkwcolleaguesforcompany
-              href: developer/entities/msdyn_wkwcolleaguesforcompany.md
+            - name: Predictive Score
+              displayName: "msdyn_predictivescore entity"
+              href: ../developer/reference/entities/msdyn_predictivescore.md
+            - name: Predictive Model Score
+              displayName: "msdyn_predictivemodelscore entity"
+              href: ../developer/reference/entities/msdyn_predictivemodelscore.md
+            - name: wkwcolleaguesforcompany
+              displayName: "msdyn_wkwcolleaguesforcompany entity"
+              href: ../developer/reference/entities/msdyn_wkwcolleaguesforcompany.md
+            - name: wkwcolleaguesforcontact
+              displayName: "msdyn_wkwcolleaguesforcontact entity"
+              href: ../developer/reference/entities/msdyn_wkwcolleaguesforcontact.md
         - name: Create insight cards using solution
           href: extend-relationship-assistant-card.md
           items:

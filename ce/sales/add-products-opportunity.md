@@ -14,13 +14,6 @@ ms.reviewer: lavanyakr
 Develop your opportunity by adding products, bundles or families that you want to sell,upsell, and cross-sell.
 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Find and add products to an opportunity 
 
 You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or add a Write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.

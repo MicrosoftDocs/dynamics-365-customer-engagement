@@ -1,10 +1,10 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in your contact center.
-ms.date: 04/18/2024
+ms.date: 12/26/2024
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -26,7 +26,7 @@ You can view a list of all agent and customer-facing automated messages in your 
     > [!div class=mx-imgBorder]
     > ![Display all automated messages.](../media/automated-messages-list.png "Display all automated messages")
 
-1. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button.
+1. Select one or more of the records to edit the language code and text. If you want to deactivate the messages, select the **Deactivate** button. If overflow conditions are configured, the default automated message is played for the overflow action if you deactivate the message that's configured for the overflow condition.
 
 ## Customize automated messages at the channel level
 
@@ -71,7 +71,7 @@ Complete the following steps for the channel in which you want to create custom 
 |-----------------|------------|-----------------|-------------------|
 | Greeting Message for Async Channels and Voice | The automated message played for the customer as soon as the call is connected. <br>**Note**<br> If the bot is enabled, ensure that the automated greeting message is different from the bot message. | You can set it up to be played as the first message that the customer should hear when they call the digital contact center. | Customer |
 | Agent assigned to a conversation | Message displayed to the customer when the agent is assigned to the conversation. | When the agent is assigned to the conversation. | Customer |
-| Agent couldn’t be assigned to conversation   | Message displayed to the customer when the agent assignment fails. | When work distribution fails or when routing is unable to add the agent to the chat due to system failure. For example, no agents are available in the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching agent can't be identified based on the assignment configuration. |Customer |
+| Agent couldn't be assigned to conversation   | Message displayed to the customer when the agent assignment fails. | When work distribution fails or when routing is unable to add the agent to the chat due to system failure. For example, no agents are available in the queue, or the default queue isn't found. <br>**Note**<br> This trigger isn't applicable to a scenario when a matching agent can't be identified based on the assignment configuration. |Customer |
 | Agent disconnected from conversation | Message displayed to the customer when the agent gets disconnected. | When the agent gets disconnected due to browser tab closure, browser closure, offline agent presence, or network issue.  | Customer |
 | Agent ended conversation | Message displayed to the customer when the agent ends the conversation. | When the agent selects the End button. | Customer |
 | Agent joined conversation | Message displayed to the customer when the agent joins a conversation. | When the agent accepts the notification. | Customer |
@@ -92,6 +92,10 @@ Complete the following steps for the channel in which you want to create custom 
 |Offer customer callback |The callback message played for the customer when the wait times are longer than expected.| When the customer calls and wait time is long.| Customer |
 | Customer callback response | When the customer presses 1 on the call menu, a confirmation message is played to indicate the customer choice.| Customer presses 1 on the call menu. The response to offer customer callback message is played.| Customer |
 | Queue overflow conditions where the corresponding action is direct callback| The system presents an automated message to the customer that asks if they prefer a callback by the agent instead of waiting in the queue.| The first automated message plays after the customer waits for 30 seconds and then repeats after every 120 seconds until the customer selects the option, ends the call, or is connected to an agent.| Customer |
+
+> [!NOTE]
+> The supported locale is mentioned in the out-of-the-box system messages that you can see in Contact Center admin center or Customer Service admin center.
+
 
 ## Best practices for using automated messages
 

@@ -1,18 +1,15 @@
 ---
-title: "setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Learn about setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0."
-ms.date: 07/31/2023
+title: setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0 
+description: Learn about setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0.
+ms.date: 12/10/2024
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.custom: bap-template 
 ---
 
 # setSessionTitle (JavaScript API Reference) for Dynamics 365 Channel Integration Framework 2.0
-
-
 
  >[!NOTE]
  > - This content applies to Dynamics 365 Channel Integration Framework version 2.0 only.

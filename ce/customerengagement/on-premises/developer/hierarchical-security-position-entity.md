@@ -2,7 +2,6 @@
 title: "Hierarchical security (position) entity (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn about hierarchy security that enables you to model the manager/direct report structure that is often used in businesses. "
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

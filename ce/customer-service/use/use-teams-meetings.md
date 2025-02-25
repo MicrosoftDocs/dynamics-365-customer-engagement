@@ -1,10 +1,11 @@
 ---
 title: Use Microsoft Teams meetings 
 description: Learn how to use Microsoft Teams meetings integration 
-ms.date: 05/26/2023
+ms.date: 01/22/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -29,9 +30,9 @@ ms.custom:
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-The Teams meeting integration feature provides a unified meeting experience that helps you, as an agent, to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
+The Teams meeting integration feature provides a unified meeting experience that helps you, as a customer service representative (service representative or representative), to reduce your administrative workload and increase productivity. The Dynamics 365 records are accessible while conducting a meeting over Teams, which you can refer to and have contextually relevant conversations with your customers. You can also take notes to help save time, be more productive, and leverage better data within your organization. 
 
-As an agent, you can: 
+As a representative, you can: 
 -	Create and join Microsoft Teams meetings directly from Dynamics 365. 
 -	Access and update Dynamics 365 records seamlessly within the context of a Microsoft Teams meeting. 
 -	Capture notes and tasks seamlessly during a Microsoft Teams meeting, and have these notes and tasks automatically sync to records in Dynamics 365. 
@@ -159,7 +160,7 @@ You can join a Teams meeting from Dynamics 365, Microsoft Outlook, or Microsoft 
 
 **Join a Teams meeting from Microsoft Teams** 
 
-You have several options. More information: [Join a meeting in Teams](https://support.microsoft.com/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
+You have several options. Learn more in [Join a meeting in Teams](https://support.microsoft.com/office/join-a-meeting-in-teams-1613bb53-f3fa-431e-85a9-d6a91e3468c9)
 
 ### Work with notes during a meeting
 

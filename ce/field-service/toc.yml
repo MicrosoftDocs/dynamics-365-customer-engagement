@@ -119,8 +119,6 @@ items:
           href: flw-outlook.md#create-a-work-order-with-copilot
         - name: Draft email response in Outlook
           href: flw-outlook.md#draft-an-email-response-with-copilot
-        - name: Chat with Microsoft Copilot for Field Service
-          href: flw-m365-chat.md
 
 - name: Work orders
   items:
@@ -222,20 +220,18 @@ items:
           href: flw-teams-worker-get-started.md
         - name: Manage work orders with Field Service in Teams
           href: flw-teams-worker.md
-    - name: Field Service Plugin for Microsoft Copilot
-      href: flw-m365-chat.md
 
 - name: Collaborate with Microsoft Teams
   items:
     - name: Overview of Microsoft Teams integration
       href: /dynamics365/teams-integration/teams-integration?context=/dynamics365/context/field-service-context
-    - name: Collaborate on work orders with Microsoft Teams
+    - name: Set up Teams integration
+      href: field-service-teams-collab-admin.md
+    - name: Collaborate on work orders with Teams
       href: field-service-teams-collaboration.md
-    - name: Use the personal dashboard in Teams
-      href: /dynamics365/teams-integration/teams-personal-use?context=/dynamics365/context/field-service-context
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
-    - name: Use Teams mobile to annotate in a user's environment (preview)
+    - name: Use spatial annotations in Teams
       href: annotate-teams-mobile.md
 
 - name: Scheduling
@@ -333,6 +329,8 @@ items:
         href: mobile/enable-push-notifications.md
       - name: Track and audit location data
         href: mobile/track-technician-location.md
+      - name: Enable technicians to create service reports
+        href: mobile/create-service-report-admin.md
       - name: Configure geofencing
         href: mobile/configure-geofencing.md
       - name: Manage apps with Intune
@@ -545,8 +543,6 @@ items:
         href: rso-optimization-goal.md
       - name: Create optimization schedules
         href: rso-optimization-schedule.md
-      - name: Publish schedules and review results
-        href: rso-schedule-optimization.md
       - name: Configure overnight scheduling
         href: rso-overnight-scheduling.md
       - name: Get alerts for failed runs
@@ -616,6 +612,9 @@ items:
     - name: Customize the booking card
       href: customize-booking-card.md
 
+- name: Field Service table reference
+  href: developer/reference/entities/toc.yml
+
 - name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
@@ -627,7 +626,7 @@ items:
   - name: Microsoft 365 integrations for Field Service troubleshooting
     href: /troubleshoot/dynamics-365/field-service/welcome-field-service
   - name: New Field Service mobile experience troubleshooting
-    href: mobile/troubleshooting-mobile-newux.md
+    href: /troubleshoot/dynamics-365/field-service/welcome-field-service
 
 - name: Responsible AI
   items:
@@ -641,8 +640,6 @@ items:
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
-    - name: FAQ about Field Service Plugin for Microsoft Copilot
-      href: faqs-m365-chat.md
 
 - name: More resources
   items:
@@ -656,3 +653,4 @@ items:
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
+

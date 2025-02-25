@@ -1,7 +1,7 @@
 ---
 title: Configure automatic closure of conversations using web API
 description: Use this article to understand how to configure the auto-close duration of conversations using the Web API.
-ms.date: 09/29/2023
+ms.date: 12/04/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -36,7 +36,7 @@ If-None-Match: null
    "value":[ 
       { 
          "@odata.etag":"W/\"1379367\"",
-         "_organizationid_value":"758f70a9-7aba-4764-bdda-fcc0023a702f",
+         "_organizationid_value":"11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
          "msdyn_name":"Live Chat - Open",
          "statecode":0,
          "statuscode":1,
@@ -59,7 +59,7 @@ If-None-Match: null
       },
       { 
          "@odata.etag":"W/\"1379368\"",
-         "_organizationid_value":"758f70a9-7aba-4764-bdda-fcc0023a702f",
+         "_organizationid_value":"11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
          "msdyn_name":"Live Chat - Active",
          "statecode":0,
          "statuscode":1,

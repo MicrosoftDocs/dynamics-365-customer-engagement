@@ -1,7 +1,7 @@
 ---
 title: Customize lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 11/11/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -20,13 +20,6 @@ searchScope:
 # Customize the lead qualification experience  
 
 As an admin, you can customize the lead qualification experience to help sellers qualify leads more effectively.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|:-----------------|:--------------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Difference between new lead qualification experience and legacy experience
 
@@ -47,7 +40,7 @@ The legacy experience only lets you choose whether to automatically create accou
 
 2. Under **General Settings**, select **Lead + Opportunity management** > **Lead Qualification**.
 
-   You'll see following options:
+   You'll see the following options:
 
     - **Try the new lead qualification experience**: This setting is turned on by default. This setting lets you define the following experiences:
         - [Define the record creation experience for each record type](#define-the-record-creation-experience-for-each-record-type)
@@ -73,7 +66,6 @@ With the new [Lead qualification experience](#how-to-customize-the-lead-qualific
 - Select **Automatic** if you want the system to create the record automatically. Sellers can review the records that will be created automatically.
 
 In either case, if there's a matching record in the system, the duplicate detection rules are applied to prevent the creation of duplicate records. Sellers can choose to use the existing record or create a new one. For more information about rules used to identify duplicates, see [Manage duplicate leads](manage-duplicate-leads.md).
-
  
 ### Customize opportunity creation experience for qualified leads
 
@@ -119,7 +111,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Topic              | subject              | Topic                     | name                        |
 | Contact            | parentcontactid      | Contact                   | parentcontactid             |
 | Account            | parentaccountid      | Account                   | parentaccountid             |
-
+>
 **Fields mapped to account**
 
 | Field name in lead | Logical name in lead     | Field name in account       | Logical name in account     |
@@ -134,7 +126,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | State/Province     | address1_stateorprovince | Address 1: State/Province   | address1_stateorprovince    |
 | Zip/Postal Code    | address1_postalcode      | Address 1: ZIP/Postal Code  | address1_postalcode         |
 | Country/Region     | address1_country         | Address 1: Country/Region   | address1_country            |
-
+>
 **Fields mapped to contact**
 
 | Field name in lead | Logical name in lead     | Field name in contact       | Logical name in contact      |

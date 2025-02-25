@@ -14,14 +14,6 @@ ms.custom:
 
 Use grids (views) and lists to browse and manage various data sets in Dynamics 365 Sales to improve your productivity.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## What can you do in a view?
 
 A view is a page that displays various components such as charts, grid, and filters. You can use views to browse through and manage data in Dynamics 365 Sales. You can also [personalize views](/powerapps/user/grid-filters-advanced#create-personal-views) by adding or removing columns, sorting, and filtering data. 

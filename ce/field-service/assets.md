@@ -1,7 +1,7 @@
 ---
-title: Work with customer assets (contains video)
+title: Work with customer assets
 description: Learn how to add customer assets to use asset management in Dynamics 365 Field Service.
-ms.date: 08/06/2024
+ms.date: 11/11/2024
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -14,7 +14,7 @@ When you add your customers' assets in Field Service, you can track equipment th
 
 If your organization uses [Connected Field Service](connected-field-service.md), you can [connect customer assets to sensors](cfs-register-devices.md) that monitor the assets and [trigger an Internet of Things (IoT) alert](cfs-iot-alerts.md) when something needs attention. Watch the following video for a guided walk-through of servicing a customer asset in response to an IoT alert.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ly0y]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=aaa94b8a-0fe7-4435-b472-cf8ef42571ad]
 
 ## Create customer assets
 
@@ -42,6 +42,8 @@ You can [create customer assets individually](#manually-create-customer-assets),
 1. Select **Save**.
 
 1. Optionally add subcomponents or child assets in the **Sub Assets** grid.
+
+1. Optionally, [link knowledge articles](field-service-km-link.md#link-related-entities-to-knowledge-articles). Learn more: [Knowledge management overview](field-service-km-overview.md).
 
 ### Import customer assets from Excel
 

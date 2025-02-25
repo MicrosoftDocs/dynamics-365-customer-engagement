@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.date: 06/14/2024
 ms.topic: how-to
 ms.collection:
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

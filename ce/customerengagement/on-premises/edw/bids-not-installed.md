@@ -3,7 +3,6 @@ title: "Business Intelligence Development Studio is not installed for Microsoft 
 description: Environment diagnostics warning that a required application is missing
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

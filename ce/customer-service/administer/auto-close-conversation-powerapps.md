@@ -1,11 +1,11 @@
 ---
 title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
-ms.date: 05/02/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.custom: bap-template
 ms.collection:
 ---
@@ -18,7 +18,7 @@ A default time is set for the conversations to close automatically in the contac
 The scheduler checks conversations every 5 minutes to identify conversations that don't transition for more than the default configured time. Such conversations become eligible for automatic closure, so the next time the scheduler runs, the conversations are moved from the existing state to the **Closed** state.
 
 > [!IMPORTANT]
-> - The scheduler checks the [modifiedon](../develop/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in msdyn_ocliveworkitem table to identity the conversations that are eligible for automatic closure.
+> - The scheduler checks the [modifiedon](../../developer/reference/entities/msdyn_ocliveworkitem.md#BKMK_msdyn_modifiedon) field in [Conversation (msdyn_ocliveworkitem) table](../../developer/reference/entities/msdyn_ocliveworkitem.md) to identity the conversations that are eligible for automatic closure.
 > - To avoid inaccurate statuses, we recommend that you don't change the conversation state and status reason by manually updating the records in Microsoft Dataverse.
 > - For any actions performed on the conversations such as monitor, consult, or transfer, the scheduler automatically recalculates the time to close the conversation.
 
@@ -32,7 +32,7 @@ The following table describes the channel, status reason, and default configured
  | Channel | Existing status reason | Default configured time | Description |
  |--------------------|-------|-------------|--------------------------------------|
  | Chat | Open |  20 min   | For a chat channel, a conversation in the **Open** state for more than 20 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from the **Open** state to the **Closed** state. |
- | Chat | Active | None | For a chat channel, a conversation in the Active state won’t be automatically closed. |
+ | Chat | Active | None | For a chat channel, a conversation in the Active state won't be automatically closed. |
  | Chat | Wrap-up | 15 minutes | For a chat channel, a conversation that is in the **Wrap-up** stage for more than 15 minutes is eligible for automatic closure. Next time, when the scheduler runs, the conversation will be moved from **Wrap-up** to the **Closed** state. |
  |  |  |  |  |
  | Records (Case) | Open | None | For a records (case) channel, a conversation that's **Open** will be closed if the corresponding record is deleted. |
