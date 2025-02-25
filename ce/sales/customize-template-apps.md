@@ -31,22 +31,23 @@ Before you customize the template app, read the information here and perform eac
 
 - [Power BI service registration](https://powerbi.com/)
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports
-- Power BI report for the template app (.pbix file) that you want to customize:
+- Download the following Power BI reports (.pbix file) for the template app that you want to customize:
 
-  - [Download the Power BI report for Sales Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121605)
-  - [Download the Power BI report for Process Analytics for Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2121504)
+  - [Sales Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121605)
+  - [Process Analytics for Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2121504)
 
 ## Prepare a PBIX for customization
 
-1. Open the template app file (.pbix) that you downloaded in Power BI Desktop. 
+1. Open the downloaded Power BI report file (.pbix) in Power BI Desktop.
+
    The app opens the report with sample data.
 
 1. On the Power BI Desktop ribbon, select **Transform data** > **Edit parameters**.
-1. Enter the URL of your organization's instance and select **OK**. For example, if the organization name is _Contoso_, the URL looks like this: `https://contoso.crm.dynamics.com`.
-  You'll see a banner that reminds you to apply changes.
+1. Enter the URL of your organization's instance and select **OK**. For example, if the organization name is *Contoso*, the URL looks like this: `https://contoso.crm.dynamics.com`.
+  A banner appears at the top of the page, prompting you to apply changes.
   :::image type="content" source="media/power-bi-query-banner.png" alt-text="Screenshot of the banner in Power BI Desktop that reminds you to apply changes":::
 1. Select **Apply changes**.
-1. When the **OData feed** dialog box appears, select **Organizational account**, and then select **Sign in**.
+1. In the **OData feed** dialog, select **Organizational account**, and then select **Sign in**.
 1. Enter your credentials to authenticate to your instance and select **Connect**.
    It might take several minutes for the queries to be updated.
 
