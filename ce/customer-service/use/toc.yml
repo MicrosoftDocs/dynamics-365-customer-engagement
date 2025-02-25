@@ -366,10 +366,14 @@
           href: info-analytics-reports.md
         - name: Metrics
           items:
-          - name: Use analytics data model
+          - name: Overview of analytics data model
             href: metrics-data-model.md
-          - name: Use report metrics
+          - name: Conversation metrics
             href: oc-metrics-dimensions.md
+          - name: Session metrics
+            href: session-metrics.md
+          - name: Service representative metrics
+            href: service-rep-metrics.md
         - name: Personalize analytics
           items: 
           - name: Manage report filters

@@ -10,9 +10,13 @@ ms.date: 02/10/2025
 ms.custom: bap-template
 ---
 
-# Understand the analytics data model
+# Overview of analytics data model
 
-The application provides an out-of-box data model that consists of fact and dimension tables.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+This article presents an overview of the analytics data model. The application provides an out-of-box data model that consists of fact and dimension tables.
 
 - Facts, also known as metrics, represent the observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
 - Dimensions represent the attributes of the facts. You can use them to break down the data for further analysis.
@@ -104,6 +108,27 @@ This dimension represents the name of the omnichannel workstream where the conve
 
 This dimension represents the name of the channel.
 
+## Metrics
+
+- [Conversation](oc-metrics-dimensions.md#conversation-metrics)
+- [Session](session-metrics.md#session)
+- [Service representatives](service-rep-metrics.md#service-representatives)
+
+
+## Understand the workflow
+
+Here's a brief description of the workflow.
+
+When a customer raises a request through a channel such as voice, messaging, or chat, the system creates a conversation. A conversation represents an entire end-to-end interaction with a customer. The system can also create a conversation when a service representative calls a customer. A conversation typically originates in a workstream on a specific channel. It then routes to a queue, based on your organizational rule settings. A conversation entity holds metrics about your customer's experience with the contact center. These metrics include the current status, wait time, handle time, and current customer sentiment.
+
+A conversation can end during a single session or it can extend to multiple sessions. A session is created when the system identifies a service representative to work on a conversation. New sessions are created for different reasons. For example, a conversation might be transferred to a different queue, or a service representative might reject a conversation request or let it time out. From this entity, you can get KPIs and metrics that describe queue performance and service representative performance. Examples include the number of requests that landed in a queue, the number of requests that service representatives rejected, and service representative handle time.
+
+The workflow in the following diagram represents a single conversation where multiple sessions are created. The first session is created when the conversation is created and assigned to an AI agent. When the AI agent escalates the conversation to a service representative, the second session is created, and the first session is automatically closed. In the second session, the system identifies and assigns the best service representative to work on the customer request. If that service representative rejects the request, a new session is created, and the process of identifying another service representative begins.
+
+:::image type="content" source="../media/customer-workflow.png" alt-text="Diagram that shows the customer conversation journey." lightbox="../media/customer-workflow.png":::
+
+For every service representative who is identified to work on a conversation and associated with the latest session, a session participant entry is created. A single session can have multiple participants. Every session has one primary participant: the service representative who has the assigned work item. A session might then have many other participants who monitor the conversation or help with the consultation. Alternatively, the session might have no other participants. From this entity, you can get KPIs and metrics about consultations that service representatives provide and monitored conversations.
+
 ## Next steps
 
-[Use report metrics](oc-metrics-dimensions.md#use-report-metrics)
+[Conversation metrics](oc-metrics-dimensions.md#use-report-metrics)
