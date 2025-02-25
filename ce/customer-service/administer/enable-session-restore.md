@@ -23,8 +23,8 @@ Before you enable the session restore feature, review the following definitions 
 
 ### Definitions
 
-**Generic sessions**: All sessions that were created using generic session templates.
-**Last updated browser tab**: A browser tab where the service representative most recently created or closed a session or tab.
+- Generic sessions: All sessions that were created using generic session templates.  
+- Last updated browser tab: A browser tab where the service representative most recently created or closed a session or tab.
 
 > [!Note]
 > Switching sessions or tabs doesn't equal the last updated browser tab definition.
@@ -38,9 +38,8 @@ Before you enable the session restore feature, review the following definitions 
 - While the productivity pane state and focus are restored, the system doesn't restore the state of the productivity tools.
 - The system restores chats, calls, and other conversations after presence is reestablished. There's a slight delay when compared to other sessions.
 - Sessions that are initiated by third-party providers via Dynamics 365 Channel Integration Framework aren't restored.
-- The system can't restore generic sessions in browswer tabs that were reopened using Ctrl+Shift+T.
-- The system can restore generic sessions only by refreshing the current browser tab.
-- Consult sessions restore is not supported.
+- The system can't restore generic sessions in browswer tabs that were reopened using the Ctrl+Shift+T function. Generic sessions can be restored only by refreshing the current browser tab.
+- Consult sessions restore isn't supported.
 - Sessions with the new record form open are restored in the new state only. Restoring a saved form isn't supported.
 
 ## Enable session restore for service representatives
