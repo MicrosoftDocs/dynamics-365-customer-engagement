@@ -114,7 +114,6 @@ This dimension represents the name of the channel.
 - [Session](session-metrics.md#session)
 - [Service representatives](service-rep-metrics.md#service-representatives)
 
-
 ## Understand the workflow
 
 Here's a brief description of the workflow.
@@ -131,4 +130,4 @@ For every service representative who is identified to work on a conversation and
 
 ## Next steps
 
-[Conversation metrics](oc-metrics-dimensions.md#use-report-metrics)
+[Customize visual display](customize-reports.md#customize-visual-display)

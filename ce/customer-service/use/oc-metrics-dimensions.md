@@ -22,7 +22,7 @@ This article provides an overview of various conversation metrics available in D
 
 ## Total conversations
 
-The total number of conversations that takes place during the selected period of time across all channels (digital, voice), and includes all conversation statuses (open (unassigned), active (assigned), and closed conversations), both bot and/or service representative conversations, and both inbound and outbound conversations. 
+The total number of conversations that takes place during the selected period of time across all channels (digital, voice), and includes all [conversation status](metrics-data-model.md#conversation-status) (open (unassigned), active (assigned), and closed conversations), both bot and/or service representative conversations, and both inbound and outbound conversations. 
 
 Bot deflected conversations + Bot escalated conversations + Total service representative (direct representative) conversations = Total conversations.
 
@@ -80,7 +80,7 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 - **Longest wait time**: This metric is a measure of the longest first wait time among incoming conversations that a service representative hasn't yet accepted.
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting service representative assistance, or conversations where a service representative is assigned but are waiting for the service representative to accept.
 
-For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one service representative to another, go to the [Session wait time](#session-wait-time) section.
+For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one service representative to another, see [Session wait time](session-metrics.md#session-wait-time).
 
 ## Conversation handle time
 
@@ -98,7 +98,7 @@ This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
 This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
 
-For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](#average-session-handle-time).
+For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](session-metrics.md#average-session-handle-time).
 
 For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
 
