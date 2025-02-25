@@ -32,7 +32,7 @@ This article lists the considerations to use context variables and how you can c
 1. Select the **Type** of variable from the dropdown list. You can choose either **Text** or **Number**.
 1. Repeat steps 3 and 4 to create the required variables.
 
-## Configure context variables for Azure and Copilot agents
+## Configure context variables for AI agents
 
 You can also configure context variables for AI agents created in Azure and Copilot Studio in the application. When customers initiate a conversation, the relevant context that's related to the customer, the issue they're facing, and recent activities performed by them can be made available for the AI agent (agent) to intelligently provide contextual responses to resolve customer issues in a quick and efficient manner. For example, the agent can use the signed-in user details to look up the recent case information or order history of the customer and provide a response. Similarly, customers can configure context variables for the agent to pass on pre-conversation information, custom context, or recent pages that they browsed on a website. Context variables set by the agent can also be passed to Dynamics 365 when it escalates to the service representative. For example, you can pass the ticket number for the case created by the agent to Dynamics 365 Contact Center to link the case and load the customer summary for the representative to view.
 
