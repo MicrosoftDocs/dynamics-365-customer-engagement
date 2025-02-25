@@ -88,11 +88,11 @@
           href: create-rules-automatically-route-cases.md
       - name: Conversation diagnostics
         items:
-        - name: Configure conversation diagnostics
+        - name: Configure conversation diagnostics (preview)
           href: configure-conversation-diagnostics.md
-        - name: Conversation diagnostics subscenarios
+        - name: Conversation diagnostics subscenarios (preview)
           href: conversation-diagnostics-subscenarios.md
-        - name: Sample queries for conversation diagnostics
+        - name: Sample queries for conversation diagnostics (preview)
           href: conversation-diagnostics-sample-queries.md    
         - name: View diagnostics for unified routing
           href: unified-routing-diagnostics.md

@@ -12,7 +12,11 @@ ms.custom: bap-template
 
 # Sample queries and dashboards in conversation diagnostics (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
 Learn about the queries that you can use to retrieve the diagnostics data for unified routing from Application Insights.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Fallback queues
 

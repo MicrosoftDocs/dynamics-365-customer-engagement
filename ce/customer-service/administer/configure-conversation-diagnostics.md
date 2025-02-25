@@ -1,5 +1,5 @@
 ---
-title: Configure conversation diagnostics
+title: Configure conversation diagnostics (preview)
 description: Learn about how to query and retrieve conversation diagnostics from Application Insights.
 author: neeranelli
 ms.author: nenellim
@@ -10,9 +10,13 @@ ms.date: 02/28/2025
 ms.custom: bap-template
 ---
 
-# Configure conversation diagnostics
+# Configure conversation diagnostics (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Conversation diagnostics logs each of the conversation lifecycle events, giving you a greater visibility into conversations-based operational telemetry of your organization.  This helps your support team to proactively monitor the system and allows developers to easily identify, diagnose, and fix problematic conversations, or seek swift support.
+
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Connect your Dynamics 365 Customer Service environment to an Azure Application Insights instance to collect and store conversation logs. For more information about Application Insights features and how they can be used to monitor your telemetry and diagnose failures, see [Application Insights Overview dashboard](/azure/azure-monitor/app/overview-dashboard) and [Diagnose failures using the Azure portal](/azure/azure-monitor/app/asp-net-exceptions#diagnose-failures-using-the-azure-portal).
 
@@ -24,7 +28,7 @@ You can then use the conversation lifecycle events data from Customer Service in
 
 ## Prerequisites
 
-- The user must have access level Contributor or higher on Azure Services to set up, and minimum Reader to query data in Application Insights.
+- The user must have access level Contributor or a higher-level permission on Azure Services to set up, and minimum read access to query data in Application Insights.
 
 - The user must be a Power Platform administrator or System Administrator.
 - The environment is a managed environment.
@@ -58,6 +62,7 @@ To view the logs for a conversation, as a user with minimum reader level, perfor
 1.	Select **Logs** in **Monitoring**.
 1.	Use the following sample query in the editor.
 
+```sql
     Traces  
     | extend customDim = parse_json(customDimensions)  
     | extend workItem = tostring(customDim["powerplatform.analytics.resource.id"])  
@@ -65,6 +70,7 @@ To view the logs for a conversation, as a user with minimum reader level, perfor
     | where workItem == "Insert conversation ID of work item"  
     // | where subscenario contains "Classification"  
     | project timestamp, workItem, subscenario, customDim  
+```
 
 1.	The **Results** tab displays the query results. 
 
