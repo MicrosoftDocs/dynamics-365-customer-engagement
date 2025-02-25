@@ -69,7 +69,7 @@ Suggested actions are supported fully with the exception that some channels migh
 
 ## Support for file attachments
 
-You can enable file attachments on the **General settings** tab of a channel so that customers and representatives can send files as attachments. Inbound attachments refer to attachments that customers send to representatives, and outbound attachments refer to vice versa. Learn more about file attachments in [Enable file attachments](enable-file-attachments.md).
+You can enable file attachments on the **General settings** tab of a channel so that customers and representatives can send files as attachments. Inbound attachments refer to attachments that customers send to representatives, and outbound attachments refer to attachments that representatives send to customers. Learn more about file attachments in [Enable file attachments](enable-file-attachments.md).
 
 | Channel              | Inbound attachments                        | Outbound attachments                  | 
 |----------------------|--------------------------------------------|---------------------------------------|
