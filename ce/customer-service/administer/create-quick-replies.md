@@ -96,7 +96,7 @@ The following parameters determine the quick replies that the representatives se
 - The language configured in the representative's personal settings
 - The workstream the quick reply is mapped to
 
-For example, when you set up a live chat widget or Facebook page, the quick replies are available in the language configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue, the representative-specific language setting, if configured, determines the language in which the quick replies are available to the representatives. The quick replies mapped to the representative workstream shows associated with the channel with other quick replies.
+For example, when you set up a live chat widget or Facebook page, the quick replies are available in the language configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing representatives, the representative-specific language setting, if configured, determines the language in which the quick replies are available to the representatives. The representatives see the quick replies mapped to the workstream associated with the channel with other quick replies.
 
 ### Related information
 
