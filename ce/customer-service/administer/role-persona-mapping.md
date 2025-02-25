@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 02/17/2025
+ms.date: 02/25/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -38,10 +38,10 @@ The admin persona can set up end-to-end workflows to handle customer interaction
 - Create and manage classification and assignment rules for work items based on business rules.
 - Create and maintain capacity profiles and schedules based on office hours.
 - Configure basic and advanced routing for all work items.
-- Create and maintain service representative skills for efficient skill-based routing of work items.
+- Create and maintain customer service representative (service representative or representative) skills for efficient skill-based routing of work items.
 - Manage users and their permissions by mapping the roles to the appropriate personas.
 - Configure and maintain custom presence.
-- Create and maintain targeted app experiences for representatives and supervisors through app profiles, session templates, and notification templates.
+- Create and maintain targeted app experiences for service representatives and supervisors through app profiles, session templates, and notification templates.
 - Enable diagnostics and insights on assignment flow.
 
 ### Supervisor
