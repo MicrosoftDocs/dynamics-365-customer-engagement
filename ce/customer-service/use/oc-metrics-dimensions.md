@@ -42,11 +42,11 @@ Bot deflected conversations + Bot escalated conversations = Total bot conversati
 
 The total number of conversations through any channel (voice, digital) including both open, active, and closed conversations for both inbound and outbound traffic involving service representatives. 
 
-### Related metrics:
+### Related metrics
 
-**Incoming conversations**: The total number of inbound conversations including both direct to representative and escalation from a voice or digital bot.
+- **Incoming conversations**: The total number of inbound conversations including both direct to representative and escalation from a voice or digital bot.
 
-**Outgoing conversations**: The total number of outbound conversations made by representative directly to the user.
+- **Outgoing conversations**: The total number of outbound conversations made by representative directly to the user.
 
 ## Engaged conversations
 
