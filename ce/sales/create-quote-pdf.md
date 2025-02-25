@@ -20,13 +20,6 @@ searchScope:
 
 Share sales records with your customers in a professional, read-only PDF format, created using your standard Word templates.  
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Prerequisites
 
 Your administrator must, 
@@ -119,7 +112,7 @@ You can also generate a PDF file and directly email it to a customer.
 **Answer:** No. If SharePoint is enabled for the entity for which you're generating a PDF, the PDF file will be saved to the SharePoint location by default.  <br>
 
 **Question:** Is the PDF generation capability available on all entities? <br>
-**Answer** No. The PDF generation capability is available only on seven out-of-the-box entities: Account, Contact, Lead, Opportunity, Quote, Order, Invoice. With 2020 release wave 2, the PDF generation capability is enhanced to support custom entities.<br>
+**Answer** Yes. The PDF generation capability is available on all out-of-the-box entities and custom entities that have templates associated with them. <br>
 
 **Question:** Does the generated PDF file support custom fonts? <br>
 **Answer:** The fonts in the generated file are limited to the fonts installed on the server that generates the PDF files. Here's a list of supported fonts:

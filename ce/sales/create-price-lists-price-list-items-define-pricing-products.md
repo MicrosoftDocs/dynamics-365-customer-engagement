@@ -24,14 +24,6 @@ Use price lists and price list items to define price for a product.
 
 [!INCLUDE [trial-cta-note](../includes/trial-cta-note.md)]
 
-## License and role requirements
-
-| Requirement type | You must have | 
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## What is a price list?
 
 Price lists tell your sales agents what to charge for your products or services. You can create multiple price lists so that you can maintain separate price structures for different regions,  sales channels, or sales territories. 

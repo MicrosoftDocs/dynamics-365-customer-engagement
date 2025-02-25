@@ -16,13 +16,6 @@ When the prediction accuracy of a lead scoring model doesn't meet your expectati
 > [!NOTE]
 > The real-time scoring feature was rolled out in December 2022, as part of Sales Insights version 9.0.22121.10001. Models that were published before this roll out, need to be edited and published again to be able to score in real-time. 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Edit a model
 
 1. Go to **Change area** in the lower-left corner of the Sales Hub app, and select **Sales Insights settings**.

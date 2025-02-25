@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 12/04/2024
+ms.date: 01/28/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,7 +16,7 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When agents use Copilot, agent interactions with Copilot such as copying summaries, using a suggested reply, feedback, and chat transcripts are stored in the [**msdyn_copilotinteraction**](../develop/reference/entities/msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](../develop/reference/entities/msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](../develop/reference/entities/msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
+When agents use Copilot, agent interactions with Copilot such as copying summaries, using a suggested reply, feedback, and chat transcripts are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
 
 ## Prerequisites
 

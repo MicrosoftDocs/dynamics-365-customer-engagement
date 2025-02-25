@@ -11,13 +11,6 @@ ms.reviewer: lavanyakr
 
 Learn how to access the Sales app, navigate the UI, and understand the data in the app, and some quick tips.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Open your sales app
 
 1. Visit the [Apps page](https://office.com/apps) on office.com.

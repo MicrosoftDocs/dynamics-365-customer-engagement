@@ -20,7 +20,7 @@ In Dynamics 365, *list management* and the *list* (marketing list) table help yo
   
 ## Related information  
 
- [List Table](entities/list.md)   
+ [Marketing List (List) table](../../developer/reference/entities/list.md)   
  [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query)   
  [Use FetchXML Aggregation](/powerapps/developer/data-platform/use-fetchxml-aggregation)   
  <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>   
