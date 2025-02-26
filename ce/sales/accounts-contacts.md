@@ -76,7 +76,7 @@ You can deactivate an account if you no longer do business with it. Deactivating
 1. In the sitemap of your sales app, select **Accounts**.
 1. Select the account you want to deactivate.
 1. In the command bar, select **Deactivate**.
-   To view all deactivated accounts, select **Inactive Accounts** from the views dropdown at the top of the page.
+   To view deactivated accounts, select **Inactive Accounts** from the views dropdown at the top of the page.
 
 ## Work with contacts
 
