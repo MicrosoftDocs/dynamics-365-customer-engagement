@@ -114,7 +114,7 @@ This dimension represents the name of the channel.
 - [Session](session-metrics.md#session)
 - [Service representatives](service-rep-metrics.md#service-representatives)
 
-## Understand the workflow
+## Understand the conversation workflow
 
 Here's a brief description of the workflow.
 
