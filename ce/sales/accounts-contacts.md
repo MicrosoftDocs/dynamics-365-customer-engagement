@@ -137,7 +137,7 @@ You can deactivate a contact if you no longer work with them. Deactivating a con
 
 1. In the sitemap of your sales app, select **Contacts**.
 1. Select the contact you want to deactivate.
-1. In the command bar, select **Deactivate**.
+1. In the command bar, select **Deactivate** and confirm the deactivation.
     The contact is deactivated and listed under the **Inactive Contacts** view.
 
 ## Import accounts or contacts from Excel, CSV, and XML Files
