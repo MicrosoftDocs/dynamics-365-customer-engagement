@@ -14,7 +14,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-Tracking knowledge article analytics helps you assess the value your articles provide to your customers. Knowing and understanding when, where, and how many times an article was viewed, tells you how much your customers rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
+Tracking knowledge article analytics helps you assess the value your articles provide to your customers. When you know and understand when, where, and how many times an article was viewed, it helps you assess you how much your customers rely on the information that it contains. Such data is useful to create future content curation plans and can help you decide what content to deliver, how you deliver it, where you deploy it, and what style or structure you use to write it.  
   
 ## Analytics for knowledge articles in Customer Service Hub
 
@@ -26,7 +26,7 @@ To view an article’s view counts and other related statistics, open the articl
   
 - **Views**: Shows you the total number of times the article has been viewed. The **View by day and location** section shows the article views on a particular day.
 
-    To maintain uniformity among users who see the article views across different time zones, the views are calculated based on the Coordinated Universal Time (UTC) time zone, aggregated, and then displayed according to the user's local time zone. So, if you are in the UTC-3 time zone, you’ll see the time and consequently the day as UTC-3. For example, 23rd Jun, 12:00 AM UTC time translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time.
+    To maintain uniformity among users who see the article views across different time zones, the views are calculated based on the Coordinated Universal Time (UTC) time zone, aggregated, and then displayed according to the user's local time zone. So, if you are in the UTC-3 time zone, you see the time and consequently the day as UTC-3. For example, 23rd Jun, 12:00 AM UTC time translates to 22nd Jun, 9:00 PM Brazil (UTC-3) time.
 
     The total number of views remains constant. You can select the **Day**, **Knowledge Article Views**, and **Location** column headers to sort the data.
 
@@ -35,11 +35,11 @@ To view an article’s view counts and other related statistics, open the articl
    The **Rating** field calculates the average rating of the article based on the amount of feedback and number of ratings received.  
    
    > [!NOTE]
-   > Rating and view count numbers are rollup fields that are not updated instantly. For more details, see [Define rollup fields](../../customerengagement/on-premises/customize/define-rollup-fields.md).
+   > Rating and view count numbers are rollup fields that are not updated instantly. For more information, see [Define rollup fields](../../customerengagement/on-premises/customize/define-rollup-fields.md).
 
-- **Cases**: Shows a list of the cases that have used this article. Double-click a case to view its details.  
+- **Cases**: Shows a list of the cases that used this article. To view its details, double-click a case  .  
   
-     By reviewing cases that have used your articles, you can gain valuable insights into the questions that customers are asking, as well as what avenues they tried before asking for help. This data can help you promote your knowledge articles better and provide more useful information to your customers and team members.
+     By reviewing cases that used your articles, you can gain valuable insights into the questions that customers are asking, and what avenues they tried before asking for help. This data can help you promote your knowledge articles better and provide more useful information to your customers and team members.
 
 ### Summary tab
 
@@ -47,7 +47,7 @@ Use the **Summary** tab to view and edit basic details of the article. In the **
 
 - View or edit **Basic settings** for the article. These include details like Language, Article Public Number, and more.
 - View or edit **Publish settings** for the article.
-- See the **Timeline**. Add notes or view what you have missed.
+- See the **Timeline**. Add notes or view what you missed.
 - View related information about the article in the **Related Information** section. These include related versions, translations, categories, articles, and products.
 
 ## Dashboards for knowledge articles in Customer Service Hub

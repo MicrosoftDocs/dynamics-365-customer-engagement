@@ -92,7 +92,7 @@ Use the Timezone option available in the reports to view the  time information a
 
 [!INCLUDE preview-banner]
 
-You can view this report if you have knowledge harvesting turned on in the Customer Service admin center. You must also have the **Real-time creation** and **Creation from historical cases** turned on for knowlegde harvesting. Learn more in [Manage knowledge harvesting (Preview)](../administer/admin-km-agent.md#manage-knowledge-harvesting-preview).
+You can view this report if you have knowledge harvesting turned on in the Customer Service admin center. You must also have the **Real-time creation** and **Creation from historical cases** turned on for knowlegde harvesting. Learn more in [Manage Customer Knowledge Management Agent (preview)](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent-preview).
 
 ### Related information
 

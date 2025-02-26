@@ -103,7 +103,7 @@ To enable this agent editor:
 
 Service representatives can see whether they have knowledge articles to review by opening a resolved case, navigating to the Timeline Highlights, and selecting the next suggested action to review the autonomously drafted article.
 
-Learn more in [Review knowledge articles created by the Customer Knowledge Management Agent](../use/admin-km-agent-review.md#review-knowledge-articles-created-by-the-customer-knowledge-management-agent).
+Learn more in [Review knowledge articles created by the Customer Knowledge Management Agent (preview)](../use/admin-km-agent-review.md#review-knowledge-articles-created-by-the-customer-knowledge-management-agent-preview).
 
 ## Use knowledge insights for Customer Knowledge Management Agent
 
