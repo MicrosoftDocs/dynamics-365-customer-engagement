@@ -93,7 +93,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can create/read/write/append/delete agent script ||||| Yes |
 | Can create/read/write/append/delete agent script step ||||| Yes |
 | Can create/read/write/append/delete agent script workflow ||||| Yes |
-| Can read `msdyn_macrosolutionconfiguration` ||||| Yes |
+| Can read `msdyn_productivitymacrosolutionconfiguration` ||||| Yes |
 | Can create/read/write/append/delete macro action ||||| Yes |
 
 ## Configure permissions to access secure columns

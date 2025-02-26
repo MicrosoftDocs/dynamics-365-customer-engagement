@@ -278,18 +278,18 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
-        - name: Use Copilot to summarize cases and conversations
-          href: copilot-use-summary.md
+        - name: Copilot feature availability across applications
+          href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Summarize cases
-          href: copilot-use-summary.md#summarize-cases
+          href: copilot-use-summary.md
         - name: Summarize conversations
-          href: copilot-use-summary.md#summarize-conversations
+          href: /dynamics365/contact-center/use/copilot-summarize-conversations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Ask a question 
-          href: use-ask-a-question.md
+          href: /dynamics365/contact-center/use/use-ask-a-question?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Draft a chat response (preview)
-          href: use-copilot-features.md
+          href: /dynamics365/contact-center/use/use-copilot-features?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Write an email with Copilot
-          href: use-copilot-email.md
+          href: /dynamics365/contact-center/use/use-copilot-email?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Use Copilot filters
           href: use-copilot-filters.md
         - name: Use Copilot to generate knowledge drafts from cases
@@ -297,7 +297,7 @@
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
-          href: copilot-chat-customer-service-data.md
+          href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Analytics dashboards and insights
         items: 
         - name: Use Omnichannel real-time analytics dashboards
@@ -364,7 +364,7 @@
           href: ongoing-conversations-dashboard.md
         - name: Analytics reports refresh and data retention
           href: info-analytics-reports.md
-        - name: Use Omnichannel for Customer Service metrics
+        - name: Use report metrics
           href: oc-metrics-dimensions.md
         - name: Personalize analytics
           items: 

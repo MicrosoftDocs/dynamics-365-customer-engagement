@@ -49,14 +49,14 @@ Data filters for [!INCLUDE[pn_MS_Outlook_Full](../../includes/pn-ms-outlook-full
  By default, there are unlimited settings for both system filters and user filters.  
 
 ## Instantiate a template  
- You can instantiate one or more filters per user. To do this manually, use the <xref:Microsoft.Crm.Sdk.Messages.InstantiateFiltersRequest> to instantiate a filter, creating a user query record. Each user query record contains a reference back to the filter. If you update the filter, you can call instantiate again to refresh or override the user’s changes to the filter (user query record).  
+ You can instantiate one or more filters per user. To do this manually, use the <xref:Microsoft.Crm.Sdk.Messages.InstantiateFiltersRequest> to instantiate a filter, creating a user query record. Each user query record contains a reference back to the filter. If you update the filter, you can call instantiate again to refresh or override the user's changes to the filter (user query record).  
 
-## Reset a user’s filters to the default  
+## Reset a user's filters to the default  
  You can reset the filters for a user to the default by using the <xref:Microsoft.Crm.Sdk.Messages.ResetUserFiltersRequest>.  
 
 ### See also  
  [Extend Dynamics 365 for Outlook](../extend-customer-engagement-outlook.md)   
- [SavedQuery Entity Reference](../entities/savedquery.md)   
+ [SavedQuery Entity Reference](/power-apps/developer/data-platform/reference/entities/savedquery)   
  [Sample: Retrieve Outlook Filters](sample-create-retrieve-outlook-filters.md)    
  <xref:Microsoft.Crm.Sdk.Messages.InstantiateFiltersRequest>   
  <xref:Microsoft.Crm.Sdk.Messages.ResetUserFiltersRequest>
