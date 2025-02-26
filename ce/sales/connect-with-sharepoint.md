@@ -89,6 +89,8 @@ You must have one of the following licenses:
     > [!IMPORTANT]
     > If issues persist, follow the instructions in [Set up Dynamics 365 apps to use SharePoint Online](/dynamics365/customer-engagement/admin/set-up-dynamics-365-online-to-use-sharepoint-online).
 
+---
+
 ## Related information
 
 [Collaborate using SharePoint](collaborate-using-sharepoint-sales.md)
