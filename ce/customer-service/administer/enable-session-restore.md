@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 02/25/2025 
+ms.date: 02/26/2025 
 ms.custom: bap-template 
 ---
 
@@ -39,8 +39,8 @@ Before you enable the session restore feature, review the following definitions 
 - The system restores chats, calls, and other conversations after presence is reestablished. There's a slight delay when compared to other sessions.
 - Sessions that are initiated by third-party providers via Dynamics 365 Channel Integration Framework aren't restored.
 - The system can't restore generic sessions in browser tabs that were reopened using the Ctrl+Shift+T function. Generic sessions can be restored only by refreshing the current browser tab.
-- Consult sessions restore isn't supported.
-- Sessions with the new record form open are restored in the new state only. Restoring a saved form isn't supported.
+- Consult conversations restoration isn't supported.
+- Sessions with the new record form open (and saved later) are restored in the new state only.
 
 ## Enable session restore for service representatives
 
