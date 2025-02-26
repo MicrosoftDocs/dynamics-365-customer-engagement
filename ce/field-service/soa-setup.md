@@ -18,11 +18,7 @@ The Scheduling Operations Agent is an autonomous agent for a Dynamics 365 app, B
 
 ## Set up a pay-as-you-go plan
 
-The Scheduling Operations Agent consumes Microsoft Copilot Studio messages when a user runs it. For licensing information, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
-
-The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. To [set up pay-as-you-go billing for an environment](/power-platform/admin/pay-as-you-go-set-up?tabs=new), you need an active Azure subscription that you can link to that environment. For more information, see Set up pay-as-you-go.
-
-To keep track of the cost, you can [view usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
+[!INCLUDE [agents-billing-pay-as-you-go](../includes/agents-billing-pay-as-you-go.md)]
 
 ## Enable the Scheduling Operations Agent
 
