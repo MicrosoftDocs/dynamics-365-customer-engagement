@@ -198,7 +198,7 @@
         items:
         - name: Review knowledge articles created by the Customer Knowledge Management Agent
           href: admin-km-agent-review.md
-        - name: Use knowledge insights for Customer Knowledge Management Agent (preview)
+        - name: Use knowledge insights for Customer Knowledge Management Agent
           href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:

@@ -1,13 +1,17 @@
 ---
 title: Configure connection references for Customer Knowledge Management Agent flow (preview)
-description: Learn how to configure connection references for Customer Knowledge Management Agent flow.
+description: Configure connection references for Customer Knowledge Management Agent flow with Microsoft Dataverse and Copilot Studio in preview mode.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 02/24/2025
-ms.custom: bap-template
+ms.date: 02/26/2025
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/26/2025
 ---
 
 # Configure connection references for Customer Knowledge Management Agent flow (preview)

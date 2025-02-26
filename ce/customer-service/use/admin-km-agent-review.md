@@ -6,13 +6,20 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection: 
-ms.date: 02/24/2025
+ms.date: 02/26/2025
 ms.custom: bap-template
 ---
 
-# Review knowledge articles created by the Customer Knowledge Management Agent
+# Review knowledge articles created by the Customer Knowledge Management Agent (preview)
+
+[This article is prerelease documentation and is subject to change.]
 
 You can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.
+
+> [!IMPORTANT]
+>
+> - This is a preview feature.
+> - Preview features aren’t meant for production use and might have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
 
 ## Prerequisites
 

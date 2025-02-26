@@ -1,13 +1,17 @@
 ---
 title: Use knowledge insights for Customer Knowledge Management Agent (preview)
-description: Learn how to use knowledge insights to enhance the effectiveness of the Customer Knowledge Management Agent.
+description: Use insights to enhance Customer Knowledge Management Agent, ensuring high-quality knowledge base and optimizing Copilot's performance.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 02/24/2025
-ms.custom: bap-template
+ms.date: 02/26/2025
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/26/2025
 ---
 
 # Use knowledge insights for Customer Knowledge Management Agent (preview)
