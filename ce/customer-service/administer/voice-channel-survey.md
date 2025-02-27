@@ -72,7 +72,7 @@ You can add messages or questions to a Copilot Studio IVR agent to create a post
 
 ## Connect your agent 
 
-- Configure your Copilot Studio agent. Perform the steps in [Configure handoff to Contact Center](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate a Copilot Studio bot](configure-bot-virtual-agent.md).
+- Configure your Copilot Studio agent. Perform the steps in [Configure handoff to Contact Center](/power-virtual-agents/configuration-hand-off-omnichannel#configure-hand-off-in-the-power-virtual-agents-app) and [Integrate an AI agent](configure-bot-virtual-agent.md).
 - Configure your Azure agent. Learn more in [Integrate an Azure bot](../configure-bot.md).
 
 ## Enable post-call survey in phone number settings
