@@ -101,7 +101,7 @@ A representative can transfer a chat to a agent by adding it to a queue, and the
 
 ### Configure routing rules
 
-Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For agents, the condition is built by using context variables. Learn about context variables and how to add them in [Configure context variables for a bot](context-variables-for-bot.md).
+Routing rules route the incoming customer queries to their respective queues. Each routing rule has a condition and a destination queue. If the condition is evaluated as true, the customer query is routed to the destination queue. For agents, the condition is built by using context variables. Learn about context variables and how to add them in [Configure context variables for an AI agent](context-variables-for-bot.md).
 
 Agents can be developed to receive customer queries first, gain information about the query, and then pass the query to a representative if necessary. To achieve this behavior, you must first add the agent user to the queue and [configure routing rules](configure-route-to-queue-rules.md) in a way that the incoming customer queries are routed to the queue with the agent user. Be sure to map the routing rules to the correct queues so that the queries are routed appropriately.
 
