@@ -23,6 +23,7 @@ The features of email engagement apply to every email that you send through Dyna
 >
 >- Emails can't be tracked if a recipient chooses to block. More information: [blocks followed messages](configure-individuals-privacy-preferences.md).
 >- Email engagement isn't supported when you send bulk email.  
+>- You can only follow emails and attachments that are sent through Dynamics 365 email. Email and attachments sent through the Outlook client aren't followed though they are marked as tracked in Dynamics 365 Sales.
 
 Before creating the email, let's understand the different options that are available in the email form:  
 
@@ -73,8 +74,8 @@ By default, attachments aren't followed. You have to manually follow each attach
     The attachment is now followed and the **Followed** column shows **Yes**.  
 
     > [!NOTE]
-    > - The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
-    > - You can follow attachments that are sent through Dynamics 365 email only. Attachments sent through the Outlook client aren't followed.
+    > The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
+
 
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.  
 
