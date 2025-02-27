@@ -1,6 +1,6 @@
 ---
 title: Sample queries and dashboards for conversation diagnostics (preview)
-description: Learn about how to query and retrieve conversation diagnostics from Application Insights.
+description: Use sample queries to retrieve conversation diagnostics from Application Insights.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
