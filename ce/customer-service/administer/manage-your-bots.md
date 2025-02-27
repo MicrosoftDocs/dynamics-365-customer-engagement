@@ -26,7 +26,7 @@ You can manage your Copilot agents on the **Bots** page.
 
 ## Prerequisites
 
-Copilot agents must be available in the tenant where Omnichannel for Customer Service is available.
+AI agents created in Copilot Studio must be available in the tenant where Omnichannel for Customer Service is available.
 
 ## Add an agent
 
