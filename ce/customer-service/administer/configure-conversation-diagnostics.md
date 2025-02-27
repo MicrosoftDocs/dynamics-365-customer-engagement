@@ -51,7 +51,7 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
 ## Set up a connection with Azure Application Insights
 
-Before you perform a data export, create a connection between your Customer Service instance and Azure Application Insights in Power Platform admin center. You can create only one data export configuration from Customer Service to Application Insights per environment. Learn more at [How to enable data export](/power-platform/admin/conversation-diagnostics-application-insights#set-up-a-connection-with-azure-application-insights).
+Before you perform a data export, create a connection between your Customer Service instance and Azure Application Insights in Power Platform admin center. You can create only one data export configuration from Customer Service to Application Insights per environment. Learn more in [How to enable data export](/power-platform/admin/conversation-diagnostics-application-insights#set-up-a-connection-with-azure-application-insights).
 
 ## Access and use the conversation information in Application Insights
 
@@ -72,7 +72,7 @@ To view the logs for a conversation, as a user with minimum reader level, perfor
     | project timestamp, workItem, subscenario, customDim  
 ```
 
-1.	The **Results** tab displays the query results. 
+    The **Results** tab displays the query results. 
 
 ### Related information
 

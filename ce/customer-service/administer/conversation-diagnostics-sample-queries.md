@@ -24,6 +24,7 @@ Learn about the queries that you can use to retrieve the diagnostics data for un
 
 **Query**
 
+```sql
 let _endTime = datetime(2024-11-21T22:29:53Z);  
 let _startTime = datetime(2024-09-22T21:29:53Z);  
 
@@ -35,6 +36,7 @@ Traces
          queueResult = parse_json(tostring(customDim["omnichannel.result"])).DisplayName  
 | where subscenario == "RTQ" and queueResult == "va_chat_queue"   
 | project timestamp, conversationId, queueResult  
+```
 
 ## Overflow handling
 
@@ -42,6 +44,7 @@ Traces
 
 **Query**
 
+```sql
 Traces  
 | extend customDim = parse_json(customDimensions)  
 | extend conversationId = tostring(customDim["powerplatform.analytics.resource.id"]),  
@@ -49,13 +52,14 @@ Traces
 | extend omnichannelAdditionalInfo = tostring((customDim["omnichannel.additional_info"]))  
 | where omnichannelAdditionalInfo contains "OverflowTrigger"  
 | project timestamp, conversationId, subscenario, omnichannelAdditionalInfo  
-
+```
 ## Representatives who reject new assignments 
  
 **Purpose**: Diagnose customer service representatives (service representatives or representatives) who reject new assignments (by conversationId).
 
 **Query**
 
+```sql
 let _endTime = datetime(2024-11-21T22:32:51Z);  
 let _startTime = datetime(2024-09-22T21:32:51Z);  
 Traces  
@@ -71,11 +75,13 @@ Traces
     by conversationId // Aggregate results by conversation  
 | where rejectionCount > 1 // Filter conversations with more than one rejection  
 | project conversationId, rejectionCount, agentRejectionDetails  
+```
 
 **Purpose**: Diagnose representatives who reject new assignments (by representatives).
 
 **Query**
 
+```sql
 let _endTime = datetime(2024-11-21T22:33:55Z);  
 let _startTime = datetime(2024-09-22T21:33:55Z);  
 Traces  
@@ -91,12 +97,13 @@ Traces
     by conversationId // Aggregate results by conversation  
 | where rejectionCount > 1 // Filter conversations with more than one rejection  
 | project conversationId, rejectionCount, agentRejectionDetails  
-
+```
 ## Representative assignment took longer than two minutes
 
 **Purpose**: Diagnose conversations where representative assignment took longer than two minutes.
 **Query**
 
+```sql
 let _endTime = datetime(2024-11-21T22:35:56Z);  
 let _startTime = datetime(2024-09-22T21:35:56Z);  
 // Extract relevant subscenarios  
@@ -122,7 +129,7 @@ latestRTQsBeforeAgentAccept
 | extend assignmentTime = agentAcceptTime - latestRTQTime  
 | where assignmentTime > 2min   
 | project conversationId, assignmentTime  
-
+```
 
 ## View conversation diagnostics dashboard
 
