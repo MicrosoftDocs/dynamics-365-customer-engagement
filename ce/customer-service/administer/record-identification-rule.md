@@ -55,7 +55,7 @@ When an AI agent ends a customer conversation, the agent can link the case numbe
 
 If the agent needs to escalate the conversation to a representative, then the agent can link the customer and case number to the conversation so that when the representative accepts the escalation request, all relevant information is available in the **Active Conversation** section. The escalation summary gives the representative the background information about the escalation and enables quicker resolution of the customer issue.
 
-To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes are searched for in the corresponding entities such as customer and case, and the result is linked to the conversation if a single matching record is found. The bot needs to set context parameters for the following that are also set when the customer is automatically identified when the conversation is transferred.
+To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes are searched for in the corresponding entities such as customer and case, and the result is linked to the conversation if a single matching record is found. The AI agent needs to set context parameters for the following that are also set when the customer is automatically identified when the conversation is transferred.
 
 | Entity to be linked | Variable name to be set by bot | Attribute for Dynamics 365 entity to match with corresponding variable name in bot |
 |------------|----------------|----------------------|
