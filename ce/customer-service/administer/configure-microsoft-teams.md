@@ -93,7 +93,7 @@ Make sure that the following prerequisites are met:
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add an AI agent (agent). Learn more in [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
