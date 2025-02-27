@@ -32,9 +32,6 @@ Before you enable the session restore feature, review the following definitions 
 - Generic sessions: All sessions that were created using generic session templates.  
 - Last updated browser tab: A browser tab where the service representative most recently created or closed a session or tab. Switching of sessions or tabs by representatives doesn't qualify as as "last updated browser tab".
 
-> [!Note]
-> Switching sessions or tabs doesn't equate to the last updated browser tab definition.
-
 ### Considerations
 
 - When a representative uses multiple browser sessions or tabs, the system can't restore the session properly for channel-specific sessions, such as for chat and voice. The system restores the latest updated browser tab or session only.
