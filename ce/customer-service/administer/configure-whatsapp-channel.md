@@ -33,6 +33,16 @@ The success of social media customer service, like all other customer service, d
 
 - **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, see [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
+> [!IMPORTANT]
+> On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the Content Template Builder.
+>
+> Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
+> - Migrate your existing WhatsApp templates to the Content Template Builder in Twilio.
+> - Update your WhatsApp message templates in the Content Center Admin App to use **Content Template SID** instead of **Template Name**.
+> - Update your proactive outbound flows.<br>
+>
+> Currently, each content template set can have one language only.
+
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
 - **24 hours session rule:** A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, the agent has 24 hours to reply from the time the agent received it. However, after 24 hours, the agent can send a message to customer only by using a predefined and approved template.
@@ -113,7 +123,7 @@ Perform the following steps:
 1. For the selected workstream for WhatsApp, edit the WhatsApp account.
 2. On the **Behaviors** tab, in **WhatsApp message templates**, select **Add**.
 3. On the **Add message template** dialog box, do the following:
-   - **Name:** Specify a name for the template.
+   - **Content template SID:** Specify a name for the template.
    - **Default language:** Select the language from the list.
    - **WhatsApp approved text:** Copy and paste the approved text from the template that you created in WhatsApp.
 4. Select **Save**.
