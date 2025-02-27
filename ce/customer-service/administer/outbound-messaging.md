@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 10/09/2024
+ms.date: 02/28/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -50,10 +50,10 @@ You can set up the outbound configuration in the Customer Service admin center o
 
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
-    | Name                | Name of the case| **Case create message**                  |
+    | Name                | Name of the outbound configuration| Examples:<br>**Case created** <br> **Case updated** <br> **User added**   |
     | Show in timeline    | The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that need to be sent to a high volume of customers, we recommend that you leave this setting at **No**, to conserve resources in your Omnichannel for Customer Service environment and storage.  | **Yes**                                  |
-    | Channel type        | Name of the channel for which the configuration is being set up. | **SMS**         |
-    | Channel             | Channel number | ***The preconfigured channel number***   |
+    | Channel type        | Name of the channel for which the configuration is being set up. | **SMS** or **WhatsApp**      |
+    | Channel             | Channel number | For SMS, this is ***the preconfigured channel number*** <br> For WhatsApp, this is ***the preconfigured phone number***. |
     | Message template    | Name of the template | ***Your previously created template***   |
 
     The **Configuration ID** is generated when you select **Save**. Use it later to identify this outbound configuration when you set up the flow in Power Automate.
@@ -102,19 +102,17 @@ Power Automate provides a low-code platform for workflow and process automation.
     
     
 6. Fill in the values for the ContactList in the **Append to array variable** template.
-
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
    | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. |
-   | **channelid** | Required | The customer's preferred social channel: SMS or WhatsApp. |
-   | **option** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
-   | **locale** | Chosen by default | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template is applied. |
-   | **context items** | NA | Contains values to be processed with individual messages as they're sent. |
-   | **entityrelationshipname** | Not required | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field has to be added to the flow for it to work. |
-   | **msdyn_ocoutboundconfigurationid** | Not Required | To fill the config ID in the outbound message activity records. The value should be the same that's used in msdyn_InvokeOUtboundAPI.|
-   | **CustomerName** | Required | The name of the customer. This value isn't case-sensitive and can throw an error if the customer name values are different. |
-   | **CaseName** | Required | The name of the case. |
+   | **optin** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
+   | **locale** | Chosen by default, valid for SMS only | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template is applied. |
+   | **contextitems** | Not applicable | Contains values to be processed with individual messages as they're sent. |
+   | **entityrelationshipname** | Optional | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field has to be added to the flow for it to work. |
+   | **msdyn_ocoutboundconfigurationid** | Optional | To fill the config ID in the outbound message activity records. The value should be the same that's used in msdyn_InvokeOUtboundAPI.|
+   | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive and results in an error if the customer name values are different. <br> if you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
+   | **CaseName** | Optional | The name of the case. |
 
 7. In the **Perform an unbound action** window, enter the outbound message configuration ID that you generated. When you add the ID to the *msdyn_ocoutboundconfigurationid* field, the field references the correct outbound configuration for a flow run.
 
@@ -124,12 +122,6 @@ When the customer responds back to the outbound messages, the customer's message
 
 > [!NOTE]
 > Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. Where higher loads are expected, we recommend that you implement batch processing logic in flows to limit contacts per request to 100.
-
-### Video
-
-[Outbound messaging in Omnichannel for Customer Service](https://go.microsoft.com/fwlink/?linkid=2147614)
-
-To view more videos about Omnichannel for Customer Service, go to [Videos](../use/videos.md).
 
 ### Related information
 
