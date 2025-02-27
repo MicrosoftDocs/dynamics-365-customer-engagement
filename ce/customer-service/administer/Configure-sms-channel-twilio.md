@@ -84,7 +84,7 @@ To configure the workstream, make sure you perform the steps to create a workstr
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
 3. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 4. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
-5. Add a bot. Learn more in [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+5. Add an AI agent. Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 6. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
    - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
