@@ -1,7 +1,7 @@
 ---
 title: Manage products
 description: Use products in Dynamics 365 Sales to define the products or services that your organization offers.
-ms.date: 10/29/2024
+ms.date: 02/27/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
