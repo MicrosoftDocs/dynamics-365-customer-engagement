@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 02/20/2025
+ms.date: 02/27/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,6 +13,9 @@ ms.custom: bap-template
 # Configure a WhatsApp channel through Twilio
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Customer Service admin center or Contact Center admin center application to engage with customers who prefer to use the WhatsApp channel.
 
@@ -95,7 +98,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, [add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, [add an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. Based on your business needs, in **Advanced settings**, configure the following options:
    - [Sessions](session-templates.md)
