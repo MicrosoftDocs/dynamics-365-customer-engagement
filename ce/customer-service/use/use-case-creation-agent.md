@@ -1,12 +1,12 @@
 ---
 title: Use autonomous case management agents (preview)
-description: Learn how to set up autonomous case management agents to help customer support teams efficiently handle case management tasks.
+description: Learn how to use autonomous case management agents to efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 003/04/2025
+ms.date: 03/04/2025
 ms.custom: bap-template 
 ---
 
