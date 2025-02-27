@@ -1,5 +1,5 @@
 ---
-title: Create a product
+title: Manage products
 description: Use products in Dynamics 365 Sales to define the products or services that your organization offers.
 ms.date: 10/29/2024
 ms.topic: article
@@ -17,7 +17,7 @@ searchScope:
   - Sales
   - Customer Engagement
 ---
-# Set up products 
+# Manage products 
 
 Use products in Dynamics 365 Sales to define the products or services that your organization offers.
 
@@ -76,6 +76,26 @@ Products that you create are visible to all users in your organization.
   
 > [!NOTE]
 > Previewing the properties of a product is currently not supported.
+
+## List sales records associated with a product
+
+You can list the sales records associated with a product for various reasons. For example, before you can delete a product, you must remove the product from all the associated sales records. The following steps show you how to list the opportunities associated with a product. Use the same steps to list other sales records such as quotes, orders, and invoices.
+
+1. Select **Opportunities** from the site map.
+
+1. Select **Edit filters** at the top of the page.
+1. Delete all the existing filters from the view.
+1. Select **Add** > **Add related entity** with the following filters:
+    - **Related entity**:Opportunity Products (Opportunity) or Opportunity Lines (Opportunity)
+    > [!NOTE]
+    > The related entity name differs for each table but it's similar to the example provided. For example, the related entity name for quote table is Quote Products (Quote) or Quote Lines (Quote).
+    - **Operator**: Contains data
+    - **Field**: Existing product
+    - **Operator**: Equals
+    - **Value**: Select the product you want to list the opportunities for.
+   :::image type="content" source="media/linked-products-filter.png" alt-text="Screenshot of the filter to list opportunities associated with a product.":::
+1. Select **Apply** to view the opportunities that contain the product.
+1. Select the view drop-down at the top of the page, and then select **Save as new view** to save the view.
 
   
 ## Typical next steps  
