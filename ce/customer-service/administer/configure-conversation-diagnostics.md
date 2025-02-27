@@ -72,7 +72,7 @@ To view the logs for a conversation, as a user with minimum reader level, perfor
     | project timestamp, workItem, subscenario, customDim  
 ```
 
-    The **Results** tab displays the query results. 
+  The **Results** tab displays the query results. 
 
 ### Related information
 
