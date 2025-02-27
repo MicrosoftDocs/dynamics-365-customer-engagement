@@ -87,8 +87,8 @@ You can list the sales records associated with a product for various reasons. Fo
 1. Delete all the existing filters from the view.
 1. Select **Add** > **Add related entity** with the following filters:
     - **Related entity**:Opportunity Products (Opportunity) or Opportunity Lines (Opportunity)
-    > [!NOTE]
-    > The related entity name differs for each table but it's similar to the example provided. For example, the related entity name for quote table is Quote Products (Quote) or Quote Lines (Quote).
+        > [!NOTE]
+        > The related entity name differs for each table but it's similar to the example provided. For example, the related entity name for quote table is Quote Products (Quote) or Quote Lines (Quote).
     - **Operator**: Contains data
     - **Field**: Existing product
     - **Operator**: Equals
