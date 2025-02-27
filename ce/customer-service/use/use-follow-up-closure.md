@@ -4,17 +4,23 @@ description: Learn how to Use Autonomous Case Follow-up and Closure.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 01/13/2025
-ms.custom: bap-template #Required; don't change.
+ms.topic: how-to 
+ms.collection:
+ms.date: 03/04/2025
+ms.custom: bap-template 
 ---
 
 # Use autonomous follow-up and closure of cases
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+
 The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
 
 Based on your administrator's configuration, the agent can perform these actions autonomously or with agent confirmation.
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 
 ## Use case follow-up and closure
 

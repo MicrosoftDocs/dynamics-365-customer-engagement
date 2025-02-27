@@ -4,14 +4,16 @@ description: Learn how to set up autonomous case management agents to help custo
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 01/13/2025
-ms.custom: bap-template #Required; don't change.
+ms.topic: how-to 
+ms.collection: 
+ms.date: 03/04/2025
+ms.custom: bap-template
 ---
 
 
 # Setup autonomous case creation and update (preview)
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The autonomous case management agent creates and updates cases from live chat conversations and emails using AI and [Automatic record creation and update(ARC) rules](automatically-create-update-records.md#activities-and-entities-supported-by-rules-for-creating-or-updating-records-automatically), reducing manual effort and minimizing data entry errors.
 
@@ -19,6 +21,8 @@ The agent creates and updates cases as follows:
 
 - From conversations. The agent analyzes the customer intent in live chat conversations, predicts and populates the relevant field values, and updates case details as the conversation progresses.
 - From emails. The agent uses ARC rules to create cases from emails and then updates the fields based on ongoing email interactions with customers.
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 ## Prerequisites
 
@@ -28,6 +32,14 @@ The agent creates and updates cases as follows:
 - [Automatic record creation and update (ARC) rules](../administer/set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
 - [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels). 
 - [Workstream](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are set up.
+
+## Set up a pay-as-you-go plan
+
+The autonomous case management agent uses the Data Entry Agent in the background.
+
+The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. To [set up pay-as-you-go billing for an environment](/power-platform/admin/pay-as-you-go-set-up?tabs=new), you need an active Azure subscription that you can link to that environment.
+
+To keep track of the cost, you can [view usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
 
 
 ## Configure autonomous case creation and update
@@ -40,7 +52,7 @@ In Customer Service admin center, perform the following steps:
 4. In the page that appears, select the channels that AI can use to create or update cases. You can select **Live chat** and **Email**.
 5. In the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
    - The agent creates a case only if there’s enough context in the conversation to predict all these fields.  
-   - New cases are created from emails based on the ARC rules configured. The case management agent updates the fields in the case created by ARC if there’s new information available.
+   - New cases are created from emails based on the ARC rules configured. The case management agent populates the fields in the case created by ARC if there’s enough context available in the email.
 6. In **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
 7. Select the checkbox in the **Agent experience data** section if you want the application to save the agent interactions in Dataverse. You can then use this information to build reports.
 

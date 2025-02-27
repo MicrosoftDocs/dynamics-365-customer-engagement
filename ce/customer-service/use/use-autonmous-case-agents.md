@@ -4,10 +4,10 @@ description: Learn how to set up autonomous case management agents to help custo
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
-ms.date: 01/13/2025
-ms.custom: bap-template #Required; don't change.
+ms.topic: how-to 
+ms.collection: 
+ms.date: 03/04/2025
+ms.custom: bap-template 
 ---
 
 # Use autonomous case management agents (preview)

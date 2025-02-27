@@ -4,16 +4,22 @@ description: Learn how to set up autonomous case management agents to help agent
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.topic: how-to #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+ms.topic: how-to 
+ms.collection: get-started 
 ms.date: 01/13/2025
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template 
 ---
 
 
 # Set up autonomous case follow-up and closure (preview)
 
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
+
+
 The autonomous case management agent can automatically follow up with customers over email. If customers don't respond after a set number of follow-ups, the agent can automatically close the cases, reducing manual communication overhead and streamlining case resolution.
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+
 
 ## Prerequisites
 
