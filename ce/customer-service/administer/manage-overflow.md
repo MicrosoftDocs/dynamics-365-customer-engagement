@@ -183,14 +183,14 @@ If more than 20 work items overflow in a minute, the work items are addressed in
 
 ### Things to keep in mind
 
-You can configure the following wait time for the records channel:
+You can configure the following wait time for the channels:
 
-- Voice channel: 1 to 60 minutes
-- Messaging channel: 1 minute to 2 days
-- Records channel: 3 minutes to 2 days
+- **Voice**: 1 to 60 minutes
+- **Messaging**: 1 minute to 2 days
+- **Records**: 3 minutes to 2 days
 
 The "wait time in queue" condition is evaluated in any of the following scenarios:
-- Work item is routed to a queue via the route to queue rules.
+- Work item is routed to a queue via the route-to-queue rules.
 - Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
 
