@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 02/20/2025
+ms.date: 02/27/2025
 ms.custom: bap-template
 ---
 
@@ -61,7 +61,7 @@ Email engagement analyzes the performance of all the messages your sales team ha
 
 ## Add attachments <a name="FollowedAttachments"></a>
 
-When you attach documents, spreadsheets, or images to your emails, you can follow these attachments to know whether the recipient opened them. You can include both followed and unfollowed attachments in the same email.    
+When you attach documents, spreadsheets, or images to your emails, you can follow these attachments to know whether the recipient opened them. You can include both followed and unfollowed attachments in the same email.  
 By default, attachments aren't followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
 
 1. [Create a message](#NewMessage).  
@@ -73,7 +73,8 @@ By default, attachments aren't followed. You have to manually follow each attach
     The attachment is now followed and the **Followed** column shows **Yes**.  
 
     > [!NOTE]
-    > The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
+    > - The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
+    > - You can follow attachments that are sent through Dynamics 365 email only. Attachments sent through the Outlook client aren't followed.
 
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.  
 
