@@ -656,7 +656,7 @@
       items:
       - name: Overview of bots
         href: overview-bots.md
-      - name: Best practices for configuring bots
+      - name: Best practices for configuring AI agents
         href: configure-bot-best-practices.md
       - name: Manage your agents
         href: manage-your-bots.md
