@@ -118,7 +118,7 @@ To configure a Facebook channel, the following steps are required:
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, you can add an AI agent. Skip this step if only representatives handle your conversations. Learn more in [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, you can add an AI agent. Skip this step if only representatives handle your conversations. Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
