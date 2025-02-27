@@ -21,7 +21,7 @@ An AI agent (agent) is a program that provides automated responses in a conversa
 
 An agent eases the load on your customer service service representatives by handling basic queries. This saves your representatives' time so they can work on more complex issues. You can configure your agents to escalate a query to a human representative as required, or when requested by the customer.
 
-In Omnichannel for Customer Service, you can integrate both Azure and Copilot agents to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a service representative, as required.
+In Omnichannel for Customer Service, you can integrate agents created in both Azure and Copilot Studio to perform tasks like starting a conversation with the customer, providing automated responses, and then transferring the conversation to a service representative, as required.
 
 ## Integrate Azure and Copilot agents
 
