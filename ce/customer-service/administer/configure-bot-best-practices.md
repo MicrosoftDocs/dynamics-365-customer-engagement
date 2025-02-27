@@ -28,7 +28,7 @@ When you configure Azure and Copilot agents in Omnichannel for Customer Service,
 
 - Unlike representatives, agents aren't added to a "default" queue at the outset; you must add them from the Customer Service admin center app.
 
-- The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like timestamps and tags. If you're an agent author or developer and want to pass complex cards or message types across channels, ensure that your message size doesn't exceed the limit. If you're integrating a custom channel via Direct Line, then make sure that the activity payload doesn't exceed the message size limit.
+- The message size must be less than or equal to 28 KB in all messaging channels. The size limit includes metadata like timestamps and tags. If you're a bot author or developer and want to pass complex cards or message types across channels, ensure that your message size doesn't exceed the limit. If you're integrating a custom channel via Direct Line, then make sure that the activity payload doesn't exceed the message size limit.
 
 
 ### Related information
