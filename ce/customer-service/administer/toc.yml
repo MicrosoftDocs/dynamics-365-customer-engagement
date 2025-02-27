@@ -664,7 +664,7 @@
         href: configure-bot-virtual-agent.md
       - name: Transfer conversations from customer service representatives to agents
         href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
-      - name: Configure Azure bots
+      - name: Configure Azure AI agents
         items:
         - name: Agent sessions and licensing
           href: bot-session-licensing.md
