@@ -19,7 +19,7 @@ For detailed information, see [Create a Power Platform environment](/power-platf
 
 ## Install on an existing environment
 
-If your organization already maintains environments, you can [install the app on an existing environment with a database](/power-platform/admin/manage-apps#install-an-app). Similar to other Dynamics 365 business applications, the environment must have a Dataverse data store attached and enable Dynamics 365 apps.
+If your organization already maintains environments, you can [install the app on an existing environment with a database](/power-platform/admin/manage-apps#install-an-app). Similar to other Dynamics 365 business applications, the environment must have a Dataverse data store attached and Dynamics 365 apps enabled.
 
 ## Install a trial
 
