@@ -110,23 +110,6 @@ After you purchase phone numbers and associated them with voice workstreams, you
 
 You can also enable your customer service representatives to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
 
-## Configure Azure Communication Services-based short code for SMS
-
-### Set up a short code
-
-1. Follow the steps in [Apply for a short code](/azure/communication-services/quickstarts/sms/apply-for-short-code) to apply for the SMS short code in Azure Communication Services.
-1. Assign the SMS short code to your Azure resource.
-
-### Assign the short code in contact center
-
-1. In the site map of Contact Center admin center, select **Channels** under **Customer support**, select **Manage** for **Phone numbers**.
-1. On the page that appears, select **Advanced**.
-1. On the **Manage Azure Communication Services** dialog, select **Sync** for **Sync from Azure**. After the sync is complete, the SMS short code that you acquired in Azure Communication Services is displayed in the phone numbers list.
-
-### Configure the SMS channel
-
-Perform the steps in [Configure an SMS channel using Azure Communication Services](configure-sms-channel-acs.md).
-
 ## Assign phone numbers to customer service representatives
 
 You can also assign personal phone numbers to customer service representatives, so they're able to make and/or receive calls exclusively on that number. More information: [Assign personal phone numbers to customer service representatives](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-customer service representatives)
