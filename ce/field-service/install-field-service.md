@@ -2,14 +2,14 @@
 title: Install Dynamics 365 Field Service
 description: Learn how to install Dynamics 365 Field Service on a Dataverse environment.
 ms.topic: how-to
-ms.date: 07/17/2024
+ms.date: 02/26/2025
 ms.author: jacoh
 author: jasonccohen
 ---
 
 # Install Dynamics 365 Field Service
 
-After purchasing licenses for Field Service, you have to [install the app on a Dataverse environment](/power-platform/admin/manage-apps#install-an-app). purchase a license for the product.
+After purchasing licenses for Field Service, you have to [install the app on an existing environment with a database](/power-platform/admin/manage-apps#install-an-app). Similar to other Dynamics 365 business applications, [the environment needs to have a Dataverse data store attached and the setting to Enable Dynamics 365 apps turned on](/power-platform/admin/create-environment). Installing Field Service on an environment that doesn't meet these prerequisites isn't supported.
 
 When you [get a free trial](trial-signup.md), the Field Service application installs automatically on a new environment. After purchasing a license, you can [change the environment type to a production environment](/power-platform/admin/switch-environment).
 
