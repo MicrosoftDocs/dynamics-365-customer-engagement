@@ -20,7 +20,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-In Omnichannel for Customer Service, you can seamlessly add a bot and get it up and running within a few minutes while the integration is taken care of in the background.
+In Omnichannel for Customer Service, you can seamlessly add an AI agent and get it up and running within a few minutes while the integration is taken care of in the background.
 
 You can manage your Copilot agents on the **Bots** page.
 
