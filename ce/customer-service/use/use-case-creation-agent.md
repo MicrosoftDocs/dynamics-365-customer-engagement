@@ -21,7 +21,7 @@ The autonomous case management agent  uses live chat conversations and incoming 
 
 ## Autonomous case creation
 
-The agent creates cases automatically from chat conversations and incoming email.
+The agent creates cases automatically from chat conversations and incoming emails.
 
 ### Live chat
 
