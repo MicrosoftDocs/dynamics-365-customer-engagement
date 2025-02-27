@@ -42,7 +42,7 @@ The markdown element for adaptive cards is partially supported across all chat c
 
 Media or audio card and date input elements for adaptive cards are only supported in Live chat channels. Adaptive card elements like text block and images are also supported across channels.
 
-When a customer selects inputs in an adaptive card, these selections aren't visible to the customer service representative (service representative or representative). The original adaptive card only is displayed when the issue is escalated to the service representative. The process works as follows when the Copilot agent is used during a live chat:
+When a customer selects inputs in an adaptive card, these selections aren't visible to the customer service representative (service representative or representative). The original adaptive card only is displayed when the issue is escalated to the service representative. The process works as follows when an AI agent created in Copilot Studio is used during a live chat:
 
 **Adaptive card (message 1):** The agent sends the adaptive card (message 1) to the customer to collect their input.
 
