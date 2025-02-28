@@ -63,7 +63,7 @@ You can set up the outbound configuration in the Customer Service admin center o
     | Name                | Name of the outbound configuration| Examples:<br>**Case created** <br> **Case updated** <br> **User added**   |
     | Show in timeline    | The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that need to be sent to a high volume of customers, we recommend that you leave this setting at **No**, to conserve resources in your Omnichannel for Customer Service environment and storage.  | **Yes**                                  |
     | Channel type        | Name of the channel for which the configuration is being set up. | **SMS** or **WhatsApp**      |
-    | Channel             | Channel number | For SMS, this is ***the preconfigured channel number*** <br> For WhatsApp, this is ***the preconfigured phone number***. |
+    | Channel             | Channel number | For SMS, this setting is ***the preconfigured channel number***.<br> For WhatsApp, this setting is ***the preconfigured phone number***. |
     | Message template    | Name of the template | ***Your previously created template***   |
 
     The **Configuration ID** is generated when you select **Save**. Use it later to identify this outbound configuration when you set up the flow in Power Automate.
