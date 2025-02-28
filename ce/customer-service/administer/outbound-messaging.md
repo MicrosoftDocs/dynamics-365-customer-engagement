@@ -40,6 +40,14 @@ Set up templates to send outbound messages. To create a template, consider the s
     - [Create a template for SMS](create-message-templates.md). 
     - [Create a template for WhatsApp](configure-whatsapp-channel.md#configure-whatsapp-message-templates).
 
+    > [!IMPORTANT]
+    > On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the Content Template Builder.
+    >
+    > Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
+    > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
+    > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](/configure-whatsapp-channel?branch=la-twilio#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
+    > - If you're using [proactive outbound flows](/outbound-messaging.md#set-up-outbound-configuration), update those flows.<br>
+
 ## Set up outbound configuration
 
 You can set up the outbound configuration in the Customer Service admin center or Contact Center admin center app.
