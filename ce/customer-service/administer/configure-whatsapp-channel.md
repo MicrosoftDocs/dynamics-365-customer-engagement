@@ -38,8 +38,7 @@ The success of social media customer service, like all other customer service, d
 >
 > Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
 > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
-> - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](/configure-whatsapp-channel?branch=la-twilio#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
-> - If you're using [proactive outbound flows](/outbound-messaging.md#set-up-outbound-configuration), update those flows.<br>
+> - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](/configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
 >
 > Currently, each content template set can have one language only.
 
