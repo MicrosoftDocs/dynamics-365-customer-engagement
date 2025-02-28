@@ -357,7 +357,7 @@ items:
           href: set-up-product-catalog-walkthrough.md
         - name: Configure product catalog settings
           href: configure-product-catalog-settings.md
-        - name: Set up products
+        - name: Manage products
           href: create-product-sales.md
         - name: Set up product families
           href: create-product-family.md

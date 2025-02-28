@@ -1,7 +1,7 @@
 ---
 title: Manage your accounts and contacts
 description: Learn how to create and use accounts and contacts in Dynamics 365 Sales to store information about companies and people you work with.
-ms.date: 07/08/2024
+ms.date: 02/26/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -75,7 +75,9 @@ You can deactivate an account if you no longer do business with it. Deactivating
 
 1. In the sitemap of your sales app, select **Accounts**.
 1. Select the account you want to deactivate.
-1. In the command bar, select **Deactivate**.
+1. In the command bar, select **Deactivate** and confirm the deactivation.
+   The account is deactivated and listed under the **Inactive Accounts** view.
+    :::image type="content" source="media/account-view-dropdown.png" alt-text="Screenshot of the views dropdown":::
 
 ## Work with contacts
 
@@ -135,8 +137,8 @@ You can deactivate a contact if you no longer work with them. Deactivating a con
 
 1. In the sitemap of your sales app, select **Contacts**.
 1. Select the contact you want to deactivate.
-1. In the command bar, select **Deactivate**.
-
+1. In the command bar, select **Deactivate** and confirm the deactivation.
+    The contact is deactivated and listed under the **Inactive Contacts** view.
 
 ## Import accounts or contacts from Excel, CSV, and XML Files
 
