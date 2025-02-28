@@ -184,7 +184,7 @@ When the customer responds back to the outbound messages, the customer's message
 
 ## Update a previously created Twilio template
 
-Before you begin, make sure you have [migrated your templates to the Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
+Before you begin, make sure that you [migrated your templates to the Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Workstreams**, and then go to your WhatsApp Twilio workstream.
 1. Select **Edit**. The WhatsApp workstream page appears.
