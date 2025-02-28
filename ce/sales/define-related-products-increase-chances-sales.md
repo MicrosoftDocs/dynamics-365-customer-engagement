@@ -49,6 +49,7 @@ The related products are displayed as suggestions to your sales agents during op
     - **Direction**: Select whether the relationship between the products will be uni-directional or bi-directional. When you select Uni-Directional, the product that you select in Related Product will be shown as a recommendation for the existing product but not vice-versa.
 
 1. Save the changes.
+   
    Sellers can now add the related products to opportunities. Learn more in [Add products to an opportunity](add-products-opportunity.md).
 
 ## Typical next steps
