@@ -1231,6 +1231,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/work-with-views.md",
+      "redirect_url": "/power-apps/user/grid-filters",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/account.md",
       "redirect_url": "/dynamics365/developer/reference/entities/account",
       "redirect_document_id": "false"

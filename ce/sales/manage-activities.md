@@ -1,7 +1,7 @@
 ---
 title: Track and manage activities
 description: Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments.
-ms.date: 03/29/2024
+ms.date: 02/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
