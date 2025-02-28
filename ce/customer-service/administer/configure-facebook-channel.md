@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages.
-ms.date: 02/20/2025
+ms.date: 02/28/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
