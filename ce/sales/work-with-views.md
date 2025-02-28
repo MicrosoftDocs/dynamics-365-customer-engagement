@@ -1,7 +1,7 @@
 ---
 title: Work with views (grids) in Dynamics 365 Sales
 description: Use views to browse through and manage data in Dynamics 365 Sales. Learn how to switch views, find records, filter data, and more.
-ms.date: 02/27/2025
+ms.date: 02/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -34,6 +34,15 @@ The following image shows how a view is displayed:
 
 :::image type="Components of a view" source="media/components-of-view.png" alt-text="Components of a view":::
 
+
+Legend:
+
+1. Command bar
+2. View selector
+3. Quick Find
+4. Filters
+5. Charts
+6. Column headings and sorting
 
 A typical view page contains these components: 
 
