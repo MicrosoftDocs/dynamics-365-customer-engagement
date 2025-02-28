@@ -26,7 +26,7 @@ Bot deflected conversations + Bot escalated conversations = Total bot conversati
 
 This section describes the query that is used to calculate the total bot conversations in Power BI and Dataverse.
 
-### [Historical analytics](#tab/enhancedcustomersummarypage)
+### [Historical analytics](#tab/historicalpage)
 
 ```dax
 
@@ -52,7 +52,7 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 |msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
 |msdyn_eventtype|Type of session event e.g. accept, reject etc. Learn more in [msdyn_eventtype](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventtype)|
 
-### [Real-time analytics](#tab/enhancedcustomersummarypage)
+### [Real-time analytics](#tab/realtimepage)
 
 Use this query for realtime analytics.
 
@@ -73,6 +73,7 @@ Exclude in-transit record with msdyn_eventreason '192350001' and Hold event with
 Exclude sessions from 'Entity Records' channel and SMS filter
 
 ```
+---
 
 ## Related metrics
 
