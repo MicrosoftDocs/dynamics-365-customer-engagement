@@ -111,6 +111,12 @@
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
+      - name: KPI queries
+        items:
+        - name: Total bot conversations
+          href: total-bot-conversations.md
+        - name: Conversation wait time
+          href: conversation-wait-time.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
