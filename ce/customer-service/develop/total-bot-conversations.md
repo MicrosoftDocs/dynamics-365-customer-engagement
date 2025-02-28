@@ -54,6 +54,8 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 
 ### [Real-time analytics](#tab/enhancedcustomersummarypage)
 
+Use this query for realtime analytics.
+
 ```dax
 
 conversations_FactSession=CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]))
