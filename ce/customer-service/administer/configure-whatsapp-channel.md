@@ -34,7 +34,7 @@ The success of social media customer service, like all other customer service, d
 - **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, refer to [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
 > [!IMPORTANT]
-> On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the Content Template Builder.
+> On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the [Twilio Content Template Builder](https://go.microsoft.com/fwlink/?linkid=2306633).
 >
 > Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
 > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
