@@ -123,7 +123,7 @@ Perform the following steps:
 1. For the selected workstream for WhatsApp, edit the WhatsApp account.
 2. On the **Behaviors** tab, in **WhatsApp message templates**, select **Add**.
 3. On the **Add message template** dialog box, do the following:
-   - **Content template SID:** Specify a name for the template.
+   - **Content template SID:** Specify a content template SID.
    - **Default language:** Select the language from the list.
    - **WhatsApp approved text:** Copy and paste the approved text from the template that you created in WhatsApp.
 4. Select **Save**.
