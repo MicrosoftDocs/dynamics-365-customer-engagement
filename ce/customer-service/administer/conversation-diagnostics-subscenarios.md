@@ -226,4 +226,4 @@ The **Traces** table contains data about the following conversation scenarios.
 ### Related information
 
 [Configure conversation diagnostics](configure-conversation-diagnostics.md)  
-[Sample queries and dashboard](conversation-diagnostics-sample-queries.md)  
+[Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  

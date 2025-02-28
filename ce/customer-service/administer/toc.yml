@@ -92,8 +92,6 @@
           href: configure-conversation-diagnostics.md
         - name: Conversation diagnostics subscenarios (preview)
           href: conversation-diagnostics-subscenarios.md
-        - name: Sample queries for conversation diagnostics (preview)
-          href: conversation-diagnostics-sample-queries.md    
         - name: View diagnostics for unified routing
           href: unified-routing-diagnostics.md
         - name: Manage routing diagnostics data

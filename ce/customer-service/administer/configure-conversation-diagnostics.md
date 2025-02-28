@@ -74,9 +74,13 @@ To view the logs for a conversation, as a user with minimum reader level, perfor
 
   The **Results** tab displays the query results. 
 
+## View conversation diagnostics dashboard
+
+Perform the steps outlined in [Conversation diagnostics dashboard](https://github.com/microsoft/Dynamics-365-FastTrack-Implementation-Assets/tree/master/Customer%20Service/ComponentLibrary/AppInsights-Telemetry/ConversationDiagnostics) to view the dashboard.
+
 ### Related information
 
 [Subscenarios in conversation diagnostics](conversation-diagnostics-subscenarios.md)  
-[Sample queries and dashboard](conversation-diagnostics-sample-queries.md)  
+[Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)   
 
 
