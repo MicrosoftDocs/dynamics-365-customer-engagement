@@ -48,7 +48,7 @@ Set up templates to send outbound messages. To create a template, consider the s
     > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
     > - If you're using an active outbound flow, [update your previously created template](#update-a-previously-created-twilio-template).<br>
     >
-    > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/whatsapp/content-template-builder#creating-a-content-template).
+    > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
 
 ## Set up outbound configuration
 
