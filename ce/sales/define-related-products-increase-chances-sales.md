@@ -33,7 +33,7 @@ The related products are displayed as suggestions to your sales agents during op
     - If you're using the Sales Professional app,
       - Select **Products** from the site map.
 
-1. Open a product you want to define related products for. The product must be in the **Draft**, **Active** or **Under Revision** state.
+1. Open a product you want to define related products for. The product must be in the **Draft**, **Active**, or **Under Revision** state.
 
 1. Select the **Related** tab, and then select **Product Relationships**.
 
