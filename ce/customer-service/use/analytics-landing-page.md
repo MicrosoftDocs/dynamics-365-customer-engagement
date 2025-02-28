@@ -16,7 +16,8 @@ ms.custom:
 
 # Omnichannel analytics overview
 
- |Dashboard             | Key Metrics                                                                                                                                                                                                 |
-|Omnichannel Historical bot dashboard | [total bot conversations](../develop/total-bot-conversations.md)<br> [conversation wait time](../develop/conversation-wait-time.md)|
-|Omnichannel Real-time bot dashboard|[total bot conversations](../develop/total-bot-conversations.md)<br> [conversation wait time](../develop/conversation-wait-time.md) |
-|Omnichannel Historical conversation dashboard| [total bot conversations](../develop/total-bot-conversations.md)<br> [conversation wait time](../develop/conversation-wait-time.md) |
+ |Dashboard             | Key Metrics |
+ |-----------------------|---------------|
+|[Omnichannel Historical bot dashboard](agent-realtime-dashboard.md) | [total bot conversations](../develop/total-bot-conversations.md)<br> [conversation wait time](../develop/conversation-wait-time.md)|
+|[Omnichannel Real-time bot dashboard](oc-bot-dashboard.md)|[total bot conversations](../develop/total-bot-conversations.md)<br> [conversation wait time](../develop/conversation-wait-time.md) |
+|[Omnichannel Historical conversation dashboard](oc-conversation-topics-dashboard.md)| [total bot conversations](../develop/total-bot-conversations.md)<br> [conversation wait time](../develop/conversation-wait-time.md) |
