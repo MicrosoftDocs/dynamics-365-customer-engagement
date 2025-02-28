@@ -117,12 +117,61 @@ Power Automate provides a low-code platform for workflow and process automation.
    | --------- | --------- | ------------------- |
    | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. |
    | **optin** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
-   | **locale** | Chosen by default, valid for SMS only | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template is applied. |
-   | **contextitems** | Not applicable | Contains values to be processed with individual messages as they're sent. |
+   | **locale** | SMS channel only, chosen by default. | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template is applied. |
+   | **contextitems** | Optional | Contains values to be processed with individual messages as they're sent. |
    | **entityrelationshipname** | Optional | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field has to be added to the flow for it to work. |
    | **msdyn_ocoutboundconfigurationid** | Optional | To fill the config ID in the outbound message activity records. The value should be the same that's used in msdyn_InvokeOUtboundAPI.|
    | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive and results in an error if the customer name values are different. <br> if you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
    | **CaseName** | Optional | The name of the case. |
+   | **sendastemplate** | WhatsApp only, for new or upgraded templates in the Twilio Content Template Builder. |
+   | **templateparameters** | WhatsApp only, for new or upgraded templates in the Twilio Content Template Builder. Follows Twilio's template parameters.
+
+   Sample JSON for WhatsApp templates:
+  
+  ```
+   {
+  "tocontactid": 
+,
+  "channelid": "whatasapp",
+  "optin": 
+,
+  "contextitems": {
+    "msdyn_ocoutboundconfigurationid": "<outbound configuration ID>",
+    "regardingobjectid": 
+,
+    "entityrelationshipname": 
+
+  },
+  "sendastemplate": true,
+  "templateparameters": {
+    "1": 
+
+  }
+}
+```
+
+
+Sample JSON for SMS:
+
+```
+{
+  "tocontactid": 
+,
+  "channelid": "sms",
+  "optin": 
+,
+  "contextitems": {
+    "regardingobjectid": 
+,
+    "entityrelationshipname": 
+,
+    "CustomerName": 
+,
+    "CaseName": 
+
+  }
+}
+```
 
 7. In the **Perform an unbound action** window, enter the outbound message configuration ID that you generated. When you add the ID to the *msdyn_ocoutboundconfigurationid* field, the field references the correct outbound configuration for a flow run.
 
