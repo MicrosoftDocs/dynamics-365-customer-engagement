@@ -48,7 +48,7 @@ Set up templates to send outbound messages. To create a template, consider the s
     > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
     > - If you're using [proactive outbound flows](outbound-messaging.md#set-up-outbound-configuration), update those flows.<br>
     >
-    > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, see [Create a content template](https://www.twilio.com/docs/whatsapp/content-template-builder#creating-a-content-template).
+    > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/whatsapp/content-template-builder#creating-a-content-template).
 
 ## Set up outbound configuration
 
@@ -75,7 +75,7 @@ You can set up the outbound configuration in the Customer Service admin center o
 
 ## Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, see [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, refer to [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
@@ -100,7 +100,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     - **Scheduled:** Send a message at a point in time, at one or more times, or after an amount of time that you specify.
 
-    For more information about the current limits and configuration details for flows, see [Limits and configuration in Power Automate](/power-automate/limits-and-config).
+    For more information about the current limits and configuration details for flows, refer to [Limits and configuration in Power Automate](/power-automate/limits-and-config).
 
  3. Add the action, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
 
