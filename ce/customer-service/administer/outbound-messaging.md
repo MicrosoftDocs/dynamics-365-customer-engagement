@@ -123,8 +123,8 @@ Power Automate provides a low-code platform for workflow and process automation.
    | **msdyn_ocoutboundconfigurationid** | Optional | To fill the config ID in the outbound message activity records. The value should be the same that's used in msdyn_InvokeOUtboundAPI.|
    | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive and results in an error if the customer name values are different. <br> if you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
    | **CaseName** | Optional | The name of the case. |
-   | **sendastemplate** | WhatsApp only, for new or upgraded templates in the Twilio Content Template Builder. |
-   | **templateparameters** | WhatsApp only, for new or upgraded templates in the Twilio Content Template Builder. Follows Twilio's template parameters.
+   | **sendastemplate** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. |
+   | **templateparameters** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. Follows Twilio's template parameters. |
 
    Sample JSON for WhatsApp templates:
   
