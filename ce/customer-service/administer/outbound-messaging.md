@@ -46,7 +46,7 @@ Set up templates to send outbound messages. To create a template, consider the s
     > Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
     > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
     > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
-    > - If you're using [proactive outbound flows](outbound-messaging.md#update-a-proactive-outbound-flow), update those flows.<br>
+    > - If you're using an active outbound flow, [update your previously created template](#update-a-previously-created-twilio-template).<br>
     >
     > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/whatsapp/content-template-builder#creating-a-content-template).
 
@@ -133,7 +133,7 @@ When the customer responds back to the outbound messages, the customer's message
 > [!NOTE]
 > Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. Where higher loads are expected, we recommend that you implement batch processing logic in flows to limit contacts per request to 100.
 
-## Update a proactive outbound flow
+## Update a previously created Twilio template
 
 Before you begin, make sure you have [migrated your templates to the Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
 
@@ -141,7 +141,6 @@ Before you begin, make sure you have [migrated your templates to the Content Tem
 1. Select **Edit**. The WhatsApp workstream page appears.
 1. Select the **Behaviors** tab, and then under **WhatsApp-approved message templates**, select the template you created previously, and then select **Edit**. The **Edit message template** page appears.
 1. In **Name**, replace the name with the **Content Template SID** in Twilio Content Template Builder. The **Content Template SID** is the unique identifier for the template in Twilio.
-1. In **WhatsApp approved text**, copy and paste the content from the **Body** section of the template in Twilio Content Template Builder.
 1. Select **Save**.
 
 
