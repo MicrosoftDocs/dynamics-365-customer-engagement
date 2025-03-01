@@ -1,7 +1,7 @@
 ---
 title: Work with views (grids) in Dynamics 365 Sales
 description: Use views to browse through and manage data in Dynamics 365 Sales. Learn how to switch views, find records, filter data, and more.
-ms.date: 07/15/2024
+ms.date: 02/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -32,7 +32,17 @@ You can perform some common interactions in a view, such as:
 
 The following image shows how a view is displayed:
 
-![Components of a view.](media/components-of-view.png "Components of a view")
+:::image type="Components of a view" source="media/components-of-view.png" alt-text="Components of a view":::
+
+
+Legend:
+
+1. Command bar
+2. View selector
+3. Quick Find
+4. Filters
+5. Charts
+6. Column headings and sorting
 
 A typical view page contains these components: 
 
@@ -60,17 +70,11 @@ A typical view page contains these components:
 
     - You can sort multiple columns at once: Select the heading of the column that you want to sort first, select the Shift key, and then select the heading of the other column to further sort the records. For example, if you want to sort contact records first by company and then by name, select the Name column heading, select and hold the Shift key, and then select the Company column heading.
 
--   **Index:** You can select a character in the index to filter records in the grid or list that start with that character. For example, to display records that start with the letter *U*, select *U* on the index, and records that start with *U* are displayed. When the page is resized to a list, the index appears as a button. Select the button to view the complete list of characters.
-
--   **Pagination:** The pagination section shows the number of pages that the records span. The number of pages varies depending on the number of records per page. For example, if you have 50 records and the view shows 25 records per page, the page count in the pagination section is 2.
-
     >[!NOTE]
     >- You can define the number of records that you want to view on a page. When you reach the end of the records on the current page, the grid automatically shows the next page of records and starts scrolling again from there. The pagination control will change to show the current page number.
     >- You can navigate across pages by using the left and right arrows.
 
-The view page is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the view is transformed into a list. A list can be rendered in a compact manner that is suitable for viewing at a smaller width. For example, in a list, the index is displayed as a button. By default, a list displays an image or initials for each record. In addition, the command bar is minimized to a **More Actions** (**…**) icon.
-
-![Components of a list.](media/components-of-list.png "Components of a list")
+The view page is responsive. As the size of the container decreases—for example, on phones and smaller viewports—the view is transformed into a list. A list can be rendered in a compact manner that is suitable for viewing at a smaller width. By default, a list displays an image or initials for each record. In addition, the command bar is minimized to a **More Actions** (**…**) icon.
 
 You can perform different actions such as sort, delete, and refresh on items in lists by using the command bar as you do in grids. To open the command bar, select **More Actions** (**…**) in the header pane of the view selector.
 
