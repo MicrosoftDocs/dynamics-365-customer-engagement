@@ -90,7 +90,7 @@
         items:
         - name: Configure conversation diagnostics (preview)
           href: configure-conversation-diagnostics.md
-        - name: Conversation diagnostics subscenarios (preview)
+        - name: Understand conversation diagnostics (preview)
           href: conversation-diagnostics-subscenarios.md
         - name: View diagnostics for unified routing
           href: unified-routing-diagnostics.md
