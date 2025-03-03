@@ -100,7 +100,7 @@ msdyn_ocliveworkitem.msdyn_conversationhandletimeinseconds
 | Attribute                     | Definition                                                                                                                                                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
-|msdyn_sessionparticipant| Users in a session interacting with the customer. Learn more in [msdyn_sessionparticipant](/developer/reference/entities/msdyn_sessionparticipant) |
+|msdyn_sessionparticipant| Users in a session interacting with the customer. Learn more in [msdyn_sessionparticipant](/dynamics365/developer/reference/entities/msdyn_sessionparticipant) |
 |msdyn_ocliveworkitem| Type of session event, for example, accept, reject etc. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
 |msdyn_liveworkstream.msdyn_streamsource| The channel to which this workstream is attached |
 
@@ -148,10 +148,10 @@ Filters to be applied before you run the query:
  | Attribute                     | Definition                                                                                                                                                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
-|msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
+|msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
 |msdyn_eventtype|Type of session event e.g. accept, reject etc. Learn more in [msdyn_eventtype](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventtype)|
 |msdyn_channel|The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channel)|
-|msdyn_channelinstanceid|	Unique identifier for entity instances. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_channelinstance#BKMK_msdyn_ChannelInstanceId)|
+|msdyn_channelinstanceid|	Unique identifier for entity instances. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_channelinstance#BKMK_msdyn_ChannelInstanceId)|
 
 
 ### Related metrics
@@ -218,7 +218,7 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 | Attribute                     | Definition                                                                                                                                                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
-|msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
+|msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
 |msdyn_eventtype|Type of session event e.g. accept, reject etc. Learn more in [msdyn_eventtype](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventtype)|
 
 ### Related metrics
