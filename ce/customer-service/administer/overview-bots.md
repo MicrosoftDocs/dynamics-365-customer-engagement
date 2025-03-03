@@ -1,7 +1,7 @@
 ---
 title: Overview of agents
 description: Get an overview of agents and how you can configure and use them in Omnichannel for Customer Service.
-ms.date: 02/21/2025
+ms.date: 03/03/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
