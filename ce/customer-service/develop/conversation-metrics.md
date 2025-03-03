@@ -16,7 +16,7 @@ ms.custom:
 ---
 
 
-## Calculate Conversation metrics
+# Calculate Conversation metrics
 
 ## Average conversation handle time
 
@@ -101,7 +101,8 @@ msdyn_ocliveworkitem.msdyn_conversationhandletimeinseconds
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
 |msdyn_sessionparticipant| Users in a session interacting with the customer. Learn more in [msdyn_sessionparticipant](/developer/reference/entities/msdyn_sessionparticipant) |
-|msdyn_ocliveworkitem|Type of session event e.g. accept, reject etc. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
+|msdyn_ocliveworkitem| Type of session event, for example, accept, reject etc. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
+|msdyn_liveworkstream.msdyn_streamsource| The channel to which this workstream is attached |
 
 ### Related metrics
 
