@@ -1,7 +1,7 @@
 ---
 title: Close conversations automatically
 description: Use this article to understand how to configure the auto-close duration of conversations.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham

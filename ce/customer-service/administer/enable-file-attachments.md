@@ -1,7 +1,7 @@
 ---
 title: Enable file attachments
 description: Learn how to enable file attachments in messaging channels in Omnichannel for Customer Service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan

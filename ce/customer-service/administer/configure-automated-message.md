@@ -1,7 +1,7 @@
 ---
 title: Configure automated messages
 description: Perform the steps mentioned in the article to configure automated messages in your contact center.
-ms.date: 02/25/2025
+ms.date: 03/03/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
