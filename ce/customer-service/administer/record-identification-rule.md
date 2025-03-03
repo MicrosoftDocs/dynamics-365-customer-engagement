@@ -1,7 +1,7 @@
 ---
 title: Identify customers automatically
 description: Learn how to automatically identify customers by using preconversation responses in Omnichannel for Customer Service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -49,9 +49,9 @@ Use the following question names to create preconversation questions. To know ho
 
 You can automatically identify records using custom context set using the [setContextProvider API](../develop/reference/methods/setContextProvider.md) apart from preconversation answers. Learn how to programmatically set these values in [Manage custom context](../develop/send-context-starting-chat.md).
 
-## Link customer and case to conversations when AI agent (agent) escalates or ends conversations
+## Link customer and case to conversations when agent escalates or ends conversations
 
-When an AI agent ends a customer conversation, the agent can link the case number to the conversation. The agent can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
+When an AI agent (agent) ends a customer conversation, the agent can link the case number to the conversation. The agent can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
 
 If the agent needs to escalate the conversation to a representative, then the agent can link the customer and case number to the conversation so that when the representative accepts the escalation request, all relevant information is available in the **Active Conversation** section. The escalation summary gives the representative the background information about the escalation and enables quicker resolution of the customer issue.
 
