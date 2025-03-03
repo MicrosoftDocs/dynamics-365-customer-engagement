@@ -34,7 +34,7 @@ In Omnichannel for Customer Service, you can integrate Azure AI agents (agents) 
 
 - To use the agent over messaging channels, add [Omnichannel channel](/azure/bot-service/bot-service-channel-omnichannel?view=azure-bot-service-4.0&preserve-view=true) as a supported channel.
 
-## Integrate Azure bots with Omnichannel for Customer Service
+## Integrate Azure agents with Omnichannel for Customer Service
 
 After you meet the prerequisites, perform the following steps to integrate your Azure agents with Omnichannel for Customer Service.
 
@@ -56,7 +56,7 @@ Perform the following steps to connect and register your bot with the Omnichanne
 
 Your bot is now registered with the Omnichannel channel.
 
-### Configure the agent user as an omnichannel representative
+### Configure the bot user as an omnichannel agent
 
 The bot user is first created as an application user and then assigned the **Omnichannel agent** role.
 
