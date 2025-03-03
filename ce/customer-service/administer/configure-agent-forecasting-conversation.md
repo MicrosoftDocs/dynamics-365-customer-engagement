@@ -1,7 +1,7 @@
 ---
 title: Configure service representative forecasting for conversations
 description: Learn how to configure customer service representative forecasting for conversations in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 02/21/2025
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan

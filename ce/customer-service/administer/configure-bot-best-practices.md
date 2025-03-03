@@ -1,7 +1,7 @@
 ---
 title: Best practices for configuring agents
 description: This article lists the best practices that you can follow when you configure Azure and Copilot agents in your contact center.
-ms.date: 02/21/2025
+ms.date: 03/03/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

@@ -1,7 +1,7 @@
 ---
 title: "Connected Customer Service - Overview| MicrosoftDocs"
 description: "Overview of Connected Customer Service."
-ms.date: 02/24/2025
+ms.date: 03/03/2025
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
