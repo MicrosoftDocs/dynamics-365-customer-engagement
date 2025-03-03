@@ -14,7 +14,7 @@ ms.custom:
   - ai-seo-date:02/25/2025
 ---
 
-# Conversation wait time
+# Conversation first wait time
 
 _**Applies to**: Omnichannel Historical Bot dashboard, Omnichannel Historical Conversation dashboard_
 
