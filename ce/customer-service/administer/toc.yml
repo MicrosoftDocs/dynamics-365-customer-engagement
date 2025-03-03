@@ -668,7 +668,7 @@
         items:
         - name: Bot sessions and licensing
           href: bot-session-licensing.md
-        - name: Integrate an Azure bot
+        - name: Integrate an Azure agent
           href: configure-bot-azure.md   
       - name: Configure context variables for agents
         href: context-variables-for-bot.md      
