@@ -20,7 +20,7 @@ As an agent, you communicate with customers to resolve issues. All those convers
 
 2. Select **Search** in the navigation bar. The **Search** tab opens in the application tab panel.
 
-3. Type a phrase in the search box, and then select the search icon. The results appears as a list.
+3. Type a phrase in the search box, and then select the search icon. The results appear as a list.
 
 4. Select a result. The **Conversation Form** opens in the application tab panel.
 
@@ -28,7 +28,7 @@ You can now view the details in the **Transcript** section.
 
 > [!NOTE]
 > - Users with the System Administrator role can access conversations that are handled by other agents.
-> - If your administrator blocked files of MIME type ".txt" in the Dataverse instance, you can't save conversation transcripts.
+> - If your administrator blocked files of MIME type ".txt" in the Dataverse instance, then you can't save conversation transcripts.
 
 ### Related information
 
