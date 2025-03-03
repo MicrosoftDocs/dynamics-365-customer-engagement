@@ -4,7 +4,7 @@ description: Use this article to know about the supported cloud locations for th
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 01/29/2025
+ms.date: 03/03/2025
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -54,7 +54,7 @@ If you need your data to stay within a region, the following table lists the loc
 |Norway | To be announced | To be announced|To be announced|
 |Korea | To be announced | To be announced|To be announced|
 |Singapore|To be announced | To be announced|To be announced|
-|Switzerland | To be announced | Available |To be announced|
+|Switzerland | crm17.dynamics.com | Available |To be announced|
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
