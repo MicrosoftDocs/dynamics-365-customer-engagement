@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham

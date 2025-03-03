@@ -1,7 +1,7 @@
 ---
 title: Enable self-service settings
 description: Enable self-service settings for customer actions in conversations to help agents understand customer issues and provide personalized service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
