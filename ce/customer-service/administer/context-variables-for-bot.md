@@ -1,7 +1,7 @@
 ---
 title: Configure context variables for agents
 description: Learn how you can add context variables and then configure them for Azure or Copilot Studio agents in Omnichannel for Customer Service.
-ms.date: 12/14/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -80,7 +80,7 @@ To have your Copilot Studio agent read context variables from Omnichannel, do th
 
 During a conversation, the data from the Omnichannel context variable is set in the Copilot Studio variables and can be used in the agent's logic. 
 
-The agent can also set Omnichannel context variables during a conversation. To set an Omnichannel variable from your Copilot Studio logic, make sure that your agent is using the correct variable name and set the value in the "To value" property in your variable management node. Copilot Studio hands off the variable to Omnichannel during transfer to a customer service representative. This is often used to link the conversation to a case when the agent escalates the conversation to a service representative. More information on how to link records in Omnichannel from this data: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations)
+The agent can also set Omnichannel context variables during a conversation. To set an Omnichannel variable from your Copilot Studio logic, make sure that your agent is using the correct variable name and set the value in the "To value" property in your variable management node. Copilot Studio hands off the variable to Omnichannel during transfer to a customer service representative. This is often used to link the conversation to a case when the agent escalates the conversation to a service representative. More information on how to link records in Omnichannel from this data: [Link customer and case to a conversation](record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations)
 
 The global variables that are created in Copilot Studio can be passed to Omnichannel for Customer Service when a conversation is escalated. For the complete list, see [Contextual variables available upon hand off](/power-virtual-agents/advanced-hand-off#contextual-variables-available-upon-hand-off).
 
