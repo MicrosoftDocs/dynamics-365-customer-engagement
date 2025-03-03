@@ -1,7 +1,7 @@
 ---
-title: "Manage sales literature in Dynamics 365 Sales"
-description: "Sales literature is a repository to store sales-related information such as brochures or product specifications, which can be shared with others."
-ms.date: 10/26/2021
+title: Manage sales literature in Dynamics 365 Sales
+description: Sales literature is a repository to store sales-related information such as brochures or product specifications, which can be shared with others.
+ms.date: 02/27/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,21 +25,19 @@ You can associate a sales literature to a competitor or a product.
 
 1. [!INCLUDE[proc_permissions_admin_cust_mgr_vp_sales_ceo](../includes/proc-permissions-admin-cust-mgr-vp-sales-ceo.md)]  
   
-2. Select the site map ![Site Map icon.](media/site-map-icon.png "site map icon"), and then under **Collaterals**, select **Sales Literature**.
+2. In the site map, select **Collaterals** > **Sales Literature**.
 
 3. Select **New**.
 
 4. Fill in the information such as **Title**, **Subject**, and **Type**. Use the handy tooltips as a guide.
 
-   > [!div class="mx-imgBorder"]
-   > ![Sales Literature form.](media/sales-literature-form.png "Sales Literature form")
+   :::image type="content" source="media/sales-literature-form.png" alt-text="Screenshot of the Sales Literature form.":::
 
 5. Select **Save**.   
 
 5. In the **Sales Attachments** section, select the **More Commands** button ![More Command button.](media/more-commands-button.png "More Command button"), and then select **New Sales Attachment**. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Add New Sales Attachment option.](media/add-new-sales-attachment.png "Add New Sales Attachment option")
+   :::image type="content" source="media/add-new-sales-attachment.png" alt-text="Screenshot of the Add New Sales Attachment option.":::
 
 6. In the **New Sales Attachment** form, enter a **Title** and **Abstract** for the attachment, and then select **Choose File** to select a file to be attached.
 

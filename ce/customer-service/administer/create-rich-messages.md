@@ -1,7 +1,7 @@
 ---
 title: "Manage rich messages | MicrosoftDocs"
 description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -35,7 +35,7 @@ By creating and publishing channel-specific rich messages, your organization's c
       - Video Rich Link
       - Website Rich Link
    - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags will help representatives identify the correct rich message when they search for rich messages.
-   - **Allow agents to configure**: Some rich message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the original rich message made here. Agent editing can be enabled for the following rich message types:
+   - **Allow agents to configure**: Some rich message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the original rich message made here. Representative editing can be enabled for the following rich message types:
       - List picker
       - Suggested reply
       - Time picker

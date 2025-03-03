@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 03/21/2023
+ms.date: 02/27/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
