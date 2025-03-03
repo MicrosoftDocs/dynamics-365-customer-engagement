@@ -24,7 +24,7 @@ _**Applies to**: Omnichannel Real-time Voice dashboard, Omnichannel Historical V
 
 This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
 
-For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](session-metrics.md#average-session-handle-time).
+For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Session wait time](../use/session-metrics.md#session-wait-time).
 
 For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
 
@@ -69,15 +69,8 @@ msdyn_sessionparticipant.msdyn_activetime
 
 ```
 
- | Attribute                     | Definition                                                                                                                                                                                                 |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
-|msdyn_sessionparticipant| Users in a session interacting with the customer. Learn more in [msdyn_sessionparticipant](//developer/reference/entities/msdyn_sessionparticipant) |
-|msdyn_ocliveworkitem|Type of session event e.g. accept, reject etc. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
-
 ### [Real-time analytics](#tab/realtimepage)
 
-Use this query for realtime analytics.
 
 ```dax
 
@@ -104,9 +97,14 @@ msdyn_ocliveworkitem.msdyn_conversationhandletimeinseconds
 ```
 ---
 
+| Attribute                     | Definition                                                                                                                                                                                                 |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
+|msdyn_sessionparticipant| Users in a session interacting with the customer. Learn more in [msdyn_sessionparticipant](/developer/reference/entities/msdyn_sessionparticipant) |
+|msdyn_ocliveworkitem|Type of session event e.g. accept, reject etc. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
+
 ### Related metrics
 
-To add.
 
 ## Conversation first wait time
 
@@ -154,7 +152,7 @@ Filters to be applied before you run the query:
 |msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
 |msdyn_eventtype|Type of session event e.g. accept, reject etc. Learn more in [msdyn_eventtype](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventtype)|
 |msdyn_channel|The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channel)|
-|msdyn_channelinstanceid|	Unique identifier to identify the app to which this conversation belogs to. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid)|
+|msdyn_channelinstanceid|	Unique identifier for entity instances. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_channelinstance#BKMK_msdyn_ChannelInstanceId)|
 
 
 ### Related metrics
@@ -163,9 +161,9 @@ Filters to be applied before you run the query:
 - **Longest wait time**: This metric is a measure of the longest first wait time among incoming conversations that a service representative hasn't yet accepted.
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting service representative assistance, or conversations where a service representative is assigned but are waiting for the service representative to accept.
 
-For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one service representative to another, see [Session wait time](session-metrics.md#session-wait-time).
+Learn more about metrics that are related to the time that customers wait in individual queues when they're transferred from one service representative to another, in [Session wait time](../use/session-metrics.md#session-wait-time).
 
-# Total bot conversations
+## Total bot conversations
 
 _**Applies to**: Omnichannel Historical Bot dashboard, Omnichannel Real-time Bot dashboard_
 
@@ -195,12 +193,6 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 
 ```
 
- | Attribute                     | Definition                                                                                                                                                                                                 |
-|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
-|msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
-|msdyn_eventtype|Type of session event e.g. accept, reject etc. Learn more in [msdyn_eventtype](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventtype)|
-
 ### [Real-time analytics](#tab/realtimepage)
 
 Use this query for realtime analytics.
@@ -223,6 +215,12 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 
 ```
 ---
+
+| Attribute                     | Definition                                                                                                                                                                                                 |
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
+|msdyn_eventreason| Reason for session event. Learn more in [msdyn_eventreason](/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventreason) |
+|msdyn_eventtype|Type of session event e.g. accept, reject etc. Learn more in [msdyn_eventtype](/dynamics365/developer/reference/entities/msdyn_sessionevent#BKMK_msdyn_eventtype)|
 
 ### Related metrics
 
