@@ -193,4 +193,3 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 ### Related information
 
 [Configure conversation diagnostics](configure-conversation-diagnostics.md)  
-[Sample queries and dashboard](/dynamics365/guidance/resources/conversation-diagnostics-sample-queries)  
