@@ -71,7 +71,7 @@ If you chose the full copy option, it can take up to an hour for the data to app
 
 1. Delete any AI agents (agents) in Copilot Studio in all workstreams and the environment.
 
-1. [Create an AI agent](../administer/manage-your-agents.md#add-an-agent) or connect a previously configured agent that's specific to the target environment and configure with channel workstreams.
+1. [Create an AI agent](../administer/manage-your-bots.md#add-an-agent) or connect a previously configured agent that's specific to the target environment and configure with channel workstreams.
 
 1. Update the workstreams to use the new agent.
 
