@@ -580,7 +580,7 @@ items:
           href: finance-operations-integration-setup.md
         - name: Create a work order
           href: finance-operations-integration-create-wo.md
-    - name: Integrate bookings with Outlook calendars (preview)
+    - name: Integrate bookings with Outlook calendars
       href: outlook-booking-integration.md
     - name: Microsoft Planner
       href: planner-sync.md

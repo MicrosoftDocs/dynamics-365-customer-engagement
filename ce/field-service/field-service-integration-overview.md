@@ -1,7 +1,7 @@
 ---
 title: Overview of Field Service integrations
 description: Learn how to integrate Dynamics 365 Field Service with your other business apps to streamline information management and field operations.
-ms.date: 11/14/2024
+ms.date: 03/03/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -47,8 +47,8 @@ Integrate Dynamics 365 Field Service with SAP C-4Hana and SAP S-4Hana to connect
 
 Combine Field Service work orders and Microsoft Planner tasks in a single task management application. Simplify task tracking by automatically creating corresponding tasks in Planner for each work order. [Learn more about synchronizing Field Service with Planner](planner-sync.md).
 
-## Integrate bookings with Outlook calendars (preview)
+## Integrate bookings with Outlook calendars
 
-Dynamics 365 Field Service frontline workers can have all their appointments, company meetings,  personal events and bookings in one calendar. [Learn more about Integrate bookings with Outlook calendars](outlook-booking-integration.md).
+Dynamics 365 Field Service frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. [Learn more about Integrate bookings with Outlook calendars](outlook-booking-integration.md).
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
