@@ -28,7 +28,7 @@ You can now view the details in the **Transcript** section.
 
 > [!NOTE]
 > - Users with the System Administrator role can access conversations that are handled by other agents.
-> - If your administrator has blocked files of MIME type ".txt" in the Dataverse instance, you won't be able to save conversation transcripts.
+> - If your administrator blocked files of MIME type ".txt" in the Dataverse instance, you can't save conversation transcripts.
 
 ### Related information
 
