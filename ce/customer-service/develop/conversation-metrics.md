@@ -112,8 +112,6 @@ _**Applies to**: Omnichannel Historical Bot dashboard, Omnichannel Historical Co
 
 This metric is a measure of the time, in seconds, before a  service representative responds to a customer's request. Learn more in [Conversation first wait time](../use/oc-metrics-dimensions.md#conversation-first-wait-time).
 
-This metric is available in two formats: seconds and *hh:mm:ss*.
-
 ### Query
 
 This section describes the query that is used to calculate the total bot conversations in Power BI and Dataverse.
