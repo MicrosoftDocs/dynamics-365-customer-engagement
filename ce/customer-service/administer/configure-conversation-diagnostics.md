@@ -49,7 +49,7 @@ The following table lists the analysis of the average data consumption in Applic
  
 Let's take an example in which each routing stage has a single ruleset with a couple of rules and moderately complex rule conditions. If you route 500 work items per day, it consumes approximately 4.88 MB of data. A breakup is as follows:
 
-7 KB for one work item routed with one Ruleset each for Classification, route-to-queue, and Assignment plus 3 KB for one extra rule at each of the Classification, route-to-queue, and Assignment rulesets that equals to 10 KB.
+7 KB for one work item routed with one ruleset each for classification, route-to-queue, and assignment plus 3 KB for one extra rule at each of the classification, route-to-queue, and assignment rulesets that equals to 10 KB.
 
 10 KB x 500 work items = 5000 KB, which translates to 4.88 MB.
 
