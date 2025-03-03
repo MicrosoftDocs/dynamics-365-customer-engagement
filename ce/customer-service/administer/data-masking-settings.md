@@ -1,7 +1,7 @@
 ---
 title: Create and manage data masking rules
 description: Learn how to create and manage data masking rules to block sensitive data in Omnichannel for Customer Service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan

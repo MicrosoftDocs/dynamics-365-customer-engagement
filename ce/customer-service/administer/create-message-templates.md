@@ -1,7 +1,7 @@
 ---
 title: Create message templates
 description: Learn how to create message templates for reusable messages in Omnichannel for Customer Service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
