@@ -45,7 +45,7 @@ The following table lists the activities that can appear in Customer Service aud
 | msdyn_contactcenterstate | Add a simple contact center using defaults. |
 | msdyn_csadminconfig | Create guided channels with queues and routing. |
 | bot | Add an AI agent (agent) to a workstream for representative transfers. |
-| bot | Connect a agent to a workstream for representative transfers. |
+| bot | Connect an AI agent to a workstream for representative transfers. |
 | entitlement | Specify terms based on hours or cases. |
 | slaitem, slakpiinstance, sla | Track agreements and ensure support according to the terms of service-level agreements (SLAs). |
 | subject | Categorize cases for quick service to customers. |
