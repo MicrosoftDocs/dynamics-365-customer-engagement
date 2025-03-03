@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift schedules imported from external workforce management (WFM) systems. By verifying their schedules in advance, organizations can avoid routing tasks to off-duty service representatives, and reduce the risk of delays. 
+Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift schedules imported from external workforce management (WFM) systems. By verifying representatives' schedules in advance, organizations can avoid routing tasks to off-duty service representatives, and reduce the risk of delays. 
 
 You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
