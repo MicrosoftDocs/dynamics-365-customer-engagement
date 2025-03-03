@@ -124,38 +124,6 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - **CapacityProfiles**: Required representative capacity profiles for the work item
     - **RequiredSkills**: Skills required by the representative to work on the work item
 
-## Conversation scenarios
-
-The **Traces** table contains data about the following conversation scenarios.
-
-- **Category**: Conversation initiation 
-  - **Scenario**: Conversation is initialized 
-  - **Scenario**: Customer identified
-
-- **Category**: AI agent interaction
-  - **Scenario**: AI agent assigned
-  - **Scenario**: Conversation ended by AI agent
-  - **Scenario**: AI agent escalation to service representative
-
-- **Category**:  Routing
-  - **Scenario**: Demand Classification
-  - **Scenario**: Queue assignment
-
-- **Category**:  Service representative interaction
-  - **Scenario**: Representative accepted
-  - **Scenario**: Representative rejected
-  - **Scenario**: Acceptance request timed out
-  - **Scenario**: Representative rejoined
-  - **Scenario**: Representative self-assignment
-
-- **Category**: Conversation completion
-  - **Scenario**: Conversation ended by customer
-  - **Scenario**: Conversation ended by representative
-  - **Scenario**: Representative session closed
-  - **Scenario**: Conversation abandoned by customer or customer disconnected
-  - **Scenario**: Conversation force close by supervisor
-  - **Scenario**: Conversation closed
-
 ### Subscenario: AgentAccept
 
 - **Omnichannel.description**: Captures the information when representative accepts the conversation:
