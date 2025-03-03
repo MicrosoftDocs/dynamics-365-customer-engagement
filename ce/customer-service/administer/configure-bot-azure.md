@@ -56,9 +56,9 @@ Perform the following steps to connect and register your agent with the Omnichan
 
 Your agent is now registered with the Omnichannel channel.
 
-### Configure the agent user as an omnichannel representative
+### Configure the bot user as an omnichannel agent
 
-The agent user is first created as an application user and then assigned the **Omnichannel agent** role.
+The bot user is first created as an application user and then assigned the **Omnichannel agent** role.
 
 1. Open the [PowerPlatform admin center](https://admin.powerplatform.com).
 
@@ -107,7 +107,7 @@ Agents can be developed to receive customer queries first, gain information abou
 
 ### Set escalation rules
 
-Escalation rules allow you to create rules for the agent to escalate the queries to the appropriate representative. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the agent escalates a customer query, it routes to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another representative in the queue picks the conversation as per the capacity.
+Escalation rules allow you to create rules for the AI agent to escalate the queries to the appropriate representative. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the AI agent escalates a customer query, it routes to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another representative in the queue picks the conversation as per the capacity.
 
 ## Privacy notice
 
