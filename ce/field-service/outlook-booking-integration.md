@@ -1,7 +1,7 @@
 ---
 title: Integrate Field Service bookings with Outlook calendars
 description: Set up Microsoft Online Exchange to integrate with Dynamics 365 Field Service to synchronize bookings.
-ms.date: 02/25/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -9,16 +9,13 @@ ms.author: jasonshotts
 
 # Integrate bookings with Outlook calendars
 
-Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created against a work order synchronize with the worker’s mailbox, so they show up as appointments in Microsoft Outlook. Synchronization occurs every 15 minutes. The appointment includes: the work order date, time window, work order number, and location.
+Frontline workers can have all their appointments, company meetings, personal events, and bookings in one calendar. Any bookings created against a work order synchronize with the worker’s mailbox, so they show up as appointments in Microsoft Outlook. Synchronization occurs every 15 minutes.
 
-The synchronization of bookings into Outlook works only one way. Events set up in Outlook won't appear in Field Service as bookings.
+The synchronization of bookings into Outlook works only one way. Events set up in Outlook don't appear in Field Service as bookings. Data flows from Dataverse into Exchange, potentially crossing geographic boundaries.
 
 ## Set up the Exchange integration
 
-Set up user mailboxes to synchronize with Microsoft Exchange Online.
-
-> [!NOTE]
-> If tasks, contacts, or appointments synchronization has already been set up for a user, bookings from Field Service start synchronizing automatically. No other set up is required.
+Set up user mailboxes to synchronize with Microsoft Exchange Online. If tasks, contacts, or appointments synchronization are already set up for a user, bookings from Field Service start synchronizing automatically. No other set up is required.
 
 ### Prerequisites
 
@@ -27,7 +24,7 @@ Set up user mailboxes to synchronize with Microsoft Exchange Online.
 
 ### Set up the integration
 
-1. Sign in to [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
+1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/).
 
 1. Select **Environments** and select your environment.
 
@@ -54,15 +51,15 @@ Set up user mailboxes to synchronize with Microsoft Exchange Online.
 
 ## Booking synchronization
 
-Bookings synchronize one week in the past and up to two weeks in the future. If synchronization is disabled, synchronized records aren’t deleted. New records won’t synchronize.
+Bookings synchronize one week in the past and up to two weeks in the future. If synchronization is disabled, synchronized records aren’t deleted. New records don't synchronize.
 
 ### Create and edit bookings
 
-When a booking is scheduled for a work order, it appears in the technician’s Outlook calendar after synchronization occurs, every 10 to 15 minutes. The booking has a default priority.
+When a booking is scheduled for a work order, it appears in the technician’s Outlook calendar after synchronization occurs, every 10 to 15 minutes. A link is created. The appointment includes: the work order date, time window, work order number, and location. The booking has a default priority.
 
 A change to the booking time window or location in Field Service triggers an update to Outlook during synchronization. If only the work order is updated in Field Service, Outlook isn’t updated.
 
-The following fields populate the first time the booking is scheduled. Any updates that occur on the work order after this time aren’t reflected in Outlook unless there's a change in the booking time window or location.
+The following fields populate the first time the booking is scheduled. Any updates that occur on the work order after this time aren’t reflected in Outlook unless there's a change to the booking time window or location.
 
 - Priority
 - Location
@@ -76,24 +73,25 @@ The following fields populate the first time the booking is scheduled. Any updat
 
 ### Cancel bookings
 
-By default, appointments that are canceled in Field Service don't sync to Exchange as **Canceled**. To change this behavior, turn on *SSSPropagateAppointmentCancellationsToExchange* in [OrgDBOrgSettings](/power-platform/admin/orgdborgsettings). When this setting is enabled, canceling an appointment in Field Service cancels the meeting in Exchange, which sends the cancellation to attendees.
+By default, appointments that are canceled in Field Service don't sync to Exchange as **Canceled**. To change this setting, turn on *SSSPropagateAppointmentCancellationsToExchange* in [OrgDBOrgSettings](/power-platform/admin/orgdborgsettings). When this setting is enabled, canceling an appointment in Field Service cancels the meeting in Exchange, which sends the cancellation to attendees.
 
 ### Delete bookings
 
 When a booking is deleted in Field Service and synced with Exchange, the appointment is deleted in Exchange only if all the following conditions are met:
 
-- The appointment is linked (the appointment was created as a booking in Field Service).
-- The syncing user is the appointment organizer.
+- The Outlook appointment remains tagged "Tracked to Dynamics."
+- The booked resource remains the appointment organizer.
 - The appointment is in the future.
-- The appointment hasn't been [logically deleted](/power-platform/admin/sync-logic#ignore-logically-deleted-items-during-sync).
+- The appointment wasn't [logically deleted](/power-platform/admin/sync-logic#ignore-logically-deleted-items-during-sync).
 
 If all these conditions aren't met, the appointment still exists in Exchange, but it's unlinked. For more information, go to [Synchronization logic for appointments, contacts, and tasks](/power-platform/admin/sync-logic#syncing-canceled-and-deleted-appointments-from-dynamics-365-to-exchange).  
 
 ### Limitations
 
-- Only updates to the booking in Field Service are reflected in Outlook. If only the work order is updated in Field Service, Outlook isn’t updated.
-- Updates only to the work order won’t be reflected in Outlook until the booking is changed.
+- Updates to the booking are required to reflect changes to the work order in Outlook.
+- Updates only to the work order aren't reflected in Outlook until the booking is changed.
 - Users can be set up to sync with only one environment at a time.
-- Only bookings tied to a work order will synchronize.
+- Only bookings tied to a work order synchronize.
+- Bookings synchronize one week in the past and up to two weeks in the future. Because of this control, the bookings that sync might display warnings. These warnings are normal.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
