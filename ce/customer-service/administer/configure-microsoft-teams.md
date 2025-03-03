@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel
 description: Learn about the Microsoft Teams channel and how to configure the channel.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

@@ -1,7 +1,7 @@
 ---
 title: Integrate an Azure agent
 description: Use this article to understand how to integrate Azure agents in the contact center.
-ms.date: 02/27/2025
+ms.date: 03/03/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
