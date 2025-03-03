@@ -93,7 +93,7 @@ You can add an AI agent user to specific queues where you want the agent to hand
 
 Alternatively, you can also create a queue with the bot user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This action ensures that the bot acts as the first recipient for all queries.
 
-A representative can transfer a chat to an agent by adding it to a queue, and then transferring the chat to the queue.
+A representative can transfer a chat to an AI agent by adding it to a queue, and then transferring the chat to the queue.
 
 > [!Note]
 > - The chat cannot be transferred to the same agent.
@@ -107,7 +107,7 @@ AI agents can be developed to receive customer queries first, gain information a
 
 ### Set escalation rules
 
-Escalation rules allow you to create rules for the agent to escalate the queries to the appropriate representative. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the agent escalates a customer query, it routes to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another representative in the queue picks the conversation as per the capacity.
+Escalation rules allow you to create rules for the AI agent to escalate the queries to the appropriate representative. For escalation rules, you must [configure context variables](context-variables-for-bot.md) and set routing rules to route the customer queries. If the AI agent escalates a customer query, it routes to the appropriate queue as per the defined routing rule. Even if the query is redirected to the same queue, another representative in the queue picks the conversation as per the capacity.
 
 ## Privacy notice
 
