@@ -86,6 +86,20 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
+      - name: Conversation diagnostics
+        items:
+        - name: Configure conversation diagnostics (preview)
+          href: configure-conversation-diagnostics.md
+        - name: Understand conversation diagnostics (preview)
+          href: conversation-diagnostics-subscenarios.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
+      - name: FAQ about unified routing
+        href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
