@@ -1,7 +1,7 @@
 ---
 title: Configure email
 description: Learn how to configure email in customer engagement apps.
-ms.date: 02/19/2025
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan

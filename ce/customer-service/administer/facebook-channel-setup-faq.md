@@ -1,7 +1,7 @@
 ---
 title: FAQ about Facebook channel setup
 description: Review frequently asked questions (FAQ) about Facebook channel configuration in Omnichannel for Customer Service.
-ms.date: 02/20/2025
+ms.date: 03/03/2025
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
