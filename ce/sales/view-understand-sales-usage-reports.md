@@ -1,7 +1,7 @@
 ---
 title: View operational metrics and KPIs in Sales usage reports
 description: Explore operational metrics and KPIs in sales usage reports, providing historical data on contacts, accounts, leads, and opportunities.
-ms.date: 06/19/2024
+ms.date: 02/25/2025
 ms.topic: conceptual
 author: udaykirang
 ms.author: udag
@@ -20,15 +20,19 @@ The reports only include data that has been added or updated in the application 
 Also, the actions that are performed in the application are reflected in the sales usage reports. Actions such as, bulk import, bulk update, and records updated through the API are not reflected in the sales usage reports.
 
 > [!NOTE]
+>
 > - Sales usage reports aren't available in Government Community Cloud (GCC) tenants.
 > - The updated or added data may take up to three days to show in the reports.
+> - If the reports are not displayed due to an organization lifecycle event such as migration, contact Microsoft Support for assistance.
 
 ## Open sales usage reports
 
 Sign in to your sales app. In the lower-left corner of the page, select **Change area** > **Sales** > **Sales analytics** > **Sales usage reports**.
 
 >[!NOTE]
->The **Sales usage reports** option is available only when it's enabled in your organization. Contact your administrator to enable it. More information: [Enable sales usage reports](enable-sales-usage-reports.md)  
+>
+>- You must have the **Sales Manager** role or a higher privilege to access the sales usage reports.
+>- The **Sales usage reports** option is available only when it's enabled in your organization. Contact your administrator to enable it. More information: [Enable sales usage reports](enable-sales-usage-reports.md)  
 
 
 The following sales usage reports are available:

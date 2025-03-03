@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 09/30/2024
+ms.date: 02/04/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -13,7 +13,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-This article contains the FAQs that you as an administrator, supervisor, or agent might have about unified routing.
+This article contains the FAQs that you as an administrator, supervisor, or a customer service representative (service representative or representative) might have about unified routing.
 
 ## General
 
@@ -37,25 +37,25 @@ Verify whether you [configured an intake rule](set-up-record-routing.md#configur
 
 No. Basic routing can be used for cases only. To route any record type, use unified routing.
 
-### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
+### Is there a priority among queues?
 
-Yes, you can use **Group Number** to prioritize queues. Queues are ordered from highest to lowest priority when work items are assigned. This means that a smaller group number has a higher priority than a bigger queue number. For example, a queue with group number 1 is prioritized over another queue whose group number is 2. Learn more at [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
+Yes, you can use **Queue priority** to prioritize queues. Queues are ordered from highest to lowest priority when work items are assigned. This means that a smaller number has a higher priority than a bigger queue number. For example, a queue with number 1 is prioritized over another queue whose number is 2. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
 
 ### Can I pause the assignment of a case?
 
 No. It's not possible to pause the assignment of a case.
 
-### Can agents pick work items of records to which they don't have permissions?
+### Can representatives pick work items of records to which they don't have permissions?
 
-Yes, agents can pick the work item even if they don't have permission to access the record. However, they can't view the details and the conversation is closed. For more information, refer to the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings).
+Yes, service representatives can pick the work item even if they don't have permission to access the record. However, they can't view the details and the conversation is closed. For more information, refer to the note in [Set up record routing](set-up-record-routing.md#configure-work-distribution-and-advanced-settings).
 
 ### Can supervisors assign work items pertaining to inaccessible records?
 
-Yes. However, the conversation is closed if agents don't have sufficient permission to access the records.
+Yes. However, the conversation is closed if representatives don't have sufficient permission to access the records.
 
 ### Can I export a unified routing configuration and sign in to another environment?
 
-Yes, you can export a configuration with unified routing content for the record type and live chat channel. For more information, see the following articles:
+Yes, you can export a configuration with unified routing content for the record type and live chat channel. Learn more in the following articles:
 
 - [Migrate data for the record channel](migrate-config-data-for-records-overview.md)
 - [Migrate data for the live chat channel](migrate-config-data-for-live-chat.md)
@@ -66,11 +66,11 @@ Yes. It's possible to reassign a case to another queue. On the case form, select
 
 ### Why can't I view the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
 
-A case remains with the agent that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
+A case remains with the service representative that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
 
-### How are unassigned work items in a queue handled if no matching agent is found?
+### How are unassigned work items in a queue handled if no matching representative is found?
 
-The unassigned work item remains in the queue until you manually assign it to an agent or route it to another queue. More information: [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work)
+The unassigned work item remains in the queue until you manually assign it to a representative or route it to another queue. Learn more in [How assignment rulesets work](assignment-methods.md#how-assignment-rulesets-work).
 
 ### Can advanced queues be associated with a mailbox?
 
@@ -80,33 +80,33 @@ No, you can't configure a mailbox for advanced queues. If you want to use or man
 
 ### Why does the queue have unassigned work items?
 
-For work items to be assigned automatically, the queue must be a private queue with at least one agent.
+For work items to be assigned automatically, the queue must be a private queue with at least one representative.
 
-### Can I increase the limit on assignment offer of work items to agents?
+### Can I increase the limit on assignment offer of work items to representatives?
 
-Yes, you can update the limit. More information: [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent)
+Yes, you can update the limit. Learn more in [How the limit on offering a work item repeatedly to a representative works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-a-representative).
 
-### Does unified routing offer the same conversation when agent declines it or after the notification times out?
+### Does unified routing offer the same conversation when a representative declines it or after the notification times out?
 
-The declined conversation isn't offered to the agent anymore and agent is removed from priority but can be offered other conversations. However, if they're the only eligible agents, the system offers the same conversation up to three times or the configured limit.
+The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
 ## Route to least-active agent
 
-### For which channel is the routing to least-active agent feature available?
+### For which channel is the routing to least-active representative feature available?
 
 The feature is available for the voice channel only.
 
-### Does the agent sign-in time affect the calculation of the least active agent? 
+### Does the sign-in time affect the calculation of the least active representative? 
 
-The agent’s "last capacity release time for a voice call" is the only parameter used by the least-active assignment method. The agent sign-in times don't affect the capacity release time. 
+The representative's "last capacity release time for a voice call" is the only parameter used by the least-active assignment method and their sign-in times don't affect the capacity release time. 
 
-### How is a tie-breaker scenario resolved if two or more agents have the same capacity release time?
+### How is a tie-breaker scenario resolved if two or more representatives have the same capacity release time?
 
-If the last capacity release time is the same for two matching agents, then assignment is done in a round-robin manner.
+If the last capacity release time is the same for two matching representatives, then assignment is done in a round-robin manner.
 
-### How does routing to the least active agent work when a new agent signs in?
+### How does routing to the least active representative work when a new representative signs in?
 
-When a new agent signs in to the Customer Service workspace app, their "last capacity release time" isn't available in the system. Therefore, the system considers that the agent is the least active among the matched agents, and assigns the next work item to them.
+When a new representative signs in to the Customer Service workspace app, their "last capacity release time" isn't available in the system. Therefore, the system considers that representative as the least active among the matched others, and assigns the next work item to them.
 
 ## Intelligent skill finder
 
@@ -120,14 +120,14 @@ Yes. Intelligent skill finder can be enabled for any entity that's enabled for r
 
 ### How do I make sure that the right skills are attached to the work items when the machine learning-based model is in use?
 
-- Ensure that agents are trained to attach correct skills, review, and correct any incorrectly attached skills.
+- Ensure that representatives are trained to attach correct skills, review, and correct any incorrectly attached skills.
 - Review the skill finder model to make sure that the training data is correct and retrain the model periodically to improve it.
 
 ## Capacity profiles
 
-### I have a work item labeled with two capacity profiles and three agents who match at varying levels. Which agent is eligible for assignment?
+### I have a work item labeled with two capacity profiles and three representatives who match at varying levels. Which one of them is eligible for assignment?
 
-If two of the agents match one each of the required capacity profiles and the third agent matches on both the required capacity profiles, then the work item is assigned to the third agent. More information: [Use capacity profiles](capacity-profiles.md#how-to-set-multiple-capacity-profiles-in-a-single-workstream)
+If two of the representatives match one each of the required capacity profiles and the third one matches on both the required capacity profiles, then the work item is assigned to the third representative. Learn more in [Use capacity profiles](capacity-profiles.md#how-to-set-multiple-capacity-profiles-in-a-single-workstream).
 
 ## Deprecation of diagnostics
 
@@ -145,19 +145,19 @@ No. Application Insights is a separate tool where diagnostics can be queried spe
 
 ### How do I enable application insights?
 
-To enable application insights, you need to set up a connection of your Dynamics 365 Customer Service environment with Azure Application Insights. More information: [Set up a connection with Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights#set-up-a-connection-with-azure-application-insights)
+To enable application insights, you need to set up a connection of your Dynamics 365 Customer Service environment with Azure Application Insights. Learn more in [Set up a connection with Azure Application Insights](/power-platform/admin/conversation-diagnostics-application-insights#set-up-a-connection-with-azure-application-insights).
 
 
 > [!NOTE]
-> Application Insights can be enabled for managed environments only. When an environment is managed, it allows you greater visibility and control with the capabilities that allow admins to manage Power Platform at scale. More information: [Managed Environments overview](/power-platform/admin/managed-environment-overview)
+> Application Insights can be enabled for managed environments only. When an environment is managed, it allows you greater visibility and control with the capabilities that allow admins to manage Power Platform at scale. Learn more in [Managed Environments overview](/power-platform/admin/managed-environment-overview).
 
 ### Do I need to purchase any add-on to use application insights?
 
-A pay-as-you-go pricing model is associated with Azure Monitor. The Application Insights tool in Azure Monitor helps you monitor the availability, performance, and usage of your Dynamics 365 apps. Azure Monitor charges you for the features you use. When you set up Application Insights for ingestion, retention, and export of data, Azure Monitor charges you based on this use. More information: [Pricing](/power-platform/admin/conversation-diagnostics-application-insights#pricing)
+A pay-as-you-go pricing model is associated with Azure Monitor. The Application Insights tool in Azure Monitor helps you monitor the availability, performance, and usage of your Dynamics 365 apps. Azure Monitor charges you for the features you use. When you set up Application Insights for ingestion, retention, and export of data, Azure Monitor charges you based on this use. Learn more in [Pricing](/power-platform/admin/conversation-diagnostics-application-insights#pricing).
 
 ### Can all my users access application insights? How do I give access for everybody?
 
-Application Insights is meant for developer, support, and admin personas. Users with these roles and responsibilities can be set up to access Application Insights using Azure role-based access. More information: [Assign Azure roles using the Azure portal](/azure/role-based-access-control/role-assignments-portal)
+Application Insights is meant for developer, support, and admin personas. Users with these roles and responsibilities can be set up to access Application Insights using Azure role-based access. Learn more in [Assign Azure roles using the Azure portal](/azure/role-based-access-control/role-assignments-portal).
 
 ### Not everyone in my organization can write queries. How do they use application insights?	
 

@@ -1,7 +1,7 @@
 ---
 title: Set up branding and theming
 description: Learn how to create a custom look and feel for your app by making changes to the default colors and visual elements provided in your system.
-ms.date: 06/19/2024
+ms.date: 02/11/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -61,6 +61,3 @@ The Dynamics 365 Sales app comes with three default themes that you can use. You
 ## Related information
 
 [Admin settings overview](admin-settings-overview.md)  
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-

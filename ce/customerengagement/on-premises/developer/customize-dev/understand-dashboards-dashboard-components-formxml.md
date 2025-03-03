@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Understand dashboards: Dashboard components and FormXML
 
-Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. You can use the `SystemForm.Type` or `UserForm.Type` attribute to determine whether the form is a dashboard. A form of dashboard type has the property value of ”0”.  
+Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. You can use the `SystemForm.Type` or `UserForm.Type` attribute to determine whether the form is a dashboard. A form of dashboard type has the property value of "0".  
 
  The definition of the form content and presentation is stored in the FormXML. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Form XML Schema](form-xml-schema.md)  
 
@@ -36,11 +36,11 @@ Dashboards are one of the different types of forms in [!INCLUDE[pn_dynamics_crm]
  An organization-owned dashboard can contain only organization-owned charts. However, a user-owned dashboard can contain user-owned and organization-owned charts. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Charts (Visualizations) for Microsoft Dynamics 365 Customer Engagement](view-data-with-visualizations-charts.md)  
 
 ### Grids  
- Grids fetch data from queries (views) in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. An organization-owned dashboard can contain only the grids that fetch data from saved queries. However, a user-owned dashboard can contain grids that fetch data from user and saved queries. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][SavedQuery Entity](../entities/savedquery.md)  
+ Grids fetch data from queries (views) in [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)]. An organization-owned dashboard can contain only the grids that fetch data from saved queries. However, a user-owned dashboard can contain grids that fetch data from user and saved queries. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)][SavedQuery Entity](/power-apps/developer/data-platform/reference/entities/savedquery)  
 
 ### IFRAMEs  
  When you add an IFRAME to an organization-owned dashboard, you can specify whether to restrict or allow cross-frame scripting. 
- To do so, you have to use the `<Security>` parameter in the IFRAME control in the FormXML. However, for user-owned dashboards, cross-frame scripting for IFRAMEs is restricted, and you can’t change it. If you attempt to create a user-owned dashboard that contains an IFRAME with cross-frame scripting enabled, an error message will be displayed.  
+ To do so, you have to use the `<Security>` parameter in the IFRAME control in the FormXML. However, for user-owned dashboards, cross-frame scripting for IFRAMEs is restricted, and you can't change it. If you attempt to create a user-owned dashboard that contains an IFRAME with cross-frame scripting enabled, an error message will be displayed.  
 
 ### Web resources  
  Only form-enabled web resources can be included in a dashboard. Although this restriction is applicable when you are adding a web resource using the Dashboard designer in the web application, there is no such restriction applied when adding a web resource to a dashboard using the SDK. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Web Resources for Microsoft Dynamics 365 Customer Engagement](../web-resources.md)  

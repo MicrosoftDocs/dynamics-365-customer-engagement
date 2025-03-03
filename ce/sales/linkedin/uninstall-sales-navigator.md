@@ -1,7 +1,7 @@
 ---
 title: Remove LinkedIn Sales Navigator from Dynamics 365
 description: If you want to uninstall LinkedIn Sales Navigator, follow these steps to delete the appropriate solutions in the correct order.
-ms.date: 10/14/2024
+ms.date: 01/31/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -19,12 +19,13 @@ You can uninstall LinkedIn Sales Navigator if you don't want to use it in your o
 
 **To uninstall LinkedIn Sales Navigator**
 
-1. In your app, select **Settings** :::image type="icon" source="../media/settings-icon.png" border="false":::, and then select **Advanced Settings**.  
-   :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of Advanced Settings link in the site map.":::
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-2. Go to **Settings** > **Customizations** > **Solutions**.
-3. On the **Solutions** page in Power Apps, select **All** and then search for the **LinkedInSalesNavigatorControlsForUnifiedClient** solution and select it.
-4. Select **Show Dependencies** to check whether there are any dependencies for the solution. If dependencies exist, you must remove them before you delete the solution.  
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
+
+1. Go to **Customization** > **Customizations** > **Solutions**.  
+1. On the **Solutions** page, select **All** and then search for the **LinkedInSalesNavigatorControlsForUnifiedClient** solution and select it.  
+1. Select **Show Dependencies** to check whether there are any dependencies for the solution. If dependencies exist, you must remove them before you delete the solution.  
    :::image type="content" source="media/show-dependencies.png" alt-text="Screenshot of the LinkedIn Solution and Show Dependencies option.":::
   If you see dependencies, it means that LinkedIn controls are included in Account, Contact, Lead, or Opportunity forms. 
   :::image type="content" source="media/solution-dependencies.png" alt-text="Screenshot of the dependencies for the LinkedIn solution.":::
