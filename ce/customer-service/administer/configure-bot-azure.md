@@ -10,7 +10,7 @@ ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Integrate an Azure bot
+# Integrate an Azure agent
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -46,7 +46,7 @@ After you meet the prerequisites, perform the following steps to integrate your 
 
 ### Connect your agent resource to Omnichannel channel
 
-Perform the following steps to connect and register your bot with the Omnichannel channel.
+Perform the following steps to connect and register your agent with the Omnichannel channel.
 
 1. Open the [Azure portal](https://portal.azure.com), and then select your agent resource.
 
@@ -54,11 +54,11 @@ Perform the following steps to connect and register your bot with the Omnichanne
 
 3. On the **Configure Omnichannel** page, select **Apply**.
 
-Your bot is now registered with the Omnichannel channel.
+Your agent is now registered with the Omnichannel channel.
 
-### Configure the bot user as an omnichannel agent
+### Configure the AI agent user as an omnichannel representative
 
-The bot user is first created as an application user and then assigned the **Omnichannel agent** role.
+The agent user is first created as an application user and then assigned the **Omnichannel agent** role.
 
 1. Open the [PowerPlatform admin center](https://admin.powerplatform.com).
 
@@ -91,7 +91,7 @@ The bot user is first created as an application user and then assigned the **Omn
 
 You can add an AI agent user to specific queues where you want the agent to handle the customer queries first, instead of the representative. For this option, you must ensure that the bot user has the highest capacity among all users in the queue.
 
-Alternatively, you can also create a queue with the bot user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This action ensures that the bot acts as the first recipient for all queries.
+Alternatively, you can also create a queue with the agent user only. In such a case, ensure that the routing rules are set in a way that customer queries are sent to this queue first. This action ensures that the agent acts as the first recipient for all queries.
 
 A representative can transfer a chat to an AI agent by adding it to a queue, and then transferring the chat to the queue.
 
