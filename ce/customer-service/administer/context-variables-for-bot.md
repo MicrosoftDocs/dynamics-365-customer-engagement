@@ -29,11 +29,31 @@ The following table contains the list of context variables in Omnichannel for Cu
 |-----|-----|-------|-------|
 | [Pre-conversation survey](configure-pre-chat-survey.md) | Use the pre-conversation survey question name that you create in Omnichannel for Customer Service. | The system stores responses from the pre-conversation survey as context variables. | Use the following information to map the question name in Omnichannel for Customer Service with the variable type in Azure:<br><ul><li> **Single line**: String</li><li>**Multiple lines**: String</li><li>**Option set**: String</li><li>**User Consent**: Boolean</li></ul>|
 | [Custom context](../develop/send-context-starting-chat.md) | Use the variable name that you create in Omnichannel for Customer Service or pass using the setContextProvider API. | The custom context variables that you create can be passed through the live chat SDK. | [Map the user's response as a JSON](../develop/display-custom-context.md) to use custom context variable in Omnichannel for Customer Service. |
+| [Custom context for Direct Line](../develop/bring-your-own-channel#channel-adapters) | Use the variable name that you create in Omnichannel for Customer Service | The custom context variables that you create can be passed through as key-value pairs in Activity.ChannelData.ConversationContext when your DirectLine client starts a conversation.  | Use the following information to map the custom context variable in Omnichannel for Customer Service with the variable type in Copilot Studio: <br><ul><li> **String**: User's entire response </li> **Boolean**: Boolean <li> **Number**, **Floating Number**: Number |
 | Conversation | msdyn_ConversationId  | Use the context variable that contains the conversation ID for the ongoing conversation and can fetch and perform operations on the record in Microsoft Dataverse. |**String**: String|
 |[Contact](record-identification-rule.md) | msdyn_contact_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the customer (contact) record that is linked to the conversation.    | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id)  |
 | [Account](record-identification-rule.md) | msdyn_account_msdyn_ocliveworkitem_Customer | Use this context variable that contains the record ID for the account record linked to the conversation. | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id)|
 | [Case](record-identification-rule.md) | msdyn_incident_msdyn_ocliveworkitem | Use this context variable that contains the record ID for the case record linked to the conversation.  | [Parse JSON to extract record ID](#parse-json-object-to-extract-record-id) |
-
+| Channel Instance | msdyn_ChannelInstanceId | The Dataverse unique identifier of the Channel Instance record – for example, the unique identifier of the configured [chat widget](../administer/add-chat-widget.md) or [Facebook page](../administer/configure-facebook-channel.md) | **String**: User's entire response. |
+| Workstream | msdyn_WorkstreamId | The Dataverse unique identifier of the Workstream associated with the channel instance. | **String**: User's entire response. |
+| Channel Locale | msdyn_Locale | The configured locale code on your channel instance – e.g. your [chat widget](../administer/add-chat-widget.md) or [Facebook page](../administer/configure-facebook-channel.md). This can be used for scenarios like multi-lingual Copilot Studio agents. | **String**: User's entire response. |
+| Social Profile | msdyn_SocialProfileId | The Dataverse record unique identifier for the [social profile](../use/supported-channels-social-profiles.md) associated with the conversation. | **String**: User's entire response. |
+| Line Customer Name | msdyn_LineCustomerName | The customer name from the LINE API.  | **String**: User's entire response. |
+| Teams Customer Name | msdyn_TeamsCustomerName  | The customer name from Microsoft Teams.   | **String**: User's entire response. |
+| Teams Customer Email | msdyn_TeamsCustomerEmail  | The email address (UPN) from Microsoft Teams.   | **String**: User's entire response. |
+| Apple Capabilities List | msdyn_CapabilityList  | Apple Messages for Businesses capability list values as a delimited string.   | **String**: User's entire response. |
+| Apple Group ID | msdyn_AppleMessagesForBusinessGroupId  | Apple Messages for Businesses Group ID.  | **String**: User's entire response. |
+| Apple Intent ID | msdyn_AppleMessagesForBusinessIntentId  | Apple Messages for Businesses Intent ID.   | **String**: User's entire response. |
+| Apple Locale | msdyn_AppleMessagesForBusinessLocale | Locale provided by the Apple Messages for Businesses API.   | **String**: User's entire response. |
+| Apple Business ID | msdyn_AppleBusinessId  | The Business ID from your Apple Messages for Business account.  | **String**: User's entire response. |
+| Facebook Customer Name | msdyn_FacebookCustomerName  | The customer name from Facebook.   | **String**: User's entire response. |
+| Facebook Customer Locale | msdyn_FacebookLocale  | The customer’s end user locale from Facebook.   | **String**: User's entire response. |
+| Facebook Customer Timezone | msdyn_FacebookTimezone  | The customer timezone from Facebook.   | **String**: User's entire response. |
+| Facebook Customer Page Scoped ID | msdyn_FacebookUserPageScopedId  | The customer’s page-specific user ID from Facebook.   | **String**: User's entire response. |
+| Facebook Page ID | msdyn_FacebookPageId | The PageID from your Facebook page. | **String**: User's entire response. |
+| Customer Phone Number | msdyn_CustomerPhoneNumber | The phone number the customer is texting in from in WhatsApp and SMS channels.  | **String**: User's entire response. |
+| Organization Phone Number | msdyn_OrganizationPhoneNumber  | The phone number receiving messages from the customer (your organization’s number). Note this is not passed on WhatsApp via Azure Communication Services   | **String**: User's entire response. |
+| WhatsApp Universal link message | msdyn_WhatsAppCustomerFirstMessage  | If you are using a pre-filled message in your WhatsApp universal link, that information will be passed in this variable.  | **String**: User's entire response. |
 > [!NOTE]
 > Use the context variable names as defined and don't change them when you author flows in Azure or Copilot Studio agents. Also, be sure to use exact match to pass the value to the context variable because it is case-sensitive. If there's a mismatch, the record won't get automatically identified. More information: [Identify records automatically](record-identification-rule.md)
 
@@ -55,10 +75,10 @@ The following table contains the list of context variables available in Omnichan
 |  | msdyn_CustomerId   | Use this context variable that contains the customer ID for the *account* or *contact* record linked to the conversation.   | Select the Omnichannel for Customer Service extension solution variable. |
 |  | msdyn_CaseId | Use this context variable that contains the ID of the case record linked to the conversation.  | Select the Omnichannel for Customer Service extension solution variable.|
 |  | msdyn_CaseTitle | Use this context variable that contains the title of the case record linked to the conversation.  | Select the Omnichannel for Customer Service extension solution variable. |
-|  | msdyn_ChannelInstanceId | The Dataverse unique identifier of the Channel Instance record – for example, the unique identifier of the configured chat widget or Facebook page | **String**: User's entire response. |
+|  | msdyn_ChannelInstanceId | The Dataverse unique identifier of the Channel Instance record – for example, the unique identifier of the configured [chat widget](../administer/add-chat-widget.md) or [Facebook page](../administer/configure-facebook-channel.md) | **String**: User's entire response. |
 |  | msdyn_WorkstreamId | The Dataverse unique identifier of the Workstream associated with the channel instance. | **String**: User's entire response. |
-|  | msdyn_Locale | The configured locale code on your channel instance – e.g. your chat widget or Facebook page. This can be used for scenarios like multi-lingual Copilot Studio agents. | **String**: User's entire response. |
-|  | msdyn_SocialProfileId | The Dataverse record unique identifier for the social profile associated with the conversation. | **String**: User's entire response. |
+|  | msdyn_Locale | The configured locale code on your channel instance – e.g. your [chat widget](../administer/add-chat-widget.md) or [Facebook page](../administer/configure-facebook-channel.md). This can be used for scenarios like multi-lingual Copilot Studio agents. | **String**: User's entire response. |
+|  | msdyn_SocialProfileId | The Dataverse record unique identifier for the [social profile](../use/supported-channels-social-profiles.md) associated with the conversation. | **String**: User's entire response. |
 |  | msdyn_LineCustomerName | The customer name from the LINE API.  | **String**: User's entire response. |
 |  | msdyn_TeamsCustomerName  | The customer name from Microsoft Teams.   | **String**: User's entire response. |
 |  | msdyn_TeamsCustomerEmail  | The email address (UPN) from Microsoft Teams.   | **String**: User's entire response. |
