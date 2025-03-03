@@ -55,13 +55,15 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 ## Server setup prerequisites 
 
-1. Download NuGet for assembly "Microsoft.Identity.Client" version 4.11.0 package from https://www.nuget.org/packages/Microsoft.Identity.Client/4.11.0#readme-body-tab
+1. Download NuGet package for assembly "Microsoft.Identity.Client" version 4.11.0
+   1. Open https://www.nuget.org/packages/Microsoft.Identity.Client/4.11.0#readme-body-tab
+   1. Under **About** on far size, select **Download package**
 
 1. Rename the downloaded package from "microsoft.identity.client.4.11.0.nupkg" to "microsoft.identity.client.4.11.0.zip"
 
 1. Run extract on "microsoft.identity.client.4.11.0.zip".
 
-1. Go to the net45 folder and the assembly with the mapping xml will be present: 
+1. Within extracted directory, open the **lib/net45** folder and the files "Microsoft.Identify.Client.dll" and "Microsoft.Identify.Client.xml" will be used in a later step
 
 1. On the web server open Internet Information Services Manager (run command for windows and type inetmgr + enter)
 
@@ -71,12 +73,55 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 1. Open **bin** folder
 
-1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from step c and paste into the bin folder
+1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from the extracted NuGet package directory then paste the **bin** folder
 
 ## Create Azure application record in PartnerApplicationBase table in CRM database 
 
-1. Open **SQL Server Management Studio** then open the SQL script "PartnerAppBaseUpdate.sql"  
+1. Open **SQL Server Management Studio** and copy in this SQL script
 
+```SQL
+IF (SELECT COUNT(*)
+FROM OrganizationBase WITH (NOLOCK)) <> 1
+	THROW 51000, 'Organization records does not equal 1', 1
+ 
+DECLARE @organizationId UNIQUEIDENTIFIER  = (SELECT OrganizationId
+FROM OrganizationBase WITH (NOLOCK));
+DECLARE @utcNow DATETIME = GetUtcDate();
+DECLARE @principalId UNIQUEIDENTIFIER = '00000003-0000-0ff1-ce00-000000000000';
+DECLARE @applicationName NVARCHAR(100) = 'Microsoft SharePoint Online';
+DECLARE @byoaAppId UNIQUEIDENTIFIER = '<appId>';
+--Customer need to provide the app id.
+DECLARE @tenantId UNIQUEIDENTIFIER = '<tenantId';
+ 
+BEGIN TRANSACTION InsertRows
+ 
+INSERT INTO [dbo].[PartnerApplicationBase]
+	([PrincipalId]
+	,[StateCode]
+	,[Name]
+	,[UseAuthorizationServer]
+	,[PartnerApplicationId]
+	,[StatusCode]
+	,[ApplicationRole]
+	,[OrganizationId]
+	,[CreatedOn]
+	,[ModifiedOn]
+	,[TenantId])
+VALUES
+	(@principalId
+	, 0
+	, @applicationName
+	, 1
+	, @byoaAppId
+	, 1
+	, 1
+	, @organizationId
+	, @utcNow
+	, @utcNow
+	, @tenantId)
+ 
+COMMIT TRANSACTION InsertRows
+```
 1. Update the **@byoaAppId** and **@tenantId** variables for Application ID and Tenant ID from Microsoft Azure portal at the end of the first section of this page.
 
 1. Verify the database and then execute the script 
@@ -131,7 +176,11 @@ finally {
 ## Upload existing certificate to Azure application certificates 
 
 1. Open browser and go Azure portal for the Azure Active Directory app that was created in Step 1: 
+
 1. Expand Manage and click on Certificates & Secrets:
+
 1. Go to certificates section:
+
 1. Click on upload certificate and select the cert that got created as part of step o and give a suitable description and click on add:
+
 1. Post successful addition it's shown as below: 
