@@ -1261,8 +1261,6 @@ items:
           href: developer/product-catalog-entities.md
         - name: Manage products, families, bundles, and properties
           href: developer/create-manage-product-families-products-bundles-product-properties.md
-        - name: View product hierarchy
-          href: view-product-hierarchy.md
         - name: Publish, revise, revert, retire, and activate products
           href: developer/publish-revise-revert-retire-activate-products.md
         - name: Product pricing methods
