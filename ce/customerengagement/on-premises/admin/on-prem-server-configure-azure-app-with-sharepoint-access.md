@@ -14,9 +14,13 @@ author: Mattp123
 
 # Configure Azure app for SharePoint access
 
+Using the SharePoint Documents table in a Dynamics 365 environment outside of the documents grid in a model driven app requires an Azure application to grant access. Examples of this access include use within Power Automate or with Dataverse API calls. The setup uses the Power Platform Managed Identities with Azure to grant access.
+
+Starting in March 2025, the current access is removed to enhance system protection. To ensure continued access, follow these steps to create an Azure application with the necessary SharePoint permissions, set up managed identities in Dataverse, and configure federated credentials.
+
 ## Create an Azure application with SharePoint permissions 
 
-Create an App registration with API permission to SharePoint. Learn more about registering an app and SharePoint access in Azure Quickstart Register App and SharePoint access via Azure AD App-Only. 
+Create an App registration with API permission to SharePoint. Learn more about registering an app and SharePoint access in [Azure Quickstart Register App](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app?tabs=certificate) and [SharePoint access via Azure AD App-Only](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread). 
 
 1. Open the Azure portal.
 
@@ -24,26 +28,26 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 1. Select **New registration**. 
 
-1. Enter a Name for the application. 
+1. Enter a **Name** for the application. 
 
-1. Under **Supported account types**, select **Accounts** in this organizational directory only. 
+1. Under **Supported account types**, select **Accounts in this organizational directory only**. 
 
    Note: Other types aren't supported at this time. 
 
-1. Select **Register** to create the App registration. 
+1. Select **Register** to create the **App registration**. 
 
-1. Note the Application (client) ID and Directory (tenant) ID: 
-   1. Under **Essentials**, copy the **Application (client) ID** and **Directory (tenant) ID** values for use in the next section. 
+1. Note the **Application (client) ID** and **Directory (tenant) ID**: 
    1. In the navigation list, select **Overview**. 
+   1. Under **Essentials**, copy the **Application (client) ID** and **Directory (tenant) ID** values for use in the next section. 
 
 1. In the navigation list, select **Manage** > **API permissions**. 
 
 1. Under **Configured permissions**, select **Add a permission** to open the **Request API permissions** panel. 
    1. Select **SharePoint**. 
    1. Under **What type of permissions does your application require?**, select **Application permissions**. 
-   1. Under Select permissions, select **Sites.FullControl.All**. 
+   1. Under **Select permissions**, select **Sites.FullControl.All**. 
    1. Select **Add permissions** to create the SharePoint permission. 
-   1. Select **Grant admin consent** for the tenant name. 
+   1. Select **Grant admin consent** for the `<tenant name>`. 
 
 1. Capture the following IDs, which to be used in later steps: 
    Application ID  
@@ -55,27 +59,29 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 1. Rename the downloaded package from "microsoft.identity.client.4.11.0.nupkg" to "microsoft.identity.client.4.11.0.zip"
 
-1. Run extract "microsoft.identity.client.4.11.0.zip".
+1. Run extract on "microsoft.identity.client.4.11.0.zip".
 
 1. Go to the net45 folder and the assembly with the mapping xml will be present: 
 
-1. Now on the web server open Internet Information Services Manager (run command for windows and type inetmgr + enter)
+1. On the web server open Internet Information Services Manager (run command for windows and type inetmgr + enter)
 
-1. Expand the sites section in Internet Information Services Manager
+1. Expand the **Sites** section in Internet Information Services Manager
 
-1. Right click on the **CRM site** and click on **Explore** 
+1. Right click on the **Microsoft Dynamics CRM** site and click on **Explore** to open the **CRMWeb** folder
 
-1. It takes to the **CRMWeb** folder:
+1. Open **bin** folder
 
-1. Open bin folder and copy the two files from step c and paste to the bin folder: 
+1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from step c and paste into the bin folder
 
 ## Create Azure application record in PartnerApplicationBase table in CRM database 
 
 1. Open **SQL Server Management Studio** then open the SQL script "PartnerAppBaseUpdate.sql"  
 
-1. Update the two variables for Application ID and Tenant ID from Step 1 section b) and execute (Ensure it points to the right database) : 
+1. Update the **@byoaAppId** and **@tenantId** variables for Application ID and Tenant ID from Microsoft Azure portal at the end of the first section of this page.
 
-1. Confirm by running the select query - "SELECT *  FROM [PartnerApplicationBase]": 
+1. Verify the database and then execute the script 
+
+1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]` look at **PartnerApplicationId** and **TenantId** fields.
 
 ## Upload certificate in Azure Active Directory app certificates 
 
@@ -124,8 +130,8 @@ finally {
 
 ## Upload existing certificate to Azure application certificates 
 
-1. Now open browser and go Azure portal for the AAD app that was created in Step 1: 
+1. Open browser and go Azure portal for the Azure Active Directory app that was created in Step 1: 
 1. Expand Manage and click on Certificates & Secrets:
 1. Go to certificates section:
 1. Click on upload certificate and select the cert that got created as part of step o and give a suitable description and click on add:
-1. Post successful addition it is shown as below: 
+1. Post successful addition it's shown as below: 
