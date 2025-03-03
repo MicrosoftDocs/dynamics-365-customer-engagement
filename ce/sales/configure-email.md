@@ -1,7 +1,7 @@
 ---
 title: "Set up email by integrating with Exchange | MicrosoftDocs"
 description: "Configure email by integrating with Exchange that enables users to store email and other messaging records in Dynamics 365 Sales."
-ms.date: 04/05/2023
+ms.date: 02/27/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -64,8 +64,7 @@ For more information about managing subscriptions, go to [Manage Microsoft Dynam
 
 3.  If you don’t have a Microsoft 365 subscription, you’ll be prompted to purchase one. Select the link to purchase a Microsoft 365 subscription.
 
-    > [!div class="mx-imgBorder"]
-    > ![Link to sign up for Microsoft Exchange.](media/get-microsoft-exchange.png "Link to sign up for Microsoft Exchange")
+    :::image type="content" source="media/get-microsoft-exchange.png" alt-text="Screenshot of the link to sign up for Microsoft Exchange.":::
 
 4.  After you purchase a subscription, go to **Set up email**. This time, Exchange is automatically detected and configured in the background.
 
@@ -90,8 +89,7 @@ For more information about managing subscriptions, go to [Manage Microsoft Dynam
 
 6. The mailboxes will be in the **Not Run** state initially. Select **Approve and Test mailboxes** to test the mailboxes and approve them.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Button to approve and test mailboxes.](media/test-approve-mailbox.png "Button to approve and test mailboxes")
+    :::image type="content" source="media/test-approve-mailbox.png" alt-text="Screenshot of the button to approve and test mailboxes.":::
 
     > [!Note]
     > If an error occurs in a mailbox, an alert is sent to the user of the mailbox. You can also see the alert when you open the mailbox record. The **Test Run Status** column is set to **Failure** for the mailbox. Select **Approve and test mailboxes** to test and approve the mailboxes.
