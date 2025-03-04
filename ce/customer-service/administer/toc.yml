@@ -86,6 +86,20 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
+      - name: Conversation diagnostics
+        items:
+        - name: Configure conversation diagnostics (preview)
+          href: configure-conversation-diagnostics.md
+        - name: Understand conversation diagnostics (preview)
+          href: conversation-diagnostics-subscenarios.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
+      - name: FAQ about unified routing
+        href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
@@ -652,11 +666,11 @@
         href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
-    - name: Bots
+    - name: Agents
       items:
-      - name: Overview of bots
+      - name: Overview of agents
         href: overview-bots.md
-      - name: Best practices for configuring AI agents
+      - name: Best practices for configuring agents
         href: configure-bot-best-practices.md
       - name: Manage your agents
         href: manage-your-bots.md
@@ -664,7 +678,7 @@
         href: configure-bot-virtual-agent.md
       - name: Transfer conversations from customer service representatives to agents
         href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
-      - name: Configure Azure AI agents
+      - name: Configure Azure agents
         items:
         - name: Agent sessions and licensing
           href: bot-session-licensing.md
