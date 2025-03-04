@@ -648,6 +648,8 @@ items:
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
+    - name: FAQ about the Scheduling Operations Agent (preview)
+      href: faqs-soa.md
 
 - name: More resources
   items:
