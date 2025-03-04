@@ -47,11 +47,7 @@ Create an App registration with API permission to SharePoint. Learn more about r
    1. Under **What type of permissions does your application require?**, select **Application permissions**. 
    1. Under **Select permissions**, select **Sites.FullControl.All**. 
    1. Select **Add permissions** to create the SharePoint permission. 
-   1. Select **Grant admin consent** for the `<tenant name>`. 
-
-1. Capture the following IDs, which to be used in later steps: 
-   Application ID  
-   Tenant ID 
+   1. Select **Grant admin consent** for the `<tenant name>`.
 
 ## Server setup prerequisites 
 
