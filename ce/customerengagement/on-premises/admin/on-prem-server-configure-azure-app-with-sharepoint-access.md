@@ -1,44 +1,44 @@
 ---
-title: "Create an Azure application for Dynamics 365 Customer Engagement with SharePoint permissions (on-premises)"
+title: "Create an Azure application for Dynamics 365 Customer Engagement (on-premises) with SharePoint permissions"
 description: "Follow these steps to create an Azure application to enable integration between Dynamics 365 Customer Engagement (on-premises) and SharePoint Online."
-ms:assetid: 
-ms.reviewer: ""
+ms.reviewer: "matp"
 ms.suite: ""
 ms.tgt_pltfrm: ""
 ms.topic: "article"
 applies_to: 
   - "Dynamics 365 (on-premises)"
-ms.author: matp
-author: Mattp123
+ms.author: aorth
+author: adrianorth
 ---
 
 # Configure Azure app for SharePoint access
 
-Using the SharePoint Documents table in a Dynamics 365 environment outside of the documents grid in a model driven app requires an Azure application to grant access. Examples of this access include use within Power Automate or with Dataverse API calls. The setup uses the Power Platform Managed Identities with Azure to grant access.
+Using the **SharePoint Documents** entity in a Dynamics 365 organization outside of the documents grid in a Dynamics 365 Customer Engagement (on-premises) app requires an Azure application to grant access. An example of this access includes use within Dynamics 365 Customer Engagement API calls. The setup uses the Power Platform Managed Identities with Azure to grant access.
 
-Starting in March 2025, the current access is removed to enhance system protection. To ensure continued access, follow these steps to create an Azure application with the necessary SharePoint permissions, set up managed identities in Dataverse, and configure federated credentials.
+Starting in March 2025, the current access is removed to enhance system protection. To ensure continued access, follow these steps to create an Azure application with the necessary SharePoint permissions, set up managed identities in your Dynamics 365 Customer Engagement (on-premises) organization, and configure federated credentials.
 
 ## Create an Azure application with SharePoint permissions 
 
-Create an App registration with API permission to SharePoint. Learn more about registering an app and SharePoint access in [Azure Quickstart Register App](https://learn.microsoft.com/entra/identity-platform/quickstart-register-app?tabs=certificate) and [SharePoint access via Azure AD App-Only](https://learn.microsoft.com/en-us/sharepoint/dev/solution-guidance/security-apponly-azuread). 
+Create an app registration with API permission to SharePoint. Learn more about registering an app and SharePoint access in [Azure Quickstart Register App](/entra/identity-platform/quickstart-register-app?tabs=certificate) and [SharePoint access via Azure AD App-Only](/sharepoint/dev/solution-guidance/security-apponly-azuread). 
 
-1. Open the Azure portal.
+1. Open the [Azure portal](https://azure.microsoft.com).
 
-1. Under **Azure services**, select **App registrations**. 
+1. Under **Azure services**, select **App registrations**.
 
 1. Select **New registration**. 
 
-1. Enter a **Name** for the application. 
+1. Enter a **Name** for the application.
 
-1. Under **Supported account types**, select **Accounts in this organizational directory only**. 
+1. Under **Supported account types**, select **Accounts in this organizational directory only**.
 
-   Note: Other types aren't supported at this time. 
+   > [!NOTE]
+   > Other account types aren't currently supported.
 
 1. Select **Register** to create the **App registration**. 
 
 1. Note the **Application (client) ID** and **Directory (tenant) ID**. 
    1. In the navigation list, select **Overview**. 
-   1. Under **Essentials**, copy the **Application (client) ID** and **Directory (tenant) ID** values for use in the next section. 
+   1. Under **Essentials**, copy the **Application (client) ID** and **Directory (tenant) ID** values for use in the next section.
 
 1. In the navigation list, select **Manage** > **API permissions**. 
 
@@ -51,31 +51,31 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 ## Server setup prerequisites 
 
-1. Download NuGet package for assembly "Microsoft.Identity.Client" version 4.11.0
+1. Download the NuGet package for assembly "Microsoft.Identity.Client" version 4.11.0.
    1. Open https://www.nuget.org/packages/Microsoft.Identity.Client/4.11.0#readme-body-tab
-   1. Under **About** on far side, select **Download package**
+   1. Under **About**, select **Download package**
 
-1. Rename the downloaded package from "microsoft.identity.client.4.11.0.nupkg" to "microsoft.identity.client.4.11.0.zip"
+1. Rename the downloaded package from "microsoft.identity.client.4.11.0.nupkg" to **microsoft.identity.client.4.11.0.zip**.
 
-1. Run extract on "microsoft.identity.client.4.11.0.zip".
+1. Run extract on **microsoft.identity.client.4.11.0.zip**.
 
-1. Within extracted directory, open the **lib/net45** folder and find the files "Microsoft.Identify.Client.dll" and "Microsoft.Identify.Client.xml" to use in a later step
+1. Within the extracted directory, open the **lib/net45** folder and find the files "Microsoft.Identify.Client.dll" and "Microsoft.Identify.Client.xml" to use in a later step.
 
-1. On the web server, open **Internet Information Services Manager**
-   1. Open **Run** prompt from start menu
-   1. Type "inetmgr" and press enter)
+1. On the Windows Server where the Dynamics 365 Customer Engagement (on-premises) web application server role is running, open **Internet Information Services Manager**.
+   1. Open **Run** prompt from start menu.
+   1. Type *inetmgr*, and then press Enter.
 
-1. Expand the **Sites** section in the **Connections** pane
+1. Expand the **Sites** section in the **Connections** pane.
 
-1. Right click on the **Microsoft Dynamics CRM** site and click on **Explore** to open the **CRMWeb** folder
+1. Right-click the **Microsoft Dynamics CRM** site, select **Explore**, and then open the **CRMWeb** folder.
 
-1. Open the **bin** folder
+1. Open the **bin** folder.
 
-1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from the extracted NuGet package directory then paste the **bin** folder
+1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from the extracted NuGet package directory then paste both into the **bin** folder.
 
-## Create Azure application record in PartnerApplicationBase table in CRM database 
+## Create Azure application record in PartnerApplicationBase table in Dynamics 365 Customer Engagement organization database
 
-1. Open **SQL Server Management Studio** and copy in this SQL script
+1. Open **SQL Server Management Studio** and copy in this SQL script.
 
 ```SQL
 IF (SELECT COUNT(*)
@@ -121,15 +121,15 @@ VALUES
 COMMIT TRANSACTION InsertRows
 ```
 
-1. Update the **@byoaAppId** and **@tenantId** variables for Application ID and Tenant ID from Microsoft Azure portal at the end of the first section of this page.
+1. In the script, update the **@byoaAppId** and **@tenantId** variables with the **Application ID** and **Tenant ID** values you copied earlier from the Microsoft Azure portal in the [Create an Azure application with SharePoint permissions](#create-an-azure-application-with-sharepoint-permissions) section of this article.
 
-1. Verify the database and then execute the script 
+1. Verify the database and then execute the script.
 
-1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and looking at **PartnerApplicationId** and **TenantId** fields.
+1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
 
-## Upload certificate in Azure Active Directory app certificates 
+## Upload certificate in Azure Active Directory app certificates
 
-Fetch existing CRM certificate using this script.
+Fetch the existing Dynamics 365 Customer Engagement (on-premises) certificate using this script.
 
 ```PowerShell
 cd $PSScriptRoot 
@@ -172,18 +172,18 @@ finally {
 } 
 ```
 
-## Upload existing certificate to Azure application certificates 
+## Upload the existing certificate to Azure application certificates 
 
-1. Open browser and go Azure portal for the Azure Active Directory app that was created in the first section. 
+1. Open a web browser and go to the Azure portal for the Azure Active Directory app that was created in the first section.
 
-1. Expand **Manage** and select **Certificates & Secrets**.
+1. Expand **Manage**, and then select **Certificates & Secrets**.
 
 1. Upload the created certificate file.
 
-   1. Under the **Certificates** section, click on **Upload certificate**.
+   1. Under the **Certificates** section, select **Upload certificate**.
 
-   1. Use **Upload a certificate** to select the certificate file that got created from the PowerShell script.
+   1. Use **Upload a certificate** to select the certificate file that was created from the PowerShell script.
 
-   1. Add the **Description** and select **Add**.
+   1. Add the **Description**, and then select **Add**.
 
-1. Newly created certificate will be shown in the **Certificates** list.
+The newly created certificate is shown in the **Certificates** list.

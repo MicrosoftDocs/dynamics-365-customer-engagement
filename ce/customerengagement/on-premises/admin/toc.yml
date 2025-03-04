@@ -266,6 +266,8 @@
           href: on-prem-server-based-sharepoint-on-prem.md
         - name: Switching from the list component
           href: switching-list-component-changing-deployment.md
+      - name: Configure Azure app for SharePoint access
+        href: on-prem-server-configure-azure-app-with-sharepoint-access.md
       - name: Troubleshoot SharePoint integration
         href: troubleshoot-set-up-sharepoint-online.md
     - name: Connect to Microsoft Social Engagement
