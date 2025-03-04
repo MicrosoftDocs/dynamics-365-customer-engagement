@@ -5,7 +5,7 @@ author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 12/20/2024 
+ms.date: 02/20/2025 
 ms.custom: bap-template 
 ---
 
@@ -16,7 +16,8 @@ ms.custom: bap-template
 Case handling time is the total time customer service representatives (service representatives or representatives) actively work on a case. It includes activities such as communicating  with customers, troubleshooting, researching, collaborating, or updating case details, like adding notes.
 
 > [!NOTE]
-> Case handling time and case resolution time are different. For example, a representative works actively on a case for 5 hours. The case is resolved 5 days after it was created. Here, the case handling time is 5 hours, and the case resolution time is 5 days.
+> - Case handling time is supported in both custom and out-of-the-box single session apps, and out-of-the-box multisession apps only, such as Customer Service workspace.
+> - Case handling time and case resolution time are different. For example, a representative works actively on a case for 5 hours. The case is resolved 5 days after it was created. Here, the case handling time is 5 hours, and the case resolution time is 5 days.
 
 ## Enable case handling time widget
 

@@ -1,7 +1,7 @@
 ---
 title: Configure custom presence
 description: Learn to configure custom presence in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,20 +13,20 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The presence status indicates an agent's availability to take up work items. A presence status consists of two elements:
+The presence status indicates a customer service representative's (service representative or representative) availability to take up work items. A presence status consists of two elements:
 
-- **Base status**: The base presence status that indicates an agent's status. The work distribution system distributes work items to agents according to the base statuses that you select as allowed presences at the time of creating a workstream. The base statuses are as follows:
+- **Base status**: The base presence status that indicates a service representative's status. The work distribution system distributes work items to representatives according to the base statuses that you select as allowed presences at the time of creating a workstream. The base statuses are as follows:
   - Available
   - Busy
   - Busy-DND
   - Away
   - Offline
 
-  You can select base statuses only in **Allowed Presences** when you are [creating a workstream](create-workstreams.md).
+  You can select base statuses only in **Allowed Presences** when you're [creating a workstream](create-workstreams.md).
 
-- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to agents.
+- **Presence text**: The text that is associated with a specific base status. This is the text that is visible to representatives.
 
-You must specify a [default presence](users-user-profiles.md#manage-users-using-the-classic-experience) to agents that will be set when they sign in for work. If no default presence is defined, the application will set "Available" as the default.
+You must specify a [default presence](users-user-profiles.md#manage-users-using-the-classic-experience) to representatives that is set when they sign in for work. If no default presence is defined, the application sets "Available" as the default.
 
 ## Out-of-the-box presence statuses
 
@@ -39,7 +39,7 @@ Omnichannel for Customer Service provides the following presence statuses out of
 - Inactive
 - Offline
 
-The inactive presence is not available for manual selection by the agents; if the missed notifications feature is enabled, the agent status will be changed to inactive when agents do not respond to the incoming conversation request notification.
+The inactive presence isn't available for manual selection by the representatives. If the missed notifications feature is enabled, the representatives' status is changed to inactive when they don't respond to the incoming conversation request notification.
 
 > [!div class=mx-imgBorder]
 > ![Presence view.](../media/oc-presence-view.png)
@@ -49,7 +49,7 @@ The inactive presence is not available for manual selection by the agents; if th
 
 ## Create custom presence status
 
-In addition to the out-of-box presence statuses, admins can configure custom presence statuses for agents that must be mapped to a base presence. For example, if the agents on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application will treat it as offline while the visual effect would be available.
+In addition to the out-of-box presence statuses, admins can configure custom presence statuses for representatives that must be mapped to a base presence. For example, if the representatives on your team want to attend a training, you can create a custom **Away – In Training** presence status. When you map a custom presence to a base presence, make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as offline while the visual effect would be available.
 
 1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
    
