@@ -112,7 +112,7 @@ You can also enable your customer service representatives to receive customer ca
 
 ## Assign phone numbers to customer service representatives
 
-You can also assign personal phone numbers to customer service representatives, so they're able to make and/or receive calls exclusively on that number. More information: [Assign personal phone numbers to customer service representatives](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-customer service representatives)
+You can also assign personal phone numbers to customer service representatives, so they're able to make and/or receive calls exclusively on that number. Learn more in [Assign personal phone numbers to customer service representatives](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
 
 ## Edit phone numbers
 

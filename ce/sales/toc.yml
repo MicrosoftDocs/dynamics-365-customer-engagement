@@ -357,7 +357,7 @@ items:
           href: set-up-product-catalog-walkthrough.md
         - name: Configure product catalog settings
           href: configure-product-catalog-settings.md
-        - name: Set up products
+        - name: Manage products
           href: create-product-sales.md
         - name: Set up product families
           href: create-product-family.md
@@ -1261,8 +1261,6 @@ items:
           href: developer/product-catalog-entities.md
         - name: Manage products, families, bundles, and properties
           href: developer/create-manage-product-families-products-bundles-product-properties.md
-        - name: View product hierarchy
-          href: view-product-hierarchy.md
         - name: Publish, revise, revert, retire, and activate products
           href: developer/publish-revise-revert-retire-activate-products.md
         - name: Product pricing methods
