@@ -36,7 +36,7 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 1. Select **Register** to create the **App registration**. 
 
-1. Note the **Application (client) ID** and **Directory (tenant) ID**: 
+1. Note the **Application (client) ID** and **Directory (tenant) ID**. 
    1. In the navigation list, select **Overview**. 
    1. Under **Essentials**, copy the **Application (client) ID** and **Directory (tenant) ID** values for use in the next section. 
 
@@ -57,21 +57,23 @@ Create an App registration with API permission to SharePoint. Learn more about r
 
 1. Download NuGet package for assembly "Microsoft.Identity.Client" version 4.11.0
    1. Open https://www.nuget.org/packages/Microsoft.Identity.Client/4.11.0#readme-body-tab
-   1. Under **About** on far size, select **Download package**
+   1. Under **About** on far side, select **Download package**
 
 1. Rename the downloaded package from "microsoft.identity.client.4.11.0.nupkg" to "microsoft.identity.client.4.11.0.zip"
 
 1. Run extract on "microsoft.identity.client.4.11.0.zip".
 
-1. Within extracted directory, open the **lib/net45** folder and the files "Microsoft.Identify.Client.dll" and "Microsoft.Identify.Client.xml" will be used in a later step
+1. Within extracted directory, open the **lib/net45** folder and find the files "Microsoft.Identify.Client.dll" and "Microsoft.Identify.Client.xml" to use in a later step
 
-1. On the web server open Internet Information Services Manager (run command for windows and type inetmgr + enter)
+1. On the web server, open **Internet Information Services Manager**
+   1. Open **Run** prompt from start menu
+   1. Type "inetmgr" and press enter)
 
-1. Expand the **Sites** section in Internet Information Services Manager
+1. Expand the **Sites** section in the **Connections** pane
 
 1. Right click on the **Microsoft Dynamics CRM** site and click on **Explore** to open the **CRMWeb** folder
 
-1. Open **bin** folder
+1. Open the **bin** folder
 
 1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from the extracted NuGet package directory then paste the **bin** folder
 
@@ -122,11 +124,12 @@ VALUES
  
 COMMIT TRANSACTION InsertRows
 ```
+
 1. Update the **@byoaAppId** and **@tenantId** variables for Application ID and Tenant ID from Microsoft Azure portal at the end of the first section of this page.
 
 1. Verify the database and then execute the script 
 
-1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]` look at **PartnerApplicationId** and **TenantId** fields.
+1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and looking at **PartnerApplicationId** and **TenantId** fields.
 
 ## Upload certificate in Azure Active Directory app certificates 
 
@@ -175,12 +178,16 @@ finally {
 
 ## Upload existing certificate to Azure application certificates 
 
-1. Open browser and go Azure portal for the Azure Active Directory app that was created in Step 1: 
+1. Open browser and go Azure portal for the Azure Active Directory app that was created in the first section. 
 
-1. Expand Manage and click on Certificates & Secrets:
+1. Expand **Manage** and select **Certificates & Secrets**.
 
-1. Go to certificates section:
+1. Upload the created certificate file.
 
-1. Click on upload certificate and select the cert that got created as part of step o and give a suitable description and click on add:
+   1. Under the **Certificates** section, click on **Upload certificate**.
 
-1. Post successful addition it's shown as below: 
+   1. Use **Upload a certificate** to select the certificate file that got created from the PowerShell script.
+
+   1. Add the **Description** and select **Add**.
+
+1. Newly created certificate will be shown in the **Certificates** list.
