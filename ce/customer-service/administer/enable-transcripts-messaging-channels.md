@@ -1,7 +1,7 @@
 ---
 title: Enable transcript for messaging channels
 description: Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service.
-ms.date: 02/21/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim

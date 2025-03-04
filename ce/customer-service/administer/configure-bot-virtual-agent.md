@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot Studio agent
 description: Use this article to get instructions on how to integrate a Copilot Studio agent in your contact center.
-ms.date: 12/16/2024
+ms.date: 03/03/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
