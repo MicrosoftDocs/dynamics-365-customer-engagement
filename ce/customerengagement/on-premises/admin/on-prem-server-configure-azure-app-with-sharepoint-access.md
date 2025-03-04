@@ -15,7 +15,8 @@ author: adrianorth
 
 Using the **SharePoint Documents** entity in a Dynamics 365 organization outside of the documents grid in a Dynamics 365 Customer Engagement (on-premises) app requires an Azure application to grant access. An example of this access includes use within Dynamics 365 Customer Engagement API calls. The setup uses the Power Platform Managed Identities with Azure to grant access.
 
-Starting in March 2025, the current access is removed to enhance system protection. To ensure continued access, follow these steps to create an Azure application with the necessary SharePoint permissions, set up managed identities in your Dynamics 365 Customer Engagement (on-premises) organization, and configure federated credentials.
+> [!IMPORTANT]
+> Starting in March 2025, the current access is removed to enhance system protection. To ensure continued access, follow these steps to create an Azure application with the necessary SharePoint permissions, set up managed identities in your Dynamics 365 Customer Engagement (on-premises) organization, and configure federated credentials.
 
 ## Create an Azure application with SharePoint permissions 
 
