@@ -444,6 +444,8 @@
         href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure multilingual IVR bots
         href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure fallback actions for the IVR agent
+        href: /dynamics365/contact-center/administer/bot-connectivity-issues?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Block spam numbers
