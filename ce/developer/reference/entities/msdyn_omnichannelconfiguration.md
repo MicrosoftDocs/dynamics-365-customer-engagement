@@ -170,7 +170,7 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |1051|**Slovak - Slovakia**|
 |1053|**Swedish - Sweden**|
 |1054|**Thai - Thailand**|
-|1055|**Turkish - Turkey**|
+|1055|**Turkish - Türkiye**|
 |1057|**Indonesian - Indonesia**|
 |1058|**Ukrainian - Ukraine**|
 |1060|**Slovenian - Slovenia**|
