@@ -62,7 +62,7 @@ Create an app registration with API permission to SharePoint. Learn more about r
 1. Within the extracted directory, open the **lib/net45** folder and find the files "Microsoft.Identify.Client.dll" and "Microsoft.Identify.Client.xml" to use in a later step.
 
 1. On the Windows Server where the Dynamics 365 Customer Engagement (on-premises) web application server role is running, open **Internet Information Services Manager**.
-   1. Open **Run** prompt from start menu.
+   1. Open the **Run** prompt from the Windows task bar **Start** menu.
    1. Type *inetmgr*, and then press Enter.
 
 1. Expand the **Sites** section in the **Connections** pane.
@@ -71,7 +71,7 @@ Create an app registration with API permission to SharePoint. Learn more about r
 
 1. Open the **bin** folder.
 
-1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from the extracted NuGet package directory then paste both into the **bin** folder.
+1. Copy the two files "Microsoft.Identity.Client.dll" and "Microsoft.Identity.Client.xml" from the extracted NuGet package directory, and then paste both into the **bin** folder.
 
 ## Create Azure application record in PartnerApplicationBase table in Dynamics 365 Customer Engagement organization database
 
@@ -127,7 +127,7 @@ COMMIT TRANSACTION InsertRows
 
 1. Confirm by running the select query `SELECT *  FROM [PartnerApplicationBase]`and verifying the **PartnerApplicationId** and **TenantId** fields.
 
-## Upload certificate in Azure Active Directory app certificates
+## Upload certificate in Azure app certificates
 
 Fetch the existing Dynamics 365 Customer Engagement (on-premises) certificate using this script.
 
@@ -174,7 +174,7 @@ finally {
 
 ## Upload the existing certificate to Azure application certificates 
 
-1. Open a web browser and go to the Azure portal for the Azure Active Directory app that was created in the first section.
+1. Open a web browser and go to the Azure portal for the Azure AD app that was created in the first section.
 
 1. Expand **Manage**, and then select **Certificates & Secrets**.
 
