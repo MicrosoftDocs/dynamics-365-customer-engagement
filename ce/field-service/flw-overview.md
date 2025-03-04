@@ -69,7 +69,7 @@ Microsoft 365 integrations for Field Service are available in environments that 
 | Catalan (Catalan)                      | ca-ES      |
 | Chinese (Simplified, PRC)              | zh-CN      |
 | Chinese (Taiwan)                       | zh-TW      |
-| Chinese (Hong Kong)                    | zh-HK      |
+| Chinese (Hong Kong SAR)                    | zh-HK      |
 | Croatian (Croatia)                     | hr-HR      |
 | Czech (Czech Republic)                 | cs-CZ      |
 | Danish (Denmark)                       | da-DK      |
@@ -104,7 +104,7 @@ Microsoft 365 integrations for Field Service are available in environments that 
 | Spanish (Spain)                        | es-ES      |
 | Swedish (Sweden)                       | sv-SE      |
 | Thai (Thailand)                        | th-TH      |
-| Turkish (Turkey)                       | tr-TR      |
+| Turkish (Türkiye)                      | tr-TR      |
 | Ukrainian (Ukraine)                    | uk-UA      |
 | Vietnamese (Vietnam)                   | vi-VN      |
 

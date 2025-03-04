@@ -190,12 +190,12 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |2052|**Chinese (PRC)**|
 |2057|**English (United Kingdom)**|
 |2070|**Portuguese (Portugal)**|
-|2074|**Serbian (Latin, Serbia and Montenegro)**|
+|2074|**Serbian (Latin, Serbia, and Montenegro)**|
 |3076|**Chinese (Hong Kong S.A.R.)**|
 |3081|**English (Australia)**|
 |3082|**Spanish**|
 |3084|**French (Canada)**|
-|3098|**Serbian (Cyrillic, Serbia and Montenegro)**|
+|3098|**Serbian (Cyrillic, Serbia, and Montenegro)**|
 |4105|**English (Canada)**|
 
 ### <a name="BKMK_msdynmkt_namespace"></a> msdynmkt_namespace

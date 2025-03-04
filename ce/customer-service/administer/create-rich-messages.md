@@ -261,7 +261,7 @@ Type: ```string``` - Required: Yes - Allowed values: - "final" - "pending"
 
 |Description | Limitation |
 |------------|--------------|
-| Merchant country | Payment processing for merchants in China and Saudi Arabia, country codes CN and SA, respectively, is not supported in Omnichannel.|
+| Merchant country | Payment processing for merchants in China and Saudi Arabia, country/region codes CN and SA, respectively, is not supported in Omnichannel.|
 | Merchant capabilities | EMV – Omnichannel does not currently support China Union Pay transactions. |
 | Supported networks | The list of supported networks is limited to:<br><br> - American Express <br> - Discover <br> - Mastercard <br> - Visa |
 
@@ -438,7 +438,7 @@ Multi-select questions can be used to quickly select one or more options from a 
 
 ### Dropdown picker question
 
-Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction that only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country, colors, brands, or categories. For single-select questions that support images but fewer choices, see the single-select question type. 
+Dropdown picker questions are used to quickly select a single option from a list of choices. These questions use a wheel-like scrolling interaction that only shows a small set of the options at a time. This question type is good for alphabetically sorted single-select questions like country/region, colors, brands, or categories. For single-select questions that support images but fewer choices, see the single-select question type. 
 
 1. Provide a **Question title**. You can also include an optional **Header** text.
 

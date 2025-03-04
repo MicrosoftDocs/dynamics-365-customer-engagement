@@ -201,7 +201,7 @@ The assignment rules are composed of the following items:
       |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
       |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars.|
   
-  - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
+  - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country/region is the same as that of the customer associated with the case.
   
      :::image type="content" source="../media/dynamic-value-match.png" alt-text="Screenshot of a sample dynamic match.":::
 

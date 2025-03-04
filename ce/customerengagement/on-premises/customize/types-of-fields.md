@@ -61,7 +61,7 @@ The following table contains information about the field types available.
 ### MultiSelect Option Set
 You can customize forms (main, quick create, and quick view) and email templates by adding multi-select fields. When you add a Multi-Select Option Set field, you can specify multiple values that will be available for users to select. When users fill out the form they can select one, multiple, or all the values displayed in a drop-down list.
 
-For example, if an organization operates in multiple areas or countries, you can include multiple locations or countries in an ‘Area of operation’ field. A user can then select one or more locations from the list of available values.
+For example, if an organization operates in multiple areas or countries/regions, you can include multiple locations or countries/regions in an ‘Area of operation’ field. A user can then select one or more locations from the list of available values.
 
 Multi-select option sets can be used with read-only grids, editable grids, and most forms. Multi-select option sets can't be used with:
 - Workflows, business process flows, actions, dialogs, business rules, charts, rollup fields, or calculated fields.
