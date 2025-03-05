@@ -200,7 +200,7 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - **Failure**: {Subscenario} for Conversation: {Conversation ID} failed with exception: {scenarioException.Message}
       **Example**: AgentCloseSession for Conversation: XXXX failed with exception: Too many requests.
 - **Omnichannel.initiator_agent.id**:	Captures the ID of the representative initiating the action (As applicable)
-- **Omnichannel.target_agent.i**d:	Captures the ID of the representative receiving the action (As applicable)
+- **Omnichannel.target_agent.i**d: Captures the ID of the representative receiving the action (As applicable)
 - **Channel type**:	Channel from which work item originated
 
 ### Related information
