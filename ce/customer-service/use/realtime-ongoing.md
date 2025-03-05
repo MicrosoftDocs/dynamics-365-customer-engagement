@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 12/06/2024
+ms.date: 03/05/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -42,8 +42,8 @@ Refer to the following table to see when assign and transfer are enabled, depend
 |Type  |Conversation state  |Assign |Transfer |
 |---------|---------|---------|---------|
 |Record     |     Open     | Assign to queue        |     Not enabled    |
-|Record   |      Open   | Assign to agent        |     Not enabled    |
-|Record     |     Active    |   Not enabled       |    Transfer to agent     |
+|Record   |      Open   | Assign to representative        |     Not enabled    |
+|Record     |     Active    |   Not enabled       |    Transfer to representative     |
 |Record     |   Wrap-up      |      Not enabled     |      Not enabled     |
 
 ### Assign conversations
@@ -64,20 +64,20 @@ Refer to the following table to see when assign and transfer are enabled, depend
 
 ### Transfer conversations
 
-Once a conversation is assigned to an agent, it's in the **Active** state. You can select the conversation and transfer it. 
+Once a conversation is assigned to a representative, it's in the **Active** state. You can select the conversation and transfer it. 
 
 1. Select a conversation in the **Active** state, and then select **Transfer**. 
 
-1. In the **Transfer conversation** dialog, select an agent from the list of service representatives that appears. 
+1. In the **Transfer conversation** dialog, select a representative from the list of service representatives that appears. 
     A list of service representatives belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
 
       :::image type="content" source="../media/realtime-agent-transfer.png" alt-text="Screenshot of agent transfer dialog.":::  
 
-1. Select **Transfer**. The system transfers the selected conversation to the agent.
+1. Select **Transfer**. The system transfers the selected conversation to the representative.
 
 ## Monitor conversations
 
-Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action is applicable to active conversations that the service representative accepted, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the agent app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
+Listen to an ongoing conversation. When you select **Monitor**, you receive a message that indicates that monitoring started. This action is applicable to active conversations that the service representative accepted, conversations that are in a wrap-up state, and conversations that are in a waiting state only. If you have the representative app open in multiple tabs or browsers, the monitored conversation opens in the one where you select **Monitor**. Other browsers remain as-is.
 
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report. The list of conversations that your service representatives are currently handling appears.
@@ -112,12 +112,12 @@ To be able to perform the actions on your customized reports, you must complete 
 In Customer Service workspace, go to **Customized reports** > **Ongoing conversations** report, and then select the conversation that needs to be updated.
  
   When the **Agent Name** doesn't exist, the following options are enabled.
-  - **Assign**: You can assign an agent by queue for the conversation.
+  - **Assign**: You can assign a representative by queue for the conversation.
   - **Force close**: You can force close the conversation if necessary.
   :::image type="content" source="../media/actions-no-agent-name.png" alt-text="Screenshot shows the actions enabled when no agent name is assigned":::
     
   When the **Agent Name** exists, the following options are enabled.
-  - **Transfer**: You can transfer the conversation from one agent to another in the same queue.
+  - **Transfer**: You can transfer the conversation from one representative to another in the same queue.
   - **Monitor**: You can open the conversation dialog to monitor the chat.
   - **Force close**: You can force close the conversation if necessary.
     :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
@@ -128,8 +128,8 @@ Refer to the following table to see the actions that are enabled, depending on t
 |Type |Conversation state  |Assign  |Transfer  |Monitor| Force close
 |---------|---------|---------|---------|-----|----|
 |Record    |    Open     | Assign to queue        |   Not enabled      | Not enabled| Enabled|
-|Record   |  Open       | Assign to agent        |   Transfer to agent      | Not enabled|Enabled|
-|Record   |   Active      |      Assign to agent   |    Transfer to agent     |Not enabled | Enabled|
+|Record   |  Open       | Assign to representative        |   Transfer to representative      | Not enabled|Enabled|
+|Record   |   Active      |      Assign to representative   |    Transfer to representative     |Not enabled | Enabled|
 |Record    | Wrap-up        | Not enabled        | Not enabled        |Enabled |Enabled |
 
   
