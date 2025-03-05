@@ -1,7 +1,7 @@
 ---
 title: Enable transcript for messaging channels
 description: Learn how to set up the transcript experience for messaging channels in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,7 +17,7 @@ search.audienceType:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-As an administrator, you can enable live transcription and recording of conversations, which allows agents and supervisors to view transcripts of customer conversations. The transcriptions include sentiment analysis data and can be searched through.
+As an administrator, you can enable live transcription and recording of conversations, which allows customer service representatives (service representatives or representatives) and supervisors to view transcripts of customer conversations. The transcriptions include sentiment analysis data and can be searched through.
 
 > [!IMPORTANT]
 > Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
@@ -57,7 +57,7 @@ To view transcripts in Customer Service workspace or Contact Center workspace ap
    1. Right-click the three dots to view the transcript.
 
 > [!NOTE]
-> As an administrator, only you have access to the conversations that are handled by other agents.
+> As an administrator, only you have access to the conversations that are handled by other representatives.
 
 ### Related information
 

@@ -1,7 +1,7 @@
 ---
 title: Product pricing methods (Dynamics 365 Sales)
 description: Use the ProductPriceLevel.PricingMethodCode column to determine product prices.
-ms.date: 03/01/2023
+ms.date: 01/30/2025
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
@@ -26,7 +26,7 @@ Dynamics 365 Sales uses the `ProductPriceLevel.PricingMethodCode` column to dete
   
 | Drop-down list value and equivalent pricing method value | Description and required columns |
 |----------------------------------------------------------|-------------------------------------|
-| **Currency Amount** <br />CurrencyAmount = 1 |  The price is specified for each unit of measure for each product. <br />price = amount<br /><br /> For each unit of measure for each product, use the `ProductPriceLevel.Amount` column. **Note:**  The `ProductPriceLevel.Amount` column isn’t platform required if you’re not using the pricing methods provided by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. However, if you use the `Currency Amount` pricing method to determine a price, this column is platform required and you must specify a value for this column. |
+| **Currency Amount** <br />CurrencyAmount = 1 |  The price is specified for each unit of measure for each product. <br />price = amount<br /><br /> For each unit of measure for each product, use the `ProductPriceLevel.Amount` column. **Note:**  The `ProductPriceLevel.Amount` column isn't platform required if you're not using the pricing methods provided by [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]. However, if you use the `Currency Amount` pricing method to determine a price, this column is platform required and you must specify a value for this column. |
 | **Percent of List** <br />PercentListPrice = 2 | The price is calculated based on the manufacturer's or distributor's list price. <br />calculated price = list price x percentage<br /><br /> For each unit of measure for each product, you must enter data for the following columns:<br /><br /> -   `Product.Price` column. This is the **List Price** in the **Product** form.<br />-   `ProductPriceLevel.Percentage` column. This is the desired percentage of the list price.<br />-   `ProductPriceLevel.RoundingPolicyCode` column. This is the policy for rounding the price list. |
 |  **Percent Markup - Current Cost** <br />MarkupCurrentCost = 3  | The price is calculated as a percentage of your current cost for the item. <br />calculated price = current cost x 100% + percentage<br /><br /> For each unit of measure for each product, you must enter data for the following columns:<br /><br /> -   `Product.CurrentCost` column. You must update this cost every time that you receive a shipment of the item.<br />-   `ProductPriceLevel.Percentage` column. This is the percent markup.<br />-   `ProductPriceLevel.RoundingPolicyCode` column. |
 |  **Percent Margin - Current Cost** <br />MarginCurrentCost =4 | The price is based on the profit percentage you want to achieve and your current cost for the item. <br />calculated price = current cost + [(current cost x percentage)/ (100% - percentage)]<br /><br /> For each unit of measure for each product, you must enter data for the following columns:<br /><br /> -   `Product.StandardCost` column. You must update this cost every time when you receive a shipment of the item.<br />-   `ProductPriceLevel.Percentage` column. This is the profit percentage you want to achieve.<br />-   `ProductPriceLevel.RoundingPolicyCode` column. |
@@ -35,9 +35,10 @@ Dynamics 365 Sales uses the `ProductPriceLevel.PricingMethodCode` column to dete
   
  To set the values for the `ProductPriceLevel.PricingMethodCode` column and the other product price level table columns, use the <xref:Microsoft.Xrm.Sdk.IOrganizationService>.<xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*> method, passing an instance of the `ProductPriceLevel` class. To set the values for the product columns, use the methods in the `Product` class.  
   
-## Related information  
- [ProductPriceLevel Table](entities/productpricelevel.md)   
- [Product Table](entities/product.md)   
+## Related information
+
+ [Price List Item (ProductPriceLevel) table](../../developer/reference/entities/productpricelevel.md)   
+ [Product table](../../developer/reference/entities/product.md)   
  [Product Catalog Tables](product-catalog-entities.md)
 
 

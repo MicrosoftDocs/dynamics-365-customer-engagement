@@ -19,7 +19,7 @@ search.audienceType:
 ---
 # Create a visualization (chart)
 
-To create a visualization programmatically, you must create a record for the [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md) or [UserQueryVisualization Entity](../entities/userqueryvisualization.md) entity to create an organization-owned or user-owned chart respectively. This topic shows how to create a chart visualization and a web resource visualization.  
+To create a visualization programmatically, you must create a record for the [SavedQueryVisualization](/power-apps/developer/data-platform/reference/entities/savedqueryvisualization) or [UserQueryVisualization](/power-apps/developer/data-platform/reference/entities/userqueryvisualization) tables to create an organization-owned or user-owned chart respectively. This topic shows how to create a chart visualization and a web resource visualization.  
   
 <a name="Before"></a>   
 
@@ -27,12 +27,12 @@ To create a visualization programmatically, you must create a record for the [Sa
 
  Before creating a visualization, make sure that you are aware of the following:  
   
-- **Type of visualization**: If you want your visualizations to be available across the organization and don’t want to manage the access levels at a more detailed level, you might want to create an organization-owned visualization. However, if you’re concerned about the access privileges and security of your visualization, consider creating a user-owned visualization where you have more control over who can access it.  
+- **Type of visualization**: If you want your visualizations to be available across the organization and don't want to manage the access levels at a more detailed level, you might want to create an organization-owned visualization. However, if you're concerned about the access privileges and security of your visualization, consider creating a user-owned visualization where you have more control over who can access it.  
   
     > [!NOTE]
     >  Organization-owned visualizations can only be created by those users who have the System Administrator or System Customizer role.  
   
-- **Associated Entity**: Visualizations are attached to entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entities Supported for Visualizations](view-data-with-visualizations-charts.md#SupportedVisualizationEntities). You can attach a chart to a supported entity by using the [SavedQueryVisualization.PrimaryEntityTypeCode](../entities/savedqueryvisualization.md#BKMK_PrimaryEntityTypeCode) or [UserQueryVisualization.PrimaryEntityTypeCode](../entities/userqueryvisualization.md#BKMK_PrimaryEntityTypeCode) attribute.  
+- **Associated Entity**: Visualizations are attached to entities. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Entities Supported for Visualizations](view-data-with-visualizations-charts.md#SupportedVisualizationEntities). You can attach a chart to a supported entity by using the [SavedQueryVisualization.PrimaryEntityTypeCode](/power-apps/developer/data-platform/reference/entities/savedqueryvisualization#BKMK_PrimaryEntityTypeCode) or [UserQueryVisualization.PrimaryEntityTypeCode](/power-apps/developer/data-platform/reference/entities/userqueryvisualization#BKMK_PrimaryEntityTypeCode) attribute.  
   
 <a name="CreateChart"></a>   
 
@@ -52,7 +52,7 @@ To create a visualization programmatically, you must create a record for the [Sa
 
 ## Create a web resource visualization  
 
- Visualizations containing web resources don’t require you to specify the data description and presentation description XML strings. The following sample demonstrates how to create an organization-owned visualization containing a web resource by using the SDK.  
+ Visualizations containing web resources don't require you to specify the data description and presentation description XML strings. The following sample demonstrates how to create an organization-owned visualization containing a web resource by using the SDK.  
   
 ```csharp  
 SavedQueryVisualization newWebResourceVisualization = new SavedQueryVisualization()  

@@ -1,7 +1,7 @@
 ---
 title: Quote, order, and invoice tables (Dynamics 365 Sales)
 description: Learn about quote, sales order (order), and invoice building.
-ms.date: 06/28/2024
+ms.date: 01/28/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -45,14 +45,14 @@ Dynamics 365 Sales supports robust *quote*, *sales order (order)*, and *invoice*
   
 ## Related information  
 
- [Quote Table](entities/quote.md)   
- [QuoteDetail Table](entities/quotedetail.md)   
- [QuoteClose Table](entities/quoteclose.md)   
- [SalesOrder Table](entities/salesorder.md)   
- [SalesOrderDetail Table](entities/salesorderdetail.md)   
- [OrderClose Table](entities/orderclose.md)   
- [Invoice Table](entities/invoice.md)   
- [InvoiceDetail Table](entities/invoicedetail.md)   
+ [Quote table](../../developer/reference/entities/quote.md)   
+ [Quote Product (QuoteDetail) table](../../developer/reference/entities/quotedetail.md)   
+ [Quote Close (QuoteClose) table](../../developer/reference/entities/quoteclose.md)   
+ [Order (SalesOrder) table](../../developer/reference/entities/salesorder.md)   
+ [Order Product (SalesOrderDetail) table](../../developer/reference/entities/salesorderdetail.md)   
+ [Order Close (OrderClose) table](../../developer/reference/entities/orderclose.md)   
+ [Invoice table](../../developer/reference/entities/invoice.md)   
+ [Invoice Product (InvoiceDetail) table](../../developer/reference/entities/invoicedetail.md)   
  [Sample: Set Negative Prices in Opportunities, Quotes, and Sales Orders](sample-set-negative-prices-opportunities-quotes-sales-orders.md)   
  [Sample: Process Quotes, Sales Orders and Invoices](sample-process-quotes-sales-orders-invoices.md)   
  [Sample: Fulfill a Sales Order](sample-fulfill-sales-order.md)   
