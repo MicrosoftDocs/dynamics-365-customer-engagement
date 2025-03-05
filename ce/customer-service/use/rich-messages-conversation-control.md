@@ -1,7 +1,7 @@
 ---
 title: "Rich messages in conversation control | MicrosoftDocs"
 description: "This article provides steps to help you use the rich messages in the conversation control of Omnichannel for Customer Service."
-ms.date: 11/08/2022
+ms.date: 03/05/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -39,10 +39,10 @@ When you find the rich message you want to send, you can select the rich message
 
 Within the preview tab, you’ll be able to see the contents of the rich message you’ve selected, along with a **Send Message** button. When you’re ready to send a rich message, use **Send Message**.
 
-If your administrator has enabled agent configuration, you can customize some types of rich messages before sending them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
+If your administrator has enabled customer service representative (service representative or representative) configuration, you can customize some types of rich messages before sending them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
   > [!Note] 
-  > As an agent, you must understand how customizable rich messages are constructed and how they appear on the customer’s device before editing them. 
+  > As a representative, you must understand how customizable rich messages are constructed and how they appear on the customer’s device before editing them. 
 
 ## Customizable rich messages
 
