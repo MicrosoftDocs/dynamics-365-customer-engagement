@@ -193,7 +193,8 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
     - BotAssignedToConversation
     - AgentTransfer
     - SupervisorTransferToAgent
-    - CloseConsult/LeavePublicAgentConsult
+    - CloseConsult
+    - LeavePublicAgentConsult
 - **Omnichannel.description**: Captures the information when the representative or supervisor takes an action on the conversation.
     - **Success**: {Subscenario} for Conversation: {Conversation ID} completed successfully.
       **Example**: AgentReject for Conversation: XXXX completed successfully.
