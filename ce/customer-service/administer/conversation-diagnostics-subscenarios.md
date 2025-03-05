@@ -181,20 +181,19 @@ The following metadata can be a part of the custom dimensions in the **Traces** 
 
 ### Subscenario: Other subscenarios for agents and supervisors
 
-**Subscenarios**:
-
-- AgentReject
-- AgentTimeout
-- AgentRejoined
-- AgentPickAssignment
-- BotEscalationToHuman
-- AgentEndConversation
-- AgentCloseSession
-- ConversationClose
-- BotAssignedToConversation
-- AgentTransfer
-- SupervisorTransferToAgent
-- CloseConsult/LeavePublicAgentConsult
+- **Subscenarios**:
+    - AgentReject
+    - AgentTimeout
+    - AgentRejoined
+    - AgentPickAssignment
+    - BotEscalationToHuman
+    - AgentEndConversation
+    - AgentCloseSession
+    - ConversationClose
+    - BotAssignedToConversation
+    - AgentTransfer
+    - SupervisorTransferToAgent
+    - CloseConsult/LeavePublicAgentConsult
 - **Omnichannel.description**: Captures the information when the representative or supervisor takes an action on the conversation.
     - **Success**: {Subscenario} for Conversation: {Conversation ID} completed successfully.
       **Example**: AgentReject for Conversation: XXXX completed successfully.
