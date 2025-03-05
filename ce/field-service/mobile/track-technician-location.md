@@ -1,14 +1,14 @@
 ---
-title: Track location data
+title: Enable location tracking
 description: Learn how to enable and set up location tracking for the Dynamics 365 Field Service mobile app.
-ms.date: 02/26/2025
+ms.date: 03/05/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
 ms.author: jobaker
 ---
 
-# Track location data
+# Enable location tracking
 
 Field technicians often travel to various locations throughout their workday, and it's helpful for schedulers to know where technicians are at any given time.
 
@@ -23,7 +23,7 @@ For a guided walkthrough, check out the following video.
 - Administrator access to Dynamics 365 Field Service.
 - Read access to the *msdyn_geolocationsetting* table for the security role of mobile app users. These permissions are included with the default Field Service - Resource role.
 
-## Enable location tracking
+## Enable tracking
 
 To send a technician's location information to Field Service, enable location tracking in the web application.
 
@@ -76,9 +76,6 @@ The *Geolocation Tracking (msdyn_geolocationtracking)* table stores location inf
 
 > [!NOTE]
 > Location tracking events might be sent less frequently based on the mobile device operating system. The frequency might be influenced by battery savings settings, device battery charge status, and other applications running on the device that might consume device resources.
-
-<!--- According to Eric Dipple from FastTrack, you can't audit this table.
-You can audit the location information. Turn on auditing for your environment and then for the *Geolocation Tracking (msdyn_geolocationtracking)* table. For more information, go to [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).--->
 
 You can configure how far back in time a geolocation is valid. This setting is important for scenarios when a mobile device loses internet connection, making dispatchers unaware of the true location. The time threshold can be configured in **Resource Scheduling**  **Settings** area. Select **Administration** > **Scheduling Parameter**. On the **Geo Data** tab, select **Geo Location Expires After X Minutes**.
 
