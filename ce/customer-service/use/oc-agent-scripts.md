@@ -1,7 +1,7 @@
 ---
 title: Agent scripts in the Omnichannel for Customer Service app
 description: Learn how to use agent scripts in Customer Service workspace and serve customers faster.
-ms.date: 05/10/2024
+ms.date: 03/05/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 
 ## Overview of agent scripts
 
-Agent scripts provide guidance about what you (an agent) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you be accurate, effective, and efficient in customer handling.
+Agent scripts provide guidance about what you (a customer service representative (service representative or representative)) should do when you get a customer issue and ensure that you share only accurate and company-endorsed information. Agent scripts help you be accurate, effective, and efficient in customer handling.
 
 > [!div class='mx-imgBorder']
 > ![Productivity pane.](../media/productivity-pane-agent-script.PNG "Productivity pane")
@@ -39,7 +39,7 @@ Each of the steps can be identified with the actionable icon. When you expand a 
 
 ## Prerequisite
 
-Make sure you (agent and supervisor) have the **Productivity tools user** security role. To learn more, see [Assign roles and enable users](../implement/add-users-assign-roles.md).
+Make sure you (service representative and supervisor) have the **Productivity tools user** security role. Learn more in [Assign roles and enable users](../implement/add-users-assign-roles.md).
 
 ## Text instructions
 
@@ -64,7 +64,7 @@ A macro is a set of instructions that tells the system how to complete a task. W
 |----------------|----------------------------------------|
 | Create case | Triggers create case from customer context|
 
-In this example, when an agent selects the **Macro** icon, the system opens a new **Create case** form in the application tab panel with prepopulated fields based on the customer context.
+In this example, when a representative selects the **Macro** icon, the system opens a new **Create case** form in the application tab panel with prepopulated fields based on the customer context.
 
 > [!div class='mx-imgBorder']
 > ![Agent script macro.](../media/agent-script-run-macro.PNG "Agent script macro")
@@ -104,7 +104,7 @@ The **Chat session** script has the following steps
 | Agent script | Close conversation | Follow these steps to close a conversation | View | When you select the view icon, the system loads another agent script from the current agent script. In this sample, the other agent script is **Close conversation** script. |
 
 
-Similarly, the administrator can create more agent scripts as per your business scenarios. To learn how to configure agent scripts, see [Guide agents with scripts](../administer/agent-scripts.md).
+Similarly, the administrator can create more agent scripts as per your business scenarios. Learn how to configure agent scripts in [Guide agents with scripts](../administer/agent-scripts.md).
 
 ### Related information
 
