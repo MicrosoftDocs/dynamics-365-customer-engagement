@@ -18,7 +18,7 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 >- [Basic relationship analytics](relationship-analytics-overview.md#basic-relationship-insights) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
 >- [Enhanced relationship analytics](relationship-analytics-overview.md#enhanced-relationship-insights) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-countryregion-are-sales-premium-features-available).
 >- For Office 365 data, your organization's data location must be in one of the following locations and not in your region-specific datacenter location:
->    - Global Geography 1 – EMEA (Austria, Finland, France, United Kingdom, Ireland, Netherlands)
+>    - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 >    - Global Geography 3 – Americas (Brazil, Chile, United States).    
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
