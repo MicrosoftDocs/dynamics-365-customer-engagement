@@ -43,7 +43,7 @@ Bing Maps is enabled by default in new environments that are located outside the
 
 1. Turn on the toggle and select **Save**.
 
-To verify the changes, open a contact, lead, or account form. You should see a new **Address** field and a Bing map after all the individual address fields. The field suggests addresses as you type and populates address fields when you select an address
+To verify the changes, open a contact, lead, or account form. You should see a new **Address** field and a Bing map after all the individual address fields. The field suggests addresses as you type and populates address fields when you select an address as shown in the following screenshot:
 
 :::image type="content" source="media/address-suggestion-field-map.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field-map.png":::
 
