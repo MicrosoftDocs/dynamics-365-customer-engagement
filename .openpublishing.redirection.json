@@ -2725,6 +2725,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/view-product-hierarchy.md",
+      "redirect_url": "/power-platform/important-changes-coming#hierarchy-control-in-model-driven-apps-is-deprecated",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/field-service/single-resource-optimization.md",
       "redirect_url": "/dynamics365/field-service/rso-single-resource-optimization",
       "redirect_document_id": "false"

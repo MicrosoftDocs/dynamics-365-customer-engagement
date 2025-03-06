@@ -1,7 +1,7 @@
 ---
 title: Manage personas and custom security roles
 description: Get information about how custom security roles can be mapped to personas in Customer Service and Omnichannel for Customer Service.
-ms.date: 02/14/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -38,29 +38,29 @@ The admin persona can set up end-to-end workflows to handle customer interaction
 - Create and manage classification and assignment rules for work items based on business rules.
 - Create and maintain capacity profiles and schedules based on office hours.
 - Configure basic and advanced routing for all work items.
-- Create and maintain agent skills for efficient skill-based routing of work items.
+- Create and maintain customer service representative (service representative or representative) skills for efficient skill-based routing of work items.
 - Manage users and their permissions by mapping the roles to the appropriate personas.
 - Configure and maintain custom presence.
-- Create and maintain targeted app experiences for agents and supervisors through app profiles, session templates, and notification templates.
+- Create and maintain targeted app experiences for service representatives and supervisors through app profiles, session templates, and notification templates.
 - Enable diagnostics and insights on assignment flow.
 
 ### Supervisor
 
-The supervisor persona can manage agents and their work items through routing rules. The supervisor can perform the following tasks:
+The supervisor persona can manage representatives and their work items through routing rules. The supervisor can perform the following tasks:
 
-- Assign or reassign current work items to agents depending on the agent availability and service-level agreement (SLA) of the work item.
-- Manage permissions on the data available to agents as part of the interactions (Record-level data permissions).
-- Monitor agent interactions and provide help as required.
-- Access insights related to agent performance and customer interactions.
+- Assign or reassign current work items to representatives depending on their availability and service-level agreement (SLA) of the work item.
+- Manage permissions on the data available to representatives as part of the interactions (Record-level data permissions).
+- Monitor representative interactions and provide help as required.
+- Access insights related to representative performance and customer interactions.
 - Access diagnostics for the routed records.
 
 ### Agent
 
-The agent persona can manage the work items that're assigned to them through custom or default rules set up by the admin persona. The agent can perform the following tasks:
+The agent persona can manage the work items that're assigned to them through custom or default rules set up by the admin persona. The representative can perform the following tasks:
 
 - Manage their work items as follows:
   - Engage with the customers.
-  - Reassign work to other agents in the group.
+  - Reassign work to other representatives in the group.
   - Decline interactions.
 - Manage their skills.
 - Manage their case queues.
@@ -83,7 +83,7 @@ Custom security roles can be created at an organizational or business unit level
 
 1. Save the security role with a name that will help you identify it during persona mapping.
 
-For example, if your organization is expecting a large seasonal increase in chat service requests, you might hire some seasonal employees to exclusively handle chat channels. You can create a security role for the "seasonal service rep". First, you'd identify that users with this role are part of the agent archetype. Knowing that, you'll create a copy of the "Omnichannel agent" security role. By starting with a copied role, you are less likely to face user issues by under-granting privileges. As part of customizing, you might remove read access for records that're not related to chat, such as Survey feedback, SMS, or voice channels. Finally, you can save the new security role as "seasonal service rep".
+For example, if your organization is expecting a large seasonal increase in chat service requests, you might hire some seasonal employees to exclusively handle chat channels. You can create a security role for the "seasonal service rep". First, you'd identify that users with this role are part of the representative archetype. Knowing that, you'll create a copy of the "Omnichannel agent" security role. By starting with a copied role, you are less likely to face user issues by under-granting privileges. As part of customizing, you might remove read access for records that're not related to chat, such as Survey feedback, SMS, or voice channels. Finally, you can save the new security role as "seasonal service rep".
 
 ## Map roles to personas
 
@@ -99,9 +99,8 @@ After you enable persona mapping, the system automatically assigns default roles
 >
 > - Customized mappings aren't reset if one of the services is added later.
 > - Make sure that the roles you want to map to personas are assigned to the users directly and not through team memberships.
-> - To access the Omnichannel Agent Dashboard dashboard from Power Apps with custom roles, you'll need to update the agent persona with the appropriate role.
+> - To access the Omnichannel Agent dashboard from Power Apps with custom roles, you'll need to update the agent persona with the appropriate role.
  
-
 ### Manage personas
 
 You can customize the roles to persona mapping in the Customer Service admin center app.
@@ -128,7 +127,7 @@ To assign a persona to the "seasonal service rep" role mentioned in the example,
 
 Users with security roles mapped to personas don't get automatic access to associated dashboards or applications. Perform the following steps to provide access and privileges to users:
 
-1. Create the user role. More information: [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles)
+1. Create the user role. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 2. Add and edit user permissions and privileges.
 
