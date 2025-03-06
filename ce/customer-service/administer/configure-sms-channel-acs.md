@@ -30,7 +30,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 ## Configure Azure Communication Services-based short code for SMS
 
 With Azure Communication Services-based short code for SMS, your customer service representatives can send high-volume, time-sensitive messages using preapproved short codes, to make sure of reliable delivery.
-The provisioning and management of the short codes is simplified for your organizations as it can be handled within the Azure ecosystem.
+The provisioning and management of the short codes is simplified for your organization as it can be handled within the Azure ecosystem.
 
 ### Set up a short code
 
