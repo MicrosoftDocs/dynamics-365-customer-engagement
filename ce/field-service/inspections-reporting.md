@@ -1,7 +1,7 @@
 ---
 title: Run reports on inspection responses
 description: Learn how to run reports for inspection responses in Dynamics 365 Field Service.
-ms.date: 09/13/2024
+ms.date: 03/06/2025
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -17,7 +17,7 @@ The questions and responses are saved into the following Dataverse tables:
 - **Customer Voice survey response** or 'msfp_surveyresponse': A response to an inspection.
 - **Customer Voice survey question response** or 'msfp_questionresponse': Each individual response to each inspection question.
 
-Each image uploaded in inspections is stored as an annotation in the *Inspection Attachments* table. They can be [retrieved using flows](#create-a-flow).
+Each image uploaded in inspections is stored as an annotation in the *Inspection Attachments* table. They can be retrieved using Microsoft Power Automate flows.
 
 ## Prerequisites
 
@@ -36,7 +36,7 @@ Configure how often inspection response should be parsed and organized in a Data
 
    - **Daily**: Daily based on the **Record generation start time**.
    - **Immediately**: As soon as an inspection is marked complete.
-   - **Custom**: A custom frequency upi define between one and 365 days.
+   - **Custom**: A custom frequency between one and 365 days.
 
    > [!Note]
    > When analytics frequency is set to **Immediately**, the inspection response is parsed and persisted as soon as the service task is completed; the parsed responses won't be updated even if the technician makes changes and completes the inspection again. However, if the analytics frequency is set to **Daily** or **Custom**, the responses are stored from the latest completion of the service task *before* the flow start time.
@@ -47,7 +47,7 @@ Questions on inspections are stored in Dataverse, and can be found in the table 
 
 1. Sign in to [Power Apps](https://make.powerapps.com/).
 1. Select **Tables** and then **All**.
-1. Search for and select the table you want to view. For example,**Customer Voice survey response**. This table is empty until an inspection is completed
+1. Search for and select the table you want to view. For example, **Customer Voice survey response**. This table is empty until an inspection is completed
 
    :::image type="content" source="./media/9-CDS-data-upon-completion.jpg" alt-text="Screenshot of Power Apps, showing the inspection responses in the Customer Voice survey question response table.":::
 
@@ -65,12 +65,12 @@ To view the status of the flows, sign in to [Power Automate](https://make.powera
 
 ## Use a Power Automate flow to parse inspection responses (deserialization of responses)
 
-When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the *Inspection Response* table. You can use a Power Automate flow to run a workflow on inspection responses. For more information, watch the video on [run workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs).
+When a technician fills out an inspection, the answers to each inspection question are stored as JSON in the *Inspection Response* table. You can use a Power Automate flow to run a workflow on inspection responses. For example, if a technician responds 'Yes' to the inspection question **Is a follow-up required?** then a new follow-up work order service task is added to the related work order. For more information, watch the video on [run workflows on Inspection responses](https://youtu.be/fCjQmIw9ahs) or go to [Create a cloud flow in Power Automate](/power-automate/get-started-logic-flow).
 
 > [!Note]
 > Out-of-the-box flows cannot be customized. You must create or copy a Power Automate flow in order to customize it.
 
-For example, if a technician responds 'Yes' to the inspection question **Is a follow-up required?** then a new follow-up work order service task is added to the related work order.
+<!--- Commented out in case Fast Track wants to use and update this material
 
 ### Create a flow
 
@@ -169,3 +169,5 @@ Add a condition and action based on the response to the inspection question.
    > ![Screenshot of the Power Automate flow, showing the "if yes" condition set to trigger a new record creation.](./media/inspections-workflow-then-create-WOST.png)
 
 1. Save and test your flow.
+
+--->

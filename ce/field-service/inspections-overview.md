@@ -1,7 +1,7 @@
 ---
 title: Inspections overview (contains video)
 description: Learn about inspections in Dynamics 365 Field Service.
-ms.date: 08/19/2024
+ms.date: 03/06/2025
 ms.topic: overview
 author: josephshum-msft
 ms.author: jshum
