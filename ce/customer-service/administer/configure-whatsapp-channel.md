@@ -64,9 +64,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page displays.
     
-1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page displays.
    
 1. Select **New account**.
 
@@ -78,7 +78,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
       - **Account SID:** Specify the value from your Twilio account.
       - **Authentication token:** Specify the value from your Twilio account.
  
-    3. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
+    3. On the **WhatsApp numbers** page, select **Add**, and on the page that displays, enter the following information:
       - **Name:** Specify a name.
       - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
     
