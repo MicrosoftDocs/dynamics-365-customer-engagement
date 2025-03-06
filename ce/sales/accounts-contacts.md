@@ -49,7 +49,7 @@ If your administrator has [turned on address suggestions](enable-address-suggest
 1. Open an account, contact, or lead.
 
 1. On the **Summary** tab, scroll down to the **Address** box and start typing the street address.
-    :::image type="content" source="media/address-suggestion-field.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field.png":::
+    :::image type="content" source="media/address-suggestion-field-map.png" alt-text="Screenshot of the new address field in a form" lightbox="media/address-suggestion-field-map.png":::
 
 1. Select an address from the list of suggestions provided by Bing Maps.
 
