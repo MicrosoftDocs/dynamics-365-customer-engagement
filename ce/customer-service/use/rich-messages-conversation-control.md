@@ -11,7 +11,7 @@ ms.reviewer: laalexan
 
 # Rich messages in conversation control
 
-When conversing in supported channels, the communication panel includes an additional feature for sending rich messages. These interactive messages can help you collect and share information with customers more easily. 
+When conversing in supported channels, the communication panel includes another feature for sending rich messages. These interactive messages can help you collect and share information with customers more easily. 
 
 > [!Important]
 > Rich messages are currently supported only in the Apple Messages for Business channel.
@@ -32,12 +32,12 @@ After launching the rich message panel by selecting the rich message icon or typ
 
 ## View and send rich messages
 
-When you find the rich message you want to send, you can select the rich message to open it. This opens the **Rich Message Preview** application pane.
+When you find the rich message you want to send, you can select the rich message to open it in the **Rich Message Preview** application pane.
 
    > [!div class=mx-imgBorder]
    > ![Rich Message Preview pane.](../media/rich-messages-preview.png "Rich Message Preview pane")
 
-Within the preview tab, you are able to see the contents of the rich message you’ve selected, along with a **Send Message** button. When you’re ready to send a rich message, use **Send Message**.
+Within the preview tab, you're able to see the contents of the rich message that you selected, along with a **Send Message** button. When you’re ready to send a rich message, use **Send Message**.
 
 If your administrator enables the customer service representative (service representative or representative) configuration, you can customize some types of rich messages before sending them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
@@ -46,7 +46,7 @@ If your administrator enables the customer service representative (service repre
 
 ## Customizable rich messages
 
-Some types of rich messages might need their content to be customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context.
+Some types of rich messages might need their content to be customized before they can be sent to customers. Others can be customized to add personalized touches or other options that might change depending on context.
 
 The following rich messages support admin-enabled customization:
 
