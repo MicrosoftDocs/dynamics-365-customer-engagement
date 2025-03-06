@@ -77,9 +77,9 @@ You can set up the outbound configuration in the Customer Service admin center o
 
 Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, refer to [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
-- [Case Creation flow](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
+- [Case Creation flow - SMS](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
-- [Case Resolved flow](https://aka.ms/CaseResolved) (.zip file): This instant-type template sends an outbound message manually to all customers who have a case in the resolved state.
+- [Case Resolved flow - SMS](https://aka.ms/CaseResolved) (.zip file): This instant-type template sends an outbound message manually to all customers who have a case in the resolved state.
 
 **To set up a Power Automate flow**
 
@@ -92,7 +92,7 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     Go to https://us.flow.microsoft.com/, sign in to your account and select **My flows**.
 
-2. In Power Automate, set up a flow that aligns with your outbound messaging scenario:
+1. In Power Automate, set up a flow that aligns with your outbound messaging scenario:
 
     - **Automated:** Send an automatic message triggered by a system event, for example, case creation.
 
@@ -100,29 +100,32 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     - **Scheduled:** Send a message at a point in time, at one or more times, or after an amount of time that you specify.
 
-    For more information about the current limits and configuration details for flows, refer to [Limits and configuration in Power Automate](/power-automate/limits-and-config).
+    Learn more about the current limits and configuration details for flows in [Limits and configuration in Power Automate](/power-automate/limits-and-config).
 
- 3. Add the action, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+ 1. Initialize an *OutboundConfigurationId* variable and set it to the outbound message configuration ID that you generated.
+
+ 1. Initialize an *ActivityRelationship* variable and set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
 
     
-4. Initialize a ContactList array variable, which can be used as contact information.
+1. Initialize a ContactList array variable, which can be used as contact information.
 
         
-5. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
+1. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
     
     
-6. Fill in the values for the ContactList in the **Append to array variable** template.
+1. Fill in the values for the ContactList in the **Append to array variable** template.
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
    | **tocontactid** | Required | The customer's phone number that the outbound service uses to send messages. |
    | **optin** | Required | The customer's preference to be contacted by phone.    This field can be set to **true** or **false**. |
-   | **locale** | SMS channel only, chosen by default. | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template is applied. |
+   | **locale** | Optional, SMS channel only, chosen by default. | Enable dynamic message languages, by replacing the default variable with a locale column reference, such as the customer's preferred language. If the locale value is missing, the fallback locale in the omnichannel message template is applied. |
    | **contextitems** | Optional | Contains values to be processed with individual messages as they're sent. |
-   | **entityrelationshipname** | Optional | This field refers to the **ActivityRelationship** that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field has to be added to the flow for it to work. |
-   | **msdyn_ocoutboundconfigurationid** | Optional | To fill the config ID in the outbound message activity records. The value should be the same that's used in msdyn_InvokeOUtboundAPI.|
+   | **entityrelationshipname** | Optional | This field refers to the **ActivityRelationship** variable that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **show in timeline** in the outbound configuration is set to **Yes**, this field has to be added to the flow for it to show in the timeline. |
+   | **regardingobjectid** | Optional | The identifier of the object to be linked to the entity defined by the **entityrelationshipname** property. if this field isn't included and **show in timeline** is enabled, the record won't show in the timeline. |
+   | **msdyn_ocoutboundconfigurationid** | Optional | This field refers to the **OutboundConfigurationId** variable that was previously defined.|
+   | **customParameterName**, **customParamaterValue** | Optional | Additional key value pair parameters for the template. These values are replaced in the message template when the message is sent.<br> If you're using SMS or WhatsApp text messages, you add key value pairs. <br> Don't include parameters in scenarios where if you're using WhatsApp content builder templates, Twilio WhatsApp template builder parameters should be specified in the **templateparameters** property described later in this table. |
    | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive and results in an error if the customer name values are different. <br> if you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
-   | **CaseName** | Optional | The name of the case. |
    | **sendastemplate** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. |
    | **templateparameters** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. Follows Twilio's template parameters. |
 
@@ -130,23 +133,17 @@ Power Automate provides a low-code platform for workflow and process automation.
   
   ```
    {
-  "tocontactid": 
-,
-  "channelid": "whatasapp",
-  "optin": 
-,
-  "contextitems": {
-    "msdyn_ocoutboundconfigurationid": "<outbound configuration ID>",
-    "regardingobjectid": 
-,
-    "entityrelationshipname": 
-
-  },
-  "sendastemplate": true,
-  "templateparameters": {
-    "1": 
-
-  }
+    "tocontactid": @{outputs('Get_Contact_record')?['body/mobilephone']},
+    "optin": @{not(outputs('Get_Contact_record')?['body/donotphone'])},
+    "contextitems": {
+      "msdyn_ocoutboundconfigurationid": @{variables('OutboundConfigurationId')},
+      "regardingobjectid": @{outputs('Get_Contact_record')?['body/contactid']},
+      "entityrelationshipname": @{variables('ActivityRelationship')}
+    },
+    "sendastemplate": true,
+    "templateparameters": {
+      "1": @{outputs('Get_Contact_record')?['body/firstname']}
+    }
 }
 ```
 
@@ -155,27 +152,22 @@ Sample JSON for SMS:
 
 ```
 {
-  "tocontactid": 
-,
-  "channelid": "sms",
-  "optin": 
-,
-  "contextitems": {
-    "regardingobjectid": 
-,
-    "entityrelationshipname": 
-,
-    "CustomerName": 
-,
-    "CaseName": 
-
-  }
+    "tocontactid": "@{outputs('Get_record')?['body/mobilephone']}",
+    "locale": "@{outputs('Get_record')?['body/mspp_userpreferredlcid']}",
+    "optin": @{not(outputs('Get_record')?['body/donotphone'])},
+    "contextitems": {
+      "regardingobjectid": @{triggerOutputs()?['body/incidentid']},
+      "entityrelationshipname": @{variables('ActivityRelationship')},
+      "msdyn_ocoutboundconfigurationid": @{variables('OutboundConfigurationId')},
+      "sampleParameter1": "sampleValue1",
+      "sampleParameter2": "sampleValue2"
+    }
 }
 ```
 
-7. In the **Perform an unbound action** window, enter the outbound message configuration ID that you generated. When you add the ID to the *msdyn_ocoutboundconfigurationid* field, the field references the correct outbound configuration for a flow run.
+7. Add a **Perform an unbound action** select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
 
-8. Add the output from the compose action.
+1. Add the output from the compose action.
 
 When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to an agent, and the agent can respond back to the customer.
 
@@ -191,6 +183,7 @@ Before you begin, make sure that you [migrated your templates to the Content Tem
 1. Select the **Behaviors** tab, and then under **WhatsApp-approved message templates**, select the template you created previously, and then select **Edit**. The **Edit message template** page appears.
 1. In **Name**, replace the name with the **Content Template SID** in Twilio Content Template Builder. The **Content Template SID** is the unique identifier for the template in Twilio.
 1. Select **Save**.
+1. Edit the flow that uses the template in Power Automate, and update the **Append to ContactList** variable action with the new WhatsApp template format described previously in this section.
 
 
 ### Related information
