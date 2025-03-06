@@ -105,15 +105,11 @@ Power Automate provides a low-code platform for workflow and process automation.
  1. Initialize an *OutboundConfigurationId* variable, and then set it to the outbound message configuration ID that you generated.
 
  1. Initialize an *ActivityRelationship* variable, and then set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+ 
+ 1. Initialize a ContactList array variable, which is used to store contact information and other parameters that the system uses to send the outbound notifications.
+ 1. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
 
-    
-1. Initialize a ContactList array variable, which can be used as contact information.
-
-        
-1. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
-    
-    
-1. Fill in the values for the ContactList in the **Append to array variable** template.
+ 1. Fill in the values for the ContactList in the **Append to array variable** template.
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
@@ -125,9 +121,8 @@ Power Automate provides a low-code platform for workflow and process automation.
    | **regardingobjectid** | Optional | The identifier of the object to be linked to the entity defined by the **entityrelationshipname** property. if this field isn't included and **Show in timeline** is enabled, the record won't show in the timeline. |
    | **msdyn_ocoutboundconfigurationid** | Optional | This field refers to the **OutboundConfigurationId** variable that was previously defined.|
    | **customParameterName**, **customParamaterValue** | Optional | Additional key value pair parameters for the template. These values are replaced in the message template when the message is sent.<br><br> If you're using SMS or WhatsApp text messages, you add key value pairs. <br> Don't include parameters in scenarios where if you're using WhatsApp content builder templates, Twilio WhatsApp template builder parameters should be specified in the **templateparameters** property described later in this table. |
-   | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive, and results in an error if the customer name values are different. <br><br> If you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
-   | **sendastemplate** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. |
-   | **templateparameters** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. Follows Twilio's template parameters. |
+   | **sendastemplate** | WhatsApp only | Set to **true** for new or upgraded templates in the Twilio Content Template Builder. Do not include if you're not using Twilio WhatsApp templates. |
+   | **templateparameters** | WhatsApp only | List of index value pairs (if any) to be replaced in the message as defined in the WhatsApp template. |
 
    Sample JSON for WhatsApp templates:
   
@@ -147,7 +142,6 @@ Power Automate provides a low-code platform for workflow and process automation.
 }
 ```
 
-
 Sample JSON for SMS:
 
 ```
@@ -165,9 +159,9 @@ Sample JSON for SMS:
 }
 ```
 
-1. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
+ 1. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
 
-1. Add the output from the compose action.
+ 1. Add the output from the compose action.
 
 When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
 
