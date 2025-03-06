@@ -165,7 +165,7 @@ Sample JSON for SMS:
 }
 ```
 
-7. Add a **Perform an unbound action** select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
+1. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
 
 1. Add the output from the compose action.
 
