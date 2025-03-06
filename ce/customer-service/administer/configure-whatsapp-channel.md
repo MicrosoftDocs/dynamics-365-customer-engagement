@@ -14,24 +14,27 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Customer Service admin center or Contact Center admin center application to engage with customers who prefer to use the WhatsApp channel.
 
-The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from agents should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
+The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from customer service representatives (service representatives or representatives) should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
 ## Prerequisites
 
-- Make sure channels are provisioned in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
-  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
+- Make sure channels are provisioned in your environment. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
+  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
 
-- Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. Learn more in [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
+- Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. Learn more about configuring a Twilio sandbox account in [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
 
 - Connect Twilio Number to your WhatsApp Business Profile. Learn more in [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
-- Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+- Verify that you have permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ## WhatsApp message types and 24-hour session rule
 
-- **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. Learn more about WhatsApp message templates in the [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
+- **Template messages:** Are the outbound messages that service representatives send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. Learn more about WhatsApp message templates in [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
 > [!IMPORTANT]
 > On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the [Twilio Content Template Builder](https://go.microsoft.com/fwlink/?linkid=2306633).
@@ -42,9 +45,9 @@ The success of social media customer service, like all other customer service, d
 >
 > Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. Learn more in [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
 
-- **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
+- **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by a representative to the incoming messages, within 24 hours. A messaging session starts when representatives receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
-- **24 hours session rule:** A messaging session starts when an agent receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, the agent has 24 hours to reply from the time the agent received it. However, after 24 hours, the agent can send a message to customer only by using a predefined and approved template.
+- **24 hours session rule:** A messaging session starts when a representative receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, the representative has 24 hours to reply from the time it was received. However, after 24 hours, the representative can send a message to customer only by using a predefined and approved template.
 
 ## End-to-end walkthrough
 
@@ -95,16 +98,16 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
       - [Custom automated messages](configure-automated-message.md)
       - [WhatsApp message templates](#configure-whatsapp-message-templates)
       - [Post-conversation survey](configure-post-conversation-survey.md)
-    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md).
+    4. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow representatives and customers to send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md).
       - Customers can send file attachments
-      - Agents can send file attachments
+      - Representatives can send file attachments
     5. Verify the settings on the **Summary** page, and select **Finish**. The WhatsApp channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md).
+1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, [add a bot](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, [add an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. Based on your business needs, in **Advanced settings**, configure the following options:
    - [Sessions](session-templates.md)
@@ -115,7 +118,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ### Configure WhatsApp message templates
 
-You can configure the option for agents to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, agents will only be able to send messages from WhatsApp-approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
+You can configure the option for representatives to send WhatsApp-approved messages. If 24 hours pass after a customer's last message, representatives will only be able to send messages from WhatsApp-approved templates until the customer responds. You must create your message templates in your Twilio account and have them approved by WhatsApp before you add them in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
 Perform the following steps:
 

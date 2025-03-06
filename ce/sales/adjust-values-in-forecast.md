@@ -1,7 +1,7 @@
 ---
 title: "Adjust forecast values in sales forecasting | MicrosoftDocs"
 description: "Adjust values in a forecast to estimate the final amount that you expect the forecast's opportunities to bring in at the close of the forecast period."
-ms.date: 03/29/2023
+ms.date: 02/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -49,8 +49,7 @@ You can also view the history of the adjustments that are made on a forecast, an
 
 2.	On the **Adjustment** tab, enter the value and add a note for the adjustment. For example, the **Pipeline** column is configured as editable and you know that Nicolas Frizzell has a pipeline revenue of $20,000 instead of the existing value, $11,752.16. Enter the value as **20000**. You can see that the actual system-calculated value for the forecast, based on existing data, is $10,000.
 
-    > [!div class="mx-imgBorder"]
-    > ![Enter values to adjust.](media/forecast-adjust-value-enter-value.png "Enter values to adjust")
+    :::image type="content" source="media/forecast-adjust-value-enter-value.png" alt-text="Screenshot of entering values to adjust in the forecast.":::
 
 3.	Select **Adjust**.  
     The new value is displayed in the **Pipeline** column for Nicolas Frizzell. The adjusted value is also rolled up to the top of the hierarchy from Nicolas's manager.

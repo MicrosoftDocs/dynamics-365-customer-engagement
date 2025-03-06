@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 02/28/2025
+ms.date: 03/05/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -75,7 +75,7 @@ You can set up the outbound configuration in the Customer Service admin center o
 
 ## Set up a Power Automate flow
 
-Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. For more information, refer to [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
+Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. Learn more in [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
 - [Case Creation flow - SMS](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
 
@@ -169,7 +169,7 @@ Sample JSON for SMS:
 
 1. Add the output from the compose action.
 
-When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to an agent, and the agent can respond back to the customer.
+When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
 
 > [!NOTE]
 > Outbound messaging imposes limits of 100 contacts per request and 30,000 requests per org per hour. Where higher loads are expected, we recommend that you implement batch processing logic in flows to limit contacts per request to 100.
@@ -184,7 +184,6 @@ Before you begin, make sure that you [migrated your templates to the Content Tem
 1. In **Name**, replace the name with the **Content Template SID** in Twilio Content Template Builder. The **Content Template SID** is the unique identifier for the template in Twilio.
 1. Select **Save**.
 1. Edit the flow that uses the template in Power Automate, and update the **Append to ContactList** variable action with the new WhatsApp template format described previously in this section.
-
 
 ### Related information
 
