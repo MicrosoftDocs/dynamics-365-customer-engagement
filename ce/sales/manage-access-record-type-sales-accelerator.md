@@ -12,13 +12,6 @@ ms.reviewer: udag
 
 Choose who can use the workspace and which record types should appear in the sales accelerator.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Configure security roles, sample data, and record types
 
 After the [first-run setup of the sales accelerator](enable-configure-sales-accelerator.md#first-run-setup), you can manage security roles, sample data, and record types.

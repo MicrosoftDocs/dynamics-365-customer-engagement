@@ -1,10 +1,11 @@
 ---
 title: Download file attachments from an Azure bot
 description: Learn how to download attachments from an Azure bot in the Microsoft Teams channel.
-ms.date: 06/06/2024
+ms.date: 01/31/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 # Download file attachments from an Azure bot
@@ -120,7 +121,6 @@ if (turnContext.Activity.ChannelData != null &&
 ### Related information
 
 [Card support by channel](/azure/bot-service/bot-service-channels-reference?view=azure-bot-service-4.0#card-support-by-channel&preserve-view=true)  
-[Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)  
-[Migration changes for new omnichannel messaging platform](../administer/migrate-acs.md)  
+[Support for live chat and asynchronous channels](../administer/card-support-in-channels.md)   
 
 [!INCLUDE [footer-include](../../includes/footer-banner.md)]

@@ -1,10 +1,11 @@
 ---
-title: "Customer Service Hub system requirements | MicrosoftDocs"
-description: "System requirements for Customer Service Hub."
-ms.date: 09/20/2022
+title: Customer Service Hub system requirements
+description: System requirements for Customer Service Hub.
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # System requirements for Customer Service Hub

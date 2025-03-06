@@ -23,13 +23,6 @@ Editing the cards allows you to do the following tasks based on the card:
 - [Edit flow of a card](#edit-flow-of-a-card)
 - [View card usage metrics](#view-card-usage-metrics) 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Turn cards on or off
 
 Different users have different needs in using the cards, and you don’t want to show the card for some users at this point in time. Similarly, you don’t want to show certain cards in your organization or you might not need them to be displayed at this time. You can turn the cards on or off depending on the need to show them to specific user roles in the user's **Personal settings** section.

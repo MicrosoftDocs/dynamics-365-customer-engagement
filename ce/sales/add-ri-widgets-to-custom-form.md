@@ -1,7 +1,7 @@
 ---
 title: "Add Relationship intelligence widgets to custom forms"
 description: "If you're using custom forms, add the health score and who knows whom widgets manually to the form."
-ms.date: 09/19/2022
+ms.date: 02/14/2025
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -11,13 +11,6 @@ ms.reviewer: lavanyakr
 # Add Relationship intelligence widgets to custom forms
 
 By default, the health score widget and who knows whom widget are available only in the out-of-the-box **Sales Insights** form. If you're using customized forms, you can display these widgets on your custom forms by manually adding them to your form.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Add widgets to a custom form
 
@@ -29,33 +22,26 @@ To add the health score widget or who knows whom widget to your custom form, fol
 
 1. Sign in to the [Power Apps](https://make.powerapps.com/) portal.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Power Apps home page](media/power-apps-home-page.png "Power Apps home page")
-
 2. Search for and select your organization's environment.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select your organization](media/power-apps-select-org.png "Select your organization")
+    :::image type="content" source="media/power-apps-select-org.png" alt-text="Screenshot of selecting your organization in the Power Apps portal.":::
 
-3. Select **Data** > **Tables**.
+3. In the left pane, select **Tables**.
 
-    The **Tables** page opens with the list of tables.
+4. On the **Tables** page, select a table to open it.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Tables page with list of tables](media/power-apps-entities-page.png "Tables page with list of tables")
+1. On the **Data experiences** card, select **Forms**.
 
-4. Open the table, select the **Forms** tab, and then select a main form to add the widget to. In this example, the table **Lead** is selected and the main form **Lead** is selected.
+1. Select a main form to add the widget to. In this example, the table **Account** is selected and the main form **Account** is selected.
 
     >[!NOTE]
     >If you're unable to view the table to which you want to add the widget, in the upper-right corner of the page, change the filters settings to **All**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select the Lead main form on the Forms tab](media/power-apps-lead-main-form.png "Select the Lead main form on the Forms tab")
+    :::image type="content" source="media/power-apps-lead-main-form.png" alt-text="Screenshot of selecting the Lead main form on the Forms tab.":::
 
 5. In the form designer, select **Component**, and then from **Layout**, add a column to the form as a placeholder to add the widget.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Add a column to the form](media/power-apps-layout-add-column-form.png "Add a column to the form")
+    :::image type="content" source="media/power-apps-layout-add-column-form.png" alt-text="Screenshot of adding a column to the form in the form designer.":::
 
 7. Depending on the widget you want to add, do one of the following actions:
     - To add the health score widget, select **Display** > **Relationship Health**.
@@ -68,13 +54,9 @@ To add the health score widget or who knows whom widget to your custom form, fol
 
 8. In the pop-up window, select the components on which you want to display the widget, and select **Done**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Select Done to add the who knows whom widget](media/power-app-who-knows-whom-widget-options.png "Select Done to add the who knows whom widget")
-
     The widget is added to the form, as shown in the following image.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Who knows whom widget added to the form](media/power-app-who-knows-whom-widget-added.png "Who knows whom widget added to the form")
+    :::image type="content" source="media/power-app-who-knows-whom-widget-added.png" alt-text="Screenshot of the Who knows whom widget added to the form.":::
 
     >[!NOTE]
     >To hide the **New section** label, go to the **Properties** tab of the **New Section** settings pane, and then select **Hide label**.

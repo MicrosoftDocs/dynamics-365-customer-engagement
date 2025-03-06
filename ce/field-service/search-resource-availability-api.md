@@ -1,7 +1,7 @@
 ---
 title: Search resource availability API
 description: Learn how to use an API to find eligible resources in Field Service. 
-ms.date: 09/11/2024
+ms.date: 01/28/2025
 ms.topic: reference
 author: mkelleher
 ms.author: mkelleher
@@ -42,7 +42,7 @@ The settings entity isn't an entity that exists in the Dataverse; however, it's 
 | UseRealTimeResourceLocation | Boolean | Set this to _True_ if the real-time location of resources should be used when computing potential time slots on the resource's calendar. | No | False
 | SortOrder | Entity | The sort order can be specified using an entity collection. Each entity in the collection represents one sort criteria. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Name** (_String_): The sort criteria <li>**SortOrder** (_Integer_): The sort direction (0 for ascending and 1 for descending) | No | None
 | MaxResourceTravelRadius | Entity | This attribute specifies the maximum that can be defined in an entity. The `@odata.type` for this entity should be `Microsoft.Dynamics.CRM.expando`. The following are the attributes you need to populate: <ol> <li> **Value** (_Decimal_): The radius <li> **Unit** (_Integer_): The distance unit. See msdyn_distance unit option set for possible values. | No| 0 km. If that's the case, no resources are returned for onsite requirements.
-| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | Resource Availability Retrieval Limit from schedulable entity definition
+| MaxNumberOfResourcesToEvaluate | Integer | This attribute defines a limit on the number of resources that are considered for the request. | No | If this attribute is not included in the API call, the system uses the Resource Availability Retrieval Limit from schedulable entity definition as defined in [Edit settings for enabled entities](schedule-new-entity.md#edit-settings-for-enabled-entities). If included in the call, it will overwrite the defined Resource Availability Retrieval Limit.
 | ConsiderOutlookSchedules | Boolean | Set this to _True_ if schedules from Outlook should be considered. Only available in versions 3.1.0 and later | No | False
 
 ### Resource specification entity
@@ -184,6 +184,10 @@ In this example, v3 of schedule assistant API, which allows for web API calls, i
                     "value": "cc19f004-4483-ee11-8178-000d3a5c32c3"
                 }
             ]
+        }
+    }
+}
+
 ```
 
 The following example demonstrates proper usage of entity collections. In this case, it specifies MustChooseFromResources.
@@ -197,12 +201,22 @@ The following example demonstrates proper usage of entity collections. In this c
         "msdyn_todate": "2021-07-15T23:59:00Z",
         "msdyn_remainingduration": 60,
         "msdyn_duration": 60,
+        "msdyn_latitude": 47.64807,
+        "msdyn_longitude": -122.41249,
+        "msdyn_worklocation": 690970000,
         "msdyn_TimeGroup@odata.bind": "/msdyn_timegroups(c3dc79ea-d12f-ee11-9cc9-000d3a745a58)",
         "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
     },
     "Settings": {
         "ConsiderSlotsWithProposedBookings": false,
         "MovePastStartDateToCurrentDate": true,
+        "MaxNumberOfResourcesToEvaluate":500,
+        "ConsiderTravelTime": true,
+        "MaxResourceTravelRadius": {
+            "Value": 20,
+            "Unit" : 192350000,
+            "@odata.type": "Microsoft.Dynamics.CRM.expando"
+        },
         "@odata.type": "Microsoft.Dynamics.CRM.expando"
     },
     "ResourceSpecification": {
@@ -247,7 +261,5 @@ The following example demonstrates proper usage of entity collections. In this c
         }
     }
 }
-        }
-    }
-}
+
 ```

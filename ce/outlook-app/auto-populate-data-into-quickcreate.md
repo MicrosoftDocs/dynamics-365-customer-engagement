@@ -21,10 +21,6 @@ search.audienceType:
 
 Use the quick create form in App for Outlook to auto populate information from an Outlook item to the quick create form for the Case table. You can only enable the quick create auto-populate option for the case table.
 
-![Demo of how to create a case table using quick create.](media/email-to-case.gif)
-
-
-
 These fields that will be populated automatically:
 
 |        Outlook item field                                                                                        |                                                                                         Mapped to     |       Quick Create Case form field                                                                             |

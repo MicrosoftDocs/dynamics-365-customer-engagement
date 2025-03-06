@@ -25,13 +25,6 @@ An opportunity goes through different stages (also known as pipeline phase) as y
 >- It's important to keep the stage current as it's used in sales charts and dashboards. For example, the funnel chart displays the opportunities in different stages.  
 >- If your organization has multiple business process flows for the opportunity entity, the **Pipeline Phase** field stores the last stage change information done on the opportunity record through any business process flow. If you're using multiple business process flows on opportunity, exercise your discretion while using this field.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium,  Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Move the opportunity to Qualify stage
 
 After you gather the basic details about the customer, move the opportunity to the **Qualify** stage. 

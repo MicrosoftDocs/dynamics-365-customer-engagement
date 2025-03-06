@@ -5,6 +5,7 @@ ms.date: 09/10/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -13,9 +14,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> Supervisor and agent sentiment notifications aren't available in Unified Service Desk.
+> Supervisor and customer service representatives (service representatives or representatives) sentiment notifications aren't available in Unified Service Desk.
 
-Sentiment analysis enables agents and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. The application uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
+Sentiment analysis enables service representatives and supervisors to understand real-time and historical customer sentiment across channels to improve customer service. The application uses natural language processing (NLP) and machine learning (ML) algorithms to understand customer sentiments.
 
 Sentiment intensity indicators are displayed based on the previous six customer messages received in a conversation. Sentiment intensity is scored in one of seven gradients: three positive, three negative, and one neutral.
 
@@ -40,7 +41,7 @@ To learn more, see [Explore Text Translator API](/azure/cognitive-services/trans
 
 ## Personas
 
-The multi-language sentiment feature supports the following personas: administrator, supervisor (team lead), and agent.
+The multi-language sentiment feature supports the following personas: administrator, supervisor (team lead), and service representatives.
 
 - If you're an administrator:
 
@@ -50,17 +51,17 @@ The multi-language sentiment feature supports the following personas: administra
 
 - If you're a supervisor (team lead):
 
-    - You can track agent performance and engage in real time to continuously improve the support quality.
+    - You can track service representative performance and engage in real time to continuously improve the support quality.
     
-        Example: You can identify negative sentiment events, including English profanity, in conversations between agents and customers.
+        Example: You can identify negative sentiment events, including English profanity, in conversations between service representatives and customers.
 
-    - When you identify negative sentiment, you can provide timely feedback to the agent to help them resolve an issue.
+    - When you identify negative sentiment, you can provide timely feedback to the service representative to help them resolve an issue.
 
         Example: Monitor and join the conversation.
 
     - You can identify which chat and text sessions are going well, and which might require monitoring.
 
-- If you're an agent: 
+- If you're a service representative: 
 
     - You want to know customer's sentiments in real time and see customer satisfaction levels instantly as you communicate with them.
 
@@ -72,9 +73,9 @@ The multi-language sentiment feature supports the following personas: administra
 
 ## Sentiment intensity indicators
 
-Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show agents and supervisors how a conversation is trending, and give supervisors a real-time gauge to help them decide when they need to step in and assist.
+Sentiment intensity indicators are an automatic and unbiased measurement of a customer's satisfaction level in real time. These indicators show service representatives and supervisors how a conversation is trending, and give supervisors a real-time gauge to help them decide when they need to step in and assist.
 
-- For agents:
+- For service representatives:
 
     Sentiment intensity indicators at the top of the communication panel help you understand the customer’s sentiment.
 
@@ -92,9 +93,9 @@ Sentiment intensity indicators are an automatic and unbiased measurement of a cu
 
 ## Low sentiment notification alert
 
-While an agent is communicating with the customer, if the customer's sentiment decreases to or below a threshold level, you get a notification. The notification displays the following details:
+While a service representative is communicating with the customer, if the customer's sentiment decreases to or below a threshold level, you get a notification. The notification displays the following details:
 
-- Agent name
+- Service representative name
 - Customer
 - Sentiment
 - Monitor button
@@ -104,7 +105,7 @@ While an agent is communicating with the customer, if the customer's sentiment d
     > [!div class=mx-imgBorder]
     > ![Sentiment notification.](../media/sentiment-notification.png "Sentiment notification")
 
-You can select the **Monitor** button to see the **Active Conversation** and the communication panel. If the agent requires help, you can join the conversation.
+You can select the **Monitor** button to see the **Active Conversation** and the communication panel. If the service representative requires help, you can join the conversation.
 
 For example:
 
@@ -130,7 +131,7 @@ After you sign up, see step 4 of [Enable sentiment analysis](../administer/enabl
 
 ## Policy notice
 
-This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This customer responsibility also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using this feature, and any associated feature or service in compliance with all applicable laws, including laws that relate to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This customer responsibility also includes adequately notifying end users that their communications with service representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their service representatives that their communications with end users may be monitored, recorded, or stored.
 
 ### Related information
 

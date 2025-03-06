@@ -1,7 +1,7 @@
 ---
 title: Create a knowledge article using a template (Developer Guide for Dynamics 365 Customer Service)
 description: Read how you can create a knowledge article from an existing template using msdyn_GetKAObjectFromTemplate action.
-ms.date: 07/24/2024
+ms.date: 02/07/2024
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -14,7 +14,7 @@ search.audienceType:
 ---
 # Create a knowledge article using a template
 
-Use the **msdyn_GetKAObjectFromTemplate** action to create a knowledge article from an existing knowledge article template programmatically.
+Use the [msdyn_GetKAObjectFromTemplate action](/power-apps/developer/data-platform/webapi/reference/msdyn_getkaobjectfromtemplate) to create a knowledge article from an existing knowledge article template programmatically.
 
 ## Action parameters
 
@@ -28,14 +28,14 @@ The **msdyn_GetKAObjectFromTemplate** action requires the following parameters:
 
 | Type | Description |
 | ---- | ---- |
-| [KnowledgeArticle](../../customerengagement/on-premises/developer/entities/knowledgearticle.md) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
+| [KnowledgeArticle](/power-apps/developer/data-platform/reference/entities/knowledgearticle) | The **msdyn_GetKAObjectFromTemplate** action returns the following value. |
 
 ## Example
 
 **Request**
 
 ```http
-POST [Organization URI]/api/data/v9.0/msdyn_GetKAObjectFromTemplate
+POST [Organization URI]/api/data/v9.2/msdyn_GetKAObjectFromTemplate
 Content-Type: application/json;charset=utf-8
 OData-MaxVersion: 4.0
 OData-Version: 4.0
@@ -54,7 +54,7 @@ Content-Type: application/json; odata.metadata=minimal
 OData-Version: 4.0
 
 {
-    "@odata.context":"[Organization URL]/api/data/v9.0/$metadata#knowledgearticles/$entity",
+    "@odata.context":"[Organization URL]/api/data/v9.2/$metadata#knowledgearticles/$entity",
     "@odata.type":"#Microsoft.Dynamics.CRM.knowledgearticle",
     "isinternal":false,
     "isinternal@OData.Community.Display.V1.FormattedValue":"No",

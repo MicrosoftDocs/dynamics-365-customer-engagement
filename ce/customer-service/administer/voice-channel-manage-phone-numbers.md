@@ -1,11 +1,12 @@
 ---
 title: Manage phone numbers
 description: Use this article to understand how you can acquire new phone numbers, and also view, update, and release existing phone numbers in Dynamics 365 Contact Center.
-ms.date: 06/14/2024
+ms.date: 12/13/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Manage phone numbers
@@ -109,15 +110,15 @@ After you acquire a phone number, you must add it to a voice workstream to be ab
 
 ## Configure phone numbers for outbound calls
 
-After you purchase phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your agents can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
+After you purchase phone numbers and associated them with voice workstreams, you can configure them for outbound calls so your customer service representatives can actually make calls to customers. More information: [Configure the phone number for outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling)
 
 ## Configure voice channel for inbound calls
 
-You can also enable your agents to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
+You can also enable your customer service representatives to receive customer calls, create queues for the voice channel, and set up routing rules. More information: [Set up workstreams and queues for the voice channel](voice-channel-inbound-calling.md)
 
-## Assign phone numbers to agents
+## Assign phone numbers to customer service representatives
 
-You can also assign personal phone numbers to agents, so they're able to make and/or receive calls exclusively on that number. More information: [Assign personal phone numbers to agents](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents)
+You can also assign personal phone numbers to customer service representatives, so they're able to make and/or receive calls exclusively on that number. Learn more in [Assign personal phone numbers to customer service representatives](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
 
 ## Edit phone numbers
 
@@ -134,7 +135,7 @@ If you want to change the calling plan, or upgrade the calling or SMS plans on a
 
 ## Release phone numbers
 
-If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any agent, you must disable the number, and then try releasing it again.
+If you no longer need a phone number, you can release it from your organization's phone number list. However, before you plan to remove the phone number from your business, you must remove the number from any associated workstreams or outbound profiles. Also, if the number is assigned as a personal number to any customer service representative, you must disable the number, and then try releasing it again.
 
 > [!IMPORTANT]
 >

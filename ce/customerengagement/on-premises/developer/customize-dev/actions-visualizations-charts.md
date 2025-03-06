@@ -2,7 +2,6 @@
 title: "Actions on visualizations (charts) (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Using the Dynamics 365 Customer Engagement web services (SDK), you can perform the following actions on the visualization entities."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -42,7 +41,7 @@ Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-s
   > [!NOTE]
   >  Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-services.md)], if you set an organization-owned visualization as default for an entity that already has another visualization set as default, both the visualizations are marked as default visualizations for the entity.  To set a visualization as a default visualization for an entity, make sure that no other visualization is set as the default visualization for the entity.  
   
-  For a list of supported messages on the organization-owned visualization entity, see [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md).  
+  For a list of supported messages on the organization-owned visualization entity, see [SavedQueryVisualization table](/power-apps/developer/data-platform/reference/entities/savedqueryvisualization).  
   
 ## Actions on user-owned visualizations  
  You can perform the following actions on a user-owned visualization (`UserQueryVisualization`):  
@@ -60,7 +59,7 @@ Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-s
   
 - Collaborate with other users and teams on specific areas by sharing a user-owned visualization with them using <xref:Microsoft.Crm.Sdk.Messages.GrantAccessRequest>, <xref:Microsoft.Crm.Sdk.Messages.ModifyAccessRequest>, and <xref:Microsoft.Crm.Sdk.Messages.RevokeAccessRequest>.  
   
-  For a list of supported messages on the user-owned visualization entity, see [UserQueryVisualization Entity](../entities/userqueryvisualization.md).
+  For a list of supported messages on the user-owned visualization entity, see [UserQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/userqueryvisualization).
 
 ### See also  
  [Charts](view-data-with-visualizations-charts.md)   
@@ -70,8 +69,8 @@ Using the [!INCLUDE[cc-dyn365-ce-web-services](../../includes/cc-dyn365-ce-web-s
  [Sample: Create, Retrieve, Update, and Delete (CRUD) a Chart](sample-create-retrieve-update-delete-chart.md)   
  [Sample: Retrieve all Charts Attached to an Entity](sample-retrieve-all-charts-attached-entity.md)   
  [Sample: Assign a Chart to Another User](sample-assign-chart-another-user.md)   
- [SavedQueryVisualization Entity](../entities/savedqueryvisualization.md)   
- [UserQueryVisualization Entity](../entities/userqueryvisualization.md)
+ [SavedQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/savedqueryvisualization)   
+ [UserQueryVisualization Entity](/power-apps/developer/data-platform/reference/entities/userqueryvisualization)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

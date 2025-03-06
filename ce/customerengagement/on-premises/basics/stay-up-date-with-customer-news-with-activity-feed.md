@@ -2,7 +2,6 @@
 title: "Activity feeds in Dynamics 365 Customer Engagement (on-premises)"
 description: "Monitor the activity feed to stay current with sales, projects, and campaigns. Follow updates for up to 1,000 contacts, colleagues, and records."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2396d3f3-ca6b-4a44-99dd-bdbaf9b22a58
 caps.latest.revision: 29
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

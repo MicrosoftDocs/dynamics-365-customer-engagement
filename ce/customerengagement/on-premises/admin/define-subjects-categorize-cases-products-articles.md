@@ -1,7 +1,6 @@
 ---
 title: "Define subjects in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create and edit subjects to help your organization categorize service cases, knowledge base articles, products, and sales literature."
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

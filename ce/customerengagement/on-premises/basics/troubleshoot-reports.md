@@ -2,7 +2,6 @@
 title: "Data not showing in report in Dynamics 365 Customer Engagement (on-premises)"
 description: "There are several possible reasons why data that you expect to see in a report doesn't appear. This page helps you troubleshoot the issue."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 886fee0f-d97b-4baf-9019-63ee11cdf329
 caps.latest.revision: 27
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

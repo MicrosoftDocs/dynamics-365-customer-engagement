@@ -21,16 +21,9 @@ A rule considers only the records that are created or updated after it's activat
 
 Watch this brief video to learn more about assignment rules in sales accelerator:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4VjOo]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=98c3652e-249c-4344-b72a-29e286fb1c73]
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Prerequisites
 
@@ -74,7 +67,7 @@ You can add up to 10 conditions, including conditions in groups and related enti
 
 1. To impose a time limit on assigning a seller to the records the rule applies to, select **Consider *record type* created in the last**. Select the number of hours within which the rule considers the created records for assignment.
 
-    If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#reasons-records-might-be-left-unassigned) is set to *Seller not assigned as record is older than the set timeframe*.
+    If no seller is available to take the record within that time, the record is marked overdue. [The status reason](wa-manage-unassigned-records.md#analyze-error-details-and-resolve-issues) is set to *Seller not assigned as record is older than the set timeframe*.
 
 ### Select sellers, sales teams, or queues to assign
 
