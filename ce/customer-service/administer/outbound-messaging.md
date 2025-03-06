@@ -159,9 +159,7 @@ Sample JSON for SMS:
 }
 ```
 
- 10. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
-
- 11. Add the output from the compose action.
+ 10. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined. Also add the output from the compose action.
 
 When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
 
