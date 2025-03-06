@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 06/14/2024
+ms.date: 03/05/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -21,17 +21,17 @@ The success of social media customer service, like all other customer service, d
 ## Prerequisites
 
 - Make sure channels are provisioned in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
-  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
+  > For newly created Twilio accounts, you must disable a security setting that blocks the ability to send media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
 
-- Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. For information on configuring a Twilio sandbox account, go to [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
+- Obtain a Twilio account with an appropriate subscription or a Twilio sandbox account. Learn more in [Integrate a Twilio sandbox account](#integrate-omnichannel-application-with-a-twilio-sandbox-account).
 
-- Connect Twilio Number to your WhatsApp Business Profile. For more information, refer to [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
+- Connect Twilio Number to your WhatsApp Business Profile. Learn more in [Connect your Twilio Number to your WhatsApp Business Profile](https://www.twilio.com/docs/sms/whatsapp/tutorial/connect-number-business-profile).
 
 - Verify that you have permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
 
 ## WhatsApp message types and 24-hour session rule
 
-- **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. For more information about WhatsApp message templates, refer to [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
+- **Template messages:** Are the outbound messages that agents send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. Learn more about WhatsApp message templates in the [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
 > [!IMPORTANT]
 > On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the [Twilio Content Template Builder](https://go.microsoft.com/fwlink/?linkid=2306633).
@@ -40,7 +40,7 @@ The success of social media customer service, like all other customer service, d
 > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
 > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
 >
-> Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
+> Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. Learn more in [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
 
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by an agent to the incoming messages, within 24 hours. A messaging session starts when agents receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
