@@ -15,7 +15,7 @@ ms.reviewer: nenellim
 The report issues feature in the Contact Center workspace or the Customer Service workspace app allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
-> The report issues feature is not supported in the the Contact Center workspace or the Customer Service workspace on Unified Service Desk.
+> The report issues feature isn't supported in the Contact Center workspace or the Customer Service workspace on Unified Service Desk.
 
 You can copy the information while communicating with a customer by using one of the following keyboard shortcuts.
 
