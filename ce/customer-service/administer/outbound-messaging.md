@@ -54,14 +54,14 @@ Set up templates to send outbound messages. To create a template, consider the s
 
 You can set up the outbound configuration in the Customer Service admin center or Contact Center admin center app.
 
-1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page appears.
-1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page is displayed.
-1. Select **New**, and on the **New Outbound Configuration** page,  enter the details for the settings mentioned in the following table.
+1. In the site map, select **Customer Settings** in **Customer support**. The **Customer settings** page displays.
+1. In the **Outbound** section, select **Manage**. The **Active Outbound Configurations** page displays.
+1. Select **New**, and then on the **New Outbound Configuration** page, enter the details for the settings mentioned in the following table.
 
     | Field               | Description| Sample value                       |
     |---------------------|------------|--------------------------|
     | Name                | Name of the outbound configuration| Examples:<br>**Case created** <br> **Case updated** <br> **User added**   |
-    | Show in timeline    | The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that need to be sent to a high volume of customers, we recommend that you leave this setting at **No**, to conserve resources in your Omnichannel for Customer Service environment and storage.  | **Yes**                                  |
+    | Show in timeline    | The **Show in timeline** field displays the outbound message in the customer's timeline and activities. Set the toggle to **Yes** for event-based messages that apply to the support journey of a specific set of customers. For bulk messages that need to be sent to a high volume of customers, we recommend that you leave this setting at **No** to conserve resources in your Omnichannel for Customer Service environment and storage.  | **Yes**                                  |
     | Channel type        | Name of the channel for which the configuration is being set up. | **SMS** or **WhatsApp**      |
     | Channel             | Channel number | For SMS, this setting is ***the preconfigured channel number***.<br> For WhatsApp, this setting is ***the preconfigured phone number***. |
     | Message template    | Name of the template | ***Your previously created template***   |
@@ -83,14 +83,14 @@ Power Automate provides a low-code platform for workflow and process automation.
 
 **To set up a Power Automate flow**
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**. The **Productivity** page appears.
-1. In the **Message templates** section, select **Manage**. The **Message template view** page is displayed.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**. The **Productivity** page displays.
+1. In the **Message templates** section, select **Manage**. The **Message template view** page displays.
 
 1. Select **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 
-    Go to https://us.flow.microsoft.com/, sign in to your account and select **My flows**.
+    Go to https://us.flow.microsoft.com/, sign in to your account, and then select **My flows**.
 
 1. In Power Automate, set up a flow that aligns with your outbound messaging scenario:
 
@@ -102,9 +102,9 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     Learn more about the current limits and configuration details for flows in [Limits and configuration in Power Automate](/power-automate/limits-and-config).
 
- 1. Initialize an *OutboundConfigurationId* variable and set it to the outbound message configuration ID that you generated.
+ 1. Initialize an *OutboundConfigurationId* variable, and then set it to the outbound message configuration ID that you generated.
 
- 1. Initialize an *ActivityRelationship* variable and set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+ 1. Initialize an *ActivityRelationship* variable, and then set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
 
     
 1. Initialize a ContactList array variable, which can be used as contact information.
@@ -124,8 +124,8 @@ Power Automate provides a low-code platform for workflow and process automation.
    | **entityrelationshipname** | Optional | This field refers to the **ActivityRelationship** variable that was previously defined. Although this field isn't required, it's essential for being able to track outbound activities in the timeline. So, if **Show in timeline** in the outbound configuration is set to **Yes**, this field has to be added to the flow for it to show in the timeline. |
    | **regardingobjectid** | Optional | The identifier of the object to be linked to the entity defined by the **entityrelationshipname** property. if this field isn't included and **Show in timeline** is enabled, the record won't show in the timeline. |
    | **msdyn_ocoutboundconfigurationid** | Optional | This field refers to the **OutboundConfigurationId** variable that was previously defined.|
-   | **customParameterName**, **customParamaterValue** | Optional | Additional key value pair parameters for the template. These values are replaced in the message template when the message is sent.<br> If you're using SMS or WhatsApp text messages, you add key value pairs. <br> Don't include parameters in scenarios where if you're using WhatsApp content builder templates, Twilio WhatsApp template builder parameters should be specified in the **templateparameters** property described later in this table. |
-   | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive and results in an error if the customer name values are different. <br> if you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
+   | **customParameterName**, **customParamaterValue** | Optional | Additional key value pair parameters for the template. These values are replaced in the message template when the message is sent.<br><br> If you're using SMS or WhatsApp text messages, you add key value pairs. <br> Don't include parameters in scenarios where if you're using WhatsApp content builder templates, Twilio WhatsApp template builder parameters should be specified in the **templateparameters** property described later in this table. |
+   | **CustomerName** | Optional | The name of the customer. This value isn't case-sensitive, and results in an error if the customer name values are different. <br><br> If you're using SMS, you add key value pairs. If you're using WhatsApp content builder templates from Twilio, specify the key value pairs from the templates.|
    | **sendastemplate** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. |
    | **templateparameters** | WhatsApp only | For new or upgraded templates in the Twilio Content Template Builder. Follows Twilio's template parameters. |
 
@@ -179,8 +179,8 @@ When the customer responds back to the outbound messages, the customer's message
 Before you begin, make sure that you [migrated your templates to the Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Workstreams**, and then go to your WhatsApp Twilio workstream.
-1. Select **Edit**. The WhatsApp workstream page appears.
-1. Select the **Behaviors** tab, and then under **WhatsApp-approved message templates**, select the template you created previously, and then select **Edit**. The **Edit message template** page appears.
+1. Select **Edit**. The WhatsApp workstream page displays.
+1. Select the **Behaviors** tab, and then under **WhatsApp-approved message templates**, select the template you created previously, and then select **Edit**. The **Edit message template** page displays.
 1. In **Name**, replace the name with the **Content Template SID** in Twilio Content Template Builder. The **Content Template SID** is the unique identifier for the template in Twilio.
 1. Select **Save**.
 1. Edit the flow that uses the template in Power Automate, and update the **Append to ContactList** variable action with the new WhatsApp template format described previously in this section.
