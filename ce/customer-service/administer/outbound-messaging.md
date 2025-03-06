@@ -84,15 +84,15 @@ Power Automate provides a low-code platform for workflow and process automation.
 **To set up a Power Automate flow**
 
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**. The **Productivity** page displays.
-1. In the **Message templates** section, select **Manage**. The **Message template view** page displays.
+2. In the **Message templates** section, select **Manage**. The **Message template view** page displays.
 
-1. Select **Flow** at the top of the screen, and then select **Create a flow**.
+3. Select **Flow** at the top of the screen, and then select **Create a flow**.
 
     or
 
     Go to https://us.flow.microsoft.com/, sign in to your account, and then select **My flows**.
 
-1. In Power Automate, set up a flow that aligns with your outbound messaging scenario:
+4. In Power Automate, set up a flow that aligns with your outbound messaging scenario:
 
     - **Automated:** Send an automatic message triggered by a system event, for example, case creation.
 
@@ -102,14 +102,14 @@ Power Automate provides a low-code platform for workflow and process automation.
 
     Learn more about the current limits and configuration details for flows in [Limits and configuration in Power Automate](/power-automate/limits-and-config).
 
- 1. Initialize an *OutboundConfigurationId* variable, and then set it to the outbound message configuration ID that you generated.
+ 5. Initialize an *OutboundConfigurationId* variable, and then set it to the outbound message configuration ID that you generated.
 
- 1. Initialize an *ActivityRelationship* variable, and then set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
+ 6. Initialize an *ActivityRelationship* variable, and then set it to the relationship name of the entity that the activity will be linked to. For example, *incident_msdyn_ocoutboundmessages*. This action enables outbound activity tracking and reporting in Omnichannel for Customer Service.
  
- 1. Initialize a ContactList array variable, which is used to store contact information and other parameters that the system uses to send the outbound notifications.
- 1. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
+ 7. Initialize a ContactList array variable, which is used to store contact information and other parameters that the system uses to send the outbound notifications.
+ 8. Get the required customer contact records that contain phone numbers and other contact details, which can be used as slugs in outbound messaging.
 
- 1. Fill in the values for the ContactList in the **Append to array variable** template.
+ 9. Fill in the values for the ContactList in the **Append to array variable** template.
     
    | Field | Requirement | Description |
    | --------- | --------- | ------------------- |
@@ -159,9 +159,9 @@ Sample JSON for SMS:
 }
 ```
 
- 1. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
+ 10. Add a **Perform an unbound action**, select **msdyn_InvokeOutboundAPI** as the action name, and then set the **msdyn_ocoutboundconfigurationitem/OutboundSettingsRecord/msdyn_ocoutboundconfigurationid** property to the **OutboundConfigurationId** you previously defined.
 
- 1. Add the output from the compose action.
+ 11. Add the output from the compose action.
 
 When the customer responds back to the outbound messages, the customer's message is treated like any other incoming conversation that exists today in Omnichannel for Customer Service. The conversation is routed and assigned to a customer service representative, who can then respond back to the customer.
 
