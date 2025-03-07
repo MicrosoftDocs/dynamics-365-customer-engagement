@@ -1,7 +1,7 @@
 ---
 title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
-ms.date: 06/28/2024
+ms.date: 01/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -54,7 +54,7 @@ Follow the instructions in [Microsoft Dataverse teams management](/power-platfor
 
 ### Remove members from the team
 
-1. On the **Team Management** page, select the team you want to remove the members from
+1. On the **Team Management** page, select the team you want to remove the members from.
 
 2. In the **Team members** section, select the members you want to remove, and then select **Remove**.
 
@@ -63,14 +63,12 @@ Follow the instructions in [Microsoft Dataverse teams management](/power-platfor
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
 1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. Select **Settings** > **Security** > **Teams**.
 
-3.  Select a team you want to assign a role to, and then on the command bar, select **Manage Roles**.
+3.  Select a team you want to assign a role to, and then on the command bar, select **Manage security roles**.
 
-4.  In the **Manage Team Roles** dialog box, select the security role you want for the team, and then select **OK**.
+4.  In the **Manage security roles** pane, select the security role you want for the team, and then select **Save**.
 
 ---
 

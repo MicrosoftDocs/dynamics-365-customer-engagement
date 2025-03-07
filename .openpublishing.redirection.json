@@ -1231,6 +1231,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/work-with-views.md",
+      "redirect_url": "/power-apps/user/grid-filters",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/account.md",
       "redirect_url": "/dynamics365/developer/reference/entities/account",
       "redirect_document_id": "false"
@@ -2717,6 +2722,11 @@
     {
       "source_path": "ce/sales/optimize-ranking-insight-cards.md",
       "redirect_url": "/dynamics365/sales/deprecations-sales",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/sales/view-product-hierarchy.md",
+      "redirect_url": "/power-platform/important-changes-coming#hierarchy-control-in-model-driven-apps-is-deprecated",
       "redirect_document_id": "false"
     },
     {
@@ -35606,6 +35616,62 @@
       "source_path": "ce/customer-service/administer/migrate-acs.md",
       "redirect_url": "/dynamics365/customer-service/administer/overview",
       "redirect_document_id": false
-    }
+    },
+    {
+      "source_path": "ce/customer-service/administer/copilot-enable-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-summary",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/copilot-enable-help-pane.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-enable-help-pane",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/copilot-email-enable.md",
+      "redirect_url": "/dynamics365/contact-center/administer/copilot-email-enable",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/enable-copilot-plugins-for-generative-ai.md",
+      "redirect_url": "/dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai",
+      "redirect_document_id": false
+    },   
+    {
+      "source_path": "ce/customer-service/administer/customize-copilot-conv-summary.md",
+      "redirect_url": "/dynamics365/contact-center/administer/customize-copilot-conv-summary",
+      "redirect_document_id": false
+    },       
+    {
+      "source_path": "ce/customer-service/administer/knowledge-copilot.md",
+      "redirect_url": "/dynamics365/contact-center/administer/knowledge-copilot",
+      "redirect_document_id": false
+    },   
+    {
+      "source_path": "ce/customer-service/use/copilot-summarize-conversations.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-summarize-conversations",
+      "redirect_document_id": false
+    },  
+    {
+      "source_path": "ce/customer-service/use/use-ask-a-question.md",
+      "redirect_url": "/dynamics365/contact-center/use/use-ask-a-question",
+      "redirect_document_id": false
+    },    
+    {
+      "source_path": "ce/customer-service/use/use-copilot-features.md",
+      "redirect_url": "/dynamics365/contact-center/use/use-copilot-features",
+      "redirect_document_id": false
+    },      
+    {
+      "source_path": "ce/customer-service/use/use-copilot-email.md",
+      "redirect_url": "/dynamics365/contact-center/use/use-copilot-email",
+      "redirect_document_id": false
+    },     
+    {
+      "source_path": "ce/customer-service/use/copilot-chat-customer-service-data.md",
+      "redirect_url": "/dynamics365/contact-center/use/copilot-chat-customer-service-data",
+      "redirect_document_id": false
+    }   
+
   ]
 }

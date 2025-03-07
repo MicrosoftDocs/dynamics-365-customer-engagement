@@ -57,6 +57,8 @@ Customers can choose to download and email a copy of their chat transcript conve
     > [!div class=mx-imgBorder]
     > ![Chat transcript prompt.](../media/oc-chat-transcript-prompt-screen.png "Chat transcript prompt")
 
+> [!NOTE]
+> If files of MIME type ".txt" are blocked in the Dataverse instance, you can't save conversation transcripts.
 
 ### Related information
 

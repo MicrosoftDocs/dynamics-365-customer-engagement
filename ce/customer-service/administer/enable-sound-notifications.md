@@ -1,7 +1,7 @@
 ---
 title: Enable sound notifications for conversations in Omnichannel for Customer Service
 description: How to enable sound notifications for conversations in Omnichannel for Customer Service.
-ms.date: 12/13/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,11 +14,11 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows agents to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
+Sound notifications for incoming conversation requests, such as live chat, that require immediate response are helpful in making sure the requests are not missed. Administrators can enable the sound notification settings in the configuration settings of Omnichannel for Customer Service. The option to personalize allows customer service representatives (service representatives or representatives) to customize their preferences for sound and volume selections, among other things. The sound notifications are available across all channels and can also be set for messages for ongoing conversations.
 
 ## Prerequisite for sound notifications
 
-Make sure the browsers used by agents allow sounds to be played. In Microsoft Edge, sound is allowed by default. However, if for some reason, sound settings are turned off, you can enable them by going to the [media autoplay](edge://settings/content/mediaAutoplay) setting in Microsoft Edge. For information on how to enable sound notifications for other browsers, see the browser-specific documentation.
+Make sure the browsers used by service representatives allow sounds to be played. In Microsoft Edge, sound is allowed by default. However, if for some reason, sound settings are turned off, you can enable them by going to the [media autoplay](edge://settings/content/mediaAutoplay) setting in Microsoft Edge. For information on how to enable sound notifications for other browsers, see the browser-specific documentation.
 
 ## Enable sound notifications
 
@@ -35,7 +35,7 @@ When you enable sound settings, the options to personalize settings are availabl
 1. Customize the notification settings for the required channels. The following settings are for Microsoft Teams:
 
    - **Play Sound:** Set the toggle to **Yes**.
-   - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till the agent responds.
+   - **Repeat until answered:** Set the toggle to **Yes** if you want the sound to be played till the representative responds.
    - **Sound:** Accept the default setting or search and select a different audio file. You can use the **New Audio File** option to upload and use an audio file of your choice. You also have the option to preview the audio.
    - **Volume:** Accept the default setting or use the slider to adjust the volume.
 
