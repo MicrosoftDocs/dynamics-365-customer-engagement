@@ -1,5 +1,5 @@
 ---
-title: Compliance certification for Customer Service
+title: Compliance certification for Dynamics 365 Customer Service
 description: This article provides information on compliance certification requirements for Dynamics 365 Customer Service. Use the link in the topic to download the file that contains the compliance information.
 ms.date: 03/07/2025
 ms.topic: conceptual
@@ -11,7 +11,7 @@ ms.collection:
 ---
 # Compliance certifications for Customer Service
 
-Dynamics 365 Customer Service is a Core Online Service as defined in the [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309612). It's compliant with or covered by:
+Dynamics 365 Customer Service is a Core Online Service as defined in the [Microsoft Product Terms](https://www.microsoft.com/licensing/docs/view/Product-Terms). It's compliant with or covered by:
 
 - Health Insurance Portability and Accountability Act (HIPAA) coverage
 
@@ -28,7 +28,7 @@ Refer to the [Service Trust Portal](https://servicetrust.microsoft.com/) for com
 
 ### Related information
 
-[Prerequisites and system requirements](system-requirements-omnichannel.md)  
+[Overview of Dynamics 365 Customer Service](overview.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
