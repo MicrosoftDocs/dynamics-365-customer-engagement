@@ -34,8 +34,7 @@ The provisioning and management of the short codes is simplified for your organi
 
 ### Set up a short code
 
-1. Follow the steps in [Apply for a short code](/azure/communication-services/quickstarts/sms/apply-for-short-code) to apply for the SMS short code in Azure Communication Services.
-1. Assign the SMS short code to your Azure resource.
+Follow the steps in [Apply for a short code](/azure/communication-services/quickstarts/sms/apply-for-short-code) to apply for the SMS short code in Azure Communication Services.
 
 ### Assign the short code in contact center
 
