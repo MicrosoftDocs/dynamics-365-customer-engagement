@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain an opportunity scoring model
 description: Learn how to edit and retrain a predictive opportunity scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
-ms.date: 11/30/2022
+ms.date: 11/05/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -12,13 +12,6 @@ ms.reviewer: lavanyakr
 # Edit and retrain an opportunity scoring model
 
 When the prediction accuracy of a model doesn't meet your expectations, or a model duplicates an existing one, you can edit the model's attributes and retrain it.  
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Edit a model
 

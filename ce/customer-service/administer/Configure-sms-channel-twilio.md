@@ -1,11 +1,11 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio.
-ms.date: 07/01/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
@@ -14,18 +14,18 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-The SMS channel through Twilio allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service agent. Agents can view incoming SMS requests on their dashboard and respond accordingly.
+The SMS channel through Twilio allows your organization to connect to customers by using text messages. Your customers can send text messages through Twilio and connect with an appropriate customer service representative (service representative or representative). Service representatives can view incoming SMS requests on their dashboard and respond accordingly.
 
 ## Prerequisites
 
 Make sure that the following prerequisites are met:
 
-- SMS for Twilio is provisioned in the Customer Service admin center or Contact Center admin center application. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels) 
+- SMS for Twilio is provisioned in the Customer Service admin center or Contact Center admin center application. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
  
 - A Twilio account with a phone number and subscription is available.
     > [!NOTE]
-    > > For new Twilio accounts, you must disable a security setting that blocks media files. More information: [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938)
-- Permissions on the secure columns. More information: [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns)
+    > > For new Twilio accounts, you must disable a security setting that blocks media files. Learn more in [Extended notice and update on security changes: HTTP Authentication for Voice and Messaging Media enabled by default](https://go.microsoft.com/fwlink/p/?linkid=2248938).
+- Permissions on the secure columns. Learn more in [Configure permissions to access secure columns](../implement/add-users-assign-roles.md#configure-permissions-to-access-secure-columns).
 
 ### Get Twilio account details
 
@@ -68,23 +68,23 @@ To configure the SMS channel, complete the following tasks:
 
 ### Configure the workstream for the SMS channel
 
-To configure the workstream, make sure you perform the steps to create a workstream for the SMS channel. More information: [Create workstreams](create-workstreams.md)
+To configure the workstream, make sure you perform the steps to create a workstream for the SMS channel. Learn more in [Create workstreams](create-workstreams.md).
 
 1. Go to workstreams page and open the workstream you created for the channel.
 2. In the **Set up your SMS channel** section, select **Set up SMS**, and then configure the following options:
    1. On the **SMS setup** page, select a number from the list.
    2. On the **Language** page, select the language that you want to set as the default.
    3. On the **Behaviors** page, configure the following options:
-     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. More information: [Configure operating hours](create-operating-hours.md)
+     - **Channel operation hours:** Set the toggle to **On**, and then select an operating hour record. Learn more in [Configure operating hours](create-operating-hours.md).
      - [Custom automated messages](configure-automated-message.md)
      - [Post-conversation survey](configure-post-conversation-survey.md)
-   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both agents and customers to exchange files. More information: [Enable file attachments](enable-file-attachments.md)
+   4. In **User features**, set the toggle for **File attachments** to **On** and select the following options if you want both representatives and customers to exchange files. Learn more in [Enable file attachments](enable-file-attachments.md).
      - Customers can send file attachments
-     - Agents can send file attachments
+     - Representatives can send file attachments
    5. Verify the settings on the **Summary** page, and then select **Finish**. The SMS for Twilio channel is configured.
-3. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
-4. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
-5. Add a bot. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+3. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
+4. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
+5. Add an AI agent. Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 6. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
    - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
@@ -111,7 +111,7 @@ For an incoming text message sent by a customer to the support phone number, the
 
 ### Outgoing text messages
 
-For an outgoing message sent by an agent from within the application, the message is first sent to the Twilio service and then Twilio sends it to the customer. In addition to the text message, the application uses the APIs provided by Twilio to send the customer's phone number, support phone number, and the Twilio account information (Account SID and the Auth Token) to the Twilio service.
+For an outgoing message sent by a representative from within the application, the message is first sent to the Twilio service and then Twilio sends it to the customer. In addition to the text message, the application uses the APIs provided by Twilio to send the customer's phone number, support phone number, and the Twilio account information (Account SID and the Auth Token) to the Twilio service.
 
 ### Twilio account and phone number validation
 
@@ -124,7 +124,6 @@ When you validate the SMS settings while setting up the SMS channel, a call is m
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Delete a configured channel](delete-channel.md)  
 [Configure SMS channel using Azure Communication Services](configure-sms-channel-acs.md)	
-[Configure SMS channel using TeleSign](configure-sms-channel.md)	
 [SMS FAQ](faqs.md#sms)  
 
 

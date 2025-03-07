@@ -1,7 +1,7 @@
 ---
 title: Configure columns and layouts in forecast grid
 description: Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
-ms.date: 06/28/2023
+ms.date: 01/02/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,14 +19,6 @@ searchScope:
 # Choose layout and columns 
 
 Configure columns and layouts you want sellers to see in the forecast grid. Add from option set, change column type, show columns in chart, and more.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Add and configure columns
 
@@ -52,30 +44,27 @@ To define the layout, select an option set and then add the rollup columns accor
 
 1.	In the **Layout and column** section, select **Add from option set**. A list of option sets appears. 
 
-2.	Choose an option set entity from the rollup entity or from its related entities. The selected entity consists of option sets that are necessary to add columns to the forecast. In this example, the **Opportunity (Opportunity)** option set entity is selected from **Related Entities**. The list shows only the option sets defined on the opportunity entity.
+2.	Choose an option set entity from the rollup entity or from its related entities. The selected entity consists of option sets that are necessary to add columns to the forecast. In this example, the **Opportunity** option set entity is selected from **Related Entities**. The list shows only the option sets defined on the opportunity entity.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select opportunity entity from related entities.](media/forecast-ce-select-opportunity-entity.png "Select opportunity entity from related entities")
+    :::image type="content" source="media/forecast-ce-select-opportunity-entity.png" alt-text="Select opportunity entity from related entities":::
 
 3.	Choose an option set and then select **Choose selected**. In this example, **Forecast category** option set is selected. The option set values are added as columns for you to configure.
 
     > [!TIP]
     > We recommend you use the out-of-the-box **Forecast category** option set for column configuration. After choosing this option, select **Auto-configure** in the dialog box that asks if you want to auto-populate the configuration parameters. This saves time by automatically populating columns according to best practices. The option to auto-configure columns are available only for **Opportunity** and **Opportunity product** rollup entities.
 
-    > [!div class="mx-imgBorder"]
-    > ![Choose option set for forecast.](media/forecast-layout-column-choose-option-set.png "Choose an option set for the forecast")
+    :::image type="content" source="media/forecast-layout-column-choose-option-set.png" alt-text="Choose an option set for the forecast":::
 
     By default, a **Quota** column of type **Simple** is added to the forecast. To begin tracking against targets, you must manually upload an Excel workbook that contains quota values to the forecast. To learn more, see [Activate and upload simple columns data](activate-upload-simple-columns-data-forecast.md).
 
     After the rollup columns are added to the forecast, you can use **More options** to rearrange or remove the columns that you don't need.
 
-    > [!div class="mx-imgBorder"]
-    > ![Rollup columns are added to the forecast.](media/forecast-layout-column-selected-columns-added.png "rollup columns are added to the forecast")
+    :::image type="content" source="media/forecast-layout-column-selected-columns-added.png" alt-text="rollup columns are added to the forecast":::
 
 <a name="configure-columns"> </a>      
 ## Configure columns
 
-In the **Layout** step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing a column in the trend chart&mdash;according to your organizational requirements.
+In the **Layout** step of the forecast configuration, you can configure each column individually&mdash;such as changing the column type, allowing adjustments, and showing progress towards the quota&mdash;according to your organizational requirements.
 
 >[!NOTE]
 >- Auto configuration of columns are available only for **Opportunity** and **Opportunity product** rollup entities. For other rollup entities, you must manually configure each column.
@@ -83,8 +72,7 @@ In the **Layout** step of the forecast configuration, you can configure each col
 
 1.	To configure each column, select the gear icon ![Gear icon.](media/gear-icon.png "Gear icon") and the column configuration section opens. In this example, the **Pipeline** column is selected.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select configuration option for a column.](media/forecast-layout-column-configuration-selection-opens.png "Select a configuration option for a column")
+    :::image type="content" source="media/forecast-layout-column-configuration-selection-opens.png" alt-text="new image":::
 
     On the column configuration page, the **Name** field specifies the display name of the column. The **Unique name** field is auto-populated based on the display name you've specified and supports only English characters. If you use non-English characters in the **Name** field, the **Unique name** field isn't auto-populated. You must manually enter a unique name in English for such columns.  
 
@@ -122,7 +110,6 @@ Select the column **Type** as **Rollup**. The following options are available to
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Allow adjustments | Enable this setting to let users manually edit a system-calculated value directly in the forecast grid. When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When this is enabled, a progress bar indicating the attainment percentage is shown below the column's value.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend charts](/dynamics365/sales/understand-forecast-projection-through-trend-chart). |
 
 
 <a name="configure-calculated-type"> </a>
@@ -137,7 +124,7 @@ Calculated columns can be identified in your forecast by looking for the informa
 | Description | Enter a description for the column. This description appears as a tooltip on the column header of the forecast grid, to help your users understand what the column contains. |
 | Allow adjustments | Enable this setting to let users manually edit the value of a calculated column directly in the forecast grid. When you select the column as adjustable, the formula you have created for this column must satisfy certain conditions that allow a proper rollup of values in the forecast. If not satisfied, an error is displayed, and you can't proceed to the next step. To learn more about the conditions and its corresponding errors, see [Adjustment column conditions](#adjustment-column-conditions).<br> When this setting is enabled, you'll see a pencil icon next to the forecasted value in that column. To learn more, see [Adjust values in a forecast](adjust-values-in-forecast.md). |
 | Show progress compared to quota | Enable this option to compare the column's value against the quota column. When enabled, a progress bar indicating the attainment percentage is shown below the forecast value in that column.|
-| Show in Trend Chart | Enable this option to show the value in the **Trend Chart**. This option is available only when predictive forecasting is enabled for your organization. To learn more about trend charts, see [Understand forecast projection through trend chart](/dynamics365/sales/understand-forecast-projection-through-trend-chart). |
+
 
 #### Adjustment column conditions
 
@@ -145,7 +132,7 @@ To configure a calculated column as adjustable, it must satisfy certain conditio
 
 | Condition	| Description | Error type | Resolution |
 |-----------|-------------|------------|------------|
-| No column with adjustments | In the **Calculation** box, the formula must not contain columns that have been defined as adjustable. <br>**Example:**You want to configure the **committed** column as a calculated field with adjustments. You entered the formula as **won + forecast**. Here, the **forecast** column has been configured as adjustable.<br> When you select **Allow adjustments**, an error is displayed. | **Error:** "The formula is invalid. The column reference - *column* results in a circular dependency."<br>![Error message for column with adjustments.](media/forecast-column-no-column-with-adjustments.png "Error message for column with adjustments") | Remove the column that has been configured as adjustable from the formula and replace it with a non-adjustable column. |
+| No column with adjustments | In the **Calculation** box, the formula must not contain columns that have been defined as adjustable. <br> **Example:** You want to configure the **committed** column as a calculated field with adjustments. You entered the formula as **won + forecast**. Here, the **forecast** column has been configured as adjustable.<br> When you select **Allow adjustments**, an error is displayed. | **Error:** "The formula is invalid. The column reference - *column* results in a circular dependency."<br>![Error message for column with adjustments.](media/forecast-column-no-column-with-adjustments.png "Error message for column with adjustments") | Remove the column that has been configured as adjustable from the formula and replace it with a non-adjustable column. |
 | No simple or prediction columns | In the **Calculation** box, the formula must not contain any columns of the **simple** or **prediction** type.<br> **Example:** You want to configure the **forecast** column as a calculated field with adjustments. You entered the formula as **won + quota**. Here, **quota** is a simple column.<br>When you select **Allow adjustments** and then save the configuration, an error is displayed. | An error of type **Error while saving column** is displayed with the message "You can't mark this column as adjustable because the column type of *'Column(display name) '* in the formula is not supported."<br>![Error message for a simple or prediction column.](media/forecast-column-no-simple-prediction-column.png "Error message for a simple or prediction column")<br> Select **OK** to continue. | Remove the simple or prediction columns from the formula. |
 | No hierarchy-related columns | In the **Calculation** box, the formula must not contain any columns that are of type **hierarchy related**. Columns of this type won't be available through autocomplete in the **Calculation** box, but manually entering them will result in an error. <br>**Example:** You want to configure the **committed** column as a calculated field with adjustments. You entered the formula as **won + user**. Though the **user** column is of type **hierarchy related** and isn't displayed in the suggested column list, you entered it manually.<br> When you select **Allow adjustments**, an error is displayed. | **Error:** "The formula contains invalid column reference - *column* at position *number*."<br>![Error message for a hierarchy-related column.](media/forecast-column-no-hierarchy-related-column.png "Error message for a hierarchy-related column") | Never use columns that are of type **hierarchy related**. |
 | Formula must contain only addition and subtraction operations | In the **Calculation** box, the formula must contain only addition and subtraction operations. Other mathematical operations, such as multiplication or division, aren't supported.<br>**Example:** You want to configure the **forecast** column as a calculated field with adjustments. You entered the formula as **won * committed**. Here, the operator is multiplication.<br>When you select **Allow adjustments** and then save the configuration, an error is displayed. | An error of type **Error while saving column** is displayed with the message "You can't mark this column as adjustable because the formula or the formula of one of its calculated columns contains non-supported operations."<br>![Error message for operations other than addition and subtraction.](media/forecast-column-addition-subtraction-operations-only.png "Error message for operations other than addition and subtraction")<br>Select **OK** to continue. | Remove the unsupported mathematical operations from the formula, and use only addition and subtraction operations. |

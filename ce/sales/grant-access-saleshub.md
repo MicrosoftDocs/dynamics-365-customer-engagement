@@ -11,29 +11,6 @@ ms.reviewer: lavanyakr
 
 As an administrator, you decide which users or security roles should have access to the Sales Hub app. The app will honor the access permissions defined in the user's security role. For example, if the security role allows access to only opportunities and quotes, the app will display only those entities for the user.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-Sales Hub is turned on by default for the following roles:
-
-- System Administrator
-
-- System Customizer
-
-- Sales, Enterprise app access
-
-- Salesperson
-
-- Sales Manager
-
-- Vice President of Sales
-
-To hide the app from all users and roles, follow the instructions in [Hide a model-driven app from users](/powerapps/maker/model-driven-apps/deactivate-app).
-
 ## Grant or revoke access
 
 As an administrator, you can either grant or revoke access to a security role or to specific users.
@@ -52,7 +29,7 @@ As an administrator, you can either grant or revoke access to a security role or
 
     - To revoke access for specific users, remove the role from them.
 
-For more information on adding and removing users from a security role, see [Assign security roles to users](security-roles-for-sales.md#assign-security-roles-to-users).
+For more information on adding and removing users from a security role, see [Assign a security role to a user](/power-platform/admin/assign-security-roles).
 
 Users to whom you've granted access see the Sales Hub app on their **Published Apps** page. Users for whom you've revoked access don't see the app on that page.
 

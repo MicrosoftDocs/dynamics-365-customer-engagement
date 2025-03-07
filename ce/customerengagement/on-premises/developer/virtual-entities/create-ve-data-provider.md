@@ -1,7 +1,6 @@
 ---
 title: "Create a virtual entity data provider (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about the two general categories of data provider that can be created using the virtual entity SDK assemblies in Customer Engagement (on-premises).
-ms.date: 10/31/2017
 
 ms.topic: article
 applies_to: 
@@ -40,7 +39,7 @@ If for any reason your code cannot achieve the expected result, you must throw t
 
 The virtual entity data SDK provides a framework you can use to map the Dynamics 365 Customer Engagement query information from the execution context into a query in the format appropriate for your external data source. The same framework will help you convert the data returned in to the appropriate **Entity** or **EntityCollection** types expected by the Dynamics 365 Customer Engagement platform.
 
-Unlike an ordinary plugin, you will only use the Plugin Registration Tool (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [EntityDataProvider](../entities/entitydataprovider.md) and [EntityDataSource](../entities/entitydatasource.md) entities. 
+Unlike an ordinary plugin, you will only use the Plugin Registration Tool (PRT) to register the assembly and the plugins for each event. You will not register specific steps. Your plugin will run in stage 30, the main core transaction stage for the operation that is not available for ordinary plugin steps. Instead of registering steps, you will configure your data provider using the [EntityDataProvider](/power-apps/developer/data-platform/reference/entities/entitydataprovider) and `EntityDataSource` entities. 
 
 |Entity |Descrption|
 |-----|-----|

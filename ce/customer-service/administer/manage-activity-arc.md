@@ -3,6 +3,7 @@ title: Use activity monitor to review and track rules
 description: Manage activity monitor to review and track rules in Customer Service to view activity events, states, rule names, and more.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection:
 ms.date: 09/26/2024

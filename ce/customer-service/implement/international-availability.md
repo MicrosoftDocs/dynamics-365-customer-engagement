@@ -6,7 +6,7 @@ ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
 ms.collection:
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom:
   - bap-template
   - ai-gen-docs-bap

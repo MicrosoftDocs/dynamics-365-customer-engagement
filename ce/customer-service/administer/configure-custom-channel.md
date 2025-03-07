@@ -1,7 +1,7 @@
 ---
 title: Configure custom messaging channels 
 description: Learn what a custom channel is and how to configure it or bring your own channel.
-ms.date: 08/23/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -14,10 +14,13 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-> [!IMPORTANT]
-> The Telegram and Kik custom messaging channels will be deprecated and removed from Omnichannel for Customer Service on October 8, 2024. After this date, you won't be able to use these channels. Learn more at [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram. With the custom messaging channel capability, you can:
+
+> [!IMPORTANT]
+> The Telegram and Kik custom messaging channels were deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
+Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line. With the custom messaging channel capability, you can:
 
 - Bring in the channels your customers already use so that you can engage with them in familiar ways.
 - Integrate line-of-business or in-house channels that are specific to your organization.
@@ -26,7 +29,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ## Prerequisites
 
-- Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure to register the bot resource as a multitenant app.
+- Have an AI agent (agent) that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure to register the agent resource as a multitenant app.
 - [Connect the custom channel to the Azure bot resource](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true).
 - [Have the app ID](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=userassigned#to-get-your-app-or-tenant-id&preserve-view=true).
 - [Have the client secret value](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=userassigned#to-generate-a-new-password&preserve-view=true).
@@ -83,7 +86,7 @@ Apart from built-in channels like chat and email, your organization can integrat
    - [Custom automated messages](configure-automated-message.md)
    - [Post-conversation survey](configure-post-conversation-survey.md)
 
-1. On the **User features** page, if you want customers or agents, or both, to [send file attachments](enable-file-attachments.md), turn on **File attachments** and select the appropriate options.
+1. On the **User features** page, if you want customers or customer service representatives, or both, to [send file attachments](enable-file-attachments.md), turn on **File attachments** and select the appropriate options.
 
 1. Verify the settings on the **Summary** page, and then select **Finish**.
 

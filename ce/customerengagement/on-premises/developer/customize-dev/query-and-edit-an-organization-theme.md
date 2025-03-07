@@ -1,8 +1,7 @@
 ---
 title: "Query and edit an organization theme | MicrosoftDocs"
-description: "Learn about defining and applying visual themes for an organization. This provides a supported way to apply an organization’s logo and color choices to the application. "
+description: "Learn about defining and applying visual themes for an organization. This provides a supported way to apply an organization's logo and color choices to the application. "
 ms.custom: 
-ms.date: 12/15/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -20,7 +19,7 @@ search.audienceType:
 ---
 # Query and edit an organization theme
 
-You can define and apply visual themes for an organization. This provides a supported way to apply an organization’s logo and color choices to the application. You can create a custom theme for your application by making changes to the default colors and visual elements provided in the un-customized [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system. For example, you can create your personal product branding, add a company logo and provide entity-specific coloring. The theme colors are applied globally throughout the application, with the exception of some legacy areas.  
+You can define and apply visual themes for an organization. This provides a supported way to apply an organization's logo and color choices to the application. You can create a custom theme for your application by making changes to the default colors and visual elements provided in the un-customized [!INCLUDE[pn_dynamics_crm](../../includes/pn-dynamics-crm.md)] system. For example, you can create your personal product branding, add a company logo and provide entity-specific coloring. The theme colors are applied globally throughout the application, with the exception of some legacy areas.  
   
 > [!NOTE]
 > [!INCLUDE[cc_feature_included_with_2015_update_1_admins](../../includes/cc-feature-included-with-2015-update-1-admins.md)]  
@@ -75,7 +74,7 @@ OData-Version: 4.0
 
 ## Edit and publish theme data
 
- A theme is created by using the customization tools in the UI, without requiring a developer to write code. Details about how to apply these customizations can be found in [Change the color scheme or add a logo to match your organization’s brand](../../customize/change-color-scheme-add-logo-match-organizations-brand.md).  
+ A theme is created by using the customization tools in the UI, without requiring a developer to write code. Details about how to apply these customizations can be found in [Change the color scheme or add a logo to match your organization's brand](../../customize/change-color-scheme-add-logo-match-organizations-brand.md).  
 
  Most theme data is stored within the Theme entity. Customized colors for specific entities is included in the <xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata>.<xref:Microsoft.Xrm.Sdk.Metadata.EntityMetadata.EntityColor> property. This data is exported with the entity if the entity is included in a solution.
 
@@ -113,11 +112,11 @@ OData-Version: 4.0
 
 ## Exporting and importing themes
 
- Because themes aren’t included as part of a solution, if you want to transfer themes from one organization to another you can use the Configuration Migration tool to generate a schema, export the theme data, and import it into a different organization. For details about how to use this tool, see [Move configuration data using the Configuration Migration Tool](../../admin/manage-configuration-data.md).  
+ Because themes aren't included as part of a solution, if you want to transfer themes from one organization to another you can use the Configuration Migration tool to generate a schema, export the theme data, and import it into a different organization. For details about how to use this tool, see [Move configuration data using the Configuration Migration Tool](../../admin/manage-configuration-data.md).  
 
 ### See also
 
- [Theme Entity](../entities/theme.md)   
+ [Theme Entity](/power-apps/developer/data-platform/reference/entities/theme)   
  [Create a theme](../../customize/change-color-scheme-add-logo-match-organizations-brand.md)  
  [Developers guide to customization for Microsoft Dynamics 365 Customer Engagement](customize-applications.md)
 

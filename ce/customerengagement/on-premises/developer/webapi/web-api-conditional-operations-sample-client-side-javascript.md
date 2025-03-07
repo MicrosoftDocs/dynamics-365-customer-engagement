@@ -2,7 +2,6 @@
 title: "Web API Conditional Operations Sample (Client-side JavaScript) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "This sample demonstrates how to perform conditional operations using Dynamics 365 Customer Engagement Web API and client-side JavaScript"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

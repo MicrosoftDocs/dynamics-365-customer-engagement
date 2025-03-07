@@ -2,7 +2,6 @@
 title: "Use sample data in Dynamics 365 Customer Engagement (on-premises)"
 description: "Sample data gives you something to experiment with and helps you see how data is organized in the system. Learn how to add or remove sample data."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

@@ -26,7 +26,8 @@ You use the entities described in this section to manage various phases of a sal
   
  [Quote, Order and Invoice tables](quote-order-invoice-entities.md)  
   
-## Related Sections  
+## Related Sections
+
  [Model your business data with Dataverse](/power-apps/maker/data-platform/data-platform-intro)  
   
  [Marketing tables (Campaign, List)](marketing-entities-campaign-list.md)

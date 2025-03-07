@@ -4,6 +4,7 @@ description: Learn about the consent requirements that are required for provisio
 ms.date: 07/01/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: reference
 ---
 
@@ -80,10 +81,6 @@ Only the delegated permissions are required. On consent, the following two ser
 – “Omnichannel APIs”
 
 - “Omnichannel for Customer Service”
-
-### Why is the global admin role required, and not a less powerful one?
-
-We need to add the service principal to Microsoft Entra ID for the tenant as a requirement, and therefore, we need global admin permissions.
 
 ### Which are the Omnichannel principals? We found at least four Omnichannel principals.
 

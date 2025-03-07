@@ -1,10 +1,13 @@
 ---
 title: Bring your own carrier
 description: Use this article to understand how you can bring your own carrier to Dynamics 365 via Azure Direct Routing.
-ms.date: 06/14/2024
+ms.date: 12/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.custom: bap-template
+
 ---
 
 # Bring your own carrier
@@ -48,7 +51,7 @@ Azure Communication Services direct routing enables you to connect your existing
 
 1. Select **Add number**.
 
-The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to an agent](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-agents).
+The new phone number will be displayed in the **Phone numbers** list and is ready for setup. You can now [connect it to a voice workstream](voice-channel-inbound-calling.md), [configure outbound calling](voice-channel-outbound-calling.md#configure-phone-numbers-for-outbound-calling), or even [assign it to a customer service representative](voice-channel-outbound-calling.md#assign-personal-phone-numbers-to-representatives).
 
 ## SBC best practices
 

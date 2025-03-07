@@ -1,10 +1,11 @@
 ---
-title: "Configure AI topic clustering for conversations | MicrosoftDocs"
-description: "Configure topic cLustering for conversations using AI"
-ms.date: 12/21/2023
+title: Configure AI topic clustering for conversations
+description: Configure topic cLustering for conversations using AI.
+ms.date: 02/06/2025
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.collection: bap-ai-copilot
 ---
 
@@ -14,10 +15,12 @@ ms.collection: bap-ai-copilot
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 Customer Service Insights uses AI to give you insights into your customer service data by grouping semantically related conversations and generating a topic. New incoming conversations that match this topic are automatically added to the topic group. This can help you identify areas for improvement that impact system performance.
 
-The AI-driven technology empowers informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate agent performance and business impact, and address inefficiencies in your system.
+The AI-driven technology empowers informed decision-making about how to improve resolution rates, reduce wait times, and decrease customer service costs. You can use case resolution insights, backlog trends, and historical comparisons to evaluate customer service representative performance and business impact, and address inefficiencies in your system.
 
 ## Enable topic clustering for conversations
 
@@ -37,15 +40,15 @@ The Summary and Model run summary views provide key information about how the to
 | Last successful run | Time stamp of the last time new cases were processed. |
 | Run frequency | The cadence in which cases are processed and tagged with topics. |
 
-## Automate topics to Copilot Studio bots
+## Automate topics to Copilot agents
 
-AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot Studio bots. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
+AI discovered topics in Omnichannel historical analytics are often prime candidates as topics for automation in Copilot agents. If Copilot Studio is available in the region that your Customer Service organization is in, you can enable the feature.
 
 1. In Customer Service admin center or Contact Center admin center, go to **Insights** > **Topics clustering for conversations** > **Manage**.
 1. In the **Topic automation** section of the **Topic clustering for conversation** page, enable the toggle.
 
 > [!NOTE]
-> Topic automation to Copilot Studio bot isn't available in Government Community Cloud.
+> Topic automation to Copilot agent isn't available in Government Community Cloud.
 
 ## Language availability for topics
 

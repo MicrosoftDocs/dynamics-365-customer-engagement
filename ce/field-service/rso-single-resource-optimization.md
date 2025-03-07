@@ -48,6 +48,9 @@ Single resource optimization typically cleans up a schedule that changed through
 
 - Add **Scheduling Lock Options** and **Scheduling Windows** constraints so single resource optimization upholds time promises or SLAs with the customer.
 
+> [!TIP]
+> A location agnostic resource can only have bookings for which the *Resource Requirement* is also set to location agnostic. Resource Scheduling Optimization treats that resource like a remote worker who only gets scheduled for work that doesn't involve travel. Alternatively, you can [Enable a resource to travel outside working hours](rso-travel-outside-working-hours.md#enable-a-resource-for-scheduling-outside-of-working-hours) to work around this constraint.
+
 Next, [add your single resource optimization goal as the default goal](rso-optimization-goal.md#default-optimization-goal).
 
 ## Step 2: Run and view results

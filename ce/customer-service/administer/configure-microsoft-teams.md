@@ -1,7 +1,7 @@
 ---
 title: Configure Microsoft Teams channel
 description: Learn about the Microsoft Teams channel and how to configure the channel.
-ms.date: 06/14/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,13 +13,16 @@ ms.collection:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 Use Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;to allow organizations to connect their employees with internal support personnel by using the omnichannel capabilities in Dynamics 365 Contact Center or Dynamics 365 Customer Service.
 
 ## Prerequisites
 
 Make sure that the following prerequisites are met:
 
-- Microsoft Teams is installed in your environment. More information: [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)
+- Microsoft Teams is installed in your environment. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
 
 - An app is created and configured in **Teams** > **Developer Portal**:
 
@@ -36,8 +39,6 @@ Make sure that the following prerequisites are met:
    1. In the **Application (client) ID** field, enter the bot ID from the omnichannel application, and then fill in the required fields.
       > [!NOTE]
       > You can also create a new App Registration in Azure portal, and then use the app ID for this field.
-
-       :::image type="content" source="../media/configure-teams-developer-portal-application-id.png" alt-text="View of Application ID field in Developer Portal.":::
 
    1. Select **App features** under **Configure** section, and then select **bot**.
 
@@ -77,22 +78,22 @@ Make sure that the following prerequisites are met:
        - [Custom automated messages](configure-automated-message.md)
        - [Post-conversation survey](configure-post-conversation-survey.md)
 
-    1. On the **User features** page, turn on the **File attachments** toggle, and then select the following checkboxes if you want to allow agents and customers to send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md)
+    1. On the **User features** page, turn on the **File attachments** toggle, and then select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md).
        - Customers can send file attachments
-       - Agents can send file attachments
+       - Service representatives can send file attachments
 
-    1. Turn on the toggle for **Voice and video calls** (preview), and select an option in the **Calling options** dropdown list. At runtime, when agents are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
+    1. Turn on the toggle for **Voice and video calls** (preview), and select an option in the **Calling options** dropdown list. At runtime, when representatives are in conversation with customers and need to use audio or video to resolve issues, the call and video options are available to them.
 
         > [!NOTE]
         > Voice and video calls in Microsoft Teams is in preview, therefore, we recommend that you don't use it in production. Use it only in test and development environments.
 
     1. Verify the settings on the **Summary** page, and select **Finish**. The Teams channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
+1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Add a bot. More information [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+1. Add an AI agent (agent). Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
@@ -114,7 +115,7 @@ Make sure that the following prerequisites are met:
 1. Select the required options, save, preview, and publish.
 
   > [!NOTE]
-  > If you receive an error when trying to add a bot to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
+  > If you receive an error when trying to add an agent to the team, refer to [Prepare your Microsoft 365 tenant](/microsoftteams/platform/concepts/build-and-test/prepare-your-o365-tenant).
 
 
 ### Related information

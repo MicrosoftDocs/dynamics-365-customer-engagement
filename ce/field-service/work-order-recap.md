@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service (preview)
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 06/14/2024
+ms.date: 10/28/2024
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -26,7 +26,7 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 
 Watch this brief video to learn more about the new work order experience in Field Service, including work order summaries:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
 
 ## Prerequisites
 
@@ -34,13 +34,11 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 - You must have a paid Field Service environment. The work order summary feature isn't available in trial environments.
 
-- You must [update your environment](update-field-service.md) at least to the latest Early Access build for 2023 wave 2.
-
 ## How summaries are generated
 
 When you generate a summary, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary.
 
-By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#configure-the-summary) to meet their business needs.
+By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#how-to-configure-the-summary) to meet their business needs.
 
 The default summary includes the following data fields from work orders and related records:  
 
@@ -64,14 +62,13 @@ The summary focuses on the most relevant information based on the work order's l
 
 ## Summary configuration (preview)
 
-Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs. The optimization used in the generation of default summaries isn't applied to administrator-configured summaries.
+Copilot in Field Service provides predefined summaries that are optimized for specific tables. With summary configuration, administrators can replace the default summaries by configuring their own to tailor to their business needs.
+
+You need to configure the summary for the *bookable resource booking* and *work order* tables separately.
 
 :::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
-> [!TIP]
-> To generate configured summaries, users need read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
-
-### Configure the summary
+### How to configure the summary
 
 1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
 1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
@@ -80,49 +77,51 @@ Copilot in Field Service provides predefined summaries that are optimized for sp
 1. In the **Sample summary** section, you can test this configuration using a row from the Dataverse table and preview the summary that Copilot generates based on real data.
 1. **Save** your changes when you're done making changes.
 
+To revert to the default summary provided by Field Service, disable the **Configure summary** setting.
+
 > [!NOTE]
-> In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. This reinitializes the out-of-the-box summary configuration and populates the list. Then, navigate back to **Summary Configuration**.
-
-### Revert to the predefined summary
-
-To use the default summary provided by Field Service, disable the **Configure summary** setting.
+>
+> - To generate configured summaries, users need read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
+> - The optimization used in the generation of default summaries, where there may be different details depending on work order status, is not applied to administrator-configured summaries.
+> - In cases where Field Service was pre-installed in an environment, you might not see the summary configurations after enabling the feature. Select **Create default configurations** to add missing configurations.
 
 ## Generate a summary in the web app
 
-Open a [work order form (preview)](work-order-experience.md) or a booking record.
+Open a [work order form](work-order-experience.md) or a booking record.
 
 - To generate a summary, select **Generate** in the **Copilot** control.
 
 - To refresh the summary, select **Regenerate** in the **Copilot** control.
 
-Use the like/dislike buttons in the **Copilot** control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful or not and why.
+## Add the summary control to a form
 
-## Generate a summary in the mobile app
+By default the work order summary is included on the out-of-the-box [work order form](work-order-experience.md). The control can be added to a custom work order or booking form for web or mobile.
 
-Frontline workers can get valuable contextual information about their scheduled work using work order summaries in the Field Service mobile app. You can generate a summary on your mobile device and refresh it as you progress through the work order lifecycle. Your device must be connected to the Internet for the summary feature to work.
-
-To enable work order summaries in the Unified Interface mobile app, an administrator needs to enable the feature in the **Settings** area.
-
-When the feature is enabled, the Copilot control is added to the **Bookable Resource Booking** form. If your Bookable Resource Booking form is customized, it might require configuring the work order summary control onto the form.
-
-### Configure the work order summary component
-
-The work order summary control can be configured only on the **Bookable Resource Booking** and **Work Order** forms. Follow these steps to add the control:
-
-1. In the Field Service Mobile app module, change to the **Settings** area and go to the **Features** page.
-1. In the Preview section, enable **Copilot Recap for Mobile (Unified Interface)**.
 1. Sign in to [Power Apps](https://make.powerapps.com).
 1. Select your environment.
-1. Go to **Apps** and select the **Field Service Mobile** app module.
+1. Go to **Apps** and select your app module.
 1. Edit the *Bookable Resource Booking* or *Work Order* form.
 1. Add the component **Field Service Copilot - Recap** to a section on the form.
 1. Set **Table column** as **System Status (Choice)**.
 1. In the side pane, under **Display options**, enable **Hide label**.
 1. **Save and publish** the form and publish the app module.
 
-## Summaries in the new mobile user experience
+## Enable summaries on mobile for Unified Interface
 
-The summary feature is available for the new user experience in the Field Service mobile application. When the new mobile experience is enabled, Copilot Recap (Summarize) can be enabled from the Field Service Mobile app settings. Once enabled, the Copilot Summarize and [Copilot Update](work-order-update.md) features are available from the header area of the mobile booking within the new experience. Open a booking form in the new mobile user experience and select the Copilot icon. Select **Summarize** to get a summary of the work order to which the booking relates.
+After configuring the summary control, enable it. It's enabled by default for the web app and and admin has to enable it for the mobile app.
+
+1. In the Field Service Mobile app module, change to the **Settings** area and go to the **Features** page.
+1. In the Preview section, enable **Copilot Recap for Mobile (Unified Interface)**.
+
+## Enable summaries in the new mobile user experience
+
+When the [new mobile experience is enabled](mobile/set-up-field-service-mobile.md#enable-the-new-mobile-user-experience), the copilot-based summary can be enabled from the Field Service Mobile app settings. Once enabled, the summary and [work order update](work-order-update.md) features are available from the agenda view of the new experience. Users can access Copilot by swiping on a booking, or from the action menu associated to a booking.
+
+:::image type="content" source="media/mobile-copilot-control.png" alt-text="Screenshot of a mobile device showing the swipe action, copilot summary option, and a generated summary.":::
+
+## Send feedback
+
+Use the like/dislike buttons in the Copilot control to provide feedback and, optionally, more context about your preferences. Your feedback helps us understand if the summary is useful or not and why.
 
 ### See also
 

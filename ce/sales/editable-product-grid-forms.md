@@ -1,7 +1,7 @@
 ---
 title: "Add editable Products grid to forms (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Editable Products grid helps sales users to make changes to the product details inline in Dynamics 365 Sales."
-ms.date: 10/26/2021
+ms.date: 11/21/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -13,14 +13,6 @@ ms.custom:
 
 Editable products grid on the Opportunity, Quote, Order, or Invoice forms lets sellers to edit product details inline, without having to open individual product records to update. 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
-
 ## Enable editable Products grid
 
 Currently, the preconfigured Products grid is available only on apps built on the Unified Interface framework and is optimized to work on the web.
@@ -31,47 +23,31 @@ If you’re upgrading to the latest version and you’ve made customizations to 
 
 To enable the editable products grid on the Opportunity, Quote, Order, or Invoice form:
 
-1. In your app, select the **Settings** icon, and then select **Advanced Settings**. 
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-    > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-    The **Business Management settings** page opens in a new browser tab.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.  
 
-2. On the navigation bar, select **Settings** and then under **Customization**, select **Customizations**.
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**.  
 
-2. Select **Customize the System** to open the default solution. 
+1. In the list of forms, open the form of type **Main**.  
 
-3. Under **Components**, expand **Entities**, expand the entity you want, and then select **Forms**. 
-
-4. In the list of forms, open the form of type Main.
-
-5. If you’re enabling the editable product grid in the Opportunity form, select the **Opportunity Products** area in the **Product Line items** section, and in the **Edit** group, select **Change Properties**.
-
-    ![Opportunity Products area in the Product Line Items section.](media/opportunity-products-area-product-line-items-section.png "Opportunity Products area in the Product Line Items section")
-    
-    **– OR –** 
-    
-    If you’re enabling the editable product grid in the Quote, Order, or Invoice form, select the **Products** area in the **Products** section, and in the **Edit** group, select **Change Properties**.
-  
-    ![Products area.](media/products-area.png "Products area in the Products section")
-
-6.	In the **Set Properties** dialog box, select the devices on which you want the editable grid to be available by selecting the corresponding radio button. Currently, the editable grid is optimized to work on the web.
-
-    ![Editable grid control in the Set Properties dialog box.](media/editable-grid-set-properties-dialog-box.png "Editable grid control in the Set Properties dialog box")
-
+1. Depending on the table type, select properties:  
+    - For Opportunity, select the products area.  
+    :::image type="Opportunity Products area in the Product Line Items section" source="media/opportunity-products-area-product-line-items-section.png" alt-text="Opportunity Products area in the Product Line Items section":::  
+    - For Quote, Order, or Invoice, select the **Products** area.  
+    :::image type="Products area" source="media/products-area.png" alt-text="Products area in the Products section":::  
+1. In the right pane, go to the **Components** section and select the devices on which you want the editable grid to be available.  
+    Currently, the editable grid is optimized to work on the web.  
+    :::image type="Editable grid control in the Set Properties dialog box" source="media/editable-grid-set-properties-dialog-box.png" alt-text="Editable grid control in the Set Properties dialog box":::  
     Notice that the properties of the editable grid such as Grid view or Nested grid view are preconfigured by default.
- 
-7.	Select **OK**.
+1. Save and publish the form.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ## Related information  
 
 [Make model-driven app views editable using the editable grid control](/powerapps/maker/model-driven-apps/make-grids-lists-editable-custom-control)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-

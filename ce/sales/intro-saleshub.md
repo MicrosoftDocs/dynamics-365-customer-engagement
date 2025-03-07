@@ -14,16 +14,6 @@ Sales Hub is a free app from Microsoft that's preinstalled. It comes with severa
 
 We recommend that you use the Sales Hub app unless your organization follows unique sales practices that warrant a custom app. For a comparison, refer to [Sales Hub app versus custom app](saleshub-customapp.md).
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
-> [!IMPORTANT]
-> The Sales Hub app is only for the Sales Enterprise and Sales Premium users. Sales Professional users must use the Sales Professional app.  
-
 ## Access the Sales Hub app
 
 Visit the [Apps page](https://office.com/apps) on office.com, select **Business Apps**, and then select **Sales Hub**.

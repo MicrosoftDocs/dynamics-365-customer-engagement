@@ -2,7 +2,6 @@
 title: "Accessible email flow in Dynamics 365 Customer Engagement (on-premises)"
 description: "Improve accessibility when reading and editing email by installing the Email in Unified Interface app to provide users an accessible flow."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -32,7 +31,7 @@ Follow these steps to deploy the solution and enable users to use the accessible
 
 **Install the app**
 
-1. [!INCLUDE[proc_office365_signin](../includes/proc-office365-signin.md)] You can also sign in with Customer Engagement (on-premises) system administrator or delegated admin security roles.  
+1. Sign in with the Customer Engagement (on-premises) system administrator or a delegated admin security role.  
   
 2. Select **Admin centers** > **Dynamics 365**.  
 

@@ -5,6 +5,7 @@ ms.date: 03/15/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
@@ -55,7 +56,7 @@ If you select the notification message body and not a button, the app is made ac
 
 The wait time that's configured by your administrator applies to the desktop notification but doesn't display on it.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. More information: [Manage notification templates and settings](../administer/notification-templates.md)
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. Learn more at [Manage notification templates and settings](../administer/notification-templates.md).
 
 > [!NOTE]
 > The desktop notification theme is based on the Windows operating system theme and settings.
@@ -85,7 +86,7 @@ Based on your organization's configurations, you can't reject conversations. The
 
 ## Incoming voice call notifications
 
-You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md).
+You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. Learn more about how the call is processed and the call controls that are available to you at [Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Incoming chat notifications
 

@@ -2,7 +2,6 @@
 title: "Sample: Upload, retrieve, and download an attachment | Microsoft Docs"
 description: "The sample demonstrates how to upload, retrieve, and download an attachment for an annotation using the IOrganizationService.Entity) and IOrganizationService.ColumnSet) methods. "
 ms.custom: 
-ms.date: 11/24/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -22,7 +21,7 @@ search.audienceType:
 ---
 # Sample: Upload, retrieve, and download an attachment
 
-This sample shows how to upload, retrieve, and download an attachment for an annotation using the [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create) and [IOrganizationService.Retrieve](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve) methods. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/URDAttachment).
+This sample shows how to upload, retrieve, and download an attachment for an annotation using the [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create) and [IOrganizationService.Retrieve](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.retrieve) methods. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/URDAttachment).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

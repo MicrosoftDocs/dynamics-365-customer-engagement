@@ -11,13 +11,6 @@ ms.reviewer: lavanyakr
 
 Learn how to access the Sales app, navigate the UI, and understand the data in the app, and some quick tips.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Open your sales app
 
 1. Visit the [Apps page](https://office.com/apps) on office.com.
@@ -64,7 +57,7 @@ Copilot is an AI assistant that helps you find information related to your sales
 
 1. Select the Copilot icon :::image type="icon" source="media/copilot-icon.svg" border="false"::: in the top-right corner of the screen to open the Copilot side pane.
 
-1. Select the sparkle icon :::image type="icon" source="media/sparkle-icon.png" border="false"::: to view the prompts you can use.
+1. Select **View Prompts** above the Copilot chat box to view the prompts you can use.
      For example, select **Get info** > **Summarize opportunity**, type "/", and then select the name of an opportunity. Copilot will summarize the key details of the opportunity for you.
 
      :::image type="content" source="media/copilot-opportunity-summary.png" alt-text="Screenshot of a Copilot opportunity summary.":::

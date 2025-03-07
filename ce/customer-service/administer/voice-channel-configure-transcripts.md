@@ -3,8 +3,9 @@ title: Configure call recording, transcription, and real-time translation
 description: Learn how to configure call recording, transcription, and real-time translation in the voice channel.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 08/29/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -14,17 +15,20 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
-As an administrator, you can enable live translation, transcription, and recording of calls. These options allow agents and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
+As an administrator, you can enable live translation, transcription, and recording of calls. These options allow customer service representatives (service representative or representative) and supervisors to view the conversations with the customers in the language that's set as the default for them, and also transcripts of customer calls.
 
 > [!IMPORTANT]
 > - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-> - If you use Copilot Studio bots as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
+> - If you use AI agents created in Copilot Studio as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
+
+## Prerequisites
+
+For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security). 
 
 ## Enable call recording and transcription for voice
-1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. For more information, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
+1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. Learn more in [Enable call recording and SMS services](voice-channel-configure-services.md).
    
 1. In the Customer Service admin center or Contact Center admin center app, select the workstream for which you want to enable recording and transcription.
 
@@ -36,26 +40,22 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, and then select **Transcription** or **Transcription and recording**.
 
-1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want agents to record and transcribe their calls.
+1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want service representatives to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow agents to control the portions of conversations that they record and transcribe.
+1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representatives to control the portions of conversations that they record and transcribe.
 
-1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the agent puts the customer on hold and resumed when the agents takes the customer off hold.
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the service representative puts the customer on hold and resumed when the representative takes the customer off hold.
 
 1. Select **Save**.
 
 ## Enable real-time translation of calls
 
-To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for agent and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for representative and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-representative-and-customer-conversations)
 
 ## View call transcripts
 
-You can view the call transcripts in Customer Service admin center or Contact Center admin center.
-
-> [!NOTE]
-> You can view call transcripts in Customer Service workspace and Contact Center workspace only. 
-
-
+ You can view call transcripts in Customer Service workspace and Contact Center workspace only. 
+ 
 1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
 3. Select **Closed conversations** from the dashboard dropdown menu.
@@ -91,11 +91,12 @@ The maximum file size of a recording can be 512 MB. The data storage cost with t
 - 20-minute call recording = 10240 KB
 - 20-minute call transcript = 40 KB
 
+Learn more about long term data retention with Dataverse in [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
 
 ### Related information
 
 [Overview of the voice channel](voice-channel.md)  
-[Agent experience: View call recordings and transcripts](../use/voice-channel-agent-experience.md)  
+[Agent experience: View call recordings and transcripts](/dynamics365/contact-center/use/voice-channel-agent-experience)    
 [Enable call recording and SMS services](voice-channel-configure-services.md)
 [Supported cloud locations, languages, and locale codes](voice-channel-region-availability.md)  
 [Delete call recordings](voice-channel-delete-calls.md)
