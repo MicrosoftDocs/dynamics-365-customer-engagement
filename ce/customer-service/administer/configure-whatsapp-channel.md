@@ -43,7 +43,7 @@ The success of social media customer service, like all other customer service, d
 > - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
 > - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
 >
-> Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. For more information, refer to [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
+> Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. Learn more in [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
 
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by a representative to the incoming messages, within 24 hours. A messaging session starts when representatives receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
@@ -64,9 +64,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page displays.
     
-1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page displays.
    
 1. Select **New account**.
 
@@ -78,7 +78,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
       - **Account SID:** Specify the value from your Twilio account.
       - **Authentication token:** Specify the value from your Twilio account.
  
-    3. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
+    3. On the **WhatsApp numbers** page, select **Add**, and on the page that displays, enter the following information:
       - **Name:** Specify a name.
       - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
     
