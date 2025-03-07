@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 08/11/2023
+ms.date: 03/07/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,13 +22,6 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## Deactivate or delete an assignment rule
 
 1. Sign in to your Dynamics 365 Sales Hub app.
@@ -43,8 +36,8 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 1. Select the rule, and then deactivate or delete it:
 
-    - To deactivate it, turn off the toggle in the **Active** column.
-    - To delete it, select **Delete**.
+    - To deactivate it, turn off the toggle in the **Status** column, and then select **Deactivate** in the confirmation dialog box.
+    - To delete it, select **Delete**, and then select **Delete permanently** in the confirmation dialog box.
 
 1. Confirm the action when you're prompted to do so.
 

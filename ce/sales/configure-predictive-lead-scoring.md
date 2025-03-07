@@ -23,13 +23,6 @@ Historical data collection begins when you create a scoring model. Historical da
 
 If you have a Dynamics 365 Sales Enterprise license, you can enable predictive lead scoring in [lead and opportunity scoring quick setup](digital-selling-scoring.md#set-up-lead-and-opportunity-scoring). You'll get 1,500 scored records per month.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Prerequisites
 
 - [Advanced Sales Insights features must be enabled](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
@@ -46,7 +39,7 @@ The system takes about four hours to sync the data with the data lake. If you've
 > [!IMPORTANT]
 >
 > - If you're using a model that you created in a version of Dynamics 365 earlier than 2020 release wave 2, [delete the model](pls-duplicate-models.md#delete-a-model) before you create a new one. Otherwise, the previous version of the model will be applied to all leads in your organization, and new models won't have any effect on the leads.
-> - As of 2020 release wave 2, the application writes the lead scoring data to the [**msdyn_predictivescore**](developer/entities/msdyn_predictivescore.md) table and no longer writes to the lead table. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
+> - As of 2020 release wave 2, the application writes the lead scoring data to the [Predictive Score (msdyn_predictivescore)](../developer/reference/entities/msdyn_predictivescore.md) table and no longer writes to the lead table. Both lead and opportunity scoring use the **msdyn_predictivescore** table.
 
 A scoring model defines the criteria for choosing leads for training and scoring. If your organization follows different sales practices across different regions or business units, you can create models and unique training sets for each of them.
 

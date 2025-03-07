@@ -19,13 +19,6 @@ When you define a predictive scoring model, you'd like to know how each attribut
 
 Although the following examples refer to leads, this article applies to both opportunity scoring and lead scoring.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## View attribute insights and influence
 
 1. [Edit a model](pls-edit-and-retrain-model.md).

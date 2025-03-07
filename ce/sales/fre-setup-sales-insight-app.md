@@ -19,13 +19,6 @@ ms.custom:
 
 As an administrator, connect the conversation intelligent app to your Dynamics 365 Sales organization to fetch call data and enable sellers to view call insights. 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Prerequisites
 
 Before you can set up the Conversation intelligence app, set up conversation intelligence from the Sales Hub app and configure storage, app permissions, and tracked keywords and competitors. This setup is mandatory to use conversation intelligence in the Sales Hub app and Conversation intelligence app. For more information, see [Set up conversation intelligence from the Sales Hub app](fre-setup-ci-sales-app.md).

@@ -16,7 +16,7 @@ This section contains reference documentation of the public assemblies, web serv
   
 ## In This Section  
  
- [Entity Reference](about-entity-reference.md)<br />
+ [Dynamics 365 Enabled apps table/entity reference](../../../developer/reference/about-entity-reference.md)<br />
  [Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)<br />
  [Dynamics 365 Customer Engagement (on-premises) Organization Service 9.x](/dotnet/api/microsoft.crm.sdk?view=dataverse-sdk-latest&preserve-view=true)<br />
  [Dynamics 365 Customer Engagement (on-premises) XRM Tooling 9.x](/dotnet/api/microsoft.xrm.tooling.connector?view=dataverse-sdk-latest&preserve-view=true)<br />

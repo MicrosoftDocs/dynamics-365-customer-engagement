@@ -1,7 +1,7 @@
 ---
 title: Identify customers automatically
 description: Learn how to automatically identify customers by using preconversation responses in Omnichannel for Customer Service.
-ms.date: 04/23/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -13,6 +13,9 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
@@ -21,7 +24,7 @@ You can assist customers better if you can automatically identify them and view 
 > [!NOTE]
 > The record search identifies records that have the active status code for contacts or accounts; if you use custom status codes, then record identification won't work.
 
-For every incoming conversation request that an agent receives, a notification appears that includes contextual information for the request and customer details, if available. After the agent accepts the incoming notification, the **Active Conversation** page opens and shows the details of the identified customer and case. If the identified contact or account has one active case linked to it, then the case is automatically linked to the conversation. If the customer contacts the agent for a different case, the agent can manually change the linked case.
+For every incoming conversation request that a customer service representative (service representative or representative) receives, a notification appears that includes contextual information for the request and customer details, if available. After the service representative accepts the incoming notification, the **Active Conversation** page opens and shows the details of the identified customer and case. If the identified contact or account has one active case linked to it, then the case is automatically linked to the conversation. If the customer contacts the representative for a different case, the representative can manually change the linked case.
 
 You can identify incoming voice calls if the phone number of the incoming call matches the number for a contact in the mobile phone or account phone field. If you want to use other phone number fields like home phone for customer identification, then contact Microsoft Support.
 
@@ -44,15 +47,15 @@ Use the following question names to create preconversation questions. To know ho
 
 ## Use the setContextProvider API method
 
-You can automatically identify records using custom context set using the [setContextProvider API](../develop/reference/methods/setContextProvider.md) apart from preconversation answers. To programmatically set these values, see [Manage custom context](../develop/send-context-starting-chat.md).
+You can automatically identify records using custom context set using the [setContextProvider API](../develop/reference/methods/setContextProvider.md) apart from preconversation answers. Learn how to programmatically set these values in [Manage custom context](../develop/send-context-starting-chat.md).
 
-## Link customer and case to conversations when bot escalates or ends conversations
+## Link customer and case to conversations when agent escalates or ends conversations
 
-When a bot ends a customer conversation, the bot can link the case number to the conversation. The bot can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
+When an AI agent (agent) ends a customer conversation, the agent can link the case number to the conversation. The agent can create a new case number or obtain an existing one from the customer based on the customer name, email address, or telephone number.
 
-If the bot needs to escalate the conversation to a human agent, then bot can link the customer and case number to the conversation so that when the human agent accepts the escalation request, all relevant information is available to the agent in the **Active Conversation** section. The escalation summary gives the human agent the background information about the escalation and enables quicker resolution of the customer issue.
+If the agent needs to escalate the conversation to a representative, then the agent can link the customer and case number to the conversation so that when the representative accepts the escalation request, all relevant information is available in the **Active Conversation** section. The escalation summary gives the representative the background information about the escalation and enables quicker resolution of the customer issue.
 
-To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes are searched for in the corresponding entities such as customer and case, and the result is linked to the conversation if a single matching record is found. The bot needs to set context parameters for the following that are also set when the customer is automatically identified when the conversation is transferred.
+To link the customer or case, set the values for the associated attributes, such as customer name and phone number. These attributes are searched for in the corresponding entities such as customer and case, and the result is linked to the conversation if a single matching record is found. The AI agent needs to set context parameters for the following that are also set when the customer is automatically identified when the conversation is transferred.
 
 | Entity to be linked | Variable name to be set by bot | Attribute for Dynamics 365 entity to match with corresponding variable name in bot |
 |------------|----------------|----------------------|
@@ -60,7 +63,7 @@ To link the customer or case, set the values for the associated attributes, such
 |Contact|<ul><li> Name</li><li> Email </li><li> Phone</li></ul>|<ul><li> name</li><li>emailaddress1</li><li>Business Phone</li></ul>|
 |Case|CaseNumber|`ticketnumber`|
 
-For information about creating context variables for Azure and Copilot Studio bots, see [Configure context variables for the bot](context-variables-for-bot.md#configure-context-variables-for-agents).
+Learn more about creating context variables for AI agents in Azure and Copilot Studio in [Configure context variables for the AI agent](context-variables-for-bot.md).
 
 
 ### Related information

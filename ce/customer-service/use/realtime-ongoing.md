@@ -27,7 +27,7 @@ This report provides a holistic view of the conversations in real time. It inclu
 > - Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
 > - The reports are prefiltered based on the queues you are logged in to as a supervisor. So you'll see metrics and conversations relevant to the assigned queues only.
 
-[Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md)
 
 :::image type="content" source="../media/realtime_ongoing conversations.png" alt-text="The image shows real-time ongoing conversations report.":::
 
@@ -137,7 +137,7 @@ After you assign or transfer conversations, manually refresh the report to view 
 
 ### Related information
 
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
+[Use report metrics](oc-metrics-dimensions.md)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>

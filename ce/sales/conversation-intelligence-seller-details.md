@@ -14,14 +14,6 @@ View insights and analysis of each seller’s performance during calls with cust
 
 Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), and select **Seller Details**. The information you see on the page varies according to your role (sales manager or seller).
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Seller details page for sales managers
 
 As a sales manager, the **Seller details** page helps you analyze the overall behavior of an individual seller during customer calls. Using this analysis, you can identify coaching scenarios to increase wins and productivity gains for the business. With the **Seller details** page, you can:

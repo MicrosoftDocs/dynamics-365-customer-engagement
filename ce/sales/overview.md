@@ -1,7 +1,7 @@
 ---
 title: Welcome to Dynamics 365 Sales
 description: Transform your sales organization with Dynamics 365 Sales to build strong relationships with customers, take actions based on insights, and close deals faster.
-ms.date: 01/02/2025
+ms.date: 02/27/2025
 ms.topic: overview
 author: udaykirang
 ms.author: udag
@@ -82,7 +82,7 @@ For more information about the Copilot for Sales licensing options for Dynamics 
 
 ## Compare solutions
 
-To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales/pricing/) page.
+To compare the capabilities available in each solution, view the **Compare Dynamics 365 Sales plans** section on the [Pricing](https://dynamics.microsoft.com/sales?market=af#comparison-table) page. Refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?linkid=866029) for more information about features included in each license.
 
 ## How Dynamics 365 helps transform your sales organization
 
@@ -132,7 +132,7 @@ Boost seller productivity by automatically capturing tasks and integrating sales
 | Minimize routine tasks | Get suggestions to automatically create new records such as contacts, meetings, and tasks. | Administrator:<br>- [Configure notes analysis](configure-notes-analysis.md)<br>- [Enable and configure auto capture](configure-auto-capture.md)<br>Seller:<br>- [How notes analysis assists you with suggestion](notes-analysis.md)<br>- [Capture customer-related activities with auto capture](auto-capture.md) |
 | Automate sales and marketing processes | Connect your processes with a common platform to optimize efficiencies and marketing ROI and lead handoff. | Administrator/Seller: [Overview (Marketing)](/dynamics365/marketing/overview) |
 | Work seamlessly using everyday apps | Minimize app switching with contextual sales data surfaced in productivity apps like Outlook. | Administrator: [Deploy and install Dynamics 365 App for Outlook](/dynamics365/outlook-app/deploy-dynamics-365-app-for-outlook)<br>Seller: [Basic navigation in App for Outlook](/dynamics365/outlook-app/user/basic-navigation) |
-| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Configure the opportunity pipeline view](opportunity-pipeline-view-for-admins.md)<br>Seller: [Preview: Manage opportunities using the pipeline view](use-opportunity-pipeline-view.md) |
+| Manage the pipeline in a single workspace | Use an intuitive, personalized workspace to view deals, get context, and act swiftly. Get one-click actions and built-in productivity and collaboration from Microsoft 365 and Teams (preview) | Administrator: [Configure the opportunity pipeline view](opportunity-pipeline-view-for-admins.md)<br>Seller: [Manage opportunities using the pipeline view](use-opportunity-pipeline-view.md) |
 
 ### Keep selling on the go
 
