@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/05/2025
+ms.date: 03/07/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -36,8 +36,8 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 1. Select the rule, and then deactivate or delete it:
 
-    - To deactivate it, turn off the toggle in the **Active** column.
-    - To delete it, select **Delete**.
+    - To deactivate it, turn off the toggle in the **Status** column, and then select **Deactivate** in the confirmation dialog box.
+    - To delete it, select **Delete**, and then select **Delete permanently** in the confirmation dialog box.
 
 1. Confirm the action when you're prompted to do so.
 
