@@ -1,6 +1,6 @@
 ---
-title: Compliance certification of Omnichannel for Customer Service
-description: This article provides information on compliance certification requirements for Omnichannel for Customer Service. Use the link in the topic to download the file that contains the compliance information.
+title: Compliance certification for Customer Service
+description: This article provides information on compliance certification requirements for Dynamics 365 Customer Service. Use the link in the topic to download the file that contains the compliance information.
 ms.date: 03/07/2025
 ms.topic: conceptual
 author: neeranelli
@@ -9,9 +9,7 @@ ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
-# Compliance certifications of Omnichannel for Customer Service
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+# Compliance certifications for Customer Service
 
 Dynamics 365 Customer Service is a Core Online Service as defined in the [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309612). It's compliant with or covered by:
 
@@ -26,11 +24,11 @@ Dynamics 365 Customer Service is a Core Online Service as defined in the [Mi
 - United Kingdom Government Cloud (G-Cloud)
 
 
-Refer to the [Service Trust Portal](https://servicetrust.microsoft.com/) for information about the **Omnichannel for Customer Service** compliance certifications.
+Refer to the [Service Trust Portal](https://servicetrust.microsoft.com/) for compliance certifications.
 
 ### Related information
 
-[Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)  
+[Prerequisites and system requirements](system-requirements-omnichannel.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
