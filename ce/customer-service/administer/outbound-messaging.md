@@ -1,7 +1,7 @@
 ---
 title: Configure outbound messaging in Omnichannel for Customer Service
 description: Learn about how to configure outbound messaging in Omnichannel for Customer Service.
-ms.date: 03/05/2025
+ms.date: 03/07/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -77,9 +77,9 @@ You can set up the outbound configuration in the Customer Service admin center o
 
 Power Automate provides a low-code platform for workflow and process automation. Outbound messaging in Omnichannel for Customer Service relies on flow-based business logic. Learn more in [Power Automate documentation](/power-automate/). You can download and import the following sample flows to get started:
 
-- [Case Creation flow - SMS](https://aka.ms/CaseCreation) (.zip file): This template sends an automatic outbound message when a case is created.
+- [Case Creation flow - SMS](https://download.microsoft.com/download/734a7e82-366c-4ba7-8f27-ce0686889cbc/CaseCreation%20flow%20template%20.zip) (.zip file): This template sends an automatic outbound message when a case is created.
 
-- [Case Resolved flow - SMS](https://aka.ms/CaseResolved) (.zip file): This instant-type template sends an outbound message manually to all customers who have a case in the resolved state.
+- [Case Resolved flow - SMS](https://download.microsoft.com/download/da92cbd6-f072-4a05-aa7b-3815aa9429f0/CaseResolved%20flow%20template%20.zip) (.zip file): This instant-type template sends an outbound message manually to all customers who have a case in the resolved state.
 
 **To set up a Power Automate flow**
 
