@@ -3,7 +3,7 @@ title: Set up Sales territories
 description: Define sales territories to organize customer and market segments, assign salespeople, and simplify business analysis.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
 ms.date: 09/13/2023
@@ -30,13 +30,6 @@ Organizations can create a model and visualize their sales territories in a hier
 > [!IMPORTANT]
 > - For a new organization that provisions Dynamics 365 Sales, the territory hierarchical relationship will be available and enabled by default.
 > - For existing customers upgrading to the latest release, if the organization doesn't already have a hierarchical relationship created for the Territory table, the hierarchical relationship will be available and enabled. If the organization has a hierarchical relationship created for territory, the new out-of-the-box territory hierarchical relationship will be available but not enabled.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Vice President, CEO-Business Manager, System Administrator, or System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Create a sales territory
 
@@ -85,7 +78,7 @@ Add salespeople as members of a territory to assign them the sales and revenue o
 > [!TIP]
 >  To make your salesperson's job easier, you can also set a default price list for a territory. [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
   
-### See also  
+## Related information  
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Define and track your sales goals](goals-overview.md)  

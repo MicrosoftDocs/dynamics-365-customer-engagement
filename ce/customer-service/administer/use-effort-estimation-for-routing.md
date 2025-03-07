@@ -1,61 +1,41 @@
 ---
 title: "Use effort estimation model in unified routing | MicrosoftDocs"
 description: "Learn how to use the effort estimation model in unified routing in Customer Service."
-ms.date: 04/04/2022
+ms.date: 06/14/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Use effort estimation model in unified routing (preview)
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
-
-> [!IMPORTANT]
-> [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
->
-> [!INCLUDE[cc-preview-features-definition](../../includes/cc-preview-features-definition.md)]
->
-> [!INCLUDE[cc-preview-features-expect-changes](../../includes/cc-preview-features-expect-changes.md)]
->
-> [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 You can use the effort estimation model to classify and route work items.
 
-You can use the estimation technique to understand how much time it will take to address a work item, and based on that estimation, route it to the agent who has the bandwidth to manage it.
+You can use the estimation technique to understand how much time it will take to address a work item, and based on that estimation, route it to the customer service representative (service representative or representative) who has the bandwidth to manage it.
 
 Effort can be defined as the length of time that's necessary to either resolve a work item or amount of time spent on a work item before it is moved to the next stage as defined by the organization.
 
 Some examples of how effort can be defined are as follows:
 
-- Estimate time for an agent to respond to a customer response through email and assign accordingly
+- Estimate time for a service representative to respond to a customer response through email and assign accordingly
 
-- Estimate time for an agent analysis and assign accordingly
+- Estimate time for a representative analysis and assign accordingly
 
 - Estimate time for a full case resolution and assign accordingly
+
+[This article is prerelease documentation and is subject to change.]
+
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note.md)]
 
 ## Create effort estimation models
 
 You can create the effort estimation models for any record that is enabled for unified routing. You can provide the context to the model for training by selecting the attributes. At least two attributes are mandatory, and you can specify up to 10 attributes. Attributes that indicate severity and priority are useful.
 
-1. In Dynamics 365, go to one of the apps, and perform the following steps.
+1. In the Customer Service admin center site map, select **Routing**. The **Routing** page appears.
    
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    - In the site map, select **Routing**. The **Routing** page appears.
-
-   ### [Omnichannel admin center (deprecated)](#tab/omnichanneladmincenter)
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
-
-    - In the site map, select **User attributes** in **Advanced settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-   
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    - Go to the **Service Management** site map, and select **User attributes** in **Unified Routing**.
-
 2. Select **Manage** for **Effort-based routing**.
 
 3. On the page that appears, select **New**.
@@ -91,15 +71,15 @@ You can create the effort estimation models for any record that is enabled for u
 
 ### Performance grade
 
-The performance grade of the model is indicated by A, B, C, D, E, or F. The letters indicate the quality of the model in the descending order. More information: [Prediction models performance](/ai-builder/prediction-performance)
+The performance grade of the model is indicated by A, B, C, D, E, or F. The letters indicate the quality of the model in the descending order. Learn more in [Prediction models performance](/ai-builder/prediction-performance).
 
 ## Create classification rules based on effort estimation model
 
-After you train the effort estimation models, you can create classification rules based on the models and use the rules with other rules to help categorize the work items to be routed to the right agents who will help with the issues.
+After you train the effort estimation models, you can create classification rules based on the models and use the rules with other rules to help categorize the work items to be routed to the right representatives who will help with the issues.
 
-1. Create or edit a workstream. More information: [Create workstreams](create-workstreams.md)
+1. Create or edit a workstream. Learn more in [Create workstreams](create-workstreams.md).
 
-2. Go to the **Work classification (optional)** section to create a classification rule. More information: [Configure work classification rulesets](configure-work-classification.md)
+2. Go to the **Work classification (optional)** section to create a classification rule. Learn more in [Configure work classification rulesets](configure-work-classification.md).
 
 3. In the **Create work classification ruleset** dialog, select the rule type as **Machine learning model**, and then select type as **Effort estimation**.
 
@@ -118,7 +98,7 @@ After you train the effort estimation models, you can create classification rule
 
 Create the route-to-queue rules based on the effort estimation.
 
-1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. More information: [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md)
+1. For the workstream in which you created the rule based on effort estimation, in **Routing rules**, select **Create ruleset** or **See more** for **Route to queues** to create a rule. Learn more in [Configure route-to-queues rulesets and rules](configure-route-to-queue-rules.md).
 
 2. Create a rule to define conditions and select the queue to which the work items need to be assigned when the conditions are met.
    
@@ -146,7 +126,7 @@ Effort estimate-based routing is supported only in the following languages:
 - Japanese
 - Spanish
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [How to set up unified routing](set-up-routing-process.md)  

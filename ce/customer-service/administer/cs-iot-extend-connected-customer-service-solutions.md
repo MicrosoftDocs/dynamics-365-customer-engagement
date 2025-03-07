@@ -1,10 +1,11 @@
 ---
 title: "Extend Connected Customer Service solutions | MicrosoftDocs"
 description: "Connected Customer Service supports the customization of each standard component or service and the easy addition of custom Azure-based components and services."
-ms.date: 04/03/2020
+ms.date: 03/15/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Extend Connected Customer Service solutions
@@ -28,7 +29,7 @@ The Azure services and components, including the ones detailed in [Connected Cus
 ## Extend Connected Customer Service
 
 > [!NOTE]
-> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Postman to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Postman with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api).
+> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Insomnia to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Insomnia with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/insomnia).
 
 The following table lists the custom entities and processes that Connected Customer Service supplies to interface with the associated Azure services and components. These types are more fully described in `Microsoft.Dynamics.CRM.IoTConnector`.
   
@@ -50,7 +51,7 @@ The following table lists the custom entities and processes that Connected Custo
   
 ### IOT enabling an entity type
 
- [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of “IoT enabling” a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entity; you can:  
+ [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entities can be associated to IoT entities listed above so that within [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] they can participate in IoT-related business processes and analyses. There are two methods of "IoT enabling" a [!INCLUDE[pn_dyn_365](../../includes/pn-dyn-365.md)] entity; you can:  
   
 - Programmatically form an association through the standard Dynamics 365 [Connection entities](../../customerengagement/on-premises/developer/connection-entities.md) capability. You can alternatively accomplish this same association through the administration UI; for more information, see [Create connections to view relationships between records](/dynamics365/customer-engagement/basics/create-connections-view-relationships-between-records).  
   

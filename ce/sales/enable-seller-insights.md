@@ -3,10 +3,10 @@ title: Enable seller insights
 description: Learn how to enable the seller insights feature. This feature provides intelligent insights about customers, so that sellers can focus on tasks that matter, close deals, and enhance their productivity.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection: 
-ms.date: 06/09/2023
+ms.date: 02/27/2025
 ms.custom: bap-template
 ---
 
@@ -15,13 +15,6 @@ ms.custom: bap-template
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 The seller insights feature provides intelligent insights about customers, so that sellers can focus on tasks that matter, close deals, and enhance their productivity.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Prerequisites
 
@@ -37,7 +30,7 @@ The seller insights feature provides intelligent insights about customers, so th
 
 By default, the feature is enabled for all users in your organization, and insights are displayed for records. To learn how to restrict access to selected users in your organization, go to [Manage access to view insights](manage-access-view-insights.md).
 
-### See also
+## Related information
 
 [Get intelligent insights to improve sales](seller-insights-intro.md)  
 [Manage access to view insights](manage-access-view-insights.md)

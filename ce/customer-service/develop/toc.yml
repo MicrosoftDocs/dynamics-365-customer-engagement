@@ -1,3 +1,4 @@
+ items:
  - name: Dynamics 365 Customer Service
    items: 
     - name: Develop Dynamics 365 Customer Service
@@ -16,8 +17,10 @@
           href: add-skill-control.md
         - name: Close live work items or deactivate queue items
           href: deactivate-queue-items.md
-        - name: Route non-case records using a plug-in
+        - name: Route noncase records using a plug-in
           href: trigger-routing-non-case-records.md 
+        - name: Add multiple preferred agent records
+          href: add-multiple-preferred-agent-records.md
       - name: Knowledge management
         items:
         - name: Create a knowledge article using a template
@@ -40,7 +43,7 @@
           href: download-transcripts-bulk.md
         - name: Add a web resource for real-time translation
           href: add-web-resource-real-time-translation.md
-        - name: Enable third-party co-browse and screen sharing
+        - name: Enable third-party cobrowse and screen sharing
           href: third-party-co-browse.md
         - name: Live chat widget telemetry
           href: live-chat-telemetry.md 
@@ -67,7 +70,11 @@
           - name: Test the custom messaging channel
             href: test-custom-channel-sample-html.md
           - name: Markdown formats in custom channels that use Direct Line
-            href: markdown-formats-dev.md        
+            href: markdown-formats-dev.md   
+      - name: Copilot in Customer Service
+        items:  
+        - name: Download Copilot transcripts and interaction data
+          href: download-copilot-transcript-data.md               
       - name: Agent productivity tools
         items: 
         - name: Build a smart assist bot
@@ -104,342 +111,12 @@
           href: suggested-actions.md
         - name: Pass authentication token to bot during single sign-on in live chat
           href: pass-auth-token-sso-live-chat.md
-      - name: Service scheduling
-        items:  
-        - name: Search resource availability and create bookings
-          href: universal-resource-scheduling.md   
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service
           href: extend-omnichannel.md
         - name: Entity reference
-          items: 
-          - name: Overview
-            href: reference/entities/overview-entity-ref.md
-          - name: Deprecated entities
-            href: reference/entities/deprecated-entities.md
-          - name: incident
-            href: reference/entities/incident.md
-          - name: msdyn_actioninputparameter
-            href: reference/entities/msdyn_actioninputparameter.md
-          - name: msdyn_actionoutputparameter
-            href: reference/entities/msdyn_actionoutputparameter.md
-          - name: msdyn_agentcapacityprofileunit
-            href: reference/entities/msdyn_agentcapacityprofileunit.md         
-          - name: msdyn_agentcapacityupdatehistory
-            href: reference/entities/msdyn_agentcapacityupdatehistory.md        
-          - name: msdyn_agentscript
-            href: reference/entities/msdyn_agentscript.md
-          - name: msdyn_agentscriptstep
-            href: reference/entities/msdyn_agentscriptstep.md
-          - name: msdyn_agentstatus
-            href: reference/entities/msdyn_agentstatus.md         
-          - name: msdyn_agentstatushistory
-            href: reference/entities/msdyn_agentstatushistory.md        
-          - name: msdyn_analytics
-            href: reference/entities/msdyn_analytics.md
-          - name: msdyn_assignmentconfiguration
-            href: reference/entities/msdyn_assignmentconfiguration.md
-          - name: msdyn_assignmentconfigurationstep
-            href: reference/entities/msdyn_assignmentconfigurationstep.md
-          - name: msdyn_authenticationsettings
-            href: reference/entities/msdyn_authenticationsettings.md
-          - name: msdyn_bookableresourcecapacityprofile
-            href: reference/entities/msdyn_bookableresourcecapacityprofile.md
-          - name: msdyn_cannedmessage
-            href: reference/entities/msdyn_cannedmessage.md
-          - name: msdyn_capacityprofile
-            href: reference/entities/msdyn_capacityprofile.md
-          - name: msdyn_cdsentityengagementctx
-            href: reference/entities/msdyn_cdsentityengagementctx.md
-          - name: msdyn_channelcapability
-            href: reference/entities/msdyn_channelcapability.md
-          - name: msdyn_chatansweroption
-            href: reference/entities/msdyn_chatansweroption.md
-          - name: msdyn_chatquestionnaireresponse
-            href: reference/entities/msdyn_chatquestionnaireresponse.md
-          - name: msdyn_chatquestionnaireresponseitem
-            href: reference/entities/msdyn_chatquestionnaireresponseitem.md
-          - name: msdyn_chatwidgetlanguage
-            href: reference/entities/msdyn_chatwidgetlanguage.md
-          - name: msdyn_consoleapplicationsessiontemplate
-            href: reference/entities/msdyn_consoleapplicationsessiontemplate.md
-          - name: msdyn_conversationaction
-            href: reference/entities/msdyn_conversationaction.md
-          - name: msdyn_conversationactionlocale
-            href: reference/entities/msdyn_conversationactionlocale.md
-          - name: msdyn_conversationmessageblock
-            href: reference/entities/msdyn_conversationmessageblock.md        
-          - name: msdyn_conversationsuggestionrequestpayload
-            href: reference/entities/msdyn_conversationsuggestionrequestpayload.md
-          - name: msdyn_copilotinteraction
-            href: reference/entities/msdyn_copilotinteraction.md
-          - name: msdyn_copilotinteractiondata
-            href: reference/entities/msdyn_copilotinteractiondata.md
-          - name: msdyn_copilottranscript
-            href: reference/entities/msdyn_copilottranscript.md
-          - name: msdyn_copilottranscriptdata
-            href: reference/entities/msdyn_copilottranscriptdata.md                           
-          - name: msdyn_customengagementctx
-            href: reference/entities/msdyn_customengagementctx.md
-          - name: msdyn_decisioncontract
-            href: reference/entities/msdyn_decisioncontract.md
-          - name: msdyn_decisionruleset
-            href: reference/entities/msdyn_decisionruleset.md
-          - name: msdyn_entityconfig
-            href: reference/entities/msdyn_entityconfig.md
-          - name: msdyn_entityroutingconfiguration
-            href: reference/entities/msdyn_entityroutingconfiguration.md
-          - name: msdyn_facebookengagementctx
-            href: reference/entities/msdyn_facebookengagementctx.md
-          - name: msdyn_lineengagementctx
-            href: reference/entities/msdyn_lineengagementctx.md
-          - name: msdyn_livechatconfig
-            href: reference/entities/msdyn_livechatconfig.md
-          - name: msdyn_livechatengagementctx
-            href: reference/entities/msdyn_livechatengagementctx.md
-          - name: msdyn_livechatwidgetlocation
-            href: reference/entities/msdyn_livechatwidgetlocation.md
-          - name: msdyn_liveconversation
-            href: reference/entities/msdyn_liveconversation.md
-          - name: msdyn_liveworkstream
-            href: reference/entities/msdyn_liveworkstream.md
-          - name: msdyn_liveworkstreamcapacityprofile
-            href: reference/entities/msdyn_liveworkstreamcapacityprofile.md
-          - name: msdyn_localizedsurveyquestion
-            href: reference/entities/msdyn_localizedsurveyquestion.md
-          - name: msdyn_maskingrule
-            href: reference/entities/msdyn_maskingrule.md
-          - name: msdyn_macroactiontemplate
-            href: reference/entities/msdyn_macroactiontemplate.md
-          - name: msdyn_macroconnector
-            href: reference/entities/msdyn_macroconnector.md
-          - name: msdyn_macrosession
-            href: reference/entities/msdyn_macrosession.md
-          - name: msdyn_macrosolutionconfiguration
-            href: reference/entities/msdyn_macrosolutionconfiguration.md
-          - name: msdyn_oc_geolocationprovider
-            href: reference/entities/msdyn_oc_geolocationprovider.md
-          - name: msdyn_ocapplepay  
-            href: reference/entities/msdyn_ocapplepay.md
-          - name: msdyn_ocbotchannelregistration
-            href: reference/entities/msdyn_ocbotchannelregistration.md
-          - name: msdyn_ocbotchannelregistrationsecret
-            href: reference/entities/msdyn_ocbotchannelregistrationsecret.md
-          - name: msdyn_occhannelconfiguration
-            href: reference/entities/msdyn_occhannelconfiguration.md
-          - name: msdyn_occhannelstateconfiguration
-            href: reference/entities/msdyn_occhannelstateconfiguration.md
-          - name: msdyn_occommunicationprovidersetting
-            href: reference/entities/msdyn_occommunicationprovidersetting.md
-          - name: msdyn_occommunicationprovidersettingentry
-            href: reference/entities/msdyn_occommunicationprovidersettingentry.md
-          - name: msdyn_occustommessagingchannel
-            href: reference/entities/msdyn_occustommessagingchannel.md
-          - name: msdyn_ocexternalcontext
-            href: reference/entities/msdyn_ocexternalcontext.md        
-          - name: msdyn_ocfbapplication
-            href: reference/entities/msdyn_ocfbapplication.md
-          - name: msdyn_ocfbpage
-            href: reference/entities/msdyn_ocfbpage.md
-          - name: msdyn_ocgooglebusinessmessagesagentaccount
-            href: reference/entities/msdyn_ocgooglebusinessmessagesagentaccount.md
-          - name: msdyn_ocgooglebusinessmessagespartneraccount
-            href: reference/entities/msdyn_ocgooglebusinessmessagespartneraccount.md  
-          - name: msdyn_oclanguage
-            href: reference/entities/msdyn_oclanguage.md
-          - name: msdyn_oclinechannelconfig
-            href: reference/entities/msdyn_oclinechannelconfig.md
-          - name: msdyn_ocliveworkitem
-            href: reference/entities/msdyn_ocliveworkitem.md
-          - name: msdyn_ocliveworkitemcapacityprofile
-            href: reference/entities/msdyn_ocliveworkitemcapacityprofile.md
-          - name: msdyn_ocliveworkitemcharacteristic
-            href: reference/entities/msdyn_ocliveworkitemcharacteristic.md
-          - name: msdyn_ocliveworkitemcontextitem
-            href: reference/entities/msdyn_ocliveworkitemcontextitem.md
-          - name: msdyn_ocliveworkitemparticipant
-            href: reference/entities/msdyn_ocliveworkitemparticipant.md
-          - name: msdyn_ocliveworkitemsentiment
-            href: reference/entities/msdyn_ocliveworkitemsentiment.md
-          - name: msdyn_ocliveworkstreamcontextvariable
-            href: reference/entities/msdyn_ocliveworkstreamcontextvariable.md
-          - name: msdyn_oclocalizationdata
-            href: reference/entities/msdyn_oclocalizationdata.md
-          - name: msdyn_ocoutboundconfiguration
-            href: reference/entities/msdyn_ocoutboundconfiguration.md
-          - name: msdyn_ocoutboundmessage
-            href: reference/entities/msdyn_ocoutboundmessage.md
-          - name: msdyn_ocphonenumber
-            href: reference/entities/msdyn_ocphonenumber.md
-          - name: msdyn_ocphonecallengagementctx
-            href: reference/entities/msdyn_ocphonecallengagementctx.md
-          - name: msdyn_ocprovisioningstate
-            href: reference/entities/msdyn_ocprovisioningstate.md
-          - name: msdyn_ocrecording
-            href: reference/entities/msdyn_ocrecording.md
-          - name: msdyn_ocrequest
-            href: reference/entities/msdyn_ocrequest.md
-          - name: msdyn_ocruleitem
-            href: reference/entities/msdyn_ocruleitem.md
-          - name: msdyn_ocsentimentdailytopic
-            href: reference/entities/msdyn_ocsentimentdailytopic.md
-          - name: msdyn_ocsentimentdailytopickeyword
-            href: reference/entities/msdyn_ocsentimentdailytopickeyword.md
-          - name: msdyn_ocsentimentdailytopictrending
-            href: reference/entities/msdyn_ocsentimentdailytopictrending.md
-          - name: msdyn_ocsession
-            href: reference/entities/msdyn_ocsession.md
-          - name: msdyn_ocsessioncharacteristic
-            href: reference/entities/msdyn_ocsessioncharacteristic.md
-          - name: msdyn_ocsessionparticipantevent
-            href: reference/entities/msdyn_ocsessionparticipantevent.md
-          - name: msdyn_ocsessionsentiment
-            href: reference/entities/msdyn_ocsessionsentiment.md
-          - name: msdyn_ocsimltraining
-            href: reference/entities/msdyn_ocsimltraining.md
-          - name: msdyn_ocsitdimportconfig
-            href: reference/entities/msdyn_ocsitdimportconfig.md
-          - name: msdyn_ocsitrainingdata
-            href: reference/entities/msdyn_ocsitrainingdata.md
-          - name: msdyn_ocskillidentmlmodel
-            href: reference/entities/msdyn_ocskillidentmlmodel.md
-          - name: msdyn_ocsystemmessage
-            href: reference/entities/msdyn_ocsystemmessage.md
-          - name: msdyn_octag
-            href: reference/entities/msdyn_octag.md
-          - name: msdyn_octeamschannelconfig
-            href: reference/entities/msdyn_octeamschannelconfig.md
-          - name: msdyn_ocvoice
-            href: reference/entities/msdyn_ocvoice.md
-          - name: msdyn_ocvoicechannellanguagesetting
-            href: reference/entities/msdyn_ocvoicechannellanguagesetting.md
-          - name: msdyn_ocvoicechannelsetting
-            href: reference/entities/msdyn_ocvoicechannelsetting.md
-          - name: msdyn_ocwechatchannelconfig
-            href: reference/entities/msdyn_ocwechatchannelconfig.md
-          - name: msdyn_ocwhatsappchannelaccount
-            href: reference/entities/msdyn_ocwhatsappchannelaccount.md
-          - name: msdyn_ocwhatsappchannelnumber
-            href: reference/entities/msdyn_ocwhatsappchannelnumber.md
-          - name: msdyn_omnichannelconfiguration
-            href: reference/entities/msdyn_omnichannelconfiguration.md
-          - name: msdyn_omnichannelpersonalization
-            href: reference/entities/msdyn_omnichannelpersonalization.md
-          - name: msdyn_omnichannelqueue
-            href: reference/entities/msdyn_omnichannelqueue.md
-          - name: msdyn_omnichannelsyncconfig
-            href: reference/entities/msdyn_omnichannelsyncconfig.md
-          - name: msdyn_operatinghour
-            href: reference/entities/msdyn_operatinghour.md
-          - name: msdyn_overflowactionconfig
-            href: reference/entities/msdyn_overflowactionconfig.md
-          - name: msdyn_paneconfiguration
-            href: reference/entities/msdyn_paneconfiguration.md
-          - name: msdyn_panetabconfiguration
-            href: reference/entities/msdyn_panetabconfiguration.md
-          - name: msdyn_panetoolconfiguration
-            href: reference/entities/msdyn_panetoolconfiguration.md
-          - name: msdyn_parameterdefinition
-            href: reference/entities/msdyn_parameterdefinition.md
-          - name: msdyn_personalmessage
-            href: reference/entities/msdyn_personalmessage.md
-          - name: msdyn_personalsoundsetting
-            href: reference/entities/msdyn_personalsoundsetting.md
-          - name: msdyn_personasecurityrolemapping
-            href: reference/entities/msdyn_personasecurityrolemapping.md
-          - name: msdyn_preferredagent
-            href: reference/entities/msdyn_preferredagent.md
-          - name: msdyn_preferredagentcustomeridentity
-            href: reference/entities/msdyn_preferredagentcustomeridentity.md        
-          - name: msdyn_presence
-            href: reference/entities/msdyn_presence.md
-          - name: msdyn_productivitypaneconfiguration
-            href: reference/entities/msdyn_productivitypaneconfiguration.md
-          - name: msdyn_provider
-            href: reference/entities/msdyn_provider.md
-          - name: msdyn_questionsequence
-            href: reference/entities/msdyn_questionsequence.md
-          - name: msdyn_resourcerequirement
-            href: reference/entities/msdyn_resourcerequirement.md
-          - name: msdyn_routingconfiguration
-            href: reference/entities/msdyn_routingconfiguration.md
-          - name: msdyn_routingconfigurationstep
-            href: reference/entities/msdyn_routingconfigurationstep.md
-          - name: msdyn_routingrequest
-            href: reference/entities/msdyn_routingrequest.md
-          - name: msdyn_routingrulesetsetting
-            href: reference/entities/msdyn_routingrulesetsetting.md
-          - name: msdyn_rulesetdependencymapping
-            href: reference/entities/msdyn_rulesetdependencymapping.md
-          - name: msdyn_scenario
-            href: reference/entities/msdyn_scenario.md
-          - name: msdyn_searchconfiguration
-            href: reference/entities/msdyn_searchconfiguration.md
-          - name: msdyn_sentimentanalysis
-            href: reference/entities/msdyn_sentimentanalysis.md
-          - name: msdyn_sessionevent
-            href: reference/entities/msdyn_sessionevent.md
-          - name: msdyn_sessionparticipant
-            href: reference/entities/msdyn_sessionparticipant.md
-          - name: msdyn_shiftactivitytype
-            href: reference/entities/msdyn_shiftactivitytype.md   
-          - name: msdyn_shiftplan
-            href: reference/entities/msdyn_shiftplan.md            
-          - name: msdyn_skillattachmentruleitem
-            href: reference/entities/msdyn_skillattachmentruleitem.md
-          - name: msdyn_skillattachmenttarget
-            href: reference/entities/msdyn_skillattachmenttarget.md
-          - name: msdyn_smsengagementctx
-            href: reference/entities/msdyn_smsengagementctx.md
-          - name: msdyn_smsnumber
-            href: reference/entities/msdyn_smsnumber.md
-          - name: msdyn_soundfile
-            href: reference/entities/msdyn_soundfile.md
-          - name: msdyn_soundnotificationsetting
-            href: reference/entities/msdyn_soundnotificationsetting.md
-          - name: msdyn_surveyquestion
-            href: reference/entities/msdyn_surveyquestion.md
-          - name: msdyn_systemuser_msdyn_omnichannelqueue
-            href: reference/entities/msdyn_systemuser_msdyn_omnichannelqueue.md
-          - name: msdyn_teamsengagementctx
-            href: reference/entities/msdyn_teamsengagementctx.md
-          - name: msdyn_transcript
-            href: reference/entities/msdyn_transcript.md
-          - name: msdyn_unifiedroutingdiagnostic
-            href: reference/entities/msdyn_unifiedroutingdiagnostic.md
-          - name: msdyn_unifiedroutingrun
-            href: reference/entities/msdyn_unifiedroutingrun.md
-          - name: msdyn_unifiedroutingsetuptracker
-            href: reference/entities/msdyn_unifiedroutingsetuptracker.md
-          - name: msdyn_usersetting
-            href: reference/entities/msdyn_usersetting.md
-          - name: msdyn_visitorjourney
-            href: reference/entities/msdyn_visitorjourney.md
-          - name: msdyn_wechatengagementctx
-            href: reference/entities/msdyn_wechatengagementctx.md
-          - name: msdyn_wemaccess
-            href: reference/entities/msdyn_wemaccess.md            
-          - name: msdyn_whatsappengagementctx
-            href: reference/entities/msdyn_whatsappengagementctx.md
-          - name: BookableResource
-            href: reference/entities/bookableresource.md
-          - name: BookableResourceBooking
-            href: reference/entities/bookableresourcebooking.md
-          - name: BookingStatus
-            href: reference/entities/bookingstatus.md
-          - name: queue
-            href: reference/entities/queue.md
-          - name: queue
-            href: reference/entities/queue.md
-          - name: queueitem
-            href: reference/entities/queueitem.md
-          - name: routingrule
-            href: reference/entities/routingrule.md
-          - name: socialprofile
-            href: reference/entities/socialprofile.md
-          - name: systemuser
-            href: reference/entities/systemuser.md        
+          href: reference/entities/toc.yml
         - name: Live chat SDK Reference  
           items: 
           - name: Overview
@@ -474,7 +151,7 @@
               href: reference/events/lcw-ready.md
             - name: "lcw:startChat"
               href: reference/events/lcw-startchat.md          
-            - name: "lcw:closeChat"
+            - name: "lcw: closeChat"
               href: reference/events/lcw-closeChat.md
             - name: "lcw:onClose"
               href: reference/events/lcw-onClose.md          
@@ -595,7 +272,21 @@
           - name: Context management    
             items:                
             - name: updateContext
-              href: reference/properties/updateContext.md                  
+              href: reference/properties/updateContext.md      
+            - name: resolveSlug
+              href: reference/properties/resolveSlug.md    
+          - name: Event management
+            items:
+            - name: Events
+              items:
+              - name: ON_SESSION_SWITCH
+                href: reference/events/on_session_switch.md  
+              - name: ON_SESSION_CLOSED
+                href: reference/events/on_session_closed.md     
+            - name: Methods
+              items: 
+               - name: getEventPublisherTopic
+                 href: reference/methods/getEventPublisherTopic.md       
           - name: Readme
             href: https://go.microsoft.com/fwlink/p/?linkid=2141982
     - name: Responsible AI
@@ -618,9 +309,11 @@
       href: ../implement/overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Implement Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
-    - name: Manage your contact center
+    - name: Use Dynamics 365 Customer Service
       href: ../implement/overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Dynamics 365 Channel Integration Framework
       href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Dynamics 365 Contact Center documentation
+      href: /dynamics365/contact-center/

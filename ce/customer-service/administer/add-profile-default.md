@@ -3,13 +3,15 @@ title: Add users to agent experience profiles
 description: Learn about adding a default profile and mapping agent profiles to security roles.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.date: 02/02/2024
 ms.custom: bap-template 
 ---
 
 # Add users to agent experience profiles
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 When your organization has a large number of users, adding them to agent profiles can be time consuming. As an administrator, you can effectively assign users to agent experience profiles and provide a targeted app experience, based on their roles.
 
@@ -102,7 +104,7 @@ Here's how the application assigns the agent expereince profiles:
 
 For more information about adding users to agent experience profiles, see [FAQs about adding users to agent experience profile](faq-agent-experience-profile.md)
 
-### See also
+### Related information
 
 [FAQ about adding users to agent experience profile](faq-agent-experience-profile.md)<br>
 [Create and use agent experience profiles](create-agent-experience-profile.md)<br>

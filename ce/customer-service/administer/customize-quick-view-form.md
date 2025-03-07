@@ -1,15 +1,13 @@
 ---
 title: "Customize quick view forms | MicrosoftDocs"
 description: "This topic provides procedural steps to customize the quick view forms present in the Active Conversation page in Omnichannel for Customer Service."
-ms.date: 10/05/2020
+ms.date: 12/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Customize quick view forms
-
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 You can customize the quick view form in the section by navigating to the respective entities and quick view forms. The following are some of the relevant entities.
 
@@ -37,10 +35,10 @@ The following procedure shows how to modify the **Customer profile** quick view 
 6.  Select **Save**, and then select **Publish**.
 
 > [!TIP]
-> To edit a quick view form, see [Edit a quick view form](/dynamics365/customer-engagement/customize/create-edit-quick-view-forms#edit-a-quick-view-form)  
+> To customize a quick view form, see [Edit a quick view form](/power-apps/maker/model-driven-apps/create-edit-quick-view-forms#edit-a-quick-view-form).
 
 
-### See also
+### Related information
 
 [Omnichannel system customizers](omnichannel-customizer.md)  
 [Customize Active Conversation form](customize-customer-summary.md)   

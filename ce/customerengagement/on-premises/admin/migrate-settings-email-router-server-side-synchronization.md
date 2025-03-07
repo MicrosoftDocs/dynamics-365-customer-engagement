@@ -2,7 +2,6 @@
 title: "Migrate Email Router in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to migrate the Email Router configuration settings to server-side synchronization to set up email and sync appointments, contacts, and tasks."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 8b1637ff-34c6-489d-ad1c-4f3c8159ae91
 caps.latest.revision: 22
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

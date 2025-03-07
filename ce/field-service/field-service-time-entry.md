@@ -1,122 +1,52 @@
 ---
-title: Track time expenditure with time entries (contains video)
-description: Learn about time entry in Dynamics 365 Field Service.
-ms.date: 11/19/2020
-
-ms.topic: article
-applies_to: 
-  - "Dynamics 365 (online)"
-  - "Dynamics 365 Version 9.x"
-author: FeifeiQiu
-ms.author: feiqiu
+title: Track time expenditure with time entries
+description: Discover how to manage time entry in Dynamics 365 Field Service.
+ms.date: 01/24/2025
+ms.topic: conceptual
+author: anilmur
+ms.author: anilmur
 ---
 
 # Track time expenditure with time entries
 
-Time entry capabilities help field service organizations better track the time that technicians spend during work orders and other scenarios. 
+Time entry capabilities help field service organizations better track the time that technicians spend on a job. Time entry can be tied to a work order or booking. They're often used for reporting, invoicing, and billing for the provided services and can be integrated with ERP systems. Other applications can also write to the Time Entry table in Dataverse.
 
-Time entries are useful for: 
+Administrators determine the following settings:
 
-- reporting 
-- understanding utilization
-- billing and invoicing for service 
+- [**Timestamp Frequency**](configure-default-settings.md#work-order--booking-settings): Whether a timestamp is created per **Booking Status** or **Work Order System Status**.
 
-> [!Note]
-> Field Service time entry utilizes the same entity that Project Service Automation has always used. This creates a consistent time capture process, regardless of whether your organization uses Field Service, Project Service Automation, or both. However, the custom calendar control introduced by Project Service is tailored to work specifically for Project Service type Time Entry records. Field Service time entry is **not** compatible with the Project Operations control for time entries.
+- [**Time Entry Generation Strategy**](configure-default-settings.md#time-entry-settings): Automatic (default) or manual time entries.
 
-There are three ways time entries are created in Dynamics 365 Field Service: 
+- [**Time Cost Actuals Source**](configure-default-settings.md#time-entry-settings): Whether time cost actuals come from time entries or booking journals.
 
-- **automatically** during the work order process
-- **manually** for custom business processes
-- automatically for **time-off requests**
+Manual time entries and time-off requests can be entered in the mobile app and the web app.
 
+For a guided walkthrough of the automated and manual time entry process, check out the following video.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of time entries.](./media/work-order-time-entry.png)
-
-
-For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=881e6a12-aca1-43ec-9a7d-5cb5ea876e22]
 
 ## Automatic time entries
 
-Time entries are automatically created during the work order process. As a work order is scheduled and performed, booking status changes are tracked in booking timestamps.
+The system by default creates time entries automatically for time-off requests and in the work order process. You can view the time entries after the **Booking Status** is set to *Completed*.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of booking timestamps.](./media/work-order-time-entry-booking-statuses.png)
+### Work order process
 
-When the work order booking status is changed to **Completed**, time entries are created based on the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking’s end time preserves the previous end time value.
+When the **Booking Status** for a work order changes, the system logs [booking timestamps](booking-timestamps.md). When a work order is completed, the system creates time entries based on the booking timestamps. If another user updates the booking status to *Completed* on behalf of a technician, the booking's end time preserves the previous end time value.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of time entries for one person.](./media/work-order-time-entry-work-order.png)
+:::image type="content" source="media/work-order-time-entry.png" alt-text="Screenshot of a list of time entries.":::
 
-When the work order system status (different than the booking status) is changed to **Closed-Posted**, actual records are created based on the time entries. These records represent the internal cost of the technician's time.
+When the **Work Order System Status** changes to *Closed-Posted*, the system creates records for *actuals* based on the time entries. These records represent the internal cost of the technician's time.
 
+:::image type="content" source="media/work-order-time-entry-actuals.png" alt-text="Screenshot of a list of active actuals.":::
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of active actuals.](./media/work-order-time-entry-actuals.png)
+Time entries are only automatically created for work order bookings and not for independent bookings or bookings related to other tables.
+
+### Time off requests
+
+[Time off requests](submit-approve-time-off-requests.md) are automatically recorded as time entries. Depending on the settings for the bookable resource record, someone might need to approve the request. The system automatically creates a time entry record with the type *Vacation*. The scheduling assistant doesn't recommend that resource for a job during that period. The time slots for that resource are grayed out on the schedule board to provide a visual notification to the dispatchers that the resource isn't available.
 
 ## Manual time entry
 
-Time entries can also be created manually. From a desktop, go to **Field Service** > **Time Entries** > **+New**.
-
-Add a start time, end time or duration, and the bookable resource to which the time entry relates.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a manual time entry.](./media/work-order-time-entry-manual.png)
-
-You can relate the time entry to other records - like work orders and bookings - as needed.
-
-You can also view and create time entries on the [Field Service mobile app](mobile-power-app-get-started.md). 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of time entry on the mobile app.](./media/mobile-2020-time-entry-all.png)
-
-## Time off
-
-Time-off requests are automatically recorded as time entries as well.
-
-First, submit a time-off request. Submission can be done in the desktop browser or from the mobile app.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new time-off request.](./media/time-entry-new-time-off.png)
-
-A time entry record will automatically be created. The type will be **Vacation** by default and the entry status will be submitted.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of my time entries, highlighting a submitted vacation request.](./media/time-entry-time-off-submitted.png)
-
-Next, approve the time-off request. Approval is only required if the resource on the time-off request requires approval, as defined on the bookable resource record.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a new time-off request, highlighting the approve option.](./media/time-entry-time-off-approve.png)
-
-The time entry **Entry Status** will be updated as approved.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a list of time entries, highlighting an approved time-off time entry.](./media/time-entry-time-off-approve-time-entry.png)
-
-Making changes to the date or duration of the time entry will update the time-off request and vice versa.
-
-## Configuration considerations
-
-- While out-of-the box security roles have been adjusted to allow for time entry usage and time entry automatic creation from time-off requests, organizations should expect to add time entry permissions to their custom security roles. Without permissions on time entry, users will be blocked from creating time entries and time-off requests due to their interconnected automation, even if they could previously create time-off requests.
-
-- If you do not want time entries created automatically for the work order process, go to **Field Service** > **Settings** > **Field Service Settings** and set the **Time Entry Generation Strategy** to **Manual**.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of the manual time entry generation strategy.](./media/work-order-time-entry-setting.png)
-
-
-- Time entries are created based on booking timestamps, and booking timestamps are created based on the **Timestamp Frequency** setting in Field Service Settings. See the [article on booking timestamps](booking-timestamps.md) to understand how timestamps can be created based on the booking statuses or Field Service booking statuses.
-
-## Additional notes
-
-Time entries are only automatically created for work order bookings and not for independent bookings or bookings related to other entities such as cases or custom entities.
-
-Time entries are not created in offline mode, but are created upon sync. 
-
-The Project Service introduced calendar control is built specifically to display project service type time entries. Field Service and other time entries will, in most cases, be filtered out of displayed data from the control regardless of the parameters defined in the view.
+Time entries can also be created manually in the Field Service web app and on the mobile app from the main menu. Add a start time, end time or duration, and the bookable resource. If the time entry is related to a work order or booking, enter that information as well.
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

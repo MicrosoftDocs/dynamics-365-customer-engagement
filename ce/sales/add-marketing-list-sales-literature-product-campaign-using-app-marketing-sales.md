@@ -1,12 +1,14 @@
 ---
-title: "Add assets to campaigns using in-app marketing | MicrosoftDocs"
-description: "Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing. "
-ms.date: 11/12/2021
-ms.topic: article
+title: Add assets to campaigns using in-app marketing
+description: Depending on the marketing context of a campaign, add assets such as a marketing list, sales literature, or product to a campaign using in-app marketing.
+ms.date: 06/20/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
-  - "dyn365-sales"
+  - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -20,13 +22,6 @@ searchScope:
 # Add a marketing list, sales literature, or product to a campaign using in-app marketing
 
 Add all items to the campaign that your organization needs in this marketing context. Usually you need to add marketing lists, but you might also want to refer campaigns to products and related campaigns, or you might want to add sales literature that documents sales procedures.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Add product list, product, or sales literature to a campaign
 
@@ -51,18 +46,15 @@ Add all items to the campaign that your organization needs in this marketing con
 
 5. Select **Save** or **Save and Close**.  
 
-   > [!NOTE]
-   >  To verify that the item you selected was added to the campaign, reopen the campaign. Under **Marketing**, select **Target Marketing Lists**, or under **Sales** select either **Target Products** or **Sales Literature**. The information you added appears in the list.  
-
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
- [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
- [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
- [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
- [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
- [Add an activity to a campaign using in-app marketing](../sales-enterprise/add-activity-campaign-using-app-marketing-sales.md)   
- [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
+## Related information  
+ [Get started with in-app marketing](get-started-app-marketing-sales.md)   
+ [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
+ [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
+ [Create a quick campaign using in-app marketing](create-quick-campaign-using-app-marketing-sales.md)   
+ [Add an activity to a campaign using in-app marketing](add-activity-campaign-using-app-marketing-sales.md)   
+ [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

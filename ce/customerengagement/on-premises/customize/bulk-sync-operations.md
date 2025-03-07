@@ -2,7 +2,6 @@
 title: "Run bulk operations on workflows in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use bulk operations to perform operations on multiple asynchronous workflow jobs simultaneously. Learn how to run operations like cancel, pause, and resume."
 ms.custom: ""
-ms.date: 05/20/2019
 ms.reviewer: ""
 
 ms.suite: ""
@@ -11,7 +10,7 @@ ms.topic: "article"
 author: "msftman"
 ms.assetid: 
 caps.latest.revision:
-ms.author: "deonhe"
+ms.author: jdaly
 search.audienceType: 
   - admin
 ---

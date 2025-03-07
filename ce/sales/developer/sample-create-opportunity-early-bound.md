@@ -2,12 +2,12 @@
 title: "Sample: Create an opportunity (early bound) (Dynamics 365 Sales)"
 description: The sample demonstrates how to create an opportunity that contains a product from the product catalog.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
@@ -27,7 +27,7 @@ This sample code is for Dynamics 365 Sales. [Download the Business Management sa
 ## Example  
  [!code-csharp[BusinessManagement#CreateOpportunity](../../snippets/csharp/CRMV8/businessmanagement/cs/createopportunity.cs#createopportunity)]  
   
-### See also  
+## Related information  
     
  [Opportunity Tables](opportunity-entities.md)   
  [Sample: Retrieve an Opportunity (Early Bound)](sample-retrieve-opportunity-early-bound.md)

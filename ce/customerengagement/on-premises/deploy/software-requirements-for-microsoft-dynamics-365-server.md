@@ -2,7 +2,6 @@
 title: "Software requirements for Dynamics 365 Server | Microsoft Docs"
 description: "This article lists the required software requirements for Dynamics 365 Server"
 ms.custom: ""
-ms.date: "12/08/2023"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""
@@ -37,12 +36,17 @@ This article lists the software and application requirements for this version of
 ### Supported Windows Server editions
  The following versions and editions of the Windows Server operating system are supported for installing and running [!INCLUDE[pn_crm_2016_server](../includes/pn-crm-2016-server.md)], version 9.1:  
 
+- Windows Server 2022 Standard <sup>1</sup>
+- Windows Server 2022 Datacenter <sup>1</sup>
 - Windows Server 2019 Standard
 - Windows Server 2019 Datacenter
 - [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] Standard
 - [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)] Datacenter  
-  
-### Server Core installations  
+ 
+<sup>1</sup>Requires [Service Update 1.25 for Microsoft Dynamics Customer Engagement v9 (on-premises)](https://support.microsoft.com/topic/-service-update-1-25-for-microsoft-dynamics-crm-on-premises-9-1-54bbb86c-1e34-4bea-92b9-dd2f45b74358)
+
+### Server Core installations
+
  With the exception of the [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] [!INCLUDE[pn_Help_Server](../includes/pn-help-server.md)] and [!INCLUDE[pn_CRM_Reporting_Extensions_server_side](../includes/pn-crm-reporting-extensions-server-side.md)] roles, you can install any [!INCLUDE[pn_microsoft_dynamics_crm_2016_server](../includes/pn-microsoft-dynamics-crm-2016-server.md)] server role on a Server Core installation of [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)]. Server Core is a minimal server installation option for the [!INCLUDE[pn_Windows_Server](../includes/pn-windows-server.md)] family of operating systems. Server Core provides a low-maintenance server environment with limited functionality. For more information about Server Core as implemented on [!INCLUDE[pn_windowsserver2016](../includes/pn-windowsserver2016.md)], see [Server Core for Windows Server 2016](/windows-server/get-started/sconfig-on-ws2016)  
   
 > [!IMPORTANT]
@@ -90,6 +94,9 @@ To integrate Dynamics 365 Customer Engagement (on-premises) with Microsoft Entra
 ## SQL Server editions  
 Any one of the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-server.md)] editions is required, running, and available for [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
 
+- Microsoft SQL Server 2022 Enterprise<sup>1</sup>
+- Microsoft SQL Server 2022 Standard<sup>1</sup>
+- Microsoft SQL Server 2022 Developer (for nonproduction use only)<sup>1</sup>
 - Microsoft SQL Server 2019 Enterprise
 - Microsoft SQL Server 2019 Standard
 - Microsoft SQL Server 2019 Developer (for nonproduction use only)
@@ -99,7 +106,9 @@ Any one of the following [!INCLUDE[pn_MS_SQL_Server](../includes/pn-ms-sql-serve
 - Microsoft SQL Server 2016 Enterprise, with Service Pack 2 or Service Pack 3
 - Microsoft SQL Server 2016 Standard, with Service Pack 2 or Service Pack 3
 - Microsoft SQL Server 2016 Developer, with Service Pack 2 or Service Pack 3 (for nonproduction use only)
-  
+
+<sup>1</sup>Requires [Service Update 1.25 for Microsoft Dynamics Customer Engagement v9 (on-premises)](https://support.microsoft.com/topic/-service-update-1-25-for-microsoft-dynamics-crm-on-premises-9-1-54bbb86c-1e34-4bea-92b9-dd2f45b74358)
+
 > [!IMPORTANT] 
 > -  [!INCLUDE[pn_ms_SQL_Server_Express_long](../includes/pn-ms-sql-server-express-long.md)] editions are not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  
 > -  An [Azure SQL Managed instance](/azure/azure-sql/managed-instance/sql-managed-instance-paas-overview) is not supported for use with this version of [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)].  

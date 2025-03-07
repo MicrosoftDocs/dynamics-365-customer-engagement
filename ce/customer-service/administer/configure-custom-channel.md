@@ -1,36 +1,43 @@
 ---
 title: Configure custom messaging channels 
-description: Learn what a custom channel is and how to configure it, or bring your own channel, in Omnichannel for Customer Service.
-ms.date: 02/29/2024
+description: Learn what a custom channel is and how to configure it or bring your own channel.
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
 
 # Configure custom messaging channels
 
-[!INCLUDE [cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line and Telegram with Omnichannel for Customer Service. With the custom messaging channel capability, you can:
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
+> [!IMPORTANT]
+> The Telegram and Kik custom messaging channels were deprecated and removed from Omnichannel for Customer Service on October 8, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+
+Apart from built-in channels like chat and email, your organization can integrate custom messaging channels like Direct Line. With the custom messaging channel capability, you can:
 
 - Bring in the channels your customers already use so that you can engage with them in familiar ways.
 - Integrate line-of-business or in-house channels that are specific to your organization.
-- Easily configure the administrator experience in the Customer Service admin center.
-- Create a single, unified agent experience in the Omnichannel for Customer Service app.
+- Easily configure the administrator experience in the admin center.
+- Create a single, unified agent experience.
 
 ## Prerequisites
 
-- Have a bot that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure to register the bot resource as a multitenant app.
+- Have an AI agent (agent) that's built using the [Microsoft Bot Framework](https://dev.botframework.com) and registered with [Azure Bot Service](/azure/bot-service/bot-service-quickstart-registration?view=azure-bot-service-4.0&preserve-view=true). Make sure to register the agent resource as a multitenant app.
 - [Connect the custom channel to the Azure bot resource](/azure/bot-service/bot-service-manage-channels?view=azure-bot-service-4.0&preserve-view=true).
 - [Have the app ID](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=userassigned#to-get-your-app-or-tenant-id&preserve-view=true).
 - [Have the client secret value](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&tabs=userassigned#to-generate-a-new-password&preserve-view=true).
 
 ## Configure a custom messaging channel
 
-1. In the Customer Service admin center, under **Customer support**, select **Channels**. In **Accounts**, for **Messaging accounts**, select **Manage**.
+1. In the site map of Contact Center admin center or Customer Service admin center, go to **Customer support**, and then select **Channels**. 
+1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
 1. On the **Accounts and channels** page, select **New account**.
 
@@ -64,7 +71,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 ### Configure workstream and routing rules
 
-1. In Omnichannel for Customer Service, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
+1. In the admin center app, select **Workstreams**, and then [create a workstream](create-workstreams.md). Be sure to select **Messaging** for **Type** and **Custom** for **Channel**.
 
 1. Select the workstream that you created for the custom channel.
 
@@ -79,7 +86,7 @@ Apart from built-in channels like chat and email, your organization can integrat
    - [Custom automated messages](configure-automated-message.md)
    - [Post-conversation survey](configure-post-conversation-survey.md)
 
-1. On the **User features** page, if you want customers or agents, or both, to [send file attachments](enable-file-attachments.md), turn on **File attachments** and select the appropriate options.
+1. On the **User features** page, if you want customers or customer service representatives, or both, to [send file attachments](enable-file-attachments.md), turn on **File attachments** and select the appropriate options.
 
 1. Verify the settings on the **Summary** page, and then select **Finish**.
 
@@ -101,7 +108,7 @@ Apart from built-in channels like chat and email, your organization can integrat
 
 [Test your custom messaging channel](../develop/test-custom-channel-sample-html.md)
 
-### See also
+### Related information
 
 [Bring your own custom messaging channel using Direct Line](../develop/bring-your-own-channel.md)  
 [Support for live chat and asynchronous channels](card-support-in-channels.md)  

@@ -3,7 +3,7 @@ title: Delete or deactivate assignment rules
 description: Learn how to remove assignment rules that you don't need anymore in Dynamics 365 Sales. You can either deactivate them to keep them in the app or delete them completely.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 08/11/2023
 ms.custom:
@@ -21,13 +21,6 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 - **Delete a rule** to remove it from the app completely. The records that were already assigned aren't affected. You can't undo this action.
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Deactivate or delete an assignment rule
 
@@ -50,7 +43,7 @@ Sometimes, you might want to get rid of assignment rules that are no longer rele
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate assignment rules](wa-create-and-activate-assignment-rule.md)
 

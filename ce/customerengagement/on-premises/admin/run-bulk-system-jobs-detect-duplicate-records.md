@@ -2,7 +2,6 @@
 title: "Bulk duplicate detection in Dynamics 365 Customer Engagement (on-premises)"
 description: "Run bulk jobs to clean up duplicate records such as contacts, accounts, and leads. You can even schedule the job to run daily and alert you when it's done."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 61aff241-9194-4a2c-8d83-1bfdc8b7449d
 caps.latest.revision: 40
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

@@ -3,9 +3,9 @@ title: Configure components to display customer details and recent records | Mic
 description: Learn about adding the Associated grid control component to forms
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to 
-ms.date: 04/25/2023 
+ms.date: 05/14/2024
 ms.custom: bap-template 
 ---
 
@@ -15,13 +15,13 @@ Use the **Customer 360** and **Recent records** components to display the custom
 
 ## Add the Customer 360 component to a case form
 
-After you add the **Customer 360** control to a case form, when an agent selects a customer in the Customer field, the customer details are displayed as follows:
+After you add the **Customer 360** control to a case form, when a customer service representative (service representative or representative) selects a customer in the Customer field, the customer details are displayed as follows:
  
  :::image type="content" source="../media/customer360-control.png" alt-text="sample image of the customized card" lightbox="../media/customer360-control.png":::
 
  Do the following tasks to add the control. You can use these steps to display customer records on any entity where the Customer lookup is available.
 
-Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables.<br>
+Step 1: Add the **Customer 360** component to forms in the **Account** and **Contact** tables. By default, the component is available in the **Account form for Customer card** and **Contact form for Customer card** forms. <br>
 Step 2: On the **Case** form, add the **Account** and **Contact** forms on which the component was added. More information: [Edit related table records directly from another table’s main form](/power-apps/maker/model-driven-apps/form-component-control).
 
 You can add the **Customer 360** card to a custom form in Customer Service workspace and Omnichannel for Customer Service. Perform the steps in [View the customer details in an app side pane on a custom form](#view-the-customer-details-in-an-app-side-pane-on-a-custom-form) section to add the Customer 360 card to a customized form. 
@@ -69,7 +69,7 @@ You can add the **Customer 360** card to a custom form in Customer Service works
 
 ### View the customer details in an app side pane on a custom form 
 
-Perform the following steps to view the customer details in an app side pane, when the agent changes the customer or account name.
+Perform the following steps to view the customer details in an app side pane, when the representative changes the customer or account name.
 
 1. In Power Apps, you must add the event handler function for the On Change event of the **Customer** or **Account**. More information: [Add or remove event handler function to event using UI](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids?tabs=add-event-handlers-unified-interface#add-or-remove-event-handler-function-to-event-using-ui). 
 1. Specify the following details in **Configure Event**:
@@ -81,7 +81,7 @@ Perform the following steps to view the customer details in an app side pane, wh
 
 #### Display customer details when an existing record is opened
 
-If agents should see the customer details in an app side pane when they open an existing record with the customer or account name populated, add the following function to your customer script for the On Load event: `ModernCaseManagement.ModernCaseManagementLibrary.onCustomerChange(executionContext);`.
+If representatives should see the customer details in an app side pane when they open an existing record with the customer or account name populated, add the following function to your customer script for the On Load event: `ModernCaseManagement.ModernCaseManagementLibrary.onCustomerChange(executionContext);`.
 
 ## Add the Recent records component
 
@@ -102,7 +102,7 @@ If agents should see the customer details in an app side pane when they open an 
 
    :::image type="content" source="../media/recent-record-control.png" alt-text="sample image of the recent cases card":::
 
-### See also
+### Related information
 
 [Create, edit, or configure forms using the model-driven form designer](/power-apps/maker/model-driven-apps/create-and-edit-forms)  
 

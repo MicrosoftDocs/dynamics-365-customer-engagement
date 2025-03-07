@@ -1,9 +1,10 @@
 ---
 title: Prioritize leads through predictive scores
 description: Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-ms.date: 05/10/2023
+ms.date: 07/04/2024
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ms.topic: conceptual
 ms.service: dynamics-365-sales
@@ -12,14 +13,6 @@ ms.service: dynamics-365-sales
 # Prioritize leads through scores  
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## What is predictive lead scoring
 
@@ -47,6 +40,8 @@ The following considerations apply for real-time scoring:
 The **My Open Leads Scored** system view is available when predictive lead scoring is enabled in your organization. This view provides a list of leads with different parameters including lead score, lead grade, and lead score trend. 
 
 :::image type="content" source="media/my-open-lead-score-view.png" alt-text="Screenshot of the My Open Leads Scored view.":::
+
+Don't see the scores for your leads? Check out this [FAQ](faq-lead.md#leads-not-scored).
 
 Legend:
 
@@ -84,10 +79,8 @@ For more information about the lead score, select the **About** tab. The **About
 
 :::image type="content" source="media/predictive-lead-scoring-widget-top-reasons-about-tab.png" alt-text="Screenshot of predictive lead score About tab.":::
 
-### See also
+## Related information
 
 [Configure predictive lead scoring](configure-predictive-lead-scoring.md)  
-[Predictive lead and opportunity scoring](faqs-sales-insights.md#predictive-lead-and-opportunity-scoring)  
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

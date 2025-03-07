@@ -3,36 +3,38 @@ title: Model existing tables as skills
 description: Learn how you can use existing tables to model as skills and use in unified routing in Dynamics 365 Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 06/26/2023
+ms.date: 02/04/2025
 ms.custom: bap-template
 ---
 
 # Model existing tables as skills
 
-Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365, and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing tables as skills, managing data becomes easier.  The following examples illustrate two common scenarios.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+Organizations can use existing data tables and model them as skills to perform skill-based routing. With this approach, you can avoid recreating data definitions as skills in Dynamics 365, and you won't need to write classification rules to stamp skills on the incoming work items. By modeling existing tables as skills, managing data becomes easier. The following examples illustrate two common scenarios.
 
 - **Example 1**: Use an existing system table to model a skill
 
-   A customer calls a company's support line for help with a product. An agent creates a case in Dynamics 365 Customer Service. The case is created with “Product” as one of the fields. The relationship between product name and product type is already established in the system. Agents are trained to troubleshoot issues with the company's products&mdash;that is, they're "skilled" on the product. Therefore, the company can model "Product" in the Cases table as a skill and assign product types as skills to its agents.
+   A customer calls a company's support line for help with a product. A customer service representative (service representative or representative) creates a case in Dynamics 365 Customer Service. The case is created with “Product” as one of the fields. The relationship between product name and product type is already established in the system. Service representatives are trained to troubleshoot issues with the company's products&mdash;that is, they're "skilled" on the product. Therefore, the company can model "Product" in the Cases table as a skill and assign product types as skills to its representatives.
 
 - **Example 2**: Use an existing custom table to model a skill
 
-   A company has created a column called "Operating market" in a [custom table](/power-apps/maker/data-platform/data-platform-create-entity) in live chat. Whenever a customer starts a chat with a support agent, "Operating market" automatically stores the customer's location. Agents are trained to manage the expectations and requirements of customers in specific operating markets&mdash;that is, they're "skilled" on those markets. Therefore, the company can model "Operating market" in the custom table as a skill and assign markets as skills to its agents.
+   A company has created a column called "Operating market" in a [custom table](/power-apps/maker/data-platform/data-platform-create-entity) in live chat. Whenever a customer starts a chat with a support representative, "Operating market" automatically stores the customer's location. Service representatives are trained to manage the expectations and requirements of customers in specific operating markets&mdash;that is, they're "skilled" on those markets. Therefore, the company can model "Operating market" in the custom table as a skill and assign markets as skills to its representatives.
 
 ## How modeling tables as skills differs from traditional skill-based routing
 
 Say you have multiple product categories and attributes already configured in your system, such as all your cases populated with "Product" and "Customer" information. To use traditional skill-based routing, you would:
 
 - Enter all your products and customers as skills.
-- Assign those skills to agents.
+- Assign those skills to representatives.
 - Create classification rules to add "product" and "customer" skills to incoming work items.
 
 Whenever you added a new product or customer, you'd have to:
 
 - Create a new skill for the new product or customer.
-- Assign the new skill to agents.
+- Assign the new skill to representatives.
 - Update your classification rules.
 
 Traditional skill-based routing results in duplicated data and effort because you're creating skills from product and customer data you've already entered.
@@ -45,7 +47,7 @@ To model data in a table as a skill, you'll need to do the following steps:
 
 1. Create a column for the new skill.
 1. Add the column to the Skill Main form so that it's visible in the Customer Service admin center app.
-1. Assign a value to the skill and assign the skill to agents.
+1. Assign a value to the skill and assign the skill to representatives.
 1. Finally, add the skill as a condition in an assignment rule.
 
 In this example, we model a skill on data in the **Products** table.
@@ -88,7 +90,7 @@ In this example, we model a skill on data in the **Products** table.
     :::image type="content" source="../media/custom-skill-added.png" alt-text="Screenshot of a product assigned to the new skill column." lightbox="../media/custom-skill-added.png":::
 
 1. Select **Save**.
-1. [Assign the skill to agents](setup-skills-assign-agents.md#assign-agents-to-skill) as needed.
+1. [Assign the skill to representatives](setup-skills-assign-agents.md#assign-agents-to-skill) as needed.
 
 Finally, add a condition based on the new skill to an [assignment rule](configure-assignment-rules.md).
 
@@ -96,7 +98,7 @@ Finally, add a condition based on the new skill to an [assignment rule](configur
 
 ## Model other data as skills
 
-You can model as a skill any attribute or category you like and match agents with work items using them. You won't have to write classification rules for each skill, saving time and effort in maintenance, especially when attributes or categories change frequently. Using this approach, you can maintain the modeled skills at agent level and change the lookup to the new or updated value when it changes.  
+You can model as a skill any attribute or category you like and match service representatives with work items using them. You won't have to write classification rules for each skill, saving time and effort in maintenance, especially when attributes or categories change frequently. Using this approach, you can maintain the modeled skills at representative level and change the lookup to the new or updated value when it changes.  
 
 ## Things to consider
 

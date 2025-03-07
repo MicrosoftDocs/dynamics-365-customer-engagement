@@ -1,21 +1,15 @@
 ---
 title: "Enable customization of Opportunity Close form | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 01/16/2024
+ms.date: 02/25/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Enable customization of the Opportunity Close form 
 
 Enable system customizers to customize the opportunity close experience so that sellers can capture details about why an opportunity was closed.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Enable customization
 
@@ -41,6 +35,8 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 1.  In your app, on the navigation bar, select the **Settings** icon ![Settings icon on the navigation bar.](media/settings-icon.png "Settings icon on the navigation bar"), and then select **Advanced Settings**.
 
     The **Business Management settings** page opens in a new browser tab.
+    > [!NOTE]
+    > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 1.  On the navigation bar, select **Settings**, and then select **Administration**.
 
@@ -53,15 +49,12 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 4.  Select **OK**.
 
+---
 
-
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
-
-### See also
+## Next steps
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]

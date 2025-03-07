@@ -1,10 +1,11 @@
 ---
 title: Microsoft 365 consent types
 description: Learn about the types of consent Dynamics 365 needs to collect and use Microsoft 365 data to generate insights.  
-ms.date: 09/02/2022
+ms.date: 02/27/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 

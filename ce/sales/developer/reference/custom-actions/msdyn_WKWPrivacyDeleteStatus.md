@@ -5,20 +5,13 @@ ms.date: 08/19/2022
 ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # msdyn_WKWGDPRDeleteStatus custom action 
 
 To comply with the GDPR requirements, you may need to delete a user's data after they leave the organization or for other reasons. This includes data that Dynamics 365 collects from Microsoft 365 to provide business insights. 
 
 After you request the deletion of user data using the msdyn_WKWDeleteGDPRData API, use the msdyn_WKWGDPRDeleteStatus API to get the status of the request.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../../../security-roles-for-sales.md)|
-
 
 ## Parameters
 

@@ -1,14 +1,14 @@
 ---
-title: "Implement a custom scenario for smart assist bot | MicrosoftDocs"
-description: "Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist bots."
-ms.date: 04/25/2020
+title: Implement a custom scenario for smart assist bot
+description: Use this topic to learn how to enable similar case suggestions and use custom actions to build your custom smart assist bots.
+ms.date: 01/31/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
-# Implement a custom scenario for smart assist bot
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+# Implement a custom scenario for smart assist bot
 
 This topic provides information on how you can enable similar case suggestions in your smart assist bot.
 
@@ -17,8 +17,8 @@ This topic provides information on how you can enable similar case suggestions i
 > [!IMPORTANT]
 > Read the topic [Build a smart assist bot](smart-assist-bot.md) for information on how to get started with building a custom smart assist bot. 
 
-- You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true). <!--When you register your bot with Azure Bot Service, you will obtain `Microsoft App ID` and `Client secret` which you will need to update the `appsettings.json` file in the bot.-->
-- Create a LUIS app by following the instructions mentioned in [Add natural language understanding to your bot](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
+- You need to have an understanding on how to create a bot using [Azure Bot Service](/azure/bot-service/abs-quickstart?view=azure-bot-service-4.0&preserve-view=true). When you register your bot with Azure Bot Service, you obtain `Microsoft App ID` and `Client secret` which you need to update the `appsettings.json` file in the bot.
+- Create a Language Understanding (LUIS) app by following the instructions mentioned in [Add natural language understanding to your bot](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true). See the section [Retrieve application information from the LUIS.ai portal](/azure/bot-service/bot-builder-howto-v4-luis?tabs=csharp&view=azure-bot-service-4.0&preserve-view=true#retrieve-application-information-from-the-luisai-portal) for information on how to retrieve the values you need to setup the bot.
 
 ## Scenario: Similar case suggestion
 
@@ -30,17 +30,17 @@ It is necessary analyze the conversation and understand its context before recom
 
 You can create intents for each issue type or topic that you want to address for incoming requests from customers or the most common topics being discussed.  
 
-For the example scenario of similar case recommendations for ‘printer noise’ issue, create an intent with the same name and add 10-15 examples like ‘printer noise, loud noise from printer, printer making grinding noise, loud clicking noise, loud sound’ etc. The LUIS app then needs to be trained for this intent.  
+For the example scenario of similar case recommendations for "printer noise" issue, create an intent with the same name and add 10-15 examples like "printer noise, loud noise from printer, printer makes grinding noise, loud click noise, and loud sound". The LUIS app then needs to be trained for this intent.  
 
 ### Author adaptive cards to display recommendations in the smart assist UI
 
-[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI.<!-- The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents. -->
+[Adaptive cards](https://adaptivecards.io) is an open-source standard that helps apps and services exchange rich snippets of native UI. The smart assist bot interprets the conversation context in real-time and provides recommendations to the agents.
 
 ### Custom actions for implementing custom functionalities
 
 Custom actions can help you implement custom functionalities in your smart assist bot.
 
-Given below are the steps for enabling the similar case scenario.
+The steps for enabling the similar case scenario are as follows:
 
 1. **Set up Similarity Rules**
 
@@ -48,11 +48,11 @@ Setup similarity rule by following the steps 1 to 7 in mentioned here: [Create a
  
 2. **Turn Relevance search ON**
 
-Turn On Relevance Search in the administrator section. More information: [Enable a field for exact matching of similar cases](../administer/suggest-similar-cases-for-a-case.md#enable-a-field-for-exact-matching-of-similar-cases). 
+Turn on Relevance Search in the administrator section. Learn more in [Enable a field for exact matching of similar cases](../administer/suggest-similar-cases-for-a-case.md#enable-a-field-for-exact-matching-of-similar-cases). 
   
 3. **Similar cases API**
 
-Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you have set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../administer/suggest-similar-cases-for-a-case.md). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
+Similar cases can be fetched using the `GetSimilarRecords` function. But before you execute the Web API query with this function, make sure that you set up similarity rules. More information: [Use advanced similarity rules to view similar case suggestions](../administer/suggest-similar-cases-for-a-case.md). Also, make sure to enable **Relevance Search** in the administrator section to ensure that similarity rules work in the expected manner. Also, in the **Match Field** section add a few criteria such as case title and case type.
 
 **Request**
 
@@ -91,8 +91,8 @@ Replace the `incident id` in the Web API request above with the unique identifie
 
 #### Calling custom actions using adaptive cards
 
-You will have to create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. These web resources will have to be uploaded under the **Active Conversation** form.
-Given below are the supported custom actions.
+Create a web resource if you want to use embed a custom action within a suggestion. See the Power Apps topic on [Create your own actions](/powerapps/developer/common-data-service/custom-actions) for information on how to build a custom action. See the topic [Web resources in model-driven apps](/powerapps/maker/model-driven-apps/create-edit-web-resources) for information on how to create web resources. Upload these web resources under the **Active Conversation** form.
+The supported custom actions are as follows.
 
 **OpenForm custom action**
 
@@ -137,7 +137,7 @@ This custom action enables you to send a knowledge base article.
 You can use the client-side APIs to open knowledge base articles. See [Client API reference for model driven apps](/powerapps/developer/model-driven-apps/clientapi/reference) for more information.
 
 
-## See also
+## Related information
 
 [Build a smart assist bot](smart-assist-bot.md)<br />
 [Sample code: Smart Assist for Bots](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/customer-service/omnichannel/smart-assist-bot)<br />

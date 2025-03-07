@@ -1,15 +1,14 @@
 ---
 title: "Recover unresponsive Chrome process instances | MicrosoftDocs"
 description: "Learn how to recover Chrome process instances in Unified Service Desk. Also, know how to use keyboard shortcuts to terminate and recover such instances."
-ms.date: 04/10/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 monikerRange: '>= dynamics-usd-4.1'
 ---
 

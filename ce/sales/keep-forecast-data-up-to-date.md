@@ -5,6 +5,7 @@ ms.date: 12/26/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - dyn365-sales
   - ai-gen-docs-bap
@@ -24,14 +25,6 @@ searchScope:
 
 You want the forecast data to be up-to-date to make informed decisions. Forecast data is automatically recalculated at regular intervals. However, you can trigger a manual recalculation when you want to recalculate the forecast data immediately. You can also trigger a manual recalculation for past and future periods as they aren't automatically recalculated. [Learn more about when and how forecast recalculation happens](forecast-recalculation-methods.md).
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Recalculate and refresh forecast data manually
 
 1. [Open the forecast](view-forecasts.md). Verify the **Last updated** timestamp on the command bar to know when the forecast was last recalculated successfully.
@@ -50,7 +43,7 @@ You want the forecast data to be up-to-date to make informed decisions. Forecast
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Project accurate revenue with sales forecasting](project-accurate-revenue-sales-forecasting.md)<br>
 

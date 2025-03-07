@@ -5,18 +5,11 @@ ms.date: 09/01/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Apply additional filters
 
 Add filters to refine the opportunities and hierarchies that participate in calculating the forecast values.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Filter hierarchy records in the forecast
 
@@ -79,7 +72,7 @@ When the forecast is activated, the query will be executed to filter the forecas
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)<br>
 [View a forecast](view-forecasts.md)

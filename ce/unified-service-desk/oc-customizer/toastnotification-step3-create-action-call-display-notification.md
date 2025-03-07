@@ -1,12 +1,15 @@
 ---
 title: "Create Omnichannel Toast Notification-related action call | MicrosoftDocs"
 description: "Learn how to create action calls that can be used to show notifications in Omnichannel for Customer Service."
-ms.date: 07/01/2019
+ms.date: 06/27/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 monikerRange: '>= dynamics-usd-4.1'
+ms.custom: evergreen
 ---
+
 # Step 3: Create an action call to display the notification 
 
 

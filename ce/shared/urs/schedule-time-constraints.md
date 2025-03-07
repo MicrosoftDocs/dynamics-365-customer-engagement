@@ -9,11 +9,11 @@ The time parameter fields **Time From/To Promised** and **Time Window Start/End*
 
 Schedule a requirement to between a start and end date and time.
 
-On the **Settings** tab of a work order, set the **Time From/To Promised** fields to define the date window in which a resource must arrive and complete the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
+On the **Settings** tab of a work order, set the **Time From/To Promised** fields to define the time window in which a resource must arrive and start the work. These values automatically populate the corresponding fields on the related resource requirement and vice versa.
 
 :::image type="content" source="../../field-service/media/work-order-time-window.png" alt-text="Screenshot of the time window preferences on a work order form.":::
 
-When searching for suitable resources to work on the requirements, the schedule assistant populates the filters accordingly. Resources available for the entire duration show as options.
+When searching for suitable resources to work on the requirements, the schedule assistant populates the filters accordingly. Resources available for the entire duration show as options. The time promised window needs to be within the search range (search start and search end) to show as a search result. If a value of the time promised window is missing, the system uses the other value. To return such results when searching, make sure the search range includes the time from promised plus the expected duration. If no value for the promised time value is provided, the fields are ignored when searching in the schedule assistant.
 
 ## Set a time zone for the requirement
 

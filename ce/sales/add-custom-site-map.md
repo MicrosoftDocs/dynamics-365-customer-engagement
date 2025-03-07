@@ -1,10 +1,11 @@
 ---
 title: Add pages to your app's site map
 description: Learn how to customize the navigation of your custom Dynamics 365 Sales app by adding pages to the site map.
-ms.date: 02/02/2024
+ms.date: 02/11/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -12,13 +13,6 @@ ms.custom: bap-template
 # Add pages to your app's site map
 
 When you create a custom model-driven app, it comes with a default site map. You can [edit the default site map](/power-apps/maker/model-driven-apps/create-site-map-app#edit-the-default-site-map) to add or remove groups, areas, and subareas, or [create a site map from scratch](/power-apps/maker/model-driven-apps/create-site-map-app). Whether you use the default site map or a new one, you can add pages to easily customize your app's navigation.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator or similar role](security-roles-for-sales.md) |
 
 ## Add pages to the site map
 
@@ -56,6 +50,6 @@ Add an entry to the site map from a Dataverse table, a dashboard, a URL, a web r
 
 1. Save and publish the app.
 
-### See also
+## Related information
 
 - [Customize the Dynamics 365 Sales app](manage-app.md)

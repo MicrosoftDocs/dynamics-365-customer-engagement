@@ -2,7 +2,6 @@
 title: "Create duplicate detection rules in Dynamics 365 Customer Engagement (on-premises)"
 description: "The system includes default duplicate detection rules for accounts, contacts, and leads. To detect duplicates for other record types, create a new rule."
 ms.custom: 
-ms.date: 10/30/2017
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: a692ee2a-ad33-47a9-978e-00331ec0f75e
 caps.latest.revision: 54
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

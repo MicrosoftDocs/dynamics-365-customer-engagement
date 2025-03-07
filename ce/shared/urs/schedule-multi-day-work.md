@@ -8,7 +8,7 @@ Requirements can be scheduled across multiple days and weeks. Dispatchers can sc
 
 Manually scheduling a multi-day requirement on the schedule board allows you to choose the allocation method to determine the breakdown of the bookings created when scheduling. If you are using requirement details to define the allocation method, manually scheduling the requirement will ignore them. Use the [schedule assistant](#schedule-a-multi-day-requirement-with-the-schedule-assistant) instead.
 
-1. Open the schedule board on the hourly view and select a multi-day requirement in the requirements pane.
+1. Open the schedule board on the daily, weekly, or monthly view and select a multi-day requirement in the requirements pane.
 
 2. Then, select a resource on the board for which you would like to schedule the multi-day work order requirement and select **Book**.
 
@@ -48,6 +48,10 @@ When increasing duration, there are four options:
 * Added to total: The increase is added to the total length of all contained details. This new total is then evenly distributed among all contained details. 
 
 To delete a detail, select the detail from the calendar and select the **Delete**.
+
+### Use work hours templates
+
+Alternatively, you can set up a work hours template, which you can assign to a resource requirement. The system generates resource requirements details based on the work hours template.
 
 ## Schedule a multi-day requirement with the schedule assistant
 

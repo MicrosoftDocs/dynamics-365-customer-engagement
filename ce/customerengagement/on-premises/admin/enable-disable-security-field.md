@@ -2,7 +2,6 @@
 title: "Enable or disable field security in Dynamics 365 Customer Engagement (on-premises)"
 description: "Field-level security lets you set which fields your users can see or edit. Follow these steps to enable or disable security for a field."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 5ab086f2-2ed8-4f89-a5ad-e9e119707a62
 caps.latest.revision: 26
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

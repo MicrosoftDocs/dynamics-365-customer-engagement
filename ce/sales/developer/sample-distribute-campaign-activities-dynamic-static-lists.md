@@ -2,12 +2,12 @@
 title: "Sample: Distribute campaign activities to dynamic and static lists (Dynamics 365 Sales)"
 description: The sample code demonstrates how to create a dynamic marketing list, copy it to the static marketing list, and distribute campaign activities to the members of the marketing lists.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
@@ -42,7 +42,7 @@ In order to simulate the scenario described above, the sample will do the follow
 
 Display an option to delete the rows created in the [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the rows to achieve the same result.
   
-### See also  
+## Related information  
  [Campaign Tables](campaign-entities.md)   
  [Sample: Distribute a Quick Campaign](sample-distribute-a-quick-campaign.md)   
  [List (Marketing List) Table](list-marketing-list-entity.md)  

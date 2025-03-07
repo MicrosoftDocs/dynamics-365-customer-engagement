@@ -5,18 +5,12 @@ ms.date: 02/02/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Admin settings overview
 
 Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator](security-roles-for-sales.md)|
 
 ## Access admin settings
 
@@ -84,7 +78,7 @@ If the Sales app doesn't exactly fit your business requirements, use the drag-an
 ---
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Define the lead qualification experience](define-lead-qualification-experience.md)
 - [Allow customization of the Opportunity Close form](enable-opportunity-close-customization.md)
@@ -93,3 +87,4 @@ If the Sales app doesn't exactly fit your business requirements, use the drag-an
 - [Allow PDF generation from sales records](enable-pdf-generation-quote.md)
 
 [!INCLUDE [footer-include](../includes/footer-banner.md)]
+

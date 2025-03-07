@@ -2,7 +2,6 @@
 title: "Create a new site in Dynamics 365 Customer Engagement (on-premises)"
 description: "Create a new site to add an office or other location where operations take place. You can also edit existing sites for details like address and phone number."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -11,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: jimholtz
+author: Mattp123
 ms.assetid: 292d8a45-c318-408a-a545-14589d5210d2
 caps.latest.revision: 20
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 ---

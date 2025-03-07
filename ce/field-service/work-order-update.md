@@ -1,7 +1,7 @@
 ---
 title: AI-powered work order update (preview)
 description: Update work orders with the help of Copilot in Dynamics 365 Field Service.
-ms.date: 11/28/2023
+ms.date: 01/22/2025
 ms.topic: how-to
 author: JonBaker007
 ms.author: jobaker
@@ -23,19 +23,17 @@ The work order update feature adheres to [responsible AI guidelines](faqs-work-o
 
 ## Prerequisites
 
-- Your environment must be in the United States or the United Kingdom.
-
-- The feature is disabled by default for environments in the United Kingdom. An administrator must [enable it](#enable-copilot-to-update-work-order).
+- The feature is disabled by default for environments in the United Kingdom. An administrator must [enable it](#enable-copilot-to-update-work-order). For regional availability, see the [Copilot International Availability Report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport).
 
 - You must have a paid Field Service environment. Copilot isn't available in trial environments.
 
-- You must [update your environment](update-field-service.md) to the latest 2023 wave 2 build
+- You must [update your environment](update-field-service.md) at least to the latest 2023 wave 2 build.
 
-- You [enabled the new mobile experience](mobile-powerapp-newux-overview.md).
+- You [enabled the new mobile experience](mobile/set-up-field-service-mobile.md).
 
 ## Enable Copilot to update work order
 
-A user with administrator permissions can enable this feature. Open the **Field Service Mobile** app module and change to the **Settings** area. Go to **Mobile settings** > **Features** and enable the **Copilot for New Mobile Experience** toggle.
+A user with administrator permissions can enable this feature. Open the **Field Service Mobile** app module and change to the **Settings** area. Go to **Mobile settings** > **Features** and enable the **Work order update** toggle.
 
 ## Work order fields that the feature updates
 
@@ -59,6 +57,6 @@ Copilot can update the following fields on a work order from the new user experi
 
 Open a booking in the new mobile user experience and select the Copilot icon. Select the Update option to start describing your update.
 
-:::image type="content" source="media/field-service-mobile-copilot.png" alt-text="Mobile device showing the Copilot control with options to Summarize and Update work orders.":::
+:::image type="content" source="media/copilot_portrait.png" alt-text="Mobile device showing the Copilot control with options to Summarize and Update work orders.":::
 
 Review the suggested updates and confirm them as you see fit.

@@ -1,13 +1,9 @@
 ---
 title: "Create solutions that support multiple languages (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how to create solutions in multiple languages"
-keywords: 
-ms.date: 04/02/2020
-
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
-ms.assetid: 2f601c9e-b1d1-47be-a8ea-afca16780751
 author: JimDaly
 ms.author: jdaly
 ms.reviewer: pehecke
@@ -110,9 +106,7 @@ search.audienceType:
 > [!NOTE]
 >  For custom entities there are some common labels that are shared with system entities, such as **Created On** or **Created By**. Because you have already installed and provisioned the languages, if you export languages for the default solution you may be able to match some labels in your custom entities with localized text for identical labels used by other entities. This can reduce the localization costs and improve consistency.  
   
- After the text in the worksheets has been localized, add both the CrmTranslations.xml and [Content_Types].xml files to a single compressed .zip file. You can now import this file.  
-  
- If you prefer to work with the exported files programmatically as an XML document, see [Office 2003 XML Reference Schemas](https://www.microsoft.com/downloads/details.aspx?FamilyID=fe118952-3547-420a-a412-00a2662442d9) for information about the schemas these files use.  
+ After the text in the worksheets has been localized, add both the CrmTranslations.xml and [Content_Types].xml files to a single compressed .zip file. You can now import this file.
   
 #### Importing translated text  
   
@@ -343,7 +337,7 @@ protected void ExecutePreValidateAccountDelete(LocalPluginContext localContext)
  [Create, Install, and Update a Managed Solution](create-install-update-managed-solution.md)   
  [Uninstall or Delete a solution](uninstall-delete-solution.md)   
  [Solution entities](solution-entities.md)   
- [Localize product property values](/sales/developer/localize-product-property-values)
+
  
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

@@ -3,10 +3,10 @@ title: Forecast period rules and scheduling formats
 description: Learn about the rules and calendar templates to set forecast periods, including duration, number of occurrences and scheduling format.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/01/2023
+ms.date: 01/02/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -31,7 +31,6 @@ The following rules apply when you're adding forecast periods:
 |Maximum number of periods supported     |     - Overall: 17 <br> - Weekly periods: 17 <br> - Monthly periods: 12 <br> - Quarterly periods: 4 <br> - Annual periods: 3         |
 |Period types assigned for custom periods     |    The following period types are assigned to custom periods depending on the number of days in the period. The rules, such as maximum number of periods and maximum duration, that apply to the predefined period types also apply to custom periods. <br> - Up to of 7 days (1 week): Weekly <br> - 7 days to 35 days (5 weeks): Monthly <br> - 35 days to 98 days (14 weeks): Quarterly <br> - 98 days to 1 year (52 weeks): Annual |
 |Duplicate periods | Not allowed. Duplicate periods&mdash;periods with the same start date and end date&mdash;are not allowed. |
-|Snapshot frequency | - Weekly, monthly and quarterly periods: Daily <br> - Annual periods: Weekly |
 
 
 ### Scheduling format
@@ -51,7 +50,7 @@ The following table describes the templates available for scheduling forecasts.
 \*The 4-4-5/4-5-4/5-4-4 and 3-3-3-4/3-3-4-3/3-4-3-3/4-3-3-3 calendars have only 364 days (7 days &times; 52 weeks). You'll need to add a fifty-third week every five or six years, which might make year-on-year comparison difficult. Instead, you can add an extra week to a specific quarter or month each year. Select the **Custom** calender template from the **Scheduling format** list. Then, specify the start date and end date of the week.
 
 
-### See also
+## Related information
 
 - [Define forecast properties and scheduling](define-general-properties-scheduling-forecast.md)  
 - [Manage forecast periods](manage-forecast-periods.md)  

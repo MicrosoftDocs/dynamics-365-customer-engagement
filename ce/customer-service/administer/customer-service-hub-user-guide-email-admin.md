@@ -1,22 +1,24 @@
 ---
-title: "Configure email | Microsoft Docs"
-description: "Learn how to configure email in customer engagement apps."
-ms.date: 05/09/2023
+title: Configure email
+description: Learn how to configure email in customer engagement apps.
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: lalexms
+ms.reviewer: laalexan
 ---
 
 # Configure email
 
-Email is typically used as a communication channel between customers and agents throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, agents often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-In customer engagement apps, system administrators have the ability to configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
+Email is typically used as a communication channel between customers and customer service representatives (service representatives or representatives) throughout the lifecycle of support delivery. Regardless of the channel where a customer begins a conversation, service representatives often use email to send their customers confirmations, case IDs, attachments, or other communications of record throughout the support lifecycle.
+
+In customer engagement apps, system administrators can configure email templates and enable quick access to email to help users create emails directly from the timeline so they can deliver a more personalized service.	
 
 The following email configuration options are available:	
 - [Configure the email form order](#configure-the-email-form-order): Allow users to access email capabilities and create an option on the command bar.
-- [Enable the enhanced email experience](#enable-the-enhanced-email-experience): Allow users to use broader email functionality, such as expanding the email editor pop-up window, applying predefined templates, and inserting attachments to email.
+- [Enable the enhanced email experience](#enable-the-enhanced-email-experience): Allow users to use broader email functionality, such as expand the email editor pop-up window, apply predefined templates, and insert attachments to email.
 - [Configure email attachments size limitations](#configure-email-attachment-size-limitations): Allows you to manage file size limits for email attachments.
 - [Configure the attachment tiles thumbnail layout](#configure-attachment-tiles-thumbnail-layout): Allows you to configure the visual layout of attachments and the number of attachments to show per page.
 - [Change the number of attachments to show per page](#change-the-number-of-attachments-to-show-per-page): Configure how many attachments you want to show.
@@ -29,27 +31,25 @@ Email must be enabled for users so they can view and access it. When email is en
 To enable email:
 
 1. In Power Apps, go to **Settings** > **Advanced Settings**.
-2. From the top menu, select **Settings** > **Customizations**.
-3. Select **Customize the System**.
-4. Expand **Entities**, select and expand **Email**, and then select **Forms**.
-
-5. On the command bar, select **Form Order**, and then select **Main Form Set** from the drop-down list.
-
-6. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
+1. From the top menu, select **Settings** > **Customizations**.
+1. Select **Customize the System**.
+1. Expand **Entities**, select and expand **Email**, and then select **Forms**.
+1. On the command bar, select **Form Order**, and then select **Main Form Set** from the drop-down list.
+1. The **Form Order** window appears, which displays the enabled email forms that are available. If **Enhanced email** doesn't display at the top of the list, use the arrows to move it up so it displays first on the list, and then select **OK**.
 
    > [!Note] 
    > Both the Navigate-to and Contextual (pop-up) email experience use the same **Form Order**.
 
-7.	When you've completed your updates, select **Publish All Customizations** in the top-left corner in order for changes to be displayed.
+1.	When you complete your updates, select **Publish All Customizations** in the top-left corner to display the changes.
 
 
 ## Enable the enhanced email experience	
 
 Enhanced email is the default setting, but you must enable email for users to access and use the features. 
 
-Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app. In the app:
+1. Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engagement app.
 
-1. Go to **Settings** > **Advanced Settings**.
+1. In the app, go to **Settings** > **Advanced Settings**.
 
 2. Select **Settings** > **Administration**.
 
@@ -61,7 +61,7 @@ Sign in to https://`<YourOrgURL>`.dynamics.com/apps and open a customer engageme
 
 ## Configure email attachment size limitations
 
-You can manage file size limits for email file attachments by doing the following: 
+You can manage file size limits for email file attachments by completing the following steps: 
 
 1. In Power Apps, select **System Settings**.
 
@@ -74,7 +74,7 @@ You can manage file size limits for email file attachments by doing the followin
 
 ## Configure email pop-up window
 
-When an agent selects **New Email** from the Timeline, you can to choose to display the email editor either as a pop-up window or in a new tab. If you enable the email pop-up editor setting, agents see the following experience:
+When a representative selects **New Email** from the Timeline, you can choose to display the email editor either as a pop-up window or in a new tab. If you enable the email pop-up editor setting, representatives see the following experience:
 
    :::image type="content" source="../media/email-popup-mini.png" alt-text="Enhanced quick case form" lightbox="../media/email-popup.png":::
 
@@ -100,16 +100,16 @@ You can configure the attachment tiles thumbnail layout in email by selecting th
 
 5. If the **Read Only Grid** control isn't already present, add it by selecting the **Controls** tab and then selecting **Add Control**.
 
-6. After you've added the **Read Only Grid**, you can select it to set the properties you want. Choose from the following:
+6. After you add the **Read Only Grid**, you can select it to set the properties you want. Choose from the following:
   - **Reflow Behavior**: Determines whether the layout of a grid changes to a list layout when not enough space is available.
     - **Reflow**: Shown in list mode or grid mode, depending on the available size.
     - **List Only**: Shown in list mode only.
     - **Grid Only**: Shown in grid mode only.
   - **Attachment List Style**: The way individual attachments are displayed in list mode (for the Attachment entity only)
     - **Grid**: Shown in block with multiple attachments per row.
-    - **Rows**: Default experience with a single attachments per row.
+    - **Rows**: Default experience with a single attachment per row.
 
-For example, we'll set **Reflow behavior** to **List Only** and **Attachment list style** to **Rows**.
+For example, we set **Reflow behavior** to **List Only** and **Attachment list style** to **Rows**.
 
    ![Set Reflow behavior and Attachment list style.](../media/list-attachment-style.png "Set Reflow behavior and Attachment list style.")
 
@@ -123,7 +123,7 @@ Changing to **List** and **Grid** shows the following attachment layout:
 
 ## Change the number of attachments to show per page
 
-You can configure the maximum number of attachments to show per page. Adjust the settings on the **Formatting** tab of the **List or Chart properties** dialog. For example, if you set the **Number of Rows** property to 4, and then have more than four attachments per email, the rest of the attachments will paginate and you can then use the arrow buttons to view them.  
+You can configure the maximum number of attachments to show per page. Adjust the settings on the **Formatting** tab of the **List or Chart properties** dialog. For example, if you set the **Number of Rows** property to 4, and then have more than four attachments per email, the rest of the attachments paginate and you can then use the arrow buttons to view them.  
 
 ## Manage blocked attachment file types
 
@@ -135,9 +135,9 @@ You can configure the attachment file types you want to block to prevent users f
 
 3. On the **General** tab, scroll down to **Set blocked file extensions for attachments**.
 
-4. Type the file extension(s) you want to block. Users who try to upload a blocked file type will see an error message that tells them the attachment is blocked.
+4. Type one or more file extensions you want to block. Users who try to upload a blocked file type see an error message that tells them the attachment is blocked.
 
-### See Also
+### Related information
 
 [Use email](../customer-service-hub-user-guide-email-overview.md)<br>
 [Create an email template](../customer-service-hub-user-guide-email-create-template.md)<br>

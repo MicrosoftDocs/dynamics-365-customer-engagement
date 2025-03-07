@@ -1,21 +1,26 @@
 ---
-title: Service Scheduling Frequently Asked Questions (Dynamics 365 Customer Service) | MicrosoftDocs
-description: See some common questions about service scheduling and setting it up in Dynamics 365 Customer Service
-ms.date: 05/02/2021
+title: Service Scheduling FAQ
+description: Find answers to common questions about service scheduling, including license requirements, availability, and resource selection.
+ms.date: 09/06/2024
 ms.topic: article
-author: lalexms
-ms.author: laalexan
-search.audienceType: 
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+search.audienceType:
   - admin
   - customizer
   - enduser
-ms.custom: 
+ms.custom:
   - dyn365-customerservice
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:02/22/2024
+  - evergreen
 ---
 
-#  Service scheduling FAQ
+# Service Scheduling FAQ
 
-Read this topic to find answers to some common questions regarding service scheduling, its legacy experience and new experience, setup, and other key concepts.
+This topic provides answers to some common questions about service scheduling, its legacy and new experience, setup, and other key concepts.
 
 ## What licenses do I need to enable service scheduling for my org?
  
@@ -25,26 +30,20 @@ The new scheduling experience is available to you if you have one of the followi
 - D365_ENTEPRISE_CS – Customer Service
 - D365_ENTERPRISE_CM – Case Management
 
+## Is the new scheduling experience automatically available from the Power Platform admin center?
 
-## Is the new scheduling experience automatically available with the next Dynamics 365 Customer Service upgrade?
+Scheduling in Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality.
 
-Scheduling in the Customer Service Hub is a customer-driven update. You need to avail and enable the service scheduling package, which also includes the Universal Resource Scheduling (URS) functionality. 
-
-[!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Set up the scheduling experience](scheduling-experience.md)
-
-
-## Is manual selection of resources supported in a service activity in the new scheduling experience?
-
-When you create a service activity, manual selection of resources isn't supported in the new scheduling experience in Customer Service Hub.
+Learn more in [Set up the scheduling experience](scheduling-experience.md).
 
 
 ## How do I install Core Service Scheduling from the Power Platform admin center?
 
-For steps on how to install Core Service Scheduling from the Power Platform admin center, see [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md).
+For steps on how to install Core Service Scheduling from the Power Platform admin center, go to [Install Service Scheduling from Power Platform](install-service-scheduling-from-power-platform.md).
 
-### See also
+### Related information
 
-[Overview of service scheduling](basics-service-service-scheduling.md
+[Overview of service scheduling](basics-service-service-scheduling.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

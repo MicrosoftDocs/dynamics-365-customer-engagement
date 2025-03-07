@@ -1,10 +1,11 @@
 ---
-title: "View and understand call summary page in Conversation Intelligence app"
-description: "Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript."
-ms.date: 06/29/2023
+title: View and understand call summary page in Conversation Intelligence app
+description: Use call summary a get a high-level view of how a conversation with customer went, and includes action items and relevant keywords, timeline, transcript.
+ms.date: 11/05/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # View and understand call summary page in Conversation Intelligence app
 
@@ -16,23 +17,14 @@ The information on the call summary page helps both sellers and managers:
 - Sellers can quickly ramp up on past conversations with customers, and highlight important topics and commitments.
 - Managers can get a high-level view of how their team is managing their relationships with customers.  
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Prerequisites
 
-- Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
-- To display the **Call Insights** tab in Sales Hub, ensure that [the latest version of Sales Insights](https://appsource.microsoft.com/product/dynamics-365/mscrm.70b76f06-f739-4808-bd58-b5674a0a42d4?tab=Overview) is installed in your organization.
-
+Configure conversation intelligence to process call recordings. More information: [Set up Microsoft Teams for conversation intelligence](fre-setup-ci-sales-app.md)
 
 ## View the call summary page
 
 1. In the [Conversation intelligence app](https://sales.ai.dynamics.com/), open the **Seller Details** page and go to the **Call history** section.
-    
+
     If you don't see any call data, change the time period at the top of the page. 
 1. Select a call to view its summary and other insights.  
     > [!div class="mx-imgBorder"]
@@ -53,7 +45,9 @@ The **Overview** tab displays the names of the people who participated in a conv
 
 ##### View categorization tag for short duration calls (Preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 Conversation intelligence can detect and tag short duration calls for the following categories:
 
@@ -68,6 +62,8 @@ Your administrator must [enable the **Call categorization (preview)**](fre-setup
 
 #### Notes tab
 
+> [!NOTE]
+> Starting June 2024, the **Action items** tab is removed and the **Notes** tab is enhanced to include action items. However, unlike the **Action items** tab, the **Notes** tab doesn't have the option to create tasks, calls, or emails directly from the action items.
 
 The **Notes** tab in the call summary page helps you reduce the time to summarize the call  and add the provided intelligent suggestions to the summary including action items, commitments, call minutes, and next steps.  
 
@@ -105,20 +101,6 @@ Further, you can share the saved summary with the stakeholders through an email.
 
     > [!div class="mx-imgBorder"]
     > ![Email with copy and pasted summary notes](media/ci-summary-call-summary-copy-pasted-email-sales-app.png "Email with copy and pasted summary notes")
-
-#### Action items tab
-
-Displays a list of items mentioned during the call that sellers will need to keep track of and take action on after the call ends&mdash;for example, "I'll send you an email" or "I'll follow up with Michelle tomorrow." When you select an action item, you can see where it was mentioned on the transcript. Actionable items include: **Set up a call**, **create a task**, **send an email**, and **set up a meeting**.
-
-The action items are highlighted in blue and a suggestion to create an appropriate action is displayed. Select the action item link to set up a call or meeting, create a task, or send an email, without losing context. The following screenshot depicts how a task is highlighted in the transcript and how you can create task right from the **Action items** tab:  
-
-> [!div class="mx-imgBorder"]
-> ![Set up a task](media/ci-action-item-setup-call.png "Set up a task")
-
->[!NOTE]
->- If you want to enter more details while setting up a call or task, expand **Create** and then select **Create and Edit**.
->- If you think the action item would be better handled as a task than a call, meeting, or email, select **Create task**.  
->- You can view the call and task activities under the activities of the attached record entity and on the seller's activity list. 
 
 #### Mentions tab
 
@@ -175,7 +157,7 @@ On the timeline, you can see how the conversation was segmented. The topics (if 
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of Conversation Intelligence](../sales/dynamics365-sales-insights-app.md)      
 [Track and manage activities](/dynamics365/sales-enterprise/manage-activities)  

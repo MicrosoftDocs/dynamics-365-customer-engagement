@@ -5,17 +5,11 @@ ms.date: 06/27/2022
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Configure export preferences 
 
 Use the export preference to choose which record types you want to export and limit the number of records to export in each record type.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## To configure export preferences
 
@@ -64,7 +58,7 @@ Before you start, be sure you've met the following prerequisites:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Install ZoomInfo app](install-zoominfo-app.md)   
 

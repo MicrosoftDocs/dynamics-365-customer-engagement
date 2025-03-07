@@ -3,7 +3,8 @@ title: Suggest similar cases for a case with Dynamics 365 Customer Service
 description: Learn how to use the similarity rules and relevance search in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/21/2023
+ms.reviewer: nenellim
+ms.date: 06/21/2024
 ms.topic: article
 search.audienceType: 
   - admin
@@ -19,9 +20,9 @@ searchScope:
 ---
 # Use advanced similarity rules to view similar case suggestions
 
-Quickly support your customers by viewing similar cases suggestions in the Customer Service Hub. As an administrator, you can now configure criteria using advanced similarity rules, so that agents can view cases similar to their current case and resolve customer issues in first contact and within minimal time frame. This helps to reduce operational cost and in turn increase customer satisfaction.
+Quickly support your customers by viewing similar cases suggestions in the Customer Service Hub. As an administrator, you can now configure criteria using advanced similarity rules, so that customer service representatives (service representatives or representatives) can view cases similar to their current case and resolve customer issues in first contact and within minimal time frame. This helps to reduce operational cost and in turn increase customer satisfaction.
 
-If an agent is working on a support case, they can view similar cases in the **Related** section of the current case, and resolve their case quickly. With the help of Relevance search, they can use keywords or key phrases in a service case to quickly find related cases and use them to resolve customer issues.
+If a representative is working on a support case, they can view similar cases in the **Related** section of the current case, and resolve their case quickly. With the help of Relevance search, they can use keywords or key phrases in a service case to quickly find related cases and use them to resolve customer issues.
   
 ## Similar case suggestion scenario
 
@@ -46,23 +47,8 @@ Based on configured data input, the Relevance search mechanism filters the cases
   
     - [!INCLUDE[proc_dont_have_correct_permissions](../../includes/proc-dont-have-correct-permissions.md)]  
   
-1. Navigate to the Customer Service admin center or Customer Service Hub app, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-     
-     1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
-     1. In the **Advanced similarity rules** section, select **Manage**.
-
-     The **All Advanced Similarity Rules** page is displayed.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-    
-     1. In the site map, select **Service Management**.
-     2. Select **Advanced similarity rules** in **Similar Records Suggestion**. 
-  
-      The **All Advanced Similarity Rules** page is displayed. 
+1. In the site map of Customer Service admin center, go to **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the **Advanced similarity rules** section, select **Manage**. The **All Advanced Similarity Rules** page appears.
 
 1. Select **New** on the command bar to create an advanced similarity rule.  
 
@@ -118,23 +104,23 @@ See the below table to understand how search results are impacted when Relevance
 
 3. On the **Customizations** page, select **Customize the System**.
   
-   The **Information** page is displayed.
+   The **Information** page appears.
 
 4. In the left pane, expand **Entities**, go to the entity you want to customize, expand it, and then select **Views**.
   
-   A view page with a list of items is displayed.
+   A view page with a list of items appears.
 
 5. Double-click **Quick Find </entity name>** for the entity. (Note: You might need to scroll down to find this option.)
   
    ![Views page.](../media/quick-find-view.png "Select Views") 
    
-   A view page is displayed.
+   A view page appears.
   
 6. On the right-hand side, select **Add Find Columns**.
    
    ![Add Find Columns.](../media/add-find-columns.png "Select Add Find Columns")
   
-   The **Add Find Columns** page is displayed.
+   The **Add Find Columns** page appears.
    
 7. Select the checkbox for the entity you want to be an exact match field.
 
@@ -173,7 +159,7 @@ You can view the similar case suggestions in the Related section of the Customer
  >
  > The "similar cases" action is not available in the business process flow in Customer Service Hub. As a workaround, you can customize the business process flow to add the action. For information about customizing the business process flow, see [Add an action to a business process flow](/power-automate/create-business-process-flow#add-an-on-demand-action-to-a-business-process-flow).
 
-### See also  
+### Related information  
 
 [Enable AI suggestions for similar cases and knowledge articles](csw-enable-ai-suggested-cases-knowledge-articles.md)  
 [Related section in the Customer Service Hub](../implement/customer-service-hub-user-guide-basics.md#related-section)  

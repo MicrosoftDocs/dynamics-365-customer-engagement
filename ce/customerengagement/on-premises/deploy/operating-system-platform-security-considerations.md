@@ -2,7 +2,6 @@
 title: "Operating system and platform technology security considerations for Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn about the operating system and platform security considerations for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""
@@ -76,7 +75,7 @@ In the broadest sense, security involves planning and considering tradeoffs betw
 ## Securing mobile devices  
  As organizations move to support an increasingly mobile workforce, strong security remains essential. Here are some resources to help you implement best practices for mobile devices, such as smartphones and tablets:  
 
--   [Microsoft Intune](https://www.microsoft.com/cloud-platform/microsoft-intune)  
+-   [Microsoft Intune](/mem/intune/fundamentals/what-is-intune)  
   
 -   [iOS in Business](https://www.apple.com/ipad/business/it-center/security.html) (iPad and iPhone)  
   

@@ -1,9 +1,10 @@
 ---
 title: Customize the appearance of work items in sales accelerator
 description: Customize the appearance of work items to show more relevant information in the work list in sales accelerator.
-ms.date: 09/15/2023
+ms.date: 10/15/2024
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
 ms.custom: bap-template 
@@ -16,21 +17,6 @@ The work list in sales accelerator helps sellers prioritize their time and effor
 > [!NOTE]
 >
 >The card customizations made through the focused view will also affect the card display in the work list. More information: [Customize the work list card in focused view](focused-view.md#customize-the-work-list-card)
-
-## License and role requirements
-
-| Requirement type | You must have |  
-| --- | --- |
-| **License** | Dynamics 365 Sales Premium, Microsoft Relationship Sales, or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Administrator or any [primary sales role](security-roles-for-sales.md#primary-sales-roles), such as salesperson or sales manager |
-
-If you have an **administrator** role, you can do the following tasks.  
-
-- Enable customizations. More information: [Turn on customizations](#turn-on-customizations)
-- Allow sellers to override your customizations. More information: [Lock or unlock customization for other user roles](#lock-or-unlock-customization-for-other-user-roles)
-- Customize work items for your organization. More information: [Customize work items](#customize-work-items) 
-
-If you have a **primary sales role** and if your admin has turned on the ability to customize work items, you can customize them for yourself only. Your customizations don't affect what other sellers see in their work list. More information: [Customize work items](#customize-work-items)
 
 ## Turn on customizations
 
@@ -123,6 +109,9 @@ The procedure to customize work items is the same for both administrators and ot
 
 ## Default work item appearance
 
+> [!NOTE]
+> When you select the **Reset to default** option, the card customizations are reset to the configurations defined in admin mode. To know about admin mode, see [step 5 in Turn on customizations](#turn-on-customizations).  
+
 By default, the work item appearance is set to the following values:
 
 | Entity type | Default values |
@@ -135,6 +124,6 @@ By default, the work item appearance is set to the following values:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)

@@ -1,26 +1,20 @@
 ---
 title: "Manage your sequences in the sales accelerator"
 description: "Manage your sequences by viewing, cloning, editing, deleting, and apply tags in the sales accelerator."
-ms.date: 12/09/2022
+ms.date: 02/19/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Manage sequences 
 
 Manage your sequences in the sales accelerator by viewing details and cloning, editing, deleting, and applying tags to them.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## View details of sequences and connected records
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 
 2. Under **Sales accelerator**, select **Sequences**.   
 
@@ -47,17 +41,13 @@ Manage your sequences in the sales accelerator by viewing details and cloning, e
 
     :::image type="content" source="media/sequence-view-properties.png" alt-text="View properties of a sequence.":::
 
-    The **Properties** pane opens.
-
-    :::image type="content" source="media/sequence-properties-pane.png" alt-text="Properties pane of a sequence.":::
-
 More information: [View details of a sequence and its connected records](view-sequence-details-connected-records.md)
 
 ## Clone and edit a sequence
 
-Cloning a sequence makes it easier to edit, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning at that point in time, including all steps and configurations. After you edit, you can save and activate the cloned sequence and apply it to records.
+Cloning a sequence makes it easier to edit, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning then, including all steps and configurations. After you edit, you can save and activate the cloned sequence and apply it to records.
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.   
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.   
 
 1. Under **Sales accelerator**, select **Sequences**.   
 
@@ -66,13 +56,11 @@ Cloning a sequence makes it easier to edit, and save the changes to create new s
     >[!TIP]
     >Alternatively, you can hover over a sequence and then select **More options** > **Create a copy**.
     
-    > [!div class="mx-imgBorder"]
-    > ![Select Create a copy.](media/sequence-clone-copy-sequence.png "Select Create a copy")  
+    :::image type="content" source="media/sequence-clone-copy-sequence.png" alt-text="Screenshot of selecting Create a copy for a sequence.":::  
 
 1. In the **Create a copy** dialog, enter a name for the sequence and a description.
 
-    > [!div class="mx-imgBorder"]
-    > ![Enter a name for the sequence and a description.](media/sequence-clone-name-description-dialog.png "Enter the name of the sequence and description")   
+    :::image type="content" source="media/sequence-clone-name-description-dialog.png" alt-text="Screenshot of entering a name and description for the sequence.":::   
 
 1. Select one of the following:   
 
@@ -101,7 +89,7 @@ More information: [Clone and edit a sequence](edit-a-sequence.md)
 
 ## Delete a sequence
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.   
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.   
 
 1. Under **Sales accelerator**, select **Sequences**.   
 
@@ -112,8 +100,7 @@ More information: [Clone and edit a sequence](edit-a-sequence.md)
     >[!NOTE]
     >If you're deleting a sequence that's in the active state, a confirmation message is displayed that the sequence will be deactivated and deleted. Select **Deactivate and delete**.
     
-    > [!div class="mx-imgBorder"]
-    > ![Confirmation message for deleting a sequence.](media/sequence-delete-confirmation-message.png "Confirmation message for deleting a sequence")
+    :::image type="content" source="media/sequence-delete-confirmation-message.png" alt-text="Screenshot of the confirmation message for deleting a sequence.":::
 
 ## Apply and remove tags from your sequences
 
@@ -123,7 +110,7 @@ Tags help you quickly filter and identify sequences from a list by categories th
 
 With the Salesperson role, you can't create, edit, or delete tags. However, if your sales manager or administrator created tags, you can apply them to sequences.  
 
-1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Personal settings**.
+1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.
 
 1. Under **Sales accelerator**, select **Sequences**.   
 
@@ -132,27 +119,23 @@ With the Salesperson role, you can't create, edit, or delete tags. However, if y
     >[!NOTE]
     >You can also select the **Edit tags** option by opening the sequence.
 
-    >[!div class="mx-imgBorder"]
-    >![Select Edit tags for a sequence.](media/sa-sequence-tags-apply-tag-select-edit-tag.png "Select Edit tags for a sequence")    
+    :::image type="content" source="media/sa-sequence-tags-apply-tag-select-edit-tag.png" alt-text="Screenshot of selecting Edit tags for a sequence.":::    
     
 1.	On the **Edit sequence tags** pane, select **Add tags to sequence**.
 
-    >[!div class="mx-imgBorder"]
-    >![Select Add tags to sequence.](media/sa-sequence-tags-apply-tag-select-add-tags-sequence.png "Select Add tags to sequence")    
+    :::image type="content" source="media/sa-sequence-tags-apply-tag-select-add-tags-sequence.png" alt-text="Screenshot of selecting Add tags to sequence.":::    
  
 1.	Select the tags that you want to apply to the sequence.
 
     The tags you select are highlighted in blue, and they're also listed with their full hierarchy path in the **Selected tags** section.
 
-    >[!div class="mx-imgBorder"]
-    >![Selected tags are highlighted.](media/sa-sequence-tags-apply-tag-selected-tags.png "Selected tags are highlighted")
+    :::image type="content" source="media/sa-sequence-tags-apply-tag-selected-tags.png" alt-text="Screenshot of selected tags highlighted.":::
  
 1.	Select **Add**.
 
     The tags, including their hierarchy path, are listed in the sequence. Hover over a tag to view the full path.
 
-    >[!div class="mx-imgBorder"]
-    >![Selected tags are added to the sequence.](media/sa-sequence-tags-apply-tag-selected-tags-added-sequence.png "Selected tags are added to the sequence")
+    :::image type="content" source="media/sa-sequence-tags-apply-tag-selected-tags-added-sequence.png" alt-text="Screenshot of selected tags added to the sequence.":::
 
 1.	Select **Apply**.
 
@@ -171,7 +154,7 @@ The tag is removed from the sequence.
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Create and connect sequences for yourself](create-sequence-seller.md)  

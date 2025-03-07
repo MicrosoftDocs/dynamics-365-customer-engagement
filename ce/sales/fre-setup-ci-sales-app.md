@@ -7,9 +7,13 @@ ms.topic: how-to
 ms.service: dynamics-365-sales
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Set up conversation intelligence in Sales Hub app
+
+> [!IMPORTANT]
+> Starting June 2024, Conversation intelligence will use Microsoft Azure OpenAI Service to process call data and transcripts. If your Dynamics 365 Sales organization is in a region where Azure OpenAI Service isn't available, your call data and transcripts will be processed in the nearest region where Azure OpenAI Service is available.
 
 Using Microsoft Teams or other third-party dialers together with conversation intelligence in Dynamics 365 Sales helps organizations transform customer interactions into revenue. Calling with these dialers allows sellers to view business-critical insights both during the call&mdash;in real-time&mdash;and after.
 
@@ -18,13 +22,6 @@ As an administrator, configure conversation intelligence for the dialer that you
 If you have the Dynamics 365 Sales Enterprise license, you can enable Teams call recording through quick setup. Go to the **Get started with digital sales** page under **App Settings** in your sales app. 
 
 [Learn more about conversation intelligence for Sales Enterprise license](digital-selling-microsoft-teams-calls.md).
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Prerequisites for Microsoft Teams
 
@@ -91,15 +88,14 @@ Configure the settings to specify where your call recording data is stored, the 
 
     - In the **Automated summaries** section, leave **Enable call summary** selected to let your sellers view the notes after their calls. [Learn more about the call summary page](view-and-understand-call-summary-sales-app.md).
 
-    - In the **My languages** section, add the languages your sellers use during their calls with customers to ensure accurate transcription, keyword tracking, analysis, insights, and KPIs.
-
-    :::image type="content" source="media/ci-admin-conversation-trackers.png" alt-text="Screenshot of business settings.":::
-
 1. (Optional) In the **Data consent and privacy** section, select **Allow read-only access to data** to allow Microsoft to improve the quality of insights by giving read-only access to your organization's conversation intelligence data.  
 
 1. (Optional) In the **New and upcoming features** section, select the preview features that you want to enable for your Dynamics 365 org. [Learn more about enabling new and upcoming features](#enable-new-and-upcoming-features).
 
-1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.  
+1. Select **Publish**. In the message that appears, read the terms and conditions and the privacy statement, and then select **Get started**.
+
+> [!NOTE]
+> Conversation intelligence supports several languages. Sellers can choose their conversation language in the dialer after starting the call. For more information, see [Make and receive Teams calls in Dynamics 365](call-using-microsoft-teams.md)
 
 ## Enable new and upcoming features
 
@@ -112,7 +108,9 @@ The following preview features are available for conversation intelligence:
 
 To comply with the Payment Card Industry (PCI) regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as credit card number, expiry date, and CVV will be masked before saving a transcript.  Learn more about [call transcripts](view-and-understand-call-summary-sales-app.md#call-transcript-and-translation). 
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 To comply with Payment Card Industry regulations, organizations must protect personal data shared by customers during calls. When you enable the option to hide personal data, credit card details such as the account number, expiration date, and CVV are masked before the call transcript is saved.
 
@@ -124,7 +122,9 @@ To comply with Payment Card Industry regulations, organizations must protect per
 
 ### Enable call categorization for short calls (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 If you have chosen **Automatic recording** to record all customer calls, you can enable call categorization to help your sales team to quickly identify calls that don't have useful content such as calls that went to voicemail and calls that were not answered. More information: [View categorization tag for short duration calls (Preview)](view-and-understand-call-summary-sales-app.md#view-categorization-tag-for-short-duration-calls-preview)
 
@@ -137,7 +137,7 @@ If you have chosen **Automatic recording** to record all customer calls, you can
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Configure sales team-level settings](configure-sales-team-level-settings.md)  
 - [Introduction to administering conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)   

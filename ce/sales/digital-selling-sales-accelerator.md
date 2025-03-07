@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -13,17 +14,11 @@ ms.custom: bap-template
 
 Help your team focus on what matters most with a prioritized list of upcoming activities and tasks.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Overview
 
 The sales accelerator is an engagement platform that helps you understand your customers' needs and respond in meaningful ways. It allows your sellers to engage with your customers by using multiple channels within one workspace. The sales accelerator in Dynamics 365 provides a tailored experience for sellers by minimizing the time they spend on their search for the best next customer to reach out to. It gathers information from multiple sources and lets sellers focus on how to best approach their customers. It helps sellers to sell smartly, by building a strong and prioritized pipeline, offering context, and surfacing automated recommendations throughout a sales sequence that helps to speed the sales process. More information: [What is the sales accelerator?](sales-accelerator-intro.md)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCjf]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=3ce061d6-1cec-4c3d-b63c-5198d7ee883f]
 
 ## Licensing options
 
@@ -120,7 +115,7 @@ If you want to turn off the sales accelerator, you can do it from the advanced s
 
 By default, the **Up next** widget is available only in the out-of-the-box Sales Insights, lead, and opportunity forms. If you're using customized forms, you can display the Up next widget on your custom forms. For information about adding the **Up next** widget to a custom form, go to [Add the Up next widget to a custom form](add-upnext-widget-form.md) For information about using the **Up next** widget, go to [Connect with customers through a record or the Up next widget](connect-with-customers.md).
 
-### See also
+## Related information
 
 [Microsoft Teams collaboration](digital-selling-teams-collab.md)  
 [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)  

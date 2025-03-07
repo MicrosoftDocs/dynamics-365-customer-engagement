@@ -1,10 +1,11 @@
 ---
 title: Configure Microsoft Teams dialer in Dynamics 365 Sales
 description: Configure Microsoft Teams dialer to enable sellers to make and receive calls from Dynamics 365.
-ms.date: 10/17/2023
+ms.date: 07/16/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.collection:
 ms.custom:
   - bap-template
@@ -18,13 +19,6 @@ Microsoft Teams dialer helps sellers make Teams calls to customers directly from
 
 > [!NOTE]
 > You can also enable Teams dialer through quick setup (with the Dynamics 365 Sales Enterprise license). More information: [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## How to configure the dialer?
 
@@ -88,9 +82,13 @@ Additionally, you must grant the following permissions to your users:
             - Grant read permissions for the **Notification** entity under the **Custom entity** tab, for the security roles that need to see the notifications.
                 :::image type="content" source="media/notification-entity.png" alt-text="Screenshot of the Custom entity tab, with the Notification entity highlighted":::
 
+    <a name="teams-call-transfer"></a>
+
     - **Transfer calls (preview)**
 
-        [!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
         Allows sellers to transfer a Teams call to another colleague or their phone number, either directly or after consultation with the recipient.
 
@@ -98,6 +96,32 @@ Additionally, you must grant the following permissions to your users:
 
         [Transfer a Teams call (preview)](call-using-microsoft-teams.md#transfer-a-teams-call-preview)  
         [Consult and transfer a Teams call (preview)](call-using-microsoft-teams.md#consult-and-transfer-a-teams-call-preview)
+
+    <a name="teams-add-people-to-call"></a>
+
+    - **Add people to calls (preview)**
+
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+        [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+
+        Allows sellers to add another participant to an ongoing Teams call. The added participant can be an internal user or an external contact. 
+
+        **More information:** [Add a participant to an ongoing Teams call (preview)](call-using-microsoft-teams.md#add-a-participant-to-an-ongoing-teams-call-preview)
+
+    <a name="teams-call-from-views"></a>
+    - **Call from views**
+    
+        Allows Dynamics 365 to use Teams dialer when sellers click on a phone number link on list views. If you already have an integration with the browser's Call event, we recommend turning this option off.
+
+        **More information:** [Call a customer from the list view](call-using-microsoft-teams.md#call-from-list-view)
+
+    <a name="teams-call-attempts"></a>
+    - **Document call attempts**
+    
+        Specifies that call attempts of unanswered calls should also be recorded in the activity history. By default, this option is turned off.
+
+        **More information**: [View phone call activities](call-using-microsoft-teams.md#view-phone-call-activities)
 
 1. In the **Security role** section, select one of the following options to provide permissions to users to access Microsoft Teams dialer.
 
@@ -128,7 +152,7 @@ Additionally, you must grant the following permissions to your users:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Microsoft Teams integration](../teams-integration/teams-integration.md)  
 [Call using Microsoft Teams](call-using-microsoft-teams.md)  

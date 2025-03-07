@@ -2,7 +2,6 @@
 title: "Add users or teams to field security profile in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to use a field security profile to manage the permission of users and teams to read, create, or write in secured fields."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -11,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: jimholtz
+author: Mattp123
 ms.assetid: ff71ac7e-1088-45fb-b998-6a85c155f93b
 caps.latest.revision: 14
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 ---

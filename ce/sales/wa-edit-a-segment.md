@@ -3,7 +3,7 @@ title: Copy and edit segments
 description: Learn how to change the conditions that determine which records to include in a segment, its assignment rules, the sequences that are connected to it, and its priority and other properties in Dynamics 365 Sales.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.date: 08/11/2023
 ms.custom:
@@ -26,13 +26,6 @@ After you've [created a segment](./wa-create-and-activate-a-segment.md) and used
 - Whether previously segmented records are allowed to move to this one and be automatically connected to a sequence or assigned by a rule: View and edit
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Copy a segment
 
@@ -72,7 +65,7 @@ Your changes are applied to records that are connected to the segment going forw
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 - [Create and activate a segment](create-and-activate-a-segment.md)
 

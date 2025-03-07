@@ -68,7 +68,7 @@
           href: overview-skill-work-distribution.md
         - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Enable agents to update skills
+        - name: Enable representatives to update skills
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
@@ -86,6 +86,20 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
+      - name: Conversation diagnostics
+        items:
+        - name: Configure conversation diagnostics (preview)
+          href: configure-conversation-diagnostics.md
+        - name: Understand conversation diagnostics (preview)
+          href: conversation-diagnostics-subscenarios.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
+      - name: FAQ about unified routing
+        href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
@@ -124,8 +138,20 @@
           href: smart-assist.md
         - name: Manage agent scripts
           href: agent-scripts.md
-        - name: Manage macros
-          href: macros.md
+        - name: macros
+          items:  
+          - name: Manage macros
+            href: macros.md
+          - name: Use productivity automation macros
+            href: macros-productivity-automation.md
+          - name: Use session connector macros
+            href: macros-session-action.md
+          - name: Use Omnichannel connector macros
+            href: macros-omnichannel-action.md
+          - name: Use flow connectors
+            href: macro-flow-connector.md
+          - name: Review macro run history
+            href: review-macros.md                                                  
         - name: Manage custom productivity tools
           href: manage-custom-productivity-tools.md
         - name: Use automation dictionary to pass parameters keys
@@ -158,7 +184,7 @@
       items:
       - name: Overview of case management
         href: overview-cases.md
-      - name: Define status reason transitions for case management
+      - name: Add status reason, status reason transitions to manage cases
         href: define-status-reason-transitions-case-management.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
@@ -172,10 +198,14 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
+      - name: Configure case handling time widget to case forms 
+        href: add-case-handling-time.md      
       - name: Customize the case resolution experience
         href: add-enhanced-case-management.md
       - name: Enable enhanced case forms for multisession apps
         href: case-enh-config.md
+      - name: Add Power Apps components to case management forms
+        href: case-powerapps-comp.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
@@ -202,6 +232,18 @@
         href: automatically-create-case-from-email.md
       - name: Create a new case when email subject changes
         href: arc-email-sub-chg.md
+      - name: Create multiple cases from an email sent to multiple mailboxes
+        items:
+        - name: Create multiple cases from an email sent to multiple mailboxes
+          href: arc-multiple-cases.md
+        - name: How the automatic record creation rule works in a customer scenario
+          href: arc-customer-scenario.md
+        - name: How the automatic record creation rule works in a service representative scenario
+          href: arc-agent-scenario.md
+        - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
+          href: sample-arc-multiple-cases.md
+      - name: Reopen a resolved case
+        href: Reopen-resolved-case.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -236,7 +278,7 @@
         href: ../../admin/system-settings-dialog-box-service-tab.md
       - name: Calculate SLA KPIs
         items:
-        - name: Recalculate SLAs in terminal status
+        - name: Recalculate service-level agreements
           href: enable-sla-recalculation.md
         - name: Enable custom time calculation of SLA KPIs
           href: enable-sla-custom-time-calculation.md
@@ -270,6 +312,8 @@
         href: /power-apps/user/cs-email-template-builder?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Enable enhanced experience for email attachments
         href: add-enhanced-attachment-control.md
+      - name: Enable enhanced recipient control for email
+        href: add-recipient-control.md
       - name: Configure a default signature template for a queue
         href: add-signature-template-queue.md
       - name: Email FAQ and known issues
@@ -278,6 +322,8 @@
       items:
       - name: Configure the inbox
         href: configure-inbox.md
+      - name: Inbox views and filters
+        href: inbox-views-filters.md
     - name: Timeline
       items:
       - name: Configure timeline
@@ -310,7 +356,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+      - name: Integrate knowledge management in Dynamics 365 with Copilot agents
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -336,7 +382,7 @@
         href: configure-rules-based-suggested-contacts.md
       - name: Configure auto-summarization of conversations
         href: cs-enable-ai-generated-summary.md
-      - name: Enable Join a Teams call for agents
+      - name: Set up Join a Teams call for agents
         href: set-up-join-a-teams-call.md
       - name: Configure customer support swarming
         href: configure-customer-support-swarming.md
@@ -362,28 +408,26 @@
           href: voice-channel-connect-new-resource.md
         - name: 'Advanced: Connect using an existing Azure resource'
           href: voice-channel-connect-existing-resource.md
+        - name: Set up incoming calls, call recording, and SMS services
+          href: voice-channel-configure-services.md
         - name: Sync from Azure Communication Services
           href: voice-channel-sync-from-acs.md
         - name: Disconnect from Azure Communication Services
           href: voice-channel-disconnect-from-acs.md
+      - name: Migrate workstreams to support voice-enabled Copilots
+        href: migrate-voice-workstream.md
       - name: Manage phone numbers
         href: voice-channel-manage-phone-numbers.md
       - name: Set up inbound calling
         href: voice-channel-inbound-calling.md
       - name: Set up outbound calling
         href: voice-channel-outbound-calling.md
+      - name: Enable agents to search for contacts and open records from outbound dialer 
+        href: add-outbound-dialer-settings.md  
+      - name: Use Azure Virtual Desktop to access voice channel
+        href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
-      - name: Integrate Nuance Gatekeeper (preview)
-        items:
-        - name: Overview of Nuance Gatekeeper Integration
-          href: nuance-gatekeeper-introduction.md
-        - name: Configure contact center for Nuance Gatekeeper
-          href: configure-contact-center-nuance-gatekeeper.md
-        - name: Add authentication setting for Nuance Gatekeeper
-          href: configure-gatekeeper-authentication.md
-        - name: Enroll customers in biometric authentication using Nuance Gatekeeper
-          href: nuance-enroll-customer.md
       - name: Forward your Teams calls to digital contact center
         href: voice-forward-calls.md
       - name: Configure voicemail to manage inbound calls
@@ -394,33 +438,33 @@
         href: configure-outbound-inbound-profiles.md
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md
-      - name: Configure Copilot Studio bots for voice
+      - name: Configure Copilot Studio agents for voice
         href: voice-channel-pva-bots.md
+      - name: Configure a sample voice agent template
+        href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure multilingual IVR bots
+        href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure fallback actions for the IVR agent
+        href: /dynamics365/contact-center/administer/configure-fallback-actions-ivr-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
       - name: View voice calls usage
         href: voice-channel-usage.md
-      - name: Configure post-call survey
-        href: voice-channel-survey.md
       - name: Block spam numbers
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Configure agent call quality feedback survey (preview)
-        href: configure-end-of-call-survey.md
       - name: Delete call recordings
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilingual bot
+      - name: Use bot framework composer to set up a multilingual bot for voice channel
         href: set-up-multilingual-pva-bot.md
-      - name: Set up a multilingual contact center
-        href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
       - name: Integrate Nuance Cloud IVR bot
         items:
-        - name: Introduction to Nuance Cloud IVR bot integration
+        - name: Introduction to Nuance Cloud IVR agent integration
           href: oc-nuance-overview.md
         - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
           href: oc-nuance-setup.md
@@ -442,7 +486,7 @@
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
-      - name: Configure agent display name
+      - name: Configure representative display name
         href: agent-display-name.md
       - name: Configure proactive chat
         href: proactive-chat.md
@@ -480,8 +524,6 @@
         items:
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
-        - name: Configure an SMS channel for TeleSign
-          href: configure-sms-channel.md
         - name: Configure an SMS channel for Twilio
           href: configure-sms-channel-twilio.md
       - name: Set up social channels
@@ -490,14 +532,16 @@
           href: configure-apple-messages-for-business-channel.md
         - name: Configure a Facebook channel
           href: configure-facebook-channel.md
-        - name: Configure Google's Business Messages channel
-          href: configure-google-business-messages-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a WhatsApp channel
+        - name: Configure a WhatsApp channel through Azure Communication Services (preview)
+          href: /dynamics365/contact-center/administer/configure-whatsapp-acs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
+        - name: Configure a WhatsApp channel through Twilio
           href: configure-whatsapp-channel.md
-        - name: Configure a WeChat channel
-          href: configure-wechat-channel.md
+        - name: Social channel setup FAQs
+          items:
+          - name: FAQ for Facebook channel setup
+            href: facebook-channel-setup-faq.md
       - name: Configure a Microsoft Teams channel
         href: configure-microsoft-teams.md
       - name: Configure a custom messaging channel
@@ -522,8 +566,6 @@
         href: manage-context-variables.md
       - name: Configure pre-conversation surveys
         href: configure-pre-chat-survey.md
-      - name: Configure post-conversation surveys
-        href: configure-post-conversation-survey.md
       - name: Identify customers automatically
         href: record-identification-rule.md
       - name: Close conversations automatically
@@ -554,6 +596,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Enable multisession experience in custom apps (preview)
+        href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
@@ -572,6 +616,8 @@
         href: enable-auto-assign-conversations.md
       - name: Enable sharing of knowledge articles
         href: set-up-knowledge-management-embedded-knowledge-search.md#set-up-knowledge-management
+      - name: Enable session restore to automatically reopen sessions and tabs (preview)
+        href: enable-session-restore.md
     - name: Copilot in Customer Service
       items:
       - name: Manage Copilot features in Customer Service
@@ -581,61 +627,85 @@
       - name: Case and conversation summaries
         items:
         - name: Enable summarization of cases and conversations
-          href: copilot-enable-summary.md
+          href: /dynamics365/contact-center/administer/copilot-enable-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable case summaries
-          href: copilot-enable-summary.md#enable-case-summaries
+          href: /dynamics365/contact-center/administer/copilot-enable-summary#enable-case-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable conversation summaries
-          href: copilot-enable-summary.md#enable-conversation-summaries
+          href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+      - name: Configure custom record summaries for service representatives
+        href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
-          href: copilot-enable-help-pane.md
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable ask a question
-          href: copilot-enable-help-pane.md#enable-ask-a-question
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-ask-a-question?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable draft a response (preview)
-          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
-        - name: Enable write an email
-          href: copilot-enable-help-pane.md#enable-write-an-email
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-draft-a-response-preview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
+        - name: Enable Copilot to draft emails 
+          href: /dynamics365/contact-center/administer/copilot-email-enable?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
+      - name: Enable case summaries through ask a question (preview)
+        href: enable-ask-summarize-cases.md
+      - name: Enable Copilot plugins for generative AI (preview)
+        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
+      - name: Enable Copilot to create knowledge from cases
+        href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
         href: configure-copilot-features.md#record-agent-interactions-with-copilot
       - name: Copilot architecture diagram
         href: /digital-contact-center-platform/guidance/dynamics-365-customer-service-copilot-architecture?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-      - name: Manage fields Copilot uses for case summaries and emails
+      - name: Manage fields Copilot uses for case summaries
         href: copilot-map-custom-fields.md
       - name: Customize Copilot conversation summaries
-        href: customize-copilot-conv-summary.md
+        href: /dynamics365/contact-center/administer/customize-copilot-conv-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Configure copilot features for custom case forms and custom apps
         href: copilot-powerapps-settings.md
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
+      - name: Enable knowledge sources from Microsoft Copilot Studio (preview)
+        href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
-    - name: Bots
+    - name: Agents
       items:
-      - name: Overview of bots
+      - name: Overview of agents
         href: overview-bots.md
-      - name: Best practices for configuring bots
+      - name: Best practices for configuring agents
         href: configure-bot-best-practices.md
-      - name: Manage your bots
+      - name: Manage your agents
         href: manage-your-bots.md
-      - name: Configure context variables for bots
-        href: context-variables-for-bot.md
-      - name: Configure Azure bots
-        items:
-        - name: Bot sessions and licensing
-          href: bot-session-licensing.md
-        - name: Integrate an Azure bot
-          href: configure-bot-azure.md
-        - name: Sample configuration
-          href: sample-config-azure-bot.md
-      - name: Integrate a Copilot Studio bot
+      - name: Integrate a Copilot Studio agent
         href: configure-bot-virtual-agent.md
+      - name: Transfer conversations from customer service representatives to agents
+        href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+      - name: Configure Azure agents
+        items:
+        - name: Agent sessions and licensing
+          href: bot-session-licensing.md
+        - name: Integrate an Azure agent
+          href: configure-bot-azure.md   
+      - name: Configure context variables for agents
+        href: context-variables-for-bot.md      
+    - name: Feedback surveys
+      items:
+      - name: Configure feedback surveys using Copilot Studio (preview)
+        href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Enable voice call experiences
+        href: configure-end-of-call-survey.md
+      - name: Configure post-call survey
+        href: voice-channel-survey.md
+      - name: Configure post-conversation surveys using Customer Voice
+        href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
       items:
-      - name: Supported regions and languages, and service limits for analytics and insights
+      - name: Use and customize analytics and insights
+        href: analytics_overview.md
+      - name: Supported regions and languages for analytics and insights
         href: cs-region-availability-service-limits.md
+      - name: Service limits for analytics and insights
+        href: ana-ser-limits.md
       - name: Configure analytics and insights dashboards
         href: configure-customer-service-analytics-insights-csh.md
       - name: Manage real-time analytics dashboards
@@ -652,15 +722,17 @@
           href: configure-cs-historical-analytics-csh.md
         - name: Manage Omnichannel historical analytics reports
           href: oc-historical-analytics-reports.md
-        - name: Manage Knowledge analytics
-          href: enable-knowledge-search-insights.md
+      - name: Manage Knowledge analytics
+        href: enable-knowledge-search-insights.md
+      - name: Manage Copilot analytics
+        href: copilot-analytics.md
       - name: Customize data models of historical and real-time analytics reports
         href: model-customize-reports.md
       - name: Configure forecasting
         items:
         - name: Configure case forecasting
           href: configure-volume-forecasting.md
-        - name: Configure agent forecasting for conversation
+        - name: Configure service representative forecasting for conversations
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md
@@ -682,9 +754,11 @@
         items:
         - name: Overview of Service scheduling
           href: basics-service-service-scheduling.md
+        - name: Understand scheduling entities
+          href: scheduling.entities.md
         - name: Set up the Service Scheduling experience
           href: scheduling-experience.md
-        - name: Access scheduling in the Customer Service Hub and Customer Service workspace
+        - name: Access scheduling in the Customer Service workspace and Customer Service Hub
           href: access-scheduling.md
         - name: Install Service Scheduling from Power Platform admin center
           href: install-service-scheduling-from-power-platform.md
@@ -758,12 +832,16 @@
         href: cs-iot-security-roles.md
     - name: Migration solutions
       items:
-      - name: Migrate from Omnichannel for Customer Service to Customer Service workspace
+      - name: Migrate from removed or deprecated apps to Customer Service workspace
         items:
-        - name: Migrate from Omnichannel for Customer Service agent app to Customer Service workspace
-          href: migrate-oc-to-csw.md
+        - name: Migrate from deprecated or removed apps to Customer Service workspace
+          href: migrate-to-csw.md
         - name: Enable Omnichannel for Customer Service and disable Customer Service workspace
           href: enable-oc-disable-csw.md
+      - name: Migrate configuration data for records channel using solutions
+        href: migrate-record-routing-config-using-solutions.md
+      - name: Migration configuration data for channels using solutions
+        href: migrate-channel-config-using-solutions.md  
       - name: Migrate configuration data for the record channel
         items:
         - name: Overview of data migration for records
@@ -782,8 +860,10 @@
         href: migrate-config-data-for-voice-channel.md
       - name: Migrate configuration data for SMS channel
         href: migrate-config-data-for-sms-channel.md
-      - name: Migrate workstreams created in Omnichannel Administration
-        href: migrate-workstreams.md
+      - name: Migrate configuration data for WhatsApp through Twilio
+        href: migrate-config-data-for-whatsapp-through-twilio.md
+      - name: Migrate configuration data for custom messaging channel
+        href: migrate-config-data-for-custom-channel.md
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements
@@ -795,15 +875,11 @@
         - name: Plan service scheduling migration
           href: plan-migration.md
         - name: Migrate service scheduling
-          items: 
-          - name: Introduction to service scheduling migration
-            href: introduction-migration-entity-records.md
-          - name: Plan service scheduling migration
-            href: plan-migration.md
-          - name: Migrate service scheduling
-            href: migrate-entity-records.md
+          href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
+          - name: FAQ on migration from Customer Service Hub to Customer Service workspace
+            href: faq-csh-removal.md
           - name: FAQ on migration from Omnichannel for Customer Service app
             href: migrate-oc-faq.md
           - name: FAQ on Migration tool for automatic record creation rules and SLAs
@@ -836,7 +912,7 @@
       href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
   - name: Implement Dynamics 365 Customer Service
     href: ../implement/cs-troubleshooting-faqs.md?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml
-  - name: Manage your contact center
+  - name: Use Dynamics 365 Customer Service
     href: ../use/supervisor-historical-analytics.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
   - name: Develop Dynamics 365 Customer Service
     href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
@@ -844,3 +920,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center/

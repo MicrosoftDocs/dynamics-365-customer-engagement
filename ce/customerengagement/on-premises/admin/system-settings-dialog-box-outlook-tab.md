@@ -2,7 +2,6 @@
 title: "Outlook settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Outlook tab, configure how Outlook interacts with Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: f9b49c8f-c434-41d3-aa4c-365a4498b4f7
 caps.latest.revision: 13
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

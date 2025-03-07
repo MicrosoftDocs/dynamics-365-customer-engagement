@@ -1,10 +1,11 @@
 ---
-title: Deprecations in Dynamics 365 Sales | MicrosoftDocs
-description: Visit this page to see what's deprecated in Dynamics 365 Sales.
-ms.date: 07/21/2023
+title: Removed or deprecated features in Dynamics 365 Sales
+description: Visit this page to see the deprecating features in Dynamics 365 Sales.
+ms.date: 01/09/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 search.audienceType: 
   - admin
   - customizer
@@ -12,16 +13,40 @@ search.audienceType:
 ms.custom: 
   - dyn365-sales
 ---
-# Deprecations in Dynamics 365 Sales
+# Removed or deprecated features in Dynamics 365 Sales
 
-The features that have been deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming).
+The features that have been removed or deprecated in  Dynamics 365 Sales are listed in this article. For more information on other deprecations that impact all the Dynamics 365 customer engagement apps, see [Important changes (deprecations) coming in Power Apps, Power Automate, and customer engagement apps](/power-platform/important-changes-coming).
 
-> [!Important]
-> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and is fully supported until it is officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We are notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
+> [!IMPORTANT]
+> "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability continues to work and is fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability will no longer work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.  
 
-## Exchange-based cards will be deprecated
+<a name='exchange-integration-for-ra'></a>
+## Exchange integration for relationship intelligence
 
-Starting from Sunday, October 1, 2023, the following Exchange-based cards will be deprecated:  
+Effective April 2025, the native Exchange integration for relationship intelligence is deprecated. If you want Dynamics 365 Sales to use emails and meetings from Exchange to generate insights, [enable server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
+
+
+## Copilot for email in side pane
+
+Effective January 2025 (app/solution version 9.2.24124.0010), composing and sending email using Copilot side pane isn't supported and is being removed in a phased manner. This effects the users who have enabled the email copilot preview. However, you can use the [Copilot email assist](enable-copilot-email-assist.md) feature to compose and [send emails through the rich text editor](/power-apps/maker/model-driven-apps/use-copilot-email-assist).  
+
+## Assistant card templates
+
+Effective August 1, 2024, templates to create new assistant cards won't be available. The existing cards that are created using the templates continue to work as-is. You can continue to use the Microsoft Power Automate flow to create your custom cards. [Learn more](create-insight-cards-flow.md).
+
+<a name='snapshot-deprecation'></a>
+## Snapshots in sales forecasting
+
+Effective June 30, 2024, the snapshot capability in sales forecasting is deprecated. Snapshots and related charts such as deal flow, trend chart, and forecast grid history are no longer available. As an alternative, you can use the [Forecast API](developer/reference/custom-actions/msdyn_ForecastApi.md) to set up daily data sync to pull forecast data.
+
+## Set seller availability using Outlook calendar
+
+Effective April 1, 2024, the feature allowing configuration of seller availability through the Outlook calendar in work assignments is deprecated. This deprecation helps enhance the safety and security of your organization's data. Alternatively, you can use the Dynamics 365 CRM calendar to configure the seller availability. [Learn more](wa-manage-seller-availability.md)
+
+## Exchange-based cards are deprecated
+
+Effective October 1, 2023, the following Exchange-based cards are deprecated and no longer available in Dynamics 365 Sales:
+ 
 -	Send Content Request Card
 -	Task Due Today Exchange Card
 -	Upcoming Meeting Exchange Card 
@@ -33,11 +58,11 @@ Starting from Sunday, October 1, 2023, the following Exchange-based cards will b
 -	Meeting Request Card 
 -	Yes or No Card
 
-After the cards are deprecated, they’ll no longer be available. You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
+You can create your own cards using Power Automate. [Learn more](create-insight-cards-flow.md).
 
-## Rank optimization of insight cards will be deprecated
+## Rank optimization of insight cards is deprecated
 
-Starting from Sunday, October 1, 2023, the rank optimization feature of insights cards will be deprecated. After the feature is deprecated, existing ranking rules will be unavailable and will not apply to insight cards. To optimize and prioritize the cards, turn off those cards that are not in use. [Learn more](edit-insight-cards.md#turn-cards-on-or-off).
+Effective October 1, 2023, the rank optimization feature of insights cards is deprecated. Any ranking rules that you might have set up are no longer available and won't apply to insight cards. To optimize and prioritize the cards, turn off those cards that aren't in use.
 
 <a name='playbooks'></a>
 ## Playbooks is deprecated
@@ -47,7 +72,7 @@ Effective July 2023, the playbooks feature is deprecated. You can no longer acce
 <a name='talking-points'></a>
 ## Talking points is deprecated
 
-Effective August 2022, the talking points feature is deprecated. After the feature is deprecated, you’ll stop getting talking point suggestions on the contact and lead pages. To continue getting suggestions, you can buy the LinkedIn Sales Navigator license and integrate it with Dynamics 365 Sales.  For more information on what you get with the integration, see [View and work with LinkedIn Sales Navigator controls on forms](../linkedin/view-sales-navigator-forms.md) and for instructions on how to integrate, see [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](../linkedin/integrate-sales-navigator.md). 
+Effective August 2022, the talking points feature is deprecated. After the feature is deprecated, you’ll stop getting talking point suggestions on the contact and lead pages. To continue getting suggestions, you can buy the LinkedIn Sales Navigator license and integrate it with Dynamics 365 Sales. For more information on what you get with the integration, see [View and work with LinkedIn Sales Navigator controls on forms](../linkedin/view-sales-navigator-forms.md) and for instructions on how to integrate, see [Integrate LinkedIn Sales Navigator solutions for Dynamics 365 Sales](../linkedin/integrate-sales-navigator.md). 
 
 ## Premium auto capture is deprecated
 
@@ -56,40 +81,11 @@ Effective July 2022, premium auto capture is deprecated. The deprecation impacts
 You can switch to basic auto capture to get activity suggestions. However, no alternative is available for contact suggestions currently. For more information about basic auto capture, see [Capture customer-related activities with auto capture](auto-capture.md). 
 
 > [!NOTE]
-> If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid will not show any suggestions after the feature is deprecated.  
+> If you’ve added the premium auto capture suggestion grid to your custom app, remove it manually. The grid won't show any suggestions after the feature is deprecated.  
 
 ## Dynamics 365 assistant cards - Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection)
 
 Effective March 31, 2022, the Opportunity at Risk (sentiment detection) and Opportunity at Risk (phrase detection) cards are deprecated. After May 30, 2022, these cards will no longer be supported.     
 The Opportunity at Risk cards, both sentiment detection and phrase detection, have been disabled from the backend and insights are no longer generated. However, these cards are still visible through the Settings page. When users are trying to activate these cards, activation fails.
 
-
-## Dynamics 365 Product Visualize is deprecated
-
-Effective October 04, 2021, Dynamics 365 Product Visualize is deprecated. After October 04, 2021 the product will cease to function and will no longer be supported.
-
-## Dynamics 365 - Gamification is deprecated
-
-Effective April 1, 2021, Dynamics 365 – Gamification is deprecated. Until September 30, 2021, Microsoft provided limited support for this solution. From October 1, 2021, the Dynamics 365 – Gamification solution won’t be functional. To uninstall Gamification, delete the **GamificationUpdater** and **Gamification** solutions from the Dynamics 365 organization. Note that you must first delete the **GamificationUpdater** solution followed by the **Gamification** solution. More information: [Delete a preferred solution](/previous-versions/dynamicscrm-2016/administering-dynamics-365/dn878909(v=crm.8)#Delete%20a%20preferred%20solution).
-
-## Internet Explorer 11 support for Dynamics 365 and Microsoft Power Platform is deprecated
-
-Effective December 2020, Microsoft Internet Explorer 11 support for Microsoft Dynamics 365 and Microsoft Power Platform is deprecated. Internet Explorer 11 won’t be supported after August 2021. 
-
-This will impact customers who use Dynamics 365 and Microsoft Power Platform products that are designed to be used through an Internet Explorer 11 interface. After August 2021, Internet Explorer 11 won't be supported for such Dynamics 365 and Microsoft Power Platform products. We recommend that customers transition to Microsoft Edge. 
-
-For the complete list of products impacted by this change or for information on transitioning from Internet Explorer 11 to a supported browser, see [FAQ: Internet Explorer 11 deprecation for Dynamics 365 and Microsoft Power Platform Products](https://aka.ms/IEsupportDeprecationBAG). If you've questions, contact your Microsoft Customer Service representative or Microsoft Partner.
-
-
-## Dynamics 365 assistant application for Teams is deprecated
-
-Effective October 15, 2020, assistant application for Teams is deprecated. The Dynamics 365 Sales mobile app has been enhanced to include some of the features of the assistant application for Teams. More information: [Use the Dynamics 365 Sales mobile app](sales-mobile/use-sales-mobile-app.md)
-
-## Dynamic 365 Sales bot is deprecated
-
-Effective June 2, 2020, the Dynamics 365 Sales bot, a feature that enables users to retrieve sales information through a bot within Dynamics 365 Sales app for Teams, will be deprecated. Until July 31, 2020, Microsoft will continue to provide support for the feature, but won't release any new functionality beyond what is already present. After July 31, 2020, you'll no longer be able to receive responses to conversations. The bot won’t be available for new customers. Existing customers may still be able to access the bot from the Chat, however the bot won't respond to questions.
-
-It is our goal to deliver a powerful bot experience that allows users to retrieve and manage information. Based on usage data and feedback from our customers, we'll be working on a powerful, extensible set of capabilities and features that will allow you to intuitively access and interact with sales information—among other entities—through a bot interface. We'll keep you updated on timing for when this will be available.
-
- 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

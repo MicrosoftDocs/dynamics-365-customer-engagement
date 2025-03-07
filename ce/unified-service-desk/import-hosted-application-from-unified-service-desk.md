@@ -1,25 +1,23 @@
 ---
-title: "Import hosted application from Unified Service Desk  | MicrosoftDocs"
-description: "Understand how to import the hosted application from Unified Service Desk into your Visual Studio project."
-ms.date: 08/23/2017
+title: Import hosted application from Unified Service Desk  
+description: Understand how to import the hosted application from Unified Service Desk into your Visual Studio project.
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer
-ms.custom: 
-  - dyn365-USD
+ms.custom: evergreen
 ---
 # Import hosted application from Unified Service Desk
 A hosted application can be imported from [!INCLUDE[pn_unified_service_desk](../includes/pn-unified-service-desk.md)] to your [!INCLUDE[pn_Visual_Studio_short](../includes/pn-visual-studio-short.md)] project.  
   
 1. In **Solution Explorer**, right-click the solution and select **Import**.  
   
-2. In the import dialog box, enter the Common Data platform server name and your credentials.  
-  
-   ![Screenshot of import from dialog box.](../unified-service-desk/media/usd-import.PNG "Screenshot of import from dialog box")  
-  
+2. In the import dialog, enter the Common Data platform server name and your credentials.  
+    
 3. If there’s more than one organization, select the **Display list of available organizations** check box and click **Login**.  
   
 4. Select your organization from the list.  

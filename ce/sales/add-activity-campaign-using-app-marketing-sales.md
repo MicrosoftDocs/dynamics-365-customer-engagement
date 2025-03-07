@@ -1,12 +1,14 @@
 ---
-title: "Add activity to campaign in in-app marketing | MicrosoftDocs"
-description: "Create, distribute, and assign planning and campaign activities to a marketing campaign in Dynamics 365 Sales to make it successful."
-ms.date: 10/03/2022
-ms.topic: article
+title: Add activity to campaign in in-app marketing
+description: Learn how to create, distribute, and assign planning and campaign activities to a marketing campaign to make it successful.
+ms.date: 08/29/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
-  - "dyn365-sales"
+  - bap-template
+  - evergreen
 searchScope: 
   - D365-App-msdynce_saleshub
   - D365-App-msdynce_salespro
@@ -22,13 +24,6 @@ searchScope:
 Make your marketing campaigns successful by creating, distributing, and assigning planning and campaign activities in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)].  
 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
- 
 ## Planning and campaign activities
  
 Planning activities are those you want to perform before you launch the campaign, and campaign activities are those you want to manage as part of the campaign. Examples of planning and campaign activities you can add include:  
@@ -51,6 +46,8 @@ Planning activities are those you want to perform before you launch the campaign
 1. In the site map, select **Marketing Lists**.
 
 2. Open a marketing list record, and then in the **Campaigns** area, open the campaign to which you want to add a planning activity. 
+    > [!NOTE]
+    > Alternatively, you can open a campaign from the **Campaigns** area in the Sales Hub site map.
 
 3. To add a new activity, on the **Related** tab, select **Planning Activities**, then select **New Activity**, and then select the type of activity you want to create.  
   
@@ -58,9 +55,9 @@ Planning activities are those you want to perform before you launch the campaign
   
     To add an existing activity, select **Add Existing Activity**. In the **Lookup Records** panel, search for and select the required activities, and then select **Add**.
   
-4. In the **Quick Create (record)** form, add the required information.
+4. In the form that appears, add the information about the activity.
   
-5. When you're ready to save your data, select **Save**.  
+1. When you're ready to save your data, select **Save**.  
   
 ## Add a campaign activity to a campaign  
 
@@ -89,21 +86,22 @@ When you add and distribute a campaign activity, an activity is created for each
 
 5. (Optional) Select the **Audiences** tab to view the information about the records (account, contact, and lead) for whom the activity has been created based on the channel type of the campaign activity. These records are the ones present in the marketing list(s) associated with the campaign activity. 
 
-    >[!NOTE]  
-    >To view the **Audiences** tab, select the **Campaign Activity** form.
+    If you don't see the **Audiences** tab, select the **Campaign Activity** form.
+    :::image type="content" source="media/campaign-form.png" alt-text="Screenshot of the Campaign activity form.":::
     
     | Option type | Description |
     |-------------|-------------|
-    | Accepted *table type* | Activity is created for these records to be acted on based on the activity type mentioned in the channel for the campaign activity. |
-    | Excluded *table type* | The users in this section have opted out of any **Marketing Materials** or opted out of certain types of marketing materials such as email or phone calls. This information for the respective record can be seen on the **Details** tab of the record (account, contact, or lead). The other reason to be excluded could be lack of information. For example, for **Channel Type as Email** of a campaign activity, the records with no associated email ID will be excluded. |  
+    | Selected *table type* | Activity is created for these records to be acted on based on the activity type mentioned in the channel for the campaign activity. |
+    | Excluded *table type* | The users in this section have opted out of any **Marketing Materials** or opted out of certain types of marketing materials such as email or phone calls. This information for the respective record can be seen on the **Details** tab of the record (account, contact, or lead). The other reason to be excluded could be lack of information. For example, for a campaign activity through **Email** channel, the records with no associated email ID will be excluded. |  
     
-5. On the **Campaign Activity** form, select **Save**.
+5. Save the changes. You'll specify the actual details of the activity when you [distribute the campaign](#distribute-a-campaign-activity) activity. For example, for an email activity, you'll draft the email content when you distribute the activity.
 
-    The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing lists, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**.  
+    The marketing list from which the campaign activity is created is automatically added in the Marketing list section. To add more marketing lists, select the **More Commands** icon ![More Commands icon.](media/more-commands-button.png "More Commands icon"), and then select **Add Existing Marketing List**. 
+
 
 ## Distribute a campaign activity 
 
-You can distribute a campaign activity when you're ready to initiate the campaign. 
+You can distribute a campaign activity when you're ready to initiate the campaign.
 
 1. Open the campaign activity and on the command bar select **Distribute Campaign Activity**.  
   
@@ -128,7 +126,7 @@ You can distribute a campaign activity when you're ready to initiate the campaig
 
 ## Close a campaign activity
 
-After all the distributed activities are closed, you can close the campaign activity. 
+After all the distributed activities are closed, you can close the campaign activity.
 
 To close the campaign activity:
 
@@ -141,14 +139,14 @@ To close the campaign activity:
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
- [Get started with in-app marketing](../sales-enterprise/get-started-app-marketing-sales.md)   
- [Create a marketing list using in-app marketing](../sales-enterprise/create-marketing-list-using-app-marketing-sales.md)   
- [Create or edit a campaign using in-app marketing](../sales-enterprise/create-edit-campaign-using-app-marketing-sales.md)   
- [Create a quick campaign using in-app marketing](../sales-enterprise/create-quick-campaign-using-app-marketing-sales.md)   
- [Add a marketing list, sales literature, or product to a campaign using in-app marketing](../sales-enterprise/add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
- [Track a marketing campaign response using in-app marketing](../sales-enterprise/track-marketing-campaign-response-using-app-marketing-sales.md)   
- [Customize quick campaign and campaign activity distribution forms](../sales-enterprise/developer/marketingformdisplayattributessetApi.md)
+## Related information  
+ [Get started with in-app marketing](get-started-app-marketing-sales.md)   
+ [Create a marketing list using in-app marketing](create-marketing-list-using-app-marketing-sales.md)   
+ [Create or edit a campaign using in-app marketing](create-edit-campaign-using-app-marketing-sales.md)   
+ [Create a quick campaign using in-app marketing](create-quick-campaign-using-app-marketing-sales.md)   
+ [Add a marketing list, sales literature, or product to a campaign using in-app marketing](add-marketing-list-sales-literature-product-campaign-using-app-marketing-sales.md)   
+ [Track a marketing campaign response using in-app marketing](track-marketing-campaign-response-using-app-marketing-sales.md)   
+ [Customize quick campaign and campaign activity distribution forms](developer/marketingformdisplayattributessetApi.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -30,40 +30,8 @@
       items:
       - name: Release plans
         href: whats-new-customer-service.md
-      - name: Deprecations
-        items:
-        - name: Deprecations in Customer Service
-          href: deprecations-customer-service.md
-        - name: Customer Service Analytics
-          items:
-          - name: Introduction to analytics and insights
-            href: introduction-customer-service-analytics.md
-          - name: Configure Customer Service analytics dashboards in Power BI
-            href: configure-customer-service-analytics-dashboard.md
-          - name: Use Customer Service Analytics dashboards in Power BI
-            href: customer-service-analytics.md
-        - name: Omnichannel Insights
-          items:
-          - name: Introduction to Omnichannel Insights
-            href: intro-dynamics-365-omnichannel-insights-dashboard.md
-          - name: Configure Omnichannel Insights dashboards
-            href: configure-historical-sentiment-dashboard-supervisor.md
-          - name: View and understand Omnichannel Insights dashboard
-            href: omnichannel-insights-dashboard.md
-        - name: Intraday analytics reports
-          items:
-          - name: Configure intraday insights
-            href: configure-intraday-dashboard-supervisor.md
-          - name: Introduction to intraday supervisor experience
-            href: intro-intraday-insights-dashboard.md
-          - name: Intraday Monitoring report
-            href: intraday-insights-dashboard.md
-          - name: Agents insights report
-            href: intraday-agents-insights.md
-          - name: Conversation insights report
-            href: intraday-conversation-insights.md
-          - name: Customize KPIs for intraday insights
-            href: customize-kpis-intraday-insights.md
+      - name: Deprecations in Customer Service
+        href: deprecations-customer-service.md 
     - name: System requirements
       items:
       - name: System requirements for Customer Service
@@ -98,16 +66,18 @@
         href: move-cs-enterprise-cs-professional.md
       - name: Install Omnichannel for Customer Service
         items:
-        - name: Provision Omnichannel for Customer Service
-          href: omnichannel-provision-license.md
+        - name: Provision channels in the admin app
+          href: /dynamics365/contact-center/implement/provision-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Export and import app configuration data
           href: export-import-omnichannel-data.md
-        - name: Uninstall Omnichannel for Customer Service
-          href: remove-omnichannel.md
+        - name: Copy an environment with Omnichannel for Customer Service
+          href: copy-environment-with-omnichannel.md
+        - name: Reset, restore, recover omnichannel environments
+          href: /dynamics365/contact-center/implement/restore-environment?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
+        - name: Turn off channels
+          href: /dynamics365/contact-center/implement/provision-channels#turn-off-channels?toc=/dynamics365/customer-service/implement/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Uninstall solutions
           href: delete-solution.md
-      - name: Upgrade Omnichannel for Customer Service
-        href: upgrade-omnichannel.md
       - name: Try channels in Omnichannel for Customer Service
         href: try-channels.md
       - name: Provide consent to access data
@@ -144,7 +114,7 @@
       href: https://community.dynamics.com/forums/thread/?groupid=25cd05f7-e478-4843-beb5-9ecf4b3e1f74
   - name: Administer Dynamics 365 Customer Service
     href: overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
-  - name: Manage your contact center
+  - name: Use Dynamics 365 Customer Service
     href: overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
   - name: Develop Dynamics 365 Customer Service
     href: ../develop/omnichannel-developer.md?toc=/dynamics365/customer-service/develop/toc.json&bc=../../breadcrumb/toc.yml
@@ -152,3 +122,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center/

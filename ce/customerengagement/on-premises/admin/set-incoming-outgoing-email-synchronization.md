@@ -2,7 +2,6 @@
 title: "Set email sync options in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to synchronize email with Customer Engagement (on-premises). This page explains the configuration options for both incoming and outgoing messages."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 17128669-8d3d-45fb-9a54-4b1dbf56ed4b
 caps.latest.revision: 14
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

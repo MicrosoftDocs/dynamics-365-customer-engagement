@@ -3,7 +3,7 @@ title: Configure assignment rules to automatically assign insights
 description: Learn how to create assignment rules to assign insights to sellers, so that the insights that are displayed to the sellers are relevant to them.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
 ms.date: 06/09/2023
@@ -20,13 +20,6 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
 
 > [!NOTE]
 > To learn more about assignment rules, go to [Manage assignment rules for routing](create-manage-assignment-rules.md).
-
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Configure an assignment rule
 
@@ -129,7 +122,7 @@ Configure the rule as follows for this scenario:
 
         Here, the area manager role can have multiple users in the team. One user is randomly selected as the primary owner to assign insights to. All other users in the same group are secondary owners. The specialist and sales representative roles can also have multiple users. They are all considered secondary owners.
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Manage assignment rules for routing](create-manage-assignment-rules.md)  

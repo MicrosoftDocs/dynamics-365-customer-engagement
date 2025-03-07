@@ -2,7 +2,6 @@
 title: "Install Dynamics 365 Customer Engagement (on-premises) Full Server role on a server without Dynamics 365 Customer Engagement (on-premises) installed | Microsoft Docs"
 description: Learn how to install a full server role with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 
@@ -84,7 +83,7 @@ ms.author: matp
         > [!IMPORTANT]
         >  We strongly recommend that you select a low-privilege domain account that is dedicated to running these services and is not used for any other purpose. Additionally, the user account that is used to run a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] service cannot be a [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] user. This domain account must be a member of the Domain Users group. Additionally, if the [!INCLUDE[pn_Asynchronous_Service](../includes/pn-asynchronous-service.md)] and [!INCLUDE[pn_Sandbox_Processing_Service](../includes/pn-sandbox-processing-service.md)] roles are installed, such as in a Full Server or a [!INCLUDE[Back_End_Server](../includes/back-end-server.md)] installation, the domain account must a member of the Performance Log Users security group.  
         >   
-        >  If you select to run the [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] service under a domain user account that is not a domain administrator or a local administrator, you must set a local security policy after you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] for the ASP.NET service to work correctly. Also, depending on the password policies that you have implemented for your organization, the password for the user may expire. For more information, see the [!INCLUDE[pn_Microsoft_Knowledge_Base](../includes/pn-microsoft-knowledge-base.md)] article 329290, [How to use the ASP.NET utility to encrypt credentials and session state connection strings](https://go.microsoft.com/fwlink/p/?linkid=53266).  
+        >  If you select to run the [!INCLUDE[pn_ASP.NET_short](../includes/pn-asp-net-short.md)] service under a domain user account that is not a domain administrator or a local administrator, you must set a local security policy after you install [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] for the ASP.NET service to work correctly. Also, depending on the password policies that you have implemented for your organization, the password for the user may expire.  
   
     -   **Monitoring Service.** This service will be installed with any [!INCLUDE[pn_microsoftcrm_server](../includes/pn-microsoftcrm-server.md)] role installation to provide event monitoring on [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)] server roles that are running on the local computer.  
   

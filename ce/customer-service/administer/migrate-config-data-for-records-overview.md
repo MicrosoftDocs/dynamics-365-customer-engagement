@@ -3,13 +3,16 @@ title: Overview of data migration for records
 description: This article provides an overview of data migration in the records channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: overview
-ms.date: 08/02/2023
+ms.date: 01/31/2025
 ms.custom: bap-template
 ---
 
 # Overview of data migration for records
+
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
 
 Use the Configuration Migration tool to migrate the configurations from the source organization to the target organization for the records that are based on unified routing.
 
@@ -76,7 +79,7 @@ Perform the steps in the following order to successfully migrate your configurat
 [Use FetchXML query to filter records](use-fetchxml-filter-records.md)  
 
 
-### See also
+### Related information
 
 [Create a schema to export configuration data](/power-platform/admin/create-schema-export-configuration-data)  
 [Migrate configuration data for records](migrate-config-data-for-records.md)  

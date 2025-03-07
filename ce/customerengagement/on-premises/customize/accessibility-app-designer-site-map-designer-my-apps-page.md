@@ -5,7 +5,6 @@ keywords: App designer; site map designer; my apps; Dynamics 365 for Customer En
 author: Mattp123
 ms.author: matp
 
-ms.date: 11/08/2018
 ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement (online)
@@ -101,7 +100,7 @@ App designer and site map designer
 
 -   [Safari accessibility features](https://www.apple.com/accessibility/)  
 
--   [Google Chrome accessibility technical documentation](https://sites.google.com/a/chromium.org/dev/developers/design-documents/accessibility)
+-   [Google Chrome accessibility technical documentation](https://www.chromium.org/developers/design-documents/accessibility/)
 
 ## See also
 

@@ -2,7 +2,6 @@
 title: "Sample: Add a record to a queue (early bound) | MicrosoftDocs"
 description: The sample code demonstrates how to add a record to a queue, and creates source and destination queues.
 ms.custom: 
-ms.date: 01/08/2020
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -22,7 +21,7 @@ search.audienceType:
 ---
 # Sample: Add a record to a queue (early bound)
 
-This sample shows how to add a record to a queue. It creates source and destination queues. It adds a letter activity to the source queue and then moves it to the destination queue. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RecordToQueue).
+This sample shows how to add a record to a queue. It creates source and destination queues. It adds a letter activity to the source queue and then moves it to the destination queue. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/RecordToQueue).
 
 This sample requires additional users that are not in your system. Create the users manually in **Office 365** in order to run the sample without any errors. For this sample create a user profile **as is** shown below. 
 

@@ -2,8 +2,7 @@
 title: "Unified Interface transition checklist for Dynamics 365 Sales and Service"
 description: "Use this checklist to ensure you're prepared for a transition from the legacy web client to Unified Interface for Dynamics 365 Sales and Service."
 ms.custom: ""
-ms.date: 05/21/2020
-ms.reviewer: "kvivek"
+ms.reviewer: matp
 
 ms.topic: "article"
 author: "Mattp123"

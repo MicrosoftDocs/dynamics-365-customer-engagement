@@ -1,13 +1,13 @@
 ---
 title: "Sample: Distribute a quick campaign (Dynamics 365 Sales)"
 description: The sample code demonstrates how to create and distribute a quick campaign.
-ms.date: 03/01/2023
-ms.reviewer: lavanyakr
+ms.date: 01/27/2025
 ms.topic: sample
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 ---
@@ -44,9 +44,9 @@ In order to simulate the scenario described in [What this sample does](#what-thi
 
 Display an option to delete the rows created in the [Setup](#setup). The deletion is optional in case you want to examine the tables and data created by the sample. You can manually delete the rows to achieve the same result.
   
-### See also  
+## Related information  
  [Campaign Tables](campaign-entities.md)   
- [BulkOperation Table](entities/bulkoperation.md)   
+ [Quick Campaign (BulkOperation) table (Microsoft Dynamics 365)](../../developer/reference/entities/bulkoperation.md)   
  [Sample: Distribute Campaign Activities to Dynamic and Static Lists](sample-distribute-campaign-activities-dynamic-static-lists.md)   
  [List (Marketing List) Table](list-marketing-list-entity.md)   
  [Marketing Tables (Campaign, List)](marketing-entities-campaign-list.md)   

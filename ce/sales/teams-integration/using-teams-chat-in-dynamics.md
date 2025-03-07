@@ -1,22 +1,16 @@
 ---
-title: "Use Teams chat in Sales Hub | MicrosoftDocs"
+title: "Use Microsoft Teams chat in Sales Hub | MicrosoftDocs"
 description: "Start Teams chat conversations from within Sales Hub and connect them to records"
-ms.date: 03/31/2023
+ms.date: 11/26/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Use Microsoft Teams chat in Sales Hub
 
 Start Teams chat conversations from within Sales Hub and connect them to records.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, Dynamics 365 Team Members, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Team Members](/dynamics365/get-started/team-members-license)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
-| **Security roles** | <ul><li>Any primary sales role, such as salesperson, or sales manager</li><li>Any role that has access to a Dynamics 365 record</li></ul> <br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
 
 ## Overview
 
@@ -30,11 +24,11 @@ You can now engage in a Teams chat conversation from within Sales Hub. While you
 
 You can do the following Teams collaboration activities from Dynamics 365:
 
-- **Start a new connected chat conversation**: The chat gets automatically connected to the record.
+- **Start a new connected chat conversation**: The chat automatically connects to the record.
 
 - **Add users to an existing connected chat**: The chat appears as a connected chat for all the users involved in the conversation.
 
-- **Connect an existing chat to a record**: The entire chat conversation will be visible to all the users who are part of the connected chat.
+- **Connect an existing chat to a record**: The entire chat conversation is visible to all the users who are part of the connected chat.
 
 - **Access all your recent Dynamics 365 chats**: The list pages, such as the opportunities list page, display all of your recent chats that are connected to Dynamics 365 records.
 
@@ -63,7 +57,7 @@ The **Channel** tab lists the channels that you've connected to the selected rec
 
 ## View all connected Dynamics 365 chats
 
-Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your connected Dynamics 365 chats will appear under **Chats connected to _record_**. The chats display the record names to which they are connected and the latest chat message. You can navigate to a related record from the connected chat. For more information, see [Navigate to a record from a connected chat](#navigate-to-a-record-from-a-connected-chat).
+Open the dashboard or list view of any Dynamics 365 customer engagement table, such as an opportunities list view, and select :::image type="icon" source="media/teams-icon.png" border="false":::. All your connected Dynamics 365 chats appear under **Chats connected to the _record_**. The chats display the record names to which they're connected and the latest chat message. You can navigate to a related record from the connected chat. For more information, see [Navigate to a record from a connected chat](#navigate-to-a-record-from-a-connected-chat).
 
 ## Start a connected Teams chat in Dynamics 365
 
@@ -78,17 +72,17 @@ You can start a new connected chat or convert an existing Teams chat into a conn
 3. Use one of the following methods to add participants:
 
     - In the **Participants** field, browse and select the names of the participants you want to chat with.
-    - A list of suggested contacts is automatically displayed for the **Participants** field. Select a participant's name from the **Suggested contacts** list. The **Suggested contacts** list displays the contacts of the users who are working on the record. More information: [How contact suggestions work](#how-contact-suggestions-work)
+    - A list of suggested contacts is automatically displayed for the **Participants** field. Select a participant's name from the **Suggested contacts** list. The **Suggested contacts** list displays the contacts of the users working on the record. More information: [How contact suggestions work](#how-contact-suggestions-work)
 
     The chat name uses the record name or the participant's names, depending on the configuration that your administrator chose. To set the chat name as the record name, you can ask your administrator to turn on the **Use record title as the default chat name for connected chats** setting. You can modify the chat name. It's a good idea to provide a meaningful name so that you can identify the chat even when you're in Teams.
 
 4. After adding the participants, select **Start chat**.
 
-All the participants in the connected chat will see the chat when they open the record in Dynamics 365.
+All the participants in the connected chat see the chat when they open the record in Dynamics 365.
 
 ### How contact suggestions work
 
-The suggested contacts capability helps you to quickly find the right coworkers to collaborate with. This collaboration can help you more quickly work on sales queries.
+The suggested contacts capability helps you to find the right coworkers to collaborate quickly. This collaboration can help you more quickly work on sales queries.
 
 If you don't see suggested contacts for a record type, your administrator might not have turned on the suggested contacts capability for the record type. Ask your administrator to turn on the capability for that record type.
 
@@ -121,7 +115,7 @@ You can start a connected chat with other members who are online and viewing the
 > [!NOTE]
 > You can start a connected chat with other online members only when co-presence is enabled in Power Platform admin center and [Teams chat is enabled in Dynamics 365](enable-teams-chat.md#enable-or-disable-teams-chat) Sales by your administrator. 
 >
-> In Power Platform admin center, your system administrator needs to turn on the **Collaboration** feature in your environment. For information, see [Manage feature settings](/power-platform/admin/settings-features).
+> In the Power Platform admin center, your system administrator needs to turn on the **Collaboration** feature in your environment. For information, see [Manage feature settings](/power-platform/admin/settings-features).
 
 ## Connect or disconnect an existing chat from a record
 
@@ -159,7 +153,7 @@ While you're in any of the records or in the list pane, select :::image type="ic
 
 ## Navigate to a record from a connected chat
 
-When you [view all connected Dynamics 365 chats](#view-all-connected-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the connected chats display one or more record names they are connected to.
+When you [view all connected Dynamics 365 chats](#view-all-connected-dynamics-365-chats) from the dashboard, list view of a table type (such as opportunities or accounts), or [open chats related to a record](#open-teams-chats-and-channels-related-to-a-record), the connected chats display one or more record names they're connected to.
 
 :::image type="content" source="media/linked-records.png" alt-text="Connected records to a chat":::
 
@@ -169,7 +163,7 @@ To navigate to a related record from the connected chat, hover over the chat, se
 
 The selected record opens and the **Teams chats** pane is refreshed with the chats connected to the opened record.
 
-### See also
+## Related information
 
 [Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
 [Configure the ability to use suggested contacts](enable-contact-suggest.md)  

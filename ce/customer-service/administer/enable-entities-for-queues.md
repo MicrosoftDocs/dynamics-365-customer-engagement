@@ -1,10 +1,11 @@
 ---
-title: Enable tables for queues | MicrosoftDocs
+title: Enable tables for queues
 description: Learn how you can enable tables for queues so that they can be routed through unified routing.
-ms.date: 07/25/2023
+ms.date: 02/04/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Enable tables for queues in unified routing
@@ -19,17 +20,17 @@ Any record that you want to enable for routing needs to be enabled for queues.
 
 5. In **Table properties**, select **Properties**.
 
-6. Select **Advanced options**, and then select **Can be added to a queue** in the **Rows in this table** section .
+6. Select **Advanced options**, and then select **Can be added to a queue** in the **Rows in this table** section.
 
 7. Select **Save**.
 
 > [!NOTE]
 >- You can't disable the table, if you enable it for a queue. The app disables the **Can be added to a queue** checkbox after you select it.
->- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the agents. You must clear the checkbox to automatically distribute the records.
+>- If you enable the option **When the rows are created or assigned, move them to the owner's default queue**, in the table customization, then the record won't be automatically distributed to the customer service representatives. You must clear the checkbox to automatically distribute the records.
 
-<br><br> ![Automatic record movement to the agent's default queue.](../media/route-owner-queue.png "Automatic record movement to the agent's default queue")
+<br><br> ![Automatic record movement to the representative's default queue.](../media/route-owner-queue.png "Automatic record movement to the representative's default queue")
 
-### See also
+### Related information
 
 [Set up record routing](set-up-record-routing.md)  
 [Set up unified routing for email records](configure-routing-for-email-records.md)

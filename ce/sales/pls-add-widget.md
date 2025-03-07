@@ -1,11 +1,12 @@
 ---
 title: Add the lead scoring widget to a form
 description: Learn how to display the predictive lead scoring widget on your custom forms in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 12/06/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Add the lead scoring widget to a form
@@ -17,20 +18,17 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 > - You can add a lead scoring widget to a form only in Unified Interface apps.
 > - You can't use the legacy form designer to add a lead scoring widget to a form.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Add the lead scoring widget to a custom form
 
-1. Sign in to the [Power Apps portal](https://make.powerapps.com/) and select an environment.
+1. Sign in to the [Power Apps portal](https://make.powerapps.com/).
 
-1. Select **Data** > **Tables**.
+1. Search for and select your organization's environment.
 
-1. Open the **Lead** table, select the **Forms** tab, and then select a main form to add the widget to.
+2. In the site map, select **Tables**, and then select the `Lead` table.
+
+3. In the **Data experiences** section, select **Forms**.
+
+1. Select a main form to add the widget to.
 
     > [!NOTE]
     > If the table to which you want to add the widget isn't listed, in the upper-right corner of the page, change the filter to **All**.
@@ -48,7 +46,7 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 
     :::image type="content" source="media/power-select-predictive-score-widget.png" alt-text="Screenshot of selecting the Predictive score widget to display in the placeholder column.":::
 
-1. In the **Edit predictive score** window, select **Done**.
+1. In the **Add Predictive score** window, select **Done**.
 
     The predictive score widget is added to the form, as shown in the following image:
 

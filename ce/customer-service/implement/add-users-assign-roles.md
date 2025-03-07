@@ -1,14 +1,18 @@
 ---
-title: "Assign roles, enable users for Omnichannel for Customer Service | MicrosoftDocs"
-description: "Perform the steps to assign roles to users and enable them in Omnichannel for Customer Service."
+title: Assign roles, enable users
+description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 05/05/2023
+ms.reviewer: nenellim
+ms.date: 12/30/2024
+ms.topic: how-to
+ms.collection:
+ms.custom: bap-template
 ---
 
-# Assign roles and enable users for Omnichannel for Customer Service
+# Assign roles and enable users
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
@@ -24,8 +28,6 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
 - **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
-
-For information on the App Profile Manager Administrator and App Profile User roles, see [Roles and privileges associated with app profile manager](../administer/security-roles.md)
 
 Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or agent type of user.
 
@@ -45,9 +47,9 @@ Perform the following steps to assign roles to users in the advanced settings ar
 
 3. Select the users from the list for whom you want to assign a security role.
 
-4. Select **Manage Roles** in the menu. The security roles available for the business unit are displayed.
+4. Select **Manage security roles** in the menu. The security roles available for the business unit are displayed.
 
-5. In the **Manage User Roles** dialog box, select the security roles that you want to assign to the user, and then select **OK**.
+5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
 To view and manage users in omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
 
@@ -91,20 +93,18 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can create/read/write/append/delete agent script ||||| Yes |
 | Can create/read/write/append/delete agent script step ||||| Yes |
 | Can create/read/write/append/delete agent script workflow ||||| Yes |
-| Can read `msdyn_macrosolutionconfiguration` ||||| Yes |
+| Can read `msdyn_productivitymacrosolutionconfiguration` ||||| Yes |
 | Can create/read/write/append/delete macro action ||||| Yes |
 
 ## Configure permissions to access secure columns
 
 Administrator users will need column-level permissions on secure columns when they configure the following features and channels:
 
+- [Create workstreams](../administer/create-workstreams.md)
 - [Authentication settings](../administer/create-chat-auth-settings.md)
 - [Azure Communication Services](../administer/voice-channel-manage-phone-numbers.md)
 - [Geographical location providers](../administer/geo-location-provider.md)
-- [Google's Business Messages channel](../administer/configure-google-business-messages-channel.md)
 - [Payment profiles for Apple Messages for Business channel](../administer/configure-payment-profiles.md)
-- SMS channels through [TeleSign](../administer/configure-sms-channel.md) and [Twilio](../administer/Configure-sms-channel-twilio.md)
-- [WeChat channel](../administer/configure-wechat-channel.md)
 - [WhatsApp channel](../administer/configure-whatsapp-channel.md)
 
 The secure columns can be identified by the information icon that's present for the column.
@@ -119,12 +119,9 @@ The entities and their secret attributes are as follows. For more information on
 | msdyn_ocbotchannelregistrationsecret | msdyn_securemsappsecret |
 | msdyn_occommunicationprovidersetting | msdyn_securesecret |
 | msdyn_oc_geolocationprovider | msdyn_secureproviderapikey |
-| msdyn_ocgooglebusinessmessagesagentaccount  | msdyn_agentaccountclienttoken  |
-| msdyn_ocgooglebusinessmessagespartneraccount  | msdyn_partneraccountclienttoken <br> msdyn_base64credentialfilestring <br> msdyn_base64credentialfilestringcontd  |
 | msdyn_ocsmssettingsecret  | msdyn_secureapikey |
 | msdyn_octwitterapplication  | msdyn_securetwitterconsumersecret <br> msdyn_securetwitterconsumerkey  |
 | msdyn_octwitterhandlesecret  | msdyn_useraccesstoken <br> msdyn_useraccesstokensecret  |
-| msdyn_ocwechatchannelconfig | msdyn_secureapplicationsecret <br> msdyn_securetoken <br> msdyn_secureencodingaeskey   |
 | msdyn_ocwhatsappchannelaccount | msdyn_secureauthenticationtoken |
 
 **Manage permissions on secret attributes**
@@ -132,10 +129,9 @@ The entities and their secret attributes are as follows. For more information on
 1. In Power Platform admin center, create or update the column security profile. More information: [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
 1. Provide the read, update, or create permissions to the security profile on the columns that correspond to the secret attributes mentioned in the preceding table.
 
-### See also
+### Related information
 
-[Provision Omnichannel for Customer Service](omnichannel-provision-license.md)  
-[Roles and privileges associated with app profile manager](../administer/security-roles.md)  
+[Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels)  
 [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md)  
 [Role personas for unified routing](../administer/role-persona-mapping.md)  
 [Guide agents with scripts](../administer/agent-scripts.md)  

@@ -1,23 +1,17 @@
 ---
 title: "Capture forecast category for opportunity"
 description: "Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale."
-ms.date: 10/26/2021
+ms.date: 12/2/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
 # Capture forecast category for opportunity 
 
 Capture the forecast category to indicate the confidence level of an opportunity getting converted into a sale.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Select option set 
 
@@ -43,12 +37,11 @@ You can also manually configure your columns for a fully customized forecast. Fo
     
     - **Lost**. Don't select this option manually. When you close an opportunity as **Lost**, its forecast category is automatically set to **Lost**.
 
-       > [!div class="mx-imgBorder"]
-       > ![Capture forecast category on an opportunity.](media/capture-forecast-category-opportunity-form.png "Capture forecast category on an opportunity")
+       :::image type="Capture forecast category on an opportunity" source="media/capture-forecast-category-opportunity-form.png" alt-text="Capture forecast category on an opportunity":::
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-## See also
+## Related information
 
 [Create or edit an opportunity](create-edit-opportunity-sales.md)  
 

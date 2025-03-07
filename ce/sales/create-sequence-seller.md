@@ -1,22 +1,20 @@
 ---
-title: "Create and connect sequences for yourself in the sales accelerator"
-description: "Create and connect sequences as a seller in the sales accelerator."
-ms.date: 08/17/2022
+title: Create and connect sequences for yourself
+description: Automate your work with sequences. Create a set of activities, personalize communication, and prioritize tasks for better productivity.
+ms.date: 06/19/2024
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/18/2024
 ---
 
 # Create and connect sequences for yourself
 
 Create sequences to automate your work by creating a set of activities such as, send an email, call the customer, and wait time, and personalize communication while reaching out to prospects.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## What is a sequence?
 
@@ -119,8 +117,7 @@ Now that you've opened the sequence creation dialog through one of the ways desc
 
     The sequence designer page opens.
 
-    > [!div class="mx-imgBorder"]
-    > ![The sequence designer page.](media/sequence-designer-page.png "The sequence designer page")   
+    :::image type="content" source="media/sequence-designer-page.png" alt-text="Screenshot of the sequence designer page.":::
 
     By default, the **Sequence starts here** step is added to the sequence as the first step.  
 
@@ -144,8 +141,7 @@ Now, you can activate the sequence.
     >[!NOTE]
     >You can have up to 250 active sequences at a time in your organization.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Activate in the sequence.](media/sequence-select-activate-sequence.png "Select Activate in the sequence")  
+    :::image type="content" source="media/sequence-select-activate-sequence.png" alt-text="Screenshot of selecting the Activate option in the sequence":::
 
 1. In the confirmation message that appears, select **Activate**.
 
@@ -154,8 +150,7 @@ Now, you can activate the sequence.
 
     The sequence is activated and listed on the sequence designer home page. You can see the status of the sequence beside the name and you can see a confirmation message.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Sequence activated and its status displayed.](media/sequence-activate-sequence-confirmation.png "Sequence activated and status displayed")  
+    :::image type="content" source="media/sequence-activate-sequence-confirmation.png" alt-text="Screenshot of sequence activation confirmation message":::
 
 Next, you connect the active sequence to records. 
 
@@ -171,7 +166,7 @@ You can use one of the following ways to connect a sequence to a record:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Manage your sequences](manage-sequences-seller.md)  

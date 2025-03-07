@@ -3,13 +3,18 @@ title: Smart assist for agent efficiency
 description: Learn how to smartly assist agents with the next-best steps in Customer Service workspace and Omnichannel for Customer Service apps.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 06/08/2023
+ms.reviewer: nenellim
+ms.date: 01/27/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
 # Manage smart assist
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+> [!NOTE]
+> The case and knowledge suggestions in smart assist will no longer be supported starting June 02, 2025. Learn more in [deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 The new-age customer service industry is moving toward the vision of being intelligent rather than process-driven while interacting with customers. Pivoting on intelligence capabilities helps unleash the productivity of agents to perform better on key performance indicators and&mdash;at the same time&mdash;deliver better customer experience.
 
@@ -77,7 +82,7 @@ You can add multiple bots to a workstream based on your business requirements.
 
 To learn about the regions and supported languages, see [Supported regions and languages](cs-region-availability-service-limits.md).
 
-### See also
+### Related information
 
 [Macros](macros.md)  
 [Agent scripts](agent-scripts.md)  

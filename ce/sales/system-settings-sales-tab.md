@@ -1,21 +1,15 @@
 ---
 title: "System Settings dialog box - Sales tab  | MicrosoftDocs"
 description: "Learn about the system-level settings for Dynamics 365 Sales."
-ms.date: 10/25/2021
+ms.date: 12/2/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # System Settings dialog box - Sales tab 
 
 Define global sales settings for products, pricing, and discounts.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or System Customizer <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## System settings for Sales
 
@@ -26,8 +20,7 @@ Learn about the system-level settings for Dynamics 365 Sales.
   
 2. In your app, select the **Settings** icon, and then select **Advanced Settings**.
 
-    > [!div class="mx-imgBorder"]  
-    > ![Advanced Settings link in the site map.](media/advanced-settings-option.png "Advanced Settings link in the site map")
+    :::image type="Advanced Settings link in the site map" source="media/advanced-settings-option.png" alt-text="Advanced Settings link in the site map":::
 
     The **Business Management settings** page opens in a new browser tab.
 
@@ -44,7 +37,7 @@ Learn about the system-level settings for Dynamics 365 Sales.
     | **Set maximum number of products in a bundle** |   |
     | Maximum number of products in a bundle | Type the maximum number of products a bundle can have. | 
     | **Set pricing calculation preference**| |
-    | Use system pricing calculations | Click **Yes** to use the pricing calculations of Customer Engagement (on-premises). To use custom pricing by using a plug-in, click **No**. When set to **No**, the default pricing calculations won’t be done on opportunity, quote, order and invoice records. |
+    | Use system pricing calculations | Click **Yes** to use the pricing calculations of Dynamics 365 Sales. To use custom pricing by using a plug-in, click **No**. When set to **No**, the default pricing calculations won’t be done on opportunity, quote, order and invoice records. |
     | **Set whether a discount is applied as a line item or per unit** |  |
     | Discount calculation method |  Select **Per unit** if you want the pricing engine to calculate the discount based on the prices per unit instead of a line item. By default, the calculations are done on a line item-basis. <br>*See the table below that shows the difference between the two calculations. |
     | **Set maximum number of properties allowed for a product or bundle** |   |
@@ -59,7 +52,7 @@ Learn about the system-level settings for Dynamics 365 Sales.
   
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
   
-### See also  
+## Related information  
  [Create price lists and price list items to define pricing of products](create-price-lists-price-list-items-define-pricing-products.md)   
  [Set up a discount list](set-up-discount-list.md)   
  [Create product bundles to sell multiple items together](create-product-bundles-sell-multiple-items-together.md)   
@@ -68,3 +61,4 @@ Learn about the system-level settings for Dynamics 365 Sales.
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

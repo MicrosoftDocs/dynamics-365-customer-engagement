@@ -4,6 +4,7 @@ description: "Get an overview of Dynamics 365 Channel Integration Framework 1.0 
 author: gandhamm
 ms.topic: overview
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 08/02/2022
 ms.custom: 
   - "dyn365-a11y"
@@ -37,7 +38,7 @@ The Cloud Channel Provider is the service that you want to integrate and interac
 > [System requirements of Dynamics 365 Channel Integration Framework](system-requirements-channel-integration-framework.md)
 
 
-## See also
+## Related information
 
 [Overview of Dynamics 365 Channel Integration Framework](overview-channel-integration-framework.md)
 

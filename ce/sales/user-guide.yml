@@ -10,6 +10,7 @@ metadata:
   ms.collection: collection
   author: udaykirang
   ms.author: udag
+  ms.reviewer: udag
   ms.date: 09/22/2023
 
 
@@ -88,6 +89,8 @@ landingContent:
             url: /powerapps/user/enhanced-email
           - text: Understand organization charts 
             url: organization-charts.md
+          - text: Work with Outlook
+            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
 
 # Card 
   - title: Increase sales
@@ -106,6 +109,18 @@ landingContent:
             url: create-edit-opportunity-sales.md
           - text: Close opportunities as won or lost 
             url: ../sales-enterprise/close-opportunity-won-lost-sales.md
+
+# Card 
+  - title: LinkedIn integrations
+    linkLists:
+       - linkListType: how-to-guide
+         links:
+          - text: Integrate LinkedIn Sales Navigator 
+            url: linkedin/integrate-sales-navigator.md
+          - text: Data validation capabilities of LinkedIn Sales Navigator
+            url: linkedin/data-validation.md
+          - text: Understand LinkedIn Sales Insights
+            url: understand-lsi-accounts-form.md
 
 # Card 
   - title: Create and work with collateral
@@ -174,14 +189,6 @@ landingContent:
             url: sales-mobile/use-sales-mobile-app.md
           - text: Learn the basics 
             url: sales-mobile/learn-basics-mobile-app.md
-
-# Card 
-  - title: Work with Outlook
-    linkLists:
-       - linkListType: how-to-guide
-         links:
-          - text: Dynamics 365 App for Outlook User Guide 
-            url: ../outlook-app/dynamics-365-app-outlook-user-s-guide.md
 
 # Card 
   - title: Get better sales intelligence

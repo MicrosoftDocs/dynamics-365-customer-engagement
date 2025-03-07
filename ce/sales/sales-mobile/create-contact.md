@@ -5,6 +5,7 @@ ms.date: 03/31/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Manage contacts 
@@ -16,15 +17,6 @@ In the Dynamics 365 Sales mobile app, you can view, edit, and create contacts.
 - [Edit contact details](#edit-contact-details)
 
 - [Create contact](#create-contact)
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
-
 
 ## View details
 
@@ -87,7 +79,7 @@ If you need to create a contact that doesn't already exist in your Dynamics 365 
     
 3.  In the **Create new contact** form, fill in the details, and then tap **Save**.
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)   
 [View meetings](view-agenda.md)

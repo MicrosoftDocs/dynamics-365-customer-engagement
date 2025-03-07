@@ -1,10 +1,11 @@
 ---
 title: Define and schedule a forecast model
 description: Define a forecast model using rollup and hierarchy entities and schedule how often to generate the forecast in Dynamics 365 Sales.
-ms.date: 09/01/2023
+ms.date: 01/02/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
   - bap-template
@@ -14,22 +15,14 @@ ms.custom:
 
 Use general properties and scheduling options to define and schedule a forecast model.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Define a forecast model
 
 Define the entities that must be used to generate the forecast. 
 
 1. In the **General** step of the **Forecast configuration** page, define the fields that should be used for the forecast. The following screenshot is an example of the **General** step for an org chart forecast. Let's walk through the options in the subsequent steps.
 
-    :::image type="content" source="./media/forecast-general-properties-forecast.svg" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown." lightbox="media/forecast-general-properties-forecast.svg":::
-   
+    :::image type="content" source="media/forecast-general-tab-configuration-section.png" alt-text="A screenshot of the General step of the Forecast configuration page, with the General options shown." lightbox="media/forecast-general-tab-configuration-section.png":::
+
 1. Enter a descriptive name for the forecast. Example: *Kenny's Org FY2023 Forecast*.
 
 1. Select a **Rollup entity**.
@@ -133,7 +126,7 @@ When you add the above schedule, 12 forecast periods are added to the **Periods 
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Configure forecasts by using a custom rollup entity](configure-forecast-using-custom-rollup-entity.md)  

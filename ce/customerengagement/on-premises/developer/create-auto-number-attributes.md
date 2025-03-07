@@ -2,7 +2,6 @@
 title: "Create auto-number-attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs)"
 description: "Learn about creating auto-number attribute in the same way you create a string attribute using the StringAttributeMetadata class except that you use the new AutoNumberFormat property. Use the AutoNumberFormat property to define a pattern that includes sequential numbers and random strings by composing placeholders, which indicate the length and type of values that are generated."
 keywords: Auto-number attributes
-ms.date: 04/03/2020
 
 ms.topic: article
 applies_to: 
@@ -10,7 +9,7 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e97477d2-5509-9f5e-76e0-e0039b2e72c8
 author: nhelgren
-ms.author: kabala
+ms.author: jdaly
 topic-status: Drafting
 search.audienceType: 
   - developer
@@ -123,7 +122,7 @@ OData-Version: 4.0
 ```http
 HTTP/1.1 204 No Content
 OData-Version: 4.0
-OData-EntityId: [Organization URI]/api/data/v9.1/EntityDefinitions(402fa40f-287c-e511-80d2-00155d2a68d2)/Attributes(f01bef16-287c-e511-80d2-00155d2a68d2)
+OData-EntityId: [Organization URI]/api/data/v9.1/EntityDefinitions(00aa00aa-bb11-cc22-dd33-44ee44ee44ee)/Attributes(11bb11bb-cc22-dd33-ee44-55ff55ff55ff)
 ```
 
 ## AutoNumberFormat options

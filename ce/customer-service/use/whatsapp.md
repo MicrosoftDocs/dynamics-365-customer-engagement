@@ -1,19 +1,19 @@
 ---
-title: "WhatsApp channel agent experience in Omnichannel for Customer Service | MicrosoftDocs"
-description: "This topic provides information about agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service."
-ms.date: 07/09/2021
+title: WhatsApp channel agent experience in Omnichannel for Customer Service
+description: Learn about the agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service.
+ms.date: 03/21/2024
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
+ms.topic: article
 ms.collection: get-started
 ---
 
 # Use WhatsApp channel
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-## WhatsApp channel overview
-
-When you sign in to Omnichannel for Customer Service, you can see your work items in Omnichannel Agent Dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
+When you sign in you can see your work items in the agent dashboard. To learn more, see [View agent dashboard and agent conversations (work items)](oc-agent-dashboard.md).
 
 ## Prerequisite
 
@@ -33,7 +33,7 @@ You'll receive a notification when a customer requests a WhatsApp conversation. 
 > [!div class=mx-imgBorder]
 > ![WhatsApp chat agent notification-unauthenticated](../media/whatsapp-agent-notif2.png "WhatsApp chat agent notification-unauthenticated")
 
-In Omnichannel for Customer Service, you can:
+In the application, you can:
 
 - [View customer information on Active Conversation form ](oc-customer-summary.md)
 - [View communication panel](oc-conversation-control.md)
@@ -63,7 +63,7 @@ In Omnichannel for Customer Service, you can:
 - **24 hours session rule**: A messaging session starts when you receive a message from a customer or reply to an incoming message from a customer. When the customer sends a message, you have 24 hours to reply to the customer from the time you received it. However, after 24 hours, if you try to send a message to the customer, an error is displayed: **This conversation has exceeded the 24 hour limit to respond to the customer.**
 
 
-### See also
+### Related information
 
 [Configure a WhatsApp channel](../administer/configure-whatsapp-channel.md)
 

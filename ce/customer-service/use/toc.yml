@@ -1,6 +1,6 @@
 - name: Dynamics 365 Customer Service
   items: 
-    - name: Manage your contact center
+    - name: Use Dynamics 365 Customer Service
       items:
       - name: Dynamics 365 Customer Service documentation
         href: ../index.yml
@@ -34,12 +34,16 @@
             href: customer-service-hub-user-guide-create-a-case.md
           - name: Use enhanced case forms to manage cases
             href: enh-casemgmt-csw.md
+          - name: Track your time on cases 
+            href: case-handling-time.md
           - name: Resolve, cancel, and reassign cases
             href: customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md
           - name: Merge cases
             href: customer-service-hub-user-guide-merge-cases.md
           - name: Manage cases with case grids
             href: case-grids.md
+          - name: Manage parent and child cases
+            href: customer-service-hub-user-guide-create-and-manage-parent-and-child-cases.md
           - name: View a social profile
             href: view-social-profile.md
           - name: Convert a case to a knowledge article
@@ -60,6 +64,8 @@
             href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
           - name: View, compose, and respond to emails
             href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context
+          - name: Enhanced recepient handling
+            href: /power-apps/user/view-compose-email#enhanced-recipient-handling?context=/dynamics365/context/customer-service-context
           - name: Use enhanced experience to attach files to emails
             href: enhanced-email-attachment-control.md                            
           - name: Attach a file to email
@@ -177,9 +183,9 @@
         - name: Call a customer
           href: voice-channel-call-customer.md
         - name: Use call controls and the agent desktop for voice
-          href: voice-channel-agent-experience.md
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: How to avoid call disconnection
-          href: voice-channel-agent-experience.md#how-to-avoid-call-disconnection
+          href: /dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Manage voicemails
           href: manage-voicemails.md
         - name: Transfer calls and consult with other users
@@ -245,17 +251,13 @@
         - name: Overview of SMS channels
           href: sms-channel-overview.md
         - name: Use SMS channel
-          href: sms-telesign-twilio.md
+          href: sms-twilio.md
         - name: Use Facebook channel
           href: facebook.md
-        - name: Use Google's Business Messages channel
-          href: google-business-messages.md
         - name: Use WhatsApp channel
           href: whatsapp.md
         - name: Use Microsoft Teams channel
           href: teams-channel.md
-        - name: Use WeChat channel
-          href: wechat-channel.md
         - name: View social profiles
           href: supported-channels-social-profiles.md  
       - name: Agent productivity tools
@@ -268,7 +270,7 @@
           href: oc-smart-assist.md
         - name: View the agent calendar
           href: use-agent-calendar.md
-        - name: Use agent diagnostics as a self-help tool (preview)
+        - name: Use agent diagnostics as a self-help tool
           href: use-agent-diagnostics.md
         - name: Use agent scripts for customer interactions
           href: oc-agent-scripts.md
@@ -276,22 +278,26 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
-        - name: Use Copilot to solve customer issues 
-          href: use-copilot-features.md
+        - name: Copilot feature availability across applications
+          href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Summarize cases
-          href: copilot-use-summary.md#summarize-cases
+          href: copilot-use-summary.md
         - name: Summarize conversations
-          href: copilot-use-summary.md#summarize-conversations
+          href: /dynamics365/contact-center/use/copilot-summarize-conversations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Ask a question 
-          href: use-copilot-features.md#ask-a-question
+          href: /dynamics365/contact-center/use/use-ask-a-question?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Draft a chat response (preview)
-          href: use-copilot-features.md#draft-a-chat-response-preview
-        - name: Draft emails
-          href: use-copilot-features.md#draft-emails
+          href: /dynamics365/contact-center/use/use-copilot-features?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Write an email with Copilot
+          href: /dynamics365/contact-center/use/use-copilot-email?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use Copilot filters
+          href: use-copilot-filters.md
+        - name: Use Copilot to generate knowledge drafts from cases
+          href: use-copilot-knowledge-from-cases.md  
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
-        - name: View analytics for Copilot impact
-          href: copilot-analytics-report.md
+        - name: Chat with case data in Customer Service (preview)
+          href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Analytics dashboards and insights
         items: 
         - name: Use Omnichannel real-time analytics dashboards
@@ -302,10 +308,14 @@
             href: realtime-summary-dashboard.md
           - name: Voice report
             href: realtime-voice-dashboard.md
+          - name: Bot report
+            href: /dynamics365/contact-center/use/agent-realtime-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Agents report
             href: realtime-agents-analytics.md
           - name: Ongoing Conversation report
             href: realtime-ongoing.md
+          - name: Backlog conversation report
+            href: realtime-backlog-conv.md
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -342,6 +352,8 @@
             href: oc-historical-analytics-unified-routing.md
         - name: Use knowledge management analytics
           href: knowledge-search-analytics-cs.md
+        - name: Use Copilot analytics
+          href: copilot-analytics-report.md
         - name: Monitor conversations
           items: 
             - name: Monitor, assign, transfer, and forcibly end conversations
@@ -352,7 +364,7 @@
           href: ongoing-conversations-dashboard.md
         - name: Analytics reports refresh and data retention
           href: info-analytics-reports.md
-        - name: Use Omnichannel for Customer Service metrics
+        - name: Use report metrics
           href: oc-metrics-dimensions.md
         - name: Personalize analytics
           items: 
@@ -362,7 +374,7 @@
             href: manage-bookmarks.md
         - name: Forecast reports
           items:
-          - name: Forecast agent, case, and conversation volumes
+          - name: Forecast service representative, case, and conversation volumes
             href: use-volume-forecasting.md
         - name: Customize visual display
           href: customize-reports.md
@@ -378,6 +390,8 @@
             href: datamapping-realtime.md
           - name: Dataverse entities used in historical and real-time analytics
             href: dataverse-entities.md
+          - name: Customize the bot dashboard
+            href: /dynamics365/contact-center/use/customize-agent-dashboard?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml    
       - name: Service scheduling
         items: 
           - name: Core Service Scheduling
@@ -450,3 +464,5 @@
       href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
     - name: Unified Service Desk
       href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Dynamics 365 Contact Center documentation
+      href: /dynamics365/contact-center/

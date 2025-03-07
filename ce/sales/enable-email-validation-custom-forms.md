@@ -1,12 +1,16 @@
 ---
 title: Enable email validation for custom forms
-description: Learn how to enable email validation for custom forms in Dynamics 365 Sales.
+description: Discover how to enable email validation for custom forms in Sales Hub, ensuring primary email addresses of contacts and leads are valid.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
-ms.date: 05/10/2023
-ms.custom: bap-template 
+ms.date: 06/28/2024
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:06/25/2024
 ---
 
 # Enable email validation for custom forms
@@ -17,13 +21,6 @@ The email validation feature in Dynamics 365 Sales helps validate the primary em
 
 > [!NOTE]
 > These customizations can be applied only to main forms of the `Contact` and `Lead` tables.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Enable email validation
 
@@ -77,7 +74,7 @@ The email control is added to the email address field. Ensure that the email val
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Enable email validation](enable-email-validation.md)  
 [Work with invalid email addresses](work-invalid-email-addresses.md)

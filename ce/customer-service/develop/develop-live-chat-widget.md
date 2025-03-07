@@ -1,11 +1,11 @@
 ---
 title: Develop a custom live chat widget
 description: Learn where to find information about using the Omnichannel Chat SDK and the Omnichannel Live Chat Widget UI Components library to develop a custom live chat widget.
-ms.date: 04/25/2023
+ms.date: 12/13/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 search.audienceType: 
   - admin
   - developer
@@ -17,8 +17,6 @@ ms.custom:
 ---
 
 # Develop a custom live chat widget
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Microsoft provides an option to create a custom live chat widget that you can attach to your Dynamics 365 Customer Service account. Each component of the custom live chat widget can be customized for both functionality and user interface.
 
@@ -75,7 +73,7 @@ After you install the latest version of the Omnichannel Chat SDK, customize your
 > [!NOTE]
 > The Omnichannel Chat SDK is a prerequisite for installing the Omnichannel Live Chat Widget UI Components library.
 
-### See also
+### Related information
 
 [Customize live chat widgets for mobile apps](render-live-chat-widget-mobile.md)  
 [startChat](reference/methods/startchat.md)  

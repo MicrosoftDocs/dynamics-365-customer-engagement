@@ -1,11 +1,11 @@
 ---
 title: Universal Resource Scheduling for Dynamics 365 Field Service overview
 description: Learn all about Universal Resource Scheduling for Dynamics 365 Field Service
-ms.date: 12/22/2023
+ms.date: 02/07/2025
 ms.custom: bap-template
 ms.topic: overview
-author: clearab
-ms.author: anclear
+author: mkelleher-msft
+ms.author: mkelleher
 ---
 
 
@@ -17,9 +17,9 @@ Field service organizations often book technicians to complete work orders. Effi
 
 ## Universal Resource Scheduling and Field Service work orders
 
-When [installing Field Service](install-field-service.md), Universal Resource Scheduling gets added automatically.
+When [Field Service is installed](install-field-service.md), Universal Resource Scheduling is added automatically.
 
-Work orders and related entities are a part of Field Service and work seamlessly with resources, requirements and bookings of Universal Resource Scheduling.
+Work orders and related entities are a part of Field Service and work seamlessly with resources, requirements, and bookings of Universal Resource Scheduling.
 
 In other words, Field Service defines **what** needs to be done and **where**, while Universal Resource Scheduling defines **who** can perform the work and **when**.
 
@@ -38,7 +38,7 @@ Requirements inherit attributes from the work order, such as name, location, dur
 
 After a work order and related requirement are ready for scheduling, dispatchers book the requirement to the most appropriate resource.
 
-Booking a requirement related to a work order creates a bookable resource booking record that keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
+Booking a requirement related to a work order creates a bookable resource booking record. That record keeps track of which resource does the work, the status of the booking, travel time, and start/end times.
 
 ## Scheduling personas
 
@@ -86,7 +86,7 @@ There are a few things you need to configure to enable Universal Resource Schedu
 
 1. [Configure booking statuses](set-up-booking-statuses.md) to let field technicians communicate the progress of their work to stakeholders.
 
-1. [Enable auto-geocoding](turn-on-auto-geocoding.md) to account for start and end location of resources.
+1. [Enable autogeocoding](turn-on-auto-geocoding.md) to account for start and end location of resources.
 
   > [!TIP]
   > Work orders or requirements without location are treated as location-agnostic and the system doesn't consider the location during scheduling.
@@ -97,8 +97,10 @@ There are a few things you need to configure to enable Universal Resource Schedu
 
 Take a staggered approach to implement scheduling processes in your organization.
 
-1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize with the system logic and establish business processes.
+1. Start with [manual scheduling using the schedule board](work-with-schedule-board.md) to familiarize yourself with the system logic and establish business processes.
+
 1. Move to [semi-automated scheduling with the schedule assistant](schedule-assistant.md) to find resources that match the requirements faster.
+
 1. Consider using the [Resource Scheduling Optimization add-in](rso-overview.md) to enable more automation for your scheduling needs. Kick it off with [single resource optimization](single-resource-optimization.md) before rolling out [automation for your entire scheduling process.](rso-schedule-optimization.md)
   
 ## Next steps

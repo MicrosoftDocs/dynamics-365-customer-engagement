@@ -3,10 +3,10 @@ title: Understand organization charts
 description: Learn how organization charts help sellers to gain insights into their customers' organizational structure and identify key decision-makers.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: overview
 ms.collection: get-started
-ms.date: 09/28/2023
+ms.date: 03/08/2024
 ms.custom: bap-template 
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -29,7 +29,7 @@ Org charts are available for accounts and contacts.
 
 Watch this brief video for a quick introduction to enhanced org charts in Dynamics 365 Sales:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW166iv]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=706622ae-52e9-484f-b3e7-bb33047c59bd]
 
 ## How can I use org charts?  
 
@@ -44,3 +44,9 @@ Salesperson and Sales Manager roles have permissions to view org charts by defau
 | Custom Entities | Microsoft Orgchart node entity | Organization | Create, Write, Read, and Delete |
 
 [Learn more about security role permissions](/power-platform/admin/security-roles-privileges).
+
+## Provide feedback on org charts
+
+First time when you save an org chart, the submit feedback dialog appears. You can provide feedback on the org chart feature and select **Submit** to send your feedback to Microsoft. You can choose to ignore the feedback and close the dialog. However, each time you save the org chart, the dialog appears until you submit feedback.  
+
+:::image type="content" source="media/org-chart-submit-feedback.png" alt-text="Screenshot showing the submit feedback dialog." lightbox="media/org-chart-example.png":::

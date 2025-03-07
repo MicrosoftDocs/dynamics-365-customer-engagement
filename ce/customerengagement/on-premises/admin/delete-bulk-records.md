@@ -2,7 +2,6 @@
 title: "Bulk delete in Dynamics 365 Customer Engagement (on-premises)"
 description: "The bulk deletion feature helps you remove large amounts of data that you no longer need. Follow these steps to create and run a bulk record deletion job."
 ms.custom: 
-ms.date: 03/31/2022
 ms.reviewer: 
 
 ms.suite: 
@@ -11,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: jimholtz
+author: Mattp123
 ms.assetid: 6c1edaef-d2d0-4e94-bb3d-819b208966c1
 caps.latest.revision: 15
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 ---

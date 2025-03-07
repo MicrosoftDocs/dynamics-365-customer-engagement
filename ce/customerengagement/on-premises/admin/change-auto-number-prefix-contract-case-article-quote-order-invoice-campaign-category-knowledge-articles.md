@@ -2,7 +2,6 @@
 title: "Edit auto-numbering prefix in Dynamics 365 Customer Engagement (on-premises)"
 description: "If your organization has standard numbering formats, you can change the default three-character prefixes and number format to match your organization."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 13aa0eb0-537f-432e-ac26-706ebd511dbd
 caps.latest.revision: 39
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

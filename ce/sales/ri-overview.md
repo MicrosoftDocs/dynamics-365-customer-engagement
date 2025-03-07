@@ -1,10 +1,11 @@
 ---
 title: Overview of Relationship intelligence 
 description: Relationship intelligence provides rich insights based on your sellers interactions with their customers. 
-ms.date: 09/01/2022
+ms.date: 02/13/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Relationship intelligence overview 

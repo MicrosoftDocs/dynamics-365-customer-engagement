@@ -5,19 +5,22 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
 
 # How to set up unified routing
 
-In this article, we'll take you through the high-level process of configuring unified routing in Customer Service admin center.
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+
+In this article, we'll take you through the high-level process of configuring unified routing in Customer Service.
 
 > [!NOTE]
 > We recommend that you familiarize yourself with the UI because you'll perform the steps and procedures on different pages.
 
-### Prerequisites
+## Prerequisites
 
 The following prerequisites are applicable:
 
@@ -38,7 +41,6 @@ The sequence of the tasks that you'll need to perform for setting up unified rou
 |![Step 4.](../media/step-4.png "Step 4") |[Set up unified routing for records](set-up-record-routing.md#configure-unified-routing-for-records)|Configure a record for routing.|
 |![Step 5.](../media/step-5.png "Step 5") |[Create workstreams for record routing](set-up-record-routing.md#create-workstreams-for-record-routing)|Configure a workstream for record routing|
 |![Step 6.](../media/step-6.png "Step 6") |[Enable routing diagnostics](unified-routing-diagnostics.md#manage-routing-diagnostics)|Turn on routing diagnostics|
-||||
 
 ### Try the runtime experience in Customer Service workspace
 
@@ -68,7 +70,7 @@ Optionally, you can configure the following settings.
 |Configure and publish the skill model to use machine learning work classification. More information: [Set up intelligent skill finder model](set-up-isf-model.md#set-up-intelligent-skill-finder-model)|To route records and work items from channels|
 |Configure capacity profile to use capacity profile-based classification. More information: [Create and manage capacity profiles](capacity-profiles.md)|To route records and work items from channels|
 
-### See also
+### Related information
 
 [Overview of unified routing](overview-unified-routing.md)  
 [Set up unified routing for records](set-up-record-routing.md)  

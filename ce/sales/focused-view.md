@@ -1,10 +1,11 @@
 ---
 title: View and manage records in focused view
 description: Change the general list view to focused view for contact, account, lead, and opportunity entities in Dynamics 365 Sales.
-ms.date: 02/22/2024
+ms.date: 02/04/2025
 ms.topic: how-to
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - admin
   - customizer
@@ -34,7 +35,7 @@ If you open an entity grid in the focused or list view and then close it within 
 
 > [!NOTE]
 >
-> Focused view is not available for the Activities entity.
+> Focused view is now available for the **Activities** entity. However, you must [opt in for early access features](/power-platform/admin/opt-in-early-access-updates).
 
 ## Understand the focused view
 
@@ -50,8 +51,16 @@ Focused view is categorized into the following sections.
    - **Command bar**: This feature contains actions that help you perform bulk actions on multiple records. To use it, select **More options**. You can then choose the records that you want to work with and perform the required actions.
 
 1. **Work list actions**:
-   - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. Filters and sorting that are available here are similar to the list view. The attributes that are available in the view are displayed as a filter. If you want to add more filters to the view, you can create an advanced filter.
-     - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.
+   - **Search, filter, and sort**: These options are displayed at the top of the work list item view. You can search, filter, and sort the records that you want to view in the list to quickly identify only the records that you want to work with. You can also switch between focused view and list view. The attributes available in the view are displayed as filters and sort. These attributes include fields added through [workspace customizations](customize-workspace-sales-accelerator.md#manage-filters) in the sales accelerator, and any new fields added to the work list card through card customization.  
+
+      > [!NOTE]
+      > The following attributes types are not supported in filter and sort&mdash;Owner, Lookup, Customer, Uniqueidentifier, related entities, and advanced filter that are created through workspace customizations.
+
+      For lead and opportunity entities, filters might display deprecated attribute options. To remove these filters, go to work list card customization and remove the **Predictive scoring** field.  
+
+      If you want to add more filters to the view, you can create an advanced filter.
+      - **Advanced filter**: Create an advanced filter option using the expression builder to refine the content displayed in the work list. You can have only one advanced filter defined for an entity in focused view. Select **Edit filters** to open the expression builder. In the expression builder, create the conditions as required and then select **Apply**. When the advanced filter is applied, the filter icon is filled with a blue color, and the advanced filter tag is displayed under the filter options.  
+
    - **Select multiple records**: To perform bulk actions on multiple records, select the **Select multiple records** option. You can choose the records that you want to work with and then perform the required actions. On the command bar, select **More options** to perform the bulk actions.
    - **Refresh and Settings**: Select **More options** to perform list refresh and configure the work list card through settings.
      - **Refresh**: Select **Refresh** to refresh the list of records.
@@ -62,7 +71,8 @@ Focused view is categorized into the following sections.
     - **No action items**: When no action items are available for the record, the record displays information such as the name and contact details.
     - **Predictive scoring**: When predictive scoring is enabled in your organization, the list also displays the score for that lead or opportunity at the upper-right corner of the card. Learn more about [prioritizing leads through scores](work-predictive-lead-scoring.md) and [prioritizing opportunities through scores](work-predictive-opportunity-scoring.md).
 
-1. **Record details**: Select a record in the work list to open a detailed view of the record on the same page.
+1. **Record details**: Select a record from the work list to view its details on the same page. When you select an entity record in the detail view page, the selected entity record is displayed inline on the same page, keeping the work list visible. For example, selecting a contact record within an opportunity record keeps the work list visible while displaying the contact details.  
+    However, when you perform certain actions such as creating a new record, composing an email, or opening an organization chart, opens in full-page view and hiding the work list. Select the **Back** button to return to the actual work list record with the work list visible.
 
 ## Customize the work list card
 
@@ -71,7 +81,7 @@ You can customize the work list card to display the information that you want to
 The customization that you make to the work list card is specific to the entity type. For example, if you customize the work list card for the Lead entity, the customization is applied only to the Lead entity. The customization isn't applied to the Account, Contact, Opportunity, or other entities. These customizations also affect the sales accelerator workspace view. 
 
 > [!NOTE]
-> You need to have read permissions for the **msdyn_workqueueusersetting** entity to see the **Settings** icon and customize the work list card. Contact your administrator to provide the required permissions.
+> You need to have read permissions for the **Work list user setting** entity to see the **Settings** icon and customize the work list card. Contact your administrator to provide the required permissions.
 
 1. In the focused view page, on the work list pane, select **More options** and then select **Settings**.  
 
@@ -110,14 +120,18 @@ The customization that you make to the work list card is specific to the entity 
 
 1. Select **Save**.
 
+## Auto-refresh records
+
+Records in the work list can be refreshed automatically when they are updated. However, an administrator must enable this feature and configure the time interval for the records to refresh. For more information on how to configure this feature, see [Automatically refresh records](set-focused-view-as-default.md#refresh-records-automatically).
+
 ## Increase the number of records displayed in focused view
 
 You can configure the number of records that are displayed per page in the focused view. By default, 50 records are displayed, but you can increase this number up to a maximum of 250. To do so, go to your personalization settings, and under the **General** tab configure the **Set the number of rows shown per page in any list of rows** option to increase the number of records displayed per page in focused view. More information: [Set personal options](/power-apps/user/set-personal-options)
 
-### See also
+## Related information
 
 [Enable focused view and set it as default](set-focused-view-as-default.md)  
 [Prioritize sales pipeline with work lists](prioritize-sales-pipeline-through-work-list.md)   
 [Work with opportunities in the Kanban view](opportunity-kanban-view.md)   
 [Customize work items](customize-work-list-card.md#customize-work-items)   
-[Focused view FAQs](faq-sales.yml#focused-view)
+[Focused view FAQs](faq-focused-view.md)

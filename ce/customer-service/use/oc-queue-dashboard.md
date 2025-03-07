@@ -1,20 +1,24 @@
 ---
 title: Queue Dashboard | Microsoft Docs
-description: Learn about the Queue dashboard to better understand agent performance in your organization.
+description: Learn about the Queue dashboard to better understand customer service representative performance in your organization.
 ms.date: 10/12/2022
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Queue dashboard
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating.
  
 > [!div class="mx-imgBorder"]
 > ![Queue dashboard historical analytics.](../media/queue-historical-analytics.png "Queue historical analytics dashboard")
 
-By default, the dashboard shows key performance indicators (KPIs) for the past month and for all channels, queues, and agents in your system. You can use the data filtering options to select data for specific time periods, channels, queues, agents, conversation status, and time zone. To filter data by duration, channel, queue, agent, conversation status, or time zone, select a value from the respective dropdown list.
+By default, the dashboard shows key performance indicators (KPIs) for the past month and for all channels, queues, and customer service representatives (service representatives or representatives) in your system. You can use the data filtering options to select data for specific time periods, channels, queues, service representatives, conversation status, and time zone. To filter data by duration, channel, queue, service representative, conversation status, or time zone, select a value from the respective dropdown list.
 
 > [!NOTE]
 > If you switch to a different dashboard, the filter you specified will persist and be applied to the data on all dashboards.
@@ -34,10 +38,10 @@ The following KPIs are displayed in the Queue dashboard.
 | KPI | Description |
 | ----------------- | ------------------ |
 | Incoming sessions | The total number of sessions initiated by customers. |
-| Engaged sessions | The number of sessions presented to an agent that were accepted. |
-| Avg. wait time (sec) | The average time customers waited before connecting to an agent. It's similar to "speed to answer," but this metric includes the wait time from each session within a conversation. |
+| Engaged sessions | The number of sessions presented to a service representative that were accepted. |
+| Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes the wait time from each session within a conversation. |
 | Avg. session handle time | The total session active time across engaged sessions. |
-| Transfer rate | The percentage of conversations that were transferred to another agent or queue. |
+| Transfer rate | The percentage of conversations that were transferred to another service representative or queue. |
 | Avg. session sentiment | The average predicted customer sentiment for a given session. |
 
 
@@ -48,11 +52,11 @@ The following charts are displayed in the Queue dashboard.
 
 | Title | Description |
 | ---------------- | ------------------ |
-| Incoming session vs engaged session |The total number of sessions initiated by customers versus the number of sessions initiated and accepted by an agent.|
-| Avg. wait time (sec) | The average time customers waited before connecting to an agent. It's similar to "speed to answer," but this metric includes wait time from each session within a conversation. |
+| Incoming session vs engaged session |The total number of sessions initiated by customers versus the number of sessions initiated and accepted by a service representative.|
+| Avg. wait time (sec) | The average time customers waited before connecting to a service representative. It's similar to "speed to answer," but this metric includes wait time from each session within a conversation. |
 | Avg. session active time (min) | The average total session active time across engaged conversations. |
 | Avg. session handle time (min) | The average total session handle time across engaged conversations. |
-| Sessions rejected/timed out rate | The number of sessions presented to an agent that weren't accepted. |
+| Sessions rejected/timed out rate | The number of sessions presented to a service representative that weren't accepted. |
 
 > [!div class="mx-imgBorder"]
 > ![Queue summary chart.](../media/oc-queue-summary.png "Queue summary chart")
@@ -60,10 +64,10 @@ The following charts are displayed in the Queue dashboard.
 | Session summary | Description |
 | ---------------- | ---------------- |
 | Incoming sessions | The number of sessions initiated by a customer |
-| Engaged sessions | The number of sessions accepted by an agent.  |
-| Avg. wait time (sec) | The average time customers waited before connecting to agents. This is similar to "speed to answer," but it includes wait time from each session within a conversation. |
-| Session rejected/timed out rate | The number of sessions presented to an agent that weren't accepted. |
-| Transfer rate | The percentage of conversations that were transferred to another agent or queue. |
+| Engaged sessions | The number of sessions accepted by a service representative.  |
+| Avg. wait time (sec) | The average time customers waited before connecting to service representatives. This is similar to "speed to answer," but it includes wait time from each session within a conversation. |
+| Session rejected/timed out rate | The number of sessions presented to a service representative that weren't accepted. |
+| Transfer rate | The percentage of conversations that were transferred to another service representative or queue. |
 | Avg. session time (min) | The average time, from session start to end, for engaged sessions. |
 | Avg. session handle time (min) | The average of the total session active time across engaged sessions. |
 | Avg. session sentiment | The average predicted customer sentiment for a given session. |
@@ -81,10 +85,10 @@ The following charts are displayed in the Queue dashboard.
 
 | Consult/ Monitor | Descriptions | 
 | --------------------- | --------------------- |
-| Consult sessions | Number of sessions where the agent has participated in consult mode. |
-| Avg consult time (min) | Average time an agent spent during a session in consult mode. |
-| Monitor sessions | Number of sessions where the agent has participated in monitor mode |
-| Avg monitor time (min) | Average time agent spent on a session in monitoring mode | 
+| Consult sessions | Number of sessions where the service representative has participated in consult mode. |
+| Avg consult time (min) | Average time a service representative spent during a session in consult mode. |
+| Monitor sessions | Number of sessions where the service representative has participated in monitor mode |
+| Avg monitor time (min) | Average time a service representative spent on a session in monitoring mode | 
 
 A blue upward triangle next to the value indicates that the percentage has changed in a positive direction. A red downward triangle indicates that the percentage has changed in a negative direction.
 
@@ -98,7 +102,7 @@ To view the drill-down report, select any single metric value on the required da
 > ![Queue Hourly drill down view.](../media/queue-hourly-drill-down-view.png "Queue hourly drill down view")
 
 
-### See also
+### Related information
 
 [Conversation dashboard](oc-conversation-dashboard.md)  
 [Dashboard overview](customer-service-analytics-insights-csh.md)  

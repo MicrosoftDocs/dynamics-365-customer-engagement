@@ -1,7 +1,7 @@
 ---
 title: Set defaults for work orders, bookings, the schedule board, and agreements
 description: Learn how to set defaults for work orders, bookings, the schedule board, and agreements in Dynamics 365 Field Service.
-ms.date: 02/08/2024
+ms.date: 09/03/2024
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
@@ -64,7 +64,7 @@ This settings tab lets you enable toggles for preview, copilot, and a few other 
 |**Preview section**||
 | Enhanced characteristics | Enable [enhanced characteristics](set-up-characteristics.md) to add more details to a resource's characteristics. |
 |**Copilot in Field Service section**||
-| Copilot for work order | Enable [work order recap with Copilot](work-order-recap.md) to provide a summary of a work order. |
+| Copilot for work order | Enable [work order summary with Copilot](work-order-recap.md) to provide a summary of a work order. |
 | Copilot in Microsoft Outlook | Disable the use of copilot capabilities in Outlook for Field Service. If enabled, you agree that data might be stored and processed outside of your tenant's geographic region or compliance boundary. For more information, see [FAQ for Outlook using Copilot in Field Service.](faqs-wo-flw-copilot.md)|
 |**Other settings section**||
 | Insurance policies | Enable [insurance policies](insurance.md) to create an insurance policy. |
@@ -89,7 +89,7 @@ This settings tab lets you define several default values and basic settings rela
 |  Work Order Invoice Creation  |   Choose if the system should automatically generate a billing invoice for work orders when the status changes to *Closed - Posted*. |
 |  Travel Charge Item      | Select the product that the system uses for travel charges for a work order. The pricing is determined by the settings Travel Charge value on the service account. For more information, go to [Accounts](accounts.md). |
 | Disable Customer Asset Validation | Control work order creation if customer assets on the work order don't belong to the same service account. When set to *Yes*, users can't create a work order if the customer assets don't relate to the service account. When set to *No*, the system requires customer assets related to the service account on a work order. For more information, go to [Validate customer assets on work orders](asset-validation.md). |
-| Calculate Tax | [Tax codes](set-up-tax-codes.md) calculate and add taxes to products and services. When set to *No*, the tax code field and calculations from all related forms are disabled. |
+| Calculate Tax | [Tax codes](set-up-tax-codes.md) calculate and add taxes to products and services. When set to *No*, the tax code field and calculations from all related forms are disabled. If this setting is set to no, tax related fields are hidden by default and their values are irrelevant. |
 | Generate Actuals | When set to *Yes*, the system creates records with actuals over the course of a work order's lifecycle. If set to *No*, the system disables the creation of work order-related actuals. |
 | **Resource pay type section** |  |
 | Work Pay Type   |  Choose the [resource pay type](set-up-resource-pay-types.md) for work performed during regular work hours.   |
@@ -109,8 +109,8 @@ Field Service agreements allow organizations to automatically generate work orde
 |  Option   |    Description    |
 |------------|-------------------|
 | Auto Generate Work Order for Agreement Booking  |  Select whether the system should automatically generate work orders based on agreements. If set to *No*, users have to create the work orders manually. |
-| Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you might not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With autogenerate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the work order booking. |
-|   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With autogenerate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the invoice dates.   |
+| Generate Booking Dates X Months in Advance    | Agreement booking dates help organizations plan for maintenance. If an agreement spans a long time period, you might not want to generate all booking dates at once. Agreements generate booking dates based on the agreement booking setup recurrence schedule. With autogenerate enabled, the system creates a work order booking on these dates. This setting determines how many months in advance the system generates the agreement booking dates. |
+|   Generate Invoice Dates X Months in Advance   | Agreements generate invoice dates based on the agreement invoice setup recurrence schedule. With autogenerate enabled, the system creates an invoice record on these dates. This setting determines how many months in advance the system generates the agreement invoice dates.   |
 |  Pre/Post Booking Flexibility Date Field Population  | When configuring an agreement, you can define pre- and post-booking flexibility fields. These fields set the time frame in which each work order should get booked. This setting defines whether work orders generated from agreements populate this time frame in the *Date Window Start/End* or the *Time From/To Promised* fields. This setting also controls whether the *Date Window Start/End* fields are visible on the work order. If the agreement is set to populate *Date Window Start/End*, these fields are visible on the work order; otherwise, they're hidden by default.|
 | Generate Agreement Work Order X Days in Advance |  Number of days in before the booking date when the system generates the work order record.  |
 |  Generate Agreement Invoices X Days in Advance  |  Number of days in before the invoice date when the system generates the invoice record. |
@@ -127,15 +127,12 @@ You can use purchase orders (POs) to add inventory to a warehouse, or to purchas
 
 ## Intelligence settings
 
-Predictive work duration lets dispatchers predict the duration of bookings. For more information, go to [Predictive work duration and resource proficiency suggestions](analytics-predictive-work-duration.md).
-
-Incident type suggestions help administrators manage work order templates. For more information, go to [Use AI to get Incident Type suggestions](configure-incident-types.md#use-ai-to-get-incident-type-suggestions).
+Predictive work duration and Incident type suggestions will be deprecated in November 2024.
 
 |  Option  |  Description   |  
 |-------------|-----------------|  
 | Enable Suggested Duration |  When enabled, this setting looks at historical booking data and suggests an average duration at the incident type level.|
 | Historical Data Filter | This setting is used for both the suggested duration and incident type suggestions. It defines the data scope for analysis when looking at historical data to provide suggestions.|
-| Enable Incident Type Suggestion | When enabled, this setting enables the analysis of historical work order data to suggest ways to improve an organization's usage of incident type. Once enabled, you specify which results the model returns and review the suggestions from the intelligent analysis. From the subgrid, a user can dislike or apply the suggestions from the model. |
 
 ## Field Service SLA Configuration settings
 

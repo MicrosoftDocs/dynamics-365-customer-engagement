@@ -1,12 +1,14 @@
 ---
-title: Create and manage queues for cases | MicrosoftDocs
-description: "Learn how to set up queues to manage activities and cases in Dynamics 365 Customer Service."
-ms.date: 08/31/2023
-ms.topic: article
+title: Create and manage basic queues for cases
+description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
+ms.date: 02/04/2025
+ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
+  - bap-template
 search.audienceType: 
   - admin
   - customizer
@@ -20,7 +22,7 @@ searchScope:
   - Customer Service
 ---
 
-# Create and manage queues for cases
+# Create and manage basic queues for cases
 
 [!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
@@ -28,11 +30,11 @@ searchScope:
 
 In Dynamics 365 Customer Service, *queues* are containers used to store anything that needs to be completed or requires an action such as completing a task or closing a case. Queues help you to organize, prioritize, and monitor the progress of your work. 
 
-Queues can be useful in:
+Queues can be used to:
   
-- Having a centralized list of pending work that needs attention.  
+- Centralize a list of pending work that needs attention.
   
-- Sorting tasks by type, or by people assigned to complete them.  
+- Sort tasks by type, or by people assigned to complete them.
   
 ## Types of queues
 
@@ -48,12 +50,12 @@ You can use queues to prioritize your activities and cases, and categorize them 
   
 - geography  
 
-You can create both basic and advanced queues (for unified routing). More information: [Create and manage queues for unified routing](queues-omnichannel.md)
+You can create both basic and advanced queues (for unified routing). Learn more in [Create and manage queues for unified routing](queues-omnichannel.md).
 
 Based on who can view the queues, you can create:
 
 - **Public queues** To let everyone in the organization view the queue and its work items
-- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Private queues don't restrict access to the records they contain. Therefore, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. More information: [Dynamics 365 security model](../../customerengagement/on-premises/developer/security-dev/security-model.md)
+- **Private queues** To let a small group of members view the queue and its work items. Private queues display work items for members of that queue and help remove clutter from other users' views. Private queues don't restrict access to the records they contain. Therefore, to prevent unauthorized access to sensitive data, ensure that you set up security models based on your organization needs. Learn more in [Dynamics 365 security model](../../customerengagement/on-premises/developer/security-dev/security-model.md).
 
 > [!NOTE]
 > - You must manually add new team members as members of private queues.
@@ -71,23 +73,13 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 ## Create a queue
 
-1. Go to one of the admin apps, and perform the following steps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-        
-    1. In the site map, select **Queues** in **Customer support**.
+1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
     
-    1. On the **Queues** page, select **Manage** for **Basic queues**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. Go to **Service Management**, and then select **Queues** in **Case Settings**.
+1. On the **Queues** page, select **Manage** for **Basic queues**.
   
-2. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
+1. To create a queue, select **New**. To edit a queue, select the queue in the list of queues, and then select **Edit** on the command bar.  
   
-3. Enter the following information in the **Summary** tab:
+1. Enter the following information in the **Summary** tab:
    - In the **SUMMARY** section, do the following:  
       - **Name**: Enter the name of the queue.  
       - **Type**: Select whether the queue is a private or public queue. 
@@ -97,9 +89,9 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
   
    - In the **EMAIL SETTINGS** section, you can do the following:
       - Select a value in the **Convert Incoming Email To Activities** dropdown list to set the type of messages that you want to track as activities.
-      - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. More information: [Add a default signature for a queue](add-signature-template-queue.md)
+      - Set the email signature template. This signature is added to the email by default when you send messages from a queue or reply to messages sent to the queue. Learn more in [Add a default signature for a queue](add-signature-template-queue.md).
   
-4. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
+1. In the **Omnichannel** section of the **Conflicts Tab**, you can do the following:
     - Set **Automatic work distribution** to **No** (default option), and then select **Save** to create a basic queue.
     - Set **Automatic work distribution** to **Yes** to enable unified routing, and then select **Save** to create an advanced queue.
 
@@ -108,7 +100,7 @@ Make sure that you have the Sales or Marketing Manager, Customer Service Manager
 
 After you have saved the queue, the following changes happen in the SUMMARY tab:
 
-- In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)
+- In the **Mailbox** field of the **EMAIL SETTINGS** section, a mailbox record for the queue is automatically created and selected. To update the mailbox, select the mailbox name [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes).
 
 - If you selected the queue type as private, the **MEMBERS** section appears.
    -  Select **Add Existing User**. Only those users that you add can work on the items in this queue. If you add a team as a member, only the existing team members can access the queue. New team members must be added manually to the queue to be able to access it.
@@ -116,21 +108,21 @@ After you have saved the queue, the following changes happen in the SUMMARY tab:
 
 ## Set up default views for routing dialogs
 
-To optimize agent efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the agents handle. You can then set the view as the default from which agents can pick a queue or user to route the work items.
+To optimize customer service representative (service representative or representative) efficiency, you can set up custom views that contain a filtered list of queues. These queues are relevant to the type of cases that the service representatives handle. You can then set the view as the default from which they can pick a queue or user to route the work items.
 
-1. In the Customer Service admin center app, go to **Customer support** in the site map and select **Queues**.
+1. In the site map of Customer Service admin center, go to **Customer support**, and then select **Queues**.
 
 1. On the page that appears, select **Manage** for **Routing dialogs**.
 
 1. On the **Queues** > **Routing dialogs** page, do the following:
-    - **Add to queues**: Set a default view that'll appear for the agents when they open the **Add to Queue** dialog to route a case from the case page.
-    - **Route queue item**: Set a default view that'll appear for the agents when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
+    - **Add to queues**: Set a default view that'll appear for the service representatives when they open the **Add to Queue** dialog to route a case from the case page.
+    - **Route queue item**: Set a default view that'll appear for the representatives when they open the **Route Queued Item** dialog to route a case on the **Queues** page,
 
 1. Save and close.
 
-At runtime, your agents will see the views that you have set for them.
+At runtime, your representatives see the views that you have set for them.
 
-For information on how to create custom views, see [Create and edit public views](/power-apps/maker/model-driven-apps/create-edit-views-app-designer).
+Learn more about how to create custom views in [Create and edit public views](/power-apps/maker/model-driven-apps/create-edit-views-app-designer).
 
 ## View queue items for a queue
 
@@ -138,26 +130,26 @@ The **QUEUE ITEMS** section lists all activities that are either routed automati
 
 ## Set up rules for creating or updating records automatically
 
-In the **RECORD CREATION AND UPDATE RULES** section, you can create rules for automatically creating records for cases from incoming emails. More information: [Automatically create or update records](automatically-create-update-records.md)
+In the **RECORD CREATION AND UPDATE RULES** section, you can create rules for automatically creating records for cases from incoming emails. Learn more in [Automatically create or update records](automatically-create-update-records.md).
   
-## Route items to basic queues  
+## Route items to basic queues
 
-For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate agents. More information: [Create rules to automatically route cases](create-rules-automatically-route-cases.md)
+For all cases that are automatically created from incoming email and social posts, create routing rules to route the cases to queues. Then, assign the items in the queue to appropriate representatives. Learn more in [Create rules to automatically route cases](create-rules-automatically-route-cases.md).
 
-Alternatively, you can manually add cases and activities to queues. More information: [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue)
+Alternatively, you can manually add cases and activities to queues. Learn more in [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md#add-a-case-to-a-queue).
 
   
 ## Assign items to agents
 
-Queues share cases or activities as a group until they're removed from the queue or accepted by a customer service agent who assumes responsibility for handling them. Agents can pick the items for themselves, or a customer service manager can manually route these cases to the agents, or to other queues, users, and teams.  
+Queues share cases or activities as a group until they're removed from the queue or accepted by a service representative who assumes responsibility for handling them. Representatives can pick the items for themselves, or a customer service manager can manually route these cases to them, or to other queues, users, and teams.  
 
-To assign items in the queue to agents, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
+To assign items in the queue to representatives, select **Assign** after selecting one or more items in the queues grid. In the **Assign Queue** box, you can choose to assign to other users or teams.
 
 > [!NOTE]
 >
-> - When two agents simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
-> - If you've created workflows or used custom API to assign cases to agents and if the same case is assigned to two agents at the same time, then the system creates two queue items instead of a single queue item.
-> - When an agent picks a case created by another agent and releases it from the queue, the case gets assigned to the queue owner and not to the agent who created the case.
+> - When two service representatives simultaneously add cases to the queue, the system creates two queue items instead of a single queue item.
+> - If you've created workflows or used custom API to assign cases, and if one of the cases is assigned to two representatives at the same time, then the system creates two queue items instead of a single queue item.
+> - When one representative picks a case created by another, and releases it from the queue, the case gets assigned to the queue owner and not to the representative who created the case.
 
 #### Create a queue in legacy Service Management
 
@@ -188,9 +180,9 @@ To assign items in the queue to agents, select **Assign** after selecting one or
    - In the **EMAIL SETTINGS** section:
        - **Convert Incoming Email To Activities**: From the dropdown list, select a value depending on the type of messages that you want to track as activities.  
   
-       - **Mailbox**: A mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. More information: [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes)  
+       - **Mailbox**: A mailbox record for the queue is automatically created and selected as soon as you save the queue record. To update the mailbox details, select the mailbox name. Learn more in [Create forward mailboxes or edit mailboxes](/power-platform/admin/create-forward-mailboxes-edit-mailboxes).  
   
-   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records with incoming activities such as emails, social activities, or other custom activities. More information: [Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md)  
+   - In the **Record creation and update rules** section, add a **Record Creation and Update Rule** record. By using these rules, you can automatically create or update system or custom records with incoming activities such as emails, social activities, or other custom activities. Learn more in [Set up rules to automatically create or update records](set-up-rules-to-automatically-create-or-update-records.md).  
   
    > [!IMPORTANT]
    >
@@ -200,7 +192,7 @@ To assign items in the queue to agents, select **Assign** after selecting one or
   
 6. [!INCLUDE[proc_click_or_tap_save](../../includes/proc-click-or-tap-save.md)]
 
-### See also  
+### Related information  
 
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Add a case to a queue](../use/customer-service-hub-user-guide-case-queues-and-routing.md)    

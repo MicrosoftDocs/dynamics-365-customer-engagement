@@ -2,24 +2,43 @@
 title: "Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook  (Dynamics 365 apps) | MicrosoftDocs"
 ms.custom: 
 description: Troubleshoot and Frequently Asked Questions about Dynamics 365 App for Outlook
-ms.date: 10/12/2023
-ms.reviewer: sericks
+ms.date: 05/28/2024
+ms.reviewer: smurkute
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
 applies_to: Dynamics 365 apps
 ms.assetid: 0dfd6100-b4ed-4959-9acb-cc0a1dbbb6d6
 caps.latest.revision: 99
-author: sidhartg
-ms.author: sidhartg
+author: bharavar 
+ms.author: bharavar 
 search.audienceType: 
   - admin
   - customizer
   - enduser
 contriutors:
 - sbmjais
+ms.contributors:
+- crandrei
 ---
 # Troubleshoot and FAQs about Dynamics 365 App for Outlook
+
+## Sometimes when I’m tracking my appointment, the recipients receive a second, duplicate invitation 
+
+This may happen when the organizer of the appointment tracks the appointment using Dynamics 365 App for Outlook. As the product performance continues to improve, unavoidable race conditions may happen leading to a second invitation being sent out. 
+
+### Solution
+This behavior is avoided if the **Immediate Track** functionality is turned off for the app. This means that when the user tracks an appointment, it'll take up to a few minutes until it appears in Dynamics. During this time, the user doesn’t need to keep the appointment open, as the user can carry on with their work.
+
+The appointment will be created asynchronously, using [server-side synchronization](/power-platform/admin/server-side-synchronization).
+
+If you would like to apply this setting, open a support request.  
+
+## When I’m drafting my appointment and tracking it, the recipients receive two duplicate invitations
+
+When a user is composing an appointment, in _draft_ status, and tracking it, one invitation is sent. 
+
+Once the user is done and sending the appointment, then Outlook sends a second invitation with the final format of the appointment. Consider tracking appointments after finishing their final format and sending them.
 
 ## Users with custom security role can't access Dynamics 365 App for Outlook
 

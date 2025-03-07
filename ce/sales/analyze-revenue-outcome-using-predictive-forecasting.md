@@ -1,24 +1,17 @@
 ---
 title: "Analyze revenue outcome using predictive forecasting"
 description: "Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data."
-ms.date: 03/06/2023
+ms.date: 09/20/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 
 # Analyze revenue outcome by using predictive forecasting
 
 Use predictive forecasting to analyze the revenue outcome by providing forecast projections based on your data.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Understand the prediction column and details in a forecast
 
@@ -89,7 +82,7 @@ The following image shows an example of a **Top factors that influence predictio
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [About premium forecasting](configure-premium-forecasting.md)  
 [Enable prediction factors](/dynamics365/sales-enterprise/forecast-configure-advanced-settings#enable-prediction-factors)

@@ -1,21 +1,15 @@
 ---
 title: "Send email using the enhanced email experience in Dynamics 365 Sales"
 description: "Use the enhanced email experience to compose and send an email without leaving the context of what you are working on."
-ms.date: 10/12/2022
+ms.date: 02/19/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Send email using the enhanced email experience 
 
 The enhanced email experience in customer engagement apps allows users to compose an email without leaving the record they're working on.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## What can I do with email experience?
 
@@ -40,8 +34,7 @@ Using the enhanced email experience, you can:
 
    A new email pop-up window opens. 
 
-   > [!div class="mx-imgBorder"]
-   > ![Enhanced email pop-up window.](../sales/media/enhanced-email-pop-up.png "Enhanced email pop-up window")
+   :::image type="Enhanced email pop-up window" source="media/enhanced-email-pop-up.png" alt-text="Enhanced email pop-up window":::
 
    The **From** and **To** fields are automatically populated based on the user and the account and contact of the original record.
 
@@ -61,7 +54,7 @@ Set the default font and size so that every email you create uses that font sett
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Set up enhanced email](set-up-enhanced-email.md)<br>
 [Troubleshooting issues with email](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues)

@@ -5,6 +5,7 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # View meetings in the mobile app
@@ -15,14 +16,6 @@ The information on the home page of the Dynamics 365 Sales mobile app can help y
 > - You can't create a meeting from the Dynamics 365 Sales mobile app.
 > - The **Meetings** section only include meetings that have at least one participant who's outside of your organization's domain.   
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
- 
 ## View meetings
 
 1.  On the navigation bar, tap **Meetings**.
@@ -136,7 +129,7 @@ Notes and reminders are displayed within the corresponding connected record. [Vi
 
 To view only the notes attached to the connected record, tap ![View notes on the connected record.](media/view-notes.png "View notes on the connected record") on the connected record card.
 
-### See also   
+## Related information   
 
 [Use the Dynamics 365 Sales mobile app](use-sales-mobile-app.md)    
 [Manage contacts](create-contact.md)   

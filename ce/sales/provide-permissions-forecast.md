@@ -5,6 +5,7 @@ ms.date: 08/17/2023
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -18,13 +19,6 @@ Use the **Permissions** step to:
 - [Define the owner of the forecast](#define-the-forecast-owner)
 - [Provide access to users who have specific security roles to view the forecast](#provide-access-to-additional-roles)
 - [Allow users to share their forecast records with other users](#enable-or-disable-forecast-sharing)
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Define the forecast owner
 
@@ -57,7 +51,7 @@ A message under the security roles gives more information about how the forecast
 
 ## Enable or disable forecast sharing
 
-By default, forecasts can't be shared. If you turn on forecast sharing, users can share only the forecasts that they own. For more information, see [Who owns the forecast?](./faqs-sales.md#who-owns-the-forecast)
+By default, forecasts can't be shared. If you turn on forecast sharing, users can share only the forecasts that they own. For more information, see [Who owns the forecast?](faq-forecasting.md#who-owns-the-forecast)
 
 In the **Share forecast** section, select one of the following options:
 
@@ -81,7 +75,7 @@ When you've finished setting permissions, select **Next**.
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)
 

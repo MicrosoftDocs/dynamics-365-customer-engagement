@@ -2,7 +2,6 @@
 title: "Configure OAuth settings to change the client session timeout | Microsoft Docs"
 description: Learn how to configure OAuth settings to change the session timeout in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "11/25/2019"
 
 ms.reviewer: ""
 ms.suite: ""

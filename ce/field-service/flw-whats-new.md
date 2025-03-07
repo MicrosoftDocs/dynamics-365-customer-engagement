@@ -1,7 +1,7 @@
 ---
 title: What's new in Microsoft 365 integrations for Field Service
 description: Learn what's new in the Dynamics 365 Field Service integrations with Microsoft Outlook, Teams, and Viva Connections.
-ms.date: 11/28/2023
+ms.date: 05/01/2024
 ms.topic: conceptual
 author: jasonxian-msft
 ms.author: jasonxian
@@ -15,6 +15,26 @@ ms.subservice: m365-integrations
 See [supported geographies, regions, and languages](flw-overview.md#supported-geographies-regions-and-languages).
 
 This article summarizes public preview features, general availability enhancements, and feature updates.
+
+## May 3, 2024
+
+This release includes the following new features:
+
+- In Outlook, [shared mailboxes](https://support.microsoft.com/office/open-and-use-a-shared-mailbox-in-outlook-d94a8e9e-21f1-4240-808b-de9c9c088afd) are supported.
+- In Microsoft Teams, frontline managers and workers can [share links to work orders](flw-teams-worker.md#share-work-order-information) that automatically expand providing key details.
+
+## April 22, 2024
+
+This release includes the following new features:
+
+- In Outlook, ask Copilot to [draft email responses to customers with proposed schedules or schedule confirmation](flw-outlook.md#draft-an-email-response-with-copilot) for work orders.
+- In both Outlook and Teams, admins can [add custom labels](flw-customization.md#create-custom-labels) to better fit their organization's terminology.
+
+This release includes the following changes:
+
+- General availability in asking the Dynamics 365 Field Service Plugin for Microsoft 365 Copilot for key work order information.
+- In public preview, frontline workers can ask Microsoft 365 Copilot to search through lengthy product manuals and find relevant answers to questions.
+- In public preview, frontline workers can use [Dynamics 365 Remote Assist capabilities in Microsoft Teams mobile](annotate-teams-mobile.md).
 
 ## December 5, 2023
 

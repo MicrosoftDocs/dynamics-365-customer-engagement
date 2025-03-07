@@ -1,25 +1,28 @@
 ---
-title: "CRM Page hosted control to load a page from a model-driven app | MicrosoftDocs"
-description: "Learn how to create CRM Page hosted control type to load a URL or page from the model-driven app. Also, learn about the predefined UII actions for the hosted control."
-ms.date: 02/14/2020
+
+title: Create a hosted control to load a URL or page from a model-driven app
+description: This article explains how to create a CRM Page hosted control that can load a page from a model driven app and use features such as session management and agent scripting.
+ms.date: 03/28/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-search.audienceType: 
-  - customizer
-  - developer
-ms.custom: 
-  - dyn365-USD
+search.audienceType:
+- customizer
+- developer
+ms.custom:
+- dyn365-USD
+ai.usage: ai-assisted
+
 ---
+
 # CRM Page (hosted control)
 
-
-
-Use the CRM Page hosted control type to load a URL or page from model-driven apps. When a model-driven app page is loaded within a hosted control of this type, it automatically scans the page for data from the entity and automatically populates the replacement parameters.  
+A CRM Page hosted control is a type of hosted control that can show any page from a model-driven app. You can use this to connect your model-driven app pages with the Dynamics 365 Channel Integration Framework client and its features, which include session management, replacement parameters, and agent scripting. You can also use predefined user interface integration (UII) actions to work with the features of the model-driven app pages, such as navigating, searching, or creating records. This article shows you how to make a CRM Page hosted control and what it can do.
 
 This hosted control type exposes a number of predefined UII actions and events that are unique to the handling of windows, including list manipulation actions and a find action for displaying a quick search or advanced search page.  
 
 <a name="Create"></a>
+
 ## Create a CRM Page hosted control
 
 While you're creating a new hosted control, the fields on the **New Hosted Control** screen will vary based on the type of hosted control you want to create. This section provides information about the specific fields that are unique to the CRM Page hosted control type. More information: [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md)
@@ -43,6 +46,7 @@ On the **New Hosted Control** screen:
 For information about other **General** fields, go to [Create or edit a hosted control](../unified-service-desk/create-edit-hosted-control.md).
 
 <a name="actions"></a>
+
 ## Predefined UII actions
 
 The following are the predefined actions for this hosted control type.
@@ -50,7 +54,6 @@ The following are the predefined actions for this hosted control type.
 ### AssociatedView  
 
 This action loads a specific associated view of model-driven apps. These views are typically accessed by expanding the entity record name in the nav bar, and selecting the associated entities.  
-
 
 |  Parameter  |                                                 Description                                                  |
 |-------------|--------------------------------------------------------------------------------------------------------------|
@@ -61,11 +64,13 @@ This action loads a specific associated view of model-driven apps. These views a
 More information: Step 5 in [Walkthrough 7: Configure agent scripting in your agent application](../unified-service-desk/walkthrough-configure-agent-scripting-agent-application.md)
 
 <a name="Close"></a>
+
 ### Close
 
 This action is used to close the hosted control. Unlike the **CloseActive** action, if this tab (hosted control) is displaying more than one page, this action will close all the pages displayed in the tab in your agent application.
 
 <a name="CloseActive"></a>
+
 ### CloseActive
 
 This action is used to close the active window within this hosted control. If the active window is the only window displayed in the hosted control, the hosted control itself will be closed. For CRM Page type of hosted controls that don't allow multiple pages (**Allow Multiple Pages** = No), this action is equivalent to the **Close** action.
@@ -167,6 +172,7 @@ Displays the Microsoft Dataverse lookup information dialog box so you can select
 |objecttypes|List of object types to display. Example: **1,2** to display accounts and contacts.|  
 
 <a name="MoveToPanel"></a>
+
 ### MoveToPanel
 
 This action moves a CRM Page hosted control to a different panel at runtime.
@@ -175,9 +181,9 @@ This action moves a CRM Page hosted control to a different panel at runtime.
 |---------------|-----------------|
 |*See description*|The data parameter should specify the target panel name to move the hosted control to. For example: `FloatingPanel`.|
 
-### Navigate 
- This action is used to navigate to a model-driven app URL.  
+### Navigate
 
+ This action is used to navigate to a model-driven app URL.  
 
 |     Parameter     |                                                                                                                                                                                                                                       Description                                                                                                                                                                                                                                        |
 |-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -219,6 +225,7 @@ Opens an existing instance of the entity specified and identified by the ID, and
 |frame|The frame from which this pop-up window originated.|
 
 <a name="RealignWindow"></a>
+
 ### RealignWindow
 
 [!INCLUDE[cc_RealignWindow_Action](../includes/cc-realignwindow-action.md)]
@@ -239,7 +246,8 @@ This action injects JavaScript into the main frame of the application. You shoul
 |---------------|-----------------|
 |*See description*|The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they'll be replaced before the script is executed.|
 
-<a name="RunXrmCommand"></a>   
+<a name="RunXrmCommand"></a>
+
 ### RunXrmCommand  
 
 This action is used to inject Dataverse SDK JavaScript into the model-driven app form.  
@@ -249,6 +257,7 @@ This action is used to inject Dataverse SDK JavaScript into the model-driven app
 |*See description*|The data parameter is the JavaScript that will be injected into the form. **Note:**  The replacement parameters can be used in the script, and they'll be replaced before the script is executed.|
 
 <a name="SetSize"></a>
+
 ### SetSize
 
 This action explicitly sets the width and height of the hosted control. This is particularly useful when using "auto" in your panel layouts.
@@ -263,6 +272,7 @@ This action explicitly sets the width and height of the hosted control. This is 
 This action saves the "dirty" data on the model-driven app form and closes the hosted control.  
 
 <a name="SaveAll"></a>
+
 ### SaveAll
 
 This action saves all forms in a hosted control that allows multiple pages to be displayed (**Allow Multiple Pages** = Yes). If the hosted control allows only a single page to be displayed (**Allow Multiple Pages** = No), this is equivalent to the **Save** action.
@@ -280,6 +290,7 @@ This action collapses or expands the ribbon. If you hide the ribbon in the **Nav
 This action collapses or expands the navigation pane on the left side of the model-driven app window. The navigation must contain a navigation panel for this action to work.  
 
 <a name="events"></a>
+
 ## Predefined events
 
 The following predefined events are associated with this hosted control type.
@@ -298,7 +309,7 @@ Occurs when the page has finished loading. On a CRM Page type of hosted control,
 
 |Parameter|Description|
 |---------------|-----------------|
-|url|The URL of the page that has finished loading.| 
+|url|The URL of the page that has finished loading.|
 
 ### DataReady
 
@@ -342,12 +353,11 @@ Occurs after a record in the model-driven app page is saved.
 
 ### See also
 
- [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)   
- [UII actions](../unified-service-desk/uii-actions.md)   
- [Events](../unified-service-desk/events.md)   
- [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)   
- [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)   
+ [CRM Dialog (Hosted Control)](../unified-service-desk/crm-dialog-hosted-control.md)
+ [UII actions](../unified-service-desk/uii-actions.md)
+ [Events](../unified-service-desk/events.md)
+ [Walkthrough 3: Display records in your agent application](../unified-service-desk/walkthrough-3-display-microsoft-dynamics-365-records-in-your-agent-application.md)
+ [Hosted control types and action/event reference](../unified-service-desk/hosted-control-types-action-event-reference.md)
  [Administration Guide for Unified Service Desk](/previous-versions/dynamicsusd-2/administrators-guide/dn499779(v=usd.2))
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

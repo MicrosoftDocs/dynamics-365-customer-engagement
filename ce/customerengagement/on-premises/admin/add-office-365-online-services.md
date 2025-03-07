@@ -2,7 +2,6 @@
 title: "Add Office 365 Online services to Dynamics 365 Customer Engagement apps"
 description: "Enhance customer relationship management with the power of cloud services by integrating Office 365 with Dynamics 365 for Customer Engagement apps."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: e558ce45-c20b-4002-bc28-cd8383d54a1d
 caps.latest.revision: 8
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

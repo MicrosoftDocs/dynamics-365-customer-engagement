@@ -1,23 +1,17 @@
 ---
 title: "Clone products (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Quickly create a copy of an existing product in Dynamics 365 Sales including all its details by cloning it."
-ms.date: 02/10/2021
+ms.date: 11/19/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 ---
 # Clone products (Sales Hub) 
 
 Quickly create a copy of an existing product in Dynamics 365 Sales including all its details by cloning it.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Clone a product
 
@@ -32,18 +26,17 @@ When you're creating a new product, family or bundle, save time by cloning an ex
  
     -  If you're using the Sales Hub app, 
         1. Select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") at the lower-left corner of the site map, and then select **App Settings**. 
-        1. In the **Product Catalog** area, select **Families and Products**. 
+        1. In the **Product Catalog** area, select **Families and products**. 
    - If you're using the Sales Professional app,
        - Select **Products** from the site map.  
   
-3. Select a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
+3. Select or open a product family, product, or bundle record that you want to clone, and on the command bar, select **Clone**. 
 
-    > [!div class="mx-imgBorder"]
-    > ![List of products with Clone button.](media/clone-product.png "List of products with Clone button")
+    :::image type="List of products with Clone button" source="media/clone-product.png" alt-text="List of products with Clone button":::
 
     A confirmation dialog box appears.
     
-    ![Confirm cloning of product.](media/confirm-clone-product.png "Confirm cloning of product")
+    :::image type="Confirm cloning of product" source="media/confirm-clone-product.png" alt-text="Confirm cloning of product":::
 
 4. Select **Confirm**.
     
@@ -53,7 +46,7 @@ When you're creating a new product, family or bundle, save time by cloning an ex
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See Also  
+## Related information  
  [Create a product](create-product-sales.md)   
  
 

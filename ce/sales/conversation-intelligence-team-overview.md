@@ -6,18 +6,11 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Analyze behavior of your team on customer calls 
 
 Sales calls are one of the most important part of your business as these calls help you to change the shape of your business by improving sales and generating revenue. The **Team overview** page in conversation intelligence helps sales managers analyze the overall behavior of their team during customer calls. This insight helps in identifying coaching scenarios for the team to increase sales wins and productivity gains for the business.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Analyze your team's behavior
 
@@ -45,7 +38,7 @@ Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/), 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Overview of conversation intelligence](dynamics365-sales-insights-app.md)  
 [First-run set up experience](fre-setup-sales-insight-app.md)  

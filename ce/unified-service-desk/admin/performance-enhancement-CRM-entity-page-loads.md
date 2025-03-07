@@ -1,47 +1,42 @@
 ---
-title: "Performance enhancement in loading model-driven app pages | MicrosoftDocs"
-description: "Learn about the various pooling features available to enhance the performance of loading model-driven app pages in Unified Service Desk."
-ms.date: 06/21/2021
+
+title: Pooling speeds up model-driven app pages in Unified Service Desk
+description: Use pooling in Unified Service Desk to improve the performance of model-driven app page loading in Edge WebView2, Chrome, or IE processes.
+ms.date: 03/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
-search.audienceType: 
-  - admin
-ms.custom: 
+ms.reviewer: mgandham
+ms.custom:
   - dyn365-USD
   - dyn365-admin
+ai.usage: ai-assisted
+
 ---
 
-# Performance enhancement for loading model-driven app pages
-
-
-
+# Load app pages faster with pooling in Unified Service Desk
 
 ::: moniker range="=dynamics-usd-4.2"
 
-You can experience enhanced performance of entity page loading in [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] with the pooling feature.
+To make your [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] more responsive and efficient, use the pooling feature. Pooling allows you to reuse processes for loading app pages in model-driven apps instead of creating new ones every time. Reuse of existing processes improves app performance and reduces the memory consumption and startup time of your pages. The pooling feature is available for the following processes:
 
-The pooling feature is available for the following processes:
+- Microsoft Edge WebView2 process
+- Google Chrome process
+- IE process
 
-- Edge WebView2 Process
+## Pool process instances for Edge WebView2 process
 
-- Chrome Process
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 process instance enhances the performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-- IE Process
+By default, the Edge WebView2 process instance pooling is enabled.
 
-## Pool process instances for Edge WebView2 Process
+With Edge WebView2 process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Edge WebView2 Process instances for hosted controls to use. Opening a hosted control using a pooled Edge WebView2 Process instance enhances the performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
-
-By default, the Edge WebView2 Process instance pooling is enabled.
-
-With Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
-
-### Enable pooling for Edge WebView2 Process
+### Enable pooling for Edge WebView2 process
 
 By default, Edge Webview2 Process pooling is enabled. To disable pooling, the System Administrator must configure the **EdgeWebView2Pooling** option on the **Active UII Options** page and set it to **False**.
 
-**To disable Edge WebView2 Process pooling**
+**To disable Edge WebView2 process pooling**
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -61,7 +56,7 @@ By default, Edge Webview2 Process pooling is enabled. To disable pooling, the Sy
 
 9. Select **Save**.
 
-### Skip inline entity navigation in Edge WebView2 Process pooling
+### Skip inline entity navigation in Edge WebView2 process pooling
 
 If you want to skip the inline navigation for certain entities such as incident, account, and contact, then add the **BlockEdgeWebView2PoolingForEntities** UII option and enter the entity names as comma-separated values, as described in the following section.
 
@@ -87,19 +82,19 @@ To skip inline navigation for certain entities, you must configure the option on
 
 9. Select **Save**.
 
-### Hide command bar in Edge WebView2 Process
+### Hide command bar in Edge WebView2 process
 
-In Edge WebView2 Process, the command bar is always shown on the pooled Edge WebView2 process instances. If you want to hide the command bar on the Dynamics 365 pages that are loaded in the Edge WebView2 Process instances, then you can add the **HideCommandBarEdgeWebView2** UII option.
+In Edge WebView2 process, the command bar is always shown on the pooled Edge WebView2 process instances. If you want to hide the command bar on the Dynamics 365 pages that are loaded in the Edge WebView2 process instances, then you can add the **HideCommandBarEdgeWebView2** UII option.
 
-### Show nav bar in Edge WebView2 Process
+### Show nav bar in Edge WebView2 process
 
-In Edge WebView2 Process, the nav bar is always hidden on the pooled Edge WebView2 Process instances. If you want to show the nav bar on the Dynamics 365 pages that are loaded in the Edge WebView2 Process instances, then you can add the **ShowNavBarEdgeWebView2** UII option.
+In Edge WebView2 process, the nav bar is always hidden on the pooled Edge WebView2 process instances. If you want to show the nav bar on the Dynamics 365 pages that are loaded in the Edge WebView2 process instances, then you can add the **ShowNavBarEdgeWebView2** UII option.
 
-### Block second navigation in Edge WebView2 Process pooling
+### Block second navigation in Edge WebView2 process pooling
 
 When an application (hosted control) is initialized and you do an inline navigation to another entity page using the same application (hosted control), then the second navigation also happens inline. If you have a specific window navigation rule between the same entity type with the **Route Window** action and **In Place** type, then the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
-For example, with Edge WebView2 Process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
+For example, with Edge WebView2 process pooling, if you've set window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, then window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
 To prevent Unified Service Desk from crashing, you can do one of the following:
 
@@ -110,13 +105,13 @@ To prevent Unified Service Desk from crashing, you can do one of the following:
 
 #### Remove or change the window navigation rule
 
-**Window navigation rule for same entity navigation**: You can remove or delete the window navigation rule because with Edge WebView2 Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+**Window navigation rule for same entity navigation**: You can remove or delete the window navigation rule because with Edge WebView2 process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
 **Window navigation rule for different entity navigation**: You can change the window navigation rule to be more specific about which entity you want the navigation to originate from. For example, you can set the window navigation rule from a Contact or a Case entity to the Account entity type, by using the **Route Window** action and **In Place** type.
 
 #### Add the BlockEdgeWebView2ProcessSecondInlineNavigation UII option
 
-By default, second inline navigation is blocked when using Edge WebView2 Process&mdash;that is, the option is enabled by default. However, if you want to allow the second inline navigation&mdash;in other words, disable the option&mdash;create the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option and set the value as **False**.
+By default, second inline navigation is blocked when using Edge WebView2 process&mdash;that is, the option is enabled by default. However, if you want to allow the second inline navigation&mdash;in other words, disable the option&mdash;create the **BlockEdgeWebView2ProcessSecondInlineNavigation** UII option and set the value as **False**.
 
 After adding the UII option, if you set the value as **True**, then the option is enabled and will block the second inline navigation.
 
@@ -146,9 +141,9 @@ You can experience enhanced performance of entity page loading in [!INCLUDE[pn_u
 
 The pooling feature is available for the following processes:
 
-- IE Process
+- IE process
 
-- Chrome Process
+- Chrome process
 
 ::: moniker-end
 
@@ -160,19 +155,19 @@ You can experience enhanced performance of entity page loading in [!INCLUDE[pn_u
 
 ::: moniker range=">=dynamics-usd-4.1"
 
-## Pool process instances for Chrome Process
+## Pool process instances for Chrome process
 
-[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Chrome Process instances for hosted controls to use. Opening a hosted control using a pooled Chrome Process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
+[!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Chrome process instances for hosted controls to use. Opening a hosted control using a pooled Chrome process instance enhances the performance of the [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-By default, the Chrome Process instance pooling is enabled.
+By default, the Chrome process instance pooling is enabled.
 
-With the Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+With the Chrome process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
-### Enable pooling for Chrome Process
+### Enable pooling for Chrome process
 
-By default, Chrome Process pooling is enabled. To disable pooling, you must configure the **ChromeProcessPooling** option on the **Active UII Options** page and set it to **False**.
+By default, Chrome process pooling is enabled. To disable pooling, you must configure the **ChromeProcessPooling** option on the **Active UII Options** page and set it to **False**.
 
-**To disable Chrome Process pooling**
+**To disable Chrome process pooling**
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -192,7 +187,7 @@ By default, Chrome Process pooling is enabled. To disable pooling, you must conf
 
 9. Select **Save**.
 
-### Skip inline entity navigation in Chrome Process pooling
+### Skip inline entity navigation in Chrome process pooling
 
 If you want to skip the inline navigation for certain entities such as incident, account, and contact, add the **BlockChromeProcessPooling** UII option and enter the entity names as comma-separated values&mdash;for example, **incident,account,contact**&mdash;as described in the following section.
 
@@ -218,13 +213,13 @@ To skip inline navigation for certain entities, you must configure the option on
 
 9. Select **Save**.
 
-### Hide command bar in Chrome Process
+### Hide command bar in Chrome process
 
-In Chrome Process, the command bar is always shown on pooled Chrome Process instances. You can hide the command bar for a specific entity or for all entities in the Chrome Process pooled instances.
+In Chrome process, the command bar is always shown on pooled Chrome process instances. You can hide the command bar for a specific entity or for all entities in the Chrome process pooled instances.
 
 **To hide command bar for a specific entity**
 
-[Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option), as described earlier in this topic.
+[Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option), as described earlier in this article.
 
 **To hide command bar for all entities**
 
@@ -246,17 +241,17 @@ In Chrome Process, the command bar is always shown on pooled Chrome Process inst
 
 9. Select **Save**.
 
-### Show nav bar in Chrome Process
+### Show nav bar in Chrome process
 
-In Chrome Process, the nav bar is always hidden on the pooled Chrome Process instances. You can show the nav bar for a specific entity or for all entities in the Chrome Process pooled instances.
+In Chrome process, the nav bar is always hidden on the pooled Chrome process instances. You can show the nav bar for a specific entity or for all entities in the Chrome process pooled instances.
 
 **To show nav bar for a specific entity**
 
-[Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option), as described earlier in this topic.
+[Add the BlockChromeProcessPooling UII option](#add-the-blockchromeprocesspooling-uii-option), as described earlier in this article.
 
 **To show nav bar for all entities**
 
-Use the **ShowNavBar** UII option if you want to show the nav bar for all the entities in the Chrome Process pooled instances.
+Use the **ShowNavBar** UII option if you want to show the nav bar for all the entities in the Chrome process pooled instances.
 
 1. Sign in to the Dynamics 365 instance.
 
@@ -276,11 +271,11 @@ Use the **ShowNavBar** UII option if you want to show the nav bar for all the en
 
 9. Select **Save**.
 
-### Block second navigation in Chrome Process pooling
+### Block second navigation in Chrome process pooling
 
 When an application (hosted control) is initialized and you perform an inline navigation to another entity page by using the same application (hosted control), then the second navigation also occurs inline. If you have a specific window navigation rule between two instances of the same entity type (such as a **Route Window** action and an **In Place** type), then the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
-For example, with Chrome Process pooling, if you've set a window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
+For example, with Chrome process pooling, if you've set a window navigation rule to navigate from an account tab to another account tab, with the **Route Window** action and **In Place** type, the window navigation rule loops in a recursive manner, causing Unified Service Desk to crash.
 
 To avoid the crash of Unified Service Desk, you can do one of the following:
 
@@ -289,7 +284,7 @@ To avoid the crash of Unified Service Desk, you can do one of the following:
 
 **To remove or change the window navigation rule**
 
-**Window navigation rule for same entity navigation**: You can remove or delete the window navigation rule itself because with Chrome Process instance pooling, every entity page navigation happens inline after the first entity page navigation.
+**Window navigation rule for same entity navigation**: You can remove or delete the window navigation rule itself because with Chrome process instance pooling, every entity page navigation happens inline after the first entity page navigation.
 
 **Window navigation rule for different entity navigation**: You can change the window navigation rule to be more specific about which entity you want the navigation to originate from. For example, you can set the window navigation rule from a Contact or a Case entity to the Account entity type, by using the **Route Window** action and **In Place** type.
 
@@ -297,7 +292,7 @@ To avoid the crash of Unified Service Desk, you can do one of the following:
 
 #### Add the BlockChromeProcessSecondInlineNavigation UII option
 
-By default, second inline navigation is blocked when using Chrome Process&mdash;that is, the option is enabled by default. However, if you want to allow the second inline navigation&mdash;in other words, disable the option&mdash;create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**.
+By default, second inline navigation is blocked when using Chrome process&mdash;that is, the option is enabled by default. However, if you want to allow the second inline navigation&mdash;in other words, disable the option&mdash;create the **BlockChromeProcessSecondInlineNavigation** UII option and set the value as **False**.
 
 After adding the UII option, if you set the value as **True**, the option is enabled and blocks the second inline navigation.
 
@@ -321,18 +316,18 @@ After adding the UII option, if you set the value as **True**, the option is ena
 
 ::: moniker-end
 
-## Pool process instances for IE Process
+## Pool process instances for IE process
 
-> [!Note]
+> [!NOTE]
 >
-> Because support for Internet Explorer 11 is deprecated, support for IE Process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/implement/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
+> Because support for Internet Explorer 11 is deprecated, support for IE process has also been discontinued in Unified Service Desk. More information: [Deprecation announcement](../../customer-service/implement/deprecations-customer-service.md#internet-explorer-11-support-for-dynamics-365-and-microsoft-power-platform-is-deprecated)
 [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] always maintains a pool of Internet Explorer instances for hosted controls to use. Opening a hosted control by using a pooled Internet Explorer instance enhances the performance of [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)].
 
-> [!Note]
+> [!NOTE]
 > - The Internet Explorer pooling feature supports only CRM entity pages hosted in the CRM Page hosted control.
 > - When you enable the pooling feature and open a CRM Page hosted control, you can see in Task Manager that [!INCLUDE[pn_unified_service_desk](../../includes/pn-unified-service-desk.md)] creates a number of Internet Explorer Process instances for hosted controls to use. 
 > - The performance of the Internet Explorer pooling feature is dependent on the resources available on the client computer.
-### Enable pooling for IE Process
+### Enable pooling for IE process
 
 By default, Internet Explorer pooling is disabled. To enable pooling, you must configure the option on the **Active UII Options** page and set it to **True**.
 
@@ -356,11 +351,8 @@ By default, Internet Explorer pooling is disabled. To enable pooling, you must c
 
    ![Enable InternetExplorerPooling option.](../../unified-service-desk/unified-interface/media/crm-itpro-usd-options-internetexplorerpooling.PNG "Enable InternetExplorerPooling option")
 
-
-
 ### See also
 
-[Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
-
+- [Manage Options for Unified Service Desk](../../unified-service-desk/admin/manage-options-unified-service-desk.md)
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

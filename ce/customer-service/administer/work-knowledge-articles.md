@@ -1,9 +1,11 @@
 ---
-title: Work with knowledge articles | MicrosoftDocs
-description: "This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service"
-ms.date: 03/05/2021
+title: Work with knowledge articles
+description: This topic provides information about working with the new native knowledge management capabilities in Dynamics 365 Customer Service.
+ms.date: 07/01/2024
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
+ms.topic: article
 search.audienceType: 
   - developer
 searchScope: 
@@ -17,7 +19,9 @@ searchScope:
 
 # Work with knowledge articles
 
-The new knowledge experience in Dynamics 365 Customer Service enable you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+The new knowledge experience enables you to create rich knowledge articles along with versioning and translation support. The new knowledge experience uses the `KnowledgeArticle` entity to store and manage knowledge natively in Dynamics 365 Customer Service.  
     
 > [!NOTE]
 > The entities `KBArticle`, `KBArticleTemplate` and `KBArticleComment` are now deprecated. This means that we do not expect you to use these entities anymore. You must use the newer `KnowledgeArticle` entity for knowledge management in Dynamics 365 Customer Service. For more information, see the section **Deprecated knowledge entities** at the end of this topic. 
@@ -71,7 +75,7 @@ CreateKnowledgeArticleVersionResponse versionResponse = (CreateKnowledgeArticleV
 
 Use <xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation?text=CreateKnowledgeArticleTranslation Action" /> (Web API) or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest> (organization service) to create a translation for a knowledge article record. You can translate your knowledge article in more than 150 languages, and information about these supported languages is available in the new `LanguageLocale` entity.
  
-More information: [LanguageLocale Entity](../../customerengagement/on-premises/developer/entities/languagelocale.md).
+More information: [LanguageLocale table](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 Using <xref href="Microsoft.Dynamics.CRM.CreateKnowledgeArticleTranslation?text=CreateKnowledgeArticleTranslation Action" /> (Web API) or <xref:Microsoft.Crm.Sdk.Messages.CreateKnowledgeArticleTranslationRequest> (organization service) creates a new knowledge article record with the title, content, description and keywords copied from the source record to the new record, and the language of the new record set to the one you specified in the request. You also need to specify whether the new record will be a major or minor version. The new record uses the `KnowledgeArticle`.`ParentArticleContentId` attribute to maintain the association with the primary knowledge article record.  
   
@@ -162,7 +166,7 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
   
 <a name="IncrementViewCount"></a>   
 ## Increment knowledge article view count  
- Use the <xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest> message to increment the view count of a knowledge article record for a given day in the `KnowledgeArticleViews` entity. If a record doesn’t exist for a knowledge article for a specified day, it will create a record and then set the specified view count value in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute. If a record already exists for a knowledge article for the specified day, it will just increment the view count in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute of the existing record.  
+ Use the <xref:Microsoft.Crm.Sdk.Messages.IncrementKnowledgeArticleViewCountRequest> message to increment the view count of a knowledge article record for a given day in the `KnowledgeArticleViews` entity. If a record doesn't exist for a knowledge article for a specified day, it will create a record and then set the specified view count value in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute. If a record already exists for a knowledge article for the specified day, it will just increment the view count in the `KnowledgeArticleViews`.`KnowledgeArticleView` attribute of the existing record.  
   
 <a name="Search"></a>   
 ## Search knowledge articles using full-text search  
@@ -174,9 +178,9 @@ _serviceProxy.Associate(Account.EntityLogicalName, accountId, newRelationship, r
 
 The following legacy entities have been deprecated. More information: [Deprecated knowledge entities](../implement/deprecations-customer-service.md#deprecatedkmentities)
 
-- [KbArticle](../../customerengagement/on-premises/developer/entities/kbarticle.md) 
-- [KbArticleComment](../../customerengagement/on-premises/developer/entities/kbarticlecomment.md) 
-- [KbArticleTemplate](../../customerengagement/on-premises/developer/entities/kbarticletemplate.md)  
+- [KbArticle](/power-apps/developer/data-platform/reference/entities/kbarticle) 
+- [KbArticleComment](/power-apps/developer/data-platform/reference/entities/kbarticlecomment) 
+- [KbArticleTemplate](/power-apps/developer/data-platform/reference/entities/kbarticletemplate)  
 
 Legacy knowledge entities are not accessible as of December 1, 2020. We strongly recommend that you move to the KnowledgeArticle entity.  For more information about creating a knowledge article in Unified Interface, see [Create and manage knowledge articles](../use/customer-service-hub-user-guide-knowledge-article.md).  
 
@@ -190,14 +194,14 @@ Use the following for help with migration:
 > - Always run a test environment before using in production.  
 > - Check the license and readme before you use the tool.   
 
-## See also
+## Related information
 
 - [Knowledge Base Entities](../../customerengagement/on-premises/developer/knowledge-management-entities.md)
-- [KnowledgeArticle Entity](../../customerengagement/on-premises/developer/entities/knowledgearticle.md)
+- [KnowledgeArticle Entity](/power-apps/developer/data-platform/reference/entities/knowledgearticle)
 - [Configure AI suggestions for article keywords and description](configure-ai-suggested-article-keywords-description.md)
-- [KnowledgeArticleViews Entity](../../customerengagement/on-premises/developer/entities/knowledgearticleviews.md)
-- [KnowledgeBaseRecord Entity](../../customerengagement/on-premises/developer/entities/knowledgebaserecord.md)
-- [LanguageLocale Entity](../../customerengagement/on-premises/developer/entities/languagelocale.md)
+- [KnowledgeArticleViews Entity](/power-apps/developer/data-platform/reference/entities/knowledgearticleviews)
+- [KnowledgeBaseRecord Entity](/power-apps/developer/data-platform/reference/entities/knowledgebaserecord)
+- [LanguageLocale Entity](/power-apps/developer/data-platform/reference/entities/languagelocale)
 - [Important changes coming in future releases of Microsoft Dynamics 365](/previous-versions/dynamicscrm-2016/developers-guide/dn281891(v=crm.8)#bkmk_CrmKMEntities) 
 
 

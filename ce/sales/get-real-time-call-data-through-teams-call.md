@@ -5,6 +5,7 @@ ms.date: 09/07/2023
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom:
   - dyn365-sales
   - bap-template
@@ -16,14 +17,6 @@ ms.custom:
 # Get real-time call data through Teams calls
 
 Conversation intelligence with Teams calls gives you real-time call data analysis that includes overview, summary, transcription, insights, and action items. To use this feature, an administrator must configure Microsoft Teams in your organization. More information: [First-run setup experience for conversation intelligence in sales app](fre-setup-ci-sales-app.md) 
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## View real-time analysis of call data
   
@@ -47,7 +40,7 @@ After the call is ended, select **Full summary** to view the summary of the call
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Configure Microsoft Teams dialer](configure-microsoft-teams-dialer.md)   
 [Call using Microsoft Teams](call-using-microsoft-teams.md)   

@@ -3,16 +3,16 @@ title: Pricing scenarios for voice calling
 description: Use this article to understand how pricing works in the voice channel.
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ms.topic: conceptual
-ms.date: 06/27/2023 
+ms.date: 07/01/2024 
 ms.custom: bap-template 
 ---
 
 # Pricing scenarios for voice calling
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
@@ -22,12 +22,12 @@ The Dynamics 365 Customer Service voice channel is built on Azure Communication 
 
 [Several call flows are possible](https://go.microsoft.com/fwlink/p/?LinkId=866544). This article describes pricing calculations for the following call scenarios:
 
-- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a human agent](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-human-agent-from-an-ivr-bot)
+- [Inbound: A customer calls from a mobile device; an IVR bot escalates the call to a customer service representative](#inbound-customer-calls-from-a-mobile-call-is-escalated-to-a-representative-from-an-ivr-agent)
 - [Inbound: A customer calls from Microsoft Teams](#inbound-a-customer-calls-from-microsoft-teams)
 - [Inbound: A customer calls from Teams; a supervisor joins the call to monitor the conversation](#inbound-a-customer-calls-from-teams-a-supervisor-joins-the-call-to-monitor-the-conversation)
 - [Inbound: A customer calls from a mobile device; the supervisor is invited to consult](#inbound-a-customer-calls-from-a-mobile-device-the-supervisor-is-invited-to-consult)
-- [Inbound: A customer calls from Teams; the call is transferred to an agent through Teams PSTN](#inbound-a-customer-calls-from-teams-the-call-is-transferred-to-an-agent-through-teams-pstn)
-- [Outbound: An agent calls a customer](#outbound-an-agent-calls-a-customer)
+- [Inbound: A customer calls from Teams; the call is transferred to a service representative through Teams PSTN](#inbound-a-customer-calls-from-teams-the-call-is-transferred-to-a-service-representative-through-teams-pstn)
+- [Outbound: A service representative calls a customer](#outbound-a-service-representative-calls-a-customer)
 - [Inbound: Azure direct routing](#inbound-azure-direct-routing)
 - [Outbound: Azure direct routing](#outbound-azure-direct-routing)
 
@@ -44,9 +44,9 @@ The following table summarizes the pricing for each scenario. The prices in the 
 |ROW Consumption Unit – Outbound –> PSTN outbound rate | $0.013 per minute|
 |Single Channel Mixed Audio Recording –> Recording rate| $0.004 per minute   |
  
-## Inbound: Customer calls from a mobile, call is escalated to a human agent from an IVR bot
+## Inbound: Customer calls from a mobile, call is escalated to a representative from an IVR agent
 
-Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Copilot Studio interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a human agent, Matias. This call lasts eight minutes.
+Mae calls your Azure Communication Services US toll-free number from a mobile device. The call is routed to a Copilot Studio interactive voice response (IVR) bot. Mae interacts with the bot for two minutes. The bot escalates the call to a service representative, Matias. This call lasts eight minutes.
 
 :::image type="content" source="../media/Customer-call-escalated-human-agent-IVR.png" alt-text="Inbound call from customer through Teams":::
 
@@ -107,11 +107,11 @@ Cost calculation:
 
 **Total cost for the call**: $0.44 + $0.08 + $0.04 + $0.04 = $0.60
 
-## Inbound: A customer calls from Teams; the call is transferred to an agent through Teams PSTN
+## Inbound: A customer calls from Teams; the call is transferred to a service representative through Teams PSTN
 
 Mae calls your Azure Communication Services US toll-free number from Microsoft Teams. The call is routed to Matias, who starts recording it. Matias talks to Mae for five minutes and then transfers the call to a product expert, Cole, on Cole's Teams PSTN number. Cole speaks to Mae for another five minutes and ends the call. The recording stops when the call ends.
 
-:::image type="content" source="../media/customer-calls-through-pstn.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams, routed to another agent through Teams.":::
+:::image type="content" source="../media/customer-calls-through-pstn.png" alt-text="Diagram illustrating an inbound customer call from Microsoft Teams, routed to another service representative through Teams.":::
 
 Cost calculation:
 
@@ -125,11 +125,11 @@ Cost calculation:
 
 **Total cost for the call**: $0.22 + $0.02 + $0.065 + $0.02 + applicable Teams charges = $0.325 + applicable Teams charges
 
-## Outbound: An agent calls a customer
+## Outbound: A service representative calls a customer
 
-Matias, the contact center agent, makes an outbound call from Omnichannel for Customer Service to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
+Matias, the contact center service representative, makes an outbound call from Omnichannel for Customer Service to Mae, the customer. Matias talks to Mae for two minutes, then puts the call on hold to consult with supervisor Gaby. Matias talks to Gaby for five minutes, ends the consultation, and resumes the call with Mae. The call lasts another three minutes.
 
-:::image type="content" source="../media/agent-calls-customer.png" alt-text="Diagram illustrating an outbound agent call to a customer.":::
+:::image type="content" source="../media/agent-calls-customer.png" alt-text="Diagram illustrating an outbound service representative call to a customer.":::
 
 Cost calculation:
 

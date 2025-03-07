@@ -1,12 +1,12 @@
 ---
-title: Customer Service admin center (contains video)
+title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
-ms.date: 10/24/2023
+ms.date: 12/13/2024
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -16,17 +16,13 @@ Welcome to Customer Service admin center, the app that unifies and simplifies ad
 
 Use the Customer Service admin center app to set up the features in Customer Service, such as unified routing, cases, queues, knowledge articles, channels, rules for automatic record creation, agent experience profiles, and customer service schedules.
 
-The enhancements include:  
-
-- Consolidated administration experiences that're currently distributed in the Customer Service Hub and Omnichannel admin center (deprecated) app.
-
-    [!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+The features include:  
 
 - Step-by-step guided experience for setting up a channel.
 
 - Search option to easily find the administrator settings for the various features in the app.
 
-- Reorganized and task-oriented site map.
+- Task-oriented site map.
 
 - Overview pages for each area that list at-a-glance information with deep links to manage features.
 
@@ -34,11 +30,11 @@ The enhancements include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=1a9dd7f8-3c00-46c9-bda3-b567b5651f71]
 
 ## Prerequisites
 
-You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
+One or more of the following security roles to access this app to perform the various configuration tasks:
 
 - **System Administrator**: To access and edit all the site map entries.
 
@@ -127,7 +123,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 See the [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
-### See also
+### Related information
 
 [Help resources for Customer Service](../help-hub.md)  
 [Sign up for a free Dynamics 365 Customer Service trial](try-customer-service.md)  

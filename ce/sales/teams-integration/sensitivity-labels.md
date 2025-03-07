@@ -1,10 +1,11 @@
 ---
 title: "Protect content with sensitivity labels in Microsoft Teams | MicrosoftDocs"
 description: "Users can collaborate with others both inside and outside your organization. Learn how to use sensitivity labels to protect your content in Microsoft Teams."
-ms.date: 08/26/2022
+ms.date: 08/16/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 search.audienceType: 
   - enduser
 applies_to: 
@@ -15,21 +16,13 @@ applies_to:
 
 Use sensitivity labels to protect your content in Microsoft Teams so that your users can collaborate securely with others both inside and outside your organization.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
-| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
-
 ## About sensitivity labels
 
 Users in your organization collaborate with others both inside and outside the organization. This means that content no longer stays behind a firewall. It can roam everywhere—across devices, apps, and services. And when it roams, you want it to do so in a secure, protected way that meets your organization's business and compliance policies. For more information, see [Get started with sensitivity labels](/microsoft-365/compliance/get-started-with-sensitivity-labels).
 
 Microsoft Teams integration with Dynamics 365 customer engagement apps (such as Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation) allows you to create teams with sensitivity labels and make the teams private so that only the owner of each team can add other members.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot showing the sensitivity labels drop-down while creating a team](media/teams-enter-team-name-5.png)
+:::image type="content" source="media/teams-enter-team-name-5.png" alt-text="Screenshot of the sensitivity labels drop-down while creating a team.":::
 
 ## Prerequisites
 
@@ -43,15 +36,15 @@ The following prerequisites are required before you can turn on sensitivity labe
 Sensitivity labels are only available when the Enhanced Collaboration Experience is turned on. For more information, see [Enable linking of Dynamics 365 records to Teams channels](enable-record-linking.md).
 
 > [!NOTE]
-  > If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.
+> If you are still using the group classification labels instead of sensitivity labels, turning on this option will let you use the classification labels in Teams.
 
 **To turn on sensitivity labels:**
 
 1. In the Sales Hub app, select the **Change area** icon
     ![Icon to change the work area](media/change-area-icon.png "Icon to change the work area")
     in the lower-left corner and then select **App Settings**.
-   > [!div class="mx-imgBorder"]
-   > ![Screenshot depicting the App settings option in change area](media/app-settings-menu.png)
+
+    :::image type="content" source="media/app-settings-menu.png" alt-text="Screenshot of the App settings option in change area.":::
 
     > [!Note]
     > 
@@ -69,7 +62,7 @@ Sensitivity labels are only available when the Enhanced Collaboration Experience
 
 3. Turn on the **Turn on Confidential Labels** toggle.
 
-    ![Screenshot highlighting the Enable Confidential Labels option](media/enable-sensitivity-labels.png)  
+    :::image type="content" source="media/enable-sensitivity-labels.png" alt-text="Screenshot of the Enable Confidential Labels option highlighted."::: 
 
 4. Select **Save**. 
     

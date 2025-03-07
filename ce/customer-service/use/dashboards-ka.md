@@ -3,13 +3,16 @@ title: Knowledge article analytics
 description: Monitor and analyze the status of knowledge articles using the dashboards. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 07/18/2023
+ms.date: 07/01/2024
 ms.custom: bap-template
 ---
 
 # Knowledge article analytics
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 Tracking knowledge article analytics helps you assess the value your articles provide to your customers. Knowing and understanding when, where, and how many times an article was viewed, tells you how much your customers rely on the information that it contains. This data is extremely useful when creating future content curation plans and can help you decide what content you will deliver in the future, as well as how you deliver it, where you deploy it, and what style or structure you use to write it.  
   
@@ -78,10 +81,10 @@ This dashboard is designed specifically for knowledge managers. As a knowledge m
 
 If you're creating an alternate key for a Knowledge article entity, include the major or minor version in the key to maintain uniqueness. Also, if you're using translations, include the language code along with the version in the key to ensure a seamless translation experience. For more information about alternate keys, go to [Define alternate keys for an entity](../../customerengagement/on-premises/developer/define-alternate-keys-entity.md).
 
-## Knowledge article analytics in Customer Service workspace
+## Knowledge article analytics in Customer Service workspace or Contact Center workspace
 
 The **Knowledge analytics** dashboard consists of the **Article insights** and **Search term insights** dashboards and is meant for knowledge authors and supervisors. Supervisors can use these insights to improve their knowledge management base.
 
 ## Next steps
 
-For more information on knowledge management analytics in Customer Service workspace, go to [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).
+For more information on knowledge management analytics in the application, go to [Introduction to knowledge analytics](knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics).

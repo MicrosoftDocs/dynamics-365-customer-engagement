@@ -2,8 +2,6 @@
 title: "Create extensions for the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: You can extend the functionality of the CrmSvcUtil.exe code generation tool by specifying additional command-line parameters and parameter values for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
-ms.date: 09/25/2023
-ms.custom: on-premise
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
@@ -103,7 +101,7 @@ public sealed class BasicFilteringService : ICodeWriterFilterService
 
 ```
 
-Download the sample: [CrmSvcUtilExtensions](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BasicFilteringService) and  [GeneratePickListEnums](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/GeneratePicklistEnums). 
+Download the sample: [CrmSvcUtilExtensions](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/BasicFilteringService) and  [GeneratePickListEnums](https://github.com/microsoft/Dynamics365-Apps-Samples/tree/master/samples-from-msdn/GeneratePicklistEnums).
 
 The **GeneratePicklistEnums** sample extension outputs a source code file that contains enumerations for all option sets, state codes, and status codes.
 

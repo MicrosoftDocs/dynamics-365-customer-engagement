@@ -1,19 +1,21 @@
 ---
 title: Optimization summary report
 description: This article provides information about the optimization summary report and the charts it contains.
-author: FeifeiQiu
-ms.author: feiqiu
+author: AnilMur
+ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.subservice: resource-scheduling-optimization
 ms.topic: conceptual 
-ms.date: 02/09/2023
+ms.date: 08/30/2024
 ms.custom: bap-template 
 ---
 
 # Optimization summary report
 
 The optimization summary report in the Resource Scheduling Optimization Add-in analyzes automatically scheduled bookings and the effect they had on the business.
+
+[!INCLUDE[fs-report-workarounds](../includes/fs-report-workarounds.md)]
 
 ## Before you start
 
@@ -31,41 +33,23 @@ To access the admin report, open **Resource Scheduling Optimization** and go to 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of a Resource Scheduling Optimization summary report.](./media/scheduling-analytics-rso-summary.png "Screenshot of a Resource Scheduling Optimization summary report.")
 
-### Booking scheduled
+- **Booking scheduled**: Total number of bookings scheduled.
 
-Total number of bookings scheduled.
+- **Resources allocated**: Number of resources allocated.
 
-### Resources allocated
+- **Work time allocated (hrs.)**: The total work time of all allocated resources.
 
-Number of resources allocated.
+- **Travel time allocated (hrs.)**: Sum of the travel time of all allocated resources.
 
-### Work time allocated (hrs.)
+- **Total times allocation (hrs.)**: Distribution of work time and travel time in the scheduled bookings.
 
-The total work time of all allocated resources.
+- **Resource time allocation**: List of each resource's scheduled bookings, locked bookings, work time, and travel time. Overbooked resources are highlighted.
 
-### Travel time allocated (hrs.)
+- **Least allocated resources**: Ranks the resources by lowest usage to help dispatchers assign jobs on short notice.
 
-Sum of the travel time of all allocated resources.
+- **Territory summary**: Shows optimized territories on a map with the ability to drill down.
 
-### Total times allocation (hrs.)
-
-Distribution of work time and travel time in the scheduled bookings.
-
-### Resource time allocation
-
-List of each resource's scheduled bookings, locked bookings, work time, and travel time. Overbooked resources are highlighted.
-
-### Least allocated resources
-
-Ranks the resources by lowest usage to help dispatchers assign jobs on short notice.
-
-### Territory summary
-
-Shows optimized territories on a map with the ability to drill down.
-
-### Booking metrics by territory
-
-List of scheduled bookings, work time allocated, and travel time allocated for each territory.
+- **Booking metrics by territory**: List of scheduled bookings, work time allocated, and travel time allocated for each territory.
 
 ## Next steps
 

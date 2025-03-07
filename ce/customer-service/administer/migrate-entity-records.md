@@ -1,10 +1,11 @@
 ---
-title: "Migrate data from legacy Service Scheduling using migration tool | MicrosoftDocs"
-description: "This topic provides information on how to migrate entity records using migration tool to Unified Interface Service Scheduling in Dynamics 365 Customer Service."
+title: Migrate data from legacy Service Scheduling using migration tool
+description: This topic provides information on how to migrate entity records using migration tool to Unified Interface Service Scheduling in Dynamics 365 Customer Service.
 ms.date: 10/11/2019
 ms.topic: article
-author: neeranelli
-ms.author: nenellim
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -114,7 +115,7 @@ Let us take the preceding example to learn how to resolve the error.
 
 5. Review the migration status, if there are any errors, investigate in a similar way as explained in this example.
 
-## See also
+## Related information
 
 [Introduction to migration of entity records](introduction-migration-entity-records.md)
 

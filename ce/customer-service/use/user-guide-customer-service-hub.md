@@ -5,6 +5,7 @@ ms.date: 04/21/2023
 ms.topic: get-started
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 ms.custom: 
   - dyn365-customerservice
 ms.collection: get-started
@@ -24,7 +25,7 @@ Customer Service Hub is based on the Unified Interface framework. Some of the ke
 
 Watch this video to learn more about the Customer Service Hub:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/6e415bd9-49b7-4416-b744-70278d9fa077]  
+> [!VIDEO 4c87125d-a75d-4965-8e96-16c6d4c90d8b]  
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. 
 
 
@@ -56,7 +57,7 @@ Refer below to know how the Customer Service Hub app complies with accessibility
 - [Keyboard navigation support for the Customer Service Hub](../implement/keyboard-navigation-support-customer-service-hub.md)
 - [Privacy and personal data in Microsoft Dynamics 365](/dynamics365/get-started/privacy)
 
-### See also
+### Related information
   
 [Overview of Customer Service and Customer Service Hub ](../administer/overview.md)  
 [Upgrade to the Customer Service Hub](../administer/upgrade-ish-csh.md)  

@@ -2,7 +2,6 @@
 title: "Extend Dynamics 365 Customer Engagement (on-premises)"
 description: "Dynamics 365 Customer Engagement (on-premises) is a powerful business tool right out of the box. It becomes even more so when you extend it."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: df28c756-d8db-45f1-95e0-38c85b5bb8bf
 caps.latest.revision: 5
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 

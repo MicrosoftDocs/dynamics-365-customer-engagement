@@ -2,10 +2,9 @@
 title: "Navigation of Dynamics 365 Customer Engagement (on-premises)"
 description: "Get familiar with the sitemap of Dynamics 365 Customer Engagement (on-premises). Learn how to move between apps, pages, and records."
 keywords: Microsoft Dynamics 365 Customer Engagement (on-premises); Customer Service; Sitemap;
-author: sericks007
+author: shwetamurkute
 applies_to: Dynamics 365 Customer Engagement (on-premises)
-ms.author: sericks
-ms.date: 03/24/2021
+ms.author: smurkute
 ms.topic: article
 
 ms.assetid: bb4e7609-3e32-46b3-8b19-ce700f99715c
@@ -169,7 +168,7 @@ If there is only one notification, you'll see a single line. If there are multip
 
 With Unified Interface for Customer Engagement (on-premises), navigation in app works the same as model-driven apps. Review the articles below to learn about basic navigation for a specific app.
 
-- [Find your way around the Sales Hub app](/dynamics365/sales-enterprise/user-guide-learn-basics.md)
+- [Find your way around the Sales Hub app](/dynamics365/sales/intro-saleshub)
 
 - [Find your way around the Customer Service Hub app](/dynamics365/customer-service/customer-service-hub-user-guide-basics#understand-the-site-map-navigation)
 

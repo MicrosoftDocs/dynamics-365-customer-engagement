@@ -2,7 +2,6 @@
 title: "Create new forward mailbox in Dynamics 365 Customer Engagement (on-premises)"
 description: "If your organization wants to configure server-side synchronization using a forward mailbox, follow these steps to create a new forward mailbox record."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 35df6ab6-23e5-479f-8bff-4862a17daaae
 caps.latest.revision: 27
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---
@@ -31,7 +30,7 @@ By default, when users and queues are created in Dynamics 365 Customer Engagemen
 > [!TIP]
 >  You can use an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] shared mailbox when you create a queue in Customer Engagement (on-premises) and not consume an [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)] license for a forwarding email account.  
 > 
->  See Blog: [CRM Queue with an Office 365 Shared Mailbox](https://joegilldotcom.blogspot.com/2015/01/crm-queue-with-office-365-shared-mailbox.html)  
+>  See Blog: [CRM Queue with an Office 365 Shared Mailbox](https://joegill.com/crm-queue-with-a-office-365-shared-mailbox/)  
 
 1. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
 

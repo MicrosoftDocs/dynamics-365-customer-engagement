@@ -8,7 +8,8 @@ metadata:
   ms.topic: hub-page
   author: lavanyakr01
   ms.author: lavanyakr
-  ms.date: 07/28/2023
+  ms.reviewer: lavanyakr
+  ms.date: 02/07/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -76,24 +77,35 @@ additionalContent:
         text: Enable relationship intelligence
       - url: fre-setup-ci-sales-app.md
         text: Configure conversation intelligence
+      - url: configure-predictive-opportunity-scoring.md
+        text: Configure predictive opportunity scoring
+      - url: configure-predictive-lead-scoring.md
+        text: Configure predictive lead scoring
     - title: Integrate
       links:
       - url: teams-integration/enable-teams-chat.md 
         text: Configure Teams chat
       - url: /power-platform/admin/connect-exchange-online
         text: Connect to Exchange Online
-      - url: /power-platform/admin/enable-onedrive-for-business
-        text: Enable OneDrive for Business
       - url: connect-with-sharepoint.md
         text: Integrate with Sharepoint
+      - url: linkedin/integrate-sales-navigator.md
+        text: LinkedIn Sales Navigator integration
       - url: install-lsi-solution.md
         text: Install LinkedIn Sales Insights
     - title: Copilot
       links: 
       - url: enable-setup-copilot.md
         text: Enable and configure Copilot
-      - url: sales-copilot-data-movement.md
+      - url: /power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features
         text: Copilot data movement across geographies
+      - url: copilot-configure-summary-fields.md
+        text: Configure fields for Copilot responses
+      - url: copilot-preview-features.md
+        text: Enable preview features in Copilot
+      - url: enable-copilot-email-assist.md
+        text: Enable Copilot email assist
+
     - title: Develop
       links: 
       - url: developer/developer-guide.md
@@ -119,11 +131,15 @@ additionalContent:
     - title: Copilot
       links: 
       - url: use-sales-copilot.md
-        text: Use Copilot
+        text: Ask questions of Copilot
+      - url: copilot-get-information.md
+        text: Get Copilot summaries for records
       - url: compose-send-email-copilot.md
         text: Compose and send email messages using Copilot
-      - url: view-copy-email-summary.md
-        text: View and copy email summary
+      - url: copilot-get-doc-suggestions.md
+        text: Get content recommendations and answers from SharePoint
+      - url: responsible-ai-overview.md
+        text: Responsible AI in Copilot FAQs
     - title: Use predictions and insights
       links:
       - url: work-predictive-lead-scoring.md
@@ -183,18 +199,15 @@ additionalContent:
     items:
         # Card
         
-        - title: Microsoft Copilot for Sales
+        - title: Microsoft 365 Copilot for Sales
           summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
-        - title: Customer Insights
+        - title: Dynamics 365 Customer Insights
           summary: Connect data from various transactional, behavioral, and observational sources to create a 360-degree customer view.
           url: /dynamics365/customer-insights/
         - title: Dynamics 365 Customer Insights - Journeys
           summary: Orchestrate personalized journeys across all touchpoints to strengthen customer relationships and earn their loyalty.
           url: /dynamics365/customer-insights/journeys/index
-        - title: LinkedIn Sales Navigator
-          summary: Use LinkedIn Sales Navigator to enhance key application scenarios by connecting the system of record with the LinkedIn data graph and insights.
-          url: /dynamics365/linkedin/integrate-sales-navigator
-        - title: Power Platform
-          summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI, 
+        - title: Microsoft Power Platform
+          summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI. 
           url: /power-platform

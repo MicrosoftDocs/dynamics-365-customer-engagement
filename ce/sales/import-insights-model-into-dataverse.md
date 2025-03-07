@@ -3,7 +3,7 @@ title: Import a custom insights model into Dataverse
 description: Learn how to import your custom insights model into Dataverse to display insights.
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: how-to
 ms.collection: 
 ms.date: 06/09/2023
@@ -15,13 +15,6 @@ ms.custom: bap-template
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 Because seller insights are generated from your custom insights model, you must import that model into Dataverse. However, before you import the model, map your custom attributes with the attributes in the `msdyn_salessuggestion` entity in Dataverse.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Import the data model into Dataverse
 
@@ -66,7 +59,7 @@ To learn more about how to import data into Dataverse, go to:
 - For Web APIs: [Work with data using code in Microsoft Dataverse](/power-apps/developer/data-platform/work-with-data).
 - For comma-separated values (.csv), XML Spreadsheet 2003 (.xml), or text files: [Import data](/power-apps/developer/data-platform/import-data).
 
-### See also
+## Related information
 
 [Enable seller insights](enable-seller-insights.md)  
 [Get intelligent insights to improve sales](seller-insights-intro.md)

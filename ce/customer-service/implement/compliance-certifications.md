@@ -5,7 +5,7 @@ ms.date: 03/07/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection:
 ---
@@ -28,7 +28,7 @@ Dynamics 365 Customer Service is a Core Online Service as defined in the [Mi
 
 Refer to the [Service Trust Portal](https://servicetrust.microsoft.com/) for information about the **Omnichannel for Customer Service** compliance certifications.
 
-### See also
+### Related information
 
 [Prerequisites and system requirements of Omnichannel for Customer Service](system-requirements-omnichannel.md)  
 

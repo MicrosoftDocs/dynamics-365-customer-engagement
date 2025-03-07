@@ -1,11 +1,11 @@
 ---
-title: Customize the Opportunity Close form in Dynamics 365 Sales
+title: Customize the Opportunity Close form
 description: Customize the opportunity close form so that sellers can capture details about why an opportunity was closed.
-ms.date: 01/16/2024
+ms.date: 01/31/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 content_well_notification:
   - AI-contribution
@@ -14,13 +14,6 @@ ai-usage: ai-assisted
 # Customize the Opportunity Close form 
 
 Customize the opportunity close form so that sellers can capture details about the closed opportunity such as reason for closure and profit margin. These details help sales managers to draw key insights and develop a better strategy.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Prerequisites
 
@@ -40,13 +33,11 @@ Customize the opportunity close form so that sellers can capture details about t
 
 The solution explorer page is where you can create and manage customizations.
 
-1. In the Sales Hub app, select the **Settings** icon, and then select **Advanced Settings**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-   :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option in Sales Hub.":::
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-3. On the navigation bar of the **Business Management** page, select **Settings** > **Customizations**.
-
-4. On the **Customization** page, select **Customize the System**.
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
 
 ### Step 2: Create a custom field in the Opportunity Close entity
 
@@ -55,23 +46,31 @@ The Opportunity Close entity has certain out-of-the-box fields. If the informati
 > [!NOTE]
 > If your organization is using a custom app, ensure that the Opportunity Close entity is added to the custom app module. [Learn more about adding an entity to a custom app module](/power-apps/maker/model-driven-apps/add-edit-app-components)
 
-1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **Opportunity Close** > **Fields**. The out-of-the-box fields are displayed.
+1. In the left pane, expand **Tables** and then **Opportunity Close**, and select **Forms**.
 
-1. On the **Actions** toolbar, select **New**, and enter a **Display Name** to generate the **Name**. [Learn more about how to create and edit columns](/powerapps/maker/data-platform/create-edit-fields).
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then **Opportunity Close** entity, and select **Forms**.
 
-1. Save the changes.
+1. Select the form to which you want to add the custom field.  
+
+1. On the **Table columns** pane, select **+ New table column**, and enter a **Display Name** to generate the **Name**. [Learn more about how to create and edit columns](/powerapps/maker/data-platform/create-edit-fields).  
+1. Save and publish the form.  
+    When a field is added to the form, it's available for other forms of the same entity.
 
 ### Step 3: Add the field to the Opportunity Close form
 
-1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **Opportunity Close** > **Forms**.
-
-1. Open the **Opportunity Close** form of type **Quick Create**.
-1. Add or remove any fields, as required on the **Opportunity Close** form.
-    > [!NOTE]
-    > - You can’t delete or customize the out-of-the-box fields or entity relationships.
-    > - Creating an Opportunity Close record (for example, from a related entity record or the Quick create menu) closes the related opportunity.
-1. To add the same fields to the **Opportunity Close Information** form, open the **Information** form of type **Main**, and make the same changes that you did in Step 2. The **Opportunity Close Information** form is used to [view details of the closed opportunity](close-opportunity-won-lost-sales.md#view-details-entered-while-closing-an-opportunity) later on.
-1. Save the changes.
+1. Open the **Opportunity Close** form.  
+1. Add the field to forms as required.  
+    - For the **Quick Create** form type  
+        1. Add fields as required to the quick create opportunity close form.  
+             > [!NOTE]  
+             > - You can’t delete or customize the out-of-the-box fields or entity relationships.  
+             > - Creating an Opportunity Close record (for example, from a related entity record or the Quick create menu) closes the related opportunity.  
+        1. Save and publish the form.  
+    - For the **Main** form type  
+         1. Add fields as required to the main opportunity close form as added to the quick create form.  
+         1. Save and publish the form.  
+        The **Information** form (main) is used to [view details of the closed opportunity](close-opportunity-won-lost-sales.md#view-details-entered-while-closing-an-opportunity) later on.
 
 ### Step 4: Pre-populate values in the Opportunity Close form from the corresponding opportunity
 
@@ -79,12 +78,8 @@ To pre-populate values in the Opportunity Close form from the corresponding oppo
 
 If you want to pre-populate or synchronize values from other entities, use a plug-in or a [client-side script to pre-populate and synchronize the values](/power-apps/developer/model-driven-apps/clientapi/walkthrough-write-your-first-client-script).
 
-1. In the solution explorer, go to **Components** > **Entities** > **Opportunity** > **1:N Relationships**.
-1. From the **Type** drop-down list, select **Mappable**.
-1. Double-click the Schema name of the relationship **Opportunity_OpportunityClose**.
-
-   :::image type="content" source="media/mappable-opportunity-close.png" alt-text="Screenshot of the Opportunity to Opportunity Close relationship mapping":::
-
+1. In the solution explorer, go to **Tables** > **Opportunity** and under the Schema section, select **Relationships**.
+1. Open the **Opportunity_OpportunityClose** relationship schema with the **One-to-many** relationship type.  
 1. In the **Relationship** window, Select **Mappings**.
 1. Select **New** to create field mapping between the Opportunity and Opportunity Close fields.
 1. Save the changes.
@@ -93,12 +88,9 @@ If you want to pre-populate or synchronize values from other entities, use a plu
 
 After you're done with the customizations, select **Publish All Customizations** on the toolbar to make the changes available to users. Open your app and verify the changes.
 
-
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
+
 [Close opportunity as won or lost](close-opportunity-won-lost-sales.md)  
 [Enable customization of the Opportunity Close form](enable-opportunity-close-customization.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

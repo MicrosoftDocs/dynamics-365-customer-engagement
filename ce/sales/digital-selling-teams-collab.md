@@ -5,6 +5,7 @@ ms.date: 02/02/2024
 ms.topic: how-to
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ms.owner: shujoshi
 ms.custom: bap-template
 ---
@@ -13,17 +14,11 @@ ms.custom: bap-template
 
 Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Overview
 
 Connect Dynamics 365 and Microsoft Teams so your sales teams can collaborate seamlessly on deals from wherever they work. Dynamics 365 and Microsoft Teams integration allows you to speed up the flow of work, enabling anyone in an organization to view and collaborate on Dynamics 365 records, from within the flow of work with Teams—at no additional cost. More information: [Overview of Microsoft Teams integration](../teams-integration/teams-integration.md)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQEPI]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=acc26adf-ad12-414c-ab89-9737c58cdc91]
 
 ## Set up Teams collaboration
 
@@ -48,7 +43,7 @@ If you want to make advanced configurations for Teams collaboration, select **Go
 
 3. Select **Apply**.
 
-### See also
+## Related information
 
 [Sales accelerator](digital-selling-sales-accelerator.md)   
 [Microsoft Teams calls with conversation intelligence](digital-selling-microsoft-teams-calls.md)     

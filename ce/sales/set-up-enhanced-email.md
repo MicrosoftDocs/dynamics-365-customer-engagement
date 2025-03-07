@@ -1,10 +1,11 @@
 ---
-title: "Set up the enhanced email experience in Dynamics 365 Sales"
-description: "Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on."
-ms.date: 10/26/2021
-ms.topic: article
+title: Set up the enhanced email experience
+description: Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on.
+ms.date: 01/29/2025
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Set up enhanced email 
 
@@ -12,13 +13,6 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 
 > [!IMPORTANT]
 > The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Enable the enhanced email
 
@@ -30,19 +24,15 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 1. At the bottom of the site map, select **Change area** ![Change area.](media/change-area-icon.png "Change area") and then select **App Settings**.
 
-2. In the site map, select **Overview**.
+2. In the site map, select **Productivity tools**.
 
-3. On the **Overview** page, under **Productivity tools**, select **Manage** for **Enhanced email for timeline**.
+3. Select **Enhanced email for timeline**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Productivity tools - Overview page.](media/overview-prod-tools.png "Productivity tools - Overview page")
-
-4. On the **Productivity tools** page, move the **Enhanced email for timeline** toggle to **Yes**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable enhanced email for timeline option.](media/enable-enhanced-email.png "Enable enhanced email for timeline option")
+4. Set the **Enhanced email for timeline** toggle to **Yes**.
 
 5. Select **Save**.
+
+    :::image type="content" source="media/enable-enhanced-email.png" alt-text="Enable enhanced email for timeline option.":::
 
 # [Sales Professional](#tab/SP)
 
@@ -54,6 +44,8 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
     > ![Advanced settings.](media/advanced-settings-option.png "Advanced settings")
 
     The **Business Management** page opens in a new browser tab.
+   > [!NOTE]
+   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
 
 2. On the navigation bar, select **Settings**, and then under **System**, select **Administration**.
 
@@ -67,11 +59,23 @@ If you're using a custom app or Sales Professional app, you can enable or disabl
 5. Select **Ok**.
 ---
 
+## Considerations 
+
+The following considerations apply to the enhanced email experience:
+
+- The enhanced email popup requires a screen size of at least 600 x 840 pixels. If the screen size is smaller, the general email composer will be displayed. Also, the email popup with enhanced experience in not supported on mobile phones.
+
+- Navigating to other records is not possible when you open the enhanced email popup. 
+
+- You can open up to three email popups simultaneously. 
+
+
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Send email using the enhanced email experience](enhanced-email.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

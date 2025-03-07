@@ -1,7 +1,7 @@
 ---
 title: Work order summary report
 description: Learn how to use work order summary reports in Dynamics 365 Field Service.
-ms.date: 02/09/2023
+ms.date: 08/30/2024
 ms.reviewer: mhart
 ms.topic: conceptual
 ms.custom: bap-template
@@ -14,10 +14,11 @@ ms.author: jasonshotts
 
 # Work order summary report
 
-Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions may be needed for better field service performance, reports provide help to monitor key operational metrics.
+Operations managers are responsible for managing work orders in order to provide timely support for their customers. To better understand what actions might be needed for better field service performance, reports provide help to monitor key operational metrics.
+
+[!INCLUDE[fs-report-workarounds](../includes/fs-report-workarounds.md)]
 
 ## Before you start
-
 
 A Field Service administrator must enable the report in **Settings** > **Analytics and Insight** > **Settings** > **Field Service historical analytics** > **Manage**.
 
@@ -31,87 +32,49 @@ A Field Service administrator must enable the report in **Settings** > **Analyti
 - **Service territory**: [Territory](set-up-territories.md) defined in Field Service.
 - **Technician**: [Active bookable resources](set-up-bookable-resources.md) in Field Service.
 
-## Reports metrics
+## Report metrics
 
-To access the work order summary report, open the **Field Service** app, change to the **Resources** area, and go to **Analytics and Insights** > **Field Service historical analysis**.
+To access the work order summary report, open the **Field Service** app, go to **Analytics and Insights** > **Field Service historical analysis**.
 
 :::image type="content" source="media/work-order-summary-report.png" alt-text="Screenshot showing a sample work order summary report.":::
 
-### Work orders
+- **Work orders**: Total number of work orders created for the selected filters.
 
-Total number of work orders created for the selected filters.
+- **Open work orders**: Total number of currently open work orders.
 
-### Open work orders
+- **Broken promise (%)**: Percentage of work orders that weren't completed within the promise window.
 
-Total number of currently open work orders.
+- **Mean time to schedule (mins)**: Average time to schedule from the time the work order was created to the time of the first booking.
 
-### Broken promise (%)
+- **Mean time to travel (hrs)**: Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders.
 
-Percentage of work orders that weren't completed within the promise window.
+- **Mean time to complete (hrs)**: Average time taken to complete all the bookings for a specific work order from the date the work order was created.
 
-### Mean time to schedule (mins)
+- **Avg. CSAT**: Average customer satisfaction rate.
 
-Average time to schedule from the time the work order was created to the time of the first booking.
+- **Work orders by system status**: Number of work orders by status.
 
-### Mean time to travel (hrs)
+- **Work order trends by system status**: Work order status over time.
 
-Average time taken by an agent to travel to the customer. Calculated for all non-agreement work orders.
+- **Work orders by substatus**: Number of work orders by substatus.
 
-### Mean time to complete (hrs)
+- **Work order trends by work order type**: Work order type over time.
 
-Average time taken to complete all the bookings for a specific work order from the date the work order was created.
+- **Mean time to complete by work order type (mins)**: Average time to complete work order over time.
 
-### Avg. CSAT
+- **Work orders by primary incident type**: Number of work orders by primary incident type.
 
-Average customer satisfaction rate.
+- **Broken promise (%) by work order type**: Represents the correlation between broken promise percentage and work order type.
 
-### Work orders by system status
+- **Broken promise (%) vs mean time to schedule (mins)**: Correlation between broken promise percentage and average time to schedule in minutes.
 
-Number of work orders by status.
+- **Broken promise (%) vs mean time to travel (hrs)**: Correlation between broken promise percentage and average travel time in hours.
 
-### Work order trends by system status
+- **CSAT Trend**: Average customer satisfaction score (CSAT) value per month over time.
 
-Work order status over time.
+- **CSAT by substatus**: Number of work orders with CSAT rating by substatus.
 
-### Work orders by substatus
-
-Number of work orders by substatus.
-
-### Work order trends by work order type
-
-Work order type over time.
-
-### Mean time to complete by work order type (mins)
-
-Average time to complete work order over time.
-
-### Work orders by primary incident type
-
-Number of work orders by primary incident type.
-
-### Broken promise (%) by work order type
-
-Represents the correlation between broken promise percentage and work order type.
-
-### Broken promise (%) vs mean time to schedule (mins)
-
-Correlation between broken promise percentage and average time to schedule in minutes.
-
-### Broken promise (%) vs mean time to travel (hrs)
-
-Correlation between broken promise percentage and average travel time in hours.
-
-### CSAT Trend
-
-Average CSAT value per month over time.
-
-### CSAT by substatus
-
-Number of work orders with CSAT rating by substatus.
-
-### Territory analysis
-
-Number of bookings by [territory](set-up-territories.md) on a map. The territory needs to be a physical geolocation to show on the map.
+- **Territory analysis**: Number of bookings by [territory](set-up-territories.md) on a map. The territory needs to be a physical geolocation to show on the map.
 
 ## Next steps
 

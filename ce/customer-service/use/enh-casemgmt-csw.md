@@ -3,16 +3,16 @@ title: Enhanced case management in multisession apps
 description: Learn about the enhanced case management in Customer Service multisession apps.
 author: gandhamm 
 ms.author: mgandham 
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: conceptual
-ms.date: 10/31/2023 
+ms.date: 09/30/2024 
 ms.custom: bap-template 
 ---
 
 
 # Enhanced case management in multisession apps
 
-The Customer Service workspace offers an enhanced case management experience. Agents can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
+The Customer Service workspace offers an enhanced case management experience. Customer service representatives (service representatives or representatives) can verify and edit customer details without switching tabs, and can update existing cases without interrupting the case creation flow. The enhanced experience also helps prevent case duplication.
 
 ## Create cases by using a quick create from
 
@@ -73,16 +73,21 @@ Depending on the settings that are enabled for you, either the enhanced full cas
 
    ### [Default main case form: Case](#tab/fullcaseform)
     
-   The default main case form appears when you create a new case from the **Case** page.
+   On the **Case for Multisession experience** form, which is the default case form for Customer Service workspace, you can do the following: 
 
-   :::image type="content" source="../media/def-case-maincas-mini.png" alt-text="Screenshot of the default main case form" lightbox="../media/def-case-maincase.png":::
+   - See color coded **Case Status** fields and **Priority** icons.
+   - See the **Attachment** tab. The attachment tab displays the attachments that are linked to the case. You can upload attachments from this tab only if your administrator has configured the attachment control.
+   - **Activities Due** section. When the case is saved, the section displays links to the activities that are associated with the case, and are due or overdue on the current date. Select a link to view the activities in the **Due Activities** view.
+   - **Queue item details**. Once you save the case and route the case to a queue, this field displays the current queue the case belongs to and the **Worked by** field
 
-   ---
+   :::image type="content" source="../media/case-multisession-app-mini.png" alt-text="Screenshot of the multisession app" lightbox="../media/case-multisession-app.png":::
+
+ ---
 
 ## View an existing case by using the enhanced full case form
 
 If you save the case by using the enhanced full case form, the application displays the following elements:
-   - A service level agreement (SLA) timer that displays the time within which the agents must first respond to a customer and the time by which they must resolve the case.
+   - A service level agreement (SLA) timer that displays the time within which the representatives must first respond to a customer and the time by which they must resolve the case.
    - Links to the activities that are associated with the case, and that are either due on the current date or past their due date. Select a link to view the open activities associated with the case on a tab that your administrator has configured. By default, the application displays open activities on the **Activities** tab. [Learn how to specify a tab to redirect users to view the open activities for a case.](../administer/case-enh-config.md)
    - A **Customer Details** side pane that displays related customer information and recent case information.
    - **Queue item details**, which displays the current queue the case belongs to and the **Worked by** field.
@@ -112,7 +117,7 @@ When you create a new case and specify a customer or an account, or open a case 
 - **Recent Cases**: Displays the recent cases that are linked to the customer or account. More information: [Configure components to display customer details and recent records](../administer/add-display-components-to-case-form.md).
 
 
-### See also
+### Related information
 
 [Enable enhanced case forms for multisession apps](../administer/case-enh-config.md)<br>
 [Get started with Customer Service workspace](../implement/csw-overview.md)<br>

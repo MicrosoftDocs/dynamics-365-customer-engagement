@@ -1,22 +1,16 @@
 ---
 title: Assign a sequence to a user or a team
 description: Learn how to assign your sequences to a user or a team to use them in Dynamics 365 sales accelerator.
-ms.date: 10/20/2022
+ms.date: 02/19/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 
 # Assign a sequence to a user or a team
 
 Before users or teams can use a sequence you create, you need to assign them to it. Assigning users and teams to a sequence gives them full permissions to view, edit, and delete the sequence.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Assign a sequence
 
@@ -41,6 +35,6 @@ Before users or teams can use a sequence you create, you need to assign them to 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and activate a sequence](create-and-activate-a-sequence.md)

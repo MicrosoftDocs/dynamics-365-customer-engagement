@@ -5,6 +5,7 @@ ms.topic: article
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:chatQueued event (Omnichannel for Customer Service JavaScript API reference)
 
@@ -20,7 +21,7 @@ window.addEventListener("lcw:chatQueued", function handleLivechatQueuedEvent(){
 });
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

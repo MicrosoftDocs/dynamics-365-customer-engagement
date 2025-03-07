@@ -6,7 +6,7 @@ You can enable outbound communication either with or without customization, as f
 
 To enable outbound communication for your channel, you must perform the following:
 
-1. Using app profile manager or Customer Service admin center, enable outbound communication for the specific channel provider. More information: [Configure channel provider for outbound communication](#configure-channel-provider-for-outbound-communication)
+1. Using Customer Service admin center, enable outbound communication for the specific channel provider. More information: [Configure channel provider for outbound communication](#configure-channel-provider-for-outbound-communication)
 
 2. In the Unified Interface form, add the **Channel communication control** to the **Phone** field for which you want to enable outbound communication (ClickToAct), and publish the customizations. More information: [Add the Channel Communication Control to the Unified Interface form](#add-the-channel-communication-control-to-the-unified-interface-form)
 
@@ -15,9 +15,9 @@ To enable outbound communication for your channel, you must perform the followin
 4. Select the mobile phone icon to trigger the `onclicktoact` event. More information: [Trigger the onclicktoact event](#trigger-the-onclicktoact-event)
 
 ## Configure channel provider for outbound communication
-   
-If you're using Customer Service admin center, do the following:
-   
+
+Using Customer Service admin center, do the following:
+
 1. In the site map, select **Workspaces** in **Agent experience**. The **Workspaces** page opens.
     
 2. Select **Manage** for **Third party voice channel provider**.
@@ -25,18 +25,6 @@ If you're using Customer Service admin center, do the following:
 3. Select a provider from the **Active Channel Providers** list, and select **Edit**.
     
 4. In the **General** tab, set the **Enable Out Bound** field to **Yes**.
-
-If you're using the app profile manager, then do the following:
-
-1. Sign in to your [Power Apps](https://make.powerapps.com/) portal.
-
-2. Under the available apps, select the ellipses to the right of&nbsp;**Omnichannel for Customer Service**&nbsp;or&nbsp;**Customer Service workspace**.
-
-3. On the menu that appears, select&nbsp;**App profile manager**. 
-
-4. On the app profile manager page, expand **Omnichannel for Customer Service**&nbsp;or&nbsp;**Customer Service workspace**&nbsp;and select&nbsp;**Channel provider**.
- 
-5. Select your channel provider from the list, and set the **Enable Outbound Communication** field to **Yes**.
 
 ## Add the Channel Communication Control to the Unified Interface form
 
@@ -87,5 +75,4 @@ Select the mobile phone icon to trigger the `onclicktoact` event, as shown below
 |![Select mobile phone icon to trigger the onclicktoact event](../media/custom-control-phone-icon.PNG "Select mobile phone icon to trigger the onclicktoact event") |![Select the mobile phone icon to trigger the onclicktoact event](../media/oob-phone-icon.PNG "Select the mobile phone icon to trigger the onclicktoact event")|
 
 > [!Note]
-> - Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or configure the **Enable Outbound Communication** to **Yes** in the channel provider configurations.
-> - ClickToAct event isn't supported in the focused view of Dynamics 365 Sales.
+> Dynamics 365 Channel Integration Framework invokes the onclicktoact event only if you programmatically set the `setClickToAct` API to `true` or configure the **Enable Outbound Communication** to **Yes** in the channel provider configurations.

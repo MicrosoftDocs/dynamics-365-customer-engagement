@@ -1,21 +1,15 @@
 ---
-title: "Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional (Dynamics 365 Sales) | MicrosoftDocs"
-description: "Follow the steps in this topic to move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional."
-ms.date: 09/23/2020
-ms.topic: article
+title: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional
+description: Follow the steps in this topic to move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional.
+ms.date: 12/18/2024
+ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
 # Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional 
 
 Learn how to purchase, assign, and install Sales Professional license so that you can switch from Sales Enterprise to Sales Professional.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise and Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Move from Sales Enterprise to Sales Professional
 
@@ -26,8 +20,6 @@ Learn how to purchase, assign, and install Sales Professional license so that yo
 2.	Assign [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional licenses to the users.
 
 3.	Install the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional edition solution.
-
-4.	Delete the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise edition solution.
 
 
 ## Purchase Dynamics 365 Sales Professional subscription
@@ -70,27 +62,12 @@ Go to the Microsoft 365 admin center to install Dynamics 365 Sales app (solution
 
 After you complete these steps, your organization will be effectively moved to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional.
 
-
-## Delete the Dynamics 365 Sales Enterprise solution
-
-1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
-
-2.	Sign in to Dynamics 365. 
-
-3.	Select **Settings** > **Solutions**. 
-
-4.	Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Enterprise solution and select **Delete**. 
-
-    > [!NOTE]
-    > When you delete this solution, the Sales Enterprise app module is deleted and any configuration and customization specific to this app module such as its site map or form preferences are also lost.
-
-
 > [!IMPORTANT]
-> As per contractual agreement, you can't mix and match Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
+> [Hide](/power-apps/maker/model-driven-apps/deactivate-app) the Sales Hub app as it's only applicable for Sales Enterprise and Sales Premium licenses. Sales Professional users are entitled to use only the Sales Professional app.
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Dynamics 365 Licensing Update](/dynamics365/licensing/update)
 

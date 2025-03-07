@@ -4,6 +4,7 @@ description: Understand on how to use the up next widget to do activities on you
 ms.date: 02/02/2024
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to 
 ms.custom: bap-template
 ---
@@ -11,12 +12,6 @@ ms.custom: bap-template
 # Understand the Up next widget
 
 The **Up next** widget displays activities that you can view and perform actions on records. 
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager.<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
 
 ## What is the Up next widget?
 
@@ -70,7 +65,7 @@ To add manual activities, see [Track and manage activities](manage-activities.md
 
 The sequence preview gives you a complete overview of the sequence, including the progress and activities related to different paths. To preview a sequence, select the name of the sequence in the **Up next** widget. The sequence opens in a pane displaying the list of activities that have been defined within the sequence.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RW16PET]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=96fc7570-a0c7-4529-820e-d6f6e77f7953]
 
 The following image shows an example of a sequence preview.
 
@@ -85,7 +80,7 @@ By analyzing this information, you can track the progress made throughout the se
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [What is the sales accelerator?](sales-accelerator-intro.md)  
 [Create and manage sequences](create-manage-sequences.md)  

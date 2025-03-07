@@ -1,7 +1,7 @@
 ---
 title: Migration tool FAQ
 description: Migration tool FAQ for automatic record creation rules and service-level agreement items.
-ms.date: 11/28/2023
+ms.date: 01/31/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -273,7 +273,7 @@ In Unified Interface, the **Customer** field has only **Regarding(Email)**, rega
 > [!IMPORTANT]
 > If you're still experiencing issues with the migration tool, contact your administrator or Microsoft Support.
 
-### See also
+### Related information
 
 [FAQ about modern automatic record creation](arc-faqs.md#faq-about-modern-automatic-record-creation)
 

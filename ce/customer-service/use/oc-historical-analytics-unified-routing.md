@@ -1,14 +1,20 @@
 ---
-title: "Historical analytics for unified routing in Omnichannel for Customer Service | MicrosoftDocs"
-description: "Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service."
-ms.date: 10/12/2022
+title: Historical analytics for unified routing in Omnichannel for Customer Service
+description: Learn about the KPIs that are available in the historical analytics report for Omnichannel for Customer Service.
+ms.date: 02/10/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
-# Historical analytics for unified routing in Omnichannel for Customer Service
+# Historical analytics for unified routing
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 With the introduction of unified routing, an advanced and elaborate set of capabilities are available for organizations to enhance their routing configurations. Supervisors and business administrators need metrics to track how these advanced routing capabilities are helping their businesses serve their customers.
 
@@ -20,9 +26,7 @@ With the introduction of unified routing, an advanced and elaborate set of capab
 
 The Unified routing report provides routing-specific KPIs and metrics that can be used by supervisors and administrators to track the success of their routing strategy. They can also track the incorrectly routed work items and configurations and correct them to improve the routing effectiveness and thereby customer satisfaction.
 
-The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in the Omnichannel admin center (deprecated) app.
-
-[!INCLUDE[oac-deprecation](../../includes/oac-deprecation.md)]
+The report appears as a tab in the Omnichannel historical analytics report if your administrator has enabled the corresponding setting on the **Insights** page in the Customer Service admin center app.
 
 :::image type="content" source="../media/oc-ha-unified-routing.png" alt-text="Historical analytics for unified routing in Omnichannel for Customer Service.":::
 
@@ -39,10 +43,10 @@ The unified routing report displays the following metrics for the selected filte
 
 |Metric  |Description  |Derivation  |
 |---------|---------|---------|
-|Incoming conversations     | The number of conversations initiated by the customer that can be presented to a human agent.        | All conversations, except bot conversations, are considered.        |
+|Incoming conversations     | The number of conversations initiated by the customer that can be presented to a customer service representative (service representative or representative).        | All conversations, except AI agent conversations, are considered.        |
 |Routed conversations     | The total number of incoming conversations that have been routed successfully. <br> **Note:** A conversation routed to a fallback queue is not considered in the calculation of the metric.       |         |
 |Incoming sessions     | The total number of sessions that were created.        |         |
-|Session transfer rate     | The percentage of incoming sessions that were transferred to another agent or queue.         |         |
+|Session transfer rate     | The percentage of incoming sessions that were transferred to another representative or queue.         |         |
 |Incoming conversations v/s routed conversations     | The number of conversations initiated by the customer versus the number of conversations that were routed successfully.      |         |
 |Session transfer rate trend     | The day wise trend of session transfer rate.        |         |
 |Top 5 Skills demanded     | The top five skills required by the incoming conversations.        |         |
@@ -68,7 +72,7 @@ On the **Unified routing** report page, the **Routing metrics by date** table di
 
 You can select a date, and then select **Details** to view the routing metrics by the hour.
 
-### See also
+### Related information
 
 [Enable Historical analytics for unified routing in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md#enable-historical-analytics-for-unified-routing-in-omnichannel-for-customer-service)  
 [Overview of unified routing](../administer/overview-unified-routing.md)  

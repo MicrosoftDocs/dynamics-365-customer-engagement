@@ -1,7 +1,6 @@
 ---
 title: "Copyright | MicrosoftDocs"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -16,7 +15,7 @@ robots: noindex,nofollow
 search.audienceType: 
   - developer
 
-  ms.topic: conceptual
+ms.topic: conceptual
 ---
 # Copyright
 

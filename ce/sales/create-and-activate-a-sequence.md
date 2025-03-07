@@ -1,10 +1,10 @@
 ---
 title: Sequence creation and activation in the sales accelerator
 description: Create and activate a sequence by defining a set of activities as steps that sellers should follow while handling records in Dynamics 365 Sales.
-ms.date: 09/08/2023
+ms.date: 06/17/2024
 author: udaykirang
 ms.author: udag
-ms.reviewer: shujoshi
+ms.reviewer: udag
 ms.topic: overview 
 ms.collection: how-to 
 ms.custom: bap-template 
@@ -15,12 +15,6 @@ ms.custom: bap-template
 Every organization has its own selling processes for sellers to follow. A sequence helps sellers overcome any inconsistencies in training or lack of documentation as they progress through the sales journey. When you create a sequence, you define the activities you want your sellers to perform&mdash;and the order to perform them in&mdash;as they handle records. This lets sellers concentrate on selling and gives them a better understanding of what to do next.
 
 Also, sellers can create and activate sequences for themselves and use the sequences to work on their assigned records. More information: [Create and connect sequence for yourself](create-sequence-seller.md) 
-
-## License and role requirements
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Create a sequence
 
@@ -71,7 +65,7 @@ Also, sellers can create and activate sequences for themselves and use the seque
 
 Now, you can assign the sequence to users and then activate. 
 
-## Automatically assign sequence to users or a team
+## Assign different sequences to users or teams
 
 You can assign different sequences to different sellers for a record. Each seller can then focus on a unique set of actions to enhance their chances of securing a deal. For example, you can assign one sequence to a seller and another to the account manager responsible for the same record, enabling them to collaborate simultaneously.  
 
@@ -126,7 +120,7 @@ On the sequence home page, you can do the following tasks:
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Sequences](create-manage-sequences.md)     
 [Add steps to sequence](steps-sequence.md)  

@@ -5,18 +5,11 @@ ms.date: 02/27/2023
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 # Learn the basics
 
 Know the basic functions and the information displayed on the home screen of the Dynamics 365 Sales mobile app.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** |  Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## Overview
 
@@ -119,7 +112,7 @@ To open the **Settings** panel, tap your profile picture at the upper left of th
 More information: [Dynamics 365 Sales mobile app settings](app-settings.md)
 
 
-### See also
+## Related information
 
 [View meetings](view-agenda.md)    
 [Open a record](open-record.md)

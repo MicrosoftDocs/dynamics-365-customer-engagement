@@ -3,9 +3,9 @@ title: Customizations supported by the Conversation table and form
 description: Learn about the customizations that you can and can't use with the Conversation table and form in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: conceptual 
-ms.date: 08/08/2023
+ms.date: 01/13/2025
 ms.custom: bap-template
 ---
 # Customizations supported by the Conversation table and form
@@ -114,6 +114,6 @@ Any updates to the following columns aren't supported:
 [Customize quick view forms](customize-quick-view-form.md)  
 [Customize session forms](customize-session-form.md)  
 
-### See also
+### Related information
 
 [Conversation columns](../develop/reference/entities/msdyn_ocliveworkitem.md)  

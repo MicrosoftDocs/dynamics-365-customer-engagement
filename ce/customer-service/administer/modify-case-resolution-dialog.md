@@ -1,10 +1,11 @@
 ---
 title: Customize the case resolution dialog
 description: Add custom fields and values to the case resolution dialog to improve case management and organization.
-ms.date: 12/21/2023
+ms.date: 06/21/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 searchScope:
   - D365-App-customerservicehub
   - D365-Entity-incident
@@ -25,7 +26,7 @@ You can customize the case resolution dialog to suit your business needs. You ca
 
 ## Prerequisites
 
-Make sure that the CSR Manager and Customer Service Representative security roles have the following permissions set for **Environment Variable Definition**:
+Make sure that the CSR Manager and customer service representative (service representative or representative) security roles have the following permissions set for **Environment Variable Definition**:
 
 - **CSR Manager**: Create, Read, and Write
 - **Customer Service Representative**: Read
@@ -34,21 +35,11 @@ If you have custom security roles, you must update the roles to use the modified
 
 ## Manage case resolution dialog settings
 
-You can set the case resolution dialog that agents see when they resolve the case. By default, the field is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
+You can set the case resolution dialog that customer service representatives see when they resolve the case. By default, the field is set to **Standard dialog**. Perform the following steps to set the resolve case dialog to a customizable case resolution dialog. This enables you to modify the case resolution dialog to add or remove fields and values.
 
-1. Navigate to one of the following apps:
-   
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-    
-    1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
+1. In the site map of Customer Service admin center, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
      
-    1. Select **Manage** for **Other Settings**.
-
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-   
-     [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-     - In the **Service Management** site map, select **Service Configuration Settings** in **Service Terms**.
+1. Select **Manage** for **Other Settings**.
 
 1. On the **Service Configuration Settings** page, scroll to the **Resolve case dialog** section, and then select **Customizable dialog** from the dropdown list.
 
@@ -61,7 +52,7 @@ You can modify the custom case resolution dialog to add and remove a field.
 For example, you must add the **Billable Time** field to the case resolution dialog.
 
 > [!NOTE]
-> - Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time an agent worked on a case automatically. 
+> - Ensure that the **Total Time** field is  added to the case resolution dialog, for the **Billable Time** field to display the amount of time a representative worked on a case automatically. 
 > - Case resolution isn't supported if **Regarding** field is added to **Case resolution dialog**.
 
 1. In [Power Apps](https://make.powerapps.com/), select your environment.
@@ -81,7 +72,7 @@ You can add a custom value to the custom case resolution dialog. You must perfor
  1. Add a custom value to the required field in the **Case** table.
  1. Update the required field in the **Case Resolution** table with the same custom value.
 
-For example, your organization receives similar cases. You can add a case resolution rule for cases that are similar to a previously resolved case. Agents can then resolve them by marking them as duplicate cases. To add a case resolution rule, perform the steps in the following sections.
+For example, your organization receives similar cases. You can add a case resolution rule for cases that are similar to a previously resolved case. Representatives can then resolve them by marking them as duplicate cases. To add a case resolution rule, perform the steps in the following sections.
 
 ### Update the case table
 
@@ -106,12 +97,12 @@ For example, your organization receives similar cases. You can add a case resolu
 > [!Important] 
 > If you change the value in **Case**, be sure to update the value in **Case Resolution** so they match. If the values don't match, an error might occur. If the values don't match in the customizable dialog, the values that you've specified won't be displayed.
 
-In our example, once you've added the custom value, agents see the **Duplicate** option in the **Resolution Type** dropdown of the **New Case Resolution** dialog when they [resolve a case](../use/customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case). Agents can select this value and mark the case as a duplicate.
+In our example, once you've added the custom value, representatives see the **Duplicate** option in the **Resolution Type** dropdown of the **New Case Resolution** dialog when they [resolve a case](../use/customer-service-hub-user-guide-resolve-cancel-reassign-a-case.md#resolve-a-case). Representatives can select this value and mark the case as a duplicate.
 
 
    :::image type="content" source="../media/case-enh-duplicate.png" alt-text="Screenshot displaying the duplicate custom value":::
 
-### See also
+### Related information
 
 [Work with cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Create a case](../use/customer-service-hub-user-guide-create-a-case.md)  

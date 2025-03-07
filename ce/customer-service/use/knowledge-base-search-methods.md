@@ -3,10 +3,10 @@ title: Search the knowledge base on portals
 description: Learn how you can search the knowledge base on portals Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection: 
-ms.date: 09/28/2023
+ms.date: 07/01/2024
 ms.custom: 
     - bap-template
     - dyn365-customerservice
@@ -18,6 +18,9 @@ search.audienceType:
 ---
 
 # Search the knowledge base on portals
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 Having a knowledge base on the portal makes it a customer self-service portal where you can access and search for knowledge articles through simple queries. This functionality helps resolve issues and makes information easily accessible. You can search for your knowledge articles by selecting **Knowledge Base** from your portal.
 
@@ -62,7 +65,7 @@ For content access level to work with relevance search, you must perform the fol
 When performing a search on the portal, you might encounter an error while opening an article and also see the error message, "Update your origins allowlist if any iframe in the article doesn't work or displays error." This might be because the link types used in the article aren't a part of the origins allowlist. You must contact your administrator to update your origins allowlist. More information: [Configure the origins allowlist for knowledge articles](../administer/configure-knowledge-article-origin-allow-list.md)
 
 
-### See also
+### Related information
 
 [Add the Knowledge Base Search control to forms](../administer/add-knowledge-base-search-control-forms.md)  
 [Create and manage knowledge articles](customer-service-hub-user-guide-knowledge-article.md)  

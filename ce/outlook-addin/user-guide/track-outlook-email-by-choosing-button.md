@@ -2,8 +2,8 @@
 title: "Track Outlook email by choosing a button in Dynamics 365 for Outlook | MicrosoftDocs"
 description: Learn how to track emails using a manual process in Microsoft Dynamics 365 for Outlook to keep personal emails separate from customer emails.
 ms.custom: 
-ms.date: 01/11/2016
-ms.reviewer: 
+ms.date: 12/13/2024
+ms.reviewer: smurkute 
 
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -17,8 +17,8 @@ applies_to:
   - Dynamics CRM Online
 ms.assetid: 47e0acb3-02a4-456e-9037-a4de82bfc405
 caps.latest.revision: 50
-author: mduelae
-ms.author: mkaur
+author: shwetamurkute
+ms.author: bharavar
 search.audienceType: 
   - admin
   - customizer
@@ -40,7 +40,7 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
 <a name="WhichRecords"></a>   
 ## Which records are associated with the email activity?  
- By default, when you track an email message, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] address book to link the message to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts on the **To**, **From**, and **Bcc** lines. You can also link the email message to a more specific record, such as a specific account, opportunity, or case. It’s usually best to link a message to a more specific record, if possible. This will make the record easier to find.  
+ By default, when you track an email message, [!INCLUDE[pn_crm_for_outlook_short](../../includes/pn-crm-for-outlook-short.md)] uses the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] address book to link the message to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] contacts on the **To**, **From**, and **Bcc** lines. You can also link the email message to a more specific record, such as a specific account, opportunity, or case. It’s best to link a message to a more specific record, if possible. This will make the record easier to find.  
   
 <a name="Track"></a>   
 ## Track an email message  
@@ -49,17 +49,17 @@ To get the most out of [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm
   
 2. Do one of the following:  
   
-   - To track the email message without linking it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Track**.  
+   - To track the email message without linking it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, select **Track**.  
   
       -Or-  
   
-   - To track the email message and link it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **Set Regarding**, click **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, click **Add**.  
+   - To track the email message and link it to a particular record in [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)], on the **Home** tab, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, select **Set Regarding**, select **More**, and then search for the record in the **Look Up Record** dialog box. After you find the record you want, select **Add**.  
   
-     When you click the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
+     When you select the **Track** button or the **Set Regarding** button, a [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] pane (also known as the “tracking pane”) appears at the bottom of the email record. This pane shows that the record is tracked and provides links to related records. If you set a “regarding” record, the tracking pane also provides a link to that record. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [Overview of tracking records in Dynamics 365 for Outlook](overview-tracking-records.md)  
   
      You can also tell that a record is tracked by looking in the [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)] folder. You’ll see the **Tracked in Dynamics 365 apps** symbol ![Tracked in Dynamics 365 apps icon.](../media/priv-biz-unit.gif "Tracked in Dynamics 365 apps icon") next to any tracked records.  
   
-3. To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, click **View in Dynamics 365 apps**.  
+3. To modify the [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] activity record (for example, to change the regarding record), open the email message in [!INCLUDE[pn_Outlook_short](../../includes/pn-outlook-short.md)], and then, in the **[!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)]** group, select **View in Dynamics 365 apps**.  
   
 <a name="WhatElse"></a>   
 ## What else to I need to know about tracking email records?  

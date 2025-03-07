@@ -2,7 +2,6 @@
 title: "Manage currencies in Dynamics 365 Customer Engagement (on-premises)"
 description: "If your customers are spread across geographies, add their currencies to manage your transactions. You can also edit, disable, or delete currencies."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 0448166f-36a5-4f87-bb2a-a1904914c2ab
 caps.latest.revision: 22
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

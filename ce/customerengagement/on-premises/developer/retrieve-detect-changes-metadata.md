@@ -2,7 +2,6 @@
 title: "Retrieve and detect changes to metadata (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The classes in the Query namespace and the RetrieveMetadataChangesRequest and RetrieveMetadataChangesResponse classes let you build efficient metadata queries and capture changes to metadata as they occur over time."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -24,7 +23,7 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
   
  All code examples referenced in this document are found in [Sample: Query Metadata and Detect Changes](/powerapps/developer/data-platform/org-service/metadata-option-sets).  
   
- The technical article [Query Metadata Using JavaScript](/previous-versions/dynamics-crm2011/developer-articles/jj919080(v=crm.6)) provides a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library to use the objects and messages in client-sided code.  
+ The technical article [Query Metadata Using JavaScript](/dynamics365/customerengagement/on-premises/developer/retrieve-detect-changes-metadata) provides a [!INCLUDE[pn_JavaScript](../includes/pn-javascript.md)] library to use the objects and messages in client-sided code.  
   
 <a name="BKMK_MetadataStrategies"></a> 
   
@@ -290,7 +289,5 @@ The classes in the <xref:Microsoft.Xrm.Sdk.Metadata.Query> namespace and the <xr
  [Customize Entity Metadata](customize-entity-metadata.md)   
  [Customize Entity Attribute Metadata](customize-entity-attribute-metadata.md)   
  [Customize Entity Relationship Metadata](customize-entity-relationship-metadata.md)   
- [Query Metadata Using JavaScript](/previous-versions/dynamics-crm2011/developer-articles/jj919080(v=crm.6))
-
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

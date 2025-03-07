@@ -1,23 +1,17 @@
 ---
 title: Configure the ability for users to join existing connected chats
 description: Learn how to configure the ability for users to join existing connected chats.
-ms.date: 09/09/2022
+ms.date: 06/28/2024
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Configure the ability for users to join chats
 
 Configure the ability for users to join existing connected chats.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | <ul><li>Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or any Dynamics 365 customer engagement app license</li> <li>Microsoft Teams license</li></ul>  <br>More information: <ul><li>[Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/)</li><li>[Microsoft Teams pricing](https://www.microsoft.com/microsoft-teams/compare-microsoft-teams-options?activetab=pivot:primaryr2&rtc=1)</li><li>[Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409)</li></ul> |
-| **Security roles** | System Administrator<br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
 
 ## Turn on join chat
 
@@ -41,11 +35,11 @@ The ability for users to join existing chats is especially useful for the follow
 
 4. In the settings panel, turn on the **Join chat** toggle.
 
-    ![Settings page to turn on or off the join chat feature.](media/lead-configure-join-chat.png "Settings page for turning the join chat feature on or off.")
+    :::image type="content" source="media/lead-configure-join-chat.png" alt-text="Settings page for turning the join chat feature on or off.":::
 
 4. Select **Save**.
 
-### See also
+## Related information
 
 [Enable or disable Microsoft Teams chat in Sales Hub](enable-teams-chat.md)   
 [Join an existing connected chat](join-chat.md)

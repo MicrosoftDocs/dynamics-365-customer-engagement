@@ -5,6 +5,7 @@ ms.date: 10/16/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 products:
 - Sales premium 
 - Sales enterprise
@@ -12,13 +13,6 @@ products:
 # Prioritize sales pipeline with work lists  
 
 Use work lists in the sales accelerator to prioritize your sales pipeline and ensure that important records aren't left behind.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## How to prioritize your pipeline
 
@@ -195,7 +189,7 @@ The email will be sent to all the recipients you specify. You can verify that th
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Create and manage sequences](create-manage-sequences.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  

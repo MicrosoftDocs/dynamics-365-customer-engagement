@@ -7,20 +7,13 @@ ms.custom:
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
 # View and understand the home page
 
 When you sign in to conversation intelligence as a sales manager, you'll see the home page. This page provides high-level information on the status of your current sales period and insights into what your customers are talking about, the behaviors of your top sellers, and the team's sales pipeline for the selected time period.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Sections of the home page
 
@@ -259,7 +252,7 @@ The following image shows how the call recording KPIs are displayed.
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)  

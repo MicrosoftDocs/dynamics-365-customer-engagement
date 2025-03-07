@@ -1,14 +1,17 @@
 ---
-title: "Enable Microsoft Teams meetings in Customer Service | Microsoft Docs"
+title: Enable Microsoft Teams meetings in Customer Service
 description: Learn how to enable Microsoft Teams meetings functionality in Dynamics 365 Customer Service and Dynamics 365 Customer Service workspace.
-ms.date: 06/21/2022
+ms.date: 01/15/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ms.collection: bap-template
 ---
 
 # Enable Microsoft Teams meeting integration in Customer Service (preview)
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 > [!IMPORTANT]
 > [!INCLUDE[cc-preview-feature](../../includes/cc-preview-feature.md)]
@@ -19,54 +22,44 @@ ms.collection: bap-template
 >
 > [!INCLUDE[cc-preview-features-no-ms-support](../../includes/cc-preview-features-no-ms-support.md)]
 
-The Microsoft Teams meeting integration feature allows your Dynamics 365 Customer Service agents to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. 
+The Microsoft Teams meeting integration feature allows your Dynamics 365 customer service representatives (service representatives or representatives) to quickly access and update records in Microsoft Teams before, during, and after meeting with their customers. 
 
-By enabling this feature, you can help give agents and supervisors in your organization a cohesive, seamless experience between Dynamics 365 and Teams. Agents can use the meetings functionality to more efficiently meet their customers' needs.
+By enabling this feature, you can help give representatives and supervisors in your organization a cohesive, seamless experience between Dynamics 365 and Teams. Representatives can use the meetings functionality to more efficiently meet their customers' needs.
 
 ## Prerequisites
 To enable Teams integration in Customer Service, the following prerequisites must be met.
 
 - You must have a Dynamics 365 Customer Service license for your organization.
-- As an administrator, you must configure the ability for agents in your organization to add and join Teams meetings in the Power Platform admin center app. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features) 
-- Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps will show up on calendars in Microsoft Outlook and Teams. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
+- As an administrator, you must configure the ability for representatives in your organization to add and join Teams meetings in the Power Platform admin center app. Learn more in [Manage feature settings - Power Platform](/power-platform/admin/settings-features) 
+- Optional: Configure the ability to sync calendars so that any meetings that are created in Dynamics 365 apps will show up on calendars in Microsoft Outlook and Teams. Learn more in [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
 
 ## Enable Teams meeting integration
 
 Complete the following steps to enable Teams meeting integration.
 
-1. 1. In Dynamics 365, go to one of the apps, and perform the following steps.
-
-   ### [Customer Service admin center](#tab/customerserviceadmincenter)
-
-    1. In the site map, in **Agent experience**, select **Collaboration**.
+1. In the site map of Customer Service admin center or Contact Center admin center, go to **Agent experience** > **Collaboration**.
     
-    1. In **Meeting integration using Teams (preview)**, select **Manage**.
+1. In **Meeting integration using Teams (preview)**, select **Manage**.
    
-   ### [Customer Service Hub - Service Management (deprecated)](#tab/customerservicehub)
-
-    [!INCLUDE[csh-deprecation](../../includes/csh-deprecation.md)]
-
-    1. In the site map, select **Service Management**.
-    2. On the site map, under **Collaboration**, select **Meeting integration using Teams (preview)**.
-
 1. Toggle **Show Dynamics 365 data in Teams meetings (preview)** to **Yes**.
     
 1. Select **Save**.
 
 As mentioned in the prerequisites, the following settings are displayed on the page:
 
-- **Sync calendars**: This optional setting ensures that the meetings created in Dynamics 365 are added to Microsoft Outlook and Teams, and show up on agent calendars. More information: [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
-- **Add and join meetings**: This required setting ensures that an agent can create and join Microsoft Teams meetings directly from Dynamics 365. More information: [Manage feature settings - Power Platform](/power-platform/admin/settings-features)
+- **Sync calendars**: This optional setting ensures that the meetings created in Dynamics 365 are added to Microsoft Outlook and Teams, and show up on representative calendars. Learn more in [Set up server-side synchronization of email, appointments, contacts, and tasks - Power Platform](/power-platform/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)
+- **Add and join meetings**: This required setting ensures that a representative can create and join Microsoft Teams meetings directly from Dynamics 365. Learn more in [Manage feature settings - Power Platform](/power-platform/admin/settings-features)
 
 > [!Note]
 > The **Record and get insights** setting is only available in Dynamics 365 Sales apps where customers have a premium license.
 
 ## Configure record side panel
 
-The side panel helps agents quickly view and update details of the related record during a Teams meeting. The side panel displays notes, tasks, and activities associated with the record. As an administrator, you can customize the side panel to meet the needs of your agents. The record side panel supports only Contact, Opportunity, Lead, Account, and Case entities.
+The side panel helps representatives quickly view and update details of the related record during a Teams meeting. The side panel displays notes, tasks, and activities associated with the record. As an administrator, you can customize the side panel to meet the needs of your representatives. The record side panel supports only Contact, Opportunity, Lead, Account, and Case entities.
 
 > [!Note]
-> The record side panel can be customized by customizing the **In Context Form** of a table. The following table lists the supported and unsupported customizations for the side panel.
+> - Case is applicable to Customer Service only.
+> - The record side panel can be customized by customizing the **In Context Form** of a table. The following table lists the supported and unsupported customizations for the side panel.
 
 | Supported customizations | Unsupported customizations |
 |------|--------|
@@ -99,5 +92,5 @@ To see appointments in Teams, enable mailbox record integration by following the
 1. Refresh the record until you see **Success** for the status. Then you can create an appointment with a Teams meeting and it'll be added to the Teams calendar.
 
    
-### See also
+### Related information
 [Use Microsoft Teams Meeting integration in Customer Service](../use/use-teams-meetings.md)

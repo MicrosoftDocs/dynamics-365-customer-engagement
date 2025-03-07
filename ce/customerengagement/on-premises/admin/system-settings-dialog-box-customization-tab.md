@@ -2,7 +2,6 @@
 title: "Customization settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Customization tab, set preferences for plug-in and workflow tracing, as well as the use of application mode."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -11,10 +10,10 @@ ms.topic: article
 applies_to: 
   - Dynamics 365 for Customer Engagement  (online)
   - Dynamics 365 for Customer Engagement  Version 9.x
-author: jimholtz
+author: Mattp123
 ms.assetid: d1d78ba3-58a9-4608-acfc-eb1da235fe1b
 caps.latest.revision: 25
-ms.author: jimholtz
+ms.author: matp
 search.audienceType: 
   - admin
 ---

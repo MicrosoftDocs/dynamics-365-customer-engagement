@@ -1,11 +1,12 @@
 ---
-title: "Auto capture in Dynamics 365 Sales"
-description: "Use the auto capture to capture activities related to your emails and contacts, and display on timeline."
-ms.date: 12/06/2022
-ms.custom: 
-ms.topic: article
+title: Auto capture in Dynamics 365 Sales
+description: Use the auto capture to capture activities related to your emails and contacts, and display on timeline.
+ms.date: 03/13/2024
+ms.custom: bap-template
+ms.topic: overview
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 caps.latest.revision: 1
 searchScope: 
   - D365-App-msdynce_saleshub
@@ -20,19 +21,12 @@ searchScope:
 
 Use the auto capture to capture activities related to your emails and contacts, and display on timeline.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## What is auto capture? 
 
 The activities captured by the auto capture feature are shown on the timeline in Dynamics 365 Sales. The feature finds activities by applying a set of rules that are specific to the record type. For example, when you look at an opportunity in Microsoft Dynamics 365 Sales, the timeline shows all the activities you've logged. Additionally, it shows suggestions for up to 50 recent emails and meetings from the last three days in your Outlook account that are related to the primary contact for the opportunity or its stakeholders.
 
 >[!NOTE]
->The appointment suggestion starts appearing on the timeline three days prior to the actual appointment time.
+>The appointment suggestion starts appearing on the timeline three days prior to the actual meeting time.
 
 The following images show how tracked and auto-captured (not yet tracked) emails and meetings are displayed on the timeline:
 
@@ -40,6 +34,10 @@ The following images show how tracked and auto-captured (not yet tracked) emails
 
     > [!div class="mx-imgBorder"]
     > ![Untracked auto-captured email](media/auto-capture-basic-capture-email.png "Untracked auto-captured email")
+
+    > [!NOTE]
+    > From version 9.2.24031.00102, Dynamics 365 Sales follows [principle of least privilege access](/entra/identity-platform/secure-least-privileged-access), which blocks access to untracked emails and meetings for users who have [conditional access policies](/entra/identity/conditional-access/concept-conditional-access-policy-common?tabs=secure-foundation) on their tenants. If you don't see the untracked emails and meetings, contact your administrator to [verify whether the issue is due to conditional access policies on your tenant](/troubleshoot/dynamics-365/sales/troubleshoot-emails-issues#issue-unable-to-view-untracked-emails-and-meetings-in-auto-capture). Alternatively, your administrator can enable [Microsoft 365 Copilot for Sales in Outlook](/microsoft-sales-copilot/save-outlook-activities-crm) so that you can record individual activities or [server-side synchronization](/power-platform/admin/email-message-filtering-correlation) to track all emails and meetings automatically.
+
 
 -	**Track link**: Select the **Track** icon on an untracked activity captured by auto capture, making it visible to everyone who has access to the timeline of this specific record.
 The activities that auto capture finds are only visible to you, so other members of your sales team won't be able to see them in Dynamics 365 Sales. When you select the **Track** link on any auto-captured message, you turn it into a tracked email message, which saves the activity into the Dynamics 365 Sales database and makes it visible to other members of your team. It might take a few minutes for an activity to go from not being tracked to tracked, during which time it shows a **Tracking pending** message.
@@ -67,9 +65,8 @@ Auto capture queries your Outlook account and looks for activities related to th
 |Custom entities|For *account* fields: the email address for the **Primary Contact** of the account, plus all **Email** addresses defined for the account record itself.<br /><br /> For *contact* fields: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to a contact: all **Email** addresses defined for the contact record.<br /><br /> For *customer* fields that refer to an account: the **Email** address of the listed **Primary Contact**, plus all **Email** addresses defined for the account record itself.|  
 
 
-### See also
+## Related information
 
-[Enable and configure auto capture](configure-auto-capture.md)<br>
-[Auto capture FAQs](faqs-sales-insights.md#auto-capture)
+[Enable and configure auto capture](configure-auto-capture.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

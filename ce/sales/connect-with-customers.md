@@ -1,9 +1,10 @@
 ---
 title: Connect with customers through your work list or the Up next widget
 description: Learn how to use the Up next widget or the My work list to connect with customers by phone, email, and Teams meeting in Dynamics 365 Sales.
-ms.date: 02/16/2024
+ms.date: 04/23/2024
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ms.topic: how-to 
 ms.custom: bap-template
 ---
@@ -15,13 +16,6 @@ As a seller using Dynamics 365 Sales, you can connect with your customers daily 
 When a sequence contains a customer contact activity, your [work list](prioritize-sales-pipeline-through-work-list.md#view-my-records-by-using-the-work-list) and the [**Up next**](understand-the-up-next-widget.md) widget display the corresponding icon (phone, email, or Teams meeting). After you make the phone call, send the email, or attend the meeting, you'll mark the activity complete and continue with the next activity in the sequence. If an activity doesn't need to be completed or you can't connect with a customer, you can [skip or snooze the activity](#skip-or-snooze-an-activity). You can add notes to activities to help you remember important information.
 
 By default, activities are assigned to the owner of the record. When the owner of the record changes, the current active step remains with the previous owner, while the next steps in the sequence will be automatically assigned to the new owner. The owner of the record can also assign a particular activity to a team or an individual. To do this, on the worklist card or the Up next widget, select **More options** > **Assign** and choose the user or team accordingly.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
 
 ## Call a customer
 
@@ -106,9 +100,9 @@ You can select the text message option in the following ways:
 
 -	From the **Up next** widget, select **Text message** in the activity.
 
-When the text message is selected, the conversation pane opens, allowing you to compose your message or select a template through the text box to send. Additionally, if you have multiple phone numbers associated, you can choose which number to use for sending the message. 
+When the text message is selected, the conversation pane opens, allowing you to compose your message or select a template through the text box to send. Additionally, if you and your customer have multiple associated phone numbers, you can select a specific number from which to send the message, as well as a specific number for the customer to receive it.
 
-:::image type="content" source="media/sms-text-message-pane.png" alt-text="Screenshot of the conversation pane.":::
+:::image type="content" source="media/sms-text-message-pane.svg" alt-text="Screenshot of the conversation pane.":::
 
 The message history is linked to the record and available for you or other sellers who work on the record for reference. Also, you can view replies from the customers and respond to them through the conversation pane. More information: [Manage text message conversations](manage-text-message-communications.md)
 
@@ -157,7 +151,7 @@ If you can't connect with a customer by the due date and want to follow up later
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Prioritize your sales pipeline by using the work list](prioritize-sales-pipeline-through-work-list.md)  
 [Understand the Up next widget](understand-the-up-next-widget.md)  

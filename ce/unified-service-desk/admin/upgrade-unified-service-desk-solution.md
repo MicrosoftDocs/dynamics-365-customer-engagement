@@ -1,15 +1,14 @@
 ---
 title: "Upgrade a Unified Service Desk solution | MicrosoftDocs"
 description: "Learn how to upgrade Unified Service Desk sample application package to the latest version using the upgrade procedure."
-ms.date: 06/21/2022
+ms.date: 06/27/2024
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
-ms.custom: 
-  - dyn365-USD
-  - dyn365-admin
+ms.custom: evergreen
 ---
 # Upgrade Unified Service Desk
 

@@ -1,10 +1,11 @@
 ---
 title: View notifications in Customer Service
 description: Learn about notifications and their types. Agents will see notifications and screen pops in Customer Service apps.
-ms.date: 10/16/2023
+ms.date: 03/15/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-title
@@ -13,7 +14,10 @@ ms.custom:
 
 # View notifications
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 > [!IMPORTANT]
 > This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with agents may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
@@ -32,15 +36,16 @@ Here are some scenarios where you might receive notifications:
 
 ## Receive notifications when the app is in the background
 
-Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Omnichannel for Customer Service app isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
+Agents can receive notification alerts on their desktop always or only when the Customer Service workspace or Contact Center workspace isn't in focus. These notifications help ensure that agents won't miss any conversation requests. Some scenarios where the app isn't in focus might include:
 
 - The agent has minimized the app.
 - The agent is working in another browser window.
 - The agent is working on another tab of the browser.
-- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Omnichannel for Customer Service app.
+- The agent is using two screens, and is on the screen that doesn't have either the Customer Service workspace or Contact Center workspace app.
 
 > [!Note]
-> The **Always(preview)** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
+> - The **Always** option for **Show Desktop Notifications** is in preview. To use this feature, it must be turned on and the license terms must be accepted. [What are Preview features and how do I enable them?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them).
+> - Desktop notifications aren't supported in the embedded experience.
  
  > [!div class=mx-imgBorder]
  > ![Desktop notification.](../media/desktop-notification.png "Desktop notification")
@@ -51,7 +56,7 @@ If you select the notification message body and not a button, the app is made ac
 
 The wait time that's configured by your administrator applies to the desktop notification but doesn't display on it.
 
-That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. More information: [Manage notification templates and settings](../administer/notification-templates.md)
+That is, your administrator has configured the wait time as 90 seconds and set the **Show Timeout** field to **No**. Now, when you get a notification, the wait time won't be displayed on the notification. However, you have 90 seconds to take action. Learn more at [Manage notification templates and settings](../administer/notification-templates.md).
 
 > [!NOTE]
 > The desktop notification theme is based on the Windows operating system theme and settings.
@@ -59,6 +64,9 @@ That is, your administrator has configured the wait time as 90 seconds and set t
 ### Allow your browser to show notifications
 
 To get desktop notifications, you need to allow your browser to show notifications. When you get a browser notification, select **Allow**.
+
+> [!Note]
+> Desktop notifications aren't supported in the embedded experience.
 
  > [!div class=mx-imgBorder]
  > ![Allow desktop notification.](../media/allow-desktop-notification.png "Allow desktop notification")
@@ -78,7 +86,7 @@ Based on your organization's configurations, you can't reject conversations. The
 
 ## Incoming voice call notifications
 
-You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. For information on how the call is processed and the call controls that are available to you, see [Use agent dashboard and call controls in the voice channel](voice-channel-agent-experience.md).
+You'll receive a voice call notification for an incoming call request after an intelligent bot processes the call. Learn more about how the call is processed and the call controls that are available to you at [Use agent dashboard and call controls in the voice channel](/dynamics365/contact-center/use/voice-channel-agent-experience).
 
 ## Incoming chat notifications
 
@@ -90,6 +98,9 @@ You receive a notification for an incoming chat request. When you accept the cha
 The details you'll see for a chat channel are as configured by your administrator.
 
 ## Case assignment notification
+
+> [!Note]
+> Case information is applicable to Customer Service only.
 
 If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case will be assigned to you.
 
@@ -120,11 +131,14 @@ When you don't respond to an incoming conversation notification, you'll see an a
 
 ## Notification time-out and rerouting of conversations
 
-When you don't respond to an incoming conversation notification, the conversation will time out based on the time-out settings configured by your administrator and be rerouted.
+When you don't respond to an incoming conversation notification, the notification gets timed out based on the time-out setting configured by your administrator in the [notification template](../administer/notification-templates.md#step-1-create-a-notification-template-with-the-following-values) and is rerouted.
 
-Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you had either closed the browser, navigated away from the app page, or had lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it ends up assigning conversations to you. The conversations are then rerouted after eight minutes.
+Sometimes, you might see that conversations have been assigned to you without notifications showing up. This can happen when the notifications are sent by the system but they aren't seen because you closed the browser, navigated away from the app page, or lost network connectivity before the notifications could be displayed. In such a case, while the system might take a few seconds to mark you as unavailable, it assigns the conversations to you. The conversation is rerouted eight minutes after the timeout has expired.
 
 ## Maximum session limit notifications
+
+> [!Note]
+> Maximum session limit reached notification isn't supported in the embedded experience.
 
 When you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, you'll see an alert at the top of your dashboard and your presence status will be automatically set to **Do not disturb**. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
@@ -141,7 +155,7 @@ When you reject a work item notification, you'll see an alert at the top of your
 
 :::image type="content" source="../media/agent-reject-notification-message.png" alt-text="Agent reject notification":::
 
-### See also
+### Related information
 
 [View customer information on Active Conversation form](oc-customer-summary.md)  
 [View communication panel](oc-conversation-control.md)  

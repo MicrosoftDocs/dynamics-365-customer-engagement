@@ -1,33 +1,35 @@
 ---
-title: "Configure Azure bots to escalate and end conversations | MicrosoftDocs"
-description: "Use this article to understand how to program Azure bots to route conversations to human agents and also end conversations in Omnichannel for Customer Service."
-ms.date: 07/29/2022
+title: "Configure Azure agents to escalate and end conversations | MicrosoftDocs"
+description: "Use this article to understand how to program agents in Azure to route conversations to representatives and also end conversations in Omnichannel for Customer Service."
+ms.date: 03/03/2025
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
-# Configure Azure bots to escalate and end conversations
+# Configure Azure agents to escalate and end conversations
 
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article explains how you can program an Azure bot to route a conversation to a human agent in Omnichannel for Customer Service. It also describes how to program the bot to end the conversation.
+
+This article explains how you can program an AI agent(agent) in Azure to route a conversation to a customer service representative (service representative or representative) in Omnichannel for Customer Service. It also describes how to program the agent to end the conversation.
 
 > [!IMPORTANT]
-> - Bots can receive conversations only if they're added to push-based workstreams.
-> - Bot agents are not supported in consult mode.
+> - Agents can receive conversations only if they're added to push-based workstreams.
+> - AI agents are not supported in consult mode.
 
 ## Prerequisites
 
-- You must have an Azure bot that's configured and integrated with Omnichannel for Customer Service. More information: [Integrate an Azure bot](../administer/configure-bot-azure.md)
+- You must have an agent in Azure that's configured and integrated with Omnichannel for Customer Service. Learn more in [Integrate an Azure agent](../administer/configure-bot-azure.md)
 - Skill-based routing should be enabled.
 
-## Escalate a conversation to a human agent
+## Escalate a conversation to a representative
 
-In Omnichannel for Customer Service, a bot can escalate the current conversation to a human agent. The routing of the conversation depends on the routing rule that's configured for the workstream.
+In Omnichannel for Customer Service, an agent can escalate the current conversation to a representative. The routing of the conversation depends on the routing rule that's configured for the workstream.
 
-When the conversation is transferred from the bot to a human agent, the customer and case details are [automatically identified](../administer/record-identification-rule.md) when the agent accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-bot-escalates-or-ends-conversations).
+When the conversation is transferred from the AI agent to a representative, the customer and case details are [automatically identified](../administer/record-identification-rule.md) when the representative accepts the escalation request. The bot routes conversations by using the Omnichannel for Customer Service context variables that are associated with the conversation. The bot can send a list of context variables and associated values to Omnichannel for Customer Service, together with the escalation request. The bot can also set context items that can be used by skill finder models to identify new skills and append them to the existing skills list for the conversation. Omnichannel for Customer Service will then update the context variables with the specified values, and run the routing engine again. This ensures that the escalated conversation is routed to the right queue. For information on the context items and variable names, see [Link customer and case to conversations when bot escalates or ends conversations](../administer/record-identification-rule.md#link-customer-and-case-to-conversations-when-agent-escalates-or-ends-conversations).
 
-After the agent accepts the escalation request, the transcript of the bot's conversation with the customer is visible on the agent’s conversation widget. The agent can then continue the conversation with the customer.
+After the representative accepts the escalation request, the transcript of the agent's conversation with the customer is visible on the representative’s conversation widget. The representative can then continue the conversation with the customer.
 
 > [!NOTE]
 > The conversation summary won't be visible to the customer.
@@ -257,7 +259,7 @@ namespace Microsoft.Bot.Builder.EchoBot
 }
 ```
 
-The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's an agent queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat will be routed to that queue.
+The dictionary `contextVars` contains all the Omnichannel for Customer Service context variable name value pairs that you want to update as part of the escalation request. Here `BotHandoffTopic` is the context variable name and **CreditCard** is the context variable value. If there's a representative queue with the rule **BotHandoffTopic** equals **CreditCar**, then this escalated chat will be routed to that queue.
 
 The context variable name is of type String. The context variable value must be of type Integer or String, and should be passed as Dictionary<string, object> during escalation. The sample code is as follows.
 
@@ -268,9 +270,9 @@ Dictionary<string, Object> keyValues = new Dictionary<string, object>() {
 }
 ```
 
-The bot can also send an escalation summary that'll be visible only to the agent after the escalated chat request is accepted. To send the summary, set the activity text appropriately in the escalation Activity message.
+The agent can also send an escalation summary that'll be visible only to the representative after the escalated chat request is accepted. To send the summary, set the activity text appropriately in the escalation Activity message.
 
-### See also
+### Related information
 
 [Integrate an Azure bot](../administer/configure-bot-azure.md)  
 [Add context variables](../administer/manage-context-variables.md#add-context-variables)  

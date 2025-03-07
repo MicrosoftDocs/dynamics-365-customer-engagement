@@ -1,23 +1,16 @@
 ---
 title: Configure advanced settings for a forecast
 description: Configure advanced settings for a forecast in Dynamics 365 Sales.
-ms.date: 06/05/2023
+ms.date: 02/25/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi 
+ms.reviewer: lavanyakr 
 ---
 
 # Configure advanced settings for forecasts
 
 Use the **Advanced** step of the forecast configuration to customize the forecast. You can enable features, such as multi-currency selection and Kanban view. You can also override column headers and customize the underlying records grid by using javascript. 
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Automatically hide parent row
 
@@ -46,7 +39,9 @@ For example, your organization has sales teams in the United States, Canada, and
 
 ## Set Kanban as the default view for underlying records (preview)
 
-[!INCLUDE [preview-disclaimer](../includes/preview-disclaimer.md)]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 The underlying records of a forecast can be displayed in a table view or a Kanban (swimlane) view. Table view is the default. To change it, turn on **Set kanban as default**.
 
@@ -174,7 +169,7 @@ For more such customization examples, see [Override save, update, and load event
 </td></tr>
 </table>
 
-### See also
+## Related information
 
 [Configure forecasts in your organization](configure-forecast.md)  
 [Events and context objects for underlying records grid](../sales-enterprise/developer/reference/custom-actions/events-context.md)

@@ -1,10 +1,11 @@
 ---
 title: "Create or manage teams in Dynamics 365 Sales | MicrosoftDocs"
 description: "Create a team with a group of users so they can share and collaborate on business records in Dynamics 365 Sales."
-ms.date: 11/18/2021
+ms.date: 01/28/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - "dyn365-sales"
 ---
@@ -13,22 +14,13 @@ ms.custom:
 
 A team is a group of users who share and collaborate on business records. A user can be associated with multiple teams.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Create a team
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information:
 
 # [Sales Premium or Sales Enterprise](#tab/sales)
 
-1. From the Sales Hub app, select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then **Advanced settings**. 
-
-2. Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
+Follow the instructions in [Microsoft Dataverse teams management](/power-platform/admin/manage-teams) to create and manage teams.
 
 # [Sales Professional](#tab/salespro)
 
@@ -50,8 +42,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
     -   **Select Team Administrator**: Select the person who will do the team administration, such as adding members to or removing members from the team.
 
-      > [!div class="mx-imgBorder"]
-      > ![Add New Team pane.](media/add-new-team-dialog-box.png "Add New Team pane")
+      :::image type="content" source="media/add-new-team-dialog-box.png" alt-text="Add New Team pane":::
 
 ### Add members to the team
 
@@ -63,7 +54,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 ### Remove members from the team
 
-1. On the **Team Management** page, select the team you want to remove the members from
+1. On the **Team Management** page, select the team you want to remove the members from.
 
 2. In the **Team members** section, select the members you want to remove, and then select **Remove**.
 
@@ -71,22 +62,23 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 When a team is assigned a role, the team members are assigned the set of privileges associated with that role.
 
-1.  Select the **Settings** icon ![Settings icon.](media/settings-icon.png "Settings icon"), and then select **Advanced settings**.
+1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
 
 2. Select **Settings** > **Security** > **Teams**.
 
-3.  Select a team you want to assign a role to, and then on the command bar, select **Manage Roles**.
+3.  Select a team you want to assign a role to, and then on the command bar, select **Manage security roles**.
 
-4.  In the **Manage Team Roles** dialog box, select the security role you want for the team, and then select **OK**.
+4.  In the **Manage security roles** pane, select the security role you want for the team, and then select **Save**.
 
 ---
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 
-### See also
+## Related information
 
 [Admin settings overview](admin-settings-overview.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+

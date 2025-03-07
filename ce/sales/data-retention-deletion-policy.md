@@ -1,46 +1,30 @@
 ---
 title: Data retention and deletion policy in conversation intelligence
 description: Provide read-only access to your call data and determine how long you want to keep the analyzed call recording data in the conversation intelligence app.
-ms.date: 05/16/2023
-ms.custom: 
-ms.topic: article
-ms.assetid: c85b26ab-0150-454f-8767-6aed448529bc
+ms.date: 09/20/2024
+ms.topic: how-to
 author: udaykirang
 ms.author: udag
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
-caps.latest.revision: 1
-topic-status: Drafting
+ms.reviewer: udag
+ms.custom: bap-template
 ---
 
 # Data retention and deletion policy in conversation intelligence
 
 When you configure conversation intelligence, sales call recordings of sellers are processed and analyzed to provide necessary insights such as overall customer sentiments, sentiment trends, and identify keywords that customers have used during calls.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Configure data retention and access
 
-1. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).
-  
-3. Select the **Settings** icon on the top-right of the page and then select **Settings**.  
-
-    :::image type="content" source="media/si-app-admin-select-settings.png" alt-text="Select settings option.":::
+1. Sign in to the [Conversation intelligence app](https://sales.ai.dynamics.com/).  
+1. Select the **Settings** icon on the top-right of the page and then select **Settings**.  
+    :::image type="content" source="media/si-app-admin-select-settings.png" alt-text="Select settings option.":::  
 1. On the **Settings** page, select **Privacy**.  
-1.    In the Privacy page, configure the following options as required:  
-    - **Read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization's data in conversation intelligence.
-    - **Delete contact's data**: Use this option to delete a contact's data by using the contact ID provided in Dynamics 365. Enter the contact ID in the text box and then select **Delete data**. 
-    - **Retention policy**: Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. The retention period is available from 30 days until 10 years.
-   :::image type="content" source="media/si-admin-privacy-settings-ciapp.png" alt-text="Privacy settings page in conversation intelligence app.":::
-
-5. Select **Save**.
+1. In the Privacy page, configure the following options as required:  
+    - **Read-only access to data**: Select this option to allow Microsoft to improve the quality of insights through manual (human) read-only access to your organization's data in conversation intelligence.  
+    - **Delete contact's data**: Use this option to delete a contact's data by using the contact ID provided in Dynamics 365. Enter the contact ID in the text box and then select **Delete data**.  
+    - **Retention policy**: Choose a retention time limit. The application keeps call recording data for the specified time limit, and deletes it when the time limit is reached. The retention period is available from 30 days until 10 years.  
+   :::image type="content" source="media/si-admin-privacy-settings-ciapp.png" alt-text="Privacy settings page in conversation intelligence app.":::  
+1. Select **Save**.
 
 [Learn more about Microsoft Dynamics 365 and data privacy](/dynamics365/get-started/privacy).
 
@@ -49,7 +33,7 @@ When you configure conversation intelligence, sales call recordings of sellers a
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)] 
 
-### See also
+## Related information
 
 [Introduction to administer conversation intelligence](intro-admin-guide-sales-insights.md#administer-conversation-intelligence)  
 [Set up conversation intelligence in Sales Hub app](fre-setup-ci-sales-app.md)  

@@ -5,17 +5,11 @@ ms.date: 10/26/2021
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Work with LinkedIn activities
 
 You can use LinkedIn-related activities that have been defined for sequences in the sales accelerator to display steps in the work list and **Up next** widget.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## What are LinkedIn activities?
 
@@ -115,7 +109,7 @@ The following image is an example of the **Send InMail** side pane:
  
 For more information on sending InMail, go to [Send an InMail Message](https://www.linkedin.com/help/linkedin/answer/437).
 
-### See also
+## Related information
 
 [Add LinkedIn activities to sequence](linkedin-activities-sequence.md)
 

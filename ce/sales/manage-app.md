@@ -1,10 +1,11 @@
 ---
 title: "Customize the Dynamics 365 Sales app"
 description: "Learn how to customize the Dynamics 365 Sales app."
-ms.date: 11/23/2021
+ms.date: 02/11/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: 
   - dyn365-sales
 ---
@@ -12,13 +13,6 @@ ms.custom:
 # Customize the Dynamics 365 Sales app
 
 The Dynamics 365 Sales application is a modular app built to provide capabilities tailored for sales professionals and sales managers. As an administrator or customizer, you can easily customize the tables, dashboards, forms, views, charts, and business processes included in the Sales application using the app designer, without having to write any code.
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or System Customizer <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Customize the app
 
@@ -61,7 +55,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Add site map entry to custom app](add-custom-site-map.md)
 

@@ -5,7 +5,7 @@ ms.date: 02/12/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -20,7 +20,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The insights dashboards for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases and topics that contribute to overall trends.
 
-The Customer Service dashboards give you a performance summary and detailed reports on cases, agents, and topics. You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
+The Customer Service dashboards give you a performance summary and detailed reports on cases, customer service representatives (service representatives or representatives), and topics. You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
 
 ## Manage dashboards
 
@@ -36,7 +36,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs for individual agents and overall agent performance. More information: [Agent dashboard](agent-dashboard-cs.md)
+The Agent dashboard shows charts and KPIs for individual service representatives and overall representative performance. More information: [Agent dashboard](agent-dashboard-cs.md)
 
 ### Case Topics
 
@@ -68,7 +68,7 @@ The following tables are used for Customer Service historical analytics:
 > [!NOTE]
 > A report might be blank if you've customized any of the listed entities or aren't using out-of-the-box entities.
 
-### See also
+### Related information
 
 [Introduction to Customer Service insights](../implement/introduction-customer-service-analytics.md)    
 [Configure Customer Service insights for Customer Service Hub and Customer Service workspace](../administer/configure-customer-service-analytics-insights-csh.md)   

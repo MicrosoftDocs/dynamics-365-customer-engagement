@@ -1,32 +1,29 @@
 ---
 title: Explore features in included in the trial
 description: Learn about the features available in your Dynamics 365 Sales trial.
-ms.date: 02/06/2023
+ms.date: 06/28/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ms.custom: bap-template
 ---
 
 # Explore features included in the trial
 
-The Microsoft Dynamics 365 Sales trial includes the following features to help you manage your pipeline, accelerate sales, project revenue, analyze your sales conversations through AI-powered conversation intelligence, and more:
+The Microsoft Dynamics 365 Sales trial includes several features to help you manage your pipeline, accelerate sales, project revenue, analyze your sales conversations through AI-powered conversation intelligence, and more.
 
-- [Pipeline management](#pipeline-management)
-- [Sales accelerator](#sales-accelerator)
-- [Sales forecasting](#sales-forecasting)
-- [Conversation intelligence](#conversation-intelligence)
-- [Teams collaboration](#teams-collaboration)
-- [Mobile app](#mobile-app)
+If you haven't yet signed up for the trial, see [Sign up for a free Dynamics 365 Sales trial](sign-up-for-sales-trial.md). To learn the basics of using Dynamics 365 Sales, see [this article](user-guide-learn-basics.md).
 
 > [!IMPORTANT]
-> During your trial, you'll have access to the Sales Trial app. In the documentation links listed in this article, assume that any references to the Sales Hub app refer to the Sales Trial app.
+> During your trial period, you'll have access to the **Sales Trial** app. Throughout this documentation, we refer to the **Sales Hub** app, which is the full version of the **Sales Trial** app.
+In the documentation links listed in this article, assume that any references to the Sales Hub app refer to the Sales Trial app.
 
 ## Pipeline management
 
 Managing a sales pipeline using leads and opportunities is one of the basic and key functions of any sales organization. Watch this brief video to understand how Dynamics 365 Sales helps you manage your pipeline:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ccf5ecba-90ff-4d7c-ac12-ac9ff309a367]
 
 Want to learn more? Read this article:
 
@@ -42,7 +39,7 @@ The sales accelerator in Dynamics 365 helps you to:
 
 Watch this brief video to get a sneak peek into the sales accelerator:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCQ3Q]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=e71ddb07-becd-401e-9834-970c48327409]
 
 Want to learn more? Read these articles:
 
@@ -57,7 +54,7 @@ Project accurate revenue with sales forecasting. A forecast helps your organizat
 
 Watch this brief video to get a sneak peek into forecasting:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCXou]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=0461fe92-4e45-4c10-8b32-24d72ba8ff38]
 
 Want to learn more? Read these articles:
 
@@ -70,7 +67,7 @@ Conversation intelligence uses analytics and data science to gather data from se
 
 Watch this brief video to get a sneak peek into conversation intelligence:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCYPO]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=1484d8dc-1331-4eb7-87e3-e1a017d975f8]
 
 Want to learn more? Read these articles:
 
@@ -96,7 +93,7 @@ The Dynamics 365 Sales mobile app is optimized for core field seller scenarios t
 
 Watch this brief video to get a sneak peek into the mobile experience:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWCZDG]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=de2a55ad-205d-46fc-ac56-b7f7396d7998]
 
 Want to learn more? Read these articles:
 

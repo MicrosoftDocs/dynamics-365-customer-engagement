@@ -2,7 +2,6 @@
 title: "Connect Yammer to Dynamics 365 Customer Engagement apps"
 description: "Connect Yammer to your Customer Engagement apps to provide your organization a central place for creating and editing documents and sharing information."
 ms.custom: 
-ms.date: 10/02/2018
 ms.reviewer: 
 
 ms.suite: 
@@ -13,8 +12,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 7e180f88-c913-4b46-a923-c7162cf44566
 caps.latest.revision: 25
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---

@@ -5,7 +5,7 @@ ms.topic: article
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # lcw:onMessageSent event (Omnichannel for Customer Service JavaScript API reference)
 
@@ -19,7 +19,7 @@ This event is triggered when a new message is sent by the customer engaged on th
 window.addEventListener("lcw:onMessageSent", function handleWidgetMessageSentEvent(){ // Handle the live chat widget message sent event }); 
 ```
 
-### See also
+### Related information
 
 [lcw:ready](lcw-ready.md)  
 [lcw:error](lcw-error.md)  

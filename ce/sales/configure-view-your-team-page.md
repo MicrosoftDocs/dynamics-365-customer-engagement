@@ -5,6 +5,7 @@ ms.date: 10/31/2022
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 caps.latest.revision: 1
 topic-status: Drafting
 ---
@@ -12,14 +13,6 @@ topic-status: Drafting
 # Configure and view team page  
 
 Configure and view your team page with information on levels of hierarchy, top performers, and delete seller data.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## What can I configure
 
@@ -158,7 +151,7 @@ The list is updated every 24 hours to display the current active sellers in the 
 
 [!INCLUDE[cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Improve seller coaching and sales potential with conversation intelligence](dynamics365-sales-insights-app.md)
 

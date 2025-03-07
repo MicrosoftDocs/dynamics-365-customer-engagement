@@ -1,15 +1,18 @@
 ---
 title: Manage bookmarks for reports
 description: Learn how to create bookmarks to save personalized views of your Dynamics 365 Customer Service reports, set a bookmark as your default view, and delete bookmarks you no longer need.
-author: neeranelli
-ms.author: nenellim
-ms.reviewer: shujoshi
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 03/31/2023
+ms.date: 05/10/2024
 ms.custom: bap-template
 ---
 
 # Manage bookmarks for reports
+
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
 
 A bookmark captures the state of a report page, including changes that you've made to the filters. Personalize your reports and save the time and effort required to reapply the filters every time you want to view specific data. Use bookmark options to select a saved view, update or delete a bookmark, and set a bookmark as your default view.
 
@@ -25,7 +28,7 @@ Grant **Create**, **Read**, **Write**, and **Delete** privileges to applicable s
 
 [!INCLUDE [Lightbox tip](../../../shared-content/shared/lightbox-tip.md)]
 
-1. In Customer Service workspace, open one of the following reports, **Customer Service historical analytics**, **Omnichannel historical analytics**, **Omnichannel real-time analytics**, or **Knowledge analytics**.
+1. In Customer Service workspace or Contact Center workspace, open one of the following reports, **Customer Service historical analytics**, **Omnichannel historical analytics**, **Omnichannel real-time analytics**, or **Knowledge analytics**.
 
 1. On the report page, select a tab, such as **Queue**.
 
@@ -47,7 +50,7 @@ Select **Bookmarks**, and then on the **Bookmarks** menu:
 
 To modify a saved view, adjust the report filters as needed. Then select **Bookmarks** > **Update Bookmark**.
 
-### See also
+### Related information
 
 [Customer Service dashboards](customer-service-analytics-insights-csh.md)  
 [Omnichannel for Customer Service dashboards](omnichannel-analytics-insights.md)  

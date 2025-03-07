@@ -1,14 +1,18 @@
 ---
 title: Developer Guide
 description: This guide contains entity reference and action reference information that developers need to know while developing for Dynamics 365 Sales.
-ms.date: 10/08/2021
+ms.date: 05/01/2024
 ms.topic: overview
 author: lavanyakr01
 ms.author: lavanyakr
+ms.reviewer: lavanyakr
 ---
+
 # Developer Guide for Dynamics 365 Sales 
 
-Welcome to the Dynamics 365 Sales Developer Guide. 
+Welcome to the Dynamics 365 Sales Developer Guide. Use this guide to understand the tables (formerly known as entities) and actions that are available in Dynamics 365 Sales. 
+
+As a developer or system customizer, you can [use the Dataverse WebAPI](/powerapps/developer/common-data-service/webapi/overview) to interact with these tables and actions. You can update values in the Sales tables, even if the fields or forms are marked as read-only in the user interface. However, you must be aware of the implications of changing these values. We recommend that you test your changes in a development environment before deploying them to a production environment.
 
 
 [!INCLUDE[cc-app-definition-sales-dev](../../includes/cc-app-definition-sales-dev.md)]
@@ -32,12 +36,12 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 <td>
 <h2>Table reference</h2>
 
-  <li><a href="../developer/entities/invoice.md" data-raw-source="[Invoice](../developer/entities/invoice.md)">Invoice</a></li>
-  <li><a href="../developer/entities/lead.md" data-raw-source="[Lead](../developer/entities/lead.md)">Lead</a></li>
-  <li><a href="../developer/entities/opportunity.md" data-raw-source="[Opportunity](../developer/entities/opportunity.md)">Opportunity</a></li>
-  <li><a href="../developer/entities/product.md" data-raw-source="[Product](../developer/entities/product.md)">Product</a></li>
-  <li><a href="../developer/entities/quote.md" data-raw-source="[Quote](../developer/entities/quote.md)">Quote</a></li>
-  <li><a href="../developer/entities/salesorder.md" data-raw-source="[SalesOrder](../developer/entities/salesorder.md)">SalesOrder</a></li>
+  <li><a href="../../developer/reference/entities/invoice.md" data-raw-source="[Invoice](../../developer/reference/entities/invoice.md)">Invoice</a></li>
+  <li><a href="../../developer/reference/entities/lead.md" data-raw-source="[Lead](../../developer/reference/entities/lead.md)">Lead</a></li>
+  <li><a href="../../developer/reference/entities/opportunity.md" data-raw-source="[Opportunity](../../developer/reference/entities/opportunity.md)">Opportunity</a></li>
+  <li><a href="../../developer/reference/entities/product.md" data-raw-source="[Product](../../developer/reference/entities/product.md)">Product</a></li>
+  <li><a href="../../developer/reference/entities/quote.md" data-raw-source="[Quote](../../developer/reference/entities/quote.md)">Quote</a></li>
+  <li><a href="../../developer/reference/entities/salesorder.md" data-raw-source="[SalesOrder](../../developer/reference/entities/salesorder.md)">SalesOrder</a></li>
 
 </td>
 </tr>
@@ -49,12 +53,13 @@ Welcome to the Dynamics 365 Sales Developer Guide.
 </td>
 <td>
 <h2>Sales Premium</h2>
-<li><a href="../developer/entities/msdyn-connectsequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](../developer-sp/msdyn-connectsequence-action.md)">msdyn_ConnectSequence Action</a></li>
-<li><a href="../entity-reference.md" data-raw-source="[Entity reference](../entity-reference.md)">Entity reference</a></li>
+<li><a href="reference/custom-actions/msdyn-ConnectSequence-action.md" data-raw-source="[msdyn_ConnectSequence Action](reference/custom-actions/msdyn-ConnectSequence-action.md)">msdyn_ConnectSequence Action</a></li>
+<li><a href="about-entity-reference.md" data-raw-source="[Entity reference](about-entity-reference.md)">Entity reference</a></li>
 
 </td>
 </tr>
 </table>
+
 
 ### Related resources
 

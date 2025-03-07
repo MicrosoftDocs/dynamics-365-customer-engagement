@@ -3,11 +3,12 @@ title: "title property of the tab (app profile manager) JavaScript API Reference
 description: "Learn about the tab title property of app profile manager in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 10/01/2021
 ms.topic: reference
 ---
 
-# title (app profile manager tab) 
+# title (app profile manager tab)
 
 The text label of a tab.
 

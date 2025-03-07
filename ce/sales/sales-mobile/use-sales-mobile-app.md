@@ -1,24 +1,16 @@
 ---
 title: Using the Dynamics 365 Sales mobile app
 description: Instructions for using the Dynamics 365 Sales mobile app
-ms.date: 03/31/2023
+ms.date: 06/13/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
+ms.reviewer: shjais 
 ---
 
 # Use the Dynamics 365 Sales mobile app 
 
 Use the Dynamics 365 Sales mobile app to plan your day by seeing what it has in store such as upcoming meetings and insights. You can also take post-meeting actions such as adding notes, creating contacts, and updating data in relevant records.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-
-
 
 ## Sign in and sign out from the app
 
@@ -120,7 +112,7 @@ The home page is displayed as shown in the following example screen:
 > [!div class="mx-imgBorder"]
 > ![Sales mobile app home page.](media/sa-home-page.png "Sales mobile app home page") 
 
-### See also
+## Related information
 
 [Learn the basics](learn-basics-mobile-app.md)
 

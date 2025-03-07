@@ -3,9 +3,9 @@ title: Manage opportunities using pipeline view
 description: Learn how to use the opportunity pipeline view, formerly known as deal manager, to visualize, prioritize, and manage the opportunities in your pipeline.
 author: lavanyakr01
 ms.author: lavanyakr
-ms.reviewer: shujoshi
+ms.reviewer: lavanyakr
 ms.topic: how-to 
-ms.date: 11/20/2023
+ms.date: 07/22/2024
 ms.custom: bap-template 
 ---
 
@@ -13,18 +13,11 @@ ms.custom: bap-template
 
 The opportunity pipeline view, formerly known as deal manager, helps you visualize, prioritize, and manage the opportunities in your pipeline. The charts in the view help you figure out which deals to follow up with next. The metrics help you determine the current status of deals in the pipeline, deals successfully closed, and deals lost, and their respective revenue.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Video: Opportunity pipeline view
 
 Watch this short video to learn how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ccf5ecba-90ff-4d7c-ac12-ac9ff309a367]
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 
@@ -38,10 +31,18 @@ Legend:
 
 1. **Metrics**: View the key metrics or KPIs that you want to track. Select a metric to view the underlying data.
 1. **Charts**: Get a visual representation of the pipeline.
-1. **Editable grid**: View a list of opportunities and edit them inline. Select any linked column to view and edit details in the side panel. Select the three-dot menu against an opportunity to perform common actions, such as closing the opportunity as won or lost, or reopening the opportunity.
+1. **Editable grid**: View a list of opportunities and edit them inline. Select any linked column to view and edit details in the side panel. Select the three-dot menu against an opportunity to perform common actions, such as closing the opportunity as won or lost, or reopening the opportunity. 
 1. **Side panel**: View and quickly edit details of the linked record. You can also navigate from one object to another in the side panel. For example, while you're looking at the opportunity, you can select a contact to view their details, quickly make updates, and then return to the opportunity.  
 
 You can [personalize the opportunity pipeline view](personalize-pipeline-view.md) to add, remove, resize, hide, rearrange, and sort the columns in the editable grid. You can also customize the side panel and select the metrics you want to track.
+
+### Group and aggregate opportunities
+
+If your administrator has enabled the grouping and aggregation feature, you can group and aggregate opportunities in the pipeline view. 
+
+To group opportunities by a column, select the column header and then select **Group by**. The grouped column is displayed at the beginning of the grid. To remove the grouping, select the column header and then select **Ungroup**. [Learn more about grouping](/power-apps/user/grid-filters#grouping).
+
+To aggregate opportunities by a numerical column, select the column header and then select **Totals** > *function*, where *function* can be sum, average, minimum, or maximum. The aggregated value is displayed at the bottom of the grid. To remove the aggregation, select the column header and then select **Totals** > **None**. [Learn more about aggregating data](/power-apps/user/grid-filters#aggregation).  
 
 ## Understand the opportunity pipeline charts
 
@@ -61,7 +62,7 @@ You can [personalize the opportunity pipeline view](personalize-pipeline-view.md
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
-### See also
+## Related information
 
 [Where is the deal manager workspace?](faq-sales.yml#where-is-the-deal-manager-workspace)  
 [Personalize the opportunity pipeline view](personalize-pipeline-view.md)

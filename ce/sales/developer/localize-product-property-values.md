@@ -2,12 +2,12 @@
 title: Localize product property values (Dynamics 365 Sales)
 description: Add, update, retrieve, query, and translate the localized values for product name attributes.
 ms.date: 03/01/2023
-ms.reviewer: lavanyakr
 ms.topic: article
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 search.audienceType: 
   - developer
 
@@ -104,7 +104,7 @@ Product names may be localized for different regions. With Dynamics 365 Sales yo
 ## Uninstall a language  
  Any localized labels provided for a language that is uninstalled will remain in the system so that they’ll be in place if the language is reinstalled.  
   
-### See also  
+## Related information  
  [Product catalog tables](product-catalog-entities.md)  
 [Translate customized table and column text](/power-apps/developer/data-platform/customize-labels-support-multiple-languages#translate-customized-table-and-column-text)
  [Translate product names and properties into multiple languages](/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826708(v=crm.8))

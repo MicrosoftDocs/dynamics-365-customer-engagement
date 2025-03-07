@@ -1,7 +1,7 @@
 ---
 title: "Create plug-in to use preferred geospatial data provider in Universal Resource Scheduling"
 description: "Learn how to create a custom plug-in for Universal Resource Scheduling in order to use the geospatial data provider of your choice instead of Bing Maps."
-ms.date: 09/07/2022
+ms.date: 03/15/2024
 searchScope: 
   - Field Service
   - Project Service
@@ -27,7 +27,7 @@ There are two ways in which you can view the input and output parameters for the
 - **Action definition**: You can view the action definition in Dynamics 365 for information about the input/output parameters, including information whether a parameter is required or optional.
 
 > [!NOTE]
-> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Postman to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Postman with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/use-postman-web-api).
+> The Web API types and operations mentioned in this article/table are available in your environment and you can use the service document of your environment or Insomnia to explore these types and operations. More information: [Web API Service Documents](/power-apps/developer/data-platform/webapi/web-api-service-documents) and [Use Insomnia with Microsoft Dataverse Web API](/power-apps/developer/data-platform/webapi/insomnia).
 
 To view an action definition, select **Settings** > **Processes**. Next, search for the action name: **Resource Scheduling - Geocode Address** or **Resource Scheduling - Retrieve Distance Matrix**, and then select the action in the grid to display its definition. For example, here is the definition of the **Resource Scheduling - Geocode Address** (**msdyn_GeocodeAddress**) action where the highlighted area provides information about the input and output parameters:
 

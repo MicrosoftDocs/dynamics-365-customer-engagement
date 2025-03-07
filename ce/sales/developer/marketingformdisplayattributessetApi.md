@@ -5,6 +5,7 @@ ms.date: 09/07/2023
 ms.topic: article
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 ---
 # Customize quick campaign and campaign activity distribution forms 
 
@@ -14,13 +15,6 @@ As a developer, use this reference documentation for customizing the quick campa
 >
 > - To enable users to view custom attributes on the activity distribution page, provide read permissions to the **Marketing Form Display Attributes** table under the **Custom Entities** tab within their assigned security role.
 > - Out-of-the-box fields in the form can't be removed using this customization.  
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
-
 
 ## Action parameters  
 
@@ -56,7 +50,7 @@ HTTP/1.1 204 No Content
 OData-Version: 4.0
 ```
 
-### See also
+## Related information
 
 [Create a quick campaign using in-app marketing (Sales)](../create-quick-campaign-using-app-marketing-sales.md)    
 [Add an activity to a campaign using in-app marketing (Sales)](../add-activity-campaign-using-app-marketing-sales.md)

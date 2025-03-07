@@ -1,13 +1,14 @@
 ---
-title: "Auto capture customer-related activities"
-description: "Use auto capture to collect customer-related activities from your Outlook data and display suggestions on emails and meetings." 
+title: Auto capture customer-related activities
+description: Use auto capture to collect customer-related activities from your Outlook data and display suggestions on emails and meetings.
 keywords: 
-ms.date: 07/08/2022
-ms.custom: 
+ms.date: 03/13/2024
+ms.custom: bap-template
 ms.topic: article
 ms.assetid: 1d005ded-099e-4d66-a435-f1024e1316b6
 author: udaykirang
 ms.author: udag
+ms.reviewer: udag
 caps.latest.revision: 13
 searchScope: 
   - D365-App-msdynce_saleshub

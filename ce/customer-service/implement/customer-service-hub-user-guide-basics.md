@@ -1,16 +1,32 @@
 ---
 title: "Learn the basics of the Customer Service Hub app | MicrosoftDocs"
 description: "Learn the basics of the Customer Service Hub for Customer Service"
-ms.date: 03/20/2023
+ms.date: 10/29/2024
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
-
 
 # Learn the basics of the Customer Service Hub
 
-## Open the Customer Service Hub
+## Enable the Customer Service Hub app
+
+With the [previous announcement](../implement/deprecations-customer-service.md#customer-service-hub-app-to-be-removed-for-new-organizations-with-enterprise-licenses-in-february-2025) that the Customer Service Hub service representative-facing app would be removed for new organizations with Enterprise licenses, the app is now hidden in these environments. By default, Customer Service workspace is shown to the Customer Service representative profile.
+
+If your business still requires the Customer Service Hub app, use the steps in this section to enable it. For migration information, go to [Migrate from Customer Service Hub to Customer Service workspace](../administer/migrate-to-csw.md).
+
+1. Sign in to [Power Apps](https://go.microsoft.com/fwlink/p/?linkid=2142083).
+
+1. Select **Environment** on the top navigation bar. The **Select environment** pane is displayed.
+
+1. Search for your environment, and then select it.
+
+1. On the site map, select **Apps**, and then select the ellipsis next to **Customer Service Hub**.
+
+1. Select **Activate**. Customer Service Hub then becomes visible on your environment's apps page.
+
+## Open Customer Service Hub
 
 The Customer Service Hub app is available to use on a desktop browser and on a mobile device for managing knowledge articles and case management. You can open the Customer Service Hub in one the following ways:  
 
@@ -217,7 +233,7 @@ The third tab in the Related section of a case record displays **Similar Cases**
 
 Watch this video to learn more about the Reference Panel in the Customer Service Hub:
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/d8224c3f-6e20-4b8e-9d0d-b0f5602c7708]
+> [!VIDEO 582704c0-0a8d-4a6c-a89b-2fa86cfa4e3b]
 > [!NOTE]
 > You can configure rules that help you view similar cases based on automatic suggestions. For more information, see [Use advanced similarity rules to view similar case suggestions](../administer/suggest-similar-cases-for-a-case.md).
 
@@ -345,7 +361,7 @@ To create a new Facility/Equipment item, go to **Advanced find** ![Advanced find
 
   ![Create New Facility/Equipment.](../media/add-site-to-any-entity-1b.png "Create New Facility/Equipment")
 
-### See also
+### Related information
 
 
 [Create and design forms for Customer Service Hub](../administer/create-design-forms-customer-service-hub.md)  

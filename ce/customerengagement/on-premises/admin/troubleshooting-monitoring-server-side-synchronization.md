@@ -3,7 +3,6 @@ title: "Troubleshooting and monitoring server-side synchronization  | MicrosoftD
 description: "Discusses issues and resolutions for troubleshooting server-side synchronization."
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -14,8 +13,8 @@ applies_to:
   - Dynamics 365 for Customer Engagement  Version 9.x
 ms.assetid: 4b5e4f18-cb04-4c4a-bb22-2c3505868e90
 caps.latest.revision: 42
-author: jimholtz
-ms.author: jimholtz
+author: Mattp123
+ms.author: matp
 search.audienceType: 
   - admin
 ---
