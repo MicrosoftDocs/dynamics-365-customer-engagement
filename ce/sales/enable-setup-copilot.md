@@ -57,7 +57,7 @@ Turning on Copilot features turns on the chat and embedded Copilot experiences i
     - Audit history is required for Copilot to display recent changes to leads, opportunities, and accounts.
     - If you configure Copilot to [show recent changes from tables other than lead, opportunity, and account tables](copilot-configure-summary-fields.md), turning on auditing turns on audit history for those tables as well. However, if you remove those fields later, you need to [turn off audit history](/power-platform/admin/manage-dataverse-auditing#enable-or-disable-auditing-for-an-entity) for those tables manually.
 
-1. If your org is in a region where Azure Open AI Service endpoint isn't available but you didn't provide the consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
+1. If your org is in a region where Azure OpenAI Service endpoint isn't available but you didn't provide the consent for data movement, select **Go to Power Platform admin center** and follow the [instructions to provide consent](/power-platform/admin/geographical-availability-copilot#turn-on-copilots-and-generative-ai-features-1).
 
 1. Under **All apps**, select a global setting that you want to apply to all Sales apps and then override the setting at the app-level. For example, if you want to enable Copilot only for the Sales Hub app, select **Off** for **All apps** and then select **On** only for the Sales Hub app under **Individual apps** > **Sales Hub**.
 
