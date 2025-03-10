@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 08/11/2023
+ms.date: 03/07/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -33,7 +33,7 @@ After you've [created a segment](./wa-create-and-activate-a-segment.md) and used
 1. In the lower-left corner of the page, select **Change area** > **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**.
 1. Select a **Record type** and then select a segment of that type.
-1. Select **Create a copy**.
+1. Select vertical ellipsis beside the segment name, and then select **Create a copy**.
 1. Enter a **Name** and then choose a priority for the copied segment. If the original segment has any assignment rules, you can choose to copy them to the new segment.
 1. Select **Create**.
 

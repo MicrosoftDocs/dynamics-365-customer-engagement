@@ -1,7 +1,7 @@
 ---
 title: Inspections overview (contains video)
 description: Learn about inspections in Dynamics 365 Field Service.
-ms.date: 08/19/2024
+ms.date: 03/06/2025
 ms.topic: overview
 author: josephshum-msft
 ms.author: jshum
@@ -11,7 +11,7 @@ ms.author: jshum
 
 Field Service inspections are digital forms that technicians use to quickly and easily answer a list of questions as part of a work order. The list of questions can include safety protocols, pass-and-fail tests for a customer asset, an interview with a customer, or other audits and assessments. You can also [create inspections without a work order](inspections-customer-assets.md).
 
-With a drag-and-drop interface, inspections are easy to create, and much simpler for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md#understand-view-and-report-inspection-responses), making it easy to report on results and fit inspections into your automated business processes.
+With a drag-and-drop interface, inspections are easy to create, and much simpler for technicians to fill out compared to paper forms. Inspection answers are [stored in Microsoft Dataverse](./inspections-reporting.md), making it easy to report on results and fit inspections into your automated business processes.
 
 Inspections in Field Service provide:
 
