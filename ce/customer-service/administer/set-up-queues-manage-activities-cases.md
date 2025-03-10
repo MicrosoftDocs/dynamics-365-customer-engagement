@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues for cases
 description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 02/04/2025
+ms.date: 03/10/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -127,6 +127,9 @@ Learn more about how to create custom views in [Create and edit public views](/p
 ## View queue items for a queue
 
 The **QUEUE ITEMS** section lists all activities that are either routed automatically by the routing rules or manually assigned to the queue.
+
+> [!NOTE]
+> To reprocess queue items that didn't succeed, go to **All Activities**, select the activity you want to run, and then select **Add To Queue**.
 
 ## Set up rules for creating or updating records automatically
 
