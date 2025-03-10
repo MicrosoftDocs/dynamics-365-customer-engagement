@@ -109,7 +109,7 @@ The agent presence status is updated in the following two ways:
     For live chat and voice channels, you can avoid assigning new work items when agents miss or reject notifications. Make sure that you don't include the "inactive" and `"Do not disturb"` statuses in the allowed presence setting of the corresponding channel workstream.
 
   - If the agent is disconnected, the system captures the current presence status and immediately sets the status as "Offline". If the agent sign back in within 2.5 minutes, the system restores the presence status. If the agent doesn't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set. The following agent actions are considered for disconnection:
-    - Closes the Customer Service workspace browser tab.
+    - Closes the Customer Service workspace browser tab or the tab goes into sleep mode.
     - Signs out of Customer Service workspace.
     - Closes or signs out of the device.
     - Experiences Internet disruption.
@@ -119,7 +119,7 @@ The agent presence status is updated in the following two ways:
 Presence changes automatically based on capacity utilization. The following scenarios are applicable:
 
 - If available capacity is negative, presence is set to "Do not disturb".
-- If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Do not disturb". This wouldn't bother if the capacity units are being used to or not. If the capacity units are configured, this check would happen.
+- If agent has both capacity units and profile, the system waits for both to be exhausted to mark the agent as "Do not disturb". This wouldn't bother if the capacity units are being used or not. If the capacity units are configured, this check would happen.
 - If agent has multiple capacity profiles and all are nonblocking, the system waits for them to be consumed to mark the agent as "Do not disturb". If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the agent as "Do not disturb".
 
 ## How do manual and automatic presence updates work together
@@ -131,7 +131,11 @@ However, if the agent has manually set one of the following presence statuses, t
 - Away
 - Do not disturb
 
-## How you can use presence in routing
+## How presence is updated on transfer of a work item
+
+After the transfer of a work item is successful, the capacity is released for the first representative and blocked for the second representative. The presence of the representatives changes according to their respective capacity use.
+
+## Use presence in routing
 
 ### Define allowed presence in workstream settings
 
