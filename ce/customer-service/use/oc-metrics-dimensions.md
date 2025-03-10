@@ -90,19 +90,7 @@ For information about metrics that are related to the time that customers wait i
 
 This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
 
-A service representative is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If a service representative is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the service representative spends on the conversation on an open tab counts toward that conversation's handle time.
-
-A long average handle time might indicate that service representatives are taking too long to resolve customer issues, and that they need more training or support to help them work better. In addition, a long average handle time might suggest that customers aren't receiving the level of service or support that they need to resolve their issues. Therefore, it might lead to customer dissatisfaction.
-
-This metric can be viewed in two formats: seconds and *hh:mm:ss*.
-
-:::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
-
-## Average handle time
-
-This metric represents the average duration of a single customer interaction. This includes total time spent on the call or chat, any hold time, and the wrap up time or after-call work required to close the interaction. It helps you understand how efficiently customer inquiries are handled and issue resolution is done.
-
-For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](session-metrics.md#average-session-handle-time).
+For for chat and digital messaging channels, a service representative is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If a service representative is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the service representative spends on the conversation on an open tab counts toward that conversation's handle time.
 
 For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
 
@@ -120,6 +108,17 @@ For the Chat report, this metric is a measure of the active chat time and active
 - Total number of chats handled: The total number of customer interactions handled by the service representatives.
 
     :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
+
+This metric can be viewed in two formats: seconds and *hh:mm:ss*.
+
+:::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
+
+### Related metric:
+
+- **Average conversation handle time**: This metric represents the average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled.
+
+For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](session-metrics.md#average-session-handle-time).
+
 
 ## Average conversation hold time
 
