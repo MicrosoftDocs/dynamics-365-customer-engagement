@@ -47,7 +47,7 @@ All Conversations where msdyn_ocliveworkitem.msdyn_channel != '192350000' and ms
 
 ### [Real-time analytics](#tab/realtimepage)
 
-Run this query to retrieve the total onversations from your environment. 
+Run this query to retrieve the total conversations from your environment. 
 
 ```
 All Conversations where msdyn_liveworkstream.msdyn_streamsource != '192350000' and msdyn_ocliveworkitem.msdyn_isagentsession = 1 and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL
@@ -77,6 +77,8 @@ This section describes the query that is used to calculate the total bot convers
 
 ### [Historical analytics](#tab/historicalpage)
 
+
+
 ```dax
 
 conversations_FactSession=CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]))
@@ -85,7 +87,7 @@ Dax -> Distinct Count of FactSession[ConversationId_FS]
 
 ```
 
-Run this query to retrieve the Bot conversations from your environment. 
+Run this query to retrieve the bot conversations from your environment. 
 
 ```
 
@@ -97,7 +99,6 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 
 ### [Real-time analytics](#tab/realtimepage)
 
-Use this query for realtime analytics.
 
 ```dax
 
@@ -107,7 +108,7 @@ Dax -> Distinct Count of FactSession[ConversationId_FS]
 
 ```
 
-Run this query to retrieve the Bot conversations from your environment. 
+Run this query to retrieve the bot conversations from your environment. 
 
 ```
 
