@@ -36,7 +36,6 @@ For information about older versions, see [Version history archive](../../field-
 - Fixed a bug that was impacting switching requirement panel tabs when "show default requirement panels" setting is disabled.
 - Users can now switch the selected resources view in the Crew Allocation tool while resources are still loading. 
 - Users can now minimize the requirement details panel in schedule assistant when no resources are displayed.
-- Various improvements to the Scheduling Operations Agent experience. 
 - Various accessibility enhancements.
 
 
