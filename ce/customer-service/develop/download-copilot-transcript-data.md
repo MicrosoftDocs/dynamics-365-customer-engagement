@@ -27,7 +27,7 @@ When agents use Copilot, agent interactions with Copilot such as copying summari
 
 ## Retrieve conversation summary
 
-When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_copilotinsights`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the `msdyn_conversationid` field. The summary text is stored in the `msdyn_copilotsummary` field.
+When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_copilotinsights`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the [`msdyn_conversationid`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_ConversationId) field. The summary text is stored in the [`msdyn_copilotsummary`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_copilotsummary) field.
 
 For example, after wrapping up a conversation with a customer, an agent uses Copilot to generate a conversation summary. The conversation summary is stored in the `msdyn_copilotinsights` table with the following values.
 
