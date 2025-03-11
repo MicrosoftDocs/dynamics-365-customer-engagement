@@ -3,7 +3,7 @@ title: Create optimization scopes in Resource Scheduling Optimization
 description: Learn how to use scopes in Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 02/03/2025
+ms.date: 03/11/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
@@ -37,7 +37,7 @@ System views and personal views are critical building blocks for optimization sc
 
 1. Configure optimization range settings. The optimization range is the time range during which bookings can be created, updated, or deleted.
 
-    - **Range Reference**: Specify the start time for all subsequent work order range calculation. Select either **Job current time** or **Beginning and the job's current day**.
+    - **Range Reference**: Specify the start time for all subsequent work order range calculation. Select either **Job current time** or **Beginning of the job's current day**.
     - **Range Offset**: Specify the amount of time to add to the range reference to define the start of the time range.
     - **Range Duration (days)**: Specify the number of days to add to the range reference to define the duration of the time range.
 
