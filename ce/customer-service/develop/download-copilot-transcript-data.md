@@ -120,7 +120,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 3. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Trascript:DataID>)/msdyn_transcriptdata)
+    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Transcript:DataID>)/msdyn_transcriptdata
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
@@ -283,7 +283,7 @@ You can download the interaction data as follows.
    In our example, the Web API request is as follows.
 
     ```http
-      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
+      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(f9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
     
     ```
 
