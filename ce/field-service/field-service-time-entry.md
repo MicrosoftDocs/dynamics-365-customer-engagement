@@ -1,7 +1,7 @@
 ---
 title: Track time expenditure with time entries
 description: Discover how to manage time entry in Dynamics 365 Field Service.
-ms.date: 01/24/2025
+ms.date: 03/11/2025
 ms.topic: conceptual
 author: anilmur
 ms.author: anilmur
@@ -23,7 +23,7 @@ Manual time entries and time-off requests can be entered in the mobile app and t
 
 For a guided walkthrough of the automated and manual time entry process, check out the following video.
 
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=881e6a12-aca1-43ec-9a7d-5cb5ea876e22]
+> [!VIDEO 3459f683-d0d2-48de-a0bb-691d3bde4b79]
 
 ## Automatic time entries
 
