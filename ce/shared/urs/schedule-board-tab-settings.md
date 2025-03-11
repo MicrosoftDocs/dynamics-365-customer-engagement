@@ -45,24 +45,7 @@ Board settings are more detailed and let you define settings for a specific boar
 
 #### Share a schedule board tab with specific people
 
-The schedule board saves tabs as records in the *Schedule Board Settings* entity.
-
-1. Go to **Settings** > **Advanced Settings** and select **Advanced Find**.
-
-1. In the pop-up window, look for the **Schedule Board Settings** table and select **Results**.
-
-   :::image type="content" source="../../field-service/media/advanced-find-legacy-web-client.png" alt-text="Screenshot of the advanced find pop-up in the legacy web client settings.":::
-
-   The list of records shows all schedule board tab records you have access to.
-
-1. Open the schedule board record you want to share to specific people. On the schedule board settings form, select **Share** > **Manage access**.
-
-   :::image type="content" source="../../field-service/media/schedule-board-share.png" alt-text="Screenshot of the share button for a specific schedule board setting.":::
-
-1. Add users or teams to share the schedule board with. They see the schedule board tab and can change it if they have access privileges to schedule boards.
-
-> [!NOTE]
-> Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, select **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
+The schedule board saves tabs as records in the *Schedule Board Settings* table. To share a tab, use the [Schedule board settings management control](/guidance/resources/fs-schedule-board-settings-management-control).
 
 ### Map section
 
