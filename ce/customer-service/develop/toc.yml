@@ -115,10 +115,10 @@
         items:
         - name: Calculate conversation metrics
           href: conversation-metrics.md
-        - name: Total bot conversations
-          href: total-bot-conversations.md
-        - name: Conversation first wait time
-          href: conversation-wait-time.md
+        - name: Calculate session metrics
+          href: conversation-metrics.md
+        - name: Calculate service representative metrics
+          href: conversation-metrics.md
 
       - name: Extend Customer Service
         items: 
