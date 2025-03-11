@@ -45,7 +45,7 @@ Board settings are more detailed and let you define settings for a specific boar
 
 #### Share a schedule board tab with specific people
 
-The schedule board saves tabs as records in the *Schedule Board Settings* table. To share a tab, use the [Schedule board settings management control](/guidance/resources/fs-schedule-board-settings-management-control).
+The schedule board saves tabs as records in the *Schedule Board Settings* table. To share a tab, use the [Schedule board settings management control](/dynamics365/guidance/resources/fs-schedule-board-settings-management-control).
 
 ### Map section
 
