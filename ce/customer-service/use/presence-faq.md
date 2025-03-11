@@ -20,7 +20,7 @@ To understand how presence works, see [How do manual and automatic presence upda
 
 ## What presence does the agent have outside of working hours?
 
-The presence status isn't calculated based on operating hours or work hour setting. For more information, see [How presence is calculated](oc-manage-presence-status.md#how-presence-is-calculated-when-agents-sign-in).
+The presence status isn't calculated based on operating hours or work hour setting. For more information, see [How presence is calculated](oc-manage-presence-status.md#how-presence-is-calculated-when-representatives-sign-in).
 
 ## What presence will an agent have when they sign in from multiple browsers?
 
