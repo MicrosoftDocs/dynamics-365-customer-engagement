@@ -20,14 +20,14 @@ When agents use Copilot, agent interactions with Copilot such as copying summari
 
 ## Prerequisites
 
-- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
+- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Administrator or Supervisor role.
 - [Get the interaction id](#get-interaction-id).
 
 
 ## Retrieve conversation summary
 
-When an agent uses Copilot to generate a conversation summary, the summary is stored in the `msdyn_copilotinsights` table in Dataverse. A record is created in the table with the `msdyn_conversationid` that links it to the conversation. The summary text is stored in the `msdyn_copilotsummary` field.
+When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_copilotinsights`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the `msdyn_conversationid` field. The summary text is stored in the `msdyn_copilotsummary` field.
 
 For example, after wrapping up a conversation with a customer, an agent uses Copilot to generate a conversation summary. The conversation summary is stored in the `msdyn_copilotinsights` table with the following values.
 
@@ -41,7 +41,7 @@ You can retrieve the conversation summary as follows:
 1. Identify the conversation's unique conversation ID in `msdyn_conversationid` from the `msdyn_copilotinsights` table. In our example, this value is 70b76ab52-120b-49e6-9dce-53f235125a01.
 1. Filter the msdyn_conversationinsights table with the required conversation ID to get the summary. Use the following Web API request to filter the data by conversation ID.
 
-   ```
+   ```http
  
     [Organization URI]/api/data/v9.0/msdyn_conversationinsights $filter=msdyn_conversationid_value eq '<conversation-ID>'
 
@@ -54,7 +54,7 @@ You can retrieve the conversation summary as follows:
    ```
 The sample response for our example is as follows:
 
-```
+```json
 {
 "status": { "code": 20000, "message": "Successfully fetched summary from insights" },
 "summary": "Issue: Trouble with the brew valve on the coffee machine.\nTroubleshooting steps: \n- Customer reported the issue.\nOutcome: Issue reported for further assistance."
