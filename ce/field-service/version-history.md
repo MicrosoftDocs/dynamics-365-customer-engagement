@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/22/2024
+ms.date: 03/11/2025
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -35,7 +35,7 @@ For information about older versions, see [Version history archive](version-hist
 
 (Includes Universal Resource Scheduling version [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) and Resource Scheduling controls version 1.2.88.250442)
 
-- Fixed an issue where copilot feedback form would not open on clicking thumbs up/down on the work order form's generated work order summary.
+- Fixed an issue with Copilot feedback on the work order form, which didn't open on generated work order summaries.
   
 ## 8.8.132.216
 
