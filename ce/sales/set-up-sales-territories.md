@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/13/2023
+ms.date: 03/11/2025
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-territory
@@ -69,9 +69,9 @@ Add salespeople as members of a territory to assign them the sales and revenue o
 
 4. In the **Lookup Records** pane, search and select users who are members of this territory, and then select **Add**.
 
-5. To add sub-territories to this territory, select the **Sub-territories** tab, and select **Add New Territory**.  
+5. To add subterritories to this territory, select the **Sub-territories** tab, and select **Add New Territory**.  
 
-6. Enter the necessary information and select **Save**. This territory will be added as a sub-territory in the Sub-territories grid.
+6. Enter the necessary information and select **Save**. This territory will be added as a subterritory in the Subterritories grid.
 
 7. Select **Save**. 
 
