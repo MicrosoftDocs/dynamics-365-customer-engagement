@@ -20,7 +20,7 @@ When agents use Copilot, agent interactions with Copilot such as copying summari
 
 ## Prerequisites
 
-- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](), so that the transaction and interaction data is stored by the system in Dataverse.
+- Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Administrator or Supervisor role.
 - [Get the interaction id](#get-interaction-id).
 
