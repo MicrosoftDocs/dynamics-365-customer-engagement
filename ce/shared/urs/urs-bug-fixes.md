@@ -27,18 +27,17 @@ For information about older versions, see [Version history archive](../../field-
 **Dataverse:** 4.0.139.15
 
 - Fixed a bug impacting requirement tooltips on the schedule board map. 
-- Booking statuses in the booking panel are now sorted alphabetically
+- Booking statuses in the booking panel are now sorted alphabetically.
 - Fixed a bug that was improperly calculating remaining and fulfilled durations when deleting a booking spanning multiple days or when deleting multiple bookings. 
 - The lookup records panel's advanced lookup feature now defaults to the view the requirements panel is currently using on the schedule board. 
 - Fixed a bug that was causing schedule assistant to crash for some users when opened in a small window and then expanded.
 - Fixed an issue impacting crews when incrementing the date range on a schedule board tab with many resources.
-- The schedule board now scrolls when a requirement or map pin is dragged to the side
-- Various accessibility enhancements
-- Fixed a bug that was impacting switching requirement panel tabs when "show default requirement panels" is toggled off.
-- Various improvements to the Scheduling Operations Agent experience. 
+- The schedule board now scrolls when a requirement or map pin is dragged to the side.
+- Fixed a bug that was impacting switching requirement panel tabs when "show default requirement panels" setting is disabled.
 - Users can now switch the selected resources view in the Crew Allocation tool while resources are still loading. 
 - Users can now minimize the requirement details panel in schedule assistant when no resources are displayed.
-
+- Various improvements to the Scheduling Operations Agent experience. 
+- Various accessibility enhancements.
 
 
 ## 3.12.148.12
@@ -59,7 +58,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.136.16
 
-- Fixed various time zone related bugs in Schedule Assistant.
+- Fixed various time zone related bugs in schedule assistant.
 - Fixed a bug causing duplicate months to appear for some users in monthly view of the schedule board.
 - Fixed a bug causing incorrect dates in requirement details for some users.
 - Fixed a bug causing incorrect dates to be selected when dragging the cursor in multiday views on the schedule board.
