@@ -162,7 +162,7 @@
       items:
       - name: Configure the agent calendar view
         href: configure-agent-calendar.md 
-      - name: Configure routing based on agent calendar
+      - name: Configure routing based on shift bookings
         href: configure-routing-on-agent-calendar.md
     - name: Community
       items:

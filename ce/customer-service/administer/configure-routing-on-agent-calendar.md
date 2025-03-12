@@ -1,5 +1,5 @@
 ---
-title: Configure routing based on schedules
+title: Configure routing based on shift bookings
 description: Learn how to configure routing of work items to representatives based on shift schedules of representatives.
 author: neeranelli
 ms.author: nenellim
@@ -10,7 +10,7 @@ ms.date: 03/03/2025
 ms.custom: bap-template
 ---
 
-# Configure routing based on schedules
+# Configure routing based on shift bookings
 
 Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift schedules in workforce management (WFM) system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those service representatives who are available, and reduce the risk of delays. 
 
@@ -19,7 +19,7 @@ You can incorporate shift assignments and time-off considerations into the routi
 > [!NOTE]
 > Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
 
-With shift-based routing, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type is "not assignable", such as training or lunch break, then the representative isn't considered for assignment.
+With shift bookings, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type is "not assignable", such as training or lunch break, then the representative isn't considered for assignment.
 
 ## Prerequisites
 
