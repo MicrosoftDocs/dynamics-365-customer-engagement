@@ -1,7 +1,7 @@
 ---
 title: Create and manage basic queues for cases
 description: Learn how to set up basic queues to manage activities and cases in Dynamics 365 Customer Service.
-ms.date: 02/05/2025
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
