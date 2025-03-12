@@ -1,6 +1,6 @@
 ---
-title: Configure routing based on external schedules (preview)
-description: Learn how to configure routing of work items to representatives based on shift schedules generated in external WFM systems.
+title: Configure routing based on schedules
+description: Learn how to configure routing of work items to representatives based on shift schedules of representatives.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,54 +10,44 @@ ms.date: 03/03/2025
 ms.custom: bap-template
 ---
 
-# Configure routing based on external schedules (preview)
+# Configure routing based on schedules
 
-[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
-
-Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift schedules imported from external workforce management (WFM) systems. By verifying representatives' schedules in advance, organizations can avoid routing tasks to off-duty service representatives, and reduce the risk of delays. 
+Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift schedules in workforce management (WFM) system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those service representatives who are available, and reduce the risk of delays. 
 
 You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
-> [!Note]
+> [!NOTE]
 > Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
+
+With shift-based routing, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type is "not assignable", such as training or lunch break, then the representative isn't considered for assignment.
 
 ## Prerequisites
 
-- [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment.
+- [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
 - [Unified routing](provision-unified-routing.md) is provisioned and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
-- You must have a third-party adapter configured to import representative schedules from an external system. Without an adapter in place, external schedules can't be surfaced in the agent calendar, and representatives can't view their schedules in Dynamics 365 Customer Service.
 - Shift-based routing is enabled.
-- When you are importing external schedules using the third-party adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
 
 ## Enable shift-based routing
 
-1. In the Customer Service admin center site map, select **Workforce management** under **Operations**.
-1. In the **Shift based routing (preview)** section, select **Manage**.
-1. On the **Shift based routing (preview)** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
+1. In the site map of Contact Center admin center or Customer Service admin center, select **Workforce management** under **Operations**.
+1. In the **Shift based routing** section, select **Manage**.
+1. On the **Shift based routing** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
 
 ## Import external schedule data
 
-You can use a third-party adapter to import schedules from external WFM systems into Dynamics 365 for Customer Service.
+Optionally, if you want to integrate schedules from external WFM systems, you can use a non-Microsoft adapter to import the schedules into Customer Service.
 
-Alternatively, you can also use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import representative schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
+Alternatively, you can use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import representative schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
 
 ## Configure an assignment rule
 
-1. In the Customer Service admin center site map, select **Queues**, and then select **Manage** in the **Advanced queues** area.
-1. Select the queue that you want to configure the assignment rule for, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
-1. Create a rule or modify an existing rule and do the following:
-    1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
-    1. Save and close.
-
-       :::image type="content" source="../media/screenshot-of-calendar-schedule-condition.png" alt-text="Screenshot of assignment rule configured on calendar schedule.":::
+You can configure custom assignment method and rules by doing the steps in [Configure assignment methods](configure-assignment-rules.md).
 
 ## View routing diagnostics records
 
-View the [routing diagnostics record](unified-routing-diagnostics.md) to understand how a work item is routed when routing is configured based on agent calendar attribute.
+View the [conversation diagnostics in Azure Application Insights](configure-conversation-diagnostics.md) to understand how a work item is routed when routing is configured based on shift bookings.
 
 ## How shift-based routing works
 
