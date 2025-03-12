@@ -1,6 +1,6 @@
 ---
 title: View and understand real-time analytics for the backlog work items report
-description: 
+description: Monitor and filter backlog work items in real-time to improve workflow efficiency and prioritization.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -12,31 +12,25 @@ ms.custom: bap-template
 
 # View and understand real-time analytics for the backlog work items report 
 
-The Backlog work items report is like ongoing work items with focus on all work items, even when older than 24 hours since the last work item update. It allows for filtering based on any created on date period in the past. Content can be filtered by created on, queue, agent, workstream, work item skill, and time zone.   
+The Backlog work items report is similar to the ongoing work items report with focus on all work items, even when older than 24 hours since the last work item update. It allows for filtering based on any created on date period in the past. Content can be filtered by created on, queue, agent, workstream, work item skill, and time zone.   
 
-Aside from filtering, it also provides four KPIs to track all-up volumes within the selected filter for total work items, active work items, unassigned work items and closed work items. It allows you to easily identify overall case/record volume and provides easy identification of unassigned work items for triage based on priority etc.  
-
-The table list view has the following columns:  
-
-- Subject: Case or Record title.  
-
-- Queue: Queue that the work item has been routed to.  
-
-- Status: Open or active, where open has not yet been assigned to an agent.  
-
-- Work item age: Time in days since case or record was created.   
-
-- Assigned agent: Agent the work item is assigned to.  
-
-- Created on: Date and time stamp of when the case or record was created.  
-
-- Case: Unique number id of conversation linked case record.  
-
-- Priority: Priority of conversation linked case record. 
+Besides filtering, it also provides four KPIs to track all-up volumes within the selected filter for total work items, active work items, unassigned work items, and closed work items. It allows you to easily identify overall case or record volume and provides easy identification of unassigned work items for triage based on priority.  
 
 :::image type="content" source="../media/record-routing-backlog.png" alt-text="Screenshot of real-time analytics for backlog items report":::
 
-For assign, transfer and force close description, go to [ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report).
+
+|KPIs |Description |
+|---------|---------|
+|Subject     |  Case or Record title.   |
+|Queue    |  Queue that the work item has been routed to.      |
+|Status    |   Open or active, where open has not yet been assigned to a customer service representative (service representative or representative).       |
+|Work item age     |  Time in days since case or record was created.         |
+|Assigned agent    |  Service representative the work item is assigned to.  |
+|Created on    |   Date and time stamp of when the case or record was created.       |
+|Case     |   Unique number id of conversation linked case record.      |
+|Priority    |   Priority of conversation linked case record.|
+
+Learn more about assign, transfer, and force close description, in [ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report).
 
 ## Related information
 

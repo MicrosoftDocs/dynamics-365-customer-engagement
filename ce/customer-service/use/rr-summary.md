@@ -12,13 +12,20 @@ ms.custom: bap-template
 
 # View and understand real-time analytics for the summary report
 
-The Summary report appears by default when you open the Real-time analytics for record routing dashboard in Customer Service workspace or the Contact center workspace. You can filter this report by time, queue, agent, workstream, work item status, work item skill and time zone. Time filters available include Last 24 hrs and Today. This frames the summary view towards real-time.  
+The Summary report appears by default when you select the real-time analytics for record routing dashboard in Customer Service workspace or the Contact center workspace. You can filter this report by time, queue, agent, workstream, work item status, work item skill and time zone. Time filters available include **Last 24 hrs** and **Today**.
 
 The Summary report provides a summary of cases and records over time, by workstream or queue. Statistics about the workstream that a work item was created against can help you analyze and manage queue distribution and capacity use efficiency. For example, a high rate of unassigned work items can lead to decreased customer satisfaction. To address the rate of unassigned work items or long wait times before cases are assigned, you can examine operational metrics such as agent availability and case distribution for available agent capacity in real time.  
 
-By editing the visual display, you can add metrics to the ones that are already shown on the Summary report. Learn more in Customize visual display.
+By editing the visual display, you can add metrics to the ones that are already shown on the Summary report. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
 :::image type="content" source="../media/record-routing-summary.png" alt-text="Screenshot of real-time analytics Summary report for record routing":::
+
+
+|KPIs| Description  |
+|---------|---------|
+|Assigned work items    |   Measure of the total number of assigned work items. It's irrespective of work item state, which is every state except Open and closed.      |
+|Unassigned work items    |  Measure of the total number of unassigned work items. It's irrespective of work item state.       |
+|Work items over time   |   Used in stacked column chart in real-time analytics for record routing, this metric shows the number of work items in assigned and unassigned state projected over created on time in x-axis.      |
 
 ### Interactive charts 
 
@@ -28,8 +35,8 @@ changes and patterns in the data, so that you can act quickly to address
 the most important issues. 
 
 When you select a component in a chart, the data is filtered
-accordingly. In this way, you can view only data that is related to the
-selected component. For example, if you select the **Offline** component
+accordingly. This way, you can view data that is related to the
+selected component only. For example, if you select the **Offline** component
 in the **Agent availability status** chart, the dashboard is refreshed
 and shows only work items of agents who are currently in
 the **Offline** state. 

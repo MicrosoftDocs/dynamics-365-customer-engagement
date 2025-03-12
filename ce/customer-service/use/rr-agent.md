@@ -25,13 +25,15 @@ include Agents online, Agents available, Agents busy, and Agents at max
 capacity.  
 
 When you select a component in a chart, the data is filtered
-accordingly. In this way, you can view only data that is related to the
-selected component. For example, if you select the **Offline** component
+accordingly. In this way, you can view data that is related to the
+selected component only. For example, if you select the **Offline** component
 in the **Agent availability status** chart, the dashboard is refreshed
 and shows capacity that is essentially locked. The agent list table also
 allows you to identify agents with the highest count of transferred work
 items, which allows you to identify misassignments and to take
 corrective steps.  
+
+:::image type="content" source="../media/record-routing-agent.png" alt-text="Screenshot of the real-time analytics for agent report":::
 
 ### Lists and charts 
 
@@ -50,38 +52,21 @@ detailed agent availability status, which can be another cause for
 unassigned work items, besides capacity.
 
 **Agent list:** The agent list table lists all agents associated with a
-queue of record type. Sortable columns are:  
+queue of record type.
 
-- **Assigned agent:** Name of agent or bot. 
 
-- **Status:** Availability status of agent. 
-
-- **Status since:** Time stamp when agent entered current availability
-  status. 
-
-- **Active:** Number of work items in active state assigned to agent
-  during reporting period. 
-
-- **Closed:** Number of work items closed by an agent in the reporting
-  period. 
-
-- **Transfers:** Number of work items agent transferred to queue or
-  another agent in the reporting period. 
-
-- **Average duration:** Average time conversations that were active and
-  assigned to agent during reporting period. 
-
-- **Accepted:** Number of conversations the agent accepted during the
-  reporting period. 
-
-- **Rejected:** Number of conversations the agent rejected when it was
-  assigned during reporting period. 
-
-- **Timeout:** Number of conversations that timed out before the agent
-  accepted or rejected during reporting period. This doesn’t apply to
-  setups where cases are auto assigned. 
-
-:::image type="content" source="../media/record-routing-agent.png" alt-text="Screenshot of the real-time analytics for agent report":::
+|KPIs | Description  |
+|---------|---------|
+|Assigned agent   |   Name of agent or bot.       |
+|Status    |      Availability status of agent.     |
+|Status since    |    Time stamp when agent entered current availability status.      |
+|Active   |   Number of work items in active state assigned to agent during reporting period.       |
+|Closed    |   Number of work items closed by an agent in the reporting period.       |
+|Transfers    |   Number of work items agent transferred to queue or another agent in the reporting period.       |
+|Average duration     | Average time conversations that were active and assigned to agent during reporting period.         |
+|Accepted    | Number of conversations the agent accepted during the reporting period.         |
+|Rejected    | Number of conversations the agent rejected when it was assigned during reporting period.         |
+|Timeout     |   Number of conversations that timed out before the agent accepted or rejected during reporting period. This doesn’t apply to setups where cases are auto assigned.       |
 
 When selecting an agent in the list you can open a detailed agent view
 of that agent. This view includes:

@@ -19,35 +19,28 @@ item skill and time zone.  
 
 This report is specifically for real-time tracking of recent cases or
 records. In this view, you can easily identify work items that have been
-created but haven’t yet been assigned to an agent. It can help you
-ensure that all new work items that need attention are triaged. Work
-items can be assigned, transferred, or force closed from within the
+created but haven’t yet been assigned to a customer service representative (service representative or representative). It can help you ensure that all new work items that need attention are triaged. Work items can be assigned, transferred, or force closed from within the
 dashboard. 
 
 For longer time periods, you can use the [backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report).
 
+:::image type="content" source="../media/record-routing-ongoingworkitems.png" alt-text="Screenshot of the real-time analytics for ongoing work items report.":::
 
-The table list view has the following columns: 
 
-- **Subject:** Case or Record title. 
 
-- **Queue:** Queue that the work item has been routed to. 
+|KPIs|Desription  |
+|---------|---------|
+|Subject     |   Case or Record title      |
+|Queue    |     Queue that the work item has been routed to.    |
+|Status    |  Open or active, where open has not yet been assigned to a service representative. |
+|Work item age    |Time in days since case or record was created.|
+|Assigned agent   |The service representative the work item is assigned to.         |
+ |Created on    |    Date and time stamp of when the case or record was created.      |
+|Case    |   Unique number id of conversation linked case record.      |
+|Priority   |  Priority of conversation linked case record.       |
 
-- **Status:** Open or active, where open has not yet been assigned to an
-  agent. 
 
-- **Work item age:** Time in days since case or record was created.  
-
-- **Assigned agent:** Agent the work item is assigned to. 
-
-- **Created on:** Date and time stamp of when the case or record was
-  created. 
-
-- **Case:** Unique number id of conversation linked case record. 
-
-- **Priority:** Priority of conversation linked case record. 
-
-When a list item is selected, it can be assigned to an agent,
+When a list item is selected, it can be assigned to a service representative,
 transferred to another queue or force closed. 
 
 > [!NOTE]
@@ -57,14 +50,12 @@ transferred to another queue or force closed. 
   supervisors need to ensure that the destination queue has users who
   meet the criteria for work item assignment.   
 
-- **Force close** closes the work item (conversation) but not the case. 
-
-:::image type="content" source="../media/record-routing-ongoingworkitems.png" alt-text="Screenshot of the real-tiem analytics for ongoing work items report.":::
+**Force close** closes the work item (conversation) but not the case. 
 
 When you assign or transfer a selected work item, an assign or transfer
 conversation dialog appears. This dialog allows you to identify the best
-matching agent or queue (assign only) for the activity by displaying a
-list of matching agents with availability, capacity and skill
+matching representative or queue (assign only) for the activity by displaying a
+list of matching representatives with availability, capacity and skill
 proficiency match.
 
 :::image type="content" source="../media/record-routing-assign-conversation.png" alt-text="Screenshot of the ongoing work items conversation report.":::
