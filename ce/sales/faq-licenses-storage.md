@@ -34,7 +34,7 @@ You can use Sales Enterprise, Sales Premium, and Microsoft Relationship Sales li
 
 ## How can I assign licenses to users?  
 
-To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users?view=o365-worldwide).
+To assign licenses to users, see [Assign licenses to users](/microsoft-365/admin/manage/assign-licenses-to-users).
 
 ## Can I add extra storage capacity to users with Sales Professional license?
 
