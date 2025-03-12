@@ -23,7 +23,7 @@ By editing the visual display, you can add metrics to the ones that are already 
 
 |KPIs| Description  |
 |---------|---------|
-|Assigned work items    |   Measure of the total number of assigned work items. It's irrespective of work item state, which is every state except Open and closed.      |
+|Assigned work items    |   Measure of the total number of assigned work items, irrespective of work item state, which is every state, including Open and closed.      |
 |Unassigned work items    |  Measure of the total number of unassigned work items. It's irrespective of work item state.       |
 |Work items over time   |   Used in stacked column chart in real-time analytics for record routing, this metric shows the number of work items in assigned and unassigned state projected over created on time in x-axis.      |
 

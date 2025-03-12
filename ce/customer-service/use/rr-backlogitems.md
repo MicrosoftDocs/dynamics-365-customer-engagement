@@ -26,7 +26,7 @@ Besides filtering, it also provides four KPIs to track all-up volumes within the
 |Status    |   Open or active, where open has not yet been assigned to a customer service representative (service representative or representative).       |
 |Work item age     |  Time in days since case or record was created.         |
 |Assigned agent    |  Service representative the work item is assigned to.  |
-|Created on    |   Date and time stamp of when the case or record was created.       |
+|Created on    |   Date and time stamp of when the work item was created.       |
 |Case     |   Unique number id of conversation linked case record.      |
 |Priority    |   Priority of conversation linked case record.|
 

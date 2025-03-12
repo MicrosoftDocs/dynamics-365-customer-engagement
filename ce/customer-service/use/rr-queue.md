@@ -25,8 +25,8 @@ The queue table has the following sortable columns: 
 |---------|---------|
 |Queue    |    Name of queue     |
 |Assigned work items    | Work items assigned to customer service representative (service representative or representative) during reporting period.         |
-|Unassigned work items| Cases during reporting period that haven’t   yet been assigned to a service representative, which include transfers to queue.|
-|Longest wait time| Longest time for a case during reporting period in queue until status changed from open to active (assigned).|
+|Unassigned work items| Work items during reporting period that haven’t   yet been assigned to a service representative, which include transfers to queue.|
+|Longest wait time| Longest time for a work item during reporting period in queue until status changed from open to active (assigned).|
 |Agents available| Lists the number of service representatives per queue that have   presence set to Available. |
 |Agents online| Service representatives assigned to queue that are online. |
 

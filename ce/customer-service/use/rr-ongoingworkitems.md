@@ -33,7 +33,7 @@ For longer time periods, you can use [the backlog work items report](rr-backlogi
 |Status    |  Open or active, where open hasn't been assigned to a service representative. |
 |Work item age    |Time in days since case or record was created.|
 |Assigned agent   |The service representative the work item is assigned to.         |
- |Created on    |    Date and time stamp of when the case or record was created.      |
+ |Created on    |    Date and time stamp of when the work item was created.      |
 |Case    |   Unique number ID of conversation linked case record.      |
 |Priority   |  Priority of conversation linked case record.       |
 
