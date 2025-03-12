@@ -1,6 +1,6 @@
 ---
 title: View and understand real-time analytics for the ongoing work items report
-description:
+description: Understand real-time analytics for ongoing work items. Identify and triage new items quickly. Assign, transfer, or close items from the dashboard.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
@@ -24,8 +24,7 @@ ensure that all new work items that need attention are triaged. Work
 items can be assigned, transferred, or force closed from within the
 dashboard. 
 
-For longer time periods, you can use the [Backlog work items
-view](#backlog-work-items).  
+For longer time periods, you can use the [backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report).
 
 
 The table list view has the following columns: 
@@ -72,3 +71,9 @@ proficiency match.
 
 ## Related information
 
+[Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
+[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)
+[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
+[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
+[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report) 

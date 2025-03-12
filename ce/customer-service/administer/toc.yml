@@ -714,6 +714,8 @@
           href: enable-realtime-analytics-dashboard-administrator.md
         - name: Manage access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
+      - name: Manage real-time analytics for record routing dashboards
+        href: enable-record-routing.md
       - name: Enable supervisor access to manage conversations
         href: enable-monitor-assign-transfer-conv.md
       - name: Manage historical analytics dashboards

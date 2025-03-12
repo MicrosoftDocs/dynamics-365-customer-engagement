@@ -1,13 +1,13 @@
 ---
 title: View and understand real-time analytics for the backlog work items report
-description: Concept description #Required; article description that's displayed in search results. Don't enclose in quotation marks. Do end with a period.
-author: rhanajoy #Required; your GitHub user alias, with correct capitalization.
-ms.author: rhcassid #Required; your Microsoft alias; optional team alias.
-ms.reviewer: kfend #Required; Microsoft alias of content publishing team member.
-ms.topic: conceptual #Required; don't change.
-ms.collection: get-started #Required; If this isn't a getting started article, don't remove the attribute, but leave the value blank. The values for this attribute will be updated over time.
+description: 
+author: Soumyasd27
+ms.author: sdas
+ms.reviewer: sdas
+ms.topic: conceptual
+ms.collection:
 ms.date: 03/12/2025
-ms.custom: bap-template #Required; don't change.
+ms.custom: bap-template
 ---
 
 # View and understand real-time analytics for the backlog work items report 
@@ -40,4 +40,9 @@ For assign, transfer and force close description, go to [ongoing work items repo
 
 ## Related information
 
-
+[Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
+[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
+[View and understand real-time analytics for the queue report](rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
+[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
+[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)

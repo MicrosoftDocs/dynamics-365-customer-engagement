@@ -12,6 +12,12 @@ ms.custom: bap-template
 
 # Manage real-time analytics for record routing
 
+Managing real-time analytics for record routing is crucial to optimize routing efficiency and gain valuable insights. This article provides steps to enable the real-time analytics dashboard for record routing, ensuring that you can monitor and improve your routing processes effectively.
+
+## Prerequisites
+
+You must enable unified routing to be able to use real-time analytics for record routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md). This automatically enables real-time analytics for record routing.
+
 The real-time analytics for record routing dashboard is disabled by
 default. To enable,
 
@@ -28,16 +34,12 @@ default. To enable,
 
 :::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Customer Service admin center":::
 
-> [!NOTE]
-> To use real-time analytics for record routing, unified routing needs to
-be enabled. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md). This also automatically enables real-time analytics for record routing.
-
 ## Related information
 
-[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
-[View and understand real-time analytics for the summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
-[View and understand real-time analytics for the queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
-[View and understand real-time analytics for the agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
-[View and understand real-time analytics for the ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
-[View and understand real-time analytics for the backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
+[Overview of real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing) 
+[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
+[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
+[Ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
+[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
 

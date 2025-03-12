@@ -49,3 +49,9 @@ an embedded ongoing work items table for easy management via the
 
 ## Related information
 
+[Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
+[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)
+[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
+[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)
+[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report) 

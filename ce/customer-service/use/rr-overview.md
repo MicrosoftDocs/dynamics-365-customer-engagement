@@ -25,11 +25,10 @@ business unit-level data are shown to you.
 As a supervisor, you can view the **Customer Service real-time analytics
 for record routing** dashboard in Customer Service workspace or Contact
 Center workspace. However, your administrator must provide the required
-permissions for you. [Learn how to configure user roles to access
-analytics and
-dashboards.](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/configure-customer-service-analytics-insights-csh#configure-user-access-to-analytics-and-dashboards) 
+permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
 
-**Note**: If different values are shown to different users in the
+> [!NOTE]
+> If different values are shown to different users in the
 metrics, you must investigate the permissions for those users.
 
 **Access reports** 
@@ -42,17 +41,13 @@ default, the **Summary** report is shown. To view the **Queue, Agent,**
 appropriate tabs. 
 
  If you can't view the reports, contact your system administrator. Learn
-more in [Manage real-time analytics
-reports](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/enable-realtime-analytics-dashboard-administrator#manage-real-time-analytics-reports-in-omnichannel-for-customer-service). 
+more in [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing). 
 
 ## Dashboard details 
 
 **Important:** Dynamics 365 Unified Routing uses work item
 (conversation) to track case and record routing and assignment. Case and
-record conversation states can be open, active or closed. Learn more in
-[Understand conversation states \| Microsoft
-Learn](https://learn.microsoft.com/en-us/dynamics365/customer-service/use/oc-conversation-state).
-For example, a case that gets created automatically creates a
+record conversation states can be open, active or closed. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states). For example, a case that gets created automatically creates a
 conversation in the Open state. When such a case gets re-assigned, a new
 conversation gets created and the old one gets closed while the case
 remains the same. This way, work item lifecycles can be tracked
@@ -94,19 +89,10 @@ paused and resumed. Ongoing and backlog work item views need to be
 manually refreshed, which makes it easier to focus on supervisor tasks
 without disrupting data refreshes. 
 
-**Note**: For best use of real-time analytics for record routing, use
-[capacity
-profiles](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/capacity-profiles)
-to manage agent capacity as this report is optimized for it. Use of
-legacy unit-based capacity or mixed capacity management will lead to
-reduced report actionability. 
+> [!NOTE]
+> For best use of real-time analytics for record routing, use [capacity profiles](../administer/capacity-profiles.md#create-and-manage-capacity-profiles) to manage agent capacity as this report is optimized for it. Use of legacy unit-based capacity or mixed capacity management leads to reduced report actionability. 
 
 ## Real-time analytics for record routing metrics
-
-This section describes the metrics for real-time analytics for record
-routing. For metrics pertaining to Omnichannel for Customer Service, go
-to [Use Omnichannel for Customer Service
-metrics.](https://learn.microsoft.com/en-us/dynamics365/customer-service/use/oc-metrics-dimensions)
 
 **Assigned work items**
 
@@ -191,9 +177,9 @@ the queue whose base presence status is available.
 
 ## Related information
 
-[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
-[View and understand real-time analytics for the summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
-[View and understand real-time analytics for the queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
-[View and understand real-time analytics for the agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
-[View and understand real-time analytics for the ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
-[View and understand real-time analytics for the backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
+[Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)
+[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
+[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
+[Ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
+[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
