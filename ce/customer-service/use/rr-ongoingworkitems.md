@@ -22,7 +22,7 @@ records. In this view, you can easily identify work items that have been
 created but haven’t yet been assigned to a customer service representative (service representative or representative). It can help you ensure that all new work items that need attention are triaged. Work items can be assigned, transferred, or force closed from within the
 dashboard. 
 
-For longer time periods, you can use the [backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report).
+For longer time periods, you can use the [the backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report).
 
 :::image type="content" source="../media/record-routing-ongoingworkitems.png" alt-text="Screenshot of the real-time analytics for ongoing work items report.":::
 
@@ -63,8 +63,8 @@ proficiency match.
 ## Related information
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
-[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)
-[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
-[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
-[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
-[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report) 
+[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
+[Summary report](rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
+[Queue report](rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
+[Backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report) 

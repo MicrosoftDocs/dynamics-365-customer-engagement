@@ -30,13 +30,13 @@ Besides filtering, it also provides four KPIs to track all-up volumes within the
 |Case     |   Unique number id of conversation linked case record.      |
 |Priority    |   Priority of conversation linked case record.|
 
-Learn more about assign, transfer, and force close description, in [ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report).
+Learn more about assign, transfer, and force close description, in [the ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-ongoing-work-items-report)
 
 ## Related information
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
 [Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
-[View and understand real-time analytics for the queue report](rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
-[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
-[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report) ](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
-[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)
+[Queue report](rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)   
+[Summary report](rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
+[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-ongoing-work-items-report)
