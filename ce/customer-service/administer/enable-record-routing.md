@@ -18,7 +18,7 @@ Managing real-time analytics for record routing is crucial to optimize routing e
 
 To use real-time analytics for record routing, you must enable unified routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md). Enabling unified routing automatically enables real-time analytics for record routing.
 
-## Enable the real-time analytics for record routing
+## Enable the real-time analytics for record routing dashboard
 
 The real-time analytics for record routing dashboard is disabled by default. To enable the dashboard,
 
