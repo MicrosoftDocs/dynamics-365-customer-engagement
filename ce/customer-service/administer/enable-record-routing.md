@@ -39,8 +39,8 @@ default. To enable the dashboard,
 ## Related information
 
 [Overview of real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
-[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
-[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
-[Agent report](../use/rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
-[Ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
-[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
+[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
+[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)  
+[Agent report](../use/rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
+[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report)  
+[Ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-ongoing-work-items-report)

@@ -61,8 +61,8 @@ Summary, queue, and agent reports are autorefreshed continuously to allow for re
 ## Related information
 
 [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing)  
-[Summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
-[Queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
-[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
-[Ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
-[Backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
+[Summary report](rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
+[Queue report](rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)  
+[Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
+[Backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report)  
+[Ongoing work items report](rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-ongoing-work-items-report) 
