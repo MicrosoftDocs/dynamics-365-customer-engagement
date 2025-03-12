@@ -10,7 +10,6 @@ ms.date: 03/11/2025
 ms.custom: bap-template
 ---
 
-
 # Manage real-time analytics for record routing
 
 The real-time analytics for record routing dashboard is disabled by
@@ -27,15 +26,18 @@ default. To enable,
     the **Enable real-time analytics for record routing** toggle to
     **On**.
 
-<img src="media/real-time_analytics_-record_routing/image1.png" style="width:6.5in;height:2.69444in" />
+:::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Customer Service admin center":::
 
-**Note**:
-
-To use real-time analytics for record routing, unified routing needs to
-be enabled. [Provision unified routing in Customer Service \| Microsoft
-Learn](https://learn.microsoft.com/en-us/dynamics365/customer-service/administer/provision-unified-routing).
-This also automatically enables real-time analytics for record routing.
+> [!NOTE]
+> To use real-time analytics for record routing, unified routing needs to
+be enabled. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md). This also automatically enables real-time analytics for record routing.
 
 ## Related information
 
+[Overview of real-time analytics for record routing](rr-overview.md#overview-of-real-time-analytics-for-record-routing)  
+[View and understand real-time analytics for the summary report](../use/rr-summary.md#view-and-understand-real-time-analytics-for-the-summary-report)  
+[View and understand real-time analytics for the queue report](../use/rr-queue.md#view-and-understand-real-time-analytics-for-the-queue-report)  
+[View and understand real-time analytics for the agent report](rr-agent.md#view-and-understand-real-time-analytics-for-the-agent-report)  
+[View and understand real-time analytics for the ongoing work items report](../use/rr-ongoingworkitems.md#view-and-understand-real-time-analytics-for-the-ongoing-work-items-report)  
+[View and understand real-time analytics for the backlog work items report](../use/rr-backlogitems.md#view-and-understand-real-time-analytics-for-the-backlog-work-items-report)  
 
