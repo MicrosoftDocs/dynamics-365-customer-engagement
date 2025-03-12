@@ -12,27 +12,21 @@ ms.custom: bap-template
 
 # Manage real-time analytics for record routing
 
-Managing real-time analytics for record routing is crucial to optimize routing efficiency and gain valuable insights. This article provides steps to enable the real-time analytics dashboard for record routing, ensuring that you can monitor and improve your routing processes effectively.
+Managing real-time analytics for record routing is crucial to optimize routing efficiency and gain valuable insights. This article provides steps to enable the real-time analytics dashboard for record routing to help ensure that you can monitor and improve your routing processes effectively.
 
 ## Prerequisites
 
-You must enable unified routing to be able to use real-time analytics for record routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md). This automatically enables real-time analytics for record routing.
+To use real-time analytics for record routing, you must enable unified routing. Learn more in [Provision unified routing for Customer Service](provision-unified-routing.md). Enabling unified routing automatically enables real-time analytics for record routing.
 
 ## Enable the real-time analytics for record routing
 
-The real-time analytics for record routing dashboard is disabled by
-default. To enable the dashboard,
+The real-time analytics for record routing dashboard is disabled by default. To enable the dashboard,
 
-1.  In the **Customer Service admin center** site map,
-    select **Insights** in **Operations**. The **Insights** page
-    appears.
+1.  In the **Customer Service admin center** site map, select **Insights** in **Operations**. The **Insights** page appears.
 
-2.  On the **Insights page,** go to **Real-time analytics for record
-    routing,** and select **Manage.**
+2.  On the **Insights page,** go to **Real-time analytics for record routing,** and then select **Manage.**
 
-3.  On the **Real-time analytics for record routing** page, switch
-    the **Enable real-time analytics for record routing** toggle to
-    **On**.
+3.  On the **Real-time analytics for record routing** page, switch the **Enable real-time analytics for record routing** toggle to **On**.
 
 :::image type="content" source="../media/csac-record-routing.png" alt-text="Screenshot of the record routing option from the Customer Service admin center":::
 
