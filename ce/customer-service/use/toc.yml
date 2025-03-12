@@ -320,15 +320,15 @@
           items:
           - name: Overview of real-time analytics for record routing
             href: rr-overview.md
-          - name: Summary dashboard
+          - name: Summary report
             href: rr-summary.md 
-          - name: Queue dashboard
+          - name: Queue report
             href: rr-queue.md
-          - name: Ongoing work items dashboard
+          - name: Ongoing work items report
             href: rr-ongoingworkitems.md
-          - name: Agent dashboard
+          - name: Agent report
             href: rr-agent.md            
-          - name: Backlog work items dashboard
+          - name: Backlog work items report
             href: rr-backlogitems.md  
         - name: Use Customer Service historical analytics dashboards
           items: 
