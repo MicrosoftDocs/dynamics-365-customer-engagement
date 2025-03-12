@@ -1,5 +1,5 @@
 ---
-title: View and understand real-time analytics for the agent report
+title: View and understand real-time analytics for record routing in the agent report
 description: Explore real-time analytics for agent reports. Use filters and KPIs to manage agent performance and address capacity limitations.
 author: Soumyasd27
 ms.author: sdas
@@ -10,9 +10,9 @@ ms.date: 03/12/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for the agent report
+# View and understand real-time analytics for record routing in the agent report
 
-## Agent report 
+[!INCLUDE [cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 The agent report provides an agent centric view for case and record
 management. Time, Queue, Agent, Agent skill, Agent status and Time zone
@@ -57,7 +57,7 @@ queue of record type.
 
 |KPIs | Description  |
 |---------|---------|
-|Assigned agent   |   Name of agent or bot.       |
+|Assigned agent   |   Name of customer service representative or AI agent.       |
 |Status    |      Availability status of agent.     |
 |Status since    |    Time stamp when agent entered current availability status.      |
 |Active   |   Number of work items in active state assigned to agent during reporting period.       |

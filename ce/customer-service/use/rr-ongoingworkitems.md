@@ -1,5 +1,5 @@
 ---
-title: View and understand real-time analytics for the ongoing work items report
+title: View and understand real-time analytics for record routing in the ongoing work items report
 description: Understand real-time analytics for ongoing work items. Identify and triage new items quickly. Assign, transfer, or close items from the dashboard.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 03/12/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for the ongoing work items report
+# View and understand real-time analytics for record routing in the ongoing work items report
 
 The Ongoing work items report lists all open and active state work items
 that have been modified in the past 24 hours or today per time zone

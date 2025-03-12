@@ -1,5 +1,5 @@
 ---
-title: View and understand real-time analytics for the queue report
+title: View and understand real-time analytics for record routing in the queue report
 description: Learn to view and understand real-time analytics for queue reports. Improve your data insights and decision-making.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 03/12/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for the queue report
+# View and understand real-time analytics for record routing in the queue report
 
 The queue report lists all the advanced queues in the organization in a
 table by default. Content can be filtered by individual queue, time,
@@ -24,14 +24,10 @@ The queue table has the following sortable columns: 
 |KPI |Description |
 |---------|---------|
 |Queue    |    Name of queue     |
-|Assigned work items    | Work items assigned to customer service representative (service representative or representative) during reporting
-  period.         |
-|Unassigned work items| Cases during reporting period that haven’t
-  yet been assigned to a service representative, which include transfers to queue.|
-|Longest wait time| Longest time for a case during reporting period
-  in queue until status changed from open to active (assigned)|
-|Agents available| Lists the number of service representatives per queue that have
-  presence set to Available. |
+|Assigned work items    | Work items assigned to customer service representative (service representative or representative) during reporting period.         |
+|Unassigned work items| Cases during reporting period that haven’t   yet been assigned to a service representative, which include transfers to queue.|
+|Longest wait time| Longest time for a case during reporting period in queue until status changed from open to active (assigned).|
+|Agents available| Lists the number of service representatives per queue that have   presence set to Available. |
 |Agents online| Service representatives assigned to queue that are online. |
 
 Because the table allows for sorting by Assigned cases, Unassigned

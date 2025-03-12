@@ -1,5 +1,5 @@
 ---
-title: View and understand real-time analytics for the backlog work items report
+title: View and understand real-time analytics for record routing in the backlog work items report 
 description: Monitor and filter backlog work items in real-time to improve workflow efficiency and prioritization.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 03/12/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for the backlog work items report 
+# View and understand real-time analytics for record routing in the backlog work items report 
 
 The Backlog work items report is similar to the ongoing work items report with focus on all work items, even when older than 24 hours since the last work item update. It allows for filtering based on any created on date period in the past. Content can be filtered by created on, queue, agent, workstream, work item skill, and time zone.   
 

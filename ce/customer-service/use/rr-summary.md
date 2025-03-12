@@ -1,5 +1,5 @@
 ---
-title: Real-time analytics for record routing summary report 
+title: View and understand real-time analytics for record routing in the summary report
 description: Learn how to analyze and manage queue distribution and capacity use efficiency with real-time analytics for record routing summary report.
 author: Soumyasd27
 ms.author: sdas
@@ -10,7 +10,7 @@ ms.date: 03/12/2025
 ms.custom: bap-template
 ---
 
-# View and understand real-time analytics for the summary report
+# View and understand real-time analytics for record routing in the summary report
 
 The Summary report appears by default when you select the real-time analytics for record routing dashboard in Customer Service workspace or the Contact center workspace. You can filter this report by time, queue, agent, workstream, work item status, work item skill and time zone. Time filters available include **Last 24 hrs** and **Today**.
 
