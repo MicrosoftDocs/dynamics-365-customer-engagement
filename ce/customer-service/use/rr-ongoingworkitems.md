@@ -15,28 +15,26 @@ ms.custom: bap-template
 The Ongoing work items report lists all open and active state work items
 that have been modified in the past 24 hours or today per time zone
 setting. Content can be filtered by time, queue, agent, workstream, work
-item skill and time zone.  
+item skill, and time zone.  
 
 This report is specifically for real-time tracking of recent cases or
-records. In this view, you can easily identify work items that have been
-created but haven’t yet been assigned to a customer service representative (service representative or representative). It can help you ensure that all new work items that need attention are triaged. Work items can be assigned, transferred, or force closed from within the
+records. In this view, you can easily identify work items that are
+created but aren't assigned to a customer service representative (service representative or representative). It can help you ensure that all new work items that need attention are triaged. Work items can be assigned, transferred, or force closed from within the
 dashboard. 
 
-For longer time periods, you can use the [the backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report).
+For longer time periods, you can use [the backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report).
 
 :::image type="content" source="../media/record-routing-ongoingworkitems.png" alt-text="Screenshot of the real-time analytics for ongoing work items report.":::
 
-
-
-|KPIs|Desription  |
+|KPIs|Description  |
 |---------|---------|
 |Subject     |   Case or Record title      |
-|Queue    |     Queue that the work item has been routed to.    |
-|Status    |  Open or active, where open has not yet been assigned to a service representative. |
+|Queue    |     Queue that the work item is routed to.    |
+|Status    |  Open or active, where open hasn't been assigned to a service representative. |
 |Work item age    |Time in days since case or record was created.|
 |Assigned agent   |The service representative the work item is assigned to.         |
  |Created on    |    Date and time stamp of when the case or record was created.      |
-|Case    |   Unique number id of conversation linked case record.      |
+|Case    |   Unique number ID of conversation linked case record.      |
 |Priority   |  Priority of conversation linked case record.       |
 
 
@@ -54,7 +52,7 @@ transferred to another queue or force closed. 
 
 When you assign or transfer a selected work item, an assign or transfer
 conversation dialog appears. This dialog allows you to identify the best
-matching representative or queue (assign only) for the activity by displaying a
+matching representative or queue (assign only) for the activity, by displaying a
 list of matching representatives with availability, capacity and skill
 proficiency match.
 
@@ -67,4 +65,4 @@ proficiency match.
 [Summary report](rr-summary.md#view-and-understand-real-time-analytics-for-record-routing-in-the-summary-report)  
 [Queue report](rr-queue.md#view-and-understand-real-time-analytics-for-record-routing-in-the-queue-report)  
 [Agent report](rr-agent.md#view-and-understand-real-time-analytics-for-record-routing-in-the-agent-report)  
-[Backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report) 
+[Backlog work items report](rr-backlogitems.md#view-and-understand-real-time-analytics-for-record-routing-in-the-backlog-work-items-report)
