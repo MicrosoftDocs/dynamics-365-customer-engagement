@@ -64,8 +64,6 @@ following reports: 
 - **Summary**: This report provides an overview of your organization in
   real time.
 
-<!-- -->
-
 - **Queue:** This report provides a case and record work item overview
   segmented by queue.
 
@@ -76,20 +74,16 @@ following reports: 
   and records that agents are handling that are in an active or open
   state.
 
-<!-- -->
-
 - **Backlog work items**: This report lists case and record work item
   conversations that have been modified, including created within the
   time range selected.
-
-## 
 
 ## Filter information displayed on dashboard 
 
 Use the filters to drill down to KPIs across the dashboard. Adjust the
 filters based on the insights that you're looking for. The available
-filters include **Time**, **Agent**, **Agent status,** **Agent skill,
-Workstream**, **Queue**, **Work item status,** **Work item skill** and
+filters include **Time**, **Agent**, **Agent status,** **Agent skill**,
+**Workstream**, **Queue**, **Work item status,** **Work item skill** and
 **Time zone**. 
 
 ## Auto-refresh 
