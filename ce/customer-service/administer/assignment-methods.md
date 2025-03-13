@@ -195,7 +195,7 @@ The assignment rules are composed of the following items:
     
       |Attribute type|Operator|Definition|
       |--------------|--------|----------|
-      |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item.|
+      |Presence Status| Equals, Does not equal, Contains data, Does not contain data| Use an operator to find representatives who have matching presence status as specified in the work item. The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
       |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items.|
       |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
       |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
