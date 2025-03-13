@@ -1,15 +1,15 @@
 ---
 title: Set up skills and assign agents
-description: Perform the steps mentioned in the topic to create skills and assign agents to those skills.
+description: Perform the steps mentioned in the topic to create skills and assign representatives to those skills.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 06/14/2024
+ms.date: 02/04/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
 
-# Set up skills, create a rating model, and assign agents
+# Set up skills, create a rating model, and assign representatives
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
@@ -40,7 +40,7 @@ As an administrator, to create skills, you need at least one skill type in the s
 
 ## Manage skill settings in skills hub
 
-Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your agents. Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
+Skills hub in Customer Service admin center helps you seamlessly create and assign skills to your customer service representatives (service representatives or representatives). Use the **Skills hub** page to create and edit, add and remove users to skills and manage their proficiency.
 
 1. In Dynamics 365, go to Customer Service admin center.
 
@@ -50,7 +50,7 @@ Skills hub in Customer Service admin center helps you seamlessly create and assi
 
 ### Manage proficiency scales
 
-Create or update proficiency scales that are used to rate agent proficiency in the assigned skills.
+Create or update proficiency scales that are used to rate service representative proficiency in the assigned skills.
 
 1. On the **Skills hub** page, select **Manage** in **Proficiency scale** area.
 
@@ -105,13 +105,13 @@ If you'd created proficiency scales in the classic experience, you can update th
 
 1. Select **Save**.
 
-After you save, the **Users (Agents)** section appears. In this section, you add the agents and rating value. More information: [Assign agents to the skill](#assign-agents-to-skill)
+After you save, the **Users (Agents)** section appears. In this section, you add the representatives and rating value. Learn more in [Assign agents to the skill](#assign-agents-to-skill).
 
 ### Rating value of skills
 
-When you add a skill to an agent, you also need to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
+When you add a skill to a service representative, you also need to rate the proficiency of the skill. This enables the system to do an exact or closest match against the requirement of a conversation and distribute the conversation accordingly. You can use the default rating model, edit it, or create a new one to match the needs of your organization.
 
-You must provide the minimum and maximum rating value. Also, in the **Rating Values** section, you must create rating value text against each score between the minimum and maximum rating value. This text appears when you're updating an agent's skill and proficiency.
+You must provide the minimum and maximum rating value. Also, in the **Rating Values** section, you must create rating value text against each score between the minimum and maximum rating value. This text appears when you're updating a representative's skill and proficiency.
 
 ### Create a rating model
 
@@ -168,9 +168,9 @@ For example:
 | ★★ | 2 star|
 | ★ | 1 star|
 
-### Add agents as bookable resource in the classic experience
+### Add representatives as bookable resource in the classic experience
 
-Add the agents as a bookable resource so that you can assign skills to them. This task is required for classic experience only and not for the new skills hub experience.
+Add the representatives as a bookable resource so that you can assign skills to them. This task is required for classic experience only and not for the new skills hub experience.
 
 1. Go to the users page in any of the administrator apps.
 
@@ -186,24 +186,24 @@ Add the agents as a bookable resource so that you can assign skills to them. Thi
 
 1. In the site map of Customer Service admin center, select User management under Customer support, and then select  **Manage** for **Skills**.
    
-2. Select a skill from the list for which you want to assign the agents.
+2. Select a skill from the list for which you want to assign the representatives.
 
 3. Select **New Bookable Resource Characteristic** in the **Users (Agents)** section. The **Quick Create: Bookable Resource Characteristic** pane appears.
 
-4. Select an agent name for the **User (Agent)** field. Only the name of the agents who are added as Bookable Resources appears in the dropdown list.
+4. Select a service representative name for the **User (Agent)** field. This dropdown list displays existing Bookable Resources only and allows you to select from them.
 
-5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. More information: [Rating value of skills](#rating-value-of-skills).
+5. Select a rating value from the list. The values that appear are based on the rating model and rating values that you created. Learn more in [Rating value of skills](#rating-value-of-skills).
 
-6. Select **Save and Close**. The agent you added is displayed in the grid.
+6. Select **Save and Close**. The representative you added is displayed in the grid.
 
     > [!div class=mx-imgBorder] 
     > ![Assign agents to skill.](../media/assign-user-skill.png "Assign agents to skill")
 
-7. Repeat steps 3 through 6 to add more agents to the skill.
+7. Repeat steps 3 through 6 to add more representatives to the skill.
 
 8. Select **Save**.
 
-Alternatively, you can also add a skill to the user (agent). More information: [Manage users](users-user-profiles.md).
+Alternatively, you can also add a skill to the user (representative). Learn more in [Manage users](users-user-profiles.md).
 
 ### Related information
 

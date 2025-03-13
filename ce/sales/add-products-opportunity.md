@@ -71,7 +71,7 @@ You can take the following actions on the products added to the **Products** gri
 |Edit the properties of a product.  |Double-click the product to update details such as the price, quantity, or discount of the added products. <br/> |
 |Delete a product associated with the opportunity. |Select the product, and on the command bar, select **Delete Opportunity Line**. |
 |View products within a bundle. | Select the **Chevron** icon ![Chevron icon.](media/chevron-icon.png "Chevron icon") for the product bundle. You'll see all the products that are included in the bundle. |
-|See and add related products for cross-selling or upselling, or select an accessory or substitute product. | Select a product, and select **Suggestions** in the products grid. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See and add related products for cross-selling or upselling, or select an accessory or substitute product. | Select a product, and select **Suggestions** in the products grid. The **Suggestions** pane shows all the products that are [defined as related products](define-related-products-increase-chances-sales.md) for the current product. Select the related products that you want to add, and then select **OK**. |
 |Group specific records together by moving a record up or down in the grid. | Select the record, select the more commands icon, and then select **Move Up** or **Move Down**. |
 
 > [!IMPORTANT]

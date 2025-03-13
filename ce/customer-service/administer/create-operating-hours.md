@@ -1,7 +1,7 @@
 ---
 title: Create and manage operating hours
 description: Perform the steps mentioned in the article to create, manage, and define operating hours in Omnichannel for Customer Service.
-ms.date: 06/14/2024
+ms.date: 03/03/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -14,17 +14,20 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 Operating hours define the hours when your organization's customer support team is active and available to serve customers. By setting up operating hours, you help your customers and your organization work together to resolve issues.
 
 The operating hour schedules cater to the following scenarios:
 
 - Display the nonavailability of customer support on public holidays that are otherwise operating hours.
-- Accommodate change of calendar timings for daylight saving time twice a year for timezones that implemented the daylight saving time.
-- Set up separate schedules for agents, bots, and queues to cater to different business scenarios and product lines seamlessly for any channel.
-- Define schedules to transition customer queues from bots to agents.
+- Accommodate change of calendar timings for daylight saving time twice a year for time zones that implemented the daylight saving time.
+- Set up separate schedules for customer service representatives (service representatives or representatives), AI agents (agents), and queues to cater to different business scenarios and product lines seamlessly for any channel.
+- Define schedules to transition customer queues from AI agents to service representatives.
 - Customize the display and other settings of the chat widget during nonbusiness hours.
 
-After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) for your customers, when customers interact through a channel during nonbusiness hours, they see or hear the messages that you set. For example, you can display an offline message on the chat widget as "Our agents are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your agents through any of the social channels outside the business hours, they receive responses that you set.
+After you define the business hours for your organization and set up [automated messages](configure-automated-message.md) for your customers, when customers interact through a channel during nonbusiness hours, they see or hear the messages that you set. For example, you can display an offline message on the chat widget as "Our representatives are not available. Our business hours are between 8:00 am and 5:00 pm." Similarly, for social channels, you can configure the operating hours at the queue level. When customers contact your representatives through any of the social channels outside the business hours, they receive responses that you set.
 
 In the Customer Service admin center or Contact Center admin center app, after you create an operating hour record, you can do the following steps, depending on your requirement:
 
@@ -32,7 +35,7 @@ In the Customer Service admin center or Contact Center admin center app, after y
 - **Chat widget:** Add the operating hour record on the **Chat widget** tab.
 - **SMS channels:** Add the operating hour record on the **Behaviors** tab of the channel instance that can be accessed through the corresponding workstream.
 
-When operating hours are in effect, work items during non-business hours are handled based on the [overflow conditions for before a work item is queued](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued)
+When operating hours are in effect, work items during non-business hours are handled based on the [overflow conditions for before a work item is queued](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued).
 
 ## Create a record to define operating hours
 

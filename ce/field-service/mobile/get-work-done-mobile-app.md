@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 01/24/2025
+ms.date: 03/11/2025
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -79,7 +79,7 @@ From the main menu, go to **Time Entry** to create them.
 
 Watch this video to learn more about time entry in the Field Service mobile app:
 >
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=881e6a12-aca1-43ec-9a7d-5cb5ea876e22]
+> [!VIDEO 3459f683-d0d2-48de-a0bb-691d3bde4b79]
 
 ## Create follow-up work orders
 
@@ -96,15 +96,15 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 - Taxable
 - Transaction Currency ID
 
+:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
+
 After saving the work order, a dispatcher can schedule it.
 
-If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md)] to the work order table.
-
-:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
+If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md) to the work order table.
 
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 >
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=7819da69-648c-459f-931c-5c26a69e566a]
+> [!VIDEO 151313d1-c743-4a99-a363-09318ed4505f]
 
 ## Troubleshoot app issues
 

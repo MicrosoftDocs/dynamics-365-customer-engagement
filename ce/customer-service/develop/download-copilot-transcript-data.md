@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 12/04/2024
+ms.date: 03/11/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,13 +16,51 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When agents use Copilot, agent interactions with Copilot such as copying summaries, using a suggested reply, feedback, and chat transcripts are stored in the [**msdyn_copilotinteraction**](../develop/reference/entities/msdyn_copilotinteraction.md), [**msdyn_copilotinteractiondata**](../develop/reference/entities/msdyn_copilotinteractiondata.md), [**msdyn_copilottranscript**](../develop/reference/entities/msdyn_copilottranscript.md), and [**msdyn_copilottranscriptdata**](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Web API requests.
+When agents use Copilot, agent interactions with Copilot such as copying summaries, using a suggested reply, feedback, and chat transcripts are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
 
 ## Prerequisites
 
 - Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Administrator or Supervisor role.
 - [Get the interaction id](#get-interaction-id).
+
+
+## Retrieve conversation summary
+
+When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_copilotinsights`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the [`msdyn_conversationid`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_ConversationId) field. The summary text is stored in the [`msdyn_copilotsummary`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_copilotsummary) field.
+
+For example, after wrapping up a conversation with a customer, an agent uses Copilot to generate a conversation summary. The conversation summary is stored in the `msdyn_copilotinsights` table with the following values.
+
+| Attribute             | Sample Value                                                                                     |
+|-----------------------|--------------------------------------------------------------------------------------------------|
+| msdyn_conversationid  | 70b76ab52-120b-49e6-9dce-53f235125a01                                                            |
+| Conversation summary | “Issue: Trouble with the brew valve on the coffee machine. Troubleshooting steps: Customer reported the issue. Outcome: Issue reported for further assistance.” |
+
+You can retrieve the conversation summary as follows:
+
+1. Identify the conversation's unique conversation ID in `msdyn_conversationid` from the `msdyn_copilotinsights` table. In our example, this value is 70b76ab52-120b-49e6-9dce-53f235125a01.
+1. Filter the msdyn_conversationinsights table with the required conversation ID to get the summary. Use the following Web API request to filter the data by conversation ID.
+
+   ```http
+ 
+    [Organization URI]/api/data/v9.0/msdyn_conversationinsights $filter=msdyn_conversationid_value eq '<conversation-ID>'
+
+   ```
+
+   In our example, the Web API request is as follows.
+
+   ```http
+    https://<yourorg>.crm.dynamics.com/api/data/v9.0/msdyn_conversationinsights?$filter=_msdyn_conversationid_value eq '70b76ab52-120b-496e-9dce-53f235125a01'
+   ```
+The sample response for our example is as follows:
+
+```json
+{
+"status": { "code": 20000, "message": "Successfully fetched summary from insights" },
+"summary": "Issue: Trouble with the brew valve on the coffee machine.\nTroubleshooting steps: \n- Customer reported the issue.\nOutcome: Issue reported for further assistance."
+}
+```
+
 
 ## Download chat transcripts
 
@@ -82,7 +120,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 3. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Trascript:DataID>)/msdyn_transcriptdata)
+    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Transcript:DataID>)/msdyn_transcriptdata
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
@@ -138,6 +176,8 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
    } 
 
    ```
+
+
 
 ## Retrieve verbatim feedback
 
@@ -243,7 +283,7 @@ You can download the interaction data as follows.
    In our example, the Web API request is as follows.
 
     ```http
-      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatasf9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
+      [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(f9d841e5-34e7-ee11-904c-000d3a3bb867)/msdyn_interactiondata
     
     ```
 

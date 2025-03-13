@@ -1,7 +1,7 @@
 ---
 title: Manage duplicate opportunity scoring models
 description: Learn how to remove duplicate models and make sure that no models are scoring the same opportunities in Dynamics 365 Sales.
-ms.date: 11/30/2022
+ms.date: 02/19/2025
 ms.custom: 
 ms.topic: article
 author: lavanyakr01

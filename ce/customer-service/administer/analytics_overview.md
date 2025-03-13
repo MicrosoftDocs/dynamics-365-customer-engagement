@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 06/05/2024
+ms.date: 02/07/2025
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 
-As an administrator, you can [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. This data can then be shared with supervisors so they can review and analyze contact center activities. This valuable information can help identify and address issues, improve agent efficiency, and ultimately enhance productivity and customer satisfaction.
+As an administrator, you can [enable analytics and insights](configure-customer-service-analytics-insights-csh.md#configure-analytics-and-insights-dashboards) features within Customer Service. This data can then be shared with supervisors so they can review and analyze contact center activities. This valuable information can help identify and address issues, improve customer service representative (service representative or representative) efficiency, and ultimately enhance productivity and customer satisfaction.
 
 You can configure these features and services in the Customer Service admin center or Contact Center admin center app. Once set up, supervisors can use the Customer Service workspace app to access and view them.
 
@@ -29,11 +29,11 @@ Supervisors can access and view these dashboards from the Customer Service works
 
 **Historical**
 
-- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use the performance summary and detailed reports on cases, agents, and topics to improve customer service.
+- [Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md#customer-service-historical-analytics-reports): Use the performance summary and detailed reports on cases, service representatives, and topics to improve customer service.
 
 - [Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md): Use key performance indicators coupled with AI-generated insights to get a view into the support operations across various channels.
 
-- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): Use article and search term insights to understand how agents use knowledge articles to resolve customer issues.
+- [Knowledge analytics reports](../use/knowledge-search-analytics-cs.md): Use article and search term insights to understand how service representatives use knowledge articles to resolve customer issues.
 
 **Real time**
 
@@ -47,7 +47,7 @@ Here are the customizations that you can utilize.
 - Personalize analytics:
   - [Report Filters and Groups](../use/report-filters-groups.md#report-filters-and-groups): Save time by setting one or more filters to a report group, eliminating the need to set filters each time you access the reports.
   - [Manage Bookmarks for Reports](../use/manage-bookmarks.md#manage-bookmarks-for-reports): Utilize bookmarks to save the filters you set, allowing for easy viewing of specific data each time you open the report.
-- [Utilize Omnichannel for Customer Service Metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics): Perform a quantitative assessment of the data displayed on the Omnichannel for Customer Service dashboards. Use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
+- [Use metrics](../use/oc-metrics-dimensions.md): Perform a quantitative assessment of the metrics displayed on the dashboards. Use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
 
 ## Related information
 

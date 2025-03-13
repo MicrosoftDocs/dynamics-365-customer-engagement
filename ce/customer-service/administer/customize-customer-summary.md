@@ -1,7 +1,7 @@
 ---
 title: Customize the Active Conversation form
 description: Learn how to add or remove custom controls, customize form layout, and add web resources to the Active Conversation form in Omnichannel for Customer Service.
-ms.date: 08/22/2024
+ms.date: 02/05/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -43,7 +43,7 @@ This section includes **Pre-chat survey** and **Visitor details**. The details o
 
 The **Visitor details** tab provides some information such as the customer is authenticated or not, browser used by the customer for contacting support, an operating system used by the customer, location of the customer, interacting language of the customer, and so on. In addition, conversation and transfer details.
 
-If the customer signs in to the portal to initiate a chat with the support, then as an agent, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
+If the customer signs in to the portal to initiate a chat with the support, then as a customer service representative, you can see the **Authenticated** field value as **Yes** in the **Visitor details** tab of the **Conversation summary** section. Otherwise, the **Authenticated** field value is shown as **No**.
 
 ## Issue snapshot
 
