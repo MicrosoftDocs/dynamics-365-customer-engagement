@@ -3,7 +3,7 @@ title: Overview of Resource Scheduling Optimization for Dynamics 365 Field Servi
 description: Learn about Resource Scheduling Optimization for Dynamics 365 Field Service.
 author: AnilMur
 ms.author: anilmur
-ms.date: 06/04/2024
+ms.date: 03/13/2025
 ms.topic: overview
 ms.subservice: resource-scheduling-optimization
 ---
@@ -41,6 +41,26 @@ You can configure Resource Scheduling Optimization for your business needs based
 - **Intraday scheduling**: Runs optimizations every 30 minutes to schedule and adjust for changing business needs as new jobs are created and others are canceled or rescheduled.
 
 - **Emergency scheduling**: When an urgent job is created, a Resource Scheduling Optimization run schedules the high-priority job as soon as possible before lower priority jobs.
+
+## Geographical availability
+
+The Resource Scheduling Optimization add-in is available in the following Azure regions:
+
+- NAM
+- SAM
+- CAN
+- EMEA
+- EUR
+- APJ
+- OCE
+- JPN
+- IND
+- GCC
+- GBR
+- FRA
+- UAE
+- KOR
+- NOR
 
 ## Understand how it works
 
