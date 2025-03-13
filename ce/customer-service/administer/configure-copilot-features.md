@@ -43,6 +43,19 @@ The option to enable Copilot AI features is available by default to customers wi
 
 The respond to questions, compose an email, and summarize cases and conversations features are generally available in the North America region only. These features are in preview in the rest of the supported regions. More information: [Region availability](cs-region-availability-service-limits.md#region-availability-of-analytics-and-insights).
 
+### Understand cross region data movement for Copilot features
+
+Copilot feature performance is based on the regional availability of the Azure OpenAI services. The following table describes the scenarios based on which you must [enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center app before you can opt in to use Copilot.
+
+|Scenario| Enable data movement |
+|----------------|------------------|
+| Azure OpenAI capacity is available in the same region as your tenant. | No |
+| Azure OpenAI capacity is available outside of your tenant. | Yes |
+| Azure OpenAI capacity is available in your tenant region, but has fallback to external regions. | Optional. However, if you don't enable data movement, you can face performance issues such as throttling or unavailability due to capacity constraints.  |
+
+> [!NOTE]
+> Data movement across regions is enabled by default in Power Platform admin center.
+
 ## Supported languages
 
 To learn about supported languages for Copilot, see [Language support for AI-based analytics and insights in Customer Service](cs-region-availability-service-limits.md#language-support-for-ai-based-analytics-and-insights-in-customer-service).
