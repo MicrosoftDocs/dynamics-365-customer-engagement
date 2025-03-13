@@ -1,10 +1,11 @@
 ---
 title: "Manage historical analytics reports in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
-ms.date: 6/14/2024
+ms.date: 03/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -13,6 +14,9 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 You can configure Omnichannel historical analytics to give your service managers a combination of BI analytics and AI insights for their organization. The reports use natural language understanding to automatically detect the language used in your support conversations and to group related conversations into topics.
 
@@ -56,23 +60,23 @@ You can enable historical analytics for unified routing in the Customer Service 
     
 The Unified routing historical analytics report is available as a tab in the Omnichannel historical analytics report.
 
-## Enable historical analytics for bots in Omnichannel for Customer Service
+## Enable historical analytics for Copilot agents in Omnichannel for Customer Service
 
-In Customer Service admin center, you can enable the historical analytics for bots to give your service managers integrated reports that combine Copilot Studio bots and Omnichannel conversation metrics.
+In Customer Service admin center, you can enable the historical analytics for AI agents (agents) to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
 
 > [!IMPORTANT]
 >
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for bots. This feature is available only if Copilot Studio bots are integrated with Omnichannel for Customer Service.
+> Omnichannel historical analytics must be enabled before you can enable historical analytics for agents. This feature is available only if Copilot agents are integrated with Omnichannel for Customer Service.
 
-- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot Studio bot.
+- If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot agent.
 
  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
-- If no Copilot Studio bots are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all bots.
+- If no Copilot agents are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all agents.
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
-**Enable historical analytics for bots in Omnichannel for Customer Service**
+**Enable historical analytics for agents in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 

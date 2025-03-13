@@ -1,7 +1,7 @@
 ---
 title: Dynamics 365 Field Service version history
 description: Release schedule and version history for Dynamics 365 Field Service.
-ms.date: 10/22/2024
+ms.date: 03/11/2025
 ms.topic: overview
 author: jshotts
 ms.author: jasonshotts
@@ -18,18 +18,43 @@ For information about older versions, see [Version history archive](version-hist
 
 | Station | Region | Current version | Next version | Scheduled date |
 | ------- | ------ | --------------  | -----------  | -------------  |
-|**Station 1** |  *First Release*| [8.8.129.173](/dynamics365/field-service/version-history#88129173)  | TBD |11/15/2024 |
-|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*|  [8.8.129.177](/dynamics365/field-service/version-history#88129177)  | TBD |11/22/2024 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.128.214](/dynamics365/field-service/version-history#88128214)  |  [8.8.129.177](/dynamics365/field-service/version-history#88129177) |11/15/2024 |
-| | *USG* |   [8.8.129.177](/dynamics365/field-service/version-history#88129177)  | TBD |11/22/2024 |
-|**Station 4** |*Europe* | [8.8.128.214](/dynamics365/field-service/version-history#88128214)  |  [8.8.129.177](/dynamics365/field-service/version-history#88129177) |11/22/2024 |
-|**Station 5** | *North America*| [8.8.127.75](/dynamics365/field-service/version-history#8812775)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) | 11/15/2024 |
-|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.127.141](/dynamics365/field-service/version-history#88127141)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) | 11/15/2024  |
-| | *Dedicated Scale Groups* | [8.8.127.141](/dynamics365/field-service/version-history#88127141)  | [8.8.128.214](/dynamics365/field-service/version-history#88128214) |  11/22/2024  |
+|**Station 1** |  *First Release*| [8.8.133.214](/dynamics365/field-service/version-history#88133214)  | TBD | 04/11/2025 |
+|**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea*| [8.8.133.214](/dynamics365/field-service/version-history#88133214)  |  TBD |04/18/2025 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania* | [8.8.132.216](/dynamics365/field-service/version-history#88132216)  |  [8.8.133.214](/dynamics365/field-service/version-history#88133214)  |03/14/2025 |
+| | *USG* |  [8.8.133.214](/dynamics365/field-service/version-history#88133214)  |  TBD |04/16/2025 |
+|**Station 4** |*Europe* |[8.8.132.216](/dynamics365/field-service/version-history#88132216)  |  [8.8.133.214](/dynamics365/field-service/version-history#88133214) | 03/21/2025 |
+|**Station 5** | *North America*|   [8.8.132.216](/dynamics365/field-service/version-history#88132216)    | [8.8.133.214](/dynamics365/field-service/version-history#88133214) |  03/28/2025 |
+|**Station 6** |*Government Community Cloud, DoD, China* | [8.8.132.216](/dynamics365/field-service/version-history#88132216)   |  [8.8.133.214](/dynamics365/field-service/version-history#88133214)  |  04/04/2025 |
+| | *Dedicated Scale Groups* | [8.8.132.216](/dynamics365/field-service/version-history#88132216)    | [8.8.133.214](/dynamics365/field-service/version-history#88133214) |  03/26/2025 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China indicate the timing of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
 > - For all other regions, while most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
+
+## 8.8.133.214
+
+(Includes Universal Resource Scheduling version [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) and Resource Scheduling controls version 1.2.88.250442)
+
+- Fixed an issue with Copilot feedback on the work order form, which didn't open on generated work order summaries.
+  
+## 8.8.132.216
+
+(Includes Universal Resource Scheduling version [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214616) and Resource Scheduling controls version 1.2.87.243542)
+
+- No updates were made to Dynamics 365 Field Service in this release.
+
+## 8.8.131.79
+
+(Includes Universal Resource Scheduling version [3.12.146.16](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214616) and Resource Scheduling controls version 1.2.85.243202)
+
+- No updates were made to Dynamics 365 Field Service in this release.
+
+## 8.8.130.134
+
+(Includes Universal Resource Scheduling version [3.12.145.25](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214525) and Resource Scheduling controls version 1.2.84.243184)
+
+- Discount % and discount amount fields will now be hidden when the Field Service and Finance and Operations integration is enabled. These fields have no impact on journals in Finance and Operations apps.
+- Bug fixes and enhancements for [Copilot summary and summary configuration](work-order-recap.md).
 
 ## 8.8.129.177
 

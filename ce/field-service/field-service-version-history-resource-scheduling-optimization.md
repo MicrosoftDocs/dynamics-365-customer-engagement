@@ -44,6 +44,10 @@ For information about older versions, see [Version history archive](version-hist
 >
 > - Dates in all regions indicate the timing of the next automatic update. While most updates should be complete on the scheduled night, updates requiring more time may be completed during dark hours over the weekend indicated in the **Scheduled date** column.
 
+## 3.4.0.1332
+
+This release, available as of December 6, 2024 has a fix for a bug where optimization requests occasionally fail with an error message "Object reference not set to an instance of an object".
+
 ## 3.4.0.1262
 
 This release, available as of September 13, 2024, has updates improving performance.  

@@ -1,7 +1,7 @@
 ---
 title: Who knows whom in Dynamics 365 Sales
 description: Learn how to use the who knows whom feature in Dynamics 365 Sales to quickly identify colleagues who can introduce you to a lead or contact.
-ms.date: 07/25/2024
+ms.date: 02/27/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -16,13 +16,6 @@ ms.custom:
 
 The who knows whom feature in Dynamics 365 Sales helps you to quickly identify colleagues who can introduce you to a lead or contact.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise or Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## What is who knows whom?
 
 Sales representatives often interact with leads they have never met. If only you knew someone who knows the lead, an introduction could increase the chances of a positive outcome. That's where who knows whom comes in. Who knows whom suggests colleagues who have interacted with the lead through emails or meetings. It even helps you quickly email your colleagues to request an introduction.
@@ -36,6 +29,9 @@ For Sales Enterprise users, the who knows whom information is populated based on
 ### Enhanced who knows whom information
 
 For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of data sharing.  
+
+> [!NOTE]
+> If you opt in for [April 2025 early access](/power-platform/admin/opt-in-early-access-updates), you can connect to Exchange only using [server-side synchronization](configure-email.md). If you previously enabled the [Exchange integration](configure-relationship-analytics.md#configure-relationship-analytics) through relationship intelligence settings, it won't work for early access. Until server-side synchronization is set up, who knows whom only uses emails from Dynamics 365.
 
 ## View who knows whom  
 

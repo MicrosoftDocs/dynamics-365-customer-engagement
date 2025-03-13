@@ -25,13 +25,6 @@ This article covers how to set your sales team's availability. You can [set sell
 > [!NOTE]
 > Starting from  April 1, 2024, you can't set the seller's availability through Outlook. More information: [Deprecation of setting seller availability using Outlook calendar](deprecations-sales.md#set-seller-availability-using-outlook-calendar)
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Sales Manager](security-roles-for-sales.md) |
-
 ## Set your sellers' availability yourself
 
 The Sales Hub app offers three ways to set your sales team's work hours yourself:

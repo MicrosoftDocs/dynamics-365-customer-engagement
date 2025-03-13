@@ -2,7 +2,6 @@
 title: "Use field security to control access to field values (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Provides field-level security to restrict access to high business impact (custom and OOB) fields to specific users and teams."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

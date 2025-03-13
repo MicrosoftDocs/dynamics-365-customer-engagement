@@ -26,7 +26,7 @@ The summary feature adheres to [responsible AI guidelines](faqs-work-order-recap
 
 Watch this brief video to learn more about the new work order experience in Field Service, including work order summaries:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
 
 ## Prerequisites
 
@@ -83,7 +83,7 @@ To revert to the default summary provided by Field Service, disable the **Conf
 >
 > - To generate configured summaries, users need read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
 > - The optimization used in the generation of default summaries, where there may be different details depending on work order status, is not applied to administrator-configured summaries.
-> - In cases where Field Service was pre-installed in an environment, you might see an empty list in **Summary Configuration** even after enabling the feature. To resolve, go to a work order and generate a summary. This reinitializes the out-of-the-box summary configuration and populates the list. Then, navigate back to **Summary Configuration**.
+> - In cases where Field Service was pre-installed in an environment, you might not see the summary configurations after enabling the feature. Select **Create default configurations** to add missing configurations.
 
 ## Generate a summary in the web app
 

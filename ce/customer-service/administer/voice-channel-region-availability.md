@@ -3,8 +3,8 @@ title: Supported cloud locations for voice channel
 description: Use this article to know about the supported cloud locations for the voice channel in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
-ms.date: 11/04/2024
+ms.reviewer: nenellim
+ms.date: 03/03/2025
 ms.topic: conceptual
 ms.custom: bap-template
 ---
@@ -45,20 +45,21 @@ If you need your data to stay within a region, the following table lists the loc
 |----------|---------|-----|----------|
 |Australia| crm6.dynamics.com |Available |Available|
 |United Kingdom **<sup>1</sup>**| crm11.dynamics.com |Available | To be announced|
-|Canada **<sup>1 </sup>** |crm3.dynamics.com |Available | To be announced  |
+|Canada **<sup>1</sup>** |crm3.dynamics.com |Available | To be announced  |
 |South America |To be announced | To be announced|To be announced|
 |France | To be announced | To be announced|To be announced|
 |Germany | To be announced | To be announced|To be announced|
-| United Arab Emirates | To be announced | To be announced |To be announced|
+|United Arab Emirates **<sup>3</sup>**| crm15.dynamics.com | Available |To be announced|
 |South Africa | To be announced | To be announced|To be announced|
 |Norway | To be announced | To be announced|To be announced|
 |Korea | To be announced | To be announced|To be announced|
 |Singapore|To be announced | To be announced|To be announced|
+|Switzerland | crm17.dynamics.com | Available |To be announced|
 
 > [!NOTE]
 > **<sup> 1</sup>** The geographic location currently doesn't have business continuity and disaster recovery (BCDR) support. BCDR support will be a fast follow in this region.
->
 > **<sup> 2</sup>** The geographic location won't have Copilot Studio support.
+> **<sup> 3</sup>** BCDR failover is available for a few services only.
 
 ## Sovereign cloud deployments
 

@@ -1,7 +1,7 @@
 ---
-title: View the accuracy and performance of predictive scoring models
+title: View accuracy and performance of predictive scoring models
 description: Learn how to view the accuracy and performance of your predictive lead and opportunity scoring models in Dynamics 365 Sales.
-ms.date: 11/04/2024
+ms.date: 12/06/2024
 ms.custom:
 ms.topic: article
 author: lavanyakr01
@@ -14,13 +14,6 @@ ms.reviewer: lavanyakr
 Knowing how accurate a predictive scoring model is helps you decide whether the model is ready for use or needs to be fine-tuned for higher accuracy. It also helps you convince your leadership team and sellers to adopt the model for improved business outcomes.
 
 The metrics described in this article apply to both opportunity scoring and lead scoring.  
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Factors that influence accuracy
 

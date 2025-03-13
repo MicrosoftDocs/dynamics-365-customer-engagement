@@ -53,6 +53,9 @@ The following screenshot illustrates the relationship analytics widgets that are
 
 Enhanced relationship insights are available with the Sales Premium license and requires your administrator to enable and configure relationship intelligence. Your administrator can configure relationship intelligence to use the Exchange data as well. In this case, the insights will be generated based on emails and meetings information in Dynamics 365 and emails in Microsoft Exchange.  More information: [Enable relationship intelligence](enable-ri.md)
 
+> [!NOTE]
+> If you opt in for [April 2025 early access](/power-platform/admin/opt-in-early-access-updates), you can connect to Exchange only using [server-side synchronization](configure-email.md). If you previously enabled the [Exchange integration](configure-relationship-analytics.md#configure-relationship-analytics) through relationship intelligence settings, it won't work for early access. Until server-side synchronization is set up, Relationship Analytics only uses emails from Dynamics 365.
+
 For information on how to view the insights, see [View analytics and KPIs for a record](relationship-analytics.md#view-analytics-and-kpis-for-an-individual-lead-account-contact-or-opportunity).
 
 The following screenshot illustrates the enhanced relationship insights that are available for an opportunity. Similar widgets are available for the Contact, Account, and Lead entities. For Opportunity records, [the KPIs are compared with similar won deals](relationship-analytics.md#compare-the-kpis-of-an-opportunity-with-similar-opportunities).

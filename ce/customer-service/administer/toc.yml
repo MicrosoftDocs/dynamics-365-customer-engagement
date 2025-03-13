@@ -68,7 +68,7 @@
           href: overview-skill-work-distribution.md
         - name: Set up skills, create rating model, assign skills to agents
           href: setup-skills-assign-agents.md
-        - name: Enable agents to update skills
+        - name: Enable representatives to update skills
           href: allow-agents-update-skills.md
         - name: Set up skill-based routing in unified routing
           href: set-up-skill-based-routing.md
@@ -86,6 +86,20 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
+      - name: Conversation diagnostics
+        items:
+        - name: Configure conversation diagnostics (preview)
+          href: configure-conversation-diagnostics.md
+        - name: Understand conversation diagnostics (preview)
+          href: conversation-diagnostics-subscenarios.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
+      - name: FAQ about unified routing
+        href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
@@ -170,7 +184,7 @@
       items:
       - name: Overview of case management
         href: overview-cases.md
-      - name: Define status reason transitions for case management
+      - name: Add status reason, status reason transitions to manage cases
         href: define-status-reason-transitions-case-management.md
       - name: Create and manage subjects
         href: create-manage-subject-tree.md
@@ -184,12 +198,14 @@
         href: update-resolved-canceled-cases.md
       - name: Modify case resolution dialog
         href: modify-case-resolution-dialog.md
-      - name: Configure case handling time widget to case forms (preview)
+      - name: Configure case handling time widget to case forms 
         href: add-case-handling-time.md      
       - name: Customize the case resolution experience
         href: add-enhanced-case-management.md
       - name: Enable enhanced case forms for multisession apps
         href: case-enh-config.md
+      - name: Add Power Apps components to case management forms
+        href: case-powerapps-comp.md
       - name: Configure components to display customer details and recent records
         href: add-display-components-to-case-form.md
       - name: Configure components to display case associations
@@ -222,10 +238,12 @@
           href: arc-multiple-cases.md
         - name: How the automatic record creation rule works in a customer scenario
           href: arc-customer-scenario.md
-        - name: How the automatic record creation rule works in an agent scenario
+        - name: How the automatic record creation rule works in a service representative scenario
           href: arc-agent-scenario.md
         - name: Sample - ARC Multi-Related - Remove Unreferenced Queue
           href: sample-arc-multiple-cases.md
+      - name: Reopen a resolved case
+        href: Reopen-resolved-case.md
       - name: FAQ about automatic record creation
         href: arc-faqs.md
     - name: Service-level agreements
@@ -338,7 +356,7 @@
         href: create-manage-categories.md
       - name: Create knowledge article templates in Power Apps
         href: /power-platform/admin/create-templates-articles
-      - name: Integrate knowledge management in Dynamics 365 with Copilot Studio bots
+      - name: Integrate knowledge management in Dynamics 365 with Copilot agents
         href: integrate-KM-with-PVA.md
       - name: Configure the origin allowlist for knowledge articles
         href: configure-knowledge-article-origin-allow-list.md
@@ -420,33 +438,33 @@
         href: configure-outbound-inbound-profiles.md
       - name: Configure historical analytics for voice
         href: cs-voice-historical-analytics.md
-      - name: Configure Copilot Studio bots for voice
+      - name: Configure Copilot Studio agents for voice
         href: voice-channel-pva-bots.md
+      - name: Configure a sample voice agent template
+        href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure multilingual IVR bots
+        href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure fallback actions for the IVR agent
+        href: /dynamics365/contact-center/administer/configure-fallback-actions-ivr-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
       - name: View voice calls usage
         href: voice-channel-usage.md
-      - name: Configure post-call survey
-        href: voice-channel-survey.md
       - name: Block spam numbers
         href: voice-channel-block-number.md
       - name: Configure call recording, transcription, and real-time translation
         href: voice-channel-configure-transcripts.md
-      - name: Enable voice call experiences
-        href: configure-end-of-call-survey.md
       - name: Delete call recordings
         href: voice-channel-delete-calls.md
       - name: Enable voice consult with Microsoft Teams users
         href: voice-consult-microsoft-teams-user.md
       - name: Manage phone music
         href: voice-channel-music.md
-      - name: Set up a multilingual bot
+      - name: Use bot framework composer to set up a multilingual bot for voice channel
         href: set-up-multilingual-pva-bot.md
-      - name: Set up a multilingual contact center
-        href: voice-channel-multi-language-contact-center.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
       - name: Integrate Nuance Cloud IVR bot
         items:
-        - name: Introduction to Nuance Cloud IVR bot integration
+        - name: Introduction to Nuance Cloud IVR agent integration
           href: oc-nuance-overview.md
         - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
           href: oc-nuance-setup.md
@@ -468,7 +486,7 @@
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
         href: download-email-chat-transcripts.md
-      - name: Configure agent display name
+      - name: Configure representative display name
         href: agent-display-name.md
       - name: Configure proactive chat
         href: proactive-chat.md
@@ -548,8 +566,6 @@
         href: manage-context-variables.md
       - name: Configure pre-conversation surveys
         href: configure-pre-chat-survey.md
-      - name: Configure post-conversation surveys
-        href: configure-post-conversation-survey.md
       - name: Identify customers automatically
         href: record-identification-rule.md
       - name: Close conversations automatically
@@ -580,6 +596,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Enable multisession experience in custom apps (preview)
+        href: enable-multisession-custom-apps.md
       - name: Create quick replies
         href: create-quick-replies.md
       - name: Manage rich messages
@@ -609,25 +627,27 @@
       - name: Case and conversation summaries
         items:
         - name: Enable summarization of cases and conversations
-          href: copilot-enable-summary.md
+          href: /dynamics365/contact-center/administer/copilot-enable-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable case summaries
-          href: copilot-enable-summary.md#enable-case-summaries
+          href: /dynamics365/contact-center/administer/copilot-enable-summary#enable-case-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
         - name: Enable conversation summaries
-          href: copilot-enable-summary.md#enable-conversation-summaries
+          href: /dynamics365/contact-center/administer/copilot-enable-summary##enable-conversation-summaries?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+      - name: Configure custom record summaries for service representatives
+        href: copilot-enable-custom-record-summaries.md    
       - name: Enable Copilot help pane features
         items:
         - name: Enable features in Copilot pane
-          href: copilot-enable-help-pane.md
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable ask a question
-          href: copilot-enable-help-pane.md#enable-ask-a-question
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-ask-a-question?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable draft a response (preview)
-          href: copilot-enable-help-pane.md#enable-draft-a-response-preview
+          href: /dynamics365/contact-center/administer/copilot-enable-help-pane#enable-draft-a-response-preview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
         - name: Enable Copilot to draft emails 
-          href: copilot-email-enable.md
+          href: /dynamics365/contact-center/administer/copilot-email-enable?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Enable case summaries through ask a question (preview)
         href: enable-ask-summarize-cases.md
       - name: Enable Copilot plugins for generative AI (preview)
-        href: enable-copilot-plugins-for-generative-ai.md
+        href: /dynamics365/contact-center/administer/enable-copilot-plugins-for-generative-ai?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Enable Copilot to create knowledge from cases
         href: enable-copilot-suggest-knowledge-from-cases.md
       - name: View feedback data
@@ -637,33 +657,47 @@
       - name: Manage fields Copilot uses for case summaries
         href: copilot-map-custom-fields.md
       - name: Customize Copilot conversation summaries
-        href: customize-copilot-conv-summary.md
+        href: /dynamics365/contact-center/administer/customize-copilot-conv-summary?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: Configure copilot features for custom case forms and custom apps
         href: copilot-powerapps-settings.md
       - name: Display Copilot case summary on custom case forms
         href: copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms
       - name: Enable Copilot features for custom apps
         href: copilot-powerapps-settings.md#enable-copilot-features-for-custom-apps
+      - name: Enable knowledge sources from Microsoft Copilot Studio (preview)
+        href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
-    - name: Bots
+    - name: Agents
       items:
-      - name: Overview of bots
+      - name: Overview of agents
         href: overview-bots.md
-      - name: Best practices for configuring bots
+      - name: Best practices for configuring agents
         href: configure-bot-best-practices.md
-      - name: Manage your bots
+      - name: Manage your agents
         href: manage-your-bots.md
-      - name: Configure context variables for bots
-        href: context-variables-for-bot.md
-      - name: Configure Azure bots
-        items:
-        - name: Bot sessions and licensing
-          href: bot-session-licensing.md
-        - name: Integrate an Azure bot
-          href: configure-bot-azure.md         
-      - name: Integrate a Copilot Studio bot
+      - name: Integrate a Copilot Studio agent
         href: configure-bot-virtual-agent.md
+      - name: Transfer conversations from customer service representatives to agents
+        href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
+      - name: Configure Azure agents
+        items:
+        - name: Agent sessions and licensing
+          href: bot-session-licensing.md
+        - name: Integrate an Azure agent
+          href: configure-bot-azure.md   
+      - name: Configure context variables for agents
+        href: context-variables-for-bot.md      
+    - name: Feedback surveys
+      items:
+      - name: Configure feedback surveys using Copilot Studio (preview)
+        href: /dynamics365/contact-center/administer/configure-surveys?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Enable voice call experiences
+        href: configure-end-of-call-survey.md
+      - name: Configure post-call survey
+        href: voice-channel-survey.md
+      - name: Configure post-conversation surveys using Customer Voice
+        href: configure-post-conversation-survey.md
     - name: Analytics dashboards and insights
       items:
       - name: Use and customize analytics and insights
@@ -680,6 +714,8 @@
           href: enable-realtime-analytics-dashboard-administrator.md
         - name: Manage access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
+      - name: Manage real-time analytics for record routing dashboards
+        href: enable-record-routing.md
       - name: Enable supervisor access to manage conversations
         href: enable-monitor-assign-transfer-conv.md
       - name: Manage historical analytics dashboards
@@ -698,7 +734,7 @@
         items:
         - name: Configure case forecasting
           href: configure-volume-forecasting.md
-        - name: Configure agent forecasting for conversation
+        - name: Configure service representative forecasting for conversations
           href: configure-agent-forecasting-conversation.md
       - name: Configure AI topic clustering for cases
         href: configure-topics-clustering-cases-cs.md
@@ -830,8 +866,6 @@
         href: migrate-config-data-for-whatsapp-through-twilio.md
       - name: Migrate configuration data for custom messaging channel
         href: migrate-config-data-for-custom-channel.md
-      - name: Migrate workstreams created in Omnichannel Administration
-        href: migrate-workstreams.md
       - name: Migrate automatic record creation rules and SLAs
         href: migrate-automatic-record-creation-and-sla-agreements.md
       - name: Strategy for migrating from contracts to entitlements
@@ -843,13 +877,7 @@
         - name: Plan service scheduling migration
           href: plan-migration.md
         - name: Migrate service scheduling
-          items: 
-          - name: Introduction to service scheduling migration
-            href: introduction-migration-entity-records.md
-          - name: Plan service scheduling migration
-            href: plan-migration.md
-          - name: Migrate service scheduling
-            href: migrate-entity-records.md
+          href: migrate-entity-records.md
       - name: Migration FAQ
         items: 
           - name: FAQ on migration from Customer Service Hub to Customer Service workspace
@@ -894,3 +922,5 @@
     href: ../../channel-integration-framework/channel-integration-framework.md?toc=/dynamics365/channel-integration-framework/toc.json&bc=../../breadcrumb/toc.yml
   - name: Unified Service Desk
     href: ../../unified-service-desk/unified-service-desk.md?toc=/dynamics365/unified-service-desk/toc.json&bc=../../breadcrumb/toc.yml
+  - name: Dynamics 365 Contact Center documentation
+    href: /dynamics365/contact-center/

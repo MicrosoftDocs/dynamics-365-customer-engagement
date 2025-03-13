@@ -1,10 +1,11 @@
 ---
 title: Configure knowledge search control on app side pane for entity records
 description: Learn how to configure the settings for knowledge search control in Dynamics 365 Customer Service.
-ms.date: 06/12/2024
+ms.date: 02/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer
@@ -27,7 +28,7 @@ searchScope:
 
 You can configure how you want the knowledge base search control to appear for your entities on the app side pane of Customer Service workspace and Contact Center workspace. To do so, you'll need to first add the record types for which you want to turn on knowledge management and then configure the record type settings.
 
-Configuring a record type specifies the information that your agents see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type is available by default if you purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you're an existing user, you also see all the entities previously enabled by you.
+Configuring a record type specifies the information that your customer service representatives (service representatives or representatives) see while they interact with customers. **Case** and **Conversation** record types are enabled by default. The **Conversation** record type is available by default if you purchased add-on SKUs, such as Chat, Digital messaging, or Voice. If you're an existing user, you also see all the entities previously enabled by you.
 
 ## Add record types for which you want to turn on knowledge management
 
@@ -39,7 +40,7 @@ Go to the Customer Service admin center or Contact Center admin center app, and 
 1. On the **Add record type** dialog, from the **Select record type** dropdown list, select the record type.
 1.	Select **Save and Close**.
 
-Setting up knowledge base search control on a standard or custom form makes it easy for agents in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
+Setting up knowledge base search control on a standard or custom form makes it easy for representatives in your organization to find knowledge articles, so they can answer common customer questions and resolve their issues right from the records, without having to switch to a different application.
 
 To set up knowledge search control on the app side pane, see [Configure knowledge search control on the app side pane](#configure-knowledge-search-control-on-app-side-pane).
 

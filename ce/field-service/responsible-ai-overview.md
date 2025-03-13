@@ -24,7 +24,6 @@ ms.reviewer: m-hartmann
 - [FAQ about work order creation in Outlook using Copilot](faqs-wo-flw-copilot.md)
 - [FAQ about draft email responses in Outlook using Copilot](faqs-flm-copilot-email.md)
 - [FAQ about work order update](faqs-work-order-update.md)
-- [FAQ about the Field Service Plugin for Microsoft Copilot](faqs-m365-chat.md)
 - [FAQ about creating inspection templates with Copilot in Field Service (preview)](faqs-inspection-designer.md)
 
 [!INCLUDE [footer-banner](../includes/footer-banner.md)]

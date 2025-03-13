@@ -14,14 +14,6 @@ ms.custom:
 
 Connect Dynamics 365 Sales with an external order processing application by enabling this integration.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System customizer <br>  More information: [Predefined security roles for Sales](../security-roles-for-sales.md)|
-
-
 ## How the integration works?
 
 Sales order processing integration makes it convenient to connect Dynamics 365 Sales with an external back-office order processing application. It allows a sales order created on Dynamics 365 Sales to be submitted, after which the order can be synced to an external order processing application where the lifecycle of the order continues. A submitted order is locked for editing on Dynamics 365 Sales unless it was submitted by an integration user (to sync changes from the external order processing system to Dynamics 365 Sales). 
@@ -76,7 +68,7 @@ By default, sales order processing integration is turned off. If you've [turned 
 ## Related information
 
 [Organization table reference](/power-apps/developer/data-platform/reference/entities/organization)<br />
-[System user table reference](../../customerengagement/on-premises/developer/entities/systemuser.md)<br />
+[System user table reference](/power-apps/developer/data-platform/reference/entities/systemuser)<br />
 [Quote, order, and invoice tables](quote-order-invoice-entities.md)
 
 

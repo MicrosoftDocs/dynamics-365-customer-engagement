@@ -23,14 +23,6 @@ Use the enhanced experience to quickly identify and add multiple products from t
 > [!NOTE]
 > Product families are only supported for Sales Enterprise and Sales Premium.  
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## What's in the enhanced experience?
 
 As a salesperson, you want to be able to easily identify and add products from the catalog that best fit the opportunity at hand. With the enhanced experience of adding products, you can:
@@ -76,7 +68,7 @@ As a salesperson, you want to be able to easily identify and add products from t
 
 5. In the **Products** grid, select **Add products**.
 
-   ![Screenshot showing the enhanced Add products dialog box.](media/enhancedAddProductsDialog.png)
+   :::image type="content" source="media/enhancedAddProductsDialog.png" alt-text="Screenshot of the enhanced Add products dialog box.":::
 
    > [!NOTE]
    > The enhanced experience for adding products is only available if your system administrator has enabled it. If you see the form interface instead of the Add products dialog, contact your system administrator to enable the experience.

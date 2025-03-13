@@ -5,6 +5,7 @@ ms.date: 10/08/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Use SMS channels

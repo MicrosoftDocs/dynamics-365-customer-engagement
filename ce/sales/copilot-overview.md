@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 10/10/2024
+ms.date: 03/11/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -23,17 +23,23 @@ ai-usage: ai-assisted
 
 Copilot is an AI assistant in Dynamics 365 Sales that helps sales teams be more productive and efficient in their daily work. It has a chat interface that sellers can use to get a quick summary of their opportunity and lead records, catch up on recent changes to their records, prepare for meetings, and read the latest news about their accounts. Sellers can chat with Copilot in natural language or use predefined prompts to get the information they need. [Learn more about how to use Copilot in Dynamics 365 Sales](use-sales-copilot.md)
 
-Copilot is also available as an add-in in Outlook and an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft 365 Copilot for Sales](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
+Copilot is also available as an add-in in Outlook and as an integrated app in Teams. With it, sellers can capture, view, and update their customer account data in the apps they use every day. The add-in and Teams app have generative AI capabilities such as record summarization and email content generation. Learn more about [Microsoft 365 Copilot for Sales](/microsoft-sales-copilot/introduction) and its [generative AI capabilities](/microsoft-sales-copilot/ai-sales-copilot).
 
+Learn more about the licensing requirements for Copilot in Dynamics 365 Sales in the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) and [view the comparison table](https://www.microsoft.com/dynamics-365/products/sales/pricing?market=af#comparison-table) to compare plans.
+
+## Licensing requirements
+
+Learn more about the licensing requirements for Copilot in Dynamics 365 Sales, Outlook, and Teams in the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) and [view the comparison table](https://www.microsoft.com/dynamics-365/products/sales/pricing?market=af#comparison-table) to compare features across different licensing plans.
+
+## Data security and privacy
+
+Copilot in Dynamics 365 Sales can only get information from records and files that the logged-in user has access to. [Learn more about data security and privacy in Copilot](/dynamics365/faqs-copilot-data-security-privacy).
 
 ## Chat in natural language or use predefined prompts
 
 Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. The Prompt guide lists all the predefined prompts that Copilot supports.
   
-Learn more:
-
-- [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md) 
-
+Learn more: [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md)  
 
 ## Copilot in Dynamics 365 Sales capabilities
 
@@ -46,24 +52,23 @@ Copilot offers the following capabilities:
 - [Email assistance](#email-assistance)
 - [News updates](#news-updates)
 
-
 ### Record summarization
 
 Record summarization gives you a quick summary of your opportunity, lead, and account records. Copilot generates the summary from predefined fields. Your administrator can change the fields that Copilot uses to generate the summary. Ensure that your entire sales team agrees on the top 10 fields that are most relevant for your business.
 
 Learn more:
 
-- [Summarize an account](copilot-get-information.md#summarize-an-account)
+- [Summarize an account](copilot-get-information.md#summarize-an-account-)
 - [Summarize an opportunity](copilot-get-information.md#summarize-an-opportunity)
-- [Summarize a lead](copilot-get-information.md#summarize-a-lead)
+- [Summarize a lead](copilot-get-information.md#summarize-a-lead-)
 - [Change the fields in the record summary](copilot-configure-summary-fields.md)
 
 ## Embedded experiences
 
-Apart from Copilot's chat and email experiences, you can also use Copilot's embedded experience in Dynamics 365 Sales to get quick insights about your records. Copilot's embedded experiences include:
+Use Copilot's embedded experience in Dynamics 365 Sales to quickly gain insights into your records, including:
 
 - [Embedded opportunity summary in the opportunity form](copilot-get-information.md#view-the-opportunity-summary-widget).
--  [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
+- [Embedded lead summary after lead qualification](qualify-lead-convert-opportunity-sales.md#lead-summary).
 
 ### Recent changes
 
@@ -85,7 +90,6 @@ Learn more:
 - [Get content recommendations from SharePoint](copilot-get-doc-suggestions.md#copilot-content-recommendation)
 - [Get answers from SharePoint documents](copilot-get-doc-suggestions.md#get-answers-from-sharepoint-documents)
 
-
 ### Meeting preparation
 
 Copilot helps you prepare for your upcoming meetings effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the meeting.
@@ -101,7 +105,6 @@ Learn more:
 - [Compose and send email messages using Copilot (preview)](compose-send-email-copilot.md)  
 - [View and copy an email summary](view-copy-email-summary.md)  
 - [Display unanswered emails](copilot-stay-ahead.md#display-unanswered-emails)
-
 
 ### News updates
 
@@ -121,7 +124,7 @@ Copilot takes into account the [user's preferred UI language](/dynamics365/proje
 | English or non-English   | One of the supported non-English languages | Output in the preferred UI language of the user.                                                |
 | English or non-English   | An unsupported language     | Output is unpredictable as the language is unsupported. The responses are mixed with English and the user language. We recommend using one of the supported Copilot languages in such cases. |
 
-We are continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
+We're continuously working to expand the availability of Copilot features in more regions and languages. If you don't see your region or language listed in the report, check back later for updates.
 
 ### How to use the Copilot international availability report
 
@@ -132,4 +135,3 @@ You can filter the [Copilot international availability report](https://releasepl
 :::image type="content" source="media/international-availability-report.png" alt-text="Screenshot of the international availability report with filters applied." lightbox="media/international-availability-report.png":::
 
 The **Release Wave** column indicates the release wave in which the support is available.
-

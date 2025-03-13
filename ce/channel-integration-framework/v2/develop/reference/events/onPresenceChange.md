@@ -5,6 +5,7 @@ ms.date: 04/04/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -33,7 +34,7 @@ handlerFunction = function (eventData) {
                 window.Microsoft.CIFramework.addHandler("onPresenceChange", handlerFunction); 
 ```
 
-### See also
+### Related information
 
 [setClickToAct method](../../../../v1/develop/reference/microsoft-ciframework/setClickToAct.md)  
 [addHandler method](../../../../v1/develop/reference/microsoft-ciframework/addHandler.md)  

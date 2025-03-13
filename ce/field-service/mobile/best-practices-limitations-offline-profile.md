@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 11/04/2024
+ms.date: 02/05/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -16,17 +16,13 @@ Read our blog post about [best practices for offline mode](https://cloudblogs.mi
 
 Even if you think your field technicians will always have a reliable Internet connection, we strongly recommend that you set up offline capabilities to create a fast and consistent experience.
 
-The offline profile manages offline record types, relationships, and user assignments. For a guided walkthrough, watch this brief video.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J8no]
-
 The Field Service mobile app follows the same architecture and security as a Power Apps mobile app. [Learn more about Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 
 ## Best practices for using the offline profile
 
 Before you set up the offline profile, consider these important guidelines:
 
-- **Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend that using the default offline profile provided by Field Service. The **Field Service Mobile - Offline Profile** provides an ideal starting point for offline scenarios. It has common Field Service tables preconfigured for offline use, and recommended filters to limit the data that gets downloaded. Build on it by including your custom record types. Make sure to limit the amount of data you include in the offline profile for the best sync performance.
+- **Use the default offline profile**. Although you can create your own mobile offline profile, we highly recommend using the default offline profile provided by Field Service. The **Field Service Mobile - Offline Profile** provides an ideal starting point for offline scenarios. It has common Field Service tables preconfigured for offline use, and recommended filters to limit the data that gets downloaded. Build on it by including your custom record types. Make sure to limit the amount of data you include in the offline profile for the best sync performance.
 
   The default offline profile receives updates to unchanged table sync filters. You can copy the default profile and make changes to the copy, but the copy is unmanaged and doesn't receive any updates.
 
@@ -58,11 +54,22 @@ Keep these limitations in mind when you set up the offline profile:
 
 - Access to SharePoint documents isn't supported.
 
-- Access to knowledge articles isn't available in offline mode.
+- Access to knowledge articles isn't available in offline mode. Knowledge articles might download, but they can't be viewed offline.
 
 - [Web resources are partially supported in offline mode](/power-apps/mobile/offline-limitations). We recommend that you use the [Power Apps component framework](/powerapps/developer/component-framework/overview) to implement custom capabilities that work in both the mobile app and the browser.
 
 - The **Export to PDF** option isn't available while the application is in offline mode. Other options might be hidden while in offline mode or without device connectivity. Learn more: [Ribbon and Command Bar Button is Hidden](/troubleshoot/power-platform/power-apps/create-and-use-apps/ribbon-issues-button-hidden).
+
+## Data reducution checklist
+
+To reduce the amount of data the mobile app uses, consider the following actions:
+
+- Limit customization. To understand how customizations are consuming data, use debugging tools like F12 in the browser or Fiddler with the Windows app.
+- [Create an offline profile](/dynamics365/field-service/mobile/set-up-offline-profile) and enable offline-first mode. Make sure business can be performed offline and large synchronizations can be handled over Wi-Fi.
+- Limit views and forms to the minimum required.
+- Use default views that filter data to only the data that's important to the field worker. For example, my recent bookings instead of all bookings.
+- Allow image resolution to default to smaller file sizes for photo capture.
+- Review other [performance considerations for customizing the mobile app](/dynamics365/field-service/mobile/improve-mobile-performance).
 
 ## Next steps
 

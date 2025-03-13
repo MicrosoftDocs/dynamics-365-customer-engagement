@@ -29,14 +29,6 @@ Forecasts help you to see the health of your pipeline or to see how your sales t
 
 The forecasting feature isn't supported on mobile devices.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>For more information, see [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/). |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  For more information, see [Primary sales roles](security-roles-for-sales.md#primary-sales-roles).|
-
-
 ## Open and view a forecast
 
 Bottoms-up forecasting is the projection of what a salesperson, team, or organization will sell in a given predefined period (week, month, quarter, or year). Sellers can also use forecasts to track their performance by using assigned sales targets or quotas.

@@ -5,6 +5,7 @@ ms.date: 11/03/2020
 ms.topic: "reference"
 author: "gandhamm"
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 (online)"
 ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
@@ -1000,7 +1001,7 @@ IntersectEntityName: msdyn_sessiontemplate_applicationtab<br />
 
 See msdyn_appconfiguration Entity [msdyn_appconfiguration_sessiontemplate](msdyn_appconfiguration.md#many-to-many-relationships) Many-To-Many Relationship.
 
-### See also
+### Related information
 
 [Microsoft.CIFramework APIs](../microsoft-ciframework-v2.md)<br />
 [Client-side events](../../../../v1/develop/reference/client-side-events.md)

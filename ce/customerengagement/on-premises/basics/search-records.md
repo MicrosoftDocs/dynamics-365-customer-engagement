@@ -2,7 +2,6 @@
 title: "Search for records in Dynamics 365 Customer Engagement (on-premises)"
 description: "You can find records quickly by searching across multiple record types at the same time. This page explains how to start a search and filter the results."
 ms.custom:
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 899ec72f-f5f3-4b87-be2d-fe53f05737dc
 caps.latest.revision: 21
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

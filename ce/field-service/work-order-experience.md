@@ -18,7 +18,7 @@ The 2023 release wave 2 of Dynamics 365 Field Service introduces a refreshed use
 
 Watch this brief video to learn more about the new work order experience in Field Service:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RW18MN2]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=bfce9329-2bdc-461c-bd57-1458e237524a]
 
 ## Work order list
 

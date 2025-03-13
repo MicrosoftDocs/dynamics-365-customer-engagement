@@ -2,7 +2,6 @@
 title: Connect Exchange Online to Dynamics 365 Customer Engagement (on-premises)
 description: Follow these steps to configure server-based authentication between Dynamics 365 Customer Engagement (on-premises) and Exchange Online.
 ms.custom: 
-ms.date: 11/05/2024
 ms.reviewer: sericks
 ms.suite: 
 ms.tgt_pltfrm: 
@@ -36,6 +35,8 @@ This article describes how to configure server-based authentication between Dyna
 
     > [!IMPORTANT]
     > In this deployment, the Dynamics 365 administrator can approve mailboxes.
+
+- As part of configuring your Customer Engagement (on-premises) access to Exchange Online, you must ask your tenant's Exchange Online or Global Administrator to [engage with Exchange Support](/microsoft-365/admin/get-help-support?view=o365-worldwide&preserve-view=true) to turn on this access for your Exchange Online tenant ID.
 
 ## Set up server-based authentication with Microsoft Dynamics 365 and Exchange Online
 

@@ -3,7 +3,7 @@ title: Use the agent calendar view | MicrosoftDocs
 description: Navigate the agent calendar in Customer Service workspace.
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.topic: how-to 
 ms.date: 05/29/2024 
 ms.custom: bap-template 
