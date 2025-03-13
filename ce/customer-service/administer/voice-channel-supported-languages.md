@@ -4,7 +4,7 @@ description: Know about the supported languages and locale codes for the voice c
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 03/12/2025
+ms.date: 03/13/2025
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template
@@ -24,7 +24,7 @@ Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-tex
 > [!NOTE]
 > Sentiment and AI insights are optional for the voice functionality.
 
-Learn more about the supported languages and locale codes from the information provided in the following table.
+The supported languages and locale codes are as follows.
 
 | Language | Locale code | Voice channel | Copilot Studio | IVR | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
