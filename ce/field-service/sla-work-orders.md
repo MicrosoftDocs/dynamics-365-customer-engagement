@@ -9,9 +9,9 @@ ms.author: jacoh
 
 # Service level agreements (SLAs) for work orders
 
-Service level agreements (SLAs) define service expectations such as response and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as First Response or Resolve by. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
+Service level agreements (SLAs) define service expectations such as response and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as work order arrival time. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
 
-For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 4 hours from the time a high priority work order is created. The organization wants a warning status displayed after 2 hours.
+For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 4 hours from the time an emergency priority work order is created. The organization wants a warning status displayed after 2 hours.
 
 To use SLAs for work orders, you enable the SLA setting, define the SLA and key performance indicators (KPIs), and then associate the SLAs to the work orders.
 
@@ -20,6 +20,8 @@ To use SLAs for work orders, you enable the SLA setting, define the SLA and key 
 - Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/administer/define-service-level-agreements.md)
 
 ## Enable SLA functionality for Field Service
+
+Turn on the SLA setting to enable SLA functionality and then add the SLA field to the work order form.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/) and select your environment.
 
@@ -34,13 +36,23 @@ To use SLAs for work orders, you enable the SLA setting, define the SLA and key 
 
 1. Select **Save**. Then, select **Publish**.
 
+### Add the SLA field to the work order form
+
+1. From the **Work Order** form in Power Apps, select **Forms**. Select the work order form.
+
+1. Add the SLA field to the form. The SLA field is created when SLA functionality is enabled for the work order table.
+
+   :::image type="content" source="media/work-order-add-sla-field-8.png" alt-text="Screenshot of adding the SLA field to the Work Order form.":::
+
+1. **Save and publish** the form.
+
 ## Create an SLA
 
 1. From Field Service, change to the Power Platform Environment Settings app.
 
-   :::image type="content" source="media/power-platform-env-settings-sla.png" alt-text="Screenshot of the Power Platform Environment Settings highlighting the SLA setting.":::
-
 1. Under **Business**, select **Service Management** > **Service level agreements**.
+
+   :::image type="content" source="media/power-platform-env-settings-sla.png" alt-text="Screenshot of the Power Platform Environment Settings highlighting the SLA setting.":::
 
 1. Select **New** and enter the following information:
    - **Name**: A descriptive name for the SLA.
@@ -59,8 +71,6 @@ To use SLAs for work orders, you enable the SLA setting, define the SLA and key 
      - **Entity Name**: Select **Work Order**.
      - **KPI Field**: Select the respective KPI field. For example, if you're creating an SLA KPI to define the time within which a technician must arrive, select **Work Order Arrival Time KPI**.
      - **Applicable From**: Select a value based on which the warning and failure time are measured. For example, if you select **Created On**, the warning and failure start time for an SLA are calculated from the date and time when the work order was created.
-
-     :::image type="content" source="media/sla-kpi-instance.png" alt-text="Screenshot of the SLA KPI configuration.":::
 
    - **Allow Pause and Resume** (optional): Enable this option if you want the SLA to be paused during the time the record is on hold.
    - **Allow Custom Time Calculation** (optional): Enable this option and select the calculation you want to use to calculate the time.
@@ -87,19 +97,7 @@ To use SLAs for work orders, you enable the SLA setting, define the SLA and key 
 
 1. Save the SLA. Then, select **Activate**.
 
-## Add the SLA field to the work order form
-
-1. In Power Apps, select **Tables** > **All**.
-
-1. Search for and select **Work Order**.
-
-1. Select **Forms**. Select the work order form.
-
-1. Add the SLA field to the form. The SLA field is created when SLA functionality is enabled for the work order table.
-
-   :::image type="content" source="media/work-order-add-sla-field-8.png" alt-text="Screenshot of adding the SLA field to the Work Order form.":::
-
-1. **Save and publish** the form.
+1. To set this SLA as the default, select **Set As Default**.
 
 ## Schedule a work order to meet an SLA  
 
