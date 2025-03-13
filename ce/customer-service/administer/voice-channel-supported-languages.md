@@ -43,7 +43,7 @@ Learn more about the supported languages and locale codes from the information p
 | Arabic - Oman | `ar-OM` |No|No|No|Yes|No|No|No|No|
 | Arabic - Palestinian Authority| `ar-PS` |No|No|No|Yes|No|No|No|No|
 | Arabic - Qatar| `ar-QA` |No|No|No|Yes|Yes|No|No|No|
-| Arabic - Saudi Arabia| `ar-SA` |Yes|No|Yes|Yes|Yes|Yes|Yes|Yes|
+| Arabic - Saudi Arabia| `ar-SA` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 | Arabic - Syria| `ar- SY` |No|No|No|Yes|Yes|No|No|No|
 | Arabic - Tunisia| `ar-TN` |No|No|No|Yes|Yes|No|No|No|
 | Arabic - United Arab Emirates| `ar-AE` |No|No|No|Yes|Yes|No|No|No|
