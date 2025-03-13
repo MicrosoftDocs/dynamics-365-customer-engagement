@@ -7,13 +7,13 @@ author: jasonccohen
 ms.author: jacoh
 ---
 
-# Service level agreements (SLAs) for work orders
+# Define service level agreements (SLAs) for work orders
 
 Service level agreements (SLAs) define service expectations such as response and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as work order arrival time. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
 
 For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 4 hours from the time an emergency priority work order is created. The organization wants a warning status displayed after 2 hours.
 
-To use SLAs for work orders, you enable the SLA setting, define the SLA and key performance indicators (KPIs), and then associate the SLAs to the work orders.
+To use SLAs for work orders, you enable the SLA functionality, define the SLA and key performance indicator (KPI), and then associate the SLAs to the work orders.
 
 ## Prerequisites
 
@@ -38,7 +38,7 @@ Turn on the SLA setting to enable SLA functionality and then add the SLA field t
 
 ### Add the SLA field to the work order form
 
-1. From the **Work Order** form in Power Apps, select **Forms**. Select the work order form.
+1. From the **Work Order** table in Power Apps, select **Forms**. Select the work order form that your organization uses.
 
 1. Add the SLA field to the form. The SLA field is created when SLA functionality is enabled for the work order table.
 
@@ -97,7 +97,7 @@ Turn on the SLA setting to enable SLA functionality and then add the SLA field t
 
 1. Save the SLA. Then, select **Activate**.
 
-1. To set this SLA as the default, select **Set As Default**.
+1. To set this SLA as the default, select **Set As Default**. You can have multiple service-level agreements active, but only one can be set as the default.
 
 ## Schedule a work order to meet an SLA  
 
