@@ -44,7 +44,7 @@ You can configure Resource Scheduling Optimization for your business needs based
 
 ## Geographical availability
 
-The [Resource Scheduling Optimization Add-in is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions that Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/), except for Germany, Switzerland, and South Africa.
+The [Resource Scheduling Optimization Add-in is available](field-service-version-history-resource-scheduling-optimization.md) in most [regions where Dynamics 365 Field Service is offered](https://dynamics.microsoft.com/availability-reports/), except for Germany, Switzerland, and South Africa.
 
 ## Understand how it works
 
