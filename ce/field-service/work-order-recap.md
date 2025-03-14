@@ -85,6 +85,10 @@ To revert to the default summary provided by Field Service, disable the **Conf
 > - The optimization used in the generation of default summaries, where there may be different details depending on work order status, is not applied to administrator-configured summaries.
 > - In cases where Field Service was pre-installed in an environment, you might not see the summary configurations after enabling the feature. Select **Create default configurations** to add missing configurations.
 
+### Transport summary configurations across environments
+
+To migrate summary configurations to other Dynamics 365 Field Service environments, admins can use the the Configuration Migration tool. For more information, see [Transport summary configurations across Dynamics 365 Field Service environments](/dynamics365/guidance/resources/fs-transport-summary-configuration).
+
 ## Generate a summary in the web app
 
 Open a [work order form](work-order-experience.md) or a booking record.
