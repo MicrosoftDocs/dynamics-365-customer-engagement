@@ -101,7 +101,7 @@ Turn on the SLA setting to enable SLA functionality and then add the SLA field t
 
 ## Schedule a work order to meet an SLA  
 
-[Create a work order](create-work-order.md) in Field Service and select the SLA. Then, save it. The **Promised window** fields populate on the work order according to the SLA, appropriate SLA item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields.
+[Create a work order](create-work-order.md) in Field Service and select the SLA. Then, save it. The **Promised window** fields populate on the work order according to the SLA, appropriate SLA item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields. If the SLA uses the **Work Order Resolution KPI**, the promised window fields don't populate.
 
 :::image type="content" source="media/work-order-with-sla.png" alt-text="Screenshot of a work order highlighting the SLA and Promised window fields.":::
 
