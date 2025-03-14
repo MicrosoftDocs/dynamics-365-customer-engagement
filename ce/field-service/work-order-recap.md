@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service (preview)
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 10/28/2024
+ms.date: 03/14/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -69,6 +69,8 @@ You need to configure the summary for the *bookable resource booking* and *work 
 :::image type="content" source="media/copilot-summary-configuration.png" alt-text="Screenshot of the summary configuration for the copilot-based summary control.":::
 
 ### How to configure the summary
+
+Administrators can follow the steps in this section to create custom summary configuration from scratch. Alternatively, they can get started with [a configuration template based on the work order summary](/dynamics365/guidance/resources/fs-work-order-summary-configuration-template).
 
 1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
 1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
