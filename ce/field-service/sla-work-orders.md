@@ -1,7 +1,7 @@
 ---
 title: Service level agreements (SLAs) for work orders
 description: Learn how to set up service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
-ms.date: 03/12/2025
+ms.date: 03/14/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -9,11 +9,11 @@ ms.author: jacoh
 
 # Define service level agreements (SLAs) for work orders
 
-Service level agreements (SLAs) define service expectations such as response and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as work order arrival time. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
+Service level agreements (SLAs) define service expectations such as arrival and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as work order arrival time. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
 
-For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 4 hours from the time an emergency priority work order is created. The organization wants a warning status displayed after 2 hours.
+For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 4 hours from the time an emergency priority work order is created. The organization wants a warning status displayed after 2 hours. For other examples, see [Implement service level agreements for work orders](/dynamics365/guidance/resources/fs-implementing-sla-work-order).
 
-To use SLAs for work orders, you enable the SLA functionality, define the SLA and key performance indicator (KPI), and then associate the SLAs to the work orders.
+To use SLAs for work orders, first enable the SLA functionality for your environment. Then, define the SLAs and key performance indicators (KPIs), and associate the SLAs to work orders.
 
 ## Prerequisites
 
@@ -76,11 +76,11 @@ Turn on the SLA setting to enable SLA functionality and then add the SLA field t
    - **Allow Custom Time Calculation** (optional): Enable this option and select the calculation you want to use to calculate the time.
    - **Business Hours** (optional): To assign business hours, select a value. The SLA is calculated based on the business hours and business closure that you define. Learn more: [Create customer service schedule and define the work hours](../customer-service/administer/create-customer-service-schedule-define-work-hours.md).
 
-1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the work order.
+1. In the **Applicable When** section, define the conditions for when the SLA can be applied for the work order. For example, when a work order has an emergency priority.
 
     The SLA is triggered when the applicable when condition is met throughout. If the applicable when condition isn't met after an SLA is triggered, the SLA KPI instance gets canceled. We recommend that you don't use fields that are updated frequently because any change to the field value might lead to cancelation of the SLA item.
 
-1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA.
+1. In the **Success Conditions** section, define the conditions that specify the success criteria of the SLA. For example, the technician arrives at the work order location.
 
 1. In the **Pause Configurations** section that appears only when **Allow Pause and Resume** is enabled, do the following:
    1. Set the toggle to **Yes** for **Override Criteria** to pause the SLA item. This setting overrides the pause settings defined at the entity level, if any, in Service Configuration or at the SLA KPI level.
@@ -101,8 +101,12 @@ Turn on the SLA setting to enable SLA functionality and then add the SLA field t
 
 ## Schedule a work order to meet an SLA  
 
-[Create a work order](create-work-order.md) in Field Service and select the SLA. Once a work order is associated with an SLA, the **Promised window** fields appear on the work order according to the SLA, appropriate SLA Item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields.
+[Create a work order](create-work-order.md) in Field Service and select the SLA. Then, save it. The **Promised window** fields populate on the work order according to the SLA, appropriate SLA item, and business hours of the SLA. Scheduling capabilities like the schedule assistant consider these fields.
 
 :::image type="content" source="media/work-order-with-sla.png" alt-text="Screenshot of a work order highlighting the SLA and Promised window fields.":::
+
+## See also
+
+[Implement service level agreements for work orders](/dynamics365/guidance/resources/fs-implementing-sla-work-order)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
