@@ -1,7 +1,7 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 09/30/2024
+ms.date: 03/14/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
 author: DaPisani
