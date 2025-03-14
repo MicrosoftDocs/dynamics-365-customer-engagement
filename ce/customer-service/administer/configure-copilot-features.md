@@ -86,7 +86,7 @@ In Customer Service admin center, opt out from the Copilot features on the **Cop
 
 For agents to be able to use the Copilot features in Customer Service workspace, you need to enable the Copilot features in [agent experience profiles](add-profile-default.md). By default, agents added to the out-of-the-box agent experience profiles can use the Copilot features.
 
-If you'd like to limit the features that agents can use, you can create a custom agent experience profile and enable the required features. You can then [assign the custom profile to the agents](add-profile-default.md).
+If you want to limit the features that agents can use, you can create a custom agent experience profile and enable the required features. You can then [assign the custom profile to the agents](add-profile-default.md).
 
 For Customer Service Hub, when you enable the feature, it's available to all the agents.
 
