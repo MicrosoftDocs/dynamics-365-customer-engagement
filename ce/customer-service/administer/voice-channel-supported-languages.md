@@ -4,7 +4,7 @@ description: Know about the supported languages and locale codes for the voice c
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/14/2024
+ms.date: 03/13/2025
 ms.topic: conceptual
 ms.collection:
 ms.custom: bap-template
@@ -19,12 +19,12 @@ This article provides information about the supported languages and locale codes
 
 ## Supported languages and locale codes
 
-Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. More information: [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text)
+Omnichannel for Customer Service uses the Azure Cognitive Services speech-to-text service for transcription. So, all languages supported by speech-to-text can be transcribed. Learn more in [Speech-to-text documentation](/azure/cognitive-services/speech-service/index-speech-to-text).
 
 > [!NOTE]
 > Sentiment and AI insights are optional for the voice functionality.
 
-See the information in the following table to know about the supported languages and locale codes.
+The supported languages and locale codes are as follows.
 
 | Language | Locale code | Voice channel | Copilot Studio | IVR | Speech-to-text | Text-to-speech | Sentiment | AI suggestions | UI language support |
 |---|---|---|---|---|---|---|---|---|
@@ -43,7 +43,7 @@ See the information in the following table to know about the supported languages
 | Arabic - Oman | `ar-OM` |No|No|No|Yes|No|No|No|No|
 | Arabic - Palestinian Authority| `ar-PS` |No|No|No|Yes|No|No|No|No|
 | Arabic - Qatar| `ar-QA` |No|No|No|Yes|Yes|No|No|No|
-| Arabic - Saudi Arabia| `ar-SA` |Yes|No|No|Yes|Yes|Yes|Yes|Yes|
+| Arabic - Saudi Arabia| `ar-SA` |Yes|Yes|Yes|Yes|Yes|Yes|Yes|Yes|
 | Arabic - Syria| `ar- SY` |No|No|No|Yes|Yes|No|No|No|
 | Arabic - Tunisia| `ar-TN` |No|No|No|Yes|Yes|No|No|No|
 | Arabic - United Arab Emirates| `ar-AE` |No|No|No|Yes|Yes|No|No|No|
