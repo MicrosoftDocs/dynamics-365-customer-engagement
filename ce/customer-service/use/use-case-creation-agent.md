@@ -1,5 +1,5 @@
 ---
-title: Use autonomous case management agents (preview)
+title: Use autonomous case management agents to create and update cases (preview)
 description: Learn how to use autonomous case management agents to efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -10,7 +10,7 @@ ms.date: 03/04/2025
 ms.custom: bap-template 
 ---
 
-# Use autonomous case management agents (preview)
+# Use autonomous case management agents to create and update cases (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -28,8 +28,9 @@ The agent creates cases automatically from chat conversations and incoming email
 When you accept a conversation that is routed directly or is escalated by a self-assist agent (bot) with enough context, the autonomous case management agent performs the following actions:
 
 - Maps the context from the conversation to the fields configured by the administrator and predicts the values for those fields.
-- Creates a new case that opens in a new tab in the Active Conversation form. A case is created only if the agent has enough context to populate all the configured fields.
+- Creates a new case that opens in a new tab in the Active Conversation form. A case is created only if the agent has enough context to populate all the configured fields. 
 - Populates the values of the fields in the case.
+- Automatically saves the case.
 
 If there isn't enough context in the conversation to populate the mandatory fields, the agent doesn't create a case when you accept the conversation. However, when you end the conversation, if there's enough information, the agent creates a case, if it isn't manually created.
 
@@ -45,12 +46,12 @@ The agent updates the fields configured by the administrator as follows:
   - If the conversation is in wrap-up state, the agent checks if a case is created and updates the specified fields.
   - If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
 
-- **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. You can review the updated fields from in **Audit history**.
+- **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
- You can review the updated fields from in **Audit history** if your administrator has enabled Dataverse auditing. Learn more about enabling audit history in [Turn on auditing for a specific app in a web app](/power-platform/admin/manage-dataverse-auditing#turn-on-auditing-for-a-specific-app-in-a-web-app). 
+ You can review the updated fields from in **Audit history** if your administrator has enabled Dataverse auditing.
 
 > [!NOTE]
-> Manually updated case fields configured for agent updates will be overwritten by AI predictions.
+> If Case fields that configured for AI agent updates are updated manually, the AI agent doesn't overwrite the manual updates.
 
 ## Next steps
 
