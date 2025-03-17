@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 01/08/2025
+ms.date: 03/17/2025
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -20,35 +20,35 @@ This FAQ article helps answer the questions around the responsible use of AI in 
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
-Copilot is an AI-powered tool that transforms the agent experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks. Then agents can focus on delivering high-quality service to their customers.
+Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks. Then they can focus on delivering high-quality service to their customers.
 
 ## What are the systems capabilities?
 
 Copilot provides the following main features:
 
-- **Ask a question**: Is the first tab that agents see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the agents’ questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
+- **Ask a question**: Is the first tab that service representatives see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the representatives' questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
 
-- **Write an email**: Is the second tab on the Copilot help pane helps agents quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
+- **Write an email**: Is the second tab on the Copilot help pane helps representatives quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
 
-- **Draft a chat response**: Enables agents to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
+- **Draft a chat response**: Enables representatives to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
 
-- **Summarize a case**: Copilot provides agents with a summary of a case right on the case form, so they can quickly catch up on the important details of a case.  
+- **Summarize a case**: Copilot provides representatives with a summary of a case right on the case form, so they can quickly catch up on the important details of a case.  
 
-- **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand.
+- **Summarize a conversation**: Copilot provides representatives with a summary of a conversation at key points throughout the customer journey such as virtual representative handoffs, transfers and on demand.
 
-- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Agents can review and refine the draft by giving revision instructions to Copilot and then save it.
-- **Summarize a custom record**: Copilot provides agents with a summary of a record based on fields that the administrator configures for the custom table so that agents can quickly catch up on the important details of a support record.
+- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
+- **Summarize a custom record**: Copilot provides representatives with a summary of a record based on fields that the administrator configures for the custom table so that representatives can quickly catch up on the important details of a support record.
 
-- **Generate resolution notes**: Copilot provides agents with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
+- **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
 
 
 ## What is the system’s intended use?
 
-Copilot in Customer Service is intended to help customer service representatives work more efficiently and effectively. Customer service representatives can use Copilot’s knowledge-based responses to save time from searching knowledge articles and drafting responses. Copilot summaries are designed to support agents in quickly ramping up on cases and conversations. Content generated by Copilot in Customer Service isn't intended to be used without human review or supervision.
+Copilot in Customer Service is intended to help customer service representatives work more efficiently and effectively. Customer service representatives can use Copilot’s knowledge-based responses to save time from searching knowledge articles and drafting responses. Copilot summaries are designed to support representatives in quickly ramping up on cases and conversations. Content generated by Copilot in Customer Service isn't intended to be used without human review or supervision.
 
 ## How is Copilot in Customer Service evaluated? What metrics are used to measure performance?
 
-Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and agent-trust. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf). 
+Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and representative-trust. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf). 
 
 ## What are the limitations of Copilot in Customer Service? How can users minimize the impact of Copilot limitations?  
 
@@ -90,11 +90,11 @@ Instead, you can rephrase as –
 
 “The customer changed the firewall rules on their virtual machine. However, they can no longer connect using Secure Shell (SSH). Can you help?”
 
-By following the suggestions, agents can enhance their interactions with Copilot and increase the likelihood of receiving accurate and confident responses from it.
+By following the suggestions, representatives can enhance their interactions with Copilot and increase the likelihood of receiving accurate and confident responses from it.
 
 ### Summarizing or expanding a response
 
-Sometimes the response from Copilot can be longer than expected. This could be the case when the agent is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to “summarize the response” will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to “Provide more details” will result in a more detailed answer to your question. If the response is truncated, typing “continue” will display the remaining part of the response.
+Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to “summarize the response” will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to “Provide more details” will result in a more detailed answer to your question. If the response is truncated, typing “continue” will display the remaining part of the response.
 
 ## How can I influence the responses generated by copilot? Can I fine tune the underlying LLM?
 
@@ -102,7 +102,7 @@ It's not possible to customize the large language model (LLM) directly.  Copilot
 
 ## What's the data security model for Copilot?
 
-Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, agents can't view data that they don't have access to. Additionally, only data sources that the agent has access to are used for copilot response generation.
+Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, representatives can't view data that they don't have access to. Additionally, only data sources that the representative has access to are used for copilot response generation.
 
 ## How does Copilot determine whether content is offensive or harmful?
 
