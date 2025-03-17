@@ -20,7 +20,7 @@ This FAQ article helps answer the questions around the responsible use of AI in 
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
-Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks. Then they can focus on delivering high-quality service to their customers.
+Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks, allowing them to focus on delivering high-quality service to their customers.
 
 ## What are the systems capabilities?
 
