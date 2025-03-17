@@ -37,7 +37,7 @@ When you find the rich message you want to send, you can select the rich message
    > [!div class=mx-imgBorder]
    > ![Rich Message Preview pane.](../media/rich-messages-preview.png "Rich Message Preview pane")
 
-Within the preview tab, you're able to see the contents of the rich message that you selected, along with a **Send Message** button. When you’re ready to send a rich message, use **Send Message**.
+Within the preview tab, you can see the contents of the rich message that you selected, along with a **Send Message** button. When you’re ready to send a rich message, use **Send Message**.
 
 If your administrator enables the customer service representative (service representative or representative) configuration, you can customize some types of rich messages before sending them. These customizations are single-use and aren’t saved for the next time you send the same rich message. 
 
