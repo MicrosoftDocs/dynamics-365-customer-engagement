@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Configure routing based on shift bookings
 
-Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift schedules in workforce management (WFM) system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those service representatives who are available, and reduce the risk of delays. 
+Configure assignment rules to route and assign cases and conversations based on customer service representatives' (service representative or representative) shift bookings in workforce management (WFM) system or schedules imported from external systems. By verifying representatives' schedules in advance, organizations can route tasks to only those service representatives who are available, and reduce the risk of delays. 
 
 You can incorporate shift assignments and time-off considerations into the routing process to foster an employee-centric approach, and streamline operational workflows for productivity and improved retention rates.
 
@@ -24,6 +24,7 @@ With shift bookings, the routing engine considers the shift activity type to det
 ## Prerequisites
 
 - [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
+- Shift activity types are enabled and created in WFM system.
 - [Unified routing](provision-unified-routing.md) is provisioned and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
