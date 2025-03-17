@@ -46,7 +46,7 @@ If your administrator enables the customer service representative (service repre
 
 ## Customizable rich messages
 
-Some types of rich messages might need their content to be customized before they can be sent to customers. Others can be customized to add personalized touches or other options that might change depending on context.
+Some types of rich messages might need their content to be customized before they can be sent to customers. Others can be customized to add personalized touches or additional options that might change depending on context.
 
 The following rich messages support admin-enabled customization:
 
