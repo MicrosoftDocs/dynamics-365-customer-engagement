@@ -4,7 +4,7 @@ description: Learn about the ON_SESSION_SWITCH event of app profile manager in C
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 05/01/2024
+ms.date: 03/18/2025
 ms.topic: reference
 ---
 

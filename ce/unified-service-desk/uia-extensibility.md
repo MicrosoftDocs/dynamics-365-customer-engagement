@@ -1,8 +1,8 @@
 ---
-title: "UIA Extensibility in Unified Service Desk | MicrosoftDocs"
-description: "Learn how to extend UIA using the data parameter. Also find information about the activities where the data parameter is included."
+title: UIA Extensibility in Unified Service Desk 
+description: Learn how to extend UIA using the data parameter. Also find information about the activities where the data parameter is included.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
