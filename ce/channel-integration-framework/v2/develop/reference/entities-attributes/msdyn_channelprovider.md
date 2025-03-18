@@ -1,8 +1,8 @@
 ---
-title: "msdyn_channelprovider Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_channelprovider entity."
+title: msdyn_channelprovider Entity Reference (Developer Guide for Dynamics 365 Customer Engagement)
+description: Includes schema information and supported messages for the msdyn_channelprovider entity.
 ms.date: 11/03/2020
-ms.topic: "reference"
+ms.topic: generated-reference
 author: "gandhamm"
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -1,8 +1,8 @@
 ---
-title: "msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Omnichannel for Customer Service)| MicrosoftDocs"
-description: "Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action."
+title: msdyn_ApplyRoutingRuleEntityRecord Action Reference (Developer Guide for Omnichannel for Customer Service)
+description: Reference information about the msdyn_ApplyRoutingRuleEntityRecord Action.
 ms.date: 10/03/2019
-ms.topic: "reference"
+ms.topic: reference
 author: "gandhamm"
 ms.author: mgandham
 ms.reviewer: mgandham

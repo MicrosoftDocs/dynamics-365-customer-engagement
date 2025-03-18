@@ -1,8 +1,8 @@
 ---
-title: "JAccControl tag in Unified Service Desk | MicrosoftDocs"
-description: "Understand how the JAccControl tag works in Unified Service Desk. Also, find a code snippet that shows how to use the tag."
+title: JAccControl tag in Unified Service Desk 
+description: Understand how the JAccControl tag works in Unified Service Desk. Also, find a code snippet that shows how to use the tag.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -1,8 +1,8 @@
 ---
-title: "msdyn_KPIEventData Entity Reference for Dynamics 365 Channel Integration Framework 2.0 | MicrosoftDocs"
-description: "Includes schema information and supported messages for the msdyn_KPIEventData entity in Dynamics 365 Channel Integration Framework version 2.0."
+title: msdyn_KPIEventData Entity Reference for Dynamics 365 Channel Integration Framework 2.0 
+description: Includes schema information and supported messages for the msdyn_KPIEventData entity in Dynamics 365 Channel Integration Framework version 2.0.
 ms.date: 11/03/2020
-ms.topic: "reference"
+ms.topic: reference
 author: "gandhamm"
 ms.author: mgandham
 ms.reviewer: mgandham

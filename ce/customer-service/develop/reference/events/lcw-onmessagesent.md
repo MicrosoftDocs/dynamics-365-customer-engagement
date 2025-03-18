@@ -1,7 +1,7 @@
 ---
-title: "lcw:onMessageSent | MicrosoftDocs"
+title: lcw:onMessageSent 
 description: lcw onMessageSent event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
+ms.topic: reference
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
