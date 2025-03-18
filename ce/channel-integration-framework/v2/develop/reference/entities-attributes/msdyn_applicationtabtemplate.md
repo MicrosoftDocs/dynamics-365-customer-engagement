@@ -3,7 +3,7 @@ title: msdyn_applicationtabtemplate Entity Reference (Developer Guide for Dynami
 description: Includes schema information and supported messages for the msdyn_applicationtabtemplate entity.
 ms.date: 10/21/2020
 ms.topic: generated-reference
-author: "gandhamm"
+author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 applies_to: 

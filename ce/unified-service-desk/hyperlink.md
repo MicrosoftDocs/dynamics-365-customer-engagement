@@ -1,5 +1,5 @@
 ---
-title: HyperLink in Unified Service Desk "
+title: HyperLink in Unified Service Desk 
 description: Understand how the <HyperLink> element works in Unified Service Desk. Also included is an example that shows how to use the element.
 ms.date: 06/27/2024
 ms.topic: reference

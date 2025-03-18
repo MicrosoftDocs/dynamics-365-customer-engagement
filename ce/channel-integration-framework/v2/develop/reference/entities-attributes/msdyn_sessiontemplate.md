@@ -3,7 +3,7 @@ title: msdyn_sessiontemplate Entity Reference (Developer Guide for Dynamics 365 
 description: Includes schema information and supported messages for the msdyn_sessiontemplate entity in Dynamics 365 Channel Integration Framework 2.0.
 ms.date: 11/03/2020
 ms.topic: generated-reference
-author: "gandhamm"
+author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 applies_to: 

@@ -1,5 +1,5 @@
 ---
-title: "lcw:chatRetrieved | MicrosoftDocs"
+title: lcw:chatRetrieved 
 description: lcw chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
 ms.topic: reference
 ms.date: 11/10/2021
