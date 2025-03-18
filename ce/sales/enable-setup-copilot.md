@@ -88,7 +88,7 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms. U
 > [!NOTE]
 > The glossary feature is currently available only in English.
 
-**To add glossary terms:**
+To add glossary terms:
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 
@@ -103,10 +103,10 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms. U
 
 | Scenarios  | Term  | Description |
 |-----------------------|---------|-----------------------|
-| **Acronym** | VP | ‘VP’ refers to ‘Vice President’ value in ‘JobTitle’ column in ‘Contact’ table. |
+| **Acronym** | VP | 'VP' refers to 'Vice President' value in 'JobTitle' column in 'Contact' table. |
 | **Custom ownership** (Specify your ownership instead of using the record owner id) | activity owner  | activity owner is identified by 'PartyId' column in 'ActivityParty' table.  |
-| **Custom field** (Use a custom field instead of the out-of-the-box system columns or table) | opportunity revenue  | opportunity revenue refers to ‘custom revenue’ column in ‘opportunity' table  |
-| **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | ‘overdue task’ refers to ‘state code’ column with value ‘open’ in ‘task’ table and ‘scheduled end date’ column in ‘task’ table with value less than today.  |
+| **Custom field** (Use a custom field instead of the out-of-the-box system columns or table) | opportunity revenue  | opportunity revenue refers to 'custom revenue' column in 'opportunity' table  |
+| **Complex rules/filter** (Define your tailored rules and guidelines) | overdue task  | 'overdue task' refers to 'state code' column with value 'open' in 'task' table and 'scheduled end date' column in 'task' table with value less than today.  |
 
 ## Add the Copilot page site map entry to custom sales app
 
