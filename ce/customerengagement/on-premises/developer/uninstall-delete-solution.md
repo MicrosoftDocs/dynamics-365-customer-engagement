@@ -2,9 +2,8 @@
 title: "Uninstall or delete a solution (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This doc describes how uninstall and delete actions work for managed and unmanaged solution in Dynamics 365 Customer Engagement"
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
-
+ms.date: 01/31/2025
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -28,7 +27,7 @@ search.audienceType:
 ---
 # Uninstall or delete a solution
 
-[!INCLUDE [applies-to-on-premises](../includes/applies-to-on-premises.md)] [Uninstall or delete a solution](/powerapps/developer/common-data-service/uninstall-delete-solution).
+*This topic applies to Dynamics 365 Customer Engagement (on-premises). For the online (Dataverse) version of this topic, see:* [Work with solutions using the Dataverse SDK](/power-platform/alm/solution-api).
 
 You delete managed and unmanaged solutions in the same way, but the resulting actions are very different. Deleting a managed solution will uninstall the managed solution.  
   

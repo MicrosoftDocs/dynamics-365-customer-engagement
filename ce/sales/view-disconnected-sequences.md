@@ -1,7 +1,7 @@
 ---
 title: "Create a query to view a sequence in an entity record grid"
 description: "Create a saved query to show an in-progress sequence in an entity record grid"
-ms.date: 11/08/2021
+ms.date: 01/03/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -11,13 +11,6 @@ ms.reviewer: udag
 # View a sequence in a grid
 
 As an administrator, you can create a saved query to view the latest sequences that are in progress in an entity record grid.
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 
 ## Create a saved query
 

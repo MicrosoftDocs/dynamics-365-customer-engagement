@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 08/28/2024
+ms.date: 03/11/2025
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -11,7 +11,6 @@ ms.custom:
   - ai-gen-desc
   - ai-seo-date:10/26/2023
   - bap-template
-ms.collection: bap-ai-copilot 
 ---
 
 # Work with the mobile app (Unified Interface)
@@ -42,7 +41,7 @@ Select a booking to see more details about the job, such as booking time, planne
 
 For more complex locations, Field Service supports [functional locations that let you structure locations](../functional-locations.md). Watch this video to learn more about functional locations in the Field Service mobile app:
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4I2pU]
+> [!VIDEO c28b1012-203c-4df1-8435-d39cdd999030]
 
 ## Do and record your work
 
@@ -80,7 +79,7 @@ From the main menu, go to **Time Entry** to create them.
 
 Watch this video to learn more about time entry in the Field Service mobile app:
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4J6mQ]
+> [!VIDEO 3459f683-d0d2-48de-a0bb-691d3bde4b79]
 
 ## Create follow-up work orders
 
@@ -97,15 +96,15 @@ To create a follow-up work order, select the **Follow up** option in the bottom 
 - Taxable
 - Transaction Currency ID
 
+:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
+
 After saving the work order, a dispatcher can schedule it.
 
-If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md)] to the work order table.
-
-:::image type="content" source="../media/mobile-2020-follow-up.png" alt-text="Rendering of a mobile device showing the Follow-up option in the Field Service mobile app.":::
+If users don't see the follow-up option, an administrator needs to assign them [**create** permissions](../users-licenses-permissions.md) to the work order table.
 
 Watch this video to learn more about follow-up work orders in the Field Service mobile app:
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyHY4]
+> [!VIDEO 151313d1-c743-4a99-a363-09318ed4505f]
 
 ## Troubleshoot app issues
 

@@ -16,13 +16,6 @@ ms.custom:
 
 Customize the sales accelerator workspace by configuring filters, sorting, and the appearance of work items.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Customize the workspace for sellers
 
 After the [first-run setup of the sales accelerator](enable-configure-sales-accelerator.md#first-run-setup), you can customize the workspace to meet your sellers' needs. For example, if sellers want to filter work items based on currency type for leads, add a filter with the record type **Lead** and the field **Currency**. [Learn how sellers can use custom filters](prioritize-sales-pipeline-through-work-list.md#custom-filters).

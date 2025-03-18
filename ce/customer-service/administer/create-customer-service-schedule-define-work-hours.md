@@ -5,7 +5,7 @@ ms.date: 05/24/2023
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 search.audienceType: 
   - admin
   - customizer

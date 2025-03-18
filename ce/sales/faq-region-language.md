@@ -1,7 +1,7 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 03/27/2024
+ms.date: 12/12/2024
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -47,6 +47,7 @@ The following table lists the regions in which Sales Premium features are availa
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Email engagement](email-engagement.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
 | [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
 | [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -98,3 +99,7 @@ The following table shows which languages are supported for Sales Premium featur
 | Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 [Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
+
+## Which languages are supported by Copilot in Dynamics 365 Sales?
+
+Copilot in Dynamics 365 Sales is available in regions and languages listed in the [Copilot international availability report](https://releaseplans.microsoft.com/availability-reports/?report=copilotfeaturereport). For more information about how to use the report and how Copilot responds in different scenarios, see [Region availability and languages supported](copilot-overview.md#region-availability-and-languages-supported).

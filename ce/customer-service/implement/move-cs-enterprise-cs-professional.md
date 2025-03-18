@@ -1,10 +1,11 @@
 ---
 title: "Move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional | MicrosoftDocs"
 description: "Follow the steps in this topic to move from Dynamics 365 Customer Service Enterprise edition to Dynamics 365 Customer Service Professional."
-ms.date: 04/05/2021
+ms.date: 03/17/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Move from Dynamics 365 Customer Service Enterprise to Dynamics 365 Customer Service Professional
@@ -44,7 +45,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 6. Review the license status on the **Active users** page, and make other assignments as needed.
 
 > [!IMPORTANT]
-> As per contractual agreement, you can't mix Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure that you abide by the contractual requirements. More information: [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544)
+> As per contractual agreement, you can't mix Enterprise and Professional users on the same instance. If you plan to keep Professional licenses, make sure that you abide by the contractual requirements. Learn more in [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544).
 
 ### Related information
 

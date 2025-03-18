@@ -1,7 +1,7 @@
 ---
 title: Overview of inventory, purchasing, and returns
 description: Learn about inventory, purchasing, and returns in Dynamics 365 Field Service.
-ms.date: 07/01/2024
+ms.date: 01/15/2025
 ms.topic: overview
 applies_to: 
   - "Dynamics 365 (online)"
@@ -28,6 +28,10 @@ To give a resource access to create and edit inventory-related tables, add the *
 
 For basic inventory requirements, many organizations use the out-of-box capabilities. For more complex inventory and pricing requirements, Field Service is designed to integrate with enterprise resource planning (ERP) systems. In one common example, Field Service integrates with [Dynamics 365 Supply Chain Management](/dynamics365/supply-chain/sales-marketing/prospect-to-cash) by using a prebuilt [Dataverse "Prospect to cash" template](https://appsource.microsoft.com/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3?src=office&tab=Overview).
 
+The following diagram illustrates the flow of inventory, purchasing, and returns in Field Service.
+
+:::image type="content" source="media/warehouse-inv-purchase-returns-diagram.png" alt-text="Diagram showing the flow of inventory, purchasing, and returns in Field Service.":::
+
 ## Warehouses and product inventory
 
 In Field Service, a warehouse is any company location that holds inventory. Warehouses include both static and mobile locations, such as:
@@ -45,8 +49,8 @@ For each product in the warehouse, the system tracks the following information:
 
 - **Quantity Available**: The number of units that remain to be sold.
 - **Quantity Allocated**: The number of units that are currently listed on work orders as allocated work order products.
-- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. Basically, this field represents unsold units.
-- **Quantity on Order**: The number of units that are currently listed on purchase orders, but that haven't been received and added to inventory. Basically, this field represents units that are on the way.
+- **Quantity on Hand**: The sum of **Quantity Available** and **Quantity Allocated** values. Basically, this field represents units still physically present in your warehouse, even if they're already committed to work.
+- **Quantity on Order**: The number of units that are currently listed on purchase orders, but aren't received and added to inventory. Basically, this field represents units that are on the way.
 
 > [!NOTE]
 > By adding a warehouse to each bookable resource, you can define the default warehouse that is used when that bookable resource uses a work order product.
@@ -67,13 +71,13 @@ You can also enable adjustments and transfers on the Field Service mobile app. F
 
 Inventory is affected when products are added to work orders and used. 
 
-For example, a product is added as estimated and allocated (that is, the **Line Status** field is set to *Estimated*, and the **Allocated** field is set to *Yes*). In this case, a portion of inventory is reserved from the specified warehouse, but it isn't actually deducted.
+For example, a product is added as estimated and allocated (that is, the **Line Status** field is set to *Estimated*, and the **Allocated** field is set to *Yes*). In this case, a portion of inventory is reserved from the specified warehouse, but it isn't deducted.
 
 If a work order product is used during a work order (that is, the **Line Status** field is set to *Used*), the inventory at the related warehouse is deducted by the quantity of the work order product. Typically, the warehouse that is listed on a work order product is a technician's truck.
 
 ## Purchase orders
 
-Purchase orders (POs) are used to order products for a warehouse. They are also used to order products directly for a work order so that on-site work can be completed.
+Purchase orders (POs) are used to order products for a warehouse. They're also used to order products directly for a work order so that on-site work can be completed.
 
 The purchase order process includes the following steps:
 

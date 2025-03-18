@@ -1,7 +1,7 @@
 ---
 title: Edit and retrain a lead scoring model
 description: Learn how to edit and retrain a predictive lead scoring model in Dynamics 365 Sales when its prediction accuracy doesn't meet your expectations. 
-ms.date: 05/11/2023
+ms.date: 12/06/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: lavanyakr01
@@ -15,13 +15,6 @@ When the prediction accuracy of a lead scoring model doesn't meet your expectati
 
 > [!NOTE]
 > The real-time scoring feature was rolled out in December 2022, as part of Sales Insights version 9.0.22121.10001. Models that were published before this roll out, need to be edited and published again to be able to score in real-time. 
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Edit a model
 

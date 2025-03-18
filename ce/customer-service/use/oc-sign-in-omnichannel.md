@@ -5,6 +5,7 @@ ms.date: 08/30/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Sign in to Omnichannel for Customer Service
@@ -12,7 +13,7 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 > [!IMPORTANT]
-> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-will-be-removed-in-june-2024).
+> The Omnichannel for Customer Service agent-facing app is deprecated, and we recommend that you start using [Customer Service workspace](../implement/csw-overview.md). Learn more in [Deprecations](../implement/deprecations-customer-service.md#omnichannel-for-customer-service-agent-facing-app-is-deprecated-and-removed-as-of-june-2024).
 
 
 ## Sign in to Omnichannel for Customer Service

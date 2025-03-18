@@ -1,11 +1,11 @@
 ---
 title: Configure an SMS channel using Azure Communication Services
 description: This article includes instructions for configuring an SMS channel using Azure Communication Services.
-ms.date: 08/29/2024
+ms.date: 03/07/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ms.custom: bap-template
 ---
 
@@ -26,6 +26,21 @@ This article discusses how you can configure an SMS channel using Azure Communic
 - Set up a phone number and enable it for SMS services. Ensure that you select **Send SMS** or **Send and receive SMS** options when you choose your phone number feature in Customer Service admin center. For more information, refer to [Acquire new phone numbers](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers)
 
   If you're using an existing phone number that isn't enabled for SMS, then you can upgrade your plan. For more information, refer to [Edit phone numbers](voice-channel-manage-phone-numbers.md#edit-phone-numbers)
+
+## Configure Azure Communication Services-based short code for SMS
+
+With Azure Communication Services-based short code for SMS, your customer service representatives can send high-volume, time-sensitive messages using preapproved short codes, to make sure of reliable delivery.
+The provisioning and management of the short codes is simplified for your organization as it can be handled within the Azure ecosystem.
+
+### Set up a short code
+
+Follow the steps in [Apply for a short code](/azure/communication-services/quickstarts/sms/apply-for-short-code) to apply for the SMS short code in Azure Communication Services.
+
+### Assign the short code in contact center
+
+1. In the site map of Contact Center admin center, select **Channels** under **Customer support**, select **Manage** for **Phone numbers**.
+1. On the page that appears, select **Advanced**.
+1. On the **Manage Azure Communication Services** dialog, select **Sync** for **Sync from Azure**. After the sync is complete, the SMS short code that you acquired in Azure Communication Services is displayed in the phone numbers list.
 
 ## Configure a workstream for the SMS channel
 
@@ -60,8 +75,7 @@ This article discusses how you can configure an SMS channel using Azure Communic
 [Overview of channels](../use/channels.md)  
 [Overview of SMS channels](../use/sms-channel-overview.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)  
-[Configure SMS channel for TeleSign](configure-sms-channel.md)  
+[Configure SMS channel for Twilio](Configure-sms-channel-twilio.md)   
 [Delete a configured channel](delete-channel.md)  
 [SMS FAQ](faqs.md#sms)  
 [Support for live chat and asynchronous channels](../use/channels.md)  

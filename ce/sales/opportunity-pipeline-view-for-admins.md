@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to 
-ms.date: 09/30/2024
+ms.date: 01/31/2025
 ms.custom: bap-template 
 ---
 
@@ -15,44 +15,48 @@ The opportunity pipeline view (formerly known as deal manager) helps your seller
 
 If you previously configured the deal manager workspace, learn about the [differences between the opportunity pipeline view and the deal manager workspace](faq-opportunity.md#are-there-any-differences-between-the-opportunity-pipeline-view-and-the-deal-manager-workspace).
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Video: Opportunity pipeline view
 
 Watch this short video to know how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ccf5ecba-90ff-4d7c-ac12-ac9ff309a367]
 
 ## Set the pipeline view as the default opportunities view
 
 The **Read-only Grid view** is the default view for opportunities. You can set the **Opportunities pipeline view** as the default instead, so sellers don't have to switch to it each time they access their opportunities list.
 
-1. In your sales app, select **Settings** > **Advanced Settings**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
+    :::image type="content" source="media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-1. In the **Settings** menu, select **Customizations** > **Customize the system**.
-1. From the Power Apps Default Solution page, select **Entities** > **Opportunity**.
-1. Select the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet. If you don't see **Pipeline view** in the **Control** list, select **Add Control**, then select **Pipeline view**, and then select **Add**.  
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then **Opportunity** and then select **Forms**.  
 
-   :::image type="content" source="media/pipeline-set-as-default.png" alt-text="Screenshot of the Controls tab with the Pipeline view set as the default for web, phone, and tablet." lightbox="media/pipeline-set-as-default.png":::
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then select **Opportunity**. Go to the **Controls** tab, and then select **Pipeline view** for web, phone, and tablet.  
 
-1. (Optional) In the **Properties** section, scroll down and set the **Enable grouping** and **Enable aggregation** properties to **Yes**. These settings allow sellers to group and aggregate opportunities in the pipeline view. To know about the seller experience, see [Group and aggregate opportunities](use-opportunity-pipeline-view.md#group-and-aggregate-opportunities).
+1. Open the opportunity form for type **Main** and then select **Components** on the tool bar.  
+
+1. In the **Components** section, search for **Pipeline view** and then drag it to the desired location on the form.  
+
+    >[!NOTE]
+    >If you don't see the **Pipeline view** control in the **Components** section, select **Get more components** to add it.
+
+1. In the **Add pipeline view** dialog box, configure the following properties:  
+    - **Table**: Opportunities.  
+    - **View**: My Open Opportunities.  
+    - **Enable grouping**: Yes.
+    - **Enable aggregation**: Yes.  
+
+    These settings allow sellers to group and aggregate opportunities in the pipeline view. To know about the seller experience, see [Group and aggregate opportunities](use-opportunity-pipeline-view.md#group-and-aggregate-opportunities).
 
     > [!NOTE]
     > If you've [enabled monthly channel](/power-apps/maker/model-driven-apps/channel-overview) or [opted in for early access](/power-platform/admin/opt-in-early-access-updates) updates, you need not change these properties as they're enabled by default.
 
+1. Select **Done**.
+1. Save and publish the form.  
 
-1. Save the changes and select **Publish**.
-1. From the Sales Hub sitemap, select **Opportunities** to verify that the pipeline view is set as the default view.
-
-    :::image type="content" source="media/opportunity-pipeline-view-new.png" alt-text="Screenshot of the opportunity pipeline view." lightbox="media/opportunity-pipeline-view-new.png":::
+To verify that the pipeline view is set as the default view, from the Sales Hub sitemap, select **Opportunities**.
 
 ## Open the opportunity pipeline view settings page
 
@@ -62,7 +66,7 @@ Do one of the following depending on your license:
 
 - If you have the Sales Enterprise or Sales Premium license, select **App Settings** from the Sales Hub Change area and then select **Opportunity pipeline view** under **General Settings**. 
 
-- If you have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=9f1002bf-ce2d-ed11-9db1-0022480a772e&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
+- If you have the Sales Professional license, append the following URL after the base URL of your Sales Professional app: `&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`. Example: `https://contoso.crm.dynamics.com/main.aspx?appid=00001111-aaaa-2222-bbbb-3333cccc4444&pagetype=control&controlName=MscrmControls.Sales.DealManagerSettings.DealManagerSettings`.
   
     :::image type="content" source="media/pipeline-view-settings-small.png" alt-text="Screenshot of the opportunity pipeline view settings page." lightbox="media/pipeline-view-settings.png":::
 
@@ -81,7 +85,6 @@ When sellers open an opportunity from the pipeline view, the side panel displays
 1. [Open the opportunity pipeline view settings page](#open-the-opportunity-pipeline-view-settings-page).
 1. In the **Set the default form for side panel** section, select the form that you want to set as the default for your organization.
 
-
 ## Set the default metrics for sellers
 
 The opportunity pipeline view lists important metrics related to the sales pipeline at the top of the view. You can customize this space to view metrics that you want sellers to track. Sellers will see these metrics by default; they can [personalize them](personalize-pipeline-view.md#personalize-metrics) if required.
@@ -91,22 +94,19 @@ The opportunity pipeline view lists important metrics related to the sales pipel
 
    Create, update, remove, or delete a metric in the **Edit metrics** side panel.
 
-    - To create a metric:
- 
-       1. Select **Create a Metric**.
-
-        1. Select the field and the aggregate function that you want to use for calculating the metric.
-           The **Field** list displays all the numerical fields in the opportunity entity.
-        1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:
-            - **Field:** Est. Revenue
-            - **Aggregate function:** Sum
-            - **Filters**
+    - To create a metric:  
+        1. Select **Create a Metric**.  
+        1. Select the field and the aggregate function that you want to use for calculating the metric.  
+           The **Field** list displays all the numerical fields in the opportunity entity.  
+        1. (Optional) Add filters to calculate metrics from specific records. For example, if you want to view the estimated revenue of all opportunities created this year and are in the **Develop** stage, create a metric with the following values:  
+            - **Field:** Est. Revenue  
+            - **Aggregate function:** Sum  
+            - **Filters**  
                 - **Created On**: This year  
                 - **Sales Stage**: Develop  
-    
     - To edit a metric, hover over the metric in the **Edit metrics** side panel, and select the **Edit** icon.
     - To remove a metric temporarily, clear the checkbox against the metric in **Edit metrics** side panel.
-    
+
 ## Customize charts
 
 The charts in the pipeline view help sellers visualize their pipeline better. You can customize various elements in the bubble chart, such as the data on the x-axis and y-axis, the size and color of the bubble, the sort order for the legend, and tooltips. Similarly, you can customize elements in the funnel chart, such as the field used for segmentation, the aggregate function used, and so on.  
@@ -174,4 +174,3 @@ The grid in the opportunity pipeline view is an instance of the Power Apps edita
 [Manage opportunities using pipeline view](use-opportunity-pipeline-view.md)  
 [Column-level security to control access](/power-platform/admin/field-level-security)  
 [Events in forms and grids in model-driven apps](/power-apps/developer/model-driven-apps/clientapi/events-forms-grids)
-

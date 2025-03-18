@@ -5,6 +5,7 @@ ms.date: 03/14/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 applies_to: 
   - "Dynamics 365 for Customer Engagement (online)"
 ms.custom: 
@@ -60,7 +61,7 @@ Use the following APIs to perform CRUD operations on entity records.
 | [raiseEvent](microsoft-ciframework/raiseEvent.md) | [!INCLUDE[raiseEvent-description](microsoft-ciframework/Includes/raiseEvent-description.md)] |
 | [updateContext](../../../v2/develop/reference/microsoft-ciframework/updateContext.md) | This method allows you to set the automation dictionary. |
 
-### See also
+### Related information
 
 [What's new in Dynamics 365 Channel Integration Framework](../../../whats-new-channel-integration-framework.md)  
 [System requirements of Dynamics 365 Channel Integration Framework 1.0](../../administer/system-requirements-channel-integration-framework.md)  

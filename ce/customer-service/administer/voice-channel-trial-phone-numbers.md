@@ -6,6 +6,7 @@ ms.custom: bap-template
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 
 # Use trial phone numbers

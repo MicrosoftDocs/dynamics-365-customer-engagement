@@ -2,7 +2,7 @@
 title: List (marketing list) table (Dynamics 365 Sales)
 description: Learn about list management and the list (marketing list) table that help you create lists of potential customers or existing customers for marketing purposes.
 ms.date: 06/28/2024
-ms.topic: article
+ms.topic: conceptual
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
@@ -20,7 +20,7 @@ In Dynamics 365, *list management* and the *list* (marketing list) table help yo
   
 ## Related information  
 
- [List Table](entities/list.md)   
+ [Marketing List (List) table](../../developer/reference/entities/list.md)   
  [Use FetchXML to Construct a Query](/powerapps/developer/data-platform/use-fetchxml-construct-query)   
  [Use FetchXML Aggregation](/powerapps/developer/data-platform/use-fetchxml-aggregation)   
  <xref:Microsoft.Crm.Sdk.Messages.CopyDynamicListToStaticRequest>   

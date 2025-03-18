@@ -4,6 +4,7 @@ description: Demonstrates how you can use the Dynamics 365 Channel Integration F
 ms.date: 03/21/2024
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.custom: 
   - "dyn365-a11y"
@@ -204,7 +205,7 @@ Follow the steps mentioned in [Publish and configure the widget](getting-started
 
   ![Published sample widget in Unified Interface apps.](../../media/cif-search-records-publish-app.PNG "Published sample widget in Unified Interface apps")<br />
 
-### See also
+### Related information
 
 [Build a simple communication widget](getting-started-simple-widget.md)  
 [Sample code for softphone integration](sample-softphone-integration.md)  

@@ -1,10 +1,11 @@
 ---
-title: "Configure relevance search for transcripts | MicrosoftDocs"
-description: "Learn how to configure relevance search for chat transcripts so agents can search in Dynamics 365 Contact Center."
-ms.date: 07/01/2024
+title: Configure relevance search for transcripts.
+description: Learn how to configure relevance search for chat transcripts so representatives can search in Dynamics 365 Contact Center.
+ms.date: 02/05/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Configure relevance search for transcripts 
 
@@ -13,11 +14,11 @@ ms.author: nenellim
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 
-Agents can search for details in transcripts. To enable agents to search in transcripts, you as a system customizer need to configure relevance search for the Note entity and then add the entity to Dynamics 365 Contact Center.
+Customer service representatives (service representatives or representatives) can search for details in transcripts. To enable service representatives to search in transcripts, you as a system customizer need to configure relevance search for the Note entity and then add the entity to Dynamics 365 Contact Center.
 
 ## Prerequisites
 
-Ensure that relevance search is enabled in your environment. To learn more, see [Enable relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search).
+Ensure that relevance search is enabled in your environment. Learn more in [Enable relevance search](/power-platform/admin/configure-relevance-search-organization#enable-relevance-search).
 
  
 ## Configure relevance search for the Note entity
@@ -41,9 +42,9 @@ Ensure that relevance search is enabled in your environment. To learn more, see 
 
 ## Add the Note entity 
 
-1. Sign in to `https://<org>.dynamics.com/apps`.
+1. In your Dynamics 365 instance, go to the **Published Apps** page.
 
-2. Select **More Options** (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** opens in a new browser tab.
+2. Select an app, select the ellipsis (...) in the application tile, and then select **OPEN IN APP DESIGNER**. The **App Designer** page opens in a new browser tab.
 
 3. On the **Components** tab, under **ARTIFACTS**, select **Entities**.
 

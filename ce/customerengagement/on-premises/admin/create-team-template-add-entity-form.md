@@ -2,7 +2,6 @@
 title: "Create access team templates in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to enable an entity for access teams, create an access team template, and add the team template to the entity form."
 ms.custom: 
-ms.date: 03/19/2020
 ms.reviewer: 
 
 ms.suite: 

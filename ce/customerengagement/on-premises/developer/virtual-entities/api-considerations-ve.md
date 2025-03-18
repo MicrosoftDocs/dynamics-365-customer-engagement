@@ -1,7 +1,6 @@
 ---
 title: "API considerations of virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about API considerations for virtual entities in Dynamics 365 Customer Engagement (on-premises).
-ms.date: 10/31/2017
 
 ms.topic: article
 applies_to: 
@@ -48,7 +47,8 @@ The following changes to the standard [!INCLUDE[pn-dynamics365](../../includes/p
 
 ### New Web API types
 
-The Dynamics 365 Customer Engagement Web API exposes virtual entity data providers and sources as the following new entity types: [EntityDataProvider](../entities/entitydataprovider.md) and [EntityDataSource](../entities/entitydatasource.md). 
+The Dynamics 365 Customer Engagement Web API exposes virtual entity data providers and sources as the following new entity types: [EntityDataProvider](/power-apps/developer/data-platform/reference/entities/entitydataprovider) and `EntityDataSource` tables. 
+<!-- EntityDataSource is a private table, so not documented in reference. -->
 
 ### New metadata properties
 
@@ -74,7 +74,7 @@ The approach to programmatically creating a virtual entity type differs slightly
 * If the associated data provider (and optionally data source) is known at creation time, then these are specified.
 * If the data provider for this type is not known, then at minimum, `EntityMetadata.DataProviderId` is set to `7015A531-CC0D-4537-B5F2-C882A1EB65AD`, and the `EntityMetadata.DataSourceId` is set to `null`. Before instances of this type are used at runtime, these properties must be assigned appropriate values.
 
-Two new entity types, [EntityDataProvider](../entities/entitydataprovider.md) and optionally [EntityDataSource](../entities/entitydatasource.md), will be created when you register a plugin, and their respective ID's, **entitydataproviderid** and **entitydatasourceid**, represent these required GUIDs. (Otherwise, developers rarely need to access these custom types directly.) Note that DataSource contains the property **entitydataproviderid** that must match the corresponding DataProvider type or a runtime exception will be thrown.
+Two new entity types, [EntityDataProvider](/power-apps/developer/data-platform/reference/entities/entitydataprovider) and optionally `EntityDataSource`, will be created when you register a plugin, and their respective ID's, **entitydataproviderid** and **entitydatasourceid**, represent these required GUIDs. (Otherwise, developers rarely need to access these custom types directly.) Note that DataSource contains the property **entitydataproviderid** that must match the corresponding DataProvider type or a runtime exception will be thrown.
 
 > [!WARNING]
 > Standard (non-virtual) entities must have the values of their associated **EntityMetadata.DataProviderId** and **EntityMetadata.DataSourceId** set to their default values (`null`), otherwise a runtime exception will be thrown.  Once created, you cannot convert from a non-virtual type to a virtual type, or the reverse. 

@@ -3,8 +3,8 @@ title: Manage application tab templates
 description: Learn how to create application tab templates in Customer Service. Find information on the various page types and their corresponding parameters.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
-ms.date: 06/05/2024
+ms.reviewer: mgandham
+ms.date: 12/04/2024
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -109,7 +109,7 @@ The following parameters are available for the entity record page type when an e
 |Parameter | Description | Required | Supported values | Example |
 |----------|-------------|------------------|----------|---------|
 | `entityName` | Logical name of the entity | Yes | String <br><br> Slugs <br> <br> | account <br><br> `{anchor._customerid_value@Microsoft.Dynamics.CRM.lookuplogicalname}`<br><br> |
-| `entityId`  | GUID of the entity record | No | String <br><br> Slugs <br> <br> |  `d49e62a8-90df-e311-9565-a45d36fc5fe8` <br><br> `{anchor._customerid_value}` <br><br> 
+| `entityId`  | GUID of the entity record | No | String <br><br> Slugs <br> <br> |  `11bb11bb-cc22-dd33-ee44-55ff55ff55ff` <br><br> `{anchor._customerid_value}` <br><br> 
 | `formId` | GUID of the form instance | No | String   | `915f6055-2e07-4276-ae08-2b96c8d02c57` |
 |`validateRecord`| Checks if the record exists in the organization database | No | Boolean | True |
 
@@ -192,7 +192,8 @@ The following parameters are available for custom pages.
 |---------|--------------|--------- |--------------    |--------------------------------------------------------|
 | `entityName` | Logical name of the entity | No | String <br><br> Slugs <br>  | incident <br> <br> `{anchor.entityName}`  |
 | `name` | Unique name of the custom page  | Yes | String <br>  | `new_mycustompage` <br> |
-| `recordId` | GUID of the entity record | No | String <br><br>Slugs <br><br><br><br>OData<br><br><br><br>| `d49e62a8-90df-e311-9565-a45d36fc5fe8`<br><br> `{caseId}` <br><br> `{anchor.incidentid}`<br><br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`<br><br><br> |
+| `recordId` | GUID of the entity record | No | String <br><br>Slugs <br><br><br><br>OData<br><br><br><br>| `11bb11bb-cc22-dd33-ee44-55ff55ff55ff`<br><br> `{caseId}` <br><br> `{anchor.incidentid}`<br><br> `{$odata.incident.title.?$filter=incidentid eq '{anchor.incidentid}'&$select=title}`<br><br><br> |
+
 
 ### Out-of-the-box application tab templates
 
@@ -207,7 +208,7 @@ The following out-of-the-box application tab templates are available.
 | Omnichannel Intraday Insights       | Displays a Power BI report in the tab.         | Control  |
 | Quick Reply Preview                 | Displays a quick reply in the tab.             | Control  |
 | Rich Message Preview                | Displays a rich message in the tab.            | Control |
-| Search                              | Displays the Omnichannel search page in the tab. | Control |
+| Search (deprecated)                 | Displays the Omnichannel search page in the tab. (deprecated) | Control |
 
 ### Related information
 

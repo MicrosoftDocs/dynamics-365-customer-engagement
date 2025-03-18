@@ -13,18 +13,11 @@ ms.custom: bap-template
 
 The opportunity pipeline view, formerly known as deal manager, helps you visualize, prioritize, and manage the opportunities in your pipeline. The charts in the view help you figure out which deals to follow up with next. The metrics help you determine the current status of deals in the pipeline, deals successfully closed, and deals lost, and their respective revenue.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Video: Opportunity pipeline view
 
 Watch this short video to learn how the opportunity pipeline view helps sellers be more productive and efficient.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWONpe]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ccf5ecba-90ff-4d7c-ac12-ac9ff309a367]
 
 [!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
 

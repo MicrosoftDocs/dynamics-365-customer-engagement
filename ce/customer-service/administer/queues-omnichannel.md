@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 06/14/2024
+ms.date: 02/04/2025
 ms.custom: bap-template
 ms.collection:
 searchScope:
@@ -21,7 +21,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Queues are used to collect and distribute workload among agents. Workload includes records such as cases, and conversations such as chat or SMS. Agents are added as members to the queues and the workload is distributed among the agents based on assignment methods.
+Queues are used to collect and distribute workload among customer service representatives (service representatives or representatives). Workload includes records such as cases, and conversations such as chat or SMS. Service representatives are added as members to the queues and the workload is distributed among them based on assignment methods.
 
 ## How work items are routed to queues
 
@@ -37,8 +37,6 @@ To simplify the routing experience for administrators and supervisors, queues ar
 
 The queue types allow issues to be routed correctly and help avoid cross-queue assignments. When you configure workstreams and routing rule items, the queues that are available for selection are based on the channel type for the workstream. For example, for routing rules for a live chat workstream, only messaging type queues are shown for selection. Similarly, you can transfer a chat conversation only to a messaging queue, and a case only to a record queue.
 
-Assign a group number that helps you organize your queues in the list view. The group number doesn't affect the priority of the queue or incoming conversations.
-
 ## Create a queue for unified routing
 
 1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
@@ -48,30 +46,34 @@ Assign a group number that helps you organize your queues in the list view. The 
 1. On the **Queues** page, do the following steps:
 
     1. Select **New**.
-    2. In the **Create a queue** dialog, enter the following details:
+    1. In the **Create a queue** dialog, enter the following details:
        - **Name**: A name for the queue.
        - **Type**: Select **Messaging**, **Record**, or **Voice**.
-       - **Group number**: A number to organize the queue.
-    3. Select **Create**. The queue that you created is displayed.
+       - **Queue priority**: A number to [prioritize the queue](#configure-queue-prioritization).
+    1. Select **Create**. The queue that you created is displayed.
 
-       > [!div class=mx-imgBorder]
-       > ![Queue in admin center.](../media/queue-summary-ur.png "Queue in admin center")
+       :::image type="content" source="../media/queue-summary-ur.png" alt-text="A screenshot of an advanced queue in admin center.":::
+
 
 1. Select **Add users**, and in the flyout menu, select the users who should be part of the queue, and then select **Add**. The users are added to the queue.
 
 1. In **Assignment method**, select any of the following options:
-   - **Highest capacity**: Assigns a work item to an agent with the highest available capacity. This agent has the skills that are identified during the classification stage and presence that matches one of the allowed presences in the workstream.
-   - **Advanced round robin**: Assigns a work item to the agent who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
-   - **Least active**: Assigns a work item to the agent who has been least active among all the agents who match skills, presence, and capacity.
-   - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. For more information about the custom assignment method, see [Create custom assignment method](assignment-methods.md).
+   - **Highest capacity**: Assigns a work item to a service representative with the highest available capacity. The representative has skills identified during the classification stage and presence that matches one of the allowed presences in the workstream.
+   - **Advanced round robin**: Assigns a work item to the representative who matches the criteria for skills, presence, and capacity. The initial order is based on when a user is added to the queue. Then, the order is updated based on assignments.
+   - **Least active**: Assigns a work item to the representative who has been least active among all those who match skills, presence, and capacity.
+   - **Create new**: Lets you create a custom assignment method. The custom assignment method lets you use your own rulesets and rules to configure priority, severity, and capacity for choosing the queues to which work items need to be routed by setting up the rulesets for prioritization and assignment. Learn more about the custom assignment method in [Create custom assignment method](assignment-methods.md).
 
 1. To manage overflow of queues, in **Overflow management**, select **Set overflow conditions**, and perform the steps described in [Manage overflow of queues](manage-overflow.md).
 
-1. To set the operating hours, in **Operation hours**, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. More information: [Configure operating hour record](create-operating-hours.md)
+1. To set the operating hours, in **Operation hours**, select **Set operation hours**. If you don't set operation hours, the queue is considered to be available round the clock. You must configure the operating hour record before you can set it for the queue. Learn more in [Configure operating hour record](create-operating-hours.md).
 
 1. On the **Set operation hours** dialog that appears, select an operating hour record in the **Name** list.
 
 1. Select **Save and close**. The operating hour record that you selected is configured for the queue.
+
+## Configure queue prioritization
+
+You can assign a priority number to the queue that helps you prioritize assignment of work. Queues are ordered from highest to lowest priority when work items are assigned. Unified routing prioritizes a queue with a smaller number over a queue with a larger number. For example, if you need to prioritize conversations over cases, you can assign queue priority numbers to the corresponding queues accordingly. For the queues that handle conversations, you can assign a number 1 and for the queues that handle cases, you can assign 2 as the priority number. Similarly, you can prioritize one type of work over another. Assign priority number 1 to the queue with premium customer chats for higher priority and priority number 2 to the queue that handles general customer questions to give it lower priority. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
 
 ### Manage queues for unified routing
 
@@ -98,7 +100,7 @@ If any overflow settings exist, they are overruled and work items are routed to 
 
 ### How default queues work
 
-Default queues are a finite set of system-defined queues that help you manage work items when other queues aren't available for routing them. All agents who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
+Default queues are a finite set of system-defined queues that help you manage work items when other queues aren't available for routing them. All service representatives who have the Omnichannel agent role are a part of the default queues. Out of the box, the following default queues are available:
 
 - **Default entity queue** for routing entity records.
 - **Default messaging queue** for routing all messaging conversations pertaining to live chat, SMS, Microsoft Teams, and social channels.
