@@ -3,7 +3,7 @@ title: Create a new case when email subject changes
 description: Define whether a new case should be created when the email subject changes on a reply or a forwarded email with regex expressions.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 11/01/2023

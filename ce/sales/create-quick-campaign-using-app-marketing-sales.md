@@ -1,7 +1,7 @@
 ---
 title: Create a quick campaign using in-app marketing
 description: A quick campaign is a single campaign activity meant for a specific audience. For example, sending an e-mail blast to customers in a specific region.
-ms.date: 06/20/2024
+ms.date: 11/06/2024
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -25,13 +25,6 @@ searchScope:
 
 Send an e-mail blast to customers who fit a specific demographic, a mail campaign to clients in a specific region, or perhaps a phone call campaign to previous buyers of a particular product by using a quick campaign in [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)]. 
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-  
 ## When to use quick campaign
 
 A quick campaign is a single campaign activity geared towards a targeted audience. Track the success of your quick campaign through campaign responses, and convert the positive responses into new leads, quotes, orders, or opportunities.
@@ -79,6 +72,8 @@ When you create a quick campaign activity, an activity is created for each membe
 1. Select **Next**.
 
 1. On the **Specify the Content of the Activity** step, specify the details of the activity to be created, and then select **Next**.  
+    > [!NOTE]
+    > For email activity, when you choose a template that has dynamic text fields related to user, the system will automatically populate that data fields with the current user's information. For example, if you have a template with the subject line as "Hello, *user.fullname*", the system will replace the *user.fullname* with the current user's full name.
 
 1. On the **Completing the Create Quick Campaign Wizard** step, select **Create**.  
     The campaign activity is added to the **Quick Campaigns** section. 

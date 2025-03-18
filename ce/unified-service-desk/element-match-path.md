@@ -1,10 +1,11 @@
 ---
-title: "ElementMatchPath in Unified Service Desk | MicrosoftDocs"
-description: "Understand how the ElementMatchPath tag works in Unified Service Desk. Also included is a code snippet that shows how to use the tag."
+title: ElementMatchPath in Unified Service Desk 
+description: Understand how the ElementMatchPath tag works in Unified Service Desk. Also included is a code snippet that shows how to use the tag.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer

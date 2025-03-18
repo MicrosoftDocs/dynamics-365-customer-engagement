@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 08/12/2024
+ms.date: 03/17/2025 
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -12,6 +12,9 @@ ms.custom: bap-template
 # Assign roles and enable users
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 Use the information in this article to configure security roles and enable users to perform the various tasks in Customer Service.
 
@@ -22,21 +25,21 @@ The Dynamics 365 users can access and perform different functions based on the r
 - **Basic User:** Required by all users of Omnichannel for Customer Service.
 - **Omnichannel administrator:**  Required for performing administrator tasks; also requires the **System Administrator** role to manage user roles and privileges in Omnichannel for Customer Service.
 - **Omnichannel supervisor:** Required for performing supervisor tasks.
-- **Omnichannel agent:** Required for performing agent tasks.
+- **Omnichannel agent:** Required for performing customer service representative (service representative or representative) tasks.
 - **Productivity tools user:** Required by users of Dynamics 365 Productivity Tools.
 - **Productivity tools administrator:** Required by administrator users of Dynamics 365 Productivity Tools.
 - **App Profile Manager Administrator:** Required for creating and assigning app profiles to users of Customer Service and Omnichannel for Customer Service.
 - **App Profile User:** Required by users of Customer Service and Omnichannel for Customer Service.
 
-Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or agent type of user.
+Ensure that the **Omnichannel API access** role isn't assigned to a supervisor or representative type of user.
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. For more information, see [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
+Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 
-To be able to map roles to personas in role persona mapping, you must assign the roles to users directly and not through team memberships. For more information about role persona mapping, see [Role persona mapping](../administer/role-persona-mapping.md).
+To be able to map roles to personas in role persona mapping, you must assign the roles to users directly and not through team memberships. Learn more about role persona mapping in [Role persona mapping](../administer/role-persona-mapping.md).
 
 Perform the following steps to assign roles to users in the advanced settings area of Dynamics 365:
 
@@ -46,9 +49,9 @@ Perform the following steps to assign roles to users in the advanced settings ar
 
 3. Select the users from the list for whom you want to assign a security role.
 
-4. Select **Manage Roles** in the menu. The security roles available for the business unit are displayed.
+4. Select **Manage security roles** in the menu. The security roles available for the business unit are displayed.
 
-5. In the **Manage User Roles** dialog box, select the security roles that you want to assign to the user, and then select **OK**.
+5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
 To view and manage users in omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
 
@@ -68,8 +71,8 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can add/edit/delete workstreams | Yes |||||
 | Can add/edit/delete channel settings, context settings, routing rules | Yes |||||
 | Can add/edit/delete queues | Yes |||||
-| Can add/remove agents from queue | Yes | Yes ||||
-| Can add/edit/delete bots | Yes |||||
+| Can add/remove representatives from queue | Yes | Yes ||||
+| Can add/edit/delete AI agents | Yes |||||
 | Can view/add/edit/delete quick replies | Yes | Yes ||||
 | Can add/edit/delete PBI config | Yes |||||
 | Can view/add/edit/delete operating hours | Yes |||||
@@ -92,7 +95,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can create/read/write/append/delete agent script ||||| Yes |
 | Can create/read/write/append/delete agent script step ||||| Yes |
 | Can create/read/write/append/delete agent script workflow ||||| Yes |
-| Can read `msdyn_macrosolutionconfiguration` ||||| Yes |
+| Can read `msdyn_productivitymacrosolutionconfiguration` ||||| Yes |
 | Can create/read/write/append/delete macro action ||||| Yes |
 
 ## Configure permissions to access secure columns
@@ -108,7 +111,7 @@ Administrator users will need column-level permissions on secure columns when th
 
 The secure columns can be identified by the information icon that's present for the column.
 
-The entities and their secret attributes are as follows. For more information on the entities and their attributes, see [Overview of entities](../develop/reference/entities/overview-entity-ref.md).
+The entities and their secret attributes are as follows. Learn more about the entities and their attributes in [Overview of entities](../develop/reference/entities/overview-entity-ref.md).
 
 | Entity | Secret attributes |
 |--------|-------------------|
@@ -125,7 +128,7 @@ The entities and their secret attributes are as follows. For more information on
 
 **Manage permissions on secret attributes**
 
-1. In Power Platform admin center, create or update the column security profile. More information: [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions)
+1. In Power Platform admin center, create or update the column security profile. Learn more in [Associate security profiles and set permissions](/power-platform/admin/set-up-security-permissions-field#associate-security-profiles-and-set-permissions).
 1. Provide the read, update, or create permissions to the security profile on the columns that correspond to the secret attributes mentioned in the preceding table.
 
 ### Related information

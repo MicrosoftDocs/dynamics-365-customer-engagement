@@ -20,13 +20,6 @@ Personalize the pipeline view to organize opportunities in a way that makes sens
 
 You can also ask your administrator to customize the experience further to improve your productivity.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Salesperson or higher<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Personalize metrics
 
 The opportunity pipeline view lists important metrics related to the sales pipeline at the top of the view. You can personalize this space to view metrics that you want to track.

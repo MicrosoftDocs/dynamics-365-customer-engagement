@@ -2,7 +2,6 @@
 title: "Add outside report to Dynamics 365 Customer Engagement (on-premises)"
 description: "If you've created a custom report outside of the system, follow these steps to easily add it to Dynamics 365 Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 9cfad031-e7a8-4c00-b59f-1ff359717c6e
 caps.latest.revision: 25
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

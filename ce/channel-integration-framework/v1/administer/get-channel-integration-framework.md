@@ -3,11 +3,10 @@ title: Get Dynamics 365 Channel Integration Framework 1.0
 description: Use this topic to get the download link and prerequisites for Dynamics 365 Channel Integration Framework 1.0.
 author: gandhamm
 ms.author: mgandham
-ms.date: 06/14/2024
-ms.topic: get-started
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.reviewer: mgandham
+ms.date: 12/10/2024
+ms.topic: conceptual
+ms.custom: bap-template
 ---
 
 # How to get Dynamics 365 Channel Integration Framework 1.0
@@ -32,7 +31,7 @@ Use `https://<orgURL>.dynamics.com/apps` to navigate to the Dynamics 365 Channel
 > [!div class="nextstepaction"]
 > [Configure channel provider for your Dynamics 365 organization](configure-channel-provider-channel-integration-framework.md)
 
-### See also
+### Related information
 
 [Softphone integration sample code for Dynamics 365 Channel Integration Framework 1.0](sample-softphone-integration.md)  
 [Get started with Customer Service workspace](../../../customer-service/implement/csw-overview.md)  

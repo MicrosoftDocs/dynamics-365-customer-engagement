@@ -1,17 +1,17 @@
 ---
-title: "lcw:onClose | MicrosoftDocs"
-description: lcw onClose event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
-ms.date: 11/10/2021
+title: lcw:onClose 
+description: lcw onClose event (Omnichannel for Customer Service JavaScript API reference).
+ms.topic: reference
+ms.date: 03/18/2025
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # lcw:onClose event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when the customer engaged on the chat widget has closed the widget. You can use this event to create custom experiences around closure of the chat widget.
+This event is triggered when the customer engaged on the chat widget closes the widget. You can use this event to create custom experiences around closure of the chat widget.
 
 When an agent ends a conversation, a call can be made to closeChat() in order to end the conversation on the client side. This event is raised when the closeChat() SDK method is called.
 

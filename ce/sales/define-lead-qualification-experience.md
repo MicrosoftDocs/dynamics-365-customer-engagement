@@ -1,7 +1,7 @@
 ---
 title: Customize lead qualification experience in Dynamics 365 Sales
 description: Give your salespeople the flexibility to choose which records to create—account, contact, or opportunity—when a lead is qualified.
-ms.date: 08/12/2024
+ms.date: 01/28/2025
 ms.topic: how-to
 ms.custom: bap-template
 author: lavanyakr01
@@ -21,19 +21,11 @@ searchScope:
 
 As an admin, you can customize the lead qualification experience to help sellers qualify leads more effectively.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|:-----------------|:--------------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Difference between new lead qualification experience and legacy experience
 
-> [!IMPORTANT]
-> The new lead qualification experience is an early access feature. You can [opt in](/power-platform/admin/opt-in-early-access-updates) to use it for testing and adoption in your environments.
+The new lead qualification experience is the default experience in the Sales Hub app. [What if I had previously defined the lead qualification experience?](faq-lead.md#what-if-i-had-previously-defined-the-lead-qualification-experience).
 
-The new lead qualification experience lets you customize the following aspects:
+The new experience lets you customize the following aspects:
 
 - Select who creates opportunities when leads are qualified&mdash;seller or automatically by the system.
 - Allow sellers to create multiple opportunities when a lead is qualified.
@@ -48,33 +40,32 @@ The legacy experience only lets you choose whether to automatically create accou
 
 2. Under **General Settings**, select **Lead + Opportunity management** > **Lead Qualification**.
 
-   You'll see following options:
+   You'll see the following options:
 
-    - **Try the new lead qualification experience**: Turn this setting on to use the new lead qualification experience. This setting lets you define the following experiences: 
+    - **Try the new lead qualification experience**: This setting is turned on by default. This setting lets you define the following experiences:
         - [Define the record creation experience for each record type](#define-the-record-creation-experience-for-each-record-type)
         - [Customize opportunity creation experience for qualified leads](#customize-opportunity-creation-experience-for-qualified-leads)
         - [Enable lead summarization](#summarize-the-lead-after-its-qualified)
     
       :::image type="content" source="media/lead-qualify-settings.png" alt-text="Screenshot of the Lead qualification settings page.":::
-   
-      Turn it off to select the **Auto-create records for newly qualified leads** setting.
+
+      Turn it off to use the legacy experience.
+
+    - **Auto-create records for newly qualified leads**: This option enables the legacy experience. Turn this setting on to automatically create account, contact, and opportunity records when a lead is qualified.
     
-    - **Auto-create records for newly qualified leads**: This is the legacy experience. Turn on this setting to automatically create account, contact, and opportunity records when a lead is qualified. 
-    
-    If you turn off both settings, sellers are prompted to choose the records they want to create for the lead.
+    If you turn off both the options, sellers are prompted to choose the records they want to create for the lead.
 
     For information about the fields that are mapped from the lead to other entities when records are created automatically, see [Field mappings to other entities](#field-mappings-to-other-entities).
 
 ### Define the record creation experience for each record type
 
-When you turn on the new [Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can define who creates the record&mdash;seller or automatic&mdash;when a lead is qualified.  
+With the new [Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can define who creates the record&mdash;seller or automatic&mdash;when a lead is qualified.  
 
 - Select **Seller** if you want sellers to decide whether to create a record, use an existing record, or not create a record at all.
 
 - Select **Automatic** if you want the system to create the record automatically. Sellers can review the records that will be created automatically.
 
 In either case, if there's a matching record in the system, the duplicate detection rules are applied to prevent the creation of duplicate records. Sellers can choose to use the existing record or create a new one. For more information about rules used to identify duplicates, see [Manage duplicate leads](manage-duplicate-leads.md).
-
  
 ### Customize opportunity creation experience for qualified leads
 
@@ -89,7 +80,7 @@ The following options are available only when you select **Seller** for Opportun
  
 ### Summarize the lead after it's qualified
 
-When you turn on the [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can choose to let Copilot summarize the lead after it's qualified. Select the checkbox under the **Lead qualification details** section. 
+With the [new Lead qualification experience](#how-to-customize-the-lead-qualification-experience), you can choose to let Copilot summarize the lead after it's qualified. Select the checkbox under the **Lead qualification details** section. 
 
 > [!NOTE]
 > Copilot must be [enabled for your organization](enable-setup-copilot.md) to use this feature. 
@@ -120,7 +111,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | Topic              | subject              | Topic                     | name                        |
 | Contact            | parentcontactid      | Contact                   | parentcontactid             |
 | Account            | parentaccountid      | Account                   | parentaccountid             |
-
+>
 **Fields mapped to account**
 
 | Field name in lead | Logical name in lead     | Field name in account       | Logical name in account     |
@@ -135,7 +126,7 @@ When a lead is qualified, values of some fields from leads are automatically map
 | State/Province     | address1_stateorprovince | Address 1: State/Province   | address1_stateorprovince    |
 | Zip/Postal Code    | address1_postalcode      | Address 1: ZIP/Postal Code  | address1_postalcode         |
 | Country/Region     | address1_country         | Address 1: Country/Region   | address1_country            |
-
+>
 **Fields mapped to contact**
 
 | Field name in lead | Logical name in lead     | Field name in contact       | Logical name in contact      |

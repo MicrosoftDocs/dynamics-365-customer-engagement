@@ -1,7 +1,7 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 07/17/2024
+ms.date: 01/24/2025
 ms.topic: troubleshooting
 author: udaykirang
 ms.author: udag
@@ -33,12 +33,15 @@ Select **Leads** in the sitemap, and then select the **Closed Leads** view to fi
 
 ### What happens to notes and attachments when leads are qualified?
 
-When salespeople work on a lead, they use notes to store key information on the things they've researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information isn't lost.
-
+When salespeople work on a lead, they use notes to store key information on the things they've researched about the lead. This could be information like new contacts at the site, current value of the contract, vendor information, and so on. When a lead is qualified, these notes are displayed in the Opportunity record so that the information isn't lost.
 
 ### What is the difference between the new and old lead qualification experiences?
 
 The new lead qualification experience allows for customization of the lead qualification process, including automatic or manual creation of account, contact, and opportunity records, or a combination of both. It also allows for the creation of multiple opportunities for a single lead, and the ability to summarize the lead after it's qualified. The legacy experience only allows for automatic creation of the records.
+
+## What if I had previously defined the lead qualification experience?
+
+The new lead qualification experience is turned on by default irrespective of whether you had previously defined the lead qualification experience or not. However, the experience you had previously defined is retained. For example, if you had previously turned on **Auto-create records for newly qualified leads** in the legacy experience, record creation is set to **Automatic** in the new experience. Otherwise, record creation is set to **Seller** in the new experience. Learn more about [how to customize the lead qualification experience](define-lead-qualification-experience.md).
 
 ### How can I create multiple opportunities for a single lead?
 
@@ -92,16 +95,13 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
 - Go to the leads grid view, select the lead and qualify.
 - Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps:
-    1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-
-       > [!NOTE]
-       > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-
-    1. Select the rule and then select **Unpublish**.
+    1. In the sales app, go to **Settings** > **Advanced settings**.
+    1. Go to **System** > **Data Management** > **Duplicate detection rules**.
+    1. Select the rule, and then select **Unpublish** on the command bar.
 
 - If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps: 
-    1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-
+    1. In the sales app, go to **Settings** > **Advanced settings**.
+    1. Go to **System** > **Data Management** > **Duplicate detection rules**.
     1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
 
@@ -109,7 +109,7 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
     1. Publish the rule.
 
-### Why the Company Name column is not available in the Edit Columns pane for lead views?
+### Why isn't the Company Name column available in the Edit Columns pane for lead views?
 
 The **Company Name** column is included in the out-of-the-box lead views, but it's hidden in the **Edit Columns** pane by design. So, you can't hide, remove, or reorder the **Company Name** column in the out-of-the-box lead views or views that are based on these out-of-the-box views. To show the **Company Name** column in the **Edit Columns** pane, reach out to your admin. Your admin can add the **Company Name** field to the view [using the Power Apps view designer](/power-apps/maker/model-driven-apps/choose-and-configure-columns#adding-columns).
 
@@ -117,7 +117,7 @@ The **Company Name** column is included in the out-of-the-box lead views, but it
 
 ### Why can't I delete out-of-the-box field mappings between lead and opportunity?
  
-Starting March 2024, the ability to delete any out-of-the-box field mappings is removed. If you deleted the field mapping between lead and opportunity prior to March 2024, the map would have been restored in the next update. If you want to override an out-of-the-box field map, you can create a post operation plugin on opportunity create that checks if `originatingleadid` field is populated and update the fields targeted in out-of-the-box field maps as per your business requirements.
+As of March 2024, the ability to delete any out-of-the-box field mappings was removed. If you deleted the field mapping between lead and opportunity prior to March 2024, the map would have been restored in the next update. If you want to override an out-of-the-box field map, you can create a post-operation plugin on opportunity create that checks whether the `originatingleadid` field is populated and update the fields targeted in out-of-the-box field maps as per your business requirements.
 
 
 ## FAQs about lead scoring
@@ -128,19 +128,18 @@ Install [!INCLUDE[pn_dynamics_sales_insights](../includes/pn-dynamics-sales-insi
 
 - To build a lead scoring model, you need to have a minimum of 40 qualified and 40 disqualified leads.  
 - To build an opportunity scoring model, you need to have a minimum of 40 won and 40 lost opportunities.  
-- The leads and opportunities must have been created on or after January 1, in the previous year.
+- The leads and opportunities must have been created on or after January 1 of the previous year.
 
 <a name="scoring-minimum-requirement"></a>
 ### How do I verify whether I have the required number of leads or opportunities to create a scoring model?
 
-Before you create a lead or opportunity scoring model, you need to ensure that you have a minimum of 40 qualified and 40 disqualified leads or 40 won and 40 lost opportunities to train the model. You can select a time frame between 3 months to 2 years to train the model.
+Before you create a lead or opportunity scoring model, you need to ensure that you have a minimum of 40 qualified and 40 disqualified leads or 40 won and 40 lost opportunities to train the model. You can select a time frame between 3 months and 2 years to train the model.
 
 Let's understand the minimum requirement with an example scenario:
 
 You want to build a lead scoring model and train it with leads created and closed in the last 6 months. You want to include only those leads that are using the **Lead to opportunity Sales Process** business process flow. Use the following steps to verify whether you have the required number of leads. You can follow similar steps to verify the minimum requirement for opportunity scoring. If you plan to use the [per stage model](configure-predictive-opportunity-scoring.md#what-is-a-per-stage-model) in your opportunity scoring, see this [section](faq-opportunity.md#opportunity-per-stage-scoring).
 
 1. On the **Leads** page, select **All leads** from the view selector.
-
 1. Select **Edit Filters**.
 1. Select **Add** and set the following filters:
    - **Created On** = **Last 6 months**.
@@ -153,6 +152,7 @@ You want to build a lead scoring model and train it with leads created and close
    - **Value** = **Aborted**
 
    The following screenshot shows the filters that you need to set:
+
    :::image type="content" source="media/scoring-minimum-data.svg" alt-text="Screenshot of the Edit filters page with filters to verify minimum requirement for scoring.":::
 
 1. Verify the number of leads that meet the criteria. If the number of leads is less than 40, you can increase the time frame to include more leads. To verify the number of disqualified leads, change the **Status** filter to **Disqualified**.
@@ -164,7 +164,6 @@ You want to build a lead scoring model and train it with leads created and close
 If a lead or opportunity is not scored or the score is not updated, ensure that the following conditions are met:
 
 - The scoring model is published.
-
 - The record is in the **Open** state.
 - The record meets all the conditions defined in the scoring model.
 - The record is using the same business process flow that is configured in the scoring model.
@@ -176,7 +175,7 @@ For new leads, the scoring happens in near real time. The score will be displaye
 
 ### Why aren't my leads scored in real time?
 
-Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. More information: Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring) 
+Real-time scoring is supported only for new leads. If you don't see the score even after 15 minutes of saving or importing the new lead, contact your administrator. Your administrator can verify whether the model that's scoring the new lead was created or edited, and published after the real-time scoring feature was rolled out. More information: [Real-time scoring](work-predictive-lead-scoring.md#real-time-scoring) 
 
 ### Can I customize the predictive scoring model?
 
@@ -188,15 +187,15 @@ Yes, you can add and publish multiple models that are specific to each line of b
 
 ### What's the difference between a score and a grade?
 
-Scores are generated by the machine learning model. <br>
-Grades are just a grouping of scores in four buckets that the admin can configure.
+Scores are generated by the machine learning model. 
 
+Grades are just a grouping of scores in four buckets that the admin can configure.
 
 ## FAQs about duplicate lead detection
 
 ### What happens when duplicates are found while qualifying leads?
 
-When qualifying a lead, if a duplicate account or contact is detected while creating new records, a duplicate warning is shown to you. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you'll see the options to resolve duplicates. More information: [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection)
+When qualifying a lead, if a duplicate account or contact is detected while creating new records, you'll see a duplicate warning. Depending on whether your system administrator has enabled the improved duplicate detection and merge experience, you'll see the options to resolve duplicates. More information: [Enable the improved duplicate detection and merge experience](/power-platform/admin/enable-improved-duplicate-detection)
 
 ### What's the difference between the duplicate detection capability in Power Platform and Dynamics 365 Sales?
 
@@ -229,7 +228,7 @@ The **Account** and **Contact** lookup fields are filtered with matched results 
 When the improved duplicate detection and merge experience is enabled, you'll see the **Account or Contact may already exist** dialog box.
 
 > [!div class="mx-imgBorder"] 
-> ![Screenshot of dialog box showing records might already exist.](media/duplicate-records-already-exists.png "Records may already exist")
+> ![Screenshot of dialog box showing records that might already exist.](media/duplicate-records-already-exists.png "Records may already exist")
 
 The **Matched accounts** and **Matched contacts** sections will show all the matching records (based on the duplicate detection rules) along with additional information to precisely identify the record to which the lead should be linked.
 

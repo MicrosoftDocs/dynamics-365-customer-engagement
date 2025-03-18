@@ -3,10 +3,10 @@ title: Responsible AI FAQ for Copilot in Customer Service
 description: This FAQ provides information about the AI technology that Dynamics 365 Customer Service uses. This FAQ also includes key considerations and details about how AI is used, how it was tested and evaluated, and any specific limitations.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: faq
 ms.collection: bap-ai-copilot
-ms.date: 08/22/2024
+ms.date: 03/17/2025
 ms.custom: 
 - bap-template
 - responsible-ai-faq
@@ -20,37 +20,41 @@ This FAQ article helps answer the questions around the responsible use of AI in 
 
 ## What is Copilot in Dynamics 365 Customer Service?
 
-Copilot is an AI-powered tool that transforms the agent experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help agents resolve issues faster, handle cases more efficiently, and automate time-consuming tasks. Then agents can focus on delivering high-quality service to their customers.
+Copilot is an AI-powered tool that transforms the customer service representative (service representative or representative) experience in Dynamics 365 Customer Service. It provides real-time AI powered assistance that will help representatives resolve issues faster, handle cases more efficiently, and automate time-consuming tasks, allowing them to focus on delivering high-quality service to their customers.
 
 ## What are the systems capabilities?
 
 Copilot provides the following main features:
 
-- **Ask a question**: Is the first tab that agents see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the agents’ questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
+- **Ask a question**: Is the first tab that service representatives see when they activate the Copilot help pane. It's a conversational interface with Copilot, which helps provide contextual responses to the representatives' questions. Copilot’s responses are based on both internal and external knowledge sources provided by your organization during setup.
 
-- **Write an email**: Is the second tab on the Copilot help pane helps agents quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
+- **Write an email**: Is the second tab on the Copilot help pane helps representatives quickly create email responses based on the context of the case, reducing the time users need to spend creating emails.
 
-- **Draft a chat response**: Enables agents to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
+- **Draft a chat response**: Enables representatives to create a response in a single click to the ongoing digital messaging conversation from knowledge sources configured by your organization.
 
-- **Summarize a case**: Copilot provides agents with a summary of a case right on the case form, so they can quickly catch up on the important details of a case.  
+- **Summarize a case**: Copilot provides representatives with a summary of a case right on the case form, so they can quickly catch up on the important details of a case.  
 
-- **Summarize a conversation**: Copilot provides agents with a summary of a conversation at key points throughout the customer journey such as virtual agent handoffs, transfers and on demand.
+- **Summarize a conversation**: Copilot provides representatives with a summary of a conversation at key points throughout the customer journey such as virtual representative handoffs, transfers and on demand.
 
-- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Agents can review and refine the draft by giving revision instructions to Copilot and then save it.
+- **Generate knowledge draft from case (preview)**: Copilot generates a knowledge article draft as a proposal that's based on information from the case. Representatives can review and refine the draft by giving revision instructions to Copilot and then save it.
+- **Summarize a custom record**: Copilot provides representatives with a summary of a record based on fields that the administrator configures for the custom table so that representatives can quickly catch up on the important details of a support record.
+
+- **Generate resolution notes**: Copilot provides representatives with a summary of case details, emails, and notes linked to the case on the **Ask a question** tab, so they can close the case or incident faster.
+
 
 ## What is the system’s intended use?
 
-Copilot in Customer Service is intended to help customer service representatives work more efficiently and effectively. Customer service representatives can use Copilot’s knowledge-based responses to save time from searching knowledge articles and drafting responses. Copilot summaries are designed to support agents in quickly ramping up on cases and conversations. Content generated by Copilot in Customer Service isn't intended to be used without human review or supervision.
+Copilot in Customer Service is intended to help customer service representatives work more efficiently and effectively. Customer service representatives can use Copilot’s knowledge-based responses to save time from searching knowledge articles and drafting responses. Copilot summaries are designed to support representatives in quickly ramping up on cases and conversations. Content generated by Copilot in Customer Service isn't intended to be used without human review or supervision.
 
-## How was Copilot in Customer Service evaluated? What metrics are used to measure performance?
+## How is Copilot in Customer Service evaluated? What metrics are used to measure performance?
 
-Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and agent-trust.
+Copilot in Customer Service has been evaluated against real world scenarios with customers around the world through each phase of its design, development, and release. Using a combination of research and business impact studies, we’ve evaluated various quantitative and qualitative metrics about Copilot, including its accuracy, usefulness, and representative-trust. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf). 
 
 ## What are the limitations of Copilot in Customer Service? How can users minimize the impact of Copilot limitations?  
 
 Copilot’s knowledge-based capabilities like ask a question, write an email, and draft a chat response, are dependent on high-quality and up-to-date knowledge articles for grounding. Without these knowledge articles, users are more likely to encounter Copilot responses that aren't factual.  
 
-To minimize the likelihood of seeing non-factual responses from Copilot, it’s important that the organizations employ robust knowledge management practices to ensure the business knowledge that connects to Copilot is of high-quality and up-to-date.
+To minimize the likelihood of seeing non-factual responses from Copilot, it’s important that Microsoft employs robust knowledge management practices to ensure the business knowledge that connects to Copilot is of high-quality and up-to-date.
 
 ## What operational factors and settings allow for effective and responsible use of the system?  
 
@@ -86,11 +90,11 @@ Instead, you can rephrase as –
 
 “The customer changed the firewall rules on their virtual machine. However, they can no longer connect using Secure Shell (SSH). Can you help?”
 
-By following the suggestions, agents can enhance their interactions with Copilot and increase the likelihood of receiving accurate and confident responses from it.
+By following the suggestions, representatives can enhance their interactions with Copilot and increase the likelihood of receiving accurate and confident responses from it.
 
 ### Summarizing or expanding a response
 
-Sometimes the response from Copilot can be longer than expected. This could be the case when the agent is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to “summarize the response” will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to “Provide more details” will result in a more detailed answer to your question. If the response is truncated, typing “continue” will display the remaining part of the response.
+Sometimes the response from Copilot can be longer than expected. This could be the case when the representative is in a live chat conversation with a customer and needs to send concise responses when compared with sending a response over email. In such cases, asking Copilot to “summarize the response” will result in a concise answer to the question.  Similarly, if there's a need for more detail, asking Copilot to “Provide more details” will result in a more detailed answer to your question. If the response is truncated, typing “continue” will display the remaining part of the response.
 
 ## How can I influence the responses generated by copilot? Can I fine tune the underlying LLM?
 
@@ -98,15 +102,103 @@ It's not possible to customize the large language model (LLM) directly.  Copilot
 
 ## What's the data security model for Copilot?
 
-Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, agents cannot view data that they do not have access to. Additionally, only data sources that the agent has access to are used for copilot response generation.
+Copilot enforces the role-based access (RBAC) controls defined and adheres to all the existing security constructs. Therefore, representatives can't view data that they don't have access to. Additionally, only data sources that the representative has access to are used for copilot response generation.
+
+## How does Copilot determine whether content is offensive or harmful?
+
+Copilot determines whether content is harmful through a severity rating system based on distinct categories of objectionable content. You can learn more at [Harm categories in Azure AI Content Safety](/azure/ai-services/content-safety/concepts/harm-categories?tabs=warning).
 
 ## Where does data processing and retrieval occur to generate copilot responses?  
 
-Copilot is not calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data is not shared and is not fed back into public models.
+Copilot isn't calling the public OpenAI service that powers ChatGPT. Copilot in Customer Service uses the [Microsoft Azure OpenAI Service](/azure/ai-services/openai/overview) in a Microsoft managed tenant. All data processing and retrieval occurs within Microsoft managed tenants. Additionally, customer’s data isn't shared and isn't fed back into public models.
 
 ### What are the language limitations for summaries that Copilot generates from cases and conversations?
 
-Many languages are supported in Copilot-generated summaries from cases and conversations. The quality of these summaries is expected to be the highest in English, while in the other languages, the quality is expected to improve over time.
+Many languages are supported in Copilot-generated summaries from cases and conversations. The quality of these summaries is expected to be the highest in English, while in the other languages, the quality is expected to improve over time. Learn about supported languages in [Language support for Copilot features](../administer/cs-region-availability-service-limits.md)
+
+## Is the model tested and monitored on an ongoing basis? If so, how frequently? What testing is performed?
+
+The model is tested for quality and harmful content, every time there's a change to the model interaction or version. Learn more in the Responsible AI Transparency Report.
+
+## How frequently is the model monitored to detect performance degradation?
+
+The generative AI GPT Model is hosted and managed by Azure OpenAI. The use of the model in customer service scenarios is bound by responsible AI practices and Deployment Safety Board checks. Any changes to model versions or underlying prompts are validated for quality and harmful content. Learn more in the [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
+
+## Does the product or service employ more than one model or a system of interdependent models?
+
+Different features in the system could be using different versions of Azure OpenAI Service models. Learn more in [Azure OpenAI Service models](/azure/ai-services/openai/concepts/models).
+
+## Does Copilot use a non-Microsoft model product or service, and is documentation for this model available?
+
+Copilot is built using Azure OpenAI, a fully managed AI service that integrates OpenAI with Microsoft-developed content filtering and abuse detection models. Learn more in [Transparency note for Azure OpenAI](/legal/cognitive-services/openai/transparency-note?context=%2Fazure%2Fai-services%2Fopenai%2Fcontext%2Fcontext&tabs=text).
+
+## Is there a set process to communicate any changes in models, upstream models or outputs that are used from other AI/ML or model solutions?
+
+Any planned changes to the Copilot features are communicated via public documentation. However changes with respect to model version or prompts, are governed by the internal responsible AI processes. These changes aren't communicated, as they're incremental and ongoing functional improvements.
+
+## Is user verbatim feedback available to Microsoft to improve the product?
+
+No.
+
+## Does Microsoft have policies and procedures that define and differentiate the various human roles and responsibilities when they interact with or monitor AI systems?
+
+Yes. In the responsible AI process, all stakeholders and users involved are considered, and their use or unintended use of the system is discussed. Based on the identified scenarios, required mitigations are brought in within the product or via documentation. Learn more in Responsible AI Transparency Report.
+
+## Does Microsoft identify and document approaches to engage, capture, and incorporate input from other end users and key stakeholders to assist with the continuous monitoring for potential impacts and emerging risks?
+
+Yes. Learn more in Responsible AI Transparency Report.
+
+## Does Microsoft document, practice, and measure incident response plans for AI system incidents including measuring response and down times?
+
+Yes. The responsible AI process requires that team have a incident response plan for AI issues, similar to what's done for functional issues. The feature teams continuously monitor the performance and reliability of the system. Learn more in Responsible AI Transparency Report.
+
+## Does Microsoft establish procedures to share information about error incidences and negative impacts with relevant stakeholders, operators, practitioners, users and affected parties?
+
+Yes. For high severity issues, feature teams must communicate the outage with the affected customers.
+
+## Does Microsoft measure and monitor system performance in real time to enable rapid response when an AI system incident is detected?
+
+Yes. The feature teams continuously monitor the performance and reliability of the system. 
+
+## Does Microsoft test the quality of systems explanations with end users and other stakeholders?
+
+Yes. Learn more in Responsible AI Transparency Report.
+
+## Does Microsoft have established policies and procedures for monitoring and addressing model system performance and trustworthiness, including bias and security problems across the lifecycle of the model, when evaluating AI systems for negative risks and benefits?
+
+Yes. Learn more in [Responsible AI Transparency Report](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/msc/documents/presentations/CSR/Responsible-AI-Transparency-Report-2024.pdf).
+
+## Does Microsoft conduct fairness assessments to manage computational and statistical forms of bias?
+
+Yes. Learn more in Responsible AI Transparency Report.
+
+## Does Microsoft monitor system outputs for performance or bias issues?
+
+Yes. Moderation filters are applied in multiple layers, including on output to make sure that there's no harmful content in the response. Learn more in Responsible AI Transparency Report.
+
+## What is the level of resiliency in the model's operation? For example, is there a disaster recovery and contingency plan for instances when the model is unavailable?
+
+Similar to all Azure services, backup and recovery are supported via multiple data centers for high availability.
+
+## Is the model dependent upon, embedded within third-party tools or solutions that makes it difficult to migrate the model to a different environment (including variables such as hosting provider, hardware, software systems) that would impede the model's explainability?
+
+No.
+
+## Is there an established model governance policy?
+
+Yes, there's an established governance policy supported by Azure OpenAI. Learn more in Responsible AI Transparency Report.
+
+## Are there established and documented protocols (authorization, duration, type) and access controls for training or production data sets containing PII in accordance with privacy and data governance policies?
+
+Currently, there's no model training, hence no requirement surrounding the data set. However when a customer service representative engages with Copilot, depending on the feature, context data (case or chat) is used to generate a response. 
+
+## Are PII disclosures and inference of sensitive or legally protected attributes monitored?
+
+Yes, privacy review is done for every feature.
+
+## Does Microsoft have a process to consider legal and regulatory issues and requirements specific to its industry, business purpose, and the application environment of the deployed AI systems?
+
+Yes. Legal review is done for every feature to help with regulatory requirements and other legal matters.
 
 ### Related information
 

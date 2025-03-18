@@ -1,11 +1,11 @@
 ---
 title: Configure the email experience in customer engagement apps 
 description: Learn how to configure the email experience in customer engagement apps.
-ms.date: 05/14/2024
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
-ms.reviewer: nenellim
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 The email configuration experience enables users to be more effective and efficient when using email to communicate with customers. This article discusses how to configure the email editor, email template builder, and email signature builder, which accepts the full configuration capability of the Rich Text Editor control.
 
 > [!NOTE]
-> If you're using the Activity Editor control, we recommend that you use the rich text editor control instead because the Activity Editor control has been deprecated. For details, see [Use the rich text editor control in Power Apps](/power-apps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
+> If you're using the Activity Editor control, we recommend that you use the rich text editor control instead because the Activity Editor control has been deprecated. Learn more in [Use the rich text editor control in Power Apps](/power-apps/maker/model-driven-apps/rich-text-editor-control#defaultsupportedprops). 
 
 Each instance of the email editor or builder can be configured independently, enabling you to:
 
@@ -59,7 +59,7 @@ Enabling the user configured settings to an email form consists of the following
 1. Make any changes you want, and then select **Save and publish**.
    > [!NOTE]
    >  - A code editor such as Visual Studio Code can provide a better editing experience.
-   >  - There are a variety of properties that can be modified and will apply to the email form when you configure it. For more information, see [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
+   >  - There are a variety of properties that can be modified and will apply to the email form when you configure it. Learn more in [Rich Text Editor Properties](/power-apps/maker/model-driven-apps/rich-text-editor-control#rich-text-editor-properties).
    >  - Ensure that the **disableDefaultImageProcessing** property is set to **True** for inline images added to the editor to load properly in the recipient's email.
 
 3.  Save the URL to the new web resource because you need it to map the new web resource file to the **Enhanced Email** form.
@@ -96,7 +96,7 @@ Enabling the user configured settings to an email form consists of the following
 
 ### Add the required permissions for related tables
 
- When agents have to create an email template based on a table, make sure that they have the required permissions to the related tables, such as **Account** table for the email template based on a case
+ When customer service representatives (service representatives or representatives) have to create an email template based on a table, make sure that they have the required permissions to the related tables, such as **Account** table for the email template based on a case
 
 ### Add the language filter in the email template selection view
 
@@ -117,7 +117,7 @@ To enable the language filter for the [enhanced email template selection](/power
 
 ## Customize the enhanced email template selection view
 
-The [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window displays the **Select Record dialog** and allows agents to toggle between email template views. To enable these features, complete the following steps.
+The [enhanced email template selection](/power-apps/user/insert-email-template#new-email-template-selection-window) window displays the **Select Record dialog** and allows service representatives to toggle between email template views. To enable these features, complete the following steps.
 
 1. Navigate to **Advanced Settings** > **Email Configuration**.
 1. Select **Email Configuration** > **Email Configuration Settings**.

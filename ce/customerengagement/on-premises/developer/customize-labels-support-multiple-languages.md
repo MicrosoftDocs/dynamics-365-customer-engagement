@@ -2,7 +2,6 @@
 title: "Customize labels to support multiple languages (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about customizing labels to support multiple languages."
 ms.custom: 
-ms.date: 08/05/2024
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

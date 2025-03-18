@@ -2,7 +2,6 @@
 title: "Supported email synchronization in Dynamics 365 Customer Engagement (on-premises)"
 description: This article explains which scenarios are supported by server-side synchronization.
 ms.custom: 
-ms.date: 05/19/2020
 ms.reviewer: 
 
 ms.suite: 

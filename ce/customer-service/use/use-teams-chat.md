@@ -1,10 +1,11 @@
 ---
 title: Use Teams chat 
 description: Learn how to use the Teams chat functionality. 
-ms.date: 07/01/2024
+ms.date: 01/21/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -20,14 +21,14 @@ ms.custom:
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As an agent, you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
+As a customer service representative (service representative or representative), you can chat in Microsoft Teams from within Customer Service Hub, Customer Service workspace, Contact Center workspace, and any custom app. While working on customer records, you can start a new chat or connect an existing chat to a record, and thus collaborate efficiently without switching context or leaving the application. Connecting all the associated chats to a record can help you maintain all the conversations related to the record in one place. 
 
 > [!NOTE]
-> This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. More information: [Configure Teams chat](../administer/configure-teams-chat.md)
+> This feature must first be enabled by an administrator, and you must have certain permissions to access Teams data. Learn more in [Configure Teams chat](../administer/configure-teams-chat.md)
 
-## Agent overview of key features for Teams chat
+## Representative overview of key features for Teams chat
 
-The following image displays the key features of the agent Teams chat experience.
+The following image displays the key features of the representative Teams chat experience.
 
  > [!div class="mx-imgBorder"] 
  > ![Agent view of the Microsoft Teams chat experience](../media/teams-chat-agent-overview.png "Agent view of the Microsoft Teams chat experience")
@@ -50,7 +51,7 @@ The following legend describes the numbered callouts in the above image.
 
 You can open any application record and select the **Teams chats and channels integration** icon. The **Teams chats** panel opens with the following sections in the **Chat** tab:  
 - Chats connected to the record: Lists Teams chats that either you’ve connected to the selected record or someone else has connected a chat with you as a participant. 
-- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. For more information, see [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
+- Suggested contacts: Lists suggested contacts depending on the users who are working on the record. Learn more in [Use suggested contacts to collaborate with the right coworkers](teams-use-suggested-contacts.md).  
 - Other chats/All recents: Lists your top 50 chat conversations on Teams. You can select any existing conversation and connect it to a record. 
 
 ## Start a new connected chat
@@ -70,7 +71,7 @@ If you're using Teams for the first time within Customer Service Hub, Customer S
        > - You can also access the chat pane from the home session in Customer Service workspace or Contact Center workspace. When using the chat pane from the home session, you'll see two sections: Chats connected to records and Other chats (if enabled by your administrator).
     
 2.	Use one of the following methods:<br>
-    a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. For more information, see step 3. <br><br>
+    a.	To start a new connected chat with a participant, select **New connected chat** in the **Chats connected to record** section. Type the name(s) of the participant(s) you want to chat with. You can start with just one collaborator and then progressively add more as needed (see step 6). Every new connected chat starts fresh, without bringing context from one-to-one chats or other chats you may have had with the participants. Therefore, it's important to name your chats appropriately to match the context of the record and conversation. Learn more in step 3. <br><br>
     b.	To start a connected chat with a suggested contact directly on the chat list, select the contact with whom you want to chat.<br> 
     
      > [!NOTE]
@@ -103,7 +104,7 @@ You can connect a chat to a single record or multiple records. For example, if y
     
 ### Understand how disconnected chat rights are assigned
 
-As an agent, you have the following three options for getting rights to disconnect chats, all of which your administrator controls.
+As a representative, you have the following three options for getting rights to disconnect chats, all of which your administrator controls.
 
 - You're the record owner, and your administrator enables this capability.
 - You're the most recent user to connect the chat to the record, and your administrator enables this capability.
@@ -113,7 +114,7 @@ If your administrator hasn't assigned any of the above rights to you or your rol
 
 ## Use suggested contacts
 
-The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team administrator or members who have logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. For more information, see [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
+The suggested contacts list displays users who are connected or have interacted with the record. Suggested contacts might include a team administrator or members who have logged an activity in the record timeline, and so forth. There are two different types of suggestions: AI-based and rules-based. Learn more in [Use suggested contacts to collaborate with the right coworkers](/dynamics365/customer-service/teams-use-suggested-contacts).
 
 ## Connect a Teams channel to a record
 
@@ -131,9 +132,9 @@ You can connect relevant Teams channels to a record, so that all the members can
 
 ## Join a chat
 
-As an agent, you can view and easily join chats that are connected to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this feature can be useful include:
+As a representative, you can view and easily join chats that are connected to a record you have write access to, even if you weren’t originally a participant in the chat. Some scenarios where this feature can be useful include:
 
-- **Case transfers**: If you’ve onboarded to a case that another agent previously handled, you can join the chat to better understand the context of the case, and then continue to collaborate with your relevant colleagues.
+- **Case transfers**: If you’ve onboarded to a case that another representative previously handled, you can join the chat to better understand the context of the case, and then continue to collaborate with your relevant colleagues.
 - **Case escalations**: If a case needs attention from someone with specific knowledge, the subject-matter expert who reviews it can participate in the relevant conversations.
 
  > [!NOTE]
@@ -171,7 +172,7 @@ If you're using the Microsoft Teams app, when joining a chat, the following mess
     
 ## View Teams chats in the timeline for a record (preview)
 
-As an agent, when you start a connected chat or connect an existing chat to a record, you can see the chat appear as a new activity in the timeline. The timeline entry shows details about who connected the chat and when they connected it. It also shows the last person to send a message in the chat, and when they sent it. If the Join chat setting is turned on in your organization, agents can also directly join the chat or be added as a chat participant and see the full exchange.
+As a representative, when you start a connected chat or connect an existing chat to a record, you can see the chat appear as a new activity in the timeline. The timeline entry shows details about who connected the chat and when they connected it. It also shows the last person to send a message in the chat, and when they sent it. If the Join chat setting is turned on in your organization, representatives can also directly join the chat or be added as a chat participant and see the full exchange.
 
  > [!NOTE]
  > Your administrator must enable this feature before you can use it.

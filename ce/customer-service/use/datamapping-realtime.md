@@ -3,7 +3,7 @@ title: Data model mapping for real-time analytics reports in Omnichannel for Cus
 description: Learn about data model mapping for real-time analytics reports.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
 ms.date: 07/05/2024
@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 This article describes the Data Analysis Expressions (DAX) logic for real-time metrics, which you can use to build your logic and create your own metrics. More information: [DAX function reference](/dax/dax-function-reference)
 
-For details on real-time metrics, go to [Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+Learn more about real-time metrics in [Use report metrics](oc-metrics-dimensions.md).
 
 ## FactConversation
 
@@ -359,7 +359,7 @@ SUMX (
 
             NOT RELATED ( DimAgentPresence[BasePresenceStatusId] ) == 192360004, 
 
-            FactAgentCapacityUnit[AvailableCapacityUntis], 
+            FactAgentCapacityUnit[AvailableCapacityUnits], 
 
             0 
 

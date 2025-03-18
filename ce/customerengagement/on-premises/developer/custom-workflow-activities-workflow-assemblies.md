@@ -2,7 +2,6 @@
 title: "Custom workflow activities (workflow assemblies) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about registration and execution of custom workflow activities in addition to the out-of-box activities provided by Windows Workflow Foundation. You can write custom workflow activities in Microsoft Visual C# or Visual Basic .NET code by creating an assembly that contains one or more classes derived from the Windows Workflow FoundationCodeActivity class."
 ms.custom: 
-ms.date: 06/12/2019
 ms.reviewer: pehecke
 
 ms.assetid: d4e6e932-61cd-42fd-a280-ef63bbad45f0

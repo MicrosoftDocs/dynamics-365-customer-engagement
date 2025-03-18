@@ -3,10 +3,10 @@ title: View and understand the Summary report in Omnichannel real-time analytics
 description: View and understand the Summary report in Omnichannel real-time analytics to analyze customer conversations, sentiment, and operational metrics.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/19/2023
+ms.date: 02/03/2025
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -24,13 +24,13 @@ search.audienceType:
 
 The **Summary** report appears by default when you open the **Omnichannel real-time analytics** dashboard in Customer Service workspace. You can filter this report by time, channels, queue, time zone, conversation status, and skills. For more information, go to [Overview of the real-time Omnichannel analytics dashboard](intro-realtime-analytics-dashboard.md).
 
-The **Summary** report provides a summary of customer conversations over time, by channel or queue. Statistics about the channel that a conversation came in through can help you analyze and manage queue distribution. For example, a high rate of abandoned conversations can lead to decreased customer satisfaction. To address the rate of abandoned conversations, you can examine operational metrics such as agent availability and queue distribution in real time.
+The **Summary** report provides a summary of customer conversations over time, by channel or queue. Statistics about the channel that a conversation came in through can help you analyze and manage queue distribution. For example, a high rate of abandoned conversations can lead to decreased customer satisfaction. To address the rate of abandoned conversations, you can examine operational metrics such as customer service representative (service representative or representative) availability and queue distribution in real time.
 
-Additionally, you can track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that agents are taking more than the required time to resolve customer issues. Depending on the issue, you can provide the required training or support to help agents resolve customer issues faster.
+Additionally, you can track customer sentiment to analyze whether customers are getting adequate support. For example, a high average handle time might indicate that service representatives are taking more than the required time to resolve customer issues. Depending on the issue, you can provide the required training or support to help service representatives resolve customer issues faster.
 
 By editing the visual display, you can add metrics to the ones that are already shown on the **Summary** report. For more information, go to [Customize visual display](customize-reports.md).
 
-[Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#)
 
 :::image type="content" source="../media/realtime_summary_page.png" alt-text="Screenshot of the real-time summary report":::
 
@@ -38,7 +38,7 @@ By editing the visual display, you can add metrics to the ones that are already 
 
 You can view different types of charts on the report, such as bar, horizontal bar, and donut charts. The visual display helps you discern changes and patterns in the data, so that you can act quickly to address the most important issues.
 
-When you select a component in a chart, the data is filtered accordingly. In this way, you can view only data that is related to the selected component. For example, if you select the **Busy** component in the **Agent availability status** chart, the dashboard is refreshed and shows only the agents who are currently in the **Busy** state.
+When you select a component in a chart, the data is filtered accordingly. In this way, you can view only data that is related to the selected component. For example, if you select the **Busy** component in the **Agent availability status** chart, the dashboard is refreshed and shows only the service representatives who are currently in the **Busy** state.
 
 ## Drill-down reports
 
@@ -50,7 +50,7 @@ To view conversation analytics, select the **Show more** link on the **Conversat
 
 ### Agent availability status drill-down report
 
-To view more details about agent analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by:
+To view more details about service representative analytics by queue, select the **Show more** link on the **Agent availability status** KPI. You can drill through agent analytics by:
 
 **Availability status**
 
@@ -59,11 +59,11 @@ To view more details about agent analytics by queue, select the **Show more** li
 **Capacity unit**
 :::image type="content" source="../media/realtime_summary_queue-drilldown_2.png" alt-text="Drilldown agent analytics through capacity unit":::
 
-These tabs will help you effectively manage agent activity in real time.
+These tabs will help you effectively manage service representative activity in real time.
 
 ### Related information
 
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>
