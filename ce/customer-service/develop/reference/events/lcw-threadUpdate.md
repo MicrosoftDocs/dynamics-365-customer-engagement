@@ -12,7 +12,7 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is raised by live chat when an agent ends a conversation.
+ Live chat triggers this event when an agent ends a conversation.
 
 Listen for the `lcw:threadUpdate` event, and call the [closeChat](../methods/closeChat.md) method to end the conversation from the client side. You can listen for this event by adding your own event listener on the window object.
 
