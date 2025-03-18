@@ -12,7 +12,7 @@ ms.assetid: 3948cc48-07c8-7f60-0608-71c37158ad7c
 ---
 # msdyn_channelprovider Entity Reference for Dynamics 365 Channel Integration Framework 2.0
 
-Entity that will hold the information (configuration) about a channel provider
+Entity that holds the information (configuration) about a channel provider
 
 **Added by**: Channel Integration Framework version 2.0 Solution
 
@@ -118,7 +118,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 |Property|Value|
 |--------|-----|
 |Description|CIF version|
-|DisplayName|Api Version|
+|DisplayName|API Version|
 |IsValidForForm|True|
 |IsValidForRead|True|
 |LogicalName|msdyn_apiversion|
@@ -167,7 +167,7 @@ These attributes return true for either **IsValidForCreate** or **IsValidForUpda
 
 |Property|Value|
 |--------|-----|
-|Description|This takes a text blob as input and Microsoft.CIFramework.getEnvironment will return this as value of the key customParams|
+|Description|This takes a text blob as input and Microsoft.CIFramework.getEnvironment returns this as value of the key customParams|
 |DisplayName|Custom Params|
 |Format|Text|
 |IsLocalizable|False|
