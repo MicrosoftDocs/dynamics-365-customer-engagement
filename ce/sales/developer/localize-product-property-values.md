@@ -2,7 +2,7 @@
 title: Localize product property values (Dynamics 365 Sales)
 description: Add, update, retrieve, query, and translate the localized values for product name attributes.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
