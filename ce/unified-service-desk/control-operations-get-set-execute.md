@@ -1,8 +1,8 @@
 ---
-title: "Control Operations (Get, Set, Execute) | MicrosoftDocs"
-description: "Understand the Get, Set, and Execute type of operations that can be performed on controls such as buttons, checkboxes, and menu items."
+title: Control Operations (Get, Set, Execute) 
+description: Understand the Get, Set, and Execute type of operations that can be performed on controls such as buttons, checkboxes, and menu items.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

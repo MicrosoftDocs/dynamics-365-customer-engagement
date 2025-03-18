@@ -1,8 +1,8 @@
 ---
-title: "UI Automation Inspector in Unified Service Desk | MicrosoftDocs"
-description: "Find information about the UI Automation Inspector and the logic used to generate bindings for the UIADDA."
+title: UI Automation Inspector in Unified Service Desk 
+description: Find information about the UI Automation Inspector and the logic used to generate bindings for the UIADDA.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
