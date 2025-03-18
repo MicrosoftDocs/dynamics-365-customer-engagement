@@ -58,7 +58,7 @@ In Customer Service admin center, perform the following steps:
 7. Select the checkbox in the **Agent experience data** section if you want the application to save the agent interactions in Dataverse. You can then use this information to build reports.
 
 > [!NOTE]
-> We recommend that you enable audit history and ensure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing]/power-platform/admin/manage-dataverse-auditing).
+> We recommend that you enable audit history and ensure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 
 ## Enable service representatives to use autonomous case management agents
 
