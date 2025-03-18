@@ -2,7 +2,7 @@
 title: Set default price level for opportunity, quote, order, and invoice (Dynamics 365 Sales)
 description: Automatically set a default price level (price list) for an opportunity, quote, order, or invoice based on the sales territory of the user who creates or updates that table.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang

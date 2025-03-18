@@ -3,7 +3,7 @@ title: Goal management tables (Dynamics 365 Sales)
 description: Learn about goal management tables in Dynamics 365 Sales with a selection of topics and tutorials.
 ms.custom: 
 ms.date: 01/30/2025
-ms.topic: article
+ms.topic: conceptual
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
