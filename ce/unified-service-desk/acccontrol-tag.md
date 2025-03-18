@@ -1,7 +1,7 @@
 ---
 title: AccControl tag 
 description: Learn about the AccControl tag that uses the IAccessible interface from Microsoft Active Accessibility.
-ms.date: 06/27/2024
+ms.date: 03/18/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
