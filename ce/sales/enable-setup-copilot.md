@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 12/18/2024
+ms.date: 03/18/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -83,7 +83,7 @@ You can train Copilot in Dynamics 365 Sales to understand your business terms. U
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 
-1. Select **Agents** > **Sales Copilot Power Virtual Agents Bot**.
+1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
 1. Select **SalesSpecificQnA** under **Knowledge** section.
 1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
    :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
