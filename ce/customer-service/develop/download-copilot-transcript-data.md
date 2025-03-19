@@ -357,9 +357,8 @@ You can download the interaction data as follows.
  > [!NOTE]
  > Suggest a response and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
 
-    :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
-
+:::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
 
 ### Related information
