@@ -185,7 +185,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
 1. Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. In our example, this value is a1584aaf-d5bd-357d-54a8-84dbdba547f9. 
 
-1. The following Web API request retrieves the transcript in the base64 encoded transcript.
+1. The following Web API request retrieves the encoded transcript in the base64/UTF-16LE format.
 
   ```http
     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Transcript:DataID>)/msdyn_transcriptdata
@@ -200,7 +200,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(a1584aaf-d5bd-357d-54a8-84dbdba547f9)/msdyn_transcriptdata
    ```
  
-4. Decode the base64 encoded data using UTF-16LE character set to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
+4. Decode the encoded data using a base 64 decoder with the UTF-16LE character set option to get the transcript. You can use an online decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
 
    ```json
 
@@ -269,7 +269,7 @@ The key attributes for the record are as follows.
 You can get the verbatim feedback provided by the agent as follows.
 
 1. [Get the required msdyn_copilotinteractiondata record ID value](#retrieve-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
-1. Run the following Web API request to retrieve the verbatim feedback in the base64 encoded format.
+1. Run the following Web API request to retrieve the verbatim feedback.
 
    ```http
  
@@ -356,12 +356,14 @@ You can download the interaction data as follows.
     ```
 
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
+ 
+ > [!NOTE]
+ > Suggest a response and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
 
     :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
 
-> [!NOTE]
-> Suggest a response and draft an email uses UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it. 
+
 
 ### Related information
 
