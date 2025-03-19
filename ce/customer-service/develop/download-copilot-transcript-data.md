@@ -27,7 +27,7 @@ When agents use Copilot, agent interactions with Copilot such as copying summari
 
 ## Retrieve conversation summary
 
-When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_copilotinsights`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the [`msdyn_conversationid`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_ConversationId) field. The summary text is stored in the [`msdyn_copilotsummary`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_copilotsummary) field.
+When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_conversationinsights`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the [`msdyn_conversationid`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_ConversationId) field. The summary text is stored in the [`msdyn_copilotsummary`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_copilotsummary) field.
 
 For example, after wrapping up a conversation with a customer, an agent uses Copilot to generate a conversation summary. The conversation summary is stored in the `msdyn_copilotinsights` table with the following values.
 
@@ -39,7 +39,7 @@ For example, after wrapping up a conversation with a customer, an agent uses Cop
 You can retrieve the conversation summary as follows:
 
 1. Identify the conversation's unique conversation ID in `msdyn_conversationid` from the `msdyn_copilotinsights` table. In our example, this value is 70b76ab52-120b-49e6-9dce-53f235125a01.
-1. Filter the msdyn_conversationinsights table with the required conversation ID to get the summary. Use the following Web API request to filter the data by conversation ID.
+1. Filter the `msdyn_conversationinsights` table with the required conversation ID to get the summary. Use the following Web API request to filter the data by conversation ID.
 
    ```http
  
@@ -221,7 +221,7 @@ You can get the verbatim feedback provided by the agent as follows.
    ```json
 
      {
-     "@odata.context": "https://ocrealtimeperftest001.crm.dynamics.com/api/data/v9.1/$metadata#msdyn_copilotinteractiondatas/$entity",
+     "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#msdyn_copilotinteractiondatas/$entity",
      "@odata.etag": "W/\"29538313\"",
      "_owningbusinessunit_value": "0e9ec0a2-eb6a-ed11-9561-000d3a336228",
      "statecode": 0,
@@ -308,7 +308,7 @@ The interactions are displayed in the response as follows.
   ```json
   
 {
-  "@odata.context": "https://copilotchatorg260224.crm10.dynamics.com/api/data/v9.1/$metadata#msdyn_copilotinteractions",
+  "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#msdyn_copilotinteractions",
   "value": [
     {
       "_createdby_value": "78866530-afd0-ee11-904d-6045bdff74d5",
