@@ -269,7 +269,7 @@ The key attributes for the record are as follows.
 
 You can get the verbatim feedback provided by the agent as follows.
 
-1. [Get the required`msdyn_interactiondataid` value](#retrieve-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
+1. [Get the required msdyn_copilotinteractiondata record ID value](#retrieve-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
 1. Run the following Web API request to retrieve the verbatim feedback in the base64 encoded format.
 
    ```http
