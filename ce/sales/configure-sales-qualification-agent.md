@@ -22,7 +22,7 @@ ai-usage: ai-assisted
 
 # Enable and configure Sales Qualification Agent
 
-Enable and configure the Sales Qualification Agent in Dynamics 365 Sales to help sellers leverage AI for lead research, prioritization, and engagement. 
+Enable and configure the Sales Qualification Agent in Dynamics 365 Sales to help sellers leverage AI for lead research, prioritization, and engagement.
 
 Configure the details about your company and products you sell, your ideal customer profile, hand-raiser criteria, and other settings to align the agent with your company's sales strategy and goals.
 
