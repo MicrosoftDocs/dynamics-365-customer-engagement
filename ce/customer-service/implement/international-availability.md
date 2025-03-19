@@ -1,7 +1,7 @@
 ---
 title: International availability of Omnichannel for Customer Service
 description: Discover which geographic locations and languages are supported by Omnichannel for Customer Service.
-ms.date: 08/12/2024
+ms.date: 03/17/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,7 @@ ms.custom:
 The purpose of this document is to provide information about the geographic location and language availability of live chat and digital messaging channels.
 
 > [!NOTE]
-> For information about the supported regions and languages in the voice channel, see [Supported cloud locations, languages, and locale codes](../administer/voice-channel-region-availability.md).
+> Learn more about the supported regions and languages in the voice channel in [Supported cloud locations, languages, and locale codes](../administer/voice-channel-region-availability.md).
 
 ## Geographic location availability
 

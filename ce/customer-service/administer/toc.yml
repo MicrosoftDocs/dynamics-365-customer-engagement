@@ -444,6 +444,8 @@
         href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure multilingual IVR bots
         href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure fallback actions for the IVR agent
+        href: /dynamics365/contact-center/administer/configure-fallback-actions-ivr-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Block spam numbers
@@ -460,12 +462,6 @@
         href: set-up-multilingual-pva-bot.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate Nuance Cloud IVR bot
-        items:
-        - name: Introduction to Nuance Cloud IVR agent integration
-          href: oc-nuance-overview.md
-        - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-          href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md
       - name: Pricing scenarios for voice calling
@@ -712,6 +708,8 @@
           href: enable-realtime-analytics-dashboard-administrator.md
         - name: Manage access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
+      - name: Manage real-time analytics for record routing dashboards
+        href: enable-record-routing.md
       - name: Enable supervisor access to manage conversations
         href: enable-monitor-assign-transfer-conv.md
       - name: Manage historical analytics dashboards

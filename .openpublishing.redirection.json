@@ -1231,6 +1231,11 @@
       "redirect_document_id": "false"
     },
     {
+      "source_path": "ce/sales/work-with-views.md",
+      "redirect_url": "/power-apps/user/grid-filters",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/sales/developer/entities/account.md",
       "redirect_url": "/dynamics365/developer/reference/entities/account",
       "redirect_document_id": "false"
@@ -2449,6 +2454,16 @@
       "redirect_url": "/dynamics365/customer-service/administer/configure-customer-service-analytics-insights-csh",
       "redirect_document_id": false
     },
+    {
+      "source_path": "ce/customer-service/administer/oc-nuance-overview.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/oc-nuance-setup.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
+      "redirect_document_id": false
+    },    
     {
       "source_path": "ce/customer-service/compliance-certifications.md",
       "redirect_url": "/dynamics365/customer-service/implement/compliance-certifications",

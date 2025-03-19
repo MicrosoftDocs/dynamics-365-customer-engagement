@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 03/03/2025
+ms.date: 03/05/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -36,6 +36,15 @@ The success of social media customer service, like all other customer service, d
 
 - **Template messages:** Are the outbound messages that service representatives send through Twilio using one of the preapproved templates? They're typically transactional messages, such as delivery alerts and appointment reminders, sent to users who have opted in to receive messages from your organization. For messages requiring localization, you must get the message approved by WhatsApp in each language. Learn more about WhatsApp message templates in [WhatsApp documentation](https://developers.facebook.com/docs/whatsapp/message-templates/).
 
+> [!IMPORTANT]
+> On April 1, 2025, the WhatsApp **Template Console Tab** and **Templates API** will be deprecated. To create new WhatsApp templates, you must use the [Twilio Content Template Builder](https://go.microsoft.com/fwlink/?linkid=2306633).
+>
+> Before April 1, 2025, we recommend that you complete the following actions to avoid service disruptions:
+> - Migrate your existing WhatsApp templates to the [Content Template Builder in Twilio](https://go.microsoft.com/fwlink/?linkid=2306633).
+> - In either the Dynamics 365 Contact Center or Customer Service admin center app, update your [WhatsApp message templates](configure-whatsapp-channel.md#configure-whatsapp-message-templates) to use **Content Template SID** instead of **Template Name**.
+>
+> Currently, each content template set can have one language only. If you want to use the same template in multiple languages, you must create a separate content template for each language. Learn more in [Create a content template](https://www.twilio.com/docs/content/create-templates-with-the-content-template-builder).
+
 - **Session messages:** According to WhatsApp, session messages are incoming messages from a customer or outgoing replies by a representative to the incoming messages, within 24 hours. A messaging session starts when representatives receive a message from a customer. It lasts for 24 hours from the most recently received message. Session messages don't need to follow a template, and can include media attachments.
 
 - **24 hours session rule:** A messaging session starts when a representative receives a message from a customer or replies to the incoming message from the customer. When the customer sends a message, the representative has 24 hours to reply from the time it was received. However, after 24 hours, the representative can send a message to customer only by using a predefined and approved template.
@@ -55,9 +64,9 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 ## Create a WhatsApp channel
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page displays.
     
-1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page appears.
+1. Select **Manage** for **Messaging accounts**. The **Accounts and channels** page displays.
    
 1. Select **New account**.
 
@@ -69,7 +78,7 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
       - **Account SID:** Specify the value from your Twilio account.
       - **Authentication token:** Specify the value from your Twilio account.
  
-    3. On the **WhatsApp numbers** page, select **Add**, and on the page that appears, enter the following information:
+    3. On the **WhatsApp numbers** page, select **Add**, and on the page that displays, enter the following information:
       - **Name:** Specify a name.
       - **Number:** Specify the WhatsApp phone number by prefixing the plus (+) symbol.
     
@@ -116,7 +125,7 @@ Perform the following steps:
 1. For the selected workstream for WhatsApp, edit the WhatsApp account.
 2. On the **Behaviors** tab, in **WhatsApp message templates**, select **Add**.
 3. On the **Add message template** dialog box, do the following:
-   - **Name:** Specify a name for the template.
+   - **Content template SID:** Specify a content template SID.
    - **Default language:** Select the language from the list.
    - **WhatsApp approved text:** Copy and paste the approved text from the template that you created in WhatsApp.
 4. Select **Save**.

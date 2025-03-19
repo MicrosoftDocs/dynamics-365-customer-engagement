@@ -1,8 +1,8 @@
 ---
-title: "lcw:startChat | MicrosoftDocs"
-description: lcw startChat event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
-ms.date: 11/10/2021
+title: lcw:startChat 
+description: lcw startChat event (Omnichannel for Customer Service JavaScript API reference).
+ms.topic: reference
+ms.date: 03/18/2025
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

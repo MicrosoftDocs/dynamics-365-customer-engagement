@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection:
-ms.date: 01/24/2024
+ms.date: 03/12/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -49,6 +49,9 @@ In Customer Service admin center, **Customer support** > **Overview** > **Case s
    - Ready for Power Automate / workflow
    - Failed
    - Skipped
+
+> [!NOTE]
+> To reprocess queue items that didn't succeed, go to **All Activities**. Select the activity you want to run, select **Add To Queue**, and then specify the queue that you want to add the selected record to.
 
 ## Related information
 
