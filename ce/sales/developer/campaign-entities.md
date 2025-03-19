@@ -2,7 +2,7 @@
 title: Campaign tables (Dynamics 365 Sales)
 description: Learn about creating campaign activites, use the marketing lists to distribute the campaign activites, and analyze campaign responses to the campaign activities.
 ms.date: 06/28/2024
-ms.topic: article
+ms.topic: conceptual
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang

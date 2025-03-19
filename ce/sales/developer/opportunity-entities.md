@@ -2,7 +2,7 @@
 title: Opportunity tables (Dynamics 365 Sales)
 description: Learn about opportunity entities that help you to create a new opportunity to monitor or convert a lead to an opportunity. The entities that can be associated with an opportunity to provide information about the sales engagement are activities, notes and attachments, competitors, quotes, orders, and sales literature. 
 ms.date: 01/30/2025
-ms.topic: article
+ms.topic: conceptual
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang

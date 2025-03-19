@@ -2455,6 +2455,16 @@
       "redirect_document_id": false
     },
     {
+      "source_path": "ce/customer-service/administer/oc-nuance-overview.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/oc-nuance-setup.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
+      "redirect_document_id": false
+    },    
+    {
       "source_path": "ce/customer-service/compliance-certifications.md",
       "redirect_url": "/dynamics365/customer-service/implement/compliance-certifications",
       "redirect_document_id": false

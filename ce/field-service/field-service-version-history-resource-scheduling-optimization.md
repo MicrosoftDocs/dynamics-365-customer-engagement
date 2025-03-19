@@ -1,7 +1,7 @@
 ---
 title: Resource Scheduling Optimization version history
 description: Version updates and updated features in the Resource Scheduling Optimization Add-in for Dynamics 365 Field Service.
-ms.date: 09/30/2024
+ms.date: 03/14/2025
 ms.subservice: resource-scheduling-optimization
 ms.topic: overview
 author: DaPisani
@@ -27,9 +27,6 @@ For information about older versions, see [Version history archive](version-hist
 | | *India* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
 | | *France* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
 | | *United Arab Emirates* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *South Africa* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *Germany* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)  | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
-| | *Switzerland* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)  | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
 |**Station 3** | |  |  | |
 | | *Japan* |  [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917)| [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
 | | *Asia Pacific* | [3.4.0.917](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#340917) | [3.4.0.1040](/dynamics365/field-service/field-service-version-history-resource-scheduling-optimization#3401040) | 06/02/2024
