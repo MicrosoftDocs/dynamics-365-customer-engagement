@@ -23,7 +23,7 @@ searchScope:
 
 Use assignment methods to determine how to assign work items. You can use the out-of-the-box assignment methods or build custom assignment rules by configuring the prioritization rules and assignment rulesets.
 
-## How auto assignment works
+## How automated assignment works
 
 The auto assignment process in unified routing matches incoming work items with the best-suited customer service representatives (service representative or representative) based on the configured assignment rules. This continuous process consists of multiple assignment cycles and a default block size of work items.
 
@@ -199,7 +199,7 @@ The assignment rules are composed of the following items:
       |Capacity|Equals, Does not equal, Contains data, Does not contain data|Use an operator to compare if the representative has enough capacity to work on the specified items. The system implicitly performs capacity profile check in custom assignment but for unit-based capacity, you need to specify the conditions.|
       |User skills|Exact match|Use an operator to find representatives who have all the skills which the incoming work item requires.|
       |User skills|Custom match|Use the operator to find representatives whose skills match at runtime based on the selected lookup attribute on the work item.|
-      |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. Unified routing considers the representative calendar schedule only.|
+      |Calendar schedule|Is working|Use this operator to find representatives who are working as per their service scheduling calendars. The automated assignment method considers the representative calendar schedule only and doesn't consider the operating hours defined for the queues.|
   
   - **Value**: The user attributes are compared against this value to find the right representative. The value can be static, such as Address 1: County equals "USA". The value can also be dynamic, so that you can compare the user attribute dynamically with the values on the work item. In dynamic values, you can select any attribute on the work item or related records. For example, the following condition finds users whose country is the same as that of the customer associated with the case.
   
