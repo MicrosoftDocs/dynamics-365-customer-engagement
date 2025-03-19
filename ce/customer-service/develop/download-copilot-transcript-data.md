@@ -93,6 +93,8 @@ The key attributes from the record are as follows.
 | msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |
 
 
+### Sample response
+
 The following response indicates a scenario where an agent asks the Copilot a question, and then selects the thumbs down button to provide feedback. The `msdyn_scenariorequestid`, `msdyn_scenariotype` is the same for both the interactions. The `msdyn_interactiontype` values for the interactions are set to 10023035 and 1002302, which correspond to Generated and Thumbs down.
 
 
