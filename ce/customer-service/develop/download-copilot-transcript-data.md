@@ -180,8 +180,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
    | msdyn_scenariotype            |     Ask a question                                  |
    |msdyn_interactiontypename                    | Generated                                       |
    | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
-   | msdyn_interactioncontext      | ```json
-  {\"OcSessionId\":\"28dea393-c175-4788-9494-07fd42ee0884\",\"ResponseStatusCode\":20000,\"Plugins\":{\"IsContentRedacted\":false},\"Transcript\":{\"Id\":\"8d1d70e6-3297-644a-4e86-00d8973223a0\",\"DataId\":\"a1584aaf-d5bd-357d-54a8-84dbdba547f9\"},\"Filters\":{\"AgentContextFilters\":[],\"AutomatedFilters\":[]},\"Streaming\":{\"State\":\"GENERATED\"},\"ResponseSource\":{\"category\":\"KnowledgeSearch\",\"subCategory\":\"KnowledgeSearch\"},\"IsAutoPrompt\":true,\"AutoPromptTrigger\":\"follow-up-prompt\",\"IsAutoExpanded\":false,\"IsSuggestedPrompt\":false,\"IsEmbed\":false,\"IsStandalone\":false}``` |
+   | msdyn_interactioncontext      | `{\"OcSessionId\":\"28dea393-c175-4788-9494-07fd42ee0884\",\"ResponseStatusCode\":20000,\"Plugins\":{\"IsContentRedacted\":false},\"Transcript\":{\"Id\":\"8d1d70e6-3297-644a-4e86-00d8973223a0\",\"DataId\":\"a1584aaf-d5bd-357d-54a8-84dbdba547f9\"},\"Filters\":{\"AgentContextFilters\":[],\"AutomatedFilters\":[]},\"Streaming\":{\"State\":\"GENERATED\"},\"ResponseSource\":{\"category\":\"KnowledgeSearch\",\"subCategory\":\"KnowledgeSearch\"},\"IsAutoPrompt\":true,\"AutoPromptTrigger\":\"follow-up-prompt\",\"IsAutoExpanded\":false,\"IsSuggestedPrompt\":false,\"IsEmbed\":false,\"IsStandalone\":false}` |
  
 
 1. Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. In our example, this value is a1584aaf-d5bd-357d-54a8-84dbdba547f9. 
