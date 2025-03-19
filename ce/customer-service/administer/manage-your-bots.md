@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/03/2025
+ms.date: 03/19/2025
 ms.custom: bap-template
 ---
 
@@ -32,7 +32,7 @@ When you add an agent by using the steps outlined in this section, the agent in 
 > [!NOTE]
 > Agents that you create in Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
-1. In admin center, select **Bots** under **Customer support**.
+1. In Contact Center admin center or Customer Service admin center, select **Bots** under **Customer support**.
 1. On the **Bots** page, select **Add**, and on the **Add a bot** page, select **Create new bot**, and then select **Next**.
 1. On the **Create a basic bot** page, enter a name for your agent and select the primary language that it must use, and then select **Create**. The agent is created and listed on the **Bots** page. 
 1. Optionally, you can also add an existing agent if it's already created in Copilot Studio. The **Connect existing bot** option lets you connect the agent. The agent is connected after a few minutes and listed on the **Bots** page. The voice-enabled agent that you connected works with the enhanced voice workstream only.
