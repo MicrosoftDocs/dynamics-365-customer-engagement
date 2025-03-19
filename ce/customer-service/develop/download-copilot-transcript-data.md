@@ -149,7 +149,7 @@ The key attributes from the record are as follows.
 
    | Attribute                     | Definition                                                                                                                                                                                                 
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| msdyn_copilotinteractionid    |                                                                                                                                                                                                            | F0970641-C1E7-EE11-904C-000D3A3BB867            |
+| msdyn_copilotinteractionid    |       Unique identifier for entity instances                                                                                                                                                                                                     | 
 | msdyn_scenariorequestid       | Groups multiple related Copilot interactions. <br> For example: an agent asks Copilot a question and then marks the response received with thumbs up. These are considered as two interactions, but are part of the same scenario. | 
 | msdyn_scenariotype            |  Refers to the feature used by agent.                                                                                                                                             | 
 | msdyn_interactiontypename     | Refers to the specific agent interaction with Copilot.                                                                                                                                    | 
@@ -177,18 +177,13 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
 
    | Attribute                     |  Value for our scenario                          |
-|-------------------------------|-------------------------------------------------|
-| msdyn_copilotinteractionid    |                                                                                                                                                                                                             F0970641-C1E7-EE11-904C-000D3A3BB867            |
-| msdyn_scenariorequestid       | 93893746-e203-e9b6-18b9-887d68d18daf            |
-| msdyn_scenariotype            |     Ask a question                                  |
-| msdyn_interactiontypename                                                                                                                                | Generated                                       |
-| msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
-| msdyn_interactioncontext      |     |
-| msdyn_interactiondataid       |      |
-
-
-   Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. Here's a sample JSON context.
-
+   |-------------------------------|-------------------------------------------------|
+   | msdyn_copilotinteractionid    |                                                                                                                                                                                                             F0970641-C1E7-EE11-904C-000D3A3BB867            |
+  | msdyn_scenariorequestid       | 93893746-e203-e9b6-18b9-887d68d18daf            |
+  | msdyn_scenariotype            |     Ask a question                                  |
+  | msdyn_interactiontypename                                                                                                                                | Generated                                       |
+  | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
+  | msdyn_interactioncontext      |   
      ```json
   
           { 
@@ -208,18 +203,21 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
          } 
        }
 
-     ```
+     ```  |
 
-   In our example, this value is 0a7a438f-c2a5-58d7-e03d-c932812b3095. 
 
-3. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
-   ```http
+1. Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. In our example, this value is 0a7a438f-c2a5-58d7-e03d-c932812b3095. 
+
+1. The following Web API request retrieves the transcript in the base64 encoded transcript.
+
+  ```http
     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Transcript:DataID>)/msdyn_transcriptdata
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
    ```
+  
    In our example, the Web API request is as follows.
 
    ```http
@@ -316,7 +314,6 @@ You can get the verbatim feedback provided by the agent as follows.
    ```json
 
      {
-     "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#msdyn_copilotinteractiondatas/$entity",
      "@odata.etag": "W/\"29538313\"",
      "_owningbusinessunit_value": "0e9ec0a2-eb6a-ed11-9561-000d3a336228",
      "statecode": 0,
@@ -349,7 +346,7 @@ You can get the verbatim feedback provided by the agent as follows.
 
 Except ask-a-question transcripts, for all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, an interaction can be an agent using Copilot to generate an email and a case summary. The key attributes for our example are as follows in the `msdyn_copilotinteraction` table .
+For example, an interaction can be an agent using Copilot to generate an email or a case summary. The key attributes for our example are as follows in the `msdyn_copilotinteraction` table .
 
 | Attribute                     | Value for our scenario                          |
 |-------------------------------|-------------------------------------------------|
