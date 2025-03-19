@@ -93,7 +93,7 @@ Complex rules and conditions in prioritization rulesets add latency to the prior
 
 ### Manage auto-assignment if work items have extended wait times
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited service representatives based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
+The auto-assignment process in unified routing matches incoming work items with the best-suited service representatives based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How automated assignment works](assignment-methods.md#how-automated-assignment-works).
 
 If you have a scenario in which representatives aren't available to be assigned the work items for an extended time, we recommend the following options:
 
