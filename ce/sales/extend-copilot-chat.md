@@ -1,7 +1,7 @@
 ---
 title: Customize Copilot in Dynamics 365 Sales (preview)
 description: Learn how to extend Copilot in Dynamics 365 Sales to customize the welcome message, add prompts, and the prompt guide.
-ms.date: 02/17/2025
+ms.date: 03/18/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -42,7 +42,7 @@ Use a solution to manage your customizations so that you can easily deploy them 
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. Select your Dynamics 365 environment and then select **Agents**.
-1. Select **Sales Copilot Power Virtual Agent Bot** to customize Copilot in Dynamics 365 Sales.
+1. Select **Copilot in Dynamics 365 Sales** to customize Copilot in Dynamics 365 Sales.
 1. Customize the following aspects of Copilot chat experience:
 
     - [Add a new topic to Copilot chat](/power-apps/maker/model-driven-apps/customize-copilot-chat#add-new-topic-to-copilot-chat).
@@ -50,16 +50,6 @@ Use a solution to manage your customizations so that you can easily deploy them 
     
   > [!NOTE]
   > The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
-
-## Watch videos
-
-Watch these videos to learn more about customizing Copilot in Dynamics 365 Sales:
-
-[Extending Copilot in Sales Part 1](https://www.youtube.com/watch?v=638gZ8yLCIc&t=1s)  
-[Extending Copilot in Sales Part 2](https://www.youtube.com/watch?v=4u9h0OBFOiA&t=7s)  
-[Extending Copilot in Sales Part 3](https://www.youtube.com/watch?v=gTaQaZ8XxJk&t=1s)   
-[Extending Copilot in Sales Part 4](https://www.youtube.com/watch?v=PxUP8NLbtEY) 
-
 
 ## Related information
 
