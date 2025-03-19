@@ -26,27 +26,21 @@ The Sales qualification agent is an AI agent that automates manual jobs in the s
 
 - Research leads
 - Determine lead fit with the sales team's ideal customer profile
-- Prioritize the highest value leads along with the next best action
-- Generate personalized outreach emails for each lead
 
 ## How is the Sales qualification agent intended to be used?
 
 The Sales qualification agent is designed to help sellers automate manual tasks so that sellers can invest more time in 1 on 1 interactions with top leads. Rather than act on behalf of sellers, the agent proactively finds and surfaces top leads along with actions that sellers can quickly review and approve. Here are some key use cases for copilot agents:
 
 - **Configuration**: The agent can be configured to work only for a specific "team" of sellers (i.e., sellers who are part of security roles defined by the admin in settings) that sell specific products or services and target a particular ideal customer profile.
-- **Prioritization and next best action**: Sellers get a prioritized list of top leads along with the next best action to take – send an email, schedule a meeting, or create a task.
 - **Research**: For each lead, sellers can access the **Lead insights** page that synthesizes insights about a lead and their company from data in Dataverse and the public web.
 - **Ideal customer profile match**: Sellers get an evaluation for why a lead matches or doesn't match their ideal customer profile.
-- **Outreach**: Sellers get an outreach email draft that is personalized for each lead.
 
 ## How was the Sales qualification agent evaluated? What metrics are used to measure performance?
 
 The Sales qualification agent was carefully evaluated for each use case using curated datasets and quality metrics:
 
-- **Prioritization and next best action**: The prioritization of action cards in the copilot carousel leverages the prioritization ranking of the lead qualification agent to show a stacked list of cards. For the supported next best action scenario, the agent monitors the ongoing customer and seller conversation to identify any potential action items that the seller should take and creates an action card for the same with relevant insight defining the reason behind the suggested action.
 - **Research**: The agent does public web research on companies, so we used a dataset covering different types of companies (public, private, start-up, non-profit, etc.) across different industries. We evaluated the research based on a set of 15 criteria, and iterated until we met a threshold score of passing criteria.
 - **Ideal customer profile match**: Generated a diverse range of synthetic leads with varying amounts of data available to evaluate if the output of the agent matched the expected output. Iterated until an accuracy threshold was surpassed.
-- **Outreach**: Generated personalized emails based on synthetic leads with varying amounts of data and evaluated email quality based on 3 sets of criteria: (a) binary for pass/fail criteria (e.g., is the email 1200 characters or less?), (b) evaluative for somewhat subjective criteria (e.g., does the intro include a reference to recent account news?), and (c) comparative for highly subjective criteria (e.g., does the subject use an interesting hook, based on similarity to an example email?). Iterated until pass rate (for a and b) and similarity score (for c) were met.
 
 ## What are the limitations of the Sales qualification agent? How can users minimize the impact of these limitations?
 
@@ -73,7 +67,7 @@ There's no limit to the number of leads that can be processed ad hoc.
 The Sales qualification agent has a configuration experience that allows an admin to personalize the agent to work for their specific sales team:
 
 - Select which sellers should have access to the agent by selecting security roles for the agent. Any sellers who have the selected security roles will have access to the agent, and it follows that any leads owned by these sellers will get processed by the agent.
-- Clearly define the products and value proposition of the products and/or services that your sellers sell. This will help the agent better determine ideal customer profile fit and better personalize outreach emails.
+- Clearly define the products and value proposition of the products and/or services that your sellers sell. This will help the agent better determine ideal customer profile fit.
 - Define the ideal customer profile attributes that the agent should look for based on your sales team's target customer and the data you have available in Dataverse.
 - The agent primarily operates on data that resides in Dataverse – the more information available about a lead, the better your outputs will be.
 

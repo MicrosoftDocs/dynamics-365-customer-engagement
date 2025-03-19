@@ -22,9 +22,8 @@ ai-usage: ai-assisted
 
 # Enable and configure Sales Qualification Agent
 
-Enable and configure the Sales Qualification Agent in Dynamics 365 Sales to help sellers leverage AI for lead research, prioritization, and engagement.
-
-Configure the details about your company and products you sell, your ideal customer profile, hand-raiser criteria, and other settings to align the agent with your company's sales strategy and goals.
+Enable and configure the Sales Qualification Agent in Dynamics 365 Sales to help sellers leverage AI for lead research and qualification. 
+Configure the details about your company and products you sell, your ideal customer profile, and other settings to align the agent with your company's sales strategy and goals.
 
 ## Prerequisites
 
@@ -61,9 +60,9 @@ Grant **User** level permissions for read, write, create, append, append to, and
 
    | Field | Input |
    |-------------------------|-------------------------|
-   | Team access | Select the security roles that need access to the agent, including the system administrator role. Typically, this includes sales roles responsible for lead qualification and engagement. Sellers can only see the leads that they own in the prioritized list. If you're selecting a custom role, ensure that [necessary permissions](#grant-permissions) are provided before adding it to the Team access list. |
-   | Company information | Enter your company's name and website URL. The agent uses this information to tailor its research and generate personalized emails. |
-   | Products your team sells | Describe the products or services you sell in natural language. This helps the agent understand your offerings, generate lead qualification suggestions, and outreach emails. Example product description: "We offer a cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics." |
+   | Team access | Select the security roles that need access to the agent, including the system administrator role. Typically, this includes sales roles responsible for lead qualification. If you're selecting a custom role, ensure that [necessary permissions](#grant-permissions) are provided before adding it to the Team access list. |
+   | Company information | Enter your company's name and website URL. The agent uses this information to tailor its research. |
+   | Products your team sells | Describe the products or services you sell in natural language. This helps the agent understand your offerings and generate lead qualification suggestions. Example product description: "We offer a cloud-based CRM solution that helps businesses streamline sales processes, improve customer relationships, and drive revenue growth. Our platform includes features such as lead management, opportunity tracking, email integration, and analytics." |
 
 1. In the **Research** section, define your **Ideal customer profile** (ICP) to help the agent prioritize leads that match your target audience.
 
@@ -74,13 +73,6 @@ Grant **User** level permissions for read, write, create, append, append to, and
    | Other suggested criteria to include | (Optional) Select additional criteria that you want the agent to consider and map them to the corresponding fields in Dataverse. |
 
    :::image type="content" source="media/sqa-ideal-customer-profile.png" alt-text="Screenshot of the ideal customer profile configuration.":::
-
-1. (Optional) Under **Prioritization criteria**, define the hand-raiser criteria that indicate a lead's interest in your product or service.
-
-   1. Under **Identify hand-raisers as priority**, select the segment to identify hand-raisers. If you don't see a relevant segment, [create one](wa-create-and-activate-a-segment.md). Leads that meet the hand-raiser criteria are prioritized over the others. For example, if you want to prioritize leads that have come through your marketing campaign, create a segment for filtering leads by lead source.
-   1. Scroll down to review the prioritization order.
-
-   :::image type="content" source="media/sqa-prioritization.png" alt-text="Screenshot of the prioritization order.":::
 
 1. Review all the settings to ensure that they align with your company's sales strategy and goals. You can always update the settings later.
 1. Select **Publish** to publish and activate the agent.
