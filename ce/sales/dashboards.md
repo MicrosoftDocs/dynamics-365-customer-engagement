@@ -45,6 +45,8 @@ Use Sales Activity dashboard dashboard to track your sales targets and performan
 
 Use the Sales Activity Social Dashboard to stay on top of your customer communications and take action on your top opportunities and accounts. This dashboard provides a snapshot of your sales pipeline, notifications about customer followups from assistant, and your activities. You can see a visual representation of your sales pipeline, top opportunities, notifications about customer communications, leads by source, your top accounts, and your activities. Learn more about [assistant notifications](use-assistant-guide-customer-communications.md).
 
+:::image type="content" source="media/sales-activity-social-dashboard.png" alt-text="Screenshot of Sales Activity Social dashboard.":::
+
 ### Sales Dashboard
 
 Use the Sales Dashboard to manage your daily activities efficiently and access your sales data quickly. This dashboard provides a list of activities assigned to you, open opportunities and leads, active accounts, and your sales pipeline. 
