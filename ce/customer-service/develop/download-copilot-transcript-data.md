@@ -72,7 +72,7 @@ Each service representative interaction with Copilot is stored in the `msdyn_cop
 
 ## Retrieve copilot interaction records
 
-Before you do actions such as download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` and `msdyn_interactiondataid` from `msdyn_copilotinteraction`. `msdyn_interactionid` represents the corresponding data record in `msdyn_interactiondata` table. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field and the interactiondataid in the `msdyn_interactiondataid_value` field.
+Before you do actions such as download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` and the corresponding msdyn_copilotinteractiondata record ID value from `msdyn_copilotinteraction`. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field and the interactiondataid in the `msdyn_interactiondataid_value` field.
 
 ```http
 [Organization URI]/api/data/v9.1/msdyn_copilotinteractions
