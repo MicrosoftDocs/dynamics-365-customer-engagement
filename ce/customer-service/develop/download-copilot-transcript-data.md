@@ -70,7 +70,7 @@ Each service representative interaction with Copilot is stored in the `msdyn_cop
 |Feedback, case summary, write an email, suggest a response|`msdyn_copilotinteractiondata`|
 
 
-## Retrieve copilot interaction records
+## Get msdyn_copilotinteractionid and msdyn_interactiondataid from copilot interaction records
 
 Before you do actions such as download a transcript or view verbatim feedback, you must retrieve the values of `msdyn_copilotinteractionid` and the corresponding msdyn_copilotinteractiondata record ID value from `msdyn_copilotinteraction`. You can use the following Web API call to obtain the interaction ID in the `msdyn_copilotinteractionid` field and the interactiondataid in the `msdyn_interactiondataid_value` field.
 
@@ -160,7 +160,7 @@ When an agent [asks Copilot a question](../administer/copilot-enable-help-pane.m
 
 For example, while working on a case, the agent asks Copilot "How can I book a trip?". Copilot generates a response based on a knowledge base article. If you want to download the chat transcript, perform the following steps:
 
-1. Use the web API call to [get the interaction id](#retrieve-copilot-interaction-records).
+1. Use the web API call to [get the interaction id](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records).
 1. Filter the msdyn_copilotinteraction table with the required interaction ID to get to the `Transcript.DataID` from `msdyn_interactioncontext` attribute. Use the following Web API request to filter the data by interaction ID.
 
    ```http
@@ -246,8 +246,6 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
    ```
 
-
-
 ## Retrieve verbatim feedback
 
 When an agent interacts with Copilot, they can provide feedback on the responses that Copilot provides. The feedback is stored in the `msdyn_verbatim` column in the `msdyn_copilotinteractiondata` table in Dataverse. 
@@ -263,12 +261,11 @@ The key attributes for the record are as follows.
 | msdyn_scenariotype            | Ask a question                                  |
 | msdyn_interactiontypename     | ThumbsDown                                      |
 | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf            |
-| msdyn_interactioncontext      |                                                 |
 | msdyn_interactiondataid       | 807ff9e4-cbe7-ee11-904c-000d3a3bb867            |
 
 You can get the verbatim feedback provided by the agent as follows.
 
-1. [Get the required msdyn_copilotinteractiondata record ID value](#retrieve-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
+1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
 1. Run the following Web API request to retrieve the verbatim feedback.
 
    ```http
@@ -322,7 +319,7 @@ You can get the verbatim feedback provided by the agent as follows.
 
 Except ask-a-question transcripts, for all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, an interaction can be an agent using Copilot to generate an email or a case summary. The key attributes for our example are as follows in the `msdyn_copilotinteraction` table .
+For example, an interaction can be an agent using Copilot to generate an email or a case summary. The key attributes for our example are as follows.
 
 | Attribute                     | Value for our scenario                          |
 |-------------------------------|-------------------------------------------------|
@@ -337,7 +334,7 @@ For example, an interaction can be an agent using Copilot to generate an email o
 
 You can download the interaction data as follows.
 
-1. [Get the required msdyn_copilotinteractiondata record ID value](#retrieve-copilot-interaction-records) from the `msdyn_copilotinteraction` table. 
+1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table. 
 2. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteractiondata` table in the base64 encoded format:
 
    ```http
