@@ -1,7 +1,7 @@
 ---
 title: Gain insights with dashboards | MicrosoftDocs
 description: Learn how to navigate different types of dashboards, apply filters, and perform quick actions to enhance your sales processes.
-ms.date: 03/10/2025
+ms.date: 03/19/2025
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
@@ -59,9 +59,9 @@ Use Sales Performance Dashboard to track your sales performance and take actions
 
 The Sales Professional app comes with the following prebuilt dashboards that you can use to quickly get insights on your sales data and team performance.
 
-- [Sales Dashboard](sales-dashboard.md)  
-- [Sales Manager Summary Dashboard](sales-manager-summary-dashboard.md)
-- [Sales Professional Summary Dashboard](sales-professional-summary-dashboard.md)
+- [Sales Dashboard](#sales-dashboard-1)  
+- [Sales Manager Summary Dashboard](#sales-professional-summary-dashboard)
+- [Sales Professional Summary Dashboard](#sales-professional-summary-dashboard)
 
 ### Sales dashboard
 
