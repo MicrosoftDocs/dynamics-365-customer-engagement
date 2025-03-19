@@ -51,14 +51,15 @@ You can retrieve the conversation summary as follows:
    ```http
     https://<yourorg>.crm.dynamics.com/api/data/v9.2/msdyn_conversationinsights?$filter=_msdyn_conversationid_value eq '70b76ab52-120b-496e-9dce-53f235125a01'
    ```
-The sample response for our example is as follows:
+  
+   The sample response for our example is as follows:
 
-```json
-{
-"status": { "code": 20000, "message": "Successfully fetched summary from insights" },
-"summary": "Issue: Trouble with the brew valve on the coffee machine.\nTroubleshooting steps: \n- Customer reported the issue.\nOutcome: Issue reported for further assistance."
-}
-```
+   ```json
+   {
+   "status": { "code": 20000, "message": "Successfully fetched summary from insights" },
+   "summary": "Issue: Trouble with the brew valve on the coffee machine.\nTroubleshooting steps: \n- Customer reported the issue.\nOutcome: Issue reported for further assistance."
+   }
+   ```
 
 ## Where are my copilot interactions stored
 
@@ -202,7 +203,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(a1584aaf-d5bd-357d-54a8-84dbdba547f9)/msdyn_transcriptdata
    ```
  
-4. Decode the encoded data using a base 64 decoder with the UTF-16LE character set option to get the transcript. You can use an online decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
+1. Decode the encoded data using a base 64 decoder with the UTF-16LE character set option to get the transcript. You can use an online decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
 
    ```json
 
@@ -356,11 +357,11 @@ You can download the interaction data as follows.
 
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
  
- > [!NOTE]
- > Suggest a response and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
+  > [!NOTE]
+  > Suggest a response and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
 
 
-:::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
+ :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
 
 
 ### Related information
