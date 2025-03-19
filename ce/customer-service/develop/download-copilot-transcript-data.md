@@ -80,71 +80,6 @@ Accept: application/json
 OData-MaxVersion: 4.0  
 OData-Version: 4.0  
 ```
-
-The interactions are displayed in the response as follows.
-
-  ```json
-  
-{
-  "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#msdyn_copilotinteractions",
-  "value": [
-    {
-      "_createdby_value": "78866530-afd0-ee11-904d-6045bdff74d5",
-      "createdon": "2024-03-06T06:30:58Z",
-      "_createdonbehalfby_value": null,
-      "importsequencenumber": null,
-      "_modifiedby_value": "78866530-afd0-ee11-904d-6045bdff74d5",
-      "modifiedon": "2024-03-06T06:30:58Z",
-      "_modifiedonbehalfby_value": null,
-      "msdyn_clienttimestamp": "2024-03-06T06:30:51Z",
-      "msdyn_copilotinteractionid": "1be35d14-83db-ee11-904c-000d3a100664",
-      "msdyn_interactioncontext": "{}",
-      "_msdyn_interactiondataid_value": "af1b2c2f-f3e2-ef11-be20-000d3a3033da",
-      "msdyn_interactionforid": "78866530-afd0-ee11-904d-6045bdff74d5",
-      "msdyn_interactionforlogicalname": "systemuser",
-      "msdyn_interactiontype": 100230309,
-      "msdyn_name": null,
-      "msdyn_scenariorequestid": null,
-      "msdyn_scenariotype": 100230201,
-      "_organizationid_value": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-      "overriddencreatedon": null,
-      "statecode": 0,
-      "statuscode": 1,
-      "timezoneruleversionnumber": 4,
-      "utcconversiontimezonecode": 92,
-      "versionnumber": 7002510,
-      "@odata.etag": "W/\"7002510\""
-    },
-    {
-      "_createdby_value": "f691f2d2-6fd4-ee11-904c-6045bdd8b8c9",
-      "createdon": "2024-03-11T04:45:40Z",
-      "_createdonbehalfby_value": null,
-      "importsequencenumber": null,
-      "_modifiedby_value": "f691f2d2-6fd4-ee11-904c-6045bdd8b8c9",
-      "modifiedon": "2024-03-11T04:45:40Z",
-      "_modifiedonbehalfby_value": null,
-      "msdyn_clienttimestamp": "2024-03-11T04:45:38Z",
-      "msdyn_copilotinteractionid": "d44ad235-62df-ee11-904c-000d3a100664",
-      "msdyn_interactioncontext": "{}",
-      "_msdyn_interactiondataid_value": "92d4077b-f3e2-ef11-be20-000d3a3033da",
-      "msdyn_interactionforid": "f691f2d2-6fd4-ee11-904c-6045bdd8b8c9",
-      "msdyn_interactionforlogicalname": "systemuser",
-      "msdyn_interactiontype": 100230309,
-      "msdyn_name": null,
-      "msdyn_scenariorequestid": null,
-      "msdyn_scenariotype": 100230201,
-      "_organizationid_value": "11bb11bb-cc22-dd33-ee44-55ff55ff55ff",
-      "overriddencreatedon": null,
-      "statecode": 0,
-      "statuscode": 1,
-      "timezoneruleversionnumber": 4,
-      "utcconversiontimezonecode": 92,
-      "versionnumber": 7310986,
-      "@odata.etag": "W/\"7310986\""
-    },
-
-  ```
-
 The key attributes from the record are as follows.
 
    | Attribute                     | Definition                                                                                                                                                                                                 
@@ -152,11 +87,73 @@ The key attributes from the record are as follows.
 | msdyn_copilotinteractionid    |       Unique identifier for entity instances                                                                                                                                                                                                     | 
 | msdyn_scenariorequestid       | Groups multiple related Copilot interactions. <br> For example: an agent asks Copilot a question and then marks the response received with thumbs up. These are considered as two interactions, but are part of the same scenario. | 
 | msdyn_scenariotype            |  Refers to the feature used by agent.                                                                                                                                             | 
-| msdyn_interactiontypename     | Refers to the specific agent interaction with Copilot.                                                                                                                                    | 
+| msdyn_interactiontype     | Refers to the specific agent interaction with Copilot.                                                                                                                                    | 
 | msdyn_interactionforid        |  The case or conversation from which the agent interacted with Copilot                                                                                                        | 
 | msdyn_interactioncontext      | Additional context such as reference to transcripts.                                                                                                                                   |     
-| msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |                                                 
+| msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |
 
+
+The following response indicates a scenario where an agent asks the Copilot a question, and then selects the thumbs down button to provide feedback. The `msdyn_scenariorequestid`, `msdyn_scenariotype` is the same for both the interactions. The `msdyn_interactiontype` values for the interactions are set to 10023035 and 1002302, which correspond to Generated and Thumbs down.
+
+
+  ```json
+  
+{
+            "@odata.etag": "W/\"17413914\"",
+            "msdyn_interactiontype": 100230305,
+            "msdyn_clienttimestamp": "2025-03-19T08:00:34Z",
+            "modifiedon": "2025-03-19T08:00:34Z",
+            "msdyn_interactionforlogicalname": "msdyn_ocliveworkitem",
+            "overriddencreatedon": null,
+            "msdyn_scenariotype": 100230201,
+            "importsequencenumber": null,
+            "_modifiedonbehalfby_value": null,
+            "msdyn_interactionforid": "2cc5ea06-a4fd-4f83-8e75-0324383b953f",
+            "statecode": 0,
+            "msdyn_scenariorequestid": "cbdc1bef-6099-7f9a-f1fe-dab02e36315b",
+            "_organizationid_value": "7eede269-bbb1-ef11-8a64-000d3a350e1a",
+            "versionnumber": 17413914,
+            "utcconversiontimezonecode": 190,
+            "_msdyn_interactiondataid_value": null,
+            "_createdonbehalfby_value": null,
+            "_modifiedby_value": "864a96d6-6bb0-ef11-a730-000d3a59065a",
+            "createdon": "2025-03-19T08:00:34Z",
+            "msdyn_interactioncontext": "{\"OcSessionId\":\"28dea393-c175-4788-9494-07fd42ee0884\",\"ResponseStatusCode\":20000,\"Plugins\":{\"IsContentRedacted\":false},\"Transcript\":{\"Id\":\"8d1d70e6-3297-644a-4e86-00d8973223a0\",\"DataId\":\"a1584aaf-d5bd-357d-54a8-84dbdba547f9\"},\"Filters\":{\"AgentContextFilters\":[],\"AutomatedFilters\":[]},\"Streaming\":{\"State\":\"GENERATED\"},\"ResponseSource\":{\"category\":\"KnowledgeSearch\",\"subCategory\":\"KnowledgeSearch\"},\"IsAutoPrompt\":true,\"AutoPromptTrigger\":\"follow-up-prompt\",\"IsAutoExpanded\":false,\"IsSuggestedPrompt\":false,\"IsEmbed\":false,\"IsStandalone\":false}",
+            "msdyn_name": null,
+            "statuscode": 1,
+            "msdyn_copilotinteractionid": "c49dc43b-9804-f011-bae2-6045bd014292",
+            "_createdby_value": "864a96d6-6bb0-ef11-a730-000d3a59065a",
+            "timezoneruleversionnumber": 0
+        },
+        {
+            "@odata.etag": "W/\"17413983\"",
+            "msdyn_interactiontype": 100230302,
+            "msdyn_clienttimestamp": "2025-03-19T08:00:37Z",
+            "modifiedon": "2025-03-19T08:00:41Z",
+            "msdyn_interactionforlogicalname": "msdyn_ocliveworkitem",
+            "overriddencreatedon": null,
+            "msdyn_scenariotype": 100230201,
+            "importsequencenumber": null,
+            "_modifiedonbehalfby_value": null,
+            "msdyn_interactionforid": "2cc5ea06-a4fd-4f83-8e75-0324383b953f",
+            "statecode": 0,
+            "msdyn_scenariorequestid": "cbdc1bef-6099-7f9a-f1fe-dab02e36315b",
+            "_organizationid_value": "7eede269-bbb1-ef11-8a64-000d3a350e1a",
+            "versionnumber": 17413983,
+            "utcconversiontimezonecode": 190,
+            "_msdyn_interactiondataid_value": null,
+            "_createdonbehalfby_value": null,
+            "_modifiedby_value": "864a96d6-6bb0-ef11-a730-000d3a59065a",
+            "createdon": "2025-03-19T08:00:41Z",
+            "msdyn_interactioncontext": "{\"OcSessionId\":\"28dea393-c175-4788-9494-07fd42ee0884\",\"IsEmbed\":false,\"IsStandalone\":false}",
+            "msdyn_name": null,
+            "statuscode": 1,
+            "msdyn_copilotinteractionid": "cb9dc43b-9804-f011-bae2-6045bd014292",
+            "_createdby_value": "864a96d6-6bb0-ef11-a730-000d3a59065a",
+            "timezoneruleversionnumber": 0
+        },
+
+  ```
 ## Download chat transcripts
 
 When an agent [asks Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format using UTF-16LE character set in the `msdyn_copilottranscriptdata` table in Dataverse. You can download the transcripts to review the conversation and responses provided by Copilot.
@@ -183,30 +180,11 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
   | msdyn_scenariotype            |     Ask a question                                  |
   | msdyn_interactiontypename                                                                                                                                | Generated                                       |
   | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
-  | msdyn_interactioncontext      | <br>
-       ```json
-  
-          { 
-           "ResponseStatusCode": 20000, 
-           "Plugins": { 
-            }, 
-            "Transcript": { 
-            "Id": "c477c6dd-d877-c6d1-9337-31e5b54e4a1b", 
-            "DataId": "0a7a438f-c2a5-58d7-e03d-c932812b3095"  
-            }, 
-            "Filters": { 
-             "AgentContextFilters": [ 
-             ], 
-             "DynamicFilters": { 
-               "IsApplied": false 
-            } 
-         } 
-       }
+    | msdyn_interactioncontext      | ```json
+  {\"OcSessionId\":\"28dea393-c175-4788-9494-07fd42ee0884\",\"ResponseStatusCode\":20000,\"Plugins\":{\"IsContentRedacted\":false},\"Transcript\":{\"Id\":\"8d1d70e6-3297-644a-4e86-00d8973223a0\",\"DataId\":\"a1584aaf-d5bd-357d-54a8-84dbdba547f9\"},\"Filters\":{\"AgentContextFilters\":[],\"AutomatedFilters\":[]},\"Streaming\":{\"State\":\"GENERATED\"},\"ResponseSource\":{\"category\":\"KnowledgeSearch\",\"subCategory\":\"KnowledgeSearch\"},\"IsAutoPrompt\":true,\"AutoPromptTrigger\":\"follow-up-prompt\",\"IsAutoExpanded\":false,\"IsSuggestedPrompt\":false,\"IsEmbed\":false,\"IsStandalone\":false}``` |
+ 
 
-     ``` |
-
-
-1. Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. In our example, this value is 0a7a438f-c2a5-58d7-e03d-c932812b3095. 
+1. Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. In our example, this value is a1584aaf-d5bd-357d-54a8-84dbdba547f9. 
 
 1. The following Web API request retrieves the transcript in the base64 encoded transcript.
 
@@ -220,7 +198,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
    In our example, the Web API request is as follows.
 
    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(0a7a438f-c2a5-58d7-e03d-c932812b3095)/msdyn_transcriptdata
+    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(a1584aaf-d5bd-357d-54a8-84dbdba547f9)/msdyn_transcriptdata
    ```
  
 4. Decode the base64 encoded data using UTF-16LE character set to get the transcript. You can use an online base64 decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
