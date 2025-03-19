@@ -22,7 +22,7 @@ This article provides detailed guidance on calculating key conversation metrics.
 
 ## Total conversations
 
-The total number of conversations that have taken place during the selected period of time, across all statuses (active conversations and closed conversations) taking place with Voice/IVR or chat/digital bot. Learn more in [Total conversations](../use/oc-metrics-dimensions.md#total-conversations)
+The total count of conversations that occurred within the chosen timeframe across all channels (digital and voice), including interactions with both bots and human agents. Learn more in [Total conversations](../use/oc-metrics-dimensions.md#total-conversations).
 
 ### Query
 
@@ -57,8 +57,7 @@ All Conversations where msdyn_liveworkstream.msdyn_streamsource != '192350000' a
 
  | Attribute                     | Definition                                                                                                                                                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| ConversationId                | The unique identifier of the conversation.                                                                                                                                                                 |
-|msdyn_ocliveworkitem| Type of session event, for example, accept, reject etc. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)|
+| msdyn_ocliveworkitem.msdyn_ocliveworkitemid               | The unique identifier of the conversation.  Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem) |
 |msdyn_ocliveworkitem.msdyn_channel| The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel)|
 |msdyn_ocliveworkitem.msdyn_channelinstanceid|Unique identifier to identify the app to which this conversation belogs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid)|
 |msdyn_liveworkstream.msdyn_streamsource| The channel to which this workstream is attached. Learn more in [msdyn_streamsource](/dynamics365/developer/reference/entities/msdyn_liveworkstream?branch=main#BKMK_msdyn_streamsource)|
@@ -135,7 +134,7 @@ Exclude sessions from 'Entity Records' channel and SMS filter
 
 _**Applies to**: Omnichannel Real-time Voice dashboard, Omnichannel Historical Voice dashboard, Omnichannel Historical Conversation dashboardOmnichannel Historical Conversation topic dashboard_
 
-This metric represents the average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled. Learn more in [Conversation handle time](../use/oc-metrics-dimensions.md#conversation-handle-time).
+This metric represents the average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled. Learn more about voice and chat conversations in [Conversation handle time](../use/oc-metrics-dimensions.md#conversation-handle-time).
 
 ### Query
 
