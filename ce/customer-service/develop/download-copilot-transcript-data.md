@@ -183,8 +183,8 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
   | msdyn_scenariotype            |     Ask a question                                  |
   | msdyn_interactiontypename                                                                                                                                | Generated                                       |
   | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf (case from which the interaction was initiated) |
-  | msdyn_interactioncontext      |   
-     ```json
+  | msdyn_interactioncontext      | <br>
+       ```json
   
           { 
            "ResponseStatusCode": 20000, 
@@ -203,8 +203,7 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
          } 
        }
 
-     ```  |
-
+     ``` |
 
 
 1. Copy the value of the `Trasncript.DataId` from the `msdyn_interactioncontext`. In our example, this value is 0a7a438f-c2a5-58d7-e03d-c932812b3095. 
