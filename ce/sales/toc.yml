@@ -278,13 +278,13 @@
       items:
         - name: Lead management overview
           href: lead-management-overview.md
-        - name: Sales Qualification Agent
+        - name: sales qualification agent
           items:
             - name: Overview
               href: sales-qualification-agent.md
             - name: Configure sales qualification agent
               href: configure-sales-qualification-agent.md
-            - name: FAQ about Sales Qualification Agent
+            - name: FAQ about sales qualification agent
               href: sales-qualification-agent-faq.md
         - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
@@ -927,13 +927,13 @@
           href: work-invalid-email-addresses.md
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
-        - name: Sales Qualification Agent
+        - name: sales qualification agent
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Qualify leads smartly with Sales Qualification Agent
+            - name: Qualify leads smartly with sales qualification agent
               href: use-sales-qualification-agent.md
-            - name: FAQ about Sales Qualification Agent
+            - name: FAQ about sales qualification agent
               href: sales-qualification-agent-faq.md
         - name: Qualify or convert leads
           href: qualify-lead-convert-opportunity-sales.md
@@ -1514,7 +1514,7 @@
       href: faqs-sales-copilot-natural-language.md
     - name: FAQ about email in Copilot
       href: faqs-sales-copilot-for-email.md
-    - name: FAQ about Sales Qualification Agent
+    - name: FAQ about sales qualification agent
       href: faqs-sales-qualification-agent.md
     - name: FAQ for chat with Sales data on Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md

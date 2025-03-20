@@ -1,5 +1,5 @@
 ---
-title: Sales Qualification Agent FAQ
+title: sales qualification agent FAQ
 description: 
 ms.date: 02/19/2025
 ms.topic: overview
@@ -20,9 +20,9 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Sales Qualification Agent FAQ
+# sales qualification agent FAQ
 
-This FAQ provides answers to common questions about the Sales Qualification Agent in Dynamics 365 Sales.
+This FAQ provides answers to common questions about the sales qualification agent in Dynamics 365 Sales.
 
 <a name="icp"></a>
 ## What is ideal customer profile?
