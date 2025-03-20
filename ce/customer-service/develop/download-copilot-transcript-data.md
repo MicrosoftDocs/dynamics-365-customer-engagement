@@ -21,8 +21,7 @@ Customer service representatives (service representatives or representatives) us
 ## Prerequisites
 
 - Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
-- Make sure you're logged in with the Administrator or Supervisor role.
-- To access the Copilot tables in Dataverse, make sure you have the required permissions.
+- Make sure you're logged in with the Omnichannel administrator or Omnichannel supervisor role.
 
 ## Retrieve conversation summary
 
@@ -191,20 +190,20 @@ For example, while working on a case, the service representative asks Copilot "H
 
 1. The following Web API request retrieves the encoded transcript in the base64/UTF-16LE format.
 
-  ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Transcript:DataID>)/msdyn_transcriptdata
-    Accept: application/json  
-    OData-MaxVersion: 4.0  
-    OData-Version: 4.0  
-   ```
+   ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(<Transcript:DataID>)/msdyn_transcriptdata
+     Accept: application/json  
+     OData-MaxVersion: 4.0  
+     OData-Version: 4.0  
+    ```
   
    In our example, the Web API request is as follows.
 
-   ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(a1584aaf-d5bd-357d-54a8-84dbdba547f9)/msdyn_transcriptdata
-   ```
+    ```http
+     [Organization URI]/api/data/v9.1/msdyn_copilottranscriptdatas(a1584aaf-d5bd-357d-54a8-84dbdba547f9)/msdyn_transcriptdata
+    ```
  
-1. Decode the encoded data using a base 64 decoder with the UTF-16LE character set option to get the transcript. You can use an online decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
+5. Decode the encoded data using a base64 decoder with the UTF-16LE character set option to get the transcript. You can use an online decoder tool to decode the data. For our example, the decoded transcript is displayed as follows.<br>
 
    ```json
 
@@ -361,7 +360,7 @@ You can download the interaction data as follows.
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
  
   > [!NOTE]
-  > Ask a question, suggest a response, and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
+  > Ask a question, suggest a response, and draft an email features use the base64 encoder with the UTF-16LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
 
 
  :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
