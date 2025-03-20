@@ -26,9 +26,9 @@ The route-to-queue ruleset is run after all the work classification rulesets are
 
 A workstream can have one route-to-queues ruleset only.
 
-After you configure the route-to-queue rules, the workstream is updated with one of the following rule hit policies:
+After you configure the route-to-queue rules, the system updates the workstream with the hit-all policy. The rule hit policies are as follows:
 
-- **Hit-all**: Default behavior. The system matches all the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue available first.
+- **Hit-all**: Default behavior. The system evaluates all the rule conditions and overflow handling of the corresponding queues to assign a work item to a queue. If multiple rules match the required condition and none of the respective queues are overflowing, then the queue associated with the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue available first.
 - **Hit-first**: The system stops rule evaluation after the first match is found. Irrespective of the overflow state of the queue, the first matching rule is honored.
 
 The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. Learn more in [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue).
