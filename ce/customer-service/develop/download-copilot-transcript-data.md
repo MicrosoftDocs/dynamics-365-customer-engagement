@@ -1,5 +1,5 @@
 ---
-title: Download Copilot transcripts
+title: Download Copilot transcripts and interaction data
 description: Download Copilot transcripts to review customer service representative interactions and responses. 
 author: gandhamm
 ms.author: mgandham
