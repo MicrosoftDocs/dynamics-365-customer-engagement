@@ -26,9 +26,12 @@ The route-to-queue ruleset is run after all the work classification rulesets are
 
 A workstream can have one route-to-queues ruleset only.
 
-After you configure the rules, the system matches the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue available first.
+After you configure the route-to-queue rules, the workstream is updated with one of the following rule hit policies:
 
-The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue)
+- **Hit-all**: Default behavior. The system matches all the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue available first.
+- **Hit-first**: The system stops rule evaluation after the first match is found. Irrespective of the overflow state of the queue, the first matching rule is honored.
+
+The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. Learn more in [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue).
 
 ## Percentage-based allocation of work to queues
 
@@ -38,7 +41,7 @@ When you configure this feature, the system picks a queue from the available lis
 
 ## Configure rules in route-to-queue ruleset
 
-1. In Customer Service admin center, select a workstream.
+1. In Contact Center admin center or Customer Service admin center, navigate to the Workstreams page, and then select a workstream.
 
 1. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
@@ -122,6 +125,7 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 ### Related information
 
+[Conversation diagnostics in Azure Application Insights](configure-conversation-diagnostics.md)  
 [Manage overflow conditions](manage-overflow.md)  
 [Create and manage queues](queues-omnichannel.md)  
 [Create a workstream for unified routing](create-workstreams.md)  
