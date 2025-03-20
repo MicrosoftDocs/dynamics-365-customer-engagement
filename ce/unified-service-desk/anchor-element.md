@@ -1,8 +1,8 @@
 ---
-title: "AnchorElement | MicrosoftDocs"
-description: "Understand how AnchorElement works in Unified Service Desk. This topic also includes a code snippet that shows how to use the element."
+title: AnchorElement 
+description: Understand how AnchorElement works in Unified Service Desk. This topic also includes a code snippet that shows how to use the element.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -2,7 +2,7 @@
 title: Marketing tables (campaign, list) (Dynamics 365 Sales)
 description: Learn about the marketing tables that allow you to perform campaign planning, manage the creation and execution of a campaign, and assess a campaign's performance.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: conceptual
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang

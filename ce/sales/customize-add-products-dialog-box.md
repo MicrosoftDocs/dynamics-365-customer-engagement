@@ -174,6 +174,8 @@ By default, the search field in the **Add products dialog** searches the product
 
 7. Search for a keyword and verify whether the search is returning matches from the newly added fields.
 
+---
+
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 
 ## Related information

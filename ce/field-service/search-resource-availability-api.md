@@ -201,6 +201,9 @@ The following example demonstrates proper usage of entity collections. In this c
         "msdyn_todate": "2021-07-15T23:59:00Z",
         "msdyn_remainingduration": 60,
         "msdyn_duration": 60,
+        "msdyn_latitude": 47.64807,
+        "msdyn_longitude": -122.41249,
+        "msdyn_worklocation": 690970000,
         "msdyn_TimeGroup@odata.bind": "/msdyn_timegroups(c3dc79ea-d12f-ee11-9cc9-000d3a745a58)",
         "@odata.type": "Microsoft.Dynamics.CRM.msdyn_resourcerequirement"
     },

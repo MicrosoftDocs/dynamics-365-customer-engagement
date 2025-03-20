@@ -33,27 +33,3 @@ More information: [Create and manage environments in the Power Platform admin ce
 To access the Sales Professional app, make sure that the app is installed properly. More information: [Install the Sales Professional app](provision-sales-professional-instance.md)  
 
 Also, make sure that you're added to the target environment and the Sales Professional app access security role is assigned to you.
-
-## Why can't I see the What's new functionality in Unified Interface?
-
-This is by design. The What's new functionality is only available in the legacy web client. The equivalent in Unified Interface is to insert the Timeline control (with posts enabled) on the dashboard:
-
-1. In your app, select **Settings** ![Settings.](media/settings-icon.png), and then select **Advanced Settings**.
-
-    The **Business Management** page opens in a new browser tab.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-1. On the navigation bar, select **Settings**, and then under **Customization**, select **Customizations**.
-
-1. Select **Customize the System**.
-
-1. Under **Components** in the solution explorer, select **Dashboards**.
-
-1. Select and open the dashboard to which you want to add the Timeline control.
-
-1. On the toolbar at the top of the page, select **Timeline**.
-
-1. Update the **Timeline Control Properties** as required, and then select **OK**.
-
-1. Save the dashboard, and then publish the customization.
-

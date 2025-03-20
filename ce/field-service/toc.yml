@@ -327,7 +327,7 @@ items:
         href: mobile/scan-barcode.md
       - name: Enable push notifications
         href: mobile/enable-push-notifications.md
-      - name: Track and audit location data
+      - name: Enable location tracking
         href: mobile/track-technician-location.md
       - name: Enable technicians to create service reports
         href: mobile/create-service-report-admin.md

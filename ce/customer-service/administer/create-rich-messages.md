@@ -1,7 +1,7 @@
 ---
 title: "Manage rich messages | MicrosoftDocs"
 description: "This article provides steps to help you create, publish, and update rich messages in Omnichannel for Customer Service."
-ms.date: 06/14/2024
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -22,8 +22,8 @@ By creating and publishing channel-specific rich messages, your organization's c
 1. In the site map of Customer Service admin center or Contact Center admin center, select **Productivity** in **Agent experience**.
 1. On the **Productivity** page, select **Manage** for **Rich messages**.
 1. Select **New**, and then enter the following information:
-    - **Name**: A descriptive name that'll be used by agents to search for rich messages.
-    - **Locale**: The language of the rich message. Rich messages are filtered by locale within agent sessions.
+    - **Name**: A descriptive name that'll be used by customer service representatives (service representatives or representatives) to search for rich messages.
+    - **Locale**: The language of the rich message. Rich messages are filtered by locale within representative sessions.
     - **Type**:
       - Apple Pay
       - Authentication
@@ -34,8 +34,8 @@ By creating and publishing channel-specific rich messages, your organization's c
       - Time Picker
       - Video Rich Link
       - Website Rich Link
-   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags will help agents identify the correct rich message when they search for rich messages.
-   - **Allow agents to configure**: Some rich message types allow agents to update the contents before sending to customers. By enabling configurations, agents can make single-use customizations, which don't affect the original rich message made here. Agent editing can be enabled for the following rich message types:
+   - **Tags**: A message type tag is automatically added to each rich message. In addition to the type tag, any relevant search tags can be added to the rich message. These tags will help representatives identify the correct rich message when they search for rich messages.
+   - **Allow agents to configure**: Some rich message types allow representatives to update the contents before sending to customers. By enabling configurations, representatives can make single-use customizations, which don't affect the original rich message made here. Representative editing can be enabled for the following rich message types:
       - List picker
       - Suggested reply
       - Time picker
@@ -56,7 +56,7 @@ By creating and publishing channel-specific rich messages, your organization's c
 
 ## Publish rich messages
 
-For agents to send a rich message in conversations, the message must first be published.
+For representatives to send a rich message in conversations, the message must first be published.
 
 1. Complete the steps for building your rich message, as defined above. 
 
@@ -297,7 +297,7 @@ Type: ```string``` - Required: Yes
 |Description | Limitation |
 |------------|--------------|
 |Message contents | Images aren't currently supported for authentication.|
-|Agent | Authentication request-type rich messages don't currently support agent configuration.|
+|Agent | Authentication request-type rich messages don't currently support representative configuration.|
 
 
 #### Custom JSON
@@ -337,7 +337,7 @@ Survey-level properties
 
 1. The following form behaviors may be configured by navigating to the **Behavior** section in the property panel:<br>
      a.	By default, form responses are shown to the customer before they submit responses. This summary can be removed by deselecting **Show summary page**.<br>
-     b.	Form responses can be hidden from live agents, which may be helpful when designing automated processes to handle sensitive information. When **Hide customer responses in chat** is toggled on, agents will be unable to see any customer responses within the form. Privacy cannot be toggled per question.
+     b.	Form responses can be hidden from live representatives, which may be helpful when designing automated processes to handle sensitive information. When **Hide customer responses in chat** is toggled on, representatives will be unable to see any customer responses within the form. Privacy cannot be toggled per question.
 
 1. The **Outbound message** properties determine the appearance of the message bubble containing the form. The outbound message may contain the following elements:<br>
      a.	**Message title**: The main text that informs the customer of what type of content the message contains. It could be the full or shortened title of your form.<br>
@@ -348,7 +348,7 @@ Survey-level properties
 
 1. A form can contain no more than 10 questions, and should be completable without needing to leave the messages application. While building a form, select **Save** to keep your changes. An unpublished form can be saved with missing fields. Changes made to a published form may only be saved if rich message has all required fields filled. 
 
-1. New forms will be available for agents to use once they are published. To publish a new form, select **Publish** at the top of the page. To confirm that the form is published, confirm that its status displays as **Active**.
+1. New forms will be available for representatives to use once they are published. To publish a new form, select **Publish** at the top of the page. To confirm that the form is published, confirm that its status displays as **Active**.
 
 ### Single input question
 
@@ -398,17 +398,17 @@ Single-select questions can be used to quickly select a single option from a set
 
 1. Under **Choices**, you can add each of your options. We recommend that the number of choices is between two and 10 or fewer. Each choice has the following fields:
 
-   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show a representative the product reference number and product name.<br>
    
-   b. **Text** (Optional): The text is what the customer will see when viewing the question. By default, this text will match the Value. Changing the **Text** content can allow you to localize selection questions without changing what the agent sees in the response.<br>
+   b. **Text** (Optional): The text is what the customer will see when viewing the question. By default, this text will match the Value. Changing the **Text** content can allow you to localize selection questions without changing what the representative sees in the response.<br>
    
    c. **Image link** (Optional): The image displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
 
-      For example, let's say we want to ask a Contoso customer to select the model of expresso maker that they own. The agent will need the model number, but a customer might only know the model by its name or image. In this instance, we would provide the following content:<br>
+      For example, let's say we want to ask a Contoso customer to select the model of expresso maker that they own. The representative will need the model number, but a customer might only know the model by its name or image. In this instance, we would provide the following content:<br>
       
       |Type | Description | Notes |
       |--------|-----------|-------------|
-      |Value | #11235813 Cafe A-100 | The agent will see this text.|
+      |Value | #11235813 Cafe A-100 | The representative will see this text.|
       |Text | Cafe A-100 Automatic | The customer will see this text. |
       |Image link | https://contoso.com/[image].jpg | The customer will see this image.|
           
@@ -425,9 +425,9 @@ Multi-select questions can be used to quickly select one or more options from a 
 
 1. Under **Choices**, you can add each of your options. We recommended that the number of choices is between two and 10 or fewer. Each choice has the following fields:<br>
 
-   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show a representative the product reference number and product name.<br>
    
-   b. **Text** (Optional): What the customer will see when viewing the question. By default, this text will match the Value. Changing the Text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
+   b. **Text** (Optional): What the customer will see when viewing the question. By default, this text will match the Value. Changing the Text content can allow you to localize selection questions without changing what the representative sees in the response.<br>
    
    c. **Image link** (Optional): The image that is displayed to customers within the list picker's message and customer's response message. Image URLs must be a valid image type, and do not support videos or GIFs.<br>
    
@@ -444,9 +444,9 @@ Dropdown picker questions are used to quickly select a single option from a list
 
 1. Under **Choices**, you can add each of your options. As these questions can support a large number of options, it is recommended that you add choices in a logical ordering such as alphabetical. Each choice has the following fields:
 
-   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show an agent the product reference number and product name.<br>
+   a. **Value**: The true identifier for a choice. This value is what appears in the conversation control when a customer selects a choice. By default, the value is also used as the text that is shown to customers. However, when working in multiple languages or listing products, you might prefer to show a representative the product reference number and product name.<br>
    
-   b. **Text** (Optional): What the customer will see when viewing the question. By default, the text will match the value. Changing the text content can allow you to localize selection questions without changing what the agent sees in the response.<br>
+   b. **Text** (Optional): What the customer will see when viewing the question. By default, the text will match the value. Changing the text content can allow you to localize selection questions without changing what the representative sees in the response.<br>
    
 1. To add more choices, select the + icon within the properties panel or builder. Choices can be rearranged by dragging them up or down while selecting the handle button to the left of each choice. You can remove a choice by selecting the delete button. To remove all choices, select the erase icon located beside the + icon at the top of the list.
 
@@ -460,7 +460,7 @@ Date picker questions are used to quickly select a date using a wheel-like scrol
 
 1. **Label** is an optional value that appears beside the text field and can serve as an more prompt. For a question titled “When were you born”, the label might be set to “Birthday”. 
 
-1. To limit the timerange that customers can add, there are two optional range values:<br>
+1. To limit the time range that customers can add, there are two optional range values:<br>
 
    a. **Min**: This value represents the furthest back date that can be selected. When this value is set, no dates earlier than this date can be selected.<br>
    

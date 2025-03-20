@@ -1,7 +1,7 @@
 ---
 title: Predefined security roles for Sales
 description: Predefined security roles define permissions and access levels specific to different sales personas. Assign users to appropriate security roles to grant them adequate access to the system.
-ms.date: 06/17/2024
+ms.date: 01/29/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -86,19 +86,12 @@ Associate one or more security roles to a user depending on their roles and resp
 
 Follow these steps:
 
-1. In the Sales Hub app, select the Settings icon in the top-right
-   corner, and select **Advanced Settings**.
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-
-2. Select **Settings** in the Business Management interface, and
-   go to **Security** under **System**.
-
-3. Select **Users**, and then select the user account.
-
-4. Select **Manage Roles**, and choose the roles that you want to assign to the user.
-
-5. Notify the user and ask them to verify that they have the permissions they need.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **System** > **Security**.
+1. Select **Users**, and then select the user account.
+1. On the command bar, select **Manage security roles**, and choose the roles that you want to assign to the user.
+1. Select **Save**.
+1. Notify the user and ask them to verify that they have the permissions they need.
 
 ## Related information   
 

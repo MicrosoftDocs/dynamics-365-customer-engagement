@@ -1,28 +1,22 @@
 ---
-title: Advanced settings in the new experience (preview)
+title: Advanced settings in the new experience
 description: Learn about advanced settings in the new experience. 
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: conceptual
 ms.collection: get-started
-ms.date: 09/13/2024
+ms.date: 02/20/2025
 ms.custom: bap-template
 ---
 
-# Advanced settings in the new experience (preview)
+# Advanced settings in the new experience
 
-[!INCLUDE [preview-banner-section](~/../shared-content/shared/preview-includes/preview-banner.md)]
+The new experience for advanced settings in Dynamics 365 Sales provides a modern, intuitive, and responsive interface that makes it easier to configure and manage your organization's settings. The new experience uses the Unified Interface and replaces the legacy web client experience. Learn more about the new settings experience in [Use the Power Platform Environment Settings app](/power-platform/admin/environment-settings-app).
 
-[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
+## Enable or disable the new experience
 
-
-
-The new experience for advanced settings in Dynamics 365 Sales provides a modern, intuitive, and responsive interface that makes it easier to configure and manage your organization's settings. The new experience uses the Unified Interface and replaces the legacy web client experience. Learn more about this change in [Manage Microsoft Dataverse settings](/power-platform/admin/admin-settings).
-
-## Enable the new experience
-
-The new experience is currently in public preview and is available only for orgs that have enabled the **Advanced Settings redirection** feature in the [Power Platform admin center](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#in-the-power-platform-admin-center).
+The new experience is turned on by default. To go back to the legacy web client experience, [turn off the new experience setting](/power-platform/admin/environment-settings-app?tabs=new#turn-off-the-power-platform-environment-settings-app) in the Power Platform admin center.
 
 ## Legacy web client vs. Unified Interface
 

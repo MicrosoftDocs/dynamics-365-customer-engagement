@@ -2,7 +2,7 @@
 title: Lead table
 description: Learn about lead table that represents an individual who is interested in receiving specific information about products or services offered by the company.
 ms.date: 01/30/2025
-ms.topic: article
+ms.topic: conceptual
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
