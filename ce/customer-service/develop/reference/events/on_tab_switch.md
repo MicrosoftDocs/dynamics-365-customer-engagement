@@ -1,5 +1,5 @@
 ---
-title: ON_TAB_SWITCH event (app profile manager) JavaScript API Reference
+title: ON_TAB_SWITCH event JavaScript API Reference
 description: Learn about the ON_TAB_SWITCH event of app profile manager in Customer Service workspace.
 author: snehasishlaik
 ms.author: slaik
@@ -8,7 +8,7 @@ ms.date: 03/20/2025
 ms.topic: reference
 ---
 
-# ON_TAB_SWITCH event (app profile manager)
+# ON_TAB_SWITCH event
 
 
 This event is invoked by the client when a tab is switched to another tab. This event allows client-side handlers to react to tab switches, updating the user interface or internal state as necessary. ON_TAB_SWITCH event takes the following eventData:
@@ -46,7 +46,7 @@ tabSwitchSubscriber.onmessage = tabSwitchedHandlerFunction;
 ```
 
 > [!NOTE]
-> The code sample utilizes the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are of the same origin. Make sure it's compatible with your customization as support for this API can vary.
+> The code sample uses the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are of the same origin. Make sure it's compatible with your customization as support for this API can vary.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
