@@ -292,10 +292,6 @@ You can get the verbatim feedback provided by the representative as follows.
    ```json
 
      {
-<<<<<<< HEAD
-=======
-     "@odata.context": "[Organization URI]/api/data/v9.1/$metadata#msdyn_copilotinteractiondatas/$entity",
->>>>>>> 3322b14c1f7991c56512b195de735cf7312b3bc4
      "@odata.etag": "W/\"29538313\"",
      "_owningbusinessunit_value": "0e9ec0a2-eb6a-ed11-9561-000d3a336228",
      "statecode": 0,
