@@ -1,12 +1,12 @@
 ---
 title: Download Copilot transcripts
-description: Download Copilot transcripts to review agent interactions and responses. 
+description: Download Copilot transcripts to review customer service representative interactions and responses. 
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/11/2025
+ms.date: 03/20/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,24 +16,24 @@ ms.custom:
 
 # Download Copilot transcripts and interaction data
 
-When agents use Copilot, agent interactions with Copilot such as copying summaries, using a suggested reply, feedback, and chat transcripts are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
+Customer service representatives (service representatives or representatives) use Copilot features such as copying summaries, using a suggested reply, feedback, and chat. Copilot interactions are stored in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables in Dataverse. You can download the transcripts and interaction data using Dataverse [Web API](/power-apps/developer/data-platform/webapi/overview) or [SDK for .NET](/power-apps/developer/data-platform/org-service/overview).
 
 ## Prerequisites
 
 - Make sure that the **Agent experience data** checkbox is selected in [**Copilot help pane**](../administer/copilot-enable-help-pane.md), so that the transaction and interaction data is stored by the system in Dataverse.
 - Make sure you're logged in with the Administrator or Supervisor role.
-- Make sure you have the required permissions to access the Copilot tables in Dataverse.
+- To access the Copilot tables in Dataverse, make sure you have the required permissions.
 
 ## Retrieve conversation summary
 
-When an agent uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_conversationinsight`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation id that's stored in the [`msdyn_ConversationId`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_ConversationId) field. The summary text is stored in the [`msdyn_copilotsummary`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_copilotsummary) field.
+When a service representative uses Copilot to generate a conversation summary, the summary is stored in the [`msdyn_conversationinsight`](../../developer/reference/entities/msdyn_conversationinsight.md) table in Dataverse. A record is created in the table with a unique conversation ID stored in the [`msdyn_ConversationId`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_ConversationId) field. The summary text is stored in the [`msdyn_copilotsummary`](../../developer/reference/entities/msdyn_conversationinsight.md#BKMK_msdyn_copilotsummary) field.
 
-For example, after wrapping up a conversation with a customer, an agent uses Copilot to generate a conversation summary. The conversation summary is stored in the `msdyn_conversationinsight` table with the following values.
+For example, after wrapping up a conversation with a customer, a service representative uses Copilot to generate a conversation summary. The conversation summary is stored in the `msdyn_conversationinsight` table with the following values.
 
 | Attribute             | Sample Value                                                                                     |
 |-----------------------|--------------------------------------------------------------------------------------------------|
 | Conversation ID  | 70b76ab52-120b-49e6-9dce-53f235125a01                                                            |
-| Conversation summary | “Issue: Trouble with the brew valve on the coffee machine. Troubleshooting steps: Customer reported the issue. Outcome: Issue reported for further assistance.” |
+| Conversation summary | "Issue: Trouble with the brew valve on the coffee machine. Troubleshooting steps: Customer reported the issue. Outcome: Issue reported for further assistance." |
 
 You can retrieve the conversation summary as follows:
 
@@ -42,7 +42,7 @@ You can retrieve the conversation summary as follows:
 
    ```http
  
-    [Organization URI]/api/data/v9.2/msdyn_conversationinsights $filter=msdyn_conversationid_value eq '<conversation-ID>'
+    [Organization URI]/api/data/v9.2/msdyn_conversationinsights?$filter=_msdyn_conversationid_value eq '<conversation-ID>'
 
    ```
 
@@ -86,17 +86,18 @@ The key attributes from the record are as follows.
    | Attribute            |Definition               |                                                                               
 |-------------------------------|-------------------------------------------------------|
 | msdyn_copilotinteractionid    |       Unique identifier for entity instances           | 
-| msdyn_scenariorequestid       | Groups multiple related Copilot interactions. <br> For example: an agent asks Copilot a question and then marks the response received with thumbs up. These are considered as two interactions, but are part of the same scenario. | 
-| msdyn_scenariotype            |  Refers to the feature used by agent.                                       |
-| msdyn_interactiontype     | Refers to the specific agent interaction with Copilot.                                                                                                                                    | 
-| msdyn_interactionforid        |  The case or conversation from which the agent interacted with Copilot                                                                                                        | 
+| msdyn_scenariorequestid       | Groups multiple related Copilot interactions. <br> For example: A representative asks Copilot a question and then marks the response received with thumbs up. They're considered as two interactions, but are part of the same scenario. | 
+| msdyn_scenariotype            |  Refers to the feature used by the representative.                                       |
+| msdyn_interactiontype     | Refers to the specific representative interaction with Copilot.                                                                                                                                    | 
+| msdyn_interactionforid        | The entity ID of the referenced record, for which the representative interacted with Copilot.                                                                          | 
+|msdyn_interactionforlogicalname |  The entity logical name of the referenced record, for which the representative interacted with Copilot.|
 | msdyn_interactioncontext      | Additional context such as reference to transcripts.                                                                                                                                   |     
 | msdyn_interactiondataid       | Refers to msdyn_copilotinteractiondata entity that contains interaction data                                                                                                                           |
 
 
 ### Sample response
 
-The following response indicates a scenario where an agent asks the Copilot a question, and then selects the thumbs down button to provide feedback. The `msdyn_scenariorequestid`, `msdyn_scenariotype` is the same for both the interactions. The `msdyn_interactiontype` values for the interactions are set to 10023035 and 1002302, which correspond to Generated and Thumbs down.
+The following response indicates a scenario where a representative asks the Copilot a question, and then selects the thumbs down button to provide feedback. The `msdyn_scenariorequestid`, `msdyn_scenariotype` is the same for both the interactions. The `msdyn_interactiontype` values for the interactions are set to 100230305 and 100230302, which correspond to Generated and Thumbs down.
 
 
   ```json
@@ -159,11 +160,11 @@ The following response indicates a scenario where an agent asks the Copilot a qu
   ```
 ## Download chat transcripts
 
-When an agent [asks Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format using UTF-16LE character set in the `msdyn_copilottranscriptdata` table in Dataverse. You can download the transcripts to review the conversation and responses provided by Copilot.
+When a service representative [asks Copilot a question](../administer/copilot-enable-help-pane.md#enable-ask-a-question), the chat is saved as a transcript encoded in the base64 encoded format using UTF-16LE character set in the `msdyn_copilottranscriptdata` table in Dataverse. You can download the transcripts to review the conversation and responses provided by Copilot.
 
-For example, while working on a case, the agent asks Copilot "How can I book a trip?". Copilot generates a response based on a knowledge base article. If you want to download the chat transcript, perform the following steps:
+For example, while working on a case, the service representative asks Copilot "How can I book a trip?". Copilot generates a response based on a knowledge base article. If you want to download the chat transcript, perform the following steps:
 
-1. Use the web API call to [get the interaction id](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records).
+1. Use the web API call to [get the interaction ID](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records).
 1. Filter the msdyn_copilotinteraction table with the required interaction ID to get to the `Transcript.DataID` from `msdyn_interactioncontext` attribute. Use the following Web API request to filter the data by interaction ID.
 
    ```http
@@ -251,9 +252,9 @@ For example, while working on a case, the agent asks Copilot "How can I book a t
 
 ## Retrieve verbatim feedback
 
-When an agent interacts with Copilot, they can provide feedback on the responses that Copilot provides. The feedback is stored in the `msdyn_verbatim` column in the `msdyn_copilotinteractiondata` table in Dataverse. 
+When a representative interacts with Copilot, they can provide feedback on the responses that Copilot provides. The feedback is stored in the `msdyn_verbatim` column in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, the Copilot's response isn't accurate and the agent selects the thumbs-down icon to provide feedback. The agent also provides verbatim feedback. The application creates a record in the `msdyn_copilotinteraction` table with the `msdyn_interactiontypename` set to ThumbsDown.
+For example, the Copilot's response isn't accurate and the representative selects the thumbs-down icon to provide feedback. The representative also provides verbatim feedback. The application creates a record in the `msdyn_copilotinteraction` table with the `msdyn_interactiontypename` set to ThumbsDown.
 
 The key attributes for the record are as follows.
 
@@ -262,11 +263,12 @@ The key attributes for the record are as follows.
 | msdyn_copilotinteractionid    | 817ff9e4-cbe7-ee11-904c-000d3a3bb867            |
 | msdyn_scenariorequestid       | 93893746-e203-e9b6-18b9-887d68d18daf            |
 | msdyn_scenariotype            | Ask a question                                  |
+| msdyn_interactiontype         | 100230302                                  |
 | msdyn_interactiontypename     | ThumbsDown                                      |
 | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf            |
 | msdyn_interactiondataid       | 807ff9e4-cbe7-ee11-904c-000d3a3bb867            |
 
-You can get the verbatim feedback provided by the agent as follows.
+You can get the verbatim feedback provided by the representative as follows.
 
 1. [Get the required msdyn_copilotinteractiondata record ID value](#get-msdyn_copilotinteractionid-and-msdyn_interactiondataid-from-copilot-interaction-records) from the `msdyn_copilotinteraction` table.
 1. Run the following Web API request to retrieve the verbatim feedback.
@@ -320,15 +322,16 @@ You can get the verbatim feedback provided by the agent as follows.
 
 ## Download interaction data
 
-Except ask-a-question transcripts, for all other interactions between agents and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
+Except ask-a-question transcripts, for all other interactions between representatives and Copilot, data is stored in the `msdyn_copilotinteractiondata` table in Dataverse. 
 
-For example, an interaction can be an agent using Copilot to generate an email or a case summary. The key attributes for our example are as follows.
+For example, an interaction can be a representative using Copilot to generate an email or a case summary. The key attributes for our example are as follows.
 
 | Attribute                     | Value for our scenario                          |
 |-------------------------------|-------------------------------------------------|
 | msdyn_copilotinteractionid    | 0dd941e5-34e7-ee11-904c-000d3a3bb867            |
 | msdyn_scenariorequestid       | 42ae7f8e-736f-1cea-035b-6bf970b48e9c            |
 | msdyn_scenariotype            | Case summary                                    |
+| msdyn_interactiontype          | 100230305                                |
 | msdyn_interactiontypename     | Generated                                       |
 | msdyn_interactionforid        | 1cd6023d-d326-ee11-9966-000d3a3411cf            |
 | msdyn_interactioncontext      |     ` {"Filters":{"AgentContextFilters":[],"DynamicFilters":{"IsApplied":false}}} `                                         |
@@ -341,7 +344,7 @@ You can download the interaction data as follows.
 2. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteractiondata` table in the base64 encoded format:
 
    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_copilotinteractiondata
+    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_interactiondata
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
@@ -358,7 +361,7 @@ You can download the interaction data as follows.
  3. Decode the base64 encoded data to get the transcript. You can use an online base64 decoder tool to decode the data. For our email example, the decoded interaction data is displayed as follows.
  
   > [!NOTE]
-  > Suggest a response and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
+  > Ask a question, suggest a response, and draft an email features use the base64 encoder with the UTF-16 LE character set. Case and conversation summary use UTF-8 character set. We recommend that you use the same character set that was used to encode data to decode it.
 
 
  :::image type="content" source="../media/copilot-interactions-mini.png" alt-text="Screenshot of the decoded interaction data." lightbox="../media/copilot-interactions.png":::
