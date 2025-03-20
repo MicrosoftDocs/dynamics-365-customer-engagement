@@ -2,7 +2,7 @@
 title: Quote, order, and invoice tables (Dynamics 365 Sales)
 description: Learn about quote, sales order (order), and invoice building.
 ms.date: 01/28/2025
-ms.topic: article
+ms.topic: conceptual
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

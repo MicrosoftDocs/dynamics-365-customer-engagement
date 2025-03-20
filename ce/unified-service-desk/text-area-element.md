@@ -1,8 +1,8 @@
 ---
-title: "TextAreaElement in Unified Service Desk | MicrosoftDocs"
-description: "Learn about using TextAreaElement in Unified Service Desk used to associate a named control with a text area element on the HTML page."
+title: TextAreaElement in Unified Service Desk 
+description: Learn about using TextAreaElement in Unified Service Desk used to associate a named control with a text area element on the HTML page.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 12/12/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -21,14 +21,14 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 > [!IMPORTANT]
 > - Many countries and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-> - If you use Copilot Studio agents as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
+> - If you use AI agents created in Copilot Studio as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Prerequisites
 
-For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security) for more details. 
+For call recording to work as expected, allow the audio and mpeg MIME type for your environment in Power platform admin center. Learn more in [Manage privacy and security settings](/power-platform/admin/settings-privacy-security). 
 
 ## Enable call recording and transcription for voice
-1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. For more information, refer to [Enable call recording and SMS services](voice-channel-configure-services.md).
+1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. Learn more in [Enable call recording and SMS services](voice-channel-configure-services.md).
    
 1. In the Customer Service admin center or Contact Center admin center app, select the workstream for which you want to enable recording and transcription.
 
@@ -42,7 +42,7 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 
 1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want service representatives to record and transcribe their calls.
 
-1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representtives to control the portions of conversations that they record and transcribe.
+1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representatives to control the portions of conversations that they record and transcribe.
 
 1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the service representative puts the customer on hold and resumed when the representative takes the customer off hold.
 
@@ -50,7 +50,7 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 
 ## Enable real-time translation of calls
 
-To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for service representative and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-agent-and-customer-conversations)
+To view translated voice transcripts for calls, you must enable call recording, transcription, and real-time translation. To enable real-time translation, refer to [Enable real-time translation for representative and customer conversations](enable-real-time-translation.md#enable-real-time-translation-for-representative-and-customer-conversations)
 
 ## View call transcripts
 
@@ -91,7 +91,7 @@ The maximum file size of a recording can be 512 MB. The data storage cost with t
 - 20-minute call recording = 10240 KB
 - 20-minute call transcript = 40 KB
 
-Learn more about long term data retention with Dataverse at [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
+Learn more about long term data retention with Dataverse in [Dataverse long term data retention overview](/power-apps/maker/data-platform/data-retention-overview).
 
 ### Related information
 

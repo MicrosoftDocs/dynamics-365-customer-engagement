@@ -1,10 +1,10 @@
 ---
-title: Handle queue overflow
-description: Learn how to set up overflow conditions and actions for your Dynamics 365 Customer Service voice, chat, and messaging channels when there are more items in the queue than your team can handle.
+title: Manage overflow of work items in queues
+description: Learn how to set up overflow conditions and actions for your voice, chat, and messaging channels when there are more items in the queue than your team can handle.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/04/2025
+ms.date: 02/28/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -13,7 +13,7 @@ ms.custom:
  - ai-seo-date:02/21/2024
 ---
 
-# Handle queue overflow
+# Manage overflow of work items in queues
 
 When a new work item arrives, unified routing in Dynamics 365 Customer Service directs it to the customer service representative (service representative or representative) who's best suited to work on it. But what happens if all the service representatives who could work on it are already at maximum capacity? And how do you handle work items that arrive when your call center is closed? Overflow handling in Customer Service helps you manage both surge conditions and after-hours calls.
 
@@ -21,6 +21,7 @@ A queue's overflow handling options can trigger actions either before or after a
 
 [Before](#handle-overflow-before-a-work-item-is-queued):
 
+- The average wait time for an incoming call exceeds the time specified.
 - An incoming call or conversation exceeds the number of work items defined for the queue.
 - A work item comes in outside of business hours.
 
@@ -51,11 +52,9 @@ The system considers the following factors when it checks for overflow condition
   
 - If percentage-based routing is configured, the overflow conditions are evaluated after percentage-based routing matches a queue.
 
-- If the matched queue is overflowing due to multiple conditions, the system triggers the action that's defined for the operating hours condition first, followed by the other conditions in the order they're defined.
-
 - If a work item is routed to a fallback queue because of errors or no route-to-queue rule matches the requirement, the system ignores the overflow settings for the fallback queue and assigns the work item to it.
 
-- If an AI agent is configured for the workstream, the system checks for overflow conditions only after the AI agent escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
+If an AI agent is configured for the workstream, the system checks for overflow conditions only after the AI agent escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
 
 When you add an operating hour record to a queue, the system assigns a default overflow condition **Out of operation hours** with the action **Assign to queue anyway**. You can't edit the condition, but you can set a different action for it.
 
@@ -68,6 +67,14 @@ The following table lists the conditions and actions that are available for each
 | Voice | <ul><li>Out of operating hours</li><li>Work item limit exceeds</li><li>Average wait time</li></ul> | <ul><li>Assign to queue anyway</li><li>Direct callback</li><li>End call</li><li>Transfer to a different queue</li><li>Transfer to an external number</li><li>Voicemail</li></ul> |
 | Live chat and other messaging channels | <ul><li>Out of operating hours</li><li>Work item limit exceeds</li></ul> | <ul><li>End conversation</li><li>Transfer to a different queue</li><li>Assign to queue anyway</li></ul> |
 | Record | <ul><li>Out of operating hours</li></ul> | <ul><li>Assign to queue anyway</li><li>Transfer to a different queue</li></ul> |
+
+### How overflow is handled when multiple conditions are true
+
+If the matched queue is overflowing due to multiple conditions, the system triggers the action that's defined for the operating hours condition first, followed by the other conditions in the order they're defined.
+
+### How overflow works when work item is routed to a fallback queue
+
+If an AI agent is configured for the workstream, the system checks for overflow conditions only after the AI agent escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
 
 ### Configure overflow conditions for before a work item is queued
 
@@ -142,7 +149,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 ## Handle overflow when a work item is queued
 
-When a work item is in a queue and the wait is long, the system can reroute it to another queue that has representatives available.
+When a work item is in a queue and the actual wait is long, the system can reroute it to another queue that has representatives available.
 
 1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
 
@@ -154,7 +161,7 @@ When a work item is in a queue and the wait is long, the system can reroute it t
 
 1. Select the **Waiting time in queue exceeds** condition.
 
-1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows. If more than 20 work items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
+1. Enter a number and select a unit of time to indicate how long the predicted wait time can be before the queue overflows.
 
 1. [Select overflow condition-action pairs for queued work items](#overflow-condition-and-actions-when-work-items-are-queued).
 
@@ -166,16 +173,24 @@ The conditions and actions available for the channels are as follows.
 
 | Channel | Condition | Action |
 |---------|-----------|-------|
-|Record|Waiting time in queue exceeds|Transfer to a different queue|
+|Record | Waiting time in queue exceeds| Transfer to a different queue |
+|Voice | Waiting time in queue exceeds | Direct callback <br> Transfer to a different queue <br> Transfer to an external number <br> Voicemail |
+|Messaging | Waiting time in queue exceeds | End conversation <br> Transfer to a different queue |
+
+### When queues overflow with a large number of items
+
+If more than 20 work items overflow in a minute, the work items are addressed in batches. Those queues that have a lower wait time are addressed first. If all queues are configured with the same wait time, then overflow handling takes place in a round robin manner.
 
 ### Things to keep in mind
 
-You can configure the following wait time for the records channel:
+You can configure the following wait time for the channels:
 
-- Records channel: 3 minutes to 2 days
+- **Voice**: 1 to 60 minutes
+- **Messaging**: 1 minute to 2 days
+- **Records**: 3 minutes to 2 days
 
 The "wait time in queue" condition is evaluated in any of the following scenarios:
-- Work item is routed to a queue via the route to queue rules.
+- Work item is routed to a queue via the route-to-queue rules.
 - Work item is transferred by a representative or supervisor to the queue.
 - Work item overflows from another queue.
 

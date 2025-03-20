@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 02/20/2025
+ms.date: 02/27/2025
 ms.custom: bap-template
 ---
 
@@ -23,6 +23,7 @@ The features of email engagement apply to every email that you send through Dyna
 >
 >- Emails can't be tracked if a recipient chooses to block. More information: [blocks followed messages](configure-individuals-privacy-preferences.md).
 >- Email engagement isn't supported when you send bulk email.  
+>- You can only follow emails and attachments that are sent through Dynamics 365 email. Email and attachments sent through the Outlook client aren't followed though they are marked as tracked in Dynamics 365 Sales.
 
 Before creating the email, let's understand the different options that are available in the email form:  
 
@@ -61,7 +62,7 @@ Email engagement analyzes the performance of all the messages your sales team ha
 
 ## Add attachments <a name="FollowedAttachments"></a>
 
-When you attach documents, spreadsheets, or images to your emails, you can follow these attachments to know whether the recipient opened them. You can include both followed and unfollowed attachments in the same email.    
+When you attach documents, spreadsheets, or images to your emails, you can follow these attachments to know whether the recipient opened them. You can include both followed and unfollowed attachments in the same email.  
 By default, attachments aren't followed. You have to manually follow each attachment you want to track. Also, you can't follow attachments when the message recipients don't allow following.  
 
 1. [Create a message](#NewMessage).  
@@ -74,6 +75,7 @@ By default, attachments aren't followed. You have to manually follow each attach
 
     > [!NOTE]
     > The **Follow** option is available only when the enhanced attachment feature is disabled. Contact your administrator to [disable the enhanced attachment feature](configure-email-engagement.md#disable-the-enhanced-attachment-feature).  
+
 
 1. Select **Send**, or select **Save** to save the message as a draft and finish it later.  
 

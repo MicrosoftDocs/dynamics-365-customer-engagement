@@ -5,7 +5,7 @@ author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
 ms.topic: how-to 
-ms.date: 02/26/2025 
+ms.date: 02/27/2025 
 ms.custom: bap-template 
 ---
 
@@ -30,10 +30,7 @@ Before you enable the session restore feature, review the following definitions 
 ### Definitions
 
 - Generic sessions: All sessions that were created using generic session templates.  
-- Last updated browser tab: A browser tab where the service representative most recently created or closed a session or tab. Switching of sessions or tabs by representatives doesn't qualify as as "last updated browser tab".
-
-> [!Note]
-> Switching sessions or tabs doesn't equate to the last updated browser tab definition.
+- Last updated browser tab: A browser tab where the service representative most recently created or closed a session or tab. Switching of sessions or tabs by representatives doesn't qualify as "last updated browser tab".
 
 ### Considerations
 
