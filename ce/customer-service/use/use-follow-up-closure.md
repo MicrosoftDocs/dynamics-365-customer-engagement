@@ -15,30 +15,29 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 
-The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the agent can automatically resolve and close these cases.
-
-Based on your administrator's configuration, the agent can perform these actions autonomously or with agent confirmation.
+The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the AI agent suggests that the service representative can close the case.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
 
 
-## Use case follow-up and closure
+## How does autonomous case follow-up work
 
-After you send a closure email to the customer, the agent performs the following actions:
+Based on the follow-up rules and trigger configured by your administrator, the AI agent performs the following actions:
+ 
+1. Checks if a case meets the rules set to qualify for the follow-up process.
+1. Determines if the customer responded to your email within the configured duration for the first response time.
+1. Maps the **Status Reason** value on the case form to the status reason trigger set by your administrator. If the status reason matches the trigger, the AI agent displays the **Suggested actions** card on the case form with the next steps you can take.
+ 
+## Use the Suggested actions card
 
-1. Checks if the trigger condition set by the administrator is met.
-2. Determines if the customer responded to your email within the configured duration for the first response time.
-3. If there's no response, the agent initiates the follow-up process. The **Suggested actions** card appears on the case form. Based on the administrator's configuration, you can perform the following actions:
+You can see the **Suggested actions** card on the case form based on the configurations set by the administrator. The **Suggested actions** card displays the following:
+
+ - The next steps you can take:
+      - **Send follow-up**: The customer didn't respond to your last email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
+      - **Send next follow-up**: The customer didn't respond to the follow-up email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
+      - **Resolve case**: The customer didn't respond to any of the follow-up emails you sent. Select **Resolve case** to view the case resolution dialog. You can then close any open activities and resolve the case.
+ - An AI generated summary of when the customer last responded to your email and the next steps you can take. You can provide feedback by selecting the Thumbs up or Thumbs down icon. You can also hide or expand this summary.
 
 
-  ### [Fully autonomous](#tab/fullyautonomous)
-  
-   - Select the **Preview** button to view the email drafted by the agent in a new tab.
-   - After the configured number of follow-ups are sent, the agent sets the case status to resolved after populating configured case resolution fields. All open activities linked to the case are also closed.
 
-  ### [Requires agent confirmation](#tab/requiresagentconfirmation)
 
-   - Select the **Review and send** button to view the email drafted by the agent in a new tab. You can edit the email and then send it to a customer.
-   - After the required follow-up emails are sent, the agent displays the case resolution dialog with the configured resolution fields updated. You can then close any open activities and resolve the case.
-
----

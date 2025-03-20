@@ -31,29 +31,29 @@ Perform the following steps to set up autonomous case follow-up and closure:
 
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
 2. In the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
-3. In the page that appears, select **Add** to create a new rule for case follow-up and closure.
-4. In **Rules**, specify the following information. The agent evaluates the rules in the order they are listed and when the conditions match, updates the fields.
+3. In the page that appears, select **Turn on the case follow-up and closure automation**.
+1. Select **Add** to create a new rule for case follow-up and closure.
+1. In **Rules**, specify the following information. The AI agent evaluates the rules in the order they are listed and when the conditions match, updates the configured fields.
    - **Rule name**
    - **Conditions:** Specify the criteria for which the rule must run.
    - **Level of automation:** Select the automation level:
-     - **Require agent confirmation:** Agent drafts follow-up emails, initiates case closure, and populates the required fields, but requires service representative intervention to send the email and close the case.
+     - **Required agent confirmation:** The AI Agent drafts follow-up emails, initiates case closure, and populates the required fields, but requires service representative intervention to send the email and close the case.
      - **Full automation:** Agent independently sends follow-ups and resolves cases without manual intervention.
-   - **Follow-up emails:** Fields the agent should automatically populate when resolving the case (optional).
-   - **Case resolution form:** Specify fields the agent should automatically populate when resolving the case.
-   - **Follow-up trigger:** Specify the value of the field which prompts the agent to initiate the email follow-up process.
-   - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case.
-   - **Follow-up wait times:** Set the duration between sending follow-up emails.
+   - **Follow-up emails:** Fields the agent should refer to when drafting the follow-up emails.(optional).
+   - **Status Reason:** Specify the status reason that triggers a follow-up action as a suggestion to the representative.
+   - **Number of follow-ups:** The number of follow-up emails the agent must send without a response from the customer before resolving a case. The application considers the email sent by the service representative without a response from the customer as the first follow-up.
+   - **Follow-up wait times:** Specify the duration between follow-up emails.
    - Select **Save**.
 
-5. Optionally, after creating the rules, you can:
+5. On the Case follow-up and closure (preview) page, select the rule and then select **Activate**.
+1. Optionally, after creating the rules, you can:
    - Change the order in which the rules are evaluated.
    - Search for rules.
    - View the condition used for each rule by hovering the mouse over the condition.
 
 ### Example
-You want to configure the follow-up and case closure agent to automatically send follow-up emails for cases pertaining to **Contoso Coffee** issues with a case age greater than 7 days.  
 
-When the **Status Reason** is set to "Awaiting customer confirmation," the agent initiates the follow-up process and sends three follow-up emails in the specified interval. If there’s no response from the customer, the agent resolves the case.
+The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than 7 days and the service representative sets the case **Status Reason**  to "Awaiting customer confirmation". The agent should send three follow-up emails at 48-hour intervals. If the customer doesn't respond after the third follow-up, the service representative can close the case.
 
 **Configuration Example:**
 - **Rule:** Contoso Coffee follow-up and closure  
@@ -67,7 +67,6 @@ When the **Status Reason** is set to "Awaiting customer confirmation," the agent
     1. First follow up: 48 hours  
     2. Second follow-up: 48 hours  
     3. Final follow-up: 48 hours  
-- **Case resolution form:** Resolution, Resolution Type  
 
 ## Next steps
 
