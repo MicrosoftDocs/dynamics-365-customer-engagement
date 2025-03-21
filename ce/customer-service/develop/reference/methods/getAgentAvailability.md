@@ -49,7 +49,7 @@ window.addEventListener("lcw:ready", function handleLivechatReadyEvent(){
 ```
 
 
-# Pass custom context values to the function to make sure context is received
+## Pass custom context values to the function to make sure context is received
 
 This method internally performs a call to the setContextProvider function and then calls getAgentAvailability synchronously, to ensure that the context is set before continuing. Due to the async nature of the functions when used separately, the context might not be ready when consulting the agent is available.
 
@@ -58,7 +58,7 @@ When the context object is passed to the agent availability function, it makes s
 > [!NOTE]
 > There is no need to be call the setContextProvider method before calling getAgentAvailability.
 
-## Example
+## Code snippet
 
 ```JavaScript
 // To set the custom context, pass the custom context object as input parameter to agent availability
