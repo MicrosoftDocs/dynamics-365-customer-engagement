@@ -35,7 +35,9 @@ Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
 
 ### [Historical analytics](#tab/historicalpage)
 
-```
+**DAX query**
+Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
+
 
 |Label|Value  |
 |---------|---------|
@@ -44,16 +46,18 @@ Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
 |Filters used    |   msdyn_ocliveworkitem.msdyn_channel != '192350000'. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel). <br> <br>
 msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL. Unique identifier to identify the app to which this conversation belogs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid)|
 
-```
-
 ### [Real-time analytics](#tab/realtimepage)
 
-Run this query to retrieve the total conversations from your environment. 
+**DAX query**
+Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
 
-```
-All Conversations where msdyn_liveworkstream.msdyn_streamsource != '192350000' and msdyn_ocliveworkitem.msdyn_isagentsession = 1 and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL
+|Label|Value  |
+|---------|---------|
+|Dataverse entities used   |    msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)   |
+|Attributes used    |      None   |
+|Filters used    |   msdyn_ocliveworkitem.msdyn_channel != '192350000'. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel). <br> <br>
+msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL. Unique identifier to identify the app to which this conversation belogs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid)|
 
-```
 ---
 
  | Attribute                     | Definition                                                                                                                                                                                                 |
