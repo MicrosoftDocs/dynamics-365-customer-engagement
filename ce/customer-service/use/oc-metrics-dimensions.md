@@ -32,9 +32,9 @@ Total conversations = Total bot conversations +  Total direct agent Conversation
 
 ## Bot conversations
 
-The total number of conversations that have taken place during the selected period of time, across all statuses (active conversations and closed conversations) taking place with Voice/IVR or chat/digital bot.
+The total number of conversations that have taken place during the selected period of time with Voice or IVR or chat or digital bot, across all statuses (active conversations and closed conversations).
 
-Bot deflected conversations + Bot escalated conversations = Total bot conversations
+Bot Deflected Conversations + Bot Escalated Conversations = Total Bot Conversations 
 
 ### Related metrics
 
