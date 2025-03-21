@@ -4,7 +4,7 @@ description: Learn about the ON_TAB_SWITCH event of app profile manager in Custo
 author: snehasishlaik
 ms.author: slaik
 ms.reviewer: neeranelli
-ms.date: 03/20/2025
+ms.date: 03/21/2025
 ms.topic: reference
 ---
 
