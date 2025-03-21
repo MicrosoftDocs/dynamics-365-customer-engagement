@@ -25,7 +25,7 @@ This report provides a holistic view of the conversations in real time. It inclu
 
 > [!NOTE]
 > - Only digital messaging, chat, and voice channels are supported. Record routing isn't supported.
-> - The reports are prefiltered based on the queues you are logged in to as a supervisor. So you'll see metrics and conversations relevant to the assigned queues only.
+> - The reports are prefiltered based on the queues you're logged in to as a supervisor. So you see metrics and conversations relevant to the assigned queues only.
 
 [Learn more about the metrics that are shown on the Ongoing conversation report.](oc-metrics-dimensions.md)
 
@@ -116,7 +116,7 @@ When the **Agent Name** doesn't exist, the following options are enabled.
     
 When the **Agent Name** exists, the following options are enabled.
   - **Transfer**: Transfer the conversation from one representative to another in the same queue.
-  - **Monitor**: Open the conversation dialog to monitor the chat.
+  - **Monitor**: To monitor the chat, open the conversation dialog.
   - **Force close**: Force close the conversation if necessary.
     :::image type="content" source="../media/actions-agent-name.png" alt-text="Screenshot that shows actions enabled when agent name is enabled.":::
 
