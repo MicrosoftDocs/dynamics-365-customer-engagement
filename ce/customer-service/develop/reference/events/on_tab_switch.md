@@ -11,7 +11,7 @@ ms.topic: reference
 # ON_TAB_SWITCH event
 
 
-This event is invoked by the client when a tab is switched to another tab. This event allows client-side handlers to react to tab switches, updating the user interface or internal state as necessary. ON_TAB_SWITCH event takes the following eventData:
+This event is invoked by the client when a tab is switched to another tab. This event allows client-side handlers to react to tab switches, updating the user interface or internal state as necessary. ON_TAB_SWITCH event takes the following eventData.
 
 
 | eventData            | Description  | 
