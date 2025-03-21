@@ -76,7 +76,7 @@ The AI agent should automatically initiate the case follow-up process for cases 
     2. Second follow-up: 48 hours  
     3. Final follow-up: 48 hours  
 
-## Runtime experience
+### Runtime experience
 
 Based on the follow-up rules and trigger configured, the AI agent performs the following actions:
  
