@@ -20,18 +20,18 @@ ms.reviewer: lavanyakr
 
 These frequently asked questions are intended to help you understand the impact of AI on the sales qualification agent in Dynamics 365 Sales.
 
-## What is the sales qualification agent in Copilot?
+## What is sales qualification agent in Copilot?
 
-The sales qualification agent is an AI agent that automates manual jobs in the sales process. They can be configured to act on behalf of a sales team to:
+The sales qualification agent is an AI agent that automates the lead research process and helps you qualify leads quickly and efficiently. The agent can be configured to act on behalf of a sales team to:
 
-- Research leads
+- Get research insights about leads
 - Determine lead fit with the sales team's ideal customer profile
 
 ## How is the sales qualification agent intended to be used?
 
-The sales qualification agent is designed to help sellers automate manual tasks so that sellers can invest more time in 1 on 1 interactions with top leads. Rather than act on behalf of sellers, the agent proactively finds and surfaces top leads along with actions that sellers can quickly review and approve. Here are some key use cases for copilot agents:
+The sales qualification agent is designed to help sellers automate manual tasks so that sellers can invest more time in one-on-one interactions with top leads. Rather than act on behalf of sellers, the agent proactively finds and surfaces top leads along with actions that sellers can quickly review and approve. Here are some key use cases for copilot agents:
 
-- **Configuration**: The agent can be configured to work only for a specific "team" of sellers (i.e., sellers who are part of security roles defined by the admin in settings) that sell specific products or services and target a particular ideal customer profile.
+- **Configuration**: The agent can be configured to work for specific security roles defined by the admin in settings. The security role can include sellers who sell specific products or services and target a particular ideal customer profile.
 - **Research**: For each lead, sellers can access the **Lead insights** page that synthesizes insights about a lead and their company from data in Dataverse and the public web.
 - **Ideal customer profile match**: Sellers get an evaluation for why a lead matches or doesn't match their ideal customer profile.
 
@@ -44,32 +44,33 @@ The sales qualification agent was carefully evaluated for each use case using cu
 
 ## What are the limitations of the sales qualification agent? How can users minimize the impact of these limitations?
 
-- *Number of agents*: Only 1 agent can be created per org. Customers will need to decide the sellers for whom they want to activate this agent.
+- *Number of agents*: Only one agent can be created per org. Customers need to decide the sellers for whom they want to activate this agent.
 - *Entity*: Agent only works on the out of box lead entity.
-- *Initial agent activation*: When the agent gets activated for the first time, only the 100 most recently created leads that meet the following criteria will get processed: (a) lead status is open, (b) lead is owned by a seller who is part of a security role assigned to the agent, (c) lead is 14 days old or newer. The leads will be processed in batches of 10, with a 15 second delay between each batch.
-- *Overnight lead processing*: Agent processes leads overnight to make sure that outputs are up-to-date. At most 200 leads that meet the following criteria can be processed overnight:
+- *Initial agent activation*: When the agent gets activated for the first time, only the 100 most recently created leads that meet the following criteria get processed: (a) lead status is open, (b) lead is owned by a seller who is part of a security role assigned to the agent, (c) lead is 14 days old or newer. The leads are processed in batches of 10, with a 15-second delay between each batch.
+- *Overnight lead processing*: Agent processes the leads overnight to make sure that outputs are up-to-date. At most 200 leads that meet the following criteria can be processed overnight:
 
   - Lead status is open
   - Lead is owned by a seller who is part of a security role assigned to the agent
-  - Lead has been created in the last 14 days. The newest leads are processed first
+  - Lead was created in the last 14 days. The newest leads are processed first
 
-- *Ad hoc lead processing*: Agent processes leads "ad hoc" based on event triggers that cause outputs to change:
+- *Off cycle lead processing*: Apart from the overnight job, the agent also processes leads based on event triggers that cause outputs to change:
 
   - Lead's account is linked/updated
   - Lead's company name
   - Lead's contact is linked/updated
   - New lead is created
 
-There's no limit to the number of leads that can be processed ad hoc.
+There's no limit to the number of leads that can be processed based on event triggers.
 
 ## What operational factors and settings allow for effective and responsible use of the sales qualification agent?
 
 The sales qualification agent has a configuration experience that allows an admin to personalize the agent to work for their specific sales team:
 
-- Select which sellers should have access to the agent by selecting security roles for the agent. Any sellers who have the selected security roles will have access to the agent, and it follows that any leads owned by these sellers will get processed by the agent.
-- Clearly define the products and value proposition of the products and/or services that your sellers sell. This will help the agent better determine ideal customer profile fit.
+- Select which sellers should have access to the agent by selecting their security roles in the agent settings. The agent processes only the leads that are owned by sellers in the selected security roles.
+
+- Clearly define the products and value proposition of the products and/or services that your sellers sell. These details help the agent better determine the ideal customer profile fit.
 - Define the ideal customer profile attributes that the agent should look for based on your sales team's target customer and the data you have available in Dataverse.
-- The agent primarily operates on data that resides in Dataverse – the more information available about a lead, the better your outputs will be.
+- The agent primarily operates on data that resides in Dataverse – the more information available about a lead, the better your outputs are.
 
 ## Which languages are supported by the sales qualification agent?
 

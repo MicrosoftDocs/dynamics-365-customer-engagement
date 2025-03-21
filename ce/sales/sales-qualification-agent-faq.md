@@ -1,5 +1,5 @@
 ---
-title: sales qualification agent FAQ
+title: Sales qualification agent FAQ
 description: 
 ms.date: 02/19/2025
 ms.topic: overview
@@ -39,11 +39,16 @@ An ideal customer profile (ICP) is a detailed description of a target customer w
 
 - **Decision Makers**: Chief Information Officer (CIO), Chief Technology Officer (CTO), Head of Sales
 
-By focusing on leads that match this profile, you can tailor your approach to address specific needs and challenges, thereby increasing the likelihood of a successful sale.
+By focusing on leads that match this profile, you can tailor your approach to address specific needs and challenges, and increase the likelihood of a successful sale.
 
 
-## Why don't I see the new notification bar in the lead form?
+## Why don't I see the insights banner in the lead form?
 
-The notification bar appears only for leads that have been researched by the agent. Learn more about the [selection criteria](#selectioncriteria).
+The insights banner appears only for leads that are researched by the agent. Learn more about the [selection criteria](#selectioncriteria).
 
+## Why did the agent pause?
 
+The agent might pause for the following reasons:
+
+- One or more consents required for the agent are revoked by your admin.
+- There's no capacity available for the agent to process leads. Contact your admin to check the capacity and resolve the issue.

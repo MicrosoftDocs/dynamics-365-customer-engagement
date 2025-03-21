@@ -22,11 +22,11 @@ ai-usage: ai-assisted
 
 # Sales qualification agent overview
 
-Sales qualification agent in Dynamics 365 Sales is an AI assistant that helps your sales team qualify leads smartly and efficiently. The agent automatically researches leads and determines if they are a good fit for further engagement. Think of it as a personal assistant that provides detailed research insights about each lead, covering the following aspects:
+Sales qualification agent in Dynamics 365 Sales is an AI assistant that helps your sales team qualify leads smartly and efficiently. The agent automatically researches leads and determines if they're a good fit for further engagement. Think of it as a personal assistant that provides detailed research insights about each lead, covering the following aspects:
 
 - **Lead background**: Understand the lead's background, including their role, company, and industry.
 - **Lead engagement**: Review the lead's recent interactions with your organization, such as emails, meetings, and calls.
-- **Lead insights**: Get insights about the lead's recent activities, such as their recent opportunities, colleagues who have worked with them, and why this lead matches your ideal customer profile.
+- **Lead insights**: Get insights about the lead's recent activities, such as their recent opportunities, colleagues who worked with the leads, and why this lead matches your ideal customer profile.
 - **Lead news**: Stay updated with the latest news about the lead's company and industry.
 
 ## Configure and use the agent
