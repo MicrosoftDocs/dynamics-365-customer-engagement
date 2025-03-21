@@ -1,9 +1,9 @@
 ---
 title: ON_TAB_SWITCH event JavaScript API Reference
-description: Learn about the ON_TAB_SWITCH event of app profile manager in Customer Service workspace.
-author: snehasishlaik
-ms.author: neeranelli
-ms.reviewer: neeranelli
+description: Learn about the ON_TAB_SWITCH event in Customer Service workspace.
+author: neeranelli
+ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 03/21/2025
 ms.topic: reference
 ---
