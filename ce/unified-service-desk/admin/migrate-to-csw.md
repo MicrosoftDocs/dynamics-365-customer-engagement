@@ -42,4 +42,5 @@ The **Unified Service Desk to Customer Service workspace Migration Playbook** he
 
 ### See also
 
-[Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)  
+- [Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)
+- [Migrate from Unified Service Desk to Customer Service workspace](/dynamics365/guidance/resources/cs-usd-migration-guide)  
