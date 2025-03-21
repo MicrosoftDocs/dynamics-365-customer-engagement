@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 02/19/2025
+ms.date: 04/03/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -95,13 +95,13 @@ For example, three representatives, Lesa, Alicia, and Alan, are available with t
 
 ### Least active
 
-The system assigns a work item to the representative who is least active among all the representatives in voice queues who match the required skills, presence, and capacity.
+The system assigns a work item to the representative who is least active among all the representatives in voice and messaging queues who match the required skills, presence, and capacity.
 
-The assignment method uses "the time since last capacity is released for a voice call" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
+The assignment method uses "the time since last capacity is released for a voice or messaging conversation" and the [**Block capacity for wrap-up**](create-workstreams.md#configure-work-distribution) setting configured in the workstream to determine the least-active representative and routes the next incoming call to them.
 
-For example, Oscar Ward and Victoria Burke are two representatives with same skills who work in the Orders and Refunds voice queues. Oscar has a call that comes in at 1:00 PM in the Orders queue. Victoria takes a call at 1:05 PM in the Refund queue. Oscar’s issue takes 15 minutes to close. Victoria solves their customer problem in five minutes. The next call comes in at 1:20 PM in the Orders queue.
- 
-Because least active routing considers the idle time of representatives, and the last capacity release for Victoria was earlier than Oscar, the new call is assigned to Victoria.
+For example, Oscar Ward and Victoria Burke are two representatives with the same skills. While Oscar works on the **Orders** voice queue, Victoria works on both **Orders** voice and **Refunds** messaging queues. Oscar has a call that comes in at 1:00 PM in the **Orders** queue. Victoria takes a chat conversation at 1:05 PM in the **Refunds** queue. Oscar’s issue takes 15 minutes to close. Victoria solves their customer problem in five minutes. The next call comes in at 1:20 PM in the **Orders** queue.  
+
+Because least active routing considers the idle time of representatives across voice and messaging queues, and the last capacity release for Victoria was earlier than Oscar, the new call is assigned to Victoria.
 
 Routing to the least-active representative assignment strategy helps in a balanced distribution of work items across representatives, and results in higher representative efficiency and improved customer satisfaction.
 
@@ -109,7 +109,7 @@ You can also build a [custom report](model-customize-reports.md) to track an rep
 
 > [!IMPORTANT]
 >
-> The least-active assignment method is available for the voice channel only and is the default selection when you create a voice queue.
+> The least-active assignment method is available for the voice and messaging channels only and is the default selection when you create a voice queue.
 >
 > This feature is intended to help customer service managers or supervisors enhance their team’s performance and improve customer satisfaction. This feature is not intended for use in making—and should not be used to make—decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 

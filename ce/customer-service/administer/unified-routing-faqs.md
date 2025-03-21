@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 02/04/2025
+ms.date: 04/03/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -90,11 +90,11 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 
 The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
-## Route to least-active agent
+## Route to least-active representative
 
 ### For which channel is the routing to least-active representative feature available?
 
-The feature is available for the voice channel only.
+The feature is available for the voice and messaging channels only.
 
 ### Does the sign-in time affect the calculation of the least active representative? 
 

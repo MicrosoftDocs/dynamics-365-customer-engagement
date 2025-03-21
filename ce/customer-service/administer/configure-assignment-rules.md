@@ -1,7 +1,7 @@
 ---
 title: Configure assignment methods for queues
 description: Contains steps on how to configure the different assignment methods for queues in your contact center.
-ms.date: 02/04/2025
+ms.date: 04/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -67,7 +67,7 @@ Follow the steps to create a custom assignment method:
    c. **Order by**: Select an attribute to define the order of work assignment if multiple service representatives match the condition.
 
       - **Ordering Attributes**:
-         - **Least active**: Is available for voice channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
+         - **Least active**: Is available for voice and messaging channel queues only. Work item is routed to the representative who is the least active among all who match the skills, presence, and capacity. Learn more in [Types of assignment methods](assignment-methods.md#types-of-assignment-methods).
          - Round Robin
          - Unit-based available capacity
          - Profile-based available capacity
