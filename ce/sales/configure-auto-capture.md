@@ -1,7 +1,7 @@
 ---
 title: Enable and configure auto capture
 description: Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
-ms.date: 03/21/2025
+ms.date: 03/24/2025
 ms.custom: bap-template
 ms.topic: how-to
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -51,7 +51,7 @@ Before you enable auto capture, perform the following tasks:
 
 1.	Sign in to the Dynamics 365 Sales Hub app, and go to **Change area** > **Sales Insights settings**.
 
-2.	On the site map under **Productivity intelligence**, select **Auto capture**. 
+2.	On the site map under **Productivity**, select **Auto capture**. 
 
 3.	Turn on the **Enable basic auto capture** toggle.
 
