@@ -28,7 +28,7 @@ This article provides an overview of various conversation metrics available in D
 
 The total count of conversations that occurred within the chosen timeframe across all channels (digital and voice), including interactions with both bots and human agents. This encompasses all conversation statuses such as open (unassigned), active (assigned), waiting (awaiting customer's response), wrap-up, and closed conversations across inbound and outbound communications.​
 
-Total conversations = Total bot conversations +  Total direct agent Conversations (inbound and outbound) that can be in any of the conversation states. Learn more in [conversation status](metrics-data-model.md#conversation-status).
+Total conversations = Total bot conversations +  Total direct agent Conversations (inbound and outbound) that can be in any of the conversation states. Learn more in [conversation states](oc-conversation-state.md#understand-conversation-states)[conversation status](metrics-data-model.md#conversation-status).
 
 ## Bot conversations
 
