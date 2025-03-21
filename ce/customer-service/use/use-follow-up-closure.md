@@ -25,18 +25,22 @@ The autonomous case agent management uses AI to generate and send periodic follo
 Based on the follow-up rules and trigger configured by your administrator, the AI agent performs the following actions:
  
 1. Checks if a case meets the rules set to qualify for the follow-up process.
-1. Determines if the customer responded to your email within the configured duration for the first response time.
-1. Maps the **Status Reason** value on the case form to the status reason trigger set by your administrator. If the status reason matches the trigger, the AI agent displays the **Suggested actions** card on the case form with the next steps you can take.
+1. Maps the **Status Reason** value on the case form to the status reason trigger set by your administrator. 
+1. Determines if the customer responded to your email within the configured duration for the first response time. If the status reason matches the trigger, the AI agent displays the **Suggested actions** card on the case form with the next steps you can take.
  
 ## Use the Suggested actions card
 
 You can see the **Suggested actions** card on the case form based on the configurations set by the administrator. The **Suggested actions** card displays the following:
 
- - The next steps you can take:
+ - The next steps you can take are as follows:
+ 
       - **Send follow-up**: The customer didn't respond to your last email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
       - **Send next follow-up**: The customer didn't respond to the follow-up email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
+     - If the customer responds to the email at any point in the follow-up process, with a favorable response, the AI agent stops sending follow-up emails and the **Suggested actions** card is no longer displayed on the the case form.
+     - **Reply to customer**: The customer responds to the email within the follow-up duration with a response that the agent can't process or contains a negative response. Select **Draft reply** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
       - **Resolve case**: The customer didn't respond to any of the follow-up emails you sent. Select **Resolve case** to view the case resolution dialog. You can then close any open activities and resolve the case.
  - An AI generated summary of when the customer last responded to your email and the next steps you can take. You can provide feedback by selecting the Thumbs up or Thumbs down icon. You can also hide or expand this summary.
+
 
 
 
