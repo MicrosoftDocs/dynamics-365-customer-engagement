@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/03/2025
+ms.date: 03/21/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,26 +22,27 @@ This article provides detailed guidance on calculating key conversation metrics.
 
 ## Total conversations
 
-The total count of conversations that occurred within the chosen timeframe across all channels (digital and voice), including interactions with both bots and human agents. Learn more in [Total conversations](../use/oc-metrics-dimensions.md#total-conversations).
+The total count of conversations that occurred within the chosen timeframe across all channels (digital and voice), including interactions with both bots and human agents. This encompasses all conversation statuses such as open (unassigned), active (assigned), waiting (awaiting customer's response), wrap-up, and closed conversations across inbound and outbound communications.​
 
-### Query
+Total conversations = Total bot conversations +  Total direct agent Conversations (inbound and outbound) that can be in any of the conversation states. Learn more in [conversation status](metrics-data-model.md#conversation-status).
 
-This section describes the query that is used to calculate total conversations in Power BI and Dataverse.
+### DAX query and Dataverse reference
 
-```dax
+Refers to the DAX query used in the Omnichannel historical and Omnichannel realtime Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
 
 Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
 
-Dax -> Count of Rows of FactConversations ( same for both historical and real-time) 
-
-```
 
 ### [Historical analytics](#tab/historicalpage)
 
-Run this query to retrieve the total conversations from your environment. 
-
 ```
-All Conversations where msdyn_ocliveworkitem.msdyn_channel != '192350000' and msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL
+
+|Label|Value  |
+|---------|---------|
+|Dataverse entities used   |    msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem)   |
+|Attributes used    |      None   |
+|Filters used    |   msdyn_ocliveworkitem.msdyn_channel != '192350000'. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel). <br> <br>
+msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL. Unique identifier to identify the app to which this conversation belogs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid)|
 
 ```
 
