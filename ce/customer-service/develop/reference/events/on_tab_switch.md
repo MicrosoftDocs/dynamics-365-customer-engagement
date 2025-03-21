@@ -46,7 +46,7 @@ tabSwitchSubscriber.onmessage = tabSwitchedHandlerFunction;
 ```
 
 > [!NOTE]
-> The code sample uses the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API), to communicate between different documents such as pages or iframes that are of the same origin. Make sure it's compatible with your customization as support for this API can vary.
+> The code sample uses the [Broadcast Channel API - Web APIs](https://developer.mozilla.org/en-US/docs/Web/API/Broadcast_Channel_API) to communicate between different documents such as pages or iframes that are of the same origin. Make sure it's compatible with your customization as support for this API can vary.
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]
