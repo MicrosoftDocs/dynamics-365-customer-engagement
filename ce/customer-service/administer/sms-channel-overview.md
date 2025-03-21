@@ -20,7 +20,7 @@ The following scenarios are supported for SMS:
 - Service representatives can receive SMS conversations from customers and then exchange messages.
 - Admins can configure Power Automate flows to proactively send outbound messages, such as campaigns, to customers
 
-Service representatives can't proactively reach out to customers by starting an SMS conversation in the service representative UI.
+Service representatives can't proactively reach out to customers by starting an SMS conversation in the app used by the representatives.
 
 You can use the same toll-free phone number from Azure Communications Services for the SMS channel, and for inbound and outbound calling in the voice channel. The toll-free SMS is currently available in United States, Canada, and Puerto Rico only. The Azure Communication Services-based short codes for the SMS channel are available in United States, Canada, and United Kingdom. For detailed information about numbers and eligibility, see [Subscription eligibility and number capabilities](/azure/communication-services/concepts/numbers/sub-eligibility-number-capability).
 
