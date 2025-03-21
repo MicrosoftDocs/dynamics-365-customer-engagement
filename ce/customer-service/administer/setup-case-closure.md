@@ -58,6 +58,8 @@ In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup
 1. The default Cloud flows in the organization are displayed. Select edit for each of **CSCaseClosure Agent Flow**, **CSCaseFollowup Agent flow**, and **CSCaseClosure Representative Flow**. The connection status of the flow should be **Connected**.
 
 
+:::image type="content" source="../media/powerapps-flow-status.png" alt-text="screenshot of connection status of flow.":::
+
 ## Example
 
 The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than 7 days and the service representative sets the case **Status Reason**  to "On Hold". The agent should send three follow-up emails at 48-hour intervals. If the customer doesn't respond after the third follow-up, the service representative can close the case.

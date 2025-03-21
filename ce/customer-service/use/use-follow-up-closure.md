@@ -32,7 +32,7 @@ Based on the follow-up rules and trigger configured by your administrator, the A
 
 You can see the **Suggested actions** card on the case form based on the configurations set by the administrator. The **Suggested actions** card displays the following:
 
- - The next steps you can take are as follows:
+ - The next steps you can take.
  
       - **Send follow-up**: The customer didn't respond to your last email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
       - **Send next follow-up**: The customer didn't respond to the follow-up email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
