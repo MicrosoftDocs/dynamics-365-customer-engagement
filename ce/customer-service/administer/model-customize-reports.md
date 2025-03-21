@@ -1,7 +1,7 @@
 ---
 title: Model customization of historical and real-time analytics reports in Customer Service
 description: Learn how to customize historical and real-time analytics reports in Dynamics 365 Customer Service using Power BI.
-ms.date: 11/04/2024
+ms.date: 03/21/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -45,8 +45,8 @@ Enable data model customization for historical and real-time analytics reports i
 
 Before you begin, you must complete the following prerequisites:
 
-- Your organization must have the Microsoft Fabric Capacity for all report users to access the reports. Learn more in [Microsoft Fabric](/fabric/get-started/microsoft-fabric-overview).
-- Your organization must have the Power BI Premium per user license for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model.
+- Specific licensing requirements apply for all report users to access the reports. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and at [Microsoft Fabric Pricing](https://azure.microsoft.com/pricing/details/microsoft-fabric/).
+- Specific licensing requirements apply for report authors, developers, and administrators to build Power BI reports and extend the out-of-the-box Power BI data model. Learn more in [Microsoft Product Terms](https://go.microsoft.com/fwlink/?linkid=2309718) and [Power Platform Pricing](https://go.microsoft.com/fwlink/?linkid=2309616).
 
 - Enable insights features in Customer Service:
 
