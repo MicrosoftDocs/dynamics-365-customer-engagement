@@ -246,10 +246,10 @@
           href: oc-real-time-translation.md
         - name: Markdown formats for agents
           href: markdown-formats-agents.md
+      - name: Use channels
+        items:
         - name: Introduction to channels
           href: channels.md
-        - name: Overview of SMS channels
-          href: sms-channel-overview.md
         - name: Use SMS channel
           href: sms-twilio.md
         - name: Use Facebook channel
