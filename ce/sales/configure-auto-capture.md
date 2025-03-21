@@ -1,7 +1,7 @@
 ---
 title: Enable and configure auto capture
 description: Configure auto capture to help your sellers to get suggestions on relevant customer activities by capturing emails and meetings from Outlook.
-ms.date: 03/13/2024
+ms.date: 03/21/2025
 ms.custom: bap-template
 ms.topic: how-to
 ms.assetid: d4d130c5-3494-4677-9093-0a0e0124d953
@@ -55,8 +55,7 @@ Before you enable auto capture, perform the following tasks:
 
 3.	Turn on the **Enable basic auto capture** toggle.
 
-> [!div class="mx-imgBorder"]
-> ![Enable or disable auto capture](media/si-admin-auto-capture-enable-disable.png "Enable or disable auto capture")
+:::image type="content" source="media/si-admin-auto-capture-enable-disable.png" alt-text="Screenshot of the toggle to enable or disable auto capture in Dynamics 365 Sales.":::
 
 > [!NOTE]
 > For more information about auto capture and how it can help your users, see [Capture customer-related activities with auto capture](auto-capture.md).
