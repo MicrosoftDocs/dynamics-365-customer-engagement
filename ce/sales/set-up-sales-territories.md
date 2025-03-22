@@ -6,7 +6,7 @@ ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.topic: how-to
 ms.collection: get-started
-ms.date: 09/13/2023
+ms.date: 03/11/2025
 searchScope:
   - D365-App-msdynce_saleshub
   - D365-Entity-territory
@@ -44,16 +44,16 @@ Create a sales territory to define a geographical area for your business. For ex
 
 4. In the sales territory form, fill in your information.
 
-   a. **Name**. Enter the geographical name for the territory such as the name of a city, country/region, or state.
+   a. **Name**: Enter the geographical name for the territory such as the name of a city, country/region, or state.
 
-   b. **Manager**. Select the user who manages the territory. This person would typically assign leads to salespeople.
+   b. **Manager**: Select the user who manages the territory. This person would typically assign leads to salespeople.
 
     > [!Important]
     > You can't allocate the same user to multiple territories. If you need to assign a user to a larger area (more than one existing territory), create a new territory that includes the existing territories, and then assign the user to that new territory.
   
-   c.  **Parent**. Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
+   c.  **Parent**: Select a parent territory. The current territory will be added as a child territory to the selected territory. For example, If you are creating sales territories for California and Washington, you can add the United States of America as a parent so that a parent-child relationship is created between the sales territories and the parent territory.  
 
-   d. **Description**. Enter any details that you'd like to include for this territory, for example, "Sales territory created for education and training."
+   d. **Description**: Enter any details that you'd like to include for this territory, for example, "Sales territory created for education and training."
 
 5. Save the changes.
 

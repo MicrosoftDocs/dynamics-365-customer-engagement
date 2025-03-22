@@ -1,7 +1,7 @@
 ---
 title: FAQ about Omnichannel for Customer Service
 description: Learn about the frequently asked questions (FAQ) on the different features in Omnichannel for Customer Service and their requirements.
-ms.date: 03/03/2025
+ms.date: 03/21/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -64,8 +64,8 @@ Yes. You can work on cases alongside customer conversations in different session
 
 Omnichannel for Customer Service supports Chat for Dynamics 365 and SMS channels. You should continue to use the third-party communication widgets in the single-session Unified Interface apps like Customer Service Hub. Support for integrating third-party channels is available in [Dynamics 365 Channel Integration Framework v2](../../channel-integration-framework/v1/administer/overview-channel-integration-framework.md).
 
-### Can I open Omnichannel for Customer Service in multiple browser tabs and windows?
-
+### Can I open Omnichannel for Customer Service in multiple browser tabs, windows or devices?
+Omnichannel for Customer Service supports accepting notifications across browser tabs or devices, however sessions started in one tab cannot be transferred to other tabs.
 We recommend that you don't open Omnichannel for Customer Service in multiple browser tabs or windows. The app is inherently designed to help customer service representatives (service representatives or representatives) work in a multisession environment wherein each session has contextual application tabs. The sessions aren't synced across browser tabs.
 
 ### What happens if I accidentally close the browser, refresh the entire page, or the browser crashes?
@@ -73,6 +73,8 @@ We recommend that you don't open Omnichannel for Customer Service in multiple br
 If you accidentally close your browsers, your currently open sessions and tabs opened inside them are lost. However, if you entered some data on the model-driven forms where AutoSave is enabled, they're saved into model-driven apps.
 
 Ongoing chat and voice conversations appear on your Omnichannel Agent Dashboard. You can pick the chat or [voice call](/dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection) from the dashboard and resume the conversation. The system preserves the chat or voice call conversation, and you can review the previous chat messages. If you were working on case sessions, you can reopen them using the gestures. For information on starting a session, go to [Manage sessions in Omnichannel for Customer Service](../use/oc-manage-sessions.md#start-a-session).
+
+To restore browser sessions after the browser reopens, see [session restore (preview)](/dynamics365/customer-service/administer/enable-session-restore).
 
 ### Does consult only work for managers and supervisors?
 

@@ -64,7 +64,7 @@
             href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
           - name: View, compose, and respond to emails
             href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context
-          - name: Enhanced recepient handling
+          - name: Enhanced recipient handling
             href: /power-apps/user/view-compose-email#enhanced-recipient-handling?context=/dynamics365/context/customer-service-context
           - name: Use enhanced experience to attach files to emails
             href: enhanced-email-attachment-control.md                            
@@ -246,10 +246,10 @@
           href: oc-real-time-translation.md
         - name: Markdown formats for agents
           href: markdown-formats-agents.md
+      - name: Use channels
+        items:
         - name: Introduction to channels
           href: channels.md
-        - name: Overview of SMS channels
-          href: sms-channel-overview.md
         - name: Use SMS channel
           href: sms-twilio.md
         - name: Use Facebook channel

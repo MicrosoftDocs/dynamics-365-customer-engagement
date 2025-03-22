@@ -1,7 +1,7 @@
 ---
 title: Prioritize sales pipeline with work lists
 description: Use work lists in the sales accelerator to prioritize your sales pipeline and ensure important records aren't left behind.
-ms.date: 10/16/2023
+ms.date: 03/17/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -54,8 +54,7 @@ The work list displays a list of records that are assigned to you or the securit
 
 2. From the site map, under **My Work**, select **Sales accelerator**.    
     The work list page opens, as shown in the following image.   
-    > [!div class="mx-imgBorder"]
-    > ![Work list page.](media/sa-worklist-page.png "Work list page")   
+    :::image type="content" source="media/sa-worklist-page.png" alt-text="Screenshot of the work list page.":::   
 
     | Number | Feature | Description |
     |--------|---------|-------------|
@@ -69,8 +68,7 @@ The work list displays a list of records that are assigned to you or the securit
 
 Use filters to prioritize the records in the work list so you can reach customers at the right time. The following image shows the list of options that are available to filter the work list.
 
-> [!div class="mx-imgBorder"]    
-> ![Work list filter options.](media/sa-worklist-filter-options.png "Work list filter options")    
+:::image type="content" source="media/sa-worklist-filter-options.png" alt-text="Screenshot of the work list filter options.":::    
  
 Filters are categorized into two types:    
 
@@ -105,13 +103,11 @@ In the following example, your administrator has created a filter based on lead 
 
 1.	From the filter options, expand **Leads**.  
 
-    > [!div class="mx-imgBorder"]    
-    > ![Select Leads from filters.](media/sa-worklist-filter-options-custom-select-lead.png "Select Leads from filters")    
+    :::image type="content" source="media/sa-worklist-filter-options-custom-select-lead.png" alt-text="Screenshot of selecting Leads from filters.":::    
  
 2.	Expand **Leads.Currency**, and then select **US Dollar**.
 
-    > [!div class="mx-imgBorder"]    
-    > ![Select the filter as US dollar.](media/sa-worklist-filter-select-dollar.png "Select the filter as US dollar")    
+    :::image type="content" source="media/sa-worklist-filter-select-dollar.png" alt-text="Screenshot of selecting the filter as US dollar.":::    
  
 The work items list is filtered to show only leads with the currency type of **US Dollar**.
 
@@ -141,29 +137,25 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
 
 1.	On the work list page, select **More options** > **Bulk email**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Bulk email from More options.](media/sa-worklist-select-bulk-email.png "Select bulk email from more options")
+     :::image type="content" source="media/sa-worklist-select-bulk-email.png" alt-text="Screenshot of selecting Bulk email from More options.":::
 
     The work list records in the queue are automatically grouped according to the sequence and then the action. For example, the **Lead nurturing** sequence has 10 leads, with nine on the **Follow up mail** step and one on the **Introduction mail** step. When you select the **Bulk email** option, the records are first grouped by the lead nurturing sequence and then by the **Follow up mail** and **Introduction mail** steps.
 
     As shown in the following image, the **Bulk email** option in the upper-right corner is unavailable until you select the leads, as described in the following step.
 
-    > [!div class="mx-imgBorder"]
-    > ![Records grouped according to task after selecting bulk email.](media/sa-worklist-bulk-email-selected.png "Records grouped according to task after selecting bulk email")
+    :::image type="content" source="media/sa-worklist-bulk-email-selected.png" alt-text="Screenshot of records grouped according to task after selecting bulk email.":::
  
 2.	Choose the leads to whom you want to send the bulk email.
     You can select all the leads at once by selecting the step name, or you can expand the step and then select the leads individually.
     In this example, we're sending a bulk email to the leads Ivan Komashinsky, Lidman Anna, Counts Vongple, and Nancy Anderson.
 
-    > [!div class="mx-imgBorder"]
-    > ![Lead records selected to send bulk email to.](media/sa-worklist-bulk-email-records-selected.png "Lead records selected to send bulk email to")
+    :::image type="content" source="media/sa-worklist-bulk-email-records-selected.png" alt-text="Screenshot of lead records selected to send bulk email to.":::
  
 3.	On the command bar, select **Bulk email**.
 
     The email composer opens. If you've selected an email template for the step, the template opens in the composer.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Email composer opened.](media/sa-worklist-bulk-email-email-composer-open.png "Email composer opened")
+    :::image type="content" source="media/sa-worklist-bulk-email-email-composer-open.png" alt-text="Screenshot of the email composer opened.":::
 
     >[!NOTE]
     >Each user in the recipient list must satisfy the following conditions on the entity form:  
@@ -174,13 +166,11 @@ For example, let's say 10 leads have a sequence step to send an introduction ema
 
     The preview opens and shows tags that contain information about the first recipient (in this example, Ivan Komashinsky). However, when the actual email is sent, each email will include relevant information from each lead in your recipient list.
 
-    > [!div class="mx-imgBorder"]
-    > ![Preview of the email.](media/sa-worklist-bulk-email-preview-email.png "Preview of the email")
+    :::image type="content" source="media/sa-worklist-bulk-email-preview-email.png" alt-text="Screenshot of the preview of the email.":::
 
 5. (Optional) To schedule the email, select **Schedule** and then choose a date and time at which you want to send the email.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Choose a date and time to send the email.](media/sa-worklist-bulk-email-schedule-email.png "Choose a date and time to send the email")
+    :::image type="content" source="media/sa-worklist-bulk-email-schedule-email.png" alt-text="Screenshot of choosing a date and time to send the email.":::
  
 6.	Select **Send to all**.
 

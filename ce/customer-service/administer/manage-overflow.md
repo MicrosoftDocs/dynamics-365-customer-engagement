@@ -74,7 +74,7 @@ If the matched queue is overflowing due to multiple conditions, the system trigg
 
 ### How overflow works when work item is routed to a fallback queue
 
-If an AI agent is configured for the workstream, the system checks for overflow conditions only after the AI agent escalates the conversation to a service representative. If multiple escalations happen, the system checks for overflow conditions and triggers an action after the first one.
+If a work item is routed to a fallback queue because of errors or route-to-queue rules don't match the requirement, the system ignores the overflow settings for the fallback queue and assigns the work item to it.
 
 ### Configure overflow conditions for before a work item is queued
 
