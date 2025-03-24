@@ -1,5 +1,5 @@
 ---
-title: Set up a pay-as-you-go plan)
+title: Set up a pay-as-you-go plan
 description: Learn how to set up a pay-as-you-go plan for the autonomous case management agent.
 author: gandhamm
 ms.author: mgandham
