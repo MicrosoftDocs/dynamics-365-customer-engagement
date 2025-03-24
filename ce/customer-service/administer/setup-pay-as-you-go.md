@@ -12,11 +12,7 @@ ms.custom: bap-template
 
 # Set up a pay-as-you-go plan
 
-The autonomous case management agent uses the Data Entry Agent in the background.
-
-The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. To [set up pay-as-you-go billing for an environment](/power-platform/admin/pay-as-you-go-set-up?tabs=new), you need an active Azure subscription that you can link to that environment.
-
-To keep track of the cost, you can [view usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
+The autonomous case management agent uses the Data Entry Agent in the background. The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. This topic describes how the charges are calculated in such scenarios.
 
 ## Consumption-based billing
 
@@ -38,30 +34,24 @@ Both models require that you link your Dynamics 365 environment to a Power Platf
 
 Complete these tasks to set up the Dynamics 365 environment for prepaid capacity.
 
-1. Purchase a Copilot message pack subscription using the Microsoft 365 admin center (customer) or Partner Center (reseller).
+1. Purchase a Copilot message pack subscription using the Microsoft 365 admin center.
 
    Learn more in [Manage self-service purchases and trials (for users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users) or [Manage self-service purchases and trials (for admin)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
 
-1. Assign prepaid capacity to the Power Platform environment using the Power Platform admin center (customer or reseller).
+1. Assign prepaid capacity to the Power Platform environment using the Power Platform admin center.
 
    Learn more in [Manage Capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
 
-1. Link the Dynamics 365 environment to the Power Platform environment (internal admin).
-
-   Learn more in [Linked Power Platform environments](tenant-admin-center-environments.md#linked-power-platform-environment).
 
 ### Set up pay-as-you-go
 
 Complete these tasks to set up the Dynamics 365 environment for pay-as-you-go.
 
-1. Set up pay-as-you-go on the Power Platform tenant (reseller):
+ Set up pay-as-you-go on the Power Platform tenant:
 
    To set up pay-as-you-go billing, you first need an active Azure subscription. Then, you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or within [Power Apps](https://make.powerapps.com/).
 
-   Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
-1. Link the Dynamics 365 environment to the Power Platform environment (internal admin).
-
-   Learn more in [Linked Power Platform environments](tenant-admin-center-environments.md#linked-power-platform-environment).
+Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 
 ## Manage capacity and usage
 
@@ -83,4 +73,3 @@ Dynamics 365 regularly checks the available capacity (quota) of Copilot Studio m
 - [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
 - [Work with Power Platform environments in Copilot Studio](/microsoft-copilot-studio/environments-first-run-experience)  
 - [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview)  
-- [Linked Power Platform Environments](tenant-admin-center-environments.md#linked-power-platform-environment)
