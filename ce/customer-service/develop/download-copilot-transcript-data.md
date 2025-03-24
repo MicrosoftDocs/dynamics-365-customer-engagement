@@ -343,7 +343,7 @@ You can download the interaction data as follows.
 2. Run the following Web API request to retrieve the interactions data from the `msdyn_copilotinteractiondata` table in the base64 encoded format:
 
    ```http
-    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_copilotinteractiondataid>)/msdyn_interactiondata
+    [Organization URI]/api/data/v9.1/msdyn_copilotinteractiondatas(<msdyn_interactiondataid>)/msdyn_interactiondata
     Accept: application/json  
     OData-MaxVersion: 4.0  
     OData-Version: 4.0  
