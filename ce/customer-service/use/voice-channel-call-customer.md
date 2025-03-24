@@ -52,7 +52,7 @@ To test your microphone and speaker, do the following steps:
 1. In Customer Service workspace or Contact Center workspace, go to **Contacts**, and then select a customer to call.
 2. On the **Active Conversation** page, locate the **Mobile Phone** field, and then select the call icon to call the customer. You can also select the **Launch dialer** phone icon on the menu bar to quickly call a customer.
      The **Dial number** panel appears. You can perform the following actions:<br>
-     - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country, country code, and outbound profile that you can use to make the call.
+     - Search for a contact or account by name. The results are displayed in a dropdown. You can select **Account** or **Contact** to filter the results further. Once you select the customer's name, the application displays the customer's phone number, name, country/region, country code, and outbound profile that you can use to make the call.
        > [!NOTE]
        > For a contact, you'll see the business number and the mobile number. For an account you'll see the main phone number.   
      - On the input box, you can copy, type in a number, or select a number from the recently dialed numbers. The country code dropdown displays the list of supported countries and regions that you can call. 
@@ -61,7 +61,7 @@ To test your microphone and speaker, do the following steps:
      - In the profile dropdown, the outbound profile and the phone number that you're using to make the call is displayed. This is the outbound calling number that is displayed on the customer's phone when they receive your call. 
      - Select **Set default** in the profile dropdown to set an outbound profile as the default profile for all your calls.
      - You can call those phone numbers only whose regions are configured in the outbound profiles.
-     - When you select a country from the dropdown, the appropriate country code is populated in the phone number field. If you change the country code while making an outbound call, the new country becomes the default code.
+     - When you select a country/region from the dropdown, the appropriate country code is populated in the phone number field. If you change the country code while making an outbound call, the new country/region becomes the default code.
      - The dropdown displays the list of supported countries and regions from all the outbound profiles assigned to you. 
      - When you enter the number you'd like to call, the application identifies the outbound profile that has the dialed number's country or region configured.
      - By default, the number pad is hidden. To display the number pad, select the number pad icon.
