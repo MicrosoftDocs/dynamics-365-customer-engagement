@@ -4,8 +4,6 @@ description: Learn how to use the msdyn_predictivescores entity to update predic
 ms.date: 03/24/2025
 ms.topic: reference
 ms.service: dynamics-365-sales
-content_well_notification:
-  - AI-contribution
 ms.custom: bap-template
 author: lavanyakr01
 ms.author: lavanyakr
