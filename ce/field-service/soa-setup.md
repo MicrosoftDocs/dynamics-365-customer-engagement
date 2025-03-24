@@ -9,11 +9,11 @@ author: anilmur
 
 # Set up the Scheduling Operations Agent (preview)
 
-The Scheduling Operations Agent is an autonomous agent for a Dynamics 365 app, Before a dispatcher can use the new Scheduling Operations Agent capabilities, an administrator must ensure the environment is up-to-date, billing settings are set up, and feature settings configured.
+The Scheduling Operations Agent is an autonomous agent for Dynamics 365 Field Service. Before a dispatcher can use the new agent capabilities, an administrator must ensure the environment is up-to-date, billing settings are set up, and feature settings are configured.
 
 ## Prerequisites
 
-- Your environment is updated to Field Service version 8.8.124.75 or newer, and Universal Resource Scheduling version 3.12.142.5 or newer.
+- Your environment is updated to Field Service version 8.8.133.214 or newer, and Universal Resource Scheduling version 3.12.149.15 or newer.
 - [Location and map settings are enabled](field-service-maps-address-locations.md) for your environment.
 
 ## Consumption-based billing model
@@ -89,11 +89,11 @@ The agent needs to know if it can move or delete scheduled or committed bookable
 
 1. Open the Field Service app and go to the **Resources** area.
 1. Select **Booking Settings** > **Booking Statuses**. To see all statuses, remove all filters from the view.
-1. Set the **Optimization Method** for each booking status:
+1. Review and adjust the **Optimization Method** for each booking status:
 
     - *Optimize*: Move or delete bookings with these statuses as necessary to generate an optimal schedule. Typically, bookings with these statuses aren't in progress yet. For example: scheduled or committed.
-    - *Do Not Move*: Preserve the start time of any bookings with these statuses so the agent doesn't change them. This status is the default option for all statuses. For such bookings, the agent only updates the travel if a previous booking is moved or changed.
-    - *Ignore*: Indicate to the agent that it should override any bookings with these statues. It can move or create new bookings on top.
+    - *Do Not Move*: Preserve the estimated arrival time of any bookings with these statuses (i.e. the time the work is expected to start) so the agent doesn't change them. This is the default behavior if **Optimization Method** is empty or null. For such bookings, the agent only updates the travel time if a previous booking is moved or changed. While this is typicaly used when the technician has already started traveling to a booking, or has started or completed the work, you can also use this in situations where a commitment has been made to a customer that the technician will arrive at the designated time.
+    - *Ignore*: Indicate to the agent that it should override any bookings with these statues. It can move or create new bookings on top. Typically used for bookings in canceled status.
 
 :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method.":::
 
