@@ -1,7 +1,7 @@
 ---
 title: Connect using an existing Azure resource
 description: Learn how to connect your voice and SMS channels to Azure Communication Services using an existing Azure resource.
-ms.date: 08/26/2024
+ms.date: 03/24/2025
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -57,7 +57,7 @@ You need to specify the values of **Application (client) ID** and **Directory (t
     1. On the **Register an application** page, enter the following details:
 
         - **Name**: Enter a name for your application.
-        - **Supported account types**: Select either-
+        - **Supported account types**: Select one of the following values:
           - **Accounts in any organizational directory (Any Microsoft Entra ID - Multitenant)**.
           - **Accounts in this organizational directory only ([Insert your tenant] only - Single tenant)**.
 
@@ -83,15 +83,13 @@ You need to specify the values of **Application (client) ID** and **Directory (t
        - **Event grid app id**: The value of the **Application (client) ID** 
        - **Event grid app tenant id**: The value of the **Directory (tenant) ID**
 
-   > [!NOTE]
-   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** values that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
+     > [!NOTE]
+     > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** values that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
    
 
-      :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
+       :::image type="content" source="../media/event-grid-app-tenant-id.png" alt-text="Values copied in Get application and tenant IDs" :::  
 
      - Select the checkbox to confirm that the Azure Communication Services resource is connected to this Dynamics 365 Contact Center or Customer Service instance only.
-
-
 
 1. Select **Connect** to connect the resource to Azure Communication Services.
 
@@ -110,7 +108,7 @@ You can copy the subscriber endpoint values such as **Recording Web Hook Endpoin
 
 ## Next steps
 
-[Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md]
+[Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md] 
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [configure voice workstream settings](create-workstreams.md)  
 [Configure inbound calling](voice-channel-inbound-calling.md)  
@@ -124,7 +122,7 @@ You can copy the subscriber endpoint values such as **Recording Web Hook Endpoin
 [Set up outbound calling](voice-channel-outbound-calling.md)  
 [Set up inbound calling](../voice-channel-route-queues.md)  
 [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)  
-[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md)
+[Configure call recording and transcription for a voice workstream](voice-channel-configure-transcripts.md)  
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
