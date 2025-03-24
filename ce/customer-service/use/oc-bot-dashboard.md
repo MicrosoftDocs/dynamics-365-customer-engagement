@@ -32,7 +32,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 ## Prerequisites
 
 - You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. If you want to add additional data, you need a Power BI license and enable data model customization.
-
+- Make sure that the **Allow conversation transcripts and their associated metadata to be saved in Dataverse** is selected in Power Platform Admin Center. This setting is required for transcripts to be saved in Dataverse. If this setting is not enabled, dashboards that use metadata from conversation transcripts might not work as expected.
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)
 
