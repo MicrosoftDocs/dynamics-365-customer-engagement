@@ -39,13 +39,16 @@ Follow the steps to create a custom assignment method:
 
 1. Do the following to set up prioritization rulesets:
 
-   a. On the **Create Prioritization Ruleset** dialog, enter a name and description for the ruleset, and select **Create**.
+   1. On the **Create Prioritization Ruleset** dialog, select one of the following options:
+      - **New ruleset**: Enter a name and description for the ruleset, and select **Create**.
+      - **Template ruleset**: Select a ruleset template in the list. You can't modify the decision rules at the queue level.
+      - **Copy from template**: Select a ruleset template to make a copy. You can modify the decision rules and save as a new ruleset. 
 
-   b. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
+   1. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
 
-   c. To route the work item to customer service representatives (service representatives or representatives), select the attribute on which you want to define the order by.
+   1. To route the work item to customer service representatives (service representatives or representatives), select the attribute on which you want to define the order by.
 
-   d. Create as many rules as needed.
+   1. Create as many rules as needed.
 
     > [!NOTE]
     > For routing records, we recommend that you manage the custom prioritization rules through the UI only and not create or update them through scripts.

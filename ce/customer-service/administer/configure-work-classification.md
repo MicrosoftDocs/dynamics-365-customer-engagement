@@ -36,7 +36,7 @@ You need the CSR Manager or Omnichannel administrator role to configure the work
 
 A classification ruleset is an ordered list of multiple work classification rulesets and route-to-queue ruleset. During evaluation, the work classification rulesets are run first, followed by route-to-queue ruleset.
 
-The work classification rulesets are run in the order they're listed. Within a ruleset, rule items are run in the order they're listed. When one of the rule item conditions matches, the output section of the rule item is run. The system evaluates the rules in the next ruleset if it's configured.
+The system runs the work classification rulesets in the order they're listed. Within a ruleset, rule items are run in the order they're listed. When one of the rule item conditions matches, the output section of the rule item is run. The system evaluates the rules in the next ruleset if it's configured.
 
 After all the work classification rulesets are run, the system evaluates the route-to-queue ruleset. All the rule items in the route-to-queues are run in the order they're listed. This is unlike the classification rules, where control passes to the next ruleset when one of the rule items in a ruleset condition matches.
 
@@ -52,17 +52,21 @@ To create a logical work classification ruleset, do the following steps:
 
 1. In the Customer Service admin center app, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
-2. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**, and enter a name and description. By default, the root record is selected and displayed at the top of the condition builder for ease of reference and visibility of the record for which you're creating the rule.
+1. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**.
+1. In **Start new or use a template**, select one of the following values:
+    - **New ruleset**: Enter a name and description, and then select **Create**. Go to step 4.
+    - **Template ruleset**: Select a work classification template ruleset and then select **Create**. A ruleset record is created with all rules based on the template. You can't edit the template rules from within the workstream. You can select **Template** listed on the ruleset page to view the template details.
+    - **Copy from template**: Select a template. The system reads the rule definition from the template and copies to the target decision ruleset. You can update the rules to change the existing order or add new rules.
 
-3. In the **Decision list** area, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
+1. On the **Decision list** page, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
-4. In the **Conditions** area, define the conditions according to your business needs. If you're creating classification rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes. 
+1. In the **Conditions** area, define the conditions according to your business needs. If you're creating classification rules for records, then the top-level condition is automatically populated. You can define conditions for up to two levels of the related records and attributes. 
 
-5. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
+1. In the **Output** area, select the attribute for which value needs to be set if the conditions are met.
 
    :::image type="content" source="../media/create-work-classification-rule.png" alt-text="Create work classification rule with conditions.":::
 
-6. Repeat steps 3 through 5 to create the demand rules.
+1. Repeat steps 3 through 5 to create the demand rules.
 
    ![Decision list for logical ruleset.](../media/ur-decision-list-manual.png "Decision list for logical ruleset")
 
@@ -74,21 +78,21 @@ Follow these steps to create a logical skill classification ruleset:
 
 1. For the selected workstream, in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
-2. On the **Work classification** page, select **Create new**.
+1. On the **Work classification** page, select **Create new**.
 
-3. In the **Create work classification ruleset** dialog, select **Logical rule** in **Rule type**, and enter a name and description.
+1. In the **Create work classification ruleset** dialog, select **Logical rule** in **Rule type**, and enter a name and description.
 
-4. Select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
+1. Select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
-5. In the **Conditions** area, define the conditions as per your business needs:
+1. In the **Conditions** area, define the conditions as per your business needs:
 
    1. Select **Add row**, and select **Skills** from the list box.
    2. Select the required operator, and then select the skills for the condition.
    3. Repeat the steps to define any other conditions.
 
-6. In the **Output** area, select the attribute whose value is set if the conditions are met.
+1. In the **Output** area, select the attribute whose value is set if the conditions are met.
 
-7. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
+1. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
    > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the customer service representative (service representative or representative). Also, ensure that you don't attach the same skill with two different rating models. For one skill, if you use different rating models in the conversation and for the service representative, or in the same conversation, assignment won't work as expected.
