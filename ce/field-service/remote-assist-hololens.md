@@ -30,6 +30,8 @@ When a technician signs in to the Field Service mobile app, they see their plann
 
 Select **More options** (&hellip;) and choose **Remote Assist**. Calls are initiated through Teams.
 
+:::image type="content" source="media/remote-assist-booking-deeplink.png" alt-text="Screenshot of two mobile devices and the workflow that brings up the Dynamics 365 Remote Assist launching option.":::
+
 ## Make a Dynamics 365 Remote Assist call
 
 By default, the app suggests calling the support contact listed on the work order. You can search through the directory for other users.
