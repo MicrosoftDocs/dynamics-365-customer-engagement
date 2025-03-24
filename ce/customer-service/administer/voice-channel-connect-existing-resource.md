@@ -108,7 +108,7 @@ You can copy the subscriber endpoint values such as **Recording Web Hook Endpoin
 
 ## Next steps
 
-[Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md] 
+[Set up incoming call, call recording, and SMS services](voice-channel-configure-services.md)  
 [Manage phone numbers](voice-channel-manage-phone-numbers.md)  
 [configure voice workstream settings](create-workstreams.md)  
 [Configure inbound calling](voice-channel-inbound-calling.md)  
