@@ -776,12 +776,12 @@ items:
           href: use-zoominfo-app-data.md
         - name: Scan business cards
           href: scan-business-cards.md
-    - name: Use Copilot
+    - name: Use Copilot and agents
       items:
-        - name: Copilot overview
-          href: copilot-overview.md
         - name: Use Copilot in Dynamics 365
           items:
+            - name: Copilot overview
+              href: copilot-overview.md
             - name: Ask Copilot questions
               href: use-sales-copilot.md
             - name: Prompt guide reference
@@ -796,6 +796,14 @@ items:
               href: copilot-get-doc-suggestions.md
             - name: Default attributes used in Copilot summaries
               href: understand-copilot-summaries.md
+        - name: Use agents in Dynamics 365 Sales
+          items:
+            - name: Sales research agent Overview
+              href: sales-research-agent.md
+            - name: Use the sales research agent
+              href: use-sales-research-agent.md
+            - name: Connect the agent to your data
+              href: sales-research-agent-connect-data.md
         - name: Compose and send email messages using Copilot
           href: compose-send-email-copilot.md
         - name: View and copy email summary
