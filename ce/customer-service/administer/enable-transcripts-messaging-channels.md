@@ -20,7 +20,7 @@ search.audienceType:
 As an administrator, you can enable live transcription and recording of conversations, which allows customer service representatives (service representatives or representatives) and supervisors to view transcripts of customer conversations. The transcriptions include sentiment analysis data and can be searched through.
 
 > [!IMPORTANT]
-> Many countries and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
+> Many countries/regions and states have laws and regulations that apply to the recording of PSTN, voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
 
 ## Enable the transcript experience
 
