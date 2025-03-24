@@ -135,7 +135,7 @@ As you add incidents to the agreement, the related products, services, service t
 
 ### Step 4: Activate agreement and view work orders
 
-After your organization's process for manager review and customer acceptance, the last step is to **Activate** the agreement. Once activated, the system generates related records such as maintenance dates and work orders. To add more details to the agreement status, consider using the [**Agreement Substatus**](set-up-agreement-sub-statuses.md) values. Custom agreement substatuses can also be created.
+After your organization's process for manager review and customer acceptance, the last step is to **Activate** the agreement. Once activated, the system generates related records such as maintenance dates and work orders. To add more details to the agreement status, consider using the [**Agreement Substatus**](set-up-agreement-sub-statuses.md) values. [Custom agreement substatuses](./developer/reference/entities/msdyn_agreementsubstatus) can also be created.
 
 1. From the **Agreement** page, set the **System Status** to **Active**.
 
