@@ -15,7 +15,7 @@ ai-usage: ai-assisted
 
 # Connect the sales research agent to your data
 
-You can connect the sales research agent to your Dynamics 365 Sales or Dataverse environment, and upload data files (CSV, Excel, PDF) for additional context. This allows you to create comprehensive research blueprints that combine data from multiple sources.
+You can connect the sales research agent to your Dynamics 365 Sales or Dataverse environment, or upload data files (CSV, Excel, PDF) for additional context. This allows you to create comprehensive research blueprints that combine data from multiple sources.
 
 On the Sales Research Agent page in the Sales Hub app, select **Add data** to connect to your data.
 

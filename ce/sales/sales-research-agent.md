@@ -15,22 +15,18 @@ ai-usage: ai-assisted
 
 # Sales research agent overview
 
-As a sales leader, you need to make data-driven decisions to drive your business forward. However, it's not always easy to get the insights you need. You might spend hours gathering data from different sources and still not have a clear picture of what's happening in your business. The sales research agent in Dynamics 365 Sales can help you get the insights you need quickly and easily.
+The sales research agent in Dynamics 365 Sales is an AI-powered tool that helps you quickly and easily analyze your sales data. It provides rich insights into the performance of your team, territory, and product portfolio.
 
-With the sales research agent in Dynamics 365 Sales, you can use natural language to start a dialog with your data or pick from AI-suggested topics. This dialog helps you gain deep understanding of the sales performance of your team, territory, and product portfolio.
+Use natural language to start a dialog with your data or pick from AI-suggested topics. Use the agent to:
 
-Use the agent to:
-
-- Create multi-branch research journeys over your Dynamics 365 Sales data and augment it with any data from local files (Excel, PDF) for a comprehensive view of your business.
-
-- Use AI-suggested, prebuilt topics that are optimized for your role to get started or ask questions using natural language to seek insights into complex business problems.  
-- Use the AI cursor to click anywhere on the canvas to start a conversation, zoom into any research finding, change a visualization, or add more data.  
-- See the reasoning behind the research outcomes.  
-- Save your workspaces for later use, update with new data, and regenerate blueprints or new research findings.
+- Get insights from your Dynamics 365 Sales data and offline files to help you make informed decisions.
+- Leverage the research blueprint that includes a summary of your research, key findings, and suggested next steps.
+- Interact with the research findings using natural language. Ask follow-up questions, change visualizations, and add more data to your research.
+- Understand how the agent arrived at its conclusions by reviewing the reasoning behind the research outcomes.
 
 ## How the agent works
 
-The research agent is directly connected to your Dynamics 365 Sales data source. When you ask a research question, the agent creates a research plan. It then gathers, analyzes, and transforms your data into meaningful research outputs. These outputs are tailored to your context, business domain knowledge, and deep understanding of the business data, and are delivered to you as comprehensive, AI-generated research blueprints.
+You can connect the research agent to your Dynamics 365 Sales or Dataverse data or upload files that contain your sales data. When you ask a research question, the agent creates a research plan. It then gathers, analyzes, and transforms your data into meaningful research outputs. These outputs are tailored to your context, business domain knowledge, and deep understanding of the business data, and are delivered to you as comprehensive, AI-generated research blueprints.
 
 ## Legal and regulatory considerations
 
