@@ -33,14 +33,7 @@ Autonomous case management agents streamline the creation and maintenance of cas
 - [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](../administer/create-chat-auth-setting.md). 
 - [Workstreams](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are set up.
 -  [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center.
-
-## Set up a pay-as-you-go plan
-
-The autonomous case management agent uses the Data Entry Agent in the background.
-
-The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. To [set up pay-as-you-go billing for an environment](/power-platform/admin/pay-as-you-go-set-up?tabs=new), you need an active Azure subscription that you can link to that environment.
-
-To keep track of the cost, you can [view usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs).
+- Set up the pay-as-you-go plan for the autonomous case management agent. Learn more in [Set up a pay-as-you-go plan](setup-pay-as-you-go.md).
 
 
 ## Configure autonomous case creation and update
