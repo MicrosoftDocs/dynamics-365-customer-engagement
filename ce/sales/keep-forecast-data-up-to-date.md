@@ -1,7 +1,7 @@
 ---
 title: Recalculate forecasts manually
 description: Trigger a manual recalculation to refresh forecast data immediately instead of waiting for automatic recalculation.
-ms.date: 12/26/2023
+ms.date: 03/11/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -35,8 +35,7 @@ You want the forecast data to be up-to-date to make informed decisions. Forecast
 
     A notification appears at the top of the screen, confirming the recalculation. Recalculation happens in the background, and you can continue to work while recalculation is in progress.
 
-    > [!div class="mx-imgBorder"]
-    > ![Notification to confirm recalculation.](media/forecast-recalculate-data-toast-notification.png "Notification to confirm recalculation")
+    :::image type="content" source="media/forecast-recalculate-data-toast-notification.png" alt-text="Screenshot of the notification to confirm recalculation.":::
 
 2. After the application recalculates the forecast data, a notification appears to refresh the data. On the notification, select **Refresh page**. [Learn more about what happens during  recalculation](forecast-recalculation-methods.md#what-happens-during-recalculation).
 
