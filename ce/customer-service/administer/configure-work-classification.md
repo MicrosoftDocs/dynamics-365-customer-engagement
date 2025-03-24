@@ -152,6 +152,7 @@ After you create the rules, you can change the order in which the rules should b
 ### Related information
 
 [Create a workstream for unified routing](create-workstreams.md)  
+[Manage routing rules templates](manage-routing-rules-templates.md)  
 [Set up record routing](set-up-record-routing.md)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

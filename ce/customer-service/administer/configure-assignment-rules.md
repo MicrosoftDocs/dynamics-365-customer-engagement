@@ -119,6 +119,7 @@ Follow these steps to configure the selection criteria for the assignment rulese
 ### Related information
 
 [Create workstreams](create-workstreams.md)  
+[Manage routing rules templates](manage-routing-rules-templates.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up records for unified routing](set-up-record-routing.md)  
 [Set up skill-based routing for unified routing](set-up-skill-based-routing.md)  
