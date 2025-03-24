@@ -55,7 +55,7 @@ You can assign each template for up to 10 queues or workstreams. Assign the temp
     > Queues with custom assignment methods only are listed.
 - Assign from workstream or queue page:
     - **Queue**: Do the steps in [Create an assignment method and configure rules](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules) to assign a template or its copy.
-    - **Workstream**: Do the steps in [Create a classification rulesets](configure-work-classification.md#create-work-classification-rulesets) to assign a template or its copy.
+    - **Workstream**: Do the steps in [Create classification rulesets](configure-work-classification.md#create-work-classification-rulesets) to assign a template or its copy.
 
 ## Create template context variables
 
