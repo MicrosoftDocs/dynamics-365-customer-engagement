@@ -57,7 +57,9 @@ You need to specify the values of **Application (client) ID** and **Directory (t
     1. On the **Register an application** page, enter the following details:
 
         - **Name**: Enter a name for your application.
-        - **Supported account types**: Select **Accounts in any organizational directory (Any Microsoft Entra ID - Multitenant)**.
+        - **Supported account types**: Select either-
+          - **Accounts in any organizational directory (Any Microsoft Entra ID - Multitenant)**.
+          - **Accounts in this organizational directory only ([Insert your tenant] only - Single tenant)**.
 
     1. Select **Register**.
        :::image type="content" source="../media/acs-resource-register.png" alt-text="resource keys" :::
