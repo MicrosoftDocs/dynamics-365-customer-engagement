@@ -1,6 +1,6 @@
 ---
 title: Populate predictive scores using custom scoring model
-description: Learn how to use the msdyn_predictivescores entity to update predictive lead and opportunity scores in your application."
+description: Learn how to use the msdyn_predictivescores entity to update predictive lead and opportunity scores in your application.
 ms.date: 03/24/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
