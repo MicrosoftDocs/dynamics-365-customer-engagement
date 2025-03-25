@@ -68,7 +68,7 @@ There are a few customization restrictions that you should be aware of:
 - It isn't possible to have a role-based Kanban view.
 - The Activity Kanban view is only available for the Status field. You can't configure the Activity Kanban view for an option set field other than 'Status'.
 - For Opportunity Kanban view:
-  - While you can customize the out-of-the-box 'Opportunity Sales Process' business process flow, you can't customize the Kanban view to use a business process flow other than the Opportunity Sales Process.
+  - The Kanban view can only be associated with the Sales Process business process flow.  
   - The Status-based Opportunity Kanban view is only available for the Status field. You can't configure this Kanban view for an option set field other than 'Status'.
   - In the Opportunity Kanban view, aggregation is supported only for the Estimated Revenue field of the Opportunity entity. You can't configure the Kanban view to have aggregation done on other fields.
 
