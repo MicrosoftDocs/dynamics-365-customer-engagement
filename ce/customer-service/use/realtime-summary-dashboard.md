@@ -32,7 +32,7 @@ By editing the visual display, you can add metrics to the ones that are already 
 
 [Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#)
 
-:::image type="content" source="../media/realtime_summary_page.png" alt-text="Screenshot of the real-time summary report":::
+:::image type="content" source="../media/realtime-summary-page.png" alt-text="Screenshot of the realtime summary report.":::
 
 ## Interactive charts
 
