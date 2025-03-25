@@ -42,9 +42,9 @@ For an incoming email, a case is created automatically based on the configured A
 
 The agent updates the fields configured by the administrator as follows:
 
-- **For a case created from a conversation**: The **Update from conversation** button appears on the case form. When you select the button, the agent populates the fields with context from the ongoing conversation. Updated fields are highlighted, and a banner indicates they were modified using AI.
-  - If the conversation is in wrap-up state, the agent checks if a case is created and updates the specified fields.
-  - If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
+- **For a case created from a conversation**: The **Update from conversation** button appears on the case form. When you select the button, the agent populates the fields with context from the ongoing conversation. Updated fields are highlighted, and a banner indicates they were modified using AI. If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
+
+If the conversation is in wrap-up state, the agent checks if a case is created and updates the specified fields.
 
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
