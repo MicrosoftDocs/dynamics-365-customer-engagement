@@ -16,7 +16,7 @@ Customizing forms correctly is important for maximizing performance. Form custom
 This article explains how to customize the work order form. However, the steps can be used to customize any Field Service web form.
 
 > [!NOTE]
-> To learn how to customize the work order form for the mobile app, go to [Edit the booking and work order form](mobile-powerapp-booking-work-order-form.md).
+> To learn how to customize the work order form for the mobile app, go to [Edit the booking and work order form](mobile/change-work-order-booking-form.md).
 
 ## Step 1. Understand the default work order form
 
