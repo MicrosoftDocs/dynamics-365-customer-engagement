@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: 
-ms.date: 03/03/2025
+ms.date: 03/25/2025
 ms.custom: bap-template
 ---
 
@@ -25,10 +25,9 @@ With shift bookings, the routing engine considers the shift activity type to det
 
 - [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
 - Shift activity types are enabled and created in WFM system.
-- [Unified routing](provision-unified-routing.md) is provisioned and set up.
+- [Unified routing](provision-unified-routing.md) is enabled and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue.
-- Shift-based routing is enabled.
 
 ## Enable shift-based routing
 
