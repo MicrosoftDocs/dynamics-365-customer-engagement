@@ -18,7 +18,7 @@ ms.date: 03/25/2025
 Enable the address suggestion feature in Dynamics 365 Sales to help sellers save time and reduce errors when they enter the addresses of their contacts, leads, and accounts. When a seller starts typing in the address field, Bing Maps suggests a list of addresses that match what the seller is typing. When the seller selects an address in the list, the address fields in the form are filled automatically. You need to enable Bing Maps before you can enable address suggestions.
 
 > [!IMPORTANT]
-> The address suggestion feature works only on out-of-the-box forms. If you have customized the form or customized the address field in the out-of-the-box form, the feature doesn't work.
+> The address suggestion feature works only on out-of-the-box forms. If you have customized the form or the address field in the out-of-the-box form, the feature doesn't work.
 
 ## Enable Bing Maps
 
