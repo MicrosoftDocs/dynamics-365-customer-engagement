@@ -48,21 +48,20 @@ Users with the system administrator or supervisor role can access the analytics 
 
 1. Select the **Custom Entities** tab, move through the list of analytics reports, and then grant **Read** privileges for the following entities:
 
+    |Dashboard  |Report entity  |
+    |---------|---------|
+    |[Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md)    |   msdyn_dataanalyticsreport_oc      |
+    |[Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md)   |   msdyn_dataanalyticsreport_oc_rt      |
+    |[Real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)    |   msdyn_dataanalyticsreport_ur_recordrouting_rt      |
+    |[Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md)     |    msdyn_dataanalyticsreport_csrmanager     |
+    |Copilot Analytics   |    msdyn_dataanalyticsreport_copilot     |
+    |Knowledge analytics dashboards| |
+    |Report Bookmarks| |
+    |Visual customization| |
 
-|Dashboard  |Report entity  |
-|---------|---------|
-|[Omnichannel historical analytics dashboards](../use/omnichannel-analytics-insights.md)    |   msdyn_dataanalyticsreport_oc      |
-|[Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md)   |   msdyn_dataanalyticsreport_oc_rt      |
-|[Real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)    |   msdyn_dataanalyticsreport_ur_recordrouting_rt      |
-|[Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md)     |    msdyn_dataanalyticsreport_csrmanager     |
-|Copilot Analytics   |    msdyn_dataanalyticsreport_copilot     |
-|Knowledge analytics dashboards| |
-|Report Bookmarks| |
-|Visual customization| |
 
-
-    > [!NOTE]
-    > For custom roles, select **Read** privileges for [the entities used by historical and real-time analytics](../use/dataverse-entities.md), as applicable.
+> [!NOTE]
+> For custom roles, select **Read** privileges for [the entities used by historical and real-time analytics](../use/dataverse-entities.md), as applicable.
 
 1. Select **Save and close**.
 
