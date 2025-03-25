@@ -2,7 +2,7 @@ Requirement groups bundle requirements commonly scheduled together. For example,
 
 ## Create a requirement group template
 
-1. In Universal Resource Scheduling, open the **Settings** area. Under **Scheduling**, select **Requirement Group Templates**, and then select **New**.
+1. In Resource Scheduling, open the **Settings** area. Under **Scheduling**, select **Requirement Group Templates**, and then select **New**.
 
 1. Enter a **Name** for the requirement group and **Save** it. The table shows requirement details with a root requirement named after the template.
 
@@ -27,7 +27,7 @@ Requirement groups bundle requirements commonly scheduled together. For example,
 
 ## Create a requirement group
 
-1. In Universal Resource Scheduling, open the **Resource Scheduling** area. Under **Scheduling**, select **Requirement Groups**, and then select **New**.
+1. In Resource Scheduling, open the **Resource Scheduling** area. Under **Scheduling**, select **Requirement Groups**, and then select **New**.
 
 1. Enter a **Name**.
 
