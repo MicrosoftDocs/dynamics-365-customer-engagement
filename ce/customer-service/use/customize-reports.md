@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 01/09/2025
+ms.date: 03/25/2025
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -25,7 +25,7 @@ Visualize key performance indicators (KPIs) and trends for standard contact cent
 - Add new pivots and pages. For example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, and Omnichannel real-time analytics reports in the Customer Service workspace and Contact Center workspace apps. You can't customize unified routing and knowledge analytics reports.
+You can customize Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, Real-time analytics for record routing reports in the Customer Service workspace and Contact Center workspace apps. You can't customize unified routing and knowledge analytics reports.
 
 > [!NOTE]
 > - After you customize and publish a report, all customizations become visible to all users in your organization.
