@@ -46,7 +46,7 @@ We're aware of the following limitations:
 - The agent doesn't consider fulfillment preferences of a requirement.
 - The agent doesn't consider partially fulfilled resource requirements
 - The agent needs to run when the resource is available for work. They can’t be on break, off work, traveling to or working on an existing booking.
-- The agent works best with Field Service environments that don’t have the Resource Scheduling Optimization add-on installed. Customers with this add-on should use the [single resource optimization for the Resource Scheduling Optimization add-in](rso-single-resource-optimization.md) instead.
+- The agent works best with Field Service environments that don’t have the Resource Scheduling Optimization add-on installed. Customers with the add-on should use the [single resource optimization for the Resource Scheduling Optimization add-in](rso-single-resource-optimization.md) instead.
 
 ## Troubleshooting FAQ
 
@@ -57,17 +57,18 @@ The agent needs to have eligible bookable resource bookings and unfulfilled reso
 Existing bookings which have an **Optimization Method** of *Do Not Move* are ineligible to be included in a valid suggested schedule if one or more such bookings occur outside of working hours or require travel outside of working hours.
 
 ### Resource availability
-When launching the agent, especially via the Copilot sidecar, you may not have selected the time range of the optimization and the time zone setting to match/overlap with the work hours of the resource. The agent will return an error mesage if that is the case.
+
+When launching the agent, especially via the Copilot sidecar, the time range and time zone setting might not match or overlap with the work hours of the resource. The agent returns an error message if that is the case.
 
 ### Bookings with Optimization Method set to Do Not Move
-If the agent is invoked in an environment with first adjusting the [**Optimization Method** mapping](soa-setup.md#create-or-update-optimization-method-for-booking-status) for booking statuses, then the default behavior may be to treat existing bookings as *Do Not Move*. If that is the case then the agent will error out:
 
-- If there are overlapping bookings in the schedule - the agent cannot create a feasible suggested schedule (i.e. without overlaps) if it cannot move such bookings.
-- If one or more bookings overlap with the break time or off-work periods - again the agent cannot create a feasible schedule if it cannot move such bookings. For a suggested schedule to be feasible, all travel and booking-related work should occur within the work hours of the resource. In addition, there should be sufficient time for the resource to drive from the location of the last booking of the day back to the [End Location](set-up-bookable-resources.md#create-other-bookable-resources) of that resource.
-- If the start if the travel, or the work itself, for a *Do Not Move* booking occurs before the start of the time range of the optimization request, the agent will return an error message - it tries to ensure that in the suggested schedule, the travel occurs within the time range specified. Similarly, if any part of the travel or the work for a *Do Not Move* booking overlaps with the end of the time range of the optimization request, the agent will return an error.
+If the agent is invoked in an environment without first adjusting the [**Optimization Method** mapping](soa-setup.md#create-or-update-optimization-method-for-booking-status) for booking statuses, then by default, it treats existing bookings as *Do Not Move*, which can lead to errors:
+
+- If there are overlapping bookings in the schedule, the agent can't create a feasible suggested schedule without overlaps if it cannot move such bookings.
+- If one or more bookings overlap with the break time or off-work periods, the agent can't create a feasible schedule without moving such bookings. It always strives to accommodate all travel and booking-related work within the work hours of the resource. In addition, there should be sufficient time for the resource to drive from the location of the last booking of the day back to the [end location](set-up-bookable-resources.md#create-other-bookable-resources) of that resource.
+- If the start of the travel, or the work itself, for a *Do Not Move* booking occurs before the start of the time range of the optimization request, the agent also returns an error because it tries to suggest a schedule where the travel occurs within the specified time range. Similarly, if any part of the travel or the work for a *Do Not Move* booking overlaps with the end of the time range of the optimization request, the agent fails.
 
 To fix the above issues, either adjust the **Optimization Method** mappings, or, make sure that the start time and end time of the optimization request occur well before or well after the *Do Not Move* bookings.
-
 
 ### Set priority values and optimization method
 
