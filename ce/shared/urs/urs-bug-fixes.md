@@ -26,7 +26,7 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.139.15
 
-- Released **Scheduling Operations Agent**, an agent in Dynamics 365 Field Service that helps dispatchers improve the schedule of a single technician quickly and efficiently. This new feature is enabled across stations on a separate schedule: 
+- Released [**Scheduling Operations Agent**, an agent in Dynamics 365 Field Service ](../../field-service/soa-overview.md)that helps dispatchers improve the schedule of a single technician quickly and efficiently. This new feature is enabled across stations on a separate schedule: 
     - Station 2: March 28, 2025
     - Station 3 - March 31, 2025
     - Europe - April 1, 2025
