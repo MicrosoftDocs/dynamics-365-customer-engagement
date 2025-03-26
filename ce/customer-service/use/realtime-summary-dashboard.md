@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/25/2025
+ms.date: 03/26/2025
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -32,7 +32,7 @@ By editing the visual display, you can add metrics to the ones that are already 
 
 [Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#)
 
-:::image type="content" source="../media/realtime-summary-page.png" alt-text="Screenshot of the realtime summary report.":::
+:::image type="content" source="../media/realtime-summary-page.png" alt-text="Screenshot of the real-time summary report.":::
 
 ## Interactive charts
 

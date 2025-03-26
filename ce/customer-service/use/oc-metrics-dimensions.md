@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 02/10/2025
+ms.date: 03/26/2025
 ms.custom: bap-template
 ---
 
@@ -303,8 +303,8 @@ This metric is a measure of the total number of customer conversations. Learn mo
 
 #### Related metrics:
 
-- **Total conversations offered**: Total number of conversations initiated with human agent.
-- **Total conversations handled**: Total conversations offered that were accepted by human agents.
+- **Total conversations offered**: Total number of conversations initiated with service representatives.
+- **Total conversations handled**: Total conversations offered that were accepted by service representatives.
 
 ### Incoming conversation
 
