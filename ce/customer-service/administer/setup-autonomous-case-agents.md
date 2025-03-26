@@ -29,9 +29,9 @@ Autonomous case management agents streamline the creation and maintenance of cas
 - Administrators must have the CSR Manager or System Administrator role.
 - Customer Service Representatives must have the Omnichannel Agent and Customer Service Representative role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in Power Platform admin center.
-- [Automatic record creation and update (ARC) rules](../administer/set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
-- [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](../administer/create-chat-auth-setting.md). 
-- [Workstreams](../administer/create-workstreams.md) and [queues](../administer/queues-omnichannel.md) are set up.
+- [Automatic record creation and update (ARC) rules](set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
+- [Provision the live chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](create-chat-auth-settings.md). 
+- [Workstreams](create-workstreams.md) and [queues](queues-omnichannel.md) are set up.
 -  [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center.
 - Set up the pay-as-you-go plan for the autonomous case management agent. Learn more in [Set up a pay-as-you-go plan](setup-pay-as-you-go.md).
 

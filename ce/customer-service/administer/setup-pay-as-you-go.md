@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Set up a pay-as-you-go plan
 
-This article explains about setting up a pay-as-you-go plan and managing capacity and usage for the plan.
+This article explains how to set up a pay-as-you-go plan and manage capacity and usage for the plan.
 
 ## Consumption-based billing
 
