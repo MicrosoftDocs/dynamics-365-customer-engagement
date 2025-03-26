@@ -1,6 +1,6 @@
 ---
 title: Set up the Scheduling Operations Agent (preview)
-description: Learn how to set up the Scheduling Operations Agent for Dynamics 365 Field Service.
+description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your users.
 ms.date: 03/19/2025
 ms.topic: how-to
 ms.author: anilmur
@@ -30,7 +30,6 @@ Both models require that you link your Dynamics 365 environment to a Power Platf
 
 > [!NOTE]
 > Both billing models can be used on the Dynamics 365 environment. Prepaid capacity is consumed first.
-> Message capacity on the Power Platform environment is consumed by Dynamics 365 environments and other Microsoft services on the tenant.
 
 #### Set up prepaid capacity
 
@@ -92,7 +91,7 @@ The agent needs to know if it can move or delete scheduled or committed bookable
 1. Review and adjust the **Optimization Method** for each booking status:
 
     - *Optimize*: Move or delete bookings with these statuses as necessary to generate an optimal schedule. Typically, bookings with these statuses aren't in progress yet. For example: scheduled or committed.
-    - *Do Not Move*: Preserve the estimated arrival time of any bookings with these statuses (i.e. the time the work is expected to start) so the agent doesn't change them. This is the default behavior if **Optimization Method** is empty or null. For such bookings, the agent only updates the travel time if a previous booking is moved or changed. While this is typicaly used when the technician has already started traveling to a booking, or has started or completed the work, you can also use this in situations where a commitment has been made to a customer that the technician will arrive at the designated time.
+    - *Do Not Move*: Preserve the estimated arrival time of any bookings with these statuses so the agent doesn't change them. It's the default behavior if **Optimization Method** is empty or null. For such bookings, the agent only updates the travel time if a previous booking is moved or changed. That's typically the case when a technician is already traveling to a booking, or started/completed the work. You can also use that optimization methods in situations where a designated arrival time was committed to a customer.
     - *Ignore*: Indicate to the agent that it should override any bookings with these statues. It can move or create new bookings on top. Typically used for bookings in canceled status.
 
 :::image type="content" source="media/soa-booking-status.png" alt-text="Screenshot of a booking status record with a configured optimization method.":::
