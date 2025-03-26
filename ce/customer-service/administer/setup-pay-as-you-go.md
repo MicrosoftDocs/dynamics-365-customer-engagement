@@ -35,17 +35,12 @@ Both models require that you link your Dynamics 365 environment to a Power Platf
 Complete these tasks to set up the Dynamics 365 environment for prepaid capacity.
 
 1. Purchase a Copilot message pack subscription using the Microsoft 365 admin center.
-
-   Learn more in [Manage self-service purchases and trials (for users)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-users) or [Manage self-service purchases and trials (for admin)](/microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins).
-
 1. Assign prepaid capacity to the Power Platform environment using the Power Platform admin center.
 
    Learn more in [Manage Capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new#manage-capacity).
 
 
 ### Set up pay-as-you-go
-
-Complete these tasks to set up the Dynamics 365 environment for pay-as-you-go.
 
  Set up pay-as-you-go on the Power Platform tenant:
 
