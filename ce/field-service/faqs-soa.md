@@ -27,11 +27,11 @@ The [Scheduling Operations Agent](soa-overview.md) in Dynamics 365 Field Service
 
 ## What are the agent's capabilities?
 
-The agent can be invoked via the Copilot sidecar by typing a prompt such as **Suggest a schedule**. If the prompt is related to scheduling, then the agent shows a settings pane which you can use to adjust the various [settings](soa-run.md#adjust-the-settings-for-optimization-requests) available. After selecting **Suggest schedule**, the agent examines the existing bookings on the selected technician's schedule, available unfulfilled requirements as specified in the schedule suggestion settings, and relevant properties of the technician such as work hours, skills/characteristics in order to suggest a new schedule that achieves the selected scheduling goal. The agent renders a dialog with the original and the suggested schedule for the dispatcher to review, and providing the option to either accept the modifications, or discard them and trying again with other settings.
+The agent can be invoked via the Copilot sidecar by typing a prompt such as **Suggest a schedule**. If the prompt is related to scheduling, then the agent shows a settings pane which you can use to adjust the various [settings](soa-run.md#adjust-the-settings-for-optimization-requests) available. After selecting **Suggest schedule**, the agent examines the existing bookings on the selected technician's schedule, available unfulfilled requirements as specified in the schedule suggestion settings, and relevant properties of the technician such as work hours, skills/characteristics in order to suggest a new schedule that achieves the selected scheduling goal. The agent renders a dialog with the original and the suggested schedule for the dispatcher to review, and provides the option to either accept the modifications, or discard them and try again with other settings.
 
 ## What is the agent's intended use?
 
-You can use agent to quickly optimize the schedule of a single technician, view the suggestion provided by the agent, and decide to apply or cancel the suggestion.
+You can use the agent to quickly optimize the schedule of a single technician, view the suggestion provided by the agent, and decide to apply or cancel the suggestion.
 
 ## How was the agent tested and what metrics are used to measure its performance?
 
