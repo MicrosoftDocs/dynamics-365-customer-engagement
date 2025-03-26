@@ -25,7 +25,7 @@ Visualize key performance indicators (KPIs) and trends for standard contact cent
 - Add new pivots and pages. For example, create a pivot or page that's dedicated to a specific queue with queue-level metrics.
 - Rearrange out-of-the-box report layouts and change themes.
 
-You can customize Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, Real-time analytics for record routing reports in the Customer Service workspace and Contact Center workspace apps. You can't customize unified routing and knowledge analytics reports.
+You can customize the Customer Service historical, Omnichannel historical, Omnichannel real-time analytics, and Real-time analytics for record routing reports in the Customer Service workspace and Contact Center workspace apps. You can't customize unified routing and knowledge analytics reports.
 
 > [!NOTE]
 > - After you customize and publish a report, all customizations become visible to all users in your organization.
