@@ -62,7 +62,7 @@ You can also perform other actions in the flow, such as filtering out certain re
 
 While you can set up a custom flow, the following points are applicable for the out-of-the-box methods:
 
-- When a case record is created, it is either routed or not routed based on the **Route Case** field value of **Yes** or **No**. By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered. 
+- When a case record is created, it is either routed or not routed based on the value of the **Route Case** field **. By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing isn't triggered for these cases. 
 - If cases are created programmatically, the **RouteCase** field is set to **Yes** by default, and therefore, routing is triggered automatically On Create.
 - For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record.
 
