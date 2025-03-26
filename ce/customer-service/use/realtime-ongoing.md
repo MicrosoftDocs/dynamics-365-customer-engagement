@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/17/2025
+ms.date: 03/26/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -45,6 +45,7 @@ Refer to the following table to see when assign and transfer are enabled, depend
 |Record   |      Open   | Assign to representative        |     Not enabled    |
 |Record     |     Active    |   Not enabled       |    Transfer to representative     |
 |Record     |   Wrap-up      |      Not enabled     |      Not enabled     |
+|Record     |   Waiting      |      Enabled     |      Enabled     |
 
 ### Assign conversations
 
@@ -66,7 +67,7 @@ Refer to the following table to see when assign and transfer are enabled, depend
 
 Once a conversation is assigned to a representative, it's in the **Active** state. You can select the conversation and transfer it. 
 
-1. Select a conversation in the **Active** state, and then select **Transfer**. 
+1. Select a conversation in the **Active** or **Waiting** state, and then select **Transfer**. 
 
 1. In the **Transfer conversation** dialog, select a representative from the list of service representatives that appears. A list of service representatives belonging to the same queue and whose presence matches with one of the allowed presence values in the workstream configuration is displayed.
 
@@ -88,14 +89,14 @@ Both the service representative and the customer receive notifications when you 
 
 ## Force close conversations
 
-> [!CAUTION]
-> We recommend that you use the **Force close** option cautiously.
+> > [!NOTE]
+> We recommend that you use the **Force close** option cautiously as it closes the customer conversation immediately.
 
-Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message appears. You must select **Proceed** to close the work item. When you forcibly close a conversation, the conversation immediately ends for the customer too. 
+Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message appears. You must select **Proceed** to close the work item.
 
 1. From the dashboard view selector, select the **Ongoing Conversations** report.
 
-2. Select a conversation and then select **Force Close**.
+1. Select a conversation and then select **Force Close**.
 
 The participants receive a notification that a supervisor ended their conversation.
 
@@ -128,6 +129,7 @@ Refer to the following table to see actions that are enabled, depending on the v
 |Record   |  Open       | Assign to representative        |   Transfer to representative      | Not enabled|Enabled|
 |Record   |   Active      |      Assign to representative   |    Transfer to representative     |Not enabled | Enabled|
 |Record    | Wrap-up        | Not enabled        | Not enabled        |Enabled |Enabled |
+|Record| Waiting | Enabled | Enabled | Enabled| Enabled| 
 
 After you assign or transfer conversations, manually refresh the report to view the latest status.
 
