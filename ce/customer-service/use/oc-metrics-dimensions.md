@@ -291,11 +291,11 @@ This metric is a count of conversations that are currently in a *Waiting* state.
 
 ### Wrap-up conversations
 
-This metric is a count of conversations that are currently in a *Wrap-up* state. A conversation is moved to a *Wrap-up* state when the service representative ends the conversation, or when the customer leaves the conversation either by ending it on their side or by being disconnected. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a count of conversations that are currently in a Wrap-up state. A conversation is moved to a Wrap-up state when the service representative ends the conversation, or when the customer leaves the conversation either by ending it on their side or by being disconnected. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
 
 #### Related metric:
 
-- **Agents in wrap-up conversations**: Number of agents handling conversations that are in wrap-up state.
+- **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
 
 ### Total conversations
 
