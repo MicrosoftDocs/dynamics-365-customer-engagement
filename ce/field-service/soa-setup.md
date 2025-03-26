@@ -1,7 +1,7 @@
 ---
 title: Set up the Scheduling Operations Agent (preview)
 description: Learn how to set up the Scheduling Operations Agent in Dynamics 365 Field Service for your users.
-ms.date: 03/19/2025
+ms.date: 03/26/2025
 ms.topic: how-to
 ms.author: anilmur
 author: anilmur
@@ -63,7 +63,7 @@ Dynamics 365 regularly checks the available capacity (quota) of Copilot Studio m
 - For pay-as-you-go, use Microsoft Cost Management in the Azure portal to view detailed usage and adjust spending limits (budgets) to free up more capacity. Learn more in [View usage and billing information](/power-platform/admin/pay-as-you-go-usage-costs). If there's no quantity to allocate, purchase more.
 
 > [!IMPORTANT]
-> When the quota is depleted, the AI capability is unavailable until more capacity is added.
+> When the quota is depleted, the AI capability is unavailable until more capacity is added. Tenant admins can [review the message consumption of agents](/microsoft-copilot-studio/requirements-messages-management#view-message-consumption) in Power Platform admin center. For more information, see [Copilot message scenarios](/microsoft-copilot-studio/requirements-messages-management#message-scenarios).
 
 ## Enable the Scheduling Operations Agent
 
