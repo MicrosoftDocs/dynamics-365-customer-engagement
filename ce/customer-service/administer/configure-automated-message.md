@@ -48,6 +48,9 @@ You can customize messages across instances within a channel. For example, you c
 
 The message field also supports context variables as placeholders, which are replaced by the value of context variables at runtime. The syntax to insert a context variable is {$ContextVariableName$}, as shown in the following example:
 
+ > [!div class=mx-imgBorder]
+ > ![Example of syntax for context variables in a message field.](../media/context-variables-message-field.png "Example of syntax for context variables in a message field")
+
 Keep in mind the following rules when using context variables:
 
 - You must enclose context variables in curly braces with dollar signs. For example: {$VariableName$}
