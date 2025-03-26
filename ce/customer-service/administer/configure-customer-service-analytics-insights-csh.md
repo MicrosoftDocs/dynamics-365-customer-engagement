@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 03/25/2025
+ms.date: 03/26/2025
 feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ---
 
@@ -54,11 +54,8 @@ Users with the system administrator or supervisor role can access the analytics 
     |[Omnichannel real-time analytics dashboards](../use/intro-realtime-analytics-dashboard.md)   |   msdyn_dataanalyticsreport_oc_rt      |
     |[Real-time analytics for record routing](../use/rr-overview.md#overview-of-real-time-analytics-for-record-routing)    |   msdyn_dataanalyticsreport_ur_recordrouting_rt      |
     |[Customer Service historical analytics dashboards](../use/customer-service-analytics-insights-csh.md)     |    msdyn_dataanalyticsreport_csrmanager     |
-    |Copilot Analytics   |    msdyn_dataanalyticsreport_copilot     |
-    |Knowledge analytics dashboards| |
-    |Report Bookmarks| |
-    |Visual customization| |
-
+    |[Copilot Analytics ](../use/copilot-analytics-report.md#use-copilot-analytics-report)  |    msdyn_dataanalyticsreport_copilot     |
+    |[Knowledge analytics dashboards](../use/knowledge-search-analytics-cs.md#introduction-to-knowledge-analytics)| msdyn_dataanalyticsreport_ksinsights |
 
 > [!NOTE]
 > For custom roles, select **Read** privileges for [the entities used by historical and real-time analytics](../use/dataverse-entities.md), as applicable.
