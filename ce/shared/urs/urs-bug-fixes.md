@@ -26,11 +26,6 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.139.15
 
-- Released [**Scheduling Operations Agent**, an agent in Dynamics 365 Field Service ](../../field-service/soa-overview.md)that helps dispatchers improve the schedule of a single technician quickly and efficiently. This new feature is enabled across stations on a separate schedule: 
-    - Station 2: March 28, 2025
-    - Station 3 - March 31, 2025
-    - Europe - April 1, 2025
-    - North America - April 2, 2025
 - Fixed a bug impacting requirement tooltips on the schedule board map. 
 - Booking statuses in the booking panel are now sorted alphabetically.
 - Fixed a bug that was improperly calculating remaining and fulfilled durations when deleting a booking spanning multiple days or when deleting multiple bookings. 
