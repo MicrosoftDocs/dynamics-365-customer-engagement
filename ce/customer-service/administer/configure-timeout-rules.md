@@ -75,5 +75,3 @@ You can change the priority per timeout rule so that if any condition is the sam
 ### Related information
 
 [Understand conversation states](../use/oc-conversation-state.md)  
-
-
