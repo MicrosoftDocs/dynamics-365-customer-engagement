@@ -142,7 +142,7 @@ By default, the research data is refreshed every three days. You can adjust the 
 
 ## View usage consumption by the agent
 
-You can start monitoring the usage consumption of the sales qualification agent after the agent is published. This information helps you keep track of the messages the agent has consumed and the remaining capacity.
+You can start monitoring the usage consumption of the sales qualification agent after the agent is published. This information helps you keep track of the capacity consumed by the agent and the remaining capacity.
 
 1. Open the [sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page).
 1. Select **View usage consumption** to view the usage consumption of the agent.
@@ -160,6 +160,3 @@ If you no longer want the sales qualification agent to run in your environment o
 3. Select **Deactivate**.
 
 The agent's status changes to **Deactivating** until the process is complete. Once deactivated, the status changes to **Inactive**.
-
-
-   
