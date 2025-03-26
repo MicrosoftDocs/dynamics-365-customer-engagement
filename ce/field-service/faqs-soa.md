@@ -1,7 +1,7 @@
 ---
 title: FAQ about Scheduling Operations Agent (preview)
 description: Get answers to common questions about how the AI-powered Scheduling Operations Agent feature in Dynamics 365 Field Service helps you quickly improve the schedule of a single technician.
-ms.date: 03/06/2025
+ms.date: 03/26/2025
 ms.custom:
   - responsible-ai-faqs
   - ai-gen-docs-bap
@@ -15,7 +15,11 @@ ms.collection: bap-ai-copilot
 
 # FAQ about Scheduling Operations Agent (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
 The Scheduling Operations Agent is a new functionality for Dynamics 365 Field Service that allows dispatchers to improve the schedule of a single technician quickly and efficiently. In this article, you get answers to common questions about how this agent works and its limitations.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## What is the Scheduling Operations Agent?
 

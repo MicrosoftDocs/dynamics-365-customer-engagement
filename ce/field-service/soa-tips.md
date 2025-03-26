@@ -9,6 +9,10 @@ author: anilmur
 
 # Tips and troubleshooting for the Scheduling Operations Agent (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
+
 ## Define Resource and Requirement properties
 
 The agent evaluates various properties of resources and requirements. Consistent use of these properties improves the suggested schedule.

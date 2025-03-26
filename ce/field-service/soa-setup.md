@@ -9,7 +9,11 @@ author: anilmur
 
 # Set up the Scheduling Operations Agent (preview)
 
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
 The Scheduling Operations Agent is an autonomous agent for Dynamics 365 Field Service. Before a dispatcher can use the new agent capabilities, an administrator must ensure the environment is up-to-date, billing settings are set up, and feature settings are configured.
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 ## Prerequisites
 

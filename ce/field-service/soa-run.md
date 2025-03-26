@@ -1,13 +1,17 @@
 ---
 title: Run the Scheduling Operations Agent (preview)
 description: Learn how to invoke and run the Scheduling Operations Agent for Dynamics 365 Field Service.
-ms.date: 03/24/2025
+ms.date: 03/26/2025
 ms.topic: how-to
 ms.author: anilmur
 author: anilmur
 ---
 
 # Run the Scheduling Operations Agent (preview)
+
+[!INCLUDE [public-preview-banner](../includes/public-preview-banner.md)]
+
+[!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
 There are two ways to have the Scheduling Operations Agent suggest an optimized schedule:
 
