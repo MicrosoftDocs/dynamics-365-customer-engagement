@@ -36,7 +36,7 @@ You can customize messages across instances within a channel. For example, you c
 
 2. On the **General** tab, edit the **Localized text** field, and then select **Save**.
 
-    The message field supports the following slugs.
+    The message field supports the following slugs and context variables.
     
     | **Slug** | **Description** |
     |----------|-----------------|
@@ -45,6 +45,20 @@ You can customize messages across instances within a channel. For example, you c
 
     > [!div class=mx-imgBorder]
     > ![Configure automated messages at channel level.](../media/automated-messages-general.png "Configure automated messages at channel level")
+
+The message field also supports context variables as placeholders, which are replaced by the value of context variables at runtime. The syntax to insert a context variable is {$ContextVariableName$}, as shown in the following example:
+
+Keep in mind the following rules when using context variables:
+
+- You must enclose context variables in curly braces with dollar signs. For example: {$VariableName$}
+- The context variable name you use must match the variable name that's defined in the context variables exactly, including capitalization.
+- Context variables can contain alphanumeric characters and underscores only. For example: {$User_ID$}. With the exception of curly braces and dollar signs, all other special characters aren't allowed.
+- Context variables can't contain spaces in their names. For example, {$User Name$} is invalid. Use {$UserName$} instead.
+- Context variables can't be left empty. For example, {$ $} is invalid.
+- If the matching context variable isn't found, the slug pattern is replaced with an empty string.
+
+Learn more about context variables in [Manage context variables](manage-context-variables.md).
+
 
 ## Customize automated messages at the channel instance level
 
@@ -57,7 +71,7 @@ You can customize automated messages at the channel instance level. For example,
 
 Complete the following steps for the channel in which you want to create custom automated messages in the Customer Service admin center app:
 
-1. Go to the workstream, and edit the channel instance.
+1. Go to the workstream, and then edit the channel instance.
 2. On the **Behaviors** page, select **Add message** in the **Custom automated messages** area.
 3. On the **Add automated message** pane, select a trigger from the **Select a message trigger** dropdown list.
 4. In the **Automated message** box, type the message that should be displayed.
