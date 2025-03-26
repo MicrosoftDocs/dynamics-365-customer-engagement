@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 Presence is an indication of your customer service representatives' (service representatives or representatives) availability or status to take up work in Dynamics 365 Customer Service.
 
-:::image type="content" source="../media/oceh-presence-icon.png" alt-text="Screenshot of representative presence status.":::
+:::image type="content" source="../media/presence-icon.png" alt-text="Screenshot of representative presence status.":::
 
 ## Prerequisites
 
@@ -114,7 +114,7 @@ The representative presence status is updated in the following two ways:
 
     For live chat and voice channels, you can avoid assigning new work items when representatives miss or reject notifications. Make sure that you don't include the "inactive" and `"Do not disturb"` statuses in the allowed presence setting of the corresponding channel workstream.
 
-  - If the representative is disconnected, the system captures the current presence status and immediately sets the status as **Offline**. If the representative sign back in within 2.5 minutes, the system restores the presence status. If the representative doesn't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set. The following representative actions are considered for disconnection:
+  - If the representative is disconnected, the system captures the current presence status and immediately sets the status as **Offline**. If the representative sign back in within 2.5 minutes, the system restores the presence status. If the representative doesn't sign back in by 2.5 minutes, the system recalculates the presence that it needs to set. The following actions by the representative are considered for disconnection:
     - Closes the Customer Service workspace browser tab or the tab goes into sleep mode. Disable the sleep mode for tabs to keep presence intact on inactive browser tabs.
     - Signs out of Customer Service workspace.
     - Closes or signs out of the device.
@@ -127,7 +127,7 @@ Presence changes automatically based on capacity utilization. The following scen
 - If available capacity is negative, presence is set to **Do not disturb**.
 
 - If representative has both capacity units and profile, the system waits for both to be exhausted to mark the representative as **Do not disturb**. This wouldn't bother if the capacity units are being used or not. If the capacity units are configured, this check would happen.
-- If representative has multiple capacity profiles and all are nonblocking, the system waits for them to be consumed to mark the representative as **Do not disturb**. If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the representative as **Do not disturb**.
+- If representative has multiple capacity profiles and all are still to be consumed, the system waits till the capacity profiles are consumed to mark the representative as **Do not disturb**. If one of the profiles is blocking, then the system waits for the blocking profile to be consumed to mark the representative as **Do not disturb**.
 - To suit your business scenario, if you set the capacity (units based) for the representative to zero, when a supervisor manually assigns a work item to them, their presence changes to **Do not disturb**. The presence isn't reset after they complete their work and remains as **Do not disturb**.
 
 ## How do manual and automatic presence updates work together
