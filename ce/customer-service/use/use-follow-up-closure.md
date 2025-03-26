@@ -17,7 +17,8 @@ ms.custom: bap-template
 
 The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the AI agent suggests that the service representative can close the case.
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
+
 
 
 ## How does autonomous case follow-up work

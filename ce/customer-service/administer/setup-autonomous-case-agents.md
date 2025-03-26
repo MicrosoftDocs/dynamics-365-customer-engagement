@@ -22,7 +22,7 @@ Autonomous case management agents streamline the creation and maintenance of cas
 - From conversations. The agent analyses the live chat conversation, predicts and populates the relevant field values, and updates case details as the conversation progresses. 
 - From emails. [Automatic record creation and update(ARC) rules](automatically-create-update-records.md#activities-and-entities-supported-by-rules-for-creating-or-updating-records-automatically) create cases from emails. After a case is created using these rules, the agent updates the fields in the case based on ongoing email interactions with customers. 
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Prerequisites
 

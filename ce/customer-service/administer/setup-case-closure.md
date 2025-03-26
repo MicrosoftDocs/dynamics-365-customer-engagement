@@ -18,7 +18,7 @@ ms.custom: bap-template
 
 The autonomous case management agent can automatically follow up with customers over email. If customers don't respond after a set number of follow-ups, the agent can automatically close the cases, reducing manual communication overhead and streamlining case resolution.
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 
 ## Prerequisites

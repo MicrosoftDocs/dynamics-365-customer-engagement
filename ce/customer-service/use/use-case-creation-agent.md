@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 The autonomous case management agent  uses live chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors.
 
-[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/preview-note-d365.md)]
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 
 ## Autonomous case creation
