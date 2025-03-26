@@ -60,7 +60,7 @@ Now, based on the flow that is defined, whenever a record, in this example, an e
 
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route and performing data transformation.
 
-While you can set up a custom flow, you can also use the following out-of-the-box methods:
+While you can set up a custom flow, the following points are applicable for the out-of-the-box methods:
 
 - When a case record is created, it is either routed or not routed based on the **Route Case** field value of **Yes** or **No**. By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered. 
 - If cases are created programmatically, the **RouteCase** field is set to **Yes** by default, and therefore, routing is triggered automatically On Create.
