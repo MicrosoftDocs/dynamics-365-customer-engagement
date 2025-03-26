@@ -19,7 +19,7 @@ As a supervisor, you can [customize the visual display](customize-reports.md#cus
 
 Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization has set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
 
-As a supervisor, you can view the **Real-time analytics for record routing** dashboards in either the Customer Service workspace or Contact Center workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). You must have the CSR Manager role to be able to view real-time analytics for record routing dashboards.
+As a supervisor, you can view the **Real-time analytics for record routing** dashboards in either the Customer Service workspace or Contact Center workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). To view the real-time analytics for record-routing dashboards, you must have the CSR Manager role.
 
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
