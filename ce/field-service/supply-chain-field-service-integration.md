@@ -13,15 +13,15 @@ Dynamics 365 Field Service includes basic [inventory capabilities](./inventory-p
 
 Based on the Common Data Model and Microsoft Dataverse, you can set up a synchronous two-way integration for the following tables:
 
-- **Warehouse**
-- **Customer Asset**
-- **Customer Asset Category**
+- [**Warehouse**](./developer/reference/entities/msdyn_warehouse.md)
+- [**Customer Asset**](./developer/reference/entities/msdyn_customerasset.md)
+- [**Customer Asset Category**](./developer/reference/entities/msdyn_customerassetcategory.md)
 - **Payment Terms**
-- **Ship Via**
-- **Purchase Order**
-- **Purchase Order Product**
-- **Purchase Order Receipt**
-- **Purchase Order Receipt Product**
+- [**Ship Via**](./developer/reference/entities/msdyn_shipvia.md)
+- [**Purchase Order**](./developer/reference/entities/msdyn_purchaseorder.md)
+- [**Purchase Order Product**](./developer/reference/entities/msdyn_purchaseorderproduct.md)
+- [**Purchase Order Receipt**](./developer/reference/entities/msdyn_purchaseorderreceipt.md)
+- [**Purchase Order Receipt Product**](./developer/reference/entities/msdyn_purchaseorderreceiptproduct.md)
 
 Here are a few examples of how the integration is useful.
 
