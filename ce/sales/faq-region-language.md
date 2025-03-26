@@ -79,7 +79,7 @@ The following table shows the version of Exchange that's supported for Sales Pre
 
 Exchange integration is only available in specific regions. To use Exchange data for who knows whom and relationship analytics, your organization's Office 365 data location must be in one of the following locations and not in your region-specific data canter location:
 
-- Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands).
+- Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
 
