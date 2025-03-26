@@ -11,20 +11,22 @@ ms.custom: bap-template
 
 # Overview of real-time analytics for record routing
 
-Real-time analytics for record routing provides supervisors with critical insights into the health and key performance indicators (KPIs) of their contact centers. These analytics enable supervisors to monitor and optimize customer service representative (service representative or representative) performance and customer interactions across multiple channels. As a supervisor, you can customize and save personalized views, and efficiently manage operational metrics, service representative allocation, and ongoing cases to maintain high-service levels and customer satisfaction.
+Real-time analytics for record routing provides supervisors with critical insights into the health and key performance indicators (KPIs) of their contact centers. These analytics enable supervisors to monitor and optimize customer service representative (service representative or representative) performance and customer interactions across multiple channels. 
+
+As a supervisor, you can [customize the visual display](customize-reports.md#customize-visual-display) of the reports and save your personalized views as [bookmarks](manage-bookmarks.md#manage-bookmarks-for-reports). You can efficiently manage operational metrics, service representative allocation, and ongoing cases to maintain high-service levels and customer satisfaction.
 
 ## Security roles and permissions
 
 Real-time analytics uses the security permissions defined in Microsoft Dataverse. For example, if your organization has set business unit-level permissions for you, metrics that are computed based on business unit-level data only are shown to you.
 
-As a supervisor, you can view the **Real-time analytics for record routing** dashboards in either the Customer Service workspace or Contact Center workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards).
+As a supervisor, you can view the **Real-time analytics for record routing** dashboards in either the Customer Service workspace or Contact Center workspace app. However, your administrator must provide the required permissions for you. Learn more in [Configure user access to analytics and dashboards](../administer/configure-customer-service-analytics-insights-csh.md#configure-user-access-to-analytics-and-dashboards). To view the real-time analytics for record-routing dashboards, you must have the CSR Manager role.
 
 > [!NOTE]
 > If different values are shown to different users in the metrics, you must investigate the permissions for those users.
 
 ## **Access reports**
 
-In either the Customer Service workspace or Contact Center workspace app, In the default view of the applications, select **Real-time analytics for record routing** in **Service**. By default, the **Summary** report is shown. To view the **Queue, Agent,** **Ongoing work items** and **Backlog work items** reports, select the appropriate tabs.
+In the default view of either the Customer Service workspace or Contact Center workspace app, select **Real-time analytics for record routing** in **Service**. By default, the **Summary** report is shown. To view the **Queue, Agent,** **Ongoing work items** and **Backlog work items** reports, select the appropriate tabs.
 
 If you can't view the reports, contact your system administrator. Learn more in [Manage real-time analytics for record routing](../administer/enable-record-routing.md#manage-real-time-analytics-for-record-routing).
 
