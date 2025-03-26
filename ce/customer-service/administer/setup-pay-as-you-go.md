@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Set up a pay-as-you-go plan
 
-The autonomous case management agent uses the Data Entry Agent in the background. The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. This topic describes how the charges are calculated in such scenarios.
+This article explains about setting up a pay-as-you-go plan and managing capacity and usage for the plan.
 
 ## Consumption-based billing
 
