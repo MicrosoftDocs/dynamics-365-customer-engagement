@@ -86,6 +86,20 @@
           href: set-up-queues-manage-activities-cases.md
         - name: Route cases using basic rulesets
           href: create-rules-automatically-route-cases.md
+      - name: Conversation diagnostics
+        items:
+        - name: Configure conversation diagnostics (preview)
+          href: configure-conversation-diagnostics.md
+        - name: Understand conversation diagnostics (preview)
+          href: conversation-diagnostics-subscenarios.md
+        - name: View diagnostics for unified routing
+          href: unified-routing-diagnostics.md
+        - name: Manage routing diagnostics data
+          href: manage-routing-diagnostics-data.md
+      - name: Use best practices to set up unified routing
+        href: unified-routing-best-practices.md
+      - name: FAQ about unified routing
+        href: unified-routing-faqs.md
       - name: View diagnostics for unified routing
         href: unified-routing-diagnostics.md
       - name: Manage routing diagnostics data
@@ -412,6 +426,8 @@
         href: add-outbound-dialer-settings.md  
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Install and manage Desktop companion application (preview)
+        href: /dynamics365/contact-center/administer/install-manage-desktop-app?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
       - name: Forward your Teams calls to digital contact center
@@ -430,6 +446,8 @@
         href: /dynamics365/contact-center/administer/bot-scenario-configure?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Configure multilingual IVR bots
         href: /dynamics365/contact-center/administer/configure-multilingual-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Configure fallback actions for the IVR agent
+        href: /dynamics365/contact-center/administer/configure-fallback-actions-ivr-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml 
       - name: View voice calls usage
         href: voice-channel-usage.md
       - name: Block spam numbers
@@ -446,12 +464,6 @@
         href: set-up-multilingual-pva-bot.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate Nuance Cloud IVR bot
-        items:
-        - name: Introduction to Nuance Cloud IVR agent integration
-          href: oc-nuance-overview.md
-        - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-          href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md
       - name: Pricing scenarios for voice calling
@@ -506,6 +518,8 @@
       items:
       - name: Set up SMS channels
         items:
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for Twilio
@@ -652,23 +666,23 @@
         href: /dynamics365/contact-center/administer/knowledge-copilot?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml            
       - name: FAQ for Copilot in Customer Service
         href: faq-copilot-features.md
-    - name: Bots
+    - name: Agents
       items:
-      - name: Overview of bots
+      - name: Overview of agents
         href: overview-bots.md
-      - name: Best practices for configuring bots
+      - name: Best practices for configuring agents
         href: configure-bot-best-practices.md
-      - name: Manage your bots
+      - name: Manage your agents
         href: manage-your-bots.md
       - name: Integrate a Copilot Studio agent
         href: configure-bot-virtual-agent.md
       - name: Transfer conversations from customer service representatives to agents
         href: /dynamics365/contact-center/administer/transfer-to-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml   
-      - name: Configure Azure bots
+      - name: Configure Azure agents
         items:
-        - name: Bot sessions and licensing
+        - name: Agent sessions and licensing
           href: bot-session-licensing.md
-        - name: Integrate an Azure bot
+        - name: Integrate an Azure agent
           href: configure-bot-azure.md   
       - name: Configure context variables for agents
         href: context-variables-for-bot.md      
@@ -698,6 +712,8 @@
           href: enable-realtime-analytics-dashboard-administrator.md
         - name: Manage access to Ongoing Conversations dashboard
           href: configure-ongoing-conversations-dashbaord.md
+      - name: Manage real-time analytics for record routing dashboards
+        href: enable-record-routing.md
       - name: Enable supervisor access to manage conversations
         href: enable-monitor-assign-transfer-conv.md
       - name: Manage historical analytics dashboards

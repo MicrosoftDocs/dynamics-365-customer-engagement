@@ -1,7 +1,7 @@
 ---
 title: Configure a LINE channel
 description: Instructions to configure a LINE channel.
-ms.date: 02/21/2025
+ms.date: 03/03/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -62,9 +62,9 @@ After completing the prerequisites, you can add the LINE channel for your organi
       - [Custom automated messages](configure-automated-message.md)
       - [Post-conversation survey](configure-post-conversation-survey.md)
    
-   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow agents and customers to send and receive file attachments. For more information, refer to [Enable file attachments](enable-file-attachments.md).
-      - Customers can send file attachments
-      - Agents can send file attachments
+   1. On the **User features** page, set the toggle for **File attachments** to **On** and select the following checkboxes if you want to allow customer service representatives (service representatives or representatives) and customers to send and receive file attachments. For more information, refer to [Enable file attachments](enable-file-attachments.md).
+      - Customers can send file attachments.
+      - Service representatives can send file attachments.
    1. Verify the settings on the **Summary** page, and select **Finish**. The LINE channel instance is configured.
 
 1. Configure routing rules. For more information, refer to [Configure work classification](configure-work-classification.md).
@@ -80,7 +80,7 @@ After completing the prerequisites, you can add the LINE channel for your organi
    - [Smart assist bots](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
-## Customer and agent experiences
+## Customer and representative experiences
 
 A customer can start a conversation in any of the following ways:
 
@@ -90,17 +90,17 @@ A customer can start a conversation in any of the following ways:
 
 If a customer starts a conversation from the LINE website and then later switches to the mobile device, the previous conversation persists and the customer can continue the conversation.
 
-The agent receives the notification of the incoming chat request, along with customer details. For more information, refer to [View notifications](../use/oc-notifications.md).
+The representative receives the notification of the incoming chat request, along with customer details. For more information, refer to [View notifications](../use/oc-notifications.md).
 
-After the system links the LINE social profile to a customer or contact record by the agent, subsequent LINE conversations are linked to the customer records, and then the customer summary is populated.
+After the system links the LINE social profile to a customer or contact record by the representative, subsequent LINE conversations are linked to the customer records, and then the customer summary is populated.
 
 If the system doesn't identify the customer by name, a new contact record can be created.
 
 ## Privacy notice
 
-If you enable this feature, your data is shared with LINE and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). For more information, refer to [Connect a bot to LINE](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
+If you enable this feature, your data is shared with LINE and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Cloud environment). For more information, refer to [Connect an agent to LINE](/azure/bot-service/bot-service-channel-connect-line?view=azure-bot-service-4.0&preserve-view=true).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws related to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws related to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 ### Related information
 

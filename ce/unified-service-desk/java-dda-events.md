@@ -1,8 +1,8 @@
 ---
-title: "JavaDDA Events in Unified Service Desk | MicrosoftDocs"
-description: "Learn about JavaDDA and the set of events available to trigger automation executions in the Hosted Application Toolkit (HAT)."
+title: JavaDDA Events in Unified Service Desk 
+description: Learn about JavaDDA and the set of events available to trigger automation executions in the Hosted Application Toolkit (HAT).
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

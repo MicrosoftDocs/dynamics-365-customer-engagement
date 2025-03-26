@@ -39,7 +39,7 @@ View and change the time zone in the **Board view settings** after launching the
 
 :::image type="content" source="../../field-service/media/schedule-assistant-timezone.png" alt-text="Screenshot of the time zone setting in the schedule assistant.":::
 
-The system derives time zone value from the time zone on the requirement. Open the requirement and select **Modify Calendar** to view and edit the requirement time zone.
+The system derives time zone value from the time zone on the requirement when launched from the schedulable entity. Open the requirement and select **Modify Calendar** to view and edit the requirement time zone. When launched from the schedule board with **Find availability**, the system derives the time zone value from the schedule board settings record.
 
 ## Reschedule bookings
 
