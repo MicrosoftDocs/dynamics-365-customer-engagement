@@ -1,7 +1,7 @@
 ---
 title: Manage presence in Omnichannel for Customer Service
 description: Learn how to view and update your presence status in Omnichannel for Customer Service.
-ms.date: 04/30/2024
+ms.date: 04/01/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -29,6 +29,7 @@ The prerequisites for presence status to load correctly are as follows:
 - [Omnichannel for Customer Service is provisioned](/dynamics365/contact-center/implement/provision-channels#set-up-channels) or [Unified routing is enabled](../administer/provision-unified-routing.md).
 - [Cookies are enabled in agent's browser](../implement/system-requirements-omnichannel.md#system-requirements-for-omnichannel-for-customer-service).
 - The following URL is listed as allowed: https://*.service.signalr.net
+- **New Presence with fewer clicks** is selected in **Operations** > **New and upcoming features** in the site map of Contact Center admin center or Customer Service admin center.
 
 
 ## View out-of-the-box presence statuses
@@ -56,6 +57,7 @@ A presence status consists of two elements:
 ### Custom presence status
 
 Apart from the out-of-the-box presence statuses, you can create custom presence statuses for your representatives to use. The system matches the custom presence status to a base presence.
+
 For example, if representatives on your team want to attend a training, you can create a custom “Away–In Training” presence status. When you map a custom presence to a base presence, you must make sure that the configurations are logically viable. For example, if you map an available custom presence to offline base status, the application treats it as **Offline** while the visual effect is **Available**.
 
 You can view custom presence statuses in Omnichannel real-time analytics and Omnichannel historical analytics reports.
@@ -64,14 +66,14 @@ More information: [Configure custom presence status](../administer/presence-cust
 
 ### Default presence
 
-You can specify a default presence for representatives when they sign into Customer Service workspace. Depending on the admin configuration, default presence allows the agents to immediately start the work or have some time before they start work. If you don’t configure any default presence, the application sets "Available" as the default.
+You can specify a default presence for representatives when they sign into Customer Service workspace. Depending on the admin configuration, default presence allows the representatives to immediately start the work or have some time before they start work. If you don’t configure any default presence, the application sets **Available** as the default.
 
-More information: [Configure default presence for agents](../administer/users-user-profiles.md#manage-users-using-the-classic-experience)
+More information: [Configure default presence for representatives](../administer/users-user-profiles.md#manage-users-using-the-classic-experience)
 
 
 ## How presence is calculated when representatives sign in
 
-When the representative signs into Customer Service workspace, the system sets the representative's presence based on the following factors:
+When the representative signs into Customer Service workspace, the system sets the representative’s presence based on the following factors:
 
 - Default presence configuration
 - Representative capacity
