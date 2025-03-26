@@ -1,5 +1,5 @@
 ---
-title: Connect the sales research agent to your data
+title: Connect the sales research agent to a different data source or upload data
 description: Learn how to connect the sales research agent to your data.
 manager:
 ms.date: 03/17/2025
@@ -13,21 +13,19 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Connect the sales research agent to your data
+# Connect the sales research agent to a different data source 
 
-You can connect the sales research agent to your Dynamics 365 Sales or Dataverse environment, or upload data files (CSV, Excel, PDF) for additional context. This allows you to create comprehensive research blueprints that combine data from multiple sources.
+The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can also connect to other dataverse environments, upload data files (CSV, Excel, PDF) as additional data sources, or chose to remove existing connection entirely and only use uploaded files as basis for your research. This allows you to create comprehensive research blueprints that combine data both D365 and uploaded data or reason over uploaded data only.
 
-On the Sales Research Agent page in the Sales Hub app, select **Add data** to connect to your data.
+On the Sales Research Agent page in the Sales Hub app, select **Add data**.
 
 :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the sales research agent.":::
 
-## Use data from Dynamics 365 Sales
-
-You can connect to your business data from Dynamics 365 Sales, which enables you to do rich analysis across your business data estate.
+## Use data from other Dynamics 365 Sales environments
 
 - If you have access to multiple environments, choose the environment that has the data you want to analyze.
 
-- Based on the question you ask, the agent looks through the data source for the most relevant data to answer the question. The agent depends on the metadata available (for example, table and column descriptions) to help identify the relevant data. This connection has same limitations on number of tables and rows as the Dataverse connection. 
+- Based on the question you ask, the agent looks through the data source for the most relevant data to answer the question. The agent depends on the metadata available (for example, table and column headers and descriptions) to help identify the most relevant data. 
 - Make sure that custom tables and fields added to Dynamics 365 Sales have proper descriptions. The agent uses these descriptions to understand the data and provide better insights.
 - The blueprint generated depends on the data found. If no data is found, then the sales research agent shows an error and might ask if you can rephrase the question.  
 - If you use the AI cursor to ask follow-up questions, the agent will consider the data source again to answer it unless you specify a different data source.  
