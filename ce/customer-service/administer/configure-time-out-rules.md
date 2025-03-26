@@ -1,6 +1,6 @@
 ---
-title: Configure timeout rules
-description: Learn how to configure timeout rules to initiate automatic actions and significantly improve agent productivity.
+title: Configure time-out rules
+description: Learn how to configure time-out rules to initiate automatic actions and significantly improve agent productivity.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -10,9 +10,9 @@ ms.date: 03/28/2025
 ms.custom: bap-template
 ---
 
-# Configure timeout rules
+# Configure time-out rules
 
-Timeout rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The timeout rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through persistent chat and asynchronous messaging channels. Sometimes, AI agents are used as equivalent of the customer service representative (service representative or representative) persona.
+Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through persistent chat and asynchronous messaging channels. Sometimes, AI agents are used as equivalent of the customer service representative (service representative or representative) persona.
 
 The following channels only are supported:
 
@@ -31,9 +31,9 @@ The following channels only are supported:
 
 The System Administrator role.
 
-## Configure the timeout rules
+## Configure the time-out rules
 
-For the automatic actions to run, set up the timeout rules per workstream. You can configure rules to perform the following actions:
+For the automatic actions to run, set up the time-out rules per workstream. You can configure rules to perform the following actions:
 
 - **Send a message**: The system sends a message to the customer or agent based on the customer’s idle time. You can send a reminder message to the customer to respond or a message to the agent to speed up their research to relay back to the customer.
 - **Automatically close the conversation**: Automatically closes the conversation after the configured minutes of customer’s idle time is passed. This frees the agent’s capacity to help other customers waiting in the queue and closes the conversation so that it's not in Waiting state.
@@ -49,7 +49,7 @@ For the automatic actions to run, set up the timeout rules per workstream. You c
    - Select a workstream corresponding to the channel where you want the rule to run.
 1. In **Trigger conditions**, for the trigger event that you selected in the previous page, enter the following:
    - **Operator**: By default, **Greater than**.
-   - **Value**: A numeric value that denotes the timeout period.
+   - **Value**: A numeric value that denotes the time-out period.
      > [!NOTE]
      > - A small difference of a few seconds between the exact time and the performance for the action might be there.
    - **Unit of time**: Time in days, hours, or minutes.
@@ -60,17 +60,17 @@ For the automatic actions to run, set up the timeout rules per workstream. You c
       - Repeat the steps 2 and 3 to configure the message text in other languages.
       - In **Default / Fallback**, select a language to be the default language if the languages that you configure don't match the language set in the workstream.
            
-        :::image type="content" source="../media/timeout-rule-action.png" alt-text="Screenshot of timeout rule action settings.":::
+        :::image type="content" source="../media/timeout-rule-action.png" alt-text="Screenshot of time-out rule action settings.":::
 
    - **Autoclose conversation**: Closes the conversation automatically based on the duration that's set for the channel. The conversation moves from open, active, or waiting to the closed state and the system frees the representative capacity.
 1. Select **Done**. The rule that you created is listed on the **Timeout rules** page. 
-1. You can then set a priority for the rules by entering a value. If two conditions are same, then priority determines the timeout rule to run. The workstream rules are independent of each other and follow the priority of their workstream order.
+1. You can then set a priority for the rules by entering a value. If two conditions are same, then priority determines the time-out rule to run. The workstream rules are independent of each other and follow the priority of their workstream order.
 
 ## Manage rules
 
 Select a rule to enable the edit button that you can use to edit the rule.
 
-You can change the priority per timeout rule so that if any condition is the same, the prioritized timeout rule is run first.
+You can change the priority per time-out rule so that if any condition is the same, the prioritized time-out rule is run first.
 
 ### Related information
 
