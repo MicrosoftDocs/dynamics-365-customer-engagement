@@ -18,6 +18,10 @@ The Scheduling Operations Agent is a new functionality for Dynamics 365 Field Se
 
 The Scheduling Operations Agent uses an optimization algorithm that considers existing bookings and requirements. It’s available to licensed Field Service users with a dispatcher role  to optimize the schedule for a resource as and when needed. If an organization needs to optimize multiple schedules in batches or on a recurring basis, we recommend using the [Resource Scheduling Optimization Add-in for Field Service](rso-overview.md) instead.
 
+## Regional availability
+
+The Scheduling Operation Agent is available in the same Azure regions as Dynamics 365 Field Service, except Azure Government and China.
+
 ## Next steps
 
 1. [Set up the Scheduling Operations Agent (preview)](soa-setup.md)
