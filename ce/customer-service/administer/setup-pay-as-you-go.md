@@ -42,9 +42,7 @@ Complete these tasks to set up the Dynamics 365 environment for prepaid capacity
 
 ### Set up pay-as-you-go
 
- Set up pay-as-you-go on the Power Platform tenant:
-
-   To set up pay-as-you-go billing, you first need an active Azure subscription. Then, you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or within [Power Apps](https://make.powerapps.com/).
+To set up pay-as-you-go billing, you first need an active Azure subscription. Then, you link the subscription to your Power Platform environment using the [Power Platform admin center](https://admin.powerplatform.microsoft.com/) or within [Power Apps](https://make.powerapps.com/).
 
 Learn more in [Set up pay-as-you-go](/power-platform/admin/pay-as-you-go-set-up).
 
