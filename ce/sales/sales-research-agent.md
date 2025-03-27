@@ -42,7 +42,7 @@ Use natural language to start a dialog with your data or pick from AI-suggested 
 
 ## Legal and regulatory considerations
 
-Organizations need to evaluate potential specific legal and regulatory obligations when using the sales research agent. The sales research agent is not appropriate for use in every industry or scenario. If no data is provided as part of a question to the research agent, results will be Powered by Bing, see [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274). Additionally, the agent is not designed for and should not be used for social scoring. Always use the sales research agent in accordance with the applicable terms of service and the Generative [AI Code of Conduct](/legal/ai-code-of-conduct).
+Organizations need to evaluate potential specific legal and regulatory obligations when using the sales research agent. The sales research agent is not appropriate for use in every industry or scenario. Sales Research Agent uses Bing Search. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). The Data Protection Addendum does not apply to your use of Bing within this Sales Research Agent preview, see [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274). Additionally, the agent is not designed for and should not be used for social scoring. Always use the sales research agent in accordance with the applicable terms of service and the Generative [AI Code of Conduct](/legal/ai-code-of-conduct).
 
 ## Related information
 
