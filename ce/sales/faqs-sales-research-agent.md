@@ -28,10 +28,6 @@ The Sales research agent is only available in the European Union (EU) and United
 
 You can upload a PDF (.pdf), CSV (.csv), and Excel (.xlsx) file. Learn more in [Supported data files](sales-research-agent-connect-data.md#supported-data-files).
 
-## The page never loads when I select Next actions. What do I do?
-
-This might happen if you select multiple Next actions while a previous next action is loading. We're aware of the issue and are working on a fix in an upcoming release. Until then, select Cancel and try the action again.
-
 ## How can I refine a single block instead of the entire blueprint?
 
 If you're using the AI Cursor and you pressed **Enter** after typing your prompt, your prompt will automatically create a new blueprint. To update only a single block on a blueprint, select **Generate** and then select **Update block**.
@@ -40,6 +36,16 @@ If you're using the AI Cursor and you pressed **Enter** after typing your prompt
 
 Yes, you can connect to Dataverse, Dynamics 365 Sales, and Dynamics 365 Customer Service to analyze your data. Learn more in [Connect the Sales research agent to a different data source](sales-research-agent-connect-data.md).
 
+## Which languages are supported by the Sales research agent?
+
+Currently, the agent supports only English.
+
+## Does the agent use Bing to search for information?
+
+Yes, the Sales research agent uses Microsoft Bing when it can't find the information in the data sources you provided.  The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+
 ## What are the preview terms? Is Microsoft using my data to train their models? How do I know my data is safe?
 
 The use of the Sales research agent is subject to the terms outlined in [Preview terms](https://aka.ms/projectsophiapreviewterms).
+
+## Does the agent use 

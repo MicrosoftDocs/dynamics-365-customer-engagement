@@ -21,12 +21,11 @@ The Sales Research Agent is connected to your Dynamics 365 Sales environment by 
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-1. In the Sales Hub app, go to **My Work** > **Sales research agent**.
-1. Add the data source using one of the following options:
-   - Select **Data** at the top-right corner of the page and choose **Add data**.
-   - Select **Add data** in the **Ask any business question** prompt box.
+Add the data source using one of the following options in the **Sales research agent** page:
+- Select **Data** at the top-right corner of the page and choose **Add data**.
+- Select **Add data** in the **Ask any business question** prompt box.
 
-        :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the sales research agent.":::
+    :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the sales research agent.":::
 
 ## Use data from other Dynamics 365 Sales environments
 

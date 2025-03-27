@@ -17,7 +17,10 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent in Dynamics 365 Sales empowers you, as a business leaders to solve complex business questions through a dialog with your data using business lanugage. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account. 
+The Sales Research Agent in Dynamics 365 Sales empowers you, as a business leaders to solve complex business questions through a dialog with your data using business lanugage. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account.
+
+> [!IMPORTANT]
+> The agent may be subject to usage limits or capacity throttling.
 
 Use natural language to start a dialog with your data or pick from AI-suggested topics. Use the agent to:
 
@@ -42,6 +45,7 @@ Use natural language to start a dialog with your data or pick from AI-suggested 
 Organizations need to evaluate potential specific legal and regulatory obligations when using the sales research agent. The sales research agent is not appropriate for use in every industry or scenario. If no data is provided as part of a question to the research agent, results will be Powered by Bing, see [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274). Additionally, the agent is not designed for and should not be used for social scoring. Always use the sales research agent in accordance with the applicable terms of service and the Generative [AI Code of Conduct](/legal/ai-code-of-conduct).
 
 ## Related information
+
 
 - [Research on sales topics with the sales research agent](use-sales-research-agent.md)
 - [Connect the sales research agent to a different data source](sales-research-agent-connect-data.md)
