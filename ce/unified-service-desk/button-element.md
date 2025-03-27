@@ -1,8 +1,8 @@
 ---
-title: "ButtonElement | MicrosoftDocs"
-description: "The topic explains about <ButtonElement> element syntax and the elements, which is one of the binding elements of the WebDDA."
+title: ButtonElement 
+description: The topic explains about <ButtonElement> element syntax and the elements, which is one of the binding elements of the WebDDA.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -1,8 +1,8 @@
 ---
-title: "WinDDA events in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the application and control events used by WinDDA, and the events raised by the controls or applications."
+title: WinDDA events in Unified Service Desk 
+description: Learn about the application and control events used by WinDDA, and the events raised by the controls or applications.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

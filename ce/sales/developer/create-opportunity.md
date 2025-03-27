@@ -2,7 +2,7 @@
 title: Create an opportunity (Dynamics 365 Sales)"
 description: Learn about creating a new opportunity or an opportunity from a qualified lead. An opportunity contains sales information like quotes, sales orders, and invoices.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: reference
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang

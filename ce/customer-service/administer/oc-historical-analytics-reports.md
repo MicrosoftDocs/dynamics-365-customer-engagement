@@ -1,7 +1,7 @@
 ---
 title: "Manage historical analytics reports in Omnichannel for Customer Service | MicrosoftDocs"
 description: "Use this article to learn how to configure historical analytics reports for Omnichannel for Customer Service."
-ms.date: 02/06/2025
+ms.date: 03/03/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -62,21 +62,21 @@ The Unified routing historical analytics report is available as a tab in the Omn
 
 ## Enable historical analytics for Copilot agents in Omnichannel for Customer Service
 
-In Customer Service admin center, you can enable the historical analytics for AI agents to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
+In Customer Service admin center, you can enable the historical analytics for AI agents (agents) to give your service managers integrated reports that combine Copilot agents and Omnichannel conversation metrics.
 
 > [!IMPORTANT]
 >
-> Omnichannel historical analytics must be enabled before you can enable historical analytics for AI agents. This feature is available only if Copilot agents are integrated with Omnichannel for Customer Service.
+> Omnichannel historical analytics must be enabled before you can enable historical analytics for agents. This feature is available only if Copilot agents are integrated with Omnichannel for Customer Service.
 
 - If you select this option, the Omnichannel Summary and Bot dashboards are available as a tab in the Omnichannel historical analytics report. The Bot dashboard shows metrics specific to the Copilot agent.
 
  :::image type="content" source="../media/oc-bot-session-dashboard.png" alt-text="Copilot Studio bot dashboard.":::
   
-- If no Copilot agents are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all AI agents.
+- If no Copilot agents are integrated with the application or you didn't select this option, then the Bot dashboard displays the key performance indicators (KPIs) and charts for all agents.
 
  :::image type="content" source="../media/bot-dashboard-oc.png" alt-text="Dashboard for all bots.":::
 
-**Enable historical analytics for AI agents in Omnichannel for Customer Service**
+**Enable historical analytics for agents in Omnichannel for Customer Service**
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 1. In the **Omnichannel historical analytics** section, select **Manage**. The **Omnichannel historical analytics** page is displayed. 

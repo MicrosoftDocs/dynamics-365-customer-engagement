@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service (preview)
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 10/28/2024
+ms.date: 03/14/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -70,6 +70,8 @@ You need to configure the summary for the *bookable resource booking* and *work 
 
 ### How to configure the summary
 
+Administrators can follow the steps in this section to create custom summary configuration from scratch. Alternatively, they can get started with [a configuration template based on the work order summary](/dynamics365/guidance/resources/fs-work-order-summary-configuration-template).
+
 1. In Field Service, change to the **Settings** area and go to **Copilot settings** > **Summary Configuration**.
 1. From the list, choose the table for which you want to configure the summary. Currently, you can configure two out-of-the-box tables: work orders and bookable resource bookings.
 1. Enable the **Configure summary** setting.
@@ -84,6 +86,10 @@ To revert to the default summary provided by Field Service, disable the **Conf
 > - To generate configured summaries, users need read permission for the *msdyn_fieldservicesummaryconfiguration* table. [Update custom security roles](/power-platform/admin/security-roles-privileges#table-privileges) to avoid issues when generating a configured summary.
 > - The optimization used in the generation of default summaries, where there may be different details depending on work order status, is not applied to administrator-configured summaries.
 > - In cases where Field Service was pre-installed in an environment, you might not see the summary configurations after enabling the feature. Select **Create default configurations** to add missing configurations.
+
+### Transport summary configurations across environments
+
+To migrate summary configurations to other Dynamics 365 Field Service environments, admins can use the the Configuration Migration tool. For more information, see [Transport summary configurations across Dynamics 365 Field Service environments](/dynamics365/guidance/resources/fs-transport-summary-configuration).
 
 ## Generate a summary in the web app
 

@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
-ms.date: 09/08/2023
+ms.date: 03/17/2025
 ms.custom: bap-template
 ---
 
@@ -82,8 +82,7 @@ You can perform actions such as open, snooze, dismiss, like, or dislike on the c
 
 When you open the assistant, it displays the name and basic description of each card. Select and open the card to view further details. Typically, a card consists of the elements illustrated in the following image.
 
-> [!div class="mx-imgBorder"]
-> ![Elements of an insight card](media/assistant-elements-of-an-insight-card.png "Elements of an insight card")
+:::image type="content" source="media/assistant-elements-of-an-insight-card.png" alt-text="Screenshot of the elements of an insight card." lightbox="media/assistant-elements-of-an-insight-card.png":::
 
 1. **Main content area**: Shows the title of the record the card refers to, its summary, card type, and other basic information.
 

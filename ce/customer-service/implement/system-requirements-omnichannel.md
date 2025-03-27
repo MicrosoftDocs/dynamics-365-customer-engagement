@@ -1,7 +1,7 @@
 ---
 title: Omnichannel for Customer Service system requirements
 description: Learn about the prerequisites, system requirements, and accessible websites for deploying and using Omnichannel for Customer Service.
-ms.date: 01/31/2025
+ms.date: 03/03/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -45,7 +45,7 @@ The system requirements to use Omnichannel for Customer Service are as follows. 
 |----------|----------|
 | Model-driven app | Dynamics 365 Customer Service app 9.2.21034.00160 or later.  |
 | Web browsers | Supported browsers:<li> Microsoft Edge ([Chromium based](https://support.microsoft.com/help/4501095/download-the-new-microsoft-edge-based-on-chromium)); version 79.0.309.65 or later is required for the desktop notifications feature. </li> <li> Google Chrome </li> **Important**<br> [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)] |
-| Azure Communication Services |Required for first-party voice and SMS in the voice channel in production environments. For requirements specific to Azure Communication Services, see [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements). |
+| Azure Communication Services |Required for first-party voice and SMS in the voice channel in production environments. Learn more about requirements specific to Azure Communication Services in [Network recommendations](/azure/communication-services/concepts/voice-video-calling/network-requirements). |
 | Hardware | <ul><li>Microphone and speakers for the voice experience.</li><li>**Minimum:** 4 GB of RAM</li><ul> |
 | Internet bandwidth for voice and video |<ul><li>**Minimum:** 4-Mbps upload speed; 8-Mbps download speed</li><li>**Recommended:** 8-Mbps upload speed; 16-Mbps download speed</li></ul> |
 

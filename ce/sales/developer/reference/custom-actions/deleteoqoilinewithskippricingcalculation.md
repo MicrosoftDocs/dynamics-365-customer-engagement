@@ -2,7 +2,7 @@
 title: DeleteOQOILineWithSkipPricingCalculation custom action
 description: Use this topic to understand the parameters, and web API calls for deleting a line item without triggering price calculation.
 ms.date: 10/26/2021
-ms.topic: conceptual
+ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
