@@ -1,7 +1,7 @@
 ---
 title: Understand the sales pipeline chart and its phases
 description: Understand how sales reps or managers use the Sales Pipeline chart to visualize revenue for an opportunity.
-ms.date: 11/20/2023
+ms.date: 03/27/2025
 ms.topic: conceptual
 author: lavanyakr01
 ms.author: lavanyakr
@@ -37,7 +37,7 @@ There are four stages in the out-of-the-box Opportunity Sales Process flow. Each
 
 ![Opportunity Sales Process definition.](media/opportunity-sales-process-definition.png "Opportunity Sales Process definition")
  
-The category values used for each business process stage are defined in a global option set named **Stage Category**. When an opportunity moves from the **Qualify** to **Develop** stage of the Opportunity Sales Process flow, the metadata for the category of the new stage (**Develop**, in this example) is read. Because the order of the **Develop** stage in our example is **2**, the pipeline phase of the opportunity is set to **2-Develop**.
+The category values used for each business process stage are defined in a global option set named **Stage Category**. When an opportunity moves from the **Qualify** to **Develop** stage of the Opportunity Sales Process flow, the metadata for the category of the new stage (**Develop**, in this example) is read. Because the order of the **Develop** stage in our example is **2**, the pipeline phase of the opportunity is set to **2-Develop**. To understand the sales pipeline stages, see [Understand the sales process](nurture-sales-from-lead-order-sales.md)
 
 ![Stage Category option set.](media/stage-category.png "Stage Category option set")
 
