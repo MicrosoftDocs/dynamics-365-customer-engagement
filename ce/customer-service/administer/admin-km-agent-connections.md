@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 02/26/2025
+ms.date: 03/28/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -25,10 +25,7 @@ This article provides instructions to configure connection references for the Cu
 
 Learn more in [Add connection references to a solution](/power-apps/maker/data-platform/create-connection-reference#add-connection-references-to-a-solution).
 
-> [!IMPORTANT]
->
-> - This is a preview feature.
-> - Preview features aren't meant for production use and might have restricted functionality. These features are subject to [supplemental terms of use](https://go.microsoft.com/fwlink/?linkid=2189520), and are available before an official release so that customers can get early access and provide feedback.
+[!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 ## Set connection references for Customer Knowledge Management Agent flow
 
