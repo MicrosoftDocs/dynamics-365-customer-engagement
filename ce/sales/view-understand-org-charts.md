@@ -39,7 +39,7 @@ You can do the following actions in the org chart for better accessibility and u
     Contact cards include the following information:
 
     - [A label](manage-org-charts.md#add-a-label-to-a-contact) such as "Decision maker" or "Influencer" helps you to visualize the individual's role in the organizational structure, so that you can make an informed decision about whom to approach. A contact can also be [marked as the primary contact](manage-org-charts.md#set-a-contact-as-primary) in the org chart.  
-        Labels displayed here are based on the choices (picklist) that are created in Power Apps. To add or crate labels, contact your administrator to create choices and add them to the contact entity. To create choices, see [Create a choice](/power-apps/maker/data-platform/custom-picklists).
+        Labels are based on the choices (picklist) created in Power Apps. Contact your administrator to create choices and add them to the contact entity. To create choices, see [Create a choice](/power-apps/maker/data-platform/custom-picklists).
 
     - A colored circle around the contact photo or initials indicates the contact's relationship health. To view the [relationship health state and trend](relationship-analytics-kpi-calculations.md#compute-the-relationship-health-and-health-trend), hover over the circle. You can also open the [**Contact Details** pane](#view-contact-details) to see the relationship health.
 
