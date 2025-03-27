@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/26/2025
+ms.date: 03/27/2025
 feedback_product_url: https://experience.dynamics.com/ideas/categories/list/?category=a7f4a807-de3b-eb11-a813-000d3a579c38&forum=b68e50a6-88d9-e811-a96b-000d3a1be7ad
 ms.custom:
   - bap-template
@@ -31,12 +31,6 @@ You can select the **All** filter to view the performance of service representat
 
 :::image type="content" source="../media/realtime-agent insights.png" alt-text="Screenshot of real-time Agents report.":::
 
-## Interactive charts
-
-You can view different types of charts on the report, such as donut charts. The visual display helps you discern changes and patterns in the data so that you can act quickly to address the most important issues.
-
-When you select a component in a chart, the data is filtered accordingly. In this way, you can view only data that is related to the selected component. For example, if you select the **Busy** component in the **Agent availability status** chart, the dashboard is refreshed and shows only the service representatives who are currently in the **Busy** state.
-
 ## Agent details drill-down
 
 > [!NOTE]
@@ -48,9 +42,9 @@ You'll see the following tabs. The tabs also show custom presence statuses, conf
 
 - **Agent online**: Shows service representatives who are online at the moment.
 
-- **Agent offline**: Shows service representatives who logged in earlier but are offline at the moment.
-
 - **Agents with sessions**: Shows service representatives who worked on a session today, or in the last 24 hours, or have open conversations, depending on the Time filter.
+
+- **Agent offline**: Shows service representatives who logged in earlier but are offline at the moment.
 
 Depending on the information that you want to see, select the tab, and then select a service representative name from the **Agent list** grid. Select **Detailed view**. Service representative details are shown on a new page.
 
