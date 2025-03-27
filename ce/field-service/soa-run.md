@@ -54,6 +54,8 @@ You can choose from other time ranges or a custom range, which can be up to 72 h
 
 You can inform the agent to consider unfulfilled requirements by picking any of the existing resource requirement views that the dispatcher has access to. These views include shared views, system views, and personal views. We recommend that you create and select requirement views to help influence the suggested schedule returned by the agent. For example, if the scheduling goal is to front-load high priority work, it would help to pick a view that only lists high-priority requirements.
 
+The agent intelligently filters and selects items from this requirement view and considers them for the suggested schedule. For example, it can exclude requirements that are not in the same territory as the resource. You can turn such filters on or off using the options listed below.
+
 > [!TIP]
 > If you want the agent to only rearrange existing bookings to reduce the travel time, you can define and use a requirement view that returns an empty list.
 
@@ -62,7 +64,7 @@ You can inform the agent to consider unfulfilled requirements by picking any of 
 You can further influence the suggested schedule via the following constraint settings.
 
 - **Match required characteristics**: Matches requirements with the [characteristics](set-up-characteristics.md) of the resource. If this option is unchecked, the agent ignores characteristics and assumes the resource can fulfill any requirement or booking. Otherwise, if the option is checked, then the agent honors characteristics as follows. For a bookable resource that has no characteristics, the agent chooses from bookings and resource requirements that also have no characteristics. A resource with none or more characteristics can fulfill requirements that have no characteristics. If an existing booking has a characteristic which doesn't match with the resource's skills, the agent deletes that booking from the suggested schedule.
-- **Match territories**: If checked, ensures that bookings and requirements have the same [territory](set-up-territories.md) as the resource. The agent removes bookings that aren't in the same territory as the resource from the suggested schedule. If this option is unchecked, the agent ignores territories and assumes the resource can work in every available territory. 
+- **Match territories**: If checked, ensures that bookings and requirements have the same [territory](set-up-territories.md) as the resource. The agent removes bookings that aren't in the same territory as the resource from the suggested schedule. If this option is unchecked, the agent ignores territories and assumes the resource can work in every available territory. If the option is active, the agent ensures that bookings and requirements have the same territory as the resource. The agent removes bookings from the suggested schedule that aren't in the same territory as the resource.
 - **Schedule with promised time window**: Considers the [time constraints](schedule-time-constraints.md) for requirements and bookings. If there are requirements or bookings for which Time to Promised would expire before the end of the optimization range, the agent tries to include them in the suggested schedule as higher importance than the travel time, priority, or duration. If this option is unchecked, the agent ignores such time constraints.
     > [!CAUTION]
     > If you enable this option and an existing booking in the optimization range has an expired promise window, the agent deletes that booking from the suggested schedule.
