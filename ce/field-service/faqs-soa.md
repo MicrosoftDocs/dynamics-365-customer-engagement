@@ -43,13 +43,13 @@ We didn't find any cases where the agent suggested a schedule that wasn't better
 
 ## What are the limitations of the agent and how can I minimize their impact?
 
-The Scheduling Operations Agent is still in preview, and we're working on improving it. You can help us by giving us feedback using the like/dislike buttons on the suggested schedule. We use this data to evaluate and improve the quality of the agent. The known limitations of the agent are documented [here](soa-tips.md#limitation-and-known-issues).
+The Scheduling Operations Agent is still in preview, and we're working on improving it. You can help us by giving us feedback using the like/dislike buttons on the suggested schedule. We use this data to evaluate and improve the quality of the agent. The known limitations of the agent are listed in [Scheduling Operations Agent tips](soa-tips.md#limitation-and-known-issues).
 
 The feature only works online. You can't use it when you're offline.
 
 ## What operational factors and settings allow for effective and responsible use of the agent?
 
-Administrators can enable or disable the feature for your environment by using the steps documented [here](soa-setup.md#enable-the-scheduling-operations-agent). No customer data is collected when this agent is used.
+Administrators can enable or disable the feature for your environment as described in [Scheduling Operations Agent setup](soa-setup.md#enable-the-scheduling-operations-agent). No customer data is collected when this agent is used.
 
 ### See also
 

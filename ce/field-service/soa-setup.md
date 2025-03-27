@@ -88,7 +88,7 @@ Bookable resources that the agent supports must be of type *User*, *Contact*, or
 
 ## Create or update optimization method for booking status
 
-The agent needs to know if it can move or delete scheduled or committed bookable resource bookings in favor of unfulfilled requirements that better match the optimization goals. We introduced a new property for booking statuses called **Optimization Method**.
+The agent needs to know if it can move or delete scheduled or committed bookable resource bookings in favor of unfulfilled requirements that better match the optimization goals. **Optimization Method** is a new property for booking statuses.
 
 1. Open the Field Service app and go to the **Resources** area.
 1. Select **Booking Settings** > **Booking Statuses**. To see all statuses, remove all filters from the view.
