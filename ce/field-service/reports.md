@@ -97,31 +97,31 @@ The system uses the following list of entities to generate reports. If there's n
 
 Field Service entities:
 
-- *bookableresource*
-- *bookableresourcebooking*
-- *msdyn_resourcerequirement*
-- *territory*
+- [*bookableresource*](./developer/reference/entities/bookableresource.md)
+- [*bookableresourcebooking*](./developer/reference/entities/bookableresourcebooking.md)
+- [*msdyn_resourcerequirement*](./developer/reference/entities/msdyn_resourcerequirement.md)
+- [*territory*](./developer/reference/entities/territory.md)
 - *calendarrule*
-- *bookableresourcegroup*
-- *bookingstatus*
-- *msdyn_bookingtimestamp*
+- [*bookableresourcegroup*](./developer/reference/entities/bookableresourcegroup.md)
+- [*bookingstatus*](./developer/reference/entities/bookingstatus.md)
+- [*msdyn_bookingtimestamp*](./developer/reference/entities/msdyn_bookingtimestamp.md)
 - *organization*
 
 Resource Scheduling Optimization entities:
 
 - *resource*
-- *bookableresource*
-- *territory*
-- *bookableresourcebooking*
-- *msdyn_optimizationrequestbooking*
-- *msdyn_resourcerequirement*
-- *msdyn_priority*
+- [*bookableresource*](./developer/reference/entities/bookableresource.md)
+- [*territory*](./developer/reference/entities/territory.md)
+- [*bookableresourcebooking*](./developer/reference/entities/bookableresourcebooking.md)
+- [*msdyn_optimizationrequestbooking*](./developer/reference/entities/)
+- [*msdyn_resourcerequirement*](./developer/reference/entities/msdyn_resourcerequirement.md)
+- [*msdyn_priority*](./developer/reference/entities/msdyn_priority.md)
 - *msdyn_routingoptimizationrequest*
 - *msdyn_routingprofileconfiguration*
 - *calendar*
 - *calendarrule*
-- *bookableresourcegroup*
-- *bookingstatus*
+- [*bookableresourcegroup*](./developer/reference/entities/bookableresourcegroup.md)
+- [*bookingstatus*](./developer/reference/entities/bookingstatus.md)
 - *organization*
 
 ## Next steps
