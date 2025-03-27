@@ -2,7 +2,7 @@
 title: Installation FAQs
 description: Get answers to frequently asked questions about installation.
 ms.date: 03/15/2024
-ms.topic: troubleshooting
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
