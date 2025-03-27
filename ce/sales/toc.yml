@@ -798,10 +798,12 @@ items:
               href: understand-copilot-summaries.md
         - name: Use agents in Dynamics 365 Sales
           items:
-            - name: Sales research agent
+            - name: Sales research agent (preview)
               items:
                 - name: Overview
                   href: sales-research-agent.md
+                - name: Provide context to the agent
+                  href: sales-research-agent-provide-context.md
                 - name: Use the sales research agent
                   href: use-sales-research-agent.md
                 - name: Connect the agent to your data

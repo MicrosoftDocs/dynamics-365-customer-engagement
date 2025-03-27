@@ -1,5 +1,5 @@
 ---
-title: Connect the sales research agent to a different data source or upload data
+title: Connect the sales research agent to a different data source or upload data (preview)
 description: Learn how to connect the sales research agent to your data.
 manager:
 ms.date: 03/17/2025
@@ -13,13 +13,20 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Connect the sales research agent to a different data source 
+# Connect the sales research agent to a different data source (preview) 
+
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can also connect to other dataverse environments, upload data files (CSV, Excel, PDF) as additional data sources, or chose to remove existing connection entirely and only use uploaded files as basis for your research. This allows you to create comprehensive research blueprints that combine data both D365 and uploaded data or reason over uploaded data only.
 
-On the Sales Research Agent page in the Sales Hub app, select **Add data**.
+[!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-:::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the sales research agent.":::
+1. In the Sales Hub app, go to **My Work** > **Sales research agent**.
+1. Add the data source using one of the following options:
+   - Select **Data** at the top-right corner of the page and choose **Add data**.
+   - Select **Add data** in the **Ask any business question** prompt box.
+
+        :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the sales research agent.":::
 
 ## Use data from other Dynamics 365 Sales environments
 
@@ -49,3 +56,8 @@ You can upload a PDF (.pdf), CSV (.csv), or Excel (.xls) file. The following lim
     - Must contain selectable text. You can test it by trying to highlight text within the PDF. If you can’t select or highlight the text, then it can't be processed.
     - Use original digital documents or PDFs that are converted directly from word processors or other digital sources. A scanned PDF doesn't work.
     - If the PDF contains tables, make sure the borders are clearly outlined. Avoid using any contrasting colors to differentiate between rows and columns.
+
+## Related information
+
+- [Research on sales topics with the sales research agent](use-sales-research-agent.md)
+- [Frequently asked questions about Sales research agent (preview)](faqs-sales-research-agent.md)
