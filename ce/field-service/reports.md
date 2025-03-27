@@ -113,7 +113,7 @@ Resource Scheduling Optimization entities:
 - [*bookableresource*](./developer/reference/entities/bookableresource.md)
 - [*territory*](./developer/reference/entities/territory.md)
 - [*bookableresourcebooking*](./developer/reference/entities/bookableresourcebooking.md)
-- [*msdyn_optimizationrequestbooking*](./developer/reference/entities/)
+- *msdyn_optimizationrequestbooking*
 - [*msdyn_resourcerequirement*](./developer/reference/entities/msdyn_resourcerequirement.md)
 - [*msdyn_priority*](./developer/reference/entities/msdyn_priority.md)
 - *msdyn_routingoptimizationrequest*
