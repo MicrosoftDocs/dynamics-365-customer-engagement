@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Configure time-out rules
 
-Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through persistent chat and asynchronous messaging channels. Sometimes, AI agents are used as equivalent of the customer service representative (service representative or representative) persona.
+Time-out rules are useful settings that administrators can configure to enact certain automatic actions when conditions are met. The time-out rules can help businesses run their operations smoothly and meet the required service-level agreements (SLAs) when they connect with their customers through persistent chat and asynchronous messaging channels. Sometimes, AI agents are used as an equivalent to the customer service representative (service representative or representative) persona.
 
 The following channels only are supported:
 
@@ -35,8 +35,8 @@ The System Administrator role.
 
 For the automatic actions to run, set up the time-out rules per workstream. You can configure rules to perform the following actions:
 
-- **Send a message**: The system sends a message to the customer or agent based on the customer’s idle time. You can send a reminder message to the customer to respond or a message to the agent to speed up their research to relay back to the customer.
-- **Automatically close the conversation**: Automatically closes the conversation after the configured minutes of customer’s idle time is passed. This frees the agent’s capacity to help other customers waiting in the queue and closes the conversation so that it's not in Waiting state.
+- **Send a message**: The system sends a message to the customer or agent based on the customer's idle time. You can send a reminder message to the customer to respond or a message to the agent to speed up their research to relay back to the customer.
+- **Automatically close the conversation**: Automatically closes the conversation after the configured minutes of customer’s idle time is passed. This frees the agent's capacity to help other customers waiting in the queue and closes the conversation so that it's not in the Waiting state.
 
 1. In your Dynamics 365 Customer Service instance, open Contact Center admin center or Customer Service admin center.
 
@@ -46,8 +46,8 @@ For the automatic actions to run, set up the time-out rules per workstream. You 
    - Enter a rule name.
    - Set the **Status** toggle to active.
    - **Trigger event**: The **Customer Non-Response Time** value is selected by default. The duration that the customer hasn't sent back a message, and the last message sent in the conversation is from the service representative. The duration is calculated by subtracting the current time from the time that representative sent the last message. The system calculates the duration only when the last message is from the service representative.
-   - Select a workstream corresponding to the channel where you want the rule to run.
-1. In **Trigger conditions**, for the trigger event that you selected in the previous page, enter the following:
+   - Select a workstream that corresponds to the channel where you want the rule to run.
+1. In **Trigger conditions**, for the trigger event that you selected on the previous page, enter the following:
    - **Operator**: By default, **Greater than**.
    - **Value**: A numeric value that denotes the time-out period.
      > [!NOTE]
