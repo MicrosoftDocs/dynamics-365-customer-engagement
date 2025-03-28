@@ -18,7 +18,7 @@ ms.custom:
 
 [This article is prerelease documentation and is subject to change.]
 
-The effectiveness of Copilot depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights such as:
+The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights such as:
 
 - How articles are created.
 - Where articles are in the review and publish workflow.
