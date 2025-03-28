@@ -48,7 +48,7 @@ The agent updates the fields configured by the administrator as follows:
 
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
-You can review the updated fields from the **Audit history** if your administrator has enabled Dataverse auditing.
+You can review the updated fields in **Audit history** if your administrator has enabled auditing for the entity. You need to have access to audit history to be able to view the AI updates.
 
 > [!NOTE]
 > If case fields configured for AI agent updates are updated manually, the AI agent doesn’t overwrite the manual updates.
