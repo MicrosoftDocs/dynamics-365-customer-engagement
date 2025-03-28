@@ -42,10 +42,9 @@ Currently, the agent supports only English.
 
 ## Does the agent use Bing to search for information?
 
-Yes, the Sales research agent uses Microsoft Bing when it can't find the information in the data sources you provided.  The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
+Yes, the Sales research agent uses Microsoft Bing when it can't find the information in the data sources you provided or if no data sources are provided. The use of Bing is subject to the Bing section of the [Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement).
 
 ## What are the preview terms? Is Microsoft using my data to train their models? How do I know my data is safe?
 
 The use of the Sales research agent is subject to the terms outlined in [Preview terms](https://go.microsoft.com/fwlink/?linkid=2105274).
 
-## Does the agent use 
