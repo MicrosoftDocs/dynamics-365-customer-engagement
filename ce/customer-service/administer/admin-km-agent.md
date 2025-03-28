@@ -96,7 +96,7 @@ If you’re not configuring the AI agent to automatically publish articles, you 
 
 To enable this editor: 
 
-- Enable in-app notifications for agents to be notified when their cases are considered for publishing.
+- Enable in-app notifications for service representatives to be notified when their cases are considered for publishing.
 - Ensure your service representatives have the permission to edit articles.
 - Make sure your cases have **Timeline** and **Timeline highlights** enabled.
 
