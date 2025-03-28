@@ -18,7 +18,7 @@ ms.custom:
 
 [This article is prerelease documentation and is subject to change.]
 
-This article provides instructions to configure connection references for the Customer Knowledge Management Agent flow. You will need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
+This article provides instructions to configure connection references for the Customer Knowledge Management Agent flow. You need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
 
 - **Microsoft Dataverse CustomerServiceKnowledgeHarvest**
 - **Microsoft Copilot Studio CustomerServiceKnowledgeHarvest**
