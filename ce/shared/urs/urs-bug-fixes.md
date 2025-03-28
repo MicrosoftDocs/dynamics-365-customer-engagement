@@ -9,12 +9,12 @@ For information about older versions, see [Version history archive](../../field-
 | ------- | ------ | --------------  | -----------  | -------------  |
 |**Station 1** |  *First Release*| [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | TBD | 04/11/2025 |
 |**Station 2** |  *South America, Canada, India, France, South Africa, Germany, Switzerland, Norway, Korea* | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) |  TBD | 04/18/2025 |
-|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | 03/14/2025 |
+|**Station 3** | *United Arab Emirates, Japan, Asia Pacific, United Kingdom, Oceania, Singapore* | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) |  TBD | 04/25/2025 |
 | | *USG* |[3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) |  TBD | 04/16/2025 |
-|**Station 4** |*Europe* |   [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | 03/21/2025 |
+|**Station 4** |*Europe* |  [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) |  TBD | 05/02/2025 |
 |**Station 5** |  *North America*| [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) |  [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915)  | 03/28/2025 |
-|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | 04/04/2025 |
-|**Station 6** | *Dedicated Scale Groups* |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | 03/26/2025 |
+|**Station 6** | *Government Community Cloud, DoD, China*  | [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | 03/26/2025 |
+|**Station 6** | *Dedicated Scale Groups* |  [3.12.148.12](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214812) | [3.12.149.15](/dynamics365/field-service/field-service-version-history-resource-scheduling#31214915) | 04/04/2025 |
 >[!NOTE]
 >
 > - Dates in all regions except Government Community Cloud (GCC), USG, and China are estimates of the next automatic update. Dates in GCC, USG, and China indicate version availability; at this time, there is no automatic update for the GCC, USG, and China regions.
@@ -26,6 +26,11 @@ For information about older versions, see [Version history archive](../../field-
 
 **Dataverse:** 4.0.139.15
 
+- Released [**Scheduling Operations Agent**, an agent in Dynamics 365 Field Service ](../../field-service/soa-overview.md)that helps dispatchers improve the schedule of a single technician quickly and efficiently. This new feature is enabled across stations on a separate schedule: 
+    - Station 2: March 28, 2025
+    - Station 3 - March 31, 2025
+    - Europe - April 1, 2025
+    - North America - April 2, 2025
 - Fixed a bug impacting requirement tooltips on the schedule board map. 
 - Booking statuses in the booking panel are now sorted alphabetically.
 - Fixed a bug that was improperly calculating remaining and fulfilled durations when deleting a booking spanning multiple days or when deleting multiple bookings. 

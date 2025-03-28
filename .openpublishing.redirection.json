@@ -35681,6 +35681,11 @@
       "source_path": "ce/customer-service/use/copilot-chat-customer-service-data.md",
       "redirect_url": "/dynamics365/contact-center/use/copilot-chat-customer-service-data",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/sms-channel-overview.md",
+      "redirect_url": "/dynamics365/customer-service/administer/sms-channel-overview",
+      "redirect_document_id": false
     }   
 
   ]
