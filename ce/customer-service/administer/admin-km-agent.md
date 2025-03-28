@@ -79,7 +79,7 @@ To set the default compliance state of articles created by Customer Knowledge Ma
 Articles with the **Non Compliant** status can't be published.
 
 > [!NOTE]
-> Customer Knowledge Management Agent removes personally identifiable information (PII) from case data before drafting articles. However, the agent might not detect all instances of sensitive information.
+> Customer Knowledge Management Agent removes personally identifiable information (PII) from the case data before drafting articles. However, the agent might not detect all instances of sensitive information.
 
 ## Auto publish articles
 
