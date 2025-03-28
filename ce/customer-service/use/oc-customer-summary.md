@@ -104,7 +104,7 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ---
 
-## Disposition code
+## Set disposition codes
 
 If your administrator has enabled the disposition code feature, you'll see the **Disposition Code** section on the form. At any point in the conversation, use the **Search codes** drop down to select a disposition code that best describes the outcome of the conversation. 
 
