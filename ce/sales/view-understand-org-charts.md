@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 07/25/2024
+ms.date: 03/27/2025
 ms.custom: bap-template
 ---
 
@@ -31,14 +31,16 @@ You can do the following actions in the org chart for better accessibility and u
 - **Collapse or expand org chart**: You can collapse or expand the structure to concentrate on a particular section of the org chart. Use the contacts icon in between the contact cards for collapsing or expanding the chart. When the chart is collapsed, the contact icon displays the number of contacts in the collapsed section.
 
 - **Contact card details**: The contact card in the org chart provides high-level information about individuals in the org, such as the relationship health, a label, and contact details. Select a contact and the card is highlighted in the org chart.  
-    
+
     The following image is an example of a contact card in an org chart:
-    
+
     :::image type="content" source="media/org-chart-contact-card.png" alt-text="Screenshot showing a contact card in an org chart." lightbox="media/org-chart-contact-card.png":::
-    
+
     Contact cards include the following information:
 
-    - [A label](manage-org-charts.md#add-a-label-to-a-contact) such as "Decision maker" or "Influencer" helps you to visualize the individual's role in the organizational structure, so that you can make an informed decision about whom to approach. A contact can also be [marked as the primary contact](manage-org-charts.md#set-a-contact-as-primary) in the org chart.
+    - [A label](manage-org-charts.md#add-a-label-to-a-contact) such as "Decision maker" or "Influencer" helps you to visualize the individual's role in the organizational structure, so that you can make an informed decision about whom to approach. A contact can also be [marked as the primary contact](manage-org-charts.md#set-a-contact-as-primary) in the org chart.  
+        Labels are based on the choices (picklist) created in Power Apps. Contact your administrator to create choices and add them to the contact entity. To create choices, see [Create a choice](/power-apps/maker/data-platform/custom-picklists).
+
     - A colored circle around the contact photo or initials indicates the contact's relationship health. To view the [relationship health state and trend](relationship-analytics-kpi-calculations.md#compute-the-relationship-health-and-health-trend), hover over the circle. You can also open the [**Contact Details** pane](#view-contact-details) to see the relationship health.
 
   > [!NOTE]
