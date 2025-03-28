@@ -59,7 +59,7 @@ The **Overall performance** report represents the following metrics.
 |Average quality score| The average feedback rating from service representatives on the quality of knowledge articles. Service representatives provide feedback on articles by selecting the thumbs up or thumbs down option.|
 |Articles to revise| The number of knowledge articles with a quality score less than or equal to two, over a specified period of time.|
 |Usage by Copilot|The number of times a knowledge article, created by Copilot or manually, is referenced when service representatives chat with Copilot.|
-|Quality score trend| The performance of knowledge articles based on service representatives feedback over time. It displays the quality trend of articles created by Copilot versus articles created manually.| |
+|Quality score trend| The performance of knowledge articles based on service representatives feedback over time. It displays the quality trend of articles created by Copilot versus articles created manually.|
 
 ## Related information
 
