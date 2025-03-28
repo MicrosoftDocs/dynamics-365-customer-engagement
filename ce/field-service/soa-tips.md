@@ -1,7 +1,7 @@
 ---
 title: Tips and troubleshooting for the Scheduling Operations Agent (preview)
 description: Learn how to troubleshoot and improve suggested results of the Scheduling Operations Agent for Dynamics 365 Field Service.
-ms.date: 03/24/2025
+ms.date: 03/28/2025
 ms.topic: how-to
 ms.author: anilmur
 author: anilmur
@@ -47,6 +47,7 @@ We're aware of the following limitations:
 
 - Resource of type *Account*, *Equipment*, *Pool*, and *Facility* aren't supported. The agent currently supports *User*, *Contact*, or *Crew*.
 - The resource must not be part of a crew during the entire optimization range.
+- The resource can have up to three breaks during their work day/shift. With four or more breaks, the agent returns an error.
 - The agent doesn't consider fulfillment preferences of a requirement.
 - The agent doesn't consider partially fulfilled resource requirements
 - The agent needs to run when the resource is available for work. They can’t be on break, off work, traveling to or working on an existing booking.
