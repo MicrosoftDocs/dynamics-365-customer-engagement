@@ -58,7 +58,7 @@ You can map which record types and data fields are used for each element. You ca
 
 ## Enable historical knowledge creation
 
-Historical creation looks at all the cases that meet the conditions specified, determines if new articles are needed by comparing the content of the cases with the existing Dynamics 365 knowledge base. If a new article is needed, it create a new articles by using the content of one or more historical cases that meet the configured conditions.  
+When enabled, the agent looks at all the cases that meet the conditions specified and determines if new articles are needed by comparing the content of the cases with the existing Dynamics 365 knowledge base. If a new article is needed, it creates a new article by using the content of one or more historical cases that meet the configured conditions.  
 
 1. In the **Creation from historical cases** section, select the **Let copilot use information from historical cases to create knowledge articles** option.
 1. Select **Manage rules** to configure the conditions for the harvest.
