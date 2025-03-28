@@ -78,6 +78,10 @@ If you chose the full copy option, it can take up to an hour for the data to app
 > [!NOTE]
 > To use the same agent in Copilot Studio in the target environment, reconnect it to the new environment, and then follow [the configuration steps](/microsoft-copilot-studio/configuration-hand-off-omnichannel?tabs=webApp#manage-your-copilots-omnichannel-capabilities) to disconnect and reconnect the application. If you reconnect the agent to another environment, it will break the source environment.
 
+> [!NOTE]
+> When performing a copy of an organization, please note that survey bots from the source environment will not be functional in the target environment. To ensure proper functionality, create new survey bots in the target environment. For more information, visit Configure feedback surveys using Copilot Studio (preview) | Microsoft Learn [image](https://github.com/user-attachments/assets/7b91d12d-bce3-49c5-8d99-f7cae21fa217)
+
+
 ## Configure AI agents in Azure in the target environment
 
 1. Delete any agents in Azure in all workstreams and the environment.
