@@ -89,7 +89,7 @@ Both the service representative and the customer receive notifications when you 
 
 ## Force close conversations
 
-> > [!NOTE]
+> [!NOTE]
 > We recommend that you use the **Force close** option cautiously because it closes the customer conversation immediately.
 
 Forcibly close a conversation by closing the work item. When you select **Force close**, a confirmation message appears. You must select **Proceed** to close the work item.
