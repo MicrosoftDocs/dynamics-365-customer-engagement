@@ -68,7 +68,7 @@ Historical creation looks at all the cases that meet the conditions specified, d
 1. Select **Start** on the **Creation from historical cases** section. 
 Once you select start, you see that the article creation is in progress. You can see the creation process log by selecting the **View creation process log** link.
 
-Creation from historical cases is a long-running process, which can't be stopped once it has started. The process can create articles from a maximum of 100,000 cases and runs until 100,000 cases have been processed. We recommend you to perform historical knowledge creation in batches. 
+Creation from historical cases is a long-running process, which can't be stopped once it starts. The process can create articles from a maximum of 100,000 cases and runs until all the 100,000 cases have been processed. We recommend you perform historical knowledge creation in batches. 
 
 ## Set the default compliance state of created articles
 
