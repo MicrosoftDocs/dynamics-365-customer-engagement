@@ -52,9 +52,9 @@
             href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
-      - name: Autonomous case management agents
+      - name: Case Management Agents (preview)
         items: 
-          - name: Use autonomous case management agents
+          - name: Use autonomous case creation and update
             href: use-case-creation-agent.md
           - name: Use autonomous follow-up and closure of cases
             href: use-follow-up-closure.md

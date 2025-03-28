@@ -1,12 +1,12 @@
 ---
 title: Set up autonomous case follow-up and closure (preview)
-description: Learn how to set up autonomous case management agents to help agents follow up and close cases.
+description: Learn how to set up the autonomous Case Management Agent to help service representatives follow up and close cases.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: get-started 
-ms.date: 01/13/2025
+ms.date: 03/28/2025
 ms.custom: bap-template 
 ---
 
@@ -16,22 +16,22 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 
-The autonomous case management agent can automatically follow up with customers over email. If customers don't respond after a set number of follow-ups, the agent can automatically close the cases, reducing manual communication overhead and streamlining case resolution.
+The Case Management Agent follows up with customers over email. If customers don’t respond after a specified number of follow-ups, the agent closes the cases automatically. This reduces manual communication overhead and streamlines case resolution.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
 
 ## Prerequisites
 
-- Administrators must have the CSR Manager or System Administrator role.
+Administrators must have the CSR Manager or System Administrator role.
 
 ## Configure autonomous case follow-up and closure
 
 Perform the following steps to set up autonomous case follow-up and closure:
 
 1. On the **Case settings** page, select **Manage** for **Case Management Agent**.
-2. In the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
-3. In the page that appears, select **Turn on the case follow-up and closure automation**.
+2. On the **Case Management Agent** page, select **Autonomous case follow-up and closure**.
+3. On the page that appears, select **Turn on the case follow-up and closure automation**.
 1. Select **Add** to create a new rule for case follow-up and closure.
 1. In **Rules**, specify the following information. The AI agent evaluates the rules and when the conditions match, initiates the follow-up and closure process.
    - **Rule name**
@@ -42,11 +42,11 @@ Perform the following steps to set up autonomous case follow-up and closure:
    - **Follow-up wait times:** Specify the duration between follow-up emails.
    - Select **Save**.
 
-5. On the Case follow-up and closure (preview) page, select the rule and then select **Activate**.
+5. On the **Case follow-up and closure (preview)** page, select the rule and then select **Activate**.
 1. Optionally, after creating the rules, you can:
    - Change the order in which the rules are evaluated.
    - Search for rules.
-   - View the condition used for each rule by hovering the mouse over the condition.
+   - View the condition used for each rule by hovering over the condition.
 
 ## Enable Power Automate flows
 
@@ -62,7 +62,7 @@ In Power Apps, make sure that the **CSCaseClosure Agent Flow**, **CSCaseFollowup
 
 ## Example
 
-The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than 7 days and the service representative sets the case **Status Reason**  to "On Hold". The agent should send three follow-up emails at 48-hour intervals. If the customer doesn't respond after the third follow-up, the service representative can close the case.
+The AI agent should automatically initiate the case follow-up process for cases related to **Contoso Coffee** issues where the case age is greater than 7 days and the service representative sets the case **Status Reason** to **On Hold**. The agent should send three follow-up emails every 48 hours. If the customer doesn't respond after the third follow-up, the service representative can close the case.
 
 **Configuration Example:**
 - **Rule:** Contoso Coffee follow-up and closure  
