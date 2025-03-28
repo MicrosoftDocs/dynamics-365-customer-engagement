@@ -47,7 +47,6 @@ In Customer Service admin center, follow these steps:
    - For a conversation, the agent evaluates the conversation and then creates a case only if there’s enough context in the conversation to predict the default fields.  
    - New cases are created from emails based on the ARC rules configured. The Case Management Agent populates the fields in the case created by ARC if there’s enough context available in the email. Fields populated when the case is created aren't overwritten by the agent.
 1. Optionally, in **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
-1. Select the checkbox in the **Agent experience data** section if you want the application to save the agent interactions in Dataverse. You can then use this information to build reports.
 
 > [!NOTE]
 > We recommend that you enable audit history and ensure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
