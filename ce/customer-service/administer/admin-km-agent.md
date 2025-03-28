@@ -49,7 +49,7 @@ You can create multiple rules to control which conditions must be met for a reso
 
 ### Control which case attributes are used to create knowledge articles in real-time  
 
-Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes**. You can remap all except Email Content and Conversation summaries to your own record types and data fields.  
+Customer Knowledge Management Agent uses **Case Title**, **Case Description**, **Product**, **Subject**, **Email Content**, **Conversation Summary**, and **Case Notes** to create an article. You can remap all the fields except **Email Content** and **Conversation Summary** to your own record types and data fields.  
  
 1. In the **Real-time creation** section, select **Manage attributes**. The **Manage data** page appears. 
 You can map which record types and data fields are used for each element. You can choose to include and exclude data.
