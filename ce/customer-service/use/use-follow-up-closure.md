@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:
-ms.date: 03/04/2025
+ms.date: 03/28/2025
 ms.custom: bap-template 
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 
-The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the AI agent suggests that the service representative can close the case.
+The autonomous case agent management uses AI to generate and send periodic follow-up emails that keep customers informed about their case status. If customers don't respond after a configured number of follow-up attempts, the AI agent suggests that you can close the case.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -39,8 +39,8 @@ You can see the **Suggested actions** card on the case form based on the configu
       - **Send next follow-up**: The customer didn't respond to the follow-up email within the configured duration. Select **Review and send email** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
      - If the customer responds to the email at any point in the follow-up process, with a favorable response, the AI agent stops sending follow-up emails and the **Suggested actions** card is no longer displayed on the the case form.
      - **Reply to customer**: The customer responds to the email within the follow-up duration with a response that the agent can't process or contains a negative response. Select **Draft reply** to view the email drafted by the agent in a new tab. You can edit the email and then send it to the customer.
-      - **Resolve case**: The customer didn't respond to any of the follow-up emails you sent. Select **Resolve case** to view the case resolution dialog. You can then close any open activities and resolve the case.
- - An AI generated summary of when the customer last responded to your email and the next steps you can take. You can provide feedback by selecting the Thumbs up or Thumbs down icon. You can also hide or expand this summary.
+      - **Resolve case**: The customer didn't respond to any of the follow-up emails you sent. Select **Resolve case** to view the **Case Resolution** dialog. You can then close any open activities and resolve the case.
+ - An AI generated summary of when the customer last responded to your email and the next steps you can take. You can provide feedback by selecting the Thumbs up or Thumbs down option. You can also hide or expand this summary.
 
 
 

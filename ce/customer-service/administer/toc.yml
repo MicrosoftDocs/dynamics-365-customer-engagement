@@ -226,7 +226,8 @@
         href: setup-autonomous-case-agents.md
       - name: Set up autonomous case follow-up and closure
         href: setup-case-closure.md
-      - name: Setup a pay-as-you-go plan      
+      - name: Setup a pay-as-you-go plan 
+        href: setup-pay-as-you-go.md     
     - name: Automatically create or update records
       items:
       - name: Automatically create or update records

@@ -25,10 +25,10 @@ The agent creates cases automatically from chat conversations and incoming email
 
 ### Chat
 
-When you accept a conversation that is routed directly or is escalated by a self-assist agent (bot) with enough context, the autonomous case management agent performs the following actions:
+When you accept a conversation routed directly or escalated by a self-assist agent with enough context, the autonomous case management agent performs the following actions:
 
 - Maps the context from the conversation to the fields configured by the administrator and predicts the values for those fields.
-- Creates a new case that opens in a new tab in the Active Conversation form. A case is created only if the agent has enough context to populate all the configured fields. 
+- Creates a new case that opens in a new tab in the **Active Conversation** form. A case is created only if the agent has enough context to populate all the configured fields. 
 - Populates the values of the fields in the case.
 - Automatically saves the case.
 
@@ -42,16 +42,16 @@ For an incoming email, a case is created automatically based on the configured A
 
 The agent updates the fields configured by the administrator as follows:
 
-- **For a case created from a conversation**: The **Update from conversation** button appears on the case form. When you select the button, the agent populates the fields with context from the ongoing conversation. Updated fields are highlighted, and a banner indicates they were modified using AI. 
+- **For a case created from a conversation**: Select **Update from conversation** on the case form. The agent populates the fields with context from the ongoing conversation. Updated fields are highlighted, and a banner indicates that they were modified using AI.
 - If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
 - If the conversation is in wrap-up state, the agent checks if a case is created. If the case isn't created, the agent creates a new case and populates the case fields. If a case is created, the agent updates the specified fields.
 
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
- You can review the updated fields from in **Audit history** if your administrator has enabled Dataverse auditing.
+You can review the updated fields from the **Audit history** if your administrator has enabled Dataverse auditing.
 
 > [!NOTE]
-> If Case fields that configured for AI agent updates are updated manually, the AI agent doesn't overwrite the manual updates.
+> If case fields configured for AI agent updates are updated manually, the AI agent doesn’t overwrite the manual updates.
 
 ## Next steps
 
