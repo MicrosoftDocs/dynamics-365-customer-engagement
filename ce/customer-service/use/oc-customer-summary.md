@@ -112,6 +112,8 @@ If you don't specify a disposition code, the close button (**X**) doesn't appear
 
    :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
 
+For a closed conversation, you can view the disposition code in the **Conversation Form**.
+
 ## View recent cases
 
 This section displays recent cases related to the customer.
