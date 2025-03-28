@@ -39,9 +39,9 @@ Supervisors and content managers can view the **Overall performance** report on 
 
 ## Prerequisites
 
-- [Turn on Customer Knowledge Management Agent in the Customer Service admin center](../administer/admin-km-agent.md) along with the **Real-time creation** and **Creation from historical cases** options enabled.
+- Your administrator has turned on [Customer Knowledge Management Agent ](../administer/admin-km-agent.md) and enabled the **Real-time creation** and **Creation from historical cases** options.
 
-- To enable data collection for reporting, your administrator must enable the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
+- Your administrator has enabled the **Record user interactions with AI, including user actions and their feedback on AI suggestions** option, on the **Customer Knowledge Management Agent (preview)** > **User experience data** section.
 
 ## Overall performance dashboard
 
