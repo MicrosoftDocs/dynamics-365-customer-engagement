@@ -31,7 +31,7 @@ You can review knowledge articles created by the Customer Knowledge Management A
    The **Suggested actions** tab appears only if there is a suggested action. 
 1. Select **Review draft**.
 1. In the **Review knowledge draft (preview)** dialog that appears, you can review and edit the article and make any rich text edits.
-1. Optionally, you can use Copilot to automatically edit the article by entering instructions in **Revise with instructions** and then select **Re-generate**. For example, you can prompt Copilot to make the content more concise, and then select `**Re-generate**`
+1. Optionally, you can use Copilot to automatically edit the article by entering instructions in **Revise with instructions** and then select **Re-generate**. For example, you can prompt Copilot to make the content more concise, and then select **Re-generate**.
 1. Select **Mark as reviewed**. Or, if you have the required permissions, you can select **Split** and publish the article.
 
 ## Related information
