@@ -28,7 +28,7 @@ You can review knowledge articles created by the Customer Knowledge Management A
 
 1. For a resolved case, go to the case **Timeline**.
 1. Select the **Suggested actions** tab.
-   The **Suggested actions** tab shows up only if there is a suggested action. If there aren't any suggested actions, the tab doesn't appear.
+   The **Suggested actions** tab appears only if there is a suggested action. 
 1. Select **Review draft**.
 1. In the **Review knowledge draft (preview)** dialog that appears, you can review and edit the article and make any rich text edits.
 1. Optionally, you can use Copilot to make changes to the article automatically by typing what you want in **Revise with instructions**, and then selecting **Re-generate**. For example, you can prompt Copilot to make the content more concise, and then select **Re-generate**
