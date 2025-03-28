@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: faq
 ms.collection:
-ms.date: 03/12/2025
+ms.date: 04/01/2025
 ms.custom: bap-template
 ---
 
@@ -20,7 +20,7 @@ To understand how presence works, see [How do manual and automatic presence upda
 
 ## What presence does the agent have outside of working hours?
 
-The presence status isn't calculated based on operating hours or work hour setting. For more information, see [How presence is calculated](oc-manage-presence-status.md#how-presence-is-calculated-when-representatives-sign-in).
+The presence status isn't calculated based on operating hours or work hour setting. Learn more in [How presence is calculated](oc-manage-presence-status.md#how-presence-is-calculated-when-representatives-sign-in).
 
 ## What presence will an agent have when they sign in from multiple browsers?
 
@@ -49,6 +49,14 @@ See the [prerequisites](oc-manage-presence-status.md#prerequisites) that are req
 ## Can I view agent custom presence statuses in reports?
 
 Yes, you can view agent custom presence statuses in the agent report for Omnichannel real-time analytics and Omnichannel historical analytics.
+
+## Can I set default presence for representatives or group?
+
+You can set default presence for each representative. It's not available for setting up in bulk.
+
+## Why is my presence not being reset to default when I select reset on a missed or reject notification message?
+
+The system updates the presence based on capacity use.
 
 ## Next steps
 
