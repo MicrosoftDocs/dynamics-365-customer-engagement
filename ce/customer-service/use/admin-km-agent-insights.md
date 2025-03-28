@@ -18,24 +18,16 @@ ms.custom:
 
 [This article is prerelease documentation and is subject to change.]
 
-The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights such as:
+Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Customer Service workspace to get analytics on Customer Knowledge Management Agent. The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights on:
 
 - How articles are created.
 - Where articles are in the review and publish workflow.
 - Whether articles are used in Copilot responses.
 - If customer service representatives find the articles useful in their daily work.
 
-These insights help supervisors identify and address gaps, enhance the knowledge repository, and optimize Copilot's performance.
+These insights help supervisors identify and address gaps, enhance the knowledge repository, and optimize Copilot's performance. Self-service article publishing and greater resource control reduce support and content management costs. Feedback from service representatives also help the system and the content managers identify and act on low quality articles.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
-
-Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Customer Service workspace to get analytics on Customer Knowledge Management Agent.
-
-### Benefits of insights on Customer Knowledge Management Agent
-
-- Self-service article publishing, and greater resource control reduce support and content management costs.
-- Understanding the performance of Copilot-drafted content can ensure transitioning to fully autonomous harvesting.
-- Service representatives can provide feedback through a five-star rating approach with suggested prompts. This helps the system and the content managers identify and act on low quality articles more efficiently.
 
 ## Prerequisites
 
