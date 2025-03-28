@@ -26,7 +26,7 @@ You can review knowledge articles created by the Customer Knowledge Management A
 
 ## Review knowledge articles
 
-1. For a resolved case, go to the case **Timeline**, and expand the **Timeline highlights**.
+1. For a resolved case, go to the case **Timeline**.
 1. Select the **Suggested actions** tab.
    The **Suggested actions** tab shows up only if there is a suggested action. If there aren't any suggested actions, the tab doesn't appear.
 1. Select **Review draft**.
