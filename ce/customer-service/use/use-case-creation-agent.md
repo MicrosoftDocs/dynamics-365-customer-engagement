@@ -1,5 +1,5 @@
 ---
-title: Use autonomous case management agents to create and update cases (preview)
+title: Use Case Management Agent to create and update cases (preview)
 description: Learn how to use autonomous case management agents to efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -10,11 +10,11 @@ ms.date: 03/28/2025
 ms.custom: bap-template 
 ---
 
-# Use autonomous case management agents to create and update cases (preview)
+# Use Case Management Agent to create and update cases (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The autonomous case management agent uses chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors.
+The Case Management Agent uses chat conversations and incoming emails  to create cases and fill in relevant case fields. It can also update case fields during ongoing conversations, eliminating the need for manual case creation and reducing errors.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -25,7 +25,7 @@ The agent creates cases automatically from chat conversations and incoming email
 
 ### Chat
 
-When you accept a conversation routed directly or escalated by a self-assist agent with enough context, the autonomous case management agent performs the following actions:
+When you accept a conversation routed directly or escalated by a self-assist agent with enough context, the Case Management Agent performs the following actions:
 
 - Maps the context from the conversation to the fields configured by the administrator and predicts the values for those fields.
 - Creates a new case that opens in a new tab in the **Active Conversation** form. A case is created only if the agent has enough context to populate all the configured fields. 
