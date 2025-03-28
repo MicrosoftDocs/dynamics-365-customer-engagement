@@ -68,6 +68,10 @@ If your organization has chosen persistent chat as the mode of conversation, you
 
 You can close any session manually by selecting the **X** button next to the session title. When you hover the cursor on a session, you'll see the **X** button, and if you select the button, a confirmation dialog is shown to you.
 
+> [!NOTE]
+> If your administrator has enabled the disposition code feature, you must specify atleast one disposition code before closing the session. If you don't specify a disposition code, you can't close the session.
+
+
 ## Mode of the session panel
 
 By default, the session panel is in expanded mode. Use the burger icon to toggle between expand or collapse mode.
