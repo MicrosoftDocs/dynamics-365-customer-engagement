@@ -53,7 +53,7 @@ Customer Knowledge Management Agent uses **Case Title**, **Case Description**, *
  
 1. In the **Real-time creation** section, select **Manage attributes**. The **Manage data** page appears. 
 You can map which record types and data fields are used for each element. You can choose to include and exclude data.
-1. Select**Save and Close**.
+1. Select **Save and Close**.
 1. Select **Save** on the **Customer Knowledge Management Agent (preview)** settings page.
 
 ## Enable historical knowledge creation
