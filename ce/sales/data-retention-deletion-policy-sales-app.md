@@ -16,11 +16,15 @@ When you configure conversation intelligence, sales call recordings of sellers a
 ## Configure Call recording storage, Data consent and privacy
 
 1. Go to **Change area** in the lower-left corner of the page and select **Sales Insights settings**.  
-    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Screenshot of selecting Sales Insights settings in the Change area.":::    
-3.    In the configuration page, under **Productivity**, select **Conversation intelligence**.  
 
-        :::image type="content" source="media/ci-admin-config-page.png" alt-text="Screenshot of the Conversation intelligence configuration home page.":::  
-1.    On the **Settings** page, select the sections as required:    
+    :::image type="content" source="media/si-admin-change-area-sales-insights-settings.png" alt-text="Screenshot of selecting Sales Insights settings in the Change area.":::    
+
+1. In the configuration page, under **Productivity**, select **Conversation intelligence**.  
+
+    :::image type="content" source="media/ci-admin-config-page.png" alt-text="Screenshot of the Conversation intelligence configuration home page.":::  
+
+1. On the **Settings** page, select the sections as required:    
+
     - Select the **Call recording storage** section to configure [data retention policy](#call-recording-storage) for your organization.
     - Select the **Data consent and privacy** section to configure [data consent and privacy](#data-consent-and-privacy) for your organization.  
     
