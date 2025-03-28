@@ -72,7 +72,7 @@ Creation from historical cases is a long-running process, which can't be stopped
 
 ## Set the default compliance state of created articles
 
-You can control the default compliance state of the articles created by Customer Knowledge Management Agent. For example, to ensure articles are compliant, set their default state to Pending and ask knowledge reviewers to mark them as compliant before publishing.  
+You can control the default compliance state of the articles created by Customer Knowledge Management Agent. For example, to ensure articles are compliant, set their default state to **Pending** and ask the knowledge reviewers to mark them as compliant before publishing.  
 
 To set the default compliance state of articles created by Customer Knowledge Management Agent, on the **Customer Knowledge Management Agent (preview)** page, **Compliance** section, select your default compliance state from the available options.
 
