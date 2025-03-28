@@ -373,7 +373,7 @@
         - name: Enable Customer Knowledge Management Agent
           href: admin-km-agent.md
         - name: Set up a pay-as-you-go plan
-          href: setup-pay-as-you-go-plan.md
+          href: setup-pay-as-you-go.md
     - name: Microsoft Teams for collaboration
       items:
       - name: Introduction to collaboration
