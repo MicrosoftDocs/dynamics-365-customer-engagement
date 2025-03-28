@@ -42,7 +42,7 @@ In Customer Service admin center, follow these steps:
 1. In **Customer support**, select **Case settings**.
 2. On the **Case settings** page, select **Manage** for **Case Management Agent**.
 3. On the **Case Management Agent** page, select **Case creation and update with autonomous AI assistance (preview)**.
-4. In the page that appears, select the channels that AI can use to create or update cases. You can select **Live chat** and **Email**. Optionally, you can select **Automatically create a note at the end of the a live chat using conversation summary** to generate the conversation summary as a note at the end of the chat.
+4. In the page that appears, select the channels that AI can use to create or update cases. You can select **Live chat** and **Email**. 
 1. On the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
    - For a conversation, the agent evaluates the conversation and then creates a case only if there’s enough context in the conversation to predict the default fields.  
    - New cases are created from emails based on the ARC rules configured. The Case Management Agent populates the fields in the case created by ARC if there’s enough context available in the email. Fields populated when the case is created aren't overwritten by the agent.

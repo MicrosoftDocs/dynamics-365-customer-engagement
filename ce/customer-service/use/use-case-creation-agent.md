@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection: 
-ms.date: 03/04/2025
+ms.date: 03/28/2025
 ms.custom: bap-template 
 ---
 
@@ -45,7 +45,6 @@ The agent updates the fields configured by the administrator as follows:
 - **For a case created from a conversation**: The **Update from conversation** button appears on the case form. When you select the button, the agent populates the fields with context from the ongoing conversation. Updated fields are highlighted, and a banner indicates they were modified using AI. 
 - If there isn't enough context to populate the fields, the agent doesn't update them and displays a message indicating no changes.
 - If the conversation is in wrap-up state, the agent checks if a case is created. If the case isn't created, the agent creates a new case and populates the case fields. If a case is created, the agent updates the specified fields.
-- When you end the conversation and if the administrator has enabled the **Automatically create a note at the end of the a live chat using conversation summary** option, the agent creates a note with the conversation summary at the end of the chat.
 
 - **For a case created from an email**: The agent populates the fields with context from incoming emails linked to the case. 
 
