@@ -366,6 +366,12 @@
         href: add-knowledge-base-search-control-forms.md
       - name: Add a knowledge article rich text editor control to a form
         href: rich-text-editor-ka.md
+    - name: Customer Knowledge Management Agent (preview)
+      items:
+        - name: Configure connection references
+          href: admin-km-agent-connections.md
+        - name: Enable Customer Knowledge Management Agent
+          href: admin-km-agent.md
     - name: Microsoft Teams for collaboration
       items:
       - name: Introduction to collaboration
@@ -470,12 +476,6 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
-    - name: Customer Knowledge Management Agent (preview)
-      items:
-        - name: Configure connection references
-          href: admin-km-agent-connections.md
-        - name: Enable Customer Knowledge Management Agent
-          href: admin-km-agent.md
     - name: Chat
       items:
       - name: Introduction to the chat channel

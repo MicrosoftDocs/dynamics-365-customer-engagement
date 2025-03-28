@@ -144,6 +144,12 @@
           href: search-operators.md
         - name: Search the knowledge base on portals
           href: knowledge-base-search-methods.md
+      - name: Customer Knowledge Management Agent (preview)
+        items:
+        - name: Review knowledge articles created by the Customer Knowledge Management Agent
+          href: admin-km-agent-review.md
+        - name: Use knowledge insights for Customer Knowledge Management Agent
+          href: admin-km-agent-insights.md
       - name: Microsoft Teams for collaboration
         items:
         - name: Use Microsoft Teams chat
@@ -196,12 +202,6 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
-      - name: Customer Knowledge Management Agent (preview)
-        items:
-        - name: Review knowledge articles created by the Customer Knowledge Management Agent
-          href: admin-km-agent-review.md
-        - name: Use knowledge insights for Customer Knowledge Management Agent
-          href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
         - name: Omnichannel for Customer Service for agents
