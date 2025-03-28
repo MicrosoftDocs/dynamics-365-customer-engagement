@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [This article is prerelease documentation and is subject to change.]
 
-You can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent may create a new article based on the content of your case if it determines that it can fill a knowledge gap.
+You can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent creates a new article based on your case, if the agent determines that it fills a knowledge gap.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
