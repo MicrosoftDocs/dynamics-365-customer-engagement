@@ -144,6 +144,12 @@
           href: search-operators.md
         - name: Search the knowledge base on portals
           href: knowledge-base-search-methods.md
+      - name: Customer Knowledge Management Agent (preview)
+        items:
+        - name: Review knowledge articles created by the Customer Knowledge Management Agent
+          href: admin-km-agent-review.md
+        - name: Use knowledge insights for Customer Knowledge Management Agent
+          href: admin-km-agent-insights.md
       - name: Microsoft Teams for collaboration
         items:
         - name: Use Microsoft Teams chat
@@ -366,7 +372,7 @@
             href: oc-voicemail-dashboard.md          
           - name: Unified routing dashboard
             href: oc-historical-analytics-unified-routing.md
-        - name: Use knowledge management analytics
+        - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
           href: copilot-analytics-report.md
