@@ -6,7 +6,7 @@ ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 08/30/2024
+ms.date: 03/28/2025
 ms.custom: bap-template 
 ---
 
@@ -57,11 +57,9 @@ Report data get retained for 24 months. Storage file size automatically increase
 
 Administrators can provide access to reports through security roles.
 
-1. In Field Service, go to **Advanced Settings**.
+1. From Field Service, change to the Power Platform Environment Settings app.
 
-1. Go to **Settings** > **Security**.
-
-1. Go to **Security Roles**.
+1. Under **Security (Preview)**, select  **Security** > **Security Roles**.
 
 1. Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**).
 
