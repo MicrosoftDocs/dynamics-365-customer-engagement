@@ -16,7 +16,7 @@ ms.custom:
 
 # Configure connection references for Customer Knowledge Management Agent flow (preview)
 
-[This article is prerelease documentation and is subject to change.]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 This article provides instructions to configure connection references for the Customer Knowledge Management Agent flow. You need to set the following connection references for the **Knowledge Harvest Trigger Flow V2** flow.
 

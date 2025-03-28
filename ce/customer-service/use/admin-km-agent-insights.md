@@ -16,7 +16,7 @@ ms.custom:
 
 # Use knowledge insights for Customer Knowledge Management Agent (preview)
 
-[This article is prerelease documentation and is subject to change.]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 Supervisors and content managers can view the **Overall performance** report on the **Knowledge analytics** dashboard in Customer Service workspace to get analytics on Customer Knowledge Management Agent. The effectiveness of Copilot responses depends on the quality of the knowledge base. To create and maintain high-quality knowledge articles, supervisors require insights on:
 

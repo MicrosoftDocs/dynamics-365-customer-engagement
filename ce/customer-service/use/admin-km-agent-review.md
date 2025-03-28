@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Review knowledge articles created by the Customer Knowledge Management Agent (preview)
 
-[This article is prerelease documentation and is subject to change.]
+[!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 You can review knowledge articles created by the Customer Knowledge Management Agent. When you resolve a case, the Customer Knowledge Management Agent creates a new article based on your case, if the agent determines that it fills a knowledge gap.
 
@@ -22,7 +22,6 @@ You can review knowledge articles created by the Customer Knowledge Management A
 
 - Your administrator has configured Review permissions.
 - You're using out-of-the-box timeline.
-- You have **Timeline Highlights** and **Suggested actions** enabled.
 
 ## Review knowledge articles
 
