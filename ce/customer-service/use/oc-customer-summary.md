@@ -25,6 +25,7 @@ Having this information ready can help support agents reduce the hold time that 
 - Customer (Contact or Account)
 - Conversation summary
 - Case
+- Disposition code
 - Recent cases
 - Timeline
 
@@ -102,6 +103,14 @@ Depending on the settings that are enabled for you, you'll see one of the follow
    :::image type="content" source="../media/cs-recent-cases.png" alt-text="default Case details section of the active conversation page"::: 
 
 ---
+
+## Disposition code
+
+If your administrator has enabled the disposition code feature, you'll see the **Disposition Code** section on the form. At any point in the conversation, use the **Search codes** drop down to select a disposition code that best describes the outcome of the conversation. 
+
+If you don't specify a disposition code, the close button (**X**) doesn't appear for the session. This means that you can't close the session without selecting a disposition code.
+
+   :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
 
 ## View recent cases
 
