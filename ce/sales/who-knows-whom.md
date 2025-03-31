@@ -31,7 +31,7 @@ For Sales Enterprise users, the who knows whom information is populated based on
 For Sales Premium users, the information is populated based on Exchange data, provided your administrator has [configured the integration](configure-who-knows-whom.md). If you don't want Dynamics 365 to collect your Exchange data, you can [opt out](#turn-off-data-sharing-with-dynamics-365-applications) of data sharing.  
 
 > [!NOTE]
-> If you opt in for [April 2025 early access](/power-platform/admin/opt-in-early-access-updates), you can connect to Exchange only using [server-side synchronization](configure-email.md). If you previously enabled the [Exchange integration](configure-relationship-analytics.md#configure-relationship-analytics) through relationship intelligence settings, it won't work for early access. Until server-side synchronization is set up, who knows whom only uses emails from Dynamics 365.
+> Native integration with Exchange Online is being deprecated in phases. Refer to the [train schedule](/dynamics365/released-versions/dynamics365sales#latest-version-availability) for version 9.0.25032.10001 to know when the feature will be deprecated in your region. If you want to use Exchange data for enhanced insights, [set up server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 
 ## View who knows whom  
 
