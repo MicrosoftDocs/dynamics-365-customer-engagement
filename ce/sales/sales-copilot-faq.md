@@ -4,7 +4,7 @@ description: Get answers to common questions about Copilot in Dynamics 365 Sales
 author: lavanyakr01 
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual
+ms.topic: concept-article
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot
 ms.date: 12/18/2024

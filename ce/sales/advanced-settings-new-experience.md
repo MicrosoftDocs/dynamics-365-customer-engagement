@@ -4,7 +4,7 @@ description: Learn about advanced settings in the new experience.
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual
+ms.topic: concept-article
 ms.collection: get-started
 ms.date: 02/20/2025
 ms.custom: bap-template
