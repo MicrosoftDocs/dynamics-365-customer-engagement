@@ -11,16 +11,16 @@ ms.custom: bap-template
 ---
 
 
-# Set-up Case Management Agent for case creation and update (preview)
+# Set-up Case Management Agent to create and update cases (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Case Management Agent streamlines case creation. This reduces manual effort and minimizes data entry errors.
+The Case Management Agent automates case creation and thereby reduces manual effort and data entry errors.
 
 The agent creates and updates cases as follows: 
 
-- From conversations: The agent analyzes chat, predicts and populates the relevant field values, and updates case details during the conversation.
-- From emails: [Automatic record creation and update(ARC) rules](automatically-create-update-records.md#activities-and-entities-supported-by-rules-for-creating-or-updating-records-automatically) create cases from emails. After a case is created using these rules, the agent updates the case fields based on the ongoing email interactions with customers.
+- From conversations: The agent analyzes chat; predicts and populates the relevant field values; and updates case details during the conversation.
+- From emails: [Automatic record creation and update rules](automatically-create-update-records.md) create cases from emails. After a case is created using these rules, the agent updates the case fields based on the ongoing email interactions with customers.
 
 [!INCLUDE [preview-banner](../../../shared-content/shared/preview-includes/production-ready-preview-dynamics365.md)]
 
@@ -29,7 +29,7 @@ The agent creates and updates cases as follows:
 - Administrators must have the CSR Manager or System Administrator role.
 - Customer service representatives (service representatives or representatives) must have the Omnichannel Agent and Customer Service Representative role.
 - Enable [AI form fill assistance](/power-platform/admin/settings-features#ai-form-fill-assistance) in the Power Platform admin center application.
-- [Automatic record creation and update (ARC) rules](set-up-rules-to-automatically-create-or-update-records.md) are set up to create case records from emails.
+- [Automatic record creation and update rules](automatically-create-update-records.md) are set up to create case records from emails.
 - [Provision the chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](create-chat-auth-settings.md). 
 - [Workstreams](create-workstreams.md) and [queues](queues-omnichannel.md) are set up.
 -  [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
@@ -45,7 +45,7 @@ In Customer Service admin center, follow these steps:
 4. In the page that appears, select the channels that AI can use to create or update cases. You can select **Chat** and **Email**. 
 1. On the **Default list of fields for AI prediction**, specify the fields the agent must fill in the case form using information from the chat or email conversation.  
    - For a conversation, the agent evaluates the conversation and then creates a case only if there’s enough context in the conversation to predict the default fields.  
-   - New cases are created from emails based on the ARC rules configured. The Case Management Agent populates the fields in the case created by ARC if there’s enough context available in the email. Fields populated when the case is created aren't overwritten by the agent.
+   - New cases are created from emails based on the automatic record creation rules configured. The Case Management Agent populates the fields in the case created by the record creation rules if there’s enough context available in the email. Fields populated when the case is created aren't overwritten by the agent.
 1. Optionally, in **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
 
 > [!NOTE]
