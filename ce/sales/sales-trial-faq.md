@@ -5,7 +5,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.date: 03/15/2024
-ms.topic: conceptual
+ms.topic: concept-article
 ms.custom: 
   - template-trial-faq
   - bap-template

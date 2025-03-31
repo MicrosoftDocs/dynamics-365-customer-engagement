@@ -28,23 +28,25 @@ Perform these configuration steps after [successful deployment](rso-deployment.m
 
 Ensure that Resource Scheduling Optimization can optimize work order-related requirements and bookings:
 
-1. [Assign the security role](/power-platform/admin/assign-security-roles) *Field Service - Administrator* to the Resource Scheduling Optimization application user.
+1. Go to the **Power Platform Environment Settings** app.
 
-1. [Assign the column security profile](/power-platform/admin/add-teams-users-field-security-profile) *Resource Scheduling Optimization – Administrator* to the Resource Scheduling Optimization application user.
+1. Under **System**, select **Security (Preview)** > **Users**. Assign the security role *Field Service - Administrator* to the Resource Scheduling Optimization application user.
+
+1. Select **Security (Preview)** > **Column security profiles**. Open **Resource Scheduling Optimization – Administrator** and add the Resource Scheduling Optimization application user to the column security profile.
   
 Enable dispatchers to interact with Resource Scheduling Optimization:
 
-1. Go to **Settings** > **Security** > **Users**.
+1. From the Power Platform Environment Settings app, select **Security (Preview)** > **Users**.
 
 1. Locate the user or team of dispatchers.
 
-1. Select **Manage Roles**.
+1. Select **Manage security roles**.
 
 1. Assign a security role.
 
 1. Select **Save**.
 
-1. Go to **Settings** > **Security** > **Field Security Profiles**.
+1. Select **Security (Preview)** > **Column security profiles**.
 
 1. Open **Resource Scheduling Optimization - Dispatcher** and add the user or team to the profile and then select **Save**.
 

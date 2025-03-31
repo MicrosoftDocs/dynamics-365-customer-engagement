@@ -1,7 +1,7 @@
 ---
 title: Enable location tracking
 description: Learn how to enable and set up location tracking for the Dynamics 365 Field Service mobile app.
-ms.date: 03/05/2025
+ms.date: 03/11/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 author: JonBaker007
@@ -16,7 +16,7 @@ An administrator enables location tracking for the Dynamics 365 Field Service ap
 
 For a guided walkthrough, check out the following video.
 >
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=9370c86c-629e-4979-ab82-de3724fa1a1f]
+> [!VIDEO b3ba77f0-5fc9-45ce-9067-1fee29b5be3e]
 
 ## Prerequisites
 

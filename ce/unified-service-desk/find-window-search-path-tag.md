@@ -1,8 +1,8 @@
 ---
-title: "FindWindow search path tag in Unified Service Desk | MicrosoftDocs"
-description: "<FindWindow> tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the <FindWindow> elements with example code."
+title: FindWindow search path tag in Unified Service Desk 
+description: <FindWindow> tag contains a list of matching elements that are executed in the order of their listing within the tag. This topic describes the <FindWindow> elements with example code.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -2,7 +2,7 @@
 title: Focused view FAQs
 description: Get answers to frequently asked questions about focused view.
 ms.date: 07/10/2024
-ms.topic: troubleshooting
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
