@@ -1,6 +1,6 @@
 ---
-title: Connect the sales research agent to a different data source or upload data (preview)
-description: Learn how to connect the sales research agent to your data.
+title: Connect the Sales Research Agent to a different data source or upload data (preview)
+description: Learn how to connect the Sales Research Agent to your data.
 manager:
 ms.date: 03/17/2025
 ms.topic: overview
@@ -13,19 +13,19 @@ ms.reviewer: lavanyakr
 ai-usage: ai-assisted
 ---
 
-# Connect the sales research agent to a different data source (preview) 
+# Connect the Sales Research Agent to a different data source (preview) 
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can also connect to other dataverse environments, upload data files (CSV, Excel, PDF) as additional data sources, or chose to remove existing connection entirely and only use uploaded files as basis for your research. This allows you to create comprehensive research blueprints that combine data both D365 and uploaded data or reason over uploaded data only.
+The Sales Research Agent is connected to your Dynamics 365 Sales environment by default. However, you can connect to other Dataverse environments or upload data files (CSV, Excel, PDF) as additional data sources. You can also choose to remove existing connection entirely and just use the uploaded files as basis for your research. This allows you to create comprehensive research blueprints with the Dynamics 365 data, uploaded data, or both combined.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
-Add the data source using one of the following options in the **Sales research agent** page:
+Add the data source using one of the following options in the **Sales Research Agent** page:
 - Select **Data** at the top-right corner of the page and choose **Add data**.
 - Select **Add data** in the **Ask any business question** prompt box.
 
-    :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the sales research agent.":::
+    :::image type="content" source="media/sales-research-agent-add-data.png" alt-text="Screenshot of the Add data option in the Sales Research Agent.":::
 
 ## Use data from other Dynamics 365 Sales environments
 
@@ -33,8 +33,8 @@ Add the data source using one of the following options in the **Sales research a
 
 - Based on the question you ask, the agent looks through the data source for the most relevant data to answer the question. The agent depends on the metadata available (for example, table and column headers and descriptions) to help identify the most relevant data. 
 - Make sure that custom tables and fields added to Dynamics 365 Sales have proper descriptions. The agent uses these descriptions to understand the data and provide better insights.
-- The blueprint generated depends on the data found. If no data is found, then the sales research agent shows an error and might ask if you can rephrase the question.  
-- If you use the AI cursor to ask follow-up questions, the agent will consider the data source again to answer it unless you specify a different data source.  
+- The blueprint generated depends on the data found. If no data is found, then the Sales Research Agent shows an error and might ask if you can rephrase the question.  
+- If you use the AI cursor to ask follow-up questions, the agent considers the data source again to answer it unless you specify a different data source.  
 
 ## Supported data files
 
@@ -58,5 +58,5 @@ You can upload a PDF (.pdf), CSV (.csv), or Excel (.xls) file. The following lim
 
 ## Related information
 
-- [Research on sales topics with the sales research agent](use-sales-research-agent.md)
-- [Frequently asked questions about Sales research agent (preview)](faqs-sales-research-agent.md)
+- [Research on sales topics with the Sales Research Agent](use-sales-research-agent.md)
+- [Frequently asked questions about Sales Research Agent (preview)](faqs-sales-research-agent.md)
