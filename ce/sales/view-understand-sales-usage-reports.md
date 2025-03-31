@@ -2,7 +2,7 @@
 title: View operational metrics and KPIs in Sales usage reports
 description: Explore operational metrics and KPIs in sales usage reports, providing historical data on contacts, accounts, leads, and opportunities.
 ms.date: 02/25/2025
-ms.topic: conceptual
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag

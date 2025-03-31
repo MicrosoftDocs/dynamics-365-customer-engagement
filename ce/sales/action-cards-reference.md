@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 
-ms.topic: conceptual
+ms.topic: concept-article
 ms.date: 03/21/2024
 ms.custom:
   - bap-template
