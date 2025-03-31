@@ -105,13 +105,13 @@ Account history information is generated based on the closed opportunities assoc
 
 Depending on the closed opportunities associated with the account, Copilot generates the following account history summary:
 
-- When an account has closed opportunities, the summary statement is as follows:  
+- On an account with closed opportunities, the summary statement is as follows:  
 
     `parentaccountid` (name of the parent account) has been a customer that has spent over `actualvalue` (sum of all closed opportunities) with us since `createdon` (first opportunity closed date with parent account). `parentaccountid` (name of the parent account) operates in the `industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
 
     **Example**: **Fourth Coffee (sample)** has been a customer that has spent over **$22,469.39** with us since **7/20/2024**. **Fourth Coffee (sample)** operates in the **Food and Tobacco Processing** industry sector and provides a wide selection of products in its stores and online.
 
-- When an account doesn't have closed opportunities, the summary statement is as follows:  
+- On an account with zero closed opportunities, the summary statement is as follows:  
 
    `parentaccountid` (name of the parent account) has been a customer with us since `createdon` (date of account creation). `parentaccountid` (name of the parent account) operates in the `industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
 
@@ -144,12 +144,12 @@ To generate the account summary, Copilot in Dynamics 365 Sales uses the followin
 Account history information is generated based on the closed opportunities associated with the account. Copilot gets the closed opportunities associated with the account.  
 Based on the closed opportunities associated with the account, Copilot generates the following account history summary:  
 
-- When an account has closed opportunities, the summary statement is as follows:  
+- On an account with closed opportunities, the summary statement is as follows:  
     `accountName` (name of the account) has been a customer that has spent over `Sum.ClosedOpportunities.actualvalue` (total value of closed opportunities of the account)  with us since `account.createdon` (date on which the account is created). `accountName` (name of the account) operates in the `account.industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.  
 
     **Example**: **Contoso** has been a customer that has spent over **$25,000.00** with us since **8/9/2024 9:00 AM**. **Contoso** operates in the **Consulting** industry sector and provides a wide selection of products in its stores and online.
 
-- When an account doesn't have closed opportunities, the summary statement is as follows:  
+- On an account with zero closed opportunities, the summary statement is as follows:  
     `accountName` (name of the account) has been a customer with us since `account.createdon` (date on which the account is created). `accountName` (name of the account) operates in the `account.industrycode` (account's primary industry) industry sector and provides a wide selection of products in its stores and online.
 
     **Example**: **Contoso** has been a customer with us since **8/9/2024 9:00 AM**. **Contoso** operates in the **Consulting** industry sector and provides a wide selection of products in its stores and online.

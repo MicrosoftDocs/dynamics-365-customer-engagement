@@ -1,8 +1,8 @@
 ---
-title: "Sample bindings in Unified Service Desk | MicrosoftDocs"
-description: "Learn about the sample bindings used by data-driven adapters to identify UI components of hosted applications."
+title: Sample bindings in Unified Service Desk 
+description: Learn about the sample bindings used by data-driven adapters to identify UI components of hosted applications.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham

@@ -1,7 +1,7 @@
 ---
 title: Bot dashboard
 description: Learn about the bot dashboard in historical analytics to better understand customer service representative performance in your organization.
-ms.date: 02/10/2025
+ms.date: 03/24/2025
 ms.topic: article
 author: gandhamm
 ms.author: mgandham
@@ -12,8 +12,6 @@ ms.reviewer: mgandham
 
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
-
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
@@ -32,6 +30,7 @@ Based on your administrator's configuration of the **Add historical analytics fo
 ## Prerequisites
 
 - You must have the **Analytics Report Author** role to use the visual customizations in the bot dashboard. Visual customization is limited to the data available in the embedded Power BI report. If you want to add additional data, you need a Power BI license and enable data model customization.
+- Make sure that **Allow conversation transcripts and their associated metadata to be saved in Dataverse** is selected in Power Platform admin center. This setting is required to save transcripts in Dataverse that the bot dashboard uses.
 
 
 ## [Copilot Studio bot dashboard](#tab/copilotstudiodashboard)

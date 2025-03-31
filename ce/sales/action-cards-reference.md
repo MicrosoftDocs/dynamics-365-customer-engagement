@@ -4,7 +4,6 @@ description: Discover default insight cards that help you stay updated with your
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
-
 ms.topic: concept-article
 ms.date: 03/21/2024
 ms.custom:

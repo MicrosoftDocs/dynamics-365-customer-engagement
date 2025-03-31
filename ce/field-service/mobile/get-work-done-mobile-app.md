@@ -3,7 +3,7 @@ title: Work with the mobile app (Unified Interface)
 description: Learn how to use the Dynamics 365 Field Service mobile app to plan your work day, track your work orders, and view customer details.
 ms.topic: how-to
 ms.subservice: field-service-mobile
-ms.date: 02/05/2025
+ms.date: 03/11/2025
 author: JonBaker007
 ms.author: jobaker
 ms.custom:
@@ -79,7 +79,7 @@ From the main menu, go to **Time Entry** to create them.
 
 Watch this video to learn more about time entry in the Field Service mobile app:
 >
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=881e6a12-aca1-43ec-9a7d-5cb5ea876e22]
+> [!VIDEO 3459f683-d0d2-48de-a0bb-691d3bde4b79]
 
 ## Create follow-up work orders
 
