@@ -162,8 +162,8 @@ In the near future, the new work order experience becomes the new default view f
 
 To opt out from changing the default experience.
 
-1. Change to the Power Platform Environment Settings app.
-1. Select **Customization** > **Customize the System** > **Components** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
+1. Go to the **Power Platform Environment Settings** app.
+1. Select **Customizations** > **Customize the System** > **Components** > **Entities** > **Field Service Setting** > **Forms** > **Information**.
 1. In the **Other** tab on the form configuration, double-click the **Advanced Settings** field and enable the **Visible by default** option.
 1. Save and publish the customization.
 1. In Field Service, change to the **Settings** area and select **Field Service Settings**.

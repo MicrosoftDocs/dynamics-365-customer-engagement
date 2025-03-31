@@ -57,9 +57,9 @@ Report data get retained for 24 months. Storage file size automatically increase
 
 Administrators can provide access to reports through security roles.
 
-1. From Field Service, change to the Power Platform Environment Settings app.
+1. Go to the **Power Platform Environment Settings** app.
 
-1. Under **Security (Preview)**, select  **Security** > **Security Roles**.
+1. Under **System**, select  **Security (Preview)** > **Security Roles**.
 
 1. Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**).
 

@@ -45,16 +45,16 @@ If your organization uses Microsoft Teams, it's beneficial to [create a new team
 
 ### Step 3: Configure business units in Environment Settings
 
-1. From Field Service, change to the Power Platform Environment Settings app.
+1. Go to the **Power Platform Environment Settings** app.
 
-1. Under **System**, select **Security** > **Business Units**.
+1. Under **System**, select **Security (Preview)** > **Business Units**.
 
 1. Select the business unit and then select **Manage business units in Dynamics 365**.
 
 1. Associate the Business Unit with the Dataverse Team: Under the **Frontline Team** field, link the business unit to the Dataverse team created in the previous step.
 
 > [!IMPORTANT]
-> The Frontline Team field isn't visible when you manage business units in the Power Platform admin center. Use Dynamics 365 instead.
+> The Frontline Team field isn't visible when you manage business units in the Power Platform admin center. Use the Power Platform Environment Settings app instead.
 
 ### Step 4: Enable Planner sync in Field Service settings
 

@@ -16,9 +16,9 @@ Organizations often need to conduct inspections independent of work orders. Curr
 
 ## Enable inspections on customer assets without a work order
 
-1. From Field Service, change to the Power Platform Environment Settings app.
+1. Go to the **Power Platform Environment Settings** app.
 
-1. Select **Customization** > **Customize the System** > **Components** > **Entities** > **Customer Asset** > **1:N Relationships**
+1. Select **Customizations** > **Customize the System** > **Components** > **Entities** > **Customer Asset** > **1:N Relationships**
 
    There's an entity `InspectionInstance` with a display name **Inspection** with a 1:N relationship to customer asset. By default, this relationship isn't visible on the **Related** tab of the asset.
 
