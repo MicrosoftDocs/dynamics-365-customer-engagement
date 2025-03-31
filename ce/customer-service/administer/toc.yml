@@ -220,6 +220,12 @@
         href: remove-validation-contacts.md
       - name: FAQ on managing cases
         href: faq-case-mgmt.md
+    - name: Case Management Agent (preview)
+      items: 
+      - name: Set up Case Management Agent for case creation and update 
+        href: set-up-autonomous-case-agents.md
+      - name: Set up Case Management Agent for case follow-up and closure 
+        href: set-up-case-closure.md   
     - name: Automatically create or update records
       items:
       - name: Automatically create or update records
@@ -366,6 +372,14 @@
         href: add-knowledge-base-search-control-forms.md
       - name: Add a knowledge article rich text editor control to a form
         href: rich-text-editor-ka.md
+    - name: Customer Knowledge Management Agent (preview)
+      items:
+        - name: Configure connection references
+          href: admin-km-agent-connections.md
+        - name: Enable Customer Knowledge Management Agent
+          href: admin-km-agent.md
+        - name: Set up a pay-as-you-go plan
+          href: setup-pay-as-you-go.md
     - name: Microsoft Teams for collaboration
       items:
       - name: Introduction to collaboration
@@ -478,6 +492,8 @@
         href: add-chat-widget.md
       - name: Enable resizing of communication panel
         href: csac-resize-cp.md
+      - name: Configure disposition codes
+        href: /dynamics365/contact-center/administer/configure-disposition-codes?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
       - name: Configure relevance search for transcripts
         href: relevance-search-chat-transcript.md
       - name: Enable download, email of chat transcripts
@@ -594,6 +610,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Configure time-out rules
+        href: configure-time-out-rules.md
       - name: Enable multisession experience in custom apps (preview)
         href: enable-multisession-custom-apps.md
       - name: Create quick replies
