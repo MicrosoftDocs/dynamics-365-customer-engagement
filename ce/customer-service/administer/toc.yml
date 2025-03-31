@@ -366,6 +366,14 @@
         href: add-knowledge-base-search-control-forms.md
       - name: Add a knowledge article rich text editor control to a form
         href: rich-text-editor-ka.md
+    - name: Customer Knowledge Management Agent (preview)
+      items:
+        - name: Configure connection references
+          href: admin-km-agent-connections.md
+        - name: Enable Customer Knowledge Management Agent
+          href: admin-km-agent.md
+        - name: Set up a pay-as-you-go plan
+          href: setup-pay-as-you-go.md
     - name: Microsoft Teams for collaboration
       items:
       - name: Introduction to collaboration
@@ -426,6 +434,8 @@
         href: add-outbound-dialer-settings.md  
       - name: Use Azure Virtual Desktop to access voice channel
         href: /dynamics365/contact-center/administer/configure-voice-avd?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Install and manage Desktop companion application (preview)
+        href: /dynamics365/contact-center/administer/install-manage-desktop-app?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Support emergency calls made by agents
         href: voice-channel-emergency-calling.md
       - name: Forward your Teams calls to digital contact center
@@ -462,12 +472,6 @@
         href: set-up-multilingual-pva-bot.md
       - name: Bring your own carrier
         href: voice-channel-bring-your-own-number.md
-      - name: Integrate Nuance Cloud IVR bot
-        items:
-        - name: Introduction to Nuance Cloud IVR agent integration
-          href: oc-nuance-overview.md
-        - name: Integrate Nuance Cloud IVR bot with voice channel in Customer Service
-          href: oc-nuance-setup.md
       - name: Integrate a third-party IVR system with voice channel
         href: voice-channel-contextual-transfer-external-ivr.md
       - name: Pricing scenarios for voice calling
@@ -522,6 +526,8 @@
       items:
       - name: Set up SMS channels
         items:
+        - name: Overview of SMS channels
+          href: sms-channel-overview.md
         - name: Configure an SMS channel using Azure Communication Services
           href: configure-sms-channel-acs.md
         - name: Configure an SMS channel for Twilio
@@ -596,6 +602,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Configure time-out rules
+        href: configure-time-out-rules.md
       - name: Enable multisession experience in custom apps (preview)
         href: enable-multisession-custom-apps.md
       - name: Create quick replies

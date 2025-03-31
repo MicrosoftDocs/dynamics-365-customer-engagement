@@ -2,7 +2,7 @@
 title: RecalculatePrice Action - Developer Guide
 description: Programmatically trigger the out-of-the-box price calculation for Opportunity, Quote, Sales Order or Invoice entities.
 ms.date: 08/09/2023
-ms.topic: article
+ms.topic: reference
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
