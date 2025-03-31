@@ -1,7 +1,7 @@
 ---
 title: "Understand the sequence stats page"
 description: "View and understand the sequence's success rate and the state of records that are connected. "
-ms.date: 03/28/2025
+ms.date: 03/31/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -29,7 +29,6 @@ By default, the users with sales manager and sequence manager roles can view the
 1.	Go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**.
 2.	Under **Sales accelerator**, select **Sequences**.
 3.	On the **Sequences** page, select the **Sequence stats** tab.
-    The **Sequences** tab opens.
 
     :::image type="content" source="media/sa-sequence-stats-page.png" alt-text="Screenshot of the sequence stats page.":::
 
