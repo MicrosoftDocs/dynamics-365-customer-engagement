@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 
 
-# Set up Case Management Agent to case follow-up and closure (preview)
+# Set up Case Management Agent for case follow-up and closure (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
