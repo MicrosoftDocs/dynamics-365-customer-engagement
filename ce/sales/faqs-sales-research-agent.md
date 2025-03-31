@@ -22,7 +22,7 @@ ms.reviewer: lavanyakr
 
 ## Why can't I access the Sales research agent?
 
-The Sales research agent is only available in the European Union (EU) and United States. If you're trying to access it while you're in the European Union (EU) or United States and still get a notification stating the Sales research agent is not yet available your region, then it's because the data residency of the tenant you're trying to access the Sales research agent from is based outside of the European Union (EU) or United States.
+The Sales research agent is only available in the European Union (EU) and United States. If you're trying to access it while you're in the European Union (EU) or United States and still get a notification stating the Sales research agent isn't yet available your region, then it's because the data residency of the tenant you're trying to access the Sales research agent from is based outside of the European Union (EU) or United States.
 
 ## How can I refine a single block instead of the entire blueprint?
 
@@ -30,7 +30,7 @@ If you're using the AI Cursor and you pressed **Enter** after typing your prompt
 
 ## Can I connect to other data sources?
 
-Yes, you can connect to other Dynamics 365 and Dataverse environments if you have access to those. Additionally, you can upload datafiles to enrich your research furhter. Learn more in [Connect the Sales research agent to a different data source](sales-research-agent-connect-data.md).
+Yes, you can connect to other Dynamics 365 and Dataverse environments if you have access to those. Additionally, you can upload datafiles to enrich your research further. Learn more in [Connect the Sales research agent to a different data source](sales-research-agent-connect-data.md).
 
 ## Why do I get an error when trying to upload a file?
 

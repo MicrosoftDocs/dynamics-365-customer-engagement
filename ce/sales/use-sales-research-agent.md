@@ -17,7 +17,10 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The sales research agent in Dynamics 365 Sales can help you get the insights into current sales execution across territory, industry, product portfolio or any other data point quickly and easily. As a sales leader, you can use the agent to make data-driven decisions and drive your business forward.
+The sales research agent in Dynamics 365 Sales can help you get the insights into current sales execution across territory, industry, product portfolio, or any other data point quickly and easily. As a sales leader, you can use the agent to make data-driven decisions and drive your business forward.
+
+> [!IMPORTANT]
+> The agent might be subject to usage limits or capacity throttling.
 
 [!INCLUDE [preview-note](~/../shared-content/shared/preview-includes/preview-note.md)]
 
@@ -61,7 +64,7 @@ Use the AI cursor to interact with the generated data or ask a new question abou
 1. Hover over the blueprint and select the AI cursor icon :::image type="icon" source="media/ai-cursor.png" border="false"::: or use the keyboard shortcut Alt + C to activate the AI cursor. You can ask the agent to do the following:
     - Select a question or statement from the suggestions list. The suggestions are based on the content and context of the area you selected.
     - Ask your own question or make a statement about the content on the blueprint. For example, you can ask, "Show me the sales trend for the last quarter" or "What are the top products by revenue?"
-    - Ask the agent to use another chart type, group by something else, or explain what an acronym means in your source data to help get better results. When you press Enter it generates a new blueprint instead of updating an existing block on the current blueprint.
+    - Ask the agent to use another chart type, group by something else, or explain what an acronym means in your source data to help get better results. When you press Enter, it generates a new blueprint instead of updating an existing block on the current blueprint.
 
 1. (Optional) Select the **+** icon to add data files (CSV, PDF, or Excel) to help the agent answer the follow-up questions.
 1. Select **Generate** and choose whether you want to update the existing block or generate a new blueprint.
@@ -71,6 +74,6 @@ Use the AI cursor to interact with the generated data or ask a new question abou
 
 ## Refresh or regenerate the blueprint
 
-To refresh the blueprint with the latest data or regenerate it with new visualizations and insights, select the **Refresh** icon (:::image type="icon" source="media/sales-research-agent-refresh.png" border="false":::) at the top-right corner of the blueprint. 
+To refresh the blueprint with the latest data or regenerate it with new visualizations and insights, select the **Refresh** icon at the top-right corner of the blueprint.
 
 :::image type="content" source="media/sales-research-agent-refresh-regen.png" alt-text="Screenshot of the Refresh icon in the sales research agent.":::

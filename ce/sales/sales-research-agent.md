@@ -17,12 +17,9 @@ ai-usage: ai-assisted
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
-The Sales Research Agent in Dynamics 365 Sales empowers you, as a business leaders to solve complex business questions through a dialog with your data using business lanugage. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account.
+The Sales Research Agent in Dynamics 365 Sales empowers you to solve complex business questions through a dialog with your data using natural language. This AI-powered research canvas offers rich insights into all aspect of your sales data, empowering you to make informed decisions taking a myriad of variables into account.
 
-> [!IMPORTANT]
-> The agent may be subject to usage limits or capacity throttling.
-
-Use natural language to start a dialog with your data or pick from AI-suggested topics. Use the agent to:
+Use the agent to:
 
 - Get insights from your Dynamics 365 Sales data and offline files to help you make informed decisions.
 - Leverage the research blueprint that includes a summary of your research, key findings, and suggested next steps.
@@ -33,16 +30,16 @@ Use natural language to start a dialog with your data or pick from AI-suggested 
 
 ## How the agent works
 
-1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can also connect it to other data sources on Dataverse or upload Excel, CSV, or PDF files to further enrich the basis of your explorations. 
+1. The Sales Research Agent connects to your Dynamics 365 Sales data by default. You can also connect it to other data sources on Dataverse or upload Excel, CSV, or PDF files to further enrich the basis of your explorations.
 
-1. When you ask a research question, multiple research agent get involved. 
-1. The planner agent creates a research plan and orchestrates a multitude of specialized agents to gather, analyze and transform data into meaningful research outputs. 
+1. The agent involves multiple research agents to help you with your research. 
+1. The planner agent creates a research plan and orchestrates a multitude of specialized agents to gather, analyze, and transform data into meaningful research outputs. 
 1. These outputs are tailored to your context, business domain, and deep understanding of the business data.
 1. The research insights are delivered to you as comprehensive, AI-generated research blueprints.
 
 ## Legal and regulatory considerations
 
-Organizations need to evaluate potential specific legal and regulatory obligations when using the sales research agent. The sales research agent is not appropriate for use in every industry or scenario. Sales Research Agent uses Bing Search. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). The Data Protection Addendum does not apply to your use of Bing within this Sales Research Agent preview, see [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274). Additionally, the agent is not designed for and should not be used for social scoring. Always use the sales research agent in accordance with the applicable terms of service and the Generative [AI Code of Conduct](/legal/ai-code-of-conduct).
+Organizations need to evaluate potential specific legal and regulatory obligations when using the sales research agent. The sales research agent isn't appropriate for use in every industry or scenario. Sales Research Agent uses Bing Search. Your use of Bing is governed by the [Microsoft Services Agreement](https://go.microsoft.com/fwlink/?linkid=2178408) and the [Microsoft Privacy Statement](https://go.microsoft.com/fwlink/?LinkId=521839). The Data Protection Addendum doesn't apply to your use of Bing within this Sales Research Agent preview, see [preview terms](https://go.microsoft.com/fwlink/?linkid=2105274). Additionally, the agent isn't designed for and shouldn't be used for social scoring. Always use the sales research agent in accordance with the applicable terms of service and the Generative [AI Code of Conduct](/legal/ai-code-of-conduct).
 
 ## Related information
 
