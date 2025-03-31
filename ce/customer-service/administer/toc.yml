@@ -222,9 +222,9 @@
         href: faq-case-mgmt.md
     - name: Case Management Agent (preview)
       items: 
-      - name: Set up Case Management Agent for case creation and update (preview)
+      - name: Set up Case Management Agent for case creation and update 
         href: setup-autonomous-case-agents.md
-      - name: Set up autonomous case follow-up and closure
+      - name: Set up Case Management Agent for case follow-up and closure 
         href: setup-case-closure.md   
     - name: Automatically create or update records
       items:

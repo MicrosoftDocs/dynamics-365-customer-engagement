@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: how-to 
 ms.collection:
-ms.date: 03/28/2025
+ms.date: 03/31/2025
 ms.custom: bap-template 
 ---
 
@@ -42,7 +42,9 @@ You can see the **Suggested actions** card on the case form based on the configu
       - **Resolve case**: The customer didn't respond to any of the follow-up emails you sent. Select **Resolve case** to view the **Case Resolution** dialog. You can then close any open activities and resolve the case.
  - An AI generated summary of when the customer last responded to your email and the next steps you can take. You can provide feedback by selecting the Thumbs up or Thumbs down option. You can also hide or expand this summary.
 
+## Related information
 
+- [Set up autonomous case follow-up and closure](../administer/setup-case-closure.md)
 
 
 
