@@ -44,7 +44,7 @@ You can see the **Suggested actions** card on the case form based on the configu
 
 ## Related information
 
-- [Set up autonomous case follow-up and closure](../administer/setup-case-closure.md)
+- [Set up autonomous case follow-up and closure](../administer/set-up-case-closure.md)
 
 
 
