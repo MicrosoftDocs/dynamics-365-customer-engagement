@@ -1,5 +1,5 @@
 ---
-title: Set up Case Management Agent for case creation and update (preview)
+title: Set-up Case Management Agent for case creation and update (preview)
 description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 
 
-# Set up Case Management Agent for case creation and update (preview)
+# Set-up Case Management Agent for case creation and update (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
