@@ -1,7 +1,7 @@
 ---
 title: Scheduling Operations Agent (preview) overview
 description: Learn about the key benefits and functionality of the Scheduling Operations Agent for Dynamics 365 Field Service.
-ms.date: 03/26/2025
+ms.date: 03/28/2025
 ms.topic: overview
 ms.author: anilmur
 author: anilmur
@@ -22,9 +22,11 @@ The Scheduling Operations Agent uses an optimization algorithm that considers ex
 
 [!INCLUDE [public-preview-note](../includes/public-preview-note.md)]
 
-## Regional availability
+## Regional availability and rollout
 
 The Scheduling Operation Agent is available in the same Azure regions as Dynamics 365 Field Service, except Azure Government and China.
+
+The feature is rolled out gradually across the supported Azure regions. For details about the rollout dates, see [Universal Resource Scheduling version history](field-service-version-history-resource-scheduling.md).
 
 ## Next steps
 

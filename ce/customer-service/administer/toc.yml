@@ -366,6 +366,14 @@
         href: add-knowledge-base-search-control-forms.md
       - name: Add a knowledge article rich text editor control to a form
         href: rich-text-editor-ka.md
+    - name: Customer Knowledge Management Agent (preview)
+      items:
+        - name: Configure connection references
+          href: admin-km-agent-connections.md
+        - name: Enable Customer Knowledge Management Agent
+          href: admin-km-agent.md
+        - name: Set up a pay-as-you-go plan
+          href: setup-pay-as-you-go.md
     - name: Microsoft Teams for collaboration
       items:
       - name: Introduction to collaboration
@@ -596,6 +604,8 @@
       items:
       - name: Productivity pane
         href: productivity-pane.md
+      - name: Configure time-out rules
+        href: configure-time-out-rules.md
       - name: Enable multisession experience in custom apps (preview)
         href: enable-multisession-custom-apps.md
       - name: Create quick replies
