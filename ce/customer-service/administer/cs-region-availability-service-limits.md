@@ -25,7 +25,7 @@ The following table lists the region availability of Copilot features for the re
 | Feature | North America| Europe | Asia Pacific | South America | Australia | Japan | China | India | Canada | United Kingdom | France | United Arab Emirates | Switzerland | Germany | Korea | Norway | Singapore | South Africa | Government Community Cloud - M | Government Community Cloud - H |
 | ------- | ------------ | ------ | ------------ | ------------- | --------- | ----- | ----- | ---- | ------ | -------------- | ------ | -------------------- | ----------- | ------- | ----- | ------ | --------- | ------------ | ------------------------------ | ------------------------------ |
 | Customer Intent Agent | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
-| Case Management Agent | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
+| Case Management Agent | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No| No |
 | Customer Knowledge Management Agent | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No |
 | Copilot&mdash;Summarize cases | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No |
 | Copilot&mdash;Summarize conversations | Yes | Yes | Yes |	Yes | Yes |	Yes | No | Yes | Yes |	Yes | No | No | No | No | No | No | No | No | No | No |

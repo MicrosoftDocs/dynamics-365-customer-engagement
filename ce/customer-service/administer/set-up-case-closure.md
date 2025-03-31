@@ -1,5 +1,5 @@
 ---
-title: Set-up Case Management Agent for case follow-up and closure (preview)
+title: Set up Case Management Agent for case follow-up and closure (preview)
 description: Learn how to set up the autonomous Case Management Agent to help service representatives follow up and close cases.
 author: gandhamm
 ms.author: mgandham
@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 
 
-# Set-up Case Management Agent for case follow-up and closure (preview)
+# Set up Case Management Agent to case follow-up and closure (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 

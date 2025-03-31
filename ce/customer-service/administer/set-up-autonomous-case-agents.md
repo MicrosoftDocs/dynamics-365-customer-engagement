@@ -1,5 +1,5 @@
 ---
-title: Set-up Case Management Agent for case creation and update (preview)
+title: Set up Case Management Agent for case creation and update (preview)
 description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -11,13 +11,13 @@ ms.custom: bap-template
 ---
 
 
-# Set-up Case Management Agent to create and update cases (preview)
+# Set up Case Management Agent to create and update cases (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
 The Case Management Agent automates case creation and thereby reduces manual effort and data entry errors.
 
-The agent creates and updates cases as follows: 
+The agent creates and updates cases from,
 
 - From conversations: The agent analyzes chat; predicts and populates the relevant field values; and updates case details during the conversation.
 - From emails: [Automatic record creation and update rules](automatically-create-update-records.md) create cases from emails. After a case is created using these rules, the agent updates the case fields based on the ongoing email interactions with customers.
@@ -49,19 +49,19 @@ In Customer Service admin center, follow these steps:
 1. Optionally, in **Rules for case update with AI assistance**, specify the fields the agent must update from an ongoing conversation or incoming email after creating a case. If you don't specify update rules, the agent updates the fields you added in the previous step.
 
 > [!NOTE]
-> We recommend that you enable audit history and ensure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
+> We recommend that you enable audit history and make sure service representatives have the required access to the case and related entities that the AI agent updates. Learn more in [Manage Dataverse auditing](/power-platform/admin/manage-dataverse-auditing).
 
 ## Enable service representatives to use autonomous Case Management Agent
 
-For service representatives to use the Case Management Agent in Customer Service workspace, enable the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
+For service representatives to use the Case Management Agent in Copilot Service workspace, enable the autonomous case creation and update, case follow-up, and closure in **agent experience profiles**.
 
-By default, service representatives added to the out-of-the-box agent experience profiles can use the autonomous Case Management Agent.
+By default, service representatives added to the out-of-the-box experience profiles can use the autonomous Case Management Agent.
 
-1. Go to **Agent experience profiles** using one of the following navigation options:
-   - **Agent experience** > **Workspaces**
-   - In **Case Management Agent**, you can select **Agent experience profiles** **Case creation and update with autonomous AI assistance** > **Agent access** > **Agent experience profiles**
-   - **Customer Support** > **Case settings** > **Case Management Agent** > **Case follow-up and closure > Agent access > agent experience profiles**
-2. Select the required agent experience profile.
+1. Go to **Experience profiles** using one of the following navigation options:
+   - **Support experience** > **Workspaces**
+   -  Select **Manage** for **Case Management Agent**, and then select **agent experience profiles** in **Case creation and update with autonomous AI assistance** > **Agent access**.
+   - **Customer Support** > **Case settings** > **Case Management Agent** > **Case follow-up and closure** > **Agent access** > **agent experience profiles**
+2. Select the required experience profile.
 3. In the **Copilot AI features** section:
    - Select **Edit** and then enable the required features:  
      - **Autonomous case creation and update from conversations**  
@@ -72,7 +72,7 @@ By default, service representatives added to the out-of-the-box agent experience
 
 When a customer initiates a chat conversation with the service representative, the AI agent creates a case only if it can predict the values of **Issue description** and **Contact** fields.
 
-For the agent to execute this scenario, specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
+For the agent to run this scenario, specify the following in the **Case creation and update with autonomous AI assistance (preview)** page:
  
 - **Channel**: Chat  
 - **Default list of fields for AI prediction**: Issue description, Contact  
