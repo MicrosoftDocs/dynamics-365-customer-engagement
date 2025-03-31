@@ -12,13 +12,13 @@ ms.author: jshum
 Organizations often need to conduct inspections independent of work orders. Currently, inspections can be added to customer assets in Field Service.
 
 > [!NOTE]
-> Inspections without work orders won't work in [the mobile offline profile](mobile/best-practices-limitations-offline-profile.md). Default functionality for inspections, like the export to PDF are only available on work order service tasks.
+> Inspections without work orders don't work in [the mobile offline profile](mobile/best-practices-limitations-offline-profile.md). Default functionality for inspections, like the export to PDF are only available on work order service tasks.
 
 ## Enable inspections on customer assets without a work order
 
 1. From Field Service, change to the Power Platform Environment Settings app.
 
-1. Under **Customization**, select **Customize the System** > **Components** > **Entities** > **Customer Asset** > **1:N Relationships**
+1. Select **Customization** > **Customize the System** > **Components** > **Entities** > **Customer Asset** > **1:N Relationships**
 
    There's an entity `InspectionInstance` with a display name **Inspection** with a 1:N relationship to customer asset. By default, this relationship isn't visible on the **Related** tab of the asset.
 
