@@ -1,6 +1,6 @@
 ---
 title: Set up a pay-as-you-go plan
-description: Learn how to set up a pay-as-you-go plan for the autonomous case management agent.
+description: Learn how to set up and manage pay-as-you-go billing for AI-driven capabilities in Dynamics 365.
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
@@ -65,4 +65,4 @@ Dynamics 365 regularly checks the available capacity (quota) of Copilot Studio m
 - [Disable or limit sharing of agents](/microsoft-copilot-studio/admin-sharing-controls-limits)  
 - [Orchestrate copilot topics and actions with generative AI](/microsoft-copilot-studio/advanced-generative-actions)  
 - [Work with Power Platform environments in Copilot Studio](/microsoft-copilot-studio/environments-first-run-experience)  
-- [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview)  
+- [Pay-as-you-go plan](/power-platform/admin/pay-as-you-go-overview)

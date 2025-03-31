@@ -42,7 +42,7 @@ Learn more in [Work order lifecycle and system statuses](work-order-status-booki
 
 ### Critical fields
 
-The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, you might want to consider using a different entity table or creating a new one.
+The following fields are critical to the Field Service work order process and are required. If your organization doesn't plan to use these fields, you might want to consider using a different entity/table or creating a new one.
 
 - **Work Order Number**
 - **System Status**
