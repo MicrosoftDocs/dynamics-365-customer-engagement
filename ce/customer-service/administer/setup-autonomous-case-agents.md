@@ -1,5 +1,5 @@
 ---
-title: Setup autonomous case creation and update (preview)
+title: Setup Case Management Agent for case creation and update (preview)
 description: Learn how to set up autonomous Case Management Agent to help customer support teams efficiently handle case management tasks.
 author: gandhamm
 ms.author: mgandham
@@ -11,7 +11,7 @@ ms.custom: bap-template
 ---
 
 
-# Setup autonomous case creation and update (preview)
+# Setup Case Management Agent for case creation and update (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner.md)]
 
@@ -33,7 +33,7 @@ The agent creates and updates cases as follows:
 - [Provision the chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](create-chat-auth-settings.md). 
 - [Workstreams](create-workstreams.md) and [queues](queues-omnichannel.md) are set up.
 -  [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
-- The Autonomous Case Management agent uses the Data Entry Agent in the background. The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. Set up [Set up a pay-as-you-go plan](setup-pay-as-you-go.md).
+
 
 ## Configure autonomous case creation and update
 
