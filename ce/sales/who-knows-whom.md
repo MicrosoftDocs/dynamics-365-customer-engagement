@@ -35,8 +35,6 @@ For Sales Premium users, the information is populated based on Exchange data, pr
 
 ## View who knows whom  
 
-[!INCLUDE [Lightbox tip](~/../shared-content/shared/lightbox-tip.md)]
-
 The **Who Knows Whom** widget shows up to five people in your organization who have communicated with a lead or contact through calls and emails. It also shows you how strong their connection is. The widget is available in the **Sales Insights** form and in the main **Contact** and **Lead** form.
 
 1. In the Sales Hub app, select a lead or a contact.
