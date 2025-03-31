@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
-ms.date: 01/09/2024
+ms.date: 03/31/2025
 ms.custom: bap-template
 ---
 
@@ -106,9 +106,9 @@ Depending on the settings that are enabled for you, you'll see one of the follow
 
 ## Set disposition codes
 
-If your administrator has enabled the disposition code feature, you'll see the **Disposition Code** section on the form. At any point in the conversation, use the **Search codes** drop down to select a disposition code that best describes the outcome of the conversation. 
+If your administrator has enabled disposition codes, the **Disposition Code** section appears on the form. During the conversation, use the **Search codes** drop down to select a disposition code that best describes the outcome of the conversation. 
 
-If you don't specify a disposition code, the close button (**X**) doesn't appear for the session. This means that you can't close the session without selecting a disposition code.
+You need to specify a disposition code for the close button (**X**) to appear for the session.
 
    :::image type="content" source="../media/disposition-code.png" alt-text="View disposition code section":::
 
