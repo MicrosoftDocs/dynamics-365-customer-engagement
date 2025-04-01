@@ -16,7 +16,7 @@ This article guides you through configuration of Resource Scheduling Optimizatio
 
 :::image type="content" source="media/rso-overview-flow.png" alt-text="Screenshot of Resource Scheduling Optimization tab.":::
 
-The video walks you through setting up Resource Scheduling Optimization to minimize travel time for work orders and resource in the Washington State territory.
+The video walks you through setting up Resource Scheduling Optimization to minimize travel time for work orders and resources in the Washington State territory.
 
 > [!VIDEO https://learn-video.azurefd.net/vod/player?id=759eefa3-85ea-414e-8d2e-ac53e0a438de]
 
@@ -32,7 +32,7 @@ The video walks you through setting up Resource Scheduling Optimization to minim
 
 ## Step 1: Set resources and work orders to optimize
 
-Choose the resources and work orders you want to optimize and enable them for optimization. For more information, go to [Prepare resources and work orders for optimizations](rso-configuration.md).  
+Choose the resources and work orders you want to optimize and enable them for optimization. For more information, go to [Prepare resources and work orders for optimizations](rso-configuration.md#prepare-resources-and-requirements-for-optimizations).  
 
 :::image type="content" source="media/rso-quickstart-resource-field.png" alt-text="Screenshot of five bookable resources with Optimize schedule set to yes.":::
 
