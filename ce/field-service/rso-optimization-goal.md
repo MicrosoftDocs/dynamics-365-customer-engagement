@@ -3,7 +3,7 @@ title: Optimization goals in Resource Scheduling Optimization
 description: Learn about how goals are used in Resource Scheduling Optimization.
 author: AnilMur
 ms.author: anilmur
-ms.date: 01/29/2025
+ms.date: 03/31/2025
 ms.topic: how-to
 ms.subservice: resource-scheduling-optimization
 ---
