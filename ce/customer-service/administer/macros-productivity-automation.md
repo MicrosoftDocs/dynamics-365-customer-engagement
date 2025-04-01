@@ -25,6 +25,7 @@ ms.custom: bap-template
 - open email templates
 - auto fill form fields
 - set and retrieve variables and values in the session context
+- create a custom macro that allows integration with third-party web pages and applications
 
  You can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
 
@@ -198,11 +199,11 @@ Perform the following steps to create a macro that resolves a case. When agents 
 
 ## Execute JavaScript
 
-This action is used to create a custom macro action that can seamlessly send and receive information from third party web pages and applications from Copilot Service. The action contains the following fields.
+This action is used to create a custom macro action that can seamlessly send and receive information from third party web pages and applications from Customer Service. The action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
-   | Web Resource Name |  Specify the JavaScript code that you want to execute. This file should be stored in Dataverse. <br>This field is mandatory. |
+   | Web Resource Name |  Specify the JavaScript code that you want to execute as a [web resource in Dataverse](/power-apps/maker/model-driven-apps/create-edit-web-resources). <br>This field is mandatory. |
    | Custom Macro Function |  Specify the name of the function that you want to execute. <br>This field is mandatory. |
    | Attribute Name | Specify the attribute logical name you want to update.|
    | Attribute Value | Specify the attribute value that's updated for the above-mentioned attribute. |
