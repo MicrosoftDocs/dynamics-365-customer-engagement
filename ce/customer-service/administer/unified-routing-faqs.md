@@ -37,9 +37,9 @@ Verify whether you [configured an intake rule](set-up-record-routing.md#configur
 
 No. Basic routing can be used for cases only. To route any record type, use unified routing.
 
-### Is there a priority among queues? Can we use the field **Group Number** or **Priority**? Does it affect the order of the case assignment?
+### Is there a priority among queues?
 
-Yes, you can use **Group Number** to prioritize queues. Queues are ordered from highest to lowest priority when work items are assigned. This means that a smaller group number has a higher priority than a bigger queue number. For example, a queue with group number 1 is prioritized over another queue whose group number is 2. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
+Yes, you can use **Queue priority** to prioritize queues. Queues are ordered from highest to lowest priority when work items are assigned. This means that a smaller number has a higher priority than a bigger queue number. For example, a queue with number 1 is prioritized over another queue whose number is 2. Learn more in [How unified routing prioritizes work items](assignment-methods.md#how-unified-routing-prioritizes-work-items).
 
 ### Can I pause the assignment of a case?
 
@@ -84,7 +84,7 @@ For work items to be assigned automatically, the queue must be a private queue w
 
 ### Can I increase the limit on assignment offer of work items to representatives?
 
-Yes, you can update the limit. Learn more in [How the limit on offering a work item repeatedly to an agent works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-an-agent).
+Yes, you can update the limit. Learn more in [How the limit on offering a work item repeatedly to a representative works](assignment-methods.md#limits-on-offering-a-work-item-repeatedly-to-a-representative).
 
 ### Does unified routing offer the same conversation when a representative declines it or after the notification times out?
 

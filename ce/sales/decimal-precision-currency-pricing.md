@@ -1,7 +1,7 @@
 ---
 title: Decimal precision in currency and pricing
 description: Explore the role of decimal precision in currency and pricing, including its impact on rounding calculations and field-level precision.
-ms.date: 05/29/2024
+ms.date: 01/31/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -35,12 +35,10 @@ These precision levels are set while configuring currency fields. More informati
 
 This setting allows you to enable and set decimal precision for all supported price-related fields in the system. To configure the pricing decimal precision setting:  
 
-1. In the sales app, go to **Settings** &gt; **Advanced Settings** &gt; **System** &gt; **Administration** &gt; **General**.  
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-    More information: [System Settings General tab](/power-platform/admin/system-settings-dialog-box-general-tab).
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **System** > **Administration** > **General**.
 
-1. Under the **Set the currency precision that is used for pricing throughout the system**, select a value for **Pricing Decimal Precision**.  
+1. Under the **Set the currency precision that is used for pricing throughout the system** section, select a value for **Pricing Decimal Precision**.  
 
     > [!NOTE]
     > The pricing decimal precision setting supports values between 0 and 4 only.
@@ -57,10 +55,8 @@ This setting allows you to enable and set decimal precision for all supported pr
 
 This option allows you to enable and set decimal precision to individual currencies. To configure the currency precision setting:
 
-1. In the sales app, go to **Settings** &gt; **Advanced Settings** &gt; **Business** &gt; **Business Management** &gt; **Currencies**.  
-   > [!NOTE]
-   > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **Business** > **Business Management** > **Currencies**.
 1. Open the currency record and enter the **Currency Precision** value. The value must be between 0 and 4.  
     More information: [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)
 
@@ -72,7 +68,12 @@ This option allows you to enable and set decimal precision to individual currenc
 
 This setting allows you to define the precision to individual currency fields. To apply this precision setting to any of the currency field in the system:
 
-1. In the sales app, go to **Settings** &gt; **Advanced settings** &gt; **Customization** &gt; **Customizations** &gt; **Customize the system**.  
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.  
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**.  
+1. Open the form you want to edit and then select the currency field.  
 
 1. On the **PowerApps** home page, select **Tables** &gt; ***Table*** and then, select the currency field.
 1. On the **Edit column** pane, select **Advanced options** and then configure the following values:
@@ -85,7 +86,3 @@ This setting allows you to define the precision to individual currency fields. T
 [Define product pricing with price lists and price list items](create-price-lists-price-list-items-define-pricing-products.md)  
 [Manage transactions with multiple currencies](/power-platform/admin/manage-transactions-with-multiple-currencies)  
 [Troubleshoot issues with products](/troubleshoot/dynamics-365/sales/troubleshoot-products-issues)  
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-

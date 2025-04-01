@@ -52,6 +52,12 @@
             href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
+      - name: Case Management Agents (preview)
+        items: 
+          - name: Use autonomous case creation and update
+            href: use-case-creation-agent.md
+          - name: Use autonomous follow-up and closure of cases
+            href: use-follow-up-closure.md
       - name: Service-level agreements
         items:
         - name: Overview of service-level agreements
@@ -64,7 +70,7 @@
             href: /power-apps/user/view-create-email?context=/dynamics365/context/customer-service-context
           - name: View, compose, and respond to emails
             href: /power-apps/user/view-compose-email?context=/dynamics365/context/customer-service-context
-          - name: Enhanced recepient handling
+          - name: Enhanced recipient handling
             href: /power-apps/user/view-compose-email#enhanced-recipient-handling?context=/dynamics365/context/customer-service-context
           - name: Use enhanced experience to attach files to emails
             href: enhanced-email-attachment-control.md                            
@@ -144,6 +150,12 @@
           href: search-operators.md
         - name: Search the knowledge base on portals
           href: knowledge-base-search-methods.md
+      - name: Customer Knowledge Management Agent (preview)
+        items:
+        - name: Review knowledge articles created by the Customer Knowledge Management Agent
+          href: admin-km-agent-review.md
+        - name: Use knowledge insights for Customer Knowledge Management Agent
+          href: admin-km-agent-insights.md
       - name: Microsoft Teams for collaboration
         items:
         - name: Use Microsoft Teams chat
@@ -186,6 +198,8 @@
           href: /dynamics365/contact-center/use/voice-channel-agent-experience?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: How to avoid call disconnection
           href: /dynamics365/contact-center/use/voice-channel-agent-experience#how-to-avoid-call-disconnection?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use the Desktop companion application (preview)
+          href: /dynamics365/contact-center/use/voice-dca-application?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Manage voicemails
           href: manage-voicemails.md
         - name: Transfer calls and consult with other users
@@ -246,10 +260,10 @@
           href: oc-real-time-translation.md
         - name: Markdown formats for agents
           href: markdown-formats-agents.md
+      - name: Use channels
+        items:
         - name: Introduction to channels
           href: channels.md
-        - name: Overview of SMS channels
-          href: sms-channel-overview.md
         - name: Use SMS channel
           href: sms-twilio.md
         - name: Use Facebook channel
@@ -278,18 +292,18 @@
           href: rich-messages-conversation-control.md
       - name: Copilot in Customer Service 
         items: 
-        - name: Use Copilot to summarize cases and conversations
-          href: copilot-use-summary.md
+        - name: Copilot feature availability across applications
+          href: /dynamics365/contact-center/use/copilot-feature-availability?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Summarize cases
-          href: copilot-use-summary.md#summarize-cases
+          href: copilot-use-summary.md
         - name: Summarize conversations
-          href: copilot-use-summary.md#summarize-conversations
+          href: /dynamics365/contact-center/use/copilot-summarize-conversations?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Ask a question 
-          href: use-ask-a-question.md
+          href: /dynamics365/contact-center/use/use-ask-a-question?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Draft a chat response (preview)
-          href: use-copilot-features.md
+          href: /dynamics365/contact-center/use/use-copilot-features?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Write an email with Copilot
-          href: use-copilot-email.md
+          href: /dynamics365/contact-center/use/use-copilot-email?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
         - name: Use Copilot filters
           href: use-copilot-filters.md
         - name: Use Copilot to generate knowledge drafts from cases
@@ -297,7 +311,7 @@
         - name: Understand how Copilot supports different languages
           href: copilot-language-support.md
         - name: Chat with case data in Customer Service (preview)
-          href: copilot-chat-customer-service-data.md
+          href: /dynamics365/contact-center/use/copilot-chat-customer-service-data?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
       - name: Analytics dashboards and insights
         items: 
         - name: Use Omnichannel real-time analytics dashboards
@@ -316,6 +330,20 @@
             href: realtime-ongoing.md
           - name: Backlog conversation report
             href: realtime-backlog-conv.md
+        - name: Use real-time analytics for record routing dashboards
+          items:
+          - name: Overview of real-time analytics for record routing
+            href: rr-overview.md
+          - name: Summary report
+            href: rr-summary.md 
+          - name: Queue report
+            href: rr-queue.md
+          - name: Ongoing work items report
+            href: rr-ongoingworkitems.md
+          - name: Agent report
+            href: rr-agent.md            
+          - name: Backlog work items report
+            href: rr-backlogitems.md  
         - name: Use Customer Service historical analytics dashboards
           items: 
           - name: Customer Service historical analytics dashboards
@@ -350,7 +378,7 @@
             href: oc-voicemail-dashboard.md          
           - name: Unified routing dashboard
             href: oc-historical-analytics-unified-routing.md
-        - name: Use knowledge management analytics
+        - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
           href: copilot-analytics-report.md

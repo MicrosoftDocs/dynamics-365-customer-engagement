@@ -40,7 +40,7 @@ If a resource must have their time-off requests approved before their time shows
 
 ## Approve a time-off request  
 
-If the related resource requires approval, a **Field Service-Administrator** or **Field Service-Dispatcher** must approve the request. If you use custom column security profiles, [set up column-level security permissions](/power-platform/admin/set-up-security-permissions-field) and give users **Update** permissions for the *msdyn_ApprovedBy* column in the *msdyn_TimeOffRequest* table. Disabling the *msdyn_ApprovedBy* column-level security in the *msdyn_TimeOffRequest* table doesn't allow users to approve time-off requests.
+If the related resource requires approval, a **Field Service-Administrator** or **Field Service-Dispatcher** must approve the request. If you use custom column security profiles, [set up column-level security permissions](/power-platform/admin/set-up-security-permissions-field) and give users **Update** permissions for the *msdyn_ApprovedBy* column in the [*msdyn_TimeOffRequest* table](./developer/reference/entities/msdyn_timeoffrequest.md). Disabling the *msdyn_ApprovedBy* column-level security in the *msdyn_TimeOffRequest* table doesn't allow users to approve time-off requests.
 
 1. In **Field Service**, under **Scheduling** select **Time Off Requests**.
 

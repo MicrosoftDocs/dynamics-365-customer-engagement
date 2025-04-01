@@ -1,7 +1,7 @@
 ---
 title: Copilot in Dynamics 365 Sales overview
 description: Learn how to use Copilot in Dynamics 365 Sales to get quick summaries of opportunities and leads, prepare for meetings, compose emails, and stay up-to-date with news.
-ms.date: 02/10/2025
+ms.date: 03/11/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
 content_well_notification:
@@ -30,6 +30,10 @@ Learn more about the licensing requirements for Copilot in Dynamics 365 Sales in
 ## Licensing requirements
 
 Learn more about the licensing requirements for Copilot in Dynamics 365 Sales, Outlook, and Teams in the [licensing guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) and [view the comparison table](https://www.microsoft.com/dynamics-365/products/sales/pricing?market=af#comparison-table) to compare features across different licensing plans.
+
+## Data security and privacy
+
+Copilot in Dynamics 365 Sales can only get information from records and files that the logged-in user has access to. [Learn more about data security and privacy in Copilot](/dynamics365/faqs-copilot-data-security-privacy).
 
 ## Chat in natural language or use predefined prompts
 

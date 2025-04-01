@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 06/27/2024
+ms.date: 01/23/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -30,11 +30,11 @@ The duplicate detection capability helps sellers to check for potential duplicat
 
 Further, sellers can compare and remove the duplicate leads in the organization. More information: [Manage duplicate leads](manage-duplicate-leads.md)
 
->[!NOTE]
->- If the Microsoft Power Platform duplicate detection feature is enabled in your organization, a message is displayed as shown in the following image: 
->:::image type="content" source="media/lead-power-platform-duplicate-detection-enabled-message.png" alt-text="Screenshot showing message when the Microsoft Power Platform duplicate detection feature is enabled." lightbox="media/lead-power-platform-duplicate-detection-enabled-message.png":::
->- To know the difference between the Microsoft Power Platform and Sales duplicate detection features, go to [What is the difference between the duplicate detection capability in Microsoft Power Platform and duplicate detection of leads in Dynamics 365 Sales?](faq-lead.md#whats-the-difference-between-the-duplicate-detection-capability-in-power-platform-and-dynamics-365-sales)
->- For an optimal experience of the duplicate detection of leads in Dynamics 365 Sales, disable the duplicate detection of leads in Microsoft Power Platform. More information [Turn duplicate detection rules on or off for the whole organization](/power-platform/admin/turn-duplicate-detection-rules-off-whole-organization)  
+> [!NOTE]
+> - If the Microsoft Power Platform duplicate detection feature is enabled in your organization, a message is displayed as shown in the following image: 
+> :::image type="content" source="media/lead-power-platform-duplicate-detection-enabled-message.png" alt-text="Screenshot showing message when the Microsoft Power Platform duplicate detection feature is enabled." lightbox="media/lead-power-platform-duplicate-detection-enabled-message.png":::
+> - To know the difference between the Microsoft Power Platform and Sales duplicate detection features, go to [What is the difference between the duplicate detection capability in Microsoft Power Platform and duplicate detection of leads in Dynamics 365 Sales?](faq-lead.md#whats-the-difference-between-the-duplicate-detection-capability-in-power-platform-and-dynamics-365-sales)
+> - For an optimal experience of the duplicate detection of leads in Dynamics 365 Sales, disable the duplicate detection of leads in Microsoft Power Platform. More information [Turn duplicate detection rules on or off for the whole organization](/power-platform/admin/turn-duplicate-detection-rules-off-whole-organization)  
 
 ## Enable the duplicate detection feature
 
@@ -72,8 +72,8 @@ The following fields are enabled in the **Quick Find All Leads** view for leads,
 - `telephone1`
 - `companyname`  
 
->[!NOTE]
->If these fields are already enabled, remove and add them back.
+> [!NOTE]
+> If these fields are already enabled, remove and add them back.
 
 To go to the **Quick Find All Leads** view, follow these steps:
 
@@ -96,9 +96,9 @@ Verify the following processes are in active state:
 
 To go to the **Processes** page, follow these steps:     
 
-1. In the web app, go to **Settings** > **Advanced Settings**.
-
-2. On the **Advanced Settings** page, select **Process Center** > **Processes**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. Go to **Process Center** > **Processes**, and then select **Processes** on the page. 
+1. Select the **All Processes** view and verify that the above mentioned processes are in active state.
 
 
 ### Provide read permissions for process

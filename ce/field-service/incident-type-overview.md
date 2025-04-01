@@ -56,7 +56,7 @@ When you use incidents with **Agreements**, the incidents and related items are 
 
 ### Multiple incident types
 
-Only one work order incident can be the primary incident. It's either the first incident added or the one entered in the primary incident type field. There's a Boolean value on the work order incident type called *Is Primary* that can be used for business logic.
+Only one work order incident can be the primary incident. It's either the first incident added or the one entered in the primary incident type field. There's a Boolean value on the work order incident type called [*Is Primary*](./developer/reference/entities/msdyn_workorderincident.md#BKMK_msdyn_IsPrimary) that can be used for business logic.
 
 ## Next steps
 

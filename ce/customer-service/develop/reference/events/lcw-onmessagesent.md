@@ -1,7 +1,7 @@
 ---
-title: "lcw:onMessageSent | MicrosoftDocs"
+title: lcw:onMessageSent 
 description: lcw onMessageSent event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
+ms.topic: reference
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
@@ -11,7 +11,7 @@ ms.reviewer: mgandham
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is triggered when a new message is sent by the customer engaged on the chat widget. You can use this event to create custom experiences around when users send a message. For example, this event can be used to detect user activity and engagement on the chat widget. 
+This event is triggered when the customer engaged on the chat widget sends a new message. You can use this event to create custom experiences around when users send a message. For example, this event can be used to detect user activity and engagement on the chat widget. 
 
 ## Example
 
