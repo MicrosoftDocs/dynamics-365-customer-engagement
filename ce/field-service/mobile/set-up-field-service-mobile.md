@@ -1,7 +1,7 @@
 ---
 title: Set up the mobile app
 description: Learn how to install and set up the Dynamics 365 Field Service mobile app.
-ms.date: 08/28/2024
+ms.date: 03/28/2025
 ms.topic: how-to
 ms.subservice: field-service-mobile
 ms.collection: get-started
@@ -13,17 +13,13 @@ ms.author: jobaker
 
 The Dynamics 365 Field Service mobile app is designed and optimized for technicians in the field. They can work with Field Service work orders, customer assets, accounts, and contacts. The app is built on Microsoft Power Platform as a [model-driven app](/powerapps/maker/model-driven-apps/model-driven-app-overview). You can customize it to your business needs like other [model-driven apps](/power-apps/maker/model-driven-apps/).
 
-For a guided walkthrough, check out the following video.
->
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=0a560b88-3ff2-474b-ad1d-ca23aafcaadd]
-
 ## Prerequisites
 
 To use the Field Service mobile app, you need [Field Service installed](../install-field-service.md) and [set up](../field-service-get-started.md).
 
 ## Assign security roles to the Field Service mobile app
 
-1. Go to [https://make.powerapps.com/](https://make.powerapps.com/) > **Apps** in the left pane.
+1. Go to [https://make.powerapps.com/](https://make.powerapps.com/) and select **Apps** in the left pane.
 
 1. Find the **Field Service Mobile** model-driven app and select the ellipses (&hellip;).
 
@@ -33,7 +29,7 @@ To use the Field Service mobile app, you need [Field Service installed](../insta
 
 ## Assign mobile app users appropriate security roles
 
-Assign Field Service users the **Field Service-Resource** security role and **Field Service-Resource** field security profile. For more information, see [Set up users, licenses, and security roles](../users-licenses-permissions.md). Alternatively, go through the [frontline worker setup](../frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
+Assign Field Service users the **Field Service-Resource** security role and **Field Service-Resource** field security profile. For more information, go to [Set up users, licenses, and security roles](../users-licenses-permissions.md). Alternatively, go through the [frontline worker setup](../frontline-worker-set-up.md) to quickly create a frontline worker and automate setup steps.
 
 Users with these security roles can sign in to the mobile app as a technician.
 
@@ -69,9 +65,9 @@ After enabling the new mobile experience, you can choose to enable preview featu
 
 1. Change to the **Settings** area and go to **Mobile settings** > **Features**.
 
-1. In the **Preview section**, enable the features that your users can access:
+1. Enable the features that your users can access:
 
-   - [Summarize records with Copilot in Field Service (preview)](../work-order-recap.md)
+   - [Summarize records with Copilot in Field Service](../work-order-recap.md)
    - [AI-powered work order update (preview)](../work-order-update.md)
 
 ### Limitations of the new experience

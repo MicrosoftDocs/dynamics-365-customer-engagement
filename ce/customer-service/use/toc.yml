@@ -52,6 +52,12 @@
             href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
+      - name: Case Management Agents (preview)
+        items: 
+          - name: Use autonomous case creation and update
+            href: use-case-creation-agent.md
+          - name: Use autonomous follow-up and closure of cases
+            href: use-follow-up-closure.md
       - name: Service-level agreements
         items:
         - name: Overview of service-level agreements
@@ -144,6 +150,12 @@
           href: search-operators.md
         - name: Search the knowledge base on portals
           href: knowledge-base-search-methods.md
+      - name: Customer Knowledge Management Agent (preview)
+        items:
+        - name: Review knowledge articles created by the Customer Knowledge Management Agent
+          href: admin-km-agent-review.md
+        - name: Use knowledge insights for Customer Knowledge Management Agent
+          href: admin-km-agent-insights.md
       - name: Microsoft Teams for collaboration
         items:
         - name: Use Microsoft Teams chat
@@ -366,7 +378,7 @@
             href: oc-voicemail-dashboard.md          
           - name: Unified routing dashboard
             href: oc-historical-analytics-unified-routing.md
-        - name: Use knowledge management analytics
+        - name: Use knowledge analytics
           href: knowledge-search-analytics-cs.md
         - name: Use Copilot analytics
           href: copilot-analytics-report.md

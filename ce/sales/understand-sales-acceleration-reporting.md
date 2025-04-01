@@ -2,7 +2,7 @@
 title: View and understand sales acceleration reporting
 description: Understand sales acceleration reporting and its role in providing insights into sequences related to leads and opportunities in your organization.
 ms.date: 06/28/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
