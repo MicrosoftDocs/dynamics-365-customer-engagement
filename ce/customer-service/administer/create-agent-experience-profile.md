@@ -48,6 +48,7 @@ For the agent experience profile that you created, you can add users and configu
 
    - On the command menu, use the **Set as default** option to set the profile as the default profile. If you set a default profile, all the available users are associated with this profile.
    - Use **Set rank and roles** to assign a rank and security roles to the profile. Learn more in [Add users to custom agent experience profiles](add-profile-default.md).
+1. Optionally, select **Search by user** to search for users to see if they are already associated with a profile. Learn more in [search for users](add-profile-default.md#search-for-users).
 1. Select the profile and on the profile page that appears, perform the following steps:
    - In the **Users** section, select **Add Users** to select users from the available users, or search for and add users to the profile.
    - Select **Add entity session template** to link a session template to the profile. On the **Entity session templates** pane, you can select an existing template or create an entity session template.

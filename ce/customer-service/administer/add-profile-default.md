@@ -15,6 +15,19 @@ ms.custom: bap-template
 
 When your organization has a large number of users, adding them to agent profiles can be time consuming. As an administrator, you can effectively assign users to agent experience profiles and provide a targeted app experience, based on their roles.
 
+## Search for users
+
+Before you assign users to experience profiles, you can search for users to see if they are already associated with a profile. To search for users, perform the following steps:
+
+1. In **Experience profiles** select **Search by user**. The **Experience Profile Search by User** pane appears.
+1. In the **User** field, enter the name of the user you want to search for. The application displays the users that match the search criteria. 
+1. Select the required user from the list or select **Advanced lookup** to perform an advanced search.
+1. The application displays the experience profiles that the selected user is associated with along with one of the following assignment methods:
+     - **Default**: The user is assigned to out-of-the-box experience profiles or custom default profile.
+     - **Role-based**: The user is assigned a profile based on the security role.
+     - **Direct**: The user is directly assigned to a profile. 
+You can also select the experience profile to view the profile details.
+
 ## Set a custom agent experience profile as default
 
 You can set a custom agent experience profile as the default profile. When you've set a default profile, all the options configured in the profile such as specific session templates, conversation channels, and productivity tools are available for all the users.
