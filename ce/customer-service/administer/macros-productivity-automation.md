@@ -196,6 +196,30 @@ Perform the following steps to create a macro that resolves a case. When agents 
 1. Add the **Refresh the tab** session action to refresh the tab with the following attributes:
     -**Tab ID**: Tab ID
 
+## Execute JavaScript
+
+This action is used to create a custom macro action that can seamlessly send and receive information from third party web pages and applications from Copilot Service. The action contains the following fields.
+
+   | Field | Description | 
+   |-----------------|-----------------------------|
+   | Web Resource Name |  Specify the JavaScript code that you want to execute. This file should be stored in Dataverse. <br>This field is mandatory. |
+   | Custom Macro Function |  Specify the name of the function that you want to execute. <br>This field is mandatory. |
+   | Attribute Name | Specify the attribute logical name you want to update.|
+   | Attribute Value | Specify the attribute value that's updated for the above-mentioned attribute. |
+
+### Example
+
+Perform the following steps to create a custom macro that makes an API call to a third-party application and then opens a new form to create a record with the response of the API call:
+
+1. Add the **Execute Javascript** action. The following are the attributes: 
+   - **Web Resource Name**: Your JavaScript code that makes an API call to a third-party application.
+   - **Custom Macro Function**: retriveSuggestion
+1. Add the **Open a new form to create a record** action that opens a new form to create a record. The following are the attributes:
+   - **Entity logical name**: `task`
+   - **Attribute Name**: subject
+   - **Attribute Value**: Generic Macro Action Output
+
+
 ## Open an email form with predefined template
 
 This action is used to open an email with a predefined template. The action contains the following fields.
