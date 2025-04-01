@@ -33,7 +33,7 @@ The upgrade process involves the following steps:
 
 3.  Find **Dynamics365 Sales Enterprise Edition**, and then select **Details**.
 
-4. In **Select license quantity, select or enter the number of licenses to purchase.
+4. In **Select license quantity**, select or enter the number of licenses to purchase.
 
 5. Select **Buy**, and then complete the purchase process.
 
