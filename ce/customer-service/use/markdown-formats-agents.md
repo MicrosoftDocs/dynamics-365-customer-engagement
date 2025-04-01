@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.date: 06/14/2024
 ms.topic: conceptual
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 
 ---
 # Markdown formats for agents

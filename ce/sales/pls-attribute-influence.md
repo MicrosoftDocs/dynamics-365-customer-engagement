@@ -1,7 +1,7 @@
 ---
 title: View the influence of an attribute on the model
 description: Learn how to get insights on the performance of each attribute that influences the prediction score in Dynamics 365 Sales. 
-ms.date: 11/15/2024
+ms.date: 12/06/2024
 ms.custom: 
 ms.topic: article
 author: lavanyakr01
@@ -18,13 +18,6 @@ When you define a predictive scoring model, you'd like to know how each attribut
 - How the model harnesses your data to drive predictive scores
 
 Although the following examples refer to leads, this article applies to both opportunity scoring and lead scoring.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## View attribute insights and influence
 

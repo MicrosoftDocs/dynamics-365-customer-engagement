@@ -3,7 +3,6 @@ title: "The Base Extension table merge process might fail due to limits on SQL S
 description: Environment diagnostics warning that table merge might fail
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

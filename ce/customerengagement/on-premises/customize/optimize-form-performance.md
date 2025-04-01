@@ -2,7 +2,6 @@
 title: "Improve form load time in Dynamics 365 for Customer Engagement (on-premises)"
 description: "Forms that load slowly can reduce user adoption and productivity. Follow these design and script recommendations to improve how quickly your forms will load."
 ms.custom: 
-ms.date: 01/08/2019
 ms.reviewer: 
 
 ms.suite: 

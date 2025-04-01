@@ -3,9 +3,9 @@ title: Overview of data migration for records
 description: This article provides an overview of data migration in the records channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: overview
-ms.date: 08/02/2023
+ms.date: 01/31/2025
 ms.custom: bap-template
 ---
 

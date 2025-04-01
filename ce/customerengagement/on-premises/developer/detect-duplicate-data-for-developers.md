@@ -2,7 +2,6 @@
 title: "Detect duplicate data for developers (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Overview of the duplicate detection capabilities, including detection policies and duplicate detection rules for entity types."
 ms.custom:
-ms.date: 10/01/2019
 ms.reviewer: nabuthuk
 
 ms.suite:
@@ -74,8 +73,8 @@ For more information: [DuplicateRecord Entity](/powerapps/developer/common-data-
 
 ## See Also
 
-[Sample: Enable Duplicate Detection and Retrieve Duplicates](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/EnableDuplicateDetection)<br />
+[Sample: Enable Duplicate Detection and Retrieve Duplicates](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/EnableDuplicateDetection)<br />
 [Sample: Invoke Duplicate Detection For Creating and Updating Records](/powerapps/developer/common-data-service/run-duplicate-detection)<br />
-[Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/DetectMultipleDuplicateRecords)<br />
+[Sample: Detect Multiple Duplicate Records](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/DetectMultipleDuplicateRecords)<br />
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

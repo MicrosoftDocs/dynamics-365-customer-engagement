@@ -2,7 +2,6 @@
 title: "Create and manage custom business apps using code for Dynamics 365 Customer Engagement (on-premises) | MicrosoftDocs"
 description: "Learn about how to create, manage, and publish business apps in Customer Engagement using code. Dynamics 365 Customer Engagement business apps are purpose built that provide a limited set of functionality that is relevant for a particular area of work."
 ms.custom: 
-ms.date: 03/04/2019
 ms.reviewer: pehecke
 
 ms.suite: 

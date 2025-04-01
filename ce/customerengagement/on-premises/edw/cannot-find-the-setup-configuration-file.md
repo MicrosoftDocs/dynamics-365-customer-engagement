@@ -3,7 +3,6 @@ title: "Cannot find the Setup configuration file | Microsoft Docs"
 description: Environment diagnostics warning that Setup can't find the XML configuration file
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

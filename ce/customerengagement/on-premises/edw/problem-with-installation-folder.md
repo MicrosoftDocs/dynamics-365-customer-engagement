@@ -1,7 +1,6 @@
 ---
 title: "Setup detected a problem with the specified installation folder | Microsoft Docs"
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

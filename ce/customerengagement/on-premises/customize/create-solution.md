@@ -2,7 +2,6 @@
 title: "How to create a solution in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create a new solution in Dynamics 365 Customer Engagement (on-premises). Fill out the required fields and add solution components."
 ms.custom: 
-ms.date: 11/28/2018
 ms.reviewer: 
 
 ms.suite: 

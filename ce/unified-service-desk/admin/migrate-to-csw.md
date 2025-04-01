@@ -5,6 +5,7 @@ ms.date: 06/27/2024
 ms.topic: conceptual
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - admin
 ms.custom: evergreen
@@ -41,4 +42,5 @@ The **Unified Service Desk to Customer Service workspace Migration Playbook** he
 
 ### See also
 
-[Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)  
+- [Get started with Customer Service workspace](../../customer-service/implement/csw-overview.md)
+- [Migrate from Unified Service Desk to Customer Service workspace](/dynamics365/guidance/resources/cs-usd-migration-guide)  

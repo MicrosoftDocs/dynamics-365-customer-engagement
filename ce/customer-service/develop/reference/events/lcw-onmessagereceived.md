@@ -1,11 +1,11 @@
 ---
 title: lcw:onMessageReceived 
 description: lcw onMessageReceived event (Omnichannel for Customer Service JavaScript API reference).
-ms.date: 05/15/2024
-ms.topic: conceptual
+ms.date: 03/18/2025
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ms.custom: bap-template
 
 ---

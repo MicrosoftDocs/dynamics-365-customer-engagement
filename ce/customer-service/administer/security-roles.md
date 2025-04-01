@@ -3,6 +3,7 @@ title: Security roles for agent experience profiles
 description: Overview of the security roles for agent experience profiles.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 07/01/2024
 ms.topic: conceptual
 ms.collection:

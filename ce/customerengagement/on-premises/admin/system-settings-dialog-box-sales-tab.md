@@ -2,7 +2,6 @@
 title: "Sales settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Sales tab in Dynamics 365 Customer Engagement (on-premises), set preferences related to pricing, product bundles, and more."
 keywords: 
-ms.date: 10/01/2019
 
 ms.topic: article
 applies_to: 

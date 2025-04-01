@@ -3,7 +3,7 @@ title: Manage integrated search providers
 description: Learn how to provision, add, refresh, edit, and deactivate integrated search providers and configure them as search filters.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.date: 11/21/2023
 ms.custom: bap-template
@@ -171,7 +171,7 @@ Configure search providers as filters to search knowledge articles only from sel
 1. From the **Select filter type** list, select **Integrated Search Dataprovider Id**, and then select **Add**.
 1. Select the **Search** icon.
 1. Select the search provider, and then select **Add**.
-1. Optionally, to set predetermined search providers to appear for agents by default, switch **Set as preselected filter** to **Yes**.
+1. Optionally, to set predetermined search providers to appear for customer service representatives by default, switch **Set as preselected filter** to **Yes**.
 
 If you select a deactivated data search provider, it might appear on the **Filter by** list, but no search results from the selected provider are returned.
 

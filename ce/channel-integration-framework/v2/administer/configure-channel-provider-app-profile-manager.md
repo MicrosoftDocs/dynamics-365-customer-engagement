@@ -3,6 +3,7 @@ title: Configure channel providers in Dynamics 365 Channel Integration Framework
 description: Learn how to configure channel providers using Customer Service admin center in Dynamics 365 Channel Integration Framework 2.0.
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.topic: article
 ms.date: 03/29/2024
 ms.custom: 
@@ -70,7 +71,7 @@ More information:
     - To deactivate the channel provider, select **Deactivate**. In the **Confirm Deactivation** dialog, select **Yes**. You can reactivate the channel later by selecting **Activate**.
     - To delete the channel provider, select **Delete**. In the **Confirm Deletion** dialog, select **Yes** if you're sure you want to delete the channel provider. Note that you can't reactivate the channel provider after it's deleted.
 
-### See also
+### Related information
 
 [Overview of agent experience](../../../customer-service/administer/overview.md)  
 [Enable outbound communication (ClickToAct)](../../v1/administer/enable-outbound-communication-clicktoact.md)  

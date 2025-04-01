@@ -20,7 +20,7 @@ This article describes how to set up your own Azure storage account to store cal
 
 ## Configure the conversation intelligence service principal to access resources in Azure
 
-The conversation intelligence service principal needs access to your Azure storage account to store and process call recordings. To grant access, work with your Microsoft Entra administrator to assign the following roles to the **SalesInsightsWebApp** application in the Azure portal:
+The conversation intelligence service principal needs access to your Azure storage account to store and process call recordings. To grant access, work with your Microsoft Entra administrator to assign the following roles to the **SalesConversationIntelligenceProd** application in the Azure portal:
 
 - **Storage Blob Data Owner**
 - **Storage Account Contributor**

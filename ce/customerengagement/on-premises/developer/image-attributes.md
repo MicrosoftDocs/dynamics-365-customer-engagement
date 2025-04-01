@@ -2,7 +2,6 @@
 title: "Image attributes (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about image attributes that include image data witht in the application, and supporting attributes, Retrieving image data, and Uploading image data."
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:
@@ -98,6 +97,6 @@ To update images set the value of the `EntityImage` to a `byte[]` that contains 
 
 [Introduction to Entities in Dynamics 365 Customer Engagement (on-premises)](introduction-entities.md)  
  [Introduction to entity attributes in Dynamics 365 Customer Engagement (on-premises)](introduction-entity-attributes.md)  
- [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23)
+ [Sample: Set and retrieve entity images](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp)
 
 [!INCLUDE[footer-include](../../../includes/footer-banner.md)]

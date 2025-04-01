@@ -2,7 +2,6 @@
 title: "Introduction to entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about entities that manage business data. Business entities are part of the default installation and they appear in the customization user interface."
 ms.custom: 
-ms.date: 11/30/2018
 ms.reviewer: pehecke
 
 ms.suite: 

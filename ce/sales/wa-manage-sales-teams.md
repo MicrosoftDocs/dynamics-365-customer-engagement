@@ -19,13 +19,6 @@ Before an assignment rule can assign your sellers and sales teams new opportunit
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## Select security roles
 
 1. Sign in to your Sales Hub app.

@@ -2,7 +2,6 @@
 title: "Reporting settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Reporting tab in Dynamics 365 Customer Engagement (on-premises), specify report categories and allow Power BI embedding."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

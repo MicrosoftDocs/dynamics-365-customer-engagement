@@ -1,10 +1,11 @@
 ---
-title: "HyperLink in Unified Service Desk | MicrosoftDocs"
-description: "Understand how the <HyperLink> element works in Unified Service Desk. Also included is an example that shows how to use the element."
+title: HyperLink in Unified Service Desk 
+description: Understand how the <HyperLink> element works in Unified Service Desk. Also included is an example that shows how to use the element.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer

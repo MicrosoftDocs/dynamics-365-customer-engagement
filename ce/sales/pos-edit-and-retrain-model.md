@@ -13,13 +13,6 @@ ms.reviewer: lavanyakr
 
 When the prediction accuracy of a model doesn't meet your expectations, or a model duplicates an existing one, you can edit the model's attributes and retrain it.  
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Edit a model
 
 1. Go to **Change area** in the lower-left corner of the Sales Hub app, and select **Sales Insights settings**.

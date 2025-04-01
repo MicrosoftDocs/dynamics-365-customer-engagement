@@ -1,10 +1,11 @@
 ---
 title: "Edit work hour calendars by using APIs in Dynamics 365 Field Service | MicrosoftDocs"
 description: Learn how to edit work order calendars in Field Service by using APIs. 
-ms.date: 07/26/2023
-ms.topic: conceptual
+ms.date: 12/02/2024
+ms.topic: reference
 author: ryanchen8
 ms.author: chenryan
+
 ---
 
 # Edit work hour calendars by using APIs

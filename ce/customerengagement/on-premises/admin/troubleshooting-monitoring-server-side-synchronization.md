@@ -3,7 +3,6 @@ title: "Troubleshooting and monitoring server-side synchronization  | MicrosoftD
 description: "Discusses issues and resolutions for troubleshooting server-side synchronization."
 ms.custom: 
   - dyn365-deflc
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 
@@ -96,7 +95,7 @@ Follow the steps in this [KB article](https://support.microsoft.com/help/4468755
   
  To approve one or more mailboxes:  
   
-1. Sign in to Customer Engagement apps as a user with the Office 365 global administrator role or the Dynamics 365 service administrator role in [!INCLUDE[pn_Office_365](../includes/pn-office-365.md)].  
+1. Sign in to Customer Engagement apps as a user with the Dynamics 365 administrator service admin role.  
   
 2. [!INCLUDE[proc_settings_email_config](../includes/proc-settings-email-config.md)]  
   

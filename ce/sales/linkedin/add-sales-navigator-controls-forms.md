@@ -1,7 +1,7 @@
 ---
-title: Add LinkedIn Sales Navigator controls to Dynamics 365 forms
+title: Add LinkedIn Sales Navigator controls to forms
 description: Learn how to add LinkedIn Sales Navigator controls to a form. This page walks you through an example which can be followed in the same way on other entities.
-ms.date: 10/14/2024
+ms.date: 01/31/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -42,52 +42,41 @@ The Sales Navigator controls can be added by modifying a field on a form in [!IN
 
 This procedure shows an example of how to add a [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator Lead (member profile) on the **Lead** form by modifying the **Last Name** field. Other controls can be configured in the same way on other entities where the controls aren't added by default.
 
-1. From your sales app, select the **Settings** icon and then select **Advanced Settings**.
-1. Go to **Settings** > **Customizations**.  
-   :::image type="content" source="media/customizations-nav-bar.png" alt-text="Screenshot of click path to customization area.":::
+1. In the sales app, go to **Settings** > **Advanced Settings**.  
 
-2. Select **Customize the System**. For this example, we'll customize the default solution. [Learn more about solutions](/power-apps/maker/data-platform/solutions-overview).
+    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings option on the Settings menu.":::
 
-3. Expand the **Entities** node and select the entity you want to customize. You can use virtually any entity, but for this example, we'll select the **Lead** entity and expand the node.
+1. Go to **Customization** > **Customizations** > **Customize the System**.  
+1. In the left pane, expand **Tables** and then the entity you want, and select **Forms**.  
 
-4. Select **Forms** and then select the default **Lead** form.  
-   :::image type="content" source="media/select-lead-form-sales-navigator.png" alt-text="Screenshot of Lead form in customization area.":::
+    >[!NOTE]
+    >If you are using the classic view, under **Components**, expand **Entities**, and then the entity you want, and select **Forms**.  
 
-5. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (Last Name field for the member profile control and Company Name for the company profile control). In this example, we already have the **Last Name** field to the form.
+1. Open the entity form of type **Main** and then select **Components** on the tool bar.  In this example, we're using the **Lead** entity.
+
+1. To add a reference to a custom control, begin by opening a field on the form, which will be bound to the primary attribute of the control (Last Name field for the member profile control and Company Name for the company profile control). In this example, we already have the **Last Name** field to the form.
 
    > [!IMPORTANT]
    > Member profile and company profile controls are read-only controls. We recommend that you create a copy of the two fields (Last Name and Company Name) that you're binding these controls to, so that you can continue to edit the fields.
 
-6. Select the **Last Name** field and then select **Change Properties** in the ribbon.  
- 
-   :::image type="content" source="media/change-form-properties.png" alt-text="Screenshot of click path to Change Properties button.":::
-   > [!TIP]
-   > By default, controls on Unified Interface show in two columns with the label and value side by side. To maximize the visible area for the column, clear the **Display label** on the form check box on the **Display** tab.  
-   > :::image type="content" source="media/display-label-form-cleared.png" alt-text="Screenshot of cleared checkbox to hide label on the form."::: 
+1. Select the **Last Name** field and in the **Properties** pane, select **Components** > **+ Component** .  
+1. In the **Add component**  dialog box, search and add the **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator member profile** control.
 
-6. In the **Field Properties** window, switch to the **Controls** tab and select **Add control**.  
+    >[!NOTE]
+    >If you don't see the **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator member profile** control in the **Components** section, select **Get more components** to add it.  
 
-7. Select the **[!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] Sales Navigator member profile** control and select **Add**.  
-   :::image type="content" source="media/add-control-to-form.png" alt-text="Screenshot of click path to add a Sales Navigator control.":::
+1. Now you need to configure the Sales Navigator control. In the configuration pane, go to the **Show component on** sections and select **Web** form factor for the [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] control and remove other form factors.  
 
-8. Now you need to configure the Sales Navigator control. In the **Control** area, select **Web** form factor for the [!INCLUDE[pn-linkedin](../../includes/pn-linkedin.md)] control.  
-   :::image type="content" source="media/configure-sales-navigator-control.png" alt-text="Screenshot of configuring properties of a Sales Navigator control.":::
-   
    > [!TIP]
    > Currently, the controls are available on desktop form factors. On mobile (phone and tablet) scenarios, the controls fall back to the default platform control. To hide the default controls from the forms on mobile scenarios, select the **Hide Default Control** check box.
 
-9. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm). Select the **First Name** property with the description and select the pencil icon. Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy.  
+1. In the property area, make sure all required properties (with a red asterisk) have a binding configured. You might need to scroll down in the list to find additional required properties. For this example, we need to configure one additional property. We recommend binding the remaining parameters (first name, email, job title, and company name) to the corresponding fields on the Lead entity. The more parameters are passed to the control, the greater will be the [accuracy to find the right match](https://www.linkedin.com/help/sales-navigator/answer/77041/leads-contacts-and-accounts-matching-between-sales-navigator-and-your-crm). Configure the **First Name** property. Use this optional field to specify the LinkedIn member’s first name for the matching query. Specifying this attribute increases the match accuracy.  
 
+1. In the **Company Name** section, select **Table column** as **First Name (Text)**.  
 
-10. In the **Bind to a value on a field** list, select **firstname (SingleLine.Text)** and select **OK**.  
-    :::image type="content" source="media/configure-lastname-property.png" alt-text="Screenshot of bind value on a field dialog box.":::
+1. Select **Done**.
 
-11. Select **Add** in the Field Properties window.
-
-12. In the **Form Editor**, select **Save** to apply your changes to the form.  
-    :::image type="content" source="media/save-publish-customizations.png" alt-text="Screenshot of click path to save and publish customizations on a form.":::
-
-13. Select **Publish** to make your customizations available to the organization.
+1. Save and publish the form.
 
 > [!TIP]
 > When using the Microsoft Edge browser, add your Dynamics 365 domain as a trusted site. This is required to read cookies from the linkedin.com domain.  

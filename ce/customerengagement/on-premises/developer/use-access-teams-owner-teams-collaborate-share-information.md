@@ -2,7 +2,6 @@
 title: "Use access teams and owner teams to collaborate and share information (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about using access teams and owner teams to colloborate and share information."
 ms.custom: 
-ms.date: 08/06/2019
 ms.reviewer: pehecke
 
 ms.suite: 

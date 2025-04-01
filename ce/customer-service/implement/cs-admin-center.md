@@ -1,12 +1,12 @@
 ---
 title: Customer Service admin center
 description: Get started with Customer Service admin center to configure the various features and settings in Customer Service.
-ms.date: 10/24/2023
+ms.date: 12/13/2024
 ms.topic: conceptual
 ms.collection: get-started
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 
@@ -22,7 +22,7 @@ The features include:
 
 - Search option to easily find the administrator settings for the various features in the app.
 
-- Reorganized and task-oriented site map.
+- Task-oriented site map.
 
 - Overview pages for each area that list at-a-glance information with deep links to manage features.
 
@@ -30,11 +30,11 @@ The features include:
 
 - The site map adapts to the capabilities that are provisioned. Based in core Customer Service, if Omnichannel for Customer Service is provisioned, then other features are automatically available.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4TYJn?maskLevel=0]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=1a9dd7f8-3c00-46c9-bda3-b567b5651f71]
 
 ## Prerequisites
 
-You'll need one or more of the following security roles to access this app to perform the various configuration tasks:
+One or more of the following security roles to access this app to perform the various configuration tasks:
 
 - **System Administrator**: To access and edit all the site map entries.
 

@@ -2,7 +2,6 @@
 title: "Use source control with solution files (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The SolutionPackager tool can be used with any source control system. After a solution .zip file has been extracted to a folder, simply add and submit the files to your source control system. These files can then be synchronized on another computer where they can be packed into a new identical solution .zip file."
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

@@ -1,7 +1,7 @@
 ---
 title: Scan business cards in Dynamics 365 Sales
 description: Use the business card scanner in Dynamics 365 Sales to quickly scan business cards of the prospective customers you've met with.
-ms.date: 02/02/2024
+ms.date: 02/24/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -18,7 +18,7 @@ searchScope:
 ---
 # Scan business cards in Dynamics 365 Sales
 
-The integrated business card scanner in Dynamics 365 Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 Sales, so salespeople don’t spend time on entering the data manually and can focus on more important tasks.
+The integrated business card scanner in Dynamics 365 Sales helps salespeople to quickly scan business cards of the prospective customers they’ve met in the fields. It reads basic information from the card and populates data in fields of **lead** or **contact** records in Dynamics 365 Sales, so salespeople don’t spend time on entering the data manually and can focus on more important tasks. Learn more about license and role requirements, and supported languages and formats at [Business card prebuilt model](/ai-builder/prebuilt-business-card).
 
 > [!IMPORTANT]
 > - To learn about the availability of the business card feature in a region, see [Feature availability by region](/ai-builder/availability-region#availability-and-release-status-of-features-by-region).
@@ -26,13 +26,6 @@ The integrated business card scanner in Dynamics 365 Sales helps salespeople to 
 > - To know about the business card scan limits with your user license, see the [Microsoft Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 > - The card scanner is available in lead and contact forms. If you'd like to add the card scanner to other forms, see [Use the business card reader component in model-driven apps in Power Apps](/ai-builder/business-card-reader-component-model-driven)
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise. <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Basic User in Power Platform <br> More information: [Assign security roles to users in a Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-a-dataverse-database) <br> [Assign security roles to users in non-Dataverse environment](/power-platform/admin/database-security#assign-security-roles-to-users-in-an-environment-that-has-no-dataverse-database)  |
-|||
 
 ## Scan a business card
 

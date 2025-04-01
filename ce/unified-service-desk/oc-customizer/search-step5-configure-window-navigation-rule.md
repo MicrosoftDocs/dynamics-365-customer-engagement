@@ -3,6 +3,7 @@ title: "Configure window navigation rule for search | MicrosoftDocs"
 description: "Perform the following steps to create window navigation rule for search in Unified Service Desk."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'

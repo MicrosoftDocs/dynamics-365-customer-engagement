@@ -2,7 +2,6 @@
 title: "Manage your documents with Customer Engagement (on-premises) using SharePoint | MicrosoftDocs"
 description: "Manage common document types, such as Word, Excel, PowerPoint, OneNote, and create folders to save and manage those documents in Customer Engagement."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

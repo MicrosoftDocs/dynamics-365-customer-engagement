@@ -2,7 +2,6 @@
 title: "Set field values using parameters passed to a form (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "The content in this topic can be used for Dynamics 365 Customer Engagement (on-premises). You can set default values for new records created by users by specifying attribute values in the URL that is used to open the form."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

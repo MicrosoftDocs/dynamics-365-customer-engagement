@@ -1,11 +1,11 @@
 ---
 title: Set up intelligent skill finder model in unified routing
 description: Use the information to set up intelligent skill finder model for unified routing in Customer Service.
-ms.date: 07/01/2024
+ms.date: 02/04/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
@@ -18,7 +18,7 @@ To configure machine learning-based skill classification rulesets, you can confi
 
 You can create, test, and train machine-learning models that use AI to determine the necessary skills for new work items and by using the data in Microsoft Dataverse. However, if you're trying to set up the model in a new organization or if skill-based routing wasn't in use, you might not have the needed skill data. In such conditions, you can use data from another application by using the **Import from Excel** option in the skill finder model.
 
-Intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. More information: [Availability of AI Builder](/ai-builder/availability-region).
+Intelligent skill finder depends upon the custom AI Builder category classification model. Therefore, AI Builder should be available in the geographical region where you want to use intelligent skill finder. Learn more in [Availability of AI Builder](/ai-builder/availability-region).
 
  > [!IMPORTANT]
  > If you want to import skill finder models from one environment to another, make sure that you import and export between environments of the same type. A model trained in test environment will work in another test environment only and not in a production environment.
@@ -60,15 +60,15 @@ You can test your model to determine if it's working as expected. Perform the fo
 
 1. In [Power Apps](https://make.powerapps.com/), select the environment that contains your solution.
 1. Select **AI models**. You can view the models you've created in **My models** and the models that are shared to you in **Shared with me**. Select the required model.
-1. Select **Quick test**. To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The metrics file contains information about model's performance, accuracy, and precision. For more information, see [Understand category classification model performance](/ai-builder/text-classification-performance)
+1. Select **Quick test**. To get model related information, select vertical ellipsis beside **Quick Test** button, and then select **Download detailed metrics**. The metrics file contains information about model's performance, accuracy, and precision. Learn more in [Understand category classification model performance](/ai-builder/text-classification-performance).
 1. In **Text**, enter the required text, and then select **Test**. The predicted tags appear in **Suggested tags and confidence**.
 1. When the model runs, if the predicted tags match with available skills in the organization, the corresponding skills are linked to the model.
 
 ### Retrain the model iteratively
 
-You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which agents have updated the skills for records or conversations. When you retrain the model to include the skills added by agents, review the training data records after loading it to make sure it meets the required skill criteria.
+You should retrain your published model iteratively to improve the model with new data in Microsoft Dataverse. For example, model retraining can be done by using the records in which customer service representatives (service representatives or representatives) have updated the skills for records or conversations. When you retrain the model to include the skills added by service representatives, review the training data records after loading it to make sure it meets the required skill criteria.
 
-For information about how your agents can update skills, see [Manage skills](../use/manage-skills.md). To enable your agents to update skills at runtime, see [Enable agents to update skills](allow-agents-update-skills.md).
+Learn more about how your representatives can update skills in [Manage skills](../use/manage-skills.md). Learn more about how to enable your representatives to update skills at runtime in [Enable representatives to update skills](allow-agents-update-skills.md).
 
 You can define the conditions as seen in the following screenshot.
 

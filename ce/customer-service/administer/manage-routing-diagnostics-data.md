@@ -5,14 +5,14 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 10/15/2024
+ms.date: 01/28/2025
 ms.custom: bap-template
 ---
 
 # Manage routing diagnostics data
 
 > [!IMPORTANT]
-> The diagnostics feature is deprecated as of May 09, 2024. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
+> The diagnostics feature is deprecated as of May 09, 2024, and will be removed on May 08, 2025. Learn more in [Deprecations in Customer Service](../implement/deprecations-customer-service.md).
 
 The diagnostics data for unified routing is stored in [Dataverse for Apps Database Capacity](/power-platform/admin/capacity-storage). We recommend that you periodically delete the routing diagnostics data to manage the storage capacity.
 
@@ -40,11 +40,11 @@ Let's take an example in which each routing stage has a single ruleset with a co
 
 1. Perform the steps in the [Use bulk deletion to remove large amounts of data](/power-platform/admin/delete-bulk-records) article to delete the following routing diagnostics data in the specified order.
 
-   1. Search for "Routing diagnostic items" for the msdyn_unifiedroutingdiagnostic entity. More information: [msdyn_unifiedroutingdiagnostic](../develop/reference/entities/msdyn_unifiedroutingdiagnostic.md)
+   1. Search for [Routing diagnostic item (msdyn_unifiedroutingdiagnostic) table](../../developer/reference/entities/msdyn_unifiedroutingdiagnostic.md) records.
    
       :::image type="content" source="../media/bulk-delete-routing-diagnostics.png" alt-text="Screenshot of bulk delete action for routing diagnostics records.":::   
  
-   1. Search for "Routing diagnostics" for the msdyn_unifiedroutingrun entity. More information: [msdyn_unifiedroutingrun](../develop/reference/entities/msdyn_unifiedroutingrun.md)
+   1. Search for [Routing diagnostic (msdyn_unifiedroutingrun) table](../../developer/reference/entities/msdyn_unifiedroutingrun.md) records.
 
 ## Next steps
 

@@ -2,7 +2,6 @@
 title: "Dynamics 365 Customer Engagement (on-premises) Integration with Office 365 (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "Learn how Dynamics 365 Customer Engagement (on-premises) customers that are subscribed to Office 365 can have single sign-on access through integration of Dynamics 365 Customer Engagement (on-premises) with Office 365"
 ms.custom: 
-ms.date: 03/29/2019
 ms.reviewer: pehecke
 
 ms.suite: 

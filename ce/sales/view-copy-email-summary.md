@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 10/05/2023
+ms.date: 11/29/2024
 ms.custom: bap-template 
 search.app: salescopilot-docs
 ms.collection: bap-ai-copilot 
@@ -13,9 +13,7 @@ ms.collection: bap-ai-copilot
 
 # View and copy email summary
 
-When interacting with customers over email, you often need to update the records with the latest information. Manually updating the records each time you interact with customers via email can be time-consuming and error prone. Additionally, manual update could potentially add noise to the records, by overloading records with email exchanges.
-
-Dynamics 365 Sales uses copilot to summarize email conversations and provides you with options to view and copy the summary as a note to a record.
+When interacting with customers over email, you often need to update the records with the latest information. Manually updating the records each time you interact with customers through email can be time-consuming and error prone. Additionally, manual update could potentially add noise to the records, by overloading records with email exchanges. To help you with this, Dynamics 365 Sales uses Copilot to summarize email conversations and provides you with options to view and copy the summary as a note to a record.
 
 ## Prerequisites
 
@@ -25,22 +23,20 @@ Ensure that the Copilot feature is enabled in your organization. More informatio
 
 Review the following considerations before you use the email summary feature:
 
-- Email summary is generated only for emails or email threads with more than 1000 characters, which is about 180 words.
-
-- The email summary contains up to 400 characters.
-
-- You must verify the AI-generated content carefully, as it can have mistakes. It's your responsibility to review and edit the AI-generated summaries to make sure it’s accurate and appropriate.
+- Email summary is generated only for emails or email threads with more than 1000 characters, which is about 180 words.  
+- The email summary contains up to 400 characters.  
+- You must verify the AI-generated content carefully, as it can have mistakes. It's your responsibility to review and edit the AI-generated summaries to make sure it’s accurate and appropriate.  
 
 ## View the email summary
 
-The summary provides the highlights of the email conversations. To view the email summary: 
+The summary provides the highlights of the email conversations. To view the email summary:  
 
-1. Open a record and select an email from the **Timeline** or the **Up next** widget. 
+1. Open a record and select an email from the **Timeline** or the **Up next** widget.  
 
-    >[!NOTE]
-    >The email summary feature is not supported when you open an email from  **Activities** under the **My Work** site map.
+    > [!NOTE]
+    > The email summary feature is not supported when you open an email from  **Activities** under the **My Work** site map.
 
-2. In the **Copilot** pane, go to the **Compose** tab.  
+1. In the **Copilot** pane, go to the **Compose** tab.  
     The email summary is displayed in the **Summary of this email** section.
 
     :::image type="content" source="media/copilot-email-summary-section.png" alt-text="Screenshot of the email summary section.":::

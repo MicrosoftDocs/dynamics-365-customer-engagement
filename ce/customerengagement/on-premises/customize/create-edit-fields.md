@@ -2,7 +2,6 @@
 title: "Create or edit a field in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to create or edit a field in Dynamics 365. Use tools in the solution explorer to edit system fields, or to create, edit, or delete custom fields."
 ms.custom: 
-ms.date: 08/09/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

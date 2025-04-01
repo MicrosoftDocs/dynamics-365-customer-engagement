@@ -2,7 +2,6 @@
 title: "Import accounts, leads, and more into Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to import data into Dynamics 365 Customer Engagement (on-premises). Data can be accounts, leads, opportunities, activities, and more."
 ms.custom:
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: dee40fe5-1942-4521-986f-714edfd36433
 caps.latest.revision: 37
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

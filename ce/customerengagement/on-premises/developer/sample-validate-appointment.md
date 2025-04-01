@@ -2,7 +2,6 @@
 title: "Sample: Validate an appointment (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Sample demonstrates how to validate an appointment using the ValidateRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke 
 ms.topic: sample
 applies_to: 
@@ -20,7 +19,7 @@ search.audienceType:
 ---
 # Sample: Validate an appointment
 
-This sample shows how to validate an appointment using the [ValidateRequest](/dotnet/api/microsoft.crm.sdk.messages.validaterequest) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ValidateAppointment).
+This sample shows how to validate an appointment using the [ValidateRequest](/dotnet/api/microsoft.crm.sdk.messages.validaterequest) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ValidateAppointment).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

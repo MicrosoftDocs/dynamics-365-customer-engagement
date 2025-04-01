@@ -2,7 +2,6 @@
 title: "Use an alternate key to create a record (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Alternate keys can be used to create instances of Entity and EntityReference classes. This topic discusses the usage patterns and possible exceptions that might be thrown when using alternate keys."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

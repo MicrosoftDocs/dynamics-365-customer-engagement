@@ -2,7 +2,6 @@
 title: "Share reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "When you create a report, share it with others so they can learn from it. Follow these steps to share a report with users, teams, or your whole organization."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 3a30eb5f-4e3a-4c46-8fa4-150d8b277041
 caps.latest.revision: 34
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

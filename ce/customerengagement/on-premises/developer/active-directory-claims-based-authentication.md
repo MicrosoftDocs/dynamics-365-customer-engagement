@@ -2,7 +2,6 @@
 title: "Active Directory and claims-based authentication (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: "Learn how claims based authentication works using a security token service(STS) server and how Active Directory authentication works"
 ms.custom: 
-ms.date: 01/06/2023
 ms.reviewer: pehecke
 
 ms.suite: 

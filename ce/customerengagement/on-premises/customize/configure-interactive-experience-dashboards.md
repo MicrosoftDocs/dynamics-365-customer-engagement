@@ -5,7 +5,6 @@ keywords: Interactive dashboards; Customer Service; Microsoft Dynamics 365 for C
 author: Mattp123
 ms.author: matp
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

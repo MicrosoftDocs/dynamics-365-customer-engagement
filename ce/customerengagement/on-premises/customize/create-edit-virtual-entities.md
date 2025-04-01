@@ -2,7 +2,6 @@
 title: "Create a virtual entity in Dynamics 365 Customer Engagement (on-premises)"
 description: "A virtual entity is a custom entity with fields containing data from an external source. Learn about their benefits and the steps for creating them."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 

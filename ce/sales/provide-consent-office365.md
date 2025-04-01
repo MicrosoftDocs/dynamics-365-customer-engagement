@@ -1,7 +1,7 @@
 ---
 title: Provide consent to collect data from Microsoft 365
 description: Provide consent for Dynamics 365 to use data from Microsoft 365 for relationship analytics and who knows whom.
-ms.date: 03/21/2023
+ms.date: 02/27/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,14 +14,6 @@ Dynamics 365 Sales uses Microsoft 365 data to generate the following insights ba
 
 - [Relationship analytics KPIs and health score](relationship-analytics.md)
 - [Who knows whom suggestions](who-knows-whom.md)
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium and Microsoft 365 <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Global administrator in Microsoft 365 <br> |
-
 
 ## Things to consider
 

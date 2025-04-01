@@ -2,7 +2,6 @@
 title: "Marketing reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use campaign insights to improve your marketing efforts. Learn about activity status, comparisons, and performance reports."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 2a5e811a-7fbf-4aca-ba29-64b7270923e9
 caps.latest.revision: 12
-author: sericks007 
-ms.author: sericks
+author: shwetamurkute 
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

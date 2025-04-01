@@ -2,7 +2,6 @@
 title: "Install and enable a Language Pack | Microsoft Docs"
 description: Learn how to install and enable a language pack for Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 

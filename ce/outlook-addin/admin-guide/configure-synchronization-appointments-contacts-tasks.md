@@ -2,7 +2,7 @@
 title: "Configure synchronization for appointments, contacts, and tasks | MicrosoftDocs"
 ms.custom:
 description: Configure synchronization for appointments, contacts, and tasks
-ms.date: 1/27/2022
+ms.date: 12/13/2024
 ms.reviewer: smurkute
 
 ms.suite:
@@ -25,7 +25,7 @@ By default, some synchronization between Dynamics 365 and Outlook for Dynamics 3
 > [!NOTE]
 >  Users should have the latest [Dynamics 365 for Outlook](https://go.microsoft.com/fwlink/?LinkID=690396) installed.
 
- This topic covers the highlighted settings below.
+ This article covers the following highlighted settings.
 
  ![System Settings Synchronization tab.](../media/crm-itpro-systemsynctab.png "System Settings Synchronization tab")
  

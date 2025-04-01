@@ -3,11 +3,10 @@ title: "Choose between Dynamics 365 Channel Integration Framework 1.0 and 2.0 | 
 description: "Know the feature differences between Dynamics 365 Channel Integration Framework versions 1.0 and 2.0., so you can choose the one that best suits your business needs."
 author: gandhamm
 ms.author: mgandham
-ms.date: 01/21/2022
+ms.reviewer: mgandham
+ms.date: 12/10/2024
 ms.topic: article
-ms.custom: 
-  - "dyn365-a11y"
-  - "dyn365-developer"
+ms.custom: bap-template
 ---
 
 
@@ -57,10 +56,11 @@ The following matrix explains the various aspects of versions 1.0 and 2.0.
 
 For information about how to integrate custom messaging channel providers with Omnichannel for Customer Service, see [Bring your own channel](../customer-service/develop/bring-your-own-channel.md).
 
-> [!div class="mx-imgBorder"]
-> ![Differences between versions 1.0 and 2.0.](media/choose-between-version.png "Differences between versions 1.0 and 2.0")
+   :::image type="content" source="media/choose-between-version.png" alt-text="Differences between versions 1.0 and 2.0":::
 
-### See also
+
+
+### Related information
 
 [Dynamics 365 Channel Integration Framework 1.0](v1/administer/overview-channel-integration-framework.md)  
 [Dynamics 365 Channel Integration Framework 2.0](v2/administer/overview-channel-integration-framework.md)  

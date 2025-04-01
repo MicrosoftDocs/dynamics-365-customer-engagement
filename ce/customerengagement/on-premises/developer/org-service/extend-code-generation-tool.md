@@ -2,7 +2,6 @@
 title: "Create extensions for the code generation tool (CrmSvcUtil.exe) (Developer Guide for Dynamics 365 Customer Engagement)| MicrosoftDocs"
 description: You can extend the functionality of the CrmSvcUtil.exe code generation tool by specifying additional command-line parameters and parameter values for Dynamics 365 Customer Engagement (on-premises).
 keywords: 
-ms.date: 09/25/2023
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)

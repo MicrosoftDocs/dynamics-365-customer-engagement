@@ -2,7 +2,6 @@
 title: "Collaborate using Office 365 Groups in Dynamics 365 Customer Engagement (on-premises)"
 description: "Office 365 Groups allow team members to collaborate to get stuff done. Learn how to create or join a group, start a conversation, share files, and more."
 ms.custom:
-ms.date: 08/26/2021
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: e62f7606-fa78-49b3-ab49-6e451d90e535
 caps.latest.revision: 36
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

@@ -5,7 +5,7 @@ ms.date: 07/08/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ---
 
 # Migrate data for the live chat channel

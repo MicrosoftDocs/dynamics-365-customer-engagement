@@ -1,10 +1,11 @@
 ---
-title: "FindIEFrame in Unified Service Desk | MicrosoftDocs"
-description: "The topic describes the attributes of <FindIEFrame> that searches for an application by its caption and selects a DOM of the window or a specific frame within a window."
+title: FindIEFrame in Unified Service Desk 
+description: The topic describes the attributes of <FindIEFrame> that searches for an application by its caption and selects a DOM of the window or a specific frame within a window.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer

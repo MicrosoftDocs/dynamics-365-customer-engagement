@@ -3,6 +3,7 @@ title: Manage agent scripts
 description: Follow the steps mentioned in the article to create and configure agent scripts that can be used by agents when they are interacting with customers.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 02/29/2024
 ms.topic: article
 ---

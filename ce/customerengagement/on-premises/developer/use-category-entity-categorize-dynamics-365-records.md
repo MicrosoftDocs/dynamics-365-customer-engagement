@@ -2,7 +2,6 @@
 title: "Use the Category entity to categorize records (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about categorizing the entity records using category entity."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: pehecke
 
 ms.suite: 

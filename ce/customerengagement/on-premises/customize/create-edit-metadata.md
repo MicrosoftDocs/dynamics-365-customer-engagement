@@ -2,7 +2,6 @@
 title: "Overview of entity metadata in Dynamics 365 Customer Engagement (on-premises)"
 description: "Entity metadata controls the records you can create and which actions can be performed. You can edit metadata to create entities, relationships, and fields."
 ms.custom: 
-ms.date: 11/09/2018
 ms.reviewer: 
 
 ms.suite: 

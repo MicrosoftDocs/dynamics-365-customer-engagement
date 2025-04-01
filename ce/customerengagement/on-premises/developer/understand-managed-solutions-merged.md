@@ -2,7 +2,6 @@
 title: "Understand how managed solutions are merged (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "To avoid multiple installed solutions from interfering with one another, follow best practices while constructing a solution"
 ms.custom: 
-ms.date: 04/02/2020
 ms.reviewer: pehecke
 
 ms.suite: 

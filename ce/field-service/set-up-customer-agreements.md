@@ -27,6 +27,9 @@ This article covers two scenarios to show how agreements can generate work order
 
 - The designated owners of agreements, agreement booking setups, and agreement invoice setups have permission to: create invoices, invoice details, work orders, work order incidents, work order products, work order services, work order service tasks, resource requirements, and bookings.
 
+> [!TIP]
+> Before you create an agreement, set up a system user or team owner for the agreements. Agreement processes run with the permissions of their owners. If the owner leaves the organization, agreement processes fail and the agreement breaks.
+
 ## Scenario 1: Automatically generate work orders for asset maintenance
 
 An organization must perform monthly maintenance on a piece of equipment they installed at a customer's location for the next year. They want to use Dynamics 365 Field Service to automatically generate the maintenance jobs in the middle of each month, with *some* flexibility. They want dispatchers to schedule the monthly maintenance jobs to the best and most appropriate field technicians and bill the customer for completed work at an agreed price.
@@ -132,7 +135,7 @@ As you add incidents to the agreement, the related products, services, service t
 
 ### Step 4: Activate agreement and view work orders
 
-After your organization's process for manager review and customer acceptance, the last step is to **Activate** the agreement. Once activated, the system generates related records such as maintenance dates and work orders. To add more details to the agreement status, consider using the [**Agreement Substatus**](set-up-agreement-sub-statuses.md) values. Custom agreement substatuses can also be created.
+After your organization's process for manager review and customer acceptance, the last step is to **Activate** the agreement. Once activated, the system generates related records such as maintenance dates and work orders. To add more details to the agreement status, consider using the [**Agreement Substatus**](set-up-agreement-sub-statuses.md) values. [Custom agreement substatuses](./developer/reference/entities/msdyn_agreementsubstatus.md) can also be created.
 
 1. From the **Agreement** page, set the **System Status** to **Active**.
 

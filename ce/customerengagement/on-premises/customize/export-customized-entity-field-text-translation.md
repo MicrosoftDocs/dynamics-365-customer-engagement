@@ -2,7 +2,6 @@
 title: "Translate entity and field text in Dynamics 365 Customer Engagement (on-premises)"
 description: "After creating customized entity and field text, you may want to translate it into other languages. Follow these steps to export the text and translate it."
 ms.custom: 
-ms.date: 11/04/2018
 ms.reviewer: 
 
 ms.suite: 

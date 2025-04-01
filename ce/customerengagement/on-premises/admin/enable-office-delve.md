@@ -2,7 +2,6 @@
 title: "Office Graph removal from Dynamics 365 Customer Engagement apps"
 description: "Office Graph integration for Dynamics 365 Customer Engagement apps was removed on August 31, 2017, the same time that Office ended GQL query support."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 

@@ -2,7 +2,6 @@
 title: "Monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises) | Microsoft Docs"
 description: Learn how to monitor and troubleshoot Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "05/27/2022"
 ms.reviewer: ""
 ms.suite: ""
 ms.tgt_pltfrm: ""

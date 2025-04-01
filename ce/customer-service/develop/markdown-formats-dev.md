@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.date: 01/17/2023
 ms.topic: conceptual
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 
 ---
 # Markdown formats in custom channels that use Direct Line

@@ -3,7 +3,6 @@ title: "The account specified for the service is a member of the PrivUserGroup a
 description: Environment diagnostics warning is used by another service
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

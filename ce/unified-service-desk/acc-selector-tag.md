@@ -1,10 +1,11 @@
 ---
-title: "AccSelector tag | MicrosoftDocs"
-description: "Learn about the AccSelector tag to access controls that allow multiple selections such as a list box or combo box."
+title: AccSelector tag 
+description: Learn about the AccSelector tag to access controls that allow multiple selections such as a list box or combo box.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer

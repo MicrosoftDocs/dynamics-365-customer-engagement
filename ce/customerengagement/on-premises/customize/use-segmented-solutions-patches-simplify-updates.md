@@ -2,7 +2,6 @@
 title: "Use cloned solutions and patches in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use segmentation to export solutions with selected entity assets. Learn how to create a segmented solution and a patch, as well as how to clone a solution."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

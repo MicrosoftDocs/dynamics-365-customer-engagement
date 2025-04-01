@@ -1,7 +1,7 @@
 ---
 title: "Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook | MicrosoftDocs"
 ms.custom: 
-ms.date: 08/06/2020
+ms.date: 12/13/2024
 ms.reviewer: smurkute 
 description: Set an option to automatically track incoming Outlook email in Dynamics 365 for Outlook.
 ms.suite: 
@@ -39,7 +39,7 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
   
 3. To specify whether to track all email messages or only certain types, in the **Select the email messages to track in [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)]** section, in the **Track** list, select one of the following options:  
   
-   - **All email messages**. Tracks all email messages related to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email messages. If you select this option, Dynamics 365 apps will track junk mail as well as business conversations, so choose this option carefully.  
+   - **All email messages**. Tracks all email messages related to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email messages. If you select this option, Dynamics 365 apps will track junk mail and business conversations, so choose this option carefully.  
   
    - **Email messages in response to [!INCLUDE[pn_crm_shortest](../../includes/pn-crm-shortest.md)] email**. Only replies to or forwards of email messages that have already been tracked will be saved as email activities. This is the most common option.  
   
@@ -48,7 +48,7 @@ When you use [!INCLUDE[pn_microsoft_dynamics_crm_for_outlook](../../includes/pn-
    - **Email messages from [!INCLUDE[pn_microsoftcrm](../../includes/pn-microsoftcrm.md)] records that are email enabled**. Tracks email messages from all record types (including custom record types) that contain an email address field.  
 
    > [!NOTE]
-   >  By default email in your Sent Items folder within Outlook will not automatically appear as tracked in Dynamics 365. An optional setting is available to automatically track items from the Sent Items folder. If an administrator enables this setting, the personal options mentioned above will be used to determine which sent emails are automatically tracked. For more information, see [Automatically track sent folder items with server-side synchronization](/power-platform/admin/track-sent-folder-items)
+   >  By default email in your Sent Items folder within Outlook won't automatically appear as tracked in Dynamics 365. An optional setting is available to automatically track items from the Sent Items folder. If an administrator enables this setting, the personal options mentioned earlier will be used to determine which sent emails are automatically tracked. For more information, see [Automatically track sent folder items with server-side synchronization](/power-platform/admin/track-sent-folder-items)
   
    > [!NOTE]
    >  Keep in mind that the more you use the same email address for tracking purposes, the less useful it becomes since it will be mapped to many records.  

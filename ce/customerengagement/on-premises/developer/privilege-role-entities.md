@@ -2,7 +2,6 @@
 title: "Privilege and role entities (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "A privilege is a permission to perform an action on a specific entity type in Dynamics 365 Customer Engagement (on-premises). The platform checks for the privilege and fails if the user does not hold the privilege. A privilege has an associated access level that determines the depth within the organization to which the privilege applies."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

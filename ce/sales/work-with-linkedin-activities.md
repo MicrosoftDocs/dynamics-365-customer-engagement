@@ -11,13 +11,6 @@ ms.reviewer: udag
 
 You can use LinkedIn-related activities that have been defined for sequences in the sales accelerator to display steps in the work list and **Up next** widget.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## What are LinkedIn activities?
 
 As a seller, you can use the LinkedIn network, which contains millions of users and offers a unique depth and quality of information that can help you research and connect with your customers. This functionality allows you to use LinkedIn Sales Navigator in your sequence to recommend the next best action.

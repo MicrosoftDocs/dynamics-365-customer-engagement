@@ -3,6 +3,7 @@ title: Install voice channel in Contact Center
 description: Learn about how to install the voice channel in Dynamics 365 Contact Center.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.date: 07/01/2024
 ms.topic: how-to

@@ -5,6 +5,7 @@ ms.date: 04/03/2020
 ms.topic: article
 author: lalexms
 ms.author: laalexan
+ms.reviewer: laalexan
 ---
 
 # Authorizing API connections between Dynamics 365 and Azure IoT

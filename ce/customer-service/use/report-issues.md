@@ -1,20 +1,21 @@
 ---
-title: Report issues in agent app
+title: Report issues in representative app
 description: Learn how you can report issues in Contact Center workspace or Customer Service workspace when you raise a support ticket with Microsoft.
-ms.date: 09/10/2024
+ms.date: 03/17/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
-# Report issues in agent app
+# Report issues in representative app
 
 [!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 The report issues feature in the Contact Center workspace or the Customer Service workspace app allows you to capture a diagnostic report of the issues and share it with Microsoft.
 
 > [!IMPORTANT]
-> The report issues feature is not supported in the the Contact Center workspace or the Customer Service workspace on Unified Service Desk.
+> The report issues feature isn't supported in the Contact Center workspace or the Customer Service workspace on Unified Service Desk.
 
 You can copy the information while communicating with a customer by using one of the following keyboard shortcuts.
 
@@ -51,7 +52,7 @@ The diagnostic report doesn't contain any of your personal information and conta
 |CRM version|crmVersion|
 |Tenant Id|TenantId|
 
-When you are in a session with a customer as an agent or supervisor and capture the report, the following global and conversation context details are also copied.
+When you are in a session with a customer as a customer service representative or a supervisor and capture the report, the following global and conversation context details are also copied.
 
 | Name | Display name in the report |
 |---------------------|-----------------------------|-----------------------------|

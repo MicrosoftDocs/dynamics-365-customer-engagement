@@ -5,7 +5,7 @@ ms.date: 07/08/2024
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
-ms.reviewer:
+ms.reviewer: mgandham
 ms.collection:
 ms.custom: bap-template
 ---

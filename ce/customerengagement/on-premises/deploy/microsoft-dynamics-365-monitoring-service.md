@@ -2,7 +2,6 @@
 title: "Microsoft Dynamics 365 Monitoring Service | Microsoft Docs"
 description: Learn about the monitoring service in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

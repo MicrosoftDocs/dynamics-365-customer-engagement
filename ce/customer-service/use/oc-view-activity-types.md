@@ -1,36 +1,29 @@
 ---
-title: "View conversation and session forms, and activity types | MicrosoftDocs"
-description: "Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types."
-ms.date: 08/25/2022
+title: View conversation and session forms, and activity types
+description: Learn to view conversation and session forms in Omnichannel for Customer Service. Also learn about conversation and session activity types.
+ms.date: 12/13/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # View conversation and session forms
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
-Your organization might have a classification where certain agents work in the contact center, which uses Omnichannel for Customer Service on the web and certain agents work in another contact center, which uses model-driven app such as Customer Service Hub. In this case, if you are an agent who works on the model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
+Your organization might have a classification where customer service representatives (service representatives or representatives) might use different apps. If you work on a model-driven app, and you need to analyze the conversation request from Omnichannel for Customer Service, you can find the information through **Activities** in the model-driven app.
 
 Select the plus icon in the application tab to view the site map and select **Activities**.
 
-> [!div class=mx-imgBorder]
-> ![Select activities in the site map to view the list of activity types.](../media/oceh-oc-activities.png "Select activities in the site map")
-
-There'll be many activity types, and you need to look for **Conversation** and **Session** types.
-
-> [!div class=mx-imgBorder]
-> ![List of all activity types.](../media/oceh-oc-activities-list.png "List of all activity types")
+Among the many activity types, look for **Conversation** and **Session** types.
 
 ### Conversation activity type
 
 The Conversation activity type displays information about a conversation request.
 
-![Omnichannel conversation form.](../media/oceh-oc-conversation-form.png "Omnichannel conversation form")  
-
-> [!Note]
-> The fields listed in the following table only are supported for the Conversation activity type.
+> [!NOTE]
+> The fields listed in the following table are supported for the Conversation activity type only.
 
 | **Tab** | **Section**     | **Fields**        |
 |---------|-----------------|-------------------|
@@ -41,12 +34,10 @@ The Conversation activity type displays information about a conversation request
 
 ### Session activity type
 
-The session activity type displays information about a individual session in a conversation request.
+The session activity type displays information about an individual session in a conversation request.
 
-![Omnichannel session form.](../media/oceh-oc-session-form.png "Omnichannel session form")  
-
-> [!Note]
-> The fields listed in the following table only are supported for the Session activity type.
+> [!NOTE]
+> The fields listed in the following table are supported for the Session activity type only.
 
 | **Tab** | **Section**          | **Field**          |
 |---------|----------------------|--------------------|
@@ -54,7 +45,7 @@ The session activity type displays information about a individual session in a c
 | General | General              | <ul> <li>Subject</li> <li>Owner</li> <li>Conversation</li> <li>Channel</li> <li>Session Created On</li> <li>Session Closed On</li> <li>Agent Assigned On</li> <li>Agent Accepted On</li> <li>Regarding</li> <li>Name</li> <li>Created on</li> </ul> |
 | General | Session Participants | <ul> <li>Agents</li> <li>Joined On</li> <li>Left On</li> <li>Mode</li> </ul> |
 
-The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you are working with.
+The Session Participants section lets you add a participant related to the session or add a session participant that already exists for the record you're working with.
 
 ### Related information
 

@@ -5,6 +5,7 @@ ms.date: 08/29/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Quickstart: Connect using a new Azure resource
 

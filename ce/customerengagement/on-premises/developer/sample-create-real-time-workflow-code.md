@@ -2,7 +2,6 @@
 title: "Sample: Create a real-time workflow in code (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "The sample shows you how to create a real-time workflow in code instead of using the interactive workflow designer in the web application. This sample works only with an on-premises or an Internet-facing deployment (IFD) of Dynamics 365 Customer Engagement because custom XAML workflows aren’t supported in Dynamics 365 Customer Engagement (on-premises). "
 ms.custom:
-ms.date: 1/14/2020
 ms.reviewer: pehecke
 
 ms.suite:
@@ -22,7 +21,7 @@ search.audienceType:
 
 [!INCLUDE[cc-sample-note](./includes/cc-sample-note.md)]
 
-Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/Workflow)
+Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/Workflow)
 
 ## Prerequisites
 
@@ -32,7 +31,7 @@ Download the sample: [Workflow](https://github.com/microsoft/PowerApps-Samples/t
 
 [!INCLUDE[cc-how-to-run-PA-samples](./includes/cc-how-to-run-PA-samples.md)]
 
-Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/README.md) for additional information about the sample.
+Consult the sample's [README](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/Workflow/README.md) for additional information about the sample.
 
 ## Demonstrates
 
@@ -40,7 +39,7 @@ The sample shows you how to create a real-time (synchronous) workflow in code in
 
 ## Example
 
-[CreateRealTimeWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/C%23/Workflow/Workflow/CreateRealTimeWorkflow.cs)
+[CreateRealTimeWorkflow.cs](https://github.com/microsoft/PowerApps-Samples/blob/master/dataverse/orgsvc/CSharp/Workflow/Workflow/CreateRealTimeWorkflow.cs)
 
 ### See also
 

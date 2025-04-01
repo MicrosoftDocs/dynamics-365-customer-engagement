@@ -2,7 +2,6 @@
 title: "Customize reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "Many organizations customize default reports to meet their specific needs. Learn about the report types available and the options for modifying them."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

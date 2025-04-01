@@ -1,10 +1,11 @@
 ---
-title: "HtmlElement in Unified Service Desk | MicrosoftDocs"
-description: "The <HTMLElement> element associates a named control to the HTML object specified by the search path. This topic describes the elements of <HTMLElement>."
+title: HtmlElement in Unified Service Desk
+description: The <HTMLElement> element associates a named control to the HTML object specified by the search path. This topic describes the elements of <HTMLElement>.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer

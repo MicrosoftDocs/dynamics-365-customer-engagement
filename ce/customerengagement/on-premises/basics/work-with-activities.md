@@ -2,7 +2,6 @@
 title: "Use activities in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use activities to keep track of all your customer communications. Learn how to add activities and keep track of notes, tasks, calls, emails, and more."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 672cc271-0891-42b4-a686-a11cf4b11708
 caps.latest.revision: 5
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 
@@ -296,7 +295,16 @@ To attach a document:
   
      That way, your task will "roll up" under the account automatically, and you and other people on your team will see the task when they're looking at the contact, and when they're looking at the account for Imported Sports. (And they'll know you've got it handled.)  
   
+<a name="UpdateClosedOrCancelledActivities"></a>
+   
+## Who can update Cancelled or Closed Activities
+ Only the following users can update closed or cancelled activities:
 
+ 1. Administrators
+ 2. Administrators impersonating the System User
+ 3. Non-administrators impersonating administrators
+
+More information: [Impersonate another user](../developer/org-service/impersonate-another-user.md). 
  
 
 

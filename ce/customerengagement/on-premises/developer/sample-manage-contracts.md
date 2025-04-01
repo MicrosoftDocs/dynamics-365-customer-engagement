@@ -2,7 +2,6 @@
 title: "Sample: Manage contracts (Developer Guide for Dynamics 365 Customer Engagement (on-premises))| MicrosoftDocs"
 description: "This sample demonstrates how to create and manage contracts"
 ms.custom: 
-ms.date: 01/02/2020
 ms.reviewer: 
 
 ms.suite: 

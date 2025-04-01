@@ -3,7 +3,7 @@ title: Automatically create a case from an email in web client
 description: Know how to automatically create a case from an email in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 06/21/2024
@@ -17,7 +17,7 @@ search.audienceType:
 
 # Automatically create a case from an email in web client
 
-Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service agents by creating automatic case creation rules in Dynamics 365 Customer Service. The conditions in these rules automatically convert emails to support cases.  
+Reduce the need for manually creating cases from incoming emails and increase the efficiency of customer service representatives by creating automatic case creation rules in Dynamics 365 Customer Service. The conditions in these rules automatically convert emails to support cases.  
 
 ## Prerequisites
 

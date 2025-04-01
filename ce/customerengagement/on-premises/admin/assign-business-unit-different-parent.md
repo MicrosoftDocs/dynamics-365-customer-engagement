@@ -2,7 +2,6 @@
 title: "Reassign a business unit in Dynamics 365 Customer Engagement (on-premises)"
 description: "Assign a business unit to a different parent business to accommodate changes in your requirements. By doing so, any child business units are reassigned also."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

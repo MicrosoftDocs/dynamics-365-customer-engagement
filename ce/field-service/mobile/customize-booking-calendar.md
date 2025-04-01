@@ -19,7 +19,7 @@ If you're using the mobile app offline, be sure the record types from which attr
 
 For a guided walkthrough using the classic designer, check out the following video.
 >
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWJJdl]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=af1f694e-21ad-4805-b8ef-426da1f92df7]
 
 ### Add the columns to the Bookings view
 

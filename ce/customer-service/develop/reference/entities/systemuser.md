@@ -1,3296 +1,2229 @@
 ---
-title: "SystemUser table/entity reference (Microsoft Dataverse)| MicrosoftDocs"
-description: "Includes schema information and supported messages for the SystemUser table/entity."
-ms.date: 12/19/2022
-ms.topic: "reference"
-author: "gandhamm"
-ms.author: "mgandham"
+title: "User (SystemUser) table/entity reference (Microsoft Dynamics 365 Customer Service)"
+description: "Includes schema information and supported messages for the User (SystemUser) table/entity with Microsoft Dynamics 365 Customer Service."
+ms.topic: generated-reference
+author: gandhamm
+ms.author: mgandham
 search.audienceType: 
   - developer
 ---
-# SystemUser table/entity reference
 
-> [!NOTE]
-> Unsure about table vs. entity? See [Developers: Understand terminology in Microsoft Dataverse](/powerapps/developer/data-platform/understand-terminology).
+# User (SystemUser) table/entity reference (Microsoft Dynamics 365 Customer Service)
+
 Person with access to the Microsoft CRM system and who owns objects in the Microsoft CRM database.
 
+> [!NOTE]
+> The Microsoft Dynamics 365 Customer Service User (SystemUser) table extends the [Microsoft Dynamics 365 User (SystemUser) table](/dynamics365/developer/reference/entities/systemuser).
+
+
+
+
+## One-to-Many relationships
+
+These relationships are one-to-many. Listed by **SchemaName**.
+
+- [lk_msdyn_actual_createdby](#BKMK_lk_msdyn_actual_createdby)
+- [lk_msdyn_actual_createdonbehalfby](#BKMK_lk_msdyn_actual_createdonbehalfby)
+- [lk_msdyn_actual_modifiedby](#BKMK_lk_msdyn_actual_modifiedby)
+- [lk_msdyn_actual_modifiedonbehalfby](#BKMK_lk_msdyn_actual_modifiedonbehalfby)
+- [lk_msdyn_bookableresourceassociation_createdby](#BKMK_lk_msdyn_bookableresourceassociation_createdby)
+- [lk_msdyn_bookableresourceassociation_createdonbehalfby](#BKMK_lk_msdyn_bookableresourceassociation_createdonbehalfby)
+- [lk_msdyn_bookableresourceassociation_modifiedby](#BKMK_lk_msdyn_bookableresourceassociation_modifiedby)
+- [lk_msdyn_bookableresourceassociation_modifiedonbehalfby](#BKMK_lk_msdyn_bookableresourceassociation_modifiedonbehalfby)
+- [lk_msdyn_bookingalertstatus_createdby](#BKMK_lk_msdyn_bookingalertstatus_createdby)
+- [lk_msdyn_bookingalertstatus_createdonbehalfby](#BKMK_lk_msdyn_bookingalertstatus_createdonbehalfby)
+- [lk_msdyn_bookingalertstatus_modifiedby](#BKMK_lk_msdyn_bookingalertstatus_modifiedby)
+- [lk_msdyn_bookingalertstatus_modifiedonbehalfby](#BKMK_lk_msdyn_bookingalertstatus_modifiedonbehalfby)
+- [lk_msdyn_bookingchange_createdby](#BKMK_lk_msdyn_bookingchange_createdby)
+- [lk_msdyn_bookingchange_createdonbehalfby](#BKMK_lk_msdyn_bookingchange_createdonbehalfby)
+- [lk_msdyn_bookingchange_modifiedby](#BKMK_lk_msdyn_bookingchange_modifiedby)
+- [lk_msdyn_bookingchange_modifiedonbehalfby](#BKMK_lk_msdyn_bookingchange_modifiedonbehalfby)
+- [lk_msdyn_bookingrule_createdby](#BKMK_lk_msdyn_bookingrule_createdby)
+- [lk_msdyn_bookingrule_createdonbehalfby](#BKMK_lk_msdyn_bookingrule_createdonbehalfby)
+- [lk_msdyn_bookingrule_modifiedby](#BKMK_lk_msdyn_bookingrule_modifiedby)
+- [lk_msdyn_bookingrule_modifiedonbehalfby](#BKMK_lk_msdyn_bookingrule_modifiedonbehalfby)
+- [lk_msdyn_bookingsetupmetadata_createdby](#BKMK_lk_msdyn_bookingsetupmetadata_createdby)
+- [lk_msdyn_bookingsetupmetadata_createdonbehalfby](#BKMK_lk_msdyn_bookingsetupmetadata_createdonbehalfby)
+- [lk_msdyn_bookingsetupmetadata_modifiedby](#BKMK_lk_msdyn_bookingsetupmetadata_modifiedby)
+- [lk_msdyn_bookingsetupmetadata_modifiedonbehalfby](#BKMK_lk_msdyn_bookingsetupmetadata_modifiedonbehalfby)
+- [lk_msdyn_businessclosure_createdby](#BKMK_lk_msdyn_businessclosure_createdby)
+- [lk_msdyn_businessclosure_createdonbehalfby](#BKMK_lk_msdyn_businessclosure_createdonbehalfby)
+- [lk_msdyn_businessclosure_modifiedby](#BKMK_lk_msdyn_businessclosure_modifiedby)
+- [lk_msdyn_businessclosure_modifiedonbehalfby](#BKMK_lk_msdyn_businessclosure_modifiedonbehalfby)
+- [lk_msdyn_clientextension_createdby](#BKMK_lk_msdyn_clientextension_createdby)
+- [lk_msdyn_clientextension_createdonbehalfby](#BKMK_lk_msdyn_clientextension_createdonbehalfby)
+- [lk_msdyn_clientextension_modifiedby](#BKMK_lk_msdyn_clientextension_modifiedby)
+- [lk_msdyn_clientextension_modifiedonbehalfby](#BKMK_lk_msdyn_clientextension_modifiedonbehalfby)
+- [lk_msdyn_configuration_createdby](#BKMK_lk_msdyn_configuration_createdby)
+- [lk_msdyn_configuration_createdonbehalfby](#BKMK_lk_msdyn_configuration_createdonbehalfby)
+- [lk_msdyn_configuration_modifiedby](#BKMK_lk_msdyn_configuration_modifiedby)
+- [lk_msdyn_configuration_modifiedonbehalfby](#BKMK_lk_msdyn_configuration_modifiedonbehalfby)
+- [lk_msdyn_optimizationrequest_createdby](#BKMK_lk_msdyn_optimizationrequest_createdby)
+- [lk_msdyn_optimizationrequest_createdonbehalfby](#BKMK_lk_msdyn_optimizationrequest_createdonbehalfby)
+- [lk_msdyn_optimizationrequest_modifiedby](#BKMK_lk_msdyn_optimizationrequest_modifiedby)
+- [lk_msdyn_optimizationrequest_modifiedonbehalfby](#BKMK_lk_msdyn_optimizationrequest_modifiedonbehalfby)
+- [lk_msdyn_organizationalunit_createdby](#BKMK_lk_msdyn_organizationalunit_createdby)
+- [lk_msdyn_organizationalunit_createdonbehalfby](#BKMK_lk_msdyn_organizationalunit_createdonbehalfby)
+- [lk_msdyn_organizationalunit_modifiedby](#BKMK_lk_msdyn_organizationalunit_modifiedby)
+- [lk_msdyn_organizationalunit_modifiedonbehalfby](#BKMK_lk_msdyn_organizationalunit_modifiedonbehalfby)
+- [lk_msdyn_priority_createdby](#BKMK_lk_msdyn_priority_createdby)
+- [lk_msdyn_priority_createdonbehalfby](#BKMK_lk_msdyn_priority_createdonbehalfby)
+- [lk_msdyn_priority_modifiedby](#BKMK_lk_msdyn_priority_modifiedby)
+- [lk_msdyn_priority_modifiedonbehalfby](#BKMK_lk_msdyn_priority_modifiedonbehalfby)
+- [lk_msdyn_requirementchange_createdby](#BKMK_lk_msdyn_requirementchange_createdby)
+- [lk_msdyn_requirementchange_createdonbehalfby](#BKMK_lk_msdyn_requirementchange_createdonbehalfby)
+- [lk_msdyn_requirementchange_modifiedby](#BKMK_lk_msdyn_requirementchange_modifiedby)
+- [lk_msdyn_requirementchange_modifiedonbehalfby](#BKMK_lk_msdyn_requirementchange_modifiedonbehalfby)
+- [lk_msdyn_requirementcharacteristic_createdby](#BKMK_lk_msdyn_requirementcharacteristic_createdby)
+- [lk_msdyn_requirementcharacteristic_createdonbehalfby](#BKMK_lk_msdyn_requirementcharacteristic_createdonbehalfby)
+- [lk_msdyn_requirementcharacteristic_modifiedby](#BKMK_lk_msdyn_requirementcharacteristic_modifiedby)
+- [lk_msdyn_requirementcharacteristic_modifiedonbehalfby](#BKMK_lk_msdyn_requirementcharacteristic_modifiedonbehalfby)
+- [lk_msdyn_requirementdependency_createdby](#BKMK_lk_msdyn_requirementdependency_createdby)
+- [lk_msdyn_requirementdependency_createdonbehalfby](#BKMK_lk_msdyn_requirementdependency_createdonbehalfby)
+- [lk_msdyn_requirementdependency_modifiedby](#BKMK_lk_msdyn_requirementdependency_modifiedby)
+- [lk_msdyn_requirementdependency_modifiedonbehalfby](#BKMK_lk_msdyn_requirementdependency_modifiedonbehalfby)
+- [lk_msdyn_requirementgroup_createdby](#BKMK_lk_msdyn_requirementgroup_createdby)
+- [lk_msdyn_requirementgroup_createdonbehalfby](#BKMK_lk_msdyn_requirementgroup_createdonbehalfby)
+- [lk_msdyn_requirementgroup_modifiedby](#BKMK_lk_msdyn_requirementgroup_modifiedby)
+- [lk_msdyn_requirementgroup_modifiedonbehalfby](#BKMK_lk_msdyn_requirementgroup_modifiedonbehalfby)
+- [lk_msdyn_requirementorganizationunit_createdby](#BKMK_lk_msdyn_requirementorganizationunit_createdby)
+- [lk_msdyn_requirementorganizationunit_createdonbehalfby](#BKMK_lk_msdyn_requirementorganizationunit_createdonbehalfby)
+- [lk_msdyn_requirementorganizationunit_modifiedby](#BKMK_lk_msdyn_requirementorganizationunit_modifiedby)
+- [lk_msdyn_requirementorganizationunit_modifiedonbehalfby](#BKMK_lk_msdyn_requirementorganizationunit_modifiedonbehalfby)
+- [lk_msdyn_requirementrelationship_createdby](#BKMK_lk_msdyn_requirementrelationship_createdby)
+- [lk_msdyn_requirementrelationship_createdonbehalfby](#BKMK_lk_msdyn_requirementrelationship_createdonbehalfby)
+- [lk_msdyn_requirementrelationship_modifiedby](#BKMK_lk_msdyn_requirementrelationship_modifiedby)
+- [lk_msdyn_requirementrelationship_modifiedonbehalfby](#BKMK_lk_msdyn_requirementrelationship_modifiedonbehalfby)
+- [lk_msdyn_requirementresourcecategory_createdby](#BKMK_lk_msdyn_requirementresourcecategory_createdby)
+- [lk_msdyn_requirementresourcecategory_createdonbehalfby](#BKMK_lk_msdyn_requirementresourcecategory_createdonbehalfby)
+- [lk_msdyn_requirementresourcecategory_modifiedby](#BKMK_lk_msdyn_requirementresourcecategory_modifiedby)
+- [lk_msdyn_requirementresourcecategory_modifiedonbehalfby](#BKMK_lk_msdyn_requirementresourcecategory_modifiedonbehalfby)
+- [lk_msdyn_requirementresourcepreference_createdby](#BKMK_lk_msdyn_requirementresourcepreference_createdby)
+- [lk_msdyn_requirementresourcepreference_createdonbehalfby](#BKMK_lk_msdyn_requirementresourcepreference_createdonbehalfby)
+- [lk_msdyn_requirementresourcepreference_modifiedby](#BKMK_lk_msdyn_requirementresourcepreference_modifiedby)
+- [lk_msdyn_requirementresourcepreference_modifiedonbehalfby](#BKMK_lk_msdyn_requirementresourcepreference_modifiedonbehalfby)
+- [lk_msdyn_requirementstatus_createdby](#BKMK_lk_msdyn_requirementstatus_createdby)
+- [lk_msdyn_requirementstatus_createdonbehalfby](#BKMK_lk_msdyn_requirementstatus_createdonbehalfby)
+- [lk_msdyn_requirementstatus_modifiedby](#BKMK_lk_msdyn_requirementstatus_modifiedby)
+- [lk_msdyn_requirementstatus_modifiedonbehalfby](#BKMK_lk_msdyn_requirementstatus_modifiedonbehalfby)
+- [lk_msdyn_resourcerequirement_createdby](#BKMK_lk_msdyn_resourcerequirement_createdby)
+- [lk_msdyn_resourcerequirement_createdonbehalfby](#BKMK_lk_msdyn_resourcerequirement_createdonbehalfby)
+- [lk_msdyn_resourcerequirement_modifiedby](#BKMK_lk_msdyn_resourcerequirement_modifiedby)
+- [lk_msdyn_resourcerequirement_modifiedonbehalfby](#BKMK_lk_msdyn_resourcerequirement_modifiedonbehalfby)
+- [lk_msdyn_resourcerequirementdetail_createdby](#BKMK_lk_msdyn_resourcerequirementdetail_createdby)
+- [lk_msdyn_resourcerequirementdetail_createdonbehalfby](#BKMK_lk_msdyn_resourcerequirementdetail_createdonbehalfby)
+- [lk_msdyn_resourcerequirementdetail_modifiedby](#BKMK_lk_msdyn_resourcerequirementdetail_modifiedby)
+- [lk_msdyn_resourcerequirementdetail_modifiedonbehalfby](#BKMK_lk_msdyn_resourcerequirementdetail_modifiedonbehalfby)
+- [lk_msdyn_resourceterritory_createdby](#BKMK_lk_msdyn_resourceterritory_createdby)
+- [lk_msdyn_resourceterritory_createdonbehalfby](#BKMK_lk_msdyn_resourceterritory_createdonbehalfby)
+- [lk_msdyn_resourceterritory_modifiedby](#BKMK_lk_msdyn_resourceterritory_modifiedby)
+- [lk_msdyn_resourceterritory_modifiedonbehalfby](#BKMK_lk_msdyn_resourceterritory_modifiedonbehalfby)
+- [lk_msdyn_scheduleboardsetting_createdby](#BKMK_lk_msdyn_scheduleboardsetting_createdby)
+- [lk_msdyn_scheduleboardsetting_createdonbehalfby](#BKMK_lk_msdyn_scheduleboardsetting_createdonbehalfby)
+- [lk_msdyn_scheduleboardsetting_modifiedby](#BKMK_lk_msdyn_scheduleboardsetting_modifiedby)
+- [lk_msdyn_scheduleboardsetting_modifiedonbehalfby](#BKMK_lk_msdyn_scheduleboardsetting_modifiedonbehalfby)
+- [lk_msdyn_schedulingfeatureflag_createdby](#BKMK_lk_msdyn_schedulingfeatureflag_createdby)
+- [lk_msdyn_schedulingfeatureflag_createdonbehalfby](#BKMK_lk_msdyn_schedulingfeatureflag_createdonbehalfby)
+- [lk_msdyn_schedulingfeatureflag_modifiedby](#BKMK_lk_msdyn_schedulingfeatureflag_modifiedby)
+- [lk_msdyn_schedulingfeatureflag_modifiedonbehalfby](#BKMK_lk_msdyn_schedulingfeatureflag_modifiedonbehalfby)
+- [lk_msdyn_schedulingparameter_createdby](#BKMK_lk_msdyn_schedulingparameter_createdby)
+- [lk_msdyn_schedulingparameter_createdonbehalfby](#BKMK_lk_msdyn_schedulingparameter_createdonbehalfby)
+- [lk_msdyn_schedulingparameter_modifiedby](#BKMK_lk_msdyn_schedulingparameter_modifiedby)
+- [lk_msdyn_schedulingparameter_modifiedonbehalfby](#BKMK_lk_msdyn_schedulingparameter_modifiedonbehalfby)
+- [lk_msdyn_schedulingscope_createdby](#BKMK_lk_msdyn_schedulingscope_createdby)
+- [lk_msdyn_schedulingscope_createdonbehalfby](#BKMK_lk_msdyn_schedulingscope_createdonbehalfby)
+- [lk_msdyn_schedulingscope_modifiedby](#BKMK_lk_msdyn_schedulingscope_modifiedby)
+- [lk_msdyn_schedulingscope_modifiedonbehalfby](#BKMK_lk_msdyn_schedulingscope_modifiedonbehalfby)
+- [lk_msdyn_systemuserschedulersetting_createdby](#BKMK_lk_msdyn_systemuserschedulersetting_createdby)
+- [lk_msdyn_systemuserschedulersetting_createdonbehalfby](#BKMK_lk_msdyn_systemuserschedulersetting_createdonbehalfby)
+- [lk_msdyn_systemuserschedulersetting_modifiedby](#BKMK_lk_msdyn_systemuserschedulersetting_modifiedby)
+- [lk_msdyn_systemuserschedulersetting_modifiedonbehalfby](#BKMK_lk_msdyn_systemuserschedulersetting_modifiedonbehalfby)
+- [lk_msdyn_timegroup_createdby](#BKMK_lk_msdyn_timegroup_createdby)
+- [lk_msdyn_timegroup_createdonbehalfby](#BKMK_lk_msdyn_timegroup_createdonbehalfby)
+- [lk_msdyn_timegroup_modifiedby](#BKMK_lk_msdyn_timegroup_modifiedby)
+- [lk_msdyn_timegroup_modifiedonbehalfby](#BKMK_lk_msdyn_timegroup_modifiedonbehalfby)
+- [lk_msdyn_timegroupdetail_createdby](#BKMK_lk_msdyn_timegroupdetail_createdby)
+- [lk_msdyn_timegroupdetail_createdonbehalfby](#BKMK_lk_msdyn_timegroupdetail_createdonbehalfby)
+- [lk_msdyn_timegroupdetail_modifiedby](#BKMK_lk_msdyn_timegroupdetail_modifiedby)
+- [lk_msdyn_timegroupdetail_modifiedonbehalfby](#BKMK_lk_msdyn_timegroupdetail_modifiedonbehalfby)
+- [lk_msdyn_transactionorigin_createdby](#BKMK_lk_msdyn_transactionorigin_createdby)
+- [lk_msdyn_transactionorigin_createdonbehalfby](#BKMK_lk_msdyn_transactionorigin_createdonbehalfby)
+- [lk_msdyn_transactionorigin_modifiedby](#BKMK_lk_msdyn_transactionorigin_modifiedby)
+- [lk_msdyn_transactionorigin_modifiedonbehalfby](#BKMK_lk_msdyn_transactionorigin_modifiedonbehalfby)
+- [lk_msdyn_workhourtemplate_createdby](#BKMK_lk_msdyn_workhourtemplate_createdby)
+- [lk_msdyn_workhourtemplate_createdonbehalfby](#BKMK_lk_msdyn_workhourtemplate_createdonbehalfby)
+- [lk_msdyn_workhourtemplate_modifiedby](#BKMK_lk_msdyn_workhourtemplate_modifiedby)
+- [lk_msdyn_workhourtemplate_modifiedonbehalfby](#BKMK_lk_msdyn_workhourtemplate_modifiedonbehalfby)
+- [msdyn_bookingalert_systemuser_createdby](#BKMK_msdyn_bookingalert_systemuser_createdby)
+- [msdyn_bookingalert_systemuser_createdonbehalfby](#BKMK_msdyn_bookingalert_systemuser_createdonbehalfby)
+- [msdyn_bookingalert_systemuser_modifiedby](#BKMK_msdyn_bookingalert_systemuser_modifiedby)
+- [msdyn_bookingalert_systemuser_modifiedonbehalfby](#BKMK_msdyn_bookingalert_systemuser_modifiedonbehalfby)
+- [msdyn_bookingalert_systemuser_owninguser](#BKMK_msdyn_bookingalert_systemuser_owninguser)
+- [msdyn_systemuser_msdyn_systemuserschedulersetting_User](#BKMK_msdyn_systemuser_msdyn_systemuserschedulersetting_User)
+- [user_msdyn_actual](#BKMK_user_msdyn_actual)
+- [user_msdyn_bookableresourceassociation](#BKMK_user_msdyn_bookableresourceassociation)
+- [user_msdyn_bookingalertstatus](#BKMK_user_msdyn_bookingalertstatus)
+- [user_msdyn_bookingchange](#BKMK_user_msdyn_bookingchange)
+- [user_msdyn_bookingrule](#BKMK_user_msdyn_bookingrule)
+- [user_msdyn_bookingsetupmetadata](#BKMK_user_msdyn_bookingsetupmetadata)
+- [user_msdyn_businessclosure](#BKMK_user_msdyn_businessclosure)
+- [user_msdyn_clientextension](#BKMK_user_msdyn_clientextension)
+- [user_msdyn_configuration](#BKMK_user_msdyn_configuration)
+- [user_msdyn_optimizationrequest](#BKMK_user_msdyn_optimizationrequest)
+- [user_msdyn_priority](#BKMK_user_msdyn_priority)
+- [user_msdyn_requirementchange](#BKMK_user_msdyn_requirementchange)
+- [user_msdyn_requirementcharacteristic](#BKMK_user_msdyn_requirementcharacteristic)
+- [user_msdyn_requirementdependency](#BKMK_user_msdyn_requirementdependency)
+- [user_msdyn_requirementgroup](#BKMK_user_msdyn_requirementgroup)
+- [user_msdyn_requirementorganizationunit](#BKMK_user_msdyn_requirementorganizationunit)
+- [user_msdyn_requirementrelationship](#BKMK_user_msdyn_requirementrelationship)
+- [user_msdyn_requirementresourcecategory](#BKMK_user_msdyn_requirementresourcecategory)
+- [user_msdyn_requirementresourcepreference](#BKMK_user_msdyn_requirementresourcepreference)
+- [user_msdyn_requirementstatus](#BKMK_user_msdyn_requirementstatus)
+- [user_msdyn_resourcerequirement](#BKMK_user_msdyn_resourcerequirement)
+- [user_msdyn_resourcerequirementdetail](#BKMK_user_msdyn_resourcerequirementdetail)
+- [user_msdyn_resourceterritory](#BKMK_user_msdyn_resourceterritory)
+- [user_msdyn_scheduleboardsetting](#BKMK_user_msdyn_scheduleboardsetting)
+- [user_msdyn_schedulingfeatureflag](#BKMK_user_msdyn_schedulingfeatureflag)
+- [user_msdyn_schedulingscope](#BKMK_user_msdyn_schedulingscope)
+- [user_msdyn_systemuserschedulersetting](#BKMK_user_msdyn_systemuserschedulersetting)
+- [user_msdyn_timegroup](#BKMK_user_msdyn_timegroup)
+- [user_msdyn_timegroupdetail](#BKMK_user_msdyn_timegroupdetail)
+- [user_msdyn_transactionorigin](#BKMK_user_msdyn_transactionorigin)
+- [user_msdyn_workhourtemplate](#BKMK_user_msdyn_workhourtemplate)
+
+### <a name="BKMK_lk_msdyn_actual_createdby"></a> lk_msdyn_actual_createdby
+
+Many-To-One Relationship: [msdyn_actual lk_msdyn_actual_createdby](msdyn_actual.md#BKMK_lk_msdyn_actual_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actual`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_actual_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_actual_createdonbehalfby"></a> lk_msdyn_actual_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_actual lk_msdyn_actual_createdonbehalfby](msdyn_actual.md#BKMK_lk_msdyn_actual_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actual`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_actual_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_actual_modifiedby"></a> lk_msdyn_actual_modifiedby
+
+Many-To-One Relationship: [msdyn_actual lk_msdyn_actual_modifiedby](msdyn_actual.md#BKMK_lk_msdyn_actual_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actual`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_actual_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_actual_modifiedonbehalfby"></a> lk_msdyn_actual_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_actual lk_msdyn_actual_modifiedonbehalfby](msdyn_actual.md#BKMK_lk_msdyn_actual_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_actual`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_actual_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookableresourceassociation_createdby"></a> lk_msdyn_bookableresourceassociation_createdby
+
+Many-To-One Relationship: [msdyn_bookableresourceassociation lk_msdyn_bookableresourceassociation_createdby](msdyn_bookableresourceassociation.md#BKMK_lk_msdyn_bookableresourceassociation_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourceassociation`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookableresourceassociation_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookableresourceassociation_createdonbehalfby"></a> lk_msdyn_bookableresourceassociation_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_bookableresourceassociation lk_msdyn_bookableresourceassociation_createdonbehalfby](msdyn_bookableresourceassociation.md#BKMK_lk_msdyn_bookableresourceassociation_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourceassociation`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookableresourceassociation_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookableresourceassociation_modifiedby"></a> lk_msdyn_bookableresourceassociation_modifiedby
+
+Many-To-One Relationship: [msdyn_bookableresourceassociation lk_msdyn_bookableresourceassociation_modifiedby](msdyn_bookableresourceassociation.md#BKMK_lk_msdyn_bookableresourceassociation_modifiedby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourceassociation`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookableresourceassociation_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookableresourceassociation_modifiedonbehalfby"></a> lk_msdyn_bookableresourceassociation_modifiedonbehalfby
+
+Many-To-One Relationship: [msdyn_bookableresourceassociation lk_msdyn_bookableresourceassociation_modifiedonbehalfby](msdyn_bookableresourceassociation.md#BKMK_lk_msdyn_bookableresourceassociation_modifiedonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourceassociation`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookableresourceassociation_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookingalertstatus_createdby"></a> lk_msdyn_bookingalertstatus_createdby
+
+Many-To-One Relationship: [msdyn_bookingalertstatus lk_msdyn_bookingalertstatus_createdby](msdyn_bookingalertstatus.md#BKMK_lk_msdyn_bookingalertstatus_createdby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalertstatus`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingalertstatus_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookingalertstatus_createdonbehalfby"></a> lk_msdyn_bookingalertstatus_createdonbehalfby
+
+Many-To-One Relationship: [msdyn_bookingalertstatus lk_msdyn_bookingalertstatus_createdonbehalfby](msdyn_bookingalertstatus.md#BKMK_lk_msdyn_bookingalertstatus_createdonbehalfby)
+
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalertstatus`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingalertstatus_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
+
+### <a name="BKMK_lk_msdyn_bookingalertstatus_modifiedby"></a> lk_msdyn_bookingalertstatus_modifiedby
 
-## Messages
-
-|Message|Web API Operation|SDK Assembly|
-|-|-|-|
-|Create|POST [*org URI*]/api/data/v9.0/systemusers<br />See [Create](/powerapps/developer/common-data-service/webapi/create-entity-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.CreateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Create*>|
-|Delete|DELETE [*org URI*]/api/data/v9.0/systemusers(*systemuserid*)<br />See [Delete](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-delete)|<xref:Microsoft.Xrm.Sdk.Messages.DeleteRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Delete*>|
-|msdyn_GDPROptoutUser|Microsoft.Dynamics.CRM.msdyn_GDPROptoutUser?text=msdyn_GDPROptoutUser Action|Type generated by CrmSvcUtil.exe or use <xref:Microsoft.Xrm.Sdk.OrganizationRequest> setting the required parameters for the message. |
-|ReassignObjectsSystemUser|<xref href="Microsoft.Dynamics.CRM.ReassignObjectsSystemUser?text=ReassignObjectsSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.ReassignObjectsSystemUserRequest>|
-|RemoveParent|<xref href="Microsoft.Dynamics.CRM.RemoveParent?text=RemoveParent Action" />|<xref:Microsoft.Crm.Sdk.Messages.RemoveParentRequest>|
-|Retrieve|GET [*org URI*]/api/data/v9.0/systemusers(*systemuserid*)<br />See [Retrieve](/powerapps/developer/common-data-service/webapi/retrieve-entity-using-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Retrieve*>|
-|RetrieveAllChildUsersSystemUser|<xref href="Microsoft.Dynamics.CRM.RetrieveAllChildUsersSystemUser?text=RetrieveAllChildUsersSystemUser Function" />|<xref:Microsoft.Crm.Sdk.Messages.RetrieveAllChildUsersSystemUserRequest>|
-|RetrieveMultiple|GET [*org URI*]/api/data/v9.0/systemusers<br />See [Query Data](/powerapps/developer/common-data-service/webapi/query-data-web-api)|<xref:Microsoft.Xrm.Sdk.Messages.RetrieveMultipleRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.RetrieveMultiple*>|
-|SetBusinessEquipment|Microsoft.Dynamics.CRM.SetBusinessEquipment?text=SetBusinessEquipment Action|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessEquipmentRequest>|
-|SetBusinessSystemUser|<xref href="Microsoft.Dynamics.CRM.SetBusinessSystemUser?text=SetBusinessSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetBusinessSystemUserRequest>|
-|SetParentBusinessUnit|[Associate and disassociate entities](/powerapps/developer/common-data-service/webapi/associate-disassociate-entities-using-web-api)|<xref:Microsoft.Crm.Sdk.Messages.SetParentBusinessUnitRequest>|
-|SetParentSystemUser|<xref href="Microsoft.Dynamics.CRM.SetParentSystemUser?text=SetParentSystemUser Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetParentSystemUserRequest>|
-|SetParentTeam|<xref href="Microsoft.Dynamics.CRM.SetParentTeam?text=SetParentTeam Action" />|<xref:Microsoft.Crm.Sdk.Messages.SetParentTeamRequest>|
-|SetState|PATCH [*org URI*]/api/data/v9.0/systemusers(*systemuserid*)<br />[Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update) `statecode` and `statuscode` properties.|<xref:Microsoft.Crm.Sdk.Messages.SetStateRequest>|
-|Update|PATCH [*org URI*]/api/data/v9.0/systemusers(*systemuserid*)<br />See [Update](/powerapps/developer/common-data-service/webapi/update-delete-entities-using-web-api#basic-update)|<xref:Microsoft.Xrm.Sdk.Messages.UpdateRequest> or <br /><xref:Microsoft.Xrm.Sdk.IOrganizationService.Update*>|
-
-## Properties
-
-|Property|Value|
-|--------|-----|
-|CollectionSchemaName|SystemUsers|
-|DisplayCollectionName|Users|
-|DisplayName|User|
-|EntitySetName|systemusers|
-|IsBPFEntity|False|
-|LogicalCollectionName|systemusers|
-|LogicalName|systemuser|
-|OwnershipType|BusinessOwned|
-|PrimaryIdAttribute|systemuserid|
-|PrimaryNameAttribute|fullname|
-|SchemaName|SystemUser|
-
-<a name="writable-attributes"></a>
-
-## Writable columns/attributes
-
-These columns/attributes return true for either **IsValidForCreate** or **IsValidForUpdate** (usually both). Listed by **SchemaName**.
-
-- [AccessMode](#BKMK_AccessMode)
-- [Address1_AddressId](#BKMK_Address1_AddressId)
-- [Address1_AddressTypeCode](#BKMK_Address1_AddressTypeCode)
-- [Address1_City](#BKMK_Address1_City)
-- [Address1_Country](#BKMK_Address1_Country)
-- [Address1_County](#BKMK_Address1_County)
-- [Address1_Fax](#BKMK_Address1_Fax)
-- [Address1_Latitude](#BKMK_Address1_Latitude)
-- [Address1_Line1](#BKMK_Address1_Line1)
-- [Address1_Line2](#BKMK_Address1_Line2)
-- [Address1_Line3](#BKMK_Address1_Line3)
-- [Address1_Longitude](#BKMK_Address1_Longitude)
-- [Address1_Name](#BKMK_Address1_Name)
-- [Address1_PostalCode](#BKMK_Address1_PostalCode)
-- [Address1_PostOfficeBox](#BKMK_Address1_PostOfficeBox)
-- [Address1_ShippingMethodCode](#BKMK_Address1_ShippingMethodCode)
-- [Address1_StateOrProvince](#BKMK_Address1_StateOrProvince)
-- [Address1_Telephone1](#BKMK_Address1_Telephone1)
-- [Address1_Telephone2](#BKMK_Address1_Telephone2)
-- [Address1_Telephone3](#BKMK_Address1_Telephone3)
-- [Address1_UPSZone](#BKMK_Address1_UPSZone)
-- [Address1_UTCOffset](#BKMK_Address1_UTCOffset)
-- [Address2_AddressId](#BKMK_Address2_AddressId)
-- [Address2_AddressTypeCode](#BKMK_Address2_AddressTypeCode)
-- [Address2_City](#BKMK_Address2_City)
-- [Address2_Country](#BKMK_Address2_Country)
-- [Address2_County](#BKMK_Address2_County)
-- [Address2_Fax](#BKMK_Address2_Fax)
-- [Address2_Latitude](#BKMK_Address2_Latitude)
-- [Address2_Line1](#BKMK_Address2_Line1)
-- [Address2_Line2](#BKMK_Address2_Line2)
-- [Address2_Line3](#BKMK_Address2_Line3)
-- [Address2_Longitude](#BKMK_Address2_Longitude)
-- [Address2_Name](#BKMK_Address2_Name)
-- [Address2_PostalCode](#BKMK_Address2_PostalCode)
-- [Address2_PostOfficeBox](#BKMK_Address2_PostOfficeBox)
-- [Address2_ShippingMethodCode](#BKMK_Address2_ShippingMethodCode)
-- [Address2_StateOrProvince](#BKMK_Address2_StateOrProvince)
-- [Address2_Telephone1](#BKMK_Address2_Telephone1)
-- [Address2_Telephone2](#BKMK_Address2_Telephone2)
-- [Address2_Telephone3](#BKMK_Address2_Telephone3)
-- [Address2_UPSZone](#BKMK_Address2_UPSZone)
-- [Address2_UTCOffset](#BKMK_Address2_UTCOffset)
-- [ApplicationId](#BKMK_ApplicationId)
-- [AzureState](#BKMK_AzureState)
-- [BusinessUnitId](#BKMK_BusinessUnitId)
-- [CalendarId](#BKMK_CalendarId)
-- [CALType](#BKMK_CALType)
-- [DisplayInServiceViews](#BKMK_DisplayInServiceViews)
-- [DomainName](#BKMK_DomainName)
-- [EmailRouterAccessApproval](#BKMK_EmailRouterAccessApproval)
-- [EmployeeId](#BKMK_EmployeeId)
-- [EntityImage](#BKMK_EntityImage)
-- [FirstName](#BKMK_FirstName)
-- [GovernmentId](#BKMK_GovernmentId)
-- [HomePhone](#BKMK_HomePhone)
-- [ImportSequenceNumber](#BKMK_ImportSequenceNumber)
-- [IncomingEmailDeliveryMethod](#BKMK_IncomingEmailDeliveryMethod)
-- [InternalEMailAddress](#BKMK_InternalEMailAddress)
-- [InviteStatusCode](#BKMK_InviteStatusCode)
-- [IsDisabled](#BKMK_IsDisabled)
-- [IsIntegrationUser](#BKMK_IsIntegrationUser)
-- [IsLicensed](#BKMK_IsLicensed)
-- [IsSyncWithDirectory](#BKMK_IsSyncWithDirectory)
-- [JobTitle](#BKMK_JobTitle)
-- [LastName](#BKMK_LastName)
-- [MiddleName](#BKMK_MiddleName)
-- [MobileAlertEMail](#BKMK_MobileAlertEMail)
-- [MobileOfflineProfileId](#BKMK_MobileOfflineProfileId)
-- [MobileOfflineProfileIdName](#BKMK_MobileOfflineProfileIdName)
-- [MobilePhone](#BKMK_MobilePhone)
-- [msdyn_AgentType](#BKMK_msdyn_AgentType)
-- [msdyn_BotApplicationId](#BKMK_msdyn_BotApplicationId)
-- [msdyn_BotDescription](#BKMK_msdyn_BotDescription)
-- [msdyn_BotEndpoint](#BKMK_msdyn_BotEndpoint)
-- [msdyn_bothandle](#BKMK_msdyn_bothandle)
-- [msdyn_BotProvider](#BKMK_msdyn_BotProvider)
-- [msdyn_BotSecretKeys](#BKMK_msdyn_BotSecretKeys)
-- [msdyn_Capacity](#BKMK_msdyn_Capacity)
-- [msdyn_cognitiveservicesregion](#BKMK_msdyn_cognitiveservicesregion)
-- [msdyn_cognitiveservicessubscriptionkey](#BKMK_msdyn_cognitiveservicessubscriptionkey)
-- [msdyn_DefaultPresenceIdUser](#BKMK_msdyn_DefaultPresenceIdUser)
-- [msdyn_gdproptout](#BKMK_msdyn_gdproptout)
-- [msdyn_gridwrappercontrolfield](#BKMK_msdyn_gridwrappercontrolfield)
-- [msdyn_isexpertenabledforswarm](#BKMK_msdyn_isexpertenabledforswarm)
-- [msdyn_OwningEnvironmentId](#BKMK_msdyn_OwningEnvironmentId)
-- [msdyn_phonenumberid](#BKMK_msdyn_phonenumberid)
-- [msdyn_UserType](#BKMK_msdyn_UserType)
-- [NickName](#BKMK_NickName)
-- [OutgoingEmailDeliveryMethod](#BKMK_OutgoingEmailDeliveryMethod)
-- [OverriddenCreatedOn](#BKMK_OverriddenCreatedOn)
-- [ParentSystemUserId](#BKMK_ParentSystemUserId)
-- [PassportHi](#BKMK_PassportHi)
-- [PassportLo](#BKMK_PassportLo)
-- [PersonalEMailAddress](#BKMK_PersonalEMailAddress)
-- [PhotoUrl](#BKMK_PhotoUrl)
-- [PositionId](#BKMK_PositionId)
-- [PreferredAddressCode](#BKMK_PreferredAddressCode)
-- [PreferredEmailCode](#BKMK_PreferredEmailCode)
-- [PreferredPhoneCode](#BKMK_PreferredPhoneCode)
-- [ProcessId](#BKMK_ProcessId)
-- [QueueId](#BKMK_QueueId)
-- [Salutation](#BKMK_Salutation)
-- [SetupUser](#BKMK_SetupUser)
-- [SharePointEmailAddress](#BKMK_SharePointEmailAddress)
-- [SiteId](#BKMK_SiteId)
-- [Skills](#BKMK_Skills)
-- [StageId](#BKMK_StageId)
-- [SystemUserId](#BKMK_SystemUserId)
-- [TerritoryId](#BKMK_TerritoryId)
-- [TimeZoneRuleVersionNumber](#BKMK_TimeZoneRuleVersionNumber)
-- [Title](#BKMK_Title)
-- [TransactionCurrencyId](#BKMK_TransactionCurrencyId)
-- [TraversedPath](#BKMK_TraversedPath)
-- [UserLicenseType](#BKMK_UserLicenseType)
-- [UTCConversionTimeZoneCode](#BKMK_UTCConversionTimeZoneCode)
-- [WindowsLiveID](#BKMK_WindowsLiveID)
-- [YammerEmailAddress](#BKMK_YammerEmailAddress)
-- [YammerUserId](#BKMK_YammerUserId)
-- [YomiFirstName](#BKMK_YomiFirstName)
-- [YomiLastName](#BKMK_YomiLastName)
-- [YomiMiddleName](#BKMK_YomiMiddleName)
-
-
-### <a name="BKMK_AccessMode"></a> AccessMode
-
-|Property|Value|
-|--------|-----|
-|Description|Type of user.|
-|DisplayName|Access Mode|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|accessmode|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### AccessMode Choices/Options
-
-|Value|Label|
-|-----|-----|
-|0|Read-Write|
-|1|Administrative|
-|2|Read|
-|3|Support User|
-|4|Non-interactive|
-|5|Delegated Admin|
-
-
-
-### <a name="BKMK_Address1_AddressId"></a> Address1_AddressId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for address 1.|
-|DisplayName|Address 1: ID|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address1_addressid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_Address1_AddressTypeCode"></a> Address1_AddressTypeCode
-
-|Property|Value|
-|--------|-----|
-|Description|Type of address for address 1, such as billing, shipping, or primary address.|
-|DisplayName|Address 1: Address Type|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address1_addresstypecode|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### Address1_AddressTypeCode Choices/Options
-
-|Value|Label|
-|-----|-----|
-|1|Default Value|
-
-
-
-### <a name="BKMK_Address1_City"></a> Address1_City
-
-|Property|Value|
-|--------|-----|
-|Description|City name for address 1.|
-|DisplayName|City|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_city|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Country"></a> Address1_Country
-
-|Property|Value|
-|--------|-----|
-|Description|Country/region name in address 1.|
-|DisplayName|Country/Region|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_country|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_County"></a> Address1_County
-
-|Property|Value|
-|--------|-----|
-|Description|County name for address 1.|
-|DisplayName|Address 1: County|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_county|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Fax"></a> Address1_Fax
-
-|Property|Value|
-|--------|-----|
-|Description|Fax number for address 1.|
-|DisplayName|Address 1: Fax|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_fax|
-|MaxLength|64|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Latitude"></a> Address1_Latitude
-
-|Property|Value|
-|--------|-----|
-|Description|Latitude for address 1.|
-|DisplayName|Address 1: Latitude|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_latitude|
-|MaxValue|90|
-|MinValue|-90|
-|Precision|5|
-|RequiredLevel|None|
-|Type|Double|
-
-
-### <a name="BKMK_Address1_Line1"></a> Address1_Line1
-
-|Property|Value|
-|--------|-----|
-|Description|First line for entering address 1 information.|
-|DisplayName|Street 1|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_line1|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Line2"></a> Address1_Line2
-
-|Property|Value|
-|--------|-----|
-|Description|Second line for entering address 1 information.|
-|DisplayName|Street 2|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_line2|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Line3"></a> Address1_Line3
-
-|Property|Value|
-|--------|-----|
-|Description|Third line for entering address 1 information.|
-|DisplayName|Street 3|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_line3|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Longitude"></a> Address1_Longitude
-
-|Property|Value|
-|--------|-----|
-|Description|Longitude for address 1.|
-|DisplayName|Address 1: Longitude|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_longitude|
-|MaxValue|180|
-|MinValue|-180|
-|Precision|5|
-|RequiredLevel|None|
-|Type|Double|
-
-
-### <a name="BKMK_Address1_Name"></a> Address1_Name
-
-|Property|Value|
-|--------|-----|
-|Description|Name to enter for address 1.|
-|DisplayName|Address 1: Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_name|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_PostalCode"></a> Address1_PostalCode
-
-|Property|Value|
-|--------|-----|
-|Description|ZIP Code or postal code for address 1.|
-|DisplayName|ZIP/Postal Code|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_postalcode|
-|MaxLength|40|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_PostOfficeBox"></a> Address1_PostOfficeBox
-
-|Property|Value|
-|--------|-----|
-|Description|Post office box number for address 1.|
-|DisplayName|Address 1: Post Office Box|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_postofficebox|
-|MaxLength|40|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_ShippingMethodCode"></a> Address1_ShippingMethodCode
-
-|Property|Value|
-|--------|-----|
-|Description|Method of shipment for address 1.|
-|DisplayName|Address 1: Shipping Method|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address1_shippingmethodcode|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### Address1_ShippingMethodCode Choices/Options
-
-|Value|Label|
-|-----|-----|
-|1|Default Value|
-
-
-
-### <a name="BKMK_Address1_StateOrProvince"></a> Address1_StateOrProvince
-
-|Property|Value|
-|--------|-----|
-|Description|State or province for address 1.|
-|DisplayName|State/Province|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_stateorprovince|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Telephone1"></a> Address1_Telephone1
-
-|Property|Value|
-|--------|-----|
-|Description|First telephone number associated with address 1.|
-|DisplayName|Main Phone|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_telephone1|
-|MaxLength|64|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Telephone2"></a> Address1_Telephone2
-
-|Property|Value|
-|--------|-----|
-|Description|Second telephone number associated with address 1.|
-|DisplayName|Other Phone|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_telephone2|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_Telephone3"></a> Address1_Telephone3
-
-|Property|Value|
-|--------|-----|
-|Description|Third telephone number associated with address 1.|
-|DisplayName|Pager|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_telephone3|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_UPSZone"></a> Address1_UPSZone
-
-|Property|Value|
-|--------|-----|
-|Description|United Parcel Service (UPS) zone for address 1.|
-|DisplayName|Address 1: UPS Zone|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address1_upszone|
-|MaxLength|4|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address1_UTCOffset"></a> Address1_UTCOffset
-
-|Property|Value|
-|--------|-----|
-|Description|UTC offset for address 1. This is the difference between local time and standard Coordinated Universal Time.|
-|DisplayName|Address 1: UTC Offset|
-|Format|TimeZone|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address1_utcoffset|
-|MaxValue|1500|
-|MinValue|-1500|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_Address2_AddressId"></a> Address2_AddressId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier for address 2.|
-|DisplayName|Address 2: ID|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address2_addressid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_Address2_AddressTypeCode"></a> Address2_AddressTypeCode
-
-|Property|Value|
-|--------|-----|
-|Description|Type of address for address 2, such as billing, shipping, or primary address.|
-|DisplayName|Address 2: Address Type|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address2_addresstypecode|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### Address2_AddressTypeCode Choices/Options
-
-|Value|Label|
-|-----|-----|
-|1|Default Value|
-
-
-
-### <a name="BKMK_Address2_City"></a> Address2_City
-
-|Property|Value|
-|--------|-----|
-|Description|City name for address 2.|
-|DisplayName|Other City|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_city|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Country"></a> Address2_Country
-
-|Property|Value|
-|--------|-----|
-|Description|Country/region name in address 2.|
-|DisplayName|Other Country/Region|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_country|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_County"></a> Address2_County
-
-|Property|Value|
-|--------|-----|
-|Description|County name for address 2.|
-|DisplayName|Address 2: County|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_county|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Fax"></a> Address2_Fax
-
-|Property|Value|
-|--------|-----|
-|Description|Fax number for address 2.|
-|DisplayName|Address 2: Fax|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_fax|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Latitude"></a> Address2_Latitude
-
-|Property|Value|
-|--------|-----|
-|Description|Latitude for address 2.|
-|DisplayName|Address 2: Latitude|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_latitude|
-|MaxValue|90|
-|MinValue|-90|
-|Precision|5|
-|RequiredLevel|None|
-|Type|Double|
-
-
-### <a name="BKMK_Address2_Line1"></a> Address2_Line1
-
-|Property|Value|
-|--------|-----|
-|Description|First line for entering address 2 information.|
-|DisplayName|Other Street 1|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_line1|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Line2"></a> Address2_Line2
-
-|Property|Value|
-|--------|-----|
-|Description|Second line for entering address 2 information.|
-|DisplayName|Other Street 2|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_line2|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Line3"></a> Address2_Line3
-
-|Property|Value|
-|--------|-----|
-|Description|Third line for entering address 2 information.|
-|DisplayName|Other Street 3|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_line3|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Longitude"></a> Address2_Longitude
-
-|Property|Value|
-|--------|-----|
-|Description|Longitude for address 2.|
-|DisplayName|Address 2: Longitude|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_longitude|
-|MaxValue|180|
-|MinValue|-180|
-|Precision|5|
-|RequiredLevel|None|
-|Type|Double|
-
-
-### <a name="BKMK_Address2_Name"></a> Address2_Name
-
-|Property|Value|
-|--------|-----|
-|Description|Name to enter for address 2.|
-|DisplayName|Address 2: Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_name|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_PostalCode"></a> Address2_PostalCode
-
-|Property|Value|
-|--------|-----|
-|Description|ZIP Code or postal code for address 2.|
-|DisplayName|Other ZIP/Postal Code|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_postalcode|
-|MaxLength|40|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_PostOfficeBox"></a> Address2_PostOfficeBox
-
-|Property|Value|
-|--------|-----|
-|Description|Post office box number for address 2.|
-|DisplayName|Address 2: Post Office Box|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_postofficebox|
-|MaxLength|40|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_ShippingMethodCode"></a> Address2_ShippingMethodCode
-
-|Property|Value|
-|--------|-----|
-|Description|Method of shipment for address 2.|
-|DisplayName|Address 2: Shipping Method|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address2_shippingmethodcode|
-|RequiredLevel|None|
-|Type|Picklist|
-
-#### Address2_ShippingMethodCode Choices/Options
-
-|Value|Label|
-|-----|-----|
-|1|Default Value|
-
-
-
-### <a name="BKMK_Address2_StateOrProvince"></a> Address2_StateOrProvince
-
-|Property|Value|
-|--------|-----|
-|Description|State or province for address 2.|
-|DisplayName|Other State/Province|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_stateorprovince|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Telephone1"></a> Address2_Telephone1
-
-|Property|Value|
-|--------|-----|
-|Description|First telephone number associated with address 2.|
-|DisplayName|Address 2: Telephone 1|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_telephone1|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Telephone2"></a> Address2_Telephone2
-
-|Property|Value|
-|--------|-----|
-|Description|Second telephone number associated with address 2.|
-|DisplayName|Address 2: Telephone 2|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_telephone2|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_Telephone3"></a> Address2_Telephone3
-
-|Property|Value|
-|--------|-----|
-|Description|Third telephone number associated with address 2.|
-|DisplayName|Address 2: Telephone 3|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_telephone3|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_UPSZone"></a> Address2_UPSZone
+Many-To-One Relationship: [msdyn_bookingalertstatus lk_msdyn_bookingalertstatus_modifiedby](msdyn_bookingalertstatus.md#BKMK_lk_msdyn_bookingalertstatus_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|United Parcel Service (UPS) zone for address 2.|
-|DisplayName|Address 2: UPS Zone|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address2_upszone|
-|MaxLength|4|
-|RequiredLevel|None|
-|Type|String|
-
-
-### <a name="BKMK_Address2_UTCOffset"></a> Address2_UTCOffset
-
-|Property|Value|
-|--------|-----|
-|Description|UTC offset for address 2. This is the difference between local time and standard Coordinated Universal Time.|
-|DisplayName|Address 2: UTC Offset|
-|Format|TimeZone|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|address2_utcoffset|
-|MaxValue|1500|
-|MinValue|-1500|
-|RequiredLevel|None|
-|Type|Integer|
-
-
-### <a name="BKMK_ApplicationId"></a> ApplicationId
-
-|Property|Value|
-|--------|-----|
-|Description|The identifier for the application. This is used to access data in another application.|
-|DisplayName|Application ID|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|applicationid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
-
-### <a name="BKMK_AzureState"></a> AzureState
-
-**Added by**: AuthorizationCore Solution
-
-|Property|Value|
-|--------|-----|
-|Description|Azure state of user|
-|DisplayName|Azure State|
-|IsValidForCreate|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|azurestate|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalertstatus`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingalertstatus_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### AzureState Choices/Options
+### <a name="BKMK_lk_msdyn_bookingalertstatus_modifiedonbehalfby"></a> lk_msdyn_bookingalertstatus_modifiedonbehalfby
 
-|Value|Label|
-|-----|-----|
-|0|Exists|
-|1|Soft deleted|
-|2|Not found or hard deleted|
-
-
+Many-To-One Relationship: [msdyn_bookingalertstatus lk_msdyn_bookingalertstatus_modifiedonbehalfby](msdyn_bookingalertstatus.md#BKMK_lk_msdyn_bookingalertstatus_modifiedonbehalfby)
 
-### <a name="BKMK_BusinessUnitId"></a> BusinessUnitId
-
-|Property|Value|
-|--------|-----|
-|Description|Unique identifier of the business unit with which the user is associated.|
-|DisplayName|Business Unit|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|businessunitid|
-|RequiredLevel|SystemRequired|
-|Targets|businessunit|
-|Type|Lookup|
-
-
-### <a name="BKMK_CalendarId"></a> CalendarId
-
 |Property|Value|
-|--------|-----|
-|Description|Fiscal calendar associated with the user.|
-|DisplayName|Calendar|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|calendarid|
-|RequiredLevel|None|
-|Targets|calendar|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalertstatus`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingalertstatus_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingchange_createdby"></a> lk_msdyn_bookingchange_createdby
 
-### <a name="BKMK_CALType"></a> CALType
+Many-To-One Relationship: [msdyn_bookingchange lk_msdyn_bookingchange_createdby](msdyn_bookingchange.md#BKMK_lk_msdyn_bookingchange_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|License type of user. This is used only in the on-premises version of the product. Online licenses are managed through Microsoft 365 Office Portal|
-|DisplayName|License Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|caltype|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
-
-#### CALType Choices/Options
+|---|---|
+|ReferencingEntity|`msdyn_bookingchange`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingchange_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-|Value|Label|
-|-----|-----|
-|0|Professional|
-|1|Administrative|
-|2|Basic|
-|3|Device Professional|
-|4|Device Basic|
-|5|Essential|
-|6|Device Essential|
-|7|Enterprise|
-|8|Device Enterprise|
-|9|Sales|
-|10|Service|
-|11|Field Service|
-|12|Project Service|
+### <a name="BKMK_lk_msdyn_bookingchange_createdonbehalfby"></a> lk_msdyn_bookingchange_createdonbehalfby
 
+Many-To-One Relationship: [msdyn_bookingchange lk_msdyn_bookingchange_createdonbehalfby](msdyn_bookingchange.md#BKMK_lk_msdyn_bookingchange_createdonbehalfby)
 
-
-### <a name="BKMK_DisplayInServiceViews"></a> DisplayInServiceViews
-
 |Property|Value|
-|--------|-----|
-|Description|Whether to display the user in service views.|
-|DisplayName|Display in Service Views|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|displayinserviceviews|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### DisplayInServiceViews Choices/Options
-
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
-
-**DefaultValue**: False
+|---|---|
+|ReferencingEntity|`msdyn_bookingchange`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingchange_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingchange_modifiedby"></a> lk_msdyn_bookingchange_modifiedby
 
+Many-To-One Relationship: [msdyn_bookingchange lk_msdyn_bookingchange_modifiedby](msdyn_bookingchange.md#BKMK_lk_msdyn_bookingchange_modifiedby)
 
-### <a name="BKMK_DomainName"></a> DomainName
-
-|Property|Value|
-|--------|-----|
-|Description|Active Directory domain of which the user is a member.|
-|DisplayName|User Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|domainname|
-|MaxLength|1024|
-|RequiredLevel|SystemRequired|
-|Type|String|
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingchange`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingchange_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingchange_modifiedonbehalfby"></a> lk_msdyn_bookingchange_modifiedonbehalfby
 
-### <a name="BKMK_EmailRouterAccessApproval"></a> EmailRouterAccessApproval
+Many-To-One Relationship: [msdyn_bookingchange lk_msdyn_bookingchange_modifiedonbehalfby](msdyn_bookingchange.md#BKMK_lk_msdyn_bookingchange_modifiedonbehalfby)
 
-|Property|Value|
-|--------|-----|
-|Description|Shows the status of the primary email address.|
-|DisplayName|Primary Email Status|
-|IsValidForCreate|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|emailrouteraccessapproval|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingchange`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingchange_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### EmailRouterAccessApproval Choices/Options
+### <a name="BKMK_lk_msdyn_bookingrule_createdby"></a> lk_msdyn_bookingrule_createdby
 
-|Value|Label|
-|-----|-----|
-|0|Empty|
-|1|Approved|
-|2|Pending Approval|
-|3|Rejected|
+Many-To-One Relationship: [msdyn_bookingrule lk_msdyn_bookingrule_createdby](msdyn_bookingrule.md#BKMK_lk_msdyn_bookingrule_createdby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingrule`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingrule_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingrule_createdonbehalfby"></a> lk_msdyn_bookingrule_createdonbehalfby
 
-### <a name="BKMK_EmployeeId"></a> EmployeeId
+Many-To-One Relationship: [msdyn_bookingrule lk_msdyn_bookingrule_createdonbehalfby](msdyn_bookingrule.md#BKMK_lk_msdyn_bookingrule_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Employee identifier for the user.|
-|DisplayName|Employee|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|employeeid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookingrule`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingrule_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingrule_modifiedby"></a> lk_msdyn_bookingrule_modifiedby
 
-### <a name="BKMK_EntityImage"></a> EntityImage
+Many-To-One Relationship: [msdyn_bookingrule lk_msdyn_bookingrule_modifiedby](msdyn_bookingrule.md#BKMK_lk_msdyn_bookingrule_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the default image for the record.|
-|DisplayName|Entity Image|
-|IsPrimaryImage|True|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|entityimage|
-|MaxHeight|144|
-|MaxWidth|144|
-|RequiredLevel|None|
-|Type|Image|
+|---|---|
+|ReferencingEntity|`msdyn_bookingrule`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingrule_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingrule_modifiedonbehalfby"></a> lk_msdyn_bookingrule_modifiedonbehalfby
 
-### <a name="BKMK_FirstName"></a> FirstName
+Many-To-One Relationship: [msdyn_bookingrule lk_msdyn_bookingrule_modifiedonbehalfby](msdyn_bookingrule.md#BKMK_lk_msdyn_bookingrule_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|First name of the user.|
-|DisplayName|First Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|firstname|
-|MaxLength|256|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookingrule`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingrule_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingsetupmetadata_createdby"></a> lk_msdyn_bookingsetupmetadata_createdby
 
-### <a name="BKMK_GovernmentId"></a> GovernmentId
+Many-To-One Relationship: [msdyn_bookingsetupmetadata lk_msdyn_bookingsetupmetadata_createdby](msdyn_bookingsetupmetadata.md#BKMK_lk_msdyn_bookingsetupmetadata_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Government identifier for the user.|
-|DisplayName|Government|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|governmentid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingsetupmetadata_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingsetupmetadata_createdonbehalfby"></a> lk_msdyn_bookingsetupmetadata_createdonbehalfby
 
-### <a name="BKMK_HomePhone"></a> HomePhone
+Many-To-One Relationship: [msdyn_bookingsetupmetadata lk_msdyn_bookingsetupmetadata_createdonbehalfby](msdyn_bookingsetupmetadata.md#BKMK_lk_msdyn_bookingsetupmetadata_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Home phone number for the user.|
-|DisplayName|Home Phone|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|homephone|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingsetupmetadata_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingsetupmetadata_modifiedby"></a> lk_msdyn_bookingsetupmetadata_modifiedby
 
-### <a name="BKMK_ImportSequenceNumber"></a> ImportSequenceNumber
+Many-To-One Relationship: [msdyn_bookingsetupmetadata lk_msdyn_bookingsetupmetadata_modifiedby](msdyn_bookingsetupmetadata.md#BKMK_lk_msdyn_bookingsetupmetadata_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the data import or data migration that created this record.|
-|DisplayName|Import Sequence Number|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|importsequencenumber|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|None|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingsetupmetadata_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_bookingsetupmetadata_modifiedonbehalfby"></a> lk_msdyn_bookingsetupmetadata_modifiedonbehalfby
 
-### <a name="BKMK_IncomingEmailDeliveryMethod"></a> IncomingEmailDeliveryMethod
+Many-To-One Relationship: [msdyn_bookingsetupmetadata lk_msdyn_bookingsetupmetadata_modifiedonbehalfby](msdyn_bookingsetupmetadata.md#BKMK_lk_msdyn_bookingsetupmetadata_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Incoming email delivery method for the user.|
-|DisplayName|Incoming Email Delivery Method|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|incomingemaildeliverymethod|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_bookingsetupmetadata_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### IncomingEmailDeliveryMethod Choices/Options
+### <a name="BKMK_lk_msdyn_businessclosure_createdby"></a> lk_msdyn_businessclosure_createdby
 
-|Value|Label|
-|-----|-----|
-|0|None|
-|1|Microsoft Dynamics 365 for Outlook|
-|2|Server-Side Synchronization or Email Router|
-|3|Forward Mailbox|
+Many-To-One Relationship: [msdyn_businessclosure lk_msdyn_businessclosure_createdby](msdyn_businessclosure.md#BKMK_lk_msdyn_businessclosure_createdby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_businessclosure`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_businessclosure_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_businessclosure_createdonbehalfby"></a> lk_msdyn_businessclosure_createdonbehalfby
 
-### <a name="BKMK_InternalEMailAddress"></a> InternalEMailAddress
+Many-To-One Relationship: [msdyn_businessclosure lk_msdyn_businessclosure_createdonbehalfby](msdyn_businessclosure.md#BKMK_lk_msdyn_businessclosure_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Internal email address for the user.|
-|DisplayName|Primary Email|
-|FormatName|Email|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|internalemailaddress|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_businessclosure`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_businessclosure_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_businessclosure_modifiedby"></a> lk_msdyn_businessclosure_modifiedby
 
-### <a name="BKMK_InviteStatusCode"></a> InviteStatusCode
+Many-To-One Relationship: [msdyn_businessclosure lk_msdyn_businessclosure_modifiedby](msdyn_businessclosure.md#BKMK_lk_msdyn_businessclosure_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|User invitation status.|
-|DisplayName|Invitation Status|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|invitestatuscode|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_businessclosure`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_businessclosure_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### InviteStatusCode Choices/Options
+### <a name="BKMK_lk_msdyn_businessclosure_modifiedonbehalfby"></a> lk_msdyn_businessclosure_modifiedonbehalfby
 
-|Value|Label|
-|-----|-----|
-|0|Invitation Not Sent|
-|1|Invited|
-|2|Invitation Near Expired|
-|3|Invitation Expired|
-|4|Invitation Accepted|
-|5|Invitation Rejected|
-|6|Invitation Revoked|
+Many-To-One Relationship: [msdyn_businessclosure lk_msdyn_businessclosure_modifiedonbehalfby](msdyn_businessclosure.md#BKMK_lk_msdyn_businessclosure_modifiedonbehalfby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_businessclosure`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_businessclosure_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_clientextension_createdby"></a> lk_msdyn_clientextension_createdby
 
-### <a name="BKMK_IsDisabled"></a> IsDisabled
+Many-To-One Relationship: [msdyn_clientextension lk_msdyn_clientextension_createdby](msdyn_clientextension.md#BKMK_lk_msdyn_clientextension_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Information about whether the user is enabled.|
-|DisplayName|Status|
-|IsValidForCreate|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|isdisabled|
-|RequiredLevel|None|
-|Type|Boolean|
-
-#### IsDisabled Choices/Options
+|---|---|
+|ReferencingEntity|`msdyn_clientextension`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_clientextension_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-|Value|Label|
-|-----|-----|
-|1|Disabled|
-|0|Enabled|
+### <a name="BKMK_lk_msdyn_clientextension_createdonbehalfby"></a> lk_msdyn_clientextension_createdonbehalfby
 
-**DefaultValue**: False
+Many-To-One Relationship: [msdyn_clientextension lk_msdyn_clientextension_createdonbehalfby](msdyn_clientextension.md#BKMK_lk_msdyn_clientextension_createdonbehalfby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_clientextension`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_clientextension_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_clientextension_modifiedby"></a> lk_msdyn_clientextension_modifiedby
 
-### <a name="BKMK_IsIntegrationUser"></a> IsIntegrationUser
+Many-To-One Relationship: [msdyn_clientextension lk_msdyn_clientextension_modifiedby](msdyn_clientextension.md#BKMK_lk_msdyn_clientextension_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Check if user is an integration user.|
-|DisplayName|Integration user mode|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|isintegrationuser|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
+|---|---|
+|ReferencingEntity|`msdyn_clientextension`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_clientextension_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### IsIntegrationUser Choices/Options
+### <a name="BKMK_lk_msdyn_clientextension_modifiedonbehalfby"></a> lk_msdyn_clientextension_modifiedonbehalfby
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+Many-To-One Relationship: [msdyn_clientextension lk_msdyn_clientextension_modifiedonbehalfby](msdyn_clientextension.md#BKMK_lk_msdyn_clientextension_modifiedonbehalfby)
 
-**DefaultValue**: False
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_clientextension`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_clientextension_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_configuration_createdby"></a> lk_msdyn_configuration_createdby
 
-### <a name="BKMK_IsLicensed"></a> IsLicensed
+Many-To-One Relationship: [msdyn_configuration lk_msdyn_configuration_createdby](msdyn_configuration.md#BKMK_lk_msdyn_configuration_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Information about whether the user is licensed.|
-|DisplayName|User Licensed|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|islicensed|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
+|---|---|
+|ReferencingEntity|`msdyn_configuration`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_configuration_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### IsLicensed Choices/Options
+### <a name="BKMK_lk_msdyn_configuration_createdonbehalfby"></a> lk_msdyn_configuration_createdonbehalfby
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+Many-To-One Relationship: [msdyn_configuration lk_msdyn_configuration_createdonbehalfby](msdyn_configuration.md#BKMK_lk_msdyn_configuration_createdonbehalfby)
 
-**DefaultValue**: False
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_configuration`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_configuration_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_configuration_modifiedby"></a> lk_msdyn_configuration_modifiedby
 
-### <a name="BKMK_IsSyncWithDirectory"></a> IsSyncWithDirectory
+Many-To-One Relationship: [msdyn_configuration lk_msdyn_configuration_modifiedby](msdyn_configuration.md#BKMK_lk_msdyn_configuration_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Information about whether the user is synced with the directory.|
-|DisplayName|User Synced|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|issyncwithdirectory|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
+|---|---|
+|ReferencingEntity|`msdyn_configuration`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_configuration_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### IsSyncWithDirectory Choices/Options
+### <a name="BKMK_lk_msdyn_configuration_modifiedonbehalfby"></a> lk_msdyn_configuration_modifiedonbehalfby
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+Many-To-One Relationship: [msdyn_configuration lk_msdyn_configuration_modifiedonbehalfby](msdyn_configuration.md#BKMK_lk_msdyn_configuration_modifiedonbehalfby)
 
-**DefaultValue**: False
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_configuration`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_configuration_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_optimizationrequest_createdby"></a> lk_msdyn_optimizationrequest_createdby
 
-### <a name="BKMK_JobTitle"></a> JobTitle
+Many-To-One Relationship: [msdyn_optimizationrequest lk_msdyn_optimizationrequest_createdby](msdyn_optimizationrequest.md#BKMK_lk_msdyn_optimizationrequest_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Job title of the user.|
-|DisplayName|Job Title|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|jobtitle|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequest`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_optimizationrequest_createdby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_optimizationrequest_createdonbehalfby"></a> lk_msdyn_optimizationrequest_createdonbehalfby
 
-### <a name="BKMK_LastName"></a> LastName
+Many-To-One Relationship: [msdyn_optimizationrequest lk_msdyn_optimizationrequest_createdonbehalfby](msdyn_optimizationrequest.md#BKMK_lk_msdyn_optimizationrequest_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Last name of the user.|
-|DisplayName|Last Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|lastname|
-|MaxLength|256|
-|RequiredLevel|ApplicationRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequest`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_optimizationrequest_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_optimizationrequest_modifiedby"></a> lk_msdyn_optimizationrequest_modifiedby
 
-### <a name="BKMK_MiddleName"></a> MiddleName
+Many-To-One Relationship: [msdyn_optimizationrequest lk_msdyn_optimizationrequest_modifiedby](msdyn_optimizationrequest.md#BKMK_lk_msdyn_optimizationrequest_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Middle name of the user.|
-|DisplayName|Middle Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|middlename|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequest`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_optimizationrequest_modifiedby`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_optimizationrequest_modifiedonbehalfby"></a> lk_msdyn_optimizationrequest_modifiedonbehalfby
 
-### <a name="BKMK_MobileAlertEMail"></a> MobileAlertEMail
+Many-To-One Relationship: [msdyn_optimizationrequest lk_msdyn_optimizationrequest_modifiedonbehalfby](msdyn_optimizationrequest.md#BKMK_lk_msdyn_optimizationrequest_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Mobile alert email address for the user.|
-|DisplayName|Mobile Alert Email|
-|FormatName|Email|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|mobilealertemail|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequest`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_optimizationrequest_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_organizationalunit_createdby"></a> lk_msdyn_organizationalunit_createdby
 
-### <a name="BKMK_MobileOfflineProfileId"></a> MobileOfflineProfileId
+Many-To-One Relationship: [msdyn_organizationalunit lk_msdyn_organizationalunit_createdby](msdyn_organizationalunit.md#BKMK_lk_msdyn_organizationalunit_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Items contained with a particular SystemUser.|
-|DisplayName|Mobile Offline Profile|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|mobileofflineprofileid|
-|RequiredLevel|None|
-|Targets|mobileofflineprofile|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_organizationalunit`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_organizationalunit_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_organizationalunit_createdonbehalfby"></a> lk_msdyn_organizationalunit_createdonbehalfby
 
-### <a name="BKMK_MobileOfflineProfileIdName"></a> MobileOfflineProfileIdName
+Many-To-One Relationship: [msdyn_organizationalunit lk_msdyn_organizationalunit_createdonbehalfby](msdyn_organizationalunit.md#BKMK_lk_msdyn_organizationalunit_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|mobileofflineprofileidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_organizationalunit`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_organizationalunit_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_organizationalunit_modifiedby"></a> lk_msdyn_organizationalunit_modifiedby
 
-### <a name="BKMK_MobilePhone"></a> MobilePhone
+Many-To-One Relationship: [msdyn_organizationalunit lk_msdyn_organizationalunit_modifiedby](msdyn_organizationalunit.md#BKMK_lk_msdyn_organizationalunit_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Mobile phone number for the user.|
-|DisplayName|Mobile Phone|
-|FormatName|Phone|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|mobilephone|
-|MaxLength|64|
-|RequiredLevel|None|
-|Type|String|
-
+|---|---|
+|ReferencingEntity|`msdyn_organizationalunit`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_organizationalunit_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_AgentType"></a> msdyn_AgentType
+### <a name="BKMK_lk_msdyn_organizationalunit_modifiedonbehalfby"></a> lk_msdyn_organizationalunit_modifiedonbehalfby
 
-**Added by**: Omnichannel – Bot Enabler Solution
+Many-To-One Relationship: [msdyn_organizationalunit lk_msdyn_organizationalunit_modifiedonbehalfby](msdyn_organizationalunit.md#BKMK_lk_msdyn_organizationalunit_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Type of user - Application user or Bot application user|
-|DisplayName|User type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_agentType|
-|RequiredLevel|None|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_organizationalunit`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_organizationalunit_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### msdyn_AgentType Choices/Options
+### <a name="BKMK_lk_msdyn_priority_createdby"></a> lk_msdyn_priority_createdby
 
-|Value|Label|
-|-----|-----|
-|192350000|Application user|
-|192350001|Bot application user|
+Many-To-One Relationship: [msdyn_priority lk_msdyn_priority_createdby](msdyn_priority.md#BKMK_lk_msdyn_priority_createdby)
 
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_priority`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_priority_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_BotApplicationId"></a> msdyn_BotApplicationId
+### <a name="BKMK_lk_msdyn_priority_createdonbehalfby"></a> lk_msdyn_priority_createdonbehalfby
 
-**Added by**: Omnichannel – Bot Enabler Solution
+Many-To-One Relationship: [msdyn_priority lk_msdyn_priority_createdonbehalfby](msdyn_priority.md#BKMK_lk_msdyn_priority_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Application ID of the bot.|
-|DisplayName|Bot application ID|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_botapplicationid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_priority`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_priority_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_priority_modifiedby"></a> lk_msdyn_priority_modifiedby
 
-### <a name="BKMK_msdyn_BotDescription"></a> msdyn_BotDescription
+Many-To-One Relationship: [msdyn_priority lk_msdyn_priority_modifiedby](msdyn_priority.md#BKMK_lk_msdyn_priority_modifiedby)
 
-**Added by**: Omnichannel – Base Solution
-
 |Property|Value|
-|--------|-----|
-|Description|BOT User Description|
-|DisplayName|Description|
-|Format|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_botdescription|
-|MaxLength|2000|
-|RequiredLevel|None|
-|Type|Memo|
+|---|---|
+|ReferencingEntity|`msdyn_priority`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_priority_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_priority_modifiedonbehalfby"></a> lk_msdyn_priority_modifiedonbehalfby
 
-### <a name="BKMK_msdyn_BotEndpoint"></a> msdyn_BotEndpoint
+Many-To-One Relationship: [msdyn_priority lk_msdyn_priority_modifiedonbehalfby](msdyn_priority.md#BKMK_lk_msdyn_priority_modifiedonbehalfby)
 
-**Added by**: Omnichannel – Base Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Bot User Endpoint|
-|DisplayName|Endpoint|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_botendpoint|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
+|---|---|
+|ReferencingEntity|`msdyn_priority`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_priority_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_bothandle"></a> msdyn_bothandle
+### <a name="BKMK_lk_msdyn_requirementchange_createdby"></a> lk_msdyn_requirementchange_createdby
 
-**Added by**: Omnichannel - Bot Enabler Patch Solution
+Many-To-One Relationship: [msdyn_requirementchange lk_msdyn_requirementchange_createdby](msdyn_requirementchange.md#BKMK_lk_msdyn_requirementchange_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Bot handle|
-|DisplayName|Bot handle|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_bothandle|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementchange`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementchange_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementchange_createdonbehalfby"></a> lk_msdyn_requirementchange_createdonbehalfby
 
-### <a name="BKMK_msdyn_BotProvider"></a> msdyn_BotProvider
+Many-To-One Relationship: [msdyn_requirementchange lk_msdyn_requirementchange_createdonbehalfby](msdyn_requirementchange.md#BKMK_lk_msdyn_requirementchange_createdonbehalfby)
 
-**Added by**: Omnichannel - Bot Enabler Patch Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Indicates the type of bot|
-|DisplayName|Bot Provider|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_botprovider|
-|RequiredLevel|ApplicationRequired|
-|Type|Picklist|
-
-#### msdyn_BotProvider Choices/Options
+|---|---|
+|ReferencingEntity|`msdyn_requirementchange`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementchange_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-|Value|Label|
-|-----|-----|
-|192350000|Virtual Agent|
-|192350001|Other|
-|192350002|None|
+### <a name="BKMK_lk_msdyn_requirementchange_modifiedby"></a> lk_msdyn_requirementchange_modifiedby
 
+Many-To-One Relationship: [msdyn_requirementchange lk_msdyn_requirementchange_modifiedby](msdyn_requirementchange.md#BKMK_lk_msdyn_requirementchange_modifiedby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementchange`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementchange_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_BotSecretKeys"></a> msdyn_BotSecretKeys
+### <a name="BKMK_lk_msdyn_requirementchange_modifiedonbehalfby"></a> lk_msdyn_requirementchange_modifiedonbehalfby
 
-**Added by**: Omnichannel – Base Solution
+Many-To-One Relationship: [msdyn_requirementchange lk_msdyn_requirementchange_modifiedonbehalfby](msdyn_requirementchange.md#BKMK_lk_msdyn_requirementchange_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Bot User Secret Keys|
-|DisplayName|Secret Keys|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_botsecretkeys|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementchange`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementchange_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementcharacteristic_createdby"></a> lk_msdyn_requirementcharacteristic_createdby
 
-### <a name="BKMK_msdyn_Capacity"></a> msdyn_Capacity
+Many-To-One Relationship: [msdyn_requirementcharacteristic lk_msdyn_requirementcharacteristic_createdby](msdyn_requirementcharacteristic.md#BKMK_lk_msdyn_requirementcharacteristic_createdby)
 
-**Added by**: Omnichannel – Base Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Capacity associated with the User.|
-|DisplayName|Capacity|
-|Format|None|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_capacity|
-|MaxValue|2147483647|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
-
+|---|---|
+|ReferencingEntity|`msdyn_requirementcharacteristic`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementcharacteristic_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_cognitiveservicesregion"></a> msdyn_cognitiveservicesregion
+### <a name="BKMK_lk_msdyn_requirementcharacteristic_createdonbehalfby"></a> lk_msdyn_requirementcharacteristic_createdonbehalfby
 
-**Added by**: Omnichannel - Telephony Solution
+Many-To-One Relationship: [msdyn_requirementcharacteristic lk_msdyn_requirementcharacteristic_createdonbehalfby](msdyn_requirementcharacteristic.md#BKMK_lk_msdyn_requirementcharacteristic_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Cognitive Services Region|
-|DisplayName|Cognitive Services Region|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_cognitiveservicesregion|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementcharacteristic`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementcharacteristic_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementcharacteristic_modifiedby"></a> lk_msdyn_requirementcharacteristic_modifiedby
 
-### <a name="BKMK_msdyn_cognitiveservicessubscriptionkey"></a> msdyn_cognitiveservicessubscriptionkey
+Many-To-One Relationship: [msdyn_requirementcharacteristic lk_msdyn_requirementcharacteristic_modifiedby](msdyn_requirementcharacteristic.md#BKMK_lk_msdyn_requirementcharacteristic_modifiedby)
 
-**Added by**: Omnichannel - Telephony Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Cognitive Services Subscription Key|
-|DisplayName|Cognitive Services Subscription Key|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_cognitiveservicessubscriptionkey|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementcharacteristic`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementcharacteristic_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementcharacteristic_modifiedonbehalfby"></a> lk_msdyn_requirementcharacteristic_modifiedonbehalfby
 
-### <a name="BKMK_msdyn_DefaultPresenceIdUser"></a> msdyn_DefaultPresenceIdUser
+Many-To-One Relationship: [msdyn_requirementcharacteristic lk_msdyn_requirementcharacteristic_modifiedonbehalfby](msdyn_requirementcharacteristic.md#BKMK_lk_msdyn_requirementcharacteristic_modifiedonbehalfby)
 
-**Added by**: Omnichannel – Base Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier for Presence associated with User.|
-|DisplayName|Default Presence|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_defaultpresenceiduser|
-|RequiredLevel|None|
-|Targets|msdyn_presence|
-|Type|Lookup|
-
+|---|---|
+|ReferencingEntity|`msdyn_requirementcharacteristic`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementcharacteristic_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_gdproptout"></a> msdyn_gdproptout
+### <a name="BKMK_lk_msdyn_requirementdependency_createdby"></a> lk_msdyn_requirementdependency_createdby
 
-**Added by**: SI Common Solution
+Many-To-One Relationship: [msdyn_requirementdependency lk_msdyn_requirementdependency_createdby](msdyn_requirementdependency.md#BKMK_lk_msdyn_requirementdependency_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Describes whether user is opted out or not|
-|DisplayName|GDPR Optout|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gdproptout|
-|RequiredLevel|None|
-|Type|Boolean|
+|---|---|
+|ReferencingEntity|`msdyn_requirementdependency`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementdependency_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### msdyn_gdproptout Choices/Options
+### <a name="BKMK_lk_msdyn_requirementdependency_createdonbehalfby"></a> lk_msdyn_requirementdependency_createdonbehalfby
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+Many-To-One Relationship: [msdyn_requirementdependency lk_msdyn_requirementdependency_createdonbehalfby](msdyn_requirementdependency.md#BKMK_lk_msdyn_requirementdependency_createdonbehalfby)
 
-**DefaultValue**: False
-
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementdependency`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementdependency_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_gridwrappercontrolfield"></a> msdyn_gridwrappercontrolfield
+### <a name="BKMK_lk_msdyn_requirementdependency_modifiedby"></a> lk_msdyn_requirementdependency_modifiedby
 
-**Added by**: Omnichannel - Skill Based Routing Solution
+Many-To-One Relationship: [msdyn_requirementdependency lk_msdyn_requirementdependency_modifiedby](msdyn_requirementdependency.md#BKMK_lk_msdyn_requirementdependency_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Field to bind grid wrapper control|
-|DisplayName|Grid Wrapper Control field|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_gridwrappercontrolfield|
-|MaxLength|4000|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementdependency`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementdependency_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementdependency_modifiedonbehalfby"></a> lk_msdyn_requirementdependency_modifiedonbehalfby
 
-### <a name="BKMK_msdyn_isexpertenabledforswarm"></a> msdyn_isexpertenabledforswarm
+Many-To-One Relationship: [msdyn_requirementdependency lk_msdyn_requirementdependency_modifiedonbehalfby](msdyn_requirementdependency.md#BKMK_lk_msdyn_requirementdependency_modifiedonbehalfby)
 
-**Added by**: swarming Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Check if swarm is enabled for the experts.|
-|DisplayName|Expert Enabled Swarm|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_isexpertenabledforswarm|
-|RequiredLevel|ApplicationRequired|
-|Type|Boolean|
-
-#### msdyn_isexpertenabledforswarm Choices/Options
+|---|---|
+|ReferencingEntity|`msdyn_requirementdependency`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementdependency_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+### <a name="BKMK_lk_msdyn_requirementgroup_createdby"></a> lk_msdyn_requirementgroup_createdby
 
-**DefaultValue**: False
+Many-To-One Relationship: [msdyn_requirementgroup lk_msdyn_requirementgroup_createdby](msdyn_requirementgroup.md#BKMK_lk_msdyn_requirementgroup_createdby)
 
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementgroup`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementgroup_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_OwningEnvironmentId"></a> msdyn_OwningEnvironmentId
+### <a name="BKMK_lk_msdyn_requirementgroup_createdonbehalfby"></a> lk_msdyn_requirementgroup_createdonbehalfby
 
-**Added by**: Omnichannel - Bot Enabler Patch Solution
+Many-To-One Relationship: [msdyn_requirementgroup lk_msdyn_requirementgroup_createdonbehalfby](msdyn_requirementgroup.md#BKMK_lk_msdyn_requirementgroup_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Environment Id of the CDS environment that owns the bot user.|
-|DisplayName|Owning Environment Id|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_owningenvironmentid|
-|MaxLength|500|
-|RequiredLevel|None|
-|Type|String|
-
+|---|---|
+|ReferencingEntity|`msdyn_requirementgroup`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementgroup_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_phonenumberid"></a> msdyn_phonenumberid
+### <a name="BKMK_lk_msdyn_requirementgroup_modifiedby"></a> lk_msdyn_requirementgroup_modifiedby
 
-**Added by**: Omnichannel - CommunicationBase Solution
+Many-To-One Relationship: [msdyn_requirementgroup lk_msdyn_requirementgroup_modifiedby](msdyn_requirementgroup.md#BKMK_lk_msdyn_requirementgroup_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName|Phone Number|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_phonenumberid|
-|RequiredLevel|None|
-|Targets|msdyn_ocphonenumber|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_requirementgroup`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementgroup_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementgroup_modifiedonbehalfby"></a> lk_msdyn_requirementgroup_modifiedonbehalfby
 
-### <a name="BKMK_msdyn_UserType"></a> msdyn_UserType
+Many-To-One Relationship: [msdyn_requirementgroup lk_msdyn_requirementgroup_modifiedonbehalfby](msdyn_requirementgroup.md#BKMK_lk_msdyn_requirementgroup_modifiedonbehalfby)
 
-**Added by**: Omnichannel – Base Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Type of user - CRM or BOT user|
-|DisplayName|Type|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|msdyn_usertype|
-|RequiredLevel|None|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_requirementgroup`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementgroup_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### msdyn_UserType Choices/Options
+### <a name="BKMK_lk_msdyn_requirementorganizationunit_createdby"></a> lk_msdyn_requirementorganizationunit_createdby
 
-|Value|Label|
-|-----|-----|
-|192350000|CRM User|
-|192350001|BOT User|
+Many-To-One Relationship: [msdyn_requirementorganizationunit lk_msdyn_requirementorganizationunit_createdby](msdyn_requirementorganizationunit.md#BKMK_lk_msdyn_requirementorganizationunit_createdby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementorganizationunit`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementorganizationunit_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementorganizationunit_createdonbehalfby"></a> lk_msdyn_requirementorganizationunit_createdonbehalfby
 
-### <a name="BKMK_NickName"></a> NickName
+Many-To-One Relationship: [msdyn_requirementorganizationunit lk_msdyn_requirementorganizationunit_createdonbehalfby](msdyn_requirementorganizationunit.md#BKMK_lk_msdyn_requirementorganizationunit_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Nickname of the user.|
-|DisplayName|Nickname|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|nickname|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementorganizationunit`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementorganizationunit_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementorganizationunit_modifiedby"></a> lk_msdyn_requirementorganizationunit_modifiedby
 
-### <a name="BKMK_OutgoingEmailDeliveryMethod"></a> OutgoingEmailDeliveryMethod
+Many-To-One Relationship: [msdyn_requirementorganizationunit lk_msdyn_requirementorganizationunit_modifiedby](msdyn_requirementorganizationunit.md#BKMK_lk_msdyn_requirementorganizationunit_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Outgoing email delivery method for the user.|
-|DisplayName|Outgoing Email Delivery Method|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|outgoingemaildeliverymethod|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_requirementorganizationunit`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementorganizationunit_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### OutgoingEmailDeliveryMethod Choices/Options
+### <a name="BKMK_lk_msdyn_requirementorganizationunit_modifiedonbehalfby"></a> lk_msdyn_requirementorganizationunit_modifiedonbehalfby
 
-|Value|Label|
-|-----|-----|
-|0|None|
-|1|Microsoft Dynamics 365 for Outlook|
-|2|Server-Side Synchronization or Email Router|
+Many-To-One Relationship: [msdyn_requirementorganizationunit lk_msdyn_requirementorganizationunit_modifiedonbehalfby](msdyn_requirementorganizationunit.md#BKMK_lk_msdyn_requirementorganizationunit_modifiedonbehalfby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementorganizationunit`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementorganizationunit_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementrelationship_createdby"></a> lk_msdyn_requirementrelationship_createdby
 
-### <a name="BKMK_OverriddenCreatedOn"></a> OverriddenCreatedOn
+Many-To-One Relationship: [msdyn_requirementrelationship lk_msdyn_requirementrelationship_createdby](msdyn_requirementrelationship.md#BKMK_lk_msdyn_requirementrelationship_createdby)
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time that the record was migrated.|
-|DisplayName|Record Created On|
-|Format|DateOnly|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|overriddencreatedon|
-|RequiredLevel|None|
-|Type|DateTime|
+|---|---|
+|ReferencingEntity|`msdyn_requirementrelationship`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementrelationship_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementrelationship_createdonbehalfby"></a> lk_msdyn_requirementrelationship_createdonbehalfby
 
-### <a name="BKMK_ParentSystemUserId"></a> ParentSystemUserId
+Many-To-One Relationship: [msdyn_requirementrelationship lk_msdyn_requirementrelationship_createdonbehalfby](msdyn_requirementrelationship.md#BKMK_lk_msdyn_requirementrelationship_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the manager of the user.|
-|DisplayName|Manager|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|parentsystemuserid|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_requirementrelationship`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementrelationship_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementrelationship_modifiedby"></a> lk_msdyn_requirementrelationship_modifiedby
 
-### <a name="BKMK_PassportHi"></a> PassportHi
+Many-To-One Relationship: [msdyn_requirementrelationship lk_msdyn_requirementrelationship_modifiedby](msdyn_requirementrelationship.md#BKMK_lk_msdyn_requirementrelationship_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Passport Hi|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|passporthi|
-|MaxValue|1000000000|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_requirementrelationship`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementrelationship_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementrelationship_modifiedonbehalfby"></a> lk_msdyn_requirementrelationship_modifiedonbehalfby
 
-### <a name="BKMK_PassportLo"></a> PassportLo
+Many-To-One Relationship: [msdyn_requirementrelationship lk_msdyn_requirementrelationship_modifiedonbehalfby](msdyn_requirementrelationship.md#BKMK_lk_msdyn_requirementrelationship_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Passport Lo|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|passportlo|
-|MaxValue|1000000000|
-|MinValue|0|
-|RequiredLevel|None|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_requirementrelationship`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementrelationship_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementresourcecategory_createdby"></a> lk_msdyn_requirementresourcecategory_createdby
 
-### <a name="BKMK_PersonalEMailAddress"></a> PersonalEMailAddress
+Many-To-One Relationship: [msdyn_requirementresourcecategory lk_msdyn_requirementresourcecategory_createdby](msdyn_requirementresourcecategory.md#BKMK_lk_msdyn_requirementresourcecategory_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Personal email address of the user.|
-|DisplayName|Email 2|
-|FormatName|Email|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|personalemailaddress|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcecategory`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcecategory_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementresourcecategory_createdonbehalfby"></a> lk_msdyn_requirementresourcecategory_createdonbehalfby
 
-### <a name="BKMK_PhotoUrl"></a> PhotoUrl
+Many-To-One Relationship: [msdyn_requirementresourcecategory lk_msdyn_requirementresourcecategory_createdonbehalfby](msdyn_requirementresourcecategory.md#BKMK_lk_msdyn_requirementresourcecategory_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|URL for the Website on which a photo of the user is located.|
-|DisplayName|Photo URL|
-|FormatName|Url|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|photourl|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcecategory`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcecategory_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementresourcecategory_modifiedby"></a> lk_msdyn_requirementresourcecategory_modifiedby
 
-### <a name="BKMK_PositionId"></a> PositionId
+Many-To-One Relationship: [msdyn_requirementresourcecategory lk_msdyn_requirementresourcecategory_modifiedby](msdyn_requirementresourcecategory.md#BKMK_lk_msdyn_requirementresourcecategory_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|User's position in hierarchical security model.|
-|DisplayName|Position|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|positionid|
-|RequiredLevel|None|
-|Targets|position|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcecategory`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcecategory_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementresourcecategory_modifiedonbehalfby"></a> lk_msdyn_requirementresourcecategory_modifiedonbehalfby
 
-### <a name="BKMK_PreferredAddressCode"></a> PreferredAddressCode
+Many-To-One Relationship: [msdyn_requirementresourcecategory lk_msdyn_requirementresourcecategory_modifiedonbehalfby](msdyn_requirementresourcecategory.md#BKMK_lk_msdyn_requirementresourcecategory_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Preferred address for the user.|
-|DisplayName|Preferred Address|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|preferredaddresscode|
-|RequiredLevel|None|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcecategory`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcecategory_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### PreferredAddressCode Choices/Options
+### <a name="BKMK_lk_msdyn_requirementresourcepreference_createdby"></a> lk_msdyn_requirementresourcepreference_createdby
 
-|Value|Label|
-|-----|-----|
-|1|Mailing Address|
-|2|Other Address|
+Many-To-One Relationship: [msdyn_requirementresourcepreference lk_msdyn_requirementresourcepreference_createdby](msdyn_requirementresourcepreference.md#BKMK_lk_msdyn_requirementresourcepreference_createdby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcepreference`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcepreference_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementresourcepreference_createdonbehalfby"></a> lk_msdyn_requirementresourcepreference_createdonbehalfby
 
-### <a name="BKMK_PreferredEmailCode"></a> PreferredEmailCode
+Many-To-One Relationship: [msdyn_requirementresourcepreference lk_msdyn_requirementresourcepreference_createdonbehalfby](msdyn_requirementresourcepreference.md#BKMK_lk_msdyn_requirementresourcepreference_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Preferred email address for the user.|
-|DisplayName|Preferred Email|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|preferredemailcode|
-|RequiredLevel|None|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcepreference`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcepreference_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### PreferredEmailCode Choices/Options
+### <a name="BKMK_lk_msdyn_requirementresourcepreference_modifiedby"></a> lk_msdyn_requirementresourcepreference_modifiedby
 
-|Value|Label|
-|-----|-----|
-|1|Default Value|
+Many-To-One Relationship: [msdyn_requirementresourcepreference lk_msdyn_requirementresourcepreference_modifiedby](msdyn_requirementresourcepreference.md#BKMK_lk_msdyn_requirementresourcepreference_modifiedby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcepreference`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcepreference_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementresourcepreference_modifiedonbehalfby"></a> lk_msdyn_requirementresourcepreference_modifiedonbehalfby
 
-### <a name="BKMK_PreferredPhoneCode"></a> PreferredPhoneCode
+Many-To-One Relationship: [msdyn_requirementresourcepreference lk_msdyn_requirementresourcepreference_modifiedonbehalfby](msdyn_requirementresourcepreference.md#BKMK_lk_msdyn_requirementresourcepreference_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Preferred phone number for the user.|
-|DisplayName|Preferred Phone|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|preferredphonecode|
-|RequiredLevel|None|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcepreference`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementresourcepreference_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### PreferredPhoneCode Choices/Options
+### <a name="BKMK_lk_msdyn_requirementstatus_createdby"></a> lk_msdyn_requirementstatus_createdby
 
-|Value|Label|
-|-----|-----|
-|1|Main Phone|
-|2|Other Phone|
-|3|Home Phone|
-|4|Mobile Phone|
-|192350005|Omnichannel Phone|
+Many-To-One Relationship: [msdyn_requirementstatus lk_msdyn_requirementstatus_createdby](msdyn_requirementstatus.md#BKMK_lk_msdyn_requirementstatus_createdby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_requirementstatus`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementstatus_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementstatus_createdonbehalfby"></a> lk_msdyn_requirementstatus_createdonbehalfby
 
-### <a name="BKMK_ProcessId"></a> ProcessId
+Many-To-One Relationship: [msdyn_requirementstatus lk_msdyn_requirementstatus_createdonbehalfby](msdyn_requirementstatus.md#BKMK_lk_msdyn_requirementstatus_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the ID of the process.|
-|DisplayName|Process|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|processid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
+|---|---|
+|ReferencingEntity|`msdyn_requirementstatus`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementstatus_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementstatus_modifiedby"></a> lk_msdyn_requirementstatus_modifiedby
 
-### <a name="BKMK_QueueId"></a> QueueId
+Many-To-One Relationship: [msdyn_requirementstatus lk_msdyn_requirementstatus_modifiedby](msdyn_requirementstatus.md#BKMK_lk_msdyn_requirementstatus_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the default queue for the user.|
-|DisplayName|Default Queue|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|queueid|
-|RequiredLevel|None|
-|Targets|queue|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_requirementstatus`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementstatus_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_requirementstatus_modifiedonbehalfby"></a> lk_msdyn_requirementstatus_modifiedonbehalfby
 
-### <a name="BKMK_Salutation"></a> Salutation
+Many-To-One Relationship: [msdyn_requirementstatus lk_msdyn_requirementstatus_modifiedonbehalfby](msdyn_requirementstatus.md#BKMK_lk_msdyn_requirementstatus_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Salutation for correspondence with the user.|
-|DisplayName|Salutation|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|salutation|
-|MaxLength|20|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementstatus`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_requirementstatus_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourcerequirement_createdby"></a> lk_msdyn_resourcerequirement_createdby
 
-### <a name="BKMK_SetupUser"></a> SetupUser
+Many-To-One Relationship: [msdyn_resourcerequirement lk_msdyn_resourcerequirement_createdby](msdyn_resourcerequirement.md#BKMK_lk_msdyn_resourcerequirement_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Check if user is a setup user.|
-|DisplayName|Restricted Access Mode|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|setupuser|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-
-#### SetupUser Choices/Options
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirement`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirement_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+### <a name="BKMK_lk_msdyn_resourcerequirement_createdonbehalfby"></a> lk_msdyn_resourcerequirement_createdonbehalfby
 
-**DefaultValue**: False
+Many-To-One Relationship: [msdyn_resourcerequirement lk_msdyn_resourcerequirement_createdonbehalfby](msdyn_resourcerequirement.md#BKMK_lk_msdyn_resourcerequirement_createdonbehalfby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirement`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirement_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourcerequirement_modifiedby"></a> lk_msdyn_resourcerequirement_modifiedby
 
-### <a name="BKMK_SharePointEmailAddress"></a> SharePointEmailAddress
+Many-To-One Relationship: [msdyn_resourcerequirement lk_msdyn_resourcerequirement_modifiedby](msdyn_resourcerequirement.md#BKMK_lk_msdyn_resourcerequirement_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|SharePoint Work Email Address|
-|DisplayName|SharePoint Email Address|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|sharepointemailaddress|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirement`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirement_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourcerequirement_modifiedonbehalfby"></a> lk_msdyn_resourcerequirement_modifiedonbehalfby
 
-### <a name="BKMK_SiteId"></a> SiteId
+Many-To-One Relationship: [msdyn_resourcerequirement lk_msdyn_resourcerequirement_modifiedonbehalfby](msdyn_resourcerequirement.md#BKMK_lk_msdyn_resourcerequirement_modifiedonbehalfby)
 
-**Added by**: Service Solution
-
 |Property|Value|
-|--------|-----|
-|Description|Site at which the user is located.|
-|DisplayName|Site|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|siteid|
-|RequiredLevel|None|
-|Targets|site|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirement`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirement_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourcerequirementdetail_createdby"></a> lk_msdyn_resourcerequirementdetail_createdby
 
-### <a name="BKMK_Skills"></a> Skills
+Many-To-One Relationship: [msdyn_resourcerequirementdetail lk_msdyn_resourcerequirementdetail_createdby](msdyn_resourcerequirementdetail.md#BKMK_lk_msdyn_resourcerequirementdetail_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Skill set of the user.|
-|DisplayName|Skills|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|skills|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirementdetail`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirementdetail_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourcerequirementdetail_createdonbehalfby"></a> lk_msdyn_resourcerequirementdetail_createdonbehalfby
 
-### <a name="BKMK_StageId"></a> StageId
+Many-To-One Relationship: [msdyn_resourcerequirementdetail lk_msdyn_resourcerequirementdetail_createdonbehalfby](msdyn_resourcerequirementdetail.md#BKMK_lk_msdyn_resourcerequirementdetail_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the ID of the stage.|
-|DisplayName|(Deprecated) Process Stage|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|stageid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirementdetail`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirementdetail_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourcerequirementdetail_modifiedby"></a> lk_msdyn_resourcerequirementdetail_modifiedby
 
-### <a name="BKMK_SystemUserId"></a> SystemUserId
+Many-To-One Relationship: [msdyn_resourcerequirementdetail lk_msdyn_resourcerequirementdetail_modifiedby](msdyn_resourcerequirementdetail.md#BKMK_lk_msdyn_resourcerequirementdetail_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier for the user.|
-|DisplayName|User|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|IsValidForUpdate|False|
-|LogicalName|systemuserid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
-
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirementdetail`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirementdetail_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_TerritoryId"></a> TerritoryId
+### <a name="BKMK_lk_msdyn_resourcerequirementdetail_modifiedonbehalfby"></a> lk_msdyn_resourcerequirementdetail_modifiedonbehalfby
 
-**Added by**: Application Common Solution
+Many-To-One Relationship: [msdyn_resourcerequirementdetail lk_msdyn_resourcerequirementdetail_modifiedonbehalfby](msdyn_resourcerequirementdetail.md#BKMK_lk_msdyn_resourcerequirementdetail_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the territory to which the user is assigned.|
-|DisplayName|Territory|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|territoryid|
-|RequiredLevel|None|
-|Targets|territory|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirementdetail`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourcerequirementdetail_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourceterritory_createdby"></a> lk_msdyn_resourceterritory_createdby
 
-### <a name="BKMK_TimeZoneRuleVersionNumber"></a> TimeZoneRuleVersionNumber
+Many-To-One Relationship: [msdyn_resourceterritory lk_msdyn_resourceterritory_createdby](msdyn_resourceterritory.md#BKMK_lk_msdyn_resourceterritory_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Time Zone Rule Version Number|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|timezoneruleversionnumber|
-|MaxValue|2147483647|
-|MinValue|-1|
-|RequiredLevel|None|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_resourceterritory`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourceterritory_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourceterritory_createdonbehalfby"></a> lk_msdyn_resourceterritory_createdonbehalfby
 
-### <a name="BKMK_Title"></a> Title
+Many-To-One Relationship: [msdyn_resourceterritory lk_msdyn_resourceterritory_createdonbehalfby](msdyn_resourceterritory.md#BKMK_lk_msdyn_resourceterritory_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Title of the user.|
-|DisplayName|Title|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|title|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_resourceterritory`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourceterritory_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourceterritory_modifiedby"></a> lk_msdyn_resourceterritory_modifiedby
 
-### <a name="BKMK_TransactionCurrencyId"></a> TransactionCurrencyId
+Many-To-One Relationship: [msdyn_resourceterritory lk_msdyn_resourceterritory_modifiedby](msdyn_resourceterritory.md#BKMK_lk_msdyn_resourceterritory_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the currency associated with the systemuser.|
-|DisplayName|Currency|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyid|
-|RequiredLevel|None|
-|Targets|transactioncurrency|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_resourceterritory`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourceterritory_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_resourceterritory_modifiedonbehalfby"></a> lk_msdyn_resourceterritory_modifiedonbehalfby
 
-### <a name="BKMK_TraversedPath"></a> TraversedPath
+Many-To-One Relationship: [msdyn_resourceterritory lk_msdyn_resourceterritory_modifiedonbehalfby](msdyn_resourceterritory.md#BKMK_lk_msdyn_resourceterritory_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|(Deprecated) Traversed Path|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|traversedpath|
-|MaxLength|1250|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_resourceterritory`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_resourceterritory_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_scheduleboardsetting_createdby"></a> lk_msdyn_scheduleboardsetting_createdby
 
-### <a name="BKMK_UserLicenseType"></a> UserLicenseType
+Many-To-One Relationship: [msdyn_scheduleboardsetting lk_msdyn_scheduleboardsetting_createdby](msdyn_scheduleboardsetting.md#BKMK_lk_msdyn_scheduleboardsetting_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the type of user license.|
-|DisplayName|User License Type|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|userlicensetype|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|SystemRequired|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_scheduleboardsetting`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_scheduleboardsetting_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_scheduleboardsetting_createdonbehalfby"></a> lk_msdyn_scheduleboardsetting_createdonbehalfby
 
-### <a name="BKMK_UTCConversionTimeZoneCode"></a> UTCConversionTimeZoneCode
+Many-To-One Relationship: [msdyn_scheduleboardsetting lk_msdyn_scheduleboardsetting_createdonbehalfby](msdyn_scheduleboardsetting.md#BKMK_lk_msdyn_scheduleboardsetting_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Time zone code that was in use when the record was created.|
-|DisplayName|UTC Conversion Time Zone Code|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|utcconversiontimezonecode|
-|MaxValue|2147483647|
-|MinValue|-1|
-|RequiredLevel|None|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_scheduleboardsetting`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_scheduleboardsetting_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_scheduleboardsetting_modifiedby"></a> lk_msdyn_scheduleboardsetting_modifiedby
 
-### <a name="BKMK_WindowsLiveID"></a> WindowsLiveID
+Many-To-One Relationship: [msdyn_scheduleboardsetting lk_msdyn_scheduleboardsetting_modifiedby](msdyn_scheduleboardsetting.md#BKMK_lk_msdyn_scheduleboardsetting_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Windows Live ID|
-|DisplayName|Windows Live ID|
-|FormatName|Email|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|windowsliveid|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_scheduleboardsetting`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_scheduleboardsetting_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_scheduleboardsetting_modifiedonbehalfby"></a> lk_msdyn_scheduleboardsetting_modifiedonbehalfby
 
-### <a name="BKMK_YammerEmailAddress"></a> YammerEmailAddress
+Many-To-One Relationship: [msdyn_scheduleboardsetting lk_msdyn_scheduleboardsetting_modifiedonbehalfby](msdyn_scheduleboardsetting.md#BKMK_lk_msdyn_scheduleboardsetting_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|User's Yammer login email address|
-|DisplayName|Yammer Email|
-|FormatName|Email|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|yammeremailaddress|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_scheduleboardsetting`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_scheduleboardsetting_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingfeatureflag_createdby"></a> lk_msdyn_schedulingfeatureflag_createdby
 
-### <a name="BKMK_YammerUserId"></a> YammerUserId
+Many-To-One Relationship: [msdyn_schedulingfeatureflag lk_msdyn_schedulingfeatureflag_createdby](msdyn_schedulingfeatureflag.md#BKMK_lk_msdyn_schedulingfeatureflag_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|User's Yammer ID|
-|DisplayName|Yammer User ID|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|yammeruserid|
-|MaxLength|128|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingfeatureflag`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingfeatureflag_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingfeatureflag_createdonbehalfby"></a> lk_msdyn_schedulingfeatureflag_createdonbehalfby
 
-### <a name="BKMK_YomiFirstName"></a> YomiFirstName
+Many-To-One Relationship: [msdyn_schedulingfeatureflag lk_msdyn_schedulingfeatureflag_createdonbehalfby](msdyn_schedulingfeatureflag.md#BKMK_lk_msdyn_schedulingfeatureflag_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Pronunciation of the first name of the user, written in phonetic hiragana or katakana characters.|
-|DisplayName|Yomi First Name|
-|FormatName|PhoneticGuide|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|yomifirstname|
-|MaxLength|64|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingfeatureflag`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingfeatureflag_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingfeatureflag_modifiedby"></a> lk_msdyn_schedulingfeatureflag_modifiedby
 
-### <a name="BKMK_YomiLastName"></a> YomiLastName
+Many-To-One Relationship: [msdyn_schedulingfeatureflag lk_msdyn_schedulingfeatureflag_modifiedby](msdyn_schedulingfeatureflag.md#BKMK_lk_msdyn_schedulingfeatureflag_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Pronunciation of the last name of the user, written in phonetic hiragana or katakana characters.|
-|DisplayName|Yomi Last Name|
-|FormatName|PhoneticGuide|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|yomilastname|
-|MaxLength|64|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingfeatureflag`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingfeatureflag_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingfeatureflag_modifiedonbehalfby"></a> lk_msdyn_schedulingfeatureflag_modifiedonbehalfby
 
-### <a name="BKMK_YomiMiddleName"></a> YomiMiddleName
+Many-To-One Relationship: [msdyn_schedulingfeatureflag lk_msdyn_schedulingfeatureflag_modifiedonbehalfby](msdyn_schedulingfeatureflag.md#BKMK_lk_msdyn_schedulingfeatureflag_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Pronunciation of the middle name of the user, written in phonetic hiragana or katakana characters.|
-|DisplayName|Yomi Middle Name|
-|FormatName|PhoneticGuide|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|yomimiddlename|
-|MaxLength|50|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingfeatureflag`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingfeatureflag_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-<a name="read-only-attributes"></a>
+### <a name="BKMK_lk_msdyn_schedulingparameter_createdby"></a> lk_msdyn_schedulingparameter_createdby
 
-## Read-only columns/attributes
+Many-To-One Relationship: [msdyn_schedulingparameter lk_msdyn_schedulingparameter_createdby](msdyn_schedulingparameter.md#BKMK_lk_msdyn_schedulingparameter_createdby)
 
-These columns/attributes return false for both **IsValidForCreate** or **IsValidForUpdate**. Listed by **SchemaName**.
-
-- [ActiveDirectoryGuid](#BKMK_ActiveDirectoryGuid)
-- [Address1_Composite](#BKMK_Address1_Composite)
-- [Address2_Composite](#BKMK_Address2_Composite)
-- [ApplicationIdUri](#BKMK_ApplicationIdUri)
-- [AzureActiveDirectoryObjectId](#BKMK_AzureActiveDirectoryObjectId)
-- [AzureDeletedOn](#BKMK_AzureDeletedOn)
-- [BusinessUnitIdName](#BKMK_BusinessUnitIdName)
-- [CreatedBy](#BKMK_CreatedBy)
-- [CreatedByName](#BKMK_CreatedByName)
-- [CreatedByYomiName](#BKMK_CreatedByYomiName)
-- [CreatedOn](#BKMK_CreatedOn)
-- [CreatedOnBehalfBy](#BKMK_CreatedOnBehalfBy)
-- [CreatedOnBehalfByName](#BKMK_CreatedOnBehalfByName)
-- [CreatedOnBehalfByYomiName](#BKMK_CreatedOnBehalfByYomiName)
-- [DefaultFiltersPopulated](#BKMK_DefaultFiltersPopulated)
-- [DefaultMailbox](#BKMK_DefaultMailbox)
-- [DefaultMailboxName](#BKMK_DefaultMailboxName)
-- [DefaultOdbFolderName](#BKMK_DefaultOdbFolderName)
-- [DeletedState](#BKMK_DeletedState)
-- [DisabledReason](#BKMK_DisabledReason)
-- [EntityImage_Timestamp](#BKMK_EntityImage_Timestamp)
-- [EntityImage_URL](#BKMK_EntityImage_URL)
-- [EntityImageId](#BKMK_EntityImageId)
-- [ExchangeRate](#BKMK_ExchangeRate)
-- [FullName](#BKMK_FullName)
-- [IdentityId](#BKMK_IdentityId)
-- [IsActiveDirectoryUser](#BKMK_IsActiveDirectoryUser)
-- [IsEmailAddressApprovedByO365Admin](#BKMK_IsEmailAddressApprovedByO365Admin)
-- [LatestUpdateTime](#BKMK_LatestUpdateTime)
-- [ModifiedBy](#BKMK_ModifiedBy)
-- [ModifiedByName](#BKMK_ModifiedByName)
-- [ModifiedByYomiName](#BKMK_ModifiedByYomiName)
-- [ModifiedOn](#BKMK_ModifiedOn)
-- [ModifiedOnBehalfBy](#BKMK_ModifiedOnBehalfBy)
-- [ModifiedOnBehalfByName](#BKMK_ModifiedOnBehalfByName)
-- [ModifiedOnBehalfByYomiName](#BKMK_ModifiedOnBehalfByYomiName)
-- [msdyn_DefaultPresenceIdUserName](#BKMK_msdyn_DefaultPresenceIdUserName)
-- [msdyn_phonenumberidName](#BKMK_msdyn_phonenumberidName)
-- [OrganizationId](#BKMK_OrganizationId)
-- [OrganizationIdName](#BKMK_OrganizationIdName)
-- [ParentSystemUserIdName](#BKMK_ParentSystemUserIdName)
-- [ParentSystemUserIdYomiName](#BKMK_ParentSystemUserIdYomiName)
-- [PositionIdName](#BKMK_PositionIdName)
-- [QueueIdName](#BKMK_QueueIdName)
-- [SiteIdName](#BKMK_SiteIdName)
-- [TerritoryIdName](#BKMK_TerritoryIdName)
-- [TransactionCurrencyIdName](#BKMK_TransactionCurrencyIdName)
-- [UserPuid](#BKMK_UserPuid)
-- [VersionNumber](#BKMK_VersionNumber)
-- [YomiFullName](#BKMK_YomiFullName)
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingparameter`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingparameter_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingparameter_createdonbehalfby"></a> lk_msdyn_schedulingparameter_createdonbehalfby
 
-### <a name="BKMK_ActiveDirectoryGuid"></a> ActiveDirectoryGuid
+Many-To-One Relationship: [msdyn_schedulingparameter lk_msdyn_schedulingparameter_createdonbehalfby](msdyn_schedulingparameter.md#BKMK_lk_msdyn_schedulingparameter_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Active Directory object GUID for the system user.|
-|DisplayName|Active Directory Guid|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|activedirectoryguid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingparameter`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingparameter_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingparameter_modifiedby"></a> lk_msdyn_schedulingparameter_modifiedby
 
-### <a name="BKMK_Address1_Composite"></a> Address1_Composite
+Many-To-One Relationship: [msdyn_schedulingparameter lk_msdyn_schedulingparameter_modifiedby](msdyn_schedulingparameter.md#BKMK_lk_msdyn_schedulingparameter_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the complete primary address.|
-|DisplayName|Address|
-|Format|TextArea|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address1_composite|
-|MaxLength|1000|
-|RequiredLevel|None|
-|Type|Memo|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingparameter`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingparameter_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingparameter_modifiedonbehalfby"></a> lk_msdyn_schedulingparameter_modifiedonbehalfby
 
-### <a name="BKMK_Address2_Composite"></a> Address2_Composite
+Many-To-One Relationship: [msdyn_schedulingparameter lk_msdyn_schedulingparameter_modifiedonbehalfby](msdyn_schedulingparameter.md#BKMK_lk_msdyn_schedulingparameter_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the complete secondary address.|
-|DisplayName|Other Address|
-|Format|TextArea|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|address2_composite|
-|MaxLength|1000|
-|RequiredLevel|None|
-|Type|Memo|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingparameter`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingparameter_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingscope_createdby"></a> lk_msdyn_schedulingscope_createdby
 
-### <a name="BKMK_ApplicationIdUri"></a> ApplicationIdUri
+Many-To-One Relationship: [msdyn_schedulingscope lk_msdyn_schedulingscope_createdby](msdyn_schedulingscope.md#BKMK_lk_msdyn_schedulingscope_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|The URI used as a unique logical identifier for the external app. This can be used to validate the application.|
-|DisplayName|Application ID URI|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|applicationiduri|
-|MaxLength|1024|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingscope`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingscope_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingscope_createdonbehalfby"></a> lk_msdyn_schedulingscope_createdonbehalfby
 
-### <a name="BKMK_AzureActiveDirectoryObjectId"></a> AzureActiveDirectoryObjectId
+Many-To-One Relationship: [msdyn_schedulingscope lk_msdyn_schedulingscope_createdonbehalfby](msdyn_schedulingscope.md#BKMK_lk_msdyn_schedulingscope_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|This is the application directory object Id.|
-|DisplayName|Azure AD Object ID|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|azureactivedirectoryobjectid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
-
+|---|---|
+|ReferencingEntity|`msdyn_schedulingscope`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingscope_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_AzureDeletedOn"></a> AzureDeletedOn
+### <a name="BKMK_lk_msdyn_schedulingscope_modifiedby"></a> lk_msdyn_schedulingscope_modifiedby
 
-**Added by**: AuthorizationCore Solution
+Many-To-One Relationship: [msdyn_schedulingscope lk_msdyn_schedulingscope_modifiedby](msdyn_schedulingscope.md#BKMK_lk_msdyn_schedulingscope_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the user was set as soft deleted in Azure.|
-|DisplayName|Azure Deleted On|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|azuredeletedon|
-|RequiredLevel|None|
-|Type|DateTime|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingscope`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingscope_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_schedulingscope_modifiedonbehalfby"></a> lk_msdyn_schedulingscope_modifiedonbehalfby
 
-### <a name="BKMK_BusinessUnitIdName"></a> BusinessUnitIdName
+Many-To-One Relationship: [msdyn_schedulingscope lk_msdyn_schedulingscope_modifiedonbehalfby](msdyn_schedulingscope.md#BKMK_lk_msdyn_schedulingscope_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|businessunitidname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingscope`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_schedulingscope_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_systemuserschedulersetting_createdby"></a> lk_msdyn_systemuserschedulersetting_createdby
 
-### <a name="BKMK_CreatedBy"></a> CreatedBy
+Many-To-One Relationship: [msdyn_systemuserschedulersetting lk_msdyn_systemuserschedulersetting_createdby](msdyn_systemuserschedulersetting.md#BKMK_lk_msdyn_systemuserschedulersetting_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the user who created the user.|
-|DisplayName|Created By|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_systemuserschedulersetting_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_systemuserschedulersetting_createdonbehalfby"></a> lk_msdyn_systemuserschedulersetting_createdonbehalfby
 
-### <a name="BKMK_CreatedByName"></a> CreatedByName
+Many-To-One Relationship: [msdyn_systemuserschedulersetting lk_msdyn_systemuserschedulersetting_createdonbehalfby](msdyn_systemuserschedulersetting.md#BKMK_lk_msdyn_systemuserschedulersetting_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_systemuserschedulersetting_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_systemuserschedulersetting_modifiedby"></a> lk_msdyn_systemuserschedulersetting_modifiedby
 
-### <a name="BKMK_CreatedByYomiName"></a> CreatedByYomiName
+Many-To-One Relationship: [msdyn_systemuserschedulersetting lk_msdyn_systemuserschedulersetting_modifiedby](msdyn_systemuserschedulersetting.md#BKMK_lk_msdyn_systemuserschedulersetting_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdbyyominame|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_systemuserschedulersetting_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_systemuserschedulersetting_modifiedonbehalfby"></a> lk_msdyn_systemuserschedulersetting_modifiedonbehalfby
 
-### <a name="BKMK_CreatedOn"></a> CreatedOn
+Many-To-One Relationship: [msdyn_systemuserschedulersetting lk_msdyn_systemuserschedulersetting_modifiedonbehalfby](msdyn_systemuserschedulersetting.md#BKMK_lk_msdyn_systemuserschedulersetting_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the user was created.|
-|DisplayName|Created On|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdon|
-|RequiredLevel|None|
-|Type|DateTime|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_systemuserschedulersetting_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroup_createdby"></a> lk_msdyn_timegroup_createdby
 
-### <a name="BKMK_CreatedOnBehalfBy"></a> CreatedOnBehalfBy
+Many-To-One Relationship: [msdyn_timegroup lk_msdyn_timegroup_createdby](msdyn_timegroup.md#BKMK_lk_msdyn_timegroup_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the delegate user who created the systemuser.|
-|DisplayName|Created By (Delegate)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_timegroup`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroup_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroup_createdonbehalfby"></a> lk_msdyn_timegroup_createdonbehalfby
 
-### <a name="BKMK_CreatedOnBehalfByName"></a> CreatedOnBehalfByName
+Many-To-One Relationship: [msdyn_timegroup lk_msdyn_timegroup_createdonbehalfby](msdyn_timegroup.md#BKMK_lk_msdyn_timegroup_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_timegroup`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroup_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroup_modifiedby"></a> lk_msdyn_timegroup_modifiedby
 
-### <a name="BKMK_CreatedOnBehalfByYomiName"></a> CreatedOnBehalfByYomiName
+Many-To-One Relationship: [msdyn_timegroup lk_msdyn_timegroup_modifiedby](msdyn_timegroup.md#BKMK_lk_msdyn_timegroup_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|createdonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_timegroup`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroup_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroup_modifiedonbehalfby"></a> lk_msdyn_timegroup_modifiedonbehalfby
 
-### <a name="BKMK_DefaultFiltersPopulated"></a> DefaultFiltersPopulated
+Many-To-One Relationship: [msdyn_timegroup lk_msdyn_timegroup_modifiedonbehalfby](msdyn_timegroup.md#BKMK_lk_msdyn_timegroup_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Indicates if default outlook filters have been populated.|
-|DisplayName|Default Filters Populated|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|defaultfilterspopulated|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
+|---|---|
+|ReferencingEntity|`msdyn_timegroup`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroup_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### DefaultFiltersPopulated Choices/Options
+### <a name="BKMK_lk_msdyn_timegroupdetail_createdby"></a> lk_msdyn_timegroupdetail_createdby
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+Many-To-One Relationship: [msdyn_timegroupdetail lk_msdyn_timegroupdetail_createdby](msdyn_timegroupdetail.md#BKMK_lk_msdyn_timegroupdetail_createdby)
 
-**DefaultValue**: False
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timegroupdetail`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroupdetail_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroupdetail_createdonbehalfby"></a> lk_msdyn_timegroupdetail_createdonbehalfby
 
-### <a name="BKMK_DefaultMailbox"></a> DefaultMailbox
+Many-To-One Relationship: [msdyn_timegroupdetail lk_msdyn_timegroupdetail_createdonbehalfby](msdyn_timegroupdetail.md#BKMK_lk_msdyn_timegroupdetail_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Select the mailbox associated with this user.|
-|DisplayName|Mailbox|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|defaultmailbox|
-|RequiredLevel|None|
-|Targets|mailbox|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_timegroupdetail`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroupdetail_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroupdetail_modifiedby"></a> lk_msdyn_timegroupdetail_modifiedby
 
-### <a name="BKMK_DefaultMailboxName"></a> DefaultMailboxName
+Many-To-One Relationship: [msdyn_timegroupdetail lk_msdyn_timegroupdetail_modifiedby](msdyn_timegroupdetail.md#BKMK_lk_msdyn_timegroupdetail_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|defaultmailboxname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_timegroupdetail`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroupdetail_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_timegroupdetail_modifiedonbehalfby"></a> lk_msdyn_timegroupdetail_modifiedonbehalfby
 
-### <a name="BKMK_DefaultOdbFolderName"></a> DefaultOdbFolderName
+Many-To-One Relationship: [msdyn_timegroupdetail lk_msdyn_timegroupdetail_modifiedonbehalfby](msdyn_timegroupdetail.md#BKMK_lk_msdyn_timegroupdetail_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Type a default folder name for the user's OneDrive For Business location.|
-|DisplayName|Default OneDrive for Business Folder Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|defaultodbfoldername|
-|MaxLength|200|
-|RequiredLevel|SystemRequired|
-|Type|String|
-
+|---|---|
+|ReferencingEntity|`msdyn_timegroupdetail`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_timegroupdetail_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_DeletedState"></a> DeletedState
+### <a name="BKMK_lk_msdyn_transactionorigin_createdby"></a> lk_msdyn_transactionorigin_createdby
 
-**Added by**: AuthorizationCore Solution
+Many-To-One Relationship: [msdyn_transactionorigin lk_msdyn_transactionorigin_createdby](msdyn_transactionorigin.md#BKMK_lk_msdyn_transactionorigin_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|User delete state|
-|DisplayName|Deleted State|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|deletedstate|
-|RequiredLevel|SystemRequired|
-|Type|Picklist|
+|---|---|
+|ReferencingEntity|`msdyn_transactionorigin`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_transactionorigin_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### DeletedState Choices/Options
+### <a name="BKMK_lk_msdyn_transactionorigin_createdonbehalfby"></a> lk_msdyn_transactionorigin_createdonbehalfby
 
-|Value|Label|
-|-----|-----|
-|0|Not deleted|
-|1|Soft deleted|
+Many-To-One Relationship: [msdyn_transactionorigin lk_msdyn_transactionorigin_createdonbehalfby](msdyn_transactionorigin.md#BKMK_lk_msdyn_transactionorigin_createdonbehalfby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transactionorigin`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_transactionorigin_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_transactionorigin_modifiedby"></a> lk_msdyn_transactionorigin_modifiedby
 
-### <a name="BKMK_DisabledReason"></a> DisabledReason
+Many-To-One Relationship: [msdyn_transactionorigin lk_msdyn_transactionorigin_modifiedby](msdyn_transactionorigin.md#BKMK_lk_msdyn_transactionorigin_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Reason for disabling the user.|
-|DisplayName|Disabled Reason|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|disabledreason|
-|MaxLength|500|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_transactionorigin`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_transactionorigin_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_transactionorigin_modifiedonbehalfby"></a> lk_msdyn_transactionorigin_modifiedonbehalfby
 
-### <a name="BKMK_EntityImage_Timestamp"></a> EntityImage_Timestamp
+Many-To-One Relationship: [msdyn_transactionorigin lk_msdyn_transactionorigin_modifiedonbehalfby](msdyn_transactionorigin.md#BKMK_lk_msdyn_transactionorigin_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|entityimage_timestamp|
-|MaxValue|9223372036854775807|
-|MinValue|-9223372036854775808|
-|RequiredLevel|None|
-|Type|BigInt|
+|---|---|
+|ReferencingEntity|`msdyn_transactionorigin`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_transactionorigin_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_workhourtemplate_createdby"></a> lk_msdyn_workhourtemplate_createdby
 
-### <a name="BKMK_EntityImage_URL"></a> EntityImage_URL
+Many-To-One Relationship: [msdyn_workhourtemplate lk_msdyn_workhourtemplate_createdby](msdyn_workhourtemplate.md#BKMK_lk_msdyn_workhourtemplate_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Url|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|entityimage_url|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_workhourtemplate`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_workhourtemplate_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_workhourtemplate_createdonbehalfby"></a> lk_msdyn_workhourtemplate_createdonbehalfby
 
-### <a name="BKMK_EntityImageId"></a> EntityImageId
+Many-To-One Relationship: [msdyn_workhourtemplate lk_msdyn_workhourtemplate_createdonbehalfby](msdyn_workhourtemplate.md#BKMK_lk_msdyn_workhourtemplate_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Entity Image Id|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|entityimageid|
-|RequiredLevel|None|
-|Type|Uniqueidentifier|
+|---|---|
+|ReferencingEntity|`msdyn_workhourtemplate`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_workhourtemplate_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_workhourtemplate_modifiedby"></a> lk_msdyn_workhourtemplate_modifiedby
 
-### <a name="BKMK_ExchangeRate"></a> ExchangeRate
+Many-To-One Relationship: [msdyn_workhourtemplate lk_msdyn_workhourtemplate_modifiedby](msdyn_workhourtemplate.md#BKMK_lk_msdyn_workhourtemplate_modifiedby)
 
 |Property|Value|
-|--------|-----|
-|Description|Exchange rate for the currency associated with the systemuser with respect to the base currency.|
-|DisplayName|Exchange Rate|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|exchangerate|
-|MaxValue|100000000000|
-|MinValue|0.000000000001|
-|Precision|12|
-|RequiredLevel|None|
-|Type|Decimal|
+|---|---|
+|ReferencingEntity|`msdyn_workhourtemplate`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_workhourtemplate_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_lk_msdyn_workhourtemplate_modifiedonbehalfby"></a> lk_msdyn_workhourtemplate_modifiedonbehalfby
 
-### <a name="BKMK_FullName"></a> FullName
+Many-To-One Relationship: [msdyn_workhourtemplate lk_msdyn_workhourtemplate_modifiedonbehalfby](msdyn_workhourtemplate.md#BKMK_lk_msdyn_workhourtemplate_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Full name of the user.|
-|DisplayName|Full Name|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|fullname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_workhourtemplate`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`lk_msdyn_workhourtemplate_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_bookingalert_systemuser_createdby"></a> msdyn_bookingalert_systemuser_createdby
 
-### <a name="BKMK_IdentityId"></a> IdentityId
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_systemuser_createdby](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_systemuser_createdby)
 
 |Property|Value|
-|--------|-----|
-|Description|For internal use only.|
-|DisplayName|Unique user identity id|
-|Format|None|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|identityid|
-|MaxValue|2147483647|
-|MinValue|-2147483648|
-|RequiredLevel|SystemRequired|
-|Type|Integer|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`createdby`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_systemuser_createdby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_bookingalert_systemuser_createdonbehalfby"></a> msdyn_bookingalert_systemuser_createdonbehalfby
 
-### <a name="BKMK_IsActiveDirectoryUser"></a> IsActiveDirectoryUser
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_systemuser_createdonbehalfby](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_systemuser_createdonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Information about whether the user is an AD user.|
-|DisplayName|Is Active Directory User|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|isactivedirectoryuser|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
-
-#### IsActiveDirectoryUser Choices/Options
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`createdonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_systemuser_createdonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+### <a name="BKMK_msdyn_bookingalert_systemuser_modifiedby"></a> msdyn_bookingalert_systemuser_modifiedby
 
-**DefaultValue**: True
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_systemuser_modifiedby](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_systemuser_modifiedby)
 
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`modifiedby`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_systemuser_modifiedby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_bookingalert_systemuser_modifiedonbehalfby"></a> msdyn_bookingalert_systemuser_modifiedonbehalfby
 
-### <a name="BKMK_IsEmailAddressApprovedByO365Admin"></a> IsEmailAddressApprovedByO365Admin
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_systemuser_modifiedonbehalfby](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_systemuser_modifiedonbehalfby)
 
 |Property|Value|
-|--------|-----|
-|Description|Shows the status of approval of the email address by O365 Admin.|
-|DisplayName|Email Address O365 Admin Approval Status|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|isemailaddressapprovedbyo365admin|
-|RequiredLevel|SystemRequired|
-|Type|Boolean|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`modifiedonbehalfby`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_systemuser_modifiedonbehalfby`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-#### IsEmailAddressApprovedByO365Admin Choices/Options
+### <a name="BKMK_msdyn_bookingalert_systemuser_owninguser"></a> msdyn_bookingalert_systemuser_owninguser
 
-|Value|Label|
-|-----|-----|
-|1|Yes|
-|0|No|
+Many-To-One Relationship: [msdyn_bookingalert msdyn_bookingalert_systemuser_owninguser](msdyn_bookingalert.md#BKMK_msdyn_bookingalert_systemuser_owninguser)
 
-**DefaultValue**: False
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalert`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`msdyn_bookingalert_systemuser_owninguser`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_msdyn_systemuser_msdyn_systemuserschedulersetting_User"></a> msdyn_systemuser_msdyn_systemuserschedulersetting_User
 
-### <a name="BKMK_LatestUpdateTime"></a> LatestUpdateTime
+Many-To-One Relationship: [msdyn_systemuserschedulersetting msdyn_systemuser_msdyn_systemuserschedulersetting_User](msdyn_systemuserschedulersetting.md#BKMK_msdyn_systemuser_msdyn_systemuserschedulersetting_User)
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Time stamp of the latest update for the user|
-|DisplayName|Latest User Update Time|
-|Format|DateAndTime|
-|IsValidForForm|False|
-|IsValidForRead|False|
-|LogicalName|latestupdatetime|
-|RequiredLevel|None|
-|Type|DateTime|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`msdyn_user`|
+|ReferencedEntityNavigationPropertyName|`msdyn_systemuser_msdyn_systemuserschedulersetting_User`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `UseCollectionName`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: 10000<br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_actual"></a> user_msdyn_actual
 
-### <a name="BKMK_ModifiedBy"></a> ModifiedBy
+Many-To-One Relationship: [msdyn_actual user_msdyn_actual](msdyn_actual.md#BKMK_user_msdyn_actual)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the user who last modified the user.|
-|DisplayName|Modified By|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|modifiedby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_actual`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_actual`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_bookableresourceassociation"></a> user_msdyn_bookableresourceassociation
 
-### <a name="BKMK_ModifiedByName"></a> ModifiedByName
+Many-To-One Relationship: [msdyn_bookableresourceassociation user_msdyn_bookableresourceassociation](msdyn_bookableresourceassociation.md#BKMK_user_msdyn_bookableresourceassociation)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookableresourceassociation`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_bookableresourceassociation`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_bookingalertstatus"></a> user_msdyn_bookingalertstatus
 
-### <a name="BKMK_ModifiedByYomiName"></a> ModifiedByYomiName
+Many-To-One Relationship: [msdyn_bookingalertstatus user_msdyn_bookingalertstatus](msdyn_bookingalertstatus.md#BKMK_user_msdyn_bookingalertstatus)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedbyyominame|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookingalertstatus`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_bookingalertstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_bookingchange"></a> user_msdyn_bookingchange
 
-### <a name="BKMK_ModifiedOn"></a> ModifiedOn
+Many-To-One Relationship: [msdyn_bookingchange user_msdyn_bookingchange](msdyn_bookingchange.md#BKMK_user_msdyn_bookingchange)
 
 |Property|Value|
-|--------|-----|
-|DateTimeBehavior|UserLocal|
-|Description|Date and time when the user was last modified.|
-|DisplayName|Modified On|
-|Format|DateAndTime|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|modifiedon|
-|RequiredLevel|None|
-|Type|DateTime|
+|---|---|
+|ReferencingEntity|`msdyn_bookingchange`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_bookingchange`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_bookingrule"></a> user_msdyn_bookingrule
 
-### <a name="BKMK_ModifiedOnBehalfBy"></a> ModifiedOnBehalfBy
+Many-To-One Relationship: [msdyn_bookingrule user_msdyn_bookingrule](msdyn_bookingrule.md#BKMK_user_msdyn_bookingrule)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the delegate user who last modified the systemuser.|
-|DisplayName|Modified By (Delegate)|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfby|
-|RequiredLevel|None|
-|Targets|systemuser|
-|Type|Lookup|
+|---|---|
+|ReferencingEntity|`msdyn_bookingrule`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_bookingrule`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_bookingsetupmetadata"></a> user_msdyn_bookingsetupmetadata
 
-### <a name="BKMK_ModifiedOnBehalfByName"></a> ModifiedOnBehalfByName
+Many-To-One Relationship: [msdyn_bookingsetupmetadata user_msdyn_bookingsetupmetadata](msdyn_bookingsetupmetadata.md#BKMK_user_msdyn_bookingsetupmetadata)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfbyname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_bookingsetupmetadata`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_bookingsetupmetadata`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_businessclosure"></a> user_msdyn_businessclosure
 
-### <a name="BKMK_ModifiedOnBehalfByYomiName"></a> ModifiedOnBehalfByYomiName
+Many-To-One Relationship: [msdyn_businessclosure user_msdyn_businessclosure](msdyn_businessclosure.md#BKMK_user_msdyn_businessclosure)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|modifiedonbehalfbyyominame|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_businessclosure`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_businessclosure`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_clientextension"></a> user_msdyn_clientextension
 
-### <a name="BKMK_msdyn_DefaultPresenceIdUserName"></a> msdyn_DefaultPresenceIdUserName
+Many-To-One Relationship: [msdyn_clientextension user_msdyn_clientextension](msdyn_clientextension.md#BKMK_user_msdyn_clientextension)
 
-**Added by**: Omnichannel – Base Solution
-
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_defaultpresenceidusername|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
-
+|---|---|
+|ReferencingEntity|`msdyn_clientextension`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_clientextension`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_msdyn_phonenumberidName"></a> msdyn_phonenumberidName
+### <a name="BKMK_user_msdyn_configuration"></a> user_msdyn_configuration
 
-**Added by**: Omnichannel - CommunicationBase Solution
+Many-To-One Relationship: [msdyn_configuration user_msdyn_configuration](msdyn_configuration.md#BKMK_user_msdyn_configuration)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|msdyn_phonenumberidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_configuration`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_configuration`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_optimizationrequest"></a> user_msdyn_optimizationrequest
 
-### <a name="BKMK_OrganizationId"></a> OrganizationId
+Many-To-One Relationship: [msdyn_optimizationrequest user_msdyn_optimizationrequest](msdyn_optimizationrequest.md#BKMK_user_msdyn_optimizationrequest)
 
 |Property|Value|
-|--------|-----|
-|Description|Unique identifier of the organization associated with the user.|
-|DisplayName|Organization |
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|organizationid|
-|RequiredLevel|SystemRequired|
-|Type|Uniqueidentifier|
+|---|---|
+|ReferencingEntity|`msdyn_optimizationrequest`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_optimizationrequest`|
+|IsCustomizable|`False`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_priority"></a> user_msdyn_priority
 
-### <a name="BKMK_OrganizationIdName"></a> OrganizationIdName
+Many-To-One Relationship: [msdyn_priority user_msdyn_priority](msdyn_priority.md#BKMK_user_msdyn_priority)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|organizationidname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_priority`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_priority`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementchange"></a> user_msdyn_requirementchange
 
-### <a name="BKMK_ParentSystemUserIdName"></a> ParentSystemUserIdName
+Many-To-One Relationship: [msdyn_requirementchange user_msdyn_requirementchange](msdyn_requirementchange.md#BKMK_user_msdyn_requirementchange)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|parentsystemuseridname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementchange`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementchange`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementcharacteristic"></a> user_msdyn_requirementcharacteristic
 
-### <a name="BKMK_ParentSystemUserIdYomiName"></a> ParentSystemUserIdYomiName
+Many-To-One Relationship: [msdyn_requirementcharacteristic user_msdyn_requirementcharacteristic](msdyn_requirementcharacteristic.md#BKMK_user_msdyn_requirementcharacteristic)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|parentsystemuseridyominame|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementcharacteristic`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementcharacteristic`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementdependency"></a> user_msdyn_requirementdependency
 
-### <a name="BKMK_PositionIdName"></a> PositionIdName
+Many-To-One Relationship: [msdyn_requirementdependency user_msdyn_requirementdependency](msdyn_requirementdependency.md#BKMK_user_msdyn_requirementdependency)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|positionidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementdependency`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementdependency`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementgroup"></a> user_msdyn_requirementgroup
 
-### <a name="BKMK_QueueIdName"></a> QueueIdName
+Many-To-One Relationship: [msdyn_requirementgroup user_msdyn_requirementgroup](msdyn_requirementgroup.md#BKMK_user_msdyn_requirementgroup)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|queueidname|
-|MaxLength|400|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementgroup`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementgroup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementorganizationunit"></a> user_msdyn_requirementorganizationunit
 
-### <a name="BKMK_SiteIdName"></a> SiteIdName
+Many-To-One Relationship: [msdyn_requirementorganizationunit user_msdyn_requirementorganizationunit](msdyn_requirementorganizationunit.md#BKMK_user_msdyn_requirementorganizationunit)
 
-**Added by**: Service Solution
-
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|siteidname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementorganizationunit`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementorganizationunit`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementrelationship"></a> user_msdyn_requirementrelationship
 
-### <a name="BKMK_TerritoryIdName"></a> TerritoryIdName
+Many-To-One Relationship: [msdyn_requirementrelationship user_msdyn_requirementrelationship](msdyn_requirementrelationship.md#BKMK_user_msdyn_requirementrelationship)
 
-**Added by**: Application Common Solution
-
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|territoryidname|
-|MaxLength|100|
-|RequiredLevel|SystemRequired|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementrelationship`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementrelationship`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementresourcecategory"></a> user_msdyn_requirementresourcecategory
 
-### <a name="BKMK_TransactionCurrencyIdName"></a> TransactionCurrencyIdName
+Many-To-One Relationship: [msdyn_requirementresourcecategory user_msdyn_requirementresourcecategory](msdyn_requirementresourcecategory.md#BKMK_user_msdyn_requirementresourcecategory)
 
 |Property|Value|
-|--------|-----|
-|Description||
-|DisplayName||
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|transactioncurrencyidname|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcecategory`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementresourcecategory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementresourcepreference"></a> user_msdyn_requirementresourcepreference
 
-### <a name="BKMK_UserPuid"></a> UserPuid
+Many-To-One Relationship: [msdyn_requirementresourcepreference user_msdyn_requirementresourcepreference](msdyn_requirementresourcepreference.md#BKMK_user_msdyn_requirementresourcepreference)
 
 |Property|Value|
-|--------|-----|
-|Description| User PUID User Identifiable Information|
-|DisplayName|User PUID|
-|FormatName|Text|
-|IsLocalizable|False|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|userpuid|
-|MaxLength|100|
-|RequiredLevel|None|
-|Type|String|
+|---|---|
+|ReferencingEntity|`msdyn_requirementresourcepreference`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementresourcepreference`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_requirementstatus"></a> user_msdyn_requirementstatus
 
-### <a name="BKMK_VersionNumber"></a> VersionNumber
+Many-To-One Relationship: [msdyn_requirementstatus user_msdyn_requirementstatus](msdyn_requirementstatus.md#BKMK_user_msdyn_requirementstatus)
 
 |Property|Value|
-|--------|-----|
-|Description|Version number of the user.|
-|DisplayName|Version number|
-|IsValidForForm|False|
-|IsValidForRead|True|
-|LogicalName|versionnumber|
-|MaxValue|9223372036854775807|
-|MinValue|-9223372036854775808|
-|RequiredLevel|None|
-|Type|BigInt|
+|---|---|
+|ReferencingEntity|`msdyn_requirementstatus`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_requirementstatus`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_resourcerequirement"></a> user_msdyn_resourcerequirement
 
-### <a name="BKMK_YomiFullName"></a> YomiFullName
+Many-To-One Relationship: [msdyn_resourcerequirement user_msdyn_resourcerequirement](msdyn_resourcerequirement.md#BKMK_user_msdyn_resourcerequirement)
 
 |Property|Value|
-|--------|-----|
-|Description|Pronunciation of the full name of the user, written in phonetic hiragana or katakana characters.|
-|DisplayName|Yomi Full Name|
-|FormatName|PhoneticGuide|
-|IsLocalizable|False|
-|IsValidForForm|True|
-|IsValidForRead|True|
-|LogicalName|yomifullname|
-|MaxLength|200|
-|RequiredLevel|None|
-|Type|String|
-
-<a name="onetomany"></a>
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirement`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_resourcerequirement`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-## One-To-Many Relationships
+### <a name="BKMK_user_msdyn_resourcerequirementdetail"></a> user_msdyn_resourcerequirementdetail
 
-Listed by **SchemaName**.
+Many-To-One Relationship: [msdyn_resourcerequirementdetail user_msdyn_resourcerequirementdetail](msdyn_resourcerequirementdetail.md#BKMK_user_msdyn_resourcerequirementdetail)
 
-- [lk_systemuserbase_modifiedby](#BKMK_lk_systemuserbase_modifiedby)
-- [lk_systemuser_createdonbehalfby](#BKMK_lk_systemuser_createdonbehalfby)
-- [user_parent_user](#BKMK_user_parent_user)
-- [lk_systemuser_modifiedonbehalfby](#BKMK_lk_systemuser_modifiedonbehalfby)
-- [lk_systemuserbase_createdby](#BKMK_lk_systemuserbase_createdby)
-
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_resourcerequirementdetail`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_resourcerequirementdetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_lk_systemuserbase_modifiedby"></a> lk_systemuserbase_modifiedby
+### <a name="BKMK_user_msdyn_resourceterritory"></a> user_msdyn_resourceterritory
 
-Same as systemuser table [lk_systemuserbase_modifiedby](#BKMK_lk_systemuserbase_modifiedby) Many-To-One relationship.
+Many-To-One Relationship: [msdyn_resourceterritory user_msdyn_resourceterritory](msdyn_resourceterritory.md#BKMK_user_msdyn_resourceterritory)
 
 |Property|Value|
-|--------|-----|
-|ReferencingEntity|systemuser|
-|ReferencingAttribute|modifiedby|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_systemuserbase_modifiedby|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|---|---|
+|ReferencingEntity|`msdyn_resourceterritory`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_resourceterritory`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_scheduleboardsetting"></a> user_msdyn_scheduleboardsetting
 
-### <a name="BKMK_lk_systemuser_createdonbehalfby"></a> lk_systemuser_createdonbehalfby
+Many-To-One Relationship: [msdyn_scheduleboardsetting user_msdyn_scheduleboardsetting](msdyn_scheduleboardsetting.md#BKMK_user_msdyn_scheduleboardsetting)
 
-Same as systemuser table [lk_systemuser_createdonbehalfby](#BKMK_lk_systemuser_createdonbehalfby) Many-To-One relationship.
-
 |Property|Value|
-|--------|-----|
-|ReferencingEntity|systemuser|
-|ReferencingAttribute|createdonbehalfby|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_systemuser_createdonbehalfby|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|---|---|
+|ReferencingEntity|`msdyn_scheduleboardsetting`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_scheduleboardsetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_schedulingfeatureflag"></a> user_msdyn_schedulingfeatureflag
 
-### <a name="BKMK_user_parent_user"></a> user_parent_user
+Many-To-One Relationship: [msdyn_schedulingfeatureflag user_msdyn_schedulingfeatureflag](msdyn_schedulingfeatureflag.md#BKMK_user_msdyn_schedulingfeatureflag)
 
-Same as systemuser table [user_parent_user](#BKMK_user_parent_user) Many-To-One relationship.
-
 |Property|Value|
-|--------|-----|
-|ReferencingEntity|systemuser|
-|ReferencingAttribute|parentsystemuserid|
-|IsHierarchical|True|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|user_parent_user|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
-
+|---|---|
+|ReferencingEntity|`msdyn_schedulingfeatureflag`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_schedulingfeatureflag`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_lk_systemuser_modifiedonbehalfby"></a> lk_systemuser_modifiedonbehalfby
+### <a name="BKMK_user_msdyn_schedulingscope"></a> user_msdyn_schedulingscope
 
-Same as systemuser table [lk_systemuser_modifiedonbehalfby](#BKMK_lk_systemuser_modifiedonbehalfby) Many-To-One relationship.
+Many-To-One Relationship: [msdyn_schedulingscope user_msdyn_schedulingscope](msdyn_schedulingscope.md#BKMK_user_msdyn_schedulingscope)
 
 |Property|Value|
-|--------|-----|
-|ReferencingEntity|systemuser|
-|ReferencingAttribute|modifiedonbehalfby|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_systemuser_modifiedonbehalfby|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|---|---|
+|ReferencingEntity|`msdyn_schedulingscope`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_schedulingscope`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_systemuserschedulersetting"></a> user_msdyn_systemuserschedulersetting
 
-### <a name="BKMK_lk_systemuserbase_createdby"></a> lk_systemuserbase_createdby
+Many-To-One Relationship: [msdyn_systemuserschedulersetting user_msdyn_systemuserschedulersetting](msdyn_systemuserschedulersetting.md#BKMK_user_msdyn_systemuserschedulersetting)
 
-Same as systemuser table [lk_systemuserbase_createdby](#BKMK_lk_systemuserbase_createdby) Many-To-One relationship.
-
 |Property|Value|
-|--------|-----|
-|ReferencingEntity|systemuser|
-|ReferencingAttribute|createdby|
-|IsHierarchical|False|
-|IsCustomizable|True|
-|ReferencedEntityNavigationPropertyName|lk_systemuserbase_createdby|
-|AssociatedMenuConfiguration|Behavior: DoNotDisplay<br />Group: Details<br />Label: <br />Order: |
-|CascadeConfiguration|Assign: NoCascade<br />Delete: NoCascade<br />Merge: NoCascade<br />Reparent: NoCascade<br />Share: NoCascade<br />Unshare: NoCascade|
+|---|---|
+|ReferencingEntity|`msdyn_systemuserschedulersetting`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_systemuserschedulersetting`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-<a name="manytoone"></a>
+### <a name="BKMK_user_msdyn_timegroup"></a> user_msdyn_timegroup
 
-## Many-To-One Relationships
+Many-To-One Relationship: [msdyn_timegroup user_msdyn_timegroup](msdyn_timegroup.md#BKMK_user_msdyn_timegroup)
 
-Each Many-To-One relationship is defined by a corresponding One-To-Many relationship with the related table. Listed by **SchemaName**.
-
-- [user_parent_user](#BKMK_user_parent_user)
-- [lk_systemuserbase_modifiedby](#BKMK_lk_systemuserbase_modifiedby)
-- [lk_systemuser_modifiedonbehalfby](#BKMK_lk_systemuser_modifiedonbehalfby)
-- [lk_systemuserbase_createdby](#BKMK_lk_systemuserbase_createdby)
-- [lk_systemuser_createdonbehalfby](#BKMK_lk_systemuser_createdonbehalfby)
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timegroup`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_timegroup`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
+### <a name="BKMK_user_msdyn_timegroupdetail"></a> user_msdyn_timegroupdetail
 
-### <a name="BKMK_user_parent_user"></a> user_parent_user
+Many-To-One Relationship: [msdyn_timegroupdetail user_msdyn_timegroupdetail](msdyn_timegroupdetail.md#BKMK_user_msdyn_timegroupdetail)
 
-See systemuser Table [user_parent_user](#BKMK_user_parent_user) One-To-Many relationship.
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_timegroupdetail`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_timegroupdetail`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_lk_systemuserbase_modifiedby"></a> lk_systemuserbase_modifiedby
+### <a name="BKMK_user_msdyn_transactionorigin"></a> user_msdyn_transactionorigin
 
-See systemuser Table [lk_systemuserbase_modifiedby](#BKMK_lk_systemuserbase_modifiedby) One-To-Many relationship.
+Many-To-One Relationship: [msdyn_transactionorigin user_msdyn_transactionorigin](msdyn_transactionorigin.md#BKMK_user_msdyn_transactionorigin)
 
-### <a name="BKMK_lk_systemuser_modifiedonbehalfby"></a> lk_systemuser_modifiedonbehalfby
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_transactionorigin`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_transactionorigin`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-See systemuser Table [lk_systemuser_modifiedonbehalfby](#BKMK_lk_systemuser_modifiedonbehalfby) One-To-Many relationship.
+### <a name="BKMK_user_msdyn_workhourtemplate"></a> user_msdyn_workhourtemplate
 
-### <a name="BKMK_lk_systemuserbase_createdby"></a> lk_systemuserbase_createdby
+Many-To-One Relationship: [msdyn_workhourtemplate user_msdyn_workhourtemplate](msdyn_workhourtemplate.md#BKMK_user_msdyn_workhourtemplate)
 
-See systemuser Table [lk_systemuserbase_createdby](#BKMK_lk_systemuserbase_createdby) One-To-Many relationship.
+|Property|Value|
+|---|---|
+|ReferencingEntity|`msdyn_workhourtemplate`|
+|ReferencingAttribute|`owninguser`|
+|ReferencedEntityNavigationPropertyName|`user_msdyn_workhourtemplate`|
+|IsCustomizable|`True`|
+|AssociatedMenuConfiguration|AvailableOffline: True<br />Behavior: `DoNotDisplay`<br />Group: `Details`<br />Label: <br />MenuId: null<br />Order: <br />QueryApi: null<br />ViewId: `00000000-0000-0000-0000-000000000000`|
 
-### <a name="BKMK_lk_systemuser_createdonbehalfby"></a> lk_systemuser_createdonbehalfby
 
-See systemuser Table [lk_systemuser_createdonbehalfby](#BKMK_lk_systemuser_createdonbehalfby) One-To-Many relationship.
 
-### Related information
+### See also
 
-[Web API Reference](/dynamics365/customer-engagement/web-api/about)<br />
-<xref href="Microsoft.Dynamics.CRM.systemuser?text=systemuser EntityType" />
+[Dataverse table/entity reference](/power-apps/developer/data-platform/reference/about-entity-reference)  
+[Dataverse Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)   
+<xref:Microsoft.Dynamics.CRM.systemuser?displayProperty=fullName>

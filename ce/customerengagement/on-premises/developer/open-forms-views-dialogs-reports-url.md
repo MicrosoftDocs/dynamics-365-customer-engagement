@@ -2,9 +2,8 @@
 title: "Open forms, views, dialogs, and reports with a URL (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn more about URL addressable elements that enable you to include links to Dynamics 365 Customer Engagement (on-premises) forms, views, dialogs, and reports in other applications"
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
-
+ms.date: 02/03/2025
 ms.suite: 
 ms.tgt_pltfrm: 
 ms.topic: article
@@ -38,7 +37,7 @@ URL addressable elements enable you to include links to [!INCLUDE[pn_microsoftcr
 
  To open a new account entity record form for on-premises [!INCLUDE[pn_microsoftcrm](../includes/pn-microsoftcrm.md)]:  
  ```  
-https://mycrm/myOrg/main.aspx?etn=account&pagetype=entityrecord  
+https://myorg.crm.dynamics.com/main.aspx?etn=account&pagetype=entityrecord  
  ```  
 
  To open an account entity record form for [!INCLUDE[pn_CRM_Online](../includes/pn-crm-online.md)] where the id is {91330924-802A-4B0D-A900-34FD9D790829}:  

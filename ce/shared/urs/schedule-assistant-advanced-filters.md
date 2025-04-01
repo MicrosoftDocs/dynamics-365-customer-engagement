@@ -23,11 +23,11 @@ Ignores the requirement duration when determining if a resource has enough time 
 
 ## Ignore proposed bookings
 
-Ignores bookings with a **Proposed** booking status and the time slot as available.
+Ignores bookings with a **Proposed** booking status and shows the time slot as available.
 
 Some organizations use the proposed status for bookings until their customer confirms the schedule. Dispatchers could use those time slots to expedite committed work.
 
 ## Allow overlapping
 
-Shows bookings that with the **Allow Overlap** field set to **Yes** on the bookable resource booking form.
+Shows bookings with the **Allow Overlap** field set to **Yes** on the bookable resource booking form.
 

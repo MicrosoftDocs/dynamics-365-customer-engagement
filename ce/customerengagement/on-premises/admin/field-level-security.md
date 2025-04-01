@@ -2,7 +2,6 @@
 title: "Field level security | MicrosoftDocs"
 description: "Use field level security to control access to specific fields."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

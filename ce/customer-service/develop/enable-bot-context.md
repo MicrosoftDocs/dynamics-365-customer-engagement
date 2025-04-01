@@ -1,11 +1,11 @@
 ---
 title: Configure bot context  
 description: Use this article to understand how you can enable your Azure or Copilot Studio bots to understand context while authoring bot flows.
-ms.date: 07/21/2023
+ms.date: 01/31/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 # Configure bot context

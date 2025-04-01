@@ -1,16 +1,18 @@
 ---
-title: "lcw:chatRetrieved | MicrosoftDocs"
+title: lcw:chatRetrieved 
 description: lcw chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
-ms.topic: article
+ms.topic: reference
 ms.date: 11/10/2021
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # lcw:chatRetrieved event (Omnichannel for Customer Service JavaScript API reference)
 
 [!INCLUDE[cc-use-with-omnichannel](../../../../includes/cc-use-with-omnichannel.md)]
 
-This event is raised when an ongoing chat conversation is retrieved from cache after a page reload or is opened on another tab.
+
+This event occurs when the system retrieves an ongoing chat conversation from cache after a page reload or opens it on another tab.
 
 ## Example
 

@@ -2,7 +2,7 @@
 title: View and understand sales acceleration reporting
 description: Understand sales acceleration reporting and its role in providing insights into sequences related to leads and opportunities in your organization.
 ms.date: 06/28/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -15,13 +15,6 @@ ms.custom:
 # View and understand sales acceleration reporting
 
 View and understand the report for sales acceleration to get a broad overview of the sequences related to leads and opportunities in your organization.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## What is sales acceleration reporting?
 

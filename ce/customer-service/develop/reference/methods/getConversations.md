@@ -5,7 +5,7 @@ ms.date: 07/12/2021
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # getConversations 
 

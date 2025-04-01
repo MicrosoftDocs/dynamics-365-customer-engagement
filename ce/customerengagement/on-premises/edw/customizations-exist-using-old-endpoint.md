@@ -3,7 +3,6 @@ title: "Customizations exist that are using the Microsoft Dynamics 4.0 (2007) en
 description: Environment diagnostics warning that an outdated endpoint is in use.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

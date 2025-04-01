@@ -1,7 +1,6 @@
 ---
 title: "Customize commands and the ribbon (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Content related to customizing commands and the ribbon has been moved to the Power Apps documentation for model-driven apps"
-ms.date: 10/03/2022
 ms.reviewer: pehecke
 ms.topic: article
 applies_to: 

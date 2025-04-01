@@ -2,7 +2,6 @@
 title: "Sample: Create a queue (early bound) | MicrosoftDocs"
 description: The sample code demonstrates how to create a simple queue and set the required attributes.
 ms.custom:
-ms.date: 12/18/2017
 ms.reviewer: pehecke
 
 ms.suite:
@@ -25,7 +24,7 @@ search.audienceType:
 
 This sample shows how to create a simple queue and set the required attributes using the [IOrganizationService.Create](/dotnet/api/microsoft.xrm.sdk.iorganizationservice.create?view=dynamics-general-ce-9&preserve-view=true) message.
 
-You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/CreateQueue).
+You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/CreateQueue).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

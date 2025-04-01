@@ -3,7 +3,6 @@ title: "Microsoft Dynamics 365 for Outlook requires at least 2 gigabytes of memo
 description: Environment diagnostics warning that the minimum required RAM has not been met.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

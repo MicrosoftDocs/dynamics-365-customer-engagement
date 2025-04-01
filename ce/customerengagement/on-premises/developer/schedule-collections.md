@@ -2,7 +2,6 @@
 title: "Schedule collections (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Schedule is a logical collection of appointments that contains the availability and assignments of a given resource."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

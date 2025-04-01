@@ -2,7 +2,6 @@
 title: "Troubleshooting installation and upgrade | Microsoft Docs"
 description: Learn about the log files available to help you troubleshoot installation and upgrade issues with Dynamics 365 Customer Engagement (on-premises)
 ms.custom: ""
-ms.date: "10/01/2018"
 
 ms.reviewer: ""
 ms.suite: ""

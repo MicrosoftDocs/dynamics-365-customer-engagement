@@ -3,6 +3,7 @@ title: Facebook channel agent experience in Omnichannel for Customer Service
 description: This article provides information about agent experience in handling conversation requests that come from the Facebook channel in Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.collection: get-started
 ms.topic: article
 ms.date: 08/02/2024

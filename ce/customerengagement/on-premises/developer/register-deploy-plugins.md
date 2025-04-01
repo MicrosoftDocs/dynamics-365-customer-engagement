@@ -2,7 +2,6 @@
 title: "Register and Deploy Plug-Ins (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Learn about register plug-ins and custom workflow activities with Dynamics 365 Customer Engagement (on-premises) using the Plug-in Registration Tool."
 ms.custom: on-premise
-ms.date: 1/24/2019
 ms.reviewer: pehecke
 
 ms.suite: 

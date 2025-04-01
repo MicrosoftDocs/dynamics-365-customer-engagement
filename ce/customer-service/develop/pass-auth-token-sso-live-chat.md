@@ -5,7 +5,7 @@ ms.date: 11/02/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Pass authentication token to bot during single sign-on in live chat

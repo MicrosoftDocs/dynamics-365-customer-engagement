@@ -1,8 +1,8 @@
 ---
 title: Region and language FAQs
 description: Find answers to frequently asked questions about regions and languages.
-ms.date: 03/27/2024
-ms.topic: troubleshooting
+ms.date: 12/12/2024
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -47,6 +47,7 @@ The following table lists the regions in which Sales Premium features are availa
 |---------|-----|------|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 | [Assistant](assistant.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Conversation intelligence](dynamics365-sales-insights-app.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
+| [Email engagement](email-engagement.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | Yes | Yes | Yes |
 | [Notes analysis](notes-analysis.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
 | [Premium forecasting](configure-premium-forecasting.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | No | No | Yes | Yes | Yes |
 | [Predictive lead scoring](work-predictive-lead-scoring.md) | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes | Yes |
@@ -78,7 +79,7 @@ The following table shows the version of Exchange that's supported for Sales Pre
 
 Exchange integration is only available in specific regions. To use Exchange data for who knows whom and relationship analytics, your organization's Office 365 data location must be in one of the following locations and not in your region-specific data canter location:
 
-- Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands).
+- Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands).
 - Global Geography 2 – Asia Pacific	(Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 - Global Geography 3 – Americas (Brazil, Chile, United States).<br>
 
@@ -98,7 +99,6 @@ The following table shows which languages are supported for Sales Premium featur
 | Conversation intelligence | Go to [Languages supported for conversation intelligence](language-support-conversation-intelligence.md) |
 
 [Learn more about infrastructure availability (PDF)](https://aka.ms/dynamics_365_international_availability_deck).
-
 
 ## Which languages are supported by Copilot in Dynamics 365 Sales?
 

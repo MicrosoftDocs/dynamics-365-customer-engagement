@@ -2,7 +2,6 @@
 title: "Test reports in Dynamics 365 Customer Engagement (on-premises)"
 description: "After creating a report, test it to see if it produces the results you want. This page explains how to test a report and offers suggestions on what to test."
 ms.custom: 
-ms.date: 09/30/2017
 ms.reviewer: 
 
 ms.suite: 

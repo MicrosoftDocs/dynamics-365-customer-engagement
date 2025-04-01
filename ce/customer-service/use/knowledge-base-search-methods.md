@@ -3,7 +3,7 @@ title: Search the knowledge base on portals
 description: Learn how you can search the knowledge base on portals Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection: 
 ms.date: 07/01/2024

@@ -2,7 +2,6 @@
 title: "Service settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Service tab, set preferences for the customer service area, such as options related to service level agreements and entitlements."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

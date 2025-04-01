@@ -3,7 +3,7 @@ title: Configure origins allowlist for knowledge articles
 description: Learn how to configure safe links while authoring knowledge articles in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection: 
 ms.date: 07/01/2024
@@ -32,7 +32,7 @@ You can configure an origins allowlist to ensure that knowledge authors add only
 
 After you've enabled this feature while creating knowledge articles, if knowledge authors add links whose origin links don't match any of the links specified in the origins list, an error message displays for links that are hosted within an iframe. For example, if you add https://www.contoso.com in the origins list, knowledge authors can use https://www.contoso.com/about or https://www.contoso.com/overview. But if they use https://contoso.com/about or https://contoso.com/overview in the articles, the links will be broken and an error message is displayed. Also, in the **Content** field on the knowledge article form, knowledge authors see the following message: "Update your origins allowlist if any iframe in the article doesn't work or displays error."
 
-For published articles, agents and portal users see an error message in the article for the links that are hosted within an iframe. In such cases, you must update the origins list so that all the existing iframe links continue to work.
+For published articles, customer service representatives and portal users see an error message in the article for the links that are hosted within an iframe. In such cases, you must update the origins list so that all the existing iframe links continue to work.
 
 ## Configure origins allowlist
 

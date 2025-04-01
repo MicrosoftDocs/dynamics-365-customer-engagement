@@ -101,7 +101,7 @@ When an agent opens a case, conversation, or another tab in the session, the ses
 
 - **Additional tabs**: Records open in the additional tabs of the same session aren't used in the session context. However, you can access the name of the entity and the entity record ID as follows: 
  
-    `${Session.CurrentTab.entityId}` : 00aa00aa-bb11-cc22-dd33-44ee44ee44ee 
+    `${Session.CurrentTab.entityId}` : 11bb11bb-cc22-dd33-ee44-55ff55ff55ff 
     `${Session.CurrentTab.entityName}` : account 
   With the entity ID, you can retrieve other values in the record through the following oData query `${$odata.account.name.?$filter=accountid eq '{Session.CurrentTab.entityId}'}`
 

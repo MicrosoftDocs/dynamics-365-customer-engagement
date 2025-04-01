@@ -2,7 +2,6 @@
 title: "Enable entity feedback in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to enable user feedback on an entity record. You can also allow entity ratings and show the ratings in a rollup field on a form."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

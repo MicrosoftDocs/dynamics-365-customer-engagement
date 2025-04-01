@@ -2,7 +2,6 @@
 title: "Set up SharePoint Online for use in Dynamics 365 Customer Engagement apps"
 description: "Follow these steps to set up Customer Engagement apps to use SharePoint Online. Assign permissions, configure doc management, and add storage locations."
 ms.custom: 
-ms.date: 06/10/2019
 ms.reviewer: 
 
 ms.suite: 

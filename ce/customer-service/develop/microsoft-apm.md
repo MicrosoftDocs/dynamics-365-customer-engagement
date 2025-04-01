@@ -3,6 +3,7 @@ title: "App profile manager JavaScript API Reference | MicrosoftDocs"
 description: "Learn about the app profile manager methods and properties to manage tabs and sessions in Customer Service workspace."
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.date: 04/23/2024
 ms.topic: reference
 ---

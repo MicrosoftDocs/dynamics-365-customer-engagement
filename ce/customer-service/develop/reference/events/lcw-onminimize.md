@@ -2,10 +2,10 @@
 title: lcw:onMinimize
 description: lcw onMinimize event (Omnichannel for Customer Service JavaScript API reference).
 ms.topic: reference
-ms.date: 11/10/2021
+ms.date: 03/18/2025
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 # lcw:onMinimize event (Omnichannel for Customer Service JavaScript API reference)
 

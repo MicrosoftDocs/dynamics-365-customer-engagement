@@ -1,7 +1,7 @@
 ---
 title: Set up incoming calls, call recording, and SMS services
 description: Learn how to set up incoming calls, call recording, and SMS services using the Azure Event Grid.
-ms.date: 09/10/2024
+ms.date: 11/27/2024
 ms.custom: bap-template
 ms.topic: how-to
 author: neeranelli
@@ -69,12 +69,16 @@ To enable call recording and SMS services, you must first configure your applica
 
    - **Microsoft Entra Tenant ID**: Enter the tenant (directory) ID of your Azure resource.
    - **Microsoft Entra Application ID or URI**: Enter the application (client) ID of your Azure resource.
+
+   > [!IMPORTANT]
+   > Make sure that you enter the correct set of **Microsoft Entra Tenant ID** and **Microsoft Entra Application ID or URl** values that match the values defined in your organization. It can take up to 15 minutes to synchronize. If you get an error like "Webhook validation handshake failed", verify the credentials and then retry the step after a few minutes.
+
   
    :::image type="content" source="../media/event-grid-subscription-additional-features.png" alt-text="Event Grid subscription additional features" lightbox="../media/event-grid-subscription-additional-features.png":::
 
+
 1. Select **Create** to create the event subscription endpoint for recording.
 
-   It can take up to 15 minutes to sync. If you get an error like "Webhook validation handshake failed," then retry this step after a few minutes.
 
 ## Set up call recording webhook
 
@@ -92,9 +96,12 @@ To enable call recording and SMS services, you must first configure your applica
 
    It can take up to 15 minutes to sync. If you get an error like, "Webhook validation handshake failed," then retry this step after a few minutes.
 
+Learn more about configuring call recordings at [Configure call recording, transcription, and real-time translation](./voice-channel-configure-transcripts.md). To create custom user roles for providing access to call recordings, refer to [Manage personas and custom security roles in Customer Service](./role-persona-mapping.md).
+
+
 ## Set up SMS webhook
 
-1. Follow the steps in the **Set up the Incoming Calls webhook** section, but in the filter to event type, select **SMS Received and SMS Delivery Report Received** in the list.
+1. Follow the steps in the **Set up the Incoming Calls webhook** section but in the filter to event type, select **SMS Received and SMS Delivery Report Received** in the list.
 1. For **Endpoint Type**, select **Web Hook** in the list.
 1. For **Endpoint**, select **Select an endpoint**, and then enter the recording webhook endpoint from Contact Center admin center or Customer Service admin center. Go to **Channels** > **Phone Numbers** > **Advanced** > **Manage Azure Communication Services** > **SMS Web Hook Endpoint**.
 1. Select the **Additional Features** tab. Select the **Use Microsoft Entra authentication checkbox**, and then enter the following details. For information about these values, go to **Get Event Grid app and tenant IDs from the Power Apps portal** section.

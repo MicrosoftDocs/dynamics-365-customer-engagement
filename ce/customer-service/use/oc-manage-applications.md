@@ -5,6 +5,7 @@ ms.date: 07/02/2024
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 
 # Manage applications in Omnichannel for Customer Service

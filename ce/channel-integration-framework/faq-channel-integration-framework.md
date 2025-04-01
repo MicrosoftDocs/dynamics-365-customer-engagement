@@ -5,6 +5,7 @@ ms.date: 07/06/2023
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ms.custom: 
   - "dyn365-a11y"
   - "dyn365-developer"
@@ -165,7 +166,7 @@ When you select a particular security role for the channel provider from under t
 No, that isn't supported.
 
 
-### See also
+### Related information
 
 [Overview of Dynamics 365 Channel Integration Framework](v2/administer/overview-channel-integration-framework.md)  
 [What's new in Dynamics 365 Channel Integration Framework](whats-new-channel-integration-framework.md)  

@@ -2,7 +2,6 @@
 title: "Enable additional languages in Dynamics 365 Customer Engagement (on-premises)"
 description: "If your organization needs to add a language beyond your base language, first install the language pack and then follow these steps to enable the language(s)."
 ms.custom: 
-ms.date: 04/29/2019
 ms.reviewer: 
 
 ms.suite: 

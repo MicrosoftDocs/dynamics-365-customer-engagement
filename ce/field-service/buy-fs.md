@@ -26,20 +26,23 @@ For feature comparisons and pricing information, see [Field Service pricing](htt
 
 ## Buy a Field Service license
 
-1. Log into the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home) using your organization's admin account.
+1. Sign in to the [Microsoft 365 admin center](https://admin.microsoft.com/AdminPortal/Home) using your organization's admin account.
 
    If you can't access the Microsoft 365 admin center, contact your Dynamics 365 administrator.
 
 1. Under **Subscriptions**, search for and buy Dynamics 365 Field Service licenses for each user.
 
-## Field Service and mixed reality apps
+## Add users and assign licenses
 
-> [!IMPORTANT]
-> We're releasing the updates to the Dynamics 365 Field Service licenses beginning December 1, 2023. Familiarize with the information until the changes are available in your region.
+After buying licenses, you can add users and assign licenses to individual users or a group of users. Admins can manage security roles for licensed users to give them access to apps.
+
+For more information, see [Set up users, licenses, and security roles](users-licenses-permissions.md)
+
+## Field Service and mixed reality apps
 
 The Field Service license also includes Dynamics 365 Guides and Dynamics 365 Remote Assist at no extra cost. No action is required to assign the new licenses to existing users. However, the system doesn't install the applications automatically. For more information about installing the mixed reality apps, see [Collaborate in mixed reality with Field Service and Remote Assist](remote-assist-hololens.md) and [Integrate Guides with Field Service](mixed-reality-guides-integration.md).
 
-The update automatically adds security roles for Guides and Remote Assist to users with predefined Field Service security roles. Admins can disable that setting to stop the automated role assignment for new users. For more information, see [Mixed Reality settings](configure-default-settings.md#mixed-reality-settings).
+Users with predefined Field Service security roles automatically get security roles for Guides and Remote Assist assigned. Admins can disable that setting to stop the automated role assignment for new users. For more information, see [Mixed Reality settings](configure-default-settings.md#mixed-reality-settings).
 
 ## Next steps
 

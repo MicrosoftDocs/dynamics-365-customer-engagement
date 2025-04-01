@@ -2,7 +2,6 @@
 title: "Manage system jobs in Dynamics 365 Customer Engagement (on-premises)"
 description: "Use system jobs to perform tasks automatically. Monitor them to ensure they run and finish successfully. Pause, postpone, or cancel if there's a problem."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

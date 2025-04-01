@@ -2,7 +2,6 @@
 title: "Sample: Merge two records | MicrosoftDocs"
 description: "The sample demonstrates how to merge two records. "
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:
@@ -23,7 +22,7 @@ search.audienceType:
 
 # Sample: Merge two records
 
-This sample shows how to merge two record. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/MergeTwoRecords).
+This sample shows how to merge two record. You can download the sample from [here](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/MergeTwoRecords).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 

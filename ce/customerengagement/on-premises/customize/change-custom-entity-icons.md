@@ -2,7 +2,6 @@
 title: "Change custom entity icons in Dynamics 365 Customer Engagement (on-premises)"
 description: "Custom entities are automatically assigned the same default icon. To help users differentiate between entities, follow these steps to change the icons."
 ms.custom: 
-ms.date: 11/08/2018
 ms.reviewer: 
 
 ms.suite: 

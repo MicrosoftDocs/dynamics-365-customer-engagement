@@ -2,7 +2,6 @@
 title: "Use business process flows in Dynamics 365 Customer Engagement (on-premises)"
 description: "Make sure people follow the same steps and enter data consistently by creating business process flows. Learn more about what they do and how you can use them."
 ms.custom: 
-ms.date: 02/21/2020
 ms.reviewer: 
 
 ms.suite: 

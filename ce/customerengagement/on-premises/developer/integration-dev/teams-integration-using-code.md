@@ -2,7 +2,6 @@
 title: "Enable or disable Microsoft Teams Integration using code (Dynamics 365 Customer Engagement Developer Guide) | MicrosoftDocs"
 description: "Know how to programmatically enable or disable Microsoft Teams Integration for system and custom entities in Dynamics 365 Customer Engagement."
 ms.custom: 
-ms.date: 06/21/2019
 
 ms.topic: conceptual
 ms.assetid: f0a710ca-fc62-4190-b75f-d61d2db76ca2

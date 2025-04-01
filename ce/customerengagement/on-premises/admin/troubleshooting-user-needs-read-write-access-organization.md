@@ -2,7 +2,6 @@
 title: "Troubleshoot read-write access in Dynamics 365 Customer Engagement (on-premises)"
 description: "If a user doesn't have sufficient permissions, a system administrator must follow these steps to ensure that Read permission is set for User Entity UI Settings."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

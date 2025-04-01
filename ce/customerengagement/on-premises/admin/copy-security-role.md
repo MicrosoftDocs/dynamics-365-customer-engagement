@@ -2,7 +2,6 @@
 title: "Copy security role in Dynamics 365 Customer Engagement (on-premises)"
 description: "If you want to create a security role that's similar to another, copy the existing one, save it with a new name, and modify privileges and access levels."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

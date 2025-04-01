@@ -3,7 +3,7 @@ title:  Learn about linking timeline notes with table records
 description: Learn how-to link timeline notes to other table records.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: how-to
 ms.collection: 
 ms.date: 08/01/2023

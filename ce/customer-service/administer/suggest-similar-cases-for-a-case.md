@@ -3,6 +3,7 @@ title: Suggest similar cases for a case with Dynamics 365 Customer Service
 description: Learn how to use the similarity rules and relevance search in Customer Service.
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.date: 06/21/2024
 ms.topic: article
 search.audienceType: 
@@ -19,9 +20,9 @@ searchScope:
 ---
 # Use advanced similarity rules to view similar case suggestions
 
-Quickly support your customers by viewing similar cases suggestions in the Customer Service Hub. As an administrator, you can now configure criteria using advanced similarity rules, so that agents can view cases similar to their current case and resolve customer issues in first contact and within minimal time frame. This helps to reduce operational cost and in turn increase customer satisfaction.
+Quickly support your customers by viewing similar cases suggestions in the Customer Service Hub. As an administrator, you can now configure criteria using advanced similarity rules, so that customer service representatives (service representatives or representatives) can view cases similar to their current case and resolve customer issues in first contact and within minimal time frame. This helps to reduce operational cost and in turn increase customer satisfaction.
 
-If an agent is working on a support case, they can view similar cases in the **Related** section of the current case, and resolve their case quickly. With the help of Relevance search, they can use keywords or key phrases in a service case to quickly find related cases and use them to resolve customer issues.
+If a representative is working on a support case, they can view similar cases in the **Related** section of the current case, and resolve their case quickly. With the help of Relevance search, they can use keywords or key phrases in a service case to quickly find related cases and use them to resolve customer issues.
   
 ## Similar case suggestion scenario
 

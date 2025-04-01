@@ -2,7 +2,6 @@
 title: "Pending Send email status in Dynamics 365 Customer Engagement (on-premises)"
 description: "A message will not be sent unless email integration has been correctly configured and enabled for sending email from Customer Engagement (on-premises)."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

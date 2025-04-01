@@ -13,12 +13,6 @@ After you create and activate a sequence for the selling process, you connect th
 
 Also, you can connect multiple sequences to a record. More information: [Connect multiple sequences to record](#connect-multiple-sequences-to-record)
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence Manager, or Salesperson <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Connect multiple sequences to record
 
 To improve the customer engagement and collaboration when multiple team members work on a record, you can connect multiple sequences to that record. This helps in closing deals faster, and bringing better business results.  

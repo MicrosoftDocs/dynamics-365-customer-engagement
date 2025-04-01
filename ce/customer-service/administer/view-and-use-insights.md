@@ -3,7 +3,7 @@ title: View and use insights for search providers
 description: Learn how to view ingestion insights about your search providers in Dynamics 365 Customer Service.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi 
+ms.reviewer: sdas
 ms.topic: how-to 
 ms.date: 06/21/2024
 ms.custom: bap-template 

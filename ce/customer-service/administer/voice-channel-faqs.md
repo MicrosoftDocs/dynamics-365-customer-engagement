@@ -3,9 +3,9 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 07/29/2024
+ms.date: 12/14/2024
 ms.topic: conceptual
-ms.reviewer:
+ms.reviewer: nenellim
 ms.collection:
 ms.custom: bap-template
 ---
@@ -28,7 +28,7 @@ No, the voice channel isn't supported in the other apps of Dynamics 365. It's su
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Agents have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Agents can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Customer service representatives (service representative or representative) have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Representatives can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
@@ -109,7 +109,7 @@ Learn more in:
 
 ### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
-Sometimes, when a Copilot Studio bot isn't added or an agent is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend agents to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
+Sometimes, when a Copilot Studio bot isn't added or a representative is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend service representatives to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
 
 ## Language
 
@@ -153,21 +153,21 @@ More information:
 
 ### Does the voice channel support emergency calling?
 
-Yes, the voice channel supports emergency calling; agents can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
+Yes, the voice channel supports emergency calling; service representatives can call the emergency number during a crisis. This feature is currently supported in the United States and Puerto Rico where the emergency calling number is 911. More information: [How emergency calling works in the voice channel](voice-channel-emergency-calling.md)
 
 ## Inbound and outbound calls, voicemail, and transcripts
 
-### Why is the agent unable to make an outbound call?
+### Why is the service representative unable to make an outbound call?
 
-The agent must be a part of the outbound voice queue to make an outbound call. Learn more in [Set up outbound calling](voice-channel-outbound-calling.md).
+The service representative must be a part of the outbound voice queue to make an outbound call. Learn more in [Set up outbound calling](voice-channel-outbound-calling.md).
 
 ### Are overflow actions like voicemail and direct callback fulfilled for fallback queues?
 
 No, overflow settings aren't applicable to fallback queues. The settings are ignored, and the routed work item is assigned to the queue. More information: [How overflow works](manage-overflow.md#configure-overflow-conditions-for-before-a-work-item-is-queued)
 
-### Does the voice channel include real-time keyword recognition or sentiment tracking while an agent is on a call?
+### Does the voice channel include real-time keyword recognition or sentiment tracking while a representative is on a call?
 
-Yes, features such as sentiment analysis, agent suggestions for similar cases or knowledge articles, are available in the voice channel.
+Yes, features such as sentiment analysis, service representative suggestions for similar cases or knowledge articles, are available in the voice channel.
 
 ### Related information
 

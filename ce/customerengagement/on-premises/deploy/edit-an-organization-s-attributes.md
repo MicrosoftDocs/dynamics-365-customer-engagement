@@ -2,7 +2,6 @@
 title: "Edit an organization's attributes | Microsoft Docs"
 description: Learn how to edit organization attributes in Dynamics 365 Customer Engagement (on-premises)
 ms.custom: 
-ms.date: 10/01/2018
 
 ms.reviewer: 
 ms.suite: 

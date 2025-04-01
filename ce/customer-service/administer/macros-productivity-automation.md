@@ -3,7 +3,7 @@ title: Create productivity automation macros
 description: Learn about how to use productivity automation macros in Dynamics 365 Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.reviewer: 
+ms.reviewer: mgandham
 ms.topic: conceptual 
 ms.collection: 
 ms.date: 07/29/2024

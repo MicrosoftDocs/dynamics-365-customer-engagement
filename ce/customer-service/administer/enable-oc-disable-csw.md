@@ -3,7 +3,7 @@ title: Enable the Omnichannel for Customer Service app and disable the Customer 
 description: Enable the Dynamics 365 Omnichannel for Customer Service app and disable the Customer Service workspace app for Omnichannel users
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.topic: how-to
 ms.date: 10/29/2024
 ms.custom: bap-template

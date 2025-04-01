@@ -2,7 +2,6 @@
 title: "Synchronization settings tab in Dynamics 365 Customer Engagement (on-premises)"
 description: "From the System Settings Synchronization tab, determine how data is synced between Customer Engagement (on-premises) and Dynamics 365 for Outlook."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

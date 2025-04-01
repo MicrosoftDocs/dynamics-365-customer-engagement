@@ -1,7 +1,6 @@
 ---
 title: "Get started with virtual entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn how to get started with virtual entities to integrate data residing in external systems for Dynamics 365 Customer Engagement (on-premises).
-ms.date: 06/21/2019
 
 ms.topic: get-started
 ms.collection: get-started

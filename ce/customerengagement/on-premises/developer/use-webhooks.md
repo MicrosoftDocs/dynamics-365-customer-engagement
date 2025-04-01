@@ -2,7 +2,6 @@
 title: "Use webhooks to create external handlers for server events(Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "You can send data about events that occur on the server to a web application using webhooks. Webhooks is a lightweight HTTP pattern for connecting Web APIs and services with a publish/subscribe model. webhook senders notify receivers about events by making requests to receiver endpoints with some information about the events."
 ms.custom: 
-ms.date: 12/18/2017
 ms.reviewer: pehecke
 
 ms.suite: 

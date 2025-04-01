@@ -3,7 +3,7 @@ title: Enable custom entities for service-level agreements
 description: Enable custom entities for service-level agreements to use custom entities based on user requirements.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
 ms.date: 12/06/2023

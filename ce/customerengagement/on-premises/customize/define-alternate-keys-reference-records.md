@@ -2,7 +2,6 @@
 title: "Define alternate keys in Dynamics 365 Customer Engagement (on-premises)"
 description: "Ensure an efficient and accurate way of integrating data from external systems using alternate keys. Learn about the benefits and steps for creating them."
 ms.custom: 
-ms.date: 03/30/2023
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

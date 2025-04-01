@@ -1,10 +1,11 @@
 ---
-title: "Condition Algorithm | MicrosoftDocs"
-description: "The topic describes the groupings of a control that needs to be uniquely identified by specifying some property condition to distinguish it from other controls."
+title: Condition Algorithm
+description: The topic describes the groupings of a control that needs to be uniquely identified by specifying some property condition to distinguish it from other controls.
 ms.date: 06/27/2024
-ms.topic: article
+ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 search.audienceType: 
   - customizer
   - developer

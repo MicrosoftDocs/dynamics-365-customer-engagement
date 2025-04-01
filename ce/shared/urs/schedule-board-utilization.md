@@ -27,7 +27,7 @@ So the resource has a utilization of 25% ((10 / (5 x 8)) x 100)).
 
 ### Booking status influence on utilization
 
-Your [business processes can use several booking statuses](../../field-service/set-up-booking-statuses.md), such as traveling, in progress, on break, and completed. Each of them maps to a booking status of either *Committed*, *Proposed*, or *Canceled*. Bookings map to the *Committed* status when confirmed and a resource will complete the work. The *Proposed* status suggests unconfirmed work. The *Canceled* status notifies stakeholders that the booking is no longer scheduled.
+Your [business processes can use several booking statuses](../../field-service/set-up-booking-statuses.md), such as traveling, in progress, on break, and completed. Each of them maps to a booking status of either *Committed*, *Proposed*, or *Canceled*. Bookings map to the *Committed* status when confirmed and a resource completes the work. The *Proposed* status suggests unconfirmed work. The *Canceled* status notifies stakeholders that the booking is no longer scheduled.
 
 The utilization metric ignores bookings with a *Proposed* or *Canceled* booking status.
 

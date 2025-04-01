@@ -3,10 +3,10 @@ title: Enable Copilot to suggest knowledge from cases (preview)
 description: Enable the use of Copilot to suggest knowledge drafts from cases.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: 
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection: bap-ai-copilot
-ms.date: 04/08/2024
+ms.date: 11/28/2024
 ms.custom: bap-template
 ---
 

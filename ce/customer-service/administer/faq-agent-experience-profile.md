@@ -3,7 +3,7 @@ title: FAQs about adding users to agent experience profile | MicrosoftDocs
 description: Frequently Asked Questions about adding users to agent experience profiles
 author: gandhamm 
 ms.author: mgandham
-ms.reviewer: neeranelli
+ms.reviewer: mgandham
 ms.topic: conceptual
 ms.date: 07/01/2024
 ms.custom: bap-template 

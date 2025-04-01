@@ -5,6 +5,7 @@ ms.date: 01/25/2022
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham
+ms.reviewer: mgandham
 ---
 # startProactiveChat
 

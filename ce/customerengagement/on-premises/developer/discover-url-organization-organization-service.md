@@ -2,7 +2,6 @@
 title: "Discover the URL for your organization using the Discovery Service (Developer Guide for Dynamics 365 Server )| MicrosoftDocs"
 description: "For a multi-tenant environment like Dynamics 365 Server, you can use Discovery service to determine the organizations that a user is member of"
 ms.custom: on-premise
-ms.date: 09/05/2019
 ms.reviewer: pehecke
 
 ms.suite: 

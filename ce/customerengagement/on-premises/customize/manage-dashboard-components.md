@@ -2,7 +2,6 @@
 title: "Edit dashboard components in Dynamics 365 Customer Engagement (on-premises)"
 description: "Create and design a dashboard layout by editing its components. You can rearrange the components, change their width and height, or remove a component."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

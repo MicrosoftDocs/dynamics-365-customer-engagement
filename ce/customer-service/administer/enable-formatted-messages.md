@@ -1,21 +1,21 @@
 ---
 title: Enable formatted messages
-description: Use this topic to understand how to enable your agents to send and receive formatted messages in Omnichannel for Customer Service.
+description: Use this topic to understand how to enable your representatives to send and receive formatted messages in Omnichannel for Customer Service.
 author: gandhamm
 ms.author: mgandham
-ms.date: 06/14/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 ms.custom: bap-template
-ms.reviewer: nenellim
+ms.reviewer: mgandham
 ---
 
 # Enable formatted messages
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Your agents can send and receive messages formatted using Markdown.
+Your customer service representatives (service representatives or representatives) can send and receive messages formatted using Markdown.
 
-**To enable your agents to send and receive formatted messages**
+**To enable your representatives to send and receive formatted messages**
 
 1. In the site map of Customer Service admin center or Contact Center admin center, in **Agent experience**, select **Productivity**.
 

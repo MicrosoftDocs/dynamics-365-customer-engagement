@@ -2,14 +2,13 @@
 title: "Manage SharePoint documents in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how to manage your SharePoint documents and document locations from Dynamics 365 Customer Engagement (on-premises)."
 keywords: document, SharePoint, share, manage
-ms.date: 05/05/2020
 
 ms.topic: article
 applies_to: 
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 247ced8f-f79f-4447-8690-3c22c1489544
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 topic-status: Editing
 search.audienceType: 
   - enduser

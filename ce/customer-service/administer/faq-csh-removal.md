@@ -1,11 +1,11 @@
 ---
 title: Customer Service Hub app removal and migration FAQ
 description: Learn about frequently asked questions about the Customer Service Hub app removal and migration to Customer Service workspace.
-ms.date: 10/29/2024
+ms.date: 03/03/2025
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 ms.custom: bap-template
 ---
 
@@ -15,11 +15,11 @@ This article contains frequently asked questions about the removal of the Custom
 
 ## Why is the Customer Service workspace app replacing Customer Service Hub for new organizations with Enterprise licenses?
 
-Customer Service workspace offers improved agent efficiency as a multisession app with a browser-like, tabbed experience in a single window. In contrast, Customer Service Hub is a single-session app that requires agents to open multiple browser windows to manage their work items.
+Customer Service workspace offers improved customer service representative (service representative or representative) efficiency as a multisession app with a browser-like, tabbed experience in a single window. In contrast, Customer Service Hub is a single-session app that requires service representatives to open multiple browser windows to manage their work items.
 
-Customer Service workspace improves the ability for agents to respond to email, chats, and messages from configured social media channels, and calls. Agents can view and filter their conversations and work items in an Outlook-style inbox. Administrators can create custom inbox views to meet the needs of their organizations.
+Customer Service workspace improves the ability for representatives to respond to email, chats, and messages from configured social media channels, and calls. Representatives can view and filter their conversations and work items in an Outlook-style inbox. Administrators can create custom inbox views to meet the needs of their organizations.
 
-You can reap the benefits of using Microsoft Copilot out of the box without the need for extra configuration in Customer Service workspace. When administrators enable Copilot, agents can use the following features:
+You can reap the benefits of using Microsoft Copilot out of the box without the need for extra configuration in Customer Service workspace. When administrators enable Copilot, representatives can use the following features:
  
  - Summarize cases with Copilot
  - Summarize conversations with Copilot
@@ -44,7 +44,7 @@ If you're an existing customer and need to set up Customer Service Hub in your e
 
 ## What's the best way to get familiar with Customer Service workspace?
 
-For information about familiarizing with Customer Service workspace, refer to [Customer Service workspace in a day](https://www.microsoft.com/download/confirmation.aspx?id=105315).
+Learn more in [Customer Service workspace in a day](https://go.microsoft.com/fwlink/?linkid=2300097).
 
 ### Related information
 [Migrate to Customer Service workspace from removed or deprecated apps](migrate-to-csw.md)  

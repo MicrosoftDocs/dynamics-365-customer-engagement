@@ -2,7 +2,6 @@
 title: "Use Editable Grid control in Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to enable grid editing using the Editable Grid custom control. This allows users to do direct editing in grids and subgrids from any device."
 ms.custom: 
-ms.date: 04/10/2020
 ms.reviewer: 
 
 ms.suite: 

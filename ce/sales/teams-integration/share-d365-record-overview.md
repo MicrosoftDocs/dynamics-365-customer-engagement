@@ -33,7 +33,7 @@ When having a conversation with other people over Teams, you might want to share
 The information in the interactive card is displayed using the view of type **Quick Find View** of a table. To change the information displayed in the cards, admins can [edit the columns](/power-apps/maker/model-driven-apps/choose-and-configure-columns) in the [**Quick Find View**](/power-apps/maker/model-driven-apps/create-edit-views#system-views) view of a table as per the requirement.
 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4XVnt]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=86512709-3ed0-4f56-bd65-5a06a904293c]
 
 ## Related information
 

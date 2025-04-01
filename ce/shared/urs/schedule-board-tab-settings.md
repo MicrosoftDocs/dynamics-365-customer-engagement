@@ -6,7 +6,7 @@ There are two levels of settings for the schedule board. [Board view settings](#
 
 The board view settings show in a side pane and apply only to the selected schedule board tab.
 
-Open the **Schedule Board**, choose the tab to configure and select **Scheduler settings**.
+Open the **Schedule Board**, choose the tab to configure, and select **Scheduler settings**.
 
 :::image type="content" source="../../field-service/media/scheduler-settings.png" alt-text="Screenshot of the Board view settings pane on the Schedule Board.":::
 
@@ -45,24 +45,10 @@ Board settings are more detailed and let you define settings for a specific boar
 
 #### Share a schedule board tab with specific people
 
-The schedule board saves tabs as records in the *Schedule Board Settings* entity.
-
-1. Go to **Settings** > **Advanced Settings** and select **Advanced Find**.
-
-1. In the pop-up window, look for the **Schedule Board Settings** table and select **Results**.
-
-   :::image type="content" source="../../field-service/media/advanced-find-legacy-web-client.png" alt-text="Screenshot of the advanced find pop-up in the legacy web client settings.":::
-
-   The list of records shows all schedule board tab records you have access to.
-
-1. Open the schedule board record you want to share to specific people. On the schedule board settings form, select **Share** > **Manage access**.
-
-   :::image type="content" source="../../field-service/media/schedule-board-share.png" alt-text="Screenshot of the share button for a specific schedule board setting.":::
-
-1. Add users or teams to share the schedule board with. They see the schedule board tab and can change it if they have access privileges to schedule boards.
+The schedule board saves tabs as records in the *Schedule Board Settings* table. To share a tab, use the [Schedule board settings management control](/dynamics365/guidance/resources/fs-schedule-board-settings-management-control).
 
 > [!NOTE]
-> Managing schedule board access for teams by creating custom security roles and editing permissions is not supported. Instead, select **Specific People** as the sharing option and the appropriate team in the **Manage access** pane.
+> Managing schedule board access for teams by creating custom security roles and editing permissions isn't supported.
 
 ### Map section
 
@@ -183,7 +169,7 @@ For reference, the default HTML is as follows:
 
 #### Disable default extensions
 
-You can modify the CSS, add your own JavaScript files and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
+You can modify the CSS, add your own JavaScript files, and localize the schedule board by changing labels on supported areas of the board. You can always exclude certain boards from inheriting client extensions applied to the default board by disabling default extensions on that board.
 
 For more information about editing filter layouts, resource cell templates, and client extensions, see this [blog post](https://blogs.msdn.microsoft.com/crm/2017/10/16/blog-post-july-2017-update-for-field-service-and-project-service-automation-universal-resource-scheduling-part-1/) and [Extend Universal Resource Scheduling](../../common-scheduler/developer/extending-urs-step-by-step.md).
 

@@ -2,7 +2,6 @@
 title: "Use the Organization service with metadata (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Learn about how to programmactically access and modify the metadata model using the organization service with metadata."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

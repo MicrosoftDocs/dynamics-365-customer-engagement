@@ -3,6 +3,7 @@ title: "Create toolbar buttons for search | MicrosoftDocs"
 description: "Perform the steps mentioned in the topic to create and add toolbar buttons to search in Unified Service Desk."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'

@@ -2,7 +2,6 @@
 title: "Schedule and appointment entities (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: "Overview of appointment-based service scheduling, including defining services, resources and work schedules, and service locations."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 

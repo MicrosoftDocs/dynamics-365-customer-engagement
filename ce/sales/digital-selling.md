@@ -13,13 +13,6 @@ ms.custom: bap-template
 
 Use selected Dynamics 365 Sales Premium features&mdash;sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring&mdash;with the Dynamics 365 Sales Enterprise license.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Overview
 
 Dynamics 365 digital selling capabilities spearhead the digital transformation of sales organizations. Enhance your digital selling programs with Sales Premium features that are available with the Dynamics 365 Sales Enterprise license: sales accelerator, conversation intelligence, relationship intelligence, and predictive scoring, all available with a limited monthly capacity. To get access to all the [premium features](overview.md#dynamics-365-sales-premium) with no capacity limitations, upgrade to Dynamics 365 Sales Premium.
@@ -32,7 +25,7 @@ In the Sales Hub app, set up digital selling capabilities in the **Sales Setting
 
 Watch this brief video for an overview of digital selling capabilities in Dynamics 365 Sales Enterprise:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWQCj0]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=2456a453-6d36-4779-bea4-b64505ad05e5]
 
 ## Licensing options
 

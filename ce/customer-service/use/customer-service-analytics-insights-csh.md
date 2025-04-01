@@ -5,7 +5,7 @@ ms.date: 02/12/2024
 ms.topic: overview
 author: lalexms
 ms.author: laalexan
-ms.reviewer: shujoshi
+ms.reviewer: laalexan
 search.audienceType: 
   - admin
   - customizer
@@ -20,7 +20,7 @@ feedback_product_url: https //experience.dynamics.com/ideas/categories/list/?cat
 
 The insights dashboards for Customer Service contain various charts and metrics to help you understand the factors that can improve customer service for your organization. Key performance indicators and visual breakdowns of your organization's support cases are coupled with AI-generated insights on cases and topics that contribute to overall trends.
 
-The Customer Service dashboards give you a performance summary and detailed reports on cases, agents, and topics. You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
+The Customer Service dashboards give you a performance summary and detailed reports on cases, customer service representatives (service representatives or representatives), and topics. You can make changes to the visual display of the dashboards and also save your personalized views as bookmarks.
 
 ## Manage dashboards
 
@@ -36,7 +36,7 @@ The Summary dashboard gives you a broad overview of the customer service experie
 
 ### Agent
 
-The Agent dashboard shows charts and KPIs for individual agents and overall agent performance. More information: [Agent dashboard](agent-dashboard-cs.md)
+The Agent dashboard shows charts and KPIs for individual service representatives and overall representative performance. More information: [Agent dashboard](agent-dashboard-cs.md)
 
 ### Case Topics
 

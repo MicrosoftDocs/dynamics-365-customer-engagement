@@ -16,7 +16,7 @@ Administrators can [change the settings of an optimization goal](rso-optimizatio
 
 [Resource utilization](resource-utilization-report.md) might improve if travel time isn't considered part of a technician's work hours.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Fe9O]
+> [!VIDEO https://learn-video.azurefd.net/vod/player?id=ee03b616-b4e1-4ae4-9bd3-3513c14f8f5e]
 
 ## Edit the constraints of an optimization goal
 

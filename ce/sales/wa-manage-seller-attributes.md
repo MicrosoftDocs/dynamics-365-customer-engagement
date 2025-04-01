@@ -1,11 +1,11 @@
 ---
 title: Set seller attributes and capacity
-description: Configure seller attributes and capacity in Dynamics 365 Sales to assign records automatically based on your sellers' language, location, skills, and workload.
+description: Learn  how to configure seller attributes and capacity in Dynamics 365 Sales to assign records automatically based on your sellers' language, location, skills, and workload.
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 09/20/2024
+ms.date: 11/18/2024
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -18,15 +18,6 @@ ms.custom:
 Assignment rules can assign new leads, opportunities, and insights to your sellers based on their availability, capacity, and personal or organizational attributes.
 
 This article covers how to define your sales team's attributes and capacity. [If you turn on seller availability](./wa-manage-seller-availability.md), sellers can [set their own work hours](./personalize-sales-accelerator.md#configure-your-work-availability). You can also [set their availability yourself](./wa-manage-seller-availability.md#set-your-sellers-availability-yourself).
-
-[!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
 
 ## Prerequisites
 
@@ -100,6 +91,8 @@ You can assign attributes and capacity to sellers one at a time or in groups.
 1. (Optional) If the list of sellers is long, [use filters to focus on the ones you want](#shortlist-sellers-using-search-and-advanced-filters).  
 1. Continue to set attributes and capacity for [individual sellers](#set-attributes-and-capacity-for-individual-sellers) or for [groups of sellers](#set-attributes-and-capacity-for-groups-of-sellers).
 
+[Learn how seller capacity is calculated](wa-create-and-activate-assignment-rule.md#how-seller-capacity-is-calculated).
+
 ### Set attributes and capacity for individual sellers
 
 1. Select the seller's name in the **Sellers for assignment** list.  
@@ -154,6 +147,10 @@ Your filters last only as long as you're signed in to Sales Hub. You can't save 
     - **Add related entity**: Add a condition that's based on the attributes of related tables. Select an attribute in the **Related Entity** list, then select **Contains data** or **Does not contain data**, and then define the condition.  
     [Learn more about creating filters with grouped and nested conditions](/powerapps/maker/model-driven-apps/create-edit-view-filters).  
 1. After you define all the filter criteria, select **Apply**.
+
+## Set seller availability
+
+You can configure your sellers' work hours through the CRM calendar. [Learn how to set work hours in work assignment settings](wa-manage-seller-availability.md#set-work-hours-in-work-assignment-settings).
 
 [!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
 

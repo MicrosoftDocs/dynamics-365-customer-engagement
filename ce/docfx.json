@@ -167,12 +167,18 @@
         "versium-predict/**.*": "dynamics-365-sales",
         "teams-integration/**.*": "dynamics-365",
         "admin/**.*": "d365ce-op",
-        "customerengagement/**.*": "d365ce-op"
+        "customerengagement/**.*": "d365ce-op",
+        "developer/**.*": "dynamics-365-cross-app"
       },
       "ms.prod": {
       },
       "ms.date": {
-        "unified-service-desk/**.*": "06/27/2024"
+        "unified-service-desk/**.*": "06/27/2024",
+        "customerengagement/**.*": "12/13/2024",
+        "developer/reference/entities/*.md" : "01/23/2025",
+        "field-service/developer/reference/entities/*.md" : "02/07/2025",
+        "sales/developer/entities/*.md" : "01/26/2025",
+        "customer-service/develop/reference/entities/*.md" : "01/27/2025"
       },
       "ms.custom": {
         "unified-service-desk/**.*": "evergreen"

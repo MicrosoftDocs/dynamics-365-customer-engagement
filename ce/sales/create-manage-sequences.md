@@ -16,13 +16,6 @@ ms.custom:
 
 Sequences help sales managers enforce best practices by introducing a set of consecutive activities for sellers to follow during the course of their day. A manager can connect sequences to leads and opportunities that appear in a seller's work queue, to help sellers prioritize activities to focus on selling, be more productive, and better align to business processes.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator, Sequence manager, or Sales Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Permission requirements to manage sequences
 
 The following table shows the permissions required for a user role to perform tasks on sequences.
@@ -37,7 +30,7 @@ The following table shows the permissions required for a user role to perform ta
 
 ## Use sequence designer
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4Vdof]
+>[!VIDEO https://learn-video.azurefd.net/vod/player?id=8d4385ed-e619-47f4-baa2-4a98f86e9c7d]
 
 You can use the sequence designer to do the following tasks:  
 

@@ -2,7 +2,6 @@
 title: "Enable languages in Dynamics 365 Customer Engagement (on-premises)"
 description: "Enable languages in your organization to display the user interface and Dynamics 365 Help in a language that’s different from the base language."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

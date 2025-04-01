@@ -2,7 +2,6 @@
 title: "Set a default view in Dynamics 365 Customer Engagement (on-premises)"
 description: "Set any public view as the default view for an entity. Unless someone has pinned a different view as their personal default, they will see the view you set."
 ms.custom: 
-ms.date: 01/09/2019
 ms.reviewer: 
 
 ms.suite: 

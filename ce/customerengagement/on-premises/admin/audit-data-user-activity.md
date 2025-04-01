@@ -2,7 +2,6 @@
 title: "Use auditing logs in Dynamics 365 Customer Engagement (on-premises)"
 description: "The auditing feature logs changes made to customer records and user access. Learn how to start or stop auditing, review logs, and more." 
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

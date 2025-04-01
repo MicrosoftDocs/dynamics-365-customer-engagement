@@ -3,7 +3,7 @@ title: FAQ on agent presence in Customer Service
 description: Find answers to the most commonly asked questions on agent presence and how presence is calculated.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: neeranelli
+ms.reviewer: nenellim
 ms.topic: faq
 ms.collection:
 ms.date: 04/30/2024

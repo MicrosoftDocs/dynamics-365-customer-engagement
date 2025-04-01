@@ -2,7 +2,6 @@
 title: "Server-side synchronization in Dynamics 365 Customer Engagement (on-premises)"
 description: "Synchronize data for each user that can be controlled by using filters that are available from the Synchronization tab in the user options dialog."
 ms.custom: 
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

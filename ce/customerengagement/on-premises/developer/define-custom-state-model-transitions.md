@@ -2,7 +2,6 @@
 title: "Define custom state model transitions (Developer Guide for Dynamics 365 Customer Engagement) | MicrosoftDocs"
 description: Learn about defining custom state model transitions for the Incident (Case) entity or custom entities.
 ms.custom:
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite:
@@ -85,7 +84,7 @@ When this data is present and the Entity `EnforceStateTransitions` property is `
 
 ### See also
 
-[Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/RetrieveValidTransitions)  
+[Sample: Retrieve Valid Status Transitions](https://github.com/microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/RetrieveValidTransitions)  
  [Record state and status](introduction-entities.md#bkmk_RecordStateandStatus)  
  [Retrieve and Detect Changes to Metadata](retrieve-detect-changes-metadata.md)
 

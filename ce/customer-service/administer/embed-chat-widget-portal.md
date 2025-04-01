@@ -1,10 +1,10 @@
 ---
 title: Embed chat widget in your website or portal
 description: Embed a chat widget in your website, portal, or mobile experience to provide customers with a personalized experience.
-ms.date: 10/05/2023
+ms.date: 02/05/2025
 author: neeranelli
 ms.author: nenellim
-ms.reviewer:
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
 ms.custom:
@@ -59,14 +59,14 @@ After you configure the chat widget, it has the following capabilities:
      
      :::image type="content" source="../media/oc-chat-widget-minimized-mode.png" alt-text="Screenshot of chat widget in minimized mode.":::
 
-- **Maximized mode**: A user can maximize the chat widget to start a conversation with an agent.
+- **Maximized mode**: A user can maximize the chat widget to start a conversation with a customer service representative (service representative or representative).
 
-- **System events**: System-generated messages appear for events, such as when an agent joins a conversation, or a conversation is transferred by the agent or supervisor to another agent.
+- **System events**: System-generated messages appear for events, such as when a service representative joins or transfers a conversation, or a conversation is transferred by a supervisor to another representative.
       :::image type="content" source="../media/chat-widget-system-events.png" alt-text="Screenshot of chat widget with system event messages displayed on the widget for customer."::: 
     
 - **Keyboard shortcut**: During the chat session, the customer can press **Ctrl+/** to return the cursor to the message send box from elsewhere on the page.
 
-- **Pre-conversation survey**: If a survey is configured by an admin, it appears for the user before the conversation starts. This survey also helps the user connect to an appropriate agent.
+- **Pre-conversation survey**: If a survey is configured by an admin, it appears for the user before the conversation starts. This survey also helps the user connect to a suitable representative.
       :::image type="content" source="../media/oc-chat-widget-pre-chat.png" alt-text="Screenshot of pre-conversation survey questions that are displayed to the customer.":::
     
 - **End chat**: A customer can end the conversation by selecting the **Close chat** button. A confirmation message appears before the conversation ends.

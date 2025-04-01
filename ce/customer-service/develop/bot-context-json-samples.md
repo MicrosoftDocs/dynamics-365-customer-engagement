@@ -1,11 +1,11 @@
 ---
 title: Code samples for parsing activity JSON
 description: Learn how to parse the activity JSON object to retrieve the bot context for Azure or Copilot Studio bots.
-ms.date: 07/21/2023
+ms.date: 01/13/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ---
 # Code samples for parsing activity JSON

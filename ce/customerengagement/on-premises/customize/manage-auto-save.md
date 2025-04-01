@@ -2,7 +2,6 @@
 title: "Disable auto-save in Dynamics 365 for Customer Engagement (on-premises)"
 description: "There may be reasons why you don't want data explicitly saved each time you edit a record. Follow these steps to disable auto-save for a form or organization."
 ms.custom: 
-ms.date: 10/23/2019
 ms.reviewer: 
 
 ms.suite: 

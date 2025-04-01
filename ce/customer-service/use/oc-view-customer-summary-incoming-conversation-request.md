@@ -3,6 +3,7 @@ title: "View active conversation for an incoming conversation request | Microsof
 description: "Learn how to view active conversation of incoming conversation requests for customer records."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ms.date: 03/12/2024
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Create or edit competitor records  | MicrosoftDocs"
 description: "Track information about your competitor’s strengths and weaknesses and share it with your colleagues to help everyone stay current."
-ms.date: 10/25/2021
+ms.date: 11/26/2024
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,14 +19,6 @@ searchScope:
 # Create or edit competitor records (Sales Hub) 
 
 Tracking your competitors and their strengths and weaknesses can help you win sales. Use [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] to store details about competitors that you and your colleagues can share, and stay current with the latest details.  
-
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 
 ## Create a competitor
 

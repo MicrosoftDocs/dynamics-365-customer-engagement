@@ -2,7 +2,6 @@
 title: "Connect Exchange Server (on-premises) to Dynamics 365 Customer Engagement (on-premises)"
 description: "Follow these steps to connect Dynamics 365 Customer Engagement (on-premises) with Microsoft Exchange Server (on-premises)."
 ms.custom: ""
-ms.date: 11/28/2018
 ms.reviewer: ""
 
 ms.suite: ""

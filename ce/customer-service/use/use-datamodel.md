@@ -3,7 +3,7 @@ title: Use the out-of-the-box data model in your custom reports
 description: Learn how to use the out-of-the-box data model in your custom reports. 
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: how-to 
 ms.collection: 
 ms.date: 07/05/2024

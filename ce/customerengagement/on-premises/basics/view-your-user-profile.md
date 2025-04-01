@@ -2,7 +2,6 @@
 title: "View user profile in Dynamics 365 Customer Engagement (on-premises)"
 description: "View your profile to see the information that's available to the entire organization, such as your contact info, work hours, connections, and security role."
 ms.custom: 
-ms.date: 05/05/2020
 ms.reviewer: 
 
 ms.suite: 
@@ -12,8 +11,8 @@ applies_to:
   - Dynamics 365 Customer Engagement (on-premises)
 ms.assetid: 6f8a783f-2cb2-4292-9318-b0cedc9fb5f9
 caps.latest.revision: 28
-author: sericks007
-ms.author: sericks
+author: shwetamurkute
+ms.author: smurkute
 search.audienceType: 
   - enduser
 

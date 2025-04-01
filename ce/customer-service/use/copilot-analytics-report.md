@@ -1,20 +1,20 @@
 ---
 title: Use Copilot analytics report
 description: Learn how to view and understand Copilot metrics in Microsoft Dynamics 365 Customer Service.
-ms.date: 07/01/2024
+ms.date: 02/06/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.custom: bap-template
 ms.collection: bap-ai-copilot
 ---
 
 # Use Copilot analytics report
 
-Copilot in Dynamics 365 Customer Service helps agents to complete tasks related to conversations, cases, and email more easily. With the Copilot analytics dashboard, supervisors and customer service managers can identify the impact that Copilot has across their customer service operations.
+Copilot in Dynamics 365 Customer Service helps customer service representatives (service representatives or representatives) to complete tasks related to conversations, cases, and email more easily. With the Copilot analytics dashboard, supervisors and customer service managers can identify the impact that Copilot has across their customer service operations.
 
-The system stores the copilot interaction data in the [msdyn_copilotinteraction](../develop/reference/entities/msdyn_copilotinteraction.md), [msdyn_copilotinteractiondata](../develop/reference/entities/msdyn_copilotinteractiondata.md), [msdyn_copilottranscript](../develop/reference/entities/msdyn_copilottranscript.md), and [msdyn_copilottranscriptdata](../develop/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
+The system stores the copilot interaction data in the [Copilot Interaction (msdyn_copilotinteraction)](../../developer/reference/entities/msdyn_copilotinteraction.md), [Copilot Interaction Data (msdyn_copilotinteractiondata)](../../developer/reference/entities/msdyn_copilotinteractiondata.md), [Copilot Transcript (msdyn_copilottranscript)](../../developer/reference/entities/msdyn_copilottranscript.md), and [Copilot Transcript Data (msdyn_copilottranscriptdata)](../../developer/reference/entities/msdyn_copilottranscriptdata.md) tables. You can use the information to build custom metrics in reporting and analytics and understand how Copilot is being used in your organization.
 
 To view the Copilot report, select **Copilot analytics** in the Customer Service workspace app.
 
@@ -33,7 +33,7 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 |--------|---------|
-| Daily active users | The number of unique agents who used Copilot at least once in the last day. |
+| Daily active users | The number of unique service representatives who used Copilot at least once in the last day. |
 | Total copilot AI responses | The total number of responses that Copilot provided. |
 | Number of copilot AI responses used | The number of times that text from a Copilot response was copied. |
 | Percentage of copilot AI responses used | The percentage of responses that were used. |
@@ -62,7 +62,7 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 |--------|---------|
-| Total conversations with copilot AI available | The total number of conversations in which the agent engaged with the customer at least once using Copilot; doesn't include email and voice. |
+| Total conversations with copilot AI available | The total number of conversations in which the service representative engaged with the customer at least once using Copilot; doesn't include email and voice. |
 | Number of conversations using copilot AI | The number of engaged conversations that used Copilot; lists only closed conversations. |
 | Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot. |
 | Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended; displays data when Copilot was used and when it wasn't.|
@@ -72,11 +72,11 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 | -------|---------|
-| Agent ratings | The number of times agents rated a Copilot response positively or negatively by providing a thumbs-up or thumbs-down. |
+| Agent ratings | The number of times service representatives rated a Copilot response positively or negatively by providing a thumbs-up or thumbs-down. |
 
 ## Next Steps
 
-You can view the [transcripts of interactions](../develop/download-copilot-transcript-data.md) between agents and Copilot.
+You can view the [transcripts of interactions](../develop/download-copilot-transcript-data.md) between service representatives and Copilot.
 
 ### Related information
 

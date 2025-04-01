@@ -3,7 +3,6 @@ title: "The organization database selected for import is a different version | M
 description: Environment diagnostics warning that the organization you're trying to import is a different version than the deployment.
 
 ms.custom: 
-ms.date: 10/01/2018
 ms.reviewer: 
 ms.suite: 
 ms.tgt_pltfrm: 

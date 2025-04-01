@@ -14,13 +14,6 @@ ms.custom: bap-template
 
 Dynamics 365 Sales supports certain SMS channels natively and can add SMS channels that aren't supported natively.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Steps to add custom SMS channel
 
 1. [Define an extended configuration entity for a channel instance](custom-define-sms-instance.md)  

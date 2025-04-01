@@ -3,6 +3,7 @@ title: "Configure recommended settings for Unified Service Desk | MicrosoftDocs"
 description: "The topic provides information on how to configure the recommended settings for Unified Service Desk."
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.topic: article
 ms.date: 06/27/2024
 monikerRange: '>= dynamics-usd-4.1'

@@ -2,7 +2,6 @@
 title: "Programming reference for Dynamics 365 Customer Engagement (on-premises) (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Contains reference documentation of the public assemblies, web services, schemas, and error codes that constitute the Developer Guide (SDK) for Dynamics 365 Customer Engagement (on-premises). "
 ms.custom: 
-ms.date: 08/31/2022
 ms.reviewer: pehecke 
 ms.topic: article
 author: JimDaly
@@ -17,7 +16,7 @@ This section contains reference documentation of the public assemblies, web serv
   
 ## In This Section  
  
- [Entity Reference](about-entity-reference.md)<br />
+ [Dynamics 365 Enabled apps table/entity reference](../../../developer/reference/about-entity-reference.md)<br />
  [Web API Reference](/power-apps/developer/data-platform/webapi/reference/about)<br />
  [Dynamics 365 Customer Engagement (on-premises) Organization Service 9.x](/dotnet/api/microsoft.crm.sdk?view=dataverse-sdk-latest&preserve-view=true)<br />
  [Dynamics 365 Customer Engagement (on-premises) XRM Tooling 9.x](/dotnet/api/microsoft.xrm.tooling.connector?view=dataverse-sdk-latest&preserve-view=true)<br />

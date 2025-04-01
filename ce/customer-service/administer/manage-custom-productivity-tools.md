@@ -3,7 +3,7 @@ title: Manage custom productivity tools
 description: Learn how to manage the custom productivity tools to improve agent productivity in Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to 
 ms.date: 01/16/2024
 ms.custom: bap-template

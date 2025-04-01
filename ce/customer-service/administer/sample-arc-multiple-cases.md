@@ -3,7 +3,7 @@ title: Sample - ARC Multi-Related - Remove Unreferenced Queue
 description: This sample describes how automatic record creation can be customized to remove unreferenced queues from emails.
 author: Soumyasd27
 ms.author: sdas
-ms.reviewer: shujoshi
+ms.reviewer: sdas
 ms.topic: sample
 ms.collection:
 ms.date: 04/19/2024

@@ -2,7 +2,6 @@
 title: "Set managed properties for an entity in Dynamics 365 Customer Engagement (on-premises)"
 description: "If an entity is customizable, you can set its managed properties to allow new forms, charts, and views to be created, its display name to be changed, and more."
 ms.custom: 
-ms.date: 04/30/2019
 ms.reviewer: 
 
 ms.suite: 

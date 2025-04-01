@@ -3,7 +3,7 @@ title: Overview of Dynamics 365 Productivity Tools
 description: Learn about Dynamics 365 Productivity Tools in the Omnichannel for Customer Service.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.date: 07/01/2024
 ms.topic: overview
 ms.custom: bap-template

@@ -1,10 +1,11 @@
 ---
 title: Skill control for routed records
 description: Learn how to add a skill control on forms to view skills of any record that's routed through unified routing.
-ms.date: 04/02/2024
+ms.date: 12/18/2024
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ms.custom: 
   - dyn365-customerservice
   - bap-template
@@ -40,11 +41,11 @@ In the following example, to add a skill control named **Skills** to the **Case 
     1. In **Add component**, select Get more components. 
     1. Search **CC_OCRoutedEtnRelatedRecordsControl**, select **Components** and then select **Add**. The component is added to the list.
     1. Select the component again.
-    1. To filter the skills based on the selected queue, on the **Add CC_OCRoutedEtnRelatedRecordsControl** pane, in the Static value field for **CC_FetchXML** or **CC_skillFilter_FetchXml**, enter a fetch XML that you have defined to curate the relevant set of skills that match the queue requirements. You can use the [Sample Fetch XML](#sample-fetch-xml) listed in this article.
+    1. To filter the skills based on the selected queue, on the **Add CC_OCRoutedEtnRelatedRecordsControl** pane, in the Static value field for **CC_FetchXML** or **CC_skillFilter_FetchXml**, enter a fetch XML that you defined to curate the relevant set of skills that match the queue requirements. You can use the [Sample Fetch XML](#sample-fetch-xml) listed in this article.
 
 1. Select **Done** and then save and publish the solution.
 
-At runtime, your agents will be able to view the skill control on all routed case records in Customer Service Hub. They can also update the skills required for the routed records in real time. 
+At runtime, your customer service representatives view the skill control on all routed case records in Customer Service Hub. They can also update the skills required for the routed records in real time. 
 
 Though we don't recommend setting up parameters for the skill control, if you want to manually enter the logical collection name or the relationship name of the record, you can use the following OData queries to get the information.
 

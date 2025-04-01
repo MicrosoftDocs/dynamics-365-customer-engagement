@@ -2,7 +2,6 @@
 title: "Sample: Import data using complex data map (Developer Guide for Dynamics 365 Customer Engagement (on-premises)) | MicrosoftDocs"
 description: "Sample demonstrates how to create new records with data import by using a complex data map."
 keywords: 
-ms.date: 10/31/2017
 
 ms.custom: 
 ms.topic: sample
@@ -28,7 +27,7 @@ search.audienceType:
 
 # Sample: Import data using complex data map
 
-This sample shows how to create new records by using data import. The sample uses a complex data map. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/ImportComplexDataMap).
+This sample shows how to create new records by using data import. The sample uses a complex data map. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/ImportComplexDataMap).
 
 >[!NOTE]
 > The source data for this sample is contained in the following file `ImportComplexDataMap\import accounts.csv`.

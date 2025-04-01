@@ -3,7 +3,7 @@ title: Check your contact center health
 description: Learn how, as an admin, you can check the contact center health to diagnose configuration errors and address them by using the health check results.
 author: neeranelli
 ms.author: nenellim
-ms.reviewer: shujoshi
+ms.reviewer: nenellim
 ms.topic: how-to
 ms.collection:
 ms.date: 07/01/2024

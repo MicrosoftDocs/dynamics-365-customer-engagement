@@ -1,7 +1,6 @@
 ---
 title: "Device support for Dynamics 365 Customer Engagement (on-premises)"
 description: "Get information on the mobile devices and versions supported by Dynamics 365 Customer Engagement (on-premises)."
-ms.date: 10/01/2019
 ms.reviewer: 
 
 ms.suite: 

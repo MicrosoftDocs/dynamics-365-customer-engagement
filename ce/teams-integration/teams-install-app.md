@@ -1,7 +1,7 @@
 ---
-title: "Install the Dynamics 365 app in Teams"
+title: "Install the Dynamics 365 app in Microsoft Teams"
 description: "Learn how to install the Dynamics 365 app in Teams."
-ms.date: 04/20/2022
+ms.date: 11/25/2024
 ms.topic: article
 author: sbmjais
 ms.author: shjais
@@ -9,63 +9,48 @@ search.audienceType:
   - enduser
 ---
 
-# Install the Dynamics 365 app and set up the Microsoft Teams collaboration channel tab
+# Install the Dynamics 365 app in Microsoft Teams
 
-1. In Microsoft Teams, select **Store**. 
+1. In Microsoft Teams, on the left navigation pane, select **Apps**.
 
-   > [!div class="mx-imgBorder"]
-   > ![Select Store.](media/select-store.png "Select Store")
+2. Search for **Dynamics 365**, and then select the **Dynamics 365** tile.
 
-2. Search for **Dynamics**, and then select the **Dynamics 365** tile.
+3. In the **Dynamics 365** window, select the down arrow next to the **Add** button, and choose one of the following options:
 
-   > [!div class="mx-imgBorder"]
-   > ![Search for and select Dynamics 365.](media/teams-search-select-dynamics-365-app.png "Search for and select Dynamics 365")
+   - **Add to a team**: Select this option to add the app to a Teams channel. In the **Type a team or channel name** box, enter the name of the team or channel where you want to add the app, and then select it.
+   - **Add to a chat**: Select this option to add the app to a chat. In the **Type the name of a person or chat** box, enter the name of the person or chat where you want to add the app, and then select it.
+   - **Add to a meeting**: Select this option to add the app to a meeting. In the **Type a meeting name** box, enter the name of the meeting where you want to add the app, and then select it.
 
-3. Verify that **Add for you** and **Add to a team** are both set to **Yes**.
+   You can also select **Add** to add the app for your personal use and install it for your Microsoft Teams later.
 
-   You can use the Dynamics 365 app for your own use or use on a Microsoft Teams channel to collaborate with others. If you have an existing Microsoft Teams channel, select both options. Otherwise, you can start installing the app for your personal use and install it for your Microsoft Teams later.
+    :::image type="content" source="media/teams-install-options.png" alt-text="Screenshot showing options to add Dynamics 365 app.":::
 
-   > [!div class="mx-imgBorder"] 
-   > ![Enable personal and team features.](media/teams-store-install-both75.png "Enable personal and team features")
+1. Select **Set up**.
 
-4. For **Add to a team**, choose a team and then select **Install**. 
-
-   > [!div class="mx-imgBorder"] 
-   > ![Add to team.](media/teams-store-install-add-team75.png "Add to team")
-
-5. Pick a channel in Microsoft Teams to connect to an app record and then select **Set up**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Pick a channel and select Set up.](media/teams-install-app-step2.png "Pick a channel and select Set up")
-
-6. Select a version 9.x environment and a Unified Interface app to connect, and then select **Save**.
-
-   > [!div class="mx-imgBorder"] 
-   > ![Select environment and app module.](media/teams-fre-org-app.png "Select environment and app module")
-
+1. In the **Dynamics 365** window, verify the environment name and the app name. To change the environment or app, do the following:
+    1. Select the edit icon (:::image type="icon" source="../sales/media/edit-icon.png" border="false":::) next to the app name.
+    1. Select the environment and app that you want to connect to, and then select **Select**.
+    
    > [!NOTE]
    > - Only environments that contain customer engagement apps (such as Dynamics 365 Sales and Dynamics 365 Customer Service) appear in the list. Also, only active environments (those that are not disabled or provisioning) are displayed. 
    > - Only Unified Interface apps are listed.
    > - Only app modules licensed for the selected environment are listed. 
 
-7. Select **Entity Selection** or **View Selection**.
+1. Select **Entity Selection** or **View Selection**.
 
     1. **Entity Selection**: Select an entity to connect. You can pick a recently viewed record or use search to find records. You can use **Filter by** to narrow the search to an entity type. Once you've picked a record, select **Save**.
 
-   > [!div class="mx-imgBorder"] 
-   > ![Select an entity.](media/teams-add-channel-pin-record2.png "Select an entity")
+    :::image type="content" source="media/teams-entity-view-select.png" alt-text="Screenshot showing entity and view selection options.":::
 
     2. **View Selection**: Select an entity to see the list of available views. Once you've picked a view, select **Save**.
-    
-   > [!div class="mx-imgBorder"] 
-   > ![Select a view.](media/teams-select-view.png "Select an view")
-   
-      > [!NOTE]
+
+   > [!NOTE]
    > If you select a personal view (**My Views**) instead of **System Views**, it’s recommended that you share the view with other users before you add the view to the Microsoft Teams channel. Otherwise, other team members will not have access to the view tab content.
 
-8. After completing the above steps, you will see a new Dynamics 365 tab in the selected team channel. 
+After completing the above steps, you'll see a new Dynamics 365 tab in the selected Teams channel, chat, or meeting. 
  
 See [Collaborate with Microsoft Teams](teams-collaboration.md#have-a-conversation) for information on how you can use the tab feature to collaborate with Dynamics 365 apps.
+
 
 <a name="bkmk_setup_dynamics365_bot"></a>
 
@@ -75,21 +60,16 @@ Teams integration with Dynamics 365 isn't available for Government GCC environme
 
 1. Open a Teams channel and select **Add a tab**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Open Teams and then select Apps.](media/teams-apps.png "Open Teams and then select Apps")
-
 2. Search for the **Website** app and add it.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Add the Website app.](media/add-website.png "Add the Website app")
+    :::image type="content" source="media/add-website.png" alt-text="Screenshot of adding the Website app.":::
   
-> [!NOTE]
-> If you don't see the **Website** app in Teams, ask your administrator to enable this option through the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/about-the-admin-center).
+    > [!NOTE]
+    > If you don't see the **Website** app in Teams, ask your administrator to enable this option through the [Microsoft 365 admin center](/microsoft-365/admin/admin-overview/about-the-admin-center).
 
 3. Enter a name for the tab and the URL for your Dynamics 365 app and then select **Save**.
 
-  > [!div class="mx-imgBorder"] 
-  > ![Enter name and url for the tab.](media/add-webiste-2.png "Add the Website app")
+    :::image type="content" source="media/add-webiste-2.png" alt-text="Screenshot of entering the name and URL for the tab in the Website app.":::
 
 
 ### See also  

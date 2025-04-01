@@ -2,7 +2,6 @@
 title: "Troubleshoot SharePoint integration  | MicrosoftDocs"
 description: "This topic explains how to fix common issues that may occur with SharePoint document management."
 ms.custom: 
-ms.date: 12/09/2021
 ms.reviewer: 
 
 ms.suite: 

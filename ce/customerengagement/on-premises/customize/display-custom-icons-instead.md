@@ -2,7 +2,6 @@
 title: "Add custom icons to a list view in Dynamics 365 Customer Engagement (on-premises)"
 description: "Learn how administrators and customizers can add graphics to customize a list view with icons that display alongside text or numerical values."
 ms.custom: 
-ms.date: 11/20/2019
 ms.reviewer: 
 
 ms.suite: 

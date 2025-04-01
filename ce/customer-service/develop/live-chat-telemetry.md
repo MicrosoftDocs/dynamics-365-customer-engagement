@@ -1,10 +1,11 @@
 ---
-title: "Live chat widget telemetry| MicrosoftDocs"
-description: "Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget."
-ms.date: 06/17/2022
+title: Live chat widget telemetry
+description: Learn about the telemetry data collected by the live chat widget. Also learn how to disable automatic data collection by the chat widget.
+ms.date: 12/04/2024
 ms.topic: reference
 author: neeranelli
 ms.author: nenellim
+ms.reviewer: nenellim
 ---
 # Live chat widget telemetry
 
@@ -15,7 +16,7 @@ Some of the data collected by the live chat widget include the following.
 
 |Field|Sample value|
 |----|----|
-|OrganizationId |`00aa00aa-bb11-cc22-dd33-44ee44ee44ee` |
+|OrganizationId |`11bb11bb-cc22-dd33-ee44-55ff55ff55ff` |
 |Chat Widget Version |`prod` |
 |BrowserName |`Edge` |
 |OSName |`Windows`| 

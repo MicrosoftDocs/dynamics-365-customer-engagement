@@ -2,7 +2,6 @@
 title: "Edit filter criteria of a view in Dynamics 365 Customer Engagement (on-premises)"
 description: "The filter criteria applied to a view is a critical part of its value. When creating or editing a view, be sure to specify and group its criteria."
 ms.custom: 
-ms.date: 11/03/2018
 ms.reviewer: 
 
 ms.suite: 

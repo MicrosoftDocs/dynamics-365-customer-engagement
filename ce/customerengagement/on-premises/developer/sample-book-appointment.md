@@ -2,7 +2,6 @@
 title: "Sample: Book an appointment | MicrosoftDocs"
 description: "Sample demonstrates how to book or schedule an appointment by using the BookRequest message."
 ms.custom: 
-ms.date: 10/31/2017
 ms.reviewer: pehecke
 
 ms.suite: 
@@ -23,7 +22,7 @@ search.audienceType:
 ---
 # Sample: Book an appointment
 
-This sample shows how to book or schedule an appointment by using the [BookRequest](/dotnet/api/microsoft.crm.sdk.messages.bookrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/C%23/BookAppointment).
+This sample shows how to book or schedule an appointment by using the [BookRequest](/dotnet/api/microsoft.crm.sdk.messages.bookrequest?view=dynamics-general-ce-9&preserve-view=true) message. You can download the sample from [here](https://github.com/Microsoft/PowerApps-Samples/tree/master/dataverse/orgsvc/CSharp/BookAppointment).
 
 [!include[cc-sample-note](includes/cc-sample-note.md)]
 
