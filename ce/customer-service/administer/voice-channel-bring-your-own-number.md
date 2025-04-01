@@ -60,6 +60,12 @@ The new phone number will be displayed in the **Phone numbers** list and is read
   - Reset SRTP Upon Re-key = Disable
   - Generate SRTP Keys = Only if Required
 - Ensure that you have sufficient transcoding licenses if your service provider and Azure Communication Services don't support the same codec.
+- If your DR SBC is behind a firewall, ensure that the SIP ALG (Application Layer Gateway) is disabled. Additionally, make sure the media endpoint communicating with ACS is using a public IP address, not a private one.
+- Ensure that your SBC is using a DNS server located within the same region where Dynamics is hosted to avoid latency issues.
+
+
+- 
+
 
   
 ### Related information
