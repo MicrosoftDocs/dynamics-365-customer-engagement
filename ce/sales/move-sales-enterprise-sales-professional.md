@@ -1,7 +1,7 @@
 ---
 title: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional
 description: Follow the steps in this topic to move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional.
-ms.date: 12/18/2024
+ms.date: 04/01/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,15 +26,13 @@ Learn how to purchase, assign, and install Sales Professional license so that yo
 
 1.  Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
 
-2.  In the navigation pane, select **Purchase Services**, and then select the Dynamics 365 Sales Professional tile. 
+2.  In the left pane, select **Billing** > **Purchase Services**.  
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Dynamics 365 Sales Professional tile.](media/select-dynamics365-sales-pro-tile.png "Select Dynamics 365 Sales Professional tile") 
+3.  Find Dynamics 365 Sales Professional, and then select Details.
 
-3.  Select **Buy**, and then follow the steps to purchase new licenses. 
+4. In **Select licence quantity**, select or enter the number of licenses to purchase.
 
-    > [!div class="mx-imgBorder"]
-    > ![Select Buy.](media/buy-sales-professional.png "Select Buy") 
+5. Select **Buy**, and then complete the purchase process.
 
 
 ## Assign licenses to your users
@@ -45,16 +43,13 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 2.	Select multiple users, and then select **Manage product licenses**. 
     
-    > [!div class="mx-imgBorder"]
-    > ![Assign licenses to multiple users.](media/assign-licenses-multiple-users.png "Assign licenses to multiple users")
+    :::image type="content" source="media/assign-licenses-multiple-users.png" alt-text="Screenshot of assigning licenses to multiple users.":::
 
-3.	Select **Replace existing product license assignments**, and then select **Next**. 
+3.	In **Manage product licenses pane**, select **Replace**, and then select the license for your Dynamics 365 Sales plan. 
 
-4.	Turn on the license for your Dynamics 365 Sales plan. 
+4.	Select **Save changes**, and then select **Done**. 
 
-5.	Select **Replace**, and then select **Close** twice. 
-
-6.	Review the license status on the **Active users** page and make other assignments as needed. 
+5.	Review the license status on the **Active users** page and make other assignments as needed. 
 
 ## Install Dynamics 365 Sales Professional solution
 
