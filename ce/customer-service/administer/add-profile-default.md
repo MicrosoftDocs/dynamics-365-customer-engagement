@@ -25,7 +25,7 @@ Before you assign users to experience profiles, you can search for users to see 
 1. The application displays the experience profiles that the selected user is associated with along with one of the following assignment methods:
      - **Default**: The user is assigned to out-of-the-box experience profiles or custom default profile.
      - **Role-based**: The user is assigned a profile based on the security role.
-     - **Direct**: The user is directly assigned to a profile. 
+     - **Direct**: The user is directly assigned to a profile. <br>
 You can also select the experience profile to view the profile details.
 
 ## Set a custom agent experience profile as default
