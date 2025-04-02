@@ -18,7 +18,7 @@ With the experience profiles, administrators can create custom profiles with spe
 
 Productivity tools use intelligence and automation to enable service representatives to find answers to customer questions and help resolve customer issues quickly, improving satisfaction in service delivery. The productivity tools help in easy knowledge base search, suggestions for similar knowledge articles and cases, and scripts with macros to automate tasks in common workflows. 
 
-The profiles are available for service representatives and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
+The profiles are available for service representatives and supervisors who use the Copilot Service workspace app.
 
 The system requirements for experience profiles and Copilot Service workspace are the same. More information: [System requirements for Copilot Service workspace](../implement/customer-service-workspace-system-requirements.md)
 
