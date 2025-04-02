@@ -1,6 +1,6 @@
 ---
 title: Service level agreements (SLAs) for work orders
-description: Learn how to set up service Level Agreements (SLAs) for work orders in Dynamics 365 Field Service.
+description: Learn how to set up service level agreements (SLAs) for work orders in Dynamics 365 Field Service.
 ms.date: 03/27/2025
 ms.topic: how-to
 author: jasonccohen
@@ -11,13 +11,13 @@ ms.author: jacoh
 
 Service level agreements (SLAs) define service expectations such as arrival and resolution times. SLAs can be tracked using key performance indicators (KPIs), such as work order arrival time. In Field Service, SLAs help organizations ensure work orders get the right level of attention in a timely manner.
 
-For example, a field service organization offers an SLA to their customers. They promise that field technicians arrive within 4 hours from the time an emergency priority work order is created. The organization wants a warning status displayed after 2 hours. For other examples, see [Implement service level agreements for work orders](/dynamics365/guidance/resources/fs-implementing-sla-work-order).
+For example, a field service organization offers an SLA to their customers. They promise that field technicians will arrive within 4 hours from the time an emergency priority work order is created. The organization wants to display a warning status after 2 hours. For other examples, go to [Implement service level agreements for work orders](/dynamics365/guidance/resources/fs-implementing-sla-work-order).
 
-To use SLAs for work orders, first enable the SLA functionality for your environment. Then, define the SLAs and key performance indicators (KPIs), and associate the SLAs to work orders.
+To use SLAs for work orders, first enable the SLA functionality for your environment. Then, define the SLAs and KPIs, and associate the SLAs to work orders.
 
 ## Prerequisites
 
-- Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/administer/define-service-level-agreements.md)
+Knowledge of [Dynamics 365 Service Level Agreements](../customer-service/administer/define-service-level-agreements.md).
 
 ## Enable SLA functionality for Field Service
 
