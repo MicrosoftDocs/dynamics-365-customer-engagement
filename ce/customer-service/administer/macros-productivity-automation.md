@@ -204,7 +204,7 @@ This action is used to create a custom macro action that can seamlessly send and
    | Field | Description | 
    |-----------------|-----------------------------|
    | Web Resource Name |  Specify the JavaScript code that you want to execute as a [web resource in Dataverse](/power-apps/maker/model-driven-apps/create-edit-web-resources). <br>This field is mandatory. |
-   | Custom Macro Function |  Specify the name of the function that you want to execute. <br>This field is mandatory. |
+   | Custom Macro Function |  Specify the name of the function that you want to run. <br>This field is mandatory. |
    | Attribute Name | Specify the attribute logical name you want to update.|
    | Attribute Value | Specify the attribute value that's updated for the attribute. |
 
