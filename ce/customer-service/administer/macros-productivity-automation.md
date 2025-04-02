@@ -210,7 +210,7 @@ This action is used to create a custom macro action that can seamlessly send and
 
 ### Example
 
-Perform the following steps to create a custom macro that makes an API call to a third-party application and then opens a new form to create a record with the response of the API call:
+Perform the following steps to create a custom macro that makes an API call to a non-Microsoft application and then opens a new form to create a record with the response of the API call:
 
 1. Add the **Execute Javascript** action. The attributes are as follows: 
    - **Web Resource Name**: Your JavaScript code saved as a webresource.
