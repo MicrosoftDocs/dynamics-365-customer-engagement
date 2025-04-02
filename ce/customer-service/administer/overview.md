@@ -36,7 +36,7 @@ For existing orgs, only steps 4 and 5 are required.
 
 Thereafter, users with the required service representative or supervisor role can see and use the settings that are made available through the assigned experience profile. If you don't assign an experience profile, by default, the out-of-the-box experience profile is assigned.
 
-You can create and manage experience profiles in the [Customer Service admin center app](create-agent-experience-profile.md).
+You can create and manage experience profiles in the [Copilot Service admin center app](create-agent-experience-profile.md).
 
 ### Related information
 [Create and use experience profiles](create-agent-experience-profile.md)    
