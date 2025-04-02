@@ -25,6 +25,7 @@ ms.custom: bap-template
 - open email templates
 - auto fill form fields
 - set and retrieve variables and values in the session context
+- create a custom macro that allows integration with third-party web pages and applications
 
  You can use the productivity automation actions any number of times across different macros to automate and perform model-driven app operations.
 
@@ -195,6 +196,30 @@ Perform the following steps to create a macro that resolves a case. When agents 
 1. Add the **Get the current tab** session connector.
 1. Add the **Refresh the tab** session action to refresh the tab with the following attributes:
     -**Tab ID**: Tab ID
+
+## Execute JavaScript
+
+This action is used to create a custom macro action that can seamlessly send and receive information from non-Microsoft web pages and applications from Customer Service. The action contains the following fields.
+
+   | Field | Description | 
+   |-----------------|-----------------------------|
+   | Web Resource Name |  Specify the JavaScript code that you want to run as a [web resource in Dataverse](/power-apps/maker/model-driven-apps/create-edit-web-resources). <br>This field is mandatory. |
+   | Custom Macro Function |  Specify the name of the function that you want to run. <br>This field is mandatory. |
+   | Attribute Name | Specify the attribute logical name you want to update.|
+   | Attribute Value | Specify the attribute value that's updated for the attribute. |
+
+### Example
+
+Perform the following steps to create a custom macro that makes an API call to a non-Microsoft application and then opens a new form to create a record with the response of the API call:
+
+1. Add the **Execute Javascript** action. The attributes are as follows: 
+   - **Web Resource Name**: Your JavaScript code saved as a webresource.
+   - **Custom Macro Function**: retriveSuggestion
+1. Add the **Open a new form to create a record** action that opens a new form to create a record. The following are the attributes:
+   - **Entity logical name**: `task`
+   - **Attribute Name**: subject
+   - **Attribute Value**: Generic Macro Action Output
+
 
 ## Open an email form with predefined template
 
