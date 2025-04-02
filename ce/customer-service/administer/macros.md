@@ -57,7 +57,7 @@ You can use the following predefined automation actions to create macros:
   - open email templates
   - auto fill form fields
   - set and retrieve variables and values in the session context
-  - support integration with third-party web pages and applications using custom macros
+  - support integration with non-Microsoft web pages and applications using custom macros
 
 - [Session connector](macros-session-action.md): Provides actions to perform session-related operations. You can use these actions to get the ID of a tab, refresh a tab, pass the tab ID, set focus to a tab based on the tab ID, open a tab template, and refresh session context.
 
