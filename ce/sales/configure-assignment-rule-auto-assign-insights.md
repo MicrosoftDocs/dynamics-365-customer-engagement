@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
-ms.date: 03/10/2025
+ms.date: 04/02/2025
 ms.custom: bap-template 
 ---
 
@@ -25,10 +25,11 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
 
 1. Sign in to your sales app.
 1. In the lower-left corner of the page, go to **Change area** \> **Sales Insights settings**.
-1. Under **Sales accelerator**, select **Assignment rules**.
-1. On the **Assignment rules** page, in the **Select type** list, select **Insights (preview)**.
+1. Under **Sales accelerator**, select **Work assignment**. 
+1. On the **Work assignment** page, in the **Record type** list, select **Insights (preview)**.
+1. Select **Assignment rules** tab.
 1. Select **\+ New rule**.
-1. In the **Create assignment rule** dialog box, enter the following information:
+1. In the **Add assignment rule** dialog box, enter the following information:
 
     - Under **Rule name**, enter a name for the rule.
     - Under **Select eligible assign insights to a seller or a team for this rule**, in the **Choose segment** list, select a segment to group the insights.
