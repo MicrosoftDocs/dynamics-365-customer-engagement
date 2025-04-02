@@ -199,7 +199,7 @@ Perform the following steps to create a macro that resolves a case. When agents 
 
 ## Execute JavaScript
 
-This action is used to create a custom macro action that can seamlessly send and receive information from third party web pages and applications from Customer Service. The action contains the following fields.
+This action is used to create a custom macro action that can seamlessly send and receive information from non-Microsoft web pages and applications from Customer Service. The action contains the following fields.
 
    | Field | Description | 
    |-----------------|-----------------------------|
