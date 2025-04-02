@@ -17,7 +17,7 @@ When your organization has a large number of users, adding them to experience pr
 
 ## Search for users
 
-Before you assign users to experience profiles, you can search for users to see if they are already associated with a profile. To search for users, perform the following steps:
+Before you assign users to experience profiles, you can search for users to see if they are already associated with a profile.
 
 1. In **Experience profiles** select **Search by user**. The **Experience Profile Search by User** pane appears.
 1. In the **User** field, enter the name of the user.  The application displays the users that match the search criteria. 
