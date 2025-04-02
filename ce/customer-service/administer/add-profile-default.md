@@ -49,7 +49,7 @@ To set the experience profile as a default profile, perform the following steps:
 
 ### Switch default profiles
 
-You can't set multiple profiles as the default profile. If you must change the default profile, use **Remove Default** to remove the default status and then set an alternate profile as the default profile.
+You can't set multiple profiles as the default profile. If you must change the default profile, use **Remove Default** to remove the default status and then set an alternative profile as the default.
 
 ## Map security roles to experience profiles
 
