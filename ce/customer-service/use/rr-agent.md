@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: 
-ms.date: 03/12/2025
+ms.date: 04/02/2025
 ms.custom: bap-template
 ---
 
@@ -14,38 +14,50 @@ ms.custom: bap-template
 
 [!INCLUDE [cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-The agent report provides an agent centric view for case and record management. Time, Queue, Agent, Agent skill, Agent status, and Time zone
-are filters that enable you to drill into the data to identify agent availability and capacity limitations to address unassigned work items.
-
-A set of KPIs help provide quick insight into the filter scope. They include Agents online, Agents available, Agents busy, and Agents at max capacity.
-
-When you select a component in a chart, the data is filtered accordingly. In this way, you can view data that is related to the selected component only. For example, if you select the **Offline** component in the **Agent availability status** chart, the system refreshes the dashboard, and then shows capacity that's locked. The agent list table also allows you to identify the agents with the highest count of transferred work items, which allows you to identify misassignments and take corrective steps.  
+The agent report provides an agent centric view for case and record management. Modified on, queue, agent, agent skill, agent status, and time zone are filters that enable you to drill into the data to identify agent availability and capacity limitations to address unassigned work items.
 
 :::image type="content" source="../media/record-routing-agent.png" alt-text="Screenshot of the real-time analytics for agent report":::
 
+A set of KPIs help provide quick insight into the filter scope.
+
+
+|KPIs |Description |
+|---------|---------|
+|Ongoing work items     |   Number of record type workitems modified in the last 24 hours, and are ongoing currently, and includes Open and Active ones.      |
+|Unassigned work items    |  Number of record type workitems modified in the last 24 hours and are unassigned currently.       |
+|Agents online    |   Number of agents who are online , that is, whose presence status isn't offline, currently.     |
+|Agents with active workitems   |Number  of agents, irrespective of presence status, and have active workitems assigned. |
+
 ## Lists and charts
 
-**Agent availability status:** The donut chart lists all agents in the org who are assigned to any record type queue. It lists all the
-availability statuses, including custom statuses. When you select a status, the filter is automatically applied to the entire tab.
+**Agent availability status:** The donut chart lists all agents in the org who are assigned to any record type queue. It lists all the availability statuses, including custom statuses. When you select a status, the filter is automatically applied to the entire component. For example, if you select the **Busy** component in the **Agent availability status** chart, the system refreshes the dashboard, and then shows capacity that's busy. 
 
-**Agent availability by capacity profiles:** The table lists all capacity profiles, and signed in agents who are linked to the capacity
-profiles and capacity in use, which allows you to identify assignment bottlenecks that are caused by lack of capacity. If capacity is occupied in profiles with the blocking assignment toggle turned on, the entry is displayed in red. Selecting **show more** displays this table with
+**Agent availability by capacity profiles:** The table lists all capacity profiles, and signed in agents who are linked to the capacity profiles and capacity in use, which allows you to identify assignment bottlenecks that are caused by lack of capacity. If capacity is occupied in profiles with the blocking assignment toggle turned on, the entry is displayed in red. Select **show more** to view
 detailed agent availability status, which can be another cause for unassigned work items, besides capacity.
 
-**Agent list:** The agent list table lists all agents associated with a queue of record type.
+**Agent list:** The agent list has all agents associated with a queue of record type. It has **Agent online**, **Agent offline**, and **Agents with sessions** tabs.
+
+**Agent online** and **Agent offline** provide the following information: 
+
+|KPIs  |Description |
+|---------|---------|
+|Agent name    |  Name of the customer service representative (service representative or representative)       |
+|Status    |  Current presence status of the agent       |
+|Status since    | Time from when the agent is in the current status        |
+|Domain name    |    Domain name of the agent     |
+
+**Agents with sessions** provide the following information: 
 
 |KPIs | Description  |
 |---------|---------|
-|Assigned agent   |   Name of customer service representative or AI agent.       |
-|Status    |      Agent's availability status.     |
-|Status since    |    Time stamp when the agent entered current their availability status.      |
-|Active   |   Number of work items in active state assigned to the agent during the reporting period.       |
-|Closed    |   Number of work items closed by the agent in the reporting period.       |
-|Transfers    |   Number of work items agent transferred to queue or another agent in the reporting period.       |
-|Average duration     | Average time conversations that were active and assigned to the agent during the reporting period.         |
-|Accepted    | Number of conversations that the agent accepted during the reporting period.         |
-|Rejected    | Number of conversations that the agent rejected when they were assigned during the reporting period.         |
-|Time-out     |   Number of conversations that timed out before the agent accepted or rejected during the reporting period. This doesn’t apply to instances where cases are auto assigned.       |
+|Agent name   |   Name of the service representative.   |
+|Status    |      Current presence status of the representative.   |
+|Status since    |    Time stamp when the representative entered their current status.      |
+|Active  sessions |  Number of active sessions the representative is in, which are modified in last 24 hours. |
+|Closed  sessions  |   Number of closed sessions the representative is in, which are modified in last 24 hours. |
+|Manually assigned sessions| Number of sessions manually assigned to the agent, which are modified in the last 24 hours. These can be both active and closed sessions.|
+|Autoassigned sessions| Number of sessions autoassigned to the representative, which are modified in the last 24 hours. These can be both active and closed sessions.|
+|Domain name| Domain name of the agent.|
 
 When selecting an agent in the list, you can open a detailed agent view of that agent. This view includes:
 
