@@ -20,7 +20,7 @@ Productivity tools use intelligence and automation to enable service representat
 
 The profiles are available for service representatives and supervisors who use the Customer Service workspace or Omnichannel for Customer Service apps.
 
-The system requirements for experience profiles and Customer Service workspace are the same. More information: [System requirements for Customer Service workspace](../implement/customer-service-workspace-system-requirements.md)
+The system requirements for experience profiles and Copilot Service workspace are the same. More information: [System requirements for Copilot Service workspace](../implement/customer-service-workspace-system-requirements.md)
 
 ## How experience profile works
 
