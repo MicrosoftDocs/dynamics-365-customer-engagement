@@ -12,7 +12,7 @@ ms.topic: article
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-By default, the following experience profiles are available out of the box for Copilot Service workspace and Contact Center workspace. These profiles can't be deleted or modified.  When you don't assign a custom profile to a customer service representative (service representative or representative), the system assigns the default profile.
+By default, the following experience profiles are available out of the box for Copilot Service workspace. These profiles can't be deleted or modified.  When you don't assign a custom profile to a customer service representative (service representative or representative), the system assigns the default profile.
 
 - Omnichannel for Customer Service - default profile
 - Customer Service workspace - default profile
