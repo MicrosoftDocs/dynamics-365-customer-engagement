@@ -18,7 +18,7 @@ By default, the following experience profiles are available out of the box for C
 - Customer Service workspace - default profile
 - Customer Service workspace + channels - default profile
 
-You can configure experience profiles in Contact Center admin center and Copilot Service admin center. 
+You can configure experience profiles in Copilot Service admin center. 
 
 ## Prerequisites
 
