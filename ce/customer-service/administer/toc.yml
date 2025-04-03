@@ -108,17 +108,17 @@
         href: unified-routing-best-practices.md
       - name: FAQ about unified routing
         href: unified-routing-faqs.md
-    - name: Agent experience profiles for Customer Service
+    - name: Experience profiles for Customer Service
       items:
-      - name: Overview of agent experience profiles
+      - name: Overview of experience profiles
         href: overview.md
       - name: Roles and permissions
         href: security-roles.md
-      - name: Create and use agent experience profiles
+      - name: Create and use experience profiles
         href: create-agent-experience-profile.md
-      - name: Add users to agent experience profiles
+      - name: Add users to experience profiles
         href: add-profile-default.md
-      - name: Configure the inbox for agents
+      - name: Configure the inbox for service representatives
         href: configure-inbox.md
       - name: Templates
         items:
@@ -548,7 +548,7 @@
           href: configure-facebook-channel.md
         - name: Configure a LINE channel
           href: configure-line-channel.md
-        - name: Configure a WhatsApp channel through Azure Communication Services (preview)
+        - name: Configure a WhatsApp channel through Azure Communication Services
           href: /dynamics365/contact-center/administer/configure-whatsapp-acs?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml     
         - name: Configure a WhatsApp channel through Twilio
           href: configure-whatsapp-channel.md
