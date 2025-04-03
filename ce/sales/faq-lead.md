@@ -66,7 +66,7 @@ To associate the business process flow with a different opportunity,
 1. Select **Set Active** and then select **Next Stage**.
    You'll see all the opportunities you created for the lead.
 1. Select the opportunity you want to associate with the business process flow and save the record.
-1. Open the opportunity record to see the business process flow.
+1. Open the opportunity record to verify whether the business process flow is associated with the record.
 
 ### Why can't I edit the account and contact records in the Qualify lead side pane?
 
