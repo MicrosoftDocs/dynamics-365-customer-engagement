@@ -112,7 +112,7 @@ Displays details about the number of agents assigned to the call, other particip
 
 - Each session header displays the start time and total duration of the session.
 - The primary agent is listed inside each session, their assignment time, and whether they joined the conversation. 
-- When the primary representative leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Closure reasons](../../developer/reference/entities/msdyn_ocsession.mdmsdyn_closurereason-choicesoptions).
+- When the primary representative leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Closure reasons](../../developer/reference/entities/msdyn_ocsession.md#msdyn_closurereason-choicesoptions).
 - If a consult session is added to the conversation, the consultee representative is shown indented to the primary representative. Their consult join and exit times are displayed with details on whether they accepted the consult
 
 ### Related information
