@@ -56,6 +56,18 @@ The **New Opportunity** button is disabled in the following scenarios:
 
 For more information, see [Customize opportunity creation experience for qualified leads](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 
+## Why can't I see the business process flow on all the newly created opportunities?
+
+A lead's business process flow can only be associated with one opportunity record. If you create multiple opportunities for a lead, the business process flow is only associated with the default opportunity record.
+
+To associate the business process flow with a different opportunity,
+
+1. Open the lead record and select the **Qualify** section of the process bar.
+1. Select **Set Active** and then select **Next Stage**.
+   You'll see all the opportunities you created for the lead.
+1. Select the opportunity you want to associate with the business process flow and save the record.
+1. Open the opportunity record to see the business process flow.
+
 ### Why can't I edit the account and contact records in the Qualify lead side pane?
 
 If your admin has set account and contact records to be created automatically, these records aren't editable in the Qualify lead side pane. To make changes, you need to close the side pane, edit the details in the Lead form, and then select **Qualify** again. 
