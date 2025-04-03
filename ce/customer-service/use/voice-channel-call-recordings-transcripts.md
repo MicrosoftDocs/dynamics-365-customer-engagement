@@ -42,7 +42,7 @@ Users with the System Administrator role can access conversations that are handl
 
 The **Details** tab of the **Conversation - Conversation Form** displays the call recording details.
 
-:::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png:::
+:::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png":::
 
 The **Overview** bar on the **Conversation Form** displays the following details:
 - **Channel**: The type of communication conducted.
@@ -64,11 +64,10 @@ The **Overview** bar on the **Conversation Form** displays the following details
 
 **Summary**
 
-- If a summary was generated at the time of call end, that summary appears.  If no summary was generated when the call ended, such as the call ended with an AI agent, then a new summary is generated when the transcript viewer appears.
+- The system generates the conversation summary when the conversation ends.  If no summary is generated when the call or chat ends, such as the call or chat ended with an AI agent, then a new summary is generated when the transcript viewer appears.
 
 > [!NOTE]
 > If you open the conversation before the transcription is processed, the summary isn't available; refresh the summary when the transcription appears.
-
 
 **Transcript**
 
@@ -87,7 +86,11 @@ The **Metrics** tab of the Conversation Form displays the following details:
 - **Longest customer monologue**: The longest amount of time that the customer spoke during the conversation.
 - **Switches per conversation**: The number of times the conversation switched from representative to customer, and vice versa.
 
-The Post-conversation survey tab of the Conversation Form can be enabled for all conversations in CSAC under Workspaces->Voice call experiences (note: Omnichannel Supervisor role does not have access to view surveys):
+**Post-conversation survey**
+
+Users with the Omnichannel Supervisor role can't access survey results.
+
+
 
 The **Sessions** tab displays details about the number of voice calls between the representative and customer, and the duration, date, and time of the conversation.
 
