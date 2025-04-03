@@ -88,11 +88,32 @@ The **Metrics** tab of the Conversation Form displays the following details:
 
 **Post-conversation survey**
 
-Users with the Omnichannel Supervisor role can't access survey results.
+Users with the Omnichannel Supervisor role can't access survey results. You can view the following details:
 
+- **CSAT**: The customer satisfaction score of the conversation. The score can be between 0 to 5.
+- **<Verbatim>**: Free text
+- **First Contact Resolution**: The choice must contain the **Yes** word.
+- **Net Promoter Score**: The score can be between 0 to 10.
 
+The following considerations apply:
 
-The **Sessions** tab displays details about the number of voice calls between the representative and customer, and the duration, date, and time of the conversation.
+- If a survey isn't enabled for a conversation, or not completed, the Post-conversation survey tab is hidden.
+- If one of the values aren't set up to be collected in a survey, they are hidden.
+- If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
+- Calls that have surveys are assigned to the Copilot survey agent after the call ends and not to the representatives. The representative can view the calls in **Activities**.
+
+The **Sessions** tab displays information on the number of sessions in the conversation between the representative and customer, and the duration, date, and time of the conversation.1
+
+**Conversation Journey**
+
+Displays details about the number of agents assigned to the call, other participants, and the duration, date, and time of each leg of the conversation.
+
+- The system generates a session every time a new primary agent is assigned to the conversation.
+
+- Each session header displays the start time and total duration of the session.
+- The primary agent is listed inside each session, their assignment time, and whether they joined the conversation. 
+- When the primary representative leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Closure reasons](../../developer/reference/entities/msdyn_ocsession.mdmsdyn_closurereason-choicesoptions).
+- If a consult session is added to the conversation, the consultee representative is shown indented to the primary representative. Their consult join and exit times are displayed with details on whether they accepted the consult
 
 ### Related information
 
