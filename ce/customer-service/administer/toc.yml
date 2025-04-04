@@ -486,9 +486,9 @@
           href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Case Management Agent
         items: 
-        - name: Set up Case Management Agent for case creation and update 
+        - name: Set up Case Management Agent to create and update cases 
           href: set-up-autonomous-case-agents.md
-        - name: Set up Case Management Agent for case follow-up and closure 
+        - name: Set up Case Management Agent to follow up and close cases
           href: set-up-case-closure.md  
       - name: Customer Knowledge Management Agent
         items:
@@ -930,6 +930,8 @@
     items:
     - name: Overview
       href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Responsible AI FAQ for AI Agents (Preview)
+      href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
   - name: Resources

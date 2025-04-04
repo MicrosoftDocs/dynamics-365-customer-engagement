@@ -52,12 +52,6 @@
             href: csw-view-ai-suggested-cases-knowledge-articles.md
           - name: Manage cases using interactive dashboards
             href: customer-service-hub-user-guide-dashboard.md
-      - name: Case Management Agents (preview)
-        items: 
-          - name: Use autonomous case creation and update
-            href: use-case-creation-agent.md
-          - name: Use autonomous follow-up and closure of cases
-            href: use-follow-up-closure.md
       - name: Service-level agreements
         items:
         - name: Overview of service-level agreements
@@ -150,12 +144,6 @@
           href: search-operators.md
         - name: Search the knowledge base on portals
           href: knowledge-base-search-methods.md
-      - name: Customer Knowledge Management Agent (preview)
-        items:
-        - name: Review knowledge articles created by the Customer Knowledge Management Agent
-          href: admin-km-agent-review.md
-        - name: Use knowledge insights for Customer Knowledge Management Agent
-          href: admin-km-agent-insights.md
       - name: Microsoft Teams for collaboration
         items:
         - name: Use Microsoft Teams chat
@@ -208,6 +196,24 @@
           href: voice-channel-call-recordings-transcripts.md
         - name: Monitor voice calls
           href: voice-channel-monitor-calls.md
+      - name: Autonomous service agents (preview)
+        items:
+        - name: Overview of autonomous service agents
+          href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Use intent-based suggestions
+          href: /dynamics365/contact-center/use/use-intent-suggestions
+        - name: Case Management Agents
+          items:
+          - name: Use Case Management Agent to create and update cases
+            href: use-case-creation-agent.md
+          - name: Use Case Management Agent to follow up and close cases
+            href: use-follow-up-closure.md
+        - name: Customer Knowledge Management Agent (preview)
+          items:
+          - name: Review knowledge articles created by the Customer Knowledge Management Agent
+            href: admin-km-agent-review.md
+          - name: Use knowledge insights for Customer Knowledge Management Agent
+            href: admin-km-agent-insights.md
       - name: Chat and Channels
         items:
         - name: Omnichannel for Customer Service for agents
@@ -470,6 +476,8 @@
       items:
       - name: Overview
         href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Responsible AI FAQ for AI Agents (Preview)
+        href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
       - name: Responsible AI FAQ for Copilot in Customer Service
         href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
     - name: Resources
