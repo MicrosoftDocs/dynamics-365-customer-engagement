@@ -1,7 +1,7 @@
 ---
 title: Introduction to Omnichannel for Customer Service
 description: Learn about Omnichannel for Customer Service, its features, and how they can be configured in your organization.
-ms.date: 10/09/2024
+ms.date: 04/04/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
