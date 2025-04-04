@@ -36,7 +36,7 @@ You can enable the following channels in your organization with Omnichannel for 
 
 ### Chat
 
-Chat is an engagement channel that enables your agents to connect with customers in real-time. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](../administer/set-up-chat-widget.md)
+Chat is an engagement channel that enables your agents to connect with customers in real-time. Learn more in [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Configure a chat channel](../administer/set-up-chat-widget.md).
 
 > [!NOTE]
 >
@@ -44,19 +44,19 @@ Chat is an engagement channel that enables your agents to connect with customers
 
 ### SMS
 
-SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. More information: [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Overview of SMS channels](../use/sms-channel-overview.md)
+SMS is an engagement channel that supports asynchronous mode of communication, and allows your organization to connect to customers by using text messages. Learn more in [Try channels for Dynamics 365 Customer Service](try-channels.md) and [Overview of SMS channels](../use/sms-channel-overview.md).
 
 ### Voice
 
-With the voice channel, Omnichannel for Customer Service provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365, with real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. More information: [Introduction to the voice channel](../administer/voice-channel.md)
+With the voice channel, Omnichannel for Customer Service provides agents with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365, with real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions to boost agent productivity. Learn more in [Introduction to the voice channel](../administer/voice-channel.md).
 
 ### Microsoft Teams
 
-Using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;allows organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service. More information: [Configure Microsoft Teams](../administer/configure-microsoft-teams.md)
+Using Microsoft Teams as an engagement channel for support of internal functions&mdash;such as technical support, human resources, and finance&mdash;allows organizations to connect their employees with internal support personnel by using the Omnichannel Add-in for Dynamics 365 Customer Service. Learn more in [Configure Microsoft Teams](../administer/configure-microsoft-teams.md).
 
 ### Social channels
 
-Social channels such as Facebook and LINE give you an opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. For more information, see [Try channels for Dynamics 365 Customer Service](try-channels.md).
+Social channels such as Facebook and LINE give you an opportunity to capitalize on the social media trend and engage with your customers in a seamless and personalized experience. In addition to popular social channels, you can create your own custom messaging channel. Learn more in [Try channels for Dynamics 365 Customer Service](try-channels.md).
 
 ## Inbox view
 
@@ -74,7 +74,7 @@ The following image shows the inbox case view:
 
 [Introduction to Omnichannel for Customer Service](https://go.microsoft.com/fwlink/p/?linkid=2097511)
 
-To view more videos on Omnichannel for Customer Service, see [Videos](../use/videos.md).
+Learn more about Omnichannel for Customer Service in [Videos](../use/videos.md).
 
 ### Related information
 
