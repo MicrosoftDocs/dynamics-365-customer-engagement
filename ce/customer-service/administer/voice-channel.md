@@ -17,15 +17,14 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 > [!NOTE]
 > Voice-enabled Copilots provide [enhanced voice capabilities](/microsoft-copilot-studio/voice-overview). If you have an existing voice channel configured, [migrate your existing workstreams](migrate-voice-workstream.md) to make sure that they are compatible with the enhanced Copilots. New deployments and voice workstreams get the enhanced experience out of the box.
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
-
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
-Enable your customer service representatives (service representative or representative) to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides representatives with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost productivity. The application also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
+Enable your customer service representatives to communicate with customers on the phone to resolve issues using the voice channel in Dynamics 365 Customer Service. While many customers increasingly use chat, SMS messages, and social media to engage and request support from organizations, phone calls continue to be an important communication channel. The voice channel provides representatives with the ability to receive and make public switched telephone network (PSTN) calls through a native calling experience in Dynamics 365. Real-time AI-powered features such as live call transcription, sentiment analysis, and AI-based suggestions are available to boost productivity. The application also provides a rich set of analytics and insights, including AI-driven topic clustering and call insights.
 
 ## Why choose the voice channel
 
