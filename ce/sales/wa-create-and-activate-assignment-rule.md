@@ -15,7 +15,7 @@ ms.custom:
 
 # Create and activate assignment rules
 
-Assignment rules automatically route new leads, opportunities, and insights to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. You spend less time on sellar assignments. Leads, opportunities, and insights are no longer overlooked, and assignments are balanced among your salespeople.
+Assignment rules automatically route new leads, opportunities, and insights to the right sellers or sales teams. Create an assignment rule for lead, opportunity, and seller insights records by defining conditions, such as the segment, sellers, and distribution. After a rule is activated, any record that satisfies the conditions that are defined for the rule is automatically assigned to a seller. You spend less time creating assignments. Leads, opportunities, and insights are no longer overlooked, and assignments are balanced among your salespeople.
 
 A rule considers only the records that are created or updated after activation. When a lead, opportunity, or seller insight record is created, assignment rules are applied in the order they're listed, starting from the top. If a record meets the conditions of a rule, that rule is applied and no other rule is considered. By default, rules are listed in the order they were created, with the most recently created one at the bottom. However, you can [change the order of your assignment rules](./wa-edit-assignment-rule.md) at any time.
 
