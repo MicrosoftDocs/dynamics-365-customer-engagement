@@ -46,6 +46,7 @@ The **Details** tab of the **Conversation - Conversation Form** displays the cal
 
 The **Overview** bar on the **Conversation Form** displays the following details:
 - **Channel**: The type of communication conducted.
+
 - **Status**: The state of the communication.
 - **Queue**: The queue the call was conducted in.
 - **Workstream**: The workstream the call was conducted in.
@@ -56,6 +57,7 @@ The **Overview** bar on the **Conversation Form** displays the following details
 **Recording playback**
 
 - **Play**: Select the button to listen to the conversation audio.
+
 - **Rewind** or **Fast-forward**: Select the buttons to either rewind in 10-second increments or fast-forward in 30-second increments.
 - **Volume**: Move the slider to adjust the volume to your required level.
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
@@ -72,6 +74,7 @@ The **Overview** bar on the **Conversation Form** displays the following details
 **Transcript**
 
 - **Search**: Enter keywords in the search field to locate the required sections of the conversation.
+
 - **Download transcript**: Open an HTML file of the conversation transcript in your browser.
   
    > [!NOTE]
@@ -80,6 +83,7 @@ The **Overview** bar on the **Conversation Form** displays the following details
 The **Metrics** tab of the Conversation Form displays the following details:
 
 - **Sentiment**: The average sentiment of the call.
+
 - **Talking speed**: The rate of speed in which participants conversed during the call.
 - **Talk to listen ratio**: The ratio in which the representative spoke versus listened to the customer.
 - **Average pause**: The average amount of time in which the conversation was paused.
@@ -91,6 +95,7 @@ The **Metrics** tab of the Conversation Form displays the following details:
 Users with the Omnichannel Supervisor role can't access survey results. You can view the following details:
 
 - **CSAT**: The customer satisfaction score of the conversation. The score can be between 0 to 5.
+
 - **`<Verbatim>`**: Free text.
 - **First Contact Resolution**: The choice must contain the **Yes** word.
 - **Net Promoter Score**: The score can be between 0 to 10.
@@ -98,11 +103,10 @@ Users with the Omnichannel Supervisor role can't access survey results. You can 
 The following considerations apply:
 
 - If a survey isn't enabled for a conversation, or not completed, the Post-conversation survey tab is hidden.
+
 - If one of the values aren't set up to be collected in a survey, they are hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
 - Calls that have surveys are assigned to the Copilot survey agent after the call ends and not to the representatives. The representative can view the calls in **Activities**.
-
-The **Sessions** tab displays information on the number of sessions in the conversation between the representative and customer, and the duration, date, and time of the conversation.1
 
 **Conversation Journey**
 
