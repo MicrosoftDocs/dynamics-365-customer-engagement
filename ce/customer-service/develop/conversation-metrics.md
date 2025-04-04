@@ -118,7 +118,7 @@ Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[Conversation
 
 - **Bot escalated conversations**: Total number of conversations where bot was initially involved and then the issue is escalated to the service representative for support. 
 
-## Incoming conversations
+## Direct service representative conversations (Incoming conversations)
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
@@ -164,9 +164,9 @@ Incoming conversations = ​SUMX ( FactConversation, IF ( NOT FactConversation[D
 
 ### Related metrics
 
-- - **Outgoing conversations**: The total number of outbound conversations made by representative directly to the user.
+- **Outgoing conversations**: The total number of outbound conversations made by representative directly to the user.
 
-## Outgoing conversations
+## Direct service representative conversations (Outgoing conversations)
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 

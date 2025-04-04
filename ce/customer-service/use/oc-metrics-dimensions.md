@@ -25,7 +25,7 @@ The total count of conversations that occurred within the chosen timeframe acros
 
 Total conversations = Total bot conversations +  Total direct agent Conversations (inbound and outbound) that can be in any of the conversation states. Learn more in [conversation states](oc-conversation-state.md#understand-conversation-states)[conversation status](metrics-data-model.md#conversation-status).
 
-## Bot conversations
+## Total Bot conversations
 
 The total number of conversations that have taken place during the selected period of time with Voice or IVR or chat or digital bot, across all statuses (active conversations and closed conversations).
 
@@ -81,7 +81,7 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 
 For information about metrics that are related to the time that customers wait in individual queues if they're transferred from one service representative to another, go to the [Session wait time](#session-wait-time) section.
 
-### Average speed to answer
+## Average speed to answer
 
 This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total time a customer waited in queue (after their issue is escalated from an AI agent to a service representative) by the total number of handled conversations. Average speed to answer reflects the efficiency and availability of the service representatives. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
 
@@ -103,7 +103,7 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 
 For information about metrics that are related to how quickly a service representative accepts a request, go to the [Average speed to answer](#average-speed-to-answer) section.
 
-### Conversation handle time
+## Conversation handle time
 
 This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
 
