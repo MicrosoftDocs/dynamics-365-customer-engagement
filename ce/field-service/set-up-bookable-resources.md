@@ -21,6 +21,9 @@ Each resource can have properties that distinguish it from others. For example c
 
 Frontline workers are people in your organization who are primarily scheduled for onsite jobs. They use the Dynamics 365 Field Service mobile app to view and update the details of their work orders. Frontline workers are bookable resources. You can quickly [create frontline workers from the **Get started** page](frontline-worker-set-up.md).
 
+> [!TIP]
+> If you have a trial version, set up your frontline workers and your other bookable resources using the [Create other bookable resources](#create-other-bookable-resources) steps.
+
 ## Create other bookable resources
   
 1. In Field Service, change to the **Resources** area and go to **Resource** > **Resources** and select **New**.
