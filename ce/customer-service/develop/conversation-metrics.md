@@ -34,26 +34,34 @@ Refer to the DAX query used in the Power BI semantic model and the corresponding
 
 **DAX query**
 
-- Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
+```dax
+
+Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))
+
+```
 
 
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
-|Attributes |None   |
-|Filters  |- msdyn_ocliveworkitem.msdyn_channel != '192350000'. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel). <br> <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL. Unique identifier to identify the app to which this conversation belongs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid). |
+|Attributes |- msdyn_channel. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel).   <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid. Unique identifier to identify the app to which this conversation belongs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid). |
+|Filters  |Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL. |
 
 ### [Real-time analytics](#tab/realtimepage)
 
 **DAX query**
 
-- Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
+```dax
+
+Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))​
+
+```
 
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |    msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
-|Attributes  |      None   |
-|Filters  |  - msdyn_ocliveworkitem.msdyn_channel != '192350000'. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel). <br> <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL. Unique identifier to identify the app to which this conversation belongs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid).|
+|Attributes  |      - msdyn_channel. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel).   <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid. Unique identifier to identify the app to which this conversation belongs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid).   |
+|Filters  |  Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL.​|
 
 ---
 
@@ -71,27 +79,32 @@ Refer to the DAX query used in the Power BI semantic model and the corresponding
 
 **DAX query**
 
-- Bot conversations_FactSession=CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]))
+```dax
+Bot conversations_FactSession=CALCULATE(DISTINCTCOUNT(FactSession[ConversationId_FS]))
 
+```
 
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |msdyn_ocliveworkitem​, msdyn_ocsession​, and msdyn_ocsessionparticipantevent. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). |
-|Attributes |None   |
-|Filters  |- msdyn_ocsessionparticipantevent.msdyn_eventreason <> '192350001'. <br> Exclude in-transit record with msdyn_eventreason '192350001' <br> <br> - msdyn_ocsessionparticipantevent.msdyn_eventtype = '192350001'. <br> Exclude Hold event with msdyn_eventtype '192350001' <br> <br> - msdyn_ocsession.msdyn_sessioncreatedon <> '' AND msdyn_ocsession.msdyn_channel <> '192350000' ​NULLIF(CAST(msdyn_ocsession.msdyn_channelinstanceid AS VARCHAR), '') IS NULL. <br> Exclude sessions from 'Entity Records' channel. <br> Exclude sessions from ‘SMS' channel.|
-
+|Attributes |- msdyn_ocsessionparticipantevent.msdyn_eventreason . <br> - msdyn_ocsessionparticipantevent.msdyn_eventtype ​<br> - msdyn_ocsession.msdyn_sessioncreatedon ​<br> - msdyn_ocsession.msdyn_channel​ <br> - msdyn_ocsession.msdyn_channelinstanceid |
+|Filters  |-  Filter the FactSession table to exclude records from msdyn_ocsessionparticipantevent where msdyn_eventreason is '192350001' (in-transit records). Include records from msdyn_ocsessionparticipantevent where msdyn_eventtype is '192350001' (hold events).​ Exclude sessions from msdyn_ocsession where msdyn_sessioncreatedon is empty.​ Exclude sessions from msdyn_ocsession where msdyn_channel is '192350000' (Entity Records channel). Exclude sessions where msdyn_channelinstanceid is NULL (SMS filter)​.
 
 ### [Real-time analytics](#tab/realtimepage)
 
 **DAX query**
 
-- Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[ConversationId]), NOT ISBLANK(FactSession[BotApplicationId]))
+```dax
+
+Total bot conversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactSession[ConversationId]), NOT ISBLANK(FactSession[BotApplicationId]))
+
+```
 
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
-|Attributes |None   |
-|Filters  |- BotApplicationId  is not null and systemuser.msdyn_BotApplicationId. <br> <br> - msdyn_liveworkstream.msdyn_streamsource <> '192350000' |
+|Attributes |- systemuser.msdyn_BotApplicationId​ <br>- msdyn_liveworkstream.msdyn_streamsource |
+|Filters  |Filter the records to include only those where BotApplicationId is not null. msdyn_liveworkstream.msdyn_streamsource is not equal to '192350000'. |
 
 ---
 
@@ -113,7 +126,11 @@ Refer to the DAX query used in the Power BI semantic model and the corresponding
 
 **DAX query**
 
-- Avg. conversation handle time (min)_FactSession = CALCULATE(AVERAGE(FactSession[ConversationActiveTimeInSeconds]) / 60.00 , FILTER(FactSession, FactSession[ConversationStatusId] = "4" && FactSession[ConversationIsAgentAccepted]="1"))
+```dax
+
+Avg. conversation handle time (min)_FactSession = CALCULATE(AVERAGE(FactSession[ConversationActiveTimeInSeconds]) / 60.00 , FILTER(FactSession, FactSession[ConversationStatusId] = "4" && FactSession[ConversationIsAgentAccepted]="1"))
+
+```
 
 
 |Element|Value  |
@@ -127,7 +144,11 @@ Refer to the DAX query used in the Power BI semantic model and the corresponding
 
 **DAX query**
 
-- Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSeconds])
+```dax
+
+Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSeconds])
+
+```
 
 |Element|Value  |
 |---------|---------|
@@ -155,7 +176,11 @@ Refer to the DAX query used in the Power BI semantic model and the corresponding
 
 **DAX query**
 
-- Avg. wait time (sec)_FactConversation = CALCULATE(AVERAGE(FactConversation[WaitTime]), FactConversation[StatusId] ="4")
+```dax
+
+Avg. wait time (sec)_FactConversation = CALCULATE(AVERAGE(FactConversation[WaitTime]), FactConversation[StatusId] ="4")
+
+```
 
 
 |Element|Value  |
@@ -185,3 +210,51 @@ Refer to the DAX query used in the Power BI semantic model and the corresponding
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting service representative assistance, or conversations where a service representative is assigned but are waiting for the service representative to accept.
 
 Learn more about metrics that are related to the time that customers wait in individual queues when they're transferred from one service representative to another, in [Session wait time](../use/session-metrics.md#session-wait-time).
+
+## Incoming conversations
+
+The total number of inbound conversations including both direct to representative and escalation from a voice or digital bot.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Incoming conversations_FactConversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactConversation[ConversationId]), FactConversation[IsAgentInvolved] = "1",FactConversation[IsOutbound] <> "1“
+
+```
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem  |
+|Attributes |  msdyn_ocliveworkitem.msdyn_isoutbound ​
+
+msdyn_ocliveworkitem.msdyn_channel ​
+
+msdyn_ocliveworkitem.msdyn_channelinstanceid ​
+
+msdyn_sessionparticipant.systemuser.msdyn_botapplicationid   |
+|Filters  | |
+
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+- Need info
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |  |
+|Attributes |    |
+|Filters  | |
+
+---
+
+### Related metrics
+
+
