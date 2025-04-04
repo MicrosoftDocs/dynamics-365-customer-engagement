@@ -25,7 +25,10 @@ On the [**Get started** page](field-service-get-started.md), admins can use a si
 
 1. In Field Service, change to the **Service** area and go to **Get started**.
 
-1. In the **Set up your frontline workers** section, select **Set Up**.
+   > [!TIP]
+   > If you have a trial version, set up your frontline workers and your other bookable resources using the steps in [Set up bookable resources](set-up-bookable-resources.md).
+
+1. In the **Set up your users** section, select **Set Up**.
 
 1. In the **Quick Set Up: Frontline Workers** form fill in the following details:
 
