@@ -6,7 +6,7 @@ ms.author: anilmur
 ms.reviewer: mhart
 ms.service: dynamics-365-field-service
 ms.topic: overview 
-ms.date: 08/30/2024
+ms.date: 03/28/2025
 ms.custom: bap-template 
 ---
 
@@ -57,11 +57,9 @@ Report data get retained for 24 months. Storage file size automatically increase
 
 Administrators can provide access to reports through security roles.
 
-1. In Field Service, go to **Advanced Settings**.
+1. Go to the **Power Platform Environment Settings** app.
 
-1. Go to **Settings** > **Security**.
-
-1. Go to **Security Roles**.
+1. Under **System**, select  **Security (Preview)** > **Security Roles**.
 
 1. Select the security role that needs access to the reports (for instance, **Field Service – Dispatcher**).
 
@@ -97,31 +95,31 @@ The system uses the following list of entities to generate reports. If there's n
 
 Field Service entities:
 
-- *bookableresource*
-- *bookableresourcebooking*
-- *msdyn_resourcerequirement*
-- *territory*
+- [*bookableresource*](./developer/reference/entities/bookableresource.md)
+- [*bookableresourcebooking*](./developer/reference/entities/bookableresourcebooking.md)
+- [*msdyn_resourcerequirement*](./developer/reference/entities/msdyn_resourcerequirement.md)
+- [*territory*](./developer/reference/entities/territory.md)
 - *calendarrule*
-- *bookableresourcegroup*
-- *bookingstatus*
-- *msdyn_bookingtimestamp*
+- [*bookableresourcegroup*](./developer/reference/entities/bookableresourcegroup.md)
+- [*bookingstatus*](./developer/reference/entities/bookingstatus.md)
+- [*msdyn_bookingtimestamp*](./developer/reference/entities/msdyn_bookingtimestamp.md)
 - *organization*
 
 Resource Scheduling Optimization entities:
 
 - *resource*
-- *bookableresource*
-- *territory*
-- *bookableresourcebooking*
+- [*bookableresource*](./developer/reference/entities/bookableresource.md)
+- [*territory*](./developer/reference/entities/territory.md)
+- [*bookableresourcebooking*](./developer/reference/entities/bookableresourcebooking.md)
 - *msdyn_optimizationrequestbooking*
-- *msdyn_resourcerequirement*
-- *msdyn_priority*
+- [*msdyn_resourcerequirement*](./developer/reference/entities/msdyn_resourcerequirement.md)
+- [*msdyn_priority*](./developer/reference/entities/msdyn_priority.md)
 - *msdyn_routingoptimizationrequest*
 - *msdyn_routingprofileconfiguration*
 - *calendar*
 - *calendarrule*
-- *bookableresourcegroup*
-- *bookingstatus*
+- [*bookableresourcegroup*](./developer/reference/entities/bookableresourcegroup.md)
+- [*bookingstatus*](./developer/reference/entities/bookingstatus.md)
 - *organization*
 
 ## Next steps

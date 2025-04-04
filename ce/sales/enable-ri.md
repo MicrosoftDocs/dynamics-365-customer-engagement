@@ -18,7 +18,7 @@ Enable relationship intelligence in Dynamics 365 Sales Premium to give your sale
 
 - Ensure that advanced Sales Insights features are enabled. To learn more, [Enable and configure premium Sales Insights features](intro-admin-guide-sales-insights.md#enable-and-configure-premium-sales-insights-features).
 - Ensure that your Office 365 data is in one of the following locations and not in your region-specific datacenter location:
-    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
+    - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands)
     - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
     - Global Geography 3 – Americas (Brazil, Chile, United States).
 

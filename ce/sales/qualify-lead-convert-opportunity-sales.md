@@ -75,7 +75,7 @@ If your admin turned on multiple opportunity creation, you can create up to five
 1. In the **Quick create** form for adding opportunities, enter the details of the opportunity. If you want the opportunity form to include different fields, talk to your admin about [customizing the opportunity form](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 1. Save the opportunity record.
 
-    The records aren't created until you select **Qualify**. If you close the **Qualify lead** side pane without qualifying the lead, no records are created.
+    The records aren't created until you select **Qualify**. If you close the **Qualify lead** side pane without qualifying the lead, no records are created. The business process flow is only available in the default opportunity record. Learn more in [Why can't I see the business process flow on all the newly created opportunities?](faq-lead.md#why-cant-i-see-the-business-process-flow-on-all-the-newly-created-opportunities)
 
 #### Lead summary
 
