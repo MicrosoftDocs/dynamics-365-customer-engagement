@@ -158,6 +158,52 @@ Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSe
 
 ---
 
+## Average conversation hold time
+
+This metric is a measure of the average time, in seconds, that the service representatives who handled a conversation had the customer on hold. If multiple service representatives handled the conversation, the hold time across all the service representatives is aggregated. This metric is calculated by dividing the total hold time for all customer requests by the total number of handled conversations.
+
+There are several reasons why a service representative might put a customer on hold. For example, the service representative might have to gather more information or research an issue, perform tasks that don't require interaction (for example, entering data into a system), or work on an offline task. A long hold time can cause customer frustration and might lead to a poor customer experience.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation hold time (min) = AVERAGE(FactConversation[HoldTime])/60.00
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_ocliveworkitem |
+|Attributes | - msdyn_eventstarttime ​<br> - msdyn_eventendtime ​<br> - msdyn_channel ​<br> - msdyn_channelinstanceid ​ |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL (SMS filter). Holdtime is calculated based on the duration between msdyn_eventstarttime and msdyn_eventendtime  |
+
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation hold time (sec) = AVERAGE(FactConversation[ConversationHoldTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_ocliveworkitem, msdyn_liveworkstream |
+|Attributes | - msdyn_channelinstanceid​ <br> - msdyn_streamsource ​<br> -isagentsession ​<br> - msdyn_conversationholdtimeinseconds   |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. Exclude rows where msdyn_streamsource is'192350000'. ConversationHoldTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_conversationholdtimeinseconds.|
+
+---
+
 ## Conversation first wait time
 
 This metric is a measure of the time, in seconds, before a  service representative responds to a customer's request. In other words, it represents the amount of time that the customer spends waiting for the first response from a service representative. Service representative availability, a high volume of requests, and increased handle time are some factors that can affect customer wait time. A shorter wait time indicates that customers get faster issue resolution and have a better support experience.
@@ -231,30 +277,105 @@ Incoming conversations_FactConversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactCon
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |msdyn_ocliveworkitem  |
-|Attributes |  msdyn_ocliveworkitem.msdyn_isoutbound ​
-
-msdyn_ocliveworkitem.msdyn_channel ​
-
-msdyn_ocliveworkitem.msdyn_channelinstanceid ​
-
-msdyn_sessionparticipant.systemuser.msdyn_botapplicationid   |
-|Filters  | |
+|Attributes | - msdyn_ocliveworkitem.msdyn_isoutbound <br> - msdyn_ocliveworkitem.msdyn_channel ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_sessionparticipant.systemuser.msdyn_botapplicationid   |
+|Filters  | Set IsOutbound to the value of msdyn_ocliveworkitem.msdyn_isoutbound.​ Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL.​ Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ IsAgentSession is set to true if msdyn_sessionparticipant.systemuser.msdyn_botapplicationid is not null.​|
 
 
 ### [Real-time analytics](#tab/realtimepage)
 
 **DAX query**
 
-- Need info
+```dax 
+
+Incoming conversations = ​SUMX ( FactConversation, IF ( NOT FactConversation[DirectionCode], 1, 0 ) )
+
+```
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |  |
-|Attributes |    |
-|Filters  | |
+|Dataverse entities | msdyn_ocliveworkitem |
+|Attributes | - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound ​<br> - msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid   |
+|Filters  | Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_streamsource is not equal to '192350000' and msdyn_channelinstanceid is NULL.​ Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ IsOutbound is set to the value of msdyn_ocliveworkitem.msdyn_isoutbound.​|
 
 ---
 
 ### Related metrics
 
+- - **Outgoing conversations**: The total number of outbound conversations made by representative directly to the user.
+
+## Outgoing conversations
+
+The total number of outbound conversations made by representative directly to the user.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### Historical analytics
+
+**DAX query**
+
+```dax
+
+Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversation[ConversationId] ),​ FactConversation [IsOutbound] = "1")​
+
+```
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem  |
+|Attributes | - msdyn_ocliveworkitem.msdyn_channel <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid <br> - msdyn_conversationtopic_conversation.msdyn_conversationid <br> - msdyn_ocliveworkitem.msdyn_isoutbound   |
+|Filters  | Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL. onversationid is set to the value of msdyn_conversationtopic_conversation.msdyn_conversationid. IsOutbound is set to the value of msdyn_ocliveworkitem.msdyn_isoutbound.|
+
+### Related metrics
+
+- - **Incoming conversations**: The total number of inbound conversations including both direct to representative and escalation from a voice or digital bot.
+
+## Engaged conversations
+
+An engaged conversation describes an interaction in which both the customer and the agent are actively participating and responsive during the exchange. This engagement is measured from the moment the service representative accepts the conversation when it is presented.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### Historical analytics
+
+**DAX query**
+
+```dax
+
+CALCULATE(TRUE(),FactConversation[IsOffered], FactConversation[IsAgentAccepted] = "1")
+
+```
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem​, msdyn_ocsession​, msdyn_ocsessionparticipantevent |
+|Attributes |- systemuser.msdyn_botapplicationid <br> - msdyn_sessionparticipant.msdyn_joinedon <br> - msdyn_ocliveworkitem.msdyn_channel <br> - msdyn_sessionparticipant.systemuser.msdyn_botapplicationid <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid |
+|Filters  | Filter the FactConversations table to​ exclude rows where msdyn_channel is equal to '192350000' and msdyn_channelinstanceid is NULL. IsAgentInvolved is used if there is atleast one session with IsAgentSession set to true. 
+IsAgentSession is set to true if msdyn_sessionparticipant.systemuser.msdyn_botapplicationid is not null.​ IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL and msdyn_sessionparticipant.msdyn_joinedon is not empty, then IsAgentAcceptedSession is 1.​ Otherwise, its 0.​ |
+
+## Abandoned conversations
+
+A conversation can be abandoned for multiple reasons. For example, a customer might be disconnected or might cancel the call because of a long waiting period, supervisors might forcibly close requests, or automatic system actions might be configured to respond to handle overflow. Abandoned conversations can lead to customer dissatisfaction because of a lack of assistance from the contact center. A high abandonment rate might require further investigation into operational metrics such as service representative availability and queue distribution.
+
+If an AI agent or IVR handles the customer before it escalates the request to a service representative, this metric is calculated as the number of conversations that were abandoned while customers were waiting for a service representative after the AI agent escalated the request. If a conversation is abandoned before an AI agent can be assigned, the system considers the conversation abandoned.
+
+If the customer reaches a service representative queue directly, this metric is calculated as the number of incoming conversations that were abandoned.
+
+The conversation direction is *Incoming*. The channels that the conversation came in through are *Messaging* and *Voice*.
+
+### Realtime analytics
+
+**DAX query**
+
+```dax
+
+Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAbandoned] && FactConversation[StatusCode] == 4 && FactConversation[DirectionCode],1,0)) 
+
+```
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem​, msdyn_ocsession​, msdyn_ocsessionparticipantevent |
+|Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
+|Filters  |msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. Exclude rows where msdyn_liveworkstream.msdyn_streamsource is not equal to '192350000'​. msdyn_ocliveworkitem.msdyn_isabandoned is 1. msdyn_ocliveworkitem.statuscode is 4​. Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1.|
 

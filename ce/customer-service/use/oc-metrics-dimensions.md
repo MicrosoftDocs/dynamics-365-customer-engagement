@@ -49,7 +49,7 @@ The total number of conversations through any channel (voice, digital) including
 
 ## Engaged conversations
 
-An engaged conversation describes an interaction in which both the customer and the representative are actively participating and responsive during the exchange. This engagement is measured from the moment the service representative accepts the conversation when it is presented.
+An engaged conversation describes an interaction in which both the customer and the representative are actively participating and responsive during the exchange. This engagement is measured from the moment the service representative accepts the conversation when it's presented.
 
 ## Abandoned conversations
 
