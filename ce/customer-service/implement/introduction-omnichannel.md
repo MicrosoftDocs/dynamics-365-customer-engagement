@@ -28,7 +28,7 @@ The enterprise-grade routing and work distribution engine allows customers to co
 > [!IMPORTANT]
 >
 > - [!INCLUDE[cc-cookies-in-omnichannel](../../includes/cc-cookies-in-omnichannel.md)]
-> - The multisession mode and navigation capabilities are supported in the Omnichannel for Customer Service and Customer Service workspace apps only, and not in copies of these apps or custom apps.
+> - The multisession mode and navigation capabilities are supported in the Omnichannel for Customer Service and Copilot Service workspace apps only, and not in copies of these apps or custom apps.
 
 ## Channels available with Omnichannel for Customer Service
 
@@ -60,7 +60,7 @@ Social channels such as Facebook and LINE give you an opportunity to capitalize 
 
 ## Inbox view
 
-As an agent, when you open Customer Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, LINE, WhatsApp, and Teams.
+As an agent, when you open Copilot Service workspace or Omnichannel for Customer Service, you can select the inbox icon to show all of the cases and conversations that are assigned to you. The inbox is designed to help you efficiently work on high velocity tasks, as well as promote inbox sessions to regular sessions when you need more time to resolve cases and complete your conversations. The following asynchronized channels are available in the conversation inbox: SMS, persistent chat, Facebook, LINE, WhatsApp, and Teams.
 
 The following image shows the inbox conversation view:
 
