@@ -1,7 +1,7 @@
 ---
 title: View call recording and transcripts for voice channel
 description: Use this article to learn how to view call recordings and transcripts.
-ms.date: 04/04/2025
+ms.date: 04/07/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -29,7 +29,7 @@ When conversations end in your contact center, users can view the recordings and
 - Call recordings and transcripts are enabled by your administrator.
 - Omnichannel agent or Omnichannel supervisor role.
 - To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table
-- To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. Conversation 
+- To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. 
 - To view post-conversation survey data, users need read-level access to the **Customer feedback survey** table; Omnichannel Administrator role has the access by default.
 
 ## View recordings and transcripts
@@ -91,7 +91,7 @@ The **Metrics** tab of the Conversation Form displays the following details:
 Users with the Omnichannel Supervisor role can't access survey results. You can view the following details:
 
 - **CSAT**: The customer satisfaction score of the conversation. The score can be between 0 to 5.
-- **<Verbatim>**: Free text
+- **`<Verbatim>`**: Free text.
 - **First Contact Resolution**: The choice must contain the **Yes** word.
 - **Net Promoter Score**: The score can be between 0 to 10.
 
