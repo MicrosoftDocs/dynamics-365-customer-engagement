@@ -34,6 +34,7 @@ You can add Copilot prompts to a new email template or an existing email templat
   > [!NOTE]
   > Copilot can use knowledge base sources only for one prompt per template.
 1. Select **Submit**. The prompt is inserted into the template. Copilot prompts are clearly marked within email templates with a distinct visual element.
+You can also select the prompt in the editor to modify the prompt.
 1. Select **Save**.
 
 ### Example
