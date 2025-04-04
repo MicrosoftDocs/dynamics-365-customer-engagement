@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 03/21/2025
+ms.date: 04/04/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -378,4 +378,161 @@ Abandoned conversations = ​SUMX(FactConversation, IF (FactConversation[IsAband
 |Dataverse entities |msdyn_ocliveworkitem​, msdyn_ocsession​, msdyn_ocsessionparticipantevent |
 |Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_liveworkstream.msdyn_streamsource ​<br> - msdyn_ocliveworkitem.msdyn_isabandoned ​<br> - msdyn_ocliveworkitem.statuscode ​<br> - msdyn_ocliveworkitem.msdyn_isoutbound  |
 |Filters  |msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. Filter the FactConversations table to include only rows from msdyn_ocliveworkitem where msdyn_channelinstanceid is NULL. Exclude rows where msdyn_liveworkstream.msdyn_streamsource is not equal to '192350000'​. msdyn_ocliveworkitem.msdyn_isabandoned is 1. msdyn_ocliveworkitem.statuscode is 4​. Isoutbound is based on msdyn_ocliveworkitem.msdyn_isoutbound not equal to 1.|
+
+## Average conversation talk time
+
+This metric is a measure of the average time, in seconds, that service representatives spent actively conversing with customers on the phone for voice conversations. If multiple service representatives handled the conversation, the conversation talk time is aggregated across all the service representatives. This metric is calculated by dividing the total talk time for all customer requests by the total number of handled conversations.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation talk time (min) = AVERAGE(FactConversation[TalkTime])/60.00
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
+|Attributes |- msdyn_eventstarttime ​<br> - msdyn_eventendtime ​<br> - msdyn_channel <br> - msdyn_channelinstanceid |
+|Filters  |Filter the FactConversations table to include only rows where msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL (SMS filter). Talktime is calculated based on the duration between msdyn_eventstarttime and msdyn_eventendtime. ​If HoldTime is NULL, then TalkTime is equal to ActiveTimeInSeconds.​ If HoldTime is not NULL and ActiveTimeInSeconds is not NULL, then TalkTime is equal to ActiveTimeInSeconds minus HoldTime.​ If neither of the above conditions are met, then TalkTime is set to 0.|
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+Avg. conversation talk time (sec) = AVERAGE(FactConversation[ConversationTalkTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). <br> - msdyn_ocliveworkitem, msdyn_liveworkstream |
+|Attributes  | - msdyn_channelinstanceid​ <br> - msdyn_streamsource ​<br> - isagentsession ​<br> - msdyn_conversationholdtimeinseconds   |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. Exclude rows where msdyn_streamsource is'192350000'. ConversationTalkTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_conversationtalktimeinseconds ​|
+
+---
+### Related metric
+
+- **Conversation talk time**: This metric is calculated based on the total talk time across all customer requests.
+
+## Average conversation time
+
+This metric is a measure of the average time, in seconds, that a customer who was seeking help from the contact center spent with a service representative. It includes the time that the customer spent waiting for service representatives to work with them.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation time (min) = ​ 
+IF (​
+
+    //If filtered by Conversation status and status is not Closed, show blank​
+
+    ISFILTERED (FactConversation[StatusId] ) && SELECTEDVALUE ( FactConversation[StatusId] ) <> "4",BLANK (),CALCULATE (AVERAGE ( FactConversation[_ConversationTime] ),​
+
+FactConversation[IsOffered],FactConversation[StatusId] = "4”))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
+|Attributes |- msdyn_closedon​ <br> - msdyn_createdon​ <br> - msdyn_channel ​<br> - msdyn_channelinstanceid |
+|Filters  |Filter the FactConversations table to include only rows where msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL. msdyn_ocliveworkitem.statuscode is set to 4. IsAgentSession is set to true. IsAgentInvolved is used if there is atleast one session with IsAgentSession set to true. ConversationTimeInSeconds is calculated based on the duration between msdyn_closedon and msdyn_createdon. IsAgentAcceptedSession is set as follows:​ 
+If systemuser.msdyn_botapplicationid is empty or NULL.  |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation time (sec) = ​AVERAGE (FactConversation[ConversationTimeInSeconds] )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). <br> - msdyn_ocliveworkitem, msdyn_liveworkstream |
+|Attributes  | - msdyn_channelinstanceid​ <br> - msdyn_streamsource ​<br> - isagentsession ​<br> - msdyn_conversationholdtimeinseconds   |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. Exclude rows where msdyn_streamsource is'192350000'. ConversationTimeInSeconds is obtained from msdyn_ocliveworkitem.msdyn_closedon.​|
+
+---
+
+### Related metric
+
+- **Conversation time**: This metric is calculated as the time between the point when the customer initiated the request and the point when the service representative wrapped up the conversation.
+
+## Average conversation wrap-up time
+
+This metric is a measure of the average time that a service representative spends completing any necessary tasks after the customer disconnects. These tasks might include documenting the conversation, updating notes, or updating the customer's information. The calculation is based on the time between the beginning of the wrap-up and the point when the service representative closes the conversation. If multiple service representatives handled a conversation, this metric applies only to the time that the last service representative who worked with the customer spent.
+
+This metric can be viewed in two formats: seconds and *hh:mm:ss*. 
+
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation wrap-up time (min) = ​
+
+IF (//If filtered by Conversation status and status is not Closed, show blank​
+
+ISFILTERED ( FactConversation[StatusId] )​
+
+&&SELECTEDVALUE(FactConversation[StatusId] ) <> "4",BLANK (), CALCULATE(DIVIDE(IF(SUM (FactConversation[_WrapupTime] ) = BLANK(),0,SUM(FactConversation[_WrapupTime])),COUNTROWS (FactConversation),​
+
+BLANK ()), FactConversation[IsOffered],​
+
+FactConversation[IsAgentAccepted] = "1"))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
+|Attributes |- msdyn_closedon​ <br> - msdyn_createdon​ <br> - msdyn_channel ​<br> - msdyn_channelinstanceid |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL. msdyn_ocliveworkitem.statuscode is not set to 4. IsAgentSession is set to true. IsAgentInvolved is used if there is atleast one session with IsAgentSession set to true. IsAgentAcceptedSession is set as follows:​ If systemuser.msdyn_botapplicationid is empty or NULL.​ |
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Avg. conversation wrap up time = AVERAGE(FactConversation[ConversationWrapUpTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). <br> - msdyn_liveworkstream |
+|Attributes  | - msdyn_channelinstanceid​ <br> - msdyn_streamsource ​<br> - isagentsession ​<br> - msdyn_conversationholdtimeinseconds   |
+|Filters  | Filter the FactConversations table to include only rows where msdyn_channelinstanceid is NULL. msdyn_ocliveworkitem.msdyn_isagentsession is set to 1. Exclude rows where msdyn_streamsource is'192350000'.ConversationWrapUpTimeInSeconds is obtained from msdyn_conversationwrapuptimeinseconds​|
+
+---
+
 
