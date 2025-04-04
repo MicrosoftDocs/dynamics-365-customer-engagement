@@ -1,7 +1,7 @@
 ---
 title: Overview of case management
 description: This topic provides information on how to manage cases in Dynamics 365 Customer Service apps.
-ms.date: 01/31/2025
+ms.date: 04/04/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
