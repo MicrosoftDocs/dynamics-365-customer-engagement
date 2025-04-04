@@ -112,14 +112,14 @@ In the **Work distribution** area of a workstream, you can either accept the def
 
 - **Allowed presences**: Select the presence statuses in which representatives can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to representatives when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
-- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. Learn more in [Agent affinity](#agent-affinity).
+- **Keep same representative for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. Learn more in [agent affinity](#agent-affinity).
 
 ### Configure advanced settings
 
 For a selected workstream, expand **Advanced settings** to configure the following options:
 
 - [Sessions](session-templates.md)
-- [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
+- [agent notifications](notification-templates.md#out-of-the-box-notification-templates)
 - [Context variables](manage-context-variables.md)
 - [Smart assist bots](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
