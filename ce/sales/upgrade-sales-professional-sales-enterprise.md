@@ -27,23 +27,21 @@ The upgrade process involves the following steps:
 
 ## Purchase Dynamics 365 Sales Enterprise Edition subscription
 
-1.  Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
+1. Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) with the Dynamics 365 account that has admin permissions.
 
-2.  In the left pane, select **Billing** > **Purchase Services**.
+1. In the left pane, select **Billing** > **Purchase Services**.
 
-3.  Find **Dynamics365 Sales Enterprise Edition**, and then select **Details**.
+1. Find **Dynamics 365 Sales Enterprise Edition**, and then select **Details**.
 
-4. In **Select license quantity**, select or enter the number of licenses to purchase.
+1. In **Select license quantity**, select or enter the number of licenses to purchase.
 
-5. Select **Buy**, and then complete the purchase process.
-
-
+1. Select **Buy**, and then complete the purchase process.
 
 ## Assign licenses to your users
 
-After you’ve purchased the licenses, assign the licenses to users. 
+After you've purchased the licenses, assign the licenses to users. 
 
-1.	Go to Microsoft 365 admin center, and in the navigation pane, select **Users** > **Active users**.
+1.	Go to Microsoft 365 admin center, and in the left pane, select **Users** > **Active users**.
 
 2.	Select multiple users, and then select **Manage product licenses**. 
     
@@ -51,10 +49,9 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 3.	In **Manage product licenses** pane, select **Replace**, and then select the license for your Dynamics 365 Sales plan. 
 
-4.	Select **Save changes**, and then select **Done**. 
+4.	Select **Save changes**, and then select **Done**.
 
-5.	Review the licence status on the **Active users** page and make other assignments as needed. 
- 
+5.	Review the license status on the **Active users** page and make other assignments as needed. 
 
 
 ## Install Dynamics 365 Sales Enterprise solution  
