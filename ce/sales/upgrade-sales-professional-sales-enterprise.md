@@ -1,7 +1,7 @@
 ---
 title: "Upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise (Dynamics 365 Sales) | MicrosoftDocs"
 description: "Follow the steps in this topic to upgrade from Dynamics 365 Sales Professional to Dynamics 365 Sales Enterprise."
-ms.date: 04/01/2025
+ms.date: 04/06/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -67,11 +67,11 @@ To install the Sales Enterprise solution on a Power Platform environment with Dy
 
 3.	Open the environment in which you want to install the Sales Enterprise solution, and select **Dynamics 365 apps**.
 
-   :::image type="content" source="media/resources-select-dynamics-365-apps.png" alt-text="Screenshot of selecting the Dynamics 365 apps resource.":::
+    :::image type="content" source="media/resources-select-dynamics-365-apps.png" alt-text="Screenshot of selecting the Dynamics 365 apps resource.":::
 
 4.	On the command bar, select **Install app**.
 
-   :::image type="content" source="media/select-install-app-dynamics365-apps-resource.png" alt-text="Screenshot of selecting the Install app option.":::
+    :::image type="content" source="media/select-install-app-dynamics365-apps-resource.png" alt-text="Screenshot of selecting the Install app option.":::
 
 5. In the **Install Dynamics 365 apps** panel, select 'Dynamics 365 Sales, Enterprise Edition app', and select **Next**.
 
@@ -82,13 +82,17 @@ After you complete these steps, your organization will be effectively upgraded t
 
 ## Delete the Dynamics 365 Sales Professional solution
 
-1.	Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
+1. Make sure that you have the System Administrator or System Customizer security role or equivalent permissions.
 
-2.	Sign in to Dynamics 365. 
+1. Sign in to Dynamics 365. 
 
-3.	Select **Settings** > **Solutions**. 
+1. Select **Settings** > **Advanced Settings**.
 
-4.	Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional solution and select **Delete**. 
+    The **Power Platform Environment Settings** page opens.
+
+1. In the left pane, select **Customization** > **Solutions**.
+
+1. Select the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional solution and select **Delete**. 
 
     > [!NOTE]
     > When you delete this solution, the Sales Pro app module is deleted, and any configuration specific to this app module such as its site map and form preferences are also lost.

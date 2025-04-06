@@ -27,16 +27,15 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
 1. In the lower-left corner of the page, go to **Change area** \> **Sales Insights settings**.
 1. Under **Sales accelerator**, select **Work assignment**. 
 1. On the **Work assignment** page, in the **Record type** list, select **Insights (preview)**.
-1. Select **Assignment rules** tab.
-1. Select **\+ New rule**.
-1. In the **Add assignment rule** dialog box, enter the following information:
+1. Select the **Add assignment rule**.
+1. In the **Add assignment rule** pane, enter the following information:
 
-    - Under **Rule name**, enter a name for the rule.
-    - Under **Select eligible assign insights to a seller or a team for this rule**, in the **Choose segment** list, select a segment to group the insights.
+    - **Rule name**: Enter a name for the rule.
+    - **Eligible insights for this rule**: Select the segment for which this rule will apply.
 
-        If a segment doesn't exist, select **\+ New segment** in the **Choose segment** list. When you create segments for insights, select **Insights** as the record type to help when you select the attributes that are related to the `msdyn_salessuggestion` entity. [Learn more about how to create segments.](create-and-activate-a-segment.md)
+        If a segment doesn't exist, select **\+ New segment** in the list. When you create segments for insights, select **Insights** as the record type to help when you select the attributes that are related to the `msdyn_salessuggestion` entity. [Learn more about how to create segments.](create-and-activate-a-segment.md)
 
-    - Under **Assign insights to a seller or a team**, select the ownership type and sellers to assign the insights to.
+    - Under **Assign these insights to a seller or a team**, select the ownership type and sellers to assign the insights to.
 
         | Ownership type | Description |
         |----------------|-------------|
@@ -60,7 +59,7 @@ For the **Seller insights** option to appear in assignment rules, the **Insights
         - In the account team, secondary owners can view the insights but can't work on them until the primary owner assigns them.
         - You can add multiple secondary owners to the rule, or you can assign a security role as the secondary owner.
 
-1. Select **Create rule**. The rule is created, and appropriate insights are displayed to the appropriate sellers or team.
+1. Select **Save**. The rule is created, and appropriate insights are displayed to the appropriate sellers or team.
 
 ## Examples
 

@@ -1,7 +1,7 @@
 ---
 title: Move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional
 description: Follow the steps in this topic to move from Dynamics 365 Sales Enterprise edition to Dynamics 365 Sales Professional.
-ms.date: 04/01/2025
+ms.date: 04/06/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -28,7 +28,7 @@ Learn how to purchase, assign, and install Sales Professional license so that yo
 
 2.  In the left pane, select **Billing** > **Purchase Services**.  
 
-3.  Find Dynamics 365 Sales Professional, and then select Details.
+3.  Find **Dynamics 365 Sales Professional**, and then select **Details**.
 
 4. In **Select licence quantity**, select or enter the number of licenses to purchase.
 
@@ -53,7 +53,7 @@ After you’ve purchased the licenses, assign the licenses to users.
 
 ## Install Dynamics 365 Sales Professional solution
 
-Go to the Microsoft 365 admin center to install Dynamics 365 Sales app (solution) to your production environment. For more information, see [Install Dynamics 365 Sales Professional](../sales-professional/provision-sales-professional-instance.md#install-app)
+Go to the Microsoft 365 admin center to install Dynamics 365 Sales app (solution) to your production environment. For more information, see [Install Dynamics 365 Sales Professional](provision-sales-professional-instance.md).
 
 After you complete these steps, your organization will be effectively moved to [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] Professional.
 
