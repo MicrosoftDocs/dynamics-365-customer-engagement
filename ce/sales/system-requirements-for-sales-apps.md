@@ -4,8 +4,8 @@ description: Learn about the system requirements for using the Sales Hub and Sal
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual 
-ms.date: 01/02/2023
+ms.topic: concept-article 
+ms.date: 03/31/2025
 ms.custom: bap-template 
 ---
 

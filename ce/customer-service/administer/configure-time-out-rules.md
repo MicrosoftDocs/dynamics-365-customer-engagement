@@ -29,7 +29,7 @@ The following channels only are supported:
 
 ## Prerequisite
 
-The System Administrator role.
+The Omnichannel Administrator role.
 
 ## Configure the time-out rules
 
@@ -70,7 +70,7 @@ For the automatic actions to run, set up the time-out rules per workstream. You 
 
 Select a rule to enable the edit button that you can use to edit the rule.
 
-You can change the priority per time-out rule so that if any condition is the same, the prioritized time-out rule is run first.
+You can change the priority per time-out rule so that if any condition is the same, the system runs the prioritized time-out rule first.
 
 ### Related information
 
