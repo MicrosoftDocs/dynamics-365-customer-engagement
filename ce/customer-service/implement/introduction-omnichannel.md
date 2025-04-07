@@ -64,7 +64,7 @@ As an agent, when you open Copilot Service workspace or Omnichannel for Customer
 
 The following image shows the inbox conversation view:
 
-:::image type="content" source="../media/inbox-csw.jpg" alt-text="Customer Service workspace inbox conversations view" border="false":::
+:::image type="content" source="../media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
 
 The following image shows the inbox case view:
 
