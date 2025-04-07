@@ -1,7 +1,7 @@
 ---
 title: Get real-time call data through Teams calls in Dynamics 365 Sales
 description: Analyze real-time call data with Teams calls to get overviews, summaries, transcripts, insights, and action items.
-ms.date: 09/07/2023
+ms.date: 03/31/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -31,8 +31,7 @@ You can perform the following actions during the call:
 
 -	**Take notes**: On the **Notes** tab, you can take meeting notes to summarize key points or any other important information about the call. The added notes are automatically saved to the activity’s timeline, and are also available in the **Call summary** tab of the phone call activity. For more information about activities, see [Track and manage activities](manage-activities.md). 
 
-    > [!div class="mx-imgBorder"]
-    > ![Call connected through the Teams dialer.](media/teams-dialer-ci-connected-call.png "Call connected through the Teams dialer")  
+    :::image type="content" source="media/teams-dialer-ci-connected-call.png" alt-text="Screenshot of a call connected through the Teams dialer.":::    
 
 -	**Transcript**: On the **Transcript** tab, a real-time transcript is displayed during the call, with a timeline showing who said what, when. The transcript helps you analyze the call. The defined keywords and competitors that were mentioned in the call are highlighted in bold text. More information: [Configure keywords and competitors](configure-keywords-competitors-sales-app.md)
 
