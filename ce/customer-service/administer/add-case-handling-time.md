@@ -24,7 +24,7 @@ Case handling time is the total time customer service representatives (service r
 To display the case handling time widget on a case form, follow these steps:
 
 1. In Customer Service admin center, select **Customer Support** > **Case settings**.
-1. On the **Case settings** page, select **Manage** for **Case handling time (preview)**. The **Case handling time (preview)** page opens.
+1. On the **Case settings** page, select **Manage** for **Case handling time**. The **Case handling time** page opens.
 1. Select the **Enable case handling time** check box.
 1. Select the Power Apps link. The application shows the [**Solutions**](/power-apps/maker/data-platform/solutions-overview#work-with-solutions-in-power-apps) page. 
 1. In Power Apps, select the solution that contains your custom case form and then select **Tables**.
@@ -52,6 +52,22 @@ The update interval is the time between each update of the database and the widg
 - Automatically refreshes the case handling time widget to display the updated time.
 
 For example, if you set 10 min as the update interval, the automatic time tracked on the case is updated to the database and the widget after every 10 min. If two representatives open the same case at the same time, after 10 min, the widget displays 20 mins as the total time tracked on the case.
+
+## Enable case handling time available to service representatives
+
+For service representatives to see the case handling time widget on the case form, you must enable the **Case handling time** feature in **Experience profiles**. 
+
+Perform the following steps:
+
+1. In Copilot Service admin center, select **Workspaces** in **Support experience**. The **Workspaces** page appears.
+1. Select **Manage** for **Experience profiles**. The **Experience profiles** page appears.
+1. Select the required experience profile. 
+1. In the **Case Handling Time** section, select **Edit**.
+1. Select the **Enable case handling time** checkbox.
+1. Select **Save and close**.
+
+W> [!NOTE]
+> When the **Enable case handling time** checkbox is selected, the service representative sees the case handling widget on the case form even if the **Case handling time** feature isn't enabled in **Case settings**.
 
 ## Delete time tracker records
 
