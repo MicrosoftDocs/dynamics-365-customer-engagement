@@ -28,7 +28,7 @@ When conversations end in your contact center, users can view the recordings and
 
 - Call recordings and transcripts are enabled by your administrator.
 - Omnichannel agent or Omnichannel supervisor role.
-- To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table
+- To access recordings and transcripts, users with other roles need at least read-level access to the **Activity** table.
 - To view conversation summaries, users with other roles need at least read-level access to the **ConversationInsights** table. 
 - To view post-conversation survey data, users need read-level access to the **Customer feedback survey** table; Omnichannel Administrator role has the access by default.
 
@@ -44,16 +44,6 @@ The **Details** tab of the **Conversation - Conversation Form** displays the cal
 
 :::image type="content" source="../media/voice-channel-recording.png" alt-text="Screenshot of call recording and transcript controls." lightbox="../media/voice-channel-recording.png":::
 
-The **Overview** bar on the **Conversation Form** displays the following details:
-- **Channel**: The type of communication conducted.
-
-- **Status**: The state of the communication.
-- **Queue**: The queue the call was conducted in.
-- **Workstream**: The workstream the call was conducted in.
-- **Skills**: The list of agent skills.
-- **Regarding**: The link to the case or customer record.
-
-
 **Recording playback**
 
 - **Play**: Select the button to listen to the conversation audio.
@@ -63,6 +53,15 @@ The **Overview** bar on the **Conversation Form** displays the following details
 - **Download audio**: Download an .mp4 audio file of the complete conversation.
 - **Speed**: From the dropdown menu, select the playback speed of the conversation, whether slower or faster. **Normal** is the default, and is the speed in which the conversation was recorded.
 - **Conversation scroll bar**: Move the scroll bar to any point of the conversation, or listen to it from beginning to end. When you select a location in the recording visualization, the transcript also moves to the same place in the conversation.
+
+The **Overview** bar on the **Conversation Form** displays the following details:
+- **Channel**: The type of communication conducted.
+
+- **Status**: The state of the communication.
+- **Queue**: The queue the call was conducted in.
+- **Workstream**: The workstream the call was conducted in.
+- **Skills**: The list of agent skills.
+- **Regarding**: The link to the case or customer record.
 
 **Summary**
 
@@ -80,7 +79,7 @@ The **Overview** bar on the **Conversation Form** displays the following details
    > [!NOTE]
    > Inline images and rendering of videos is not supported in downloaded transcripts.
 
-The **Metrics** tab of the Conversation Form displays the following details:
+The **Call Metrics** tab of the Conversation Form displays the following details:
 
 - **Sentiment**: The average sentiment of the call.
 
@@ -102,9 +101,9 @@ Users with the Omnichannel Supervisor role can't access survey results. You can 
 
 The following considerations apply:
 
-- If a survey isn't enabled for a conversation, or not completed, the Post-conversation survey tab is hidden.
+- If a survey isn't enabled for a conversation, or not completed, the **Post-conversation survey** tab is hidden.
 
-- If one of the values aren't set up to be collected in a survey, they are hidden.
+- If one of the three values aren't set up to be collected in a survey, they are hidden.
 - If the customer doesn't provide a value, the corresponding label isn't displayed in the survey results.
 - Calls that have surveys are assigned to the Copilot survey agent after the call ends and not to the representatives. The representative can view the calls in **Activities**.
 
@@ -115,9 +114,9 @@ Displays details about the number of agents assigned to the call, other particip
 - The system generates a session every time a new primary agent is assigned to the conversation.
 
 - Each session header displays the start time and total duration of the session.
-- The primary agent is listed inside each session, their assignment time, and whether they joined the conversation. 
+- The session lists the primary agent, their assignment time, and whether they joined the conversation.
 - When the primary representative leaves the session, the session ends, and the **Closure reason** is displayed with the time. Learn more about closure reasons in [Closure reasons](../../developer/reference/entities/msdyn_ocsession.md#msdyn_closurereason-choicesoptions).
-- If a consult session is added to the conversation, the consultee representative is shown indented to the primary representative. Their consult join and exit times are displayed with details on whether they accepted the consult
+- If a consult session is added to the conversation, the consultee representative is shown indented to the primary representative. Their consult join and exit times are displayed with details on whether they accepted the consult.
 
 ### Related information
 
