@@ -1,7 +1,7 @@
 ---
 title: Use trades to group services
 description: Learn how to configure and use trades in Dynamics 365 Field Service.
-ms.date: 02/09/2024
+ms.date: 04/07/2025
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
@@ -11,19 +11,20 @@ ms.author: jasonshotts
 
 # Use trades to group services
 
-Trades let you group [incident types](configure-incident-types.md) in your preferred way. Configure trades and trade coverages to simplify the creation of [work orders](create-work-order.md) and the services that are provided in a functional location or for a service account, or for accounts at locations. Using trades adds another layer of details to create reports and filter charts on reports.
+Trades are the types of services your organization provides to your customers. In Field Service, use trades to group [incident types](configure-incident-types.md) together. Configure trades and trade coverages to simplify the creation of [work orders](create-work-order.md) and the services that are provided in a functional location or for a service account, or for accounts at locations. Using trades adds another layer of details to create reports and filter charts on reports.
+
+Trade coverage defines which trades are covered for an account or a location to ensure the right level of service is provided. For example, if a location doesn’t have AC (air conditioning), it shouldn’t be possible to create an incident related to the AC system for that location. The same logic applies to accounts if the service contract doesn’t include HVAC (heating, ventilation, and air conditioning) maintenance.
 
 ## Prerequisites
 
-An administrator must enable [**Trades**](configure-default-settings.md#features-settings).
+An administrator must enable [**Trades** and **Trade Coverages**](configure-default-settings.md#features-settings).
 
-## Create trades
+## Create trades and trade coverage
 
 Before you can map incident types to a trade, an admin must define the trades that are available for your business.
 
 1. Go to **Settings** > **General** > **Trades**.
 1. Select **New**.
-1. Choose the **Type** for the trade. Choosing *Coverage* defines the account or functional location that a trade covers. *Exclusion* removes trade coverage for the account or functional location.
 1. **Name** the trade and **Save** it.
 
 :::image type="content" source="media/trades-list.png" alt-text="Screenshot of a list of trades.":::
@@ -40,10 +41,14 @@ To group incident types by trade and create reports based on trades, an admin mu
 
 ## Configure trade coverages
 
-Trade coverage defines which trades are covered for an account or a location to ensure the right level of service is provided. For example, if a location doesn’t have air conditioning, it shouldn’t be possible to create an incident related to the AC (air conditioning) system for that location. The same logic applies to accounts if the service contract doesn’t include HVAC (heating, ventilation, and air conditioning) maintenance.
+Choose coverage and exclusions to define the account or functional location that a trade covers or doesn't cover.
 
 1. Go to **Settings** > **General** > **Trade coverages**.
 1. Select **New**.
+1. Choose the **Type** for the trade.
+
+   - **Coverage** defines the account or functional location that a trade covers.
+   - **Exclusion** removes trade coverage for the account or functional location.
 1. Choose a trade and select an account, a functional location, or both.
 1. **Save** the trade coverage.
 
