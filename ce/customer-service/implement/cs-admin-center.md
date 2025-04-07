@@ -93,15 +93,15 @@ You can manage the following features in **Customer support**:
 - **Case settings**: Subjects, automatic record creation rules, advanced similarity rules, parent-child case settings, and case resolution dialog.
 - **Customer settings**: Blocked numbers, authentication settings, geo location, phone music, outbound messaging and automate messages.
 
-  :::image type="content" source="../media/customer-support-overview.png" alt-text="Overview page of Customer support in Customer Service admin center.":::
+  :::image type="content" source="../media/customer-support-overview.png" alt-text="Overview page of Customer support in Copilot Service admin center.":::
 
-You can manage the following features in **Agent experience**:
+You can manage the following features in **Support experience**:
   
 - **Workspaces**: Agent experience profiles, templates, and third-party voice channel provider.
 - **Productivity**: Transcripts, outbound profiles, templates for emails and messages, macros, and custom presence.
 - **Knowledge**: Record types for which knowledge management needs to be enabled, filters, external portal, article templates, and search providers.
 
-  :::image type="content" source="../media/agent-experience-overview.png" alt-text="Overview page of Agent experience in Customer Service admin center.":::
+  :::image type="content" source="../media/agent-experience-overview.png" alt-text="Overview page of Support experience in Copilot Service admin center.":::
 
 You can manage the following features in **Operations**:
 
@@ -111,7 +111,7 @@ You can manage the following features in **Operations**:
 - **Service scheduling**: Organizational units, facilities and equipment, resources, service scheduling, business closure, fulfillment preferences, and resource categories.
 - **Miscellaneous**: Analysis jobs, migration tool, and IoT settings.
 
-  :::image type="content" source="../media/operations-overview.png" alt-text="Overview page of operations in Customer Service admin center.":::
+  :::image type="content" source="../media/operations-overview.png" alt-text="Overview page of operations in Copilot Service admin center.":::
 
 ## Search admin settings
 
@@ -121,7 +121,7 @@ Use the search option on the **Search admin settings** page to quickly list the 
 
 ### FAQ
 
-See the [FAQ about Customer Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
+See the [FAQ about Copilot Service admin center](../administer/faq-customer-service-admin-center.md) for any questions that you might have.
 
 ### Related information
 
