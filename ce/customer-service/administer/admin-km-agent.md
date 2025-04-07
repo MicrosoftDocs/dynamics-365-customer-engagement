@@ -40,7 +40,7 @@ Real-time knowledge creation is triggered when a customer service representative
 
 ### Control which cases real-time creation should create articles from 
 
-You can create multiple rules to control which conditions must be met for Customer Knowledge Management Agent to process a resolved case in real time. For example, you may limit this process to cases owned by a certain user, or any other fields on the case.  
+You can create multiple rules to control which conditions must be met for a resolved case to be processed by Customer Knowledge Management Agent in real time. For example, you may limit this process to cases owned by a certain user, or any other fields on the case.  
 
 1. In the **Real-time creation** section, select **Manage rules**.
 1. In the **Manage rules** dialog, select **New** to add a new rule.
@@ -83,7 +83,7 @@ Articles with the **Non Compliant** status can't be published.
 
 ## Auto publish articles
 
-You can control whether the AI agent can automatically publish articles that comply with **Compliance Status** you set. You can also select the target audience that can view the published articles.
+You can control whether the AI agent can automatically publish articles that comply with the **Compliance Status** you set. You can also select the target audience that can view the published articles.
 
 To set the auto-publishing of articles created by Customer Knowledge Management Agent, on the **Customer Knowledge Management Agent (preview)** page, **Auto publishing** section, select the **Automatically publish compliant articles as soon as they’re created** option.
 
