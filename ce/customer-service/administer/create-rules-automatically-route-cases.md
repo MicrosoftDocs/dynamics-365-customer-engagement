@@ -68,7 +68,7 @@ Review the following prerequisites before creating a routing ruleset:
 
 When creating routing rulesets, you can add multiple rule items and arrange them in the required order. The rule items are evaluated in the order of their definition. Rule items are evaluated from top to bottom. If a rule item is evaluated as true, the case gets routed to the destination service representative and skips further evaluation. If a rule item is evaluated as false, further rule items are evaluated.
 
-1. In the site map of Customer Service admin center, select **Routing**. The **Routing** page appears.
+1. In the site map of Copilot Service admin center, select **Routing**. The **Routing** page appears.
 
 1. Select **Manage** for **Basic routing rule sets**.
 
