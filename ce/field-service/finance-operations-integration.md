@@ -271,6 +271,11 @@ The following processes or features available in the finance and operation apps 
 
 - The integration currently supports limited alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal lines, hours journal lines, or item journal lines only sync the defaulted line property and a reference to the active journal line for the record. Other changes to the respective Field Service transaction record aren't synced from their respective line journals.
 
+- Work Order Products and Work Order Service records have a Discount % and Estimated Discount percent field. At this time, the integration does not synchronize these discount concepts. The respective journals which they would generate do not have such a concept and, as such, there is nowhere for this data to align. As a result, we have hidden this field on the OOTB forms when the integration is enabled.
+
+> [!NOTE]
+> When using entitlements, be sure to apply a specialized price list instead of a discount.
+
 ## Next steps
 
 - [Set up Field Service integration with finance and operations applications](finance-operations-integration-setup.md)
