@@ -630,11 +630,11 @@ These columns/attributes return true for either **IsValidForCreate** or **IsVali
 |192350024|**InqueueOverflowQueueTransfer**|Occurs when inqueue overflow triggers the transfer of conversation from one queue to another and this action closes the previous session.|
 |192350025|**InqueueOverflowEndConversation**|Occurs when inqueue overflow ends the conversation.|
 |192350026|**BotTransferToAgent**|Indicates that the AI agent has escalated the conversation.|
-|192350027|**BotEndConversation**|Indicates that the agent has ended the conversation.|
-|192350028|**BotCallFailureEndConversation**|When agent play a message to the caller because of some internal failure and conversation ends.|
-|192350029|**BotCallFailureExternalTransfer**|When agent transfers the call to an external phone number because of some internal failure and conversation ends.|
-|192350030|**BotCallFailurePromptAndEscalate**|When conversation isn't ending as caller hears a prompt, wait music and then sent to the default fallback queue so caller is transferred to a representative or whatever queue behavior is defined.|
-|192350031|**BotCallFailureEscalate**|When conversation isn't ending as caller hears wait music, and is sent to the default fallback queue, so caller is transferred to a representative or whatever queue behavior is defined.|
+|192350027|**BotEndConversation**|Indicates that the AI agent has ended the conversation.|
+|192350028|**BotCallFailureEndConversation**|When the AI agent plays a message to the caller because of some internal failure and conversation ends.|
+|192350029|**BotCallFailureExternalTransfer**|When the AI agent transfers the call to an external phone number because of some internal failure and the conversation ends.|
+|192350030|**BotCallFailurePromptAndEscalate**|The conversation doesn't end, the caller hears a prompt and wait music. The caller is then assigned to the default fallback queue where they are transferred to a representative or is handled by whatever queue behavior is defined.|
+|192350031|**BotCallFailureEscalate**|The conversation doesn't end, the caller hears wait music, and is sent to the default fallback queue, so that they can be transferred to a representative or is handled by whatever queue behavior is defined.|
 
 ### <a name="BKMK_msdyn_liveworkitemid"></a> msdyn_liveworkitemid
 
