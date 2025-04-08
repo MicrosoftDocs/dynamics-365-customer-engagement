@@ -62,7 +62,7 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 |--------|---------|
-| Total conversations with copilot AI available | The total number of conversations in which the service representative engaged with the customer at least once using Copilot; doesn't include email and voice. |
+| Total conversations with copilot AI available | The total number of conversations in which the representative engaged with the customer at least once using Copilot; doesn't include email and voice. |
 | Number of conversations using copilot AI | The number of engaged conversations that used Copilot; lists only closed conversations. |
 | Percentage of conversations using copilot AI | The percentage of engaged conversations that have used Copilot. |
 | Avg conversation handle time (min) | The average time that elapsed after a conversation started until it ended; displays data when Copilot was used and when it wasn't.|
@@ -72,11 +72,11 @@ The Copilot report displays the following metrics.
 
 | Metric | Description |
 | -------|---------|
-| Agent ratings | The number of times service representatives rated a Copilot response positively or negatively by providing a thumbs-up or thumbs-down. |
+| Agent ratings | The number of times representatives rated a Copilot response positively or negatively by providing a thumbs-up or thumbs-down. |
 
 ## Next Steps
 
-You can view the [transcripts of interactions](../develop/download-copilot-transcript-data.md) between service representatives and Copilot.
+You can view the [transcripts of interactions](../develop/download-copilot-transcript-data.md) between representatives and Copilot.
 
 ### Related information
 
