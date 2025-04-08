@@ -19,7 +19,7 @@ searchScope:
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-In unified routing, work classification lets you define rules to add detailed information to incoming work items that can be used to route and assign the work items optimally.
+In unified routing, work classification lets you define rules to add detailed information to incoming work items. The information can then be used to route and assign the work items optimally to customer service representatives (service representatives or representatives).
 
 Typically, rules are written in the format of "if defined condition satisfies, then set the output attributes to certain values," but can also be surfaced through machine learning models. They're optional and can be used to add additional information to the incoming work items that are then used for more precise routing and assignment.
 
@@ -30,8 +30,9 @@ Work classification rules can be written by using the logical declarative decisi
 
 ## Prerequisites
 
-CSR Manager or Omnichannel administrator role.
-[Template rulesets](manage-routing-rules-templates.md) are available if you want to create classification rulesets based on templates.
+- CSR Manager or Omnichannel administrator role.
+
+- [Template rulesets](manage-routing-rules-templates.md) are available if you want to create classification rulesets based on templates.
 
 ## How classification rulesets work
 
@@ -96,7 +97,7 @@ Follow these steps to create a logical skill classification ruleset:
 1. If you want to set up the skill attribute, in the **Conditions** area, define the conditions, and select the required value in the **Output** area for the skill that needs to be set.
 
    > [!Note]
-   > - Ensure that the rating model that you choose for a skill in the work classification rule is same as the rating model that's defined for the skill attached to the customer service representative (service representative or representative). Also, ensure that you don't attach the same skill with two different rating models. For one skill, if you use different rating models in the conversation and for the service representative, or in the same conversation, assignment won't work as expected.
+   > - Make sure that the rating model you choose for a skill in the work classification rule is same as the rating model defined for the skill attached to the representative. Also, make sure that you don't attach the same skill with two different rating models. For one skill, if you use different rating models in the conversation and for the service representative, or in the same conversation, assignment won't work as expected.
    > - When you reroute a work item, new skills are appended to the existing ones if any.
 
 ## Create classification rulesets based on capacity profiles
