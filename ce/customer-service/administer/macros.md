@@ -4,7 +4,7 @@ description: This article provides information about the different macros that c
 author: gandhamm
 ms.author: mgandham
 ms.reviewer: mgandham
-ms.date: 05/23/2024
+ms.date: 04/01/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -48,15 +48,16 @@ The following actions can trigger a macro:
 You can use the following predefined automation actions to create macros:
 
 - [Productivity automation](macros-productivity-automation.md): Provides actions to perform model-driven app operations. You can use these actions to automate the following tasks:
-- open and update records
-- open views
-- resolve cases
-- search knowledge base
-- clone records
-- set focus to another agent script
-- open email templates
-- auto fill form fields
-- set and retrieve variables and values in the session context
+  - open and update records
+  - open views
+  - resolve cases
+  - search knowledge base
+  - clone records
+  - set focus to another agent script
+  - open email templates
+  - auto fill form fields
+  - set and retrieve variables and values in the session context
+  - support integration with non-Microsoft web pages and applications using custom macros
 
 - [Session connector](macros-session-action.md): Provides actions to perform session-related operations. You can use these actions to get the ID of a tab, refresh a tab, pass the tab ID, set focus to a tab based on the tab ID, open a tab template, and refresh session context.
 
