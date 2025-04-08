@@ -57,7 +57,7 @@ To create a logical work classification ruleset, do the following steps:
 1. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**.
 1. In **Start new or use a template**, select one of the following values:
     - **Template ruleset**: Select a work classification template ruleset and then select **Create**. A ruleset record is created with all rules in the template. You can't edit the template rules from within the workstream. You can select **Template** listed on the ruleset page to view the template details.
-    - **Copy from template**: Select a template. The system copies the rule definition from the current template and to the target decision ruleset. You can update the rules to change the existing order or add new rules.
+    - **Copy from template**: Select a template. The system copies the rule definition from the current template to the target decision ruleset. You can update the rules to change the existing order or add new rules.
     - **New ruleset**: Enter a name and description, and then select **Create**.
 
 1. On the **Decision list** page, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
