@@ -44,7 +44,7 @@ You can also revert to the last published configuration.
 
 ## Apply template ruleset to queues and workstreams
 
-You can assign each template for up to 10 queues or workstreams. Assign the template ruleset to queues or workstreams in one of the following ways:
+Assign the template ruleset to queues or workstreams in one of the following ways:
 
 - Assign from template ruleset page:
     1. Select a published template ruleset and on the page that appears, select **Assign template**.
@@ -60,7 +60,7 @@ You can assign each template for up to 10 queues or workstreams. Assign the temp
 
 ## Create template context variables
 
-Use template context variables to create context variables that you can use across workstreams. You can use template context variables in work classification only type of ruleset. 
+Use template context variables to create context variables that you can use across workstreams. You can use template context variables in work classification type of ruleset only. 
 
 1. In the site map of Copilot Service admin center, select **Routing** under **Customer support**.
 1. Under **Templates**, select **Manage** for **Template context variable**.
