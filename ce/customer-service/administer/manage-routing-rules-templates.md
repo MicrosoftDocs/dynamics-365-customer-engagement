@@ -20,9 +20,9 @@ The System Administrator role or a role with permission to access and modify sec
 
 ## Create template rulesets
 
-In template rulesets, the [service quotas](../implement/service-quotas.md) are applicable. When you select the option to import from existing rulesets, if any context variables are configured, they are also created as template context variables. 
+In template rulesets, the [service quotas](../implement/service-quotas.md) are applicable. 
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Routing** under **Customer support**.
+1. In the site map of Copilot Service admin center, select **Routing** under **Customer support**.
 1. Under **Templates**, select **Manage** for **Template ruleset**.
 1. Select **New template**, and enter the following details:
     - **Ruleset name**: An intuitive name.
@@ -31,16 +31,16 @@ In template rulesets, the [service quotas](../implement/service-quotas.md) are a
     -  **Channel**: Appears if you select **Record** in **Type**; with **Case** selected by default.
     - **Description**
 1. Select **Create**.
-1. Select the template and create rules. You can also import from existing rulesets by selecting **Import from ruleset** and follow the wizard.
+1. Select the template and create rules. You can also import from existing rulesets by selecting **Import from ruleset** and follow the wizard. If any context variables are configured, they are also created as template context variables.
 1. After you finish creating the rules, select **Publish**. The template is ready to be applied to a queue or workstream.
 
 ## Manage templates
 
-You can update the templates to add or remove rules. If you edit a published template, the template is first converted into the draft state that you need to republish for the changes to be effective. The published updates are automatically pushed to the linked workstreams or queues. You can't update the decision ruleset of the template from within the queue or workstream. The ruleset appears as read only in the linked workstream or queue.
+You can update the templates to add or remove rules. If you edit a published template, the template is first converted into the draft state. You need to republish for the changes to be effective. The published updates are automatically pushed to the linked workstreams or queues. You can't update the decision ruleset of the template from within the queue or workstream. The ruleset appears as read only in the linked workstream or queue.
 
 You can delete a template only when it's not linked to any workstream or queue. You need to unlink a template in use and then only can delete it.
 
-You can also revert to the last published configuration after discarding the updates.
+You can also revert to the last published configuration.
 
 ## Apply template ruleset to queues and workstreams
 
@@ -48,20 +48,21 @@ You can assign each template for up to 10 queues or workstreams. Assign the temp
 
 - Assign from template ruleset page:
     1. Select a published template ruleset and on the page that appears, select **Assign template**.
-    1. On the **Assign template** dialog, select workstreams if the template is a work classification type or select queues if the template is assignment or prioritization type.
+    1. On the **Assign template** dialog, select workstreams for a work classification type template or select queues for assignment or prioritization type template.
     1. Select **Assign**. The decision ruleset for the assigned workstreams or queues is created.
     1. The selected workstreams or queues appear on the **Usage** tab of the template page.
-    > [!NOTE]
-    > Queues with custom assignment methods only are listed.
+      > [!NOTE]
+      > - Queues with custom assignment methods only are listed.
+      > - You can assign up to 10 queues or workstreams only. If the template ruleset uses context variables, you can assign five templates only.
 - Assign from workstream or queue page:
     - **Queue**: Do the steps in [Create an assignment method and configure rules](configure-assignment-rules.md#create-an-assignment-method-and-configure-rules) to assign a template or its copy.
     - **Workstream**: Do the steps in [Create classification rulesets](configure-work-classification.md#create-work-classification-rulesets) to assign a template or its copy.
 
 ## Create template context variables
 
-Use template context variables to create context variables that you can use across workstreams. You can use template context variables in routing template ruleset of type work classification only. 
+Use template context variables to create context variables that you can use across workstreams. You can use template context variables in work classification only type of ruleset. 
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Routing** under **Customer support**.
+1. In the site map of Copilot Service admin center, select **Routing** under **Customer support**.
 1. Under **Templates**, select **Manage** for **Template context variable**.
 1. On the **Template context variable** page, select **New template context variable**.
 1. Enter a name and select Text or Number from **Type**.

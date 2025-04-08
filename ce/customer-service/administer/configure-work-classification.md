@@ -28,9 +28,10 @@ Work classification rules can be written by using the logical declarative decisi
 > [!IMPORTANT]
 > You can create 10 rulesets per workstream, and for each ruleset, you can create up to 100 rule items.
 
-## Prerequisite
+## Prerequisites
 
-You need the CSR Manager or Omnichannel administrator role to configure the work classification rules for a workstream.
+CSR Manager or Omnichannel administrator role.
+[Template rulesets](manage-routing-rules-templates.md) are available if you want to create classification rulesets based on templates.
 
 ## How classification rulesets work
 
@@ -50,13 +51,13 @@ Logical classification rules are run to update work item attributes. They're wri
 
 To create a logical work classification ruleset, do the following steps:
 
-1. In the Customer Service admin center app, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
+1. In the site map of Copilot Service admin center app, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset**.
 
 1. On the **Work classification** page, select **Create new**, and in the **Create work classification ruleset** dialog, select **Logical rules** in **Rule type**.
 1. In **Start new or use a template**, select one of the following values:
-    - **New ruleset**: Enter a name and description, and then select **Create**. Go to step 4.
-    - **Template ruleset**: Select a work classification template ruleset and then select **Create**. A ruleset record is created with all rules based on the template. You can't edit the template rules from within the workstream. You can select **Template** listed on the ruleset page to view the template details.
-    - **Copy from template**: Select a template. The system reads the rule definition from the template and copies to the target decision ruleset. You can update the rules to change the existing order or add new rules.
+    - **Template ruleset**: Select a work classification template ruleset and then select **Create**. A ruleset record is created with all rules in the template. You can't edit the template rules from within the workstream. You can select **Template** listed on the ruleset page to view the template details.
+    - **Copy from template**: Select a template. The system copies the rule definition from the current template and to the target decision ruleset. You can update the rules to change the existing order or add new rules.
+    - **New ruleset**: Enter a name and description, and then select **Create**.
 
 1. On the **Decision list** page, select **Create Rule**, and on the **Create work classification rule** dialog, enter a name.
 
@@ -114,7 +115,7 @@ To configure a skill classification ruleset by using the machine learning option
 
 Do the following to configure a machine learning-based ruleset:
 
-1. In Customer Service admin center, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
+1. In Copilot Service admin center, select a workstream, and in the **Routing rules** area, for the **Work classification (optional)** option, select **Create Ruleset** or **See more**.
 
 2. On the **Work classification** page, select **Create new**.
 

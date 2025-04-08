@@ -23,11 +23,15 @@ In unified routing, the process of creating assignment rulesets involves the fol
 
 1. **Create selection criteria**: If you create more than one assignment ruleset, you'll need to define the rules for the selection criteria. The selection criteria determines the ruleset that should be run out of the many that exist. Learn more in [Configure selection criteria](#configure-selection-criteria).
 
+## Prerequisite
+
+[Template rulesets](manage-routing-rules-templates.md) are available if you want to create assignment rulesets based on templates.
+
 ## Create an assignment method and configure rules
 
 Follow the steps to create a custom assignment method:
 
-1. In the site map of Customer Service admin center, select **Queues** in **Customer support**.
+1. In the site map of Copilot Service admin center, select **Queues** in **Customer support**.
 
 1. On the **Queues** page, select **Manage** for **Advanced queues**.
 
@@ -40,9 +44,9 @@ Follow the steps to create a custom assignment method:
 1. Do the following to set up prioritization rulesets:
 
    1. On the **Create Prioritization Ruleset** dialog, select one of the following options:
-      - **New ruleset**: Enter a name and description for the ruleset, and select **Create**.
       - **Template ruleset**: Select a ruleset template in the list. You can't modify the decision rules at the queue level.
-      - **Copy from template**: Select a ruleset template to make a copy. You can modify the decision rules and save as a new ruleset. 
+      - **Copy from template**: Select a ruleset template to make a copy. You can modify the decision rules and save as a new ruleset.
+      - **New ruleset**: Enter a name and description for the ruleset, and select **Create**.
 
    1. On the **Decision list** page, select **Create rule**, and on the **Create prioritization rule** dialog, enter a rule name and define the conditions when the rule should be run. By default, the root record for which you're creating the rule is selected and displayed at the top of the condition builder.
 
@@ -50,8 +54,8 @@ Follow the steps to create a custom assignment method:
 
    1. Create as many rules as needed.
 
-    > [!NOTE]
-    > For routing records, we recommend that you manage the custom prioritization rules through the UI only and not create or update them through scripts.
+      > [!NOTE]
+      > For routing records, we recommend that you manage the custom prioritization rules through the UI only and not create or update them through scripts.
 
 1. To create an assignment ruleset, on the **Assignment method** page, select **Create ruleset**.
 
