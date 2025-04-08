@@ -1,8 +1,8 @@
 ---
 title: Sales qualification agent FAQ
-description: 
+description: Find answers to frequently asked questions about the sales qualification agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 02/19/2025
-ms.topic: overview
+ms.topic: conceptual
 ms.service: dynamics-365-sales
 content_well_notification:
   - AI-contribution
@@ -44,7 +44,8 @@ By focusing on leads that match this profile, you can tailor your approach to ad
 
 ## Why don't I see the insights banner in the lead form?
 
-The insights banner appears only for leads that are researched by the agent. Learn more about the [selection criteria](#selectioncriteria).
+The insights banner appears only for leads that are researched by the agent. Learn more about the [Selection criteria for research](use-sales-qualification-agent.md#selectioncriteria).
+
 
 ## Why did the agent pause?
 
@@ -52,3 +53,21 @@ The agent might pause for the following reasons:
 
 - One or more consents required for the agent are revoked by your admin.
 - There's no capacity available for the agent to process leads. Contact your admin to check the capacity and resolve the issue.
+
+## Can I trigger the agent to process leads manually?
+
+No, the agent processes leads automatically when any of the following events occur:
+
+  - Lead's account is linked/updated
+  - Lead's company name is updated
+  - Lead's contact is linked/updated
+  - New lead is created
+
+In addition, the agent refreshes the research data of the existing leads at the configured timeframe. Learn more about refresh schedule in [Adjust the frequency of research data refresh](configure-sales-qualification-agent.md#adjust-the-frequency-of-research-data-refresh). You can view the timestamp of the last refresh in the **Lead insights** page.
+
+## Why don't I see the **Draft email** option?
+
+The **Draft email** option appears only in the following scenarios:
+
+- Server-side synchronization is enabled for your organization.
+- The lead's email address is available.

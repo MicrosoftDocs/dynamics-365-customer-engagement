@@ -58,7 +58,8 @@ By default, when you open an opportunity, the opportunity summary widget is disp
 
 If the opportunity summary widget isn't displayed in the **Opportunity** form, contact your administrator, and ask them to [turn it on](copilot-configure-summary-fields.md#admin-opportunity-summary-widget).
 
-## Summarize a lead <a name="copilot-summarize-lead"></a>
+## Summarize a lead
+<a name="copilot-summarize-lead"></a>
 
 Open [Copilot in a side pane](use-sales-copilot.md#chat-with-copilot-in-a-side-pane), and then open a lead to have Copilot automatically summarize it for you.
 
@@ -98,7 +99,8 @@ After you select a lead, Copilot suggests other records that might be associated
 
 1. To update the lead record with the suggested values, select **Update all**.
 
-## Summarize an account <a name="copilot-summarize-accounts"></a>
+## Summarize an account
+<a name="copilot-summarize-accounts"></a>
 
 Open [Copilot in a side pane](use-sales-copilot.md#open-copilot-sidepane), and then open an account to have Copilot automatically summarize it for you.
 

@@ -1,6 +1,6 @@
 ---
 title: Qualify leads smartly with sales qualification agent
-description: 
+description: Learn how to use the sales qualification agent in Dynamics 365 Sales to qualify leads effectively and improve sales outcomes.
 ms.date: 02/19/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -23,6 +23,7 @@ As a seller, qualifying leads is crucial to your success. The sales qualificatio
 
 Before you start using the sales qualification agent, ensure that your admin enabled and configured the sales qualification agent.
 
+<a name="selectioncriteria"></a>
 ## Selection criteria for research
 
 The sales qualification agent uses the following criteria to select leads for research and ideal customer profile (ICP) matching:
