@@ -12,9 +12,9 @@ ms.custom: bap-template
 
 # View and understand real-time analytics for record routing in the backlog work items report 
 
-The Backlog work items report is similar to the Ongoing work items report with focus on all work items, created in the last two days. Content can be filtered by created on, queue, agent, work item skill, and time zone.
+The Backlog work items report is similar to the Ongoing work items report with focus on all work items, created in the last two days. You can filter content by created on, queue, agent, work item skill, and time zone.
 
-Besides filtering, the report also provides the follwoing KPIs to track all-up volumes within the selected filter. 
+Besides filtering, the report also provides the following KPIs to track all-up volumes within the selected filter. 
 
 
 |KPIs  |Description |
@@ -22,7 +22,7 @@ Besides filtering, the report also provides the follwoing KPIs to track all-up v
 |Total work items   | Total number of workitems created in the last two days.|
 |Assigned work items  | Number of workitems created in the last two days, which are currently assigned. |
 |Unassigned work items    | Number of workitems created in the last two days, but aren't yet assigned. |
-|Agents online   |   Number of agents online at this point in time.|
+|Agents online   |   Number of agents online at the moment.|
 
 It allows you to easily identify overall case or record volume, and provides easy identification of unassigned work items for triage based on priority.
 
@@ -32,8 +32,8 @@ It allows you to easily identify overall case or record volume, and provides eas
 |KPIs |Description |
 |---------|---------|
 |Subject     |  Case or record title.  |
-|Queue    |  Queue that the work item has been routed to.    |
-|Status    |   Open or active, where open has not yet been assigned to a customer service representative (service representative or representative).      |
+|Queue    |  Queue that the work item is routed to.    |
+|Status    |   Open or active, where open hasn't yet been assigned to a customer service representative (service representative or representative).      |
 |Work item age     |  Time in days since case or record was created.      |
 |Agent name    |  Service representative the work item is assigned to. |
 |Created on    |   Date and time stamp of when the work item was created.      |
