@@ -21,7 +21,7 @@ To add a chat widget, configure a workstream that defines how chat conversations
 
 ## Configure a chat widget
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Chat**. The **Chat channels** page appears.
     
@@ -79,7 +79,7 @@ You can configure visual and sound alerts that customers can receive when they'r
 
 Do the following steps to enable the customer notifications:
 
-1. In Customer Service admin center or Contact Center admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Copilot Service admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
