@@ -9,7 +9,7 @@ ms.author: lmasieri
 
 # Create and edit Field Service columns
 
-You can add columns to the various tables that you use in Dynamics 365 Field Service. (Tables were formerly known as entities.) Examples of these tables include work orders, bookable resource bookings, and customer assets. 
+You can add columns to the various tables that you use in Dynamics 365 Field Service. (Tables were formerly known as entities.) Examples of these tables include work orders, bookable resource bookings, and customer assets. For table references including writable columns, go to [Dynamics 365 Field Service table/entity reference](./developer/reference/about-entity-reference.md).
 
 Mobile views can show up to three columns.
 

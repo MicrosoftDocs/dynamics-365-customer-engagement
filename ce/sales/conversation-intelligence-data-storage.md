@@ -4,7 +4,7 @@ description: Learn about the data structure, storage, access, and deletion of co
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
-ms.topic: conceptual 
+ms.topic: concept-article 
 ms.collection: 
 ms.date: 01/27/2025
 ms.custom: 
