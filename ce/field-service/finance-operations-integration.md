@@ -1,7 +1,7 @@
 ---
 title: Field Service integration with finance and operations applications
 description: Synchronize inventories and budgeting items between Dynamics 365 Field Service and finance and operations applications.
-ms.date: 04/16/2024
+ms.date: 04/08/2025
 ms.topic: overview
 ms.author: jacoh
 author: jasonccohen
@@ -271,10 +271,10 @@ The following processes or features available in the finance and operation apps 
 
 - The integration currently supports limited alignment of data updates from project journals back to its respective work order transaction. When a Field Service user creates or updates a work order product or service, those updates sync with the respective journal. However, expense journal lines, hours journal lines, or item journal lines only sync the defaulted line property and a reference to the active journal line for the record. Other changes to the respective Field Service transaction record aren't synced from their respective line journals.
 
-- Work Order Products and Work Order Service records have a Discount % and Estimated Discount percent field. At this time, the integration does not synchronize these discount concepts. The respective journals which they would generate do not have such a concept and, as such, there is nowhere for this data to align. As a result, we have hidden this field on the OOTB forms when the integration is enabled.
+- Work order products and work order service records have a **Discount %** and **Estimated Discount** percent field. At this time, the integration doesn't synchronize these discount concepts. The respective journals which they generate don't have such a concept and. The system hides this field on the default forms when the integration is enabled.
 
 > [!NOTE]
-> When using entitlements, be sure to apply a specialized price list instead of a discount.
+> When using entitlements, apply a specialized price list instead of a discount.
 
 ## Next steps
 
