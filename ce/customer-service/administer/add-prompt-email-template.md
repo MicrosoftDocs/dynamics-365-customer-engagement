@@ -42,8 +42,8 @@ You can also select the prompt in the editor to modify the prompt.
 You have an email template that contains the following text:
 
 > Dear {customer name},
-> Thank you for writing to Contoso Coffee customer support. 
-> `<add current warranty and pitch extended warranty>`
+> Thank you for writing to Contoso Coffee customer support. <br>
+> `<add current warranty and pitch extended warranty>` <br>
 > If you have any questions, please feel free to reach out to us.
 
 When the service representative inserts this template, they have to manually add the personal statement of empathy and level of urgency. This takes time and can lead to inconsistencies in the tone of the email.
