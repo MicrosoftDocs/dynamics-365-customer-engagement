@@ -1,7 +1,7 @@
 ---
 title: Use Copilot analytics report
 description: Learn how to view and understand Copilot metrics in Microsoft Dynamics 365 Customer Service.
-ms.date: 02/06/2025
+ms.date: 04/08/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
