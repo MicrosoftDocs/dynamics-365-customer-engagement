@@ -1,7 +1,7 @@
 ---
 title: Configure a chat widget
 description: Learn how to configure a chat widget in Dynamics 365 Contact Center.
-ms.date: 02/05/2025
+ms.date: 04/08/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -15,7 +15,7 @@ ms.topic: article
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-You can configure a live chat widget that can be displayed on your portal for customers to interact with AI agents and customer service representatives (service representatives or representatives).
+You can configure a live chat widget that can be displayed on your portal for customers to interact with AI agents and service representatives.
 
 To add a chat widget, configure a workstream that defines how chat conversations are routed to queues. Learn more in [Create a workstream](create-workstreams.md).
 
@@ -34,7 +34,7 @@ To add a chat widget, configure a workstream that defines how chat conversations
    - **Subtitle:** Other title, such as "We're online".
    - **Theme color:** Choose a color from the list.
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
-   - **Agent display name:** Select a value from the list.
+   - **Representative display name:** Select a value from the list.
    > [!NOTE]
    > You can customize the chat widget appearance using data tags. Learn more in [Customize live chat widgets using data tags](../develop/customize-chat-widget.md).
 
