@@ -37,7 +37,7 @@ Copilot in Dynamics 365 Sales can only get information from records and files th
 
 Copilot in Dynamics 365 Sales supports natural language chat. You can ask Copilot questions related to your sales records or sales-specific terms. You can also use predefined prompts to get the information you need. Copilot provides suggestions for prompts based on the context of the record you're viewing. The Prompt guide lists all the predefined prompts that Copilot supports.
   
-Learn more at [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md). 
+Learn more in [Ask questions of Copilot in Dynamics 365 Sales](use-sales-copilot.md). 
 
 ## Copilot in Dynamics 365 Sales capabilities
 
