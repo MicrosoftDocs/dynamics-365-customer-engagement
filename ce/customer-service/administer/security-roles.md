@@ -1,6 +1,6 @@
 ---
-title: Security roles for agent experience profiles
-description: Overview of the security roles for agent experience profiles.
+title: Roles and privileges associated with experience profiles
+description: Overview of the security roles for experience profiles.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim

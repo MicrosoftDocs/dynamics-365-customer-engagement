@@ -3,9 +3,8 @@ title: "Sign up for a free trial - Dynamics 365 Field Service | Microsoft Docs"
 description: "Learn how to quickly sign up for and start a free Dynamics 365 Field Service trial. Explore the app with tours and videos, and find other learning resources."
 author: jshotts
 ms.author: jasonshotts
-ms.date: 06/28/2024
+ms.date: 03/14/2025
 ms.topic: get-started
-
 ms.custom: template-trial-setup
 ---
 
@@ -35,6 +34,8 @@ The trial comes with guided tours and videos that highlight key product features
 - Watch tutorials on how to: easily set up your frontline workers and customer accounts, create and schedule work orders, and analyze your field service operations. You can see how Field Service works with your own business data.
 
 ### Configuration considerations to get the most out of the trial
+
+- To spin up sample data for your environment, consider using the power of Microsoft 365 Copilot. For detailed instructions, see [Use Copilot to create sample data for Field Service](/dynamics365/guidance/resources/fs-copilot-import-sample-data).
 
 - The trial includes sample IoT device data to see how Connected Field Service can help you deliver proactive service using smart device alerts. However, to fully experience Connected Field Service for your business, configure [Azure IoT Hub](installation-setup-iothub.md).
 

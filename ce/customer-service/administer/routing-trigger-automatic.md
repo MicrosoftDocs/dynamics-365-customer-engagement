@@ -1,7 +1,7 @@
 ---
 title: Route records automatically using custom flow
 description: Learn how to route records automatically by setting up custom flow in Dynamics 365 Customer Service and Omnichannel for Customer Service.
-ms.date: 09/27/2024
+ms.date: 03/26/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -17,11 +17,6 @@ ms.custom: bap-template
 ## Set up custom flow to automatically route records
 
 As an administrator, you can route records automatically using Power Automate. Set up a custom flow to automatically route records based on certain conditions, such as when a record is created or updated. Let's see how to set up a custom flow for the create condition.
-
-> [!NOTE]
-> By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing for these cases is not triggered. <br>
-> For case records, an out-of-the-box trigger is shipped to route the cases automatically. The routing is based on the **Route Case** field value in the case record.
-> When a case record is created, it is either routed or not routed based on the **Route Case** field value of **Yes** or **No**.
 
 To enable automatic routing of records:
 
@@ -65,6 +60,10 @@ Now, based on the flow that is defined, whenever a record, in this example, an e
 
 You can also perform other actions in the flow, such as filtering out certain records that you don't want to route and performing data transformation.
 
+While you can set up a custom flow, the following points are applicable for the out-of-the-box methods:
+
+- When a case record is created, it is either routed or not routed based on the value of the **Route Case** field. By default, for all of the cases created from the user interface, the **Route Case** field is set to **No**. So, routing isn't triggered for these cases. 
+- If cases are created programmatically, the **RouteCase** field is set to **Yes** by default, and therefore, routing is triggered automatically On Create.
 
 ### Related information
 

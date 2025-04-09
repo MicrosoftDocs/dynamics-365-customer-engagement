@@ -1,6 +1,26 @@
 {
   "redirections": [
     {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-basic-operations-sample-client-side-javascript.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/basic-operations-client-side-javascript",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-conditional-operations-sample-client-side-javascript.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/conditional-operations-client-side-javascript",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-functions-actions-sample-client-side-javascript.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/functions-actions-client-side-javascript",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "ce/customerengagement/on-premises/developer/webapi/web-api-query-data-sample-client-side-javascript.md",
+      "redirect_url": "/power-apps/developer/data-platform/webapi/samples/query-data-client-side-javascript",
+      "redirect_document_id": "false"
+    },
+    {
       "source_path": "ce/customerengagement/on-premises/developer/about-entity-reference.md",
       "redirect_url": "/power-apps/developer/data-platform/reference/about-entity-reference",
       "redirect_document_id": "false"
@@ -2454,6 +2474,16 @@
       "redirect_url": "/dynamics365/customer-service/administer/configure-customer-service-analytics-insights-csh",
       "redirect_document_id": false
     },
+    {
+      "source_path": "ce/customer-service/administer/oc-nuance-overview.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/administer/oc-nuance-setup.md",
+      "redirect_url": "/dynamics365/customer-service/administer/voice-channel-contextual-transfer-external-ivr",
+      "redirect_document_id": false
+    },    
     {
       "source_path": "ce/customer-service/compliance-certifications.md",
       "redirect_url": "/dynamics365/customer-service/implement/compliance-certifications",
@@ -35670,6 +35700,11 @@
     {
       "source_path": "ce/customer-service/use/copilot-chat-customer-service-data.md",
       "redirect_url": "/dynamics365/contact-center/use/copilot-chat-customer-service-data",
+      "redirect_document_id": false
+    },
+    {
+      "source_path": "ce/customer-service/use/sms-channel-overview.md",
+      "redirect_url": "/dynamics365/customer-service/administer/sms-channel-overview",
       "redirect_document_id": false
     }   
 
