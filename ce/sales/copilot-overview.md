@@ -90,7 +90,7 @@ Learn more:
 
 ### Meeting preparation
 
-Copilot helps you prepare for your upcoming meetings effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the meeting. Learn more at [Prepare for upcoming sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments).
+Copilot helps you prepare for your upcoming meetings effortlessly, summarizing relevant information from the opportunity or lead records that are associated with the meeting. Learn more in [Prepare for upcoming sales appointments](copilot-stay-ahead.md#prepare-for-upcoming-sales-appointments).
 
 ### Email assistance
 
