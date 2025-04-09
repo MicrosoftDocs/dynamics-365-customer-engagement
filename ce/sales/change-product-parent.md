@@ -20,13 +20,6 @@ searchScope:
 
 Create a product hierarchy by associating product families and products in a parent-child relationship in Dynamics 365 Sales.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Change or remove the parent of a product
 
 When you change the parent of a product, inherited properties from the previous parent are removed from the record and its child records. For example, think of a TV that was previously classified as "Plasma." The organization decides to organize TVs as Smart and Non-Smart TVs. They decide to move it from the "Plasma" family to the "Smart TV" family. A new set of properties relating to Smart TV are added and Plasma properties are removed from the parent. 

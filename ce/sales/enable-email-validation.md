@@ -17,13 +17,6 @@ ms.custom:
 
 Enable email validation in Dynamics 365 Sales to remove invalid email addresses from your lead and contact records. You reduce email bounce rates, improve engagement, and get a better return on your sellers' time. 
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Prerequisite
 
 Before you enable the email validation feature, ensure that the **AI Builder preview models** option is enabled in your organization. More information: [How do I enable a Preview feature?](/power-platform/admin/what-are-preview-features-how-do-i-enable-them#how-do-i-enable-a-preview-feature)

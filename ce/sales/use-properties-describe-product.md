@@ -13,13 +13,6 @@ ms.custom:
 
 Simplify product management and classification by adding product properties in Dynamics 365 Sales.
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Sales Manager, Sales Professional Manager, or Vice President of Sales <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## What are product properties?
 
 A property of a product could be its size, color, component, and so on. You can add properties to a family, bundle, or product when they're in **Draft** or **Under Revision** states. The child products, bundles, and families inherit the properties from their parent.  

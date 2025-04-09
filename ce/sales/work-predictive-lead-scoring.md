@@ -6,21 +6,13 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: bap-template
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: dynamics-365-sales
 ---
 
 # Prioritize leads through scores  
 
 Use the predictive lead scoring feature to prioritize your leads based on scores and achieve higher lead qualification rates.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 
 ## What is predictive lead scoring
 

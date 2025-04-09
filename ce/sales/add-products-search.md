@@ -2,7 +2,7 @@
 title: How the search works on Add Products dialog
 description: Learn how the search works on the Add Products dialog while adding products to an opportunity, quote, order, or invoice.
 ms.date: 09/05/2024
-ms.topic: conceptual
+ms.topic: concept-article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr

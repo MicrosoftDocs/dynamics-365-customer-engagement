@@ -14,13 +14,6 @@ ms.reviewer: lavanyakr
 Develop your opportunity by adding products, bundles or families that you want to sell,upsell, and cross-sell.
 
 
-## License and role requirements
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Find and add products to an opportunity 
 
 You can add a product that already exists in the [!INCLUDE[pn-dyn-365-sales](../includes/pn-dyn-365-sales.md)] product catalog or add a Write-in product. Any products added to an opportunity are automatically associated with quotes generated from the opportunity.
@@ -78,7 +71,7 @@ You can take the following actions on the products added to the **Products** gri
 |Edit the properties of a product.  |Double-click the product to update details such as the price, quantity, or discount of the added products. <br/> |
 |Delete a product associated with the opportunity. |Select the product, and on the command bar, select **Delete Opportunity Line**. |
 |View products within a bundle. | Select the **Chevron** icon ![Chevron icon.](media/chevron-icon.png "Chevron icon") for the product bundle. You'll see all the products that are included in the bundle. |
-|See and add related products for cross-selling or upselling, or select an accessory or substitute product. | Select a product, and select **Suggestions** in the products grid. The **Suggestions** pane shows all the products that are defined as related products for the current product. Select the related products that you want to add, and then select **OK**. |
+|See and add related products for cross-selling or upselling, or select an accessory or substitute product. | Select a product, and select **Suggestions** in the products grid. The **Suggestions** pane shows all the products that are [defined as related products](define-related-products-increase-chances-sales.md) for the current product. Select the related products that you want to add, and then select **OK**. |
 |Group specific records together by moving a record up or down in the grid. | Select the record, select the more commands icon, and then select **Move Up** or **Move Down**. |
 
 > [!IMPORTANT]

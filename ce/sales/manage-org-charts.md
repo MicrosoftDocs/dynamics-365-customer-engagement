@@ -23,13 +23,6 @@ As a seller or sales manager, you can perform the following tasks to manage org 
 - [Add a label to a contact](#add-a-label-to-a-contact)
 - [Remove a contact](#remove-a-contact)
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional<br/>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as Salesperson or Sales Manager<br/>More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Create or edit an org chart
 
 An account can have only one org chart. You can create the org chart for an account if one doesn't exist. You can edit an org chart to add or remove positions, redefine roles and responsibilities, and adjust reporting lines. Org charts are available for all users in your organization.

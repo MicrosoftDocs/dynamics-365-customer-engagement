@@ -1,7 +1,7 @@
 ---
 title: Turn on preview features for Copilot in Dynamics 365 Sales
 description: Learn how to turn on all preview features in Sales to access preview features before their official release.
-ms.date: 12/13/2024
+ms.date: 02/05/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 ms.custom:
@@ -35,7 +35,6 @@ The following table lists the Copilot preview features that are available in Dyn
 | Preview feature | Description |
 |-----------------------|---------|
 | Full-screen, immersive view | [Open Copilot in full-screen view (preview)](use-sales-copilot.md#open-copilot-immersive) when you want more space and focus to chat with Copilot and ask questions. |
-| Account summarization | [Summarize an account in your organization](copilot-get-information.md#summarize-an-account) |
 
 ## Turn on all Copilot preview features
 

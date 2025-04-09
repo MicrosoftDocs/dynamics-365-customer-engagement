@@ -20,13 +20,6 @@ Work assignment is a feature of Dynamics 365 Sales that removes the burden of ma
 
 [!INCLUDE [sales-work-assignment](../includes/sales-work-assignment.md)]
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/), or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## Configure work assignment for your sales team
 
 Configuring work assignment is simple:

@@ -16,15 +16,6 @@ You can view upcoming and overdue activities related to a record or contact in t
 > The mobile app supports only task and phone call activities. To view all associated activity types, use the Sales Hub app.
 
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Professional, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or Microsoft Relationship Sales <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security Role** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](../security-roles-for-sales.md#primary-sales-roles)|
-|  |  |
-
-
 ## View activities
 
 You can view upcoming and overdue task and phone call activities created for a record or contact. The list of activities is displayed on the **To Do** tab and is sorted based on the due date of the activities.

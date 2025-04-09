@@ -1,7 +1,7 @@
 ---
 title: Overview of case management
 description: This topic provides information on how to manage cases in Dynamics 365 Customer Service apps.
-ms.date: 12/21/2023
+ms.date: 01/31/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -50,3 +50,4 @@ As your organization tracks metrics on the types of cases that come in, you can 
 [Set up record routing](set-up-record-routing.md)  
 [Create cases](../use/customer-service-hub-user-guide-create-a-case.md)  
 [Automatically create or update records](automatically-create-update-records.md)  
+[Use Copilot to resolve cases faster](../use/copilot-use-summary.md#summarize-cases)  

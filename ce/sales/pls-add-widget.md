@@ -18,13 +18,6 @@ By default, the predictive lead scoring widget is available only in the out-of-t
 > - You can add a lead scoring widget to a form only in Unified Interface apps.
 > - You can't use the legacy form designer to add a lead scoring widget to a form.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Add the lead scoring widget to a custom form
 
 1. Sign in to the [Power Apps portal](https://make.powerapps.com/).

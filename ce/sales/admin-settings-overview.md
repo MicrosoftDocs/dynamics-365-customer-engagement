@@ -12,13 +12,6 @@ ms.reviewer: lavanyakr
 
 Admin settings provide an organized and unified experience for administrators to easily configure the Dynamics 365 Sales app from a single place.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator](security-roles-for-sales.md)|
-
 ## Access admin settings
 
 Select the tab for the Dynamics 365 Sales license you have:

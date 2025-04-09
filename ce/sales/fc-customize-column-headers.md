@@ -13,13 +13,6 @@ ms.custom: bap-template
 
 You can customize column headers in the forecast grid using Power Apps code components. For example, you can translate the column name or add a tooltip for additional context.  
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System administrator or customizer <br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## How to customize the header
 
 Let's understand the customizations with an example. We'll add the French translation for the column names **Forecast** and **Won** in the forecast grid.  

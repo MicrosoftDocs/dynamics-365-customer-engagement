@@ -17,24 +17,17 @@ ms.custom:
 
 View assigned records to reassign them to different sellers or teams. Also, you get detailed information of the record such as topic, owner, created on date, and error details depending on the record type. The supported default record types are leads, opportunities, contacts, and accounts.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator, Sequence Manager, or Sales Manager](security-roles-for-sales.md) |
-
 ## View assigned records
 
-1. Go to **Sales Insights settings** and under **Sales accelerator**, select **Work assignment**.  
+1. Go to **Sales Insights settings**, under **Sales accelerator**, select **Work assignment**.  
 1. Select a **Record type** to view segments for that type.  
 1. Select **Monitor *record type***.
 
     :::image type="content" source="media/wa-home-page-unassigned-records-column.png" alt-text="Screenshot of select the monitor leads option.":::
 
     The monitor record page has the following tabs:  
-    - **To be processed**: Lists the records that are to be processed. Any records listed here are automatically assigned to sellers, teams, or queues by the application, and might take up to two minutes.  
-    - **Processed**: Lists the records that are processed by the work assignment feature. Information of each record is displayed such as, record's name, status, along with name of the connected segment, assignment rule, and sequence (as applicable).  
+    - **To be processed**: Lists the records that are scheduled for process. Any records listed here are automatically assigned to sellers, teams, or queues by the application, and might take up to two minutes.  
+    - **Processed**: Lists the records that are processed. Information of each record is displayed such as, record's name, status, along with name of the connected segment, assignment rule, and sequence (as applicable).  
         When a record isn't connected to a segment, assignment rule, or sequence, the **Status** column displays **Needs attention**. An information icon is displayed corresponding to the column. Hover over the icon to view the error details. To know more about the error details and resolve the issue, see [View record status details](#view-record-status-details).
 
     > [!NOTE]
@@ -56,7 +49,7 @@ When a record's status displays **Needs attention**, it indicates that the recor
 
     :::image type="content" source="media/sa-ar-view-record-status-details.png" alt-text="Screenshot of the lead record status details pane."::: 
 
-    - The **Error details** section provides information about the error that might have prevented the record from being segmented, assigned, or connected to a sequence.  
+    - The **Error details** section provides information about the error that might prevent the record from being segmented, assigned, or connected to a sequence.  
     - The **Status reason** section shows the reason why record didn't get segmented, left unassigned, or failed connecting to a sequence.
 
     Depending on the error details and status reason, you can take necessary actions to resolve the issue. For more information about the status reasons and resolution, see [Analyze error details and resolve issues](#analyze-error-details-and-resolve-issues).
@@ -69,19 +62,19 @@ When a record's status displays **Needs attention**, it indicates that the recor
 
 | Status reason | Description | Resolution |
 |---------------|-------------|------------|
-| There was an issue with the server | A problem with the server that your tenant is hosted on caused the assignment rules not to run. | The **Error details** section provides detailed information on why the issue has occurred, take appropriate action to resolve the issue.<br> For example, the error code: `Read Privilege Check For Owner failed with exception: Principal user (Id=*********-****-ef11-****-6045bd05f95c, type=8, roleCount=1, privilegeCount=40, accessMode='0 Read-Write', AADObjectId='********-****-4681-****-3248305c05df', MetadataCachePrivilegesCount=10681, businessUnitId=xxxxxxxxx-069b-xxxx-xxxx-000d3a3bd6b9), is missing prvReadmsdyn_sequencetarget privilege (Id=xxxxxxxxxxx-bde8-xxxx-xxxx-316bb7899302) on OTC=10848 for entity 'msdyn_sequencetarget' (LocalizedName='Sequence Target'). context.Caller=***********-****-ef11-****-000d3a3bd6b9. Consider adding missed privilege to one of the principal (user/team) roles.` specifies that user is missing the required privilege to run the assignment rules. Add the required privilege to the user or team to resolve the issue. |
+| There was an issue with the server | A problem with the server that your tenant is hosted on caused the assignment rules not to run. | The **Error details** section provides detailed information on why the issue occurred, take appropriate action to resolve the issue.<br> For example, the error code: `Read Privilege Check For Owner failed with exception: Principal user (Id=*********-****-ef11-****-6045bd05f95c, type=8, roleCount=1, privilegeCount=40, accessMode='0 Read-Write', AADObjectId='********-****-4681-****-3248305c05df', MetadataCachePrivilegesCount=10681, businessUnitId=xxxxxxxxx-069b-xxxx-xxxx-000d3a3bd6b9), is missing prvReadmsdyn_sequencetarget privilege (Id=xxxxxxxxxxx-bde8-xxxx-xxxx-316bb7899302) on OTC=10848 for entity 'msdyn_sequencetarget' (LocalizedName='Sequence Target'). context.Caller=***********-****-ef11-****-000d3a3bd6b9. Consider adding missed privilege to one of the principal (user/team) roles.` specifies that user is missing the required privilege to run the assignment rules. Add the required privilege to the user or team to resolve the issue. |
 | Record doesn't meet any conditions | The record doesn't meet the assignment criteria. | Assign the record manually, create a rule that will assign it, or update the existing assignment rule for future records like it to be assigned automatically. Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records). If the conditions aren't met, update the conditions in the assignment rule and [run the assignment rules](#run-assignment-rules) again. |
 | No sellers meet the conditions | No sellers met the assignment criteria when the assignment rules ran. | Make sure your assignment rules include all eligible sellers, or create one that does. Turn on the **Assign record** toggle under the **Enable for assignment** tab in the **Work assignment settings**. More information: [Stop assigning work to sellers](wa-work-assignment-manage-settings.md#stop-assigning-work-to-sellers). After resolving the issue, [run the assignment rules](#run-assignment-rules) again. |
 | Eligible sellers don't have availability | No eligible sellers were automatically available when the assignment rules ran. | [Configure the seller availability](wa-manage-seller-availability.md) in the work assignment settings and [run the assignment rules](#run-assignment-rules) again if more sellers are available now. |
 | Eligible sellers don't have capacity | No eligible sellers could automatically take on more work when the assignment rules ran. | Verify and [update the seller's capacity](wa-manage-seller-attributes.md) in the work assignment settings and [run the assignment rules](#run-assignment-rules) again if more sellers can accept work now. |
-| Record unassigned as seller doesn't have the necessary permissions | No sellers who are able to be assigned automatically didn't have required permissions. | Verify that the sellers have at least read access to the record type. Update the permissions of the sellers and [run the assignment rules](#run-assignment-rules) again. |
-| Seller not assigned as record is older than the set timeframe | The seller to whom the assignment rule tried to assign the record was created before the time frame specified in the rule. | Update the record creation time frame under the **Eligible *record type* for this rule** section in the [assignment rule](wa-create-and-activate-assignment-rule.md#create-an-assignment-rule) and run the [run the assignment rules](#run-assignment-rules) again. |
+| Record unassigned as seller doesn't have the necessary permissions | No sellers eligible for assignment have necessary permissions. | Verify that the sellers have at least read access to the record type. Update the permissions of the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| Seller not assigned as record is older than the set timeframe | The seller was created before the time frame specified in the rule. | Update the record creation time frame under the **Eligible *record type* for this rule** section in the [assignment rule](wa-create-and-activate-assignment-rule.md#create-an-assignment-rule) and run the [run the assignment rules](#run-assignment-rules) again. |
 | Multiple eligible teams found | Multiple eligible teams were identified to assign the record for the configured assignment rule. | Update the conditions for identifying eligible teams to ensure only one team qualifies or update the distribution algorithm to assign to any one team at random. |
 | Couldn't find eligible team | No eligible team was found to assign the record for the configured assignment rule. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records) for teams. Update the conditions in the assignment rule accordingly and [run the assignment rules](#run-assignment-rules) again. |
 | Multiple eligible queues found | Multiple eligible queues were identified to assign the record for the configured assignment rule. | Update the conditions for identifying eligible queues to ensure only one queue qualifies or update the distribution algorithm to assign to any one queue at random. |
 | Couldn't find eligible queue | No eligible queue was found to assign the record for the configured assignment rule. | Verify that the conditions are properly [defined in the assignment rule](wa-create-and-activate-assignment-rule.md#add-conditions-to-filter-the-records) for queues. Update the conditions in the assignment rule accordingly and [run the assignment rules](#run-assignment-rules) again. |
-| Rules won't run for this segment | The record was previously part of a segment but was moved to a different segment where the option to run assignment rules when a record is moved is disabled. | Enable the option to run assignment rules when a record is moved under the **Previously segmented leads** section in the [**Segment properties** pane](wa-edit-a-segment.md#edit-a-segment). [Run the assignment rules](#run-assignment-rules) again. |
-| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| Rules don't run for this segment | The record was moved to a different segment where assignment rules don't run when records are moved. | Enable the option to run assignment rules when a record is moved under the **Previously segmented leads** section in the [**Segment properties** pane](wa-edit-a-segment.md#edit-a-segment). [Run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Segment errors
 
@@ -90,7 +83,7 @@ When a record's status displays **Needs attention**, it indicates that the recor
 | Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and [run the assignment rules](#run-assignment-rules) again. |
 | No matching segments | The record doesn't match any active segments. | Verify that the record meets the conditions defined in the segment and the segment is active. If the record doesn't meet the conditions, [update the conditions in the segment](wa-create-and-activate-a-segment.md#create-and-activate-a-segment) and [run the assignment rules](#run-assignment-rules) again. |
 | Matched with previous segment | The record matched with the previous segment. | When a record moves to a different segment, the application tries to process it back into its previously assigned segment. This happens when the [**Previously-segmented *record* type**](wa-edit-a-segment.md#edit-a-segment) option is enabled for the segment trying to process the reassigned record. To avoid processing conflicts, ensure that the conditions defined in the new segment don't match with those of the previous segment. |
-| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ### Sequence errors
 
@@ -99,7 +92,7 @@ When a record's status displays **Needs attention**, it indicates that the recor
 | Something went wrong | An error occurred while processing the record. | Go to the **Error details** section to view detailed information on why the error occurred. Take necessary actions to resolve the issue and [run the assignment rules](#run-assignment-rules) again. |
 | Seller doesn't have necessary permissions | A seller met the sequence criteria but isn't able to be assigned automatically. | Go to the **Error details** section to view detailed information on why the error occurred. Provide at least read access to the record type to the seller and [run the assignment rules](#run-assignment-rules) again. |
 | Sequence is either deleted or inactive | The record that is trying to connect to sequence is either deleted or inactive for this segment. | Ensure that there's a connected active sequence for this segment. If the sequence is deleted or inactive, [create a new sequence](create-and-activate-a-sequence.md#create-a-sequence) and connect it to the segment. [Run the assignment rules](#run-assignment-rules) again. |
-| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue has occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
+| D365WorkAssignment app user doesn't have necessary permissions | An internal user doesn't have the necessary permissions to execute the operation. | The **Error details** section provides detailed information on why the issue occurred. Provide at least read access to the **Sales Work Assignment API Extended Access** security role to the sellers and [run the assignment rules](#run-assignment-rules) again. |
 
 ## Run assignment rules
 
@@ -117,7 +110,7 @@ After you address the [errors for unassigned records](#analyze-error-details-and
 
 ### View reassignment run history
 
-The assignment run history is a record of each time a segment's assignment rules were run and what the results were. You can see the date and time a run started, how long it took, the number of records that were assigned, the run's status, and whether it was triggered manually or ran on schedule.
+The assignment run history is a record of each time a segment's assignment rules were run and what the results were. The run history provides the date and time a run started, how long it took, the number of records that are assigned, the run's status, and whether the run was triggered manually or ran on schedule.
 
 In the **Run assignment rules for *segment name*** pane, select **Show history**.
 

@@ -40,8 +40,8 @@ The unified routing report displays the following metrics.
 |---------|---------|---------|
 |Records routed     | Number of records that were routed. | Only records routed using unified routing are considered. |
 |Routing attempts     | Number of routing attempts across records that were routed.        | Records that were attempted for routing using the "Save and Route" action will be considered as an attempt.        |
-|First route success     | Number of records that were successfully routed in the first attempt.       | Success for a push workstream is when the record is assigned to an agent. Success for a pick workstream is when the record is routed to a queue.  |
-|Records transfer rate|The percentage of records that were transferred to another agent or queue.||
+|First route success     | Number of records that were successfully routed in the first attempt.       | Success for a push workstream is when the record is assigned to a customer service representative (service representative or representative). Success for a pick workstream is when the record is routed to a queue.  |
+|Records transfer rate|The percentage of records that were transferred to another representative or queue.||
 |Records routed    | Day wise view of records that have been routed.        |         |
 |Transfer rate trend     | Percentage of sessions transferred out of the total sessions for the records routed.        |         |
 |Top 5 skills needed     |  Top five skills required by the routed records.        |         |

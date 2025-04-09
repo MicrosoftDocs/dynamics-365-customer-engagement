@@ -1,7 +1,7 @@
 ---
-title: "getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) | MicrosoftDocs"
-description: "Includes reference information about getTranslationProvider property in Omnichannel JavaScript API reference."
-ms.date: 04/04/2022
+title: getTranslationProvider (Omnichannel for Customer Service JavaScript property reference) 
+description: Includes reference information about getTranslationProvider property in Omnichannel JavaScript API reference.
+ms.date: 03/18/2025
 ms.topic: reference
 author: gandhamm
 ms.author: mgandham

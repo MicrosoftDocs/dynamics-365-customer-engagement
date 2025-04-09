@@ -25,13 +25,6 @@ ms.custom:
 
 After you've finalized an order or invoice for a specific price, you can lock the price to prevent it from being updated when the price list is updated. Conversely, you can enable current pricing to update the price on the order or invoice when the price list is updated. Your administrator can set the [default behavior for price locking](faq-product-price-list.md#how-do-i-change-the-default-value-for-prices-locked) in the system settings.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
 ## Lock prices or use current pricing
 
 1. In the site map, select **Orders** or **Invoices**.
