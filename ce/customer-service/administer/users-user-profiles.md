@@ -31,7 +31,6 @@ On the user management page, the following three views are available:
 - **All users**: Lists all the Customer Service users.
 - **Swarm experts**: Lists users who are assigned to be swarm experts.
 
-The enhanced user management experience is available in Copilot Service admin center only.
 
 ## Manage contact center users
 
