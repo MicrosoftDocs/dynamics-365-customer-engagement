@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection: 
-ms.date: 04/08/2025
+ms.date: 04/09/2025
 ms.custom: bap-template
 ---
 
@@ -25,12 +25,12 @@ A set of KPIs help provide quick insight into the filter scope.
 |---------|---------|
 |Ongoing work items     |   Number of record type workitems modified in the last 24 hours, and are ongoing currently, and includes Open and Active ones.      |
 |Unassigned work items    |  Number of record type workitems modified in the last 24 hours and are unassigned currently.       |
-|Agents online    |   Number of agents who are online. That is, whose presence status isn't offline, currently.     |
-|Agents with active workitems   |Number of agents, irrespective of presence status, who have active workitems assigned. |
+|Agents online    |   Number of customer service representative (service representative or representative) who are online.    |
+|Agents with active workitems   |Number of representatives, irrespective of presence status, who have active workitems assigned. |
 
 ## Lists and charts
 
-**Agent availability status:** The donut chart lists all agents in the org who are assigned to any record-type queue. It lists all the availability statuses, including custom statuses. When you select a status, the filter is automatically applied to the entire component. For example, if you select the **Busy** component in the **Agent availability status** chart, the system refreshes the dashboard, and then shows capacity that's busy. 
+**Agent availability status:** The donut chart lists all agents in the organization who are assigned to any record-type queue. It lists all the availability statuses, including custom statuses. When you select a status, the filter is automatically applied to the entire component. For example, if you select the **Busy** component in the **Agent availability status** chart, the system refreshes the dashboard, and then shows capacity that's busy. 
 
 **Agent availability by capacity profiles:** The table lists all capacity profiles and signed-in agents who are linked to the capacity profiles and capacity in use, which allows you to identify assignment bottlenecks that are caused by lack of capacity. If capacity is occupied in profiles with the blocking assignment toggle turned on, the entry is displayed in red. Select **show more** to view detailed agent availability status, which can be another cause for unassigned work items besides capacity.
 
@@ -40,23 +40,23 @@ A set of KPIs help provide quick insight into the filter scope.
 
 |KPIs  |Description |
 |---------|---------|
-|Agent name    |  Name of the customer service representative (service representative or representative)       |
-|Status    |  Current presence status of the agent.       |
-|Status since    | Time from when the agent is in the current status.        |
-|Domain name    |    Domain name of the agent.     |
+|Agent name    |  Name of the representative. |
+|Status    |  Current presence status of the representative.       |
+|Status since    | Time from when the representative is in the current status.        |
+|Domain name    |    Domain name of the representative.     |
 
 **Agents with sessions** provide the following information: 
 
 |KPIs | Description  |
 |---------|---------|
-|Agent name   |   Name of the service representative.   |
+|Agent name   |   Name of the representative.   |
 |Status    |      Current presence status of the representative.   |
 |Status since    |    Time stamp when the representative entered their current status.      |
-|Active  sessions |  Number of active sessions the representative is in, which are modified in last 24 hours. |
-|Closed  sessions  |   Number of closed sessions the representative is in, which are modified in last 24 hours. |
-|Manually assigned sessions| Number of sessions manually assigned to the agent, which are modified in the last 24 hours. These can be both active and closed sessions.|
+|Active  sessions |  Number of active sessions the representative is in, and modified in the last 24 hours. |
+|Closed  sessions  |   Number of closed sessions the representative is in, and modified in the last 24 hours. |
+|Manually assigned sessions| Number of sessions manually assigned to the representative, which are modified in the last 24 hours. These can be both active and closed sessions.|
 |Autoassigned sessions| Number of sessions autoassigned to the representative, which are modified in the last 24 hours. These can be both active and closed sessions.|
-|Domain name| Domain name of the agent.|
+|Domain name| Domain name of the representative.|
 
 When selecting an agent in the list, you can open a detailed agent view of that agent. This view includes:
 
