@@ -21,7 +21,7 @@ Copilot converts the uploaded documents into a draft of an inspection template t
 
 ## What are the feature's capabilities?
 
-Service managers can upload a PDF or an Image of a checklist or an inspection form and Copilot will convert it to a draft of a new inspection template in Field Service. They can review the accuracy of the conversion, discard it, preview it, and make any edits needed before saving it for future use by technicians and operators.
+Service managers can upload a PDF or an image of a checklist or an inspection form and Copilot will convert it to a draft of a new inspection template in Field Service. They can review the accuracy of the conversion, discard it, preview it, and make any edits needed before saving it for future use by technicians and operators.
 
 ## What is the feature's intended use?
 
@@ -36,7 +36,7 @@ This feature was evaluated using both conventional performance testing and metho
 
 ## What are the limitations of the feature and how can I minimize their impact?
 
-This feature is in preview, and we're working on improving it. Review the draft created by Copilot for accuracy and completeness and edit the inspection template before saving and publishing it. You can help us by submitting feedback about the draft created by Copilot, using the like/dislike buttons on the converted inspection templates. We use this data to evaluate and improve the quality of the conversion.
+This feature is in preview, and we're working on improving it. Review the draft created by Copilot for accuracy and completeness and edit the inspection template before saving and publishing it. You can help us by submitting feedback about the draft created by Copilot, using the like/dislike buttons on the converted inspection templates. We use this data to evaluate and improve the quality of the conversion. For more information about release plans, see [Use inspection builder to create inspections from existing files](/dynamics365/release-plan/2024wave2/service/dynamics365-field-service/use-inspection-builder-quickly-create-inspections-existing-files).
 
 - The feature was tested in English. If you use it in other languages, you might not get good results.  
 - The feature can't convert large forms with many pages of content. The conversion process will only create question types compatible with current Field Service inspection templates.

@@ -20,7 +20,7 @@ Copilot converts the uploaded documents into draft inspection templates that can
 >
 > - This is a preview feature.
 > - Preview features aren't meant for production use and may have restricted functionality. These features are available before an official release so that customers can get early access and provide feedback.
-> - The ability for end users to provide feedback for inspection builder is enabled by default. Environment administrators can control whether users are able to provide feedback for each individual environment from the organization table. The tenant-level Copilot feedback setting in Power Platform admin center currently has no effect on this feature. To ensure user feedback is disabled across your tenant, you must disable it for each environment.
+> - Users can provide feedback for inspection builder by default. Environment administrators can switch the feedback mechanism on or off for each individual environment from the organization table. The tenant-level Copilot feedback setting in Power Platform admin center currently has no effect on this feature. To make sure user feedback is disabled across a tenant, you must switch it off for each environment.
 
 ## Enable the inspection builder
 
