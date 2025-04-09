@@ -38,7 +38,7 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 
 ## Customize Copilot using Copilot Studio
 
-Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more in [Create a solution in Copilot Studio](/microsoft-copilot-studio/authoring-solutions-overview)
+Use a solution to manage your customizations so that you can easily deploy them across different environments. Learn more at [Create a solution in Copilot Studio](/microsoft-copilot-studio/authoring-solutions-overview)
 
 1. Sign in to [Copilot Studio](https://copilotstudio.microsoft.com/).
 1. Select your Dynamics 365 environment and then select **Agents**.
