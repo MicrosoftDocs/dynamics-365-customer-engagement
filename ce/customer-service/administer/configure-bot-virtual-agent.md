@@ -43,7 +43,7 @@ You must have:
  - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
  - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
 
-## Create a Copilot Studio agent
+## Create a Copilot agent
 
 You can create Copilot Studio agents in one of the following ways:
 
