@@ -1,7 +1,7 @@
 ---
-title: "Create enhanced service-level agreements in Dynamics 365 Customer Service | MicrosoftDocs"
-description: "Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service."
-ms.date: 09/22/2023
+title: Create enhanced service-level agreements in Dynamics 365 Customer Service
+description: Learn how to create enhanced service-level agreements in Dynamics 365 Customer Service.
+ms.date: 04/09/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -18,7 +18,7 @@ ms.collection: get-started
 # Create enhanced SLAs
 
 > [!NOTE]
-> Enhanced SLAs created in the web client have been deprecated and replaced with Unified Interface SLAs. For more information on deprecation, see [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend migrating the enhanced SLAs created in the web client to Unified Interface. For more information on migrating SLAs, see [Migrate SLAs](migrate-slas.md#migrate-slas).
+> Enhanced service-level agreements (SLAs) created in the web client are deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend you to migrate enhanced SLAs created in the web client to Unified Interface. Learn more about migrating SLAs, in [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
@@ -44,22 +44,22 @@ ms.collection: get-started
 
 1. Optionally, to edit an SLA, select the SLA from the list of records, and then select **Edit** on the command bar.  
 
-1. If you're creating a new SLA in Unified Interface, you'll see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
+1. If you're creating a new SLA in Unified Interface, you see the **Create SLA** dialog box. Type a name for the SLA, and then select the entity for which you want to create the SLA.  
 
 1. Enter your information as follows:
 
-   - **Applicable From**: Select the field that specifies the date and time from which the SLA items will be calculated. For example, if you select the **Created On** field, calculations will start from the time the record was created.  
+   - **Applicable From**: Select the field that specifies the date and time from which the SLA items are calculated. For example, if you select the **Created On** field, calculations start from the time the record is created.  
 
        > [!NOTE]
        >  You can have multiple SLA KPIs within one SLA. The start time for different SLA KPIs within an SLA is set at the SLA level and can't be different across SLA KPIs. The start time is determined by the **Applicable From** field value.  
 
-   - **Business Hours**: Select a customer service schedule record that defines your support organization's business hours. This is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day. 
+   - **Business Hours**: Select a customer service schedule record that defines your support organization's business hours, which is useful for SLA time-tracking calculations. If a business hours record (customer service schedule) isn't selected, work hours are considered to be all day, every day. 
 
    - **SLA Type**: Select **Enhanced**.  
 
         If you're creating an SLA for an entity other than the Case entity, this field is automatically set to **Enhanced** and can't be changed.  
 
-   - **Allow Pause and Resume**: Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity that's enabled for SLA, you can select each status that will be considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
+   - **Allow Pause and Resume**: Select **Allow** if you want the SLA to pause during the time the record is on hold. For each entity enabled for SLA, you can select each status that is considered "on hold" by using the **Service** tab of the **System Settings** dialog box. [!INCLUDE[proc_more_information](../../includes/proc-more-information.md)] [System Settings dialog box - Service tab](/power-platform/admin/system-settings-dialog-box-service-tab)
 
 1. [!INCLUDE[proc_click_or_tap_save](../../includes/proc-click-or-tap-save.md)]  
 
@@ -76,25 +76,25 @@ ms.collection: get-started
        > [!TIP]
        >  If you're creating an SLA for a Case entity, by default you have two options to choose from in the dropdown list. If you want to track other KPIs for a case or if you're creating the SLA for entities other than the Case entity, ask your system customizer to create new fields (of type Lookup) that refer to the SLA KPI Instance entity.  
 
-   - In the **Applicable When** section, define the conditions under which the KPI will be applied. Conditions can be based on primary entity or related entity fields.  
+   - In the **Applicable When** section, define the conditions when the KPI is applied. Conditions can be based on primary entity or related entity fields.  
 
       For example, the conditions might be as shown in the following image.
 
      ![Customer (Account) Category equals Corporate; Case Priority equals High.](../media/crm-ua-sla-details-applicable-when.png "Customer (Account) category equals Corporate; Case priority equals High")  
 
-   - In the **Success Criteria** section, specify the conditions to define when the KPI will be considered as met. For example, the condition might be as shown in the following image.  
+   - In the **Success Criteria** section, specify the conditions to define when the KPI is considered as met. For example, the condition might be as shown in the following image.  
 
      ![Success criteria for an SLA is Case First Response Sent equals Yes.](../media/crm-ua-sla-details-success-criteria.png "Success criteria for an SLA is Case First Response Sent equals Yes")  
 
      > [!NOTE]
      > - Before you specify the failure and warning actions for an SLA, save the SLA item record.
-     > - If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, the SLA will be canceled when implemented. 
+     > - If the conditions configured in the SLA fields conflict with each other, the SLA is canceled before it meets the success or failure criteria. For example, if the **Case Status** field is set as **Active** in the **Applicable When** section and is set as not equal to **Active** in the **Success Criteria** section, the SLA is canceled when implemented. 
 
-   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria is met before the violation time. For example, select **Add Step** > **Change Status**, and then in the first dropdown list, select **Case**, and in the next dropdown list, select **Information Provided**.
+   - In the **Success Action** section, select **Add Step**, and then specify the actions that you want the application to take when the success criteria are met before the violation time. For example, select **Add Step** > **Change Status**, and then in the first dropdown list, select **Case**, and in the next dropdown list, select **Information Provided**.
 
-   - Under **SLA Item Failure**, in the **Failure After** dropdown list, select when the SLA items will be considered as failed. For example, if you select **1 hour**, the KPI will be considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the DateTime field that you select in the **Applicable From** field of the SLA record.  
+   - Under **SLA Item Failure**, in the **Failure After** dropdown list, select when the SLA items are considered as failed. For example, if you select **1 hour**, the KPI is considered as failed if the first response isn't completed within one hour of the time the case was created. One hour is calculated based on the value in the DateTime field that you select in the **Applicable From** field of the SLA record.  
 
-   - In the **Failure Actions** section, select **Add Step**, and then specify the actions to be taken if the success criteria aren't met and the record exceeds the specified failure time. For example, to mark a case for escalation when the KPI has failed, select **Add Step** > **Update Record** > **Case** > **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
+   - In the **Failure Actions** section, select **Add Step**, and then specify the actions to be taken if the success criteria aren't met and the record exceeds the specified failure time. For example, to mark a case for escalation when the KPI fails, select **Add Step** > **Update Record** > **Case** > **Set Properties**. Now in the case record, change the value of the **Is Escalated** field, and then close the case form.  
 
    - Under **SLA Item Warning**, in the **Warn After** dropdown list, select the time when a warning is to be raised that the KPI is nearing violation.  
 
@@ -109,7 +109,7 @@ The following sample SLA KPIs for the Lead entity can help you get familiar with
 
 #### Sample 1: Contact the customer
 
-This sample SLA KPI tracks whether the salesperson has contacted the customer within a specific timeline.  
+This sample SLA KPI tracks whether the salesperson contacted the customer within a specific timeline.  
 
 |Applicable when|Success condition|Failure time|Failure action|Warning time|Warning action|  
 |---------------------|-----------------------|------------------|--------------------|------------------|--------------------|  
