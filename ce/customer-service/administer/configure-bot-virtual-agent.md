@@ -45,7 +45,7 @@ You must have:
 
 ## Create a Copilot agent
 
-You can create Copilot Studio agents in one of the following ways:
+You can create Copilot agents in one of the following ways:
 
 - TCreate the agent in the Dynamics 365 Copilot Service admin center and then navigate to Copilot Studio to finish the configuration. Learn more in [add a agent](../administer/manage-your-bots.md).
 - Create the agent in Copilot Studio, which is then available in the Dynamics 365 Contact Center admin center. Learn more in:
