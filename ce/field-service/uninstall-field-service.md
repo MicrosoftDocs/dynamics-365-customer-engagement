@@ -8,11 +8,9 @@ ms.author: jasonshotts
 ---
 # Uninstall Dynamics 365 Field Service
 
-Uninstalling Dynamics 365 Field Service will remove all the customizations and the data such as work orders, resources, and accounts. This action can't be undone and we can't recover the data after deletion.
+Uninstalling Dynamics 365 Field Service removes all the customizations and the data such as work orders, resources, and accounts. This action can't be undone and we can't recover the data after deletion.
 
-To uninstall Field Service, administrators can go to **Advanced Settings** > **Settings** > **Customizations** > **Solutions** to remove solutions in the order listed in the following table. Depending on the version of Field Service that is installed for your organization, some solutions may not show in the list and you can skip them.
-
-:::image type="content" source="./media/admin-settings-solutions.png" alt-text="Screenshot of Dynamics 365 admin settings, with attention to Solutions.":::
+To uninstall Field Service, administrators can go to the Power Platform Environment Settings app. Under **Customizations** select **Solutions** and remove solutions in the order listed in the following table. Depending on the version of Field Service that is installed for your organization, some solutions might not show in the list and you can skip them.
 
 > [!CAUTION]
 > Some solutions are shared with other Dynamics 365 apps and have dependencies to solutions these apps introduce. Don't remove them unless you intend to uninstall the other apps too.

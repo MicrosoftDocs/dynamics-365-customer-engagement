@@ -1,7 +1,7 @@
 ---
 title: Customize the Add Products dialog
 description: Customize the **Add products dialog** so sellers can quickly identify and add products to opportunity, quote, order, or invoice records.
-ms.date: 12/27/2023
+ms.date: 03/12/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,7 +19,7 @@ searchScope:
 ms.custom:
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:12/27/2023
+  - ai-seo-date:03/12/2025
 ---
 # Customize the Add Products dialog
 
@@ -164,8 +164,7 @@ By default, the search field in the **Add products dialog** searches the product
     > [!NOTE] 
     > Select only the text-based fields.
 
-    >[!div class="mx-imgBorder"]
-    >![Image of the Find by section in the right pane with the Edit find table column highlighted.](media\sales-hub-quick-find-view.png "Image of the Find by section in the right pane with the Edit find table column highlighted")
+    :::image type="content" source="media/sales-hub-quick-find-view.png" alt-text="Screenshot of the Find by section in the right pane with the Edit find table column highlighted.":::
 
 5. Select **Publish** to save and publish changes to the view.
     The changes are applicable to the product search in the **Add products dialog** of opportunity, quote, order, and invoice.
