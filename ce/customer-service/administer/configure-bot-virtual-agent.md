@@ -40,7 +40,7 @@ When a conversation is escalated from a agent to a representative, the represent
 You must have:
  - A product license for Copilot Studio. Learn more in [Licensing for Copilot Studio](/microsoft-copilot-studio/requirements-licensing-subscriptions).
  - A product license for chat, digital messaging, or voice channel for Dynamics 365 Customer Service, depending on your business requirements.  
- - The CCI Admin security role to access the agent you create in Copilot Service admin center or Contact Center admin center in Copilot Studio.
+ - The CCI Admin security role to access the agent you create in Copilot Service admin center in Copilot Studio.
  - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
 
 ## Create a Copilot Studio agent
