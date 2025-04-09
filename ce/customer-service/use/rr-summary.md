@@ -23,18 +23,18 @@ By editing the visual display, you can add metrics to the ones already shown on 
 
 |KPIs| Description  |
 |---------|---------|
-|Total work items | Total number of record type work items modified in the last 24 hours. Total work items = Closed work items + Ongoing work items |
+|Total work items | Total number of record type work items modified in the last 24 hours. Total work items = Closed work items + Ongoing work items. |
 |Closed work items | Number of record type workitems modified in the last 24 hours and are closed currently.|
-|Ongoing work items | Number of record type workitems modified in the last 24 hours, and are currently ongoing, including Open and Active ones. Ongoing work items = Unassigned work items + Assigned work items|
+|Ongoing work items | Number of record type workitems modified in the last 24 hours, and are currently ongoing, including Open and Active ones. Ongoing work items = Unassigned work items + Assigned work items.|
 |Unassigned work items | Number of record type workitems modified in the last 24 hours and are unassigned currently.|
-|Assigned work items    |  Number of record type workitems modified in the last 24 hours and are assigned currently. Assigned work items = Auto assigned work items + Manually assigned work items  |
+|Assigned work items    |  Number of record type workitems modified in the last 24 hours and are assigned currently. Assigned work items = Auto assigned work items + Manually assigned work items.  |
 |Autoassigned work items    |  Number of record type workitems modified in the last 24 hours and autoassigned by unified routing currently. |
 |Manually assigned work items| Number of record type workitems modified in the last 24 hours and are manually assigned currently.|
-|Agents online| Number of agents who are online, that is, whose presence status isn't offline.|
+|Agents online| Number of agents who are online. That is, whose presence status isn't offline.|
 
 ### Interactive charts
 
-You can view different types of charts in the report, such as vertical bars and donut charts. The visual display helps you discern changes and patterns in the data, so that you can act quickly to address the most important issues.
+You can view different types of charts in the report, such as vertical bars and donut charts. The visual display helps you discern changes and patterns in the data so that you can act quickly to address the most important issues.
 
 For example, the **Work items over time** column chart shows the number of work items in an assigned and unassigned state, projected over the created-on time in the X-axis.|
 
@@ -48,8 +48,8 @@ The **Work items metrics by queue** table, shows the following metrics:
 |Queue priority| Priority of the queue.|
 | Assigned work items| Number of record type workitems modified in the last 24 hours and are assigned currently in this queue.|
 | Unassigned work items| Number of record type workitems modified in the last 24 hours and are unassigned currently, waiting in this queue.|
-| Longest wait time| Waiting time until the agent accepts the workitem |
-|Agents online| Number of agents who are online, that is, whose presence status isn't offline within this queue. |
+| Longest wait time| Waiting time until the agent accepts the workitem. |
+|Agents online| Number of agents who are online. That is, whose presence status isn't offline within this queue. |
 
 
 ## Related information
