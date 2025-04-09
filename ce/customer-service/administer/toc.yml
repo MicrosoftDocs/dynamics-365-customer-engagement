@@ -96,6 +96,8 @@
           href: unified-routing-diagnostics.md
         - name: Manage routing diagnostics data
           href: manage-routing-diagnostics-data.md
+      - name: Manage routing rules templates
+        href: manage-routing-rules-templates.md
       - name: Use best practices to set up unified routing
         href: unified-routing-best-practices.md
       - name: FAQ about unified routing
@@ -151,7 +153,7 @@
           - name: Use flow connectors
             href: macro-flow-connector.md
           - name: Review macro run history
-            href: review-macros.md                                                  
+            href: review-macros.md
         - name: Manage custom productivity tools
           href: manage-custom-productivity-tools.md
         - name: Use automation dictionary to pass parameters keys
@@ -219,13 +221,7 @@
       - name: Remove validation on contact and customer for cases
         href: remove-validation-contacts.md
       - name: FAQ on managing cases
-        href: faq-case-mgmt.md
-    - name: Case Management Agent (preview)
-      items: 
-      - name: Set up Case Management Agent for case creation and update 
-        href: set-up-autonomous-case-agents.md
-      - name: Set up Case Management Agent for case follow-up and closure 
-        href: set-up-case-closure.md   
+        href: faq-case-mgmt.md  
     - name: Automatically create or update records
       items:
       - name: Automatically create or update records
@@ -372,14 +368,6 @@
         href: add-knowledge-base-search-control-forms.md
       - name: Add a knowledge article rich text editor control to a form
         href: rich-text-editor-ka.md
-    - name: Customer Knowledge Management Agent (preview)
-      items:
-        - name: Configure connection references
-          href: admin-km-agent-connections.md
-        - name: Enable Customer Knowledge Management Agent
-          href: admin-km-agent.md
-        - name: Set up a pay-as-you-go plan
-          href: setup-pay-as-you-go.md
     - name: Microsoft Teams for collaboration
       items:
       - name: Introduction to collaboration
@@ -484,6 +472,34 @@
         href: voice-channel-pricing-scenarios.md
       - name: FAQ about the voice channel
         href: voice-channel-faqs.md
+    - name: Autonomous service agents (preview)
+      items:
+      - name: Overview of autonomous service agents
+        href: /dynamics365/contact-center/administer/autonomous-agents-overview?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Customer Intent Agent
+        items:
+        - name: Overview of Customer Intent Agent
+          href: /dynamics365/contact-center/administer/overview-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Manage Customer Intent Agent
+          href: /dynamics365/contact-center/administer/manage-customer-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Enable intent-based suggestions for service representatives
+          href: /dynamics365/contact-center/administer/enable-intent-for-service-reps?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+        - name: Configure intent-based suggestions for Copilot agents
+          href: /dynamics365/contact-center/administer/set-up-intent-agent?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+      - name: Case Management Agent
+        items: 
+        - name: Set up Case Management Agent to create and update cases 
+          href: set-up-autonomous-case-agents.md
+        - name: Set up Case Management Agent to follow up and close cases
+          href: set-up-case-closure.md  
+      - name: Customer Knowledge Management Agent
+        items:
+        - name: Enable Customer Knowledge Management Agent
+          href: admin-km-agent.md
+        - name: Configure connection references
+          href: admin-km-agent-connections.md  
+      - name: Set up a pay-as-you-go plan
+        href: setup-pay-as-you-go.md
     - name: Chat
       items:
       - name: Introduction to the chat channel
@@ -916,6 +932,8 @@
     items:
     - name: Overview
       href: ../implement/responsible-ai-overview.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
+    - name: Responsible AI FAQ for AI Agents (Preview)
+      href: /dynamics365/contact-center/implement/faq-rai-ai-agents?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
     - name: Responsible AI FAQ for Copilot in Customer Service
       href: ../implement/faq-responsible-ai-copilot.md?toc=/dynamics365/customer-service/administer/toc.json&bc=../../breadcrumb/toc.yml
   - name: Resources
