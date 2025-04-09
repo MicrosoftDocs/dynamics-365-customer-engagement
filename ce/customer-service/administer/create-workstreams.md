@@ -153,7 +153,7 @@ Select a workstream to perform any of the following actions:
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You are prompted to remove the dependencies and then try to delete the workstream.
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 
-### Agent affinity
+### Representative affinity
 
 The agent affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 
