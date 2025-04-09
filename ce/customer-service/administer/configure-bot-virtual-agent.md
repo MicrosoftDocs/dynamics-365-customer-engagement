@@ -91,7 +91,7 @@ You can add an agent to the queue so that the agent can receive conversations fr
 
 When an agent receives a conversation that isn't escalated to a service representative, the conversation is closed if the customer abandons it. The conversation will also be closed automatically after 30 minutes of inactivity.
 
-This conversation appears in the Omnichannel for Customer Service Agent dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
+This conversation appears in the Omnichannel Agent dashboard with the status set to **Closed** and **Resolved/abandoned** state in the Copilot Studio dashboard. Learn more in [Session outcomes over time chart](/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart).
 
 ## End agent conversations
 
