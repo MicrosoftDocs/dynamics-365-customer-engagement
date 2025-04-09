@@ -17,6 +17,7 @@ You can add Copilot prompts to email templates to help customer service represen
 ## Prerequisites
 
 - You have the CSR Manager and System Administrator role to enable the feature.
+- You have enabled the **Copilot recommended email templates** checkbox in **Copilot for questions and emails**.
 
 ## Add prompts
 
