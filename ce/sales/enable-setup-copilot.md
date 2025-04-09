@@ -124,7 +124,7 @@ The following table provides sample terms and descriptions that you can add to t
 
 ## Add the Copilot page site map entry to a sales app
 
-When you create a custom model-driven app, you can choose a default solution to create a site map for it, if the solution is based on a table form. Because the full-screen Copilot page is based on a URL custom control, not a table form, it doesn't appear in the list of solutions. You must add it to the site map manually.  
+The full-screen Copilot page is based on a URL custom control and not a table form. If your custom model-driven app uses a solution that's based on a table form, the full-screen Copilot page doesn't appear in the list of solutions. You must add the custom control to the site map manually.  
 
 Follow the instructions in [Add pages to your app's site map](add-custom-site-map.md). Select **URL** and enter or paste the following URL:
 
