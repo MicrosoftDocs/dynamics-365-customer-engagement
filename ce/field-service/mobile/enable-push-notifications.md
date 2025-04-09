@@ -14,9 +14,9 @@ In the Dynamics 365 Field Service mobile app, push notifications send updates to
 
 There are two ways to enable push notifications for your organization.
 
-1. Enable the push notification cloud flow included with Dynamics 365 Field Service. The included push notification notifies technicians when they have been assigned a booking.
+- [Enable the push notification cloud flow included with Dynamics 365 Field Service](#turn-on-push-notifications-included-with-field-service). The included push notification notifies technicians when they have been assigned a booking.
 
-1. Create a custom push notification based on custom triggers using the **Send Push Notification V2** connector in Power Automate.
+- [Create a custom push notification](#create-a-custom-push-notification) based on custom triggers using the **Send Push Notification V2** connector in Power Automate.
 
 ## Prerequisites
 
@@ -26,7 +26,7 @@ There are two ways to enable push notifications for your organization.
 
 ## Turn on push notifications included with Field Service
 
-Field Service includes a template to enable push notifications for new bookings. You can also [create push notifications based on custom triggers](#create-a-custom-push-notification).
+Field Service includes a template to enable push notifications for new bookings.
 
 Configure the following cloud flow to send frontline workers a push notification on their mobile device when they're booked for a work order.
 
@@ -34,11 +34,15 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. In the left pane, select **Solutions**. From the list of solutions, select the **Default Solution**.
 
-1. Create two new connection references:
-   - **Field Service Push Notification Connection**, using the **Power Apps Notification V2** connector.
-   - **Dataverse Connection Reference**, using the **Microsoft Dataverse** connector.
+1. Select **New** > **More** > **Connection Reference**. Create two new connection references: **Field Service Push Notification Connection** and **Dataverse Connection Reference**. The **Name** field automatically fills in when you enter the **Display name**. For more information, go to [Manually add a connection reference](/power-apps/maker/data-platform/create-connection-reference#manually-add-a-connection-reference-using-solution-explorer).
 
-   For both connection references, add a new connection and make sure they're enabled.
+   |      |      |      |      |       |
+   |------|------|------|------|------|
+   |Connection reference |Display name |Connector |Connection |
+   |Field Service Push Notification Connection |Field Service Push Notification Connection |Power Apps Notification V2 |New connection |
+   |Dataverse Connection Reference |Dataverse Connection Reference |Microsoft Dataverse |New connection |
+
+1. After creating the new connection, go back to the **New Connection Reference** pane, select **Refresh**, and select the new connection.
 
    :::image type="content" source="../media/mobile-2020-push-connection2.png" alt-text="Edit pane for Field Service Push Notification connection reference.":::
 
