@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # View and understand real-time analytics for record routing in the backlog work items report 
 
-The Backlog work items report is similar to the Ongoing work items report with focus on all work items, created in the last two days. You can filter content by created on, queue, agent, work item skill, and time zone.
+The Backlog work items report is similar to the Ongoing work items report, with focus on all work items created in the last two days. You can filter content by created on, queue, agent, work item skill, and time zone.
 
 Besides filtering, the report also provides the following KPIs to track all-up volumes within the selected filter. 
 
@@ -20,8 +20,8 @@ Besides filtering, the report also provides the following KPIs to track all-up v
 |KPIs  |Description |
 |---------|---------|
 |Total work items   | Total number of workitems created in the last two days.|
-|Assigned work items  | Number of workitems created in the last two days, which are currently assigned. |
-|Unassigned work items    | Number of workitems created in the last two days, but aren't yet assigned. |
+|Assigned work items  | Number of workitems created in the last two days that are currently assigned. |
+|Unassigned work items    | Number of workitems created in the last two days that aren't yet assigned. |
 |Agents online   |   Number of agents online at the moment.|
 
 It allows you to easily identify overall case or record volume, and provides easy identification of unassigned work items for triage based on priority.
