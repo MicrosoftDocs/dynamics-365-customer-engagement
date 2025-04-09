@@ -6,27 +6,36 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: conceptual
 ms.collection: 
-ms.date: 04/07/2025
+ms.date: 04/09/2025
 ms.custom: bap-template
 ---
 
 # Monitor customer wait time through live conversation counter
 
-Track the live conversation counter and monitor customer wait times during live chats, ensuring adherence to service-level agreements (SLAs).
+Monitor the live conversation counter to track customer wait times during live chats and ensure compliance with service-level agreements (SLAs).
 
-When the agent needs to send a message back, the SLA counter will change color and time on the multisession bar to show.  
+The visual counter on the conversation's multisession tab shows the time elapsed since the customer's last message without a response.
 
-When a customer sends a message, the conversation wait time timer starts counting up from zero. The timer resets each time you respond to the customer. If the customer doesn't respond, the timer remains at zero seconds. 
+## Prerequisites
+
+Your administrator has configured the SLA thresholds.
 
 ## Here's how it works
 
-- The SLAs viewed by you are defined by the response time standards agreed upon by your adminsitrator to address customer inquiries.
-- You can view the SLA counter on the multisession bar for live chat workstreams and channels.
-- You can see a counter for each session or conversation.
-- Each SLA counter increments based on the time elapsed since your last response, provided the customer's message is the most recent.
-- If you respond, the counter resets itself and restarts when the customer responds to the respective message.
+- The SLAs viewed by you are defined by the response time standards agreed upon by your administrator to address customer inquiries.
+- You can view the SLA counter on the multisession bar for live chat workstreams and channels, and for each session or conversation.
+- Each SLA counter updates its color and increments based on the time elapsed since your last response, as long as the customer's message is the most recent.
+- When a customer sends a message, the conversation wait time timer starts counting up from zero. The timer resets each time you respond to the customer. If the customer doesn't respond, the timer remains at zero seconds. 
 
-## Section heading
+## **SLA Status Indicators**
 
-## Next steps
+The timer includes color-coded indicators (Blue, Yellow, and Red) to show the status of the SLA: 
+
+- **Blue**: Indicates a standard counter when the SLA is on track, without any **Warning** or **Urgency**.
+- **Yellow**: Indicates that the SLA is approaching its limits and is in the **Warning** state.
+- **Red**: Indicates that the SLA has surpassed and is in the **Urgent** state. 
+
+## Related information
+
+[Configure live conversation counter to view customer wait time](../administer/configure-live-conv-counter.md#configure-live-conversation-counter-to-view-customer-wait-time)
 
