@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service (preview)
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 03/11/2025
+ms.date:04/09/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
