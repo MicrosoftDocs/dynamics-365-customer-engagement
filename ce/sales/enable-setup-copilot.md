@@ -55,7 +55,7 @@ If your organization is in a region where an Azure OpenAI Service endpoint isn't
 
 ## Turn Copilot features on or off in Sales Hub
 
-Copilot features are the chat and embedded Copilot experiences in sales apps.
+Turning on Copilot features enables the chat and embedded Copilot experiences in sales apps.
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page and select **App Settings**.
 
