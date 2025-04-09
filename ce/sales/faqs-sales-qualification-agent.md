@@ -22,11 +22,13 @@ These frequently asked questions are intended to help you understand the impact 
 
 ## What is sales qualification agent?
 
-The sales qualification agent is an AI agent that automates the lead research process and helps you qualify leads quickly and efficiently. The agent can be configured to act on behalf of a sales team to:
+The sales qualification agent is an AI agent that automates the following tasks for sellers:
 
-- Get research insights about leads
-- Determine lead's fit with the sales team's ideal customer profile
-- Draft an initial outreach email to the lead
+- Researches leads and their companies using public web sources and data in Dataverse.
+- Synthesizes the research insights to provide a 360-degree view of the lead.
+- Evaluates the lead's fit with the sales team's ideal customer profile (ICP) based on the research insights and data in Dataverse.
+
+When sellers choose to send an initial outreach email to a lead, the agent drafts the email based on the research insights.
 
 ## How is the sales qualification agent intended to be used?
 
