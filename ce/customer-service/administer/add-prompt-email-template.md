@@ -36,7 +36,7 @@ You can also select the prompt in the editor to modify the prompt.
 1. Select **Save**.
 
 > [!NOTE]
-> We recommend you add a **Description** for template with keywords corresponding to the email template for Copilot to accurately recommend the relevant templates.
+> Copilot suggests available email templates from the system. We recommend administrators to regularly review the templates to ensure accuracy and prevent irrelevant templates from appearing in recommendations.
 
 ### Example
 
