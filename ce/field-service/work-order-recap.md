@@ -1,7 +1,7 @@
 ---
 title: Work order summary with Copilot in Field Service
 description: Let AI generate a work order summary to quickly understand the state of a work order and get appropriate next steps.
-ms.date: 03/28/2025
+ms.date: 04/09/2025
 ms.topic: how-to
 author: jasonccohen
 ms.author: jacoh
@@ -10,7 +10,7 @@ ms.custom:
   - bap-template
   - ai-gen-docs-bap
   - ai-gen-desc
-  - ai-seo-date:10/30/2023
+  - ai-seo-date: 10/30/2023
 ms.collection: bap-ai-copilot 
 ---
 
@@ -35,7 +35,7 @@ Watch this brief video to learn more about the new work order experience in Fiel
 
 ## How summaries are generated
 
-When you generate a summary, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary.
+When you generate a summary, the system uses the work order ID and your security profile to determine whether relevant data exists and that you have access to it. If so, the system pulls contextual information directly from the work order and related records to generate the summary. The summary is generated in the language that you've defined in the personalization settings. It provides references so that you can navigate to the source records for more details.
 
 By default, Copilot provides summaries based on a list of fields that Microsoft maintains. Administrators can [change the summary configuration](#how-to-configure-the-summary) to meet their business needs.
 
