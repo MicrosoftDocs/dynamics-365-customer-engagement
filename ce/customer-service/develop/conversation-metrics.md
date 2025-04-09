@@ -139,7 +139,7 @@ Incoming conversations_FactConversation = CALCULATE(DISTINCTCOUNTNOBLANK(FactCon
 ```
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |msdyn_ocliveworkitem  |
+|Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).   |
 |Attributes | - msdyn_ocliveworkitem.msdyn_isoutbound <br> - msdyn_ocliveworkitem.msdyn_channel ​<br> - msdyn_ocliveworkitem.msdyn_channelinstanceid ​<br> - msdyn_sessionparticipant.systemuser.msdyn_botapplicationid   |
 |Filters  | Set IsOutbound to the value of msdyn_ocliveworkitem.msdyn_isoutbound.​ Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL.​ Determine if an agent is involved by checking if there is at least one session where IsAgentSession is true.​ IsAgentSession is set to true if msdyn_sessionparticipant.systemuser.msdyn_botapplicationid is not null.​|
 
@@ -289,6 +289,74 @@ Avg. wait time (sec)_FactConversation = CALCULATE(AVERAGE(FactConversation[WaitT
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting service representative assistance, or conversations where a service representative is assigned but are waiting for the service representative to accept.
 
 Learn more about metrics that are related to the time that customers wait in individual queues when they're transferred from one service representative to another, in [Session wait time](../use/session-metrics.md#session-wait-time).
+
+## Average speed to answer
+
+This metric measures how quickly the customer service team responds to a customer's request. It's calculated by dividing the total time a customer waited in queue (after their issue is escalated from an AI agent to a service representative) by the total number of handled conversations. Average speed to answer reflects the efficiency and availability of the service representatives. A lower average speed to answer indicates that customers can get their issues resolved more quickly and have a better experience with the service.
+
+If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation.
+
+If the customer reaches a service representative queue directly, the calculation is based on the time between the point when the customer creates the request and the point when a service representative accepts the conversation.
+
+This metric is available in two formats: seconds and *hh:mm:ss*.
+
+#### Related metrics
+
+- **Service level (10 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 10 seconds.
+- **Service level (20 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 20 seconds.
+- **Service level (30 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 30 seconds.
+- **Service level (40 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 40 seconds.
+- **Service level (60 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 60 seconds.
+- **Service level (120 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 120 seconds.
+- **Speed to answer**: This metric is a measure of the time before a customer request is accepted.
+
+For information about metrics that are related to how quickly a service representative accepts a request, go to the [Average speed to answer](#average-speed-to-answer) section.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+### [Historical analytics](#tab/historicalpage)
+
+**DAX query**
+
+```dax
+
+Avg. speed to answer (sec)_FactConversation = ​
+
+CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
+
+    FactConversation[StatusId] = "4",​
+
+    FactConversation[IsAgentAccepted] = "1")​
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem |
+|Attributes | - msdyn_channel ​<br> - msdyn_channelinstanceid ​<br> - statuscode |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_channel is not equal to '192350000' and msdyn_channelinstanceid is NULL. <br> - msdyn_isagentaccepted is 1 <br> - msdyn_ocliveworkitem.statuscode is set to 4 |
+
+
+### [Real-time analytics](#tab/realtimepage)
+
+**DAX query**
+
+```dax
+
+Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities | msdyn_ocliveworkitem|
+|Attributes |- msdyn_ocliveworkitem.msdyn_isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_conversationfirstwaittimeinseconds​ <br> - msdyn_isoutbound​|
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ Ensure that msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_streamsource is'192350000'. <br> - ConversationSpeedToAnswerInSeconds is obtained from msdyn_conversationfirstwaittimeinseconds and msdyn_isagentaccepted is 1.|
+
+---
 
 ## Average conversation handle time
 
