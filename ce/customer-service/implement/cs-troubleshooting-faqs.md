@@ -1,6 +1,6 @@
 ---
 title: Troubleshoot issues in Customer Service and FAQ about Customer Service
-description: Diagnose and fix Customer Service issues with troubleshooting articles and FAQs.
+description: Troubleshoot and resolve Microsoft Customer Service issues with detailed articles and FAQs on various features, including AI suggestions, unified routing, and SLA KPIs.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
