@@ -26,7 +26,7 @@ This capability helps you to keep accurate records of the features your organiza
   
 3.  From the command bar, select **Create Major Version** or **Create Minor Version**.  
   
-     An example of a major version is when your documentation changes to include a new feature or functionality,  while a minor version is a change to the user interface with no change to functionality.  
+     An example of a major version is when your documentation changes to include a new feature or functionality, while a minor version is a change to the user interface with no change to functionality.  
   
      The new version of your article contains the same content, information, and permissions as the current version. The **Version Major** or **Version Minor** field automatically updates to reflect the new version number.  
   
