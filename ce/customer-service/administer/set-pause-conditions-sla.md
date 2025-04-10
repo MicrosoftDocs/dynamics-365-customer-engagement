@@ -1,13 +1,17 @@
 ---
 title: Configure pause conditions for SLA-enabled entities
-description: Learn how to set pause conditions for SLA enabled entities, SLA KPI Instances, and SLA Items.
+description: Configure pause conditions for SLA-enabled entities to manage work hours and priorities effectively at global, KPI, and item levels.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 01/03/2024
-ms.custom: bap-template
+ms.date: 04/09/2025
+ms.custom:
+  - bap-template
+  - ai-gen-docs-bap
+  - ai-gen-desc
+  - ai-seo-date:04/09/2025
 ---
 
 # Configure pause conditions for SLA-enabled entities
