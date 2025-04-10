@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Add Copilot prompts to email templates
 
-You can add Copilot prompts to email templates to help customer service representatives create professional, consistent email responses while reducing time spent on composing emails.
+Add Copilot prompts to email templates to help customer service representatives (service representatives or representatives) create professional, consistent email responses and also reduce time spent to compose emails.
 
 ## Prerequisites
 
