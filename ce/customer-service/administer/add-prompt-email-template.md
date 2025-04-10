@@ -26,7 +26,7 @@ You can add Copilot prompts to a new or an existing email template. Perform the 
 1. In Copilot Service admin center, select **Productivity** in **Support experience**.
 1. In **Productivity**, select **Manage** for **Email templates**.
 1. Select an existing email template or select **New** to create a new email template.
-1. In the email template editor that appears, select the text that the prompt must replace or where the prompt must be inserted.
+1. In the email template editor that appears, select an area in the editor where the prompt must be inserted. You can also select the text in the template editor that the prompt must replace.
 1. Select **Insert Copilot prompts**.
 1. The **Copilot prompts** dialog appears. Specify the custom prompt that Copilot uses to generate contextual content when the template is used. You can add multiple prompts to a template. 
 1. In the **Add alternate text for agents not using the copilot prompts in the templates,** specify the email template text without the Copilot prompt. This is the draft that service representatives see if they don't have permission to use Copilot.
