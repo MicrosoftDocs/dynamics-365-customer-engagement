@@ -1,7 +1,7 @@
 ---
 title: Add Copilot prompts to email templates 
 description: Learn how to add Copilot prompts to email templates.
-ms.date: 08/29/2024
+ms.date: 04/10/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
