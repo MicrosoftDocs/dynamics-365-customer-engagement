@@ -1,7 +1,7 @@
 ---
 title: Use trades to group services
 description: Learn how to configure and use trades in Dynamics 365 Field Service.
-ms.date: 04/07/2025
+ms.date: 04/10/2025
 ms.reviewer: mhart
 ms.topic: how-to
 ms.custom: bap-template
@@ -17,9 +17,10 @@ Trade coverage defines which trades are covered for an account or a location to 
 
 ## Prerequisites
 
-An administrator must enable [**Trades** and **Trade Coverages**](configure-default-settings.md#features-settings).
+- To use trades, an administrator must enable [**Trades**](configure-default-settings.md#features-settings).
+- To use trade coverages, an administrator must enable [**Trades** and **Trade Coverages**](configure-default-settings.md#features-settings).
 
-## Create trades and trade coverage
+## Create trades
 
 Before you can map incident types to a trade, an admin must define the trades that are available for your business.
 
@@ -27,7 +28,7 @@ Before you can map incident types to a trade, an admin must define the trades th
 1. Select **New**.
 1. **Name** the trade and **Save** it.
 
-:::image type="content" source="media/trades-list.png" alt-text="Screenshot of a list of trades.":::
+   :::image type="content" source="media/trades-list.png" alt-text="Screenshot of a list of trades.":::
 
 ## Map trades to incident types
 
@@ -37,7 +38,7 @@ To group incident types by trade and create reports based on trades, an admin mu
 1. Open the incident type record you want to map to a trade.
 1. On the **Details** tab, choose the value in the **Trade** field.
 
-:::image type="content" source="media/trades-incident-type.png" alt-text="Screenshot of an incident type record with a mapped trade.":::
+   :::image type="content" source="media/trades-incident-type.png" alt-text="Screenshot of an incident type record with a mapped trade.":::
 
 ## Configure trade coverages
 
@@ -49,12 +50,13 @@ Choose coverage and exclusions to define the account or functional location that
 
    - **Coverage** defines the account or functional location that a trade covers.
    - **Exclusion** removes trade coverage for the account or functional location.
+
 1. Choose a trade and select an account, a functional location, or both.
 1. **Save** the trade coverage.
 
-:::image type="content" source="media/trade-coverages-list.png" alt-text="Screenshot with list of trade coverages.":::
+   :::image type="content" source="media/trade-coverages-list.png" alt-text="Screenshot with list of trade coverages.":::
 
-Alternatively, you can also show Trade Coverage as a related entity to your Accounts and configure trade coverage from there. That way you can see trade coverage with your service accounts and the trade coverage is automatically mapped to the right account.
+Alternatively, you can go to your **Accounts** page and on the **Trade Coverages** tab, configure trade coverage from there. That way you can see trade coverage with your service accounts and the trade coverage is automatically mapped to the right account. The **Trade Coverages** tab is available for certain accounts such as Customer.
 
 ### Trade coverage example
 
