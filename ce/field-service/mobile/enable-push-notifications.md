@@ -36,9 +36,8 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. Select **New** > **More** > **Connection Reference**. Create two new connection references: **Field Service Push Notification Connection** and **Dataverse Connection Reference**. The **Name** field automatically fills in when you enter the **Display name**. For more information, go to [Manually add a connection reference](/power-apps/maker/data-platform/create-connection-reference#manually-add-a-connection-reference-using-solution-explorer).
 
-   |      |      |      |      |       |
-   |------|------|------|------|------|
    |Connection reference |Display name |Connector |Connection |
+   |---------------------|-------------|----------|------|
    |Field Service Push Notification Connection |Field Service Push Notification Connection |Power Apps Notification V2 |New connection |
    |Dataverse Connection Reference |Dataverse Connection Reference |Microsoft Dataverse |New connection |
 
