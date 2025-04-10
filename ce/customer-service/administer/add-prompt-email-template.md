@@ -1,7 +1,7 @@
 ---
 title: Add Copilot prompts to email templates 
 description: Learn how to add Copilot prompts to email templates.
-ms.date: 08/29/2024
+ms.date: 04/10/2025
 ms.topic: how-to
 author: gandhamm
 ms.author: mgandham
@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Add Copilot prompts to email templates
 
-You can add Copilot prompts to email templates to help customer service representatives create professional, consistent email responses while reducing time spent on composing emails.
+Add Copilot prompts to email templates to help customer service representatives (service representatives or representatives) create professional, consistent email responses and also reduce time spent to compose emails.
 
 ## Prerequisites
 
@@ -21,7 +21,7 @@ You can add Copilot prompts to email templates to help customer service represen
 
 ## Add prompts
 
-You can add Copilot prompts to a new email template or an existing email template. Perform the following steps:
+You can add Copilot prompts to a new or an existing email template. Perform the following steps:
 
 1. In Copilot Service admin center, select **Productivity** in **Support experience**.
 1. In **Productivity**, select **Manage** for **Email templates**.
@@ -29,7 +29,7 @@ You can add Copilot prompts to a new email template or an existing email templat
 1. In the email template editor that appears, select the text that the prompt must replace or where the prompt must be inserted.
 1. Select **Insert Copilot prompts**.
 1. The **Copilot prompts** dialog appears. Specify the custom prompt that Copilot uses to generate contextual content when the template is used. You can add multiple prompts to a template. 
-1. In the alternate text for agents not using the copilot prompts in the templates, specify the email template text without the Copilot prompt. This is the draft that service representatives will see if they don't have permission to use Copilot.
+1. In the **Add alternate text for agents not using the copilot prompts in the templates,** specify the email template text without the Copilot prompt. This is the draft that service representatives see if they don't have permission to use Copilot.
 1. Turn on the **Use knowledge sources** checkbox if the prompt uses the knowledge base sources to generate email drafts. Copilot can use knowledge base sources only for one prompt per template.
 1. Select **Submit**. The prompt is inserted into the template. Copilot prompts are clearly marked within email templates with a distinct visual element.
 You can also select the prompt in the editor to modify the prompt.
