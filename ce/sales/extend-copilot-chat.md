@@ -51,6 +51,19 @@ Use a solution to manage your customizations so that you can easily deploy them 
   > [!NOTE]
   > The [Image](/microsoft-copilot-studio/authoring-send-message#add-an-image) and [Video](/microsoft-copilot-studio/authoring-send-message#add-an-image) message types from agent to user aren't supported. As a workaround, you can use Adaptive Cards.
 
+## Watch videos
+
+Watch these videos to learn more about customizing Copilot in Dynamics 365 Sales:
+
+> [!IMPORTANT]
+> The agent has been renamed to **Copilot in Dynamics 365 Sales**. However, the videos still show the old agent name **Sales Copilot Power Virtual Agent Bot**. We'll update the videos soon.
+
+[Extending Copilot in Sales Part 1](https://www.youtube.com/watch?v=638gZ8yLCIc&t=1s)  
+[Extending Copilot in Sales Part 2](https://www.youtube.com/watch?v=4u9h0OBFOiA&t=7s)  
+[Extending Copilot in Sales Part 3](https://www.youtube.com/watch?v=gTaQaZ8XxJk&t=1s)   
+[Extending Copilot in Sales Part 4](https://www.youtube.com/watch?v=PxUP8NLbtEY) 
+
+
 ## Related information
 
 [FAQ for Copilot chat in model-driven apps](/power-apps/maker/common/faqs-copilot-model-driven-app)  
