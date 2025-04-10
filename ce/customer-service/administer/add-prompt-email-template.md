@@ -21,7 +21,7 @@ Add Copilot prompts to email templates to help customer service representatives 
 
 ## Add prompts
 
-You can add Copilot prompts to a new email template or an existing email template. Perform the following steps:
+You can add Copilot prompts to a new or an existing email template. Perform the following steps:
 
 1. In Copilot Service admin center, select **Productivity** in **Support experience**.
 1. In **Productivity**, select **Manage** for **Email templates**.
