@@ -18,7 +18,7 @@ ms.collection: get-started
 # Create enhanced SLAs
 
 > [!NOTE]
-> Enhanced service-level agreements (SLAs) created in the web client are deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend you to migrate enhanced SLAs created in the web client to Unified Interface. Learn more about migrating SLAs, in [Migrate SLAs](migrate-slas.md#migrate-slas).
+> Enhanced service-level agreements (SLAs) created in the web client are deprecated and replaced with Unified Interface SLAs. Learn more in [SLAs in web client are deprecated](../implement/deprecations-customer-service.md#slas-in-web-client-are-deprecated). We recommend you to migrate enhanced SLAs created in the web client to Unified Interface. Learn more about migrating SLAs in [Migrate SLAs](migrate-slas.md#migrate-slas).
 
 1. [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
