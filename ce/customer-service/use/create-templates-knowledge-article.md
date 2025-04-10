@@ -62,7 +62,7 @@ You can create a knowledge article template in the Customer Service admin center
     | **TEMPLATE DATA** | Name | Enter a name for the template. |
     || Owner | Enter the name of the owner who owns the template. By default, your name is displayed in this field. | 
     | **ARTICLE DATA** | `--` | Define article fields such as Title, Keywords, and Subject that are used in any knowledge article that’s created based on the template. |
-    | **CONTENT** | `--` | Define a structure that to be used in any knowledge article that’s created based on this template. ML[Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails) |
+    | **CONTENT** | `--` | Define a structure to be used in any knowledge article that’s created based on this template. Learn more in [Use the rich text editor to create knowledge articles and emails](customer-service-hub-user-guide-knowledge-article.md#use-the-rich-text-editor-to-create-knowledge-articles-and-emails). |
 
     > [!div class=mx-imgBorder]
     > ![Enter the values in new knowledge article template.](../media/ka-new-template-page.png "Enter the values in new knowledge article template")
