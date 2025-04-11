@@ -62,7 +62,7 @@ The number of capacity profiles that are assigned to service representatives.
 
 ## Total work item capacity
 
-This metric is a measure of the maximum work items that are allowed, based on the configuration of the capacity profile.
+The maximum number work items that are allowed, based on the configuration of the capacity profile.
 
 ### Related metrics
 
