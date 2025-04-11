@@ -1,6 +1,6 @@
 ---
 title:  Configure AI agent context in Copilot agents 
-description: Use this article to understand how you can enable an Copilot agent to understand context while authoring an agent flow.
+description: Use this article to understand how you can enable a Copilot agent to understand context while authoring an agent flow.
 ms.date: 04/11/2025
 ms.topic: how-to
 author: neeranelli
