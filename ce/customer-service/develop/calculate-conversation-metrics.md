@@ -16,7 +16,7 @@ ms.custom:
 ---
 
 
-# Calculate Conversation metrics
+# Calculate conversation metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
