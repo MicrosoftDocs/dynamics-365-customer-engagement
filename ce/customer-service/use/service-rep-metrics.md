@@ -49,7 +49,7 @@ This metric is a measure of the percentage of customer messages that have a serv
 
 ## Total capacity units
 
-This metric is a measure of the maximum capacity units that are assigned. It applies only to organizations that use capacity units.
+The maximum capacity units that are assigned. It applies only to organizations that use capacity units.
 
 ### Related metrics
 
