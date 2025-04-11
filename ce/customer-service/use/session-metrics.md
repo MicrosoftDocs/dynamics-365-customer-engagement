@@ -22,7 +22,7 @@ ms.custom:
 
 This article provides key metrics to evaluate sessions from Customer Service analytics reports, helping you measure the performance and efficiency of service representatives in handling customer requests within Dynamics 365 Customer Service.
 
-Undersatnd the [overview of analytics data model](overview-analytics-data-model.md#overview-of-analytics-data-model) to effectively utilize these metrics and improve customer service operations and decision-making.
+[Understand the conversation workflow](overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making.
 
 ## Session
 
@@ -116,4 +116,4 @@ This metric is a measure of the current sentiment of the customer. It's powered 
 
 [Customize visual display](customize-reports.md#customize-visual-display)  
 [Conversation metrics](oc-metrics-dimensions.md#conversation-metrics)  
-[Service representatives](service-rep-metrics.md#service-representatives)
+[Service representative metrics](service-rep-metrics.md#service-representative-metrics)

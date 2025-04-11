@@ -23,7 +23,7 @@ ms.custom:
 
 This article provides detailed metrics to evaluate the performance and efficiency of service representatives in Dynamics 365 Customer Service, enabling you to optimize operations and enhance customer satisfaction.
 
-[Understand the workflow](metrics-data-model.md#understand-the-workflow) to effectively utilize these metrics and improve customer service operations and decision-making.
+[Understand the conversation workflow](overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making.
 
 ## Average first response time
 

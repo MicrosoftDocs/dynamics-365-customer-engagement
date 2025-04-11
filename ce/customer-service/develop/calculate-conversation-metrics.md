@@ -721,11 +721,11 @@ SUMX (FactConversation,​
 
 ```
 
-|Element| Value  |
+|Element |Value |
 |---------|---------|
-|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). |
-|Attributes  | - msdyn_ocliveworkitem.msdyn_statuschangereason​ <br> - msdyn_ocliveworkitem.msdyn_statereason​ <br> - msdyn_ocliveworkitem.statuscode  |
-|Filters  | - msdyn_ocliveworkitem.msdyn_statuschangereason = 192350002 (AwaitingAgentAcceptance) or msdyn_ocliveworkitem.msdyn_statereason = Agent assigned, awaiting acceptance <br> -msdyn_ocliveworkitem.statuscode is set to 2|.
+|Dataverse entities    |  - msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).       |
+|Attributes     | - msdyn_ocliveworkitem.msdyn_statuschangereason​ <br> - msdyn_ocliveworkitem.msdyn_statereason​ <br> - msdyn_ocliveworkitem.statuscode |
+|Filters     | - msdyn_ocliveworkitem.msdyn_statuschangereason = 192350002 (AwaitingAgentAcceptance) or msdyn_ocliveworkitem.msdyn_statereason = Agent assigned, awaiting acceptance <br> -msdyn_ocliveworkitem.statuscode is set to 2.|
 
 ## Active conversations with service representative acceptance
 
