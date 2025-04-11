@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/04/2025
+ms.date: 04/11/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -22,9 +22,11 @@ ms.custom:
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides an overview of various conversation metrics available in Dynamics 365 Customer Service, helping you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction. It also provides detailed guidance on calculating key conversation metrics. By leveraging Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction.
+This article provides an overview of various conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction. 
 
-[Understand the conversation workflow](../use/metrics-data-model.md#understand-the-conversation-workflow)to effectively utilize these metrics and improve customer service operations and decision-making. 
+It also provides detailed guidance on calculating key conversation metrics. By leveraging Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/metrics-data-model.md#understand-the-conversation-workflow)to effectively utilize these metrics and improve customer service operations and decision-making. 
+
+Learn more about metrics related to session in [Session metrics](../use/session-metrics.md#session-metrics) and service representatives in [Service representative metrics](../use/service-rep-metrics.md#service-representatives).
 
 ## Total conversations
 
@@ -270,22 +272,24 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 
 Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
 
-### Historical analytics
+### Real-time analytics
 
 **DAX query**
 
 ```dax
 
-Avg. wait time (sec)_FactConversation = CALCULATE(AVERAGE(FactConversation[WaitTime]), FactConversation[StatusId] ="4")
+Conversation first wait time (sec) =​
+
+SUMX (FactConversation, IF (NOT FactConversation[DirectionCode], FactConversation[ConversationFirstWaitTimeInSeconds],BLANK ()))
 
 ```
 
 
 |Element|Value  |
 |---------|---------|
-|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). <br> - msdyn_ocsession. Learn more in [msdyn_ocsession](/dynamics365/customer-service/develop/reference/entities/msdyn_ocsession). |
-|Attributes |- msdyn_ocsession.msdyn_sessioncreatedon <br> - msdyn_ocsession.msdyn_agentacceptedon <br> - msdyn_ocsession.msdyn_sessionclosedon   |
-|Filters  |- msdyn_ocliveworkitem.msdyn_channel != '192350000'. The channel(s) in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel). <br> <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid is NULL. Unique identifier to identify the app to which this conversation belogs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channelinstanceid). |
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).|
+|Attributes |- msdyn_firstwaitstartedon​ <br> - msdyn_isagentaccepted ​<br> - msdyn_isoutbound|
+|Filters  |- msdyn_ocliveworkitem. isagentaccepted is 1. <br> - msdyn_ocliveworkitem.msdyn_isoutbound != 1 |
 
 ### Related metrics
 
@@ -294,6 +298,30 @@ Avg. wait time (sec)_FactConversation = CALCULATE(AVERAGE(FactConversation[WaitT
 - **Conversations in queue**: This metric is a count of customer requests that are currently awaiting service representative assistance, or conversations where a service representative is assigned but are waiting for the service representative to accept.
 
 Learn more about metrics that are related to the time that customers wait in individual queues when they're transferred from one service representative to another, in [Session wait time](../use/session-metrics.md#session-wait-time).
+
+## Average conversation first wait time
+
+This metric is calculated by dividing the total wait time for customers who are waiting in the queue by the total number of handled conversations.
+
+### Historical analytics
+
+**DAX query**
+
+```dax
+
+Avg. conversation first wait time (sec) =​
+
+    AVERAGEX(FactConversation, IF(NOT FactConversation[DirectionCode],  FactConversation[ConversationFirstWaitTimeInSeconds],BLANK() ))
+
+```
+
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).|
+|Attributes |- msdyn_firstwaitstartedon​ <br> - msdyn_isagentaccepted ​<br> - msdyn_isoutbound|
+|Filters  |- msdyn_ocliveworkitem. isagentaccepted is 1. <br> - msdyn_ocliveworkitem.msdyn_isoutbound != 1 |
+
 
 ## Average speed to answer
 
@@ -347,7 +375,9 @@ CALCULATE (AVERAGE( FactConversation[SpeedToAnswerTime] ),​
 
 ```dax
 
-Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSeconds])
+Avg. speed to answer time (sec) = ​
+
+AVERAGEX (FactConversation,IF (FactConversation[IsAgentAccepted] && NOT FactConversation[DirectionCode],        FactConversation[ConversationSpeedToAnswerInSeconds],BLANK ()))
 
 ```
 
@@ -670,19 +700,106 @@ Avg. conversation wrap up time = AVERAGE(FactConversation[ConversationWrapUpTime
 
 ## Active conversations awaiting service representative acceptance
 
+*Applies to Omnichannel real-time dashboards.*
+
 This metric is a count of conversation requests from customers where service representatives are assigned but that are currently waiting for a service representative to accept and join the conversation. The conversations revert to an *Open* state if the service representative rejects or responds to the request.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+**DAX query**
+
+```dax
+Active conversations awaiting agent acceptance =​
+
+SUMX (FactConversation,​
+
+        IF (FactConversation[statuscode] = 2​
+
+&& (FactConversation[StatusChangeReason]== 192350002 || FactConversation[StateReason] == "Agent assigned, awaiting acceptance"),1,0 ))
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_statuschangereason​ <br> - msdyn_ocliveworkitem.msdyn_statereason​ <br> - msdyn_ocliveworkitem.statuscode  |
+|Filters  | - msdyn_ocliveworkitem.msdyn_statuschangereason = 192350002 (AwaitingAgentAcceptance) or msdyn_ocliveworkitem.msdyn_statereason = "Agent assigned, awaiting acceptance" <br> -msdyn_ocliveworkitem.statuscode is set to 2|.
 
 ## Active conversations with service representative acceptance
 
+*Applies to Omnichannel real-time dashboards.*
+
 The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted by the representative, and actively being engaged. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+**DAX query**
+
+```dax
+
+Active conversations with agent acceptance =​
+
+    SUMX (FactConversation,​
+
+        IF (FactConversation[statuscode] = 2&& (FactConversation[StatusChangeReason] == 192350003 ||FactConversation[StateReason] == "In conversation"), 1, 0 ))​
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). |
+|Attributes  | - msdyn_ocliveworkitem.msdyn_statuschangereason​ <br> - msdyn_ocliveworkitem.msdyn_statereason​ <br> - msdyn_ocliveworkitem.statuscode  |
+|Filters  | - msdyn_ocliveworkitem.msdyn_statuschangereason = 192350003 (InConversation) or msdyn_ocliveworkitem.msdyn_statereason = "In conversation"​. - msdyn_ocliveworkitem.statuscode is set to 2​.​|
 
 ## Waiting conversations
 
-This metric is a count of conversations that are currently in a *Waiting* state. A conversation is moved to a *Waiting* state when the service representative closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel), or when the customer closes the browser window without closing the chat widget. If there are asynchronous messaging channels, a *Waiting* state indicates conversations that are waiting for a service representative to respond. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+This metric is a count of conversations that are currently in a *Waiting* state. A conversation is moved to a *Waiting* state when the service representative closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel), or when the customer closes the browser window without closing the chat widget. If there are asynchronous messaging channels, a *Waiting* state indicates conversations that are waiting for a service representative to respond. Learn more in [Understand conversation states](../use/oc-conversation-state.md#understand-conversation-states).
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+**DAX query**
+
+```dax
+
+Waiting conversations =​
+
+    SUMX ( FactConversation, IF ( FactConversation[statuscode] == 3, 1, 0 ) )
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). |
+|Attributes  | msdyn_ocliveworkitem.statuscode |
+|Filters  | msdyn_ocliveworkitem.statuscode is set to 3.​|
 
 ## Wrap-up conversations
 
 This metric is a count of conversations that are currently in a Wrap-up state. A conversation is moved to a Wrap-up state when the service representative ends the conversation or when the customer leaves the conversation, either by ending it on their side or by being disconnected. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+**DAX query**
+
+```dax
+
+Wrap-up conversations =    SUMX ( FactConversation, IF ( FactConversation[statuscode] == 5, 1, 0 ) ) 
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |- msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem). |
+|Attributes  | msdyn_ocliveworkitem.statuscode |
+|Filters  | msdyn_ocliveworkitem.statuscode is set to 3.​|
 
 #### Related metric:
 
