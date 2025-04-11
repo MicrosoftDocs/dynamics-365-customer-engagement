@@ -1,7 +1,7 @@
 ---
 title: Integrate a Copilot Studio agent
 description: Use this article to get instructions on how to integrate a Copilot Studio agent in your contact center.
-ms.date: 03/03/2024
+ms.date: 04/11/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -15,8 +15,6 @@ ms.custom: bap-template
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
-[!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
@@ -43,7 +41,7 @@ You must have:
  - The CCI Admin security role to access the agent you create in Customer Service admin center or Contact Center admin center in Copilot Studio.
  - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
 
-## Create a Copilot Studio agent
+## Create a Copilot agent
 
 You can create Copilot Studio agents in one of the following ways:
 
@@ -53,7 +51,7 @@ You can create Copilot Studio agents in one of the following ways:
      - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
      - [Create voice-enabled agents from templates](/microsoft-copilot-studio/voice-build-from-template)
      
-## Connect your Copilot Studio agent to omnichannel instance
+## Connect your Copilot agent to omnichannel instance
 
 For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot Studio agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot Studio agent to the omnichannel instance. 
 
@@ -68,7 +66,7 @@ In Copilot Studio, you can add the following capabilities to your agent to finis
 -  IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
-## Add a agent to a workstream
+## Add an agent to a workstream
 
 In the Customer Service admin center app, select the Copilot Studio agent from the list of agents in the [**Workstreams**](/dynamics365/customer-service/administer/create-workstreams?context=/dynamics365/contact-center/context/administer-context) area. Learn more in [Add an agent to a workstream](/dynamics365/customer-service/administer/create-workstreams#add-a-bot-to-a-workstream?context=/dynamics365/contact-center/context/administer-context).
 
@@ -78,7 +76,7 @@ In the Customer Service admin center app, select the Copilot Studio agent from t
 > - Voice-enabled agents that you create in the Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. Classic agents aren't supported in the enhanced voice experience. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
 
-### Configure context variables for the Copilot Studio agent
+### Configure context variables for the Copilot agent
 
 After you configure your agent and add it to a workstream, you can configure context variables to [route work items](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context). You can also share context from Omnichannel with your Copilot Studio agent to create a rich and personalized experience. For information about creating context variables, go to [Manage context variables](/dynamics365/customer-service/administer/manage-context-variables?context=/dynamics365/contact-center/context/administer-context). For information about configuring context variables for Copilot Studio agents, go to [Configure context variables for Copilot Studio agent](/dynamics365/customer-service/administer/context-variables-for-bot#context-variables-for-copilot-studio-bots?context=/dynamics365/contact-center/context/administer-context).
 
