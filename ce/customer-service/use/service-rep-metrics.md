@@ -58,7 +58,7 @@ The maximum capacity units that are assigned. It applies only to organizations t
 
 ## Assigned capacity profile count
 
-This metric is a count of capacity profiles that are assigned to service representatives. 
+The number of capacity profiles that are assigned to service representatives. 
 
 ## Total work item capacity
 
