@@ -1,5 +1,5 @@
 ---
-title: Calculate Conversation metrics
+title: Calculate conversation metrics
 description: Learn to use Power BI and Dataverse for calculating essential conversation metrics and improving service efficiency.
 author: Soumyasd27
 ms.author: sdas
