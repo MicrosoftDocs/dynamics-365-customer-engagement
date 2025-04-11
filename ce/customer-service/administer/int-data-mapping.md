@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 11/21/2023
+ms.date: 04/09/2025
 ms.custom: bap-template
 ---
 
@@ -15,7 +15,7 @@ ms.custom: bap-template
 
 As part of [adding an integrated search provider](add-search-provider.md#add-integrated-search-providers) in Customer Service, you need to tell the service how to ingest the knowledge articles it receives from the provider. You do that by selecting and configuring a knowledge article schema. You can't change the schema after you save the configuration.
 
-If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. For more information on language locale values, go to: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
+If you applied a language filter in the **Authentication and Testing** section, you must maintain the mapping for language locale either in the **JSON Schema** or in the **Knowledge article schema mapping** section. Learn more about language locale values, in: [Language (LanguageLocale) table/entity reference](/power-apps/developer/data-platform/reference/entities/languagelocale).
 
 Select an option in the **Knowledge article schema** section:
 
@@ -109,7 +109,7 @@ Sample HTML:
 	</div>
 	<div id="ms--content-well-notifications" data-bi-name="content-well-notification">
 	</div>
-	<p>Starting with the .NET Framework 4.5, Windows Identity Foundation (WIF) has been fully integrated into the .NET Framework. The version of WIF addressed by this topic, WIF 3.5, is deprecated and should only be used when developing against the .NET Framework 3.5 SP1 or the .NET Framework 4. For more information about WIF in the .NET Framework 4.5, also known as WIF 4.5</p>
+	<p>Starting with the .NET Framework 4.5, Windows Identity Foundation (WIF) has been fully integrated into the .NET Framework. The version of WIF addressed by this topic, WIF 3.5, is deprecated and should only be used when developing against the .NET Framework 3.5 SP1 or the .NET Framework 4. Learn more about WIF in the .NET Framework 4.5, also known as WIF 4.5</p>
 	<p>When implemented in a derived class, checks if the specified XML reader is positioned at a WS-Trust RequestSecurityToken element.</p>
 	<p><strong>Namespace:</strong> Microsoft.IdentityModel.Protocols.WSTrust<br/>
 	<strong>Assembly:</strong> Microsoft.IdentityModel (in Microsoft.IdentityModel.dll)</p>
