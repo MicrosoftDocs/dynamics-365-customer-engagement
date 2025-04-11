@@ -51,15 +51,11 @@ Configure the following cloud flow to send frontline workers a push notification
 
    :::image type="content" source="../media/mobile-2020-push-connection2.png" alt-text="Edit pane for Field Service Push Notification connection reference.":::
 
-1. Select **New** > **More** > **Connection Reference** and create a connection reference called **Dataverse Connection Reference**.
+1. Follow steps 3 - 6 and create a connection reference called **Dataverse Connection Reference**.
 
    - **Display name**: Dataverse Connection Reference
    - **Connector**: Microsoft Dataverse
    - **Connection**: New connection
-
-1. Go back to the **New Connection Reference** pane, select **Refresh**, and select the new connection.
-
-1. Select **Create**.
 
 1. Go back to **Solutions** and edit the solution with the name `msdyn_FieldService_patch_update`.
 
@@ -69,7 +65,7 @@ Configure the following cloud flow to send frontline workers a push notification
 
 1. In the unmanaged solution, select the **Turn On** option for your new cloud flow.
 
-1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow. Make sure the **Connection References** section contains both connection references that you created in step 3.
+1. Open the details for the **Field Service – Notify user about booking (UCI app)** cloud flow. Make sure the **Connection References** section contains both connection references that you created.
 
 ## Test push notifications
 
