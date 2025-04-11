@@ -1,5 +1,5 @@
 ---
-title: Calculate Conversation metrics
+title: Calculate conversation metrics
 description: Learn to use Power BI and Dataverse for calculating essential conversation metrics and improving service efficiency.
 author: Soumyasd27
 ms.author: sdas
@@ -16,13 +16,13 @@ ms.custom:
 ---
 
 
-# Calculate Conversation metrics
+# Calculate conversation metrics
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-This article provides an overview of various conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction. 
+This article provides an overview of conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction. 
 
 It also provides detailed guidance on calculating key conversation metrics. By applying Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/overview-analytics-data-model.md#understand-the-conversation-workflow) to effectively utilize these metrics and improve customer service operations and decision-making. 
 
@@ -54,7 +54,7 @@ Total conversations_FactConversation = CALCULATE(COUNTROWS(FactConversation))
 |Element|Value  |
 |---------|---------|
 |Dataverse entities |msdyn_ocliveworkitem. Learn more in [msdyn_ocliveworkitem](/dynamics365/customer-service/develop/reference/entities/msdyn_ocliveworkitem).  |
-|Attributes |- msdyn_channel. The channels in the conversation. Learn more in [msdyn_channel](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel).   <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid. Unique identifier to identify the app to which this conversation belongs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid). |
+|Attributes |- msdyn_channel. The [channels](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem?branch=main#BKMK_msdyn_channel) in the conversation. <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid. Unique identifier to identify the app to which this conversation belongs to. Learn more in [msdyn_channelinstanceid](/dynamics365/developer/reference/entities/msdyn_ocliveworkitem#BKMK_msdyn_channelinstanceid). |
 |Filters  |Filter the FactConversations table to include only rows from msdyn_ocliveworkitem.​ Ensure that msdyn_channel isn't equal to '192350000' and msdyn_channelinstanceid is NULL. |
 
 ### [Real-time analytics](#tab/realtimepage)

@@ -41,7 +41,7 @@ The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
 ## First response service level
 
-This metric is a measure of the percentage of customer conversations that have a service representative response time of less than 60 seconds.
+The percentage of customer conversations that have a service representative response time of less than 60 seconds.
 
 ## Service representative response service level
 
@@ -49,7 +49,7 @@ This metric is a measure of the percentage of customer messages that have a serv
 
 ## Total capacity units
 
-This metric is a measure of the maximum capacity units that are assigned. It applies only to organizations that use capacity units.
+The maximum capacity units that are assigned. It applies only to organizations that use capacity units.
 
 ### Related metrics
 
@@ -58,11 +58,11 @@ This metric is a measure of the maximum capacity units that are assigned. It app
 
 ## Assigned capacity profile count
 
-This metric is a count of capacity profiles that are assigned to service representatives. 
+The number of capacity profiles that are assigned to service representatives. 
 
 ## Total work item capacity
 
-This metric is a measure of the maximum work items that are allowed, based on the configuration of the capacity profile.
+The maximum number work items that are allowed, based on the configuration of the capacity profile.
 
 ### Related metrics
 
