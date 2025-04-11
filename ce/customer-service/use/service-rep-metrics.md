@@ -41,7 +41,7 @@ The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
 ## First response service level
 
-This metric is a measure of the percentage of customer conversations that have a service representative response time of less than 60 seconds.
+The percentage of customer conversations that have a service representative response time of less than 60 seconds.
 
 ## Service representative response service level
 
