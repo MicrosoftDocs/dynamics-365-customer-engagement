@@ -30,7 +30,7 @@ The following capabilities are available for the agent conversations:
 - Monitor the agent conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use the historical dashboards to get insights into the effectiveness of the agents through metrics, such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 
-When a conversation is escalated from a agent to a representative, the representative can see the full transcript of the agent conversation and get complete context while engaging with the customer. Learn more in [Enable a agent to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
+When a conversation is escalated from an agent to a representative, the representative can see the full transcript of the agent conversation and get complete context while engaging with the customer. Learn more in [Enable an agent to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
 
 
 ## Prerequisites
@@ -45,7 +45,7 @@ You must have:
 
 You can create Copilot agents in one of the following ways:
 
-- TCreate the agent in the Dynamics 365 Contact Center admin center and then navigate to Copilot Studio to finish the configuration. Learn more in [add a agent](../administer/manage-your-bots.md).
+- TCreate the agent in the Dynamics 365 Contact Center admin center and then navigate to Copilot Studio to finish the configuration. Learn more in [add an agent](../administer/manage-your-bots.md).
 - Create the agent in Copilot Studio, which is then available in the Dynamics 365 Contact Center admin center. Learn more in:
      - [Create and delete copilots](/microsoft-copilot-studio/authoring-first-bot)
      - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
