@@ -24,7 +24,7 @@ ms.custom:
 
 This article provides an overview of various conversation metrics available in Dynamics 365 Customer Service, that help you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction. 
 
-It also provides detailed guidance on calculating key conversation metrics. By leveraging Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/metrics-data-model.md#understand-the-conversation-workflow)to effectively utilize these metrics and improve customer service operations and decision-making. 
+It also provides detailed guidance on calculating key conversation metrics. By leveraging Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction. [Understand the conversation workflow](../use/overview-analytics-data-model.md.md#understand-the-conversation-workflow)to effectively utilize these metrics and improve customer service operations and decision-making. 
 
 Learn more about metrics related to session in [Session metrics](../use/session-metrics.md#session-metrics) and service representatives in [Service representative metrics](../use/service-rep-metrics.md#service-representatives).
 

@@ -114,7 +114,7 @@
       - name: Metrics and queries
         items:
         - name: Calculate conversation metrics
-          href: conversation-metrics.md
+          href: calculate-conversation-metrics.md
       - name: Extend Customer Service
         items: 
         - name: Extend Omnichannel for Customer Service

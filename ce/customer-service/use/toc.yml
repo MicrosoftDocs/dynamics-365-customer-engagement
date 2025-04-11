@@ -403,9 +403,9 @@
         - name: Metrics
           items:
           - name: Overview of analytics data model
-            href: metrics-data-model.md
+            href: overview-analytics-data-model.md
           - name: Conversation metrics
-            href: oc-metrics-dimensions.md
+            href: dynamics365/customer-service/develop/calculate-conversation-metrics?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
           - name: Session metrics
             href: session-metrics.md
           - name: Service representative metrics

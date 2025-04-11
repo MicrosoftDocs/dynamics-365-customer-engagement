@@ -52,7 +52,7 @@ The following metrics are available for the service representative conversation 
 
 | Metric  | Definition  |
 |----------------|------------|
-| Talk to listen ratio | The averages listen and talk ratio of service representatives in conversations with customers.  |
+| Talk to listen ratio | The average listen and talk ratio of service representatives in conversations with customers.  |
 | Talking speed (WPM) | The average number of words used per minute by service representatives. |
 | Switches per conversation | The average exchanges between a representatives and a customer in a conversation; the number of times the conversation switched from one person to another. This is a sign of engagement during conversations. |
 | Pause before speaking (sec)  | The milliseconds a service representative paused before responding to customer queries; indicates representatives's patience. |
