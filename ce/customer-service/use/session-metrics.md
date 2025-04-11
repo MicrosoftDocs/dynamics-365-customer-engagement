@@ -22,7 +22,7 @@ ms.custom:
 
 This article provides key metrics to evaluate sessions from Customer Service analytics reports, helping you measure the performance and efficiency of service representatives in handling customer requests within Dynamics 365 Customer Service.
 
-[Understand the workflow](metrics-data-model.md#understand-the-workflow) to effectively utilize these metrics and improve customer service operations and decision-making.
+Undersatnd the [overview of analytics data model](overview-analytics-data-model.md#overview-of-analytics-data-model) to effectively utilize these metrics and improve customer service operations and decision-making.
 
 ## Session
 

@@ -112,7 +112,7 @@ This dimension represents the name of the channel.
 
 - [Conversation](oc-metrics-dimensions.md#conversation-metrics)
 - [Session](session-metrics.md#session)
-- [Service representatives](service-rep-metrics.md#service-representatives)
+- [Service representative metrics](service-rep-metrics.md#service-representative-metrics)
 
 ## Understand the conversation workflow
 
