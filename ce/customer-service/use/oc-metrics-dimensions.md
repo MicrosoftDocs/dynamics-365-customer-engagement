@@ -128,13 +128,11 @@ For the Chat report, this metric is a measure of the active chat time and active
 
 This metric can be viewed in two formats: seconds and *hh:mm:ss*.
 
-:::image type="content" source="../media/simple-chat-conversation.png" alt-text="Diagram that illustrates conversation handle time.":::
-
 ### Related metric:
 
 - **Average conversation handle time**: This metric represents the average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled.
 
-For information about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, see [Average session handle time](session-metrics.md#average-session-handle-time).
+Learn more about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, in [Average session handle time](session-metrics.md#average-session-handle-time).
 
 
 ## Average conversation hold time

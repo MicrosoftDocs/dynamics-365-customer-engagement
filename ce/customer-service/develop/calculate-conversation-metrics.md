@@ -18,7 +18,13 @@ ms.custom:
 
 # Calculate Conversation metrics
 
-This article provides detailed guidance on calculating key conversation metrics. By leveraging Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction.
+[!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+This article provides an overview of various conversation metrics available in Dynamics 365 Customer Service, helping you analyze key performance indicators (KPIs) to make strategic decisions, track agent performance, and improve customer satisfaction. It also provides detailed guidance on calculating key conversation metrics. By leveraging Power BI and Dataverse, you can gain valuable insights into customer service efficiency and improve overall customer satisfaction.
+
+[Understand the conversation workflow](../use/metrics-data-model.md#understand-the-conversation-workflow)to effectively utilize these metrics and improve customer service operations and decision-making. 
 
 ## Total conversations
 
@@ -193,8 +199,7 @@ Outgoing conversations = ​CALCULATE (​DISTINCTCOUNTNOBLANK ( FactConversatio
 
 ### Related metrics
 
-- - **Incoming conversations**: The total number of inbound conversations including both direct to representative and escalation from a voice or digital bot. 
-
+- **Incoming conversations**: The total number of inbound conversations including both direct to representative and escalation from a voice or digital bot. 
 
 ## Engaged conversations
 
@@ -302,15 +307,11 @@ This metric is available in two formats: seconds and *hh:mm:ss*.
 
 #### Related metrics
 
-- **Service level (10 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 10 seconds.
-- **Service level (20 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 20 seconds.
-- **Service level (30 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 30 seconds.
-- **Service level (40 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 40 seconds.
-- **Service level (60 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 60 seconds.
-- **Service level (120 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 120 seconds.
+- **Service level (10 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 10 seconds. The calculation is similar for 20, 30, 40, 60, and 120 seconds.
+
 - **Speed to answer**: This metric is a measure of the time before a customer request is accepted.
 
-For information about metrics that are related to how quickly a service representative accepts a request, go to the [Average speed to answer](#average-speed-to-answer) section.
+Learn more about metrics that are related to how quickly a service representative accepts a request, in [Average speed to answer](#average-speed-to-answer) section.
 
 ### DAX query and Dataverse reference
 
@@ -357,6 +358,57 @@ Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSe
 |Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ Ensure that msdyn_channelinstanceid is NULL. <br> - Exclude rows where msdyn_streamsource is'192350000'. <br> - ConversationSpeedToAnswerInSeconds is obtained from msdyn_conversationfirstwaittimeinseconds and msdyn_isagentaccepted is 1.|
 
 ---
+## Conversation handle time
+
+*Applies to Omnichannel real-time dashboards.*
+
+This metric is a measure of the time that service representatives spend actively helping customers and resolving their issues. If multiple service representatives handle a conversation, the time that all the service representatives spend is aggregated. This metric also includes time that service representatives spend wrapping up the conversation after the customer disconnects, and the time that they spend updating notes or contact details. However, it excludes time that subject matter experts or other service representatives spend consulting with service representatives who are assigned to work on customer conversations.
+
+For for chat and digital messaging channels, a service representative is considered as actively working on a conversation if they have the conversation open in the Customer Service workspace app. If a service representative is handling multiple conversations, including conversations that they're currently wrapping up, only the time that the service representative spends on the conversation on an open tab counts toward that conversation's handle time.
+
+For the Voice report, this metric is a measure of total talk time, total hold time, and total wrap-up time or after-call work, divided by the number of calls handled, where:
+
+- Talk time: The time a service representative spends in actively speaking with the customer.
+- Hold time: The time for which a service representative puts the customer on hold during the interaction.
+- Wrap-up time or after-call work: The time taken to complete any post-call tasks related to the interaction.
+- Total number of calls handled: The total number of customer interactions handled by the service representatives.​
+
+    :::image type="content" source="../media/aht_voice.png" alt-text="Screenshot of how avergae handle time is calculated for voice.":::
+
+For the Chat report, this metric is a measure of the active chat time and active wrap-up time, divided by the number of chats handled, where:
+
+- Active chat time: The time a service representative spends in actively chatting with the customer.
+- Active wrap-up time: The time taken to complete any post-chat tasks related to the interaction.
+- Total number of chats handled: The total number of customer interactions handled by the service representatives.
+
+    :::image type="content" source="../media/aht_chat.png" alt-text="Screenshot of average handle time for chat":::
+
+This metric can be viewed in two formats: seconds and *hh:mm:ss*.
+
+### DAX query and Dataverse reference
+
+Refer to the DAX query used in the Power BI semantic model and the corresponding Dataverse entities used to create the semantic model.
+
+**DAX query**
+
+```dax
+
+Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSeconds])
+
+```
+
+|Element|Value  |
+|---------|---------|
+|Dataverse entities |msdyn_ocliveworkitem |
+|Attributes | - msdyn_ocliveworkitem.msdyn_isagentsession​ <br> - msdyn_ocliveworkitem.msdyn_channelinstanceid​ <br> - 
+msdyn_liveworkstream.msdyn_streamsource <br> - msdyn_ocliveworkitem.msdyn_conversationhandletimeinseconds​ |
+|Filters  |- Filter the FactConversations table to include only rows where msdyn_isagentsession is equal to 1.​ <br> - Ensure that msdyn_channelinstanceid is NULL. <br> -Exclude rows where msdyn_streamsource is'192350000'.<br> -ConversationHandleTimeInSeconds is obtained from msdyn_conversationhandletimeinseconds.|
+
+### Related metric:
+
+- **Average conversation handle time**: This metric represents the average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled.
+
+Learn more about metrics that are related to the time that individual service representatives spend when multiple service representatives handle conversations, in [Average session handle time](session-metrics.md#average-session-handle-time).
 
 ## Average conversation handle time
 
@@ -616,4 +668,22 @@ Avg. conversation wrap up time = AVERAGE(FactConversation[ConversationWrapUpTime
 
 ---
 
+## Active conversations awaiting service representative acceptance
 
+This metric is a count of conversation requests from customers where service representatives are assigned but that are currently waiting for a service representative to accept and join the conversation. The conversations revert to an *Open* state if the service representative rejects or responds to the request.
+
+## Active conversations with service representative acceptance
+
+The total number of active service representative conversations. Includes conversations that were assigned to a service representative, accepted by the representative, and actively being engaged. This includes all inbound and outbound conversations across all channels (digital, voice, and cases).
+
+## Waiting conversations
+
+This metric is a count of conversations that are currently in a *Waiting* state. A conversation is moved to a *Waiting* state when the service representative closes the session without ending the conversation (that is, without selecting the **End** button on the communication panel), or when the customer closes the browser window without closing the chat widget. If there are asynchronous messaging channels, a *Waiting* state indicates conversations that are waiting for a service representative to respond. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+
+## Wrap-up conversations
+
+This metric is a count of conversations that are currently in a Wrap-up state. A conversation is moved to a Wrap-up state when the service representative ends the conversation or when the customer leaves the conversation, either by ending it on their side or by being disconnected. Learn more in [Understand conversation states](oc-conversation-state.md#understand-conversation-states).
+
+#### Related metric:
+
+- **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
