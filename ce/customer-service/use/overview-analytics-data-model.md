@@ -21,7 +21,7 @@ This article presents an overview of the analytics data model. The application p
 - Facts, also known as metrics, represent observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
 - Dimensions represent the attributes of the facts. You can use them to break down the data for further analysis.
 
-You can use facts and dimensions to visualize data according to your organizational requirements. For example, if you want to understand how average handle time varies by queue, you can filter the Average handle time fact by the Queue name dimension.
+You can use facts and dimensions to visualize data according to your organizational requirements. For example, if you want to understand how average handle time varies by queue, you can filter the average handle time fact by the queue dimension.
 
 Fact tables are larger than dimension tables because numerous events, such as individual customer requests, are stored in them. Dimension tables are typically smaller because you're limited to the number of items that you can filter on and group. For example, the number of queues is a limited set.
 
@@ -60,8 +60,8 @@ The following metrics are a measure of the conversations grouped by call closure
 
     - **Ghost Conversation**: Conversations assigned to a service representative but there was no response from the customer after the conversation was connected. 
     - **Ghost Conversations Rate**: Percentage of engaged conversations that are connected to a service representative with no response from the customer. 
-    - Conversation disconnect rate: Percentage of conversations that were ended by customer before a service representative ended the conversation.
-    - Disconnect reason: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call or the call was disconnected due to connection issues.
+    - **Conversation disconnect rate**: Percentage of conversations that were ended by the customer before a service representative ended the conversation.
+    - **Disconnect reason**: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call, or the call was disconnected due to connection issues.
 
 ### Queue name
 
