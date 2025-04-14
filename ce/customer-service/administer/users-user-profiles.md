@@ -16,7 +16,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-Use the information in this article to manage your service representative users for Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your representative users to provide customer service optimally.
+Use the information in this article to manage your service representatives in Customer Service. The enhanced user management experience is a simplified UI that eases the complexity of configuring the various settings required for your representatives to provide customer service optimally.
 
 You can manage the following settings for the users in bulk:
 
