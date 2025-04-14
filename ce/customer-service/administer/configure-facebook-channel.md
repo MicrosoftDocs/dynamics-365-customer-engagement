@@ -1,7 +1,7 @@
 ---
 title: Configure a Facebook channel
 description: Learn how to configure a Facebook channel and corresponding Facebook pages.
-ms.date: 08/02/2024
+ms.date: 03/03/2025
 ms.topic: how-to
 author: lalexms
 ms.author: laalexan
@@ -12,6 +12,9 @@ ms.custom: bap-template
 # Configure Facebook channel
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
+
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
 
 Many customers use social messaging channels like Facebook for their personal communication needs. Many also prefer using messaging channels to engage with businesses. The asynchronous nature of these channels gives customers the convenience of getting their issues resolved as and when they find time. This ability contrasts with real-time channels like Chat for Dynamics 365 Customer Service, where the session ends when the chat window closes.
 
@@ -31,7 +34,7 @@ Make sure that the following prerequisites are met:
    1. On the **Select an app type** page, select **Business**, and then type your app's name and contact email address.
    1. On the **Add products to your app** page, select **Messenger**, and then select **Set up**.
    1. On the Messenger settings page, select **Add or remove Pages**, and then add the Facebook page you created. After you add the page, the Page ID and the option to generate a token appear.
-- If you're using a test environment, set up test accounts in Facebook so that agents can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
+- If you're using a test environment, set up test accounts in Facebook so that customer service representatives (service representatives or representatives) can send and receive messages in Omnichannel for Customer Service: Go to **App Roles** > **Roles** > **Testers (Add Testers)**.
 - Values for application ID and application secret from the **App ID** and **App Secret** fields in the Facebook application > **Settings** > **Basic**.
 
 ## Roles and permissions
@@ -46,9 +49,9 @@ The following Facebook roles and permissions are required for integrating your F
 - 
 ## Privacy notice
 
-If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). More information: [Connect a bot to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
+If you enable this feature, your data is shared with Facebook and flows outside of your organization's compliance and geo boundaries (even if your organization is in a Government Community Cloud region). Learn more in [Connect an AI agent to Facebook](/azure/bot-service/bot-service-channel-connect-facebook?preserve-view=true&view=azure-bot-service-4.0).
 
-Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with agents might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their agents that their communications with end users may be monitored, recorded, or stored.
+Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, such as laws that relate to monitoring, recording, and storing communications with their end users. This responsibility includes adequately notifying end users that their communications with service representatives might be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 ## Configure a Facebook channel
 
@@ -103,19 +106,19 @@ To configure a Facebook channel, the following steps are required:
       - Custom automated messages
       - [Post-conversation survey](configure-post-conversation-survey.md)
    1. On the **User features** page, configure the following options:
-      - **File attachments:** When set to yes for both customer and agent, customers and agents can send and receive file attachments. More information: [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. More information: [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates)
-      - **Facebook message tag:** Set to **Yes** to enable your agents to message customers after 24 hours pass. When set to **No**, agents are unable to respond to customers after 24 hours unless the customer sends another message.
+      - **File attachments:** When set to yes for both customer and representative, they can send and receive file attachments. Learn more in [Enable file attachments](enable-file-attachments.md). The availability and support of media is dependent on the Facebook application settings. Learn more in [Facebook updates](https://developers.facebook.com/docs/messenger-platform/europe-updates).
+      - **Facebook message tag:** Set to **Yes** to enable your representatives to message customers after 24 hours pass. When set to **No**, representatives are unable to respond to customers after 24 hours unless the customer sends another message.
 
-      If you enable the Facebook human agent message tag during an active conversation between the agent and customer, the agent must close the conversation and reopen it to communicate with customers after 24 hours of inactivity. Agents can start conversations with customers for up to seven days.
+      If you enable the Facebook human agent message tag during an active conversation between the representative and customer, the representative must close the conversation and reopen it to communicate with the latter customer 24 hours of inactivity. Representatives can start conversations with customers for up to seven days.
 
-      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. More information: [Facebook Developer Tools](https://developers.facebook.com/tools/).  
+      To use the Facebook human agent message tag, you must also turn it on in the Facebook app. Learn more in [Facebook Developer Tools](https://developers.facebook.com/tools/).  
    1. Review the **Summary** page, and select **Create**. The channel instance is configured.
 
-1. Configure routing rules. More information: [Configure work classification](configure-work-classification.md)
+1. Configure routing rules. Learn more in [Configure work classification](configure-work-classification.md).
 
-1. Configure work distribution. More information: [Work distribution settings](create-workstreams.md#configure-work-distribution)
+1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, you can add a bot. Skip this step if only human agents handle your conversations. More information: [Configure a bot](create-workstreams.md#add-a-bot-to-a-workstream)
+1. Optionally, you can add an AI agent. Skip this step if only human agents handle your conversations. Learn more in [Configure an agent](create-workstreams.md#add-a-bot-to-a-workstream).
 
 1. In **Advanced settings**, configure the following options based on your business needs:
    - [Sessions](session-templates.md)
@@ -135,13 +138,13 @@ A customer can start a conversation in any of the following ways:
 
 If a customer starts a conversation from the Facebook page and then later switches to the mobile device, the previous conversation persists, and the customer can continue the conversation.
 
-The agent receives the notification of the incoming conversation request. More information: [Use Facebook channel](../use/facebook.md)
+The representative receives the notification of the incoming conversation request. Learn more in [Use Facebook channel](../use/facebook.md).
 
-After the Facebook social profile is linked to a customer or contact record by the agent, subsequent Facebook conversations are linked to the customer records, and the customer summary is populated.
+After the Facebook social profile is linked to a customer or contact record by the representative, subsequent Facebook conversations are linked to the customer records, and the customer summary is populated.
 
 If the customer isn't identified based on name, a new contact record can be created.
 
-The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, agents don't receive the file and an error displays.
+The customer can send attachments only if you enable them. When the option isn't enabled for the customers, they can still attempt to send the file. However, representatives don't receive the file and an error displays.
 
 > [!div class=mx-imgBorder]
 > ![Customer sending file.](../media/fb-customer1.png "Customer sending file")

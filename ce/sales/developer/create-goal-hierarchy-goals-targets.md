@@ -2,7 +2,7 @@
 title: Create goal hierarchy, goals, and targets (Dynamics 365 Sales)
 description: This article discusses how to create a goal hierarchy, set and monitor the targets, specify the time period and who manages and owns a goal.
 ms.date: 03/01/2023
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang

@@ -1,7 +1,7 @@
 ---
 title: Configure the inbox
-description: Use this article to enable and configure inbox settings in Contact Center admin center or Customer Service admin center.
-ms.date: 07/24/2024
+description: Use this article to enable and configure inbox settings in Copilot Service admin center.
+ms.date: 04/02/2025
 author: lalexms
 ms.author: laalexan
 ms.reviewer: laalexan
@@ -17,7 +17,7 @@ ms.custom: bap-template
 > [!NOTE]
 > Case is applicable to Customer Service only.
 
-As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Customer Service workspace or Contact Center workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
+As an administrator, you can [configure the inbox setting](#configure-the-inbox-setting-for-representatives) so that when your customer service representatives (service representatives or representatives) open Copilot Service workspace, they can select the inbox icon to show all the cases, conversations, and records that are assigned to them. The inbox is designed to help representatives efficiently work on high-velocity tasks, and promote inbox sessions to regular sessions when they need more time to resolve cases and complete their conversations.
 
 You can configure the inbox settings for custom experiences only.
 
@@ -55,13 +55,13 @@ Channel providers must have **All active channels** set to **On** to use and con
 
 ## Configure the inbox setting for representatives
 
-You can configure the inbox in Contact Center admin center or Customer Service admin center by editing the agent experience profile to meet your preferred inbox settings.
+You can configure the inbox in Copilot Service admin center by editing the experience profile to meet your preferred inbox settings.
 
 1. Open the admin center app.
 
-1. In **Agent experience**, select **Workspaces**.
+1. In **Support experience**, select **Workspaces**.
 
-1. In **Agent experience profiles**, select **Manage**.
+1. In **Experience profiles**, select **Manage**.
 
 1. Select the profile for which you want to configure the inbox.
 
@@ -82,7 +82,7 @@ You can configure the inbox in Contact Center admin center or Customer Service a
        - Emails in my team
        - Emails in my queue(s)
        - Emails in a shared mailbox
-    - **Agent Visibility**: Select one of the following options to show or hide the view to representatives:
+    - **Representative visibility**: Select one of the following options to show or hide the view to representatives:
       - **Show**
       - **Hide**
 
@@ -103,7 +103,7 @@ You can configure a customized view for the inbox so that representatives can se
 
 To configure multiple views for the inbox, complete the following steps.
 
-1. Go to the agent experience profile for which you want to configure a custom view.
+1. Go to the experience profile for which you want to configure a custom view.
 
 1. On the **Inbox** card, select **Edit**. The **Inbox** page is displayed.
 
@@ -112,7 +112,7 @@ To configure multiple views for the inbox, complete the following steps.
 1. On the **Add a new view** page, enter the following details:
 
    - **Name**: Type a name for the view.
-   - **Agent visibility**: Select whether to **Show** or **Hide** the view from representatives.
+   - **Representative visibility**: Select whether to **Show** or **Hide** the view from representatives.
    - **Record type**: Select the records that you want to include in the multi-entity view.
   
 1. For each record type, choose one of the following settings. The settings are different for each record type.
@@ -146,9 +146,9 @@ The following simple settings are available out of the box for the record types.
 
 Configure a customized sort option for the inbox so that users can choose the required attributes to sort by, beyond customer and date.
 
-1. In the site map of Customer Service admin center app, select **Workspaces**.
-1. On the **Workspaces** page, next to **Agent experience profiles**, select **Manage**.
-1. On the **Agent experience profiles** page, select the profile you want to edit.
+1. In the site map of Copilot Service admin center app, select **Workspaces**.
+1. On the **Workspaces** page, next to **Experience profiles**, select **Manage**.
+1. On the **Experience profiles** page, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Edit view** pane, in the **Sort** section, select the entity and attributes, along with sort order.
 
@@ -161,7 +161,7 @@ Configure a customized sort option for the inbox so that users can choose the re
 By default, the inbox supports entities such as case, emails, conversations, and voicemails. You can also bring your own entities into the inbox to create a more customized experience, tailored to the needs of your users.
 
 1. In the admin center site map, select **Workspaces**.
-1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
+1. On the **Workspaces** page, next to **Experience profiles**, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Inbox settings** pane, select the **Inbox record types** tab.
 1. Select **+Add**, and then chose the record type you want to add.
@@ -172,7 +172,7 @@ By default, the inbox supports entities such as case, emails, conversations, and
 You can help users personalize how their information displays in the inbox by customizing the card configuration.
 
 1. In the admin center site map, select **Workspaces**.
-1. On the **Workspaces** page, next to **Agent experience profiles**, select the profile you want to edit.
+1. On the **Workspaces** page, next to **Experience profiles**, select the profile you want to edit.
 1. On the **Profile** page, in **Inbox**, select **Edit**.
 1. In the **Inbox settings** pane, select the **Inbox record types** tab.
 1. Select the attribute you want to edit. The **Edit record type** pane is displayed, showing the inbox preview of the work item.
@@ -188,7 +188,7 @@ Learn more about how to configure real-time translation for conversations in the
 ### Related information
 
 [Inbox out-of-the-box views and filters](inbox-views-filters.md)  
-[Create and use agent experience profiles](create-agent-experience-profile.md)  
-[Overview of agent experience profiles](overview.md)  
+[Create and use experience profiles](create-agent-experience-profile.md)  
+[Overview of experience profiles](overview.md)  
 [Use the inbox](../use/use-inbox.md)  
 [Configure voicemail to manage inbound calls](voice-channel-voicemail.md)  

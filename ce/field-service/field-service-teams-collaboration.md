@@ -1,7 +1,7 @@
 ---
 title: Collaborate on work orders with Microsoft Teams
 description: Collaborate in the context of work orders or other tables by integrating with Microsoft Teams.
-ms.date: 01/27/2025
+ms.date: 02/10/2025
 ms.topic: how-to
 ms.author: jacoh
 author: jasonccohen
@@ -15,8 +15,8 @@ Integration with Microsoft Teams enables you to chat with team members about wor
 > ![Field Service work order, with a Teams chat panel showing related chats.](./media/work-order-teams-messages.png)
 
 For a guided walkthrough, check out the following video.
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a5d32328-3240-4b00-9392-00c9a4926322]
+>
+> [!VIDEO d333c25a-7dcf-4396-a018-dce7fb117a33]
 
 ## Prerequisites
 

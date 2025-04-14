@@ -20,7 +20,7 @@ The who knows whom feature helps your sales organization quickly identify collea
 >- [Basic who knows whom information](who-knows-whom.md#basic-who-knows-whom-information) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
 >- [Enhanced who knows whom information](who-knows-whom.md#enhanced-who-knows-whom-information) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-countryregion-are-sales-premium-features-available).
 >- For Office 365 data, your organization's data location must be one of the following locations and not your region-specific data center location:
->    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
+>    - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea)
 >    - Global Geography 3 – Americas (Brazil, Chile, United States)
 >
@@ -56,6 +56,8 @@ After you enable who knows whom, you must complete the following steps for the f
 
     Make sure to get consent within 14 days of turning on the relationship intelligence features. Otherwise, who knows whom is automatically turned off on the 14th day. However, you continue to get the out-of-the-box who knows whom information from Dynamics 365 data.  
 
+   > [!NOTE]
+   > Native integration with Exchange Online is being deprecated in phases. Refer to the [train schedule](/dynamics365/released-versions/dynamics365sales#latest-version-availability) for version 9.0.25032.10001 to know when the feature will be deprecated in your region. If you want to use Exchange data for enhanced insights, [set up server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 - If you'd like roles other than Salesperson and Sales Manager to access the who knows whom information, [grant access to those roles](grant-access-wkw.md).  
 
 - [Add relationship intelligence widgets to custom forms](add-ri-widgets-to-custom-form.md) if your organization is using a custom sales app or a custom form for leads or contacts.

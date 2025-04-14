@@ -6,7 +6,7 @@ author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
 ms.custom: bap-template
-ms.topic: conceptual
+ms.topic: concept-article
 ms.service: dynamics-365-sales
 ---
 

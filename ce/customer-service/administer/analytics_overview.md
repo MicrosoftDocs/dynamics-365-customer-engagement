@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual 
 ms.collection: 
-ms.date: 02/03/2025
+ms.date: 02/07/2025
 ms.custom: bap-template
 ---
 
@@ -47,7 +47,7 @@ Here are the customizations that you can utilize.
 - Personalize analytics:
   - [Report Filters and Groups](../use/report-filters-groups.md#report-filters-and-groups): Save time by setting one or more filters to a report group, eliminating the need to set filters each time you access the reports.
   - [Manage Bookmarks for Reports](../use/manage-bookmarks.md#manage-bookmarks-for-reports): Utilize bookmarks to save the filters you set, allowing for easy viewing of specific data each time you open the report.
-- [Utilize Omnichannel for Customer Service Metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics): Perform a quantitative assessment of the data displayed on the Omnichannel for Customer Service dashboards. Use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
+- [Use metrics](../use/oc-metrics-dimensions.md): Perform a quantitative assessment of the metrics displayed on the dashboards. Use these metrics to [customize the visual display](../use/customize-reports.md#customize-visual-display) of your reports.
 
 ## Related information
 

@@ -3,7 +3,7 @@ title: Best practices and limitations for the offline profile
 description: Learn how to use the mobile offline profile to make the best use of the Field Service mobile app when your field technicians don't have Internet access.
 ms.topic: overview
 ms.subservice: field-service-mobile
-ms.date: 01/22/2025
+ms.date: 02/05/2025
 author: JonBaker007
 ms.author: jobaker
 ---
@@ -15,10 +15,6 @@ Field technicians often need to work in areas without Internet access, like remo
 Read our blog post about [best practices for offline mode](https://cloudblogs.microsoft.com/dynamics365/administrator/2023/11/06/best-practices-for-offline-mode-in-the-field-service-mobile-app-part-1/).
 
 Even if you think your field technicians will always have a reliable Internet connection, we strongly recommend that you set up offline capabilities to create a fast and consistent experience.
-
-The offline profile manages offline record types, relationships, and user assignments. For a guided walkthrough, watch this brief video.
-
-> [!VIDEO https://learn-video.azurefd.net/vod/player?id=a8c93a4c-4b9c-4883-a76e-089f720376c8]
 
 The Field Service mobile app follows the same architecture and security as a Power Apps mobile app. [Learn more about Power Platform security](/power-platform/admin/security/overview#the-application-and-data-on-the-device).
 

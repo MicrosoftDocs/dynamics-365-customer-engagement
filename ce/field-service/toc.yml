@@ -139,6 +139,8 @@ items:
       href: inspections-overview.md
     - name: Create and view inspections
       href: inspections.md
+    - name: Create inspection templates with Copilot
+      href: inspections-copilot.md
     - name: Advanced inspection options
       href: inspections-advanced.md
     - name: Run reports on inspections
@@ -231,13 +233,23 @@ items:
       href: field-service-teams-collaboration.md
     - name: Manage documents in Teams
       href: /dynamics365/teams-integration/teams-doc-management?context=/dynamics365/context/field-service-context
-    - name: Use Teams mobile to annotate in a user's environment (preview)
+    - name: Use spatial annotations in Teams
       href: annotate-teams-mobile.md
 
 - name: Scheduling
   items:
   - name: Universal Resource Scheduling for Field Service overview
     href: universal-resource-scheduling-for-field-service.md
+  - name: Scheduling Operations Agent (preview)
+    items: 
+      - name: Overview
+        href: soa-overview.md
+      - name: Set up the Scheduling Operations Agent
+        href: soa-setup.md
+      - name: Use the Scheduling Operations Agent
+        href: soa-run.md
+      - name: FAQs and limitations
+        href: soa-tips.md
   - name: Schedule board
     items:
       - name: Use the schedule board
@@ -327,7 +339,7 @@ items:
         href: mobile/scan-barcode.md
       - name: Enable push notifications
         href: mobile/enable-push-notifications.md
-      - name: Track and audit location data
+      - name: Enable location tracking
         href: mobile/track-technician-location.md
       - name: Enable technicians to create service reports
         href: mobile/create-service-report-admin.md
@@ -610,6 +622,9 @@ items:
     - name: Customize the booking card
       href: customize-booking-card.md
 
+- name: Field Service table reference
+  href: developer/reference/entities/toc.yml
+
 - name: Troubleshooting and FAQ
   items:
   - name: Troubleshoot with Solution Health Hub
@@ -635,6 +650,10 @@ items:
       href: faqs-work-order-recap.md
     - name: FAQ about work order update
       href: faqs-work-order-update.md
+    - name: FAQ about inspection templates with Copilot
+      href: faqs-inspection-designer.md
+    - name: FAQ about the Scheduling Operations Agent (preview)
+      href: faqs-soa.md
 
 - name: More resources
   items:
@@ -648,3 +667,4 @@ items:
       href: https://experience.dynamics.com/ideas/categories/?forum=bee3d862-df65-e811-a95d-000d3a1be7ad&forumName=Dynamics%20365%20for%20Field%20Service
     - name: Get help
       href: field-service-get-help.md
+

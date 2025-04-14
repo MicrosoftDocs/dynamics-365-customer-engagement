@@ -1,7 +1,7 @@
 ---
-title: "Enable or disable PDF generation from records | MicrosoftDocs"
-description: "Enable your users to create and share professional-looking PDF files for entity records with customers."
-ms.date: 03/15/2024
+title: Enable or disable PDF generation from records
+description: Enable your users to create and share professional-looking PDF files for entity records with customers.
+ms.date: 01/23/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -26,7 +26,7 @@ Depending on the Dynamics 365 Sales license you have, select one of the followin
 
 1. In lower-left corner of the screen, select **Change area** ![Icon to change the work area.](media/change-area-icon.png "Icon to change the work area") and then select **App Settings**.
 
-2. In the site map, select **Overview** and search for **Convert to PDF** in the search box. Alternatively, you can select **Organization tools** > **Productivity tools** and then select **Convert to PDF**.
+2. In the site map, select **Overview** and search for **Convert to PDF** in the search box. Alternatively, you can select **Productivity tools** and then select **Convert to PDF**.
 
 4. On the **Convert to PDF** page, select the entities for which you want to enable the PDF generation capability.
 

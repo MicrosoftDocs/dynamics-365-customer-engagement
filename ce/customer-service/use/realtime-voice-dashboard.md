@@ -32,7 +32,7 @@ The **Voice** report provides a summary of voice conversations over time, by que
 
 You can also monitor voice-specific operational metrics such as conversation direction. This metric indicates whether the conversation was started by the customer or a contact center service representative. You can use these operational metrics to manage queue distribution.
 
-[Learn more about the metrics that are shown in the charts on the Voice report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Learn more about the metrics that are shown in the charts on the Voice report.](oc-metrics-dimensions.md)
 
 :::image type="content" source="../media/realtime_voice.png" alt-text="Screenshot of the real-time Voice report.":::
 
@@ -48,7 +48,7 @@ Drill down to sections of a report to find the data that interests you the most.
 
 ### Related information
 
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Summary report in Omnichannel real-time analytics](realtime-summary-dashboard.md#view-and-understand-the-summary-report-in-omnichannel-real-time-analytics)<br>

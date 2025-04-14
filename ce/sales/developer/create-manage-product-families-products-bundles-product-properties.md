@@ -2,7 +2,7 @@
 title: Create and manage product families, products, bundles, and product properties (Dynamics 365 Sales)
 description: Supports hierarchical organization of the product catalog through the creation and management products and bundles under a product family, defining related products, and adding properties (attributes) to the parent product family. 
 ms.date: 06/28/2024
-ms.topic: article
+ms.topic: how-to
 applies_to: 
   - Dynamics 365 Sales
 author: udaykirang
