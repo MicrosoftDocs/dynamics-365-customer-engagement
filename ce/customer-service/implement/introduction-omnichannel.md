@@ -64,11 +64,11 @@ As an agent, when you open Copilot Service workspace, you can select the inbox i
 
 The following image shows the inbox conversation view:
 
-:::image type="content" source="../media/inbox-csw.png" alt-text="Customer Service workspace inbox conversations view" border="false":::
+:::image type="content" source="../media/inbox-csw.png" alt-text="Copilot Service workspace inbox conversations view" border="false":::
 
 The following image shows the inbox case view:
 
-:::image type="content" source="../media/inbox-case.png" alt-text="Customer Service workspace inbox case view" border="false":::
+:::image type="content" source="../media/inbox-case.png" alt-text="Copilot Service workspace inbox case view" border="false":::
 
 ## Videos
 
