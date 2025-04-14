@@ -119,7 +119,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 For a selected workstream, expand **Advanced settings** to configure the following options:
 
 - [Sessions](session-templates.md)
-- [agent notifications](notification-templates.md#out-of-the-box-notification-templates)
+- [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
 - [Context variables](manage-context-variables.md)
 - [Smart assist bots](../develop/smart-assist-bot.md)
 - [Quick replies](create-quick-replies.md)
