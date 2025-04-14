@@ -402,8 +402,16 @@
           href: ongoing-conversations-dashboard.md
         - name: Analytics reports refresh and data retention
           href: info-analytics-reports.md
-        - name: Use report metrics
-          href: oc-metrics-dimensions.md
+        - name: Metrics
+          items:
+          - name: Overview of analytics data model
+            href: overview-analytics-data-model.md
+          - name: Conversation metrics
+            href: /dynamics365/customer-service/develop/calculate-conversation-metrics?toc=/dynamics365/customer-service/use/toc.json&bc=../../breadcrumb/toc.yml
+          - name: Session metrics
+            href: session-metrics.md
+          - name: Service representative metrics
+            href: service-rep-metrics.md
         - name: Personalize analytics
           items: 
           - name: Manage report filters

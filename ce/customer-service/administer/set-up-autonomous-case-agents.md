@@ -33,6 +33,7 @@ The agent creates and updates cases from,
 - [Provision the chat channel](/dynamics365/contact-center/implement/provision-channels) and make sure that [authentication settings are configured](create-chat-auth-settings.md). 
 - [Workstreams](create-workstreams.md) and [queues](queues-omnichannel.md) are set up.
 -  [Enable data movement across regions](/power-platform/admin/geographical-availability-copilot) in the Power Platform admin center application.
+- The Autonomous Case Management agent uses the Data Entry Agent in the background. The [Power Platform pay-as-you-go](/power-platform/admin/pay-as-you-go-overview) plan mandates the usage of an Azure subscription the system charges when the agent runs. Make sure you set up the [pay-as-you-go](setup-pay-as-you-go.md) plan.
 
 
 ## Configure autonomous case creation and update
