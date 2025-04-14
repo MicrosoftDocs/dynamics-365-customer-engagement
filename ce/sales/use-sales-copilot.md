@@ -28,6 +28,8 @@ Copilot in Dynamics 365 Sales can summarize information about your leads and opp
 
 Your admin turned on and set up Copilot in your sales app. "Sales app" refers to apps that have lead and opportunity tables and aren't on the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used).
 
+<a name="open-copilot"></a>
+
 ## Open Copilot in your sales app
 
 You can open Copilot in a side pane to view it side-by-side with a record such as an opportunity or a lead, or in an immersive, full-screen view.

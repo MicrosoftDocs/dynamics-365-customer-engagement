@@ -90,7 +90,7 @@ You can add domain-specific terms and acronyms to a glossary to train Copilot in
 
 1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
 1. Select **SalesSpecificQnA** under **Knowledge** section.
-1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
+1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-terms-and-descriptions).
    :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
 
 1. To add the term to the glossary, select **Next**.
