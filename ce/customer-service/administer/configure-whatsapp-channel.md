@@ -1,7 +1,7 @@
 ---
 title: Configure a WhatsApp channel through Twilio
 description: Use this article to learn how to configure the WhatsApp channel through Twilio.
-ms.date: 03/05/2025
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -19,7 +19,7 @@ ms.custom: bap-template
 
 The WhatsApp channel feature lets you integrate WhatsApp through Twilio with either the Copilot Service admin center application to engage with customers who prefer to use the WhatsApp channel.
 
-The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from customer service representatives (service representatives or representatives) should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
+The success of social media customer service, like all other customer service, depends on the quality of care provided. Communications from representatives should be timely, accurate, sensitive, brief, and friendly, which ultimately improves the customer satisfaction and brand loyalty.
 
 ## Prerequisites
 
@@ -107,13 +107,13 @@ Go to your **Twilio Console Dashboard** > **Settings** > **General** to fetch th
 
 1. Configure work distribution. Learn more in [Work distribution settings](create-workstreams.md#configure-work-distribution).
 
-1. Optionally, [add an agent](create-workstreams.md#add-a-bot-to-a-workstream).
+1. Optionally, [add an agent](create-workstreams.md#add-an-agent-to-a-workstream).
 
 1. Based on your business needs, in **Advanced settings**, configure the following options:
    - [Sessions](session-templates.md)
    - [Agent notifications](notification-templates.md#out-of-the-box-notification-templates)
-   - [Context variables](manage-context-variables.md#add-context-variables))
-   - [Smart assist bots](../develop/smart-assist-bot.md)
+   - [Context variables](manage-context-variables.md#add-context-variables)
+   - [Smart assist agents](../develop/smart-assist-bot.md)
    - [Quick replies](create-quick-replies.md)
 
 ### Configure WhatsApp message templates
