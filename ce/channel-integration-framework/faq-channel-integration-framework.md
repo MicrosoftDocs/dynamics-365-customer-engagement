@@ -87,7 +87,7 @@ Dynamics 365 Channel Integration Framework 2.0 includes multiple enhancements ov
 
 ### Where do I configure voice channel provider for multisession apps?
 
-You can configure voice channel providers in [Customer Service admin center](../customer-service/implement/cs-admin-center.md#get-started-with-customer-service-admin-center).
+You can configure voice channel providers in [Copilot Service admin center](../customer-service/implement/cs-admin-center.md#get-started-with-copilot-service-admin-center).
 
 ### My organization is using voice channel configured using Channel Integration Framework 2.0. Does the change affect my organization?
 
