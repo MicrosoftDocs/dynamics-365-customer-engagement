@@ -101,7 +101,7 @@ The following service representative participation modes are available:
 
 ### Workstream name
 
-This dimension represents the name of the omnichannel workstream where the conversation originated.
+The omnichannel workstream where the conversation originated.
 
 ### Channel name
 
