@@ -85,7 +85,7 @@ This metric represents the service representative participation **consult** mode
 
 - **Consult acceptance rate**: The total number of sessions accepted by a service representative out of all the requested consult sessions.
 
-- **Consult not acceptance rate**: The total number of sessions that didn't have acceptance by the service representative over all the sessions requested for consult from the service representative. This number includes timed out and rejected requests.  
+- **Consult not acceptance rate**: The total number of consult sessions that weren't accepted by a service representative, including timed-out and rejected requests.
 
 - **Consult rejection rate**: The total number of consult sessions rejected by a service representative out of all requested sessions.
 
