@@ -35,7 +35,7 @@ The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
 ## Average service representative response time
 
-Service representative response time is a measure of the average time that customers who sent a message must wait to get a response from a service representative. The time is adjusted based on operating hours. The system calculates average service representative response time by dividing the total response time by the number of exchanges between customers and service representatives across all engaged conversations. A longer response time indicates that more time passes between messages as customers wait for a service representative to respond and provide updates. A longer response time negatively affects the customer experience.
+Service representative response time is the average time that customers who send a message wait to get a response from a service representative. The time is adjusted based on operating hours. it is calculated by dividing total response time by the number of message exchanges in engaged conversations. Longer response times mean customers wait longer between messages, negatively impacting their experience.
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
