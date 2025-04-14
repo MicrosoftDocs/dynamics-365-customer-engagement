@@ -1,7 +1,7 @@
 ---
 title: Best practices for configuring AI agents
 description: This article lists the best practices that you can follow when you configure Azure and Copilot agents in your contact center.
-ms.date: 03/03/2025
+ms.date: 04/14/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -20,7 +20,7 @@ ms.collection:
 
 When you configure Azure and Copilot agents in Omnichannel for Customer Service, use the following best practices:
 
- - If you're using a Copilot Studio agent, to create a low latency greeting, make sure your AI agent is set up on the workstream. This allows the AI agent to be triggered before your custom routing logic is executed. Learn more about best practices for Copilot Studio agents in [Optimize agents to minimize latency](/microsoft-copilot-studio/guidance/optimize-minimize-latency)
+ - If you're using a Copilot Studio agent to create a low latency greeting, make sure your AI agent is set up on the workstream. This allows the AI agent to be triggered before your custom routing logic is executed. Learn more about best practices for Copilot Studio agents in [Optimize agents to minimize latency](/microsoft-copilot-studio/guidance/optimize-minimize-latency).
 
 - In a queue, if both AI agents (agents) and customer service representatives (service representatives or representatives) are available, set the agent’s capacity higher than all representatives. An agent’s capacity isn't reduced even after a work item is assigned to it. This ensures that any conversation routed to the queue is first picked up by the agent.
 
