@@ -68,7 +68,7 @@ In Copilot Studio, you can add the following capabilities to your agent to finis
 
 ## Add an agent to a workstream
 
-In the Copilot Service admin center app, select the Copilot Studio agent from the list of agents in the [**Workstreams**](/dynamics365/customer-service/administer/create-workstreams?context=/dynamics365/contact-center/context/administer-context) area. Learn more in [Add an agent to a workstream](/dynamics365/customer-service/administer/create-workstreams#add-a-bot-to-a-workstream?context=/dynamics365/contact-center/context/administer-context).
+In the Copilot Service admin center app, select the Copilot agent from the list of agents in the [**Workstreams**](/dynamics365/customer-service/administer/create-workstreams?context=/dynamics365/contact-center/context/administer-context) area. Learn more in [Add an agent to a workstream](/dynamics365/customer-service/administer/create-workstreams#add-a-bot-to-a-workstream?context=/dynamics365/contact-center/context/administer-context).
 
 > [!NOTE]
 > - You can add only one agent per workstream.
