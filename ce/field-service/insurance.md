@@ -1,7 +1,7 @@
 ---
 title: Create insurance policies
 description: Create an insurance in Field Service to protect from financial loss.
-ms.date: 02/09/2024
+ms.date: 04/04/2025
 author: jshotts
 ms.author: jasonshotts
 ms.topic: how-to
@@ -10,7 +10,7 @@ ms.custom: bap-template
 
 # Create insurance policies
 
-An insurance policy protects from financial loss in exchange for a fee. An insurance provider agrees to compensate the insurance holder in the event of a certain loss or damage. Insurance is a contract, represented by a policy, in which a policy holder gets protection for a fee from an insurance company.
+An insurance policy protects from financial loss in exchange for a fee. An insurance provider agrees to compensate the insurance holder if there's a certain loss or damage. Insurance is a contract, represented by a policy, in which a policy holder gets protection for a fee from an insurance company.
 
 In Dynamics 365 Field Service, insurance is an entity that relates to accounts and defines the policy holder, insurance carrier, policy number, and the start/end date of the insurance contract.
 
