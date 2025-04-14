@@ -1,12 +1,12 @@
 ---
 title: Enable custom entities for service-level agreements
-description: Enable custom entities for service-level agreements to use custom entities based on user requirements.
+description: Enable custom entities for SLAs through Power Apps or Customer Engagement with admin permissions, ensuring flexibility and customization based on user needs.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 12/06/2023
+ms.date: 04/09/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -16,7 +16,7 @@ ms.custom:
 
 # Enable custom entities for service-level agreements
 
-You can enable custom entities for service-level agreements so that users can use their own custom entities based on their requirements. You can enable custom entities either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
+You can enable custom entities for service-level agreements (SLAs) so that users can use their own custom entities based on their requirements. You can enable custom entities either through the Power Apps portal or through your Dynamics 365 Customer Engagement (on-premises) organization.
 
 ## Prerequisites
 
