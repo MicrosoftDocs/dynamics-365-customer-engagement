@@ -79,7 +79,7 @@ This dimension represents the hour of the day in a 24-hour format.
 
 The following time-based filter options are available on real-time dashboards:
 
-- **Today**: View all conversations that started since 12 AM in the selected time zone, in any state or province.
+- **Today**: View all conversations that started since 12 AM in the selected time zone.
 - **Last 24 hours**: View all conversations that started in the last 24 hours, in any state or province.
 - **Include open conversations beyond 24 hours**: View all conversations that started in the last 24 hours, in any state or province. In addition, view all conversations that started in the last three days and are still open.
 
