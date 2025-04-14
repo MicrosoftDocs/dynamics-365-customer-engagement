@@ -1,7 +1,7 @@
 ---
 title: Create and manage users and user profiles
 description: This article provides steps that you can perform to manage users in Omnichannel for Customer Service.
-ms.date: 04/08/2025
+ms.date: 04/10/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -112,7 +112,7 @@ Users should be configured as a bookable resource so that they can be assigned w
 1. Add the user to the required queue that's configured for unified routing. Learn more in [Configure queues for unified routing](queues-omnichannel.md).
 
    > [!NOTE]
-   > AI agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add agents to queues that are used for routing records.
+   > Agents in a queue are modeled as a bookable resource and therefore will be considered for assignment. However, we recommend that you don't add agents to queues that are used for routing records.
 
 All users who are assigned the **Omnichannel administrator**, **Omnichannel supervisor**, or **Omnichannel agent** security role can use Omnichannel for Customer Service.
 
