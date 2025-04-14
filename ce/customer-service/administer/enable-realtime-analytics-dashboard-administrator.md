@@ -42,7 +42,7 @@ Omnichannel real-time analytics reports are on by default. You can use the Custo
 
 1. Sign in to Dynamics 365, and on the apps page, select Customer Service admin center.
     > [!Note]
-    > The Customer Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Customer Service admin center](../implement/cs-admin-center.md#get-started-with-customer-service-admin-center)
+    > The Copilot Service admin center app is automatically installed in all the Customer Service organizations. More information: [Get started with Copilot Service admin center](../implement/cs-admin-center.md#get-started-with-copilot-service-admin-center)
 
 1. In the site map, select **Insights** in **Operations**. The **Insights** page appears.
 
@@ -83,7 +83,7 @@ If you customized the Customer Service workspace or Contact Center workspace app
 [View and understand the Voice report in Omnichannel real-time analytics](../use/realtime-voice-dashboard.md)  
 [View and understand the Agents report in Omnichannel real-time analytics](../use/realtime-agents-analytics.md)  
 [View and understand the Ongoing Conversation report in Omnichannel real-time analytics](../use/realtime-ongoing.md)  
-[Use Omnichannel for Customer Service metrics](../use/oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)  
+[Use report metrics](../use/oc-metrics-dimensions.md)  
 [Configure user security to resources in an environment](/power-platform/admin/database-security)  
 [How access to a record is determined](/power-platform/admin/how-record-access-determined)  
 

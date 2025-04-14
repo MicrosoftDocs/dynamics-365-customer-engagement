@@ -1,7 +1,7 @@
 ---
 title: Forecast case and conversation volumes, and service representatives for conversations
 description: Learn how to use forecast reports to predict service representative, case, and conversation volumes in Dynamics 365 Customer Service.
-ms.date: 11/28/2024
+ms.date: 02/10/2025
 ms.topic: conceptual
 author: lalexms
 ms.author: laalexan
@@ -19,6 +19,9 @@ ms.custom:
 
 [!INCLUDE[cc-feature-availability](../../includes/cc-feature-availability.md)]
 
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
+
+
 > [!Note]
 > Case information is applicable to Customer Service only.
 
@@ -35,7 +38,7 @@ As a supervisor, you can use the forecast reports to help plan the right level o
 
 You can use the forecast reports for service representative, case, and conversation volumes in the following ways:
 
-- Forecast upcoming case and conversation volumes based on historical traffic and the number of service representatives needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has configured chatbots for your conversational channels, the system excludes conversations that chatbots handle without having a service representative join the conversation. This function ensures that you can rely on the predicted conversation volumes for service representative staffing.
+- Forecast upcoming case and conversation volumes based on historical traffic and the number of service representatives needed to meet the forecasted conversation volume. For conversation volume forecasting, if your administrator has configured AI agents for your conversational channels, the system excludes conversations that AI agents handle without having a service representative join the conversation. This function ensures that you can rely on the predicted conversation volumes for service representative staffing.
 
 - Visualize forecasted volumes and service representative demand on a daily basis, for a time range up to six months, depending on how many days of cases or conversations were created in the past. This forecast can be used to plan service representative resourcing and recruitment, to meet future demand.
 

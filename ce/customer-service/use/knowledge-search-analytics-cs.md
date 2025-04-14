@@ -88,6 +88,12 @@ Use the Timezone option available in the reports to view the  time information a
 
 :::image type="content" source="../media/knowledge-analytics-timezone.png" alt-text="Screenshot shows Timezone view in reports":::
 
+## Overall performance (Preview)
+
+[!INCLUDE preview-banner]
+
+You can view this report if your administrator has enabled the **Customer Knowledge Management Agent (preview)** and enabled the **Real-time creation** and **Creation from historical cases** options. Learn more in [Manage Customer Knowledge Management Agent (preview)](../administer/admin-km-agent.md#manage-customer-knowledge-management-agent-preview).
+
 ### Related information
 
 [Configure knowledge search insights](../administer/enable-knowledge-search-insights.md)  

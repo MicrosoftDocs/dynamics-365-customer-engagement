@@ -85,12 +85,7 @@ As a seller, it's important to understand what's working better for a deal and l
 
 1. In the Sales Hub app, select **Opportunities**, and then open an opportunity.
 1. In the list, select the **Sales Insights** form.
-
-    :::image type="content" source="media/sales-insights-form.png" alt-text="Screenshot of selecting the Sales Insights form.":::
-
 1. Select the **Relationship Analytics** tab.
-
-    :::image type="content" source="media/relationship-analytics-tab-large.png" alt-text="Screenshot of relationship analytics for an opportunity.":::
 
 If relationship analytics can't detect opportunities that are similar to the current opportunity, it shows KPIs of the top 100 won opportunities. [Learn more about enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
 

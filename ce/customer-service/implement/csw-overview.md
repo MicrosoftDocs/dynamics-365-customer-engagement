@@ -1,7 +1,7 @@
 ---
 title: Overview of the Customer Service workspace application for Dynamics 365 Customer Service
 description: Overview of Customer Service workspace for Dynamics 365 Customer Service.
-ms.date: 12/12/2024
+ms.date: 03/17/2025
 ms.topic: overview
 author: gandhamm
 ms.author: mgandham
@@ -17,27 +17,26 @@ ms.collection: get-started
 
 # Get started with Customer Service workspace
 
-Dynamics 365 Customer Service workspace helps agents increase productivity with a browser-like, tabbed experience. Agents can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows agents to work on multiple sessions at a time in a single workspace.
+Dynamics 365 Customer Service workspace helps customer service representatives (service representatives or representatives) increase productivity with a browser-like, tabbed experience. Service representatives can use the app to work on multiple cases and conversations. It's a modern, customizable, high-productivity application that allows them to work on multiple sessions at a time in a single workspace.
 
-The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, which helps boost agent productivity. Features such as agent scripts and macros provide agents with guidance and resources to automate repetitive tasks to achieve a great customer experience.
+The application uses artificial intelligence in productivity tools like Smart Assist to identify similar cases and relevant articles, thereby boosting representative productivity. Features such as agent scripts and macros provide representatives with guidance and resources to automate repetitive tasks to achieve a great customer experience.
 
-For more information about licensing and system requirements, refer to [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
+Learn more about licensing and system requirements in [Customer Service workspace system requirements](customer-service-workspace-system-requirements.md).
 
 **Set up Omnichannel in Customer Service workspace** 
 
-With the Dynamics 365 Customer Service Digital Messaging add-on, the service representatives who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Customer Service workspace app. More information: [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels)
+With the Dynamics 365 Customer Service Digital Messaging add-on, the representative who work on cases can also engage with customers via channels like Live Chat, voice, and SMS without leaving the Customer Service workspace app. Learn more in [Set up Omnichannel for Customer Service channels in Customer Service workspace](/dynamics365/app-profile-manager/csw-enable-channels).
 
 :::image type="content" source="../media/csw-default-overview.png" alt-text="Screenshot of the enhanced multisession Customer Service workspace":::
 
 ## Customer Service workspace sessions and tabs
 
-Customer Service workspace allows service representatives to work on multiple sessions at a time in a single app while keeping the work organized.
-- Service representatives can work on up to nine sessions and within a session, they can open up to 10 tabs.
-- A new session starts when a service representative opens a case from the **Home** session or accepts an incoming conversation.
-- If the service representative opens the customer record from a session, a new tab opens in the same session. 
-- Service representatives can select the hamburger icon to access the site map. 
-- When a service representative opens a page from the site map, the page loads in the current focused session.
-
+Customer Service workspace allows representatives to work on multiple sessions at a time in a single app while keeping the work organized.
+- Representatives can work on up to nine sessions and within a session, they can open up to 10 tabs.
+- A new session starts when a representative opens a case from the **Home** session or accepts an incoming conversation.
+- If the representative opens the customer record from a session, a new tab opens in the same session. 
+- Representatives can select the hamburger icon to access the site map. 
+- When a representative opens a page from the site map, the page loads in the current focused session.
 
 ### Navigate sessions and tabs
 
@@ -63,7 +62,7 @@ If your administrator turned on session restore, key entities in Customer Servic
 
 Session restore automatically restores cases, accounts, and their associated application tabs without requiring you to manually reopen them. Focus is restored to the last session or application tab in view. After the presence is loaded, conversations, including calls and chats, are reinstated. 
 
-For more information, refer to [Enable session restore to automatically reopen sessions and tabs (preview)](../administer/enable-session-restore.md).
+Learn more in [Enable session restore to automatically reopen sessions and tabs (preview)](../administer/enable-session-restore.md).
 
 
 ### Use the Inbox
@@ -79,13 +78,13 @@ The asynchronous channels available in the conversation inbox are:
 - WhatsApp
 - Microsoft Teams
 
-For more information, refer to [Configure the inbox view](../administer/configure-inbox.md).
+Learn more in [Configure the inbox view](../administer/configure-inbox.md).
 
 ### Use the productivity pane with Smart Assist
 
 When you work on a case, the productivity pane on the right side of the Customer Service workspace displays intelligence-driven suggestions to help you. The productivity pane uses Smart Assist to suggest related cases and knowledge articles that might be relevant to the case you're working on. There are also customer service representative scripts that guide you through a consistent series of steps with potentially automated actions through macros.
 
-For more information, refer to [Productivity pane](../use/../use/csw-productivity-pane.md).
+Learn more in [Productivity pane](../use/../use/csw-productivity-pane.md).
 
 ## Work with cases, activities, knowledge articles, and email templates
 
@@ -95,11 +94,11 @@ On the Customer Service Agent Dashboard, here are some of the actions you can do
 - View cases available to work on
 - Create, delete, and filter cases and activities from the workspace
 
-### Customize the agent experience with Customer Service admin center
+### Customize the representative experience with Customer Service admin center
 
-Agent experience profiles enable you to create targeted app experiences for agents and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
+Agent experience profiles enable you to create targeted app experiences for representatives and supervisors, and are an alternative to building and maintaining custom apps. With the agent experience profiles, administrators can create custom profiles with specific session templates, conversation channels, and productivity tools. These profiles can then be assigned to users.
 
-For more information, refer to [Agent experience profiles](../administer/overview.md).
+Learn more in [Agent experience profiles](../administer/overview.md).
 
 ## Considerations
 
@@ -109,9 +108,9 @@ Here are a few things to note when you use Customer Service workspace in your or
 - `XRM.Navigation.openForm` and `Xrm.Navigation.navigateTo` APIs have a similar navigation as the multisession app. For example:
   - A new session is initiated if you open a form through `XRM.Navigation.openForm` from Home.
   - A new tab in the focused session is initiated if you open a form through `XRM.Navigation.openForm` from a case session.
-- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. More information: [createTab method](../develop/reference/methods/createTab.md)
-- You can open sessions and tabs using Microsoft.Apm APIs. More information: [App profile manager JavaScript API Reference](../develop/microsoft-apm.md) 
-- The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You can't navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
+- Opening a WebResource through `Xrm.Navigation.openWebResource` opens a new browser window but doesn't remove the navigation and command bars. You can programmatically open web resources as session tabs using the `Microsoft.Apm.createTab` method. Learn more in [createTab method](../develop/reference/methods/createTab.md).
+- You can open sessions and tabs using Microsoft.Apm APIs. Learn more in [App profile manager JavaScript API Reference](../develop/microsoft-apm.md).
+- The multisession capabilities are supported in the Customer Service workspace and Omnichannel for Customer Service apps only. You won't be able to navigate across multiple sessions in a custom app or a copy of the Customer Service workspace app in your environment.
 
 ### Limitations
 

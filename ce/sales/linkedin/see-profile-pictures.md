@@ -1,7 +1,7 @@
 ---
 title: See LinkedIn profile photos for matched leads in Dynamics 365
 description: For leads and contacts that are matched to a LinkedIn member profile, you can follow these steps to enable the system to display profile photos.
-ms.date: 10/14/2024
+ms.date: 01/31/2025
 ms.topic: article
 author: udaykirang
 ms.author: udag
@@ -13,13 +13,8 @@ ms.custom:
 
 For leads and contacts that are matched to a LinkedIn member profile, the system can show profile pictures from LinkedIn. 
 
-1. In your app, select the **Settings** icon, and then select **Advanced Settings**.
-
-    :::image type="content" source="../media/advanced-settings-option.png" alt-text="Screenshot of the Advanced Settings link in the site map.":::
-
-    The **Business Management settings** page opens in a new browser tab.
-
-1. Select **LinkedIn Sales Navigator**.
+1. In the sales app, go to **Settings** > **Advanced Settings**.
+1. On the **Business Management** page, select **LinkedIn Sales Navigator**.
 1. Enable the **Daily profile picture updates** toggle and select **Save**.
 
     The system will now display profile pictures for matched leads and contacts.

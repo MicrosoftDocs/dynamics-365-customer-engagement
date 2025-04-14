@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 02/03/2025
+ms.date: 03/27/2025
 ms.custom:
   - dyn365-customerservice
   - bap-template
@@ -30,9 +30,9 @@ Additionally, you can track customer sentiment to analyze whether customers are 
 
 By editing the visual display, you can add metrics to the ones that are already shown on the **Summary** report. For more information, go to [Customize visual display](customize-reports.md).
 
-[Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)
+[Learn more about the metrics that are shown on the Summary report.](oc-metrics-dimensions.md#)
 
-:::image type="content" source="../media/realtime_summary_page.png" alt-text="Screenshot of the real-time summary report":::
+:::image type="content" source="../media/realtime-summary-page.png" alt-text="Screenshot of the real-time summary report.":::
 
 ## Interactive charts
 
@@ -63,7 +63,7 @@ These tabs will help you effectively manage service representative activity in r
 
 ### Related information
 
-[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md#use-omnichannel-for-customer-service-metrics)<br>
+[Use Omnichannel for Customer Service metrics](oc-metrics-dimensions.md)<br>
 [Manage real-time analytics reports in Omnichannel for Customer Service](../administer/enable-realtime-analytics-dashboard-administrator.md)<br>
 [Overview of Omnichannel real-time analytics dashboard](intro-realtime-analytics-dashboard.md#overview-of-omnichannel-real-time-analytics-dashboard)<br>
 [View and understand the Voice report in Omnichannel real-time analytics](realtime-voice-dashboard.md)<br>

@@ -1,8 +1,8 @@
 ---
 title: Lead management FAQs
 description: Get answers to frequently asked questions about various aspects of Lead management such as lead qualification, duplicate detection, and scoring. 
-ms.date: 11/11/2024
-ms.topic: troubleshooting
+ms.date: 01/24/2025
+ms.topic: faq
 author: udaykirang
 ms.author: udag
 ms.reviewer: udag
@@ -56,6 +56,18 @@ The **New Opportunity** button is disabled in the following scenarios:
 
 For more information, see [Customize opportunity creation experience for qualified leads](define-lead-qualification-experience.md#customize-opportunity-creation-experience-for-qualified-leads).
 
+## Why can't I see the business process flow on all the newly created opportunities?
+
+A lead's business process flow can only be associated with one opportunity record. If you create multiple opportunities for a lead, the business process flow is only associated with the default opportunity record.
+
+To associate the business process flow with a different opportunity,
+
+1. Open the lead record and select the **Qualify** section of the process bar.
+1. Select **Set Active** and then select **Next Stage**.
+   You'll see all the opportunities you created for the lead.
+1. Select the opportunity you want to associate with the business process flow and save the record.
+1. Open the opportunity record to verify whether the business process flow is associated with the record.
+
 ### Why can't I edit the account and contact records in the Qualify lead side pane?
 
 If your admin has set account and contact records to be created automatically, these records aren't editable in the Qualify lead side pane. To make changes, you need to close the side pane, edit the details in the Lead form, and then select **Qualify** again. 
@@ -95,16 +107,13 @@ If the [duplicate detection rules](/power-platform/admin/set-up-duplicate-detect
 
 - Go to the leads grid view, select the lead and qualify.
 - Unpublish the rule that is causing the error and qualify the lead again. Contact your administrator to unpublish the rules using the following steps:
-    1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-
-       > [!NOTE]
-       > The **Advanced Settings** page is moving from the web client to an Unified Interface app. If your organization has enabled the public preview of the **Advanced settings redirection** feature, you’ll see the settings open in the Power Platform Environment Settings app. Find more information about the app and navigation path in [Advanced settings in the new experience](advanced-settings-new-experience.md).
-
-    1. Select the rule and then select **Unpublish**.
+    1. In the sales app, go to **Settings** > **Advanced settings**.
+    1. Go to **System** > **Data Management** > **Duplicate detection rules**.
+    1. Select the rule, and then select **Unpublish** on the command bar.
 
 - If a rule is required only to create or update the lead, but not required for qualification, ensure that duplicate detection rules don’t run on qualified leads. Enable the **Exclude inactive matching records** option and qualify the lead. Contact your administrator to enable the option using the following steps: 
-    1. Go to **Advanced settings** > **Settings** > **System** > **Data Management** > **Duplicate Detection Rules**.
-
+    1. In the sales app, go to **Settings** > **Advanced settings**.
+    1. Go to **System** > **Data Management** > **Duplicate detection rules**.
     1. Open and unpublish the rule.
     1. Select the **Exclude inactive matching records** option.  
 

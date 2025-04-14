@@ -1,7 +1,7 @@
 ---
 title: FAQ about automatic record creation
 description: Learn answers to frequently asked questions about automatic record creation.
-ms.date: 12/13/2024
+ms.date: 03/18/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -79,15 +79,15 @@ The following section provides answers to questions about migrated rule or flows
 Active rule with rule item:
 If you activate a rule, you see one active rule with the name **ARC: rule item name**. The Power Automate flows turn on automatically whenever you activate a rule. If you see that your rule is activated, navigate to the Power Automate flow page to confirm that the flow is turned on, as the ARC rule works only when this flow is turned on.
  
-Inactive Rule with rule item:
+Inactive rule with rule item:
 For any inactive ARC rule, you also see one flow only with the name **ARC: rule item name**, but the flow is turned off automatically. This flow is the only one associated with the ARC rule and invoked during run time.
  
 Active or inactive rule without rule item:
-ARC doesn't run if you don't have a rule item. You don't see any flows related to this rule. You can choose to not have any conditions associated with the rule item. For ARC to run, you must deactivate the rule and create a rule item without any conditions, which creates a flow. 
+ARC doesn't run if you don't have a rule item. You don't see any flows related to this rule. You can choose to not have any conditions associated with the rule item. For ARC to run, you must deactivate the rule and then create a rule item without any conditions, which creates a flow. 
 
-### What does the flow ARC | rule name do, and can I customize it?
+### Why do I still see flow ARC| rule name, and can I customize it?
 
-The purpose of this flow is to evaluate all the rule item conditions to select the first match and invoke its associated flow. This flow shouldn't be customized.  
+If your rule has been active since June 2024, you'll see this flow, but it's no longer used in runtime. If you deactivate and then reactivate this flow, you'll no longer see it. 
 
 ### I see that the ARC flow trigger is on the email update filtering on importsequencenumber attribute. Is it the reason that cases aren't being created for some emails?
 
@@ -100,10 +100,6 @@ No, changing the flow trigger to the create action or removing the filtering att
 ### When I export an ARC rule from an organization, what other required components do I need to include in the same solution?
 
 You must include the rule item’s associated flows with the ARC rules in the exported solution. You can include them by selecting the rule and then selecting **Add required components**. The rule item’s associated flows need to be named as **ARC: rule item name**. Don't include flows with the name **ARC | rule name** in the solutions.
-
-### I imported a modern ARC rule with its associated flows. After I activate the imported rule, I see duplicated flows with name ARC | rule name in the Power Automate portal. Does this duplication affect run-time issues, like creating duplicate cases?  
-
-No, runtime or create duplicate cases aren't affected. The flow with name **ARC | rule name** is created during rule activation. The reason you see duplicates is because those duplicated flows were included in a managed solution and imported to the organization. See the previous question for what must be included while exporting or importing an ARC rule through solution.
 
 ### Can I turn off or on ARC flows directly in the Power Automate portal?  
 

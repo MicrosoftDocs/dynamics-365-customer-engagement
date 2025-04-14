@@ -1,7 +1,7 @@
 ---
 title: "Enable customization of Opportunity Close form | MicrosoftDocs"
 description: "Enable system customizers to customize the opportunity close experience so that sales reps can capture details about why an opportunity was closed."
-ms.date: 01/16/2024
+ms.date: 02/25/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -49,16 +49,12 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 4.  Select **OK**.
 
+---
 
-
-
-[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
-
-## Related information
+## Next steps
 
 [Customize the Opportunity Close form](customize-opportunity-close-experience.md)  
 [Close opportunities as won or lost](close-opportunity-won-lost-sales.md)
 
 
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
-
+[!INCLUDE [cant-find-option](../includes/cant-find-option.md)]
