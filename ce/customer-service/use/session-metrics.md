@@ -26,7 +26,7 @@ This article highlights key metrics from Customer Service analytics reports to h
 
 ## Session
 
-This metric tracks assignment attempts within a single queue. When a conversation is routed to a queue for assignment, a new session is created to track the process. If the assignment is successful, the session updates the "agent assigned on" and "agent accepted on" measures. A session can be associated with a customer service representative, bot, or IVR.
+This metric tracks assignment attempts within a single queue. When a conversation is routed to a queue for assignment, a new session is created to track the process. If the assignment is successful, the session updates the "agent assigned on" and "agent accepted on" measures. A session can be associated with a customer service representative, agent, or IVR.
 
 ## Active sessions
 
