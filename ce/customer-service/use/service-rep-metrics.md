@@ -27,7 +27,7 @@ This article provides detailed metrics to evaluate the performance and efficienc
 
 ## Average first response time
 
-Whereas speed to answer provides insights into how quickly a service representative was connected with a customer, first response time provides insights into how quickly the service representative responded to the customer. First response time is a measure of the time that customers spend waiting for a first response from a service representative. The time is adjusted based on operating hours. The calculation is based on the time between the point when a customer initiates a conversation (or, in the case of an AI agent-escalated conversation, the point when the AI agent escalates it) and the point when the service representative accepts the request and responds to the customer. For messaging conversations, this time represents how soon the service representative sent the first response to customer.
+First response time is a measure of the time that customers spend waiting for the initial response from a service representative. This metric measures the time from when a customer initiates a conversation (or an AI agent escalates it) to when a service representative accepts and responds. The time is adjusted based on operating hours. First response time provides insight into how quickly a service representative responded to the customer.  
 
 The system calculates average first response time by dividing the total first response time across all engaged conversations by the number of engaged conversations.
 
