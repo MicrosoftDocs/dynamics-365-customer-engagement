@@ -91,7 +91,8 @@ This metric represents the service representative participation **consult** mode
 
 - **Consults requested**: The total number of requested consult sessions.
 
-- **Consult requests accepted**: The total number of sessions that were requested for consultation and accepted by the service representative.
+- **Consult requests accepted**:
+The total number of consult sessions requested and accepted by a service representative.
 
 - **Consult requests not accepted**: The total number of sessions that were requested for consultation and had no acceptance from the service representative.
 
