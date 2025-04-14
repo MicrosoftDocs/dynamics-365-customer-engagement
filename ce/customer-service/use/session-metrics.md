@@ -30,7 +30,7 @@ This metric tracks assignment attempts within a single queue. When a conversatio
 
 ## Active sessions
 
-The number of sessions that are currently in progress. The system considers a session as active if no service representative is assigned to it, it's awaiting service representative acceptance, or service representatives are actively helping customers.
+The number of sessions that are currently in progress. The system considers a session as active if no service representative is assigned to the session, the session is awaiting service representative acceptance, or service representatives are actively helping customers.
 
 ## Closed sessions
 
@@ -76,7 +76,7 @@ The rate at which sessions time out because of service representative's inactivi
 
 ## Session wait time
 
-This metric is a measure of the time, in seconds, that a customer spends waiting in a specific queue before a service representative accepts their request. If the customer abandons the request, or if the conversation is transferred, theis metric measures the time from when the customer request arrives in the queue to when the request is closed.
+This metric is a measure of the time, in seconds, that a customer spends waiting in a specific queue before a service representative accepts their request. If the customer abandons the request, or if the conversation is transferred, this metric measures the time from when the customer request arrives in the queue to when the request is closed.
 
 ## Average session handle time
 
@@ -97,7 +97,7 @@ Multiple service representatives might handle a customer request, including a co
 
 ## Session participant
 
-The list of participants within a single session. A session will contain at least one session participant; participant can be a service representative, agent, or IVR. Additional participants can be added to the same session in scenarios like Monitor or Consult.
+The list of participants within a single session. A session contains at least one session participant; participant can be a service representative, agent, or IVR. Additional participants can be added to the same session in scenarios like Monitor or Consult.
 
 
 ## Session participant count
@@ -111,5 +111,5 @@ The current sentiment of the customer. It's powered by Contact Center sentiment 
 ## Related information
 
 [Customize visual display](customize-reports.md#customize-visual-display)  
-[Conversation metrics](oc-metrics-dimensions.md#conversation-metrics)  
+[Calculate conversation metrics](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)  
 [Service representative metrics](service-rep-metrics.md#service-representative-metrics)

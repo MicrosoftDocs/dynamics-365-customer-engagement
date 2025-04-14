@@ -33,7 +33,7 @@ The system calculates average first response time by dividing the total first re
 
 ## Average service representative response time
 
-Service representative response time is the average time that customers who send a message wait to get a response from a service representative. The time is adjusted based on operating hours. it is calculated by dividing total response time by the number of message exchanges in engaged conversations. Longer response times mean customers wait longer between messages, negatively impacting their experience.
+Service representative response time is the average time that customers who send a message wait to get a response from a service representative. The time is adjusted based on operating hours. It's calculated by dividing total response time by the number of message exchanges in engaged conversations. Longer response times mean customers wait longer between messages, negatively impacting their experience.
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
@@ -85,9 +85,9 @@ Select **Edit report** to find the following metrics in your data model when you
 
 - **Average consult time**: The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
-- **Consult acceptance rate**: The total number of sessions accepted by a service representative out of all the requested consult sessions.
+- **Consult acceptance rate**: The total number of sessions accepted by a service representative out of all the requested to consult sessions.
 
-- **Consult not acceptance rate**: The total number of consult sessions that weren't accepted by a service representative, including timed-out and rejected requests.
+- **Consult not acceptance rate**: The total number of consult sessions that a service representative didn't accept, including timed-out and rejected requests.
 
 - **Consult rejection rate**: The total number of consult sessions rejected by a service representative out of all requested sessions.
 
@@ -108,10 +108,10 @@ The total number of consult sessions requested and accepted by a service represe
 
 - **Consult timed out rate**: The total number of requested consult sessions that timed out.
 
-## Related infromation
+## Related information
 
 [Customize visual display](customize-reports.md#customize-visual-display)  
-[Conversation metrics](oc-metrics-dimensions.md#conversation-metrics)  
-[Session](session-metrics.md#session)
+[Calculate conversation metrics](../develop/calculate-conversation-metrics.md#calculate-conversation-metrics)  
+[Session metrics](session-metrics.md#session-metrics)
 
 
