@@ -1,7 +1,7 @@
 ---
 title: Overview of case management
 description: This topic provides information on how to manage cases in Dynamics 365 Customer Service apps.
-ms.date: 01/31/2025
+ms.date: 04/04/2025
 ms.topic: overview
 author: neeranelli
 ms.author: nenellim
@@ -16,8 +16,6 @@ searchScope:
 ---
 
 # Overview of case management
-
-[!INCLUDE[cc-use-with-omnichannel](../../includes/cc-use-with-omnichannel.md)]
 
 Case management is the core record that tracks individual customer service issues across channels and customer service representatives (service representatives or representatives) over time. Customers want to have a long and happy relationship with brands over time, and throughout that relationship they may have several support inquiries through more than one support channel. To achieve this goal, Dynamics 365 Customer Service provides enhanced case configuration and improved case analytics for supervisors.
 

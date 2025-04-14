@@ -1,7 +1,7 @@
 ---
 title: Configure a chat widget
 description: Learn how to configure a chat widget in Dynamics 365 Contact Center.
-ms.date: 02/05/2025
+ms.date: 04/08/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -15,13 +15,13 @@ ms.topic: article
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-You can configure a live chat widget that can be displayed on your portal for customers to interact with AI agents and customer service representatives (service representatives or representatives).
+You can configure a live chat widget that can be displayed on your portal for customers to interact with AI agents and service representatives.
 
 To add a chat widget, configure a workstream that defines how chat conversations are routed to queues. Learn more in [Create a workstream](create-workstreams.md).
 
 ## Configure a chat widget
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Channels** in **Customer support**. The **Channels** page appears.
+1. In the site map of Copilot Service admin center, select **Channels** in **Customer support**. The **Channels** page appears.
     
 1. Select **Manage** for **Chat**. The **Chat channels** page appears.
     
@@ -34,7 +34,7 @@ To add a chat widget, configure a workstream that defines how chat conversations
    - **Subtitle:** Other title, such as "We're online".
    - **Theme color:** Choose a color from the list.
    - **Logo URL:** Select the default value or enter the link to the logo that you want to be displayed.
-   - **Agent display name:** Select a value from the list.
+   - **Representative display name:** Select a value from the list.
    > [!NOTE]
    > You can customize the chat widget appearance using data tags. Learn more in [Customize live chat widgets using data tags](../develop/customize-chat-widget.md).
 
@@ -79,7 +79,7 @@ You can configure visual and sound alerts that customers can receive when they'r
 
 Do the following steps to enable the customer notifications:
 
-1. In Customer Service admin center or Contact Center admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
+1. In Copilot Service admin center, edit a chat widget, and on the **Chat channel settings** page, select the **User features** tab.
 2. For **Customer notifications**, switch the toggle to **On**. The following checkboxes are displayed as selected:
    - **Show number of new messages**
    - **Play sound notifications for new messages**
