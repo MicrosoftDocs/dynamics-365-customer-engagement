@@ -77,7 +77,9 @@ The time that a service representative spent in a presence status.
 
 ## Consult
 
-This metric represents the service representative participation **consult** mode. The related metrics aren't available by default. You can use these metrics to customize the visual display of your reports. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
+This metric represents the service representative participation **Consult** mode. The related metrics aren't available by default. 
+
+Select **Edit report** to find the following metrics in your data model when you search for **Consult**. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
 ### Related metrics
 
@@ -94,17 +96,17 @@ This metric represents the service representative participation **consult** mode
 - **Consult requests accepted**:
 The total number of consult sessions requested and accepted by a service representative.
 
-- **Consult requests not accepted**: The total number of sessions that were requested for consultation and had no acceptance from the service representative.
+- **Consult requests not accepted**: The total number of requested consult sessions that weren't accepted by a service representative.
 
-- **Consult requests rejected**: The total number of sessions that were requested for consult but the service representative rejected. 
+- **Consult requests rejected**: The total number of requested consult sessions that were rejected by a service representative.
 
-- **Consult requests timed out**: The total number of sessions that were requested for consult from the service representative but resulted in a timeout because the service representative failed to respond.
+- **Consult requests timed out**: The total number of requested consult sessions that timed out because the representative didn't respond.
 
 - **Consult time**: The time taken by service representatives to help other service representatives on consult requests. This metric can be viewed in seconds and in *hh:mm:ss* formats. Available only for the omnichannel real-time out-of-the-box dashboard.
 
 - **Consult sessions**: The total number of sessions that are under consult. Available only for the omnichannel historical out-of-the-box dashboard.
 
-- **Consult timed out rate**: The total number of sessions that resulted in timeout over all the sessions requested for consult from the service representative.
+- **Consult timed out rate**: The total number of requested consult sessions that timed out.
 
 ## Related infromation
 
