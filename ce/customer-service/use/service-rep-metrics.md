@@ -27,11 +27,9 @@ This article provides detailed metrics to evaluate the performance and efficienc
 
 ## Average first response time
 
-First response time is a measure of the time that customers spend waiting for the initial response from a service representative. This metric measures the time from when a customer initiates a conversation (or an AI agent escalates it) to when a service representative accepts and responds. The time is adjusted based on operating hours. First response time provides insight into how quickly a service representative responded to the customer.  
+First response time is a measure of the time that customers spend waiting for the initial response from a service representative. This metric measures the time from when a customer initiates a conversation (or an AI agent escalates it) to when a service representative accepts and responds. The time is adjusted based on operating hours. First response time provides insight into how quickly a service representative responded to the customer. For messages, this time represents how soon the service representative sent the first response to customer. 
 
-The system calculates average first response time by dividing the total first response time across all engaged conversations by the number of engaged conversations.
-
-The time can be viewed in two formats: seconds and *hh:mm:ss*.
+The system calculates average first response time by dividing the total first response time across all engaged conversations by the number of engaged conversations. The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
 ## Average service representative response time
 
@@ -39,17 +37,13 @@ Service representative response time is the average time that customers who send
 
 The time can be viewed in two formats: seconds and *hh:mm:ss*.
 
-## First response service level
-
-The percentage of customer conversations that have a service representative response time of less than 60 seconds.
-
 ## Service representative response service level
 
-This metric is a measure of the percentage of customer messages that have a service representative response time of less than 60 seconds.
+The percentage of customer messages that have a service representative response time of less than 60 seconds.
 
 ## Total capacity units
 
-The maximum capacity units that are assigned. It applies only to organizations that use capacity units.
+The maximum capacity units that are assigned to a representative. It applies only to organizations that use capacity units.
 
 ### Related metrics
 
@@ -66,8 +60,8 @@ The maximum number work items that are allowed, based on the configuration of th
 
 ### Related metrics
 
-- **Total available work item capacity**: This metric is a measure of the maximum number of more work items that can be assigned.
-- **Total work item capacity in use**: This metric is a measure of the work items that are currently being handled.
+- **Total available work item capacity**: This metric is a measure of the maximum number of additional work items that can be assigned.
+- **Total work item capacity in use**: This metric is a measure of the work items that are currently being handled by representatives.
 
 ## Logged in service representatives
 
@@ -79,7 +73,7 @@ This metric is a measure of the total number of omnichannel service representati
 
 ## Status duration
 
-This metric is a measure of the time that a service representative spent in a presence status.
+The time that a service representative spent in a presence status.
 
 ## Consult
 
@@ -89,7 +83,7 @@ This metric represents the service representative participation **consult** mode
 
 - **Average consult time**: The average time that service representatives spend helping other service representatives on consult requests. It's calculated by dividing the total time spent by service representatives on these requests by the total number of consult requests accepted. You can display the average consult time in seconds or in the hh:mm:ss format.
 
-- **Consult acceptance rate**: The total number of sessions accepted by service representative over all the sessions requested for consult from the service representative.
+- **Consult acceptance rate**: The total number of sessions accepted by a service representative out of all the requested consult sessions.
 
 - **Consult not acceptance rate**: The total number of sessions that didn't have acceptance by the service representative over all the sessions requested for consult from the service representative. This number includes timed out and rejected requests.  
 
