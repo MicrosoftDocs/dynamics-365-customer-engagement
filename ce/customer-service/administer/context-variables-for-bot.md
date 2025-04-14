@@ -1,7 +1,7 @@
 ---
 title: Configure context variables for agents
 description: Learn how you can add context variables and then configure them for Azure or Copilot Studio agents in Omnichannel for Customer Service.
-ms.date: 03/07/2025
+ms.date: 04/14/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
