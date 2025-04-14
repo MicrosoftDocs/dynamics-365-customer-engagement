@@ -160,8 +160,9 @@ Keep in mind that the summary fields are set at the organization level. Make sur
 
 Copilot can get the latest news that features or mentions your accounts, curated by Bing. These news articles can be great conversation starters and help you understand the dynamics in your customers' organizations.
 
-> [!NOTE]
-> The latest news feature is available only if your administrator has [provided consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features) and you haven't [turned it off](use-sales-copilot.md#turn-off-bing-search). 
+The latest news feature is available only if the following conditions are met:
+- Your admin has provided consent for Copilot to use Bing search. Learn more in [provide consent for Copilot to use Bing search](/power-platform/admin/geographical-availability-copilot#regions-involved-with-copilots-and-generative-ai-features).  
+- You haven't turned off the Bing search. Learn more in [Turn off Bing search](use-sales-copilot.md#turn-off-bing-search)
 
 As always when you're working with AI-sourced content, read articles thoroughly to confirm they're from authentic sources and are indeed about your customer.
 
