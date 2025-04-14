@@ -1,7 +1,7 @@
 ---
 title: Track and manage activities
 description: Track and manage customer communications with Sales activities such as emails, phone calls, tasks, and appointments.
-ms.date: 03/29/2024
+ms.date: 04/14/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -50,6 +50,10 @@ The following view types are supported for the **Activity** grid:
 
 ## Change your activities view
 
+1. In the site map, under **My Work** select **Activities**.
+
+1. From the **Activities** menu, select **My Activities**.
+
 You can use views to see the activities you want. For example, you can use the **My Activities** view to see activities assigned to you and **My Team Members' Activities** view to see your team's activities. 
 
 :::image type="content" source="media/activity-view-drop-down.png" alt-text="Screenshot of activity view drop-down list.":::
@@ -90,7 +94,7 @@ Otherwise, to keep a history of your interactions with a customer, you should ad
   
 **To add an activity for yourself:**
 
-1. On the navigation bar, select **Create** and then select **Activities** > ***Activity type***.  
+1. On the navigation bar, select **Activities** > ***Activity type***.  
 1. Fill in the fields and then select **Save and Close**.  
   
 ## Attach a document  
