@@ -29,6 +29,39 @@ The insights dashboards in Omnichannel for Customer Service contain various char
 
 You can [customize the visual display](customize-reports.md#customize-visual-display) of the dashboards and also save your personalized views as [bookmarks](manage-bookmarks.md).
 
+Learn more about managing the dashboards in [Manage historical analytics reports in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md).
+
+## Omnichannel historical analytics reports
+
+The following reports are available for Omnichannel historical analytics.
+
+## Summary
+
+The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Conversation dashboard](omnichannel-summary-dashboard.md).
+
+## Conversation
+
+The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in the [Conversation dashboard](oc-conversation-dashboard.md).
+
+## Queue
+
+The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn more in [Queue dashboard](oc-queue-dashboard.md).
+
+## Agent
+
+The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. Learn more in the [Agent dashboard](agent-dashboard.md#agent-dashboard).
+
+## Bot
+
+The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
+
+## Conversation Topics
+
+The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in the [Topics dashboard](oc-conversation-topics-dashboard.md).
+
+> [!NOTE]
+> The reports don't include work items of the Entity Record channel.
+
 ## Data model
 
 - Learn more about [Data models and report mappings for historical analytics reports in Customer Service](oob-data-models.md#data-models-and-report-mappings-for-historical-analytics-reports-in-customer-service).
@@ -41,60 +74,9 @@ You can [customize the visual display](customize-reports.md#customize-visual-dis
 [Session metrics](session-metrics.md#session-metrics)  
 [Service representative metrics](service-rep-metrics.md#service-representative-metrics)
 
-## Manage dashboards
-
-Learn more about managing the dashboards in [Manage historical analytics reports in Omnichannel for Customer Service](../administer/oc-historical-analytics-reports.md).
-
-## Omnichannel historical analytics reports
-
-The following reports are available for Omnichannel historical analytics.
-
-### Summary
-
-The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Conversation dashboard](omnichannel-summary-dashboard.md).
-
-### Conversation
-
-The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in the [Conversation dashboard](oc-conversation-dashboard.md).
-
-### Queue
-
-The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn more in [Queue dashboard](oc-queue-dashboard.md).
-
-### Agent
-
-The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. Learn more in the [Agent dashboard](agent-dashboard.md#agent-dashboard).
-
-### Bot
-
-The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
-
-### Conversation Topics
-
-The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in the [Topics dashboard](oc-conversation-topics-dashboard.md).
-
-> [!NOTE]
-> The reports don't include work items of the Entity Record channel.
-
 ## Access the dashboards
 
 [!INCLUDE[cc-navigation](../../includes/cc-navigation.md)]
-
-## Language availability for topics 
-
-The topics capability in the Customer Service historical analytics reports comes with a natural language understanding model that can understand text semantics and intent in the following languages: 
-
-- English 
-- French 
-- German 
-- Italian 
-- Japanese 
-- Portuguese 
-- Simplified Chinese 
-- Spanish 
-
-> [!NOTE]
-> While topic discovery is enabled and still possible in languages that aren't listed in this section, there might be differences in experience for users who uaw topics in unsupported languages.
 
 ## Reports refresh and data retention
 
