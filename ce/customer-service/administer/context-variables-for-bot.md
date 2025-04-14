@@ -78,7 +78,7 @@ To have your Copilot Studio agent read context variables from Omnichannel, do th
 5. Select the new variable name. The **Variable properties** pane appears. In the pane, set the **Variable name** to match the Omnichannel context variable's name exactly (it's case sensitive). 
 6. In the **Reference** section, select the ellipses (**...**) and select **Get value from this node if empty**. The Copilot Studio agent retrieves the variable value from this node at runtime.
 7. In the **Usage** section, select **Global (any topic can access)** and **External sources can set values** so that Copilot Studio agent accepts data from omnichannel and this variable can be used in any topic.
-8. If you are using data from your work classification rules in the variable, ensure you set a timeout length in the variable definition. Learn more in [Set global variables from external sources](/microsoft-copilot-studio/authoring-variables-bot?tabs=webApp#set-global-variables-from-external-sources).
+8. If you are using data from your work classification rules in the variable, ensure you set a time-out length in the variable definition. Learn more in [Set global variables from external sources](/microsoft-copilot-studio/authoring-variables-bot?tabs=webApp#set-global-variables-from-external-sources).
 9. Close the **Variable properties** pane.
 10. In your node, enter a value in **To value** that matches the data type your agent expects. For example, if your agent should use the customer's phone number from omnichannel, set it to Activity.From.Name.
     
