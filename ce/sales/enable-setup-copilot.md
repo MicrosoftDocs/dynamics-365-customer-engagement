@@ -64,7 +64,7 @@ Turning on Copilot features enables the chat and embedded Copilot experiences in
 
 1. Under **All apps**, select a global setting to apply to all sales apps.
 
-    The **Default** setting applies the [default behavior](#default-setting-copilot) explained at the beginning of this article.
+    The **Default** setting applies the [default behavior](#default-setting-copilot). 
 
     You can override the global setting at the app level. For example, to turn on Copilot only for the Sales Hub app, select **Off** for **All apps**, and then under **Individual apps**, select **On** only for the Sales Hub app.
 
