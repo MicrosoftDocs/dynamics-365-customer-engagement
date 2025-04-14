@@ -60,7 +60,7 @@ The following metrics are a measure of the conversations grouped by call closure
 
     - **Ghost Conversation**: Conversations assigned to a service representative but there was no response from the customer after the conversation was connected. 
     - **Ghost Conversations Rate**: Percentage of engaged conversations that are connected to a service representative with no response from the customer. 
-    - Conversation disconnect rate: Percentage of conversations that were ended by customer before a service representative ended the conversation.
+    - **Conversation disconnect rate**: Percentage of conversations that were ended by the customer before a service representative ended the conversation.
     - **Disconnect reason**: Represents the reason behind a customer disconnect. For chats, it represents whether the customer closed the widget, ended the conversation, or there was a system disconnect. For voice, it represents whether the customer ended the call, or the call was disconnected due to connection issues.
 
 ### Queue name
