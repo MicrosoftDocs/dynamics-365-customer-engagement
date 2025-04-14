@@ -13,13 +13,6 @@ ms.reviewer: lavanyakr
 
 When you create multiple predictive scoring models, it's important to configure them so that they don't score the same leads because it's difficult to identify which model scored a lead. If you create or edit a model that might duplicate an existing one, you'll receive a warning. You can ignore the warning and create the model anyway, or go back and change the model's configuration.  
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Avoid a duplicate when you're creating a model
 
 When you create a model and select **Get started**, if the model duplicates one or more existing models, you'll receive a warning like this one:

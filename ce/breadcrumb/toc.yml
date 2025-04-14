@@ -1,3 +1,4 @@
+items:
 - name: Learn
   href: /
   topicHref: /
@@ -53,7 +54,20 @@
       topicHref: /dynamics365/linkedin/sync-linkedin-leads
     - name: Marketing
       tocHref: /dynamics365/marketing
-      topicHref: /dynamics365/marketing/get-started-section                      
+      topicHref: /dynamics365/marketing/get-started-section
     - name: Extend Outlook Client
       tocHref: /dynamics365/developer/outlook-client/
       topicHref: /dynamics365/developer/extend-customer-engagement-outlook
+    - name: Table reference # Dyn365 Enabled
+      tocHref: /dynamics365/developer/reference/entities/
+      topicHref: /dynamics365/developer/reference/about-entity-reference
+      items:
+      - name: Sales # Sales
+        tocHref: /dynamics365/sales/developer/entities/
+        topicHref: /dynamics365/sales/developer/about-entity-reference
+      - name: Customer Service # Customer Service
+        tocHref: /dynamics365/customer-service/develop/reference/entities/
+        topicHref: /dynamics365/customer-service/develop/reference/about-entity-reference
+      - name: Field Service # Field Service
+        tocHref: /dynamics365/field-service/developer/reference/entities/
+        topicHref: /dynamics365/field-service/developer/reference/about-entity-reference

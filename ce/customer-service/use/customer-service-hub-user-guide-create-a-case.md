@@ -1,7 +1,7 @@
 ---
-title: Create a case in Customer Service Hub | MicrosoftDocs
-description: Understand cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 12/21/2023
+title: Create a case in Customer Service
+description: Understand how you can quickly create cases in Customer Service.
+ms.date: 01/31/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,7 @@ searchScope:
 ---
 # Work with cases
 
-Track your cases efficiently and act on them quickly in the Customer Service Hub or Customer Service workspace application.
+Track your cases efficiently and act on them quickly in the Customer Service workspace application.
 
 Creating and managing a case can’t be any simpler. With the intuitive case form, you can do all your important tasks and actions without navigating to different parts of the application.  
 
@@ -34,7 +34,7 @@ Watch this video to learn more about case management in the Customer Service Hub
 
 ## Prerequisites
 
-Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.<br/>
+Make sure that you have the Customer Service Manager or Customer Service Representative role, or equivalent permissions.
 
 ## Create a case
 
@@ -116,5 +116,6 @@ Make sure that you have the Customer Service Manager or Customer Service Represe
 
 [Learn the basics of the Customer Service Hub ](../implement/customer-service-hub-user-guide-basics.md)  
 [Use the Main form and its components](../../customerengagement/on-premises/customize/use-main-form-and-components.md)  
+[Use Copilot to resolve cases faster](../use/copilot-use-summary.md#summarize-cases)  
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

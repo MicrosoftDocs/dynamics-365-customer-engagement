@@ -11,12 +11,6 @@ ms.reviewer: udag
 
 If your organization changes its selling process, you might want to edit a sequence to reflect the changes. You can only edit a sequence that's in an inactive state, so you must deactivate or create a copy of it.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Clone a sequence
 
 Cloning a sequence makes it easier to add or remove steps, and save the changes to create new sequence. Also, cloning pulls down a full copy of the sequence data that you're cloning at that point in time, including all steps and configurations. After you make the changes, you can save and activate the cloned sequence and apply it to records.

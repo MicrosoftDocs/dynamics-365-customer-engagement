@@ -18,20 +18,10 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 >- [Basic relationship analytics](relationship-analytics-overview.md#basic-relationship-insights) is available out-of-the-box in all regions for Sales Enterprise users and doesn't require any setup.
 >- [Enhanced relationship analytics](relationship-analytics-overview.md#enhanced-relationship-insights) is available for Sales Premium users and is available only in [specific regions](faq-region-language.md#in-which-countryregion-are-sales-premium-features-available).
 >- For Office 365 data, your organization's data location must be in one of the following locations and not in your region-specific datacenter location:
->    - Global Geography 1 – EMEA (Austria, Finland, France, Great Britain, Ireland, Netherlands)
+>    - Global Geography 1 – EMEA (Austria, Finland, France, England, Ireland, Netherlands)
 >    - Global Geography 2 – Asia Pacific (Hong Kong SAR, Japan, Malaysia, Singapore, South Korea).
 >    - Global Geography 3 – Americas (Brazil, Chile, United States).    
 > To learn more on data center locations, see [Data Center Locations](/microsoft-365/enterprise/o365-data-locations?view=o365-worldwide#data-center-locations&preserve-view=true).
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
->[!IMPORTANT]
->This feature is intended to help sellers or sales managers enhance their team's performance. This feature is not intended for use in making, and should not be used to make, decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with users. This also includes adequately notifying users that their communications with sales persons may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their sales persons that their communications with users may be monitored, recorded, or stored.
 
 ## Prerequisite
 
@@ -42,12 +32,14 @@ Configure relationship analytics to specify whether you want to use Exchange dat
 
 1. In the Sales Hub app, go to **Change area** in the lower-left corner of the page, and select **Sales Insights settings**. 
    
-3. Under **Relationship insights**, select **Analytics and Health**.  
+1. Under **Relationship insights**, select **Analytics and Health**.  
         :::image type="content" source="./media/si-admin-relationship-analytics-enable-in-organization.png" alt-text="A screenshot of the Relationship analytics and health settings page.":::
     When you enable the relationship analytics feature, exchange integration is also automatically enabled. However, the integration won't work until your Microsoft 365 admin provides consent for Dynamics 365 to collect the data.  
 
 1. Turn off **Exchange Online** if you don't want to include emails and meetings from Exchange Online in KPI calculations and analytics. In this case,  relationship analytics will be generated from emails and data stored in Dynamics 365.
 
+   > [!NOTE]
+   > Native integration with Exchange Online is being deprecated in phases. Refer to the [train schedule](/dynamics365/released-versions/dynamics365sales#latest-version-availability) for version 9.0.25032.10001 to know when the feature will be deprecated in your region. If you want to use Exchange data for enhanced insights, [set up server-side synchronization for Exchange](configure-email.md). Otherwise, insights are generated only using emails and data stored in Dynamics 365.
 
 1. Turn on **Relationship Health** to show the relationship health score in opportunities, views, and charts.
 

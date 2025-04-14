@@ -1,7 +1,7 @@
 ---
 title: View the communication panel for conversations
 description: Learn what you can do as an agent in the communication panel when you interact with the customer.
-ms.date: 04/12/2024
+ms.date: 01/22/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -177,6 +177,17 @@ To learn more, see [Search, link, and unlink a record to the conversation](oc-se
 As an agent, you can view the real-time customer satisfaction levels on the communication panel. A sentiment icon is displayed at the top of the communication panel based on the previous six customer messages sent to you.
 
 To learn more, see [Monitor real-time customer sentiment](oc-monitor-real-time-customer-sentiment-sessions.md)
+
+## Close or end a conversation
+
+When you select the close button (**X**) to close the communication panel, a confirmation message appears to let you know that the session will end. Select **Close** on the dialog if you want to end the session.
+
+When you select the **End** button, the conversation ends, and the customer receives a message that the service representative has ended the conversation.
+
+:::image type="content" source="../media/conversation-end-close.png" alt-text="Screenshot of the communication chanel with the close and end options.":::
+
+The conversation behavior is dependent on the channel through which it comes. Learn more in [How conversations are handled on close or end](oc-conversation-state.md#how-conversations-are-handled-on-close-or-end).
+
 
 ### Related information
 

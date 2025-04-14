@@ -22,13 +22,6 @@ The email validation feature in Dynamics 365 Sales helps validate the primary em
 > [!NOTE]
 > These customizations can be applied only to main forms of the `Contact` and `Lead` tables.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/sales/relationship-sales/)<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Enable email validation
 
 You can add the following customizations for email validation:

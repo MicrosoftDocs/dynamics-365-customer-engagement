@@ -1,7 +1,7 @@
 ---
-title: Integrate a Copilot Studio agent
-description: Use this article to get instructions on how to integrate a Copilot Studio agent in your contact center.
-ms.date: 12/16/2024
+title: Integrate a Copilot agent
+description: Use this article to get instructions on how to integrate a Copilot agent in your contact center.
+ms.date: 04/11/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -10,13 +10,11 @@ ms.collection: bap-ai-copilot
 ms.custom: bap-template
 ---
 
-# Integrate a Copilot Studio agent
+# Integrate a Copilot agent
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
-
-[!INCLUDE[azure-ad-rename](../../includes/cc-azure-ad-rename.md)]
 
 [!INCLUDE[cc-trial-sign-up](../../includes/cc-trial-sign-up.md)]
 
@@ -32,7 +30,7 @@ The following capabilities are available for the agent conversations:
 - Monitor the agent conversations in real time by using the supervisor dashboard, which includes details such as customer sentiment.
 - Use the historical dashboards to get insights into the effectiveness of the agents through metrics, such as resolution rate, escalation rate, resolution time, escalation time, and average sentiment.
 
-When a conversation is escalated from a agent to a representative, the representative can see the full transcript of the agent conversation and get complete context while engaging with the customer. Learn more in [Enable a agent to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
+When a conversation is escalated from an agent to a representative, the representative can see the full transcript of the agent conversation and get complete context while engaging with the customer. Learn more in [Enable an agent to escalate and end conversation](/dynamics365/customer-service/develop/bot-escalate-end-conversation?context=/dynamics365/contact-center/context/extend-context).
 
 
 ## Prerequisites
@@ -43,19 +41,19 @@ You must have:
  - The CCI Admin security role to access the agent you create in Customer Service admin center or Contact Center admin center in Copilot Studio.
  - The Omnichannel administrator role. Learn more in [Manage user roles](/dynamics365/customer-service/implement/add-users-assign-roles)
 
-## Create a Copilot Studio agent
+## Create a Copilot agent
 
-You can create Copilot Studio agents in one of the following ways:
+You can create Copilot agents in one of the following ways:
 
-- TCreate the agent in the Dynamics 365 Contact Center admin center and then navigate to Copilot Studio to finish the configuration. Learn more at [add a agent](../administer/manage-your-bots.md).
+- TCreate the agent in the Dynamics 365 Contact Center admin center and then navigate to Copilot Studio to finish the configuration. Learn more in [add an agent](../administer/manage-your-bots.md).
 - Create the agent in Copilot Studio, which is then available in the Dynamics 365 Contact Center admin center. Learn more in:
      - [Create and delete copilots](/microsoft-copilot-studio/authoring-first-bot)
      - [Create a custom agent from a template](/microsoft-copilot-studio/template-fundamentals)
      - [Create voice-enabled agents from templates](/microsoft-copilot-studio/voice-build-from-template)
      
-## Connect your Copilot Studio agent to omnichannel instance
+## Connect your Copilot agent to omnichannel instance
 
-For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot Studio agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot Studio agent to the omnichannel instance. 
+For the agent to be able to interact with customers in Dynamics 365 Contact Center or Customer Service, you must integrate the agent with your application. Follow the procedure in [Connect your Copilot agent to omnichannel](/microsoft-copilot-studio/configuration-hand-off-omnichannel) to connect your Copilot agent to the omnichannel instance. 
 
 When your customers need to speak with a representative, your agent can seamlessly hand off the conversation. When your agent hands off a conversation, it can share the full history of the conversation, and all relevant variables. Make sure you have an escalation article configured in your agent to hand off the conversation to a representative. Learn more in [hand off to a live agent](/microsoft-copilot-studio/advanced-hand-off).
 
@@ -68,9 +66,9 @@ In Copilot Studio, you can add the following capabilities to your agent to finis
 -  IVR capabilities that are specific to voice-enabled agents such as dual-tone multi-frequency (DTMF) input, context variables, call transfer, and speech and DTMF customization. Learn more in [Configure Copilot Studio IVR agents](voice-channel-pva-bots.md).
 - [Customize the look and feel of a copilot](/microsoft-copilot-studio/customize-default-canvas).
 
-## Add a agent to a workstream
+## Add an agent to a workstream
 
-In the Customer Service admin center app, select the Copilot Studio agent from the list of agents in the [**Workstreams**](/dynamics365/customer-service/administer/create-workstreams?context=/dynamics365/contact-center/context/administer-context) area. Learn more in [Add an agent to a workstream](/dynamics365/customer-service/administer/create-workstreams#add-a-bot-to-a-workstream?context=/dynamics365/contact-center/context/administer-context).
+In the Customer Service admin center app, select the Copilot agent from the list of agents in the [**Workstreams**](/dynamics365/customer-service/administer/create-workstreams?context=/dynamics365/contact-center/context/administer-context) area. Learn more in [Add an agent to a workstream](/dynamics365/customer-service/administer/create-workstreams#add-a-bot-to-a-workstream?context=/dynamics365/contact-center/context/administer-context).
 
 > [!NOTE]
 > - You can add only one agent per workstream.
@@ -78,9 +76,9 @@ In the Customer Service admin center app, select the Copilot Studio agent from t
 > - Voice-enabled agents that you create in the Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. Classic agents aren't supported in the enhanced voice experience. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
 
-### Configure context variables for the Copilot Studio agent
+### Configure context variables for the Copilot agent
 
-After you configure your agent and add it to a workstream, you can configure context variables to [route work items](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context). You can also share context from Omnichannel with your Copilot Studio agent to create a rich and personalized experience. For information about creating context variables, go to [Manage context variables](/dynamics365/customer-service/administer/manage-context-variables?context=/dynamics365/contact-center/context/administer-context). For information about configuring context variables for Copilot Studio agents, go to [Configure context variables for Copilot Studio agent](/dynamics365/customer-service/administer/context-variables-for-bot#context-variables-for-copilot-studio-bots?context=/dynamics365/contact-center/context/administer-context).
+After you configure your agent and add it to a workstream, you can configure context variables to [route work items](/dynamics365/customer-service/administer/queues-omnichannel?context=/dynamics365/contact-center/context/administer-context). You can also share context from Omnichannel with your Copilot agent to create a rich and personalized experience. For information about creating context variables, go to [Manage context variables](/dynamics365/customer-service/administer/manage-context-variables?context=/dynamics365/contact-center/context/administer-context). For information about configuring context variables for Copilot Studio agents, go to [Configure context variables for Copilot agent](/dynamics365/customer-service/administer/context-variables-for-bot#context-variables-for-copilot-studio-bots?context=/dynamics365/contact-center/context/administer-context).
 
 ## Add an agent to a queue
 
@@ -95,7 +93,7 @@ This conversation appears in the Omnichannel for Customer Service dashboard with
 
 ## End agent conversations
 
-You must include an end of conversation article in a Copilot Studio agent to provide a clear and natural conclusion to the interaction, enhancing the overall user experience. It also allows the agent to suggest next steps, gather feedback, and handle any final errors, ensuring the user leaves the interaction satisfied. 
+You must include an end of conversation article in a Copilot agent to provide a clear and natural conclusion to the interaction, enhancing the overall user experience. It also allows the agent to suggest next steps, gather feedback, and handle any final errors, ensuring the user leaves the interaction satisfied. 
 
 In the voice channel, the system doesn't listen for the **closeOmnichannelConversation** context variable. You must configure an [end of conversation message](#end-agent-conversations) that explicitly ends the conversation in Omnichannel for Customer Service.
 
@@ -150,10 +148,10 @@ You understand that your data might be transmitted and shared with external syst
 [Configure context variables for agents](context-variables-for-bot.md)  
 [Identify customers automatically](record-identification-rule.md)  
 [Enable an agent to escalate and end conversation](../develop/bot-escalate-end-conversation.md)  
-[Best practices for configuring Azure and Copilot Studio bots](configure-bot-best-practices.md)  
+[Best practices for configuring Azure and Copilot agents](configure-bot-best-practices.md)  
 [Work with queues in Omnichannel for Customer Service](queues-omnichannel.md)  
 [Understand and create workstreams](create-workstreams.md)  
-[Create and edit topics in Copilot Studio agent](/power-virtual-agents/authoring-create-edit-topics)  
+[Create and edit topics in Copilot agent](/power-virtual-agents/authoring-create-edit-topics)  
 [Suggested actions](../develop/suggested-actions.md)  
 [Add a chat widget](add-chat-widget.md)  
 

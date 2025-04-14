@@ -1,7 +1,7 @@
 ---
 title: Upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium
 description: Learn why and how to upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium.
-ms.date: 05/05/2022
+ms.date: 02/27/2025
 ms.topic: article
 ms.service: dynamics-365-sales
 author: sbmjais
@@ -12,13 +12,6 @@ ms.reviewer: shjais
 # Upgrade to Dynamics 365 Sales Premium
 
 Learn how to upgrade from Dynamics 365 Sales Enterprise to Dynamics 365 Sales Premium.
-
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Benefits of upgrading to Dynamics 365 Sales Premium
 

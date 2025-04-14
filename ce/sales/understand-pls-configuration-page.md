@@ -21,13 +21,6 @@ The **Predictive lead scoring** page is where you'll create, edit, publish, and 
 
 :::image type="content" source="media/si-admin-predictive-lead-scoring-configuration-page.png" alt-text="Screenshot of the Predictive lead scoring page.":::
 
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
-
 ## Select a model
 
 If you've created two or more scoring models, use the **Select Model** list to select one of them to view, edit, or delete. The list contains both published and unpublished models. The list control doesn't appear if you have one or zero models.

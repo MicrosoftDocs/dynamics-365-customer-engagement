@@ -14,15 +14,6 @@ The Dynamics 365 Sales mobile app uses quick view forms by default to display ta
 
 You can [use Unified Interface forms](#use-unified-interface-forms) in the Sales mobile app instead of quick view forms. You need to turn on this option in the Power Platform admin center.
 
-## License and role requirements
-
-You must have the following licenses and security roles to manage forms in the Sales mobile app.
-
-| Requirement type | You must have |
-| ---------------- | ------------- |
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, Dynamics 365 Sales Professional, or Microsoft Relationship Sales <br>For more information, refer to [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/). |
-| **Security roles** | System administrator <br>For more information, refer to [Predefined security roles for Sales](../security-roles-for-sales.md). |
-
 ## Manage quick view forms
 
 If you've created multiple quick view forms, the Sales mobile app uses the first one in the form order.

@@ -16,12 +16,6 @@ Every organization has its own selling processes for sellers to follow. A sequen
 
 Also, sellers can create and activate sequences for themselves and use the sequences to work on their assigned records. More information: [Create and connect sequence for yourself](create-sequence-seller.md) 
 
-## License and role requirements
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Create a sequence
 
 1. Sign in to your sales app, and in the lower-left corner of the page, go to **Change area** > **Sales Insights settings**.

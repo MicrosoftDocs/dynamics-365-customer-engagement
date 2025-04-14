@@ -21,13 +21,6 @@ The Kanban view for activities helps salespeople to manage multiple activities q
 > [!NOTE]
 > The Kanban view is not supported in the **Dynamics 365 for Phones** mobile app.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | Any primary sales role, such as salesperson or sales manager<br>  More information: [Primary sales roles](security-roles-for-sales.md#primary-sales-roles)|
-
-
 ## Open a Kanban view
 
 A Kanban view is available when the Kanban control is added to the Activity entity. If you don't see the Kanban view, check with your system customizer. 

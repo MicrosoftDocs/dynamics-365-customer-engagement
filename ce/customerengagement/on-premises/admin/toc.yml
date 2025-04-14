@@ -264,6 +264,8 @@
           href: on-prem-server-based-sharepoint-online.md
         - name: Configure server-based authentication with Customer Engagement (on-premises) and SharePoint on-premises
           href: on-prem-server-based-sharepoint-on-prem.md
+        - name: Configure Azure app for SharePoint access
+          href: on-prem-server-configure-azure-app-with-sharepoint-access.md
         - name: Switching from the list component
           href: switching-list-component-changing-deployment.md
       - name: Troubleshoot SharePoint integration

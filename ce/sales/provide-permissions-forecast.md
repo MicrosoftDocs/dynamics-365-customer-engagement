@@ -1,7 +1,7 @@
 ---
 title: Provide permissions to access and share a forecast
 description: Provide permissions to view, access, and share a forecast in Dynamics 365 Sales.
-ms.date: 08/17/2023
+ms.date: 03/07/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
@@ -19,13 +19,6 @@ Use the **Permissions** step to:
 - [Define the owner of the forecast](#define-the-forecast-owner)
 - [Provide access to users who have specific security roles to view the forecast](#provide-access-to-additional-roles)
 - [Allow users to share their forecast records with other users](#enable-or-disable-forecast-sharing)
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Define the forecast owner
 

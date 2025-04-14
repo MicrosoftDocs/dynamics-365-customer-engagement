@@ -1,25 +1,23 @@
 ---
-title: "Customize Power BI template apps for Sales | MicrosoftDocs"
-description: "Use Power BI template apps to visualize and analyze the sales data. Extend Power BI reports to include custom fields."
-ms.date: 10/25/2021
+title: Customize Power BI template apps for Sales
+description: Learn how to customize Power BI template apps for Dynamics 365 Sales. Extend reports with custom fields to better visualize your sales data.
+ms.date: 02/25/2025
 ms.topic: article
 author: lavanyakr01
 ms.author: lavanyakr
 ms.reviewer: lavanyakr
+ms.custom:
+  - ai-gen-docs-bap
+  - ai-gen-description
+  - ai-seo-date:02/25/2025
 ---
-# Customize Power BI template apps for Dynamics 365 Sales 
+
+# Customize Power BI template apps for Dynamics 365 Sales
 
 You can use Power BI template apps to visualize and analyze the sales data.
 
 > [!IMPORTANT]
-> Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made
-
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise, and Power BI Pro  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) ; [Power BI pricing](https://powerbi.microsoft.com/en-us/pricing/) |
-| **Security roles** | System Administrator <br> See [Predefined security roles for Sales](security-roles-for-sales.md)|
-
+> Microsoft doesn't support customizations made to the Power BI template app and doesn't provide updates after modifications are made.
 
 ## Customize the template apps
 
@@ -33,37 +31,29 @@ Before you customize the template app, read the information here and perform eac
 
 - [Power BI service registration](https://powerbi.com/)
 - [Power BI Desktop](https://powerbi.microsoft.com/desktop/) application for editing Power BI reports
-- Power BI report for the template app that you want to customize:
-    - [Download the Power BI report for Sales Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121605)
-    - [Download the Power BI report for Process Analytics for Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2121504)
+- Download the following Power BI reports (.pbix file) for the template app that you want to customize:
+
+  - [Sales Analytics for Dynamics 365 Sales](https://go.microsoft.com/fwlink/p/?linkid=2121605)
+  - [Process Analytics for Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2121504)
 
 ## Prepare a PBIX for customization
 
-1.  Start Power BI Desktop.
+1. Open the downloaded Power BI report file (.pbix) in Power BI Desktop.
 
-2.  Select **File** > **Open**. Select the .pbix file you want to edit, and then select **Open**.
+   The app opens the report with sample data.
 
-    Several pages of reports are loaded and displayed in Power BI Desktop.
-
-3.  On the Power BI Desktop ribbon, select **Edit Queries**.
-
-4.  In the left navigation pane of the **Edit Queries** window, under **Queries**, select the D365_Sales_URL query, and then on the ribbon, select **Advanced Editor**.
-
-    In the source definition, replace the placeholder value with the URL of your app's instance. For example, if the organization name is _Contoso_, the URL looks like this: Source = `https://contoso.crm.dynamics.com`
-
-5.  Select **Done**, and then select **Close & Apply** in the Query Editor.
-
-6.  When the **Access an OData feed** dialog box appears, select **Organizational account**, and then select **Sign in**.
- 
-7.  When the sign-in field appears, enter your credentials to authenticate to your instance.
-
-8.  In the **Access an OData feed** dialog box, select **Connect**.
-
-It might take several minutes for the queries to be updated.
+1. On the Power BI Desktop ribbon, select **Transform data** > **Edit parameters**.
+1. Enter the URL of your organization's instance and select **OK**. For example, if the organization name is *Contoso*, the URL looks like this: `https://contoso.crm.dynamics.com`.
+  A banner appears at the top of the page, prompting you to apply changes.
+  :::image type="content" source="media/power-bi-query-banner.png" alt-text="Screenshot of the banner in Power BI Desktop that reminds you to apply changes":::
+1. Select **Apply changes**.
+1. In the **OData feed** dialog, select **Organizational account**, and then select **Sign in**.
+1. Enter your credentials to authenticate to your instance and select **Connect**.
+   It might take several minutes for the queries to be updated.
 
 ## Related information
 
-[Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)<br>
+[Analyze your sales data by using Power BI template apps](introduction-sales-template-apps.md)  
 [Configure Power BI template apps to work with Dynamics 365 Sales](configure-sales-template-apps.md)
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -4,7 +4,7 @@ description: Learn how to delete call recordings in the voice channel in Dynamic
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 07/01/2024
+ms.date: 01/28/2025
 ms.custom: bap-template
 ms.topic: how-to
 ---
@@ -20,7 +20,7 @@ You can delete call recordings that are no longer required. To delete the call r
 1. Select the required recording.
 1. Select the **Delete** icon.
 
-Alternatively, you can delete the recordings from the [msdyn_ocrecording](../develop/reference/entities/msdyn_ocrecording.md) entity by using the [DELETE](/power-apps/developer/data-platform/webapi/update-delete-entities-using-web-api) request.
+Alternatively, you can delete the recordings from the [Recording (msdyn_ocrecording) table](../../developer/reference/entities/msdyn_ocrecording.md) using the Dataverse [Web API](/powerapps/developer/data-platform/webapi/update-delete-entities-using-web-api#basic-delete) or [SDK](/power-apps/developer/data-platform/org-service/entity-operations-update-delete#basic-delete).
 
 You can also delete call recordings in bulk. More information: [Bulk deletion](/power-platform/admin/delete-bulk-records)
 

@@ -11,12 +11,6 @@ ms.reviewer: udag
 
 You can view the details of a sequence and the records connected with it. 
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## To view details of a sequence and its connected records
    
 1. Sign in to your sales app.   

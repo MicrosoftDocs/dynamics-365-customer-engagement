@@ -1,7 +1,7 @@
 ---
 title: Turn on and set up Copilot in Dynamics 365 Sales
 description: Learn how to turn on and set up Copilot in Dynamics 365 Sales to improve sales productivity and effectiveness. 
-ms.date: 01/28/2025
+ms.date: 03/18/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
 search.app: salescopilot-docs
@@ -29,15 +29,6 @@ If you turned off Copilot in Dynamics 365 Sales, it remains turned off. Otherwis
 For all other organizations, an admin must provide consent for cross-region data movement in the Power Platform admin center and then turn on Copilot in the Sales Hub app. This article provides instructions for providing consent for data movement, turning Copilot on or off, and training Copilot to understand your business-specific terms.
 
 Throughout this article, the term "sales app" refers to apps that have lead and opportunity tables and aren't on the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used).
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [System Administrator](security-roles-for-sales.md) |
-
-Learn more about the licensing requirements for Copilot in Dynamics 365 Sales in [Licensing for Copilot chat and form fill assistance in model-driven apps](/power-platform/admin/powerapps-flow-licensing-faq#licensing-for-copilot-chat-and-form-fill-assistance-in-model-driven-apps).
 
 ## Prerequisites
 
@@ -97,12 +88,9 @@ You can add domain-specific terms and acronyms to a glossary to train Copilot in
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com) and select your Dynamics 365 Sales environment.
 
-1. Select **Agents** > **Sales Copilot Power Virtual Agents Bot**.
-
-1. Select the **Knowledge** tab, and then select **SalesSpecificQnA**.
-
-1. Under **Build your data glossary**, enter a term and description. [Sample terms and descriptions](#sample-terms-and-descriptions) are provided in the following section.
-
+1. Select **Agents** > **Copilot in Dynamics 365 Sales**.
+1. Select **SalesSpecificQnA** under **Knowledge** section.
+1. Select the **Glossary** section and enter the term and description and select **Next** to add the term. [See some sample terms and descriptions](#sample-term-and-description).
    :::image type="content" source="media/Natural_chat_Glossary.png" alt-text="Screenshot of the glossary configuration page in Copilot Studio.":::
 
 1. To add the term to the glossary, select **Next**.

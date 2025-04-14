@@ -1,7 +1,7 @@
 ---
 title: Export and import app configuration data
 description: Export and import app configuration data for Omnichannel for Customer Service using the Configuration Migration tool.
-ms.date: 05/10/2024
+ms.date: 03/17/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -15,7 +15,7 @@ ms.custom:
 
 # Export and import app configuration data
 
-After you've used the omnichannel capabilities in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. More information: [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget)
+After you've used Omnichannel for Customer Service in a test environment, you can export some of your app configuration data to a live production environment. Use the configuration management tool to export and import the data. Learn more in [Download the Configuration Migration tool from NuGet using the PowerShell script](/powerapps/developer/data-platform/download-tools-nuget).
 
 > [!IMPORTANT]
 > Channel configurations are specific to the environment in which they're created, so exporting and importing complete configurations as-is won't work. We recommend that you create the configurations using the Customer Service admin center or Contact Center admin center app.

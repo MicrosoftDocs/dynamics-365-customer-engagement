@@ -1,7 +1,7 @@
 ---
 title: Data access consent
 description: Learn about the consent requirements that are required for provisioning Omnichannel for Customer Service.
-ms.date: 07/01/2024
+ms.date: 03/17/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -51,14 +51,14 @@ A detailed explanation is as follows:
     - **Reports**: Omnichannel Insights for Dynamics 365
     - **Datasets**: Omnichannel Insights for Dynamics 365
   
-    More information: [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard)
+    Learn more in [Omnichannel Insights Dashboard](omnichannel-insights-dashboard.md#omnichannel-insights-dashboard).
 
 - **Sign in and read your profile**: Allows Omnichannel to sign into the app with user’s work account and let the app read the user profile. It also allows the app to read basic company information.
 
 - **Access Common Data Service as you**: 
-  - **For Customer Service users**: Allows Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents and supervisors characteristics, such as capacity, skill, and presence; configuration data such as workstreams and queues; and to sync queue item and conversation data with Dataverse.
+  - **For Customer Service users**: Allows Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel customer service representatives (service representatives or representatives) and supervisors characteristics, such as capacity, skill, and presence; configuration data such as workstreams and queues; and to sync queue item and conversation data with Dataverse.
 
-  - **For Omnichannel for Customer Service users**: Allows Omnichannel for Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel agents’ characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
+  - **For Omnichannel for Customer Service users**: Allows Omnichannel for Customer Service to automatically create a non-licensed, non-interactive application user, and assign security roles to the application user. This application user is primarily used to access omnichannel representatives' characteristics, such as capacity, skill, and presence, and to sync chat-related entities with Dataverse.
 
 ## What happens when I provide data access consent and provision Omnichannel for Customer Service?
 
@@ -84,7 +84,7 @@ Only the delegated permissions are required. On consent, the following two ser
 
 ### Which are the Omnichannel principals? We found at least four Omnichannel principals.
 
-“Omnichannel APIs” is the main application ID that's used for UI operations such as triggering provisioning of UR and loading the presence for an agent. “Omnichannel for Customer Service” is the app that has Dataverse permissions and is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
+“Omnichannel APIs” is the main application ID that's used for UI operations such as triggering provisioning of UR and loading the presence for a representative. “Omnichannel for Customer Service” is the app that has Dataverse permissions and is used to read data from Dataverse and write data to Dataverse for the Omnichannel service for the unified routing capability of classification and assignment.
 
 The following applications were created as third-party applications. They'll be moved to be first-party Microsoft applications.
 

@@ -24,13 +24,6 @@ ai-usage: ai-assisted
 
 Copilot in Dynamics 365 Sales can summarize information about your leads and opportunities, help you catch up on recent changes to your records, prepare for meetings, read the latest news about your accounts, and enrich your leads with information from other sources. You can chat with Copilot in natural language or use predefined prompts to ask questions.
 
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | [Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | [Any primary sales role, such as Salesperson or Sales Manager](security-roles-for-sales.md#primary-sales-roles) |
-
 ## Prerequisites
 
 Your admin turned on and set up Copilot in your sales app. "Sales app" refers to apps that have lead and opportunity tables and aren't on the [exclusion list](sales-copilot-faq.md#are-there-any-applications-where-copilot-in-dynamics-365-sales-cant-be-used).
