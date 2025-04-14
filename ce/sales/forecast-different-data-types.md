@@ -15,16 +15,6 @@ In a forecast grid, you can have multiple columns with different data types&mdas
 
 For more information about configuring columns and data types, go to [Choose layout and columns](choose-layout-and-columns-forecast.md).
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Forecast Manager <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-While the forecast grid can display multiple data types, the Kanban view can only display a single data type at a time. Hence, for a multiple data type forecast, you must select the primary data type to be displayed in these views before activating the forecast.
-
-Similarly, the Kanban view can't show two columns with the same selector. For example, using the **Best case** selector both revenue and discount. As the Kanban view can only show a single revenue column for a category, you must choose the revenue column to display in these views before activating the forecast.  
-
 ## Examples of forecasts with different data types
 
 Let's look at a few examples of configuring and activating forecasts with different data types:

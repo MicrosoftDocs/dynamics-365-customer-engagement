@@ -14,13 +14,6 @@ When you've changed the process of an active sequence, you can create a new vers
 >[!IMPORTANT]
 >The records that were connected to a previous version of the sequence remain connected to that previous version.
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Enterprise, Dynamics 365 Sales Premium, or [Microsoft Relationship Sales](https://dynamics.microsoft.com/en-in/sales/relationship-sales/) <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator or Sequence Manager <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Edit an active sequence
 
 1.	Sign in to your Dynamics 365 Sales Hub app.   

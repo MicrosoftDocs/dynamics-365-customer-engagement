@@ -1,7 +1,7 @@
 ---
 title: Set up the enhanced email experience
 description: Set up the enhanced email experience so sales reps can compose and send email without leaving the context of what they are working on.
-ms.date: 03/08/2024
+ms.date: 01/29/2025
 ms.topic: how-to
 author: lavanyakr01
 ms.author: lavanyakr
@@ -14,12 +14,6 @@ Set up the enhanced email experience so sales reps can compose and send email wi
 > [!IMPORTANT]
 > The enhanced email experience is available only for email activities created from the **Timeline** section of any model-driven app. 
 
-## License and role requirements
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium, Dynamics 365 Sales Enterprise, or Dynamics 365 Sales Professional <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
 ## Enable the enhanced email
 
 Depending on the Dynamics 365 Sales license you have, select one of the following tabs for specific information: 
@@ -30,19 +24,15 @@ If you have the Sales Hub app, follow the instructions in this tab. Otherwise, f
 
 1. At the bottom of the site map, select **Change area** ![Change area.](media/change-area-icon.png "Change area") and then select **App Settings**.
 
-2. In the site map, select **Overview**.
+2. In the site map, select **Productivity tools**.
 
-3. On the **Overview** page, under **Productivity tools**, select **Manage** for **Enhanced email for timeline**.
+3. Select **Enhanced email for timeline**.
 
-    > [!div class="mx-imgBorder"]
-    > ![Productivity tools - Overview page.](media/overview-prod-tools.png "Productivity tools - Overview page")
-
-4. On the **Productivity tools** page, move the **Enhanced email for timeline** toggle to **Yes**.
-
-    > [!div class="mx-imgBorder"]
-    > ![Enable enhanced email for timeline option.](media/enable-enhanced-email.png "Enable enhanced email for timeline option")
+4. Set the **Enhanced email for timeline** toggle to **Yes**.
 
 5. Select **Save**.
+
+    :::image type="content" source="media/enable-enhanced-email.png" alt-text="Enable enhanced email for timeline option.":::
 
 # [Sales Professional](#tab/SP)
 

@@ -6,7 +6,7 @@ ms.author: mgandham
 ms.reviewer: mgandham
 ms.topic: conceptual
 ms.collection:
-ms.date: 05/06/2024
+ms.date: 01/28/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -77,5 +77,5 @@ You can use multiple patterns to configure lookup based on the macros you want t
 
 ## Macro run reports
 
-Macro runs are logged in the [msdyn_macrosession](../develop/reference/entities/msdyn_macrosession.md) table. You can use this table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
+Macro runs are logged in the [Macro Run History (msdyn_macrosession) table](../../developer/reference/entities/msdyn_macrosession.md) table. You can use this table to create reports that capture metrics such as macro usage in a given time frame or success and failure rate.
 

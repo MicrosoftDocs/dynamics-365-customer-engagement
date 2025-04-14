@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: overview
 ms.collection: get-started
-ms.date: 03/08/2024
+ms.date: 03/20/2025
 ms.custom: bap-template 
 searchScope: 
   - D365-App-msdynce_saleshub

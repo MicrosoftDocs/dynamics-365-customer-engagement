@@ -1,0 +1,2067 @@
+items:
+- name: "About Microsoft Dynamics 365 Table/Entity Reference"
+  href: ../about-entity-reference.md
+- name: "Account"
+  displayName: "Account entity"
+  href: account.md
+- name: "Account KPI Item"
+  displayName: "msdyn_accountkpiitem entity"
+  href: msdyn_accountkpiitem.md
+- name: "AccountLeads"
+  displayName: "AccountLeads entity"
+  href: accountleads.md
+- name: "ACS channel instance"
+  displayName: "msdynmkt_byoacschannelinstance entity"
+  href: msdynmkt_byoacschannelinstance.md
+- name: "ACS channel instance account"
+  displayName: "msdynmkt_byoacschannelinstanceaccount entity"
+  href: msdynmkt_byoacschannelinstanceaccount.md
+- name: "Action Card"
+  displayName: "ActionCard entity"
+  href: actioncard.md
+- name: "Action Card Regarding"
+  displayName: "msdyn_actioncardregarding entity"
+  href: msdyn_actioncardregarding.md
+- name: "Action Card Role Setting"
+  displayName: "msdyn_actioncardrolesetting entity"
+  href: msdyn_actioncardrolesetting.md
+- name: "Action Card Usage"
+  displayName: "msdyn_actioncardactionstat entity"
+  href: msdyn_actioncardactionstat.md
+- name: "Action Card Usage Aggregation"
+  displayName: "msdyn_actioncardstataggregation entity"
+  href: msdyn_actioncardstataggregation.md
+- name: "Action Input Parameter"
+  displayName: "msdyn_productivityactioninputparameter entity"
+  href: msdyn_productivityactioninputparameter.md
+- name: "Action Output Parameter"
+  displayName: "msdyn_productivityactionoutputparameter entity"
+  href: msdyn_productivityactionoutputparameter.md
+- name: "Active ICD Extension"
+  displayName: "msdyn_ActiveICDExtension entity"
+  href: msdyn_activeicdextension.md
+- name: "Activity"
+  displayName: "ActivityPointer entity"
+  href: activitypointer.md
+- name: "Activity Analysis CleanUp State"
+  displayName: "msdyn_activityanalysiscleanupstate entity"
+  href: msdyn_activityanalysiscleanupstate.md
+- name: "Activity monitor"
+  displayName: "activitymonitor entity"
+  href: activitymonitor.md
+- name: "Activity Party"
+  displayName: "ActivityParty entity"
+  href: activityparty.md
+- name: "Ad Placement"
+  displayName: "mspp_adplacement entity"
+  href: mspp_adplacement.md
+- name: "Adaptive Card Configuration"
+  displayName: "msdyn_adaptivecardconfiguration entity"
+  href: msdyn_adaptivecardconfiguration.md
+- name: "Address"
+  displayName: "CustomerAddress entity"
+  href: customeraddress.md
+- name: "AddToCalendar style"
+  displayName: "msdyncrm_addtocalendarstyle entity"
+  href: msdyncrm_addtocalendarstyle.md
+- name: "admin_settings_entity"
+  displayName: "adminsettingsentity entity"
+  href: adminsettingsentity.md
+- name: "AdminAppState"
+  displayName: "msdyn_adminappstate entity"
+  href: msdyn_adminappstate.md
+- name: "Agent Capacity Profile Unit"
+  displayName: "msdyn_agentcapacityprofileunit entity"
+  href: msdyn_agentcapacityprofileunit.md
+- name: "Agent capacity update history"
+  displayName: "msdyn_agentcapacityupdatehistory entity"
+  href: msdyn_agentcapacityupdatehistory.md
+- name: "Agent Channel State"
+  displayName: "msdyn_agentchannelstate entity"
+  href: msdyn_agentchannelstate.md
+- name: "Agent Copilot Setting"
+  displayName: "msdyn_agentcopilotsetting entity"
+  href: msdyn_agentcopilotsetting.md
+- name: "Agent Group"
+  displayName: "msdyn_agentgroup entity"
+  href: msdyn_agentgroup.md
+- name: "Agent Group Language"
+  displayName: "msdyn_agentgrouplanguage entity"
+  href: msdyn_agentgrouplanguage.md
+- name: "Agent Group Membership"
+  displayName: "msdyn_agentgroupmembership entity"
+  href: msdyn_agentgroupmembership.md
+- name: "Agent Group Region"
+  displayName: "msdyn_agentgroupregion entity"
+  href: msdyn_agentgroupregion.md
+- name: "Agent Language"
+  displayName: "msdyn_agentlanguage entity"
+  href: msdyn_agentlanguage.md
+- name: "Agent Preference For Copilot"
+  displayName: "msdyn_copilotagentpreference entity"
+  href: msdyn_copilotagentpreference.md
+- name: "Agent Region"
+  displayName: "msdyn_agentregion entity"
+  href: msdyn_agentregion.md
+- name: "Agent Resource Forecasting"
+  displayName: "msdyn_agentresourceforecasting entity"
+  href: msdyn_agentresourceforecasting.md
+- name: "Agent script"
+  displayName: "msdyn_productivityagentscript entity"
+  href: msdyn_productivityagentscript.md
+- name: "Agent script step"
+  displayName: "msdyn_productivityagentscriptstep entity"
+  href: msdyn_productivityagentscriptstep.md
+- name: "Agent Status"
+  displayName: "msdyn_agentstatus entity"
+  href: msdyn_agentstatus.md
+- name: "Agent Status history"
+  displayName: "msdyn_agentstatushistory entity"
+  href: msdyn_agentstatushistory.md
+- name: "AI Configuration"
+  displayName: "msdyn_AIConfiguration entity"
+  href: msdyn_aiconfiguration.md
+- name: "AI Model"
+  displayName: "msdyn_AIModel entity"
+  href: msdyn_aimodel.md
+- name: "AIPlugin"
+  displayName: "AIPlugin entity"
+  href: aiplugin.md
+- name: "AIPluginOperation"
+  displayName: "AIPluginOperation entity"
+  href: aipluginoperation.md
+- name: "App profile"
+  displayName: "msdyn_appconfiguration entity"
+  href: msdyn_appconfiguration.md
+- name: "App Profile Copilot Configuration"
+  displayName: "msdyn_appcopilotconfiguration entity"
+  href: msdyn_appcopilotconfiguration.md
+- name: "App profile role mapping"
+  displayName: "msdyn_appprofilerolemapping entity"
+  href: msdyn_appprofilerolemapping.md
+- name: "App state"
+  displayName: "msdyn_appstate entity"
+  href: msdyn_appstate.md
+- name: "Application Extension"
+  displayName: "msdyn_applicationextension entity"
+  href: msdyn_applicationextension.md
+- name: "Application Tab Template"
+  displayName: "msdyn_applicationtabtemplate entity"
+  href: msdyn_applicationtabtemplate.md
+- name: "Appointment"
+  displayName: "Appointment entity"
+  href: appointment.md
+- name: "Article"
+  displayName: "KbArticle entity"
+  href: kbarticle.md
+- name: "Asset Category Template Association"
+  displayName: "msdyn_assetcategorytemplateassociation entity"
+  href: msdyn_assetcategorytemplateassociation.md
+- name: "Asset Template Association"
+  displayName: "msdyn_assettemplateassociation entity"
+  href: msdyn_assettemplateassociation.md
+- name: "Assignment Configuration"
+  displayName: "msdyn_assignmentconfiguration entity"
+  href: msdyn_assignmentconfiguration.md
+- name: "Assignment Configuration Step"
+  displayName: "msdyn_assignmentconfigurationstep entity"
+  href: msdyn_assignmentconfigurationstep.md
+- name: "Assignment Map"
+  displayName: "msdyn_assignmentmap entity"
+  href: msdyn_assignmentmap.md
+- name: "Assignment Rule"
+  displayName: "msdyn_assignmentrule entity"
+  href: msdyn_assignmentrule.md
+- name: "Attach Skill"
+  displayName: "msdyn_skillattachmenttarget entity"
+  href: msdyn_skillattachmenttarget.md
+- name: "Attribute Influence Statistics"
+  displayName: "msdyn_attributeinfluencestatistics entity"
+  href: msdyn_attributeinfluencestatistics.md
+- name: "Audio File"
+  displayName: "msdyn_soundfile entity"
+  href: msdyn_soundfile.md
+- name: "Auth Settings Entry"
+  displayName: "msdyn_authsettingsentry entity"
+  href: msdyn_authsettingsentry.md
+- name: "Authentication Settings"
+  displayName: "msdyn_authenticationsettings entity"
+  href: msdyn_authenticationsettings.md
+- name: "Auto block rule"
+  displayName: "msdyn_ocautoblockrule entity"
+  href: msdyn_ocautoblockrule.md
+- name: "Auto Capture Rule"
+  displayName: "msdyn_autocapturerule entity"
+  href: msdyn_autocapturerule.md
+- name: "Auto Capture Settings"
+  displayName: "msdyn_autocapturesettings entity"
+  href: msdyn_autocapturesettings.md
+- name: "Automated action rule"
+  displayName: "msdyn_ocautomatedactionrule entity"
+  href: msdyn_ocautomatedactionrule.md
+- name: "Automated action rules mapping"
+  displayName: "msdyn_ocautomatedactionrulesmapping entity"
+  href: msdyn_ocautomatedactionrulesmapping.md
+- name: "Autonomous case creation and update rules"
+  displayName: "msdyn_autonomouscasecreationrule entity"
+  href: msdyn_autonomouscasecreationrule.md
+- name: "Available Times"
+  displayName: "availabletimes entity"
+  href: availabletimes.md
+- name: "Available Times Data Source"
+  displayName: "availabletimesdatasource entity"
+  href: availabletimesdatasource.md
+- name: "basestyle"
+  displayName: "msdyncrm_basestyle entity"
+  href: msdyncrm_basestyle.md
+- name: "Bookable Resource"
+  displayName: "BookableResource entity"
+  href: bookableresource.md
+- name: "Bookable Resource Booking"
+  displayName: "BookableResourceBooking entity"
+  href: bookableresourcebooking.md
+- name: "Bookable Resource Booking Header"
+  displayName: "BookableResourceBookingHeader entity"
+  href: bookableresourcebookingheader.md
+- name: "Bookable Resource Capacity Profile"
+  displayName: "msdyn_bookableresourcecapacityprofile entity"
+  href: msdyn_bookableresourcecapacityprofile.md
+- name: "Bookable Resource Category"
+  displayName: "BookableResourceCategory entity"
+  href: bookableresourcecategory.md
+- name: "Bookable Resource Category Assn"
+  displayName: "BookableResourceCategoryAssn entity"
+  href: bookableresourcecategoryassn.md
+- name: "Bookable Resource Characteristic"
+  displayName: "BookableResourceCharacteristic entity"
+  href: bookableresourcecharacteristic.md
+- name: "Bookable Resource Group"
+  displayName: "BookableResourceGroup entity"
+  href: bookableresourcegroup.md
+- name: "Booking Status"
+  displayName: "BookingStatus entity"
+  href: bookingstatus.md
+- name: "Bot Channel Registration"
+  displayName: "msdyn_ocbotchannelregistration entity"
+  href: msdyn_ocbotchannelregistration.md
+- name: "Bot Channel Registration Secret"
+  displayName: "msdyn_ocbotchannelregistrationsecret entity"
+  href: msdyn_ocbotchannelregistrationsecret.md
+- name: "Bot Session"
+  displayName: "msdyn_botsession entity"
+  href: msdyn_botsession.md
+- name: "Bulk Delete Failure"
+  displayName: "BulkDeleteFailure entity"
+  href: bulkdeletefailure.md
+- name: "Bulk Operation Log"
+  displayName: "BulkOperationLog entity"
+  href: bulkoperationlog.md
+- name: "Business Unit"
+  displayName: "BusinessUnit entity"
+  href: businessunit.md
+- name: "Button style"
+  displayName: "msdyncrm_buttonstyle entity"
+  href: msdyncrm_buttonstyle.md
+- name: "Calendar"
+  displayName: "Calendar entity"
+  href: calendar.md
+- name: "Calendar Rule"
+  displayName: "CalendarRule entity"
+  href: calendarrule.md
+- name: "Campaign"
+  displayName: "Campaign entity"
+  href: campaign.md
+- name: "Campaign Activity"
+  displayName: "CampaignActivity entity"
+  href: campaignactivity.md
+- name: "Campaign Activity Item"
+  displayName: "CampaignActivityItem entity"
+  href: campaignactivityitem.md
+- name: "Campaign Item"
+  displayName: "CampaignItem entity"
+  href: campaignitem.md
+- name: "Campaign Response"
+  displayName: "CampaignResponse entity"
+  href: campaignresponse.md
+- name: "Capacity Profile"
+  displayName: "msdyn_capacityprofile entity"
+  href: msdyn_capacityprofile.md
+- name: "Case"
+  displayName: "Incident entity"
+  href: incident.md
+- name: "Case Enrichment"
+  displayName: "msdyn_caseenrichment entity"
+  href: msdyn_caseenrichment.md
+- name: "Case follow up and closure configuration"
+  displayName: "msdyn_casefollowupandclosureconfiguration entity"
+  href: msdyn_casefollowupandclosureconfiguration.md
+- name: "Case Resolution"
+  displayName: "IncidentResolution entity"
+  href: incidentresolution.md
+- name: "Case Suggestion"
+  displayName: "msdyn_casesuggestion entity"
+  href: msdyn_casesuggestion.md
+- name: "Case Suggestion Request Payload"
+  displayName: "msdyn_casesuggestionrequestpayload entity"
+  href: msdyn_casesuggestionrequestpayload.md
+- name: "Case Suggestions Data Souce"
+  displayName: "msdyn_casesuggestionsdatasource entity"
+  href: msdyn_casesuggestionsdatasource.md
+- name: "Case Topic"
+  displayName: "msdyn_casetopic entity"
+  href: msdyn_casetopic.md
+- name: "Case topic Incident mapping"
+  displayName: "msdyn_casetopic_incident entity"
+  href: msdyn_casetopic_incident.md
+- name: "Case Topic Setting"
+  displayName: "msdyn_casetopicsetting entity"
+  href: msdyn_casetopicsetting.md
+- name: "Case Topic Summary"
+  displayName: "msdyn_casetopicsummary entity"
+  href: msdyn_casetopicsummary.md
+- name: "Catalog"
+  displayName: "Catalog entity"
+  href: catalog.md
+- name: "CatalogEventStatusConfiguration"
+  displayName: "msdynmkt_catalogeventstatusconfiguration entity"
+  href: msdynmkt_catalogeventstatusconfiguration.md
+- name: "Channel api method mapping"
+  displayName: "msdyn_occhannelapimethodmapping entity"
+  href: msdyn_occhannelapimethodmapping.md
+- name: "Channel Capability"
+  displayName: "msdyn_channelcapability entity"
+  href: msdyn_channelcapability.md
+- name: "Channel Configuration"
+  displayName: "msdyn_occhannelconfiguration entity"
+  href: msdyn_occhannelconfiguration.md
+- name: "Channel Definition"
+  displayName: "msdyn_ChannelDefinition entity"
+  href: msdyn_channeldefinition.md
+- name: "Channel Definition Consent"
+  displayName: "msdyn_channeldefinitionconsent entity"
+  href: msdyn_channeldefinitionconsent.md
+- name: "Channel Definition Locale"
+  displayName: "msdyn_ChannelDefinitionLocale entity"
+  href: msdyn_channeldefinitionlocale.md
+- name: "Channel Instance"
+  displayName: "msdyn_ChannelInstance entity"
+  href: msdyn_channelinstance.md
+- name: "Channel Instance Account"
+  displayName: "msdyn_ChannelInstanceAccount entity"
+  href: msdyn_channelinstanceaccount.md
+- name: "Channel Integration Framework v1.0 Provider"
+  displayName: "msdyn_ciprovider entity"
+  href: msdyn_ciprovider.md
+- name: "Channel Integration Framework v2.0 Provider"
+  displayName: "msdyn_channelprovider entity"
+  href: msdyn_channelprovider.md
+- name: "Channel Message Attachment"
+  displayName: "msdyn_ChannelMessageAttachment entity"
+  href: msdyn_channelmessageattachment.md
+- name: "Channel Message Context Part"
+  displayName: "msdyn_ChannelMessageContextPart entity"
+  href: msdyn_channelmessagecontextpart.md
+- name: "Channel Message Part"
+  displayName: "msdyn_ChannelMessagePart entity"
+  href: msdyn_channelmessagepart.md
+- name: "Channel State Configuration"
+  displayName: "msdyn_occhannelstateconfiguration entity"
+  href: msdyn_occhannelstateconfiguration.md
+- name: "Characteristic"
+  displayName: "Characteristic entity"
+  href: characteristic.md
+- name: "Characteristic mapping"
+  displayName: "msdyn_ocsitdskill entity"
+  href: msdyn_ocsitdskill.md
+- name: "Code style"
+  displayName: "msdyncrm_codestyle entity"
+  href: msdyncrm_codestyle.md
+- name: "Collab Space Team Association"
+  displayName: "msdyn_collabspaceteamassociation entity"
+  href: msdyn_collabspaceteamassociation.md
+- name: "Column style"
+  displayName: "msdyncrm_columnstyle entity"
+  href: msdyncrm_columnstyle.md
+- name: "Comment"
+  displayName: "msdyn_ConversationComment entity"
+  href: msdyn_conversationcomment.md
+- name: "Competitor"
+  displayName: "Competitor entity"
+  href: competitor.md
+- name: "Competitor Address"
+  displayName: "CompetitorAddress entity"
+  href: competitoraddress.md
+- name: "Competitor Product"
+  displayName: "CompetitorProduct entity"
+  href: competitorproduct.md
+- name: "CompetitorSalesLiterature"
+  displayName: "CompetitorSalesLiterature entity"
+  href: competitorsalesliterature.md
+- name: "Configuration"
+  displayName: "msdynmkt_configuration entity"
+  href: msdynmkt_configuration.md
+- name: "Connection"
+  displayName: "Connection entity"
+  href: connection.md
+- name: "Consuming Application"
+  displayName: "msdyn_ConsumingApplication entity"
+  href: msdyn_consumingapplication.md
+- name: "Contact"
+  displayName: "Contact entity"
+  href: contact.md
+- name: "Contact KPI Item"
+  displayName: "msdyn_contactkpiitem entity"
+  href: msdyn_contactkpiitem.md
+- name: "Contact suggestion rule"
+  displayName: "msdyn_contactsuggestionrule entity"
+  href: msdyn_contactsuggestionrule.md
+- name: "Contact suggestion ruleset"
+  displayName: "msdyn_contactsuggestionruleset entity"
+  href: msdyn_contactsuggestionruleset.md
+- name: "ContactInvoices"
+  displayName: "ContactInvoices entity"
+  href: contactinvoices.md
+- name: "ContactLeads"
+  displayName: "ContactLeads entity"
+  href: contactleads.md
+- name: "ContactOrders"
+  displayName: "ContactOrders entity"
+  href: contactorders.md
+- name: "ContactQuotes"
+  displayName: "ContactQuotes entity"
+  href: contactquotes.md
+- name: "Content Block"
+  displayName: "msdyncrm_contentblockstyle entity"
+  href: msdyncrm_contentblockstyle.md
+- name: "Context item value"
+  displayName: "msdyn_ocliveworkitemcontextitem entity"
+  href: msdyn_ocliveworkitemcontextitem.md
+- name: "Context variable"
+  displayName: "msdyn_ocliveworkstreamcontextvariable entity"
+  href: msdyn_ocliveworkstreamcontextvariable.md
+- name: "Contract"
+  displayName: "Contract entity"
+  href: contract.md
+- name: "Contract Line"
+  displayName: "ContractDetail entity"
+  href: contractdetail.md
+- name: "Contract Template"
+  displayName: "ContractTemplate entity"
+  href: contracttemplate.md
+- name: "Conversation"
+  displayName: "msdyn_ocliveworkitem entity"
+  href: msdyn_ocliveworkitem.md
+- name: "Conversation Action"
+  displayName: "msdyn_conversationaction entity"
+  href: msdyn_conversationaction.md
+- name: "Conversation Action Item"
+  displayName: "msdyn_ConversationActionItem entity"
+  href: msdyn_conversationactionitem.md
+- name: "Conversation Action Locale"
+  displayName: "msdyn_conversationactionlocale entity"
+  href: msdyn_conversationactionlocale.md
+- name: "Conversation Aggregated Insights"
+  displayName: "msdyn_ConversationAggregatedInsights entity"
+  href: msdyn_conversationaggregatedinsights.md
+- name: "Conversation Capacity profile"
+  displayName: "msdyn_ocliveworkitemcapacityprofile entity"
+  href: msdyn_ocliveworkitemcapacityprofile.md
+- name: "Conversation Characteristic"
+  displayName: "msdyn_ocliveworkitemcharacteristic entity"
+  href: msdyn_ocliveworkitemcharacteristic.md
+- name: "Conversation Message Block"
+  displayName: "msdyn_conversationmessageblock entity"
+  href: msdyn_conversationmessageblock.md
+- name: "Conversation Participant Insights"
+  displayName: "msdyn_ConversationParticipantInsights entity"
+  href: msdyn_conversationparticipantinsights.md
+- name: "Conversation Participant Sentiment"
+  displayName: "msdyn_ConversationParticipantSentiment entity"
+  href: msdyn_conversationparticipantsentiment.md
+- name: "Conversation Question"
+  displayName: "msdyn_ConversationQuestion entity"
+  href: msdyn_conversationquestion.md
+- name: "Conversation Segment Sentiment"
+  displayName: "msdyn_ConversationSegmentSentiment entity"
+  href: msdyn_conversationsegmentsentiment.md
+- name: "Conversation Sentiment"
+  displayName: "msdyn_ocliveworkitemsentiment entity"
+  href: msdyn_ocliveworkitemsentiment.md
+- name: "Conversation Sentiment (msdyn_ConversationSentiment)"
+  displayName: "msdyn_ConversationSentiment entity"
+  href: msdyn_conversationsentiment.md
+- name: "Conversation Signal"
+  displayName: "msdyn_ConversationSignal entity"
+  href: msdyn_conversationsignal.md
+- name: "Conversation Subject"
+  displayName: "msdyn_ConversationSubject entity"
+  href: msdyn_conversationsubject.md
+- name: "Conversation Summary Interaction"
+  displayName: "msdyn_conversationsummaryinteraction entity"
+  href: msdyn_conversationsummaryinteraction.md
+- name: "Conversation Summary Setting"
+  displayName: "msdyn_conversationsummarysetting entity"
+  href: msdyn_conversationsummarysetting.md
+- name: "Conversation Summary Suggestion"
+  displayName: "msdyn_ConversationSummarySuggestion entity"
+  href: msdyn_conversationsummarysuggestion.md
+- name: "Conversation System Tag"
+  displayName: "msdyn_ConversationSystemTag entity"
+  href: msdyn_conversationsystemtag.md
+- name: "Conversation Tag"
+  displayName: "msdyn_ConversationTag entity"
+  href: msdyn_conversationtag.md
+- name: "Conversation Topic"
+  displayName: "msdyn_conversationtopic entity"
+  href: msdyn_conversationtopic.md
+- name: "Conversation topic Conversation mapping"
+  displayName: "msdyn_conversationtopic_conversation entity"
+  href: msdyn_conversationtopic_conversation.md
+- name: "Conversation Topic Setting"
+  displayName: "msdyn_conversationtopicsetting entity"
+  href: msdyn_conversationtopicsetting.md
+- name: "Conversation Topic Summary"
+  displayName: "msdyn_conversationtopicsummary entity"
+  href: msdyn_conversationtopicsummary.md
+- name: "ConversationInsight"
+  displayName: "msdyn_conversationinsight entity"
+  href: msdyn_conversationinsight.md
+- name: "Copilot"
+  displayName: "bot entity"
+  href: bot.md
+- name: "Copilot Analytics"
+  displayName: "msdyn_dataanalyticsreport_copilot entity"
+  href: msdyn_dataanalyticsreport_copilot.md
+- name: "Copilot assisted case form fill settings"
+  displayName: "msdyn_copilotcaseformfillsetting entity"
+  href: msdyn_copilotcaseformfillsetting.md
+- name: "Copilot component"
+  displayName: "botcomponent entity"
+  href: botcomponent.md
+- name: "Copilot for Sales customer list"
+  displayName: "msdyn_vivacustomerlist entity"
+  href: msdyn_vivacustomerlist.md
+- name: "Copilot Interaction"
+  displayName: "msdyn_copilotinteraction entity"
+  href: msdyn_copilotinteraction.md
+- name: "Copilot Interaction Data"
+  displayName: "msdyn_copilotinteractiondata entity"
+  href: msdyn_copilotinteractiondata.md
+- name: "Copilot knowledge interaction"
+  displayName: "msdyn_copilotknowledgeinteraction entity"
+  href: msdyn_copilotknowledgeinteraction.md
+- name: "Copilot Summarization Setting"
+  displayName: "msdyn_copilotsummarizationsetting entity"
+  href: msdyn_copilotsummarizationsetting.md
+- name: "Copilot Transcript"
+  displayName: "msdyn_copilottranscript entity"
+  href: msdyn_copilottranscript.md
+- name: "Copilot Transcript Data"
+  displayName: "msdyn_copilottranscriptdata entity"
+  href: msdyn_copilottranscriptdata.md
+- name: "CRM Connection"
+  displayName: "msdyn_crmconnection entity"
+  href: msdyn_crmconnection.md
+- name: "CSAdminConfig"
+  displayName: "msdyn_csadminconfig entity"
+  href: msdyn_csadminconfig.md
+- name: "Currency"
+  displayName: "TransactionCurrency entity"
+  href: transactioncurrency.md
+- name: "Custom API"
+  displayName: "CustomAPI entity"
+  href: customapi.md
+- name: "Custom API Request Parameter"
+  displayName: "CustomAPIRequestParameter entity"
+  href: customapirequestparameter.md
+- name: "Custom API Response Property"
+  displayName: "CustomAPIResponseProperty entity"
+  href: customapiresponseproperty.md
+- name: "Custom API Ruleset Configuration"
+  displayName: "msdyn_customapirulesetconfiguration entity"
+  href: msdyn_customapirulesetconfiguration.md
+- name: "Custom Email Highlight"
+  displayName: "msdyn_SciCustomEmailHighlight entity"
+  href: msdyn_scicustomemailhighlight.md
+- name: "Custom Highlight"
+  displayName: "msdyn_SciCustomHighlight entity"
+  href: msdyn_scicustomhighlight.md
+- name: "Custom Publisher"
+  displayName: "msdyn_SciCustomPublisher entity"
+  href: msdyn_scicustompublisher.md
+- name: "Customer Asset"
+  displayName: "msdyn_customerasset entity"
+  href: msdyn_customerasset.md
+- name: "Customer Asset Attachment"
+  displayName: "msdyn_customerassetattachment entity"
+  href: msdyn_customerassetattachment.md
+- name: "Customer Asset Category"
+  displayName: "msdyn_customerassetcategory entity"
+  href: msdyn_customerassetcategory.md
+- name: "Customer email communication"
+  displayName: "msdyn_customeremailcommunication entity"
+  href: msdyn_customeremailcommunication.md
+- name: "Customer feedback survey"
+  displayName: "msdyn_customerfeedbacksurvey entity"
+  href: msdyn_customerfeedbacksurvey.md
+- name: "Customer feedback survey invite"
+  displayName: "msdyn_customerfeedbacksurveyinvite entity"
+  href: msdyn_customerfeedbacksurveyinvite.md
+- name: "Customer feedback survey response"
+  displayName: "msdyn_customerfeedbacksurveyresponse entity"
+  href: msdyn_customerfeedbacksurveyresponse.md
+- name: "Customer Service historical analytics"
+  displayName: "msdyn_dataanalyticsreport_csrmanager entity"
+  href: msdyn_dataanalyticsreport_csrmanager.md
+- name: "Customer Service Key Value Configuration"
+  displayName: "msdyn_cskeyvalueconfig entity"
+  href: msdyn_cskeyvalueconfig.md
+- name: "Customer Voice alert"
+  displayName: "msfp_alert entity"
+  href: msfp_alert.md
+- name: "Customer Voice alert rule"
+  displayName: "msfp_alertrule entity"
+  href: msfp_alertrule.md
+- name: "Customer Voice file response"
+  displayName: "msfp_fileresponse entity"
+  href: msfp_fileresponse.md
+- name: "Customer Voice localized survey email template"
+  displayName: "msfp_localizedemailtemplate entity"
+  href: msfp_localizedemailtemplate.md
+- name: "Customer Voice project"
+  displayName: "msfp_project entity"
+  href: msfp_project.md
+- name: "Customer Voice satisfaction metric"
+  displayName: "msfp_satisfactionmetric entity"
+  href: msfp_satisfactionmetric.md
+- name: "Customer Voice survey"
+  displayName: "msfp_survey entity"
+  href: msfp_survey.md
+- name: "Customer Voice survey email template"
+  displayName: "msfp_emailtemplate entity"
+  href: msfp_emailtemplate.md
+- name: "Customer Voice survey invite"
+  displayName: "msfp_surveyinvite entity"
+  href: msfp_surveyinvite.md
+- name: "Customer Voice survey question"
+  displayName: "msfp_question entity"
+  href: msfp_question.md
+- name: "Customer Voice survey question response"
+  displayName: "msfp_questionresponse entity"
+  href: msfp_questionresponse.md
+- name: "Customer Voice survey reminder"
+  displayName: "msfp_surveyreminder entity"
+  href: msfp_surveyreminder.md
+- name: "Customer Voice survey response"
+  displayName: "msfp_surveyresponse entity"
+  href: msfp_surveyresponse.md
+- name: "Customer Voice unsubscribed recipient"
+  displayName: "msfp_unsubscribedrecipient entity"
+  href: msfp_unsubscribedrecipient.md
+- name: "Daily Kpis for account"
+  displayName: "msdyn_dailyaccountkpiitem entity"
+  href: msdyn_dailyaccountkpiitem.md
+- name: "Daily kpis for contact"
+  displayName: "msdyn_dailycontactkpiitem entity"
+  href: msdyn_dailycontactkpiitem.md
+- name: "Daily kpis for lead"
+  displayName: "msdyn_dailyleadkpiitem entity"
+  href: msdyn_dailyleadkpiitem.md
+- name: "Daily kpis for Opportunity"
+  displayName: "msdyn_dailyopportunitykpiitem entity"
+  href: msdyn_dailyopportunitykpiitem.md
+- name: "Data Analytics Dataset"
+  displayName: "msdyn_dataanalyticsdataset entity"
+  href: msdyn_dataanalyticsdataset.md
+- name: "Data Analytics Report"
+  displayName: "msdyn_dataanalyticsreport entity"
+  href: msdyn_dataanalyticsreport.md
+- name: "Data Analytics User Customized Report"
+  displayName: "msdyn_dataanalyticscustomizedreport entity"
+  href: msdyn_dataanalyticscustomizedreport.md
+- name: "Data Analytics Workspace"
+  displayName: "msdyn_dataanalyticsworkspace entity"
+  href: msdyn_dataanalyticsworkspace.md
+- name: "Data Hygiene Setting Info"
+  displayName: "msdyn_datahygienesettinginfo entity"
+  href: msdyn_datahygienesettinginfo.md
+- name: "Data Map"
+  displayName: "ImportMap entity"
+  href: importmap.md
+- name: "Database Version"
+  displayName: "msdyn_databaseversion entity"
+  href: msdyn_databaseversion.md
+- name: "Deal manager settings"
+  displayName: "msdyn_dealmanagersettings entity"
+  href: msdyn_dealmanagersettings.md
+- name: "dealmanageraccess"
+  displayName: "msdyn_dealmanageraccess entity"
+  href: msdyn_dealmanageraccess.md
+- name: "Decision contract"
+  displayName: "msdyn_decisioncontract entity"
+  href: msdyn_decisioncontract.md
+- name: "Decision rule set"
+  displayName: "msdyn_decisionruleset entity"
+  href: msdyn_decisionruleset.md
+- name: "DeletedConversation"
+  displayName: "msdyn_deletedconversation entity"
+  href: msdyn_deletedconversation.md
+- name: "Derived insights related entity"
+  displayName: "msdyn_derivedinsightsrelatedentity entity"
+  href: msdyn_derivedinsightsrelatedentity.md
+- name: "DigitalSellingActiveTask"
+  displayName: "msdyn_digitalsellingactivetask entity"
+  href: msdyn_digitalsellingactivetask.md
+- name: "DigitalSellingCompletedTask"
+  displayName: "msdyn_digitalsellingcompletedtask entity"
+  href: msdyn_digitalsellingcompletedtask.md
+- name: "Discount"
+  displayName: "Discount entity"
+  href: discount.md
+- name: "Discount List"
+  displayName: "DiscountType entity"
+  href: discounttype.md
+- name: "Distributed Lock"
+  displayName: "msdyn_distributedlock entity"
+  href: msdyn_distributedlock.md
+- name: "Divider style"
+  displayName: "msdyncrm_dividerstyle entity"
+  href: msdyncrm_dividerstyle.md
+- name: "Document Location"
+  displayName: "SharePointDocumentLocation entity"
+  href: sharepointdocumentlocation.md
+- name: "Duplicate Detection Plugin Run"
+  displayName: "msdyn_duplicatedetectionpluginrun entity"
+  href: msdyn_duplicatedetectionpluginrun.md
+- name: "Duplicate Detection Rule"
+  displayName: "DuplicateRule entity"
+  href: duplicaterule.md
+- name: "Duplicate Lead Mapping"
+  displayName: "msdyn_duplicateleadmapping entity"
+  href: msdyn_duplicateleadmapping.md
+- name: "Duplicate Record"
+  displayName: "DuplicateRecord entity"
+  href: duplicaterecord.md
+- name: "Effort estimate"
+  displayName: "msdyn_effortpredictionresult entity"
+  href: msdyn_effortpredictionresult.md
+- name: "Effort estimation model"
+  displayName: "msdyn_iermlmodel entity"
+  href: msdyn_iermlmodel.md
+- name: "Effort model training details"
+  displayName: "msdyn_iermltraining entity"
+  href: msdyn_iermltraining.md
+- name: "Email"
+  displayName: "Email entity"
+  href: email.md
+- name: "Email analytics"
+  displayName: "msdyn_dataanalyticsreport_email entity"
+  href: msdyn_dataanalyticsreport_email.md
+- name: "Email Sentiment"
+  displayName: "msdyn_emailsentiment entity"
+  href: msdyn_emailsentiment.md
+- name: "Email Template"
+  displayName: "Template entity"
+  href: template.md
+- name: "Entitlement"
+  displayName: "Entitlement entity"
+  href: entitlement.md
+- name: "Entitlement Channel"
+  displayName: "EntitlementChannel entity"
+  href: entitlementchannel.md
+- name: "Entitlement Contact"
+  displayName: "EntitlementContacts entity"
+  href: entitlementcontacts.md
+- name: "Entitlement Entity Allocation Type Mapping"
+  displayName: "EntitlementEntityAllocationTypeMapping entity"
+  href: entitlemententityallocationtypemapping.md
+- name: "Entitlement Product"
+  displayName: "EntitlementProducts entity"
+  href: entitlementproducts.md
+- name: "Entitlement Template"
+  displayName: "EntitlementTemplate entity"
+  href: entitlementtemplate.md
+- name: "Entitlement Template Channel"
+  displayName: "EntitlementTemplateChannel entity"
+  href: entitlementtemplatechannel.md
+- name: "Entitlement Template Product"
+  displayName: "EntitlementTemplateProducts entity"
+  href: entitlementtemplateproducts.md
+- name: "Entity"
+  displayName: "msdyn_entityroutingconfiguration entity"
+  href: msdyn_entityroutingconfiguration.md
+- name: "Entity (Entity)"
+  displayName: "Entity entity"
+  href: entity.md
+- name: "Entity Attachment"
+  displayName: "msdyn_entityattachment entity"
+  href: msdyn_entityattachment.md
+- name: "Entity Attribute Prediction Rule"
+  displayName: "msdyn_EntityAttributePredictionRule entity"
+  href: msdyn_entityattributepredictionrule.md
+- name: "Entity Delta Change"
+  displayName: "msdyn_entitydeltachange entity"
+  href: msdyn_entitydeltachange.md
+- name: "Entity derived insights"
+  displayName: "msdyn_entityderivedinsight entity"
+  href: msdyn_entityderivedinsight.md
+- name: "Entity Routing Context"
+  displayName: "msdyn_cdsentityengagementctx entity"
+  href: msdyn_cdsentityengagementctx.md
+- name: "Entity-Workstream Map"
+  displayName: "msdyn_entityWorkstreamMap entity"
+  href: msdyn_entityworkstreammap.md
+- name: "EntityRankingRule"
+  displayName: "msdyn_entityrankingrule entity"
+  href: msdyn_entityrankingrule.md
+- name: "EnvironmentSettings"
+  displayName: "msdyn_scienvironmentsettings entity"
+  href: msdyn_scienvironmentsettings.md
+- name: "EventParameterMetadata"
+  displayName: "msdynmkt_eventparametermetadata entity"
+  href: msdynmkt_eventparametermetadata.md
+- name: "Extended User Setting"
+  displayName: "msdyn_extendedusersetting entity"
+  href: msdyn_extendedusersetting.md
+- name: "External context"
+  displayName: "msdyn_ocexternalcontext entity"
+  href: msdyn_ocexternalcontext.md
+- name: "External CRM"
+  displayName: "msdyn_externalcrm entity"
+  href: msdyn_externalcrm.md
+- name: "External Record"
+  displayName: "msdyn_externalrecord entity"
+  href: msdyn_externalrecord.md
+- name: "Facility/Equipment"
+  displayName: "Equipment entity"
+  href: equipment.md
+- name: "Fax"
+  displayName: "Fax entity"
+  href: fax.md
+- name: "Feedback"
+  displayName: "Feedback entity"
+  href: feedback.md
+- name: "Field Sharing"
+  displayName: "PrincipalObjectAttributeAccess entity"
+  href: principalobjectattributeaccess.md
+- name: "File Upload Status Tracker"
+  displayName: "msdyn_fileuploadstatustracker entity"
+  href: msdyn_fileuploadstatustracker.md
+- name: "FileAttachment"
+  displayName: "FileAttachment entity"
+  href: fileattachment.md
+- name: "Filter"
+  displayName: "msdyn_wallsavedqueryusersettings entity"
+  href: msdyn_wallsavedqueryusersettings.md
+- name: "Flagged spam"
+  displayName: "msdyn_ocflaggedspam entity"
+  href: msdyn_ocflaggedspam.md
+- name: "flowcardtype"
+  displayName: "msdyn_flowcardtype entity"
+  href: msdyn_flowcardtype.md
+- name: "Follow"
+  displayName: "PostFollow entity"
+  href: postfollow.md
+- name: "Forecast"
+  displayName: "msdyn_forecastinstance entity"
+  href: msdyn_forecastinstance.md
+- name: "Forecast (msdyn_dataanalyticsreport_forecast)"
+  displayName: "msdyn_dataanalyticsreport_forecast entity"
+  href: msdyn_dataanalyticsreport_forecast.md
+- name: "Forecast (msdyn_forecast)"
+  displayName: "msdyn_forecast entity"
+  href: msdyn_forecast.md
+- name: "Forecast Configuration"
+  displayName: "msdyn_forecastconfiguration entity"
+  href: msdyn_forecastconfiguration.md
+- name: "Forecast definition"
+  displayName: "msdyn_forecastdefinition entity"
+  href: msdyn_forecastdefinition.md
+- name: "Forecast Insights"
+  displayName: "msdyn_forecastinsight entity"
+  href: msdyn_forecastinsight.md
+- name: "Forecast Manual Adjustment History"
+  displayName: "msdyn_adjustmenthistory entity"
+  href: msdyn_adjustmenthistory.md
+- name: "Forecast Prediction Data"
+  displayName: "msdyn_forecastpredictiondata entity"
+  href: msdyn_forecastpredictiondata.md
+- name: "Forecast Prediction Status"
+  displayName: "msdyn_forecastpredictionstatus entity"
+  href: msdyn_forecastpredictionstatus.md
+- name: "Forecast Recurrence"
+  displayName: "msdyn_recurrence entity"
+  href: msdyn_recurrence.md
+- name: "Forecast recurrence (msdyn_forecastrecurrence)"
+  displayName: "msdyn_forecastrecurrence entity"
+  href: msdyn_forecastrecurrence.md
+- name: "Forecast Summary and Setting"
+  displayName: "msdyn_forecastsettingsandsummary entity"
+  href: msdyn_forecastsettingsandsummary.md
+- name: "Forecasting Cache"
+  displayName: "msdyn_forecastingcache entity"
+  href: msdyn_forecastingcache.md
+- name: "Functional Location"
+  displayName: "msdyn_FunctionalLocation entity"
+  href: msdyn_functionallocation.md
+- name: "Functional Location Type"
+  displayName: "msdyn_FunctionalLocationType entity"
+  href: msdyn_functionallocationtype.md
+- name: "Functional Location Type Template Association"
+  displayName: "msdyn_locationtypetemplateassociation entity"
+  href: msdyn_locationtypetemplateassociation.md
+- name: "GDPRData"
+  displayName: "msdyn_gdprdata entity"
+  href: msdyn_gdprdata.md
+- name: "General styles"
+  displayName: "msdyncrm_generalstyles entity"
+  href: msdyncrm_generalstyles.md
+- name: "Geo Location Provider"
+  displayName: "msdyn_oc_geolocationprovider entity"
+  href: msdyn_oc_geolocationprovider.md
+- name: "Goal"
+  displayName: "Goal entity"
+  href: goal.md
+- name: "Goal Metric"
+  displayName: "Metric entity"
+  href: metric.md
+- name: "ICD Extension"
+  displayName: "msdyn_ICDExtension entity"
+  href: msdyn_icdextension.md
+- name: "icebreakersconfig"
+  displayName: "msdyn_icebreakersconfig entity"
+  href: msdyn_icebreakersconfig.md
+- name: "imagestyle"
+  displayName: "msdyncrm_imagestyle entity"
+  href: msdyncrm_imagestyle.md
+- name: "Inbox card configuration"
+  displayName: "msdyn_inboxcardconfiguration entity"
+  href: msdyn_inboxcardconfiguration.md
+- name: "Inbox Configuration"
+  displayName: "msdyn_inboxconfiguration entity"
+  href: msdyn_inboxconfiguration.md
+- name: "Inbox Entity Configuration"
+  displayName: "msdyn_inboxentityconfig entity"
+  href: msdyn_inboxentityconfig.md
+- name: "Incident KnowledgeBaseRecord"
+  displayName: "IncidentKnowledgeBaseRecord entity"
+  href: incidentknowledgebaserecord.md
+- name: "Infobip channel instance"
+  displayName: "msdynmkt_infobipchannelinstance entity"
+  href: msdynmkt_infobipchannelinstance.md
+- name: "Infobip channel instance account"
+  displayName: "msdynmkt_infobipchannelinstanceaccount entity"
+  href: msdynmkt_infobipchannelinstanceaccount.md
+- name: "Insight"
+  displayName: "msdyn_salessuggestion entity"
+  href: msdyn_salessuggestion.md
+- name: "Insights"
+  displayName: "msdyn_datainsightsandanalyticsfeature entity"
+  href: msdyn_datainsightsandanalyticsfeature.md
+- name: "intent"
+  displayName: "msdyn_intent entity"
+  href: msdyn_intent.md
+- name: "Intent Config"
+  displayName: "msdyn_intentconfig entity"
+  href: msdyn_intentconfig.md
+- name: "Intent Group Condition"
+  displayName: "msdyn_intentgroupcondition entity"
+  href: msdyn_intentgroupcondition.md
+- name: "Intent Solution Map"
+  displayName: "msdyn_intentsolutionmap entity"
+  href: msdyn_intentsolutionmap.md
+- name: "intentattribute"
+  displayName: "msdyn_intentattribute entity"
+  href: msdyn_intentattribute.md
+- name: "intentattribute_entity"
+  displayName: "msdyn_intentattribute_entity entity"
+  href: msdyn_intentattribute_entity.md
+- name: "intentattributeset"
+  displayName: "msdyn_intentattributeset entity"
+  href: msdyn_intentattributeset.md
+- name: "intententity"
+  displayName: "msdyn_intententity entity"
+  href: msdyn_intententity.md
+- name: "Interaction for Email"
+  displayName: "InteractionForEmail entity"
+  href: interactionforemail.md
+- name: "Invitation"
+  displayName: "adx_invitation entity"
+  href: adx_invitation.md
+- name: "Invite Redemption"
+  displayName: "adx_inviteredemption entity"
+  href: adx_inviteredemption.md
+- name: "Invoice"
+  displayName: "Invoice entity"
+  href: invoice.md
+- name: "Invoice Product"
+  displayName: "InvoiceDetail entity"
+  href: invoicedetail.md
+- name: "IoT Alert"
+  displayName: "msdyn_iotalert entity"
+  href: msdyn_iotalert.md
+- name: "IoT Alert to Case Process"
+  displayName: "msdyn_iottocaseprocess entity"
+  href: msdyn_iottocaseprocess.md
+- name: "IoT Device"
+  displayName: "msdyn_iotdevice entity"
+  href: msdyn_iotdevice.md
+- name: "IoT Device Category"
+  displayName: "msdyn_iotdevicecategory entity"
+  href: msdyn_iotdevicecategory.md
+- name: "IoT Device Command"
+  displayName: "msdyn_iotdevicecommand entity"
+  href: msdyn_iotdevicecommand.md
+- name: "IoT Device Command Definition"
+  displayName: "msdyn_iotdevicecommanddefinition entity"
+  href: msdyn_iotdevicecommanddefinition.md
+- name: "IoT Device Data History"
+  displayName: "msdyn_iotdevicedatahistory entity"
+  href: msdyn_iotdevicedatahistory.md
+- name: "IoT Device Property"
+  displayName: "msdyn_iotdeviceproperty entity"
+  href: msdyn_iotdeviceproperty.md
+- name: "IoT Device Registration History"
+  displayName: "msdyn_iotdeviceregistrationhistory entity"
+  href: msdyn_iotdeviceregistrationhistory.md
+- name: "IoT Device Visualization Configuration"
+  displayName: "msdyn_iotdevicevisualizationconfiguration entity"
+  href: msdyn_iotdevicevisualizationconfiguration.md
+- name: "IoT Field Mapping"
+  displayName: "msdyn_iotfieldmapping entity"
+  href: msdyn_iotfieldmapping.md
+- name: "IoT Property Definition"
+  displayName: "msdyn_iotpropertydefinition entity"
+  href: msdyn_iotpropertydefinition.md
+- name: "IoT Provider"
+  displayName: "msdyn_iotprovider entity"
+  href: msdyn_iotprovider.md
+- name: "IoT Provider Instance"
+  displayName: "msdyn_iotproviderinstance entity"
+  href: msdyn_iotproviderinstance.md
+- name: "IoT Settings"
+  displayName: "msdyn_iotsettings entity"
+  href: msdyn_iotsettings.md
+- name: "KB Enrichment"
+  displayName: "msdyn_kbenrichment entity"
+  href: msdyn_kbenrichment.md
+- name: "Keywords Description Suggestion Setting"
+  displayName: "msdyn_kbkeywordsdescsuggestionsetting entity"
+  href: msdyn_kbkeywordsdescsuggestionsetting.md
+- name: "Knowledge analytics"
+  displayName: "msdyn_dataanalyticsreport_ksinsights entity"
+  href: msdyn_dataanalyticsreport_ksinsights.md
+- name: "Knowledge Article"
+  displayName: "KnowledgeArticle entity"
+  href: knowledgearticle.md
+- name: "Knowledge Article Incident"
+  displayName: "KnowledgeArticleIncident entity"
+  href: knowledgearticleincident.md
+- name: "Knowledge Article Suggestion"
+  displayName: "msdyn_knowledgearticlesuggestion entity"
+  href: msdyn_knowledgearticlesuggestion.md
+- name: "Knowledge Article Suggestion Data Source"
+  displayName: "msdyn_knowledgearticlesuggestiondatasource entity"
+  href: msdyn_knowledgearticlesuggestiondatasource.md
+- name: "Knowledge Base Record"
+  displayName: "KnowledgeBaseRecord entity"
+  href: knowledgebaserecord.md
+- name: "Knowledge Federated Article Incident"
+  displayName: "msdyn_federatedarticleincident entity"
+  href: msdyn_federatedarticleincident.md
+- name: "KPI Event Data"
+  displayName: "msdyn_KPIEventData entity"
+  href: msdyn_kpieventdata.md
+- name: "KPI Event Definition"
+  displayName: "msdyn_KPIEventDefinition entity"
+  href: msdyn_kpieventdefinition.md
+- name: "Language"
+  displayName: "msdyn_oclanguage entity"
+  href: msdyn_oclanguage.md
+- name: "Language Hierarchy"
+  displayName: "msdyn_language entity"
+  href: msdyn_language.md
+- name: "Layout Style"
+  displayName: "msdyncrm_layoutstyle entity"
+  href: msdyncrm_layoutstyle.md
+- name: "Lead"
+  displayName: "Lead entity"
+  href: lead.md
+- name: "Lead Address"
+  displayName: "LeadAddress entity"
+  href: leadaddress.md
+- name: "Lead Hygiene Setting"
+  displayName: "msdyn_leadhygienesetting entity"
+  href: msdyn_leadhygienesetting.md
+- name: "Lead KPI Item"
+  displayName: "msdyn_leadkpiitem entity"
+  href: msdyn_leadkpiitem.md
+- name: "Lead To Opportunity Sales Process"
+  displayName: "LeadToOpportunitySalesProcess entity"
+  href: leadtoopportunitysalesprocess.md
+- name: "LeadCompetitors"
+  displayName: "LeadCompetitors entity"
+  href: leadcompetitors.md
+- name: "LeadModelConfig"
+  displayName: "msdyn_leadmodelconfig entity"
+  href: msdyn_leadmodelconfig.md
+- name: "LeadProduct"
+  displayName: "LeadProduct entity"
+  href: leadproduct.md
+- name: "Letter"
+  displayName: "Letter entity"
+  href: letter.md
+- name: "Line of Business"
+  displayName: "msdyn_intentfamily entity"
+  href: msdyn_intentfamily.md
+- name: "Link mobility channel instance"
+  displayName: "msdynmkt_linkmobilitychannelinstance entity"
+  href: msdynmkt_linkmobilitychannelinstance.md
+- name: "Link mobility channel instance account"
+  displayName: "msdynmkt_linkmobilitychannelinstanceaccount entity"
+  href: msdynmkt_linkmobilitychannelinstanceaccount.md
+- name: "Linked Entity Attribute Validity"
+  displayName: "msdyn_linkedentityattributevalidity entity"
+  href: msdyn_linkedentityattributevalidity.md
+- name: "List Operation"
+  displayName: "listoperation entity"
+  href: listoperation.md
+- name: "Live work item event"
+  displayName: "msdyn_liveworkitemevent entity"
+  href: msdyn_liveworkitemevent.md
+- name: "LOB Backfill Status"
+  displayName: "msdyn_intententity_backfillstatus entity"
+  href: msdyn_intententity_backfillstatus.md
+- name: "Localization"
+  displayName: "msdyn_oclocalizationdata entity"
+  href: msdyn_oclocalizationdata.md
+- name: "Location Template Association"
+  displayName: "msdyn_locationtemplateassociation entity"
+  href: msdyn_locationtemplateassociation.md
+- name: "Lock Status"
+  displayName: "msdyn_lockstatus entity"
+  href: msdyn_lockstatus.md
+- name: "Macro Action Template"
+  displayName: "msdyn_productivitymacroactiontemplate entity"
+  href: msdyn_productivitymacroactiontemplate.md
+- name: "Macro Connector"
+  displayName: "msdyn_productivitymacroconnector entity"
+  href: msdyn_productivitymacroconnector.md
+- name: "Macro Run History"
+  displayName: "msdyn_macrosession entity"
+  href: msdyn_macrosession.md
+- name: "Macro Solution Configuration"
+  displayName: "msdyn_productivitymacrosolutionconfiguration entity"
+  href: msdyn_productivitymacrosolutionconfiguration.md
+- name: "Mailbox"
+  displayName: "Mailbox entity"
+  href: mailbox.md
+- name: "Mailbox Auto Tracking Folder"
+  displayName: "MailboxTrackingFolder entity"
+  href: mailboxtrackingfolder.md
+- name: "Marketing feature configuration"
+  displayName: "msdynmkt_featureconfiguration entity"
+  href: msdynmkt_featureconfiguration.md
+- name: "Marketing Form Display Attributes"
+  displayName: "marketingformdisplayattributes entity"
+  href: marketingformdisplayattributes.md
+- name: "Marketing List"
+  displayName: "List entity"
+  href: list.md
+- name: "Marketing List Member"
+  displayName: "ListMember entity"
+  href: listmember.md
+- name: "Masking Rule"
+  displayName: "msdyn_maskingrule entity"
+  href: msdyn_maskingrule.md
+- name: "Master Entity Routing Configuration"
+  displayName: "msdyn_masterentityroutingconfiguration entity"
+  href: msdyn_masterentityroutingconfiguration.md
+- name: "Message"
+  displayName: "msdyn_ocsystemmessage entity"
+  href: msdyn_ocsystemmessage.md
+- name: "Metadata Entity Relationship"
+  displayName: "msdynmkt_metadataentityrelationship entity"
+  href: msdynmkt_metadataentityrelationship.md
+- name: "Metadata Item"
+  displayName: "msdynmkt_metadataitem entity"
+  href: msdynmkt_metadataitem.md
+- name: "Metadata Store State"
+  displayName: "msdynmkt_metadatastorestate entity"
+  href: msdynmkt_metadatastorestate.md
+- name: "Microsoft Orgchart node entity"
+  displayName: "msdyn_orgchartnode entity"
+  href: msdyn_orgchartnode.md
+- name: "Microsoft Teams chat association entity"
+  displayName: "msdyn_teamschatassociation entity"
+  href: msdyn_teamschatassociation.md
+- name: "Microsoft Teams chat suggestion"
+  displayName: "msdyn_teamschatsuggestion entity"
+  href: msdyn_teamschatsuggestion.md
+- name: "Microsoft Teams Collaboration entity"
+  displayName: "msdyn_TeamsCollaboration entity"
+  href: msdyn_teamscollaboration.md
+- name: "Microsoft Teams Graph resource Entity"
+  displayName: "msdyn_CollabGraphResource entity"
+  href: msdyn_collabgraphresource.md
+- name: "Migration tracker"
+  displayName: "msdyn_migrationtracker entity"
+  href: msdyn_migrationtracker.md
+- name: "MockSmsProvider channel instance"
+  displayName: "msdynmkt_mocksmsproviderchannelinstance entity"
+  href: msdynmkt_mocksmsproviderchannelinstance.md
+- name: "MockSmsProvider channel instance account"
+  displayName: "msdynmkt_mocksmsproviderchannelinstanceaccount entity"
+  href: msdynmkt_mocksmsproviderchannelinstanceaccount.md
+- name: "Model Customization analytics"
+  displayName: "msdyn_dataanalyticsreport_mc entity"
+  href: msdyn_dataanalyticsreport_mc.md
+- name: "Model training details"
+  displayName: "msdyn_ocsimltraining entity"
+  href: msdyn_ocsimltraining.md
+- name: "ModelPreviewStatus"
+  displayName: "msdyn_ModelPreviewStatus entity"
+  href: msdyn_modelpreviewstatus.md
+- name: "Most Contacted"
+  displayName: "msdyn_mostcontacted entity"
+  href: msdyn_mostcontacted.md
+- name: "Most Contacted By"
+  displayName: "msdyn_mostcontactedby entity"
+  href: msdyn_mostcontactedby.md
+- name: "msdyn_intentfeature_configuration"
+  displayName: "msdyn_intentfeature_configuration entity"
+  href: msdyn_intentfeature_configuration.md
+- name: "msdyn_rawinsight"
+  displayName: "msdyn_rawinsight entity"
+  href: msdyn_rawinsight.md
+- name: "msdyn_rawinsightentitylink"
+  displayName: "msdyn_rawinsightentitylink entity"
+  href: msdyn_rawinsightentitylink.md
+- name: "New Process"
+  displayName: "NewProcess entity"
+  href: newprocess.md
+- name: "Next Action"
+  displayName: "msdyn_nextaction entity"
+  href: msdyn_nextaction.md
+- name: "Note"
+  displayName: "Annotation entity"
+  href: annotation.md
+- name: "Notes analysis Config"
+  displayName: "msdyn_notesanalysisconfig entity"
+  href: msdyn_notesanalysisconfig.md
+- name: "Notification Field"
+  displayName: "msdyn_notificationfield entity"
+  href: msdyn_notificationfield.md
+- name: "Notification Template"
+  displayName: "msdyn_notificationtemplate entity"
+  href: msdyn_notificationtemplate.md
+- name: "OC Payment Profile"
+  displayName: "msdyn_ocpaymentprofile entity"
+  href: msdyn_ocpaymentprofile.md
+- name: "ODOSFeatureMetadata"
+  displayName: "msdyn_odosfeaturemetadata entity"
+  href: msdyn_odosfeaturemetadata.md
+- name: "ODOSMetadata"
+  displayName: "msdyn_odosmetadata entity"
+  href: msdyn_odosmetadata.md
+- name: "Omnichannel agent assignment custom api privilege"
+  displayName: "msdyn_ocagentassignedcustomapiprivilege entity"
+  href: msdyn_ocagentassignedcustomapiprivilege.md
+- name: "Omnichannel channel api conversation privilege"
+  displayName: "msdyn_occhannelapiconversationprivilege entity"
+  href: msdyn_occhannelapiconversationprivilege.md
+- name: "Omnichannel channel api message privilege"
+  displayName: "msdyn_occhannelapimessageprivilege entity"
+  href: msdyn_occhannelapimessageprivilege.md
+- name: "Omnichannel Configuration"
+  displayName: "msdyn_omnichannelconfiguration entity"
+  href: msdyn_omnichannelconfiguration.md
+- name: "Omnichannel historical analytics"
+  displayName: "msdyn_dataanalyticsreport_oc entity"
+  href: msdyn_dataanalyticsreport_oc.md
+- name: "Omnichannel Personalization"
+  displayName: "msdyn_omnichannelpersonalization entity"
+  href: msdyn_omnichannelpersonalization.md
+- name: "Omnichannel Realtime analytics"
+  displayName: "msdyn_dataanalyticsreport_oc_rt entity"
+  href: msdyn_dataanalyticsreport_oc_rt.md
+- name: "Omnichannel Request"
+  displayName: "msdyn_ocrequest entity"
+  href: msdyn_ocrequest.md
+- name: "Omnichannel Sync Config"
+  displayName: "msdyn_omnichannelsyncconfig entity"
+  href: msdyn_omnichannelsyncconfig.md
+- name: "Operating Hour"
+  displayName: "msdyn_operatinghour entity"
+  href: msdyn_operatinghour.md
+- name: "Opportunity"
+  displayName: "Opportunity entity"
+  href: opportunity.md
+- name: "Opportunity Close"
+  displayName: "OpportunityClose entity"
+  href: opportunityclose.md
+- name: "Opportunity KPI Item"
+  displayName: "msdyn_opportunitykpiitem entity"
+  href: msdyn_opportunitykpiitem.md
+- name: "Opportunity Product"
+  displayName: "OpportunityProduct entity"
+  href: opportunityproduct.md
+- name: "Opportunity Sales Process"
+  displayName: "OpportunitySalesProcess entity"
+  href: opportunitysalesprocess.md
+- name: "OpportunityCompetitors"
+  displayName: "OpportunityCompetitors entity"
+  href: opportunitycompetitors.md
+- name: "OpportunityModelConfig"
+  displayName: "msdyn_opportunitymodelconfig entity"
+  href: msdyn_opportunitymodelconfig.md
+- name: "Order"
+  displayName: "SalesOrder entity"
+  href: salesorder.md
+- name: "Order Close"
+  displayName: "OrderClose entity"
+  href: orderclose.md
+- name: "Order Product"
+  displayName: "SalesOrderDetail entity"
+  href: salesorderdetail.md
+- name: "Org level settings for Sales Copilot apps"
+  displayName: "msdyn_salescopilotorgsettings entity"
+  href: msdyn_salescopilotorgsettings.md
+- name: "Organization"
+  displayName: "Organization entity"
+  href: organization.md
+- name: "Originating Queue Mapping"
+  displayName: "msdyn_originatingqueue entity"
+  href: msdyn_originatingqueue.md
+- name: "Overflow Action Config"
+  displayName: "msdyn_overflowactionconfig entity"
+  href: msdyn_overflowactionconfig.md
+- name: "Owner"
+  displayName: "Owner entity"
+  href: owner.md
+- name: "Pane tab configuration"
+  displayName: "msdyn_panetabconfiguration entity"
+  href: msdyn_panetabconfiguration.md
+- name: "Pane tool configuration"
+  displayName: "msdyn_panetoolconfiguration entity"
+  href: msdyn_panetoolconfiguration.md
+- name: "Parameter definition"
+  displayName: "msdyn_productivityparameterdefinition entity"
+  href: msdyn_productivityparameterdefinition.md
+- name: "Persona Security Role Mapping"
+  displayName: "msdyn_personasecurityrolemapping entity"
+  href: msdyn_personasecurityrolemapping.md
+- name: "Personal quick reply"
+  displayName: "msdyn_personalmessage entity"
+  href: msdyn_personalmessage.md
+- name: "Personal sound setting"
+  displayName: "msdyn_Personalsoundsetting entity"
+  href: msdyn_personalsoundsetting.md
+- name: "Phone Call"
+  displayName: "PhoneCall entity"
+  href: phonecall.md
+- name: "Phone To Case Process"
+  displayName: "PhoneToCaseProcess entity"
+  href: phonetocaseprocess.md
+- name: "Plug-in Type"
+  displayName: "PluginType entity"
+  href: plugintype.md
+- name: "Poll Placement"
+  displayName: "mspp_pollplacement entity"
+  href: mspp_pollplacement.md
+- name: "Portal Comment"
+  displayName: "adx_portalcomment entity"
+  href: adx_portalcomment.md
+- name: "Post"
+  displayName: "Post entity"
+  href: post.md
+- name: "Post Configuration"
+  displayName: "msdyn_PostConfig entity"
+  href: msdyn_postconfig.md
+- name: "Post Regarding"
+  displayName: "PostRegarding entity"
+  href: postregarding.md
+- name: "Post Rule Configuration"
+  displayName: "msdyn_PostRuleConfig entity"
+  href: msdyn_postruleconfig.md
+- name: "Power BI Configuration"
+  displayName: "msdyn_analytics entity"
+  href: msdyn_analytics.md
+- name: "Predefined Placeholder"
+  displayName: "msdynmkt_predefinedplaceholder entity"
+  href: msdynmkt_predefinedplaceholder.md
+- name: "Prediction Computation Operation"
+  displayName: "msdyn_predictioncomputationoperation entity"
+  href: msdyn_predictioncomputationoperation.md
+- name: "Prediction Model Status"
+  displayName: "msdyn_predictionmodelstatus entity"
+  href: msdyn_predictionmodelstatus.md
+- name: "Prediction Scheduled Operation"
+  displayName: "msdyn_predictionscheduledoperation entity"
+  href: msdyn_predictionscheduledoperation.md
+- name: "Predictive Model Score"
+  displayName: "msdyn_predictivemodelscore entity"
+  href: msdyn_predictivemodelscore.md
+- name: "Predictive Score"
+  displayName: "msdyn_predictivescore entity"
+  href: msdyn_predictivescore.md
+- name: "Predictive Scoring Sync Status"
+  displayName: "msdyn_predictivescoringsyncstatus entity"
+  href: msdyn_predictivescoringsyncstatus.md
+- name: "Preferred Agent"
+  displayName: "msdyn_preferredagent entity"
+  href: msdyn_preferredagent.md
+- name: "Preferred Agent Customer Identity"
+  displayName: "msdyn_preferredagentcustomeridentity entity"
+  href: msdyn_preferredagentcustomeridentity.md
+- name: "Preferred Agent Routed Entity"
+  displayName: "msdyn_preferredagentroutedentity entity"
+  href: msdyn_preferredagentroutedentity.md
+- name: "Presence"
+  displayName: "msdyn_presence entity"
+  href: msdyn_presence.md
+- name: "Price List"
+  displayName: "PriceLevel entity"
+  href: pricelevel.md
+- name: "Price List Item"
+  displayName: "ProductPriceLevel entity"
+  href: productpricelevel.md
+- name: "Process"
+  displayName: "Workflow entity"
+  href: workflow.md
+- name: "Process Log"
+  displayName: "WorkflowLog entity"
+  href: workflowlog.md
+- name: "Process Session"
+  displayName: "ProcessSession entity"
+  href: processsession.md
+- name: "Process Stage"
+  displayName: "ProcessStage entity"
+  href: processstage.md
+- name: "Product"
+  displayName: "Product entity"
+  href: product.md
+- name: "Product Association"
+  displayName: "ProductAssociation entity"
+  href: productassociation.md
+- name: "Product Relationship"
+  displayName: "ProductSubstitute entity"
+  href: productsubstitute.md
+- name: "Productivity pane configuration"
+  displayName: "msdyn_paneconfiguration entity"
+  href: msdyn_paneconfiguration.md
+- name: "ProductSalesLiterature"
+  displayName: "ProductSalesLiterature entity"
+  href: productsalesliterature.md
+- name: "Profile Album"
+  displayName: "msdyn_PostAlbum entity"
+  href: msdyn_postalbum.md
+- name: "Property"
+  displayName: "DynamicProperty entity"
+  href: dynamicproperty.md
+- name: "Property Asset Association"
+  displayName: "msdyn_propertyassetassociation entity"
+  href: msdyn_propertyassetassociation.md
+- name: "Property Association"
+  displayName: "DynamicPropertyAssociation entity"
+  href: dynamicpropertyassociation.md
+- name: "Property Definition"
+  displayName: "msdyn_property entity"
+  href: msdyn_property.md
+- name: "Property Instance"
+  displayName: "DynamicPropertyInstance entity"
+  href: dynamicpropertyinstance.md
+- name: "Property Location Association"
+  displayName: "msdyn_propertylocationassociation entity"
+  href: msdyn_propertylocationassociation.md
+- name: "Property Log"
+  displayName: "msdyn_propertylog entity"
+  href: msdyn_propertylog.md
+- name: "Property Option Set Item"
+  displayName: "DynamicPropertyOptionSetItem entity"
+  href: dynamicpropertyoptionsetitem.md
+- name: "Property Template Association"
+  displayName: "msdyn_propertytemplateassociation entity"
+  href: msdyn_propertytemplateassociation.md
+- name: "Provider"
+  displayName: "msdyn_provider entity"
+  href: msdyn_provider.md
+- name: "Provisioning State"
+  displayName: "msdyn_ocprovisioningstate entity"
+  href: msdyn_ocprovisioningstate.md
+- name: "Publishing State Transition Rule"
+  displayName: "mspp_publishingstatetransitionrule entity"
+  href: mspp_publishingstatetransitionrule.md
+- name: "QR code style"
+  displayName: "msdyncrm_qrcodestyle entity"
+  href: msdyncrm_qrcodestyle.md
+- name: "Queue"
+  displayName: "Queue entity"
+  href: queue.md
+- name: "Queue Item"
+  displayName: "QueueItem entity"
+  href: queueitem.md
+- name: "Quick Campaign"
+  displayName: "BulkOperation entity"
+  href: bulkoperation.md
+- name: "Quick reply"
+  displayName: "msdyn_cannedmessage entity"
+  href: msdyn_cannedmessage.md
+- name: "Quote"
+  displayName: "Quote entity"
+  href: quote.md
+- name: "Quote Close"
+  displayName: "QuoteClose entity"
+  href: quoteclose.md
+- name: "Quote Product"
+  displayName: "QuoteDetail entity"
+  href: quotedetail.md
+- name: "Rating Model"
+  displayName: "RatingModel entity"
+  href: ratingmodel.md
+- name: "Rating Value"
+  displayName: "RatingValue entity"
+  href: ratingvalue.md
+- name: "Read Tracker"
+  displayName: "msdyn_readtracker entity"
+  href: msdyn_readtracker.md
+- name: "Read tracking enabled information"
+  displayName: "msdyn_readtrackingenabledinfo entity"
+  href: msdyn_readtrackingenabledinfo.md
+- name: "Real Time Scoring"
+  displayName: "msdyn_realtimescoring entity"
+  href: msdyn_realtimescoring.md
+- name: "Real Time Scoring Operation"
+  displayName: "msdyn_realtimescoringoperation entity"
+  href: msdyn_realtimescoringoperation.md
+- name: "Recompute Tracker"
+  displayName: "msdyn_recomputetracker entity"
+  href: msdyn_recomputetracker.md
+- name: "Recording"
+  displayName: "msdyn_ocrecording entity"
+  href: msdyn_ocrecording.md
+- name: "Recurring Appointment"
+  displayName: "RecurringAppointmentMaster entity"
+  href: recurringappointmentmaster.md
+- name: "Recurring Sales Action"
+  displayName: "msdyn_recurringsalesaction entity"
+  href: msdyn_recurringsalesaction.md
+- name: "Recurring Sales Action V2"
+  displayName: "msdyn_recurringsalesactionv2 entity"
+  href: msdyn_recurringsalesactionv2.md
+- name: "Redirect"
+  displayName: "mspp_redirect entity"
+  href: mspp_redirect.md
+- name: "Region"
+  displayName: "msdyn_region entity"
+  href: msdyn_region.md
+- name: "Relationship Analytics Config"
+  displayName: "msdyn_activityanalysisconfig entity"
+  href: msdyn_activityanalysisconfig.md
+- name: "Relationship Analytics Metadata"
+  displayName: "msdyn_relationshipanalyticsmetadata entity"
+  href: msdyn_relationshipanalyticsmetadata.md
+- name: "Report Bookmark"
+  displayName: "msdyn_reportbookmark entity"
+  href: msdyn_reportbookmark.md
+- name: "Resource"
+  displayName: "Resource entity"
+  href: resource.md
+- name: "Resource Group"
+  displayName: "ConstraintBasedGroup entity"
+  href: constraintbasedgroup.md
+- name: "resource group data source"
+  displayName: "resourcegroupdatasource entity"
+  href: resourcegroupdatasource.md
+- name: "Resource Specification"
+  displayName: "ResourceSpec entity"
+  href: resourcespec.md
+- name: "Rich message"
+  displayName: "msdyn_ocrichobject entity"
+  href: msdyn_ocrichobject.md
+- name: "Rich message map"
+  displayName: "msdyn_ocrichobjectmap entity"
+  href: msdyn_ocrichobjectmap.md
+- name: "Rollup Query"
+  displayName: "GoalRollupQuery entity"
+  href: goalrollupquery.md
+- name: "Routing configuration"
+  displayName: "msdyn_routingconfiguration entity"
+  href: msdyn_routingconfiguration.md
+- name: "Routing configuration step"
+  displayName: "msdyn_routingconfigurationstep entity"
+  href: msdyn_routingconfigurationstep.md
+- name: "Routing diagnostic"
+  displayName: "msdyn_unifiedroutingrun entity"
+  href: msdyn_unifiedroutingrun.md
+- name: "Routing diagnostic item"
+  displayName: "msdyn_unifiedroutingdiagnostic entity"
+  href: msdyn_unifiedroutingdiagnostic.md
+- name: "Routing Rule Set Setting"
+  displayName: "msdyn_routingrulesetsetting entity"
+  href: msdyn_routingrulesetsetting.md
+- name: "RoutingRequest"
+  displayName: "msdyn_routingrequest entity"
+  href: msdyn_routingrequest.md
+- name: "Rule Item"
+  displayName: "msdyn_ocruleitem entity"
+  href: msdyn_ocruleitem.md
+- name: "sabackupdiagnostic"
+  displayName: "msdyn_sabackupdiagnostic entity"
+  href: msdyn_sabackupdiagnostic.md
+- name: "SABatchRunInstance"
+  displayName: "msdyn_sabatchruninstance entity"
+  href: msdyn_sabatchruninstance.md
+- name: "Sales acceleration insights"
+  displayName: "msdyn_salesaccelerationinsight entity"
+  href: msdyn_salesaccelerationinsight.md
+- name: "Sales acceleration reports"
+  displayName: "msdyn_dataanalyticsreport_sareporting entity"
+  href: msdyn_dataanalyticsreport_sareporting.md
+- name: "Sales Acceleration settings"
+  displayName: "msdyn_salesaccelerationsettings entity"
+  href: msdyn_salesaccelerationsettings.md
+- name: "Sales Assignment Setting"
+  displayName: "msdyn_salesassignmentsetting entity"
+  href: msdyn_salesassignmentsetting.md
+- name: "Sales Attachment"
+  displayName: "SalesLiteratureItem entity"
+  href: salesliteratureitem.md
+- name: "Sales Copilot Email Insight"
+  displayName: "msdyn_salescopilotemailinsight entity"
+  href: msdyn_salescopilotemailinsight.md
+- name: "Sales Copilot Insight"
+  displayName: "msdyn_salescopilotinsight entity"
+  href: msdyn_salescopilotinsight.md
+- name: "Sales Copilot Insight Card State"
+  displayName: "msdyn_salescopilotinsightcardstate entity"
+  href: msdyn_salescopilotinsightcardstate.md
+- name: "Sales Copilot User Setting"
+  displayName: "msdyn_salescopilotusersetting entity"
+  href: msdyn_salescopilotusersetting.md
+- name: "Sales Literature"
+  displayName: "SalesLiterature entity"
+  href: salesliterature.md
+- name: "Sales provisioning request"
+  displayName: "msdyn_serviceoneprovisioningrequest entity"
+  href: msdyn_serviceoneprovisioningrequest.md
+- name: "Sales routing run"
+  displayName: "msdyn_salesroutingrun entity"
+  href: msdyn_salesroutingrun.md
+- name: "Sales Tag"
+  displayName: "msdyn_salestag entity"
+  href: msdyn_salestag.md
+- name: "Sales usage reporting"
+  displayName: "msdyn_usagereporting entity"
+  href: msdyn_usagereporting.md
+- name: "Sales usage telemetry reports"
+  displayName: "msdyn_dataanalyticsreport_sutreporting entity"
+  href: msdyn_dataanalyticsreport_sutreporting.md
+- name: "salesinsightssettings"
+  displayName: "msdyn_salesinsightssettings entity"
+  href: msdyn_salesinsightssettings.md
+- name: "SalesOmnichannel Message"
+  displayName: "msdyn_salesocmessage entity"
+  href: msdyn_salesocmessage.md
+- name: "salesroutingdiagnostic"
+  displayName: "msdyn_salesroutingdiagnostic entity"
+  href: msdyn_salesroutingdiagnostic.md
+- name: "SARunInstance"
+  displayName: "msdyn_saruninstance entity"
+  href: msdyn_saruninstance.md
+- name: "Scheduling Group"
+  displayName: "ResourceGroup entity"
+  href: resourcegroup.md
+- name: "SCI Conversation"
+  displayName: "msdyn_SCIConversation entity"
+  href: msdyn_sciconversation.md
+- name: "Sdk Message Processing Step"
+  displayName: "SdkMessageProcessingStep entity"
+  href: sdkmessageprocessingstep.md
+- name: "Search Configuration"
+  displayName: "msdyn_searchconfiguration entity"
+  href: msdyn_searchconfiguration.md
+- name: "Security Role"
+  displayName: "Role entity"
+  href: role.md
+- name: "Segment"
+  displayName: "msdyn_segment entity"
+  href: msdyn_segment.md
+- name: "Segment property"
+  displayName: "msdyn_segmentattribute entity"
+  href: msdyn_segmentattribute.md
+- name: "segmentsetting"
+  displayName: "msdyn_segmentationsetting entity"
+  href: msdyn_segmentationsetting.md
+- name: "SegmentsUtil"
+  displayName: "msdyn_segmentcatalogue entity"
+  href: msdyn_segmentcatalogue.md
+- name: "Self service"
+  displayName: "msdyn_visitorjourney entity"
+  href: msdyn_visitorjourney.md
+- name: "Seller attribute"
+  displayName: "msdyn_attribute entity"
+  href: msdyn_attribute.md
+- name: "Seller attribute value"
+  displayName: "msdyn_attributevalue entity"
+  href: msdyn_attributevalue.md
+- name: "Sentiment analysis"
+  displayName: "msdyn_sentimentanalysis entity"
+  href: msdyn_sentimentanalysis.md
+- name: "Sentiment daily topic"
+  displayName: "msdyn_ocsentimentdailytopic entity"
+  href: msdyn_ocsentimentdailytopic.md
+- name: "Sentiment daily topic keyword"
+  displayName: "msdyn_ocsentimentdailytopickeyword entity"
+  href: msdyn_ocsentimentdailytopickeyword.md
+- name: "Sentiment daily topic trending"
+  displayName: "msdyn_ocsentimentdailytopictrending entity"
+  href: msdyn_ocsentimentdailytopictrending.md
+- name: "Sequence"
+  displayName: "msdyn_sequence entity"
+  href: msdyn_sequence.md
+- name: "Sequence Stat"
+  displayName: "msdyn_sequencestat entity"
+  href: msdyn_sequencestat.md
+- name: "Sequence Target"
+  displayName: "msdyn_sequencetarget entity"
+  href: msdyn_sequencetarget.md
+- name: "Sequence Target Step"
+  displayName: "msdyn_sequencetargetstep entity"
+  href: msdyn_sequencetargetstep.md
+- name: "Sequence Template"
+  displayName: "msdyn_sequencetemplate entity"
+  href: msdyn_sequencetemplate.md
+- name: "Service"
+  displayName: "Service entity"
+  href: service.md
+- name: "Service Activity"
+  displayName: "ServiceAppointment entity"
+  href: serviceappointment.md
+- name: "Service Contract Contact"
+  displayName: "ServiceContractContacts entity"
+  href: servicecontractcontacts.md
+- name: "Service Copilot Plugin"
+  displayName: "msdyn_servicecopilotplugin entity"
+  href: msdyn_servicecopilotplugin.md
+- name: "Service Copilot Plugin Action"
+  displayName: "msdyn_servicecopilotpluginaction entity"
+  href: msdyn_servicecopilotpluginaction.md
+- name: "Service Copilot Plugin Role"
+  displayName: "msdyn_servicecopilotpluginrole entity"
+  href: msdyn_servicecopilotpluginrole.md
+- name: "Session"
+  displayName: "msdyn_ocsession entity"
+  href: msdyn_ocsession.md
+- name: "Session Characteristic"
+  displayName: "msdyn_ocsessioncharacteristic entity"
+  href: msdyn_ocsessioncharacteristic.md
+- name: "Session event"
+  displayName: "msdyn_sessionevent entity"
+  href: msdyn_sessionevent.md
+- name: "Session participant"
+  displayName: "msdyn_sessionparticipant entity"
+  href: msdyn_sessionparticipant.md
+- name: "Session Participant Event"
+  displayName: "msdyn_ocsessionparticipantevent entity"
+  href: msdyn_ocsessionparticipantevent.md
+- name: "Session Sentiment"
+  displayName: "msdyn_ocsessionsentiment entity"
+  href: msdyn_ocsessionsentiment.md
+- name: "Session Template"
+  displayName: "msdyn_sessiontemplate entity"
+  href: msdyn_sessiontemplate.md
+- name: "ShareAs Configuration"
+  displayName: "msdyn_shareasconfiguration entity"
+  href: msdyn_shareasconfiguration.md
+- name: "Shortcut"
+  displayName: "mspp_shortcut entity"
+  href: mspp_shortcut.md
+- name: "SI Key Value Config"
+  displayName: "msdyn_sikeyvalueconfig entity"
+  href: msdyn_sikeyvalueconfig.md
+- name: "siconfig"
+  displayName: "msdyn_siconfig entity"
+  href: msdyn_siconfig.md
+- name: "Similar entities feature importance"
+  displayName: "msdyn_similarentitiesfeatureimportance entity"
+  href: msdyn_similarentitiesfeatureimportance.md
+- name: "Similarity Rule"
+  displayName: "SimilarityRule entity"
+  href: similarityrule.md
+- name: "Site"
+  displayName: "Site entity"
+  href: site.md
+- name: "Skill Attachment Rule"
+  displayName: "msdyn_skillattachmentruleitem entity"
+  href: msdyn_skillattachmentruleitem.md
+- name: "Skill finder model"
+  displayName: "msdyn_ocskillidentmlmodel entity"
+  href: msdyn_ocskillidentmlmodel.md
+- name: "SLA"
+  displayName: "SLA entity"
+  href: sla.md
+- name: "SLA Item"
+  displayName: "SLAItem entity"
+  href: slaitem.md
+- name: "SLA KPI Instance"
+  displayName: "SLAKPIInstance entity"
+  href: slakpiinstance.md
+- name: "Smartassist configuration"
+  displayName: "msdyn_smartassistconfig entity"
+  href: msdyn_smartassistconfig.md
+- name: "Social Activity"
+  displayName: "SocialActivity entity"
+  href: socialactivity.md
+- name: "Social Profile"
+  displayName: "SocialProfile entity"
+  href: socialprofile.md
+- name: "Sound notification setting"
+  displayName: "msdyn_soundnotificationsetting entity"
+  href: msdyn_soundnotificationsetting.md
+- name: "Subject"
+  displayName: "Subject entity"
+  href: subject.md
+- name: "Submodel Definition"
+  displayName: "msdyn_submodeldefinition entity"
+  href: msdyn_submodeldefinition.md
+- name: "Suggested Activity"
+  displayName: "msdyn_suggestedactivity entity"
+  href: msdyn_suggestedactivity.md
+- name: "Suggested Activity Data Source"
+  displayName: "msdyn_suggestedactivitydatasource entity"
+  href: msdyn_suggestedactivitydatasource.md
+- name: "Suggested Contact"
+  displayName: "msdyn_suggestedcontact entity"
+  href: msdyn_suggestedcontact.md
+- name: "Suggested Contacts Data Source"
+  displayName: "msdyn_suggestedcontactsdatasource entity"
+  href: msdyn_suggestedcontactsdatasource.md
+- name: "Suggestion Assignment Rule"
+  displayName: "msdyn_suggestionassignmentrule entity"
+  href: msdyn_suggestionassignmentrule.md
+- name: "Suggestion Interaction"
+  displayName: "msdyn_suggestioninteraction entity"
+  href: msdyn_suggestioninteraction.md
+- name: "Suggestion Principal Object Access"
+  displayName: "msdyn_suggestionprincipalobjectaccess entity"
+  href: msdyn_suggestionprincipalobjectaccess.md
+- name: "Suggestion request payload"
+  displayName: "msdyn_suggestionrequestpayload entity"
+  href: msdyn_suggestionrequestpayload.md
+- name: "Suggestion Seller Priority"
+  displayName: "msdyn_suggestionsellerpriority entity"
+  href: msdyn_suggestionsellerpriority.md
+- name: "Suggestions Model Summary"
+  displayName: "msdyn_suggestionsmodelsummary entity"
+  href: msdyn_suggestionsmodelsummary.md
+- name: "Suggestions Setting"
+  displayName: "msdyn_suggestionssetting entity"
+  href: msdyn_suggestionssetting.md
+- name: "Survey setting"
+  displayName: "msdyn_surveysetting entity"
+  href: msdyn_surveysetting.md
+- name: "Swarm"
+  displayName: "msdyn_swarm entity"
+  href: msdyn_swarm.md
+- name: "Swarm participant"
+  displayName: "msdyn_swarmparticipant entity"
+  href: msdyn_swarmparticipant.md
+- name: "Swarm participant rule"
+  displayName: "msdyn_swarmparticipantrule entity"
+  href: msdyn_swarmparticipantrule.md
+- name: "Swarm role"
+  displayName: "msdyn_swarmrole entity"
+  href: msdyn_swarmrole.md
+- name: "Swarm skill"
+  displayName: "msdyn_swarmskill entity"
+  href: msdyn_swarmskill.md
+- name: "Swarm template"
+  displayName: "msdyn_swarmtemplate entity"
+  href: msdyn_swarmtemplate.md
+- name: "Sync Error"
+  displayName: "SyncError entity"
+  href: syncerror.md
+- name: "System Job"
+  displayName: "AsyncOperation entity"
+  href: asyncoperation.md
+- name: "Tag"
+  displayName: "msdyn_octag entity"
+  href: msdyn_octag.md
+- name: "Tagged Record"
+  displayName: "msdyn_taggedrecord entity"
+  href: msdyn_taggedrecord.md
+- name: "Task"
+  displayName: "Task entity"
+  href: task.md
+- name: "Team"
+  displayName: "Team entity"
+  href: team.md
+- name: "Teams chat"
+  displayName: "chat entity"
+  href: chat.md
+- name: "Teams Contact Suggestion by AI"
+  displayName: "msdyn_aicontactsuggestion entity"
+  href: msdyn_aicontactsuggestion.md
+- name: "Teams Dialer Admin settings"
+  displayName: "msdyn_teamsdialeradminsettings entity"
+  href: msdyn_teamsdialeradminsettings.md
+- name: "TeleSign channel instance"
+  displayName: "msdynmkt_telesignchannelinstance entity"
+  href: msdynmkt_telesignchannelinstance.md
+- name: "TeleSign channel instance account"
+  displayName: "msdynmkt_telesignchannelinstanceaccount entity"
+  href: msdynmkt_telesignchannelinstanceaccount.md
+- name: "Template For Properties"
+  displayName: "msdyn_templateforproperties entity"
+  href: msdyn_templateforproperties.md
+- name: "Template Parameter"
+  displayName: "msdyn_templateparameter entity"
+  href: msdyn_templateparameter.md
+- name: "Template Rule Set"
+  displayName: "msdyn_templateruleset entity"
+  href: msdyn_templateruleset.md
+- name: "Territory"
+  displayName: "Territory entity"
+  href: territory.md
+- name: "Text Analytics Entity Mapping"
+  displayName: "TextAnalyticsEntityMapping entity"
+  href: textanalyticsentitymapping.md
+- name: "Text message template"
+  displayName: "msdyn_salesocsmstemplate entity"
+  href: msdyn_salesocsmstemplate.md
+- name: "Text style"
+  displayName: "msdyncrm_textstyle entity"
+  href: msdyncrm_textstyle.md
+- name: "Time spent in BPF"
+  displayName: "msdyn_timespent entity"
+  href: msdyn_timespent.md
+- name: "Time Tracker"
+  displayName: "msdyn_timetracker entity"
+  href: msdyn_timetracker.md
+- name: "TrackingContext"
+  displayName: "msdynmkt_trackingcontext entity"
+  href: msdynmkt_trackingcontext.md
+- name: "Training data import configuration"
+  displayName: "msdyn_ocsitdimportconfig entity"
+  href: msdyn_ocsitdimportconfig.md
+- name: "Training record"
+  displayName: "msdyn_ocsitrainingdata entity"
+  href: msdyn_ocsitrainingdata.md
+- name: "Training Result"
+  displayName: "msdyn_trainingresult entity"
+  href: msdyn_trainingresult.md
+- name: "Transcript"
+  displayName: "msdyn_transcript entity"
+  href: msdyn_transcript.md
+- name: "Trigger"
+  displayName: "msdynmkt_eventmetadata entity"
+  href: msdynmkt_eventmetadata.md
+- name: "Triggers To Sdk Message Processing Steps"
+  displayName: "msdynmkt_eventmetadata_sdkmessageprocessingstep entity"
+  href: msdynmkt_eventmetadata_sdkmessageprocessingstep.md
+- name: "Twilio channel instance"
+  displayName: "msdynmkt_twiliochannelinstance entity"
+  href: msdynmkt_twiliochannelinstance.md
+- name: "Twilio channel instance account"
+  displayName: "msdynmkt_twiliochannelinstanceaccount entity"
+  href: msdynmkt_twiliochannelinstanceaccount.md
+- name: "Unified Routing Setup Tracker"
+  displayName: "msdyn_unifiedroutingsetuptracker entity"
+  href: msdyn_unifiedroutingsetuptracker.md
+- name: "Unit"
+  displayName: "UoM entity"
+  href: uom.md
+- name: "Unit Group"
+  displayName: "UoMSchedule entity"
+  href: uomschedule.md
+- name: "UntrackedAppointment"
+  displayName: "msdyn_untrackedappointment entity"
+  href: msdyn_untrackedappointment.md
+- name: "Upgrade Run"
+  displayName: "msdyn_upgraderun entity"
+  href: msdyn_upgraderun.md
+- name: "Upgrade Step"
+  displayName: "msdyn_upgradestep entity"
+  href: msdyn_upgradestep.md
+- name: "Upgrade Version"
+  displayName: "msdyn_upgradeversion entity"
+  href: msdyn_upgradeversion.md
+- name: "UR notification template"
+  displayName: "msdyn_urnotificationtemplate entity"
+  href: msdyn_urnotificationtemplate.md
+- name: "UR Notification Template Mapping"
+  displayName: "msdyn_urnotificationtemplatemapping entity"
+  href: msdyn_urnotificationtemplatemapping.md
+- name: "UR RecordRouting Real-time Analytics"
+  displayName: "msdyn_dataanalyticsreport_ur_recordrouting_rt entity"
+  href: msdyn_dataanalyticsreport_ur_recordrouting_rt.md
+- name: "Usage Metric"
+  displayName: "msdyn_usagemetric entity"
+  href: msdyn_usagemetric.md
+- name: "User"
+  displayName: "SystemUser entity"
+  href: systemuser.md
+- name: "User settings"
+  displayName: "msdyn_usersetting entity"
+  href: msdyn_usersetting.md
+- name: "UserSettings"
+  displayName: "msdyn_sciusersettings entity"
+  href: msdyn_sciusersettings.md
+- name: "Vibes channel instance"
+  displayName: "msdynmkt_vibeschannelinstance entity"
+  href: msdynmkt_vibeschannelinstance.md
+- name: "Vibes channel instance account"
+  displayName: "msdynmkt_vibeschannelinstanceaccount entity"
+  href: msdynmkt_vibeschannelinstanceaccount.md
+- name: "Video style"
+  displayName: "msdyncrm_videostyle entity"
+  href: msdyncrm_videostyle.md
+- name: "Virtual Resource Group Resource"
+  displayName: "virtualresourcegroupresource entity"
+  href: virtualresourcegroupresource.md
+- name: "Wall View"
+  displayName: "msdyn_wallsavedquery entity"
+  href: msdyn_wallsavedquery.md
+- name: "Warranty"
+  displayName: "msdyn_Warranty entity"
+  href: msdyn_warranty.md
+- name: "Web Resource"
+  displayName: "WebResource entity"
+  href: webresource.md
+- name: "Website"
+  displayName: "mspp_website entity"
+  href: mspp_website.md
+- name: "wkwcolleaguesforcompany"
+  displayName: "msdyn_wkwcolleaguesforcompany entity"
+  href: msdyn_wkwcolleaguesforcompany.md
+- name: "wkwcolleaguesforcontact"
+  displayName: "msdyn_wkwcolleaguesforcontact entity"
+  href: msdyn_wkwcolleaguesforcontact.md
+- name: "wkwconfig"
+  displayName: "msdyn_wkwconfig entity"
+  href: msdyn_wkwconfig.md
+- name: "Work List Suggestion"
+  displayName: "msdyn_worklistsuggestion entity"
+  href: msdyn_worklistsuggestion.md
+- name: "Work list suggestion source"
+  displayName: "msdyn_worklistsuggestionsource entity"
+  href: msdyn_worklistsuggestionsource.md
+- name: "Work list user setting"
+  displayName: "msdyn_workqueueusersetting entity"
+  href: msdyn_workqueueusersetting.md
+- name: "Work Queue Record"
+  displayName: "msdyn_workqueuerecord entity"
+  href: msdyn_workqueuerecord.md
+- name: "Work Queue Record State"
+  displayName: "msdyn_workqueuestate entity"
+  href: msdyn_workqueuestate.md
+- name: "Work Stream"
+  displayName: "msdyn_liveworkstream entity"
+  href: msdyn_liveworkstream.md
+- name: "Work stream capacity profile"
+  displayName: "msdyn_liveworkstreamcapacityprofile entity"
+  href: msdyn_liveworkstreamcapacityprofile.md
+- name: "WQDataSource"
+  displayName: "msdyn_wqdatasource entity"
+  href: msdyn_wqdatasource.md

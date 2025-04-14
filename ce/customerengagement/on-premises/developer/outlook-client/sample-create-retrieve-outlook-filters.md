@@ -50,7 +50,7 @@ Display an option to delete the sample data that is created in [Setup](#setup). 
 [Extend Dynamics 365 for Outlook](../extend-customer-engagement-outlook.md)  
  [Sample: Use Outlook Methods](sample-outlook-methods.md)  
  [Offline and Outlook Filters and Templates](offline-outlook-filters-templates.md)  
- [SavedQuery Entity](../entities/savedquery.md)  
+ [SavedQuery Entity](/power-apps/developer/data-platform/reference/entities/savedquery)  
 <xref:Microsoft.Xrm.Sdk.IOrganizationService>
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

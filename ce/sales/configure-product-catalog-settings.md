@@ -15,14 +15,6 @@ ms.custom:
 
 Configure the settings to change the seller experience while selecting products from the catalog.
 
-## License and role requirements
-
-| Requirement type | You must have |  
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise  <br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator <br> More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
-
-
 ## Configure the settings
 
 You can configure the product catalog settings to change the experience sellers have when they select products from the catalog. For example, you can choose whether they must select a price list when creating an opportunity, quote, invoice, or order.

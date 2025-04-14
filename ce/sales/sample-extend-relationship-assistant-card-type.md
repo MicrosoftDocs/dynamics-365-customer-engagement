@@ -3,7 +3,7 @@ title: Extend assistant card type (custom card)
 description: Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
 ms.date: 12/04/2024
 ms.custom: 
-ms.topic: article
+ms.topic: sample
 ms.assetid: 1b7a3dda-59c9-4b5d-b4b2-7fbc039a3f22
 author: udaykirang
 ms.author: udag
@@ -14,13 +14,6 @@ ms.tgt_pltfrm:
 # Sample: Extend assistant card type (custom card)  
 
 Learn how to download and what resources are present to create a custom actions or learn about extending the assistant action card.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|-----------------------|---------|
-| **License** | Dynamics 365 Sales Premium <br> More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Customizer <br>  More information: [Predefined security roles for Sales](security-roles-for-sales.md)|
 
 ## Create custom action card
 The following process explains how to create a custom card:  

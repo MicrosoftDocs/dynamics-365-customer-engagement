@@ -1,7 +1,7 @@
 ---
-title: Enable entities for service level agreements
-description: Learn how to enable entities for service-level agreements in Dynamics 365 Customer Service.
-ms.date: 03/12/2024
+title: Enable entities for service-level agreements
+description: Step-by-step guide to enable entities for service-level agreements (SLAs) in Dynamics 365 Customer Service, including prerequisites and supported entities.
+ms.date: 04/09/2025
 ms.topic: article
 author: Soumyasd27
 ms.author: sdas
@@ -12,6 +12,8 @@ search.audienceType:
   - enduser
 ms.custom: 
   - dyn365-customerservice
+  - SLA
+  - Dynamics365
 ---
 
 # Enable entities for service-level agreements
@@ -40,7 +42,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
 - Activity entities such as Email, PhoneCall, and Appointment&mdash;but not RecurringAppointment or its instances.  
 
   > [!NOTE]
-  >  SLAs can also be enabled for custom entities and custom activities. More information: [Enable custom entities for service-level agreements](enable-custom-entities-sla.md#enable-custom-entities-for-service-level-agreements)
+  > SLAs can also be enabled for custom entities and custom activities. Learn more in [Enable custom entities for service-level agreements](enable-custom-entities-sla.md#enable-custom-entities-for-service-level-agreements).
   
 ## Enable from Power Apps
 
@@ -72,7 +74,7 @@ You can create enhanced SLAs for entities that are enabled for an SLA. A system 
   
 ## Related information
 
- [Configure service level agreements](define-service-level-agreements.md)
+[Configure service level agreements](define-service-level-agreements.md)
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

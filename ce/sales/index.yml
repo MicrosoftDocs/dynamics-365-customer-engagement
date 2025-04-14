@@ -9,7 +9,7 @@ metadata:
   author: lavanyakr01
   ms.author: lavanyakr
   ms.reviewer: lavanyakr
-  ms.date: 12/10/2024
+  ms.date: 02/07/2025
   ms.custom: bap-template
   hide_bc: true
 
@@ -132,6 +132,8 @@ additionalContent:
       links: 
       - url: use-sales-copilot.md
         text: Ask questions of Copilot
+      - url: copilot-get-information.md
+        text: Get Copilot summaries for records
       - url: compose-send-email-copilot.md
         text: Compose and send email messages using Copilot
       - url: copilot-get-doc-suggestions.md
@@ -200,12 +202,12 @@ additionalContent:
         - title: Microsoft 365 Copilot for Sales
           summary: Use Microsoft 365 applications to automatically capture, access, and register data into any CRM system. 
           url: /Viva/sales/introduction
-        - title: Customer Insights
+        - title: Dynamics 365 Customer Insights
           summary: Connect data from various transactional, behavioral, and observational sources to create a 360-degree customer view.
           url: /dynamics365/customer-insights/
         - title: Dynamics 365 Customer Insights - Journeys
           summary: Orchestrate personalized journeys across all touchpoints to strengthen customer relationships and earn their loyalty.
           url: /dynamics365/customer-insights/journeys/index
-        - title: Power Platform
-          summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI, 
+        - title: Microsoft Power Platform
+          summary: Build custom apps using Power Apps, automate workflows to improve business productivity using Power Automate, and analyze data for insights using Power BI. 
           url: /power-platform

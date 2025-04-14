@@ -1,7 +1,7 @@
 ---
 title: Customer Service workspace system requirements
 description: Learn about the system requirements and prerequisites to use Customer Service workspace.
-ms.date: 01/09/2025
+ms.date: 03/17/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -18,7 +18,7 @@ This section lists the prerequisites to use Customer Service workspace.
 
 ### Licensing
 
-An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. Learn more at [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
+An active subscription to Microsoft Dynamics 365 Customer Service Enterprise in your tenant for each user. Learn more in [Dynamics 365 licensing guide](https://go.microsoft.com/fwlink/p/?LinkId=866544).
 
 ### Software requirements
 
@@ -42,9 +42,9 @@ Administrators can gain insights into network latency for their tenants across d
 Network latency issues are unique to your infrastructure. You must identify and address the specific issues in your network to resolve any latency issues.
 
 > [!IMPORTANT]
-> To use the omnichannel capabilities, you'll need a higher network bandwidth. Learn more at [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md)
+> To use the omnichannel capabilities, you'll need a higher network bandwidth. Learn more in [Omnichannel for Customer Service system requirements](system-requirements-omnichannel.md).
 
-For more requirements, go to [Model-driven app requirements](/power-platform/admin/online-requirements).
+Learn more about requirements in [Model-driven app requirements](/power-platform/admin/online-requirements).
 
 ### Limitations
 

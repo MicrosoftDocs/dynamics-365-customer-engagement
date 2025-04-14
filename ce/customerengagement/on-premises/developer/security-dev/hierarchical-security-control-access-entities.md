@@ -28,9 +28,9 @@ Hierarchy security offers a more granular access to records for an organization 
  [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](https://youtu.be/kx5So32DrCo)  
   
 ## Position hierarchy  
- Administrators can define various job positions in the organization and arrange them in the position hierarchy. You can add users to any given position or “tag” a user with a particular position. A user can be tagged only with one position in a given hierarchy; however, a position can be used for multiple users. Users at the higher positions in the hierarchy have access to the data of the users at the lower positions, in the direct ancestor path. The direct higher positions have Read, Write, Update, Append, and AppendTo access to the lower positions’ data in the direct ancestor path. The non-direct higher positions have read-only access to the lower positions’ data in the direct ancestor path.  
+ Administrators can define various job positions in the organization and arrange them in the position hierarchy. You can add users to any given position or "tag" a user with a particular position. A user can be tagged only with one position in a given hierarchy; however, a position can be used for multiple users. Users at the higher positions in the hierarchy have access to the data of the users at the lower positions, in the direct ancestor path. The direct higher positions have Read, Write, Update, Append, and AppendTo access to the lower positions' data in the direct ancestor path. The non-direct higher positions have read-only access to the lower positions' data in the direct ancestor path.  
   
- With the position hierarchy security, a user at a higher position has access to the records owned by a lower position user or by the team that a user is a member of, and to the records that are directly shared to the user or the team that a user is a member of. In addition to the position hierarchy security model, the users at a higher level must have at least the user level Read privilege on an entity to see the records that the users at the lower positions have access to. For example, if a user at a higher level doesn’t have the Read access to the `Case` entity, that user won’t be able to see the cases that the users at a lower positions have access to.  
+ With the position hierarchy security, a user at a higher position has access to the records owned by a lower position user or by the team that a user is a member of, and to the records that are directly shared to the user or the team that a user is a member of. In addition to the position hierarchy security model, the users at a higher level must have at least the user level Read privilege on an entity to see the records that the users at the lower positions have access to. For example, if a user at a higher level doesn't have the Read access to the `Case` entity, that user won't be able to see the cases that the users at a lower positions have access to.  
   
  As a developer, you can implement a position hierarchy by using the **Position** entity.  
   
@@ -41,13 +41,13 @@ Hierarchy security offers a more granular access to records for an organization 
 |prvAssignPosition|Assign a position to a system user.|  
 |prvWriteHierarchicalSecurityConfiguration|Change hierarchy security settings.|  
   
- For more information about the `Position` entity and its messages, see [Position Entity](../entities/position.md).  
+ For more information about the `Position` entity and its messages, see [Position Entity](/power-apps/developer/data-platform/reference/entities/position).  
   
 ### See also  
  [Video: Hierarchical Security Modelling in Microsoft Dynamics CRM 2015](https://youtu.be/kx5So32DrCo)   
  [The Security Model of Microsoft Dynamics 365 Customer Engagement (on-premises)](security-model.md)   
  [Security concepts for Microsoft Dynamics 365 Customer Engagement (on-premises)](https://technet.microsoft.com/library/hh699698.aspx)
- [Position Entity](../entities/position.md)
+ [Position Entity](/power-apps/developer/data-platform/reference/entities/position)
 
 
 [!INCLUDE[footer-include](../../../../includes/footer-banner.md)]

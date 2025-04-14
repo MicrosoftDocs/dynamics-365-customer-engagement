@@ -1,7 +1,7 @@
 ---
 title: Configure route-to-queue rules
 description: Follow the steps in this article to configure a route-to-queue ruleset for a workstream in unified routing.
-ms.date: 10/11/2024
+ms.date: 03/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -26,19 +26,22 @@ The route-to-queue ruleset is run after all the work classification rulesets are
 
 A workstream can have one route-to-queues ruleset only.
 
-After you configure the rules, the system matches the rule conditions, and overflow handling of the corresponding queue to assign a work item to a queue. If more than one rule matches the required condition and the corresponding queues aren't overflowing, then the queue corresponding to the first rule in the list is selected for assignment. If all the queues corresponding to the rules are overflowing, the work item is assigned to the queue available first.
+After you configure the route-to-queue rules, the system updates the workstream with the hit-all policy. The rule-hit policies are as follows:
 
-The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. More information: [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue)
+- **Hit-all**: Default behavior. The system evaluates all the rule conditions and overflow handling of the corresponding queues to assign a work item to a queue. If multiple rules match the required condition and none of the respective queues are overflowing, then the system selects the queue associated with the first rule in the list for assignment. If all the queues corresponding to the rules are overflowing, the system assigns the work item to the first available queue.
+- **Hit-first**: The system stops rule evaluation after the first match is found. Irrespective of the overflow state of the queue, the first matching rule is honored.
+
+The routing diagnostics gives a detailed view of the matched and applied rules in the route-to-queue stage. Learn more in [Diagnostics for unified routing](unified-routing-diagnostics.md#route-to-queue).
 
 ## Percentage-based allocation of work to queues
 
-To balance the workload optimally and distribute it across multiple contact center vendors, organizations can configure percentage-based routing. The routing of work items to queues is controlled using percentage allocation. Percentage-based allocation of work items is an optional setting that can be configured in the route-to-queue rules as discussed in the following section.
+You can configure percentage-based routing to distribute the workload across multiple contact center vendors and balance it optimally. The routing of work items to queues is controlled using percentage allocation. Percentage-based allocation of work items is an optional setting that you can configure in the route-to-queue rules.
 
 When you configure this feature, the system picks a queue from the available list of queues in the route-to-queue rule, as per the configured percentages. The final queue selected, however, is also dependent on the ruleset evaluation logic, such as queue overflow and override overflow settings.
 
 ## Configure rules in route-to-queue ruleset
 
-1. In Customer Service admin center, select a workstream.
+1. In Contact Center admin center or Customer Service admin center, navigate to the **Workstreams** page, and then select a workstream.
 
 1. In the **Routing rules** section, select **Create ruleset** next to **Route to queues**, and then select **Create Rule** in **Decision list**.
 
@@ -65,7 +68,7 @@ When you configure this feature, the system picks a queue from the available lis
 1. Optionally, after you create the required rules, reorder them in the ruleset by selecting the arrows in the **Order** column on the **Decision list** page.
 
 > [!NOTE]
-> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid timeout errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables#limitations)
+> We recommend that you use less than 15 link-entity elements in the routing rule conditions to avoid time-out errors. More information: [Join tables using FetchXml](/power-apps/developer/data-platform/fetchxml/join-tables#limitations)
 
 ## Options available for rules
 
@@ -99,13 +102,13 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
   - **Customer name**: The customer name is shown in the format "first name, last name".
   - **Locale**: For a list of locales, go to Facebook developer documentation.
-  - **Timezone**: Timezone is shown as a number relative to GMT, for example, “5.5”.
-  - **User Page Scoped Id**: This attribute is shown as a number string.
+  - **Timezone**: Time zone is shown as a number relative to GMT, for example, “5.5”.
+  - **User Page Scoped ID**: This attribute is shown as a number string.
 
 - **Apple Messages for Business**: Use the **Apple messages for business** entity to set conditions on the following attributes:
 
-  - Group id
-  - Intent id
+  - Group ID
+  - Intent ID
   - Locale
 
 - **LINE**: Use the **LINE Engagement Context** entity to set conditions on the **Customer name** attribute.
@@ -113,13 +116,6 @@ You can configure routing rule conditions for the social channels, such as Faceb
 - **WhatsApp(Twilio)**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number** and **Customer First Message** attributes. The **Customer First Message** attribute lets you create a prefilled message that automatically appears in the text field of a customer chat.
 
 - **WhatsApp(Azure Communication Services)**: Use the **WhatsApp Engagement Context (Conversation)** entity to set conditions on the **Customer Phone Number**, **Customer First Message**, and **Azure Communication Services WhatsApp channel ID** attributes. The **Customer First Message** attribute lets you create a prefilled message that automatically appears in the text field of a customer chat.
-
-- **Twitter**: Use the **Twitter Engagement Context (Conversation)** entity to set conditions on the following attributes:  
-
-  - Customer name
-  - Customer screen name
-  - Followers count
-  - Friends count
 
 - **SMS**: Use the **SMS Engagement Context** entity to set conditions on the following attributes:  
 
@@ -129,6 +125,7 @@ You can configure routing rule conditions for the social channels, such as Faceb
 
 ### Related information
 
+[Conversation diagnostics in Azure Application Insights](configure-conversation-diagnostics.md)  
 [Manage overflow conditions](manage-overflow.md)  
 [Create and manage queues](queues-omnichannel.md)  
 [Create a workstream for unified routing](create-workstreams.md)  

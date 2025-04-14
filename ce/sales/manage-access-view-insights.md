@@ -6,7 +6,7 @@ ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to 
 ms.collection: 
-ms.date: 06/09/2023
+ms.date: 02/27/2025
 ms.custom: bap-template 
 ---
 
@@ -15,13 +15,6 @@ ms.custom: bap-template
 [!INCLUDE [cc-beta-prerelease-disclaimer](../includes/cc-beta-prerelease-disclaimer.md)]
 
 By default, all security roles in your organization have permission to view seller insights. However, you can restrict the access to seller insights to a specific security group in your organization.
-
-## License and role requirements
-
-| Requirement type | You must have |
-|------------------|---------------|
-| **License** | Dynamics 365 Sales Premium or Dynamics 365 Sales Enterprise<br>More information: [Dynamics 365 Sales pricing](https://dynamics.microsoft.com/sales/pricing/) |
-| **Security roles** | System Administrator<br>More information: [Predefined security roles for Sales](security-roles-for-sales.md) |
 
 ## Grant permissions to use seller insights
 

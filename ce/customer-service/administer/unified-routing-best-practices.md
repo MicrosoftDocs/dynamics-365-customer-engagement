@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to
-ms.date: 01/24/2025
+ms.date: 01/28/2025
 ms.custom: bap-template
 ---
 
@@ -66,12 +66,12 @@ You can view details such as the representative's presence, current conversation
 You can choose the following relevant entities for representative status and status history based on your implementation of capacity.
 
 - **Capacity profiles**
-  - [msdyn_agentcapacityupdatehistory](../develop/reference/entities/msdyn_agentcapacityupdatehistory.md)
-  - [msdyn_agentcapacityprofileunit](../develop/reference/entities/msdyn_agentcapacityprofileunit.md)
+  - [Agent capacity update history (msdyn_agentcapacityupdatehistory) table](../../developer/reference/entities/msdyn_agentcapacityupdatehistory.md)
+  - [Agent Capacity Profile Unit (msdyn_agentcapacityprofileunit) table](../../developer/reference/entities/msdyn_agentcapacityprofileunit.md)
 
 - **Unit-based capacity profiles**
-  - [msdyn_agentstatus](../develop/reference/entities/msdyn_agentstatus.md)
-  - [msdyn_agentstatushistory](../develop/reference/entities/msdyn_agentstatushistory.md)
+  - [Agent Status (msdyn_agentstatus) table](../../developer/reference/entities/msdyn_agentstatus.md)
+  - [Agent Status history (msdyn_agentstatushistory) table](../../developer/reference/entities/msdyn_agentstatushistory.md)
 
 ### Use representative attributes to optimize workload
 
@@ -93,7 +93,7 @@ Complex rules and conditions in prioritization rulesets add latency to the prior
 
 ### Manage auto-assignment if work items have extended wait times
 
-The auto-assignment process in unified routing matches incoming work items with the best-suited service representatives based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How auto assignment works](assignment-methods.md#how-auto-assignment-works).
+The auto-assignment process in unified routing matches incoming work items with the best-suited service representatives based on the configured assignment rules. This continuous process is made up of multiple assignment cycles. Learn about the auto-assignment process in [How automated assignment works](assignment-methods.md#how-automated-assignment-works).
 
 If you have a scenario in which representatives aren't available to be assigned the work items for an extended time, we recommend the following options:
 

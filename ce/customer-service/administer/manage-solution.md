@@ -1,12 +1,12 @@
 ---
 title: Manage solutions with SLAs
-description: Manage solutions in Unified Interface and Power Apps by adding SLAs. Learn how to create, export, import, and upgrade solutions with detailed instructions.
+description: Learn how to manage solutions in Unified Interface and Power Apps by adding SLAs, including creating, exporting, importing, and upgrading solutions.
 author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
 ms.collection:
-ms.date: 02/22/2024
+ms.date: 01/27/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -131,7 +131,7 @@ After the import is complete, refresh the organization to view the imported solu
 After the import completes, a confirmation message is displayed.
 
 > [!NOTE]
-> We recommend that you maintain a single solution for SLAs.
+> We recommend that you maintain a single solution for SLAs. All entities, related and custom, get added to the solution during solution export only.
 
 ## Next steps
 

@@ -1,7 +1,7 @@
 ---
 title: Create quick replies
-description: Learn how to set up quick replies for agents in Customer Service admin center.
-ms.date: 06/04/2024
+description: Learn how to set up quick replies for representatives in Customer Service admin center.
+ms.date: 03/03/2025
 ms.topic: article
 author: lalexms
 ms.author: laalexan
@@ -12,7 +12,7 @@ ms.reviewer: laalexan
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-Quick replies are predefined messages that can be created for agents to quickly respond to common questions from customers. For information about the agent's quick reply experience, see [Send quick replies](../use/oc-conversation-control.md#send-quick-replies).  
+Quick replies are predefined messages that can be created for customer service representatives (service representatives or representatives) to quickly respond to common questions from customers. Learn more about the representative's quick reply experience in [Send quick replies](../use/oc-conversation-control.md#send-quick-replies).  
 
 1. In the Customer Service admin center or Contact Center admin center site map, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**.
 
@@ -38,12 +38,12 @@ Quick replies are predefined messages that can be created for agents to quickly 
       | {FullName{Customer}}  | The full name of the customer who initiated the conversation. |
       | {FirstName{Customer}} | The first name of the customer.
       | {LastName{Customer}}| The last name of the customer.|
-      | {FullName{Agent}}| The full name of the agent assigned to the conversation.|
-      | {FirstName{Agent}}| The first name of the agent.|
-      | {LastName{Agent}}| The last name of the agent.|
-      | {Nickname{Agent}}| The nickname for the agent.|
+      | {FullName{Agent}}| The full name of the representative assigned to the conversation.|
+      | {FirstName{Agent}}| The first name of the representative.|
+      | {LastName{Agent}}| The last name of the representative.|
+      | {Nickname{Agent}}| The nickname for the representative.|
    
-      If you defined a context key, you can create a quick reply that contains dynamic text that corresponds to that context key in the following format: {OCContext.contextKey1}, where "contextKey1" in the syntax is a placeholder for the predefined custom context field in the conversation. For example, {OCContext.OrderID} would be a context key that populates the message field with the Order ID for a record. More information: [Add context variables](manage-context-variables.md#add-context-variables) and setContextProvider.
+      If you defined a context key, you can create a quick reply that contains dynamic text that corresponds to that context key in the following format: {OCContext.contextKey1}, where "contextKey1" in the syntax is a placeholder for the predefined custom context field in the conversation. For example, {OCContext.OrderID} would be a context key that populates the message field with the Order ID for a record. Learn more in [Add context variables](manage-context-variables.md#add-context-variables) and setContextProvider.
     
          > [!div class=mx-imgBorder]
          > ![Context key format examples.](../media/contextkey-format.png "Context key format examples")
@@ -52,7 +52,7 @@ Quick replies are predefined messages that can be created for agents to quickly 
 
 ## Create or edit tags for common categories of quick replies
 
-Quick replies can be classified and tagged into categories. The categorization capability can also be used to group quick replies into logical chunks that represent key conversational states for agents. These logical chunks help agents select appropriate messages that correspond to customer issues.
+Quick replies can be classified and tagged into categories. The categorization capability can also be used to group quick replies into logical chunks that represent key conversational states for representatives. These logical chunks help representatives select appropriate messages that correspond to customer issues.
 
 1. In the =admin center site map, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**. 
 
@@ -72,7 +72,7 @@ Quick replies can be classified and tagged into categories. The categorization c
 
 ## Associate quick replies with a workstream
 
-For organizations with diverse lines of businesses, agents send various messages, depending on their area of expertise. As an administrator, you can determine which quick replies are necessary for different groups of agents to use. You can associate quick replies with workstreams to show agents only those quick replies that apply to them. If no workstream is associated, the quick reply is available for all agents.
+For organizations with diverse lines of businesses, representatives send various messages, depending on their area of expertise. As an administrator, you can determine which quick replies are necessary for different groups of representatives to use. You can associate quick replies with workstreams to show only applicable quick replies. If no workstream is associated, the quick reply is available for all representatives.
 
 1. In the site map of admin center, in **Agent experience**, select **Productivity**, and then select **Manage** for **Quick replies**.
 
@@ -90,13 +90,13 @@ For organizations with diverse lines of businesses, agents send various messages
 
 ## Availability of quick replies and language settings
 
-The following parameters determine the quick replies that the agents see:
+The following parameters determine the quick replies that the representatives see:
 
 - The language mapped to the channel instance
-- The language configured in the agent's personal settings
+- The language configured in the representative's personal settings
 - The workstream the quick reply is mapped to
 
-For example, when you set up a live chat widget or Facebook page, the quick replies are available in the language configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing agents, the agent-specific language setting, if configured, determines the language in which the quick replies are available to the agents. The agents see the quick replies mapped to the workstream associated with the channel with other quick replies.
+For example, when you set up a live chat widget or Facebook page, the quick replies are available in the language configured for the chat widget or Facebook page. Then, when you associate the chat widget with a queue containing representatives, the representative-specific language setting, if configured, determines the language in which the quick replies are available to the representatives. The representatives see the quick replies mapped to the workstream associated with the channel with other quick replies.
 
 ### Related information
 
