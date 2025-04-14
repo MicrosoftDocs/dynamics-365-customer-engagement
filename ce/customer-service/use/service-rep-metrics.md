@@ -77,9 +77,9 @@ The time that a service representative spent in a presence status.
 
 ## Consult
 
-This metric represents the service representative participation **Consult** mode. The related metrics aren't available by default. 
+This metric represents the service representative participation **Consult** mode. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
 
-Select **Edit report** to find the following metrics in your data model when you search for **Consult**. You can use these metrics to customize the visual display of your reports. Learn more in [Customize visual display](customize-reports.md#customize-visual-display).
+The related metrics aren't available by default. Select **Edit report** to find the following metrics in your data model when you search for **Consult**. 
 
 ### Related metrics
 

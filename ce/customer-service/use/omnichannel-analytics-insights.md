@@ -35,27 +35,27 @@ Learn more about managing the dashboards in [Manage historical analytics reports
 
 The following reports are available for Omnichannel historical analytics.
 
-## Summary
+### Summary
 
 The Summary dashboard gives you an integrated view of the Copilot agent and Omnichannel metrics. Learn more in the [Conversation dashboard](omnichannel-summary-dashboard.md).
 
-## Conversation
+### Conversation
 
 The Conversation dashboard gives you a broad overview of the assisted support customer service experience in your organization. Learn more in the [Conversation dashboard](oc-conversation-dashboard.md).
 
-## Queue
+### Queue
 
 The Queue dashboard gives you a broad overview of the customer service experience in your organization by providing insights into how specific queues are operating. Learn more in [Queue dashboard](oc-queue-dashboard.md).
 
-## Agent
+### Agent
 
 The Agent dashboard shows charts and KPIs that you can use to guide service representatives and understand overall  representative performance. Learn more in the [Agent dashboard](agent-dashboard.md#agent-dashboard).
 
-## Bot
+### Bot
 
 The Bot dashboard shows charts and KPIs that you can use to understand how AI agents are playing a role in a support organization. Learn more in the [Bot dashboard](oc-bot-dashboard.md).
 
-## Conversation Topics
+### Conversation Topics
 
 The Topics dashboard shows a detailed breakdown of conversations and their assigned topics. Learn more in the [Topics dashboard](oc-conversation-topics-dashboard.md).
 
