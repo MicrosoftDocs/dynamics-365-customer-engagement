@@ -4,7 +4,7 @@ description: Learn about how to set up workstreams and queues for inbound callin
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 01/29/2025
+ms.date: 04/08/2025
 ms.topic: how-to
 ms.custom: bap-template 
 ---
@@ -16,7 +16,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
-Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your customer service representatives (service representatives or representatives) to communicate with customers on the phone to resolve issues using the voice channel.
+Configure inbound calling to set up the voice channel in Dynamics 365. You can enable your service representatives to communicate with customers on the phone to resolve issues using the voice channel.
 
 ## Prerequisites
 
@@ -71,9 +71,9 @@ To configure the voice channel, you need to associate the workstream with a phon
 
 6. Configure the settings for transcription and recording of the calls in the **Transcription and recording** area. Learn more in [Configure call recordings and transcripts](voice-channel-configure-transcripts.md)
 
-7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. For information about automated messages, see [Configure automated messages](configure-automated-message.md)
+7. Select **Add** for **Custom automated messages**, then select a default template message as the trigger, and then enter the custom automated message text. Learn more about automated messages in [Configure automated messages](configure-automated-message.md).
 
-8. Turn on the toggle for the service representatives to be able to transfer calls and consult with external numbers and Microsoft Teams users.  See [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
+8. Turn on the toggle for the service representatives to be able to transfer calls and consult with external numbers and Microsoft Teams users. Learn more in [Transfer calls to external numbers and Teams users](#transfer-calls-to-external-numbers-and-teams-users).
 
 10. On the **Summary** page, select **Save and close**.
 
@@ -83,7 +83,7 @@ The phone number is associated with the workstream.
 
 ## Add a phone number to the workstream and configure language settings
 
-1. In the Customer Service admin center or Contact Center admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
+1. In the Copilot Service admin center app, go to the voice workstreams, and then select the workstream to configure the phone number.
 
 1. Select **Edit** next to the pencil icon, and then on the **Voice settings** page, select the number to add to the workstream, and then select **Next**.
 
