@@ -18,12 +18,12 @@ ms.custom: bap-template
 
 This article presents an overview of the analytics data model. The application provides an out-of-box data model that consists of fact and dimension tables.
 
-- Facts, also known as metrics, represent the observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
+- Facts, also known as metrics, represent observational or event data that you want to analyze. Fact tables logically organize KPIs. For example, the `FactConversation` table has conversation metrics such as average handle time, whereas the `FactAgent` table has service representative metrics.
 - Dimensions represent the attributes of the facts. You can use them to break down the data for further analysis.
 
 You can use facts and dimensions to visualize data according to your organizational requirements. For example, if you want to understand how average handle time varies by queue, you can filter the Average handle time fact by the Queue name dimension.
 
-Fact tables are larger than dimension tables because numerous events, such as individual customer requests, occur in them. Dimension tables are typically smaller because you're limited to the number of items that you can filter on and group. For example, the number of queues is a limited set.
+Fact tables are larger than dimension tables because numerous events, such as individual customer requests, are stored in them. Dimension tables are typically smaller because you're limited to the number of items that you can filter on and group. For example, the number of queues is a limited set.
 
 ## Dimensions
 
@@ -45,19 +45,18 @@ This dimension represents the name of the capacity profile.
 
 ### Conversation direction
 
-This dimension applies only to voice conversations. It indicates whether the customer or a service representative in the contact center initiated the conversation.
-
-If a contact center service representative initiates the conversation (and the customer receives it), the system considers it outbound. If the customer initiates the conversation (and the contact center receives it), the system considers it inbound.
+This dimension applies only to voice conversations. It indicates whether the customer or a service representative in the contact center initiated the conversation, and therefore considered as an inbound or outbound call.
 
 ### Conversation status
 
 This dimension represents the current state of a customer interaction. The following status values are available:
 
-- **Open**: The conversation is currently awaiting service representative assignment.
-- **Active**: Either the conversation has a service representative assigned and is awaiting acceptance, or a service representative is in contact with the customer.
-- **Waiting**: The conversation is currently awaiting either a customer response or a service representative response. This option applies to asynchronous conversation modes, such as messages.
-- **Wrap-up**: The service representative is performing post–customer interaction activities such as adding notes or updates to the case after the end of a customer conversation.
-- **Closed**: The conversation is currently closed. The following metrics are a measure of the conversations grouped by call closure reason.
+- [Open](oc-conversation-state.md#open)
+- [Active](oc-conversation-state.md#active)
+- [Waiting](oc-conversation-state.md#waiting)
+- [Waiting](oc-conversation-state.md#waiting)
+- [Closed](oc-conversation-state.md#closed). 
+The following metrics are a measure of the conversations grouped by call closure reason.
 
     - Ghost Conversation: Conversations that are connected to a service representative but there was no interaction from customer after the conversation was connected. 
     - Ghost Conversations Rate: Percentage of engaged conversations that are connected to a service representative but there was no interaction from the customer. 

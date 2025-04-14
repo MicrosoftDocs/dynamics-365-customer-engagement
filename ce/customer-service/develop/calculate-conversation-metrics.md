@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
 ms.collection:
-ms.date: 04/11/2025
+ms.date: 04/14/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -322,7 +322,7 @@ Avg. conversation first wait time (sec) =​
 
 This metric measures how quickly the service team responds to customer requests. It is calculated by dividing the total queue wait time (after the issue is escalated from an AI agent to a service representative) by the number of handled conversations. A lower average speed to answer means faster issue resolution and a better customer experience.
 
-If an AI agent or IVR handles the customer before it escalates the issue to a service representative, the calculation is based on the time between the point when the AI agent or IVR escalates the incoming conversation to a service representative and the point when the service representative accepts the conversation.
+For an AI agent conversation, this metric measures the time from when the AI agent escalates the incoming conversation to when a service representative accepts it.
 
 If the conversation enters the service representative queue directly, this metric measures the time from when the request is created to when a representative accepts the conversation.
 
@@ -330,7 +330,7 @@ This metric is available in two formats: seconds and hh:mm:ss.
 
 #### Related metrics
 
-- **Service level (10 seconds)**: This metric is a measure of the percentage of customer conversations where the speed to answer is less than or equal to 10 seconds. The calculation is similar for 20, 30, 40, 60, and 120 seconds.
+- **Service level (10 seconds)**: The percentage of customer conversations where the speed to answer is less than or equal to 10 seconds. The calculation is similar for 20, 30, 40, 60, and 120 seconds.
 
 - [Average speed to answer](#average-speed-to-answer)
 
@@ -436,7 +436,7 @@ Conversation handle time (sec) = SUM(FactConversation[ConversationHandleTimeInSe
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-This metric represents the average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled. Learn more about voice and chat conversations in [Conversation handle time](#conversation-handle-time).
+The average duration of a single customer interaction. This metric represents the total handle time divided by the number of conversations handled. Learn more about voice and chat conversations in [Conversation handle time](#conversation-handle-time).
 
 ### DAX query and Dataverse reference
 
@@ -530,7 +530,7 @@ Avg. conversation hold time (sec) = AVERAGE(FactConversation[ConversationHoldTim
 
 *Applies to Omnichannel real-time and Omnichannel historical dashboards.*
 
-This metric is a measure of the average time, in seconds, that service representatives spent actively conversing with customers on the phone for voice conversations. If multiple service representatives handled the conversation, the conversation talk time is aggregated across all the service representatives. This metric is calculated by dividing the total talk time for all customer requests by the total number of handled conversations.
+The average time, in seconds, that service representatives spent actively conversing with customers on the phone for voice conversations. If multiple service representatives handled the conversation, the conversation talk time is aggregated across all the service representatives. This metric is calculated by dividing the total talk time for all customer requests by the total number of handled conversations.
 
 ### DAX query and Dataverse reference
 
@@ -791,6 +791,6 @@ Wrap-up conversations =    SUMX ( FactConversation, IF ( FactConversation[status
 |Attributes  | msdyn_ocliveworkitem.statuscode |
 |Filters  | msdyn_ocliveworkitem.statuscode is set to 3.​|
 
-#### Related metric:
+### Related metric
 
 - **Agents in wrap-up conversations**: Number of representatives handling conversations that are in wrap-up state.
