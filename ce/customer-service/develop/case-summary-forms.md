@@ -61,10 +61,10 @@ For the default case summary record, the four out of the box case forms are adde
 
 If a form is added to the excludefromlist record of a specific entity, then record summary isn't displayed on the form. For example, if you add the form id of the case form to the excludefromlist record of the incident entity, then the case summary isn't displayed on the case form.
 
-If case summary and custom record summary are enabled, and the case form already has the case summary or custom summary configurations in place, your users can see multiple summaries on the page. To avoid duplication, you can perform one of the following steps:
+If you've already added the [Copilot case summary](../administer/copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms) or [custom record summary](../administer/copilot-enable-custom-record-summaries.md#configure-the-summary-control-on-entity-forms) control on the corresponding custom case forms or entity forms, your users can see multiple summaries on the page. To avoid duplication, you can perform one of the following steps:
 
-  -  To retain the enhanced case summary card, navigate to the required case form in Power Apps and then remove the custom summarization control.
-  -  To retain the current case summary card, add the case form to the exception list. Run the following script in the Copilot Service admin center console to add the form to the exception list.
+  -  To display summary on top, navigate to the required case form in Power Apps and then remove the custom summarization control.
+  -  To display summary within the form, add the case form to the exception list. Run the following script in the Copilot Service admin center console to add the form to the exception list.
 
 
 Go to Customer Service admin center > Productivity > Summaries page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
@@ -137,7 +137,3 @@ The system processes the settings in the following order to determine which summ
 1. If the form is present in an applicable list, the summary is displayed based on the configuration of the record where the form is added to the applicable list.
 1. If the form isn't in any applicable list, the system uses the record where default configuration is set to True.
 1. If no default configuration is set to True, no summary is displayed.
-
-
-
-
