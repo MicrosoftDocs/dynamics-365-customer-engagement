@@ -1,7 +1,7 @@
 ---
 title: Enable sound notifications for conversations in Omnichannel for Customer Service
 description: How to enable sound notifications for conversations in Omnichannel for Customer Service.
-ms.date: 03/03/2025
+ms.date: 04/15/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -24,7 +24,7 @@ Make sure the browsers used by service representatives allow sounds to be played
 
 When you enable sound settings, the options to personalize settings are available for all the channels that are provisioned in your environment.
 
-1. In the site map of Customer Service admin center or Contact Center admin center, select **Workspaces** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Workspaces** in **Agent experience**.
 
 1. On the **Workspaces** page, select **Manage** for **Notification templates**.
 
