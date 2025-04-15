@@ -112,7 +112,7 @@ In the **Work distribution** area of a workstream, you can either accept the def
 
 - **Allowed presences**: Select the presence statuses in which representatives can be assigned work. Don't select the **Inactive** and **Do not disturb** statuses if you don't want to assign new work items to representatives when they [miss](manage-missed-notifications.md) or [reject](enable-agent-reject-notifications.md) notifications.
 - **Default skill matching algorithm**: Select **Exact Match**, **Closest Match**, or **None**.
-- **Keep same agent for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned agent. Learn more in [Agent affinity](#agent-affinity).
+- **Keep same representative for entire conversation**: Set the toggle to **Yes** if you want the conversation to remain assigned to the originally assigned representative. Learn more in [Representative affinity](#representative-affinity).
 
 ### Configure advanced settings
 
@@ -154,7 +154,7 @@ Select a workstream to perform any of the following actions:
 - **Delete**: Lets you delete the workstream if you no longer need it in your organization. You can't delete workstreams that are used in intake rules for record routing. You are prompted to remove the dependencies and then try to delete the workstream.
 - **Fallback queue**: Select an existing queue or create a queue to set as the fallback queue. More information: [Fallback queues](queues-omnichannel.md#how-fallback-queues-work)
 
-### Agent affinity
+### Representative affinity
 
 The agent affinity feature makes sure that work items are assigned to the service representatives based on their work history. When a waiting conversation becomes active, it's automatically reassigned to the same representative who handled the conversation previously, irrespective of the representative's capacity and presence. However, the agent affinity setting must align with the notification template settings that's associated with the workstream. If auto assign work items is set to no in the notification template, the system overrides the agent affinity setting.
 

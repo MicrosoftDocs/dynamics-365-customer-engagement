@@ -1,7 +1,7 @@
 ---
 title: Add inspections to work orders
 description: Learn how to use inspections in Dynamics 365 Field Service.
-ms.date: 09/25/2024
+ms.date: 01/10/2025
 ms.topic: how-to
 author: josephshum-msft
 ms.author: jshum
@@ -31,7 +31,7 @@ Create an inspection that can be reused and added to multiple work orders. We do
 
 1. In Field Service, change to the **Settings** area.
 
-1. Go to **Work Orders** > **Inspection Templates** and select **New**.
+1. Go to **Work Orders** > **Inspection Templates** and select **New**. To create an inspection from an existing PDF or image with the help of Copilot in Field Service, see [Create inspections with Copilot](inspections-copilot.md).
 
    :::image type="content" source="./media/inspections-create.png" alt-text="Screenshot of a new inspection template.":::
 

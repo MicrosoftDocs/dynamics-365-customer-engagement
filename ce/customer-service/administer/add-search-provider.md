@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: how-to
-ms.date: 11/21/2023
+ms.date: 04/09/2025
 ms.custom: bap-template
 ---
 
@@ -36,7 +36,7 @@ If you're a first-time user, you must provision integrated search providers. Mak
 1. Go to **Knowledge** > **Integrated Search providers** > **Manage**.
 1. On the **Integrated search providers** page, select **Set up integrated search**.
 
-If you aren't able to provision the integrated search provider, you'll need to enable the Integrated Search API trigger flow.
+If you aren't able to provision the integrated search provider, you need to enable the Integrated Search API trigger flow.
 
 If integrated search isn't enabled in your geographical region, contact Microsoft Support to provision the feature.
 
@@ -88,7 +88,7 @@ If integrated search isn't enabled in your geographical region, contact Microsof
 1. In the **Refresh Schedule** section, specify the refresh intervals:
 
     - **Refresh frequency**: Select a value from the list to specify the frequency at which new or updated articles are ingested from the search provider. To pause ingestion, select **No refresh**.
-    - **Lookback period**: Select a value from the list to specify an additional period over which articles should be ingested that might have been missed during the initial ingestion.
+    - **Lookback period**: Select a value from the list to specify an additional period over which articles should be ingested that are missed during the initial ingestion.
 
         For example, if you set the refresh frequency at 15 minutes and lookback period at 2 hours, your data is refreshed for the last 2 hours and 15 minutes, every 15 minutes.
 
@@ -177,7 +177,7 @@ If you select a deactivated data search provider, it might appear on the **Filte
 
 ## Verify search provider website
 
-It is necessary to verify whether the search provider website that you want to use has the appropriate site map collection. To do so, you must identify the root and the site map URL.
+It's necessary to verify whether the search provider website that you want to use has the appropriate site map collection. To do so, you must identify the root and the site map URL.
 
 - **Root URL**: Enter the root URL of the search provider website, including the protocol. For example, in https://contoso.com/about, the root URL is: https://contoso.com/.
 - **Site map URL**: To get the site map URL for a website, add `/robots.txt` in the address bar. For example, https://contoso.com/robots.txt. To get the required site map collection from the robots.txt file, make sure that the site map link that you select has **sitemapindex**, for example: "https://contoso.com/_sitemaps/sitemapindex.xml".
