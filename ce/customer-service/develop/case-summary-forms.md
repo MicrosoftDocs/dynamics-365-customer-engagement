@@ -135,7 +135,7 @@ The system processes the settings in the following order to determine which summ
 
 1. Retrieves all summary records where `msdyn_disabledforplatformsummary` is set to **False**. If there are no records that meet this condition, no summary is displayed.
 1. For the retrieved records, the system then does the following:
-     1. Checks if the form is present in any exclude list for a specific entity. If a form is added to the exclude list, the summary isn't displayed for that form.
-     1. Checks if the form is added to the applicable list of an entity record. If the form is present in an applicable list, the summary is displayed based on the configuration of the record.
-     1. Displays the summary with the default configuration if the form is not present in any exclude list and the record is set as default configuration.
-     1. Summary isn't displayed if no records are marked as default.
+     1. Checks if the formID is added to any entity record's `msdyn_excludefromslist`. If a form is added to the exclude list, the summary isn't displayed for that form.
+     1. Checks if the formID is added to any entity record's `msdyn_applicableformslist`. If the form is present in an applicable list, the summary is displayed based on the configuration of the record.
+     1. Checks if the `msdyn_isdefaultconfig` is set to **True** for any entity record. If a record is set as default, the summary is displayed based on the configuration of that record.
+     Summary isn't displayed if there isn't a record with `msdyn_isdefaultconfig` set to **True**.
