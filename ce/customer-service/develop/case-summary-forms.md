@@ -15,8 +15,8 @@ ms.custom: bap-template
 
 Case and custom record summaries help users quickly understand the context of a case or a record and resolve customer issues more efficiently. Users can see the following summaries on forms: 
 
--  Case summaries appear on top of case forms, except for the following four out-of-the-box forms: Case for Interactive experience, Enhanced full case form, Case, and Case for Multisession experience forms.
-- Case summaries displayed within the case form for Case for Interactive experience, Enhanced full case form, Case, and Case for Multisession experience forms, users can see the case summary within the case form.
+-  Case summaries appear on top of case forms, except for the following four out-of-the-box forms: **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** forms.
+- Case summaries displayed within the case form for **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** users can see the case summary within the case form.
 - Record summaries appear on top of the relevant form  if custom record summary is enabled.
 
 You can configure case and custom record summaries to appear on multiple record forms such as incident, account, or contact forms. 
