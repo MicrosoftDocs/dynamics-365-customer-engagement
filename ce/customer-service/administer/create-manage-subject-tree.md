@@ -1,7 +1,7 @@
 ---
 title: Create and manage subject tree (Dynamics 365 Customer Service)
 description: Know how to create and manage subject tree in Dynamics 365 Customer Service.
-ms.date: 01/31/2025
+ms.date: 04/15/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -25,7 +25,7 @@ The search control for the subject tree entity is available by default for out-o
 
 [!INCLUDE[proc_permissions_custsvcmgr_sysadmin_and_customizer](../../includes/proc-permissions-custsvcmgr-sysadmin-and-customizer.md)]  
 
-You can create or edit a subject in the Customer Service admin center app.
+You can create or edit a subject in the Copilot Service admin center app.
 
 1. In the site map, select **Case Settings** in **Customer Support**. The **Case Settings** page appears.
 1. In the **Subjects** section, select **Manage**.
@@ -40,7 +40,7 @@ You can create or edit a subject in the Customer Service admin center app.
   
     - **Description**: Type a descriptive statement about the subject.
     
-    - Switch on the **Visibility** toggle if you want the subject to be available for the customer service representative (service representative or representative).
+    - Switch on the **Visibility** toggle if you want the subject to be available for the customer service representative.
 
     :::image type="content" source="../media/create-subject.png" alt-text="Create a subject.":::
 
