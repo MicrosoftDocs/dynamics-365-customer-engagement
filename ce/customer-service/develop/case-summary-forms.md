@@ -13,11 +13,11 @@ ms.custom: bap-template
 
 # Configure case and record summary on forms
 
-Case and custom record summaries help users quickly understand the context of a case or a record and resolve customer issues more efficiently. Users can see the following summaries on forms: 
+Case and custom record summaries help users quickly understand the context of a case or a record and resolve customer issues more efficiently. Users can see: 
 
--  Case summaries appear on top of case forms, except for the following four out-of-the-box forms: **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** forms.
+-  Case summaries appear at top of case forms, except for the following four out-of-the-box forms: **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** forms.
 - Case summaries displayed within the case form for **Case for Interactive experience**, **Enhanced full case form**, **Case**, and **Case for Multisession experience** users can see the case summary within the case form.
-- Record summaries appear on top of the relevant form  if custom record summary is enabled.
+- Record summaries at the top of relevant forms when custom record summary is enabled
 
 You can configure case and custom record summaries to appear on multiple record forms such as incident, account, or contact forms. 
 
@@ -33,13 +33,16 @@ You can customize the display of summaries on forms using multiple settings in t
 
 ### msdyn_isdefaultconfig
 
-This setting determines which configuration should be used as the default for case and record summaries. When multiple record configurations for entities are available, the record that was created is set as the default configuration. 
-  This setting can be either **True** or **False**. If the setting is set to **True** for a record, the record is used as the default configuration for all forms linked to that entity. 
-  Only one record can be set to **True** at any point in time. If you set the values of all the records to **False** summary isn't displayed on the related forms for the corresponding entity.
+Determines which summary record is used as the default configuration for case and record summaries. When multiple record configurations for entities are available, the record that's created first is set as the default configuration. 
 
-Go to Customer Service admin center > Productivity > Summaries page and then run the following script in the Console tab of developer tools to set a record as default configuration.
+-  This setting can be either **True** or **False**. 
+- Only one record can be set to **True** at any point in time. 
+- If the setting is set to **True** for a record, the record is used as the default configuration for all forms linked to that entity. 
+- If you set the values of all the records to **False** summary isn't displayed on the related forms for the corresponding entity.
 
-    ```javascript
+Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to set a record as default configuration.
+
+    ```
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_isdefaultconfig": true}).then(
     function success(result) {
         console.log("Account updated");
@@ -55,19 +58,18 @@ Go to Customer Service admin center > Productivity > Summaries page and then run
 
 ### msdyn_excludefromslist**
 
-This setting is used to exclude specific forms from displaying summaries. You can specify the form id of the forms that you must exclude from displaying summaries. You can specify multiple ids for a record separated by commas.
+Exclude specific forms from displaying summaries. You can specify the form id of the forms that shouldn't  display summaries. 
 
-For the default case summary record, the four out of the box case forms are added to the excludefromlist by default. Make sure you don't remove these forms from the list else user sees two summaries displayed on these forms.
+- You can specify multiple ids for a record separated by commas.
+- For the default case summary record, the four out-of-the-box case forms are already added to the excludefromlist. Make sure you don't remove these forms from the list else to avoid duplication of summaries on the form.
+- If a form is added to the excludefromlist of a specific entity record, then the summary isn't displayed on the form. For example, if you add the form id of the **Information** case form to the excludefromlist of an incident record, then case summary isn't displayed on the case form.
+- If you've already added the [Copilot case summary](../administer/copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms) or [custom record summary](../administer/copilot-enable-custom-record-summaries.md#configure-the-summary-control-on-entity-forms) control to the related forms, users might see duplicates. To avoid this perform one of the following steps:
 
-If a form is added to the excludefromlist record of a specific entity, then record summary isn't displayed on the form. For example, if you add the form id of the case form to the excludefromlist record of the incident entity, then the case summary isn't displayed on the case form.
-
-If you've already added the [Copilot case summary](../administer/copilot-powerapps-settings.md#display-copilot-case-summary-on-custom-case-forms) or [custom record summary](../administer/copilot-enable-custom-record-summaries.md#configure-the-summary-control-on-entity-forms) control on the corresponding custom case forms or entity forms, your users can see multiple summaries on the page. To avoid duplication, you can perform one of the following steps:
-
-  -  To display summary on top, navigate to the required case form in Power Apps and then remove the custom summarization control.
-  -  To display summary within the form, add the case form to the exception list. Run the following script in the Copilot Service admin center console to add the form to the exception list.
+  -  To show summaries only at the top: Remove the custom summarization control from the form in Power Apps.
+  -  To show summaries only within the form: Add the form to the exclude list using the script below
 
 
-Go to Customer Service admin center > Productivity > Summaries page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
+Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
 
     ```javascript
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb",{"msdyn_excludeformslist": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee"}).then(
@@ -86,9 +88,9 @@ Go to Customer Service admin center > Productivity > Summaries page and then run
 
 ### msdyn_applicableformslist
 
- This setting specifies which forms should use a particular summary configuration. This allows different forms to use different summary configurations. You can specify form IDs separated by commas to apply a specific configuration to those forms.
+Specifies which forms should use a particular summary configuration. This allows forms to display different summary configurations. You can specify form IDs separated by commas to apply a specific configuration to those forms.
 
-Go to Customer Service admin center > Productivity > Summaries page and then run the following script in the Console tab of developer tools to add a form to the applicable list of a record.
+Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to add a form to the applicable list of a record.
 
 
     ```javascript
@@ -108,10 +110,9 @@ Go to Customer Service admin center > Productivity > Summaries page and then run
 
 ### msdyn_disabledforplatformsummary
 
-This setting allows you to completely disable a configuration.
-  If this setting is set to **True**, the record's configuration isn't displayed on any form, regardless of the applicable forms list or exclude forms list. This setting is useful for temporarily disabling a configuration without deleting it.
+This setting allows you to completely disable a configuration. If this setting is set to **True**, the record's configuration isn't displayed on any form, regardless of the applicable forms list or exclude forms list. This setting is useful for temporarily disabling a configuration without deleting it.
 
-Go to Customer Service admin center > Productivity > Summaries page and then run the following script in the Console tab of developer tools to disable the summary for a record.
+Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to disable the summary for a record.
 
     ```javascript
 Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_disabledforplatformsummary": true}).then(
@@ -128,12 +129,13 @@ Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55
     ```
 
 
-## How it works
+## How summaries are displayed
 
 The system processes the settings in the following order to determine which summary record to display on which form:
 
-1. Retrieves all summary records where msdyn_disabledforplatformsummary is set to False.
-1. If the form is present in any exclude list for a specific entity, no summary is displayed at the top of that form.
-1. If the form is present in an applicable list, the summary is displayed based on the configuration of the record where the form is added to the applicable list.
-1. If the form isn't in any applicable list, the system uses the record where default configuration is set to True.
-1. If no default configuration is set to True, no summary is displayed.
+1. Retrieves all summary records where `msdyn_disabledforplatformsummary` is set to **False**. If there are no records that meet this condition, no summary is displayed.
+1. For the retrieved records, the system then does the following:
+     1. Checks if the form is present in any exclude list for a specific entity. If a form is added to the exclude list, the summary isn't displayed for that form.
+     1. Checks if the form is added to the applicable list of an entity record. If the form is present in an applicable list, the summary is displayed based on the configuration of the record.
+     1. Displays the summary with the default configuration if the form is not present in any exclude list and the record is set as default configuration.
+     1. Summary isn't displayed if no records are marked as default.
