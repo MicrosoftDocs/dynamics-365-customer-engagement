@@ -42,7 +42,7 @@ Determines which summary record is used as the default configuration for case an
 
 Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to set a record as default configuration.
 
-    ```
+```
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_isdefaultconfig": true}).then(
     function success(result) {
         console.log("Account updated");
@@ -54,9 +54,9 @@ Go to **Customer Service admin center** > **Productivity** > **Summaries** page 
     }
 );
 
-    ```
+```
 
-### msdyn_excludefromslist**
+### msdyn_excludefromslist
 
 Exclude specific forms from displaying summaries. You can specify the form id of the forms that shouldn't  display summaries. 
 
@@ -71,7 +71,7 @@ Exclude specific forms from displaying summaries. You can specify the form id of
 
 Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
 
-    ```
+```
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb",{"msdyn_excludeformslist": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee"}).then(
     function success(result) {
         console.log("Account updated");
@@ -83,7 +83,7 @@ Go to **Customer Service admin center** > **Productivity** > **Summaries** page 
     }
    );
 
-    ```
+```
 
 
 ### msdyn_applicableformslist
@@ -93,7 +93,7 @@ Specifies which forms should use a particular summary configuration. This allows
 Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to add a form to the applicable list of a record.
 
 
-    ```
+```
     Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_applicableformslist": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee"}).then(
     function success(result) {
         console.log("Account updated");
@@ -105,7 +105,7 @@ Go to **Customer Service admin center** > **Productivity** > **Summaries**  page
     }
 );
 
-    ```
+ ```
 
 
 ### msdyn_disabledforplatformsummary
@@ -114,7 +114,7 @@ This setting allows you to completely disable a configuration. If this setting i
 
 Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to disable the summary for a record.
 
-    ```
+```
 Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_disabledforplatformsummary": true}).then(
     function success(result) {
         console.log("Account updated");
@@ -126,7 +126,7 @@ Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55
     }
 );
 
-    ```
+```
 
 
 ## How summaries are displayed
