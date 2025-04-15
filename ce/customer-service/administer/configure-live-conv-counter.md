@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/09/2025
+ms.date: 04/15/2025
 ms.custom: bap-template
 ---
 
@@ -26,9 +26,10 @@ You must be a system administrator.
 You can enable the conversation live counter, configure specific time for SLA violations, and define the thresholds for **Warning** and **Urgent** statuses.
 
 1. In the site map of the Copilot Service admin center, go to **Workstreams**.
-1. Select any live chat workstream, and from **Show advanced settings**, select **Live conversation counter for customer wait time**.
-1. Select the **Turn on the live conversation counter for customer wait time** checkbox.
-1. In the **Add conditions for levels of urgency on the counter**, fill in the **Value** and **Unit** fields for the **Warning** and **Urgent** fields, as required by your organization.
+1. Select any live chat workstream, and then select **Show advanced settings**.
+1. Select **Edit** or select **Turn on timer** in the **Live conversation counter for customer wait time** section.
+1. Select the **Turn on live conversation counter for customer wait time** checkbox.
+1. In the **Add condition for the level of urgency on counter** section, fill in the **Value** and **Unit** fields for the **Warning** and **Urgent** states, as required by your organization.
 1. Save the settings.
 
 ## Related information
