@@ -71,7 +71,7 @@ Exclude specific forms from displaying summaries. You can specify the form id of
 
 Go to **Customer Service admin center** > **Productivity** > **Summaries** page and then run the following script in the Console tab of developer tools to add forms to an exclude list.
 
-    ```javascript
+    ```
        Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb",{"msdyn_excludeformslist": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee"}).then(
     function success(result) {
         console.log("Account updated");
@@ -93,7 +93,7 @@ Specifies which forms should use a particular summary configuration. This allows
 Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to add a form to the applicable list of a record.
 
 
-    ```javascript
+    ```
     Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_applicableformslist": "66aa66aa-bb77-cc88-dd99-00ee00ee00ee"}).then(
     function success(result) {
         console.log("Account updated");
@@ -114,7 +114,7 @@ This setting allows you to completely disable a configuration. If this setting i
 
 Go to **Customer Service admin center** > **Productivity** > **Summaries**  page and then run the following script in the Console tab of developer tools to disable the summary for a record.
 
-    ```javascript
+    ```
 Xrm.WebApi.updateRecord("msdyn_copilotsummarizationsetting", "33dd33dd-ee44-ff55-aa66-77bb77bb77bb", {"msdyn_disabledforplatformsummary": true}).then(
     function success(result) {
         console.log("Account updated");
