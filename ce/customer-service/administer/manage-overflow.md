@@ -4,7 +4,7 @@ description: Learn how to set up overflow conditions and actions for your voice,
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
-ms.date: 02/28/2025
+ms.date: 04/15/2025
 ms.topic: how-to
 ms.custom:
  - bap-template
@@ -78,7 +78,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
 
 ### Configure overflow conditions for before a work item is queued
 
-1. In the Customer Service admin center site map, select **Customer support** > **Queues**.
+1. In the Copilot Service admin center site map, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
@@ -131,7 +131,7 @@ If a work item is routed to a fallback queue because of errors or route-to-queue
 
 Sometimes you might not want an overflow action to run for specific types of work items or for priority customers. Let's say that a priority customer calls, the queue to which they're routed is overflowing, and the queue is set to end the call or keep the customer waiting. Either action might violate the service-level agreement that you have with your customer. In this scenario, you might want to configure rule-specific overflow conditions for the queue in the workstream's route-to-queue rules.
 
-1. In the Customer Service admin center site map, select **Customer support** > **Workstreams**.
+1. In the Copilot Service admin center site map, select **Customer support** > **Workstreams**.
 
 1. Select the workstream, and then select the route-to-queue rule in which the queue is configured.
 
@@ -151,7 +151,7 @@ When a work item is handled by an overflow action instead of being assigned to a
 
 When a work item is in a queue and the actual wait is long, the system can reroute it to another queue that has representatives available.
 
-1. In the site map of Customer Service admin center, select **Customer support** > **Queues**.
+1. In the site map of Copilot Service admin center, select **Customer support** > **Queues**.
 
 1. Select **Advanced queues**, and then select the queue you want to manage overflow for.
 
@@ -200,7 +200,7 @@ If a queued work item is moved to another queue because of long wait times, and 
 
 If you set **End call** or **End conversation** as an overflow action, you can edit the automated message that informs the customer that no representatives are available.
 
-1. In the Customer Service admin center site map, select **Customer support** > **Customer settings**.
+1. In the Copilot Service admin center site map, select **Customer support** > **Customer settings**.
 
 1. Select **Automated messages**.
 
