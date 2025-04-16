@@ -1,7 +1,7 @@
 ---
 title: Create a case in Customer Service
 description: Understand how you can quickly create cases in Customer Service.
-ms.date: 01/31/2025
+ms.date: 04/16/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -22,7 +22,7 @@ searchScope:
 ---
 # Work with cases
 
-Track your cases efficiently and act on them quickly in the Customer Service workspace application.
+Track your cases efficiently and act on them quickly in the Copilot Service workspace application.
 
 Creating and managing a case can’t be any simpler. With the intuitive case form, you can do all your important tasks and actions without navigating to different parts of the application.  
 
@@ -38,7 +38,7 @@ Make sure that you have the Customer Service Manager or Customer Service Represe
 
 ## Create a case
 
-1. In Customer Service workspace, go to the **Customer Service Agent Dashboard**. If you are using  Customer Service Hub, in the site map, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
+1. In Copilot Service workspace, go to the **Customer Service Representative Dashboard**. If you are using  Customer Service Hub, in the site map, go to <strong>Service</strong> &gt; <strong>Cases</strong>.
 
    - The **My Active Cases** view is displayed. You can switch between the different case views by selecting the current view.
    - Select **Show Chart** on the command bar to see the chart view.
