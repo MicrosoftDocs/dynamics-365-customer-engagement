@@ -17,7 +17,7 @@ ms.custom: bap-template
 [!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 
-This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your customer service representatives (service representatives or representatives) can make calls to customers in the Copilot Service workspace or Contact Center workspace app.
+This article describes how you, as an administrator, can set up outbound calling for phone numbers in your organization. After you set up outbound calling, your representatives can make calls to customers in the Copilot Service workspace app.
 
 If you don't have any phone numbers provisioned for your business, then see [Acquire a new phone number](voice-channel-manage-phone-numbers.md#acquire-new-phone-numbers) to learn how you can acquire new phone numbers. Phone number calling plans must be provisioned to support making calls to be used for outbound voice.
 
