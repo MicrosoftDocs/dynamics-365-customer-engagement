@@ -5,7 +5,7 @@ author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.reviwer: nenellim
-ms.date: 03/03/2025
+ms.date: 04/16/2025
 ms.topic: how-to
 ms.custom: bap-template
 ---
@@ -21,7 +21,7 @@ As an administrator, you can enable live translation, transcription, and recordi
 
 > [!IMPORTANT]
 > - Many countries/regions and states have laws and regulations that apply to the recording of PSTN (Public Switched Telephone Network), voice, and video calls, and may require that users first consent to the recording of their communications. It is your responsibility to use the call recording and transcription capabilities in compliance with the law. Before using call recording features, you must obtain consent from the parties of recorded communications in a manner that complies with all applicable laws for each participant.
-> - If you use AI agents created in Copilot Studio as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
+> - If you use agents created in Copilot Studio as the interactive voice response (IVR) with the voice channel, the calls are transcribed in Copilot Studio even if the transcription and recording setting isn't enabled in the voice workstream.
 
 ## Prerequisites
 
@@ -30,7 +30,7 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 ## Enable call recording and transcription for voice
 1. To enable call recording and transcription for voice, you must first configure your applications to listen to Azure Communication Services events by registering Event Grid system topics. Learn more in [Enable call recording and SMS services](voice-channel-configure-services.md).
    
-1. In the Customer Service admin center or Contact Center admin center app, select the workstream for which you want to enable recording and transcription.
+1. In the Copilot Service admin center app, select the workstream for which you want to enable recording and transcription.
 
 1. In the **Phone number** section, next to the pencil icon, select **Edit**.
 
@@ -40,11 +40,11 @@ For call recording to work as expected, allow the audio and mpeg MIME type for y
 
 1. In the **Transcription and recording** section, select the **Transcript and recording** dropdown menu, and then select **Transcription** or **Transcription and recording**.
 
-1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want service representatives to record and transcribe their calls.
+1. Under **Start setting**, set the toggle to **Automatic** if you want calls to be automatically recorded and transcribed when they begin, or **Manual** if you want representatives to record and transcribe their calls.
 
 1. Set **Allow agents to pause and resume** toggle to **Yes** if you want to allow representatives to control the portions of conversations that they record and transcribe.
 
-1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the service representative puts the customer on hold and resumed when the representative takes the customer off hold.
+1. Set **Allow automatic pause and resume when agent hold and un-hold the customer** toggle to **Yes** if recording and transcription must be paused when the representative puts the customer on hold and resumed when the representative takes the customer off hold.
 
 1. Select **Save**.
 
@@ -54,7 +54,7 @@ To view translated voice transcripts for calls, you must enable call recording, 
 
 ## View call transcripts
 
- You can view call transcripts in Customer Service workspace and Contact Center workspace only. 
+ You can view call transcripts in Copilot Service workspace only. 
  
 1. In the site map, go to manage **Users**, and then select the user whose conversations you want to view.
 2. Select the **Related** tab, and then select **Conversations** from the dropdown menu.
