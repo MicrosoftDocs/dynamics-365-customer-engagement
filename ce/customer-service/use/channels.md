@@ -6,7 +6,7 @@ ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: conceptual
 ms.collection:
-ms.date: 10/09/2024
+ms.date: 04/16/2025
 ms.custom: bap-template
 ---
 
@@ -22,8 +22,8 @@ The implementation pattern for the out-of-the-box channels is as follows:
 
 - Establish your account and respective requirements, such as a page and app, with the channel provider. These requirements ensure that you have an entry point with the channel provider through which customers engage.
 - Configure the [workstream](../implement/cs-admin-center.md).
-- Configure the channel in Customer Service admin center or Contact Center admin center and attach it to the workstream.
-- Populate the exchange of handshake data, such as token and secrets required between the application and the channel provider. The data exchange is done in both places: the Customer Service admin center app and the channel provider experience. 
+- Configure the channel in Copilot Service admin center and attach it to the workstream.
+- Populate the exchange of handshake data, such as token and secrets required between the application and the channel provider. The data exchange is done in both places: the Copilot Service admin center app and the channel provider experience. 
 
 ## License requirements
 
