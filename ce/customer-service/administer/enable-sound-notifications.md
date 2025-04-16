@@ -26,7 +26,7 @@ When you enable sound settings, the options to personalize settings are availabl
 
 1. In the site map of Copilot Service admin center, select **Workspaces** in **Agent experience**.
 
-1. On the **Workspaces** page, select **Manage** for **Notification templates**.
+1. On the **Workspaces** page, select **Manage** for **Notifications**.
 
 1. On the **Omnichannel Configuration - Notifications** page, select **Sound notification settings**.
 
