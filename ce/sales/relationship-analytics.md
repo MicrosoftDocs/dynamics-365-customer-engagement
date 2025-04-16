@@ -86,7 +86,7 @@ As a seller, it's important to understand what's working better for a deal and l
 The enhanced relationship analytics displays a comparison of the KPIs, activity history, and relationship health of the current opportunity with similar deals that were won in the past two years. By opening the deals, you can learn what worked and what didn't and apply what you learn in the deal you're trying to close. Your administrator must [set up enhanced relationship analytics](configure-relationship-analytics.md).
 
 1. In the Sales Hub app, select **Opportunities**, and then open an opportunity.
-1. In the list, select the **Sales Insights** form.
+1. In the views list, select the **Sales Insights** form.
 1. Select the **Relationship Analytics** tab.
 
 If relationship analytics can't detect opportunities that are similar to the current opportunity, it shows KPIs of the top 100 won opportunities. 
@@ -95,7 +95,7 @@ The following screenshot shows enhanced relationship analytics for an opportunit
 
 :::image type="content" source="media/relationship-analytics-tab-advanced.png" alt-text="Screenshot of the Relationship analytics home page.":::
 
-[Learn more about each insights in Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights) 
+[Learn more about each insights in Enhanced relationship insights](relationship-analytics-overview.md#enhanced-relationship-insights).
 
 ## Related information
 
