@@ -3,7 +3,7 @@ title: Assign roles, enable users
 description: Perform the steps to assign roles to users and enable them in contact center.
 author: neeranelli
 ms.author: nenellim
-ms.date: 03/17/2025 
+ms.date: 04/16/2025 
 ms.topic: how-to
 ms.collection:
 ms.custom: bap-template
@@ -35,7 +35,7 @@ Ensure that the **Omnichannel API access** role isn't assigned to a supervisor o
 
 Additionally, the **Customer Service Representative** role is required to work with the Case entity.
 
-Use the Microsoft 365 admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
+Use the Copilot Service admin center to create user accounts for every user who needs access to Omnichannel for Customer Service. Learn more in [Create users and assign security roles](/power-platform/admin/create-users-assign-online-security-roles).
 
 ## Assign roles to users
 
@@ -53,7 +53,7 @@ Perform the following steps to assign roles to users in the advanced settings ar
 
 5. In the **Manage security roles** dialog, select the security roles that you want to assign to the user, and then select **Save**.
 
-To view and manage users in omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
+To view and manage users in Omnichannel for Customer Service, see [Manage users in Omnichannel for Customer Service](../administer/users-user-profiles.md).
 
 ## Understand roles and their privileges
 
@@ -72,7 +72,7 @@ Each role in Omnichannel for Customer Service can perform a set of actions based
 | Can add/edit/delete channel settings, context settings, routing rules | Yes |||||
 | Can add/edit/delete queues | Yes |||||
 | Can add/remove representatives from queue | Yes | Yes ||||
-| Can add/edit/delete AI agents | Yes |||||
+| Can add/edit/delete agents | Yes |||||
 | Can view/add/edit/delete quick replies | Yes | Yes ||||
 | Can add/edit/delete PBI config | Yes |||||
 | Can view/add/edit/delete operating hours | Yes |||||
