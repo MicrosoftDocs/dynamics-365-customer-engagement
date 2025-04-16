@@ -1,7 +1,7 @@
 ---
 title: Copilot Service workspace system requirements
 description: Learn about the system requirements and prerequisites to use Copilot Service workspace.
-ms.date: 04/09/2025
+ms.date: 04/16/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
