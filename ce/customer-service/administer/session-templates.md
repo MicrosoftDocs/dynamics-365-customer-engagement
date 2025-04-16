@@ -48,7 +48,7 @@ The following out-of-the-box session templates are generic and are for use in th
   
 ## Create a session template
 
-1. In the site map of Copilot Service admin center, select **Workspaces** in **Agent experience**.
+1. In the site map of Copilot Service admin center, select **Workspaces** in **Support experience**.
 
 1. On the **Workspaces** page, select **Manage** for **Session templates**.
 
