@@ -6,7 +6,7 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: how-to
 ms.collection:
-ms.date: 04/15/2025
+ms.date: 04/18/2025
 ms.custom: bap-template
 ---
 
@@ -21,7 +21,7 @@ The service-level agreement (SLA) live conversation counter provides customer se
 
 You must be a system administrator.
 
-## Configure the live conversaiton counter
+## Configure the live conversation counter
 
 You can enable the conversation live counter, configure specific time for SLA violations, and define the thresholds for **Warning** and **Urgent** statuses.
 
@@ -37,5 +37,7 @@ You can enable the conversation live counter, configure specific time for SLA vi
 ## Related information
 
 [Monitor customer wait time through live conversation counter](../use/monitor-live-conv-counter.md#monitor-customer-wait-time-through-live-conversation-counter)
+
+[Configure advanced settings](create-workstreams.md#configure-advanced-settings)
 
 

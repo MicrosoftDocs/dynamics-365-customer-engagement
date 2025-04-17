@@ -6,13 +6,13 @@ ms.author: sdas
 ms.reviewer: Soumyasd27
 ms.topic: conceptual
 ms.collection: 
-ms.date: 04/15/2025
+ms.date: 04/18/2025
 ms.custom: bap-template
 ---
 
 # Monitor customer wait time through live conversation counter
 
-Monitor the live conversation counter to track customer wait times during live chats and ensure compliance with service-level agreements (SLAs).
+Monitor the live conversation counter to track customer wait times during live chats to ensure compliance with service-level agreements (SLAs).
 
 The visual counter on the conversation's multisession tab shows the time elapsed since the customer's last message without a response.
 
@@ -24,8 +24,8 @@ Your administrator has configured the SLA thresholds.
 
 - The SLAs viewed by you are defined by the response time standards agreed upon by your administrator to address customer inquiries.
 - You can view the SLA counter on the multisession bar for live chat workstreams and channels, and for each session or conversation.
-- Each SLA counter updates its color and increments based on the time elapsed since your last response, as long as the customer's message is the most recent.
-- When a customer sends a message, the conversation wait time timer starts counting up from zero. The timer resets each time you respond to the customer. If the customer doesn't respond, the timer remains at zero seconds. 
+- Each SLA counter updates its color and increments based on the time elapsed since your last response, if the customer's message is the most recent.
+- When a customer sends a message, the conversation wait time timer starts counting from zero. The timer resets each time you respond to the customer. If the customer doesn't respond, the timer remains at zero seconds. 
 
 ## **SLA Status Indicators**
 
@@ -39,3 +39,4 @@ The timer includes color-coded indicators (Blue, Yellow, and Red) to show the st
 
 [Configure live conversation counter to view customer wait time](../administer/configure-live-conv-counter.md#configure-live-conversation-counter-to-view-customer-wait-time)
 
+[Configure advanced settings](../administer/create-workstreams.md#configure-advanced-settings)
