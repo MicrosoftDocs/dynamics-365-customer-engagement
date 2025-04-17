@@ -1,7 +1,7 @@
 ---
 title: "Integrate Dynamics 365 Field Service and Supply Chain Management | MicrosoftDocs"
 description: Learn about integration between Dynamics 365 Field Service and Dynamics 365 Supply Chain Management.
-ms.date: 12/22/2023
+ms.date: 04/17/2025
 ms.topic: conceptual
 ms.author: jacoh
 author: jasonccohen
@@ -41,8 +41,7 @@ After dual-write is enabled, a solution is imported into Field Service that adds
 
 For example, in Field Service, you'll see new fields added to the warehouse entity that are required in Supply Chain Management.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a warehouse, showing the integration section.](./media/inventory-warehouse-supply-chain2.png)
+:::image type="content" source="./media/inventory-warehouse-supply-chain2.png" alt-text="Screenshot of a warehouse, showing the integration section.":::
 
 When a warehouse record is created or updated in either system, the change will show in the other system in near real time.
 
@@ -52,19 +51,17 @@ Business rules and validations in either system are respected in the other syste
 
 A purchase order is created in either system. In the following example, a purchase order was created in Supply Chain Management.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of purchase order form in supply chain management.](./media/scm-po-form.jpg)
+:::image type="content" source="./media/scm-po-form.jpg" alt-text="Screenshot of purchase order form in supply chain management.":::
 
 In dual-write, you can see the integration is running.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of list of dual-write entities.](./media/scm-dual-write-map-list.jpg)
+:::image type="content" source="./media/scm-dual-write-map-list.jpg" alt-text="Screenshot of list of dual-write entities.":::
 
 For each table in the integration, the relevant fields are mapped to the other system. The following screenshot shows the mapping between purchase orders in Supply Chain Management and purchase orders in Field Service.
 
 As the last part of the process, a purchase order is created in Field Service with relevant information from both systems.
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of purchase order in Field Service.](./media/scm-po-form-fs.jpg)
+:::image type="content" source="./media/scm-po-form-fs.jpg" alt-text="Screenshot of purchase order in Field Service.":::
+
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
