@@ -19,7 +19,7 @@ Administrators and IT professionals can use this information to prepare for futu
 > [!IMPORTANT]
 > "Deprecated" means we intend to remove the feature or capability in a major future release. The feature or capability will continue to work and will be fully supported until it's officially removed. This deprecation notification might span a few years. After removal, the feature or capability won't work. We're notifying you now so that you have sufficient time to plan and update your code before the feature or capability is removed.
 
-## Auto-summarization of ongoing conversations to be deprecated in April 2025
+## Auto-summarization of ongoing conversations is deprecated in April 2025
 
 Starting April 16, 2025, we'll no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
 
