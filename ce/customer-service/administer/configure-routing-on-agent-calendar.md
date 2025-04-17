@@ -24,26 +24,30 @@ With shift bookings, the routing engine considers the shift activity type to det
 ## Prerequisites
 
 - [Workforce Management for Customer Service](configure-agent-calendar.md#enable-workforce-management) is enabled in your environment, or a non-Microsoft adapter is configured to import representative schedules from an external system. If you're importing external schedules using the non-Microsoft adapter, opt in every representative ([bookableresource](../develop/reference/entities/bookableresource.md)) into shift-based routing by setting the **msdyn_generatecalendarfromshift** column of the corresponding bookableresource entry to **True**.
-- Shift activity types are enabled and created in WFM system.
+- Shift bookings are created in WFM system.
 - [Unified routing](provision-unified-routing.md) is enabled and set up.
 - [Workstreams](create-workstreams.md) and [advanced queues](queues-omnichannel.md) are set up.
 - [Custom assignment method](configure-assignment-rules.md) is configured for the queue and the Calendar schedule attribute is used in custom assignment conditions.
 
 ## Enable shift-based routing
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Workforce management** under **Operations**.
-1. In the **Shift based routing** section, select **Manage**.
-1. On the **Shift based routing** page, turn on the **Enable routing based on shift bookings** toggle, and then select **Save**.
+Follow the steps in [Enable shift-based routing](enable-shift-based-routing.md) to turn on the feature.
 
 ## Import external schedule data
 
-Optionally, if you want to integrate schedules from external WFM systems, you can use a non-Microsoft adapter to import the schedules into Customer Service.
+You can create shift bookings in workOptionally, if you want to integrate schedules from external WFM systems, you can use a non-Microsoft adapter to import the schedules into Customer Service.
 
 Alternatively, you can use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import representative schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
 
 ## Configure an assignment rule
 
-You can configure custom assignment method and rules by doing the steps in [Configure assignment methods](configure-assignment-rules.md).
+1. In the site map of Copilot Service admin center, select **Queues**, and then select **Manage** in the **Advanced queues** area.
+1. Select the queue for which you want to configure the assignment rule, select the [custom assignment](configure-assignment-rules.md) method, and select **Edit**.
+1. Create a rule or modify an existing rule and do the following:
+    1. In **Conditions**, select **Add row**, and then select **Calendar schedule**. The **Is working** value is automatically selected.
+    1. Save and close.
+
+       :::image type="content" source="../media/screenshot-of-calendar-schedule-condition.png" alt-text="Screenshot of assignment rule configured on calendar schedule.":::
 
 ## View routing diagnostics records
 
@@ -51,7 +55,7 @@ View the [conversation diagnostics in Azure Application Insights](configure-conv
 
 ## How shift-based routing works
 
-The imported schedules from external systems are represented in Dynamics 365 as "bookings". You can also create shift bookings natively in the workforce management system in Customer service. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Each booking is assigned to a representative. The representative is recorded as a bookable resource and each of them with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
+The imported schedules from external systems are represented in Dynamics 365 as "bookings". You can also create shift bookings natively in the workforce management system in Customer Service. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Each booking is assigned to a representative. The representative is recorded as a bookable resource and each of them with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
 
 Shift-based routing is applicable only when booking-based routing is enabled at organization level for all queues.
 
@@ -61,12 +65,13 @@ To find a matching representative, assignment engine performs the regular assign
 
 The booking start time needs to be before or equal to the time when automated assignment is attempted. The booking end time needs to be after the automated assignment attempted time.
 
+If a representative has an assignable shift booking outside their calendar working hours, they are considered for automatic assignment because shift-based routing ignores work hour calendar and considers shift bookings only. 
+
+If a representative has overlapping shift bookings and all of them are assignable, the representative is considered. If there's even one non-assignable shift booking, representative isn't considered for automatic assignment for the duration of non-assignable booking. If all the overlapping bookings are non-assignable, representative won't be considered for automatic assignment for the combined duration of the overlapping bookings.
+
 If representative doesn't have a booking when assignment is attempted, no work is assigned automatically. The representatives can pick up work manually or supervisors can assign work to them.
 
 If custom assignment methods are configured, a message banner that automatic assignment will occur based on shift bookings instead of calendar schedule is displayed on the top of the page.
-
-
-
 
 ### Related information
 
