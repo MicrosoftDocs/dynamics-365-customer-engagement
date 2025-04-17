@@ -20,7 +20,7 @@ ai-usage: ai-assisted
 
 # Enable and configure sales qualification agent
 
-To help sellers leverage AI for lead research and qualification, enable and configure the sales qualification agent. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
+Help sellers leverage AI for lead research, ideal customer profile (ICP) matching, and initial outreach email drafting. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
 
 ## Prerequisites
 
@@ -144,11 +144,12 @@ By default, the research data is refreshed every three days. You can adjust the 
 
 You can start monitoring the usage consumption of the sales qualification agent after the agent is published. This information helps you keep track of the capacity consumed by the agent and the remaining capacity.
 
-1. Open the [sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page).
-1. Select **View usage consumption** to view the usage consumption of the agent.
-   This option is only available after the agent is published.
-   Questions: Does this display the consumption by SQA or all the agents in D365 sales, including custom agents created by the customer?
-   You're redirected to the Power Platform admin center, where you can view the usage consumption by product, agent, and environment.
+1. From the Change area, select **App Settings** > **Copilot** > **Agents (Preview)**.
+1. On the **Copilot agents** page, select **View usage consumption**. This option is only available after the agent is published.
+   :::image type="content" source="media/view-usage-consumption.png" alt-text="Screenshot of the view usage consumption option.":::
+   You're redirected to the **Licensing** page on Power Platform admin center.
+1. Under **Products**, select **Copilot Studio**.
+   The usage consumption by product, agent, and environment are displayed.
 
 
 ## Deactivate the agent
