@@ -31,7 +31,7 @@ With shift bookings, the routing engine considers the shift activity type to det
 
 ## Enable shift-based routing
 
-Follow the steps in [Enable shift-based routing](enable-shift-based-routing.md) to turn on the feature.
+Follow the steps in [Enable shift-based routing](/dynamics365/contact-center/administer/wfm-enable-shift-based-routing#enable-shift-based-routing) to turn on the feature.
 
 ## Import external schedule data
 
