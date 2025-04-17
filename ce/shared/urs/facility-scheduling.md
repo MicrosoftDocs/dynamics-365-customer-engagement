@@ -20,9 +20,9 @@ Typical examples include:
 - Universal Resource Scheduling (URS) v3.0
 - Field Service v8.0 (for work orders, if applicable)
 
-In general, to use facility scheduling, you create a facility resource, configure a requirement that calls for facility resource, and book the requirement. In the following example, an auto repair shop in Redmond, WA. wants to schedule their auto repair bay.
+In general, to use facility scheduling, you create a facility resource, configure a requirement that calls for the facility resource, and book the requirement. In the following example, an auto repair shop in Redmond, WA. wants to schedule their auto repair bay.
 
-Create a facility resource to represent the repair shop, create a requirement to represent the customer's request for an appointment, and then book the appointment and view the facility and booking on the schedule board.
+Create a facility resource to represent the repair shop, create a requirement to represent the customer's request for an appointment, and then book the appointment.
 
 ## Create a facility resource
 
@@ -39,7 +39,7 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 1. (Optional) Add related characteristics, territory, resource roles, work hours to distinguish facility resources from other facilities and resources.
 
-   For example, if an auto repair shop has ASE-certified mechanics or offers shuttle service, you can them as characteristics or resource roles to the facility resource. This can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search.
+   For example, if an auto repair shop has ASE-certified mechanics or offers shuttle service, you can add them as characteristics or resource roles to the facility resource. This can influence which facility resources are filtered and displayed on the schedule board or which facility resources are returned during a schedule assistant search.
 
 1. Select **Save & Close**.
 
@@ -64,9 +64,12 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 ## Book the requirement
 
-1. On the requirement record, select **Book** to trigger the schedule assistant.
+1. On the requirement record, select **Book**.
 
    The schedule assistant automatically sets the **Work Location** filter to *Facility*. It considers availability of resources and other set requirement constraints, such as characteristics, organizational units, and categories.
+
+   > [!TIP]
+   > Requirements that are part of a requirement group are scheduled via the **Book** button to trigger the schedule assistant. They aren't available to drag and drop on the schedule board. If your facility has single requirements, you can create the requirements through **Resource Requirements** and use the schedule board.
 
    :::image type="content" source="media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirment group with Open Form highlighted.":::
 
@@ -74,18 +77,15 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 1. To remove the travel time and distance calculations from schedule assistant results, change the **Work Location** filter to *Location Agnostic*.
 
-- To book an appointment, select a time and then select **Book & Exit**.
+1. To book an appointment, select a time and then select **Book & Exit**.
 
-## Add the facility resource to the schedule board
-
-Scheduling a facility is just like scheduling any other resource. You can drag and drop requirements to create bookings; you can drag existing bookings to change the time or resource; or you can use the schedule assistant to help sift through the list of facilities based on availability and other constraints.
+## View a facility on the schedule board
 
 To view facility resources on the schedule board, filter by resource type and/or organizational units.
 
 :::image type="content" source="media/scheduling-facility-schedule-board-filter.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
 
 Facility resources are displayed on the schedule board map based on the location of the related organizational unit.
-
 
 ## Facility scheduling examples
 
@@ -106,21 +106,37 @@ An auto repair shop has 5 identical bays and schedulers don't need to book each 
 
 In this scenario, schedulers want to schedule a doctor's office and a related doctor at the same facility during the same timeslot.
 
-1. Create a facility resource.
+1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource).
 
 1. Create a resource to represent a doctor.
 
    - Set the resource type to **User, Account, or Contact**.
    - The Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource (in this case, the doctor's office). This is **recommended but not required**.
 
-1. Associate the doctor resource to the facility resource. 
+1. Associate the doctor resource to the facility resource.
 
    - From the facility resource, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (**msdyn_bookableresourceassociations**).
-   - Select the doctor resource for **Resource 1**.
+   - Select **New Bookable Resource Association**.
+   - Enter a name, timeframe, and select the doctor resource for **Resource 1**.
 
-   :::image type="content" source="media/scheduling-facility-associate-doctor.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-associate-doctor.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
 
-1. Create a requirement group that calls for both a facility and a doctor.
+1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility) with one requirement for the facility (doctor's office) and another requirement for the doctor resource. Set the **Work Location** on each requirement to **Facility**.
+
+   - Set **Select** to **All** so that all requirements must be met.
+   - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a doctor associated with Facility B shouldn't be paired with Facility A. Find more details about this setting in the configuration considerations section of this article. 
+
+1. 
+
+
+
+
+
+
+
+
+
+
 
 In order to schedule groups of resources to perform a task together at a facility, non-facility resources can be associated to facility/facility pool resources through the **Resource Associations entity (msdyn_bookableresourceassociations)**.
 
@@ -143,7 +159,7 @@ Set the **Work Location** on each requirement to **Facility**, indicating the wo
 > [!div class="mx-imgBorder"]
 > ![Screenshot of select field on requirement group.](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource-ALL.png)
 
-Set **Part of Same** to **Resource Tree**. This ensures resources from different locations aren't recommended for work taking place at a facility. As an example, a doctor associated with Facility B shouldn't be paired with Facility A. Find more details about this setting in the configuration considerations section of this article. 
+
 
 > [!div class="mx-imgBorder"]
 > ![Screenshot of schedule assistant results pairing a resource with a facility resource to meet the requirement group.](../../field-service/media/scheduling-facility-schedule-assistant-with-person.png)
