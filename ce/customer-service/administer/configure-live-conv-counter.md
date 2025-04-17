@@ -12,7 +12,7 @@ ms.custom: bap-template
 
 # Configure live conversation counter to view customer wait time
 
-The service-level agreement (SLA) live conversation counter provides customer service representatives (service representatives or representatives) with a visual indicator of the time elapsed during live chat conversations, helping them monitor SLA compliance and ensure timely, efficient interactions.
+The service-level agreement (SLA) live conversation counter shows customer service representatives (service representatives or representatives) a visual indicator of the time elapsed during live chat conversations. It helps them monitor SLA compliance and ensure timely and efficient interactions.
 
 > [!NOTE]
 > The feature supports live chat workstreams only.

@@ -12,9 +12,9 @@ ms.custom: bap-template
 
 # Monitor customer wait time through live conversation counter
 
-Monitor the live conversation counter to track customer wait times during live chats to ensure compliance with service-level agreements (SLAs).
+Track customer wait times during live chats by monitoring the live conversation counter to ensure compliance with service-level agreements (SLAs).
 
-The visual counter on the conversation's multisession tab shows the time elapsed since the customer's last message without a response.
+The visual counter on the conversation's multisession tab displays the time elapsed since the customer's last message without a response.
 
 ## Prerequisites
 
@@ -29,7 +29,7 @@ Your administrator has configured the SLA thresholds.
 
 ## **SLA Status Indicators**
 
-The timer includes color-coded indicators (Blue, Yellow, and Red) to show the status of the SLA: 
+The timer includes the following color-coded indicators that show the status of the SLA: 
 
 - **Blue**: Indicates a standard counter when the SLA is on track, without any **Warning** or **Urgency**.
 - **Yellow**: Indicates that the SLA is approaching its limits and is in the **Warning** state.
