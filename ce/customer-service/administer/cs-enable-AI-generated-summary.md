@@ -14,7 +14,7 @@ ms.collection: bap-ai-copilot
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
 > [!NOTE]
-> Auto-summarization for conversations is now deprecated. We recommend that you disable this feature and use Copilot generated conversation summaries instead. Learn more in [Enable Copilot generated conversation summaries](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
+> Auto-summarization for conversations is now deprecated. We recommend that you disable this feature and use Copilot-generated conversation summaries instead. Learn more in [Enable Copilot-generated conversation summaries](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
   
 
 Customer service representatives (service representatives or representatives) can collaborate with other representatives and contacts directly while they're working in Dynamics 365 Customer Service. To help representatives easily recap an ongoing customer interaction, turn on auto-summarization for conversations. Representatives can generate a conversation summary when they either transfer a conversation, add a user to consult, or start a linked Teams chat. The summary quickly provides context and relays any steps taken.
