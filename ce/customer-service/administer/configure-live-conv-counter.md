@@ -32,6 +32,8 @@ You can enable the conversation live counter, configure specific time for SLA vi
 1. In the **Add condition for the level of urgency on counter** section, fill in the **Value** and **Unit** fields for the **Warning** and **Urgent** states, as required by your organization.
 1. Save the settings.
 
+:::image type="content" source="../media/configure-live-conversation-counter.png" alt-text="Screenshot of configure live conversation counter.":::
+
 ## Related information
 
 [Monitor customer wait time through live conversation counter](../use/monitor-live-conv-counter.md#monitor-customer-wait-time-through-live-conversation-counter)

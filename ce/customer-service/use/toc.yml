@@ -264,6 +264,8 @@
           href: oc-view-activity-types.md
         - name: View active conversation for an incoming conversation request
           href: oc-view-customer-summary-incoming-conversation-request.md
+        - name: Monitor customer wait time
+          href: monitor-live-conv-counter.md
         - name: Real-time language translation of conversations
           href: oc-real-time-translation.md
         - name: Markdown formats for agents
