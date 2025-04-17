@@ -21,7 +21,7 @@ Administrators and IT professionals can use this information to prepare for futu
 
 ## Auto-summarization of ongoing conversations is deprecated in April 2025
 
-Starting April 16, 2025, we'll no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
+Starting April 16, 2025, we no longer support the auto-summarization of ongoing conversations in Customer Service apps. We recommend that you use [Copilot-generated conversation summary](/dynamics365/contact-center/use/copilot-summarize-conversations#view-a-conversation-summary).
 
 
 ## Rich text editor classic experience to be deprecated in April 2025
