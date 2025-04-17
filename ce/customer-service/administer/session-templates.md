@@ -84,7 +84,7 @@ You can associate application tabs that need to open when a session is started. 
 
 1. Select the **Scripts** tab, and set the **Enable build expression** toggle to **Yes** to define the expression to set a script as default for a particular session template.
 
-1. Build the expression, and then select **Save and close**. To learn more, see [Set default Script for representatives](agent-scripts.md#set-the-default-agent-script-for-agents).
+1. Build the expression, and then select **Save and close**. To learn more, see [Set default script for representatives](agent-scripts.md#set-the-default-agent-script-for-agents).
 
 1. Select **Save**.
 
