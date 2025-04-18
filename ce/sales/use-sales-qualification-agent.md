@@ -17,11 +17,11 @@ ai-usage: ai-assisted
 
 # Qualify leads smartly with Sales qualification agent
 
-As a seller, qualifying leads is crucial to your success. The Sales qualification agent gets detailed research insights about your leads and determines if they're a good fit for your business. Thus, helping you focus on leads that are most likely to convert.
+As a seller, qualifying leads is crucial to your success. The Sales qualification agent gets detailed research insights about your leads and determines if they're a good fit for your business based on the ideal customer profile (ICP) configured by your admin. The agent also generates an initial outreach email draft based on the research insights, helping you save time and effort in the qualification process.
 
 ## Prerequisite
 
-Before you start using the Sales qualification agent, ensure that your admin enabled and configured the Sales qualification agent.
+Before you start using the Sales qualification agent, ensure that your admin [enabled and configured the Sales qualification agent](configure-sales-qualification-agent.md).
 
 <a name="selectioncriteria"></a>
 ## Selection criteria for research
@@ -39,7 +39,8 @@ The agent refreshes the research data based on the [schedule set by your admin](
 1. In the Sales Hub app, go to **Leads**.
 2. Select a lead from the focused view or read-only grid view.
 
-    After a few seconds, a banner appears at the top of the lead form with the recommendation for the lead. The banner is displayed only if the lead meets the [selection criteria for research](#selectioncriteria). 
+    After a few seconds, a banner appears at the top of the lead form with the recommendation for the lead. The recommendation indicates whether the lead is a good fit, moderate fit, or
+. The banner is displayed only if the lead meets the [selection criteria for research](#selectioncriteria). 
 
     :::image type="content" source="media/sqa-banner.png" alt-text="Screenshot of the My Open Leads page with the banner highlighted.":::
 
@@ -51,32 +52,31 @@ The agent refreshes the research data based on the [schedule set by your admin](
 
 The Lead insights page includes the following aspects:
 
-    - **Key insights**: This section summarizes why the lead is or isn't a good fit for your business based on the ideal customer profile (ICP) configured by your admin. This section also includes the option to draft an email to the lead.
+- **Key insights**: This section summarizes why the lead is or isn't a good fit for your business based on the ideal customer profile (ICP) configured by your admin. This section also includes the option to draft an email to the lead.
 
-    - **Email validation**: The agent performs two checks on a lead's primary email address (lead.emailaddress1).
-        - **Email validity**: Checks whether the email is properly formatted and deliverable by looking for the [email validation errors](work-invalid-email-addresses.md). If the email is invalid, then it's flagged in the UI as such, and the seller is prompted to enter a valid email. After the seller enters the new email ID, the lead's email address is updated.
-        - **Email type**: Identifies whether the email is a work or personal address and labels it as such in the UI.
+- **Email validation**: The agent performs two checks on a lead's primary email address (lead.emailaddress1).
+    - **Email validity**: Checks whether the email is properly formatted and deliverable by looking for the [email validation errors](work-invalid-email-addresses.md). If the email is invalid, then it's flagged in the UI as such, and the seller is prompted to enter a valid email. After the seller enters the new email ID, the lead's email address is updated.
+    - **Email type**: Identifies whether the email is a work or personal address and labels it as such in the UI.
 
-        These checks help ensure that lead's email ID is active, deliverable, and relevant for business communications. You can select the Email icon next to the email ID to mark the email as valid/invalid or work/personal
-    
-    - **About lead**: This section includes information about the lead, including:
-        - **Connect contact record:** Lets you connect the lead to the corresponding contact record.
-        - **Lead summary**: Summarizes key fields on the lead and related tables as configured by your admin.
-        - **Who knows whom**: Coworkers who previously interacted with the lead over emails or meetings.
-        - **Open opportunities with the lead:** Opportunities that are open with the lead.
-    
-        You can also see contact suggestion for the lead based on the lead's email ID. Otherwise, you can manually connect a contact record to the lead using **Connect a contact record** to enrich the insights.
-    
-    - **About account**: This section includes information about the lead's company, including:
-        - **Connect account record:** Lets you connect the lead to the corresponding account record.
-        - Account summary: Summarizes key details about the connected account. The summary is displayed only if an account record is connected to the lead.
-        - **Business overview**: Insights pulled from the web on the company's industry, size, products and services, and mission statement.
-        - **Finances**: Insights pulled from the web on the company's financial health and key financial metrics.
-        - **Account news**: Insights pulled from the web on relevant news articles such as product launches, leadership changes, contracts/clients won, community involvement, awards, and recognition.
-        - The following insights are displayed only if an account record is connected to the lead. To connect an account manually, select **Connect an account** in the **About account** section:
-            - **Other contacts to reach out to**: Other contacts at the account that the seller can reach out to.
-            - **Open opportunities with account**. Opportunities that are open with the account.
-4. Select **Draft email** to engage with the customer. 
+    These checks help ensure that lead's email ID is active, deliverable, and relevant for business communications. You can select the Email icon next to the email ID to mark the email as valid/invalid or work/personal
+
+- **About lead**: This section includes information about the lead, including:
+    - **Connect contact record:** Lets you connect the lead to the corresponding contact record.
+    - **Lead summary**: Summarizes key fields on the lead and related tables as configured by your admin.
+    - **Who knows whom**: Coworkers who previously interacted with the lead over emails or meetings.
+    - **Open opportunities with the lead:** Opportunities that are open with the lead.
+
+    You can also see contact suggestion for the lead based on the lead's email ID. Otherwise, you can manually connect a contact record to the lead using **Connect a contact record** to enrich the insights.
+
+- **About account**: This section includes information about the lead's company, including:
+    - **Connect account record:** Lets you connect the lead to the corresponding account record.
+    - Account summary: Summarizes key details about the connected account. The summary is displayed only if an account record is connected to the lead.
+    - **Business overview**: Insights pulled from the web on the company's industry, size, products and services, and mission statement.
+    - **Finances**: Insights pulled from the web on the company's financial health and key financial metrics.
+    - **Account news**: Insights pulled from the web on relevant news articles such as product launches, leadership changes, contracts/clients won, community involvement, awards, and recognition.
+    - The following insights are displayed only if an account record is connected to the lead. To connect an account manually, select **Connect an account** in the **About account** section:
+        - **Other contacts to reach out to**: Other contacts at the account that the seller can reach out to.
+        - **Open opportunities with account**. Opportunities that are open with the account.
 
 ## Focus on leads prioritized by the agent
 

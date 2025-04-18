@@ -46,7 +46,6 @@ By focusing on leads that match this profile, you can tailor your approach to ad
 
 The insights banner appears only for leads that are researched by the agent. Learn more about the [Selection criteria for research](use-sales-qualification-agent.md#selectioncriteria).
 
-
 ## Why did the agent pause?
 
 The agent might pause for the following reasons:
