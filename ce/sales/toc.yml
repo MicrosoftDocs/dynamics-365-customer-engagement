@@ -283,13 +283,13 @@ items:
       items:
         - name: Lead management overview
           href: lead-management-overview.md
-        - name: sales qualification agent
+        - name: Sales qualification agent
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Configure sales qualification agent
+            - name: Configure Sales qualification agent
               href: configure-sales-qualification-agent.md
-            - name: FAQ about sales qualification agent
+            - name: FAQ about Sales qualification agent
               href: sales-qualification-agent-faq.md
         - name: Customize lead qualification experience
           href: define-lead-qualification-experience.md
@@ -932,13 +932,13 @@ items:
           href: work-invalid-email-addresses.md
         - name: Prioritize leads using predictive scores
           href: work-predictive-lead-scoring.md
-        - name: sales qualification agent
+        - name: Sales qualification agent
           items:
             - name: Overview
               href: sales-qualification-agent.md
-            - name: Qualify leads smartly with sales qualification agent
+            - name: Qualify leads smartly with Sales qualification agent
               href: use-sales-qualification-agent.md
-            - name: FAQ about sales qualification agent
+            - name: FAQ about Sales qualification agent
               href: sales-qualification-agent-faq.md
         - name: Populate scores using your own model
           href: populate-predictive-scores.md
@@ -1385,7 +1385,7 @@ items:
       href: faqs-sales-copilot-natural-language.md
     - name: Responsible AI FAQs for email in Copilot
       href: faqs-sales-copilot-for-email.md
-    - name: Responsible AI FAQs for sales qualification agent
+    - name: Responsible AI FAQs for Sales qualification agent
       href: faqs-sales-qualification-agent.md
     - name: Responsible AI FAQs for chat with Sales data on Microsoft 365 Copilot (preview)
       href: Microsoft-365-Copilot-for-Sales.md

@@ -1,6 +1,6 @@
 ---
 title: Sales qualification agent overview
-description: Find out how the sales qualification agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
+description: Find out how the Sales qualification agent in Dynamics 365 Sales can be your personal assistant in qualifying leads and improving sales outcomes.
 ms.date: 02/19/2025
 ms.topic: overview
 ms.service: dynamics-365-sales
@@ -33,10 +33,10 @@ Sales qualification agent in Dynamics 365 Sales is an AI assistant that helps yo
 
 | Role | Action |
 |------|--------|
-| Admin | [Enable and configure the sales qualification agent](configure-sales-qualification-agent.md) |
-| Seller | [Qualify leads smartly with sales qualification agent](use-sales-qualification-agent.md) |
+| Admin | [Enable and configure the Sales qualification agent](configure-sales-qualification-agent.md) |
+| Seller | [Qualify leads smartly with Sales qualification agent](use-sales-qualification-agent.md) |
 
 ## Related information
 
-- [FAQ about sales qualification agent](sales-qualification-agent-faq.md)
-- [Responsible AI FAQ about sales qualification agent](faqs-sales-qualification-agent.md)
+- [FAQ about Sales qualification agent](sales-qualification-agent-faq.md)
+- [Responsible AI FAQ about Sales qualification agent](faqs-sales-qualification-agent.md)

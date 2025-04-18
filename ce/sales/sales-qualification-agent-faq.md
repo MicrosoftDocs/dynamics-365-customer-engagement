@@ -1,6 +1,6 @@
 ---
 title: Sales qualification agent FAQ
-description: Find answers to frequently asked questions about the sales qualification agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
+description: Find answers to frequently asked questions about the Sales qualification agent in Dynamics 365 Sales, which helps sellers qualify leads and improve sales outcomes.
 ms.date: 02/19/2025
 ms.topic: conceptual
 ms.service: dynamics-365-sales
@@ -22,7 +22,7 @@ ai-usage: ai-assisted
 
 # Sales qualification agent FAQ
 
-This FAQ provides answers to common questions about the sales qualification agent in Dynamics 365 Sales.
+This FAQ provides answers to common questions about the Sales qualification agent in Dynamics 365 Sales.
 
 <a name="icp"></a>
 ## What is ideal customer profile?

@@ -1,6 +1,6 @@
 ---
-title: Enable and configure sales qualification agent
-description: Enable and configure the sales qualification agent in Dynamics 365 Sales to help sellers leverage AI for effective lead qualification.
+title: Enable and configure Sales qualification agent
+description: Enable and configure the Sales qualification agent in Dynamics 365 Sales to help sellers leverage AI for effective lead qualification.
 ms.date: 03/19/2025
 ms.topic: how-to
 ms.service: dynamics-365-sales
@@ -18,13 +18,13 @@ ms.collection: bap-ai-copilot
 ai-usage: ai-assisted
 ---
 
-# Enable and configure sales qualification agent
+# Enable and configure Sales qualification agent
 
 Help sellers leverage AI for lead research, ideal customer profile (ICP) matching, and initial outreach email drafting. Configure the details about your company and products you sell, your ideal customer profile, and other settings. These configurations help align the agent with your company's sales strategy and goals.
 
 ## Prerequisites
 
-The sales qualification agent relies on existing Dynamics 365 Sales features to provide comprehensive research insights. While these features aren't mandatory for the functioning of the agent, they enhance the agent's capabilities and provide a more holistic view of the lead and account.
+The Sales qualification agent relies on existing Dynamics 365 Sales features to provide comprehensive research insights. While these features aren't mandatory for the functioning of the agent, they enhance the agent's capabilities and provide a more holistic view of the lead and account.
 
 - [Copilot in Dynamics 365 Sales](enable-setup-copilot.md): Turn on Copilot to include the [lead summary](copilot-get-information.md#summarize-a-lead) and [account summary](copilot-get-information.md#summarize-an-account) on the **Lead insights** page.
 - [Bing search](/power-platform/admin/geographical-availability-copilot): Provide consent for Bing search so that the agent can fetch relevant information from external websites and include it in its research synthesis.
@@ -48,7 +48,7 @@ Grant **User** level permissions for read, write, create, append, append to, and
 
 ## How to set up and activate the agent
 
-Setting up the sales qualification agent requires collaboration between the tenant admin and the Dynamics 365 Sales admin. The tenant admin must first provide the necessary consents and configure capacity. Once these prerequisites are met, the Dynamics 365 Sales admin can proceed with configuring the agent to align with the company's sales strategy and goals.
+Setting up the Sales qualification agent requires collaboration between the tenant admin and the Dynamics 365 Sales admin. The tenant admin must first provide the necessary consents and configure capacity. Once these prerequisites are met, the Dynamics 365 Sales admin can proceed with configuring the agent to align with the company's sales strategy and goals.
 
 The following steps describe how the tenant admin and the Dynamics 365 Sales admin can set up the agent.
 
@@ -57,7 +57,7 @@ The following steps describe how the tenant admin and the Dynamics 365 Sales adm
 1. Go to **General Settings** > **Copilot** > **Agents (Preview)**.
    The Welcome to Copilot agents (Preview) page appears.
 
-   :::image type="content" source="media/sqa-configuration-page.png" alt-text="Screenshot of the sales qualification agent configuration page.":::
+   :::image type="content" source="media/sqa-configuration-page.png" alt-text="Screenshot of the Sales qualification agent configuration page.":::
 1. In the **Before you get started** section, complete the following prerequisites as a tenant admin:
    - Grant the required consents for the agent to use Bing search and Copilot Studio.
    - Manage capacity for the agent to run in your environment. The agent uses the same capacity as other Copilot features in Copilot Studio. [Learn more about messages and capacity](/power-platform/admin/manage-copilot-studio-messages-capacity?tabs=new).
@@ -106,7 +106,7 @@ You can add custom research sources to the agent's research synthesis. This addi
 
 You can add up to five custom web research sources.
 
-1. In the [sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page), scroll down to **Research** > **Lead research** > **Custom web research**.
+1. In the [Sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page), scroll down to **Research** > **Lead research** > **Custom web research**.
 1. Select **Add custom research**.
 1. Specify the insights you want the agent to get from the website. For example, you could say, evaluate if the company is "safe" to engage with based on its inspections, crashes, and safety ratings from the past 24 months.
 1.  Add the URL of the website that provides the information. Ensure that the website is publicly accessible and doesn't require any authentication. Select **Next**.
@@ -118,7 +118,7 @@ You can add up to five custom web research sources.
 
 Use custom criteria to define specific characteristics that are important for your ideal customer profile. You can select custom fields from Dataverse or add public URLs that provide relevant information about the lead's company. For example, you could add a custom criterion for "Company revenue" and map it to a custom field in Dataverse or provide a URL that lists the company revenue.
  
-1. In the sales qualification agent settings page, scroll down to **Qualification** > **Ideal customer profile**.
+1. In the Sales qualification agent settings page, scroll down to **Qualification** > **Ideal customer profile**.
 1. Select **Add custom criterion**.
 1. Enter the name of the custom criterion. For example, "Company revenue"
 1. Take one of the following actions:
@@ -134,7 +134,7 @@ Use custom criteria to define specific characteristics that are important for yo
 
 By default, the research data is refreshed every three days. You can adjust the frequency of data refresh based on your business needs and available capacity. Question: What about new leads? Do they also follow this cadence?
 
-1. In the sales qualification agent settings page, scroll down to **Data** > **Refresh options**.
+1. In the Sales qualification agent settings page, scroll down to **Data** > **Refresh options**.
 1. Select the refresh option that's suitable for your business needs:
    - **High:** Data is refreshed every day. This option is ideal for businesses that need the latest information always. This option consumes more capacity.
    - **Medium:** Data is refreshed every three days. This option is suitable for businesses that need regular updates but don't require daily insights. This option balances performance and data accuracy.
@@ -142,7 +142,7 @@ By default, the research data is refreshed every three days. You can adjust the 
 
 ## View usage consumption by the agent
 
-You can start monitoring the usage consumption of the sales qualification agent after the agent is published. This information helps you keep track of the capacity consumed by the agent and the remaining capacity.
+You can start monitoring the usage consumption of the Sales qualification agent after the agent is published. This information helps you keep track of the capacity consumed by the agent and the remaining capacity.
 
 1. From the Change area, select **App Settings** > **Copilot** > **Agents (Preview)**.
 1. On the **Copilot agents** page, select **View usage consumption**. This option is only available after the agent is published.
@@ -154,9 +154,9 @@ You can start monitoring the usage consumption of the sales qualification agent 
 
 ## Deactivate the agent
 
-If you no longer want the sales qualification agent to run in your environment or need to save capacity, you can deactivate it. When deactivated, new leads aren't processed, and existing lead insights aren't updated. However, insights already generated for existing leads will remain available.
+If you no longer want the Sales qualification agent to run in your environment or need to save capacity, you can deactivate it. When deactivated, new leads aren't processed, and existing lead insights aren't updated. However, insights already generated for existing leads will remain available.
 
-1. [Open the sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page).
+1. [Open the Sales qualification agent settings page](#open-the-sales-qualification-agent-settings-page).
 2. Scroll down to the bottom of the page.
 3. Select **Deactivate**.
 
