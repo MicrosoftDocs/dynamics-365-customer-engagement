@@ -19,7 +19,7 @@ You can incorporate shift assignments and time-off considerations into the routi
 > [!NOTE]
 > Routing based on external schedules isn't supported in the Government Community Cloud (GCC) or sovereign clouds.
 
-With shift bookings, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type associated with the shift booking is "non assignable", such as training or lunch break, then the representative isn't considered for assignment.
+With shift bookings, the routing engine considers the shift activity type to determine if a representative can be considered for assignment. If the shift activity type associated with the shift booking is "non assignable", such as training or lunch break, then the representative isn't considered for assignment. Learn how to [configure shift activity types](/dynamics365/contact-center/administer/wfm-shift-activity-types).
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ Follow the steps in [Enable shift-based routing](/dynamics365/contact-center/adm
 
 ## Import external schedule data
 
-You can create shift bookings in workOptionally, if you want to integrate schedules from external WFM systems, you can use a non-Microsoft adapter to import the schedules into Customer Service.
+You can create shift bookings in WFM system. Optionally, if you want to integrate schedules from external WFM systems, you can use a non-Microsoft adapter to import the schedules into Customer Service.
 
 Alternatively, you can use [Organization Service](/power-apps/developer/data-platform/org-service/overview) or [Dataverse OData Web API](/power-apps/developer/data-platform/webapi/overview) to import representative schedules from external systems into Dynamics 365. For a detailed overview of how to import external schedules and the entities in Customer Service that can represent these external schedules, see the [Schedule import integration](https://github.com/microsoft/dynamics365-customerservice-wem-samples/wiki/Schedule-import-integration) guide.
 
@@ -55,13 +55,13 @@ View the [conversation diagnostics in Azure Application Insights](configure-conv
 
 ## How shift-based routing works
 
-The imported schedules from external systems are represented in Dynamics 365 as "bookings". You can also create shift bookings natively in the workforce management system in Customer Service. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Each booking is assigned to a representative. The representative is recorded as a bookable resource and each of them with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
+The imported schedules from external systems are represented in Dynamics 365 as "bookings". You can also create shift bookings natively in the workforce management system in Customer Service. The [bookableresourcebooking](../develop/reference/entities/bookableresourcebooking.md) entity stores this information. Shift bookings are added as activities to a shift plan that's assigned to a representative. The representative is recorded as a bookable resource and each of them with one or more bookings has a corresponding entry in the [bookableresource](../develop/reference/entities/bookableresource.md) entity.
 
 Shift-based routing is applicable only when booking-based routing is enabled at organization level for all queues.
 
 Unified routing considers the workforce management bookings and not any other bookings out of workforce management like appointments or field service bookings. The booking state must be active, status must be committed, and assignment status as "Assignable" for automatic assignment.
 
-To find a matching representative, assignment engine performs the regular assignment checks for presence, capacity, and skills.
+To find a matching representative, the assignment engine performs the regular assignment checks configured in custom assignment method with the check for assignable shift booking.
 
 The booking start time needs to be before or equal to the time when automated assignment is attempted. The booking end time needs to be after the automated assignment attempted time.
 
@@ -70,8 +70,6 @@ If a representative has an assignable shift booking outside their calendar worki
 If a representative has overlapping shift bookings and all of them are assignable, the representative is considered. If there's even one non-assignable shift booking, representative isn't considered for automatic assignment for the duration of non-assignable booking. If all the overlapping bookings are non-assignable, representative won't be considered for automatic assignment for the combined duration of the overlapping bookings.
 
 If representative doesn't have a booking when assignment is attempted, no work is assigned automatically. The representatives can pick up work manually or supervisors can assign work to them.
-
-If custom assignment methods are configured, a message banner that automatic assignment will occur based on shift bookings instead of calendar schedule is displayed on the top of the page.
 
 ### Related information
 
