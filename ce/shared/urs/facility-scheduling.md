@@ -49,7 +49,7 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 1. In the bottom pane, select the requirement group and then **Requirement**. Enter a name for the requirement, time range, and duration.
 
-   :::image type="content" source="media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirment group with Open Form highlighted.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirment group with Open Form highlighted.":::
 
 1. Select the requirement and then **Open Form**.
 
@@ -71,7 +71,7 @@ Create a facility resource to represent the repair shop, create a requirement to
    > [!TIP]
    > Requirements that are part of a requirement group are scheduled via the **Book** button to trigger the schedule assistant. They aren't available to drag and drop on the schedule board. If your facility has single requirements, you can create the requirements through **Resource Requirements** and use the schedule board.
 
-   :::image type="content" source="media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirment group with Open Form highlighted.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-requirement-group.png" alt-text="Screenshot of a requirement in a requirment group with Open Form highlighted.":::
 
    The **Facility travel time and distance** calculations represent the time and distance between the facility resource (defined by the organizational unit location) and the customer's location (defined by the latitude and longitude on the requirement).
 
@@ -83,7 +83,7 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 To view facility resources on the schedule board, filter by resource type and/or organizational units.
 
-:::image type="content" source="media/scheduling-facility-schedule-board-filter.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
+:::image type="content" source="../../field-service/media/scheduling-facility-schedule-board-filter.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
 
 Facility resources are displayed on the schedule board map based on the location of the related organizational unit.
 
@@ -104,125 +104,58 @@ An auto repair shop has 5 identical bays and schedulers don't need to book each 
 
 ### Scenario 2: Schedule a facility and related resource
 
-In this scenario, schedulers want to schedule a doctor's office and a related doctor at the same facility during the same timeslot.
+An auto repair shop offers transmission repairs including luxury cars. They have a mechanic that specializes in luxury cars. Schedulers want to schedule the specialized mechanic at their facility. You can associate a resource (user, account, or contact) to a facility.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource).
+1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop.
 
-1. Create a resource to represent a doctor.
+1. Create a resource to represent the specialized mechanic.
 
    - Set the resource type to **User, Account, or Contact**.
-   - The Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource (in this case, the doctor's office). This is **recommended but not required**.
+   - The Start/end location should be set to **Organizational Unit Address** and the organizational unit should be set to the same organizational unit of the facility resource (in this case, the auto repair shop). This is **recommended but not required**.
 
-1. Associate the doctor resource to the facility resource.
+1. Associate the specialized mechanic resource to the facility resource.
 
    - From the facility resource, select **Related > Bookable Resource Association (Resource 2)**. This related entity is called Resource Associations (**msdyn_bookableresourceassociations**).
    - Select **New Bookable Resource Association**.
-   - Enter a name, timeframe, and select the doctor resource for **Resource 1**.
+   - Enter a name, timeframe, and select the mechanic resource for **Resource 1**.
 
-   :::image type="content" source="../../field-service/media/scheduling-facility-associate-doctor.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-associate-resource.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
 
 1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility) with one requirement for the facility (doctor's office) and another requirement for the doctor resource. Set the **Work Location** on each requirement to **Facility**.
 
    - Set **Select** to **All** so that all requirements must be met.
-   - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a doctor associated with Facility B shouldn't be paired with Facility A. Find more details about this setting in the configuration considerations section of this article. 
+   - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a doctor associated with Facility B shouldn't be paired with Facility A. Find more details about this setting in the configuration considerations section of this article.
 
-1. 
+1. Book the requirement group. Scheduling the requirement group creates a booking for the facility resource and the mechanic resource.
 
-
-
-
-
-
-
-
-
-
-
-In order to schedule groups of resources to perform a task together at a facility, non-facility resources can be associated to facility/facility pool resources through the **Resource Associations entity (msdyn_bookableresourceassociations)**.
-
-Resources such as people, equipment, or pool resources may be associated to a facility or facility pool with date effectivity. This means resources perform work at the facility location during the expressed date range, and they aren't eligible for “onsite” work for which they would have to leave the facility and travel to a customer's location. This is important as it relates to using the option **Same Resource Tree**.
-
-
-### 4. Create a requirement group 
-
-Next, create a requirement group with one requirement that calls for a doctor's office (Resource Type = Facility), and another requirement that calls for a doctor (Resource Type = User/Contact/Account).
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group and part of same option set.](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource.png)
-
-Set the **Work Location** on each requirement to **Facility**, indicating the work takes place at the doctor's office.
- 
-> [!Note]
-> Using the **Select > All** option in the requirement group means that both requirements need to be fulfilled.
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of select field on requirement group.](../../field-service/media/scheduling-facility-create-requirement-facility-with-resource-ALL.png)
-
-
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results pairing a resource with a facility resource to meet the requirement group.](../../field-service/media/scheduling-facility-schedule-assistant-with-person.png)
-
-Scheduling the requirement group creates a booking for the facility resource and the doctor resource.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the doctor resource.](../../field-service/media/scheduling-facility-schedule-board-2-resources.png)
+   :::image type="content" source="../../field-service/media/scheduling-facility-schedule-board-2-resources.png" alt-text="Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the mechanic resource.":::
 
 > [!Note]
-> As in scenario 1, travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the doctor resource, as it's assumed they will be at the facility at the required time.
+> Travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the mechanic resource, as it's assumed they will be at the facility at the required time.
 
-## Scenario 4: Schedule a facility with 5 specific rooms
+## Scenario 3: Schedule a facility with 3 specific spaces
 
-In this scenario, schedulers want to track all rooms within a doctor's office and schedule each individual room to patients.
+An auto repair shop wants to schedule each individual bay at their facility. Create a pool of facilities to represent the auto repair shop and each individual bay.
 
-This scenario is configured by creating a pool of facilities to represent the doctor's office and each individual room.
+1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
 
- 
-### 1. Create a facility pool resource 
+1. Create multiple facility resources to represent each bay.
 
-First, create a resource to represent the overall doctor's office where **Resource Type = Pool** and **Pool Type = Facility**.
+   - Set **Resource Type** to **Facility** on each resource.
+   - Set the **Start/End Location** to **Organizational Unit Address** and select an organizational unit to represent the location of the rooms.  
 
-In this example, we call it "Health Clinic," as seen in the following screenshot.
+1. Add each bay as a child resource to the repair shop facility resource pool
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of creating a new facility pool resource. This is a pool type resource with pool type of facility.](../../field-service/media/scheduling-facility-room-specific.png)
+   - Open the auto repair shop facility pool resource, and go to **Related > Resource Children**.
+   - Add each bay resource as a child record to the parent facility pool.
 
-### 2. Create facility resources to represent each room
+   :::image type="content" source="../../field-service/media/scheduling-facility-room-specific-children.png" alt-text="Screenshot of all bay resources related as children to the auto repair shop facility.":::
 
-Next, create multiple facility resources to represent each room.
+1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility). In this example, we're looking for 2 specific bays within the same auto repair shop.
 
-Set **Resource Type** to **Facility** on each resource.
-
-Set the **Start/End Location** to **Organizational Unit Address** and select an organizational unit to represent the location of the rooms.  
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of a resource to represent a room.](../../field-service/media/scheduling-facility-new-room.png)
-
-### 3.  Add each room resource as a child resource to the doctor's office resource pool
-
-Navigate to the doctor's office facility pool resource, and go to **Related > Resource Children**.
-
-Add each room resource as a child record to the parent facility pool (health clinic), as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of all room resources related as children to the health clinic/doctor's office.](../../field-service/media/scheduling-facility-room-specific-children.png)
-
-### 4. Create a requirement group
-
-Create a requirement that calls for one or more facilities. In this example, we're looking for 2 specific rooms within the same doctor's office (health clinic). 
-
-Set **Part of Same** to **Same Location** to ensure each room is at the same physical address. 
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of requirement group calling for two rooms in a doctors office with part of same field set to location.](../../field-service/media/scheduling-facility-requirement-2-specific-rooms.png)
-
-Each requirement should call for facility resource types, as seen in the following screenshot.
-
-> [!div class="mx-imgBorder"]
-> ![Screenshot of resource type field on requirement set to facility.](../../field-service/media/scheduling-facility-2-specific-rooms-resource-type.png)
-
-Again, the **Work Location** of each requirement should be set to **Facility** and the latitude and longitude fields of the requirements should correspond to the customer's (or patient's) location. 
+   - Set **Part of Same** to **Same Location** to ensure each bay is at the same physical address.
+   - For each requirement, set the **Resource Type** to **Facility**.
+   - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for customer's location.
 
 > [!Note]
 > Latitude and longitude fields on all requirements within a group must be equal; updating the values on one requirement will update the others.
