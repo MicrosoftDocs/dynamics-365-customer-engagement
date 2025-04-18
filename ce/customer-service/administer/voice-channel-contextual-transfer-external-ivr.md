@@ -36,12 +36,17 @@ This section lists the high-level steps you must perform to enable contextual ca
 
 4. To include context in the payload, populate the SIP UUI (User-to-User Information) header with context data: "User-to-User": "param1=value1;param2=value2". For SIP UUI header with context data, the following formats are supported:
 
-      - Plain text or string. Seperate the key value pairs by a semicolon.
-         For example, <i>"sipkey1=sipval1;sipkey2=sipval2"</i>
-      - Hex encoding format. Specify the encoding key word. For example,
-        <i> "7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex"</i>
-       
-5. Create context variables with the same names as the SIP UUI header.
+      **Plain text**  - Key/value pairs separated by semicolons  
+      - Example: User-to-User: `sipkey1=sipval1;sipkey2=sipval2 `
+
+      **Hex with explicit encoding**  - Hex encode the ASCII payload and add ;encoding=hex  
+      - Example: User-to-User: `7369706B6579313D73697076616C313B7369706B6579323D73697076616C32;encoding=hex`
+
+      **Hex with protocol discriminator**  - Hex encode the payload and append ;pd=4   
+      - Example: User-to-User: `3530303131323233333434353b363738393b3132;pd=4`
+
+ 
+6. Create context variables with the same names as the SIP UUI header.
 
     1. In Customer Service admin center or Contact Center admin center, go to **Customer support** > **Workstreams**. A list of workstreams including voice workstreams is displayed.
     2. Select a voice workstream and then select **Edit** to configure the workstream.
