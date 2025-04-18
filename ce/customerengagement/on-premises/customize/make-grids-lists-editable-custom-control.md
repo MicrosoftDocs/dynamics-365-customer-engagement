@@ -161,9 +161,9 @@ Ensure that the column where the business rule is applied is a part of your curr
 
 Ensure that you aren't using legacy Form rendering. Editable grids aren't supported on legacy forms.
 
-### Why can't I use editable grids on mobile applications?
+### Why can't I use editable grids on mobile and desktop applications?
 
-Based on customer feedback, we removed the editable grid experience from mobile applications. When you use an editable grid on a mobile application, you see a read-only version of the list control.  
+Based on customer feedback, we removed the editable grid experience from mobile and desktop applications. When you use an editable grid in an application, you see a read-only version of the list control.  
 
 ### Why can't I use record navigation in a form when coming from an editable grid?
 
