@@ -52,7 +52,10 @@ The agent refreshes the research data based on the [schedule set by your admin](
 
 The Lead insights page includes the following aspects:
 
-- **Key insights**: This section summarizes why the lead is or isn't a good fit for your business based on the ideal customer profile (ICP) configured by your admin. This section also includes the option to draft an email to the lead.
+- **Key insights**: This section summarizes key insights about the lead, including:
+    - Why the lead is or isn't a good fit for your business based on the ideal customer profile (ICP) configured by your admin. 
+    - A pre-generated outreach email that you can review and send to the lead. 
+    - Recent marketing activities such as email opens, link clicks, event registrations and attendance, and form submissions. This insight is available only for organizations using Dynamics 365 Customer Insights - Journeys.
 
 - **Email validation**: The agent performs two checks on a lead's primary email address (lead.emailaddress1).
     - **Email validity**: Checks whether the email is properly formatted and deliverable by looking for the [email validation errors](work-invalid-email-addresses.md). If the email is invalid, then it's flagged in the UI as such, and the seller is prompted to enter a valid email. After the seller enters the new email ID, the lead's email address is updated.
@@ -77,6 +80,9 @@ The Lead insights page includes the following aspects:
     - The following insights are displayed only if an account record is connected to the lead. To connect an account manually, select **Connect an account** in the **About account** section:
         - **Other contacts to reach out to**: Other contacts at the account that the seller can reach out to.
         - **Open opportunities with account**. Opportunities that are open with the account.
+
+
+This seamlessly bridges the gap between marketing and sales without requiring customers to build and maintain a custom solution to extract, aggregate, and sync marketing engagement data into Dynamics 365 Sales, saving significant time and costs. This ensures sellers focus on the most valuable opportunities sooner and drive more personalized outreach and engagement.
 
 ## Focus on leads prioritized by the agent
 
