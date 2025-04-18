@@ -59,14 +59,16 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
 1. On the Microsoft Dynamics 365 Server where the deployment tools server role is running, start the Azure Active Directory Module for Windows PowerShell.
 2. Prepare the certificate.
 
-   Change the directory to the location of the CertificateReconfiguration.ps1 file (by default it's C:\Program Files\Microsoft Dynamics CRM\Tools).
+   Add the Dynamics CRM snapin
+  ```powershell
+  Add-PsSnapin Microsoft.CRM.PowerShell
+  ```
+  Run the set-crmcertificate command after updating the DataFile parameter to the full path and name of the certificate being used for the S2STokenIssuer
+  ```powershell
+  Set-CrmCertificate –CertificateType S2STokenIssuer  -StoreName My –StoreLocation LocalMachine -StoreFindType FindBySubjectDistinguishedName –DataFile C:\temp\CRMCert.cer
+  ```
 
-    ```powershell
-    $CertificateScriptWithCommand = ".\CertificateReconfiguration.ps1 -certificateFile c:\Personalcertfile.pfx -password personal_certfile_password -updateCrm -certificateType S2STokenIssuer -serviceAccount contoso\CRMAsyncService -storeFindType FindBySubjectDistinguishedName"
-    Invoke-Expression -command $CertificateScriptWithCommand
-    ```
-
- 3. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
+ 4. [Set up a new Entra ID app](/graph/auth-register-app-v2) to configure server-side synchronization and the customer relationship management app with the certificate from the previous step.
     
     Make sure to [add](/entra/identity-platform/quickstart-configure-app-access-web-apis) and grant the following API permissions to the new app:
 
@@ -81,15 +83,15 @@ Before you configure Dynamics 365 (on-premises) and Exchange Online for server-b
     > [!NOTE]
     > The new app, configred above, is only needed for setup and new API permissions. The app can be removed once all the setup steps are completed. 
      
-4. In the PowerShell session from step 2, invoke the **ConfigureCrmServerSideSync** command.                     
+5. In the PowerShell session from step 2, invoke the **ConfigureCrmServerSideSync** command.                     
 
     [Download](https://github.com/microsoft/PowerApps-Samples/blob/master/powershell/ServerSideSync/ConfigureCrmServerSideSync.ps1) the script and replace the existing script if the ConfigureCrmServerSideSync.ps1 script present in the current powershell session directory, from above, is different than the script in the download link:
 
-     $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -privateKeyPassword (ConvertTo- 
-     SecureString 'personal_certfile_password' -AsPlainText -Force) -pfxFilePath c:\Personalcertfile.pfx -organizationName 
-     organization_name -microsoftEntraIdTenantIdOrDomainName microsoft_entraid_tenantid_or_domain_name -ClientID 
-     app_id_from_step3 -ClientSecret -client_secret" 
+ ```powershell
+     $ConfigureCrmServerSideSyncWithCommand = ".\ConfigureCrmServerSideSync.ps1 -cerFilePath c:\Personalcertfile.pfx -microsoftEntraIdTenantIdOrDomainName microsoft_entraid_tenantid_or_domain_name -ClientID 
+     app_id_from_step3 -ClientSecret client_secret_from_step3" 
      Invoke-Expression -command $ConfigureCrmServerSideSyncWithCommand 
+ ```
 
 > [!IMPORTANT]
 > For customers using Exchange Online with Government Community Cloud (GCC) High for US government environments, the **S2SDefaultAuthorizationServerMetadataUrl** in the PowerShell script must be changed to *https://login.microsoftonline.us/metadata/json/1*.
