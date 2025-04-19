@@ -1,12 +1,12 @@
 ---
 title: Manage your agents
-description: Learn how you can quickly configure agents in the Customer Service admin center.
+description: Learn how you can quickly configure agents in the Copilot Service admin center.
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
 ms.topic: how-to 
 ms.collection: bap-ai-copilot
-ms.date: 03/19/2025
+ms.date: 04/19/2025
 ms.custom: bap-template
 ---
 
@@ -30,9 +30,9 @@ Agents in Copilot Studio must be available in the tenant where Omnichannel for C
 When you add an agent by using the steps outlined in this section, the agent in Copilot Studio is automatically registered in Azure and connected to Omnichannel for Customer Service. You'll then configure topics in Copilot Studio for the scenarios that you want the agent to handle.
 
 > [!NOTE]
-> Agents that you create in Customer Service admin center or Contact Center admin center work with enhanced voice workstreams only. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
+> Agents that you create in Copilot Service admin center work with enhanced voice workstreams only. To create classic agents for existing voice workstreams that aren't migrated, use Copilot Studio.
 
-1. In the site map of Contact Center admin center or Customer Service admin center, select **Bots** under **Customer support**.
+1. In the site map of Contact Center admin center or Copilot Service admin center, select **Bots** under **Customer support**.
 1. On the **Bots** page, select **Add**, and on the **Add a bot** page, select **Create new bot**, and then select **Next**.
 1. On the **Create a basic bot** page, enter a name for your agent and select the primary language that it must use, and then select **Create**. The agent is created and listed on the **Bots** page. 
 1. Optionally, you can also add an existing agent if it's already created in Copilot Studio. The **Connect existing bot** option lets you connect the agent. The agent is connected after a few minutes and listed on the **Bots** page. The voice-enabled agent that you connected works with the enhanced voice workstream only.
@@ -53,5 +53,5 @@ On the **Bots** page, you can review the agent details and also perform the foll
 
 ### Related information
 
-[Get started with Customer Service admin center](../implement/cs-admin-center.md)  
+[Get started with Copilot Service admin center](../implement/cs-admin-center.md)  
 [Configure Copilot Studio bots for voice channel](voice-channel-pva-bots.md)  
