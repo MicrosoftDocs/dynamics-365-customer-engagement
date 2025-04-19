@@ -1,7 +1,7 @@
 ---
 title: Resolve, cancel, and reassign a case in Customer Service Hub 
 description: Understand Cases in Customer Service Hub for Dynamics 365 Customer Service.
-ms.date: 07/31/2024
+ms.date: 04/19/2025
 ms.topic: article
 author: neeranelli
 ms.author: nenellim
@@ -113,7 +113,7 @@ If you don’t have enough information to resolve a case, or if you think anothe
 
 ## Case resolution history
 
-Displays the case resolution history. If a case must be reopened, agents have the ability to view case history here.
+Displays the case resolution history. If a case must be reopened, customer service representatives have the ability to view case history here.
 
   > [!div class=mx-imgBorder]
   > ![status bar.](../media/case_resolution_16.png "status bar")
