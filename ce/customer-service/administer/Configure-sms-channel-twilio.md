@@ -1,7 +1,7 @@
 ---
 title: Configure an SMS channel for Twilio
 description: Learn how to configure an SMS channel for Twilio.
-ms.date: 03/03/2025
+ms.date: 04/19/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -20,7 +20,7 @@ The SMS channel through Twilio allows your organization to connect to customers 
 
 Make sure that the following prerequisites are met:
 
-- SMS for Twilio is provisioned in the Customer Service admin center or Contact Center admin center application. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
+- SMS for Twilio is provisioned in the Copilot Service admin center application. Learn more in [Provision channels](/dynamics365/contact-center/implement/provision-channels#set-up-channels).
  
 - A Twilio account with a phone number and subscription is available.
     > [!NOTE]
@@ -31,7 +31,7 @@ Make sure that the following prerequisites are met:
 
 An SMS channel is enabled within the application that's integrated with Twilio. This integration uses public APIs of Twilio to send and receive text messages.
 
-1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Customer Service admin center app.
+1. In your Twilio account, note the ACCOUNT SID and AUTH TOKEN values. These values are required to create the SMS configuration in the Copilot Service admin center app.
 
 2. Purchase support phone numbers through your Twilio account.
 
@@ -48,7 +48,7 @@ To configure the SMS channel, complete the following tasks:
 
 ### Configure the SMS number
 
-1. In the site map of Contact Center admin center or Customer Service admin center, go to **Customer support**, and then select **Channels**.
+1. In the site map of Copilot Center admin center, go to **Customer support**, and then select **Channels**.
     
 1. In **Accounts**, for **Messaging accounts**, select **Manage**.
 
