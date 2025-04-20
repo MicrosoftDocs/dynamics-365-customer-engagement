@@ -90,7 +90,7 @@ In this example, we model a skill on data in the **Products** table.
     :::image type="content" source="../media/custom-skill-added.png" alt-text="Screenshot of a product assigned to the new skill column." lightbox="../media/custom-skill-added.png":::
 
 1. Select **Save**.
-1. [Assign the skill to representatives](setup-skills-assign-agents.md#assign-agents-to-skill) as needed.
+1. [Assign the skill to representatives](setup-skills-assign-agents.md#assign-representatives-to-skill) as needed.
 
 Finally, add a condition based on the new skill to an [assignment rule](configure-assignment-rules.md).
 
