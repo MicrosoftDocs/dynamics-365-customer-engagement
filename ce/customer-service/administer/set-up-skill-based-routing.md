@@ -1,7 +1,7 @@
 ---
 title: Set up skill-based routing in unified routing
 description: Use the information to set up skill-based routing for unified routing in Customer Service.
-ms.date: 12/18/2024
+ms.date: 04/20/2025
 ms.topic: how-to
 author: neeranelli
 ms.author: nenellim
@@ -16,15 +16,15 @@ ms.custom: bap-template
 
 The steps to configure skill-based routing are as follows:
 
-1. [Create a rating model](setup-skills-assign-agents.md#create-a-rating-model).
-2. [Create skill types and skills](setup-skills-assign-agents.md#create-skill-types).
-3. [Assign representative to skills](setup-skills-assign-agents.md#assign-agents-to-skill).
+1. [Create a rating model](setup-skills-assign-representatives.md#create-a-rating-model).
+2. [Create skill types and skills](setup-skills-assign-representatives.md#create-skill-types).
+3. [Assign representatives to skills](setup-skills-assign-representatives.md#assign-representatives-to-skill).
 4. [Set exact or closest match as the default skill-matching algorithm for a workstream](create-workstreams.md#configure-work-distribution).
 5. Choose one of the following skill-classification methods:
    - [Author logical classification rules to attach skills for a workstream](configure-work-classification.md#create-logical-skill-classification-rulesets).
    - [Set up intelligent skill finder model](set-up-isf-model.md) and [author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
 6. [Choose out-of-the-box assignment method or author a custom assignment method for a queue](assignment-methods.md).
-7. [Enable skill control for the representative](allow-agents-update-skills.md).
+7. [Enable skill control for the representative](allow-representative-update-skills.md).
 
 ## How skills are matched
 
