@@ -24,7 +24,7 @@ The steps to configure skill-based routing are as follows:
    - [Author logical classification rules to attach skills for a workstream](configure-work-classification.md#create-logical-skill-classification-rulesets).
    - [Set up intelligent skill finder model](set-up-isf-model.md) and [author machine learning-based classification rules to attach skills](configure-work-classification.md#create-machine-learning-based-skill-classification-rulesets).
 6. [Choose out-of-the-box assignment method or author a custom assignment method for a queue](assignment-methods.md).
-7. [Enable skill control for the representative](allow-agent-update-skills.md).
+7. [Enable skill control for the representative](allow-agents-update-skills.md).
 
 ## How skills are matched
 
