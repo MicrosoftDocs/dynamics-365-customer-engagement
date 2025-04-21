@@ -1,7 +1,7 @@
 ---
 title: Assignment methods for queues
 description: Learn about the different assignment methods for queues and how you can use them in unified routing.
-ms.date: 04/03/2025
+ms.date: 04/21/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -105,7 +105,7 @@ Because least active routing considers the idle time of representatives across v
 
 Routing to the least-active representative assignment strategy helps in a balanced distribution of work items across representatives, and results in higher representative efficiency and improved customer satisfaction.
 
-You can also build a [custom report](model-customize-reports.md) to track an representative's "last capacity release time" and understand the assignment distribution across representatives.
+You can also build a [custom report](model-customize-reports.md) to track an representative's "last capacity release time" and understand the assignment distribution across representatives.  The data about the representative's last capacity release time is available in the "msdyn_agentchannelstateentity" Dataverse entity.
 
 > [!IMPORTANT]
 >
@@ -259,7 +259,7 @@ You can update the OData call as follows to modify the limit.
 
 [Configure assignment methods and rules](configure-assignment-rules.md)  
 [FAQ about unified routing in Customer Service, Omnichannel for Customer Service](unified-routing-faqs.md)  
-[Diagnostics for unified routing](unified-routing-diagnostics.md)  
+[Conversation diagnostics](configure-conversation-diagnostics.md)  
 [Create workstreams](create-workstreams.md)  
 [Create queues](queues-omnichannel.md)  
 [Set up unified routing for records](set-up-record-routing.md)  
