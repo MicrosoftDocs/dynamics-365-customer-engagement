@@ -58,7 +58,7 @@ The following procedure is an example of an agent script for a chat session. You
  
     | Field | Description | Example Value |
     |--------------------|------------------------------|-------------------------------------------|
-    | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
+    | Name | Provide a name for the agent script step; this appears for the agent at runtime. You can use slugs for specifying the name of the step. To learn more, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-scripts). | Example 1: Greet the customer. <br><br> Example 2: Hi {customer}  |
     |Unique Name |A unique identifier in the <*prefix*>_<*name*> format.<br>**Important:** The following are required for the unique name:<br><ul><li> The prefix can only be alphanumeric and its length must be between 3 to 8 characters.</li> <li>An underscore must be there between the prefix and name.</li></ul>| Greet_script|
     |Owner|By default, the signed in user is displayed as the owner.| Clay Roddy |
     |Agent script | The agent script for which the script step is being created.| Chat session script|
@@ -144,9 +144,9 @@ As an administrator, you need to configure the condition by using the automation
 
 The automation dictionary provides you certain data parameter keys that you can use to build your condition. These parameter keys are resolved and replaced by contextual values at runtime.
 
-To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-agent-scripts).
+To learn about the slugs for productivity tools, see [Slugs](automation-dictionary-keys.md#slugs-for-productivity-tools-macros-and-scripts).
 
-To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-agent-scripts).
+To learn more, see [Use the automation dictionary to pass data parameter keys](automation-dictionary-keys.md#pass-data-parameter-in-macros-and-scripts).
 
 ### Related information
 
