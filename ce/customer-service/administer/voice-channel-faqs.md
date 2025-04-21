@@ -3,7 +3,7 @@ title: FAQ about the voice channel
 description: Use this article to know answers to your frequently asked questions (FAQ) about the voice channel.
 author: neeranelli
 ms.author: nenellim
-ms.date: 12/14/2024
+ms.date: 04/21/2025
 ms.topic: conceptual
 ms.reviewer: nenellim
 ms.collection:
@@ -14,7 +14,7 @@ ms.custom: bap-template
 
 [!INCLUDE[cc-feature-availability-embedded-yes](../../includes/cc-feature-availability-embedded-yes.md)]
 
-[!INCLUDE[pva-rebrand](../../includes/cc-pva-rebrand.md)]
+[!INCLUDE[cc-rebrand-bot-agent](../../includes/cc-rebrand-bot-agent.md)]
 
 This article includes frequently asked questions (FAQ) about the voice channel.
 
@@ -22,13 +22,13 @@ This article includes frequently asked questions (FAQ) about the voice channel.
 
 ### Is it possible to enable voice integrations outside of the Omnichannel for Customer Service app, such as, by adding omnichannel capabilities to a customer's Dynamics 365 app?
 
-No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Customer Service workspace and Omnichannel for Customer Service (deprecated) apps only.
+No, the voice channel isn't supported in the other apps of Dynamics 365. It's supported in the Copilot Service workspace and Omnichannel for Customer Service (deprecated) apps only.
 
 ## Setup
 
 ### Is the voice channel PCI DSS compliant?
 
-The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Customer service representatives (service representative or representative) have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Representatives can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
+The voice channel is compliant with Payment Card Industry Data Security Standard (PCI DSS) today, but support for credit card data capture over voice isn't yet available. Customer service representatives (service representatives or representatives) have the ability to pause or resume call recording and transcription to avoid capturing sensitive information. Representatives can also pause transcription to avoid dual-tone multi-frequency (DTMF) tones being captured in the transcript. All data is stored in Dynamics 365 and can be scrubbed by the customer.
 
 ### Where does Azure Communication Services provide native PSTN services?
 
@@ -99,28 +99,28 @@ No, you can't recover your data and phone numbers after the voice trial organiza
 
 To understand the pricing calculation of various call scenarios, go to [Pricing scenarios for voice calling](voice-channel-pricing-scenarios.md).
 
-## Bots
+## AI agents
 
-### How can I set up an IVR bot in the voice channel?
+### How can I set up an IVR agent in the voice channel?
 
 Learn more in:
-- [Configure Copilot Studio bots for voice](../voice-channel-ivr-bots.md)
+- [Configure Copilot agents for voice](../voice-channel-ivr-bots.md)
 - [Integrate third-party IVR systems with voice channel](voice-channel-contextual-transfer-external-ivr.md)
 
 ### Why do my customers sometimes hear "Sorry! We couldn't serve you" when they call the contact center number?
 
-Sometimes, when a Copilot Studio bot isn't added or a representative is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend service representatives to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot Studio bot.
+Sometimes, when a Copilot AI agent isn't added or a representative is unable to answer the call, your customers will hear the message that they couldn't be served. We recommend service representatives to refresh their presence regularly to ensure their availability to customers. If the problem persists, reconnect your Copilot agent.
 
 ## Language
 
-### Should the language of the bot be the same as the primary language configured in the voice workstream?
+### Should the language of the agent be the same as the primary language configured in the voice workstream?
 
-Yes, the primary language of the bot must be the same as that of the voice workstream to which the bot is attached, but you can configure different geographic locales for the bot and the voice workstream to which it's attached. Let's consider an example where English is set as the primary language for the bot and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the bot; the bot will speak in English-UK as the workstream locale setting takes precedence.
+Yes, the primary language of the agent must be the same as that of the voice workstream to which it's attached, but you can configure different geographic locales for the agent and the related voice workstream. Let's consider an example where English is set as the primary language for the agent and its voice workstream. You can set different locales, such as **English-UK** in the voice workstream and **English-US** in the agent; it will speak in English-UK as the workstream locale setting takes precedence.
 
-You can transfer conversations from one bot to another with different primary languages. For example, you can transfer conversations from an English bot to a Spanish bot. But, if you configure different locales:
-- The bot's accuracy will depend on the similarities between the two locales. 
-- The preconfigured entities for the bot such as postal code might not be accurate. 
-- A bot-to-bot transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation  from an **English-UK** bot to an **English-US** bot can't happen. As a workaround, you can make the **English-UK** bot transfer the conversation to another phone number attached to a workstream to which the **English-US** bot is attached.
+You can transfer conversations from one agent to another with different primary languages. For example, you can transfer conversations from an English to a Spanish agent. But, if you configure different locales:
+- The agent's accuracy will depend on the similarities between the two locales. 
+- The preconfigured entities for the agent such as postal code might not be accurate. 
+- An agent-to-agent transfer of the conversation with the same language but two different locales isn't possible. For example, the transfer of a conversation from an **English-UK** to an **English-US** agent can't happen. As a workaround, you can make the **English-UK** agent transfer the conversation to another phone number attached to a workstream to which the **English-US** agent is attached.
 
 ## Disaster recovery
 
