@@ -1,6 +1,6 @@
 ---
 title: View notifications in Customer Service
-description: Learn about notifications and their types. Representatives will see notifications and screen pops in Customer Service apps.
+description: Learn about notifications and their types. Representatives see notifications and screen pops in Customer Service apps.
 ms.date: 04/21/2024
 ms.topic: article
 author: neeranelli
@@ -22,7 +22,7 @@ ms.custom:
 > Case information is applicable to Customer Service only.
 
 > [!IMPORTANT]
-> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature is not intended for use in making, and should not be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
+> This feature is intended to help customer service managers or supervisors enhance their team's performance and improve customer satisfaction. This feature isn't intended for use in making, and shouldn't be used to make decisions that affect the employment of an employee or group of employees, including compensation, rewards, seniority, or other rights or entitlements. Customers are solely responsible for using Dynamics 365 Customer Service, this feature, and any associated feature or service in compliance with all applicable laws, including laws relating to accessing individual employee analytics and monitoring, recording, and storing communications with end users. This also includes adequately notifying end users that their communications with representatives may be monitored, recorded, or stored and, as required by applicable laws, obtaining consent from end users before using the feature with them. Customers are also encouraged to have a mechanism in place to inform their representatives that their communications with end users may be monitored, recorded, or stored.
 
 A notification is a visual alert that appears each time you get a chat or an SMS conversation request from a customer. When you get the notification, you see the details about the customer with whom you're going to interact. When you accept the request, a session is started, and you can view the contextual information of the customer and case on the **Active Conversation** page.
 
@@ -92,19 +92,19 @@ You'll receive a voice call notification for an incoming call request after an i
 
 ## Incoming chat notifications
 
-You receive a notification for an incoming chat request. When you accept the chat request, you'll see details about the customer in the **Active Conversation** page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
+You receive a notification for an incoming chat request. When you accept the chat request, you see details about the customer in the **Active Conversation** page. A simultaneous session starts, and a chat window expands so you can exchange messages with the customer.
 
  > [!div class=mx-imgBorder]
  > ![Incoming chat notification.](../media/chat-notification-request.png "Incoming chat notification")  
 
-The details you'll see for a chat channel are as configured by your administrator.
+The details you see for a chat channel are as configured by your administrator.
 
 ## Case assignment notification
 
 > [!Note]
 > Case information is applicable to Customer Service only.
 
-If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you'll receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case will be assigned to you.
+If record routing is configured using unified routing and notifications are enabled, then when a case is assigned to you, you receive a notification with the open item option. You can't reject the assignment, and irrespective of the notification timeout, the case is assigned to you.
 
   > ![Case assignment notification.](../media/case-assignment-notification.png "Case assignment notification")
 
@@ -124,9 +124,9 @@ The details you see for an SMS channel are as configured by your administrator.
 > [!IMPORTANT]
 >
 > - The alert is displayed only when the missed notifications feature is enabled by your administrator.
-> - Missed notification alerts are not supported in Omnichannel for Customer Service on Unified Service Desk.
+> - Missed notification alerts aren't supported in Omnichannel for Customer Service on Unified Service Desk.
 
-When you don't respond to an incoming conversation notification, you'll see an alert at the top of your dashboard and your presence status will be set to inactive. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+When you don't respond to an incoming conversation notification, you see an alert at the top of your dashboard and your presence status is set to inactive. You can respond to the alert or change your status. Your presence is reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
  > [!div class=mx-imgBorder]
  > ![Missed notification alert.](../media/agent-missed-notification.png "Missed notification alert")
@@ -142,7 +142,7 @@ Sometimes, you might see that conversations have been assigned to you without no
 > [!Note]
 > Maximum session limit reached notification isn't supported in the embedded experience.
 
-When you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, you'll see an alert at the top of your dashboard and your presence status will be automatically set to **Do not disturb**. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+When you already have 10 sessions open, which is the maximum multi-session limit, and a new work item comes in, you see an alert at the top of your dashboard and your presence status is automatically set to **Do not disturb**. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
 :::image type="content" source="../media/maximum-session-limit-notification.png" alt-text="Maximum session limit reached notification":::
 
@@ -153,7 +153,7 @@ When you already have 10 sessions open, which is the maximum multi-session limit
 > - This alert is displayed only when the agent reject feature is enabled by your administrator.
 > - Agent reject notification alerts aren't supported in Omnichannel for Customer Service on Unified Service Desk.
 
-When you reject a work item notification, you'll see an alert at the top of your dashboard and your presence status will be set to **Do not disturb**. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
+When you reject a work item notification, you see an alert at the top of your dashboard and your presence status will be set to **Do not disturb**. You can respond to the alert or change your status. Your presence will be reset to the status that was last defined by the system. You won't be assigned new tasks until your presence is reset to a state in which you can be assigned tasks, which is based on the allowed presence set in the workstream. Your supervisor can also reset your presence.
 
 :::image type="content" source="../media/agent-reject-notification-message.png" alt-text="Agent reject notification":::
 
