@@ -1,7 +1,7 @@
 ---
 title: Frequently asked questions about unified routing
 description: Learn about the frequently asked questions (FAQs) for unified routing.
-ms.date: 02/04/2025
+ms.date: 04/21/2025
 ms.topic: conceptual
 author: neeranelli
 ms.author: nenellim
@@ -66,7 +66,7 @@ Yes. It's possible to reassign a case to another queue. On the case form, select
 
 ### Why can't I view the **Keep same agent for entire conversation** toggle in my **Work distribution settings** for a workstream related to cases?
 
-A case remains with the service representative that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the agent affinity toggle.
+A case remains with the service representative that it was initially assigned to and therefore the corresponding workstream for cases doesn't have the representative affinity toggle.
 
 ### How are unassigned work items in a queue handled if no matching representative is found?
 
@@ -90,7 +90,7 @@ Yes, you can update the limit. Learn more in [How the limit on offering a work i
 
 The representatives aren't offered the same conversation anymore after they decline it and are removed from priority but can be offered other conversations. However, if they're the only ones eligible, the system offers the same conversation up to three times or the configured limit.
 
-## Route to least-active agent
+## Route to least-active representative
 
 ### For which channel is the routing to least-active representative feature available?
 
@@ -106,7 +106,7 @@ If the last capacity release time is the same for two matching representatives, 
 
 ### How does routing to the least active representative work when a new representative signs in?
 
-When a new representative signs in to the Customer Service workspace app, their "last capacity release time" isn't available in the system. Therefore, the system considers that representative as the least active among the matched others, and assigns the next work item to them.
+When a new representative signs in to the Copilot Service workspace app, their "last capacity release time" isn't available in the system. Therefore, the system considers that representative as the least active among the matched others, and assigns the next work item to them.
 
 ## Intelligent skill finder
 
