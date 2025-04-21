@@ -55,7 +55,7 @@ Use a solution to manage your customizations so that you can easily deploy them 
 
 <a name="add-glossary"></a>
 
-## Train Copilot to understand your business terms (preview)
+## Add glossary to help Copilot understand your business terms (preview)
 
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-banner-section.md)]
 [!INCLUDE [preview-banner](~/../shared-content/shared/preview-includes/preview-note-d365.md)]
