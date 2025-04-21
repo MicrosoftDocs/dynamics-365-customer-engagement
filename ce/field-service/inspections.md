@@ -17,7 +17,7 @@ This article provides an example of creating an inspection using a maintenance c
 
 - The name of the inspection template can't be changed once it's published.
 - Previous versions of published templates aren't saved. If you revise a published template, once the revised template is published, the original template is no longer available.
-- If you create and then export an inspection template, don't make any changes to the JSON file and then import it. Otherwise, it can cause errors in the [out-of-the-box inspection flows](inspections-reporting.md#view-the-status-of-the-out-of-the-box-inspection-flows).
+- If you [create an inspection template](#create-inspection) in the UI and then **Export to json**, don't make any changes to the JSON file and then import it. Otherwise, it can cause errors in the [out-of-the-box inspection flows](inspections-reporting.md#view-the-status-of-the-out-of-the-box-inspection-flows).
 
 ## Prerequisites
 
