@@ -178,7 +178,7 @@ When the representative uses **Add to a queue** to transfer the case to a queue,
 
 ## Conversation diagnostics
 
-You can view the conversation diagnostics in App Insights. Learn more in [Configure conversation diagnostics (preview)](configure-conversation-diagnostics.md) and [Understand conversation diagnostics (preview)](converation-diagnositcs-subscenarios.md).
+You can view the conversation diagnostics in App Insights. Learn more in [Configure conversation diagnostics (preview)](configure-conversation-diagnostics.md) and [Understand conversation diagnostics (preview)](conversation-diagnostics-subscenarios.md).
 
 ### Related information
 
