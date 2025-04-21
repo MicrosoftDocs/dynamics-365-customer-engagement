@@ -36,7 +36,12 @@ You can customize the following aspects of the Copilot chat experience in Dynami
 > [!NOTE]
 >- This article applies only to Copilot in Dynamics 365 Sales. You can also customize Copilot in other model-driven apps. Learn more at [Customize Copilot chat using Copilot Studio(preview)](/power-apps/maker/model-driven-apps/customize-copilot-chat).
 >- Knowledge source is not yet supported for Copilot in Dynamics 365 Sales.
->- Copilot Studio license and agent editing permissions are required to customize Copilot in Dynamics 365 Sales. You can opt for the [Pay-as-you-go license](/microsoft-copilot-studio/billing-licensing#copilot-studio-pay-as-you-go-meter) for Copilot Studio as these customizations don't use messages. However, if you plan to use the license for other Copilot agents, review the [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing) before making a decision.
+
+## Prerequisites for customization
+
+- You must have the [Copilot Studio](https://copilotstudio.microsoft.com/) license to customize Copilot in Dynamics 365 Sales. You can opt for the [Pay-as-you-go license](/microsoft-copilot-studio/billing-licensing#copilot-studio-pay-as-you-go-meter) for Copilot Studio as these customizations don't use messages. However, if you plan to use the license for other Copilot agents, review the [Copilot Studio licensing](/microsoft-copilot-studio/billing-licensing) before making a decision.
+
+- You must have the permission to edit the Copilot in Dynamics 365 Sales agent.
 
 ## Customize Copilot using Copilot Studio
 
