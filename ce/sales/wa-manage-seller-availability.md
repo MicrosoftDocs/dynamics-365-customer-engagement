@@ -5,7 +5,7 @@ author: udaykirang
 ms.author: udag
 ms.reviewer: udag
 ms.topic: how-to
-ms.date: 03/15/2024
+ms.date: 04/16/2025
 ms.custom:
   - bap-template
   - ai-gen-docs-bap
@@ -39,7 +39,7 @@ To temporarily stop assigning sellers who are on vacation or otherwise unavailab
 
 Use the Work assignment settings to configure the sellers' work hours.
 
-1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **settings** .
+1. Go to **Sales insight settings** > **Sales accelerator** > **Work assignment** > **Settings** .
 
 1. In the **Work assignment settings** page, select the seller from the list and then select **Set availability**.
 
