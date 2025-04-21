@@ -1,7 +1,7 @@
 ---
-title: WhatsApp channel agent experience in Omnichannel for Customer Service
-description: Learn about the agent experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service.
-ms.date: 03/21/2024
+title: WhatsApp channel support experience in Omnichannel for Customer Service
+description: Learn about the support experience for conversations that come through WhatsApp channel in Omnichannel for Customer Service.
+ms.date: 04/21/2025
 author: neeranelli
 ms.author: nenellim
 ms.reviewer: nenellim
@@ -42,7 +42,7 @@ In the application, you can:
 - [Manage sessions](oc-manage-sessions.md)
 - [Manage applications](oc-manage-applications.md)
 - Use productivity tools
-    - [Use agent scripts](oc-agent-scripts.md)
+    - [Use scripts](oc-agent-scripts.md)
     - [View Smart assist cards](oc-smart-assist.md)
     - [Use productivity pane](../administer/productivity-pane.md)
 - [Create a record](oc-create-record.md)
