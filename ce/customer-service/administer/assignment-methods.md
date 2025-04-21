@@ -105,7 +105,7 @@ Because least active routing considers the idle time of representatives across v
 
 Routing to the least-active representative assignment strategy helps in a balanced distribution of work items across representatives, and results in higher representative efficiency and improved customer satisfaction.
 
-You can also build a [custom report](model-customize-reports.md) to track an representative's "last capacity release time" and understand the assignment distribution across representatives.  The data about the representative's last capacity release time is available in the "msdyn_agentchannelstateentity" Dataverse entity.
+You can also build a [custom report](model-customize-reports.md) to track an representative's "last capacity release time" and understand the assignment distribution across representatives.  The data about the representative's last capacity release time is available in the "msdyn_agentchannelstate" Dataverse entity.
 
 > [!IMPORTANT]
 >
