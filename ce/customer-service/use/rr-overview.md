@@ -5,7 +5,7 @@ author: Soumyasd27
 ms.author: sdas
 ms.reviewer: sdas
 ms.topic: conceptual
-ms.date: 03/12/2025
+ms.date: 04/02/2025
 ms.custom: bap-template
 ---
 
@@ -50,7 +50,7 @@ For example, a case that gets created automatically creates a conversation in th
 
 ## Filter information displayed on dashboard 
 
-Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Time**, **Agent**, **Agent status,** **Agent skill**, **Workstream**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**.
+Use the filters to drill down to KPIs across the dashboard. Adjust the filters based on the insights that you're looking for. The available filters include **Modified on**, **Agent**, **Agent status,** **Agent skill**, **Queue**, **Work item status,** **Work item skill**, and **Time zone**.
 
 ## Autorefresh 
 

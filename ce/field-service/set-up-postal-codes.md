@@ -1,7 +1,7 @@
 ---
 title: Set up postal codes
 description: Learn how to set up postal codes and relate them to territories in Dynamics 365 Field Service.
-ms.date: 04/16/2025
+ms.date: 04/18/2025
 ms.topic: how-to
 author: jshotts
 ms.author: jasonshotts
