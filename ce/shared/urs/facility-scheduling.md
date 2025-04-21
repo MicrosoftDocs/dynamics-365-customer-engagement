@@ -83,7 +83,7 @@ Create a facility resource to represent the repair shop, create a requirement to
 
 To view facility resources on the schedule board, filter by resource type and/or organizational units.
 
-:::image type="content" source="../../field-service/media/scheduling-facility-schedule-board-filter.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
+:::image type="content" source="../../field-service/media/scheduling-facility-schedule-board-filter.png" alt-text="Screenshot of a facility booking on the schedule board.":::
 
 Facility resources are displayed on the schedule board map based on the location of the related organizational unit.
 
@@ -93,9 +93,9 @@ Facility resources are displayed on the schedule board map based on the location
 
 An auto repair shop has 5 identical bays and schedulers don't need to book each bay specifically. They must, however, ensure that no more than 5 repairs are booked across all bays during any one time slot.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5.
+1. [Create a facility resource](#create-a-facility-resource). On the **Work Hours** tab, enable **Capacity** and set it to 5.
 
-1. [Create requirements](facility-scheduling.md#create-a-requirement-for-a-facility).
+1. [Create requirements](#create-a-requirement-for-a-facility).
 
 1. Book the requirements at the facility. When booking the facility resource, it shows as available and can be double-booked up to the capacity limit (in this case, 5 times).
 
@@ -106,7 +106,7 @@ An auto repair shop has 5 identical bays and schedulers don't need to book each 
 
 An auto repair shop offers transmission repairs including luxury cars. They have a mechanic that specializes in luxury cars. Schedulers want to schedule the specialized mechanic at their facility. You can associate a resource (user, account, or contact) to a facility.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop.
+1. [Create a facility resource](#create-a-facility-resource) for the auto repair shop.
 
 1. Create a resource to represent the specialized mechanic.
 
@@ -119,9 +119,9 @@ An auto repair shop offers transmission repairs including luxury cars. They have
    - Select **New Bookable Resource Association**.
    - Enter a name, timeframe, and select the mechanic resource for **Resource 1**.
 
-   :::image type="content" source="../../field-service/media/scheduling-facility-associate-resource.png" alt-text="Screenshot of a booking to a facility on the schedule board.":::
+   :::image type="content" source="../../field-service/media/scheduling-facility-associate-resource.png" alt-text="Screenshot the association between the mechanic resource and facility resource.":::
 
-1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility) with one requirement for the facility (doctor's office) and another requirement for the doctor resource. Set the **Work Location** on each requirement to **Facility**.
+1. [Create a requirement group](#create-a-requirement-for-a-facility) with one requirement for the facility (doctor's office) and another requirement for the doctor resource. Set the **Work Location** on each requirement to **Facility**.
 
    - Set **Select** to **All** so that all requirements must be met.
    - Set **Part of Same** to **Resource Tree** so that resources from different locations aren't recommended for work at this facility. As an example, a doctor associated with Facility B shouldn't be paired with Facility A. Find more details about this setting in the configuration considerations section of this article.
@@ -130,14 +130,14 @@ An auto repair shop offers transmission repairs including luxury cars. They have
 
    :::image type="content" source="../../field-service/media/scheduling-facility-schedule-board-2-resources.png" alt-text="Screenshot of two bookings for each requirement in the requirement group, one for the facility and one for the mechanic resource.":::
 
-> [!Note]
+> [!NOTE]
 > Travel time and distance are calculated as the time and distance for the customer to travel to the facility. There is no travel calculation considered for the mechanic resource, as it's assumed they will be at the facility at the required time.
 
 ## Scenario 3: Schedule a facility with 3 specific spaces
 
 An auto repair shop wants to schedule each individual bay at their facility. Create a pool of facilities to represent the auto repair shop and each individual bay.
 
-1. [Create a facility resource](facility-scheduling.md#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
+1. [Create a facility resource](#create-a-facility-resource) for the auto repair shop where the **Resource Type = Pool** and **Pool Type = Facility**.
 
 1. Create multiple facility resources to represent each bay.
 
@@ -151,31 +151,24 @@ An auto repair shop wants to schedule each individual bay at their facility. Cre
 
    :::image type="content" source="../../field-service/media/scheduling-facility-room-specific-children.png" alt-text="Screenshot of all bay resources related as children to the auto repair shop facility.":::
 
-1. [Create a requirement group](facility-scheduling.md#create-a-requirement-for-a-facility). In this example, we're looking for 2 specific bays within the same auto repair shop.
+1. [Create a requirement group](#create-a-requirement-for-a-facility). In this example, we're looking for 2 specific bays within the same auto repair shop. Create 2 requirements in the group.
 
    - Set **Part of Same** to **Same Location** to ensure each bay is at the same physical address.
    - For each requirement, set the **Resource Type** to **Facility**.
    - For each requirement, set the **Work Location** to **Facility** and the latitude and longitude fields for customer's location.
 
-> [!Note]
-> Latitude and longitude fields on all requirements within a group must be equal; updating the values on one requirement will update the others.
+   > [!NOTE]
+   > Latitude and longitude fields on all requirements within a group must be equal; updating the values on one requirement will update the others.
 
-### 5. Book the requirement group
-Select **Book** from the requirement group to trigger the schedule assistant.
+1. Book the requirement group. Two specific bays are recommended at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on the requirement records) and the location of the facility resources (resource children organizational units).
 
-> [!div class="mx-imgBorder"]
-> ![Screenshot of schedule assistant results showing pairs of two rooms each at the same location.](../../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png)
+   :::image type="content" source="../../field-service/media/scheduling-facility-schedule-assistant-specific-rooms.png" alt-text="Screenshot of schedule assistant results showing pairs of two bays each at the same location.":::
 
-In the preceding screenshot's results, two specific rooms are recommended at the same location. The travel time and distance is calculated from the customer's location (latitude and longitude values on the requirement records) and the location of the facility resources (resource children organizational units). 
+## Scenario 4: Schedule a facility with 5 specific rooms and 5 related resources
 
-## Scenario 5: Schedule a facility with 5 specific rooms and 5 related resources
+An auto repair shop wants to schedule specific bays at their facility to a pool of specialized mechanics who work at the facility. Create a pool of facilities  and a pool of mechanics.
 
-In this scenario, schedulers want to schedule specific rooms within a doctor's office to a pool of available pediatric doctors who work at the health clinic.
-
-This scenario is configured by creating a pool of facilities and a pool of doctors, and associating them together with **Resource Associations** (**msdyn_bookableresourceassociations**).
-
-
-### 1. Create a facility pool 
+1. Create a facility pool
  
 Using the same process we used in scenario 4, create a facility pool resource to represent the doctor's office. 
 
